@@ -8,7 +8,7 @@
 		const {
 			data: { subscription }
 		} = supabase.auth.onAuthStateChange(() => {
-			invalidateAll();
+			// invalidateAll();
 		});
 		return () => {
 			subscription.unsubscribe();

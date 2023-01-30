@@ -1,0 +1,216 @@
+:root {
+	--primary: #191970;
+	--primary_v: #0e0e3d;
+	--accent: #121212;
+	--accent_v: #221717;
+	--secondary: #f72585;
+	--secondary_v: #91174e;
+	--success: #f72585;
+	--info: #f3f3f4;
+	--warning: #fb8c00;
+	--error: #ff5252;
+
+	--block-spacing-vertical: calc(1rem * 2);
+	--block-spacing-vertical: calc(1rem * 2);
+	--block-spacing-horizontal: calc(1rem * 2);
+	--border-radius: 0.25rem;
+	--card-background-color: #fff;
+	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(27, 40, 50, 0.01698),
+		0.0335rem 0.067rem 0.402rem rgba(27, 40, 50, 0.024),
+		0.0625rem 0.125rem 0.75rem rgba(27, 40, 50, 0.03),
+		0.1125rem 0.225rem 1.35rem rgba(27, 40, 50, 0.036),
+		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
+		0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
+}
+
+$dark-300: hsl(213, 24%, 7%);
+$dark-200: hsl(222, 15%, 13%);
+$dark-100: hsl(222, 15%, 19%);
+$primary-300: hsl(149, 77%, 46%);
+$primary-200: hsl(149, 77%, 56%);
+$primary-100: hsl(149, 77%, 66%);
+$secondary-300: hsl(289, 90%, 53%);
+$secondary-200: hsl(289, 90%, 63%);
+$secondary-100: hsl(289, 90%, 73%);
+$gray: hsl(212, 15%, 48%);
+
+/* Write your global styles here, in PostCSS syntax */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+	margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+	height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+:--heading {
+	overflow-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root {
+	isolation: isolate;
+}
+
+body {
+	background: $dark-200;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+main {
+	padding: 2rem;
+	// text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	padding: 0 20px;
+}
+
+.auth-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	gap: 1rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: $dark-200;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 32px;
+}
+
+.btn {
+	color: $dark-300;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.btn-primary {
+	background-color: $primary-200;
+	color: $dark-300;
+
+	&:hover {
+		background-color: $primary-300;
+	}
+}
+
+.btn-secondary {
+	background-color: $secondary-200;
+	color: $dark-300;
+
+	&:hover {
+		background-color: $secondary-300;
+	}
+}
+
+input {
+	background-color: $dark-100;
+	border: $gray 2px solid;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 20px;
+
+	&:focus {
+		outline: $primary-300 2px solid;
+	}
+}
+
+.auth-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 400px;
+	min-width: 400px;
+	margin: 0 auto;
+
+	& label {
+		text-align: left;
+		padding-bottom: 2px;
+		font-size: 16px;
+	}
+}

@@ -1,7 +1,16 @@
-<script>
+<script lang="ts">
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
-	import github from '$lib/images/github.svg';
+
+	import account from '$lib/images/account-circle.svg'
+	import { supabase } from '$lib/supabase';
+
+	import { invalidateAll } from '$app/navigation';
+	import type { PageData } from './$types';
+	import { onMount } from 'svelte';
+	export let data: PageData;
+
+
 </script>
 
 <header>
@@ -19,7 +28,7 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/question') ? 'page' : undefined}>
+			<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
 				<a href="/questions">Questions</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
@@ -35,9 +44,11 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		{#if data && data?.session}
+		<a href="/account">
+			<img src={account} alt="Account" />
 		</a>
+		{/if}
 	</div>
 </header>
 

@@ -6,6 +6,7 @@
 	import type { PageData } from './$types';
 	import { enhance, type SubmitFunction } from '$app/forms';
 	import { supabase } from '$lib/supabase';
+	import { onMount } from 'svelte';
 
 	export let data: PageData;
 
@@ -16,6 +17,21 @@
 		}
 		cancel();
 	};
+
+	onMount(() => {
+		const {
+			data: { subscription }
+		} = supabase.auth.onAuthStateChange((event) => {
+			// invalidateAll();
+			if (event === 'PASSWORD_RECOVERY') {
+				// redirect user to the page where it creates a new password
+				return {
+					status: 302,
+					redirect: '/resetPassword'
+				};
+			}
+		});
+	});
 </script>
 
 <svelte:head>
@@ -27,9 +43,7 @@
 	<h1>9takes Home</h1>
 	{#if data.session}
 		<p>Welcome, {data.session.user.email}</p>
-		<form action="/logout" method="POST" use:enhance={submitLogout}>
-			<button type="submit" class="btn btn-primary">Logout</button>
-		</form>
+		
 	{:else}
 		<p>Let's learn how to register and login users!</p>
 		<div class="auth-buttons">
@@ -57,7 +71,8 @@
 
 	<Counter />
 </section> -->
-<style>
+<style lang="scss">
+	// @import '../scss/index.scss';
 	section {
 		display: flex;
 		flex-direction: column;

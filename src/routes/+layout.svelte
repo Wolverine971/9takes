@@ -1,36 +1,38 @@
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
-	import { supabase } from '$lib/supabase';
-	import { onMount } from 'svelte';
+	import type { PageData } from './$types';
 	import Header from './Header.svelte';
 	import './styles.css';
+	
 
-	onMount(() => {
-		const {
-			data: { subscription }
-		} = supabase.auth.onAuthStateChange(() => {
-			console.log('Auth state change detected');
-			invalidateAll();
-		});
-		return () => {
-			subscription.unsubscribe();
-		};
-	});
+	import instagram from '$lib/images/instagram.svg';
+	import twitter from '$lib/images/twitter.svg';
+	import { onMount } from 'svelte';
+	import { supabase } from '$lib/supabase';
+	import Toast from '$lib/components/molecules/Toast.svelte';
+
+	export let data: PageData;
 </script>
 
 <div class="app">
-	<Header />
-
+	<Header {data} />
+	<Toast />
 	<main>
 		<slot />
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<footer style="display: flex; flex-direction: row; justify-content:center;">
+		
+		<a href="https://www.instagram.com/9takesdotcom/">
+			<img src={instagram} alt="Instagram" class="icon" />
+		</a>
+		<a href="https://twitter.com/9takesdotcom">
+			<img src={twitter} alt="Twitter" class="icon" />
+		</a>
+
 	</footer>
 </div>
 
-<style>
+<style lang="scss">
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -54,6 +56,12 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+
+		& .icon {
+			width: 2em;
+			height: 2em;
+			object-fit: contain;
+		}
 	}
 
 	footer a {

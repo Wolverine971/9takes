@@ -105,3 +105,26 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+
+/* button {
+	border: double black;
+	border-radius: 1px 5px;
+}
+
+button:hover {
+	background-color: #c9c9c9;
+	cursor: pointer;
+} */
+
+/* .interact-expand {
+		z-index: 10;
+		border-radius: 1px 5px;
+		position: absolute;
+		top: 5px;
+		left: calc(100% - 75px);
+		border: double black;
+	}
+	.interact-expand:hover {
+		background-color: grey;
+		cursor: pointer;
+	} */

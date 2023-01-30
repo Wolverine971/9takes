@@ -1,4 +1,8 @@
 <script lang="ts">
+	import { redirect } from '@sveltejs/kit';
+	const goToForgotPassword = async () => {
+		redirect(300, '/forgotPassword');
+	};
 </script>
 
 <main>
@@ -10,4 +14,14 @@
 		<input type="password" name="password" />
 		<button class="btn btn-primary">Register</button>
 	</form>
+	<br />
+	<div>
+		<a href="/forgotPassword">Forgot Password</a>
+	</div>
 </main>
+
+
+
+<style lang="scss">
+
+</style>
