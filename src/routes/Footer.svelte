@@ -5,7 +5,7 @@
 </script>
 
 <footer class="footer">
-	<div>
+	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
@@ -40,6 +40,10 @@
 		padding: 0;
 		overflow: hidden;
 		gap: 10px;
+
+		li {
+			margin: 1rem;
+		}
 	}
 	footer {
 		display: flex;

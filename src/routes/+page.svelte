@@ -53,15 +53,10 @@
 </svelte:head>
 
 <main>
-	<section class="container">
+	<section class="container" style="padding: 0;">
 		<div class="header header-container">
 			<span />
-			<img
-				src={campfire}
-				alt="group gathered around a fire"
-				class="small-absolute"
-				style={transform}
-			/>
+			<img src={campfire} alt="group gathered around a fire" class="img-height" style={transform} />
 			<span />
 			<div style="text-align: center;" class="small-absolute">
 				<h1>9takes</h1>
@@ -98,6 +93,10 @@
 	.small-absolute {
 		border-radius: 5px;
 	}
+	.img-height {
+		// height: 100vh;
+		width: auto;
+	}
 
 	@media all and (max-width: 576px) {
 		.main {
@@ -107,23 +106,25 @@
 			position: absolute;
 		}
 		.header-container {
-			display: grid;
-			grid-template-columns: [first] 0% [second] 100% [line3] 0% [col4-start] 100% [five] 0% [end] !important;
-			grid-template-rows: [row1-start] 100vh;
-			justify-items: center;
-			align-items: center;
-			color: white;
+			display: block;
+			// display: fle;
+			// grid-template-columns: [first] 0% [second] 100% [line3] 0% [col4-start] 100% [five] 0% [end] !important;
+			// grid-template-rows: [row1-start] 100vh;
+			// justify-items: center;
+			// align-items: center;
+			// color: white;
 			width: 100%;
 		}
 		.container {
-			display: grid;
-			grid-template-areas:
-				'header'
-				'main'
-				'join'
-				'footer';
-			gap: 10px;
-			padding: 10px;
+			display: block;
+			// display: grid;
+			// grid-template-areas:
+			// 	'header'
+			// 	'main'
+			// 	'join'
+			// 	'footer';
+			// gap: 10px;
+			// padding: 10px;
 		}
 		main {
 			padding: 1rem;
@@ -139,9 +140,13 @@
 		// 	position: absolute;
 		// 	top: 200vh;
 		// }
+		.main {
+			// margin: 50vh auto;
+		}
 
 		.small-absolute {
 			position: absolute;
+			padding: 10px;
 		}
 		.header-container {
 			display: grid;
@@ -151,6 +156,7 @@
 			align-items: center;
 			color: white;
 			width: 100%;
+			overflow: hidden;
 		}
 		.container {
 			display: grid;
@@ -182,7 +188,7 @@
 	.join {
 		grid-area: join;
 		height: 20vh;
-		margin: 20px;
+		margin: 2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -222,22 +228,6 @@
 
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 
 	body::-webkit-scrollbar {

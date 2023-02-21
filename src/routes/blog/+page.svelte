@@ -217,6 +217,7 @@
 			text-overflow: clip;
 			white-space: nowrap;
 			overflow-x: clip;
+			overflow: hidden;
 		}
 		.row {
 			display: flex;

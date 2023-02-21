@@ -39,19 +39,14 @@
 <div class="form">
 	<h3>{cta}</h3>
 	<div class="form-row" style="margin-bottom: 5px;">
-		<input
-			type="text"
-			name="email"
-			bind:value={email}
-			placeholder="Email"
-			style="margin-bottom: 0;"
-		/>
+		<input type="text" name="email" bind:value={email} placeholder="Email" style="margin: 1rem" />
 
 		<input
 			type="button"
 			value="Send"
 			on:click={submit}
 			disabled={email.length ? false : true}
+			style="margin:0"
 			class:form-send={true}
 			class={email.length ? 'regular' : 'disabled'}
 		/>
@@ -69,43 +64,31 @@
 			align-items: center;
 			justify-content: center;
 		}
-		.form-send {
-			margin: 5px;
+		.error {
+			margin: 1rem;
 		}
 	}
-	.form-send {
-		margin-left: 5px;
-		margin-bottom: 0;
-	}
+
 	.form {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		margin: 20px;
 		justify-content: center;
-		margin-bottom: 1rem;
 	}
 	.form-row {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin: 1rem 1rem 0 1rem;
 	}
-	.form-row > * {
-		margin-right: 0.5rem;
-	}
+
 	.hidden {
 		visibility: hidden;
 	}
 	.disabled {
 		border: pink 2px solid;
-		// color: pink;
 	}
 	.error {
-		border: #ff2c50 2px solid;
-		border-radius: 3px;
-		margin: 3px;
-		padding: 3px;
 		color: #ff2c50;
 	}
 </style>

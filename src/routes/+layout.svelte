@@ -15,7 +15,7 @@
 	{/if}
 
 	<Toast />
-	<main class={$page.url.pathname !== '/' ? 'column-width' : ''}>
+	<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
 		<slot />
 	</main>
 	{#if $page.url.pathname !== '/'}
@@ -43,6 +43,10 @@
 	}
 	.column-width {
 		max-width: 64rem;
+	}
+	.column {
+		padding: 0;
+		margin: 0;
 	}
 	body::-webkit-scrollbar {
 		width: 4px;

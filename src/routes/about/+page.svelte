@@ -62,7 +62,7 @@
 		</div>
 	</div>
 </div>
-<div style="margin:20px;">
+<div style="margin:2rem;">
 	<CollectEmail cta={'Join Waitlist'} />
 </div>
 
