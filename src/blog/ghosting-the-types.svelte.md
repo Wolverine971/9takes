@@ -32,12 +32,6 @@ blog: true
   
    <a href="/blog/1" class="a-type">Type 1</a>
    <p>The enneagram 1 is a beautiful creature</p>
-   <p>Type Ones, known for their strong sense of morality and desire for improvement, may struggle
-   with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
-   personal failure, believing that they could have done something differently to prevent the
-   ghosting from happening. To cope with these feelings, Ones may benefit from taking a step back
-   and looking at the situation objectively. They may also want to focus on self-compassion and
-   self-care, reminding themselves that they are not to blame for the other person's actions.</p>
 
   </aside>
  </section>
@@ -231,6 +225,7 @@ possible with self-compassion and care.
         border-left: 4px solid slategrey;
 
     }
+    
 
     .section-meta:hover {
         /*transform: rotate(360deg);*/
@@ -275,5 +270,37 @@ possible with self-compassion and care.
     aside::-webkit-scrollbar-thumb {
         background-color: slategrey;
         /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /* transition: transform .7s ease-in-out; */
+            /* flex: 1; */
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+            
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
     }
 </style>

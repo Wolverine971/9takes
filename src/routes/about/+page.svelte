@@ -36,13 +36,41 @@
 </div>
 
 <div style="margin:20px;">
-	<h2>Profiles</h2>
+	<h2 style="text-align: center;">People Behind 9takes</h2>
+	<div class="row">
+		<div>
+			<h3>DJ Wayne</h3>
+			<ul>
+				<li>
+					<a href="https://github.com/Wolverine971">Github</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/djwayne3">Twitter</a>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<h3>Anna Wayne</h3>
+			<ul>
+				<li>
+					<a href="https://glittergraveyard.squarespace.com/">Blog</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/glittrgraveyard/">Instagram</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>
 <div style="margin:20px;">
 	<CollectEmail cta={'Join Waitlist'} />
 </div>
 
 <style lang="scss">
+	.row {
+		display: flex;
+		justify-content: space-around;
+	}
 	p {
 		margin: 1em;
 	}

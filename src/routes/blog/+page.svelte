@@ -12,9 +12,9 @@
 
 <h1 style="text-align: center;">9takes Blogs</h1>
 <div class=" blog-list">
-	<div class="  row">
+	<div class="row">
 		<div class="column">
-			<h2>Enneagram Overview</h2>
+			<h2 style="margin:10px">Enneagram Overview</h2>
 			<div>
 				<h2 id="understanding-the-enneagram-an-introduction">
 					<!-- <a href="#understanding-the-enneagram-an-introduction"
@@ -122,7 +122,10 @@
 		</div>
 
 		<div class="column">
-			<h2>Why 9takes</h2>
+			<h2 style="margin:10px">Why 9takes</h2>
+			<div>
+				<p>Coming soon</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -218,6 +221,7 @@
 		.row {
 			display: flex;
 			flex-direction: row;
+			justify-content: center;
 			flex-wrap: wrap;
 			width: 100%;
 			padding: 0 10%;
@@ -229,6 +233,23 @@
 			flex-basis: 100%;
 			flex: 1;
 			align-items: center;
+		}
+
+		@media all and (max-width: 576px) {
+			.row {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				padding: 0 10%;
+			}
+
+			.column {
+				display: flex;
+				flex-direction: column;
+				flex-basis: 100%;
+				flex: 1;
+				align-items: center;
+			}
 		}
 	}
 </style>

@@ -100,6 +100,9 @@
 	}
 
 	@media all and (max-width: 576px) {
+		.main {
+			text-align: center;
+		}
 		.small-absolute {
 			position: absolute;
 		}
