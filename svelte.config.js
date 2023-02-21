@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
 import path, { dirname } from 'path';
@@ -38,7 +38,10 @@ const config = {
 	// scss: { includePaths: ['./src/scss/index'] },
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		csrf: {
+			checkOrigin: false
+		}
 	}
 };
 

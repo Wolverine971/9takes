@@ -19,18 +19,6 @@
 	};
 
 	onMount(() => {
-		const {
-			data: { subscription }
-		} = supabase.auth.onAuthStateChange((event) => {
-			// invalidateAll();
-			if (event === 'PASSWORD_RECOVERY') {
-				// redirect user to the page where it creates a new password
-				return {
-					status: 302,
-					redirect: '/resetPassword'
-				};
-			}
-		});
 		height = window.innerHeight;
 		window.onscroll = function () {
 			scroll();

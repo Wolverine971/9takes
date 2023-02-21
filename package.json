@@ -58,6 +58,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-node": "^1.2.0",
 		"mermaid": "^9.3.0",
 		"natural": "^6.2.0",
 		"rehype-autolink-headings": "^6.1.1",
