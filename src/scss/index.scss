@@ -187,11 +187,10 @@ main {
 }
 
 input {
-	background-color: $dark-100;
 	border: $gray 2px solid;
 	border-radius: 5px;
 	padding: 10px 20px;
-	color: #ffffff;
+	color: $dark-100;
 	font-size: 16px;
 	margin-bottom: 20px;
 
@@ -208,9 +207,23 @@ input {
 	min-width: 400px;
 	margin: 0 auto;
 
-	& label {
-		text-align: left;
-		padding-bottom: 2px;
-		font-size: 16px;
-	}
+	// & label {
+	// 	text-align: left;
+	// 	padding-bottom: 2px;
+	// 	font-size: 16px;
+	// }
+}
+
+.big-a:hover {
+	text-decoration: none;
+}
+.article-preview {
+	max-width: none;
+	height: clamp(1rem, 145px, 12rem);
+	width: clamp(1rem, 345px, 32rem);
+}
+.preview {
+	text-overflow: clip;
+	white-space: nowrap;
+	overflow-x: clip;
 }

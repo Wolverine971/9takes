@@ -11,4 +11,8 @@
 		background: var(--card-background-color);
 		box-shadow: var(--card-box-shadow);
 	}
+	article:hover {
+		border: 2px solid grey;
+		// cursor: pointer;
+	}
 </style>

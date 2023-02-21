@@ -29,7 +29,6 @@
 				body
 			}).then((response) => response.json());
 
-			console.log(resp);
 			getModal().close();
 		} catch (error) {
 			console.error(error);
@@ -59,21 +58,19 @@
 	<h1 style="color: white">Create Question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
 		<input type="text" name="question" placeholder="Question" bind:value={question} />
-		<button class="btn btn-primary" type="button"  on:click={getUrl}> Create Question </button>
+		<button class="btn btn-primary" type="button" on:click={getUrl}> Create Question </button>
 	</form>
 
 	<Modal2>
 		<div>
 			<p>modal</p>
 			<p>Url: {url}</p>
-			<button class="btn btn-primary" type="button"  on:click={createQuestion}> Create Question </button>
+			<button class="btn btn-primary" type="button" on:click={createQuestion}>
+				Create Question
+			</button>
 		</div>
 	</Modal2>
 </main>
 
-
-
 <style lang="scss">
-
-
 </style>

@@ -1,31 +1,49 @@
+<script>
+	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
+</script>
+
 <svelte:head>
 	<title>About</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="About 9takes" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>About 9takes</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		At 9takes, we understand that everyone is unique and has their own perspectives, thoughts, and
+		emotions. Despite this, we often expect others to react in the same way that we do. This can
+		lead to misunderstandings and conflicts, as we struggle to navigate differences in opinions and
+		perspectives.
 	</p>
-
-	<pre>npm create svelte@latest</pre>
-
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		It's natural to feel upset or frustrated when someone does something we disagree with, but it's
+		important to remember that their actions may not have been intentional. The tendency to take
+		offense stems from our expectation that others should think, feel, and act just like us.
 	</p>
-
 	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		People are complex and diverse, and no two individuals are exactly alike. While we may share
+		similarities with some people, others may be vastly different from us. It's these differences
+		that can cause feelings of anger, anxiety, or inferiority, when we believe others should conform
+		to our own way of thinking and feeling.
+	</p>
+	<p>
+		At 9takes, we embrace the diversity of individuals and strive to understand and respect the
+		unique perspectives that each person brings to the table. In a world where people are different,
+		we aim to foster a deeper understanding of one another and create a space where everyone can
+		feel seen, heard, and valued.
 	</p>
 </div>
 
+<div style="margin:20px;">
+	<h2>Profiles</h2>
+</div>
+<div style="margin:20px;">
+	<CollectEmail cta={'Join Waitlist'} />
+</div>
 
 <style lang="scss">
-
+	p {
+		margin: 1em;
+	}
 </style>

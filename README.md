@@ -22,3 +22,6 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 ## Generating SUPABASE TYPES
 https://supabase.com/docs/guides/api/generating-types
 `npx supabase gen types typescript --project-id "nhjjzcsnmyotyhykbajc" --schema public > src/schema.ts`
+
+## Markdown
+https://github.com/mvasigh/sveltekit-mdsvex-blog/blob/main/src/lib/components/ArticleTitle.svelte

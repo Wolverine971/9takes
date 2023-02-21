@@ -4,6 +4,8 @@ import preprocess from 'svelte-preprocess';
 import path, { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+import mdsvexConfig from './mdsvex.config.js';
+import { mdsvex } from 'mdsvex';
 // import svelte from 'rollup-plugin-svelte'
 // + import sveltePreprocess from 'svelte-preprocess';
 
@@ -17,8 +19,10 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		vitePreprocess(),
+		mdsvex(mdsvexConfig),
 		preprocess({
 			postcss: true,
+			preserve: ['ld+json'],
 			// scss: {
 			// 	prependData: `@import '${sassPath}index.scss';`
 			// }
@@ -27,6 +31,7 @@ const config = {
 			}
 		})
 	],
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	css: (css) => {
 		css.write('public/bundle.css');
 	},

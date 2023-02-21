@@ -3,8 +3,6 @@ import type { PostgrestResponse } from '@supabase/supabase-js';
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }: { params: any }) {
-	console.log(params);
-
 	const {
 		data: question,
 		error,
@@ -69,7 +67,6 @@ import { fail, json } from '@sveltejs/kit';
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
 		try {
-			console.log('create comment');
 			const body = Object.fromEntries(await request.formData());
 
 			const comment = body.comment as string;
@@ -88,7 +85,6 @@ export const actions: Actions = {
 
 			const { data, error: addCommentError } = await supabase.from('comments').insert(commentData);
 			let newIncrement;
-			console.log(parent_type);
 			if (parent_type === 'comment') {
 				// const { data, error:  } = await supabase
 				// 	.from('comments')

@@ -14,7 +14,6 @@
 	let email = '';
 	const reset = async ({}) => {
 		const { data, error } = await supabase.auth.resetPasswordForEmail(email);
-		console.log(data);
 		if (data) {
 			redirect(300, 'login');
 			// const showToast = () => {
@@ -23,7 +22,6 @@
 
 		if (error) {
 			if (error?.msg) {
-				console.log(data?.msg);
 				notifications.danger(data?.msg, 6000);
 			} else {
 				notifications.danger('Error resetting password', 6000);
@@ -44,8 +42,5 @@
 	</form>
 </main>
 
-
 <style lang="scss">
-
-
 </style>

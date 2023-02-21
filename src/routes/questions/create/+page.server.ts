@@ -31,8 +31,6 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
-		console.log(body);
-
 		const questionData = {
 			question: question,
 			author_id: author_id,
@@ -40,10 +38,8 @@ export const actions: Actions = {
 			url: url,
 			img_url: img_url
 		};
-		console.log(questionData);
 
 		const resp = await supabase.from('questions').insert(questionData);
-		console.log('supabase resp ' + resp);
 		if (resp?.data) {
 			return resp.data;
 		} else {

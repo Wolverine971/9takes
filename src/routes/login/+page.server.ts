@@ -6,10 +6,6 @@ export const actions: Actions = {
 	login: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
 
-		console.log('login');
-		console.log(body.email);
-		console.log(body.password);
-
 		const { data, error: err } = await locals.sb.auth.signInWithPassword({
 			email: body.email as string,
 			password: body.password as string

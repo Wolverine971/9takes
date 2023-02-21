@@ -22,7 +22,6 @@
 
 		if (error) {
 			if (error?.msg) {
-				console.log(data?.msg);
 				notifications.danger('Error Changeing Password', 3000);
 			}
 			console.log(error);
@@ -41,8 +40,5 @@
 	</form>
 </main>
 
-
 <style lang="scss">
-
-
 </style>

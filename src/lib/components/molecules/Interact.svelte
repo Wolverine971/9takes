@@ -16,7 +16,6 @@
 	export let parentType: string;
 
 	export async function createComment() {
-
 		var body = new FormData();
 		if (parentType === 'comment') {
 			body.append('comment', comment);
@@ -33,14 +32,11 @@
 		const resp = await fetch('?/createComment', {
 			method: 'POST',
 			body
-		})
-			.then(async (response) => {
-				const data = deserialize(await response.text());
-				console.log('Success:', data);
-				console.log(data);
+		}).then(async (response) => {
+			const data = deserialize(await response.text());
 
-				notifications.info('Comment Added', 3000);
-			});
+			notifications.info('Comment Added', 3000);
+		});
 		comment = '';
 	}
 	const expand = () => {
@@ -54,7 +50,7 @@
 			<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={comment} />
 		</div>
 		<button
-		class="btn btn-primary"
+			class="btn btn-primary"
 			type="button"
 			on:click={createComment}
 			disabled={comment?.length < 1}
@@ -64,10 +60,8 @@
 	</form>
 </div>
 
-
-
 <style lang="scss">
-.interact-text-container {
+	.interact-text-container {
 		position: relative;
 		width: 100%;
 		height: 100px;
@@ -89,5 +83,4 @@
 	}
 	.interact-button {
 	}
-
 </style>

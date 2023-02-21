@@ -1,0 +1,279 @@
+---
+title: 'Impact of Ghosting on Mental Health: An Enneagram Perspective'
+description: "How each type handles being ghosted"
+author: 'DJ Wayne'
+date: '2023-02-10'
+published: true
+blog: true
+---
+
+    
+
+    Ghosting, or the sudden and unexplained ending of a relationship or connection, can have a significant impact on an
+    individual's mental health. It can leave individuals feeling confused, rejected, and abandoned. However, it's
+    important to remember that everyone experiences and deals with ghosting differently. In this article, we will
+    explore the impact of ghosting on mental health from an Enneagram perspective. We will look at how each Enneagram
+    type may experience and cope with ghosting, as well as provide strategies for healing and moving forward.
+
+<section class="section-main">
+
+  <section class="section-content">
+  <h3>Type One: The Perfectionist</h3>
+   Type Ones, known for their strong sense of morality and desire for improvement, may struggle
+   with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
+   personal failure, believing that they could have done something differently to prevent the
+   ghosting from happening. To cope with these feelings, Ones may benefit from taking a step back
+   and looking at the situation objectively. They may also want to focus on self-compassion and
+   self-care, reminding themselves that they are not to blame for the other person's actions.
+  </section>
+
+<!-- <hr class="border"/>  -->
+  <aside class="section-meta">
+  
+   <a href="/blog/1" class="a-type">Type 1</a>
+   <p>The enneagram 1 is a beautiful creature</p>
+   <p>Type Ones, known for their strong sense of morality and desire for improvement, may struggle
+   with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
+   personal failure, believing that they could have done something differently to prevent the
+   ghosting from happening. To cope with these feelings, Ones may benefit from taking a step back
+   and looking at the situation objectively. They may also want to focus on self-compassion and
+   self-care, reminding themselves that they are not to blame for the other person's actions.</p>
+
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Two: The Helper</h3>
+
+   Type Twos, known for their generosity and desire to help others, may struggle with feelings of
+   rejection and abandonment when ghosted. They may also feel a sense of confusion and
+   uncertainty, as they may have believed the relationship was going well. To cope with these
+   feelings, Twos may benefit from talking to a trusted friend or therapist about their
+   experience. They may also want to focus on self-compassion and self-care, reminding themselves
+   that they are worthy of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/2" class="a-type">Type 2</a>
+   <p>The enneagram 2 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Three: The Achiever</h3>
+
+   Type Threes, known for their ambition and desire for success, may struggle with feelings of
+   failure and disappointment when ghosted. They may also feel a sense of embarrassment,
+   believing that being ghosted is a reflection of their own inadequacy. To cope with these
+   feelings, Threes may benefit from focusing on their accomplishments and successes. They may
+   also want to focus on self-compassion and self-care, reminding themselves that they are worthy
+   of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/3" class="a-type">Type 3</a>
+   <p>The enneagram 3 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Four: The Individualist</h3>
+
+   Type Fours, known for their sensitivity and desire for authenticity, may struggle with
+   feelings of rejection and abandonment when ghosted. They may also feel a sense of confusion
+   and uncertainty, as they may have believed the relationship was going well. To cope with these
+   feelings, Fours may benefit from talking to a trusted friend or therapist about their
+   experience. They may also want to focus on self-compassion and self-care, reminding themselves
+   that they are worthy of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/4" class="a-type">Type 4</a>
+   <p>The enneagram 4 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Five: The Investigator</h3>
+
+   Type Fives, known for their intellect and desire for knowledge, may struggle with feelings of
+   betrayal and disappointment when ghosted. They may also feel a sense of confusion and
+   uncertainty, as they may have believed the relationship was going well. To cope with these
+   feelings, Fives may benefit from talking to a trusted friend or therapist about their
+   experience. They may also want to focus on self-compassion and self-care, reminding themselves
+   that they are worthy of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/5" class="a-type">Type 5</a>
+   <p>The enneagram 5 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Six: The Loyalist</h3>
+
+   Type Sixes, known for their loyalty and desire for security, may struggle with feelings of
+   betrayal and disappointment when ghosted. They may also feel a sense of confusion and
+   uncertainty, as they may have believed the relationship was going well. To cope with these
+   feelings, Sixes may benefit from talking to a trusted friend or therapist about their
+   experience. They may also want to focus on self-compassion and self-care, reminding themselves
+   that they are worthy of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/6" class="a-type">Type 6</a>
+   <p>The enneagram 6 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Seven: The Enthusiast</h3>
+
+   Type Sevens, known for their optimism and desire for adventure, may struggle with feelings of
+   disappointment and boredom when ghosted. They may also feel a sense of restlessness, as they
+   may have been looking forward to the potential new experiences and excitement the relationship
+   could bring. To cope with these feelings, Sevens may benefit from finding new hobbies or
+   activities to fill their time and bring joy. They may also want to focus on self-compassion
+   and self-care, reminding themselves that they are worthy of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/7" class="a-type">Type 7</a>
+   <p>The enneagram 7 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Eight: The Challenger</h3>
+
+   Type Eights, known for their confidence and desire for control, may struggle with feelings of
+   anger and resentment when ghosted. They may also feel a sense of vulnerability, as they may
+   have believed they had the situation under control. To cope with these feelings, Eights may
+   benefit from channeling their anger into healthy outlets such as exercise or writing. They may
+   also want to focus on self-compassion and self-care, reminding themselves that they are worthy
+   of love and respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/8" class="a-type">Type 8</a>
+   <p>The enneagram 8 is a beautiful creature</p>
+  </aside>
+ </section>
+
+ <section class="section-main">
+  <section class="section-content">
+   <h3>Type Nine: The Peacemaker</h3>
+
+   Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings
+   of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may
+   have believed the relationship was going well. To cope with these feelings, Nines may benefit
+   from talking to a trusted friend or therapist about their experience. They may also want to
+   focus on self-compassion and self-care, reminding themselves that they are worthy of love and
+   respect.
+  </section>
+
+  <aside class="section-meta">
+   <a href="/blog/9" class="a-type">Type 9</a>
+   <p>The enneagram 9 is a beautiful creature</p>
+  </aside>
+ </section>
+
+It's important to remember that everyone's experience and coping mechanisms are unique, and that the Enneagram is just
+one tool for understanding behavior and personality. If you're struggling with the impact of ghosting on your mental
+health, it's important to seek out professional help and support. With time, self-compassion, and care, you can heal and
+move forward.
+
+In conclusion, ghosting can have a significant impact on mental health, and it's important to understand that everyone
+experiences it differently. By understanding how each Enneagram type may experience and cope with ghosting, we can gain
+insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
+possible with self-compassion and care.
+
+<style lang="scss">
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /* background-color: hsl(222, 15%, 19%); */
+        border: hsl(212, 15%, 48%) 2px solid;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+</style>

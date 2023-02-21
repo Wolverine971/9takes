@@ -24,16 +24,13 @@ export async function GET({
 	const parentId = Number(url.searchParams.get('parentId') ?? '0');
 
 	const type = url.searchParams.get('type') as string;
-	console.log(type);
 
 	const { data: canSee, error: canSeeError } = await supabase.rpc('can_see_comments', {
 		questionid: parentId,
 		userid: locals.session.user.id,
 		userip: getClientAddress()
 	});
-	console.log('can see ' + canSee);
 
-	console.log('questionComments');
 	let { data: questionComments, error: questionError } = await supabase
 		.from('comments')
 		.select('*', { count: 'exact' })
@@ -70,7 +67,6 @@ export async function GET({
 		});
 	}
 
-	console.log('supabase resp ' + questionComments);
 	if (!questionError && questionComments?.length) {
 		return json(questionComments);
 	} else {

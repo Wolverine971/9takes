@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Database } from 'src/schema';
+	// import type { Database } from 'src/schema';
 	import Card from '../atoms/card.svelte';
 	import Comments from './Comments.svelte';
 	import Interact from './Interact.svelte';
@@ -8,12 +8,9 @@
 	let commentComment: any = null;
 	if (comment?.id) {
 		commentComment = Object.assign({}, comment);
-
 	}
 
 	let comments = [];
-
-	
 </script>
 
 <Card>
@@ -26,7 +23,5 @@
 	</div>
 </Card>
 
-
 <style lang="scss">
-
-	</style>
+</style>
