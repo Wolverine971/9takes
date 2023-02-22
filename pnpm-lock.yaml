@@ -16,6 +16,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.45.0
   autoprefixer: ^10.4.2
   axios: ^1.2.2
+  dotenv: ^16.0.3
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -47,6 +48,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.2.0_@sveltejs+kit@1.0.1
+  dotenv: 16.0.3
   mermaid: 9.3.0
   natural: 6.2.0
   rehype-autolink-headings: 6.1.1
@@ -1862,6 +1864,11 @@ packages:
 
   /dompurify/2.4.1:
     resolution: {integrity: sha512-ewwFzHzrrneRjxzmK6oVz/rZn9VWspGFRDb4/rRtIsM1n36t9AKma/ye8syCpcw+XJ25kOK/hOG7t1j2I2yBqA==}
+    dev: false
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /electron-to-chromium/1.4.284:

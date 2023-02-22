@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { env } from '$env/dynamic/public';
+	import { PUBLIC_GOOGLE } from '$env/static/public';
+
 
 	$: {
 		if (typeof gtag !== 'undefined') {
@@ -13,7 +15,8 @@
 </script>
 
 <svelte:head>
-	<script async src={`https://www.googletagmanager.com/gtag/js?id=${env.GOOGLE}`}>
+	<script async src={`https://www.googletagmanager.com/gtag/js?id=${env.PUBLIC_GOOGLE || PUBLIC_GOOGLE}`}>
+	</script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 
@@ -22,6 +25,7 @@
 		}
 
 		gtag('js', new Date());
-		gtag('config', env.GOOGLE);
+		gtag('config', env.PUBLIC_GOOGLE || PUBLIC_GOOGLE);
 	</script>
+
 </svelte:head>
