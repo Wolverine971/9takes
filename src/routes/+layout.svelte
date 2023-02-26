@@ -4,12 +4,15 @@
 	import './styles.css';
 
 	import Toast from '$lib/components/molecules/Toast.svelte';
+	import Analytics from '$lib/analytics.svelte';
 	import { page } from '$app/stores';
 	import Footer from './Footer.svelte';
 	export let data: PageData;
 </script>
 
 <div class="app">
+
+<Analytics />
 	{#if $page.url.pathname !== '/'}
 		<Header {data} />
 	{/if}

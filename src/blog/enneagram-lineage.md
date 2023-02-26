@@ -29,7 +29,7 @@ Both Freud and Plato discuss the interplay of the of these three eerily similar 
 In conclusion, the Enneagram's ideas of the head, heart, and instincts can be traced back to the work of Sigmund Freud and his theory of the psyche, and even further back to the philosophy of Plato and his concept of the human soul. Each of these theories emphasizes the importance of understanding the different aspects of the human psyche and how they shape our thoughts, feelings, and behaviors.
 
 <img
-    src="/src/lib/images/freud-plato.png"
+    src="/freud-plato.png"
     alt="freud and plato"
     class="small-absolute"
    />
@@ -53,7 +53,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.yourwebsite.com/blog/the-enneagram-understanding-personality-types-through-the-head-heart-and-instincts"
+    "@id": "https://9takes.com/blog/the-enneagram-understanding-personality-types-through-the-head-heart-and-instincts"
   },
   "image": {
     "@type": "ImageObject",
