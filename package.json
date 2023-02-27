@@ -17,6 +17,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
+		"postbuild": "pnpm svelte-sitemap --domain https://9takes.com",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
@@ -67,6 +68,7 @@
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^11.2.4",
-		"stemmer": "^2.0.1"
+		"stemmer": "^2.0.1",
+		"svelte-sitemap": "^2.6.0"
 	}
 }

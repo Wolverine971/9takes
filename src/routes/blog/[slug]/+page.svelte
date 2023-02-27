@@ -11,8 +11,6 @@
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
 	$: component = data.component as unknown as C;
-
-	console.log(data);
 </script>
 
 <div style="align-items: inherit;">

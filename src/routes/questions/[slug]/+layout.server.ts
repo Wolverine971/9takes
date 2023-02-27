@@ -16,7 +16,6 @@ export async function load({
 		.from('questions')
 		.select('id, comments(parent_id)')
 		.eq('url', params.slug);
-	console.log(questionComments);
 
 	return {
 		flags: {
