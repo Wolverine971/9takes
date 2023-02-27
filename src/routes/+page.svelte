@@ -66,37 +66,35 @@
 			<span />
 		</div>
 		<div class="main">
-				<h3>What are we building?</h3>
-				<p>For the intial launch:</p>
-				<ul>
-					<li>A question and answering community.</li>
-				</ul>
-	
-				<h3>Why questions and answers?</h3>
-				<p>To find people that think feel and act like you and to explore everyone else.</p>
-	
-				<h3>How will this be different?</h3>
-				<p>Its kinda a social experiment.</p>
-				<ul>
-					<li>
-						Comments are not visible until you comment, this allows people to give original takes on
-						questions without outside influence.
-					</li>
-					<li>Everyone is default anonomyous --> you can DM others and optionally reveal yourself</li>
-					<li>
-						The only thing that identifies you publically is your enneagram personality type -->
-						overtime you will find and learn what yours is.
-					</li>
-				</ul>
-	
-				<h3>When you are with your people it be like</h3>
-				<ul>
-					<li>A popping group chat 💥</li>
-					<li>A deep conversation around the campfire 🔥</li>
-					<li>When you just met someone and if feels like you have known them your whole life 🍻</li>
-					
-				</ul>
-	
+			<h3>What are we building?</h3>
+			<p>For the intial launch:</p>
+			<ul>
+				<li>A question and answering community.</li>
+			</ul>
+
+			<h3>Why questions and answers?</h3>
+			<p>To find people that think feel and act like you and to explore everyone else.</p>
+
+			<h3>How will this be different?</h3>
+			<p>Its kinda a social experiment.</p>
+			<ul>
+				<li>
+					Comments are not visible until you comment, this allows people to give original takes on
+					questions without outside influence.
+				</li>
+				<li>Everyone is default anonomyous --> you can DM others and optionally reveal yourself</li>
+				<li>
+					The only thing that identifies you publically is your enneagram personality type -->
+					overtime you will find and learn what yours is.
+				</li>
+			</ul>
+
+			<h3>When you are with your people it be like</h3>
+			<ul>
+				<li>A popping group chat 💥</li>
+				<li>A deep conversation around the campfire 🔥</li>
+				<li>When you just met someone and if feels like you have known them your whole life 🍻</li>
+			</ul>
 		</div>
 
 		<div class="join">
@@ -156,13 +154,11 @@
 		main {
 			padding: 1rem;
 		}
-		
 	}
 	@media all and (max-width: 1295px) {
 		.main {
 			max-width: 70% !important;
 		}
-
 	}
 
 	@media all and (max-width: 992px) {
@@ -242,6 +238,7 @@
 		grid-template-rows: [row1-start] 100vh;
 		justify-items: center;
 		align-items: center;
+		height: 100vh;
 	}
 	.container {
 		display: grid;
