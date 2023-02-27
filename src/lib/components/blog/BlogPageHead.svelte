@@ -4,7 +4,7 @@
 
 	let title: string = data?.title;
 	let description: string = data?.description;
-	const siteTitle = '9takes Blog';
+	const siteTitle = '9takes';
 	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 
 	let jsonldString = {

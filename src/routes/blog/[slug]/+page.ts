@@ -2,7 +2,7 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
-const MAX_POSTS = 6;
+const MAX_POSTS = 7;
 
 export const load: PageLoad = async ({ params }) => {
 	const modules = import.meta.glob(`/src/blog/*.{md,svx,svelte.md}`);
@@ -31,6 +31,7 @@ export const load: PageLoad = async ({ params }) => {
 	const publishedPosts = posts
 		.filter((post) => post.published)
 		.filter((post) => post.blog)
+		.filter((post) => params.slug !== post.slug)
 		.slice(0, MAX_POSTS);
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));

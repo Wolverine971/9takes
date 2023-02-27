@@ -49,7 +49,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="9takes home for enneagram enthusiasts" />
 </svelte:head>
 
 <main>

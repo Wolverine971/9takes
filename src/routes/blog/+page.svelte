@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import PageHead from '$lib/components/blog/PageHead.svelte';
+	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
@@ -8,7 +8,7 @@
 	export let data: PageData;
 </script>
 
-<PageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />
+<BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />
 
 <h1 style="text-align: center;">9takes Blogs</h1>
 <div class=" blog-list">

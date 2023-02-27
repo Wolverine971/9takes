@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>About 9takes</title>
 	<meta name="description" content="About 9takes" />
 </svelte:head>
 
@@ -40,6 +40,7 @@
 	<div class="row">
 		<div>
 			<h3>DJ Wayne</h3>
+			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
 			<ul>
 				<li>
 					<a href="https://github.com/Wolverine971">Github</a>

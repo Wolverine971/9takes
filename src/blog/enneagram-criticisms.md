@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Criticisms'
-description: "Spiritual teachers, Freud and Plato"
+description: "Common criticisms of the enneagram"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
@@ -42,7 +42,7 @@ Enneagram Criticisms (200 words)
         href="/blog/experiment">check this out &rarr;</a>
 
     </p>
-    
+
   </div>
 </details>
 

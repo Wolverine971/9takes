@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import type { SvelteComponentTyped } from 'svelte/internal';
-	import PageHead from '$lib/components/blog/PageHead.svelte';
+	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
@@ -16,7 +16,7 @@
 </script>
 
 <div style="align-items: inherit;">
-	<PageHead data={data.frontmatter} slug={data.slug} />
+	<BlogPageHead data={data.frontmatter} slug={data.slug} />
 	<ArticleTitle title={data.frontmatter.title} />
 	<ArticleDescription description={data.frontmatter.description} />
 	<ArticleMeta author={data.frontmatter.author} date={data.frontmatter.date} />
