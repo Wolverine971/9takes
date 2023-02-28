@@ -82,10 +82,10 @@
 					Comments are not visible until you comment, this allows people to give original takes on
 					questions without outside influence.
 				</li>
-				<li>Everyone is default anonomyous --> you can DM others and optionally reveal yourself</li>
+				<li>Everyone is default anonymous, you can DM others and optionally reveal yourself</li>
 				<li>
-					The only thing that identifies you publically is your enneagram personality type -->
-					overtime you will find and learn what yours is.
+					The only thing that identifies you publicly is your enneagram personality type. Overtime
+					you will find and learn what yours is.
 				</li>
 			</ul>
 
@@ -95,6 +95,8 @@
 				<li>A deep conversation around the campfire 🔥</li>
 				<li>When you just met someone and if feels like you have known them your whole life 🍻</li>
 			</ul>
+			<h3>^ Thats what we are trying to build</h3>
+			<p>After you find your people, the dialog can begin</p>
 		</div>
 
 		<div class="join">
