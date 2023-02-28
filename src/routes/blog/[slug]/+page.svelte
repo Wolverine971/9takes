@@ -26,29 +26,20 @@
 <BlogList posts={data?.posts} />
 
 <div class="join">
-	<CollectEmail cta={'Join Waitlist'} />
+	<CollectEmail cta={'We are making something 👷🔨 join the waitlist'} />
 </div>
-
-
 
 <style>
 	tr {
-		overflow-x: scroll;
 		border: 1px solid grey;
 		text-align: center;
 	}
 	td {
-		overflow-x: scroll;
 		border: 1px solid grey;
 		text-align: center;
 	}
-	th { 
-		overflow-x: scroll;
+	th {
 		border: 1px solid grey;
 		text-align: center;
 	}
-	
-	</style>
-
-
-	
+</style>

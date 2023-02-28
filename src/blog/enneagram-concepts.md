@@ -65,6 +65,7 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 <hr>
 <br>
 
+<div class="scroll-table">
 
 | Type | Characteristic role     | Ego fixation                                                   | Holy idea                 | Trap         | Basic fear                               | Basic desire                             | [Temptation](https://en.wikipedia.org/wiki/Temptation)                                                               | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)                             | Stress/ Disintegration | Security/ Integration |
 | ---- | ----------------------- | -------------------------------------------------------------- | ------------------------- | ------------ | ---------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------------- |
@@ -78,8 +79,46 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 | 8    | Challenger, Protector   | [Vengeance](https://en.wikipedia.org/wiki/Vengeance_(concept)) | Truth                     | Justice      | Being controlled, harmed, violated       | To gain influence and be self-sufficient | Thinking they are completely self-sufficient                                                                         | [Lust](https://en.wikipedia.org/wiki/Lust)                      | [Innocence](https://en.wikipedia.org/wiki/Innocence)                       | 5                      | 2                     |
 | 9    | Peacemaker, Mediator    | [Indolence](https://en.wikipedia.org/wiki/Laziness)            | Love                      | Seeker       | Loss, fragmentation, separation          | Wholeness, peace of mind                 | Avoiding conflicts, avoiding self-assertion                                                                          | [Sloth](https://en.wikipedia.org/wiki/Sloth_(deadly_sin))       | [Action](https://en.wikipedia.org/wiki/Proactivity)                        | 6                      | 3                     |
 
+
+</div>
 <cite><a href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
+
+<p>Images coming soon 🚧</p>
  <div>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/enneagram-concepts"
+  },
+  "headline": "Enneagram Concepts",
+  
+  "datePublished": "2023-02-28",
+  "dateModified": "2023-02-28",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9Takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/enneagram.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "Learn about Enneagram concepts and how they can help you understand yourself and others better. Find out about the nine Enneagram types and how they relate to different personality traits.",
+  "articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development."
+}
+
+</script>
 
 </div>
 
@@ -89,18 +128,21 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 
 
 <style>
-tr {
+.scroll-table {
     overflow-x: scroll;
+}
+tr {
+    
     border: 1px solid grey;
     text-align: center;
 }
 td {
-    overflow-x: scroll;
+    
     border: 1px solid grey;
     text-align: center;
 }
 th { 
-    overflow-x: scroll;
+    
     border: 1px solid grey;
     text-align: center;
 }

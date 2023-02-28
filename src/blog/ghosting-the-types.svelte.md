@@ -31,7 +31,7 @@ blog: true
   <aside class="section-meta">
   
    <a href="/blog/1" class="a-type">Type 1</a>
-   <p>The enneagram 1 is a beautiful creature</p>
+   <p>The enneagram 1 is a put together creature</p>
 
   </aside>
  </section>
@@ -50,7 +50,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/2" class="a-type">Type 2</a>
-   <p>The enneagram 2 is a beautiful creature</p>
+   <p>The enneagram 2 is a loving creature</p>
   </aside>
  </section>
 
@@ -68,7 +68,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/3" class="a-type">Type 3</a>
-   <p>The enneagram 3 is a beautiful creature</p>
+   <p>The enneagram 3 is a shiney creature</p>
   </aside>
  </section>
 
@@ -86,7 +86,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/4" class="a-type">Type 4</a>
-   <p>The enneagram 4 is a beautiful creature</p>
+   <p>The enneagram 4 is a complicated creature</p>
   </aside>
  </section>
 
@@ -104,7 +104,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/5" class="a-type">Type 5</a>
-   <p>The enneagram 5 is a beautiful creature</p>
+   <p>The enneagram 5 is a mysterious creature</p>
   </aside>
  </section>
 
@@ -122,7 +122,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/6" class="a-type">Type 6</a>
-   <p>The enneagram 6 is a beautiful creature</p>
+   <p>The enneagram 6 is a wary creature</p>
   </aside>
  </section>
 
@@ -140,7 +140,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/7" class="a-type">Type 7</a>
-   <p>The enneagram 7 is a beautiful creature</p>
+   <p>The enneagram 7 is a joyful creature</p>
   </aside>
  </section>
 
@@ -158,7 +158,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/8" class="a-type">Type 8</a>
-   <p>The enneagram 8 is a beautiful creature</p>
+   <p>The enneagram 8 is a strong creature</p>
   </aside>
  </section>
 
@@ -176,7 +176,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/9" class="a-type">Type 9</a>
-   <p>The enneagram 9 is a beautiful creature</p>
+   <p>The enneagram 9 is a easy going creature</p>
   </aside>
  </section>
 
@@ -189,6 +189,9 @@ In conclusion, ghosting can have a significant impact on mental health, and it's
 experiences it differently. By understanding how each Enneagram type may experience and cope with ghosting, we can gain
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
+
+
+<p>Images coming soon 🚧</p>
 
 <style lang="scss">
     .section-main {

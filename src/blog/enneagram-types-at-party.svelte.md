@@ -48,3 +48,6 @@ Type Eights are known for their confidence and desire for control. At a party, E
 Type Nines are known for their easy-going nature and desire for peace. At a party, Nines might be found going with the flow and avoiding conflict. They enjoy keeping the peace and making sure everyone is getting along.
 
 Overall, it's important to remember that everyone is unique and may have different preferences when it comes to social events, this is just a general guide. It's always best to get to know someone and understand their Enneagram type to have a better understanding of what they enjoy and what makes them happy.
+
+
+<p>Images coming soon 🚧</p>

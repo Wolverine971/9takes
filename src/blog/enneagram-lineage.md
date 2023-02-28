@@ -38,7 +38,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "The Enneagram: Understanding Personality Types Through the Head, Heart, and Instincts",
+  "headline": "The Enneagram Lineage: In the past they explored the Head, Heart, and Instincts",
   "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
   "datePublished": "2023-02-19",
   "dateModified": "2023-02-19",
@@ -53,11 +53,11 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/the-enneagram-understanding-personality-types-through-the-head-heart-and-instincts"
+    "@id": "https://9takes.com/blog/enneagram-lineage"
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://9takes.com/src/lib/images/freud-plato.png",
+    "url": "https://9takes.com/freud-plato.png",
     "width": 1200,
     "height": 630
   },
