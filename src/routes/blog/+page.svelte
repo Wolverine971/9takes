@@ -26,9 +26,7 @@
 					<!-- <li>History and origins of the Enneagram</li> -->
 					<li><a href="/blog/enneagram-lineage"> Enneagram Lineage &rarr;</a></li>
 					<li><a href="/blog/tldr-enneagram"> Enneagram TLDR &rarr;</a></li>
-					<li style="text-decoration: line-through;">
-						Key concepts and principles of the Enneagram
-					</li>
+					<li><a href="/blog/enneagram-concepts"> Concepts and principles of the Enneagram &rarr;</a></li>
 					<li style="text-decoration: line-through;">
 						How the Enneagram can be used for personal growth and self-improvement
 					</li>

@@ -28,3 +28,27 @@
 <div class="join">
 	<CollectEmail cta={'Join Waitlist'} />
 </div>
+
+
+
+<style>
+	tr {
+		overflow-x: scroll;
+		border: 1px solid grey;
+		text-align: center;
+	}
+	td {
+		overflow-x: scroll;
+		border: 1px solid grey;
+		text-align: center;
+	}
+	th { 
+		overflow-x: scroll;
+		border: 1px solid grey;
+		text-align: center;
+	}
+	
+	</style>
+
+
+	
