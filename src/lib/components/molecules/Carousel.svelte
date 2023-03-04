@@ -72,7 +72,7 @@
 		{#each famousTypes[type] as person}
 			<div class="slide" bind:clientWidth={w} bind:clientHeight={h}>
 				<img
-					src={`/types/${type}s/${person}.png`}
+					src={`/types/${type}s/${person}.webp`}
 					alt=""
 					id="person"
 					style="max-width: none;"
@@ -85,6 +85,75 @@
 		{/each}
 	</div>
 </div>
+
+<!-- cwebp "Hillary_Clinton.png" -o "Hillary_Clinton.webp"
+cwebp "Brene_Brown.png" -o "Brene_Brown.webp"
+cwebp "Meryl_Streep.png" -o "Meryl_Streep.webp"
+cwebp "Michelle_Obama.png" -o "Michelle_Obama.webp"
+cwebp "Nelson_Mandela.png" -o "Nelson_Mandela.webp"
+cwebp "Ruth_Bader_Ginsburg.png" -o "Ruth_Bader_Ginsburg.webp"
+cwebp "Steve_Jobs.png" -o "Steve_Jobs.webp"
+
+
+
+cwebp "Jennifer_Garner.png" -o "Jennifer_Garner.webp"
+cwebp "Jimmy_Carter.png" -o "Jimmy_Carter.webp"
+cwebp "Dolly_Parton.png" -o "Dolly_Parton.webp"
+cwebp "Mother_Teresa.png" -o "Mother_Teresa.webp"
+cwebp "Mr._Rogers.png" -o "Mr._Rogers.webp"
+cwebp "Nancy_Reagan.png" -o "Nancy_Reagan.webp"
+
+cwebp "Arnold_Schwarzenegger.png" -o "Arnold_Schwarzenegger.webp"
+cwebp "Beyonce_Knowles.png" -o "Beyonce_Knowles.webp"
+cwebp "Lady_Gaga.png" -o "Lady_Gaga.webp"
+cwebp "Oprah_Winfrey.png" -o "Oprah_Winfrey.webp"
+cwebp "Reese_Witherspoon.png" -o "Reese_Witherspoon.webp"
+cwebp "Taylor_Swift.png" -o "Taylor_Swift.webp"
+
+cwebp "Billie_Eilish.png" -o "Billie_Eilish.webp"
+cwebp "Bob_Dylan.png" -o "Bob_Dylan.webp"
+cwebp "Frida_Kahlo.png" -o "Frida_Kahlo.webp"
+cwebp "Jackie_Kennedy.png" -o "Jackie_Kennedy.webp"
+cwebp "Johnny_Depp.png" -o "Johnny_Depp.webp"
+
+cwebp "Agatha_Christie.png" -o "Agatha_Christie.webp"
+cwebp "Albert_Einstein.png" -o "Albert_Einstein.webp"
+cwebp "Albert_Einstein2.png" -o "Albert_Einstein2.webp"
+cwebp "Bill_Gates.png" -o "Bill_Gates.webp"
+cwebp "Diane_Sawyer.png" -o "Diane_Sawyer.webp"
+cwebp "Emily_Dickinson.png" -o "Emily_Dickinson.webp"
+cwebp "Stephen_Hawking.png" -o "Stephen_Hawking.webp"
+
+cwebp "Ellen_Degeneres.png" -o "Ellen_Degeneres.webp"
+cwebp "George_H.W._Bush.png" -o "George_H.W._Bush.webp"
+cwebp "Joe_Biden.png" -o "Joe_Biden.webp"
+cwebp "Marilyn_Monroe.png" -o "Marilyn_Monroe.webp"
+cwebp "Mark_Twain.png" -o "Mark_Twain.webp"
+cwebp "Mindy_Kaling.png" -o "Mindy_Kaling.webp"
+cwebp "Prince_Harry.png" -o "Prince_Harry.webp"
+
+cwebp "Britney_Spears.png" -o "Britney_Spears.webp"
+cwebp "Elton_John.png" -o "Elton_John.webp"
+cwebp "John_F._Kennedy.png" -o "John_F._Kennedy.webp"
+cwebp "Miley_Cyrus.png" -o "Miley_Cyrus.webp"
+cwebp "Robin_Williams.png" -o "Robin_Williams.webp"
+cwebp "Tiffany_Haddish.png" -o "Tiffany_Haddish.webp"
+
+cwebp "Chelsea_Handler.png" -o "Chelsea_Handler.webp"
+cwebp "Clint_Eastwood.png" -o "Clint_Eastwood.webp"
+cwebp "Ernest_Hemingway.png" -o "Ernest_Hemingway.webp"
+cwebp "Winston_Churchill.png" -o "Winston_Churchill.webp"
+cwebp "Martin_Luther_King_Jr.png" -o "Martin_Luther_King_Jr.webp"
+
+cwebp "Abraham_Lincoln.png" -o "Abraham_Lincoln.webp"
+cwebp "Ariana_Grande.png" -o "Ariana_Grande.webp"
+cwebp "Barack_Obama.png" -o "Barack_Obama.webp"
+cwebp "Bernie_Sanders.png" -o "Bernie_Sanders.webp"
+cwebp "Marie_Kondo.png" -o "Marie_Kondo.webp"
+cwebp "Queen_Elizabeth_II.png" -o "Queen_Elizabeth_II.webp"
+cwebp "Ronald_Reagan.png" -o "Ronald_Reagan.webp"
+cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
+ -->
 
 <style lang="scss">
 	body {
