@@ -190,8 +190,41 @@ experiences it differently. By understanding how each Enneagram type may experie
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
 
-
 <p>Images coming soon 🚧</p>
+
+<div>
+<script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/ghosting-the-types"
+  },
+  "headline": "Ghosting and the Enneagram: How Each Type Responds",
+  
+  "datePublished": "2023-02-17T00:00:00-07:00",
+  "dateModified": "2023-03-01T00:00:00-07:00",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9Takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/enneagram.svg"
+    }
+  },
+  "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
+  "articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma."
+}
+
+</script>
+
+</div>
 
 <style lang="scss">
     .section-main {
@@ -228,7 +261,6 @@ possible with self-compassion and care.
         border-left: 4px solid slategrey;
 
     }
-    
 
     .section-meta:hover {
         /*transform: rotate(360deg);*/
@@ -251,7 +283,7 @@ possible with self-compassion and care.
     }
 
     .a-type {
-        /* background-color: hsl(222, 15%, 19%); */
+        /*background-color: hsl(222, 15%, 19%);*/
         border: hsl(212, 15%, 48%) 2px solid;
         border-radius: 5px;
         padding: 10px 20px;
@@ -284,8 +316,8 @@ possible with self-compassion and care.
             /*border-right: 4px solid slategrey;*/
             margin: 10px;
             padding: 10px;
-            /* transition: transform .7s ease-in-out; */
-            /* flex: 1; */
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
         }
 
         .section-meta {
@@ -300,7 +332,7 @@ possible with self-compassion and care.
             overflow: hidden;
             transition-timing-function: linear;
             display: flex;
-            
+
             width: 100%;
             margin-bottom: 2rem;
         }

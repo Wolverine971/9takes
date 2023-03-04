@@ -24,12 +24,34 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
+	background: -webkit-linear-gradient(
+		180deg,
+		var(--color-bg-0) 0%,
+		var(--color-bg-1) 15%,
+		var(--color-bg-2) 50%
+	);
+	background: -moz-linear-gradient(
+		180deg,
+		var(--color-bg-0) 0%,
+		var(--color-bg-1) 15%,
+		var(--color-bg-2) 50%
+	);
+	background: linear-gradient(
+		180deg,
+		var(--color-bg-0) 0%,
+		var(--color-bg-1) 15%,
+		var(--color-bg-2) 50%
+	);
 	background-image: radial-gradient(
 			50% 50% at 50% 50%,
 			rgba(255, 255, 255, 0.75) 0%,
 			rgba(255, 255, 255, 0) 100%
 		),
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
 }
 
 h1,

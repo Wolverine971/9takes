@@ -32,3 +32,38 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
    
 ## Conclusion:
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
+
+
+<div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/enneagram-instinctual-subtypes"
+  },
+  "headline": "Understanding Enneagram Instinctual Subtypes",
+  
+  "datePublished": "2023-03-01T00:00:00-07:00",
+  "dateModified": "2023-03-01T00:00:00-07:00",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9Takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/enneagram.svg"
+    }
+  },
+  "description": "Learn about the Enneagram's Instinctual Subtypes and how they impact personality and behavior.",
+  "articleBody": "The Enneagram is a personality system that describes nine different personality types. Each personality type has three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life."
+}
+
+
+</script>
+
+</div>

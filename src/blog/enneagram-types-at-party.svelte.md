@@ -51,3 +51,40 @@ Overall, it's important to remember that everyone is unique and may have differe
 
 
 <p>Images coming soon 🚧</p>
+
+
+
+<div>
+<script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/enneagram-types-at-party"
+  },
+  "headline": "Enneagram Types at a Party: How Each Type Behaves",
+  
+  "datePublished": "2023-02-17T00:00:00-07:00",
+  "dateModified": "2023-03-01T00:00:00-07:00",
+  "author": {
+    "@type": "Person",
+    "name": "DJ"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9Takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/enneagram.svg"
+    }
+  },
+  "description": "Discover how each Enneagram type behaves at a party, and what they enjoy doing when socializing with others.",
+  "articleBody": "If you're curious about the Enneagram, you might be wondering how each type behaves in social situations like a party. In this blog post, we'll take a closer look at each Enneagram type and how they typically act at a party. From the social butterfly to the wallflower, we'll explore the different ways that each type interacts with others and what they enjoy doing when socializing. Whether you're an Enneagram enthusiast or just looking to learn more about personality types, this post will help you understand how each type behaves in a party setting."
+}
+
+
+</script>
+
+</div>
