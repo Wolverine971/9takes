@@ -48,8 +48,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
   },
   "publisher": {
     "@type": "Organization",
-    "name": "9takes",
-
+    "name": "9takes"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
