@@ -113,6 +113,15 @@ button:focus:not(:focus-visible) {
 	}
 }
 
+@media (max-width: 576px) {
+	body,
+	h1,
+	h2,
+	p {
+		font-size: 2.5em;
+	}
+}
+
 .visually-hidden {
 	border: 0;
 	clip: rect(0 0 0 0);

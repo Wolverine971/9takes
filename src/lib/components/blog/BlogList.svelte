@@ -1,8 +1,7 @@
 <script lang="ts">
-	import Card from "../atoms/card.svelte";
+	import Card from '../atoms/card.svelte';
 
-
-    export let posts: any[];
+	export let posts: any[];
 </script>
 
 <div style="margin-bottom:5rem;">
@@ -54,6 +53,7 @@
 		text-overflow: clip;
 		white-space: nowrap;
 		overflow-x: clip;
+		overflow: hidden;
 	}
 	.row {
 		display: flex;
