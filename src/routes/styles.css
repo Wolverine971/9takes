@@ -118,7 +118,7 @@ button:focus:not(:focus-visible) {
 	h1,
 	h2,
 	p {
-		font-size: 1em;
+		/* font-size: 1em; */
 	}
 }
 
