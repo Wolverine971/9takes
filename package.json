@@ -68,7 +68,6 @@
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^11.2.4",
-		"stemmer": "^2.0.1",
-		"svelte-sitemap": "^2.6.0"
+		"stemmer": "^2.0.1"
 	}
 }
