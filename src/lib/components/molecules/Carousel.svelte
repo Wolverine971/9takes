@@ -73,7 +73,7 @@
 			<div class="slide" bind:clientWidth={w} bind:clientHeight={h}>
 				<img
 					src={`/types/${type}s/${person}.webp`}
-					alt=""
+					alt={person.split('_').join(' ')}
 					id="person"
 					style="max-width: none;"
 					height="1024"
@@ -154,7 +154,6 @@ cwebp "Queen_Elizabeth_II.png" -o "Queen_Elizabeth_II.webp"
 cwebp "Ronald_Reagan.png" -o "Ronald_Reagan.webp"
 cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
  -->
-
 <style lang="scss">
 	body {
 		align-items: center;

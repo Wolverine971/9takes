@@ -25,3 +25,6 @@ https://supabase.com/docs/guides/api/generating-types
 
 ## Markdown
 https://github.com/mvasigh/sveltekit-mdsvex-blog/blob/main/src/lib/components/ArticleTitle.svelte
+
+
+Validate JSONLD with https://json-ld.org/playground/
