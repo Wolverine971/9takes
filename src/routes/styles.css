@@ -5,9 +5,9 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 	--font-body: 'Motiva Sans', Sans-serif;
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgb(202, 216, 228);
-	--color-bg-1: hsl(209, 36%, 86%);
-	--color-bg-2: hsl(224, 44%, 95%);
+	--color-bg-0: #e8edf1;
+	--color-bg-1: #d8e2eb;
+	--color-bg-2: #ccd8e3;
 	--color-theme-1: rgb(25, 25, 112);
 	--color-theme-2: rgb(247, 37, 133);
 	--color-text: rgba(0, 0, 0, 0.7);
@@ -24,24 +24,6 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background: -webkit-linear-gradient(
-		180deg,
-		var(--color-bg-0) 0%,
-		var(--color-bg-1) 15%,
-		var(--color-bg-2) 50%
-	);
-	background: -moz-linear-gradient(
-		180deg,
-		var(--color-bg-0) 0%,
-		var(--color-bg-1) 15%,
-		var(--color-bg-2) 50%
-	);
-	background: linear-gradient(
-		180deg,
-		var(--color-bg-0) 0%,
-		var(--color-bg-1) 15%,
-		var(--color-bg-2) 50%
-	);
 	background-image: radial-gradient(
 			50% 50% at 50% 50%,
 			rgba(255, 255, 255, 0.75) 0%,
@@ -56,6 +38,7 @@ body {
 
 h1,
 h2,
+h3,
 p {
 	font-weight: 400;
 }

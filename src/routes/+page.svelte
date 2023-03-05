@@ -120,12 +120,12 @@
 	}
 	.img-height {
 		// height: 100vh;
-		width: auto;
+		width: 100%;
+		max-height: 100%;
 	}
 
 	@media all and (max-width: 576px) {
 		.main {
-			text-align: center;
 			height: auto !important;
 			max-width: 90% !important;
 		}
@@ -207,13 +207,11 @@
 
 	.header {
 		grid-area: header;
-		height: 100vh;
 		text-align: center;
 		position: relative;
 	}
 	.main {
 		grid-area: main;
-		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;

@@ -80,7 +80,9 @@
 					width="1024"
 				/>
 
-				<h2 style="text-align: center;">{person.split('_').join(' ')}</h2>
+				<h2 class="slide-name">
+					{person.split('_').join(' ')}
+				</h2>
 			</div>
 		{/each}
 	</div>
@@ -155,6 +157,21 @@ cwebp "Ronald_Reagan.png" -o "Ronald_Reagan.webp"
 cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
  -->
 <style lang="scss">
+	.slide-name {
+		text-align: center;
+		position: absolute;
+		color: white;
+		font-size: xx-large;
+		font-size: xxx-large;
+		z-index: 1345;
+		left: 0;
+		right: 0;
+		top: 90%;
+		bottom: 0;
+		margin: auto auto;
+	}
+
+	// #d8e2eb
 	body {
 		align-items: center;
 		// background: #e3e3e3;
@@ -223,6 +240,11 @@ cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
 		.slide {
 			height: var(--height);
 			width: var(--width);
+		}
+	}
+	@media all and (max-width: 576px) {
+		.slide-track {
+			touch-action: none;
 		}
 	}
 </style>
