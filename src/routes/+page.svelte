@@ -181,7 +181,7 @@
 
 		.small-absolute {
 			position: absolute;
-			padding: 10px;
+			padding: 25px;
 		}
 		.header-container {
 			display: grid;
@@ -209,6 +209,7 @@
 		grid-area: header;
 		height: 100vh;
 		text-align: center;
+		position: relative;
 	}
 	.main {
 		grid-area: main;
