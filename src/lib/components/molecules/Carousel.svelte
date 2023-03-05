@@ -244,7 +244,7 @@ cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
 	}
 	@media all and (max-width: 576px) {
 		.slide-track {
-			touch-action: none;
+			// touch-action: none;
 		}
 	}
 </style>
