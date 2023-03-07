@@ -5,7 +5,7 @@
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import Card from '$lib/components/atoms/card.svelte';
-	export let data: PageData;
+	// export let data: PageData;
 </script>
 
 <BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />

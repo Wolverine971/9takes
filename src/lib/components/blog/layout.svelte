@@ -1,5 +1,4 @@
 <div class="blog">
-	<h1>blog</h1>
 	<slot />
 </div>
 

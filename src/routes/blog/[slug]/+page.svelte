@@ -19,7 +19,8 @@
 	<ArticleDescription description={data.frontmatter.description} />
 	<ArticleMeta author={data.frontmatter.author} date={data.frontmatter.date} />
 </div>
-<svelte:component this={data.component} />
+
+<svelte:component this={component} />
 
 <hr style="margin: 5rem;" />
 

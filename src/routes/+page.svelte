@@ -8,7 +8,7 @@
 	import Footer from './Footer.svelte';
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
 
-	export let data: PageData;
+	// export let data: PageData;
 
 	const submitLogout: SubmitFunction = async ({ cancel }) => {
 		const { error } = await supabase.auth.signOut();
