@@ -4,6 +4,7 @@ description: ""
 author: 'DJ Wayne'
 date: '2023-02-27'
 published: true
+type: 'overview'
 blog: true
 
 ---
@@ -16,15 +17,15 @@ The Enneagram is divided into nine distinct personality types, each with its own
 
 The Enneagram identifies nine distinct personality types, each represented by a number. These numbers are:
 
-1.  <a href="/blog/1" >The Perfectionist</a>
-2.  <a href="/blog/2" >The Helper</a>
-3.  <a href="/blog/3" >The Achiever</a>
-4.  <a href="/blog/4" >The Individualist</a>
-5.  <a href="/blog/5" >The Investigator</a>
-6.  <a href="/blog/6" >The Loyalist</a>
-7.  <a href="/blog/7" >The Enthusiast</a>
-8.  <a href="/blog/8" >The Challenger</a>
-9.  <a href="/blog/9" >The Peacemaker</a>
+1. <a href="/blog/1" >The Perfectionist</a>
+2. <a href="/blog/2" >The Helper</a>
+3. <a href="/blog/3" >The Achiever</a>
+4. <a href="/blog/4" >The Individualist</a>
+5. <a href="/blog/5" >The Investigator</a>
+6. <a href="/blog/6" >The Loyalist</a>
+7. <a href="/blog/7" >The Enthusiast</a>
+8. <a href="/blog/8" >The Challenger</a>
+9. <a href="/blog/9" >The Peacemaker</a>
 
 Each of these types has a distinct worldview and set of behaviors, which are shaped by their core fears, desires, and motivations. By understanding these core motivations, individuals can gain a deeper understanding of their own behavior and how it impacts others.
 
@@ -32,24 +33,23 @@ Each of these types has a distinct worldview and set of behaviors, which are sha
 
 The Enneagram also identifies three centers of intelligence, which correspond to different aspects of the human experience. These centers are:
 
-1.  The Gut Center: This center is associated with instinctual drives and survival. Individuals who are driven by this center tend to be action-oriented and focused on physical sensations. The core emotion associated with the gut center is anger and types 8, 9, and 1 are in it.
-    
-2.  The Heart Center: This center is associated with emotions and relationships. Individuals who are driven by this center tend to be sensitive to the feelings of others and place a high value on connection and relationships. The core emotion associated with the heart center is shame and types 2, 3, and 4 are in it.
-    
-3.  The Head Center: This center is associated with thinking and analysis. Individuals who are driven by this center tend to be logical and focused on problem-solving. The core emotion associated with the head center is fear and types 5, 6, and 7 are in it.
-    
+1. The Gut Center: This center is associated with instinctual drives and survival. Individuals who are driven by this center tend to be action-oriented and focused on physical sensations. The core emotion associated with the gut center is anger and types 8, 9, and 1 are in it.
+
+2. The Heart Center: This center is associated with emotions and relationships. Individuals who are driven by this center tend to be sensitive to the feelings of others and place a high value on connection and relationships. The core emotion associated with the heart center is shame and types 2, 3, and 4 are in it.
+
+3. The Head Center: This center is associated with thinking and analysis. Individuals who are driven by this center tend to be logical and focused on problem-solving. The core emotion associated with the head center is fear and types 5, 6, and 7 are in it.
 
 ## Instincts
 
 In addition to the nine personality types and the three centers of intelligence, the Enneagram also identifies three instincts that drive human behavior. These instincts are:
 
-1.  Self-preservation: This instinct drives individuals to take care of themselves and ensure their own survival. People driven by this instinct tend to focus on their own well-being and security.
-    
-2.  Social: This instinct drives individuals to connect with others and form strong relationships. People driven by this instinct tend to be social, outgoing, and focused on building connections with others.
-    
-3.  Sexual: This instinct drives individuals to seek intense experiences and deep connections with others. People driven by this instinct tend to be passionate and focused on physical intimacy and emotional connection.
+1. Self-preservation: This instinct drives individuals to take care of themselves and ensure their own survival. People driven by this instinct tend to focus on their own well-being and security.
 
-Learn more about the <a href="/blog/enneagram-instinctual-subtypes" >subtypes here &rarr;</a>
+2. Social: This instinct drives individuals to connect with others and form strong relationships. People driven by this instinct tend to be social, outgoing, and focused on building connections with others.
+
+3. Sexual: This instinct drives individuals to seek intense experiences and deep connections with others. People driven by this instinct tend to be passionate and focused on physical intimacy and emotional connection.
+
+Learn more about the <a href="/blog/enneagram-instinctual-subtypes" >subtypes here </a>
 
 ## Wings
 
@@ -79,14 +79,11 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 | 8    | Challenger, Protector   | [Vengeance](https://en.wikipedia.org/wiki/Vengeance_(concept)) | Truth                     | Justice      | Being controlled, harmed, violated       | To gain influence and be self-sufficient | Thinking they are completely self-sufficient                                                                         | [Lust](https://en.wikipedia.org/wiki/Lust)                      | [Innocence](https://en.wikipedia.org/wiki/Innocence)                       | 5                      | 2                     |
 | 9    | Peacemaker, Mediator    | [Indolence](https://en.wikipedia.org/wiki/Laziness)            | Love                      | Seeker       | Loss, fragmentation, separation          | Wholeness, peace of mind                 | Avoiding conflicts, avoiding self-assertion                                                                          | [Sloth](https://en.wikipedia.org/wiki/Sloth_(deadly_sin))       | [Action](https://en.wikipedia.org/wiki/Proactivity)                        | 6                      | 3                     |
 
-
 </div>
 <cite><a href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
 <p>Images coming soon 🚧</p>
  <div>
-
-
 
 <script type="application/ld+json">
 {
@@ -122,29 +119,38 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 
 </div>
 
-
-
-
-
-
 <style>
 .scroll-table {
     overflow-x: scroll;
 }
 tr {
-    
+
     border: 1px solid grey;
     text-align: center;
 }
 td {
-    
+
     border: 1px solid grey;
     text-align: center;
 }
-th { 
-    
+th {
+
     border: 1px solid grey;
     text-align: center;
+}
+.scroll-table::-webkit-scrollbar {
+    width: 4px;
 }
 
+.scroll-table::-webkit-scrollbar-track {
+    box-shadow: 0 0 4px slategrey;
+}
+
+.scroll-table::-webkit-scrollbar-thumb {
+    background-color: slategrey;
+    /*outline: .5px solid slategrey;*/
+}
+
+
 </style>
+ 

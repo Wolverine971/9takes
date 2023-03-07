@@ -4,6 +4,7 @@ description: "Differing traditions and schools of thought that wrestle with and 
 author: 'DJ Wayne'
 date: '2023-03-02'
 published: true
+type: 'overview'
 blog: true
 
 ---
@@ -13,7 +14,9 @@ blog: true
 
 The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.
 
-![Enneagram](https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png)
+<p  style="text-align: center;">
+<img src="https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png" alt="Enneagram Symbol" >
+</p>
 
 ## Different Schools of Thought
 
@@ -33,7 +36,7 @@ Oscar Ichazo a Bolivian-born mystic and philosopher is another key figure in the
 
 ### Claudio Naranjo
 
-Claudio Naranjo studied with Ichazo in Chile. ["His contribution to the Enneagram successfully joined the insight and methods of a mystical path of transformation with the intellectual power of a Western psychological model."](https://en.wikipedia.org/wiki/Oscar_Ichazo#Protoanalysis). Naranjo's work helped to popularize the Enneagram in the Western world and his teachings continue to be a source of inspiration for many Enneagram enthusiasts today. His legacy includes the creation of the Enneagram of Personality, which is one of the most widely used Enneagram systems today.
+Claudio Naranjo studied with Ichazo in Chile. ["His contribution to the Enneagram successfully joined the insight and methods of a mystical path of transformation with the intellectual power of a Western psychological model".](https://en.wikipedia.org/wiki/Oscar_Ichazo#Protoanalysis)Naranjo's work helped to popularize the Enneagram in the Western world and his teachings continue to be a source of inspiration for many Enneagram enthusiasts today. His legacy includes the creation of the Enneagram of Personality, which is one of the most widely used Enneagram systems today.
 
 ## Outside Influences
 
@@ -64,3 +67,28 @@ Another school of thought when it comes to the Enneagram is the integrative trad
 ## Wrapping Up
 
 In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual growth that has evolved over time through the contributions of different schools of thought. The Sufi tradition, Gurdjieff's work, Ichazo's teachings, and Naranjo's legacy have all influenced the development of the Enneagram as we know it today. Moreover, ancient philosophy and early psychology have also contributed to the Enneagram's evolution. Modern interpretations of the Enneagram, such as the Narrative Tradition, provide insight into the Enneagram's nine personality types and how they relate to personal growth and relationships. These different schools of thought show that people have been circling around and wrestling with these ideas for a long time and there is so much to discover.
+
+<style >
+
+/* a {
+	color: #260958;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+
+	
+}
+a::after {
+		content: '';
+
+		background-image: url('/svgs/arrow.svg');
+
+		display: inline-flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 1em;
+		height: 1em;
+		background-size: 1em 1em;
+	} */
+
+</style>

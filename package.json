@@ -65,6 +65,7 @@
 		"mermaid": "^9.3.0",
 		"natural": "^6.2.0",
 		"rehype-autolink-headings": "^6.1.1",
+		"rehype-external-links": "^2.0.1",
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.1",
 		"remark-github": "^11.2.4",

@@ -1,11 +1,10 @@
 ---
-title: 'Enneagram Topic Map'
-description: "9takes Enneagram Overview"
+title: 'Enneagram Overview'
+description: "To establish topical authority"
 author: 'DJ Wayne'
-date: '2023-02-10'
-published: true
+date: '2023-03-05'
+published: false
 type: 'overview'
-blog: true
 
 ---
 

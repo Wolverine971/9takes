@@ -4,6 +4,7 @@ description: "What are different types doing, thinking, feeling"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
+type: 'situational'
 blog: true
 ---
 

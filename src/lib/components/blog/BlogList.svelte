@@ -16,7 +16,7 @@
 							<p class="preview" title={description}>
 								{description}
 							</p>
-							<p>Read More &rarr;</p>
+							<p>Read More</p>
 						</a>
 					</Card>
 				</div>
@@ -31,7 +31,7 @@
 							<p class="preview" title={description}>
 								{description}
 							</p>
-							<p>Read More &rarr;</p>
+							<p>Read More</p>
 						</a>
 					</Card>
 				</div>
@@ -67,6 +67,7 @@
 		display: flex;
 		flex-direction: column;
 		flex-basis: 100%;
+		justify-content: space-evenly;
 		flex: 1;
 		align-items: center;
 	}

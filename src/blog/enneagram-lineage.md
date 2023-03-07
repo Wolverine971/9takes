@@ -4,6 +4,7 @@ description: "Spiritual teachers, Freud and Plato"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
+type: 'overview'
 blog: true
 
 
@@ -35,7 +36,9 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
    />
    <div>
    <script type="application/ld+json">
+
 {
+
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "The Enneagram Lineage: In the past they explored the Head, Heart, and Instincts",
@@ -76,6 +79,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
     }
   ]
 }
+
 </script>
 </div>
 
@@ -162,4 +166,5 @@ td {
     text-align: center;
 }
 
-    </style>
+
+</style>

@@ -109,8 +109,6 @@
 </main>
 
 <style lang="scss">
-	// @import '../scss/index.scss';
-
 	main {
 		padding: 0px;
 		width: 100%;

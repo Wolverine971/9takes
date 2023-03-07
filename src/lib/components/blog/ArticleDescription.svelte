@@ -8,7 +8,7 @@
 	{description}
 
 	{#if slug}
-		<a {href}>Read More &rarr;</a>
+		<a {href}>Read More </a>
 	{/if}
 </p>
 

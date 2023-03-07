@@ -4,6 +4,7 @@ description: "Common Questions asked about the enneagram"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
+type: 'overview'
 blog: true
 ---
 
@@ -22,7 +23,7 @@ blog: true
     team dynamics in various settings.
     
   </p>
-  <a href="/blog/tldr-enneagram" >TLDR &rarr;</a>
+  <a href="/blog/tldr-enneagram" >TLDR </a>
   </div>
 </details>
 

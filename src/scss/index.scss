@@ -228,3 +228,21 @@ input {
 	overflow-x: clip;
 	overflow: hidden;
 }
+
+.main a {
+	color: #260958;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+
+	&::after {
+		content: '';
+		background-image: url('/svgs/arrow.svg');
+		display: inline-flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 1em;
+		height: 1em;
+		background-size: 1em 1em;
+	}
+}

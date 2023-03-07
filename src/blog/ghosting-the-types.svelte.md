@@ -4,6 +4,7 @@ description: "How each type handles being ghosted"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
+type: 'situational'
 blog: true
 ---
 
@@ -227,6 +228,9 @@ possible with self-compassion and care.
 </div>
 
 <style lang="scss">
+
+    @import '../scss/index.scss';
+
     .section-main {
         display: flex;
         justify-content: center;

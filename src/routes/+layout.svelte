@@ -11,8 +11,7 @@
 </script>
 
 <div class="app">
-
-<Analytics />
+	<Analytics />
 	{#if $page.url.pathname !== '/'}
 		<Header {data} />
 	{/if}
@@ -50,6 +49,25 @@
 	.column {
 		padding: 0;
 		margin: 0;
+	}
+
+	main > a {
+		display: inline-flex;
+		justify-content: flex-start;
+		align-items: center;
+		color: #260958;
+
+		&::after {
+			content: '';
+
+			background-image: url('/svgs/arrow.svg');
+			display: inline-flex;
+			justify-content: flex-start;
+			align-items: center;
+			width: 1em;
+			height: 1em;
+			background-size: 1em 1em;
+		}
 	}
 	body::-webkit-scrollbar {
 		width: 4px;

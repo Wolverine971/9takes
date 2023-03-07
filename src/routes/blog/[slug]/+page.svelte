@@ -29,7 +29,8 @@
 	<CollectEmail cta={'We are making something 👷🔨 join the waitlist'} />
 </div>
 
-<style>
+<style lang="scss">
+	@import '../../../scss/index.scss';
 	tr {
 		border: 1px solid grey;
 		text-align: center;

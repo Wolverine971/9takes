@@ -30,3 +30,5 @@ https://github.com/mvasigh/sveltekit-mdsvex-blog/blob/main/src/lib/components/Ar
 Validate JSONLD with https://json-ld.org/playground/
 
 https://upstash.com/blog/sveltekit-rate-limiting
+
+need mdsvex layout
