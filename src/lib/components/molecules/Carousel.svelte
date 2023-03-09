@@ -78,7 +78,8 @@
 
 <div
 	style="display: flex;
-    justify-content: center;"
+    justify-content: center;
+	height: 100vh"
 >
 	<PopCard
 		image={`/types/${type}s/${visibleImage}.webp`}
