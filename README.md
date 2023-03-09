@@ -16,14 +16,20 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 [Joy of Code- SvelteKit Authentication Using Cookies](https://www.youtube.com/watch?v=E3VG-dLCRUk)
 
 ## Generating SUPABASE TYPES
+
 <https://supabase.com/docs/guides/api/generating-types>
 `npx supabase gen types typescript --project-id "nhjjzcsnmyotyhykbajc" --schema public > src/schema.ts`
 
 ## Markdown
+
 <https://github.com/mvasigh/sveltekit-mdsvex-blog/blob/main/src/lib/components/ArticleTitle.svelte>
 
 Validate JSONLD with <https://json-ld.org/playground/>
 
+Rate limit API when questions go live
 <https://upstash.com/blog/sveltekit-rate-limiting>
 
-need mdsvex layout
+Design
+
+### Card Inspo, Thank you @Hyperplexed
+<https://www.youtube.com/watch?v=jMVhxBB3l0w>

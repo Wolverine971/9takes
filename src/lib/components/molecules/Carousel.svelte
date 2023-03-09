@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import PopCard from '../atoms/PopCard.svelte';
+
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 
 	const famousTypes: { [index: number]: any[] } = {
@@ -59,33 +62,30 @@
 	};
 	let w: any;
 	let h: any;
+	onMount(() => {
+		visibleImage = famousTypes[type][1];
+		setInterval(changePerson, 3333);
+	});
+	let visibleImage: string = '';
+	const changePerson = () => {
+		let index = famousTypes[type].indexOf(visibleImage);
+		visibleImage =
+			index < 0 || !famousTypes[type][index + 1]
+				? famousTypes[type][0]
+				: famousTypes[type][index + 1];
+	};
 </script>
 
-<div class="slider">
-	<div
-		class="slide-track"
-		style="--num-images: {famousTypes[type].length - 1}; --animationSpeed: {(famousTypes[type]
-			.length -
-			1) *
-			4}s; --width: {w}; --height: {h};"
-	>
-		{#each famousTypes[type] as person}
-			<div class="slide" bind:clientWidth={w} bind:clientHeight={h}>
-				<img
-					src={`/types/${type}s/${person}.webp`}
-					alt={person.split('_').join(' ')}
-					id="person"
-					style="max-width: none;"
-					height="1024"
-					width="1024"
-				/>
-
-				<h2 class="slide-name">
-					{person.split('_').join(' ')}
-				</h2>
-			</div>
-		{/each}
-	</div>
+<div
+	style="display: flex;
+    justify-content: center;"
+>
+	<PopCard
+		image={`/types/${type}s/${visibleImage}.webp`}
+		showIcon={false}
+		text={visibleImage.split('_').join(' ')}
+		subtext={''}
+	/>
 </div>
 
 <!-- cwebp "Hillary_Clinton.png" -o "Hillary_Clinton.webp"
