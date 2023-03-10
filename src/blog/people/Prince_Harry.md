@@ -41,8 +41,12 @@ Enneagram Type 6s also seek guidance and support from trusted sources. He has be
 Finally, Enneagram Type 6s are driven by a sense of purpose and a desire to make a positive impact on the world. He has been involved in several charitable organizations, including Sentebale, which supports children affected by HIV in Lesotho and Botswana He also involves himself in the Invictus Games, which aims to support wounded veterans through sports and competition. He efforts reflect a 6s desire to effect positive change in the world.
 
 
+<div>
 
-// loyalty to wife
+<!-- // loyalty to wife
 // issues with trust in the royal family
 // seeks support and guidance with mental health
-// strongly identifies with groups-> sports and military
+// strongly identifies with groups-> sports and military -->
+
+
+</div>
