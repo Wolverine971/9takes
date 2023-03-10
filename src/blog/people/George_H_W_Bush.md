@@ -38,3 +38,47 @@ As mentioned earlier, enneagram type 6 individuals are often plagued by anxiety 
 
 ## The Patriot Act and Mass Surveillance
 In the aftermath of the 9/11 terrorist attacks, George H.W. Bush signed the Patriot Act into law, which greatly expanded the government's ability to conduct surveillance on its citizens. This decision can be seen as a manifestation of the typical enneagram 6 behavior of seeking security through information gathering and analysis.
+
+
+
+<div>
+<script type="application/ld+json">
+
+    {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/people/George_H_W_Bush"
+  },
+  "headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://9takes.com/types/6s/George_H_W_Bush.webp",
+    "height": 800,
+    "width": 1200
+  },
+  "datePublished": "2023-03-10",
+  "dateModified": "2023-03-10",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/enneagram.svg",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "description": "Explore how George H.W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life, including loyalty to family, fear of weapons of mass destruction, and the Patriot Act.",
+  "articleBody": "George H.W. Bush, the 41st President of the United States, is often described as a loyal and pragmatic leader. These traits are typical of an enneagram type 6, also known as “The Loyalist.” In this article, we’ll explore why Bush’s personality aligns with this type and provide examples from his life..."
+}
+
+
+</script>
+
+</div>
