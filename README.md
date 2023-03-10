@@ -33,3 +33,7 @@ Design
 
 ### Card Inspo, Thank you @Hyperplexed
 <https://www.youtube.com/watch?v=jMVhxBB3l0w>
+
+
+## site map
+npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-map "1.0"
