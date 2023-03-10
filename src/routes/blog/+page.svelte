@@ -118,6 +118,14 @@
 						</a>
 					</li>
 				</ul>
+
+				<h3 id="enneagram-resources">
+					<!-- <a href="#enneagram-resources">Enneagram Situational Topics</a> -->
+					Enneagram Analysis of Famous People
+				</h3>
+				<ul>
+					<li><a href="/blog/people">Celebrities, Musicians, and Politicians</a></li>
+				</ul>
 			</div>
 		</div>
 

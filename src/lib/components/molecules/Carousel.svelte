@@ -19,29 +19,52 @@
 			'Jimmy_Carter',
 			'Mother_Teresa',
 			'Nancy_Reagan',
-			'Mr._Rogers',
+			'Mr_Rogers',
 			'Jennifer_Garner'
 		],
 		3: [
 			'Arnold_Schwarzenegger',
 			'Beyonce_Knowles',
 			'Oprah_Winfrey',
+			// 'Meghan_Markle'
+			'Nancy_Pelosi',
 			'Lady_Gaga',
 			'Taylor_Swift',
 			'Reese_Witherspoon'
 		],
-		4: ['Johnny_Depp', 'Billie_Eilish', 'Bob_Dylan', 'Frida_Kahlo', 'Jackie_Kennedy'],
-		5: ['Bill_Gates', 'Emily_Dickinson', 'Stephen_Hawking', 'Albert_Einstein', 'Agatha_Christie'],
+		4: [
+			'Johnny_Depp',
+			// someone else
+			'Billie_Eilish',
+			'Bob_Dylan',
+			'Frida_Kahlo',
+			'Jackie_Kennedy'
+		],
+		5: [
+			'Bill_Gates',
+			// 'Elon_Musk'
+			'Emily_Dickinson',
+			'Stephen_Hawking',
+			'Albert_Einstein',
+			'Agatha_Christie'
+		],
 		6: [
 			'Marilyn_Monroe',
 			'Ellen_Degeneres',
-			'George_H.W._Bush',
+			'George_H_W_Bush',
 			'Joe_Biden',
 			'Mindy_Kaling',
 			'Mark_Twain',
 			'Prince_Harry'
 		],
-		7: ['Elton_John', 'Britney_Spears', 'John_F._Kennedy', 'Miley_Cyrus', 'Robin_Williams'],
+		7: [
+			'Elton_John',
+			// someone else
+			'Britney_Spears',
+			'John_F_Kennedy',
+			'Miley_Cyrus',
+			'Robin_Williams'
+		],
 		8: [
 			'Clint_Eastwood',
 			'Ernest_Hemingway',
@@ -79,7 +102,8 @@
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh"
+	height: 100vh;
+	max-height: 1000px;"
 >
 	<PopCard
 		image={`/types/${type}s/${visibleImage}.webp`}
@@ -99,11 +123,11 @@ cwebp "Steve_Jobs.png" -o "Steve_Jobs.webp"
 
 
 
-cwebp "Jennifer_Garner.png" -o "Jennifer_Garner.webp"
+
 cwebp "Jimmy_Carter.png" -o "Jimmy_Carter.webp"
 cwebp "Dolly_Parton.png" -o "Dolly_Parton.webp"
 cwebp "Mother_Teresa.png" -o "Mother_Teresa.webp"
-cwebp "Mr._Rogers.png" -o "Mr._Rogers.webp"
+cwebp "Mr_Rogers.png" -o "Mr_Rogers.webp"
 cwebp "Nancy_Reagan.png" -o "Nancy_Reagan.webp"
 
 cwebp "Arnold_Schwarzenegger.png" -o "Arnold_Schwarzenegger.webp"
@@ -128,7 +152,7 @@ cwebp "Emily_Dickinson.png" -o "Emily_Dickinson.webp"
 cwebp "Stephen_Hawking.png" -o "Stephen_Hawking.webp"
 
 cwebp "Ellen_Degeneres.png" -o "Ellen_Degeneres.webp"
-cwebp "George_H.W._Bush.png" -o "George_H.W._Bush.webp"
+cwebp "George_H_W_Bush.png" -o "George_H_W_Bush.webp"
 cwebp "Joe_Biden.png" -o "Joe_Biden.webp"
 cwebp "Marilyn_Monroe.png" -o "Marilyn_Monroe.webp"
 cwebp "Mark_Twain.png" -o "Mark_Twain.webp"
@@ -137,7 +161,7 @@ cwebp "Prince_Harry.png" -o "Prince_Harry.webp"
 
 cwebp "Britney_Spears.png" -o "Britney_Spears.webp"
 cwebp "Elton_John.png" -o "Elton_John.webp"
-cwebp "John_F._Kennedy.png" -o "John_F._Kennedy.webp"
+cwebp "John_F_Kennedy.png" -o "John_F_Kennedy.webp"
 cwebp "Miley_Cyrus.png" -o "Miley_Cyrus.webp"
 cwebp "Robin_Williams.png" -o "Robin_Williams.webp"
 cwebp "Tiffany_Haddish.png" -o "Tiffany_Haddish.webp"

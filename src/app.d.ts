@@ -37,7 +37,9 @@ declare global {
 			description: string;
 			date: string;
 			published: boolean;
-			blog: boolean;
+			type?: string[];
+			enneagram: number;
+			blog?: boolean;
 			jsonld: string;
 		}
 	}

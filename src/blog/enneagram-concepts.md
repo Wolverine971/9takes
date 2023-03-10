@@ -83,6 +83,7 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 <cite><a href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
 <p>Images coming soon 🚧</p>
+
  <div>
 
 <script type="application/ld+json">
