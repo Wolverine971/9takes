@@ -18,7 +18,7 @@ type: ['politician']
 	max-height: 1000px;"
 >
 	<PopCard
-		image={`/types/8s/${'Queen_Elizabeth_II'}.webp`}
+		image={`/types/9s/${'Queen_Elizabeth_II'}.webp`}
 		showIcon={false}
 		text="Queen Elizabeth II"
 		subtext=""
