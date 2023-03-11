@@ -105,12 +105,14 @@
 	height: 100vh;
 	max-height: 1000px;"
 >
-	<PopCard
-		image={`/types/${type}s/${visibleImage}.webp`}
-		showIcon={false}
-		text={visibleImage.split('_').join(' ')}
-		subtext={''}
-	/>
+	{#if type }
+		<PopCard
+			image={`/types/${type}s/${visibleImage}.webp`}
+			showIcon={false}
+			text={visibleImage.split('_').join(' ')}
+			subtext={''}
+		/>
+	{/if}
 </div>
 
 <!-- cwebp "Hillary_Clinton.png" -o "Hillary_Clinton.webp"
