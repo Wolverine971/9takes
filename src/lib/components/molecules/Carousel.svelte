@@ -26,7 +26,7 @@
 			'Arnold_Schwarzenegger',
 			'Beyonce_Knowles',
 			'Oprah_Winfrey',
-			// 'Meghan_Markle'
+			'Meghan_Markle',
 			'Nancy_Pelosi',
 			'Lady_Gaga',
 			'Taylor_Swift',
@@ -42,7 +42,7 @@
 		],
 		5: [
 			'Bill_Gates',
-			// 'Elon_Musk'
+			'Elon_Musk',
 			'Emily_Dickinson',
 			'Stephen_Hawking',
 			'Albert_Einstein',
@@ -129,6 +129,7 @@ cwebp "Dolly_Parton.png" -o "Dolly_Parton.webp"
 cwebp "Mother_Teresa.png" -o "Mother_Teresa.webp"
 cwebp "Mr_Rogers.png" -o "Mr_Rogers.webp"
 cwebp "Nancy_Reagan.png" -o "Nancy_Reagan.webp"
+cwebp "Meghan_Markle.png" -o "Meghan_Markle.webp"
 
 cwebp "Arnold_Schwarzenegger.png" -o "Arnold_Schwarzenegger.webp"
 cwebp "Beyonce_Knowles.png" -o "Beyonce_Knowles.webp"
@@ -150,6 +151,7 @@ cwebp "Bill_Gates.png" -o "Bill_Gates.webp"
 cwebp "Diane_Sawyer.png" -o "Diane_Sawyer.webp"
 cwebp "Emily_Dickinson.png" -o "Emily_Dickinson.webp"
 cwebp "Stephen_Hawking.png" -o "Stephen_Hawking.webp"
+cwebp "Elon_Musk.png" -o "Elon_Musk.webp"
 
 cwebp "Ellen_Degeneres.png" -o "Ellen_Degeneres.webp"
 cwebp "George_H_W_Bush.png" -o "George_H_W_Bush.webp"

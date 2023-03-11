@@ -1,4 +1,3 @@
-
 ---
 title: 'Elton John as an Enneagram Type 7'
 description: "Why Elton John appears to be a type 7"

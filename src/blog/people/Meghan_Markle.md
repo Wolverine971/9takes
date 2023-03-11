@@ -8,7 +8,7 @@ enneagram: 2
 type: ['politician']
 ---
 
-<!-- <script>
+<script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> 
 <div
@@ -23,7 +23,7 @@ type: ['politician']
 		text="Meghan Markle"
 		subtext=""
 	/>
-</div> -->
+</div>
 
 Meghan Markle, the Duchess of Sussex, has been in the public eye for years. Since her engagement to Prince Harry and subsequent marriage, she has been a subject of fascination, scrutiny, and controversy. As an enneagram expert, I believe that Meghan Markle's personality type is Enneagram Type 2 - The Helper. Here are four reasons why:
 

@@ -3,11 +3,27 @@ title: 'Elon Musk as an Enneagram Type 5'
 description: "Why Elon Musk appears to be a type 5"
 author: 'DJ Wayne'
 date: '2023-03-09'
-published: true
+published: false
 enneagram: 5
 type: ['tech']
 ---
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script> 
+<div
+	style="display: flex;
+    justify-content: center;
+	height: 100vh;
+	max-height: 1000px;"
+>
+	<PopCard
+		image={`/types/5s/${'Elon_Musk'}.webp`}
+		showIcon={false}
+		text="Elon Musk"
+		subtext=""
+	/>
+</div>
 
 Enneagram type 5 is known as the "Investigator" or "Thinker" and is characterized by a desire for knowledge, a focus on intellectual pursuits, and a tendency towards introversion and detachment.
 

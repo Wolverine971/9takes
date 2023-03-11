@@ -1,4 +1,3 @@
-
 ---
 title: 'Lady Gaga as an Enneagram Type 3'
 description: "Why Lady Gaga appears to be a type 3"

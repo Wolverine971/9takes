@@ -1,5 +1,8 @@
 # 9takes Svelte Rewrite
 
+
+## Why the name 9takes
+9takes eludes to the enneagram and how there are 9 types. What follows from that is that there are 9 different ways to view the world or 9 takes on life. Though there are potentially infinite ways to view the world there seem to be 9 core archetypes that nicely group people together and brings together both philosophy and psychology.
 ## Reasons for rewrite
 
 - Need Authentication --> Svelte Auth

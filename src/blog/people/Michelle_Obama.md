@@ -1,5 +1,3 @@
-
-
 ---
 title: 'Michelle Obama as an Enneagram Type 1'
 description: "Why Michelle Obama appears to be a type 1"

@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-03-09'
 published: true
 enneagram: 6
-type: ['actors']
+type: ['celebrity']
 ---
 
 <script>

@@ -51,7 +51,7 @@
 		6: [
 			{ name: 'Marilyn_Monroe', link: true },
 			{ name: 'Ellen_Degeneres', link: true },
-			{ name: 'George_H.W._Bush', link: true },
+			{ name: 'George_H_W_Bush', link: true },
 			{ name: 'Joe_Biden', link: true },
 			{ name: 'Mindy_Kaling', link: false },
 			{ name: 'Mark_Twain', link: false },

@@ -1,10 +1,9 @@
-
 ---
 title: 'Bill Gates as an Enneagram Type 5'
 description: "Why Bill Gates appears to be a type 5"
 author: 'DJ Wayne'
 date: '2023-03-09'
-published: true
+published: false
 enneagram: 5
 type: ['tech']
 ---
