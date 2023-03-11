@@ -5,7 +5,8 @@
 <style lang="scss">
 	.blog :global(a) {
 		color: #260958;
-		display: flex;
+		// display: flex;
+		display: inline-flex;
 		flex-wrap: wrap;
 		overflow: hidden;
 	}

@@ -55,7 +55,9 @@
 					Using the Enneagram for Personal Development
 				</h3>
 				<ul>
-					<li style="text-decoration: line-through;">How to determine your Enneagram type</li>
+					<li>
+						<a href="/blog/enneagram-personality-test"> How to determine your Enneagram type</a>
+					</li>
 					<li style="text-decoration: line-through;">
 						Understanding your strengths and weaknesses as an Enneagram type
 					</li>
