@@ -19,6 +19,7 @@
 			'Jimmy_Carter',
 			'Mother_Teresa',
 			'Nancy_Reagan',
+			'Meghan_Markle',
 			'Mr_Rogers',
 			'Jennifer_Garner'
 		],
@@ -26,7 +27,6 @@
 			'Arnold_Schwarzenegger',
 			'Beyonce_Knowles',
 			'Oprah_Winfrey',
-			'Meghan_Markle',
 			'Nancy_Pelosi',
 			'Lady_Gaga',
 			'Taylor_Swift',
