@@ -107,7 +107,7 @@
 <style>
 	.profileFace {
 		background-position: center !important;
-		background-size: auto !important;
+		background-size: cover !important;
 	}
 	.home {
 		animation: pan-image 15s linear infinite;
