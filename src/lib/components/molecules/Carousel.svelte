@@ -105,7 +105,7 @@
 	height: 100vh;
 	max-height: 1000px;"
 >
-	{#if type }
+	{#if type && visibleImage }
 		<PopCard
 			image={`/types/${type}s/${visibleImage}.webp`}
 			showIcon={false}
