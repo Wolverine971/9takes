@@ -70,8 +70,11 @@
 					Enneagram in Relationships
 				</h3>
 				<ul>
-					<li style="text-decoration: line-through;">
-						Understanding how your Enneagram type affects your relationships
+					<li >
+						<a href="/blog/enneagram-types-in-relationships">
+							Understanding Enneagram types in relationships
+						</a>
+						
 					</li>
 					<li style="text-decoration: line-through;">
 						How to communicate and interact effectively with different Enneagram types
