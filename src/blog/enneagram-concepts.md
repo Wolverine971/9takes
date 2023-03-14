@@ -115,7 +115,6 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
   "description": "Learn about Enneagram concepts and how they can help you understand yourself and others better. Find out about the nine Enneagram types and how they relate to different personality traits.",
   "articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development."
 }
-
 </script>
 
 </div>

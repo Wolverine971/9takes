@@ -48,14 +48,10 @@ Type Eights are known for their confidence and desire for control. At a party, E
 
 Type Nines are known for their easy-going nature and desire for peace. At a party, Nines might be found going with the flow and avoiding conflict. They enjoy keeping the peace and making sure everyone is getting along.
 
-
 <p>Images coming soon 🚧</p>
-
-
 
 <div>
 <script type="application/ld+json">
-
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -64,7 +60,6 @@ Type Nines are known for their easy-going nature and desire for peace. At a part
     "@id": "https://9takes.com/blog/enneagram-types-at-party"
   },
   "headline": "Enneagram Types at a Party: How Each Type Behaves",
-  
   "datePublished": "2023-02-17T00:00:00-07:00",
   "dateModified": "2023-03-01T00:00:00-07:00",
   "author": {
@@ -82,8 +77,6 @@ Type Nines are known for their easy-going nature and desire for peace. At a part
   "description": "Discover how each Enneagram type behaves at a party, and what they enjoy doing when socializing with others.",
   "articleBody": "If you're curious about the Enneagram, you might be wondering how each type behaves in social situations like a party. In this blog post, we'll take a closer look at each Enneagram type and how they typically act at a party. From the social butterfly to the wallflower, we'll explore the different ways that each type interacts with others and what they enjoy doing when socializing. Whether you're an Enneagram enthusiast or just looking to learn more about personality types, this post will help you understand how each type behaves in a party setting."
 }
-
-
 </script>
 
 </div>

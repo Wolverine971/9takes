@@ -195,7 +195,6 @@ possible with self-compassion and care.
 
 <div>
 <script type="application/ld+json">
-
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
@@ -222,7 +221,6 @@ possible with self-compassion and care.
   "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
   "articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma."
 }
-
 </script>
 
 </div>

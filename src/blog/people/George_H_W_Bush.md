@@ -78,7 +78,6 @@ In the aftermath of the 9/11 terrorist attacks, George H. W. Bush signed the Pat
   "description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life, including loyalty to family, fear of weapons of mass destruction, and the Patriot Act.",
   "articleBody": "George H. W. Bush, the 41st President of the United States, is often described as a loyal and pragmatic leader. These traits are typical of an enneagram type 6, also known as “The Loyalist.” In this article, we’ll explore why Bush’s personality aligns with this type and provide examples from his life..."
 }
-
 </script>
 
 </div>

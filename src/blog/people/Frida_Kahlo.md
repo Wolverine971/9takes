@@ -53,7 +53,6 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
 
 <div>
 <script type="application/ld+json">
-
     {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -87,7 +86,5 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
    "description": "Frida Kahlo's unique artistic style reflected her Enneagram Type 4 personality, the Individualist. This blog post explores the emotional depth, creativity, search for authenticity, and intensity of Frida Kahlo's art.",
   "articleBody": "Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist."
 }
-
 </script>
-
 </div>
