@@ -2,7 +2,6 @@
 	import { page } from '$app/stores';
 	import { env } from '$env/dynamic/public';
 	import { PUBLIC_GOOGLE } from '$env/static/public';
-	// import { browser } from '$app/environment';
 	$: {
 		if (typeof gtag !== 'undefined') {
 			gtag('config', 'MEASUREMENT_ID', {
@@ -19,8 +18,7 @@
 		src={`https://www.googletagmanager.com/gtag/js?id=${env ? env.PUBLIC_GOOGLE : PUBLIC_GOOGLE}`}
 	>
 	</script>
-	<!-- <script>
-		// if (browser && env) {
+	<script>
 		window.dataLayer = window.dataLayer || [];
 
 		function gtag() {
@@ -28,7 +26,6 @@
 		}
 
 		gtag('js', new Date());
-		gtag('config', `${env ? env.PUBLIC_GOOGLE : PUBLIC_GOOGLE}`);
-		// }
-	</script> -->
+		gtag('config', env ? env.PUBLIC_GOOGLE : PUBLIC_GOOGLE);
+	</script>
 </svelte:head>
