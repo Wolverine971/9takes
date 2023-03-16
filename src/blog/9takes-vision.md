@@ -1,4 +1,13 @@
+---
+title: '9takes vision'
+description: "9takes Enneagram Overview"
+author: 'DJ Wayne'
+date: '2023-02-10'
+published: false
+type: 'overview'
+blog: true
 
+---
 
 
 Make Psychology great again

@@ -7,8 +7,6 @@
 	let error: string = '';
 
 	const submit = async () => {
-		console.log('submit email');
-
 		if (!/\S+@\S+\.\S+/.test(email)) {
 			//!/.+@.+/.test(email) ||
 			error = 'must be a valid email';

@@ -3,7 +3,7 @@ title: 'you-cant-fix-stupid'
 description: "9takes Enneagram Overview"
 author: 'DJ Wayne'
 date: '2023-02-10'
-published: true
+published: false
 type: 'overview'
 blog: true
 
@@ -18,13 +18,8 @@ Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 
 
 
-<!-- <!DOCTYPE html> -->
-<html>
-<head>
-	<title>Responsive Layout Example</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
+
 <body>
 	<header>
 		<h1>Responsive Layout Example</h1>
@@ -60,14 +55,13 @@ Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 		<p>&copy; 2023 Responsive Layout Example</p>
 	</footer>
 </body>
-</html>
 
 
 <style>
 
     /* Basic styles */
 body {
-	font-family: Arial, sans-serif;
+	/* font-family: Arial, sans-serif; */
 	margin: 0;
 	padding: 0;
 }
