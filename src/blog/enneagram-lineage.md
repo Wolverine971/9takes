@@ -10,6 +10,9 @@ blog: true
 
 ---
 
+
+
+
 In most Enneagram circles when people talk about the origins of the Enneagram they talk about Oscar Ichazo and Claudio Naranjo. In those discussions the Enneagram gets linked to Buddhism, Taoism, the metaphysical and one can easily go down a mysticism rabbit hole. However what few people talk about or have not realized is that the enneagram's ideas have deeper historical links to early philosophy and psychology.
 
 The Enneagram is a personality typing system that describes nine distinct types of individuals, each with their own unique characteristics and tendencies. At the core of the Enneagram are the ideas of the "head," "heart," and "instincts," which are believed to shape an individual's thoughts, feelings, and behaviors. These concepts align nicely with Sigmund Freud and his theory of the psyche, which includes the concepts of the id, ego, and superego.
@@ -162,6 +165,5 @@ td {
     border: 1px solid #dee2e6;
     text-align: center;
 }
-
 
 </style>

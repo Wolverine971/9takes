@@ -5,16 +5,23 @@
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import Card from '$lib/components/atoms/card.svelte';
+	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	// export let data: PageData;
 </script>
 
 <BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />
 
-<h1 style="text-align: center;">9takes Blogs</h1>
-<div class=" blog-list">
-	<div class="row">
-		<div class="column">
-			<h2 style="margin:10px">Enneagram Overview</h2>
+<body>
+	<Jumbotron
+		image={'background2.png'}
+		showIcon={false}
+		text={'9takes Blogs'}
+		subtext={''}
+		aspectRatio={'16/5'}
+	/>
+	<main>
+		<section>
+			<h2>Enneagram</h2>
 			<div>
 				<h3 id="understanding-the-enneagram-an-introduction">
 					<!-- <a href="#understanding-the-enneagram-an-introduction"
@@ -70,11 +77,10 @@
 					Enneagram in Relationships
 				</h3>
 				<ul>
-					<li >
+					<li>
 						<a href="/blog/enneagram-types-in-relationships">
 							Understanding Enneagram types in relationships
 						</a>
-						
 					</li>
 					<li style="text-decoration: line-through;">
 						How to communicate and interact effectively with different Enneagram types
@@ -132,142 +138,101 @@
 					<li><a href="/blog/people">Celebrities, Musicians, and Politicians</a></li>
 				</ul>
 			</div>
-		</div>
-
-		<div class="column">
-			<h3 style="margin:10px">Why 9takes</h3>
-			<div>
-				<p>Coming soon</p>
+		</section>
+		<section>
+			<h2>9takes</h2>
+			<div class="column">
+				<h3 style="margin:10px">Why 9takes</h3>
+				<div>
+					<p>Coming soon</p>
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- <div class="blog-list">
-	<div class="row">
-		<div class="column">
-			{#each data?.posts.slice(0, Math.ceil(data?.posts.length / 2)) as { slug, title, author, description, date }}
-				<div class="article-preview">
-					<Card>
-						<a href={`/blog/${slug}`} class="big-a">
-							<h3 class="preview" {title}>
-								{title}
-							</h3>
-							<p class="preview" title={description}>
-								{description}
+		</section>
+	</main>
+</body>
 
-								<span>Read More </span>
-							</p>
-							<p class="preview">
-								<span class="author">{author}</span>
-								<span class="date">{new Date(date).toDateString()}</span>
-							</p>
-						</a>
-					</Card>
-				</div>
-			{/each}
-		</div>
-		<div class="column">
-			{#each data?.posts.slice(Math.ceil(data?.posts.length / 2)) as { slug, title, author, description, date }}
-				<div class="article-preview">
-					<Card>
-						<a href={`/blog/${slug}`} class="big-a">
-							<h3 class="preview" {title}>
-								{title}
-							</h3>
-							<p class="preview" title={description}>
-								{description}
-
-								<span>Read More </span>
-							</p>
-							<p class="preview">
-								<span class="author">{author}</span>
-								<span class="date">{new Date(date).toDateString()}</span>
-							</p>
-						</a>
-					</Card>
-				</div>
-			{/each}
-		</div>
-	</div>
-</div> -->
-
-<slot />
-
-<style lang="scss">
-	h3 {
-		margin-top: 1rem;
+<style>
+	body {
+		font-family: 'Motiva Sans', Sans-serif;
+		/* font-family: Arial, sans-serif; */
+		margin: 0;
+		padding: 0;
+	}
+	h1,
+	h2 {
+		margin-top: 0;
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		color: #333;
+		text-decoration: none;
+	}
+	/* Header styles */
+	header {
+		background-color: #333;
+		background-image: url('/background.png');
+		color: #fff;
+		padding: 20px;
+	}
+	/* Navigation styles */
+	nav {
+		background-color: #f2f2f2;
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+	}
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	nav li {
+		margin: 10px;
+	}
+	/* Main content styles */
+	main {
+		margin: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	section {
+		flex-basis: calc(50% - 20px);
+		margin-bottom: 20px;
+		padding: 10px;
+		background-color: #f2f2f2;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+	/* Footer styles */
+	footer {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
 		text-align: center;
 	}
-	.section-main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	/* Media queries */
+	@media (max-width: 768px) {
+		header h1 {
+			font-size: 24px;
+		}
+		nav li {
+			margin: 5px;
+		}
+		main section {
+			flex-basis: calc(100% - 20px);
+		}
 	}
-	.section-content {
-		border-right: solid;
-		margin: 10px;
-		padding: 10px;
-	}
-
-	.section-meta {
-		margin: 10px;
-		padding: 10px;
-		transform: rotate(90deg);
-	}
-	.blog-list {
-		align-items: inherit;
-		margin: 1rem;
-
-		// .row {
-		// 	display: flex;
-		// 	justify-content: space-around;
-		// }
-		.big-a:hover {
-			text-decoration: none;
+	@media (max-width: 480px) {
+		header h1 {
+			font-size: 18px;
 		}
-		.article-preview {
-			max-width: none;
-			height: clamp(1rem, 145px, 12rem);
-			width: clamp(1rem, 345px, 32rem);
-		}
-		.preview {
-			text-overflow: clip;
-			white-space: nowrap;
-			overflow-x: clip;
-			overflow: hidden;
-		}
-		.row {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			flex-wrap: wrap;
-			width: 100%;
-			padding: 0 10%;
-		}
-
-		.column {
-			display: flex;
-			flex-direction: column;
+		main section {
 			flex-basis: 100%;
-			flex: 1;
-			align-items: center;
-		}
-
-		@media all and (max-width: 576px) {
-			.row {
-				display: flex;
-				flex-direction: column;
-				width: 100%;
-				padding: 0 10%;
-			}
-
-			.column {
-				display: flex;
-				flex-direction: column;
-				flex-basis: 100%;
-				flex: 1;
-				align-items: center;
-			}
 		}
 	}
 </style>

@@ -8,6 +8,7 @@
 	import Footer from './Footer.svelte';
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	// export let data: PageData;
 
@@ -53,227 +54,174 @@
 	<meta name="description" content="9takes home for enneagram enthusiasts" />
 </svelte:head>
 
-<!-- <main> -->
-<section class="container" style="padding: 0;">
-	<div class="header header-container">
-		<PopCard
-			image={'cyber-campfire.png'}
-			showIcon={true}
-			text={'9takes'}
-			subtext={'Ask questions, share your story, get curious'}
-		/>
-	</div>
-	<div class="main">
-		<h3>What are we building?</h3>
-		<p>For the intial launch:</p>
-		<ul>
-			<li>A question and answering community.</li>
-		</ul>
+<body>
+	<Jumbotron
+		image={'background.png'}
+		showIcon={true}
+		text={'9takes'}
+		subtext={'Ask questions, share your story, get curious'}
+	/>
+	<main>
+		<section>
+			<div class="column">
+				<div class="main">
+					<h3>What are we building?</h3>
+					<p>For the intial launch:</p>
+					<ul>
+						<li>A question and answering community.</li>
+					</ul>
 
-		<h3>Why questions and answers?</h3>
-		<p>To find people that think feel and act like you and to explore everyone else.</p>
+					<h3>Why questions and answers?</h3>
+					<p>To find people that think feel and act like you and to explore everyone else.</p>
 
-		<h3>How will this be different?</h3>
-		<p>Its kinda a social experiment.</p>
-		<ul>
-			<li>
-				Comments are not visible until you comment, this allows people to give original takes on
-				questions without outside influence.
-			</li>
-			<li>Everyone is default anonymous, you can DM others and optionally reveal yourself</li>
-			<li>
-				The only thing that identifies you publicly is your enneagram personality type. Overtime you
-				will find and learn what yours is.
-			</li>
-		</ul>
+					<h3>How will this be different?</h3>
+					<p>
+						9takes is built on first principles and has some psychology behind it. Ultimately it
+						will be a social experiment with the goal of moving the needle of societal discourse in
+						a positive direction for everyone involved.
+					</p>
+					<p>
+						We are going to be building in some mechanisms to make that happen. Here are a few of
+						them:
+					</p>
+					<ul>
+						<li>
+							Comments are not visible until you comment, this allows people to give original takes
+							on questions without outside influence.
+						</li>
+						<li>Everyone is default anonymous, you can DM others and optionally reveal yourself</li>
+						<li>
+							The only thing that identifies you publicly is your enneagram personality type.
+							Overtime you will find and learn what yours is.
+						</li>
+					</ul>
 
-		<h3>When you are with your people it be like</h3>
-		<ul>
-			<li>A popping group chat 💥</li>
-			<li>A deep conversation around the campfire 🔥</li>
-			<li>When you just met someone and if feels like you have known them your whole life 🍻</li>
-		</ul>
-		<h3>^ Thats what we are trying to build</h3>
-		<p>After you find your people, the dialog can begin</p>
-	</div>
-
+					<h3>We are going to be creating some magic moments that will feel like the following:</h3>
+					<ul>
+						<li>A popping group chat 💥</li>
+						<li>A deep conversation around the campfire 🔥</li>
+						<li>
+							A feeling you get when you just met someone and it is like you have known them your
+							whole life 🍻
+						</li>
+					</ul>
+					<h3>How?</h3>
+					<p>By ask questions, sharing your story, and getting curious</p>
+				</div>
+			</div>
+		</section>
+	</main>
 	<div class="join">
 		<CollectEmail cta={'Join Waitlist'} />
 	</div>
-	<div class="footer">
+	<footer>
 		<Footer />
-	</div>
-</section>
+	</footer>
+</body>
 
-<!-- </main> -->
-<style lang="scss">
-	main {
-		padding: 0px;
+<style>
+	/* Basic styles */
+	body {
+		font-family: 'Motiva Sans', Sans-serif;
+
+		max-width: 64rem;
+		display: flex;
+		flex-direction: column;
+		padding: 1rem;
 		width: 100%;
+		margin: 0 auto;
+		box-sizing: border-box;
 	}
-	.small-absolute {
-		border-radius: 5px;
-	}
-	.img-height {
-		// height: 100vh;
-		width: 100%;
-		max-height: 100%;
-	}
-
-	@media all and (max-width: 1295px) {
-		.main {
-			max-width: 70% !important;
-		}
-	}
-
-	@media all and (max-width: 992px) {
-		// .main {
-		// 	position: absolute;
-		// 	top: 100vh;
-		// }
-		// .footer {
-		// 	position: absolute;
-		// 	top: 200vh;
-		// }
-		.main {
-			// margin: 50vh auto;
-		}
-		.main {
-			max-width: 70% !important;
-		}
-
-		.small-absolute {
-			position: absolute;
-			padding: 25px;
-		}
-		// .header-container {
-		// 	display: grid;
-		// 	grid-template-columns: [first] 0% [second] 100% [line3] 0% [col4-start] 100% [five] 0% [end] !important;
-		// 	grid-template-rows: [row1-start] 100vh [row2-start] 100vh [row3-start] 100vh;
-		// 	justify-items: center;
-		// 	align-items: center;
-		// 	color: white;
-		// 	width: 100%;
-		// 	overflow: hidden;
-		// }
-		.container {
-			display: grid;
-			grid-template-areas:
-				'header'
-				'main'
-				'join'
-				'footer';
-			gap: 10px;
-			padding: 10px;
-		}
-	}
-
-	@media all and (max-width: 576px) {
-		.main {
-			height: auto !important;
-			max-width: 90% !important;
-		}
-		.small-absolute {
-			position: absolute;
-		}
-		.header-container {
-			display: block;
-			// display: fle;
-			// grid-template-columns: [first] 0% [second] 100% [line3] 0% [col4-start] 100% [five] 0% [end] !important;
-			// grid-template-rows: [row1-start] 100vh;
-			// justify-items: center;
-			// align-items: center;
-			// color: white;
-			width: 100%;
-		}
-		.container {
-			display: block;
-			// display: grid;
-			// grid-template-areas:
-			// 	'header'
-			// 	'main'
-			// 	'join'
-			// 	'footer';
-			gap: 3rem !important;
-			// padding: 10px;
-		}
-		main {
-			padding: 1rem;
-		}
-	}
-
-	.header {
-		grid-area: header;
+	h1 {
+		margin: 0;
 		text-align: center;
-		position: relative;
 	}
-	.main {
-		grid-area: main;
+	h2 {
+		margin-top: 0;
+	}
+	ul {
+		/* list-style: disc; */
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		margin-left: 1rem;
+	}
+	a {
+		color: #333;
+		text-decoration: none;
+	}
+	/* Header styles */
+	header {
+		background-color: #333;
+		background-image: url('/background.png');
+		color: #fff;
+		padding: 20px;
+		aspect-ratio: 16 / 6;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		font-size: x-large;
-		max-width: 50%;
+	}
+	header h2 {
+		text-align: center;
+		margin: 0;
+	}
+	/* Navigation styles */
+	nav {
+		background-color: #f2f2f2;
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+	}
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	nav li {
+		margin: 10px;
+	}
+	/* Main content styles */
+	main {
+		margin: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	section {
+		flex-basis: calc(50% - 20px);
+		margin-bottom: 20px;
+		padding: 10px;
+		/* background-color: #f2f2f2;
+		border: 1px solid #ccc; */
+		box-sizing: border-box;
 		margin: auto;
 	}
-
-	.join {
-		grid-area: join;
-		height: 20vh;
-		margin: 2rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+	/* Footer styles */
+	footer {
+		/* background-color: #333;
+		color: #fff; */
+		padding: 20px;
+		text-align: center;
 	}
-
-	.footer {
-		grid-area: footer;
+	/* Media queries */
+	@media (max-width: 768px) {
+		header h1 {
+			font-size: 24px;
+		}
+		nav li {
+			margin: 5px;
+		}
+		main section {
+			flex-basis: calc(100% - 20px);
+		}
 	}
-	.header-container {
-		display: grid;
-		place-items: center;
-		// height: 100vh;
-		// margin: auto;
-		// width: 100vw;
-		justify-items: center;
-		align-items: center;
-	}
-	.container {
-		display: grid;
-
-		grid-template-areas:
-			'header header header header header'
-			'main main main main main'
-			'join join join join join'
-			'footer footer footer footer footer';
-		gap: 10px;
-		padding: 10px;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	}
-
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	body::-webkit-scrollbar {
-		width: 4px;
-	}
-
-	body::-webkit-scrollbar-track {
-		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	}
-
-	body::-webkit-scrollbar-thumb {
-		background-color: darkgrey;
-		outline: 0.5px solid slategrey;
+	@media (max-width: 480px) {
+		header h1 {
+			font-size: 18px;
+		}
+		main section {
+			flex-basis: 100%;
+		}
 	}
 </style>
