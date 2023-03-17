@@ -40,3 +40,7 @@ Design
 
 ## site map
 npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-map "1.0"
+
+
+## checkout pwa 
+https://dev.to/askrodney/sveltekit-pwa-installable-app-with-offline-access-5a8n

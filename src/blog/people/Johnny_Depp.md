@@ -1,6 +1,6 @@
 ---
-title: 'Johnny_Depp as an Enneagram Type 4'
-description: "Why Johnny_Depp appears to be a type 4"
+title: 'Johnny Depp as an Enneagram Type 4'
+description: "Why Johnny Depp appears to be a type 4"
 author: 'DJ Wayne'
 date: '2023-02-18'
 published: true

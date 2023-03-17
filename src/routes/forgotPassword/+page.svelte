@@ -4,7 +4,7 @@
 	// import welcome_fallback from '$lib/images/svelte-welcome.png';
 
 	import type { PageData } from './$types';
-	import { enhance, type SubmitFunction } from '$app/forms';
+	// import { enhance, type SubmitFunction } from '$app/forms';
 	import { supabase } from '$lib/supabase';
 	import { redirect } from '@sveltejs/kit';
 	import { notifications } from '$lib/components/molecules/notifications';

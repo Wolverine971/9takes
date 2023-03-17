@@ -106,3 +106,10 @@ https://www.youtube.com/channel/UCBXE3W58P2S76kdKdWVNdGQ
 
 
 https://www.youtube.com/channel/UCPqm9YbvAS2ymBn2utXFr-Q
+
+
+Talking about the future similar to another guy
+
+https://youtube.com/watch?v=LwXNYQHy0iE&si=EnSIkaIECMiOmarE&t=1191
+
+https://youtube.com/watch?v=8EguLJgkc54&si=EnSIkaIECMiOmarE&t=1033
