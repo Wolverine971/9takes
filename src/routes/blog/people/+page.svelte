@@ -16,22 +16,19 @@
 	}}
 	slug={'/blog/people'}
 />
-<Layout>
-	<main>
-		<h1 style="text-align: center;">9takes Analysis of Famous People</h1>
-		<div class="blog-list">
-			<ol>
-				{#each data.people as person}
-					<li>
-						<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
-					</li>
-				{/each}
-			</ol>
-		</div>
 
-		<p>Organization and additional people analysis coming soon 🚧</p>
-	</main>
-</Layout>
+<h1 style="text-align: center;">9takes Analysis of Famous People</h1>
+<div class="blog-list">
+	<ol>
+		{#each data.people as person}
+			<li>
+				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+			</li>
+		{/each}
+	</ol>
+</div>
+
+<p>Organization and additional people analysis coming soon 🚧</p>
 
 <style lang="scss">
 	h3 {

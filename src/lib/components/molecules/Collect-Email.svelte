@@ -65,9 +65,7 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	.waitlist-form label {
-		margin-bottom: 10px;
-	}
+
 	.waitlist-form input {
 		width: 100%;
 		max-width: 300px;
@@ -109,10 +107,7 @@
 			flex-direction: row;
 			align-items: center;
 		}
-		.waitlist-form label {
-			margin-right: 10px;
-			margin-bottom: 0;
-		}
+
 		.waitlist-form input {
 			margin-right: 10px;
 			margin-bottom: 0;

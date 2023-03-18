@@ -3,7 +3,7 @@ title: 'How to communicate and interact effectively with different Enneagram typ
 description: ""
 author: 'DJ Wayne'
 date: '2023-02-27'
-published: true
+published: false
 type: 'overview'
 blog: true
 

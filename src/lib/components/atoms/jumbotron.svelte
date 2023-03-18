@@ -91,7 +91,6 @@
 
 		<div class="screen-user">
 			<p class="name" data-value={text}>{text}</p>
-			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a> -->
 			{#if subtext}
 				<p class="link">{subtext}</p>
 			{/if}
@@ -99,23 +98,7 @@
 	</div>
 </div>
 
-<!-- <div id="blob"></div>
-<div id="blur"></div>
-
-<div id="links">
-  
-</div><div class="screen">  
-  <div class="screen-image"></div>  
-  <div class="screen-overlay"></div>  
-  <div class="screen-content">
-    <i class="screen-icon fa-brands fa-codepen"></i>
-    <div class="screen-user">
-      <span class="name" data-value="CODEPEN">CODEPEN</span>
-      <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a>
-    </div>
-  </div>
-</div> -->
-<style>
+<style lang="scss">
 	.full-screen {
 		height: 100vh;
 		widows: 100vw;

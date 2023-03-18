@@ -16,10 +16,6 @@ Reminds me of Steven Pinker- rational and irrational
 
 Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 
-
-
-
-
 <body>
 	<header>
 		<h1>Responsive Layout Example</h1>
@@ -56,12 +52,11 @@ Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 	</footer>
 </body>
 
-
 <style>
 
-    /* Basic styles */
+    /*Basic styles*/
 body {
-	/* font-family: Arial, sans-serif; */
+	/*font-family: Arial, sans-serif;*/
 	margin: 0;
 	padding: 0;
 }
@@ -77,14 +72,14 @@ a {
 	color: #333;
 	text-decoration: none;
 }
-/* Header styles */
+/*Header styles*/
 header {
 	background-color: #333;
     background-image: url('/background.png');
 	color: #fff;
 	padding: 20px;
 }
-/* Navigation styles */
+/*Navigation styles*/
 nav {
 	background-color: #f2f2f2;
 	border-bottom: 1px solid #5407d9;
@@ -99,7 +94,7 @@ nav ul {
 nav li {
 	margin: 10px;
 }
-/* Main content styles */
+/*Main content styles*/
 main {
 	margin: 20px;
 	display: flex;
@@ -114,14 +109,14 @@ section {
 	border: 1px solid #5407d9;
 	box-sizing: border-box;
 }
-/* Footer styles */
+/*Footer styles*/
 footer {
 	background-color: #333;
 	color: #fff;
 	padding: 20px;
 	text-align: center;
 }
-/* Media queries */
+/*Media queries*/
 @media (max-width: 768px) {
 	header h1 {
 		font-size: 24px;
@@ -141,7 +136,6 @@ footer {
 		flex-basis: 100%;
 	}
 }
-
 
 .waitlist-section {
   text-align: center;
@@ -170,7 +164,7 @@ footer {
   border: none;
   cursor: pointer;
 }
-/* For tablets */
+/*For tablets*/
 @media only screen and (min-width: 768px) {
   .waitlist-form {
     max-width: 500px;
@@ -179,7 +173,7 @@ footer {
     max-width: 400px;
   }
 }
-/* For PCs */
+/*For PCs*/
 @media only screen and (min-width: 992px) {
   .waitlist-section {
     display: flex;
@@ -199,6 +193,5 @@ footer {
     margin-bottom: 0;
   }
 }
-
 
     </style>

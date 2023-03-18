@@ -113,8 +113,8 @@ a:hover {
 }
 
 body {
-	// background: $dark-200;
-	// color: #ffffff;
+	background: $dark-200;
+	color: #ffffff;
 	font-size: 18px;
 }
 
@@ -215,7 +215,7 @@ input {
 .article-preview {
 	max-width: none;
 	height: clamp(1rem, 145px, 12rem);
-	width: clamp(1rem, 321px, 32rem);
+	width: clamp(1rem, 345px, 32rem);
 }
 .preview {
 	text-overflow: clip;
@@ -240,4 +240,22 @@ input {
 		height: 1em;
 		background-size: 1em 1em;
 	}
+}
+
+.blog :global(a) {
+	color: #260958;
+	display: inline-flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	max-width: 100%;
+}
+.blog :global(a::after) {
+	content: '';
+	background-image: url('/svgs/arrow.svg');
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1em;
+	height: 1em;
+	background-size: 1em 1em;
 }

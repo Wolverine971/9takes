@@ -21,7 +21,6 @@ Freud's id represents the primitive and instinctual desires of an individual, wh
 
 However, the origins of these ideas can be traced even further back to the philosophy of Plato. In his works, Plato describes the human soul as being composed of three parts: reason, spirit, and appetite. The rational aspect of the soul, or reason, corresponds to the Enneagram's concept of the head, while the spirited aspect of the soul, or spirit, aligns with the Enneagram's idea of the heart. Finally, the appetitive aspect of the soul, or appetite, corresponds to the Enneagram's concept of instincts.
 
-
 | Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
 | --------- | -------- | -------------------------------- | ---------------------- |
 | id        | appetite | instinctual/ body                | anger                  |

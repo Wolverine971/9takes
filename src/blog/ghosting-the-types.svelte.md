@@ -69,7 +69,7 @@ blog: true
 
   <aside class="section-meta">
    <a href="/blog/3" class="a-type">Type 3</a>
-   <p>The enneagram 3 is a shiney creature</p>
+   <p>The enneagram 3 is a shiny creature</p>
   </aside>
  </section>
 
