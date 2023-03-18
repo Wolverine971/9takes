@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	/* -- Glow effect -- */
@@ -67,7 +68,10 @@
 	};
 </script>
 
-<div class="screen" style="aspect-ratio: {aspectRatio};">
+<div
+	class="screen {$page.url.pathname === '/' ? 'full-screen' : ''}"
+	style="aspect-ratio: {aspectRatio}; "
+>
 	<div
 		class="screen-image {panBackground ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
@@ -112,6 +116,10 @@
   </div>
 </div> -->
 <style>
+	.full-screen {
+		height: 100vh;
+		widows: 100vw;
+	}
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
@@ -155,9 +163,9 @@
 		/* width: 500px; */
 		/* width: clamp(400px, 100%, 600px); */
 		display: flex;
-		border: 3px solid rgb(var(--primary-rgb) / 80%);
+		border: 2px solid rgb(var(--primary-rgb) / 80%);
 		/* aspect-ratio: 10 / 16; */
-		border-radius: 1rem;
+		border-radius: 0.25rem;
 		background-color: rgb(var(--primary-rgb) / 15%);
 		overflow: hidden;
 		position: relative;

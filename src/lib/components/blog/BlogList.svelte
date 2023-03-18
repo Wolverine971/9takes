@@ -47,7 +47,7 @@
 	.article-preview {
 		max-width: none;
 		height: clamp(1rem, 145px, 12rem);
-		width: clamp(1rem, 345px, 32rem);
+		width: clamp(1rem, 321px, 32rem);
 	}
 	.preview {
 		text-overflow: clip;
@@ -91,5 +91,23 @@
 
 	.section-meta:hover {
 		transform: rotate(360deg);
+	}
+
+	@media all and (max-width: 576px) {
+		.row {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			padding: 0 10%;
+		}
+
+		.column {
+			display: flex;
+			flex-direction: column;
+			flex-basis: 100%;
+			width: 100%;
+			flex: 1;
+			align-items: center;
+		}
 	}
 </style>

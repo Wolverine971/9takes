@@ -87,7 +87,7 @@ header {
 /* Navigation styles */
 nav {
 	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #5407d9;
 	padding: 10px;
 }
 nav ul {
@@ -111,7 +111,7 @@ section {
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: #f2f2f2;
-	border: 1px solid #ccc;
+	border: 1px solid #5407d9;
 	box-sizing: border-box;
 }
 /* Footer styles */
@@ -160,7 +160,7 @@ footer {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #5407d9;
 }
 .waitlist-form button {
   background-color: #007bff;

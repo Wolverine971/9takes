@@ -294,6 +294,8 @@ possible with self-compassion and care.
         margin: 1rem;
         padding: 0.4rem;
         white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
     }
 
     aside::-webkit-scrollbar {

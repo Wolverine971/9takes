@@ -35,7 +35,7 @@
 </script>
 
 <div class="waitlist-section">
-	<h2>Join our waitlist!</h2>
+	<h2 style="margin-top: 0;">Join our waitlist!</h2>
 	<p>Be the first to know when 9takes is ready.</p>
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
@@ -53,45 +53,12 @@
 	{/if}
 </div>
 
-<!-- <style lang="scss">
-	@media (max-width: 535px) {
-		.form-row {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-		}
-		.error {
-			margin: 1rem;
-		}
-	}
-
-	.form {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin: 20px;
-		justify-content: center;
-	}
-	.form-row {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.hidden {
-		visibility: hidden;
-	}
-	.disabled {
-		border: pink 2px solid;
-	}
-	.error {
-		color: #ff2c50;
-	}
-</style> -->
 <style>
 	.waitlist-section {
 		text-align: center;
+		border: 1px solid #5407d9;
+		padding: 2rem;
+		border-radius: 5px;
 	}
 	.waitlist-form {
 		display: flex;
@@ -107,7 +74,7 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: 5px;
-		border: 1px solid #ccc;
+		border: 1px solid #5407d9;
 	}
 	.waitlist-form button {
 		/* background-color: #007bff; */
@@ -117,6 +84,7 @@
 		cursor: pointer;
 		color: #5407d9;
 		border: 1px solid;
+		width: 145px;
 	}
 	/* For tablets */
 	@media only screen and (min-width: 768px) {
@@ -149,5 +117,20 @@
 			margin-right: 10px;
 			margin-bottom: 0;
 		}
+	}
+	::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: #5407d9;
+		opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder {
+		/* Internet Explorer 10-11 */
+		color: #5407d9;
+	}
+
+	::-ms-input-placeholder {
+		/* Microsoft Edge */
+		color: #5407d9;
 	}
 </style>

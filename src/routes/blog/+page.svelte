@@ -12,13 +12,13 @@
 <BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />
 
 <body>
-	<Jumbotron
+	<!-- <Jumbotron
 		image={'background2.png'}
 		showIcon={false}
 		text={'9takes Blogs'}
 		subtext={''}
 		aspectRatio={'16/5'}
-	/>
+	/> -->
 	<main>
 		<section>
 			<h2>Enneagram</h2>
@@ -153,10 +153,10 @@
 
 <style>
 	body {
-		font-family: 'Motiva Sans', Sans-serif;
+		/* font-family: 'Motiva Sans', Sans-serif; */
 		/* font-family: Arial, sans-serif; */
-		margin: 0;
-		padding: 0;
+		/* margin: 0;
+		padding: 0; */
 	}
 	h1,
 	h2 {
@@ -181,7 +181,7 @@
 	/* Navigation styles */
 	nav {
 		background-color: #f2f2f2;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #5407d9;
 		padding: 10px;
 	}
 	nav ul {
@@ -205,8 +205,9 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		background-color: #f2f2f2;
-		border: 1px solid #ccc;
+		border: 1px solid #5407d9;
 		box-sizing: border-box;
+		border-radius: 0.25rem;
 	}
 	/* Footer styles */
 	footer {

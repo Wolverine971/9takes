@@ -5,7 +5,8 @@ const config = {
 	plugins: [sveltekit()],
 	test: {
 		include: ['src/**/*.{test,spec}.{js,ts}']
-	}
+	},
+	base: './'
 };
 
 export default config;

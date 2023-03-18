@@ -7,6 +7,7 @@
 	import Analytics from '$lib/analytics.svelte';
 	import { page } from '$app/stores';
 	import Footer from './Footer.svelte';
+	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	export let data: PageData;
 </script>
 
@@ -17,6 +18,15 @@
 	{/if}
 
 	<Toast />
+	{#if $page.url.pathname === '/'}
+		<Jumbotron
+			image={'background.png'}
+			showIcon={true}
+			text={'9takes'}
+			subtext={'Ask questions, share your story, get curious'}
+			aspectRatio={'16/5'}
+		/>
+	{/if}
 	<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
 		<slot />
 	</main>

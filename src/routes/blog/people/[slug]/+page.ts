@@ -2,7 +2,7 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 
-const MAX_POSTS = 7;
+const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
 	const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);

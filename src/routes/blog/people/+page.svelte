@@ -19,7 +19,7 @@
 <Layout>
 	<main>
 		<h1 style="text-align: center;">9takes Analysis of Famous People</h1>
-		<div class=" blog-list">
+		<div class="blog-list">
 			<ol>
 				{#each data.people as person}
 					<li>
@@ -68,7 +68,7 @@
 		.article-preview {
 			max-width: none;
 			height: clamp(1rem, 145px, 12rem);
-			width: clamp(1rem, 345px, 32rem);
+			width: clamp(1rem, 321px, 32rem);
 		}
 		.preview {
 			text-overflow: clip;

@@ -55,12 +55,13 @@
 </svelte:head>
 
 <body>
-	<Jumbotron
+	<!-- <Jumbotron
 		image={'background.png'}
 		showIcon={true}
 		text={'9takes'}
 		subtext={'Ask questions, share your story, get curious'}
-	/>
+		aspectRatio={'16/5'}
+	/> -->
 	<main>
 		<section>
 			<div class="column">
@@ -111,9 +112,12 @@
 			</div>
 		</section>
 	</main>
-	<div class="join">
-		<CollectEmail cta={'Join Waitlist'} />
-	</div>
+	<section>
+		<div class="join">
+			<CollectEmail cta={'Join Waitlist'} />
+		</div>
+	</section>
+
 	<footer>
 		<Footer />
 	</footer>
@@ -169,7 +173,7 @@
 	/* Navigation styles */
 	nav {
 		background-color: #f2f2f2;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #5407d9;
 		padding: 10px;
 	}
 	nav ul {
@@ -193,7 +197,7 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		/* background-color: #f2f2f2;
-		border: 1px solid #ccc; */
+		border: 1px solid #5407d9; */
 		box-sizing: border-box;
 		margin: auto;
 	}

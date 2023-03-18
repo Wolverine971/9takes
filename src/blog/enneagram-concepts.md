@@ -125,17 +125,17 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 }
 tr {
 
-    border: 1px solid grey;
+    border: 1px solid #5407d9;
     text-align: center;
 }
 td {
 
-    border: 1px solid grey;
+    border: 1px solid #5407d9;
     text-align: center;
 }
 th {
 
-    border: 1px solid grey;
+    border: 1px solid #5407d9;
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {

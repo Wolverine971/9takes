@@ -137,7 +137,7 @@ table {
     width: 100%;
     margin-bottom: 1rem;
     color: #212529;
-    border: 1px solid #dee2e6;
+    border: 1px solid #5407d9;
 
 }
 thead {
@@ -155,14 +155,14 @@ th {
     border-bottom-width: 2px;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    border: 1px solid #dee2e6;
+    border: 1px solid #5407d9;
     padding: 0.75rem;
 }
 
 td {
     padding: 0.75rem;
     vertical-align: top;
-    border: 1px solid #dee2e6;
+    border: 1px solid #5407d9;
     text-align: center;
 }
 
