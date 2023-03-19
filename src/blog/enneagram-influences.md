@@ -4,7 +4,7 @@ description: "Differing traditions and schools of thought that wrestle with and 
 author: 'DJ Wayne'
 date: '2023-03-02'
 published: true
-type: 'overview'
+type: ['overview']
 blog: true
 
 ---

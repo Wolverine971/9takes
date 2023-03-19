@@ -4,7 +4,7 @@ description: "9takes Enneagram Overview"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: false
-type: 'overview'
+type: ['overview']
 blog: true
 
 ---

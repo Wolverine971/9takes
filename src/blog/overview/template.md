@@ -4,7 +4,7 @@ description: "To establish topical authority"
 author: 'DJ Wayne'
 date: '2023-03-05'
 published: false
-type: 'overview'
+type: ['overview']
 
 ---
 

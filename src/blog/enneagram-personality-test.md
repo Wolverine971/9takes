@@ -1,11 +1,10 @@
 ---
-
 title: 'How to determine your Enneagram type'
 description: "Overview for how to determine/ deduce your Enneagram type"
 author: 'DJ Wayne'
 date: '2023-03-11'
 published: true
-type: 'overview'
+type: ['overview']
 blog: true
 
 

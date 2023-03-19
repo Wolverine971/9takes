@@ -1,9 +1,10 @@
+---
 title: 'Situational blogs'
 description: "Enneagram in situations"
 author: 'DJ Wayne'
 date: '2023-02-18'
-published: true
-type: 'overview'
+published: false
+type: ['overview']
 
 ---
 

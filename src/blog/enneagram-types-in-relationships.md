@@ -4,7 +4,7 @@ description: "What each type is like in a relationship"
 author: 'DJ Wayne'
 date: '2023-03-10'
 published: true
-type: 'overview'
+type: ['overview']
 blog: true
 ---
 

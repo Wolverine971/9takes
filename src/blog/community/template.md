@@ -4,7 +4,7 @@ description: "The reasons for 9takes"
 author: 'DJ Wayne'
 date: '2023-02-18'
 published: true
-type: 'overview'
+type: ['overview']
 
 ---
 

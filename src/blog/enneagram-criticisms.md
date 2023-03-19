@@ -4,7 +4,7 @@ description: "Common criticisms of the enneagram"
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
-type: 'overview'
+type: ['overview']
 blog: true
 
 ---

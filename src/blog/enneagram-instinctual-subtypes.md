@@ -4,7 +4,7 @@ description: ""
 author: 'DJ Wayne'
 date: '2023-02-28'
 published: true
-type: 'overview'
+type: ['overview']
 blog: true
 
 ---
