@@ -12,6 +12,14 @@ blog: true
 
 
 
+<!-- They almost got it, so close
+Historical hints of the enneagram
+
+First principles
+Enneagram and Plato
+
+9 threads through the fabric of history -->
+
 
 In most Enneagram circles when people talk about the origins of the Enneagram they talk about Oscar Ichazo and Claudio Naranjo. In those discussions the Enneagram gets linked to Buddhism, Taoism, the metaphysical and one can easily go down a mysticism rabbit hole. However what few people talk about or have not realized is that the enneagram's ideas have deeper historical links to early philosophy and psychology.
 
@@ -35,6 +43,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
     src="/freud-plato.png"
     alt="freud and plato"
     class="small-absolute"
+    style="width: 100%"
    />
    <div>
    <script type="application/ld+json">
