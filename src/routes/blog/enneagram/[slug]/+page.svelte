@@ -31,7 +31,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../../scss/index.scss';
+	@import '../../../../scss/index.scss';
 	tr {
 		border: 1px solid #5407d9;
 		text-align: center;

@@ -23,7 +23,7 @@ blog: true
     team dynamics in various settings.
     
   </p>
-  <a href="/blog/tldr-enneagram" >TLDR </a>
+  <a href="/blog/enneagram/tldr-enneagram" >TLDR </a>
   </div>
 </details>
 
@@ -92,7 +92,7 @@ blog: true
 <details>
 <summary class="accordion">Is Enneagram scientific?</summary>
 
-  <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche goes even further back and parallels Plato's description of the human soul. <a href="/blog/enneagram-lineage" >See here</a>
+  <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche goes even further back and parallels Plato's description of the human soul. <a href="/blog/enneagram/enneagram-lineage" >See here</a>
     </p>
 </details>
 

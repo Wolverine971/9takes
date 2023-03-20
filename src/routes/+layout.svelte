@@ -13,9 +13,9 @@
 
 <div class="app">
 	<Analytics />
-	{#if $page.url.pathname !== '/'}
+	<!-- {#if $page.url.pathname !== '/'}
 		<Header {data} />
-	{/if}
+	{/if} -->
 
 	<Toast />
 	{#if $page.url.pathname === '/'}

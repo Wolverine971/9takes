@@ -13,7 +13,7 @@
 </script>
 
 <div class="notifications">
-	{#each $notifications as notification (notification.id)}
+	{#each $notifications as notification (notification?.id)}
 		<div
 			animate:flip
 			class="toast"

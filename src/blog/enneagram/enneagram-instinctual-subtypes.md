@@ -42,7 +42,7 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram-instinctual-subtypes"
+    "@id": "https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes"
   },
   "headline": "Understanding Enneagram Instinctual Subtypes",
   

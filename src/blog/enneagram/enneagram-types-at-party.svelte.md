@@ -57,7 +57,7 @@ Type Nines are known for their easy-going nature and desire for peace. At a part
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram-types-at-party"
+    "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party"
   },
   "headline": "Enneagram Types at a Party: How Each Type Behaves",
   "datePublished": "2023-02-17T00:00:00-07:00",

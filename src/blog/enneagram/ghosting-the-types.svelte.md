@@ -31,7 +31,7 @@ blog: true
 <!-- <hr class="border"/>  -->
   <aside class="section-meta">
   
-   <a href="/blog/1" class="a-type">Type 1</a>
+   <a href="/blog/enneagram/1" class="a-type">Type 1</a>
    <p>The enneagram 1 is a put together creature</p>
 
   </aside>
@@ -50,7 +50,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/2" class="a-type">Type 2</a>
+   <a href="/blog/enneagram/2" class="a-type">Type 2</a>
    <p>The enneagram 2 is a loving creature</p>
   </aside>
  </section>
@@ -68,7 +68,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/3" class="a-type">Type 3</a>
+   <a href="/blog/enneagram/3" class="a-type">Type 3</a>
    <p>The enneagram 3 is a shiny creature</p>
   </aside>
  </section>
@@ -86,7 +86,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/4" class="a-type">Type 4</a>
+   <a href="/blog/enneagram/4" class="a-type">Type 4</a>
    <p>The enneagram 4 is a complicated creature</p>
   </aside>
  </section>
@@ -104,7 +104,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/5" class="a-type">Type 5</a>
+   <a href="/blog/enneagram/5" class="a-type">Type 5</a>
    <p>The enneagram 5 is a mysterious creature</p>
   </aside>
  </section>
@@ -122,7 +122,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/6" class="a-type">Type 6</a>
+   <a href="/blog/enneagram/6" class="a-type">Type 6</a>
    <p>The enneagram 6 is a wary creature</p>
   </aside>
  </section>
@@ -140,7 +140,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/7" class="a-type">Type 7</a>
+   <a href="/blog/enneagram/7" class="a-type">Type 7</a>
    <p>The enneagram 7 is a joyful creature</p>
   </aside>
  </section>
@@ -158,7 +158,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/8" class="a-type">Type 8</a>
+   <a href="/blog/enneagram/8" class="a-type">Type 8</a>
    <p>The enneagram 8 is a strong creature</p>
   </aside>
  </section>
@@ -176,7 +176,7 @@ blog: true
   </section>
 
   <aside class="section-meta">
-   <a href="/blog/9" class="a-type">Type 9</a>
+   <a href="/blog/enneagram/9" class="a-type">Type 9</a>
    <p>The enneagram 9 is a easy going creature</p>
   </aside>
  </section>
@@ -200,7 +200,7 @@ possible with self-compassion and care.
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/ghosting-the-types"
+    "@id": "https://9takes.com/blog/enneagram/ghosting-the-types"
   },
   "headline": "Ghosting and the Enneagram: How Each Type Responds",
   
@@ -227,7 +227,7 @@ possible with self-compassion and care.
 
 <style lang="scss">
 
-    @import '../scss/index.scss';
+    @import '../../scss/index.scss';
 
     .section-main {
         display: flex;

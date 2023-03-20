@@ -30,10 +30,12 @@
 			</h3>
 			<ul>
 				<!-- <li>History and origins of the Enneagram</li> -->
-				<li><a href="/blog/enneagram-lineage"> Enneagram Lineage </a></li>
-				<li><a href="/blog/tldr-enneagram"> Enneagram TLDR </a></li>
+				<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram Lineage </a></li>
+				<li><a href="/blog/enneagram/tldr-enneagram"> Enneagram TLDR </a></li>
 				<li>
-					<a href="/blog/enneagram-concepts"> Concepts and principles of the Enneagram </a>
+					<a href="/blog/enneagram/enneagram-concepts">
+						Concepts and principles of the Enneagram
+					</a>
 				</li>
 				<li style="text-decoration: line-through;">
 					How the Enneagram can be used for personal growth and self-improvement
@@ -44,15 +46,15 @@
 				The Nine Enneagram Types
 			</h3>
 			<ul>
-				<li><a href="/blog/1"> Type 1: The Perfectionist </a></li>
-				<li><a href="/blog/2"> Type 2: The Helper </a></li>
-				<li><a href="/blog/3"> Type 3: The Achiever </a></li>
-				<li><a href="/blog/4"> Type 4: The Individualist </a></li>
-				<li><a href="/blog/5"> Type 5: The Investigator </a></li>
-				<li><a href="/blog/6"> Type 6: The Loyalist </a></li>
-				<li><a href="/blog/7"> Type 7: The Enthusiast </a></li>
-				<li><a href="/blog/8"> Type 8: The Challenger </a></li>
-				<li><a href="/blog/9"> Type 9: The Peacemaker </a></li>
+				<li><a href="/blog/enneagram/1"> Type 1: The Perfectionist </a></li>
+				<li><a href="/blog/enneagram/2"> Type 2: The Helper </a></li>
+				<li><a href="/blog/enneagram/3"> Type 3: The Achiever </a></li>
+				<li><a href="/blog/enneagram/4"> Type 4: The Individualist </a></li>
+				<li><a href="/blog/enneagram/5"> Type 5: The Investigator </a></li>
+				<li><a href="/blog/enneagram/6"> Type 6: The Loyalist </a></li>
+				<li><a href="/blog/enneagram/7"> Type 7: The Enthusiast </a></li>
+				<li><a href="/blog/enneagram/8"> Type 8: The Challenger </a></li>
+				<li><a href="/blog/enneagram/9"> Type 9: The Peacemaker </a></li>
 			</ul>
 			<h3 id="using-the-enneagram-for-personal-development">
 				<!-- <a href="#using-the-enneagram-for-personal-development"
@@ -62,7 +64,9 @@
 			</h3>
 			<ul>
 				<li>
-					<a href="/blog/enneagram-personality-test"> How to determine your Enneagram type</a>
+					<a href="/blog/enneagram/enneagram-personality-test">
+						How to determine your Enneagram type</a
+					>
 				</li>
 				<li style="text-decoration: line-through;">
 					Understanding your strengths and weaknesses as an Enneagram type
@@ -77,7 +81,7 @@
 			</h3>
 			<ul>
 				<li>
-					<a href="/blog/enneagram-types-in-relationships">
+					<a href="/blog/enneagram/enneagram-types-in-relationships">
 						Understanding Enneagram types in relationships
 					</a>
 				</li>
@@ -108,7 +112,7 @@
 				Enneagram Resources
 			</h3>
 			<ul>
-				<li><a href="/blog/faq">Enneagram FAQ </a></li>
+				<li><a href="/blog/enneagram/faq">Enneagram FAQ </a></li>
 				<li style="text-decoration: line-through;">
 					Books and websites for learning more about the Enneagram
 				</li>
@@ -121,9 +125,9 @@
 				Enneagram Situational Topics
 			</h3>
 			<ul>
-				<li><a href="/blog/enneagram-types-at-party">Enneagram Types at a Party</a></li>
+				<li><a href="/blog/enneagram/enneagram-types-at-party">Enneagram Types at a Party</a></li>
 				<li>
-					<a href="/blog/ghosting-the-types"
+					<a href="/blog/enneagram/ghosting-the-types"
 						>Impact of Ghosting on Mental Health: An Enneagram Perspective
 					</a>
 				</li>

@@ -17,15 +17,15 @@ The Enneagram is divided into nine distinct personality types, each with its own
 
 The Enneagram identifies nine distinct personality types, each represented by a number. These numbers are:
 
-1. <a href="/blog/1" >The Perfectionist</a>
-2. <a href="/blog/2" >The Helper</a>
-3. <a href="/blog/3" >The Achiever</a>
-4. <a href="/blog/4" >The Individualist</a>
-5. <a href="/blog/5" >The Investigator</a>
-6. <a href="/blog/6" >The Loyalist</a>
-7. <a href="/blog/7" >The Enthusiast</a>
-8. <a href="/blog/8" >The Challenger</a>
-9. <a href="/blog/9" >The Peacemaker</a>
+1. <a href="/blog/enneagram/1" >The Perfectionist</a>
+2. <a href="/blog/enneagram/2" >The Helper</a>
+3. <a href="/blog/enneagram/3" >The Achiever</a>
+4. <a href="/blog/enneagram/4" >The Individualist</a>
+5. <a href="/blog/enneagram/5" >The Investigator</a>
+6. <a href="/blog/enneagram/6" >The Loyalist</a>
+7. <a href="/blog/enneagram/7" >The Enthusiast</a>
+8. <a href="/blog/enneagram/8" >The Challenger</a>
+9. <a href="/blog/enneagram/9" >The Peacemaker</a>
 
 Each of these types has a distinct worldview and set of behaviors, which are shaped by their core fears, desires, and motivations. By understanding these core motivations, individuals can gain a deeper understanding of their own behavior and how it impacts others.
 
@@ -49,7 +49,7 @@ In addition to the nine personality types and the three centers of intelligence,
 
 3. Sexual: This instinct drives individuals to seek intense experiences and deep connections with others. People driven by this instinct tend to be passionate and focused on physical intimacy and emotional connection.
 
-Learn more about the <a href="/blog/enneagram-instinctual-subtypes" >subtypes here </a>
+Learn more about the <a href="/blog/enneagram/enneagram-instinctual-subtypes" >subtypes here </a>
 
 ## Wings
 
@@ -92,7 +92,7 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram-concepts"
+    "@id": "https://9takes.com/blog/enneagram/enneagram-concepts"
   },
   "headline": "Enneagram Concepts",
   

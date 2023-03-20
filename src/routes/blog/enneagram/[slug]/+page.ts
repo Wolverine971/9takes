@@ -5,7 +5,7 @@ import { error } from '@sveltejs/kit';
 const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
-	const modules = import.meta.glob(`/src/blog/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {

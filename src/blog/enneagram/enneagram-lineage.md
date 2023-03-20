@@ -64,7 +64,7 @@ In conclusion, the Enneagram's ideas of the head, heart, and instincts can be tr
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram-lineage"
+    "@id": "https://9takes.com/blog/enneagram/enneagram-lineage"
   },
   "image": {
     "@type": "ImageObject",
