@@ -49,7 +49,6 @@ export const load: PageLoad = async ({ params }) => {
 		component: post.default,
 		frontmatter: post.metadata,
 		slug: params.slug,
-		posts: publishedPosts,
-		metaData: post
+		posts: publishedPosts
 	};
 };
