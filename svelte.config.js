@@ -12,7 +12,6 @@ import { mdsvex } from 'mdsvex';
 const filePath = dirname(fileURLToPath(import.meta.url));
 const sassPath = `${filePath}\\src\\scss\\`;
 
-// C:\Users\djway\Desktop\svelte\9takes\src\scss\index.scss
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors

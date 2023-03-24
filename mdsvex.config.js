@@ -15,7 +15,6 @@ const path_to_layout = join(__dirname, './src/lib/components/blog/layout.svelte'
 
 const config = defineConfig({
 	layout: path_to_layout,
-	// C:\Users\djway\Desktop\svelte\9takes\src\routes\+layout.svelte
 	extensions: ['.svelte.md', '.md', '.svx'],
 
 	smartypants: {
