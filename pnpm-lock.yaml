@@ -46,6 +46,7 @@ specifiers:
   typescript: ^4.9.3
   vite: ^4.0.0
   vitest: ^0.25.3
+  web-vitals: ^3.3.0
 
 dependencies:
   '@sveltejs/adapter-node': 1.2.1_@sveltejs+kit@1.10.0
@@ -57,6 +58,7 @@ dependencies:
   remark-abbr: 1.4.1
   remark-github: 11.2.4
   stemmer: 2.0.1
+  web-vitals: 3.3.0
 
 devDependencies:
   '@fontsource/fira-mono': 4.5.10
@@ -5005,6 +5007,10 @@ packages:
     resolution: {integrity: sha512-e0MO3wdXWKrLbL0DgGnUV7WHVuw9OUvL4hjgnPkIeEvESk74gAITi5G606JtZPp39cd8HA9VQzCIvA49LpPN5Q==}
     engines: {node: '>= 8'}
     dev: true
+
+  /web-vitals/3.3.0:
+    resolution: {integrity: sha512-GZsEmJBNclIpViS/7QVOTr7Kbt4BgLeR7kQ5zCCtJVuiWsA+K6xTXaoEXssvl8yYFICEyNmA2Nr+vgBYTnS4bA==}
+    dev: false
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
