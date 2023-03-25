@@ -101,7 +101,7 @@
 <style lang="scss">
 	.full-screen {
 		height: 100vh;
-		width: 100vw;
+		// width: 100vw;
 	}
 	.profileFace {
 		background-position: center !important;

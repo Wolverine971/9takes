@@ -1,7 +1,17 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import Header from './Header.svelte';
+	import { webVitals } from '$lib/vitals';
+	import { browser } from '$app/environment';
+	// import Header from './Header.svelte';
 	import './styles.css';
+	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
+	$: if (browser && analyticsId) {
+		webVitals({
+			path: $page.url.pathname,
+			params: $page.params,
+			analyticsId
+		});
+	}
 
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Analytics from '$lib/analytics.svelte';
