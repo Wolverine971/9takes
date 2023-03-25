@@ -17,7 +17,7 @@
 <svelte:head>
 	<script async src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`}>
 	</script>
-	<script>
+	<script async>
 		window.dataLayer = window.dataLayer || [];
 
 		function gtag() {
