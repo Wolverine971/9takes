@@ -25,6 +25,6 @@
 		}
 
 		gtag('js', new Date());
-		gtag('config', env ? env.PUBLIC_GOOGLE : PUBLIC_GOOGLE);
+		gtag('config', PUBLIC_GOOGLE);
 	</script>
 </svelte:head>
