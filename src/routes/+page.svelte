@@ -125,17 +125,6 @@
 
 <style>
 	/* Basic styles */
-	body {
-		font-family: 'Motiva Sans', Sans-serif;
-
-		max-width: 64rem;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
 	h1 {
 		margin: 0;
 		text-align: center;
