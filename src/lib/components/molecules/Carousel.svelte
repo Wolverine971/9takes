@@ -52,6 +52,7 @@
 			'Marilyn_Monroe',
 			'Ellen_Degeneres',
 			'George_H_W_Bush',
+			'George_W_Bush',
 			'Joe_Biden',
 			'Mindy_Kaling',
 			'Mark_Twain',
@@ -105,7 +106,7 @@
 	height: 100vh;
 	max-height: 1000px;"
 >
-	{#if type && visibleImage }
+	{#if type && visibleImage}
 		<PopCard
 			image={`/types/${type}s/${visibleImage}.webp`}
 			showIcon={false}
@@ -156,6 +157,7 @@ cwebp "Stephen_Hawking.png" -o "Stephen_Hawking.webp"
 cwebp "Elon_Musk.png" -o "Elon_Musk.webp"
 
 cwebp "Ellen_Degeneres.png" -o "Ellen_Degeneres.webp"
+cwebp "George_W_Bush.png" -o "George_W_Bush.webp"
 cwebp "George_H_W_Bush.png" -o "George_H_W_Bush.webp"
 cwebp "Joe_Biden.png" -o "Joe_Biden.webp"
 cwebp "Marilyn_Monroe.png" -o "Marilyn_Monroe.webp"

@@ -3,7 +3,7 @@ title: 'George H. W. Bush as an Enneagram Type 6'
 description: "Why George H. W. Bush appears to be a type 6"
 author: 'DJ Wayne'
 date: '2023-03-09'
-published: false
+published: true
 enneagram: 6
 type: ['politician']
 ---
@@ -25,23 +25,20 @@ type: ['politician']
 	/>
 </div>
 
-George H. W. Bush, the 41st President of the United States, is often described as a loyal and pragmatic leader. These traits are typical of an enneagram type 6, also known as "The Loyalist." In this article, we'll explore why Bush's personality aligns with this type and provide examples from his life.
+## Building International Alliances: A Type 6's Collaborative Nature
+George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis.
 
-## Loyalty to Family and Wife
+## Prudent Decision-Making: The Balanced Approach of a Type 6
+Another aspect of George H.W. Bush's presidency that reflects his Enneagram Type 6 characteristics is his prudent decision-making style. Bush often relied on careful analysis and consultation with advisors to make balanced choices, rather than acting impulsively. His decision not to invade Iraq after liberating Kuwait demonstrates this cautious approach, as he believed it would lead to an unstable Middle East. This calculated restraint is indicative of a Type 6's desire for stability and security.
 
-George H. W. Bush was a family man who valued loyalty and commitment above all else. He was married to Barbara Bush for 73 years, and their marriage was widely regarded as a model of devotion and mutual support. This loyalty extended to his children, including George W. Bush, who also served as President of the United States.
+## Commitment to Public Service: Loyalty to Country and Duty
+George H.W. Bush's long career in public service further highlights his Enneagram Type 6 traits. From serving as a Navy pilot during World War II to holding various political roles such as U.S. Ambassador to the United Nations, Director of the CIA, and Vice President, his dedication to serving his country is a testament to his loyalty and sense of duty. These qualities align with a Type 6's commitment to the greater good and maintaining a stable, secure environment.
 
-## Fear of Weapons of Mass Destruction
+## Family Bonds: The Importance of Relationships for a Type 6
+Lastly, George H.W. Bush's devotion to his family showcases his Type 6 personality. His 73-year marriage to Barbara Bush and the strong relationships with his children, including fellow president George W. Bush, demonstrate the importance of family bonds in his life. A Type 6's commitment to loved ones is a key aspect of their personality, providing a sense of security and stability that they often seek.
 
-As a former Director of the Central Intelligence Agency (CIA), George H. W. Bush had an acute awareness of the potential danger posed by weapons of mass destruction. This fear was evident in his decision to launch Operation Desert Storm, a military campaign aimed at removing Iraqi forces from Kuwait, which had been invaded by Saddam Hussein.
 
-## Worst Fears Coming True on 9/11
-
-As mentioned earlier, enneagram type 6 individuals are often plagued by anxiety and fear. For George H. W. Bush, the events of 9/11 were like a nightmare come true. The attacks on the World Trade Center and the Pentagon represented a catastrophic failure of the government's ability to protect its citizens, a scenario that had undoubtedly been the subject of many of his worst fears.
-
-## The Patriot Act and Mass Surveillance
-
-In the aftermath of the 9/11 terrorist attacks, George H. W. Bush signed the Patriot Act into law, which greatly expanded the government's ability to conduct surveillance on its citizens. This decision can be seen as a manifestation of the typical enneagram 6 behavior of seeking security through information gathering and analysis.
+In conclusion, George H.W. Bush's Enneagram Type 6 traits are evident in his collaborative approach to international relations, his prudent decision-making, his commitment to public service, and his strong family bonds. These aspects of his life and presidency exemplify the characteristics of a Loyalist, illustrating the influence of the Enneagram on individuals in positions of leadership.
 
 <div>
 <script type="application/ld+json">
@@ -75,8 +72,8 @@ In the aftermath of the 9/11 terrorist attacks, George H. W. Bush signed the Pat
       "height": 60
     }
   },
-  "description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life, including loyalty to family, fear of weapons of mass destruction, and the Patriot Act.",
-  "articleBody": "George H. W. Bush, the 41st President of the United States, is often described as a loyal and pragmatic leader. These traits are typical of an enneagram type 6, also known as “The Loyalist.” In this article, we’ll explore why Bush’s personality aligns with this type and provide examples from his life..."
+  "description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life and presidency",
+  "articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis..."
 }
 </script>
 
