@@ -64,7 +64,8 @@
 			'Britney_Spears',
 			'John_F_Kennedy',
 			'Miley_Cyrus',
-			'Robin_Williams'
+			'Robin_Williams',
+			'Emily_Ratajkowski'
 		],
 		8: [
 			'Clint_Eastwood',
@@ -171,6 +172,8 @@ cwebp "John_F_Kennedy.png" -o "John_F_Kennedy.webp"
 cwebp "Miley_Cyrus.png" -o "Miley_Cyrus.webp"
 cwebp "Robin_Williams.png" -o "Robin_Williams.webp"
 cwebp "Tiffany_Haddish.png" -o "Tiffany_Haddish.webp"
+cwebp "Emily_Ratajkowski.png" -o "Emily_Ratajkowski.webp"
+
 
 cwebp "Chelsea_Handler.png" -o "Chelsea_Handler.webp"
 cwebp "Clint_Eastwood.png" -o "Clint_Eastwood.webp"
