@@ -85,11 +85,21 @@
 						Understanding Enneagram types in relationships
 					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					How to communicate and interact effectively with different Enneagram types
+				<li>
+					<a href="/blog/enneagram/communication-overview">
+						How to communicate and interact effectively with different Enneagram types
+					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					Using the Enneagram to improve communication and intimacy in relationships
+				<li>
+					<a href="/blog/enneagram/communication-tips"> Enneagram Communication Tips </a>
+				</li>
+				<li>
+					<a href="/blog/enneagram/communication-styles"> Enneagram Communication Styles </a>
+				</li>
+				<li>
+					<a href="/blog/enneagram/communication-relationships">
+						Using the Enneagram to improve communication and intimacy in relationships
+					</a>
 				</li>
 			</ul>
 			<h3 id="enneagram-in-the-workplace">

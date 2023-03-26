@@ -64,7 +64,7 @@
 			{ name: 'John_F._Kennedy', link: true },
 			{ name: 'Miley_Cyrus', link: false },
 			{ name: 'Robin_Williams', link: false },
-			{ name: 'Emily_Ratajkowski', link: false }
+			{ name: 'Emily_Ratajkowski', link: true }
 		],
 		8: [
 			{ name: 'Clint_Eastwood', link: false },
