@@ -34,7 +34,6 @@
 			showIcon={true}
 			text={'9takes'}
 			subtext={'Ask questions, share your story, get curious'}
-			aspectRatio={'16/9'}
 		/>
 	{/if}
 	<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>

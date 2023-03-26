@@ -9,7 +9,7 @@
 	export let scrambleText: boolean = true;
 	export let panBackground: boolean = true;
 
-	export let aspectRatio: string = '16/9';
+	export let aspectRatio: string = '';
 
 	export let text: string = '9takes';
 	export let subtext: string = 'Ask questions, share your story, get curious';
