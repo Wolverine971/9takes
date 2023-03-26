@@ -15,6 +15,7 @@ specifiers:
   '@types/stopword': ^2.0.0
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
+  '@vercel/analytics': ^0.1.11
   autoprefixer: ^10.4.2
   axios: ^1.2.2
   dotenv: ^16.0.3
@@ -50,6 +51,7 @@ specifiers:
 
 dependencies:
   '@sveltejs/adapter-node': 1.2.1_@sveltejs+kit@1.10.0
+  '@vercel/analytics': 0.1.11
   dotenv: 16.0.3
   mermaid: 9.4.0
   natural: 6.2.0
@@ -1052,6 +1054,12 @@ packages:
       '@typescript-eslint/types': 5.54.1
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@vercel/analytics/0.1.11:
+    resolution: {integrity: sha512-mj5CPR02y0BRs1tN3oZcBNAX9a8NxsIUl9vElDPcqxnMfP0RbRc9fI9Ud7+QDg/1Izvt5uMumsr+6YsmVHcyuw==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dev: false
 
   /@vercel/nft/0.22.6:
     resolution: {integrity: sha512-gTsFnnT4mGxodr4AUlW3/urY+8JKKB452LwF3m477RFUJTAaDmcz2JqFuInzvdybYIeyIv1sSONEJxsxnbQ5JQ==}
