@@ -21,7 +21,7 @@ type: ['politician']
 	<PopCard
 		image={`/types/6s/${'George_W_Bush'}.webp`}
 		showIcon={false}
-		text="George H. W. Bush"
+		text="George W. Bush"
 		subtext=""
 	/>
 </div>

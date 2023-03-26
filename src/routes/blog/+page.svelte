@@ -37,8 +37,10 @@
 						Concepts and principles of the Enneagram
 					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					How the Enneagram can be used for personal growth and self-improvement
+				<li >
+					<a href="/blog/enneagram/self-development">
+						How the Enneagram can be used for personal growth and self-improvement
+					</a>
 				</li>
 			</ul>
 			<h3 id="the-nine-enneagram-types">
@@ -110,8 +112,10 @@
 				<li style="text-decoration: line-through;">
 					How the Enneagram can be used for team building and leadership development
 				</li>
-				<li style="text-decoration: line-through;">
-					Understanding how different Enneagram types work together in teams
+				<li>
+					<a href="/blog/enneagram/working-in-teams">
+						Understanding how different Enneagram types work together in teams
+					</a>
 				</li>
 				<li style="text-decoration: line-through;">
 					Using the Enneagram to improve team dynamics and productivity

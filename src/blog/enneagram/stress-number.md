@@ -30,7 +30,7 @@ For example, if you're an Enneagram Type 1, your place of stress is Enneagram Ty
 
 If you're an Enneagram Type 9, your place of stress is Enneagram Type 6. Type 6s are loyal, skeptical, and anxious, and endlessly examining all worst case scenarios which can be challenging for the peaceful, easy-going Type 9. When you're under stress, you might find yourself acting overthinking things and becoming hype fixated on minute details.
 
-If you're a Type 5, your stress number is Type 7. Type 7s are enthusiastic, adventurous, fun-loving and try to avoid pain by distracting themselves, which can be a stark contrast to the introverted, analytical, and serious Type 5. When you're under stress, you might find yourself acting more more impulsively and being irrationally optimistic.
+If you're a Type 5, your stress number is Type 7. Type 7s are enthusiastic, adventurous, fun-loving and try to avoid pain by distracting themselves, which can be a stark contrast to the introverted, analytical, and serious Type 5. When you're under stress, you might find yourself acting more impulsively and being irrationally optimistic.
 
 ## Expanding on the examples for each Enneagram type
 

@@ -10,7 +10,7 @@ blog: true
 
     
 
-    Ghosting, or the sudden and unexplained ending of a relationship or connection, can have a significant impact on an
+Ghosting, or the sudden and unexplained ending of a relationship or connection, can have a significant impact on an
     individual's mental health. It can leave individuals feeling confused, rejected, and abandoned. However, it's
     important to remember that everyone experiences and deals with ghosting differently. In this article, we will
     explore the impact of ghosting on mental health from an Enneagram perspective. We will look at how each Enneagram
@@ -167,12 +167,7 @@ blog: true
   <section class="section-content">
    <h3>Type Nine: The Peacemaker</h3>
 
-   Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings
-   of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may
-   have believed the relationship was going well. To cope with these feelings, Nines may benefit
-   from talking to a trusted friend or therapist about their experience. They may also want to
-   focus on self-compassion and self-care, reminding themselves that they are worthy of love and
-   respect.
+   Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
   </section>
 
   <aside class="section-meta">
@@ -190,6 +185,8 @@ In conclusion, ghosting can have a significant impact on mental health, and it's
 experiences it differently. By understanding how each Enneagram type may experience and cope with ghosting, we can gain
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
+
+
 
 <p>Images coming soon 🚧</p>
 

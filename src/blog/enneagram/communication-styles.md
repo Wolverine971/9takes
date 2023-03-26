@@ -10,7 +10,7 @@ blog: true
 
 ## How to communicate and interact effectively with different Enneagram types
 
-The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. With that effective communication is vital for any relationship, whether it's personal or professional and understanding each other's communication styles, values, and needs can help build trust, respect, and empathy. This article will explore each types style of communication.
+The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. With that effective communication is vital for any relationship, whether it's personal or professional and understanding each other's communication styles, values, and needs can help build trust, respect, and empathy. This article will explore each type's style of communication.
 
 ## Enneagram 1: The Perfectionist
 
@@ -66,6 +66,6 @@ Nines value harmony, peace, and cooperation. They are easygoing, agreeable, and 
 
 Nines have a peaceful and harmonious communication style. They value cooperation and often avoid conflict. They can be indecisive and may struggle with assertiveness. To communicate effectively with Nines, be patient and understanding, and encourage them to assert their needs and opinions. It's essential to be patient, understanding, and non-judgmental. They appreciate when others listen actively and acknowledge their perspective. However, it's important to avoid being too demanding or critical, as it can cause them to withdraw. Encourage them to assert their needs and opinions and remind them of the importance of self-care and boundaries.
 
-## Conculsion
+## Conclusion
 
 In conclusion, understanding each Enneagram type's unique communication style, values, and needs can help you communicate and interact more effectively with them. Remember to be patient, empathetic, and non-judgmental, and encourage them to express themselves authentically while also respecting their boundaries and individuality. Checkout this article for <a href="communication-tips" >more tips on communicating.</a>

@@ -8,7 +8,8 @@ type: ['overview']
 blog: true
 ---
 
-Its hard to quantify how anyone approches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three teired approach going from a super ficial overview to decent depth on each of the types.
+
+It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.
 
 ## Overview of Enneagram types in a relationship
 
@@ -166,4 +167,4 @@ One potential challenge for Nines in relationships is their tendency to prioriti
 
 ## Enneagram Relationship Conclusion
 
-There are near infinite posiblities for how a person can think feel and behave in a relationship therefore this is all to be taken with a grain of salt. It is however helpful to be aware of common tendencies that the types display and that you might be prone to. The hope is that you use this information to bring your best self forward in all your relationships. ❤️
+There are near infinite possibilities for how a person can think, feel and behave in a relationship therefore this is all to be taken with a grain of salt. It is however helpful to be aware of common tendencies that the types display and that you might be prone to. The hope is that you use this information to bring your best self forward in all your relationships. ❤️
