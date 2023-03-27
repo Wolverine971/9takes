@@ -4,7 +4,7 @@
 	import { fade, fly } from 'svelte/transition';
 	/* -- Glow effect -- */
 
-	export let image: string = 'cyber-campfire.png';
+	export let image: string = 'cyber-campfire.webp';
 	export let showIcon: boolean = true;
 	export let scrambleText: boolean = true;
 	export let panBackground: boolean = true;

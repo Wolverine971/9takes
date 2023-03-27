@@ -189,6 +189,18 @@ cwebp "Marie_Kondo.png" -o "Marie_Kondo.webp"
 cwebp "Queen_Elizabeth_II.png" -o "Queen_Elizabeth_II.webp"
 cwebp "Ronald_Reagan.png" -o "Ronald_Reagan.webp"
 cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
+
+
+
+
+cwebp "party-in-street.png" -o "party-in-street.webp"
+
+cwebp "self-development.png" -o "self-development.webp"
+cwebp "stressed.png" -o "stressed.webp"
+cwebp "team-building.png" -o "team-building.webp"
+cwebp "working-in-teams.png" -o "working-in-teams.webp"
+
+
  -->
 <style lang="scss">
 	.slide-name {

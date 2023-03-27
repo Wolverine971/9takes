@@ -4,11 +4,8 @@
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
-	// import campfire from '$lib/images/cyber-campfire.png';
 	import Footer from './Footer.svelte';
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
-	import PopCard from '$lib/components/atoms/PopCard.svelte';
-	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	// export let data: PageData;
 
@@ -158,7 +155,7 @@
 	/* Header styles */
 	header {
 		background-color: #333;
-		background-image: url('/background.png');
+		background-image: url('/background.webp');
 		color: #fff;
 		padding: 20px;
 		aspect-ratio: 16 / 6;

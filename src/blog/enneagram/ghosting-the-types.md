@@ -10,11 +10,7 @@ blog: true
 
     
 
-Ghosting, or the sudden and unexplained ending of a relationship or connection, can have a significant impact on an
-    individual's mental health. It can leave individuals feeling confused, rejected, and abandoned. However, it's
-    important to remember that everyone experiences and deals with ghosting differently. In this article, we will
-    explore the impact of ghosting on mental health from an Enneagram perspective. We will look at how each Enneagram
-    type may experience and cope with ghosting, as well as provide strategies for healing and moving forward.
+Ghosting, or the sudden and unexplained ending of a relationship or connection, can have a significant impact on an individual's mental health. It can leave individuals feeling confused, rejected, and abandoned. However, it's important to remember that everyone experiences and deals with ghosting differently. In this article, we will explore the impact of ghosting on mental health from an Enneagram perspective. We will look at how each Enneagram type may experience and cope with ghosting, as well as provide strategies for healing and moving forward.
 
 <section class="section-main">
 
@@ -186,8 +182,6 @@ experiences it differently. By understanding how each Enneagram type may experie
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
 
-
-
 <p>Images coming soon 🚧</p>
 
 <div>
@@ -255,6 +249,8 @@ possible with self-compassion and care.
         align-items: center;
         flex-direction: column;
         width: 10%;
+        border: 1px solid #5407d9;
+        border-radius: 5px;
     }
     .border {
         border-left: 4px solid slategrey;
@@ -283,7 +279,7 @@ possible with self-compassion and care.
 
     .a-type {
         /*background-color: hsl(222, 15%, 19%);*/
-        border: hsl(212, 15%, 48%) 2px solid;
+        border: 1px solid #5407d9;
         border-radius: 5px;
         padding: 10px 20px;
         color: #000000B3;
@@ -293,6 +289,7 @@ possible with self-compassion and care.
         white-space: nowrap;
         min-width: 85px;
         min-height: 35px;
+        text-align: center;
     }
 
     aside::-webkit-scrollbar {

@@ -10,6 +10,25 @@ blog: true
 ---
 
 
+
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+	height: 100vh;
+	max-height: 1000px;"
+>
+	<PopCard
+		image={`/blogs/team-building.webp`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
+
+
 Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!
 
 
@@ -95,3 +114,114 @@ Type 9:
 - How to give both positive and negative feedback: Recognize their ability to maintain harmony and cooperation within the team, and provide constructive feedback on how they can be more assertive and express their own needs and opinions while still maintaining a harmonious environment.
 
 Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
+
+
+<div>
+<script type="application/ld+json">
+[
+  {
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/articleBody": [
+      {
+        "@value": "Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!"
+      }
+    ],
+    "http://schema.org/author": [
+      {
+        "@type": [
+          "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "DJ Wayne"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-03-25"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-03-25"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Learn how to effectively communicate, collaborate, and give feedback to each Enneagram type to help contribute to the team's success."
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@value": "Understanding how different Enneagram types work together in teams"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@type": [
+          "http://schema.org/ImageObject"
+        ],
+        "http://schema.org/height": [
+          {
+            "@value": "630"
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@id": "https://9takes.com/blogs/team-building.webp"
+          }
+        ],
+        "http://schema.org/width": [
+          {
+            "@value": "1200"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/keywords": [
+      {
+        "@value": "Enneagram, personality types, team building, leadership development, communication, collaboration"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://9takes.com/blog/enneagram/working-in-teams",
+        "@type": [
+          "http://schema.org/WebPage"
+        ]
+      }
+    ],
+    "http://schema.org/publisher": [
+      {
+        "@type": [
+          "http://schema.org/Organization"
+        ],
+        "http://schema.org/logo": [
+          {
+            "@type": [
+              "http://schema.org/ImageObject"
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://9takes.com/enneagram.svg"
+              }
+            ]
+          }
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "9Takes"
+          }
+        ]
+      }
+    ]
+  }
+]
+</script>
+</div>

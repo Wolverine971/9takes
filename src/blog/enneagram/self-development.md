@@ -8,7 +8,22 @@ type: ['overview']
 blog: true
 ---
 
-
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+	height: 100vh;
+	max-height: 1000px;"
+>
+	<PopCard
+		image={`/blogs/self-development.webp`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
 
 If you've been exploring the world of self-help and personal development, chances are you've come across the Enneagram. It offers a unique perspective on our strengths, weaknesses, and inner motivations, allowing us to deepen our self-awareness and make positive changes in our lives.
 
@@ -32,3 +47,116 @@ Another way the Enneagram can help us is by providing greater emotional awarenes
 The Enneagram can also help us recognize our own goals and fears, as well as those of others. By understanding our own type's goals and fears, we can develop greater self-awareness and work towards our own personal growth. Similarly, by understanding the goals and fears of others, we can become more empathetic and understanding in our relationships.
 
 In using the Enneagram as a tool for personal growth and self-improvement, it's important to remember that everyone's journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.
+
+
+
+<div>
+<script type="application/ld+json">
+[
+  {
+    "@type": [
+      "http://schema.org/BlogPosting"
+    ],
+    "http://schema.org/articleBody": [
+      {
+        "@value": "If you’ve been exploring the world of self-help and personal development, chances are you’ve come across the Enneagram. It offers a unique perspective on our strengths, weaknesses, and inner motivations, allowing us to deepen our self-awareness and make positive changes in our lives. However lessons learned through self-help can be healing and inspiring, but they can also make us feel like we’re failing. It’s important to remember that developing self-awareness is a potentially endless pursuit. There will be good days and bad days, but there is no finish line. The Enneagram can be used as a tool to support you on your journey, helping you navigate the ups and downs with greater clarity and compassion. At its core, the Enneagram is a system of nine interconnected personality types, each with its own unique strengths and challenges. While it’s not necessary to know every detail about each type, having a basic understanding of the system can be helpful in applying it to your own life. The Enneagram can be used in many ways, but one of its most powerful applications is as a tool for personal growth and self-improvement. Here are just a few ways the Enneagram can support you in your journey: Starting Conversations and Connecting with Others, Making Sense of Yourself and Others, Practical Applications for Decision-Making, Recognizing when you are stressed and doing well, Develop emotional awareness, Recognize underlying goals and fears. In using the Enneagram as a tool for personal growth and self-improvement, it’s important to remember that everyone’s journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line."
+      }
+    ],
+    "http://schema.org/author": [
+      {
+        "@type": [
+          "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "DJ Wayne"
+          }
+        ]
+      }
+    ],
+    "http://schema.org/dateModified": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-03-25"
+      }
+    ],
+    "http://schema.org/datePublished": [
+      {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-03-25"
+      }
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "Learn how the Enneagram can help you deepen your self-awareness and make positive changes in your life. Discover its practical applications for decision-making, emotional awareness, recognizing underlying goals and fears, and more."
+      }
+    ],
+    "http://schema.org/headline": [
+      {
+        "@value": "How the Enneagram can be used for personal growth and self-improvement"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@type": [
+          "http://schema.org/ImageObject"
+        ],
+        "http://schema.org/height": [
+          {
+            "@value": 800
+          }
+        ],
+        "http://schema.org/url": [
+          {
+            "@id": "https://9takes.com/blogs/self-development.webp"
+          }
+        ],
+        "http://schema.org/width": [
+          {
+            "@value": 1200
+          }
+        ]
+      }
+    ],
+    "http://schema.org/keywords": [
+      {
+        "@value": "Enneagram, personal growth, self-improvement, decision-making, emotional awareness, goals, fears, self-awareness, compassion, empathy, relationships"
+      }
+    ],
+    "http://schema.org/mainEntityOfPage": [
+      {
+        "@id": "https://9takes.com/blog/enneagram/self-development",
+        "@type": [
+          "http://schema.org/WebPage"
+        ]
+      }
+    ],
+    "http://schema.org/publisher": [
+      {
+        "@type": [
+          "http://schema.org/Organization"
+        ],
+        "http://schema.org/logo": [
+          {
+            "@type": [
+              "http://schema.org/ImageObject"
+            ],
+            "http://schema.org/url": [
+              {
+                "@id": "https://9takes.com/enneagram.svg"
+              }
+            ]
+          }
+        ],
+        "http://schema.org/name": [
+          {
+            "@value": "9Takes"
+          }
+        ]
+      }
+    ]
+  }
+]
+</script>
+
+</div>

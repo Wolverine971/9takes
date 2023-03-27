@@ -37,7 +37,7 @@
 						Concepts and principles of the Enneagram
 					</a>
 				</li>
-				<li >
+				<li>
 					<a href="/blog/enneagram/self-development">
 						How the Enneagram can be used for personal growth and self-improvement
 					</a>
@@ -109,8 +109,10 @@
 				Enneagram in the Workplace
 			</h3>
 			<ul>
-				<li style="text-decoration: line-through;">
-					How the Enneagram can be used for team building and leadership development
+				<li>
+					<a href="/blog/enneagram/workplace-team-building">
+						How the Enneagram can be used for team building and leadership development
+					</a>
 				</li>
 				<li>
 					<a href="/blog/enneagram/working-in-teams">
@@ -190,7 +192,7 @@
 	/* Header styles */
 	header {
 		background-color: #333;
-		background-image: url('/background.png');
+		background-image: url('/background.webp');
 		color: #fff;
 		padding: 20px;
 	}
