@@ -7,6 +7,22 @@
 	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	// import Card from '$lib/components/atoms/card.svelte';
 	export let data: PageData;
+	console.log(data);
+	const politicians = data.people.filter((person) => {
+		return person.type?.includes('politician');
+	});
+	const celebrities = data.people.filter((person) => {
+		return person.type?.includes('celebrity');
+	});
+	const artists = data.people.filter((person) => {
+		return person.type?.includes('artist');
+	});
+	const musicians = data.people.filter((person) => {
+		return person.type?.includes('musician');
+	});
+	const techies = data.people.filter((person) => {
+		return person.type?.includes('techie');
+	});
 </script>
 
 <BlogPageHead
@@ -17,23 +33,64 @@
 	slug={'/blog/people'}
 />
 
-<h1 style="text-align: center;">9takes Analysis of Famous People</h1>
+<h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
 <div class="blog-list">
-	<ol>
-		{#each data.people as person}
+	<h3 class="position-center">Politicians</h3>
+	<ul>
+		{#each politicians as person}
 			<li>
 				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
 			</li>
 		{/each}
-	</ol>
-</div>
+	</ul>
+	<h3 class="position-center">Celebrities</h3>
+	<ul>
+		{#each celebrities as person}
+			<li>
+				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+			</li>
+		{/each}
+	</ul>
 
-<p>Organization and additional people analysis coming soon 🚧</p>
+	<h3 class="position-center">Musicians</h3>
+	<ul>
+		{#each musicians as person}
+			<li>
+				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+			</li>
+		{/each}
+	</ul>
+	<h3 class="position-center">Artists</h3>
+	<ul>
+		{#each artists as person}
+			<li>
+				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+			</li>
+		{/each}
+	</ul>
+	<!-- <h3 class="position-center">Techies</h3>
+	<ul>
+		{#each techies as person}
+			<li>
+				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+			</li>
+		{/each}
+	</ul> -->
+
+	<br />
+	<hr />
+	<br />
+	<p class="position-center">🚧 More to come</p>
+</div>
 
 <style lang="scss">
 	h3 {
 		margin-top: 1rem;
+		text-decoration: underline;
+	}
+	.position-center {
 		text-align: center;
+		margin: 1rem auto;
 	}
 	.section-main {
 		display: flex;
@@ -52,8 +109,12 @@
 		transform: rotate(90deg);
 	}
 	.blog-list {
-		align-items: inherit;
-		margin: 1rem;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		max-width: 250px;
 
 		// .row {
 		// 	display: flex;

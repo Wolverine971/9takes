@@ -22,12 +22,7 @@
 	<section>
 		<h2>Enneagram</h2>
 		<div>
-			<h3 id="understanding-the-enneagram-an-introduction">
-				<!-- <a href="#understanding-the-enneagram-an-introduction"
-			>Understanding the Enneagram: An Introduction</a
-			> -->
-				Understanding the Enneagram: An Introduction
-			</h3>
+			<h3 id="understanding-the-enneagram-an-introduction">Understanding the Enneagram</h3>
 			<ul>
 				<!-- <li>History and origins of the Enneagram</li> -->
 				<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram Lineage </a></li>

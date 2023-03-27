@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-03-11'
 published: false
 enneagram: 6
-type: ['tech']
+type: ['techie']
 ---
 
 <script>
