@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+ <url>
     <loc>https://9takes.com/</loc>
     <lastmod>2023-03-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -139,6 +139,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://9takes.com/blog/enneagram/workplace-team-building</loc>
+    <lastmod>2023-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ <url>
     <loc>https://9takes.com/blog/enneagram/working-in-teams</loc>
     <lastmod>2023-03-26</lastmod>
     <changefreq>monthly</changefreq>
