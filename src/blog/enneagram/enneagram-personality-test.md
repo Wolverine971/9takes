@@ -37,7 +37,7 @@ You do not have to specifically identify your childhood wound in order to find y
 type but whatever your childhood was it causes you to be sensitive to a specific
 emotion. Identifying that core emotion that effects you is the first step.
 
-## Emotions Tangent
+### Emotions Tangent
 
 It may seem overwhelming to try to identify what core emotion affects you the most
 but it might not as hard as you think. Click here if you would like to do [a quick experiment with regards to emotions](/blog/enneagram/experiment),

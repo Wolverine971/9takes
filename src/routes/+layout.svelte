@@ -68,15 +68,17 @@
 	}
 	.column-width {
 		max-width: 64rem;
+		background-color: #ffffff;
+		border-radius: 5px;
 	}
+
 	.column {
 		padding: 0;
 		margin: 0;
 	}
 
 	main > a {
-		display: inline-flex;
-		justify-content: flex-start;
+		display: inline-block;
 		align-items: center;
 		color: #260958;
 
@@ -84,8 +86,8 @@
 			content: '';
 
 			background-image: url('/svgs/arrow.svg');
-			display: inline-flex;
-			justify-content: flex-start;
+			display: inline-block;
+			vertical-align: middle;
 			align-items: center;
 			width: 1em;
 			height: 1em;

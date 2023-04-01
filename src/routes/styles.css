@@ -11,6 +11,8 @@
 	--color-bg-2: #ccd8e3;
 	--color-theme-1: rgb(25, 25, 112);
 	--color-theme-2: rgb(247, 37, 133);
+	--color-theme-purple: #5407d9;
+	/* #5407d9; */
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -18,8 +20,57 @@
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
-
 body {
+	/* font-family: 'Open Sans', sans-serif; */
+	font-size: 1rem;
+	line-height: 1.5;
+	color: var(--primary-color);
+	margin: 0;
+	padding: 0;
+	background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	/* margin-top: 0; */
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 1.2;
+}
+
+h2 {
+	font-size: 2.5rem;
+	line-height: 1.2;
+}
+
+h3 {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: var(--secondary-color);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: var(--accent-color);
+	text-decoration: underline;
+}
+/* body {
 	min-height: 100vh;
 	margin: 0;
 	background-attachment: fixed;
@@ -45,7 +96,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
+} */
 
 /* h1 {
 	font-size: 2rem;
@@ -84,10 +135,10 @@ button {
 button:focus:not(:focus-visible) {
 	outline: none;
 }
-
+/* 
 h1 {
 	font-size: clamp(2em, 8vw, 7em);
-}
+} */
 
 @media (min-width: 720px) {
 	/* h1 {

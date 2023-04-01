@@ -47,7 +47,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>9takes Home</title>
 	<meta name="description" content="9takes home for enneagram enthusiasts" />
 </svelte:head>
 
@@ -109,7 +109,7 @@
 			</div>
 		</section>
 	</main>
-	<section>
+	<section style="max-width: 64rem;">
 		<div class="join">
 			<CollectEmail cta={'Join Waitlist'} />
 		</div>
@@ -170,7 +170,7 @@
 	/* Navigation styles */
 	nav {
 		background-color: #f2f2f2;
-		border-bottom: 1px solid #5407d9;
+		border-bottom: 1px solid var(--color-theme-purple);
 		padding: 10px;
 	}
 	nav ul {
@@ -194,7 +194,7 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		/* background-color: #f2f2f2;
-		border: 1px solid #5407d9; */
+		border: 1px solid var(--color-theme-purple); */
 		box-sizing: border-box;
 		margin: auto;
 	}

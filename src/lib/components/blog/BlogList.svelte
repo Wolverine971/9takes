@@ -6,49 +6,49 @@
 
 <div style="margin-bottom:5rem;">
 	<h3 style="text-align: center;">More Blogs</h3>
-	<div class="row">
-		<div class="column">
-			{#each posts.slice(0, Math.ceil(posts.length / 2)) as { slug, title, author, description, date }}
-				<div class="article-preview">
-					<Card>
-						<a href={slug} class="big-a">
-							<h3 class="preview" {title}>{title}</h3>
-							<p class="preview" title={description}>
-								{description}
-							</p>
-							<p>Read More</p>
-						</a>
-					</Card>
-				</div>
-			{/each}
-		</div>
-		<div class="column">
-			{#each posts.slice(Math.ceil(posts.length / 2)) as { slug, title, author, description, date }}
-				<div class="article-preview">
-					<Card>
-						<a href={slug} class="big-a">
-							<h3 class="preview" {title}>{title}</h3>
-							<p class="preview" title={description}>
-								{description}
-							</p>
-							<p>Read More</p>
-						</a>
-					</Card>
-				</div>
-			{/each}
-		</div>
+	<!-- <div class="row"> -->
+	<div class="blog-previews">
+		{#each posts as { slug, title, author, description, date }}
+			<div class="blog-preview">
+				<Card>
+					<a href={slug} class="big-a">
+						<h4 class="preview" {title}>{title}</h4>
+						<p class="preview" title={description}>
+							{description}
+						</p>
+						<p>Read More</p>
+					</a>
+				</Card>
+			</div>
+		{/each}
 	</div>
+
+	<!-- </div> -->
 </div>
 
 <style lang="scss">
-	.big-a:hover {
-		text-decoration: none;
+	.blog-previews {
+		display: flex;
+		flex-wrap: wrap;
 	}
-	.article-preview {
+	.blog-preview {
+		box-sizing: border-box;
 		max-width: none;
 		height: clamp(1rem, 145px, 12rem);
 		width: clamp(1rem, 321px, 32rem);
+		background: border-box;
+		// margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		max-height: 500px;
+		max-width: 460px;
+		margin: 1rem;
 	}
+	.big-a:hover {
+		text-decoration: none;
+	}
+
 	.preview {
 		text-overflow: clip;
 		white-space: nowrap;
@@ -63,14 +63,6 @@
 		padding: 0 10%;
 	}
 
-	.column {
-		display: flex;
-		flex-direction: column;
-		flex-basis: 100%;
-		justify-content: space-evenly;
-		flex: 1;
-		align-items: center;
-	}
 	.section-main {
 		display: flex;
 		justify-content: center;

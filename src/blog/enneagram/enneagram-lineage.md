@@ -156,7 +156,7 @@ table {
     width: 100%;
     margin-bottom: 1rem;
     color: #212529;
-    border: 1px solid #5407d9;
+    border: 1px solid var(--color-theme-purple);
 
 }
 thead {
@@ -174,14 +174,14 @@ th {
     border-bottom-width: 2px;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    border: 1px solid #5407d9;
+    border: 1px solid var(--color-theme-purple);
     padding: 0.75rem;
 }
 
 td {
     padding: 0.75rem;
     vertical-align: top;
-    border: 1px solid #5407d9;
+    border: 1px solid var(--color-theme-purple);
     text-align: center;
 }
 

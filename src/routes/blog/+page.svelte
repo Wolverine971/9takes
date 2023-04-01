@@ -62,11 +62,13 @@
 			<ul>
 				<li>
 					<a href="/blog/enneagram/enneagram-personality-test">
-						How to determine your Enneagram type</a
-					>
+						How to determine your Enneagram type
+					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					Understanding your strengths and weaknesses as an Enneagram type
+				<li>
+					<a href="/blog/enneagram/strengths-and-weaknesses">
+						Understanding your strengths and weaknesses as an Enneagram type
+					</a>
 				</li>
 				<li style="text-decoration: line-through;">
 					Strategies for personal growth and self-improvement based on your Enneagram type
@@ -154,9 +156,9 @@
 		</div>
 	</section>
 	<section>
-		<h2>9takes</h2>
+		<h2>Why 9takes</h2>
 		<div class="column">
-			<h3 style="margin:10px">Why 9takes</h3>
+			<!-- <h3 style="margin:10px">Why 9takes</h3> -->
 			<div>
 				<p>Coming soon</p>
 			</div>
@@ -194,7 +196,7 @@
 	/* Navigation styles */
 	nav {
 		background-color: #f2f2f2;
-		border-bottom: 1px solid #5407d9;
+		border-bottom: 1px solid var(--color-theme-purple);
 		padding: 10px;
 	}
 	nav ul {
@@ -218,7 +220,7 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		background-color: #f2f2f2;
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 		box-sizing: border-box;
 		border-radius: 0.25rem;
 	}

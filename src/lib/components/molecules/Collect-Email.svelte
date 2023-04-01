@@ -56,7 +56,7 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 		padding: 2rem;
 		border-radius: 5px;
 	}
@@ -72,7 +72,7 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: 5px;
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 	}
 	.waitlist-form button {
 		/* background-color: #007bff; */
@@ -80,7 +80,7 @@
 		border-radius: 5px;
 		border: none;
 		cursor: pointer;
-		color: #5407d9;
+		color: var(--color-theme-purple);
 		border: 1px solid;
 		width: 145px;
 	}
@@ -115,17 +115,17 @@
 	}
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: #5407d9;
+		color: var(--color-theme-purple);
 		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: #5407d9;
+		color: var(--color-theme-purple);
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: #5407d9;
+		color: var(--color-theme-purple);
 	}
 </style>

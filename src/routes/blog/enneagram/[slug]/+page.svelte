@@ -33,15 +33,15 @@
 <style lang="scss">
 	@import '../../../../scss/index.scss';
 	tr {
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 		text-align: center;
 	}
 	td {
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 		text-align: center;
 	}
 	th {
-		border: 1px solid #5407d9;
+		border: 1px solid var(--color-theme-purple);
 		text-align: center;
 	}
 </style>

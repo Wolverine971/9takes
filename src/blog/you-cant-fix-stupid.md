@@ -52,7 +52,7 @@ Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 	</footer>
 </body>
 
-<style>
+<style lang="scss">
 
     /*Basic styles*/
 body {
@@ -82,7 +82,7 @@ header {
 /*Navigation styles*/
 nav {
 	background-color: #f2f2f2;
-	border-bottom: 1px solid #5407d9;
+	border-bottom: 1px solid var(--color-theme-purple);
 	padding: 10px;
 }
 nav ul {
@@ -106,7 +106,7 @@ section {
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: #f2f2f2;
-	border: 1px solid #5407d9;
+	border: 1px solid var(--color-theme-purple);
 	box-sizing: border-box;
 }
 /*Footer styles*/
@@ -154,7 +154,7 @@ footer {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #5407d9;
+  border: 1px solid var(--color-theme-purple);
 }
 .waitlist-form button {
   background-color: #007bff;

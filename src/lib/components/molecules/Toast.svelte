@@ -5,9 +5,9 @@
 
 	export let themes = {
 		danger: '#E26D69',
-		success: '#5407d9',
+		success: 'var(--color-theme-purple)',
 		warning: '#f0ad4e',
-		info: '#5407d9',
+		info: 'var(--color-theme-purple)',
 		default: '#aaaaaa'
 	};
 </script>
