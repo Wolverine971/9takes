@@ -134,9 +134,13 @@
 				Enneagram Resources
 			</h3>
 			<ul>
-				<li><a href="/blog/enneagram/faq">Enneagram FAQ </a></li>
-				<li style="text-decoration: line-through;">
-					Books and websites for learning more about the Enneagram
+				<li>
+					<a href="/blog/enneagram/faq"> Enneagram FAQ </a>
+				</li>
+				<li>
+					<a href="/blog/enneagram/books-websites-podcasts">
+						Books and websites for learning more about the Enneagram
+					</a>
 				</li>
 				<li style="text-decoration: line-through;">Enneagram tests and assessments</li>
 				<li style="text-decoration: line-through;">Enneagram coaches and trainers</li>
