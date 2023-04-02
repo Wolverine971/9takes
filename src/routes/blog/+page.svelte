@@ -70,8 +70,10 @@
 						Understanding your strengths and weaknesses as an Enneagram type
 					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					Strategies for personal growth and self-improvement based on your Enneagram type
+				<li>
+					<a href="/blog/enneagram/personal-growth">
+						Strategies for personal growth and self-improvement based on your Enneagram type
+					</a>
 				</li>
 			</ul>
 			<h3 id="enneagram-in-relationships">

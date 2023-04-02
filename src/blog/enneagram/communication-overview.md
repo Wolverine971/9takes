@@ -14,7 +14,7 @@ The Enneagram is a powerful tool for understanding ourselves and others. It prov
 
 First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in "The Path Between Us," "You can't change how you see—you can only change what you do with how you see." With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.
 
-## Type 1: The Reformer
+## Type 1: The Perfectionist
 
 Ones are principled, ethical, and perfectionistic. They value order, structure, and correctness. When communicating with Ones, it's important to be direct, clear, and respectful. Avoid being confrontational or critical, as Ones can be sensitive to criticism. Focus on solutions and constructive feedback, rather than dwelling on mistakes or flaws. Ones appreciate when others are honest and straightforward with them, so be authentic and genuine in your communication.
 

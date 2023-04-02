@@ -25,7 +25,7 @@ Here are some tips for using the Enneagram to improve communication and intimacy
 
 The Enneagram can also be a powerful tool for creating intimacy in relationships. By understanding your own type and the types of those around you, you can create deeper connections and build stronger relationships. Here we will explore each type by looking at what they need from their partner, how they may affect their partner, what they like to talk about, and what they don't like to talk about. We'll also include an imaginary scenario for typical conversations each type may have regularly.
 
-### Type 1: The Reformer
+### Type 1: The Perfectionist
 
 What they need from their partner: Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values.
 
