@@ -59,116 +59,60 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
 
 <div>
 <script type="application/ld+json">
-    [
-  {
-    "@type": [
-      "http://schema.org/Article"
-    ],
-    "http://schema.org/articleBody": [
-      {
-        "@value": "The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types. First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in 'The Path Between Us,'' 'You can't change how you see—you can only change what you do with how you see.' With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type."
-      }
-    ],
-    "http://schema.org/author": [
-      {
-        "@type": [
-          "http://schema.org/Person"
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "DJ Wayne"
-          }
-        ]
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
+{
+  "@graph": [
+    {
+      "@type": "http://schema.org/Article",
+      "http://schema.org/articleBody": "The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types. First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in 'The Path Between Us,'' 'You can't change how you see—you can only change what you do with how you see.' With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.",
+      "http://schema.org/author": {
+        "@type": "http://schema.org/Person",
+        "http://schema.org/name": "DJ Wayne"
+      },
+      "http://schema.org/dateModified": {
         "@type": "http://schema.org/Date",
         "@value": "2023-03-26"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
+      },
+      "http://schema.org/datePublished": {
         "@type": "http://schema.org/Date",
         "@value": "2023-03-25"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Learn how to effectively communicate and interact with different Enneagram types. This article provides valuable insights and strategies for building empathy, understanding, and connection in all your relationships."
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@value": "How to communicate and interact effectively with different Enneagram types"
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@type": [
-          "http://schema.org/WebPage"
-        ],
-        "http://schema.org/url": [
-          {
-            "@id": "https://9takes.com/blog/enneagram/communication-overview"
-          }
-        ]
-      }
-    ],
-    "http://schema.org/publisher": [
-      {
-        "@type": [
-          "http://schema.org/Organization"
-        ],
-        "http://schema.org/logo": [
-          {
-            "@type": [
-              "http://schema.org/ImageObject"
-            ],
-            "http://schema.org/url": [
-              {
-                "@id": "https://9takes.com/enneagram.svg"
-              }
-            ]
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "9Takes"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@type": [
-      "http://schema.org/Person"
-    ],
-    "http://schema.org/jobTitle": [
-      {
-        "@value": "Author"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@value": "Suzanne Stabile"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "https://www.instagram.com/suzannestabile/"
       },
-      {
-        "@id": "https://twitter.com/SuzanneStabile"
+      "http://schema.org/description": "Learn how to effectively communicate and interact with different Enneagram types. This article provides valuable insights and strategies for building empathy, understanding, and connection in all your relationships.",
+      "http://schema.org/headline": "How to communicate and interact effectively with different Enneagram types",
+      "http://schema.org/mainEntityOfPage": {
+        "@type": "http://schema.org/WebPage",
+        "http://schema.org/url": {
+          "@id": "https://9takes.com/blog/enneagram/communication-overview"
+        }
+      },
+      "http://schema.org/publisher": {
+        "@type": "http://schema.org/Organization",
+        "http://schema.org/logo": {
+          "@type": "http://schema.org/ImageObject",
+          "http://schema.org/url": {
+            "@id": "https://9takes.com/enneagram.svg"
+          }
+        },
+        "http://schema.org/name": "9Takes"
       }
-    ],
-    "http://schema.org/url": [
-      {
+    },
+    {
+      "@type": "http://schema.org/Person",
+      "http://schema.org/jobTitle": "Author",
+      "http://schema.org/name": "Suzanne Stabile",
+      "http://schema.org/sameAs": [
+        {
+          "@id": "https://www.instagram.com/suzannestabile/"
+        },
+        {
+          "@id": "https://twitter.com/SuzanneStabile"
+        }
+      ],
+      "http://schema.org/url": {
         "@id": "https://suzannestabile.com/"
       }
-    ]
-  }
-]
+    }
+  ]
+}
 </script>
 
 </div>

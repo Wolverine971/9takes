@@ -59,6 +59,11 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
       "url": "https://9takes.com/enneagram.svg"
     }
   },
+  "about": {
+    "@type": "Thing",
+    "name": "Enneagram"
+  },
+  
   "description": "Learn about the Enneagram's Instinctual Subtypes and how they impact personality and behavior.",
   "articleBody": "The Enneagram is a personality system that describes nine different personality types. Each personality type has three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life."
 }

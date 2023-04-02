@@ -88,32 +88,42 @@ In conclusion, the Enneagram is a powerful tool that can help individuals gain i
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-concepts"
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/about": {
+    "@type": "http://schema.org/Thing",
+    "http://schema.org/name": "Enneagram"
   },
-  "headline": "Enneagram Concepts",
-  
-  "datePublished": "2023-02-28",
-  "dateModified": "2023-02-28",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
+  "http://schema.org/articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development.",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9Takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
-      "width": 600,
-      "height": 60
-    }
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-02-28"
   },
-  "description": "Learn about Enneagram concepts and how they can help you understand yourself and others better. Find out about the nine Enneagram types and how they relate to different personality traits.",
-  "articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development."
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-02-28"
+  },
+  "http://schema.org/description": "Learn about Enneagram concepts and how they can help you understand yourself and others better. Find out about the nine Enneagram types and how they relate to different personality traits.",
+  "http://schema.org/headline": "Enneagram Concepts",
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-concepts",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": 60,
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/enneagram.svg"
+      },
+      "http://schema.org/width": 600
+    },
+    "http://schema.org/name": "9Takes"
+  }
 }
 </script>
 
