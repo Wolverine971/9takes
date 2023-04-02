@@ -25,7 +25,7 @@
 			<h3 id="understanding-the-enneagram-an-introduction">Understanding the Enneagram</h3>
 			<ul>
 				<!-- <li>History and origins of the Enneagram</li> -->
-				<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram Lineage </a></li>
+				<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram lineage </a></li>
 				<li><a href="/blog/enneagram/tldr-enneagram"> Enneagram TLDR </a></li>
 				<li>
 					<a href="/blog/enneagram/enneagram-concepts">
@@ -92,10 +92,10 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-tips"> Enneagram Communication Tips </a>
+					<a href="/blog/enneagram/communication-tips"> Enneagram communication tips </a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-styles"> Enneagram Communication Styles </a>
+					<a href="/blog/enneagram/communication-styles"> Enneagram communication styles </a>
 				</li>
 				<li>
 					<a href="/blog/enneagram/communication-relationships">
@@ -118,8 +118,15 @@
 						Understanding how different Enneagram types work together in teams
 					</a>
 				</li>
-				<li style="text-decoration: line-through;">
-					Using the Enneagram to improve team dynamics and productivity
+				<li>
+					<a href="/blog/enneagram/team-dynamics">
+						Using the Enneagram to improve team dynamics and productivity
+					</a>
+				</li>
+				<li>
+					<a href="/blog/enneagram/team-diversity">
+						Building balanced and diverse teams using the Enneagram
+					</a>
 				</li>
 			</ul>
 			<h3 id="enneagram-resources">
@@ -140,10 +147,10 @@
 				Enneagram Situational Topics
 			</h3>
 			<ul>
-				<li><a href="/blog/enneagram/enneagram-types-at-party">Enneagram Types at a Party</a></li>
+				<li><a href="/blog/enneagram/enneagram-types-at-party">Enneagram types at a party</a></li>
 				<li>
 					<a href="/blog/enneagram/ghosting-the-types"
-						>Impact of Ghosting on Mental Health: An Enneagram Perspective
+						>Impact of ghosting on mental health: An Enneagram perspective
 					</a>
 				</li>
 			</ul>
