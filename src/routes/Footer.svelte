@@ -22,10 +22,10 @@
 		</ul>
 	</div>
 	<div style="display: flex; flex-direction: row; justify-content:center;">
-		<a href="https://www.instagram.com/9takesdotcom/">
+		<a target="_blank" href="https://www.instagram.com/9takesdotcom/">
 			<img src={instagram} alt="Instagram" class="icon" />
 		</a>
-		<a href="https://twitter.com/9takesdotcom">
+		<a target="_blank" href="https://twitter.com/9takesdotcom">
 			<img src={twitter} alt="Twitter" class="icon" />
 		</a>
 	</div>

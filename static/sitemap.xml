@@ -8,19 +8,19 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2023-03-26</lastmod>
+    <lastmod>2023-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
-    <lastmod>2023-03-26</lastmod>
+    <lastmod>2023-04-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://9takes.com/blog/enneagram</loc>
-    <lastmod>2023-03-26</lastmod>
+    <lastmod>2023-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -109,6 +109,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://9takes.com/blog/enneagram/enneagram-personality-test</loc>
+    <lastmod>2023-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://9takes.com/blog/enneagram/strengths-and-weaknesses</loc>
+    <lastmod>2023-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://9takes.com/blog/enneagram/personal-growth</loc>
+    <lastmod>2023-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://9takes.com/blog/enneagram/enneagram-types-in-relationships</loc>
     <lastmod>2023-03-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -146,9 +164,15 @@
   </url>
  <url>
     <loc>https://9takes.com/blog/enneagram/working-in-teams</loc>
-    <lastmod>2023-03-26</lastmod>
+    <lastmod>2023-04-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://9takes.com/blog/enneagram/team-diversity</loc>
+    <lastmod>2023-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://9takes.com/blog/enneagram/faq</loc>

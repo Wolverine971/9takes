@@ -56,23 +56,25 @@
 				I am a tech guy. I was former military and my wife got me into the enneagram and I have been
 				obsessed since. I don't exactly know why there isn't a centralized platform for the
 				enneagram but I have my suspicions. I don't know why there isn't a community like the one I
-				am building. If you know why DM me <a href="https://twitter.com/djwayne3">here</a>. If you
-				want to talk to me DM me <a href="https://twitter.com/djwayne3">here</a>.
+				am building. If you know why DM me <a target="_blank" href="https://twitter.com/djwayne3"
+					>here</a
+				>. If you want to talk to me DM me
+				<a target="_blank" href="https://twitter.com/djwayne3">here</a>.
 			</p>
 
 			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
 			<ul>
 				<li>
-					<a href="https://github.com/Wolverine971">Github</a>
+					<a target="_blank" href="https://github.com/Wolverine971">Github</a>
 				</li>
 				<li>
-					<a href="https://twitter.com/djwayne3">Twitter</a>
+					<a target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
 				</li>
 			</ul>
 		</div>
 		<div style="margin:20px;">
 			<h3>Looking for help</h3>
-			<p>DM me on twitter <a href="https://twitter.com/djwayne3">here</a></p>
+			<p>DM me on twitter <a target="_blank" href="https://twitter.com/djwayne3">here</a></p>
 		</div>
 	</div>
 </div>
