@@ -3,7 +3,7 @@ title: '9takes blogs'
 description: "The reasons for 9takes"
 author: 'DJ Wayne'
 date: '2023-02-18'
-published: true
+published: false
 type: ['overview']
 
 ---
@@ -27,3 +27,9 @@ type: ['overview']
 - To find my "tribe"
 - To start a dialog with people unlike me
 - 3 reasons we see broadly but fail to see deeply
+
+law of reciprocity
+In negotiation there is the law of reciprocity which is inorder to get you must give
+people feel inclined to give inorder to get
+[David Sacks from the All in Podcast ](https://youtu.be/qQ544sWC8ZQ?t=485) talking about the give to get strategy as a tactic to get people to share their data.
+

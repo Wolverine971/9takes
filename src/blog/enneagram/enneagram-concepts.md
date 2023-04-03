@@ -59,7 +59,7 @@ The Enneagram also recognizes that individuals can exhibit traits of the persona
 
 Finally, the Enneagram also recognizes that individuals may experience growth and stress in different ways, depending on their personality type. The system identifies connecting lines that link the nine personality types and show how individuals can move towards growth or stress. For example, a Type 5 Investigator may move towards growth by adopting traits of the Type 8 Challenger or towards stress by adopting traits of the Type 7 Enthusiast.
 
-In conclusion, the Enneagram is a powerful tool that can help individuals gain insight into their personality, motivations, and behavior patterns. By understanding the nine personality types, the three centers of intelligence, the three instincts, wings, and connecting lines, individuals can gain a deeper understanding of themselves and others, improve their relationships, and achieve personal growth.
+Time for the obligatory reminder that the Enneagram should be used as a tool. Helping individuals gain insight into their personality, motivations, and behavior patterns is a difficult task not to be taken lightly. However by understanding all the above, the nine types, the three centers of intelligence, the three instincts, wings, and connecting lines, individuals can gain a deeper understanding of themselves, others, and improve their relationships, and ultimately grow as people.
 
 <br>
 <hr>

@@ -133,8 +133,5 @@ What they don't like to talk about: Nines may be uncomfortable discussing confli
 
 Imaginary scenario: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the sense of peace and harmony it brings to their life.
 
-## Conclusion
 
-The Enneagram is a powerful tool for improving communication and intimacy in relationships. By understanding the different communication styles and needs of each type, you can tailor your approach to create more effective communication and build deeper connections. Use the Enneagram as a tool for self-discovery and personal growth, and be patient and compassionate with yourself and others as you work to build stronger relationships.
-
-In addition to these tips, it's important to remember that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a starting point for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.
+Time for the obligatory reminder that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a tool for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.

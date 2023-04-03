@@ -8,6 +8,7 @@
 	},
 	"scripts": {
 		"dev": "vite dev",
+		"devTest": "vavite-loader vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync",
@@ -62,8 +63,10 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-node": "^1.2.0",
+		"@vavite/node-loader": "^1.7.0",
 		"@vercel/analytics": "^0.1.11",
 		"dotenv": "^16.0.3",
+		"googleapis": "^114.0.0",
 		"mermaid": "^9.3.0",
 		"natural": "^6.2.0",
 		"rehype-autolink-headings": "^6.1.1",

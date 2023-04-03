@@ -55,11 +55,11 @@
 			<p>
 				I am a tech guy. I was former military and my wife got me into the enneagram and I have been
 				obsessed since. I don't exactly know why there isn't a centralized platform for the
-				enneagram but I have my suspicions. I don't know why there isn't a community like the one I
-				am building. If you know why DM me <a target="_blank" href="https://twitter.com/djwayne3"
-					>here</a
-				>. If you want to talk to me DM me
-				<a target="_blank" href="https://twitter.com/djwayne3">here</a>.
+				Enneagram and I don't know why there isn't a community like the 9takes. I have thoughts and
+				opinions but would love to hear yours. Feel free to message me <a
+					target="_blank"
+					href="https://twitter.com/djwayne3">here</a
+				>.
 			</p>
 
 			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->

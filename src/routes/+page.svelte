@@ -64,37 +64,38 @@
 			<div class="column">
 				<div class="main">
 					<h3>What are we building?</h3>
-					<p>For the intial launch:</p>
-					<ul>
-						<li>A question and answering community.</li>
-					</ul>
+					<p>A question and answering community for the initial launch.</p>
+					<p>More to come...</p>
 
 					<h3>Why questions and answers?</h3>
-					<p>To find people that think feel and act like you and to explore everyone else.</p>
+					<p>
+						To find and connect with people that think feel and act alike. The hypothesis is that
+						once you feel understood, you will be ready to understand.
+					</p>
 
 					<h3>How will this be different?</h3>
 					<p>
-						9takes is built on first principles and has some psychology behind it. Ultimately it
-						will be a social experiment with the goal of moving the needle of societal discourse in
-						a positive direction for everyone involved.
+						9takes is a first principles play with some psychology behind it. It will be like a
+						social experiment with the ultimate goal of moving discourse in a positive direction.
 					</p>
 					<p>
-						We are going to be building in some mechanisms to make that happen. Here are a few of
-						them:
+						Practically speaking we are focused in on building mechanisms that enable thoughtful
+						conversation. Here are a few of them:
 					</p>
 					<ul>
 						<li>
 							Comments are not visible until you comment, this allows people to give original takes
 							on questions without outside influence.
 						</li>
-						<li>Everyone is default anonymous, you can DM others and optionally reveal yourself</li>
 						<li>
-							The only thing that identifies you publicly is your enneagram personality type.
-							Overtime you will find and learn what yours is.
+							A user's identity is publicly hidden and privately shared. Everyone is default
+							anonymous but you can message others and optionally reveal what you want. The only
+							thing that identifies you publicly is your Enneagram personality type. If you aren't
+							familiar with the Enneagram there are a slew of blogs to checkout.
 						</li>
 					</ul>
 
-					<h3>We are going to be creating some magic moments that will feel like the following:</h3>
+					<h3>We are aiming to create magic moments that will feel like:</h3>
 					<ul>
 						<li>A popping group chat 💥</li>
 						<li>A deep conversation around the campfire 🔥</li>
