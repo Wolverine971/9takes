@@ -34,22 +34,28 @@ export const actions: Actions = {
 
 		if (!insertError) {
 			console.log('woot');
-			const sent: any = await sendEmail({
-				to: body.email.toString(),
-				subject: 'Welcome to the Waitlist for 9takes',
-				body: joinEmail2()
-			});
-			if (sent) {
-				return { success: true };
-			} else {
+			try {
+				const sent: any = await sendEmail({
+					to: body.email.toString(),
+					subject: 'Welcome to the Waitlist for 9takes',
+					body: joinEmail2()
+				});
+				if (sent) {
+					return { success: true };
+				} else {
+					throw error(404, {
+						message: `Failed to insert email, no error available`
+					});
+				}
+			} catch (e) {
 				throw error(404, {
-					message: 'Failed to insert email'
+					message: `Failed to insert email, ${JSON.stringify(e)}`
 				});
 			}
 		} else {
-			console.log(error);
+			console.log(insertError);
 			throw error(404, {
-				message: 'Failed to insert email'
+				message: `Failed to insert email, ${JSON.stringify(insertError)}`
 			});
 		}
 	}
@@ -101,7 +107,8 @@ const sendEmail = async ({ to, subject, body }: { to: string; subject: string; b
 			userId: 'me'
 		});
 	} catch (e) {
-		console.log(e);
-		return false;
+		throw error(404, {
+			message: `Failed send email, ${JSON.stringify(e)}`
+		});
 	}
 };
