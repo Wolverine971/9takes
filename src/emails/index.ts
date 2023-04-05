@@ -154,29 +154,58 @@ export const joinEmail2 = () => {
                       this email at usersup@9takes.com.
                     </div>
                     <div value="30" style="padding-top:30px"> </div>
-                    <div style="text-align:center; display: flex;">
-                      <a href="https://9takes.com/blog/enneagram/communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <div value="30" style="padding-top:30px">
+                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                      <tr>
+                        <td valign="top" width="50%">
+                          <a href="https://9takes.com/blog/enneagram/enneagram-types-at-party" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            
+                              <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
+                                src="https://9takes.com/blogs/party-in-street.webp">
+                            </a>
+                        </td>
+                        <td valign="top" width="50%">
+                          <a href="https://9takes.com/blog/enneagram/communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                         <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
                           src="https://9takes.com/blogs/communication-tips.webp">
-                          Enneagram communication tips
-                        
                       </a>
-                      <a href="https://9takes.com/blog/enneagram/enneagram-types-at-party" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                      Enneagram types at a party
-                        <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
-                          src="https://9takes.com/blogs/party-in-street.webp">
-                          
-                        
-                      </a>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td valign="top" >
+                          Enneagram types at a party
+                          </td>
+                          <td valign="top" >
+                            Enneagram communication tips
+                          </td>
+                        </tr>
+
+                      
+                    </table>
                     </div>
+                    
                     <div value="30" style="padding-top:30px"> </div>
                     <div style="display: flex; flex-direction: row; justify-content:center;">
-                      <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-                        <img src="https://9takes.com/instagram.svg" alt="Instagram" class="icon" />
-                      </a>
-                      <a target="_blank" href="https://twitter.com/9takesdotcom">
-                        <img src="https://9takes.com/twitter.svg" alt="Twitter" class="icon" />
-                      </a>
+                      <table cellpadding="0" cellspacing="0" border="0" width="10%" >
+                        
+                        <tr>
+                          <td valign="top" >
+
+                            <div style="text-align: center; display: flex; justify-content: center;">
+                              <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
+                              <img src="https://9takes.com/instagram.svg" alt="Instagram" class="icon" width="50px"/>
+                            </a>
+                            <a target="_blank" href="https://twitter.com/9takesdotcom">
+                              <img src="https://9takes.com/twitter.svg" alt="Twitter" class="icon" width="50px"/>
+                            </a>
+                            </div>
+                          </td>
+                            
+                        </tr>
+                       
+                      </table>
+
+
                     </div>
                   </div>
                 </div>
