@@ -179,33 +179,24 @@ export const joinEmail2 = () => {
                             Enneagram communication tips
                           </td>
                         </tr>
-
-                      
                     </table>
                     </div>
-                    
                     <div value="30" style="padding-top:30px"> </div>
                     <div style="display: flex; flex-direction: row; justify-content:center;">
                       <table cellpadding="0" cellspacing="0" border="0" width="10%" >
-                        
-                        <tr>
-                          <td valign="top" >
-
+                        <tr style="display:flex; justify-content: center;">
+                          <td valign="top" style="display:flex; justify-content: center;">
                             <div style="text-align: center; display: flex; justify-content: center;">
                               <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-                              <img src="https://9takes.com/instagram.svg" alt="Instagram" class="icon" width="50px"/>
+                              <img src="https://9takes.com/instagram.png" alt="Instagram" class="icon" width="50px"/>
                             </a>
                             <a target="_blank" href="https://twitter.com/9takesdotcom">
-                              <img src="https://9takes.com/twitter.svg" alt="Twitter" class="icon" width="50px"/>
+                              <img src="https://9takes.com/twitter.png" alt="Twitter" class="icon" width="50px"/>
                             </a>
                             </div>
                           </td>
-                            
                         </tr>
-                       
                       </table>
-
-
                     </div>
                   </div>
                 </div>
