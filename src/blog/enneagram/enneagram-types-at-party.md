@@ -73,106 +73,46 @@ Each type has its unique characteristics and motivations for attending the party
 
 <div>
 <script type="application/ld+json">
-[
-  {
-    "@type": [
-      "http://schema.org/BlogPosting"
-    ],
-    "http://schema.org/articleBody": [
-      {
-        "@value": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings."
+{
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/articleBody": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ"
+  },
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-01T00:00:00-07:00"
+  },
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-02-17T00:00:00-07:00"
+  },
+  "http://schema.org/description": "Discover are different types doing, thinking, feeling at a party.",
+  "http://schema.org/headline": "Enneagram Types at a Party: How Each Type Behaves",
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 800,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/blogs/party-in-street.webp"
+    },
+    "http://schema.org/width": 1200
+  },
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/enneagram.svg"
       }
-    ],
-    "http://schema.org/author": [
-      {
-        "@type": [
-          "http://schema.org/Person"
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "DJ"
-          }
-        ]
-      }
-    ],
-    "http://schema.org/dateModified": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2023-03-01T00:00:00-07:00"
-      }
-    ],
-    "http://schema.org/datePublished": [
-      {
-        "@type": "http://schema.org/Date",
-        "@value": "2023-02-17T00:00:00-07:00"
-      }
-    ],
-    "http://schema.org/description": [
-      {
-        "@value": "Discover are different types doing, thinking, feeling at a party."
-      }
-    ],
-    "http://schema.org/headline": [
-      {
-        "@value": "Enneagram Types at a Party: How Each Type Behaves"
-      }
-    ],
-    "http://schema.org/image": [
-      {
-        "@type": [
-          "http://schema.org/ImageObject"
-        ],
-        "http://schema.org/height": [
-          {
-            "@value": 800
-          }
-        ],
-        "http://schema.org/url": [
-          {
-            "@id": "https://9takes.com/blogs/party-in-street.webp"
-          }
-        ],
-        "http://schema.org/width": [
-          {
-            "@value": 1200
-          }
-        ]
-      }
-    ],
-    "http://schema.org/mainEntityOfPage": [
-      {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party",
-        "@type": [
-          "http://schema.org/WebPage"
-        ]
-      }
-    ],
-    "http://schema.org/publisher": [
-      {
-        "@type": [
-          "http://schema.org/Organization"
-        ],
-        "http://schema.org/logo": [
-          {
-            "@type": [
-              "http://schema.org/ImageObject"
-            ],
-            "http://schema.org/url": [
-              {
-                "@id": "https://9takes.com/enneagram.svg"
-              }
-            ]
-          }
-        ],
-        "http://schema.org/name": [
-          {
-            "@value": "9Takes"
-          }
-        ]
-      }
-    ]
+    },
+    "http://schema.org/name": "9Takes"
   }
-]
+}
 </script>
 
 </div>

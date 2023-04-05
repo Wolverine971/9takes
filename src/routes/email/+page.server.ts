@@ -25,7 +25,7 @@ export const actions: Actions = {
 			.from('signups')
 			.select('*')
 			.eq('email', body.email);
-		if (emailExists) {
+		if (emailExists?.length) {
 			throw error(404, {
 				message: 'Email already exists'
 			});
