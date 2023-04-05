@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import instagram from '$lib/images/instagram.svg';
-	import twitter from '$lib/images/twitter.svg';
 </script>
 
 <footer class="footer">
@@ -23,10 +21,10 @@
 	</div>
 	<div style="display: flex; flex-direction: row; justify-content:center;">
 		<a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-			<img src={instagram} alt="Instagram" class="icon" />
+			<img src="./instagram.svg" alt="Instagram" class="icon" />
 		</a>
 		<a target="_blank" href="https://twitter.com/9takesdotcom">
-			<img src={twitter} alt="Twitter" class="icon" />
+			<img src="./twitter.svg" alt="Twitter" class="icon" />
 		</a>
 	</div>
 </footer>

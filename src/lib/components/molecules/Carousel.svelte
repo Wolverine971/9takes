@@ -199,6 +199,8 @@ cwebp "self-development.png" -o "self-development.webp"
 cwebp "stressed.png" -o "stressed.webp"
 cwebp "team-building.png" -o "team-building.webp"
 cwebp "working-in-teams.png" -o "working-in-teams.webp"
+cwebp "communication-tips.png" -o "communication-tips.webp"
+cwebp "communication-styles.png" -o "communication-styles.webp"
 
 
  -->

@@ -1,12 +1,33 @@
 ---
 title: 'Enneagram Communication Styles'
-description: ""
+description: "How would you describe your own communication style and which communication styles feel most familiar and foreign"
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
 type: ['overview']
 blog: true
 ---
+
+
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
+</svelte:head>
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+	height: 100vh;
+	max-height: 1000px;"
+>
+	<PopCard
+		image={`/blogs/communication-styles.webp`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
 
 # How to communicate and interact effectively with different Enneagram types
 

@@ -18,7 +18,7 @@
 		let body = new FormData();
 		body.append('email', email);
 
-		const { data } = await (
+		const { data, error: emailError } = await (
 			await fetch(`/email?/submit`, {
 				method: 'POST',
 				body
@@ -29,7 +29,12 @@
 			notifications.info('Email Submitted', 3000);
 			email = '';
 		} else {
-			notifications.warning('Email Failed', 3000);
+			if (emailError?.message && emailError?.message === 'Email already exists') {
+				// console.log(emailError);
+				notifications.warning('Email already exists', 3000);
+			} else {
+				notifications.warning('Email Failed', 3000);
+			}
 		}
 	};
 </script>

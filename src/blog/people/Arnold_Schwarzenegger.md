@@ -8,7 +8,9 @@ enneagram: 3
 type: ['celebrity']
 ---
 
-
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/3s/Arnold_Schwarzenegger.webp" />
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> 

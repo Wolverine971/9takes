@@ -8,6 +8,9 @@ enneagram: 9
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/9s/Barack_Obama.webp" />
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> 
@@ -18,7 +21,7 @@ type: ['politician']
 	max-height: 1000px;"
 >
 	<PopCard
-		image={`/types/9s/${'Barack_Obama'}.webp`}
+		image={`/types/9s/Barack_Obama.webp`}
 		showIcon={false}
 		text="Barack Obama"
 		subtext=""

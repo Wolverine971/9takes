@@ -8,6 +8,9 @@ enneagram: 6
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/6s/George_H_W_Bush.webp" />
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -18,7 +21,7 @@ type: ['politician']
 	max-height: 1000px;"
 >
 	<PopCard
-		image={`/types/6s/${'George_H_W_Bush'}.webp`}
+		image={`/types/6s/George_H_W_Bush.webp`}
 		showIcon={false}
 		text="George H. W. Bush"
 		subtext=""

@@ -8,6 +8,9 @@ enneagram: 9
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/9s/Bernie_Sanders.webp" />
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> 
@@ -18,7 +21,7 @@ type: ['politician']
 	max-height: 1000px;"
 >
 	<PopCard
-		image={`/types/9s/${'Bernie_Sanders'}.webp`}
+		image={`/types/9s/Bernie_Sanders.webp`}
 		showIcon={false}
 		text="Bernie Sanders"
 		subtext=""

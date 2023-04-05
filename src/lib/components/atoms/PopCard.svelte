@@ -155,6 +155,7 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
+		margin: 1rem;
 	}
 
 	.screen:after,
