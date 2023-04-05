@@ -39,7 +39,13 @@ export const actions: Actions = {
 				subject: 'Welcome to the Waitlist for 9takes',
 				body: joinEmail2()
 			});
-			return { success: true };
+			if (sent) {
+				return { success: true };
+			} else {
+				throw error(404, {
+					message: 'Failed to insert email'
+				});
+			}
 		} else {
 			console.log(error);
 			throw error(404, {
@@ -75,10 +81,11 @@ const makeBody = ({
 
 const sendEmail = async ({ to, subject, body }: { to: string; subject: string; body: string }) => {
 	try {
+		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
 		const authClient = new google.auth.JWT(
 			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
 			null,
-			PRIVATE_gmail_private_key,
+			privateKey,
 			['https://www.googleapis.com/auth/gmail.send'],
 			'usersup@9takes.com'
 		);
