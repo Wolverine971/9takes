@@ -285,6 +285,8 @@
 		top: 0px;
 		background-size: 300%;
 		background-position: 0% 0%;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
 		/* filter: sepia(100%) hue-rotate(160deg); */
 		opacity: 0.6;
 		-webkit-transition: opacity 1s ease-in-out;
