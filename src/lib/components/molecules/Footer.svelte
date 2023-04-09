@@ -2,6 +2,8 @@
 	import { page } from '$app/stores';
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
+	import type { PageData } from '../../../routes/$types';
+	export let data: PageData;
 </script>
 
 <footer class="footer">
@@ -10,9 +12,11 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" class={$page.url.pathname === '/' ? 'current' : ''}>Home</a>
 			</li>
-			<!-- <li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
-				<a href="/questions">Questions</a>
-			</li> -->
+			{#if data?.session?.user}
+				<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
+					<a href="/questions">Questions</a>
+				</li>
+			{/if}
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
 				<a href="/blog" class={$page.url.pathname === '/blog' ? 'current' : ''}>Blog</a>
 			</li>

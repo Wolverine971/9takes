@@ -7,7 +7,6 @@
 	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	// import Card from '$lib/components/atoms/card.svelte';
 	export let data: PageData;
-	console.log(data);
 	const politicians = data.people.filter((person) => {
 		return person.type?.includes('politician');
 	});

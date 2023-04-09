@@ -1,8 +1,10 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-	import { supabase } from '$lib/supabase';
 	import type { PageData } from '../$types';
-	let question: string;
+
+	import { page } from '$app/stores';
+
+	let question: string = $page.url.searchParams.get('question') || '';
 
 	export let data: PageData;
 

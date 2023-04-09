@@ -1,51 +1,50 @@
 <!-- // Get all questions -->
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
-	import QuestionItem from '$lib/components/molecules/QuestionItem.svelte';
+	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import { supabase } from '$lib/supabase';
-	import { onMount } from 'svelte';
-	import { goto } from '$app/navigation';
 
 	import type { PageData } from '../$types';
-	export let data: PageData;
+	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
+
+	interface QuestionsData extends PageData {
+		questions: any[];
+		count: number;
+	}
+
+	export let data: QuestionsData;
 	//get all questions
 
-	let questions: any[] = [];
+	let questions: any[] = data?.questions;
 	const loadQuestions = async () => {
-		const { data, error } = await supabase
+		const { data: moreQuestions, error } = await supabase
 			.from('questions')
 			.select(`question, id, url`, { count: 'planned' })
 			.limit(10);
-		if (data) {
-			questions = [...questions, ...data];
-		}
-	};
-	onMount(async () => {
-		loadQuestions();
-	});
-
-	const goToCreateQuestionPage = () => {
-		if (data?.session?.user.id) {
-			goto(`/questions/create`, {});
-		} else {
-			alert('must be logged in');
+		if (moreQuestions) {
+			questions = [...questions, ...moreQuestions];
 		}
 	};
 </script>
 
-<main>
-	<h1>Questions</h1>
+<div>
+	<h1>Asked questions</h1>
 
-	<button class="btn btn-primary" on:click={goToCreateQuestionPage}> Create Question </button>
+	<SearchQuestion {data} />
+	<p>Count {data.count}</p>
+
 	{#each questions as questionData}
 		<QuestionItem {questionData} />
 	{/each}
-	<button class="btn btn-primary" on:click={() => loadQuestions()} aria-label="Load More"> Load More </button>
-</main>
-
-
+	{#if data.count > questions.length}
+		<button class="btn btn-primary" on:click={() => loadQuestions()} aria-label="Load More">
+			Load More
+		</button>
+	{/if}
+</div>
 
 <style lang="scss">
-
-
+	h1 {
+		// padding: var(--card-padding);
+		// margin: var(--card-margin);
+	}
 </style>

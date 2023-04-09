@@ -6,7 +6,7 @@
 
 	let page = 0;
 
-	export let parentData: any;
+	export let data: any;
 
 	/** @type {import('./$types').PageData} */
 	// export let data: PageData;
@@ -15,17 +15,17 @@
 
 	export let parentType: string;
 
-	export async function createComment() {
-		var body = new FormData();
+	export const createComment = async () => {
+		let body = new FormData();
 		if (parentType === 'comment') {
 			body.append('comment', comment);
-			body.append('parent_id', parentData.id);
-			body.append('author_id', parentData.author_id);
+			body.append('parent_id', data.id);
+			body.append('author_id', data.session.user.id);
 			body.append('parent_type', parentType);
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
-			body.append('parent_id', parentData.question.id);
-			body.append('author_id', parentData.question.author_id);
+			body.append('parent_id', data.question.id);
+			body.append('author_id', data.session.user.id);
 			body.append('parent_type', parentType);
 		}
 
@@ -38,29 +38,33 @@
 			notifications.info('Comment Added', 3000);
 		});
 		comment = '';
-	}
+	};
 	const expand = () => {
 		console.log('please-expand');
 	};
 </script>
 
-<div>
-	<form>
-		<div class="interact-text-container">
-			<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={comment} />
-		</div>
-		<button
-			class="btn btn-primary"
-			type="button"
-			on:click={createComment}
-			disabled={comment?.length < 1}
-		>
-			Submit Answer
-		</button>
-	</form>
-</div>
+<form class="interact-card">
+	<div class="interact-text-container">
+		<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={comment} />
+	</div>
+	<button
+		class="btn btn-primary"
+		type="button"
+		on:click={createComment}
+		disabled={comment?.length < 1}
+	>
+		Submit Answer
+	</button>
+</form>
 
 <style lang="scss">
+	.interact-card {
+		margin: 2rem;
+		padding: 1rem;
+		box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+			0 1px 5px 0 rgb(0 0 0 / 12%);
+	}
 	.interact-text-container {
 		position: relative;
 		width: 100%;

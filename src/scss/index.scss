@@ -21,6 +21,9 @@
 		0.1125rem 0.225rem 1.35rem rgba(27, 40, 50, 0.036),
 		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
 		0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
+
+	--card-padding: 0.8rem 1rem;
+	--card-margin: 1rem;
 }
 
 $dark-300: hsl(213, 24%, 7%);
@@ -142,11 +145,11 @@ main {
 .card {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
-	background-color: $dark-200;
+	margin: var(--card-margin);
+	// background-color: $dark-200;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	padding: 32px;
+	padding: var(--card-padding);
 }
 
 .btn {
@@ -164,11 +167,12 @@ main {
 }
 
 .btn-primary {
-	background-color: $primary-200;
-	color: $dark-300;
+	border: 1px solid var(--color-theme-purple);
+	color: var(--color-theme-purple);
 
 	&:hover {
-		background-color: $primary-300;
+		background-color: var(--color-theme-purple-v);
+		color: white;
 	}
 }
 

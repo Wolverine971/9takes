@@ -44,3 +44,6 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 ## checkout pwa 
 https://dev.to/askrodney/sveltekit-pwa-installable-app-with-offline-access-5a8n
+
+## Stripe
+https://github.com/srmullen/sveltekit-stripe/blob/main/src/routes/index.svelte

@@ -3,24 +3,26 @@
 	import Card from '../atoms/card.svelte';
 	import Comments from './Comments.svelte';
 	import Interact from './Interact.svelte';
-	export let comment: any; //: Database['public']['Tables']['comments']['Row'];
-
+	// export let comment: any; //: Database['public']['Tables']['comments']['Row'];
+	export let data: any;
+	export let comment: any;
 	let commentComment: any = null;
 	if (comment?.id) {
 		commentComment = Object.assign({}, comment);
 	}
 
-	let comments = [];
+	const commentData = Object.assign({}, comment, data);
 </script>
 
 <Card>
 	<p>Comment: {comment?.comment}</p>
 	<p>ParentId: {comment?.parent_id}</p>
-	<Interact parentData={commentComment} parentType={'comment'} />
-
-	<div style="margin-left:10px;">
-		<Comments parentData={comment} nested={false} parentType={'comment'} />
-	</div>
+	<Interact data={commentData} parentType={'comment'} />
+	{#if comment?.length}
+		<div style="margin-left:10px;">
+			<Comments {commentData} nested={false} parentType={'comment'} />
+		</div>
+	{/if}
 </Card>
 
 <style lang="scss">

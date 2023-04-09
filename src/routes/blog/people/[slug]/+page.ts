@@ -42,7 +42,10 @@ export const load: PageLoad = async ({ params }) => {
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	if (!post || !post.metadata.published) {
-		throw error(404); // Couldn't resolve the post
+		// throw error(404); // Couldn't resolve the post
+		throw error(404, {
+			message: `Couldn't resolve the post`
+		});
 	}
 
 	return {

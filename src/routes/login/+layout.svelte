@@ -7,7 +7,12 @@
 	onMount(() => {
 		const {
 			data: { subscription }
-		} = supabase.auth.onAuthStateChange((event) => {
+		} = supabase.auth.onAuthStateChange((event, state, session) => {
+			if (state == 'SIGNED_IN') {
+				user.set(session.user);
+			} else {
+				user.set(false);
+			}
 			// invalidateAll();
 			if (event === 'PASSWORD_RECOVERY') {
 				// redirect user to the page where it creates a new password

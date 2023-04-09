@@ -27,7 +27,9 @@
 <BlogList posts={data?.posts} />
 
 <div class="join">
-	<CollectEmail cta={'We are making something 👷🔨 join the waitlist'} />
+	{#if !data?.session?.user}
+		<CollectEmail cta={'We are making something 👷🔨 join the waitlist'} />
+	{/if}
 </div>
 
 <style lang="scss">

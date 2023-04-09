@@ -11,15 +11,24 @@ declare namespace App {
 import type { TypedSupabaseClient } from '@supabase/auth-helpers-sveltekit/dist/types';
 import type { Session } from '@supabase/supabase-js';
 
+interface TakesUser extends User {
+	first_name: string;
+	last_name: string;
+}
+interface SbSession extends Session {
+	user: TakesUser;
+}
+
 declare global {
 	declare namespace App {
 		// interface Error {}
 		interface Locals {
 			sb: TypedSupabaseClient;
-			session: Session | null;
+			session: SbSession | null;
 		}
 		interface PageData {
-			session: import('@supabase/supabase-js').Session | null;
+			session: SbSession | null;
+			flags?: string[];
 		}
 
 		// interface Platform {}

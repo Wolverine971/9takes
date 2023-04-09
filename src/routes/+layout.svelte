@@ -2,17 +2,18 @@
 	import type { PageData } from './$types';
 	import { webVitals } from '$lib/vitals';
 	import { browser } from '$app/environment';
-	// import Header from './Header.svelte';
+	import Header from '$lib/components/molecules/Header.svelte';
 	import './styles.css';
 	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
-	$: if (browser && analyticsId) {
+	import { dev } from '$app/environment';
+
+	$: if (browser && analyticsId && !dev) {
 		webVitals({
 			path: $page.url.pathname,
 			params: $page.params,
 			analyticsId
 		});
 	}
-	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 
 	inject({ mode: dev ? 'development' : 'production' });
@@ -20,16 +21,16 @@
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Analytics from '$lib/analytics.svelte';
 	import { page } from '$app/stores';
-	import Footer from './Footer.svelte';
+	import Footer from '../lib/components/molecules/Footer.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	export let data: PageData;
 </script>
 
 <div class="app">
 	<Analytics />
-	<!-- {#if $page.url.pathname !== '/'}
-		<Header {data} />
-	{/if} -->
+	<!-- {#if $page.url.pathname !== '/'} -->
+	<Header {data} />
+	<!-- {/if} -->
 
 	<Toast />
 	{#if $page.url.pathname === '/'}
@@ -43,9 +44,7 @@
 	<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
 		<slot />
 	</main>
-	{#if $page.url.pathname !== '/'}
-		<Footer />
-	{/if}
+	<Footer {data} />
 </div>
 
 <style lang="scss">

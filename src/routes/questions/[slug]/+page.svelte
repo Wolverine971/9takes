@@ -4,8 +4,15 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import type { PageData } from '../$types';
 
+	interface QuestionData extends PageData {
+		question: any;
+		comments: any;
+		comment_count: number;
+		flags: any;
+	}
+
 	/** @type {import('./$types').PageData} */
-	export let data: PageData;
+	export let data: QuestionData;
 </script>
 
 <!-- Question always renders -->
@@ -25,15 +32,15 @@
 -->
 	{data.flags.userSignedIn} || {!(!data.flags.userSignedIn && data.flags.userHasAnswered)}
 	{#if data.flags.userSignedIn || !(!data.flags.userSignedIn && data.flags.userHasAnswered)}
-		<Interact parentData={data} parentType={'question'} />
-		
+		<Interact {data} parentType={'question'} />
+		<!-- userData=  -->
 	{/if}
 	<!-- Renders for SEO, removed if not answered -->
 	{#if !browser || data.flags.userHasAnswered}
 		<h3>Renders for SEO, removed if not answered</h3>
 		<h1>Comments</h1>
 		{#if data.comments.length}
-			<Comments parentData={data} nested={true} parentType={'question'} />
+			<Comments {data} nested={true} parentType={'question'} />
 		{/if}
 	{/if}
 	{#if data.flags.userHasAnswered && !browser}
@@ -44,12 +51,10 @@
 		<li>Answer Three</li>
 		<!-- only load first or top comment -->
 		{#if data.comments.length}
-			<Comments parentData={data} nested={false} parentType={'question'} />
+			<Comments {data} nested={false} parentType={'question'} />
 		{/if}
 	{/if}
 </ul>
 
 <style lang="scss">
-
-
 </style>

@@ -1,68 +1,77 @@
 import { supabase } from '$lib/supabase';
-import type { PostgrestResponse } from '@supabase/supabase-js';
+import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+// import type { PostgrestResponse } from '@supabase/supabase-js';
+import type { Actions } from './$types';
+import { error } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
-export async function load({ params }: { params: any }) {
-	const {
-		data: question,
-		error,
-		status
-	} = await supabase.from('questions').select('*').eq('url', params.slug).single();
+export async function load(event) {
+	const session = await getServerSession(event);
+	let { data: question, error: findQuestionError } = await supabase
+		.from('questions')
+		.select('*')
+		.eq('url', event.params.slug)
+		.single();
+
+	let { data: hasCommented, error: hasCommentedError } = await supabase
+		.from('comments')
+		.select('*')
+		.eq('parent_type', 'question')
+		.eq('parent_id', question?.id)
+		.eq('author_id', session?.user.id)
+		.single();
+	if (!question || findQuestionError) {
+		throw error(400, {
+			message: 'No question found'
+		});
+	}
+
+	let userHasAnswered = hasCommented ? true : false;
+
+	if (!hasCommented) {
+		let { count: commentCount, error: commentCountError } = await supabase
+			.from('comments')
+			.select('*', { count: 'exact' })
+			.eq('parent_type', 'question')
+			.eq('parent_id', question?.id);
+
+		return {
+			question,
+			comments: [],
+			comment_count: commentCount,
+			session,
+			flags: {
+				userHasAnswered: userHasAnswered,
+				userSignedIn: event?.locals?.session?.user?.aud
+			}
+		};
+	}
 
 	let {
 		data: questionComments,
 		count: questionCommentCount,
-		error: questionError
+		error: questionCommentsError
 	} = await supabase
 		.from('comments')
 		.select('*', { count: 'exact' })
 		.eq('parent_id', question.id)
 		.limit(10);
 
-	// const questionCommentIds = questionComments?.map((q) => {
-	// 	return q.id;
-	// });
-	// if (questionCommentIds) {
-	// 	let {
-	// 		data: commentComments,
-	// 		error: commentError,
-	// 		count
-	// 	}: PostgrestResponse<{
-	// 		data: Database['public']['Tables']['comments']['Row'][];
-	// 		error: any;
-	// 	}> = await supabase
-	// 		.from('comments')
-	// 		.select('*', { count: 'exact' })
-	// 		.in('parent_id', questionCommentIds)
-	// 		.limit(20);
+	if (questionCommentsError) {
+		console.log('No comments for question');
+	}
 
-	// 	interface ICommentMap {
-	// 		[key: string]: string[];
-	// 	}
-	// 	let commentMap: ICommentMap = {};
-	// 	console.log('count ' + count);
-	// 	console.log('commentComments');
-	// 	console.log(commentComments);
-	// 	commentComments?.forEach((c: any) => {
-	// 		if (commentMap[c?.parent_id]) {
-	// 			commentMap[c?.parent_id] = [...commentMap[c?.parent_id], c];
-	// 		} else {
-	// 			commentMap[c?.parent_id] = [c];
-	// 		}
-	// 	});
-	// 	questionComments?.forEach((q) => {
-	// 		if (commentMap[q.id]) {
-	// 			q.comments = commentMap[q.id];
-	// 		}
-	// 	});
-	// }
-
-	return { question, comments: questionComments, comment_count: questionCommentCount };
+	return {
+		question,
+		comments: questionComments,
+		comment_count: questionCommentCount,
+		session,
+		flags: {
+			userHasAnswered: userHasAnswered,
+			userSignedIn: event?.locals?.session?.user?.aud
+		}
+	};
 }
-
-import type { Actions } from './$types';
-import type { Database } from 'src/schema';
-import { fail, json } from '@sveltejs/kit';
 
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
@@ -79,7 +88,8 @@ export const actions: Actions = {
 				parent_id: parentId,
 				author_id: author_id,
 				comment_count: 0,
-				ip: getClientAddress()
+				ip: getClientAddress(),
+				parent_type: parent_type
 			};
 			// console.log(commentData);
 
@@ -111,13 +121,14 @@ export const actions: Actions = {
 				// return json({ commentResp: resp.data, incremented: newIncrement });
 				return { success: true };
 			} else {
-				throw new Error('messed up');
+				throw error(404, {
+					message: `Add comment error`
+				});
 			}
 		} catch (e) {
-			console.log('error thrown');
-			console.log(e);
-			// return failure({ error: e });
-			return fail(400, { problem: 'you' });
+			throw error(400, {
+				message: `error creating comment ${JSON.stringify(e)}`
+			});
 		}
 	}
 };

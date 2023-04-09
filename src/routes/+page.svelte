@@ -1,14 +1,13 @@
 <script lang="ts">
-	// import type { PageData } from './$types';
+	import type { PageData } from './$types';
 	import type { SubmitFunction } from '$app/forms';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
-	import Footer from './Footer.svelte';
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
 
 	// export let data: PageData;
-
+	export let data: PageData;
 	const submitLogout: SubmitFunction = async ({ cancel }) => {
 		const { error } = await supabase.auth.signOut();
 		if (error) {
@@ -111,14 +110,12 @@
 		</section>
 	</main>
 	<section style="max-width: 64rem;">
-		<div class="join">
-			<CollectEmail cta={'Join Waitlist'} />
-		</div>
+		{#if !data?.session?.user}
+			<div class="join">
+				<CollectEmail cta={'Join Waitlist'} />
+			</div>
+		{/if}
 	</section>
-
-	<footer>
-		<Footer />
-	</footer>
 </body>
 
 <style>
@@ -163,6 +160,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
 	}
 	header h2 {
 		text-align: center;

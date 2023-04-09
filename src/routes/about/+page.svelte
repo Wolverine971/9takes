@@ -1,5 +1,9 @@
-<script>
+<script lang="ts">
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
+
+	import type { PageData } from '../$types';
+
+	export let data: PageData;
 </script>
 
 <svelte:head>
@@ -55,7 +59,7 @@
 			<p>
 				I am a tech guy. I was former military and my wife got me into the enneagram and I have been
 				obsessed since. I don't exactly know why there isn't a centralized platform for the
-				Enneagram and I don't know why there isn't a community like the 9takes. I have thoughts and
+				Enneagram and I don't know why there isn't a community like 9takes. I have thoughts and
 				opinions but would love to hear yours. Feel free to message me <a
 					target="_blank"
 					href="https://twitter.com/djwayne3">here</a
@@ -79,7 +83,9 @@
 	</div>
 </div>
 <div style="margin:2rem;">
-	<CollectEmail cta={'Join Waitlist'} />
+	{#if !data?.session?.user}
+		<CollectEmail cta={'Join Waitlist'} />
+	{/if}
 </div>
 
 <style lang="scss">

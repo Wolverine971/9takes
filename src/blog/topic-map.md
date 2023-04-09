@@ -39,3 +39,37 @@ blog: true
 - Books and websites for learning more about the Enneagram
 - Enneagram tests and assessments
 - Enneagram coaches and trainers
+
+
+
+Enneagram Types Overview
+The History and Origins of Enneagram
+Enneagram and Personal Growth
+Enneagram and Relationships
+The Enneagram and Communication
+Understanding the Enneagram Triads
+Enneagram and Emotional Intelligence
+Enneagram and Leadership
+Enneagram and Career Development
+Enneagram and Stress Management
+Enneagram and Self-Awareness
+Enneagram and Mindfulness
+Enneagram and Spirituality
+Enneagram and Parenting
+Enneagram and Mental Health
+Enneagram and Addiction Recovery
+Enneagram and Decision Making
+Enneagram and Creativity
+Enneagram and Cultural Differences
+Enneagram and Team Building
+Enneagram and Conflict Resolution
+Enneagram and Personal Branding
+Enneagram and Time Management
+Enneagram and Goal Setting
+Enneagram and Personal Values
+Enneagram and Body Language
+Enneagram and NLP (Neuro-linguistic Programming)
+Enneagram and Cognitive Bias
+Enneagram and Social Intelligence
+Enneagram and Life Purpose.
+

@@ -14,6 +14,8 @@
 	--color-theme-1: rgb(25, 25, 112);
 	--color-theme-2: rgb(247, 37, 133);
 	--color-theme-purple: #5407d9;
+	--color-theme-purple-v: #d2cfd7;
+
 	/* #5407d9; */
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
@@ -157,6 +159,35 @@ h1 {
 }
 
 @media (max-width: 576px) {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-weight: bold;
+		/* margin-top: 0; */
+	}
+
+	h1 {
+		font-size: 1.5rem;
+		line-height: 1;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+		line-height: 1;
+	}
+
+	h3 {
+		font-size: 1rem;
+		line-height: 1;
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 0.8rem;
+	}
 	/* body,
 	h1,
 	h2,

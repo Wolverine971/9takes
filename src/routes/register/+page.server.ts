@@ -1,6 +1,15 @@
 import { fail, redirect } from '@sveltejs/kit';
-import type { Actions } from '../sverdle/$types';
+import type { Actions, PageServerLoad } from '../sverdle/$types';
 import { AuthApiError } from '@supabase/supabase-js';
+import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+
+export const load: PageServerLoad = async (event) => {
+	const session = await getServerSession(event);
+	// redirect user if logged in
+	if (session?.user) {
+		throw redirect(302, '/');
+	}
+};
 
 export const actions: Actions = {
 	register: async ({ request, locals }) => {
