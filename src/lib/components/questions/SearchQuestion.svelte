@@ -9,7 +9,7 @@
 
 	let question: string = '';
 
-	const goToCreateQuestionPage = (val) => {
+	const goToCreateQuestionPage = (val: any) => {
 		if (data?.session?.user?.id) {
 			let url;
 			if (typeof val === 'string') {
@@ -24,21 +24,21 @@
 	};
 
 	let timer: any;
-	let options: any[] = [];
+	let options: { text: string; value: any }[] = [];
 
 	const search = async (searchString: string) => {
 		console.log(searchString);
 		let body = new FormData();
 		body.append('searchString', searchString);
-		const newOptions = await fetch('questions?/search', {
+		const newOptions = await fetch('questions?/typeahead', {
 			method: 'POST',
 			body
 		}).then(async (response) => {
 			const resp = deserialize(await response.text());
-			let newOptions = resp?.data;
-			if (newOptions?.length) {
-				options = newOptions.map((o) => {
-					return { text: o.question, value: o };
+			let elasticOptions = resp?.data;
+			if (elasticOptions?.length) {
+				options = elasticOptions.map((o: any) => {
+					return { text: o?._source?.question, value: o?._source };
 				});
 			} else {
 				options = [];

@@ -3,6 +3,7 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
+import { elasticClient } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
@@ -41,6 +42,31 @@ export const actions: Actions = {
 			// .limit(10);
 
 			return questions;
+		} catch (e) {
+			console.log(e);
+		}
+	},
+	typeahead: async ({ request, getClientAddress }) => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+			const questionString = body.searchString as string;
+			console.log(body);
+			const {
+				hits: { hits: elasticHits }
+			} = await elasticClient.search({
+				index: 'question',
+				body: {
+					query: {
+						match_phrase_prefix: {
+							['question']: {
+								query: questionString
+							}
+						}
+					}
+				}
+			});
+
+			return elasticHits;
 		} catch (e) {
 			console.log(e);
 		}

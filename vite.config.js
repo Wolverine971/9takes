@@ -9,7 +9,8 @@ const config = {
 		'import.meta.env.PUBLIC_GOOGLE': JSON.stringify(process.env.PUBLIC_GOOGLE),
 		'import.meta.env.PRIVATE_gmail_private_key': JSON.stringify(
 			process.env.PRIVATE_gmail_private_key
-		)
+		),
+		'import.meta.env.PRIVATE_ELASTIC_GENERAL': process.env.PRIVATE_ELASTIC_GENERAL
 	},
 	test: {
 		include: [

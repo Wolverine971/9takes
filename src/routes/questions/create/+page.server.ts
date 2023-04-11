@@ -11,6 +11,7 @@ export const load: PageServerLoad = async (event) => {
 import type { Actions } from './$types';
 import type { RequestHandler } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import { createQuestion } from '$lib/elasticSearch';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -22,7 +23,8 @@ export const actions: Actions = {
 		console.log(tempUrl);
 		return tempUrl;
 	},
-	createQuestion: async ({ request, locals }) => {
+	createQuestion: async (event) => {
+		const { request, locals } = event;
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;
@@ -40,7 +42,9 @@ export const actions: Actions = {
 		};
 
 		const resp = await supabase.from('questions').insert(questionData);
-		if (resp?.data) {
+		const success = await createQuestion(body);
+
+		if (resp?.data && success) {
 			return resp.data;
 		} else {
 			return null;

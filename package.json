@@ -62,6 +62,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@elastic/elasticsearch": "^8.6.0",
 		"@sveltejs/adapter-node": "^1.2.0",
 		"@vavite/node-loader": "^1.7.0",
 		"@vercel/analytics": "^0.1.11",

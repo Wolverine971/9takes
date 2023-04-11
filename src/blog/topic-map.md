@@ -73,3 +73,5 @@ Enneagram and Cognitive Bias
 Enneagram and Social Intelligence
 Enneagram and Life Purpose.
 
+
+We are looking for enneagram type 1, 2, 3, 5, 6, 7, 8, 9
