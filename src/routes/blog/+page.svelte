@@ -125,7 +125,7 @@
 				</li>
 				<li>
 					<a href="/blog/enneagram/team-diversity">
-						Building balanced and diverse teams using the Enneagram
+						Harnessing the Power of the Enneagram for Balanced and Diverse Teams
 					</a>
 				</li>
 			</ul>
@@ -179,7 +179,7 @@
 	</section>
 </main>
 
-<style>
+<style lang="scss">
 	body {
 		/* font-family: 'Motiva Sans', Sans-serif; */
 		/* font-family: Arial, sans-serif; */

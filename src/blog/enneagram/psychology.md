@@ -3,7 +3,7 @@ title: 'Psychology'
 description: ""
 author: 'DJ Wayne'
 date: '2023-03-26'
-published: true
+published: false
 type: ['overview']
 blog: true
 

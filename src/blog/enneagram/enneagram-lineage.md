@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Lineage'
+title: 'The Enneagram and its Philosophical Lineage: Plato and Freud Revisited'
 description: "Spiritual teachers, Freud and Plato"
 author: 'DJ Wayne'
 date: '2023-02-10'
@@ -37,14 +37,25 @@ Enneagram and Plato
 
 9 threads through the fabric of history -->
 
+## The Enneagram's Roots in Philosophy
 
-In most Enneagram circles when people talk about the origins of the Enneagram they talk about Oscar Ichazo and Claudio Naranjo. In those discussions the Enneagram gets linked to Buddhism, Taoism, the metaphysical and one can easily go down a mysticism rabbit hole. However what few people talk about or have not realized is that the enneagram's ideas have deeper historical links to early philosophy and psychology.
+While the Enneagram is a popular tool for understanding human behavior and growth, it is essential to understand its philosophical lineage to truly appreciate its depth. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll gain a deeper understanding of how our core emotions shape these intelligence centers.
 
-The Enneagram is a personality typing system that describes nine distinct types of individuals, each with their own unique characteristics and tendencies. At the core of the Enneagram are the ideas of the "head," "heart," and "instincts," which are believed to shape an individual's thoughts, feelings, and behaviors. These concepts align nicely with Sigmund Freud and his theory of the psyche, which includes the concepts of the id, ego, and superego.
+## Plato's Tripartite Soul and the Enneagram
 
-Freud's id represents the primitive and instinctual desires of an individual, which can be likened to the Enneagram's concept of instincts. The ego, on the other hand, is the rational and decision-making aspect of the psyche, which corresponds to the Enneagram's idea of the head. Finally, the superego represents the moral and ethical aspect of the psyche, which aligns with the Enneagram's concept of the heart.
+The Enneagram's intelligence centers align remarkably well with Plato's idea of the human soul. According to Plato, the soul consists of reason, spirit, and appetite. These three components correspond to the Enneagram's intellectual intelligence, emotional intelligence, and instinctual intelligence centers.
 
-However, the origins of these ideas can be traced even further back to the philosophy of Plato. In his works, Plato describes the human soul as being composed of three parts: reason, spirit, and appetite. The rational aspect of the soul, or reason, corresponds to the Enneagram's concept of the head, while the spirited aspect of the soul, or spirit, aligns with the Enneagram's idea of the heart. Finally, the appetitive aspect of the soul, or appetite, corresponds to the Enneagram's concept of instincts.
+**Reason (intellectual intelligence)**: Plato believed that the soul's rational aspect guides our thinking and decision-making. This aligns with the Enneagram's intellectual intelligence center, which focuses on understanding the world around us.
+**Spirit (emotional intelligence)**: For Plato, the spirited part of the soul drives our emotions and desires. This connects to the Enneagram's emotional intelligence center, responsible for managing our emotions and interpersonal relationships.
+**Appetite (instinctual intelligence)**: Plato's third component, appetite, governs our primal needs and drives. This mirrors the Enneagram's instinctual intelligence center, which concentrates on survival and self-preservation.
+
+## Freud's Model of the Psyche and the Enneagram
+
+Similarly, Freud's theory of the human psyche—comprising the id, ego, and superego—also parallels the Enneagram's intelligence centers.
+
+**Id (instinctual intelligence)**: The id represents our basic instincts and desires. It aligns with the Enneagram's instinctual intelligence center, governing our primal drives.
+**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intellectual intelligence center, focused on understanding our environment.
+**Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional intelligence center, responsible for managing our emotions and connections with others.
 
 | Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
 | --------- | -------- | -------------------------------- | ---------------------- |
@@ -52,55 +63,107 @@ However, the origins of these ideas can be traced even further back to the philo
 | ego       | reason   | intellectual/ head               | fear                   |
 | super ego | spirit   | emotional/ heart                 | shame                  |
 
-Both Freud and Plato discuss the interplay of the of these three eerily similar forces. For Plato these forces played upon the soul and for Freud these forces played upon the psyche. In enneagram circles these forces form our personality and archetypes have been discovered which people have learned from and have endlessly discussed.
+## Core Emotions: Fear, Shame, and Anger
 
-In conclusion, the Enneagram's ideas of the head, heart, and instincts can be traced back to the work of Sigmund Freud and his theory of the psyche, and even further back to the philosophy of Plato and his concept of the human soul. Each of these theories emphasizes the importance of understanding the different aspects of the human psyche and how they shape our thoughts, feelings, and behaviors.
+Now that we've established the connections between the Enneagram, Plato, and Freud, let's delve into the core emotions behind the development of these intelligence centers: fear, shame, and anger.
+
+## Fear and Intellectual Intelligence
+
+Fear is the driving force behind intellectual intelligence. As humans, we're wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual models of the world, considering hypothetical scenarios and potential outcomes. Over time, this process leads to the development of a sophisticated understanding of the world around us.
+
+Example: Imagine a person who fears losing their job. To prevent this from happening, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure their job security.
+
+## Shame and Emotional Intelligence
+
+Shame is the core emotion behind emotional intelligence. Our desire to be accepted and valued by others drives us to manage and navigate our emotions effectively. We learn to express our feelings in ways that foster connection and empathy, while also understanding and responding to the emotions of others.
+
+Example: A child who experiences shame for not fitting in with their peers might learn to develop emotional intelligence to better understand and relate to others, ultimately finding a sense of belonging and acceptance.
+
+## Anger and Instinctual Intelligence
+
+Anger is the key emotion fueling the development of instinctual intelligence. Our innate need to protect ourselves and our resources can give rise to anger, which then propels us to take action. As we learn to channel and control our anger, we develop the capacity to respond effectively to threats and challenges, ultimately honing our instinctual intelligence.
+
+Example: Consider someone who experiences anger when they feel their personal boundaries have been violated. Over time, they learn to assert their boundaries and protect their well-being, developing a keen sense of instinctual intelligence in the process.
+
+## The Interplay of Emotions and Intelligence Centers
+
+Understanding the connections between the Enneagram, Plato, and Freud, as well as the core emotions driving the development of these intelligence centers, helps us appreciate the Enneagram's depth and complexity. By recognizing how fear, shame, and anger shape our intellectual, emotional, and instinctual intelligence, we can better understand our own motivations and growth paths.
+
+In essence, the Enneagram offers a framework for personal development that is deeply rooted in the rich philosophical traditions of Plato and Freud. By exploring these connections, we can better appreciate the Enneagram as not only a tool for self-understanding but also as a means to foster personal growth and transformation.
 
 
+
+
+ ### What are the ideas behind the enneagram?
+ The Enneagram explores personality, motivations & growth. This article links its intelligence centers to Plato's soul & Freud's psyche concepts, examining how core emotions drive development.
 
    <div>
    <script type="application/ld+json">
+
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Enneagram Lineage: In the past they explored the Head, Heart, and Instincts",
-  "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
-  "datePublished": "2023-02-19",
-  "dateModified": "2023-02-19",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-lineage"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/freud-plato.webp",
-    "width": 1200,
-    "height": 630
-  },
-  "articleSection": "Psychology",
-  "keywords": "Enneagram, personality types, Sigmund Freud, Plato, psychology",
-  "text": "The Enneagram is a personality typing system that describes nine distinct types of individuals, each with their own unique characteristics and tendencies...",
-  "citation": [
+  "http://schema.org/citation": [
     {
-      "@type": "WebPage",
-      "name": "Sigmund Freud",
-      "url": "https://www.britannica.com/biography/Sigmund-Freud"
+      "@type": "http://schema.org/WebPage",
+      "http://schema.org/name": "Sigmund Freud",
+      "http://schema.org/url": {
+        "@id": "https://www.britannica.com/biography/Sigmund-Freud"
+      }
     },
     {
-      "@type": "WebPage",
-      "name": "Plato",
-      "url": "https://plato.stanford.edu/entries/plato/"
+      "@type": "http://schema.org/WebPage",
+      "http://schema.org/name": "Plato",
+      "http://schema.org/url": {
+        "@id": "https://plato.stanford.edu/entries/plato/"
+      }
     }
-  ]
+  ],
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-04-11"
+  },
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-02-19"
+  },
+  "http://schema.org/description": "Explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul, and gain a deeper understanding of how core emotions shape these intelligence centers.",
+  "http://schema.org/headline": "The Enneagram and its Philosophical Lineage: Plato and Freud Revisited",
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 1200,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/freud-plato.webp"
+    },
+    "http://schema.org/width": 630
+  },
+  "http://schema.org/keywords": [
+    "Enneagram",
+    "Plato",
+    "Freud",
+    "intelligence centers",
+    "philosophy",
+    "core emotions",
+    "fear",
+    "shame",
+    "anger",
+    "personal development",
+    "human psyche",
+    "human soul"
+  ],
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-philosophical-lineage",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/name": "9takes"
+  }
 }
+
 </script>
 </div>
 
