@@ -91,14 +91,8 @@ Understanding the connections between the Enneagram, Plato, and Freud, as well a
 
 In essence, the Enneagram offers a framework for personal development that is deeply rooted in the rich philosophical traditions of Plato and Freud. By exploring these connections, we can better appreciate the Enneagram as not only a tool for self-understanding but also as a means to foster personal growth and transformation.
 
-
-
-
- ### What are the ideas behind the enneagram?
- The Enneagram explores personality, motivations & growth. This article links its intelligence centers to Plato's soul & Freud's psyche concepts, examining how core emotions drive development.
-
-   <div>
-   <script type="application/ld+json">
+<div>
+<script type="application/ld+json">
 
 {
   "@type": "http://schema.org/BlogPosting",

@@ -76,7 +76,6 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
 	flex-wrap: wrap;
 	overflow: hidden;
 
-	
 }
 a::after {
 		content: '';

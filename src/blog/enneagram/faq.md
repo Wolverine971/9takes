@@ -110,7 +110,7 @@ blog: true
 
 <details>
 <summary class="accordion">What are the ideas behind the Enneagram?</summary>
-  <p class="panel">At a high level the Enneagram delves into personality, motivations, and personal growth. As you get deeper into it you explore the 
+  <p class="panel">At a high level the Enneagram delves into personality, motivations, and personal growth. As you get deeper into it you explore the
   9 types, the centers of intelligence, connecting lines, instincts, and wings (<a href="/blog/enneagram/enneagram-concepts">see here</a>).</p>
 </details>
 
@@ -142,24 +142,22 @@ blog: true
 
 <script>
   // if(process.browser){
-  //   var acc = document.getElementsByClassName("accordion"); 
-  //   var i; 
+  //   var acc = document.getElementsByClassName("accordion");
+  //   var i;
 
   //   for (i = 0; i < acc.length; i++) {
   //     acc[i].addEventListener("click", function () {
-  //       this.classList.toggle("active"); 
-  //       var panel = this.nextElementSibling; 
+  //       this.classList.toggle("active");
+  //       var panel = this.nextElementSibling;
   //       if (panel.style.display === "block") {
-  //         panel.style.display = "none"; 
+  //         panel.style.display = "none";
   //       } else {
-  //         panel.style.display = "block"; 
+  //         panel.style.display = "block";
   //       }
-  //     }); 
+  //     });
   //   }
   // }
 </script>
-
-
 
 <div>
    <script type="application/ld+json">
@@ -291,20 +289,8 @@ blog: true
 		]
 	}
 
-
-
-
 </script>
 </div>
-
-
-
-
-
-
-
-
-
 
 <style>
   .accordion {

@@ -9,7 +9,7 @@ blog: true
 ---
 
 
-###  Essential Enneagram Books
+### Essential Enneagram Books
 
 If you're looking to dive deeper into the world of the Enneagram, these books offer comprehensive insights and practical advice for personal growth and understanding:
 
@@ -17,7 +17,6 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 - <a target="_blank" href="https://www.amazon.com/Complete-Enneagram-Paths-Greater-Self-Knowledge/dp/1938314549?&_encoding=UTF8&tag=9takes-20&linkCode=ur2&linkId=14b89b56ec26970537a8c971cb5f322a&camp=1789&creative=9325">The Complete Enneagram: 27 Paths to Greater Self-Knowledge</a> by Beatrice Chestnut: In this book, Chestnut goes beyond the basic nine types, exploring the subtypes and providing actionable guidance for personal transformation.
 - <a target="_blank" href="https://www.amazon.com/dp/0830846190/?&_encoding=UTF8&tag=9takes-20&linkCode=ur2&linkId=f9c58f90c06226f75c4a94ba62072418&camp=1789&creative=9325">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
 - <a target="_blank" href="https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694?&_encoding=UTF8&tag=9takes-20&linkCode=ur2&linkId=467feaa38007324c5a5ef5a24abd20b9&camp=1789&creative=9325">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
-
 
 ### Informative Websites for Enneagram Enthusiasts
 
@@ -36,12 +35,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 - <a target="_blank" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
 - <a target="_blank" href="https://podcasts.apple.com/ca/podcast/enneagram-for-idiots/id1338051017">Enneagram for Idiots by Tara and Marissa</a>. Its a banter podcast and it is hilarious.
 
-
-
-
-
    <div>
    <script type="application/ld+json">
+
 {
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/about": {
