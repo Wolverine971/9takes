@@ -22,19 +22,19 @@
 			body.append('parent_id', data.id);
 			body.append('author_id', data.session.user.id);
 			body.append('parent_type', parentType);
+			body.append('es_id', data.question.es_id);
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
 			body.append('author_id', data.session.user.id);
 			body.append('parent_type', parentType);
+			body.append('es_id', data.question.es_id);
 		}
 
 		const resp = await fetch('?/createComment', {
 			method: 'POST',
 			body
 		}).then(async (response) => {
-			const data = deserialize(await response.text());
-
 			notifications.info('Comment Added', 3000);
 		});
 		comment = '';

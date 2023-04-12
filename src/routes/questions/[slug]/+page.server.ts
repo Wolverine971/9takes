@@ -3,6 +3,7 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
+import { addComment } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
@@ -82,6 +83,7 @@ export const actions: Actions = {
 			const parent_id = body.parent_id as string;
 			const author_id = body.author_id as string;
 			const parent_type = body.parent_type as string;
+			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
 			const commentData = {
 				comment: comment,
@@ -92,39 +94,46 @@ export const actions: Actions = {
 				parent_type: parent_type
 			};
 			// console.log(commentData);
+			const resp: any = await addComment({
+				index: parent_type,
+				parentId: es_id,
+				enneaType: '',
+				authorId: author_id,
+				comment
+			});
+			if (resp._id) {
+				const cData = {
+					comment: comment,
+					parent_id: parentId,
+					author_id: author_id,
+					comment_count: 0,
+					ip: getClientAddress(),
+					parent_type: parent_type,
+					es_id: resp._id
+				};
 
-			const { data, error: addCommentError } = await supabase.from('comments').insert(commentData);
-			let newIncrement;
-			if (parent_type === 'comment') {
-				// const { data, error:  } = await supabase
-				// 	.from('comments')
-				// 	.update({ comment_count: 'otherValue' })
-				// 	.eq('parent_id', parent_id);
+				const { data, error: addCommentError } = await supabase.from('comments').insert(cData);
+				if (!addCommentError) {
+					if (parent_type === 'comment') {
+						const { data: incremented, error: incrementError } = await supabase.rpc(
+							'increment_comment_count',
+							{
+								comment_parent_id: parentId
+							}
+						);
 
-				const { data: incremented, error: incrementError } = await supabase.rpc(
-					'increment_comment_count',
-					{
-						comment_parent_id: parentId
+						if (!incrementError) {
+							return { success: 'true' };
+						}
+					} else {
+						return { success: 'true' };
 					}
-				);
-				console.log(incremented);
-				newIncrement = incremented;
-
-				if (incrementError) {
-					console.log(incrementError);
 				}
 			}
-			console.log('supabase resp ');
-			// console.log(resp);
 
-			if (!addCommentError) {
-				// return json({ commentResp: resp.data, incremented: newIncrement });
-				return { success: true };
-			} else {
-				throw error(404, {
-					message: `Add comment error`
-				});
-			}
+			throw error(404, {
+				message: `Add comment error`
+			});
 		} catch (e) {
 			throw error(400, {
 				message: `error creating comment ${JSON.stringify(e)}`

@@ -31,7 +31,7 @@ export const actions: Actions = {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
-			console.log(body);
+
 			let { data: questions, error: findQuestionsError } = await supabase
 				.from('questions')
 				.select('*')
@@ -39,7 +39,6 @@ export const actions: Actions = {
 					type: 'websearch',
 					config: 'english'
 				});
-			// .limit(10);
 
 			return questions;
 		} catch (e) {
@@ -50,7 +49,7 @@ export const actions: Actions = {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
-			console.log(body);
+
 			const {
 				hits: { hits: elasticHits }
 			} = await elasticClient.search({
@@ -69,6 +68,7 @@ export const actions: Actions = {
 			return elasticHits;
 		} catch (e) {
 			console.log(e);
+			return [];
 		}
 	}
 };

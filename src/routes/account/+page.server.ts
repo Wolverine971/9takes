@@ -31,11 +31,6 @@ export const actions: Actions = {
 			const last_name = body.lastName as string;
 
 			const email = body.email as string;
-			const userData = {
-				first_name,
-				last_name
-			};
-			// console.log(commentData);
 
 			const {
 				data,

@@ -35,7 +35,7 @@ export const createQuestion = async (body: any) => {
 		});
 
 		if (resp) {
-			return { success: true };
+			return resp;
 		} else {
 			return { success: false };
 		}
@@ -92,26 +92,26 @@ export const addSubscription = async ({
 
 export const addComment = async ({
 	index,
-	id,
+	parentId,
 	enneaType,
-	authorId
+	authorId,
+	comment
 }: {
 	index: string;
-	id: string;
+	parentId: string;
 	enneaType: string;
 	authorId: string;
+	comment: string;
 }) => {
 	try {
 		const date = new Date();
-
 		return elasticClient
 			.index({
 				index: 'comment',
-				type: '_doc',
 				body: {
-					parentId: id,
+					parentId: parentId,
 					authorId: authorId,
-					comment: req.body.comment,
+					comment: comment,
 					comments: 0,
 					likes: 0,
 					createdDate: date
@@ -121,7 +121,7 @@ export const addComment = async ({
 				if (index === 'question') {
 					await elasticClient.update({
 						index: 'question',
-						id: id,
+						id: parentId,
 						body: {
 							script: {
 								source: 'ctx._source.comments++'
@@ -131,7 +131,7 @@ export const addComment = async ({
 				} else if (index === 'comment') {
 					await elasticClient.update({
 						index: 'comment',
-						id: id,
+						id: parentId,
 						body: {
 							script: {
 								source: 'ctx._source.comments++'
@@ -141,7 +141,7 @@ export const addComment = async ({
 				} else if (index === 'relationship') {
 					await elasticClient.update({
 						index: 'relationship',
-						id: id,
+						id: parentId,
 						body: {
 							script: {
 								source: 'ctx._source.comments++'
@@ -151,7 +151,7 @@ export const addComment = async ({
 				} else if (index === 'blog') {
 					await elasticClient.update({
 						index: 'blog',
-						id: id,
+						id: parentId,
 						body: {
 							script: {
 								source: 'ctx._source.comments++'
@@ -161,7 +161,7 @@ export const addComment = async ({
 				} else {
 					await elasticClient.update({
 						index: enneaType,
-						id: id,
+						id: parentId,
 						body: {
 							script: {
 								source: 'ctx._source.comments++'
@@ -169,6 +169,7 @@ export const addComment = async ({
 						}
 					});
 				}
+				return resp;
 			});
 	} catch (e) {
 		console.log(e);

@@ -3,7 +3,7 @@
 	import { goto } from '$app/navigation';
 	import ComboBox from '../molecules/ComboBox.svelte';
 	import Context from '../molecules/Context.svelte';
-	// import { notifications } from '../molecules/notifications';
+	import { notifications } from '../molecules/notifications';
 
 	export let data: any;
 
@@ -11,15 +11,17 @@
 
 	const goToCreateQuestionPage = (val: any) => {
 		if (data?.session?.user?.id) {
-			let url;
+			let url: string;
 			if (typeof val === 'string') {
 				url = `/questions/create/?question=${val}`;
 			} else {
 				url = `/questions/create/`;
 			}
-			goto(url, {});
+			setTimeout(() => {
+				goto(url, { invalidateAll: true });
+			}, 0);
 		} else {
-			alert('must be logged in');
+			notifications.warning('Must be logged in', 3000);
 		}
 	};
 
@@ -27,14 +29,13 @@
 	let options: { text: string; value: any }[] = [];
 
 	const search = async (searchString: string) => {
-		console.log(searchString);
 		let body = new FormData();
 		body.append('searchString', searchString);
-		const newOptions = await fetch('questions?/typeahead', {
+		await fetch('questions?/typeahead', {
 			method: 'POST',
 			body
 		}).then(async (response) => {
-			const resp = deserialize(await response.text());
+			const resp: any = deserialize(await response.text());
 			let elasticOptions = resp?.data;
 			if (elasticOptions?.length) {
 				options = elasticOptions.map((o: any) => {
@@ -45,10 +46,9 @@
 			}
 			return options;
 		});
-		console.log(newOptions);
 	};
 
-	const debounce = (v) => {
+	const debounce = (v: any) => {
 		clearTimeout(timer);
 		timer = setTimeout(() => {
 			search(v);
@@ -88,7 +88,6 @@
 	</button>
 </form>
 
-<!-- </section> -->
 <style lang="scss">
 	.question-form {
 		display: flex;

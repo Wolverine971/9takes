@@ -12,8 +12,6 @@
 	}
 
 	export let data: QuestionsData;
-	//get all questions
-
 	let questions: any[] = data?.questions;
 	const loadQuestions = async () => {
 		const { data: moreQuestions, error } = await supabase

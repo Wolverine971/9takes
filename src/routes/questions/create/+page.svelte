@@ -3,8 +3,10 @@
 	import type { PageData } from '../$types';
 
 	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
-	let question: string = $page.url.searchParams.get('question') || '';
+	let question: string = '';
 
 	export let data: PageData;
 
@@ -18,20 +20,25 @@
 		visible = false;
 	}
 
+	onMount(() => {
+		question = $page.url.searchParams.get('question') || '';
+	});
+
 	export async function createQuestion() {
 		try {
 			var body = new FormData();
-			body.append('question', question);
+			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 			body.append('author_id', data?.session?.user.id || '');
 			body.append('context', '');
 			body.append('url', url);
 			body.append('img_url', '');
-			const resp = await fetch('?/createQuestion', {
+			await fetch('?/createQuestion', {
 				method: 'POST',
 				body
-			}).then((response) => response.json());
+			});
 
 			getModal().close();
+			goto(`/questions/${url}`, {});
 		} catch (error) {
 			console.error(error);
 		}
@@ -39,14 +46,14 @@
 
 	export async function getUrl() {
 		var body = new FormData();
-		body.append('question', question);
-		const resp = await fetch('?/getUrl', {
+		body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
+
+		await fetch('?/getUrl', {
 			method: 'POST',
 			body
 		})
 			.then((response) => response.json())
 			.then((data) => {
-				console.log('Success:', data);
 				url = JSON.parse(data?.data)?.[0];
 
 				getModal().open();

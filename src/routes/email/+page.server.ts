@@ -33,7 +33,6 @@ export const actions: Actions = {
 		const { error: insertError } = await supabase.from('signups').insert([{ email: body.email }]);
 
 		if (!insertError) {
-			console.log('woot');
 			try {
 				const sent: any = await sendEmail({
 					to: body.email.toString(),
@@ -53,7 +52,6 @@ export const actions: Actions = {
 				});
 			}
 		} else {
-			console.log(insertError);
 			throw error(404, {
 				message: `Failed to insert email, ${JSON.stringify(insertError)}`
 			});

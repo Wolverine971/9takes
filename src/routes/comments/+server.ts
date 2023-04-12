@@ -1,7 +1,7 @@
 import { supabase } from '$lib/supabase';
 import type { Database } from 'src/schema';
 
-import { json } from '@sveltejs/kit';
+import { error, json } from '@sveltejs/kit';
 import type { PostgrestResponse } from '@supabase/supabase-js';
 // import type { Comments } from '$lib/components';
 // /** @type {import('./$types').RequestHandler} */
@@ -70,7 +70,8 @@ export async function GET({
 	if (!questionError && questionComments?.length) {
 		return json(questionComments);
 	} else {
-		console.log(questionError);
-		return json([]);
+		throw error(400, {
+			message: `Failed to get question, ${JSON.stringify(questionError)}`
+		});
 	}
 }

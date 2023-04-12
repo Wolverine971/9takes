@@ -9,7 +9,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 import type { Actions } from './$types';
-import type { RequestHandler } from '@sveltejs/kit';
+// import type { RequestHandler } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { createQuestion } from '$lib/elasticSearch';
 
@@ -33,22 +33,31 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
-		const questionData = {
-			question: question,
-			author_id: author_id,
-			context: context,
-			url: url,
-			img_url: img_url
-		};
+		// const questionData = {
+		// 	question: question,
+		// 	author_id: author_id,
+		// 	context: context,
+		// 	url: url,
+		// 	img_url: img_url
+		// };
 
-		const resp = await supabase.from('questions').insert(questionData);
-		const success = await createQuestion(body);
+		const resp: any = await createQuestion(body);
+		if (resp._id) {
+			const qData = {
+				es_id: resp._id,
+				question: question,
+				author_id: author_id,
+				context: context,
+				url: url,
+				img_url: img_url
+			};
+			const success = await supabase.from('questions').insert(qData);
 
-		if (resp?.data && success) {
-			return resp.data;
-		} else {
-			return null;
+			if (resp?.data && success) {
+				return resp.data;
+			}
 		}
+		return null;
 	}
 };
 
