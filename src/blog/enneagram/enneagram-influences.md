@@ -1,14 +1,12 @@
 ---
 title: 'Enneagram Influences'
-description: "Differing traditions and schools of thought that wrestle with and influence the enneagram"
+description: 'Differing traditions and schools of thought that wrestle with and influence the enneagram'
 author: 'DJ Wayne'
 date: '2023-03-02'
 published: true
 type: ['overview']
 blog: true
-
 ---
-
 
 ## Origins of the Enneagram
 

@@ -1,4 +1,5 @@
 # CTA
+
 "Unlock the Power of Your Personality – Join the Waitlist Today!"
 "Discover Your Enneagram Tribe – Get Early Access to 9takes!"
 "Be Part of the Social Experiment That's Changing the Way We Connect – Sign Up Now!"
@@ -9,10 +10,8 @@
 "Join the Movement Shaping the Future of Societal Discourse – Secure Your Spot on the 9takes Waitlist!"
 "Explore the World Through the Lens of Your Enneagram Type – Get on the 9takes Waitlist Today!"
 
-
-
-
 # Marketing emails
+
 Dear [Customer],
 
 I hope this email finds you well! I wanted to reach out to you today to discuss something important: your buyer's journey. We understand that every customer is unique and that their needs and wants vary based on their relationship with our brand. That's why we're committed to providing personalized messaging and touchpoints for each stage of the customer lifecycle.
@@ -126,25 +125,3 @@ To join, simply click the link below and create an account using the same email 
 
 Best,
 [Your Name]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

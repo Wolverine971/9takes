@@ -1,8 +1,9 @@
 # 9takes Svelte Rewrite
 
-
 ## Why the name 9takes
+
 9takes eludes to the enneagram and how there are 9 types. What follows from that is that there are 9 different ways to view the world or 9 takes on life. Though there are potentially infinite ways to view the world there seem to be 9 core archetypes that nicely group people together and brings together both philosophy and psychology.
+
 ## Reasons for rewrite
 
 - Need Authentication --> Svelte Auth
@@ -35,15 +36,17 @@ Rate limit API when questions go live
 Design
 
 ### Card Inspo, Thank you @Hyperplexed
+
 <https://www.youtube.com/watch?v=jMVhxBB3l0w>
 
-
 ## site map
+
 npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-map "1.0"
 
+## checkout pwa
 
-## checkout pwa 
 https://dev.to/askrodney/sveltekit-pwa-installable-app-with-offline-access-5a8n
 
 ## Stripe
+
 https://github.com/srmullen/sveltekit-stripe/blob/main/src/routes/index.svelte

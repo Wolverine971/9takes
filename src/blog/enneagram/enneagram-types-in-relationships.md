@@ -1,13 +1,12 @@
 ---
 title: 'Understanding Enneagram types in relationships'
-description: "What each type is like in a relationship"
+description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
 published: true
 type: ['overview']
 blog: true
 ---
-
 
 It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.
 
@@ -22,7 +21,6 @@ It's hard to quantify how anyone approaches a relationship, but the enneagram is
 7. The Enthusiast - Optimistic, spontaneous, and scattered
 8. The Challenger - Powerful, assertive, and confrontational
 9. The Peacemaker - Easygoing, agreeable, and conflict-avoidant
-
 
 ## Mid-tier with a little more depth
 
@@ -62,9 +60,8 @@ Type 9 - More on the Peacemaker
 
 Peacemakers are often conflict-avoidant and may struggle with asserting their needs. In relationships, they may struggle with setting boundaries and may prioritize harmony over authenticity.
 
-
-
 ## Enneagram relationships on a deeper level
+
 ### Type 1 - The Reformer
 
 Enneagram type 1 individuals are often known as "The Perfectionist" or "The Reformer." In a relationship, they bring a strong sense of responsibility and integrity, and they strive to do things in the "right" way. They are typically driven by a sense of purpose and have high standards for themselves and others.
@@ -74,7 +71,6 @@ In a romantic relationship, type 1s may struggle with accepting their partner's 
 Type 1s value honesty, communication, and respect in relationships. They appreciate partners who are dependable, responsible, and who share their desire for growth and self-improvement. They may struggle with vulnerability and expressing their emotions, but they have a deep sense of loyalty and dedication to their loved ones.
 
 It's important for partners of type 1s to understand and appreciate their strong sense of morality and desire for order and structure. They may also need reassurance that they are appreciated for who they are, even if they don't always meet their own high standards. With patience and understanding, type 1s can form strong, committed, and fulfilling relationships. [More on type 1](/blog/enneagram/1)
-
 
 ### Type 2 - The Helper
 
@@ -105,8 +101,6 @@ When in a romantic relationship, Type 4s tend to be very emotionally expressive 
 One potential challenge for Type 4s in relationships is their tendency towards emotional intensity and mood swings. They may become overwhelmed by their own emotions or those of their partner, leading to conflict or difficulty managing their feelings. Additionally, they may struggle with feelings of jealousy or envy towards their partner, particularly if they perceive their partner as having qualities or experiences they themselves lack.
 
 In order to have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be very self-critical and hard on themselves. Finally, cultivating a sense of gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/4)
-
-
 
 ### Type 5 - The Investigator
 
@@ -152,8 +146,6 @@ In order for a relationship with a type 8 to thrive, their partner must be willi
 
 Type 8s may struggle with vulnerability and may need to work on expressing their emotions and allowing themselves to be vulnerable with their partner. They may also need to work on recognizing and respecting their partner's emotions and perspective, rather than dismissing them in favor of their own. With effort and communication, a relationship with a type 8 can be deeply fulfilling and loving. [More on type 8](/blog/enneagram/8)
 
-
-
 ### Type 9 - The Peacemaker
 
 Enneagram Type 9, also known as the "Peacemaker," is a gentle and easygoing personality type that values harmony and peaceful interactions. Nines are known for their empathetic and compassionate nature and their ability to see things from multiple perspectives.
@@ -163,7 +155,6 @@ In a relationship, Nines tend to prioritize the needs and feelings of their part
 Nines are also known for their ability to remain calm and composed even in the midst of conflict. They avoid confrontation and tend to retreat or withdraw from situations that feel too emotionally charged. While this can be a positive trait in some situations, it can also lead to problems in a relationship if the Nine avoids discussing important issues or expressing their true feelings.
 
 One potential challenge for Nines in relationships is their tendency to prioritize harmony over their own needs. This can lead to a lack of assertiveness and difficulty setting boundaries, which can be problematic if their partner takes advantage of their accommodating nature. Nines may also struggle with making decisions, as they often see multiple sides to every situation and may be hesitant to take a definitive stance. [More on type 9](/blog/enneagram/9)
-
 
 ## Enneagram Relationship Conclusion
 

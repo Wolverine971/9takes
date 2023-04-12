@@ -1,6 +1,6 @@
 ---
 title: 'Nancy Pelosi as an Enneagram Type 3'
-description: "Why Nancy Pelosi appears to be a type 3"
+description: 'Why Nancy Pelosi appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
 published: true

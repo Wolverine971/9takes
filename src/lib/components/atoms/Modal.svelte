@@ -46,7 +46,6 @@
 </Portal>
 
 <style lang="scss">
-
 	:root {
 		--fore-color: #2e3440;
 		--secondary-fore-color: #3b4252;

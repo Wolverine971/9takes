@@ -78,7 +78,6 @@
 </div>
 
 <style lang="scss">
-
 	#topModal {
 		visibility: hidden;
 		z-index: 9999;

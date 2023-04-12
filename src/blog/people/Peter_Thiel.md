@@ -1,6 +1,6 @@
 ---
 title: 'Peter Thiel as an Enneagram Type 6'
-description: "Why Peter Thiel appears to be a type 6"
+description: 'Why Peter Thiel appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-11'
 published: false
@@ -10,7 +10,7 @@ type: ['techie']
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
-</script> 
+</script>
 <div
 	style="display: flex;
     justify-content: center;

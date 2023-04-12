@@ -1,15 +1,15 @@
 ---
 title: 'How the Enneagram can be used for team building and leadership development'
-description: "A tool for team building and leadership development, helping to improve communication, collaboration, and productivity"
+description: 'A tool for team building and leadership development, helping to improve communication, collaboration, and productivity'
 author: 'DJ Wayne'
 date: '2023-03-27'
 published: true
 type: ['overview']
 blog: true
-
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
 </svelte:head>
 <script>
@@ -29,7 +29,6 @@ blog: true
 	/>
 </div>
 
-
 As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development.
 
 The Enneagram is a personality typology system that helps individuals understand their own and others' behavior and motivations. It consists of nine distinct personality types, each with its own strengths, weaknesses, and tendencies. By understanding the Enneagram types of their employees, organizations can create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.
@@ -44,7 +43,7 @@ The Enneagram can also increase self-awareness, helping individuals understand t
 
 ## More Effective Problem-Solving and Decision-Making
 
-The Enneagram can help individuals and teams make better decisions by identifying their strengths and weaknesses. For example, an Enneagram Type 8 may be more decisive and action-oriented, while an Enneagram Type 4 may be more creative and innovative. By understanding these differences, teams can leverage each other's strengths and work together more effectively. 
+The Enneagram can help individuals and teams make better decisions by identifying their strengths and weaknesses. For example, an Enneagram Type 8 may be more decisive and action-oriented, while an Enneagram Type 4 may be more creative and innovative. By understanding these differences, teams can leverage each other's strengths and work together more effectively.
 
 ## Greater Empathy and Compassion for Others
 
@@ -100,50 +99,50 @@ Ideal Work Environment: A harmonious and peaceful environment that values balanc
 
 In conclusion, the Enneagram is a powerful tool for team building and leadership development. By understanding each team member's personality type, organizations can start to bring out everyone's gifts. By leveraging each other's strengths and understanding each other's weaknesses, teams can work together more effectively, leading to higher morale, greater job satisfaction, and ultimately, increased productivity and efficiency.
 
-
 <div>
 <script type="application/ld+json">
 
 {
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
-  "http://schema.org/articleSection": "Team Building",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ"
-  },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-03-01T00:00:00-07:00"
-  },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-03-17T00:00:00-07:00"
-  },
-  "http://schema.org/description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
-  "http://schema.org/headline": "Using the Enneagram for Team Building and Leadership Development",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": "630",
-    "http://schema.org/url": {
-      "@id": "https://9takes.com/blogs/working-in-teams.webp"
-    },
-    "http://schema.org/width": "1200"
-  },
-  "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/workplace-team-building",
-    "@type": "http://schema.org/WebPage"
-  },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/url": {
-        "@id": "https://9takes.com/enneagram.svg"
-      }
-    },
-    "http://schema.org/name": "9Takes"
-  }
+"@type": "http://schema.org/BlogPosting",
+"http://schema.org/articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
+"http://schema.org/articleSection": "Team Building",
+"http://schema.org/author": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "DJ"
+},
+"http://schema.org/dateModified": {
+"@type": "http://schema.org/Date",
+"@value": "2023-03-01T00:00:00-07:00"
+},
+"http://schema.org/datePublished": {
+"@type": "http://schema.org/Date",
+"@value": "2023-03-17T00:00:00-07:00"
+},
+"http://schema.org/description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
+"http://schema.org/headline": "Using the Enneagram for Team Building and Leadership Development",
+"http://schema.org/image": {
+"@type": "http://schema.org/ImageObject",
+"http://schema.org/height": "630",
+"http://schema.org/url": {
+"@id": "https://9takes.com/blogs/working-in-teams.webp"
+},
+"http://schema.org/width": "1200"
+},
+"http://schema.org/mainEntityOfPage": {
+"@id": "https://9takes.com/blog/enneagram/workplace-team-building",
+"@type": "http://schema.org/WebPage"
+},
+"http://schema.org/publisher": {
+"@type": "http://schema.org/Organization",
+"http://schema.org/logo": {
+"@type": "http://schema.org/ImageObject",
+"http://schema.org/url": {
+"@id": "https://9takes.com/enneagram.svg"
+}
+},
+"http://schema.org/name": "9Takes"
+}
 }
 </script>
+
 </div>

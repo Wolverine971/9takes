@@ -1,22 +1,20 @@
 ---
 title: '9takes first principles'
-description: "What first principles or ground truths is 9takes built on"
+description: 'What first principles or ground truths is 9takes built on'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: false
 type: ['overview']
 blog: true
-
 ---
 
-First principles are the ground truths or fundamental truths or basic truths. There are a slew of them but there are also truths that we extrapolate from based on other truths. We mix and match these all the time as we go about living our lives and reasoning about the world, however What is something basic that we can build off of. For 9takes we think a ground truth or base principle is that there are 3 core negative emotions. The bet is that out of these negative emotions form personalities. 
+First principles are the ground truths or fundamental truths or basic truths. There are a slew of them but there are also truths that we extrapolate from based on other truths. We mix and match these all the time as we go about living our lives and reasoning about the world, however What is something basic that we can build off of. For 9takes we think a ground truth or base principle is that there are 3 core negative emotions. The bet is that out of these negative emotions form personalities.
 
 First principles play:
 
-First principles are the ground truths. What is something basic that we can build off of. For 9takes we think a ground truth or base principle is that there are 3 core negative emotions. The bet is that out of these negative emotions form personalities. 
+First principles are the ground truths. What is something basic that we can build off of. For 9takes we think a ground truth or base principle is that there are 3 core negative emotions. The bet is that out of these negative emotions form personalities.
 
-
-Emotions 
+Emotions
 
 Reciprocity
 

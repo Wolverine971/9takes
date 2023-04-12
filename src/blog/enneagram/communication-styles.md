@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Communication Styles'
-description: "How would you describe your own communication style and which communication styles feel most familiar and foreign"
+description: 'How would you describe your own communication style and which communication styles feel most familiar and foreign'
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
@@ -8,8 +8,8 @@ type: ['overview']
 blog: true
 ---
 
-
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
 </svelte:head>
 <script>

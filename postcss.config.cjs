@@ -1,13 +1,13 @@
-const autoprefixer = require("autoprefixer")
+const autoprefixer = require('autoprefixer');
 
 const config = {
 	plugins: [
-		require("postcss-simple-vars"),
+		require('postcss-simple-vars'),
 		autoprefixer,
-		require("postcss-preset-env")({
-			stage: 1,
-		}),
-	],
-}
+		require('postcss-preset-env')({
+			stage: 1
+		})
+	]
+};
 
-module.exports = config
+module.exports = config;

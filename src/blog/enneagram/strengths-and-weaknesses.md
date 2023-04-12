@@ -1,14 +1,12 @@
 ---
 title: 'Understanding your strengths and weaknesses as an Enneagram type'
-description: ""
+description: ''
 author: 'DJ Wayne'
 date: '2023-04-01'
 published: true
 type: ['overview']
 blog: true
-
 ---
-
 
 As human beings, we all have different strengths and weaknesses. Identifying them is key to personal growth, building relationships, and achieving success. The Enneagram is a powerful tool that helps us understand our personality, core emotions, fears, desires, and ultimately our strengths and weaknesses. In this article, we will explore how to use the Enneagram to understand your strengths and weaknesses as an Enneagram type.
 

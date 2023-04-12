@@ -1,6 +1,6 @@
 {
-    "json.schemas": [],
-    "[svelte]": {
-        "editor.defaultFormatter": "svelte.svelte-vscode"
-    },
+	"json.schemas": [],
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	}
 }

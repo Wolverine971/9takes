@@ -1,15 +1,15 @@
 ---
 title: 'Unpacking your Enneagram stress number: How Knowing Your Stress Number Can Help You Thrive'
-description: ""
+description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
 type: ['overview']
 blog: true
-
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/stressed.webp" />
 </svelte:head>
 <script>

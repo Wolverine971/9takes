@@ -1,15 +1,15 @@
 ---
 title: 'The Enneagram and its Philosophical Lineage: Plato and Freud Revisited'
-description: "Spiritual teachers, Freud and Plato"
+description: 'Spiritual teachers, Freud and Plato'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
 type: ['overview']
 blog: true
-
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
 </svelte:head>
 <script>
@@ -95,67 +95,67 @@ In essence, the Enneagram offers a framework for personal development that is de
 <script type="application/ld+json">
 
 {
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
-  },
-  "http://schema.org/citation": [
-    {
-      "@type": "http://schema.org/WebPage",
-      "http://schema.org/name": "Sigmund Freud",
-      "http://schema.org/url": {
-        "@id": "https://www.britannica.com/biography/Sigmund-Freud"
-      }
-    },
-    {
-      "@type": "http://schema.org/WebPage",
-      "http://schema.org/name": "Plato",
-      "http://schema.org/url": {
-        "@id": "https://plato.stanford.edu/entries/plato/"
-      }
-    }
-  ],
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-04-11"
-  },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-02-19"
-  },
-  "http://schema.org/description": "Explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul, and gain a deeper understanding of how core emotions shape these intelligence centers.",
-  "http://schema.org/headline": "The Enneagram and its Philosophical Lineage: Plato and Freud Revisited",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 1200,
-    "http://schema.org/url": {
-      "@id": "https://9takes.com/freud-plato.webp"
-    },
-    "http://schema.org/width": 630
-  },
-  "http://schema.org/keywords": [
-    "Enneagram",
-    "Plato",
-    "Freud",
-    "intelligence centers",
-    "philosophy",
-    "core emotions",
-    "fear",
-    "shame",
-    "anger",
-    "personal development",
-    "human psyche",
-    "human soul"
-  ],
-  "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-philosophical-lineage",
-    "@type": "http://schema.org/WebPage"
-  },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/name": "9takes"
-  }
+"@type": "http://schema.org/BlogPosting",
+"http://schema.org/author": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "DJ Wayne"
+},
+"http://schema.org/citation": [
+{
+"@type": "http://schema.org/WebPage",
+"http://schema.org/name": "Sigmund Freud",
+"http://schema.org/url": {
+"@id": "https://www.britannica.com/biography/Sigmund-Freud"
+}
+},
+{
+"@type": "http://schema.org/WebPage",
+"http://schema.org/name": "Plato",
+"http://schema.org/url": {
+"@id": "https://plato.stanford.edu/entries/plato/"
+}
+}
+],
+"http://schema.org/dateModified": {
+"@type": "http://schema.org/Date",
+"@value": "2023-04-11"
+},
+"http://schema.org/datePublished": {
+"@type": "http://schema.org/Date",
+"@value": "2023-02-19"
+},
+"http://schema.org/description": "Explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul, and gain a deeper understanding of how core emotions shape these intelligence centers.",
+"http://schema.org/headline": "The Enneagram and its Philosophical Lineage: Plato and Freud Revisited",
+"http://schema.org/image": {
+"@type": "http://schema.org/ImageObject",
+"http://schema.org/height": 1200,
+"http://schema.org/url": {
+"@id": "https://9takes.com/freud-plato.webp"
+},
+"http://schema.org/width": 630
+},
+"http://schema.org/keywords": [
+"Enneagram",
+"Plato",
+"Freud",
+"intelligence centers",
+"philosophy",
+"core emotions",
+"fear",
+"shame",
+"anger",
+"personal development",
+"human psyche",
+"human soul"
+],
+"http://schema.org/mainEntityOfPage": {
+"@id": "https://9takes.com/blog/enneagram/enneagram-philosophical-lineage",
+"@type": "http://schema.org/WebPage"
+},
+"http://schema.org/publisher": {
+"@type": "http://schema.org/Organization",
+"http://schema.org/name": "9takes"
+}
 }
 
 </script>
@@ -180,7 +180,7 @@ In essence, the Enneagram offers a framework for personal development that is de
       "url": "https://www.yourwebsite.com/logo.png",
       "width": 600,
       "height": 60
-    } 
+    }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",

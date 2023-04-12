@@ -1,6 +1,6 @@
 ---
 title: 'Joe Biden as an Enneagram Type 6'
-description: "Why Joe Biden appears to be a type 6"
+description: 'Why Joe Biden appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
 published: true

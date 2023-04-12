@@ -1,13 +1,11 @@
 ---
 title: 'How to determine your Enneagram type'
-description: "Overview for how to determine/ deduce your Enneagram type"
+description: 'Overview for how to determine/ deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 published: true
 type: ['overview']
 blog: true
-
-
 ---
 
 <!-- Take a free, ~5 min test here -->
@@ -95,7 +93,6 @@ feel it and you feel angry. You feel insecure because something needs to be done
 so you don't feel anger but if you follow your instincts and lash out you situation
 worse. Overtime you learn to surround yourself with people and set up your environment
 where in you can be comfortable and at peace free from anger.
-
 
 ## Finding an Archetype within a core emotion
 

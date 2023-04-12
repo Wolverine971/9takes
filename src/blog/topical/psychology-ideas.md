@@ -1,13 +1,11 @@
 ---
 title: 'Ideas from psychology'
-description: ""
+description: ''
 author: 'DJ Wayne'
 date: '2023-02-18'
 published: true
 type: ['overview']
 ---
-
-
 
 | Topic                                                                              | Psychologist             | Relevant to                    |
 | ---------------------------------------------------------------------------------- | ------------------------ | ------------------------------ |

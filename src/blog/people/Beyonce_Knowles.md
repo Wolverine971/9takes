@@ -1,6 +1,6 @@
 ---
 title: 'Beyoncé Knowles as an Enneagram Type 3'
-description: "Why Beyoncé Knowles appears to be a type 3"
+description: 'Why Beyoncé Knowles appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
 published: true
@@ -37,7 +37,7 @@ Type 3's strive for perfectionism in all aspects of their lives, whether it be i
 
 ## The Drive for Admiration and Recognition
 
-Type 3's are motivated by the need for admiration and recognition from others. Beyoncé's high-profile career and celebrity status have brought her worldwide acclaim and admiration. In her song "***Flawless," she sings about her own self-confidence and self-worth, declaring "I woke up like this" and "I'm flawless." This desire for recognition is also evident in her philanthropic efforts, such as her formation of the BeyGOOD Foundation, which focuses on social and economic issues affecting marginalized communities.
+Type 3's are motivated by the need for admiration and recognition from others. Beyoncé's high-profile career and celebrity status have brought her worldwide acclaim and admiration. In her song "\*\*\*Flawless," she sings about her own self-confidence and self-worth, declaring "I woke up like this" and "I'm flawless." This desire for recognition is also evident in her philanthropic efforts, such as her formation of the BeyGOOD Foundation, which focuses on social and economic issues affecting marginalized communities.
 
 ## The Focus on Achieving Goals
 

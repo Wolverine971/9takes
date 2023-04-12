@@ -1,6 +1,5 @@
-
-
 ## Welcome email
+
 Subject: Welcome to 9takes – Your Journey Begins Here!
 
 Body:
@@ -16,6 +15,7 @@ Looking forward to our journey together,
 The 9takes Team
 
 ## Progress update email
+
 Subject: Sneak Peek: See What We're Building at 9takes!
 
 Body:
@@ -29,6 +29,7 @@ Stay tuned for more updates,
 The 9takes Team
 
 ## Enneagram-focused email
+
 Subject: Unravel the Mystery of Your Enneagram Type
 
 Body:
@@ -45,6 +46,7 @@ Best regards,
 The 9takes Team
 
 ## Launch countdown email
+
 Subject: Get Ready: 9takes is Launching Soon!
 
 Body:
@@ -62,6 +64,7 @@ Cheers,
 The 9takes Team
 
 ## Launch announcement email
+
 Subject: 🚀 9takes is Live! Start Your Enneagram Journey Today
 
 Body:

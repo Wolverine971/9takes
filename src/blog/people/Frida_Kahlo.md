@@ -1,6 +1,6 @@
 ---
 title: 'Frida Kahlo as an Enneagram Type 4'
-description: "Why Frida Kahlo appears to be a type 4"
+description: 'Why Frida Kahlo appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
 published: true

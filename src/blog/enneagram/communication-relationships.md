@@ -6,9 +6,7 @@ date: '2023-03-26'
 published: true
 type: ['overview']
 blog: true
-
 ---
-    
 
 The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. However, the Enneagram is not just about self-discovery; it can also be used to improve communication and intimacy in relationships. In this article, we'll explore how you can use the Enneagram to enhance your relationships and create deeper connections with your loved ones.
 
@@ -132,6 +130,5 @@ What they like to talk about: Nines enjoy discussing peaceful or relaxing topics
 What they don't like to talk about: Nines may be uncomfortable discussing conflict or difficult emotions. They may also avoid conversations that challenge their sense of peace or balance.
 
 Imaginary scenario: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the sense of peace and harmony it brings to their life.
-
 
 Time for the obligatory reminder that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a tool for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.

@@ -1,14 +1,14 @@
 ---
 title: 'Enneagram Criticisms'
-description: "Common criticisms of the enneagram"
+description: 'Common criticisms of the enneagram'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
 type: ['overview']
 blog: true
-
 ---
-<!-- 
+
+<!--
 Enneagram Criticisms (200 words)
 
 -   Common criticisms of the Enneagram system

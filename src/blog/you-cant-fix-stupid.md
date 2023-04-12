@@ -1,14 +1,14 @@
 ---
 title: 'you-cant-fix-stupid'
-description: "9takes Enneagram Overview"
+description: '9takes Enneagram Overview'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: false
 type: ['overview']
 blog: true
-
 ---
-<!-- 
+
+<!--
 The moment they stopped thinking
 https://youtube.com/watch?v=3PfsANvaueQ&si=EnSIkaIECMiOmarE&t=4526
 
@@ -38,6 +38,7 @@ Reminds me of plato to aristotle- plato tripart soul vrs bibart soul -->
 		</section>
 
         <div class="waitlist-section">
+
   <h2>Join our waitlist!</h2>
   <p>Be the first to know when our product is ready.</p>
   <form class="waitlist-form">

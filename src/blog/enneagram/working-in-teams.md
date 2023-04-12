@@ -1,15 +1,15 @@
 ---
 title: 'Understanding how different Enneagram types work together in teams'
-description: ""
+description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
 type: ['overview']
 blog: true
-
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/team-building.webp" />
 </svelte:head>
 <script>
@@ -29,9 +29,7 @@ blog: true
 	/>
 </div>
 
-
 Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!
-
 
 ### Type 1: The Perfectionist
 
@@ -72,7 +70,7 @@ Have you ever worked in a team where everyone seemed to be on a different wavele
 ### Type 5: The Investigator
 
 - Goals within a team environment: To share their expertise and knowledge while also learning from others.
-- Thinking when they join a team: "How can I share my expertise and learn from others to contribute to the team's success?" 
+- Thinking when they join a team: "How can I share my expertise and learn from others to contribute to the team's success?"
 - How they will act if they are your boss: They will provide valuable insights and expertise but may struggle with communicating effectively with the team.
 - How they will act if they are your colleague: They will be analytical and thoughtful, offering valuable insights and solutions to problems.
 - How they will act if they are subordinate to you: They will be knowledgeable and independent but may need guidance on how to effectively communicate and collaborate with others.
@@ -115,7 +113,6 @@ Have you ever worked in a team where everyone seemed to be on a different wavele
 - How to give both positive and negative feedback: Recognize their ability to maintain harmony and cooperation within the team, and provide constructive feedback on how they can be more assertive and express their own needs and opinions while still maintaining a harmonious environment.
 
 Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
-
 
 <div>
 <script type="application/ld+json">

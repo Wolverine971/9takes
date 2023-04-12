@@ -1,13 +1,12 @@
 ---
 title: 'Books and Websites for Learning More About the Enneagram'
-description: ""
+description: ''
 author: 'DJ Wayne'
 date: '2023-04-01'
 published: true
 type: ['resources']
 blog: true
 ---
-
 
 ### Essential Enneagram Books
 
@@ -39,253 +38,254 @@ For those who prefer listening to learning, these podcasts offer engaging conver
    <script type="application/ld+json">
 
 {
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/about": {
-    "@type": "http://schema.org/Thing",
-    "http://schema.org/name": "Enneagram"
-  },
-  "http://schema.org/articleSection": "Psychology",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
-  },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-04-01"
-  },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-04-01"
-  },
-  "http://schema.org/description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
-  "http://schema.org/headline": "Books and Websites for Learning More About the Enneagram",
-  "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/books-websites-podcasts",
-    "@type": "http://schema.org/WebPage"
-  },
-  "http://schema.org/mentions": [
-    {
-      "@type": "http://schema.org/Book",
-      "http://schema.org/author": [
-        {
-          "@type": "http://schema.org/Person",
-          "http://schema.org/name": "Don Richard Riso",
-          "http://schema.org/sameAs": [
-            {
-              "@id": "https://en.wikipedia.org/wiki/Don_Richard_Riso"
-            },
-            {
-              "@id": "https://www.amazon.com/stores/Don-Richard-Riso/author/B001H6SD5U?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
-            }
-          ]
-        },
-        {
-          "@type": "http://schema.org/Person",
-          "http://schema.org/name": "Russ Hudson",
-          "http://schema.org/sameAs": [
-            {
-              "@id": "https://www.instagram.com/hudson_russ/?hl=enn"
-            },
-            {
-              "@id": "https://twitter.com/russ_hudson54?lang=en"
-            },
-            {
-              "@id": "https://www.linkedin.com/in/russ-hudson-2a4596109/"
-            },
-            {
-              "@id": "https://www.amazon.com/stores/Russ-Hudson/author/B001H6OLXI?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
-            }
-          ],
-          "http://schema.org/url": {
-            "@id": "https://russhudson.com/"
-          }
-        }
-      ],
-      "http://schema.org/name": "The Wisdom of the Enneagram"
-    },
-    {
-      "@type": "http://schema.org/Book",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Beatrice Chestnut",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://twitter.com/beatricemc2?lang=en"
-          },
-          {
-            "@id": "https://twitter.com/dr_beachestnut"
-          },
-          {
-            "@id": "https://www.instagram.com/beatrice.chestnut/?hl=en"
-          },
-          {
-            "@id": "https://www.amazon.com/Books-Beatrice-Chestnut/s?rh=n%3A283155%2Cp_27%3ABeatrice+Chestnut"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://www.beatricechestnut.com/"
-        }
-      },
-      "http://schema.org/name": "The Complete Enneagram: 27 Paths to Greater Self-Knowledge"
-    },
-    {
-      "@type": "http://schema.org/Book",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Sarajane Case",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://www.instagram.com/sarajanecase/?hl=en"
-          },
-          {
-            "@id": "https://twitter.com/sarajanecase?lang=en"
-          },
-          {
-            "@id": "https://www.youtube.com/sarajanecase"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://sarajane-case-llc-1.showit.site/"
-        }
-      },
-      "http://schema.org/name": "The Enneagram Letters"
-    },
-    {
-      "@type": "http://schema.org/Book",
-      "http://schema.org/author": [
-        {
-          "@type": "http://schema.org/Person",
-          "http://schema.org/jobTitle": "Author",
-          "http://schema.org/name": "Ian Morgan Cron",
-          "http://schema.org/sameAs": [
-            {
-              "@id": "https://twitter.com/ianmorgancron/"
-            },
-            {
-              "@id": "https://www.instagram.com/ianmorgancron/?hl=en"
-            },
-            {
-              "@id": "https://www.amazon.com/stores/Ian-Morgan-Cron/author/B001K8737O"
-            }
-          ],
-          "http://schema.org/url": {
-            "@id": "https://www.ianmorgancron.com/"
-          }
-        },
-        {
-          "@type": "http://schema.org/Person",
-          "http://schema.org/jobTitle": "Author",
-          "http://schema.org/name": "Suzanne Stabile",
-          "http://schema.org/sameAs": [
-            {
-              "@id": "https://www.instagram.com/suzannestabile/"
-            },
-            {
-              "@id": "https://twitter.com/SuzanneStabile"
-            }
-          ],
-          "http://schema.org/url": {
-            "@id": "https://suzannestabile.com/"
-          }
-        }
-      ],
-      "http://schema.org/name": "The Road Back to You: An Enneagram Journey to Self-Discovery"
-    },
-    {
-      "@type": "http://schema.org/PodcastEpisode",
-      "http://schema.org/host": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Suzanne Stabile",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://www.instagram.com/suzannestabile/"
-          },
-          {
-            "@id": "https://twitter.com/SuzanneStabile"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://suzannestabile.com/"
-        }
-      },
-      "http://schema.org/name": "The Enneagram Journey"
-    },
-    {
-      "@type": "http://schema.org/PodcastEpisode",
-      "http://schema.org/host": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Ian Morgan Cron",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://twitter.com/ianmorgancron/"
-          },
-          {
-            "@id": "https://www.instagram.com/ianmorgancron/?hl=en"
-          },
-          {
-            "@id": "https://www.amazon.com/stores/Ian-Morgan-Cron/author/B001K8737O"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://www.ianmorgancron.com/"
-        }
-      },
-      "http://schema.org/name": "Typology"
-    },
-    {
-      "@type": "http://schema.org/PodcastEpisode",
-      "http://schema.org/host": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Sarajane Case",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://www.instagram.com/sarajanecase/?hl=en"
-          },
-          {
-            "@id": "https://twitter.com/sarajanecase?lang=en"
-          },
-          {
-            "@id": "https://www.youtube.com/sarajanecase"
-          }
-        ],
-        "http://schema.org/url": {
-          "@id": "https://sarajane-case-llc-1.showit.site/"
-        }
-      },
-      "http://schema.org/name": "The Enneagram and Coffee"
-    },
-    {
-      "@type": "http://schema.org/PodcastEpisode",
-      "http://schema.org/about": {
-        "@type": "http://schema.org/Thing",
-        "http://schema.org/name": "Enneagram"
-      },
-      "http://schema.org/host": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Marissa Di Poce",
-        "http://schema.org/sameAs": [
-          {
-            "@id": "https://twitter.com/mangomaris"
-          },
-          {
-            "@type": "http://schema.org/Person",
-            "http://schema.org/name": "Tara"
-          }
-        ]
-      },
-      "http://schema.org/name": "Enneagram for Idiots",
-      "http://schema.org/sameAs": {
-        "@id": "https://twitter.com/enneaforidiots"
-      },
-      "http://schema.org/url": {
-        "@id": "https://www.enneagramforidiots.com/"
-      }
-    }
-  ],
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/name": "9takes"
-  }
+"@type": "http://schema.org/BlogPosting",
+"http://schema.org/about": {
+"@type": "http://schema.org/Thing",
+"http://schema.org/name": "Enneagram"
+},
+"http://schema.org/articleSection": "Psychology",
+"http://schema.org/author": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "DJ Wayne"
+},
+"http://schema.org/dateModified": {
+"@type": "http://schema.org/Date",
+"@value": "2023-04-01"
+},
+"http://schema.org/datePublished": {
+"@type": "http://schema.org/Date",
+"@value": "2023-04-01"
+},
+"http://schema.org/description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
+"http://schema.org/headline": "Books and Websites for Learning More About the Enneagram",
+"http://schema.org/mainEntityOfPage": {
+"@id": "https://9takes.com/blog/enneagram/books-websites-podcasts",
+"@type": "http://schema.org/WebPage"
+},
+"http://schema.org/mentions": [
+{
+"@type": "http://schema.org/Book",
+"http://schema.org/author": [
+{
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Don Richard Riso",
+"http://schema.org/sameAs": [
+{
+"@id": "https://en.wikipedia.org/wiki/Don_Richard_Riso"
+},
+{
+"@id": "https://www.amazon.com/stores/Don-Richard-Riso/author/B001H6SD5U?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
+}
+]
+},
+{
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Russ Hudson",
+"http://schema.org/sameAs": [
+{
+"@id": "https://www.instagram.com/hudson_russ/?hl=enn"
+},
+{
+"@id": "https://twitter.com/russ_hudson54?lang=en"
+},
+{
+"@id": "https://www.linkedin.com/in/russ-hudson-2a4596109/"
+},
+{
+"@id": "https://www.amazon.com/stores/Russ-Hudson/author/B001H6OLXI?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
+}
+],
+"http://schema.org/url": {
+"@id": "https://russhudson.com/"
+}
+}
+],
+"http://schema.org/name": "The Wisdom of the Enneagram"
+},
+{
+"@type": "http://schema.org/Book",
+"http://schema.org/author": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Beatrice Chestnut",
+"http://schema.org/sameAs": [
+{
+"@id": "https://twitter.com/beatricemc2?lang=en"
+},
+{
+"@id": "https://twitter.com/dr_beachestnut"
+},
+{
+"@id": "https://www.instagram.com/beatrice.chestnut/?hl=en"
+},
+{
+"@id": "https://www.amazon.com/Books-Beatrice-Chestnut/s?rh=n%3A283155%2Cp_27%3ABeatrice+Chestnut"
+}
+],
+"http://schema.org/url": {
+"@id": "https://www.beatricechestnut.com/"
+}
+},
+"http://schema.org/name": "The Complete Enneagram: 27 Paths to Greater Self-Knowledge"
+},
+{
+"@type": "http://schema.org/Book",
+"http://schema.org/author": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Sarajane Case",
+"http://schema.org/sameAs": [
+{
+"@id": "https://www.instagram.com/sarajanecase/?hl=en"
+},
+{
+"@id": "https://twitter.com/sarajanecase?lang=en"
+},
+{
+"@id": "https://www.youtube.com/sarajanecase"
+}
+],
+"http://schema.org/url": {
+"@id": "https://sarajane-case-llc-1.showit.site/"
+}
+},
+"http://schema.org/name": "The Enneagram Letters"
+},
+{
+"@type": "http://schema.org/Book",
+"http://schema.org/author": [
+{
+"@type": "http://schema.org/Person",
+"http://schema.org/jobTitle": "Author",
+"http://schema.org/name": "Ian Morgan Cron",
+"http://schema.org/sameAs": [
+{
+"@id": "https://twitter.com/ianmorgancron/"
+},
+{
+"@id": "https://www.instagram.com/ianmorgancron/?hl=en"
+},
+{
+"@id": "https://www.amazon.com/stores/Ian-Morgan-Cron/author/B001K8737O"
+}
+],
+"http://schema.org/url": {
+"@id": "https://www.ianmorgancron.com/"
+}
+},
+{
+"@type": "http://schema.org/Person",
+"http://schema.org/jobTitle": "Author",
+"http://schema.org/name": "Suzanne Stabile",
+"http://schema.org/sameAs": [
+{
+"@id": "https://www.instagram.com/suzannestabile/"
+},
+{
+"@id": "https://twitter.com/SuzanneStabile"
+}
+],
+"http://schema.org/url": {
+"@id": "https://suzannestabile.com/"
+}
+}
+],
+"http://schema.org/name": "The Road Back to You: An Enneagram Journey to Self-Discovery"
+},
+{
+"@type": "http://schema.org/PodcastEpisode",
+"http://schema.org/host": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Suzanne Stabile",
+"http://schema.org/sameAs": [
+{
+"@id": "https://www.instagram.com/suzannestabile/"
+},
+{
+"@id": "https://twitter.com/SuzanneStabile"
+}
+],
+"http://schema.org/url": {
+"@id": "https://suzannestabile.com/"
+}
+},
+"http://schema.org/name": "The Enneagram Journey"
+},
+{
+"@type": "http://schema.org/PodcastEpisode",
+"http://schema.org/host": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Ian Morgan Cron",
+"http://schema.org/sameAs": [
+{
+"@id": "https://twitter.com/ianmorgancron/"
+},
+{
+"@id": "https://www.instagram.com/ianmorgancron/?hl=en"
+},
+{
+"@id": "https://www.amazon.com/stores/Ian-Morgan-Cron/author/B001K8737O"
+}
+],
+"http://schema.org/url": {
+"@id": "https://www.ianmorgancron.com/"
+}
+},
+"http://schema.org/name": "Typology"
+},
+{
+"@type": "http://schema.org/PodcastEpisode",
+"http://schema.org/host": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Sarajane Case",
+"http://schema.org/sameAs": [
+{
+"@id": "https://www.instagram.com/sarajanecase/?hl=en"
+},
+{
+"@id": "https://twitter.com/sarajanecase?lang=en"
+},
+{
+"@id": "https://www.youtube.com/sarajanecase"
+}
+],
+"http://schema.org/url": {
+"@id": "https://sarajane-case-llc-1.showit.site/"
+}
+},
+"http://schema.org/name": "The Enneagram and Coffee"
+},
+{
+"@type": "http://schema.org/PodcastEpisode",
+"http://schema.org/about": {
+"@type": "http://schema.org/Thing",
+"http://schema.org/name": "Enneagram"
+},
+"http://schema.org/host": {
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Marissa Di Poce",
+"http://schema.org/sameAs": [
+{
+"@id": "https://twitter.com/mangomaris"
+},
+{
+"@type": "http://schema.org/Person",
+"http://schema.org/name": "Tara"
+}
+]
+},
+"http://schema.org/name": "Enneagram for Idiots",
+"http://schema.org/sameAs": {
+"@id": "https://twitter.com/enneaforidiots"
+},
+"http://schema.org/url": {
+"@id": "https://www.enneagramforidiots.com/"
+}
+}
+],
+"http://schema.org/publisher": {
+"@type": "http://schema.org/Organization",
+"http://schema.org/name": "9takes"
+}
 }
 </script>
+
 </div>

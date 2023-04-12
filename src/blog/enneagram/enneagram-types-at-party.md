@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram types at a party: How each type behaves'
-description: "What are different types doing, thinking, feeling at a party"
+description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true
@@ -9,6 +9,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/party-in-street.webp" />
 </svelte:head>
 <script>
@@ -66,10 +67,7 @@ At a party, Type 8s are likely to be found leading the charge, taking charge of 
 
 Type 9s are often the most laid-back and easy-going people at the party, going with the flow and enjoying themselves without causing any drama. They're likely to be found mingling with different groups of people and making sure that everyone is getting along. Type 9s are attending the party because they want to have fun and connect with others without any conflict or drama. They're looking forward to enjoying themselves and making new connections.
 
-
 Each type has its unique characteristics and motivations for attending the party. Understanding the Enneagram types can help us connect with others and appreciate their unique perspectives. Whether you're a Type 1, Type 9, or anything in between, there's something for everyone at a party. So go out there and enjoy yourself, and remember to appreciate the different perspectives and personalities of those around you.
-
-
 
 <div>
 <script type="application/ld+json">

@@ -1,6 +1,6 @@
 ---
 title: 'Ronald Reagan as an Enneagram Type 9'
-description: "Why Ronald Reagan appears to be a type 9"
+description: 'Why Ronald Reagan appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
 published: true
