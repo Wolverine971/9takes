@@ -151,10 +151,18 @@
 				Enneagram Situational Topics
 			</h3>
 			<ul>
-				<li><a href="/blog/enneagram/enneagram-types-at-party">Enneagram types at a party</a></li>
+				<li>
+					<a href="/blog/enneagram/enneagram-types-at-party">Enneagram types at a party</a>
+				</li>
 				<li>
 					<a href="/blog/enneagram/ghosting-the-types"
 						>Impact of ghosting on mental health: An Enneagram perspective
+					</a>
+				</li>
+
+				<li>
+					<a href="/blog/enneagram/navigating-stress"
+						>Navigating Stress: How Each Enneagram Type Responds
 					</a>
 				</li>
 			</ul>
