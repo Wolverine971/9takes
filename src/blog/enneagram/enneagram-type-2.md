@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 2'
+title: 'Enneagram Type 2: The Helper'
 description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'

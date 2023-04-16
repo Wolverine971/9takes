@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 7'
+title: 'Enneagram Type 7: The Enthusiast'
 description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'

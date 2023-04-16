@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 9'
+title: 'Enneagram Type 9: The Peacemaker'
 description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'

@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 8'
+title: 'Enneagram Type 8: The Challenger'
 description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'

@@ -1,6 +1,6 @@
 ---
-title: 'Enneagram Type 3'
-description: 'Understanding the Enneagram Type 2: The Achiever'
+title: 'Enneagram Type 3: The Achiever'
+description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 published: true

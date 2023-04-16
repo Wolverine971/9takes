@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 6'
+title: 'Enneagram Type 6: The Loyalist'
 description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'

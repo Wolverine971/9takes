@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 5'
+title: 'Enneagram Type 5: The Observer'
 description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'

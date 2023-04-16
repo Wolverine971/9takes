@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 4'
+title: 'Enneagram Type 4: The Individualist'
 description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'

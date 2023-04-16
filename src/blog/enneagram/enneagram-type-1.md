@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 1'
+title: 'Enneagram Type 1: The Perfectionist'
 description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
