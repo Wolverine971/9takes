@@ -1,5 +1,5 @@
 ---
-title: 'Mr. Rogers as an Enneagram Type 2'
+title: 'Mr. Rogers Enneagram Type 2'
 description: 'Why Mr. Rogers appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/2s/${'Mr_Rogers'}.webp`}

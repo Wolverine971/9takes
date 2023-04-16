@@ -29,7 +29,7 @@
 		title: '9takes Analysis of Famous People',
 		description: 'List famous people who have their enneagram type analyzed'
 	}}
-	slug={'/blog/people'}
+	slug={'/blog/famous-enneagram-types'}
 />
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
@@ -38,7 +38,9 @@
 	<ul>
 		{#each politicians as person}
 			<li>
-				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person.slug.split('_').join(' ')}
+				</a>
 			</li>
 		{/each}
 	</ul>
@@ -46,7 +48,9 @@
 	<ul>
 		{#each celebrities as person}
 			<li>
-				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person.slug.split('_').join(' ')}
+				</a>
 			</li>
 		{/each}
 	</ul>
@@ -55,7 +59,9 @@
 	<ul>
 		{#each musicians as person}
 			<li>
-				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person.slug.split('_').join(' ')}
+				</a>
 			</li>
 		{/each}
 	</ul>
@@ -63,7 +69,9 @@
 	<ul>
 		{#each artists as person}
 			<li>
-				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person.slug.split('_').join(' ')}
+				</a>
 			</li>
 		{/each}
 	</ul>
@@ -71,7 +79,7 @@
 	<ul>
 		{#each techies as person}
 			<li>
-				<a href={`/blog/people/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
 			</li>
 		{/each}
 	</ul> -->

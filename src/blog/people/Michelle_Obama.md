@@ -1,5 +1,5 @@
 ---
-title: 'Michelle Obama as an Enneagram Type 1'
+title: 'Michelle Obama Enneagram Type 1'
 description: 'Why Michelle Obama appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/1s/${'Michelle_Obama'}.webp`}

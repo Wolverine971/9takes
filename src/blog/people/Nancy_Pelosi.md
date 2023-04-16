@@ -1,5 +1,5 @@
 ---
-title: 'Nancy Pelosi as an Enneagram Type 3'
+title: 'Nancy Pelosi Enneagram Type 3'
 description: 'Why Nancy Pelosi appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/3s/${'Nancy_Pelosi'}.webp`}
@@ -50,7 +49,7 @@ Finally, Enneagram Type 3s are known for their focus on achieving their goals an
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/people/Nancy_Pelosi"
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Nancy_Pelosi"
   },
   "headline": "Nancy Pelosi: An Enneagram Type 3 Achiever"
   "image": {

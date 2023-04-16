@@ -1,5 +1,5 @@
 ---
-title: 'Marilyn Monroe as an Enneagram Type 6'
+title: 'Marilyn Monroe Enneagram Type 6'
 description: 'Why Marilyn Monroe appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/6s/${'Marilyn_Monroe'}.webp`}

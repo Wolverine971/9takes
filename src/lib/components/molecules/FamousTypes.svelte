@@ -102,7 +102,7 @@
 	{#each famousTypes[type] as person}
 		<li>
 			{#if person.link}
-				<a href={`/blog/people/${person.name}`}>
+				<a href={`/blog/famous-enneagram-types/${person.name}`}>
 					{person.name.split('_').join(' ')}
 				</a>
 			{:else}

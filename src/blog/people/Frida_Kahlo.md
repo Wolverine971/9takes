@@ -1,5 +1,5 @@
 ---
-title: 'Frida Kahlo as an Enneagram Type 4'
+title: 'Frida Kahlo Enneagram Type 4'
 description: 'Why Frida Kahlo appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['artist']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/4s/${'Frida_Kahlo'}.webp`}
@@ -58,7 +57,7 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/people/Frida_Kahlo"
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Frida_Kahlo"
   },
   "headline": "Frida Kahlo and Enneagram Type 4: Exploring the Individualist Personality",
   "image": {

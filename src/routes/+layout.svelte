@@ -30,6 +30,7 @@
 	<Analytics />
 	<!-- {#if $page.url.pathname !== '/'} -->
 	<Header {data} />
+
 	<!-- {/if} -->
 
 	<Toast />

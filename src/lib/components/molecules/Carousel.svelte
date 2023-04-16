@@ -104,8 +104,7 @@
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	{#if type && visibleImage}
 		<PopCard

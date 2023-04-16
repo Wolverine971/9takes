@@ -33,8 +33,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/enneagram-self-development">
-						How the Enneagram can be used for personal growth and self-improvement
+					<a href="/blog/enneagram/enneagram-influences">
+						Enneagram influences: Differing traditions and schools of thought
 					</a>
 				</li>
 			</ul>
@@ -71,7 +71,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/personal-growth">
+					<a href="/blog/enneagram/enneagram-self-development"
+						>How the Enneagram can be used for personal growth and self-improvement
+					</a>
+				</li>
+
+				<li>
+					<a href="/blog/enneagram/enneagram-personal-growth">
 						Strategies for personal growth and self-improvement based on your Enneagram type
 					</a>
 				</li>
@@ -116,7 +122,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/working-in-teams">
+					<a href="/blog/enneagram/enneagram-types-working-in-teams">
 						Understanding how different Enneagram types work together in teams
 					</a>
 				</li>
@@ -174,7 +180,7 @@
 				Enneagram Analysis of Famous People
 			</h3>
 			<ul>
-				<li><a href="/blog/people">Celebrities, Musicians, and Politicians</a></li>
+				<li><a href="/blog/famous-enneagram-types">Celebrities, Musicians, and Politicians</a></li>
 			</ul>
 		</div>
 	</section>

@@ -1,5 +1,5 @@
 ---
-title: 'Johnny Depp as an Enneagram Type 4'
+title: 'Johnny Depp Enneagram Type 4'
 description: 'Why Johnny Depp appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/4s/${'Johnny_Depp'}.webp`}

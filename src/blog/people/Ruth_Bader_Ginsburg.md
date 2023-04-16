@@ -1,5 +1,5 @@
 ---
-title: 'Ruth Bader Ginsburg as an Enneagram Type 1'
+title: 'Ruth Bader Ginsburg Enneagram Type 1'
 description: 'Why Ruth Bader Ginsburg appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/1s/${'Ruth_Bader_Ginsburg'}.webp`}

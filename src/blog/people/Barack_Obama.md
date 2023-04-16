@@ -1,5 +1,5 @@
 ---
-title: 'Barack Obama as an Enneagram Type 9'
+title: 'Barack Obama Enneagram Type 9'
 description: 'Why Barack Obama appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -18,8 +18,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/9s/Barack_Obama.webp`}

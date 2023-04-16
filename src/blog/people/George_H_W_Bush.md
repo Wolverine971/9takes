@@ -1,5 +1,5 @@
 ---
-title: 'George H. W. Bush as an Enneagram Type 6'
+title: 'George H. W. Bush Enneagram Type 6'
 description: 'Why George H. W. Bush appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -18,8 +18,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/6s/George_H_W_Bush.webp`}
@@ -54,7 +53,7 @@ In conclusion, George H.W. Bush's Enneagram Type 6 traits are evident in his col
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/people/George_H_W_Bush"
+    "@id": "https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush"
   },
   "headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
   "image": {

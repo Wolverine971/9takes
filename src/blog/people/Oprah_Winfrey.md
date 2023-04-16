@@ -1,5 +1,5 @@
 ---
-title: 'Oprah Winfrey as an Enneagram Type 3'
+title: 'Oprah Winfrey Enneagram Type 3'
 description: 'Why Oprah Winfrey appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/3s/${'Oprah_Winfrey'}.webp`}

@@ -18,8 +18,7 @@ blog: true
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/freud-plato.webp`}

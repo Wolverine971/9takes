@@ -1,5 +1,5 @@
 ---
-title: 'Jackie Kennedy as an Enneagram Type 4'
+title: 'Jackie Kennedy Enneagram Type 4'
 description: 'Why Jackie Kennedy appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/4s/${'Jackie_Kennedy'}.webp`}

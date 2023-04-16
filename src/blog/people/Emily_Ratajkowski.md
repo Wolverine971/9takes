@@ -1,5 +1,5 @@
 ---
-title: 'Emily Ratajkowski as an Enneagram Type 7'
+title: 'Emily Ratajkowski Enneagram Type 7'
 description: 'Why Emily Ratajkowski appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['celebrity']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/7s/${'Emily_Ratajkowski'}.webp`}

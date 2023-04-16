@@ -1,5 +1,6 @@
 ---
-title: 'Strategies for personal growth and self-improvement based on your Enneagram type'
+title: 'Enneagram personal growth'
+# 'Strategies for personal growth and self-improvement based on your Enneagram type'
 description: 'Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering ideal environments, practical tips, and empowering self-talk mantras for each type. Unlock your full potential and embrace self-improvement tailored to you.'
 author: 'DJ Wayne'
 date: '2023-03-10'

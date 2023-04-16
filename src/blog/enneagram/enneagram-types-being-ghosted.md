@@ -1,6 +1,6 @@
 ---
-title: 'Impact of ghosting on mental health: An Enneagram perspective'
-description: 'How each type handles being ghosted'
+title: 'Enneagram types being ghosted'
+description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow each type handles being ghosted'
 author: 'DJ Wayne'
 date: '2023-02-10'
 published: true

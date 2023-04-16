@@ -1,5 +1,5 @@
 ---
-title: 'Joe Biden as an Enneagram Type 6'
+title: 'Joe Biden Enneagram Type 6'
 description: 'Why Joe Biden appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/6s/${'Joe_Biden'}.webp`}
@@ -50,7 +49,7 @@ Finally, Enneagram Type 6s are known for their strong sense of loyalty, and this
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/people/Joe_Biden"
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Joe_Biden"
   },
   "headline": "Joe Biden and Enneagram Type 6: A Look at His Strong Sense of Duty and Loyalty",
   "image": {

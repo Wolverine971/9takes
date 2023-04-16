@@ -141,6 +141,7 @@
 		.screen {
 			/* width: 500px; */
 			width: clamp(400px, 100%, 600px);
+			max-height: 500px;
 		}
 	}
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lady Gaga as an Enneagram Type 3'
+title: 'Lady Gaga Enneagram Type 3'
 description: 'Why Lady Gaga appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -14,8 +14,7 @@ type: ['musician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/3s/${'Lady_Gaga'}.webp`}

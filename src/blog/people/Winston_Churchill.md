@@ -1,5 +1,5 @@
 ---
-title: 'Winston Churchill as an Enneagram Type 8'
+title: 'Winston Churchill Enneagram Type 8'
 description: 'Why Winston Churchill appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -13,9 +13,7 @@ type: ['politician']
 </script>
 <div
 	style="display: flex;
-    justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+    justify-content: center;"
 >
 	<PopCard
 		image={`/types/8s/${'Winston_Churchill'}.webp`}

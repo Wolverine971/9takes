@@ -1,5 +1,5 @@
 ---
-title: 'Beyoncé Knowles as an Enneagram Type 3'
+title: 'Beyoncé Knowles Enneagram Type 3'
 description: 'Why Beyoncé Knowles appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['musician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/3s/${'Beyonce_Knowles'}.webp`}
@@ -50,7 +49,7 @@ Type 3's are goal-oriented and will do whatever it takes to achieve their object
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/people/Beyonce_Knowles"
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Beyonce_Knowles"
   },
   "headline": "4 Reasons Why Beyoncé is a Type 3 (Enneagram)"
   "image": {

@@ -1,5 +1,5 @@
 ---
-title: 'John F. Kennedy as an Enneagram Type 7'
+title: 'John F. Kennedy Enneagram Type 7'
 description: 'Why John F. Kennedy appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/7s/${'John_F_Kennedy'}.webp`}

@@ -1,5 +1,5 @@
 ---
-title: 'Elton John as an Enneagram Type 7'
+title: 'Elton John Enneagram Type 7'
 description: 'Why Elton John appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['musician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/7s/${'Elton_John'}.webp`}

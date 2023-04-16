@@ -1,5 +1,5 @@
 ---
-title: 'Martin Luther King Jr as an Enneagram Type 8'
+title: 'Martin Luther King Jr Enneagram Type 8'
 description: 'Why Martin Luther King Jr appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/8s/${'Martin_Luther_King_Jr'}.webp`}

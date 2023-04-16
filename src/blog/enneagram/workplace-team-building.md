@@ -18,8 +18,7 @@ blog: true
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/blogs/working-in-teams.webp`}
@@ -35,7 +34,7 @@ The Enneagram is a personality typology system that helps individuals understand
 
 ## Improved Communication and Collaboration Between Team Members
 
-The Enneagram can help team members communicate more effectively by identifying their unique communication styles. For example, Enneagram Type 1s tend to be detail-oriented and meticulous, while Enneagram Type 7s prefer a more spontaneous and creative approach. Understanding these differences can help team members communicate more effectively and avoid misunderstandings. Checkout this blog to dive deeper in <a href="working-in-teams" >understanding how different Enneagram types work together in teams</a>
+The Enneagram can help team members communicate more effectively by identifying their unique communication styles. For example, Enneagram Type 1s tend to be detail-oriented and meticulous, while Enneagram Type 7s prefer a more spontaneous and creative approach. Understanding these differences can help team members communicate more effectively and avoid misunderstandings. Checkout this blog to dive deeper in <a href="enneagram-types-working-in-teams" >understanding how different Enneagram types work together in teams</a>
 
 ## Increased Self-Awareness and Understanding of Others' Perspectives
 

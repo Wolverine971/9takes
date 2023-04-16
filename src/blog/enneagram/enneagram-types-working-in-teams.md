@@ -1,6 +1,6 @@
 ---
-title: 'Understanding how different Enneagram types work together in teams'
-description: ''
+title: 'Enneagram types working in teams'
+description: 'Understanding how different Enneagram types work together in teams'
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
@@ -18,8 +18,7 @@ blog: true
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/blogs/team-building.webp`}
@@ -143,7 +142,7 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
   },
   "http://schema.org/keywords": "Enneagram, personality types, team building, leadership development, communication, collaboration",
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/working-in-teams",
+    "@id": "https://9takes.com/blog/enneagram/enneagram-types-working-in-teams",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/publisher": {

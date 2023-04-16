@@ -103,7 +103,7 @@ blog: true
 <details>
 <summary class="accordion">Can Enneagram be used in the workplace?</summary>
   <p class="panel">Yes, the Enneagram can be used in the workplace to <a href="/blog/enneagram/team-dynamics" >improve team dynamics</a>, communication, and conflict resolution.
-    Employers may use the Enneagram as a <a href="/blog/enneagram/workplace-team-building">tool for leadership development</a>, <a href="/blog/enneagram/team-diversity">talent management</a>, and <a href="/blog/enneagram/team-diversity">working-in-teams</a>.
+    Employers may use the Enneagram as a <a href="/blog/enneagram/workplace-team-building">tool for leadership development</a>, <a href="/blog/enneagram/team-diversity">talent management</a>, and <a href="/blog/enneagram/enneagram-types-working-in-teams">working-in-teams</a>.
     Additionally, understanding individual Enneagram types can help employees better understand their own</p>
 
 </details>

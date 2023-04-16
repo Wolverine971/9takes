@@ -1,5 +1,5 @@
 ---
-title: 'Bill Gates as an Enneagram Type 5'
+title: 'Bill Gates Enneagram Type 5'
 description: 'Why Bill Gates appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['techie']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/5s/${'Bill_Gates'}.webp`}

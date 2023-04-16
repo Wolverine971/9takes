@@ -1,5 +1,5 @@
 ---
-title: 'Queen Elizabeth II as an Enneagram Type 9'
+title: 'Queen Elizabeth II Enneagram Type 9'
 description: 'Why Queen Elizabeth II appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -14,8 +14,7 @@ type: ['politician']
 <div
 	style="display: flex;
     justify-content: center;
-	height: 100vh;
-	max-height: 1000px;"
+	"
 >
 	<PopCard
 		image={`/types/9s/${'Queen_Elizabeth_II'}.webp`}
