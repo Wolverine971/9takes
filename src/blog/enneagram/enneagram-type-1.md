@@ -426,7 +426,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/1",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-1",
         "type": "WebPage"
       },
       "publisher": {

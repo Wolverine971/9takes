@@ -1,6 +1,6 @@
 ---
-title: 'Understanding your strengths and weaknesses as an Enneagram type'
-description: ''
+title: 'Enneagram strengths and weaknesses'
+description: 'Understanding your strengths and weaknesses as an Enneagram type'
 author: 'DJ Wayne'
 date: '2023-04-01'
 published: true

@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram FAQ'
+title: 'Enneagram FAQs'
 description: 'Common questions asked about the Enneagram'
 author: 'DJ Wayne'
 date: '2023-02-10'
@@ -14,7 +14,7 @@ blog: true
 <summary class="accordion">What is the Enneagram?</summary>
 <div class="panel">
   <p >The Enneagram is a personality framework that describes nine distinct personality types, each with its own unique motivations, fears, and core values. Each type is represented by a number, and individuals may identify with one or more of these types based on their personality traits and tendencies. The Enneagram system can be used as a tool for self-awareness and personal growth, as well as for understanding and improving relationships communication, and team dynamics in various settings.</p>
-  <a href="/blog/enneagram/tldr-enneagram" >TLDR </a>
+  <a href="/blog/enneagram/enneagram-tldr" >TLDR </a>
   </div>
 </details>
 

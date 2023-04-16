@@ -1,5 +1,5 @@
 ---
-title: 'Using the Enneagram to improve communication and intimacy in relationships'
+title: 'Enneagram Communication in Relationships'
 description: "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy"
 author: 'DJ Wayne'
 date: '2023-03-26'
@@ -14,7 +14,7 @@ The Enneagram is a powerful tool for understanding yourself and the people aroun
 
 Here are some tips for using the Enneagram to improve communication and intimacy in your relationships:
 
-- Identify your own type and the types of those around you. This will help you understand your own <a href="communication-styles" >communication style</a> and the styles of those around you.
+- Identify your own type and the types of those around you. This will help you understand your own <a href="enneagram-communication-styles" >communication style</a> and the styles of those around you.
 - Learn about the strengths and weaknesses of each type. This will help you understand how different types perceive the world and what they need in relationships.
 - Use the Enneagram as a tool for self-discovery. By understanding your own motivations and fears, you can communicate more effectively and create more fulfilling relationships.
 - Be patient and compassionate with yourself and others. Change takes time, and learning to communicate more effectively and build deeper connections requires patience and understanding.

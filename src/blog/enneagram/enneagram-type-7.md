@@ -268,7 +268,7 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/7",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-7",
         "type": "WebPage"
       },
       "publisher": {

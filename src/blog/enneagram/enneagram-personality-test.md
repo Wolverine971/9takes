@@ -98,8 +98,8 @@ where in you can be comfortable and at peace free from anger.
 
 Once you have identified the emotion that you interact with the most the next part is to deduce which type you are. Each core emotion forms a triad where it has 3 types under it. Or said another way each core emotion has 3 archetypes wherein there are different ways to cope with that emotion.
 
-- Anger, Types [8](/blog/enneagram/8), [9](/blog/enneagram/9), [1](/blog/enneagram/1)
-- Shame, Types [2](/blog/enneagram/2), [3](/blog/enneagram/3), [4](/blog/enneagram/4)
-- Fear, Types [5](/blog/enneagram/5), [6](/blog/enneagram/6), [7](/blog/enneagram/7)
+- Anger, Types [8](/blog/enneagram/enneagram-type-8), [9](/blog/enneagram/enneagram-type-9), [1](/blog/enneagram/enneagram-type-1)
+- Shame, Types [2](/blog/enneagram/enneagram-type-2), [3](/blog/enneagram/enneagram-type-3), [4](/blog/enneagram/enneagram-type-4)
+- Fear, Types [5](/blog/enneagram/enneagram-type-5), [6](/blog/enneagram/enneagram-type-6), [7](/blog/enneagram/enneagram-type-7)
 
 For now read the types and determine which if any you identify with. More to come!

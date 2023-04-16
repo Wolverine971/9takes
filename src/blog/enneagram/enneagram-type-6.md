@@ -300,7 +300,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/6",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-6",
         "type": "WebPage"
       },
       "publisher": {

@@ -165,7 +165,7 @@ export const joinEmail2 = () => {
                             </a>
                         </td>
                         <td valign="top" width="50%">
-                          <a href="https://9takes.com/blog/enneagram/communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                          <a href="https://9takes.com/blog/enneagram/enneagram-communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                         <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
                           src="https://9takes.com/blogs/communication-tips.webp">
                       </a>

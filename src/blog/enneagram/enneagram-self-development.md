@@ -1,6 +1,6 @@
 ---
-title: 'How the Enneagram can be used for personal growth and self-improvement'
-description: ''
+title: 'Enneagram Self Development'
+description: 'How the Enneagram can be used for personal growth and self-improvement'
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
@@ -39,7 +39,7 @@ The Enneagram can be used in many ways, but one of its most powerful application
 
 ### Starting Conversations and Connecting with Others
 
-The Enneagram offers a shared language and framework for understanding ourselves and others. By exploring your type and learning about the other types, you can gain a deeper appreciation for the diversity of human experience. You may also find it easier to connect with others and start meaningful conversations about personal growth and self-improvement. Checkout this blog for specific <a href="communication-tips">tips on communicating with different enneagram types.</a>
+The Enneagram offers a shared language and framework for understanding ourselves and others. By exploring your type and learning about the other types, you can gain a deeper appreciation for the diversity of human experience. You may also find it easier to connect with others and start meaningful conversations about personal growth and self-improvement. Checkout this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
 
 ### Making Sense of Yourself and Others
 
@@ -51,7 +51,7 @@ The Enneagram isn't just a theoretical framework - it can be used practically to
 
 ### Recognizing when you are stressed and doing well
 
-Each Enneagram type has a unique set of stress and comfort numbers, which can provide valuable insight into how we behave and react under different circumstances. By <a href="stress-number">understanding our own stress</a> and comfort numbers, we can become more aware of our patterns and tendencies, and work to break free from them.
+Each Enneagram type has a unique set of stress and comfort numbers, which can provide valuable insight into how we behave and react under different circumstances. By <a href="enneagram-stress-number">understanding our own stress</a> and comfort numbers, we can become more aware of our patterns and tendencies, and work to break free from them.
 
 ### Develop emotional awareness
 
@@ -92,7 +92,7 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   },
   "http://schema.org/keywords": "Enneagram, personal growth, self-improvement, decision-making, emotional awareness, goals, fears, self-awareness, compassion, empathy, relationships",
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/self-development",
+    "@id": "https://9takes.com/blog/enneagram/enneagram-self-development",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/publisher": {

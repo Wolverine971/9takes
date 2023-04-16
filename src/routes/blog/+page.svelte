@@ -26,14 +26,14 @@
 			<ul>
 				<!-- <li>History and origins of the Enneagram</li> -->
 				<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram lineage </a></li>
-				<li><a href="/blog/enneagram/tldr-enneagram"> Enneagram TLDR </a></li>
+				<li><a href="/blog/enneagram/enneagram-tldr"> Enneagram TLDR </a></li>
 				<li>
 					<a href="/blog/enneagram/enneagram-concepts">
 						Concepts and principles of the Enneagram
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/self-development">
+					<a href="/blog/enneagram/enneagram-self-development">
 						How the Enneagram can be used for personal growth and self-improvement
 					</a>
 				</li>
@@ -43,15 +43,15 @@
 				The Nine Enneagram Types
 			</h3>
 			<ul>
-				<li><a href="/blog/enneagram/1"> Type 1: The Perfectionist </a></li>
-				<li><a href="/blog/enneagram/2"> Type 2: The Helper </a></li>
-				<li><a href="/blog/enneagram/3"> Type 3: The Achiever </a></li>
-				<li><a href="/blog/enneagram/4"> Type 4: The Individualist </a></li>
-				<li><a href="/blog/enneagram/5"> Type 5: The Investigator </a></li>
-				<li><a href="/blog/enneagram/6"> Type 6: The Loyalist </a></li>
-				<li><a href="/blog/enneagram/7"> Type 7: The Enthusiast </a></li>
-				<li><a href="/blog/enneagram/8"> Type 8: The Challenger </a></li>
-				<li><a href="/blog/enneagram/9"> Type 9: The Peacemaker </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-1"> Type 1: The Perfectionist </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-2"> Type 2: The Helper </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-3"> Type 3: The Achiever </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-4"> Type 4: The Individualist </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-5"> Type 5: The Investigator </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-6"> Type 6: The Loyalist </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-7"> Type 7: The Enthusiast </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-8"> Type 8: The Challenger </a></li>
+				<li><a href="/blog/enneagram/enneagram-type-9"> Type 9: The Peacemaker </a></li>
 			</ul>
 			<h3 id="using-the-enneagram-for-personal-development">
 				<!-- <a href="#using-the-enneagram-for-personal-development"
@@ -66,7 +66,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/strengths-and-weaknesses">
+					<a href="/blog/enneagram/enneagram-strengths-and-weaknesses">
 						Understanding your strengths and weaknesses as an Enneagram type
 					</a>
 				</li>
@@ -87,19 +87,21 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-overview">
+					<a href="/blog/enneagram/enneagram-communication-overview">
 						How to communicate and interact effectively with different Enneagram types
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-tips"> Enneagram communication tips </a>
+					<a href="/blog/enneagram/enneagram-communication-tips"> Enneagram communication tips </a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-styles"> Enneagram communication styles </a>
+					<a href="/blog/enneagram/enneagram-communication-styles">
+						Enneagram communication styles
+					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/communication-relationships">
-						Using the Enneagram to improve communication and intimacy in relationships
+					<a href="/blog/enneagram/enneagram-communication-in-relationships">
+						Enneagram communication in relationships
 					</a>
 				</li>
 			</ul>
@@ -135,11 +137,11 @@
 			</h3>
 			<ul>
 				<li>
-					<a href="/blog/enneagram/faq"> Enneagram FAQ </a>
+					<a href="/blog/enneagram/enneagram-faqs"> Enneagram FAQs </a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/books-websites-podcasts">
-						Books and websites for learning more about the Enneagram
+					<a href="/blog/enneagram/enneagram-books-websites-podcasts">
+						Enneagram Books, websites and podcasts
 					</a>
 				</li>
 				<li style="text-decoration: line-through;">Enneagram tests and assessments</li>
@@ -161,7 +163,7 @@
 				</li>
 
 				<li>
-					<a href="/blog/enneagram/navigating-stress"
+					<a href="/blog/enneagram/enneagram-types-in-stress"
 						>Navigating Stress: How Each Enneagram Type Responds
 					</a>
 				</li>

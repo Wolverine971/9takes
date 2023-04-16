@@ -14,15 +14,15 @@ The Enneagram is divided into nine distinct personality types, each with its own
 
 The Enneagram identifies nine distinct personality types, each represented by a number. These numbers are:
 
-1. <a href="/blog/enneagram/1" >The Perfectionist</a>
-2. <a href="/blog/enneagram/2" >The Helper</a>
-3. <a href="/blog/enneagram/3" >The Achiever</a>
-4. <a href="/blog/enneagram/4" >The Individualist</a>
-5. <a href="/blog/enneagram/5" >The Investigator</a>
-6. <a href="/blog/enneagram/6" >The Loyalist</a>
-7. <a href="/blog/enneagram/7" >The Enthusiast</a>
-8. <a href="/blog/enneagram/8" >The Challenger</a>
-9. <a href="/blog/enneagram/9" >The Peacemaker</a>
+1. <a href="/blog/enneagram/enneagram-type-1" >The Perfectionist</a>
+2. <a href="/blog/enneagram/enneagram-type-2" >The Helper</a>
+3. <a href="/blog/enneagram/enneagram-type-3" >The Achiever</a>
+4. <a href="/blog/enneagram/enneagram-type-4" >The Individualist</a>
+5. <a href="/blog/enneagram/enneagram-type-5" >The Investigator</a>
+6. <a href="/blog/enneagram/enneagram-type-6" >The Loyalist</a>
+7. <a href="/blog/enneagram/enneagram-type-7" >The Enthusiast</a>
+8. <a href="/blog/enneagram/enneagram-type-8" >The Challenger</a>
+9. <a href="/blog/enneagram/enneagram-type-9" >The Peacemaker</a>
 
 Each of these types has a distinct worldview and set of behaviors, which are shaped by their core fears, desires, and motivations. By understanding these core motivations, individuals can gain a deeper understanding of their own behavior and how it impacts others.
 

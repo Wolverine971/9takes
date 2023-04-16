@@ -306,7 +306,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/9",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-9",
         "type": "WebPage"
       },
       "publisher": {

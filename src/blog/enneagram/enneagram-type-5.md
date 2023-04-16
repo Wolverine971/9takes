@@ -286,7 +286,7 @@ To help foster personal growth and development for individuals with a Type 5 per
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/5",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-5",
         "type": "WebPage"
       },
       "publisher": {

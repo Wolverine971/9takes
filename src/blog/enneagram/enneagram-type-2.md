@@ -275,7 +275,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         }
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/2",
+        "id": "https://9takes.com/blog/enneagram/enneagram-type-2",
         "type": "WebPage"
       },
       "publisher": {

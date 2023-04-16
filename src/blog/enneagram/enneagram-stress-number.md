@@ -1,6 +1,6 @@
 ---
-title: 'Unpacking your Enneagram stress number: How Knowing Your Stress Number Can Help You Thrive'
-description: ''
+title: 'Enneagram Stress Number'
+description: 'Unpacking your Enneagram stress number: How Knowing Your Stress Number Can Help You Thrive'
 author: 'DJ Wayne'
 date: '2023-03-26'
 published: true
@@ -96,7 +96,7 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   },
   "http://schema.org/keywords": "Enneagram, Stress Number, Personality Types, Relationships, Coping Mechanisms",
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/stress-number",
+    "@id": "https://9takes.com/blog/enneagram/enneagram-stress-number",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/publisher": {
