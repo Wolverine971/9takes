@@ -19,7 +19,6 @@
 
 	$: if (options?.length) {
 		const val = document.getElementById(id)?.value;
-		console.log(val);
 		showList(val);
 	}
 

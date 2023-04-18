@@ -13,7 +13,7 @@
 				showIcon={false}
 				text={'9takes Blogs'}
 				subtext={''}
-				aspectRatio={'16/5'}
+				aspectRatio={''}
 			/>
 		{/if}
 		<slot />

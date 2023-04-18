@@ -1,12 +1,14 @@
 ---
-title: 'Harnessing the Power of the Enneagram for Balanced and Diverse Teams'
-description: "Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success."
+title: 'Enneagram Team Diversity'
+description: "Harnessing the Power of the Enneagram for Balanced and Diverse Teams"
 author: 'DJ Wayne'
 date: '2023-04-01'
 published: true
 type: ['workplace']
 blog: true
 ---
+
+<!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
 
 In today's rapidly evolving business landscape, the ability to create balanced and diverse teams has become increasingly crucial for success. The Enneagram, a powerful personality typing system, offers valuable insights into understanding team dynamics and assembling the ideal mix of members. In this blog, we will explore the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations. By harnessing the power of the Enneagram, you can craft high-performing teams that excel in problem-solving, decision-making, and collaboration.
 

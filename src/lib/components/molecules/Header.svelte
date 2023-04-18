@@ -1,44 +1,130 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
-
 	import account from '$lib/images/account-circle.svg';
-	import { supabase } from '$lib/supabase';
-
-	import { invalidateAll } from '$app/navigation';
-	import type { PageData } from '../../../routes/$types';
+	import hamburger from '$lib/images/hamburger.svg';
 	import { onMount } from 'svelte';
+
+	import type { PageData } from '../../../routes/$types';
+	import NavbarLinks from './NavbarLinks.svelte';
+	import { afterUpdate } from 'svelte';
+	import { afterNavigate } from '$app/navigation';
 	export let data: PageData;
+	let innerWidth: number;
+	let isOpen = false;
+
+	afterNavigate(() => {
+		isOpen = false;
+	});
+
+	onMount(() => {
+		document.addEventListener('click', handleClickOutside);
+		innerWidth = window.innerWidth;
+	});
+
+	afterUpdate(() => {
+		innerWidth = window.innerWidth;
+	});
+
+	const handleClickOutside = (event) => {
+		const navbar = document.querySelector('.mobile-ham');
+		if (navbar && !navbar.contains(event.target)) {
+			isOpen = false;
+		}
+	};
+	const toggleNavbar = () => {
+		isOpen = !isOpen;
+	};
 </script>
 
-{#if data?.session?.user}
-	<header>
-		<nav class="navbar">
-			<div class="navbar-brand">
-				<!-- {#if data && data?.session && $page.url.pathname !== '/'}
-					<h1 class="brand-title">9takes</h1>
-				{/if} -->
+<svelte:window bind:innerWidth />
+
+<header>
+	{#if innerWidth < 760}
+		<div class="mobile-ham" style="">
+			<div class="corner-left">
+				<button
+					type="button"
+					on:click={toggleNavbar}
+					style="background: no-repeat; border-radius: 5px;"
+				>
+					<img src={hamburger} alt="hamburger menu" />
+				</button>
+				{#if isOpen}
+					<nav class="navbar mobile-navbar">
+						<div class="navbar-brand-mobile">
+							<NavbarLinks mobile={innerWidth < 760} />
+						</div>
+					</nav>
+				{/if}
+			</div>
+			<div style="position: absolute; left: 0; right: 0; margin: 0 auto; text-align: center;">
+				<h3>9takes</h3>
+			</div>
+
+			{#if data?.session?.user}
 				<div class="corner">
 					<a href="/account">
 						<img src={account} alt="Account" />
 					</a>
 				</div>
+			{/if}
+		</div>
+	{:else}
+		<nav class="navbar">
+			<div class="navbar-brand">
+				{#if data?.session?.user}
+					<div class="corner">
+						<a href="/account">
+							<img src={account} alt="Account" />
+						</a>
+					</div>
+				{/if}
+				<NavbarLinks mobile={innerWidth < 760} />
 			</div>
 		</nav>
-	</header>
-{/if}
+	{/if}
+	<!-- </Context> -->
+</header>
 
 <style lang="scss">
+	.mobile-ham {
+		display: flex;
+		align-items: center;
+		// position: absolute;
+		width: 100%;
+		justify-content: space-between;
+		z-index: 12334;
+	}
 	.navbar {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		border-radius: 5px;
+	}
+	.mobile-navbar {
+		background: white;
+		position: absolute;
+		z-index: 2314;
 	}
 
 	.navbar-brand {
 		display: flex;
 		align-items: center;
+		justify-content: center;
 		flex: 1;
+		// background-color: #e8edf1;
+
+		z-index: 1200;
+	}
+	.navbar-brand-mobile {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex: 1;
+		// background-color: #e8edf1;
+		border-radius: 5px;
+		border: 1px solid var(--color-theme-purple);
+
+		z-index: 1200;
 	}
 
 	.brand-title {
@@ -49,10 +135,28 @@
 
 	.corner {
 		margin: 1rem;
-		position: absolute;
+		// position: absolute;
 		right: 0;
-		top: 0;
+		// top: 0;
 		z-index: 13;
+	}
+	.corner-left {
+		margin: 1rem;
+		// position: absolute;
+		// left: 0;
+		// top: 0;
+		z-index: 13;
+
+		a {
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			width: 2em;
+			height: 2em;
+			object-fit: contain;
+		}
 	}
 	header {
 	}
@@ -76,7 +180,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		// --background: rgba(255, 255, 255, 0.7);
 	}
 
 	svg {

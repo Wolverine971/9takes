@@ -1,6 +1,6 @@
 ---
-title: 'Using the Enneagram to improve team dynamics and productivity'
-description: ''
+title: 'Enneagram Team Dynamics'
+description: 'Using the Enneagram to improve team dynamics and productivity'
 author: 'DJ Wayne'
 date: '2023-04-01'
 published: true
@@ -14,7 +14,7 @@ The Enneagram can be a powerful tool for improving team dynamics and productivit
 
 ### Building Balanced and Diverse Teams
 
-A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets. For instance, having both Type 1 (The Perfectionist) and Type 7 (The Enthusiast) on a team can balance the need for precision with the ability to think creatively and generate new ideas. By considering the Enneagram types of potential team members, managers can build balanced and diverse teams that can tackle complex challenges more effectively. Furthermore each type brings a new perspective to the table and lacking one type or having a majority of one type could lead to a sub-optimal dynamic. Check this out for more on <a href="team-diversity" >diversity in teams</a> .
+A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets. For instance, having both Type 1 (The Perfectionist) and Type 7 (The Enthusiast) on a team can balance the need for precision with the ability to think creatively and generate new ideas. By considering the Enneagram types of potential team members, managers can build balanced and diverse teams that can tackle complex challenges more effectively. Furthermore each type brings a new perspective to the table and lacking one type or having a majority of one type could lead to a sub-optimal dynamic. Check this out for more on <a href="enneagram-team-diversity" >diversity in teams</a> .
 
 ### Enhancing Communication and Conflict Resolution
 

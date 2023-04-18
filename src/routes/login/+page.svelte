@@ -2,7 +2,7 @@
 	import { redirect } from '@sveltejs/kit';
 </script>
 
-<main>
+<div>
 	<h1>Login</h1>
 	<form action="?/login" method="POST" class="auth-form">
 		<label for=""> Email </label>
@@ -15,7 +15,7 @@
 	<div>
 		<a href="/forgotPassword">Forgot Password</a>
 	</div>
-</main>
+</div>
 
 <style lang="scss">
 </style>

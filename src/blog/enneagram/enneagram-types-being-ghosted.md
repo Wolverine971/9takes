@@ -197,7 +197,7 @@ possible with self-compassion and care.
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/ghosting-the-types"
+    "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted"
   },
   "headline": "Ghosting and the Enneagram: How Each Type Responds",
   

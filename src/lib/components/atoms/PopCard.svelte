@@ -81,7 +81,11 @@
 		{/if}
 
 		<div class="screen-user">
-			<p class="name" data-value={text}>{text}</p>
+			{#if text}
+				<p class="name" data-value={text}>{text}</p>
+			{:else}
+				<p style="width: 100%;" />
+			{/if}
 			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a> -->
 			<p class="link">{subtext}</p>
 		</div>
@@ -441,6 +445,7 @@
 		.screen {
 			/* scale: 0.6; */
 			margin-bottom: 0rem;
+			width: 100%;
 		}
 
 		.screen-content {

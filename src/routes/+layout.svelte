@@ -36,7 +36,7 @@
 	<Toast />
 	{#if $page.url.pathname === '/'}
 		<Jumbotron
-			image={'background.webp'}
+			image={'background2.webp'}
 			showIcon={true}
 			text={'9takes'}
 			subtext={'Ask questions, share your story, get curious'}

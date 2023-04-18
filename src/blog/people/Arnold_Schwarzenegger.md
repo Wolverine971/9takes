@@ -17,8 +17,7 @@ type: ['celebrity']
 </script> 
 <div
 	style="display: flex;
-    justify-content: center;
-	"
+    justify-content: center;"
 >
 	<PopCard
 		image={`/types/3s/${'Arnold_Schwarzenegger'}.webp`}

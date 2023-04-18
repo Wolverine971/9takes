@@ -15,12 +15,9 @@ blog: true
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-<div
-	style="display: flex;
-    justify-content: center;
-	"
->
-	<PopCard
+<div style="display: flex;
+    justify-content: center;">
+<PopCard
 		image={`/blogs/working-in-teams.webp`}
 		showIcon={false}
 		text=""

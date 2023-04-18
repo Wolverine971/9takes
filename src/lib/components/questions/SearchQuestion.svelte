@@ -100,4 +100,10 @@
 		box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
 			0 1px 5px 0 rgb(0 0 0 / 12%);
 	}
+
+	@media (max-width: 768px) {
+		.question-form {
+			flex-direction: column;
+		}
+	}
 </style>

@@ -127,12 +127,12 @@
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/team-dynamics">
+					<a href="/blog/enneagram/enneagram-team-dynamics">
 						Using the Enneagram to improve team dynamics and productivity
 					</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/team-diversity">
+					<a href="/blog/enneagram/enneagram-team-diversity">
 						Harnessing the Power of the Enneagram for Balanced and Diverse Teams
 					</a>
 				</li>
@@ -163,7 +163,7 @@
 					<a href="/blog/enneagram/enneagram-types-at-party">Enneagram types at a party</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/ghosting-the-types"
+					<a href="/blog/enneagram/enneagram-types-being-ghosted"
 						>Impact of ghosting on mental health: An Enneagram perspective
 					</a>
 				</li>
@@ -241,7 +241,7 @@
 	.flex-columns {
 		margin: 20px;
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: wrap-reverse;
 		justify-content: space-between;
 	}
 	section {
