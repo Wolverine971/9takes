@@ -3,14 +3,18 @@ title: 'George H. W. Bush Enneagram Type 6'
 description: 'Why George H. W. Bush appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician']
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/types/6s/George_H_W_Bush.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

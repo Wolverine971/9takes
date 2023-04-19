@@ -4,10 +4,19 @@ title: 'Enneagram personal growth'
 description: 'Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering ideal environments, practical tips, and empowering self-talk mantras for each type. Unlock your full potential and embrace self-improvement tailored to you.'
 author: 'DJ Wayne'
 date: '2023-03-10'
+loc: 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['self-development']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personal-growth">
+</svelte:head>
 
 <!-- 3 step plan for personal growth -->
 

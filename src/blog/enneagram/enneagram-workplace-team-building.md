@@ -1,16 +1,20 @@
 ---
-title: 'How the Enneagram can be used for team building and leadership development'
-description: 'A tool for team building and leadership development, helping to improve communication, collaboration, and productivity'
+title: 'Enneagram workplace team building'
+description: 'How the Enneagram can be used for team building and leadership development'
 author: 'DJ Wayne'
 date: '2023-03-27'
+loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-workplace-team-building">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
@@ -125,7 +129,7 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 "http://schema.org/width": "1200"
 },
 "http://schema.org/mainEntityOfPage": {
-"@id": "https://9takes.com/blog/enneagram/workplace-team-building",
+"@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
 "@type": "http://schema.org/WebPage"
 },
 "http://schema.org/publisher": {

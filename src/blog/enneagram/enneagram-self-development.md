@@ -3,15 +3,20 @@ title: 'Enneagram Self Development'
 description: 'How the Enneagram can be used for personal growth and self-improvement'
 author: 'DJ Wayne'
 date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/enneagram-self-development'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/self-development.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-self-development">
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

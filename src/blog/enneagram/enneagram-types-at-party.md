@@ -3,15 +3,20 @@ title: 'Enneagram types at a party: How each type behaves'
 description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'
+loc: 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: 'situational'
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/party-in-street.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-at-party">
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

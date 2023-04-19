@@ -3,10 +3,19 @@ title: 'Beyoncé Knowles Enneagram Type 3'
 description: 'Why Beyoncé Knowles appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Beyonce_Knowles'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
 ---
+
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/3s/Beyonce_Knowles.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Beyonce_Knowles">
+</svelte:head>
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

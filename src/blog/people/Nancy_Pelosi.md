@@ -3,11 +3,19 @@ title: 'Nancy Pelosi Enneagram Type 3'
 description: 'Why Nancy Pelosi appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Nancy_Pelosi'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 3
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/3s/Nancy_Pelosi.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Nancy_Pelosi">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

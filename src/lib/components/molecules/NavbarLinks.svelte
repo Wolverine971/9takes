@@ -22,11 +22,13 @@
 		aria-current={$page.url.pathname === '/' ? 'page' : undefined}>Home</a
 	>
 	<div class="main-subnav">
-		<button class="main-subnavbtn" style="background: {isMobile && 'white'};">
-			<a href="/blog" style="padding: 14px 0px; pointer-events: {isMobile && 'none'}"
-				>Enneagram Blog
-			</a>
-		</button>
+		<!-- <button class="main-subnavbtn" style="background: {isMobile && 'white'};">
+			
+			
+		</button> -->
+		<button class="main-subnavbtn" style="background: {isMobile && 'white'};"
+			>Enneagram Blog<i class="fa fa-caret-down" /></button
+		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
 			<div class="subnav">
 				<button class="subnavbtn">Overview<i class="fa fa-caret-down" /></button>
@@ -56,7 +58,7 @@
 				<button class="subnavbtn">Personal Development <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-personality-test">Determining your type</a>
-					<a href="/blog/enneagram/enneagram-self-development">Self Development</a>
+					<a href="/blog/enneagram/enneagram-self-development">Self development</a>
 					<a href="/blog/enneagram/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a>
 					<a href="/blog/enneagram/personal-growth">Growth strategies</a>
 				</div>
@@ -72,9 +74,10 @@
 			<div class="subnav">
 				<button class="subnavbtn">Workplace <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/workplace-team-building">Team building</a>
-					<a href="/blog/enneagram/enneagram-team-dynamics">Working in teams</a>
+					<a href="/blog/enneagram/enneagram-workplace-team-building">Team building</a>
+					<a href="/blog/enneagram/enneagram-types-working-in-teams">Working in teams</a>
 					<a href="/blog/enneagram/enneagram-team-dynamics">Team dynamics</a>
+					<a href="/blog/enneagram/enneagram-team-diversity">Team diversity</a>
 				</div>
 			</div>
 			<div class="subnav">

@@ -3,11 +3,19 @@ title: 'Johnny Depp Enneagram Type 4'
 description: 'Why Johnny Depp appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Johnny_Depp'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 4
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/4s/Johnny_Depp.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Johnny_Depp">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

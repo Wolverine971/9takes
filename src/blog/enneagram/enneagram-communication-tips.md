@@ -3,14 +3,18 @@ title: 'Enneagram communication tips'
 description: 'Different personalities have subtle quirks to how they communicate, here are some tips to optimize your communication with them'
 author: 'DJ Wayne'
 date: '2023-02-27'
+loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/communication-tips.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

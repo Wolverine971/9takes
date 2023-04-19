@@ -3,11 +3,19 @@ title: 'Oprah Winfrey Enneagram Type 3'
 description: 'Why Oprah Winfrey appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Oprah_Winfrey'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/3s/Oprah_Winfrey.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Oprah_Winfrey">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

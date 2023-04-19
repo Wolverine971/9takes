@@ -3,14 +3,18 @@ title: 'Enneagram Communication Styles'
 description: 'How would you describe your own communication style and which communication styles feel most familiar and foreign'
 author: 'DJ Wayne'
 date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-styles">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

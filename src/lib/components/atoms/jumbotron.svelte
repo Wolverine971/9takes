@@ -42,7 +42,7 @@
 		}
 	});
 	const scribbleScrabble = () => {
-		let name = document.querySelector('.name');
+		let name = document.querySelector('.jumbo-name');
 		let iteration = 0;
 
 		clearInterval(interval);
@@ -84,13 +84,13 @@
 			<img
 				class="screen-icon fa-brands fa-codepen"
 				src="enneagram.svg"
-				alt=""
+				alt="enneagram symbol"
 				style="width: 10%;"
 			/>
 		{/if}
 
 		<div class="screen-user">
-			<p class="name" data-value={text}>{text}</p>
+			<p class="jumbo-name" data-value={text}>{text}</p>
 			{#if subtext}
 				<p class="link">{subtext}</p>
 			{/if}

@@ -3,11 +3,18 @@ title: 'Frida Kahlo Enneagram Type 4'
 description: 'Why Frida Kahlo appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Frida_Kahlo'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 4
 type: ['artist']
 ---
-
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/4s/Frida_Kahlo.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Frida_Kahlo">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

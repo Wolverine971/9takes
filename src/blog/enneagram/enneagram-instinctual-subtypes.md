@@ -3,10 +3,19 @@ title: 'Enneagram Instinctual Subtypes'
 description: ''
 author: 'DJ Wayne'
 date: '2023-02-28'
+loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes">
+</svelte:head>
 
 ## What are Enneagram subtypes?
 

@@ -117,7 +117,7 @@
 			</h3>
 			<ul>
 				<li>
-					<a href="/blog/enneagram/workplace-team-building">
+					<a href="/blog/enneagram/enneagram-workplace-team-building">
 						How the Enneagram can be used for team building and leadership development
 					</a>
 				</li>

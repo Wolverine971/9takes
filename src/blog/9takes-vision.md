@@ -3,6 +3,10 @@ title: '9takes vision'
 description: '9takes Enneagram Overview'
 author: 'DJ Wayne'
 date: '2023-02-10'
+loc: 'https://9takes.com'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: false
 type: ['overview']
 blog: true

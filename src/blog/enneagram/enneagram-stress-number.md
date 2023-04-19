@@ -3,14 +3,18 @@ title: 'Enneagram Stress Number'
 description: 'Unpacking your Enneagram stress number: How Knowing Your Stress Number Can Help You Thrive'
 author: 'DJ Wayne'
 date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/enneagram-stress-number'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/stressed.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-stress-number">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

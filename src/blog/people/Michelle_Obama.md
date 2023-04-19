@@ -3,11 +3,19 @@ title: 'Michelle Obama Enneagram Type 1'
 description: 'Why Michelle Obama appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'hhttps://9takes.com/blog/famous-enneagram-types/Michelle_Obama'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 1
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/1s/Michelle_Obama.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Michelle_Obama">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

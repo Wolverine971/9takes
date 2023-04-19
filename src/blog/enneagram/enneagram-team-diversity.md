@@ -3,10 +3,19 @@ title: 'Enneagram Team Diversity'
 description: "Harnessing the Power of the Enneagram for Balanced and Diverse Teams"
 author: 'DJ Wayne'
 date: '2023-04-01'
+loc: 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['workplace']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-diversity">
+</svelte:head>
 
 <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
 

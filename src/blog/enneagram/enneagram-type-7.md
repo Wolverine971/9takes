@@ -3,9 +3,18 @@ title: 'Enneagram Type 7: The Enthusiast'
 description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-7">
+</svelte:head>
 
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";

@@ -3,11 +3,19 @@ title: 'Winston Churchill Enneagram Type 8'
 description: 'Why Winston Churchill appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Winston_Churchill'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/8s/Winston_Churchill.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Winston_Churchill">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

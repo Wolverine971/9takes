@@ -3,6 +3,10 @@ title: 'Enneagram Overview'
 description: 'To establish topical authority'
 author: 'DJ Wayne'
 date: '2023-03-05'
+loc: 'https://9takes.com'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: false
 type: ['overview']
 ---

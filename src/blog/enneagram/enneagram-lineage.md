@@ -1,16 +1,22 @@
 ---
-title: 'The Enneagram and its Philosophical Lineage: Plato and Freud Revisited'
-description: 'Spiritual teachers, Freud and Plato'
+title: 'The Enneagram lineage and its philosophical and psychological roots'
+description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
 date: '2023-02-10'
+loc: 'https://9takes.com/blog/enneagram/enneagram-lineage'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
+  <!-- <meta property="og:image" content="" /> -->
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-lineage">
+
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

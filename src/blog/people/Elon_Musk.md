@@ -3,11 +3,19 @@ title: 'Elon Musk Enneagram Type 5'
 description: 'Why Elon Musk appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Elon_Musk'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/5s/Elon_Musk.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Elon_Musk">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

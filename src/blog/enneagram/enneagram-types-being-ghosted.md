@@ -3,10 +3,19 @@ title: 'Enneagram types being ghosted'
 description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow each type handles being ghosted'
 author: 'DJ Wayne'
 date: '2023-02-10'
+loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: 'situational'
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
+</svelte:head>
 
 In the perplexing realm of modern relationships, ghosting has emerged as a bewildering phenomenon, leaving those on the receiving end grappling with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this captivating exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.
 

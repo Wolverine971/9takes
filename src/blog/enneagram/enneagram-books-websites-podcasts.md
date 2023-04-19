@@ -3,10 +3,20 @@ title: 'Enneagram Books, Websites and Podcasts'
 description: 'Discover the best Enneagram books, websites, and podcasts for personal growth and understanding. Dive deeper into this powerful system today.'
 author: 'DJ Wayne'
 date: '2023-04-01'
+loc: 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['resources']
 blog: true
 ---
+
+<svelte:head>
+
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts">
+</svelte:head>
 
 ### Essential Enneagram Books
 

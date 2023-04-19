@@ -3,11 +3,19 @@ title: 'Ellen Degeneres Enneagram Type 6'
 description: 'Why Ellen Degeneres appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Ellen_Degeneres'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/6s/Ellen_Degeneres.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ellen_Degeneres">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

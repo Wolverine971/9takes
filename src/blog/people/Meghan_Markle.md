@@ -3,11 +3,19 @@ title: 'Meghan Markle Enneagram Type 2'
 description: 'Why Meghan Markle appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Meghan_Markle'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 2
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/2s/Meghan_Markle.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Meghan_Markle">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

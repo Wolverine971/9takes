@@ -3,6 +3,10 @@ title: 'Barack Obama Enneagram Type 9'
 description: 'Why Barack Obama appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Barack_Obama'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
@@ -11,6 +15,7 @@ type: ['politician']
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/9s/Barack_Obama.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Barack_Obama">
 </svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

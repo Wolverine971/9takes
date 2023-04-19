@@ -26,6 +26,10 @@ declare namespace App {
 		author: string;
 		description: string;
 		date: string;
+		loc: string;
+		lastmod: string;
+		changefreq: string;
+		priority: string;
 		published: boolean;
 	}
 }

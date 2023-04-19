@@ -3,11 +3,19 @@ title: 'The Three-Sided Die'
 description: 'Exploring the Complexity of Human Thought, Feeling and Behavior'
 author: 'DJ Wayne'
 date: '2023-04-17'
+loc: 'https://9takes.com/blog/community/three-sided-die'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: false
 type: ['overview']
 blog: true
 ---
 
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/community/three-sided-die">
+</svelte:head>
 
 
 <!-- create a full blog around this content:

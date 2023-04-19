@@ -3,15 +3,20 @@ title: 'Bernie Sanders Enneagram Type 9'
 description: 'Why Bernie Sanders appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Bernie_Sanders'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/types/9s/Bernie_Sanders.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bernie_Sanders">
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> 

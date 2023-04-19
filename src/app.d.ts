@@ -45,6 +45,10 @@ declare global {
 			author: string;
 			description: string;
 			date: string;
+			loc: string;
+			lastmod: string;
+			changefreq: string;
+			priority: string;
 			published: boolean;
 			type?: string[];
 			enneagram: number;

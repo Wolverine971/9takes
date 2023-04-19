@@ -3,9 +3,18 @@ title: 'Enneagram Type 5: The Observer'
 description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-5">
+</svelte:head>
 
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";

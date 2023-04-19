@@ -40,9 +40,9 @@
 			{ name: 'Jackie_Kennedy', link: true }
 		],
 		5: [
-			{ name: 'Bill_Gates', link: true },
+			{ name: 'Bill_Gates', link: false },
 
-			{ name: 'Elon_Musk', link: true },
+			{ name: 'Elon_Musk', link: false },
 			{ name: 'Emily_Dickinson', link: false },
 			{ name: 'Stephen_Hawking', link: false },
 			{ name: 'Albert_Einstein', link: false },

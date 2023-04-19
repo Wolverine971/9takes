@@ -3,11 +3,19 @@ title: 'Mr. Rogers Enneagram Type 2'
 description: 'Why Mr. Rogers appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Mr_Rogers'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/2s/Mr_Rogers.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Mr_Rogers">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

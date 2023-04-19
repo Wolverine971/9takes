@@ -3,11 +3,19 @@ title: 'How to determine your Enneagram type'
 description: 'Overview for how to determine/ deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
+loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personality-test">
+</svelte:head>
 <!-- Take a free, ~5 min test here -->
 
 ## Background on determining your Enneagram type

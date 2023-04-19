@@ -36,29 +36,30 @@
 		}
 	});
 	const scribbleScrabble = () => {
-		let name = document.querySelector('.name');
+		let name = document.querySelector('.name-pop');
 		let iteration = 0;
 
 		clearInterval(interval);
+		if (name) {
+			interval = setInterval(() => {
+				name.innerText = text
+					.split('')
+					.map((letter, index) => {
+						if (index < iteration) {
+							return name.dataset.value[index];
+						}
 
-		interval = setInterval(() => {
-			name.innerText = text
-				.split('')
-				.map((letter, index) => {
-					if (index < iteration) {
-						return name.dataset.value[index];
-					}
+						return letters[Math.floor(Math.random() * 26)];
+					})
+					.join('');
 
-					return letters[Math.floor(Math.random() * 26)];
-				})
-				.join('');
+				if (iteration >= name.dataset.value.length) {
+					clearInterval(interval);
+				}
 
-			if (iteration >= name.dataset.value.length) {
-				clearInterval(interval);
-			}
-
-			iteration += 1 / 3;
-		}, 30);
+				iteration += 1 / 3;
+			}, 30);
+		}
 	};
 </script>
 
@@ -75,14 +76,14 @@
 			<img
 				class="screen-icon fa-brands fa-codepen"
 				src="enneagram.svg"
-				alt=""
+				alt="enneagram symbol"
 				style="width: 10%;"
 			/>
 		{/if}
 
 		<div class="screen-user">
 			{#if text}
-				<p class="name" data-value={text}>{text}</p>
+				<p class="name-pop" data-value={text}>{text}</p>
 			{:else}
 				<p style="width: 100%;" />
 			{/if}

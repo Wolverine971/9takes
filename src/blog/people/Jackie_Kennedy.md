@@ -3,10 +3,19 @@ title: 'Jackie Kennedy Enneagram Type 4'
 description: 'Why Jackie Kennedy appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Jackie_Kennedy'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 4
 type: ['politician']
 ---
+
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/4s/Jackie_Kennedy.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jackie_Kennedy">
+</svelte:head>
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

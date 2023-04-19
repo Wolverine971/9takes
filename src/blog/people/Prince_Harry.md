@@ -3,11 +3,19 @@ title: 'Prince Harry Enneagram Type 6'
 description: 'Why Prince Harry appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Prince_Harry'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/6s/Prince_Harry.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Prince_Harry">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

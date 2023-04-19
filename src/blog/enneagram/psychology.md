@@ -3,10 +3,21 @@ title: 'Psychology'
 description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/psychology'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: false
 type: ['overview']
 blog: true
 ---
+
+<svelte:head>
+  <meta property="og:image" content="" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/psychology">
+</svelte:head>
+
+
 
 | Page Number | Topic                                                                              | Author                   |
 | ----------- | ---------------------------------------------------------------------------------- | ------------------------ |

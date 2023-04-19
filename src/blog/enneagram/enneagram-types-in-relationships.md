@@ -3,10 +3,19 @@ title: 'Understanding Enneagram types in relationships'
 description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
+loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
+</svelte:head>
 
 It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.
 

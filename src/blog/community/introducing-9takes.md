@@ -1,13 +1,21 @@
 ---
 title: 'Introducing 9takes'
-description: 'Question and Answering Inspired by the Enneagram'
+description: 'Questions and answers inspired by the Enneagram'
 author: 'DJ Wayne'
 date: '2023-04-17'
+loc: 'https://9takes.com/blog/community/introducing-9takes'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: false
 type: ['overview']
 blog: true
 ---
 
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
+</svelte:head>
 
 
 <!-- big long panel of people experienceing anger fear and shame -->

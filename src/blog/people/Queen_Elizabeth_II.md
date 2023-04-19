@@ -3,11 +3,19 @@ title: 'Queen Elizabeth II Enneagram Type 9'
 description: 'Why Queen Elizabeth II appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Queen_Elizabeth_II'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/9s/Queen_Elizabeth_II.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Queen_Elizabeth_II">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

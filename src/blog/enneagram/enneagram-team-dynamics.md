@@ -3,10 +3,19 @@ title: 'Enneagram Team Dynamics'
 description: 'Using the Enneagram to improve team dynamics and productivity'
 author: 'DJ Wayne'
 date: '2023-04-01'
+loc: 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['workplace']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
+</svelte:head>
 
 ### Identifying Strengths and Weaknesses with the Enneagram
 
@@ -22,7 +31,7 @@ The Enneagram can also play a crucial role in improving communication among team
 
 ### Fostering Personal and Professional Growth
 
-One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. By identifying areas for improvement, team members can create individual development plans and set goals to enhance their performance. For instance, a Type 4 (The Individualist) may focus on developing their collaborative skills, while a Type 8 (The Challenger) might work on honing their empathy and active listening. This targeted growth can lead to a more cohesive and productive team. Check out <a href="personal-growth" >strategies for personal growth here</a>.
+One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. By identifying areas for improvement, team members can create individual development plans and set goals to enhance their performance. For instance, a Type 4 (The Individualist) may focus on developing their collaborative skills, while a Type 8 (The Challenger) might work on honing their empathy and active listening. This targeted growth can lead to a more cohesive and productive team. Check out <a href="enneagram-personal-growth" >strategies for personal growth here</a>.
 
 ### Creating a Supportive and Empathetic Work Environment
 

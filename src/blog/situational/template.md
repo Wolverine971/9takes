@@ -3,6 +3,10 @@ title: 'Situational blogs'
 description: 'Enneagram in situations'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: false
 type: ['overview']
 ---

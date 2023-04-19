@@ -3,15 +3,20 @@ title: 'Enneagram types working in teams'
 description: 'Understanding how different Enneagram types work together in teams'
 author: 'DJ Wayne'
 date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/blogs/team-building.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-working-in-teams">
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

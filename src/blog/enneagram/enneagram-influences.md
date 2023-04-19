@@ -3,10 +3,19 @@ title: 'Enneagram Influences'
 description: 'Differing traditions and schools of thought that wrestle with and influence the enneagram'
 author: 'DJ Wayne'
 date: '2023-03-02'
+loc: 'https://9takes.com/blog/enneagram/enneagram-influences'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
+</svelte:head>
 
 ## Origins of the Enneagram
 

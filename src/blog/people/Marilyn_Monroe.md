@@ -3,11 +3,19 @@ title: 'Marilyn Monroe Enneagram Type 6'
 description: 'Why Marilyn Monroe appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Marilyn_Monroe'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/6s/Marilyn_Monroe.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Marilyn_Monroe">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

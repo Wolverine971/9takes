@@ -3,9 +3,18 @@ title: 'Enneagram Type 8: The Challenger'
 description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/enneagram/enneagram-type-8"'
+lastmod: ''
+changefreq: 'weekly'
+priority: '0.6'
 published: true
 type: ['overview']
 ---
+
+<svelte:head>
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-8">
+</svelte:head>
 
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";

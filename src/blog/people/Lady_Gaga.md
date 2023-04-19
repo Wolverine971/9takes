@@ -3,11 +3,19 @@ title: 'Lady Gaga Enneagram Type 3'
 description: 'Why Lady Gaga appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-02-18'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Lady_Gaga'
+lastmod: ''
+changefreq: 'monthly'
+priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
 ---
 
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/types/3s/Lady_Gaga.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lady_Gaga">
+</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
