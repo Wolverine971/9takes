@@ -4,7 +4,7 @@ description: 'Why Peter Thiel appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Peter_Thiel'
-lastmod: ''
+lastmod: '2023-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: false

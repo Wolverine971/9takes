@@ -4,7 +4,7 @@ description: 'Differing traditions and schools of thought that wrestle with and 
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/blog/enneagram/enneagram-influences'
-lastmod: ''
+lastmod: '2023-04-06'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

@@ -4,7 +4,7 @@ description: 'Overview for how to determine/ deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

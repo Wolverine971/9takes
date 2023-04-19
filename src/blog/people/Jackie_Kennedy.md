@@ -4,7 +4,7 @@ description: 'Why Jackie Kennedy appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jackie_Kennedy'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

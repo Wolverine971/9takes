@@ -4,7 +4,7 @@ description: 'Why Frida Kahlo appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Frida_Kahlo'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -88,6 +88,21 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
       "width": 600,
       "height": 60
     }
+  },
+  "http://schema.org/mentions": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "Frida Kahlo",
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+      },
+      {
+        "@id": "https://www.fridakahlo.org/"
+      },
+      {
+        "@id": "https://www.britannica.com/biography/Frida-Kahlo"
+      }
+    ]
   },
    "description": "Frida Kahlo's unique artistic style reflected her Enneagram Type 4 personality, the Individualist. This blog post explores the emotional depth, creativity, search for authenticity, and intensity of Frida Kahlo's art.",
   "articleBody": "Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist."

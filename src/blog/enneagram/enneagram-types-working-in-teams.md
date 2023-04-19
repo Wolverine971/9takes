@@ -4,7 +4,7 @@ description: 'Understanding how different Enneagram types work together in teams
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

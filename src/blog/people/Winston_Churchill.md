@@ -4,7 +4,7 @@ description: 'Why Winston Churchill appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Winston_Churchill'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

@@ -36,6 +36,11 @@
 	};
 </script>
 
+<!-- <script type="application/ld+json">
+
+
+</script> -->
+
 <svelte:window bind:innerWidth />
 
 <header>

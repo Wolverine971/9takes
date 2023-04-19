@@ -4,7 +4,7 @@ description: 'Different personalities have subtle quirks to how they communicate
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

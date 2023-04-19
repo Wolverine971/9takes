@@ -3,7 +3,14 @@
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 </script>
 
-<BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />
+<BlogPageHead
+	data={{ title: '9takes Blog', description: 'List of blogs about the Enneagram and 9takes' }}
+	slug={'/'}
+/>
+
+<svelte:head>
+	<link rel="canonical" href="https://9takes.com/blog" />
+</svelte:head>
 
 <!-- <Jumbotron
 		image={'background2.png'}

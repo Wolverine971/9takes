@@ -4,7 +4,7 @@ description: 'Navigating Stress: How Each Enneagram Type Responds'
 author: 'DJ Wayne'
 date: '2023-04-14'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-stress"'
-lastmod: ''
+lastmod: '2023-04-10'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

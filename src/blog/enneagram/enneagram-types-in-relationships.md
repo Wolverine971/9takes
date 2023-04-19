@@ -4,7 +4,7 @@ description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

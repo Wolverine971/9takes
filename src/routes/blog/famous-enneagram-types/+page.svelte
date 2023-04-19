@@ -31,6 +31,9 @@
 	}}
 	slug={'/blog/famous-enneagram-types'}
 />
+<svelte:head>
+	<link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types" />
+</svelte:head>
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
 <div class="blog-list">

@@ -4,7 +4,7 @@ description: 'How the Enneagram can be used for personal growth and self-improve
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-self-development'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

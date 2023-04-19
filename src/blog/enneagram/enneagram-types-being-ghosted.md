@@ -4,7 +4,7 @@ description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow e
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: ''
+lastmod: '2023-04-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

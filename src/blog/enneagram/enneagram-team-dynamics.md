@@ -4,7 +4,7 @@ description: 'Using the Enneagram to improve team dynamics and productivity'
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
-lastmod: ''
+lastmod: '2023-04-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

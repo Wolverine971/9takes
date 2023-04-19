@@ -9,6 +9,7 @@
 <svelte:head>
 	<title>About 9takes</title>
 	<meta name="description" content="About 9takes" />
+	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
 
 <div class="text-column">

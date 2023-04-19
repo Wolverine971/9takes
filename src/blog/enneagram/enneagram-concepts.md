@@ -4,7 +4,7 @@ description: ''
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-concepts'
-lastmod: ''
+lastmod: '2023-04-15'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

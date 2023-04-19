@@ -4,7 +4,7 @@ description: "Harnessing the Power of the Enneagram for Balanced and Diverse Tea
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
-lastmod: ''
+lastmod: '2023-04-17'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

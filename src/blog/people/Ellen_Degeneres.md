@@ -4,7 +4,7 @@ description: 'Why Ellen Degeneres appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Ellen_Degeneres'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

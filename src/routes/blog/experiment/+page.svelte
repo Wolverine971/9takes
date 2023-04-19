@@ -1354,6 +1354,12 @@
 	};
 </script>
 
+<svelte:head>
+	<title>9takes 1 minute experiment</title>
+	<meta name="description" content="An experiment examining emotions" />
+	<link rel="canonical" href="https://9takes.com/blog/experiment" />
+</svelte:head>
+
 <!-- <h1>EXPERIMENT</h1> -->
 <h1>One minute experiment</h1>
 

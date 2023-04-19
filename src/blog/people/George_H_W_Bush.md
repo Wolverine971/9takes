@@ -4,7 +4,7 @@ description: 'Why George H. W. Bush appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -52,38 +52,62 @@ In conclusion, George H.W. Bush's Enneagram Type 6 traits are evident in his col
 
 <div>
 <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush"
+{
+  "@type": "http://schema.org/Article",
+  "http://schema.org/articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
   },
-  "headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/types/6s/George_H_W_Bush.webp",
-    "height": 800,
-    "width": 1200
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-10"
   },
-  "datePublished": "2023-03-10",
-  "dateModified": "2023-03-10",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-10"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
-      "width": 600,
-      "height": 60
-    }
+  "http://schema.org/description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life and presidency",
+  "http://schema.org/headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 800,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/types/6s/George_H_W_Bush.webp"
+    },
+    "http://schema.org/width": 1200
   },
-  "description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life and presidency",
-  "articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis..."
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/mentions": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "George H. W. Bush",
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/George_H._W._Bush"
+      },
+      {
+        "@id": "https://www.whitehouse.gov/about-the-white-house/presidents/george-h-w-bush/"
+      },
+      {
+        "@id": "https://www.britannica.com/biography/George-H-W-Bush"
+      }
+    ]
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": 60,
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/enneagram.svg"
+      },
+      "http://schema.org/width": 600
+    },
+    "http://schema.org/name": "9takes"
+  }
 }
 </script>
 

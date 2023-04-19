@@ -4,7 +4,7 @@ description: 'How to communicate and interact effectively with different Enneagr
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-overview'
-lastmod: ''
+lastmod: '2023-03-26'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
