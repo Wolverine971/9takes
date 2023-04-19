@@ -1,12 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
-	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
-	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
-	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	import Card from '$lib/components/atoms/card.svelte';
-	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
-	// export let data: PageData;
 </script>
 
 <BlogPageHead data={{ title: '9takes Blog', description: 'List of blogs' }} slug={'/'} />

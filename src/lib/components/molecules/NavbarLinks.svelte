@@ -18,15 +18,17 @@
 <div class="navbar-blogs ">
 	<a
 		href="/"
-		class={$page.url.pathname === '/' ? 'current' : ''}
+		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/' && 'current'}"
 		aria-current={$page.url.pathname === '/' ? 'page' : undefined}>Home</a
 	>
-	<div class="main-subnav">
+	<div class="main-subnav" style="margin: {!isMobile && '1rem'}">
 		<!-- <button class="main-subnavbtn" style="background: {isMobile && 'white'};">
 			
 			
 		</button> -->
-		<button class="main-subnavbtn" style="background: {isMobile && 'white'};"
+		<button
+			class="main-subnavbtn {!isMobile && 'big-btn'} {!isMobile && 'subnavbtn'}"
+			style="background: {isMobile && 'white'}; border: {isMobile && 'none'};"
 			>Enneagram Blog<i class="fa fa-caret-down" /></button
 		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
@@ -60,7 +62,7 @@
 					<a href="/blog/enneagram/enneagram-personality-test">Determining your type</a>
 					<a href="/blog/enneagram/enneagram-self-development">Self development</a>
 					<a href="/blog/enneagram/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a>
-					<a href="/blog/enneagram/personal-growth">Growth strategies</a>
+					<a href="/blog/enneagram/enneagram-personal-growth">Growth strategies</a>
 				</div>
 			</div>
 			<div class="subnav">
@@ -104,12 +106,18 @@
 	</div>
 	<a
 		href="/about"
-		class={$page.url.pathname === '/about' ? 'current' : ''}
+		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/about' && 'current'}"
 		aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>About</a
 	>
 </div>
 
 <style lang="scss">
+	.big-btn {
+		background: no-repeat;
+		border-radius: 5px;
+		border: 1px solid var(--color-theme-purple);
+		background-color: white;
+	}
 	.current {
 		color: var(--color-theme-purple);
 		text-decoration: underline;
@@ -133,6 +141,10 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		&:after {
+			mix-blend-mode: difference;
+		}
 	}
 
 	.navbar-blogs a {
@@ -214,7 +226,7 @@
 		// font-size: 16px;
 		display: flex;
 		align-items: center;
-		border: none;
+		// border: none;
 		outline: none;
 		box-sizing: border-box;
 		color: var(--color-theme-purple);
@@ -223,6 +235,13 @@
 		// background-color: inherit;
 		// font-family: inherit;
 		// margin: 0;
+		z-index: 1234;
+		// float: left;
+		font-size: 16px;
+		color: var(--color-theme-purple);
+		text-align: center;
+		padding: 14px 16px;
+		// text-decoration: none;
 		z-index: 1234;
 	}
 

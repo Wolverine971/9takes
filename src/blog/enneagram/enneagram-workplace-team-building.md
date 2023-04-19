@@ -4,7 +4,7 @@ description: 'How the Enneagram can be used for team building and leadership dev
 author: 'DJ Wayne'
 date: '2023-03-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
-lastmod: ''
+lastmod: '2023-03-27'
 changefreq: 'weekly'
 priority: '0.6'
 published: true

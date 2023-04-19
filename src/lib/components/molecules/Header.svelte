@@ -6,7 +6,8 @@
 	import type { PageData } from '../../../routes/$types';
 	import NavbarLinks from './NavbarLinks.svelte';
 	import { afterUpdate } from 'svelte';
-	import { afterNavigate } from '$app/navigation';
+	import { afterNavigate, goto } from '$app/navigation';
+	import { page } from '$app/stores';
 	export let data: PageData;
 	let innerWidth: number;
 	let isOpen = false;
@@ -39,13 +40,9 @@
 
 <header>
 	{#if innerWidth < 760}
-		<div class="mobile-ham" style="">
+		<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
 			<div class="corner-left">
-				<button
-					type="button"
-					on:click={toggleNavbar}
-					style="background: no-repeat; border-radius: 5px;"
-				>
+				<button type="button" on:click={toggleNavbar} class="corner-icon">
 					<img src={hamburger} alt="hamburger menu" />
 				</button>
 				{#if isOpen}
@@ -56,29 +53,46 @@
 					</nav>
 				{/if}
 			</div>
-			<div style="position: absolute; left: 0; right: 0; margin: 0 auto; text-align: center;">
-				<h3>9takes</h3>
-			</div>
+			{#if $page.url.pathname !== '/'}
+				<div style="position: absolute; left: 0; right: 0; margin: 0 auto; text-align: center;">
+					<h3>9takes</h3>
+				</div>
+			{/if}
 
 			{#if data?.session?.user}
 				<div class="corner">
-					<a href="/account">
+					<button
+						type="button"
+						on:click={() => {
+							goto('/account');
+						}}
+						class="corner-icon"
+					>
 						<img src={account} alt="Account" />
-					</a>
+					</button>
 				</div>
 			{/if}
 		</div>
 	{:else}
-		<nav class="navbar">
+		<nav class="{innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' && 'absolute-pos'}">
 			<div class="navbar-brand">
+				<div>
+					<NavbarLinks mobile={innerWidth < 760} />
+				</div>
 				{#if data?.session?.user}
-					<div class="corner">
-						<a href="/account">
+					<div class="corner-right-big">
+						<button
+							type="button"
+							on:click={() => {
+								goto('/account');
+							}}
+							style=""
+							class="corner-icon"
+						>
 							<img src={account} alt="Account" />
-						</a>
+						</button>
 					</div>
 				{/if}
-				<NavbarLinks mobile={innerWidth < 760} />
 			</div>
 		</nav>
 	{/if}
@@ -86,6 +100,19 @@
 </header>
 
 <style lang="scss">
+	.absolute-pos {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.corner-icon {
+		background: no-repeat;
+		border-radius: 5px;
+		border: 1px solid var(--color-theme-purple);
+		background-color: white;
+	}
 	.mobile-ham {
 		display: flex;
 		align-items: center;
@@ -97,6 +124,12 @@
 	.navbar {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
+		border-radius: 5px;
+	}
+	.big-navbar {
+		display: flex;
+		justify-content: center;
 		align-items: center;
 		border-radius: 5px;
 	}
@@ -139,6 +172,24 @@
 		right: 0;
 		// top: 0;
 		z-index: 13;
+	}
+	.corner-right-big {
+		margin: 1rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 13;
+
+		a {
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			width: 2em;
+			height: 2em;
+			object-fit: contain;
+		}
 	}
 	.corner-left {
 		margin: 1rem;

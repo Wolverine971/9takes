@@ -344,22 +344,22 @@
 		translate: 26px calc(-1rem - 0.5px);
 	}
 
-	.screen > .screen-content > .screen-user > :is(.name, .link) {
+	.screen > .screen-content > .screen-user > :is(.name-pop, .link) {
 		font-family: 'Source Code Pro', monospace;
 		color: white;
 		text-align: center;
 		text-transform: uppercase;
 	}
 
-	.screen > .screen-content > .screen-user > .name {
+	.screen > .screen-content > .screen-user > .name-pop {
 		position: relative;
 		font-size: 3.25rem;
 		font-weight: 400;
 		margin: 1rem;
 	}
 
-	/* .screen > .screen-content > .screen-user > .name:before,
-	.screen > .screen-content > .screen-user > .name:after {
+	/* .screen > .screen-content > .screen-user > .name-pop:before,
+	.screen > .screen-content > .screen-user > .name-pop:after {
 		content: '';
 		height: 4px;
 		width: 4px;
@@ -368,12 +368,12 @@
 		border-radius: 2px;
 	}
 
-	.screen > .screen-content > .screen-user > .name:before {
+	.screen > .screen-content > .screen-user > .name-pop:before {
 		top: 55%;
 		right: -1.5rem;
 	}
 
-	.screen > .screen-content > .screen-user > .name:after {
+	.screen > .screen-content > .screen-user > .name-pop:after {
 		top: 45%;
 		left: -1.5rem;
 	} */
