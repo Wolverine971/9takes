@@ -1,19 +1,19 @@
 ---
-title: 'Emily Ratajkowski Enneagram Type 7'
-description: 'Why Emily Ratajkowski appears to be a type 7'
+title: 'Emily Ratajkowski Enneagram Type 8'
+description: 'Why Emily Ratajkowski appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Emily_Ratajkowski'
-lastmod: '2023-03-26'
+lastmod: '2023-04-19'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-enneagram: 7
+enneagram: 8
 type: ['celebrity']
 ---
 
 <svelte:head>
-  <meta property="og:image" content="https://9takes.com/types/7s/Emily_Ratajkowski.webp" />
+  <meta property="og:image" content="https://9takes.com/types/8s/Emily_Ratajkowski.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emily_Ratajkowski">
 </svelte:head>
 <script>
@@ -25,27 +25,85 @@ type: ['celebrity']
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Emily_Ratajkowski'}.webp`}
+		image={`/types/8s/${'Emily_Ratajkowski'}.webp`}
 		showIcon={false}
 		text="Emily Ratajkowski"
 		subtext=""
 	/>
 </div>
 
-## Pursuit of Adventure: A Type 7's Love for Exploration
+<!-- 
+She owns her sexuality and embraces it
 
-Emily Ratajkowski, a renowned model, actress, and entrepreneur, exhibits many traits of an Enneagram Type 7, also known as the Enthusiast. Her love for adventure and exploration is evident through her travel-filled lifestyle, often documented on her social media platforms. Whether it's attending glamorous events or exploring exotic destinations, Ratajkowski embraces new experiences and embodies the Type 7's zest for life.
 
-## Multifaceted Career: The Versatility of a Type 7
 
-Another aspect of Emily Ratajkowski's life that aligns with the Enneagram Type 7 is her multifaceted career. Ratajkowski has successfully ventured into various fields, including modeling, acting, and entrepreneurship. As the founder of her own swimwear line, Inamorata, she demonstrates her versatility and adaptability, qualities often associated with Type 7 individuals. This willingness to explore different career paths highlights her Enneagram Type 7 traits.
+Supporting men because they are the underdog in pop culture
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YzHbK0tbMr0?clip=UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8&amp;clipt=EPrHEBi72hM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://youtube.com/clip/UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8
 
-## Creative Expression: The Type 7's Passion for Self-Expression
 
-Emily Ratajkowski's passion for creative self-expression showcases her Enneagram Type 7 characteristics. She has used her platform to express her views on body positivity, female empowerment, and self-acceptance. Her openness and willingness to share her thoughts and experiences with her followers exemplify the Type 7's desire to engage with the world around them and embrace a variety of perspectives.
 
-## Optimistic Outlook: The Enthusiasm of a Type 7
+Supports the underdog and the outcasts the edjy people and lets them tell their story
+[Mia Khalifa](https://www.youtube.com/watch?v=iJ-3BlGal5M&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=13),
+[Bella Thorne](https://www.youtube.com/watch?v=rPY26QNhJ0U&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=10),
+[Julia Fox](https://www.youtube.com/watch?v=YzHbK0tbMr0&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=16)
 
-Lastly, Emily Ratajkowski's optimistic outlook on life is a hallmark of the Enneagram Type 7 personality. Through her social media presence and interviews, she consistently exhibits a positive demeanor and enthusiasm for life. This contagious optimism is characteristic of Type 7 individuals, who are known for their ability to find joy in even the most challenging circumstances.
+She is aware of men feeling emasculated by her
+https://www.reddit.com/r/entertainment/comments/103d1ra/emily_ratajkowski_dishes_on_heteronormative/
+https://www.laineygossip.com/emily-ratajkowski-on-money-power-men-being-emasculated-by-confident-successful-women/73298
 
-In conclusion, Emily Ratajkowski's Enneagram Type 7 traits are evident in her pursuit of adventure, multifaceted career, passion for creative expression, and optimistic outlook on life. These qualities showcase the influence of the Enneagram in understanding the personalities and motivations of individuals across various fields and industries.
+Aware of power dynamics
+
+<iframe width="560" height="315" src="https://youtube.com/clip/UgkxCMzNu-iY-lilsesgPaZJCaei1I06KfPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxRkNXv8TeG6Je1L2Ylrx9kKjylmQPab8D&amp;clipt=EPeoBxjz4gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+ -->
+
+
+
+## Introduction:
+
+As a model, actress, and author, Emily Ratajkowski has been in the public eye for years, continually pushing boundaries and challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger. Let's explore how Ratajkowski's life and actions exemplify the key traits of this powerful personality type.
+
+## Owning and Embracing Her Sexuality:
+A defining characteristic of Type 8 individuals is their boldness and willingness to assert themselves. Ratajkowski embodies this trait by confidently owning her sexuality and embracing her body. From her breakout role in the "Blurred Lines" music video to her modeling work and advocacy for body positivity, she has consistently defied expectations and championed a more inclusive and empowering approach to women's bodies. She has also flat out said multiple times that she likes sex.
+
+## Navigating Emasculation:
+Type 8 individuals are known for their strength, resilience, and independence, qualities that may at times lead to [feelings of emasculation in others](https://www.laineygossip.com/emily-ratajkowski-on-money-power-men-being-emasculated-by-confident-successful-women/73298). Ratajkowski is no stranger to this phenomenon, as she has discussed men feeling emasculated by her in various interviews. By acknowledging this issue and continuing to assert her own power and autonomy, Ratajkowski exemplifies the resilience and self-assuredness characteristic of Enneagram 8s.
+
+<div style="display:flex; align-items: center; justify-content: center;">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3mh8E7aq3LpvyDmieHJHaR?utm_source=generator&t=2470543" title="Emily Ratajkowski talking about men feeling emasculated" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</div>
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxRkNXv8TeG6Je1L2Ylrx9kKjylmQPab8D&amp;clipt=EPeoBxjz4gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="420" height="315"
+src="https://youtube.com/clip/UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8">
+</iframe> -->
+
+## Awareness of Power Dynamics:
+As an Enneagram Type 8, Ratajkowski's keen understanding of power dynamics in the modeling and entertainment industries comes as no surprise. In her book "My Body," she discusses issues related to consent, exploitation, and the male gaze, demonstrating her ability to confront and challenge the imbalances that exist within these industries. This awareness of power dynamics and the desire to challenge them is a hallmark of the Type 8 personality.
+
+
+
+## Supporting the Underdog and Amplifying the Voices of Outcasts:
+In addition to their assertive nature, Type 8 individuals are often driven by a desire to protect and support the underdog. Ratajkowski has used her platform to amplify the voices of those who have faced challenges and judgment in the public eye. By supporting and advocating for people like [Mia Khalifa](https://www.youtube.com/watch?v=iJ-3BlGal5M&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=13),
+[Bella Thorne](https://www.youtube.com/watch?v=rPY26QNhJ0U&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=10),
+[Julia Fox](https://www.youtube.com/watch?v=YzHbK0tbMr0&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=16), and [Amber Rose](https://www.youtube.com/watch?v=YtUpsNZfhfM&list=PLjY28yrdnk0qTW9xo517pRs6WFSw6h2xv&index=4), Ratajkowski demonstrates her commitment to empowering others and giving them an opportunity to share their stories. She even takes controversial stances speaking out for men.
+
+<div style="display:flex; align-items: center; justify-content: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YzHbK0tbMr0?clip=UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8&amp;clipt=EPrHEBi72hM" title="Emily Ratajkowski talking about how men are not doing well" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+
+## Conclusion:
+
+Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resilience in the face of emasculation, and support for underdogs and outcasts paint a vivid picture of a self-assured and empowered Enneagram Type 8. While it is important to remember that determining someone's Enneagram type is best done through self-assessment and introspection, Ratajkowski's actions and beliefs align strongly with the characteristics of The Challenger. By living her life with confidence and advocating for change, she serves as a powerful example of a Type 8 in action.
+
+<div style="display:flex; align-items: center; justify-content: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxKgXTXeh070ACyd5fRX2r_XbXeNJ8E0ok&amp;clipt=EM61BxiniQk" title="Emily is a peak 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
