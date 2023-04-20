@@ -64,9 +64,15 @@
 </script>
 
 <div class="screen">
-	<div
+	<!-- <div
 		class="screen-image {showIcon ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
+		in:fly={{ y: 200, duration: 2000 }}
+	/> -->
+	<img
+		class="screen-image {showIcon ? 'home' : 'profileFace'}"
+		src={image}
+		alt={text}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
 	<div class="screen-overlay" />
@@ -289,6 +295,7 @@
 		-moz-transition: opacity 1s ease-in-out;
 		-o-transition: opacity 1s ease-in-out;
 		transition: opacity 1s ease-in-out;
+		object-fit: none;
 		/* animation: pan-image 15s linear infinite; */
 	}
 
@@ -302,7 +309,7 @@
 		position: relative;
 		z-index: 3;
 		margin: 1rem;
-		padding-bottom: 6rem;
+		/* padding-bottom: 1rem; */
 		border: 1px solid rgb(var(--primary-rgb) / 50%);
 		border-radius: 0.6rem;
 	}
@@ -451,6 +458,12 @@
 
 		.screen-content {
 			padding-bottom: 1rem !important;
+		}
+		.screen > .screen-content > .screen-user > .name-pop {
+			position: relative;
+			font-size: 1.5rem;
+			font-weight: 200;
+			margin: 1rem;
 		}
 	}
 </style>
