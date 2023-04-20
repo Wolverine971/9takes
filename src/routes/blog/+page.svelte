@@ -5,7 +5,7 @@
 
 <BlogPageHead
 	data={{ title: '9takes Blog', description: 'List of blogs about the Enneagram and 9takes' }}
-	slug={'/'}
+	slug={'/blog'}
 />
 
 <svelte:head>

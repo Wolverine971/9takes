@@ -14,7 +14,7 @@
 </script>
 
 <div style="align-items: inherit;">
-	<BlogPageHead data={data.frontmatter} slug={`people/${data.slug}`} />
+	<BlogPageHead data={data.frontmatter} slug={`blog/topical/${data.slug}`} />
 	<ArticleTitle title={data.frontmatter.title} />
 	<ArticleDescription description={data.frontmatter.description} />
 	<ArticleMeta author={data.frontmatter.author} date={data.frontmatter.date} />

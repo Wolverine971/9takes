@@ -11,7 +11,7 @@
 		'@context': 'https://schema.org',
 		'@type': 'Blog',
 		name: title,
-		url: `https://9takes.com//blog/${slug}`,
+		url: `https://9takes.com/${slug}`,
 		description: description,
 		publisher: { '@type': 'Person', name: data?.author }
 	};
