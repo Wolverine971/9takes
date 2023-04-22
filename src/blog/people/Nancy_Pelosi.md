@@ -59,7 +59,7 @@ Finally, Enneagram Type 3s are known for their focus on achieving their goals an
     "@type": "WebPage",
     "@id": "https://9takes.com/blog/famous-enneagram-types/Nancy_Pelosi"
   },
-  "headline": "Nancy Pelosi: An Enneagram Type 3 Achiever"
+  "headline": "Nancy Pelosi: An Enneagram Type 3 Achiever",
   "image": {
     "@type": "ImageObject",
     "url": "https://9takes.com/types/3s/Nancy_Pelosi.webp",
