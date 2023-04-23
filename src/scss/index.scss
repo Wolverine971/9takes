@@ -24,6 +24,20 @@
 
 	--card-padding: 0.8rem 1rem;
 	--card-margin: 1rem;
+
+	--contrast: 20;
+	--size: 0.75rem;
+	--cardBg: linear-gradient(135deg, hotpink, blue);
+	--invert: 1;
+	--blendMode: multiply;
+	// --bgSize: 0.75rem;
+	--mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+	--dotsColor: 255 255 255;
+	--dotRadius: 20%; // 20rem;
+	--bgPosition: calc(var(--bgSize) / 2);
+	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
+	--stop1: 3%;
+	--stop2: 60%;
 }
 
 $dark-300: hsl(213, 24%, 7%);
@@ -262,3 +276,109 @@ input {
 	height: 1em;
 	background-size: 1em 1em;
 }
+
+// body {
+// 	--size: 0.75rem;
+// 	font-family: Helvetica, sans-serif;
+// 	margin: 0;
+// 	// min-height: 100vh;
+// 	// padding: clamp(1rem, 2vw, 5rem);
+// 	background: hsl(200deg 20% 10%);
+// 	color-scheme: dark;
+// 	color: white;
+// 	accent-color: hotpink;
+// }
+
+// .grid {
+// 	display: grid;
+// 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+// 	gap: 1rem;
+// 	margin-top: 1rem;
+// }
+
+// // --contrast: 20
+// // --size:0.75rem;
+// // --cardBg: linear-gradient(135deg, hotpink, blue);
+// // --invert: false
+// // --blendMode: Multiply
+// // --bgSize: 0.75rem
+// // --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+// // --dotsColor: 255 255 255;
+// // --dotRadius: 20rem
+// // --bgPosition: calc(var(--bgSize) / 2);
+// // --stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
+// // --stop1: 3%;
+// // --stop2: 60%;
+
+// .card {
+// 	// --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+// 	// --dotsColor: 255 255 255;
+// 	--bg: radial-gradient(
+// 		circle at center,
+// 		rgb(var(--dotsColor)) 3%,
+// 		rgb(var(--dotsColor) / 0.4) var(--dotRadius, 70%)
+// 	);
+// 	--bgSize: var(--size);
+// 	--cardBg: linear-gradient(135deg, hotpink, blue);
+// 	background: var(--cardBg);
+
+// 	background: linear-gradient(135deg, hotpink, blue);
+// 	border: 2px solid;
+// 	-o-border-image: linear-gradient(135deg, hotpink, blue) 30;
+
+// 	overflow: hidden;
+// 	border: 2px solid;
+// 	// border-image: var(--cardBg) 30;
+// }
+
+// .halftone {
+// 	position: relative;
+// 	aspect-ratio: 1;
+// 	background: rgb(0 0 0);
+// 	// filter: contrast(var(--contrast, 20)); //invert(0, 0)
+// 	// mix-blend-mode: var(--blendMode, multiply);
+// }
+
+// .halftone::before {
+// 	content: '';
+// 	position: fixed;
+// 	inset: 0;
+// 	background-image: var(--bg);
+// 	background-size: var(--bgSize, 0.75rem) var(--bgSize, 0.75rem);
+// 	background-repeat: round;
+// 	background-position: 0 0, var(--bgPosition) var(--bgPosition);
+// 	-webkit-mask-image: var(--mask);
+// 	mask-image: var(--mask);
+// 	mask-size: cover;
+// 	mask-position: center;
+// 	transition: background-size 100ms;
+// }
+
+// .card:nth-child(even) {
+// 	--bgSize: calc(var(--size) * 1.3);
+// 	--bgPosition: calc(var(--bgSize) / 2);
+// 	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
+// 	--bg: radial-gradient(circle at center, var(--stops)),
+// 		radial-gradient(circle at center, var(--stops));
+// }
+
+// .card:nth-child(3),
+// .card:nth-child(4) {
+// 	--mask: radial-gradient(circle at center, rgb(0 0 0), rgb(0 0 0 / 0.2));
+// }
+
+// .card:nth-child(5),
+// .card:nth-child(6) {
+// 	--mask: repeating-linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0 / 0.55) 20%, rgb(0 0 0) 40%);
+// }
+
+// .card:nth-child(7),
+// .card:nth-child(8) {
+// 	--mask: url(https://assets.codepen.io/85648/mask-test-2.png);
+// }
+
+// .card:nth-child(7) .halftone::before,
+// .card:nth-child(8) .halftone::before {
+// 	mask-size: 80%;
+// 	mask-repeat: no-repeat;
+// }

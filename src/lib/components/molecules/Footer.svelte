@@ -59,6 +59,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
+		margin: -2px 0;
 
 		& .icon {
 			width: 2em;

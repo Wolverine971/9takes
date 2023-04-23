@@ -279,4 +279,10 @@
 		display: flex;
 		z-index: 1234;
 	}
+
+	@media (max-width: 500px) {
+		.main-subnav-content {
+			left: 0;
+		}
+	}
 </style>

@@ -4,10 +4,10 @@ description: 'Exploring the Complexity of Human Thought, Feeling and Behavior'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/three-sided-die'
-lastmod: ''
+lastmod: '2023-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['overview']
 blog: true
 ---
@@ -33,9 +33,12 @@ The enneagram divides people by 3 things. Three emotions and three centers of in
  -->
 
 
-## Introduction
 
-Plato, Aristotle, Freud, and Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of the human soul or psyche. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
+Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of the human nature. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
+
+## The Foundations: Plato and Aristotle
+
+Plato, in his discourse on the human soul, proposed that it was composed of three parts: reason, spirit, and appetite. He attempted to connect these aspects to the classes in society, which may have been a misguided effort. His student, Aristotle, believed that the human soul was made up of two parts: the rational and the irrational. He saw the irrational part as responsible for desires and emotions, while the rational part was in charge of reasoning and deliberation.
 
 ## Sigmund Freud's Tripartite Model
 
@@ -43,7 +46,13 @@ Sigmund Freud revolutionized our understanding of the human psyche by suggesting
 
 ## Steven Pinker's Critique of Rationality
 
-Contemporary psychologist Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. However, Pinker's focus on irrationality may not present the complete picture of the human mind.
+
+
+Professor of psychology Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. He call for people to simply be more rational and says that the more rational we are the more progress we attain. He goes on to list the many logical fallacies that people should avoid. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx8yRqv5d6YujTR7xQl8nYx6UYvD3OrTgr&amp;clipt=EPPrARjlpwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. However, Pinker's focus on irrationality may not present the complete picture of the human mind.
 
 ## The Three-Sided Die: Embracing Complexity
 

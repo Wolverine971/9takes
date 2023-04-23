@@ -154,7 +154,6 @@
 				<li style="text-decoration: line-through;">Enneagram tests and assessments</li>
 				<li style="text-decoration: line-through;">Enneagram coaches and trainers</li>
 			</ul>
-
 			<h3 id="enneagram-resources">
 				<!-- <a href="#enneagram-resources">Enneagram Situational Topics</a> -->
 				Enneagram Situational Topics
@@ -175,7 +174,6 @@
 					</a>
 				</li>
 			</ul>
-
 			<h3 id="enneagram-resources">
 				<!-- <a href="#enneagram-resources">Enneagram Situational Topics</a> -->
 				Enneagram Analysis of Famous People
@@ -186,11 +184,19 @@
 		</div>
 	</section>
 	<section>
-		<h2>Why 9takes</h2>
+		<h2>9takes</h2>
 		<div class="column">
 			<!-- <h3 style="margin:10px">Why 9takes</h3> -->
 			<div>
-				<p>Coming soon</p>
+				<h3 id="what-is-9takes">What is it?</h3>
+				<ul>
+					<!-- <li>History and origins of the Enneagram</li> -->
+					<li><a href="/blog/community/introducing-9takes">Introducing 9takes</a></li>
+					<li>
+						<a href="/blog/community/three-sided-die">The impossible three sided die</a>
+					</li>
+				</ul>
+				<!-- <p>Coming soon</p> -->
 			</div>
 		</div>
 	</section>

@@ -106,7 +106,6 @@ Type 1 personalities excel in roles that require attention to detail, high stand
 - They have high standards and hold themselves and their team to those standards
 - They have a strong sense of ethics and are known for making ethical decisions
 - They are detail-oriented and excel in roles that require attention to detail
--
 
 ## Growth and Development
 

@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/community/introducing-9takes'
 lastmod: ''
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['overview']
 blog: true
 ---
@@ -17,13 +17,28 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
 
 <!-- big long panel of people experienceing anger fear and shame -->
-
 
 ## Discover the Power of Nine Perspectives
 
 The digital landscape has been dominated by social media platforms for years, with each claiming to offer something unique. Yet, most of these platforms tend to echo each other's features and rarely delve into the fascinating depths of human psychology. Enter 9takes, a question-and-answer platform designed to challenge the status quo, redefine social interaction, and enrich your understanding of the human experience.
+
+<div
+	style="display: flex;
+    justify-content: center;"
+>
+ <PopCard
+		image={`/blogs/open_cage.png`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+
+</div>
 
 Inspired by the Enneagram, an insightful personality typing system, 9takes aims to offer a fresh take on social media by harnessing the power of nine distinct perspectives or the 9 takes on life. The platform's unique features create an unbiased environment where users can explore the nuances of feelings thoughts and behavior.
 
