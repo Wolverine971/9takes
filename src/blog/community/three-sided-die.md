@@ -48,15 +48,18 @@ Sigmund Freud revolutionized our understanding of the human psyche by suggesting
 
 
 
-Professor of psychology Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. He call for people to simply be more rational and says that the more rational we are the more progress we attain. He goes on to list the many logical fallacies that people should avoid. 
+Professor of psychology Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. He calls for people to simply be more rational and says that the more rational we are the more progress we attain. He goes on to list the many logical fallacies that people should avoid. 
 
+<div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx8yRqv5d6YujTR7xQl8nYx6UYvD3OrTgr&amp;clipt=EPPrARjlpwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. However, Pinker's focus on irrationality may not present the complete picture of the human mind.
+</div>
+
+This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. Calling on people to be more rational and avoid logical falacies isn't to move the needle. At the end of Pinker's interview he talks about how education often doesn't do the trick in making people more rational and he says that people need to just change and incorporate this into their daily lives. However, Pinker's call to remove irrationality may not be solution we need.
 
 ## The Three-Sided Die: Embracing Complexity
 
-What if the human mind is more multifaceted than merely being rational or irrational, as suggested by Plato and Freud? The idea of a three-sided die represents the possibility that people's perspectives are shaped by various factors, making it difficult to categorize them as simply right or wrong, good or bad. This notion encourages us to consider that individuals might be looking at different aspects of an issue or question, rather than dismissing their views as fundamentally flawed.
+What if the human mind is more multifaceted than merely being rational or irrational, as suggested by Plato and Freud? What if there were other forces at play? What if being rationality was only part of the way we get to progress? What if the other peices to progress were found in the other areas discussed by Freud and Plato: the id and super-ego or spirit and appetite? What if people are not simply rational or irrational, good or bad, right or wrong? The idea of a three-sided die represents the the tension between figuring out what is the path to progress, what is going on in the human mind and what composes the human soul. People's perspectives are shaped by various factors, making it difficult to categorize them. This notion encourages us to consider that individuals might be looking at different aspects of an issue or question, rather than dismissing their views as fundamentally flawed.
 
 ## Conclusion
 

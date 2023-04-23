@@ -44,7 +44,6 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 - <a target="_blank" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
 - <a target="_blank" href="https://podcasts.apple.com/ca/podcast/enneagram-for-idiots/id1338051017">Enneagram for Idiots by Tara and Marissa</a>. Its a banter podcast and it is hilarious.
 
-
    <div>
 
    <script type="application/ld+json">

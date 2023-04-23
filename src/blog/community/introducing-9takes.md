@@ -21,7 +21,7 @@ blog: true
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<!-- big long panel of people experienceing anger fear and shame -->
+<!-- big long panel of people experiencing anger fear and shame -->
 
 ## Discover the Power of Nine Perspectives
 
