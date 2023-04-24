@@ -51,4 +51,7 @@ Lastly, George W. Bush's devotion to his wife, Laura, and his close-knit family 
 
 In conclusion, George W. Bush's Enneagram Type 6 tendencies are evident in his response to the 9/11 attacks, his decisions regarding the Iraq War and the Patriot Act, and his unwavering loyalty to his family. These examples illustrate the profound impact that the Enneagram can have on an individual's life and decision-making, even at the highest levels of leadership.
 
-For a more extensive writeup, <a target="_blank" href="https://www.9types.com/writeup/enneagram_bush.html">check this out</a>
+<!-- For a more extensive writeup, <a target="_blank" href="https://www.9types.com/writeup/enneagram_bush.html">check this out</a> -->
+
+
+Check out this one for an <a href="/blog/famous-enneagram-types/George_H_W_Bush">analysis on his father the George H. W. Bush.</a>

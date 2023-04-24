@@ -49,3 +49,5 @@ Another characteristic of type 9 is a desire for emotional stability and a fear 
 ## Valuing Tradition and History
 
 Type 9 individuals also tend to value tradition and history, and Queen Elizabeth II is no exception. Her commitment to upholding the traditions of the monarchy and the Commonwealth is a testament to her respect for the past and her desire to maintain stability and continuity. Her role in the Diamond Jubilee celebrations and the opening of the new session of Parliament are just two examples of her commitment to upholding the traditions of the monarchy and the nation.
+
+Check out this one for an analysis on her son<a href="/blog/famous-enneagram-types/Prince_Harry">Prince Harry.</a>

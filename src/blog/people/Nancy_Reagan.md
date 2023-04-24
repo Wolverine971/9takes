@@ -49,3 +49,5 @@ Type 2s are often described as warm and welcoming, and this was certainly true o
 ## She had a strong sense of duty and responsibility.
 
 Enneagram Type 2s are often motivated by a strong sense of duty and responsibility towards others. Nancy Reagan was no exception. She saw her role as First Lady as an opportunity to serve others, particularly in her advocacy work. She also felt a strong sense of responsibility towards her husband, particularly as his health began to decline in his later years. Her dedication to her husband and her advocacy work are both examples of this sense of duty and responsibility.
+
+Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Ronald_Reagan">Ronald Reagan.</a>

@@ -49,3 +49,5 @@ Type 9s are known for their calm demeanor and ability to remain composed under p
 ## Emphasis on unity
 
 Enneagram Type 9s place a high value on unity and often seek to create a sense of oneness among people. Reagan's "Morning in America" campaign was a prime example of this. He emphasized the idea of Americans working together towards a common goal and painted a positive vision for the future.
+
+Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Nancy_Reagan">Nancy Reagan.</a>

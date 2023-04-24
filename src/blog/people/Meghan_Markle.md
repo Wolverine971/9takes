@@ -49,3 +49,5 @@ Type 2's have a tendency to bring up drama to get attention, and they may also p
 ## Empathy and warmth
 
 One positive aspect of being a Type 2 is that they are often warm and empathetic. Meghan Markle has been described as having a genuine warmth and connection with people. She has also used her platform to speak up for important causes, such as her essay on the loss of her pregnancy and the importance of normalizing conversations around miscarriage.
+
+Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Prince_Harry">Prince Harry.</a>
