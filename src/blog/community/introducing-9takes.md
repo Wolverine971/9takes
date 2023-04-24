@@ -4,7 +4,7 @@ description: 'Questions and answers inspired by the Enneagram'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'
-lastmod: ''
+lastmod: '2023-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

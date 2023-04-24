@@ -39,11 +39,16 @@ const getAllPosts = async () => {
 	}
 	const posts = await Promise.all(body);
 
-	return posts;
+	return posts.filter((p) => {
+		if (p?.published && p?.loc) {
+			return true;
+		}
+	});
 };
 
 export async function GET() {
 	const posts = await getAllPosts();
+	return new Response();
 
 	return new Response(
 		`
