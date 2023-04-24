@@ -22,19 +22,19 @@ blog: true
 
 Plato when talking about the human soul said we were made of three parts, reason, spirit and appetite. He errantly went on to try to match these forces to classes in society. Aristotle who came after him said that the human soul was made up of two parts, the rational part and the irrational part. 
 
-Sigmund Freud said that the human psyche was divided up into three parts, the id, ego and super ego. He correctly identified that these forces pull upon our mind in different ways and whose effects can be seen through observing our behavior. In modern times psychologists like Steven Pinker decry the need for rationality because so much of what he sees is irrational.
+Sigmund Freud said that the human psyche was divided up into three parts, the id, ego and superego. He correctly identified that these forces pull upon our mind in different ways and whose effects can be seen through observing our behavior. In modern times psychologists like Steven Pinker decry the need for rationality because so much of what he sees is irrational.
 
 However what if people were more complicated than simply being rational or irrational. What if Plato and Freud were right and Aristotle and Pinker didn't have the full picture. What if the people who don't agree with you were not good or bad or right or wrong. What if they just were looking at different things than you were. What if 
 
 Given any issue or question what if the answers were not divided like a coin flip of being right or wrong, good or bad. What if answers were like an impossible three-sided die. 
 
-The enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instictive
+The enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger, fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instinctive
 
  -->
 
 
 
-Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of the human nature. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
+Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of human nature. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
 
 ## The Foundations: Plato and Aristotle
 
@@ -55,11 +55,11 @@ Professor of psychology Steven Pinker has questioned the importance of rationali
 
 </div>
 
-This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. Calling on people to be more rational and avoid logical falacies isn't to move the needle. At the end of Pinker's interview he talks about how education often doesn't do the trick in making people more rational and he says that people need to just change and incorporate this into their daily lives. However, Pinker's call to remove irrationality may not be solution we need.
+This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. Calling on people to be more rational and avoid logical fallacies isn't to move the needle. At the end of Pinker's interview he talks about how education often doesn't do the trick in making people more rational and he says that people need to just change and incorporate this into their daily lives. However, Pinker's call to remove irrationality may not be the solution we need.
 
 ## The Three-Sided Die: Embracing Complexity
 
-What if the human mind is more multifaceted than merely being rational or irrational, as suggested by Plato and Freud? What if there were other forces at play? What if being rationality was only part of the way we get to progress? What if the other peices to progress were found in the other areas discussed by Freud and Plato: the id and super-ego or spirit and appetite? What if people are not simply rational or irrational, good or bad, right or wrong? The idea of a three-sided die represents the the tension between figuring out what is the path to progress, what is going on in the human mind and what composes the human soul. People's perspectives are shaped by various factors, making it difficult to categorize them. This notion encourages us to consider that individuals might be looking at different aspects of an issue or question, rather than dismissing their views as fundamentally flawed.
+What if the human mind is more multifaceted than merely being rational or irrational, as suggested by Plato and Freud? What if there were other forces at play? What if rationality was only part of the way we get to progress? What if the other pieces to progress were found in the other areas discussed by Freud and Plato: the id and superego or spirit and appetite? What if people are not simply rational or irrational, good or bad, right or wrong? The idea of a three-sided die represents the tension between figuring out what is the path to progress, what is going on in the human mind and what composes the human soul. People's perspectives are shaped by various factors, making it difficult to categorize them. This notion encourages us to consider that individuals might be looking at different aspects of an issue or question, rather than dismissing their views as fundamentally flawed.
 
 ## Conclusion
 

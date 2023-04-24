@@ -40,13 +40,13 @@ The digital landscape has been dominated by social media platforms for years, wi
 
 </div>
 
-Inspired by the Enneagram, an insightful personality typing system, 9takes aims to offer a fresh take on social media by harnessing the power of nine distinct perspectives or the 9 takes on life. The platform's unique features create an unbiased environment where users can explore the nuances of feelings thoughts and behavior.
+Inspired by the Enneagram, an insightful personality typing system, 9takes aims to offer a fresh take on social media by harnessing the power of nine distinct perspectives or the 9 takes on life. The platform's unique features create an unbiased environment where users can explore the nuances of feelings, thoughts and behavior.
 
 But why build 9takes, and how will it be different?
 
 ## 9takes: For When You Want Different Perspectives
 
-We often find ourselves seeking answers and opinions from a variety of sources. When it comes to finding the "right" answer, we might turn to Google or AI-powered platforms like ChatGPT to provide us with the most accurate information. On the other hand, when we're interested in exploring people's opinions and perspectives, we may gravitate towards platforms like Reddit, Facebook groups, or Twitter. The google/ chatgpts are too big and broad while the subreddits facebook groups and twitter are too niche. 9takes offers a unique middle ground by allowing users to source answers to their questions from real people, who are grouped by personality as opposed to followers, subreddits, and other ways to group people. This approach not only exposes users to a diverse array of perspectives, but also enables them to identify patterns in thinking feeling and approach, fostering a deeper understanding of how people approach different questions.
+We often find ourselves seeking answers and opinions from a variety of sources. When it comes to finding the "right" answer, we might turn to Google or AI-powered platforms like ChatGPT to provide us with the most accurate information. On the other hand, when we're interested in exploring people's opinions and perspectives, we may gravitate towards platforms like Reddit, Facebook groups, or Twitter. The google/ chatgpts are too big and broad while the subreddits facebook groups and twitter are too niche. 9takes offers a unique middle ground by allowing users to source answers to their questions from real people, who are grouped by personality as opposed to followers, subreddits, and other ways to group people. This approach not only exposes users to a diverse array of perspectives, but also enables them to identify patterns in thinking, feeling and approach, fostering a deeper understanding of how people approach different questions.
 
 ## Unmasking Authenticity: Unbiased Responses, Unfiltered Perspectives
 
@@ -60,4 +60,5 @@ This feature enables users to identify like-minded individuals and fosters an en
 
 ## The Power of Nine: Why 9takes is Essential in Today's World
 
-The name "9takes" is a nod to the nine archetypes of the Enneagram, but it also represents the nine unique perspectives the platform embraces. In an era of polarized opinions, being right or wrong, good or bad, my side or the other side, 9takes offers something different. A much-needed space for meaningful, authentic communication that encourages personal growth and understanding. There is no one right perspective just different takes on life.
+The name "9takes" is a nod to the nine archetypes of the Enneagram, but it also represents the nine unique perspectives the platform embraces. In an era of polarized opinions, being right or wrong, good or bad, my side or the other side, 9takes offers something different. A much-needed space for meaningful, authentic communication that encourages personal growth and understanding. There is no one right perspective, just different takes on life.
+

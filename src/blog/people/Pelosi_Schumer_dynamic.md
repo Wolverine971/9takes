@@ -25,20 +25,20 @@ type: ['politician']
 
 ## Mr. Particular and Mrs. Vision
 
-In this interview Pelosi and Schumer personalities are on full display. Pelosi being the enneagram type three is image concious and a little off during this interview. Partially because this inteview is at lunch where the reporters are hoping to get a candid interview. However Pelosi is not one to let her guard down and is a little tight lipped. Schumer on the other hand does have his guard down and is excited for lunch. He goes for the shrimp dumplings with string beans. Schumer is an enneagram type 1 and is eager to share his thoughts and opinions on any matter at hand.
+In this interview Pelosi and Schumer personalities are on full display. Pelosi being the enneagram type three is image conscious and a little off during this interview. Partially because this interview is at lunch where the reporters are hoping to get a candid interview. However Pelosi is not one to let her guard down and is a little tight lipped. Schumer on the other hand does have his guard down and is excited for lunch. He goes for the shrimp dumplings with string beans. Schumer is an enneagram type 1 and is eager to share his thoughts and opinions on any matter at hand.
 
-Schumer is asked about Pelosi and tells a story where he learns quickly that Pelosi is a "force!" Nancy concious of her image down not want to be associated with being forceful and she brushes this aside.
+Schumer is asked about Pelosi and tells a story where he learns quickly that Pelosi is a "force!" Nancy, conscious of her image, does not want to be associated with being forceful and she brushes this aside.
 
-When asked who wins when they disagree, Chuck laughingly says "Nancy". Nancy again gets flustered not wanting to be seen as someone who always get their way and quickly shuts that question down.
+When asked who wins when they disagree, Chuck laughingly says "Nancy". Nancy again gets flustered not wanting to be seen as someone who always gets their way and quickly shuts that question down.
 
 Towards the end they talk about how they set Donald Trump up to take the blame for the government shut down and the both compliment each other.
- the end of the conversation Schumer wanted to talk about how they talked about plotting against trump. Nancy does not want to discuss the details, she is aware that talking about plotting is unflattering.
+ At the end of the conversation, Schumer wanted to talk about how they talked about plotting against trump. Nancy does not want to discuss the details, she is aware that talking about plotting is unflattering.
 
 ## Pelosi and Schumer's Dynamic
 
-Schumer and Pelosi are complimented on their friendship during the interview and Schumer says that he has her phone number memorized. They obviously talk alot. They go on to say that they are like brother and sister. What does each bring to the table? Well if Pelosi is indeed an Enneagram 3 she brings a big picture vision and is dialed in on how to succeed. While Schumer being an Enneagram 1 is a details guy focusing on the particulars of any conversation or situation with a keen sense for what he views as right or wrong. It is possible that they both steer each other.
+Schumer and Pelosi are complimented on their friendship during the interview and Schumer says that he has her phone number memorized. They obviously talk a lot. They go on to say that they are like brother and sister. What does each bring to the table? Well if Pelosi is indeed an Enneagram 3 she brings a big picture vision and is dialed in on how to succeed. While Schumer being an Enneagram 1 is a detailed guy focusing on the particulars of any conversation or situation with a keen sense for what he views as right or wrong. It is possible that they both steer each other.
 
-- **Pelosi doesn't sweat the small stuff, but Schumer does.** One scenario is that Pelosi goes to Schumer to for help with the details of any scenario. Pelosi can layout a big picture strategy but might go to Schumer to work out the details. Schumer probably pores over the details of bills or situations while Pelosi dictates what needs to happen. Schumer green lights or red lights Pelosi's ideas then Pelosi goes back and negotiates with whomever she needs to to get it done.
+- **Pelosi doesn't sweat the small stuff, but Schumer does.** One scenario is that Pelosi goes to Schumer for help with the details of any scenario. Pelosi can lay out a big picture strategy but might go to Schumer to work out the details. Schumer probably pores over the details of bills or situations while Pelosi dictates what needs to happen. Schumer green lights or red lights Pelosi's ideas then Pelosi goes back and negotiates with whomever she needs to to get it done.
 
 - **Pelosi is polished and calculated with what she says, Schumer is not.** Pelosi probably finds herself correcting and corralling Schumer. Schumer can find himself talking endlessly about the details of a matter and not realize that people are not listening. This is in contrast to Pelosi who chooses her words carefully and constantly monitors what is said about her.
 
@@ -60,7 +60,7 @@ In summary, the dynamic between Nancy Pelosi and Chuck Schumer showcases the pow
 
 Schumer is enjoying themselves and ready to dish details.
 Nancy is not enjoying herself. She is probably thinking about how sitting and eating may not be flattering. Schumer says he will order shrimp dumplings with string beans. Pelosi simply wants dumplings.
-Who wins arguments? Chuck laughingly says nancy. Nancy says no no its not like that.
+Who wins arguments? Chuck laughingly says nancy. Nancy says no no it's not like that.
 Nancy talks about the big picture. Schumer talks about the nitty gritty details.
 <https://www.youtube.com/watch?v=G9aqFR_dzgM>
 Schumer wanted to talk about how they talked about plotting against trump. Nancy does not want to discuss the details, she is aware that talking about plotting is unflattering.
@@ -79,3 +79,4 @@ When asked about the nature of their disagreements, Schumer lightheartedly claim
 An interesting moment in the interview occurred when Schumer attempted to discuss their strategy against Trump. Sensing potential damage to their public image, Pelosi quickly redirected the conversation. This keen awareness of how certain topics might impact their reputation is a prime example of Pelosi's enneagram type 3 tendencies.
 
 In summary, the dynamic between Nancy Pelosi and Chuck Schumer showcases the power of complementary leadership styles. Pelosi's enneagram type 3 visionary approach and Schumer's type 1 meticulous attention to detail have forged a partnership that has left an indelible mark on American politics. Their unique synergy serves as a testament to the potential of collaboration when differing strengths are brought together in pursuit of a common goal. -->
+

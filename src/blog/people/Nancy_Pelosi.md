@@ -65,7 +65,7 @@ Enneagram 3s are concerned with their image and reputation, striving to present 
 
 </div>
 
-Notice how Pelosi was sensitive to being considered a hateful person. She rejects that characterization of herself but then goes on to say that the Trump is a coward but that she prays for him.
+Notice how Pelosi was sensitive to being considered a hateful person. She rejects that characterization of herself but then goes on to say that Trump is a coward but that she prays for him.
 
 ## Political Flexibility: Type 3's Adaptability in Action
 
