@@ -293,7 +293,7 @@
 		-moz-transition: opacity 1s ease-in-out;
 		-o-transition: opacity 1s ease-in-out;
 		transition: opacity 1s ease-in-out;
-		object-fit: none;
+		object-fit: cover;
 		/* animation: pan-image 15s linear infinite; */
 	}
 
