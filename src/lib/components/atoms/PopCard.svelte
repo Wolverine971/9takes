@@ -9,6 +9,8 @@
 	export let text: string = '9takes';
 	export let subtext: string = 'Ask questions, share your story, get curious';
 
+	export let tint: boolean = true;
+
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let doc: boolean = false;
 
@@ -70,7 +72,7 @@
 		in:fly={{ y: 200, duration: 2000 }}
 	/> -->
 	<img
-		class="screen-image {showIcon ? 'home' : 'profileFace'}"
+		class="screen-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
 		src={image}
 		alt={text}
 		in:fly={{ y: 200, duration: 2000 }}
@@ -279,8 +281,6 @@
 	}
 
 	.screen > .screen-image {
-		/* background-image: url('https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80'); */
-		/* background-image: url('cyber-campfire.png'); */
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -289,14 +289,17 @@
 		top: 0px;
 		background-size: 300%;
 		background-position: 0% 0%;
-		filter: sepia(100%) hue-rotate(160deg);
-		opacity: 0.6;
 		-webkit-transition: opacity 1s ease-in-out;
 		-moz-transition: opacity 1s ease-in-out;
 		-o-transition: opacity 1s ease-in-out;
 		transition: opacity 1s ease-in-out;
 		object-fit: none;
 		/* animation: pan-image 15s linear infinite; */
+	}
+
+	.tint {
+		filter: sepia(100%) hue-rotate(160deg);
+		opacity: 0.6;
 	}
 
 	.screen > .screen-content {

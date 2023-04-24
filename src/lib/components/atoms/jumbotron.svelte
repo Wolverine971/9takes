@@ -153,17 +153,7 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
-
-		/* header { */
-		/* background-color: #333; */
-		/* background-image: url('/background.png'); */
-		/* color: #fff; */
 		padding: 20px;
-		/* aspect-ratio: 16 / 6; */
-		/* display: flex;
-		flex-direction: column;
-		justify-content: center; */
-		/* } */
 	}
 
 	.screen:after,
@@ -275,8 +265,6 @@
 	}
 
 	.screen > .screen-image {
-		/* background-image: url('https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80'); */
-		/* background-image: url('cyber-campfire.png'); */
 		height: 100%;
 		width: 100%;
 		position: absolute;

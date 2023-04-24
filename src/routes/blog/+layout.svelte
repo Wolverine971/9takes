@@ -9,7 +9,7 @@
 	<div class="app">
 		{#if $page.url.pathname === '/blog'}
 			<Jumbotron
-				image={'background4.png'}
+				image={'background4.webp'}
 				showIcon={false}
 				text={'9takes Blogs'}
 				subtext={''}

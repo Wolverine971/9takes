@@ -13,7 +13,7 @@ blog: true
 ---
 
 <svelte:head>
-  <!-- <meta property="og:image" content="" /> -->
+  <meta property="og:image" content="https://9takes.com/blogs/open_cage_color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>
 
@@ -32,8 +32,9 @@ The digital landscape has been dominated by social media platforms for years, wi
     justify-content: center;"
 >
  <PopCard
-		image={`/blogs/open_cage.png`}
+		image={`/blogs/open_cage_color.webp`}
 		showIcon={false}
+		tint={false}
 		text=""
 		subtext=""
 	/>
