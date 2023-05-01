@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-faqs">
 </svelte:head>
@@ -170,7 +171,6 @@ blog: true
 
 <div>
    <script type="application/ld+json">
-
 {
 "@type": "FAQPage",
 "http://schema.org/about": {

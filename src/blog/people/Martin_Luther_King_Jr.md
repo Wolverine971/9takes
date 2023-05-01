@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/8s/Martin_Luther_King_Jr.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Martin_Luther_King_Jr">
 </svelte:head>

@@ -13,13 +13,14 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/9s/Bernie_Sanders.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bernie_Sanders">
 </svelte:head>
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
-</script> 
+</script>
 <div
 	style="display: flex;
     justify-content: center;

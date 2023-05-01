@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/6s/Prince_Harry.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Prince_Harry">
 </svelte:head>
@@ -50,10 +51,8 @@ Enneagram Type 6s also seek guidance and support from trusted sources. He has be
 
 Finally, Enneagram Type 6s are driven by a sense of purpose and a desire to make a positive impact on the world. He has been involved in several charitable organizations, including Sentebale, which supports children affected by HIV in Lesotho and Botswana He also involves himself in the Invictus Games, which aims to support wounded veterans through sports and competition. He efforts reflect a 6s desire to effect positive change in the world.
 
-
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Meghan_Markle">Meghan Markle.</a>
 Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-types/Queen_Elizabeth_II">Queen Elizabeth.</a>
-
 
 <div>
 

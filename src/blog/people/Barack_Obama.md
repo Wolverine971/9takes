@@ -51,5 +51,4 @@ Obama is known for his calm and composed demeanor, even in the face of adversity
 
 Throughout his presidency, Obama emphasized the importance of unity and working together towards common goals. He often spoke about the need to bridge divides and find common ground in order to achieve progress. This focus on unity and collaboration is also characteristic of type 9s, who often have a strong desire to create harmony and build bridges between different groups.
 
-
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Michelle_Obama">Michelle</a> and read this to for a look into <a href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" target="_blank">Michelle and Barack's relationship.</a>

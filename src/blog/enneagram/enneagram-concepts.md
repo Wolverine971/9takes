@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-concepts">
 </svelte:head>
@@ -92,8 +93,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 
  <div>
 
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/about": {
     "@type": "http://schema.org/Thing",

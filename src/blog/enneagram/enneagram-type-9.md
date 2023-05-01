@@ -12,6 +12,7 @@ type: ['overview']
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-9">
 </svelte:head>
@@ -130,11 +131,8 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <!-- ## Psychologist Studies Relevant to the Enneagram 9
 - It is notoriously inadequate to take an adopted child into one's home and love him: categorized as fear of conflict as it pertains to the challenges of integrating a new family member into an existing dynamic. - Donald Winnicott -->
 
-
-
 <div>
 <script type="application/ld+json">
-
 {
   "@context": "http://schema.org/",
   "@graph": [

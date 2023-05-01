@@ -12,16 +12,16 @@ type: ['overview']
 blog: true
 ---
 
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-criticisms">
 </svelte:head>
 <!--
 Enneagram Criticisms (200 words)
 
--   Common criticisms of the Enneagram system
--   Responses to these criticisms -->
+- Common criticisms of the Enneagram system
+- Responses to these criticisms -->
 
 <h2>Enneagram FAQs</h2>
 

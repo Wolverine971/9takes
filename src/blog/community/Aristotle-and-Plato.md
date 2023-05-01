@@ -12,11 +12,8 @@ type: ['overview']
 blog: true
 ---
 
-<!-- 
+<!--
 Why did Aristotle disagree with Plato on the parts of the human soul? Plato said there were three parts, reason, spirit, and appetite. And Aristotle just thought there were 2 rational and the irrational -->
-
-
-
 
 Aristotle disagreed with Plato on the parts of the human soul due to differences in their philosophical perspectives and methodologies. While both were ancient Greek philosophers and Aristotle was a student of Plato, they had distinct approaches to understanding the human soul.
 

@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/6s/Joe_Biden.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Joe_Biden">
 </svelte:head>
@@ -51,8 +52,7 @@ Enneagram Type 6s often seek guidance and support from others, and this is evide
 Finally, Enneagram Type 6s are known for their strong sense of loyalty, and this is evident in Joe Biden's personal and professional relationships. He has spoken frequently about the importance of family and the role that his wife and children have played in his life. He has also emphasized the importance of loyalty in politics, and has worked to build coalitions across the political spectrum.
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {

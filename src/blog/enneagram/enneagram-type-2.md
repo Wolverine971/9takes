@@ -12,6 +12,7 @@ type: ['overview']
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-2">
 </svelte:head>
@@ -108,11 +109,8 @@ If you identify as a Type 2 personality, there are a number of things you can do
 - Personality is composed of nature and nurture: categorized as desire to be helpful and loved as it pertains to understanding the factors that shape a person's personality - Francis Galton
 - The family is the "factory" where people are made by Virginia Satir. Virginia Satir's work was centered around family therapy and improving family relationships, which aligns with the core fear of type twos - fear of being unloved. Type twos have a strong desire to be loved and needed, and often seek to fulfill those desires through helping others and building close relationships. Virginia Satir's work on family dynamics and improving family relationships reflects this desire to help and be loved. -->
 
-
-
 <div>
 <script type="application/ld+json">
-
 {
   "@context": "http://schema.org/",
   "@graph": [
@@ -298,11 +296,9 @@ If you identify as a Type 2 personality, there are a number of things you can do
   ]
 }
 
-
 </script>
 
 </div>
-
 
 <style>
 

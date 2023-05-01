@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/team-building.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-working-in-teams">
 </svelte:head>
@@ -119,8 +120,7 @@ Have you ever worked in a team where everyone seemed to be on a different wavele
 Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/articleBody": "Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!",
   "http://schema.org/author": {

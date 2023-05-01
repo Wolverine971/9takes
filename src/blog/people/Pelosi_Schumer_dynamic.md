@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Nancy_Pelosi.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pelosi_Schumer_dynamic">
 </svelte:head>
@@ -32,7 +33,7 @@ Schumer is asked about Pelosi and tells a story where he learns quickly that Pel
 When asked who wins when they disagree, Chuck laughingly says "Nancy". Nancy again gets flustered not wanting to be seen as someone who always gets their way and quickly shuts that question down.
 
 Towards the end they talk about how they set Donald Trump up to take the blame for the government shut down and the both compliment each other.
- At the end of the conversation, Schumer wanted to talk about how they talked about plotting against trump. Nancy does not want to discuss the details, she is aware that talking about plotting is unflattering.
+At the end of the conversation, Schumer wanted to talk about how they talked about plotting against trump. Nancy does not want to discuss the details, she is aware that talking about plotting is unflattering.
 
 ## Pelosi and Schumer's Dynamic
 
@@ -42,16 +43,7 @@ Schumer and Pelosi are complimented on their friendship during the interview and
 
 - **Pelosi is polished and calculated with what she says, Schumer is not.** Pelosi probably finds herself correcting and corralling Schumer. Schumer can find himself talking endlessly about the details of a matter and not realize that people are not listening. This is in contrast to Pelosi who chooses her words carefully and constantly monitors what is said about her.
 
-
 In summary, the dynamic between Nancy Pelosi and Chuck Schumer showcases the power of complementary leadership styles. Pelosi's enneagram type 3 visionary approach and Schumer's type 1 meticulous attention to detail have forged a working partnership. Their unique synergy serves as a testament to the potential of collaboration when differing strengths are brought together in pursuit of a common goal.
-
-
-
-
-
-
-
-
 
 <!-- - **Schumer respects Pelosi's power to negotiate.** Nancy is the master negotiator and can bring people to her side. Schumer is not know for building cons -->
 <!-- - **Together they are ok with taking a cut throat approach.** -->
@@ -79,4 +71,3 @@ When asked about the nature of their disagreements, Schumer lightheartedly claim
 An interesting moment in the interview occurred when Schumer attempted to discuss their strategy against Trump. Sensing potential damage to their public image, Pelosi quickly redirected the conversation. This keen awareness of how certain topics might impact their reputation is a prime example of Pelosi's enneagram type 3 tendencies.
 
 In summary, the dynamic between Nancy Pelosi and Chuck Schumer showcases the power of complementary leadership styles. Pelosi's enneagram type 3 visionary approach and Schumer's type 1 meticulous attention to detail have forged a partnership that has left an indelible mark on American politics. Their unique synergy serves as a testament to the potential of collaboration when differing strengths are brought together in pursuit of a common goal. -->
-

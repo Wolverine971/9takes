@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/4s/Jackie_Kennedy.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jackie_Kennedy">
 </svelte:head>
@@ -50,6 +51,5 @@ Enneagram Type 4s often have a romanticized view of the world, and this was cert
 ## She had a strong desire to be seen as special and unique.
 
 Finally, Enneagram Type 4s often have a strong desire to be seen as special and unique. Jackie Kennedy was no exception. She was known for her elegance and grace, and she worked hard to cultivate an image of sophistication and refinement. She also had a strong desire to be seen as a cultural ambassador, promoting the arts and literature wherever she went. Her desire to be seen as special and unique is a hallmark of the Individualist personality type.
-
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/John_F_Kennedy">John F Kennedy.</a>

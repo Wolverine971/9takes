@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/7s/John_F_Kennedy.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/John_F_Kennedy">
 </svelte:head>
@@ -49,7 +50,6 @@ Type 7 personalities value their freedom and independence, and they often resist
 ## A tendency to avoid pain and discomfort
 
 Finally, type 7 personalities have a tendency to avoid pain and discomfort, preferring instead to focus on the positive and the exciting. JFK was no exception. He was known for his love of pleasure and his aversion to anything that might bring him down. Unfortunately, this trait may have contributed to his downfall, as he struggled with chronic health issues and addiction throughout his life.
-
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Jackie_Kennedy">Jackie Kennedy.</a>
 And check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Marilyn_Monroe">Marilyn_Monroe.👀</a>

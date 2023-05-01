@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/3s/Nancy_Pelosi.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Nancy_Pelosi">
 </svelte:head>
@@ -78,8 +79,7 @@ Moreover, Pelosi has demonstrated her willingness to work across the aisle on si
 These examples of political flexibility further solidify the connection between Pelosi's character and the Enneagram Type 3, showcasing her ability to navigate complex situations and adjust her strategies accordingly to achieve her goals.
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {

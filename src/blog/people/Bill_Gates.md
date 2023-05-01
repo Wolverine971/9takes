@@ -13,6 +13,7 @@ type: ['techie']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/5s/Bill_Gates.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bill_Gates">
 </svelte:head>

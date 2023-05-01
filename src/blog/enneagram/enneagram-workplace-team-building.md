@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-workplace-team-building">
 </svelte:head>
@@ -101,7 +102,6 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 
 <div>
 <script type="application/ld+json">
-
 {
 "@type": "http://schema.org/BlogPosting",
 "http://schema.org/articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",

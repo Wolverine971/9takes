@@ -15,9 +15,8 @@
 	--color-theme-2: rgb(247, 37, 133);
 	--color-theme-purple: #5407d9;
 	--color-theme-purple-v: #d2cfd7;
-	--color-theme-purple-light:#bc96fd
+	--color-theme-purple-light: #bc96fd; /* #5407d9; */
 
-	/* #5407d9; */
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;

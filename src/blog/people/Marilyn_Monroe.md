@@ -13,6 +13,7 @@ type: ['celebrity']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/6s/Marilyn_Monroe.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Marilyn_Monroe">
 </svelte:head>
@@ -49,6 +50,5 @@ Enneagram Type 6 also seeks validation and acceptance from others, which can lea
 ## Inner Turmoil and Insecurity
 
 Enneagram Type 6 also experiences inner turmoil and insecurity, which can manifest in different ways, such as self-doubt, indecisiveness, and a need for reassurance. Marilyn Monroe's personal life was marked by tumultuous relationships, including her marriages to Joe DiMaggio and Arthur Miller, which were marked by conflict and instability. She also struggled with substance abuse and depression, which were likely linked to her underlying anxiety and insecurity.
-
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/John_F_Kennedy">John F. Kennedy.👀</a>

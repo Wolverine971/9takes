@@ -13,26 +13,24 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/community/three-sided-die">
 </svelte:head>
 
-
 <!-- create a full blog around this content:
 
-Plato when talking about the human soul said we were made of three parts, reason, spirit and appetite. He errantly went on to try to match these forces to classes in society. Aristotle who came after him said that the human soul was made up of two parts, the rational part and the irrational part. 
+Plato when talking about the human soul said we were made of three parts, reason, spirit and appetite. He errantly went on to try to match these forces to classes in society. Aristotle who came after him said that the human soul was made up of two parts, the rational part and the irrational part.
 
 Sigmund Freud said that the human psyche was divided up into three parts, the id, ego and superego. He correctly identified that these forces pull upon our mind in different ways and whose effects can be seen through observing our behavior. In modern times psychologists like Steven Pinker decry the need for rationality because so much of what he sees is irrational.
 
-However what if people were more complicated than simply being rational or irrational. What if Plato and Freud were right and Aristotle and Pinker didn't have the full picture. What if the people who don't agree with you were not good or bad or right or wrong. What if they just were looking at different things than you were. What if 
+However what if people were more complicated than simply being rational or irrational. What if Plato and Freud were right and Aristotle and Pinker didn't have the full picture. What if the people who don't agree with you were not good or bad or right or wrong. What if they just were looking at different things than you were. What if
 
-Given any issue or question what if the answers were not divided like a coin flip of being right or wrong, good or bad. What if answers were like an impossible three-sided die. 
+Given any issue or question what if the answers were not divided like a coin flip of being right or wrong, good or bad. What if answers were like an impossible three-sided die.
 
 The enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger, fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instinctive
 
  -->
-
-
 
 Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of human nature. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
 
@@ -46,9 +44,7 @@ Sigmund Freud revolutionized our understanding of the human psyche by suggesting
 
 ## Steven Pinker's Critique of Rationality
 
-
-
-Professor of psychology Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. He calls for people to simply be more rational and says that the more rational we are the more progress we attain. He goes on to list the many logical fallacies that people should avoid. 
+Professor of psychology Steven Pinker has questioned the importance of rationality in human behavior, pointing out that much of what we observe in people's actions seems to be irrational. He calls for people to simply be more rational and says that the more rational we are the more progress we attain. He goes on to list the many logical fallacies that people should avoid.
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx8yRqv5d6YujTR7xQl8nYx6UYvD3OrTgr&amp;clipt=EPPrARjlpwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

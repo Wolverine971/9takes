@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/party-in-street_color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-at-party">
 </svelte:head>
@@ -75,8 +76,7 @@ Type 9s are often the most laid-back and easy-going people at the party, going w
 Each type has its unique characteristics and motivations for attending the party. Understanding the Enneagram types can help us connect with others and appreciate their unique perspectives. Whether you're a Type 1, Type 9, or anything in between, there's something for everyone at a party. So go out there and enjoy yourself, and remember to appreciate the different perspectives and personalities of those around you.
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/articleBody": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
   "http://schema.org/author": {

@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/open_cage_color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>
@@ -57,9 +58,8 @@ The first key feature that sets 9takes apart is the platform's comment visibilit
 
 The second key feature pulls from the genius of the Enneagram which is a personality typing system comprising nine distinct archetypes. The platform allows users to filter comments by personality type, revealing fascinating patterns of thinking, feeling, and behavior. By observing these patterns, users can learn to appreciate the diverse approaches to various questions.
 
-This feature enables users to identify like-minded individuals and fosters an environment of open-mindedness towards those with different perspectives. By connecting users based on their Enneagram types, 9takes allows you to identify your own patterns and learn from  others.
+This feature enables users to identify like-minded individuals and fosters an environment of open-mindedness towards those with different perspectives. By connecting users based on their Enneagram types, 9takes allows you to identify your own patterns and learn from others.
 
 ## The Power of Nine: Why 9takes is Essential in Today's World
 
 The name "9takes" is a nod to the nine archetypes of the Enneagram, but it also represents the nine unique perspectives the platform embraces. In an era of polarized opinions, being right or wrong, good or bad, my side or the other side, 9takes offers something different. A much-needed space for meaningful, authentic communication that encourages personal growth and understanding. There is no one right perspective, just different takes on life.
-

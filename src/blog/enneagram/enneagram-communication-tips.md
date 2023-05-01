@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/communication-tips_color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
 </svelte:head>
@@ -24,15 +25,15 @@ blog: true
     justify-content: center;
 	"
 >
-	
 
-	<PopCard
-		image={`/blogs/communication-tips_color.webp`}
-		showIcon={false}
-		text=""
-		tint={false}
-		subtext=""
-	/>
+    <PopCard
+    	image={`/blogs/communication-tips_color.webp`}
+    	showIcon={false}
+    	text=""
+    	tint={false}
+    	subtext=""
+    />
+
 </div>
 
 # Enneagram type communication tips

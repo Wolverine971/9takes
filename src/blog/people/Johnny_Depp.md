@@ -13,6 +13,7 @@ type: ['celebrity']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/4s/Johnny_Depp.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Johnny_Depp">
 </svelte:head>

@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/2s/Nancy_Reagan.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Nancy_Reagan">
 </svelte:head>

@@ -13,11 +13,10 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/psychology">
 </svelte:head>
-
-
 
 | Page Number | Topic                                                                              | Author                   |
 | ----------- | ---------------------------------------------------------------------------------- | ------------------------ |

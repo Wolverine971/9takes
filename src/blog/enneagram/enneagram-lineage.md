@@ -13,11 +13,13 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-lineage">
 
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -96,10 +98,8 @@ Understanding the connections between the Enneagram, Plato, and Freud, as well a
 
 In essence, the Enneagram offers a framework for personal development that is deeply rooted in the rich philosophical traditions of Plato and Freud. By exploring these connections, we can better appreciate the Enneagram as not only a tool for self-understanding but also as a means to foster personal growth and transformation.
 
-
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/author": {
     "@type": "http://schema.org/Person",

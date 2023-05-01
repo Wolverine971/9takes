@@ -13,6 +13,7 @@ type: ['musician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/3s/Beyonce_Knowles.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Beyonce_Knowles">
 </svelte:head>
@@ -52,8 +53,7 @@ Type 3's are motivated by the need for admiration and recognition from others. B
 Type 3's are goal-oriented and will do whatever it takes to achieve their objectives. Beyoncé has proven her ability to focus on her goals, from her early days with Destiny's Child to her successful solo career. In her song "I Was Here," she sings about leaving her mark on the world and making a difference, which is a reflection of a Type 3's drive to achieve their goals.
 
 <div>
-<script type="application/ld+json">
-    {
+<script type="application/ld+json">    {
   "@context": "https://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {

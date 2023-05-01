@@ -12,6 +12,7 @@ type: ['overview']
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-5">
 </svelte:head>
@@ -120,11 +121,8 @@ To help foster personal growth and development for individuals with a Type 5 per
 - 24 hours after learning something, we forget two-thirds of it: categorized as fear of being incapable as it pertains to the limitations of human memory - Herman Ebbinghaus
 - The unconscious is the psychic reality: categorized as desire to be knowledgeable and self-sufficient as it pertains to the workings of the unconscious mind - Sigmund Freud -->
 
-
-
 <div>
 <script type="application/ld+json">
-
 {
   "@context": "http://schema.org/",
   "@graph": [

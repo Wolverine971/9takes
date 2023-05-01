@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Team Diversity'
-description: "Harnessing the Power of the Enneagram for Balanced and Diverse Teams"
+description: 'Harnessing the Power of the Enneagram for Balanced and Diverse Teams'
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-diversity">
 </svelte:head>
@@ -51,7 +52,6 @@ In conclusion, leveraging the Enneagram as a tool for building balanced and dive
 
   <div>
    <script type="application/ld+json">
-
 {
 "@type": "http://schema.org/BlogPosting",
 "http://schema.org/about": {

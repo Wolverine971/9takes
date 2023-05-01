@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/6s/George_H_W_Bush.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/George_H_W_Bush">
 </svelte:head>
@@ -50,12 +51,10 @@ Lastly, George H.W. Bush's devotion to his family showcases his Type 6 personali
 
 In conclusion, George H.W. Bush's Enneagram Type 6 traits are evident in his collaborative approach to international relations, his prudent decision-making, his commitment to public service, and his strong family bonds. These aspects of his life and presidency exemplify the characteristics of a Loyalist, illustrating the influence of the Enneagram on individuals in positions of leadership.
 
-
 Check out this one for an analysis on his son <a href="/blog/famous-enneagram-types/George_W_Bush">George W. Bush.</a>
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/Article",
   "http://schema.org/articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
   "http://schema.org/author": {

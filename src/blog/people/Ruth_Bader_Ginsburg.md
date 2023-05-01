@@ -13,6 +13,7 @@ type: ['politician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/1s/Ruth_Bader_Ginsburg.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ruth_Bader_Ginsburg">
 </svelte:head>

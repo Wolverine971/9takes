@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
 </svelte:head>
@@ -200,8 +201,7 @@ possible with self-compassion and care.
 <p>Images coming soon 🚧</p>
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {

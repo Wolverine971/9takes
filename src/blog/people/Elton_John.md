@@ -13,6 +13,7 @@ type: ['musician']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/7s/Elton_John.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Elton_John">
 </svelte:head>

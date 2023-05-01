@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/stressed.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-stress-number">
 </svelte:head>
@@ -75,8 +76,7 @@ Type 9: Your stress number is Type 6. Type 6s are loyal, responsible, and anxiou
 Understanding your Enneagram stress number is essential if you want to thrive in life. By recognizing your place of stress and the toxic behaviors and emotions associated with it, you can learn to manage your stress better and develop healthy coping mechanisms. Additionally, understanding other people's Enneagram types can help you build stronger relationships and communicate more effectively
 
 <div>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/articleBody": "In this blog post, we explore the Enneagram stress number and how it affects your behavior and relationships. Each Enneagram type has a place of comfort and a place of stress, and recognizing your stress number can be incredibly valuable because it helps you understand yourself better. When you're in a place of stress, you're likely to experience negative emotions, such as anxiety and frustration, and exhibit behaviors that you're not proud of. The blog post also explains why it can be challenging to interact with people who are your stress number and how to recognize your stress number. The post provides examples of how each Enneagram type reacts under stress and what it means for them. The examples include tips on how to manage stress better, build stronger relationships, and communicate more effectively. The blog post is perfect for anyone interested in the Enneagram and self-improvement, including individuals, couples, and teams. Whether you're looking to improve your personal or professional life, understanding your Enneagram stress number is essential for your growth and success.",
   "http://schema.org/articleSection": "Enneagram, Personality Types, Stress Number",

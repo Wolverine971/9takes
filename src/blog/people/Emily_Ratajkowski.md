@@ -13,6 +13,7 @@ type: ['celebrity']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/8s/Emily_Ratajkowski.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emily_Ratajkowski">
 </svelte:head>
@@ -32,7 +33,7 @@ type: ['celebrity']
 	/>
 </div>
 
- -->
+-->
 
 ## Introduction
 
@@ -82,9 +83,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 </div>
 
 <div>
-<script type="application/ld+json">
-
-{
+<script type="application/ld+json">{
   "@type": "http://schema.org/Article",
   "http://schema.org/articleBody": "",
   "http://schema.org/articleSection": "celebrity",
@@ -154,6 +153,5 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
     "@id": "https://9takes.com/blog/famous-enneagram-types/Emily_Ratajkowski"
   }
 }
-
 </script>
 </div>

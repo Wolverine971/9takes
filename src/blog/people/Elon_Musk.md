@@ -13,6 +13,7 @@ type: ['techie']
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/5s/Elon_Musk.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Elon_Musk">
 </svelte:head>
