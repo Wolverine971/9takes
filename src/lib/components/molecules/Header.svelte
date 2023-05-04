@@ -8,6 +8,10 @@
 	import { afterUpdate } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
+	import Rubix from '../atoms/rubix.svelte';
+	import Scribble from '../atoms/scribble.svelte';
+
+	// import rubixThick from './darkRubixThick.svg';
 	export let data: PageData;
 	let innerWidth: number;
 	let isOpen = false;
@@ -339,11 +343,18 @@
 					</nav>
 				{/if}
 			</div>
-			{#if $page.url.pathname !== '/'}
+			<!-- {#if $page.url.pathname !== '/'}
 				<div style="position: absolute; left: 0; right: 0; margin: 0 auto; text-align: center;">
 					<h3>9takes</h3>
 				</div>
-			{/if}
+				
+			{/if} -->
+			<a href="/" class="brand">
+				<Rubix height={50} width={50} svgStyle={'margin: 0rem'} />
+				<!-- <img src={rubixThick} alt="" /> -->
+
+				<!-- <Scribble text={'9takes'} /> -->
+			</a>
 
 			{#if data?.session?.user}
 				<div class="corner">
@@ -358,34 +369,66 @@
 					</button>
 				</div>
 			{/if}
+			<!-- </a> -->
 		</div>
 	{:else}
 		<nav class="{innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' && 'absolute-pos'}">
-			<div class="navbar-brand">
-				<div>
-					<NavbarLinks mobile={innerWidth < 760} />
-				</div>
-				{#if data?.session?.user}
-					<div class="corner-right-big">
-						<button
-							type="button"
-							on:click={() => {
-								goto('/account');
-							}}
-							style=""
-							class="corner-icon"
-						>
-							<img src={account} alt="Account" />
-						</button>
-					</div>
-				{/if}
+			<a href="/" class="brand left">
+				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
+				<!-- <img src={rubixThick} alt="" /> -->
+
+				<Scribble text={'9takes'} />
+
+				<!-- 9takes -->
+			</a>
+
+			<!-- <div class="navbar-brand"> -->
+			<div class="center">
+				<NavbarLinks mobile={innerWidth < 760} />
 			</div>
+			{#if data?.session?.user}
+				<div class="corner-right-big right">
+					<button
+						type="button"
+						on:click={() => {
+							goto('/account');
+						}}
+						style=""
+						class="corner-icon"
+					>
+						<img src={account} alt="Account" />
+					</button>
+				</div>
+			{/if}
+			<!-- </div> -->
 		</nav>
 	{/if}
 	<!-- </Context> -->
 </header>
 
 <style lang="scss">
+	.left {
+		position: absolute;
+		left: 0;
+	}
+	.center {
+		position: absolute;
+		left: 50%; /* Position the center item at the center of the navbar */
+		transform: translateX(-50%);
+		z-index: 12343;
+	}
+	.right {
+		position: absolute;
+		right: 0;
+	}
+	.brand {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		z-index: 12433;
+		text-decoration: none !important;
+	}
 	.absolute-pos {
 		position: absolute;
 		left: 0;

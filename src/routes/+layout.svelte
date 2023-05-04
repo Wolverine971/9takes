@@ -24,13 +24,15 @@
 	import Footer from '../lib/components/molecules/Footer.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	export let data: PageData;
+	let innerWidth = 0;
 </script>
 
+<svelte:window bind:innerWidth />
 <div class="app">
 	<!-- <div class="">
 		<div class="card">
 			<div class="halftone" style="height: 100%;"> -->
-	<div class="mmmain">
+	<div class="foreward-main">
 		<Analytics />
 		<!-- {#if $page.url.pathname !== '/'} -->
 		<Header {data} />
@@ -41,12 +43,20 @@
 		{#if $page.url.pathname === '/'}
 			<Jumbotron
 				image={'background2.webp'}
-				showIcon={true}
+				showIcon={innerWidth > 760 && true}
 				text={'9takes'}
 				subtext={'Ask questions, share your story, get curious'}
-			/>
+			>
+				<div class="screen">
+					<p class="jumbo-name" data-value={'9takes'}>{'9takes'}</p>
+					<p class="link">{'Ask questions, share your story, get curious'}</p>
+				</div>
+			</Jumbotron>
 		{/if}
-		<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
+		<main
+			class={$page.url.pathname !== '/' ? 'column-width' : 'column'}
+			style={innerWidth > 760 && $page.url.pathname !== '/' ? 'margin-top: 85px;' : ''}
+		>
 			<slot />
 			<Footer {data} />
 		</main>
@@ -57,6 +67,38 @@
 </div>
 
 <style lang="scss">
+	.screen {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+	.jumbo-name {
+		position: relative;
+		font-size: 3.25rem;
+		font-weight: 400;
+		margin: 1rem;
+		font-family: 'Source Code Pro', monospace;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.link {
+		opacity: 0.8;
+		font-size: 1.5rem;
+		text-shadow: 0px 0px 0.5rem white;
+		font-weight: 400;
+		letter-spacing: 0.3rem;
+		text-decoration: none;
+		text-align: center;
+		font-family: 'Source Code Pro', monospace;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
 	// .mcard {
 	// 	/* --mask: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5)); */
 	// 	/* --dotsColor: 255 255 255; */
@@ -87,7 +129,7 @@
 	// 	padding: 0.8rem 1rem;
 	// 	padding: var(--card-padding);
 	// }
-	.mmmain {
+	.foreward-main {
 		position: relative;
 		z-index: 12344545;
 	}

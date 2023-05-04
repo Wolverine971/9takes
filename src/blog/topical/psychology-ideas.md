@@ -11,6 +11,8 @@ published: false
 type: ['overview']
 ---
 
+<div class="scroll-table">
+
 | Topic                                                                              | Psychologist             | Relevant to                    |
 | ---------------------------------------------------------------------------------- | ------------------------ | ------------------------------ |
 | The four temperaments of personality                                               | Galen                    | Type 1, Type 4, Type 5, Type 9 |
@@ -112,3 +114,12 @@ type: ['overview']
 | Behavior without environmental cues would be absurdly chaotic                      | Walter Mischel           | Type 5, Type 6, Type 8         |
 | We cannot distinguish the sane from the insane in psychiatric hospitals            | David Rosenhan           | Type 4, Type 5, Type 6         |
 | The three faces of Eve                                                             | Thigpen & Cl             | Type 4, Type 6, Type 9         |
+
+</div>
+
+<style>
+.scroll-table {
+    overflow-x: scroll;
+}
+
+</style>

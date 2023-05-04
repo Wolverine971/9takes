@@ -18,6 +18,8 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/psychology">
 </svelte:head>
 
+<div class="scroll-table">
+
 | Page Number | Topic                                                                              | Author                   |
 | ----------- | ---------------------------------------------------------------------------------- | ------------------------ |
 | 18          | The four temperaments of personality                                               | Galen                    |
@@ -119,3 +121,12 @@ blog: true
 | 326         | Behavior without environmental cues would be absurdly chaotic                      | Walter Mischel           |
 | 328         | We cannot distinguish the sane from the insane in psychiatric hospitals            | David Rosenhan           |
 | 330         | The three faces of Eve                                                             | Thigpen & Cleckley       |
+
+</div>
+
+<style>
+.scroll-table {
+    overflow-x: scroll;
+}
+
+</style>

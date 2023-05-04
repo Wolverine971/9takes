@@ -64,12 +64,15 @@ Similarly, Freud's theory of the human psyche—comprising the id, ego, and supe
 **Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intellectual intelligence center, focused on understanding our environment.
 **Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional intelligence center, responsible for managing our emotions and connections with others.
 
+<div class="scroll-table">
+
 | Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
 | --------- | -------- | -------------------------------- | ---------------------- |
 | id        | appetite | instinctual/ body                | anger                  |
 | ego       | reason   | intellectual/ head               | fear                   |
 | super ego | spirit   | emotional/ heart                 | shame                  |
 
+</div>
 ## Core Emotions: Fear, Shame, and Anger
 
 Now that we've established the connections between the Enneagram, Plato, and Freud, let's delve into the core emotions behind the development of these intelligence centers: fear, shame, and anger.
@@ -274,5 +277,10 @@ td {
     border: 1px solid var(--color-theme-purple);
     text-align: center;
 }
+
+.scroll-table {
+    overflow-x: scroll;
+}
+
 
 </style>

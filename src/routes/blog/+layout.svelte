@@ -14,8 +14,23 @@
 				text={'9takes Blogs'}
 				subtext={''}
 				aspectRatio={''}
-			/>
+			>
+				<p class="jumbo-name" data-value={'9takes Blogs'}>{'9takes Blogs'}</p>
+			</Jumbotron>
 		{/if}
 		<slot />
 	</div>
 </Layout>
+
+<style>
+	.jumbo-name {
+		position: relative;
+		font-size: 3.25rem;
+		font-weight: 400;
+		margin: 1rem;
+		font-family: 'Source Code Pro', monospace;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+	}
+</style>

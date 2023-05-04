@@ -2,6 +2,8 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
+	import Rubix from './rubix.svelte';
+	// import darkRubix from './darkRubix.svg';
 	/* -- Glow effect -- */
 
 	export let image: string = 'cyber-campfire.webp';
@@ -79,22 +81,7 @@
 	/>
 	<div class="screen-overlay" />
 	<div class="screen-content" style="justify-content: {centerText}">
-		<!-- <i  /> -->
-		{#if showIcon}
-			<img
-				class="screen-icon fa-brands fa-codepen"
-				src="enneagram.svg"
-				alt="enneagram symbol"
-				style="width: 10%;"
-			/>
-		{/if}
-
-		<div class="screen-user">
-			<p class="jumbo-name" data-value={text}>{text}</p>
-			{#if subtext}
-				<p class="link">{subtext}</p>
-			{/if}
-		</div>
+		<slot />
 	</div>
 </div>
 
@@ -285,11 +272,6 @@
 	}
 
 	.screen > .screen-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: flex-end;
-		flex-grow: 1;
 		/* gap: 4rem; */
 		position: relative;
 		z-index: 3;
@@ -297,6 +279,11 @@
 		/* padding-bottom: 6rem; */
 		border: 1px solid rgb(var(--primary-rgb) / 50%);
 		border-radius: 0.6rem;
+
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		width: 100%;
 	}
 
 	.screen > .screen-content > .screen-icon {
@@ -438,6 +425,13 @@
 		.screen {
 			/* scale: 0.6; */
 			margin-bottom: 0rem;
+		}
+		.jumbo-name {
+			text-shadow: 2px 2px #0e0e0e;
+		}
+
+		.link {
+			text-shadow: 2px 2px #0e0e0e !important;
 		}
 
 		.screen-content {
