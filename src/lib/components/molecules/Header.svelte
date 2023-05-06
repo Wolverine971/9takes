@@ -350,7 +350,7 @@
 				
 			{/if} -->
 			<a href="/" class="brand">
-				<Rubix height={50} width={50} svgStyle={'margin: 0rem'} />
+				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 				<!-- <img src={rubixThick} alt="" /> -->
 
 				<!-- <Scribble text={'9takes'} /> -->
