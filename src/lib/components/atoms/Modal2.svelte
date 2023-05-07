@@ -89,6 +89,7 @@
 		background: #4448;
 		display: flex;
 		align-items: center;
+		z-index: 23425343;
 		justify-content: center;
 	}
 	#modal {
