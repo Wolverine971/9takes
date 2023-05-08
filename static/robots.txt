@@ -4,7 +4,7 @@ Disallow: /register/
 Disallow: /login/
 Allow: /
 
-
+Sitemap: https://9takes.com/sitemap.xml
 
 
 
