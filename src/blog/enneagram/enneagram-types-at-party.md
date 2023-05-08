@@ -14,7 +14,7 @@ blog: true
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/party-in-street_color.webp" />
+  <meta property="og:image" content="https://9takes.com/blogs/party-in-street-color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-at-party">
 </svelte:head>
 
@@ -27,7 +27,7 @@ blog: true
 	"
 >
   <PopCard
-		image={`/blogs/party-in-street_color.webp`}
+		image={`/blogs/party-in-street-color.webp`}
 		showIcon={false}
 		text=""
     tint={false}

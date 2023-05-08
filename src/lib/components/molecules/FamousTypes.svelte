@@ -6,82 +6,82 @@
 
 	const famousTypes: { [index: number]: any[] } = {
 		1: [
-			{ name: 'Hillary_Clinton', link: false },
-			{ name: 'Meryl_Streep', link: false },
-			{ name: 'Michelle_Obama', link: true },
-			{ name: 'Nelson_Mandela', link: false },
-			{ name: 'Ruth_Bader_Ginsburg', link: true },
-			{ name: 'Steve_Jobs', link: false },
-			{ name: 'Brene_Brown', link: false }
+			{ name: 'Hillary-Clinton', link: false },
+			{ name: 'Meryl-Streep', link: false },
+			{ name: 'Michelle-Obama', link: true },
+			{ name: 'Nelson-Mandela', link: false },
+			{ name: 'Ruth-Bader-Ginsburg', link: true },
+			{ name: 'Steve-Jobs', link: false },
+			{ name: 'Brene-Brown', link: false }
 		],
 		2: [
-			{ name: 'Dolly_Parton', link: false },
-			{ name: 'Jimmy_Carter', link: true },
-			{ name: 'Mother_Teresa', link: false },
-			{ name: 'Nancy_Reagan', link: true },
-			{ name: 'Mr_Rogers', link: true },
-			{ name: 'Jennifer_Garner', link: false }
+			{ name: 'Dolly-Parton', link: false },
+			{ name: 'Jimmy-Carter', link: true },
+			{ name: 'Mother-Teresa', link: false },
+			{ name: 'Nancy-Reagan', link: true },
+			{ name: 'Mr-Rogers', link: true },
+			{ name: 'Jennifer-Garner', link: false }
 		],
 		3: [
-			{ name: 'Arnold_Schwarzenegger', link: true },
-			{ name: 'Beyonce_Knowles', link: true },
-			{ name: 'Meghan_Markle', link: true },
-			{ name: 'Oprah_Winfrey', link: true },
-			{ name: 'Nancy_Pelosi', link: true },
-			{ name: 'Lady_Gaga', link: true },
-			{ name: 'Taylor_Swift', link: false },
-			{ name: 'Reese_Witherspoon', link: false }
+			{ name: 'Arnold-Schwarzenegger', link: true },
+			{ name: 'Beyonce-Knowles', link: true },
+			{ name: 'Meghan-Markle', link: true },
+			{ name: 'Oprah-Winfrey', link: true },
+			{ name: 'Nancy-Pelosi', link: true },
+			{ name: 'Lady-Gaga', link: true },
+			{ name: 'Taylor-Swift', link: false },
+			{ name: 'Reese-Witherspoon', link: false }
 		],
 		4: [
-			{ name: 'Johnny_Depp', link: true },
-			{ name: 'Billie_Eilish', link: false },
-			{ name: 'Bob_Dylan', link: false },
-			{ name: 'Frida_Kahlo', link: true },
-			{ name: 'Jackie_Kennedy', link: true }
+			{ name: 'Johnny-Depp', link: true },
+			{ name: 'Billie-Eilish', link: false },
+			{ name: 'Bob-Dylan', link: false },
+			{ name: 'Frida-Kahlo', link: true },
+			{ name: 'Jackie-Kennedy', link: true }
 		],
 		5: [
-			{ name: 'Bill_Gates', link: false },
+			{ name: 'Bill-Gates', link: false },
 
-			{ name: 'Elon_Musk', link: false },
-			{ name: 'Emily_Dickinson', link: false },
-			{ name: 'Stephen_Hawking', link: false },
-			{ name: 'Albert_Einstein', link: false },
-			{ name: 'Agatha_Christie', link: false }
+			{ name: 'Elon-Musk', link: false },
+			{ name: 'Emily-Dickinson', link: false },
+			{ name: 'Stephen-Hawking', link: false },
+			{ name: 'Albert-Einstein', link: false },
+			{ name: 'Agatha-Christie', link: false }
 		],
 		6: [
-			{ name: 'Marilyn_Monroe', link: true },
-			{ name: 'Ellen_Degeneres', link: true },
-			{ name: 'George_W_Bush', link: true },
-			{ name: 'George_H_W_Bush', link: true },
-			{ name: 'Joe_Biden', link: true },
-			{ name: 'Mindy_Kaling', link: false },
-			{ name: 'Mark_Twain', link: false },
-			{ name: 'Prince_Harry', link: true }
+			{ name: 'Marilyn-Monroe', link: true },
+			{ name: 'Ellen-Degeneres', link: true },
+			{ name: 'George-W-Bush', link: true },
+			{ name: 'George-H-W-Bush', link: true },
+			{ name: 'Joe-Biden', link: true },
+			{ name: 'Mindy-Kaling', link: false },
+			{ name: 'Mark-Twain', link: false },
+			{ name: 'Prince-Harry', link: true }
 		],
 		7: [
-			{ name: 'Elton_John', link: true },
-			{ name: 'Britney_Spears', link: false },
-			{ name: 'John_F._Kennedy', link: true },
-			{ name: 'Miley_Cyrus', link: false },
-			{ name: 'Robin_Williams', link: false },
-			{ name: 'Emily_Ratajkowski', link: true }
+			{ name: 'Elton-John', link: true },
+			{ name: 'Britney-Spears', link: false },
+			{ name: 'John-F.-Kennedy', link: true },
+			{ name: 'Miley-Cyrus', link: false },
+			{ name: 'Robin-Williams', link: false },
+			{ name: 'Emily-Ratajkowski', link: true }
 		],
 		8: [
-			{ name: 'Clint_Eastwood', link: false },
-			{ name: 'Ernest_Hemingway', link: false },
-			{ name: 'Martin_Luther_King_Jr', link: true },
-			{ name: 'Winston_Churchill', link: true },
-			{ name: 'Chelsea_Handler', link: false }
+			{ name: 'Clint-Eastwood', link: false },
+			{ name: 'Ernest-Hemingway', link: false },
+			{ name: 'Martin-Luther-King-Jr', link: true },
+			{ name: 'Winston-Churchill', link: true },
+			{ name: 'Chelsea-Handler', link: false }
 		],
 		9: [
-			{ name: 'Abraham_Lincoln', link: false },
-			{ name: 'Ariana_Grande', link: false },
-			{ name: 'Barack_Obama', link: true },
-			{ name: 'Bernie_Sanders', link: true },
-			{ name: 'Marie_Kondo', link: false },
-			{ name: 'Zooey_Deschanel', link: false },
-			{ name: 'Queen_Elizabeth_II', link: true },
-			{ name: 'Ronald_Reagan', link: true }
+			{ name: 'Abraham-Lincoln', link: false },
+			{ name: 'Ariana-Grande', link: false },
+			{ name: 'Barack-Obama', link: true },
+			{ name: 'Bernie-Sanders', link: true },
+			{ name: 'Marie-Kondo', link: false },
+			{ name: 'Zooey-Deschanel', link: false },
+			{ name: 'Queen-Elizabeth-II', link: true },
+			{ name: 'Ronald-Reagan', link: true }
 		]
 	};
 	// onMount(() => {
@@ -103,10 +103,10 @@
 		<li>
 			{#if person.link}
 				<a href={`/blog/famous-enneagram-types/${person.name}`}>
-					{person.name.split('_').join(' ')}
+					{person.name.split('-').join(' ')}
 				</a>
 			{:else}
-				<p>{person.name.split('_').join(' ')}</p>
+				<p>{person.name.split('-').join(' ')}</p>
 			{/if}
 		</li>
 	{/each}

@@ -42,7 +42,7 @@
 		{#each politicians as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('_').join(' ')}
+					{person.slug.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -52,7 +52,7 @@
 		{#each celebrities as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('_').join(' ')}
+					{person.slug.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -63,7 +63,7 @@
 		{#each musicians as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('_').join(' ')}
+					{person.slug.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -73,7 +73,7 @@
 		{#each artists as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('_').join(' ')}
+					{person.slug.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -82,7 +82,7 @@
 	<ul>
 		{#each techies as person}
 			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}> {person.slug.split('_').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}> {person.slug.split('-').join(' ')} </a>
 			</li>
 		{/each}
 	</ul> -->

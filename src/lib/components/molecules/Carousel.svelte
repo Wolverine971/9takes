@@ -6,83 +6,83 @@
 
 	const famousTypes: { [index: number]: any[] } = {
 		1: [
-			'Hillary_Clinton',
-			'Meryl_Streep',
-			'Michelle_Obama',
-			'Nelson_Mandela',
-			'Ruth_Bader_Ginsburg',
-			'Steve_Jobs',
-			'Brene_Brown'
+			'Hillary-Clinton',
+			'Meryl-Streep',
+			'Michelle-Obama',
+			'Nelson-Mandela',
+			'Ruth-Bader-Ginsburg',
+			'Steve-Jobs',
+			'Brene-Brown'
 		],
 		2: [
-			'Dolly_Parton',
-			'Jimmy_Carter',
-			'Mother_Teresa',
-			'Nancy_Reagan',
-			'Meghan_Markle',
-			'Mr_Rogers',
-			'Jennifer_Garner'
+			'Dolly-Parton',
+			'Jimmy-Carter',
+			'Mother-Teresa',
+			'Nancy-Reagan',
+			'Meghan-Markle',
+			'Mr-Rogers',
+			'Jennifer-Garner'
 		],
 		3: [
-			'Arnold_Schwarzenegger',
-			'Beyonce_Knowles',
-			'Oprah_Winfrey',
-			'Nancy_Pelosi',
-			'Lady_Gaga',
-			'Taylor_Swift',
-			'Reese_Witherspoon'
+			'Arnold-Schwarzenegger',
+			'Beyonce-Knowles',
+			'Oprah-Winfrey',
+			'Nancy-Pelosi',
+			'Lady-Gaga',
+			'Taylor-Swift',
+			'Reese-Witherspoon'
 		],
 		4: [
-			'Johnny_Depp',
+			'Johnny-Depp',
 			// someone else
-			'Billie_Eilish',
-			'Bob_Dylan',
-			'Frida_Kahlo',
-			'Jackie_Kennedy'
+			'Billie-Eilish',
+			'Bob-Dylan',
+			'Frida-Kahlo',
+			'Jackie-Kennedy'
 		],
 		5: [
-			'Bill_Gates',
-			'Elon_Musk',
-			'Emily_Dickinson',
-			'Stephen_Hawking',
-			'Albert_Einstein',
-			'Agatha_Christie'
+			'Bill-Gates',
+			'Elon-Musk',
+			'Emily-Dickinson',
+			'Stephen-Hawking',
+			'Albert-Einstein',
+			'Agatha-Christie'
 		],
 		6: [
-			'Marilyn_Monroe',
-			'Ellen_Degeneres',
-			'George_H_W_Bush',
-			'George_W_Bush',
-			'Joe_Biden',
-			'Mindy_Kaling',
-			'Mark_Twain',
-			'Prince_Harry'
+			'Marilyn-Monroe',
+			'Ellen-Degeneres',
+			'George-H-W-Bush',
+			'George-W-Bush',
+			'Joe-Biden',
+			'Mindy-Kaling',
+			'Mark-Twain',
+			'Prince-Harry'
 		],
 		7: [
-			'Elton_John',
+			'Elton-John',
 			// someone else
-			'Britney_Spears',
-			'John_F_Kennedy',
-			'Miley_Cyrus',
-			'Robin_Williams',
-			'Emily_Ratajkowski'
+			'Britney-Spears',
+			'John-F-Kennedy',
+			'Miley-Cyrus',
+			'Robin-Williams',
+			'Emily-Ratajkowski'
 		],
 		8: [
-			'Clint_Eastwood',
-			'Ernest_Hemingway',
-			'Martin_Luther_King_Jr',
-			'Winston_Churchill',
-			'Chelsea_Handler'
+			'Clint-Eastwood',
+			'Ernest-Hemingway',
+			'Martin-Luther-King-Jr',
+			'Winston-Churchill',
+			'Chelsea-Handler'
 		],
 		9: [
-			'Abraham_Lincoln',
-			'Ariana_Grande',
-			'Barack_Obama',
-			'Bernie_Sanders',
-			'Marie_Kondo',
-			'Zooey_Deschanel',
-			'Queen_Elizabeth_II',
-			'Ronald_Reagan'
+			'Abraham-Lincoln',
+			'Ariana-Grande',
+			'Barack-Obama',
+			'Bernie-Sanders',
+			'Marie-Kondo',
+			'Zooey-Deschanel',
+			'Queen-Elizabeth-II',
+			'Ronald-Reagan'
 		]
 	};
 	let w: any;
@@ -110,84 +110,84 @@
 		<PopCard
 			image={`/types/${type}s/${visibleImage}.webp`}
 			showIcon={false}
-			text={visibleImage.split('_').join(' ')}
+			text={visibleImage.split('-').join(' ')}
 			subtext={''}
 		/>
 	{/if}
 </div>
 
-<!-- cwebp "Hillary_Clinton.png" -o "Hillary_Clinton.webp"
-cwebp "Brene_Brown.png" -o "Brene_Brown.webp"
-cwebp "Meryl_Streep.png" -o "Meryl_Streep.webp"
-cwebp "Michelle_Obama.png" -o "Michelle_Obama.webp"
-cwebp "Nelson_Mandela.png" -o "Nelson_Mandela.webp"
-cwebp "Ruth_Bader_Ginsburg.png" -o "Ruth_Bader_Ginsburg.webp"
-cwebp "Steve_Jobs.png" -o "Steve_Jobs.webp"
+<!-- cwebp "Hillary-Clinton.png" -o "Hillary-Clinton.webp"
+cwebp "Brene-Brown.png" -o "Brene-Brown.webp"
+cwebp "Meryl-Streep.png" -o "Meryl-Streep.webp"
+cwebp "Michelle-Obama.png" -o "Michelle-Obama.webp"
+cwebp "Nelson-Mandela.png" -o "Nelson-Mandela.webp"
+cwebp "Ruth-Bader-Ginsburg.png" -o "Ruth-Bader-Ginsburg.webp"
+cwebp "Steve-Jobs.png" -o "Steve-Jobs.webp"
 
 
 
 
-cwebp "Jimmy_Carter.png" -o "Jimmy_Carter.webp"
-cwebp "Dolly_Parton.png" -o "Dolly_Parton.webp"
-cwebp "Mother_Teresa.png" -o "Mother_Teresa.webp"
-cwebp "Mr_Rogers.png" -o "Mr_Rogers.webp"
-cwebp "Nancy_Reagan.png" -o "Nancy_Reagan.webp"
-cwebp "Meghan_Markle.png" -o "Meghan_Markle.webp"
+cwebp "Jimmy-Carter.png" -o "Jimmy-Carter.webp"
+cwebp "Dolly-Parton.png" -o "Dolly-Parton.webp"
+cwebp "Mother-Teresa.png" -o "Mother-Teresa.webp"
+cwebp "Mr-Rogers.png" -o "Mr-Rogers.webp"
+cwebp "Nancy-Reagan.png" -o "Nancy-Reagan.webp"
+cwebp "Meghan-Markle.png" -o "Meghan-Markle.webp"
 
-cwebp "Arnold_Schwarzenegger.png" -o "Arnold_Schwarzenegger.webp"
-cwebp "Beyonce_Knowles.png" -o "Beyonce_Knowles.webp"
-cwebp "Lady_Gaga.png" -o "Lady_Gaga.webp"
-cwebp "Oprah_Winfrey.png" -o "Oprah_Winfrey.webp"
-cwebp "Reese_Witherspoon.png" -o "Reese_Witherspoon.webp"
-cwebp "Taylor_Swift.png" -o "Taylor_Swift.webp"
+cwebp "Arnold-Schwarzenegger.png" -o "Arnold-Schwarzenegger.webp"
+cwebp "Beyonce-Knowles.png" -o "Beyonce-Knowles.webp"
+cwebp "Lady-Gaga.png" -o "Lady-Gaga.webp"
+cwebp "Oprah-Winfrey.png" -o "Oprah-Winfrey.webp"
+cwebp "Reese-Witherspoon.png" -o "Reese-Witherspoon.webp"
+cwebp "Taylor-Swift.png" -o "Taylor-Swift.webp"
 
-cwebp "Billie_Eilish.png" -o "Billie_Eilish.webp"
-cwebp "Bob_Dylan.png" -o "Bob_Dylan.webp"
-cwebp "Frida_Kahlo.png" -o "Frida_Kahlo.webp"
-cwebp "Jackie_Kennedy.png" -o "Jackie_Kennedy.webp"
-cwebp "Johnny_Depp.png" -o "Johnny_Depp.webp"
+cwebp "Billie-Eilish.png" -o "Billie-Eilish.webp"
+cwebp "Bob-Dylan.png" -o "Bob-Dylan.webp"
+cwebp "Frida-Kahlo.png" -o "Frida-Kahlo.webp"
+cwebp "Jackie-Kennedy.png" -o "Jackie-Kennedy.webp"
+cwebp "Johnny-Depp.png" -o "Johnny-Depp.webp"
 
-cwebp "Agatha_Christie.png" -o "Agatha_Christie.webp"
-cwebp "Albert_Einstein.png" -o "Albert_Einstein.webp"
-cwebp "Albert_Einstein2.png" -o "Albert_Einstein2.webp"
-cwebp "Bill_Gates.png" -o "Bill_Gates.webp"
-cwebp "Diane_Sawyer.png" -o "Diane_Sawyer.webp"
-cwebp "Emily_Dickinson.png" -o "Emily_Dickinson.webp"
-cwebp "Stephen_Hawking.png" -o "Stephen_Hawking.webp"
-cwebp "Elon_Musk.png" -o "Elon_Musk.webp"
+cwebp "Agatha-Christie.png" -o "Agatha-Christie.webp"
+cwebp "Albert-Einstein.png" -o "Albert-Einstein.webp"
+cwebp "Albert-Einstein2.png" -o "Albert-Einstein2.webp"
+cwebp "Bill-Gates.png" -o "Bill-Gates.webp"
+cwebp "Diane-Sawyer.png" -o "Diane-Sawyer.webp"
+cwebp "Emily-Dickinson.png" -o "Emily-Dickinson.webp"
+cwebp "Stephen-Hawking.png" -o "Stephen-Hawking.webp"
+cwebp "Elon-Musk.png" -o "Elon-Musk.webp"
 
-cwebp "Ellen_Degeneres.png" -o "Ellen_Degeneres.webp"
-cwebp "George_W_Bush.png" -o "George_W_Bush.webp"
-cwebp "George_H_W_Bush.png" -o "George_H_W_Bush.webp"
-cwebp "Joe_Biden.png" -o "Joe_Biden.webp"
-cwebp "Marilyn_Monroe.png" -o "Marilyn_Monroe.webp"
-cwebp "Mark_Twain.png" -o "Mark_Twain.webp"
-cwebp "Mindy_Kaling.png" -o "Mindy_Kaling.webp"
-cwebp "Prince_Harry.png" -o "Prince_Harry.webp"
+cwebp "Ellen-Degeneres.png" -o "Ellen-Degeneres.webp"
+cwebp "George-W-Bush.png" -o "George-W-Bush.webp"
+cwebp "George-H-W-Bush.png" -o "George-H-W-Bush.webp"
+cwebp "Joe-Biden.png" -o "Joe-Biden.webp"
+cwebp "Marilyn-Monroe.png" -o "Marilyn-Monroe.webp"
+cwebp "Mark-Twain.png" -o "Mark-Twain.webp"
+cwebp "Mindy-Kaling.png" -o "Mindy-Kaling.webp"
+cwebp "Prince-Harry.png" -o "Prince-Harry.webp"
 
-cwebp "Britney_Spears.png" -o "Britney_Spears.webp"
-cwebp "Elton_John.png" -o "Elton_John.webp"
-cwebp "John_F_Kennedy.png" -o "John_F_Kennedy.webp"
-cwebp "Miley_Cyrus.png" -o "Miley_Cyrus.webp"
-cwebp "Robin_Williams.png" -o "Robin_Williams.webp"
-cwebp "Tiffany_Haddish.png" -o "Tiffany_Haddish.webp"
-cwebp "Emily_Ratajkowski.png" -o "Emily_Ratajkowski.webp"
+cwebp "Britney-Spears.png" -o "Britney-Spears.webp"
+cwebp "Elton-John.png" -o "Elton-John.webp"
+cwebp "John-F-Kennedy.png" -o "John-F-Kennedy.webp"
+cwebp "Miley-Cyrus.png" -o "Miley-Cyrus.webp"
+cwebp "Robin-Williams.png" -o "Robin-Williams.webp"
+cwebp "Tiffany-Haddish.png" -o "Tiffany-Haddish.webp"
+cwebp "Emily-Ratajkowski.png" -o "Emily-Ratajkowski.webp"
 
 
-cwebp "Chelsea_Handler.png" -o "Chelsea_Handler.webp"
-cwebp "Clint_Eastwood.png" -o "Clint_Eastwood.webp"
-cwebp "Ernest_Hemingway.png" -o "Ernest_Hemingway.webp"
-cwebp "Winston_Churchill.png" -o "Winston_Churchill.webp"
-cwebp "Martin_Luther_King_Jr.png" -o "Martin_Luther_King_Jr.webp"
+cwebp "Chelsea-Handler.png" -o "Chelsea-Handler.webp"
+cwebp "Clint-Eastwood.png" -o "Clint-Eastwood.webp"
+cwebp "Ernest-Hemingway.png" -o "Ernest-Hemingway.webp"
+cwebp "Winston-Churchill.png" -o "Winston-Churchill.webp"
+cwebp "Martin-Luther-King-Jr.png" -o "Martin-Luther-King-Jr.webp"
 
-cwebp "Abraham_Lincoln.png" -o "Abraham_Lincoln.webp"
-cwebp "Ariana_Grande.png" -o "Ariana_Grande.webp"
-cwebp "Barack_Obama.png" -o "Barack_Obama.webp"
-cwebp "Bernie_Sanders.png" -o "Bernie_Sanders.webp"
-cwebp "Marie_Kondo.png" -o "Marie_Kondo.webp"
-cwebp "Queen_Elizabeth_II.png" -o "Queen_Elizabeth_II.webp"
-cwebp "Ronald_Reagan.png" -o "Ronald_Reagan.webp"
-cwebp "Zooey_Deschanel.png" -o "Zooey_Deschanel.webp"
+cwebp "Abraham-Lincoln.png" -o "Abraham-Lincoln.webp"
+cwebp "Ariana-Grande.png" -o "Ariana-Grande.webp"
+cwebp "Barack-Obama.png" -o "Barack-Obama.webp"
+cwebp "Bernie-Sanders.png" -o "Bernie-Sanders.webp"
+cwebp "Marie-Kondo.png" -o "Marie-Kondo.webp"
+cwebp "Queen-Elizabeth-II.png" -o "Queen-Elizabeth-II.webp"
+cwebp "Ronald-Reagan.png" -o "Ronald-Reagan.webp"
+cwebp "Zooey-Deschanel.png" -o "Zooey-Deschanel.webp"
 
 
 

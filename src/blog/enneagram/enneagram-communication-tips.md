@@ -14,7 +14,7 @@ blog: true
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/communication-tips_color.webp" />
+  <meta property="og:image" content="https://9takes.com/blogs/communication-tips-color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
 </svelte:head>
 <script>
@@ -27,7 +27,7 @@ blog: true
 >
 
     <PopCard
-    	image={`/blogs/communication-tips_color.webp`}
+    	image={`/blogs/communication-tips-color.webp`}
     	showIcon={false}
     	text=""
     	tint={false}
