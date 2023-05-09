@@ -15,15 +15,25 @@
 </script>
 
 <Card>
-	<p>Comment: {comment?.comment}</p>
-	<p>ParentId: {comment?.parent_id}</p>
+	<!-- <p>Comment: {comment?.comment}</p> -->
+	<input class="comment-box" type="text" bind:value={comment.comment} />
+		
+	<!-- <p>ParentId: {comment?.parent_id}</p> -->
 	<Interact data={commentData} parentType={'comment'} />
 	{#if comment?.length}
 		<div style="margin-left:10px;">
-			<Comments {commentData} nested={false} parentType={'comment'} />
+			<Comments {data} nested={false} parentType={'comment'} />
 		</div>
 	{/if}
 </Card>
 
 <style lang="scss">
+	.comment-box {
+		width: -webkit-fill-available;
+		background-color: var(--color-bg-0);
+		border: 1px solid var(--color-bg-0);
+		border-radius: 5px;
+		// margin-bottom: 0;
+		margin: 0.25rem;
+	}
 </style>

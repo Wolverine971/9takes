@@ -2,5 +2,12 @@
 	"json.schemas": [],
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	}
+	},
+	"cSpell.words": [
+		"enneagram",
+		"gtag",
+		"jsonld",
+		"stopword",
+		"supabase"
+	]
 }

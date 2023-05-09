@@ -4,7 +4,6 @@
 
 	export let text: string = '9takes';
 
-	export let width: number = 265;
 	export let svgStyle: string = '';
 
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';

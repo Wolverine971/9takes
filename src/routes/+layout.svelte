@@ -187,7 +187,7 @@
 	}
 	.column-width {
 		max-width: 64rem;
-		background-color: #ffffff;
+		// background-color: #ffffff;
 		border-radius: 5px;
 	}
 

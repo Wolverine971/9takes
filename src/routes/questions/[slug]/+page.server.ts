@@ -6,15 +6,15 @@ import { error } from '@sveltejs/kit';
 import { addComment } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
-export async function load(event) {
+export async function load(event: any) {
 	const session = await getServerSession(event);
-	let { data: question, error: findQuestionError } = await supabase
+	const { data: question, error: findQuestionError } = await supabase
 		.from('questions')
 		.select('*')
 		.eq('url', event.params.slug)
 		.single();
 
-	let { data: hasCommented, error: hasCommentedError } = await supabase
+	const { data: hasCommented, error: hasCommentedError } = await supabase
 		.from('comments')
 		.select('*')
 		.eq('parent_type', 'question')
@@ -27,10 +27,10 @@ export async function load(event) {
 		});
 	}
 
-	let userHasAnswered = hasCommented ? true : false;
+	const userHasAnswered = hasCommented ? true : false;
 
 	if (!hasCommented) {
-		let { count: commentCount, error: commentCountError } = await supabase
+		const { count: commentCount, error: commentCountError } = await supabase
 			.from('comments')
 			.select('*', { count: 'exact' })
 			.eq('parent_type', 'question')
@@ -48,7 +48,7 @@ export async function load(event) {
 		};
 	}
 
-	let {
+	const {
 		data: questionComments,
 		count: questionCommentCount,
 		error: questionCommentsError

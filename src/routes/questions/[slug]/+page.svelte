@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import Card from '$lib/components/atoms/card.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
+	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import type { PageData } from '../$types';
 
 	interface QuestionData extends PageData {
@@ -17,44 +19,38 @@
 
 <!-- Question always renders -->
 <article>
-	<header>Question</header>
-	<section>
-		{data.question.question}
-	</section>
+	<!-- <section>
+		
+	</section> -->
+	<Card>
+		<input class="question-box" type="text" bind:value={data.question.question} />
+		<!-- {data.question.question} -->
+		<Interact {data} parentType={'question'} />
+	</Card>
 </article>
 
-<hr />
-
-<ul>
-	<!--
+<!--
   Renders if has answered and signed in
           OR not answered and not signed in
 -->
-	{data.flags.userSignedIn} || {!(!data.flags.userSignedIn && data.flags.userHasAnswered)}
-	{#if data.flags.userSignedIn || !(!data.flags.userSignedIn && data.flags.userHasAnswered)}
+<!-- {data.flags.userSignedIn} || {!(!data.flags.userSignedIn && data.flags.userHasAnswered)} -->
+<!-- {#if data.flags.userSignedIn || !(!data.flags.userSignedIn && data.flags.userHasAnswered)}
 		<Interact {data} parentType={'question'} />
-		<!-- userData=  -->
-	{/if}
-	<!-- Renders for SEO, removed if not answered -->
-	{#if !browser || data.flags.userHasAnswered}
-		<h3>Renders for SEO, removed if not answered</h3>
-		<h1>Comments</h1>
-		{#if data.comments.length}
-			<Comments {data} nested={true} parentType={'question'} />
-		{/if}
-	{/if}
-	{#if data.flags.userHasAnswered && !browser}
-		<h3>Renders only if answered</h3>
-		<h1>Comments</h1>
-		<!-- Renders only if answered -->
-		<li>Answer Two</li>
-		<li>Answer Three</li>
-		<!-- only load first or top comment -->
-		{#if data.comments.length}
-			<Comments {data} nested={false} parentType={'question'} />
-		{/if}
-	{/if}
-</ul>
+	{/if} -->
+
+<QuestionContent {data} />
 
 <style lang="scss">
+	.question-box {
+		width: -webkit-fill-available;
+		background-color: var(--color-bg-0);
+		border: 1px solid var(--color-bg-0);
+		border-radius: 5px;
+
+		margin: 0.25rem;
+	}
+	.tablinks {
+		display: flex;
+		margin: 0.25rem;
+	}
 </style>

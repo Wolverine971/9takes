@@ -2,8 +2,6 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
-	import Rubix from './rubix.svelte';
-	// import darkRubix from './darkRubix.svg';
 	/* -- Glow effect -- */
 
 	export let image: string = 'cyber-campfire.webp';

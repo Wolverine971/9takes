@@ -6,9 +6,9 @@ import { error } from '@sveltejs/kit';
 import { elasticClient } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
-export async function load(event) {
+export async function load(event: any) {
 	const session = await getServerSession(event);
-	let {
+	const {
 		data: questions,
 		error: findQuestionsError,
 		count
@@ -32,7 +32,7 @@ export const actions: Actions = {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
 
-			let { data: questions, error: findQuestionsError } = await supabase
+			const { data: questions, error: findQuestionsError } = await supabase
 				.from('questions')
 				.select('*')
 				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
