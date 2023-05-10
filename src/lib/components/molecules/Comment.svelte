@@ -17,7 +17,7 @@
 <Card>
 	<!-- <p>Comment: {comment?.comment}</p> -->
 	<input class="comment-box" type="text" bind:value={comment.comment} />
-		
+
 	<!-- <p>ParentId: {comment?.parent_id}</p> -->
 	<Interact data={commentData} parentType={'comment'} />
 	{#if comment?.length}

@@ -22,7 +22,8 @@ type: ['celebrity']
 </script>
 <div
 	style="display: flex;
-    justify-content: center;"
+    justify-content: center;
+margin: 1rem 0;"
 >
 	<PopCard
 		image={`/types/3s/${'Arnold-Schwarzenegger'}.webp`}

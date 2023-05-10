@@ -149,7 +149,7 @@
 		border: none;
 		outline: none;
 		cursor: pointer;
-		padding: .5rem;
+		padding: 0.5rem;
 		transition: 0.3s;
 		font-size: 1rem;
 		border-radius: 5px;

@@ -23,6 +23,7 @@ type: ['artist']
 <div
 	style="display: flex;
     justify-content: center;
+    margin: 1rem 0;
 	"
 >
 	<PopCard

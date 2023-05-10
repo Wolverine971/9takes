@@ -5,6 +5,7 @@
 
 	export let image: string = 'cyber-campfire.webp';
 	export let showIcon: boolean = true;
+	export let aspectRatio: string = '';
 
 	export let text: string = '9takes';
 	export let subtext: string = 'Ask questions, share your story, get curious';
@@ -65,7 +66,7 @@
 	};
 </script>
 
-<div class="screen">
+<div class="screen" style="aspect-ratio: {aspectRatio}; ">
 	<!-- <div
 		class="screen-image {showIcon ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"

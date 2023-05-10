@@ -4,7 +4,7 @@ description: 'Different personalities have subtle quirks to how they communicate
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
-lastmod: '2023-04-15'
+lastmod: '2023-05-10'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -23,20 +23,20 @@ blog: true
 <div
 	style="display: flex;
     justify-content: center;
+margin: 1rem 0;
+	margin: 1rem 0;
 	"
 >
-
     <PopCard
     	image={`/blogs/communication-tips-color.webp`}
     	showIcon={false}
-    	text=""
+    	text="Enneagram type communication tips"
     	tint={false}
+		aspectRatio={'1'}
     	subtext=""
     />
 
 </div>
-
-# Enneagram type communication tips
 
 When it comes to interacting with Enneagram types that are different from our own, the key is to approach them with respect, curiosity, and an open mind. Remember that each Enneagram type has its unique strengths, weaknesses, and motivations, and try to understand where they're coming from. Here are some tips for interacting effectively with each Enneagram type:
 
