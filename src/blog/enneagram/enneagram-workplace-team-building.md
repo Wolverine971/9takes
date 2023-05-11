@@ -4,7 +4,7 @@ description: 'How the Enneagram can be used for team building and leadership dev
 author: 'DJ Wayne'
 date: '2023-03-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
-lastmod: '2023-03-27'
+lastmod: '2023-05-10'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -30,9 +30,9 @@ blog: true
 	/>
 </div>
 
-As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development.
+The "culture" of a company can be make or break. While all organizations strive to create productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. The leadership often consciously or subconsciously expects everyone to act, think and feel like they do. This is where the Enneagram can give us a lens into understanding the different ways people think, act and feel in a workplace.
 
-The Enneagram is a personality typology system that helps individuals understand their own and others' behavior and motivations. It consists of nine distinct personality types, each with its own strengths, weaknesses, and tendencies. By understanding the Enneagram types of their employees, organizations can create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.
+The hope is that by understanding the Enneagram types of employees, leadership and organizations can create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.
 
 ## Improved Communication and Collaboration Between Team Members
 
@@ -64,39 +64,39 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 **Type 1 - The Perfectionist**
 
-Ideal Work Environment: A structured and organized environment that values attention to detail and accuracy. A clear set of rules and expectations can help the Type 1 thrive and feel secure.
+- **Ideal Work Environment:** A structured and organized environment that values attention to detail and accuracy. A clear set of rules and expectations can help the Type 1 thrive and feel secure.
 
 **Type 2 - The Helper**
 
-Ideal Work Environment: A supportive and collaborative environment that values teamwork and relationships. The Type 2 thrives in a work environment that values their nurturing and empathetic qualities.
+- **Ideal Work Environment:** A supportive and collaborative environment that values teamwork and relationships. The Type 2 thrives in a work environment that values their nurturing and empathetic qualities.
 
 **Type 3 - The Achiever**
 
-Ideal Work Environment: A fast-paced and competitive environment that values goal-setting and achievement. The Type 3 thrives in an environment that values their ambition and results-driven attitude.
+- **Ideal Work Environment:** A fast-paced and competitive environment that values goal-setting and achievement. The Type 3 thrives in an environment that values their ambition and results-driven attitude.
 
 **Type 4 - The Individualist**
 
-Ideal Work Environment: A creative and innovative environment that values self-expression and originality. The Type 4 thrives in an environment that allows them to explore their unique perspective and creativity.
+- **Ideal Work Environment:** A creative and innovative environment that values self-expression and originality. The Type 4 thrives in an environment that allows them to explore their unique perspective and creativity.
 
 **Type 5 - The Investigator**
 
-Ideal Work Environment: A quiet and contemplative environment that values intellectual curiosity and expertise. The Type 5 thrives in an environment that allows them to explore and learn on their own terms.
+- **Ideal Work Environment:** A quiet and contemplative environment that values intellectual curiosity and expertise. The Type 5 thrives in an environment that allows them to explore and learn on their own terms.
 
 **Type 6 - The Loyalist**
 
-Ideal Work Environment: A supportive and secure environment that values loyalty and dependability. The Type 6 thrives in a work environment that provides clear guidance and structure.
+- **Ideal Work Environment:** A supportive and secure environment that values loyalty and dependability. The Type 6 thrives in a work environment that provides clear guidance and structure.
 
 **Type 7 - The Enthusiast**
 
-Ideal Work Environment: A dynamic and exciting environment that values exploration and variety. The Type 7 thrives in a work environment that allows them to pursue their interests and passions.
+- **Ideal Work Environment:** A dynamic and exciting environment that values exploration and variety. The Type 7 thrives in a work environment that allows them to pursue their interests and passions.
 
 **Type 8 - The Challenger**
 
-Ideal Work Environment: A challenging and competitive environment that values assertiveness and leadership. The Type 8 thrives in an environment that allows them to take charge and make decisions.
+- **Ideal Work Environment:** A challenging and competitive environment that values assertiveness and leadership. The Type 8 thrives in an environment that allows them to take charge and make decisions.
 
 **Type 9 - The Peacemaker**
 
-Ideal Work Environment: A harmonious and peaceful environment that values balance and collaboration. The Type 9 thrives in an environment that promotes a sense of unity and cooperation.
+- **Ideal Work Environment:** A harmonious and peaceful environment that values balance and collaboration. The Type 9 thrives in an environment that promotes a sense of unity and cooperation.
 
 In conclusion, the Enneagram is a powerful tool for team building and leadership development. By understanding each team member's personality type, organizations can start to bring out everyone's gifts. By leveraging each other's strengths and understanding each other's weaknesses, teams can work together more effectively, leading to higher morale, greater job satisfaction, and ultimately, increased productivity and efficiency.
 
