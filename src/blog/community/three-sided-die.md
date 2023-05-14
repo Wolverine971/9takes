@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/community/three-sided-die'
 lastmod: '2023-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['overview']
 blog: true
 ---
@@ -31,6 +31,18 @@ Given any issue or question what if the answers were not divided like a coin fli
 The enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger, fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instinctive
 
  -->
+
+<!-- What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had oposing view that mirror the phychologists Sigmond Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspecives.
+
+## Plato is to Aristotle as Freud is to Pinker
+
+Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of human nature. Plato divided the psyche into three parts where as Aristotle divided the human psyche into the rational and the irrational. Similarly Freud had his three part division of the psyche, the id, ego and super ego, where as Pinker boils the psyche back down to the rational and the irratioal like Aristotle.
+
+
+This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
+
+Though we see everything in 2d our brain knows there is more than the 2d visual that we see. There is something behind that 2d picture. There is depth that can be infered. The brain is aware of both the things we see and the things we do not see. The world is not flat, things are not binary, logical or illgical. There are other dimensions that are not easy to articulate.
+to not think of the world as flat -->
 
 Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of human nature. This blog post will explore the theories of these influential thinkers and delve into the idea that perhaps, like a three-sided die, the human mind is more complex than simply being rational or irrational. We will consider the notion that people's beliefs and opinions may not always fall into binary categories like right or wrong, or good or bad, but instead, they are influenced by a myriad of factors that shape their unique perspectives.
 

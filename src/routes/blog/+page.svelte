@@ -191,8 +191,11 @@
 				<ul>
 					<!-- <li>History and origins of the Enneagram</li> -->
 					<li><a href="/blog/community/introducing-9takes">Introducing 9takes</a></li>
+					<!-- <li>
+						<a href="/blog/community/three-sided-die">The Impossible Three Sided Die</a>
+					</li> -->
 					<li>
-						<a href="/blog/community/three-sided-die">The impossible three sided die</a>
+						<a href="/blog/community/consensus-on-human-nature">The Consensus on Human Nature</a>
 					</li>
 				</ul>
 				<!-- <p>Coming soon</p> -->
