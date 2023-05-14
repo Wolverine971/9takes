@@ -135,3 +135,46 @@ Let's take a look at common energizers and drainers for each Enneagram type then
 **Example career situation:** A Type 9 may excel in a career that requires mediation and conflict resolution, such as counseling or diplomacy. However, their tendency towards indecisiveness and lack of assertiveness can cause them to neglect their own needs and desires, leading to feelings of dissatisfaction and unhappiness.
 
 In conclusion, understanding your strengths and weaknesses is crucial for personal growth and success. The Enneagram provides a powerful framework for understanding how our core emotions, fears, and desires shape our personality and ultimately our strengths and weaknesses. By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.
+
+
+<div>
+<script type="application/ld+json">
+{
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
+  },
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-04-15"
+  },
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-05-10"
+  },
+  "http://schema.org/description": "Understanding your strengths and weaknesses as an Enneagram type",
+  "http://schema.org/headline": "Enneagram strengths and weaknesses",
+  "http://schema.org/keywords": [
+    "Enneagram",
+    "strengths",
+    "weaknesses",
+    "personal growth"
+  ],
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/name": "9takes",
+    "http://schema.org/url": {
+      "@id": "https://9takes.com"
+    }
+  },
+  "http://schema.org/url": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
+  }
+}
+</script>
