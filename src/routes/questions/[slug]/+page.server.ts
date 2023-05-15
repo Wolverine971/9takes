@@ -19,15 +19,14 @@ export async function load(event: any) {
 		.select('*')
 		.eq('parent_type', 'question')
 		.eq('parent_id', question?.id)
-		.eq('author_id', session?.user.id)
-		.single();
+		.eq('author_id', session?.user.id);
 	if (!question || findQuestionError) {
 		throw error(400, {
 			message: 'No question found'
 		});
 	}
 
-	const userHasAnswered = hasCommented ? true : false;
+	const userHasAnswered = hasCommented?.length ? true : false;
 
 	if (!hasCommented) {
 		const { count: commentCount, error: commentCountError } = await supabase
@@ -128,6 +127,8 @@ export const actions: Actions = {
 					} else {
 						return { success: 'true' };
 					}
+				} else {
+					console.log(addCommentError);
 				}
 			}
 

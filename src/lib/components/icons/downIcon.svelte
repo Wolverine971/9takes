@@ -1,0 +1,18 @@
+<script>
+	export let className = '';
+
+	export let height = '1rem';
+	export let fill = 'black';
+	export let iconStyle = '';
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 24 24"
+	class={className}
+	{height}
+	{fill}
+	style={iconStyle}
+>
+	<path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+</svg>

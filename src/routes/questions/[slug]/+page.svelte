@@ -15,6 +15,12 @@
 
 	/** @type {import('./$types').PageData} */
 	export let data: QuestionData;
+
+	const dataForChild = Object.assign({}, data.question, {
+		comments: data.comments,
+		comment_count: data.comment_count,
+		flags: data.flags
+	});
 </script>
 
 <!-- Question always renders -->
@@ -23,7 +29,7 @@
 		
 	</section> -->
 	<Card>
-		<input class="question-box" type="text" bind:value={data.question.question} />
+		<input class="question-box" type="text" bind:value={data.question.question} readonly />
 		<!-- {data.question.question} -->
 		<Interact {data} parentType={'question'} />
 	</Card>
@@ -38,7 +44,7 @@
 		<Interact {data} parentType={'question'} />
 	{/if} -->
 
-<QuestionContent {data} />
+<QuestionContent data={dataForChild} />
 
 <style lang="scss">
 	.question-box {

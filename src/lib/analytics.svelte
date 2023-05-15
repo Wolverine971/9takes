@@ -25,7 +25,7 @@
 		}
 
 		gtag('js', new Date());
-		gtag('config', G - N2HX66R5RS);
+		gtag('config', 'G-N2HX66R5RS');
 	</script>
 
 	<!-- Google tag (gtag.js) -->

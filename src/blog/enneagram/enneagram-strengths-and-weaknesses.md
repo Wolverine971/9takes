@@ -136,7 +136,6 @@ Let's take a look at common energizers and drainers for each Enneagram type then
 
 In conclusion, understanding your strengths and weaknesses is crucial for personal growth and success. The Enneagram provides a powerful framework for understanding how our core emotions, fears, and desires shape our personality and ultimately our strengths and weaknesses. By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.
 
-
 <div>
 <script type="application/ld+json">
 {

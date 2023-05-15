@@ -4,7 +4,7 @@
 	import CommentsIcon from '../icons/commentsIcon.svelte';
 	import ShareIcon from '../icons/shareIcon.svelte';
 	import ThumbsUpIcon from '../icons/thumbsUpIcon.svelte';
-	import Comment from './Comment.svelte';
+	import RightIcon from '../icons/rightIcon.svelte';
 
 	import { notifications } from './notifications.js';
 
@@ -15,18 +15,20 @@
 	/** @type {import('./$types').PageData} */
 	// export let data: PageData;
 
-	let comment: string;
+	let comment: string = '';
+	let commenting: boolean = false;
 
 	export let parentType: string;
 
 	export const createComment = async () => {
 		let body = new FormData();
 		if (parentType === 'comment') {
+			console.log('send comment');
 			body.append('comment', comment);
 			body.append('parent_id', data.id);
 			body.append('author_id', data.session.user.id);
 			body.append('parent_type', parentType);
-			body.append('es_id', data.question.es_id);
+			body.append('es_id', data.es_id);
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
@@ -58,7 +60,7 @@
 		title="Comment"
 		class="tablinks"
 		style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-		on:click={() => console.log('comment')}
+		on:click={() => (commenting = true)}
 	>
 		{#if parentType === 'question'}
 			Comment
@@ -76,7 +78,7 @@
 			title="Subscribe"
 			class="tablinks "
 			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-			on:click={() => console.log('Subscribe')}
+			on:click={() => console.log('subscribe')}
 		>
 			{#if parentType === 'question'}
 				Subscribe
@@ -105,22 +107,46 @@
 			/>
 		</button>
 	{/if}
-	<button
-		title="Share"
-		class="tablinks "
-		style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-		on:click={() => console.log('share')}
-	>
-		{#if parentType === 'question'}
-			Share
-		{/if}
-		<ShareIcon
-			iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
-			height={'1.5rem'}
-			fill={''}
-		/>
-	</button>
+	{#if parentType === 'question'}
+		<button
+			title="Share"
+			class="tablinks "
+			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
+			on:click={() => console.log('share')}
+		>
+			{#if parentType === 'question'}
+				Share
+			{/if}
+			<ShareIcon
+				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
+				height={'1.5rem'}
+				fill={''}
+			/>
+		</button>
+	{/if}
 </div>
+
+{#if commenting}
+	<div class="interact-text-container">
+		<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={comment} />
+	</div>
+	<button
+		class="btn btn-primary sub-comment"
+		type="button"
+		on:click={createComment}
+		disabled={comment?.length < 1}
+	>
+		Send it
+		{#if comment?.length > 1}
+			<!-- <ArrowRight /> -->
+			<RightIcon
+				iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
+				height={'1.5rem'}
+				fill={'#5407d9'}
+			/>
+		{/if}
+	</button>
+{/if}
 
 <!-- <form class="interact-card">
 
@@ -138,6 +164,28 @@
 	</button>
 </form> -->
 <style lang="scss">
+	.sub-comment {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:disabled {
+			background-color: white;
+			color: grey;
+			border: 1px solid grey;
+			opacity: 1;
+			cursor: auto;
+		}
+	}
+	textarea {
+		width: 100%;
+		border: hsl(212, 15%, 48%) 2px solid;
+		border-radius: 5px;
+		padding: 10px 20px;
+		color: hsl(222, 15%, 19%);
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
 	.actions {
 		overflow: hidden;
 		display: flex;

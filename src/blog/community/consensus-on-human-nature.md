@@ -24,7 +24,6 @@ Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renow
 
 Plato divided the human soul/ nature into three parts: reason, spirit, and appetite. Whereas Aristotle divided human nature into the rational and the irrational. Similarly Freud had his three part division of the psyche, the id, ego and superego, whereas Pinker just wrote a book called “rationality” that pleads for people to be more rational. With the underlying assumption that we are either rational or irrational and for the sake of progress we need to be rational.
 
-
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM" title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -77,7 +76,6 @@ This could explain why people like Pinker endlessly call for people to be more r
 ## Final Point
 
 It's an oversimplification to label decisions people make as rational or irrational. Instead of dishing out that binary label, poke at that iceberg and find out what is underneath. Aristotle and Pinker see it as a 2d world but Plato Freud and 9takes see a 3d world where there is so much to explore. Join 9takes and get curious.
-
 
 <style>
     table {
