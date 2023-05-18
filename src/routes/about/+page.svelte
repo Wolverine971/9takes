@@ -12,25 +12,29 @@
 	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About 9takes</h1>
+<div style=" margin:20px;">
+	<h1 style="text-align: center;">About 9takes</h1>
 
 	<p>
-		Everyone is unique and has their own perspectives, thoughts, and emotions. We may know that
-		intellectually but we often find ourselves expecting others to think, feel, and act like we do.
-		When we see others not thinking like us we think the other side is not smart or doesn't have all
-		the information. When we see others not feeling the way we feel we feel like they do not like us
-		or get us or maybe they are a bad person. And when someone doesn't act like us we think all the
-		above and assume the person is inexperienced. This is an over simplistic description of how we
-		think, feel and act towards others however if we catch ourselves we will often find that our
-		inner dialog is simplistic towards others as well.
+		We believe everyone is unique. Our perspectives, thoughts, emotions, and ways of doing things
+		are all different. We may know that in our head but how often are we surprised when others are
+		not thinking, feeling, and acting like we do. When we realize someone doesn't think like us, do
+		we think "wow, I wonder what their perspective is and why they think that," or do we think that
+		a person is not smart or maybe they don't have all the information. When we see others not
+		feeling the way we feel we feel on a certain subject do we recognize the layers beneath the
+		feelings or Do we morally superior to them? And when someone doesn't act like us does that make
+		us curious or dismissive?
 	</p>
 	<p>
-		The goal of 9takes is to remind us that those around us are just as complex as we are. With that
-		complexity comes both challenges and opportunities. The challenges arise when we assume other
-		people should think, feel and act like we do. And the opportunities come when we realize that
-		people don't think, feel and act like we do. What are you missing out on? What perspective is
-		hidden from you?
+		All this is exciting territory to explore and 9takes thinks that there is a technology element
+		That is holding us back from exploring these potential conversations.
+	</p>
+	<p>
+		Our goal is to remind people that those around us are complex, interesting worthy of being
+		listened to. We also recognize that exploring and sharing with other people does present both
+		opportunities and challenges. The challenges arise when we make assumptions when we should
+		instead be curious. And the opportunities come when we get curious. What are you missing out on?
+		What perspective is hidden from you?
 	</p>
 	<ul>
 		<li>Why can't people just do things the right way?</li>
@@ -44,11 +48,13 @@
 		<li>Why can't people just get along and find common ground?</li>
 	</ul>
 	<p>
-		There are endless questions to ask and there are both people who see the world as we do and
-		others who see a vastly different world. When we do not embrace these differences it can cause
-		us to feel of anger, anxiety, or disconnected. Let us embrace these differences, by asking
-		questions, sharing stories and getting curious. In doing so we will find our community and find
-		our way.
+		There are endless questions to ask. But fortunately there endless people out there that have
+		questions like you do and will share if you ask them to. Who see the world like you and who sees
+		a vastly different world?
+	</p>
+	<p>
+		9takes is about embracing these differences or "takes" on the world. And by asking questions,
+		sharing stories and getting curious we will find our community and find our way.
 	</p>
 </div>
 
