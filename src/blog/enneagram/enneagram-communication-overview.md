@@ -17,6 +17,7 @@ blog: true
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-overview">
 </svelte:head>
+
 ## Enneagram Intro/ background
 
 The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types.

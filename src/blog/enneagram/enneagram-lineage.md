@@ -4,7 +4,7 @@ description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-lineage'
-lastmod: '2023-04-18'
+lastmod: '2023-05-18'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -45,6 +45,8 @@ Enneagram and Plato
 
 9 threads through the fabric of history -->
 
+In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll embark on a deep dive into how core emotions sculpt these intelligence centers, aiding us to navigate the internal landscapes of our minds with newfound understanding and compassion. So, fasten your seatbelts as we journey through layers of psychological philosophy, unraveling the strands that interweave to create the compelling framework that is the Enneagram.
+
 ## The Enneagram's Roots in Philosophy
 
 While the Enneagram is a popular tool for understanding human behavior and growth, it is essential to understand its philosophical lineage to truly appreciate its depth. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll gain a deeper understanding of how our core emotions shape these intelligence centers.
@@ -62,7 +64,7 @@ The Enneagram's intelligence centers align remarkably well with Plato's idea of 
 Similarly, Freud's theory of the human psyche—comprising the id, ego, and superego—also parallels the Enneagram's intelligence centers.
 
 **Id (instinctual intelligence)**: The id represents our basic instincts and desires. It aligns with the Enneagram's instinctual intelligence center, governing our primal drives.
-**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intellectual intelligence center, focused on understanding our environment.
+**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intellectual intelligence center, which focused on understanding our environment.
 **Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional intelligence center, responsible for managing our emotions and connections with others.
 
 <div class="scroll-table">
@@ -74,6 +76,7 @@ Similarly, Freud's theory of the human psyche—comprising the id, ego, and supe
 | super ego | spirit   | emotional/ heart                 | shame                  |
 
 </div>
+
 ## Core Emotions: Fear, Shame, and Anger
 
 Now that we've established the connections between the Enneagram, Plato, and Freud, let's delve into the core emotions behind the development of these intelligence centers: fear, shame, and anger.
@@ -195,54 +198,6 @@ In essence, the Enneagram offers a framework for personal development that is de
 
 </script>
 </div>
-
-<!-- {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Enneagram: Understanding Personality Types Through the Head, Heart, and Instincts",
-  "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
-  "datePublished": "2023-02-19",
-  "dateModified": "2023-02-19",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.yourwebsite.com/logo.png",
-      "width": 600,
-      "height": 60
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.yourwebsite.com/blog/the-enneagram-understanding-personality-types-through-the-head-heart-and-instincts"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/src/lib/images/freud-plato.png",
-    "width": 1200,
-    "height": 630
-  },
-  "articleSection": "Psychology",
-  "keywords": "Enneagram, personality types, Sigmund Freud, Plato, psychology",
-  "text": "The Enneagram is a personality typing system that describes nine distinct types of individuals, each with their own unique characteristics and tendencies...",
-  "citation": [
-    {
-      "@type": "WebPage",
-      "name": "Sigmund Freud",
-      "url": "https://www.britannica.com/biography/Sigmund-Freud"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Plato",
-      "url": "https://plato.stanford.edu/entries/plato/"
-    }
-  ]
-} -->
 
 <style>
 
