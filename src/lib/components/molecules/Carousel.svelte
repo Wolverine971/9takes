@@ -25,7 +25,6 @@
 		],
 		3: [
 			'Arnold-Schwarzenegger',
-			'Beyonce-Knowles',
 			'Oprah-Winfrey',
 			'Nancy-Pelosi',
 			'Lady-Gaga',
@@ -69,6 +68,7 @@
 		],
 		8: [
 			'Clint-Eastwood',
+			'Beyonce-Knowles',
 			'Ernest-Hemingway',
 			'Martin-Luther-King-Jr',
 			'Winston-Churchill',

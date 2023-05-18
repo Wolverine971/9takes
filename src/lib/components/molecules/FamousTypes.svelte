@@ -24,7 +24,6 @@
 		],
 		3: [
 			{ name: 'Arnold-Schwarzenegger', link: true },
-			{ name: 'Beyonce-Knowles', link: true },
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Oprah-Winfrey', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
@@ -67,6 +66,7 @@
 			{ name: 'Emily-Ratajkowski', link: true }
 		],
 		8: [
+			{ name: 'Beyonce-Knowles', link: true },
 			{ name: 'Clint-Eastwood', link: false },
 			{ name: 'Ernest-Hemingway', link: false },
 			{ name: 'Martin-Luther-King-Jr', link: true },
