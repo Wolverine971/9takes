@@ -63,13 +63,13 @@
 		<section>
 			<div class="column">
 				<div class="main">
-					<h3>What are we building?</h3>
-					<p>A question and answering community for the initial launch.</p>
+					<h3>What is being built?</h3>
+					<p>A question and answering community.</p>
 					<p>More to come...</p>
 
 					<h3>Why questions and answers?</h3>
 					<p>
-						To find and connect with people that think feel and act alike. The hypothesis is that
+						To find and connect with people that think feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
 					</p>
 
@@ -88,14 +88,14 @@
 							on questions without outside influence.
 						</li>
 						<li>
-							A user's identity is publicly hidden and privately shared. Everyone is default
-							anonymous but you can message others and optionally reveal what you want. The only
-							thing that identifies you publicly is your Enneagram personality type. If you aren't
-							familiar with the Enneagram there are a slew of blogs to checkout.
+							Your identity is publicly hidden and privately shared. Everyone is default anonymous
+							but you can message others and optionally reveal what you want. The only thing that
+							identifies you publicly is your Enneagram personality type. If you aren't familiar
+							with the Enneagram there are a slew of blogs to checkout.
 						</li>
 					</ul>
 
-					<h3>We are aiming to create magic moments that will feel like:</h3>
+					<h3>Aiming to create magic moments that will feel like:</h3>
 					<ul>
 						<li>A popping group chat 💥</li>
 						<li>A deep conversation around the campfire 🔥</li>
