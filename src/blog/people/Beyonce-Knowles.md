@@ -79,7 +79,7 @@ Type 3's are goal-oriented and will do whatever it takes to achieve their object
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
+      "url": "https://9takes.com/darkRubix.png",
       "width": 600,
       "height": 60
     }

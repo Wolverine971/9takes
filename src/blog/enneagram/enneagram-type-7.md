@@ -283,7 +283,7 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/enneagram.svg"
+          "url": "https://9takes.com/darkRubix.png"
         },
         "name": "9Takes"
       }

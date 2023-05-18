@@ -78,7 +78,7 @@ Finally, Enneagram Type 6s are known for their strong sense of loyalty, and this
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
+      "url": "https://9takes.com/darkRubix.png",
       "width": 600,
       "height": 60
     }

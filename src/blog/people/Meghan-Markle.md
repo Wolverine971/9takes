@@ -98,7 +98,7 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
+      "url": "https://9takes.com/darkRubix.png",
       "width": 600,
       "height": 60
     }

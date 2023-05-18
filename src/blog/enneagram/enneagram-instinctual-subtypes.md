@@ -71,7 +71,7 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
     "name": "9Takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg"
+      "url": "https://9takes.com/darkRubix.png"
     }
   },
   "about": {

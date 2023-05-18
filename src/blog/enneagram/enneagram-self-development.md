@@ -105,7 +105,7 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
     "http://schema.org/logo": {
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/url": {
-        "@id": "https://9takes.com/enneagram.svg"
+        "@id": "https://9takes.com/darkRubix.png"
       }
     },
     "http://schema.org/name": "9Takes"

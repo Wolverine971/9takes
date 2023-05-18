@@ -108,7 +108,7 @@ Understanding your Enneagram stress number is essential if you want to thrive in
     "http://schema.org/logo": {
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/url": {
-        "@id": "https://9takes.com/enneagram.svg"
+        "@id": "https://9takes.com/darkRubix.png"
       }
     },
     "http://schema.org/name": "9Takes"

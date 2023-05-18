@@ -296,7 +296,7 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/enneagram.svg"
+          "url": "https://9takes.com/darkRubix.png"
         },
         "name": "9Takes"
       }

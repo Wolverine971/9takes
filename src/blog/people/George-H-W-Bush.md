@@ -105,7 +105,7 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/height": 60,
       "http://schema.org/url": {
-        "@id": "https://9takes.com/enneagram.svg"
+        "@id": "https://9takes.com/darkRubix.png"
       },
       "http://schema.org/width": 600
     },

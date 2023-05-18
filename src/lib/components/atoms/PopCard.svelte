@@ -84,7 +84,7 @@
 		{#if showIcon}
 			<img
 				class="screen-icon fa-brands fa-codepen"
-				src="enneagram.svg"
+				src="darkRubix.png"
 				alt="enneagram symbol"
 				style="width: 10%;"
 			/>

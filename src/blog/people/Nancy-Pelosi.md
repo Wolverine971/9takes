@@ -105,7 +105,7 @@ These examples of political flexibility further solidify the connection between 
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
+      "url": "https://9takes.com/darkRubix.png",
       "width": 600,
       "height": 60
     }

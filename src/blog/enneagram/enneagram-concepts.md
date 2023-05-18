@@ -124,7 +124,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/height": 60,
       "http://schema.org/url": {
-        "@id": "https://9takes.com/enneagram.svg"
+        "@id": "https://9takes.com/darkRubix.png"
       },
       "http://schema.org/width": 600
     },

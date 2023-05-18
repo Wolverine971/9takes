@@ -86,7 +86,7 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
     "name": "9takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/enneagram.svg",
+      "url": "https://9takes.com/darkRubix.png",
       "width": 600,
       "height": 60
     }

@@ -94,7 +94,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
         "http://schema.org/logo": {
           "@type": "http://schema.org/ImageObject",
           "http://schema.org/url": {
-            "@id": "https://9takes.com/enneagram.svg"
+            "@id": "https://9takes.com/darkRubix.png"
           }
         },
         "http://schema.org/name": "9Takes"
