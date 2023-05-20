@@ -105,12 +105,16 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       "@type": "http://schema.org/Person",
       "http://schema.org/jobTitle": "Author",
       "http://schema.org/name": "Suzanne Stabile",
+      "http://schema.org/description": "Suzanne Stabile is a highly sought after speaker and teacher, known for her engaging laugh, personal vulnerability, and creative approach to Enneagram instruction. As an internationally recognized Enneagram Master, Suzanne has conducted over 500 Enneagram workshops over the past 25 years.",
       "http://schema.org/sameAs": [
         {
           "@id": "https://www.instagram.com/suzannestabile/"
         },
         {
           "@id": "https://twitter.com/SuzanneStabile"
+        },
+        {
+          "@id": "https://suzannestabile.com/"
         }
       ],
       "http://schema.org/url": {

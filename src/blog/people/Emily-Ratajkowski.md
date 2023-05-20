@@ -123,6 +123,8 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   "http://schema.org/mentions": {
     "@type": "http://schema.org/Person",
     "http://schema.org/name": "Emily Ratajkowski",
+    "http://schema.org/description": "Emily O'Hara Ratajkowski is an American model and actress. Born in London and raised in San Diego, Ratajkowski first appeared on the cover of the March 2012 issue of the erotic magazine treats!, which led to her appearing in two music videos – Robin Thicke’s 'Blurred Lines' (the number-one song of 2013 in several countries) and Maroon 5's 'Love Somebody'.",
+  
     "http://schema.org/sameAs": [
       {
         "@id": "https://www.instagram.com/emrata/"
