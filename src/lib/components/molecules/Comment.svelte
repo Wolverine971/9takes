@@ -1,20 +1,28 @@
 <script lang="ts">
-	// import type { Database } from 'src/schema';
 	import Card from '../atoms/card.svelte';
 	import Comments from './Comments.svelte';
 	import Interact from './Interact.svelte';
 	import DownIcon from '../icons/downIcon.svelte';
-	// export let comment: any; //: Database['public']['Tables']['comments']['Row'];
-	export let data: any;
+
+	export let user: any;
 	export let comment: any;
-	let commentComment: any = null;
+	let _commentComment: any = null;
 	if (comment?.id) {
-		commentComment = Object.assign({}, comment);
+		_commentComment = Object.assign({}, comment);
 	}
+
+	let _commentData = Object.assign({}, comment);
+
+	$: comment, matchData();
+
+	const matchData = () => {
+		console.log('data change');
+		_commentComment = Object.assign({}, comment);
+		_commentData = Object.assign({}, comment);
+	};
 
 	let loading: boolean = false;
 
-	const commentData = Object.assign({}, comment, data);
 	console.log(comment);
 
 	const lastDate = comment?.comments?.length
@@ -25,29 +33,45 @@
 		loading = true;
 		await fetch(`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
 			.then((response) => response.json())
-			.then((commentData) => {
-				console.log(commentData);
-				if (!commentComment.comments) {
-					commentComment.comments = [];
+			.then((newcommentData) => {
+				console.log(newcommentData);
+				if (!_commentComment.comments) {
+					_commentComment.comments = [];
 				}
-				commentComment.comments = [...commentComment.comments, ...commentData];
+				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
 				loading = false;
 			});
+	};
+
+	const addComment = async (newComment: string) => {
+		if (_commentComment.comments) {
+			_commentComment.comments = [newComment, ..._commentComment.comments];
+		} else {
+			_commentComment.comments = [];
+			_commentComment.comments.push(newComment);
+		}
+		// _commentComment.comments = [newComment, ..._commentComment.comments];
+		_commentComment.comment_count += 1;
 	};
 </script>
 
 <Card>
 	<!-- <p>Comment: {comment?.comment}</p> -->
-	<input class="comment-box" type="text" bind:value={commentComment.comment} readonly />
+	<input class="comment-box" type="text" bind:value={_commentComment.comment} readonly />
 
 	<!-- <p>ParentId: {comment?.parent_id}</p> -->
-	<Interact data={commentData} parentType={'comment'} />
-	{#if commentComment?.comments?.length}
+	<Interact
+		data={_commentData}
+		parentType={'comment'}
+		{user}
+		on:commentAdded={({ detail }) => addComment(detail)}
+	/>
+	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<Comments data={commentComment} nested={false} parentType={'comment'} />
+			<Comments data={_commentComment} nested={true} parentType={'comment'} {user} />
 		</div>
 	{/if}
-	{#if commentComment.comment_count && !commentComment?.comments?.length}
+	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
 		<div
 			class="drop-down"
 			on:click={() => {

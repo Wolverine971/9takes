@@ -8,9 +8,13 @@
 
 	import { notifications } from './notifications.js';
 
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
+
 	let page = 0;
 
 	export let data: any;
+	export let user: any;
 
 	/** @type {import('./$types').PageData} */
 	// export let data: PageData;
@@ -26,13 +30,13 @@
 			console.log('send comment');
 			body.append('comment', comment);
 			body.append('parent_id', data.id);
-			body.append('author_id', data.session.user.id);
+			body.append('author_id', user.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.es_id);
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
-			body.append('author_id', data.session.user.id);
+			body.append('author_id', user.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.question.es_id);
 		}
@@ -40,9 +44,12 @@
 		const resp = await fetch('?/createComment', {
 			method: 'POST',
 			body
-		}).then(async (response) => {
-			notifications.info('Comment Added', 3000);
 		});
+
+		const result: any = deserialize(await resp.text());
+
+		notifications.info('Comment Added', 3000);
+		dispatch('commentAdded', result?.data);
 		comment = '';
 	};
 	const expand = () => {

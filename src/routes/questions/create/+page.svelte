@@ -5,6 +5,7 @@
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
+	import { deserialize } from '$app/forms';
 
 	let question: string = '';
 
@@ -32,13 +33,16 @@
 			body.append('context', '');
 			body.append('url', url);
 			body.append('img_url', '');
-			await fetch('?/createQuestion', {
+			const resp = await fetch('?/createQuestion', {
 				method: 'POST',
 				body
 			});
 
-			getModal().close();
-			goto(`/questions/${url}`, {});
+			const result: any = deserialize(await resp.text());
+			if (result) {
+				getModal().close();
+				goto(`/questions/${url}`, {});
+			}
 		} catch (error) {
 			console.error(error);
 		}

@@ -6,8 +6,17 @@
 	import { Comments } from '../molecules';
 
 	export let data: any;
+	export let user: any;
 	let question: string = '';
 	let selectedTab: string = 'comments';
+	let _data: any = data;
+
+	$: data, runFunc();
+
+	const runFunc = () => {
+		console.log('data change');
+		_data = Object.assign({}, data);
+	};
 </script>
 
 <div class="tab">
@@ -51,26 +60,26 @@
 	<div class="flexr {selectedTab === 'comments' && 'first'}">
 		<h3 class="tabHeader">Comments</h3>
 		<!-- Renders for SEO, removed if not answered -->
-		{#if !browser || data.flags.userHasAnswered}
+		{#if !browser || _data.flags.userHasAnswered}
 			<!-- <h3>Renders for SEO, removed if not answered</h3> -->
-			{#if data.comments.length}
-				<Comments {data} nested={true} parentType={'question'} />
+			{#if _data.comments.length}
+				<Comments data={_data} nested={true} parentType={'question'} {user} />
 			{:else}
 				<p>nothing right now</p>
 			{/if}
 		{/if}
-		{#if data.flags.userHasAnswered && !browser}
+		{#if _data.flags.userHasAnswered && !browser}
 			<h3>Renders only if answered</h3>
 			<h1>Comments</h1>
 			<!-- Renders only if answered -->
 			<li>Answer Two</li>
 			<li>Answer Three</li>
 			<!-- only load first or top comment -->
-			{#if data.comments.length}
-				<Comments {data} nested={false} parentType={'question'} />
+			{#if _data.comments.length}
+				<Comments data={_data} nested={false} parentType={'question'} {user} />
 			{/if}
 		{/if}
-		{#if !data?.comments?.length}
+		{#if !_data?.comments?.length}
 			<p>nothing right now</p>
 		{/if}
 	</div>

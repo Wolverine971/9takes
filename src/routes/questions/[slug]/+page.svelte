@@ -16,11 +16,19 @@
 	/** @type {import('./$types').PageData} */
 	export let data: QuestionData;
 
-	const dataForChild = Object.assign({}, data.question, {
+	let dataForChild = Object.assign({}, data.question, {
 		comments: data.comments,
 		comment_count: data.comment_count,
 		flags: data.flags
 	});
+
+	const addComment = async (newComment: string) => {
+		dataForChild = Object.assign({}, data.question, {
+			comments: [newComment, ...dataForChild.comments],
+			comment_count: (data.comment_count += 1),
+			flags: data.flags
+		});
+	};
 </script>
 
 <!-- Question always renders -->
@@ -31,7 +39,12 @@
 	<Card>
 		<input class="question-box" type="text" bind:value={data.question.question} readonly />
 		<!-- {data.question.question} -->
-		<Interact {data} parentType={'question'} />
+		<Interact
+			{data}
+			parentType={'question'}
+			on:commentAdded={({ detail }) => addComment(detail)}
+			user={data?.session?.user}
+		/>
 	</Card>
 </article>
 
@@ -44,7 +57,7 @@
 		<Interact {data} parentType={'question'} />
 	{/if} -->
 
-<QuestionContent data={dataForChild} />
+<QuestionContent data={dataForChild} user={data?.session?.user} />
 
 <style lang="scss">
 	.question-box {

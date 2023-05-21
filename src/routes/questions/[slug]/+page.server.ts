@@ -111,7 +111,11 @@ export const actions: Actions = {
 					es_id: resp._id
 				};
 
-				const { data, error: addCommentError } = await supabase.from('comments').insert(cData);
+				const { data: record, error: addCommentError } = await supabase
+					.from('comments')
+					.insert(cData)
+					.select()
+					.single();
 				if (!addCommentError) {
 					if (parent_type === 'comment') {
 						const { data: incremented, error: incrementError } = await supabase.rpc(
@@ -122,10 +126,10 @@ export const actions: Actions = {
 						);
 
 						if (!incrementError) {
-							return { success: 'true' };
+							return record;
 						}
 					} else {
-						return { success: 'true' };
+						return record;
 					}
 				} else {
 					console.log(addCommentError);
