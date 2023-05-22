@@ -16,8 +16,21 @@
 	export let data: any;
 	export let user: any;
 
+	let likes: any[] = data.comment_like ? [...data.comment_like] : [];
+
+	console.log(likes);
+
 	/** @type {import('./$types').PageData} */
 	// export let data: PageData;
+
+	$: data, watchData();
+
+	const watchData = () => {
+		console.log('interact data change');
+
+		console.log(data.comment_like);
+		likes = data.comment_like ? [...data.comment_like] : [];
+	};
 
 	let comment: string = '';
 	let commenting: boolean = false;
@@ -52,8 +65,31 @@
 		dispatch('commentAdded', result?.data);
 		comment = '';
 	};
-	const expand = () => {
-		console.log('please-expand');
+
+	export const likeComment = async () => {
+		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
+		let body = new FormData();
+		body.append('parent_id', data.id);
+		body.append('author_id', user.id);
+		body.append('es_id', data.es_id);
+		body.append('operation', operation);
+
+		const resp = await fetch('?/likeComment', {
+			method: 'POST',
+			body
+		});
+
+		const result: any = deserialize(await resp.text());
+
+		notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
+		const newLike = result?.data;
+		if (newLike) {
+			likes = [newLike, ...likes];
+		} else {
+			likes = likes.filter((c) => {
+				c.user_id !== user.id;
+			});
+		}
 	};
 </script>
 
@@ -83,7 +119,7 @@
 	{#if parentType === 'question'}
 		<button
 			title="Subscribe"
-			class="tablinks "
+			class="tablinks"
 			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
 			on:click={() => console.log('subscribe')}
 		>
@@ -100,17 +136,20 @@
 	{#if parentType !== 'question'}
 		<button
 			title="Like"
-			class="tablinks "
-			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-			on:click={() => console.log('Subscribe')}
+			class="tablinks"
+			style="{parentType === 'question' ? '' : 'padding: 0.25rem;'}color: {likes &&
+				likes.some((e) => e.user_id === user.id) &&
+				'#5407d9'}"
+			on:click={likeComment}
 		>
-			{#if parentType === 'question'}
+			{likes.length}
+			<!-- {#if parentType === 'question'}
 				Like
-			{/if}
+			{/if} -->
 			<ThumbsUpIcon
 				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={''}
+				fill={likes && likes.some((e) => e.user_id === user.id) && '#5407d9'}
 			/>
 		</button>
 	{/if}
@@ -219,6 +258,8 @@
 	.tablinks {
 		display: flex;
 		margin: 0 0 0.25rem 0.25rem;
+		justify-content: center;
+		align-items: center;
 	}
 	// .interact-card {
 	// 	margin: 2rem;

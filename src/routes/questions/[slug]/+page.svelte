@@ -22,11 +22,12 @@
 		flags: data.flags
 	});
 
-	const addComment = async (newComment: string) => {
+	const addComment = async (newComment: any) => {
+		// flags.userHasAnswered = true
 		dataForChild = Object.assign({}, data.question, {
 			comments: [newComment, ...dataForChild.comments],
 			comment_count: (data.comment_count += 1),
-			flags: data.flags
+			flags: Object.assign({}, data.flags, { userHasAnswered: true })
 		});
 	};
 </script>

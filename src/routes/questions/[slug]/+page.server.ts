@@ -3,7 +3,7 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
-import { addComment } from '$lib/elasticSearch';
+import { addComment, addCommentLike } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
@@ -53,7 +53,11 @@ export async function load(event: any) {
 		error: questionCommentsError
 	} = await supabase
 		.from('comments')
-		.select('*', { count: 'exact' })
+		.select(
+			`*, 
+			comment_like ( id, comment_id, user_id )`,
+			{ count: 'exact' }
+		)
 		.eq('parent_id', question.id)
 		.limit(10);
 
@@ -142,6 +146,67 @@ export const actions: Actions = {
 		} catch (e) {
 			throw error(400, {
 				message: `error creating comment ${JSON.stringify(e)}`
+			});
+		}
+	},
+
+	likeComment: async ({ request }) => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+
+			const parent_id = body.parent_id as string;
+			// const id = body.id as string
+			const user_id = body.author_id as string;
+			const operation = body.operation as string;
+			const es_id = body.es_id as string;
+			const parentId = parseInt(parent_id);
+			const likeData = {
+				comment_id: parentId,
+				user_id
+			};
+			const resp: any = await addCommentLike({
+				commentId: es_id,
+				operation: operation
+			});
+			if (resp._id) {
+				if (operation === 'add') {
+					const { data: record, error: addLikeError } = await supabase
+						.from('comment_like')
+						.insert(likeData)
+						.select()
+						.single();
+					if (!addLikeError) {
+						await supabase.rpc('increment_like_count', {
+							comment_id: parent_id
+						});
+						return record;
+					} else {
+						console.log(addLikeError);
+					}
+				} else {
+					const { data: record, error: removeLikeError } = await supabase
+						.from('comment_like')
+						.delete()
+						.eq('user_id', user_id)
+						.eq('comment_id', parent_id);
+
+					if (!removeLikeError) {
+						await supabase.rpc('decrement_like_count', {
+							comment_id: parent_id
+						});
+						return null;
+					} else {
+						console.log(removeLikeError);
+					}
+				}
+			}
+
+			throw error(404, {
+				message: `Add like error`
+			});
+		} catch (e) {
+			throw error(400, {
+				message: `error creating like ${JSON.stringify(e)}`
 			});
 		}
 	}

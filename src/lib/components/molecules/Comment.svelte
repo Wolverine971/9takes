@@ -43,7 +43,7 @@
 			});
 	};
 
-	const addComment = async (newComment: string) => {
+	const addComment = async (newComment: any) => {
 		if (_commentComment.comments) {
 			_commentComment.comments = [newComment, ..._commentComment.comments];
 		} else {
