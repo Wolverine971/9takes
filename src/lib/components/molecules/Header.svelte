@@ -437,6 +437,7 @@
 		text-align: center;
 	}
 	.corner-icon {
+		cursor: pointer;
 		background: no-repeat;
 		border-radius: 5px;
 		border: 1px solid var(--color-theme-purple);

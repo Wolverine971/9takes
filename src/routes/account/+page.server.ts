@@ -13,8 +13,17 @@ export const load: PageServerLoad = async (event) => {
 		error: findUserError,
 		status
 	} = await supabase.from('profiles').select('*').eq('email', session?.user.email).single();
+
+	let { data: subscriptions, error: subscriptionsError } = await supabase
+		.from('subscriptions')
+		.select(
+			`*,
+		questions(id, question, url)`
+		)
+		.eq('user_id', user?.id);
+
 	if (!findUserError) {
-		return { session, user };
+		return { session, user, subscriptions };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

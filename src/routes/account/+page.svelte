@@ -9,6 +9,7 @@
 	let lastName: string;
 	interface AccountData extends PageData {
 		user: any;
+		subscriptions: any;
 	}
 
 	export let data: AccountData;
@@ -82,6 +83,15 @@
 	</div>
 	<div class="row">
 		<button type="button" class="btn btn-primary" on:click={save}>Save</button>
+	</div>
+
+	<div>
+		<h2>Questions</h2>
+		{#each data.subscriptions as subscription}
+			<div class="row">
+				<a href="/questions/{subscription.questions.url}">{subscription.questions.question}</a>
+			</div>
+		{/each}
 	</div>
 </main>
 

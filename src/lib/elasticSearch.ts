@@ -74,7 +74,7 @@ export const addSubscription = async ({
 	operation: string;
 }) => {
 	try {
-		await elasticClient.update({
+		return await elasticClient.update({
 			index: 'question',
 			id: questionId,
 			body: {

@@ -16,7 +16,11 @@
 	export let data: any;
 	export let user: any;
 
+	// update this to like_count and add boolean for if user liked
 	let likes: any[] = data.comment_like ? [...data.comment_like] : [];
+	let subscriptions: any[] = data?.question?.subscriptions
+		? [...data?.question?.subscriptions]
+		: [];
 
 	console.log(likes);
 
@@ -30,6 +34,7 @@
 
 		console.log(data.comment_like);
 		likes = data.comment_like ? [...data.comment_like] : [];
+		subscriptions = data?.question?.subscriptions ? [...data?.question?.subscriptions] : [];
 	};
 
 	let comment: string = '';
@@ -37,7 +42,9 @@
 
 	export let parentType: string;
 
-	export const createComment = async () => {
+	console.log(data);
+
+	const createComment = async () => {
 		let body = new FormData();
 		if (parentType === 'comment') {
 			console.log('send comment');
@@ -66,11 +73,11 @@
 		comment = '';
 	};
 
-	export const likeComment = async () => {
+	const likeComment = async () => {
 		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
 		let body = new FormData();
 		body.append('parent_id', data.id);
-		body.append('author_id', user.id);
+		body.append('user_id', user.id);
 		body.append('es_id', data.es_id);
 		body.append('operation', operation);
 
@@ -89,6 +96,34 @@
 			likes = likes.filter((c) => {
 				c.user_id !== user.id;
 			});
+		}
+	};
+
+	const subscribe = async () => {
+		const operation =
+			subscriptions && subscriptions.some((e) => e.user_id === user.id) ? 'remove' : 'add';
+		let body = new FormData();
+		body.append('parent_id', data.question.id);
+		body.append('user_id', user.id);
+		body.append('es_id', data.question.es_id);
+		body.append('operation', operation);
+
+		const resp = await fetch('?/subscribe', {
+			method: 'POST',
+			body
+		});
+
+		const result: any = deserialize(await resp.text());
+
+		notifications.info(operation === 'add' ? 'Subscription Added' : 'Subscription Removed', 3000);
+		const newSubscriptions = result?.data;
+		if (newSubscriptions) {
+			subscriptions = [newSubscriptions, ...subscriptions];
+		} else {
+			const alteredSubscriptions = subscriptions.filter((c) => {
+				c.user_id !== user.id;
+			});
+			subscriptions = [...alteredSubscriptions];
 		}
 	};
 </script>
@@ -121,15 +156,18 @@
 			title="Subscribe"
 			class="tablinks"
 			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-			on:click={() => console.log('subscribe')}
+			on:click={subscribe}
 		>
 			{#if parentType === 'question'}
-				Subscribe
+				{subscriptions && subscriptions.some((e) => e.user_id === user.id)
+					? 'Subscribed'
+					: 'Subscribe'}
 			{/if}
 			<BellIcon
 				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={''}
+				fill={(subscriptions && subscriptions.some((e) => e.user_id === user.id) && '#5407d9') ||
+					''}
 			/>
 		</button>
 	{/if}
@@ -142,14 +180,16 @@
 				'#5407d9'}"
 			on:click={likeComment}
 		>
-			{likes.length}
+			{#if likes.length}
+				{likes.length}
+			{/if}
 			<!-- {#if parentType === 'question'}
 				Like
 			{/if} -->
 			<ThumbsUpIcon
 				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={likes && likes.some((e) => e.user_id === user.id) && '#5407d9'}
+				fill={(likes && likes.some((e) => e.user_id === user.id) && '#5407d9') || ''}
 			/>
 		</button>
 	{/if}

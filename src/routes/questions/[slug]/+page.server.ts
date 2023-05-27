@@ -1,16 +1,20 @@
-import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import { supabase } from '$lib/supabase';
+
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
-import { addComment, addCommentLike } from '$lib/elasticSearch';
+import { addComment, addCommentLike, addSubscription } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
 	const session = await getServerSession(event);
 	const { data: question, error: findQuestionError } = await supabase
 		.from('questions')
-		.select('*')
+		.select(
+			`*,
+		subscriptions ( id, question_id, user_id )`
+		)
 		.eq('url', event.params.slug)
 		.single();
 
@@ -56,6 +60,7 @@ export async function load(event: any) {
 		.select(
 			`*, 
 			comment_like ( id, comment_id, user_id )`,
+
 			{ count: 'exact' }
 		)
 		.eq('parent_id', question.id)
@@ -156,7 +161,7 @@ export const actions: Actions = {
 
 			const parent_id = body.parent_id as string;
 			// const id = body.id as string
-			const user_id = body.author_id as string;
+			const user_id = body.user_id as string;
 			const operation = body.operation as string;
 			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
@@ -197,6 +202,67 @@ export const actions: Actions = {
 						return null;
 					} else {
 						console.log(removeLikeError);
+					}
+				}
+			}
+
+			throw error(404, {
+				message: `Add like error`
+			});
+		} catch (e) {
+			throw error(400, {
+				message: `error creating like ${JSON.stringify(e)}`
+			});
+		}
+	},
+
+	subscribe: async ({ request }) => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+
+			const parent_id = body.parent_id as string;
+			const user_id = body.user_id as string;
+			const es_id = body.es_id as string;
+
+			const operation = body.operation as string;
+			const parentId = parseInt(parent_id);
+			const subscriptionData = {
+				question_id: parentId,
+				user_id
+			};
+			const resp: any = await addSubscription({
+				questionId: es_id,
+				operation: operation
+			});
+			if (resp._id) {
+				if (operation === 'add') {
+					const { data: subscriptionRecord, error: addSubscriptionError } = await supabase
+						.from('subscriptions')
+						.insert(subscriptionData)
+						.select()
+						.single();
+					if (!addSubscriptionError) {
+						// await supabase.rpc('increment_like_count', {
+						// 	comment_id: parent_id
+						// });
+						return subscriptionRecord;
+					} else {
+						console.log(addSubscriptionError);
+					}
+				} else {
+					const { data: record, error: removeSubscriptionError } = await supabase
+						.from('subscriptions')
+						.delete()
+						.eq('user_id', user_id)
+						.eq('question_id', parent_id);
+
+					if (!removeSubscriptionError) {
+						// await supabase.rpc('decrement_like_count', {
+						// 	comment_id: parent_id
+						// });
+						return null;
+					} else {
+						console.log(removeSubscriptionError);
 					}
 				}
 			}
