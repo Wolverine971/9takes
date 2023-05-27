@@ -10,6 +10,7 @@
 	let question: string = '';
 
 	const goToCreateQuestionPage = (val: any) => {
+		// cannot create question if you are not logged in
 		if (data?.session?.user?.id) {
 			let url: string;
 			if (typeof val === 'string') {

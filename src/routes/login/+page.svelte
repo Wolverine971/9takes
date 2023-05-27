@@ -1,9 +1,10 @@
 <script lang="ts">
-	import { redirect } from '@sveltejs/kit';
 </script>
 
 <div>
-	<h1>Login</h1>
+	<h1 style="text-align: center; margin: 1rem;">
+		<span style="text-decoration: underline;">Login</span>/ <a href="/register">Register</a>
+	</h1>
 	<form action="?/login" method="POST" class="auth-form">
 		<label for=""> Email </label>
 		<input type="text" name="email" />
@@ -12,7 +13,7 @@
 		<button class="btn btn-primary">Login</button>
 	</form>
 	<br />
-	<div>
+	<div style="text-align: center; margin: 1rem;">
 		<a href="/forgotPassword">Forgot Password</a>
 	</div>
 </div>

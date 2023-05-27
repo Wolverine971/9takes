@@ -1,12 +1,10 @@
 <script lang="ts">
-	import { redirect } from '@sveltejs/kit';
-	const goToForgotPassword = async () => {
-		redirect(300, '/forgotPassword');
-	};
 </script>
 
-<main>
-	<h1>Register</h1>
+<div>
+	<h1 style="text-align: center; margin: 1rem;">
+		<a href="/login">Login</a>/ <span style="text-decoration: underline;">Register</span>
+	</h1>
 	<form action="?/register" method="POST" class="auth-form">
 		<label for=""> Email </label>
 		<input type="text" name="email" />
@@ -15,10 +13,10 @@
 		<button class="btn btn-primary">Register</button>
 	</form>
 	<br />
-	<div>
+	<div style="text-align: center; margin: 1rem;">
 		<a href="/forgotPassword">Forgot Password</a>
 	</div>
-</main>
+</div>
 
 <style lang="scss">
 </style>

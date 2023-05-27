@@ -1,6 +1,7 @@
 <script lang="ts">
 	import account from '$lib/images/account-circle.svg';
 	import hamburger from '$lib/images/hamburger.svg';
+	import login from '$lib/images/login.svg';
 	import { onMount } from 'svelte';
 
 	import type { PageData } from '../../../routes/$types';
@@ -368,6 +369,19 @@
 						<img src={account} alt="Account" />
 					</button>
 				</div>
+				<!-- not yet ready to allow registration and login
+			{:else}
+				<div class="corner ">
+					<button
+						type="button"
+						on:click={() => {
+							goto('/login');
+						}}
+						class="corner-icon"
+					>
+						<img src={login} alt="login" />
+					</button>
+				</div> -->
 			{/if}
 			<!-- </a> -->
 		</div>
@@ -399,6 +413,19 @@
 						<img src={account} alt="Account" />
 					</button>
 				</div>
+				<!-- not yet ready to allow registration and login
+				{:else}
+				<div class=" right login">
+					<button
+						type="button"
+						on:click={() => {
+							goto('/login');
+						}}
+						class="corner-icon"
+					>
+						Login/ Register
+					</button>
+				</div> -->
 			{/if}
 			<!-- </div> -->
 		</nav>
@@ -407,6 +434,20 @@
 </header>
 
 <style lang="scss">
+	.login button {
+		display: flex;
+		align-items: center;
+		outline: none;
+		box-sizing: border-box;
+		color: var(--color-theme-purple);
+		margin: 1rem;
+		z-index: 1234;
+		font-size: 16px;
+		color: var(--color-theme-purple);
+		text-align: center;
+		padding: 14px 16px;
+		z-index: 1234;
+	}
 	.left {
 		position: absolute;
 		left: 0;
