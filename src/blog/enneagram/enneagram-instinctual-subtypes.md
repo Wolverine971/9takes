@@ -4,7 +4,7 @@ description: ''
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
-lastmod: '2023-04-15'
+lastmod: '2023-05-28'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -18,33 +18,97 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes">
 </svelte:head>
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
 ## What are Enneagram subtypes?
 
 Enneagram subtypes refer to the three different variations of each of the nine Enneagram types. These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.
 
-## Self-Preservation Enneagram Subtypes:
+## Self-Preservation Enneagram Subtypes
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/self-pres.png`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
 
 Self-preservation Enneagram subtypes are characterized by an intense focus on physical survival and well-being. These individuals are typically concerned with their own needs and can sometimes appear selfish or self-absorbed. There are three self-preservation Enneagram subtypes:
 
-1. Self-Preservation Ones: Self-preservation Ones are focused on maintaining their physical well-being through routines and healthy habits.
-2. Self-Preservation Twos: Self-preservation Twos are focused on meeting their own basic needs, such as food, shelter, and safety.
-3. Self-Preservation Threes: Self-preservation Threes are focused on their own success and achievements, often prioritizing their career and financial stability.
+1. Self-Preservation Ones: Ones with this subtype prioritize their physical health and well-being, often adhering to strict routines and habits to maintain a sense of order and control.
+2. Self-Preservation Twos: Twos with this subtype strive to ensure their own basic needs are met, often through practical planning and organizing related to food, shelter, and personal safety.
+3. Self-Preservation Threes: Threes with this subtype are driven to secure their own success and achievements. They may focus on career advancement and financial stability to ensure their survival and comfort.
+4. Self-Preservation Fours: Fours with this subtype are focused on maintaining their individuality and personal identity. They might find comfort in specific routines or unique personal possessions that enhance their sense of self.
+5. Self-Preservation Fives: Fives with this subtype are preoccupied with conserving their energy and resources. They value knowledge and may spend considerable time researching or learning to feel secure and prepared.
+6. Self-Preservation Sixes: Sixes with this subtype are concerned about safety and security. They tend to be vigilant, cautious, and may worry about meeting their basic needs.
+7. Self-Preservation Sevens: Sevens with this subtype seek satisfaction of their needs and often have a zest for physical experiences, whether it's related to food, travel, or any exciting activities.
+8. Self-Preservation Eights: Eights with this subtype are focused on protecting themselves and maintaining control over their environment. They tend to be resourceful, resilient, and often self-reliant.
+9.  Self-Preservation Nines: Nines with this subtype seek peace and comfort in their physical surroundings. They tend to maintain a calm and stable environment to avoid disruptions.
 
-## Social Enneagram Subtypes:
+## Social Enneagram Subtypes
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/social.png`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
 
 Social Enneagram subtypes are characterized by a strong need for social connection and belonging. These individuals are often highly involved in their communities and are deeply concerned with social issues. There are three social Enneagram subtypes:
 
-1. Social Ones: Social Ones are focused on making positive changes in society and working towards a better future for all.
-2. Social Twos: Social Twos are focused on building strong relationships and helping others in their community.
-3. Social Threes: Social Threes are focused on their image and reputation, often seeking approval and recognition from their social networks.
+1. Social Ones: Ones with this subtype are often driven by the desire to improve society. They may engage in community service or activism, working tirelessly for a future they perceive as better and more just.
+2. Social Twos: Twos with this subtype are community-oriented, seeking to forge strong relationships and support others around them. They often use their natural ability to understand and meet others' needs as a means of enhancing community wellbeing.
+3. Social Threes: Threes with this subtype are concerned with their public image and often work hard to gain recognition and approval from their social networks. They may strive to become a person of influence or status within their communities.
+4. Social Fours: Social Fours are concerned about their place within the community or society, often feeling unique or different from others. They may channel their emotions into social causes or creative pursuits.
+5. Social Fives: Social Fives engage with their community by sharing knowledge or expertise. They may feel a sense of obligation to contribute intellectually.
+6. Social Sixes: Social Sixes are committed to their communities and may uphold traditions or systems. They often seek safety and security within their social structures.
+7. Social Sevens: Social Sevens thrive in social gatherings and group activities. They enjoy the stimulation of social engagement and often become the life of the party.
+8. Social Eights: Social Eights often take on leadership roles within their communities. They are protective of their social groups and may fight for justice or fairness.
+9. Social Nines: Social Nines value harmony within their communities. They often go along with group consensus to maintain peace and avoid conflict.
 
-## One-to-One/ Sexual Enneagram Subtypes:
+## One-to-One/ Sexual Enneagram Subtypes
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/one-to-one.png`}
+		showIcon={false}
+		text=""
+		subtext=""
+	/>
+</div>
 
 One-to-One Enneagram subtypes are characterized by a strong need for intimacy and connection with others. These individuals often prioritize their relationships above all else and are highly attuned to their own emotions and those of others. There are three one-to-one Enneagram subtypes:
 
-1. One-to-One Ones: One-to-One Ones are focused on building deep, meaningful connections with others and often prioritize their romantic relationships.
-2. One-to-One Twos: One-to-One Twos are highly empathetic and nurturing, often prioritizing the needs of their loved ones over their own.
-3. One-to-One Threes: One-to-One Threes are focused on building a strong personal brand and often prioritize their romantic relationships as a means of enhancing their image.
+1. One-to-One Ones: Ones with this subtype place great importance on their personal relationships. They often seek deep, meaningful connections and may invest a lot of time and energy into maintaining their close relationships, especially romantic ones.
+2. One-to-One Twos: Twos with this subtype are highly empathetic and often prioritize their loved ones' needs over their own. They seek to nurture their close relationships, providing care and support to those they hold dear.
+3. One-to-One Threes: Threes with this subtype view their personal relationships as integral to their self-image. They often work hard to maintain a strong personal brand and may view their relationships as an extension of this image.
+4. One-to-One Fours: One-to-One Fours seek deep emotional connections and authenticity in their relationships. They may have intense feelings and value the emotional exchange in their personal relationships.
+5. One-to-One Fives: One-to-One Fives seek intellectual intimacy with others. They might share their inner thoughts and ideas with a select few, aiming for deep understanding.
+6. One-to-One Sixes: One-to-One Sixes value loyalty and consistency in their relationships. They may express their anxiety or concerns through their personal relationships.
+7. One-to-One Sevens: One-to-One Sevens seek stimulating and exciting personal relationships. They might seek a partner who can share in their adventurous spirit.
+8. One-to-One Eights: One-to-One Eights seek intensity and honesty in their relationships. They value directness and may express their care through protecting their loved ones.
+9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
 
 ## Conclusion:
 
@@ -61,7 +125,7 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   "headline": "Understanding Enneagram Instinctual Subtypes",
   
   "datePublished": "2023-03-01T00:00:00-07:00",
-  "dateModified": "2023-03-01T00:00:00-07:00",
+  "dateModified": "2023-05-28T00:00:00-07:00",
   "author": {
     "@type": "Person",
     "name": "DJ Wayne"
@@ -79,8 +143,8 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
     "name": "Enneagram"
   },
   
-  "description": "Learn about the Enneagram's Instinctual Subtypes and how they impact personality and behavior.",
-  "articleBody": "The Enneagram is a personality system that describes nine different personality types. Each personality type has three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life."
+  "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
+  "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life."
 }
 </script>
 

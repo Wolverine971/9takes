@@ -5,7 +5,7 @@
 </script>
 
 <div style="margin-bottom:5rem;">
-	<h3 style="text-align: center;">More Blogs</h3>
+	<h3 style="text-align: center;">More</h3>
 	<!-- <div class="row"> -->
 	<div class="blog-previews">
 		{#each posts as { slug, title, author, description, date }}
