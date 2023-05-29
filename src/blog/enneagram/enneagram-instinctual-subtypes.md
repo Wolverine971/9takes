@@ -138,6 +138,14 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
       "url": "https://9takes.com/darkRubix.png"
     }
   },
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 965,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/subtypesnew2.webp"
+    },
+    "http://schema.org/width": 685
+  },
   "about": {
     "@type": "Thing",
     "name": "Enneagram"
