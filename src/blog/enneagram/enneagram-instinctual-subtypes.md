@@ -52,7 +52,7 @@ Self-preservation Enneagram subtypes are characterized by an intense focus on ph
 6. Self-Preservation Sixes: Sixes with this subtype are concerned about safety and security. They tend to be vigilant, cautious, and may worry about meeting their basic needs.
 7. Self-Preservation Sevens: Sevens with this subtype seek satisfaction of their needs and often have a zest for physical experiences, whether it's related to food, travel, or any exciting activities.
 8. Self-Preservation Eights: Eights with this subtype are focused on protecting themselves and maintaining control over their environment. They tend to be resourceful, resilient, and often self-reliant.
-9.  Self-Preservation Nines: Nines with this subtype seek peace and comfort in their physical surroundings. They tend to maintain a calm and stable environment to avoid disruptions.
+9. Self-Preservation Nines: Nines with this subtype seek peace and comfort in their physical surroundings. They tend to maintain a calm and stable environment to avoid disruptions.
 
 ## Social Enneagram Subtypes
 
@@ -110,7 +110,7 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 8. One-to-One Eights: One-to-One Eights seek intensity and honesty in their relationships. They value directness and may express their care through protecting their loved ones.
 9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
 
-## Conclusion:
+## Conclusion
 
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
 

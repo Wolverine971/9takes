@@ -41,7 +41,11 @@
 
 <div class="waitlist-section">
 	<h2 style="margin-top: 0;">Join our waitlist!</h2>
-	<p>Be the first to know when 9takes is ready.</p>
+	<p>
+		9takes is a place for exploration and shared learning, where we delve into the nuances of
+		personality types and discuss different perspectives. If you're fascinated by the world of the
+		Enneagram you are warmly invited join our waitlist.
+	</p>
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button

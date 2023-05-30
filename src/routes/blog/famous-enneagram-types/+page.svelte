@@ -82,7 +82,9 @@
 	<ul>
 		{#each techies as person}
 			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}> {person.slug.split('-').join(' ')} </a>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person.slug.split('-').join(' ')}
+				</a>
 			</li>
 		{/each}
 	</ul> -->

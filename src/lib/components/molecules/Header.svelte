@@ -30,7 +30,7 @@
 		innerWidth = window.innerWidth;
 	});
 
-	const handleClickOutside = (event) => {
+	const handleClickOutside = (event: any) => {
 		const navbar = document.querySelector('.mobile-ham');
 		if (navbar && !navbar.contains(event.target)) {
 			isOpen = false;

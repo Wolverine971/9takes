@@ -117,7 +117,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
     "Challenger"
   ],
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Emily_Ratajkowski",
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/mentions": {
