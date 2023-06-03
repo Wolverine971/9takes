@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -67,6 +67,10 @@ While Type 6's have many strengths, they also have some weaknesses. One of their
 - Fear of Insecurity: Type 6 may fear being vulnerable or exposed, especially when it comes to their competence or ability to handle challenges. They may seek validation or reassurance from others to alleviate this fear.
 - Fear of Conflict: Type 6 may fear confrontation or conflict, as it can threaten their sense of security and stability. They may try to avoid conflicts or appease others to maintain harmony.
 - Fear of being blamed: Type 6 may fear being blamed for mistakes or negative outcomes, and may avoid taking risks or making decisions that could lead to criticism or failure.
+
+## Under Stress
+
+Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. When they're under stress, they might become more obsessed with success and achievement, as well as competitive and envious of others. They might also struggle with feeling anxious and insecure about their abilities and worth. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -257,7 +261,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
@@ -279,7 +283,8 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         "Workplace traits",
         "Relationship traits",
         "Growth opportunities",
-        "Self-development"
+        "Self-development",
+        "stress"
       ],
       "mainEntity": [
         {

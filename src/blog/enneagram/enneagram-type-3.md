@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -69,6 +69,10 @@ Type 3s are often skilled at presenting themselves in a positive light and may b
 - Fear of not being loved: While Type 3s may be highly successful and accomplished, they may still fear not being loved for who they are. They may worry that their worth is tied to their achievements, rather than their inherent value as a person.
 - Fear of being exposed as a fraud: Type 3s may worry that their success and accomplishments are not truly deserved or that they are hiding their true selves to maintain their image. They may fear being exposed as a fraud or imposter.
 - Fear of being vulnerable: Type 3s may have difficulty showing their vulnerable side or admitting to their weaknesses. They may fear being seen as weak or inferior, and work hard to maintain a strong and successful image.
+
+## Under Stress
+
+Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. When they're under stress, they might become more withdrawn and passive, as well as avoidant and indecisive. They might also struggle with feeling unimportant or insignificant in the eyes of others. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -260,14 +264,15 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
         "type 3",
         "Achiever",
         "Personality",
-        "Self-improvement"
+        "Self-improvement",
+        "stress"
       ],
       "mainEntity": [
         {

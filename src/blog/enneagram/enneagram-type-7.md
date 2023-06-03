@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -68,6 +68,10 @@ One of the core fears of Type 7s is the fear of being trapped or limited in thei
 Another fear of Type 7s is the fear of missing out on experiences or opportunities. They have a strong FOMO (fear of missing out) drive, and they may feel anxious or restless when they perceive that there are experiences or opportunities available to them that they are not able to access. This can sometimes lead to impulsive decision-making or a tendency to jump from one experience to another without fully considering the consequences.
 
 Finally, Type 7s may also fear experiencing difficult or painful emotions. They may have a tendency to avoid or suppress negative feelings, preferring to focus on positive experiences and emotions. This can sometimes lead to a lack of emotional depth or intimacy in their relationships, as well as a tendency to avoid dealing with important issues or conflicts.
+
+## Under Stress
+
+Their stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others, as well as rigid and inflexible in their thinking. They might also struggle with feeling anxious and overwhelmed by the demands of life. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -240,14 +244,15 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
         "Type 7",
         "Enthusiast",
         "Epicure",
-        "Personality"
+        "Personality",
+        "stress"
       ],
       "mainEntity": [
         {

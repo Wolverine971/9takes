@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -79,6 +79,10 @@ Specifically, some of the common fears of Enneagram Type 5s may include:
 - Being overwhelmed or invaded: Type 5s fear that they will be overwhelmed by the demands of the world around them or by other people's needs and expectations.
 - Being trapped or confined: Type 5s fear that they will be trapped in situations or relationships that limit their freedom and independence.
 - Being dependent on others: Type 5s fear that they will be dependent on others for support or resources, which could leave them feeling vulnerable and exposed.
+
+## Under Stress
+
+Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When they're under stress, they might become more impulsive and distractible, as well as struggle with feeling overwhelmed and out of control. They might also have difficulty focusing on one thing at a time and making decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -254,7 +258,7 @@ To help foster personal growth and development for individuals with a Type 5 per
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram Type 5",
@@ -264,7 +268,8 @@ To help foster personal growth and development for individuals with a Type 5 per
         "Analytical",
         "Introverted",
         "Reserved",
-        "Independent"
+        "Independent",
+        "stress"
       ],
       "mainEntity": [
         {

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8"'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -54,6 +54,10 @@ At their core, Enneagram Type 8 individuals are seeking to avoid being controlle
 ## Fears
 
 The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They value their independence and autonomy above all else and may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others in order to maintain their sense of autonomy. Additionally, Enneagram Type 8 individuals may also have a fear of vulnerability, as they perceive vulnerability as a potential weakness that could be exploited by others.
+
+## Under Stress
+
+ Their stress number is Type 5. Type 5s are analytical, independent, and private. When they're under stress, they might become more withdrawn and isolated from others, as well as cold and distant in their relationships. They might also struggle with feeling vulnerable and helpless in the face of challenges. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -240,7 +244,7 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
@@ -260,7 +264,8 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         "Vulnerability",
         "Empathy",
         "Motivations",
-        "Fears"
+        "Fears",
+        "stress"
       ],
       "mainEntity": [
         {

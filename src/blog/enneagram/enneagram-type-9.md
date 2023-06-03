@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -85,6 +85,10 @@ Enneagram Type 9 individuals have a core fear of loss and separation. They are d
 Enneagram Type 9 individuals may also fear their own anger and assertiveness. They may have learned early in life that expressing these emotions can cause conflict and disrupt the peace they crave, so they may suppress these feelings and avoid situations that trigger them. This can lead to a sense of inner turmoil and a feeling of being stuck or trapped in their own lives.
 
 Additionally, Enneagram Type 9 individuals may fear making the wrong decision or taking action that could lead to conflict or loss. They may struggle with making choices and taking risks because they fear the consequences of making a mistake or upsetting others.
+
+## Under Stress
+
+ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When they're under stress, they might become more fearful and paranoid, as well as indecisive and hesitant. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -270,7 +274,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram Type 9",
@@ -284,7 +288,8 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         "Fears",
         "Growth and Development",
         "Relationships",
-        "Workplace Traits"
+        "Workplace Traits",
+        "stress"
       ],
       "mainEntity": [
         {

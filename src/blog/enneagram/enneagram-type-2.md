@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -65,6 +65,10 @@ The Helper is motivated by a deep desire to be loved and appreciated by those ar
 - Being unappreciated: Type 2s thrive on being needed and valued by others. They may fear that if they are not seen as valuable or appreciated, they will be left alone or rejected.
 - Being a burden: Type 2s want to be helpful to others, but they also fear that they may be too demanding or burdensome. They may worry that they are taking too much from others and not giving enough in return.
 - Abandonment: Type 2s may fear that if they don't offer enough help or support to others, those people will abandon them. They may feel that they need to constantly give in order to keep their relationships intact.
+
+## Under Stress
+
+Their stress number is Type 8. Type 8s are powerful, assertive, and confrontational. When they're under stress, they might become more aggressive and controlling, as well as overprotective and demanding of others. They might also struggle with feeling unappreciated or neglected by those around them. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -237,7 +241,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",
@@ -252,7 +256,8 @@ If you identify as a Type 2 personality, there are a number of things you can do
         "relationships",
         "workplace",
         "growth",
-        "development"
+        "development",
+        "stress"
       ],
       "mainEntity": [
         {

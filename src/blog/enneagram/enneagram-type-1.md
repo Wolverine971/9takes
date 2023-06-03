@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -81,6 +81,10 @@ Here are some of the primary motivations of Type 1 personalities:
 - Being criticized: Type 1s have a critical inner voice and can be very hard on themselves. They fear being criticized or judged by others, as this can reinforce their own self-criticism.
 - Being irresponsible: Type 1s have a strong sense of duty and responsibility. They fear being seen as irresponsible or unreliable, as this can conflict with their own self-image as a responsible person.
 - Chaos or disorder: Type 1s have a need for order and structure in their lives. They fear chaos or disorder, as this can make them feel out of control and anxious.
+
+## Under Stress
+
+Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody, depressed, and isolate themselves from others. They might also become more self-critical and judgmental, as well as have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -335,7 +339,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",
@@ -351,7 +355,8 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
         "relationships",
         "workplace",
         "growth",
-        "development"
+        "development",
+        "stress"
       ],
       "mainEntity": [
         {

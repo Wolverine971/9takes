@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2023-04-15'
+lastmod: '2023-06-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -69,6 +69,10 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 - Inadequate or without significance. They fear being plain or ordinary, and they desire to be unique and special in some way. They also fear being misunderstood or not fully known by others, leading them to feel isolated and disconnected.
 - Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity as a means of expressing their unique identity and standing out from others.
 - Fear of abandonment, which can manifest in a belief that others will inevitably leave or reject them. They may feel that their flaws or vulnerabilities will make them unlovable and unworthy of connection, causing them to withdraw or push others away before they can be rejected.
+
+## Under Stress
+
+Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When they're under stress, they might become more emotionally needy and dependent on others, as well as manipulative and controlling in their relationships. They might also struggle with feeling unlovable or inadequate. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 
@@ -244,7 +248,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-04-13",
+      "dateModified": "2023-06-03",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
@@ -255,7 +259,8 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         "Weaknesses",
         "Growth",
         "Relationships",
-        "Workplace"
+        "Workplace",
+        "stress"
       ],
       "mainEntity": [
         {
