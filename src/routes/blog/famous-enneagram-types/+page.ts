@@ -6,20 +6,74 @@ const MAX_POSTS = 20;
 export const load: PageServerLoad = async ({ url }) => {
 	const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
 
-	const postPromises = Object.entries(modules).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					slug: slugFromPath(path),
-					...(post as unknown as App.MdsvexFile).metadata
-				} as App.BlogPost)
-		)
-	);
+	const posts: any = await getAllPosts();
+	// 	Object.entries(modules).map(([path, resolver]) =>
+	// 	resolver().then(
+	// 		(post) =>
+	// 			({
+	// 				slug: slugFromPath(path),
+	// 				...(post as unknown as App.MdsvexFile).metadata
+	// 			} as App.BlogPost)
+	// 	)
+	// );
 
-	const posts = await Promise.all(postPromises);
+	// const posts = await Promise.all(postPromises);
 	const publishedPosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	return { people: publishedPosts };
+};
+
+const getAllPosts = async () => {
+	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
+	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
+	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
+	const lifestyleInfluencers = import.meta.glob(
+		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
+	);
+	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
+	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
+	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
+	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
+	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
+
+	const imports = [
+		celebrities,
+		commedians,
+		creators,
+		lifestyleInfluencers,
+		movieStars,
+		musicians,
+		politicians,
+		techies,
+		tiktokers
+	];
+
+	let body = [];
+
+	for (const category in imports) {
+		for (const path in imports[category]) {
+			body.push(
+				imports[category][path]().then(({ metadata }) => {
+					const parts = path.split('/');
+					const slug = slugFromPath(parts[parts.length - 1]);
+					if (metadata) {
+						return {
+							...metadata, // may not be required for sitemap
+							path,
+							slug
+						};
+					}
+				})
+			);
+		}
+	}
+	const posts = await Promise.all(body);
+
+	return posts.filter((p) => {
+		if (p?.published && p?.loc) {
+			return true;
+		}
+	});
 };

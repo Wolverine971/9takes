@@ -22,6 +22,7 @@
 	const techies = data.people.filter((person) => {
 		return person.type?.includes('techie');
 	});
+	console.log(data);
 </script>
 
 <BlogPageHead
@@ -42,7 +43,7 @@
 		{#each politicians as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('-').join(' ')}
+					{person?.slug?.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -52,7 +53,7 @@
 		{#each celebrities as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('-').join(' ')}
+					{person?.slug?.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -63,7 +64,7 @@
 		{#each musicians as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('-').join(' ')}
+					{person?.slug?.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
@@ -73,7 +74,7 @@
 		{#each artists as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('-').join(' ')}
+					{person?.slug?.split('-').join(' ')}
 				</a>
 			</li>
 		{/each}
