@@ -35,6 +35,9 @@ export const load: PageLoad = async ({ params }) => {
 		case 'tiktoker':
 			group = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
 			break;
+		case 'historical':
+			group = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
+			break;
 
 		default:
 			break;
@@ -97,6 +100,7 @@ const getAllPosts = async (pslug) => {
 		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
 	);
 	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
+	const historical = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
 	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
 	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
 	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
@@ -108,6 +112,7 @@ const getAllPosts = async (pslug) => {
 		creators,
 		lifestyleInfluencers,
 		movieStars,
+		historical,
 		musicians,
 		politicians,
 		techies,

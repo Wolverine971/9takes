@@ -10,6 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['artist']
+wikipedia:
+twitter: 
+instagram:
+tiktok:
 ---
 
 <svelte:head>
@@ -18,7 +22,7 @@ type: ['artist']
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Frida-Kahlo">
 </svelte:head>
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;
