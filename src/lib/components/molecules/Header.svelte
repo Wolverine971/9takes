@@ -4,8 +4,8 @@
 	import login from '$lib/images/login.svg';
 	import { onMount } from 'svelte';
 
-	import MobileHam from './mobile-ham.svelte';
-	import MobileHam2 from './mobile-ham2.svelte';
+	// import MobileHam from './mobile-ham.svelte';
+	// import MobileHam2 from './mobile-ham2.svelte';
 
 	import type { PageData } from '../../../routes/$types';
 	// import NavbarLinks from './NavbarLinks.svelte';
