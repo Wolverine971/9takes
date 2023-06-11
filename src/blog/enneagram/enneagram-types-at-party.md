@@ -111,7 +111,7 @@ Each type has its unique characteristics and motivations for attending the party
     "http://schema.org/logo": {
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/url": {
-        "@id": "https://9takes.com/darkRubix.png"
+        "@id": "https://9takes.com/brand/darkRubix.png"
       }
     },
     "http://schema.org/name": "9Takes"

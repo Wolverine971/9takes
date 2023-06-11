@@ -263,7 +263,7 @@ select {
 
 	&::after {
 		content: '';
-		background-image: url('/svgs/arrow.svg');
+		background-image: url('/icons/arrow.svg');
 		display: inline-block;
 		vertical-align: middle;
 		align-items: center;
@@ -283,7 +283,7 @@ select {
 }
 .blog :global(a::after) {
 	content: '';
-	background-image: url('/svgs/arrow.svg');
+	background-image: url('/icons/arrow.svg');
 	display: inline-block;
 	vertical-align: middle;
 	width: 1em;

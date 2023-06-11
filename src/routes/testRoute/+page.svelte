@@ -5,10 +5,10 @@
 </script>
 
 <div class="video-bg">
-	<video width="320" height="240" autoplay loop muted>
-		<source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4" />
+	<!-- <video width="320" height="240" autoplay loop muted>
+		<source src="https://youtube.com/clip/UgkxnC8lrUjF-5XwwDJDOAIJoiuf0P8HgDGr" type="video/mp4" />
 		Your browser does not support the video tag.
-	</video>
+	</video> -->
 </div>
 <div class="dark-light">
 	<svg
@@ -24,7 +24,7 @@
 </div>
 <div class="app">
 	<div class="header">
-		<div class="menu-circle" />
+		<!-- <div class="menu-circle" /> -->
 		<div class="header-menu">
 			<a class="menu-link is-active" href="#">Apps</a>
 			<a class="menu-link notify" href="#">Your work</a>

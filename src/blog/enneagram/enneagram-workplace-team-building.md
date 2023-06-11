@@ -137,7 +137,7 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 "http://schema.org/logo": {
 "@type": "http://schema.org/ImageObject",
 "http://schema.org/url": {
-"@id": "https://9takes.com/darkRubix.png"
+"@id": "https://9takes.com/brand/darkRubix.png"
 }
 },
 "http://schema.org/name": "9Takes"

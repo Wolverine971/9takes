@@ -188,10 +188,10 @@ export const joinEmail2 = () => {
                           <td valign="top" style="display:flex; justify-content: center;">
                             <div style="text-align: center; display: flex; justify-content: center;">
                               <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-                              <img src="https://9takes.com/instagram.png" alt="Instagram" class="icon" width="50px"/>
+                              <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
                             </a>
                             <a target="_blank" href="https://twitter.com/9takesdotcom">
-                              <img src="https://9takes.com/twitter.png" alt="Twitter" class="icon" width="50px"/>
+                              <img src="https://9takes.com/icons/twitter.png" alt="Twitter" class="icon" width="50px"/>
                             </a>
                             </div>
                           </td>

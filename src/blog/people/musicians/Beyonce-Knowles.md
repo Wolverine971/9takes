@@ -141,7 +141,7 @@ So next time you listen to a Beyoncé track or watch one of her performances, re
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/height": 60,
       "http://schema.org/url": {
-        "@id": "https://9takes.com/darkRubix.png"
+        "@id": "https://9takes.com/brand/darkRubix.png"
       },
       "http://schema.org/width": 600
     },

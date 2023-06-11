@@ -325,7 +325,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/darkRubix.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9Takes"
       }

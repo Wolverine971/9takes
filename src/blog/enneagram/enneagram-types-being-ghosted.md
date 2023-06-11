@@ -221,7 +221,7 @@ possible with self-compassion and care.
     "name": "9Takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/darkRubix.png"
+      "url": "https://9takes.com/brand/darkRubix.png"
     }
   },
   "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",

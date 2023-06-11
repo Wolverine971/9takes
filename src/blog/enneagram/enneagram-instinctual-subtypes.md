@@ -35,7 +35,7 @@ Enneagram subtypes refer to the three different variations of each of the nine E
 	"
 >
 	<PopCard
-		image={`/self-pres.png`}
+		image={`/blogs/self-pres.webp`}
 		showIcon={false}
 		text=""
 		subtext=""
@@ -63,7 +63,7 @@ Self-preservation Enneagram subtypes are characterized by an intense focus on ph
 	"
 >
 	<PopCard
-		image={`/social.png`}
+		image={`/blogs/social.webp`}
 		showIcon={false}
 		text=""
 		subtext=""
@@ -91,7 +91,7 @@ Social Enneagram subtypes are characterized by a strong need for social connecti
 	"
 >
 	<PopCard
-		image={`/one-to-one.png`}
+		image={`/blogs/one-to-one.webp`}
 		showIcon={false}
 		text=""
 		subtext=""
@@ -115,7 +115,8 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
 
 <div>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "mainEntityOfPage": {
@@ -135,16 +136,16 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
     "name": "9Takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "<https://9takes.com/darkRubix.png>"
+      "url": "https://9takes.com/brand/darkRubix.png"
     }
   },
-  "<http://schema.org/image>": {
-    "@type": "<http://schema.org/ImageObject>",
-    "<http://schema.org/height>": 965,
-    "<http://schema.org/url>": {
-      "@id": "<https://9takes.com/subtypesnew2.webp>"
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 965,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/blogs/subtypesnew2.webp"
     },
-    "<http://schema.org/width>": 685
+    "http://schema.org/width": 685
   },
   "about": {
     "@type": "Thing",

@@ -158,7 +158,7 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
     "http://schema.org/logo": {
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/url": {
-        "@id": "https://9takes.com/darkRubix.png"
+        "@id": "https://9takes.com/brand/darkRubix.png"
       }
     },
     "http://schema.org/name": "9Takes"

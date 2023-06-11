@@ -24,7 +24,7 @@
 		class="tablinks {selectedTab === 'comments' && 'active'}"
 		on:click={() => (selectedTab = 'comments')}
 		>Comments
-		<!-- <img src="/svgs/comment-outline.svg" class="icons" /> -->
+		<!-- <img src="/icons/comment-outline.svg" class="icons" /> -->
 		<CommentsIcon
 			iconStyle={'margin-left: .5rem'}
 			height={'1.5rem'}
@@ -36,7 +36,7 @@
 		on:click={() => (selectedTab = 'visuals')}
 	>
 		Visuals
-		<!-- <img src="/svgs/camera.svg" class="icons" /> -->
+		<!-- <img src="/icons/camera.svg" class="icons" /> -->
 		<CameraIcon
 			iconStyle={'margin-left: .5rem'}
 			height={'1.5rem'}
@@ -48,7 +48,7 @@
 		on:click={() => (selectedTab = 'articles')}
 	>
 		Articles
-		<!-- <img src="/svgs/post.svg" class="icons" /> -->
+		<!-- <img src="/icons/post.svg" class="icons" /> -->
 		<PostIcon
 			iconStyle={'margin-left: .5rem'}
 			height={'1.5rem'}

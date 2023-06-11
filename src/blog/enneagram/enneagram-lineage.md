@@ -30,7 +30,7 @@ blog: true
 	"
 >
 	<PopCard
-		image={`/freud-plato.webp`}
+		image={`/blogs/freud-plato.webp`}
 		showIcon={false}
 		text=""
 		subtext=""
@@ -142,7 +142,7 @@ In essence, the Enneagram offers a framework for personal development that is de
     "@type": "http://schema.org/ImageObject",
     "http://schema.org/height": 1200,
     "http://schema.org/url": {
-      "@id": "https://9takes.com/freud-plato.webp"
+      "@id": "https://9takes.com/blogs/freud-plato.webp"
     },
     "http://schema.org/width": 630
   },

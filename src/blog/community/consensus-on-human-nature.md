@@ -19,7 +19,7 @@ What is the consensus on human nature? It is TBD but there have been two main pe
 Plato, Aristotle, Freud, and the modern psychologist Steven Pinker are all renowned for their insights into the human mind, but they differ significantly in their understanding of human nature.
 
 <div style="text-align: center;" >
-<img src="/humanNature.PNG" alt="human nature definition" />
+<img src="/blogs/human-nature.webp" alt="human nature definition" />
 </div>
 
 Plato divided the human soul/ nature into three parts: reason, spirit, and appetite. Whereas Aristotle divided human nature into the rational and the irrational. Similarly Freud had his three part division of the psyche, the id, ego and superego, whereas Pinker just wrote a book called “rationality” that pleads for people to be more rational. With the underlying assumption that we are either rational or irrational and for the sake of progress we need to be rational.
@@ -65,7 +65,7 @@ Freud suggested that mental health and adaptive functioning depend on a **balanc
 It's also worth noting that these constructs operate across different levels of consciousness, with the id being largely unconscious, the ego operating at the conscious and preconscious levels, and the superego operating across all three levels (conscious, preconscious, and unconscious).
 
 <div style="text-align: center;" >
-<img src="/Structural-Iceberg.svg" alt="iceburg" />
+<img src="/blogs/structural-iceberg.svg" alt="iceburg" />
 
 By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://en.wikipedia.org/wiki/File:Structural-Iceberg.png" class="extiw" title="en:File:Structural-Iceberg.png">Structural-Iceberg.png</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1467156">Link</a>
 

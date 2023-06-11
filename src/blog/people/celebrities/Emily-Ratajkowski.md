@@ -150,7 +150,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
       "@type": "http://schema.org/ImageObject",
       "http://schema.org/height": 60,
       "http://schema.org/url": {
-        "@id": "https://9takes.com/darkRubix.png"
+        "@id": "https://9takes.com/brand/darkRubix.png"
       },
       "http://schema.org/width": 600
     },

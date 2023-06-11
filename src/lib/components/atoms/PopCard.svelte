@@ -82,12 +82,7 @@
 	<div class="screen-content">
 		<!-- <i  /> -->
 		{#if showIcon}
-			<img
-				class="screen-icon fa-brands fa-codepen"
-				src="darkRubix.png"
-				alt="enneagram symbol"
-				style="width: 10%;"
-			/>
+			<img class="screen-icon" src="darkRubix.webp" alt="enneagram symbol" style="width: 10%;" />
 		{/if}
 
 		<div class="screen-user">

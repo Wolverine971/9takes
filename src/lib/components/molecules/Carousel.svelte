@@ -203,6 +203,18 @@ cwebp "communication-tips.png" -o "communication-tips.webp"
 cwebp "communication-styles.png" -o "communication-styles.webp"
 
 
+cwebp "human-nature.PNG" -o "human-nature.webp"
+cwebp "darkRubix.png" -o "darkRubix.webp"
+
+cwebp "social.png" -o "social.webp"
+cwebp "one-to-one.png" -o "one-to-one.webp"
+cwebp "self-pres.png" -o "self-pres.webp"
+
+
+cwebp "background3.png" -o "background3.webp"
+
+
+
  -->
 <style lang="scss">
 	.slide-name {

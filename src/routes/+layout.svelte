@@ -204,7 +204,7 @@
 		&::after {
 			content: '';
 
-			background-image: url('/svgs/arrow.svg');
+			background-image: url('/icons/arrow.svg');
 			display: inline-block;
 			vertical-align: middle;
 			align-items: center;

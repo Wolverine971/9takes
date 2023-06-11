@@ -88,7 +88,7 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
 a::after {
 		content: '';
 
-		background-image: url('/svgs/arrow.svg');
+		background-image: url('/icons/arrow.svg');
 
 		display: inline-flex;
 		justify-content: flex-start;

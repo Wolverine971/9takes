@@ -296,7 +296,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/darkRubix.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9Takes"
       }

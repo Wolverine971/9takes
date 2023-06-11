@@ -293,7 +293,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/darkRubix.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9Takes"
       }

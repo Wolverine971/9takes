@@ -288,7 +288,7 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
         "type": "Organization",
         "logo": {
           "type": "ImageObject",
-          "url": "https://9takes.com/darkRubix.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9Takes"
       }
