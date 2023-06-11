@@ -11,7 +11,7 @@ published: true
 enneagram: 7
 type: ['politician']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

@@ -11,7 +11,7 @@ published: true
 enneagram: 4
 type: ['movieStar']
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'
-twitter: 
+twitter:
 instagram: 'https://www.instagram.com/johnnydepp/'
 tiktok: 'https://www.tiktok.com/@johnnydepp'
 ---

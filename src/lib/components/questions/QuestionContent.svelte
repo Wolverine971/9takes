@@ -60,28 +60,7 @@
 	<div class="flexr {selectedTab === 'comments' && 'first'}">
 		<h3 class="tabHeader">Comments</h3>
 		<!-- Renders for SEO, removed if not answered -->
-		{#if !browser || _data.flags.userHasAnswered}
-			<!-- <h3>Renders for SEO, removed if not answered</h3> -->
-			{#if _data.comments.length}
-				<Comments data={_data} nested={true} parentType={'question'} {user} />
-			{:else}
-				<p>nothing right now</p>
-			{/if}
-		{/if}
-		{#if _data.flags.userHasAnswered && !browser}
-			<h3>Renders only if answered</h3>
-			<h1>Comments</h1>
-			<!-- Renders only if answered -->
-			<li>Answer Two</li>
-			<li>Answer Three</li>
-			<!-- only load first or top comment -->
-			{#if _data.comments.length}
-				<Comments data={_data} nested={false} parentType={'question'} {user} />
-			{/if}
-		{/if}
-		{#if !_data?.comments?.length}
-			<p>nothing right now</p>
-		{/if}
+		<Comments data={_data} nested={true} parentType={'question'} {user} />
 	</div>
 
 	<div class="flexr {selectedTab === 'articles' && 'first'}">

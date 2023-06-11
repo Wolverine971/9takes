@@ -4,9 +4,16 @@ import { error } from '@sveltejs/kit';
 
 const MAX_POSTS = 6;
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({
+	params
+}): Promise<{
+	component: any;
+	frontmatter: any;
+	slug: string;
+	posts: App.BlogPost[];
+}> => {
 	const pposts: { post: any; posts: any[] } = await getAllPosts(params.slug);
-	let group = null;
+	let group: any = null;
 	switch (pposts.post.type[0]) {
 		case 'celebrity':
 			group = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
@@ -46,21 +53,22 @@ export const load: PageLoad = async ({ params }) => {
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(group)) {
 		if (slugFromPath(path) === params.slug) {
-			match = { path, resolver: resolver as unknown as App.MdsvexResolver };
+			match = { path, resolver: resolver as App.MdsvexResolver };
 			break;
 		}
 	}
 
 	const post = await match?.resolver?.();
 
-	const postPromises = Object.entries(group).map(([path, resolver]) =>
-		resolver().then(
-			(post) =>
-				({
-					slug: slugFromPath(path),
-					...(post as unknown as App.MdsvexFile).metadata
-				} as App.BlogPost)
-		)
+	const postPromises = Object.entries(group).map(
+		([path, resolver]: [path: string, resolver: any]) =>
+			resolver().then(
+				(post: any) =>
+					({
+						slug: slugFromPath(path),
+						...(post as unknown as App.MdsvexFile).metadata
+					} as App.BlogPost)
+			)
 	);
 
 	const posts = await Promise.all(postPromises);
@@ -92,7 +100,7 @@ export const load: PageLoad = async ({ params }) => {
 	};
 };
 
-const getAllPosts = async (pslug) => {
+const getAllPosts = async (pslug: any) => {
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
 	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
 	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
@@ -125,7 +133,7 @@ const getAllPosts = async (pslug) => {
 	for (const category in imports) {
 		for (const path in imports[category]) {
 			body.push(
-				imports[category][path]().then(({ metadata }) => {
+				imports[category][path]().then(({ metadata }: any) => {
 					const parts = path.split('/');
 					const slug = slugFromPath(parts[parts.length - 1]);
 					if (slug === pslug) {

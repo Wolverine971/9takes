@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['creator']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

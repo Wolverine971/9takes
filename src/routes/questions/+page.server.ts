@@ -43,6 +43,9 @@ export const actions: Actions = {
 			return questions;
 		} catch (e) {
 			console.log(e);
+			throw error(500, {
+				message: 'Error finding questions'
+			});
 		}
 	},
 	typeahead: async ({ request, getClientAddress }) => {

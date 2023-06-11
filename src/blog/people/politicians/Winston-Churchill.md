@@ -11,7 +11,7 @@ published: true
 enneagram: 8
 type: ['politician']
 wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill'
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

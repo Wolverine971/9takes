@@ -11,7 +11,7 @@ export const load: PageServerLoad = async (event) => {
 import type { Actions } from './$types';
 // import type { RequestHandler } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
-import { createQuestion } from '$lib/elasticSearch';
+import { createESQuestion } from '$lib/elasticSearch';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -41,7 +41,7 @@ export const actions: Actions = {
 		// 	img_url: img_url
 		// };
 
-		const resp: any = await createQuestion(body);
+		const resp: any = await createESQuestion(body);
 		if (resp._id) {
 			const qData = {
 				es_id: resp._id,

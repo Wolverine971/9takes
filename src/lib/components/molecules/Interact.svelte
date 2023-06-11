@@ -56,7 +56,7 @@
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
-			body.append('author_id', user.id);
+			body.append('author_id', user?.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.question.es_id);
 		}
@@ -159,14 +159,17 @@
 			on:click={subscribe}
 		>
 			{#if parentType === 'question'}
-				{subscriptions && subscriptions.some((e) => e.user_id === user.id)
+				{subscriptions && user?.id && subscriptions.some((e) => e.user_id === user?.id)
 					? 'Subscribed'
 					: 'Subscribe'}
 			{/if}
 			<BellIcon
 				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={(subscriptions && subscriptions.some((e) => e.user_id === user.id) && '#5407d9') ||
+				fill={(subscriptions &&
+					user?.id &&
+					subscriptions.some((e) => e.user_id === user.id) &&
+					'#5407d9') ||
 					''}
 			/>
 		</button>
@@ -176,7 +179,8 @@
 			title="Like"
 			class="tablinks"
 			style="{parentType === 'question' ? '' : 'padding: 0.25rem;'}color: {likes &&
-				likes.some((e) => e.user_id === user.id) &&
+				user?.id &&
+				likes.some((e) => e.user_id === user?.id) &&
 				'#5407d9'}"
 			on:click={likeComment}
 		>
@@ -189,7 +193,7 @@
 			<ThumbsUpIcon
 				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={(likes && likes.some((e) => e.user_id === user.id) && '#5407d9') || ''}
+				fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') || ''}
 			/>
 		</button>
 	{/if}

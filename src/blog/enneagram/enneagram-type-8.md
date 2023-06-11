@@ -57,7 +57,7 @@ The primary fear of Enneagram Type 8 individuals is the fear of being controlled
 
 ## Under Stress
 
- Their stress number is Type 5. Type 5s are analytical, independent, and private. When they're under stress, they might become more withdrawn and isolated from others, as well as cold and distant in their relationships. They might also struggle with feeling vulnerable and helpless in the face of challenges. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Their stress number is Type 5. Type 5s are analytical, independent, and private. When they're under stress, they might become more withdrawn and isolated from others, as well as cold and distant in their relationships. They might also struggle with feeling vulnerable and helpless in the face of challenges. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 

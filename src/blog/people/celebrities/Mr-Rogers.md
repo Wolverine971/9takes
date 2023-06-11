@@ -11,7 +11,7 @@ published: true
 enneagram: 2
 type: ['celebrity']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

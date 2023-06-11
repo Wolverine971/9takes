@@ -51,7 +51,7 @@ const getAllPosts = async () => {
 	for (const category in imports) {
 		for (const path in imports[category]) {
 			body.push(
-				imports[category][path]().then(({ metadata }) => {
+				imports[category][path]().then(({ metadata }: any) => {
 					return {
 						...metadata, // may not be required for sitemap
 						path
@@ -70,73 +70,73 @@ const getAllPosts = async () => {
 };
 
 export async function GET() {
-	return new Response();
-	// const posts = await getAllPosts();
+	// return new Response();
+	const posts = await getAllPosts();
 
-	// return new Response(
-	// 	`
-	// <?xml version="1.0" encoding="UTF-8" ?>
-	// <urlset
-	//   xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-	//   xmlns:xhtml="https://www.w3.org/1999/xhtml"
-	//   xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"
-	//   xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
-	//   xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
-	//   xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
-	// >
+	return new Response(
+		`
+	<?xml version="1.0" encoding="UTF-8" ?>
+	<urlset
+	  xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+	  xmlns:xhtml="https://www.w3.org/1999/xhtml"
+	  xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"
+	  xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
+	  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
+	  xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
+	>
 
-	//   <!-- this is where all the urls go -->
+	  <!-- this is where all the urls go -->
 
-	// <url>
-	//     <loc>https://9takes.com/</loc>
-	//     <lastmod>2023-04-15</lastmod>
-	//     <changefreq>monthly</changefreq>
-	//     <priority>1.0</priority>
-	// </url>
-	// <url>
-	//     <loc>https://9takes.com/blog</loc>
-	//     <lastmod>2023-04-15</lastmod>
-	//     <changefreq>weekly</changefreq>
-	//     <priority>1.0</priority>
-	// </url>
-	// <url>
-	//     <loc>https://9takes.com/about</loc>
-	//     <lastmod>2023-04-01</lastmod>
-	//     <changefreq>monthly</changefreq>
-	//     <priority>0.7</priority>
-	// </url>
-	// <url>
-	//     <loc>https://9takes.com/blog/enneagram</loc>
-	//     <lastmod>2023-04-18</lastmod>
-	//     <changefreq>weekly</changefreq>
-	//     <priority>0.7</priority>
-	// </url>
-	// <url>
-	//     <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	//     <lastmod>2023-04-20</lastmod>
-	//     <changefreq>monthly</changefreq>
-	//     <priority>0.7</priority>
-	// </url>
+	<url>
+	    <loc>https://9takes.com/</loc>
+	    <lastmod>2023-04-15</lastmod>
+	    <changefreq>monthly</changefreq>
+	    <priority>1.0</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog</loc>
+	    <lastmod>2023-04-15</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>1.0</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/about</loc>
+	    <lastmod>2023-04-01</lastmod>
+	    <changefreq>monthly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram</loc>
+	    <lastmod>2023-04-18</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
+	    <lastmod>2023-04-20</lastmod>
+	    <changefreq>monthly</changefreq>
+	    <priority>0.7</priority>
+	</url>
 
-	//   ${posts
-	// 		.map(
-	// 			(post) =>
-	// 				`
-	//   <url>
-	//     <loc>${post.loc}</loc>
-	//     <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
-	//     <changefreq>${post.changefreq}</changefreq>
-	//     <priority>0.7</priority>
-	//   </url>
-	//   `
-	// 		)
-	// 		.join('')}
+	  ${posts
+			.map(
+				(post) =>
+					`
+	  <url>
+	    <loc>${post.loc}</loc>
+	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
+	    <changefreq>${post.changefreq}</changefreq>
+	    <priority>0.7</priority>
+	  </url>
+	  `
+			)
+			.join('')}
 
-	// </urlset>`.trim(),
-	// 	{
-	// 		headers: {
-	// 			'Content-Type': 'application/xml'
-	// 		}
-	// 	}
-	// );
+	</urlset>`.trim(),
+		{
+			headers: {
+				'Content-Type': 'application/xml'
+			}
+		}
+	);
 }

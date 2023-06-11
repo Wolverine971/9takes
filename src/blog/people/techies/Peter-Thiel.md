@@ -11,7 +11,7 @@ published: false
 enneagram: 6
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

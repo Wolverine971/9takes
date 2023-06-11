@@ -11,7 +11,7 @@ published: true
 enneagram: 1
 type: ['politician']
 wikipedia: 'https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg'
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

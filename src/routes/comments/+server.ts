@@ -27,9 +27,13 @@ export async function GET({
 
 	const { data: canSee, error: canSeeError } = await supabase.rpc('can_see_comments', {
 		questionid: parentId,
-		userid: locals.session.user.id,
+		userid: locals.session?.user?.id,
 		userip: getClientAddress()
 	});
+
+	if (!canSee) {
+		return;
+	}
 
 	let { data: questionComments, error: questionError } = await supabase
 		.from('comments')
@@ -71,7 +75,7 @@ export async function GET({
 		return json(questionComments);
 	} else {
 		throw error(400, {
-			message: `Failed to get question, ${JSON.stringify(questionError)}`
+			message: `Failed to get question: ${JSON.stringify(questionError)}`
 		});
 	}
 }

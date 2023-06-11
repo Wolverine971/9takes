@@ -11,7 +11,7 @@ published: false
 enneagram: 1
 type: ['musician']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

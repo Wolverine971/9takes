@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import Comment from './Comment.svelte';
-	import type { Database } from 'src/schema';
+	// import type { Database } from 'src/schema';
 
 	let loading = false;
 
@@ -20,7 +21,8 @@
 		comments = [..._data?.comments];
 	};
 	// export let comments: any[];
-	let comments: Database['public']['Tables']['comments']['Row'][] = _data?.comments || [];
+	// Database['public']['Tables']['comments']['Row'][]
+	let comments: any[] = _data?.comments || [];
 
 	const lastDate = comments?.length ? comments[comments?.length - 1]?.created_at || null : null;
 	let comment_count: number = _data?.comment_count;
@@ -35,28 +37,54 @@
 		)
 			.then((response) => response.json())
 			.then((commentData) => {
-				comments = [...comments, ...commentData];
-				loading = false;
+				if (!commentData?.message) {
+					comments = [...comments, ...commentData];
+					loading = false;
+				}
 			});
 	};
 </script>
 
 <p>
 	Count: {comment_count}
-	{#if comment_count > 0 && comments?.length === 0}
+	{#if comment_count > 0 && comments?.length === 0 && _data.flags.userHasAnswered}
 		<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
+	{/if}
+
+	{#if !_data.flags.userHasAnswered}
+		<p>Must answer question first</p>
 	{/if}
 </p>
 {#if loading}
 	<div>Loading comments...</div>
-{:else if comments?.length}
-	<div>
-		{#each comments as comment}
-			<Comment {comment} {user} />
-		{/each}
-	</div>
-	{#if comments?.length < comment_count}
-		<button class="btn btn-secondary" on:click={() => loadMore}>Load More</button>
+{:else if !browser || _data.flags.userHasAnswered}
+	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
+	{#if comments?.length}
+		<div>
+			{#each comments as comment}
+				<Comment {comment} {user} />
+			{/each}
+		</div>
+		{#if comments?.length < comment_count}
+			<button class="btn btn-secondary" on:click={() => loadMore}>Load More</button>
+		{/if}
+	{:else}
+		<p>nothing right now</p>
+	{/if}
+	{#if _data.flags.userHasAnswered && !browser}
+		<h3>Renders only if answered</h3>
+		<h1>Comments</h1>
+		<!-- Renders only if answered -->
+		<li>Answer Two</li>
+		<li>Answer Three</li>
+		<!-- only load first or top comment -->
+		{#if _data.comments.length}
+			<!-- <Comments data={_data} nested={false} parentType={'question'} {user} /> -->
+			<Comment comment={comments[0]} {user} />
+		{/if}
+	{/if}
+	{#if !_data?.comments?.length}
+		<p>nothing right now</p>
 	{/if}
 {/if}
 

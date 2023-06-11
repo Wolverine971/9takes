@@ -15,4 +15,3 @@ twitter: 'https://twitter.com/dixiedamelio'
 instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@dixiedamelio'
 ---
-

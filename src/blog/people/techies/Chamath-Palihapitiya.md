@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

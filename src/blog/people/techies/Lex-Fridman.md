@@ -16,7 +16,6 @@ instagram: 'https://www.instagram.com/lexfridman'
 tiktok: 'https://www.tiktok.com/@lexfridman'
 ---
 
-
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/5s/Lex-Fridman.webp" />
@@ -82,8 +81,6 @@ As we draw this exploration to a close, the narrative becomes clear. Lex Fridman
 Lex Fridman exemplifies that Type 5 individuals, with their profound understanding, curiosity, and desire to contribute, can truly revolutionize our understanding of the world. As we continue to marvel at Fridman's accomplishments and contributions, we are reminded of the profound insights and possibilities that come with being a Type 5, making the world a more knowledgeable, curious, and innovative place.
 
 Indeed, as we engage with the world around us, it's worth taking a moment to consider the Enneagram's insights and how they might help us better understand not just the personalities of influential figures like Lex Fridman but also our own unique ways of interacting with the world.
-
-
 
 <div>
 <script type="application/ld+json">

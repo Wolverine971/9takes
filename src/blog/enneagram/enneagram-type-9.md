@@ -88,7 +88,7 @@ Additionally, Enneagram Type 9 individuals may fear making the wrong decision or
 
 ## Under Stress
 
- Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When they're under stress, they might become more fearful and paranoid, as well as indecisive and hesitant. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When they're under stress, they might become more fearful and paranoid, as well as indecisive and hesitant. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 <div class="scroll-table">
 

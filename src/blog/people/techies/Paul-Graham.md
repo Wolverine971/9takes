@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

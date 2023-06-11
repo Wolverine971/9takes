@@ -11,7 +11,7 @@ published: true
 enneagram: 4
 type: ['artist']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

@@ -9,7 +9,7 @@ export const elasticClient = new Client({
 	// auth: { username: 'anon', password: PRIVATE_ELASTIC_GENERAL }
 });
 
-export const createQuestion = async (body: any) => {
+export const createESQuestion = async (body: any) => {
 	try {
 		const question = body.question as string;
 		const author_id = body.author_id as string;
@@ -44,7 +44,7 @@ export const createQuestion = async (body: any) => {
 	}
 };
 
-export const addQuestionLike = async ({
+export const addESQuestionLike = async ({
 	questionId,
 	operation
 }: {
@@ -66,7 +66,7 @@ export const addQuestionLike = async ({
 	}
 };
 
-export const addSubscription = async ({
+export const addESSubscription = async ({
 	questionId,
 	operation
 }: {
@@ -90,7 +90,7 @@ export const addSubscription = async ({
 	}
 };
 
-export const addComment = async ({
+export const addESComment = async ({
 	index,
 	parentId,
 	enneaType,
@@ -176,7 +176,7 @@ export const addComment = async ({
 	}
 };
 
-export const addCommentLike = async ({
+export const addESCommentLike = async ({
 	commentId,
 	operation
 }: {

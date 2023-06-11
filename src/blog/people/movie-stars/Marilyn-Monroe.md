@@ -11,7 +11,7 @@ published: true
 enneagram: 6
 type: ['movieStar']
 wikipedia:
-twitter: 
+twitter:
 instagram:
 tiktok:
 ---

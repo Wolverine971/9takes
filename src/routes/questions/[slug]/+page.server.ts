@@ -4,7 +4,7 @@ import { supabase } from '$lib/supabase';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
-import { addComment, addCommentLike, addSubscription } from '$lib/elasticSearch';
+import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
@@ -102,7 +102,7 @@ export const actions: Actions = {
 				parent_type: parent_type
 			};
 			// console.log(commentData);
-			const resp: any = await addComment({
+			const resp: any = await addESComment({
 				index: parent_type,
 				parentId: es_id,
 				enneaType: '',
@@ -169,7 +169,7 @@ export const actions: Actions = {
 				comment_id: parentId,
 				user_id
 			};
-			const resp: any = await addCommentLike({
+			const resp: any = await addESCommentLike({
 				commentId: es_id,
 				operation: operation
 			});
@@ -230,7 +230,7 @@ export const actions: Actions = {
 				question_id: parentId,
 				user_id
 			};
-			const resp: any = await addSubscription({
+			const resp: any = await addESSubscription({
 				questionId: es_id,
 				operation: operation
 			});
