@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
+twitter: 'https://twitter.com/Oprah'
+instagram: 'https://www.instagram.com/oprah/'
+tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 ---
 
 <svelte:head>

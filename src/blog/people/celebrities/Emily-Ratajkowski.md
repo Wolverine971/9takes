@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['celebrity']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
+twitter: 'https://twitter.com/emrata'
+instagram: 'https://www.instagram.com/emrata'
+tiktok: 'https://www.tiktok.com/@emrata'
 ---
 
 <svelte:head>

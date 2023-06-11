@@ -3,7 +3,7 @@ import { slugFromPath } from '$lib/slugFromPath';
 
 const MAX_POSTS = 20;
 
-export const load: PageServerLoad = async ({ url }) => {
+export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogPost[] }> => {
 	const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
 
 	const posts: any = await getAllPosts();

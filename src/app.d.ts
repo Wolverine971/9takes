@@ -50,8 +50,12 @@ declare global {
 			changefreq: string;
 			priority: string;
 			published: boolean;
+			enneagram?: number;
 			type?: string[];
-			enneagram: number;
+			wikipedia?: string;
+			twitter?: string;
+			instagram?: string;
+			tiktok?: string;
 			blog?: boolean;
 			jsonld: string;
 		}

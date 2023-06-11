@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Ellen_DeGeneres'
+twitter: 'https://twitter.com/EllenDeGeneres'
+instagram: 'https://www.instagram.com/ellendegeneres'
+tiktok: 'https://www.tiktok.com/@ellendegeneres'
 ---
 
 <svelte:head>

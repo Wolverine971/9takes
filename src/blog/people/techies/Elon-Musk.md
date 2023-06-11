@@ -10,10 +10,10 @@ priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie']
-wikipedia: https://en.wikipedia.org/wiki/Elon_Musk
-twitter: 
-instagram:
-tiktok:https://twitter.com/elonmusk
+wikipedia: 'https://en.wikipedia.org/wiki/Elon_Musk'
+twitter: 'https://twitter.com/elonmusk'
+instagram: 'https://www.instagram.com/elonmusk'
+tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
 
 <svelte:head>

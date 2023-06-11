@@ -11,9 +11,9 @@ published: false
 enneagram: 5
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
-twitter: 
-instagram:
-tiktok:
+twitter: 'https://twitter.com/BillGates'
+instagram: 'https://www.instagram.com/thisisbillgates'
+tiktok: 'https://www.tiktok.com/discover/bill-gates'
 ---
 
 <svelte:head>

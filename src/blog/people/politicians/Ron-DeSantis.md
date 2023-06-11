@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/Ron-DeSantis'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 9
 type: ['politician']
 wikipedia:

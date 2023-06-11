@@ -11,9 +11,9 @@ published: false
 enneagram: 5
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'
-twitter: 
-instagram:
-tiktok:
+twitter: 'https://twitter.com/lexfridman'
+instagram: 'https://www.instagram.com/lexfridman'
+tiktok: 'https://www.tiktok.com/@lexfridman'
 ---
 
 

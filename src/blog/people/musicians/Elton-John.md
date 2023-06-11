@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Elton_John'
+twitter: 'https://twitter.com/eltonofficial'
+instagram: 'https://www.instagram.com/eltonjohn'
+tiktok: 'https://www.tiktok.com/@eltonjohn'
 ---
 
 <svelte:head>

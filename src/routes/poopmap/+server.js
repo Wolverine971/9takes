@@ -10,6 +10,17 @@ const getAllPosts = async () => {
 	const popculture = import.meta.glob(`/src/blog/pop-culture/*.{md,svx,svelte.md}`);
 	const situational = import.meta.glob(`/src/blog/situational/*.{md,svx,svelte.md}`);
 	const topical = import.meta.glob(`/src/blog/topical/*.{md,svx,svelte.md}`);
+	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
+	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
+	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
+	const lifestyleInfluencers = import.meta.glob(
+		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
+	);
+	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
+	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
+	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
+	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
+	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
 
 	const imports = [
 		community,
@@ -20,7 +31,16 @@ const getAllPosts = async () => {
 		people,
 		popculture,
 		situational,
-		topical
+		topical,
+		celebrities,
+		commedians,
+		creators,
+		lifestyleInfluencers,
+		movieStars,
+		musicians,
+		politicians,
+		techies,
+		tiktokers
 	];
 
 	let body = [];
@@ -108,8 +128,6 @@ export async function GET() {
 	//   `
 	// 		)
 	// 		.join('')}
-
-	// <!-- this is where all the urls go -->
 
 	// </urlset>`.trim(),
 	// 	{

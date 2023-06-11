@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['movieStar']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
+twitter: 'https://twitter.com/Schwarzenegger'
+instagram: 'https://www.instagram.com/schwarzenegger'
+tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 ---
 
 <svelte:head>

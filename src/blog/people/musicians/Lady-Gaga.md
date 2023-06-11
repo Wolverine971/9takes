@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
-wikipedia:
-twitter: 
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'
+twitter: 'https://twitter.com/ladygaga'
+instagram: 'https://www.instagram.com/ladygaga'
+tiktok: 'https://www.tiktok.com/@ladygaga'
 ---
 
 <svelte:head>
