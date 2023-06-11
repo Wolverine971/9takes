@@ -22,6 +22,8 @@
 		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
 		0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
 
+	--glass-color: rgba(16, 18, 27, 0.4);
+
 	--card-padding: 0.8rem 1rem;
 	--card-margin: 1rem;
 
@@ -289,6 +291,24 @@ select {
 	width: 1em;
 	height: 1em;
 	background-size: 1em 1em;
+}
+
+.glass-card {
+	background-color: var(--glass-color);
+	/* background-color: var(--theme-bg-color); */
+	max-width: 1250px;
+	// max-height: 860px;
+	// height: 90vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border-radius: 14px;
+	/* backdrop-filter: blur(20px); */
+	-webkit-backdrop-filter: blur(20px);
+	font-size: 15px;
+	font-weight: 500;
 }
 
 // body {

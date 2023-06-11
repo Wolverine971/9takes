@@ -5,7 +5,7 @@
 	import { onMount } from 'svelte';
 
 	import type { PageData } from '../../../routes/$types';
-	import NavbarLinks from './NavbarLinks.svelte';
+	// import NavbarLinks from './NavbarLinks.svelte';
 	import { afterUpdate } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
@@ -337,9 +337,14 @@
 					<img src={hamburger} alt="hamburger menu" />
 				</button>
 				{#if isOpen}
-					<nav class="navbar mobile-navbar">
-						<div class="navbar-brand-mobile">
-							<NavbarLinks mobile={innerWidth < 760} />
+					<nav class="navbar mobile-navbar header">
+						<div class="navbar-brand-mobile  menu">
+							<!-- <NavbarLinks mobile={innerWidth < 760} /> -->
+							<a href="">Questions</a>
+
+							<a href="">Blogs</a>
+
+							<a href="">About</a>
 						</div>
 					</nav>
 				{/if}
@@ -386,7 +391,10 @@
 			<!-- </a> -->
 		</div>
 	{:else}
-		<nav class="{innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' && 'absolute-pos'}">
+		<nav
+			class=" header{innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' &&
+				'absolute-pos'}"
+		>
 			<a href="/" class="brand left">
 				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 				<!-- <img src={rubixThick} alt="" /> -->
@@ -397,8 +405,13 @@
 			</a>
 
 			<!-- <div class="navbar-brand"> -->
-			<div class="center">
-				<NavbarLinks mobile={innerWidth < 760} />
+			<div class="center  menu">
+				<a href="">Questions</a>
+
+				<a href="">Blogs</a>
+
+				<a href="">About</a>
+				<!-- <NavbarLinks mobile={innerWidth < 760} /> -->
 			</div>
 			{#if data?.session?.user}
 				<div class="corner-right-big right">
@@ -434,6 +447,41 @@
 </header>
 
 <style lang="scss">
+	.header {
+		display: flex;
+		align-items: center;
+		height: 62px;
+		width: 100%;
+		white-space: nowrap;
+		flex-shrink: 0;
+		font-weight: 600;
+		font-size: 15px;
+		border-bottom: 1px solid rgba(44, 45, 42, 0.25);
+		position: sticky;
+		top: 0;
+		left: 0;
+		background-color: var(--beach-bg);
+		z-index: 6;
+
+		@media (max-width: 575px) {
+			width: calc(100% + 20px);
+			margin-left: -10px;
+		}
+
+		.menu {
+			display: flex;
+			align-items: center;
+			margin-left: auto;
+
+			@media screen and (max-width: 740px) {
+				display: none;
+			}
+
+			a:not(:first-child) {
+				margin-left: 30px;
+			}
+		}
+	}
 	.login button {
 		display: flex;
 		align-items: center;

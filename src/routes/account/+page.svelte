@@ -51,7 +51,7 @@
 	};
 </script>
 
-<main class="">
+<main class="glass-card">
 	<div class="row">
 		<h1 style="">Hello {data?.session?.user.email}</h1>
 
