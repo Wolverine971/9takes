@@ -4,6 +4,9 @@
 	import login from '$lib/images/login.svg';
 	import { onMount } from 'svelte';
 
+	import MobileHam from './mobile-ham.svelte';
+	import MobileHam2 from './mobile-ham2.svelte';
+
 	import type { PageData } from '../../../routes/$types';
 	// import NavbarLinks from './NavbarLinks.svelte';
 	import { afterUpdate } from 'svelte';
@@ -329,10 +332,11 @@
 
 <svelte:window bind:innerWidth />
 
-<header>
+<header style="padding: 0 2rem; z-index: 12312">
 	{#if innerWidth < 760}
 		<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
 			<div class="corner-left">
+				<!-- <MobileHam2 /> -->
 				<button type="button" on:click={toggleNavbar} class="corner-icon">
 					<img src={hamburger} alt="hamburger menu" />
 				</button>
@@ -340,11 +344,14 @@
 					<nav class="navbar mobile-navbar header">
 						<div class="navbar-brand-mobile  menu">
 							<!-- <NavbarLinks mobile={innerWidth < 760} /> -->
-							<a href="">Questions</a>
-
-							<a href="">Blogs</a>
-
-							<a href="">About</a>
+							<a
+								href="/questions"
+								aria-disabled="true"
+								class={data?.session?.user?.id ? '' : 'disabled'}>Questions</a
+							>
+							<a href="/blog">Blog</a>
+							<a href="/about">About</a>
+							<!-- <MobileHam /> -->
 						</div>
 					</nav>
 				{/if}
@@ -392,7 +399,7 @@
 		</div>
 	{:else}
 		<nav
-			class=" header{innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' &&
+			class="header {innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' &&
 				'absolute-pos'}"
 		>
 			<a href="/" class="brand left">
@@ -405,12 +412,12 @@
 			</a>
 
 			<!-- <div class="navbar-brand"> -->
-			<div class="center  menu">
-				<a href="">Questions</a>
-
-				<a href="">Blogs</a>
-
-				<a href="">About</a>
+			<div class="center menu">
+				<a href="/questions" aria-disabled="true" class={data?.session?.user?.id ? '' : 'disabled'}
+					>Questions</a
+				>
+				<a href="/blog">Blog</a>
+				<a href="/about">About</a>
 				<!-- <NavbarLinks mobile={innerWidth < 760} /> -->
 			</div>
 			{#if data?.session?.user}
@@ -447,6 +454,10 @@
 </header>
 
 <style lang="scss">
+	a.disabled {
+		pointer-events: none;
+		cursor: default;
+	}
 	.header {
 		display: flex;
 		align-items: center;
@@ -461,7 +472,7 @@
 		top: 0;
 		left: 0;
 		background-color: var(--beach-bg);
-		z-index: 6;
+		z-index: 1236;
 
 		@media (max-width: 575px) {
 			width: calc(100% + 20px);
@@ -474,7 +485,12 @@
 			margin-left: auto;
 
 			@media screen and (max-width: 740px) {
-				display: none;
+				// display: none;
+				position: absolute;
+				left: 3rem;
+				top: 3rem;
+				display: flex;
+				flex-direction: column;
 			}
 
 			a:not(:first-child) {
@@ -523,6 +539,7 @@
 		left: 0;
 		right: 0;
 		margin: 0 auto;
+		width: calc(100% - (var(--font-size) * 4));
 		text-align: center;
 	}
 	.corner-icon {
@@ -650,6 +667,7 @@
 	nav {
 		display: flex;
 		justify-content: center;
+		z-index: 12312;
 		// --background: rgba(255, 255, 255, 0.7);
 	}
 
