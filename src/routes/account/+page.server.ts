@@ -38,6 +38,7 @@ export const actions: Actions = {
 
 			const first_name = body.firstName as string;
 			const last_name = body.lastName as string;
+			const enneagram = body.enneagram as string;
 
 			const email = body.email as string;
 
@@ -45,7 +46,10 @@ export const actions: Actions = {
 				data,
 				error: updateUserError,
 				status
-			} = await supabase.from('profiles').update({ first_name, last_name }).eq('email', email);
+			} = await supabase
+				.from('profiles')
+				.update({ first_name, last_name, enneagram })
+				.eq('email', email);
 			// insert(userData);
 			if (!updateUserError) {
 				return { success: true };

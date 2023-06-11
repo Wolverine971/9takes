@@ -5,8 +5,10 @@
 	import { applyAction, deserialize, enhance, type SubmitFunction } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { invalidateAll } from '$app/navigation';
+	import EnneagramSelect from '$lib/components/molecules/Enneagram-Select.svelte';
 	let firstName: string;
 	let lastName: string;
+	let enneagram: string;
 	interface AccountData extends PageData {
 		user: any;
 		subscriptions: any;
@@ -15,6 +17,7 @@
 	export let data: AccountData;
 	firstName = data?.user?.first_name;
 	lastName = data?.user?.last_name;
+	enneagram = data?.user?.enneagram;
 
 	const submitLogout: SubmitFunction = async ({ cancel }) => {
 		const { error } = await supabase.auth.signOut();
@@ -32,6 +35,7 @@
 
 		body.append('firstName', firstName);
 		body.append('lastName', lastName);
+		body.append('enneagram', enneagram);
 		// website
 		body.append('email', data.user.email);
 
@@ -81,6 +85,15 @@
 			placeholder="Last Name"
 		/>
 	</div>
+	<div class="row">
+		<EnneagramSelect
+			selectedEnneagram={enneagram}
+			on:enneagramSelected={({ detail }) => {
+				enneagram = detail;
+			}}
+		/>
+	</div>
+
 	<div class="row">
 		<button type="button" class="btn btn-primary" on:click={save}>Save</button>
 	</div>

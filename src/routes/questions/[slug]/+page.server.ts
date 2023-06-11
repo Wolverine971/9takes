@@ -18,7 +18,7 @@ export async function load(event: any) {
 		.eq('url', event.params.slug)
 		.single();
 
-	const { data: hasCommented, error: hasCommentedError } = await supabase
+	const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
 		.from('comments')
 		.select('*')
 		.eq('parent_type', 'question')
@@ -29,10 +29,21 @@ export async function load(event: any) {
 			message: 'No question found'
 		});
 	}
+	let userHasAnswered = hasUserCommented?.length ? true : false;
 
-	const userHasAnswered = hasCommented?.length ? true : false;
+	// checks if it is a rando
+	if (!hasUserCommented?.length) {
+		const ipAddress = event.getClientAddress();
+		const { data: hasCommented, error: hasCommentedError } = await supabase
+			.from('comments')
+			.select('*')
+			.eq('parent_type', 'question')
+			.eq('parent_id', question?.id)
+			.eq('ip', ipAddress);
+		userHasAnswered = hasCommented?.length ? true : false;
+	}
 
-	if (!hasCommented) {
+	if (!userHasAnswered) {
 		const { count: commentCount, error: commentCountError } = await supabase
 			.from('comments')
 			.select('*', { count: 'exact' })
@@ -89,16 +100,17 @@ export const actions: Actions = {
 
 			const comment = body.comment as string;
 			const parent_id = body.parent_id as string;
-			const author_id = body.author_id as string;
+			const author_id = body.author_id;
 			const parent_type = body.parent_type as string;
 			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
+			const ip = getClientAddress();
 			const commentData = {
 				comment: comment,
 				parent_id: parentId,
 				author_id: author_id,
 				comment_count: 0,
-				ip: getClientAddress(),
+				ip,
 				parent_type: parent_type
 			};
 			// console.log(commentData);
@@ -106,19 +118,30 @@ export const actions: Actions = {
 				index: parent_type,
 				parentId: es_id,
 				enneaType: '',
-				authorId: author_id,
-				comment
+				authorId: author_id.toString(),
+				comment,
+				ip
 			});
 			if (resp._id) {
-				const cData = {
-					comment: comment,
-					parent_id: parentId,
-					author_id: author_id,
-					comment_count: 0,
-					ip: getClientAddress(),
-					parent_type: parent_type,
-					es_id: resp._id
-				};
+				const cData =
+					author_id !== 'undefined'
+						? {
+								comment: comment,
+								parent_id: parentId,
+								author_id: author_id.toString(),
+								comment_count: 0,
+								ip,
+								parent_type: parent_type,
+								es_id: resp._id
+						  }
+						: {
+								comment: comment,
+								parent_id: parentId,
+								comment_count: 0,
+								ip,
+								parent_type: parent_type,
+								es_id: resp._id
+						  };
 
 				const { data: record, error: addCommentError } = await supabase
 					.from('comments')

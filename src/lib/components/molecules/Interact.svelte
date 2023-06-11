@@ -68,9 +68,14 @@
 
 		const result: any = deserialize(await resp.text());
 
-		notifications.info('Comment Added', 3000);
-		dispatch('commentAdded', result?.data);
-		comment = '';
+		if (result.error) {
+			notifications.danger('Error adding comment', 3000);
+			console.log(result.error);
+		} else {
+			notifications.info('Comment Added', 3000);
+			dispatch('commentAdded', result?.data);
+			comment = '';
+		}
 	};
 
 	const likeComment = async () => {

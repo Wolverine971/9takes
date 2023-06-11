@@ -95,13 +95,15 @@ export const addESComment = async ({
 	parentId,
 	enneaType,
 	authorId,
-	comment
+	comment,
+	ip
 }: {
 	index: string;
 	parentId: string;
 	enneaType: string;
 	authorId: string;
 	comment: string;
+	ip: string;
 }) => {
 	try {
 		const date = new Date();
@@ -114,7 +116,8 @@ export const addESComment = async ({
 					comment: comment,
 					comments: 0,
 					likes: 0,
-					createdDate: date
+					createdDate: date,
+					ip
 				}
 			})
 			.then(async (resp) => {
