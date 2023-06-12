@@ -462,17 +462,17 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
 }
 tr {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 td {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 th {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {

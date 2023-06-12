@@ -537,7 +537,7 @@
 			cursor: pointer;
 			background: no-repeat;
 			border-radius: 5px;
-			border: 1px solid var(--color-theme-purple);
+			border: var(--classic-border);
 			background-color: white;
 		}
 		.mobile-ham {
@@ -582,7 +582,7 @@
 			flex: 1;
 			// background-color: #e8edf1;
 			border-radius: 5px;
-			border: 1px solid var(--color-theme-purple);
+			border: var(--classic-border);
 
 			z-index: 1200;
 		}
@@ -697,11 +697,11 @@
 			top: 0;
 			left: calc(50% - var(--size));
 			border: var(--size) solid transparent;
-			border-top: var(--size) solid var(--color-theme-1);
+			border-top: var(--size) solid var(--color-theme-dark-blue);
 		}
 
 		a:hover {
-			color: var(--color-theme-1);
+			color: var(--color-theme-dark-blue);
 		}
 		svg {
 			fill: black; /* set the initial color of the SVG */
@@ -709,10 +709,10 @@
 		}
 
 		img:hover svg {
-			fill: pink; //var(--color-theme-1); /* change the color of the SVG on hover */
+			fill: var(--color-theme-pink); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
 		}
 		img:hover {
-			color: pink; //var(--color-theme-1); /* change the color of the SVG on hover */
+			color: var(--color-theme-pink); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
 		}
 		svg path {
 			transition: fill 0.2s ease-in-out; /* add a transition effect */

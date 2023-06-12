@@ -306,17 +306,17 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
 }
 /* tr {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 td {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 th {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
  */
@@ -324,7 +324,7 @@ table {
     width: 100%;
     margin-bottom: 1rem;
     color: #212529;
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
 
 }
 thead {
@@ -342,14 +342,14 @@ th {
     border-bottom-width: 2px;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     padding: 0.75rem;
 }
 
 td {
     padding: 0.75rem;
     vertical-align: top;
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {

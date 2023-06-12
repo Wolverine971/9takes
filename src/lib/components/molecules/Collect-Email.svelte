@@ -65,7 +65,7 @@
 <style>
 	.waitlist-section {
 		text-align: center;
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 		padding: 2rem;
 		border-radius: 5px;
 	}
@@ -81,7 +81,7 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: 5px;
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 	}
 	.waitlist-form button {
 		/* background-color: #007bff; */

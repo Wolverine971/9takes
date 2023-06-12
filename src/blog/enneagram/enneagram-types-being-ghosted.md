@@ -264,7 +264,7 @@ possible with self-compassion and care.
         align-items: center;
         flex-direction: column;
         width: 10%;
-        border: 1px solid var(--color-theme-purple);
+        border: var(--classic-border);
         border-radius: 5px;
     }
     .border {
@@ -294,7 +294,7 @@ possible with self-compassion and care.
 
     .a-type {
         /*background-color: hsl(222, 15%, 19%);*/
-        border: 1px solid var(--color-theme-purple);
+        border: var(--classic-border);
         border-radius: 5px;
         padding: 10px 20px;
         color: #000000B3;

@@ -312,17 +312,17 @@ If you identify as a Type 2 personality, there are a number of things you can do
 }
 tr {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 td {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 th {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 

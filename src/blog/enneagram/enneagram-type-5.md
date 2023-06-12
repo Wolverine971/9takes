@@ -324,17 +324,17 @@ To help foster personal growth and development for individuals with a Type 5 per
 }
 tr {
     padding: 15px;
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 td {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 th {
 
-    border: 1px solid var(--color-theme-purple);
+    border: var(--classic-border);
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {

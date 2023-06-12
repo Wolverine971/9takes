@@ -171,7 +171,7 @@
 	/* Navigation styles */
 	nav {
 		background-color: #f2f2f2;
-		border-bottom: 1px solid var(--color-theme-purple);
+		border-bottom: var(--classic-border);
 		padding: 10px;
 	}
 	nav ul {
@@ -195,7 +195,7 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		/* background-color: #f2f2f2;
-		border: 1px solid var(--color-theme-purple); */
+		border: var(--classic-border); */
 		box-sizing: border-box;
 		margin: auto;
 	}

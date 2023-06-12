@@ -11,8 +11,8 @@
 	--color-bg-0: #e8edf1;
 	--color-bg-1: #d8e2eb;
 	--color-bg-2: #ccd8e3;
-	--color-theme-1: rgb(25, 25, 112);
-	--color-theme-2: rgb(247, 37, 133);
+	--color-theme-dark-blue: rgb(25, 25, 112);
+	--color-theme-pink: rgb(247, 37, 133);
 	--color-theme-purple: #5407d9;
 	--color-theme-purple-v: #d2cfd7;
 	--color-theme-purple-light: #bc96fd; /* #5407d9; */
@@ -21,6 +21,10 @@
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	--spacing-unit: 5px;
+
+	--font-size: 16px;
+	--classic-border: var(--classic-border);
+
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
@@ -94,7 +98,7 @@ p {
 }
 
 a {
-	color: var(--color-theme-1);
+	color: var(--color-theme-dark-blue);
 	text-decoration: none;
 }
 

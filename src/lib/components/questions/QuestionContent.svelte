@@ -124,7 +124,7 @@
 		text-decoration: underline;
 		border-radius: 5px;
 		color: var(--color-theme-purple);
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 	}
 
 	@media (max-width: 768px) {

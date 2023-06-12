@@ -115,17 +115,17 @@
 	.big-btn {
 		background: no-repeat;
 		border-radius: 5px;
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 		background-color: white;
 	}
 
 	.mobile-card {
 		border-radius: 5px;
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 
 		.subnav-content {
 			border-radius: 5px;
-			border: 1px solid var(--color-theme-purple);
+			border: var(--classic-border);
 		}
 	}
 	.arrow {

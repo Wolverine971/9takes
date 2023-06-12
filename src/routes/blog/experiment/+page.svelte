@@ -1482,7 +1482,7 @@ resentment temper violence -->
 		margin: 1rem;
 	}
 	textarea {
-		border: 1px solid var(--color-theme-purple);
+		border: var(--classic-border);
 		border-radius: 5px;
 	}
 </style>

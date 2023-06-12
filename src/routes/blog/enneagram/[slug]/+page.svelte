@@ -33,7 +33,7 @@
 </div>
 
 <style lang="scss">
-	@import '../../../../scss/index.scss';
+	// @import '../../../../scss/index.scss';
 	tr {
 		border: var(--classic-border);
 		text-align: center;
