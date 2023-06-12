@@ -18,7 +18,7 @@
 <div class="navbar-blogs ">
 	<a
 		href="/"
-		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/' && 'current'}"
+		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/' && 'active-link'}"
 		aria-current={$page.url.pathname === '/' ? 'page' : undefined}>Home</a
 	>
 	<div class="main-subnav" style="margin: {!isMobile && '1rem'}">
@@ -106,7 +106,7 @@
 	</div>
 	<a
 		href="/about"
-		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/about' && 'current'}"
+		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/about' && 'active-link'}"
 		aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>About</a
 	>
 </div>
@@ -118,10 +118,7 @@
 		border: 1px solid var(--color-theme-purple);
 		background-color: white;
 	}
-	.current {
-		color: var(--color-theme-purple);
-		text-decoration: underline;
-	}
+
 	.mobile-card {
 		border-radius: 5px;
 		border: 1px solid var(--color-theme-purple);

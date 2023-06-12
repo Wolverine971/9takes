@@ -55,7 +55,7 @@
 		{/if}
 		<main
 			class={$page.url.pathname !== '/' ? 'column-width' : 'column'}
-			style={innerWidth > 760 && $page.url.pathname !== '/' ? 'margin-top: 85px;' : ''}
+			style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''}
 		>
 			<slot />
 			<Footer {data} />

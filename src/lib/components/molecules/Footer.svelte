@@ -10,18 +10,21 @@
 	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/" class={$page.url.pathname === '/' ? 'current' : ''}>Home</a>
+				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
 			</li>
-			{#if data?.session?.user}
-				<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
-					<a href="/questions">Questions</a>
-				</li>
-			{/if}
+			<li
+				aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}
+				class="{!data?.session?.user && 'disabled'} {$page.url.pathname.startsWith('/questions')
+					? 'active-link'
+					: ''}"
+			>
+				<a href="/questions">Questions</a>
+			</li>
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
-				<a href="/blog" class={$page.url.pathname === '/blog' ? 'current' : ''}>Blog</a>
+				<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class={$page.url.pathname === '/about' ? 'current' : ''}>About</a>
+				<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
 			</li>
 		</ul>
 	</div>
@@ -36,10 +39,6 @@
 </footer>
 
 <style lang="scss">
-	.current {
-		color: var(--color-theme-purple);
-		text-decoration: underline;
-	}
 	.footer-links {
 		display: flex;
 		justify-content: center;
