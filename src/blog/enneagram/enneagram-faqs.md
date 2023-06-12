@@ -215,7 +215,7 @@ blog: true
 			"name": "What is Enneagram?",
 			"acceptedAnswer": {
 				"@type": "Answer",
-				"text": "The term "Enneagram" comes from the Greek words 'ennea' and 'gramma'. The Enneagram symbol itself is a circle with nine points on its circumference, each point representing one of the nine fundamental personality types. These points are connected by lines to form a geometric figure that illustrates the connections and interactions among the types."
+				"text": "The term 'Enneagram' comes from the Greek words 'ennea' and 'gramma'. The Enneagram symbol itself is a circle with nine points on its circumference, each point representing one of the nine fundamental personality types. These points are connected by lines to form a geometric figure that illustrates the connections and interactions among the types."
 			}
 		},
 		{
