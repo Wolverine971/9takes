@@ -17,7 +17,7 @@
 	<BlogPageHead data={data.frontmatter} slug={`blog/enneagram/${data.slug}`} />
 	<ArticleTitle title={data.frontmatter.title} />
 	<ArticleDescription description={data.frontmatter.description} />
-	<ArticleMeta author={data.frontmatter.author} date={data.frontmatter.date} />
+	<ArticleMeta metaData={data.frontmatter} />
 </div>
 
 <svelte:component this={component} />

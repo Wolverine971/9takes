@@ -34,7 +34,7 @@ declare global {
 		// interface Platform {}
 		interface MdsvexFile {
 			default: import('svelte/internal').SvelteComponent;
-			metadata: Record<string, string>;
+			metadata: Record<string, string> | BlogPost;
 		}
 
 		type MdsvexResolver = () => Promise<MdsvexFile>;

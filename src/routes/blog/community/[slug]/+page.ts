@@ -34,7 +34,7 @@ export const load: PageLoad = async ({ params }) => {
 			(p) =>
 				(post?.metadata.enneagram &&
 					p?.enneagram === parseInt(post?.metadata.enneagram as string)) ||
-				(post?.metadata.type[0] && p.type?.includes(post?.metadata.type[0]))
+				(post?.metadata?.type[0] && p.type?.includes(post?.metadata.type[0]))
 		)
 		.filter((p) => params.slug !== p.slug)
 		.slice(0, MAX_POSTS);
@@ -50,7 +50,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	return {
 		component: post.default,
-		frontmatter: post.metadata,
+		frontmatter: post.metadata as App.BlogPost,
 		slug: params.slug,
 		posts: publishedPosts
 	};

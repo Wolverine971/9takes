@@ -1,11 +1,12 @@
 <script lang="ts">
-	export let author: string;
-	export let date: string;
-	const formattedDate = new Date(date).toDateString();
+	export let metaData: App.BlogPost
+	
+	const formattedDate = new Date(metaData.date).toDateString();
+	
 </script>
 
 <p>
-	<span class="author">{author}</span>
+	<span class="author">{metaData.author}</span>
 	<span class="date">{formattedDate}</span>
 </p>
 

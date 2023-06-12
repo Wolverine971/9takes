@@ -94,7 +94,7 @@ export const load: PageLoad = async ({
 
 	return {
 		component: post.default,
-		frontmatter: post.metadata,
+		frontmatter: post.metadata as App.BlogPost,
 		slug: params.slug,
 		posts: publishedPosts
 	};
@@ -127,7 +127,7 @@ const getAllPosts = async (pslug: any) => {
 		tiktokers
 	];
 
-	let body = [];
+	const body = [];
 	let post = null;
 
 	for (const category in imports) {

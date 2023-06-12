@@ -42,7 +42,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	return {
 		component: post.default,
-		frontmatter: post.metadata,
+		frontmatter: post.metadata as App.BlogPost,
 		slug: params.slug,
 		posts: publishedPosts
 	};
