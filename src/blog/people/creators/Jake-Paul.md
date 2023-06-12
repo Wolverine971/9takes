@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'
+twitter: 'https://twitter.com/jakepaul'
+instagram: 'https://www.instagram.com/jakepaul'
+tiktok: 'https://www.tiktok.com/@jakepaul'
 ---

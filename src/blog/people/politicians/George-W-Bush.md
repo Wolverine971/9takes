@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/George_W._Bush'
+twitter: 'https://twitter.com/georgewbush_43'
+instagram: 'https://www.instagram.com/georgewbush/'
+tiktok: 
 ---
 
 <svelte:head>

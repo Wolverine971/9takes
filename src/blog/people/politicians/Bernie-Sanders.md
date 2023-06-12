@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Bernie_Sanders'
+twitter: 'https://twitter.com/BernieSanders'
+instagram: 'https://www.instagram.com/sensanders'
+tiktok: 'https://www.tiktok.com/@bernie'
 ---
 
 <svelte:head>
