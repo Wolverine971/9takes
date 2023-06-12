@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['movieStar']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: https://en.wikipedia.org/wiki/Marilyn_Monroe
+twitter: 'https://twitter.com/MarilynMonroe'
+instagram: 'https://www.instagram.com/marilynmonroe'
+tiktok: 'https://www.tiktok.com/@marilynmonroe'
 ---
 
 <svelte:head>

@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'
+twitter: 'https://twitter.com/LoganPaul'
+instagram: 'https://www.instagram.com/loganpaul'
+tiktok: 'https://www.tiktok.com/@loganpaul'
 ---

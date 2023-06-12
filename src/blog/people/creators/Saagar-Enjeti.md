@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['creator']
 wikipedia:
-twitter:
-instagram:
+twitter: 'https://twitter.com/esaagar'
+instagram: 'https://z-p3.www.instagram.com/esaagar'
 tiktok:
 ---

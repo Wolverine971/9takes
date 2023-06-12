@@ -10,8 +10,8 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician']
-wikipedia:
-twitter:
+wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
+twitter: 'https://twitter.com/georgehwbush'
 instagram:
 tiktok:
 ---

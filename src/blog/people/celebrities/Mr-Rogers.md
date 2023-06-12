@@ -10,8 +10,8 @@ priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity']
-wikipedia:
-twitter:
+wikipedia: 'https://en.wikipedia.org/wiki/Fred_Rogers'
+twitter: 'https://twitter.com/MisterRogersSay'
 instagram:
 tiktok:
 ---

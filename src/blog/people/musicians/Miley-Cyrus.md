@@ -8,10 +8,10 @@ lastmod: '2023-05-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 1
+enneagram: 3
 type: ['musician']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
+twitter: 'https://twitter.com/MileyCyrus' 
+instagram: 'https://www.instagram.com/mileycyrus/'
+tiktok: 'https://www.tiktok.com/@mileycyrus'
 ---
