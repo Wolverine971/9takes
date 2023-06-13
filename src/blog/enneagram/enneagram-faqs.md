@@ -183,7 +183,6 @@ blog: true
 <div>
 <script type="application/ld+json">
 {
-  
 	"@type": "FAQPage",
 	"http://schema.org/about": {
 		"@type": "http://schema.org/Thing",
