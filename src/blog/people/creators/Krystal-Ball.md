@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter:
-instagram:
+wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'
+twitter: 'https://twitter.com/krystalball'
+instagram: 'https://www.instagram.com/krystalmball'
 tiktok:
 ---

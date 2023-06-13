@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Barack_Obama'
+twitter: 'https://twitter.com/BarackObama'
+instagram: 'https://www.instagram.com/barackobama'
+tiktok: 'https://www.tiktok.com/@barrackobamafans'
 ---
 
 <svelte:head>

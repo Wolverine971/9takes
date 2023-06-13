@@ -10,10 +10,10 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['artist']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'
+twitter: 'https://twitter.com/FridaKahlo'
+instagram: 'https://www.instagram.com/fridakahlo'
+tiktok: 
 ---
 
 <svelte:head>

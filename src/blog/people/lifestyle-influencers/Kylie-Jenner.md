@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
+twitter: 'https://twitter.com/KylieJenner'
+instagram: 'https://www.instagram.com/kyliejenner'
+tiktok: 'https://www.tiktok.com/@kyliejenner'
 ---
+Notes: I could see her as a 6 or 9-- she's not as out there as her sisters and seems to like being in her space, more introverted, never controversial unless her mom is promoting it.

@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
+twitter: 'https://twitter.com/emmachamberlain'
+instagram: 'https://www.instagram.com/emmachamberlain'
+tiktok: 'https://www.tiktok.com/@emmachambie'
 ---
+Notes: Emma is most likely a 4-- she just jumped to popularity but she's always into niche trends like very "cool" girl

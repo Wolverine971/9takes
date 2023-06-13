@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
+twitter: 'https://twitter.com/KimKardashian'
+instagram: 'https://www.instagram.com/kimkardashian'
+tiktok: 'https://www.tiktok.com/@kimkardashian'
 ---

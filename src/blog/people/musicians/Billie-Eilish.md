@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 9
 type: ['musician']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'
+twitter: 'https://twitter.com/billieeilish'
+instagram: 'https://www.instagram.com/billieeilish'
+tiktok: 'https://www.tiktok.com/@billieeilish'
 ---

@@ -10,8 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter:
-instagram:
-tiktok:
+wikipedia: 'https://en.wikipedia.org/wiki/Joe_Rogan'
+twitter: 'https://twitter.com/joerogan'
+instagram: 'https://www.instagram.com/joerogan'
+tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 ---
