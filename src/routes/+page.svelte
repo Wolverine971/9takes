@@ -62,27 +62,31 @@
 	<main>
 		<section>
 			<div class="column">
-				<div class="main">
-					<h3>What is being built?</h3>
-					<p>A question and answering community.</p>
-					<p>More to come...</p>
-
-					<h3>Why questions and answers?</h3>
-					<p>
+				<div class="big-points center-align">
+					<h3>What are we building?</h3>
+					<p>A better reddit tailored to the enneagram.</p>
+				</div>
+				<!-- <p>More to come...</p> -->
+				<div class="big-points">
+					<h3 class="center-align">
+						Ask questions- get answers. <br /> Give takes- get takes. <br /> Anonymously.
+					</h3>
+				</div>
+				<!-- <p>
 						To find and connect with people that think feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
-					</p>
-
-					<h3>How will this be different?</h3>
-					<p>
-						9takes is a first principles play with some psychology behind it. It will be like a
-						social experiment with the ultimate goal of moving discourse in a positive direction.
-					</p>
-					<p>
-						Practically speaking we are focused in on building mechanisms that enable thoughtful
-						conversation. Here are a few of them:
-					</p>
+					</p> -->
+				<div class="big-points">
+					<h3 class="center-align">What is different?</h3>
+					<p class="center-align">9takes has some subtle psychology tricks built in.</p>
 					<ul>
+						<li>- You cannot see comments until you comment.</li>
+						<li>- You can sort the comments by personality type.</li>
+						<li>- The only thing that identifies you is your personality type.</li>
+					</ul>
+				</div>
+
+				<!-- <ul>
 						<li>
 							Comments are not visible until you comment, this allows people to give original takes
 							on questions without outside influence.
@@ -93,17 +97,18 @@
 							identifies you publicly is your Enneagram personality type. If you aren't familiar
 							with the Enneagram there are a slew of blogs to checkout.
 						</li>
-					</ul>
-
-					<h3>Aiming to create magic moments that will feel like:</h3>
+					</ul> -->
+				<div class="big-points">
+					<h3 class="center-align">Aiming to create magic moments that will feel like:</h3>
 					<ul>
-						<li>A popping group chat 💥</li>
-						<li>A deep conversation around the campfire 🔥</li>
+						<li>- A popping group chat 💥</li>
+						<li>- A deep conversation around the campfire 🔥</li>
 						<li>
-							A feeling you get when you just met someone and it is like you have known them your
-							whole life 🍻
+							- The feeling of meeting someone and it is like you have known them your whole life 🍻
 						</li>
 					</ul>
+				</div>
+				<div class="big-points center-align">
 					<h3>How?</h3>
 					<p>By ask questions, sharing your story, and getting curious</p>
 				</div>
@@ -132,6 +137,23 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	} */
+	.column {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.big-points {
+		height: 80vh;
+		max-width: 50%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.center-align {
+		text-align: center;
+	}
 	h1 {
 		margin: 0;
 		text-align: center;
@@ -143,6 +165,8 @@
 		/* list-style: disc; */
 		margin: 0;
 		padding: 0;
+
+		list-style: none;
 	}
 	li {
 		margin-left: 1rem;

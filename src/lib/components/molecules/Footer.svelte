@@ -4,6 +4,7 @@
 	import twitter from '$lib/images/twitter.svg';
 	import type { PageData } from '../../../routes/$types';
 	export let data: PageData;
+	console.log(data);
 </script>
 
 <footer class="footer">
@@ -12,13 +13,13 @@
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
 			</li>
-			<li
-				aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}
-				class="{!data?.session?.user && 'disabled'} {$page.url.pathname.startsWith('/questions')
-					? 'active-link'
-					: ''}"
-			>
-				<a href="/questions">Questions</a>
+			<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
+				<a
+					href="/questions"
+					class="{!data?.session?.user && 'disabled'} {$page.url.pathname.startsWith('/questions')
+						? 'active-link'
+						: ''}">Questions</a
+				>
 			</li>
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
 				<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>

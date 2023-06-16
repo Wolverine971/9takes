@@ -40,11 +40,10 @@
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">Join our waitlist!</h2>
+	<h2 style="margin-top: 0;">Want to know when 9takes is live?</h2>
 	<p>
-		9takes is a place for exploration and shared learning, where we delve into the nuances of
-		personality types and discuss different perspectives. If you're fascinated by the world of the
-		Enneagram you are warmly invited join our waitlist.
+		Sign up. There are so many takes on life, explore them, learn something, find your people and
+		find some empathy for those different than you. Get involved and give your take.
 	</p>
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
@@ -54,7 +53,7 @@
 			on:click={submit}
 			disabled={email.length ? false : true}
 			class:form-send={true}
-			class={email.length ? 'regular' : 'disabled'}>Join now</button
+			class={email.length ? 'regular' : 'disabled'}>Sign up</button
 		>
 	</form>
 	{#if error}
