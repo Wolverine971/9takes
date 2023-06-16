@@ -78,7 +78,7 @@
 					</p> -->
 				<div class="big-points">
 					<h3 class="center-align">What is different?</h3>
-					<p class="center-align">9takes has some subtle psychology tricks built in.</p>
+					<p class="center-align">9takes has some subtle psychology built in.</p>
 					<ul>
 						<li>- You cannot see comments until you comment.</li>
 						<li>- You can sort the comments by personality type.</li>

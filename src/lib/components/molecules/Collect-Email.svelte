@@ -42,8 +42,8 @@
 <div class="waitlist-section">
 	<h2 style="margin-top: 0;">Want to know when 9takes is live?</h2>
 	<p>
-		Sign up. There are so many takes on life, explore them, learn something, find your people and
-		find some empathy for those different than you. Get involved and give your take.
+		Sign up. There are many takes on life, explore them, learn something, find your people and find
+		some empathy for those different than you. Get involved and give your take.
 	</p>
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
