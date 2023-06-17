@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Prince Harry, the Duke of Sussex, is a member of the British royal family known for his philanthropic work and advocacy for mental health awareness. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.
+<p class="firstLetter">Prince Harry, the Duke of Sussex, is a member of the British royal family known for his philanthropic work and advocacy for mental health awareness. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.</p>
 
 ## Loyalty to his wife
 

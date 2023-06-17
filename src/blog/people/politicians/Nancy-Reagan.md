@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Nancy Reagan, the First Lady of the United States from 1981 to 1989, is often remembered for her stylish fashion sense and her advocacy for the "Just Say No" anti-drug campaign. However, when looking at her life through the lens of the Enneagram personality system, it becomes clear that she was an Enneagram Type 2, the Helper.
+<p class="firstLetter">Nancy Reagan, the First Lady of the United States from 1981 to 1989, is often remembered for her stylish fashion sense and her advocacy for the "Just Say No" anti-drug campaign. However, when looking at her life through the lens of the Enneagram personality system, it becomes clear that she was an Enneagram Type 2, the Helper.</p>
 
 ## Nancy Reagan was fiercely devoted to her husband
 

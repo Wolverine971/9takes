@@ -39,7 +39,7 @@ tiktok:
 	/>
 </div>
 
-Jackie Kennedy, the stylish and cultured wife of President John F. Kennedy, is a fascinating figure in American history. When viewed through the lens of the Enneagram personality system, it becomes clear that she is an Enneagram Type 4, the Individualist.
+<p class="firstLetter">Jackie Kennedy, the stylish and cultured wife of President John F. Kennedy, is a fascinating figure in American history. When viewed through the lens of the Enneagram personality system, it becomes clear that she is an Enneagram Type 4, the Individualist.</p>
 
 ## Jackie Kennedy had a strong sense of individuality and creativity
 

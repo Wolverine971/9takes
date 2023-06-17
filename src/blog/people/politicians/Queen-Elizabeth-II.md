@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Queen Elizabeth II, the longest-reigning monarch in British history, is widely known for her diplomatic skills and ability to maintain peace and stability within her country and the Commonwealth. These qualities are reflective of her Enneagram type 9 personality, also known as the Peacemaker.
+<p class="firstLetter">Queen Elizabeth II, the longest-reigning monarch in British history, is widely known for her diplomatic skills and ability to maintain peace and stability within her country and the Commonwealth. These qualities are reflective of her Enneagram type 9 personality, also known as the Peacemaker.</p>
 
 ## Maintaining Harmony and Unity
 

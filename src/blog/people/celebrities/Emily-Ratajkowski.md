@@ -40,9 +40,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
 
 -->
 
-## Introduction
-
-As a model, actress, and author, Emily Ratajkowski has been in the public eye for years, continually pushing boundaries and challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger. Let's explore how Ratajkowski's life and actions exemplify the key traits of this powerful personality type.
+<p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author. Those who are paying attention know that she continually pushes the boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger. Let's explore how Ratajkowski's life and actions exemplify the key traits of this powerful personality type.</p>
 
 ## Owning and Embracing Her Sexuality
 
@@ -144,20 +142,20 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
       }
     ]
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
+  "<http://schema.org/publisher>": {
+    "@type": "<http://schema.org/Organization>",
+    "<http://schema.org/logo>": {
+      "@type": "<http://schema.org/ImageObject>",
+      "<http://schema.org/height>": 60,
+      "<http://schema.org/url>": {
+        "@id": "<https://9takes.com/brand/darkRubix.png>"
       },
-      "http://schema.org/width": 600
+      "<http://schema.org/width>": 600
     },
-    "http://schema.org/name": "9takes"
+    "<http://schema.org/name>": "9takes"
   },
-  "http://schema.org/url": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski"
+  "<http://schema.org/url>": {
+    "@id": "<https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski>"
   }
 }
 </script>

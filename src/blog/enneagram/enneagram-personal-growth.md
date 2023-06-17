@@ -21,9 +21,9 @@ blog: true
 
 <!-- 3 step plan for personal growth -->
 
-A Fresh Approach: Enneagram and Personal Growth
+<!-- A Fresh Approach: Enneagram and Personal Growth -->
 
-While self-help books offer a one-size-fits-all approach to personal growth, the Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and those of others, we can identify our strengths, weaknesses, and develop customized strategies for growth.
+<p class="firstLetter">While self-help books offer a one-size-fits-all approach to personal growth, the Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and those of others, we can identify our strengths, weaknesses, and develop customized strategies for growth.</p>
 
 ### Type 1: The Perfectionist - Embracing Imperfection
 

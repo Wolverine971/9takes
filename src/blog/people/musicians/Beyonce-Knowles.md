@@ -4,7 +4,7 @@ description: 'Why Beyoncé Knowles appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Beyonce-Knowles'
-lastmod: '2023-05-18'
+lastmod: '2023-06-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,9 +39,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	/>
 </div>
 
-## Discovering The Challenger
-
-Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the compelling energy of the Enneagram Type 8 – The Challenger.
+<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her compelling energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
 
 Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.
 
@@ -135,17 +133,17 @@ So next time you listen to a Beyoncé track or watch one of her performances, re
       }
     ]
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
+  "<http://schema.org/publisher>": {
+    "@type": "<http://schema.org/Organization>",
+    "<http://schema.org/logo>": {
+      "@type": "<http://schema.org/ImageObject>",
+      "<http://schema.org/height>": 60,
+      "<http://schema.org/url>": {
+        "@id": "<https://9takes.com/brand/darkRubix.png>"
       },
-      "http://schema.org/width": 600
+      "<http://schema.org/width>": 600
     },
-    "http://schema.org/name": "9takes"
+    "<http://schema.org/name>": "9takes"
   }
 }
 </script>

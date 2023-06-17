@@ -19,12 +19,10 @@ blog: true
 </svelte:head>
 <!-- Take a free, ~5 min test here -->
 
-## Background on determining your Enneagram type
-
-As opposed to other personality tests the enneagram gets at your core motivations
+<p class="firstLetter">As opposed to other personality tests the enneagram gets at your core motivations
 and fears. From there patterns of thinking feeling and behavior can be extrapolated
 which form an archetype or your "type". To determine your type you need to examine
-your fears and motivations, but where does one start?
+your fears and motivations, but where does one start?</p>
 
 Its commonly said that your personality gets developed overtime, but many enneagram
 teachers talk about how you your type develops as a result of a childhood wound.

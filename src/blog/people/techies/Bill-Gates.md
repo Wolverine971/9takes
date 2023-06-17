@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 	/>
 </div>
 
-Bill Gates, the co-founder of Microsoft, is widely regarded as one of the most successful and influential entrepreneurs of all time. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 5, the Investigator.
+<p class="firstLetter">Bill Gates, the co-founder of Microsoft, is widely regarded as one of the most successful and influential entrepreneurs of all time. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 5, the Investigator.</p>
 
 ## He is wary of who to trust
 

@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 	/>
 </div>
 
-Lady Gaga is a multifaceted artist with a unique and captivating persona that has earned her a massive following across the globe. Her success in the entertainment industry is a testament to her enneagram type 3 personality, also known as the Achiever. Here are four reasons why Lady Gaga fits the characteristics of an enneagram type 3:
+<p class="firstLetter">Lady Gaga is a multifaceted artist with a unique and captivating persona that has earned her a massive following across the globe. Her success in the entertainment industry is a testament to her enneagram type 3 personality, also known as the Achiever. Here are four reasons why Lady Gaga fits the characteristics of an enneagram type 3:</p>
 
 ## Driven to succeed
 

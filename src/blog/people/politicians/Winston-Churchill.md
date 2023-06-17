@@ -37,7 +37,7 @@ margin: 1rem 0;"
 	/>
 </div>
 
-Winston Churchill, the British statesman who led his country during World War II, is often described as a forceful, dynamic, and charismatic leader. These traits are commonly associated with Enneagram Type 8, also known as the Challenger. In this blog, we will explore how and why Churchill can be classified as an Enneagram Type 8, based on his behavior and life experiences.
+<p class="firstLetter">Winston Churchill, the British statesman who led his country during World War II, is often described as a forceful, dynamic, and charismatic leader. These traits are commonly associated with Enneagram Type 8, also known as the Challenger. In this blog, we will explore how and why Churchill can be classified as an Enneagram Type 8, based on his behavior and life experiences.</p>
 
 ## Fearless Leader
 

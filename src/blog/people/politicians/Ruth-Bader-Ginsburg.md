@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Ruth Bader Ginsburg, the late Supreme Court Justice, was a person of impeccable integrity, a tireless fighter for justice, and a role model for many. Her remarkable life and career are a testament to the virtues and qualities of Enneagram Type 1, the Reformer. In this blog, we'll explore how and why RBG exemplifies the traits of a Type 1 and what we can learn from her.
+<p class="firstLetter">Ruth Bader Ginsburg, the late Supreme Court Justice, was a person of impeccable integrity, a tireless fighter for justice, and a role model for many. Her remarkable life and career are a testament to the virtues and qualities of Enneagram Type 1, the Reformer. In this blog, we'll explore how and why RBG exemplifies the traits of a Type 1 and what we can learn from her.</p>
 
 ## Perfectionism
 

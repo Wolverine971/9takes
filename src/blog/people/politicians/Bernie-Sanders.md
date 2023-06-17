@@ -4,7 +4,7 @@ description: 'Why Bernie Sanders appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Bernie-Sanders'
-lastmod: '2023-03-26'
+lastmod: '2023-06-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,7 +39,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	/>
 </div>
 
-Bernie Sanders is a well-known American politician who has served as a senator for Vermont since 2007. He is also a former candidate for the Democratic nomination for President of the United States. Through his political career, we can see that he embodies the traits of an Enneagram Type 9.
+<p class="firstLetter">Bernie Sanders has served as a senator for Vermont since 2007. Why has he been going at it so long? Why does he look like a stubborn curmudgeon to some and a lovable granddad to others? Bernie can be better understood if you examine the Enneagram Type 9, which we argue is his personality.</p>
 
 ## Peaceful Mediator
 

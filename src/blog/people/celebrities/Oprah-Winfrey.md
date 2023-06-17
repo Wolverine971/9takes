@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 	/>
 </div>
 
-Oprah Winfrey embodies many of the key traits of an enneagram type 3, from her drive for success to her adaptability and desire for authenticity, as well as her ability to inspire and empower others.
+<p class="firstLetter">Oprah Winfrey embodies many of the key traits of an enneagram type 3, from her drive for success to her adaptability and desire for authenticity, as well as her ability to inspire and empower others.</p>
 
 ## Driven for Success
 

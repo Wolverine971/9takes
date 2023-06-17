@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Ronald Reagan, the 40th President of the United States, is often described as a calm and easy-going leader. This demeanor is often associated with Enneagram Type 9, known as the "Peacemaker." In this blog post, we will explore why Ronald Reagan is an Enneagram Type 9 and provide examples from his life.
+<p class="firstLetter">Ronald Reagan, the 40th President of the United States, is often described as a calm and easy-going leader. This demeanor is often associated with Enneagram Type 9, known as the "Peacemaker." In this blog post, we will explore why Ronald Reagan is an Enneagram Type 9 and provide examples from his life.</p>
 
 ## Desire for peace and harmony
 

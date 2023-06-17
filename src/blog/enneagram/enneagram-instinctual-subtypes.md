@@ -22,9 +22,7 @@ blog: true
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-## What are Enneagram subtypes?
-
-Enneagram subtypes refer to the three different variations of each of the nine Enneagram types. These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.
+<p class="firstLetter">Enneagram subtypes refer to the three different variations of each of the nine Enneagram types. These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.</p>
 
 ## Self-Preservation Enneagram Subtypes
 
@@ -136,16 +134,16 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
     "name": "9Takes",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://9takes.com/brand/darkRubix.png"
+      "url": "<https://9takes.com/brand/darkRubix.png>"
     }
   },
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 965,
-    "http://schema.org/url": {
-      "@id": "https://9takes.com/blogs/subtypesnew2.webp"
+  "image": {
+    "@type": "<http://schema.org/ImageObject>",
+    "<http://schema.org/height>": 965,
+    "<http://schema.org/url>": {
+      "@id": "<https://9takes.com/blogs/subtypesnew2.webp>"
     },
-    "http://schema.org/width": 685
+    "<http://schema.org/width>": 685
   },
   "about": {
     "@type": "Thing",

@@ -36,7 +36,7 @@ blog: true
 	/>
 </div>
 
-At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.
+<p class="firstLetter">At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.</p>
 
 ### Type 1 - The Perfectionist
 

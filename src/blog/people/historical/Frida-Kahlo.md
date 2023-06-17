@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.
+<p class="firstLetter">Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.</p>
 
 ## Emotional Depth
 

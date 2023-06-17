@@ -37,7 +37,7 @@ margin: 1rem 0;"
 	/>
 </div>
 
-Arnold Schwarzenegger is a well-known actor, politician, and bodybuilder. He is driven by success and achievement, making him a perfect example of an Enneagram Type 3: The Achiever.
+<p class="firstLetter">Arnold Schwarzenegger is a well-known actor, politician, and bodybuilder. He is driven by success and achievement, making him a perfect example of an Enneagram Type 3: The Achiever.</p>
 
 ## Success and Achievement-Oriented
 

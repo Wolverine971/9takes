@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 	/>
 </div>
 
-Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an enneagram type 6, also known as the Loyalist.
+<p class="firstLetter">Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an enneagram type 6, also known as the Loyalist.</p>
 
 ## Loyal to friends and causes
 

@@ -4,7 +4,7 @@ description: 'Why Barack Obama appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Barack-Obama'
-lastmod: '2023-03-26'
+lastmod: '2023-06-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 	/>
 </div>
 
-Enneagram type 9 is known as the "Peacemaker" and is characterized by a desire for harmony, a tendency towards avoiding conflict, and a strong empathy for others.
+<p class="firstLetter">Obama is most likely the Enneagram type 9, the "Peacemaker." The nine characterized by a desire for harmony, a tendency towards avoiding conflict, a strong empathy for others and at times a tad bit passive agressive. Here we will explore how Obama embodies the type 9.</p>
 
 ## Obama's focus on collaboration and compromise
 

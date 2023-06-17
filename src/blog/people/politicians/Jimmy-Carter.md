@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Jimmy Carter, the 39th President of the United States, is known for his humanitarian work, including founding the Carter Center, which promotes peace and health worldwide. His personality is a reflection of his Enneagram Type 2, the Helper, who are caring, compassionate, and generous individuals. In this blog, we'll explore how and why Jimmy Carter exemplifies the traits of a Type 2 and what we can learn from him.
+<p class="firstLetter">Jimmy Carter, the 39th President of the United States, is known for his humanitarian work, including founding the Carter Center, which promotes peace and health worldwide. His personality is a reflection of his Enneagram Type 2, the Helper, who are caring, compassionate, and generous individuals. In this blog, we'll explore how and why Jimmy Carter exemplifies the traits of a Type 2 and what we can learn from him.</p>
 
 ## Caring and Compassionate
 

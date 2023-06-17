@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@eltonjohn'
 	/>
 </div>
 
-Elton John, the famous singer-songwriter and composer, has captured the hearts of millions of fans worldwide with his music and stage presence. Known for his energetic performances, flashy costumes, and extravagant lifestyle, he displays all the hallmarks of an Enneagram Type 7. Here are four reasons why Elton John is likely an Enneagram Type 7:
+<p class="firstLetter">Elton John, the famous singer-songwriter and composer, has captured the hearts of millions of fans worldwide with his music and stage presence. Known for his energetic performances, flashy costumes, and extravagant lifestyle, he displays all the hallmarks of an Enneagram Type 7. Here are four reasons why Elton John is likely an Enneagram Type 7:</p>
 
 ## Adventurous and always seeking new experiences
 

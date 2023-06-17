@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-Joe Biden, the 46th President of the United States, has had a long and distinguished career in public service. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.
+<p class="firstLetter">Joe Biden, the 46th President of the United States, has had a long and distinguished career in public service. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.</p>
 
 ## Joe Biden has a strong sense of duty and responsibility
 

@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 	/>
 </div>
 
-Enneagram type 5 is known as the "Investigator" or "Thinker" and is characterized by a desire for knowledge, a focus on intellectual pursuits, and a tendency towards introversion and detachment.
+<p class="firstLetter">Enneagram type 5 is known as the "Investigator" or "Thinker" and is characterized by a desire for knowledge, a focus on intellectual pursuits, and a tendency towards introversion and detachment.</p>
 
 ## Insatiable Curiosity: A Type 5's Thirst for Knowledge
 
