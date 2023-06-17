@@ -109,9 +109,8 @@ So next time you listen to a Beyoncé track or watch one of her performances, re
   },
   "http://schema.org/mentions": {
     "@type": "http://schema.org/Person",
-    "http://schema.org/name": "Beyoncé Knowles",
     "http://schema.org/description": "Beyoncé Giselle Knowles-Carter, known mononymously as Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
-  
+    "http://schema.org/name": "Beyoncé Knowles",
     "http://schema.org/sameAs": [
       {
         "@id": "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
@@ -133,17 +132,17 @@ So next time you listen to a Beyoncé track or watch one of her performances, re
       }
     ]
   },
-  "<http://schema.org/publisher>": {
-    "@type": "<http://schema.org/Organization>",
-    "<http://schema.org/logo>": {
-      "@type": "<http://schema.org/ImageObject>",
-      "<http://schema.org/height>": 60,
-      "<http://schema.org/url>": {
-        "@id": "<https://9takes.com/brand/darkRubix.png>"
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": 60,
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
       },
-      "<http://schema.org/width>": 600
+      "http://schema.org/width": 600
     },
-    "<http://schema.org/name>": "9takes"
+    "http://schema.org/name": "9takes"
   }
 }
 </script>

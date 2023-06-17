@@ -115,43 +115,48 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
 <div>
 <script type="application/ld+json">
   {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes"
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/about": {
+    "@type": "http://schema.org/Thing",
+    "http://schema.org/name": "Enneagram"
   },
-  "headline": "Understanding Enneagram Instinctual Subtypes",
-  
-  "datePublished": "2023-03-01T00:00:00-07:00",
-  "dateModified": "2023-05-28T00:00:00-07:00",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
+  "http://schema.org/articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9Takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "<https://9takes.com/brand/darkRubix.png>"
-    }
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-05-28T00:00:00-07:00"
   },
-  "image": {
-    "@type": "<http://schema.org/ImageObject>",
-    "<http://schema.org/height>": 965,
-    "<http://schema.org/url>": {
-      "@id": "<https://9takes.com/blogs/subtypesnew2.webp>"
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-01T00:00:00-07:00"
+  },
+  "http://schema.org/description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
+  "http://schema.org/headline": "Understanding Enneagram Instinctual Subtypes",
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": 965,
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/blogs/enneagram-subtypes.webp"
     },
-    "<http://schema.org/width>": 685
+    "http://schema.org/width": 685
   },
-  "about": {
-    "@type": "Thing",
-    "name": "Enneagram"
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes",
+    "@type": "http://schema.org/WebPage"
   },
-  
-  "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
-  "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life."
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
+      }
+    },
+    "http://schema.org/name": "9Takes"
+  }
 }
 </script>
 

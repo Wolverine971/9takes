@@ -201,31 +201,38 @@ possible with self-compassion and care.
 <p>Images coming soon 🚧</p>
 
 <div>
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted"
+<script type="application/ld+json">
+  {
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma.",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne"
   },
-  "headline": "Ghosting and the Enneagram: How Each Type Responds",
-  
-  "datePublished": "2023-02-17T00:00:00-07:00",
-  "dateModified": "2023-03-01T00:00:00-07:00",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne"
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-01T00:00:00-07:00"
   },
-  "publisher": {
-    "@type": "Organization",
-    "name": "9Takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "<https://9takes.com/brand/darkRubix.png>"
-    }
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-02-17T00:00:00-07:00"
   },
-  "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
-  "articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma."
+  "http://schema.org/description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
+  "http://schema.org/headline": "Ghosting and the Enneagram: How Each Type Responds",
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
+      }
+    },
+    "http://schema.org/name": "9Takes"
+  }
 }
 </script>
 

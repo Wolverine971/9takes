@@ -86,7 +86,8 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 </div>
 
 <div>
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@type": "http://schema.org/Article",
   "http://schema.org/articleBody": "",
   "http://schema.org/articleSection": "celebrity",
@@ -124,9 +125,8 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   },
   "http://schema.org/mentions": {
     "@type": "http://schema.org/Person",
-    "http://schema.org/name": "Emily Ratajkowski",
     "http://schema.org/description": "Emily O'Hara Ratajkowski is an American model and actress. Born in London and raised in San Diego, Ratajkowski first appeared on the cover of the March 2012 issue of the erotic magazine treats!, which led to her appearing in two music videos – Robin Thicke’s 'Blurred Lines' (the number-one song of 2013 in several countries) and Maroon 5's 'Love Somebody'.",
-  
+    "http://schema.org/name": "Emily Ratajkowski",
     "http://schema.org/sameAs": [
       {
         "@id": "https://www.instagram.com/emrata/"
@@ -142,20 +142,20 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
       }
     ]
   },
-  "<http://schema.org/publisher>": {
-    "@type": "<http://schema.org/Organization>",
-    "<http://schema.org/logo>": {
-      "@type": "<http://schema.org/ImageObject>",
-      "<http://schema.org/height>": 60,
-      "<http://schema.org/url>": {
-        "@id": "<https://9takes.com/brand/darkRubix.png>"
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/height": 60,
+      "http://schema.org/url>": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
       },
-      "<http://schema.org/width>": 600
+      "http://schema.org/width": 600
     },
-    "<http://schema.org/name>": "9takes"
+    "http://schema.org/name": "9takes"
   },
-  "<http://schema.org/url>": {
-    "@id": "<https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski>"
+  "http://schema.org/url": {
+    "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski"
   }
 }
 </script>
