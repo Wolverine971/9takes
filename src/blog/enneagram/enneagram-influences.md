@@ -4,7 +4,7 @@ description: 'Differing traditions and schools of thought that wrestle with and 
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/blog/enneagram/enneagram-influences'
-lastmod: '2023-04-06'
+lastmod: '2023-06-17'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -18,9 +18,8 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
 </svelte:head>
 
-## Origins of the Enneagram
 
-The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.
+<p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 
 <p  style="text-align: center;">
 <img src="https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png" alt="Enneagram Symbol" >

@@ -1,8 +1,7 @@
 <script lang="ts">
-	export let metaData: App.BlogPost
-	
+	export let metaData: App.BlogPost;
+
 	const formattedDate = new Date(metaData.date).toDateString();
-	
 </script>
 
 <p>

@@ -427,7 +427,7 @@
 <style lang="scss">
 	.the-header {
 		padding: 0 2rem;
-		z-index: 12312; 
+		z-index: 12312;
 
 		.nav-bar {
 			display: flex;
@@ -441,13 +441,11 @@
 				margin-left: 0;
 				padding: 0.75rem;
 			}
-
 		}
 		.home-page {
 			background-color: aliceblue;
 			border-radius: 5px;
 			border: var(--classic-border);
-
 		}
 		.header {
 			display: flex;
@@ -709,10 +707,14 @@
 		}
 
 		img:hover svg {
-			fill: var(--color-theme-pink); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
+			fill: var(
+				--color-theme-pink
+			); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
 		}
 		img:hover {
-			color: var(--color-theme-pink); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
+			color: var(
+				--color-theme-pink
+			); //var(--color-theme-dark-blue); /* change the color of the SVG on hover */
 		}
 		svg path {
 			transition: fill 0.2s ease-in-out; /* add a transition effect */

@@ -18,7 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-in-relationships">
 </svelte:head>
 
-People don't talk like you. At least not everyone. Because everyone has their own unique worldview, motivations, and fears it follows that everyone's communication styles differ as well. If you look at the Enneagram it is not just about self-discovery; it can also be used to improve communication there by improving intimacy in relationships. Lets explore some tips and how you can use the Enneagram to enhance your relationships and create deeper connections with your loved ones.
+<p class="firstLetter">People don't talk like you. At least not everyone. Because everyone has their own unique worldview, motivations, and fears it follows that everyone's communication styles differ as well. If you look at the Enneagram it is not just about self-discovery; it can also be used to improve communication there by improving intimacy in relationships. Lets explore some tips and how you can use the Enneagram to enhance your relationships and create deeper connections with your loved ones.</p>
 
 ## General tips for Using the Enneagram in Relationships
 

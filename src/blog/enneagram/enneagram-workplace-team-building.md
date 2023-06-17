@@ -30,7 +30,7 @@ blog: true
 	/>
 </div>
 
-The "culture" of a company can be make or break. While all organizations strive to create productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. The leadership often consciously or subconsciously expects everyone to act, think and feel like they do. This is where the Enneagram can give us a lens into understanding the different ways people think, act and feel in a workplace.
+<p class="firstLetter">The "culture" of a company can be make or break. While all organizations strive to create productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. The leadership often consciously or subconsciously expects everyone to act, think and feel like they do. This is where the Enneagram can give us a lens into understanding the different ways people think, act and feel in a workplace.</p>
 
 The hope is that by understanding the Enneagram types of employees, leadership and organizations can create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.
 

@@ -4,7 +4,7 @@ description: 'Questions and answers inspired by the Enneagram'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'
-lastmod: '2023-04-24'
+lastmod: '2023-06-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -24,9 +24,9 @@ blog: true
 
 <!-- big long panel of people experiencing anger fear and shame -->
 
-## Discover the Power of Nine Perspectives
+<!-- ## Discover the Power of Nine Perspectives -->
 
-The digital landscape has been dominated by social media platforms for years, with each claiming to offer something unique. Yet, most of these platforms tend to echo each other's features and rarely delve into the fascinating depths of human psychology. Enter 9takes, a question-and-answer platform designed to challenge the status quo, redefine social interaction, and enrich your understanding of the human experience.
+<p class="firstLetter">The digital landscape has been dominated by social media platforms for years, with each claiming to offer something unique. Yet, most of these platforms tend to echo each other's features and rarely delve into the fascinating depths of human psychology. Enter 9takes, a question-and-answer platform designed to challenge the status quo, redefine social interaction, and enrich your understanding of the human experience.<p>
 
 <div
 	style="display: flex;

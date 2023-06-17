@@ -8,7 +8,7 @@ lastmod: '2023-06-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 
+enneagram:
 type: ['musician']
 wikipedia: 'https://en.wikipedia.org/wiki/The_Weeknd'
 twitter: 'https://twitter.com/theweeknd'

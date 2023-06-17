@@ -38,7 +38,8 @@ margin: 1rem 0;
 
 </div>
 
-When it comes to interacting with Enneagram types that are different from our own, the key is to approach them with respect, curiosity, and an open mind. Remember that each Enneagram type has its unique strengths, weaknesses, and motivations, and try to understand where they're coming from. Here are some tips for interacting effectively with each Enneagram type:
+<p class="firstLetter">When it comes to interacting with Enneagram types that are different from our own, the key is to approach them with respect, curiosity, and an open mind. Remember that each Enneagram type has its unique strengths, weaknesses, and motivations, and try to understand where they're coming from. </p>
+Here are some tips for interacting effectively with each Enneagram type:
 
 ## Enneagram 1 Communication Tips
 

@@ -18,7 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
 </svelte:head>
 
-We all know that people have different strengths and weaknesses. We know that identifying them could be the key to personal growth, building relationships, and achieving success. However it gets tricky when trying to determine the various dimensions by which we can see what we are good and bad at. The Enneagram takes an interesting approach in figuring this out.
+<p class="firstLetter">We all know that people have different strengths and weaknesses. We know that identifying them could be the key to personal growth, building relationships, and achieving success. However it gets tricky when trying to determine the various dimensions by which we can see what we are good and bad at. The Enneagram takes an interesting approach in figuring this out.</p>
 
 ### Understanding Your Energizers and Drainers
 

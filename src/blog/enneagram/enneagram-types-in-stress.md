@@ -18,7 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-stress">
 </svelte:head>
 
-Stress effects people in different ways and people get stressed over different thingsHere we exploring how each type responds to stress, providing insights into the unique stressors that impact them and their internal monologues during challenging moments. By understanding the different ways in which Enneagram types navigate stress, you'll gain a deeper appreciation for the complexities of human behavior and develop a more empathetic perspective towards yourself and others. So, sit back, relax, and let's dive into the intriguing dynamics of stress and the Enneagram types!
+<p class="firstLetter">Stress effects people in different ways and people get stressed over different thingsHere we exploring how each type responds to stress, providing insights into the unique stressors that impact them and their internal monologues during challenging moments. By understanding the different ways in which Enneagram types navigate stress, you'll gain a deeper appreciation for the complexities of human behavior and develop a more empathetic perspective towards yourself and others. So, sit back, relax, and let's dive into the intriguing dynamics of stress and the Enneagram types!</p>
 
 ## Enneagram 1 in Stress
 

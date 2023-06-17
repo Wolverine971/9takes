@@ -13,7 +13,7 @@ type: ['politician']
 wikipedia: 'https://en.wikipedia.org/wiki/George_W._Bush'
 twitter: 'https://twitter.com/georgewbush_43'
 instagram: 'https://www.instagram.com/georgewbush/'
-tiktok: 
+tiktok:
 ---
 
 <svelte:head>

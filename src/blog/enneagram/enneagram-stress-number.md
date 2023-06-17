@@ -34,7 +34,7 @@ blog: true
 	/>
 </div>
 
-We're going to talk about one of the most important aspects of the Enneagram: the stress number.
+<p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number.</p>
 
 ## Understanding your place of comfort and stress
 

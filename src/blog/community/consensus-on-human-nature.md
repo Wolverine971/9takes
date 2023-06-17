@@ -12,7 +12,7 @@ type: ['overview']
 blog: true
 ---
 
-What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had opposing views that mirror the psychologist Sigmond Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspectives.
+<p class="firstLetter">What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had opposing views that mirror the psychologist Sigmond Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspectives.</p>
 
 ## Plato is to Aristotle as Freud is to Pinker
 

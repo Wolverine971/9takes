@@ -11,7 +11,7 @@ published: false
 enneagram: 3
 type: ['musician']
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
-twitter: 'https://twitter.com/MileyCyrus' 
+twitter: 'https://twitter.com/MileyCyrus'
 instagram: 'https://www.instagram.com/mileycyrus/'
 tiktok: 'https://www.tiktok.com/@mileycyrus'
 ---

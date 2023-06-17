@@ -4,7 +4,7 @@ description: 'Using the Enneagram to improve team dynamics and productivity'
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
-lastmod: '2023-04-01'
+lastmod: '2023-06-17'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -18,9 +18,9 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
 </svelte:head>
 
-### Identifying Strengths and Weaknesses with the Enneagram
 
-The Enneagram can be a powerful tool for improving team dynamics and productivity by identifying the strengths and weaknesses of each team member. For example, a Type 2 (The Helper) might excel at providing support and encouragement to others, while a Type 5 (The Investigator) may bring a strong analytical perspective. By understanding these strengths and weaknesses, team leaders can strategically allocate tasks and responsibilities to maximize efficiency and performance. Learn more about <a href="enneagram-strengths-and-weaknesses" >strengths and weaknesses here</a>.
+
+<p class="firstLetter">The Enneagram can be a powerful tool for improving team dynamics. By identifying the strengths and weaknesses of each team member theoretically you can increase productivity. For example, a Type 2 (The Helper) might excel at providing support and encouragement to others, while a Type 5 (The Investigator) may bring a strong analytical perspective. By understanding these strengths and weaknesses, team leaders can strategically allocate tasks and responsibilities to maximize efficiency and performance. Learn more about <a href="enneagram-strengths-and-weaknesses" >strengths and weaknesses here</a>.</p>
 
 ### Building Balanced and Diverse Teams
 

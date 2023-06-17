@@ -18,9 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-tldr">
 </svelte:head>
 
-# Enneagram Overview
-
-The Enneagram is a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. Each type has its own distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
+<p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. Each type has its own distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
 
 ## The Nine Enneagram Types
 

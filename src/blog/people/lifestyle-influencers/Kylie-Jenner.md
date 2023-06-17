@@ -15,4 +15,5 @@ twitter: 'https://twitter.com/KylieJenner'
 instagram: 'https://www.instagram.com/kyliejenner'
 tiktok: 'https://www.tiktok.com/@kyliejenner'
 ---
+
 Notes: I could see her as a 6 or 9-- she's not as out there as her sisters and seems to like being in her space, more introverted, never controversial unless her mom is promoting it.

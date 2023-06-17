@@ -18,7 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
 </svelte:head>
 
-It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.
+<p class="firstLetter">It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.</p>
 
 ## Overview of Enneagram types in a relationship
 

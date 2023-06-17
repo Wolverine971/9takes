@@ -4,7 +4,7 @@ description: 'How would you describe your own communication style and which comm
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2023-04-15'
+lastmod: '2023-06-17'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -34,9 +34,8 @@ blog: true
 	/>
 </div>
 
-# How to communicate and interact effectively with different Enneagram types
 
-The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. With that effective communication is vital for any relationship, whether it's personal or professional and understanding each other's communication styles, values, and needs can help build trust, respect, and empathy. This article will explore each type's style of communication.
+<p class="firstLetter">The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. With that effective communication is vital for any relationship, whether it's personal or professional and understanding each other's communication styles, values, and needs can help build trust, respect, and empathy. This article will explore each type's style of communication.</p>
 
 ## Enneagram 1 Communication Style
 

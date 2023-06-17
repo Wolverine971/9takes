@@ -35,7 +35,7 @@ blog: true
 	/>
 </div>
 
-Some teams are cruising while others are bruising. Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram can clue us into why people act the way they do and why some teams thrive while others wallow in toxic fumes.
+<p class="firstLetter">Some teams are cruising while others are bruising. Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram can clue us into why people act the way they do and why some teams thrive while others wallow in toxic fumes.</p>
 
 Here we'll explore how different Enneagram types work together in teams and give you some tips on how to communicate effectively with each type.
 

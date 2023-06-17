@@ -15,4 +15,5 @@ twitter: 'https://twitter.com/jamescharles'
 instagram: 'https://www.instagram.com/jamescharles'
 tiktok: 'https://www.tiktok.com/@jamescharles'
 ---
+
 Notes: I could see him as an 8 too, but I don't know a lot about him.
