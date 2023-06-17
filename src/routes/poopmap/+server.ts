@@ -89,31 +89,31 @@ export async function GET() {
 
 	<url>
 	    <loc>https://9takes.com/</loc>
-	    <lastmod>2023-04-15</lastmod>
+	    <lastmod>2023-06-17</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>1.0</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog</loc>
-	    <lastmod>2023-04-15</lastmod>
+	    <lastmod>2023-06-17</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>1.0</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/about</loc>
-	    <lastmod>2023-04-01</lastmod>
+	    <lastmod>2023-06-17</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/enneagram</loc>
-	    <lastmod>2023-04-18</lastmod>
+	    <lastmod>2023-06-15</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-04-20</lastmod>
+	    <lastmod>2023-05-10</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>0.7</priority>
 	</url>
