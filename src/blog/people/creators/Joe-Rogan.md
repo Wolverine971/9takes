@@ -15,3 +15,28 @@ twitter: 'https://twitter.com/joerogan'
 instagram: 'https://www.instagram.com/joerogan'
 tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 ---
+
+
+
+<svelte:head>
+  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Joe-Rogan.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Joe-Rogan">
+</svelte:head>
+<!-- <script>
+	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/types/7s/${'Joe-Rogan'}.webp`}
+		showIcon={false}
+		text="Logan Paul"
+		subtext=""
+	/>
+</div> -->
+
+<p class="firstLetter"></p>

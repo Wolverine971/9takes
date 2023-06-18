@@ -16,6 +16,26 @@ instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'
 ---
 
+<svelte:head>
+  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Kim-Kardashian.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian">
+</svelte:head>
+<!-- <script>
+	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/types/3s/${'Kim-Kardashian'}.webp`}
+		showIcon={false}
+		text="Kim Kardashian"
+		subtext=""
+	/>
+</div> -->
 
 <p class="firstLetter">Every move she makes, every word she utters, every outfit she wears - they all contribute to a narrative that has captivated audiences worldwide. Kim Kardashian is not just a reality television star, but an entrepreneur, a beauty mogul, and a controversial figure. Today, we venture into her personality from a fresh angle, positioning Kardashian as a potential archetype of the Enneagram Type 3 - The Achiever.</p>
 

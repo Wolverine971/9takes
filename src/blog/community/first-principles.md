@@ -13,7 +13,6 @@ blog: true
 ---
 
 <svelte:head>
-
   <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/community/first-principles">
 </svelte:head>
@@ -28,4 +27,4 @@ Emotions
 
 Reciprocity
 
-[David Sacks from the All in Podcast ](https://youtu.be/qQ544sWC8ZQ?t=485) talking about the give to get strategy as a tactic to get people to share their data.
+[David Sacks from the All in Podcast](https://youtu.be/qQ544sWC8ZQ?t=485) talking about the give to get strategy as a tactic to get people to share their data.

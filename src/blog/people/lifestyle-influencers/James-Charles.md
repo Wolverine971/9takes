@@ -16,4 +16,27 @@ instagram: 'https://www.instagram.com/jamescharles'
 tiktok: 'https://www.tiktok.com/@jamescharles'
 ---
 
-Notes: I could see him as an 8 too, but I don't know a lot about him.
+<!-- Notes: I could see him as an 8 too, but I don't know a lot about him. -->
+
+<svelte:head>
+  <!-- <meta property="og:image" content="https://9takes.com/types/3s/James-Charles.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/James-Charles">
+</svelte:head>
+<!-- <script>
+	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/types/7s/${'James-Charles'}.webp`}
+		showIcon={false}
+		text="James Charles"
+		subtext=""
+	/>
+</div> -->
+
+<p class="firstLetter"></p>
