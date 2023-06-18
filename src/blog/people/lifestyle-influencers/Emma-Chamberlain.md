@@ -16,4 +16,25 @@ instagram: 'https://www.instagram.com/emmachamberlain'
 tiktok: 'https://www.tiktok.com/@emmachambie'
 ---
 
-Notes: Emma is most likely a 4-- she just jumped to popularity but she's always into niche trends like very "cool" girl
+<!-- Notes: Emma is most likely a 4-- she just jumped to popularity but she's always into niche trends like very "cool" girl -->
+
+<svelte:head>
+  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Emma-Chamberlain.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emma-Chamberlain">
+</svelte:head>
+<!-- <script>
+	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/types/7s/${'Emma-Chamberlain'}.webp`}
+		showIcon={false}
+		text="Emma Chamberlain"
+		subtext=""
+	/>
+</div> -->

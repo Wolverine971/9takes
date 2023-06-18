@@ -12,5 +12,5 @@ type: ['overview']
 blog: true
 ---
 
-Though we see everything in 2d our brain knows there is more than the 2d visual that we see. There is something behind that 2d picture. There is depth that can be inferred. The brain is aware of both the things we see and the things we do not see. The world is not flat, things are not binary, logical or illogical. There are other dimensions that are not easy to articulate.
+<p class="firstLetter">Though we see everything in 2d our brain knows there is more than the 2d visual that we see. There is something behind that 2d picture. There is depth that can be inferred. The brain is aware of both the things we see and the things we do not see. The world is not flat, things are not binary, logical or illogical. There are other dimensions that are not easy to articulate.</p>
 to not think of the world as flat

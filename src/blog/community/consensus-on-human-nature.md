@@ -12,6 +12,15 @@ type: ['overview']
 blog: true
 ---
 
+<svelte:head>
+  <!-- <meta property="og:image" content="https://9takes.com/blogs/consensus-on-human-nature.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/community/consensus-on-human-nature">
+</svelte:head>
+
+<!-- <script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script> -->
+
 <p class="firstLetter">What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had opposing views that mirror the psychologist Sigmond Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspectives.</p>
 
 ## Plato is to Aristotle as Freud is to Pinker

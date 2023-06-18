@@ -1,9 +1,9 @@
 ---
-title: 'Addison Rae Enneagram Type 3'
-description: 'Why Addison Rae appears to be a type 3'
+title: 'Josh Richards Enneagram Type 3'
+description: 'Why Josh Richards appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Addison-Rae'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Josh-Richards'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -19,8 +19,8 @@ tiktok: 'https://www.tiktok.com/@addisonre'
 
 
 <svelte:head>
-  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Addison-Rae.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Addison-Rae">
+  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Josh-Richards.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Josh-Richards">
 </svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -32,9 +32,9 @@ tiktok: 'https://www.tiktok.com/@addisonre'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Addison-Rae'}.webp`}
+		image={`/types/7s/${'Logan-Paul'}.webp`}
 		showIcon={false}
-		text="Addison Rae"
+		text="Josh Richards"
 		subtext=""
 	/>
 </div> -->

@@ -52,7 +52,7 @@ const getAllPosts = async () => {
 		tiktokers
 	];
 
-	let body = [];
+	const body = [];
 
 	for (const category in imports) {
 		for (const path in imports[category]) {
