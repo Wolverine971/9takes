@@ -39,20 +39,26 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	/>
 </div>
 
-<p class="firstLetter">Bernie Sanders has served as a senator for Vermont since 2007. Why has he been going at it so long? Why does he look like a stubborn curmudgeon to some and a lovable granddad to others? Bernie can be better understood if you examine the Enneagram Type 9, which we argue is his personality.</p>
+<p class="firstLetter">You've seen him, heard him, and very likely formed an opinion about him. Bernie Sanders, the long-serving senator from Vermont, has been a fixture in American politics for decades. Today, we delve into an interesting perspective on Sanders' persona, proposing him as a classic representation of Enneagram Type 9 - The Peacemaker.</p>
 
-## Peaceful Mediator
+## Sanders and the Traits of Enneagram Type 9
 
-Enneagram Type 9s are known as peacemakers and mediators. They are able to see both sides of an argument and want to create a harmonious environment for everyone. This is evident in Sanders' political beliefs, where he often advocates for policies that benefit everyone, not just a particular group. He has fought for healthcare reform, affordable housing, and workers' rights, all of which are meant to create a fairer and more equal society.
+When you look at Sanders' public life, you see several characteristics associated with Type 9. Type 9 individuals are typically easygoing, accepting, and supportive, but can also be complacent and stubborn, traits that align seamlessly with Sanders' public image.
 
-## Avoiding Conflict
+Remember Sanders’ consistent advocacy for economic equality and healthcare? His unyielding commitment to these causes, even when they weren’t mainstream, reflects the Type 9's tendency to hold steadfast to their beliefs. This characteristic stubbornness, which can sometimes be perceived as complacency, reflects the typical Type 9 inner peace that originates from within and not external circumstances.
 
-One of the core fears of an Enneagram Type 9 is conflict. They often go out of their way to avoid it and maintain a peaceful environment. This is also seen in Sanders' political career, where he has often tried to find common ground with his opponents rather than engaging in heated debates. He has worked with Republicans on issues such as veterans' benefits and infrastructure.
+Sanders is also famous for his temperament. Despite being in the throes of often heated political debates, he has consistently demonstrated an inclination for calmness and stability, further illustrating his alignment with Type 9.
 
-## Focusing on Unity
+## Sanders’ Commitment to the Collective
 
-Enneagram Type 9s are known for their ability to bring people together. They want everyone to feel included and valued, and they work towards this goal. Sanders has also shown this trait through his political career. He has advocated for policies that unite people rather than dividing them. He believes that everyone deserves access to healthcare, education, and other basic needs.
+The Peacemaker, true to its name, seeks harmony and avoids conflict. This has been evident throughout Sanders' career. For instance, his fight against income inequality stems from a desire for a more harmonious society. His passionate speeches on the Senate floor, while fervent, rarely devolve into personal attacks—highlighting his inclination to keep the peace.
 
-## Strong Sense of Empathy
+The acceptance and easy-going nature that is characteristic of Type 9s are equally visible. Consider his 2016 Democratic primary race. Despite a hard-fought campaign, he gracefully accepted the results, endorsing Hillary Clinton, his former rival. This magnanimity in defeat speaks to his accepting nature, a clear trait of the Type 9.
 
-Another trait of Enneagram Type 9s is their strong sense of empathy. They are able to understand and feel the emotions of others, which helps them connect with people on a deeper level. This is also true for Sanders, who has shown empathy towards those who are struggling. He has spoken out against income inequality, and has called for a fairer economic system that benefits all people, not just the wealthy.
+## Reflecting on Sanders as an Enneagram Type 9
+
+Now that we’ve explored the evidence, it seems quite plausible that Sanders does indeed align with the traits of a Type 9. His steadfast commitment to his beliefs, his demeanor, and his efforts towards societal harmony seem to present a convincing case.
+
+However, personalities are complex, and individuals cannot always be neatly sorted into categories. How does this perspective of Sanders enhance your understanding of him as a politician and public figure? Does seeing Sanders through the lens of the Enneagram Type 9 give you a deeper understanding of his motivations and actions?
+
+In an ever-polarizing world, perhaps there is value in understanding our leaders not just through their policy but also through their personality type. Maybe it's time to explore more. Sign up now and become part of a community that values introspective exploration of personalities and viewpoints. Together, let's peel back the layers, one personality at a time.

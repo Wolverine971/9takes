@@ -17,6 +17,7 @@
 		2: [
 			{ name: 'Dolly-Parton', link: false },
 			{ name: 'Jimmy-Carter', link: true },
+			{ name: 'Joe-Biden', link: true },
 			{ name: 'Mother-Teresa', link: false },
 			{ name: 'Nancy-Reagan', link: true },
 			{ name: 'Mr-Rogers', link: true },
@@ -27,7 +28,6 @@
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Oprah-Winfrey', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
-			{ name: 'Lady-Gaga', link: true },
 			{ name: 'Taylor-Swift', link: false },
 			{ name: 'Reese-Witherspoon', link: false }
 		],
@@ -36,11 +36,11 @@
 			{ name: 'Billie-Eilish', link: false },
 			{ name: 'Bob-Dylan', link: false },
 			{ name: 'Frida-Kahlo', link: true },
+			{ name: 'Lady-Gaga', link: true },
 			{ name: 'Jackie-Kennedy', link: true }
 		],
 		5: [
 			{ name: 'Bill-Gates', link: false },
-
 			{ name: 'Elon-Musk', link: false },
 			{ name: 'Emily-Dickinson', link: false },
 			{ name: 'Stephen-Hawking', link: false },
@@ -52,7 +52,6 @@
 			{ name: 'Ellen-Degeneres', link: true },
 			{ name: 'George-W-Bush', link: true },
 			{ name: 'George-H-W-Bush', link: true },
-			{ name: 'Joe-Biden', link: true },
 			{ name: 'Mindy-Kaling', link: false },
 			{ name: 'Mark-Twain', link: false },
 			{ name: 'Prince-Harry', link: true }

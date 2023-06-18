@@ -18,6 +18,7 @@
 			'Dolly-Parton',
 			'Jimmy-Carter',
 			'Mother-Teresa',
+			'Joe-Biden',
 			'Nancy-Reagan',
 			'Meghan-Markle',
 			'Mr-Rogers',
@@ -27,13 +28,13 @@
 			'Arnold-Schwarzenegger',
 			'Oprah-Winfrey',
 			'Nancy-Pelosi',
-			'Lady-Gaga',
 			'Taylor-Swift',
 			'Reese-Witherspoon'
 		],
 		4: [
 			'Johnny-Depp',
 			// someone else
+			'Lady-Gaga',
 			'Billie-Eilish',
 			'Bob-Dylan',
 			'Frida-Kahlo',
@@ -52,7 +53,6 @@
 			'Ellen-Degeneres',
 			'George-H-W-Bush',
 			'George-W-Bush',
-			'Joe-Biden',
 			'Mindy-Kaling',
 			'Mark-Twain',
 			'Prince-Harry'
