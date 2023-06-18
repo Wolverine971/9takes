@@ -13,6 +13,7 @@ blog: true
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/blogs/consensus-on-human-nature.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/community/consensus-on-human-nature">
 </svelte:head>

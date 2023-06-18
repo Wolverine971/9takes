@@ -18,7 +18,6 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
 </svelte:head>
 
-
 <p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 
 <p  style="text-align: center;">

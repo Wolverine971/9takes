@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 <!-- Notes: I could see her as a 6 or 9-- she's not as out there as her sisters and seems to like being in her space, more introverted, never controversial unless her mom is promoting it. -->
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Kylie-Jenner.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
 </svelte:head>

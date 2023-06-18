@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/2s/Joe-Biden.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Joe-Biden">
 </svelte:head>
@@ -68,6 +69,7 @@ Throughout his career, Biden has faced scrutiny regarding personal boundaries, w
 As a Type 2, Biden may experience the weight of expectations from both his supporters and critics. The Helper personality often grapples with a deep-rooted need for approval and validation, which can lead to feelings of pressure and the potential for emotional strain. Understanding this aspect of Biden's personality helps to paint a more nuanced picture of the man behind the political figure.
 
 **In conclusion,** Joe Biden's personality aligns with the Enneagram Type 2 - The Helper. His extensive career in public service, empathetic connections with others, and dedication to important causes exemplify his inclination to assist and uplift those in need. However, it is important to acknowledge the challenges that come with this personality type, such as setting boundaries and managing the burden of expectations. By understanding the Enneagram type of public figures like Joe Biden, we gain a deeper insight into their actions and decisions. If you're curious about exploring the personalities of influential individuals and delving into the intricacies of human behavior, we invite you to join our community. Sign up to access thought-provoking content that explores people's personalities and their unique perspectives on life. Together, let's unravel the mysteries of the human mind and cultivate a greater understanding of ourselves and those around us.
+
 <div>
 <script type="application/ld+json">{
   "@context": "https://schema.org",

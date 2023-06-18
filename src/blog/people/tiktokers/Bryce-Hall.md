@@ -16,8 +16,8 @@ instagram: 'https://www.instagram.com/brycehall/'
 tiktok: 'https://www.tiktok.com/@brycehall'
 ---
 
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Bryce-Hall.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bryce-Hall">
 </svelte:head>

@@ -16,8 +16,8 @@ instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@dixiedamelio'
 ---
 
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Dixie-D'Amelio.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Dixie-D'Amelio">
 </svelte:head>

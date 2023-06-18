@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/@jamescharles'
 <!-- Notes: I could see him as an 8 too, but I don't know a lot about him. -->
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/James-Charles.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/James-Charles">
 </svelte:head>

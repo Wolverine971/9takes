@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Logan-Paul.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Logan-Paul">
 </svelte:head>

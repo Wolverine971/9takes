@@ -16,9 +16,8 @@ instagram: 'https://www.instagram.com/addisonraee/'
 tiktok: 'https://www.tiktok.com/@addisonre'
 ---
 
-
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Addison-Rae.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Addison-Rae">
 </svelte:head>

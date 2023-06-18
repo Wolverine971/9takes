@@ -16,8 +16,8 @@ instagram: ''
 tiktok:
 ---
 
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/8s/Lisa-Koshy.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lisa-Koshy">
 </svelte:head>

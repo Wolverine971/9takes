@@ -34,7 +34,6 @@ blog: true
 	/>
 </div>
 
-
 <p class="firstLetter">The Enneagram is a powerful tool for understanding yourself and the people around you. It's a personality system that identifies nine distinct types of people, each with their unique worldview, motivations, and fears. With that effective communication is vital for any relationship, whether it's personal or professional and understanding each other's communication styles, values, and needs can help build trust, respect, and empathy. This article will explore each type's style of communication.</p>
 
 ## Enneagram 1 Communication Style

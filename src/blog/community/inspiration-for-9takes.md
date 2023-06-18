@@ -45,7 +45,7 @@ to start a conversations about this because every time I got to talk to someone 
 had gone through a similar self discovery, it felt like I was unlocking ancient hidden
 secrets about people. I am just saying, that is how it felt.
 
-<!-- Everyone was being learned something 
+<!-- Everyone was being learned something
 about themselves and was being vulnerable and was able to listen and tried to talk about it with anyone who would listen.
 The push back  -->
 
@@ -75,7 +75,7 @@ saying they just are not curious. Have they ever met someone who was similar to 
 
 **So with that I learned that personality is just the similarity and differences between people. People just need to be curious enough to explore each others similarity and differences**
 
-So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes'' because there are different takes on life. 
+So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes'' because there are different takes on life.
 
 So that was the inspiration for 9takes. If you want to see what I am building and think that there is a lot left to be learned please sign up below.
 

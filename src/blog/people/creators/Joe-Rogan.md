@@ -16,9 +16,8 @@ instagram: 'https://www.instagram.com/joerogan'
 tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 ---
 
-
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Joe-Rogan.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Joe-Rogan">
 </svelte:head>

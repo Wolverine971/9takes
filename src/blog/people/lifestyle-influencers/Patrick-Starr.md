@@ -16,9 +16,8 @@ instagram: 'https://www.instagram.com/patrickstarrr/'
 tiktok: 'https://www.tiktok.com/@patrickstarrr'
 ---
 
-
-
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Patrick-Starrr.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Patrick-Starrr">
 </svelte:head>

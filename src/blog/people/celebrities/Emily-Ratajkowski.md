@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
 ---
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/types/8s/Emily-Ratajkowski.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski">
 </svelte:head>

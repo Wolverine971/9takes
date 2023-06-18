@@ -10,13 +10,14 @@ priority: '0.6'
 published: false
 enneagram: 7
 type: ['musician']
-wikipedia: 
-twitter: 
-instagram: 
-tiktok: 
+wikipedia:
+twitter:
+instagram:
+tiktok:
 ---
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/7s/Kanye.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kanye">
 </svelte:head>

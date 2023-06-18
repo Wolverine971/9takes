@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/@selenagomez'
 <!-- Notes: Not sure if she is a 3, was a child actor on Barney... -->
 
 <svelte:head>
+
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Selena-Gomez.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Selena-Gomez">
 </svelte:head>
