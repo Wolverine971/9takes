@@ -17,7 +17,6 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 ---
 
 <svelte:head>
-
   <meta property="og:image" content="https://9takes.com/types/4s/Lady-Gaga.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lady-Gaga">
 </svelte:head>

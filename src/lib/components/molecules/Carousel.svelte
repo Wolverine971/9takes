@@ -35,7 +35,6 @@
 			'Johnny-Depp',
 			// someone else
 			'Lady-Gaga',
-			'Billie-Eilish',
 			'Bob-Dylan',
 			'Frida-Kahlo',
 			'Jackie-Kennedy'
@@ -78,6 +77,7 @@
 			'Abraham-Lincoln',
 			'Ariana-Grande',
 			'Barack-Obama',
+			'Billie-Eilish',
 			'Bernie-Sanders',
 			'Marie-Kondo',
 			'Zooey-Deschanel',
