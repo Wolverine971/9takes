@@ -10,7 +10,7 @@
 	<title>About 9takes</title>
 	<meta
 		name="description"
-		content="Answering what is the purpose, inspiration and who is behind 9takes"
+		content="Answering what is the purpose, inspiration, and who is behind 9takes"
 	/>
 	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
@@ -23,8 +23,8 @@
 		😉) get surprised when someone doesn't agree with them. Surely if that other person had all the
 		facts, was smart, kind and had your experience they would totally agree with your POV. We forget
 		that other people can have facts, be smart, kind and have similar experiences AND still
-		disagree. 9takes is about leaning in to these disagreements and embracing these differences
-		because in the end we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
+		disagree. 9takes is about leaning into these disagreements and embracing these differences
+		because, in the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
 
 		<br /><br />
 		<b>
@@ -33,19 +33,19 @@
 			takes.
 		</b>
 		<!-- <br /><br />
-		Our perspectives, thoughts, emotions, and ways of doing things are all different. We may know that
-		in our head but how often are we surprised when others are not thinking, feeling, and acting like
-		we do. When we realize someone doesn't think like us, do we think "wow, I wonder what their perspective
-		is and why they think that," or do we think that a person is not smart or maybe they don't have all
-		the information. When we see others not feeling the way we feel we feel on a certain subject do we
-		recognize the layers beneath the feelings or Do we morally superior to them? And when someone doesn't
-		act like us does that make us curious or dismissive? -->
+        Our perspectives, thoughts, emotions, and ways of doing things are all different. We may know that
+        in our head but how often are we surprised when others are not thinking, feeling, and acting like
+        we do? When we realize someone doesn't think like us, do we think “Wow, I wonder what their perspective
+        is and why they think that," or do we think that a person is not smart or maybe they don't have all
+        the information? When we see others not feeling the way we feel we feel on a certain subject do we
+        recognize the layers beneath the feelings or Do we morally superior to them? And when someone doesn't
+        act like us does that make us curious or dismissive? -->
 	</p>
 
 	<h3>What was the inspiration for 9takes?</h3>
 	<p>
 		<a href="/blog/community/inspiration-for-9takes"
-			>TDLR, I got married and my wife and I were fighting a lot
+			>TLDR, I got married and my wife and I were fighting a lot
 		</a>
 	</p>
 
@@ -55,11 +55,11 @@
 		and philosophy. <a href="/blog/enneagram/enneagram-lineage">
 			Plato and Freud would have been fans of the Enneagram.
 		</a>
-		Currently it is used by niche life coaches and as a tool for certain psychologists and therapists.
-		But it is not mainstream and probably won't be for sometime.
+		Currently, it is used by niche life coaches and as a tool for certain psychologists and therapists.
+		But it is not mainstream and probably won't be for some time.
 		<br /><br />
 		We use it because it identifies a person's core motivations and fears. Through guided or through
-		self reflection people figure out their type. We are not going to tell you what your "Enneagram type"
+		Self-reflection people figure out their type. We are not going to tell you what your "Enneagram type"
 		is, that is for you to discover.
 	</p>
 
@@ -82,14 +82,14 @@
 		<li>Why can't people just get along and find common ground?</li>
 	</ul>
 	<p>
-		There are endless questions to ask. Fortunately there endless people out there with answers and
-		perspectives that you can learn from. They also have questions like you and will share if you
-		ask them to.Some people see the world like you and there are others who see a vastly different
-		world?
+		There are endless questions to ask. Fortunately, there are endless people out there with answers
+		and perspectives that you can learn from. They also have questions like you and will share if
+		you ask them too. Some people see the world like you and there are others who see a vastly
+		different world.
 	</p>
 	<p>
 		9takes is about embracing these differences or "takes" on the world. And by asking questions,
-		sharing stories and getting curious we will find our community and find our way.
+		sharing stories, and getting curious we will find our community and find our way.
 	</p>
 </div>
 
@@ -101,24 +101,24 @@
 			<p>
 				I am a techy, ex-military, most days happily married with 2 kids running around getting into
 				the highest of hijinks. My wife got me into the enneagram and I have been obsessed since. I
-				I don't exactly know why there isn't a community like 9takes, but I am building it out. I
+				don't exactly know why there isn't a community like 9takes, but I am building it out. I
 				share my thoughts and opinions down below but would love to hear yours. Feel free to message
 				me <a target="_blank" href="https://twitter.com/djwayne3">here</a>.
 			</p>
 
 			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
 			<!-- <ul>
-				<li>
-					<a target="_blank" href="https://github.com/Wolverine971">Github</a>
-				</li>
-				<li>
-					<a target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
-				</li>
-			</ul> -->
+                <li>
+                    <a target="_blank" href="https://github.com/Wolverine971">Github</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
+                </li>
+            </ul> -->
 		</div>
 		<div style="margin:20px;">
 			<h3>I am also looking for help ✋</h3>
-			<p>DM me on twitter <a target="_blank" href="https://twitter.com/djwayne3">here</a></p>
+			<p>DM me on Twitter <a target="_blank" href="https://twitter.com/djwayne3">here</a></p>
 		</div>
 	</div>
 </div>
