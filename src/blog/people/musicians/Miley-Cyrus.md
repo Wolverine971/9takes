@@ -2,7 +2,7 @@
 title: 'Miley Cyrus Enneagram Type 7'
 description: 'Why Miley Cyrus appears to be a type 7'
 author: 'DJ Wayne'
-date: '2023-05-30'
+date: '2023-06-17'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Miley-Cyrus'
 lastmod: '2023-06-17'
 changefreq: 'monthly'
