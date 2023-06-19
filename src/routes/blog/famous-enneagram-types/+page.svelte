@@ -15,8 +15,8 @@
 	const celebrities = data.people.filter((person) => {
 		return person.type?.includes('celebrity');
 	});
-	const artists = data.people.filter((person) => {
-		return person.type?.includes('artist');
+	const historicals = data.people.filter((person) => {
+		return person.type?.includes('historical');
 	});
 	const musicians = data.people.filter((person) => {
 		return person.type?.includes('musician');
@@ -73,7 +73,7 @@
 	</ul>
 	<h3 class="position-center">Artists</h3>
 	<ul>
-		{#each artists as person}
+		{#each historicals as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
 					{person?.slug?.split('-').join(' ')}
