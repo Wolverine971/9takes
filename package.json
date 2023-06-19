@@ -64,10 +64,12 @@
 	"dependencies": {
 		"@elastic/elasticsearch": "^8.6.0",
 		"@sveltejs/adapter-node": "^1.2.0",
+		"@types/gsap": "^3.0.0",
 		"@vavite/node-loader": "^1.7.0",
 		"@vercel/analytics": "^0.1.11",
 		"dotenv": "^16.0.3",
 		"googleapis": "^114.0.0",
+		"gsap": "^3.12.1",
 		"mermaid": "^9.3.0",
 		"natural": "^6.2.0",
 		"rehype-autolink-headings": "^6.1.1",

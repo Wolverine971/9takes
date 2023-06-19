@@ -94,6 +94,5 @@ In conclusion, leveraging the Enneagram as a tool for building balanced and dive
 "http://schema.org/name": "9takes"
 }
 }
-
 </script>
 </div>

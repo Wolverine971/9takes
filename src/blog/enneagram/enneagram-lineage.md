@@ -195,7 +195,6 @@ In essence, the Enneagram offers a framework for personal development that is de
     "http://schema.org/name": "9takes"
   }
 }
-
 </script>
 </div>
 

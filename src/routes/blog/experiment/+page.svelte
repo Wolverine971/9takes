@@ -7,6 +7,15 @@
 	let emotionList: string = '';
 	// let finalEmotionList: string[] = [];
 
+	import { tick } from 'svelte';
+
+	// import { gsap } from 'gsap/dist/gsap';
+	// import { Flip } from 'gsap/dist/Flip';
+	// // import Layout from '$lib/components/blog/layout.svelte';
+
+	// gsap.registerPlugin(Flip);
+	// anger shame fear
+
 	let formattedListOfEmotions: string[] = [];
 
 	let inserts = 0;
@@ -1292,28 +1301,13 @@
 		return finalEmotionList;
 	};
 
-	const submit = async () => {
-		let finalEmotionList: string[] = await getFilteredList();
-
-		// let definitions: string[] = [];
-		let others: any[] = [];
-		finalEmotionList.forEach((e) => {
-			const stem = stemmer(e);
-			if (emotionsMap[stem]) {
-				categories[emotionsMap[stem].root].push(e);
-			} else {
-				categories.other.push(e);
-				others.push({ word: e, stem: stem });
-			}
-		});
-		formattedListOfEmotions = finalEmotionList;
-
-		if (inserts < 3 && others.length) {
-			inserts++;
-			for await (const otherword of others) {
-				await supabase.from('new-words').insert([{ word: otherword.word, stem: otherword.stem }]);
-			}
-		}
+	const generateSpans = async () => {
+		const box = document.getElementById(`emotions-box`);
+		const div = document.createElement('div');
+		div.height = box.offsetHeight;
+		div.width = box.offsetWidth;
+		position;
+		formattedListOfEmotions.forEach((emotionIdentified) => {});
 	};
 
 	const filter = async () => {
@@ -1352,6 +1346,142 @@
 		// console.log(sortedEmotions);
 		console.log(newEmotionsMap);
 	};
+
+	const submit = async () => {
+		let finalEmotionList: string[] = await getFilteredList();
+
+		// let definitions: string[] = [];
+		let others: any[] = [];
+		const map = {};
+		finalEmotionList.forEach((e) => {
+			if (map[e]) {
+				// const duplicate = emotionList.lastIndexOf(e);
+				// const parts = emotionList.split(e);
+				// let newParts = [];
+				// for (let i = 0; i <= parts.length - 2; i++) {
+				// 	newParts.push(parts[i]);
+				// 	newParts.push(e);
+				// }
+				// newParts.push(parts[parts.length - 1]);
+				// const newString = newParts.join(' ');
+				emotionList = emotionList.replace(e, '');
+			} else {
+				map[e] = 1;
+			}
+			const stem = stemmer(e);
+			if (emotionsMap[stem]) {
+				categories[emotionsMap[stem].root].push(e);
+			} else {
+				categories.other.push(e);
+				others.push({ word: e, stem: stem });
+			}
+		});
+		formattedListOfEmotions = finalEmotionList;
+
+		if (inserts < 3 && others.length) {
+			inserts++;
+			for await (const otherword of others) {
+				await supabase.from('new-words').insert([{ word: otherword.word, stem: otherword.stem }]);
+			}
+		}
+		swap = false;
+		if (textArea) {
+			const elem = textArea.getBoundingClientRect();
+			height = elem.height;
+			width = elem.width;
+			submitBox = true;
+
+			await tick();
+		} else {
+			submitBox = false;
+		}
+
+		await flip();
+	};
+
+	// anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased
+	const flip = async () => {
+		let firstPos = [];
+		formattedListOfEmotions.forEach((emotion, i) => {
+			const element = document.getElementById(`${emotion}-${i}`);
+			if (element) {
+				firstPos.push({ emotion, box: element.getBoundingClientRect() });
+			}
+		});
+		// });
+		swap = !swap;
+		submitBox = false;
+
+		await tick();
+
+		let secondPos = [];
+		formattedListOfEmotions.forEach((emotion, i) => {
+			const element = document.getElementById(`${emotion}-${i}`);
+			if (element) {
+				secondPos.push({ emotion, box: element.getBoundingClientRect() });
+			}
+		});
+
+		if (swap) {
+			firstPos.forEach((e, i) => {
+				const invertx = firstPos[i]?.box?.left - secondPos[i]?.box?.left;
+				const inverty = firstPos[i]?.box?.bottom - secondPos[i]?.box?.bottom;
+				const elem = secondPos.find((el) => el.emotion === e.emotion);
+				const id = `${elem.emotion}-${i}`;
+				const emotion = document.getElementById(id);
+				const animate = emotion.animate(
+					[{ translate: `${invertx}px ${inverty}px` }, { translate: '0px', color: '#5407d9' }],
+					{
+						duration: 3000,
+						fill: 'forwards',
+						easing: 'ease-out'
+					}
+				);
+			});
+		} else {
+			secondPos.forEach((e, i) => {
+				const invertx = firstPos[i]?.box?.left - secondPos[i]?.box?.left;
+				const inverty = firstPos[i]?.box?.bottom - secondPos[i]?.box?.bottom;
+				const id = `${firstPos[i].emotion}-${i}`;
+				const emotion = document.getElementById(id);
+				const animate = emotion.animate(
+					[{ translate: `${invertx}px ${inverty}px` }, { translate: '0px' }],
+					{
+						duration: 3000,
+						fill: 'forwards',
+						easing: 'ease-out'
+					}
+				);
+			});
+		}
+	};
+	// const flipElement = async (el) => {
+	// 	const first = el.getBoundingClientRect();
+
+	// 	swap = !swap;
+	// 	// submitBox = false;
+
+	// 	await tick();
+
+	// 	const last = el.getBoundingClientRect();
+
+	// 	const invert = first.left - last.left;
+
+	// 	const animate = listEl.animate(
+	// 		[{ translate: `${invert}.px` }, { translate: '0px', background: 'yellow' }],
+	// 		{
+	// 			duration: 2000,
+	// 			fill: 'forwards',
+	// 			easing: 'ease-out'
+	// 		}
+	// 	);
+	// };
+
+	let swap = false;
+	let submitBox = false;
+	let textArea: HTMLDivElement;
+	let height: number;
+	let width: number;
 </script>
 
 <svelte:head>
@@ -1377,14 +1507,30 @@
 		<li>Write all the negative emotions that are one word</li>
 	</ul>
 
-	<textarea
-		name="list emotions"
-		id=""
-		cols="30"
-		rows="10"
-		style="width: 100%;"
-		bind:value={emotionList}
-	/>
+	<!-- // anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased -->
+	<div style="position: relative;">
+		{#if !submitBox}
+			<textarea
+				bind:this={textArea}
+				name="list emotions"
+				id="emotions-box"
+				cols="30"
+				rows="10"
+				style="width: 100%;"
+				bind:value={emotionList}
+			/>
+		{:else}
+			<div
+				on:click={(submitBox = false)}
+				style="{`min-height: ${height}px; max-width: ${width}px;`} border-radius: 5px; border: 1px solid #5407d9; position: inherit; top: 0; left: 0; box-sizing: border-box;
+    padding: 0.3rem 0;"
+			>
+				{#each formattedListOfEmotions as emotion, i}
+					<span style="margin: .3rem;" id={`${emotion}-${i}`}>{emotion}</span>
+				{/each}
+			</div>
+		{/if}
+	</div>
 	<input
 		type="button"
 		name="Submit"
@@ -1394,7 +1540,7 @@
 		class:form-send={true}
 		class={emotionList.length ? 'regular' : 'disabled'}
 	/>
-	{#if data?.session?.user}
+	<!-- {#if data?.session?.user}
 		<input
 			type="button"
 			name="Filter"
@@ -1403,37 +1549,54 @@
 			class:form-send={true}
 			class={emotionList.length ? 'regular' : 'disabled'}
 		/>
-	{/if}
+	{/if} -->
 </div>
 <!-- </li>
 </ol> -->
 
 {#if formattedListOfEmotions?.length}
+	<!-- <input
+		type="button"
+		name="Swap"
+		value="Swap"
+		on:click={flip}
+		class:form-send={true}
+		class="regular"
+	/> -->
 	<div class="row">
-		<div class="column">
+		<!-- <div class="column">
 			<h3>Listed Emotions</h3>
-			<div class="column">
-				{#each formattedListOfEmotions as emotion}
-					<div class="row">{emotion}</div>
-				{/each}
-			</div>
-		</div>
+			{#if !swap}
+				<div class="column" data-layout={layout}>
+					{#each formattedListOfEmotions as emotion, i}
+						<div class="row circle" id={`${emotion}-${i}`}>{emotion}</div>
+					{/each}
+				</div>
+			{/if}
+		</div> -->
 		<div class="column">
 			<h3>Enneagram Core Emotions</h3>
-			<div class="row">
-				{#each Object.keys(categories) as rootEmotion}
-					<div class="column">
-						<h4>{rootEmotion}</h4>
-						<div class="row">
-							<div>
-								{#each categories[rootEmotion] as emotionz}
-									<p>{emotionz}</p>
-								{/each}
+			{#if swap}
+				<div class="row">
+					{#each Object.keys(categories) as rootEmotion}
+						<div class="column">
+							<h4>{rootEmotion}</h4>
+							<div class="row">
+								<div>
+									{#each categories[rootEmotion] as emotionz}
+										<div
+											class="circle"
+											id={`${emotionz}-${formattedListOfEmotions.indexOf(emotionz)}`}
+										>
+											{emotionz}
+										</div>
+									{/each}
+								</div>
 							</div>
 						</div>
-					</div>
-				{/each}
-			</div>
+					{/each}
+				</div>
+			{/if}
 		</div>
 	</div>
 

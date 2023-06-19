@@ -56,3 +56,13 @@ https://github.com/srmullen/sveltekit-stripe/blob/main/src/routes/index.svelte
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
 cwebp "background4.png" -o "background4.webp"
+
+
+<!-- 
+## transitions 
+https://www.youtube.com/watch?v=ecP8RwpkiQw
+-->
+
+
+<!-- Zooom into question so it takes over the page -->
+<!-- Experiment to sort emotion words -->

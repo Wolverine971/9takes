@@ -12,6 +12,7 @@ specifiers:
   '@sveltejs/adapter-vercel': ^2.4.3
   '@sveltejs/kit': ^1.5.0
   '@types/cookie': ^0.5.1
+  '@types/gsap': ^3.0.0
   '@types/gtag.js': ^0.0.12
   '@types/stopword': ^2.0.0
   '@typescript-eslint/eslint-plugin': ^5.45.0
@@ -25,6 +26,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
   googleapis: ^114.0.0
+  gsap: ^3.12.1
   mdsvex: ^0.10.6
   mermaid: ^9.3.0
   natural: ^6.2.0
@@ -56,10 +58,12 @@ specifiers:
 dependencies:
   '@elastic/elasticsearch': 8.6.0
   '@sveltejs/adapter-node': 1.2.1_@sveltejs+kit@1.10.0
+  '@types/gsap': 3.0.0
   '@vavite/node-loader': 1.7.0_vite@4.3.5
   '@vercel/analytics': 0.1.11
   dotenv: 16.0.3
   googleapis: 114.0.0
+  gsap: 3.12.1
   mermaid: 9.4.0
   natural: 6.2.0
   rehype-autolink-headings: 6.1.1
@@ -893,6 +897,13 @@ packages:
 
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
+    dev: false
+
+  /@types/gsap/3.0.0:
+    resolution: {integrity: sha512-BbWLi4WRHGze4C8NV7U7yRevuBFiPkPZZyGa0rryanvh/9HPUFXTNBXsGQxJZJq7Ix7j4RXMYodP3s+OsqCErg==}
+    deprecated: This is a stub types definition. gsap provides its own type definitions, so you do not need this installed.
+    dependencies:
+      gsap: 3.12.1
     dev: false
 
   /@types/gtag.js/0.0.12:
@@ -2713,6 +2724,10 @@ packages:
   /grapheme-splitter/1.0.4:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
+
+  /gsap/3.12.1:
+    resolution: {integrity: sha512-FXtb2YbBE9l8I9Pl5DFLpCMedaiMPztRlr0Ln0CMSnJn+pbTaeKlzgth8cLNPc7PzNwIZe+SEQiBBAWaBKJdVA==}
+    dev: false
 
   /gtoken/6.1.2:
     resolution: {integrity: sha512-4ccGpzz7YAr7lxrT2neugmXQ3hP9ho2gcaityLVkiUecAiwiy60Ii8gRbZeOsXV19fYaRjgBSshs8kXw+NKCPQ==}
