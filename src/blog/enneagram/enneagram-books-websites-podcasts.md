@@ -46,7 +46,8 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
      <div>
 
-     <script type="application/ld+json">    {
+     <script type="application/ld+json">
+      {
     "@context": "http://schema.org/",
     "type": "BlogPosting",
     "about": {
@@ -216,7 +217,6 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       "name": "9takes"
     }
   }
-
 </script>
 
 </div>

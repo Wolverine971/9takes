@@ -20,17 +20,12 @@
 			'Mother-Teresa',
 			'Joe-Biden',
 			'Nancy-Reagan',
+			'Oprah-Winfrey',
 			'Meghan-Markle',
 			'Mr-Rogers',
 			'Jennifer-Garner'
 		],
-		3: [
-			'Arnold-Schwarzenegger',
-			'Oprah-Winfrey',
-			'Nancy-Pelosi',
-			'Taylor-Swift',
-			'Reese-Witherspoon'
-		],
+		3: ['Arnold-Schwarzenegger', 'Nancy-Pelosi', 'Taylor-Swift', 'Reese-Witherspoon'],
 		4: [
 			'Johnny-Depp',
 			// someone else

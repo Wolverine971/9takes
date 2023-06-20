@@ -15,6 +15,7 @@
 			{ name: 'Brene-Brown', link: false }
 		],
 		2: [
+			{ name: 'Oprah-Winfrey', link: true },
 			{ name: 'Dolly-Parton', link: false },
 			{ name: 'Jimmy-Carter', link: true },
 			{ name: 'Joe-Biden', link: true },
@@ -26,7 +27,6 @@
 		3: [
 			{ name: 'Arnold-Schwarzenegger', link: true },
 			{ name: 'Meghan-Markle', link: true },
-			{ name: 'Oprah-Winfrey', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
 			{ name: 'Reese-Witherspoon', link: false }
