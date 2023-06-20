@@ -1,0 +1,260 @@
+{
+	"contentCalendar": {
+		"2023-06-21": {
+			"category": "Creator",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian",
+				"https://9takes.com/blog/famous-enneagram-types/Logan-Paul"
+			],
+			"people": ["Kim Kardashian", "Logan Paul"]
+		},
+		"2023-06-22": {
+			"category": "Musician",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Ariana-Grande",
+				"https://9takes.com/blog/famous-enneagram-types/Charlie-Puth"
+			],
+			"people": ["Ariana Grande", "Charlie Puth"]
+		},
+		"2023-06-23": {
+			"category": "Musician",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Demi-Lovato",
+				"https://9takes.com/blog/famous-enneagram-types/Dua-Lipa"
+			],
+			"people": ["Demi Lovato", "Dua Lipa"]
+		},
+		"2023-06-24": {
+			"category": "Musician",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Halsey",
+				"https://9takes.com/blog/famous-enneagram-types/Justin-Bieber"
+			],
+			"people": ["Halsey", "Justin Bieber"]
+		},
+		"2023-06-25": {
+			"category": "Musician",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Kanye",
+				"https://9takes.com/blog/famous-enneagram-types/Shawn-Mendes"
+			],
+			"people": ["Kanye", "Shawn Mendes"]
+		},
+		"2023-06-26": {
+			"category": "Creator",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Casey-Neistat",
+				"https://9takes.com/blog/famous-enneagram-types/David-Dobrik"
+			],
+			"people": ["Casey Neistat", "David Dobrik"]
+		},
+		"2023-06-27": {
+			"category": "Creator",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Jenna-Marbles",
+				"https://9takes.com/blog/famous-enneagram-types/Lisa-Koshy"
+			],
+			"people": ["Jenna Marbles", "Lisa Koshy"]
+		},
+		"2023-06-28": {
+			"category": "Creator",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Mr-Beast",
+				"https://9takes.com/blog/famous-enneagram-types/Tana-Mongeau"
+			],
+			"people": ["Mr. Beast", "Tana Mongeau"]
+		},
+		"2023-06-29": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Chamath-Palihapitiya",
+				"https://9takes.com/blog/famous-enneagram-types/Dalton-Cadwell"
+			],
+			"people": ["Chamath Palihapitiya", "Dalton Cadwell"]
+		},
+		"2023-06-30": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/David-Friedberg",
+				"https://9takes.com/blog/famous-enneagram-types/David-Sacks"
+			],
+			"people": ["David Friedberg", "David Sacks"]
+		},
+		"2023-07-01": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Elon-Musk",
+				"https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey"
+			],
+			"people": ["Elon Musk", "Jack Dorsey"]
+		},
+		"2023-07-02": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis",
+				"https://9takes.com/blog/famous-enneagram-types/Michael-Seibel"
+			],
+			"people": ["Jason Calacanis", "Michael Seibel"]
+		},
+		"2023-07-03": {
+			"category": "Celebrity",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Chelsea-Handler",
+				"https://9takes.com/blog/famous-enneagram-types/Jimmy-Fallon"
+			],
+			"people": ["Chelsea Handler", "Jimmy Fallon"]
+		},
+		"2023-07-04": {
+			"category": "Celebrity",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Jon-Stewart",
+				"https://9takes.com/blog/famous-enneagram-types/Julia-Roberts"
+			],
+			"people": ["Jon Stewart", "Julia Roberts"]
+		},
+		"2023-07-05": {
+			"category": "TikToker",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Addison-Rae",
+				"https://9takes.com/blog/famous-enneagram-types/Bella-Poarch"
+			],
+			"people": ["Addison Rae", "Bella Poarch"]
+		},
+		"2023-07-06": {
+			"category": "TikToker",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Bryce-Hall",
+				"https://9takes.com/blog/famous-enneagram-types/Josh-Richards"
+			],
+			"people": ["Bryce Hall", "Josh Richards"]
+		},
+		"2023-07-07": {
+			"category": "Lifestyle Influencer",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Corina-Conf",
+				"https://9takes.com/blog/famous-enneagram-types/Emma-Chamberlain"
+			],
+			"people": ["Corina Conf", "Emma Chamberlain"]
+		},
+		"2023-07-08": {
+			"category": "Lifestyle Influencer",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Gigi-Hadid",
+				"https://9takes.com/blog/famous-enneagram-types/James-Charles"
+			],
+			"people": ["Gigi Hadid", "James Charles"]
+		},
+		"2023-07-09": {
+			"category": "Lifestyle Influencer",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner",
+				"https://9takes.com/blog/famous-enneagram-types/Madison-Beer"
+			],
+			"people": ["Kylie Jenner", "Madison Beer"]
+		},
+		"2023-07-10": {
+			"category": "Lifestyle Influencer",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Patrick-Starrr",
+				"https://9takes.com/blog/famous-enneagram-types/Selena-Gomez"
+			],
+			"people": ["Patrick Starrr", "Selena Gomez"]
+		},
+		"2023-07-11": {
+			"category": "Movie Star",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Denzel-Washington",
+				"https://9takes.com/blog/famous-enneagram-types/Jennifer-Garner"
+			],
+			"people": ["Denzel Washington", "Jennifer Garner"]
+		},
+		"2023-07-12": {
+			"category": "Movie Star",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Kevin-Hart",
+				"https://9takes.com/blog/famous-enneagram-types/Leonardo-DiCaprio"
+			],
+			"people": ["Kevin Hart", "Leonardo DiCaprio"]
+		},
+		"2023-07-13": {
+			"category": "Movie Star",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Robert-Downey-Jr",
+				"https://9takes.com/blog/famous-enneagram-types/The-Rock"
+			],
+			"people": ["Robert Downey Jr", "The Rock"]
+		},
+		"2023-07-14": {
+			"category": "Politician",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Robert-Kennedy-Jr",
+				"https://9takes.com/blog/famous-enneagram-types/Ron-DeSantis"
+			],
+			"people": ["Robert Kennedy Jr", "Ron DeSantis"]
+		},
+		"2023-07-15": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Chamath-Palihapitiya",
+				"https://9takes.com/blog/famous-enneagram-types/Dalton-Cadwell"
+			],
+			"people": ["Chamath Palihapitiya", "Dalton Cadwell"]
+		},
+		"2023-07-16": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/David-Friedberg",
+				"https://9takes.com/blog/famous-enneagram-types/David-Sacks"
+			],
+			"people": ["David Friedberg", "David Sacks"]
+		},
+		"2023-07-17": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Elon-Musk",
+				"https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey"
+			],
+			"people": ["Elon Musk", "Jack Dorsey"]
+		},
+		"2023-07-18": {
+			"category": "Techie",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis",
+				"https://9takes.com/blog/famous-enneagram-types/Michael-Seibel"
+			],
+			"people": ["Jason Calacanis", "Michael Seibel"]
+		},
+		"2023-07-19": {
+			"category": "Celebrity",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Chelsea-Handler",
+				"https://9takes.com/blog/famous-enneagram-types/Jimmy-Fallon"
+			],
+			"people": ["Chelsea Handler", "Jimmy Fallon"]
+		},
+		"2023-07-20": {
+			"category": "Celebrity",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Jon-Stewart",
+				"https://9takes.com/blog/famous-enneagram-types/Julia-Roberts"
+			],
+			"people": ["Jon Stewart", "Julia Roberts"]
+		},
+		"2023-07-21": {
+			"category": "TikToker",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Addison-Rae",
+				"https://9takes.com/blog/famous-enneagram-types/Bella-Poarch"
+			],
+			"people": ["Addison Rae", "Bella Poarch"]
+		},
+		"2023-07-22": {
+			"category": "TikToker",
+			"posts": [
+				"https://9takes.com/blog/famous-enneagram-types/Bryce-Hall",
+				"https://9takes.com/blog/famous-enneagram-types/Josh-Richards"
+			],
+			"people": ["Bryce Hall", "Josh Richards"]
+		}
+	}
+}

@@ -56,6 +56,35 @@ export const actions: Actions = {
 				message: `Failed to insert email, ${JSON.stringify(insertError)}`
 			});
 		}
+	},
+	emailTest: async ({ request, locals }) => {
+		const body = Object.fromEntries(await request.formData());
+		const email = body.email;
+
+		if (!email) {
+			throw error(404, {
+				message: 'no email'
+			});
+		}
+
+		try {
+			const sent: any = await sendEmail({
+				to: body.email.toString(),
+				subject: 'TEST EMAIL for 9takes',
+				body: joinEmail2()
+			});
+			if (sent) {
+				return { success: true };
+			} else {
+				throw error(404, {
+					message: `Failed to test email, no error available`
+				});
+			}
+		} catch (e) {
+			throw error(404, {
+				message: `Failed to send email, ${JSON.stringify(e)}`
+			});
+		}
 	}
 };
 
