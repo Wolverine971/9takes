@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['celebrity']
+type: ['politician']
 wikipedia:
 twitter:
 instagram:
