@@ -24,6 +24,9 @@
 	const techies = data.people.filter((person) => {
 		return person.type?.includes('techie');
 	});
+	const creators = data.people.filter((person) => {
+		return person.type?.includes('creator');
+	});
 	console.log(data);
 </script>
 
@@ -64,6 +67,17 @@
 	<h3 class="position-center">Musicians</h3>
 	<ul>
 		{#each musicians as person}
+			<li>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person?.slug?.split('-').join(' ')}
+				</a>
+			</li>
+		{/each}
+	</ul>
+	
+	<h3 class="position-center">Creators</h3>
+	<ul>
+		{#each creators as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
 					{person?.slug?.split('-').join(' ')}

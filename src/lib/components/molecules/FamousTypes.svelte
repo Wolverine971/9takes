@@ -58,6 +58,7 @@
 			{ name: 'Prince-Harry', link: true }
 		],
 		7: [
+			{ name: 'Logan-Paul', link: true },
 			{ name: 'Elton-John', link: true },
 			{ name: 'Britney-Spears', link: false },
 			{ name: 'John-F.-Kennedy', link: true },
@@ -67,6 +68,7 @@
 		],
 		8: [
 			{ name: 'Beyonce-Knowles', link: true },
+			{ name: 'Mr-Beast', link: true },
 			{ name: 'Clint-Eastwood', link: false },
 			{ name: 'Ernest-Hemingway', link: false },
 			{ name: 'Martin-Luther-King-Jr', link: true },

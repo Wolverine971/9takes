@@ -113,7 +113,7 @@ Better yet, why not become part of a community that values introspective explora
         "@type": "http://schema.org/ImageObject",
         "http://schema.org/height": 800,
         "http://schema.org/url": {
-          "@id": "https://9takes.com/types/2s/Oprah Winfrey.webp"
+          "@id": "https://9takes.com/types/2s/Oprah-Winfrey.webp"
         },
         "http://schema.org/width": 1200
       },
@@ -170,6 +170,22 @@ Better yet, why not become part of a community that values introspective explora
             "http://schema.org/text": "Oprah's philanthropic efforts, her talk show that often focused on helping others understand their emotions and experiences, and her desire to connect with her audience on a personal level are all indicative of her Type 2 personality. Moreover, her resilience in the face of controversy and her unwavering commitment to her values also reflect the strength and potential growth of Type 2 individuals."
           },
           "http://schema.org/name": "What are some examples of Oprah Winfrey's Type 2 characteristics?"
+        },
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Oprah Winfrey is known for her empathetic, compassionate, and charismatic personality. She is also well-regarded for her entrepreneurial spirit and determination. Despite her success, Oprah remains relatable and grounded, which adds to her appeal and popularity."
+          },
+          "http://schema.org/name": "What is Oprah Winfrey's personality?"
+        },
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Oprah Winfrey is believed to be an Enneagram type 2, which is often referred to as the Helper. This means she's naturally caring, interpersonal, and interested in people. Her desire to help others and make a difference in the world aligns well with this Enneagram type."
+          },
+          "http://schema.org/name": What is Oprah Winfrey's Enneagram type?"
         }
       ]
     }

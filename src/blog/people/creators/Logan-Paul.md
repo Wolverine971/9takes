@@ -140,9 +140,9 @@ To explore more captivating personalities and gain a deeper understanding of the
           {
             "@id": "https://www.instagram.com/loganpaul"
           },
-		  {
-			"@id": "https://www.tiktok.com/@loganpaul"
-		  }
+          {
+            "@id": "https://www.tiktok.com/@loganpaul"
+          }
         ]
       },
       "http://schema.org/publisher": {
@@ -175,7 +175,23 @@ To explore more captivating personalities and gain a deeper understanding of the
             "@type": "http://schema.org/Answer",
             "http://schema.org/text": "Logan Paul's daring stunts, thrill-seeking nature, and his ability to bounce back from controversies all reflect his Type 7 characteristics. Additionally, his personal growth journey and the lessons he has learned from past experiences demonstrate the potential growth and resilience of Type 7 individuals."
           },
-          "http://schema.org/name": "What are some examples of Logan Paul's Type 7 characteristics?""
+          "http://schema.org/name": "What are some examples of Logan Paul's Type 7 characteristics?"
+        },
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Logan Paul is known for his outgoing, energetic, and flamboyant personality. As a social media influencer and YouTuber, he often showcases his daring nature and humor in his content. His lifestyle often reflects a spontaneous and adventurous attitude. However, it's important to note that public figures may showcase different aspects of their personalities in different settings and it's difficult to fully assess someone's personality based on their online persona."
+          },
+          "http://schema.org/name": "What is Logan Paul's personality?"
+        },
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Logan Paul is an Enneagram Type 7, also known as The Enthusiast. This type is typically described as being spontaneous, versatile, distractible, and scattered. They generally have a desire to experience a lot of different things in life, which can often be seen in Logan's wide variety of pursuits and adventures. However, please keep in mind that this information might not be 100% accurate as it's based on public observations and not on a professional psychological assessment."
+          },
+          "http://schema.org/name": "What is Logan Paul's Enneagram type?"
         }
       ]
     }

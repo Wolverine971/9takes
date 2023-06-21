@@ -175,6 +175,22 @@ In a world fascinated by personality, understanding public figures like Kardashi
             "http://schema.org/text": "Kim's success in multiple fields, her influential social media presence, and her ability to bounce back from public controversies are all indicative of her Type 3 personality. Moreover, her constant pursuit of new ventures and her dedication to her personal image also reflect the strengths and growth potential of Type 3 individuals."
           },
           "http://schema.org/name": "What are some examples of Kim Kardashian's Type 3 characteristics?"
+        },
+		{
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Kim Kardashian is well-known for her outgoing and charismatic personality. She is ambitious, business-minded, and tends to be in the public eye often. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
+          },
+          "http://schema.org/name": "What is Kim Kardashian's personality?"
+        },
+		{
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Kim Kardashian is an Enneagram type 3, also known as The Achiever. This Enneagram type is ambitious, adaptable, and driven, often motivated by a desire to be successful and admired. Please note that this information is based on public information and not directly confirmed by Kim Kardashian herself."
+          },
+          "http://schema.org/name": "What is Kim Kardashian's Enneagram type?"
         }
       ]
     }

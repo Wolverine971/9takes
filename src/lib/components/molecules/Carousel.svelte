@@ -69,6 +69,7 @@
 			'Emily-Ratajkowski'
 		],
 		8: [
+			'Mr-Beast',
 			'Clint-Eastwood',
 			'Beyonce-Knowles',
 			'Ernest-Hemingway',
@@ -186,6 +187,7 @@ cwebp "Clint-Eastwood.png" -o "Clint-Eastwood.webp"
 cwebp "Ernest-Hemingway.png" -o "Ernest-Hemingway.webp"
 cwebp "Winston-Churchill.png" -o "Winston-Churchill.webp"
 cwebp "Martin-Luther-King-Jr.png" -o "Martin-Luther-King-Jr.webp"
+cwebp "Mr-Beast.png" -o "Mr-Beast.webp"
 
 cwebp "Abraham-Lincoln.png" -o "Abraham-Lincoln.webp"
 cwebp "Ariana-Grande.png" -o "Ariana-Grande.webp"
