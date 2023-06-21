@@ -16,6 +16,8 @@ instagram: 'https://www.instagram.com/joerogan'
 tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 ---
 
+<!-- notes: bring up wife, podcast, net worth, height, age, spotify, fear factor, ufc, dana white, "joe rogan with family" -->
+
 <svelte:head>
 
   <!-- <meta property="og:image" content="https://9takes.com/types/3s/Joe-Rogan.webp" /> -->

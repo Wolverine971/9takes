@@ -12,6 +12,8 @@ type: ['overview']
 blog: true
 ---
 
+<!-- notes: compatible  -->
+
 <svelte:head>
 
   <!-- <meta property="og:image" content="" /> -->

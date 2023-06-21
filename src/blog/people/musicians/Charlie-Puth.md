@@ -15,7 +15,7 @@ twitter: ''
 instagram: ''
 tiktok: ''
 ---
-
+<!-- notes: can hear notes, without autotune, dating married, jimmy fallon, concert, shawn mendes,meghan trainor, sabrina carpenter, songs, girlfriend, age, attention -->
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/5s/Charlie-Puth.webp" />
