@@ -80,4 +80,4 @@ So, have we uncovered the essence of Gigi Hadid through the lens of the Enneagra
 
 Does this exploration provide you with a richer understanding of Gigi Hadid, beyond her public persona? How does recognizing Gigi as a Type 4 influence your perception of her actions and motivations?
 
-In a world obsessed with outward appearances, understanding the intricate tapestry of personalities can provide a refreshing perspective. Ready to dive deeper? Explore our other articles for more introspective analyses of famous personalities, or sign up to join a community that thrives on unravelling the fascinating world of personalities and life perspectives. Let's explore the depths, one personality at a time.
+In a world obsessed with outward appearances, understanding the intricate tapestry of personalities can provide a refreshing perspective. Ready to dive deeper? Explore our other articles for more introspective analyses of famous personalities, or sign up below ⬇️ to join a community that thrives on unravelling the fascinating world of personalities and life perspectives. Let's explore the depths, one personality at a time.

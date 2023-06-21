@@ -22,23 +22,23 @@ blog: true
 
 ## The Nine Enneagram Types
 
-Type 1 - the Perfectionist: Strives for perfection and is highly critical of themselves and others. They have a strong sense of right and wrong and are motivated by a desire to improve the world around them. <a href="/blog/enneagram/enneagram-type-1" > More about the 1 </a>
+**[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Strives for perfection and is highly critical of themselves and others. They have a strong sense of right and wrong and are motivated by a desire to improve the world around them. <a href="/blog/enneagram/enneagram-type-1" > More about the 1 </a>
 
-Type 2 - The Helper: Values relationships and is driven by a need to feel loved and appreciated. They are empathetic and nurturing, but can struggle with asserting their own needs. <a href="/blog/enneagram/enneagram-type-2" > More about the 2 </a>
+**[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**Type 2 - The Helper: Values relationships and is driven by a need to feel loved and appreciated. They are empathetic and nurturing, but can struggle with asserting their own needs. <a href="/blog/enneagram/enneagram-type-2" > More about the 2 </a>
 
-Type 3 - The Achiever: Goal-oriented and success-driven, the Achiever is motivated by a need for recognition and validation. They are often competitive and can struggle with work-life balance. <a href="/blog/enneagram/enneagram-type-3" > More about the 3 </a>
+**[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Goal-oriented and success-driven, the Achiever is motivated by a need for recognition and validation. They are often competitive and can struggle with work-life balance. <a href="/blog/enneagram/enneagram-type-3" > More about the 3 </a>
 
-Type 4 - The Individualist: Creative and expressive, the Individualist is motivated by a need for authenticity and self-expression. They can be sensitive and moody, and can struggle with feelings of envy and inadequacy. <a href="/blog/enneagram/enneagram-type-4" > More about the 4 </a>
+**[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Creative and expressive, the Individualist is motivated by a need for authenticity and self-expression. They can be sensitive and moody, and can struggle with feelings of envy and inadequacy. <a href="/blog/enneagram/enneagram-type-4" > More about the 4 </a>
 
-Type 5 - The Investigator: Analytical and introspective, the Investigator is motivated by a need for knowledge and understanding. They can be reserved and detached, and can struggle with social interactions. <a href="/blog/enneagram/enneagram-type-5" > More about the 5 </a>
+**[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Analytical and introspective, the Investigator is motivated by a need for knowledge and understanding. They can be reserved and detached, and can struggle with social interactions. <a href="/blog/enneagram/enneagram-type-5" > More about the 5 </a>
 
-Type 6 - The Loyalist: Dependable and loyal, the Loyalist is motivated by a need for security and stability. They can be anxious and indecisive, and can struggle with trust issues. <a href="/blog/enneagram/enneagram-type-6" > More about the 6 </a>
+*[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Dependable and loyal, the Loyalist is motivated by a need for security and stability. They can be anxious and indecisive, and can struggle with trust issues. <a href="/blog/enneagram/enneagram-type-6" > More about the 6 </a>
 
-Type 7 - The Enthusiast: Fun-loving and adventurous, the Enthusiast is motivated by a need for stimulation and variety. They can be scattered and avoidant, and can struggle with commitment. <a href="/blog/enneagram/enneagram-type-7" > More about the 7 </a>
+**[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Fun-loving and adventurous, the Enthusiast is motivated by a need for stimulation and variety. They can be scattered and avoidant, and can struggle with commitment. <a href="/blog/enneagram/enneagram-type-7" > More about the 7 </a>
 
-Type 8 - The Challenger: Strong-willed and assertive, the Challenger is motivated by a need for control and power. They can be confrontational and aggressive, and can struggle with vulnerability. <a href="/blog/enneagram/enneagram-type-8" > More about the 8 </a>
+**[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Strong-willed and assertive, the Challenger is motivated by a need for control and power. They can be confrontational and aggressive, and can struggle with vulnerability. <a href="/blog/enneagram/enneagram-type-8" > More about the 8 </a>
 
-Type 9 - The Peacemaker: Mediating and easy-going, the Peacemaker is motivated by a need for harmony and tranquility. They can be passive and avoidant, and can struggle with asserting themselves. <a href="/blog/enneagram/enneagram-type-9" > More about the 9 </a>
+**[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Mediating and easy-going, the Peacemaker is motivated by a need for harmony and tranquility. They can be passive and avoidant, and can struggle with asserting themselves. <a href="/blog/enneagram/enneagram-type-9" > More about the 9 </a>
 
 ## How to Determine Your Enneagram Type
 

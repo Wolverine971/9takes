@@ -92,4 +92,4 @@ However, it's important to acknowledge that personalities are complex, and indiv
 
 How does this perspective enhance your understanding of Kanye West as an artist and cultural icon? Does it offer a new lens through which to appreciate his creative output? In a world that tends to focus solely on achievements and controversies, understanding individuals through their personality types can shed light on their unique journeys.
 
-If you're intrigued by the exploration of personalities and different takes on life checkout the other articles and we invite you to sign up for 9takes community below. Together, let's delve deeper into our inner psychology and enjoy what we find.
+If you're intrigued by the exploration of personalities and different takes on life checkout the other articles and we invite you to sign up below ⬇️ for 9takes community. Together, let's delve deeper into our inner psychology and enjoy what we find.

@@ -25,6 +25,7 @@
 			{ name: 'Jennifer-Garner', link: false }
 		],
 		3: [
+			{ name: 'Kim-Kardashian', link: true },
 			{ name: 'Arnold-Schwarzenegger', link: true },
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Nancy-Pelosi', link: true },

@@ -62,4 +62,4 @@ As we dissect these facets of Miley Cyrus's persona, her alignment with a Type 7
 
 So, does this exploration reshape your understanding of Miley Cyrus? Does viewing Miley through the lens of Enneagram Type 7 offer a deeper insight into her motivations and actions?
 
-Your understanding of people's personalities can always be expanded and nuanced. If you're intrigued by these perspectives and wish to explore more, sign up now. Join our community to dig deeper into the fascinating world of personalities and insights. Together, we can unravel the intricacies of the human mind, one personality at a time.
+Your understanding of people's personalities can always be expanded and nuanced. If you're intrigued by these perspectives and wish to explore more, sign up below ⬇️. Join 9takes, the community that digs deep into the fascinating world of personalities. Together, we can unravel the intricacies of the human mind, one personality at a time.

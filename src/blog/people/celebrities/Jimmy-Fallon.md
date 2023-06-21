@@ -68,15 +68,15 @@ Additionally, some critics argue that Fallon's desire to please everyone and mai
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jimmy Fallon:
 
-- Type 1 - The Perfectionist: They might appreciate Fallon's ability to find humor in everyday situations, but may also find his lighthearted approach lacking depth and seriousness.
-- Type 2 - The Helper: They might admire Fallon's warmth and genuine interest in others, but could question whether his kindness is always genuine or occasionally performative.
-- Type 3 - The Achiever: They might appreciate Fallon's drive and versatility, seeing him as a model of success. However, they may also recognize a potential fear of failure hidden behind his relentless pursuit of new experiences.
-- Type 4 - The Individualist: They might find Fallon's ability to bring joy to others captivating, yet perceive his tendency to avoid darker emotions as a missed opportunity for profound self-expression.
-- Type 5 - The Investigator: They might appreciate Fallon's quick-wittedness and ability to adapt, but might also find his energy overwhelming or distracting at times.
-- Type 6 - The Loyalist: They might find comfort in Fallon's light-heartedness and find his affability trustworthy. However, they may question his authenticity and long for more substantial discussions.
-- Type 7 - The Enthusiast: They might resonate deeply with Fallon's zest for life, recognizing a kindred spirit in their shared desire for new experiences and constant exploration.
-- Type 8 - The Challenger: They might admire Fallon's ability to entertain and bring people together, but may question his inclination to avoid controversial or confrontational topics.
-- Type 9 - The Peacemaker: They might find solace in Fallon's ability to create a harmonious atmosphere, appreciating his effort to make everyone feel comfortable and included.
+- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: They might appreciate Fallon's ability to find humor in everyday situations, but may also find his lighthearted approach lacking depth and seriousness.
+- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: They might admire Fallon's warmth and genuine interest in others, but could question whether his kindness is always genuine or occasionally performative.
+- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: They might appreciate Fallon's drive and versatility, seeing him as a model of success. However, they may also recognize a potential fear of failure hidden behind his relentless pursuit of new experiences.
+- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: They might find Fallon's ability to bring joy to others captivating, yet perceive his tendency to avoid darker emotions as a missed opportunity for profound self-expression.
+- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: They might appreciate Fallon's quick-wittedness and ability to adapt, but might also find his energy overwhelming or distracting at times.
+- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: They might find comfort in Fallon's light-heartedness and find his affability trustworthy. However, they may question his authenticity and long for more substantial discussions.
+- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: They might resonate deeply with Fallon's zest for life, recognizing a kindred spirit in their shared desire for new experiences and constant exploration.
+- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: They might admire Fallon's ability to entertain and bring people together, but may question his inclination to avoid controversial or confrontational topics.
+- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: They might find solace in Fallon's ability to create a harmonious atmosphere, appreciating his effort to make everyone feel comfortable and included.
 
 ## Conclusion: Unveiling the Enthusiast's Motivations
 
@@ -88,4 +88,4 @@ However, it's important to recognize that personalities are complex and multifac
 
 How does this perspective on Jimmy Fallon enhance your understanding of his career and public persona? Does it provide a window into his inner motivations and aspirations? In an ever-evolving entertainment landscape, there is value in exploring personalities through the lens of the Enneagram and gaining a deeper appreciation for the intricate interplay between personality and achievement.
 
-Continue your journey of introspective exploration by joining our community, where we delve into the fascinating world of personalities and diverse perspectives. Sign up now to gain access to thought-provoking articles, engaging discussions, and a platform that celebrates the beauty of individuality and personal growth. Together, let's peel back the layers, one personality at a time.
+Continue your journey of introspective exploration by signing up below ⬇️ and joining the 9takes community. The goal is to ignite thought-provoking articles, engaging discussions, and a platform that celebrates the beauty of individuality and personal growth. Together, let's peel back the layers, one personality at a time.

@@ -77,8 +77,7 @@ saying they just are not curious. Have they ever met someone who was similar to 
 
 So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes'' because there are different takes on life.
 
-So that was the inspiration for 9takes. If you want to see what I am building and think that there is a lot left to be learned please sign up below.
+So that was the inspiration for 9takes. If you want to see what I am building and think that there is a lot left to be learned please sign up below ⬇️.
 
 <style>
-
-    </style>
+</style>

@@ -64,4 +64,4 @@ As we navigate through the varied elements of Billie Eilish's persona, the Type 
 
 How does this lens of Enneagram Type 9 shift your perspective on Billie Eilish as an artist and a public figure? Do you gain deeper insight into her motivations and actions, considering her through the prism of a Type 9? In a world that often puts celebrities on pedestals, perhaps we could benefit from understanding them beyond their fame - through the fascinating lens of their personality types.
 
-Curious to delve deeper? Sign up now and be part of a community that thrives on introspective explorations of personalities and perspectives. Let's embark on a journey of understanding, one personality at a time.
+Curious to delve deeper? Sign up below ⬇️ and join 9takes to be part of a community that thrives on introspective explorations of personalities and perspectives. Let's embark on a journey of understanding, one personality at a time.
