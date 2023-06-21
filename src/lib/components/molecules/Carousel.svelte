@@ -25,7 +25,14 @@
 			'Mr-Rogers',
 			'Jennifer-Garner'
 		],
-		3: ['Arnold-Schwarzenegger', 'Nancy-Pelosi', 'Taylor-Swift', 'Reese-Witherspoon', "Kim-Kardashian"],
+		3: [
+			'Arnold-Schwarzenegger',
+			'Nancy-Pelosi',
+			'Taylor-Swift',
+			'Reese-Witherspoon',
+			'Kim-Kardashian',
+			
+		],
 		4: [
 			'Johnny-Depp',
 			// someone else
@@ -52,6 +59,7 @@
 			'Prince-Harry'
 		],
 		7: [
+			'Logan-Paul',
 			'Elton-John',
 			// someone else
 			'Britney-Spears',
@@ -137,6 +145,7 @@ cwebp "Oprah-Winfrey.png" -o "Oprah-Winfrey.webp"
 cwebp "Reese-Witherspoon.png" -o "Reese-Witherspoon.webp"
 cwebp "Taylor-Swift.png" -o "Taylor-Swift.webp"
 cwebp "Kim-Kardashian.png" -o "Kim-Kardashian.webp"
+cwebp "Logan-Paul.png" -o "Logan-Paul.webp"
 
 
 cwebp "Billie-Eilish.png" -o "Billie-Eilish.webp"

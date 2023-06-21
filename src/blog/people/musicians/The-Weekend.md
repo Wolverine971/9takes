@@ -31,9 +31,9 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Logan-Paul'}.webp`}
+		image={`/types/7s/${'The-Weekend'}.webp`}
 		showIcon={false}
-		text="Logan Paul"
+		text="The Weekend"
 		subtext=""
 	/>
 </div> -->

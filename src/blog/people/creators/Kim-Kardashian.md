@@ -115,7 +115,7 @@ In a world fascinated by personality, understanding public figures like Kardashi
         "@type": "http://schema.org/ImageObject",
         "http://schema.org/height": 800,
         "http://schema.org/url": {
-          "@id": "https://9takes.com/types/3s/Kim Kardashian.webp"
+          "@id": "https://9takes.com/types/3s/Kim-Kardashian.webp"
         },
         "http://schema.org/width": 1200
       },

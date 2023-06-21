@@ -2,12 +2,12 @@
 title: 'Logan Paul Enneagram Type 7'
 description: 'Why Logan Paul appears to be a type 7'
 author: 'DJ Wayne'
-date: '2023-06-17'
+date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Logan-Paul'
-lastmod: '2023-06-17'
+lastmod: '2023-06-20'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 7
 type: ['creator']
 wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'
@@ -18,10 +18,10 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 
 <svelte:head>
 
-  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Logan-Paul.webp" /> -->
+  <meta property="og:image" content="https://9takes.com/types/7s/Logan-Paul.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Logan-Paul">
 </svelte:head>
-<!-- <script>
+<script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
@@ -36,7 +36,21 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 		text="Logan Paul"
 		subtext=""
 	/>
-</div> -->
+</div>
+
+<details>
+<summary class="accordion">TL;DR: Why Logan is an Enneagram 7</summary>
+<div class="panel">
+<ul>
+<li>Logan Paul's daring and controversial persona aligns with the characteristics of an Enneagram Type 7 - The Enthusiast. He constantly seeks new experiences, embraces excitement, and pushes boundaries.
+</li>
+<li>In his inner world, Logan Paul's daily life revolves around his insatiable thirst for adventure, boundless energy, and relentless pursuit of novelty, which may not be immediately evident to the public.
+</li>
+<li>Despite controversies surrounding Logan Paul, such as his visit to the "Suicide Forest," we can view these incidents through the lens of a Type 7's childhood wound. His actions may stem from a deep fear of missing out and a desire to continuously seek out extraordinary experiences.</li>
+<li>Logan Paul's core motivation lies in his unyielding drive for excitement and the pursuit of new experiences. All his actions, from daring stunts to boundary-pushing challenges, can be traced back to his core enneagram motivation as a Type 7.</li>
+</ul>
+  </div>
+</details>
 
 <p class="firstLetter">You've probably seen his name plastered across headlines, witnessed his controversial antics, and formed your own opinions about him. Logan Paul, the charismatic and often polarizing social media sensation, has been a subject of fascination and speculation for years. Today, we delve into a compelling perspective on Paul's personality, proposing him as a captivating representation of Enneagram Type 7 - The Enthusiast.</p>
 
@@ -60,8 +74,144 @@ Understanding Logan Paul as an Enneagram Type 7 offers a fascinating window into
 
 Now that we've explored the evidence, it seems plausible that Logan Paul embodies the traits of an Enneagram Type 7. His insatiable appetite for adventure, his boundless energy, and his ability to bounce back from controversies showcase the unmistakable characteristics of this type. However, it's essential to remember that personalities are complex, and individuals cannot always be neatly sorted into categories.
 
+## How Each Enneagram Type Perceives Logan
+
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Mr. Logan Paul:
+
+- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Type 1 individuals might view Logan Paul as reckless and lacking a sense of responsibility. They may criticize his controversial actions and question his moral compass.
+- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Type 2 individuals might perceive Logan Paul as attention-seeking and self-centered. They may question his intentions behind his philanthropic endeavors and wonder if they are driven by genuine compassion or a need for validation.
+- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Type 3 individuals might see Logan Paul as a fellow high achiever. They may admire his ability to captivate an audience, his entrepreneurial success, and his relentless pursuit of new ventures.
+- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Type 4 individuals might have a mixed perception of Logan Paul. They may find his audacity intriguing and appreciate his willingness to embrace his individuality, but they may also view his controversies as attention-seeking behavior.
+- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Type 5 individuals might analyze Logan Paul's every move, observing his actions from an objective standpoint. They may appreciate his ability to generate attention and question the impact of his influence on society.
+- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Type 6 individuals might have conflicting views on Logan Paul. Some might find his adventurous spirit inspiring and be drawn to his confidence, while others might perceive him as impulsive and unreliable.
+- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Type 7 individuals might resonate with Logan Paul's relentless pursuit of excitement and his desire for new experiences. They may admire his ability to live life to the fullest, even though they might not agree with all his choices.
+- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8 individuals might appreciate Logan Paul's fearlessness and audacity. They may see him as someone who pushes boundaries and challenges the status quo, even if it comes with controversy.
+- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9 individuals might have mixed feelings about Logan Paul. They may appreciate his ability to captivate and unite people through his content, but also be critical of his actions that disrupt harmony and create controversy.
+
 ## A Deeper Understanding and the Next Step
 
 How does this perspective of Logan Paul enhance your understanding of his enigmatic personality? Does it shed light on his motivations and actions, helping you appreciate the layers beneath his controversial image? In an ever-evolving world of social media influencers, perhaps there is value in understanding not just their outward appearances but also their inner drives and perspectives.
 
 To explore more captivating personalities and gain a deeper understanding of the human experience, join our community. Sign up below ⬇️ to be part of a group that values introspective exploration of personalities and diverse viewpoints. Let's embark on a journey of discovery together, unraveling the enigmatic depths of one personality at a time.
+
+<div>
+<script type="application/ld+json">
+{
+  "@graph": [
+    {
+      "@type": "http://schema.org/Article",
+      "http://schema.org/articleBody": "This article explores the personality traits of Logan Paul from the perspective of the Enneagram Type 7. Known for his adventurous spirit, boundless energy, and pursuit of excitement, Logan embodies many characteristics of Type 7 personalities. The article discusses various facets of Logan Paul's life and controversies that provide insight into his Type 7 characteristics, including his daring stunts, thrill-seeking nature, and personal growth journey.",
+      "http://schema.org/author": {
+        "@type": "http://schema.org/Person",
+        "http://schema.org/name": "DJ Wayne"
+      },
+      "http://schema.org/dateModified": {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-06-20"
+      },
+      "http://schema.org/datePublished": {
+        "@type": "http://schema.org/Date",
+        "@value": "2023-06-20"
+      },
+      "http://schema.org/description": "This blog post examines the reasons why Logan Paul might be an Enneagram Type 7. It focuses on his personality traits, motivations, inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 7.",
+      "http://schema.org/headline": "Unveiling Logan Paul: Exploring the Enneagram Type 7 Personality",
+      "http://schema.org/image": {
+        "@type": "http://schema.org/ImageObject",
+        "http://schema.org/height": 800,
+        "http://schema.org/url": {
+          "@id": "https://9takes.com/types/7s/Logan-Paul.webp"
+        },
+        "http://schema.org/width": 1200
+      },
+      "http://schema.org/mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Logan-Paul",
+        "@type": "http://schema.org/WebPage"
+      },
+      "http://schema.org/mentions": {
+        "@type": "http://schema.org/Person",
+        "http://schema.org/name": "Logan Paul",
+        "http://schema.org/sameAs": [
+          {
+            "@id": "https://en.wikipedia.org/wiki/Logan_Paul"
+          },
+          {
+            "@id": "https://twitter.com/LoganPaul"
+          },
+          {
+            "@id": "https://www.instagram.com/loganpaul"
+          },
+		  {
+			"@id": "https://www.tiktok.com/@loganpaul"
+		  }
+        ]
+      },
+      "http://schema.org/publisher": {
+        "@type": "http://schema.org/Organization",
+        "http://schema.org/logo": {
+          "@type": "http://schema.org/ImageObject",
+          "http://schema.org/height": 60,
+          "http://schema.org/url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          },
+          "http://schema.org/width": 600
+        },
+        "http://schema.org/name": "9takes"
+      }
+    },
+    {
+      "@type": "http://schema.org/FAQPage",
+      "http://schema.org/mainEntity": [
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Logan Paul exhibits many characteristics associated with Enneagram Type 7 personalities. This includes his adventurous spirit, boundless energy, and relentless pursuit of excitement. These characteristics stem from his core motivation as a Type 7, which is the desire for new experiences and avoiding pain or discomfort"
+          },
+          "http://schema.org/name": "Why is Logan Paul considered an Enneagram Type 7?"
+        },
+        {
+          "@type": "http://schema.org/Question",
+          "http://schema.org/acceptedAnswer": {
+            "@type": "http://schema.org/Answer",
+            "http://schema.org/text": "Logan Paul's daring stunts, thrill-seeking nature, and his ability to bounce back from controversies all reflect his Type 7 characteristics. Additionally, his personal growth journey and the lessons he has learned from past experiences demonstrate the potential growth and resilience of Type 7 individuals."
+          },
+          "http://schema.org/name": "What are some examples of Logan Paul's Type 7 characteristics?""
+        }
+      ]
+    }
+  ]
+}
+</script>
+</div>
+
+<style>
+  .accordion {
+
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+
+  }
+
+  /*.panel:hover {
+
+    background-color: #ccc;
+
+}*/
+
+  .panel {
+
+    padding: 18px;
+    /*display: none;*/
+    background-color: white;
+    overflow: hidden;
+
+  }
+</style>

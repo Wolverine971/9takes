@@ -2,9 +2,9 @@
 title: 'Lele Pons Enneagram Type 7'
 description: 'Why Lele Pons appears to be a type 7'
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lele-Pons'
-lastmod: '2023-03-26'
+lastmod: '2023-06-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
