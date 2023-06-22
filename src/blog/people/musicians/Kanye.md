@@ -38,6 +38,20 @@ tiktok:
 	/>
 </div> -->
 
+> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+
+<details>
+<summary class="accordion">TL;DR: Why booboo is an Enneagram 3</summary>
+<div class="panel">
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+  </div>
+</details>
+
 <p class="firstLetter">You've seen his bold fashion choices, heard his groundbreaking music, and witnessed his controversial moments. Kanye West, the enigmatic artist and cultural icon, has been a constant subject of fascination and debate. Today, we embark on a journey to explore an intriguing perspective on Kanye West's personality, delving into the possibility of him embodying Enneagram Type 7 - The Enthusiast.</p>
 
 ## Defining the Enneagram Type 7: The Enthusiast

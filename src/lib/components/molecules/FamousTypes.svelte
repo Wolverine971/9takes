@@ -27,6 +27,7 @@
 		3: [
 			{ name: 'Kim-Kardashian', link: true },
 			{ name: 'Arnold-Schwarzenegger', link: true },
+			{ name: 'Ariana-Grande', link: true },
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
@@ -34,7 +35,7 @@
 		],
 		4: [
 			{ name: 'Johnny-Depp', link: true },
-			{ name: 'Billie-Eilish', link: false },
+			{ name: 'Charlie-Puth', link: true },
 			{ name: 'Bob-Dylan', link: false },
 			{ name: 'Frida-Kahlo', link: true },
 			{ name: 'Lady-Gaga', link: true },
@@ -62,7 +63,7 @@
 			{ name: 'Elton-John', link: true },
 			{ name: 'Britney-Spears', link: false },
 			{ name: 'John-F.-Kennedy', link: true },
-			{ name: 'Miley-Cyrus', link: false },
+			{ name: 'Miley-Cyrus', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Emily-Ratajkowski', link: true }
 		],
@@ -76,8 +77,8 @@
 			{ name: 'Chelsea-Handler', link: false }
 		],
 		9: [
+			{ name: 'Billie-Eilish', link: true },
 			{ name: 'Abraham-Lincoln', link: false },
-			{ name: 'Ariana-Grande', link: false },
 			{ name: 'Barack-Obama', link: true },
 			{ name: 'Bernie-Sanders', link: true },
 			{ name: 'Marie-Kondo', link: false },

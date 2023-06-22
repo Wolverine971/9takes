@@ -38,4 +38,18 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	/>
 </div> -->
 
+> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+
+<details>
+<summary class="accordion">TL;DR: Why booboo is an Enneagram 3</summary>
+<div class="panel">
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+  </div>
+</details>
+
 <p class="firstLetter"></p>

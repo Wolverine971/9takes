@@ -28,6 +28,7 @@
 		3: [
 			'Arnold-Schwarzenegger',
 			'Nancy-Pelosi',
+			'Ariana-Grande',
 			'Taylor-Swift',
 			'Reese-Witherspoon',
 			'Kim-Kardashian',
@@ -36,6 +37,7 @@
 		4: [
 			'Johnny-Depp',
 			// someone else
+			'Charlie-Puth',
 			'Lady-Gaga',
 			'Bob-Dylan',
 			'Frida-Kahlo',
@@ -79,7 +81,6 @@
 		],
 		9: [
 			'Abraham-Lincoln',
-			'Ariana-Grande',
 			'Barack-Obama',
 			'Billie-Eilish',
 			'Bernie-Sanders',
@@ -154,6 +155,7 @@ cwebp "Bob-Dylan.png" -o "Bob-Dylan.webp"
 cwebp "Frida-Kahlo.png" -o "Frida-Kahlo.webp"
 cwebp "Jackie-Kennedy.png" -o "Jackie-Kennedy.webp"
 cwebp "Johnny-Depp.png" -o "Johnny-Depp.webp"
+cwebp "Charlie-Puth.png" -o "Charlie-Puth.webp"
 
 cwebp "Agatha-Christie.png" -o "Agatha-Christie.webp"
 cwebp "Albert-Einstein.png" -o "Albert-Einstein.webp"

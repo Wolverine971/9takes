@@ -18,10 +18,10 @@ tiktok:
 
 <svelte:head>
 
-  <!-- <meta property="og:image" content="https://9takes.com/types/7s/Miley-Cyrus.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Palmer-Luckey">
+  <meta property="og:image" content="https://9takes.com/types/5s/booboo.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/booboo">
 </svelte:head>
-<!-- <script>
+<script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
@@ -31,9 +31,25 @@ tiktok:
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Miley-Cyrus'}.webp`}
+		image={`/types/5s/${'booboo'}.webp`}
 		showIcon={false}
-		text="Miley Cyrus"
+		text="booboo"
 		subtext=""
 	/>
-</div> -->
+</div>
+
+> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+
+<details>
+<summary class="accordion">TL;DR: Why booboo is an Enneagram 3</summary>
+<div class="panel">
+<ul>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+  </div>
+</details>
+
+<p class="firstLetter"></p>
