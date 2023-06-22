@@ -39,6 +39,8 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
+
 <p class="firstLetter">You've seen him, heard him, and very likely formed an opinion about him. Bernie Sanders, the long-serving senator from Vermont, has been a fixture in American politics for decades. Today, we delve into an interesting perspective on Sanders' persona, proposing him as a classic representation of Enneagram Type 9 - The Peacemaker.</p>
 
 ## Sanders and the Traits of Enneagram Type 9

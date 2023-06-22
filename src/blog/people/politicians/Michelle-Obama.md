@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of Michelle Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Michelle Obama.
+
 <p class="firstLetter">Michelle Obama is a lawyer, writer, and former First Lady of the United States. Her personality traits are indicative of an enneagram type 1, also known as the Perfectionist. Here are four reasons why Michelle Obama fits the characteristics of an enneagram type 1:</p>
 
 ## Strong sense of morality and justice

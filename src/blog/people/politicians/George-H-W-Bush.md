@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of George H. W. Bush's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of George H. W. Bush.
+
 ## Building International Alliances: A Type 6's Collaborative Nature
 
 George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis.

@@ -31,9 +31,9 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Logan-Paul'}.webp`}
+		image={`/types/7s/${'Charli-D'Amelio'}.webp`}
 		showIcon={false}
-		text="Logan Paul"
+		text="Charli D'Amelio"
 		subtext=""
 	/>
 </div> -->

@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of Meghan Markle's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Meghan Markle.
+
 <p class="firstLetter">Meghan Markle, Duchess of Sussex, has captivated global audiences since her engagement to Prince Harry and before that on the TV show "Suits". She has been subject to both fascination and intense scrutiny and here we will make the case that Meghan's displays characteristics of an Enneagram Type 2, also known as The Helper.</p>
 
 ## The Desire to be Needed

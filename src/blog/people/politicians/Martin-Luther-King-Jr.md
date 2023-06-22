@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of Martin Luther King Jr.'s Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Martin Luther King Jr..
+
 <p class="firstLetter">Martin Luther King Jr. was a charismatic leader who fought for civil rights and social justice during the mid-20th century in America. He is widely recognized as an enneagram type 8, also known as the Challenger, due to his strong leadership qualities and determination to fight for what he believed in.</p>
 
 ## He was a powerful and inspirational speaker

@@ -38,6 +38,8 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Barack Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+
 <p class="firstLetter">Obama is most likely the Enneagram type 9, the "Peacemaker." The nine characterized by a desire for harmony, a tendency towards avoiding conflict, a strong empathy for others and at times a tad bit passive agressive. Here we will explore how Obama embodies the type 9.</p>
 
 ## Obama's focus on collaboration and compromise

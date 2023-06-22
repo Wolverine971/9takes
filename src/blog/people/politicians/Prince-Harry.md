@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of Prince Harry's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
+
 <p class="firstLetter">Prince Harry, the Duke of Sussex, is a member of the British royal family known for his philanthropic work and advocacy for mental health awareness. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.</p>
 
 ## Loyalty to his wife

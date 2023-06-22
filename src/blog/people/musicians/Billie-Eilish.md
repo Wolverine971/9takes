@@ -38,6 +38,8 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Billie Eilish's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
+
 <p class="firstLetter">She needs no introduction. Billie Eilish, the bold, Grammy-winning musician, is a rule-breaker in every sense. Her music is unconventional, her style is unapologetic, and her personality is endlessly fascinating. But could all this eccentricity be rooted in her personality type? We propose a daring new perspective: Billie Eilish as an exemplification of Enneagram Type 9, "The Peacemaker."</p>
 
 ## Unraveling the Enigma

@@ -38,6 +38,8 @@ tiktok:
 	/>
 </div>
 
+> **Disclaimer** This analysis of George W. Bush's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of George W. Bush.
+
 ## 9/11: Validation of a Type 6's Worst Fears
 
 George W. Bush, the 43rd president of the United States, is a strong example of an Enneagram Type 6, the Loyalist. The tragic events of September 11, 2001, shook the world and confirmed Bush's worst fears about national security. As a Type 6, he likely felt a heightened sense of anxiety and concern for the safety of the nation. This incident propelled him to take decisive action, demonstrating his commitment to protecting America and its citizens from further harm.

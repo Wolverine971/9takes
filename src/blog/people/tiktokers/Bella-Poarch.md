@@ -31,9 +31,9 @@ tiktok: 'https://www.tiktok.com/@bellapoarch'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Logan-Paul'}.webp`}
+		image={`/types/7s/${'Bella-Poarch'}.webp`}
 		showIcon={false}
-		text="Logan Paul"
+		text="Bella Poarch"
 		subtext=""
 	/>
 </div> -->

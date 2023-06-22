@@ -38,6 +38,8 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Logan Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
+
 <details>
 <summary class="accordion">TL;DR: Why Logan is an Enneagram 7</summary>
 <div class="panel">

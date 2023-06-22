@@ -38,6 +38,8 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Beast.
+
 <details>
 <summary class="accordion">TL;DR: Why Mr. Beast is an Enneagram 8</summary>
 <div class="panel">

@@ -31,10 +31,9 @@ tiktok: 'https://www.tiktok.com/@dixiedamelio'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Logan-Paul'}.webp`}
+		image={`/types/7s/${'Dixie-D'Amelio'}.webp`}
 		showIcon={false}
-		text="Logan Paul"
-		subtext=""
+		text="Dixie D'Ameliot=""
 	/>
 </div> -->
 

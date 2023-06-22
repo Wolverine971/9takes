@@ -31,7 +31,7 @@ tiktok: 'https://www.tiktok.com/@addisonre'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Logan-Paul'}.webp`}
+		image={`/types/7s/${'Josh-Richards'}.webp`}
 		showIcon={false}
 		text="Josh Richards"
 		subtext=""

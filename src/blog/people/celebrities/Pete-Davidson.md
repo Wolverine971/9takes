@@ -40,6 +40,8 @@ tiktok: ''
 	/>
 </div>
 
+> **Disclaimer** This analysis of Pete Davidson's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Pete Davidson.
+
 <details>
 <summary class="accordion">TL;DR: Why Pete is an Enneagram 3</summary>
 <div class="panel">

@@ -40,6 +40,8 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
+
 <details>
 <summary class="accordion">TL;DR: Why Kim is an Enneagram 3</summary>
 <div class="panel">
