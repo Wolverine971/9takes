@@ -40,10 +40,10 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of David Dobrik's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Dobrik.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why David Dobrik is an Enneagram 7</summary>
 <div class="panel">
 <ul>
 <li><b>The Ever-Seeking Enthusiast</b>: David Dobrik, the YouTube sensation, is an engaging example of Enneagram Type 7 personality - The Enthusiast. Known for his energetic demeanor and adventurous spirit, Dobrik's perpetual pursuit of novelty, as seen in his diverse interests and relationships, aligns with the Type 7’s quest for constant stimulation and fear of missing out.</li>

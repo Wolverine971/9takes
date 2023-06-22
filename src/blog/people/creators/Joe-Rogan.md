@@ -40,4 +40,6 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 	/>
 </div> -->
 
+> **Disclaimer** This analysis of Joe Rogan's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Joe Rogan.
+
 <p class="firstLetter"></p>

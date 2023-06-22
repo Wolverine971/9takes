@@ -43,16 +43,6 @@
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
 <div class="blog-list">
-	<h3 class="position-center">Politicians</h3>
-	<ul>
-		{#each politicians as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
-		{/each}
-	</ul>
 	<h3 class="position-center">Celebrities</h3>
 	<ul>
 		{#each celebrities as person}
@@ -78,6 +68,16 @@
 	<h3 class="position-center">Creators</h3>
 	<ul>
 		{#each creators as person}
+			<li>
+				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
+					{person?.slug?.split('-').join(' ')}
+				</a>
+			</li>
+		{/each}
+	</ul>
+	<h3 class="position-center">Politicians</h3>
+	<ul>
+		{#each politicians as person}
 			<li>
 				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
 					{person?.slug?.split('-').join(' ')}

@@ -2,9 +2,9 @@
 title: 'Charlie Puth– An Enneagram Type 4'
 description: 'Why Charlie Puth appears to be a type 4'
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2023-06-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Charlie-Puth'
-lastmod: '2023-06-17'
+lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

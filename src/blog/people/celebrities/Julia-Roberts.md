@@ -37,3 +37,5 @@ tiktok:
 		subtext=""
 	/>
 </div> -->
+
+> **Disclaimer** This analysis of Julia Roberts's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Julia Roberts.

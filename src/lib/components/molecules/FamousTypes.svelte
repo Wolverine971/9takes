@@ -31,7 +31,8 @@
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
-			{ name: 'Reese-Witherspoon', link: false }
+			{ name: 'Reese-Witherspoon', link: false },
+			{ name: 'Jake-Paul', link: false }
 		],
 		4: [
 			{ name: 'Johnny-Depp', link: true },
@@ -64,6 +65,7 @@
 			{ name: 'Britney-Spears', link: false },
 			{ name: 'John-F.-Kennedy', link: true },
 			{ name: 'Miley-Cyrus', link: true },
+			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Emily-Ratajkowski', link: true }
 		],

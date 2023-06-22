@@ -37,3 +37,5 @@ tiktok:
 		subtext=""
 	/>
 </div> -->
+
+> **Disclaimer** This analysis of Chelsea Handler's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Chelsea Handler.

@@ -38,6 +38,8 @@ tiktok: 'https://www.tiktok.com/@marilynmonroe'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Marilyn Monroe's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Marilyn Monroe.
+
 <p class="firstLetter">Marilyn Monroe was an iconic Hollywood actress and cultural icon of the 1950s and 1960s. While her life was cut short, her legacy lives on as a symbol of beauty, glamour, and sex appeal. But beneath her public image, there was a vulnerable and insecure person who struggled with anxiety and self-doubt. In this blog, we will explore why Marilyn Monroe was an Enneagram Type 6 and how this personality type influenced her life and career.</p>
 
 ## Fear and Anxiety

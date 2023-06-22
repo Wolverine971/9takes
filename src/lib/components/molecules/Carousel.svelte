@@ -32,7 +32,7 @@
 			'Taylor-Swift',
 			'Reese-Witherspoon',
 			'Kim-Kardashian',
-			
+			'Jake-Paul'
 		],
 		4: [
 			'Johnny-Depp',
@@ -67,6 +67,7 @@
 			'Britney-Spears',
 			'John-F-Kennedy',
 			'Miley-Cyrus',
+			'David-Dobrik',
 			'Robin-Williams',
 			'Emily-Ratajkowski'
 		],
@@ -86,6 +87,7 @@
 			'Bernie-Sanders',
 			'Marie-Kondo',
 			'Zooey-Deschanel',
+			'Pete-Davidson',
 			'Queen-Elizabeth-II',
 			'Ronald-Reagan'
 		]

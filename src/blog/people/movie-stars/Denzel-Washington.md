@@ -37,4 +37,6 @@ margin: 1rem 0;"
 	/>
 </div>
 
+> **Disclaimer** This analysis of Denzel Washington's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Denzel Washington.
+
 <p class="firstLetter"></p>

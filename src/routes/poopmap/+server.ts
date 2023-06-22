@@ -46,7 +46,7 @@ const getAllPosts = async () => {
 		tiktokers
 	];
 
-	let body = [];
+	const body = [];
 
 	for (const category in imports) {
 		for (const path in imports[category]) {
@@ -113,8 +113,8 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-05-10</lastmod>
-	    <changefreq>monthly</changefreq>
+	    <lastmod>2023-06-21</lastmod>
+	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 

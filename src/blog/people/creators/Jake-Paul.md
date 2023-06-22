@@ -2,9 +2,9 @@
 title: 'Jake Paul Enneagram Type 3'
 description: 'Why Jake Paul appears to be a type 3'
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2023-06-021'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jake-Paul'
-lastmod: '2023-03-26'
+lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -41,10 +41,10 @@ logan paul
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Jake Paul is an Enneagram type 3</summary>
 <div class="panel">
 <ul>
 <li><b>Ambition in Overdrive</b>: Known for his brash confidence and relentless ambition, Jake Paul's rise from social media star to boxing celebrity reflects the quintessential Type 3 trait - an overwhelming desire to succeed. His decision to enter the brutal boxing ring shows his drive to achieve, challenging public skepticism about his fighting prowess.</li>

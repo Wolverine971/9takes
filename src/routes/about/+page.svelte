@@ -19,7 +19,7 @@
 	<h1 style="text-align: center;">About 9takes</h1>
 
 	<p>
-		<b>Everyone is unique. </b><br />We know that intellectually. But why do some people (not you
+		<b>Everyone is unique ✨</b><br />We know that intellectually. But why do some people (not you
 		😉) get surprised when someone doesn't agree with them. Surely if that other person had all the
 		facts, was smart, kind and had your experience they would totally agree with your POV. We forget
 		that other people can have facts, be smart, kind and have similar experiences AND still
