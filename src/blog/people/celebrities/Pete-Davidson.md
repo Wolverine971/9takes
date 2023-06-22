@@ -1,6 +1,6 @@
 ---
-title: 'Pete Davidson Enneagram Type 3'
-description: 'Why Pete Davidson appears to be a type 3'
+title: 'Pete Davidson Enneagram Type 9'
+description: 'Why Pete Davidson appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Pete-Davidson'
@@ -8,7 +8,7 @@ lastmod: '2023-06-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 9
 type: ['celebrity']
 wikipedia: ''
 twitter: ''
@@ -20,7 +20,7 @@ tiktok: ''
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/Pete-Davidson.webp" />
+  <meta property="og:image" content="https://9takes.com/types/9s/Pete-Davidson.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pete-Davidson">
 </svelte:head>
 <script>
@@ -33,7 +33,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Pete-Davidson'}.webp`}
+		image={`/types/9s/${'Pete-Davidson'}.webp`}
 		showIcon={false}
 		text="Pete Davidson"
 		subtext=""

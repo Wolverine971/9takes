@@ -44,12 +44,12 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 <summary class="accordion">TL;DR: Why Mr. Beast is an Enneagram 8</summary>
 <div class="panel">
 <ul>
-<li>Influence and Impact: Mr. Beast's philanthropic exploits and his uncanny ability to sway the digital world underline his Enneagram Type 8 persona. His quest for making a tangible difference mirrors Type 8's inherent drive to influence their environment, a testament to his powerful presence online.
+<li><b>Influence and Impact</b>: Mr. Beast's philanthropic exploits and his uncanny ability to sway the digital world underline his Enneagram Type 8 persona. His quest for making a tangible difference mirrors Type 8's inherent drive to influence their environment, a testament to his powerful presence online.
 </li>
-<li>Inner World and Autonomy: Beneath the YouTube persona, Mr. Beast is a staunch defender of his independence. His strategic decision to retain autonomy over his work, resisting the pull of external control, aligns with the Type 8's intense desire to protect their sovereignty.
+<li><b>Inner World and Autonomy</b>: Beneath the YouTube persona, Mr. Beast is a staunch defender of his independence. His strategic decision to retain autonomy over his work, resisting the pull of external control, aligns with the Type 8's intense desire to protect their sovereignty.
 </li>
-<li>Controversies and Empathy: Mr. Beast's journey is not without controversies, from allegations about his team's working conditions to the debates around his grand giveaways. Yet, these challenges echo the Type 8's core fear - the fear of being harmed or controlled by others. Understanding this can spark empathy towards the Challenger navigating the public eye.</li>
-<li>Core Motivation: Mr. Beast's actions, grand or subtle, can be traced back to his core motivation as a Type 8 – the desire to protect themselves and their independence. Whether it's his philanthropy, his response to controversies, or his insistence on autonomy, everything feeds into this fundamental desire, revealing a multi-dimensional picture of Mr. Beast as a true Enneagram Type 8.
+<li><b>Controversies and Empathy</b>: Mr. Beast's journey is not without controversies, from allegations about his team's working conditions to the debates around his grand giveaways. Yet, these challenges echo the Type 8's core fear - the fear of being harmed or controlled by others. Understanding this can spark empathy towards the Challenger navigating the public eye.</li>
+<li><b>Core Motivation</b>: Mr. Beast's actions, grand or subtle, can be traced back to his core motivation as a Type 8 – the desire to protect themselves and their independence. Whether it's his philanthropy, his response to controversies, or his insistence on autonomy, everything feeds into this fundamental desire, revealing a multi-dimensional picture of Mr. Beast as a true Enneagram Type 8.
 
 </li>
 </ul>

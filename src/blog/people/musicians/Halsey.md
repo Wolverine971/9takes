@@ -39,10 +39,10 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+> **Disclaimer** This analysis of Halsey's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram 3</summary>
+<summary class="accordion">TL;DR: Why Halsey is an Enneagram 3</summary>
 <div class="panel">
 <ul>
 <li></li>

@@ -19,8 +19,8 @@ tiktok:
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/5s/booboo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/booboo">
+  <meta property="og:image" content="https://9takes.com/types/5s/Jason Calacanis.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis">
 </svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -32,17 +32,17 @@ tiktok:
 	"
 >
 	<PopCard
-		image={`/types/5s/${'booboo'}.webp`}
+		image={`/types/5s/${'Jason-Calacanis'}.webp`}
 		showIcon={false}
-		text="booboo"
+		text="Jason Calacanis"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jason Calacanis.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram 3</summary>
+<summary class="accordion">TL;DR: Why Jason Calacanis is an Enneagram 3</summary>
 <div class="panel">
 <ul>
 <li></li>

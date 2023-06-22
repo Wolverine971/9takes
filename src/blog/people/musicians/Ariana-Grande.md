@@ -47,13 +47,13 @@ tiktok: 'https://www.tiktok.com/@arianagrande'
 <summary class="accordion">TL;DR: Why Ariana Grande is an Enneagram 3</summary>
 <div class="panel">
 <ul>
-<li>Rise to Fame: Ariana's relentless drive to excel, reflected in her successful transition from a child actress to a world-renowned pop star, aligns with the Enneagram Type 3's trait of ambitious goal-setting and ceaseless pursuit of achievement.
+<li><b>Rise to Fame</b>: Ariana's relentless drive to excel, reflected in her successful transition from a child actress to a world-renowned pop star, aligns with the Enneagram Type 3's trait of ambitious goal-setting and ceaseless pursuit of achievement.
 </li>
-<li>Inner World: Ariana's intense focus on accomplishment and image, often at the expense of personal vulnerabilities, echoes the Achiever's daily struggle with identity. She navigates the world with a clear understanding of her goals, exhibiting the typical Type 3 behavior of equating self-worth with achievements.
+<li><b>Inner World</b>: Ariana's intense focus on accomplishment and image, often at the expense of personal vulnerabilities, echoes the Achiever's daily struggle with identity. She navigates the world with a clear understanding of her goals, exhibiting the typical Type 3 behavior of equating self-worth with achievements.
 </li>
-<li>Handling Controversies: Ariana's resilience in the face of adversities, such as the aftermath of the Manchester bombing incident, highlights her Enneagram Type 3 traits. Her struggle with post-traumatic stress and her determined effort to rise above the tragedy embody the Type 3's fear of failure and their instinct to overcome obstacles.
+<li><b>Handling Controversies</b>: Ariana's resilience in the face of adversities, such as the aftermath of the Manchester bombing incident, highlights her Enneagram Type 3 traits. Her struggle with post-traumatic stress and her determined effort to rise above the tragedy embody the Type 3's fear of failure and their instinct to overcome obstacles.
 </li>
-<li>Core Motivation: Ariana's career path, artistic evolution, and public persona reflect the Enneagram Type 3's core motivation – the desire to be successful and admired. This driving force manifests in her continuous quest for musical excellence and an attractive public image, which are characteristic of the Achiever's relentless pursuit of validation through accomplishment.
+<li><b>Core Motivation</b>: Ariana's career path, artistic evolution, and public persona reflect the Enneagram Type 3's core motivation – the desire to be successful and admired. This driving force manifests in her continuous quest for musical excellence and an attractive public image, which are characteristic of the Achiever's relentless pursuit of validation through accomplishment.
 </li>
 </ul>
   </div>
