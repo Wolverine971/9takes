@@ -149,6 +149,9 @@ cwebp "Taylor-Swift.png" -o "Taylor-Swift.webp"
 cwebp "Kim-Kardashian.png" -o "Kim-Kardashian.webp"
 cwebp "Logan-Paul.png" -o "Logan-Paul.webp"
 
+cwebp "Pete-Davidson.png" -o "Pete-Davidson.webp"
+cwebp "Jenna-Marbles.png" -o "Jenna-Marbles.webp"
+
 
 cwebp "Billie-Eilish.png" -o "Billie-Eilish.webp"
 cwebp "Bob-Dylan.png" -o "Bob-Dylan.webp"
@@ -182,6 +185,7 @@ cwebp "Miley-Cyrus.png" -o "Miley-Cyrus.webp"
 cwebp "Robin-Williams.png" -o "Robin-Williams.webp"
 cwebp "Tiffany-Haddish.png" -o "Tiffany-Haddish.webp"
 cwebp "Emily-Ratajkowski.png" -o "Emily-Ratajkowski.webp"
+cwebp "David-Dobrik.png" -o "David-Dobrik.webp"
 
 
 cwebp "Chelsea-Handler.png" -o "Chelsea-Handler.webp"
