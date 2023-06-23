@@ -213,20 +213,22 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
 </script>
 </div>
 
-<style>
+<style lang="scss">
   .accordion {
-
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+  }
 
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
   }
 
   /*.panel:hover {

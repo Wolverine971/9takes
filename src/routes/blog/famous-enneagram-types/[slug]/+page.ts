@@ -79,8 +79,8 @@ export const load: PageLoad = async ({
 
 		.filter((p) => params.slug !== p.slug)
 		.sort(() => 0.5 - Math.random())
-		// most recent
-		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+	// most recent
+	// .sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	// limit
 	// .slice(0, MAX_POSTS);

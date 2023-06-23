@@ -26,6 +26,7 @@
 			'Jennifer-Garner'
 		],
 		3: [
+			'Dua-Lipa',
 			'Arnold-Schwarzenegger',
 			'Nancy-Pelosi',
 			'Ariana-Grande',
@@ -35,6 +36,7 @@
 			'Jake-Paul'
 		],
 		4: [
+			'Demi-Lovato',
 			'Johnny-Depp',
 			// someone else
 			'Charlie-Puth',

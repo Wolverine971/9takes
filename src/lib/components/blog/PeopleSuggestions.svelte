@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Card from '../atoms/card.svelte';
 	import Pluralize from 'pluralize';
 
 	export let suggestions: {
@@ -20,7 +19,7 @@
 		<div style="column">
 			<h3>More {capitalizedPluralNiche}</h3>
 			{#each suggestions.niche.posts.slice(0, 5) as { slug, title, author, description, date }}
-				<a class="card1" href={slug}>
+				<a class="suggestion-link" href={slug}>
 					<h3 class="small-h3" {title}>{title}</h3>
 					<p class="small" title={description}>{description}</p>
 					<div class="go-corner">
@@ -33,7 +32,7 @@
 		<div class="column">
 			<h3>More Enneagram {suggestions.sameEnneagram.type}s</h3>
 			{#each suggestions.sameEnneagram.posts.slice(0, 5) as { slug, title, author, description, date }}
-				<a class="card1" href={slug}>
+				<a class="suggestion-link" href={slug}>
 					<h3 class="small-h3" {title}>{title}</h3>
 					<p class="small" title={description}>{description}</p>
 					<div class="go-corner">
@@ -88,7 +87,7 @@
 		font-family: courier, sans;
 	}
 
-	.card1 {
+	.suggestion-link {
 		display: block;
 		position: relative;
 		max-width: 262px;
@@ -126,7 +125,7 @@
 		}
 	}
 
-	.card1:hover {
+	.suggestion-link:hover {
 		transform: rotate(1deg);
 		p {
 			transition: all 0.3s ease-out;
@@ -142,68 +141,8 @@
 		display: flex;
 		justify-content: space-evenly;
 	}
-	.blog-preview {
-		box-sizing: border-box;
-		max-width: none;
-		height: clamp(1rem, 145px, 12rem);
-		width: clamp(1rem, 321px, 32rem);
-		background: border-box;
-		// margin-bottom: 20px;
-		display: flex;
-		flex-direction: column;
-		flex: 1;
-		max-height: 500px;
-		max-width: 460px;
-		margin: 1rem;
-	}
-	.big-a:hover {
-		text-decoration: none;
-	}
-
-	.preview {
-		text-overflow: clip;
-		white-space: nowrap;
-		overflow-x: clip;
-		overflow: hidden;
-	}
-	.row {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 100%;
-		padding: 0 10%;
-	}
-
-	.section-main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.section-content {
-		border-right: solid;
-		margin: 10px;
-		padding: 10px;
-	}
-
-	.section-meta {
-		margin: 10px;
-		padding: 10px;
-		transform: rotate(90deg);
-		transition: transform 0.7s ease-in-out;
-	}
-
-	.section-meta:hover {
-		transform: rotate(360deg);
-	}
 
 	@media all and (max-width: 576px) {
-		.row {
-			display: flex;
-			flex-direction: column;
-			width: 100%;
-			padding: 0 10%;
-		}
-
 		.column {
 			display: flex;
 			flex-direction: column;

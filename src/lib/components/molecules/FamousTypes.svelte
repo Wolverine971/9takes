@@ -29,12 +29,14 @@
 			{ name: 'Arnold-Schwarzenegger', link: true },
 			{ name: 'Ariana-Grande', link: true },
 			{ name: 'Meghan-Markle', link: true },
+			{ name: 'Dua-Lipa', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
 			{ name: 'Reese-Witherspoon', link: false },
-			{ name: 'Jake-Paul', link: false }
+			{ name: 'Jake-Paul', link: true }
 		],
 		4: [
+			{ name: 'Demi-Lovato', link: true },
 			{ name: 'Johnny-Depp', link: true },
 			{ name: 'Charlie-Puth', link: true },
 			{ name: 'Bob-Dylan', link: false },
@@ -113,7 +115,7 @@
 					{person.name.split('-').join(' ')}
 				</a>
 			{:else}
-				<p>{person.name.split('-').join(' ')}</p>
+				<p style="margin: 0;">{person.name.split('-').join(' ')}</p>
 			{/if}
 		</li>
 	{/each}

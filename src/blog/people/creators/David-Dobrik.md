@@ -208,20 +208,22 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
 </script>
 </div>
 
-<style>
+<style lang="scss">
   .accordion {
-
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+  }
 
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
   }
 
   /*.panel:hover {

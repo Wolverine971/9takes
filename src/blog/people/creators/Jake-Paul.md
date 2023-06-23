@@ -201,20 +201,22 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
 </script>
 </div>
 
-<style>
+<style lang="scss">
   .accordion {
-
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+  }
 
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
   }
 
   /*.panel:hover {

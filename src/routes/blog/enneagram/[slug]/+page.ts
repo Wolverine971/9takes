@@ -20,10 +20,10 @@ export const load: PageLoad = async ({ params }) => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					slug: slugFromPath(path),
-					...(post as unknown as App.MdsvexFile).metadata
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path),
+			} as App.BlogPost)
 		)
 	);
 
@@ -32,9 +32,10 @@ export const load: PageLoad = async ({ params }) => {
 		.filter((post) => post.published)
 		.filter((post) => post.blog)
 		.filter((post) => params.slug !== post.slug)
+		.sort(() => 0.5 - Math.random())
 		.slice(0, MAX_POSTS);
 
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+	// publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
 	if (!post || !post?.metadata?.published) {
 		// throw error(404); // Couldn't resolve the post
