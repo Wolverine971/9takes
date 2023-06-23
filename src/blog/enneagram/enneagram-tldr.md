@@ -32,7 +32,7 @@ blog: true
 
 **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Analytical and introspective, the Investigator is motivated by a need for knowledge and understanding. They can be reserved and detached, and can struggle with social interactions. <a href="/blog/enneagram/enneagram-type-5" > More about the 5 </a>
 
-*[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Dependable and loyal, the Loyalist is motivated by a need for security and stability. They can be anxious and indecisive, and can struggle with trust issues. <a href="/blog/enneagram/enneagram-type-6" > More about the 6 </a>
+**[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Dependable and loyal, the Loyalist is motivated by a need for security and stability. They can be anxious and indecisive, and can struggle with trust issues. <a href="/blog/enneagram/enneagram-type-6" > More about the 6 </a>
 
 **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Fun-loving and adventurous, the Enthusiast is motivated by a need for stimulation and variety. They can be scattered and avoidant, and can struggle with commitment. <a href="/blog/enneagram/enneagram-type-7" > More about the 7 </a>
 

@@ -10,7 +10,10 @@ export const load: PageLoad = async ({
 	component: any;
 	frontmatter: any;
 	slug: string;
-	posts: App.BlogPost[];
+	suggestions: {
+		niche: { type: string; posts: App.BlogPost[] };
+		sameEnneagram: { type: string; posts: App.BlogPost[] };
+	};
 }> => {
 	const pposts: { post: any; posts: any[] } = await getAllPosts(params.slug);
 	let group: any = null;
@@ -60,31 +63,6 @@ export const load: PageLoad = async ({
 
 	const post = await match?.resolver?.();
 
-	const postPromises = Object.entries(group).map(
-		([path, resolver]: [path: string, resolver: any]) =>
-			resolver().then(
-				(post: any) =>
-					({
-						slug: slugFromPath(path),
-						...(post as unknown as App.MdsvexFile).metadata
-					} as App.BlogPost)
-			)
-	);
-
-	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts
-		.filter((p) => p.published)
-		.filter(
-			(p) =>
-				(post?.metadata.enneagram &&
-					p?.enneagram === parseInt(post?.metadata.enneagram as string)) ||
-				(post?.metadata.type[0] && p.type?.includes(post?.metadata.type[0]))
-		)
-		.filter((p) => params.slug !== p.slug)
-		.slice(0, MAX_POSTS);
-
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
-
 	if (!post || !post.metadata.published) {
 		// throw error(404); // Couldn't resolve the post
 		throw error(404, {
@@ -92,11 +70,43 @@ export const load: PageLoad = async ({
 		});
 	}
 
+	const sameEnneagramPosts = pposts.posts
+		.filter((p) => p.published)
+		.filter(
+			(p) =>
+				post?.metadata.enneagram && p?.enneagram === parseInt(post?.metadata.enneagram as string)
+		)
+
+		.filter((p) => params.slug !== p.slug)
+		.sort(() => 0.5 - Math.random())
+		// most recent
+		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+
+	// limit
+	// .slice(0, MAX_POSTS);
+
+	const sameNichePosts = pposts.posts
+		.filter((p) => p.published)
+		.filter((p) => post?.metadata.type?.length && p?.type?.includes(post?.metadata.type[0]))
+		.filter((p) => params.slug !== p.slug)
+		.sort(() => 0.5 - Math.random());
+	// most recent
+	// .sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+
+	// limit
+	// .slice(0, MAX_POSTS);
+
 	return {
 		component: post.default,
 		frontmatter: post.metadata as App.BlogPost,
 		slug: params.slug,
-		posts: publishedPosts
+		suggestions: {
+			niche: { posts: sameNichePosts, type: post.metadata.type ? post.metadata.type[0] : '' },
+			sameEnneagram: {
+				posts: sameEnneagramPosts,
+				type: post.metadata.enneagram ? post.metadata.enneagram.toString() : ''
+			}
+		}
 	};
 };
 

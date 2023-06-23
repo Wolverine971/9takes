@@ -15,7 +15,9 @@ twitter: 'https://twitter.com/LoganPaul'
 instagram: 'https://www.instagram.com/loganpaul'
 tiktok: 'https://www.tiktok.com/@loganpaul'
 ---
+
 <!-- notes: dating, how Logan became famous, join wwe, where is Logan from, Jake, can logan fight, net worth, prime, is my hero, to ufc, can wrestle, mayweather, ksi, boxing, girlfriend -->
+
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/7s/Logan-Paul.webp" />

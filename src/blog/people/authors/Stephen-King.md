@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/Stephen-King'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 2
 type: ['celebrity']
 wikipedia: 'https://en.wikipedia.org/wiki/Fred_Rogers'

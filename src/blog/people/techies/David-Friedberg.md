@@ -16,8 +16,6 @@ instagram:
 tiktok:
 ---
 
-
-
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/5s/David-Friedberg.webp" />

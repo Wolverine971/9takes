@@ -1,4 +1,6 @@
 <script lang="ts">
+	import PeopleSuggestions from '$lib/components/blog/PeopleSuggestions.svelte';
+
 	import type { PageData } from './$types';
 	import type { SvelteComponentTyped } from 'svelte/internal';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -24,7 +26,7 @@
 
 <hr style="margin: 5rem;" />
 
-<BlogList posts={data?.posts} />
+<PeopleSuggestions suggestions={data?.suggestions} />
 
 <div class="join">
 	{#if !data?.session?.user}

@@ -64,7 +64,7 @@
 			</li>
 		{/each}
 	</ul>
-	
+
 	<h3 class="position-center">Creators</h3>
 	<ul>
 		{#each creators as person}

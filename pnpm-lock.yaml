@@ -31,6 +31,7 @@ specifiers:
   mermaid: ^9.3.0
   natural: ^6.2.0
   node-sass: ^8.0.0
+  pluralize: ^8.0.0
   postcss: ^8.4.14
   postcss-load-config: ^4.0.1
   postcss-preset-env: ^7.8.3
@@ -66,6 +67,7 @@ dependencies:
   gsap: 3.12.1
   mermaid: 9.4.0
   natural: 6.2.0
+  pluralize: 8.0.0
   rehype-autolink-headings: 6.1.1
   rehype-slug: 5.1.0
   remark-abbr: 1.4.1
@@ -3786,6 +3788,11 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
     dev: true
+
+  /pluralize/8.0.0:
+    resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
+    engines: {node: '>=4'}
+    dev: false
 
   /postcss-attribute-case-insensitive/5.0.2_postcss@8.4.21:
     resolution: {integrity: sha512-XIidXV8fDr0kKt28vqki84fRK8VW8eTuIa4PChv2MqKuT6C9UjmSKzen6KaWhWEoYvwxFCa7n/tC1SZ3tyq4SQ==}

@@ -15,7 +15,9 @@ twitter: 'https://twitter.com/charlieputh'
 instagram: 'https://www.instagram.com/charlieputh/'
 tiktok: 'https://www.tiktok.com/@charlieputh'
 ---
+
 <!-- notes: can hear notes, without autotune, dating married, jimmy fallon, concert, shawn mendes,meghan trainor, sabrina carpenter, songs, girlfriend, age, attention -->
+
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/types/4s/Charlie-Puth.webp" />

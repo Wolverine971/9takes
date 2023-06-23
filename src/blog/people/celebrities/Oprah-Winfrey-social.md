@@ -3,25 +3,18 @@
 Oprah Winfrey, renowned media executive and philanthropist, is often typed as an Enneagram 2, also known as the Helper. This typing is evidenced by a few key aspects of her personality and career:
 
 1. An Embodiment of Generosity and Empathy
-Oprah's public persona and career are emblematic of the Helper's desire to be loved and appreciated1. Her talk show, philanthropy, and extensive efforts to empower others reflect her focus on interpersonal relationships and generosity. The Helpers are caring, interpersonal, generous, people-pleasing, and possessive1, all characteristics apparent in Oprah's professional and personal life.
+   Oprah's public persona and career are emblematic of the Helper's desire to be loved and appreciated1. Her talk show, philanthropy, and extensive efforts to empower others reflect her focus on interpersonal relationships and generosity. The Helpers are caring, interpersonal, generous, people-pleasing, and possessive1, all characteristics apparent in Oprah's professional and personal life.
 
 2. Inner World: A Daily Commitment to Helping Others
-Inside Oprah's world, there's likely an everyday commitment to the welfare of others that goes unseen. Helpers are driven by a need to be needed, and Oprah’s regular engagement with charitable activities, mentorship, and empowerment initiatives suggest that her inner world is centered around service and helping others. This unseen, daily devotion underscores her alignment with the Enneagram 2 type.
+   Inside Oprah's world, there's likely an everyday commitment to the welfare of others that goes unseen. Helpers are driven by a need to be needed, and Oprah’s regular engagement with charitable activities, mentorship, and empowerment initiatives suggest that her inner world is centered around service and helping others. This unseen, daily devotion underscores her alignment with the Enneagram 2 type.
 
 3. Controversy: The Desire to Be Loved
-A point of controversy in Oprah's career has been her openness to sharing personal struggles and vulnerabilities, which some criticize as a strategy for gaining public affection. This could be seen as a manifestation of the Helper’s core fear of being unloved or unwanted1. However, it’s important to approach this with empathy, recognizing that the fear of being unloved is a deeply human condition, and Oprah's openness could be her way of dealing with this fear.
+   A point of controversy in Oprah's career has been her openness to sharing personal struggles and vulnerabilities, which some criticize as a strategy for gaining public affection. This could be seen as a manifestation of the Helper’s core fear of being unloved or unwanted1. However, it’s important to approach this with empathy, recognizing that the fear of being unloved is a deeply human condition, and Oprah's openness could be her way of dealing with this fear.
 
 4. Core Motivation: Desire to Make a Difference
-Oprah's core motivation can be traced back to the Helper’s desire to feel loved and valued by making a significant contribution to the world1. Her diverse initiatives, from her talk show to her leadership academy in South Africa, all seem driven by this motivation. Even her choice of topics and guests on her show often reflects a desire to spread positivity, help others, and make a difference.
+   Oprah's core motivation can be traced back to the Helper’s desire to feel loved and valued by making a significant contribution to the world1. Her diverse initiatives, from her talk show to her leadership academy in South Africa, all seem driven by this motivation. Even her choice of topics and guests on her show often reflects a desire to spread positivity, help others, and make a difference.
 
 In summary, Oprah Winfrey's Enneagram typing as a 2, the Helper, is illustrated by her generosity and interpersonal focus, her inner world dedicated to service, her handling of personal fears and vulnerabilities, and her core motivation to make a difference and be valued for it.
-
-
-
-
-
-
-
 
 # twitter
 
@@ -46,10 +39,7 @@ Tweet 6:
 Tweet 7:
 "Join us next time as we continue to explore other famous personalities through the lens of the Enneagram. Until then, keep learning, growing, and understanding each other better. #StayTuned #EnneagramExploration"
 
-
-
 # Tiktok script
-
 
 [Clip 1: (Creator on screen, upbeat music playing in the background)]
 "Hey there, TikTok! Have you ever wondered about the personalities of our favorite celebrities? How about Oprah Winfrey? 🌟"

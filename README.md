@@ -57,8 +57,8 @@ magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 1
 
 cwebp "background4.png" -o "background4.webp"
 
-<!-- 
-## transitions 
+<!--
+## transitions
 https://www.youtube.com/watch?v=ecP8RwpkiQw
 -->
 

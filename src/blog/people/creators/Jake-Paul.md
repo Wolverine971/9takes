@@ -15,6 +15,7 @@ twitter: 'https://twitter.com/jakepaul'
 instagram: 'https://www.instagram.com/jakepaul'
 tiktok: 'https://www.tiktok.com/@jakepaul'
 ---
+
 <!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news -->
 
 logan paul
@@ -83,7 +84,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - They might feel alienated by Jake's mainstream success, viewing it as lacking depth and authenticity. His relentless ambition might seem superficial to them.
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - They could find Jake's life intriguing, studying his career trajectory and personal life in an attempt to understand what drives him. However, they might also see his controversies as avoidable, unnecessary drama.
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - They might appreciate Jake's loyalty to his career goals, yet his unpredictable actions could make them wary. His seeming lack of security and stability could be unsettling.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** -  Likely to be entertained by Jake's vibrant public persona, they might admire his ability to turn even negative publicity into a form of success. However, they might not relate to his constant need for validation.
+- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Likely to be entertained by Jake's vibrant public persona, they might admire his ability to turn even negative publicity into a form of success. However, they might not relate to his constant need for validation.
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - They could resonate with Jake's assertiveness and his courage to challenge established fighters. Yet, they might question his handling of power and influence.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Likely to feel overwhelmed by Jake's aggressive approach to life, they might wish he'd seek harmony over conflict. His controversial actions might conflict with their desire for peace and stability.
 
