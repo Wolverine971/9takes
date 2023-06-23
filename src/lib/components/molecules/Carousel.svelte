@@ -62,6 +62,7 @@
 		],
 		7: [
 			'Logan-Paul',
+			'Kanye',
 			'Elton-John',
 			// someone else
 			'Britney-Spears',

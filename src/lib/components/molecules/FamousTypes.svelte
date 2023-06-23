@@ -62,9 +62,11 @@
 		7: [
 			{ name: 'Logan-Paul', link: true },
 			{ name: 'Elton-John', link: true },
+
 			{ name: 'Britney-Spears', link: false },
 			{ name: 'John-F.-Kennedy', link: true },
 			{ name: 'Miley-Cyrus', link: true },
+			{ name: 'Kanye', link: true },
 			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Emily-Ratajkowski', link: true }
