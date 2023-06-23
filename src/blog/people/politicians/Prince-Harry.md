@@ -48,7 +48,7 @@ One of the key characteristics of Type 6 is loyalty, and Prince Harry has demons
 
 ## He is concerned about security and safety
 
-Another hallmark of Enneagram Type 6s is their concern for security and safety, and this is evident in Prince Harry's behavior. He has spoken publicly about his struggles with mental health and the toll that the intense scrutiny of the media has taken on him and his family. He has also been involved in numerous charitable endeavors that aim to provide support and resources for those who are struggling with mental health issues.
+Another hallmark of Enneagram Type 6s is their concern for security and safety, and this is evident in Prince Harry's behavior. He has spoken publicly about his struggles with mental health and the toll that the intense scrutiny of the media has taken on him and his family. He has also been involved in numerous charitable endeavors that aim to provide support and resources for those who are struggling with mental health issues 🧠💡.
 
 ## He seeks guidance and support
 

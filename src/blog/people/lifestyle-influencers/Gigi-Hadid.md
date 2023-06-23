@@ -51,7 +51,7 @@ Enneagram Type 4 individuals, like Gigi, are known for their introspective natur
 
 Gigi's move to separate herself from the stereotypical model image has always been evident. From embracing her natural body type in a world pressuring conformity to the waif-thin model norm, to her openly voicing her perspectives on social and political issues - Gigi exemplifies the essence of a Type 4.
 
-The highly publicized feud with designer Tommy Hilfiger, who allegedly wanted her to wear a poncho on the runway due to her not fitting the 'typical' model body type, stands out. Instead of succumbing, Gigi turned this into an opportunity for personal expression and authenticity, hallmarks of a Type 4 personality.
+The highly publicized feud with designer Tommy Hilfiger 🥊, who allegedly wanted her to wear a poncho on the runway due to her not fitting the 'typical' model body type, stands out. Instead of succumbing, Gigi turned this into an opportunity for personal expression and authenticity, hallmarks of a Type 4 personality.
 
 ## Drama, Controversy, and The Enneagram Type 4
 

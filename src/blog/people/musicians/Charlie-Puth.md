@@ -71,11 +71,11 @@ The Individualist's creativity extends beyond music. Puth's visually engaging mu
 
 If you delve deeper into Puth's discography, you'll encounter a tapestry of deep-seated emotions. His songs often touch on themes of heartache, self-doubt, and love lost—topics that echo the Type 4's tendency to dwell in their emotional landscape.
 
-Puth's openness about his struggles with mental health further illustrates his Type 4 emotional depth. His transparency about dealing with bullying and social anxiety reflects the Type 4's willingness to confront, rather than shy away from, emotional pain and suffering.
+Puth's openness about his struggles with mental health 🧠💡 further illustrates his Type 4 emotional depth. His transparency about dealing with bullying and social anxiety reflects the Type 4's willingness to confront, rather than shy away from, emotional pain and suffering.
 
 ## The Controversial Contours of Type 4
 
-Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with Justin Bieber grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
+Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with Justin Bieber 🥊🎤 grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
 
 ## Unfolding Puth: The Enigmatic Enneagram 4
 

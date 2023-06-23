@@ -44,11 +44,11 @@ tiktok: 'https://www.tiktok.com/@marilynmonroe'
 
 ## Fear and Anxiety
 
-Enneagram Type 6 is often referred to as the Loyalist or the Questioner, and fear is the central emotion that drives their behavior. This fear can manifest in different ways, such as anxiety, self-doubt, and a need for security and stability. Marilyn Monroe's life was marked by anxiety and fear, which were exacerbated by her childhood experiences and traumatic events. Her fear of abandonment and rejection led her to seek the approval of others and to maintain close relationships with people she trusted.
+Enneagram Type 6 is often referred to as the Loyalist or the Questioner, and fear is the central emotion that drives their behavior. This fear can manifest in different ways, such as anxiety, self-doubt, and a need for security and stability. Marilyn Monroe's life was marked by anxiety and fear, which were exacerbated by her childhood experiences and traumatic events. Her fear of abandonment and rejection led her to seek the approval of others and to maintain close relationships 💑 with people she trusted.
 
 ## Need for Support and Guidance
 
-Enneagram Type 6 also has a strong need for support and guidance from others. They tend to seek out authority figures and mentors who can provide them with a sense of direction and security. Marilyn Monroe was no exception, as she had several relationships with older men who played a fatherly or mentor role in her life. One of these men was Lee Strasberg, the founder of the Actors Studio, who became a close friend and acting coach for Marilyn. She also had a close relationship with her psychiatrist, Dr. Ralph Greenson, whom she trusted and relied on for emotional support.
+Enneagram Type 6 also has a strong need for support and guidance from others. They tend to seek out authority figures and mentors who can provide them with a sense of direction and security. Marilyn Monroe was no exception, as she had several relationships  with older men who played a fatherly or mentor role in her life. One of these men was Lee Strasberg, the founder of the Actors Studio, who became a close friend and acting coach for Marilyn. She also had a close relationship with her psychiatrist, Dr. Ralph Greenson, whom she trusted and relied on for emotional support.
 
 ## Seeking Validation and Acceptance
 

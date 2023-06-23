@@ -62,7 +62,7 @@ David Dobrik is not someone to rest on his laurels. He's always on the lookout f
 
 ## Relationships and Dynamics
 
-Who is David Dobrik dating? Or rather, who has he been linked with? This question has sparked numerous speculations throughout his career. From Corina Conf to Madison Beer, his relationships seem to embody his pursuit for varied experiences, again a hallmark of a Type 7 personality. However, these relationships also highlight the Type 7's tendency to keep things light and avoid deep emotional entanglement.
+Who is David Dobrik dating? Or rather, who has he been linked with? This question has sparked numerous speculations throughout his career. From Corina Conf to Madison Beer, his relationships seem to embody his pursuit for varied experiences, again a hallmark of a Type 7 personality. However, these relationships 💑 also highlight the Type 7's tendency to keep things light and avoid deep emotional entanglement.
 
 ## Friends, Fun, and Type 7 Traits
 

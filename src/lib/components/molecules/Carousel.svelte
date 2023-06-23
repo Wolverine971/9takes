@@ -157,6 +157,8 @@ cwebp "Jake-Paul.png" -o "Jake-Paul.webp"
 cwebp "Kanye.png" -o "Kanyes.webp"
 cwebp "Chamath-Palihapitiya.png" -o "Chamath-Palihapitiya.webp"
 cwebp "Halsey.png" -o "Halsey.webp"
+cwebp "Demi-Lovato.png" -o "Demi-Lovato.webp"
+cwebp "Dua-Lipa.png" -o "Dua-Lipa.webp"
 
 cwebp "Billie-Eilish.png" -o "Billie-Eilish.webp"
 cwebp "Bob-Dylan.png" -o "Bob-Dylan.webp"

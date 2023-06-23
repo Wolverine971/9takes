@@ -91,11 +91,11 @@ Delving further into Davidson's jokes, one can glimpse an undercurrent of unreso
 
 ## Merging and Mirroring: Nines in Relationships
 
-Pete Davidson's dating history also paints a compelling picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated <a href="./Ariana-Grande">Ariana Grande</a>, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
+Pete Davidson's dating history also paints a compelling picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated <a href="./Ariana-Grande">Ariana Grande</a>, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
 
 ## The Nine's Path: Seeking Peace amid Chaos
 
-The famous Peacemaker, however, doesn't always live a peaceful life. The comedian's battle with mental health and his decision to become sober are public knowledge, presenting a stark contrast to his life in the fast-paced world of comedy and entertainment. Yet, Davidson's candidness about his struggles and his decision to prioritize his mental health aligns with the Type 9's desire for inner peace.
+The famous Peacemaker, however, doesn't always live a peaceful life. The comedian's battle with mental health and his decision to become sober 🚫🥤 are public knowledge, presenting a stark contrast to his life in the fast-paced world of comedy and entertainment. Yet, Davidson's candidness about his struggles and his decision to prioritize his mental health aligns with the Type 9's desire for inner peace.
 
 Viewed through this lens, his multitude of tattoos, often a subject of public fascination, could be seen as his form of self-expression or a physical manifestation of the inner chaos that he seeks to placate.
 

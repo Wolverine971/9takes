@@ -67,7 +67,7 @@ It's virtually impossible to miss Ariana's relentless drive to excel. This hardw
 
 ## Embracing the Dramatic Life
 
-Ariana's life has been an open book, showcasing the highs and lows of a star perpetually under the media's spotlight. Her very public relationships, her management of the Manchester bombing incident, and her grieving process following the death of Mac Miller were all televised in real-time. But it's her ability to rise from these controversies, turning personal tragedies into artistic triumphs, that highlights the resilience and adaptive abilities typical of an Achiever personality.
+Ariana's life has been an open book, showcasing the highs and lows of a star perpetually under the media's spotlight. Her very public relationships 💑, her management of the Manchester bombing incident, and her grieving process following the death of Mac Miller were all televised in real-time. But it's her ability to rise from these controversies, turning personal tragedies into artistic triumphs, that highlights the resilience and adaptive abilities typical of an Achiever personality.
 
 ## Image is Everything
 

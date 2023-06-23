@@ -67,7 +67,7 @@ Much like other Type 3 personalities, Jake's desire to succeed is fueled by a de
 
 ## Jake and Controversy: A Type 3's Fear of Failure
 
-Jake's life has been riddled with controversies, from issues with his Team 10 collective to his marriage with Tana Mongeau. For a Type 3, the fear of failure and the drive to maintain a successful image often lead to desperate measures. We've seen this with Jake's feuds with KSI and his older brother, <a href="./Logan-Paul">Logan Paul</a>. The intense desire to be the best often results in public spats and scandals, further magnifying Jake's public persona.
+Jake's life has been riddled with controversies, from issues with his Team 10 collective to his marriage with Tana Mongeau. For a Type 3, the fear of failure and the drive to maintain a successful image often lead to desperate measures. We've seen this with Jake's feuds with KSI 🥊 and his older brother, <a href="./Logan-Paul">Logan Paul</a>. The intense desire to be the best often results in public spats and scandals, further magnifying Jake's public persona.
 
 ## Jake's Personal Relationships: A Type 3’s Struggle for Authenticity
 
@@ -89,7 +89,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Conclusion: Jake Paul - A Compelling Type 3
 
-It seems quite plausible, then, that Jake Paul does indeed epitomize the characteristics of an Enneagram Type 3. His relentless drive for success, fear of failure, and struggle for authenticity in relationships paint a fascinating picture of his personality. But as we all know, people are complex, and categorizing individuals neatly isn't always possible.
+It seems quite plausible, then, that Jake Paul does indeed epitomize the characteristics of an Enneagram Type 3. His relentless drive for success, fear of failure, and struggle for authenticity in relationships 💑 paint a fascinating picture of his personality. But as we all know, people are complex, and categorizing individuals neatly isn't always possible.
 
 So, what do you think? Does seeing Jake Paul through the lens of the Enneagram Type 3 provide you with a better understanding of his motivations and actions? Does it help you see beyond the public image and glimpse into the man behind the persona?
 
