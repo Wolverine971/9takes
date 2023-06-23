@@ -101,7 +101,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

@@ -261,7 +261,6 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

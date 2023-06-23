@@ -226,7 +226,6 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

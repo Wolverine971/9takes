@@ -221,7 +221,6 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

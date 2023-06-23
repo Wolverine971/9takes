@@ -85,19 +85,19 @@ Now that we've established the connections between the Enneagram, Plato, and Fre
 
 Fear is the driving force behind intellectual intelligence. As humans, we're wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual models of the world, considering hypothetical scenarios and potential outcomes. Over time, this process leads to the development of a sophisticated understanding of the world around us.
 
-Example: Imagine a person who fears losing their job. To prevent this from happening, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure their job security.
+**Fear Example**: Imagine a person who fears losing their job. To prevent this from happening, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure their job security.
 
 ## Shame and Emotional Intelligence
 
 Shame is the core emotion behind emotional intelligence. Our desire to be accepted and valued by others drives us to manage and navigate our emotions effectively. We learn to express our feelings in ways that foster connection and empathy, while also understanding and responding to the emotions of others.
 
-Example: A child who experiences shame for not fitting in with their peers might learn to develop emotional intelligence to better understand and relate to others, ultimately finding a sense of belonging and acceptance.
+**Shame Example**: A child who experiences shame for not fitting in with their peers might learn to develop emotional intelligence to better understand and relate to others, ultimately finding a sense of belonging and acceptance.
 
 ## Anger and Instinctual Intelligence
 
 Anger is the key emotion fueling the development of instinctual intelligence. Our innate need to protect ourselves and our resources can give rise to anger, which then propels us to take action. As we learn to channel and control our anger, we develop the capacity to respond effectively to threats and challenges, ultimately honing our instinctual intelligence.
 
-Example: Consider someone who experiences anger when they feel their personal boundaries have been violated. Over time, they learn to assert their boundaries and protect their well-being, developing a keen sense of instinctual intelligence in the process.
+**Anger Example**: Consider someone who experiences anger when they feel their personal boundaries have been violated. Over time, they learn to assert their boundaries and protect their well-being, developing a keen sense of instinctual intelligence in the process.
 
 ## The Interplay of Emotions and Intelligence Centers
 

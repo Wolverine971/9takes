@@ -345,7 +345,6 @@ blog: true
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

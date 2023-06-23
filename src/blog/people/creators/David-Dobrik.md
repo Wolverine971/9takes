@@ -233,7 +233,6 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

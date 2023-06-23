@@ -32,7 +32,7 @@ Take, for instance, Kanye's music. His songs often delve into personal experienc
 Kanye's Controversies: A Window into the Type 4 Mind
 Kanye's controversies, too, provide insight into his Enneagram type. His infamous interruption of Taylor Swift at the 2009 VMAs, his candid discussions about his mental health, and his unpredictable behavior on social media all point towards a Type 4's intense emotional experiences and their struggle with feeling misunderstood.
 
-His relationship with Kim Kardashian, their publicized divorce, and the subsequent rumors about her relationship with Pete Davidson have also been a source of public scrutiny. Kanye's emotional reactions to these events, often expressed through his music and social media, further illustrate his Type 4 tendencies.
+His relationship with <a href="../celebrities/Kim-Kardashian.md">Kim Kardashian</a>, their publicized divorce, and the subsequent rumors about her relationship with Pete Davidson have also been a source of public scrutiny. Kanye's emotional reactions to these events, often expressed through his music and social media, further illustrate his Type 4 tendencies.
 
 Collaborations and Conflicts: Kanye's Relationships in the Music Industry
 Kanye's relationships within the music industry also provide a window into his Enneagram type. His collaborations with artists like JAY-Z, Beyoncé, Nas, Rick Ross, Common, Jeezy, Mary J. Blige, Lil Wayne, Kendrick Lamar, and The Weeknd showcase his creative prowess and his desire to express his unique vision.

@@ -256,7 +256,6 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

@@ -76,6 +76,7 @@
 		],
 		8: [
 			'Mr-Beast',
+			'Halsey',
 			'Clint-Eastwood',
 			'Beyonce-Knowles',
 			'Ernest-Hemingway',
@@ -157,7 +158,7 @@ cwebp "Logan-Paul.png" -o "Logan-Paul.webp"
 cwebp "Pete-Davidson.png" -o "Pete-Davidson.webp"
 cwebp "Jenna-Marbles.png" -o "Jenna-Marbles.webp"
 cwebp "Jake-Paul.png" -o "Jake-Paul.webp"
-cwebp "Kanye.png" -o "Kanyes.webp"
+cwebp "Kanye.png" -o "Kanye.webp"
 cwebp "Chamath-Palihapitiya.png" -o "Chamath-Palihapitiya.webp"
 cwebp "Halsey.png" -o "Halsey.webp"
 cwebp "Demi-Lovato.png" -o "Demi-Lovato.webp"
@@ -204,6 +205,7 @@ cwebp "Ernest-Hemingway.png" -o "Ernest-Hemingway.webp"
 cwebp "Winston-Churchill.png" -o "Winston-Churchill.webp"
 cwebp "Martin-Luther-King-Jr.png" -o "Martin-Luther-King-Jr.webp"
 cwebp "Mr-Beast.png" -o "Mr-Beast.webp"
+cwebp "Halsey.png" -o "Halsey.webp"
 
 cwebp "Abraham-Lincoln.png" -o "Abraham-Lincoln.webp"
 cwebp "Ariana-Grande.png" -o "Ariana-Grande.webp"

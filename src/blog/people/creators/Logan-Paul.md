@@ -229,7 +229,6 @@ To explore more captivating personalities and gain a deeper understanding of the
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

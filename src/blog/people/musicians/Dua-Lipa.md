@@ -280,7 +280,6 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

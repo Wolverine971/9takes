@@ -238,7 +238,6 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

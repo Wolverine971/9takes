@@ -240,7 +240,6 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;

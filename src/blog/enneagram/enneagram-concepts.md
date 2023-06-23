@@ -50,13 +50,13 @@ The Enneagram also identifies three centers of intelligence, which correspond to
 
 In addition to the nine personality types and the three centers of intelligence, the Enneagram also identifies three instincts that drive human behavior. These instincts are:
 
-1. Self-preservation: This instinct drives individuals to take care of themselves and ensure their own survival. People driven by this instinct tend to focus on their own well-being and security.
+1. **Self-preservation**: This instinct drives individuals to take care of themselves and ensure their own survival. People driven by this instinct tend to focus on their own well-being and security.
 
-2. Social: This instinct drives individuals to connect with others and form strong relationships. People driven by this instinct tend to be social, outgoing, and focused on building connections with others.
+2. **Social**: This instinct drives individuals to connect with others and form strong relationships. People driven by this instinct tend to be social, outgoing, and focused on building connections with others.
 
-3. Sexual: This instinct drives individuals to seek intense experiences and deep connections with others. People driven by this instinct tend to be passionate and focused on physical intimacy and emotional connection.
+3. **Sexual**: This instinct drives individuals to seek intense experiences and deep connections with others. People driven by this instinct tend to be passionate and focused on physical intimacy and emotional connection.
 
-Learn more about the <a href="/blog/enneagram/enneagram-instinctual-subtypes" >subtypes here </a>
+Learn more about the <a href="/blog/enneagram/enneagram-instinctual-subtypes">subtypes here </a>
 
 ## Wings
 

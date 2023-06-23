@@ -228,7 +228,6 @@ In a world fascinated by personality, understanding public figures like Kim thro
 }*/
 
   .panel {
-
     padding: 18px;
     /*display: none;*/
     background-color: white;
