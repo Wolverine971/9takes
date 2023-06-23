@@ -81,6 +81,10 @@ Demi Lovato and Joe Jonas -->
 
 <p class="firstLetter">You know her, love her ❤️‍🔥, or possibly, critique her. Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of Enneagram Type 4 - The Individualist.</p>
 
+<!-- put camp rock video here: LINK -->
+
+<!-- camp rock mention in first sentence  -->
+<!-- Barney & Friends should be italicized or in quotes than dino emoji after  -->
 ## The Individualist: A Closer Look
 
 Although the 'Individualist' label may seem to align effortlessly with Lovato's eccentric tattoos 🎨💉 and publicized dating life, Enneagram Type 4 personality isn't just about uniqueness. It's a complex type, characterised by a deep longing for identity, the pursuit of authenticity, and an internal struggle with feelings of being 'different' 🌈👽. Sound familiar? Let's take a closer look at Demi's life, exploring the instances where these traits have shone through.
@@ -88,13 +92,18 @@ Although the 'Individualist' label may seem to align effortlessly with Lovato's 
 ## From 'Camp Rock' to Rehab: Lovato's Struggle for Identity
 
 Remember the Disney days of Demi Lovato? The Camp Rock era might seem like a distant memory, but it's integral to understanding Lovato's journey. Like most Type 4s, Lovato's search for identity began early, as she oscillated between the squeaky-clean Disney persona and the budding artist yearning for authenticity.
+<!-- Camp Rock should be in quotes or italicized 
+Too many "withs" in sentence startin gwith "The constant scrutiny" -->
+<!-- Emojis used for overdose is offensive considering subject matter -->
 
 The struggle amplified with her rapid ascent to fame. The constant scrutiny, combined with personal battles with mental health, led to a well-documented episode of overdose and subsequent rehab stint 💊🚑. Here, we witness the quintessential Type 4 struggle: the battle against feelings of inadequacy and the desire to define one's unique identity.
 
+<!-- "The Individualist" and " From Camp Rock to Rehab" Sections are way too similar and end with the same idea-- combine them -->
 ## The Pursuit of Authenticity: Lovato's Musical Journey
-
+<!-- "testament to HER journey" her pronouns are she/her -->
+<!-- ALL TITLES (songs,movies, albums,etc) should be italicized or in quotes -->
 Lovato's music is a testament to their journey towards self-discovery and authenticity – two elements at the core of a Type 4 personality. A Type 4 is sensitive, expressive, and deeply connected with their emotions. Isn't this what we witness in Demi's music, from the emotive Heart Attack to the candid confession in Sober 💔➡️🥤?
-
+<!-- AGAIN replace all "their" with she/her -->
 Their new album bears testament to this quest for authenticity. The lyrics, raw and revealing, echo a narrative that is innately Demi, an individualist navigating their emotions.
 
 ## Finding Strength in Vulnerability 💪🔓: Lovato's Mental Health Advocacy
@@ -112,6 +121,7 @@ Type 4s have a knack for intensity in relationships, and Lovato's publicized rom
 The controversies surrounding Lovato, from their stance on diet culture 🍽️🚫 to the feud with Selena Gomez 🥊🎤, can also be interpreted through the Type 4 lens. The constant quest for authenticity often leads to polarizing opinions, a trait characteristic of a Type 4. Such incidences reveal Lovato's uncompromising stance on authenticity and individuality, which although causes contention, affirms their alignment with Type 4.
 
 ## How Each Enneagram Type Perceives Demi Lovato
+<!-- Put arrow toggle (like in Notion) to hide all text unless reader wants to see more) -->
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Demi:
 
@@ -132,6 +142,8 @@ As we trace back our steps through the journey that has been Demi Lovato's publi
 But as with any personality assessment, it's important to remember that these are observations, not definite conclusions. Personalities are fluid, complex, and can't always be neatly boxed into categories. What other layers do you think are yet to be explored in Lovato's personality? How does this Type 4 lens change your perception of her journey, her music, her advocacy work?
 
 Curious to dive deeper into the intricacies of personalities and gain new insights into the minds of your favorite figures? Sign up below ⬇️ and join our community at 9takes. Together, let's explore, discover, and understand personalities, one enneagram type at a time.
+
+<!-- Final Thoughts: TOO MUCH TYPE 4s ARE UNIQUE-- cut out all the extra fluff, combine sections and shorten it, wayyy too long ang repetitive  -->
 
 <div>
 <script type="application/ld+json">
