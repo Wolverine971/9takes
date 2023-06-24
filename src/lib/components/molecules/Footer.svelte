@@ -10,9 +10,11 @@
 <footer class="footer">
 	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
-			</li>
+			{#if $page.url.pathname !== '/'}
+				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
+				</li>
+			{/if}
 			<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
 				<a
 					href="/questions"
@@ -29,7 +31,7 @@
 			</li>
 		</ul>
 	</div>
-	<div style="display: flex; flex-direction: row; justify-content:center;">
+	<div style="display: flex; flex-direction: row; justify-content:center; gap: 1rem;">
 		<a target="_blank" href="https://www.instagram.com/9takesdotcom/">
 			<img src={instagram} alt="Instagram" class="icon" />
 		</a>

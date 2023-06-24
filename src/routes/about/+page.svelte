@@ -58,9 +58,9 @@
 		Currently, it is used by niche life coaches and as a tool for certain psychologists and therapists.
 		But it is not mainstream and probably won't be for some time.
 		<br /><br />
-		We use it because it identifies a person's core motivations and fears. Through guided or through
-		Self-reflection people figure out their type. We are not going to tell you what your "Enneagram type"
-		is, that is for you to discover.
+		We use it because it identifies a person's core motivations and fears. Typically through being guided
+		or through self-reflection people figure out their type. We are not going to tell you what your "Enneagram
+		type" is, that is for you to discover.
 	</p>
 
 	<h3>Why focus on questions and answers?</h3>
@@ -69,17 +69,18 @@
 		questions you are growing. When you have run out of questions you stop growing and you not only
 		run out of answers, you run out of hope.
 	</p>
-	<p>For example, in your daily life you may be asking yourself:</p>
+	<p>For example, in your daily life you may be asking yourself "why can't people...""</p>
+
 	<ul>
-		<li>Why can't people just do things the right way?</li>
-		<li>Why can't people be more grateful for all the things I do for them?</li>
-		<li>Why can't people just appreciate my hard work and success?</li>
-		<li>Why can't people understand my unique perspective and emotions?</li>
-		<li>Why can't people respect my need for privacy and independence?</li>
-		<li>Why can't people just be more reliable and trustworthy?</li>
-		<li>Why can't people just have more fun and excitement?</li>
-		<li>Why can't people be more honest and dish out the hard truth?</li>
-		<li>Why can't people just get along and find common ground?</li>
+		<li>just do things the right way?</li>
+		<li>be more grateful for all the things I do for them?</li>
+		<li>just appreciate my hard work and success?</li>
+		<li>understand my unique perspective and emotions?</li>
+		<li>respect my need for privacy and independence?</li>
+		<li>just be more reliable and trustworthy?</li>
+		<li>Wjust have more fun and excitement?</li>
+		<li>be more honest and dish out the hard truth?</li>
+		<li>just get along and find common ground?</li>
 	</ul>
 	<p>
 		There are endless questions to ask. Fortunately, there are endless people out there with answers
@@ -89,7 +90,7 @@
 	</p>
 	<p>
 		9takes is about embracing these differences or "takes" on the world. And by asking questions,
-		sharing stories, and getting curious we will find our community and find our way.
+		sharing stories, and getting curious people will be connected to the community around them.
 	</p>
 </div>
 
