@@ -10,7 +10,7 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
-pic: 'communication-tips-color'
+pic: 'communication-tips'
 ---
 
 <svelte:head>
@@ -29,10 +29,10 @@ margin: 1rem 0;
 	"
 >
     <PopCard
-    	image={`/blogs/communication-tips-color.webp`}
+    	image={`/blogs/communication-tips.webp`}
     	showIcon={false}
     	text="Enneagram type communication tips"
-    	tint={false}
+    	tint={true}
 		aspectRatio={'1'}
     	subtext=""
     />

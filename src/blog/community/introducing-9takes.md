@@ -10,7 +10,7 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
-pic: 'open-cage-color'
+pic: 'open-cage'
 ---
 
 <svelte:head>
@@ -35,9 +35,9 @@ pic: 'open-cage-color'
 margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/open-cage-color.webp`}
+		image={`/blogs/open-cage.webp`}
 		showIcon={false}
-		tint={false}
+		tint={true}
 		displayText=""
 		altText="scenic view of a person working on a computer in the jungle"
 		subtext=""

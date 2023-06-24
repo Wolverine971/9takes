@@ -10,7 +10,35 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
+pic: 'husband-and-wife-arguing'
 ---
+
+
+<svelte:head>
+
+  <meta property="og:image" content="https://9takes.com/blogs/husband-and-wife-arguing.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
+</svelte:head>
+
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
+<div
+	style="display: flex;
+    justify-content: center;
+margin: 1rem 0;"
+>
+ <PopCard
+		image={`/blogs/husband-and-wife-arguing.webp`}
+		showIcon={false}
+		tint={true}
+		displayText=""
+		altText="a husband and wife arguing"
+		subtext=""
+	/>
+
+</div>
 
 <p class="firstLetter">I got married and my wife and I were fighting a lot.</p>
 

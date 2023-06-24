@@ -10,7 +10,7 @@ priority: '0.6'
 published: true
 type: 'situational'
 blog: true
-pic: 'party-in-street-color'
+pic: 'party-in-street'
 ---
 
 <svelte:head>
@@ -29,11 +29,11 @@ pic: 'party-in-street-color'
 	"
 >
   <PopCard
-		image={`/blogs/party-in-street-color.webp`}
+		image={`/blogs/party-in-street.webp`}
 		showIcon={false}
 		displayText=""
     altText="party in the street"
-    tint={false}
+    tint={true}
 		subtext=""
 	/>
 </div>

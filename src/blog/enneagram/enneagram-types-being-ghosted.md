@@ -10,13 +10,33 @@ priority: '0.6'
 published: true
 type: 'situational'
 blog: true
+pic: 'person-being-ghosted'
 ---
 
 <svelte:head>
 
-  <!-- <meta property="og:image" content="" /> -->
+  <meta property="og:image" content="https://9takes.com/blogs/person-being-ghosted.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
 </svelte:head>
+
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/person-being-ghosted.webp`}
+		showIcon={false}
+		displayText=""
+    altText="a person being ghosted"
+    tint={true}
+		subtext=""
+	/>
+</div>
 
 <p class="firstLetter">In the perplexing realm of modern relationships, ghosting has emerged as a bewildering phenomenon, leaving those on the receiving end grappling with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this captivating exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.</p>
 
@@ -33,12 +53,12 @@ blog: true
   </section>
 
 <!-- <hr class="border"/>  -->
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
   
    <a href="/blog/enneagram/enneagram-type-1" class="a-type">Type 1</a>
    <p>The enneagram 1 is a put together creature</p>
 
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -54,10 +74,10 @@ that they are worthy of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-2" class="a-type">Type 2</a>
    <p>The enneagram 2 is a loving creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -73,10 +93,10 @@ of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>
    <p>The enneagram 3 is a shiny creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -92,10 +112,10 @@ that they are worthy of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
    <p>The enneagram 4 is a complicated creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -111,10 +131,10 @@ that they are worthy of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-5" class="a-type">Type 5</a>
    <p>The enneagram 5 is a mysterious creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -130,10 +150,10 @@ that they are worthy of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-6" class="a-type">Type 6</a>
    <p>The enneagram 6 is a wary creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -149,10 +169,10 @@ and self-care, reminding themselves that they are worthy of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-7" class="a-type">Type 7</a>
    <p>The enneagram 7 is a joyful creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -168,10 +188,10 @@ of love and respect.
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
    <p>The enneagram 8 is a strong creature</p>
-  </aside>
+  </aside> -->
  </section>
 
  <section class="section-main">
@@ -182,10 +202,10 @@ Type Nines, known for their easy-going nature and desire for peace, may struggle
 
   </section>
 
-  <aside class="section-meta">
+  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
    <p>The enneagram 9 is a easy going creature</p>
-  </aside>
+  </aside> -->
  </section>
 
 It's important to remember that everyone's experience and coping mechanisms are unique, and that the Enneagram is just
