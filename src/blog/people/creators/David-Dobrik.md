@@ -35,7 +35,7 @@ tiktok:
 	<PopCard
 		image={`/types/7s/${'David-Dobrik'}.webp`}
 		showIcon={false}
-		text="David Dobrik"
+		displayText="David Dobrik"
 		subtext=""
 	/>
 </div>

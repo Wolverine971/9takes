@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 	<PopCard
 		image={`/types/7s/${'Miley-Cyrus'}.webp`}
 		showIcon={false}
-		text="Miley Cyrus"
+		displayText="Miley Cyrus"
 		subtext=""
 	/>
 </div>

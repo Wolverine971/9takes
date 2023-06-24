@@ -16,7 +16,6 @@ instagram: 'https://www.instagram.com/patrickstarrr/'
 tiktok: 'https://www.tiktok.com/@patrickstarrr'
 ---
 
-
 <!-- // notes:  -->
 
 <svelte:head>
@@ -37,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@patrickstarrr'
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
-		text="booboo"
+		displayText="booboo"
 		subtext=""
 	/>
 </div>

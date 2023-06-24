@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/7s/${'John-F-Kennedy'}.webp`}
 		showIcon={false}
-		text="John F. Kennedy"
+		displayText="John F. Kennedy"
 		subtext=""
 	/>
 </div>

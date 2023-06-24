@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@eltonjohn'
 	<PopCard
 		image={`/types/7s/${'Elton-John'}.webp`}
 		showIcon={false}
-		text="Elton John"
+		displayText="Elton John"
 		subtext=""
 	/>
 </div>

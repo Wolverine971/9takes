@@ -33,7 +33,8 @@ pic: 'freud-plato'
 	<PopCard
 		image={`/blogs/freud-plato.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="Sigmund Freud squaring off with Plato"
 		subtext=""
 	/>
 </div>

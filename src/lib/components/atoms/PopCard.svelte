@@ -7,7 +7,8 @@
 	export let showIcon: boolean = true;
 	export let aspectRatio: string = '';
 
-	export let text: string = '9takes';
+	export let displayText: string = '9takes';
+	export let altText: string = '';
 	export let subtext: string = 'Ask questions, share your story, get curious';
 
 	export let tint: boolean = true;
@@ -75,7 +76,7 @@
 	<img
 		class="screen-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
 		src={image}
-		alt={text}
+		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
 	<div class="screen-overlay" />
@@ -86,8 +87,8 @@
 		{/if}
 
 		<div class="screen-user">
-			{#if text}
-				<p class="name-pop" data-value={text}>{text}</p>
+			{#if displayText}
+				<p class="name-pop" data-value={displayText}>{displayText}</p>
 			{:else}
 				<p style="width: 100%;" />
 			{/if}

@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 	<PopCard
 		image={`/types/2s/${'Oprah-Winfrey'}.webp`}
 		showIcon={false}
-		text="Oprah Winfrey"
+		displayText="Oprah Winfrey"
 		subtext=""
 	/>
 </div>

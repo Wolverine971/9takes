@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 	<PopCard
 		image={`/types/6s/${'Ellen-Degeneres'}.webp`}
 		showIcon={false}
-		text="Ellen Degeneres"
+		displayText="Ellen Degeneres"
 		subtext=""
 	/>
 </div>

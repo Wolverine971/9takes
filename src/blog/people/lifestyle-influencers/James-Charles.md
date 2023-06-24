@@ -16,7 +16,6 @@ instagram: 'https://www.instagram.com/jamescharles'
 tiktok: 'https://www.tiktok.com/@jamescharles'
 ---
 
-
 <!-- // notes:  -->
 
 <svelte:head>
@@ -37,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@jamescharles'
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
-		text="booboo"
+		displayText="booboo"
 		subtext=""
 	/>
 </div>

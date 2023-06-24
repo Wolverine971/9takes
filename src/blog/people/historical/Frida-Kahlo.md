@@ -33,7 +33,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/4s/${'Frida-Kahlo'}.webp`}
 		showIcon={false}
-		text="Frida Kahlo"
+		displayText="Frida Kahlo"
 		subtext=""
 	/>
 </div>

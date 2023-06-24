@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@brycehall'
 	<PopCard
 		image={`/types/7s/${'Bryce-Hall'}.webp`}
 		showIcon={false}
-		text="Bryce Halll"
+		displayText="Bryce Halll"
 		subtext=""
 	/>
 </div> -->

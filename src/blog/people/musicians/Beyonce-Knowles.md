@@ -34,7 +34,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	<PopCard
 		image={`/types/8s/${'Beyonce-Knowles'}.webp`}
 		showIcon={false}
-		text="Beyoncé Knowles"
+		displayText="Beyoncé Knowles"
 		subtext=""
 	/>
 </div>

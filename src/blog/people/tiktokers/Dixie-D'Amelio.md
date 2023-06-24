@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@dixiedamelio'
 	<PopCard
 		image={`/types/7s/${'Dixie-D'Amelio'}.webp`}
 		showIcon={false}
-		text="Dixie D'Ameliot=""
+		displayText="Dixie D'Ameliot="
 	/>
 </div> -->
 

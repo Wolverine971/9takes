@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	<PopCard
 		image={`/types/7s/${'The-Weekend'}.webp`}
 		showIcon={false}
-		text="The Weekend"
+		displayText="The Weekend"
 		subtext=""
 	/>
 </div> -->

@@ -16,8 +16,6 @@ instagram:
 tiktok:
 ---
 
-
-
 You've heard his music, seen his fashion, and you've undoubtedly formed an opinion about him. Kanye West, the multi-talented artist, fashion designer, and entrepreneur, is a figure who has left an indelible mark on pop culture. Today, we delve into an intriguing perspective on West's persona, proposing him as a quintessential representation of Enneagram Type 4 - The Individualist.
 
 The Enigmatic Individualist: Kanye's Enneagram Journey

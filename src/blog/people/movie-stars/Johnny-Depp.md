@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@johnnydepp'
 	<PopCard
 		image={`/types/4s/${'Johnny-Depp'}.webp`}
 		showIcon={false}
-		text="Johnny Depp"
+		displayText="Johnny Depp"
 		subtext=""
 	/>
 </div>

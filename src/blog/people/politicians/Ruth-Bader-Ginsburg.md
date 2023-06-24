@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/1s/${'Ruth-Bader-Ginsburg'}.webp`}
 		showIcon={false}
-		text="Ruth Bader Ginsburg"
+		displayText="Ruth Bader Ginsburg"
 		subtext=""
 	/>
 </div>

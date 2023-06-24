@@ -34,7 +34,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	<PopCard
 		image={`/types/9s/Bernie-Sanders.webp`}
 		showIcon={false}
-		text="Bernie Sanders"
+		displayText="Bernie Sanders"
 		subtext=""
 	/>
 </div>

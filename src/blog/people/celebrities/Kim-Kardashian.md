@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 	<PopCard
 		image={`/types/3s/${'Kim-Kardashian'}.webp`}
 		showIcon={false}
-		text="Kim Kardashian"
+		displayText="Kim Kardashian"
 		subtext=""
 	/>
 </div>

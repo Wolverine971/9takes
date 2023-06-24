@@ -16,7 +16,7 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- notes: 
+<!-- notes:
 Halsey songs
 Halsey tour
 Halsey album
@@ -56,7 +56,7 @@ Halsey Instagram -->
 	<PopCard
 		image={`/types/8s/${'Halsey'}.webp`}
 		showIcon={false}
-		text="Halsey"
+		displayText="Halsey"
 		subtext=""
 	/>
 </div>

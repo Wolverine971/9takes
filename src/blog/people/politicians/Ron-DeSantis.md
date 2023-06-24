@@ -15,6 +15,3 @@ twitter:
 instagram:
 tiktok:
 ---
-
-
-

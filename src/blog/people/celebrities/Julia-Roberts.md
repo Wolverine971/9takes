@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Julia-Roberts'}.webp`}
 		showIcon={false}
-		text="Julia Roberts"
+		displayText="Julia Roberts"
 		subtext=""
 	/>
 </div> -->

@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 	<PopCard
 		image={`/types/5s/${'Bill-Gates'}.webp`}
 		showIcon={false}
-		text="Bill Gates"
+		displayText="Bill Gates"
 		subtext=""
 	/>
 </div>

@@ -31,7 +31,8 @@ pic: 'party-in-street-color'
   <PopCard
 		image={`/blogs/party-in-street-color.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+    altText="party in the street"
     tint={false}
 		subtext=""
 	/>

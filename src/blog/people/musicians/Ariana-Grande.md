@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@arianagrande'
 	<PopCard
 		image={`/types/3s/${'Ariana-Grande'}.webp`}
 		showIcon={false}
-		text="Ariana Grande"
+		displayText="Ariana Grande"
 		subtext=""
 	/>
 </div>

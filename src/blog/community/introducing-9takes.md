@@ -38,7 +38,8 @@ margin: 1rem 0;"
 		image={`/blogs/open-cage-color.webp`}
 		showIcon={false}
 		tint={false}
-		text=""
+		displayText=""
+		altText="scenic view of a person working on a computer in the jungle"
 		subtext=""
 	/>
 

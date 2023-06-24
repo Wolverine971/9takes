@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 	<PopCard
 		image={`/types/9s/Barack-Obama.webp`}
 		showIcon={false}
-		text="Barack Obama"
+		displayText="Barack Obama"
 		subtext=""
 	/>
 </div>

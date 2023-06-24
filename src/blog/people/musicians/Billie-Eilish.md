@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	<PopCard
 		image={`/types/9s/${'Billie-Eilish'}.webp`}
 		showIcon={false}
-		text="Billie Eilish"
+		displayText="Billie Eilish"
 		subtext=""
 	/>
 </div>

@@ -16,7 +16,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
 <!-- // notes:  -->
 
 <svelte:head>
@@ -37,7 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
-		text="booboo"
+		displayText="booboo"
 		subtext=""
 	/>
 </div>

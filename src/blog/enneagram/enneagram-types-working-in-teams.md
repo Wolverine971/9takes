@@ -31,7 +31,8 @@ pic: 'team-building'
 	<PopCard
 		image={`/blogs/team-building.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="people gathered around a project"
 		subtext=""
 	/>
 </div>

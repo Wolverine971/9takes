@@ -1,26 +1,29 @@
 ---
-title: 'Paul Graham Enneagram Type 3'
-description: 'Why  Paul Graham appears to be a type 3'
+title: 'Tyler Cowen An Enneagram Type 5'
+description: 'Why Tyler Cowen appears to be a type 5'
 author: 'DJ Wayne'
-date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Paul-Graham'
-lastmod: '2023-03-26'
+date: '2023-06-21'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Tyler-Cowen'
+lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
-type: ['techie']
-wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
-twitter:
-instagram:
-tiktok:
+enneagram: 5
+type: ['']
+wikipedia: ''
+twitter: ''
+instagram: ''
+tiktok: ''
 ---
+
+<!-- // notes:  -->
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/5s/Paul-Graham.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Paul-Graham">
+  <meta property="og:image" content="https://9takes.com/types/3s/Tyler-Cowen.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Tyler-Cowen">
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -31,32 +34,36 @@ tiktok:
 	"
 >
 	<PopCard
-		image={`/types/5s/${'Paul-Graham'}.webp`}
+		image={`/types/3s/${'Tyler-Cowen'}.webp`}
 		showIcon={false}
-		displayText="Paul Graham"
+		displayText="Tyler Cowen"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of Paul Graham's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Paul Graham.
+> **Disclaimer** This analysis of Tyler Cowen's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Tyler Cowen.
 
 <details>
-<summary class="accordion">TL;DR: Why Paul Graham is an Enneagram 3</summary>
+<summary class="accordion">TL;DR: Why Tyler Cowen is an Enneagram type</summary>
 <div class="panel">
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
 </ul>
   </div>
 </details>
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives Tyler Cowen
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Tyler Cowen:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

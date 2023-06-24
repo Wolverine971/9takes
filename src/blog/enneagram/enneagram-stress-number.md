@@ -10,12 +10,12 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
-pic: 'stressed'
+pic: 'feeling-the-tension'
 ---
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/stressed.webp" />
+  <meta property="og:image" content="https://9takes.com/blogs/feeling-the-tension.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-stress-number">
 </svelte:head>
 <script>
@@ -28,9 +28,10 @@ pic: 'stressed'
 	"
 >
 	<PopCard
-		image={`/blogs/stressed.webp`}
+		image={`/blogs/feeling-the-tension.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="two people with tension between them tension"
 		subtext=""
 	/>
 </div>
@@ -97,7 +98,7 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   "http://schema.org/description": "Discover your Enneagram stress number and learn how it affects your behavior and relationships. Knowing your stress number can help you manage your stress and develop healthy coping mechanisms. Find out how each Enneagram type reacts under stress and how to interact with them more effectively.",
   "http://schema.org/headline": "Understanding Your Enneagram Stress Number: How It Affects Your Behavior and Relationships",
   "http://schema.org/image": {
-    "@id": "https://9takes.com/blogs/stressed.webp"
+    "@id": "https://9takes.com/blogs/feeling-the-tension.webp"
   },
   "http://schema.org/keywords": "Enneagram, Stress Number, Personality Types, Relationships, Coping Mechanisms",
   "http://schema.org/mainEntityOfPage": {

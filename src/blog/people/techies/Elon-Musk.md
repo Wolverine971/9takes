@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 	<PopCard
 		image={`/types/5s/${'Elon-Musk'}.webp`}
 		showIcon={false}
-		text="Elon Musk"
+		displayText="Elon Musk"
 		subtext=""
 	/>
 </div>

@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 	<PopCard
 		image={`/types/8s/${'Mr-Beast'}.webp`}
 		showIcon={false}
-		text="Mr. Beast"
+		displayText="Mr. Beast"
 		subtext=""
 	/>
 </div>

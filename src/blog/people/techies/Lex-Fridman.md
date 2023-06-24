@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	<PopCard
 		image={`/types/5s/${'Lex-Fridman'}.webp`}
 		showIcon={false}
-		text="Lex Fridman"
+		displayText="Lex Fridman"
 		subtext=""
 	/>
 </div>

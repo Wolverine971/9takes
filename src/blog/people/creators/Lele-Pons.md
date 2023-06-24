@@ -55,7 +55,7 @@ Lele Pons tour -->
 	<PopCard
 		image={`/types/7s/${'Lele-Pons'}.webp`}
 		showIcon={false}
-		text="Lele Pons"
+		displayText="Lele Pons"
 		subtext=""
 	/>
 </div> -->

@@ -33,9 +33,10 @@ blog: true
 	"
 >
 	<PopCard
-		image={`/blogs/self-pres.webp`}
+		image={`/blogs/enneagram-self-preservation-symbol.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="fortress, a symbol of self preservation"
 		subtext=""
 	/>
 </div>
@@ -61,9 +62,10 @@ Self-preservation Enneagram subtypes are characterized by an intense focus on ph
 	"
 >
 	<PopCard
-		image={`/blogs/social.webp`}
+		image={`/blogs/enneagram-social-symbol.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="people gathered in a basement talking"
 		subtext=""
 	/>
 </div>
@@ -89,9 +91,10 @@ Social Enneagram subtypes are characterized by a strong need for social connecti
 	"
 >
 	<PopCard
-		image={`/blogs/one-to-one.webp`}
+		image={`/blogs/enneagram-one-to-one-symbol.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="two people facing the unknown together"
 		subtext=""
 	/>
 </div>

@@ -16,7 +16,6 @@ instagram: 'https://www.instagram.com/kyliejenner'
 tiktok: 'https://www.tiktok.com/@kyliejenner'
 ---
 
-
 <!-- // notes:  -->
 
 <svelte:head>
@@ -37,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
-		text="booboo"
+		displayText="booboo"
 		subtext=""
 	/>
 </div>

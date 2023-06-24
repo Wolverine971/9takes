@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 	<PopCard
 		image={`/types/7s/${'Logan-Paul'}.webp`}
 		showIcon={false}
-		text="Logan Paul"
+		displayText="Logan Paul"
 		subtext=""
 	/>
 </div>

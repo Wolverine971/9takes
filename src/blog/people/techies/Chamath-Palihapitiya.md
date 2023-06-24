@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Chamath-Palihapitiya'}.webp`}
 		showIcon={false}
-		text="Chamath Palihapitiya"
+		displayText="Chamath Palihapitiya"
 		subtext=""
 	/>
 </div>

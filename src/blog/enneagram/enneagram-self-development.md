@@ -10,12 +10,12 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
-pic: 'self-development'
+pic: 'working-on-yourself'
 ---
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/self-development.webp" />
+  <meta property="og:image" content="https://9takes.com/blogs/working-on-yourself.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-self-development">
 </svelte:head>
 
@@ -29,9 +29,10 @@ pic: 'self-development'
 	"
 >
 	<PopCard
-		image={`/blogs/self-development.webp`}
+		image={`/blogs/working-on-yourself.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="two people working on themselves"
 		subtext=""
 	/>
 </div>
@@ -92,7 +93,7 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
     "@type": "http://schema.org/ImageObject",
     "http://schema.org/height": 800,
     "http://schema.org/url": {
-      "@id": "https://9takes.com/blogs/self-development.webp"
+      "@id": "https://9takes.com/blogs/working-on-yourself.webp"
     },
     "http://schema.org/width": 1200
   },

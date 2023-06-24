@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Sam-Altman'}.webp`}
 		showIcon={false}
-		text="Sam Altman"
+		displayText="Sam Altman"
 		subtext=""
 	/>
 </div>
@@ -53,8 +53,6 @@ tiktok:
 </details>
 
 <p class="firstLetter"></p>
-
-
 
 ## How Each Enneagram Type Perceives booboo
 

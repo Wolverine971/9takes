@@ -37,7 +37,7 @@ logan paul
 	<PopCard
 		image={`/types/3s/${'Jake-Paul'}.webp`}
 		showIcon={false}
-		text="Jake Paul"
+		displayText="Jake Paul"
 		subtext=""
 	/>
 </div>

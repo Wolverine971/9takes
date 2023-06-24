@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/George-H-W-Bush.webp`}
 		showIcon={false}
-		text="George H. W. Bush"
+		displayText="George H. W. Bush"
 		subtext=""
 	/>
 </div>

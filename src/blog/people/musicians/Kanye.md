@@ -15,8 +15,9 @@ twitter:
 instagram:
 tiktok:
 ---
-<!-- 
-notes: 
+
+<!--
+notes:
 Kanye West
 Kanye West new album
 Kanye West songs
@@ -55,7 +56,7 @@ Kanye West interviews -->
 	<PopCard
 		image={`/types/7s/${'Kanye'}.webp`}
 		showIcon={false}
-		text="Kanye"
+		displayText="Kanye"
 		subtext=""
 	/>
 </div>

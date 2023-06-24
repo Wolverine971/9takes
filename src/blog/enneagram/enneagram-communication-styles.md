@@ -30,7 +30,8 @@ pic: 'communication-styles'
 	<PopCard
 		image={`/blogs/communication-styles.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="two people enjoying each others company"
 		subtext=""
 	/>
 </div>

@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
-		text="booboo"
+		displayText="booboo"
 		subtext=""
 	/>
 </div>

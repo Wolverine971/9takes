@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@bellapoarch'
 	<PopCard
 		image={`/types/7s/${'Bella-Poarch'}.webp`}
 		showIcon={false}
-		text="Bella Poarch"
+		displayText="Bella Poarch"
 		subtext=""
 	/>
 </div> -->

@@ -26,7 +26,8 @@ pic: 'working-in-teams'
 <PopCard
 		image={`/blogs/working-in-teams.webp`}
 		showIcon={false}
-		text=""
+		displayText=""
+		altText="People working in teams"
 		subtext=""
 	/>
 </div>

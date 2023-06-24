@@ -55,7 +55,7 @@ Dua Lipa and Calvin Harris -->
 	<PopCard
 		image={`/types/3s/${'Dua-Lipa'}.webp`}
 		showIcon={false}
-		text="Dua Lipa"
+		displayText="Dua Lipa"
 		subtext=""
 	/>
 </div>

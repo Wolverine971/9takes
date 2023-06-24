@@ -34,7 +34,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/8s/${'Shawn-Mendes'}.webp`}
 		showIcon={false}
-		text="Shawn Mendes"
+		displayText="Shawn Mendes"
 		subtext=""
 	/>
 </div>

@@ -57,7 +57,7 @@ Pete Davidson jokes
 	<PopCard
 		image={`/types/9s/${'Pete-Davidson'}.webp`}
 		showIcon={false}
-		text="Pete Davidson"
+		displayText="Pete Davidson"
 		subtext=""
 	/>
 </div>

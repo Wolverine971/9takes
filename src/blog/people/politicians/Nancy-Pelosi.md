@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/3s/${'Nancy-Pelosi'}.webp`}
 		showIcon={false}
-		text="Nancy Pelosi"
+		displayText="Nancy Pelosi"
 		subtext=""
 	/>
 </div>

@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 	<PopCard
 		image={`/types/7s/${'Joe-Rogan'}.webp`}
 		showIcon={false}
-		text="Joe Rogan"
+		displayText="Joe Rogan"
 		subtext=""
 	/>
 </div> -->

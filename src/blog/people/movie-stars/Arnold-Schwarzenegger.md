@@ -32,7 +32,7 @@ margin: 1rem 0;"
 	<PopCard
 		image={`/types/3s/${'Arnold-Schwarzenegger'}.webp`}
 		showIcon={false}
-		text="Arnold Schwarzenegger"
+		displayText="Arnold Schwarzenegger"
 		subtext=""
 	/>
 </div>

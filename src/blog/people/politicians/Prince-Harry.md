@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Prince-Harry'}.webp`}
 		showIcon={false}
-		text="Prince Harry"
+		displayText="Prince Harry"
 		subtext=""
 	/>
 </div>

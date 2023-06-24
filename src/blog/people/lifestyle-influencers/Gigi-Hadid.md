@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@gigihadid'
 	<PopCard
 		image={`/types/7s/${'Gigi-Hadid'}.webp`}
 		showIcon={false}
-		text="Gigi Hadid"
+		displayText="Gigi Hadid"
 		subtext=""
 	/>
 </div> -->

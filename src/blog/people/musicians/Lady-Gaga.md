@@ -33,7 +33,7 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 	<PopCard
 		image={`/types/4s/${'Lady-Gaga'}.webp`}
 		showIcon={false}
-		text="Lady Gaga"
+		displayText="Lady Gaga"
 		subtext=""
 	/>
 </div>

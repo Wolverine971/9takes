@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/8s/${'Martin-Luther-King-Jr'}.webp`}
 		showIcon={false}
-		text="Martin Luther King Jr."
+		displayText="Martin Luther King Jr."
 		subtext=""
 	/>
 </div>
