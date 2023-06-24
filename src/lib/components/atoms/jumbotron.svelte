@@ -92,6 +92,14 @@
 		background-position: center !important;
 		background-size: cover !important;
 	}
+	.screen:hover {
+		.profileFace {
+			filter: blur(1px) !important;
+		}
+		img {
+			filter: blur(1px) !important;
+		}
+	}
 	.home {
 		animation: pan-image 15s linear infinite;
 	}

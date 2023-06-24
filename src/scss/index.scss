@@ -430,3 +430,35 @@ a.disabled {
 // 	mask-size: 80%;
 // 	mask-repeat: no-repeat;
 // }
+
+.flex-columns {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.flex-columns-reverse {
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+}
+section {
+	flex-basis: calc(50% - 20px);
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #f2f2f2;
+	border: var(--classic-border);
+	box-sizing: border-box;
+	border-radius: 0.25rem;
+}
+
+@media (max-width: 800px) {
+	main {
+		padding: 1rem;
+	}
+
+	.flex-columns {
+		margin: 0 !important;
+	}
+}

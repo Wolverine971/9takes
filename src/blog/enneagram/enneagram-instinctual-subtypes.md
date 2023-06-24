@@ -108,7 +108,7 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 8. One-to-One Eights: One-to-One Eights seek intensity and honesty in their relationships. They value directness and may express their care through protecting their loved ones.
 9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
 
-## Conclusion
+## Wrapping Up
 
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
 

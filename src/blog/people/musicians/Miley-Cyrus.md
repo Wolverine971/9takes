@@ -58,7 +58,7 @@ Type 7 personalities often avoid experiencing negative feelings, a pattern that 
 
 Take, for instance, the aftermath of her much-publicized split from actor Liam Hemsworth. While heartbreak might have driven others into seclusion, Miley used the experience as a catalyst for creativity, producing her album "Plastic Hearts," an embodiment of her resilience, optimism, and forward-focused mentality.
 
-## Conclusion: The Enigma of Miley Cyrus
+## Wrapping up: The Enigma of Miley Cyrus
 
 As we dissect these facets of Miley Cyrus's persona, her alignment with a Type 7 Enneagram seems conceivable. Her boldness, enthusiasm, and love for constant change reflect the key traits of 'The Enthusiast.' But, as always, the complexity of human nature resists such straightforward categorization.
 

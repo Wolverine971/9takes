@@ -80,11 +80,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: They might admire Fallon's ability to entertain and bring people together, but may question his inclination to avoid controversial or confrontational topics.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: They might find solace in Fallon's ability to create a harmonious atmosphere, appreciating his effort to make everyone feel comfortable and included.
 
-## Conclusion: Unveiling the Enthusiast's Motivations
+## Wrapping Up Mr Fallon: The Enthusiast Personified
 
-Now that we've embarked on this captivating exploration of Jimmy Fallon's personality through the lens of the Enneagram Type 7, we've gained a deeper understanding of his motivations, strengths, and the challenges he faces.
-
-As an Enthusiast, Fallon's natural inclination toward new experiences, his contagious enthusiasm, and his ability to effortlessly engage with others define his persona. His ability to create joy, laughter, and a sense of connection has firmly established him as an icon in the world of entertainment.
+Jimmy's natural inclination toward new experiences, his contagious enthusiasm, and his ability to effortlessly engage with others define his persona. His ability to create joy, laughter, and a sense of connection has firmly established him as an icon in the world of entertainment.
 
 However, it's important to recognize that personalities are complex and multifaceted, and individuals cannot always be neatly sorted into categories. While Fallon exhibits numerous traits associated with Type 7, it's essential to approach this analysis with an open mind and acknowledge the nuance of his character.
 

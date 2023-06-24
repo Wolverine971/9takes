@@ -94,7 +94,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - They would likely appreciate Dobrik's assertiveness and resilience but might wish for him to channel his energy into tackling more serious issues or challenging the status quo.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - They might enjoy the light-heartedness of Dobrik's content but could feel uncomfortable with the chaos and unpredictability. They would likely wish for more harmony and less controversy in his approach.
 
-## Conclusion
+## Wrapping Up
 
 As we journey back from this deep dive into David Dobrik's psyche, we see how the Enneagram Type 7 traits mirror his life and career. His incessant quest for adventure, the evasion of discomfort, and an ever-diverse circle of friends - all echo the attributes of an Enthusiast. While the contours of his life present a convincing case, remember that the complexity of human personality defies absolute categorization.
 

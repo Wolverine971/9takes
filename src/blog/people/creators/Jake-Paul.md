@@ -88,7 +88,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - They could resonate with Jake's assertiveness and his courage to challenge established fighters. Yet, they might question his handling of power and influence.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Likely to feel overwhelmed by Jake's aggressive approach to life, they might wish he'd seek harmony over conflict. His controversial actions might conflict with their desire for peace and stability.
 
-## Conclusion: Jake Paul - A Compelling Type 3
+## Wrapping up
 
 It seems quite plausible, then, that Jake Paul does indeed epitomize the characteristics of an Enneagram Type 3. His relentless drive for success, fear of failure, and struggle for authenticity in relationships 💑 paint a fascinating picture of his personality. But as we all know, people are complex, and categorizing individuals neatly isn't always possible.
 

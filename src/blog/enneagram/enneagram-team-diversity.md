@@ -46,9 +46,9 @@ To create a balanced and diverse team, it's important to include members from di
 
 Occasionally, specific projects or challenges necessitate a team with a particular set of strengths. In these instances, it is vital to consider the distinct contributions of each Enneagram type when assembling the team. For example, a team responsible for devising a new marketing campaign might benefit from a blend of Type 3s (for their goal-driven mindset), Type 4s (for their creativity), and Type 7s (for their capacity to generate unconventional ideas).
 
-## Conclusion
+## Wrapping up
 
-In conclusion, leveraging the Enneagram as a tool for building balanced and diverse teams can have a profound impact on your organization's productivity and success. By understanding the unique strengths and challenges associated with each Enneagram type and triad, you can create dynamic teams that foster innovation, empathy, and ambition. Moreover, tailoring team compositions to address specific challenges ensures the most effective utilization of your team's capabilities. Embracing the diversity and balance offered by the Enneagram ultimately leads to better decision-making, problem-solving, and a more collaborative work environment that promotes growth and success for your organization.
+Leveraging the Enneagram as a tool for building balanced and diverse teams can have a profound impact on your organization's productivity and success. By understanding the unique strengths and challenges associated with each Enneagram type and triad, you can create dynamic teams that foster innovation, empathy, and ambition. Moreover, tailoring team compositions to address specific challenges ensures the most effective utilization of your team's capabilities. Embracing the diversity and balance offered by the Enneagram ultimately leads to better decision-making, problem-solving, and a more collaborative work environment that promotes growth and success for your organization.
 
   <div>
    <script type="application/ld+json">

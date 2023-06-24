@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 type: 'situational'
 blog: true
+pic: 'party-in-street-color'
 ---
 
 <svelte:head>

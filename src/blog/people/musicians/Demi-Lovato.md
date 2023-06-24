@@ -18,6 +18,9 @@ tiktok: ''
 
 <!-- notes: spanish, dating, networth, barney, camp rock, heart attack, boyfriend, age
 
+mention how her changing her pronouns from they/them back to she/ her is characteristic of a 4,
+also mention how she is LGBT
+
 Demi Lovato songs
 Demi Lovato new album
 Demi Lovato tour

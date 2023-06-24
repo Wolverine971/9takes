@@ -113,7 +113,7 @@
     </div>
   </div>
 </div> -->
-<style>
+<style lang="scss">
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
@@ -166,6 +166,15 @@
 		position: relative;
 		z-index: 10;
 		margin: 1rem;
+	}
+
+	.screen:hover {
+		/* .profileFace {
+			filter: blur(1px) !important;
+		} */
+		img {
+			filter: none !important;
+		}
 	}
 
 	.screen:after,
