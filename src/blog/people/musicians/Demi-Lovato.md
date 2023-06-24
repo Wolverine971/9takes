@@ -178,7 +178,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
         "http://schema.org/width": 1200
       },
       "http://schema.org/mainEntityOfPage": {
-        "@id": "https://example.com/blog/famous-enneagram-types/Demi-Lovato",
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Demi-Lovato",
         "@type": "http://schema.org/WebPage"
       },
       "http://schema.org/mentions": {
@@ -202,7 +202,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
           "@type": "http://schema.org/ImageObject",
           "http://schema.org/height": 60,
           "http://schema.org/url": {
-            "@id": "https://example.com/brand/darkRubix.png"
+            "@id": "https://9takes.com/brand/darkRubix.png"
           },
           "http://schema.org/width": 600
         },

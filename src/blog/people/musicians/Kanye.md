@@ -150,12 +150,12 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
         "@type": "http://schema.org/ImageObject",
         "http://schema.org/height": 800,
         "http://schema.org/url": {
-          "@id": "https://example.com/kanye-west.webp"
+          "@id": "https://9takes.com/types/7s/Kanye.webp"
         },
         "http://schema.org/width": 1200
       },
       "http://schema.org/mainEntityOfPage": {
-        "@id": "https://example.com/blog/famous-enneagram-types/kanye-west",
+        "@id": "https://9takes.com/blog/famous-enneagram-types/kanye-west",
         "@type": "http://schema.org/WebPage"
       },
       "http://schema.org/mentions": {
@@ -179,7 +179,7 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
           "@type": "http://schema.org/ImageObject",
           "http://schema.org/height": 60,
           "http://schema.org/url": {
-            "@id": "https://example.com/brand/logo.png"
+            "@id": "https://9takes.com/brand/darkRubix.png"
           },
           "http://schema.org/width": 600
         },
