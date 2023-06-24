@@ -19,11 +19,11 @@
 	<h1 style="text-align: center;">About 9takes</h1>
 
 	<p>
-		<b>Everyone is unique ✨</b><br />We know that intellectually. But why do some people (not you
+		<b>Everyone is unique, ✨</b><br />we know that intellectually. But why do some people (not you
 		😉) get surprised when someone doesn't agree with them. Surely if that other person had all the
-		facts, was smart, kind and had your experience they would totally agree with your POV. We forget
-		that other people can have facts, be smart, kind and have similar experiences AND still
-		disagree. 9takes is about leaning into these disagreements and embracing these differences
+		facts, was smart, kind and had your experience they would totally agree with your point of view.
+		We forget that other people can have facts, be smart, kind and have similar experiences AND
+		still disagree. 9takes is about leaning into these disagreements and embracing these differences
 		because, in the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
 
 		<br /><br />
@@ -63,7 +63,7 @@
 		is, that is for you to discover.
 	</p>
 
-	<h3>Why Questions and Answers?</h3>
+	<h3>Why focus on questions and answers?</h3>
 	<p>
 		Because the process of forming and asking a question is a mental unlock. When you are asking
 		questions you are growing. When you have run out of questions you stop growing and you not only
@@ -84,7 +84,7 @@
 	<p>
 		There are endless questions to ask. Fortunately, there are endless people out there with answers
 		and perspectives that you can learn from. They also have questions like you and will share if
-		you ask them too. Some people see the world like you and there are others who see a vastly
+		you ask them to. Some people see the world like you and there are others who see a vastly
 		different world.
 	</p>
 	<p>
@@ -101,7 +101,6 @@
 			<p>
 				I am a techy, ex-military, most days happily married with 2 kids running around getting into
 				the highest of hijinks. My wife got me into the enneagram and I have been obsessed since. I
-				don't exactly know why there isn't a community like 9takes, but I am building it out. I
 				share my thoughts and opinions down below but would love to hear yours. Feel free to message
 				me <a target="_blank" href="https://twitter.com/djwayne3">here</a>.
 			</p>

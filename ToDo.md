@@ -23,3 +23,6 @@
 - Enneagram People asking for feedback
 
 
+Random suggestions :thread::
+
+Make the speakers get excited about the event by getting their input on the marketing material with their face in it. Send them a preview email? Make sure its flattering

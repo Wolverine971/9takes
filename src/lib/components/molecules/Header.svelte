@@ -371,13 +371,15 @@
 		>
 			<a href="/" class="brand left">
 				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-				{#if innerWidth > 1000}
+				{#if innerWidth > 1000 && $page.url.pathname !== '/'}
 					<Scribble text={'9takes'} />
 				{/if}
 			</a>
 
 			<div class="center menu nav-bar {$page.url.pathname === '/' ? 'home-page' : ''}">
-				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
+				{#if $page.url.pathname !== '/'}
+					<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
+				{/if}
 				<a
 					href="/questions"
 					aria-disabled={data?.session?.user?.id ? false : true}
