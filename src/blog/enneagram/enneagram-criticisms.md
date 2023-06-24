@@ -28,7 +28,7 @@ Enneagram Criticisms (200 words)
 <details>
   <summary class="accordion">Personality stuff is not real.</summary>
   <div class="panel">
-    <img src="/src/lib/images/personality-snippet.PNG" alt="personality defintion" class="small-absolute" />
+    <img src="/personality-snippet.webp" alt="personality defintion" title="personality defintion from google" class="small-absolute" />
     <p>Do you get along with everyone? Do do you not? Why? Are people similar to you or is everyone different than you?
       The dimensions by which we are similar and different are what make up our personality. There are potentially
       infinite dimensions because no two people are exactly alike however there are patterns. Those observed patterns
@@ -47,6 +47,14 @@ Enneagram Criticisms (200 words)
 
   </div>
 </details>
+
+<!-- <details>
+  <summary class="accordion">There are many personality systems, the Enneagram isn't special</summary>
+  <div class="panel" style="margin: 16px 0">
+    <p>
+
+  </div>
+</details> -->
 
 <script>
   // if(process.browser){
