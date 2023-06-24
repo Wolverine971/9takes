@@ -20,8 +20,8 @@ tiktok:
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
+  <meta property="og:image" content="https://9takes.com/types/3s/Lisa-Koshy.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lisa-Koshy">
 </svelte:head>
 
 <script>
@@ -34,17 +34,17 @@ tiktok:
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'Lisa-Koshy'}.webp`}
 		showIcon={false}
-		displayText="booboo"
+		displayText="Lisa Koshy"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Lisa Koshy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lisa Koshy.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Lisa Koshy is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -61,9 +61,9 @@ tiktok:
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives Lisa Koshy
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Lisa Koshy:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

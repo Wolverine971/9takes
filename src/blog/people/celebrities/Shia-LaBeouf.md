@@ -1,27 +1,27 @@
 ---
-title: 'Kylie Jenner Enneagram Type 3'
-description: 'Why Kylie Jenner appears to be a type 3'
+title: 'Shia LaBeouf An Enneagram Type 3'
+description: 'Why Shia LaBeouf appears to be a type 3'
 author: 'DJ Wayne'
-date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner'
-lastmod: '2023-03-26'
+date: '2023-06-21'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Shia-LaBeouf'
+lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['lifestyleInfluencer']
-wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
-twitter: 'https://twitter.com/KylieJenner'
-instagram: 'https://www.instagram.com/kyliejenner'
-tiktok: 'https://www.tiktok.com/@kyliejenner'
+type: ['']
+wikipedia: ''
+twitter: ''
+instagram: ''
+tiktok: ''
 ---
 
 <!-- // notes:  -->
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/Kylie-Jenner.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
+  <meta property="og:image" content="https://9takes.com/types/3s/Shia-LaBeouf.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Shia-LaBeouf">
 </svelte:head>
 
 <script>
@@ -34,17 +34,17 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Kylie-Jenner'}.webp`}
+		image={`/types/3s/${'Shia-LaBeouf'}.webp`}
 		showIcon={false}
-		displayText="Kylie Jenner"
+		displayText="Shia LaBeouf"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+> **Disclaimer** This analysis of Shia LaBeouf's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Shia LaBeouf.
 
 <details>
-<summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Shia LaBeouf is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -61,9 +61,9 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives Kylie Jenner
+## How Each Enneagram Type Perceives Shia LaBeouf
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kylie Jenner:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Shia LaBeouf:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

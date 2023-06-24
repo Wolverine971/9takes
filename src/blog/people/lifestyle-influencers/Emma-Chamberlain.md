@@ -22,8 +22,8 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
+  <meta property="og:image" content="https://9takes.com/types/3s/Emma-Chamberlain.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emma-Chamberlain">
 </svelte:head>
 
 <script>
@@ -36,17 +36,17 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'Emma-Chamberlain'}.webp`}
 		showIcon={false}
-		displayText="booboo"
+		displayText="Emma Chamberlain"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Emma Chamberlain's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emma Chamberlain.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Emma Chamberlain is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -63,9 +63,9 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives Emma Chamberlain
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Emma Chamberlain:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
