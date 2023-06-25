@@ -28,44 +28,42 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<div class="app">
-	<!-- <div class="">
+<!-- <div class="">
 		<div class="card">
 			<div class="halftone" style="height: 100%;"> -->
-	<div class="foreward-main">
-		<Analytics />
-		<!-- {#if $page.url.pathname !== '/'} -->
-		<Header {data} />
+<!-- <div class="foreward-main"> -->
+<Analytics />
+<!-- {#if $page.url.pathname !== '/'} -->
+<Header {data} />
 
-		<!-- {/if} -->
+<!-- {/if} -->
 
-		<Toast />
-		{#if $page.url.pathname === '/'}
-			<Jumbotron
-				image={'background2.webp'}
-				showIcon={innerWidth > 760 && true}
-				text={'9takes'}
-				subtext={'Ask questions, share your story, get curious'}
-			>
-				<div class="screen">
-					<p class="jumbo-name" data-value={'9takes'}>{'9takes'}</p>
-					<p class="link">{'Ask questions, share your story, get curious'}</p>
-				</div>
-			</Jumbotron>
-		{/if}
-		<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
-			<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
-			<slot />
-			<Footer {data} />
-		</main>
-	</div>
-	<!-- </div>
+<Toast />
+{#if $page.url.pathname === '/'}
+	<Jumbotron
+		image={'background2.webp'}
+		showIcon={innerWidth > 760 && true}
+		text={'9takes'}
+		subtext={'Ask questions, share your story, get curious'}
+	>
+		<div class="content-display">
+			<h1 class="jumbo-name" data-value={'9takes'}>{'9takes'}</h1>
+			<p class="link">{'Ask questions, share your story, get curious'}</p>
+		</div>
+	</Jumbotron>
+{/if}
+<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
+	<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
+	<slot />
+	<Footer {data} />
+</main>
+<!-- </div> -->
+
+<!-- </div>
 		</div>
 	</div> -->
-</div>
-
 <style lang="scss">
-	.screen {
+	.content-display {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -127,10 +125,6 @@
 	// 	padding: 0.8rem 1rem;
 	// 	padding: var(--card-padding);
 	// }
-	.foreward-main {
-		position: relative;
-		z-index: 12344545;
-	}
 
 	// .halftone.s-7IPF32Wcq3s8.s-7IPF32Wcq3s8 {
 	// 	position: relative;
@@ -166,11 +160,11 @@
 	// 	mask-position: center;
 	// 	transition: background-size 100ms;
 	// }
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
+	// .app {
+	// 	display: flex;
+	// 	flex-direction: column;
+	// 	min-height: 100vh;
+	// }
 
 	main {
 		flex: 1;

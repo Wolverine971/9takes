@@ -4,7 +4,6 @@
 	import twitter from '$lib/images/twitter.svg';
 	import type { PageData } from '../../../routes/$types';
 	export let data: PageData;
-	console.log(data);
 </script>
 
 <footer class="footer">

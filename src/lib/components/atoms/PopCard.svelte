@@ -32,9 +32,9 @@
 
 		/* -- Text effect -- */
 
-		const screen = document.querySelector('.screen');
-		if (screen) {
-			screen.onmouseenter = (event) => {
+		const popCard = document.querySelector('.pop-card');
+		if (popCard) {
+			popCard.onmouseenter = (event) => {
 				scribbleScrabble();
 			};
 		}
@@ -67,26 +67,26 @@
 	};
 </script>
 
-<div class="screen" style="aspect-ratio: {aspectRatio}; ">
+<div class="pop-card" style="aspect-ratio: {aspectRatio}; ">
 	<!-- <div
-		class="screen-image {showIcon ? 'home' : 'profileFace'}"
+		class="pop-card-image {showIcon ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
 		in:fly={{ y: 200, duration: 2000 }}
 	/> -->
 	<img
-		class="screen-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
+		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
 		src={image}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
-	<div class="screen-overlay" />
-	<div class="screen-content">
+	<div class="pop-card-overlay" />
+	<div class="pop-card-content">
 		<!-- <i  /> -->
 		{#if showIcon}
-			<img class="screen-icon" src="darkRubix.webp" alt="enneagram symbol" style="width: 10%;" />
+			<img class="pop-card-icon" src="darkRubix.webp" alt="enneagram symbol" style="width: 10%;" />
 		{/if}
 
-		<div class="screen-user">
+		<div class="pop-card-user">
 			{#if displayText}
 				<p class="name-pop" data-value={displayText}>{displayText}</p>
 			{:else}
@@ -103,12 +103,12 @@
 
 <div id="links">
   
-</div><div class="screen">  
-  <div class="screen-image"></div>  
-  <div class="screen-overlay"></div>  
-  <div class="screen-content">
-    <i class="screen-icon fa-brands fa-codepen"></i>
-    <div class="screen-user">
+</div><div class="pop-card">  
+  <div class="pop-card-image"></div>  
+  <div class="pop-card-overlay"></div>  
+  <div class="pop-card-content">
+    <i class="pop-card-icon fa-brands fa-codepen"></i>
+    <div class="pop-card-user">
       <span class="name" data-value="CODEPEN">CODEPEN</span>
       <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a>
     </div>
@@ -148,14 +148,14 @@
 		overflow: hidden;
 	} */
 	@media (min-width: 500px) {
-		.screen {
+		.pop-card {
 			/* width: 500px; */
 			width: clamp(400px, 100%, 600px);
 			max-height: 500px;
 		}
 	}
 
-	.screen {
+	.pop-card {
 		/* width: 500px; */
 		/* width: clamp(400px, 100%, 600px); */
 		display: flex;
@@ -169,7 +169,7 @@
 		margin: 1rem;
 	}
 
-	.screen:hover {
+	.pop-card:hover {
 		/* .profileFace {
 			filter: blur(1px) !important;
 		} */
@@ -178,8 +178,8 @@
 		}
 	}
 
-	.screen:after,
-	/* .screen:before {
+	.pop-card:after,
+	/* .pop-card:before {
 		content: '';
 		height: 5px;
 		position: absolute;
@@ -189,14 +189,14 @@
 		background-color: white;
 	}
 
-	.screen:before {
+	.pop-card:before {
 		width: 15%;
 		top: 0rem;
 		border-bottom-left-radius: 1rem;
 		border-bottom-right-radius: 1rem;
 	} */
 
-	.screen:after {
+	.pop-card:after {
 		width: 25%;
 		bottom: 0rem;
 		border-top-left-radius: 1rem;
@@ -213,7 +213,7 @@
 		}
 	}
 
-	.screen-overlay {
+	.pop-card-overlay {
 		background: linear-gradient(
 			rgb(var(--primary-rgb) / 0.15),
 			rgb(var(--primary-rgb) / 0.15) 3px,
@@ -286,7 +286,7 @@
 		}
 	}
 
-	.screen > .screen-image {
+	.pop-card > .pop-card-image {
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -308,7 +308,7 @@
 		opacity: 0.6;
 	}
 
-	.screen > .screen-content {
+	.pop-card > .pop-card-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -323,13 +323,13 @@
 		border-radius: 0.6rem;
 	}
 
-	.screen > .screen-content > .screen-icon {
+	.pop-card > .pop-card-content > .pop-card-icon {
 		color: white;
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
 
-	.screen > .screen-content > .screen-user {
+	.pop-card > .pop-card-content > .pop-card-user {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -337,8 +337,8 @@
 		position: relative;
 	}
 
-	/* .screen > .screen-content > .screen-user:before,
-	.screen > .screen-content > .screen-user:after {
+	/* .pop-card > .pop-card-content > .pop-card-user:before,
+	.pop-card > .pop-card-content > .pop-card-user:after {
 		content: '';
 		position: absolute;
 		top: 0px;
@@ -347,35 +347,35 @@
 		box-shadow: 0px 0px 8px 3px rgb(var(--primary-rgb) / 60%);
 	}
 
-	.screen > .screen-content > .screen-user:before {
+	.pop-card > .pop-card-content > .pop-card-user:before {
 		height: 2px;
 		width: 50px;
 		translate: -20px -1rem;
 		opacity: 0.75;
 	} */
 
-	.screen > .screen-content > .screen-user:after {
+	.pop-card > .pop-card-content > .pop-card-user:after {
 		height: 3px;
 		width: 30px;
 		translate: 26px calc(-1rem - 0.5px);
 	}
 
-	.screen > .screen-content > .screen-user > :is(.name-pop, .link) {
+	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
 		font-family: 'Source Code Pro', monospace;
 		color: white;
 		text-align: center;
 		text-transform: uppercase;
 	}
 
-	.screen > .screen-content > .screen-user > .name-pop {
+	.pop-card > .pop-card-content > .pop-card-user > .name-pop {
 		position: relative;
 		font-size: 3.25rem;
 		font-weight: 400;
 		margin: 1rem;
 	}
 
-	/* .screen > .screen-content > .screen-user > .name-pop:before,
-	.screen > .screen-content > .screen-user > .name-pop:after {
+	/* .pop-card > .pop-card-content > .pop-card-user > .name-pop:before,
+	.pop-card > .pop-card-content > .pop-card-user > .name-pop:after {
 		content: '';
 		height: 4px;
 		width: 4px;
@@ -384,17 +384,17 @@
 		border-radius: 2px;
 	}
 
-	.screen > .screen-content > .screen-user > .name-pop:before {
+	.pop-card > .pop-card-content > .pop-card-user > .name-pop:before {
 		top: 55%;
 		right: -1.5rem;
 	}
 
-	.screen > .screen-content > .screen-user > .name-pop:after {
+	.pop-card > .pop-card-content > .pop-card-user > .name-pop:after {
 		top: 45%;
 		left: -1.5rem;
 	} */
 
-	.screen > .screen-content > .screen-user > .link {
+	.pop-card > .pop-card-content > .pop-card-user > .link {
 		opacity: 0.8;
 		font-size: 1.5rem;
 		text-shadow: 0px 0px 0.5rem white;
@@ -403,7 +403,7 @@
 		text-decoration: none;
 	}
 
-	.screen > .screen-content > .screen-user > .link:is(:hover, :focus) {
+	.pop-card > .pop-card-content > .pop-card-user > .link:is(:hover, :focus) {
 		text-decoration: underline;
 	}
 
@@ -459,16 +459,16 @@
 	}
 
 	@media (max-width: 700px) {
-		.screen {
+		.pop-card {
 			/* scale: 0.6; */
 			margin-bottom: 0rem;
 			width: 100%;
 		}
 
-		.screen-content {
+		.pop-card-content {
 			padding-bottom: 1rem !important;
 		}
-		.screen > .screen-content > .screen-user > .name-pop {
+		.pop-card > .pop-card-content > .pop-card-user > .name-pop {
 			position: relative;
 			font-size: 1.5rem;
 			font-weight: 200;

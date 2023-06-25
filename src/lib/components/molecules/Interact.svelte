@@ -42,8 +42,6 @@
 
 	export let parentType: string;
 
-	console.log(data);
-
 	const createComment = async () => {
 		let body = new FormData();
 		if (parentType === 'comment') {

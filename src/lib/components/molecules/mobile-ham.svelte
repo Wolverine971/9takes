@@ -7,7 +7,6 @@
 	export let data: PageData;
 
 	let active = false;
-	console.log(data);
 
 	onMount(() => {});
 </script>

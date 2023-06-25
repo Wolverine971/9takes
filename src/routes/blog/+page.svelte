@@ -7,7 +7,7 @@
 	import SiteMapIcon from '$lib/components/icons/siteMapIcon.svelte';
 
 	export let data: PageData;
-	console.log(data);
+
 	let structuredView = false;
 </script>
 

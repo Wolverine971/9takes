@@ -1,13 +1,14 @@
 ## All the questions:
 
-
 1. Politics and Policy:
+
    - Politics: Opinions on political parties, candidates, policies, current events.
    - International Relations: Views on foreign policies, global issues.
    - Public Policy: Opinions on local or national policies, proposed legislation, government regulation.
    - Military and Defense: Views on military spending, defense strategies, veterans' issues.
 
 2. Society and Culture:
+
    - Societal Issues: Subjects like equality, justice, human rights, social welfare.
    - Cultural Topics: Opinions about art, literature, movies, music, food, cultural phenomena.
    - Diversity and Inclusion: Views on diversity in the workplace, inclusivity in media, representation.
@@ -16,6 +17,7 @@
    - Recreational Drugs and Alcohol: Opinions about the legalization of certain substances, their societal impact.
 
 3. Economy and Work:
+
    - Economics: Opinions about economic theories, state of the economy, personal finance strategies.
    - Work and Career: Work-life balance, career development, industry trends.
    - Entrepreneurship and Startups: Opinions about starting a business, entrepreneurship challenges, venture capital.
@@ -24,64 +26,55 @@
    - Consumer Goods and Services: Opinions on different brands, products, services.
    - Cryptocurrency and Blockchain: Future of these technologies, their impact on economies, benefits/drawbacks of decentralized finance.
 
-
 4. Technology and Innovation:
-    - Technology: Impact and future of technology.
-    - Cybersecurity: Data privacy, hacking, online safety.
-    - Automation and Robotics: Rise of automation, future of work, ethical considerations of robotics.
-    - Internet and Digital Culture: Internet trends, memes, digital subcultures, online communities.
-    - Quantum Computing and Physics: Potential impact of quantum computing, implications of quantum physics theories.
-    - Nanotechnology and Material Science: Potential applications of nanotechnology, ethics of manipulating materials on a microscopic scale.
-    - Virtual Reality and Augmented Reality: Impact of these technologies on entertainment, education, work.
+
+   - Technology: Impact and future of technology.
+   - Cybersecurity: Data privacy, hacking, online safety.
+   - Automation and Robotics: Rise of automation, future of work, ethical considerations of robotics.
+   - Internet and Digital Culture: Internet trends, memes, digital subcultures, online communities.
+   - Quantum Computing and Physics: Potential impact of quantum computing, implications of quantum physics theories.
+   - Nanotechnology and Material Science: Potential applications of nanotechnology, ethics of manipulating materials on a microscopic scale.
+   - Virtual Reality and Augmented Reality: Impact of these technologies on entertainment, education, work.
 
 5. Personal Interests and Lifestyle:
-    - Personal Preferences: Favorite foods, preferred styles of clothing, leisure activities.
-    - Relationships and Family: Familial relations, friendship, love and romance, parenting.
-    - Travel and Tourism: Personal travel experiences, impact of tourism on local communities, favorite travel destinations.
-    - Sports: Favorite sports, teams, players, rules, significance and societal role of sports.
-    - Hobbies and Interests: Personal hobbies, interests, leisure activities.
-    - Fashion and Style: Fashion trends, personal style, the fashion industry.
-    - Food and Nutrition: Dietary preferences, opinions on different diets or food trends, food ethics.
-    - Minimalism and Simple Living: Opinions about the minimalist lifestyle, consumerism.
+
+   - Personal Preferences: Favorite foods, preferred styles of clothing, leisure activities.
+   - Relationships and Family: Familial relations, friendship, love and romance, parenting.
+   - Travel and Tourism: Personal travel experiences, impact of tourism on local communities, favorite travel destinations.
+   - Sports: Favorite sports, teams, players, rules, significance and societal role of sports.
+   - Hobbies and Interests: Personal hobbies, interests, leisure activities.
+   - Fashion and Style: Fashion trends, personal style, the fashion industry.
+   - Food and Nutrition: Dietary preferences, opinions on different diets or food trends, food ethics.
+   - Minimalism and Simple Living: Opinions about the minimalist lifestyle, consumerism.
 
 6. Health and Wellness:
-    - Health: Personal health habits, healthcare policy, mental health awareness, diet, exercise.
-    - Mental Health: Personal attitudes and societal views towards mental health and wellness, therapy, mindfulness.
-    - Physical Fitness and Wellness: Various workout regimens, wellness trends, health supplements.
-    - Healthcare Systems: Effectiveness of different healthcare models, health insurance, public health
-    - Alternative Medicine: Opinions about the effectiveness or value of non-traditional medical practices.
-    - Nutrition and Diet: Views on different diet trends, nutritional science.
+
+   - Health: Personal health habits, healthcare policy, mental health awareness, diet, exercise.
+   - Mental Health: Personal attitudes and societal views towards mental health and wellness, therapy, mindfulness.
+   - Physical Fitness and Wellness: Various workout regimens, wellness trends, health supplements.
+   - Healthcare Systems: Effectiveness of different healthcare models, health insurance, public health
+   - Alternative Medicine: Opinions about the effectiveness or value of non-traditional medical practices.
+   - Nutrition and Diet: Views on different diet trends, nutritional science.
 
 7. Education and Personal Development:
-    - Education: Schooling practices, educational policy, value of different types of education
-    - Education Systems: Effectiveness of different education systems, teaching methodologies
-    - Personal Development: Self-improvement, learning methods, life choices.
-    - Parenting and Childcare: Views on parenting styles, childhood education, screen time for kids.
-    - Digital Literacy and E-learning: Opinions about the importance of digital literacy, the effectiveness of online learning.
+
+   - Education: Schooling practices, educational policy, value of different types of education
+   - Education Systems: Effectiveness of different education systems, teaching methodologies
+   - Personal Development: Self-improvement, learning methods, life choices.
+   - Parenting and Childcare: Views on parenting styles, childhood education, screen time for kids.
+   - Digital Literacy and E-learning: Opinions about the importance of digital literacy, the effectiveness of online learning.
 
 8. Environment and Sustainability:
-    - Environment: Climate change, conservation, sustainability.
-    - Climate and Environment: Environmental policies, conservation, climate change, renewable energy.
-    - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
 
+   - Environment: Climate change, conservation, sustainability.
+   - Climate and Environment: Environmental policies, conservation, climate change, renewable energy.
+   - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
 
 9. Space and Astronomy
-    - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
-
-
-
-
-
-
-
-
-
-
-
-
-
+   - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
 
 ## Question Heirarchy:
+
 - Closed-ended Questions
   - Yes/No Questions
   - Choice Questions
@@ -93,15 +86,15 @@
 - Rhetorical Questions
 
 ### A layer deeper
- 
- - Closed-ended Questions
-  - Yes/No Questions
-  - Choice Questions
-    - Multiple Choice Questions
-    - Binary Choice Questions
-  - Scale/Rating Questions
-    - Likert Scale Questions
-    - Numerical Scale Questions
+
+- Closed-ended Questions
+- Yes/No Questions
+- Choice Questions
+  - Multiple Choice Questions
+  - Binary Choice Questions
+- Scale/Rating Questions
+  - Likert Scale Questions
+  - Numerical Scale Questions
 - Open-ended Questions
   - Fact-based Questions
   - Opinion-based Questions
@@ -114,8 +107,7 @@
   - Statement Rhetorical Questions
   - Argumentative Rhetorical Questions
 
-
-### Another layer 
+### Another layer
 
 - Closed-ended Questions
   - Yes/No Questions
@@ -158,7 +150,6 @@
   - Argumentative Rhetorical Questions
     - Challenging Rhetorical Questions
     - Provocative Rhetorical Questions
-
 
 ### Another layer Focusing on "Open-ended Questions"
 
@@ -203,9 +194,6 @@
       - Alternative History Hypothetical Questions
         - Minor Alternative History Questions
         - Major Alternative History Questions
-
-
-
 
 | Category               | Subcategory                          | Type                                       | Description                                                                                                            |
 | ---------------------- | ------------------------------------ | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -261,9 +249,6 @@
 |                        |                                      | Negative Rhetorical Questions              | Questions that are asked to negate a point or idea.                                                                    |
 |                        | Argumentative Rhetorical Questions   | Challenging Rhetorical Questions           | Questions that are asked to challenge the listener's point of view.                                                    |
 |                        |                                      | Provocative Rhetorical Questions           | Questions that are asked to provoke thought or stir emotion.                                                           |
-
-
-
 
 JSON Structure
 
@@ -362,13 +347,7 @@ JSON Structure
 
 ```
 
-
-
-
-
-
 ## All Raw Question Topics from ChatGPT
-
 
 Politics: Questions in this category may ask for opinions on political parties, candidates, policies, or current events. For instance, "What is your opinion on the current administration's economic policy?"
 
@@ -442,7 +421,6 @@ Human Rights and Social Justice: Questions in this category might relate to issu
 
 Climate and Environment: Questions might cover opinions on environmental policies, conservation, climate change, renewable energy, etc. For instance, "What do you think about the current efforts to reduce global carbon emissions?"
 
-
 Space Exploration: Questions might ask for opinions about the significance of space travel, the potential for life on other planets, or the ethics of colonizing other worlds. Example: "What do you think about the efforts to colonize Mars?"
 
 Cryptocurrency and Blockchain: Questions can relate to the future of these technologies, their impact on economies, and the benefits or drawbacks of decentralized finance. Example: "What is your opinion on the widespread adoption of cryptocurrencies?"
@@ -462,7 +440,6 @@ Genetic Engineering: Questions might ask for opinions about the ethical consider
 Parenting and Childcare: Questions might cover views on parenting styles, childhood education, screen time for kids, etc. For instance, "What's your view on the effects of screen time on children's development?"
 
 Sustainability and Renewable Energy: Questions in this category might ask about renewable energy sources, sustainable living, and climate change mitigation strategies. Example: "What do you think about the potential of solar energy?"
-
 
 Hobbies and Interests: Questions might ask for opinions about personal hobbies, interests, and leisure activities. Example: "What do you think about the role of hobbies in personal development?"
 
@@ -523,5 +500,3 @@ Mental Health and Therapy: Questions could ask about the stigma around mental he
 Minimalism and Simple Living: Questions might ask about the minimalist lifestyle, consumerism, etc. Example: "What is your opinion on the minimalist lifestyle?"
 
 Recreational Drugs and Alcohol: Questions could address opinions about the legalization of certain substances, their societal impact, etc. Example: "What's your view on the legalization of marijuana?"
-
-

@@ -1,6 +1,6 @@
+# Todos
 
-# Todos 
-- Update Script to id strengths and weaknesses and potential childhood wound 
+- Update Script to id strengths and weaknesses and potential childhood wound
 - Ask for shares
 - Comments on the blogs
 - Homepage problem- redesign
@@ -14,14 +14,10 @@
 - Blog Tagging
 - Dedicated Signup page
 
-
-
-
-
 # Release Plan
+
 - Reach out to reddit asking for beta users and admins
 - Enneagram People asking for feedback
-
 
 Random suggestions :thread::
 

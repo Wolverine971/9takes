@@ -27,7 +27,6 @@
 	const creators = data.people.filter((person) => {
 		return person.type?.includes('creator');
 	});
-	console.log(data);
 </script>
 
 <BlogPageHead

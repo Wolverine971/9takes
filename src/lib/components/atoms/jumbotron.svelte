@@ -34,9 +34,9 @@
 
 		/* -- Text effect -- */
 
-		const screen = document.querySelector('.screen');
-		if (screen) {
-			screen.onmouseenter = (event: any) => {
+		const jumboCard = document.querySelector('.jumbo-card');
+		if (jumboCard) {
+			jumboCard.onmouseenter = (event: any) => {
 				scribbleScrabble();
 			};
 		}
@@ -69,22 +69,22 @@
 </script>
 
 <div
-	class="screen {$page.url.pathname === '/' ? 'full-screen' : ''}"
+	class="jumbo-card {$page.url.pathname === '/' ? 'full-jumbo-card' : ''}"
 	style="aspect-ratio: {aspectRatio}; "
 >
 	<div
-		class="screen-image {panBackground ? 'home' : 'profileFace'}"
+		class="jumbo-card-image {panBackground ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
-	<div class="screen-overlay" />
-	<div class="screen-content" style="justify-content: {centerText}">
+	<div class="jumbo-card-overlay" />
+	<div class="jumbo-card-content" style="justify-content: {centerText}">
 		<slot />
 	</div>
 </div>
 
 <style lang="scss">
-	.full-screen {
+	.full-jumbo-card {
 		height: 100vh;
 		// width: 100vw;
 	}
@@ -92,7 +92,7 @@
 		background-position: center !important;
 		background-size: cover !important;
 	}
-	.screen:hover {
+	.jumbo-card:hover {
 		.profileFace {
 			filter: blur(1px) !important;
 		}
@@ -129,13 +129,13 @@
 		overflow: hidden;
 	} */
 	@media (min-width: 500px) {
-		.screen {
+		.jumbo-card {
 			/* width: 500px; */
 			/* width: clamp(400px, 100%, 600px); */
 		}
 	}
 
-	.screen {
+	.jumbo-card {
 		/* width: 500px; */
 		/* width: clamp(400px, 100%, 600px); */
 		display: flex;
@@ -149,8 +149,8 @@
 		padding: 20px;
 	}
 
-	.screen:after,
-	/* .screen:before {
+	.jumbo-card:after,
+	/* .jumbo-card:before {
 		content: '';
 		height: 5px;
 		position: absolute;
@@ -160,14 +160,14 @@
 		background-color: white;
 	}
 
-	.screen:before {
+	.jumbo-card:before {
 		width: 15%;
 		top: 0rem;
 		border-bottom-left-radius: 1rem;
 		border-bottom-right-radius: 1rem;
 	} */
 
-	.screen:after {
+	.jumbo-card:after {
 		width: 25%;
 		bottom: 0rem;
 		border-top-left-radius: 1rem;
@@ -184,7 +184,7 @@
 		}
 	}
 
-	.screen-overlay {
+	.jumbo-card-overlay {
 		background: linear-gradient(
 			rgb(var(--primary-rgb) / 0.15),
 			rgb(var(--primary-rgb) / 0.15) 3px,
@@ -257,7 +257,7 @@
 		}
 	}
 
-	.screen > .screen-image {
+	.jumbo-card > .jumbo-card-image {
 		height: 100%;
 		width: 100%;
 		position: absolute;
@@ -277,7 +277,7 @@
 		/* animation: pan-image 15s linear infinite; */
 	}
 
-	.screen > .screen-content {
+	.jumbo-card > .jumbo-card-content {
 		/* gap: 4rem; */
 		position: relative;
 		z-index: 3;
@@ -292,13 +292,13 @@
 		width: 100%;
 	}
 
-	.screen > .screen-content > .screen-icon {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-icon {
 		color: white;
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
 
-	.screen > .screen-content > .screen-user {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -306,8 +306,8 @@
 		position: relative;
 	}
 
-	/* .screen > .screen-content > .screen-user:before,
-	.screen > .screen-content > .screen-user:after {
+	/* .jumbo-card > .jumbo-card-content > .jumbo-card-user:before,
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user:after {
 		content: '';
 		position: absolute;
 		top: 0px;
@@ -316,35 +316,35 @@
 		box-shadow: 0px 0px 8px 3px rgb(var(--primary-rgb) / 60%);
 	}
 
-	.screen > .screen-content > .screen-user:before {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user:before {
 		height: 2px;
 		width: 50px;
 		translate: -20px -1rem;
 		opacity: 0.75;
 	} */
 
-	.screen > .screen-content > .screen-user:after {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user:after {
 		height: 3px;
 		width: 30px;
 		translate: 26px calc(-1rem - 0.5px);
 	}
 
-	.screen > .screen-content > .screen-user > :is(.jumbo-name, .link) {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > :is(.jumbo-name, .link) {
 		font-family: 'Source Code Pro', monospace;
 		color: white;
 		text-align: center;
 		text-transform: uppercase;
 	}
 
-	.screen > .screen-content > .screen-user > .jumbo-name {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name {
 		position: relative;
 		font-size: 3.25rem;
 		font-weight: 400;
 		margin: 1rem;
 	}
 
-	/* .screen > .screen-content > .screen-user > .jumbo-name:before,
-	.screen > .screen-content > .screen-user > .jumbo-name:after {
+	/* .jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:before,
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:after {
 		content: '';
 		height: 4px;
 		width: 4px;
@@ -353,17 +353,17 @@
 		border-radius: 2px;
 	}
 
-	.screen > .screen-content > .screen-user > .jumbo-name:before {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:before {
 		top: 55%;
 		right: -1.5rem;
 	}
 
-	.screen > .screen-content > .screen-user > .jumbo-name:after {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:after {
 		top: 45%;
 		left: -1.5rem;
 	} */
 
-	.screen > .screen-content > .screen-user > .link {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .link {
 		opacity: 0.8;
 		font-size: 1.5rem;
 		text-shadow: 0px 0px 0.5rem white;
@@ -372,7 +372,7 @@
 		text-decoration: none;
 	}
 
-	.screen > .screen-content > .screen-user > .link:is(:hover, :focus) {
+	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .link:is(:hover, :focus) {
 		text-decoration: underline;
 	}
 
@@ -428,7 +428,7 @@
 	}
 
 	@media (max-width: 700px) {
-		.screen {
+		.jumbo-card {
 			/* scale: 0.6; */
 			margin-bottom: 0rem;
 		}
@@ -440,7 +440,7 @@
 			text-shadow: 2px 2px #0e0e0e !important;
 		}
 
-		.screen-content {
+		.jumbo-card-content {
 			/* padding-bottom: 1rem !important; */
 		}
 	}
