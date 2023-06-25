@@ -7,7 +7,7 @@
 </script>
 
 <div style="width: 100%;">
-	<h2>The ideas behind 9takes</h2>
+	<h2>Ideas behind 9takes</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.community as cBlog}
 			<a
@@ -47,7 +47,7 @@
 </div>
 
 <div style="width: 100%;">
-	<h2>The Enneagram explained</h2>
+	<h2>Enneagram explained</h2>
 	<div class="blog-grid-container">
 		{#each blogs?.enneagram as eBlog}
 			<a

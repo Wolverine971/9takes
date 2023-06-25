@@ -10,11 +10,11 @@
 <footer class="footer">
 	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
-			{#if $page.url.pathname !== '/'}
-				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
-				</li>
-			{/if}
+			<!-- {#if $page.url.pathname !== '/'} -->
+			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
+			</li>
+			<!-- {/if} -->
 			<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
 				<a
 					href="/questions"

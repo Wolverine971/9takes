@@ -19,12 +19,13 @@
 	<h1 style="text-align: center;">About 9takes</h1>
 
 	<p>
-		<b>Everyone is unique, ✨</b><br />we know that intellectually. But why do some people (not you
-		😉) get surprised when someone doesn't agree with them. Surely if that other person had all the
-		facts, was smart, kind and had your experience they would totally agree with your point of view.
-		We forget that other people can have facts, be smart, kind and have similar experiences AND
-		still disagree. 9takes is about leaning into these disagreements and embracing these differences
-		because, in the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
+		<b>"Everyone is unique," ✨</b><br />we know that intellectually. But why do some people (not
+		you 😉) get surprised when someone doesn't agree with them. Surely if that other person had all
+		the facts, was smart, kind and had your experience they would totally agree with your point of
+		view. We forget that other people can have facts, be smart, kind and have similar experiences
+		AND still disagree. 9takes is about leaning into these disagreements and embracing these
+		differences because, in the end, we all learn something, becoming better 👍 faster ⚡ and
+		stronger 💪.
 
 		<br /><br />
 		<b>

@@ -329,7 +329,7 @@
 <svelte:window bind:innerWidth />
 
 <header class="the-header">
-	{#if innerWidth < 760}
+	{#if innerWidth < 1000}
 		<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
 			<MobileHam {data} />
 
@@ -366,7 +366,7 @@
 		</div>
 	{:else}
 		<nav
-			class="header {innerWidth < 760 && 'big-navbar'} {$page.url.pathname === '/' &&
+			class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
 				'absolute-pos'}"
 		>
 			<a href="/" class="brand left">
@@ -376,22 +376,81 @@
 				{/if}
 			</a>
 
-			<div class="center menu nav-bar {$page.url.pathname === '/' ? 'home-page' : ''}">
-				{#if $page.url.pathname !== '/'}
-					<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
-				{/if}
+			<div
+				class="center menu big-nav-links {$page.url.pathname === '/'
+					? 'home-page'
+					: ''} dope-nav-menu"
+			>
+				<a href="/" class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap">
+					<div
+						class="nav-text nav-element nav-element1 {$page.url.pathname === '/'
+							? 'active-link'
+							: ''}"
+						style=""
+					>
+						HOME
+					</div>
+					<div
+						class="nav-element nav-element2 {$page.url.pathname === '/' ? 'active-link' : ''}"
+						style=""
+					>
+						HOME
+					</div>
+				</a>
 				<a
-					href="/questions"
-					aria-disabled={data?.session?.user?.id ? false : true}
-					class="{!data?.session?.user?.id && 'disabled'} {$page.url.pathname.startsWith(
-						'/questions'
-					)
-						? 'active-link'
-						: ''}">Questions</a
+					title={!data?.session?.user?.id ? 'Not available yet' : ''}
+					href={!data?.session?.user?.id ? '' : '/questions'}
+					class="a-wrap {!data?.session?.user?.id && 'disabled'}"
 				>
-				<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>
-				<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
-				<!-- <NavbarLinks mobile={innerWidth < 760} /> -->
+					<div
+						class="nav-text nav-element  {$page.url.pathname.startsWith('/questions')
+							? 'active-link'
+							: ''}"
+						style=""
+					>
+						QUESTIONS
+					</div>
+					<!-- <div
+						class="nav-element-disabled nav-element2  {$page.url.pathname.startsWith('/questions')
+							? 'active-link'
+							: ''}"
+						style=""
+					>
+						QUESTIONS
+					</div> -->
+				</a>
+				<a href="/blog" class="a-wrap">
+					<div
+						class="nav-text nav-element nav-element1 {$page.url.pathname === '/blog'
+							? 'active-link'
+							: ''}"
+						style=""
+					>
+						BLOG
+					</div>
+					<div
+						class="nav-element nav-element2 {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+						style=""
+					>
+						BLOG
+					</div>
+				</a>
+				<a href="/about" class="a-wrap">
+					<div
+						class="nav-text nav-element nav-element1 {$page.url.pathname === '/about'
+							? 'active-link'
+							: ''}"
+						style=""
+					>
+						ABOUT
+					</div>
+					<div
+						class="nav-element nav-element2 {$page.url.pathname === '/about' ? 'active-link' : ''}"
+						style=""
+					>
+						ABOUT
+					</div>
+				</a>
 			</div>
 			{#if data?.session?.user}
 				<div class="corner-right-big right">
@@ -429,27 +488,87 @@
 <style lang="scss">
 	.the-header {
 		padding: 0 2rem;
-		z-index: 12312;
+		z-index: 9999;
 
-		.nav-bar {
+		.a-wrap {
+			position: relative;
+			width: 300px;
+			overflow: hidden;
+			text-decoration: none;
+			max-width: 100%;
+			display: flex;
+			align-items: center;
+			height: 100%;
+		}
+
+		.nav-element {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			transition: transform 0.2s ease-in-out;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+		}
+
+		.nav-element1 {
+			// background: red;
+			transform: translateY(0);
+		}
+
+		.nav-element2 {
+			// background: blue;
+			transform: translateY(100%);
+		}
+
+		.a-wrap:hover .nav-element1 {
+			transform: translateY(-100%);
+		}
+
+		.a-wrap:hover .nav-element2 {
+			transform: translateY(0);
+		}
+
+		.dope-nav-menu {
+			justify-content: space-between;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			box-sizing: border-box;
+
+			.nav-text {
+				// color: black; // #eee;
+				letter-spacing: 0.28px;
+				text-transform: uppercase;
+				font-weight: 700;
+				text-decoration: none;
+			}
+		}
+
+		.big-nav-links {
 			display: flex;
 			align-items: center;
 			margin-left: auto;
 			font-size: 1rem;
 			padding: 0 2rem;
+			color: black;
+			// background-color: rgb(240, 248, 255, 0.6);
 
 			a {
 				margin: 0;
-				margin-left: 0;
 				padding: 0.75rem;
 			}
 		}
 		.home-page {
-			background-color: aliceblue;
+			min-height: 2rem;
+			// background-color: aliceblue;
+			background-color: rgb(240, 248, 255, 0.6);
 			border-radius: 5px;
 			border: var(--classic-border);
 		}
-		.header {
+		.nav-bar {
 			display: flex;
 			align-items: center;
 			height: 62px;
@@ -462,7 +581,7 @@
 			position: sticky;
 			top: 0;
 			left: 0;
-			background-color: var(--beach-bg);
+			// background-color: var(--beach-bg);
 			z-index: 1236;
 
 			@media (max-width: 575px) {
@@ -482,10 +601,6 @@
 					top: 3rem;
 					display: flex;
 					flex-direction: column;
-				}
-
-				a:not(:first-child) {
-					margin-left: 30px;
 				}
 			}
 		}

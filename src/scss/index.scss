@@ -321,7 +321,8 @@ select {
 
 a.disabled {
 	color: grey !important;
-	pointer-events: none;
+	text-decoration: line-through;
+	// pointer-events: none;
 	cursor: default;
 }
 

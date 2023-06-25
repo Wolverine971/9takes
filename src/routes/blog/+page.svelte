@@ -3,6 +3,9 @@
 	import BlogTiles from '$lib/components/molecules/BlogTiles.svelte';
 	import type { PageData } from './$types';
 
+	import ObjectsColumnOutlineIcon from '$lib/components/icons/objectsColumnOutlineIcon.svelte';
+	import SiteMapIcon from '$lib/components/icons/siteMapIcon.svelte';
+
 	export let data: PageData;
 	console.log(data);
 	let structuredView = false;
@@ -17,18 +20,40 @@
 	<link rel="canonical" href="https://9takes.com/blog" />
 </svelte:head>
 
-<button
-	class="view-btn"
-	style=""
-	on:click={() => {
-		structuredView = !structuredView;
-	}}>{structuredView ? 'Structured View' : 'Tile View'}</button
->
+<div class="btn-container-right">
+	<button
+		class="view-btn"
+		style=""
+		on:click={() => {
+			structuredView = false;
+		}}
+	>
+		<ObjectsColumnOutlineIcon
+			iconStyle={'padding: 0.25rem;'}
+			height={'1.5rem'}
+			fill={!structuredView ? '#5407d9' : ''}
+		/>
+	</button>
+
+	<button
+		class="view-btn"
+		style=""
+		on:click={() => {
+			structuredView = true;
+		}}
+	>
+		<SiteMapIcon
+			iconStyle={'padding: 0.25rem;'}
+			height={'1.5rem'}
+			fill={structuredView ? '#5407d9' : ''}
+		/>
+	</button>
+</div>
 
 <main class="flex-columns">
 	{#if structuredView}
 		<section>
-			<h2>The Enneagram explained</h2>
+			<h2>Enneagram explained</h2>
 			<div>
 				<h3 id="understanding-the-enneagram-an-introduction">Understanding the Enneagram</h3>
 				<ul>
@@ -195,7 +220,7 @@
 			</div>
 		</section>
 		<section>
-			<h2>The ideas behind 9takes</h2>
+			<h2>Ideas behind 9takes</h2>
 			<div class="column">
 				<!-- <h3 style="margin:10px">Why 9takes</h3> -->
 				<div>
@@ -226,12 +251,24 @@
 </main>
 
 <style lang="scss">
-	.view-btn {
-		margin: 1rem;
+	.btn-container-right {
 		display: flex;
-		margin-left: auto;
+		justify-content: flex-end;
+	}
+	.view-btn {
+		margin: 1rem 0 1rem 1rem;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 3rem;
+		width: 3rem;
+		// margin-left: auto;
 		border: var(--classic-border);
 		border-radius: 5px;
+	}
+	.view-btn:hover {
+		background-color: lightgrey;
 	}
 	section {
 		flex-basis: calc(50% - 20px);
