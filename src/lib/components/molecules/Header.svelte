@@ -492,7 +492,7 @@
 
 		.a-wrap {
 			position: relative;
-			width: 300px;
+			width: 10rem;
 			overflow: hidden;
 			text-decoration: none;
 			max-width: 100%;
