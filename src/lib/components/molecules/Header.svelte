@@ -399,17 +399,27 @@
 				</a>
 				<a
 					title={!data?.session?.user?.id ? 'Not available yet' : ''}
-					href={!data?.session?.user?.id ? '' : '/questions'}
+					href={!data?.session?.user?.id ? '#' : '/questions'}
 					class="a-wrap {!data?.session?.user?.id && 'disabled'}"
 				>
 					<div
-						class="nav-text nav-element  {$page.url.pathname.startsWith('/questions')
-							? 'active-link'
-							: ''}"
+						class="nav-text nav-element {data?.session?.user?.id
+							? 'nav-element1'
+							: ''} {$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}"
 						style=""
 					>
 						QUESTIONS
 					</div>
+					{#if data?.session?.user?.id}
+						<div
+							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions')
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							QUESTIONS
+						</div>
+					{/if}
 					<!-- <div
 						class="nav-element-disabled nav-element2  {$page.url.pathname.startsWith('/questions')
 							? 'active-link'
