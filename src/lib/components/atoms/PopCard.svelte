@@ -46,7 +46,7 @@
 		clearInterval(interval);
 		if (name) {
 			interval = setInterval(() => {
-				name.innerText = text
+				name.innerText = displayText
 					.split('')
 					.map((letter, index) => {
 						if (index < iteration) {
@@ -66,6 +66,8 @@
 		}
 	};
 </script>
+
+<!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
 
 <div class="pop-card" style="aspect-ratio: {aspectRatio}; ">
 	<!-- <div
