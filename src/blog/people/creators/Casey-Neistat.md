@@ -24,7 +24,6 @@ tiktok:
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
-	// import caseyNeistatCareer from   "../../../lib/components/icons/caseyNeistatCareer.svelte"
 </script>
 <div
 	style="display: flex;
@@ -50,8 +49,6 @@ tiktok:
 <img src="/casey-neistat2.svg" />
 </div> -->
 
-
-
 > **Disclaimer** This analysis of Casey Neistat's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Casey Neistat.
 
 <details>
@@ -75,7 +72,6 @@ tiktok:
 
 <p class="firstLetter">Casey Neistat, the famed vlogger, filmmaker, and entrepreneur, is an enigma wrapped in a pair of Ray-Ban sunglasses. A man of details, intricacies, and a storyteller of the everyday, he is as iconic as he is idiosyncratic. He welcomes chaos and quietude, embodying the raw complexity of an Enneagram 4. This post delves into the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.</p>
 
-
 ## Seeing the Unseen
 
 One glance at Neistat’s vlogs and you’re instantly hooked. It’s not just about the storyline, but the visual journey he takes you on. He excels in capturing the minute details that often escape the naked eye, transforming them into significant elements of his narrative. These carefully framed shots keep his viewers hooked, transforming ordinary scenes into extraordinary narratives.
@@ -90,6 +86,7 @@ It's not just what he shows, but how he shows it that's captivating. His tradema
 </div>
 
 ## Running Towards Vulnerability
+
 Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He openly shares his struggles, passions, and pursuits, offering us an authentic glimpse into his world. His affinity for running is one such pursuit that reveals his complex personality. It's not just a fitness routine for him; it's a metaphorical journey towards embracing his individuality, and a symbol of his resilience and determination.
 
 ## Why Casey loves to run
@@ -103,9 +100,6 @@ Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He 
 ## The Chaos and the Quiet
 
 Neistat’s life, much like his vlogs, is a blend of chaos and quietude. As an entrepreneur, he thrives in the tumult, yet his creative spirit also yearns for solitude. This paradox reflects his Enneagram 4 tendencies – a love for the unique and extraordinary coupled with a need for introspection and self-expression.
-
-
-
 
 ## Casey Timeline
 
@@ -165,7 +159,6 @@ Neistat’s life, much like his vlogs, is a blend of chaos and quietude. As an e
 />
 </div>
 
-
 ## How Each Enneagram Type Perceives Casey Neistat
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Casey:
@@ -180,14 +173,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers would respect Casey's defiance of conventional norms, his trailblazing approach to filmmaking, and his tenacity. However, they might not grasp his tendency to publicly express vulnerabilities.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers could appreciate Casey's storytelling, finding his narratives engaging and relatable. They might find his chaotic lifestyle draining, preferring more peace and tranquility.
 
-
-
 Now, how does this exploration enhance your understanding of Neistat as a creative artist? Does viewing him through the Enneagram 4 lens provide a fresh perspective on his motivations and actions? Perhaps, there's a value in understanding our icons not just through their work, but also through their personality type.
 
 If this was interesting to you I encourage you to sign up for '9takes' ⬇️. Stay tuned for more blogs, diving deeper into other personalities.
-
-
-
 
 <div>
 <script type="application/ld+json">

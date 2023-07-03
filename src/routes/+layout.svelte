@@ -41,10 +41,11 @@
 <Toast />
 {#if $page.url.pathname === '/'}
 	<Jumbotron
-		image={'background2.webp'}
+		image={'zoom-out.webp'}
 		showIcon={innerWidth > 760 && true}
 		text={'9takes'}
 		subtext={'Ask questions, share your story, get curious'}
+		panBackground={false}
 	>
 		<div class="content-display">
 			<h1 class="jumbo-name" data-value={'9takes'}>{'9takes'}</h1>

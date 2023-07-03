@@ -7,8 +7,6 @@
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	import Card from '$lib/components/atoms/card.svelte';
-	import BlogList from '$lib/components/blog/BlogList.svelte';
 	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
