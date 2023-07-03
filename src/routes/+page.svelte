@@ -47,7 +47,7 @@
 
 <svelte:head>
 	<title>9takes Home</title>
-	<meta name="description" content="9takes home for enneagram enthusiasts" />
+	<meta name="description" content="9takes, a better reddit tailored to the enneagram" />
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 

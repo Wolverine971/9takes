@@ -3,11 +3,11 @@ title: 'Enneagram Topic Map'
 description: '9takes Enneagram Overview'
 author: 'DJ Wayne'
 date: '2023-02-10'
-loc: 'https://9takes.com'
+loc: 'https://9takes.com/blog/community/topic-map'
 lastmod: ''
 changefreq: 'weekly'
 priority: '0.6'
-published: true
+published: false
 type: ['overview']
 blog: true
 ---

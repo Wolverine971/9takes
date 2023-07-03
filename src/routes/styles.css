@@ -27,6 +27,9 @@
 
 	font-family: var(--font-body);
 	color: var(--color-text);
+
+	/* --primary: 
+	--secondary: */
 }
 body {
 	/* font-family: 'Open Sans', sans-serif; */

@@ -70,7 +70,7 @@
 		"dotenv": "^16.0.3",
 		"googleapis": "^114.0.0",
 		"gsap": "^3.12.1",
-		"mermaid": "^9.3.0",
+		"mermaid": "10.0.0-rc.3",
 		"natural": "^6.2.0",
 		"pluralize": "^8.0.0",
 		"rehype-autolink-headings": "^6.1.1",
