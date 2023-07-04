@@ -52,7 +52,7 @@
 		{#each blogs?.enneagram as eBlog}
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
-				class="grid-item"
+				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -80,7 +80,7 @@
 	a:hover {
 		text-decoration: none;
 		filter: sepia(100%) hue-rotate(160deg);
-		border: 2px solid var(--color-theme-purple) !important;
+		border: 1px solid var(--color-theme-purple) !important;
 	}
 
 	.txt-white {
@@ -96,6 +96,10 @@
 	.temp-three-row {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.inline-it {
+		display: inline-block;
 	}
 
 	.blog-grid-container {
@@ -116,11 +120,11 @@
 		width: 100%;
 		display: grid;
 		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
-		grid-template-columns: auto auto auto;
+		grid-template-columns: 1fr 1fr 1fr;
 		column-count: 3;
 		column-gap: 1.25rem;
-		grid-gap: 20px;
-		padding: 20px;
+		grid-gap: 0.5rem;
+		/* padding: 20px; */
 		/* column-count: 3;
 		column-gap: 0.5rem;
 		orphans: 1; */
