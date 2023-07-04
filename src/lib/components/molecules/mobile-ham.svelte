@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { PageData } from '../../../routes/$types';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	import { page } from '$app/stores';
 
@@ -17,7 +18,7 @@
 			class="hamburger menu-trigger"
 			aria-label="Toggle navigation"
 			on:click={() => {
-				active = !active;
+				getModal().open();
 			}}
 		>
 			<i class="menu-trigger-bar top" />
@@ -31,7 +32,8 @@
 			aria-label="Toggle navigation"
 			on:click={() => {
 				console.log(active);
-				active = !active;
+
+				getModal().close();
 			}}
 		>
 			<i class="close-trigger-bar left" />
@@ -40,22 +42,26 @@
 			<!-- </span> -->
 		</button>
 	{/if}
-	<nav class="mobile-nav {active ? 'active' : ''}">
-		<ul class="menu">
-			<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
-			<li>
-				<a
-					href={data?.session?.user.id ? '/questions' : ''}
-					class="{$page.url.pathname.startsWith('/questions') ? 'active-link' : ''} {!data?.session
-						?.user && 'disabled'}">Questions</a
-				>
-			</li>
-			<li><a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a></li>
-			<li>
-				<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
-			</li>
-		</ul>
-	</nav>
+	<Modal2>
+		<nav class="mobile-nav">
+			<ul class="menu">
+				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
+				<li>
+					<a
+						href={data?.session?.user.id ? '/questions' : ''}
+						class="{$page.url.pathname.startsWith('/questions') ? 'active-link' : ''} {!data
+							?.session?.user && 'disabled'}">Questions</a
+					>
+				</li>
+				<li>
+					<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>
+				</li>
+				<li>
+					<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
+				</li>
+			</ul>
+		</nav>
+	</Modal2>
 </div>
 
 <style lang="scss">
@@ -100,17 +106,17 @@
 		transition: background-color 0.3s ease;
 	}
 
-	.mobile-nav {
-		display: none;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: fit-content;
-		background-color: #fff;
-		padding: 20px;
-		border: 1px solid black;
-		border-radius: 5px;
-	}
+	// .mobile-nav {
+	// 	// display: none;
+	// 	position: absolute;
+	// 	top: 100%;
+	// 	left: 0;
+	// 	width: fit-content;
+	// 	background-color: #fff;
+	// 	padding: 20px;
+	// 	border: 1px solid black;
+	// 	border-radius: 5px;
+	// }
 
 	.menu {
 		list-style: none;
@@ -125,7 +131,7 @@
 	.menu a {
 		// text-decoration: none;
 		// color: #000;
-		font-size: 16px;
+		font-size: 2rem;
 		line-height: 1.5;
 	}
 

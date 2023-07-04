@@ -44,12 +44,12 @@
 		image={'zoom-out.webp'}
 		showIcon={innerWidth > 760 && true}
 		text={'9takes'}
-		subtext={'Ask questions, share your story, get curious'}
+		subtext={''}
 		panBackground={false}
 	>
 		<div class="content-display">
-			<h1 class="jumbo-name" data-value={'9takes'}>{'9takes'}</h1>
-			<p class="link">{'Ask questions, share your story, get curious'}</p>
+			<h1 class=" txt-white jumbo-name" data-value={'9takes'}>{'9takes'}</h1>
+			<p class=" txt-white link">{'Ask questions, share your story, get curious'}</p>
 		</div>
 	</Jumbotron>
 {/if}
@@ -83,15 +83,11 @@
 	}
 
 	.link {
-		opacity: 0.8;
+		opacity: 0.9;
 		font-size: 1.5rem;
-		text-shadow: 0px 0px 0.5rem white;
 		font-weight: 400;
 		letter-spacing: 0.3rem;
 		text-decoration: none;
-		text-align: center;
-		font-family: 'Source Code Pro', monospace;
-		color: white;
 		text-align: center;
 		text-transform: uppercase;
 	}

@@ -83,16 +83,6 @@
 		border: 1px solid var(--color-theme-purple) !important;
 	}
 
-	.txt-white {
-		color: white;
-		text-shadow: 1px 1px 2px var(--color-theme-purple);
-	}
-
-	.txt-dark {
-		color: black;
-		text-shadow: 1px 1px 2px var(--color-theme-purple-v);
-	}
-
 	.temp-three-row {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;

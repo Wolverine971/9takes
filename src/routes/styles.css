@@ -229,3 +229,13 @@ body::-webkit-scrollbar-thumb {
 	font-weight: bold;
 	color: #5407d9;
 }
+
+.txt-white {
+	color: white;
+	text-shadow: 1px 1px 2px var(--color-theme-purple);
+}
+
+.txt-dark {
+	color: black;
+	text-shadow: 1px 1px 2px var(--color-theme-purple-v);
+}

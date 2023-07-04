@@ -1,7 +1,7 @@
 <script context="module" lang="ts">
 	import { browser } from '$app/environment';
 	let onTop: null; //keeping track of which open modal is on top
-	const modals = {}; //all modals get registered here for easy future access
+	const modals: any = {}; //all modals get registered here for easy future access
 
 	// 	returns an object for the modal specified by `id`, which contains the API functions (`open` and `close` )
 	export function getModal(id = '') {
@@ -16,6 +16,7 @@
 	let visible = false;
 	let prevOnTop;
 	let closeCallback;
+	export let navTop: boolean = false;
 
 	export let id = '';
 
@@ -66,11 +67,13 @@
 
 <div id="topModal" class:visible bind:this={topDiv} on:click={() => close()}>
 	<div id="modal" on:click|stopPropagation={() => {}}>
-		<svg id="close" on:click={() => close()} viewBox="0 0 12 12">
-			<circle cx="6" cy="6" r="6" />
-			<line x1="3" y1="3" x2="9" y2="9" />
-			<line x1="9" y1="3" x2="3" y2="9" />
-		</svg>
+		{#if !navTop}
+			<svg id="close" on:click={() => close()} viewBox="0 0 12 12">
+				<circle cx="6" cy="6" r="6" />
+				<line x1="3" y1="3" x2="9" y2="9" />
+				<line x1="9" y1="3" x2="3" y2="9" />
+			</svg>
+		{/if}
 		<div id="modal-content">
 			<slot />
 		</div>
@@ -112,7 +115,7 @@
 		width: 24px;
 		height: 24px;
 		cursor: pointer;
-		fill: #f44;
+		fill: var(--color-theme-purple);
 		transition: transform 0.3s;
 	}
 
