@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram strengths and weaknesses'
-description: 'Understanding your strengths and weaknesses as an Enneagram type'
+description: 'Understanding your strengths and weaknesses'
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
@@ -153,7 +153,7 @@ In conclusion, understanding your strengths and weaknesses is crucial for person
     "@type": "http://schema.org/Date",
     "@value": "2023-05-10"
   },
-  "http://schema.org/description": "Understanding your strengths and weaknesses as an Enneagram type",
+  "http://schema.org/description": "Understanding your strengths and weaknesses",
   "http://schema.org/headline": "Enneagram strengths and weaknesses",
   "http://schema.org/keywords": [
     "Enneagram",

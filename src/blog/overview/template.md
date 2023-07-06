@@ -32,7 +32,7 @@ type: ['overview']
 ## Using the Enneagram for Personal Development
 
 - How to determine your Enneagram type
-- Understanding your strengths and weaknesses as an Enneagram type
+- Understanding your strengths and weaknesses
 - Strategies for personal growth and self-improvement based on your Enneagram type
 
 ## Enneagram in Relationships

@@ -100,7 +100,7 @@
 					</li>
 					<li>
 						<a href="/blog/enneagram/enneagram-strengths-and-weaknesses">
-							Understanding your strengths and weaknesses as an Enneagram type
+							Understanding your strengths and weaknesses
 						</a>
 					</li>
 					<li>
