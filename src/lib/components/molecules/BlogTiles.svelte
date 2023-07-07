@@ -1,4 +1,7 @@
 <script lang="ts">
+	// import { useLazyImage as lazyImage } from 'svelte-lazy-image';
+	import { lazyLoad } from '../abstract/lazyLoad';
+
 	export let blogs: {
 		people: App.BlogPost[];
 		enneagram: App.BlogPost[];
@@ -10,13 +13,15 @@
 	<h2>Ideas behind 9takes</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.community as cBlog}
-			<a
-				href="/blog/community/{cBlog.slug}"
-				class="grid-item"
-				style={cBlog.pic &&
-					`background-image: url(${`/blogs/${cBlog.pic}.webp`}); background-size: cover;`}
-			>
-				<div class="card text-white border-0 {cBlog.pic ? 'txt-white' : 'txt-dark'}">
+			<a href="/blog/community/{cBlog.slug}" class="grid-item">
+				{#if cBlog.pic}
+					<img class="grid-img" use:lazyLoad={`/blogs/${cBlog.pic}.webp`} />
+				{/if}
+				<div
+					class="card text-white border-0 {cBlog.pic
+						? 'txt-white fit-card'
+						: 'txt-dark fit-card-center'}"
+				>
 					<h3>
 						{cBlog.title}
 					</h3>
@@ -31,12 +36,11 @@
 	<h2>People Analysis</h2>
 	<div class="people-grid-container">
 		{#each blogs?.people as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item"
-				style="background-image: url({`/types/${person.enneagram}s/${person.slug}.webp`}); background-size: cover; min-height:125px"
-			>
-				<div class="card text-white border-0 txt-white">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img class="grid-img" use:lazyLoad={`/types/${person.enneagram}s/${person.slug}.webp`} />
+				{/if}
+				<div class="card fit-card text-white border-0 txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -92,6 +96,31 @@
 		display: inline-block;
 	}
 
+	.grid-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.fit-card {
+		position: absolute;
+		/* top: 0;
+		right: 0; */
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 23124343245235435;
+		padding: 1rem;
+	}
+
+	.fit-card-center {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+
 	.blog-grid-container {
 		column-count: 3;
 		column-gap: 0.5rem;
@@ -100,11 +129,11 @@
 	.blog-grid-container .grid-item {
 		margin-bottom: 0.5rem;
 		background-color: rgba(255, 255, 255, 0.5);
-		padding: 20px;
 		font-size: 30px;
 		text-align: center;
 		border: var(--classic-border);
 		border-radius: 5px;
+		position: relative;
 	}
 	.people-grid-container {
 		width: 100%;
@@ -122,11 +151,12 @@
 
 	.people-grid-container .grid-item {
 		background-color: rgba(255, 255, 255, 0.5);
-		padding: 20px;
 		font-size: 30px;
 		text-align: center;
 		border: var(--classic-border);
 		border-radius: 5px;
+		position: relative;
+		max-height: 220px;
 	}
 
 	@media (max-width: 800px) {

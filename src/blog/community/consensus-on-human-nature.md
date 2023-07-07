@@ -1,6 +1,6 @@
 ---
 title: 'The Consensus on Human Nature'
-description: 'Do we simply sway between being rational or irrational? Or is it more complicated?'
+description: 'Do we sway between being rational or irrational? Or is it more complicated?'
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
