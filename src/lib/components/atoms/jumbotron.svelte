@@ -12,7 +12,7 @@
 	export let aspectRatio: string = '';
 
 	export let text: string = '9takes';
-	export let subtext: string = 'Ask questions, share your story, get curious';
+	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
 
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let doc: boolean = false;

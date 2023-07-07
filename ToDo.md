@@ -12,7 +12,7 @@
   - Questions view
   - Tell chatGPT to create a Question Classifier based on [Questions](Questions.md)
 - Blog Tagging
-- Dedicated Signup page
+- Dedicated Sign up page
 
 # Release Plan
 

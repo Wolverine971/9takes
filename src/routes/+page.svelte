@@ -64,25 +64,56 @@
 			<div class="column">
 				<div class="big-points center-align">
 					<h3>What are we building?</h3>
-					<p>A better reddit tailored to the enneagram.</p>
+					<p>
+						A better <span style="color:red">reddit</span> tailored to the
+						<span style="color:blue" title="secret sauce">enneagram</span>.
+					</p>
 				</div>
 				<!-- <p>More to come...</p> -->
-				<div class="big-points">
-					<h3 class="center-align">
-						Ask questions- get answers. <br /> Give takes- get takes. <br /> Anonymously.
-					</h3>
-				</div>
 				<!-- <p>
-						To find and connect with people that think feel and act like you do. The bet is that
+						To find and connect with people that think, feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
 					</p> -->
 				<div class="big-points">
 					<h3 class="center-align">What is different?</h3>
-					<p class="center-align">9takes has some subtle psychology built in.</p>
+					<p class="center-align">
+						9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and
+						insightful community
+					</p>
 					<ul>
-						<li>- You cannot see comments until you comment.</li>
-						<li>- You can sort the comments by personality type.</li>
-						<li>- The only thing that identifies you is your personality type.</li>
+						<li>
+							<span style="font-size: 1.5rem;">- You cannot see comments until you comment.</span>
+							<ul>
+								<li>
+									<span style="color: #5407d9">Honest</span> and unbiased feedback comes when people
+									cannot see what everyone else is saying.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span style="font-size: 1.5rem;"
+								>- You can sort the comments by personality type.</span
+							>
+							<ul>
+								<li>
+									<span style="color: #5407d9">Insightful</span> comments come out when people are compared
+									to others who are their same personality type? You have to consider what patterns you
+									are falling into.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span style="font-size: 1.5rem;">
+								- The only thing that identifies you is your personality type.
+							</span>
+							<ul>
+								<li>
+									<span style="color: #5407d9">Engage</span> with and reveal what you want to who you
+									want via direct messages. People can see your answers but they do not know anything
+									else.
+								</li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 
@@ -99,19 +130,22 @@
 						</li>
 					</ul> -->
 				<div class="big-points">
-					<h3 class="center-align">Aiming to create magic moments that will feel like:</h3>
+					<h3 class="center-align">Creating the following magic moments:</h3>
 					<ul>
-						<li>- A popping group chat 💥</li>
-						<li>- A deep conversation around the campfire 🔥</li>
+						<li>- Connecting with other people who think, feel, and act like you 💥</li>
 						<li>
-							- The feeling of meeting someone and it is like you have known them your whole life 🍻
+							- Going down the rabbit hole of another personality types answers to questions 🐇
 						</li>
+						<li>
+							- DMing someone who has many amazing, inspiring and insightful answers to questions 🍻
+						</li>
+						<li>- Getting DM'd and having to decide if you want to reveal yourself or not 👀</li>
 					</ul>
 				</div>
-				<div class="big-points center-align">
+				<!-- <div class="big-points center-align">
 					<h3>How?</h3>
 					<p>By ask questions, sharing your story, and getting curious</p>
-				</div>
+				</div> -->
 			</div>
 		</section>
 	</main>
@@ -160,6 +194,9 @@
 	}
 	h2 {
 		margin-top: 0;
+	}
+	h3 {
+		font-size: 2rem;
 	}
 	ul {
 		/* list-style: disc; */

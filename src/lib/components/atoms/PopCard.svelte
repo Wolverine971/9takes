@@ -9,7 +9,7 @@
 
 	export let displayText: string = '9takes';
 	export let altText: string = '';
-	export let subtext: string = 'Ask questions, share your story, get curious';
+	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
 
 	export let tint: boolean = true;
 
