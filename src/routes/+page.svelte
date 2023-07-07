@@ -51,73 +51,69 @@
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 
-<body>
-	<!-- <Jumbotron
+<!-- <Jumbotron
 		image={'background.png'}
 		showIcon={true}
 		text={'9takes'}
 		subtext={'Ask questions, share your story, get curious'}
 		aspectRatio={'16/5'}
 	/> -->
-	<main>
-		<section>
-			<div class="column">
-				<div class="big-points center-align">
-					<h3>What are we building?</h3>
-					<p>
-						A better <span style="color:red">reddit</span> tailored to the
-						<span style="color:blue" title="secret sauce">enneagram</span>.
-					</p>
-				</div>
-				<!-- <p>More to come...</p> -->
-				<!-- <p>
+<!-- <main> -->
+<section>
+	<div class="column">
+		<div class="big-points center-align">
+			<h3>What are we building?</h3>
+			<p>
+				A better <span style="color:red">reddit</span> tailored to the
+				<span style="color:blue" title="secret sauce">enneagram</span>.
+			</p>
+		</div>
+		<!-- <p>More to come...</p> -->
+		<!-- <p>
 						To find and connect with people that think, feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
 					</p> -->
-				<div class="big-points">
-					<h3 class="center-align">What is different?</h3>
-					<p class="center-align">
-						9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and
-						insightful community
-					</p>
+		<div class="big-points">
+			<h3 class="center-align">What is different?</h3>
+			<p class="center-align">
+				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
+				community
+			</p>
+			<ul>
+				<li>
+					<span style="font-size: 1.5rem;">- You cannot see comments until you comment.</span>
 					<ul>
 						<li>
-							<span style="font-size: 1.5rem;">- You cannot see comments until you comment.</span>
-							<ul>
-								<li>
-									<span style="color: #5407d9">Honest</span> and unbiased feedback comes when people
-									cannot see what everyone else is saying.
-								</li>
-							</ul>
-						</li>
-						<li>
-							<span style="font-size: 1.5rem;"
-								>- You can sort the comments by personality type.</span
-							>
-							<ul>
-								<li>
-									<span style="color: #5407d9">Insightful</span> comments come out when people are compared
-									to others who are their same personality type? You have to consider what patterns you
-									are falling into.
-								</li>
-							</ul>
-						</li>
-						<li>
-							<span style="font-size: 1.5rem;">
-								- The only thing that identifies you is your personality type.
-							</span>
-							<ul>
-								<li>
-									<span style="color: #5407d9">Engage</span> with and reveal what you want to who you
-									want via direct messages. People can see your answers but they do not know anything
-									else.
-								</li>
-							</ul>
+							<span style="color: #5407d9">Honest</span> and unbiased feedback comes when people cannot
+							see what everyone else is saying.
 						</li>
 					</ul>
-				</div>
+				</li>
+				<li>
+					<span style="font-size: 1.5rem;">- You can sort the comments by personality type.</span>
+					<ul>
+						<li>
+							<span style="color: #5407d9">Insightful</span> comments come out when people are compared
+							to others who are their same personality type? You have to consider what patterns you are
+							falling into.
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span style="font-size: 1.5rem;">
+						- The only thing that identifies you is your personality type.
+					</span>
+					<ul>
+						<li>
+							<span style="color: #5407d9">Engage</span> with and reveal what you want to who you want
+							via direct messages. People can see your answers but they do not know anything else.
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 
-				<!-- <ul>
+		<!-- <ul>
 						<li>
 							Comments are not visible until you comment, this allows people to give original takes
 							on questions without outside influence.
@@ -129,61 +125,69 @@
 							with the Enneagram there are a slew of blogs to checkout.
 						</li>
 					</ul> -->
-				<div class="big-points">
-					<h3 class="center-align">Creating the following magic moments:</h3>
-					<ul>
-						<li>- Connecting with other people who think, feel, and act like you 💥</li>
-						<li>
-							- Going down the rabbit hole of another personality types answers to questions 🐇
-						</li>
-						<li>
-							- DMing someone who has many amazing, inspiring and insightful answers to questions 🍻
-						</li>
-						<li>- Getting DM'd and having to decide if you want to reveal yourself or not 👀</li>
-					</ul>
-				</div>
-				<!-- <div class="big-points center-align">
+		<div class="big-points">
+			<h3 class="center-align">Creating the following magic moments:</h3>
+			<ul>
+				<li>
+					- Connecting with other people who think, feel, and act like you <br /><span
+						style="text-align: center; display: block">💥</span
+					>
+				</li>
+				<li>
+					- Going down the rabbit hole of another personality types answers to questions <br /><span
+						style="text-align: center; display: block">🐇</span
+					>
+				</li>
+				<li>
+					- DMing someone who has many amazing, inspiring and insightful answers to questions <br
+					/><span style="text-align: center; display: block">🍻</span>
+				</li>
+				<li>
+					- Getting DM'd and having to decide if you want to reveal yourself or not <br /><span
+						style="text-align: center; display: block">👀</span
+					>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="big-points center-align">
 					<h3>How?</h3>
 					<p>By ask questions, sharing your story, and getting curious</p>
 				</div> -->
-			</div>
-		</section>
-	</main>
-	<section style="max-width: 64rem;">
-		{#if !data?.session?.user}
-			<div class="join">
-				<CollectEmail cta={'Join Waitlist'} />
-			</div>
-		{/if}
-	</section>
-</body>
+	</div>
+</section>
+<!-- </main> -->
+<section style="max-width: 64rem;">
+	{#if !data?.session?.user}
+		<div class="join">
+			<CollectEmail cta={'Join Waitlist'} />
+		</div>
+	{/if}
+</section>
 
 <style>
 	/* Basic styles */
-	/* body {
-		font-family: 'Motiva Sans', Sans-serif;
 
-		max-width: 64rem;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		margin: 0 auto;
-		box-sizing: border-box;
-	} */
 	.column {
-		display: flex;
+		/* display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		text-align: center;
+		text-align: center; */
+		display: grid;
+		grid-template-columns: 1fr;
+		/* column-count: 3; */
+		column-gap: 1.25rem;
+		grid-gap: 10rem;
+		/* gap: 10%; */
 	}
 	.big-points {
-		height: 80vh;
-		max-width: 50%;
+		/* min-height: 80vh; */
+		max-width: 60%;
+		min-width: 400px;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		margin: auto;
 	}
 	.center-align {
 		text-align: center;
@@ -278,6 +282,10 @@
 		main section {
 			flex-basis: calc(100% - 20px);
 		}
+
+		/* .big-points {
+			min-width: 300px;
+		} */
 	}
 	@media (max-width: 480px) {
 		header h1 {
@@ -285,6 +293,9 @@
 		}
 		main section {
 			flex-basis: 100%;
+		}
+		.big-points {
+			min-width: 300px;
 		}
 	}
 </style>
