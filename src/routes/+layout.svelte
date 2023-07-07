@@ -48,8 +48,8 @@
 		panBackground={false}
 	>
 		<div class="content-display">
-			<h1 class=" txt-white jumbo-name" data-value={'9takes'}>{'9takes'}</h1>
-			<p class=" txt-white link">{'Ask questions, share your story, get curious'}</p>
+			<h1 class=" txt-white jumbo-name bold-shadow" data-value={'9takes'}>{'9takes'}</h1>
+			<p class=" txt-white link bold-shadow">{'Ask questions, share your story, get curious'}</p>
 		</div>
 	</Jumbotron>
 {/if}
@@ -74,10 +74,10 @@
 	.jumbo-name {
 		position: relative;
 		font-size: 3.25rem;
-		font-weight: 400;
+		// font-weight: 400;
 		margin: 1rem;
-		font-family: 'Source Code Pro', monospace;
-		color: white;
+		// font-family: 'Source Code Pro', monospace;
+		// color: white;
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -85,7 +85,7 @@
 	.link {
 		opacity: 0.9;
 		font-size: 1.5rem;
-		font-weight: 400;
+		// font-weight: 400;
 		letter-spacing: 0.3rem;
 		text-decoration: none;
 		text-align: center;

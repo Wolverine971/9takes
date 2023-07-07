@@ -11,11 +11,11 @@
 	<Jumbotron
 		image={'background4.webp'}
 		showIcon={false}
-		text={'9takes Blogs'}
+		text={'The Blog'}
 		subtext={''}
 		aspectRatio={''}
 	>
-		<p class="jumbo-name" data-value={'9takes Blogs'}>{'9takes Blogs'}</p>
+		<p class="jumbo-name bold-shadow " data-value={'The Blog'}>{'The Blog'}</p>
 	</Jumbotron>
 {/if}
 <slot />

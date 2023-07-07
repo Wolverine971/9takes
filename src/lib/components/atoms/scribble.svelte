@@ -54,7 +54,7 @@
 
 <p class="scribble" data-value={text}>{text}</p>
 
-<style>
+<style lang="scss">
 	/* You can style your SVG here */
 
 	.scribble {
@@ -62,7 +62,11 @@
 		font-size: 2rem;
 		font-weight: 400;
 		margin: 1rem;
-		color: black;
-		text-shadow: 2px 2px rgb(190, 38, 215) !important;
+		/* color: black;
+		text-shadow: 2px 2px rgb(190, 38, 215) !important; */
+		color: #fff !important;
+		display: flex;
+		text-shadow: -1px -1px 0 var(--color-theme-purple), 1px -1px 0 var(--color-theme-purple),
+			-1px 1px 0 #000, 1px 1px 0 #000;
 	}
 </style>
