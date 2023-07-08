@@ -4,7 +4,7 @@
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
-	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
+	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
 	// export let data: PageData;
 	export let data: PageData;
@@ -159,7 +159,7 @@
 <section style="max-width: 64rem;">
 	{#if !data?.session?.user}
 		<div class="join">
-			<CollectEmail cta={'Join Waitlist'} />
+			<EmailSignup cta={'Join Waitlist'} />
 		</div>
 	{/if}
 </section>

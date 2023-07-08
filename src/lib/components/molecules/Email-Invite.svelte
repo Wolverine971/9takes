@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { deserialize } from '$app/forms';
+	// import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
 
 	export let cta: string = '';
@@ -28,6 +28,8 @@
 		if (data) {
 			notifications.info('Email Submitted', 3000);
 
+			// goto('/signup');
+
 			email = '';
 		} else {
 			if (emailError?.message && emailError?.message === 'Email already exists') {
@@ -41,8 +43,10 @@
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">Sign up for the 9takes Beta</h2>
-	<p>9takes will be free for the first 1000 users</p>
+	<h2 style="margin-top: 0;">Invite others</h2>
+	<!-- <p>9takes will be free for the first 1000 users</p> -->
+
+	<!-- // Signup to get a sneak peak into what we are building -->
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button

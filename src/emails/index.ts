@@ -156,7 +156,7 @@ export const joinEmail2 = () => {
                     <div value="30" style="padding-top:30px"> </div>
                     <div value="30" style="padding-top:30px">
                     <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                      <tr>
+                      <tr align="center">
                         <td valign="top" width="50%">
                           <a href="https://9takes.com/blog/enneagram/enneagram-types-at-party" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                             
@@ -182,18 +182,19 @@ export const joinEmail2 = () => {
                     </table>
                     </div>
                     <div value="30" style="padding-top:30px"> </div>
-                    <div style="display: flex; flex-direction: row; justify-content:center;">
-                      <table cellpadding="0" cellspacing="0" border="0" width="10%" >
-                        <tr style="display:flex; justify-content: center;">
-                          <td valign="top" style="display:flex; justify-content: center;">
-                            <div style="text-align: center; display: flex; justify-content: center;">
-                              <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-                              <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
-                            </a>
+                    <div value="30" style="padding-top:30px">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%" >
+                        <tr style="margin: auto" align="center">
+                          <td valign="top" align="right">
+                              
                             <a target="_blank" href="https://twitter.com/9takesdotcom">
                               <img src="https://9takes.com/icons/twitter.png" alt="Twitter" class="icon" width="50px"/>
                             </a>
-                            </div>
+                          </td>
+                          <td valign="top" align="left">
+                              <a target="_blank" href="https://www.instagram.com/9takesdotcom/">
+                              <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
+                            </a>
                           </td>
                         </tr>
                       </table>

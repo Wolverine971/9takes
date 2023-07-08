@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
+	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
 	import type { PageData } from '../$types';
 
@@ -126,7 +126,7 @@
 
 <div style="margin:2rem;">
 	{#if !data?.session?.user}
-		<CollectEmail cta={'Join Waitlist'} />
+		<EmailSignup cta={'Join Waitlist'} />
 	{/if}
 </div>
 

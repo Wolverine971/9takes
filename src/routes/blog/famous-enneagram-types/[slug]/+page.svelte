@@ -7,7 +7,7 @@
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	import CollectEmail from '$lib/components/molecules/Collect-Email.svelte';
+	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
 	$: component = data.component as unknown as C;
@@ -28,7 +28,7 @@
 
 <div class="join">
 	{#if !data?.session?.user}
-		<CollectEmail cta={'We are making something 👷🔨 join the waitlist'} />
+		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
 	{/if}
 </div>
 
