@@ -92,7 +92,7 @@
 		cursor: pointer;
 		color: var(--color-theme-purple);
 		border: 1px solid;
-		width: 145px;
+		width: 155px;
 	}
 	/* For tablets */
 	@media only screen and (min-width: 768px) {

@@ -32,7 +32,7 @@ The enneagram divides people by 3 things. Three emotions and three centers of in
 
  -->
 
-<!-- What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had oposing view that mirror the phychologists Sigmond Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspecives.
+<!-- What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had oposing view that mirror the phychologists Sigmund Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspecives.
 
 ## Plato is to Aristotle as Freud is to Pinker
 

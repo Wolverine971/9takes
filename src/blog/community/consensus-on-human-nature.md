@@ -23,7 +23,7 @@ pic: ''
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> -->
 
-<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides and so have the psychologists Sigmond Freud and Steven Pinker. Let's get into it.</p>
+<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides and so have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
 <div style="text-align: center;" >
 <img src="/blogs/human-nature.webp" alt="human nature definition" />
@@ -73,7 +73,7 @@ Freud talked in great depth about his theory of the conscious and unconscious mi
 A potential reason why discussions often focus on the rational aspect of the psyche, while neglecting the other parts is because the rational or conscious mind is more readily accessible and controllable. We have a direct awareness of our conscious thoughts and can easily articulate our logical ideas.
 
 In contrast, the unconscious aspects of the psyche are not immediately accessible. It is easier to critique someone's logic than it is their perceived morals or instincts.
-x
+
 <div style="text-align: center;" >
 <img src="/blogs/structural-iceberg.svg" alt="iceburg" />
 

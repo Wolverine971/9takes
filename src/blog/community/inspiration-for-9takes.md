@@ -63,7 +63,7 @@ anger to peace, and shame to feeling good about yourself.
 **So with that I knew that people needed to be listened to.**
 
 Then the next part was that my wife told me that I should take a personality test. I didn't want to because I didn't think I would get anything out of it. But I had
-nothing to lose and I was willing to give anything a shot if it would help me understand
+nothing to lose and I was willing to give it a shot if it would help me understand
 the mystery that is my wife. And boiiii, I got something out of it! It was telling
 me things about myself that I felt but had never verbalized. It was making me think
 about myself in the third person from a bird's eye view. I wanted to know more about
@@ -74,7 +74,7 @@ secrets about people. I am just saying, that is how it felt.
 
 <!-- Everyone was being learned something
 about themselves and was vulnerable and was able to listen and tried to talk about it with anyone who would listen.
-The pushback -->
+The push back -->
 
 But there were **those who were opposed** to talking about personality and there were those
 who were straight-up hostile to it. There would be a back and forth, but I soon
