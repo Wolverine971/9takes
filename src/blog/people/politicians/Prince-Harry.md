@@ -61,11 +61,11 @@ Finally, Enneagram Type 6s are driven by a sense of purpose and a desire to make
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan Markle.</a>
 Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-types/Queen-Elizabeth-II">Queen Elizabeth.</a>
 
-<div>
+<!-- <div>
 
-<!-- // loyalty to wife
+// loyalty to wife
 // issues with trust in the royal family
 // seeks support and guidance with mental health
-// strongly identifies with groups-> sports and military -->
-
+// strongly identifies with groups-> sports and military
 </div>
+-->

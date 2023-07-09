@@ -120,5 +120,4 @@ Each type has its unique characteristics and motivations for attending the party
   }
 }
 </script>
-
 </div>

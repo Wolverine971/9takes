@@ -36,7 +36,6 @@ margin: 1rem 0;
 		aspectRatio={'1'}
     	subtext=""
     />
-
 </div>
 
 <p class="firstLetter">When it comes to interacting with Enneagram types that are different from our own, the key is to approach them with respect, curiosity, and an open mind. Remember that each Enneagram type has its unique strengths, weaknesses, and motivations, and try to understand where they're coming from. </p>

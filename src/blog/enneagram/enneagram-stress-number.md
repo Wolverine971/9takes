@@ -119,5 +119,4 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   "http://schema.org/wordCount": "580"
 }
 </script>
-
 </div>

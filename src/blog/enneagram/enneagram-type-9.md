@@ -334,7 +334,6 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 }
 
 </script>
-
 </div>
 
 <style>

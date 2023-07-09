@@ -36,7 +36,6 @@ margin: 1rem 0;"
 		altText="a husband and wife arguing"
 		subtext=""
 	/>
-
 </div>
 
 <p class="firstLetter">I got married and my wife and I were fighting a lot.</p>

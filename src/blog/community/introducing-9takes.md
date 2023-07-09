@@ -42,7 +42,6 @@ margin: 1rem 0;"
 		altText="scenic view of a person working on a computer in the jungle"
 		subtext=""
 	/>
-
 </div>
 
 Inspired by the Enneagram, an insightful personality typing system, 9takes aims to offer a fresh take on social media by harnessing the power of nine distinct perspectives or the 9 takes on life. The platform's unique features create an unbiased environment where users can explore the nuances of feelings, thoughts and behavior.

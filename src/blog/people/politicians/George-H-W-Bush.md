@@ -121,5 +121,4 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   }
 }
 </script>
-
 </div>

@@ -297,7 +297,6 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
 }
 
 </script>
-
 </div>
 
 <style>

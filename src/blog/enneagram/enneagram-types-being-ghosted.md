@@ -255,7 +255,6 @@ possible with self-compassion and care.
   }
 }
 </script>
-
 </div>
 
 <style lang="scss">

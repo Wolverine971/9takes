@@ -59,7 +59,6 @@ Professor of psychology Steven Pinker has questioned the importance of rationali
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx8yRqv5d6YujTR7xQl8nYx6UYvD3OrTgr&amp;clipt=EPPrARjlpwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </div>
 
 This perspective may be seen as an extension of Aristotle's theory, which posits that the irrational part of the soul is responsible for desires and emotions. Calling on people to be more rational and avoid logical fallacies isn't to move the needle. At the end of Pinker's interview he talks about how education often doesn't do the trick in making people more rational and he says that people need to just change and incorporate this into their daily lives. However, Pinker's call to remove irrationality may not be the solution we need.

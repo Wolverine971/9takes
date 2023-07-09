@@ -146,5 +146,4 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 }
 }
 </script>
-
 </div>

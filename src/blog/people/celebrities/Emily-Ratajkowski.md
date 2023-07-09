@@ -53,7 +53,6 @@ Type 8 individuals are known for their strength, resilience, and independence, q
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3mh8E7aq3LpvyDmieHJHaR?utm_source=generator&t=2470543" title="Emily Ratajkowski talking about men feeling emasculated" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 </div>
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxRkNXv8TeG6Je1L2Ylrx9kKjylmQPab8D&amp;clipt=EPeoBxjz4gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,7 +73,6 @@ In addition to their assertive nature, Type 8 individuals are often driven by a 
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YzHbK0tbMr0?clip=UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8&amp;clipt=EPrHEBi72hM" title="Emily Ratajkowski talking about how men are not doing well" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </div>
 
 ## Wrapping Up
@@ -83,7 +81,6 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxKgXTXeh070ACyd5fRX2r_XbXeNJ8E0ok&amp;clipt=EM61BxiniQk" title="Emily is a peak 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </div>
 
 <div>

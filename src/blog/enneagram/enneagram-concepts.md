@@ -132,7 +132,6 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
   }
 }
 </script>
-
 </div>
 
 <style>

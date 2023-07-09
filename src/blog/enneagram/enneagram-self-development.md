@@ -114,5 +114,4 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   }
 }
 </script>
-
 </div>

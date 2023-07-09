@@ -69,7 +69,6 @@ blog: true
 
   <p >Each type is characterized by a core motivation, core fear, and core desire that underlie their personality and
     behavior patterns.</p>
-
 </div>
 </details>
 

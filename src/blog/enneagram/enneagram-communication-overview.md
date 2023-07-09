@@ -122,5 +122,4 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
   ]
 }
 </script>
-
 </div>

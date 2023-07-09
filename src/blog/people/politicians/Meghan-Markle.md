@@ -59,7 +59,6 @@ Type 2's have a deep desire to feel love and are willing to twist narratives and
 	"
 >
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GVc-Cai-rYs?clip=Ugkxp9SeQd0c9RRykVUkOj9_Xc9dprHWscii&amp;clipt=EMD4Hhi5gSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </div>
 
 ## Expressing Empathy and Warmth

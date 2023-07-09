@@ -310,7 +310,6 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 }
 
 </script>
-
 </div>
 
 <style>

@@ -70,7 +70,6 @@ Enneagram 3s are concerned with their image and reputation, striving to present 
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ar0yjBm2HTU" title="Pelosi's response to criticism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 </div>
 
 Notice how Pelosi was sensitive to being considered a hateful person. She rejects that characterization of herself but then goes on to say that Trump is a coward but that she prays for him.
