@@ -1,6 +1,7 @@
 <script lang="ts">
 	// import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
+	import Envelope from '../icons/envelope.svelte';
 
 	export let cta: string = '';
 	let email: string = '';
@@ -34,20 +35,20 @@
 		} else {
 			if (emailError?.message && emailError?.message === 'Email already exists') {
 				// console.log(emailError);
-				notifications.warning('Email already exists', 3000);
+				notifications.warning('Already invited', 3000);
 			} else {
-				notifications.warning('Email Failed', 3000);
+				notifications.warning('Send Invite Failed', 3000);
 			}
 		}
 	};
 </script>
 
-<div class="waitlist-section">
-	<h2 style="margin-top: 0;">Invite others</h2>
+<div class="invite-section">
+	<h3 style="margin-top: 0; text-align:center">Who else needs to know about 9takes?</h3>
 	<!-- <p>9takes will be free for the first 1000 users</p> -->
 
 	<!-- // Signup to get a sneak peak into what we are building -->
-	<form class="waitlist-form">
+	<form class="invite-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button
 			type="button"
@@ -55,8 +56,10 @@
 			on:click={submit}
 			disabled={email.length ? false : true}
 			class:form-send={true}
-			class={email.length ? 'regular' : 'disabled'}>Sign up</button
-		>
+			class={email.length ? 'regular' : 'disabled'}
+			>Invite
+			<Envelope height={'1rem'} fill={'#5407d9'} />
+		</button>
 	</form>
 	{#if error}
 		<p class="error">{error}</p>
@@ -64,19 +67,19 @@
 </div>
 
 <style>
-	.waitlist-section {
+	.invite-section {
 		text-align: center;
 		border: var(--classic-border);
 		padding: 2rem;
 		border-radius: 5px;
 	}
-	.waitlist-form {
+	.invite-form {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.waitlist-form input {
+	.invite-form input {
 		width: 100%;
 		max-width: 300px;
 		margin-bottom: 10px;
@@ -84,7 +87,7 @@
 		border-radius: 5px;
 		border: var(--classic-border);
 	}
-	.waitlist-form button {
+	.invite-form button {
 		/* background-color: #007bff; */
 		padding: 10px 20px;
 		border-radius: 5px;
@@ -92,33 +95,36 @@
 		cursor: pointer;
 		color: var(--color-theme-purple);
 		border: 1px solid;
-		width: 155px;
+		width: 200px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 	}
 	/* For tablets */
 	@media only screen and (min-width: 768px) {
-		.waitlist-form {
+		.invite-form {
 			max-width: 500px;
 			margin: 0 auto;
 		}
-		.waitlist-form input {
+		.invite-form input {
 			max-width: 400px;
 		}
 	}
 	/* For desktops and wider screens */
 	@media only screen and (min-width: 992px) {
-		.waitlist-section {
+		.invite-section {
 			display: flex;
 			justify-content: center;
 			flex-direction: column;
 		}
-		.waitlist-form {
+		.invite-form {
 			max-width: 600px;
 			margin: 0 auto;
 			flex-direction: row;
 			align-items: center;
 		}
 
-		.waitlist-form input {
+		.invite-form input {
 			margin-right: 10px;
 			margin-bottom: 0;
 		}

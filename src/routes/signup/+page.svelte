@@ -2,6 +2,8 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { browser } from '$app/environment';
 	import Card from '$lib/components/atoms/card.svelte';
+	import EmailInvite from '$lib/components/molecules/Email-Invite.svelte';
+
 	let NUM_CONFETTI = 350;
 	let COLORS = [
 		[84, 7, 217],
@@ -164,20 +166,20 @@
 <canvas id="world" />
 <div class="success-div">
 	<Card>
-		<h1>
-			WIP
+		<h1 style="text-align:center">
+			Sweet! Cannot wait to show you what we are building
 			<!-- Sweet! Cannot wait to show you what we are building -->
 		</h1>
 		<!-- <p>We just sent you a prototype of what we are building</p> -->
 
-		<hr />
+		<!-- <hr /> -->
 
-		<h2>Invite your friends</h2>
+		<EmailInvite cta={'We are making something 👷🔨 join the waitlist'} />
 		<!-- <button type="button" on:click={slowDown}> slow down</button> -->
 	</Card>
 </div>
 
-<style>
+<style lang="scss">
 	/* Add your styles here */
 	.success-div {
 		height: 100vh;

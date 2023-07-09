@@ -55,7 +55,11 @@
 		</div>
 	</Jumbotron>
 {/if}
-<main class={$page.url.pathname !== '/' ? 'column-width' : 'column'}>
+<main
+	class="{$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url.pathname !== '/signup'
+		? 'pos-rel'
+		: ''}"
+>
 	<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
 	<slot />
 	<Footer {data} />
@@ -180,6 +184,10 @@
 		max-width: 64rem;
 		// background-color: #ffffff;
 		border-radius: 5px;
+	}
+	.pos-rel {
+		position: relative;
+		overflow: hidden;
 	}
 
 	.column {

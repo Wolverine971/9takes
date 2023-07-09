@@ -50,7 +50,7 @@
 	</button>
 </div>
 
-<main class="flex-columns">
+<div class="flex-columns">
 	{#if structuredView}
 		<section>
 			<h2>Enneagram explained</h2>
@@ -248,7 +248,7 @@
 			<BlogTiles blogs={data} />
 		</div>
 	{/if}
-</main>
+</div>
 
 <style lang="scss">
 	.btn-container-right {

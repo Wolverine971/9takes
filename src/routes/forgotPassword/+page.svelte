@@ -27,7 +27,7 @@
 	};
 </script>
 
-<main>
+<div>
 	<h1>Forgot password</h1>
 	<form action="?/register" method="POST" class="auth-form">
 		<label for=""> Email </label>
@@ -35,7 +35,7 @@
 
 		<button class="btn btn-primary" type="button" on:click={reset}>Reset Password</button>
 	</form>
-</main>
+</div>
 
 <style lang="scss">
 </style>

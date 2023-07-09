@@ -67,7 +67,7 @@
 	}
 </script>
 
-<main class="card">
+<div class="card">
 	<h1 style="color: white">Create Question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
 		<input type="text" name="question" placeholder="Question" bind:value={question} />
@@ -83,7 +83,7 @@
 			</button>
 		</div>
 	</Modal2>
-</main>
+</div>
 
 <style lang="scss">
 </style>

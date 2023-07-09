@@ -51,7 +51,7 @@
 	};
 </script>
 
-<main class="glass-card">
+<div class="glass-card">
 	<div class="row">
 		<h1 style="">Hello {data?.session?.user.email}</h1>
 
@@ -106,7 +106,7 @@
 			</div>
 		{/each}
 	</div>
-</main>
+</div>
 
 <style lang="scss">
 	h1 {
