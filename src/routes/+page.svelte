@@ -46,8 +46,8 @@
 </script>
 
 <svelte:head>
-	<title>9takes Home</title>
-	<meta name="description" content="9takes, a better reddit tailored to the enneagram" />
+	<title>9takes</title>
+	<meta name="description" content="9takes, ask questions, give your hot takes, talk to people" />
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 
@@ -64,8 +64,8 @@
 		<div class="big-points center-align">
 			<h3>What are we building?</h3>
 			<p>
-				A better <span style="color:red">reddit</span> tailored to the
-				<span style="color:blue" title="secret sauce">enneagram</span>.
+				A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
+				<span style="text-shadow: .5px .5px blue;" title="secret sauce">enneagram</span>.
 			</p>
 		</div>
 		<!-- <p>More to come...</p> -->
