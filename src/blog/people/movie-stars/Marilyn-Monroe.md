@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@marilynmonroe'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/6s/Marilyn-Monroe.webp" />
+<meta property="og:image" content="https://9takes.com/types/6s/Marilyn-Monroe.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Marilyn-Monroe">
 </svelte:head>
 <script>

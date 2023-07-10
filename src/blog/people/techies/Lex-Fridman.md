@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Lex-Fridman.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Lex-Fridman.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lex-Fridman">
 </svelte:head>
 <script>

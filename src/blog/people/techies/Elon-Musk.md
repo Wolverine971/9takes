@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Elon-Musk.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Elon-Musk.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Elon-Musk">
 </svelte:head>
 <script>

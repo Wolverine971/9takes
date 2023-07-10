@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Jason Calacanis.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Jason Calacanis.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis">
 </svelte:head>
 <script>

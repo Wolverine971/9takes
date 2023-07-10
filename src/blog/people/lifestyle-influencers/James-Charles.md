@@ -19,8 +19,7 @@ tiktok: 'https://www.tiktok.com/@jamescharles'
 <!-- // notes:  -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
 </svelte:head>
 

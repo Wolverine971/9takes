@@ -19,8 +19,7 @@ tiktok:
 <!-- notes: dating, come back to youtube, where he is from, when did he become famous, controversy with jeff wittek, David Dobrik and Taylor Hudson, girlfriend friends -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/7s/David-Dobrik.webp" />
+<meta property="og:image" content="https://9takes.com/types/7s/David-Dobrik.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/David-Dobrik">
 </svelte:head>
 <script>

@@ -19,8 +19,7 @@ tiktok: ''
 <!-- // notes:  -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/Keanu-Reeves.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/Keanu-Reeves.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves">
 </svelte:head>
 

@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Bill-Gates.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Bill-Gates.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bill-Gates">
 </svelte:head>
 <script>

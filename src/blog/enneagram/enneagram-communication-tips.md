@@ -14,8 +14,7 @@ pic: 'communication-tips'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/blogs/communication-tips-color.webp" />
+<meta property="og:image" content="https://9takes.com/blogs/communication-tips-color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
 </svelte:head>
 <script>

@@ -40,8 +40,7 @@ Kanye West merchandise
 Kanye West interviews -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/7s/Kanye.webp" />
+<meta property="og:image" content="https://9takes.com/types/7s/Kanye.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kanye">
 </svelte:head>
 <script>

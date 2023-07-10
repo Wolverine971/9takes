@@ -43,8 +43,7 @@ Demi Lovato X Factor
 Demi Lovato and Joe Jonas -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/4s/Demi-Lovato.webp" />
+<meta property="og:image" content="https://9takes.com/types/4s/Demi-Lovato.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Demi-Lovato">
 </svelte:head>
 

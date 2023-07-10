@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Nancy-Pelosi.webp" /> -->
+<!-- <meta property="og:image" content="https://9takes.com/types/3s/Nancy-Pelosi.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pelosi-Schumer-dynamic">
 </svelte:head>
 

@@ -39,8 +39,7 @@ Halsey YouTube
 Halsey Instagram -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/8s/Halsey.webp" />
+<meta property="og:image" content="https://9takes.com/types/8s/Halsey.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Halsey">
 </svelte:head>
 

@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/David-Sacks.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/David-Sacks.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/David-Sacks">
 </svelte:head>
 <script>

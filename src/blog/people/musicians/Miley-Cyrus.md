@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/7s/Miley-Cyrus.webp" />
+<meta property="og:image" content="https://9takes.com/types/7s/Miley-Cyrus.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Miley-Cyrus">
 </svelte:head>
 <script>

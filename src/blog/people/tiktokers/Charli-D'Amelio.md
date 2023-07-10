@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 ---
 
 <svelte:head>
-
-  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Charli-D'Amelio.webp" /> -->
+<!-- <meta property="og:image" content="https://9takes.com/types/3s/Charli-D'Amelio.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Charli-D'Amelio">
 </svelte:head>
 <!-- <script>

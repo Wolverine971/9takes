@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Sam-Altman.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Sam-Altman.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Sam-Altman">
 </svelte:head>
 <script>

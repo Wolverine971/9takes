@@ -17,8 +17,7 @@ tiktok: ''
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/8s/Shawn-Mendes.webp" />
+<meta property="og:image" content="https://9takes.com/types/8s/Shawn-Mendes.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Shawn-Mendes">
 </svelte:head>
 

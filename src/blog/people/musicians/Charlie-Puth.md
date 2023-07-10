@@ -19,8 +19,7 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 <!-- notes: can hear notes, without autotune, dating married, jimmy fallon, concert, shawn mendes,meghan trainor, sabrina carpenter, songs, girlfriend, age, attention -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/4s/Charlie-Puth.webp" />
+<meta property="og:image" content="https://9takes.com/types/4s/Charlie-Puth.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Charlie-Puth">
 </svelte:head>
 

@@ -1,6 +1,6 @@
 ---
-title: 'Kim Kardashian Enneagram Type 3'
-description: 'Why Kim Kardashian appears to be a type 3'
+title: 'Kim Kardashian Unveiled: A Detailed Examination of Her Enneagram Type 3 Characteristics'
+description: 'Explore our analysis of why Kim Kardashian appears to be a Type 3 in the Enneagram personality system'
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian'
@@ -19,8 +19,7 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 <!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters,, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/Kim-Kardashian.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/Kim-Kardashian.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian">
 </svelte:head>
 <script>

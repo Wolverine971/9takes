@@ -19,8 +19,7 @@ tiktok: ''
 <!-- // notes:  -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/Audrey-Hepburn.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/Audrey-Hepburn.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Audrey-Hepburn">
 </svelte:head>
 

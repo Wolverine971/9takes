@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@johnnydepp'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/4s/Johnny-Depp.webp" />
+<meta property="og:image" content="https://9takes.com/types/4s/Johnny-Depp.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Johnny-Depp">
 </svelte:head>
 <script>

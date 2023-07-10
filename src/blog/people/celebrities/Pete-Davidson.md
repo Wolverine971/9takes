@@ -41,8 +41,7 @@ Pete Davidson jokes
  <!-- ariana grande, kim kardashian, kanye -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/9s/Pete-Davidson.webp" />
+<meta property="og:image" content="https://9takes.com/types/9s/Pete-Davidson.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pete-Davidson">
 </svelte:head>
 <script>

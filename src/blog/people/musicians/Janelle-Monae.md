@@ -19,8 +19,7 @@ tiktok: ''
 <!-- // notes:  grimes, knives out-->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/Janelle-Monae.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/Janelle-Monae.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Janelle-Monae">
 </svelte:head>
 

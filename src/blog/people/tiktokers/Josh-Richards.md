@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/@addisonre'
 ---
 
 <svelte:head>
-
-  <!-- <meta property="og:image" content="https://9takes.com/types/3s/Josh-Richards.webp" /> -->
+<!-- <meta property="og:image" content="https://9takes.com/types/3s/Josh-Richards.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Josh-Richards">
 </svelte:head>
 <!-- <script>

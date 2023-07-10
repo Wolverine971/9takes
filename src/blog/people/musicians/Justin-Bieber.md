@@ -17,8 +17,7 @@ tiktok: ''
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/7s/Justin-Bieber.webp" />
+<meta property="og:image" content="https://9takes.com/types/7s/Justin-Bieber.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Justin-Bieber">
 </svelte:head>
 

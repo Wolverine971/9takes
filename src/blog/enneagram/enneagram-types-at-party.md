@@ -14,8 +14,7 @@ pic: 'party-in-street'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/blogs/party-in-street-color.webp" />
+<meta property="og:image" content="https://9takes.com/blogs/party-in-street-color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-at-party">
 </svelte:head>
 

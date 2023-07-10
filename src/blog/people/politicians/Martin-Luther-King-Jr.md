@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/8s/Martin-Luther-King-Jr.webp" />
+<meta property="og:image" content="https://9takes.com/types/8s/Martin-Luther-King-Jr.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Martin-Luther-King-Jr">
 </svelte:head>
 <script>

@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/5s/Dalton-Cadwell.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Dalton-Cadwell.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Dalton-Cadwell">
 </svelte:head>
 <script>

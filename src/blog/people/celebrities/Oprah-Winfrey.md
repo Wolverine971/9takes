@@ -17,8 +17,7 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/2s/Oprah-Winfrey.webp" />
+<meta property="og:image" content="https://9takes.com/types/2s/Oprah-Winfrey.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Oprah-Winfrey">
 </svelte:head>
 <script>

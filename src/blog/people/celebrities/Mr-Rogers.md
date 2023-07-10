@@ -17,8 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/2s/Mr-Rogers.webp" />
+<meta property="og:image" content="https://9takes.com/types/2s/Mr-Rogers.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Mr-Rogers">
 </svelte:head>
 <script>

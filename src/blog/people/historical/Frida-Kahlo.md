@@ -17,8 +17,7 @@ tiktok: ''
 ---
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/4s/Frida-Kahlo.webp" />
+<meta property="og:image" content="https://9takes.com/types/4s/Frida-Kahlo.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Frida-Kahlo">
 </svelte:head>
 <script>

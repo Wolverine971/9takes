@@ -19,8 +19,7 @@ tiktok: 'https://www.tiktok.com/@arianagrande'
 <!-- // notes: where is Ariana Grande from, why she left the voice, when was she born, how she became famous, ariana grande no makeup, mac miller, taylor swift, age networth, height, husband, songs, cloud perfume, perfume -->
 
 <svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/types/3s/Ariana-Grande.webp" />
+<meta property="og:image" content="https://9takes.com/types/3s/Ariana-Grande.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ariana-Grande">
 </svelte:head>
 

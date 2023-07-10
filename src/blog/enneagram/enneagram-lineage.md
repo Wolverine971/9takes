@@ -14,11 +14,8 @@ pic: 'freud-plato'
 ---
 
 <svelte:head>
-
-  <!-- <meta property="og:image" content="" /> -->
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-lineage">
-
 </svelte:head>
 
 <script>
