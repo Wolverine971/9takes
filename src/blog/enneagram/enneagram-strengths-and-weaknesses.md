@@ -4,7 +4,7 @@ description: 'Understanding your strengths and weaknesses'
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
-lastmod: '2023-04-15'
+lastmod: '2023-07-09'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -18,13 +18,13 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
 </svelte:head>
 
-<p class="firstLetter">We all know that people have different strengths and weaknesses. We know that identifying them could be the key to personal growth, building relationships, and achieving success. However it gets tricky when trying to determine the various dimensions by which we can see what we are good and bad at. The Enneagram takes an interesting approach in figuring this out.</p>
+<p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally there are many dimensions by which can slice and dice the things we are good and bad at, so where choosing where to start is also difficult.</p>
 
 ### Understanding Your Energizers and Drainers
 
-Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue us into identifying our strengths and weaknesses. What energizes one person may drain another. Some people love public speaking, while others dread it. Some people thrive in social situations and want the party to never end, while other people have an internal social meter that they are monitoring closely.
+Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue us into identifying our strengths and weaknesses. What energizes one person may drain another. Some people love public speaking, while others dread it. Some people thrive in social situations while others fear turning into a pumpkin and are closely monitoring the clock.
 
-Let's take a look at common energizers and drainers for each Enneagram type then we can extrapolate their strengths and weaknesses and a hypothetical career situation.
+Let's take a look at common energizers and drainers for each Enneagram type and think about how to leverage our strengths and mitigating our weaknesses.
 
 ## Type 1 - The Perfectionist
 
@@ -134,7 +134,9 @@ Let's take a look at common energizers and drainers for each Enneagram type then
 
 **Example career situation:** A Type 9 may excel in a career that requires mediation and conflict resolution, such as counseling or diplomacy. However, their tendency towards indecisiveness and lack of assertiveness can cause them to neglect their own needs and desires, leading to feelings of dissatisfaction and unhappiness.
 
-In conclusion, understanding your strengths and weaknesses is crucial for personal growth and success. The Enneagram provides a powerful framework for understanding how our core emotions, fears, and desires shape our personality and ultimately our strengths and weaknesses. By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.
+## Wrap up
+
+ Hope this was helpful for understanding your strenghts and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
 
 <div>
 <script type="application/ld+json">

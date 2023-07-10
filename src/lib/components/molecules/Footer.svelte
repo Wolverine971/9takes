@@ -32,10 +32,10 @@
 	</div>
 	<div style="display: flex; flex-direction: row; justify-content:center; gap: 1rem;">
 		<a target="_blank" href="https://www.instagram.com/9takesdotcom/">
-			<img src={instagram} alt="Instagram" class="icon" />
+			<img src={instagram} alt="9takesdotcom Instagram" class="icon" />
 		</a>
 		<a target="_blank" href="https://twitter.com/9takesdotcom">
-			<img src={twitter} alt="Twitter" class="icon" />
+			<img src={twitter} alt="9takesdotcom Twitter" class="icon" />
 		</a>
 	</div>
 </footer>

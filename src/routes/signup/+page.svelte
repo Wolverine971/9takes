@@ -182,7 +182,7 @@
 <style lang="scss">
 	/* Add your styles here */
 	.success-div {
-		height: 100vh;
+		min-height: 60vh;
 		display: flex;
 		flex-direction: column;
 		z-index: 1243434;
