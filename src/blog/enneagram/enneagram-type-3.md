@@ -315,7 +315,6 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
     }
   ]
 }
-
 </script>
 </div>
 

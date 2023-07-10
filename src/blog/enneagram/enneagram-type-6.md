@@ -327,7 +327,6 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
     }
   ]
 }
-
 </script>
 </div>
 

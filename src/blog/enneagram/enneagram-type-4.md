@@ -303,7 +303,6 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
     }
   ]
 }
-
 </script>
 </div>
 

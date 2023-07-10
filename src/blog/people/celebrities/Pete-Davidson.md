@@ -227,7 +227,6 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
     }
   ]
 }
-
 </script>
 </div>
 

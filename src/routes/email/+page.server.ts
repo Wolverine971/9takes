@@ -30,7 +30,9 @@ export const actions: Actions = {
 				message: 'Email already exists'
 			});
 		}
-		const { error: insertError } = await supabase.from('signups').insert([{ email: body.email, name: '' }]);
+		const { error: insertError } = await supabase
+			.from('signups')
+			.insert([{ email: body.email, name: '' }]);
 
 		if (!insertError) {
 			try {

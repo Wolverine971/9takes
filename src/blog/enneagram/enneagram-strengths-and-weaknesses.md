@@ -136,10 +136,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 ## Wrap up
 
- Hope this was helpful for understanding your strenghts and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
+Hope this was helpful for understanding your strenghts and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
 
 <div>
 <script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@graph": [
 {
   "@type": "http://schema.org/BlogPosting",
   "http://schema.org/articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
@@ -177,5 +180,37 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
   "http://schema.org/url": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
   }
+},
+{
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. These types are essentially your ego structure, which helps you to manage your feelings of shame, fear, and anger."
+          },
+          "name": "What is the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type has its own set of strengths and weaknesses. For example, Type 1s are typically responsible, organized, and ethical, but can also be critical and perfectionistic. Type 2s are typically warm, caring, and helpful, but can also be overly involved in others' lives."
+          },
+          "name": "What are some strengths and weaknesses of the Enneagram types?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your Enneagram type can provide insight into your strengths and weaknesses, which can be useful in a variety of situations. For example, understanding your strengths can help you to leverage them more effectively in your career, while understanding your weaknesses can help you to identify areas for personal growth."
+          },
+          "name": "How can understanding my Enneagram type help me?"
+        }
+      ]
+    }
+  ]
 }
 </script>
+<div>
