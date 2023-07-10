@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/5s/Michael Seibel.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Michael Seibel">
 </svelte:head>

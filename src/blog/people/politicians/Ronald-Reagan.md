@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/9s/Ronald-Reagan.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ronald-Reagan">
 </svelte:head>

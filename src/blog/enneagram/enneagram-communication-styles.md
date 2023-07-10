@@ -14,6 +14,7 @@ pic: 'communication-styles'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-styles">
 </svelte:head>

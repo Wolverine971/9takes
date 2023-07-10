@@ -12,6 +12,7 @@ type: ['overview']
 ---
 
 <svelte:head>
+
 <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-8">
 </svelte:head>

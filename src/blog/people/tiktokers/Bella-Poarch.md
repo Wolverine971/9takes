@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@bellapoarch'
 ---
 
 <svelte:head>
+
 <!-- <meta property="og:image" content="https://9takes.com/types/3s/Bella-Poarch.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bella-Poarch">
 </svelte:head>

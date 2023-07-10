@@ -15,6 +15,7 @@ blog: true
 <!-- notes: compatible  -->
 
 <svelte:head>
+
 <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-faqs">
 </svelte:head>

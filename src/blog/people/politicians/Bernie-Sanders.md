@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/9s/Bernie-Sanders.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bernie-Sanders">
 </svelte:head>

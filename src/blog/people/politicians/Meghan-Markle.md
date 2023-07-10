@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/2s/Meghan-Markle.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Meghan-Markle">
 </svelte:head>

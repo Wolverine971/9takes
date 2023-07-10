@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/3s/Arnold-Schwarzenegger.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Arnold-Schwarzenegger">
 </svelte:head>

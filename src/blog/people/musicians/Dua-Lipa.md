@@ -38,6 +38,7 @@ Dua Lipa fashion
 Dua Lipa and Calvin Harris -->
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/3s/Dua-Lipa.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Dua-Lipa">
 </svelte:head>

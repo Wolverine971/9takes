@@ -39,6 +39,7 @@ Lele Pons merchandise
 Lele Pons tour -->
 
 <svelte:head>
+
 <!-- <meta property="og:image" content="https://9takes.com/types/7s/Lele-Pons.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lele-Pons">
 </svelte:head>

@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 <!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters,, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/3s/Kim-Kardashian.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian">
 </svelte:head>

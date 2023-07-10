@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/9s/Barack-Obama.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Barack-Obama">
 </svelte:head>

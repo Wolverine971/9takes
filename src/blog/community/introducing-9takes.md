@@ -14,6 +14,7 @@ pic: 'open-cage'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/open-cage-color.webp" />
   <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>

@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/5s/Palmer-Luckey.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Palmer-Luckey">
 </svelte:head>

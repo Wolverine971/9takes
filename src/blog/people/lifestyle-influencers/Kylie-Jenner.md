@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 <!-- // notes:  -->
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/3s/Kylie-Jenner.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
 </svelte:head>

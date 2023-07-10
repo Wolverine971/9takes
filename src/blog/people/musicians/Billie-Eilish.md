@@ -17,6 +17,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/9s/Billie-Eilish.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Billie-Eilish">
 </svelte:head>

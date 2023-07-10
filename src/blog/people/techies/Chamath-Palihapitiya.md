@@ -17,6 +17,7 @@ tiktok:
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/5s/Chamath-Palihapitiya.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Chamath-Palihapitiya">
 </svelte:head>

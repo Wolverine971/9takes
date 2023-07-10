@@ -21,6 +21,7 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 <!-- // notes:  -->
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/types/3s/Emma-Chamberlain.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emma-Chamberlain">
 </svelte:head>

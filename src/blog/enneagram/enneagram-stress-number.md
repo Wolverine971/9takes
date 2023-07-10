@@ -14,6 +14,7 @@ pic: 'feeling-the-tension'
 ---
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/feeling-the-tension.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-stress-number">
 </svelte:head>
