@@ -41,7 +41,7 @@
 <Toast />
 {#if $page.url.pathname === '/'}
 	<Jumbotron
-		image={'zoom-out.webp'}
+		image={'city-of-thought-bubbles.webp'}
 		showIcon={innerWidth > 760 && true}
 		text={'9takes'}
 		subtext={''}

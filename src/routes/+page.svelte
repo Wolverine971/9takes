@@ -48,6 +48,7 @@
 <svelte:head>
 	<title>9takes</title>
 	<meta name="description" content="9takes, ask questions, give your hot takes, talk to people" />
+	<meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" />
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 
