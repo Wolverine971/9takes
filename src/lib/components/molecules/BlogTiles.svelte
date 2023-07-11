@@ -38,7 +38,7 @@
 		{#each blogs?.people as person}
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
-					<img class="grid-img" use:lazyLoad={`/types/${person.enneagram}s/${person.slug}.webp`} />
+					<img class="grid-img" src={`/types/${person.enneagram}s/${person.slug}.webp`} />
 				{/if}
 				<div class="card fit-card text-white border-0 txt-white">
 					<h3>

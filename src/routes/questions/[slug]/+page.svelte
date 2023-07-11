@@ -1,9 +1,8 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import Card from '$lib/components/atoms/card.svelte';
-	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
+	import { onMount } from 'svelte';
 	import type { PageData } from '../$types';
 
 	interface QuestionData extends PageData {
@@ -30,6 +29,16 @@
 			flags: Object.assign({}, data.flags, { userHasAnswered: true })
 		});
 	};
+	const autoGrow = (element: HTMLElement | null) => {
+		if (element) {
+			element.style.height = '1rem';
+			element.style.height = element.scrollHeight + 'px';
+		}
+	};
+
+	onMount(() => {
+		autoGrow(document.getElementById('question-box'));
+	});
 </script>
 
 <!-- Question always renders -->
@@ -38,7 +47,15 @@
 		
 	</section> -->
 	<Card>
-		<input class="question-box" type="text" bind:value={data.question.question} readonly />
+		<textarea
+			class="question-box"
+			id="question-box"
+			bind:value={data.question.question}
+			readonly
+			style="overflow:hidden"
+		/>
+
+		<!-- oninput="auto_grow(this)" -->
 		<!-- {data.question.question} -->
 		<Interact
 			{data}
@@ -66,6 +83,11 @@
 		background-color: var(--color-bg-0);
 		border: 1px solid var(--color-bg-0);
 		border-radius: 5px;
+		height: 24px;
+		padding: 10px 20px;
+		color: hsl(222, 15%, 19%);
+		font-size: 16px;
+		// box-sizing: content-box;
 
 		margin: 0.25rem;
 	}

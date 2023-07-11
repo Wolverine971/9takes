@@ -1,7 +1,5 @@
 <script lang="ts">
 	import account from '$lib/images/account-circle.svg';
-	import hamburger from '$lib/images/hamburger.svg';
-	import login from '$lib/images/login.svg';
 	import { onMount } from 'svelte';
 
 	import MobileHam from './mobile-ham.svelte';
@@ -405,14 +403,17 @@
 					<div
 						class="nav-text nav-element {data?.session?.user?.id
 							? 'nav-element1'
-							: ''} {$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}"
+							: ''} {$page.url.pathname.startsWith('/questions') && data?.session?.user?.id
+							? 'active-link'
+							: ''}"
 						style=""
 					>
 						QUESTIONS
 					</div>
 					{#if data?.session?.user?.id}
 						<div
-							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions')
+							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions') &&
+							data?.session?.user?.id
 								? 'active-link'
 								: ''}"
 							style=""

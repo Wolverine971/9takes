@@ -56,6 +56,10 @@ export async function GET({
 			[key: string]: string[];
 		}
 
+		if (commentError) {
+			console.log(commentError);
+		}
+
 		let commentMap: ICommentMap = {};
 		commentComments?.forEach((c: any) => {
 			if (commentMap[c?.parent_id]) {

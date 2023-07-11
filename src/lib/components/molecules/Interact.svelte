@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { deserialize, enhance } from '$app/forms';
+	import { deserialize } from '$app/forms';
 	import BellIcon from '../icons/bellIcon.svelte';
 	import CommentsIcon from '../icons/commentsIcon.svelte';
 	import ShareIcon from '../icons/shareIcon.svelte';
@@ -11,38 +11,47 @@
 	import { createEventDispatcher } from 'svelte';
 	const dispatch = createEventDispatcher();
 
-	let page = 0;
+	export let parentType: string;
 
-	export let data: any;
+	export let data: any; // QuestionObject | CommentObject;
 	export let user: any;
 
+	if (parentType === 'question') {
+		data;
+	} else if (parentType === 'comment') {
+	}
+
 	// update this to like_count and add boolean for if user liked
-	let likes: any[] = data.comment_like ? [...data.comment_like] : [];
+	let likes: any[] = data?.comment_like ? [...data.comment_like] : [];
 	let subscriptions: any[] = data?.question?.subscriptions
 		? [...data?.question?.subscriptions]
 		: [];
-
-	console.log(likes);
 
 	/** @type {import('./$types').PageData} */
 	// export let data: PageData;
 
 	$: data, watchData();
 
-	const watchData = () => {
-		console.log('interact data change');
+	let anonymousComment = false;
 
+	const watchData = () => {
 		console.log(data.comment_like);
-		likes = data.comment_like ? [...data.comment_like] : [];
+		likes = data?.comment_like ? [...data.comment_like] : [];
 		subscriptions = data?.question?.subscriptions ? [...data?.question?.subscriptions] : [];
 	};
 
 	let comment: string = '';
 	let commenting: boolean = false;
 
-	export let parentType: string;
-
 	const createComment = async () => {
+		if (!data?.flags?.userSignedIn) {
+			if (data?.flags?.userHasAnswered || anonymousComment) {
+				notifications.info('Must register or login to comment multiple times', 3000);
+				return;
+			}
+			anonymousComment = true;
+		}
+
 		let body = new FormData();
 		if (parentType === 'comment') {
 			console.log('send comment');
@@ -77,6 +86,10 @@
 	};
 
 	const likeComment = async () => {
+		if (!user) {
+			notifications.info('Must register or login to like comments', 3000);
+			return;
+		}
 		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
 		let body = new FormData();
 		body.append('parent_id', data.id);
@@ -103,6 +116,10 @@
 	};
 
 	const subscribe = async () => {
+		if (!user) {
+			notifications.info('Must register or login to subscribe to questions', 3000);
+			return;
+		}
 		const operation =
 			subscriptions && subscriptions.some((e) => e.user_id === user.id) ? 'remove' : 'add';
 		let body = new FormData();
@@ -240,6 +257,70 @@
 		{/if}
 	</button>
 {/if}
+
+<!-- 
+interface QuestionObject {
+		session?: any;
+		question: Question;
+		comments: Comment[];
+		comment_count: number;
+		flags: Flags;
+	}
+
+	interface Flags {
+		userHasAnswered: boolean;
+		userSignedIn: boolean;
+	}
+
+	interface Comment {
+		id: number;
+		created_at: string;
+		comment: string;
+		author_id: string;
+		ip: string;
+		comment_count: number;
+		parent_type: string;
+		es_id: string;
+		parent_id: number;
+		like_count: number;
+		comment_like: Commentlike[];
+	}
+
+	interface Commentlike {
+		id: number;
+		comment_id: number;
+		user_id: string;
+	}
+
+	interface Question {
+		id: number;
+		question: string;
+		created_at: string;
+		updated_at: string;
+		data?: any;
+		name?: any;
+		author_id: string;
+		context: string;
+		url: string;
+		img_url: string;
+		es_id: string;
+		comment_count: number;
+		subscriptions: any[];
+	}
+
+	interface CommentObject {
+		id: number;
+		created_at: string;
+		comment: string;
+		author_id: string;
+		ip: string;
+		comment_count: number;
+		parent_type: string;
+		es_id: string;
+		parent_id: number;
+		like_count: number;
+		comment_like: any[];
+	} -->
 
 <!-- <form class="interact-card">
 

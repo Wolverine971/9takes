@@ -76,11 +76,10 @@
 
 	<Modal2>
 		<div>
-			<p>modal</p>
+			<p>Create Question</p>
+			<!-- <p>Tag your question:</p> -->
 			<p>Url: {url}</p>
-			<button class="btn btn-primary" type="button" on:click={createQuestion}>
-				Create Question
-			</button>
+			<button class="btn btn-primary" type="button" on:click={createQuestion}>Create</button>
 		</div>
 	</Modal2>
 </div>
