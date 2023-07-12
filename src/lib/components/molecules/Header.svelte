@@ -55,7 +55,7 @@
 						'http://schema.org/hasPart': [
 							{
 								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Enneagram Lineage',
+								'http://schema.org/name': 'Philosophy and Psychology gave birth to the Enneagram',
 								'http://schema.org/url': {
 									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram'
 								}
