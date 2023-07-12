@@ -58,7 +58,9 @@
 				<h3 id="understanding-the-enneagram-an-introduction">Understanding the Enneagram</h3>
 				<ul>
 					<!-- <li>History and origins of the Enneagram</li> -->
-					<li><a href="/blog/enneagram/enneagram-lineage"> Enneagram lineage </a></li>
+					<li>
+						<a href="/blog/enneagram/philosophy-psychology-and-the-ennegram"> Enneagram lineage </a>
+					</li>
 					<li><a href="/blog/enneagram/enneagram-tldr"> Enneagram TLDR </a></li>
 					<li>
 						<a href="/blog/enneagram/enneagram-concepts">

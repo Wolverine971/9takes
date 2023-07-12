@@ -57,7 +57,7 @@
 								'@type': 'http://schema.org/WebPage',
 								'http://schema.org/name': 'Enneagram Lineage',
 								'http://schema.org/url': {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-lineage'
+									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram'
 								}
 							},
 							{
