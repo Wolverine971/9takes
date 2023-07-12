@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
 lastmod: '2023-06-24'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']

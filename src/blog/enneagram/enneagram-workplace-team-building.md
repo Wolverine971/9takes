@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-03-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
 lastmod: '2023-05-10'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']

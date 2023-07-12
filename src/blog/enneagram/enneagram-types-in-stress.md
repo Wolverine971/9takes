@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-04-14'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
 lastmod: '2023-04-10'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: 'situational'

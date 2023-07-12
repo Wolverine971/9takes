@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
 lastmod: '2023-04-01'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['resources']

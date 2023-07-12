@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/community/topic-map'
 lastmod: ''
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['overview']
