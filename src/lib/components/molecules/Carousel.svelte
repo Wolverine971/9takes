@@ -122,7 +122,7 @@
 		<PopCard
 			image={`/types/${type}s/${visibleImage}.webp`}
 			showIcon={false}
-			text={visibleImage.split('-').join(' ')}
+			displayText={visibleImage.split('-').join(' ')}
 			subtext={''}
 		/>
 	{/if}

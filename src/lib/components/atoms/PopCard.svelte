@@ -69,7 +69,7 @@
 
 <!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
 
-<div class="pop-card" style="aspect-ratio: {aspectRatio}; ">
+<div class="pop-card" style="aspect-ratio: {aspectRatio};" title={altText || displayText}>
 	<!-- <div
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"

@@ -204,7 +204,7 @@
 
 					<li>
 						<a href="/blog/enneagram/enneagram-types-in-stress"
-							>Navigating Stress: How Each Enneagram Type Responds
+							>Navigating Stress: How Each Enneagram Type Responds to the uncomfortable
 						</a>
 					</li>
 				</ul>

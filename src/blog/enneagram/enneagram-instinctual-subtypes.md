@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
 lastmod: '2023-05-28'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']

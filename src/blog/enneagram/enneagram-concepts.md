@@ -1,6 +1,6 @@
 ---
 title: 'Key Concepts and Principles of the Enneagram'
-description: ''
+description: "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth."
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-concepts'
@@ -112,7 +112,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     "@type": "http://schema.org/Date",
     "@value": "2023-02-28"
   },
-  "http://schema.org/description": "Learn about Enneagram concepts and how they can help you understand yourself and others better. Find out about the nine Enneagram types and how they relate to different personality traits.",
+  "http://schema.org/description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
   "http://schema.org/headline": "Enneagram Concepts",
   "http://schema.org/mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-concepts",

@@ -5,7 +5,7 @@
 </script>
 
 <p>
-	<span class="author">{metaData.author}</span>
+	<span class="author" title="he is so cool">{metaData.author}</span>
 	<span class="date">{formattedDate}</span>
 </p>
 

@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram lineage and its philosophical and psychological roots'
+title: 'Philosophy and Psychology gave birth to the Enneagram'
 description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
-date: '2023-02-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-lineage'
-lastmod: '2023-05-18'
+date: '2023-07-11'
+loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram'
+lastmod: '2023-07-11'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -16,7 +16,7 @@ pic: 'freud-plato'
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-lineage">
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram">
 </svelte:head>
 
 <script>
@@ -45,7 +45,9 @@ Enneagram and Plato
 
 9 threads through the fabric of history -->
 
-<p class="firstLetter">In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll embark on a deep dive into how core emotions sculpt these intelligence centers, aiding us to navigate the internal landscapes of our minds with newfound understanding and compassion. So, fasten your seatbelts as we journey through layers of psychological philosophy, unraveling the strands that interweave to create the compelling framework that is the Enneagram.</p>
+<p class="firstLetter">Philosophy and Psychology, lets get poetic.</p>
+ 
+ In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll embark on a deep dive into how core emotions sculpt these intelligence centers, aiding us to navigate the internal landscapes of our minds with newfound understanding and compassion. So, fasten your seatbelts as we journey through layers of psychological philosophy, unraveling the strands that interweave to create the compelling framework that is the Enneagram.
 
 ## The Enneagram's Roots in Philosophy
 
@@ -130,14 +132,14 @@ In essence, the Enneagram offers a framework for personal development that is de
   ],
   "http://schema.org/dateModified": {
     "@type": "http://schema.org/Date",
-    "@value": "2023-04-11"
+    "@value": "2023-07-11"
   },
   "http://schema.org/datePublished": {
     "@type": "http://schema.org/Date",
-    "@value": "2023-02-19"
+    "@value": "2023-07-11"
   },
-  "http://schema.org/description": "Explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul, and gain a deeper understanding of how core emotions shape these intelligence centers.",
-  "http://schema.org/headline": "The Enneagram and its Philosophical Lineage: Plato and Freud Revisited",
+  "http://schema.org/description": "Freud and Plato stumble on the Enneagram",
+  "http://schema.org/headline": "Philosophy and Psychology gave birth to the Enneagram",
   "http://schema.org/image": {
     "@type": "http://schema.org/ImageObject",
     "http://schema.org/height": 1200,
@@ -152,6 +154,7 @@ In essence, the Enneagram offers a framework for personal development that is de
     "Freud",
     "intelligence centers",
     "philosophy",
+    "psychology",
     "core emotions",
     "fear",
     "shame",
@@ -161,7 +164,7 @@ In essence, the Enneagram offers a framework for personal development that is de
     "human soul"
   ],
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-lineage",
+    "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/mentions": [

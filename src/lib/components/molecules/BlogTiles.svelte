@@ -15,7 +15,7 @@
 		{#each blogs?.community as cBlog}
 			<a href="/blog/community/{cBlog.slug}" class="grid-item">
 				{#if cBlog.pic}
-					<img class="grid-img" use:lazyLoad={`/blogs/${cBlog.pic}.webp`} />
+					<img class="grid-img" src={`/blogs/${cBlog.pic}.webp`} />
 				{/if}
 				<div
 					class="card text-white border-0 {cBlog.pic
@@ -25,7 +25,7 @@
 					<h3>
 						{cBlog.title}
 					</h3>
-					<p>{cBlog.description}</p>
+					<p class="font-adjust-p">{cBlog.description}</p>
 				</div>
 			</a>
 		{/each}
@@ -40,7 +40,7 @@
 				{#if person.enneagram}
 					<img class="grid-img" src={`/types/${person.enneagram}s/${person.slug}.webp`} />
 				{/if}
-				<div class="card fit-card text-white border-0 txt-white">
+				<div class="card fit-card txt-white border-0 ">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -60,11 +60,11 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="card text-white border-0 {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class="card txt-white border-0  {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
 						{eBlog.title}
 					</h3>
-					<p>{eBlog.description}</p>
+					<p class="font-adjust-p">{eBlog.description}</p>
 				</div>
 			</a>
 		{/each}
@@ -126,6 +126,7 @@
 		column-gap: 0.5rem;
 		orphans: 1;
 	}
+
 	.blog-grid-container .grid-item {
 		margin-bottom: 0.5rem;
 		background-color: rgba(255, 255, 255, 0.5);
@@ -134,6 +135,9 @@
 		border: var(--classic-border);
 		border-radius: 5px;
 		position: relative;
+		width: 100%;
+		padding: 0.5rem;
+		box-sizing: border-box;
 	}
 	.people-grid-container {
 		width: 100%;
@@ -161,7 +165,7 @@
 
 	@media (max-width: 800px) {
 		h3 {
-			font-size: 1rem;
+			font-size: 1.5rem;
 		}
 		.people-grid-container {
 			grid-template-columns: 1fr 1fr !important;
@@ -176,5 +180,21 @@
 			grid-gap: 20px;
 			padding: 20px;
 		} */
+		h3 {
+			font-size: 2rem;
+		}
+		.font-adjust-p {
+			font-size: x-large;
+		}
+	}
+
+	@media (max-width: 550px) {
+		.people-grid-container {
+			grid-template-columns: 1fr !important;
+		}
+		.blog-grid-container {
+			column-count: 1 !important;
+			grid-template-columns: 1fr !important;
+		}
 	}
 </style>

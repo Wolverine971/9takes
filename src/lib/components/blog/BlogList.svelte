@@ -1,12 +1,15 @@
 <script lang="ts">
 	export let posts: App.BlogPost[];
+	let innerWidth = 0;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div style="margin-bottom:5rem;">
 	<h3 style="text-align: center;">More</h3>
 	<!-- <div class="row"> -->
 	<div class="blog-previews">
-		{#each posts.slice(0, 10) as { slug, title, author, description, date }}
+		{#each posts.slice(0, innerWidth > 920 ? 10 : 6) as { slug, title, author, description, date }}
 			<a class="suggestion-link" href={slug}>
 				<h3 class="small-h3" {title}>{title}</h3>
 				<p class="small" title={description}>{description}</p>
@@ -65,6 +68,7 @@
 		display: block;
 		position: relative;
 		max-width: 262px;
+		width: 100%;
 		//   background-color: #f2f8f9;
 		border-radius: 4px;
 		padding: 16px 12px;
@@ -72,6 +76,7 @@
 		text-decoration: none;
 		z-index: 0;
 		overflow: hidden;
+		border: 1px solid var(--color-theme-purple-v);
 
 		&:after {
 			background-color: white;

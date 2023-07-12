@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
 lastmod: '2023-07-09'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']

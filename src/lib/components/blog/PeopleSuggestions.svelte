@@ -11,14 +11,17 @@
 	const firstLetterCap = firstLetter.toUpperCase();
 	const remainingLetters = pluralNiche.slice(1);
 	const capitalizedPluralNiche = firstLetterCap + remainingLetters;
+	let innerWidth = 0;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div style="margin-bottom:5rem;">
 	<h3 style="text-align: center; margin-bottom: 3rem;">Explore Further</h3>
-	<div class="blog-previews">
+	<div class="blog-previews stack">
 		<div style="column">
-			<h3>More {capitalizedPluralNiche}</h3>
-			{#each suggestions.niche.posts.slice(0, 5) as { slug, title, author, description, date }}
+			<h4 style="text-align: center;">More {capitalizedPluralNiche}</h4>
+			{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
 				<a class="suggestion-link" href={slug}>
 					<h3 class="small-h3" {title}>{title}</h3>
 					<p class="small" title={description}>{description}</p>
@@ -30,8 +33,8 @@
 		</div>
 
 		<div class="column">
-			<h3>More Enneagram {suggestions.sameEnneagram.type}s</h3>
-			{#each suggestions.sameEnneagram.posts.slice(0, 5) as { slug, title, author, description, date }}
+			<h4 style="text-align: center;">More Enneagram {suggestions.sameEnneagram.type}s</h4>
+			{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
 				<a class="suggestion-link" href={slug}>
 					<h3 class="small-h3" {title}>{title}</h3>
 					<p class="small" title={description}>{description}</p>
@@ -91,6 +94,7 @@
 		display: block;
 		position: relative;
 		max-width: 262px;
+		width: 100%;
 		//   background-color: #f2f8f9;
 		border-radius: 4px;
 		padding: 16px 12px;
@@ -98,7 +102,7 @@
 		text-decoration: none;
 		z-index: 0;
 		overflow: hidden;
-
+		border: 1px solid var(--color-theme-purple-v);
 		&:after {
 			background-color: white;
 		}
@@ -144,6 +148,14 @@
 
 	@media all and (max-width: 576px) {
 		.column {
+			display: flex;
+			flex-direction: column;
+			flex-basis: 100%;
+			width: 100%;
+			flex: 1;
+			align-items: center;
+		}
+		.stack {
 			display: flex;
 			flex-direction: column;
 			flex-basis: 100%;

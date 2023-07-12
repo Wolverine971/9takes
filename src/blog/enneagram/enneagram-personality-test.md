@@ -1,11 +1,11 @@
 ---
-title: 'How to determine your Enneagram type'
-description: 'Overview for how to determine/ deduce your Enneagram type'
+title: 'Determining your Enneagram type'
+description: 'How to determine or deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: '2023-04-15'
-changefreq: 'weekly'
+lastmod: '2023-07-11'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
@@ -48,7 +48,7 @@ It may seem overwhelming to try to identify what core emotion affects you the mo
 but it might not as hard as you think. Click here if you would like to do [a quick experiment with regards to emotions](/blog/experiment),
 otherwise keep reading to help determine your type.
 
-## Determining the core emotion that effects you
+## Identifying your dominant core emotion
 
 In the enneagram the three core emotions are anger, fear and shame which we will
 explain further later. We all feel these emotions from time to time and do what
@@ -65,7 +65,7 @@ would be easiest for you to empathize with? You might find it easier to empathiz
 someone feeling anger over someone feeling shame or fear or vice versa. Once you
 have identified that emotion you are ready for the next part.
 
-## Emotions and centers of intelligence
+## Emotions and centers of intelligence explained
 
 In the enneagram these core emotions relate to centers of intelligence. Or put
 another way, as you feel one of these emotions you learn to cope with it by
@@ -75,7 +75,7 @@ developing a certain intelligence. The core emotions map to the centers of intel
 - Shame --> Heart/ Emotional Intelligence
 - Anger --> Body/ Instinctual Intelligence
 
-### Explaining how Fear is connected to intellectual intelligence
+### The link between **fear** and **intellectual** intelligence
 
 If you think about it, fear is born out of possible situations that might go wrong.
 When you are feeling fear you are stuck in your head. You feel insecure because you
@@ -83,7 +83,7 @@ just need to know a little bit more so you don't fear and you do feel secure.
 So overtime you develop good reasoning and logical thinking abilities. It becomes
 easy for you to logically think through complex situations.
 
-### Explaining how Shame is connected to Emotional intelligence
+### The link between **shame** and **emotional** intelligence
 
 If you are feeling shame you can feel other people judging you. When you feel shame
 you are feeling all the negative emotions that are wrapped up in someone not liking
@@ -91,8 +91,7 @@ you. You feel insecure because you just need to be seen in a positive light agai
 so you don't feel shame but feel good about yourself. Overtime your emotional
 intellignece develops and you can sense how people are feeling based on how you
 would feel in the same situation. It become easy for you to connect with others emotionally.
-
-### Explaining how Anger is connected to Instinctual intelligence
+### The link between **anger** and **instinctual** intelligence
 
 If you are feeling anger you feel instinctually something is not right. Before
 you can emotionally or logically determine something is not right you instinctually
@@ -101,12 +100,12 @@ so you don't feel anger but if you follow your instincts and lash out you situat
 worse. Overtime you learn to surround yourself with people and set up your environment
 where in you can be comfortable and at peace free from anger.
 
-## Finding an Archetype within a core emotion
+## Discovering the archetypes behind the core emotions
 
 Once you have identified the emotion that you interact with the most the next part is to deduce which type you are. Each core emotion forms a triad where it has 3 types under it. Or said another way each core emotion has 3 archetypes wherein there are different ways to cope with that emotion.
 
-- Anger, Types [8](/blog/enneagram/enneagram-type-8), [9](/blog/enneagram/enneagram-type-9), [1](/blog/enneagram/enneagram-type-1)
-- Shame, Types [2](/blog/enneagram/enneagram-type-2), [3](/blog/enneagram/enneagram-type-3), [4](/blog/enneagram/enneagram-type-4)
-- Fear, Types [5](/blog/enneagram/enneagram-type-5), [6](/blog/enneagram/enneagram-type-6), [7](/blog/enneagram/enneagram-type-7)
+- Anger, Types [8- The Challenger-](/blog/enneagram/enneagram-type-8), [9- The Peacemaker](/blog/enneagram/enneagram-type-9), [1- The Perfectionist](/blog/enneagram/enneagram-type-1)
+- Shame, Types [2- The Helper](/blog/enneagram/enneagram-type-2), [3- The Achiever](/blog/enneagram/enneagram-type-3), [4- The Individualist](/blog/enneagram/enneagram-type-4)
+- Fear, Types [5- The Investigator](/blog/enneagram/enneagram-type-5), [6- The Loyalist](/blog/enneagram/enneagram-type-6), [7- The Enthusiast](/blog/enneagram/enneagram-type-7)
 
 For now read the types and determine which if any you identify with. More to come!

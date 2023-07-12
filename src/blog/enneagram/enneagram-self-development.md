@@ -32,7 +32,7 @@ pic: 'working-on-yourself'
 		image={`/blogs/working-on-yourself.webp`}
 		showIcon={false}
 		displayText=""
-		altText="two people working on themselves"
+		altText="two people working on themselves 🤓"
 		subtext=""
 	/>
 </div>

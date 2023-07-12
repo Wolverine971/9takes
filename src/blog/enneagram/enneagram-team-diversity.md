@@ -5,7 +5,7 @@ author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
 lastmod: '2023-04-17'
-changefreq: 'weekly'
+changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['workplace']
