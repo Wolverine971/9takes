@@ -4,7 +4,7 @@ description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
-lastmod: '2023-04-16'
+lastmod: '2023-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -105,7 +105,7 @@ Each type has its unique characteristics and motivations for attending the party
   },
   "http://schema.org/dateModified": {
     "@type": "http://schema.org/Date",
-    "@value": "2023-03-01T00:00:00-07:00"
+    "@value": "2023-07-12T00:00:00-07:00"
   },
   "http://schema.org/datePublished": {
     "@type": "http://schema.org/Date",

@@ -64,11 +64,11 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
 },
 "http://schema.org/dateModified": {
 "@type": "http://schema.org/Date",
-"@value": "2023-04-12"
+"@value": "2023-04-17"
 },
 "http://schema.org/datePublished": {
 "@type": "http://schema.org/Date",
-"@value": "2023-02-19"
+"@value": "2023-04-01"
 },
 "http://schema.org/description": "Explore how to harness the power of the Enneagram for building balanced and diverse teams, and learn about the importance of triad diversity, the impact of Enneagram dominance, and strategies for achieving balance.",
 "http://schema.org/headline": "Harnessing the Power of the Enneagram for Balanced and Diverse Teams: In-Depth Examples",

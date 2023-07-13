@@ -4,7 +4,7 @@ description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow e
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: '2023-04-16'
+lastmod: '2023-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -50,6 +50,8 @@ pic: 'person-being-ghosted'
    ghosting from happening. To cope with these feelings, Ones may benefit from taking a step back
    and looking at the situation objectively. They may also want to focus on self-compassion and
    self-care, reminding themselves that they are not to blame for the other person's actions.
+
+   [More on type 1s](/blog/enneagram/enneagram-type-1)
   </section>
 
 <!-- <hr class="border"/>  -->
@@ -72,6 +74,8 @@ feelings, Twos may benefit from talking to a trusted friend or therapist about t
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
+[More on type 2s](/blog/enneagram/enneagram-type-2)
+
   </section>
 
   <!-- <aside class="section-meta">
@@ -90,6 +94,8 @@ believing that being ghosted is a reflection of their own inadequacy. To cope wi
 feelings, Threes may benefit from focusing on their accomplishments and successes. They may
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
+
+[More on type 3s](/blog/enneagram/enneagram-type-3)
 
   </section>
 
@@ -110,6 +116,8 @@ feelings, Fours may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
+[More on type 4s](/blog/enneagram/enneagram-type-4)
+
   </section>
 
   <!-- <aside class="section-meta">
@@ -128,6 +136,8 @@ uncertainty, as they may have believed the relationship was going well. To cope 
 feelings, Fives may benefit from talking to a trusted friend or therapist about their
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
+
+[More on type 5s](/blog/enneagram/enneagram-type-5)
 
   </section>
 
@@ -148,6 +158,8 @@ feelings, Sixes may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
+[More on type 6s](/blog/enneagram/enneagram-type-6)
+
   </section>
 
   <!-- <aside class="section-meta">
@@ -166,6 +178,9 @@ may have been looking forward to the potential new experiences and excitement th
 could bring. To cope with these feelings, Sevens may benefit from finding new hobbies or
 activities to fill their time and bring joy. They may also want to focus on self-compassion
 and self-care, reminding themselves that they are worthy of love and respect.
+
+
+[More on type 7s](/blog/enneagram/enneagram-type-7)
 
   </section>
 
@@ -186,6 +201,8 @@ benefit from channeling their anger into healthy outlets such as exercise or wri
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
 
+[More on type 8s](/blog/enneagram/enneagram-type-8)
+
   </section>
 
   <!-- <aside class="section-meta">
@@ -199,6 +216,8 @@ of love and respect.
    <h3>Type Nine: The Peacemaker</h3>
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
+
+[More on type 9s](/blog/enneagram/enneagram-type-9)
 
   </section>
 
@@ -218,7 +237,6 @@ experiences it differently. By understanding how each Enneagram type may experie
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
 
-<p>Images coming soon 🚧</p>
 
 <div>
 <script type="application/ld+json">

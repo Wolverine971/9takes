@@ -18,7 +18,7 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-concepts">
 </svelte:head>
 
-<p class="firstLetter">The Enneagram is divided into nine distinct personality types, each with its own unique set of traits, strengths, and weaknesses. Furthermore there are 3 triads or centers of intellignece relating to 3 core emotions. From there the system goes deeper exploring where each type goes to in stress and comfort.</p>
+<p class="firstLetter">The Enneagram is divided into nine distinct personality types, each with its own unique set of traits, strengths, and weaknesses. Furthermore there are 3 triads or centers of intelligence relating to 3 core emotions. From there the system goes deeper exploring where each type goes to in stress and comfort.</p>
 
 ## The Nine Personality Types
 
@@ -64,7 +64,7 @@ The Enneagram also recognizes that individuals can exhibit traits of the persona
 
 ## Connecting Lines
 
-Finally, the Enneagram also recognizes that individuals may experience growth and stress in different ways, depending on their personality type. The system identifies connecting lines that link the nine personality types and show how individuals can move towards growth or stress. For example, a Type 5 Investigator may move towards growth by adopting traits of the Type 8 Challenger or towards stress by adopting traits of the Type 7 Enthusiast.
+Finally, the Enneagram also recognizes that individuals may experience growth and [stress](/blog/enneagram/enneagram-stress-number) in different ways, depending on their personality type. The system identifies connecting lines that link the nine personality types and show how individuals can move towards growth or stress. For example, a Type 5 Investigator may move towards growth by adopting traits of the Type 8 Challenger or towards stress by adopting traits of the Type 7 Enthusiast.
 
 Time for the obligatory reminder that the Enneagram should be used as a tool. Helping individuals gain insight into their personality, motivations, and behavior patterns is a difficult task not to be taken lightly. However by understanding all the above, the nine types, the three centers of intelligence, the three instincts, wings, and connecting lines, individuals can gain a deeper understanding of themselves, others, and improve their relationships, and ultimately grow as people.
 
@@ -89,7 +89,6 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 </div>
 <cite><a target="_blank" href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
-<p>Images coming soon 🚧</p>
 
  <div>
 
