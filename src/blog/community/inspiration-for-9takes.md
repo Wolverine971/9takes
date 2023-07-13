@@ -1,5 +1,5 @@
 ---
-title: 'What was the inspiration for 9takes?'
+title: 'What Was The Inspiration For 9takes?'
 description: ''
 author: 'DJ Wayne'
 date: '2023-06-17'

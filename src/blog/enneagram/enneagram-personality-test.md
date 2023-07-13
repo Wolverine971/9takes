@@ -1,5 +1,5 @@
 ---
-title: 'Determining your Enneagram type'
+title: 'Determining Your Enneagram Type'
 description: 'How to determine or deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
@@ -91,6 +91,7 @@ you. You feel insecure because you just need to be seen in a positive light agai
 so you don't feel shame but feel good about yourself. Overtime your emotional
 intellignece develops and you can sense how people are feeling based on how you
 would feel in the same situation. It become easy for you to connect with others emotionally.
+
 ### The link between **anger** and **instinctual** intelligence
 
 If you are feeling anger you feel instinctually something is not right. Before

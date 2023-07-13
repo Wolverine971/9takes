@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram types at a party: How each type behaves'
+title: 'Enneagram types and Party Dynamics: What is the Unique Behavior of Each Enneagram Type'
 description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'

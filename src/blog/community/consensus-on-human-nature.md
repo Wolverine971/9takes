@@ -29,7 +29,6 @@ pic: ''
 <img title="Google's human nature definition" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
 </div>
 
-
 <figure style="margin:2rem" title="9takes's human nature definition">
     <blockquote>
     Human Nature: Psychology and philosophy riffing on how people think, feel, and act.

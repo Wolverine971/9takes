@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram workplace team building'
+title: 'Enneagram Workplace Team Building'
 description: 'How the Enneagram can be used for team building and leadership development'
 author: 'DJ Wayne'
 date: '2023-03-27'

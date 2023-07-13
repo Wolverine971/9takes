@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram strengths and weaknesses'
+title: 'Enneagram Strengths and Weaknesses'
 description: 'Understanding your strengths and weaknesses'
 author: 'DJ Wayne'
 date: '2023-05-10'

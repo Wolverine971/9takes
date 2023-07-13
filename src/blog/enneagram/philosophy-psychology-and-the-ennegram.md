@@ -1,5 +1,5 @@
 ---
-title: 'Philosophy and Psychology gave birth to the Enneagram'
+title: 'Philosophy and Psychology Gave Birth to the Enneagram'
 description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
 date: '2023-07-11'
@@ -139,7 +139,7 @@ In essence, the Enneagram offers a framework for personal development that is de
     "@value": "2023-07-11"
   },
   "http://schema.org/description": "Freud and Plato stumble on the Enneagram",
-  "http://schema.org/headline": "Philosophy and Psychology gave birth to the Enneagram",
+  "http://schema.org/headline": "Philosophy and Psychology Gave Birth to the Enneagram",
   "http://schema.org/image": {
     "@type": "http://schema.org/ImageObject",
     "http://schema.org/height": 1200,

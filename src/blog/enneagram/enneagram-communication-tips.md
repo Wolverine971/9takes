@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram communication tips'
+title: 'Enneagram Communication Tips'
 description: 'Different personalities have subtle quirks to how they communicate, here are some tips to optimize your communication with them'
 author: 'DJ Wayne'
 date: '2023-02-27'

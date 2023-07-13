@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram types working in teams'
+title: 'Enneagram Types Working in Teams'
 description: 'Understanding how different Enneagram types work together in teams'
 author: 'DJ Wayne'
 date: '2023-03-26'

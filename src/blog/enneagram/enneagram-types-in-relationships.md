@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Enneagram types in relationships'
+title: 'Understanding Enneagram Types in Relationships'
 description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'

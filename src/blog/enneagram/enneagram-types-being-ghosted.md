@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram types being ghosted'
+title: 'Enneagram Types Being Ghosted'
 description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow each type handles being ghosted'
 author: 'DJ Wayne'
 date: '2023-02-10'
