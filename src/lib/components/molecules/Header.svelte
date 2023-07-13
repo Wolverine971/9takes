@@ -57,7 +57,7 @@
 								'@type': 'http://schema.org/WebPage',
 								'http://schema.org/name': 'Philosophy and Psychology gave birth to the Enneagram',
 								'http://schema.org/url': {
-									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram'
+									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
 								}
 							},
 							{

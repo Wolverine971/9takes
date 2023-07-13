@@ -45,8 +45,8 @@ type: ['overview']
       - Ask if they wana read content, use 2 step approach
       - ask if they are interested
       - I noticed that you recently shared one of my favorite articles about [topic]. I actually have a [topic] post coming out this week that I think you might enjoy. Want me to let you know when it goes live?
-    - if intested, send link
-      - dont ask for share
+    - if interested, send link
+      - don't ask for share
 
 ## PPT Formula
 

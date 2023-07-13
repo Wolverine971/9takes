@@ -3,7 +3,7 @@ title: 'Philosophy and Psychology Gave Birth to the Enneagram'
 description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
 date: '2023-07-11'
-loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram'
+loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
 lastmod: '2023-07-11'
 changefreq: 'monthly'
 priority: '0.6'
@@ -16,7 +16,7 @@ pic: 'freud-plato'
 <svelte:head>
 
   <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram">
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram">
 </svelte:head>
 
 <script>
@@ -164,7 +164,7 @@ In essence, the Enneagram offers a framework for personal development that is de
     "human soul"
   ],
   "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-ennegram",
+    "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram",
     "@type": "http://schema.org/WebPage"
   },
   "http://schema.org/mentions": [

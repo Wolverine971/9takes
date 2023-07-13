@@ -59,7 +59,7 @@
 				<ul>
 					<!-- <li>History and origins of the Enneagram</li> -->
 					<li>
-						<a href="/blog/enneagram/philosophy-psychology-and-the-ennegram"
+						<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
 							>Philosophy and Psychology gave birth to the Enneagram</a
 						>
 					</li>

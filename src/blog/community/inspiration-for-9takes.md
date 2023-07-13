@@ -4,7 +4,7 @@ description: ''
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/blog/community/inspiration-for-9takes'
-lastmod: '2023-06-17'
+lastmod: '2023-07-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -59,7 +59,7 @@ to say. However people sort of soften up and the negative emotions of fear, ange
 and shame somewhat go away after people are listened to. Fear gives way to learning,
 anger to peace, and shame to feeling good about yourself.
 
-**So with that I knew that people needed to be listened to.**
+### So with that I knew that people needed to be listened to. 👂
 
 Then the next part was that my wife told me that I should take a personality test. I didn't want to because I didn't think I would get anything out of it. But I had
 nothing to lose and I was willing to give it a shot if it would help me understand
@@ -82,7 +82,7 @@ arguing where it can be productive however this was not the time. We would both 
 arguing and I would be pointing to my experience and what I learned and they would
 be saying that it is fake.
 
-**So with that I learned to keep the conversation focused on our own experience.**
+### So with that I learned to keep the conversation focused on our own experience. 👣
 
 So the question that I learned to follow up was to ask them
 about what they had learned about themselves. They would say things that fell into
@@ -99,9 +99,11 @@ Both arguments seem somewhat valid. They would either be pointing out that peopl
 Their conclusion was that there is nothing to learn. But that is another way of
 saying they just are not curious. Have they ever met someone who was similar to them? Have they ever met someone who was different from them? What percentage differences or similarities would you put between two people? By what dimension would you say people are similar or different? Well, all these questions sound like the kind of questions that personality tests seek to answer.
 
-**So with that I learned that personality is just the similarity and differences between people. People just need to be curious enough to explore each other’s similarities and differences**
+### So with that I learned that personality is just the similarity and differences between people. People just need to be curious enough to explore each other’s similarities and differences 🤔
 
-So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes'' because there are different takes on life.
+So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes" because there are different takes on life.
+
+Additionally I found some [similarities between the philosophy and psychology that pointed towards the enneagram.](/blog/community/consensus-on-human-nature) 
 
 So that was the inspiration for 9takes. If you want to see what I am building and think that there is a lot left to be learned please sign up below ⬇️.
 

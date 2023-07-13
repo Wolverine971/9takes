@@ -36,7 +36,7 @@
 				<button class="subnavbtn">Overview<i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<!-- <a href="#enneagram">Understanding the Enneagram</a> -->
-					<a href="/blog/enneagram/philosophy-psychology-and-the-ennegram"
+					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
 						>Philosophy and Psychology gave birth to the Enneagram</a
 					>
 					<a href="/blog/enneagram/enneagram-tldr">Enneagram TLDR</a>

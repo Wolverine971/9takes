@@ -89,7 +89,7 @@ If you are feeling shame you can feel other people judging you. When you feel sh
 you are feeling all the negative emotions that are wrapped up in someone not liking
 you. You feel insecure because you just need to be seen in a positive light again
 so you don't feel shame but feel good about yourself. Overtime your emotional
-intellignece develops and you can sense how people are feeling based on how you
+intelligence develops and you can sense how people are feeling based on how you
 would feel in the same situation. It become easy for you to connect with others emotionally.
 
 ### The link between **anger** and **instinctual** intelligence

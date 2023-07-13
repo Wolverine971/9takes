@@ -53,7 +53,7 @@
 	<h3>Why the Enneagram?</h3>
 	<p>
 		Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
-		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-ennegram">
+		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
 			Plato and Freud would have been fans of the Enneagram.
 		</a>
 		Currently, it is used by niche life coaches and as a tool for certain psychologists and therapists.

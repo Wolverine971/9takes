@@ -136,7 +136,7 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 ## Wrap up
 
-Hope this was helpful for understanding your strenghts and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
+Hope this was helpful for understanding your strengths and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
 
 <div>
 <script type="application/ld+json">

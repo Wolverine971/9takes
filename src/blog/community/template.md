@@ -35,6 +35,6 @@ type: ['overview']
 - 3 reasons we see broadly but fail to see deeply
 
 law of reciprocity
-In negotiation there is the law of reciprocity which is inorder to get you must give
-people feel inclined to give inorder to get
+In negotiation there is the law of reciprocity which is in order to get you must give
+people feel inclined to give in order to get
 [David Sacks from the All in Podcast ](https://youtu.be/qQ544sWC8ZQ?t=485) talking about the give to get strategy as a tactic to get people to share their data.

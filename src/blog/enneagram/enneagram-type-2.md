@@ -93,6 +93,7 @@ Learn more about [other types in relationships](/blog/enneagram/enneagram-types-
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for providing emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and to ensure that their own needs are being met.
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+
 ## Potential Pitfalls
 
 If Type 2s do not address their tendency to prioritize others' needs over their own, they may experience burnout or become resentful towards those they are trying to help. They may also struggle with relationships, as their fear of rejection may cause them to cling to others or be overly dependent.

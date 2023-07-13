@@ -15,7 +15,11 @@
 		{#each blogs?.community as cBlog}
 			<a href="/blog/community/{cBlog.slug}" class="grid-item">
 				{#if cBlog.pic}
-					<img class="grid-img" src={`/blogs/${cBlog.pic}.webp`} />
+					<img
+						class="grid-img"
+						src={`/blogs/${cBlog.pic}.webp`}
+						alt={cBlog.pic.split('-').join(' ')}
+					/>
 				{/if}
 				<div
 					class="card text-white border-0 {cBlog.pic
@@ -38,7 +42,11 @@
 		{#each blogs?.people as person}
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
-					<img class="grid-img" src={`/types/${person.enneagram}s/${person.slug}.webp`} />
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
 				{/if}
 				<div class="card fit-card txt-white border-0 ">
 					<h3>

@@ -110,7 +110,7 @@ blog: true
   and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
   Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are
   eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche
-  goes even further back and parallels Plato's description of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-ennegram" >see here</a>).
+  goes even further back and parallels Plato's description of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram" >see here</a>).
     </p>
 
 </details>
@@ -145,7 +145,7 @@ blog: true
 <details>
 <summary class="accordion">How does the Enneagram relate to psychology?</summary>
   <p class="panel">The Enneagram is a psychological and spiritual framework that shares similarities with other theories, such as Freud's
-  model of the human psyche and Plato's concept of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-ennegram">see here</a>), offering
+  model of the human psyche and Plato's concept of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">see here</a>), offering
   insights into human behavior and growth.</p>
 </details>
 
