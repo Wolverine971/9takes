@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -70,6 +70,8 @@ Some of the key weaknesses of the Enneagram Type 9 personality include:
 - Tendency to become overly accommodating or indecisive
 - Struggle to set clear boundaries or say no to others
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 The motivations of Enneagram Type 9, also known as "The Peacemaker," are centered around creating harmony and avoiding conflict. They have a deep desire to maintain inner and outer peace, and to ensure that everyone around them is happy and satisfied. Type 9s tend to be highly empathetic and can easily pick up on the emotions of others, making it important for them to avoid anything that may cause tension or discord.
@@ -106,6 +108,8 @@ However, Enneagram Type 9 individuals may also struggle with expressing their ow
 
 Enneagram Type 9 individuals may also be hesitant to make decisions or take action in their relationships, as they fear that doing so could upset the harmony they have worked hard to maintain. They may need reassurance from their partner and may benefit from a partner who is more assertive and can help them navigate decision-making.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 In the workplace, Enneagram Type 9 individuals tend to be supportive, reliable, and adaptable team members. They often prioritize maintaining a sense of harmony and avoiding conflict in their work environment, and may be skilled at mediating and finding compromises when conflicts do arise.
@@ -115,6 +119,8 @@ Enneagram Type 9 individuals typically value cooperation and collaboration over 
 However, Enneagram Type 9 individuals may struggle with assertiveness and may find it challenging to speak up for themselves or assert their own ideas and opinions in a group setting. They may also struggle with making decisions and taking action, as they may fear making the wrong choice or upsetting others in the process.
 
 Enneagram Type 9 individuals may excel in roles that require a calm and supportive presence, such as counseling, social work, or customer service. They may also thrive in roles that allow them to work with a team to achieve a shared goal, such as project management or collaborative creative work.
+
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
 ## How to Develop and Grow as a Type 9 Personality
 
@@ -274,7 +280,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram Type 9",

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -54,6 +54,8 @@ While Type 3 individuals possess many strengths, they also face a number of chal
 - Workaholism: Type 3 individuals are often highly ambitious and driven to succeed, which can lead to workaholism and neglect of their own needs and relationships.
 - Inauthenticity: Type 3 individuals often adapt to different situations in order to be successful, which can lead to inauthenticity and loss of their true selves.
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 Enneagram Type 3 individuals, also known as "The Achiever," are motivated by a desire for success and recognition. They are often driven by a need to be seen as successful, accomplished, and admired by others. They are highly goal-oriented and may be willing to work hard and take on significant challenges in order to achieve their goals.
@@ -88,6 +90,8 @@ In relationships, Enneagram Type 3 individuals often seek partners who can appre
 
 However, their focus on success can sometimes lead to a lack of emotional intimacy and neglect of their partner's needs. They may struggle to express their own feelings and may prioritize their career over their relationships.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Enneagram Type 3 individuals, also known as "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, which means that they are often focused on achieving success and advancing in their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
@@ -97,6 +101,8 @@ In the workplace, Type 3s tend to be very competitive and often strive to be the
 Type 3s are often excellent at multitasking and can juggle multiple projects simultaneously. They are also skilled at adapting to changing situations and can think on their feet when faced with unexpected challenges. This makes them well-suited for fast-paced, high-pressure work environments.
 
 However, Type 3s may struggle with work-life balance, as they can sometimes prioritize their career goals over their personal lives. They may also struggle with delegating tasks to others, as they often feel that they can do things better themselves. Additionally, they may struggle with criticism and can be sensitive to feedback that they perceive as negative.
+
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
 ## Career Paths
 
@@ -264,7 +270,7 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",

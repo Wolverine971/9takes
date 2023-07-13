@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -62,6 +62,10 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 - Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their own needs for self-care. They may struggle with self-compassion and may have a hard time giving themselves permission to take a break or rest.
 - Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may struggle with being open-minded and receptive to different perspectives.
 
+
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
+
 ## Motivations
 
 Type 1 personalities, also known as Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is right and responsible.
@@ -103,6 +107,8 @@ Type 1 personalities have high expectations for themselves and their partners. T
 - They may struggle with expressing vulnerability and emotions
 - They can be critical of their partners if they feel they are not meeting their high standards
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making. They make excellent leaders and are often respected for their work ethic and commitment to excellence. Here are a few characteristics that make Type 1 personalities successful in the workplace:
@@ -111,6 +117,8 @@ Type 1 personalities excel in roles that require attention to detail, high stand
 - They have high standards and hold themselves and their team to those standards
 - They have a strong sense of ethics and are known for making ethical decisions
 - They are detail-oriented and excel in roles that require attention to detail
+
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
 ## Growth and Development
 
@@ -339,7 +347,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -57,6 +57,8 @@ Type 7 individuals possess a number of strengths that make them valuable members
 - Lack of commitment: Type 7s can struggle with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
 - Avoidance of negative emotions: Type 7s can struggle with negative emotions and may avoid dealing with them by seeking out new experiences or distracting themselves in other ways.
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 Type 7s are motivated by the desire for new experiences and adventure. They want to feel alive and engaged with the world around them. They have a fear of missing out and can struggle with feeling trapped or limited in any way. They want to be free to explore and create, and can feel restless or unhappy when they are stuck in routine or monotony.
@@ -89,6 +91,8 @@ However, Type 7s can also struggle with staying committed to long-term relations
 
 To help Type 7s thrive in relationships, it is important for them to have a partner who shares their sense of adventure and is willing to explore new things with them. It is also helpful for their partner to be patient and understanding when they become restless or distracted. It can be helpful for Type 7s to learn to embrace difficult emotions and work on developing deeper connections with their partner, rather than just seeking out new experiences.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Type 7s can bring a lot of energy and creativity to the workplace. They are often great at generating new ideas and are skilled at brainstorming sessions. Their natural optimism and enthusiasm can also be infectious, making them valuable team members who can motivate others.
@@ -96,6 +100,8 @@ Type 7s can bring a lot of energy and creativity to the workplace. They are ofte
 However, Type 7s can sometimes struggle with following through on commitments and staying focused on long-term goals. They may also become restless and easily bored with routine tasks. As a result, they may need extra support in staying on track and completing tasks on time.
 
 To help Type 7s thrive in the workplace, it can be helpful to provide them with a variety of tasks and opportunities to learn new things. It can also be useful to provide regular check-ins to help them stay on track with their goals and commitments. Additionally, it can be helpful to encourage them to take breaks and engage in activities that promote creativity and imagination.
+
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
 ## How to Develop and Grow as a Type 7 Personality
 
@@ -244,7 +250,7 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",

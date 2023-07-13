@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -45,6 +45,8 @@ While Type 8's have many strengths, they also have some weaknesses. One of their
 
 Type 8s can struggle with issues related to control, as well as anger and impulsivity. They may have difficulty accepting vulnerability or admitting when they are wrong. In relationships, Type 8s may struggle with giving up control or appearing weak. Understanding these challenges can help Type 8s work on personal growth and develop healthier relationships.
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 Enneagram Type 8 individuals are driven by a need for control and a desire to protect themselves and those they care about. They are highly motivated by a sense of justice and fairness and can be quite passionate about causes that align with their values.
@@ -75,6 +77,8 @@ On the other hand, Enneagram Type 8 individuals can be quite dominant and contro
 
 To have a successful relationship with an Enneagram Type 8 individual, it is important to communicate openly and honestly, while also respecting their need for independence and autonomy. It can also be helpful to establish clear boundaries and expectations early on in the relationship, and to be willing to compromise and find common ground when conflicts arise. Additionally, it may be helpful for Enneagram Type 8 individuals to work on developing their emotional intelligence and vulnerability in order to build stronger, more intimate connections with their partners.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Enneagram Type 8 individuals can be powerful and effective leaders in the workplace. They are often natural problem solvers, with a talent for identifying and addressing challenges head-on. They are also highly independent and self-assured, and are not afraid to take risks or make tough decisions.
@@ -82,6 +86,8 @@ Enneagram Type 8 individuals can be powerful and effective leaders in the workpl
 In the workplace, Enneagram Type 8 individuals can be highly assertive and may struggle with authority figures who they perceive as trying to limit their autonomy or control. They may also struggle with micromanagement and prefer to have a high degree of freedom and control over their work. They can be direct and forceful communicators, which can be effective in some contexts but may also rub some coworkers the wrong way.
 
 To work successfully with an Enneagram Type 8 individual, it is important to be direct and clear in communication, while also respecting their need for autonomy and independence. It can also be helpful to establish clear boundaries and expectations early on in the working relationship, and to be willing to collaborate and compromise when necessary. Additionally, it may be important to provide Enneagram Type 8 individuals with opportunities to take on leadership roles and exercise their problem-solving skills, while also supporting them in developing their emotional intelligence and ability to work collaboratively with others.
+
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
 ## Tips for Working with Enneagram Type 8
 
@@ -244,7 +250,7 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",

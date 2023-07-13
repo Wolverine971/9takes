@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -54,6 +54,8 @@ While Type 2 individuals possess many strengths, they also face a number of chal
 - People-pleasing: Type 2 individuals have a strong desire to be appreciated and loved by others, which can lead to a tendency to put the needs of others before their own and to sacrifice their own needs in order to please others.
 - Burnout: Type 2 individuals are often highly dedicated to their work and causes, and they may be prone to burnout due to their strong sense of responsibility and the weight of their work.
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 The Helper is motivated by a deep desire to be loved and appreciated by those around them. They seek to find their self-worth through the validation of others. The Helper often looks for ways to be of service to others, and they feel most fulfilled when they are helping others. However, their desire to help others can also come at a cost. Type 2 personalities may neglect their own needs and emotions, leading to burnout and resentment. They may also struggle with boundaries, taking on too much responsibility and becoming overwhelmed.
@@ -84,10 +86,13 @@ Type 2 personalities are highly social and enjoy connecting with others. They ar
 
 However, their desire to be needed can also lead to unhealthy relationship dynamics. Type 2 personalities may struggle to express their own needs and emotions, leading to feelings of resentment and unmet needs. They may also become overly dependent on their relationships, leading to co-dependency and an inability to function independently.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for providing emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and to ensure that their own needs are being met.
 
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 ## Potential Pitfalls
 
 If Type 2s do not address their tendency to prioritize others' needs over their own, they may experience burnout or become resentful towards those they are trying to help. They may also struggle with relationships, as their fear of rejection may cause them to cling to others or be overly dependent.
@@ -241,7 +246,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

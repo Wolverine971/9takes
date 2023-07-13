@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2023-06-03'
+lastmod: '2023-07-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -52,6 +52,8 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 
 While Type 6's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6's can have a hard time trusting their own abilities and may struggle with self-doubt.
 
+Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+
 ## Motivations
 
 - Safety and Security: Type 6s prioritize safety and security and often seek out situations, relationships, and jobs that they perceive as safe and predictable. They may avoid risks or uncertain situations, and may be drawn to routines, rules, or guidelines that provide structure and stability.
@@ -89,6 +91,8 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 - Prone to Anxiety and Worry: Type 6s may be prone to anxiety and worry, which can impact their relationships. They may overthink or obsess about potential problems, and may struggle with trust or vulnerability.
 - Can be Defensive or Reactive: When their fears or insecurities are triggered, type 6s may become defensive or reactive. They may struggle with criticism or conflict, and may feel threatened by changes or challenges in the relationship.
 
+Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+
 ## In the Workplace
 
 Type 6s are highly reliable and loyal employees, and they place a strong emphasis on security and stability in the workplace. They thrive in environments where they feel valued and supported, and they are often highly attuned to the needs and desires of their colleagues and superiors.
@@ -97,6 +101,7 @@ At the same time, Type 6s may struggle with self-doubt and anxiety in the workpl
 
 To get the best out of a Type 6 employee, it's important to provide clear guidelines and expectations, and to offer plenty of opportunities for feedback and support. Type 6s also respond well to recognition and appreciation, so it's a good idea to acknowledge their contributions and efforts regularly.
 
+Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 ## Behaviors and Interactions
 
 The Enneagram Type 6 personality exhibits several key behaviors and tendencies in their interactions with others:
@@ -261,7 +266,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         "type": "Person",
         "name": "DJ Wayne"
       },
-      "dateModified": "2023-06-03",
+      "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
