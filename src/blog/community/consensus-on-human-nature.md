@@ -73,7 +73,7 @@ It's easy to boil things down to being rational and irrational, it makes everyth
 
 What if everything wasn't that simple? What if we are oversimplifying the problem by boiling human nature down to the pursuit of being rational?
 
-## Explaning the repeated calls for rationality
+## Explaining the repeated calls for rationality
 
 Freud talked in great depth about his theory of the conscious and unconscious mind. He suggested that a significant portion of our mental processes occurs outside of our conscious awareness. Freud thought that the unconscious mind contains repressed thoughts, memories, desires, and unresolved conflicts that influence our thoughts, emotions, and behaviors.
 

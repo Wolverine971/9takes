@@ -103,6 +103,7 @@ Type 4s are often drawn to work that allows them to express their individuality 
 In the workplace, Type 4s may struggle with feelings of boredom or restlessness, particularly if they feel their work lacks meaning or purpose. They may also be prone to moodiness or sensitivity to criticism, and may struggle to take feedback or direction from others. However, they can be deeply committed and loyal team members who bring a unique perspective and creative flair to their work.
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+
 ## Growth and Development
 
 While the Enneagram Type 4 has many strengths, there are also areas where they may struggle. One of the biggest challenges for Individualists is learning to accept themselves for who they are. They may struggle with feelings of inadequacy and self-doubt, and they may have difficulty finding their place in the world.
@@ -128,7 +129,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
 <div>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -303,7 +304,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

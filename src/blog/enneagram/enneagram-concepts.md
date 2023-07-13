@@ -89,45 +89,38 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 </div>
 <cite><a target="_blank" href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
-
  <div>
 
-<script type="application/ld+json">{
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/about": {
-    "@type": "http://schema.org/Thing",
-    "http://schema.org/name": "Enneagram"
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "type": "BlogPosting",
+  "about": {
+    "type": "Thing",
+    "name": "Enneagram"
   },
-  "http://schema.org/articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development.",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development.",
+  "author": {
+    "type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-02-28"
+  "dateModified": "2023-02-28",
+  "datePublished": "2023-02-28",
+  "description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
+  "headline": "Enneagram Concepts",
+  "mainEntityOfPage": {
+    "id": "https://9takes.com/blog/enneagram/enneagram-concepts",
+    "type": "WebPage"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
-    "@value": "2023-02-28"
-  },
-  "http://schema.org/description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
-  "http://schema.org/headline": "Enneagram Concepts",
-  "http://schema.org/mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-concepts",
-    "@type": "http://schema.org/WebPage"
-  },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      },
-      "http://schema.org/width": 600
+  "publisher": {
+    "type": "Organization",
+    "logo": {
+      "type": "ImageObject",
+      "height": 60,
+      "url": "https://9takes.com/brand/darkRubix.png",
+      "width": 600
     },
-    "http://schema.org/name": "9Takes"
+    "name": "9takes"
   }
 }
 </script>

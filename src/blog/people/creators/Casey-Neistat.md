@@ -180,40 +180,41 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
 <div>
 <script type="application/ld+json">
 	{
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article delves into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and his readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "This article delves into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and his readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-07-02"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-07-02"
       },
-      "http://schema.org/description": "This blog post uncovers why Casey Neistat may be an Enneagram Type 4. It emphasizes his personality traits, inner world, controversies, motivations, and how these elements might correlate with the core features of a Type 4.",
-      "http://schema.org/headline": "Inside Casey Neistat: A Look Into His Enneagram Type 4 Personality",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "This blog post uncovers why Casey Neistat may be an Enneagram Type 4. It emphasizes his personality traits, inner world, controversies, motivations, and how these elements might correlate with the core features of a Type 4.",
+      "headline": "Inside Casey Neistat: A Look Into His Enneagram Type 4 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://9takes.com/types/4s/Casey-Neistat.webp"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/mainEntityOfPage": {
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Casey-Neistat",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Casey Neistat",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "name": "Casey Neistat",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Casey_Neistat"
           },
@@ -228,37 +229,37 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Casey Neistat exhibits many traits associated with Enneagram Type 4 personalities. This includes his unique storytelling style, his openness to express vulnerabilities, and his distinctive personal style. These characteristics are deeply rooted in his desire to be authentic and unique, which is a core motivation for Type 4 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Casey Neistat exhibits many traits associated with Enneagram Type 4 personalities. This includes his unique storytelling style, his openness to express vulnerabilities, and his distinctive personal style. These characteristics are deeply rooted in his desire to be authentic and unique, which is a core motivation for Type 4 individuals."
           },
-          "http://schema.org/name": "Why is Casey Neistat considered an Enneagram Type 4?"
+          "name": "Why is Casey Neistat considered an Enneagram Type 4?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Casey's unique vlogging style, his attention to detail, and his readiness to expose vulnerabilities are all indicative of his Type 4 personality. Moreover, his constant search for meaning and authenticity also reflect the strengths and growth potential of Type 4 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Casey's unique vlogging style, his attention to detail, and his readiness to expose vulnerabilities are all indicative of his Type 4 personality. Moreover, his constant search for meaning and authenticity also reflect the strengths and growth potential of Type 4 individuals."
           },
-          "http://schema.org/name": "What are some examples of Casey Neistat's Type 4 characteristics?"
+          "name": "What are some examples of Casey Neistat's Type 4 characteristics?"
         }
       ]
     }

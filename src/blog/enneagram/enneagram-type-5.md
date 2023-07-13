@@ -134,7 +134,7 @@ To help foster personal growth and development for individuals with a Type 5 per
 <div>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -313,7 +313,7 @@ To help foster personal growth and development for individuals with a Type 5 per
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

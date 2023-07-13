@@ -105,44 +105,45 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 <div>
 <script type="application/ld+json">
 {
-"@type": "http://schema.org/BlogPosting",
-"http://schema.org/articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
-"http://schema.org/articleSection": "Team Building",
-"http://schema.org/author": {
-"@type": "http://schema.org/Person",
-"http://schema.org/name": "DJ"
+"@context": "http://schema.org",
+"@type": "BlogPosting",
+"articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
+"articleSection": "Team Building",
+"author": {
+"@type": "Person",
+"name": "DJ"
 },
-"http://schema.org/dateModified": {
-"@type": "http://schema.org/Date",
+"dateModified": {
+"@type": "Date",
 "@value": "2023-03-01T00:00:00-07:00"
 },
-"http://schema.org/datePublished": {
-"@type": "http://schema.org/Date",
+"datePublished": {
+"@type": "Date",
 "@value": "2023-03-17T00:00:00-07:00"
 },
-"http://schema.org/description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
-"http://schema.org/headline": "Using the Enneagram for Team Building and Leadership Development",
-"http://schema.org/image": {
-"@type": "http://schema.org/ImageObject",
-"http://schema.org/height": "630",
-"http://schema.org/url": {
+"description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
+"headline": "Using the Enneagram for Team Building and Leadership Development",
+"image": {
+"@type": "ImageObject",
+"height": "630",
+"url": {
 "@id": "https://9takes.com/blogs/working-in-teams.webp"
 },
-"http://schema.org/width": "1200"
+"width": "1200"
 },
-"http://schema.org/mainEntityOfPage": {
+"mainEntityOfPage": {
 "@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
-"@type": "http://schema.org/WebPage"
+"@type": "WebPage"
 },
-"http://schema.org/publisher": {
-"@type": "http://schema.org/Organization",
-"http://schema.org/logo": {
-"@type": "http://schema.org/ImageObject",
-"http://schema.org/url": {
+"publisher": {
+"@type": "Organization",
+"logo": {
+"@type": "ImageObject",
+"url": {
 "@id": "https://9takes.com/brand/darkRubix.png"
 }
 },
-"http://schema.org/name": "9Takes"
+"name": "9takes"
 }
 }
 </script>

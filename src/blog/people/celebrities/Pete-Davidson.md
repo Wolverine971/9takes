@@ -130,40 +130,41 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
 <div>
 <script type="application/ld+json">
 	{
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article explores the personality traits of Pete Davidson from the perspective of the Enneagram Type 9. Known for his laid-back demeanor, adaptability, and struggle with anger, Pete embodies many characteristics of Type 9 personalities. The article discusses various aspects of Pete's life and career that demonstrate his Type 9 traits, including his relationship dynamics, comedy style, personal controversies, and his battles with mental health.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "This article explores the personality traits of Pete Davidson from the perspective of the Enneagram Type 9. Known for his laid-back demeanor, adaptability, and struggle with anger, Pete embodies many characteristics of Type 9 personalities. The article discusses various aspects of Pete's life and career that demonstrate his Type 9 traits, including his relationship dynamics, comedy style, personal controversies, and his battles with mental health.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/description": "This blog post examines the reasons why Pete Davidson might be an Enneagram Type 9. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 9.",
-      "http://schema.org/headline": "Pete Davidson: A Deep Dive Into His Enneagram Type 9 Personality",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "This blog post examines the reasons why Pete Davidson might be an Enneagram Type 9. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 9.",
+      "headline": "Pete Davidson: A Deep Dive Into His Enneagram Type 9 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://9takes.com/types/9s/Pete-Davidson.webp"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/mainEntityOfPage": {
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Pete-Davidson",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Pete Davidson",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "name": "Pete Davidson",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Pete_Davidson"
           },
@@ -175,53 +176,53 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Pete Davidson exhibits many characteristics associated with Enneagram Type 9 personalities. This includes his easygoing nature, adaptability, and struggle with suppressed anger. These traits are deeply rooted in his desire for internal and external peace, which is a core motivation for Type 9 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pete Davidson exhibits many characteristics associated with Enneagram Type 9 personalities. This includes his easygoing nature, adaptability, and struggle with suppressed anger. These traits are deeply rooted in his desire for internal and external peace, which is a core motivation for Type 9 individuals."
           },
-          "http://schema.org/name": "Why is Pete Davidson considered an Enneagram Type 9?"
+          "name": "Why is Pete Davidson considered an Enneagram Type 9?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Pete's adaptability in relationships, his laid-back and often self-deprecating comedic style, and his open struggles with mental health are all indicative of his Type 9 personality. His ways of seeking peace and his difficulty handling anger also reflect the challenges and growth potential of Type 9 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pete's adaptability in relationships, his laid-back and often self-deprecating comedic style, and his open struggles with mental health are all indicative of his Type 9 personality. His ways of seeking peace and his difficulty handling anger also reflect the challenges and growth potential of Type 9 individuals."
           },
-          "http://schema.org/name": "What are some examples of Pete Davidson's Type 9 characteristics?"
+          "name": "What are some examples of Pete Davidson's Type 9 characteristics?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Pete Davidson is known for his laid-back and adaptable personality. He is creative, insightful, and tends to use humor as a coping mechanism. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pete Davidson is known for his laid-back and adaptable personality. He is creative, insightful, and tends to use humor as a coping mechanism. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
           },
-          "http://schema.org/name": "What is Pete Davidson's personality?"
+          "name": "What is Pete Davidson's personality?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Pete Davidson is considered an Enneagram type 9, also known as The Peacemaker. This Enneagram type is easygoing, receptive, and comforting, often motivated by a desire to maintain internal and external peace. Please note that this information is based on public information and not directly confirmed by Pete Davidson himself."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pete Davidson is considered an Enneagram type 9, also known as The Peacemaker. This Enneagram type is easygoing, receptive, and comforting, often motivated by a desire to maintain internal and external peace. Please note that this information is based on public information and not directly confirmed by Pete Davidson himself."
           },
-          "http://schema.org/name": "What is Pete Davidson's Enneagram type?"
+          "name": "What is Pete Davidson's Enneagram type?"
         }
       ]
     }

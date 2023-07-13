@@ -144,7 +144,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <div>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -333,7 +333,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

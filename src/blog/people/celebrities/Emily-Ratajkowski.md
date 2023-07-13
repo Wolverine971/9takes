@@ -86,46 +86,47 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 <div>
 <script type="application/ld+json">
   {
-  "@type": "http://schema.org/Article",
-  "http://schema.org/articleBody": "",
-  "http://schema.org/articleSection": "celebrity",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "articleBody": "",
+  "articleSection": "celebrity",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-04-19"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-03-09"
   },
-  "http://schema.org/description": "",
-  "http://schema.org/headline": "Emily Ratajkowski Enneagram Type 8",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 800,
-    "http://schema.org/url": {
+  "description": "",
+  "headline": "Emily Ratajkowski Enneagram Type 8",
+  "image": {
+    "@type": "ImageObject",
+    "height": 800,
+    "url": {
       "@id": "https://9takes.com/types/8s/Emily-Ratajkowski.webp"
     },
-    "http://schema.org/width": 1200
+    "width": 1200
   },
-  "http://schema.org/keywords": [
+  "keywords": [
     "Emily Ratajkowski",
     "Enneagram",
     "Type 8",
     "Challenger"
   ],
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/mentions": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/description": "Emily O'Hara Ratajkowski is an American model and actress. Born in London and raised in San Diego, Ratajkowski first appeared on the cover of the March 2012 issue of the erotic magazine treats!, which led to her appearing in two music videos – Robin Thicke’s 'Blurred Lines' (the number-one song of 2013 in several countries) and Maroon 5's 'Love Somebody'.",
-    "http://schema.org/name": "Emily Ratajkowski",
-    "http://schema.org/sameAs": [
+  "mentions": {
+    "@type": "Person",
+    "description": "Emily O'Hara Ratajkowski is an American model and actress. Born in London and raised in San Diego, Ratajkowski first appeared on the cover of the March 2012 issue of the erotic magazine treats!, which led to her appearing in two music videos – Robin Thicke’s 'Blurred Lines' (the number-one song of 2013 in several countries) and Maroon 5's 'Love Somebody'.",
+    "name": "Emily Ratajkowski",
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/emrata/"
       },
@@ -140,19 +141,19 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
       }
     ]
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url>": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "height": 60,
+      "url>": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       },
-      "http://schema.org/width": 600
+      "width": 600
     },
-    "http://schema.org/name": "9takes"
+    "name": "9takes"
   },
-  "http://schema.org/url": {
+  "url": {
     "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski"
   }
 }

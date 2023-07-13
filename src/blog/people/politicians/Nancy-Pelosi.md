@@ -86,7 +86,7 @@ These examples of political flexibility further solidify the connection between 
 
 <div>
 <script type="application/ld+json">{
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",

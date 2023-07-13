@@ -87,32 +87,33 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
 <div>
 <script type="application/ld+json">
 {
-  "@type": "http://schema.org/Article",
-  "http://schema.org/articleBody": "",
-  "http://schema.org/articleSection": "scientist",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "articleBody": "",
+  "articleSection": "scientist",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-04-19"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-03-09"
   },
-  "http://schema.org/description": "Explore the mind of AI researcher Lex Fridman through the lens of the Enneagram Type 5. Understand the internal dialogue he maintains during interviews and how his Type 5 traits shine through.",
-  "http://schema.org/headline": "The Enigmatic Enneagram Type 5: A Deeper Look into Lex Fridman's Mind",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 800,
-    "http://schema.org/url": {
+  "description": "Explore the mind of AI researcher Lex Fridman through the lens of the Enneagram Type 5. Understand the internal dialogue he maintains during interviews and how his Type 5 traits shine through.",
+  "headline": "The Enigmatic Enneagram Type 5: A Deeper Look into Lex Fridman's Mind",
+  "image": {
+    "@type": "ImageObject",
+    "height": 800,
+    "url": {
       "@id": "https://9takes.com/types/5s/Lex-Fridman.webp"
     },
-    "http://schema.org/width": 1200
+    "width": 1200
   },
-  "http://schema.org/keywords": [
+  "keywords": [
     "Lex Fridman",
     "Enneagram",
     "Type 5",
@@ -120,15 +121,15 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
     "Internal dialogue",
     "Observer personality"
   ],
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/mentions": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/description": "Host of Lex Fridman Podcast. Research Scientist at MIT. Interested in robots and humans.",
-    "http://schema.org/name": "Lex Fridman",
-    "http://schema.org/sameAs": [
+  "mentions": {
+    "@type": "Person",
+    "description": "Host of Lex Fridman Podcast. Research Scientist at MIT. Interested in robots and humans.",
+    "name": "Lex Fridman",
+    "sameAs": [
       {
         "@id": "https://lexfridman.com/"
       },
@@ -143,19 +144,19 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
       }
     ]
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "height": 60,
+      "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       },
-      "http://schema.org/width": 600
+      "width": 600
     },
-    "http://schema.org/name": "9takes"
+    "name": "9takes"
   },
-  "http://schema.org/url": {
+  "url": {
     "@id": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman"
   }
 }

@@ -64,47 +64,48 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
 
 <div>
 <script type="application/ld+json">{
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types. First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in 'The Path Between Us,'' 'You can't change how you see—you can only change what you do with how you see.' With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types. First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in 'The Path Between Us,'' 'You can't change how you see—you can only change what you do with how you see.' With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-03-26"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-03-25"
       },
-      "http://schema.org/description": "Learn how to effectively communicate and interact with different Enneagram types. This article provides valuable insights and strategies for building empathy, understanding, and connection in all your relationships.",
-      "http://schema.org/headline": "How to communicate and interact effectively with different Enneagram types",
-      "http://schema.org/mainEntityOfPage": {
-        "@type": "http://schema.org/WebPage",
-        "http://schema.org/url": {
+      "description": "Learn how to effectively communicate and interact with different Enneagram types. This article provides valuable insights and strategies for building empathy, understanding, and connection in all your relationships.",
+      "headline": "How to communicate and interact effectively with different Enneagram types",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "url": {
           "@id": "https://9takes.com/blog/enneagram/communication-overview"
         }
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           }
         },
-        "http://schema.org/name": "9Takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/Person",
-      "http://schema.org/jobTitle": "Author",
-      "http://schema.org/name": "Suzanne Stabile",
-      "http://schema.org/description": "Suzanne Stabile is a highly sought after speaker and teacher, known for her engaging laugh, personal vulnerability, and creative approach to Enneagram instruction. As an internationally recognized Enneagram Master, Suzanne has conducted over 500 Enneagram workshops over the past 25 years.",
-      "http://schema.org/sameAs": [
+      "@type": "Person",
+      "jobTitle": "Author",
+      "name": "Suzanne Stabile",
+      "description": "Suzanne Stabile is a highly sought after speaker and teacher, known for her engaging laugh, personal vulnerability, and creative approach to Enneagram instruction. As an internationally recognized Enneagram Master, Suzanne has conducted over 500 Enneagram workshops over the past 25 years.",
+      "sameAs": [
         {
           "@id": "https://www.instagram.com/suzannestabile/"
         },
@@ -115,7 +116,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
           "@id": "https://suzannestabile.com/"
         }
       ],
-      "http://schema.org/url": {
+      "url": {
         "@id": "https://suzannestabile.com/"
       }
     }

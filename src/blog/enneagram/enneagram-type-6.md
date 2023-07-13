@@ -102,6 +102,7 @@ At the same time, Type 6s may struggle with self-doubt and anxiety in the workpl
 To get the best out of a Type 6 employee, it's important to provide clear guidelines and expectations, and to offer plenty of opportunities for feedback and support. Type 6s also respond well to recognition and appreciation, so it's a good idea to acknowledge their contributions and efforts regularly.
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+
 ## Behaviors and Interactions
 
 The Enneagram Type 6 personality exhibits several key behaviors and tendencies in their interactions with others:
@@ -138,7 +139,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 <div>
 <script type="application/ld+json">
     {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -327,7 +328,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

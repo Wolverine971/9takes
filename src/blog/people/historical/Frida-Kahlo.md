@@ -69,7 +69,7 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
 <div>
 <script type="application/ld+json">
   {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -98,10 +98,10 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
       "height": 60
     }
   },
-  "http://schema.org/mentions": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "Frida Kahlo",
-    "http://schema.org/sameAs": [
+  "mentions": {
+    "@type": "Person",
+    "name": "Frida Kahlo",
+    "sameAs": [
       {
         "@id": "https://en.wikipedia.org/wiki/Frida_Kahlo"
       },

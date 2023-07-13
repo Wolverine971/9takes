@@ -98,42 +98,43 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
 <div>
 <script type="application/ld+json">
   {
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the compelling energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the compelling energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-05-18"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-03-10"
       },
-      "http://schema.org/description": "A deep dive into the enneagram personality type 8 of Beyoncé, her career trajectory, assertiveness, and dedication as an embodiment of Type 8. Understand how her love and privacy reflects her move towards Type 2 and Type 5 respectively.",
-      "http://schema.org/headline": "Beyoncé: The Unyielding Powerhouse – An Enneagram Type 8",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "A deep dive into the enneagram personality type 8 of Beyoncé, her career trajectory, assertiveness, and dedication as an embodiment of Type 8. Understand how her love and privacy reflects her move towards Type 2 and Type 5 respectively.",
+      "headline": "Beyoncé: The Unyielding Powerhouse – An Enneagram Type 8",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://9takes.com/types/8s/Beyonce-Knowles.webp"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/keywords": "Beyoncé,Enneagram Type 8,Type 8, Personality Type, Beyoncé's personality, Jay-Z, privacy, love, advocacy",
-      "http://schema.org/mainEntityOfPage": {
+      "keywords": "Beyoncé,Enneagram Type 8,Type 8, Personality Type, Beyoncé's personality, Jay-Z, privacy, love, advocacy",
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Beyonce-Knowles",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/description": "Beyoncé Giselle Knowles-Carter, known mononymously as Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
-        "http://schema.org/name": "Beyoncé Knowles",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "description": "Beyoncé Giselle Knowles-Carter, aka Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
+        "name": "Beyoncé Knowles",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
           },
@@ -154,45 +155,45 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Beyoncé Knowles appears to be a Type 8 on the Enneagram, which is characterized by being self-confident, assertive, and having a desire to control their own destiny. This is evident in her artistry, activism, and career trajectory."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beyoncé Knowles appears to be a Type 8 on the Enneagram, which is characterized by being self-confident, assertive, and having a desire to control their own destiny. This is evident in her artistry, activism, and career trajectory."
           },
-          "http://schema.org/name": "What is Beyoncé's Enneagram type?"
+          "name": "What is Beyoncé's Enneagram type?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Beyoncé's music, particularly songs like 'Run the World (Girls)', encapsulates her Type 8 persona. She often asserts control and champions the capacity of women to rise above societal limitations, which aligns with the characteristics of a Type 8 on the Enneagram."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beyoncé's music, particularly songs like 'Run the World (Girls)', encapsulates her Type 8 persona. She often asserts control and champions the capacity of women to rise above societal limitations, which aligns with the characteristics of a Type 8 on the Enneagram."
           },
-          "http://schema.org/name": "How is Beyoncé's music related to her Enneagram type?"
+          "name": "How is Beyoncé's music related to her Enneagram type?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "When in a space of security and comfort, Beyoncé exhibits Type 2 'Helper' aspects, expressing empathy, warmth, and openness. This is particularly visible in her relationship with her husband, Jay-Z. In periods of stress, she exhibits traits akin to Type 5 'The Investigator', valuing her privacy and often withdrawing from the spotlight to recharge."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When in a space of security and comfort, Beyoncé exhibits Type 2 'Helper' aspects, expressing empathy, warmth, and openness. This is particularly visible in her relationship with her husband, Jay-Z. In periods of stress, she exhibits traits akin to Type 5 'The Investigator', valuing her privacy and often withdrawing from the spotlight to recharge."
           },
-          "http://schema.org/name": "How do other Enneagram types manifest in Beyoncé's personality?"
+          "name": "How do other Enneagram types manifest in Beyoncé's personality?"
         }
       ]
     }

@@ -62,9 +62,7 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 - Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their own needs for self-care. They may struggle with self-compassion and may have a hard time giving themselves permission to take a break or rest.
 - Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may struggle with being open-minded and receptive to different perspectives.
 
-
 Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
-
 
 ## Motivations
 
@@ -145,7 +143,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
 <div>
 <script type="application/ld+json">  
   {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -454,7 +452,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

@@ -184,21 +184,22 @@ blog: true
 <div>
 <script type="application/ld+json">
 {
+	"@context": "http://schema.org",
 	"@type": "FAQPage",
-	"http://schema.org/about": {
-		"@type": "http://schema.org/Thing",
-		"http://schema.org/name": "Enneagram, Team Building, Diverse Teams, Balanced Teams"
+	"about": {
+		"@type": "Thing",
+		"name": "Enneagram, Team Building, Diverse Teams, Balanced Teams"
 	},
-	"http://schema.org/author": {
-		"@type": "http://schema.org/Person",
-		"http://schema.org/name": "DJ Wayne"
+	"author": {
+		"@type": "Person",
+		"name": "DJ Wayne"
 	},
-	"http://schema.org/dateModified": {
-		"@type": "http://schema.org/Date",
+	"dateModified": {
+		"@type": "Date",
 		"@value": "2023-04-12"
 	},
-	"http://schema.org/datePublished": {
-		"@type": "http://schema.org/Date",
+	"datePublished": {
+		"@type": "Date",
 		"@value": "2023-02-10"
 	},
 	"mainEntity": [

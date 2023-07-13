@@ -126,40 +126,41 @@ If you're intrigued and wish to explore more, delve into our other articles abou
 <div>
 <script type="application/ld+json">
 	{
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "The article dives deep into Halsey's personality from the Enneagram Type 8 perspective. Halsey's resilience, boldness, and her advocacy for societal issues reflect the characteristics of Type 8. The discussion explores Halsey's music, inner world, her public controversies, and how these aspects can be traced back to her core Type 8 motivation.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "The article dives deep into Halsey's personality from the Enneagram Type 8 perspective. Halsey's resilience, boldness, and her advocacy for societal issues reflect the characteristics of Type 8. The discussion explores Halsey's music, inner world, her public controversies, and how these aspects can be traced back to her core Type 8 motivation.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-06-23"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-06-23"
       },
-      "http://schema.org/description": "This blog post delves into why Halsey may be an Enneagram Type 8. The discussion covers her personality traits, her motivations, her internal world, the controversies she's navigated, and how these aspects tie into the core attributes of a Type 8.",
-      "http://schema.org/headline": "Understanding Halsey: A Deep Dive into Her Enneagram Type 8 Personality",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "This blog post delves into why Halsey may be an Enneagram Type 8. The discussion covers her personality traits, her motivations, her internal world, the controversies she's navigated, and how these aspects tie into the core attributes of a Type 8.",
+      "headline": "Understanding Halsey: A Deep Dive into Her Enneagram Type 8 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://9takes.com/types/8s/Halsey.webp"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/mainEntityOfPage": {
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Halsey",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Halsey",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "name": "Halsey",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Halsey_(singer)"
           },
@@ -174,37 +175,37 @@ If you're intrigued and wish to explore more, delve into our other articles abou
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Halsey's authenticity, resilience, and tendency to challenge the status quo are reflective of her Enneagram Type 8 characteristics. Her bold lyrics, advocacy for marginalized groups, and her ability to navigate public controversies demonstrate her Type 8 traits."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Halsey's authenticity, resilience, and tendency to challenge the status quo are reflective of her Enneagram Type 8 characteristics. Her bold lyrics, advocacy for marginalized groups, and her ability to navigate public controversies demonstrate her Type 8 traits."
           },
-          "http://schema.org/name": "Why is Halsey considered an Enneagram Type 8?"
+          "name": "Why is Halsey considered an Enneagram Type 8?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Halsey's distinct musical style, her impact in the music industry, and her advocacy for societal issues exemplify her Type 8 traits. Her courage in expressing her vulnerabilities and standing up for her beliefs reflect the strengths and growth potential of Type 8 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Halsey's distinct musical style, her impact in the music industry, and her advocacy for societal issues exemplify her Type 8 traits. Her courage in expressing her vulnerabilities and standing up for her beliefs reflect the strengths and growth potential of Type 8 individuals."
           },
-          "http://schema.org/name": "What are some examples of Halsey's Type 8 characteristics?"
+          "name": "What are some examples of Halsey's Type 8 characteristics?"
         }
       ]
     }

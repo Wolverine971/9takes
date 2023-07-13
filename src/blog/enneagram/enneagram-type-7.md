@@ -122,7 +122,7 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
 <div>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -296,7 +296,7 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

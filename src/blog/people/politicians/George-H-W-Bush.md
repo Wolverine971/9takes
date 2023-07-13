@@ -63,39 +63,39 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
 <div>
 <script type="application/ld+json">
   {
-  "@type": "http://schema.org/Article",
-  "http://schema.org/articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@type": "Article",
+  "articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-03-10"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-03-10"
   },
-  "http://schema.org/description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life and presidency",
-  "http://schema.org/headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 800,
-    "http://schema.org/url": {
+  "description": "Explore how George H. W. Bush's personality aligns with enneagram type 6, also known as 'The Loyalist,' through examples from his life and presidency",
+  "headline": "George H. W. Bush and Enneagram Type 6: Exploring the Personality Traits of the 41st President",
+  "image": {
+    "@type": "ImageObject",
+    "height": 800,
+    "url": {
       "@id": "https://9takes.com/types/6s/George-H-W-Bush.webp"
     },
-    "http://schema.org/width": 1200
+    "width": 1200
   },
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/famous-enneagram-types/George-H-W-Bush",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/mentions": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "George H. W. Bush",
-    "http://schema.org/description": "George Herbert Walker Bush was an American politician, diplomat, and businessman who served as the 41st president of the United States from 1989 to 1993. A member of the Republican Party, Bush also served as the 43rd vice president from 1981 to 1989 under Ronald Reagan, in the U.S. House of Representatives, as U.S. Ambassador to the United Nations, and as Director of Central Intelligence.",
-    "http://schema.org/sameAs": [
+  "mentions": {
+    "@type": "Person",
+    "name": "George H. W. Bush",
+    "description": "George Herbert Walker Bush was an American politician, diplomat, and businessman who served as the 41st president of the United States from 1989 to 1993. A member of the Republican Party, Bush also served as the 43rd vice president from 1981 to 1989 under Ronald Reagan, in the U.S. House of Representatives, as U.S. Ambassador to the United Nations, and as Director of Central Intelligence.",
+    "sameAs": [
       {
         "@id": "https://en.wikipedia.org/wiki/George_H._W._Bush"
       },
@@ -107,17 +107,17 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
       }
     ]
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/height": 60,
-      "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "height": 60,
+      "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       },
-      "http://schema.org/width": 600
+      "width": 600
     },
-    "http://schema.org/name": "9takes"
+    "name": "9takes"
   }
 }
 </script>

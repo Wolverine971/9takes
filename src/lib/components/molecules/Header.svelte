@@ -38,280 +38,281 @@
 	};
 
 	const jsonldString = {
-		'@type': 'http://schema.org/SiteNavigationElement',
-		'http://schema.org/mainEntity': [
+		'@context': 'http://schema.org',
+		'@type': 'SiteNavigationElement',
+		mainEntity: [
 			{
-				'@type': 'http://schema.org/WebPage',
-				'http://schema.org/name': 'Home',
-				'http://schema.org/url': {
+				'@type': 'WebPage',
+				name: 'Home',
+				url: {
 					'@id': 'https://9takes.com/'
 				}
 			},
 			{
-				'@type': 'http://schema.org/WebPage',
-				'http://schema.org/hasPart': [
+				'@type': 'WebPage',
+				hasPart: [
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Philosophy and Psychology gave birth to the Enneagram',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Philosophy and Psychology gave birth to the Enneagram',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Enneagram TLDR',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Enneagram TLDR',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-tldr'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Concepts and Principles',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Concepts and Principles',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-concepts'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Enneagram Influences',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Enneagram Influences',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-influences'
 								}
 							}
 						],
-						'http://schema.org/name': 'Overview'
+						name: 'Overview'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 1: The Perfectionist',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 1: The Perfectionist',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-1'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 2: The Helper',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 2: The Helper',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-2'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 3: The Achiever',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 3: The Achiever',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-3'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 4: The Individualist',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 4: The Individualist',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-4'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 5: The Investigator',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 5: The Investigator',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-5'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 6: The Loyalist',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 6: The Loyalist',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-6'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 7: The Enthusiast',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 7: The Enthusiast',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-7'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 8: The Challenger',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 8: The Challenger',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-8'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Type 9: The Peacemaker',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Type 9: The Peacemaker',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-9'
 								}
 							}
 						],
-						'http://schema.org/name': '9 Types'
+						name: '9 Types'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Determining your type',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Determining your type',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-personality-test'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Self development',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Self development',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-self-development'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Strengths and weaknesses',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Strengths and weaknesses',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Growth strategies',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Growth strategies',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
 								}
 							}
 						],
-						'http://schema.org/name': 'Personal Development'
+						name: 'Personal Development'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Types in relationships',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Types in relationships',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Communication tips',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Communication tips',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Communication styles',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Communication styles',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
 								}
 							}
 						],
-						'http://schema.org/name': 'Relationships'
+						name: 'Relationships'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Team building',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Team building',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Working in teams',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Working in teams',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Team dynamics',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Team dynamics',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Team diversity',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Team diversity',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
 								}
 							}
 						],
-						'http://schema.org/name': 'Workplace'
+						name: 'Workplace'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'FAQs',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'FAQs',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-faqs'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Books, websites, and podcasts',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Books, websites, and podcasts',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
 								}
 							}
 						],
-						'http://schema.org/name': 'Resources'
+						name: 'Resources'
 					},
 					{
-						'@type': 'http://schema.org/WebPage',
-						'http://schema.org/hasPart': [
+						'@type': 'WebPage',
+						hasPart: [
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Types at a party',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Types at a party',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Impact of ghosting',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Impact of ghosting',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Navigating stress',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Navigating stress',
+								url: {
 									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
 								}
 							},
 							{
-								'@type': 'http://schema.org/WebPage',
-								'http://schema.org/name': 'Analysis of famous people',
-								'http://schema.org/url': {
+								'@type': 'WebPage',
+								name: 'Analysis of famous people',
+								url: {
 									'@id': '/blog/famous-enneagram-types'
 								}
 							}
 						],
-						'http://schema.org/name': 'Situational Topics'
+						name: 'Situational Topics'
 					}
 				],
-				'http://schema.org/name': 'Enneagram Blog',
-				'http://schema.org/url': {
+				name: 'Enneagram Blog',
+				url: {
 					'@id': 'https://9takes.com/blog/'
 				}
 			},
 			{
-				'@type': 'http://schema.org/WebPage',
-				'http://schema.org/name': 'About',
-				'http://schema.org/url': {
+				'@type': 'WebPage',
+				name: 'About',
+				url: {
 					'@id': 'https://9takes.com/about'
 				}
 			}

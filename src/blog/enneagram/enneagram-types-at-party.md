@@ -81,6 +81,7 @@ Type 6s are often the most cautious and responsible people at the party, making 
 At a party, Type 7s are often the most energetic and adventurous people, trying new things and enjoying every moment. They're likely to be found on the dance floor, trying new foods, and making new connections. Type 7s are attending the party because they want to have fun and experience new things. They're looking forward to having a good time and sharing stories.
 
 [More on type 7s](/blog/enneagram/enneagram-type-7)
+
 ### Type 8 - The Challenger
 
 At a party, Type 8s are likely to be found leading the charge, taking charge of the situation, and asserting themselves in conversations. They're often the loudest and most dominant people at the party, but they're also the most protective of their friends. Type 8s are attending the party because they want to have fun and enjoy themselves, but they also want to make sure that their friends are safe and taken care of. They're looking forward to having a good time and taking charge of the situation if necessary.
@@ -97,43 +98,44 @@ Each type has its unique characteristics and motivations for attending the party
 
 <div>
 <script type="application/ld+json">{
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/articleBody": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ"
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "articleBody": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-07-12T00:00:00-07:00"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-02-17T00:00:00-07:00"
   },
-  "http://schema.org/description": "Discover are different types doing, thinking, feeling at a party.",
-  "http://schema.org/headline": "Enneagram Types at a Party: How Each Type Behaves",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 800,
-    "http://schema.org/url": {
+  "description": "Discover are different types doing, thinking, feeling at a party.",
+  "headline": "Enneagram Types at a Party: How Each Type Behaves",
+  "image": {
+    "@type": "ImageObject",
+    "height": 800,
+    "url": {
       "@id": "https://9takes.com/blogs/party-in-street.webp"
     },
-    "http://schema.org/width": 1200
+    "width": 1200
   },
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       }
     },
-    "http://schema.org/name": "9Takes"
+    "name": "9takes"
   }
 }
 </script>

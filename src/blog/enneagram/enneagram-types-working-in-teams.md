@@ -126,44 +126,45 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
 
 <div>
 <script type="application/ld+json">{
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/articleBody": "Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "articleBody": "Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-03-25"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-03-25"
   },
-  "http://schema.org/description": "Learn how to effectively communicate, collaborate, and give feedback to each Enneagram type to help contribute to the team's success.",
-  "http://schema.org/headline": "Understanding how different Enneagram types work together in teams",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": "630",
-    "http://schema.org/url": {
+  "description": "Learn how to effectively communicate, collaborate, and give feedback to each Enneagram type to help contribute to the team's success.",
+  "headline": "Understanding how different Enneagram types work together in teams",
+  "image": {
+    "@type": "ImageObject",
+    "height": "630",
+    "url": {
       "@id": "https://9takes.com/blogs/team-building.webp"
     },
-    "http://schema.org/width": "1200"
+    "width": "1200"
   },
-  "http://schema.org/keywords": "Enneagram, personality types, team building, leadership development, communication, collaboration",
-  "http://schema.org/mainEntityOfPage": {
+  "keywords": "Enneagram, personality types, team building, leadership development, communication, collaboration",
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-working-in-teams",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       }
     },
-    "http://schema.org/name": "9Takes"
+    "name": "9takes"
   }
 }
 </script>

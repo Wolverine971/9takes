@@ -179,7 +179,6 @@ could bring. To cope with these feelings, Sevens may benefit from finding new ho
 activities to fill their time and bring joy. They may also want to focus on self-compassion
 and self-care, reminding themselves that they are worthy of love and respect.
 
-
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
   </section>
@@ -237,39 +236,39 @@ experiences it differently. By understanding how each Enneagram type may experie
 insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
 possible with self-compassion and care.
 
-
 <div>
 <script type="application/ld+json">
   {
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma.",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-03-01T00:00:00-07:00"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-02-17T00:00:00-07:00"
   },
-  "http://schema.org/description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
-  "http://schema.org/headline": "Ghosting and the Enneagram: How Each Type Responds",
-  "http://schema.org/mainEntityOfPage": {
+  "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
+  "headline": "Ghosting and the Enneagram: How Each Type Responds",
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/logo": {
-      "@type": "http://schema.org/ImageObject",
-      "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
       }
     },
-    "http://schema.org/name": "9Takes"
+    "name": "9takes"
   }
 }
 </script>

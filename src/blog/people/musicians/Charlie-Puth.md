@@ -110,40 +110,41 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
 <div>
 <script type="application/ld+json">
 {
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article delves into the personality traits of Charlie Puth from the perspective of the Enneagram Type 4. Known for his emotional depth, artistic authenticity, and search for uniqueness, Puth embodies many characteristics of Type 4 personalities. The article discusses various aspects of Puth's life and career that demonstrate his Type 4 traits, including his musical journey, emotional expressions, and controversies.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "This article delves into the personality traits of Charlie Puth from the perspective of the Enneagram Type 4. Known for his emotional depth, artistic authenticity, and search for uniqueness, Puth embodies many characteristics of Type 4 personalities. The article discusses various aspects of Puth's life and career that demonstrate his Type 4 traits, including his musical journey, emotional expressions, and controversies.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/description": "This blog post examines the reasons why Charlie Puth might be an Enneagram Type 4. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 4.",
-      "http://schema.org/headline": "Exploring Charlie Puth: An Insight Into His Enneagram Type 4 Personality",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "This blog post examines the reasons why Charlie Puth might be an Enneagram Type 4. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 4.",
+      "headline": "Exploring Charlie Puth: An Insight Into His Enneagram Type 4 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://9takes.com/types/4s/Charlie-Puth.webp"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/mainEntityOfPage": {
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Charlie-Puth",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Charlie Puth",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "name": "Charlie Puth",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Charlie_Puth"
           },
@@ -158,53 +159,53 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Charlie Puth exhibits many characteristics associated with Enneagram Type 4 personalities. This includes his emotional depth, quest for authenticity, and need for uniqueness. These traits are deeply rooted in his desire to understand himself and express his true identity, which are core motivations for Type 4 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charlie Puth exhibits many characteristics associated with Enneagram Type 4 personalities. This includes his emotional depth, quest for authenticity, and need for uniqueness. These traits are deeply rooted in his desire to understand himself and express his true identity, which are core motivations for Type 4 individuals."
           },
-          "http://schema.org/name": "Why is Charlie Puth considered an Enneagram Type 4?"
+          "name": "Why is Charlie Puth considered an Enneagram Type 4?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Puth's emotive music, his genuine portrayal of emotions, and his ability to turn personal struggles into art are all indicative of his Type 4 personality. His dedication to artistic authenticity and uniqueness also reflects the strengths and growth potential of Type 4 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puth's emotive music, his genuine portrayal of emotions, and his ability to turn personal struggles into art are all indicative of his Type 4 personality. His dedication to artistic authenticity and uniqueness also reflects the strengths and growth potential of Type 4 individuals."
           },
-          "http://schema.org/name": "What are some examples of Charlie Puth's Type 4 characteristics?"
+          "name": "What are some examples of Charlie Puth's Type 4 characteristics?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Charlie Puth is known for his depth and authenticity. He is creative, emotionally rich, and is known for expressing complex emotions through his music. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charlie Puth is known for his depth and authenticity. He is creative, emotionally rich, and is known for expressing complex emotions through his music. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
           },
-          "http://schema.org/name": "What is Charlie Puth's personality?"
+          "name": "What is Charlie Puth's personality?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Charlie Puth is an Enneagram type 4, also known as The Individualist. This Enneagram type is emotionally honest, creative, and personal, often motivated by a desire to be unique and authentic. Please note that this information is based on public information and not directly confirmed by Charlie Puth himself."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Charlie Puth is an Enneagram type 4, also known as The Individualist. This Enneagram type is emotionally honest, creative, and personal, often motivated by a desire to be unique and authentic. Please note that this information is based on public information and not directly confirmed by Charlie Puth himself."
           },
-          "http://schema.org/name": "What is Charlie Puth's Enneagram type?"
+          "name": "What is Charlie Puth's Enneagram type?"
         }
       ]
     }

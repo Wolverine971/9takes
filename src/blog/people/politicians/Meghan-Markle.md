@@ -79,7 +79,7 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
 
 <div>
 <script type="application/ld+json">{
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",

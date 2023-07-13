@@ -144,40 +144,40 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   "@context": "http://schema.org",
   "@graph": [
 {
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@type": "BlogPosting",
+  "articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-04-15"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-05-10"
   },
-  "http://schema.org/description": "Understanding your strengths and weaknesses",
-  "http://schema.org/headline": "Enneagram strengths and weaknesses",
-  "http://schema.org/keywords": [
+  "description": "Understanding your strengths and weaknesses",
+  "headline": "Enneagram strengths and weaknesses",
+  "keywords": [
     "Enneagram",
     "strengths",
     "weaknesses",
     "personal growth"
   ],
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/name": "9takes",
-    "http://schema.org/url": {
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes",
+    "url": {
       "@id": "https://9takes.com"
     }
   },
-  "http://schema.org/url": {
+  "url": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
   }
 },

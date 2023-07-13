@@ -159,40 +159,41 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
 <div>
 <script type="application/ld+json">
 	{
+  "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article examines the personality of Demi Lovato, widely thought to align with the Enneagram Type 4. Known for her authenticity, self-expression, and emotional depth, Demi embodies many characteristics of Type 4 personalities. The article delves into Demi's personal life, career, controversies, and daily struggles, all in relation to her Type 4 characteristics.",
-      "http://schema.org/author": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "DJ Wayne"
+      "@type": "Article",
+      "articleBody": "This article examines the personality of Demi Lovato, widely thought to align with the Enneagram Type 4. Known for her authenticity, self-expression, and emotional depth, Demi embodies many characteristics of Type 4 personalities. The article delves into Demi's personal life, career, controversies, and daily struggles, all in relation to her Type 4 characteristics.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne"
       },
-      "http://schema.org/dateModified": {
-        "@type": "http://schema.org/Date",
+      "dateModified": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/datePublished": {
-        "@type": "http://schema.org/Date",
+      "datePublished": {
+        "@type": "Date",
         "@value": "2023-06-22"
       },
-      "http://schema.org/description": "This blog post explores Demi Lovato as a possible Enneagram Type 4. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these aspects might tie into the fundamental attributes of a Type 4.",
-      "http://schema.org/headline": "Demi Lovato: A Deep Dive into Her Enneagram Type 4 Personality",
-      "http://schema.org/image": {
-        "@type": "http://schema.org/ImageObject",
-        "http://schema.org/height": 800,
-        "http://schema.org/url": {
+      "description": "This blog post explores Demi Lovato as a possible Enneagram Type 4. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these aspects might tie into the fundamental attributes of a Type 4.",
+      "headline": "Demi Lovato: A Deep Dive into Her Enneagram Type 4 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
           "@id": "https://imagelink.com/DemiLovato.jpg"
         },
-        "http://schema.org/width": 1200
+        "width": 1200
       },
-      "http://schema.org/mainEntityOfPage": {
+      "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Demi-Lovato",
-        "@type": "http://schema.org/WebPage"
+        "@type": "WebPage"
       },
-      "http://schema.org/mentions": {
-        "@type": "http://schema.org/Person",
-        "http://schema.org/name": "Demi Lovato",
-        "http://schema.org/sameAs": [
+      "mentions": {
+        "@type": "Person",
+        "name": "Demi Lovato",
+        "sameAs": [
           {
             "@id": "https://en.wikipedia.org/wiki/Demi_Lovato"
           },
@@ -204,53 +205,53 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
           }
         ]
       },
-      "http://schema.org/publisher": {
-        "@type": "http://schema.org/Organization",
-        "http://schema.org/logo": {
-          "@type": "http://schema.org/ImageObject",
-          "http://schema.org/height": 60,
-          "http://schema.org/url": {
+      "publisher": {
+        "@type": "Organization",
+        "logo": {
+          "@type": "ImageObject",
+          "height": 60,
+          "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
           },
-          "http://schema.org/width": 600
+          "width": 600
         },
-        "http://schema.org/name": "9takes"
+        "name": "9takes"
       }
     },
     {
-      "@type": "http://schema.org/FAQPage",
-      "http://schema.org/mainEntity": [
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Demi Lovato exhibits many characteristics associated with Enneagram Type 4 personalities. These include her authenticity, emotional transparency, quest for uniqueness, and her ability to turn her struggles into art. These characteristics are deeply rooted in her desire for individuality and self-understanding."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demi Lovato exhibits many characteristics associated with Enneagram Type 4 personalities. These include her authenticity, emotional transparency, quest for uniqueness, and her ability to turn her struggles into art. These characteristics are deeply rooted in her desire for individuality and self-understanding."
           },
-          "http://schema.org/name": "Why is Demi Lovato considered an Enneagram Type 4?"
+          "name": "Why is Demi Lovato considered an Enneagram Type 4?"
         },
         {
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Demi's talent in music, her expressiveness, and her ability to openly discuss her mental health issues are all indicative of her Type 4 personality. Her continuous pursuit of authenticity and her dedication to understanding herself also reflect the strengths and growth potential of Type 4 individuals."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demi's talent in music, her expressiveness, and her ability to openly discuss her mental health issues are all indicative of her Type 4 personality. Her continuous pursuit of authenticity and her dedication to understanding herself also reflect the strengths and growth potential of Type 4 individuals."
           },
-          "http://schema.org/name": "What are some examples of Demi Lovato's Type 4 characteristics?"
+          "name": "What are some examples of Demi Lovato's Type 4 characteristics?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Demi Lovato is known for her authenticity, emotional transparency, and her ability to turn her struggles into art. She seeks uniqueness and individuality. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demi Lovato is known for her authenticity, emotional transparency, and her ability to turn her struggles into art. She seeks uniqueness and individuality. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
           },
-          "http://schema.org/name": "What is Demi Lovato's personality?"
+          "name": "What is Demi Lovato's personality?"
         },
 		{
-          "@type": "http://schema.org/Question",
-          "http://schema.org/acceptedAnswer": {
-            "@type": "http://schema.org/Answer",
-            "http://schema.org/text": "Demi Lovato is an Enneagram type 4, also known as The Individualist. This Enneagram type is characterized by a desire for uniqueness, authenticity, and self-understanding. Please note that this information is based on public information and not directly confirmed by Demi Lovato herself."
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Demi Lovato is an Enneagram type 4, also known as The Individualist. This Enneagram type is characterized by a desire for uniqueness, authenticity, and self-understanding. Please note that this information is based on public information and not directly confirmed by Demi Lovato herself."
           },
-          "http://schema.org/name": "What is Demi Lovato's Enneagram type?"
+          "name": "What is Demi Lovato's Enneagram type?"
         }
       ]
     }

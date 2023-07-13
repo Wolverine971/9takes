@@ -8,7 +8,7 @@
 	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 
 	let jsonldString = {
-		'@context': 'https://schema.org',
+		'@context': 'http://schema.org',
 		'@type': 'Blog',
 		name: title,
 		url: `https://9takes.com/${slug}`,
@@ -17,7 +17,7 @@
 	};
 
 	// let jsonld = {
-	// 	'@context': 'https://schema.org',
+	// 	'@context': '',
 	// 	'@type': 'Blog',
 	// 	name: 'This-Is-Why-Not-Everyone-Agrees-With-You',
 	// 	url: 'https://9takes.comThis-Is-Why-Not-Everyone-Agrees-With-You',
@@ -36,5 +36,5 @@
 	<meta property="og:description" content={description} />
 	<meta name="description" content={description || title} />
 
-	{@html `<script type="application/ld+json">${jsonld}</script>`}
+	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

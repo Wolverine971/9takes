@@ -122,7 +122,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
 <div>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
@@ -301,7 +301,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9Takes"
+        "name": "9takes"
       }
     }
   ]

@@ -46,7 +46,7 @@ Enneagram and Plato
 9 threads through the fabric of history -->
 
 <p class="firstLetter">Philosophy and Psychology, lets get poetic.</p>
- 
+
  In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll embark on a deep dive into how core emotions sculpt these intelligence centers, aiding us to navigate the internal landscapes of our minds with newfound understanding and compassion. So, fasten your seatbelts as we journey through layers of psychological philosophy, unraveling the strands that interweave to create the compelling framework that is the Enneagram.
 
 ## The Enneagram's Roots in Philosophy
@@ -109,46 +109,47 @@ In essence, the Enneagram offers a framework for personal development that is de
 
 <div>
 <script type="application/ld+json">{
-  "@type": "http://schema.org/BlogPosting",
-  "http://schema.org/author": {
-    "@type": "http://schema.org/Person",
-    "http://schema.org/name": "DJ Wayne"
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
   },
-  "http://schema.org/citation": [
+  "citation": [
     {
-      "@type": "http://schema.org/WebPage",
-      "http://schema.org/name": "Sigmund Freud",
-      "http://schema.org/url": {
+      "@type": "WebPage",
+      "name": "Sigmund Freud",
+      "url": {
         "@id": "https://www.britannica.com/biography/Sigmund-Freud"
       }
     },
     {
-      "@type": "http://schema.org/WebPage",
-      "http://schema.org/name": "Plato",
-      "http://schema.org/url": {
+      "@type": "WebPage",
+      "name": "Plato",
+      "url": {
         "@id": "https://plato.stanford.edu/entries/plato/"
       }
     }
   ],
-  "http://schema.org/dateModified": {
-    "@type": "http://schema.org/Date",
+  "dateModified": {
+    "@type": "Date",
     "@value": "2023-07-11"
   },
-  "http://schema.org/datePublished": {
-    "@type": "http://schema.org/Date",
+  "datePublished": {
+    "@type": "Date",
     "@value": "2023-07-11"
   },
-  "http://schema.org/description": "Freud and Plato stumble on the Enneagram",
-  "http://schema.org/headline": "Philosophy and Psychology Gave Birth to the Enneagram",
-  "http://schema.org/image": {
-    "@type": "http://schema.org/ImageObject",
-    "http://schema.org/height": 1200,
-    "http://schema.org/url": {
+  "description": "Freud and Plato stumble on the Enneagram",
+  "headline": "Philosophy and Psychology Gave Birth to the Enneagram",
+  "image": {
+    "@type": "ImageObject",
+    "height": 1200,
+    "url": {
       "@id": "https://9takes.com/blogs/freud-plato.webp"
     },
-    "http://schema.org/width": 630
+    "width": 630
   },
-  "http://schema.org/keywords": [
+  "keywords": [
     "Enneagram",
     "Plato",
     "Freud",
@@ -163,15 +164,15 @@ In essence, the Enneagram offers a framework for personal development that is de
     "human psyche",
     "human soul"
   ],
-  "http://schema.org/mainEntityOfPage": {
+  "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram",
-    "@type": "http://schema.org/WebPage"
+    "@type": "WebPage"
   },
-  "http://schema.org/mentions": [
+  "mentions": [
     {
-      "@type": "http://schema.org/Person",
-      "http://schema.org/name": "Plato",
-      "http://schema.org/sameAs": [
+      "@type": "Person",
+      "name": "Plato",
+      "sameAs": [
         {
           "@id": "https://en.wikipedia.org/wiki/Plato"
         },
@@ -181,9 +182,9 @@ In essence, the Enneagram offers a framework for personal development that is de
       ]
     },
     {
-      "@type": "http://schema.org/Person",
-      "http://schema.org/name": "Sigmund Freud",
-      "http://schema.org/sameAs": [
+      "@type": "Person",
+      "name": "Sigmund Freud",
+      "sameAs": [
         {
           "@id": "https://en.wikipedia.org/wiki/Sigmund_Freud"
         },
@@ -193,9 +194,9 @@ In essence, the Enneagram offers a framework for personal development that is de
       ]
     }
   ],
-  "http://schema.org/publisher": {
-    "@type": "http://schema.org/Organization",
-    "http://schema.org/name": "9takes"
+  "publisher": {
+    "@type": "Organization",
+    "name": "9takes"
   }
 }
 </script>

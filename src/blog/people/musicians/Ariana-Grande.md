@@ -104,7 +104,7 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
 <div>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",
