@@ -188,7 +188,7 @@ Better yet, why not become part of a community that values introspective explora
             "@type": "Answer",
             "text": "Oprah Winfrey is believed to be an Enneagram type 2, which is often referred to as the Helper. This means she's naturally caring, interpersonal, and interested in people. Her desire to help others and make a difference in the world aligns well with this Enneagram type."
           },
-          "name": What is Oprah Winfrey's Enneagram type?"
+          "name": "What is Oprah Winfrey's Enneagram type?"
         }
       ]
     }

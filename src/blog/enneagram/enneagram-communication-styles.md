@@ -552,77 +552,77 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
   "@context": "http://schema.org",
   "@graph": [
     {
-      "@type": BlogPosting",
+      "@type": "BlogPosting",
       "articleBody": "Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.",
       "author": {
-        "@type": Person",
+        "@type": "Person",
         "name": "DJ Wayne"
       },
       "dateModified": {
-        "@type": Date",
+        "@type": "Date",
         "@value": "2023-07-13"
       },
       "datePublished": {
-        "@type": Date",
+        "@type": "Date",
         "@value": "2023-03-26"
       },
       "description": "Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.",
       "headline": "Enneagram Communication Styles",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-communication-styles",
-        "@type": WebPage"
+        "@type": "WebPage"
       },
       "publisher": {
-        "@type": Organization",
+        "@type": "Organization",
         "articleSection": [
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Ones have a precise communication style and value clarity and order.",
             "headline": "Enneagram 1 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Twos have a warm and nurturing communication style",
             "headline": "Enneagram 2 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Threes have an assertive and goal-oriented communication style.",
             "headline": "Enneagram 3 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Fours have a unique and expressive communication style.",
             "headline": "Enneagram 4 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Fives have a thoughtful and private communication style",
             "headline": "Enneagram 5 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Sixes have a cautious and loyal communication style.",
             "headline": "Enneagram 6 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Sevens have an energetic and optimistic communication style.",
             "headline": "Enneagram 7 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Eights have a direct and assertive communication style.",
             "headline": "Enneagram 8 Communication Style"
           },
           {
-            "@type": BlogPosting",
+            "@type": "BlogPosting",
             "description": "Nines have a peaceful and harmonious communication style.",
             "headline": "Enneagram 9 Communication Style"
           }
         ],
         "logo": {
-          "@type": ImageObject",
+          "@type": "ImageObject",
           "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
@@ -633,76 +633,76 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       }
     },
     {
-      "@type": FAQPage",
+      "@type": "FAQPage",
       "mainEntity": [
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Ones have a precise communication style and value clarity and order."
           },
           "name": "What is the Enneagram 1 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Twos have a warm and nurturing communication style."
           },
           "name": "What is the Enneagram 2 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Threes have an assertive and goal-oriented communication style."
           },
           "name": "What is the Enneagram 3 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Fours have a unique and expressive communication style."
           },
           "name": "What is the Enneagram 4 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Fives have a thoughtful and private communication style."
           },
           "name": "What is the Enneagram 5 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Sixes have a cautious and loyal communication style."
           },
           "name": "What is the Enneagram 6 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Sevens have an energetic and optimistic communication style."
           },
           "name": "What is the Enneagram 7 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Eights have a direct and assertive communication style."
           },
           "name": "What is the Enneagram 8 Communication Style?"
         },
         {
-          "@type": Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "@type": Answer",
+            "@type": "Answer",
             "text": "Nines have a peaceful and harmonious communication style."
           },
           "name": "What is the Enneagram 9 Communication Style?"
