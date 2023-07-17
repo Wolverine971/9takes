@@ -22,14 +22,12 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={7} />
+<p class="firstLetter">Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.</p> 
+
 
 <br>
+<Carousel type={7} gridDisplay={true} />
 <br>
-
-## Enneagram Type 7 Overview
-
-Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.
 
 ## Characteristics
 
@@ -135,7 +133,7 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
         "Highly adaptable and great problem-solvers",
         "Struggle with commitment and follow-through"
       ],
-      "description": "Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.",
+      "description": "Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to over commit, as they have a fear of missing out on anything exciting.",
       "fears": [
         "Being unfulfilled, trapped, deprived",
         "Missing out on experiences or opportunities",

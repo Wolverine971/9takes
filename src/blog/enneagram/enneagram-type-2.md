@@ -21,14 +21,12 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={2} />
+
+<p class="firstLetter">At our core, we all want to be loved and appreciated. But for Enneagram Type 2 individuals, this desire is taken to another level. Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls.</p>
 
 <br>
+<Carousel type={2} gridDisplay={true} />
 <br>
-
-## Enneagram Type 2 Overview
-
-At our core, we all want to be loved and appreciated. But for Enneagram Type 2 individuals, this desire is taken to another level. Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls.
 
 ## Characteristics
 

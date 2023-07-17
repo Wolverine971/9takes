@@ -22,14 +22,11 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={8} />
+<p class="firstLetter">Type 8, also known as The Challenger, is a personality type characterized by their assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.</p>
 
 <br>
+<Carousel type={8} gridDisplay={true}/>
 <br>
-
-## Enneagram Type 8 Overview
-
-Type 8, also known as The Challenger, is a personality type characterized by their assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.
 
 ## Characteristics
 

@@ -22,13 +22,12 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={1} />
-<br>
-<br>
+<p class="firstLetter">The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three types in the Action Center/ Gut Triad. People of this type are driven by a desire to live up to their high ideals and principles, and to make the world a better place through their actions.</p>
 
-## Enneagram Type 1 Overview
 
-The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three types in the Action Center/ Gut Triad. People of this type are driven by a desire to live up to their high ideals and principles, and to make the world a better place through their actions.
+<br>
+<Carousel type={1} gridDisplay={true} />
+<br>
 
 ## Characteristics
 

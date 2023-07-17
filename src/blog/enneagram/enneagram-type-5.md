@@ -22,14 +22,13 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={5} />
+<p class="firstLetter">Type 5's are know as the "observer" or the "investigator". They are known for their analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.</p>
+
 
 <br>
+<Carousel type={5} gridDisplay={true}/>
 <br>
 
-## Enneagram Type 5 Overview
-
-Type 5's are know as the "observer" or the "investigator". They are known for their analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.
 
 ## Characteristics
 
