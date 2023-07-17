@@ -9,18 +9,17 @@
 
 	let password = '';
 	const reset = async ({}) => {
-		const { data, error } = await supabase.auth.updateUser({ password });
+		const { data, error: resetError } = await supabase.auth.updateUser({ password });
 
-		if (data) {
+		if (resetError) {
+			if (resetError?.msg) {
+				console.log(resetError?.msg);
+			}
+			console.log(resetError);
+			notifications.danger('Error Changeing Password', 3000);
+		} else if (data) {
 			redirect(300, 'questions');
 			notifications.success('Password Changed', 3000);
-		}
-
-		if (error) {
-			if (error?.msg) {
-				notifications.danger('Error Changeing Password', 3000);
-			}
-			console.log(error);
 		}
 	};
 </script>

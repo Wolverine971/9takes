@@ -32,8 +32,8 @@ export const load: PageServerLoad = async (event) => {
 			// events: res.data,
 			session: await getServerSession(event)
 		};
-	} catch (error) {
-		console.log(error);
+	} catch (e) {
+		console.log(e);
 	}
 };
 

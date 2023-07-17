@@ -8,21 +8,20 @@
 
 	let email = '';
 	const reset = async ({}) => {
-		const { data, error } = await supabase.auth.resetPasswordForEmail(email);
+		const { data, error: forgotPassResetError } = await supabase.auth.resetPasswordForEmail(email);
 		if (data) {
 			redirect(300, 'login');
 			// const showToast = () => {
 			notifications.info('Check your email', 6000);
 		}
 
-		if (error) {
-			if (error?.msg) {
-				notifications.danger(data?.msg, 6000);
-			} else {
-				notifications.danger('Error resetting password', 6000);
+		if (forgotPassResetError) {
+			if (forgotPassResetError?.msg) {
+				console.log(forgotPassResetError.msg);
 			}
+			notifications.danger('Error resetting password', 6000);
 
-			console.log(error);
+			console.log(forgotPassResetError);
 		}
 	};
 </script>

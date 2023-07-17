@@ -1,19 +1,20 @@
 import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+// import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import { error } from '@sveltejs/kit';
 import { elasticClient } from '$lib/elasticSearch';
 
-import type { Actions, PageLoad } from './$types';
+import type { Actions } from './$types';
+import type { PageServerLoad } from './$types';
 
-/** @type {import('./$types').PageLoad} */
-export const load: PageServerLoad = async (event): Promise<{ questions: any; count: number }> => {
+
+export const load: PageServerLoad = async (): Promise<{ questions: any; count: number | null }> => {
 	try {
 		const {
 			data: questions,
 			error: findQuestionsError,
 			count
-		} = await supabase.from('questions').select('*', { count: 'estimated' }).limit(20);
+		} = await supabase.from('questions').select('*', { count: 'estimated' }).order('created_at', { ascending: false }).limit(20)
 
 		if (findQuestionsError) {
 			throw error(500, {
@@ -24,8 +25,8 @@ export const load: PageServerLoad = async (event): Promise<{ questions: any; cou
 			questions,
 			count
 		};
-	} catch (error) {
-		console.log(error);
+	} catch (e) {
+		console.log(e);
 		throw error(500, {
 			message: 'Error finding questions'
 		});

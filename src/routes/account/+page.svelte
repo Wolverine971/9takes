@@ -20,9 +20,9 @@
 	enneagram = data?.user?.enneagram;
 
 	const submitLogout: SubmitFunction = async ({ cancel }) => {
-		const { error } = await supabase.auth.signOut();
-		if (error) {
-			console.log(error);
+		const { error: signOutError } = await supabase.auth.signOut();
+		if (signOutError) {
+			console.log(signOutError);
 			cancel();
 		}
 		// else {

@@ -9,9 +9,9 @@
 	// export let data: PageData;
 	export let data: PageData;
 	const submitLogout: SubmitFunction = async ({ cancel }) => {
-		const { error } = await supabase.auth.signOut();
-		if (error) {
-			console.log(error);
+		const { error: logoutError } = await supabase.auth.signOut();
+		if (logoutError) {
+			console.log(logoutError);
 		}
 		cancel();
 	};
