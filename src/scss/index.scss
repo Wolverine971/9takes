@@ -475,7 +475,8 @@ a.disabled {
 }
 section {
 	flex-basis: calc(50% - 20px);
-	margin-bottom: 20px;
+	margin: var(--block-spacing-vertical) 0;
+	padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
 	padding: 10px;
 	background-color: #f2f2f2;
 	border: var(--classic-border);
@@ -490,5 +491,12 @@ section {
 
 	.flex-columns {
 		margin: 0 !important;
+	}
+}
+
+@media all and (max-width: 576px) {
+	section {
+		margin: 1rem 0;
+		padding: 1rem 1rem;
 	}
 }

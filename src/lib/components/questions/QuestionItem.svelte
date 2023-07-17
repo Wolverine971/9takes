@@ -1,5 +1,5 @@
 <script lang="ts">
-	import CommentsIcon from '../icons/commentsIcon.svelte';
+	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 
 	export let questionData: any;
 	console.log(questionData);
@@ -17,8 +17,16 @@
 	</p>
 	<div class="small-div">
 		<span style="display: flex; justify-content: space-between;">
-			{questionData.comment_count}
-			<CommentsIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			{#if questionData.comment_count}
+				{questionData.comment_count}
+			{/if}
+			<!-- <CommentsIcon  /> -->
+			<MasterCommentIcon
+				iconStyle={'margin-left: .5rem'}
+				height={'1.5rem'}
+				fill={questionData.comment_count ? '#5407d9' : ''}
+				type={questionData.comment_count ? 'multiple' : 'empty'}
+			/>
 		</span>
 		<span class="date-span">
 			{newdate}
@@ -28,6 +36,7 @@
 
 <style lang="scss">
 	.question-display {
+		word-break: break-word;
 		align-self: flex-start;
 	}
 	.date-span {
@@ -60,5 +69,16 @@
 	}
 	.question-card:hover {
 		background-color: var(--color-theme-purple-v);
+	}
+
+	@media all and (max-width: 576px) {
+		.small-div {
+			flex-direction: column;
+			margin: 1rem;
+			width: 20%;
+		}
+		.question-display {
+			width: 80%;
+		}
 	}
 </style>

@@ -91,8 +91,4 @@
 
 		margin: 0.25rem;
 	}
-	.tablinks {
-		display: flex;
-		margin: 0.25rem;
-	}
 </style>

@@ -40,7 +40,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 
 > **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Miley Cyrus.
 
-<p class="firstLetter">She's been in your headphones, on your screens, and splashed across headlines. The eccentric and provocative Miley Cyrus, a force to reckon with in the pop music industry, continues to fascinate us with her evolving persona. In our endeavor to understand the nuances of personalities, we venture into an unexplored realm - is Miley Cyrus a classic Enneagram Type 7?</p>
+<p class="firstLetter">She's been in your headphones, on your screens, and splashed across headlines. The eccentric and provocative Miley Cyrus, a force to reckon with in the pop music industry, continues to fascinate us with her evolving persona. In our try to understand the nuances of personalities, we venture into an unexplored realm - is Miley Cyrus a classic Enneagram Type 7?</p>
 
 ## Miley Cyrus: The Enthusiast?
 
