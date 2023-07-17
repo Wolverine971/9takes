@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	/* -- Glow effect -- */
 
 	export let image: string = 'cyber-campfire.webp';
@@ -100,22 +100,6 @@
 	</div>
 </div>
 
-<!-- <div id="blob"></div>
-<div id="blur"></div>
-
-<div id="links">
-  
-</div><div class="pop-card">  
-  <div class="pop-card-image"></div>  
-  <div class="pop-card-overlay"></div>  
-  <div class="pop-card-content">
-    <i class="pop-card-icon fa-brands fa-codepen"></i>
-    <div class="pop-card-user">
-      <span class="name" data-value="CODEPEN">CODEPEN</span>
-      <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a>
-    </div>
-  </div>
-</div> -->
 <style lang="scss">
 	.profileFace {
 		background-position: center !important;
@@ -125,10 +109,6 @@
 		animation: pan-image 15s linear infinite;
 	}
 	:root {
-		/* --background-rgb: 29 30 34;
-
-		--purple-rbg: 33 150 243; */
-
 		--background-rgb: 114 33 243;
 		--purple-rbg: 114 33 243;
 		--primary-rgb: var(--purple-rbg);
@@ -141,14 +121,6 @@
 		box-sizing: border-box;
 	}
 
-	/* body {
-		height: 100vh;
-		display: grid;
-		place-items: center;
-		background-color: rgb(var(--background-rgb));
-		margin: 0rem;
-		overflow: hidden;
-	} */
 	@media (min-width: 500px) {
 		.pop-card {
 			/* width: 500px; */
@@ -179,24 +151,6 @@
 			filter: none !important;
 		}
 	}
-
-	.pop-card:after,
-	/* .pop-card:before {
-		content: '';
-		height: 5px;
-		position: absolute;
-		z-index: 4;
-		left: 50%;
-		translate: -50% 0%;
-		background-color: white;
-	}
-
-	.pop-card:before {
-		width: 15%;
-		top: 0rem;
-		border-bottom-left-radius: 1rem;
-		border-bottom-right-radius: 1rem;
-	} */
 
 	.pop-card:after {
 		width: 25%;
@@ -339,23 +293,6 @@
 		position: relative;
 	}
 
-	/* .pop-card > .pop-card-content > .pop-card-user:before,
-	.pop-card > .pop-card-content > .pop-card-user:after {
-		content: '';
-		position: absolute;
-		top: 0px;
-		background-color: rgb(var(--primary-rgb));
-		border-radius: 1rem;
-		box-shadow: 0px 0px 8px 3px rgb(var(--primary-rgb) / 60%);
-	}
-
-	.pop-card > .pop-card-content > .pop-card-user:before {
-		height: 2px;
-		width: 50px;
-		translate: -20px -1rem;
-		opacity: 0.75;
-	} */
-
 	.pop-card > .pop-card-content > .pop-card-user:after {
 		height: 3px;
 		width: 30px;
@@ -375,26 +312,6 @@
 		font-weight: 400;
 		margin: 1rem;
 	}
-
-	/* .pop-card > .pop-card-content > .pop-card-user > .name-pop:before,
-	.pop-card > .pop-card-content > .pop-card-user > .name-pop:after {
-		content: '';
-		height: 4px;
-		width: 4px;
-		position: absolute;
-		border: 2px solid white;
-		border-radius: 2px;
-	}
-
-	.pop-card > .pop-card-content > .pop-card-user > .name-pop:before {
-		top: 55%;
-		right: -1.5rem;
-	}
-
-	.pop-card > .pop-card-content > .pop-card-user > .name-pop:after {
-		top: 45%;
-		left: -1.5rem;
-	} */
 
 	.pop-card > .pop-card-content > .pop-card-user > .link {
 		opacity: 0.8;

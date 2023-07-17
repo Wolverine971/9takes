@@ -21,13 +21,12 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={3} />
-<br>
-<br>
+<p class="firstLetter">Enneagram Type 3, also known as "The Achiever," is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.</p>
 
-## Enneagram Type 3 Overview
 
-Enneagram Type 3, also known as "The Achiever," is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.
+<br>
+<Carousel type={3} gridDisplay={true} />
+<br>
 
 ## Characteristics
 

@@ -22,16 +22,13 @@ type: ['overview']
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
 </script>
 
-<Carousel type={6} />
-
-<br>
-<br>
-
-## Enneagram Type 6 Overview
-
-Type 6 is often referred to as the Loyalist or the Questioner. They are the quintessential team players and are highly committed to their relationships and communities. The Loyalists value security, safety, and stability and can be apprehensive when these things are threatened. They seek to find a sense of belonging and often form strong bonds with their friends, family, and colleagues.
+<p class="firstLetter">Type 6 is often referred to as the Loyalist or the Questioner. They are the quintessential team players and are highly committed to their relationships and communities. The Loyalists value security, safety, and stability and can be apprehensive when these things are threatened. They seek to find a sense of belonging and often form strong bonds with their friends, family, and colleagues.</p>
 
 The Loyalist is governed by fear and is always on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them being cautious and hesitant in decision-making, which can sometimes hold them back
+
+<br>
+<Carousel type={6} gridDisplay={true}/>
+<br>
 
 ## Characteristics
 

@@ -42,6 +42,9 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 
 > **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
 
+
+<p class="firstLetter">Every move she makes, every word she utters, every outfit she wears - they all contribute to a narrative that has captivated audiences worldwide. Kim Kardashian is not just a reality television star, but an entrepreneur, a beauty mogul, and a controversial figure. Today, we venture into her personality from a fresh angle, positioning Kim as a potential archetype of the Enneagram Type 3 - The Achiever.</p>
+
 <details>
 <summary class="accordion">TL;DR: Why Kim is an Enneagram 3</summary>
 <div class="panel">
@@ -53,8 +56,6 @@ tiktok: 'https://www.tiktok.com/@kimkardashian'
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">Every move she makes, every word she utters, every outfit she wears - they all contribute to a narrative that has captivated audiences worldwide. Kim Kardashian is not just a reality television star, but an entrepreneur, a beauty mogul, and a controversial figure. Today, we venture into her personality from a fresh angle, positioning Kim as a potential archetype of the Enneagram Type 3 - The Achiever.</p>
 
 ## The Quintessential Achiever: Pursuit of Success and Recognition
 

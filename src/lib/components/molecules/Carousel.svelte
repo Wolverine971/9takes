@@ -1,8 +1,10 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import PopCard from '../atoms/PopCard.svelte';
+	import RubixGrid from './rubixGrid.svelte';
 
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
+	export let gridDisplay: boolean = false;
 
 	const famousTypes: { [index: number]: any[] } = {
 		1: [
@@ -75,6 +77,7 @@
 		],
 		8: [
 			'Mr-Beast',
+			'Emily-Ratajkowski',
 			'Halsey',
 			'Clint-Eastwood',
 			'Beyonce-Knowles',
@@ -117,7 +120,9 @@
     margin: 1rem 0;
 	"
 >
-	{#if type && visibleImage}
+	{#if type && gridDisplay}
+		<RubixGrid peopleList={famousTypes[type]} {type} />
+	{:else if type && visibleImage}
 		<PopCard
 			image={`/types/${type}s/${visibleImage}.webp`}
 			showIcon={false}
@@ -328,8 +333,8 @@ cwebp "background3.png" -o "background3.webp"
 		}
 	}
 	@media all and (max-width: 576px) {
-		.slide-track {
-			// touch-action: none;
-		}
+		// .slide-track {
+		// 	// touch-action: none;
+		// }
 	}
 </style>
