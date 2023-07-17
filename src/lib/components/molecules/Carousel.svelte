@@ -38,7 +38,6 @@
 		4: [
 			'Demi-Lovato',
 			'Johnny-Depp',
-			// someone else
 			'Charlie-Puth',
 			'Lady-Gaga',
 			'Bob-Dylan',
@@ -66,7 +65,7 @@
 			'Logan-Paul',
 			'Kanye',
 			'Elton-John',
-			// someone else
+			'Jon-Stewart',
 			'Britney-Spears',
 			'John-F-Kennedy',
 			'Miley-Cyrus',

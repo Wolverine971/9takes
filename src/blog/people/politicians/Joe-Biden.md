@@ -100,7 +100,6 @@ As a Type 2, Biden may experience the weight of expectations from both his suppo
     "logo": {
       "@type": "ImageObject",
       "url": "https://9takes.com/brand/darkRubix.png",
-      "width": 600,
       "height": 60
     }
   },

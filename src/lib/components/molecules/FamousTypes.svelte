@@ -20,6 +20,7 @@
 			{ name: 'Jimmy-Carter', link: true },
 			{ name: 'Joe-Biden', link: true },
 			{ name: 'Mother-Teresa', link: false },
+			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Nancy-Reagan', link: true },
 			{ name: 'Mr-Rogers', link: true },
 			{ name: 'Jennifer-Garner', link: false }
@@ -65,6 +66,7 @@
 			{ name: 'Logan-Paul', link: true },
 			{ name: 'Elton-John', link: true },
 			{ name: 'Britney-Spears', link: false },
+			{ name: 'Jon-Stewart', link: false },
 			{ name: 'John-F.-Kennedy', link: true },
 			{ name: 'Miley-Cyrus', link: true },
 			{ name: 'Kanye', link: true },
@@ -89,6 +91,7 @@
 			{ name: 'Bernie-Sanders', link: true },
 			{ name: 'Marie-Kondo', link: false },
 			{ name: 'Zooey-Deschanel', link: false },
+			{ name: 'Pete-Davidson', link: true },
 			{ name: 'Queen-Elizabeth-II', link: true },
 			{ name: 'Ronald-Reagan', link: true }
 		]

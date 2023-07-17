@@ -104,7 +104,6 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
     "logo": {
       "@type": "ImageObject",
       "url": "https://9takes.com/brand/darkRubix.png",
-      "width": 600,
       "height": 60
     }
   },

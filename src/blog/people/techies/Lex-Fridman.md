@@ -148,11 +148,9 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
     "@type": "Organization",
     "logo": {
       "@type": "ImageObject",
-      "height": 60,
       "url": {
         "@id": "https://9takes.com/brand/darkRubix.png"
-      },
-      "width": 600
+      }
     },
     "name": "9takes"
   },

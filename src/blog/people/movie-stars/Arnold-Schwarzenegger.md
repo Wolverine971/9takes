@@ -93,9 +93,7 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
     "type": "Organization",
     "logo": {
       "type": "ImageObject",
-      "height": 60,
-      "url": "https://9takes.com/brand/darkRubix.png",
-      "width": 600
+      "url": "https://9takes.com/brand/darkRubix.png"
     },
     "name": "9takes"
   }
