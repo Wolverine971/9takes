@@ -180,11 +180,9 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

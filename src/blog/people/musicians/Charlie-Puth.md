@@ -163,11 +163,9 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

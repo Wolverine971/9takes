@@ -179,11 +179,9 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

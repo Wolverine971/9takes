@@ -179,11 +179,9 @@ If you're intrigued and wish to explore more, delve into our other articles abou
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

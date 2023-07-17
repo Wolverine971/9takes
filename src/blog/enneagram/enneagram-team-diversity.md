@@ -50,50 +50,56 @@ Occasionally, specific projects or challenges necessitate a team with a particul
 
 Leveraging the Enneagram as a tool for building balanced and diverse teams can have a profound impact on your organization's productivity and success. By understanding the unique strengths and challenges associated with each Enneagram type and triad, you can create dynamic teams that foster innovation, empathy, and ambition. Moreover, tailoring team compositions to address specific challenges ensures the most effective utilization of your team's capabilities. Embracing the diversity and balance offered by the Enneagram ultimately leads to better decision-making, problem-solving, and a more collaborative work environment that promotes growth and success for your organization.
 
-  <div>
-   <script type="application/ld+json">
-{
-"@context": "http://schema.org",
-"@type": "BlogPosting",
-"about": {
-"@type": "Thing",
-"name": "Enneagram, Team Building, Diverse Teams, Balanced Teams"
-},
-"author": {
-"@type": "Person",
-"name": "DJ Wayne"
-},
-"dateModified": {
-"@type": "Date",
-"@value": "2023-04-17"
-},
-"datePublished": {
-"@type": "Date",
-"@value": "2023-04-01"
-},
-"description": "Explore how to harness the power of the Enneagram for building balanced and diverse teams, and learn about the importance of triad diversity, the impact of Enneagram dominance, and strategies for achieving balance.",
-"headline": "Harnessing the Power of the Enneagram for Balanced and Diverse Teams: In-Depth Examples",
-"isAccessibleForFree": "True",
-"keywords": [
-"Enneagram",
-"team building",
-"diverse teams",
-"balanced teams",
-"team dynamics",
-"personality types"
-],
-"mainEntity": {
-"@type": "Question",
-"acceptedAnswer": {
-"@type": "Answer",
-"text": "Examples of Enneagram type combinations for optimal team balance include Innovative Thinkers (Type 5, Type 7, and Type 1), Compassionate Problem Solvers (Type 2, Type 6, and Type 9), and Ambitious Achievers (Type 3, Type 4, and Type 8). These combinations can foster diverse environments that promote creativity, empathy, and ambition."
-},
-"name": "What are some examples of Enneagram type combinations for optimal team balance?"
-},
-"publisher": {
-"@type": "Organization",
-"name": "9takes"
-}
+<div>
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "about": {
+    "@type": "Thing",
+    "name": "Enneagram, Team Building, Diverse Teams, Balanced Teams"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne"
+  },
+  "dateModified": {
+    "@type": "Date",
+    "@value": "2023-04-17"
+  },
+  "datePublished": {
+    "@type": "Date",
+    "@value": "2023-04-01"
+  },
+  "description": "Explore how to harness the power of the Enneagram for building balanced and diverse teams, and learn about the importance of triad diversity, the impact of Enneagram dominance, and strategies for achieving balance.",
+  "headline": "Harnessing the Power of the Enneagram for Balanced and Diverse Teams: In-Depth Examples",
+  "isAccessibleForFree": "True",
+  "keywords": [
+    "Enneagram",
+    "team building",
+    "diverse teams",
+    "balanced teams",
+    "team dynamics",
+    "personality types"
+  ],
+  "mainEntity": {
+    "@type": "Question",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Examples of Enneagram type combinations for optimal team balance include Innovative Thinkers (Type 5, Type 7, and Type 1), Compassionate Problem Solvers (Type 2, Type 6, and Type 9), and Ambitious Achievers (Type 3, Type 4, and Type 8). These combinations can foster diverse environments that promote creativity, empathy, and ambition."
+    },
+    "name": "What are some examples of Enneagram type combinations for optimal team balance?"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
+      }
+    },
+    "name": "9takes"
+  }
 }
 </script>
 </div>

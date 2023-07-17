@@ -209,11 +209,9 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

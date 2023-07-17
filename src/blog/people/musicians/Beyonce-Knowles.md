@@ -159,11 +159,9 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }

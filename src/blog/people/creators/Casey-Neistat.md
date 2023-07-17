@@ -113,7 +113,7 @@ Neistat’s life, much like his vlogs, is a blend of chaos and quietude. As an e
     {
         date: "2003",
         title: "iPod's Dirty Secret",
-        description: "The Neistat Brothers produced a controversial video, 'iPod's Dirty Secret,' criticising Apple's lack of a battery replacement program for their iPod product. The video quickly went viral, marking one of their first major public recognitions."
+        description: "The Neistat Brothers produced a controversial video, 'iPod's Dirty Secret,' criticizing Apple's lack of a battery replacement program for their iPod product. The video quickly went viral, marking one of their first major public recognitions."
     },
     {
         date: "2004",
@@ -233,11 +233,9 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
           "url": {
             "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          }
         },
         "name": "9takes"
       }
