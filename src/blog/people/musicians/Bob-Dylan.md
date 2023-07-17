@@ -1,6 +1,6 @@
 ---
-title: 'Bob Dylan An Enneagram Type 3'
-description: 'Why Bob Dylan appears to be a type 3'
+title: 'Bob Dylan An Enneagram Type 4'
+description: 'Why Bob Dylan appears to be a Type 4'
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Bob-Dylan'
@@ -20,7 +20,7 @@ tiktok: ''
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/3s/Bob-Dylan.webp" />
+<meta property="og:image" content="https://9takes.com/types/4s/Bob-Dylan.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bob-Dylan">
 </svelte:head>
 
@@ -67,7 +67,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type 4- The Achiever](/blog/enneagram/enneagram-type-3)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

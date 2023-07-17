@@ -1,6 +1,6 @@
 ---
-title: 'Stephen King Enneagram Type 2'
-description: 'Why Stephen King appears to be a type 2'
+title: 'Stephen King Enneagram Type 5'
+description: 'Why Stephen King appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Stephen-King'
@@ -8,7 +8,7 @@ lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 2
+enneagram: 5
 type: ['celebrity']
 wikipedia: 'https://en.wikipedia.org/wiki/Fred_Rogers'
 twitter: 'https://twitter.com/MisterRogersSay'
@@ -18,7 +18,7 @@ tiktok:
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/2s/Stephen-King.webp" />
+<meta property="og:image" content="https://9takes.com/types/5s/Stephen-King.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Stephen-King">
 </svelte:head>
 <script>
@@ -31,7 +31,7 @@ tiktok:
 	"
 >
 	<PopCard
-		image={`/types/2s/${'Stephen-King'}.webp`}
+		image={`/types/5s/${'Stephen-King'}.webp`}
 		showIcon={false}
 		displayText="Stephen King"
 		altText=""
