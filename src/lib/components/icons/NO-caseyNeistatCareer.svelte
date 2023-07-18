@@ -1,7 +1,7 @@
 <script>
 	export let className = '';
 
-	export let fill = 'black';
+	export let fill = '#52616b';
 	export let iconStyle = '';
 </script>
 

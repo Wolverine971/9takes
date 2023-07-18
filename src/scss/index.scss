@@ -11,7 +11,6 @@
 	--error: #ff5252;
 
 	--block-spacing-vertical: calc(1rem * 2);
-	--block-spacing-vertical: calc(1rem * 2);
 	--block-spacing-horizontal: calc(1rem * 2);
 	--border-radius: 0.25rem;
 	--card-background-color: #fff;
@@ -477,7 +476,6 @@ section {
 	flex-basis: calc(50% - 20px);
 	margin: var(--block-spacing-vertical) 0;
 	padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
-	padding: 10px;
 	background-color: #f2f2f2;
 	border: var(--classic-border);
 	box-sizing: border-box;

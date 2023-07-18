@@ -206,7 +206,7 @@
 
 	.subnav-content a:hover {
 		background-color: #eee;
-		color: black;
+		color: var(--color-paladin-3);
 		z-index: 1234;
 	}
 
@@ -270,7 +270,7 @@
 
 	.main-subnav-content a:hover {
 		background-color: #eee;
-		color: black;
+		color: var(--color-paladin-3);
 		z-index: 1234;
 	}
 

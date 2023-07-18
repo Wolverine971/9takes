@@ -314,7 +314,7 @@
 	</div>
 </div>
 
-<style>
+<style lang="scss">
 	.combobox {
 		--accent-color: #06113c;
 		--background-color: white;
@@ -336,7 +336,8 @@
 		margin: 0;
 		width: 100%;
 		padding: 0.8rem 1rem;
-		border: 0.175rem solid gray;
+		// border: 0.1rem solid var(--color-p-origin);
+		border: var(--classic-border);
 		border-radius: 0.3rem;
 	}
 
@@ -365,7 +366,8 @@
 
 		background-color: var(--background-color);
 		border-radius: 0.3em;
-		border: 0.175rem solid var(--accent-color);
+		// border: 0.175rem solid var(--accent-color);
+		border: var(--classic-border);
 		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	}
 

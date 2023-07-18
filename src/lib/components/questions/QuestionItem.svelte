@@ -16,7 +16,7 @@
 		{questionData.question}
 	</p>
 	<div class="small-div">
-		<span style="display: flex; justify-content: space-between;">
+		<span class="comment-span-display">
 			{#if questionData.comment_count}
 				{questionData.comment_count}
 			{/if}
@@ -35,6 +35,13 @@
 </a>
 
 <style lang="scss">
+	.comment-span-display {
+		display: flex;
+		justify-content: space-between;
+		font-weight: bold;
+		color: var(--color-p-dark); //var(--color-theme-purple);
+	}
+
 	.question-display {
 		word-break: break-word;
 		align-self: flex-start;
@@ -68,7 +75,16 @@
 			0 1px 5px 0 rgb(0 0 0 / 12%);
 	}
 	.question-card:hover {
-		background-color: var(--color-theme-purple-v);
+		// background-color: rgba(255, 255, 255, 0.5);
+		// background-color: var(--color-p-light);
+
+		// background-color: rgb(207, 198, 255, 0.5);
+		background-color: var(--color-bg-0);
+		// border: 0.1px solid var(--color-theme-purple-v);
+		box-shadow: 0 2px 0px -1px var(--color-p-light), 0 3px 3px 1px var(--color-p-light),
+			0 1px 5px 0 var(--color-p-light);
+		text-decoration: none;
+		// box-shadow: inset 0.2em 0.2em 0.2em var(--color-theme-purple-v);
 	}
 
 	@media all and (max-width: 576px) {

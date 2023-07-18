@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { PageData } from '../../../routes/$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
@@ -8,8 +7,6 @@
 	export let data: PageData;
 
 	let active = false;
-
-	onMount(() => {});
 </script>
 
 <div style="position: relative; z-index: 11;">
@@ -31,8 +28,6 @@
 			class="hamburger close-trigger "
 			aria-label="Toggle navigation"
 			on:click={() => {
-				console.log(active);
-
 				getModal().close();
 			}}
 		>
@@ -42,6 +37,7 @@
 			<!-- </span> -->
 		</button>
 	{/if}
+
 	<Modal2>
 		<nav class="mobile-nav">
 			<ul class="menu">
@@ -106,18 +102,6 @@
 		transition: background-color 0.3s ease;
 	}
 
-	// .mobile-nav {
-	// 	// display: none;
-	// 	position: absolute;
-	// 	top: 100%;
-	// 	left: 0;
-	// 	width: fit-content;
-	// 	background-color: #fff;
-	// 	padding: 20px;
-	// 	border: 1px solid black;
-	// 	border-radius: 5px;
-	// }
-
 	.menu {
 		list-style: none;
 		margin: 0;
@@ -147,7 +131,7 @@
 		display: block;
 		width: 100%;
 		height: 4px;
-		background-color: black;
+		background-color: var(--color-paladin-3);
 		margin-bottom: 6px;
 		transform: rotate(-45deg);
 		position: relative;
@@ -161,7 +145,7 @@
 			display: block;
 			width: 0%;
 			height: 100%;
-			background-color: black;
+			background-color: var(--color-paladin-3);
 			transition: $slide;
 		}
 
@@ -225,7 +209,7 @@
 			display: block;
 			width: 0%;
 			height: 100%;
-			background-color: black;
+			background-color: var(--color-paladin-3);
 			transition: $slide;
 		}
 

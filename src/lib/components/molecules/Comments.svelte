@@ -11,20 +11,22 @@
 	export let data: any;
 	export let user: any;
 
-	let _data: any = data;
+	let _data: any;
+	let comment_count: number;
 
 	$: data, matchData();
 
 	const matchData = () => {
+		// console.log('comments', data);
 		_data = Object.assign({}, data);
 		comments = [..._data?.comments];
+		comment_count = _data?.comment_count;
 	};
 	// export let comments: any[];
 	// Database['public']['Tables']['comments']['Row'][]
 	let comments: any[] = _data?.comments || [];
 
 	const lastDate = comments?.length ? comments[comments?.length - 1]?.created_at || null : null;
-	let comment_count: number = _data?.comment_count;
 
 	const loadMore = async () => {
 		loading = true;
@@ -46,17 +48,17 @@
 
 <p>
 	Count: {comment_count}
-	{#if comment_count > 0 && comments?.length === 0 && _data.flags.userHasAnswered}
+	{#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && _data?.flags?.userHasAnswered}
 		<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 	{/if}
 
-	{#if !_data.flags.userHasAnswered}
+	{#if comment_count > 0 && parentType === 'question' && !_data?.flags?.userHasAnswered}
 		<p>Must answer question first</p>
 	{/if}
 </p>
 {#if loading}
 	<div>Loading comments...</div>
-{:else if !browser || _data.flags.userHasAnswered}
+{:else if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
 		<div>
@@ -65,25 +67,19 @@
 			{/each}
 		</div>
 		{#if comments?.length < comment_count}
-			<button class="btn btn-secondary" on:click={() => loadMore}>Load More</button>
+			<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
 		{/if}
 	{:else}
 		<p>nothing right now</p>
 	{/if}
-	{#if _data.flags.userHasAnswered && !browser}
-		<h3>Renders only if answered</h3>
-		<h1>Comments</h1>
-		<!-- Renders only if answered -->
-		<li>Answer Two</li>
-		<li>Answer Three</li>
-		<!-- only load first or top comment -->
-		{#if _data.comments.length}
-			<!-- <Comments data={_data} nested={false} parentType={'question'} {user} /> -->
-			<Comment comment={comments[0]} {user} />
-		{/if}
-	{/if}
-	{#if !_data?.comments?.length}
-		<p>nothing right now</p>
+{:else if !browser || (comments?.length && parentType === 'comment')}
+	<div>
+		{#each comments as comment}
+			<Comment {comment} {user} />
+		{/each}
+	</div>
+	{#if comments?.length < comment_count}
+		<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
 	{/if}
 {/if}
 

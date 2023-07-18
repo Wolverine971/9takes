@@ -16,6 +16,7 @@
 	export let data: PageData;
 	let innerWidth: number;
 	let isOpen = false;
+	let isLoading = true;
 
 	afterNavigate(() => {
 		isOpen = false;
@@ -24,6 +25,7 @@
 	onMount(() => {
 		document.addEventListener('click', handleClickOutside);
 		innerWidth = window.innerWidth;
+		isLoading = false;
 	});
 
 	afterUpdate(() => {
@@ -36,289 +38,6 @@
 			isOpen = false;
 		}
 	};
-
-	const jsonldString = {
-		'@context': 'http://schema.org',
-		'@type': 'SiteNavigationElement',
-		mainEntity: [
-			{
-				'@type': 'WebPage',
-				name: 'Home',
-				url: {
-					'@id': 'https://9takes.com/'
-				}
-			},
-			{
-				'@type': 'WebPage',
-				hasPart: [
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Philosophy and Psychology gave birth to the Enneagram',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Enneagram TLDR',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-tldr'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Concepts and Principles',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-concepts'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Enneagram Influences',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-influences'
-								}
-							}
-						],
-						name: 'Overview'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Type 1: The Perfectionist',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-1'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 2: The Helper',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-2'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 3: The Achiever',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-3'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 4: The Individualist',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-4'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 5: The Investigator',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-5'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 6: The Loyalist',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-6'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 7: The Enthusiast',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-7'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 8: The Challenger',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-8'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Type 9: The Peacemaker',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-type-9'
-								}
-							}
-						],
-						name: '9 Types'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Determining your type',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Self development',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-self-development'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Strengths and weaknesses',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Growth strategies',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
-								}
-							}
-						],
-						name: 'Personal Development'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Types in relationships',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Communication tips',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Communication styles',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-								}
-							}
-						],
-						name: 'Relationships'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Team building',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Working in teams',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Team dynamics',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Team diversity',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
-								}
-							}
-						],
-						name: 'Workplace'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'FAQs',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-faqs'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Books, websites, and podcasts',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
-								}
-							}
-						],
-						name: 'Resources'
-					},
-					{
-						'@type': 'WebPage',
-						hasPart: [
-							{
-								'@type': 'WebPage',
-								name: 'Types at a party',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Impact of ghosting',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Navigating stress',
-								url: {
-									'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
-								}
-							},
-							{
-								'@type': 'WebPage',
-								name: 'Analysis of famous people',
-								url: {
-									'@id': '/blog/famous-enneagram-types'
-								}
-							}
-						],
-						name: 'Situational Topics'
-					}
-				],
-				name: 'Enneagram Blog',
-				url: {
-					'@id': 'https://9takes.com/blog/'
-				}
-			},
-			{
-				'@type': 'WebPage',
-				name: 'About',
-				url: {
-					'@id': 'https://9takes.com/about'
-				}
-			}
-		]
-	};
-	let jsonld = JSON.stringify(jsonldString);
 </script>
 
 <!-- <svelte:head>
@@ -326,29 +45,60 @@
 </svelte:head> -->
 
 <svelte:window bind:innerWidth />
+{#if isLoading}
+	<div style="display: flex; justify-content: center; margin: 10px; padding: 0 2rem">
+		<svg
+			version="1.1"
+			id="loader-1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+			x="0px"
+			y="0px"
+			width="40px"
+			height="40px"
+			viewBox="0 0 50 50"
+			style="enable-background:new 0 0 50 50;"
+			xml:space="preserve"
+		>
+			<path
+				fill="#5407d9"
+				d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z"
+			>
+				<animateTransform
+					attributeType="xml"
+					attributeName="transform"
+					type="rotate"
+					from="0 25 25"
+					to="360 25 25"
+					dur="0.6s"
+					repeatCount="indefinite"
+				/>
+			</path>
+		</svg>
+	</div>
+{:else}
+	<header class="the-header">
+		{#if innerWidth < 1000}
+			<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
+				<MobileHam {data} />
 
-<header class="the-header">
-	{#if innerWidth < 1000}
-		<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
-			<MobileHam {data} />
+				<a href="/" class="brand">
+					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
+				</a>
 
-			<a href="/" class="brand">
-				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-			</a>
-
-			{#if data?.session?.user}
-				<div class="corner">
-					<button
-						type="button"
-						on:click={() => {
-							goto('/account');
-						}}
-						class="corner-icon"
-					>
-						<img src={account} alt="Account" />
-					</button>
-				</div>
-				<!-- not yet ready to allow registration and login
+				{#if data?.session?.user}
+					<div class="corner">
+						<button
+							type="button"
+							on:click={() => {
+								goto('/account');
+							}}
+							class="corner-icon"
+						>
+							<img src={account} alt="Account" />
+						</button>
+					</div>
+					<!-- not yet ready to allow registration and login
 			{:else}
 				<div class="corner ">
 					<button
@@ -361,68 +111,68 @@
 						<img src={login} alt="login" />
 					</button>
 				</div> -->
-			{/if}
-		</div>
-	{:else}
-		<nav
-			class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
-				'absolute-pos'}"
-		>
-			<a href="/" class="brand left">
-				<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
-				{#if innerWidth > 1000 && $page.url.pathname !== '/'}
-					<Scribble text={'9takes'} />
 				{/if}
-			</a>
-
-			<div
-				class="center menu big-nav-links {$page.url.pathname === '/'
-					? 'home-page'
-					: ''} dope-nav-menu"
+			</div>
+		{:else}
+			<nav
+				class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
+					'absolute-pos'}"
 			>
-				<a href="/" class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap">
-					<div
-						class="nav-text nav-element nav-element1 {$page.url.pathname === '/'
-							? 'active-link'
-							: ''}"
-						style=""
-					>
-						HOME
-					</div>
-					<div
-						class="nav-element nav-element2 {$page.url.pathname === '/' ? 'active-link' : ''}"
-						style=""
-					>
-						HOME
-					</div>
+				<a href="/" class="brand left">
+					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
+					{#if innerWidth > 1000 && $page.url.pathname !== '/'}
+						<Scribble text={'9takes'} />
+					{/if}
 				</a>
-				<a
-					title={!data?.session?.user?.id ? 'Not available yet' : ''}
-					href={!data?.session?.user?.id ? '#' : '/questions'}
-					class="a-wrap {!data?.session?.user?.id && 'disabled'}"
+
+				<div
+					class="center menu big-nav-links {$page.url.pathname === '/'
+						? 'home-page'
+						: ''} dope-nav-menu"
 				>
-					<div
-						class="nav-text nav-element {data?.session?.user?.id
-							? 'nav-element1'
-							: ''} {$page.url.pathname.startsWith('/questions') && data?.session?.user?.id
-							? 'active-link'
-							: ''}"
-						style=""
-					>
-						QUESTIONS
-					</div>
-					{#if data?.session?.user?.id}
+					<a href="/" class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap">
 						<div
-							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions') &&
-							data?.session?.user?.id
+							class="nav-text nav-element nav-element1 {$page.url.pathname === '/'
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							HOME
+						</div>
+						<div
+							class="nav-element nav-element2 {$page.url.pathname === '/' ? 'active-link' : ''}"
+							style=""
+						>
+							HOME
+						</div>
+					</a>
+					<a
+						title={!data?.session?.user?.id ? 'Not available yet' : ''}
+						href={!data?.session?.user?.id ? '#' : '/questions'}
+						class="a-wrap {!data?.session?.user?.id && 'disabled'}"
+					>
+						<div
+							class="nav-text nav-element {data?.session?.user?.id
+								? 'nav-element1'
+								: ''} {$page.url.pathname.startsWith('/questions') && data?.session?.user?.id
 								? 'active-link'
 								: ''}"
 							style=""
 						>
 							QUESTIONS
 						</div>
-					{/if}
-					<!-- <div
+						{#if data?.session?.user?.id}
+							<div
+								class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions') &&
+								data?.session?.user?.id
+									? 'active-link'
+									: ''}"
+								style=""
+							>
+								QUESTIONS
+							</div>
+						{/if}
+						<!-- <div
 						class="nav-element-disabled nav-element2  {$page.url.pathname.startsWith('/questions')
 							? 'active-link'
 							: ''}"
@@ -430,54 +180,56 @@
 					>
 						QUESTIONS
 					</div> -->
-				</a>
-				<a href="/blog" class="a-wrap">
-					<div
-						class="nav-text nav-element nav-element1 {$page.url.pathname === '/blog'
-							? 'active-link'
-							: ''}"
-						style=""
-					>
-						BLOG
-					</div>
-					<div
-						class="nav-element nav-element2 {$page.url.pathname === '/blog' ? 'active-link' : ''}"
-						style=""
-					>
-						BLOG
-					</div>
-				</a>
-				<a href="/about" class="a-wrap">
-					<div
-						class="nav-text nav-element nav-element1 {$page.url.pathname === '/about'
-							? 'active-link'
-							: ''}"
-						style=""
-					>
-						ABOUT
-					</div>
-					<div
-						class="nav-element nav-element2 {$page.url.pathname === '/about' ? 'active-link' : ''}"
-						style=""
-					>
-						ABOUT
-					</div>
-				</a>
-			</div>
-			{#if data?.session?.user}
-				<div class="corner-right-big right">
-					<button
-						type="button"
-						on:click={() => {
-							goto('/account');
-						}}
-						style=""
-						class="corner-icon"
-					>
-						<img src={account} alt="Account" />
-					</button>
+					</a>
+					<a href="/blog" class="a-wrap">
+						<div
+							class="nav-text nav-element nav-element1 {$page.url.pathname === '/blog'
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							BLOG
+						</div>
+						<div
+							class="nav-element nav-element2 {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+							style=""
+						>
+							BLOG
+						</div>
+					</a>
+					<a href="/about" class="a-wrap">
+						<div
+							class="nav-text nav-element nav-element1 {$page.url.pathname === '/about'
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							ABOUT
+						</div>
+						<div
+							class="nav-element nav-element2 {$page.url.pathname === '/about'
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							ABOUT
+						</div>
+					</a>
 				</div>
-				<!-- not yet ready to allow registration and login
+				{#if data?.session?.user}
+					<div class="corner-right-big right">
+						<button
+							type="button"
+							on:click={() => {
+								goto('/account');
+							}}
+							style=""
+							class="corner-icon"
+						>
+							<img src={account} alt="Account" />
+						</button>
+					</div>
+					<!-- not yet ready to allow registration and login
 				{:else}
 				<div class=" right login">
 					<button
@@ -490,12 +242,13 @@
 						Login/ Register
 					</button>
 				</div> -->
-			{/if}
-			<!-- </div> -->
-		</nav>
-	{/if}
-	<!-- </Context> -->
-</header>
+				{/if}
+				<!-- </div> -->
+			</nav>
+		{/if}
+		<!-- </Context> -->
+	</header>
+{/if}
 
 <style lang="scss">
 	.the-header {
@@ -551,7 +304,7 @@
 			box-sizing: border-box;
 
 			.nav-text {
-				// color: black; // #eee;
+				// color: var(--color-paladin-3); // #eee;
 				letter-spacing: 0.28px;
 				text-transform: uppercase;
 				font-weight: 700;
@@ -565,7 +318,7 @@
 			margin-left: auto;
 			font-size: 1rem;
 			padding: 0 2rem;
-			color: black;
+			color: var(--color-paladin-3);
 			// background-color: rgb(240, 248, 255, 0.6);
 
 			a {
@@ -693,33 +446,6 @@
 			z-index: 2314;
 		}
 
-		.navbar-brand {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex: 1;
-			// background-color: #e8edf1;
-
-			z-index: 1200;
-		}
-		.navbar-brand-mobile {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex: 1;
-			// background-color: #e8edf1;
-			border-radius: 5px;
-			border: var(--classic-border);
-
-			z-index: 1200;
-		}
-
-		.brand-title {
-			margin: 0;
-			text-align: center;
-			flex: 1;
-		}
-
 		.corner {
 			margin: 1rem;
 			// position: absolute;
@@ -732,24 +458,6 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-			z-index: 13;
-
-			a {
-				width: 100%;
-				height: 100%;
-			}
-
-			img {
-				width: 2em;
-				height: 2em;
-				object-fit: contain;
-			}
-		}
-		.corner-left {
-			margin: 1rem;
-			// position: absolute;
-			// left: 0;
-			// top: 0;
 			z-index: 13;
 
 			a {
@@ -797,41 +505,11 @@
 			fill: var(--background);
 		}
 
-		ul {
-			position: relative;
-			padding: 0;
-			margin: 0;
-			height: 3em;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			list-style: none;
-			background: var(--background);
-			background-size: contain;
-		}
-
-		li {
-			position: relative;
-			height: 100%;
-		}
-
-		li[aria-current='page']::before {
-			--size: 6px;
-			content: '';
-			width: 0;
-			height: 0;
-			position: absolute;
-			top: 0;
-			left: calc(50% - var(--size));
-			border: var(--size) solid transparent;
-			border-top: var(--size) solid var(--color-theme-dark-blue);
-		}
-
 		a:hover {
 			color: var(--color-theme-dark-blue);
 		}
 		svg {
-			fill: black; /* set the initial color of the SVG */
+			fill: var(--color-paladin-3); /* set the initial color of the SVG */
 			transition: fill 0.2s ease-in-out; /* add a transition effect */
 		}
 
@@ -851,6 +529,12 @@
 
 		svg:hover path {
 			fill: red; /* change the color of the SVG on hover */
+		}
+	}
+
+	@media (max-width: 768px) {
+		.the-header {
+			padding: 0;
 		}
 	}
 </style>
