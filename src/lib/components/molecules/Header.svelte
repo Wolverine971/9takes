@@ -446,33 +446,6 @@
 			z-index: 2314;
 		}
 
-		.navbar-brand {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex: 1;
-			// background-color: #e8edf1;
-
-			z-index: 1200;
-		}
-		.navbar-brand-mobile {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			flex: 1;
-			// background-color: #e8edf1;
-			border-radius: 5px;
-			border: var(--classic-border);
-
-			z-index: 1200;
-		}
-
-		.brand-title {
-			margin: 0;
-			text-align: center;
-			flex: 1;
-		}
-
 		.corner {
 			margin: 1rem;
 			// position: absolute;
@@ -485,24 +458,6 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-			z-index: 13;
-
-			a {
-				width: 100%;
-				height: 100%;
-			}
-
-			img {
-				width: 2em;
-				height: 2em;
-				object-fit: contain;
-			}
-		}
-		.corner-left {
-			margin: 1rem;
-			// position: absolute;
-			// left: 0;
-			// top: 0;
 			z-index: 13;
 
 			a {
@@ -550,36 +505,6 @@
 			fill: var(--background);
 		}
 
-		ul {
-			position: relative;
-			padding: 0;
-			margin: 0;
-			height: 3em;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			list-style: none;
-			background: var(--background);
-			background-size: contain;
-		}
-
-		li {
-			position: relative;
-			height: 100%;
-		}
-
-		li[aria-current='page']::before {
-			--size: 6px;
-			content: '';
-			width: 0;
-			height: 0;
-			position: absolute;
-			top: 0;
-			left: calc(50% - var(--size));
-			border: var(--size) solid transparent;
-			border-top: var(--size) solid var(--color-theme-dark-blue);
-		}
-
 		a:hover {
 			color: var(--color-theme-dark-blue);
 		}
@@ -604,6 +529,12 @@
 
 		svg:hover path {
 			fill: red; /* change the color of the SVG on hover */
+		}
+	}
+
+	@media (max-width: 768px) {
+		.the-header {
+			padding: 0;
 		}
 	}
 </style>
