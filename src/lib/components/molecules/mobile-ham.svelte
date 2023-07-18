@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { PageData } from '../../../routes/$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
@@ -8,8 +7,6 @@
 	export let data: PageData;
 
 	let active = false;
-
-	onMount(() => {});
 </script>
 
 <div style="position: relative; z-index: 11;">
@@ -40,6 +37,7 @@
 			<!-- </span> -->
 		</button>
 	{/if}
+
 	<Modal2>
 		<nav class="mobile-nav">
 			<ul class="menu">
@@ -103,18 +101,6 @@
 		margin-bottom: 4px;
 		transition: background-color 0.3s ease;
 	}
-
-	// .mobile-nav {
-	// 	// display: none;
-	// 	position: absolute;
-	// 	top: 100%;
-	// 	left: 0;
-	// 	width: fit-content;
-	// 	background-color: #fff;
-	// 	padding: 20px;
-	// 	border: 1px solid var(--color-paladin-3);
-	// 	border-radius: 5px;
-	// }
 
 	.menu {
 		list-style: none;
