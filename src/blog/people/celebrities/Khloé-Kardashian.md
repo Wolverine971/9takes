@@ -1,27 +1,27 @@
 ---
-title: 'Kylie Jenner Enneagram Type 9'
-description: 'Why Kylie Jenner appears to be a type 9'
+title: 'Khloé Kardashian An Enneagram Type 6'
+description: 'Why Khloé Kardashian appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-07-17'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner'
-lastmod: '2023-09-26'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Khloé-Kardashian'
+lastmod: '2023-07-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 9
-type: ['lifestyleInfluencer']
-wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
-twitter: 'https://twitter.com/KylieJenner'
-instagram: 'https://www.instagram.com/kyliejenner'
-tiktok: 'https://www.tiktok.com/@kyliejenner'
+enneagram: 6
+type: ['']
+wikipedia: ''
+twitter: ''
+instagram: ''
+tiktok: ''
 ---
 
 <!-- // notes:  -->
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/9s/Kylie-Jenner.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
+<meta property="og:image" content="https://9takes.com/types/6s/Khloé-Kardashian.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Khloé-Kardashian">
 </svelte:head>
 
 <script>
@@ -30,21 +30,21 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 <div
 	style="display: flex;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 6rem 0;
 	"
 >
 	<PopCard
-		image={`/types/9s/${'Kylie-Jenner'}.webp`}
+		image={`/types/3s/${'Khloé-Kardashian'}.webp`}
 		showIcon={false}
-		displayText="Kylie Jenner"
+		displayText="Khloé Kardashian"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
 
 <details>
-<summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>
 <div class="panel">
 <ul>
 <li>
@@ -61,13 +61,13 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives Kylie Jenner
+## How Each Enneagram Type Perceives Khloé Kardashian
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kylie Jenner:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Khloé Kardashian:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
+- **[Type 6- The Perfectionist](/blog/enneagram/enneagram-type-6)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 9- The Achiever](/blog/enneagram/enneagram-type-9)** -
+- **[Type 6- The Achiever](/blog/enneagram/enneagram-type-3)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -
@@ -86,11 +86,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
     background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 68px;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 65px;
     transition: 0.4s;
   }
 
@@ -106,7 +106,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 }*/
 
   .panel {
-    padding: 18px;
+    padding: 68px;
     /*display: none;*/
     background-color: white;
     overflow: hidden;

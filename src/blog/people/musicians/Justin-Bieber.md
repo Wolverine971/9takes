@@ -16,6 +16,8 @@ instagram: ''
 tiktok: ''
 ---
 
+<!-- might be a type 3 -->
+
 <svelte:head>
 
 <meta property="og:image" content="https://9takes.com/types/7s/Justin-Bieber.webp" />

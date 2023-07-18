@@ -1,14 +1,14 @@
 ---
-title: 'booboo An Enneagram Type 3'
-description: 'Why booboo appears to be a type 3'
+title: 'booboo An Enneagram Type tiptype'
+description: 'Why booboo appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2023-06-21'
+date: '2023-07-17'
 loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
-lastmod: '2023-06-21'
+lastmod: '2023-07-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: tiptype
 type: ['']
 wikipedia: ''
 twitter: ''
@@ -20,7 +20,7 @@ tiktok: ''
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
+<meta property="og:image" content="https://9takes.com/types/tiptypes/boo-boo.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
 </svelte:head>
 
@@ -34,7 +34,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/tiptypes/${'boo-boo'}.webp`}
 		showIcon={false}
 		displayText="booboo"
 		subtext=""
@@ -44,7 +44,7 @@ tiktok: ''
 > **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why booboo is an Enneagram type tiptype </summary>
 <div class="panel">
 <ul>
 <li>
@@ -67,7 +67,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type tiptype- The Achiever](/blog/enneagram/enneagram-type-tiptype)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

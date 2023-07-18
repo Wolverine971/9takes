@@ -1,27 +1,27 @@
 ---
-title: 'Kylie Jenner Enneagram Type 9'
-description: 'Why Kylie Jenner appears to be a type 9'
+title: 'Kourtney Kardashian An Enneagram Type 1'
+description: 'Why Kourtney Kardashian appears to be a type 1'
 author: 'DJ Wayne'
-date: '2023-07-17'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner'
-lastmod: '2023-09-26'
+date: '2023-06-21'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian'
+lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 9
-type: ['lifestyleInfluencer']
-wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
-twitter: 'https://twitter.com/KylieJenner'
-instagram: 'https://www.instagram.com/kyliejenner'
-tiktok: 'https://www.tiktok.com/@kyliejenner'
+enneagram: 1
+type: ['']
+wikipedia: ''
+twitter: ''
+instagram: ''
+tiktok: ''
 ---
 
 <!-- // notes:  -->
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/9s/Kylie-Jenner.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
+<meta property="og:image" content="https://9takes.com/types/1s/Kourtney-Kardashian.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian">
 </svelte:head>
 
 <script>
@@ -34,17 +34,17 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	"
 >
 	<PopCard
-		image={`/types/9s/${'Kylie-Jenner'}.webp`}
+		image={`/types/3s/${'Kourtney-Kardashian'}.webp`}
 		showIcon={false}
-		displayText="Kylie Jenner"
+		displayText="Kourtney Kardashian"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+> **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney Kardashian.
 
 <details>
-<summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Kourtney Kardashian is an Enneagram type 1</summary>
 <div class="panel">
 <ul>
 <li>
@@ -61,13 +61,13 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives Kylie Jenner
+## How Each Enneagram Type Perceives Kourtney Kardashian
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kylie Jenner:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kourtney Kardashian:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 9- The Achiever](/blog/enneagram/enneagram-type-9)** -
+- **[Type 1- The Achiever](/blog/enneagram/enneagram-type-3)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -
