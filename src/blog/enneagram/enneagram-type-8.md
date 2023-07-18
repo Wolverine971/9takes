@@ -52,7 +52,7 @@ At their core, Enneagram Type 8 individuals are seeking to avoid being controlle
 
 ## Fears
 
-The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They value their independence and autonomy above all else and may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others in order to maintain their sense of autonomy. Additionally, Enneagram Type 8 individuals may also have a fear of vulnerability, as they perceive vulnerability as a potential weakness that could be exploited by others.
+The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They value their independence and autonomy above all else and may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others to maintain their sense of autonomy. Additionally, Enneagram Type 8 individuals may also have a fear of vulnerability, as they perceive vulnerability as a potential weakness that could be exploited by others.
 
 ## Under Stress
 

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import BellIcon from '../icons/bellIcon.svelte';
-	import CommentsIcon from '../icons/commentsIcon.svelte';
+	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 	import ShareIcon from '../icons/shareIcon.svelte';
 	import ThumbsUpIcon from '../icons/thumbsUpIcon.svelte';
 	import RightIcon from '../icons/rightIcon.svelte';
@@ -16,10 +16,10 @@
 	export let data: any; // QuestionObject | CommentObject;
 	export let user: any;
 
-	if (parentType === 'question') {
-		data;
-	} else if (parentType === 'comment') {
-	}
+	// if (parentType === 'question') {
+	// 	data;
+	// } else if (parentType === 'comment') {
+	// }
 
 	// update this to like_count and add boolean for if user liked
 	let likes: any[] = data?.comment_like ? [...data.comment_like] : [];
@@ -146,45 +146,53 @@
 			subscriptions = [...alteredSubscriptions];
 		}
 	};
+
+	let innerWidth: number = 0;
 </script>
 
+<svelte:window bind:innerWidth />
 <!-- 
 	question popout
 	either pop down under the question like fb
 	or pop out in a dialog like qra
 -->
-<div class="actions">
+<div class="interaction-div-display">
 	<button
 		title="Comment"
-		class="tablinks"
+		class=""
 		style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
 		on:click={() => (commenting = true)}
 	>
-		{#if parentType === 'question'}
+		{#if parentType === 'question' && innerWidth > 575}
 			Comment
 		{/if}
 
-		<CommentsIcon
-			iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
+		<MasterCommentIcon
+			iconStyle={parentType === 'question' && innerWidth > 575
+				? 'margin-left: .5rem;'
+				: 'padding: 0.25rem;'}
 			height={'1.5rem'}
-			fill={''}
+			fill={comment.length ? '#5407d9' : ''}
+			type={comment.length ? 'full' : 'empty'}
 		/>
 	</button>
 
 	{#if parentType === 'question'}
 		<button
 			title="Subscribe"
-			class="tablinks"
+			class=""
 			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
 			on:click={subscribe}
 		>
-			{#if parentType === 'question'}
+			{#if parentType === 'question' && innerWidth > 575}
 				{subscriptions && user?.id && subscriptions.some((e) => e.user_id === user?.id)
 					? 'Subscribed'
 					: 'Subscribe'}
 			{/if}
 			<BellIcon
-				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
+				iconStyle={parentType === 'question' && innerWidth > 575
+					? 'margin-left: .5rem;'
+					: 'padding: 0.25rem;'}
 				height={'1.5rem'}
 				fill={(subscriptions &&
 					user?.id &&
@@ -197,7 +205,7 @@
 	{#if parentType !== 'question'}
 		<button
 			title="Like"
-			class="tablinks"
+			class=""
 			style="{parentType === 'question' ? '' : 'padding: 0.25rem;'}color: {likes &&
 				user?.id &&
 				likes.some((e) => e.user_id === user?.id) &&
@@ -220,15 +228,17 @@
 	{#if parentType === 'question'}
 		<button
 			title="Share"
-			class="tablinks "
+			class=""
 			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
 			on:click={() => console.log('share')}
 		>
-			{#if parentType === 'question'}
+			{#if parentType === 'question' && innerWidth > 575}
 				Share
 			{/if}
 			<ShareIcon
-				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
+				iconStyle={parentType === 'question' && innerWidth > 575
+					? 'margin-left: .5rem;'
+					: 'padding: 0.25rem;'}
 				height={'1.5rem'}
 				fill={''}
 			/>
@@ -360,12 +370,12 @@ interface QuestionObject {
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
-	.actions {
+	.interaction-div-display {
 		overflow: hidden;
 		display: flex;
 	}
 
-	.actions button {
+	.interaction-div-display button {
 		background-color: var(--color-bg-0);
 		// float: left;
 		border: none;
@@ -375,26 +385,19 @@ interface QuestionObject {
 		transition: 0.3s;
 		font-size: 1rem;
 		border-radius: 5px;
-	}
-
-	/* Change background color of buttons on hover */
-	.actions button:hover {
-		background-color: var(--color-bg-0);
-		border-radius: 5px;
-		border: 1px solid var(--color-bg-2);
-	}
-	.tablinks {
 		display: flex;
 		margin: 0 0 0.25rem 0.25rem;
 		justify-content: center;
 		align-items: center;
 	}
-	// .interact-card {
-	// 	margin: 2rem;
-	// 	padding: 1rem;
-	// 	box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
-	// 		0 1px 5px 0 rgb(0 0 0 / 12%);
-	// }
+
+	/* Change background color of buttons on hover */
+	.interaction-div-display button:hover {
+		background-color: var(--color-bg-0);
+		border-radius: 5px;
+		border: 1px solid var(--color-bg-2);
+	}
+
 	.interact-text-container {
 		position: relative;
 		width: 100%;
@@ -415,6 +418,16 @@ interface QuestionObject {
 		top: 5px;
 		left: calc(100% - 73px);
 	}
-	.interact-button {
+
+	@media all and (max-width: 576px) {
+		.interaction-div-display {
+			gap: 0.25rem;
+			margin: 0.25rem;
+		}
+
+		.interaction-div-display button {
+			flex: 1;
+			margin: 0;
+		}
 	}
 </style>

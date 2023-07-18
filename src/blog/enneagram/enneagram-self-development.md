@@ -39,7 +39,7 @@ pic: 'working-on-yourself'
 
 <p class="firstLetter">If you've been exploring the world of self-help and personal development, chances are you've come across the Enneagram. It offers a unique perspective on our strengths, weaknesses, and inner motivations, allowing us to deepen our self-awareness and make positive changes in our lives.</p>
 
-However lessons learned through self-help can be healing and inspiring, but they can also make us feel like we're failing. It's important to remember that developing self-awareness is a potentially endless pursuit. There will be good days and bad days, but there is no finish line. The Enneagram can be used as a tool to support you on your journey, helping you navigate the ups and downs with greater clarity and compassion.
+Yet lessons learned through self-help can be healing and inspiring, and can also make us feel like we're failing. It's important to remember that developing self-awareness is a endless pursuit. There will be good days and bad days, but there is no finish line. The Enneagram can be used as a tool to support you on your journey, helping you navigate the ups and downs with greater clarity and compassion.
 
 At its core, the Enneagram is a system of nine interconnected personality types, each with its own unique strengths and challenges. While it's not necessary to know every detail about each type, having a basic understanding of the system can be helpful in applying it to your own life.
 

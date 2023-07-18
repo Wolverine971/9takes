@@ -23,7 +23,7 @@ pic: ''
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> -->
 
-<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides and so have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
+<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
 <div style="text-align: center;" >
 <img title="Google's human nature definition" src="/blogs/human-nature.webp" alt="Google's human nature definition" />

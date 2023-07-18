@@ -70,10 +70,10 @@ Self-preservation Enneagram subtypes are characterized by an intense focus on ph
 	/>
 </div>
 
-Social Enneagram subtypes are characterized by a strong need for social connection and belonging. These individuals are often highly involved in their communities and are deeply concerned with social issues. There are three social Enneagram subtypes:
+Social Enneagram subtypes are characterized by a strong need for social connection and belonging. These individuals are often involved in their communities and are concerned with social issues. There are three social Enneagram subtypes:
 
-1. Social Ones: Ones with this subtype are often driven by the desire to improve society. They may engage in community service or activism, working tirelessly for a future they perceive as better and more just.
-2. Social Twos: Twos with this subtype are community-oriented, seeking to forge strong relationships and support others around them. They often use their natural ability to understand and meet others' needs as a means of enhancing community wellbeing.
+1. Social Ones: Ones with this subtype are often driven by the desire to improve society. They may engage in community service or activism, working for a future they perceive as better and more just.
+2. Social Twos: Twos with this subtype are community-oriented, seeking to forge strong relationships and support others around them. They often use their natural ability to understand and meet others' needs as a way of enhancing community wellbeing.
 3. Social Threes: Threes with this subtype are concerned with their public image and often work hard to gain recognition and approval from their social networks. They may strive to become a person of influence or status within their communities.
 4. Social Fours: Social Fours are concerned about their place within the community or society, often feeling unique or different from others. They may channel their emotions into social causes or creative pursuits.
 5. Social Fives: Social Fives engage with their community by sharing knowledge or expertise. They may feel a sense of obligation to contribute intellectually.

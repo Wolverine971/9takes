@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import CameraIcon from '../icons/cameraIcon.svelte';
-	import CommentsIcon from '../icons/commentsIcon.svelte';
+	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 	import PostIcon from '../icons/postIcon.svelte';
 	import { Comments } from '../molecules';
 
@@ -9,7 +9,7 @@
 	export let user: any;
 	let question: string = '';
 	let selectedTab: string = 'comments';
-	let _data: any = data;
+	let _data: any;
 
 	$: data, runFunc();
 
@@ -17,44 +17,83 @@
 		console.log('data change');
 		_data = Object.assign({}, data);
 	};
+	let innerWidth: number = 0;
 </script>
 
+<svelte:window bind:innerWidth />
+
 <div class="tab">
-	<button
-		class="tablinks {selectedTab === 'comments' && 'active'}"
-		on:click={() => (selectedTab = 'comments')}
-		>Comments
-		<!-- <img src="/icons/comment-outline.svg" class="icons" /> -->
-		<CommentsIcon
-			iconStyle={'margin-left: .5rem'}
-			height={'1.5rem'}
-			fill={selectedTab === 'comments' ? '#5407d9' : ''}
-		/>
-	</button>
-	<button
-		class="tablinks {selectedTab === 'visuals' && 'active'}"
-		on:click={() => (selectedTab = 'visuals')}
-	>
-		Visuals
-		<!-- <img src="/icons/camera.svg" class="icons" /> -->
-		<CameraIcon
-			iconStyle={'margin-left: .5rem'}
-			height={'1.5rem'}
-			fill={selectedTab === 'visuals' ? '#5407d9' : ''}
-		/>
-	</button>
-	<button
-		class="tablinks {selectedTab === 'articles' && 'active'}"
-		on:click={() => (selectedTab = 'articles')}
-	>
-		Articles
-		<!-- <img src="/icons/post.svg" class="icons" /> -->
-		<PostIcon
-			iconStyle={'margin-left: .5rem'}
-			height={'1.5rem'}
-			fill={selectedTab === 'articles' ? '#5407d9' : ''}
-		/>
-	</button>
+	{#if innerWidth > 575}
+		<button
+			class="tab-links {selectedTab === 'comments' && 'active'}"
+			on:click={() => (selectedTab = 'comments')}
+		>
+			Comments
+			<MasterCommentIcon
+				iconStyle={'margin-left: .5rem'}
+				height={'1.5rem'}
+				fill={selectedTab === 'comments' ? '#5407d9' : ''}
+				type={'multiple'}
+			/>
+		</button>
+		<button
+			class="tab-links {selectedTab === 'visuals' && 'active'}"
+			on:click={() => (selectedTab = 'visuals')}
+		>
+			Visuals
+			<CameraIcon
+				iconStyle={'margin-left: .5rem'}
+				height={'1.5rem'}
+				fill={selectedTab === 'visuals' ? '#5407d9' : ''}
+			/>
+		</button>
+		<button
+			class="tab-links {selectedTab === 'articles' && 'active'}"
+			on:click={() => (selectedTab = 'articles')}
+		>
+			Articles
+			<PostIcon
+				iconStyle={'margin-left: .5rem'}
+				height={'1.5rem'}
+				fill={selectedTab === 'articles' ? '#5407d9' : ''}
+			/>
+		</button>
+	{:else}
+		<button
+			class="tab-links {selectedTab === 'comments' && 'active'}"
+			on:click={() => (selectedTab = 'comments')}
+		>
+			<MasterCommentIcon
+				iconStyle={''}
+				height={'1.5rem'}
+				fill={selectedTab === 'comments' ? '#5407d9' : ''}
+				type={'multiple'}
+			/>
+			<span style="text-align: center;">Comments</span>
+		</button>
+		<button
+			class="tab-links {selectedTab === 'visuals' && 'active'}"
+			on:click={() => (selectedTab = 'visuals')}
+		>
+			<CameraIcon
+				iconStyle={''}
+				height={'1.5rem'}
+				fill={selectedTab === 'visuals' ? '#5407d9' : ''}
+			/>
+			<span style="text-align: center;"> Visuals</span>
+		</button>
+		<button
+			class="tab-links {selectedTab === 'articles' && 'active'}"
+			on:click={() => (selectedTab = 'articles')}
+		>
+			<PostIcon
+				iconStyle={''}
+				height={'1.5rem'}
+				fill={selectedTab === 'articles' ? '#5407d9' : ''}
+			/>
+			<span style="text-align: center;"> Articles</span>
+		</button>
+	{/if}
 </div>
 <div class="box">
 	<div class="flexr {selectedTab === 'comments' && 'first'}">
@@ -79,7 +118,7 @@
 		border-radius: 5px;
 		text-align: center;
 	}
-	.tablinks {
+	.tab-links {
 		display: flex;
 		margin: 0.25rem;
 	}
@@ -130,6 +169,23 @@
 	@media (max-width: 768px) {
 		.question-form {
 			flex-direction: column;
+		}
+	}
+
+	@media all and (max-width: 576px) {
+		.tab {
+			margin: 0.25rem;
+			gap: 0.25rem;
+		}
+		.tab-links {
+			flex-direction: column;
+			align-items: center;
+			gap: 0.25rem;
+			// margin: 1rem;
+			// width: 20%;
+		}
+		.question-display {
+			width: 80%;
 		}
 	}
 </style>
