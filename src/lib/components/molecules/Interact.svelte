@@ -48,6 +48,9 @@
 			if (data?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return;
+			} else if (parentType === 'comment') {
+				notifications.info('Must register or login to comment on other comments', 3000);
+				return;
 			}
 			anonymousComment = true;
 		}
@@ -161,7 +164,7 @@
 		title="Comment"
 		class=""
 		style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-		on:click={() => (commenting = true)}
+		on:click={() => (commenting = !commenting)}
 	>
 		{#if parentType === 'question' && innerWidth > 575}
 			Comment

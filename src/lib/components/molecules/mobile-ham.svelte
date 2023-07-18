@@ -31,8 +31,6 @@
 			class="hamburger close-trigger "
 			aria-label="Toggle navigation"
 			on:click={() => {
-				console.log(active);
-
 				getModal().close();
 			}}
 		>
@@ -114,7 +112,7 @@
 	// 	width: fit-content;
 	// 	background-color: #fff;
 	// 	padding: 20px;
-	// 	border: 1px solid black;
+	// 	border: 1px solid var(--color-paladin-3);
 	// 	border-radius: 5px;
 	// }
 
@@ -147,7 +145,7 @@
 		display: block;
 		width: 100%;
 		height: 4px;
-		background-color: black;
+		background-color: var(--color-paladin-3);
 		margin-bottom: 6px;
 		transform: rotate(-45deg);
 		position: relative;
@@ -161,7 +159,7 @@
 			display: block;
 			width: 0%;
 			height: 100%;
-			background-color: black;
+			background-color: var(--color-paladin-3);
 			transition: $slide;
 		}
 
@@ -225,7 +223,7 @@
 			display: block;
 			width: 0%;
 			height: 100%;
-			background-color: black;
+			background-color: var(--color-paladin-3);
 			transition: $slide;
 		}
 

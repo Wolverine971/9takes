@@ -551,7 +551,7 @@
 			box-sizing: border-box;
 
 			.nav-text {
-				// color: black; // #eee;
+				// color: var(--color-paladin-3); // #eee;
 				letter-spacing: 0.28px;
 				text-transform: uppercase;
 				font-weight: 700;
@@ -565,7 +565,7 @@
 			margin-left: auto;
 			font-size: 1rem;
 			padding: 0 2rem;
-			color: black;
+			color: var(--color-paladin-3);
 			// background-color: rgb(240, 248, 255, 0.6);
 
 			a {
@@ -831,7 +831,7 @@
 			color: var(--color-theme-dark-blue);
 		}
 		svg {
-			fill: black; /* set the initial color of the SVG */
+			fill: var(--color-paladin-3); /* set the initial color of the SVG */
 			transition: fill 0.2s ease-in-out; /* add a transition effect */
 		}
 

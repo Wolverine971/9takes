@@ -16,7 +16,7 @@
 	$: comment, matchData();
 
 	const matchData = () => {
-		console.log('data change');
+		console.log('comment', comment);
 		_commentComment = Object.assign({}, comment);
 		_commentData = Object.assign({}, comment);
 	};
@@ -72,12 +72,7 @@
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
-		<div
-			class="drop-down"
-			on:click={() => {
-				loadMore();
-			}}
-		>
+		<div class="drop-down" on:click={loadMore}>
 			<span>Comment Count: {comment.comment_count}</span>
 			{#if !loading}
 				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />

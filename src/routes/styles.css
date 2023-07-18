@@ -18,6 +18,17 @@
 	--color-theme-purple-light: #bc96fd; /* 188, 150, 253  */
 	/* #5407d9; */
 
+	--color-p-origin: #5407d9;
+	--color-p-dark: #261098;
+	--color-p-origin-v: #9f8dff;
+	--color-p-light: #cfc6ff;
+	--color-p-light-rgb: rgb(207, 198, 255);
+
+	--color-paladin-1: #f0f5f9;
+	--color-paladin-2: #c9d6df;
+	--color-paladin-3: #52616b;
+	--color-paladin-4: #1e2922;
+
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -190,7 +201,7 @@ h1 {
 }
 
 /* button {
-	border: double black;
+	border: double var(--color-paladin-3);
 	border-radius: 1px 5px;
 }
 
@@ -205,7 +216,7 @@ button:hover {
 		position: absolute;
 		top: 5px;
 		left: calc(100% - 75px);
-		border: double black;
+		border: double var(--color-paladin-3);
 	}
 	.interact-expand:hover {
 		background-color: grey;
@@ -237,7 +248,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .txt-dark {
-	color: black;
+	color: var(--color-paladin-3);
 	text-shadow: 1px 1px 2px var(--color-theme-purple-v);
 }
 

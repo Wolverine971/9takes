@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import Card from '../atoms/card.svelte';
 	import CameraIcon from '../icons/cameraIcon.svelte';
 	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 	import PostIcon from '../icons/postIcon.svelte';
@@ -25,7 +26,7 @@
 <div class="tab">
 	{#if innerWidth > 575}
 		<button
-			class="tab-links {selectedTab === 'comments' && 'active'}"
+			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
 		>
 			Comments
@@ -37,7 +38,7 @@
 			/>
 		</button>
 		<button
-			class="tab-links {selectedTab === 'visuals' && 'active'}"
+			class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
 			on:click={() => (selectedTab = 'visuals')}
 		>
 			Visuals
@@ -48,7 +49,7 @@
 			/>
 		</button>
 		<button
-			class="tab-links {selectedTab === 'articles' && 'active'}"
+			class="tab-links {selectedTab === 'articles' && 'tab-active'}"
 			on:click={() => (selectedTab = 'articles')}
 		>
 			Articles
@@ -60,7 +61,7 @@
 		</button>
 	{:else}
 		<button
-			class="tab-links {selectedTab === 'comments' && 'active'}"
+			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
 		>
 			<MasterCommentIcon
@@ -72,7 +73,7 @@
 			<span style="text-align: center;">Comments</span>
 		</button>
 		<button
-			class="tab-links {selectedTab === 'visuals' && 'active'}"
+			class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
 			on:click={() => (selectedTab = 'visuals')}
 		>
 			<CameraIcon
@@ -83,7 +84,7 @@
 			<span style="text-align: center;"> Visuals</span>
 		</button>
 		<button
-			class="tab-links {selectedTab === 'articles' && 'active'}"
+			class="tab-links {selectedTab === 'articles' && 'tab-active'}"
 			on:click={() => (selectedTab = 'articles')}
 		>
 			<PostIcon
@@ -95,25 +96,31 @@
 		</button>
 	{/if}
 </div>
-<div class="box">
+<div class="tab-box">
 	<div class="flexr {selectedTab === 'comments' && 'first'}">
-		<h3 class="tabHeader">Comments</h3>
-		<!-- Renders for SEO, removed if not answered -->
-		<Comments data={_data} nested={true} parentType={'question'} {user} />
+		<Card>
+			<h3 class="tab-header">Comments</h3>
+			<!-- Renders for SEO, removed if not answered -->
+			<Comments data={_data} nested={true} parentType={'question'} {user} />
+		</Card>
 	</div>
 
 	<div class="flexr {selectedTab === 'articles' && 'first'}">
-		<h3 class="tabHeader">Articles</h3>
-		<p>nothing right now</p>
+		<Card>
+			<h3 class="tab-header">Articles</h3>
+			<p>nothing right now</p>
+		</Card>
 	</div>
 	<div class="flexr {selectedTab === 'visuals' && 'first'}">
-		<h3 class="tabHeader">Visuals</h3>
-		<p>nothing right now</p>
+		<Card>
+			<h3 class="tab-header">Visuals</h3>
+			<p>nothing right now</p>
+		</Card>
 	</div>
 </div>
 
 <style lang="scss">
-	.tabHeader {
+	.tab-header {
 		border: 1px solid var(--color-bg-2);
 		border-radius: 5px;
 		text-align: center;
@@ -122,13 +129,17 @@
 		display: flex;
 		margin: 0.25rem;
 	}
+	.tab-active {
+		border: var(--classic-border) !important;
+	}
+
 	.flexr {
 		flex: 1 0 100%;
 	}
 	.first {
 		order: -1;
 	}
-	.box {
+	.tab-box {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -137,6 +148,7 @@
 	.tab {
 		overflow: hidden;
 		display: flex;
+		justify-content: space-evenly;
 	}
 
 	/* Style the buttons inside the tab */
@@ -159,12 +171,12 @@
 	}
 
 	/* Create an active/current tablink class */
-	.tab button.active {
-		text-decoration: underline;
-		border-radius: 5px;
-		color: var(--color-theme-purple);
-		border: var(--classic-border);
-	}
+	// .tab button.active {
+	// 	text-decoration: underline;
+	// 	border-radius: 5px;
+	// 	color: var(--color-theme-purple);
+	// 	border: var(--classic-border);
+	// }
 
 	@media (max-width: 768px) {
 		.question-form {
