@@ -90,7 +90,7 @@
 			z-index: -1;
 			top: -16px;
 			right: -16px;
-			background-color: var(--color-theme-purple);
+			// background-color: var(--color-theme-purple);
 			height: 32px;
 			width: 32px;
 			border-radius: 32px;
@@ -106,13 +106,15 @@
 
 	.suggestion-link:hover {
 		transform: rotate(1deg);
+		background-size: 10px 10px;
+		background-image: radial-gradient(circle, var(--color-p-light) 1px, rgba(0, 0, 0, 0) 1px);
 		p {
 			transition: all 0.3s ease-out;
-			color: rgba(255, 255, 255, 0.8);
+			// color: rgba(255, 255, 255, 0.8);
 		}
 		h3 {
 			transition: all 0.3s ease-out;
-			color: #ffffff;
+			// color: #ffffff;
 		}
 	}
 

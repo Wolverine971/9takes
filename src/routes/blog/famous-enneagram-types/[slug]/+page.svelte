@@ -1,5 +1,5 @@
 <script lang="ts">
-	import PeopleSuggestions from '$lib/components/blog/PeopleSuggestions.svelte';
+	import PeopleSuggestions from '$lib/components/blog/SuggestionsPeople.svelte';
 
 	import type { PageData } from './$types';
 	import type { SvelteComponentTyped } from 'svelte/internal';

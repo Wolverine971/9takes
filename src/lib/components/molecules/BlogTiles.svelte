@@ -138,12 +138,10 @@
 	.blog-grid-container .grid-item {
 		margin-bottom: 0.5rem;
 		background-color: rgba(255, 255, 255, 0.5);
-		font-size: 30px;
 		text-align: center;
 		border: var(--classic-border);
 		border-radius: 5px;
 		position: relative;
-		width: 100%;
 		padding: 0.5rem;
 		box-sizing: border-box;
 	}
@@ -163,7 +161,6 @@
 
 	.people-grid-container .grid-item {
 		background-color: rgba(255, 255, 255, 0.5);
-		font-size: 30px;
 		text-align: center;
 		border: var(--classic-border);
 		border-radius: 5px;
@@ -171,38 +168,25 @@
 		max-height: 220px;
 	}
 
-	@media (max-width: 800px) {
-		h3 {
-			font-size: 1.5rem;
-		}
-		.people-grid-container {
-			grid-template-columns: 1fr 1fr !important;
-		}
-		.blog-grid-container {
-			column-count: 2 !important;
-			grid-template-columns: 1fr 1fr !important;
-		}
-		/* .grid-container {
-			display: grid;
-			grid-template-columns: auto auto auto; 
-			grid-gap: 20px;
-			padding: 20px;
-		} */
-		h3 {
-			font-size: 2rem;
-		}
-		.font-adjust-p {
-			font-size: x-large;
-		}
-	}
-
 	@media (max-width: 550px) {
+		h3 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.7rem;
+		}
+
+		.temp-three-row {
+			grid-template-columns: 30vw 30vw 30vw;
+		}
 		.people-grid-container {
-			grid-template-columns: 1fr !important;
+			grid-template-columns: 30vw 30vw 30vw;
 		}
 		.blog-grid-container {
-			column-count: 1 !important;
-			grid-template-columns: 1fr !important;
+			grid-template-columns: 30vw 30vw 30vw;
+		}
+		.inline-it {
+			width: 30vw;
 		}
 	}
 </style>

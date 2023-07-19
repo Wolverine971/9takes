@@ -6,7 +6,7 @@
 	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import Card from '$lib/components/atoms/card.svelte';
-	import BlogList from '$lib/components/blog/BlogList.svelte';
+	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
@@ -24,7 +24,7 @@
 
 <hr style="margin: 5rem;" />
 
-<BlogList posts={data?.posts} />
+<SuggestionsBlog posts={data?.posts} />
 
 <div class="join">
 	{#if !data?.session?.user}
