@@ -17,7 +17,7 @@
 				{#if cBlog.pic}
 					<img
 						class="grid-img"
-						src={`/blogs/${cBlog.pic}.webp`}
+						src={`/blogs/s-${cBlog.pic}.webp`}
 						alt={cBlog.pic.split('-').join(' ')}
 					/>
 				{/if}
@@ -44,7 +44,7 @@
 				{#if person.enneagram}
 					<img
 						class="grid-img"
-						src={`/types/${person.enneagram}s/${person.slug}.webp`}
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
@@ -66,7 +66,7 @@
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
 				style={eBlog.pic &&
-					`background-image: url(${`/blogs/${eBlog.pic}.webp`}); background-size: cover;`}
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
 				<div class="card txt-white border-0  {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
