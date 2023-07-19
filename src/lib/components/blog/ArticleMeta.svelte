@@ -21,4 +21,11 @@
 	.date {
 		color: var(--color-text-secondary);
 	}
+
+	@media (max-width: 500px) {
+		p {
+			margin: calc(var(--spacing-unit));
+			margin-bottom: calc(var(--spacing-unit));
+		}
+	}
 </style>

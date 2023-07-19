@@ -33,8 +33,19 @@
 		margin-top: calc(var(--spacing-unit) * 1);
 		font-size: 3rem;
 	}
-	p {
-		margin: 0;
-		margin-bottom: var(--spacing-unit);
+	@media (max-width: 1200px) {
+		.large {
+			font-size: 2rem;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.large {
+			font-size: 1.5rem;
+		}
+
+		p {
+			margin-bottom: calc(var(--spacing-unit) / 2);
+		}
 	}
 </style>

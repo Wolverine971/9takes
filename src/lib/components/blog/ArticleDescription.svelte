@@ -18,4 +18,9 @@
 		margin: 0;
 		margin-bottom: calc(var(--spacing-unit) * 2);
 	}
+	@media (max-width: 500px) {
+		p {
+			margin: calc(var(--spacing-unit));
+		}
+	}
 </style>

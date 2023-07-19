@@ -1,0 +1,120 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { afterNavigate } from '$app/navigation';
+	import { page } from '$app/stores';
+	let navSteps: { name: string; url: string }[] = [];
+	onMount(async () => {
+		console.log($page.route);
+		if ($page.route.id) {
+			await displayRoute();
+		}
+	});
+	// $: if ($afterNavigate) displayRoute();
+
+	afterNavigate(() => {
+		displayRoute();
+	});
+
+	const displayRoute = async () => {
+		if ($page.route.id) {
+			const tempSteps = $page.route.id.split('/').filter((x) => !!x);
+
+			// .shift();
+			// tempSteps.pop();
+			if (tempSteps) {
+				const tempNavSteps = tempSteps.map((step, i) => {
+					let url = getHref(i + 1, tempSteps);
+					return {
+						name: step.split('-').join(' '),
+						url
+					};
+				});
+
+				// tempNavSteps.shift();
+				tempNavSteps.pop();
+				navSteps = tempNavSteps;
+			}
+		}
+	};
+
+	const getHref = (index: number, steps: string[]) => {
+		const newPath = steps.slice(0, index).join('/');
+		return '/' + newPath;
+	};
+</script>
+
+{#if navSteps.length}
+	<div style="max-width: 64rem; margin: auto;">
+		<div class="back-nav" style="width: 100%">
+			{#each navSteps as step}
+				<a href={step.url} class="marquee-text">{step.name}</a>
+				<span class="marquee-text">></span>
+			{/each}
+			<!-- <div class="track-horizontal-alt" style="">
+		<span style="width:50%; flex: 1">
+			
+		</span>
+	</div> -->
+		</div>
+	</div>
+{/if}
+
+<style lang="scss">
+	.marquee-text {
+		color: var(--color-p-origin) !important;
+		text-transform: uppercase;
+		flex: none;
+		font-size: 1.2rem;
+		margin: 2rem;
+	}
+	a::after {
+		// background: white;
+		margin: 0 0.2rem;
+	}
+	.back-nav {
+		z-index: 200;
+		width: 100%;
+		height: 2rem;
+		outline-offset: -1px;
+		object-fit: scale-down;
+		// border-top: 3px solid var(--color-theme-purple-v);
+		border-bottom: 3px solid var(--color-theme-purple-v);
+		outline: 2px solid #fdfdfb;
+		justify-content: start;
+		max-width: 64rem;
+		align-items: center;
+		display: flex;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.track-horizontal-alt {
+		// border-top: 1px solid grey;
+		// border-bottom: 1px solid grey;
+		// position: absolute;
+		white-space: nowrap;
+		will-change: transform;
+		// animation: back-nav-alt 15s linear infinite;
+		/* manipulate the speed of the marquee by changing "40s" line above*/
+		display: inline-flex;
+		justify-content: center;
+		gap: 3rem;
+		align-items: center;
+		overflow: hidden;
+	}
+
+	@keyframes back-nav-alt {
+		from {
+			transform: translateX(-50%);
+		}
+		to {
+			transform: translateX(0%);
+		}
+	}
+
+	@media (max-width: 500px) {
+		.marquee-text {
+			margin: 0.8rem;
+		}
+	}
+</style>
