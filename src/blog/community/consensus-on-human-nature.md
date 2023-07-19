@@ -117,16 +117,17 @@ th {
 }
 
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

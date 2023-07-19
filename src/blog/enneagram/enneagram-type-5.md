@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Type 5's are know as the "observer" or the "investigator". They are known for their analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.</p>
@@ -57,7 +58,9 @@ While Type 5 individuals possess many strengths, they also face a number of chal
 - Isolation: Type 5 individuals value their privacy and solitude, which can lead to isolation and lack of social connection.
 - Overthinking: Type 5 individuals have a tendency to overthink and overanalyze, which can lead to stress and anxiety.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -341,16 +344,17 @@ th {
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

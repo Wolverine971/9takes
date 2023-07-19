@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Type 6 is often referred to as the Loyalist or the Questioner. They are the quintessential team players and are highly committed to their relationships and communities. The Loyalists value security, safety, and stability and can be apprehensive when these things are threatened. They seek to find a sense of belonging and often form strong bonds with their friends, family, and colleagues.</p>
@@ -49,7 +50,9 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 
 While Type 6's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6's can have a hard time trusting their own abilities and may struggle with self-doubt.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -353,16 +356,17 @@ th {
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

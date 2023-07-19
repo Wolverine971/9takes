@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.</p> 
@@ -55,7 +56,9 @@ Type 7 individuals possess a number of strengths that make them valuable members
 - Lack of commitment: Type 7s can struggle with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
 - Avoidance of negative emotions: Type 7s can struggle with negative emotions and may avoid dealing with them by seeking out new experiences or distracting themselves in other ways.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -306,22 +309,7 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
 .scroll-table {
     overflow-x: scroll;
 }
-/* tr {
 
-    border: var(--classic-border);
-    text-align: center;
-}
-td {
-
-    border: var(--classic-border);
-    text-align: center;
-}
-th {
-
-    border: var(--classic-border);
-    text-align: center;
-}
- */
 table {
     width: 100%;
     margin-bottom: 1rem;
@@ -354,17 +342,19 @@ td {
     border: var(--classic-border);
     text-align: center;
 }
+
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

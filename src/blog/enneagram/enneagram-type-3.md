@@ -19,6 +19,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Enneagram Type 3, also known as "The Achiever," is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.</p>
@@ -53,7 +54,9 @@ While Type 3 individuals possess many strengths, they also face a number of chal
 - Workaholism: Type 3 individuals are often highly ambitious and driven to succeed, which can lead to workaholism and neglect of their own needs and relationships.
 - Inauthenticity: Type 3 individuals often adapt to different situations in order to be successful, which can lead to inauthenticity and loss of their true selves.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -344,16 +347,17 @@ th {
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

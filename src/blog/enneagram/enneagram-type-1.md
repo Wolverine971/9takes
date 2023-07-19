@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three types in the Action Center/ Gut Triad. People of this type are driven by a desire to live up to their high ideals and principles, and to make the world a better place through their actions.</p>
@@ -61,7 +62,9 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 - Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their own needs for self-care. They may struggle with self-compassion and may have a hard time giving themselves permission to take a break or rest.
 - Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may struggle with being open-minded and receptive to different perspectives.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -479,16 +482,17 @@ th {
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

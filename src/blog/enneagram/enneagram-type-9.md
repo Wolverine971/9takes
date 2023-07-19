@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Enneagram Type 9 personalities are known for their ability to maintain harmony and avoid conflict in their relationships. They are empathetic, optimistic, and have a strong desire to create a peaceful and comfortable environment for themselves and others. In this article, we will explore the Enneagram Type 9 personality in detail, including their strengths, weaknesses, and how they can better understand themselves.</p>
@@ -68,7 +69,9 @@ Some of the key weaknesses of the Enneagram Type 9 personality include:
 - Tendency to become overly accommodating or indecisive
 - Struggle to set clear boundaries or say no to others
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -343,17 +346,52 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 .scroll-table {
     overflow-x: scroll;
 }
+
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border: var(--classic-border);
+
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
 tr {
-    border: var(--classic-border);
-    text-align: center;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
-td {
-    border: var(--classic-border);
-    text-align: center;
-}
+
 th {
+    border-bottom-width: 2px;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border: var(--classic-border);
+    padding: 0.75rem;
+}
+
+td {
+    padding: 0.75rem;
+    vertical-align: top;
     border: var(--classic-border);
     text-align: center;
+}
+
+.scroll-table::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.scroll-table::-webkit-scrollbar-track {
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
+}
+
+.scroll-table::-webkit-scrollbar-thumb {
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

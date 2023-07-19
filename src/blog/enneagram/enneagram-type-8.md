@@ -20,6 +20,7 @@ type: ['overview']
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Type 8, also known as The Challenger, is a personality type characterized by their assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.</p>
@@ -42,7 +43,9 @@ While Type 8's have many strengths, they also have some weaknesses. One of their
 
 Type 8s can struggle with issues related to control, as well as anger and impulsivity. They may have difficulty accepting vulnerability or admitting when they are wrong. In relationships, Type 8s may struggle with giving up control or appearing weak. Understanding these challenges can help Type 8s work on personal growth and develop healthier relationships.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -315,23 +318,55 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 </div>
 
 <style>
-    .scroll-table {
+.scroll-table {
     overflow-x: scroll;
 }
+
+table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border: var(--classic-border);
+
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
 tr {
-
-    border: var(--classic-border);
-    text-align: center;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
-td {
 
-    border: var(--classic-border);
-    text-align: center;
-}
 th {
+    border-bottom-width: 2px;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border: var(--classic-border);
+    padding: 0.75rem;
+}
 
+td {
+    padding: 0.75rem;
+    vertical-align: top;
     border: var(--classic-border);
     text-align: center;
+}
+
+.scroll-table::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.scroll-table::-webkit-scrollbar-track {
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
+}
+
+.scroll-table::-webkit-scrollbar-thumb {
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>

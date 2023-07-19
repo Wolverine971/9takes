@@ -19,6 +19,7 @@ type: 'overview'
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Enneagram Type 4 is known as The Individualist, and is one of the three types in the Feeling Center/ Heart Triad. This means that they make decisions based on their emotions and have a strong connection to their inner world. Type 4 individuals have a deep desire to be unique and to express themselves creatively. They often feel like they don't quite fit in, and may struggle with a sense of longing or melancholy.</p>
@@ -55,7 +56,9 @@ Enneagram Type 4 individuals are also known for their empathy and compassion. Th
 
 Individualists can be moody and withdrawn, making it difficult for them to form and maintain relationships. They can also be prone to self-doubt and insecurity, which can hold them back from pursuing their goals. Additionally, they may struggle with feeling misunderstood and disconnected from others.
 
-Learn more about [other types in the strengths and weaknesses](/blog/enneagram/enneagram-strengths-and-weaknesses)
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Motivations
 
@@ -331,16 +334,17 @@ th {
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {
-    width: 4px;
+    width: 1rem;
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 4px slategrey;
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: slategrey;
-    /*outline: .5px solid slategrey;*/
+    background-color: var(--color-p-origin);
+    border-radius:5px
 }
 
 </style>
