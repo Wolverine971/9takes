@@ -204,10 +204,9 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

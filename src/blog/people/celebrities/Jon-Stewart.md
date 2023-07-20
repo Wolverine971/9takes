@@ -223,10 +223,9 @@ As we continue to peel back the layers of personalities, we invite you to join u
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

@@ -163,10 +163,9 @@ Enneagram Criticisms (200 words)
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

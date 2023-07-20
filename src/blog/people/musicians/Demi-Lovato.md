@@ -260,10 +260,9 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

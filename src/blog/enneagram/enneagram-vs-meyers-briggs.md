@@ -214,10 +214,9 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

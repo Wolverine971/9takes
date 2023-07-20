@@ -214,10 +214,9 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

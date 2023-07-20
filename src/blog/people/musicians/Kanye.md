@@ -214,10 +214,9 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

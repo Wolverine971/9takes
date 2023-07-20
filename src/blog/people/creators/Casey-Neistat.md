@@ -268,10 +268,9 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
 
 <style lang="scss">
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 0.5rem;
     border: none;
     text-align: left;
     outline: none;

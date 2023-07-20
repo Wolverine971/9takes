@@ -256,3 +256,8 @@ body::-webkit-scrollbar-thumb {
 	text-shadow: -1px -1px 0 var(--color-theme-purple), 1px -1px 0 var(--color-theme-purple),
 		-1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+details {
+	border-top: 3px solid var(--color-theme-purple-v);
+	border-left: 3px solid var(--color-theme-purple-v);
+}
