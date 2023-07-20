@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/Lex-Fridman'
 lastmod: '2023-05-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-	import type { PageData } from '../$types';
+	import type { PageData } from './$types';
 
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';

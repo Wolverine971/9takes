@@ -33,7 +33,7 @@ margin: 1rem 0;"
 		showIcon={false}
 		tint={true}
 		displayText=""
-		altText="me and my wife arguing 💑"
+		altText="My wifey and I arguing 💑"
 		subtext=""
 	/>
 </div>

@@ -12,7 +12,9 @@
 			{ name: 'Nelson-Mandela', link: false },
 			{ name: 'Ruth-Bader-Ginsburg', link: true },
 			{ name: 'Steve-Jobs', link: false },
-			{ name: 'Brene-Brown', link: false }
+			{ name: 'Brene-Brown', link: false },
+			{ name: 'Gandhi', link: false },
+			{ name: 'Morgan-Freeman', link: false }
 		],
 		2: [
 			{ name: 'Oprah-Winfrey', link: true },
@@ -34,7 +36,9 @@
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
 			{ name: 'Reese-Witherspoon', link: false },
-			{ name: 'Jake-Paul', link: true }
+			{ name: 'Jake-Paul', link: true },
+			{ name: 'Justin-Bieber', link: false },
+			{ name: 'Tom-Cruise', link: false }
 		],
 		4: [
 			{ name: 'Demi-Lovato', link: true },
@@ -48,10 +52,14 @@
 		5: [
 			{ name: 'Bill-Gates', link: false },
 			{ name: 'Elon-Musk', link: false },
+			{ name: 'Jack-Dorsey', link: false },
+			{ name: 'Mark-Zuckerberg', link: false },
 			{ name: 'Emily-Dickinson', link: false },
 			{ name: 'Stephen-Hawking', link: false },
 			{ name: 'Albert-Einstein', link: false },
-			{ name: 'Agatha-Christie', link: false }
+			{ name: 'Agatha-Christie', link: false },
+			{ name: 'Rooney-Mara', link: false },
+			{ name: 'Friedrich-Nietzsche', link: false }
 		],
 		6: [
 			{ name: 'Marilyn-Monroe', link: true },
@@ -60,7 +68,8 @@
 			{ name: 'George-H-W-Bush', link: true },
 			{ name: 'Mindy-Kaling', link: false },
 			{ name: 'Mark-Twain', link: false },
-			{ name: 'Prince-Harry', link: true }
+			{ name: 'Prince-Harry', link: true },
+			{ name: 'Malcom-X', link: false }
 		],
 		7: [
 			{ name: 'Logan-Paul', link: true },
@@ -82,7 +91,8 @@
 			{ name: 'Ernest-Hemingway', link: false },
 			{ name: 'Martin-Luther-King-Jr', link: true },
 			{ name: 'Winston-Churchill', link: true },
-			{ name: 'Chelsea-Handler', link: false }
+			{ name: 'Chelsea-Handler', link: false },
+			{ name: 'Denzel-Washington', link: false }
 		],
 		9: [
 			{ name: 'Billie-Eilish', link: true },
@@ -93,7 +103,8 @@
 			{ name: 'Zooey-Deschanel', link: false },
 			{ name: 'Pete-Davidson', link: true },
 			{ name: 'Queen-Elizabeth-II', link: true },
-			{ name: 'Ronald-Reagan', link: true }
+			{ name: 'Ronald-Reagan', link: true },
+			{ name: 'Leonardo-DiCaprio', link: false }
 		]
 	};
 	// onMount(() => {

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
-	import type { PageData } from '../$types';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 </script>

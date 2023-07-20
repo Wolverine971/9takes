@@ -2,8 +2,7 @@
 	import { page } from '$app/stores';
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
-	import type { PageData } from '../../../routes/$types';
-	export let data: PageData;
+	export let data: any;
 </script>
 
 <footer class="footer">

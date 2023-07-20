@@ -55,7 +55,7 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "Jon-Stewart.png" -o "Jon-Stewart.webp"
+cwebp "Audrey_Hepburn.png" -o "Audrey_Hepburn.webp"
 
 <!--
 ## transitions

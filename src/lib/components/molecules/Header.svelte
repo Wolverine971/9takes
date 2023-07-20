@@ -4,7 +4,6 @@
 
 	import MobileHam from './mobile-ham.svelte';
 
-	import type { PageData } from '../../../routes/$types';
 	// import NavbarLinks from './NavbarLinks.svelte';
 	import { afterUpdate } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
@@ -13,7 +12,7 @@
 	import Scribble from '../atoms/scribble.svelte';
 
 	// import rubixThick from './darkRubixThick.svg';
-	export let data: PageData;
+	export let data: any;
 	let innerWidth: number;
 	let isOpen = false;
 	let isLoading = true;

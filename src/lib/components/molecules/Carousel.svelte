@@ -14,7 +14,9 @@
 			'Nelson-Mandela',
 			'Ruth-Bader-Ginsburg',
 			'Steve-Jobs',
-			'Brene-Brown'
+			'Brene-Brown',
+			'Gandhi',
+			'Morgan-Freeman'
 		],
 		2: [
 			'Dolly-Parton',
@@ -35,7 +37,9 @@
 			'Taylor-Swift',
 			'Reese-Witherspoon',
 			'Kim-Kardashian',
-			'Jake-Paul'
+			'Jake-Paul',
+			'Justin-Bieber',
+			'Tom-Cruise'
 		],
 		4: [
 			'Demi-Lovato',
@@ -49,10 +53,13 @@
 		5: [
 			'Bill-Gates',
 			'Elon-Musk',
+			'Jack-Dorsey',
+			'Mark-Zuckerberg',
 			'Emily-Dickinson',
 			'Stephen-Hawking',
 			'Albert-Einstein',
-			'Agatha-Christie'
+			'Agatha-Christie',
+			'Friedrich-Nietzsche'
 		],
 		6: [
 			'Marilyn-Monroe',
@@ -61,7 +68,8 @@
 			'George-W-Bush',
 			'Mindy-Kaling',
 			'Mark-Twain',
-			'Prince-Harry'
+			'Prince-Harry',
+			'Malcom-X'
 		],
 		7: [
 			'Logan-Paul',
@@ -84,7 +92,8 @@
 			'Ernest-Hemingway',
 			'Martin-Luther-King-Jr',
 			'Winston-Churchill',
-			'Chelsea-Handler'
+			'Chelsea-Handler',
+			'Denzel-Washington'
 		],
 		9: [
 			'Abraham-Lincoln',
@@ -95,7 +104,8 @@
 			'Zooey-Deschanel',
 			'Pete-Davidson',
 			'Queen-Elizabeth-II',
-			'Ronald-Reagan'
+			'Ronald-Reagan',
+			'Leonardo-DiCaprio'
 		]
 	};
 	let w: any;

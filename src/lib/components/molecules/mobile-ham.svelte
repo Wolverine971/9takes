@@ -1,10 +1,9 @@
 <script lang="ts">
-	import type { PageData } from '../../../routes/$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	import { page } from '$app/stores';
 
-	export let data: PageData;
+	export let data: any;
 
 	let active = false;
 </script>

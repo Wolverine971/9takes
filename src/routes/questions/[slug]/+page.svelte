@@ -3,17 +3,10 @@
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import { onMount } from 'svelte';
-	import type { PageData } from '../$types';
-
-	interface QuestionData extends PageData {
-		question: any;
-		comments: any;
-		comment_count: number;
-		flags: any;
-	}
+	import type { PageData } from './$types';
 
 	/** @type {import('./$types').PageData} */
-	export let data: QuestionData;
+	export let data: PageData;
 
 	let dataForChild = Object.assign({}, data.question, {
 		comments: data.comments,
@@ -24,8 +17,8 @@
 	const addComment = async (newComment: any) => {
 		// flags.userHasAnswered = true
 		dataForChild = Object.assign({}, data.question, {
-			comments: [newComment, ...dataForChild.comments],
-			comment_count: (data.comment_count += 1),
+			comments: dataForChild.comments ? [newComment, ...dataForChild.comments] : [newComment],
+			comment_count: data.comment_count ? (data.comment_count += 1) : 1,
 			flags: Object.assign({}, data.flags, { userHasAnswered: true })
 		});
 	};
