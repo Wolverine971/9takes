@@ -41,59 +41,105 @@
 </svelte:head>
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
-<div class="blog-list">
+<div class="blog-list tile-display">
 	<h3 class="position-center">Celebrities</h3>
-	<ul>
+	<div class="people-grid-container">
 		{#each celebrities as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
 		{/each}
-	</ul>
+	</div>
 
 	<h3 class="position-center">Musicians</h3>
-	<ul>
+
+	<div class="people-grid-container">
 		{#each musicians as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
 		{/each}
-	</ul>
+	</div>
 
 	<h3 class="position-center">Creators</h3>
-	<ul>
+	<div class="people-grid-container">
 		{#each creators as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
 		{/each}
-	</ul>
+	</div>
+
 	<h3 class="position-center">Politicians</h3>
-	<ul>
+	<div class="people-grid-container">
 		{#each politicians as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
 		{/each}
-	</ul>
+	</div>
+
 	<h3 class="position-center">Artists</h3>
-	<ul>
-		{#each historicals as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person?.slug?.split('-').join(' ')}
-				</a>
-			</li>
-		{/each}
-	</ul>
+	{#each historicals as person}
+		<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			{#if person.enneagram}
+				<img
+					class="grid-img"
+					src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+					alt={person.slug.split('-').join(' ')}
+				/>
+			{/if}
+			<div class="card fit-card txt-white border-0 ">
+				<h3>
+					{person.slug.split('-').join(' ')}
+				</h3>
+			</div>
+		</a>
+	{/each}
 	<!-- <h3 class="position-center">Techies</h3>
 	<ul>
 		{#each techies as person}
@@ -142,7 +188,6 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		max-width: 250px;
 
 		// .row {
 		// 	display: flex;
@@ -179,5 +224,74 @@
 		// 		padding: 0 10%;
 		// 	}
 		// }
+	}
+
+	p {
+		font-size: 1rem;
+	}
+	a::after {
+		display: none !important;
+	}
+	a:hover {
+		text-decoration: none;
+		filter: sepia(100%) hue-rotate(160deg);
+		border: 1px solid var(--color-theme-purple) !important;
+	}
+
+	.inline-it {
+		display: inline-block;
+	}
+
+	.grid-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.fit-card {
+		position: absolute;
+		/* top: 0;
+		right: 0; */
+		top: 50%;
+		left: 50%;
+		margin: 0 auto;
+		transform: translate(-50%, -50%);
+		z-index: 23124343245235435;
+		padding: 1rem;
+	}
+
+	.people-grid-container {
+		width: 100%;
+		display: grid;
+		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+		grid-template-columns: 1fr 1fr 1fr;
+		column-count: 3;
+		column-gap: 1.25rem;
+		grid-gap: 0.5rem;
+		/* padding: 20px; */
+		/* column-count: 3;
+		column-gap: 0.5rem;
+		orphans: 1; */
+	}
+
+	.people-grid-container .grid-item {
+		background-color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		border: var(--classic-border);
+		border-radius: 5px;
+		position: relative;
+		max-height: 220px;
+	}
+
+	@media (max-width: 550px) {
+		h3 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.7rem;
+		}
+		.people-grid-container {
+			grid-template-columns: 30vw 30vw 30vw;
+		}
 	}
 </style>
