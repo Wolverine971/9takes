@@ -3,6 +3,7 @@
 	import Comments from './Comments.svelte';
 	import Interact from './Interact.svelte';
 	import DownIcon from '../icons/downIcon.svelte';
+	import { notifications } from './notifications';
 
 	export let user: any;
 	export let comment: any;
@@ -30,6 +31,10 @@
 		: null;
 
 	const loadMore = async () => {
+		if (!user) {
+			notifications.info('Must register or login to see nested comments', 3000);
+			return;
+		}
 		loading = true;
 		await fetch(`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
 			.then((response) => response.json())

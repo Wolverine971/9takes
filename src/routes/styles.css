@@ -35,7 +35,6 @@
 	--spacing-unit: 5px;
 
 	--font-size: 16px;
-	--classic-border: var(--classic-border);
 
 	font-family: var(--font-body);
 	color: var(--color-text);

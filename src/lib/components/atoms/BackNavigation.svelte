@@ -80,7 +80,7 @@
 		// border-top: 3px solid var(--color-theme-purple-v);
 		border-bottom: 3px solid var(--color-theme-purple-v);
 		outline: 2px solid #fdfdfb;
-		justify-content: start;
+		justify-content: flex-start;
 		max-width: 64rem;
 		align-items: center;
 		display: flex;

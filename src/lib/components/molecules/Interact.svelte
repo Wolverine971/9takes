@@ -27,15 +27,15 @@
 		? [...data?.question?.subscriptions]
 		: [];
 
-	/** @type {import('./$types').PageData} */
-	// export let data: PageData;
-
 	$: data, watchData();
 
 	let anonymousComment = false;
 
 	const watchData = () => {
 		console.log(data.comment_like);
+		if (!data?.flags?.userHasAnswered) {
+			commenting = true;
+		}
 		likes = data?.comment_like ? [...data.comment_like] : [];
 		subscriptions = data?.question?.subscriptions ? [...data?.question?.subscriptions] : [];
 	};
@@ -386,7 +386,7 @@ interface QuestionObject {
 		cursor: pointer;
 		padding: 0.5rem;
 		transition: 0.3s;
-		font-size: 1rem;
+		font-size: 0.75rem;
 		border-radius: 5px;
 		display: flex;
 		margin: 0 0 0.25rem 0.25rem;

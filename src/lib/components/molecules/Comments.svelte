@@ -47,7 +47,6 @@
 </script>
 
 <p>
-	Count: {comment_count}
 	{#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && _data?.flags?.userHasAnswered}
 		<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 	{/if}
