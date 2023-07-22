@@ -2,7 +2,6 @@
 	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 
 	export let questionData: any;
-	console.log(questionData);
 
 	const dateObj = new Date(questionData.created_at);
 	const month = dateObj.getUTCMonth() + 1; //months from 1-12

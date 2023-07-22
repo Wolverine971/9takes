@@ -32,8 +32,7 @@
 	let anonymousComment = false;
 
 	const watchData = () => {
-		console.log(data.comment_like);
-		if (!data?.flags?.userHasAnswered) {
+		if (!data?.flags?.userHasAnswered && parentType === 'question') {
 			commenting = true;
 		}
 		likes = data?.comment_like ? [...data.comment_like] : [];
@@ -44,7 +43,7 @@
 	let commenting: boolean = false;
 
 	const createComment = async () => {
-		if (!data?.flags?.userSignedIn) {
+		if (!data?.flags?.userSignedIn && !user.id) {
 			if (data?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return;

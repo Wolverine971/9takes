@@ -30,7 +30,6 @@ type: ['overview']
 <Carousel type={5} gridDisplay={true}/>
 <br>
 
-
 ## Characteristics
 
 - A strong desire for knowledge and information

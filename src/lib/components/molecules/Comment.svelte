@@ -4,6 +4,7 @@
 	import Interact from './Interact.svelte';
 	import DownIcon from '../icons/downIcon.svelte';
 	import { notifications } from './notifications';
+	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
 
 	export let user: any;
 	export let comment: any;
@@ -17,14 +18,11 @@
 	$: comment, matchData();
 
 	const matchData = () => {
-		console.log('comment', comment);
 		_commentComment = Object.assign({}, comment);
 		_commentData = Object.assign({}, comment);
 	};
 
 	let loading: boolean = false;
-
-	console.log(comment);
 
 	const lastDate = comment?.comments?.length
 		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
@@ -39,7 +37,6 @@
 		await fetch(`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
 			.then((response) => response.json())
 			.then((newcommentData) => {
-				console.log(newcommentData);
 				if (!_commentComment.comments) {
 					_commentComment.comments = [];
 				}
@@ -60,7 +57,7 @@
 	};
 </script>
 
-<Card>
+<Card style="margin: .5rem 0; padding: .5rem;">
 	<!-- <p>Comment: {comment?.comment}</p> -->
 	<input class="comment-box" type="text" bind:value={_commentComment.comment} readonly />
 
@@ -77,17 +74,24 @@
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
-		<div class="drop-down" on:click={loadMore}>
-			<span>Comment Count: {comment.comment_count}</span>
+		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments">
+			{comment.comment_count}
+			<MasterCommentIcon
+				iconStyle={'padding: 0.25rem;'}
+				height={'1rem'}
+				fill={'#5407d9'}
+				type={'multiple'}
+			/>
 			{#if !loading}
-				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
+				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
 			{/if}
-		</div>
+		</button>
 	{/if}
 </Card>
 
 <style lang="scss">
 	.drop-down {
+		width: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;

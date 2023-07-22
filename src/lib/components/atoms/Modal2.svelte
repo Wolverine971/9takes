@@ -12,21 +12,21 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
 
-	let topDiv;
+	let topDiv: HTMLDivElement | null;
 	let visible = false;
-	let prevOnTop;
-	let closeCallback;
+	let prevOnTop: null;
+	let closeCallback: (arg0: any) => void;
 	export let navTop: boolean = false;
 
 	export let id = '';
 
-	function keyPress(ev) {
+	function keyPress(ev: Event) {
 		//only respond if the current modal is the top one
-		if (ev.key == 'Escape' && onTop == topDiv) close(); //ESC
+		if (ev.key == 'Escape' && onTop == topDiv) close(ev); //ESC
 	}
 
 	/**  API **/
-	function open(callback) {
+	function open(callback: any) {
 		closeCallback = callback;
 		if (visible) return;
 		prevOnTop = onTop;
@@ -43,7 +43,7 @@
 		document.body.appendChild(topDiv);
 	}
 
-	function close(retVal) {
+	function close(retVal: Event) {
 		if (!visible) return;
 		if (browser) {
 			window.removeEventListener('keydown', keyPress);

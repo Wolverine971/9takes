@@ -4,7 +4,6 @@
 	import { page } from '$app/stores';
 	let navSteps: { name: string; url: string }[] = [];
 	onMount(async () => {
-		console.log($page.route);
 		if ($page.route.id) {
 			await displayRoute();
 		}

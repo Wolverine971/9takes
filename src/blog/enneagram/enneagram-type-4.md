@@ -24,11 +24,9 @@ type: 'overview'
 
 <p class="firstLetter">Enneagram Type 4 is known as The Individualist, and is one of the three types in the Feeling Center/ Heart Triad. This means that they make decisions based on their emotions and have a strong connection to their inner world. Type 4 individuals have a deep desire to be unique and to express themselves creatively. They often feel like they don't quite fit in, and may struggle with a sense of longing or melancholy.</p>
 
-
 <br>
 <Carousel type={4} gridDisplay={true} />
 <br>
-
 
 ## Characteristics
 
