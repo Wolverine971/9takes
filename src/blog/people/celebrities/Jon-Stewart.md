@@ -42,7 +42,6 @@ tiktok:
 </div>
 
 > **Disclaimer** This analysis of Jon Stewart's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jon Stewart.
->
 
 <p class="firstLetter">He's been your evening companion, your sarcastic voice of reason, and perhaps your loudest laugh of the day. Jon Stewart, the former host of The Daily Show, has left an indelible mark on modern satire. Today, we will be exploring a fascinating dimension of Stewart's persona - the ever curious and effervescent Enneagram Type 7.</p>
 

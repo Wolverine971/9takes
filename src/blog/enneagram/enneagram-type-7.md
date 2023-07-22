@@ -23,8 +23,7 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.</p> 
-
+<p class="firstLetter">Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.</p>
 
 <br>
 <Carousel type={7} gridDisplay={true} />

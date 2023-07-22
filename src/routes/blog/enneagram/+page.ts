@@ -9,10 +9,10 @@ export const load: PageServerLoad = async () => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 

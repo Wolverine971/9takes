@@ -25,7 +25,6 @@ type: ['overview']
 
 <p class="firstLetter">Enneagram Type 9 personalities are known for their ability to maintain harmony and avoid conflict in their relationships. They are empathetic, optimistic, and have a strong desire to create a peaceful and comfortable environment for themselves and others. In this article, we will explore the Enneagram Type 9 personality in detail, including their strengths, weaknesses, and how they can better understand themselves.</p>
 
-
 <br>
 <Carousel type={9}  gridDisplay={true}/>
 <br>

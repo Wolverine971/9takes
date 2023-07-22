@@ -51,7 +51,8 @@ pic: 'person-being-ghosted'
    and looking at the situation objectively. They may also want to focus on self-compassion and
    self-care, reminding themselves that they are not to blame for the other person's actions.
 
-   [More on type 1s](/blog/enneagram/enneagram-type-1)
+[More on type 1s](/blog/enneagram/enneagram-type-1)
+
   </section>
 
 <!-- <hr class="border"/>  -->

@@ -7,14 +7,17 @@ import { elasticClient } from '$lib/elasticSearch';
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 
-
 export const load: PageServerLoad = async (): Promise<{ questions: any; count: number | null }> => {
 	try {
 		const {
 			data: questions,
 			error: findQuestionsError,
 			count
-		} = await supabase.from('questions').select('*', { count: 'estimated' }).order('created_at', { ascending: false }).limit(20)
+		} = await supabase
+			.from('questions')
+			.select('*', { count: 'estimated' })
+			.order('created_at', { ascending: false })
+			.limit(20);
 
 		if (findQuestionsError) {
 			throw error(500, {
