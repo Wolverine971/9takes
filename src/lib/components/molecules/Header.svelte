@@ -117,7 +117,7 @@
 				class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
 					'absolute-pos'}"
 			>
-				<a href="/" class="brand left">
+				<a href="/" class="brand left" aria-label="9takes logo">
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 					{#if innerWidth > 1000 && $page.url.pathname !== '/'}
 						<Scribble text={'9takes'} />

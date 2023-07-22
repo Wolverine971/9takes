@@ -22,6 +22,8 @@
 
 <div class="btn-container-right">
 	<button
+		aria-label="structured view of blogs button"
+		title="structured view of blogs"
 		class="view-btn"
 		style=""
 		on:click={() => {
@@ -36,6 +38,8 @@
 	</button>
 
 	<button
+		aria-label="image preview view of blogs button"
+		title="image preview view of blogs"
 		class="view-btn"
 		style=""
 		on:click={() => {

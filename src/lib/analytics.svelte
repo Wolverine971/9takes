@@ -15,9 +15,9 @@
 </script>
 
 <svelte:head>
-	<script async src={`https://www.googletagmanager.com/gtag/js?id=G-N2HX66R5RS`}>
-	</script>
-	<script async>
+	<link href="https://www.googletagmanager.com/gtag/js?id=G-N2HX66R5RS" rel="preload" as="script" />
+
+	<script defer>
 		window.dataLayer = window.dataLayer || [];
 
 		function gtag() {
@@ -29,8 +29,13 @@
 	</script>
 
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-231754000-1"></script>
-	<script async>
+
+	<link
+		href="https://www.googletagmanager.com/gtag/js?id=UA-231754000-1"
+		rel="preload"
+		as="script"
+	/>
+	<script defer>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);
