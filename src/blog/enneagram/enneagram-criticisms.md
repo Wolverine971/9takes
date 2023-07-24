@@ -28,7 +28,10 @@ Enneagram Criticisms (200 words)
 <details>
   <summary class="accordion">"Personality stuff is not real."</summary>
   <div class="panel">
-    <img src="/personality-snippet.webp" alt="personality definition" title="personality defintion from google" class="small-absolute" />
+  <figure>
+     <img src="/personality-snippet.webp" alt="personality definition" title="personality definition from google" class="small-absolute" />
+    <figcaption>personality definition from google</figcaption>
+</figure>
     <p>Do you get along with everyone? Do you not? Why? Are people similar to you or is everyone different from you?
       The dimensions by which we are similar and different are what make up our personality. There are potentially
       infinite dimensions because no two people are exactly alike however there are patterns. Those observed patterns

@@ -64,39 +64,39 @@ By understanding each team member's Enneagram type, teams can create a more cohe
 
 Understanding the ideal work environment for each Enneagram type can help organizations create a more supportive and inclusive workplace culture. For example, an Enneagram Type 1 may thrive in a structured and organized environment, while an Enneagram Type 7 may prefer a more flexible and creative work environment. By tailoring the work environment to each employee's personality type, organizations can create a more engaged and motivated workforce.Here are some examples of the ideal work environment for each Enneagram type:
 
-**Type 1 - The Perfectionist**
+### 1 - The Perfectionist
 
 - **Ideal Work Environment:** A structured and organized environment that values attention to detail and accuracy. A clear set of rules and expectations can help the Type 1 thrive and feel secure.
 
-**Type 2 - The Helper**
+### 2 - The Helper
 
 - **Ideal Work Environment:** A supportive and collaborative environment that values teamwork and relationships. The Type 2 thrives in a work environment that values their nurturing and empathetic qualities.
 
-**Type 3 - The Achiever**
+### 3 - The Achiever
 
 - **Ideal Work Environment:** A fast-paced and competitive environment that values goal-setting and achievement. The Type 3 thrives in an environment that values their ambition and results-driven attitude.
 
-**Type 4 - The Individualist**
+### 4 - The Individualist
 
 - **Ideal Work Environment:** A creative and innovative environment that values self-expression and originality. The Type 4 thrives in an environment that allows them to explore their unique perspective and creativity.
 
-**Type 5 - The Investigator**
+### 5 - The Investigator
 
 - **Ideal Work Environment:** A quiet and contemplative environment that values intellectual curiosity and expertise. The Type 5 thrives in an environment that allows them to explore and learn on their own terms.
 
-**Type 6 - The Loyalist**
+### 6 - The Loyalist
 
 - **Ideal Work Environment:** A supportive and secure environment that values loyalty and dependability. The Type 6 thrives in a work environment that provides clear guidance and structure.
 
-**Type 7 - The Enthusiast**
+### 7 - The Enthusiast
 
 - **Ideal Work Environment:** A dynamic and exciting environment that values exploration and variety. The Type 7 thrives in a work environment that allows them to pursue their interests and passions.
 
-**Type 8 - The Challenger**
+### 8 - The Challenger
 
 - **Ideal Work Environment:** A challenging and competitive environment that values assertiveness and leadership. The Type 8 thrives in an environment that allows them to take charge and make decisions.
 
-**Type 9 - The Peacemaker**
+### 9 - The Peacemaker
 
 - **Ideal Work Environment:** A harmonious and peaceful environment that values balance and collaboration. The Type 9 thrives in an environment that promotes a sense of unity and cooperation.
 

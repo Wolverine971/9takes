@@ -40,7 +40,7 @@ tiktok:
 
 > **Disclaimer** This analysis of Ruth Bader Ginsburg's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Ruth Bader Ginsburg.
 
-<p class="firstLetter">Ruth Bader Ginsburg, an extraordinary exemplar of integrity and relentless champion of justice, has left an indelible impact as a Supreme Court Justice. Her life chronicle and professional trajectory poignantly mirror the principles intrinsic to an Enneagram Type 1, also recognized as the Reformer. In the ensuing discourse, we decipher the manifestations of a Type 1 in her actions and draw invaluable lessons from them.</p>
+<p class="firstLetter">Ruth Bader Ginsburg, an extraordinary exemplar of integrity and relentless champion of justice, has left an indelible impact as a Supreme Court Justice. Her life chronicle and professional trajectory poignantly mirror the principles intrinsic to an Enneagram Type 1, also recognized as the Reformer or the Perfectionist. In the ensuing discourse, we decipher the manifestations of a Type 1 in her actions and draw invaluable lessons from them.</p>
 
 ## Unyielding Pursuit of Excellence
 

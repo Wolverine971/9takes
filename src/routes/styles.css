@@ -260,3 +260,8 @@ details {
 	border-top: 3px solid var(--color-theme-purple-v);
 	border-left: 3px solid var(--color-theme-purple-v);
 }
+
+figcaption {
+	font-style: italic;
+	font-size: 0.75rem;
+}

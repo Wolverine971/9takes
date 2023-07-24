@@ -66,7 +66,7 @@
 			<h3>What are we building?</h3>
 			<p>
 				A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
-				<span style="text-shadow: .5px .5px blue;" title="secret sauce">enneagram</span>.
+				<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
 			</p>
 		</div>
 		<!-- <p>More to come...</p> -->

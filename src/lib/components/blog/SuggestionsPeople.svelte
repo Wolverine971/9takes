@@ -16,38 +16,43 @@
 
 <svelte:window bind:innerWidth />
 
-<div style="margin-bottom:5rem;">
-	<h3 style="text-align: center; margin-bottom: 3rem;">Explore Further</h3>
-	<div class="blog-previews stack">
-		<div style="column">
-			<h4 style="text-align: center;">More {capitalizedPluralNiche}</h4>
-			{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
-				<a class="suggestion-link" href={slug}>
-					<h3 class="small-h3" {title}>{title}</h3>
-					<p class="small" title={description}>{description}</p>
-					<div class="go-corner">
-						<div class="go-arrow">→</div>
-					</div>
-				</a>
-			{/each}
+{#if suggestions.niche.posts.length || suggestions.sameEnneagram.posts.length}
+	<div style="margin-bottom:5rem;">
+		<h3 style="text-align: center; margin-bottom: 3rem;">Related Analysis</h3>
+		<div class="blog-previews stack">
+			{#if suggestions.niche.posts.length}
+				<div style="column">
+					<h4 style="text-align: center;">More {capitalizedPluralNiche}</h4>
+					{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
+						<a class="suggestion-link" href={slug}>
+							<h3 class="small-h3" {title}>{title}</h3>
+							<p class="small" title={description}>{description}</p>
+							<div class="go-corner">
+								<div class="go-arrow">→</div>
+							</div>
+						</a>
+					{/each}
+				</div>
+			{/if}
+			{#if suggestions.sameEnneagram.posts.length}
+				<div class="column">
+					<h4 style="text-align: center;">More Enneagram {suggestions.sameEnneagram.type}s</h4>
+					{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
+						<a class="suggestion-link" href={slug}>
+							<h3 class="small-h3" {title}>{title}</h3>
+							<p class="small" title={description}>{description}</p>
+							<div class="go-corner">
+								<div class="go-arrow">→</div>
+							</div>
+						</a>
+					{/each}
+				</div>
+			{/if}
 		</div>
 
-		<div class="column">
-			<h4 style="text-align: center;">More Enneagram {suggestions.sameEnneagram.type}s</h4>
-			{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
-				<a class="suggestion-link" href={slug}>
-					<h3 class="small-h3" {title}>{title}</h3>
-					<p class="small" title={description}>{description}</p>
-					<div class="go-corner">
-						<div class="go-arrow">→</div>
-					</div>
-				</a>
-			{/each}
-		</div>
+		<!-- </div> -->
 	</div>
-
-	<!-- </div> -->
-</div>
+{/if}
 
 <style lang="scss">
 	.small-h3 {

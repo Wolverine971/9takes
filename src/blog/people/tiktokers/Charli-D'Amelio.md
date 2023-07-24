@@ -1,14 +1,14 @@
 ---
-title: "Charli D'Amelio Enneagram Type 3"
-description: "Why Charli D'Amelio appears to be a type 3"
+title: "Charli D'Amelio Enneagram Type 9"
+description: "Why Charli D'Amelio appears to be a type 9"
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2023-07-23'
 loc: "https://9takes.com/blog/famous-enneagram-types/Charli-D'Amelio"
-lastmod: '2023-03-26'
+lastmod: '2023-09-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 9
 type: ['tiktoker']
 wikipedia:
 twitter: 'https://twitter.com/charlidamelio'
@@ -18,7 +18,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="https://9takes.com/types/3s/Charli-D'Amelio.webp" /> -->
+<!-- <meta property="og:image" content="https://9takes.com/types/9s/Charli-D'Amelio.webp" /> -->
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Charli-D'Amelio">
 </svelte:head>
 <!-- <script>
@@ -46,7 +46,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type 9- The Achiever](/blog/enneagram/enneagram-type-9)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

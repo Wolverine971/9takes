@@ -221,7 +221,7 @@
 	.pop-card-user {
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: flex-end;
 		align-items: center;
 		// gap: 1rem;
 		position: relative;

@@ -1,14 +1,14 @@
 ---
-title: 'The Weekend Enneagram Type '
-description: 'Why The Weekend appears to be a type '
+title: 'The Weeknd Enneagram Type 4'
+description: 'Why The Weeknd appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-06-11'
-loc: 'https://9takes.com/blog/famous-enneagram-types/the-weekend'
+loc: 'https://9takes.com/blog/famous-enneagram-types/the-Weeknd'
 lastmod: '2023-06-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram:
+enneagram: 4
 type: ['musician']
 wikipedia: 'https://en.wikipedia.org/wiki/The_Weeknd'
 twitter: 'https://twitter.com/theweeknd'
@@ -18,8 +18,8 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="https://9takes.com/types/3s/The-Weekend.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/The-Weekend">
+<!-- <meta property="og:image" content="https://9takes.com/types/4s/The- Weeknd.webp" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/The-Weeknd">
 </svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -31,17 +31,17 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'The-Weekend'}.webp`}
+		image={`/types/7s/${'The- Weeknd'}.webp`}
 		showIcon={false}
-		displayText="The Weekend"
+		displayText="The Weeknd"
 		subtext=""
 	/>
 </div> -->
 
-> **Disclaimer** This analysis of The Weekend's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of The Weekend.
+> **Disclaimer** This analysis of The Weeknd's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of The Weeknd.
 
 <details>
-<summary class="accordion">TL;DR: Why The Weekend is an Enneagram 3</summary>
+<summary class="accordion">TL;DR: Why The Weeknd is an Enneagram 3</summary>
 <div class="panel">
 <ul>
 <li></li>

@@ -16,7 +16,8 @@
 			'Steve-Jobs',
 			'Brene-Brown',
 			'Gandhi',
-			'Morgan-Freeman'
+			'Morgan-Freeman',
+			'Kourtney-Kardashian'
 		],
 		2: [
 			'Dolly-Parton',
@@ -36,10 +37,13 @@
 			'Ariana-Grande',
 			'Taylor-Swift',
 			'Reese-Witherspoon',
+			'Jason-Calacanis',
 			'Kim-Kardashian',
 			'Jake-Paul',
 			'Justin-Bieber',
-			'Tom-Cruise'
+			'Tom-Cruise',
+			'Addison-Rae',
+			'Dwayne-Johnson'
 		],
 		4: [
 			'Demi-Lovato',
@@ -48,7 +52,9 @@
 			'Lady-Gaga',
 			'Bob-Dylan',
 			'Frida-Kahlo',
-			'Jackie-Kennedy'
+			'Jackie-Kennedy',
+			'Dixie-Damelio',
+			'The-Weeknd'
 		],
 		5: [
 			'Bill-Gates',
@@ -59,7 +65,10 @@
 			'Stephen-Hawking',
 			'Albert-Einstein',
 			'Agatha-Christie',
-			'Friedrich-Nietzsche'
+			'Friedrich-Nietzsche',
+			'Rooney-Mara',
+			'David-Sacks',
+			'Lex-Fridman'
 		],
 		6: [
 			'Marilyn-Monroe',
@@ -69,7 +78,8 @@
 			'Mindy-Kaling',
 			'Mark-Twain',
 			'Prince-Harry',
-			'Malcom-X'
+			'Malcom-X',
+			'Khloe-Kardashian'
 		],
 		7: [
 			'Logan-Paul',
@@ -81,7 +91,7 @@
 			'Miley-Cyrus',
 			'David-Dobrik',
 			'Robin-Williams',
-			'Emily-Ratajkowski'
+			'Grimes'
 		],
 		8: [
 			'Mr-Beast',
@@ -100,6 +110,9 @@
 			'Barack-Obama',
 			'Billie-Eilish',
 			'Bernie-Sanders',
+			'Kylie-Jenner',
+			'Bella-Poarch',
+			'Charli-DAmelio',
 			'Marie-Kondo',
 			'Zooey-Deschanel',
 			'Pete-Davidson',

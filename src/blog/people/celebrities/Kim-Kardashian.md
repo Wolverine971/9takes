@@ -15,7 +15,24 @@ twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'
 ---
+<!-- 
+https://www.reddit.com/r/Enneagram/comments/ilnx33/kardashian_typing/
 
+Kim Kardashian - 3w4
+
+Khloe Kardashian - 8w7
+
+Kourtney Kardashian - 6w7 (counterphobic)
+
+Rob Kardashian - ???
+
+Kris Jenner - 1w2
+
+Caitlyn Jenner - 9w1
+
+Kylie Jenner - 3w4??? (And maybe Kim is 3w2?)
+
+Kendal Jenner - 4??? -->
 <!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters,, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
 
 <svelte:head>

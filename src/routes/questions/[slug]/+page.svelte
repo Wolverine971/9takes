@@ -34,19 +34,20 @@
 	});
 </script>
 
+<svelte:head>
+	<title>{`9takes | ${data.question.question.length}`}</title>
+	<meta name="description" content={`9takes Question | ${data.question.question}`} />
+	<!-- <meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" /> -->
+	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
+</svelte:head>
+
 <!-- Question always renders -->
 <article>
 	<!-- <section>
 		
 	</section> -->
 	<Card>
-		<textarea
-			class="question-box"
-			id="question-box"
-			bind:value={data.question.question}
-			readonly
-			style="overflow:hidden"
-		/>
+		<h1 class="question-box" id="question-box" style="overflow:hidden">{data.question.question}</h1>
 
 		<!-- oninput="auto_grow(this)" -->
 		<!-- {data.question.question} -->

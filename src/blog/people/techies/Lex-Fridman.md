@@ -2,9 +2,9 @@
 title: 'Lex Fridman Enneagram Type 5'
 description: 'Dive deep into the personality traits of AI researcher Lex Fridman as an Enneagram Type 5 - The Investigator.'
 author: 'DJ Wayne'
-date: '2023-05-29'
+date: '2023-07-23'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lex-Fridman'
-lastmod: '2023-05-29'
+lastmod: '2023-07-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

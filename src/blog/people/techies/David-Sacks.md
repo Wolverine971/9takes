@@ -1,6 +1,6 @@
 ---
-title: 'David Sacks Enneagram Type 3'
-description: 'Why David Sacks appears to be a type 3'
+title: 'David Sacks Enneagram Type 5'
+description: 'Why David Sacks appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/David-Sacks'
@@ -8,7 +8,7 @@ lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 5
 type: ['techie']
 wikipedia: 'https://en.wikipedia.org/wiki/David_O._Sacks'
 twitter:
@@ -41,7 +41,7 @@ tiktok:
 > **Disclaimer** This analysis of David Sacks's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Sacks.
 
 <details>
-<summary class="accordion">TL;DR: Why David Sacks is an Enneagram 3</summary>
+<summary class="accordion">TL;DR: Why David Sacks is an Enneagram 5</summary>
 <div class="panel">
 <ul>
 <li></li>
@@ -60,7 +60,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type 5- The Achiever](/blog/enneagram/enneagram-type-3)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

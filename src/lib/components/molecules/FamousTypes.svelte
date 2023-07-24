@@ -14,7 +14,8 @@
 			{ name: 'Steve-Jobs', link: false },
 			{ name: 'Brene-Brown', link: false },
 			{ name: 'Gandhi', link: false },
-			{ name: 'Morgan-Freeman', link: false }
+			{ name: 'Morgan-Freeman', link: false },
+			{ name: 'Kourtney-Kardashian', link: false }
 		],
 		2: [
 			{ name: 'Oprah-Winfrey', link: true },
@@ -35,10 +36,13 @@
 			{ name: 'Dua-Lipa', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: false },
+			{ name: 'Jason-Calacanis', link: false },
 			{ name: 'Reese-Witherspoon', link: false },
 			{ name: 'Jake-Paul', link: true },
 			{ name: 'Justin-Bieber', link: false },
-			{ name: 'Tom-Cruise', link: false }
+			{ name: 'Tom-Cruise', link: false },
+			{ name: 'Dwayne-Johnson', link: false },
+			{ name: 'Addison-Rae', link: false }
 		],
 		4: [
 			{ name: 'Demi-Lovato', link: true },
@@ -47,7 +51,9 @@
 			{ name: 'Bob-Dylan', link: false },
 			{ name: 'Frida-Kahlo', link: true },
 			{ name: 'Lady-Gaga', link: true },
-			{ name: 'Jackie-Kennedy', link: true }
+			{ name: 'Jackie-Kennedy', link: true },
+			{ name: 'The-Weeknd', link: true },
+			{ name: 'Dixie-Damelio', link: true }
 		],
 		5: [
 			{ name: 'Bill-Gates', link: false },
@@ -59,7 +65,9 @@
 			{ name: 'Albert-Einstein', link: false },
 			{ name: 'Agatha-Christie', link: false },
 			{ name: 'Rooney-Mara', link: false },
-			{ name: 'Friedrich-Nietzsche', link: false }
+			{ name: 'Friedrich-Nietzsche', link: false },
+			{ name: 'David-Sacks', link: false },
+			{ name: 'Lex-Fridman', link: false }
 		],
 		6: [
 			{ name: 'Marilyn-Monroe', link: true },
@@ -69,7 +77,10 @@
 			{ name: 'Mindy-Kaling', link: false },
 			{ name: 'Mark-Twain', link: false },
 			{ name: 'Prince-Harry', link: true },
-			{ name: 'Malcom-X', link: false }
+			{ name: 'Peter-Thiel', link: false },
+
+			{ name: 'Malcom-X', link: false },
+			{ name: 'Khloe-Kardashian', link: false }
 		],
 		7: [
 			{ name: 'Logan-Paul', link: true },
@@ -81,7 +92,9 @@
 			{ name: 'Kanye', link: true },
 			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
-			{ name: 'Emily-Ratajkowski', link: true }
+			{ name: 'Palmer-Luckey', link: false },
+
+			{ name: 'Grimes', link: true }
 		],
 		8: [
 			{ name: 'Beyonce-Knowles', link: true },
@@ -92,13 +105,18 @@
 			{ name: 'Martin-Luther-King-Jr', link: true },
 			{ name: 'Winston-Churchill', link: true },
 			{ name: 'Chelsea-Handler', link: false },
-			{ name: 'Denzel-Washington', link: false }
+			{ name: 'Denzel-Washington', link: false },
+
+			{ name: 'Emily-Ratajkowski', link: true }
 		],
 		9: [
 			{ name: 'Billie-Eilish', link: true },
 			{ name: 'Abraham-Lincoln', link: false },
 			{ name: 'Barack-Obama', link: true },
 			{ name: 'Bernie-Sanders', link: true },
+			{ name: 'Kylie-Jenner', link: false },
+			{ name: 'Charli-DAmelio', link: false },
+			{ name: 'Bella-Poarch', link: false },
 			{ name: 'Marie-Kondo', link: false },
 			{ name: 'Zooey-Deschanel', link: false },
 			{ name: 'Pete-Davidson', link: true },
