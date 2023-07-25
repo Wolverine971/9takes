@@ -56,7 +56,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     "articleSection": "Psychology",
     "author": {
       "type": "Person",
-      "name": "DJ Wayne"
+      "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
     },
     "dateModified": "2023-04-01",
     "datePublished": "2023-04-01",

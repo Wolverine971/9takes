@@ -148,7 +148,15 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   "articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "dateModified": {
     "@type": "Date",
@@ -172,6 +180,14 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   },
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "name": "9takes",
     "url": {
       "@id": "https://9takes.com"

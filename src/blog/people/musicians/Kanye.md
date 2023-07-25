@@ -136,7 +136,15 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       "articleBody": "This article explores the personality traits of Kanye West from the perspective of the Enneagram Type 7. Known for his restless creativity, a quest for new experiences, and a desire to avoid negativity, Kanye embodies many characteristics of Type 7 personalities. The article discusses various facets of Kanye's life and career that demonstrate his Type 7 characteristics, including his rise to fame, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 7.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -177,6 +185,14 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "url": {

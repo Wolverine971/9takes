@@ -45,7 +45,6 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 <p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Kylie Jenner, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
 
-
 <details>
 <summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type 9</summary>
 <div class="panel">
@@ -116,7 +115,15 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       "articleBody": "This article delves into the personality traits of Kylie Jenner as seen through the lens of the Enneagram Type 9. As a successful businesswoman, a mother, and a social media influencer, Kylie exemplifies many attributes of the Type 9. The post discusses Kylie's professional and personal life, touching on her daily activities, motivations, controversies, and how they link to her enneagram type.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -160,6 +167,14 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "height": 60,

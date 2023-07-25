@@ -93,7 +93,15 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   "articleSection": "scientist",
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "dateModified": {
     "@type": "Date",
@@ -146,6 +154,14 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   },
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "logo": {
       "@type": "ImageObject",
       "url": {

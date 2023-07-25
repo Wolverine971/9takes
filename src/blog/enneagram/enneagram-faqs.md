@@ -192,7 +192,15 @@ blog: true
 	},
 	"author": {
 		"@type": "Person",
-		"name": "DJ Wayne"
+		"name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
 	},
 	"dateModified": {
 		"@type": "Date",

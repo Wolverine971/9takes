@@ -67,7 +67,15 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   "articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "dateModified": {
     "@type": "Date",
@@ -109,6 +117,14 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   },
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "logo": {
       "@type": "ImageObject",
       "url": {

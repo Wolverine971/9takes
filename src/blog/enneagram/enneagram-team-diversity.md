@@ -61,7 +61,15 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
   },
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "dateModified": {
     "@type": "Date",
@@ -92,6 +100,14 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
   },
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "logo": {
       "@type": "ImageObject",
       "url": {

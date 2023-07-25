@@ -82,7 +82,15 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       "articleBody": "This article delves into the personality traits of Ruth Bader Ginsburg through the lens of the Enneagram Type 1. Known for her stringent pursuit of justice, commitment to principles, and unwavering self-discipline, Ginsburg exhibits many features of Type 1 personalities. The article covers multiple facets of Ginsburg's life and career, which exhibit her Type 1 characteristics, including her legal legacy, feminist advocacy, and landmark rulings.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -115,6 +123,14 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "name": "9takes",
 		"logo": {
 			"@type": "ImageObject",

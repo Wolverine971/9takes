@@ -78,7 +78,15 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   "articleBody": "If you’ve been exploring the world of self-help and personal development, chances are you’ve come across the Enneagram. It offers a unique perspective on our strengths, weaknesses, and inner motivations, allowing us to deepen our self-awareness and make positive changes in our lives. However lessons learned through self-help can be healing and inspiring, but they can also make us feel like we’re failing. It’s important to remember that developing self-awareness is a potentially endless pursuit. There will be good days and bad days, but there is no finish line. The Enneagram can be used as a tool to support you on your journey, helping you navigate the ups and downs with greater clarity and compassion. At its core, the Enneagram is a system of nine interconnected personality types, each with its own unique strengths and challenges. While it’s not necessary to know every detail about each type, having a basic understanding of the system can be helpful in applying it to your own life. The Enneagram can be used in many ways, but one of its most powerful applications is as a tool for personal growth and self-improvement. Here are just a few ways the Enneagram can support you in your journey: Starting Conversations and Connecting with Others, Making Sense of Yourself and Others, Practical Applications for Decision-Making, Recognizing when you are stressed and doing well, Develop emotional awareness, Recognize underlying goals and fears. In using the Enneagram as a tool for personal growth and self-improvement, it’s important to remember that everyone’s journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.",
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "dateModified": {
     "@type": "Date",
@@ -105,6 +113,14 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   },
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "logo": {
       "@type": "ImageObject",
       "url": {

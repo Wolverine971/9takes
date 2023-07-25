@@ -133,7 +133,15 @@ If you're intrigued and wish to explore more, delve into our other articles abou
       "articleBody": "The article dives deep into Halsey's personality from the Enneagram Type 8 perspective. Halsey's resilience, boldness, and her advocacy for societal issues reflect the characteristics of Type 8. The discussion explores Halsey's music, inner world, her public controversies, and how these aspects can be traced back to her core Type 8 motivation.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -177,6 +185,14 @@ If you're intrigued and wish to explore more, delve into our other articles abou
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "url": {

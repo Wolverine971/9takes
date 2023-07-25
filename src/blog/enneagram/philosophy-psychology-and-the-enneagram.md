@@ -113,7 +113,15 @@ In essence, the Enneagram offers a framework for personal development that is de
   "@type": "BlogPosting",
   "author": {
     "@type": "Person",
-    "name": "DJ Wayne"
+    "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
   },
   "citation": [
     {
@@ -196,6 +204,14 @@ In essence, the Enneagram offers a framework for personal development that is de
   ],
   "publisher": {
     "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
     "name": "9takes"
   }
 }

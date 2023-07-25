@@ -166,7 +166,15 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
       "articleBody": "This article examines the personality of Demi Lovato, widely thought to align with the Enneagram Type 4. Known for her authenticity, self-expression, and emotional depth, Demi embodies many characteristics of Type 4 personalities. The article delves into Demi's personal life, career, controversies, and daily struggles, all in relation to her Type 4 characteristics.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -207,6 +215,14 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "url": {

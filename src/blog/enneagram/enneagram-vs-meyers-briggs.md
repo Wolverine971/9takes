@@ -150,7 +150,15 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
       "articleBody": "The article discusses the Enneagram and the Myers-Briggs Type Indicator (MBTI), two systems that aim to decode the complexity of human personality. The article delves into the origins, key concepts, and principles of both systems, and also explores their differences and potential intersections. In addition, it provides guidance on how to choose between the two systems based on the aspects of personality one aims to explore.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",

@@ -252,7 +252,15 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
       },
       "author": {
         "type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",

@@ -93,7 +93,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - The Challenger might respect Khloé's strength and determination, admiring her willingness to confront difficult situations head-on. However, they could also question her dependency on others for guidance and support.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - The Peacemaker may empathize with Khloé's desire for harmony in her relationships. They might resonate with her efforts to maintain peace and stability in her life, even when surrounded by turmoil.
 
-
 ## A Loyalist in the Limelight
 
 The complexity of Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram Type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
@@ -112,7 +111,15 @@ Curious about the personalities of other famous individuals? Interested in seein
       "articleBody": "This article delves into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram Type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine enneagram types.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -156,6 +163,14 @@ Curious about the personalities of other famous individuals? Interested in seein
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "url": {

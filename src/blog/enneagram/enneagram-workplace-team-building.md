@@ -111,7 +111,15 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 "articleSection": "Team Building",
 "author": {
 "@type": "Person",
-"name": "DJ Wayne"
+"name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
 },
 "dateModified": {
 "@type": "Date",
@@ -137,6 +145,14 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 },
 "publisher": {
 "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
 "logo": {
 "@type": "ImageObject",
 "url": {

@@ -100,7 +100,15 @@ Better yet, why not become part of a community that values introspective explora
       "articleBody": "This article explores the personality traits of Oprah Winfrey from the perspective of the Enneagram Type 2. Known for her generosity, caring nature, and interpersonal skills, Oprah embodies many characteristics of Type 2 personalities. The article discusses various facets of Oprah's life and career that demonstrate her Type 2 characteristics, including her philanthropic efforts, talk show, and resilience in the face of controversy.",
       "author": {
         "@type": "Person",
-        "name": "DJ Wayne"
+        "name": "DJ Wayne",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+     ]
       },
       "dateModified": {
         "@type": "Date",
@@ -144,6 +152,14 @@ Better yet, why not become part of a community that values introspective explora
       },
       "publisher": {
         "@type": "Organization",
+"sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+     ],
         "logo": {
           "@type": "ImageObject",
           "url": {
