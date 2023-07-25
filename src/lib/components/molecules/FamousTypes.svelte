@@ -114,7 +114,7 @@
 			{ name: 'Abraham-Lincoln', link: false },
 			{ name: 'Barack-Obama', link: true },
 			{ name: 'Bernie-Sanders', link: true },
-			{ name: 'Kylie-Jenner', link: false },
+			{ name: 'Kylie-Jenner', link: true },
 			{ name: 'Charli-DAmelio', link: false },
 			{ name: 'Bella-Poarch', link: false },
 			{ name: 'Marie-Kondo', link: false },

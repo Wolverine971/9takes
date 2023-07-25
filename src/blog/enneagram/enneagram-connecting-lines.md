@@ -1,5 +1,5 @@
 ---
-title: "Enneagram Connecting lines: The Dynamics of Growth and Stress"
+title: 'Enneagram Connecting lines: The Dynamics of Growth and Stress'
 description: "Explore the Enneagram's connecting lines and learn how each type transforms under stress and growth"
 author: 'DJ Wayne'
 date: '2023-07-23'

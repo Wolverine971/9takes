@@ -18,11 +18,10 @@ blog: true
   <link rel="canonical" href="https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">
 </svelte:head>
 <!-- Take a free, ~5 min test here -->
- 
 
 <p class="firstLetter"> Ever felt misunderstood or puzzled by your own behavior? The Enneagram can help clarify this by offering a framework for understanding your actions. </p>
 
-I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve.  We would argue about who was right, disagreeing over facts and trying to impose our own versions of the truth on each other.  When we felt right about something we did not slow down to consider each other's perspectives. The Enneagram helped us slow down and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict but we continue to use it and it has  we helped us become more of a team.
+I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our own versions of the truth on each other. When we felt right about something we did not slow down to consider each other's perspectives. The Enneagram helped us slow down and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict but we continue to use it and it has we helped us become more of a team.
 In this guide, I'll simplify the complex world of the Enneagram. I'll show you exactly how to determine your type, so that you can understand yourself and others better.
 
 ## Enneagram Overview
@@ -39,7 +38,6 @@ Now that you understand what an Enneagram is, it's time to delve deeper into how
 ### Identify Your Core Emotion
 
 The first step in identifying your enneagram type is to understand the three core emotions that form your "type": anger, fear, and shame. Ask yourself which of these emotions comes up for you the most in daily life? You either feel that emotion and use it to motivate you, feel that emotion and push it away, or feel that emotion constantly in the back of your head. Another way to get at that emotion would be to ask which emotion do you have the easiest access to? Or if someone else was feeling anger, fear, or shame, which emotion would be easiest for you to empathize with?
-
 
 ### Understand the Connection Between Emotions and Centers of Intelligence
 
@@ -105,9 +103,6 @@ Once you think you've identified your type, look at the connecting lines on the 
 **Path of Integration (Growth):** This is the direction we move when we are growing, feeling secure, or operating out of our higher selves. We take on some of the positive traits of another type. For example, when a Type Eight (The Challenger) is moving in the direction of growth, they take on some of the positive traits of a Type Two (The Helper), becoming more open-hearted and caring.
 
 **Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative traits of a Type Five (The Investigator), becoming more withdrawn and secretive.
-
-<!-- <pidsddsfsdfsdf> 
-Insert Picture -->
 
 <div style="text-align: center;" >
 <img src="/blogs/enneagram-integration.webp" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />

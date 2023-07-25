@@ -15,7 +15,8 @@ twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'
 tiktok: 'https://www.tiktok.com/@kimkardashian'
 ---
-<!-- 
+
+<!--
 https://www.reddit.com/r/Enneagram/comments/ilnx33/kardashian_typing/
 
 Kim Kardashian - 3w4
@@ -109,9 +110,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 **To wrap up,** we've analyzed Kim's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, and her ongoing balancing act between the real and the ideal, the picture has been painted of why Kardashian may indeed represent a Type 3 personality.
 
-However, people are complex and this cannot be overstated. This analysis is but one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Do you feel that seeing Kardashian through the lens of an Enneagram Type 3 gives you a deeper insight into her actions and motivations? Would love your thoughts. DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3)
+However, people are complex and this cannot be overstated. This analysis is but one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Do you feel that seeing Kardashian through the lens of an Enneagram Type 3 gives you a deeper insight into her actions and motivations?
 
-There is a fascinating world of personalitities out there waiting to be explored. Understanding public figures like Kim through the Enneagram lens could offer valuable insights. If you like this, sign up below ⬇️ and join 9takes, a community that appreciates the in-depth exploration of personalities and perspectives. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3) and let me know what you think!
+There is a fascinating world of personalitities out there waiting to be explored. Understanding public figures like Kim through the Enneagram lens could offer valuable insights. If you like this, sign up below ⬇️ and join 9takes, a community that appreciates the in-depth exploration of personalities and perspectives. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3), would love to hear from a reader!
 
 <div>
 <script type="application/ld+json">

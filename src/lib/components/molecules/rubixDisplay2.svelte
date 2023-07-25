@@ -118,57 +118,58 @@
 			// this.div.style.background = 'white';
 
 			Cube.prototype.draw = function () {
-				if(this.div?.style){
-				this.div.style.transform =
-					'rotateX(' +
-					this.rotX +
-					'deg) rotateY(' +
-					this.rotY +
-					'deg) rotateZ(' +
-					this.rotZ +
-					'deg) translate3d(' +
-					this.xo * 15 +
-					'vmin,' +
-					this.yo * 15 +
-					'vmin,' +
-					this.zo * 15 +
-					'vmin)';
-                }
-		};
+				if (this.div?.style) {
+					this.div.style.transform =
+						'rotateX(' +
+						this.rotX +
+						'deg) rotateY(' +
+						this.rotY +
+						'deg) rotateZ(' +
+						this.rotZ +
+						'deg) translate3d(' +
+						this.xo * 15 +
+						'vmin,' +
+						this.yo * 15 +
+						'vmin,' +
+						this.zo * 15 +
+						'vmin)';
+				}
+			};
 
-		var div = document.getElementById('contain');
-		// window.onload = function () {
-		var num = 1;
-		for (var i = -1; i < 2; i++) {
-			for (var j = -1; j < 2; j++) {
-				for (var k = -1; k < 2; k++) {
-					var cube = new Cube('c' + num, i, j, k);
-					cube.draw();
-					cubes.push(cube);
-					num++;
+			var div = document.getElementById('contain');
+			// window.onload = function () {
+			var num = 1;
+			for (var i = -1; i < 2; i++) {
+				for (var j = -1; j < 2; j++) {
+					for (var k = -1; k < 2; k++) {
+						var cube = new Cube('c' + num, i, j, k);
+						cube.draw();
+						cubes.push(cube);
+						num++;
+					}
 				}
 			}
-		}
 
-		// document.addEventListener('click', function (e) {
-		// 	var x = e.clientX - window.innerWidth / 2;
-		// 	var y = e.clientY - window.innerHeight / 2;
-		// 	var xRat = (2 * Math.abs(x)) / window.innerWidth;
-		// 	var yRat = (2 * Math.abs(y)) / window.innerHeight;
+			// document.addEventListener('click', function (e) {
+			// 	var x = e.clientX - window.innerWidth / 2;
+			// 	var y = e.clientY - window.innerHeight / 2;
+			// 	var xRat = (2 * Math.abs(x)) / window.innerWidth;
+			// 	var yRat = (2 * Math.abs(y)) / window.innerHeight;
 
-		// 	if (xRat > yRat) {
-		// 		degY += Math.sign(x) * 90;
-		// 	} else {
-		// 		degX -= Math.sign(y) * 180;
-		// 	}
+			// 	if (xRat > yRat) {
+			// 		degY += Math.sign(x) * 90;
+			// 	} else {
+			// 		degX -= Math.sign(y) * 180;
+			// 	}
 
-		// 	div.style.webkitTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-		// 	div.style.mozTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-		// 	div.style.msTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-		// 	div.style.oTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-		// 	div.style.transform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
-		// });
-		// };
+			// 	div.style.webkitTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
+			// 	div.style.mozTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
+			// 	div.style.msTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
+			// 	div.style.oTransform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
+			// 	div.style.transform = 'rotateX(' + degX + 'deg) rotateY(' + degY + 'deg)';
+			// });
+			// };
+		};
 	};
 </script>
 

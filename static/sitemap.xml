@@ -20,7 +20,7 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/enneagram</loc>
-<lastmod>2023-06-15</lastmod>
+<lastmod>2023-07-23</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -89,6 +89,7 @@
 <lastmod>2023-04-15T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
+</url>
 <url>
 <loc>https://9takes.com/blog/enneagram/enneagram-criticisms</loc>
 <lastmod>2023-06-24T00:00:00.000Z</lastmod>
@@ -283,7 +284,13 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian</loc>
-<lastmod>2023-06-20T00:00:00.000Z</lastmod>
+<lastmod>2023-07-24T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian</loc>
+<lastmod>2023-07-24T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -332,6 +339,12 @@
 <url>
 <loc>https://9takes.com/blog/famous-enneagram-types/Mr-Beast</loc>
 <lastmod>2023-06-16T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner</loc>
+<lastmod>2023-07-24T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -535,7 +548,7 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/famous-enneagram-types/Lex-Fridman</loc>
-<lastmod>2023-05-29T00:00:00.000Z</lastmod>
+<lastmod>2023-07-23T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
