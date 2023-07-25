@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Types Being Ghosted'
-description: 'Impact of ghosting on mental health: An Enneagram perspectiveHow each type handles being ghosted'
+description: 'Impact of ghosting on mental health from an Enneagram perspective'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: '2023-07-12'
+lastmod: '2023-07-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -38,11 +38,9 @@ pic: 'person-being-ghosted'
 	/>
 </div>
 
-<p class="firstLetter">In the perplexing realm of modern relationships, ghosting has emerged as a bewildering phenomenon, leaving those on the receiving end grappling with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this captivating exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.</p>
+<p class="firstLetter">In the perplexing realm of modern relationships, the term "ghosting" has emerged. Those on the receiving end grapple with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.</p>
 
-<section class="section-main">
-
-  <section class="section-content">
+  <article class="section-content">
   <h3>Type One: The Perfectionist</h3>
    Type Ones, known for their strong sense of morality and desire for improvement, may struggle
    with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
@@ -53,7 +51,7 @@ pic: 'person-being-ghosted'
 
 [More on type 1s](/blog/enneagram/enneagram-type-1)
 
-  </section>
+  </article>
 
 <!-- <hr class="border"/>  -->
   <!-- <aside class="section-meta">
@@ -62,10 +60,8 @@ pic: 'person-being-ghosted'
    <p>The enneagram 1 is a put together creature</p>
 
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Two: The Helper</h3>
 
 Type Twos, known for their generosity and desire to help others, may struggle with feelings of
@@ -77,16 +73,14 @@ that they are worthy of love and respect.
 
 [More on type 2s](/blog/enneagram/enneagram-type-2)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-2" class="a-type">Type 2</a>
    <p>The enneagram 2 is a loving creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Three: The Achiever</h3>
 
 Type Threes, known for their ambition and desire for success, may struggle with feelings of
@@ -98,16 +92,14 @@ of love and respect.
 
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>
    <p>The enneagram 3 is a shiny creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Four: The Individualist</h3>
 
 Type Fours, known for their sensitivity and desire for authenticity, may struggle with
@@ -119,16 +111,14 @@ that they are worthy of love and respect.
 
 [More on type 4s](/blog/enneagram/enneagram-type-4)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
    <p>The enneagram 4 is a complicated creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Five: The Investigator</h3>
 
 Type Fives, known for their intellect and desire for knowledge, may struggle with feelings of
@@ -140,16 +130,14 @@ that they are worthy of love and respect.
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-5" class="a-type">Type 5</a>
    <p>The enneagram 5 is a mysterious creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Six: The Loyalist</h3>
 
 Type Sixes, known for their loyalty and desire for security, may struggle with feelings of
@@ -161,16 +149,14 @@ that they are worthy of love and respect.
 
 [More on type 6s](/blog/enneagram/enneagram-type-6)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-6" class="a-type">Type 6</a>
    <p>The enneagram 6 is a wary creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Seven: The Enthusiast</h3>
 
 Type Sevens, known for their optimism and desire for adventure, may struggle with feelings of
@@ -182,16 +168,14 @@ and self-care, reminding themselves that they are worthy of love and respect.
 
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-7" class="a-type">Type 7</a>
    <p>The enneagram 7 is a joyful creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Eight: The Challenger</h3>
 
 Type Eights, known for their confidence and desire for control, may struggle with feelings of
@@ -203,39 +187,29 @@ of love and respect.
 
 [More on type 8s](/blog/enneagram/enneagram-type-8)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
    <p>The enneagram 8 is a strong creature</p>
   </aside> -->
- </section>
 
- <section class="section-main">
-  <section class="section-content">
+  <article class="section-content">
    <h3>Type Nine: The Peacemaker</h3>
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
 
 [More on type 9s](/blog/enneagram/enneagram-type-9)
 
-  </section>
+  </article>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
    <p>The enneagram 9 is a easy going creature</p>
   </aside> -->
- </section>
+It's important to acknowledge that everyone's experience with ghosting is unique, and the Enneagram is just one tool to understand it. Being ghosted can be painful, so if you're currently experiencing it, take a moment to check in with yourself. If it's affecting your mental health, reach out to a close friend or seek professional help and support. Remember, healing and moving forward are possible with time and self-compassion.
 
-It's important to remember that everyone's experience and coping mechanisms are unique, and that the Enneagram is just
-one tool for understanding behavior and personality. If you're struggling with the impact of ghosting on your mental
-health, it's important to seek out professional help and support. With time, self-compassion, and care, you can heal and
-move forward.
-
-In conclusion, ghosting can have a significant impact on mental health, and it's important to understand that everyone
-experiences it differently. By understanding how each Enneagram type may experience and cope with ghosting, we can gain
-insight and empathy for ourselves and others. It's also important to remember that healing and moving forward is
-possible with self-compassion and care.
+In conclusion, ghosting affects individuals differently, and understanding how each Enneagram type copes with it can foster empathy. Healing and moving forward are achievable through self-compassion and care.
 
 <div>
 <script type="application/ld+json">

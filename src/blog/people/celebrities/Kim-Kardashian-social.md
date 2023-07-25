@@ -37,7 +37,7 @@ Intrigued? Click here to start reading. If you like this, sign up below and join
 Cheers,
 The 9takes Team
 
-```
+````
 const test = {
 		'@context': 'https://schema.org',
 		'@graph': [
@@ -176,3 +176,4 @@ const test = {
 		]
 	};
     ```
+````
