@@ -105,7 +105,7 @@ Once you think you've identified your type, look at the connecting lines on the 
 **Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative traits of a Type Five (The Investigator), becoming more withdrawn and secretive.
 
 <div style="text-align: center;" >
-<img src="/blogs/enneagram-integration.webp" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
+<img src="/blogs/enneagram-integration.webp" alt="Enneagram integration lines" title="Enneagram integration lines" />
 </div>
 
 Here's how it works for each type:
