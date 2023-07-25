@@ -27,7 +27,7 @@ export const load: PageLoad = async ({
 		case 'creator':
 			group = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
 			break;
-		case 'lifestyleInfluencers':
+		case 'lifestyleInfluencer':
 			group = import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`);
 			break;
 		case 'movieStar':

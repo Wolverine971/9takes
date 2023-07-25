@@ -27,6 +27,9 @@
 	const creators = data.people.filter((person) => {
 		return person.type?.includes('creator');
 	});
+	const lifestyleInfluencer = data.people.filter((person) => {
+		return person.type?.includes('lifestyleInfluencer');
+	});
 </script>
 
 <BlogPageHead

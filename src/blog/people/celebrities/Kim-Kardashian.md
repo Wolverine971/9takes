@@ -4,7 +4,7 @@ description: 'Explore our analysis of why Kim Kardashian appears to be a Type 3 
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian'
-lastmod: '2023-06-20'
+lastmod: '2023-07-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -65,10 +65,12 @@ Kendal Jenner - 4??? -->
 <summary class="accordion">TL;DR: Why Kim is an Enneagram 3</summary>
 <div class="panel">
 <ul>
-<li>Kim Kardashian's rise from stylist to media mogul exemplifies Type 3's relentless drive for success. Her game, 'Kim Kardashian: Hollywood,' reveals her strategic exploitation of public image.</li>
-<li>Kardashian’s curated social media presence is a typical Type 3 trait. However, her retreat post the Paris robbery unveiled a vulnerable side that Type 3s often hide.</li>
-<li>Kardashian's 72-day marriage and trademark controversy are potential reflections of a Type 3's pursuit of societal expectations and resilience. These incidents might underscore their core fear of being unworthy.</li>
-<li>Kardashian's actions seem rooted in a Type 3's need to feel valued through achievements. Whether launching businesses or managing her image, her primary driver appears to be ambition and desire for success.</li>
+<li>Kim's rise from stylist to media mogul exemplifies Type 3's relentless drive for success. She even has a game, 'Kim Kardashian: Hollywood,' which reveals her strategic exploitation of public image.</li>
+<li>Kim curates her social media presence in a typical Type 3 fashion. However, her retreat post the Paris robbery unveiled a vulnerable side that Type 3s often hide.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VkRg0tIKyKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</li>
+<li>Kim's 72-day marriage and trademark controversy are potential reflections of a Type 3's pursuit of societal expectations and resilience. These incidents might underscore their core fear of being unworthy.</li>
+<li>Kim's actions seem rooted in a Type 3's need to feel valued through achievements. Whether launching businesses or managing her image, her primary driver appears to be ambition and desire for success.</li>
 </ul>
   </div>
 </details>
@@ -105,11 +107,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8s, appreciating strength, might respect Kim's resilience in the face of controversy and her assertiveness in business. They might, however, question her influence and the societal standards her brand sets.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9s, seeking peace and harmony, might feel conflicted about Kim. They might appreciate her advocacy for criminal justice reform but feel uneasy about the drama and controversies surrounding her.
 
-**In summarizing,** we've traversed Kim's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, and her ongoing balancing act between the real and the ideal, we've painted a compelling picture of why Kardashian may indeed represent a Type 3 personality.
+**To wrap up,** we've analyzed Kim's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, and her ongoing balancing act between the real and the ideal, the picture has been painted of why Kardashian may indeed represent a Type 3 personality.
 
-However, as we all know, people are complex and this cannot be overstated. This analysis is but one lens through which to view Kim, and it certainly does not encapsulate her entirety. How does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Do you feel that seeing Kardashian through the lens of an Enneagram Type 3 gives you a deeper insight into her actions and motivations?
+However, people are complex and this cannot be overstated. This analysis is but one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Do you feel that seeing Kardashian through the lens of an Enneagram Type 3 gives you a deeper insight into her actions and motivations? Would love your thoughts. DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3)
 
-In a world fascinated by personality, understanding public figures like Kim through this lens could offer valuable insights. If you like this, sign up below ⬇️ and join a community that appreciates the in-depth exploration of personalities and perspectives.
+There is a fascinating world of personalitities out there waiting to be explored. Understanding public figures like Kim through the Enneagram lens could offer valuable insights. If you like this, sign up below ⬇️ and join 9takes, a community that appreciates the in-depth exploration of personalities and perspectives. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3) and let me know what you think!
 
 <div>
 <script type="application/ld+json">

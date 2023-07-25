@@ -98,7 +98,7 @@ As we explore Kanye's alignment with the Type 7 personality, it's crucial to emp
 
 Type 7 personalities thrive on their connections, seeking stimulation and novelty in their relationships. Look at Kanye's interaction with individuals like Jay-Z, Nas, and Kendrick Lamar. His collaborations, disputes, and reconciliations trace a pattern of seeking diverse and intense experiences, further reinforcing his Type 7 traits.
 
-In his personal life, too, Kanye's relationships mirror a Type 7's complexity. His marriage to <a href="../celebrities/Kim-Kardashian">Kim Kardashian</a>, subsequent divorce, and the apparent tension with <a href="../celebrities/Pete-Davidson">Pete Davidson</a> allude to the Type 7's struggle with commitment and confrontation, often preferring to escape painful emotions rather than face them.
+In his personal life, too, Kanye's relationships mirror a Type 7's complexity. His marriage to [Kim Kardashian](/blog/famous-enneagram-types/Kim-Kardashian), subsequent divorce, and the apparent tension with [Pete Davidson](/blog/famous-enneagram-types/Pete-Davidson) allude to the Type 7's struggle with commitment and confrontation, often preferring to escape painful emotions rather than face them.
 
 ## How Each Enneagram Type Perceives Kanye West
 
