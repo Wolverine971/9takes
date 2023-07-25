@@ -43,6 +43,8 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
 
+<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. Kourtney Kardashian, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
+
 <details>
 <summary class="accordion">TL;DR: Why Kourtney Kardashian is an Enneagram type 1</summary>
 <div class="panel">
@@ -58,8 +60,6 @@ tiktok: ''
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. Kourtney Kardashian, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
 
 ## What Makes Kourtney a Type 1?
 
@@ -79,7 +79,7 @@ Lastly, Kourtney's need for order and control, another typical Type 1 trait, is 
 
 ## How Kourtney Differs from Her Sisters
 
-The Type 1 personality traits further differentiate Kourtney from her sisters. While Kim, Khloe, and [Kylie](/blog/famous-enneagram-types/Kylie-Jenner) may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
+The Type 1 personality traits further differentiate Kourtney from her sisters. While Kim, [Khloé](/blog/famous-enneagram-types/Khloe-Kardashian), and [Kylie](/blog/famous-enneagram-types/Kylie-Jenner) may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
 
 ## The Downside: Dealing with Controversies and Criticism
 

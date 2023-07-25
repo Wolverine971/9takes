@@ -80,7 +80,7 @@
 			{ name: 'Peter-Thiel', link: false },
 
 			{ name: 'Malcom-X', link: false },
-			{ name: 'Khloe-Kardashian', link: false }
+			{ name: 'Khloe-Kardashian', link: true }
 		],
 		7: [
 			{ name: 'Logan-Paul', link: true },

@@ -43,6 +43,9 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 > **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
 
+<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Kylie Jenner, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
+
+
 <details>
 <summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type 9</summary>
 <div class="panel">
@@ -59,15 +62,13 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
   </div>
 </details>
 
-<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. Kylie Jenner, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
-
 ## The Unseen Depths of a Media Mogul
 
 Jenner's public life is splashed across tabloid pages and Instagram feeds, offering a curated glance at her world. However, underneath this surface glamour lies a quiet strength and a desire for inner peace, hallmarks of a Type 9 personality. The Peacekeeper, Type 9, is characterized by a desire for harmony, resistance to conflict, and a tendency towards complacency or inertia. Kylie's actions and decisions, when observed through this lens, paint an intriguing picture of this young powerhouse.
 
 ## The Desire for Harmony
 
-One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony. This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, [Kim](/blog/famous-enneagram-types/Kim-Kardashian), Kloe, and [Kourtney](/blog/famous-enneagram-types/Kourtney-Kardashian). She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
+One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony. This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, [Kim](/blog/famous-enneagram-types/Kim-Kardashian), [Khloé]((/blog/famous-enneagram-types/Khloe-Kardashian)), and [Kourtney](/blog/famous-enneagram-types/Kourtney-Kardashian). She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
 
 ## The Inertia of a Billionaire
 
