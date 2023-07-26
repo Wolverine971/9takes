@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-	<title>{`9takes | ${data.question.question.length}`}</title>
+	<title>{`9takes | ${data.question.question}`}</title>
 	<meta name="description" content={`9takes Question | ${data.question.question}`} />
 	<!-- <meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" /> -->
 	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />

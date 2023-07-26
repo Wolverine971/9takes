@@ -24,6 +24,12 @@
 	};
 </script>
 
+<svelte:head>
+	<title>9takes | Questions Page</title>
+	<meta name="description" content="User generated questions with comments sorted by personality" />
+	<link rel="canonical" href="https://9takes.com/questions" />
+</svelte:head>
+
 <div>
 	<h1>Asked questions</h1>
 
