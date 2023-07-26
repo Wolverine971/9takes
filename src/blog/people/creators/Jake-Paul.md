@@ -16,9 +16,7 @@ instagram: 'https://www.instagram.com/jakepaul'
 tiktok: 'https://www.tiktok.com/@jakepaul'
 ---
 
-<!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news -->
-
-logan paul
+<!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news, logan paul -->
 
 <svelte:head>
 
@@ -44,6 +42,8 @@ logan paul
 
 > **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 
+<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to a prominent figure in the boxing arena. Jake Paul, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a compelling representation of Enneagram Type 3 - The Achiever.</p>
+
 <details>
 <summary class="accordion">TL;DR: Why Jake Paul is an Enneagram type 3</summary>
 <div class="panel">
@@ -55,8 +55,6 @@ logan paul
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to a prominent figure in the boxing arena. Jake Paul, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a compelling representation of Enneagram Type 3 - The Achiever.</p>
 
 ## From Vine to the Boxing Ring: Jake's Ambition in Overdrive
 

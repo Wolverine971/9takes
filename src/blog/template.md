@@ -7,9 +7,9 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
 lastmod: '2023-07-17'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: tiptype
-type: ['']
+type: ['celebrity']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -43,6 +43,8 @@ tiktok: ''
 
 > **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
 
+<p class="firstLetter"></p>
+
 <details>
 <summary class="accordion">TL;DR: Why booboo is an Enneagram type tiptype </summary>
 <div class="panel">
@@ -59,21 +61,45 @@ tiktok: ''
   </div>
 </details>
 
-<p class="firstLetter"></p>
-
 ## How Each Enneagram Type Perceives booboo
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** -
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
+<article>
+	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <p></p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <p></p>
+</article>
 
 <div>
 <script type="application/ld+json">

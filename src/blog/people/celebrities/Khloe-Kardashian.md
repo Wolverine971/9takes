@@ -69,9 +69,9 @@ One of the most prominent examples of Khloé's Type 6 tendencies emerged during 
 
 ## Seeking Guidance in Relationships
 
-One of the defining traits of Type 6 individuals is their tendency to seek guidance and support from others. This often manifests in their relationships. For Khloé, her relationships, particularly with her sisters Kim, Kylie, and Kourtney, play a pivotal role in her life. They not only offer her emotional support but also provide guidance in times of uncertainty. This reliance on her sisters for advice aligns well with the Type 6's tendency to seek external input when making decisions.
+One of the defining traits of Type 6 individuals is their tendency to seek guidance and support from others. This often manifests in their relationships. For Khloé, her relationships, particularly with her sisters Kim, [Kylie](/blog/famous-enneagram-types/Kylie-Jenner), and [Kourtney](/blog/famous-enneagram-types/Kourtney-Kardashian), play a pivotal role in her life. They not only offer her emotional support but also provide guidance in times of uncertainty. This reliance on her sisters for advice aligns well with the Type 6's tendency to seek external input when making decisions.
 
-Consider her relationship with sister Kim Kardashian (LINK TO KIM'S ARTICLE), who Khloé often turns to for advice and support, especially during difficult periods. Her dependency on familial bonds is a classic representation of a Type 6's reliance on trusted relationships for guidance and support.
+Consider her relationship with sister [Kim Kardashian](/blog/famous-enneagram-types/Kim-Kardashian), who Khloé often turns to for advice and support, especially during difficult periods. Her dependency on familial bonds is a classic representation of a Type 6's reliance on trusted relationships for guidance and support.
 
 ## Controversies and Drama: A Test of Loyalty
 
