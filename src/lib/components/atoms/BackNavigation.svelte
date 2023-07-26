@@ -16,7 +16,7 @@
 
 	const displayRoute = async () => {
 		if ($page.route.id) {
-			const tempSteps = $page.route.id.split('/').filter((x) => !!x);
+			const tempSteps = $page.route.id.split('/').filter((x) => !!x && x !== 'users');
 
 			// .shift();
 			// tempSteps.pop();

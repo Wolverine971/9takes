@@ -50,6 +50,7 @@
 
 	onMount(() => {
 		window.addEventListener('scroll', calculateHeightsAndSetClasses);
+		console.log(data);
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);
@@ -144,7 +145,7 @@
 		id="comments"
 		bind:this={commentContainerElement}
 	>
-		{#if innerWidth > 575}
+		{#if innerWidth > 575 && _data.comments.length >= 5}
 			<div
 				class="{isFixed
 					? 'scroll-js pos-fixed'
@@ -159,7 +160,7 @@
 		{/if}
 		<Card style="padding: .5rem; border: none;">
 			<!-- Renders for SEO, removed if not answered -->
-			{#if innerWidth < 575 || _data.comment_count <= 5}
+			{#if innerWidth < 575 || _data.comments.length <= 5}
 				<h3 class="tab-header">Comments</h3>
 			{/if}
 			<Comments data={_data} parentType={'question'} {user} />

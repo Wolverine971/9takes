@@ -58,8 +58,18 @@
 </script>
 
 <Card style="margin: .5rem 0; padding: .5rem;">
-	<!-- <p>Comment: {comment?.comment}</p> -->
-	<input class="comment-box" type="text" bind:value={_commentComment.comment} readonly />
+	<span class="user-comment">
+		<a
+			class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+			href={_commentComment?.profiles?.external_id
+				? `/users/${_commentComment.profiles.external_id}`
+				: ''}
+		>
+			{_commentComment?.profiles?.enneagram || 'Rando'}
+		</a>
+
+		<input class="comment-box" type="text" bind:value={_commentComment.comment} readonly />
+	</span>
 
 	<!-- <p>ParentId: {comment?.parent_id}</p> -->
 	<Interact
@@ -113,5 +123,34 @@
 		border-radius: 5px;
 		// margin-bottom: 0;
 		margin: 0.25rem;
+	}
+
+	.user-comment {
+		display: flex;
+		// gap: 0.5rem;
+		position: relative;
+	}
+	.profile-avatar {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		// background: red;
+		border: 1px solid var(--color-p-origin-v);
+		width: 3rem;
+		height: 3rem;
+		aspect-ratio: 1/1;
+		margin: 0.5rem;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s; /* Firefox 4 */
+		-webkit-transition: all 0.5s; /* Safari and Chrome */
+		-o-transition: all 0.5s; /* Opera */
+		cursor: pointer;
+
+		&:hover {
+			border: 1px solid var(--color-p-origin);
+		}
 	}
 </style>

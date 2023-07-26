@@ -69,8 +69,9 @@ export async function load(event: any) {
 	} = await supabase
 		.from('comments')
 		.select(
-			`*, 
-			comment_like ( id, comment_id, user_id )`,
+			`*
+			, profiles ( external_id, enneagram)
+			, comment_like ( id, comment_id, user_id )`,
 
 			{ count: 'exact' }
 		)

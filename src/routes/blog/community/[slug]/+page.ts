@@ -44,7 +44,7 @@ export const load: PageLoad = async ({ params }) => {
 	if (!post || !post.metadata.published) {
 		// throw error(404); // Couldn't resolve the post
 		throw error(404, {
-			message: `Couldn't resolve the post`
+			message: `Couldn't find the the blog`
 		});
 	}
 

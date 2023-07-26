@@ -37,7 +37,22 @@ export async function GET({
 
 	let { data: questionComments, error: questionError } = await supabase
 		.from('comments')
-		.select('*', { count: 'exact' })
+		.select(
+			`
+		id
+		, created_at
+		, parent_id
+		, comment
+		, author_id
+		, ip
+		, comment_count
+		, parent_type
+		, es_id
+		, like_count
+		, profile ( external_id, enneagram)
+		`,
+			{ count: 'exact' }
+		)
 		.eq('parent_id', parentId);
 	const questionCommentIds = questionComments?.map((q) => {
 		return q.id;
@@ -49,7 +64,22 @@ export async function GET({
 		}: PostgrestResponse<{ data: Database['public']['Tables']['comments']['Row'][]; error: any }> =
 			await supabase
 				.from('comments')
-				.select('*', { count: 'exact' })
+				.select(
+					`
+		id
+		, created_at
+		, parent_id
+		, comment
+		, author_id
+		, ip
+		, comment_count
+		, parent_type
+		, es_id
+		, like_count
+		, profile ( external_id, enneagram)
+		`,
+					{ count: 'exact' }
+				)
 				.in('parent_id', questionCommentIds);
 
 		interface ICommentMap {
