@@ -55,8 +55,8 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "booboo.jpeg" -o "booboo.webp"
-cwebp -sns 70 -f 50 -size 20000 "booboo.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/types/9s/s-booboo.webp"
+cwebp "Robert-Oppenheimer.jpg" -o "Robert-Oppenheimer.webp"
+cwebp -sns 70 -f 50 -size 20000 "Robert-Oppenheimer.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/types/5s/s-Robert-Oppenheimer.webp"
 
 <!--
 ## transitions

@@ -66,6 +66,7 @@
 			'Albert-Einstein',
 			'Agatha-Christie',
 			'Friedrich-Nietzsche',
+			'Robert-Oppenheimer',
 			'Rooney-Mara',
 			'David-Sacks',
 			'Lex-Fridman'
