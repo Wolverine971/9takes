@@ -332,6 +332,14 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
       },
       "publisher": {
         "type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"

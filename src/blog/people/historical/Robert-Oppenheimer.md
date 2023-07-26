@@ -2,9 +2,9 @@
 title: 'Robert Oppenheimer An Enneagram Type 4'
 description: 'Why Robert Oppenheimer appears to be a type 4'
 author: 'DJ Wayne'
-date: '2023-07-17'
+date: '2023-07-25'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Robert-Oppenheimer'
-lastmod: '2023-07-17'
+lastmod: '2023-07-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

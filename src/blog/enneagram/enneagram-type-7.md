@@ -249,14 +249,14 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
       "author": {
         "type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+      "sameAs": [
+        {
+          "@id": "https://www.instagram.com/djwayne3/"
+        },
+        {
+          "@id": "https://twitter.com/djwayne3"
+        }
+      ]
       },
       "dateModified": "2023-07-13",
       "datePublished": "2023-2-18",
@@ -300,6 +300,14 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
       },
       "publisher": {
         "type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"

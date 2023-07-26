@@ -151,14 +151,14 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -184,14 +184,22 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
       },
       "publisher": {
         "type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
-        "type": "ImageObject",
-        "height": 60,
-        "url": "https://9takes.com/brand/darkRubix.png",
-        "width": 600
+          "type": "ImageObject",
+          "height": 60,
+          "url": "https://9takes.com/brand/darkRubix.png",
+          "width": 600
         },
         "name": "9takes"
-    }
+      }
     },
     {
       "@type": "FAQPage",

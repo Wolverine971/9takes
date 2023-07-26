@@ -457,6 +457,14 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
       },
       "publisher": {
         "type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"

@@ -321,6 +321,14 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
       },
       "publisher": {
         "type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"

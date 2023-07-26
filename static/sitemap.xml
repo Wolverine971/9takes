@@ -8,7 +8,7 @@
 </url>
 <url>
 <loc>https://9takes.com/blog</loc>
-<lastmod>2023-06-23</lastmod>
+<lastmod>2023-07-25</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
@@ -20,13 +20,13 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/enneagram</loc>
-<lastmod>2023-07-23</lastmod>
+<lastmod>2023-07-24</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
 <url>
 <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-<lastmod>2023-07-21</lastmod>
+<lastmod>2023-07-25</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -74,7 +74,7 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/enneagram/enneagram-communication-styles</loc>
-<lastmod>2023-07-13T00:00:00.000Z</lastmod>
+<lastmod>2023-07-26T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -380,6 +380,12 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/famous-enneagram-types/Friedrich-Nietzsche</loc>
+<lastmod>2023-07-25T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/blog/famous-enneagram-types/Robert-Oppenheimer</loc>
 <lastmod>2023-07-25T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>

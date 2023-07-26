@@ -4,7 +4,7 @@ description: 'Explore the unique communication styles of Enneagram types 1-9. En
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2023-07-13'
+lastmod: '2023-07-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -40,11 +40,13 @@ pic: 'communication-styles'
 
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
 
-## Enneagram 1 Communication Style
 
-Ones value order, organization, and structure. They strive to live according to their principles and beliefs and can be critical of themselves and others when they fall short.
+<article>
+<h2>Enneagram 1 Communication Style</h2>
 
-Ones have a precise communication style and value clarity and order. They appreciate direct communication and expect others to be clear and concise. They are critical thinkers and can be overly critical of themselves and others. To communicate effectively with Ones, use a straightforward approach, and avoid ambiguity. It's essential to be clear, concise, and direct. They appreciate honesty, but it's important to be mindful of your tone and delivery. Avoid being overly critical or dismissive of their concerns. Instead, focus on solutions and offer constructive feedback.
+<p>Ones value order, organization, and structure. They strive to live according to their principles and beliefs and can be critical of themselves and others when they fall short.</p>
+
+<p>Ones have a precise communication style and value clarity and order. They appreciate direct communication and expect others to be clear and concise. They are critical thinkers and can be overly critical of themselves and others. To communicate effectively with Ones, use a straightforward approach, and avoid ambiguity. It's essential to be clear, concise, and direct. They appreciate honesty, but it's important to be mindful of your tone and delivery. Avoid being overly critical or dismissive of their concerns. Instead, focus on solutions and offer constructive feedback.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -97,11 +99,14 @@ Ones have a precise communication style and value clarity and order. They apprec
 </p>
 </details>
 
-## Enneagram 2 Communication Style
+</article>
 
-Twos value relationships and are generous, caring, and nurturing. They have a strong desire to be needed and appreciated by others.
+<article>
+<h2>Enneagram 2 Communication Style</h2>
 
-Twos have a warm and nurturing communication style. They are people-oriented and empathetic, making them excellent listeners. They appreciate emotional support and validation. To communicate effectively with Twos, acknowledge their contributions and show appreciation for their help. It's essential to be warm, empathetic, and supportive. They appreciate praise and recognition for their efforts. However, it's important to set boundaries and avoid being overly dependent on them. Be clear and direct about your needs and feelings, and don't assume they can read your mind.
+<p>Twos value relationships and are generous, caring, and nurturing. They have a strong desire to be needed and appreciated by others.</p>
+
+<p>Twos have a warm and nurturing communication style. They are people-oriented and empathetic, making them excellent listeners. They appreciate emotional support and validation. To communicate effectively with Twos, acknowledge their contributions and show appreciation for their help. It's essential to be warm, empathetic, and supportive. They appreciate praise and recognition for their efforts. However, it's important to set boundaries and avoid being overly dependent on them. Be clear and direct about your needs and feelings, and don't assume they can read your mind.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -153,11 +158,14 @@ Twos have a warm and nurturing communication style. They are people-oriented and
   <p class="panel"> They are generally adaptable and can tailor their communication style to meet the emotional needs of others. However, they may struggle to adapt when their own needs are unmet.</p>
 </details>
 
-## Enneagram 3 Communication Style
+</article>
 
-Threes value success, achievement, and recognition. They are ambitious, confident, and driven.
+<article>
+<h2>Enneagram 3 Communication Style</h2>
 
-Threes have an assertive and goal-oriented communication style. They value efficiency and results and appreciate straightforward communication. They can be competitive and may prioritize work over relationships. To communicate effectively with Threes, be clear and concise, and emphasize the benefits of a project or task. It's essential to be clear, concise, and goal-oriented. They appreciate feedback and recognition for their efforts. However, it's important to be mindful of their tendency to prioritize work over relationships. Encourage them to take breaks and prioritize self-care.
+<p>Threes value success, achievement, and recognition. They are ambitious, confident, and driven.</p>
+
+<p>Threes have an assertive and goal-oriented communication style. They value efficiency and results and appreciate straightforward communication. They can be competitive and may prioritize work over relationships. To communicate effectively with Threes, be clear and concise, and emphasize the benefits of a project or task. It's essential to be clear, concise, and goal-oriented. They appreciate feedback and recognition for their efforts. However, it's important to be mindful of their tendency to prioritize work over relationships. Encourage them to take breaks and prioritize self-care.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -209,11 +217,14 @@ Threes have an assertive and goal-oriented communication style. They value effic
   <p class="panel"> Threes are highly adaptable and can modify their communication style to suit different audiences or to achieve their goals.</p>
 </details>
 
-## Enneagram 4 Communication Style
+</article>
 
-Fours value creativity, authenticity, and individuality. They have a strong desire to express themselves and their emotions.
+<article>
+<h2>Enneagram 4 Communication Style</h2>
 
-Fours have a unique and expressive communication style. They value creativity and authenticity and often communicate through art, writing, or other forms of self-expression. They can be sensitive to criticism and may need validation. To communicate effectively with Fours, allow them to express themselves and acknowledge their emotions. It's essential to be empathetic, sensitive, and non-judgmental. They appreciate when others acknowledge and validate their feelings. However, it's important to avoid being overly critical or dismissive of their emotions. Encourage them to express themselves, but also remind them of the importance of rational thinking.
+<p>Fours value creativity, authenticity, and individuality. They have a strong desire to express themselves and their emotions.</p>
+
+<p>Fours have a unique and expressive communication style. They value creativity and authenticity and often communicate through art, writing, or other forms of self-expression. They can be sensitive to criticism and may need validation. To communicate effectively with Fours, allow them to express themselves and acknowledge their emotions. It's essential to be empathetic, sensitive, and non-judgmental. They appreciate when others acknowledge and validate their feelings. However, it's important to avoid being overly critical or dismissive of their emotions. Encourage them to express themselves, but also remind them of the importance of rational thinking.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -265,11 +276,14 @@ Fours have a unique and expressive communication style. They value creativity an
   <p class="panel"> Fours can adjust their communication style to convey emotional depth and authenticity, but they may struggle to adapt in situations that require practicality or detachment from emotions.</p>
 </details>
 
-## Enneagram 5 Communication Style
+</article>
 
-Fives value knowledge, expertise, and independence. They are analytical, logical, and private.
+<article>
+<h2>Enneagram 5 Communication Style</h2>
 
-Fives have a thoughtful and private communication style. They are analytical and enjoy exploring ideas and concepts. They can be reserved and may need space to process information. To communicate effectively with Fives, respect their boundaries and give them time to think before responding. It's essential to be respectful of their boundaries and need for space. They appreciate when others respect their expertise and knowledge. However, it's important to avoid being overly intrusive or demanding of their time and attention. Encourage them to share their insights and ideas, but also respect their need for solitude and privacy.
+<p>Fives value knowledge, expertise, and independence. They are analytical, logical, and private.</p>
+
+<p>Fives have a thoughtful and private communication style. They are analytical and enjoy exploring ideas and concepts. They can be reserved and may need space to process information. To communicate effectively with Fives, respect their boundaries and give them time to think before responding. It's essential to be respectful of their boundaries and need for space. They appreciate when others respect their expertise and knowledge. However, it's important to avoid being overly intrusive or demanding of their time and attention. Encourage them to share their insights and ideas, but also respect their need for solitude and privacy.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -321,11 +335,14 @@ Fives have a thoughtful and private communication style. They are analytical and
   <p class="panel"> Fives can adapt their communication to different intellectual levels or fields of interest. However, they may struggle to adapt in emotionally charged or high-pressure social situations.</p>
 </details>
 
-## Enneagram 6 Communication Style
+</article>
 
-Sixes value security, loyalty, and trust. They are responsible, committed, and skeptical.
+<article>
+<h2>Enneagram 6 Communication Style</h2>
 
-Sixes have a cautious and loyal communication style. They are responsible and reliable and value trust and security. They may struggle with anxiety and need reassurance. To communicate effectively with Sixes, provide support and be patient with their concerns. It's essential to be patient, supportive, and reassuring. They appreciate when others validate their concerns and fears. However, it's important to avoid being overly critical or dismissive of their anxiety. Encourage them to focus on solutions and offer reassurance and support.
+<p>Sixes value security, loyalty, and trust. They are responsible, committed, and skeptical.</p>
+
+<p>Sixes have a cautious and loyal communication style. They are responsible and reliable and value trust and security. They may struggle with anxiety and need reassurance. To communicate effectively with Sixes, provide support and be patient with their concerns. It's essential to be patient, supportive, and reassuring. They appreciate when others validate their concerns and fears. However, it's important to avoid being overly critical or dismissive of their anxiety. Encourage them to focus on solutions and offer reassurance and support.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -377,11 +394,14 @@ Sixes have a cautious and loyal communication style. They are responsible and re
   <p class="panel"> Sixes can adjust their communication style to match their level of trust and security. However, they may struggle to adapt when they feel uncertain or threatened.</p>
 </details>
 
-## Enneagram 7 Communication Style
+</article>
 
-Sevens value excitement, novelty, and adventure. They are optimistic, spontaneous, and curious.
+<article>
+<h2>Enneagram 7 Communication Style</h2>
 
-Sevens have an energetic and optimistic communication style. They value excitement and adventure and often have many ideas and interests. They can be easily distracted and may struggle with follow-through. To communicate effectively with Sevens, be upbeat and positive, and help them stay focused on their goals. It's essential to be upbeat, positive, and spontaneous. They appreciate when others share their enthusiasm and energy. However, it's important to avoid being overly critical or negative, as it can dampen their spirits. Encourage them to focus on the present and avoid getting bogged down by details.
+<p>Sevens value excitement, novelty, and adventure. They are optimistic, spontaneous, and curious.</p>
+
+<p>Sevens have an energetic and optimistic communication style. They value excitement and adventure and often have many ideas and interests. They can be easily distracted and may struggle with follow-through. To communicate effectively with Sevens, be upbeat and positive, and help them stay focused on their goals. It's essential to be upbeat, positive, and spontaneous. They appreciate when others share their enthusiasm and energy. However, it's important to avoid being overly critical or negative, as it can dampen their spirits. Encourage them to focus on the present and avoid getting bogged down by details.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -433,11 +453,14 @@ Sevens have an energetic and optimistic communication style. They value exciteme
   <p class="panel"> Sevens are highly adaptable in their communication, often adjusting their style to keep things exciting and engaging. However, they may struggle to adapt in situations that require focus on negative or mundane details.</p>
 </details>
 
-## Enneagram 8 Communication Style
+</article>
 
-Eights value strength, power, and control. They are assertive, direct, and confident.
+<article>
+<h2>Enneagram 8 Communication Style</h2>
 
-Eights have a direct and assertive communication style. They value strength and control and appreciate honesty and authenticity. They can be confrontational and may struggle with vulnerability. To communicate effectively with Eights, be straightforward and assertive, and avoid being passive or indirect. It's essential to be honest, direct, and assertive. They appreciate when others stand up to them and match their energy. However, it's important to avoid being too aggressive or confrontational, as it can trigger their anger. Encourage them to channel their energy into productive endeavors and remind them of the importance of vulnerability and empathy.
+<p>Eights value strength, power, and control. They are assertive, direct, and confident.</p>
+
+<p>Eights have a direct and assertive communication style. They value strength and control and appreciate honesty and authenticity. They can be confrontational and may struggle with vulnerability. To communicate effectively with Eights, be straightforward and assertive, and avoid being passive or indirect. It's essential to be honest, direct, and assertive. They appreciate when others stand up to them and match their energy. However, it's important to avoid being too aggressive or confrontational, as it can trigger their anger. Encourage them to channel their energy into productive endeavors and remind them of the importance of vulnerability and empathy.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -489,11 +512,14 @@ Eights have a direct and assertive communication style. They value strength and 
   <p class="panel"> Eights can adapt their communication style to assert control or protect their autonomy, but they may struggle to adapt in situations that require gentleness or passivity.</p>
 </details>
 
-## Enneagram 9 Communication Style
+</article>
 
-Nines value harmony, peace, and cooperation. They are easygoing, agreeable, and diplomatic.
+<article>
+<h2>Enneagram 9 Communication Style</h2>
 
-Nines have a peaceful and harmonious communication style. They value cooperation and often avoid conflict. They can be indecisive and may struggle with assertiveness. To communicate effectively with Nines, be patient and understanding, and encourage them to assert their needs and opinions. It's essential to be patient, understanding, and non-judgmental. They appreciate when others listen actively and acknowledge their perspective. However, it's important to avoid being too demanding or critical, as it can cause them to withdraw. Encourage them to assert their needs and opinions and remind them of the importance of self-care and boundaries.
+<p>Nines value harmony, peace, and cooperation. They are easygoing, agreeable, and diplomatic.</p>
+
+<p>Nines have a peaceful and harmonious communication style. They value cooperation and often avoid conflict. They can be indecisive and may struggle with assertiveness. To communicate effectively with Nines, be patient and understanding, and encourage them to assert their needs and opinions. It's essential to be patient, understanding, and non-judgmental. They appreciate when others listen actively and acknowledge their perspective. However, it's important to avoid being too demanding or critical, as it can cause them to withdraw. Encourage them to assert their needs and opinions and remind them of the importance of self-care and boundaries.</p>
 
 <details>
 <summary class="accordion">Verbal Communication:</summary>
@@ -568,7 +594,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-07-13"
+        "@value": "2023-07-25"
       },
       "datePublished": {
         "@type": "Date",
@@ -582,14 +608,14 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "articleSection": [
           {
             "@type": "BlogPosting",
@@ -729,6 +755,12 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
 </div>
 
 <style lang="scss">
+  article{
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
   .accordion {
     background-color: #eee;
     color: #444;
