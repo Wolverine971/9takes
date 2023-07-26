@@ -126,7 +126,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Artists</h3>
+	<h3 class="position-center">Historical Figures</h3>
 	<div class="people-grid-container">
 		{#each historicals as person}
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
