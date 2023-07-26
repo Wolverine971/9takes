@@ -66,7 +66,7 @@
 			{ name: 'Agatha-Christie', link: false },
 			{ name: 'Rooney-Mara', link: false },
 			{ name: 'Friedrich-Nietzsche', link: true },
-			{ name: 'Robert-Oppenheimer', link: false },
+			{ name: 'Robert-Oppenheimer', link: true },
 			{ name: 'David-Sacks', link: false },
 			{ name: 'Lex-Fridman', link: false }
 		],

@@ -127,22 +127,24 @@
 	</div>
 
 	<h3 class="position-center">Artists</h3>
-	{#each historicals as person}
-		<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-			{#if person.enneagram}
-				<img
-					class="grid-img"
-					src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-					alt={person.slug.split('-').join(' ')}
-				/>
-			{/if}
-			<div class="card fit-card txt-white border-0 ">
-				<h3>
-					{person.slug.split('-').join(' ')}
-				</h3>
-			</div>
-		</a>
-	{/each}
+	<div class="people-grid-container">
+		{#each historicals as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
 	<!-- <h3 class="position-center">Techies</h3>
 	<ul>
 		{#each techies as person}
