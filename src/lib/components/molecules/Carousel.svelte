@@ -104,7 +104,8 @@
 			'Martin-Luther-King-Jr',
 			'Winston-Churchill',
 			'Chelsea-Handler',
-			'Denzel-Washington'
+			'Denzel-Washington',
+			'Joe-Rogan'
 		],
 		9: [
 			'Abraham-Lincoln',

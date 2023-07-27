@@ -219,6 +219,9 @@
 	}
 	.tab-active {
 		border: var(--classic-border) !important;
+		border-bottom: none !important;
+		border-radius: 5px 5px 0 0 !important;
+		margin-bottom: 0;
 	}
 
 	.flexr {
@@ -232,6 +235,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
+		border-top: var(--classic-border) !important;
 	}
 	/* Style the tab */
 	.tab {
