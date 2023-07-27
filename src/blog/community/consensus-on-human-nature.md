@@ -38,7 +38,7 @@ pic: ''
 
 ## Plato is to Aristotle as Freud is to Pinker
 
-Plato had a complicated view of human nature, but his pupil Aristotle had a more simple view. Aristotle argued that humans have the unique ability to be rational and that we are in a constant struggle to be rational. Similarly Freud had a complicated view of human nature where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche. However the modern psychologist Steven Pinker calls for rationality, mirroring Aristotle's view.
+Plato had a complicated view of human nature, but his pupil Aristotle had a simple view. Aristotle argued that humans have the unique ability to be rational and that we are in a constant struggle to be rational. Similarly Freud had a complicated view of human nature where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche. However the modern psychologist Steven Pinker calls for rationality, mirroring Aristotle's view.
 
 ## What was Plato's view?
 
@@ -90,7 +90,7 @@ By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historica
 
 ## Wrapping it up
 
-So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the enneagram. It shares many similar concepts but it has no direct lineage. Perhaps these 3 divisions that we keep stumbling upon form a better model for understanding the human soul and the human psyche. At 9takes we intend to poke and prod at these divisions because we think there is still a lot to learn.
+So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the [enneagram](/blog/enneagram/beginners-guide-to-determining-your-enneagram-type). It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
 
 <style>
     table {
