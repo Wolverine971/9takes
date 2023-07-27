@@ -23,7 +23,7 @@ pic: ''
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> -->
 
-<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
+<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? No... but there have been two main perspectives that keep coming up that are worth looking at. One theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
 <div style="text-align: center;" >
 <img title="Google's human nature definition" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
@@ -31,7 +31,7 @@ pic: ''
 
 <figure style="margin:2rem" title="9takes's human nature definition">
     <blockquote>
-    Human Nature: Psychology and philosophy riffing on how people think, feel, and act.
+    9takes definition of Human Nature: The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.
     </blockquote>
     <figcaption style="margin-left: 80%">-<cite>9takes</cite></figcaption>
 </figure>
@@ -42,17 +42,17 @@ Plato had a complicated view of human nature, but his pupil Aristotle had a more
 
 ## What was Plato's view?
 
-Plato talked about the human soul and he talked about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed the tripartite soul. Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs.
+Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪.
 
 ## Unified concepts: Plato's "soul" and Freud's "psyche"
 
-Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality. The superego, similar to Plato's spirit, represents internalized societal values and moral standards.
+Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives 💪. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality 🧠. The superego, similar to Plato's spirit, represents internalized societal values and moral standards ❤️.
 
-| Plato                                                                                                          | Freud                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
-| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
-| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
+| Plato                                                                                                          | Emoji | Freud                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠     | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
+| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️     | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
+| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪     | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 So who has built upon these theories? Where are we today?
 
