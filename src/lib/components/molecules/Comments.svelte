@@ -46,15 +46,13 @@
 	};
 </script>
 
-<p>
-	{#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && _data?.flags?.userHasAnswered}
-		<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
-	{/if}
+{#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && _data?.flags?.userHasAnswered}
+	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
+{/if}
 
-	{#if comment_count > 0 && parentType === 'question' && !_data?.flags?.userHasAnswered}
-		<p>Must answer question first</p>
-	{/if}
-</p>
+{#if comment_count > 0 && parentType === 'question' && !_data?.flags?.userHasAnswered}
+	<p>Must answer question first</p>
+{/if}
 {#if loading}
 	<div>Loading comments...</div>
 {:else if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}

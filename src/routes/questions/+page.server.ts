@@ -37,7 +37,7 @@ export const load: PageServerLoad = async (): Promise<{ questions: any; count: n
 };
 
 export const actions: Actions = {
-	search: async ({ request, getClientAddress }) => {
+	search: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
@@ -58,7 +58,7 @@ export const actions: Actions = {
 			});
 		}
 	},
-	typeahead: async ({ request, getClientAddress }) => {
+	typeahead: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
@@ -83,5 +83,50 @@ export const actions: Actions = {
 			console.log(e);
 			return [];
 		}
+	},
+	sortComments: async ({ request }): Promise<Comment[]> => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+
+			const enneagramTypes = (body.enneagramTypes as string).split(',');
+			const questionId = parseInt(body.questionId as string);
+
+			const { data: comments, error: findCommentsError } = await supabase
+				.from('comments')
+
+				.select(`*, profiles!inner (enneagram, id)`, { count: 'exact' })
+				.eq('parent_type', 'question')
+				.eq('parent_id', questionId)
+				.in('profiles.enneagram', enneagramTypes);
+			if (comments) {
+				return comments as Comment[];
+			} else {
+				throw error(500, {
+					message: 'Error finding comments'
+				});
+			}
+		} catch (e) {
+			console.log(e);
+			return [];
+		}
 	}
 };
+
+interface Comment {
+	id: number;
+	created_at: string;
+	comment: string;
+	author_id: string;
+	ip: string;
+	comment_count: number;
+	parent_type: string;
+	es_id: string;
+	parent_id: number;
+	like_count: number;
+	profiles: Profiles;
+}
+
+interface Profiles {
+	enneagram: string;
+	id: string;
+}
