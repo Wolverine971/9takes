@@ -34,7 +34,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/2/${'Margot-Robbie'}.webp`}
+		image={`/types/2s/${'Margot-Robbie'}.webp`}
 		showIcon={false}
 		displayText="Margot Robbie"
 		subtext=""
@@ -49,27 +49,27 @@ tiktok: ''
 <summary class="accordion">TL;DR: Why Margot Robbie is an Enneagram type 2 </summary>
 <div class="panel">
 <ul>
-<li>Margot Robbie, known for her powerful and empathetic performances, reflects the essence of Enneagram Type 2, The Helper. Her ability to connect deeply with her characters and bring them to life showcases the empathetic nature characteristic of Type 2 individuals.
+<li>Margot Robbie, known for her powerful and empathetic performances, reflects the essence of Enneagram Type 2, The Helper. Her ability to connect with her characters and bring them to life showcases the empathetic nature characteristic of Type 2 individuals.
 </li>
 <li>Off-screen, Robbie's world is a testament to her Type 2 personality. Her struggle with impostor syndrome suggests an underlying desire for love and appreciation, a common trait among Type 2s. Her daily life is filled with acts of giving, further solidifying her alignment with this type.
 </li>
 <li>Robbie’s encounter with the controversial Vanity Fair article in 2016 offers an intriguing peek into her personality. Criticized and objectified, she maintained composure and grace, demonstrating Type 2’s commitment to harmony. This scenario evokes empathy, as it ties back to the Type 2’s childhood wound of feeling unloved and unseen for who they are, leading to a strive for appreciation.
 </li>
-<li>At the core of Robbie’s actions is the Type 2’s motivation: a deep desire to feel loved and needed. From her charitable work to her relentless drive in the acting industry, all of Robbie's actions can be traced back to this core motivation, revealing a quintessential Enneagram Type 2 personality beneath the spotlight.
+<li>At the core of Robbie’s actions is the Type 2’s motivation: a deep desire to feel loved and needed. From her charitable work to her relentless drive in the acting industry, Robbie's actions can be traced back to this core motivation, revealing a quintessential Enneagram Type 2 personality beneath the spotlight.
 </li>
 </ul>
-  </div>
+ </div>
 </details>
 
 ## So, What Is Margot Robbie’s Personality Type?
 
-### Margot Robbie: A Consummate Enneagram Type 2
+### Margot Robbie is an Enneagram Type 2
 
-An Enneagram Type 2, known as The Helper, is distinguished by their empathetic nature, unreserved desire to connect with others, and propensity for selflessness. These individuals tend to be generous, demonstrative, people-pleasing, and possessive. But how does this relate to Margot Robbie? Let's delve into some compelling evidence pointing towards her Type 2 personality.
+A Type 2, known as The Helper, is distinguished by their empathetic nature, unreserved desire to connect with others, and propensity for selflessness. These individuals tend to be generous, demonstrative, people-pleasing, and possessive. But how does this relate to Margot Robbie? Let's delve into some compelling evidence pointing towards her Type 2 personality.
 
 #### The Empathy of a Helper
 
-Robbie’s immersion into her characters goes beyond the call of acting. From Tonya Harding in "I, Tonya" to Queen Elizabeth I in "Mary Queen of Scots", she deeply empathizes with the characters she portrays, expressing a desire to understand their inner world. This empathetic approach echoes the Type 2's inclination to connect deeply with others.
+Robbie’s immersion into her characters goes beyond the call of acting. From Tonya Harding in "I, Tonya" to Queen Elizabeth I in "Mary Queen of Scots", she empathizes with the characters she portrays, expressing a desire to understand their inner world. This empathetic approach echoes the Type 2's inclination to connect with others.
 
 #### Generosity Off-Screen
 
@@ -95,50 +95,72 @@ Margot Robbie's powerful performances are a testament to her artistry. But they 
 
 Harley Quinn, Robbie's iconic role in "Suicide Squad" and "Birds of Prey", may seem like an unlikely reflection of her Type 2 personality at first glance. Harley is anarchic and unpredictable, but her defining characteristic, as portrayed by Robbie, is her unwavering dedication to those she loves. Despite her tumultuous relationship with the Joker, Harley’s loyalty and her instinct to help him, even at her own expense, reveals the Enneagram Type 2's propensity for self-sacrifice and their underlying desire to feel loved and appreciated.
 
+<div
+ style="display: flex;
+ justify-content: center;
+ margin: 1rem 0;
+ "
+>
+ <PopCard
+ image={`/types/2s/${'margo-harley2'}.webp`}
+ showIcon={false}
+ displayText=""
+ altText="Margot Robbie as Harley Quinn"
+ subtext="" 
+  />
+ <PopCard
+ image={`/types/2s/${'margo-harley'}.webp`}
+ showIcon={false}
+ displayText=""
+ altText="Margot Robbie as Harley Quinn version 2"
+ subtext=""
+  />
+</div>
+
 ### Tonya Harding - "I, Tonya"
 
-In "I, Tonya", Robbie masterfully embodies the role of Tonya Harding, a former figure skater whose life and career were marred by controversy. The complexity of Harding’s character allowed Robbie to tap into her Type 2 traits. Harding, caught in a cycle of love and abuse, was driven by an intense desire for acceptance and recognition, reflecting Type 2's fear of being unwanted. Robbie's empathetic portrayal humanized Harding, highlighting the Type 2's ability to deeply connect with and understand others' pain.
+In "I, Tonya", Robbie masterfully embodies the role of Tonya Harding, a former figure skater whose life and career were marred by controversy. The complexity of Harding’s character allowed Robbie to tap into her Type 2 traits. Harding, caught in a cycle of love and abuse, was driven by an intense desire for acceptance and recognition, reflecting Type 2's fear of being unwanted. Robbie's empathetic portrayal humanized Harding, highlighting the Type 2's ability to connect with and understand others' pain.
 
 ## How Each Enneagram Type Perceives Margot Robbie
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Margot Robbie:
 
 <article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>They could admire Robbie's commitment to her craft and her continuous pursuit of improvement, both professionally and personally. Her dedication to causes she believes in could resonate with Type 1's pursuit of a just and perfect world.</p>
+ <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+ <p>They could admire Robbie's commitment to her craft and her continuous pursuit of improvement, both professionally and personally. Her dedication to causes she believes in could resonate with Type 1's pursuit of a just and perfect world.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>As fellow Type 2s, they could deeply resonate with Robbie's empathetic nature, her desire to connect with others, and her continuous acts of giving, recognizing their shared desire to be loved and appreciated.
+ <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+ <p>As fellow Type 2s, they could resonate with Robbie's empathetic nature, her desire to connect with others, and her continuous acts of giving, recognizing their shared desire to be loved and appreciated.
 </p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>They might perceive Robbie's successful career and public admiration as a significant accomplishment, appreciating her ambition and her ability to adapt and thrive in a competitive industry.</p>
+ <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+ <p>They might perceive Robbie's successful career and public admiration as a significant accomplishment, appreciating her ambition and her ability to adapt and thrive in a competitive industry.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>They could connect with Robbie's authenticity and the depth of her performances, appreciating her ability to portray complex and often misunderstood characters.</p>
+ <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+ <p>They could connect with Robbie's authenticity and the depth of her performances, appreciating her ability to portray complex and often misunderstood characters.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>They might be intrigued by Robbie's nuanced portrayals of her characters, appreciating the depth of understanding and research she applies to her roles.</p>
+ <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+ <p>They might be intrigued by Robbie's nuanced portrayals of her characters, appreciating the depth of understanding and research she applies to her roles.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>They could resonate with Robbie's loyalty to her friends and causes, and her dedication to her roles, seeing in her a reliable and dedicated individual.</p>
+ <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+ <p>They could resonate with Robbie's loyalty to her friends and causes, and her dedication to her roles, seeing in her a reliable and dedicated individual.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-    <p>They might admire Robbie's vibrant on-screen presence and her ability to wholeheartedly embrace diverse roles, reflecting their own desire for varied experiences and excitement.</p>
+ <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+ <p>They might admire Robbie's vibrant on-screen presence and her ability to embrace diverse roles, reflecting their own desire for varied experiences and excitement.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p>They could respect Robbie's resilience in the face of adversity, her ability to stand up for herself and others, and her passion for making a difference, mirroring their own drive for control and empowerment.</p>
+ <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+ <p>They could respect Robbie's resilience in the face of adversity, her ability to stand up for herself and others, and her passion for making a difference, mirroring their own drive for control and empowerment.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>They might resonate with Robbie's desire for harmony and understanding, her empathetic approach to controversy, and her efforts to create a more inclusive industry, aligning with their pursuit of peace and acceptance.</p>
+ <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+ <p>They might resonate with Robbie's desire for harmony and understanding, her empathetic approach to controversy, and her efforts to create a more inclusive industry, aligning with their pursuit of peace and acceptance.</p>
 </article>
 
 ## Conclusion: Peeling Back the Layers of Margot Robbie
@@ -159,7 +181,14 @@ In an increasingly divided world, understanding different personalities can fost
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": []
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -175,12 +204,12 @@ In an increasingly divided world, understanding different personalities can fost
         "@type": "ImageObject",
         "height": 800,
         "url": {
-          "@id": "https://yourwebsite.com/types/2s/Margot-Robbie.webp"
+          "@id": "https://9takes.com/types/2s/Margot-Robbie.webp"
         },
         "width": 1200
       },
       "mainEntityOfPage": {
-        "@id": "https://yourwebsite.com/blog/famous-enneagram-types/Margot-Robbie",
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Margot-Robbie",
         "@type": "WebPage"
       },
       "mentions": {
@@ -200,14 +229,21 @@ In an increasingly divided world, understanding different personalities can fost
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [],
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "@type": "ImageObject",
           "url": {
-            "@id": "https://yourwebsite.com/brand/yourlogo.png"
+            "@id": "https://9takes.com/brand/darkRubix.png"
           }
         },
-        "name": "Your Brand Name"
+        "name": "9takes"
       }
     },
     {
