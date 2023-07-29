@@ -1,11 +1,31 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { onMount, afterUpdate } from 'svelte';
-	import Card from '../atoms/card.svelte';
-	import CameraIcon from '../icons/cameraIcon.svelte';
-	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
-	import PostIcon from '../icons/postIcon.svelte';
-	import { Comments } from '../molecules';
+	import Card from '$lib/components/atoms/card.svelte';
+	import CameraIcon from '$lib/components/icons/cameraIcon.svelte';
+	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import PostIcon from '$lib/components/icons/postIcon.svelte';
+	import { Comments } from '$lib/components/molecules';
+	import SortComments from '$lib/components/molecules/SortComments.svelte';
+
+	interface SortedComment {
+		id: number;
+		created_at: string;
+		comment: string;
+		author_id: string;
+		ip: string;
+		comment_count: number;
+		parent_type: string;
+		es_id: string;
+		parent_id: number;
+		like_count: number;
+		profiles: Profiles;
+	}
+
+	interface Profiles {
+		enneagram: string;
+		id: string;
+	}
 
 	export let data: any;
 	export let user: any;
@@ -48,6 +68,11 @@
 		}
 	};
 
+	const sortComments = (data: SortedComment[]) => {
+		_data.comments = data;
+		_data.comment_count = data.length;
+	};
+
 	onMount(() => {
 		window.addEventListener('scroll', calculateHeightsAndSetClasses);
 		console.log(data);
@@ -58,16 +83,18 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="tab">
+<div class="tabs">
 	{#if innerWidth > 575}
 		<button
 			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
 		>
-			{#if _data.comment_count > 0}
-				{_data.comment_count}
-			{/if}
-			{_data.comment_count === 1 ? 'Comment' : 'Comments'}
+			<span style="text-wrap: nowrap">
+				{#if _data.comment_count > 0}
+					{_data.comment_count}
+				{/if}
+				{_data.comment_count === 1 ? 'Comment' : 'Comments'}
+			</span>
 			<MasterCommentIcon
 				iconStyle={'margin-left: .5rem'}
 				height={'1.5rem'}
@@ -108,7 +135,7 @@
 				fill={selectedTab === 'comments' ? '#5407d9' : ''}
 				type={'multiple'}
 			/>
-			<span style="text-align: center;"
+			<span style="text-align: center; text-wrap: nowrap"
 				>{#if _data.comment_count > 0}
 					{_data.comment_count}
 				{/if}
@@ -140,13 +167,13 @@
 	{/if}
 </div>
 <div class="tab-box">
-	<div
+	<article
 		class="flexr {selectedTab === 'comments' && 'first'} container-js"
 		id="comments"
 		bind:this={commentContainerElement}
 	>
 		{#if innerWidth > 575 && _data.comments.length >= 5}
-			<div
+			<h3
 				class="{isFixed
 					? 'scroll-js pos-fixed'
 					: isStop
@@ -156,29 +183,30 @@
 				<h3 bind:this={commentScrollElement} id="comments-scroller" class="tab-side-bar">
 					Comments
 				</h3>
-			</div>
+			</h3>
 		{/if}
+		<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
 		<Card style="padding: .5rem; border: none;">
 			<!-- Renders for SEO, removed if not answered -->
-			{#if innerWidth < 575 || _data.comments.length <= 5}
+			<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
 				<h3 class="tab-header">Comments</h3>
-			{/if}
+			{/if} -->
 			<Comments data={_data} parentType={'question'} {user} />
 		</Card>
-	</div>
+	</article>
 
-	<div class="flexr {selectedTab === 'articles' && 'first'}">
+	<article class="flexr {selectedTab === 'articles' && 'first'}">
 		<Card style="padding: .5rem; border: none;">
 			<h3 class="tab-header">Articles</h3>
 			<p>nothing right now</p>
 		</Card>
-	</div>
-	<div class="flexr {selectedTab === 'visuals' && 'first'}">
+	</article>
+	<article class="flexr {selectedTab === 'visuals' && 'first'}">
 		<Card style="padding: .5rem; border: none;">
 			<h3 class="tab-header">Visuals</h3>
 			<p>nothing right now</p>
 		</Card>
-	</div>
+	</article>
 </div>
 
 <style lang="scss">
@@ -219,6 +247,9 @@
 	}
 	.tab-active {
 		border: var(--classic-border) !important;
+		border-bottom: none !important;
+		border-radius: 5px 5px 0 0 !important;
+		margin-bottom: 0;
 	}
 
 	.flexr {
@@ -232,16 +263,18 @@
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
+		border-top: var(--classic-border) !important;
 	}
 	/* Style the tab */
-	.tab {
+	.tabs {
 		overflow: hidden;
 		display: flex;
 		justify-content: space-evenly;
 	}
 
 	/* Style the buttons inside the tab */
-	.tab button {
+	.tabs button {
+		overflow: hidden;
 		background-color: inherit;
 		// float: left;
 		border: none;
@@ -254,7 +287,7 @@
 	}
 
 	/* Change background color of buttons on hover */
-	.tab button:hover {
+	.tabs button:hover {
 		background-color: var(--color-bg-0);
 		border-radius: 5px;
 	}
@@ -274,7 +307,7 @@
 	}
 
 	@media all and (max-width: 576px) {
-		.tab {
+		.tabs {
 			margin: 0.25rem;
 			gap: 0.25rem;
 		}

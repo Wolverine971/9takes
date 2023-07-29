@@ -123,22 +123,21 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "name": "9takes",
-		"logo": {
-			"@type": "ImageObject",
-			"url": "https://9takes.com/brand/darkRubix.png",
-			"width": 600,
-			"height": 60
-		}
-        "name": "9takes"
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png",
+          "width": 600,
+          "height": 60
+        }
       }
     },
     {

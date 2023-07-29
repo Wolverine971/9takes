@@ -23,7 +23,7 @@ pic: ''
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script> -->
 
-<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? In short no, but there have been two main perspectives that keep coming up that are worth looking at. One is that the theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
+<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? No... but there have been two main perspectives that keep coming up that are worth looking at. One theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
 <div style="text-align: center;" >
 <img title="Google's human nature definition" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
@@ -31,28 +31,28 @@ pic: ''
 
 <figure style="margin:2rem" title="9takes's human nature definition">
     <blockquote>
-    Human Nature: Psychology and philosophy riffing on how people think, feel, and act.
+    9takes definition of Human Nature: The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.
     </blockquote>
     <figcaption style="margin-left: 80%">-<cite>9takes</cite></figcaption>
 </figure>
 
 ## Plato is to Aristotle as Freud is to Pinker
 
-Plato had a complicated view of human nature, but his pupil Aristotle had a more simple view. Aristotle argued that humans have the unique ability to be rational and that we are in a constant struggle to be rational. Similarly Freud had a complicated view of human nature where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche. However the modern psychologist Steven Pinker calls for rationality, mirroring Aristotle's view.
+Plato had a complicated view of human nature, but his pupil Aristotle had a simple view. Aristotle argued that humans have the unique ability to be rational and that we are in a constant struggle to be rational. Similarly Freud had a complicated view of human nature where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche. However the modern psychologist Steven Pinker calls for rationality, mirroring Aristotle's view.
 
 ## What was Plato's view?
 
-Plato talked about the human soul and he talked about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed the tripartite soul. Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs.
+Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪.
 
 ## Unified concepts: Plato's "soul" and Freud's "psyche"
 
-Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality. The superego, similar to Plato's spirit, represents internalized societal values and moral standards.
+Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives 💪. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality 🧠. The superego, similar to Plato's spirit, represents internalized societal values and moral standards ❤️.
 
-| Plato                                                                                                          | Freud                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
-| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
-| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
+| Plato                                                                                                          | Emoji | Freud                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠     | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
+| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️     | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
+| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪     | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 So who has built upon these theories? Where are we today?
 
@@ -90,7 +90,7 @@ By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historica
 
 ## Wrapping it up
 
-So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the enneagram. It shares many similar concepts but it has no direct lineage. Perhaps these 3 divisions that we keep stumbling upon form a better model for understanding the human soul and the human psyche. At 9takes we intend to poke and prod at these divisions because we think there is still a lot to learn.
+So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the [enneagram](/blog/enneagram/beginners-guide-to-determining-your-enneagram-type). It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
 
 <style>
     table {

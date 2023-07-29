@@ -138,6 +138,7 @@
 		border: 1px solid var(--color-p-origin-v);
 		width: 3rem;
 		height: 3rem;
+		font-weight: bolder;
 		aspect-ratio: 1/1;
 		margin: 0.5rem;
 		-webkit-border-radius: 50%;

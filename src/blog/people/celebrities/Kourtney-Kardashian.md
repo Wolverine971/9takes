@@ -122,14 +122,14 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -173,14 +173,14 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "@type": "ImageObject",
           "height": 60,

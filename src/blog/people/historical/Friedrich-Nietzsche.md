@@ -49,7 +49,7 @@ tiktok: ''
 <summary class="accordion">TL;DR: Why Friedrich Nietzsche is an Enneagram type 5</summary>
 <div class="panel">
 <ul>
-<li>Friedrich Nietzsche, the influential philosopher, exhibited defining characteristics of an Enneagram Type 5. Nietzsche's relentless quest for knowledge, seeking answers to profound questions about morality and existence, reflects the Type 5's insatiable curiosity and need for intellectual autonomy.
+<li>Nietzsche exhibited defining characteristics of an Enneagram Type 5 through his relentless quest for knowledge, and by seeking answers to profound questions about morality and existence. This reflects insatiable curiosity and need for intellectual autonomy.
 </li>
 <li>Nietzsche's inner world was a sanctuary for contemplation and intellectual pursuit. He cherished solitude, choosing introspective reflection over social interaction - a quintessential trait of Type 5. Nietzsche's intellectual detachment is seen in his philosophical works, rich with insights into the human condition.
 </li>

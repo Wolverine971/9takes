@@ -107,6 +107,7 @@
 			{ name: 'Winston-Churchill', link: true },
 			{ name: 'Chelsea-Handler', link: false },
 			{ name: 'Denzel-Washington', link: false },
+			{ name: 'Joe-Rogan', link: true },
 
 			{ name: 'Emily-Ratajkowski', link: true }
 		],
