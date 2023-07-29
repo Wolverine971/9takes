@@ -40,7 +40,6 @@ pic: 'communication-styles'
 
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
 
-
 <article>
 <h2>Enneagram 1 Communication Style</h2>
 
