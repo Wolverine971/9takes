@@ -20,7 +20,7 @@ tiktok: ''
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/tiptype/boo-boo.webp" />
+<meta property="og:image" content="https://9takes.com/types/tiptypes/boo-boo.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
 </svelte:head>
 
@@ -34,7 +34,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/tiptype/${'boo-boo'}.webp`}
+		image={`/types/tiptypes/${'boo-boo'}.webp`}
 		showIcon={false}
 		displayText="booboo"
 		subtext=""
