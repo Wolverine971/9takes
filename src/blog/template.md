@@ -20,7 +20,7 @@ tiktok: ''
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/tiptypes/boo-boo.webp" />
+<meta property="og:image" content="https://9takes.com/types/tiptype/boo-boo.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
 </svelte:head>
 
@@ -34,7 +34,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/tiptypes/${'boo-boo'}.webp`}
+		image={`/types/tiptype/${'boo-boo'}.webp`}
 		showIcon={false}
 		displayText="booboo"
 		subtext=""
@@ -91,6 +91,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </article>
 <article>
 	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <p></p>
 </article>
 <article>
 	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
