@@ -37,7 +37,7 @@
 			{ name: 'Dua-Lipa', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
 			{ name: 'Taylor-Swift', link: true },
-			{ name: 'Jason-Calacanis', link: false },
+			{ name: 'Jason-Calacanis', link: true },
 			{ name: 'Reese-Witherspoon', link: false },
 			{ name: 'Jake-Paul', link: true },
 			{ name: 'Justin-Bieber', link: false },
