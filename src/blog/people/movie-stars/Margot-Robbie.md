@@ -81,7 +81,16 @@ Robbie's commanding screen presence echoes the inherent intensity that Type 8s p
 
 #### In Tune with Her Body
 
-As an Enneagram Type 8, Robbie exhibits a strong connection with her body. She has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength.
+Type 8s are know for having a strong connection with her body. Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her own stunts.
+
+<div
+ style="display: flex;
+ justify-content: center;
+ margin: 1rem 0;
+ "
+>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 #### From Australian Soap to Hollywood: A True Challenger's Journey
 
@@ -89,31 +98,23 @@ Margot Robbie's journey from an Australian soap opera to the heights of Hollywoo
 
 ## How Margot personality comes out in her work
 
-The connection between Margot Robbie's Enneagram Type 8 personality and her iconic roles is hard to ignore. She fearlessly inhabits her characters, often choosing roles that align with her personality and values. Two standout performances where Robbie's Type 8 traits are clearly visible are in "The Wolf of Wall Street" and "I, Tonya."
+Margot Robbie's Enneagram Type 8 personality is unmistakably mirrored in her professional work. Her carefully chosen roles provide a testament to her inherent attributes, as they often align with her natural assertiveness, tenacity, and will to protect what she holds dear. Distinct examples include her roles in “The Wolf of Wall Street,” “I, Tonya,” and the “Suicide Squad” franchise.
 
 ### Naomi Lapaglia in "The Wolf of Wall Street"
 
-Robbie’s breakthrough role was in "The Wolf of Wall Street," where she played Naomi Lapaglia, a confident and assertive woman who is not afraid to take control and stand her ground. Throughout the film, Robbie's portrayal of Naomi mirrors the characteristics of a Type 8.
-
-The strength of Naomi's personality, her audacity, and her refusal to be dominated by anyone, even her husband, the infamous Jordan Belfort, resonate with the core traits of Type 8. She’s comfortable asserting her power and independence, showing the willingness of Type 8s to confront any challenges and take charge.
+In “The Wolf of Wall Street,” Robbie stepped into the shoes of Naomi Lapaglia, a character as bold and assertive as she is. Naomi's audacity and refusal to be dominated even by her powerful husband echo the core traits of a Type 8. The strength and independence she portrays mirror Robbie's inner world and her alignment with this Enneagram type.
 
 ### Tonya Harding in "I, Tonya"
 
-Robbie’s portrayal of Tonya Harding, a professional ice skater caught in the whirlwind of controversy and scandal, in "I, Tonya," further illustrates her alignment with the Enneagram Type 8.
-
-The real-life Tonya Harding, whom Robbie embodies on-screen, was often portrayed as a woman unafraid to express her anger and face conflicts head-on, traits that echo Type 8’s confrontation with anger. The film's storyline, dealing with adversity, scandal, and the struggle for control and respect, reflects the trials and tribulations that many Type 8s face in their life. Robbie’s unapologetic and fearless performance in this role is a testament to her understanding and expression of her inner Type 8.
-
-Both these roles demonstrate Robbie's willingness to confront conflicts, her assertive nature, and her ability to resist and challenge power structures, reflecting the key traits of an Enneagram Type 8. Whether she's playing the assertive Naomi Lapaglia or the controversial Tonya Harding, Robbie’s roles often resonate with her inherent Type 8 personality, providing a glimpse into her inner world.
+Robbie's depiction of Tonya Harding, the professional ice skater caught in a storm of controversy, in “I, Tonya,” provides another illuminating instance of her Enneagram Type 8 alignment. Harding's real-life portrayal as someone unafraid to express her anger and face conflicts aligns closely with a Type 8's comfortable confrontation with anger. The storyline's journey through adversity and struggle for control and respect mirror the common life challenges of Type 8 individuals. Robbie's fearless performance here further illustrates her understanding and embodiment of her inner Type 8.
 
 ### Harley Quinn in "Suicide Squad" and "Birds of Prey"
 
-Robbie's portrayal of Harley Quinn in the "Suicide Squad" and later in her own feature film "Birds of Prey" is another embodiment of her Enneagram Type 8 characteristics.
+Margot Robbie's portrayal of Harley Quinn, especially in "Birds of Prey," vividly embodies her Enneagram Type 8 traits. Harley Quinn's high energy, rebelliousness, and fierce independence align seamlessly with Robbie's assertive and tenacious Type 8 personality.
 
-Harley Quinn, originally a psychiatrist turned anarchist and accomplice to the Joker, is known for her irrepressible energy, chaotic nature, and unapologetic defiance. These traits align seamlessly with Robbie's Type 8 personality. Harley Quinn is a force to be reckoned with - she is bold, assertive, and tenacious, never hesitating to stand up for herself or those she cares about, much like an Enneagram Type 8.
+Her transformation from the Joker's sidekick to an independent, rule-setting leading figure mirrors the Type 8 journey from vulnerability to control and autonomy. This narrative reflects Robbie's own path in Hollywood, as she establishes herself as a force to be reckoned with.
 
-The transformation of Harley Quinn's character, especially in "Birds of Prey", from being controlled by the Joker to asserting her own independence and power, also mirrors the journey of many Type 8s. The journey from feeling vulnerable to taking control, setting her own rules, and rebelling against existing power structures is reminiscent of a Type 8's innate desire for self-control and autonomy.
-
-Robbie's performance as Harley Quinn is not only an expression of her skill as an actress but also an exploration of her own Type 8 characteristics. Her commitment to the role, the energy she brings, and the fearlessness with which she portrays Harley's unorthodox approach to life are all signs of her alignment with the Enneagram Type 8. Harley Quinn is more than just a character for Robbie - she is a canvas on which she paints a vivid picture of her own Type 8 personality.
+Robbie's portrayal transcends acting; it's an exploration of her Enneagram Type 8 attributes. Through Harley Quinn, Robbie paints a vivid picture of her inner world, expressing her own strength, resilience, and rebellion. Harley becomes an extension of Robbie, providing a window into her Type 8 personality.
 
 <div
  style="display: flex;
@@ -136,6 +137,8 @@ Robbie's performance as Harley Quinn is not only an expression of her skill as a
  subtext=""
   />
 </div>
+
+Thus, whether playing Naomi Lapaglia, Tonya Harding, or Harley Quinn, Robbie's performance is a reflection not just of her acting prowess but also of her Type 8 personality. These roles serve as vehicles for her to confront conflicts, challenge power structures, and display her assertive nature, all of which are key traits of an Enneagram Type 8. Ultimately, Robbie’s characters do more than tell their own stories - they offer a profound insight into the actress's own personality and her Enneagram Type 8 characteristics.
 
 <article>
  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
