@@ -95,34 +95,18 @@
 				{/if}
 				{_data.comment_count === 1 ? 'Comment' : 'Comments'}
 			</span>
-			<MasterCommentIcon
-				iconStyle={'margin-left: .5rem'}
-				height={'1.5rem'}
-				fill={selectedTab === 'comments' ? '#5407d9' : ''}
-				type={'multiple'}
-			/>
 		</button>
 		<button
 			class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
 			on:click={() => (selectedTab = 'visuals')}
 		>
 			Visuals
-			<CameraIcon
-				iconStyle={'margin-left: .5rem'}
-				height={'1.5rem'}
-				fill={selectedTab === 'visuals' ? '#5407d9' : ''}
-			/>
 		</button>
 		<button
 			class="tab-links {selectedTab === 'articles' && 'tab-active'}"
 			on:click={() => (selectedTab = 'articles')}
 		>
 			Articles
-			<PostIcon
-				iconStyle={'margin-left: .5rem'}
-				height={'1.5rem'}
-				fill={selectedTab === 'articles' ? '#5407d9' : ''}
-			/>
 		</button>
 	{:else}
 		<button
