@@ -158,15 +158,21 @@
 	>
 		{#if innerWidth > 575 && _data.comments.length >= 5}
 			<h3
-				class="{isFixed
+				class=" {isFixed
 					? 'scroll-js pos-fixed'
 					: isStop
 					? 'scroll-js stop'
 					: 'scroll-js'} {_data.comment_count <= 5 ? 'hidden' : ''}"
 			>
-				<h3 bind:this={commentScrollElement} id="comments-scroller" class="tab-side-bar">
-					Comments
-				</h3>
+				<p
+					bind:this={commentScrollElement}
+					id="comments-scroller"
+					class="tab-side-bar vertical-display"
+				>
+					<span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span><span
+						>t</span
+					><span>s</span>
+				</p>
 			</h3>
 		{/if}
 		<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
@@ -194,8 +200,9 @@
 </div>
 
 <style lang="scss">
-	.hidden {
-		visibility: hidden;
+	.vertical-display {
+		text-combine-upright: all;
+		writing-mode: vertical-lr;
 	}
 	.container-js {
 		position: relative;
@@ -208,17 +215,18 @@
 	.pos-fixed {
 		position: fixed;
 		z-index: 123;
-		margin: 1rem -4rem;
+		margin: 1rem -3rem;
 	}
 	.stop {
 		position: absolute;
 		bottom: 0;
 		left: -4rem;
 		z-index: 123;
+		margin: 1rem;
 	}
 
 	.tab-side-bar {
-		transform: rotate(270deg);
+		// transform: rotate(270deg);
 	}
 	.tab-header {
 		border: 1px solid var(--color-bg-2);

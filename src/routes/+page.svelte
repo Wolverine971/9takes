@@ -194,6 +194,7 @@
 		text-align: center;
 	}
 	h1 {
+		word-break: break-all;
 		margin: 0;
 		text-align: center;
 	}
