@@ -81,14 +81,11 @@ Type 4s are often the most unique and creative people at the party, expressing t
 
 [More on type 4s](/blog/enneagram/enneagram-type-4)
 
-
-
 ### Type 5 - The Investigator
 
 At a party, Type 5s are likely to be found observing, analyzing, and taking everything in. They're often the quietest people at the party, but they're also the most knowledgeable. Type 5s are attending the party because they want to learn something new or gain new insights. They're looking forward to learning from others and gaining new knowledge.
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
-
 
 <div>
 <MarqueeHorizontal displayList={[{name: 'on a first date', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />

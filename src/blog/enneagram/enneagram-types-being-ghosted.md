@@ -113,7 +113,6 @@ that they are worthy of love and respect.
 
   </article>
 
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -129,7 +128,6 @@ that they are worthy of love and respect.
 		subtext=""
 	/>
 </div>
-
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
