@@ -10,6 +10,7 @@
 
 	export let data: any;
 	export let user: any;
+	export let questionId: number;
 
 	let _data: any;
 	let comment_count: number;
@@ -60,7 +61,7 @@
 	{#if comments?.length}
 		<div>
 			{#each comments as comment}
-				<Comment {comment} {user} />
+				<Comment {questionId} {comment} {user} />
 			{/each}
 		</div>
 		{#if comments?.length < comment_count}
@@ -72,7 +73,7 @@
 {:else if !browser || (comments?.length && parentType === 'comment')}
 	<div>
 		{#each comments as comment}
-			<Comment {comment} {user} />
+			<Comment {questionId} {comment} {user} />
 		{/each}
 	</div>
 	{#if comments?.length < comment_count}

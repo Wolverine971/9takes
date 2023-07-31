@@ -11,6 +11,8 @@
 	let dataForChild = Object.assign({}, data.question, {
 		comments: data.comments,
 		comment_count: data.comment_count,
+		links: data.links,
+		links_count: data.links_count,
 		flags: data.flags
 	});
 
@@ -19,6 +21,8 @@
 		dataForChild = Object.assign({}, data.question, {
 			comments: dataForChild.comments ? [newComment, ...dataForChild.comments] : [newComment],
 			comment_count: data.comment_count ? (data.comment_count += 1) : 1,
+			links: data.links,
+			links_count: data.links_count,
 			flags: Object.assign({}, data.flags, { userHasAnswered: true })
 		});
 	};
@@ -53,6 +57,7 @@
 		<!-- {data.question.question} -->
 		<Interact
 			{data}
+			questionId={data.question.id}
 			parentType={'question'}
 			on:commentAdded={({ detail }) => addComment(detail)}
 			user={data?.session?.user}

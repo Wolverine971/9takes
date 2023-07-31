@@ -53,6 +53,7 @@
 		text-decoration: none;
 		border: var(--classic-border);
 		border-radius: 5px;
+		word-break: keep-all;
 
 		padding: 0.3rem;
 	}

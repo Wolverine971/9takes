@@ -1,6 +1,6 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { supabase } from '$lib/supabase';
-
+import { URL } from 'url';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
@@ -82,10 +82,30 @@ export async function load(event: any) {
 		console.log('No comments for question');
 	}
 
+	const {
+		data: questionLinks,
+		count: questionLinksCount,
+		error: questionLinksError
+	} = await supabase
+		.from('links')
+		.select(
+			`*`,
+
+			{ count: 'exact' }
+		)
+		.eq('question_id', question.id)
+		.limit(10);
+
+	if (questionLinksError) {
+		console.log('No links for question');
+	}
+
 	return {
 		question,
 		comments: questionComments,
 		comment_count: questionCommentCount,
+		links: questionLinks,
+		links_count: questionLinksCount,
 		session,
 		flags: {
 			userHasAnswered: userHasAnswered,
@@ -99,6 +119,7 @@ export const actions: Actions = {
 		try {
 			const body = Object.fromEntries(await request.formData());
 
+			const questionId = body.question_id as string;
 			const comment = body.comment as string;
 			const parent_id = body.parent_id as string;
 			const author_id = body.author_id;
@@ -106,6 +127,9 @@ export const actions: Actions = {
 			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
 			const ip = getClientAddress();
+
+			parseUrls(comment, questionId);
+
 			const commentData = {
 				comment: comment,
 				parent_id: parentId,
@@ -299,5 +323,83 @@ export const actions: Actions = {
 				message: `error creating like ${JSON.stringify(e)}`
 			});
 		}
+	},
+
+	linkClick: async ({ request, getClientAddress }) => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+
+			const linkId = body.linkId as string;
+
+			const { data, error: incrementError } = await supabase.rpc('increment_clicks', {
+				link_id: parseInt(linkId)
+			});
+			if (incrementError) {
+				throw error(404, {
+					message: `Add comment error`
+				});
+			}
+		} catch (e) {
+			throw error(400, {
+				message: `error creating comment ${JSON.stringify(e)}`
+			});
+		}
 	}
+};
+
+const parseUrls = async (comment: string, questionId: string) => {
+	const { url, domain } = extractFirstURL(comment);
+	let domainId = null;
+
+	const { data: linkDomainUpdateSuccess, error: linkDomainUpdateError } = await supabase
+		.from('link_domains')
+		.update({
+			domain,
+			updated_at: new Date()
+		})
+		.eq('domain', domain)
+		// .upsert({ domain }, { domain, updated_at: new Date() })
+		// .insert([{ some_column: 'someValue', other_column: 'otherValue' }])
+		.select();
+	if (linkDomainUpdateError) {
+		throw new Error('failed to upload domain');
+	} else if (linkDomainUpdateSuccess.length === 0) {
+		const { data: linkDomainInsertSuccess, error: linkInsertDomainError } = await supabase
+			.from('link_domains')
+			.insert([{ domain, updated_at: new Date(), clicks: 0 }])
+			.select();
+		if (linkInsertDomainError) {
+			throw new Error('failed to upload domain');
+		}
+		domainId = linkDomainInsertSuccess[0].id;
+	} else {
+		domainId = linkDomainUpdateSuccess[0].id;
+	}
+	const { data: linkSuccess, error: linkError } = await supabase
+		.from('links')
+		.upsert({
+			url,
+			domain_id: domainId,
+			updated_at: new Date(),
+			question_id: questionId
+		})
+		.select();
+	if (!linkError) {
+		console.log('updated links');
+	}
+};
+
+function getDomain(inputUrl: string) {
+	const url = new URL(inputUrl);
+	return url.hostname;
+}
+
+const extractFirstURL = (comment: string) => {
+	const urlRegex = /(https?:\/\/[^\s]+)/g;
+	const matchedURLs = comment.match(urlRegex);
+	const url = matchedURLs ? matchedURLs[0] : null;
+	return {
+		url,
+		domain: url ? getDomain(url) : ''
+	};
 };

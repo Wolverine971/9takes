@@ -8,6 +8,7 @@
 
 	export let user: any;
 	export let comment: any;
+	export let questionId: number;
 	let _commentComment: any = null;
 	if (comment?.id) {
 		_commentComment = Object.assign({}, comment);
@@ -73,6 +74,7 @@
 
 	<!-- <p>ParentId: {comment?.parent_id}</p> -->
 	<Interact
+		{questionId}
 		data={_commentData}
 		parentType={'comment'}
 		{user}
@@ -80,7 +82,7 @@
 	/>
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<Comments data={_commentComment} nested={true} parentType={'comment'} {user} />
+			<Comments {questionId} data={_commentComment} nested={true} parentType={'comment'} {user} />
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
@@ -149,6 +151,7 @@
 		-webkit-transition: all 0.5s; /* Safari and Chrome */
 		-o-transition: all 0.5s; /* Opera */
 		cursor: pointer;
+		word-break: keep-all;
 
 		&:hover {
 			border: 1px solid var(--color-p-origin);

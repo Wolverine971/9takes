@@ -8,6 +8,75 @@
 	import { Comments } from '$lib/components/molecules';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 
+	interface PassedPageData {
+		id: number;
+		question: string;
+		created_at: string;
+		updated_at: string;
+		data?: any;
+		name?: any;
+		author_id: string;
+		context: string;
+		url: string;
+		img_url: string;
+		es_id: string;
+		comment_count: number;
+		subscriptions: Subscription[];
+		comments: Comment[];
+		links: Link[];
+		links_count: number;
+		flags: Flags;
+	}
+
+	interface Flags {
+		userHasAnswered: boolean;
+		userSignedIn: string;
+	}
+
+	interface Link {
+		id: number;
+		created_at: string;
+		updated_at: string;
+		url?: string;
+		domain_id: number;
+		meta_title?: any;
+		meta_description?: any;
+		meta_image?: any;
+		question_id: number;
+	}
+
+	interface Comment {
+		id: number;
+		created_at: string;
+		comment: string;
+		author_id: string;
+		ip: string;
+		comment_count: number;
+		parent_type: string;
+		es_id: string;
+		parent_id: number;
+		like_count: number;
+		profiles: Profiles;
+		comment_like: Commentlike[];
+	}
+
+	interface Commentlike {
+		id: number;
+		comment_id: number;
+		user_id: string;
+	}
+
+	interface Profiles {
+		external_id: string;
+		enneagram: string;
+	}
+
+	interface Subscription {
+		id: number;
+		question_id: number;
+		user_id: string;
+	}
+
 	interface SortedComment {
 		id: number;
 		created_at: string;
@@ -27,7 +96,7 @@
 		id: string;
 	}
 
-	export let data: any;
+	export let data: PassedPageData;
 	export let user: any;
 	let question: string = '';
 	let selectedTab: string = 'comments';
@@ -66,6 +135,17 @@
 				}
 			}
 		}
+	};
+
+	const saveClick = async (link: any) => {
+		console.log(link);
+		let body = new FormData();
+		body.append('linkId', link.id);
+
+		const resp = await fetch('?/linkClick', {
+			method: 'POST',
+			body
+		});
 	};
 
 	const sortComments = (data: SortedComment[]) => {
@@ -181,14 +261,26 @@
 			<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
 				<h3 class="tab-header">Comments</h3>
 			{/if} -->
-			<Comments data={_data} parentType={'question'} {user} />
+			<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
 		</Card>
 	</article>
 
 	<article class="flexr {selectedTab === 'articles' && 'first'}">
 		<Card style="padding: .5rem; border: none;">
 			<h3 class="tab-header">Articles</h3>
-			<p>nothing right now</p>
+			{#if data?.links?.length}
+				<ul>
+					{#each data?.links as link}
+						{#if link}
+							<li>
+								<a href={link.url} on:click={() => saveClick(link)}>{link.url}</a>
+							</li>
+						{/if}
+					{/each}
+				</ul>
+			{:else}
+				<p>nothing right now</p>
+			{/if}
 		</Card>
 	</article>
 	<article class="flexr {selectedTab === 'visuals' && 'first'}">

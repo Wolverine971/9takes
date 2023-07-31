@@ -49,7 +49,7 @@ export async function GET({
 		, parent_type
 		, es_id
 		, like_count
-		, profile ( external_id, enneagram)
+		, profiles ( external_id, enneagram)
 		`,
 			{ count: 'exact' }
 		)
@@ -57,15 +57,21 @@ export async function GET({
 	const questionCommentIds = questionComments?.map((q) => {
 		return q.id;
 	});
+	if (questionError) {
+		console.log(questionError);
+		throw new Error('Unable to retrieve comments');
+	}
 	if (questionCommentIds) {
 		let {
 			data: commentComments,
 			error: commentError
-		}: PostgrestResponse<{ data: Database['public']['Tables']['comments']['Row'][]; error: any }> =
-			await supabase
-				.from('comments')
-				.select(
-					`
+		}: PostgrestResponse<{
+			data: Database['public']['Tables']['comments']['Row'][];
+			error: any;
+		}> = await supabase
+			.from('comments')
+			.select(
+				`
 		id
 		, created_at
 		, parent_id
@@ -76,11 +82,11 @@ export async function GET({
 		, parent_type
 		, es_id
 		, like_count
-		, profile ( external_id, enneagram)
+		, profiles ( external_id, enneagram)
 		`,
-					{ count: 'exact' }
-				)
-				.in('parent_id', questionCommentIds);
+				{ count: 'exact' }
+			)
+			.in('parent_id', questionCommentIds);
 
 		interface ICommentMap {
 			[key: string]: string[];

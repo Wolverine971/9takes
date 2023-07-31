@@ -15,6 +15,7 @@
 
 	export let data: any; // QuestionObject | CommentObject;
 	export let user: any;
+	export let questionId: number;
 
 	// if (parentType === 'question') {
 	// 	data;
@@ -62,12 +63,14 @@
 			body.append('author_id', user.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.es_id);
+			body.append('question_id', questionId);
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
 			body.append('author_id', user?.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.question.es_id);
+			body.append('question_id', questionId);
 		}
 
 		const resp = await fetch('?/createComment', {
