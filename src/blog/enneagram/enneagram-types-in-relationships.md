@@ -4,20 +4,44 @@ description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
-lastmod: '2023-04-15'
+lastmod: '2023-07-31'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
+pic: 'greek-statues-on-a-date'
 ---
+
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
+<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-date.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
 </svelte:head>
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/greek-statues-on-a-date.webp`}
+		showIcon={false}
+		displayText=""
+    altText="greek statues on a date"
+    tint={true}
+		subtext=""
+	/>
+</div>
+
+
+greek-statues-on-a-date
 <p class="firstLetter">It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.</p>
 
 ## Overview of Enneagram types in a relationship
@@ -112,6 +136,10 @@ One potential challenge for Type 4s in relationships is their tendency towards e
 
 In order to have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be very self-critical and hard on themselves. Finally, cultivating a sense of gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/4)
 
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
+
 ### Enneagram Type 5 in Relationships
 
 Enneagram type 5, also known as the Investigator or Observer, tends to be analytical, cerebral, and introspective. They are driven by a desire to understand the world around them and gather information, often at the expense of social interaction and emotional expression.
@@ -169,3 +197,5 @@ One potential challenge for Nines in relationships is their tendency to prioriti
 ## Enneagram Relationship Conclusion
 
 There are near infinite possibilities for how a person can think, feel and behave in a relationship therefore this is all to be taken with a grain of salt. It is however helpful to be aware of common tendencies that the types display and that you might be prone to. The hope is that you use this information to bring your best self forward in all your relationships. ❤️
+
+If you liked this checkout [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)

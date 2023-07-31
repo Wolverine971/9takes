@@ -10,12 +10,12 @@ priority: '0.6'
 published: true
 type: ['overview']
 blog: true
-pic: 'communication-tips'
+pic: 'greek-statues-arguing'
 ---
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/communication-tips-color.webp" />
+<meta property="og:image" content="https://9takes.com/blogs/greek-statues-arguing.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
 </svelte:head>
 <script>
@@ -29,7 +29,7 @@ margin: 1rem 0;
 	"
 >
     <PopCard
-    	image={`/blogs/communication-tips.webp`}
+    	image={`/blogs/greek-statues-arguing.webp`}
     	showIcon={false}
     	text="Enneagram type communication tips"
     	tint={true}

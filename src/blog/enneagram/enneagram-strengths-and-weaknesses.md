@@ -4,7 +4,7 @@ description: 'Understanding your strengths and weaknesses'
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
-lastmod: '2023-07-09'
+lastmod: '2023-07-31'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,6 +17,10 @@ blog: true
 <!-- <meta property="og:image" content="" /> -->
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
 </svelte:head>
+
+<script>
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
 
 <p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally there are many dimensions by which can slice and dice the things we are good and bad at, so where choosing where to start is also difficult.</p>
 
@@ -73,6 +77,10 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 **Weaknesses:** Fours can become overly focused on their emotions, leading to feelings of melancholy and isolation. They may struggle with a sense of identity, feeling like they do not fit in or belong.
 
 **Example career situation:** A Type 4 may excel in a career that allows them to express their creativity, such as writing or art. However, their focus on their emotions can cause them to become overly self-absorbed, leading to feelings of loneliness and disconnection from others.
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Type 5 - The Investigator
 
@@ -160,7 +168,7 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-04-15"
+    "@value": "2023-07-31"
   },
   "datePublished": {
     "@type": "Date",

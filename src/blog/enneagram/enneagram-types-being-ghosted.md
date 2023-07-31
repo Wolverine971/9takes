@@ -4,13 +4,13 @@ description: 'Impact of ghosting on mental health from an Enneagram perspective'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: '2023-07-25'
+lastmod: '2023-07-31'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: 'situational'
 blog: true
-pic: 'person-being-ghosted'
+pic: 'greek-statue-being-ghosted'
 ---
 
 <svelte:head>
@@ -113,6 +113,24 @@ that they are worthy of love and respect.
 
   </article>
 
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/greek-statue-female-being-ghosted.webp`}
+		showIcon={false}
+		displayText=""
+    altText="a girl statue being ghosted"
+    tint={true}
+		subtext=""
+	/>
+</div>
+
+
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
    <p>The enneagram 4 is a complicated creature</p>
@@ -189,6 +207,22 @@ of love and respect.
 
   </article>
 
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/greek-statues-two-females-on-phones.webp`}
+		showIcon={false}
+		displayText=""
+    altText="a girl statue being ghosted"
+    tint={true}
+		subtext=""
+	/>
+</div>
+
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
    <p>The enneagram 8 is a strong creature</p>
@@ -246,7 +280,7 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   },
   "publisher": {
     "@type": "Organization",
-"sameAs": [
+  "sameAs": [
       {
         "@id": "https://www.instagram.com/9takesdotcom/"
       },

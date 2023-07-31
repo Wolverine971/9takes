@@ -10,7 +10,7 @@ priority: '0.6'
 published: true
 type: 'situational'
 blog: true
-pic: ''
+pic: 'greek-statues-on-a-first-date'
 ---
 
 <svelte:head>
@@ -21,6 +21,7 @@ pic: ''
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 <div
 	style="display: flex;
@@ -113,6 +114,10 @@ For the Investigator, statements like "I don't like reading" or "Who cares about
 
 In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which the Type 5 finds appealing.
 
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
+
 ## Enneagram Type 6: The Loyalist
 
 The Loyalist, often wary and diligent, approaches a first date with caution and care. They might spend a lot of time contemplating the possible outcomes, their date's intentions, and how to stay safe. Their feelings can oscillate between anticipation of a potential connection and anxiety rooted in their inherent skepticism.
@@ -171,4 +176,4 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 ## Wrapping it up
 
-As we unravel the final threads in this exploration, it should be different our expectations can be, particularly on something as personal as a first date. But remember, this is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Dive into our collection of other blogs to uncover more about your type and others. Understanding the Enneagram means understanding yourself and those around you better. Happy exploring!
+As we unravel the final threads in this exploration, it should be different our expectations can be, particularly on something as personal as a first date. But remember, this is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Dive into our collection of other blogs to uncover more about your type and others. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
