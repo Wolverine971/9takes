@@ -15,7 +15,7 @@ pic: 'person-being-ghosted'
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/person-being-ghosted.webp" />
+<meta property="og:image" content="https://9takes.com/blogs/greek-statue-being-ghosted.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
 </svelte:head>
 
@@ -29,7 +29,7 @@ pic: 'person-being-ghosted'
 	"
 >
   <PopCard
-		image={`/blogs/person-being-ghosted.webp`}
+		image={`/blogs/greek-statue-being-ghosted.webp`}
 		showIcon={false}
 		displayText=""
     altText="a person being ghosted"
