@@ -80,7 +80,7 @@
 		height: 24px;
 		padding: 10px 20px;
 		color: hsl(222, 15%, 19%);
-		font-size: 16px;
+		// font-size: 16px;
 		// box-sizing: content-box;
 
 		margin: 0.25rem;

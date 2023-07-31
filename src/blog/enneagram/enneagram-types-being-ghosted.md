@@ -207,6 +207,7 @@ Type Nines, known for their easy-going nature and desire for peace, may struggle
    <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
    <p>The enneagram 9 is a easy going creature</p>
   </aside> -->
+
 It's important to acknowledge that everyone's experience with ghosting is unique, and the Enneagram is just one tool to understand it. Being ghosted can be painful, so if you're currently experiencing it, take a moment to check in with yourself. If it's affecting your mental health, reach out to a close friend or seek professional help and support. Remember, healing and moving forward are possible with time and self-compassion.
 
 In conclusion, ghosting affects individuals differently, and understanding how each Enneagram type copes with it can foster empathy. Healing and moving forward are achievable through self-compassion and care.

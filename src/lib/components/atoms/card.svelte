@@ -10,6 +10,7 @@
 <style lang="scss">
 	section {
 		box-sizing: border-box;
+		position: relative;
 
 		border-radius: var(--border-radius);
 		background: var(--card-background-color);

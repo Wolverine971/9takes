@@ -19,6 +19,7 @@
 		],
 		2: [
 			{ name: 'Oprah-Winfrey', link: true },
+			{ name: 'Margot-Robbie', link: true },
 			{ name: 'Dolly-Parton', link: false },
 			{ name: 'Jimmy-Carter', link: true },
 			{ name: 'Joe-Biden', link: true },
@@ -35,8 +36,8 @@
 			{ name: 'Meghan-Markle', link: true },
 			{ name: 'Dua-Lipa', link: true },
 			{ name: 'Nancy-Pelosi', link: true },
-			{ name: 'Taylor-Swift', link: false },
-			{ name: 'Jason-Calacanis', link: false },
+			{ name: 'Taylor-Swift', link: true },
+			{ name: 'Jason-Calacanis', link: true },
 			{ name: 'Reese-Witherspoon', link: false },
 			{ name: 'Jake-Paul', link: true },
 			{ name: 'Justin-Bieber', link: false },

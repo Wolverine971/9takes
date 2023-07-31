@@ -43,35 +43,35 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
 
-<p class="firstLetter">He's been called the 'father of the atomic bomb,' the man whose genius both saved and doomed millions. Robert Oppenheimer, a figure shrouded in controversy, conflict, and intellectual brilliance. Today, we plunge into the depths of Oppenheimer's psyche, proposing that this complex personality bears the traits of the Enneagram Type 4 - The Individualist.</p>
+<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions. Robert Oppenheimer, a figure shrouded in controversy, conflict, and intellectual brilliance. Today, we plunge into the depths of Oppenheimer's psyche, proposing that this complex personality bears the traits of the Enneagram Type 4 - The Individualist.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Robert Oppenheimer is an Enneagram type 4</summary>
 <div class="panel">
 <ul>
-<li><b>Architect of the Atomic Age:</b> Robert Oppenheimer, a figure shrouded in paradoxes, fits the Enneagram Type 4 mold remarkably. The genius who led the Manhattan Project, his creation—an atomic bomb—echoes the Type 4's paradox of creation and destruction, with his achievement being uniquely his, albeit destructively so.
+<li><b>Architect of the Atomic Age:</b> Robert Oppenheimer, a figure shrouded in paradoxes, fits the Enneagram Type 4 mold. He led the Manhattan Project and his creation—an atomic bomb—echoes the Type 4's paradox of creation and destruction.
 </li>
-<li><b>An Introspective Mind:</b> Oppenheimer's inner world aligns with Type 4's introspective and emotional nature. His well-known philosophical approach to science and deep introspection mirrored in his speeches, notably the Bhagavad Gita reference "Now I am become Death, the destroyer of worlds" after the first successful atomic bomb test, reflect a profound self-awareness typical of Type 4.
+<li><b>An Introspective Mind:</b> Oppenheimer's inner world aligns with Type 4's introspective and emotional nature. He had a philosophical approach to science and deep introspection mirrored in his speeches. Notably he mentioned the Bhagavad Gita with the famous words "Now I am become Death, the destroyer of worlds." He said in reference to the first successful atomic bomb test, reflecting a profound self-awareness typical of Type 4.
 </li>
 <li><b>Controversies and Inner Conflict:</b> The turmoil Oppenheimer faced due to his involvement in the Manhattan Project and the ensuing Red Scare trials embodies Type 4's intense emotional highs and lows. This tension, aligning with the Type 4's childhood wounds and core fear of having no identity or personal significance, provides a ground for empathetic understanding towards Oppenheimer's struggles.
 </li>
 <li><b>Driven by Uniqueness:</b> At the core of Oppenheimer's motivation is a constant strive for uniqueness, a defining characteristic of Enneagram Type 4. His diverse interests, intellectual brilliance, and feeling of being an outsider trace back to the Individualist's need to establish a unique identity, indicating that much of his actions and demeanor stem from this core Enneagram motivation.
 </li>
 </ul>
-  </div>
+ </div>
 </details>
 
 ## The Architect of Destruction
 
-Robert Oppenheimer's most notable contribution to history is his leadership of the Manhattan Project, the top-secret mission that produced the world's first nuclear weapons. This in itself mirrors the paradox of the Type 4 personality: creation and destruction, wrapped in a single, complicated package. The Individualist is known for their unique and introspective nature, often driven by the need to create something that's uniquely theirs. For Oppenheimer, this creation bore the ironic twist of being a weapon of mass destruction.
+Robert Oppenheimer's most notable contribution to history is his leadership of the Manhattan Project, the top-secret mission that produced the world's first nuclear weapons. This in itself mirrors the paradox of the Type 4 personality: creation and destruction, wrapped in a single, complicated package. The Individualist is known for their unique and introspective nature, often driven by the need to create something that's theirs. For Oppenheimer, this creation bore the ironic twist of being a weapon of mass destruction.
 
 ## The Introspective Genius
 
-Individualists are deep thinkers, often introspective and in tune with their emotions. This is a trait that was evident in Oppenheimer's character. Known for his poetic demeanor, he often used philosophical and literary references in his speeches, notably quoting from Hindu scripture Bhagavad Gita after the first successful atomic bomb test: "Now I am become Death, the destroyer of worlds." This profound self-awareness and introspection, often leading to dramatic self-expression, aligns him closely with the Enneagram Type 4.
+Individualists are deep thinkers, often introspective and in tune with their emotions. This is a trait that was evident in Oppenheimer's character. Known for his poetic demeanor, he often used philosophical and literary references in his speeches, one time quoting from Hindu scripture Bhagavad Gita after the first successful atomic bomb test: "Now I am become Death, the destroyer of worlds." This profound self-awareness and introspection, often leading to dramatic self-expression, aligns him with the Enneagram Type 4.
 
 ## The Pursuit of Uniqueness
 
-Type 4 personalities strive for uniqueness and often feel different from others. This trait manifested in Oppenheimer's life in multiple ways. His intellectual brilliance set him apart from others from a young age, and he continued to differentiate himself throughout his life, notably through his unique, poetic approach to science. His interests extended beyond the realms of physics to philosophy, languages, and eastern mysticism, displaying a distinct inclination towards originality and diversity.
+Type 4 personalities strive for uniqueness and often feel different from others. This trait manifested in Oppenheimer's life in many ways. His intellectual brilliance set him apart from others from a young age, and he continued to differentiate himself throughout his life, through his unique, poetic approach to science. His interests extended beyond the realms of physics to philosophy, languages, and eastern mysticism, displaying a distinct inclination towards originality and diversity.
 
 ## Internal Struggles and Turmoil
 
@@ -88,12 +88,12 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Might be fascinated by Oppenheimer's intellect and curiosity, appreciating his contribution to the scientific community and his complex personality.
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Could admire Oppenheimer's dedication to his work, yet feel conflicted about his involvement in the Manhattan Project and his alleged connections to communism.
 - **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - May be intrigued by Oppenheimer's diverse interests and his role in a historical event, but could find his introspective and serious demeanor somewhat off-putting.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Likely admires Oppenheimer's drive and courage to lead a project of such magnitude, yet might be critical of his handling of the subsequent controversies.
+- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Likely admires Oppenheimer's drive and courage to lead a project of such magnitude, yet might be critical of his handling of the later controversies.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Could feel uneasy about the destructive outcome of Oppenheimer's work and empathize with his internal conflicts, wishing he had found a more harmonious path.
 
 ## The Enigmatic Outsider
 
-Oppenheimer's life was marked by a sense of being an outsider. Despite his crucial role in a project that decisively ended World War II, he was treated with suspicion and endured a public trial during the height of the Red Scare. This sense of alienation, of being misunderstood or undervalued, resonates with the Type 4's feeling of being different from the world around them.
+Oppenheimer's life was marked by a sense of being an outsider. Despite his crucial role in a project that ended World War II, he was treated with suspicion and endured a public trial during the height of the Red Scare. This sense of alienation, of being misunderstood or undervalued, resonates with the Type 4's feeling of being different from the world around them.
 
 As we traverse through the layered persona of Robert Oppenheimer, the alignment with the Enneagram Type 4, The Individualist, becomes more palpable. His genius and originality, his philosophical inclinations, and his emotional intensity all seem to coalesce, suggesting that Oppenheimer's personality may indeed echo the profound depths of Type 4. Yet, the complexity of human personality means that no one can be entirely encapsulated by a single category.
 
@@ -108,7 +108,7 @@ In our complex world, understanding people's personalities could pave the way fo
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores the personality traits of Robert Oppenheimer from the perspective of the Enneagram Type 4. Known for his intellectual rigor, introspective nature, and significant contribution to the field of nuclear physics, Oppenheimer embodies many characteristics of Type 4 personalities. The article discusses various aspects of Oppenheimer's life and career that demonstrate his Type 4 characteristics, including his role in the Manhattan Project, personal struggles, and controversies.",
+      "articleBody": "This article explores the personality traits of Robert Oppenheimer from the perspective of the Enneagram Type 4. Known for his intellectual rigor, introspective nature, and significant contribution to the field of nuclear physics, Oppenheimer embodies many characteristics of Type 4 personalities. The article discusses various aspects of Oppenheimer's life and career that show his Type 4 characteristics, including his role in the Manhattan Project, personal struggles, and controversies.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -178,7 +178,7 @@ In our complex world, understanding people's personalities could pave the way fo
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Robert Oppenheimer exhibits many characteristics associated with Enneagram Type 4 personalities. This includes his intellectual prowess, deep introspection, and handling of complex emotional struggles. These characteristics are deeply rooted in his desire to understand and make sense of the world, which is a core motivation for Type 4 individuals."
+            "text": "Robert Oppenheimer exhibits many characteristics associated with Enneagram Type 4 personalities. This includes his intellectual prowess, deep introspection, and handling of complex emotional struggles. These characteristics are rooted in his desire to understand and make sense of the world, which is a core motivation for Type 4 individuals."
           },
           "name": "Why is Robert Oppenheimer considered an Enneagram Type 4?"
         },
@@ -190,7 +190,7 @@ In our complex world, understanding people's personalities could pave the way fo
           },
           "name": "What are some examples of Robert Oppenheimer's Type 4 characteristics?"
         },
-		{
+    {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -198,7 +198,7 @@ In our complex world, understanding people's personalities could pave the way fo
           },
           "name": "What was Robert Oppenheimer's personality?"
         },
-		{
+    {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",

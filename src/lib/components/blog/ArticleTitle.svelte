@@ -22,8 +22,12 @@
 {/if}
 
 <style>
+	h1 {
+		text-wrap: balance;
+	}
 	h2 {
 		margin: 0;
+		text-wrap: balance;
 	}
 	.heading {
 		margin: 0;

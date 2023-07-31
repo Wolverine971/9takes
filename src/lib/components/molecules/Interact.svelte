@@ -162,48 +162,17 @@
 	<button
 		title="Comment"
 		class=""
-		style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
+		style="padding: 0.25rem;{parentType === 'question' ? 'width: 8rem;' : ''}"
 		on:click={() => (commenting = !commenting)}
 	>
-		{#if parentType === 'question' && innerWidth > 575}
-			Comment
-		{/if}
-
 		<MasterCommentIcon
-			iconStyle={parentType === 'question' && innerWidth > 575
-				? 'margin-left: .5rem;'
-				: 'padding: 0.25rem;'}
+			iconStyle={'padding: 0.25rem;'}
 			height={'1.5rem'}
-			fill={comment.length ? '#5407d9' : ''}
+			fill={'#5407d9'}
 			type={comment.length ? 'full' : 'empty'}
 		/>
 	</button>
 
-	{#if parentType === 'question'}
-		<button
-			title="Subscribe"
-			class=""
-			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-			on:click={subscribe}
-		>
-			{#if parentType === 'question' && innerWidth > 575}
-				{subscriptions && user?.id && subscriptions.some((e) => e.user_id === user?.id)
-					? 'Subscribed'
-					: 'Subscribe'}
-			{/if}
-			<BellIcon
-				iconStyle={parentType === 'question' && innerWidth > 575
-					? 'margin-left: .5rem;'
-					: 'padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={(subscriptions &&
-					user?.id &&
-					subscriptions.some((e) => e.user_id === user.id) &&
-					'#5407d9') ||
-					''}
-			/>
-		</button>
-	{/if}
 	{#if parentType !== 'question'}
 		<button
 			title="Like"
@@ -228,22 +197,19 @@
 		</button>
 	{/if}
 	{#if parentType === 'question'}
-		<button
-			title="Share"
-			class=""
-			style={parentType === 'question' ? '' : 'padding: 0.25rem;'}
-			on:click={() => console.log('share')}
-		>
-			{#if parentType === 'question' && innerWidth > 575}
-				Share
-			{/if}
-			<ShareIcon
-				iconStyle={parentType === 'question' && innerWidth > 575
-					? 'margin-left: .5rem;'
-					: 'padding: 0.25rem;'}
+		<button title="Subscribe" class="corner-btn" style={'padding: 0.25rem;'} on:click={subscribe}>
+			<BellIcon
+				iconStyle={'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={''}
+				fill={(subscriptions &&
+					user?.id &&
+					subscriptions.some((e) => e.user_id === user.id) &&
+					'#5407d9') ||
+					''}
 			/>
+		</button>
+		<button title="Share" class="corner-btn" on:click={() => console.log('share')}>
+			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
 		</button>
 	{/if}
 </div>
@@ -350,6 +316,31 @@ interface QuestionObject {
 	</button>
 </form> -->
 <style lang="scss">
+	.top-right-corner {
+		// position: absolute;
+		// top: 0;
+		// right: 0;
+		display: flex;
+		align-items: center;
+		margin: 0.25rem;
+		margin-left: auto;
+		// gap: 0.25rem;
+	}
+	.corner-btn {
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		margin: 0.25rem;
+		padding: 0.1rem;
+		border-radius: 5px;
+		padding: 0.25rem;
+
+		&:hover {
+			background: var(--color-bg-0);
+		}
+	}
 	.sub-comment {
 		text-align: center;
 		display: flex;
@@ -383,7 +374,6 @@ interface QuestionObject {
 		border: none;
 		outline: none;
 		cursor: pointer;
-		padding: 0.5rem;
 		transition: 0.3s;
 		font-size: 0.75rem;
 		border-radius: 5px;

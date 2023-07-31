@@ -170,7 +170,7 @@ If this resonates with you, we invite you to explore more articles like this one
         "@type": "ImageObject",
         "height": 800,
         "url": {
-          "@id": "https://9takes.com/types/8/Joe-Rogan.webp"
+          "@id": "https://9takes.com/types/8s/Joe-Rogan.webp"
         },
         "width": 1200
       },
