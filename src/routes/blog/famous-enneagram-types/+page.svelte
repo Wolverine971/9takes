@@ -280,6 +280,7 @@
 	}
 
 	.people-grid-container .grid-item {
+		word-break: normal;
 		background-color: rgba(255, 255, 255, 0.5);
 		text-align: center;
 		border: var(--classic-border);

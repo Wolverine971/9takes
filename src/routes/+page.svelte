@@ -213,10 +213,14 @@
 	}
 	li {
 		margin-left: 1rem;
+		word-break: normal;
 	}
 	a {
 		color: #333;
 		text-decoration: none;
+	}
+	p {
+		word-break: normal;
 	}
 	/* Header styles */
 	header {

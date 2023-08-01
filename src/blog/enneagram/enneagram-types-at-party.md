@@ -90,6 +90,7 @@ At a party, Type 5s are likely to be found observing, analyzing, and taking ever
 <div>
 <MarqueeHorizontal displayList={[{name: 'on a first date', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
+
 ### Type 6 - The Loyalist
 
 Type 6s are often the most cautious and responsible people at the party, making sure that everyone is safe and everything is going according to plan. They're likely to be found checking in with their friends and making sure that everyone is having a good time. Type 6s are attending the party because they want to connect with others and have a good time, but they also want to make sure that everyone is safe and responsible. They're looking forward to spending time with friends and making new connections.
