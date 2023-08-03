@@ -1,5 +1,5 @@
 import { supabase } from '$lib/supabase';
-import type { Database } from 'src/schema';
+// import type { Database } from 'src/schema';
 
 import { error, json } from '@sveltejs/kit';
 import type { PostgrestResponse } from '@supabase/supabase-js';
@@ -62,13 +62,7 @@ export async function GET({
 		throw new Error('Unable to retrieve comments');
 	}
 	if (questionCommentIds) {
-		let {
-			data: commentComments,
-			error: commentError
-		}: PostgrestResponse<{
-			data: Database['public']['Tables']['comments']['Row'][];
-			error: any;
-		}> = await supabase
+		let { data: commentComments, error: commentError } = await supabase
 			.from('comments')
 			.select(
 				`

@@ -44,7 +44,8 @@
 	let commenting: boolean = false;
 
 	const createComment = async () => {
-		if (!data?.flags?.userSignedIn && !user.id) {
+		console.log(user);
+		if (!data?.flags?.userSignedIn && !user?.id) {
 			if (data?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return;
@@ -63,14 +64,14 @@
 			body.append('author_id', user.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.es_id);
-			body.append('question_id', questionId);
+			body.append('question_id', questionId.toString());
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
 			body.append('author_id', user?.id);
 			body.append('parent_type', parentType);
 			body.append('es_id', data.question.es_id);
-			body.append('question_id', questionId);
+			body.append('question_id', questionId.toString());
 		}
 
 		const resp = await fetch('?/createComment', {

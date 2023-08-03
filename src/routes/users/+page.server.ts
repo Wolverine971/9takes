@@ -8,6 +8,10 @@ import { error, redirect } from '@sveltejs/kit';
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event: any) => {
 	const session = await getServerSession(event);
+
+	if (!session?.user?.id) {
+		throw redirect(302, '/questions');
+	}
 	const {
 		data: user,
 		error: findUserError,
@@ -15,7 +19,7 @@ export const load: PageServerLoad = async (event: any) => {
 	} = await supabase
 		.from('profiles')
 		.select('id, admin, external_id')
-		.eq('id', session?.user.id)
+		.eq('id', session?.user?.id)
 		.single();
 
 	if (!user?.admin) {
