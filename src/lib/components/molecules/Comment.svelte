@@ -47,6 +47,7 @@
 	};
 
 	const addComment = async (newComment: any) => {
+		console.log(user);
 		if (_commentComment.comments) {
 			_commentComment.comments = [newComment, ..._commentComment.comments];
 		} else {
@@ -69,7 +70,7 @@
 			{_commentComment?.profiles?.enneagram || 'Rando'}
 		</a>
 
-		<input class="comment-box" type="text" bind:value={_commentComment.comment} readonly />
+		<p class="comment-box">{_commentComment.comment}</p>
 	</span>
 
 	<!-- <p>ParentId: {comment?.parent_id}</p> -->
@@ -125,6 +126,7 @@
 		border-radius: 5px;
 		// margin-bottom: 0;
 		margin: 0.25rem;
+		padding: 0.5rem;
 	}
 
 	.user-comment {

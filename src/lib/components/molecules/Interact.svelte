@@ -7,8 +7,10 @@
 	import RightIcon from '../icons/rightIcon.svelte';
 
 	import { notifications } from './notifications.js';
+	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';
+	import { invalidateAll } from '$app/navigation';
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
@@ -74,7 +76,7 @@
 			body.append('question_id', questionId.toString());
 		}
 
-		const resp = await fetch('?/createComment', {
+		const resp = await fetch('?/createCommentRando', {
 			method: 'POST',
 			body
 		});
@@ -88,6 +90,13 @@
 			notifications.info('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
 			comment = '';
+			// const thisPage = window.location.pathname;
+
+			// console.log('goto ' + thisPage);
+
+			// goto('/').then(() => goto(thisPage));
+			invalidateAll();
+			// $page.url.pathname
 		}
 	};
 

@@ -5,21 +5,33 @@
 
 	import type { PageData } from '../$types';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
+	import { deserialize } from '$app/forms';
 
 	interface QuestionsData extends PageData {
 		questions: any[];
 		count: number;
 	}
 
+	let count = 10;
+
 	export let data: QuestionsData;
 	let questions: any[] = data?.questions;
 	const loadQuestions = async () => {
-		const { data: moreQuestions, error } = await supabase
-			.from('questions')
-			.select(`question, id, url`, { count: 'planned' })
-			.limit(10);
-		if (moreQuestions) {
-			questions = [...questions, ...moreQuestions];
+		let body = new FormData();
+		body.append('count', count.toString());
+
+		const resp = await fetch('/questions?/getMoreQuestions', {
+			method: 'POST',
+			body
+		});
+
+		const result: any = deserialize(await resp.text());
+
+		if (result.error) {
+			console.log(result.error);
+		} else if (result.data) {
+			questions = [...questions, ...result.data];
+			count = count + 10;
 		}
 	};
 </script>

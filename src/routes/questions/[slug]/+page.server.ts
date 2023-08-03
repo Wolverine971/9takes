@@ -203,6 +203,95 @@ export const actions: Actions = {
 		}
 	},
 
+	createCommentRando: async ({ request, getClientAddress }) => {
+		try {
+			//refresh the comments
+			const body = Object.fromEntries(await request.formData());
+
+			const questionId = body.question_id as string;
+			const comment = body.comment as string;
+			const parent_id = body.parent_id as string;
+			const author_id = body.author_id;
+			const parent_type = body.parent_type as string;
+			const es_id = body.es_id as string;
+			const parentId = parseInt(parent_id);
+			const ip = getClientAddress();
+
+			parseUrls(comment, questionId);
+
+			const commentData = {
+				comment: comment,
+				parent_id: parentId,
+				author_id: author_id,
+				comment_count: 0,
+				ip,
+				parent_type: parent_type
+			};
+			// console.log(commentData);
+			const resp: any = await addESComment({
+				index: parent_type,
+				parentId: es_id,
+				enneaType: '',
+				authorId: author_id.toString(),
+				comment,
+				ip
+			});
+			if (resp._id) {
+				const cData =
+					author_id !== 'undefined'
+						? {
+								comment: comment,
+								parent_id: parentId,
+								author_id: author_id.toString(),
+								comment_count: 0,
+								ip,
+								parent_type: parent_type,
+								es_id: resp._id
+						  }
+						: {
+								comment: comment,
+								parent_id: parentId,
+								comment_count: 0,
+								ip,
+								parent_type: parent_type,
+								es_id: resp._id
+						  };
+
+				const { data: record, error: addCommentError } = await supabase
+					.from('comments')
+					.insert(cData)
+					.select()
+					.single();
+				if (!addCommentError) {
+					if (parent_type === 'comment') {
+						const { data: incremented, error: incrementError } = await supabase.rpc(
+							'increment_comment_count',
+							{
+								comment_parent_id: parentId
+							}
+						);
+
+						if (!incrementError) {
+							return record;
+						}
+					} else {
+						return record;
+					}
+				} else {
+					console.log(addCommentError);
+				}
+			}
+
+			throw error(404, {
+				message: `Add comment error`
+			});
+		} catch (e) {
+			throw error(400, {
+				message: `error creating comment ${JSON.stringify(e)}`
+			});
+		}
+	},
+
 	likeComment: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
@@ -350,7 +439,9 @@ export const actions: Actions = {
 const parseUrls = async (comment: string, questionId: string) => {
 	const { url, domain } = extractFirstURL(comment);
 	let domainId = null;
-
+	if (!domain) {
+		return;
+	}
 	const { data: linkDomainUpdateSuccess, error: linkDomainUpdateError } = await supabase
 		.from('link_domains')
 		.update({

@@ -109,6 +109,29 @@ export const actions: Actions = {
 			console.log(e);
 			return [];
 		}
+	},
+	getMoreQuestions: async ({ request }) => {
+		try {
+			const body = Object.fromEntries(await request.formData());
+			const count = parseInt(body.count as string);
+
+			const { data: moreQuestions, error: moreQuestionsError } = await supabase
+				.from('questions')
+				.select(`*`, { count: 'planned' })
+				.range(count, count + 10);
+
+			if (!moreQuestionsError) {
+				return moreQuestions;
+			} else {
+				console.log(moreQuestionsError);
+				throw error(500, {
+					message: 'Error finding comments'
+				});
+			}
+		} catch (e) {
+			console.log(e);
+			return [];
+		}
 	}
 };
 

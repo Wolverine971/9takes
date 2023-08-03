@@ -34,7 +34,7 @@
 		console.log('load comments');
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
-				parentType === 'question' ? _data.question.id : _data.id
+				parentType === 'question' ? questionId : _data.id
 			}&lastDate=${lastDate}`
 		)
 			.then((response) => response.json())
