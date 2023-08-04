@@ -106,9 +106,6 @@
 
 	const runFunc = () => {
 		_data = Object.assign({}, data);
-		setTimeout(() => {
-			calculateHeightsAndSetClasses();
-		}, 500);
 	};
 	let innerWidth: number = 0;
 
@@ -155,7 +152,6 @@
 
 	onMount(() => {
 		window.addEventListener('scroll', calculateHeightsAndSetClasses);
-		console.log(data);
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);

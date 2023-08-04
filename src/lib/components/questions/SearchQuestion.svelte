@@ -9,21 +9,22 @@
 
 	let question: string = '';
 
-	const goToCreateQuestionPage = (val: any) => {
+	const goToCreateQuestionPage = () => {
+		console.log('go create');
 		// cannot create question if you are not logged in
-		if (data?.session?.user?.id) {
-			let url: string;
-			if (typeof val === 'string') {
-				url = `/questions/create/?question=${val}`;
-			} else {
-				url = `/questions/create/`;
-			}
-			setTimeout(() => {
-				goto(url, { invalidateAll: true });
-			}, 0);
-		} else {
+		if (!data?.session?.user?.id) {
 			notifications.warning('Must be logged in', 3000);
 		}
+		const val = question;
+		let url: string;
+		if (typeof val === 'string') {
+			url = `/questions/create/?question=${val}`;
+		} else {
+			url = `/questions/create/`;
+		}
+		setTimeout(() => {
+			goto(url, { invalidateAll: true });
+		}, 0);
 	};
 
 	let timer: any;
@@ -50,6 +51,7 @@
 	};
 
 	const debounce = (v: any) => {
+		question = v;
 		clearTimeout(timer);
 		timer = setTimeout(() => {
 			search(v);
@@ -71,7 +73,7 @@
 				name="question"
 				placeholder="Ask a question..."
 				on:inputChange={({ detail: { text } }) => debounce(text)}
-				on:createQuestion={({ detail: { text } }) => goToCreateQuestionPage(text)}
+				on:createQuestion={({ detail: { text } }) => goToCreateQuestionPage()}
 				{options}
 				on:selection={({ detail }) => goToPage(detail)}
 			/>
@@ -82,7 +84,7 @@
 		class="btn btn-primary"
 		type="button"
 		on:click={() => {
-			goToCreateQuestionPage('');
+			goToCreateQuestionPage();
 		}}
 	>
 		Create Question

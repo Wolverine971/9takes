@@ -17,7 +17,11 @@ export const actions: Actions = {
 
 		const { data, error: err } = await locals.sb.auth.signUp({
 			email: body.email as string,
-			password: body.password as string
+			password: body.password as string,
+			options: {
+				emailRedirectTo: 'https://9takes.com/login'
+			}
+			// ConfirmationURL: '9takes.com/login'
 		});
 
 		if (err) {

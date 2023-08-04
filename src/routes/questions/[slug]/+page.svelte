@@ -33,6 +33,7 @@
 	};
 
 	const autoGrow = (element: HTMLElement | null) => {
+		console.log('adjust');
 		if (element) {
 			element.style.height = '1rem';
 			element.style.height = element.scrollHeight + 'px';
@@ -40,7 +41,10 @@
 	};
 
 	onMount(() => {
-		autoGrow(document.getElementById('question-box'));
+		// autoGrow(document.getElementById('question-box'));
+		// window.addEventListener('resize', (event) => {
+		// 	autoGrow(document.getElementById('question-box'));
+		// });
 	});
 </script>
 
@@ -90,10 +94,10 @@
 		background-color: var(--color-bg-0);
 		border: 1px solid var(--color-bg-0);
 		border-radius: 5px;
-		height: 24px;
-		padding: 10px 20px;
+		// height: 24px;
+		padding: 0.5rem 1rem;
 		color: hsl(222, 15%, 19%);
-		// font-size: 16px;
+		font-size: 1.5rem;
 		// box-sizing: content-box;
 
 		margin: 0.25rem;

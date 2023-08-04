@@ -211,6 +211,38 @@ export const joinEmail2 = () => {
     </html>`;
 };
 
+// this is in supabase
+export const signupEmail = () => {
+	return `<!DOCTYPE html>
+    <html>
+      ${EmailHead('Confirm your email to join 9takes')}
+      <body style="background-color: #f6f6f6;">
+        <table style="border-collapse:collapse;width:600px;max-width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr style="">
+              <td style="border-collapse:collapse;display:block;padding:0 1em;width:600px;max-width:600px;margin:30px auto;background-color:#ffffff" width="600" bgcolor="#ffffff">
+                <div style="text-align:center">
+                  <div value="20" style="padding-top:20px"> </div>
+                  <div style="height:100%;padding:45px;border-radius:10px;margin:10px auto;background-color:#ffffff">
+                    <h1 style="font-size:36px;line-height:40px;letter-spacing:-0.5px;font-weight:600;color:black;margin:0">
+                      Welcome to 9takes
+                    </h1>
+                    <div value="15" style="padding-top:15px"> </div>
+                    <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
+                      <div value="15" style="padding-top:15px"> </div>
+                        <p>Follow this link to confirm your account</p>
+                        <p><a href="{{ .ConfirmationURL }}"><b style="">Confirm your mail</b></a></p>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    </html>`;
+};
+
 // Blogs
 // survey
 // social links- twitter and instagram
