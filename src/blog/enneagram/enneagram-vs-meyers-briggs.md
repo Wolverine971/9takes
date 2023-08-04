@@ -9,6 +9,7 @@ changefreq: 'monthly'
 published: true
 type: ['overview']
 blog: true
+previewHtml: ''
 pic: 'enneagram-vs-meyers-briggs'
 ---
 

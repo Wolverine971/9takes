@@ -28,20 +28,21 @@ const xml = (
           <title>${post.title}</title>
           <description>${post.description}</description>
           <link>${post.loc}/</link>
-          <pubDate>${new Date(post.date)}</pubDate>
-          <<updated>${new Date(post.lastmod)}</updated>
-          <content:encoded>${post.previewHtml} 
-            <div style="margin-top: 50px; font-style: italic;">
-              <strong>
-                <a href="${post.loc}">
-                  Keep reading
-                </a>
-              </strong>  
-            </div>
-          </content:encoded>
+          <pubDate>${post.rssDate}</pubDate>
+          <updated>${post.rssUpdateDate}</updated>
+          
         </item>
       `
 			)
 			.join('')}
   </channel>
 </rss>`;
+
+// <content:encoded>
+// 	${post.previewHtml}
+// 	<div style="margin-top: 50px; font-style: italic;">
+// 		<strong>
+// 			<a href="${post.loc}">Keep reading</a>
+// 		</strong>
+// 	</div>
+// </content:encoded>;
