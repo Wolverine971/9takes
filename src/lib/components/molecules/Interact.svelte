@@ -10,7 +10,6 @@
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';
-	import { invalidateAll } from '$app/navigation';
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
@@ -46,7 +45,6 @@
 	let commenting: boolean = false;
 
 	const createComment = async () => {
-		console.log(user);
 		if (!data?.flags?.userSignedIn && !user?.id) {
 			if (data?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
@@ -90,13 +88,6 @@
 			notifications.info('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
 			comment = '';
-			// const thisPage = window.location.pathname;
-
-			// console.log('goto ' + thisPage);
-
-			// goto('/').then(() => goto(thisPage));
-			invalidateAll();
-			// $page.url.pathname
 		}
 	};
 

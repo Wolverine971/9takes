@@ -3,6 +3,7 @@ import { supabase } from '$lib/supabase';
 
 import { error, json } from '@sveltejs/kit';
 import type { PostgrestResponse } from '@supabase/supabase-js';
+import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { Comments } from '$lib/components';
 // /** @type {import('./$types').RequestHandler} */
 // : Promise<Database.public.Tables.comments>
@@ -23,20 +24,37 @@ export async function GET({
 }) {
 	try {
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
+		const ipAddress = getClientAddress();
 
-		const type: 'question' | 'comment' = url.searchParams.get('type') as string; //
+		const user = locals?.session?.user;
 
-		const { data: canSee, error: canSeeError } = await supabase.rpc('can_see_comments', {
-			questionid: parentId,
-			userid: locals?.session?.user?.id,
-			userip: getClientAddress()
-		});
+		let userHasAnswered = false;
 
-		if (!canSee) {
+		if (user?.id) {
+			const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
+				.from('comments')
+				.select('*')
+				.eq('parent_type', 'question')
+				.eq('parent_id', parentId)
+				.eq('author_id', user?.id);
+
+			userHasAnswered = hasUserCommented?.length ? true : false;
+		} else {
+			// checks if it is a rando
+			const { data: hasCommented, error: hasCommentedError } = await supabase
+				.from('comments')
+				.select('*')
+				.eq('parent_type', 'question')
+				.eq('parent_id', parentId)
+				.eq('ip', ipAddress);
+			userHasAnswered = hasCommented?.length ? true : false;
+		}
+
+		if (!userHasAnswered) {
 			return {};
 		}
 
-		let { data: questionComments, error: questionError } = await supabase
+		let { data: questionComments, error: questionCommentsError } = await supabase
 			.from('comments')
 			.select(
 				`
@@ -58,8 +76,8 @@ export async function GET({
 		const questionCommentIds = questionComments?.map((q) => {
 			return q.id;
 		});
-		if (questionError) {
-			console.log(questionError);
+		if (questionCommentsError) {
+			console.log(questionCommentsError);
 			throw new Error('Unable to retrieve comments');
 		}
 		if (questionCommentIds) {
@@ -67,18 +85,18 @@ export async function GET({
 				.from('comments')
 				.select(
 					`
-		id
-		, created_at
-		, parent_id
-		, comment
-		, author_id
-		, ip
-		, comment_count
-		, parent_type
-		, es_id
-		, like_count
-		, profiles ( external_id, enneagram)
-		`,
+					id
+					, created_at
+					, parent_id
+					, comment
+					, author_id
+					, ip
+					, comment_count
+					, parent_type
+					, es_id
+					, like_count
+					, profiles ( external_id, enneagram)
+					`,
 					{ count: 'exact' }
 				)
 				.in('parent_id', questionCommentIds);
@@ -89,6 +107,9 @@ export async function GET({
 
 			if (commentError) {
 				console.log(commentError);
+				throw error(400, {
+					message: `encountered error`
+				});
 			}
 
 			let commentMap: ICommentMap = {};
@@ -117,6 +138,5 @@ export async function GET({
 		throw error(400, {
 			message: `encountered error`
 		});
-		return {};
 	}
 }

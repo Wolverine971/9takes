@@ -9,6 +9,8 @@ import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticS
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
 	const session = await getServerSession(event);
+	let userHasAnswered = false;
+
 	const { data: question, error: findQuestionError } = await supabase
 		.from('questions')
 		.select(
@@ -18,21 +20,27 @@ export async function load(event: any) {
 		.eq('url', event.params.slug)
 		.single();
 
-	const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
-		.from('comments')
-		.select('*')
-		.eq('parent_type', 'question')
-		.eq('parent_id', question?.id)
-		.eq('author_id', session?.user.id);
-	if (!question || findQuestionError) {
+	if (!question) {
 		throw error(400, {
 			message: 'No question found'
 		});
 	}
-	let userHasAnswered = hasUserCommented?.length ? true : false;
 
-	// checks if it is a rando
-	if (!hasUserCommented?.length) {
+	if (session?.user) {
+		const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
+			.from('comments')
+			.select('*')
+			.eq('parent_type', 'question')
+			.eq('parent_id', question?.id)
+			.eq('author_id', session?.user.id);
+		if (!question || findQuestionError) {
+			throw error(400, {
+				message: 'No question found'
+			});
+		}
+		userHasAnswered = hasUserCommented?.length ? true : false;
+	} else {
+		// checks if it is a rando
 		const ipAddress = event.getClientAddress();
 		const { data: hasCommented, error: hasCommentedError } = await supabase
 			.from('comments')
@@ -75,7 +83,7 @@ export async function load(event: any) {
 
 			{ count: 'exact' }
 		)
-		.eq('parent_id', question.id)
+		.eq('parent_id', question?.id)
 		.limit(10);
 
 	if (questionCommentsError) {
@@ -93,7 +101,7 @@ export async function load(event: any) {
 
 			{ count: 'exact' }
 		)
-		.eq('question_id', question.id)
+		.eq('question_id', question?.id)
 		.limit(10);
 
 	if (questionLinksError) {

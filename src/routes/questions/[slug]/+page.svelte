@@ -16,16 +16,22 @@
 		flags: data.flags
 	});
 
-	const addComment = async (newComment: any) => {
-		// flags.userHasAnswered = true
-		dataForChild = Object.assign({}, data.question, {
-			comments: dataForChild.comments ? [newComment, ...dataForChild.comments] : [newComment],
-			comment_count: data.comment_count ? (data.comment_count += 1) : 1,
-			links: data.links,
-			links_count: data.links_count,
-			flags: Object.assign({}, data.flags, { userHasAnswered: true })
-		});
+	const addComment = async (newData: any) => {
+		await fetch(`/comments/?type=question&parentId=${data?.question?.id}`)
+			.then((response) => response.json())
+			.then((commentData) => {
+				if (!commentData?.message) {
+					dataForChild = Object.assign({}, data.question, {
+						comments: commentData,
+						comment_count: data.comment_count ? (data.comment_count += 1) : 1,
+						links: data.links,
+						links_count: data.links_count,
+						flags: Object.assign({}, data.flags, { userHasAnswered: true })
+					});
+				}
+			});
 	};
+
 	const autoGrow = (element: HTMLElement | null) => {
 		if (element) {
 			element.style.height = '1rem';
@@ -51,7 +57,9 @@
 		
 	</section> -->
 	<Card>
-		<h1 class="question-box" id="question-box" style="overflow:hidden">{data.question.question}</h1>
+		<h1 class="question-box" id="question-box" style="overflow:hidden">
+			{data.question.question}
+		</h1>
 
 		<!-- oninput="auto_grow(this)" -->
 		<!-- {data.question.question} -->

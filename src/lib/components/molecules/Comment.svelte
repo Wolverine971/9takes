@@ -5,6 +5,8 @@
 	import DownIcon from '../icons/downIcon.svelte';
 	import { notifications } from './notifications';
 	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
 
 	export let user: any;
 	export let comment: any;
@@ -47,7 +49,8 @@
 	};
 
 	const addComment = async (newComment: any) => {
-		console.log(user);
+		dispatch('commentAdded', newComment);
+
 		if (_commentComment.comments) {
 			_commentComment.comments = [newComment, ..._commentComment.comments];
 		} else {

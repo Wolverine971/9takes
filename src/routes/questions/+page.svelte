@@ -12,7 +12,7 @@
 		count: number;
 	}
 
-	let count = 10;
+	let count = 20;
 
 	export let data: QuestionsData;
 	let questions: any[] = data?.questions;

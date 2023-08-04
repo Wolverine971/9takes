@@ -45,6 +45,28 @@
 				}
 			});
 	};
+
+	const addComment = async (data: any) => {
+		if (parentType !== 'question') {
+			return;
+		}
+		loading = true;
+		console.log('load comments');
+		await fetch(
+			`/comments/?type=${parentType}&parentId=${
+				parentType === 'question' ? questionId : _data.id
+			}&lastDate=${lastDate}`
+		)
+			.then((response) => response.json())
+			.then((commentData) => {
+				if (!commentData?.message) {
+					console.log(commentData);
+					_data = Object.assign({}, data);
+					comments = [..._data?.comments];
+					comment_count = _data?.comment_count;
+				}
+			});
+	};
 </script>
 
 {#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && _data?.flags?.userHasAnswered}
@@ -61,7 +83,12 @@
 	{#if comments?.length}
 		<div>
 			{#each comments as comment}
-				<Comment {questionId} {comment} {user} />
+				<Comment
+					{questionId}
+					{comment}
+					{user}
+					on:commentAdded={({ detail }) => addComment(detail)}
+				/>
 			{/each}
 		</div>
 		{#if comments?.length < comment_count}
@@ -73,7 +100,7 @@
 {:else if !browser || (comments?.length && parentType === 'comment')}
 	<div>
 		{#each comments as comment}
-			<Comment {questionId} {comment} {user} />
+			<Comment {questionId} {comment} {user} on:commentAdded={({ detail }) => addComment(detail)} />
 		{/each}
 	</div>
 	{#if comments?.length < comment_count}

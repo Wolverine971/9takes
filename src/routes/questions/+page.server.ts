@@ -117,7 +117,8 @@ export const actions: Actions = {
 
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
 				.from('questions')
-				.select(`*`, { count: 'planned' })
+				.select(`*`, { count: 'estimated' })
+				.order('created_at', { ascending: false })
 				.range(count, count + 10);
 
 			if (!moreQuestionsError) {
