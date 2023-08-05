@@ -14,9 +14,8 @@ export async function GET() {
 	return new Response(body);
 }
 
-const xml = (
-	posts: any
-) => `<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:source="http://source.scripting.com/">
   <channel>
     <title>9takes</title>
     <link>https://9takes.com/</link>
@@ -29,8 +28,7 @@ const xml = (
           <description>${post.description}</description>
           <link>${post.loc}/</link>
           <pubDate>${post.rssDate}</pubDate>
-          <updated>${post.rssUpdateDate}</updated>
-          
+          <lastBuildDate>${post.rssUpdateDate}</lastBuildDate>
         </item>
       `
 			)
@@ -38,6 +36,7 @@ const xml = (
   </channel>
 </rss>`;
 
+// <updated>${post.rssUpdateDate}</updated>;
 // <content:encoded>
 // 	${post.previewHtml}
 // 	<div style="margin-top: 50px; font-style: italic;">

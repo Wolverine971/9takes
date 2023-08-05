@@ -24,6 +24,7 @@ pic: 'greek-statues-party-vibes'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
 <div
 	style="display: flex;
     justify-content: center;
