@@ -19,7 +19,7 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
   <channel>
     <title>9takes</title>
     <link>https://9takes.com/</link>
-    <description>A blog built with SvelteKit about tech and stuff!</description>
+    <description>9takes- better version of reddit based on personality. Ask questions, give hot takes, talk to real people</description>
     ${posts
 			.map(
 				(post: any) =>

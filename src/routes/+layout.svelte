@@ -51,7 +51,7 @@
 		<div class="content-display">
 			<h1 class=" txt-white jumbo-name bold-shadow" data-value={'9takes'}>{'9takes'}</h1>
 			<p class=" txt-white link bold-shadow">
-				{'Ask questions, give your hot takes, talk to people'}
+				{'Ask questions, give hot takes, talk to real people'}
 			</p>
 		</div>
 	</Jumbotron>
