@@ -14,12 +14,6 @@ previewHtml: ''
 pic: 'greek-statue-being-ghosted'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/blogs/greek-statue-being-ghosted.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -245,8 +239,10 @@ It's important to acknowledge that everyone's experience with ghosting is unique
 
 In conclusion, ghosting affects individuals differently, and understanding how each Enneagram type copes with it can foster empathy. Healing and moving forward are achievable through self-compassion and care.
 
-<div>
-<script type="application/ld+json">
+<svelte:head>
+  <meta property="og:image" content="https://9takes.com/blogs/greek-statue-being-ghosted.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
+  <script type="application/ld+json">
   {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
@@ -254,7 +250,7 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
@@ -265,11 +261,19 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-03-01T00:00:00-07:00"
+    "@value": "2023-07-31T00:00:00-07:00"
   },
   "datePublished": {
     "@type": "Date",
     "@value": "2023-02-17T00:00:00-07:00"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "height": 800,
+    "url": {
+      "@id": "https://9takes.com/blogs/greek-statue-being-ghosted.webp"
+    },
+    "width": 1200
   },
   "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
   "headline": "Ghosting and the Enneagram: How Each Type Responds",
@@ -297,7 +301,7 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   }
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
 
