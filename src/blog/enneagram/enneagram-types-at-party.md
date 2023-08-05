@@ -14,7 +14,6 @@ previewHtml: ''
 pic: 'greek-statues-party-vibes'
 ---
 
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
@@ -131,9 +130,6 @@ Type 9s are often the most laid-back and easy-going people at the party, going w
 ## Wrap up
 
 Each type has its unique characteristics and motivations for attending the party. Understanding the Enneagram types can help us connect with others and appreciate their unique perspectives. Whether you're a Type 1, Type 9, or anything in between, there's something for everyone at a party. So go out there and enjoy yourself, and remember to appreciate the different perspectives and personalities of those around you.
-
-
-
 
 <svelte:head>
 

@@ -240,6 +240,7 @@ It's important to acknowledge that everyone's experience with ghosting is unique
 In conclusion, ghosting affects individuals differently, and understanding how each Enneagram type copes with it can foster empathy. Healing and moving forward are achievable through self-compassion and care.
 
 <svelte:head>
+
   <meta property="og:image" content="https://9takes.com/blogs/greek-statue-being-ghosted.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
   <script type="application/ld+json">

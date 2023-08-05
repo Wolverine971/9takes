@@ -14,7 +14,6 @@ previewHtml: ''
 pic: 'greek-statues-on-a-date'
 ---
 
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
@@ -34,7 +33,6 @@ pic: 'greek-statues-on-a-date'
 		subtext=""
 	/>
 </div>
-
 
 <p class="firstLetter">It's hard to quantify how anyone approaches a relationship, but the enneagram is a good place to start when trying to identify tendencies. This article takes a three tiered approach going from a superficial overview to decent depth on each of the types.</p>
 
@@ -195,90 +193,90 @@ There are near infinite possibilities for how a person can think, feel and behav
 If you liked this checkout [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
 
 <svelte:head>
-	<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-date.webp" />
-	<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
-	<script type="application/ld+json">
-		{
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-			{
-				"@id": "https://www.instagram.com/djwayne3/"
-			},
-			{
-				"@id": "https://twitter.com/djwayne3"
-			}
-		]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2023-08-05"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-03-10"
-      },
-	  "image": {
-			"@type": "ImageObject",
-			"height": 800,
-			"url": {
-			"@id": "https://9takes.com/blogs/greek-statues-on-a-date.webp"
-			},
-			"width": 1200
-		},
-      "description": "This blog post examines the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships.",
-      "headline": "Enneagram Types in Relationships: An Overview",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-types-in-relationships",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Each Enneagram type has its own set of strengths and weaknesses. These can play out in relationships in different ways, leading to unique dynamics depending on the combination of types."
-          },
-          "name": "How do different Enneagram types interact in relationships?"
-        },
-		{
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Enneagram can be a useful tool for understanding others, improving communication, and resolving conflict. It can help you understand why people behave the way they do, which can lead to greater empathy and understanding."
-          },
-          "name": "How can the Enneagram improve my relationships?"
-        }
-      ]
-    }
-  ]
+<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-date.webp" />
+<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Article",
+"articleBody": "This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
+"author": {
+"@type": "Person",
+"name": "DJ Wayne",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://twitter.com/djwayne3"
+}
+]
+},
+"dateModified": {
+"@type": "Date",
+"@value": "2023-08-05"
+},
+"datePublished": {
+"@type": "Date",
+"@value": "2023-03-10"
+},
+"image": {
+"@type": "ImageObject",
+"height": 800,
+"url": {
+"@id": "https://9takes.com/blogs/greek-statues-on-a-date.webp"
+},
+"width": 1200
+},
+"description": "This blog post examines the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships.",
+"headline": "Enneagram Types in Relationships: An Overview",
+"mainEntityOfPage": {
+"@id": "https://9takes.com/blog/enneagram/enneagram-types-in-relationships",
+"@type": "WebPage"
+},
+"publisher": {
+"@type": "Organization",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/9takesdotcom/"
+},
+{
+"@id": "https://twitter.com/9takesdotcom"
+}
+],
+"logo": {
+"@type": "ImageObject",
+"url": {
+"@id": "https://9takes.com/brand/darkRubix.png"
+}
+},
+"name": "9takes"
+}
+},
+{
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Each Enneagram type has its own set of strengths and weaknesses. These can play out in relationships in different ways, leading to unique dynamics depending on the combination of types."
+},
+"name": "How do different Enneagram types interact in relationships?"
+},
+{
+"@type": "Question",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Enneagram can be a useful tool for understanding others, improving communication, and resolving conflict. It can help you understand why people behave the way they do, which can lead to greater empathy and understanding."
+},
+"name": "How can the Enneagram improve my relationships?"
+}
+]
+}
+]
 }
 </script>
 

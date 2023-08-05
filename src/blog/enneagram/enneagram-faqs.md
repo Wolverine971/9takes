@@ -321,17 +321,12 @@ previewHtml: ''
   <p class="panel">The Enneagram has been widely used within many religious traditions, but it is also often used outside of any religious context.</p>
 </details>
 
-
 <details>
 <summary class="accordion">Is the Enneagram a religious thing?</summary>
   <p class="panel">While the Enneagram has gained recognition in psychology and personal development fields, it is not as extensively
   researched as other personality theories. However, some studies and anecdotal evidence support its usefulness in understanding personality
   patterns.</p>
 </details>
-
-
-
-
 
 <script>
   // if(process.browser){
@@ -351,7 +346,6 @@ previewHtml: ''
   //   }
   // }
 </script>
-
 
 <style lang="scss">
   .accordion {

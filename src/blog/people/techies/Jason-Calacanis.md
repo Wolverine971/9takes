@@ -135,7 +135,7 @@ Now, as we conclude this exploration, why not embark on your own? Connect with l
 Register for 9takes below today and begin your journey towards a deeper understanding of yourself and others. Will you take the plunge into the captivating universe of the Enneagram?
 
 <svelte:head>
-  
+
   <meta property="og:image" content="https://9takes.com/types/3s/Jason-Calacanis.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis">
   <script type="application/ld+json">

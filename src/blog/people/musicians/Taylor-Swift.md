@@ -18,12 +18,6 @@ tiktok: ''
 
 <!-- // notes:  -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/Taylor-Swift.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Taylor-Swift">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -113,8 +107,11 @@ In a world where perspectives are diverse and often conflicting, taking the time
 
 Join us at 9takes - a community that values the exploration of personalities and viewpoints. Together, let's uncover more about the intricate tapestry of personalities that surround us, one personality at a time. Sign up below ⬇️ and begin your journey of discovery today.
 
-<div>
-<script type="application/ld+json">
+<svelte:head>
+
+  <meta property="og:image" content="https://9takes.com/types/3s/Taylor-Swift.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Taylor-Swift">
+  <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@graph": [
@@ -235,7 +232,7 @@ Join us at 9takes - a community that values the exploration of personalities and
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

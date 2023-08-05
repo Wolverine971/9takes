@@ -1,5 +1,5 @@
 ---
-title: "The Enneagram and Religion: Exploring the Connections"
+title: 'The Enneagram and Religion: Exploring the Connections'
 description: "Explore the Enneagram's applications across various spiritual traditions and its use as a universal tool for self-understanding"
 author: 'DJ Wayne'
 date: '2023-08-05'
@@ -42,8 +42,6 @@ The Enneagram is a rich and multifaceted tool that can be used within various re
 
 In Christianity, the Enneagram has been adopted as a tool for spiritual growth. Richard Rohr, a Franciscan friar, has championed the Enneagram within Christian circles, seeing it as a way to better understand oneself and others, thereby facilitating personal and spiritual development. His Center for Action and Contemplation offers a host of resources, including online courses, articles, and books on the Enneagram from a Christian perspective. Here is [Rohr giving an into to the enneagram.](https://cac.org/daily-meditations/the-enneagram-an-introduction/)
 
-
-
 ### Sufism and the Enneagram's Origins
 
 Sufism, a mystical branch of Islam, has been often linked to the Enneagram. Although these connections remain speculative, the Enneagram symbol bears similarities to certain Sufi diagrams, and the teachings associated with the Enneagram echo Sufi spiritual practices. To explore these potential links, The Enneagram Journal is an excellent resource.
@@ -72,7 +70,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
 <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-and-religion">
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org/",
+    "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",

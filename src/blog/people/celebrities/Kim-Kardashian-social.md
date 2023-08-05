@@ -39,7 +39,7 @@ The 9takes Team
 
 ````
 const test = {
-		'@context': 'https://schema.org',
+		'@context': 'http://schema.org',
 		'@graph': [
 			{
 				'@type': 'Organization',

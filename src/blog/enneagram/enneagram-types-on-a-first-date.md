@@ -173,133 +173,131 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 As we unravel the final threads in this exploration, it should be different our expectations can be, particularly on something as personal as a first date. But remember, this is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Dive into our collection of other blogs to uncover more about your type and others. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
 
-
-
 <svelte:head>
-	<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-first-date.webp" />
-	<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date">
-	<script type="application/ld+json">
-		{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date"
-  },
-  "headline": "Enneagram Types on a first date",
-  "description": "What is each type thinking about and feeling. What do they do to prepare and what are red flags and good signals for each type.",
-  "image": {
-    "@type": "ImageObject",
-    "height": 800,
-    "url": {
-      "@id": "https://9takes.com/blogs/greek-statues-on-a-first-date.webp"
-    },
-    "width": 1200
-  },
-  "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-			{
-				"@id": "https://www.instagram.com/djwayne3/"
-			},
-			{
-				"@id": "https://twitter.com/djwayne3"
-			}
-		]
-  },
-  "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
-        },
-        "name": "9takes"
-  }
-  "datePublished": "2023-07-30",
-  "dateModified": "2023-07-30",
-  "mainEntity": {
-    "@type": "FAQPage",
-    "mainEntity": [
-	{
-      "@type": "Question",
-      "name": "How does an Enneagram Type 1, The Perfectionist, prepare for a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Perfectionist, with their strong desire for order and rightness, is a meticulous planner. They approach their first date with a clear set of expectations, perhaps even an ideal image of how it should go. They’re likely to spend a lot of time choosing the perfect location, and their thoughts are focused on making the best impression possible."
-      }
-    }, {
-      "@type": "Question",
-      "name": "What are the red flags and good signals for an Enneagram Type 2, The Helper, on a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Red Flags: Phrases that suggest selfishness or lack of empathy, like “I don’t care what others think,” can alarm a Type 2. They value interpersonal relationships and a considerate nature. Good Signals: Comments such as “Your kindness is touching” or “I love helping others too” indicate understanding and appreciation for the Helper’s caring nature, which they would find reassuring."
-      }
-    }, {
-      "@type": "Question",
-      "name": "How does an Enneagram Type 3, The Achiever, approach a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their accomplishments and ambitions without overwhelming their date."
-      }
-    }, {
-      "@type": "Question",
-      "name": "What are the red flags and good signals for an Enneagram Type 4, The Individualist, on a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Red Flags: Hearing “Why can’t you be more like others?” can be a significant deterrent for Type 4s. They value their uniqueness and any attempt to box them into societal norms can be off-putting. Good Signals: On the positive side, remarks such as “I admire your creativity” or “Your unique perspective is fascinating” can deeply resonate with them. These affirmations validate their individuality and emotional depth."
-      }
-    }, {
-      "@type": "Question",
-      "name": "How does an Enneagram Type 5, The Investigator, prepare for a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Investigator, known for their inquisitive nature and sharp intellect, sees a first date as an intriguing puzzle. Their thoughts likely involve understanding their date’s character, potential compatibility, and what interesting insights they might share."
-      }
-    },  {
-      "@type": "Question",
-      "name": "What are the red flags for an Enneagram Type 6 on a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Comments such as “I’m a free spirit, I don’t make plans” or “Rules are meant to be broken” can unsettle a Loyalist. Type 6s value security and dependability, and such a cavalier attitude might imply unreliability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does an Enneagram Type 7 approach a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure. Their thoughts are likely buzzing with the fun they’ll have, the stories they’ll share, and the potential joy this connection might bring."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the good signals for an Enneagram Type 8 on a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "On the other hand, phrases like “I admire your courage” or “I value straightforwardness too” can be perceived as good signals, as they align with their candid nature and desire for justice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does an Enneagram Type 9 prepare for a first date?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding. They likely spend time contemplating how to ensure a smooth, pleasant experience for both parties."
-      }
-    }
-	]
-  }
+<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-first-date.webp" />
+<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date">
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "BlogPosting",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date"
+},
+"headline": "Enneagram Types on a first date",
+"description": "What is each type thinking about and feeling. What do they do to prepare and what are red flags and good signals for each type.",
+"image": {
+"@type": "ImageObject",
+"height": 800,
+"url": {
+"@id": "https://9takes.com/blogs/greek-statues-on-a-first-date.webp"
+},
+"width": 1200
+},
+"author": {
+"@type": "Person",
+"name": "DJ Wayne",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://twitter.com/djwayne3"
+}
+]
+},
+"publisher": {
+"@type": "Organization",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/9takesdotcom/"
+},
+{
+"@id": "https://twitter.com/9takesdotcom"
+}
+],
+"logo": {
+"@type": "ImageObject",
+"url": {
+"@id": "https://9takes.com/brand/darkRubix.png"
+}
+},
+"name": "9takes"
+}
+"datePublished": "2023-07-30",
+"dateModified": "2023-07-30",
+"mainEntity": {
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"name": "How does an Enneagram Type 1, The Perfectionist, prepare for a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Perfectionist, with their strong desire for order and rightness, is a meticulous planner. They approach their first date with a clear set of expectations, perhaps even an ideal image of how it should go. They’re likely to spend a lot of time choosing the perfect location, and their thoughts are focused on making the best impression possible."
+}
+}, {
+"@type": "Question",
+"name": "What are the red flags and good signals for an Enneagram Type 2, The Helper, on a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Red Flags: Phrases that suggest selfishness or lack of empathy, like “I don’t care what others think,” can alarm a Type 2. They value interpersonal relationships and a considerate nature. Good Signals: Comments such as “Your kindness is touching” or “I love helping others too” indicate understanding and appreciation for the Helper’s caring nature, which they would find reassuring."
+}
+}, {
+"@type": "Question",
+"name": "How does an Enneagram Type 3, The Achiever, approach a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their accomplishments and ambitions without overwhelming their date."
+}
+}, {
+"@type": "Question",
+"name": "What are the red flags and good signals for an Enneagram Type 4, The Individualist, on a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Red Flags: Hearing “Why can’t you be more like others?” can be a significant deterrent for Type 4s. They value their uniqueness and any attempt to box them into societal norms can be off-putting. Good Signals: On the positive side, remarks such as “I admire your creativity” or “Your unique perspective is fascinating” can deeply resonate with them. These affirmations validate their individuality and emotional depth."
+}
+}, {
+"@type": "Question",
+"name": "How does an Enneagram Type 5, The Investigator, prepare for a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Investigator, known for their inquisitive nature and sharp intellect, sees a first date as an intriguing puzzle. Their thoughts likely involve understanding their date’s character, potential compatibility, and what interesting insights they might share."
+}
+}, {
+"@type": "Question",
+"name": "What are the red flags for an Enneagram Type 6 on a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Comments such as “I’m a free spirit, I don’t make plans” or “Rules are meant to be broken” can unsettle a Loyalist. Type 6s value security and dependability, and such a cavalier attitude might imply unreliability."
+}
+},
+{
+"@type": "Question",
+"name": "How does an Enneagram Type 7 approach a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure. Their thoughts are likely buzzing with the fun they’ll have, the stories they’ll share, and the potential joy this connection might bring."
+}
+},
+{
+"@type": "Question",
+"name": "What are the good signals for an Enneagram Type 8 on a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "On the other hand, phrases like “I admire your courage” or “I value straightforwardness too” can be perceived as good signals, as they align with their candid nature and desire for justice."
+}
+},
+{
+"@type": "Question",
+"name": "How does an Enneagram Type 9 prepare for a first date?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding. They likely spend time contemplating how to ensure a smooth, pleasant experience for both parties."
+}
+}
+]
+}
 }
 </script>
 

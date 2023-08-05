@@ -436,7 +436,7 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-stress">
   <script type="application/ld+json">
     {
-  "@context": "https://schema.org",
+  "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "Enneagram Types in Stress",
   "description": "Navigating Stress: How each Enneagram type responds to the uncomfortable",

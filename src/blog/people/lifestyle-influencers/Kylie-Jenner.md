@@ -108,7 +108,7 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
 <div>
 <script type="application/ld+json">
   {
-  "@context": "http://schema.org/",
+  "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",
