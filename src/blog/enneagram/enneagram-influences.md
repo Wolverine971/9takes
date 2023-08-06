@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
-</svelte:head>
-
 <p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 
 <p  style="text-align: center;">
@@ -74,6 +68,103 @@ Another school of thought when it comes to the Enneagram is the integrative trad
 ## Wrapping Up
 
 In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual growth that has evolved over time through the contributions of different schools of thought. The Sufi tradition, Gurdjieff's work, Ichazo's teachings, and Naranjo's legacy have all influenced the development of the Enneagram as we know it today. Moreover, ancient philosophy and early psychology have also contributed to the Enneagram's evolution. Modern interpretations of the Enneagram, such as the Narrative Tradition, provide insight into the Enneagram's nine personality types and how they relate to personal growth and relationships. These different schools of thought show that people have been circling around and wrestling with these ideas for a long time and there is so much to discover.
+
+
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
+   <script type="application/ld+json">
+	{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type. Over the centuries, different schools of thought have contributed to the development of the Enneagram, including the Sufi tradition, Gurdjieff's work, Oscar Ichazo's teachings, and Claudio Naranjo's legacy. The article also discusses the influence of ancient philosophy and early psychology on the Enneagram, as well as modern interpretations such as the Narrative Tradition and the Integrative Tradition.",
+      "author": {
+			"@type": "Person",
+			"name": "DJ Wayne",
+			"sameAs": [
+			{
+				"@id": "https://www.instagram.com/djwayne3/"
+			},
+			{
+				"@id": "https://twitter.com/djwayne3"
+			}
+			]
+		},
+      "dateModified": "2023-07-11",
+      "datePublished": "2023-03-02",
+      "description": "This blog post explores the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.",
+      "headline": "Enneagram Influences: Differing Traditions and Schools of Thought",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-influences",
+        "@type": "WebPage"
+      },
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "George Gurdjieff",
+          "sameAs": ["https://cac.org/daily-meditations/gurdjieff-and-the-enneagram-2020-03-02/", "https://en.wikipedia.org/wiki/George_Gurdjieff"]
+        },
+        {
+          "@type": "Person",
+          "name": "Oscar Ichazo",
+		  "sameAs": ["https://en.wikipedia.org/wiki/Oscar_Ichazo", "https://www.arica.org/oscar-ichazo"]
+        },
+        {
+          "@type": "Person",
+          "name": "Claudio Naranjo",
+		  "sameAs": ["https://en.wikipedia.org/wiki/Claudio_Naranjo", "https://www.claudionaranjo.net/home.html"]
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth."
+          },
+          "name": "What is the origin of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Over the centuries, different schools of thought have contributed to the development of the Enneagram, including the Sufi tradition, Gurdjieff's work, Oscar Ichazo's teachings, and Claudio Naranjo's legacy."
+          },
+          "name": "Who are the key figures in the development of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram consists of a circle with nine equidistant points, each representing a personality type. It is used as a tool for self-discovery and spiritual growth."
+          },
+          "name": "What is the structure of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The article discusses the influence of ancient philosophy and early psychology on the Enneagram, as well as modern interpretations such as the Narrative Tradition and the Integrative Tradition."
+          },
+          "name": "What are some modern interpretations of the Enneagram?"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</svelte:head>
 
 <style >
 

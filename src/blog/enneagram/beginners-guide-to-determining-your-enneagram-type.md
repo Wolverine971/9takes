@@ -13,11 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">
-</svelte:head>
 <!-- Take a free, ~5 min test here -->
 
 <p class="firstLetter"> Ever felt misunderstood or puzzled by your own behavior? The Enneagram can help clarify this by offering a framework for understanding your actions. </p>
@@ -184,3 +179,86 @@ In the next section, we will delve deeper into each enneagram type, their core e
 You now have a tool to better understand your thought patterns, emotions, and behaviors. Use what serves you, and disregard what does not but maybe come back to it later. It's not just about personal development; it's also about understanding others and having empathy in understanding how they became who they are.
 
 If you found this guide helpful I invite you to join 9takes where we delve deeper into the Enneagram. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3) and let me know what you think!
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">
+  <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article provides a beginner's guide to determining your Enneagram type. It explains the concept of the Enneagram, a personality system that identifies types based on coping mechanisms developed due to unresolved childhood traumas. The article outlines steps to determine your Enneagram type, including identifying your core emotion, understanding the connection between emotions and centers of intelligence, and considering your childhood wounds. It also provides an overview of each Enneagram type and their core emotions and childhood wounds.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": "2023-03-11",
+      "datePublished": "2023-03-11",
+      "description": "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
+      "headline": "The Beginner's Guide to Determining Your Enneagram Type",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The first step in identifying your enneagram type is to understand the three core emotions that form your type: anger, fear, and shame. Then, understand the connection between these emotions and centers of intelligence. After that, identify your type and consider your childhood wounds."
+          },
+          "name": "How can I determine my Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type has a core emotion and a childhood wound associated with it. For example, Type 1, The Perfectionist, has anger as the core emotion and often felt disconnected from the protective figure in their life as their childhood wound."
+          },
+          "name": "What are the core emotions and childhood wounds of Enneagram types?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram can be a journey of self-discovery and it may take time to fully understand your type. Be patient with yourself and the process."
+          },
+          "name": "How long does it take to determine my Enneagram type?"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</svelte:head>

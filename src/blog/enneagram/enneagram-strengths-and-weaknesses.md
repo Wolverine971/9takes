@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
-</svelte:head>
-
 <script>
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
@@ -147,7 +141,10 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 Hope this was helpful for understanding your strengths and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -158,7 +155,7 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
@@ -238,4 +235,4 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   ]
 }
 </script>
-<div>
+</svelte:head>

@@ -4,7 +4,7 @@ description: 'Questions and answers inspired by the Enneagram'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'
-lastmod: '2023-06-17'
+lastmod: '2023-08-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -75,7 +75,6 @@ These will all provide answers to your questions. But they are looking for the s
 
 Questions can be anything from simple to complex, timeless to basic. But we are all searching for answers to our questions and 9takes will be the place to ask questions.
 
-
 ## Back to what makes 9takes different
 
 ### Why you cannot see the answers to the questions until you post?
@@ -88,16 +87,13 @@ Users are anonymous so that they can be honest about their true thoughts, feelin
 
 ### What do you mean a user is identified by their personality?
 
-When you answer a question your selected "personality" is displayed next to your answer. The personality system 9takes uses is the Enneagram. The Enneagram is a personality system where human psychology and philosophy meet and there are many reasons why it has been selected as the preferred personality system. 
+When you answer a question your selected "personality" is displayed next to your answer. The personality system 9takes uses is the Enneagram. The Enneagram is a personality system where human psychology and philosophy meet and there are many reasons why it has been selected as the preferred personality system.
 
-**But why are users identified by their personality?** People of the same personality or same Enneagram type will see the world similarly. This presents an opportunity to distinguish between similar and different perspectives or takes on a question. If 10 people of the same personality type answer a question, you are not going to be getting many new perspectives because they are all the same personality. However if 10 people of different personalities answer the question, you will have some significant differences in perspectives. Even if 10 people answering the same question it will be interesting. Theoretically there will be some common thread between people of the same personality types but the variations are the important bits. 
+**But why are users identified by their personality?** People of the same personality or same Enneagram type will see the world similarly. This presents an opportunity to distinguish between similar and different perspectives or takes on a question. If 10 people of the same personality type answer a question, you are not going to be getting many new perspectives because they are all the same personality. However if 10 people of different personalities answer the question, you will have some significant differences in perspectives. Even if 10 people answering the same question it will be interesting. Theoretically there will be some common thread between people of the same personality types but the variations are the important bits.
 
 ## 9takes allows for nuance
 
 In a world where absolutes and fact checking we forget that many of the things we are searching for don't have black and white answers. 9takes invites users to explore different takes on questions because there is not just one right perspective. There is a kaleidoscope of different takes and diamonds in the rough waiting to be uncovered.
-
-
-
 
  <!-- But most of our time on the internet is spent searching for the answers to our 
 However all  -->
@@ -105,7 +101,7 @@ However all  -->
 <!-- the first step for doing everything. Determining that the world revolved around the sun started out by questioning the status quo
 
 When we search something on google, yes we often type in phrases, but we are asking a questions and looking for answers. "Where is this, how do I that, what is the best blank..." Google tries to serve you something accurate. But that accuracy is based on inferring the underlying question and matching it to statistically relevant data it already has. There is a lot of room for error in that equation and there is so much information that Google doen -->
-<!-- 
+<!--
 Through the prism of the Enneagram's nine unique archetypes, 9takes fosters a dynamic and diverse community that values the richness of individual perspectives. It upholds the idea that every question has not one but many answers, each uniquely tinted by the personality of the respondent.
 
 9takes takes us beyond the binary, into a realm where conversations blossom with authentic voices, unbiased by the opinions of others. Where we can see and appreciate the patterns and divergences in how different personality types approach the same question. In this beautifully intricate tapestry of human connection, every thread matters, every 'take' counts.

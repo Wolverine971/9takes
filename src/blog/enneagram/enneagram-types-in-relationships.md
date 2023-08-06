@@ -193,6 +193,7 @@ There are near infinite possibilities for how a person can think, feel and behav
 If you liked this checkout [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-date.webp" />
 <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
 <script type="application/ld+json">

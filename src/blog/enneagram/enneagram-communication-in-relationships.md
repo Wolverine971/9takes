@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-in-relationships">
-</svelte:head>
-
 <p class="firstLetter">People don't talk like you. At least not everyone. Because everyone has their own unique worldview, motivations, and fears it follows that everyone's communication styles differ as well. If you look at the Enneagram it is not just about self-discovery; it can also be used to improve communication there by improving intimacy in relationships. Lets explore some tips and how you can use the Enneagram to enhance your relationships and create deeper connections with your loved ones.</p>
 
 ## General tips for Using the Enneagram in Relationships
@@ -143,3 +137,133 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 **Imaginary scenario**: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the sense of peace and harmony it brings to their life.
 
 Time for the obligatory reminder that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a tool for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-in-relationships">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@graph": [
+        {
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/blog/enneagram/enneagram-communication-in-relationships"
+      },
+      "headline": "Enneagram Communication in Relationships",
+      "description": "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+      "datePublished": "2023-03-26",
+      "dateModified": "2023-03-26"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 1: The Perfectionist need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 2: The Helper need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Twos need emotional connection, support, and nurturing. They appreciate partners who are attentive, caring, and show their love through actions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 3: The Achiever need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Threes need recognition, success, and achievement. They appreciate partners who are supportive of their goals and who are driven and ambitious themselves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 4: The Individualist need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fours need emotional depth, authenticity, and uniqueness. They appreciate partners who are sensitive, creative, and who share their values and passions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 5: The Investigator need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fives need knowledge, independence, and privacy. They appreciate partners who are respectful of their need for alone time and intellectual pursuits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 6: The Loyalist need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sixes need security, loyalty, and responsibility. They appreciate partners who are reliable, trustworthy, and who provide a sense of stability and safety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 7: The Enthusiast need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sevens need adventure, spontaneity, and variety. They appreciate partners who are fun-loving, open-minded, and who share their sense of excitement and curiosity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 8: The Challenger need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Eights need control, power, and strength. They appreciate partners who are independent, confident, and who can stand up to them when necessary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do Enneagram Type 9: The Peacemaker need in a relationship?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nines need harmony, peace, and balance. They appreciate partners who are calm, patient, and who can help them find a sense of tranquility in their lives."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</svelte:head>

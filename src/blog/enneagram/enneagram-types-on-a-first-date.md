@@ -174,6 +174,7 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 As we unravel the final threads in this exploration, it should be different our expectations can be, particularly on something as personal as a first date. But remember, this is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Dive into our collection of other blogs to uncover more about your type and others. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-first-date.webp" />
 <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date">
 <script type="application/ld+json">

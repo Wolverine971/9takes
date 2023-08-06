@@ -33,11 +33,115 @@ Lastly, the Enneagram can help create a more supportive and empathetic work envi
 
 Time for the obligatory that bettering team dynamics and overall productivity is a complex task and the Enneagram should be used as a tool. When seeking to build strong teams the Enneagram can provide helpful insights into a team's dynamics and provide a glimpse of what it would look like to unlock the full potential of individuals in a team.
 
-
 <svelte:head>
 
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
   <script type="application/ld+json">
-
+    {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "The Enneagram can be a powerful tool for improving team dynamics. By identifying the strengths and weaknesses of each team member theoretically you can increase productivity. A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets. The Enneagram can also play a crucial role in improving communication among team members. One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. Lastly, the Enneagram can help create a more supportive and empathetic work environment.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-04-01"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-04-01"
+      },
+      "description": "Using the Enneagram to improve team dynamics and productivity",
+      "headline": "Enneagram Team Dynamics",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
+          "@id": "https://9takes.com/brand/darkRubix.png"
+        },
+        "width": 1200
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-team-dynamics",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram can be a powerful tool for improving team dynamics. By identifying the strengths and weaknesses of each team member theoretically you can increase productivity. A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets."
+          },
+          "name": "How can the Enneagram improve team dynamics?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram can play a crucial role in improving communication among team members. By understanding the communication styles and preferences of different types, team members can better tailor their messages to avoid misunderstandings."
+          },
+          "name": "How can the Enneagram improve team communication?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. By identifying areas for improvement, team members can create individual development plans and set goals to enhance their performance."
+          },
+          "name": "How can the Enneagram facilitate personal and professional growth in a team setting?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram can help create a more supportive and empathetic work environment. By understanding the motivations and fears of their colleagues, team members can develop a greater sense of empathy and appreciation for one another."
+          },
+          "name": "How can the Enneagram create a supportive and empathetic work environment?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets. By considering the Enneagram types of potential team members, managers can build balanced and diverse teams that can tackle complex challenges more effectively."
+          },
+          "name": "How can the Enneagram contribute to building balanced and diverse teams?"
+        }
+      ]
+    }
+  ]
+}
 </script>
 </svelte:head>

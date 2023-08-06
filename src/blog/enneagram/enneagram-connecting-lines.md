@@ -13,11 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-connecting-lines">
-</svelte:head>
 <!-- Take a free, ~5 min test here -->
 
 <p class="firstLetter">The Enneagram is not just a static model of nine personality types. It is a dynamic system that shows how we change under different circumstances. One of the most fascinating aspects of the Enneagram is the concept of connecting lines, which represent the paths of integration (growth) and disintegration (stress). In this blog post, we'll delve into these dynamics and provide examples of how each type might look in growth and in stress.</p>
@@ -85,3 +80,10 @@ Stress (Type 6): Under stress, Nines may become anxious and suspicious, like unh
 ## Conclusion
 
 Understanding the dynamics of the Enneagram can provide valuable insights into our behaviors and how they change under different circumstances. It can help us navigate our paths of growth and manage our stress responses more effectively. Remember, the Enneagram is not just about identifying our type, but also about understanding the dynamic nature of our personalities and using this understanding for personal growth and improved relationships.
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-connecting-lines">
+  <script type="application/ld+json">
+</script>
+</svelte:head>

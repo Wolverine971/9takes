@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Criticisms'
-description: 'Common criticisms of the enneagram'
+description: 'Common criticisms of the enneagram and potential criticisms of 9takes'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
-lastmod: '2023-06-24'
+lastmod: '2023-08-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -13,15 +13,10 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-criticisms">
-</svelte:head>
 <!--
 Enneagram Criticisms (200 words)
   Common criticisms of the Enneagram system
-  Responses to these criticisms 
+  Responses to these criticisms
   -->
 
 <!-- <h2>Enneagram FAQs</h2> -->
@@ -57,7 +52,7 @@ Enneagram Criticisms (200 words)
 </details>
 <details>
   <summary class="accordion">"Identifying one's own Enneagram type can be quite subjective, which may lead to inaccurate or inconsistent results."</summary>
-  <div class="panel" style="margin: 16px 0"><p>Indeed, self-typing can be a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate.</p></div>
+  <div class="panel" style="margin: 16px 0"><p>Yes, self-typing is a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate. Over time your sense of self becomes clearer</p></div>
   <!-- Perhaps, implementing a more comprehensive and guided questionnaire could help users accurately identify their Enneagram type. -->
 </details>
 <details>
@@ -67,7 +62,7 @@ Enneagram Criticisms (200 words)
 </details>
 <!-- More sections can be added in the same format -->
 <details>
-  <summary class="accordion">"The platform is created and managed by a single individual, which may limit the range of perspectives."</summary>
+  <summary class="accordion">"The 9takes platform is created and managed by a single individual, which may limit the range of perspectives."</summary>
   <div class="panel" style="margin: 16px 0"><p>It's true that having a single creator could lead to a limited perspective. However, this concern can be mitigated as the platform grows, and more diverse voices join the community.</p></div>
   <!-- Actively seeking out team members from diverse backgrounds to contribute to the platform could also help to ensure a broad range of perspectives. -->
 </details>
@@ -79,27 +74,22 @@ Enneagram Criticisms (200 words)
 
 <details>
   <summary class="accordion">"The value of 9takes depends heavily on active user participation."</summary>
-  <div class="panel" style="margin: 16px 0"><p>The dependency on user participation is a characteristic of all social platforms. In fact, the level of engagement from users often determines the vibrancy and relevance of such platforms.</p></div>
+  <div class="panel" style="margin: 16px 0"><p>All social platforms depend on user participation. This is not a unique risk to 9takes.</p></div>
   <!-- To encourage active participation, the platform could implement features such as rewards for regular engagement or recognition for high-quality contributions. -->
 </details>
 <details>
-  <summary class="accordion">"The platform's focus on the Enneagram may limit its appeal to those unfamiliar with or skeptical of the system."</summary>
-  <div class="panel" style="margin: 16px 0"><p>The focus on the Enneagram, while potentially limiting to some, also serves as a unique selling point for individuals interested in self-discovery and understanding others.</p></div>
+  <summary class="accordion">"9takes's focus on the Enneagram may limit its appeal to those unfamiliar with or skeptical of the system."</summary>
+  <div class="panel" style="margin: 16px 0"><p>Yes the focus on the Enneagram might while seem limiting. However the Enneagram brings together psychology and philosophy and its ideas continue to be touched in many areas in society. 9takes is betting that the Enneagram will one day be in the common vernacular.</p></div>
   <!-- To widen the appeal, the platform could create introductory content to attract users who are unfamiliar with the Enneagram, showcasing its potential for fostering understanding and empathy. -->
 </details>
 <details>
   <summary class="accordion">"The 9takes platform criticizes the binary labeling of decisions as rational or irrational, yet it itself categorizes people into nine types."</summary>
-  <div class="panel" style="margin: 16px 0"><p>The categorization of personality types on 9takes is not about labeling decisions as rational or irrational, but rather, understanding the motivations and perspectives behind them.</p></div>
+  <div class="panel" style="margin: 16px 0"><p>The categorization of personality types on 9takes is about finding similarities and differences. This attention to personality helps foster conversations around understanding a person's motivations and perspectives.</p></div>
   <!-- A key improvement could be to ensure that the platform's communication emphasizes understanding, empathy and the value of diversity over binary labels. -->
 </details>
 <details>
-  <summary class="accordion">"As the Enneagram is often used in therapeutic contexts, the lack of professional psychologists or therapists involved with 9takes could be a concern."</summary>
-  <div class="panel" style="margin: 16px 0"><p>While this point is valid, it's important to clarify that the 9takes platform is not intended as a replacement for professional therapy, but as a space for personal growth and understanding.</p></div>
-  <!-- Collaborating with mental health professionals to provide guidance and oversight could be a beneficial step forward. -->
-</details>
-<details>
   <summary class="accordion">"Without demographic data, it's difficult to assess if the views expressed represent a diverse range of perspectives."</summary>
-  <div class="panel" style="margin: 16px 0"><p>The decision to not collect demographic data is a deliberate one, made to ensure equal participation without the risk of bias.</p></div>
+  <div class="panel" style="margin: 16px 0"><p>Diverse perspectives are not limited to demographic data such as race, gender, and age. Paying special attention to demographics can be a false positive indicator of diverse perspectives. Therefore the decision to not collect demographic data is a deliberate one.</p></div>
   <!-- One possible solution could be to conduct voluntary surveys to collect demographic data, ensuring users' privacy is respected. -->
 </details>
 <details>
@@ -146,24 +136,110 @@ Enneagram Criticisms (200 words)
  </p></div>
 </details> -->
 
-<script>
-  // if(process.browser){
-  //   var acc = document.getElementsByClassName("accordion");
-  //   var i;
+<svelte:head>
 
-  //   for (i = 0; i < acc.length; i++) {
-  //     acc[i].addEventListener("click", function () {
-  //       this.classList.toggle("active");
-  //       var panel = this.nextElementSibling;
-  //       if (panel.style.display === "block") {
-  //         panel.style.display = "none";
-  //       } else {
-  //         panel.style.display = "block";
-  //       }
-  //     });
-  //   }
-  // }
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-criticisms">
+  <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article discusses common criticisms of the Enneagram. It covers a range of issues, including the lack of empirical validation, the risk of oversimplification, and the potential for creating echo chambers. It also addresses concerns about the 9takes platform, such as the lack of professional psychologists or therapists involved, the potential for harmful content or behavior, and the lack of clear information about moderation policies.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-08-06"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-02-10"
+      },
+      "description": "The article presents common criticisms of the Enneagram and the 9takes platform. It discusses issues such as the lack of empirical validation, the risk of oversimplification, and the potential for creating echo chambers.",
+      "headline": "Enneagram Criticisms",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-criticisms",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram lacks empirical validation and is not widely accepted in the field of psychology. Identifying one's own Enneagram type can be quite subjective, which may lead to inaccurate or inconsistent results."
+          },
+          "name": "What are some criticisms of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By assigning people to specific Enneagram types, there's a risk of oversimplification and stereotyping. The platform is created and managed by a single individual, which may limit the range of perspectives."
+          },
+          "name": "What are the limitations of the Enneagram?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 9takes platform criticizes the binary labeling of decisions as rational or irrational, yet it itself categorizes people into nine types. As the Enneagram is often used in therapeutic contexts, the lack of professional psychologists or therapists involved with 9takes could be a concern."
+          },
+          "name": "What are some criticisms of the 9takes platform?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Without demographic data, it's difficult to assess if the views expressed represent a diverse range of perspectives. The ability to sort comments by personality type could potentially create echo chambers, where users mainly interact with similar-minded individuals."
+          },
+          "name": "What are the potential issues with the 9takes platform?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The website does not provide clear information about moderation policies to handle harmful content or behavior. The website does not provide information about how it intends to sustain itself financially."
+          },
+          "name": "What are some concerns about the 9takes platform?"
+        }
+      ]
+    }
+  ]
+}
 </script>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

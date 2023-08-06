@@ -72,7 +72,6 @@
 				<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
 			</p>
 		</div>
-		<!-- <p>More to come...</p> -->
 		<!-- <p>
 						To find and connect with people that think, feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.

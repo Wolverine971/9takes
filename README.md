@@ -58,9 +58,10 @@ magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 1
 cwebp "greek-statue-listening-to-a-podcast.png" -o "greek-statue-listening-to-a-podcast.webp"
 cwebp -sns 70 -f 50 -size 20000 "greek-statue-listening-to-a-podcast.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-greek-statue-listening-to-a-podcast.webp"
 
-
 ### fix image size
+
 https://www.youtube.com/watch?v=fp9eVtkQ4EA
+
 <!--
 ## transitions
 https://www.youtube.com/watch?v=ecP8RwpkiQw

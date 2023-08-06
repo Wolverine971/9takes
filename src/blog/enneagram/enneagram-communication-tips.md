@@ -14,11 +14,6 @@ previewHtml: ''
 pic: 'greek-statues-arguing'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/blogs/greek-statues-arguing.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
-</svelte:head>
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -135,3 +130,135 @@ Type 9s are peaceful, easy-going, and accommodating. They have a strong desire f
 ## Wrapping up
 
 Effective communication is key to building strong relationships with others, and understanding each Enneagram type's communication style can be incredibly helpful. By tailoring your communication to each type's unique needs and tendencies, you can build rapport, trust, and understanding with those around you. Remember, communication is a two-way street, so be sure to also communicate your own needs and preferences clearly to others. With practice and intentionality, you can communicate more effectively with each Enneagram type and build stronger, healthier relationships in all areas of your life. Checkout this article for a deeper dive into <a href="enneagram-communication-tips" >communication styles.</a>
+
+<svelte:head>
+
+<meta property="og:image" content="https://9takes.com/blogs/greek-statues-arguing.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+  "@graph": [
+  {
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/blog/enneagram/enneagram-communication-tips"
+  },
+  "headline": "Enneagram Communication Tips",
+  "image": "https://9takes.com/brand/darkRubix.png",
+  "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+  "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+  "datePublished": "2023-02-27",
+  "dateModified": "2023-04-17",
+  "description": "This article provides communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types."
+  },
+  {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be direct and clear in your communication. Provide constructive feedback in a supportive way. Emphasize how their actions align with their values and principles. Avoid being overly critical or nitpicky. Encourage them to relax and have fun."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 2?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Show appreciation for their help and support. Give them opportunities to be of service to others. Be empathetic and listen actively. Avoid being too critical or dismissive of their emotions. Encourage them to take care of themselves and set boundaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 3?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be clear and concise in your communication. Provide opportunities for them to showcase their talents and abilities. Emphasize the impact of their work on the organization. Avoid micromanaging or overly controlling them. Encourage them to take breaks and rest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be sensitive and empathetic to their emotions. Encourage them to express themselves creatively. Avoid being too critical or dismissive of their feelings. Validate their unique perspective and individuality. Help them see the positive aspects of a situation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 5?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Respect their need for privacy and independence. Give them time to process information and formulate their thoughts. Avoid being overly emotional or intrusive. Emphasize the practical implications of a situation. Encourage them to share their knowledge and expertise."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 6?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provide reassurance and support. Be consistent and reliable in your communication. Avoid being overly critical or dismissive of their fears and concerns. Help them see the positive aspects of a situation. Encourage them to make decisions and take action."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 7?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provide opportunities for them to explore new ideas and possibilities. Be upbeat and positive in your communication. Encourage them to stay focused and finish tasks. Avoid being too critical or negative. Help them balance their desire for adventure with their responsibilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 8?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be direct and assertive in your communication. Respect their need for control and autonomy. Avoid being passive or indecisive. Encourage them to see different perspectives and be open to feedback. Help them understand the impact of their actions on others."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should one communicate with Enneagram Type 9?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Be patient and understanding in your communication. Provide opportunities for them to express their opinions and feelings. Avoid being too pushy or aggressive. Encourage them to speak up and assert themselves. Help them make decisions and set boundaries."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</svelte:head>
