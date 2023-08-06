@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
-</svelte:head>
-
 <p class="firstLetter">The Enneagram can be a powerful tool for improving team dynamics. By identifying the strengths and weaknesses of each team member theoretically you can increase productivity. For example, a Type 2 (The Helper) might excel at providing support and encouragement to others, while a Type 5 (The Investigator) may bring a strong analytical perspective. By understanding these strengths and weaknesses, team leaders can strategically allocate tasks and responsibilities to maximize efficiency and performance. Learn more about <a href="enneagram-strengths-and-weaknesses" >strengths and weaknesses here</a>.</p>
 
 ### Building Balanced and Diverse Teams
@@ -38,3 +32,12 @@ One of the greatest benefits of using the Enneagram in a team setting is its abi
 Lastly, the Enneagram can help create a more supportive and empathetic work environment. By understanding the motivations and fears of their colleagues, team members can develop a greater sense of empathy and appreciation for one another. For example, knowing that a Type 6 (The Loyalist) seeks security and reassurance can help team members offer support during times of uncertainty or change. This mutual understanding and support can significantly improve team dynamics and productivity. For more on how each type <a href="enneagram-types-working-in-teams" >works in a team check this out</a>.
 
 Time for the obligatory that bettering team dynamics and overall productivity is a complex task and the Enneagram should be used as a tool. When seeking to build strong teams the Enneagram can provide helpful insights into a team's dynamics and provide a glimpse of what it would look like to unlock the full potential of individuals in a team.
+
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
+  <script type="application/ld+json">
+
+</script>
+</svelte:head>

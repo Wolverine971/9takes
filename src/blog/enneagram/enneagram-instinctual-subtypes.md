@@ -140,11 +140,11 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-05-28T00:00:00-07:00"
+    "@value": "2023-05-28"
   },
   "datePublished": {
     "@type": "Date",
-    "@value": "2023-03-01T00:00:00-07:00"
+    "@value": "2023-03-01"
   },
   "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
   "headline": "Understanding Enneagram Instinctual Subtypes",

@@ -51,13 +51,16 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 <https://github.com/srmullen/sveltekit-stripe/blob/main/src/routes/index.svelte>
 
-### change color of photos
+### change color of images
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
 cwebp "greek-statue-listening-to-a-podcast.png" -o "greek-statue-listening-to-a-podcast.webp"
 cwebp -sns 70 -f 50 -size 20000 "greek-statue-listening-to-a-podcast.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-greek-statue-listening-to-a-podcast.webp"
 
+
+### fix image size
+https://www.youtube.com/watch?v=fp9eVtkQ4EA
 <!--
 ## transitions
 https://www.youtube.com/watch?v=ecP8RwpkiQw

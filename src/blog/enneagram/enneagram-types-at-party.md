@@ -154,11 +154,11 @@ Each type has its unique characteristics and motivations for attending the party
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-07-31T00:00:00-07:00"
+    "@value": "2023-07-31"
   },
   "datePublished": {
     "@type": "Date",
-    "@value": "2023-02-17T00:00:00-07:00"
+    "@value": "2023-02-17"
   },
   "description": "Discover are different types doing, thinking, feeling at a party.",
   "headline": "Enneagram Types at a Party: How Each Type Behaves",

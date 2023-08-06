@@ -262,11 +262,11 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-07-31T00:00:00-07:00"
+    "@value": "2023-07-31"
   },
   "datePublished": {
     "@type": "Date",
-    "@value": "2023-02-17T00:00:00-07:00"
+    "@value": "2023-02-17"
   },
   "image": {
     "@type": "ImageObject",

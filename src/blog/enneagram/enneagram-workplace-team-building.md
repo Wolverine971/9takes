@@ -124,11 +124,11 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 },
 "dateModified": {
 "@type": "Date",
-"@value": "2023-03-01T00:00:00-07:00"
+"@value": "2023-03-01"
 },
 "datePublished": {
 "@type": "Date",
-"@value": "2023-03-17T00:00:00-07:00"
+"@value": "2023-03-17"
 },
 "description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
 "headline": "Using the Enneagram for Team Building and Leadership Development",
