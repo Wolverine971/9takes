@@ -39,6 +39,8 @@
 	font-family: var(--font-body);
 	color: var(--color-text);
 
+	--hover-background-cover: var(--color-bg-1);
+
 	/* --primary: 
 	--secondary: */
 }

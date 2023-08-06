@@ -71,6 +71,27 @@
 				A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
 				<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
 			</p>
+			<ul style="text-align: left;">
+				<li>
+					<a href="/blog/community/introducing-9takes">How is 9takes different?</a>
+				</li>
+				<li>
+					<a href="/blog/community/inspiration-for-9takes">What is the inspiration for 9takes?</a>
+				</li>
+				<li>
+					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
+						>Why the <span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span
+						>?</a
+					>
+				</li>
+				<li>
+					<a href="blog/enneagram/enneagram-tldr"
+						>What is the <span style="text-shadow: .5px .5px blue;" title="secret sauce"
+							>Enneagram</span
+						>?</a
+					>
+				</li>
+			</ul>
 		</div>
 		<!-- <p>
 						To find and connect with people that think, feel and act like you do. The bet is that
@@ -214,12 +235,19 @@
 		list-style: none;
 	}
 	li {
-		margin-left: 1rem;
+		margin: 0.5rem;
 		word-break: normal;
 	}
 	a {
 		color: #333;
 		text-decoration: none;
+		margin: 0.5rem;
+		padding: 0.5rem;
+
+		&:hover {
+			background-color: #d8e2eb;
+			border-radius: 5px;
+		}
 	}
 	p {
 		word-break: normal;
