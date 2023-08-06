@@ -122,13 +122,23 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     "type": "WebPage"
   },
   "publisher": {
-    "type": "Organization",
-    "logo": {
-      "type": "ImageObject",
-      "url": "https://9takes.com/brand/darkRubix.png"
-    },
-    "name": "9takes"
-  }
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+    }
 }
 </script>
 </div>
