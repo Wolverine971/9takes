@@ -2,6 +2,7 @@ import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 
 import type { PageServerLoad } from './$types';
+import { notifications } from '$lib/components/molecules/notifications';
 
 export const load: PageServerLoad = async (event) => {
 	return {
@@ -21,11 +22,14 @@ export const actions: Actions = {
 		);
 
 		if (resetError) {
+			notifications.error('failure', 3000);
 			console.log(resetError);
 			return fail(500, {
-				error: 'Server error. Please try again later.'
+				error: 'Server error. Please try again later.',
+				data: resetError
 			});
 		}
+		notifications.info('Success', 3000);
 		redirect(300, '/login');
 	}
 };

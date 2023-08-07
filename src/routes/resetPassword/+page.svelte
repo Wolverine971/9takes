@@ -3,6 +3,7 @@
 	// import { enhance, type SubmitFunction } from '$app/forms';
 
 	export let data: PageData;
+	console.log(data);
 
 	let password = '';
 </script>
@@ -10,8 +11,8 @@
 <div>
 	<h1>Reset password</h1>
 	<form action="?/resetPassword" method="POST" class="auth-form">
-		<label for=""> Email </label>
-		<input type="text" name="email" readonly value={data?.session?.user?.email} />
+		<!-- <label for=""> Email </label>
+		<input type="text" name="email" readonly value={data?.session?.user?.email} /> -->
 		<label for=""> Password </label>
 		<input type="password" name="password" bind:value={password} />
 		<button class="btn btn-primary" type="button">Reset</button>
