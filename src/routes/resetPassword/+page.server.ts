@@ -11,7 +11,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	resetPassword: async ({ request, locals }) => {
+	resetPass: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
 
 		const { data, error: resetError } = await locals.sb.auth.updateUser(
