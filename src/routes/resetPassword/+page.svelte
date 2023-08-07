@@ -1,37 +1,20 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	// import { enhance, type SubmitFunction } from '$app/forms';
-	import { supabase } from '$lib/supabase';
-	import { redirect } from '@sveltejs/kit';
-	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: PageData;
 
 	let password = '';
-	const reset = async ({}) => {
-		const { data, error: resetError } = await supabase.auth.updateUser({ password });
-
-		if (resetError) {
-			if (resetError?.msg) {
-				console.log(resetError?.msg);
-			}
-			console.log(resetError);
-			notifications.danger('Error Changeing Password', 3000);
-		} else if (data) {
-			redirect(300, 'questions');
-			notifications.success('Password Changed', 3000);
-		}
-	};
 </script>
 
 <div>
 	<h1>Reset password</h1>
-	<form action="?/register" method="POST" class="auth-form">
+	<form action="?/resetPassword" method="POST" class="auth-form">
 		<label for=""> Email </label>
 		<input type="text" name="email" readonly value={data?.session?.user?.email} />
 		<label for=""> Password </label>
 		<input type="password" name="password" bind:value={password} />
-		<button class="btn btn-primary" type="button" on:click={reset}>Reset</button>
+		<button class="btn btn-primary" type="button">Reset</button>
 	</form>
 </div>
 

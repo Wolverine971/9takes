@@ -1,12 +1,12 @@
-import { fail, redirect } from '@sveltejs/kit';
-import type { Actions, PageServerLoad } from '../sverdle/$types';
+import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { AuthApiError } from '@supabase/supabase-js';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
 	const session = await getServerSession(event);
 	// redirect user if logged in
-	if (session?.user) {
+	if (session?.user?.id) {
 		throw redirect(302, '/');
 	}
 };
@@ -32,6 +32,6 @@ export const actions: Actions = {
 				error: 'Server error. Please try again later.'
 			});
 		}
-		throw redirect(303, '/');
+		throw redirect(303, '/login');
 	}
 };

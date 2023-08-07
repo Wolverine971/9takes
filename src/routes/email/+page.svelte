@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { joinEmail, joinEmail2, signupEmail } from '../../emails';
+	import { joinEmail, joinEmail2, signupEmail, forgotPass } from '../../emails';
 	import { dev } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
 
@@ -48,6 +48,8 @@
 			<div>{@html joinEmail2()}</div>
 
 			<div>{@html signupEmail()}</div>
+
+			<div>{@html forgotPass('test')}</div>
 		</div>
 	</div>
 
