@@ -25,8 +25,7 @@ export const actions: Actions = {
 			return fail(500, {
 				error: 'Server error. Please try again later.'
 			});
-		} else if (data) {
-			redirect(300, '/login');
 		}
+		redirect(300, '/login');
 	}
 };
