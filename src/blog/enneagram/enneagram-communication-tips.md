@@ -159,16 +159,20 @@ Effective communication is key to building strong relationships with others, and
           }
         ]
       },
-  "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
+      "publisher": {
+          "@type": "Organization",
+          "sameAs": [
+            {
+              "@id": "https://www.instagram.com/9takesdotcom/"
+            },
+            {
+              "@id": "https://twitter.com/9takesdotcom"
+            }
+          ],
         "logo": {
           "@type": "ImageObject",
           "url": {

@@ -207,6 +207,10 @@ As we unravel the final threads in this exploration, it should be different our 
 }
 ]
 },
+"mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
 "publisher": {
 "@type": "Organization",
 "sameAs": [

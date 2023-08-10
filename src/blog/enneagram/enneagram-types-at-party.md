@@ -174,6 +174,10 @@ Each type has its unique characteristics and motivations for attending the party
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
     "sameAs": [

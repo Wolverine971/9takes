@@ -98,6 +98,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     },
     "mentions": [
       {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
+      {
         "type": "Book",
         "author": [
           {

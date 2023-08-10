@@ -98,16 +98,20 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
           "@id": "https://9takes.com/blog/enneagram/communication-overview"
         }
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+      "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
         "logo": {
           "@type": "ImageObject",
           "url": {

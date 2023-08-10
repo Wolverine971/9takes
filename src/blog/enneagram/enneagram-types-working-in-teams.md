@@ -165,6 +165,10 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-working-in-teams",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
 "sameAs": [

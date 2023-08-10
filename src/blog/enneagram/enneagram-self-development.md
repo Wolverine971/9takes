@@ -112,9 +112,13 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
     "@id": "https://9takes.com/blog/enneagram/enneagram-self-development",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
-"sameAs": [
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/9takesdotcom/"
       },

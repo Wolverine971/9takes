@@ -237,6 +237,10 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
 "@id": "https://9takes.com/blog/enneagram/enneagram-types-in-relationships",
 "@type": "WebPage"
 },
+"mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
 "publisher": {
 "@type": "Organization",
 "sameAs": [

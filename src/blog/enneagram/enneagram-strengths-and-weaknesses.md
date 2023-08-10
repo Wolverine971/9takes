@@ -184,9 +184,13 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
     "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
-"sameAs": [
+  "sameAs": [
       {
         "@id": "https://www.instagram.com/9takesdotcom/"
       },

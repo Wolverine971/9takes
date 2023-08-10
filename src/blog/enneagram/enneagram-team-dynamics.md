@@ -77,6 +77,10 @@ Time for the obligatory that bettering team dynamics and overall productivity is
         "@id": "https://9takes.com/blog/enneagram/enneagram-team-dynamics",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

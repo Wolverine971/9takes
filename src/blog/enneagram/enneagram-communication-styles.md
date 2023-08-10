@@ -606,6 +606,10 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
         "@id": "https://9takes.com/blog/enneagram/enneagram-communication-styles",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

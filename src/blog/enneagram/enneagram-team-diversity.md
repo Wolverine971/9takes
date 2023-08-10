@@ -82,6 +82,10 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
         "@id": "https://9takes.com/blog/enneagram/enneagram-team-diversity",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

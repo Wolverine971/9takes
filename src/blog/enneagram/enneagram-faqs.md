@@ -186,6 +186,10 @@ previewHtml: ''
 			}
      	]
 	},
+	"mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
 	"publisher": {
         "type": "Organization",
         "sameAs": [

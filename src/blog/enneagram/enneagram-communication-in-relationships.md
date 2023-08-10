@@ -165,6 +165,10 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
           }
         ]
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

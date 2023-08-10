@@ -28,8 +28,8 @@ previewHtml: ''
 		image={`/blogs/religious-books.webp`}
 		showIcon={false}
 		displayText=""
-        altText="sacred books"
-        tint={true}
+    altText="sacred books"
+    tint={true}
 		subtext=""
 	/>
 </div>

@@ -282,6 +282,10 @@ In conclusion, ghosting affects individuals differently, and understanding how e
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
   "sameAs": [

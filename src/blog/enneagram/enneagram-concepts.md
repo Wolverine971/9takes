@@ -121,6 +121,10 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     "id": "https://9takes.com/blog/enneagram/enneagram-concepts",
     "type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
         "@type": "Organization",
         "sameAs": [

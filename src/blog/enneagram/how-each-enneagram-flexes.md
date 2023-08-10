@@ -169,6 +169,10 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
                 "@id": "https://9takes.com/blog/enneagram/how-each-enneagram-flexes",
                 "@type": "WebPage"
             },
+            "mentions": {
+                "@type": "Thing",
+                "name": "Enneagram"
+            },
             "publisher": {
                 "@type": "Organization",
                 "sameAs": [

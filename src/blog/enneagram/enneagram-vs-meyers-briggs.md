@@ -183,6 +183,10 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
         "@id": "https://9takes.com/blog/enneagram/enneagram-vs-mbti",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "type": "Organization",
         "sameAs": [

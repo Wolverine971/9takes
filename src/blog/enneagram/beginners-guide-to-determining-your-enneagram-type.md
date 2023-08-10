@@ -210,6 +210,10 @@ If you found this guide helpful I invite you to join 9takes where we delve deepe
         "@id": "https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

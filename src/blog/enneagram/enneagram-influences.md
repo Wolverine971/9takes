@@ -102,6 +102,10 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
       },
       "mentions": [
         {
+          "@type": "Thing",
+          "name": "Enneagram"
+        },
+        {
           "@type": "Person",
           "name": "George Gurdjieff",
           "sameAs": ["https://cac.org/daily-meditations/gurdjieff-and-the-enneagram-2020-03-02/", "https://en.wikipedia.org/wiki/George_Gurdjieff"]

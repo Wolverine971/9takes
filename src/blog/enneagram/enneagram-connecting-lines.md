@@ -117,6 +117,10 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
         "@id": "https://your-website-url.com/blog/enneagram-integrating-disintegrating-lines",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

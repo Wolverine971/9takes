@@ -113,9 +113,13 @@ Understanding your Enneagram stress number is essential if you want to thrive in
     "@id": "https://9takes.com/blog/enneagram/enneagram-stress-number",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
-"sameAs": [
+  "sameAs": [
       {
         "@id": "https://www.instagram.com/9takesdotcom/"
       },

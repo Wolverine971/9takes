@@ -160,9 +160,13 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
     "@id": "https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes",
     "@type": "WebPage"
   },
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
     "@type": "Organization",
-"sameAs": [
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/9takesdotcom/"
       },

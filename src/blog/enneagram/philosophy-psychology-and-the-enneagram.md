@@ -179,6 +179,10 @@ In essence, the Enneagram offers a framework for personal development that is de
   },
   "mentions": [
     {
+        "@type": "Thing",
+        "name": "Enneagram"
+    },
+    {
       "@type": "Person",
       "name": "Plato",
       "sameAs": [

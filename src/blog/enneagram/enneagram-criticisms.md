@@ -169,6 +169,10 @@ Enneagram Criticisms (200 words)
         "@id": "https://9takes.com/blog/enneagram/enneagram-criticisms",
         "@type": "WebPage"
       },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": [

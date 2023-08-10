@@ -454,6 +454,10 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
   },
   "datePublished": "2023-04-14",
   "url": "https://9takes.com/blog/enneagram/enneagram-types-in-stress",
+  "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram"
+      },
   "publisher": {
         "@type": "Organization",
         "sameAs": [
