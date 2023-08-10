@@ -113,7 +113,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-07-30</lastmod>
+	    <lastmod>2023-08-10</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>

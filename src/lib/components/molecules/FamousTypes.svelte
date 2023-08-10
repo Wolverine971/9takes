@@ -95,7 +95,6 @@
 			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Palmer-Luckey', link: false },
-
 			{ name: 'Grimes', link: true }
 		],
 		8: [
@@ -107,7 +106,7 @@
 			{ name: 'Martin-Luther-King-Jr', link: true },
 			{ name: 'Winston-Churchill', link: true },
 			{ name: 'Chelsea-Handler', link: false },
-			{ name: 'Denzel-Washington', link: false },
+			{ name: 'Denzel-Washington', link: true },
 			{ name: 'Joe-Rogan', link: true },
 
 			{ name: 'Emily-Ratajkowski', link: true }

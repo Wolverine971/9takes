@@ -254,86 +254,86 @@ I've tried to provide a balance between emotional appeal and logical reasoning f
 I hope this post resonates with your audience and encourages registrations for 9takes! Would you like any modifications or additional information?
 
 <svelte:head>
-    <meta property="og:image" content="https://9takes.com/blogs/greek-statue-yeah-boi.webp" />
-    <link rel="canonical" href="https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type">
-    <script type="application/ld+json">
-        {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "In the vast tapestry of human existence, few tools unravel the intricacies of our souls as the Enneagram does. This post offers compliments for each Enneagram type, providing a balance between emotional appeal and logical reasoning. It's designed to guide the reader through the topic, promoting understanding and appreciation of each type.",
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2023-08-09"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-08-09"
-      },
-      "description": "A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's core essence.",
-      "headline": "The Ultimate Compliments for Every Enneagram Type",
-      "image": {
-        "@type": "ImageObject",
-        "height": 800,
-        "url": {
-          "@id": "https://9takes.com/blogs/greek-statue-yeah-boi.webp"
-        },
-        "width": 1200
-      },
-      "mainEntityOfPage": {
-        "@id": "blog/enneagram/biggest-compliments-to-give-each-enneagram-type",
-        "@type": "WebPage"
-      },
-      "mentions": {
-        "@type": "Thing",
-        "name": "Enneagram"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
-        "logo": {
-          "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The compliments provided in the article are crafted based on the core essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
-          },
-          "name": "How were the compliments for each Enneagram type determined?"
-        }
-      ]
-    }
-  ]
+<meta property="og:image" content="https://9takes.com/blogs/greek-statue-yeah-boi.webp" />
+<link rel="canonical" href="https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type">
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@graph": [
+{
+"@type": "Article",
+"articleBody": "In the vast tapestry of human existence, few tools unravel the intricacies of our souls as the Enneagram does. This post offers compliments for each Enneagram type, providing a balance between emotional appeal and logical reasoning. It's designed to guide the reader through the topic, promoting understanding and appreciation of each type.",
+"author": {
+"@type": "Person",
+"name": "DJ Wayne",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://twitter.com/djwayne3"
+}
+]
+},
+"dateModified": {
+"@type": "Date",
+"@value": "2023-08-09"
+},
+"datePublished": {
+"@type": "Date",
+"@value": "2023-08-09"
+},
+"description": "A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's core essence.",
+"headline": "The Ultimate Compliments for Every Enneagram Type",
+"image": {
+"@type": "ImageObject",
+"height": 800,
+"url": {
+"@id": "https://9takes.com/blogs/greek-statue-yeah-boi.webp"
+},
+"width": 1200
+},
+"mainEntityOfPage": {
+"@id": "blog/enneagram/biggest-compliments-to-give-each-enneagram-type",
+"@type": "WebPage"
+},
+"mentions": {
+"@type": "Thing",
+"name": "Enneagram"
+},
+"publisher": {
+"@type": "Organization",
+"sameAs": [
+{
+"@id": "https://www.instagram.com/9takesdotcom/"
+},
+{
+"@id": "https://twitter.com/9takesdotcom"
+}
+],
+"logo": {
+"@type": "ImageObject",
+"url": {
+"@id": "https://9takes.com/brand/darkRubix.png"
+}
+},
+"name": "9takes"
+}
+},
+{
+"@type": "FAQPage",
+"mainEntity": [
+{
+"@type": "Question",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "The compliments provided in the article are crafted based on the core essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
+},
+"name": "How were the compliments for each Enneagram type determined?"
+}
+]
+}
+]
 }
 </script>
 

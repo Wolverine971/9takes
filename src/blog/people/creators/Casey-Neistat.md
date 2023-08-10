@@ -188,14 +188,14 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
       "dateModified": {
         "@type": "Date",

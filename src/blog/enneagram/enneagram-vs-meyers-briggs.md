@@ -4,7 +4,7 @@ description: 'Describing the nuances of Enneagram and Myers-Briggs personality s
 author: 'DJ Wayne'
 date: '2023-07-16'
 loc: 'https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs'
-lastmod: '2023-07-16'
+lastmod: '2023-08-09'
 changefreq: 'monthly'
 published: true
 type: ['overview']
@@ -16,13 +16,6 @@ pic: 'enneagram-vs-meyers-briggs'
 <!-- // notes:  -->
 <!-- <meta property="og:image" content="https://9takes.com/blogs/husband-and-wife-arguing.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/introducing-9takes"> -->
-
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -67,7 +60,7 @@ The Enneagram is an ancient personality system believed to have roots in several
 
 ### The Historical Roots of Enneagram
 
-The Enneagram's origins are a subject of much debate, with theories pointing to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo.
+The Enneagram's origins are a subject of much debate, with theories pointing to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
 
 ### Key Concepts and Structure of Enneagram
 
@@ -140,9 +133,12 @@ Deciding which system to use primarily depends on the aspect of personality one 
 
 ## Conclusion: Enneagram vs Myers-Briggs
 
-In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in history and insights, offer unique lenses through which to understand and navigate the complexities of personality. They serve as complementary tools that, when used in conjunction, can provide a comprehensive picture of an individual's personality.
+The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insights, offer unique lenses through which to understand and navigate the complexities of personality. They serve as complementary tools that, when used in conjunction, can provide a comprehensive picture of an individual's personality.
 
-<div>
+<svelte:head>
+
+<meta property="og:image" content="https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs">
 <script type="application/ld+json">
     {
   "@graph": [
@@ -231,7 +227,7 @@ In conclusion, the Enneagram and the Myers-Briggs Type Indicator, both rich in h
 }
 
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {
