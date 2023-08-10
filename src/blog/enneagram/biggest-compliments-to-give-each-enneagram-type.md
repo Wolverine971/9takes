@@ -1,6 +1,6 @@
 ---
 title: 'What are the biggest compliments to give to each Enneagram type'
-description: 'Why booboo appears to be a type tiptype'
+description: 'Explore the ultimate compliments for each Enneagram type, delving into their core essence and unique strengths. Dive deep with 9takes!'
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'

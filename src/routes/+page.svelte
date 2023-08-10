@@ -68,8 +68,10 @@
 		<div class="big-points center-align">
 			<h3>What are we building?</h3>
 			<p>
-				A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
-				<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
+				<b style="font-size: 1.2rem;">
+					A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
+					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
+				</b>
 			</p>
 			<ul style="text-align: left;">
 				<li>
@@ -99,7 +101,7 @@
 					</p> -->
 		<div class="big-points">
 			<h3 class="center-align">What is different?</h3>
-			<p class="center-align">
+			<p class="">
 				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
 				community
 			</p>
@@ -191,6 +193,24 @@
 <style>
 	/* Basic styles */
 
+	a {
+		display: inline-block;
+		align-items: center;
+		color: #260958;
+
+		&::after {
+			content: '';
+
+			background-image: url('/icons/arrow.svg');
+			display: inline-block;
+			vertical-align: middle;
+			align-items: center;
+			width: 1em;
+			height: 1em;
+			background-size: 1em 1em;
+		}
+	}
+
 	.column {
 		/* display: flex;
 		flex-direction: column;
@@ -240,7 +260,7 @@
 	}
 	a {
 		color: #333;
-		text-decoration: none;
+		/* text-decoration: none; */
 		margin: 0.5rem;
 		padding: 0.5rem;
 
