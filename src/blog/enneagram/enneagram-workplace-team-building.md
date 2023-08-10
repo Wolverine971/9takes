@@ -14,7 +14,6 @@ previewHtml: ''
 pic: 'working-in-teams'
 ---
 
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

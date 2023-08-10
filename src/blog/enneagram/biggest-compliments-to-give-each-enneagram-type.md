@@ -47,6 +47,7 @@ Type 1 individuals are driven by an innate desire for perfection and righteousne
 **Basic Compliment:** "Your integrity and commitment to making the world better never cease to inspire. You lead with unwavering principles."
 
 **What the kids say:**
+
 - "Your vibe? Straight-up chef's kiss."
 - "When you walked in with that commitment to excellence? Whole place lit up, no cap."
 - "You're the real OG of keeping things 100."
@@ -65,6 +66,7 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 **Basic Compliment:** "Your selflessness and warmth bring light to every room. People find solace in your nurturing presence."
 
 **What the kids say:**
+
 - "Every room you enter? Instantly more lit."
 - "You're the OG of vibes and good times."
 - "Your nurturing energy is straight outta a hype house."
@@ -83,6 +85,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 **Basic Compliment:** "Your drive and ambition are unparalleled. The way you transform visions into reality is truly remarkable."
 
 **What the kids say:**
+
 - "Your grind don't stop, and it's hella inspiring."
 - "Turning dreams to reality? That's your daily flex."
 - "Who needs clout when they've got your ambition?"
@@ -117,6 +120,7 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 **Basic Compliment:** "Your depth of emotion and unique perspective are a gift to the world. You see beauty where others don't."
 
 **What the kids say:**
+
 - "Your vibe is like a limited edition drop everyone's after."
 - "You're the playlist I never knew I needed."
 - "That unique style? Issa look!"
@@ -135,6 +139,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 **Basic Compliment:** "Your wisdom and insights constantly amaze me. You have a rare ability to delve deep into complexities."
 
 **What the kids say:**
+
 - "Your brain's like the latest iPhone update, always ahead."
 - "Dropping wisdom like it's hot!"
 - "If insights were currency, you'd be Elon Musk."
@@ -153,6 +158,7 @@ Type 6 personalities value security and trust. By acknowledging their dedication
 **Basic Compliment:** "Your loyalty and steadfastness are the pillars on which people lean. Your commitment is unwavering."
 
 **What the kids say:**
+
 - "Your loyalty's tighter than skinny jeans from 2010."
 - "Ride or die? Must've been coined for you."
 - "Trust levels? Over 9000!"
@@ -171,6 +177,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 **Basic Compliment:** "Your zest for life is infectious. You have an unparalleled ability to find joy in every moment."
 
 **What the kids say:**
+
 - "Your energy? More viral than any TikTok dance."
 - "If life's a party, you're the DJ."
 - "You've got that 'life of the party' drip."
@@ -205,6 +212,7 @@ Type 8 personalities are natural leaders, driven by a desire to control their en
 **Basic Compliment:** "Your strength and protective nature make people feel safe. You advocate fearlessly for what you believe in."
 
 **What the kids say:**
+
 - "Strength and swag? Name a better duo. I'll wait."
 - "You're the boss level everyone aspires to reach."
 - "Your energy's like the final boss in a video game."
@@ -223,6 +231,7 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 **Basic Compliment:** "Your ability to bring harmony and unity is unparalleled. Your calm presence is a soothing balm in any storm."
 
 **What the kids say:**
+
 - "Your calm is like the WiFi signal everyone's searching for."
 - "Bringing peace like it's the latest trend."
 - "Your energy? It's the chillest playlist on Spotify."
