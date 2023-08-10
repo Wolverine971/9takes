@@ -61,6 +61,8 @@
 		line-height: 24px;
 		font-weight: 700;
 		margin-bottom: 4px;
+		text-wrap: balance;
+		word-break: break-word;
 	}
 
 	p {
