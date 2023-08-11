@@ -59,7 +59,7 @@
 		5: [
 			{ name: 'Bill-Gates', link: false },
 			{ name: 'Elon-Musk', link: false },
-			{ name: 'Jack-Dorsey', link: false },
+			{ name: 'Jack-Dorsey', link: true },
 			{ name: 'Mark-Zuckerberg', link: false },
 			{ name: 'Emily-Dickinson', link: false },
 			{ name: 'Stephen-Hawking', link: false },
