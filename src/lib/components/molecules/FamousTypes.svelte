@@ -124,6 +124,7 @@
 			{ name: 'Pete-Davidson', link: true },
 			{ name: 'Queen-Elizabeth-II', link: true },
 			{ name: 'Ronald-Reagan', link: true },
+			{ name: 'Keanu-Reeves', link: true },
 			{ name: 'Leonardo-DiCaprio', link: false }
 		]
 	};
