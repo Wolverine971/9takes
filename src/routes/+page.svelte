@@ -49,7 +49,7 @@
 	<title>9takes</title>
 	<meta
 		name="description"
-		content="9takes- better version of reddit based on personality. Ask questions, give hot takes, talk to real people"
+		content="9takes- Reddit Re-imagined through the Enneagram Lens. Ask questions, give hot takes, talk to real people"
 	/>
 	<meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" />
 	<link rel="canonical" href="https://9takes.com" />
@@ -69,8 +69,11 @@
 			<h3>What are we building?</h3>
 			<p>
 				<b style="font-size: 1.2rem;">
-					A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
-					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>.
+					<span style="text-shadow: .5px .5px red;">Reddit</span> Reimagined through the
+					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>
+					Lens.
+					<!-- A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
+					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>. -->
 				</b>
 			</p>
 			<ul style="text-align: left;">
