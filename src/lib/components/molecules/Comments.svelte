@@ -60,7 +60,6 @@
 			.then((response) => response.json())
 			.then((commentData) => {
 				if (!commentData?.message) {
-					console.log(commentData);
 					_data = Object.assign({}, data);
 					comments = [..._data?.comments];
 					comment_count = _data?.comment_count;

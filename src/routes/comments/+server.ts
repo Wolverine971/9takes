@@ -1,7 +1,8 @@
-import { supabase } from '$lib/supabase';
-// import type { Database } from 'src/schema';
+// import type { error, json } from 'src/schema';
 
 import { error, json } from '@sveltejs/kit';
+import { supabase } from '$lib/supabase';
+
 import type { PostgrestResponse } from '@supabase/supabase-js';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { Comments } from '$lib/components';
@@ -127,11 +128,11 @@ export async function GET({
 			});
 		}
 
-		if (!questionError && questionComments?.length) {
+		if (!questionCommentsError && questionComments?.length) {
 			return json(questionComments);
 		} else {
 			throw error(400, {
-				message: `Failed to get question: ${JSON.stringify(questionError)}`
+				message: `Failed to get question: ${JSON.stringify(questionCommentsError)}`
 			});
 		}
 	} catch (e) {
