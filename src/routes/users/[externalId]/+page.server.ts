@@ -1,9 +1,9 @@
 import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-import type { PageServerLoad } from '../$types';
+import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 
-import type { Actions } from '../$types';
+import type { Actions } from './$types';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event: any) => {

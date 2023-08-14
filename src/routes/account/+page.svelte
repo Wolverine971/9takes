@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { supabase } from '$lib/supabase';
-	import type { PageData } from '../$types';
+	import type { PageData } from './$types';
 
 	import { applyAction, deserialize, enhance, type SubmitFunction } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
