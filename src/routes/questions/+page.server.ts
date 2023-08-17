@@ -6,27 +6,89 @@ import { elasticClient } from '$lib/elasticSearch';
 
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
+import type { Database } from '../../schema';
 
-export const load: PageServerLoad = async (): Promise<{ questions: any; count: number | null }> => {
+export const load: PageServerLoad = async (): Promise<{
+	// data: any;
+	subcategoryTags: Array<Database['public']['Tables']['question_subcategories']>;
+	questionsAndTags: Array<Database['public']['Tables']['questions']>;
+	// categories: any;
+	// hiearchy: any;
+	// count: number | null;
+}> => {
 	try {
-		const {
-			data: questions,
-			error: findQuestionsError,
-			count
-		} = await supabase
-			.from('questions')
-			.select('*', { count: 'estimated' })
-			.order('created_at', { ascending: false })
-			.limit(20);
+		// const {
+		// 	data: questionsAndTags,
+		// 	error: findQuestionsError,
+		// 	count
+		// } = await supabase
+		// 	.from('question_tags')
+		// 	.select(`questions(*), question_tag(*)`, { count: 'estimated' })
+		// 	.limit(20);
 
-		if (findQuestionsError) {
+		// const {
+		// 	data: tags,
+		// 	error: tagsError,
+		// } = await supabase
+		// 	.from('question_tags')
+		// 		.select(`tag_id`, { count: 'estimated' })
+
+		const { data: uniquetags, error: tagsError } = await supabase
+			.from('distinct_question_tags')
+			.select();
+
+		// console.log(tags);
+		const tags = uniquetags?.map((t) => {
+			return t.tag_id;
+		});
+		if (!tags) {
+			throw error(500, {
+				message: 'No Questions'
+			});
+		}
+
+		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
+			.from('question_tag')
+			.select(`*, question_subcategories(*, question_subcategories(*))`)
+			.in('tag_id', tags);
+
+		if (subcategoryTagsError) {
 			throw error(500, {
 				message: 'Error finding questions'
 			});
 		}
-		return {
-			questions,
+
+		const {
+			data: questionsAndTags,
+			error: findQuestionsError,
 			count
+		} = await supabase
+			.from('question_tags')
+			.select(`questions(*), question_tag(*)`, { count: 'estimated' })
+			.in('tag_id', tags)
+			.limit(20);
+
+		// const { data: subcategories, error: subcategoriesError } = await supabase
+		// 	.from('question_subcategories')
+		// 	.select(`*`, { count: 'estimated' });
+
+		// const copyofTags = [...questionsAndTags];
+		// const categoryHiearchy = buildHierarchy(subcategories);
+		// const completeHiearchy = addQuestionsToHierarchy(categoryHiearchy, copyofTags);
+
+		// const tags = questionsAndTags.map((q) => {
+		// 	return q?.question_tag?.subcategory_id;
+		// });
+
+		return {
+			// questions: questionsAndTags.questions,
+			// tags: questionsAndTags.question_tag,
+			subcategoryTags,
+			questionsAndTags
+
+			// categories: subcategories,
+			// hiearchy: completeHiearchy,
+			// count
 		};
 	} catch (e) {
 		console.log(e);
@@ -154,3 +216,99 @@ interface Profiles {
 	enneagram: string;
 	id: string;
 }
+
+// const createHeirarchy = (categories: {id: number, subcategory_name: string, parent_id: number}[]) => {
+// 	const rootCategories: any[] = []
+// 	let categoriestoFilter = [...categories]
+
+// 	do {
+// 		categoriestoFilter.forEach(category => {
+// 			if (category.parent_id === null) {
+// 				rootCategories.push(category);
+// 			} else  {
+// 				const parent = rootCategories.find(c => c.id === category.parent_id)
+// 				if (!parent.children) {
+// 					parent.children = [category]
+// 				}
+// 			}
+// 		})
+// 	} while (categoriestoFilter > 0);
+
+// }
+
+type Category = {
+	id: number;
+	subcategory_name: string;
+	parent_id: number | null;
+	children?: Category[] | any;
+};
+
+// const categories: Category[] = [
+// 	{ id: 1, subcategory_name: 'test', parent_id: null },
+// 	{ id: 5, subcategory_name: 'test2', parent_id: 1 }
+// 	// ... add more categories as needed
+// ];
+
+function buildHierarchy(categories: Category[]): Category[] {
+	let map: { [key: number]: Category } = {};
+
+	// First pass: Create a map of all categories by their ID
+	categories.forEach((category) => {
+		category.children = [];
+		map[category.id] = category;
+	});
+
+	// Second pass: Attach each category to its parent's children array
+	categories.forEach((category) => {
+		if (category.parent_id !== null) {
+			if (map[category.parent_id]) {
+				map[category.parent_id].children!.push(category);
+			}
+		}
+	});
+
+	// Filter out the categories that are not root (those with a parent_id)
+	return categories.filter((category) => category.parent_id === null);
+}
+
+// let rootCategories = buildHierarchy(categories);
+// console.log(rootCategories);
+
+function addQuestionsToHierarchy(
+	rootCategories: Category[],
+	questionTags: { tag: any; questions: any }[]
+): Category[] {
+	function recurse(category: Category) {
+		questionTags.forEach((qTag, index) => {
+			if (qTag.question_tag.tag_name === category.subcategory_name) {
+				if (!category.children) {
+					category.children = [];
+				}
+				category.children.push(qTag);
+				// Remove the string from the list to prevent adding it multiple times
+				questionTags.splice(index, 1);
+			}
+		});
+
+		if (category.children) {
+			category.children.forEach((child: any) => {
+				if (!child.question) {
+					recurse(child);
+				}
+			});
+		}
+	}
+
+	rootCategories.forEach(recurse);
+	return rootCategories;
+}
+
+// Example usage:
+// const rootCategories: Category[] = [
+//     { id: 1, subcategory_name: "test", parent_id: null, children: [{ id: 5, subcategory_name: "test2", parent_id: 1 }] }
+// ];
+
+// const strings = ["test2", "example"];
+
+// const updatedRootCategories = addStringsAsChildren(rootCategories, strings);
+// console.log(updatedRootCategories);

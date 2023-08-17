@@ -28,6 +28,19 @@
 		flags: Flags;
 	}
 
+	// question: {
+	//     [x: string]: any;
+	// };
+	// comments: never[];
+	// comment_count: number | null;
+	// session: Session | null;
+	// flags: {
+	//     userHasAnswered: false;
+	//     userSignedIn: any;
+	// };
+	// links?: undefined;
+	// links_count?: undefined;
+
 	interface Flags {
 		userHasAnswered: boolean;
 		userSignedIn: string;
@@ -96,7 +109,7 @@
 		id: string;
 	}
 
-	export let data: PassedPageData;
+	export let data: any; //: PassedPageData;
 	export let user: any;
 	let question: string = '';
 	let selectedTab: string = 'comments';
