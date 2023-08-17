@@ -19,11 +19,6 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 
 <!-- notes: dating, how Logan became famous, join wwe, where is Logan from, Jake, can logan fight, net worth, prime, is my hero, to ufc, can wrestle, mayweather, ksi, boxing, girlfriend -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/Logan-Paul.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Logan-Paul">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -99,7 +94,9 @@ How does this perspective of Logan Paul enhance your understanding of his enigma
 
 To explore more captivating personalities and gain a deeper understanding of the human experience, join our community. Sign up below ⬇️ to be part of a group that values introspective exploration of personalities and diverse viewpoints. Let's embark on a journey of discovery together, unraveling the enigmatic depths of one personality at a time.
 
-<div>
+
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -218,7 +215,8 @@ To explore more captivating personalities and gain a deeper understanding of the
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

@@ -18,12 +18,6 @@ tiktok:
 
 <!-- // notes:  -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/boo-boo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -75,11 +69,13 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

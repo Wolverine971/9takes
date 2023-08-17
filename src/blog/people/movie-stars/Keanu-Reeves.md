@@ -201,8 +201,6 @@ For those ready to embark on this captivating exploration, I invite you to sign 
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/9s/Keanu-Reeves.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",

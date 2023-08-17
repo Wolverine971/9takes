@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/schwarzenegger'
 tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/Arnold-Schwarzenegger.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Arnold-Schwarzenegger">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -58,7 +53,9 @@ Enneagram Type 3s are adaptable and skilled at reinventing themselves to achieve
 
 Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature has been evident throughout his life. From his bodybuilding competitions to his political campaigns, Arnold has always been driven to come out on top. He is known for his determination and willingness to do whatever it takes to win, which is a hallmark of Enneagram Type 3s.
 
-<div>
+
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -118,4 +115,5 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
     }
 }
 </script>
-</div>
+
+</svelte:head>

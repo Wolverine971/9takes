@@ -19,12 +19,6 @@ tiktok: ''
 
 <!-- // notes:  -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/1s/Kourtney-Kardashian.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -112,7 +106,8 @@ Does this exploration of Kourtney enhance your understanding of her as a public 
 
 Is your curiosity piqued? Are you interested in exploring personalities further, one enneagram type at a time? Sign up below⬇️ and join 9takes, a community that values introspective exploration of personalities and viewpoints. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3) and let me know what you think!
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -232,9 +227,8 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
     }
   ]
 }
-
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

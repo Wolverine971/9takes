@@ -1,5 +1,5 @@
 ---
-title: 'Robert Oppenheimer An Enneagram Type 4'
+title: 'Robert Oppenheimer- An Enneagram Type 4 Personality'
 description: 'Why Robert Oppenheimer appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-07-25'
@@ -18,12 +18,6 @@ tiktok: ''
 ---
 
 <!-- // notes:  -->
-
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Robert-Oppenheimer.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Robert-Oppenheimer">
-</svelte:head>
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -104,7 +98,8 @@ This exploration merely provides a unique lens to better understand Oppenheimer'
 
 In our complex world, understanding people's personalities could pave the way for empathy and understanding. If this exploration of Robert Oppenheimer sparked your curiosity and you wish to unravel more about the personalities that shape our world, it's time to take the next step. Join us at 9takes, where we delve into personalities and perspectives in a whole new light. Sign up below ⬇️ and embark on this exciting journey of understanding, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -215,7 +210,7 @@ In our complex world, understanding people's personalities could pave the way fo
 }
 
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

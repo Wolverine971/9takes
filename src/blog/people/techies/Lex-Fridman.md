@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/lexfridman'
 tiktok: 'https://www.tiktok.com/@lexfridman'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/5s/Lex-Fridman.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lex-Fridman">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -85,7 +80,9 @@ Lex Fridman exemplifies that Type 5 individuals, with their profound understandi
 
 Indeed, as we engage with the world around us, it's worth taking a moment to consider the Enneagram's insights and how they might help us better understand not just the personalities of influential figures like Lex Fridman but also our own unique ways of interacting with the world.
 
-<div>
+
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -176,4 +173,4 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   }
 }
 </script>
-</div>
+</svelte:head>

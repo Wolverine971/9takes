@@ -145,8 +145,6 @@ Understanding others starts with understanding oneself. Let's embark on this jou
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/9s/Barack-Obama.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Barack-Obama">
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",

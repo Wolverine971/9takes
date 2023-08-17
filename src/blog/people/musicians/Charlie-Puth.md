@@ -19,12 +19,6 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 
 <!-- notes: can hear notes, without autotune, dating married, jimmy fallon, concert, shawn mendes,meghan trainor, sabrina carpenter, songs, girlfriend, age, attention -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Charlie-Puth.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Charlie-Puth">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -108,7 +102,8 @@ Exploring personalities like Puth's through the Enneagram can offer not only int
 
 Join us at 9takes. Explore more articles. Unravel more personalities. Sign up below ⬇️ and join a community where we celebrate the complexity of personalities and share perspectives. Together, let's continue this journey of introspection and discovery, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -227,7 +222,7 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

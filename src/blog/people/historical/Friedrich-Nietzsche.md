@@ -15,16 +15,10 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
-person: 'Friedrich-Nietzsche'
 ---
 
 <!-- // notes:  -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/5s/Friedrich-Nietzsche.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Friedrich-Nietzsche">
-</svelte:head>
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -113,7 +107,8 @@ We must ask ourselves: How does this understanding of Nietzsche as a Type 5 infl
 
 The journey doesn’t end here. Nietzsche is just one of many personalities that we can explore through the enneagram lens. Join us in our quest for understanding at 9takes, where we unravel personalities and perspectives, one take at a time. Sign up and begin your own journey of discovery. ⬇️
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
     {
   "@context": "http://schema.org",
@@ -227,7 +222,8 @@ The journey doesn’t end here. Nietzsche is just one of many personalities that
 }
 
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

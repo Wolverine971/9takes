@@ -18,11 +18,6 @@ tiktok:
 
 <!-- notes: dating, come back to youtube, where he is from, when did he become famous, controversy with jeff wittek, David Dobrik and Taylor Hudson, girlfriend friends -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/David-Dobrik.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/David-Dobrik">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -102,7 +97,8 @@ How does this viewpoint of Dobrik enhance your understanding of him as an Intern
 
 Explore these questions and more. Go beyond the surface and delve deeper into the world of personalities with us. Sign up below ⬇️ to join us at 9takes, a community that values introspective exploration of personalities and worldviews. Together, let's peel back the layers, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -221,7 +217,8 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

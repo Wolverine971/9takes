@@ -43,12 +43,6 @@ Demi Lovato and Wilmer Valderrama
 Demi Lovato X Factor
 Demi Lovato and Joe Jonas -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Demi-Lovato.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Demi-Lovato">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -157,7 +151,8 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
 
 <!-- Final Thoughts: TOO MUCH TYPE 4s ARE UNIQUE-- cut out all the extra fluff, combine sections and shorten it, wayyy too long ang repetitive  -->
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -273,7 +268,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

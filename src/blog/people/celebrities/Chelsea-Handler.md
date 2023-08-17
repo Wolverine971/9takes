@@ -18,8 +18,6 @@ tiktok:
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="https://9takes.com/types/6s/Chelsea-Handler.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Chelsea-Handler">
 </svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

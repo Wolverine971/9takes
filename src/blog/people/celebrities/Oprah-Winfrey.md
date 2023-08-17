@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/oprah/'
 tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/2s/Oprah-Winfrey.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Oprah-Winfrey">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -91,7 +86,8 @@ In an ever-complex world, taking the time to explore personalities can provide u
 
 Better yet, why not become part of a community that values introspective exploration of personalities and worldviews? We're building an app just for that purpose - a dedicated platform for curious minds who want to understand the people around us better. Pre-register below and join us in our journey to understand the human psyche, one personality at a time 😊.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -210,4 +206,4 @@ Better yet, why not become part of a community that values introspective explora
   ]
 }
 </script>
-</div>
+</svelte:head>

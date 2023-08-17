@@ -16,11 +16,6 @@ instagram: ''
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Casey-Neistat.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Casey-Neistat">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
@@ -177,7 +172,8 @@ Now, how does this exploration enhance your understanding of Neistat as a creati
 
 If this was interesting to you I encourage you to sign up for '9takes' ⬇️. Stay tuned for more blogs, diving deeper into other personalities.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -280,7 +276,8 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

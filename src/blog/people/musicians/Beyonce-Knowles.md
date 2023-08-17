@@ -17,12 +17,6 @@ instagram: 'https://www.instagram.com/beyonce/'
 tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Beyonce-Knowles.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Beyonce-Knowles">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -96,7 +90,8 @@ Now, let's shift gears slightly. How does this understanding of Beyoncé change 
 
 If you enjoyed this article sign up below ⬇️ and join 9takes, a community that values the reflective investigation of personalities and life perspectives. Together, let's unravel the intricacies of human character, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -215,4 +210,5 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
   ]
 }
 </script>
-</div>
+
+</svelte:head>

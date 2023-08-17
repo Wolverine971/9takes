@@ -100,8 +100,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/tiptypes/boo-boo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/boo-boo">
 <script type="application/ld+json">
 
 </script>

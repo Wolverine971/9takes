@@ -157,8 +157,6 @@ Ready to embark on this journey of discovery? Join us on 9takes - where every pe
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/8s/Denzel-Washington.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Denzel-Washington">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

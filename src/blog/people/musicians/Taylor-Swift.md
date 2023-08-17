@@ -110,9 +110,7 @@ Join us at 9takes - a community that values the exploration of personalities and
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/Taylor-Swift.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Taylor-Swift">
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@graph": [
@@ -233,6 +231,7 @@ Join us at 9takes - a community that values the exploration of personalities and
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

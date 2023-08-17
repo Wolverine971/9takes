@@ -16,11 +16,6 @@ instagram: ''
 tiktok:
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="https://9takes.com/types/8s/David-Portnoy.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/David-Portnoy">
-</svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -41,3 +36,9 @@ tiktok:
 > **Disclaimer** This analysis of David Portnoy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Portnoy.
 
 <p class="firstLetter"></p>
+
+
+
+<svelte:head>
+
+</svelte:head>

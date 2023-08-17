@@ -19,11 +19,7 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 
 <!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news, logan paul -->
 
-<svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/3s/Jake-Paul.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jake-Paul">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -95,7 +91,8 @@ So, what do you think? Does seeing Jake Paul through the lens of the Enneagram T
 
 Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a community that values introspective exploration of personalities and worldviews. Together, let's dig deeper, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -106,14 +103,14 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+            {
+              "@id": "https://www.instagram.com/djwayne3/"
+            },
+            {
+              "@id": "https://twitter.com/djwayne3"
+            }
+          ]
       },
       "dateModified": {
         "@type": "Date",
@@ -156,25 +153,26 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
         ]
       },
       "publisher": {
-		"@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
-		"logo": {
-		"@type": "ImageObject",
-		"height": 60,
-		"url": {
-			"@id": "https://9takes.com/brand/darkRubix.png"
-		},
-		"width": 600
-		},
-		"name": "9takes"
-	},
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+        "@type": "ImageObject",
+        "height": 60,
+        "url": {
+          "@id": "https://9takes.com/brand/darkRubix.png"
+        },
+        "width": 600
+        },
+        "name": "9takes"
+	    }
+    },
     {
       "@type": "FAQPage",
       "mainEntity": [
@@ -215,7 +213,7 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   .accordion {

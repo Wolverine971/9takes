@@ -1,10 +1,10 @@
 ---
-title: 'Kim Kardashian Unveiled: A Detailed Examination of Her Enneagram Type 3 Characteristics'
+title: "Kim Kardashian's Personality: An Enneagram Type 3"
 description: 'Explore our analysis of why Kim Kardashian appears to be a Type 3 in the Enneagram personality system'
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian'
-lastmod: '2023-07-24'
+lastmod: '2023-08-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -37,11 +37,7 @@ Kylie Jenner - 3w4??? (And maybe Kim is 3w2?)
 Kendal Jenner - 4??? -->
 <!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters,, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
 
-<svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/3s/Kim-Kardashian.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -115,7 +111,8 @@ However, people are complex and this cannot be overstated. This analysis is but 
 
 There is a fascinating world of personalities out there waiting to be explored. Understanding public figures like Kim Kardashian through the Enneagram lens could offer valuable insights. If you like this, sign up below ⬇️ and join 9takes, a community that appreciates the in-depth exploration of personalities and perspectives. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3), would love to hear from a reader!
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -137,7 +134,7 @@ There is a fascinating world of personalities out there waiting to be explored. 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-06-20"
+        "@value": "2023-08-17"
       },
       "datePublished": {
         "@type": "Date",
@@ -237,7 +234,8 @@ There is a fascinating world of personalities out there waiting to be explored. 
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

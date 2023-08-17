@@ -16,12 +16,6 @@ instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/Jon-Stewart.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jon-Stewart">
-</svelte:head>
-
 <!-- // notes:  chapelle, trevor noah, tucker carlson, podcast show age -->
 
 <script>
@@ -111,7 +105,8 @@ Does seeing Stewart through the lens of the Enneagram Type 7 give you a deeper u
 
 As we continue to peel back the layers of personalities, we invite you to join us in this exciting journey of introspection and discovery. Explore more articles and if you're eager to join a community that values introspective exploration of personalities and viewpoints, sign up below ⬇️ and be part of 9takes. Together, let's unravel the complexities of human personality, one Enneagram type at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -232,9 +227,9 @@ As we continue to peel back the layers of personalities, we invite you to join u
     }
   ]
 }
-
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

@@ -19,12 +19,6 @@ tiktok: 'https://www.tiktok.com/@arianagrande'
 
 <!-- // notes: where is Ariana Grande from, why she left the voice, when was she born, how she became famous, ariana grande no makeup, mac miller, taylor swift, age networth, height, husband, songs, cloud perfume, perfume -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/Ariana-Grande.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ariana-Grande">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -102,7 +96,8 @@ How does this exploration of Ariana enhance your understanding of her as an arti
 
 Ready for more? Intrigued to unravel the personalities of other celebrities or even your own? Sign up below to be a part of 9takes, a community that thrives on introspective exploration of personalities and perspectives. Together, let's journey through the fascinating world of the Enneagram, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -208,7 +203,8 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

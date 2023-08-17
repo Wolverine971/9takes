@@ -41,11 +41,6 @@ Pete Davidson jokes
  -->
  <!-- ariana grande, kim kardashian, kanye -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/9s/Pete-Davidson.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pete-Davidson">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -128,7 +123,9 @@ In a world increasingly connected, yet paradoxically divided, understanding one 
 
 Join the exploration. Let's discover together. Sign up below ⬇️ and be a part of 9takes, a community that thrives on introspective exploration of personalities and perceptions. Let's journey together, unveiling one personality layer at a time.
 
-<div>
+
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -244,7 +241,8 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

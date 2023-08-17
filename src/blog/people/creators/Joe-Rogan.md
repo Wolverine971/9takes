@@ -19,12 +19,6 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 
 <!-- notes: bring up wife, podcast, net worth, height, age, spotify, fear factor, ufc, dana white, "joe rogan with family" -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Joe-Rogan.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Joe-Rogan">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -137,7 +131,8 @@ Our world is becoming more polarized, making it all the more essential to unders
 
 If this resonates with you, we invite you to explore more articles like this one, delve deeper into the enigmatic world of Enneagram, and join the 9takes community. Let's together unwrap the layers of human personality, one "take" at a time. Sign up below ⬇️ and be part of this exciting journey. Let's make the world a more understanding and accepting place, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -256,7 +251,8 @@ If this resonates with you, we invite you to explore more articles like this one
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

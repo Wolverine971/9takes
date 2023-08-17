@@ -1,9 +1,9 @@
 <script lang="ts">
-	export let data: any;
-	export let slug: string;
+	export let data: App.BlogPost;
 
 	let title: string = data?.title;
 	let description: string = data?.description;
+	let slug = `blog/famous-enneagram-types/${data.slug}`;
 	const siteTitle = '9takes';
 	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
 
@@ -16,28 +16,32 @@
 		publisher: { '@type': 'Person', name: data?.author }
 	};
 
-	// let jsonld = {
-	// 	'@context': '',
-	// 	'@type': 'Blog',
-	// 	name: 'This-Is-Why-Not-Everyone-Agrees-With-You',
-	// 	url: 'https://9takes.comThis-Is-Why-Not-Everyone-Agrees-With-You',
-	// 	description: 'Lets explore how and why people may not see eye to eye',
-	// 	publisher: { '@type': 'Person', name: 'DJ Wayne' }
-	// };
-
 	let jsonld = JSON.stringify(jsonldString);
 </script>
 
 <svelte:head>
 	<title>{formattedTitle}</title>
+	<link rel="canonical" href={data.loc} />
+	<meta name="description" content={description || title} />
 
 	<meta property="og:site_name" content={siteTitle} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={data.description} />
-	<meta name="description" content={description || title} />
+	<meta property="og:url" content={data.loc} />
+	<meta property="og:type" content="website" />
+	<meta
+		property="og:image"
+		content="https://9takes.com/types/{data.enneagram}s/{data.person}.webp"
+	/>
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta property="og:url" content={`https://9takes.com/${slug}`} />
+	<meta property="twitter:title" content={title} />
+	<meta property="twitter:url" content={data.loc} />
+	<meta
+		property="twitter:image"
+		content="https://9takes.com/types/{data.enneagram}s/{data.person}.webp"
+	/>
+
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

@@ -17,14 +17,10 @@ instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/6s/George-H-W-Bush.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/George-H-W-Bush">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -61,7 +57,8 @@ In conclusion, George H.W. Bush's Enneagram Type 6 traits are evident in his col
 
 Check out this one for an analysis on his son <a href="/blog/famous-enneagram-types/George-W-Bush">George W. Bush.</a>
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@type": "Article",
@@ -136,4 +133,5 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   }
 }
 </script>
-</div>
+
+</svelte:head>

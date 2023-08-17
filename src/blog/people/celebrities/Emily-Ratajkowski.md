@@ -17,12 +17,6 @@ instagram: 'https://www.instagram.com/emrata'
 tiktok: 'https://www.tiktok.com/@emrata'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Emily-Ratajkowski.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -84,7 +78,9 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxKgXTXeh070ACyd5fRX2r_XbXeNJ8E0ok&amp;clipt=EM61BxiniQk" title="Emily is a peak 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-<div>
+
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -173,4 +169,5 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   }
 }
 </script>
-</div>
+
+</svelte:head>

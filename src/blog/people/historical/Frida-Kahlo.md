@@ -18,11 +18,6 @@ tiktok: ''
 person: ''
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Frida-Kahlo.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Frida-Kahlo">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -68,7 +63,8 @@ Finally, Enneagram Type 4s are known for their intensity and passion. Frida Kahl
 
 One example of her intensity and passion is her painting "The Suicide of Dorothy Hale," which depicts the suicide of a friend. The painting is a powerful and emotional work that reflects her intense feelings of grief and loss.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -134,4 +130,5 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
   "articleBody": "Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist."
 }
 </script>
-</div>
+
+</svelte:head>

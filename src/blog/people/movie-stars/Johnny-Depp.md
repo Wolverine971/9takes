@@ -17,11 +17,7 @@ instagram: 'https://www.instagram.com/johnnydepp/'
 tiktok: 'https://www.tiktok.com/@johnnydepp'
 ---
 
-<svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/4s/Johnny-Depp.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Johnny-Depp">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -58,3 +54,8 @@ Type 4s also tend to have a highly developed aesthetic sensibility, with a stron
 ## Love of Fantasy and the Imaginative
 
 Finally, Type 4s often have a deep love of fantasy and the imaginative. This is evident in many of the roles that Depp has taken on, from the fantastical world of Alice in Wonderland to the darkly surrealism of Tim Burton's films. His ability to fully immerse himself in the world of a character and bring a sense of magic and wonder to his performances is a hallmark of his talent as an actor.
+
+
+<svelte:head>
+
+</svelte:head>

@@ -19,12 +19,6 @@ tiktok: ''
 
 <!-- // notes:  -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Margot-Robbie.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Margot-Robbie">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -189,7 +183,8 @@ People, least of all Robbie, are intricate puzzles of emotions and actions. Our 
 
 The more we understand about people, the richer our interactions and experiences become. So, why not dive in and explore? Sign up below ⬇️, and join 9takes. Together, let's discover more about the fascinating world of human personalities, one take at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -305,7 +300,8 @@ The more we understand about people, the richer our interactions and experiences
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

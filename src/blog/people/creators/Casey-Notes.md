@@ -16,11 +16,7 @@ instagram: ''
 tiktok:
 ---
 
-<svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/4s/Casey-Neistat.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Casey-Neistat">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
@@ -169,6 +165,10 @@ description: "Casey moved to Los Angeles and continued creating and sharing cont
 />
 
 </div>
+
+<svelte:head>
+
+</svelte:head>
 
 Neistat's journey, from starting his filmmaking career to launching his YouTube channel and daily vlogs, reflects his Type 4 personality traits. His creative endeavors, his approach to storytelling, and his emotional depth all align with the characteristics of The Individualist.
 

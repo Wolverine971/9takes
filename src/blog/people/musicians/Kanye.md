@@ -39,11 +39,6 @@ Kanye West concerts
 Kanye West merchandise
 Kanye West interviews -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/Kanye.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kanye">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -126,7 +121,8 @@ How does this perspective of Kanye West enhance your understanding of him as an 
 
 Perhaps there's value in understanding our celebrities, our leaders, and even ourselves not just for their accomplishments but also through their personality type. If you're eager to delve deeper, sign up below ⬇️ and join 9takes. It's a community that values introspective exploration of personalities and viewpoints. Let's peel back the layers, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -226,7 +222,8 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

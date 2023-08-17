@@ -19,11 +19,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 <!-- // notes:  -->
 
-<svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/9s/Kylie-Jenner.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner">
-</svelte:head>
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -106,7 +102,8 @@ With the world as her stage, Kylie Jenner's persona will continue to evolve, as 
 
 If you're curious to delve deeper into the Enneagram and personalities, sign up below ⬇️ and join 9takes, a community committed to introspective exploration of personalities and viewpoints. Together, let's uncover more, one personality at a time. Keep learning, keep questioning, and keep exploring. Sign up, and become a part of our unique journey.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -226,9 +223,9 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
     }
   ]
 }
-
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

@@ -18,12 +18,6 @@ tiktok: 'https://www.tiktok.com/@gigihadid'
 ---
 
 <!-- Notes: Gigi is most likely not a 1,3 or an 8. She is pretty meek and mild-- almost shy. Her mother pushed her to be a model and have a specific body type. There was also the fight between Zayn and her mom-- where she took her mother's side. I could see her as a 6-- although this is just based off the little I know. -->
-
-<svelte:head>
-
-<!-- <meta property="og:image" content="https://9takes.com/types/3s/Logan-Paul.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Gigi-Hadid">
-</svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -82,3 +76,9 @@ So, have we uncovered the essence of Gigi Hadid through the lens of the Enneagra
 Does this exploration provide you with a richer understanding of Gigi Hadid, beyond her public persona? How does recognizing Gigi as a Type 4 influence your perception of her actions and motivations?
 
 In a world obsessed with outward appearances, understanding the intricate tapestry of personalities can provide a refreshing perspective. Ready to dive deeper? Explore our other articles for more introspective analyses of famous personalities, or sign up below ⬇️ to join a community that thrives on unravelling the fascinating world of personalities and life perspectives. Let's explore the depths, one personality at a time.
+
+
+
+<svelte:head>
+
+</svelte:head>
