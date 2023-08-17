@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Nancy-Pelosi'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/Nancy-Pelosi.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Nancy-Pelosi">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -84,7 +80,8 @@ Moreover, Pelosi has demonstrated her willingness to work across the aisle on si
 
 These examples of political flexibility further solidify the connection between Pelosi's character and the Enneagram Type 3, showcasing her ability to navigate complex situations and adjust her strategies accordingly to achieve her goals.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "Article",
@@ -143,4 +140,5 @@ These examples of political flexibility further solidify the connection between 
   "articleBody": "Nancy Pelosi, an influential and pioneering political figure, has made a significant impact on the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career, combined with her commitment to her family, demonstrates a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness and political flexibility."
 }
 </script>
-</div>
+
+</svelte:head>

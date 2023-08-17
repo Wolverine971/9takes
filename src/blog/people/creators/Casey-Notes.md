@@ -10,7 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 4
 type: ['creator']
-wikipedia:
+person: ''
+wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok:

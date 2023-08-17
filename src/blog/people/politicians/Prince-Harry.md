@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Prince-Harry'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/6s/Prince-Harry.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Prince-Harry">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -69,3 +65,8 @@ Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-
 // strongly identifies with groups-> sports and military
 </div>
 -->
+
+
+<svelte:head>
+
+</svelte:head>

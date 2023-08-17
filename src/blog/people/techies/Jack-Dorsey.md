@@ -160,8 +160,6 @@ And now, a question for you: What drives the personalities behind your favorite 
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/5s/Jack-Dorsey.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -273,8 +271,8 @@ And now, a question for you: What drives the personalities behind your favorite 
     }
   ]
 }
-
 </script>
+
 </svelte:head>
 
 <style lang="scss">

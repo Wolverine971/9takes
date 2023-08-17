@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/mrbeast/'
 tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Mr-Beast.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Mr-Beast">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -51,7 +46,6 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 </li>
 <li><b>Controversies and Empathy</b>: Mr. Beast's journey is not without controversies, from allegations about his team's working conditions to the debates around his grand giveaways. Yet, these challenges echo the Type 8's core fear - the fear of being harmed or controlled by others. Understanding this can spark empathy towards the Challenger navigating the public eye.</li>
 <li><b>Core Motivation</b>: Mr. Beast's actions, grand or subtle, can be traced back to his core motivation as a Type 8 – the desire to protect themselves and their independence. Whether it's his philanthropy, his response to controversies, or his insistence on autonomy, everything feeds into this fundamental desire, revealing a multi-dimensional picture of Mr. Beast as a true Enneagram Type 8.
-
 </li>
 </ul>
   </div>
@@ -110,7 +104,8 @@ Does this exploration change your perception of Mr. Beast? Do you find yourself 
 
 It's your turn to delve deeper into this fascinating world of personalities. Explore more articles, unravel the personas of public figures, celebrities, and leaders. Sign up today and join a community that cherishes this introspective exploration. Together, we can delve into the complex layers of personalities, peeling them back, one at a time. Your journey into the Enneagram world starts here.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -229,7 +224,8 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

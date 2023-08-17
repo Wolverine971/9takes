@@ -15,7 +15,6 @@ wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'
 twitter: 'https://twitter.com/FridaKahlo'
 instagram: 'https://www.instagram.com/fridakahlo'
 tiktok: ''
-person: ''
 ---
 
 <script>

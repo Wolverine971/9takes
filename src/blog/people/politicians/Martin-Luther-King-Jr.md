@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Martin-Luther-King-Jr'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Martin-Luther-King-Jr.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Martin-Luther-King-Jr">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -57,3 +53,7 @@ While Martin Luther King Jr. is best known for his work in the civil rights move
 ## He was a bold and fearless leader
 
 As an enneagram type 8, Martin Luther King Jr. was known for his courage and willingness to take risks. He faced numerous threats to his safety and that of his family, but he refused to back down in the face of intimidation. He was willing to go to jail, risk his reputation, and even put his life on the line to fight for what he believed in.
+
+<svelte:head>
+
+</svelte:head>

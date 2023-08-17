@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 8
 type: ['creator']
-wikipedia:
-twitter: ''
+person: 'David-Portnoy'
+wikipedia: ''
+twitter: '' 
 instagram: ''
 tiktok:
 ---

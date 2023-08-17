@@ -10,17 +10,13 @@ priority: '0.6'
 published: false
 enneagram: 9
 type: ['tiktoker']
-wikipedia:
-twitter: 'https://twitter.com/bellapoarch'
+person: 'Bella-Poarch'
+wikipedia: ''
+twitter: '' 'https://twitter.com/bellapoarch'
 instagram: 'https://www.instagram.com/bellapoarch/'
 tiktok: 'https://www.tiktok.com/@bellapoarch'
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="https://9takes.com/types/3s/Bella-Poarch.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Bella-Poarch">
-</svelte:head>
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -54,11 +50,13 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

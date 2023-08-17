@@ -10,8 +10,9 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['celebrity']
-wikipedia:
-twitter:
+person: 'Jon-Stewart'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---

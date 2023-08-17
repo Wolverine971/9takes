@@ -4,23 +4,19 @@ description: 'Why Meghan Markle appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Meghan-Markle'
-lastmod: '2023-05-14'
+lastmod: '2023-08-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 2
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Meghan-Markle'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/2s/Meghan-Markle.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Meghan-Markle">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -77,63 +73,106 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
 - Check out this blog for more on <a href="/blog/enneagram/enneagram-type-2">Enneagram type 2s</a>
 - Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Prince-Harry">Prince Harry.</a>
 
-<div>
-<script type="application/ld+json">{
+<svelte:head>
+
+<script type="application/ld+json">
+ {
   "@context": "http://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Nancy-Pelosi"
-  },
-  "headline": "Nancy Pelosi: An Enneagram Type 3 Achiever",
-  "image": {
-    "@type": "ImageObject",
-    "url": "https://9takes.com/types/3s/Nancy-Pelosi.webp",
-    "height": 800,
-    "width": 1200
-  },
-  "datePublished": "2023-03-10",
-  "dateModified": "2023-03-10",
-  "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "Meghan Markle, Duchess of Sussex, has captivated global audiences since her engagement to Prince Harry and before that on the TV show \"Suits\". She displays characteristics of an Enneagram Type 2, also known as The Helper. A defining trait of Enneagram Type 2’s is their inherent need to be indispensable, which is evident in Meghan's philanthropic endeavors and her engagement in societal change. Meghan's career trajectory and advocacy work, including her role as a Global Ambassador for World Vision Canada, suggest an intrinsic need to be helpful. Her decision to leave the Royal Family might have been influenced by her desire to be in a place where she felt needed. Meghan is also very aware of her public image and has made efforts to control it. On the positive side, she is often praised for her warmth and empathy.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
-  },
-  "publisher": {
-    "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-08-16"
       },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-03-09"
+      },
+      "description": "This blog post examines why Meghan Markle appears to be an Enneagram Type 2. It delves into her personality traits, motivations, and actions that might be related to the core attributes of a Type 2.",
+      "headline": "Meghan Markle Enneagram Type 2",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": {
+          "@id": "https://9takes.com/types/2s/Meghan-Markle.webp"
+        },
+        "width": 1200
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Meghan-Markle",
+        "@type": "WebPage"
+      },
+      "mentions": {
+        "@type": "Person",
+        "name": "Meghan Markle",
+        "sameAs": [
+          {
+            "@id": "https://en.wikipedia.org/wiki/Meghan_Markle"
+          },
+          {
+            "@id": "https://twitter.com/MeghanMarkle"
+          },
+          {
+            "@id": "https://www.instagram.com/meghanmarkle/"
+          }
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
       }
-     ],
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/darkRubix.png",
-      "height": 60
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meghan Markle displays characteristics of an Enneagram Type 2, also known as The Helper. This type is characterized by their inherent need to be indispensable, often driving their philanthropic endeavors and societal engagement. Meghan's involvement in various charitable causes and her role as a Global Ambassador for World Vision Canada are indicative of this trait."
+          },
+          "name": "Why is Meghan Markle considered an Enneagram Type 2?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meghan's decision to leave the Royal Family, her involvement in women’s rights, and other charitable causes, including her role as a Global Ambassador for World Vision Canada, suggest her intrinsic need to be helpful and make a difference. She also has a deep desire to feel love and is very aware of her public image, making efforts to control it."
+          },
+          "name": "What are some examples of Meghan Markle's Type 2 characteristics?"
+        }
+      ]
     }
-  },
-  "mentions": {
-    "type": "Person",
-    "name": "Nancy Pelosi",
-    "sameAs": [
-      "https://en.wikipedia.org/wiki/Nancy_Pelosi",
-      "https://pelosi.house.gov/",
-      "https://twitter.com/SpeakerPelosi"
-    ]
-  },
-  "description": "Explore Nancy Pelosi's character traits and political career through the lens of the Enneagram Type 3, as we delve into her accomplishments, work ethic, image consciousness, and political flexibility, shedding light on the qualities that have made her a groundbreaking political figure.",
-  "articleBody": "Nancy Pelosi, an influential and pioneering political figure, has made a significant impact on the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career, combined with her commitment to her family, demonstrates a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness and political flexibility."
+  ]
 }
 </script>
-</div>
+
+</svelte:head>

@@ -10,7 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 8
 type: ['creator']
-wikipedia:
+person: 'Tana-Mongeau'
+wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok:

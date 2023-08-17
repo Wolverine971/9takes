@@ -78,7 +78,6 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxKgXTXeh070ACyd5fRX2r_XbXeNJ8E0ok&amp;clipt=EM61BxiniQk" title="Emily is a peak 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-
 <svelte:head>
 
 <script type="application/ld+json">

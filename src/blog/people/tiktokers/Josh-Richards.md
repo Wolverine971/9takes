@@ -10,10 +10,11 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['tiktoker']
-wikipedia:
-twitter: 'https://twitter.com/whoisaddison'
-instagram: 'https://www.instagram.com/addisonraee/'
-tiktok: 'https://www.tiktok.com/@addisonre'
+person: 'Josh-Richards'
+wikipedia: ''
+twitter: '' 'https://twitter.com/'
+instagram: 'https://www.instagram.com//'
+tiktok: 'https://www.tiktok.com/@'
 ---
 
 <svelte:head>

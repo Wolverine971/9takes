@@ -17,11 +17,6 @@ instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Winston-Churchill.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Winston-Churchill">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -57,3 +52,7 @@ Enneagram Type 8s have a commanding presence that demands respect from others. C
 ## Protector of His Nation
 
 Enneagram Type 8s are known for their sense of justice and their desire to protect those they care about. Churchill was deeply committed to protecting Britain and its people from harm. He saw it as his duty to defend his country against the threat of Nazi Germany and worked tirelessly to achieve that goal. He famously declared, "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender."
+
+<svelte:head>
+
+</svelte:head>

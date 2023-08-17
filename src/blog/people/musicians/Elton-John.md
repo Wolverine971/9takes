@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/eltonjohn'
 tiktok: 'https://www.tiktok.com/@eltonjohn'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/Elton-John.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Elton-John">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -58,3 +53,8 @@ Another hallmark of Type 7s is their creativity and imagination, and this is cer
 ## Charismatic and engaging
 
 Finally, as a Type 7, Elton John is known for his charisma and engaging personality. His energetic and flamboyant stage presence has made him a beloved figure in the entertainment world, and he has built a strong fan base through his engaging and personable approach. He is also known for his philanthropic work and dedication to social causes, which reflects his desire to make a positive impact on the world.
+
+
+<svelte:head>
+
+</svelte:head>

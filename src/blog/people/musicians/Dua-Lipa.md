@@ -38,11 +38,6 @@ Dua Lipa and The Weeknd
 Dua Lipa fashion
 Dua Lipa and Calvin Harris -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/3s/Dua-Lipa.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Dua-Lipa">
-</svelte:head>
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -150,7 +145,8 @@ Does viewing Dua Lipa through the lens of the Enneagram Type 3 give you a deeper
 
 If you are intrigued by this exploration of Dua Lipa's personality and wish to dive deeper into the fascinating world of the Enneagram and personality analysis, you're in the right place. Sign up below ⬇️ and join our community at 9takes. Here, we delve into the diverse world of personalities, exploring different viewpoints and uncovering fresh insights. Together, let's peel back the layers, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -269,7 +265,8 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

@@ -39,12 +39,6 @@ Halsey Spotify
 Halsey YouTube
 Halsey Instagram -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/8s/Halsey.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Halsey">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -124,7 +118,8 @@ So, what do you think about this perspective on Halsey? Does understanding her t
 
 If you're intrigued and wish to explore more, delve into our other articles about various personalities from different walks of life. Sign up below ⬇️ and join 9takes, a community dedicated to unraveling the mysteries of personality and diverse perspectives on life. Together, let's dig deeper into the psyche, one personality at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
@@ -227,7 +222,8 @@ If you're intrigued and wish to explore more, delve into our other articles abou
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style lang="scss">
   .accordion {

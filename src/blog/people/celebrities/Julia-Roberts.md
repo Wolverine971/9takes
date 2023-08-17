@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 7
 type: ['celebrity']
-wikipedia:
-twitter:
+person: 'Julia-Roberts'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---

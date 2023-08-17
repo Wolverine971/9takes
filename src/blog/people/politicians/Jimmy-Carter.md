@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 2
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Jimmy-Carter'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/2s/Jimmy-Carter.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jimmy-Carter">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -65,3 +61,8 @@ One example of his empathy and connection is his work with the Women's Health In
 Finally, Enneagram Type 2s are known for their positive outlook and hope for a better future. Jimmy Carter is a true optimist who believes in the power of people to create positive change. Despite the challenges he has faced, he remains hopeful and committed to making the world a better place.
 
 One example of his positive outlook and hope is his work with the Elders, a group of world leaders who work together to promote peace and human rights. Carter has said that he remains optimistic about the future and believes that we can work together to build a more just and peaceful world.
+
+
+<svelte:head>
+
+</svelte:head>

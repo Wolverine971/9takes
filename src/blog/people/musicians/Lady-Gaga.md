@@ -19,11 +19,6 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 
 <!-- notes: need to update -->
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/4s/Lady-Gaga.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Lady-Gaga">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -66,3 +61,7 @@ Creativity is the lifeblood of type 4s, and Gaga’s artistic journey encapsulat
 Lady Gaga's unique blend of authenticity, emotional resonance, feelings of being 'different', and her rich creativity vividly paints her as an Enneagram type 4. Sure, personality typings can't capture the entire complexity of an individual, but they offer intriguing insights.
 
 Through this exploration, Lady Gaga's enigmatic persona unravels, revealing the profound depth of her artistry. Isn't it fascinating how much we can uncover about a person through the lens of the Enneagram? The journey doesn't stop here. Immerse yourself further into the world of Enneagram, and who knows, you might discover something intriguing about your personality too!
+
+<svelte:head>
+
+</svelte:head>

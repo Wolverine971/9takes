@@ -10,7 +10,8 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['creator']
-wikipedia:
+person: 'Casey-Neistat'
+wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok:
@@ -20,6 +21,7 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
 </script>
+
 <div
 	style="display: flex;
     justify-content: center;

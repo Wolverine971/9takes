@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 2
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Nancy-Reagan'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/2s/Nancy-Reagan.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Nancy-Reagan">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -59,3 +55,7 @@ Type 2s are often described as warm and welcoming, and this was certainly true o
 Enneagram Type 2s are often motivated by a strong sense of duty and responsibility towards others. Nancy Reagan was no exception. She saw her role as First Lady as an opportunity to serve others, particularly in her advocacy work. She also felt a strong sense of responsibility towards her husband, particularly as his health began to decline in his later years. Her dedication to her husband and her advocacy work are both examples of this sense of duty and responsibility.
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Ronald-Reagan">Ronald Reagan.</a>
+
+<svelte:head>
+
+</svelte:head>

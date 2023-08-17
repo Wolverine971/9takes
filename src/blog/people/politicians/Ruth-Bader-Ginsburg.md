@@ -17,11 +17,6 @@ instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/1s/Ruth-Bader-Ginsburg.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ruth-Bader-Ginsburg">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -73,7 +68,8 @@ As we conclude our exploration, it seems rather convincing that Ginsburg's perso
 
 In a world yearning for unity amidst diversity, perhaps there is merit in comprehending our role models beyond their achievements, through the lens of their personality types. Intrigued? We invite you to explore further. Sign up below ⬇️ and join 9takes, a vibrant community that celebrates insightful explorations of personalities and life perspectives. Let's together embark on an enlightening journey, unearthing one unique persona at a time.
 
-<div>
+<svelte:head>
+
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -181,4 +177,5 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
   ]
 }
 </script>
-</div>
+
+</svelte:head>

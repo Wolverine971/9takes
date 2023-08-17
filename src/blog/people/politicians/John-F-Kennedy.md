@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['politician']
-wikipedia:
-twitter:
+person: 'John-F-Kennedy'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/7s/John-F-Kennedy.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/John-F-Kennedy">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -60,3 +56,7 @@ Finally, type 7 personalities have a tendency to avoid pain and discomfort, pref
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Jackie-Kennedy">Jackie Kennedy.</a>
 And check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Marilyn-Monroe">Marilyn-Monroe.👀</a>
+
+<svelte:head>
+
+</svelte:head>

@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
-wikipedia:
-twitter:
+person: ''
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---

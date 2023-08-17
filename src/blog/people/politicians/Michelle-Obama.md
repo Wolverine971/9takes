@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 1
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Michelle-Obama'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/1s/Michelle-Obama.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Michelle-Obama">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -59,3 +55,7 @@ Another characteristic of enneagram type 1 individuals is their organization and
 Enneagram type 1 individuals often struggle with perfectionist tendencies and a fear of making mistakes. Michelle has spoken about the pressure she felt as a public figure and the constant scrutiny she faced. However, she has also acknowledged the importance of resilience and learning from failures.
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Barack-Obama">Barack</a> and read this to for a look into <a href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" target="_blank">Michelle and Barack's relationship.</a>
+
+<svelte:head>
+
+</svelte:head>

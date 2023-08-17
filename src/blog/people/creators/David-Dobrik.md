@@ -10,7 +10,8 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator']
-wikipedia:
+person: 'David-Dobrik'
+wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok:

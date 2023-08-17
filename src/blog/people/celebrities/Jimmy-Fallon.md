@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 7
 type: ['celebrity']
-wikipedia:
-twitter:
+person: 'Jimmy-Fallon'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---

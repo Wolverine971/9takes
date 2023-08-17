@@ -137,8 +137,6 @@ Register for 9takes below today and begin your journey towards a deeper understa
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/types/3s/Jason-Calacanis.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis">
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -251,6 +249,7 @@ Register for 9takes below today and begin your journey towards a deeper understa
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

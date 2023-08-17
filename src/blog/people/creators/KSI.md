@@ -10,7 +10,8 @@ priority: '0.6'
 published: false
 enneagram: 7
 type: ['creator']
-wikipedia:
+person: 'KSI'
+wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok:

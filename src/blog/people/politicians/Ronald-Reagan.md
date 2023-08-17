@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Ronald-Reagan'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/9s/Ronald-Reagan.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Ronald-Reagan">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -59,3 +55,7 @@ Type 9s are known for their calm demeanor and ability to remain composed under p
 Enneagram Type 9s place a high value on unity and often seek to create a sense of oneness among people. Reagan's "Morning in America" campaign was a prime example of this. He emphasized the idea of Americans working together towards a common goal and painted a positive vision for the future.
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Nancy-Reagan">Nancy Reagan.</a>
+
+<svelte:head>
+
+</svelte:head>

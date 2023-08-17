@@ -17,11 +17,6 @@ instagram: 'https://www.instagram.com/georgewbush/'
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/6s/George-W-Bush.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/George-W-Bush">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -62,3 +57,7 @@ In conclusion, George W. Bush's Enneagram Type 6 tendencies are evident in his r
 <!-- For a more extensive writeup, <a target="_blank" href="https://www.9types.com/writeup/enneagram_bush.html">check this out</a> -->
 
 Check out this one for an <a href="/blog/famous-enneagram-types/George-H-W-Bush">analysis on his father the George H. W. Bush.</a>
+
+<svelte:head>
+
+</svelte:head>

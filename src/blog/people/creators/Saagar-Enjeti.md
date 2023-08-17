@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['creator']
-wikipedia:
-twitter: 'https://twitter.com/esaagar'
+person: 'Saagar-Enjeti'
+wikipedia: ''
+twitter: '' 'https://twitter.com/esaagar'
 instagram: 'https://z-p3.www.instagram.com/esaagar'
 tiktok:
 ---

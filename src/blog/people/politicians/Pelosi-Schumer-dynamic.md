@@ -10,17 +10,12 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['politician']
-wikipedia:
-twitter: 
+person: 'Pelosi-Schumer-dynamic'
+wikipedia: ''
+twitter: '' 
 instagram:
 tiktok:
 ---
-
-<svelte:head>
-
-<!-- <meta property="og:image" content="https://9takes.com/types/3s/Nancy-Pelosi.webp" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Pelosi-Schumer-dynamic">
-</svelte:head>
 
 <div style="display:flex; align-items: center; justify-content: center;">
 
@@ -74,3 +69,7 @@ When asked about the nature of their disagreements, Schumer lightheartedly claim
 An interesting moment in the interview occurred when Schumer attempted to discuss their strategy against Trump. Sensing potential damage to their public image, Pelosi quickly redirected the conversation. This keen awareness of how certain topics might impact their reputation is a prime example of Pelosi's enneagram type 3 tendencies.
 
 In summary, the dynamic between Nancy Pelosi and Chuck Schumer showcases the power of complementary leadership styles. Pelosi's enneagram type 3 visionary approach and Schumer's type 1 meticulous attention to detail have forged a partnership that has left an indelible mark on American politics. Their unique synergy serves as a testament to the potential of collaboration when differing strengths are brought together in pursuit of a common goal. -->
+
+<svelte:head>
+
+</svelte:head>

@@ -10,17 +10,13 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Queen-Elizabeth-II'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/types/9s/Queen-Elizabeth-II.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Queen-Elizabeth-II">
-</svelte:head>
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -59,3 +55,7 @@ Another characteristic of type 9 is a desire for emotional stability and a fear 
 Type 9 individuals also tend to value tradition and history, and Queen Elizabeth II is no exception. Her commitment to upholding the traditions of the monarchy and the Commonwealth is a testament to her respect for the past and her desire to maintain stability and continuity. Her role in the Diamond Jubilee celebrations and the opening of the new session of Parliament are just two examples of her commitment to upholding the traditions of the monarchy and the nation.
 
 Check out this one for an analysis on her son<a href="/blog/famous-enneagram-types/Prince-Harry">Prince Harry.</a>
+
+<svelte:head>
+
+</svelte:head>

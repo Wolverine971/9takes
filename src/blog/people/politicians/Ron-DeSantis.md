@@ -10,8 +10,9 @@ priority: '0.6'
 published: false
 enneagram: 9
 type: ['politician']
-wikipedia:
-twitter:
+person: 'Ron-DeSantis'
+wikipedia: ''
+twitter: ''
 instagram:
 tiktok:
 ---
