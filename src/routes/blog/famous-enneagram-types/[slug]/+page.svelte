@@ -3,9 +3,9 @@
 
 	import type { PageData } from './$types';
 	import type { SvelteComponentTyped } from 'svelte/internal';
-	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
+	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
-	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
+	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	export let data: PageData;
@@ -14,10 +14,10 @@
 </script>
 
 <div style="align-items: inherit;">
-	<BlogPageHead data={data.frontmatter} slug={`blog/famous-enneagram-types/${data.slug}`} />
-	<ArticleTitle title={data.frontmatter.title} />
-	<ArticleDescription description={data.frontmatter.description} />
-	<ArticleMeta metaData={data.frontmatter} />
+	<PeopleBlogPageHead data={data.metadata} />
+	<ArticleTitle title={data.metadata.title} />
+	<ArticleDescription description={data.metadata.description} />
+	<ArticleSubTitle metaData={data.metadata} />
 </div>
 
 <svelte:component this={component} />

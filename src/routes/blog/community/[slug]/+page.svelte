@@ -3,7 +3,7 @@
 	import type { SvelteComponentTyped } from 'svelte/internal';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
-	import ArticleMeta from '$lib/components/blog/ArticleMeta.svelte';
+	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
@@ -16,7 +16,7 @@
 	<BlogPageHead data={data.frontmatter} slug={`blog/topical/${data.slug}`} />
 	<ArticleTitle title={data.frontmatter.title} />
 	<ArticleDescription description={data.frontmatter.description} />
-	<ArticleMeta metaData={data.frontmatter} />
+	<ArticleSubTitle metaData={data.frontmatter} />
 </div>
 
 <svelte:component this={component} />

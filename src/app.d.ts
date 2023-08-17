@@ -52,6 +52,7 @@ declare global {
 			published: boolean;
 			enneagram?: number;
 			type?: string[];
+			person?: string;
 			wikipedia?: string;
 			twitter?: string;
 			instagram?: string;

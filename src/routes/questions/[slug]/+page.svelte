@@ -85,8 +85,9 @@
 <!-- {#if data.flags.userSignedIn || !(!data.flags.userSignedIn && data.flags.userHasAnswered)}
 		<Interact {data} parentType={'question'} />
 	{/if} -->
-
-<QuestionContent data={dataForChild} user={data?.session?.user} />
+{#if dataForChild}
+	<QuestionContent data={dataForChild} user={data?.session?.user} />
+{/if}
 
 <style lang="scss">
 	.question-box {

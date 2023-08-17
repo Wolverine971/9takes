@@ -8,7 +8,7 @@ export const load: PageLoad = async ({
 	params
 }): Promise<{
 	component: any;
-	frontmatter: any;
+	metadata: App.BlogPost;
 	slug: string;
 	suggestions: {
 		niche: { type: string; posts: App.BlogPost[] };
@@ -98,7 +98,7 @@ export const load: PageLoad = async ({
 
 	return {
 		component: post.default,
-		frontmatter: post.metadata as App.BlogPost,
+		metadata: post.metadata as App.BlogPost,
 		slug: params.slug,
 		suggestions: {
 			niche: { posts: sameNichePosts, type: post.metadata.type ? post.metadata.type[0] : '' },
