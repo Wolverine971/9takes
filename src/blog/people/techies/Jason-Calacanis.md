@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['techie']
+person: 'Jason-Calacanis'
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter:
 instagram:

@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
+person: 'Ariana-Grande'
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'
 twitter: ''
 instagram: 'https://www.instagram.com/arianagrande/'

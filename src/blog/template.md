@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: tiptype
 type: ['celebrity']
+person: 'boo-boo'
 wikipedia: ''
 twitter: ''
 instagram: ''

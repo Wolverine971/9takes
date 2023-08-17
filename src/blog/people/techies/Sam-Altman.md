@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie']
+person: 'Sam-Altman'
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter:
 instagram:

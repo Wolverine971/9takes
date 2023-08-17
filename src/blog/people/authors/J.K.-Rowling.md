@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 2
 type: ['author']
+person: 'J.K.-Rowling'
 wikipedia: ''
 twitter: ''
 instagram:

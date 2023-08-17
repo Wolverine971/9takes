@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator']
+person: 'Mr-Beast'
 wikipedia: 'https://en.wikipedia.org/wiki/MrBeast'
 twitter: 'https://twitter.com/MrBeast'
 instagram: 'https://www.instagram.com/mrbeast/'

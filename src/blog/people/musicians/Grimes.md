@@ -9,7 +9,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['']
+type: ['musician']
+person: 'Grimes'
 wikipedia: ''
 twitter: ''
 instagram: ''

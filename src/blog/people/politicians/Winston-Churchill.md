@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['politician']
+person: 'Winston-Churchill'
 wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill'
 twitter:
 instagram:

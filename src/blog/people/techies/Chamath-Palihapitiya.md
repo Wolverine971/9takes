@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie']
+person: 'Chamath-Palihapitiya'
 wikipedia: 'https://en.wikipedia.org/wiki/Chamath_Palihapitiya'
 twitter:
 instagram:

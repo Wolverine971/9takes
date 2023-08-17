@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 5
 type: ['']
+person: 'Tyler-Cowen'
 wikipedia: ''
 twitter: ''
 instagram: ''

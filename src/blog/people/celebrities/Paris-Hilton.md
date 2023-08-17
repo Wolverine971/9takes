@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['']
+person: 'Paris-Hilton'
 wikipedia: ''
 twitter: ''
 instagram: ''

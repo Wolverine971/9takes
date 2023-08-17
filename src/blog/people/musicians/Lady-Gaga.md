@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician']
+person: 'Lady-Gaga'
 wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'
 twitter: 'https://twitter.com/ladygaga'
 instagram: 'https://www.instagram.com/ladygaga'

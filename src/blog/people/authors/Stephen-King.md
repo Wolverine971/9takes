@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 5
 type: ['celebrity']
+person: 'Stephen-King'
 wikipedia: 'https://en.wikipedia.org/wiki/Fred_Rogers'
 twitter: 'https://twitter.com/MisterRogersSay'
 instagram:

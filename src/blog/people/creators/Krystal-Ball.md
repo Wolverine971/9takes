@@ -1,6 +1,6 @@
 ---
-title: 'Krystal Ball Enneagram Type 3'
-description: 'Why Krystal Ball appears to be a type 3'
+title: 'Krystal Ball Enneagram Type 1'
+description: 'Why Krystal Ball appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Krystal-Ball'
@@ -8,8 +8,9 @@ lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 1
 type: ['creator']
+person: 'Krystal-Ball'
 wikipedia: 'https://en.wikipedia.org/wiki/Krystal_Ball'
 twitter: 'https://twitter.com/krystalball'
 instagram: 'https://www.instagram.com/krystalmball'
@@ -20,7 +21,7 @@ tiktok:
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/types/3s/Krystal-Ball.webp" />
+<meta property="og:image" content="https://9takes.com/types/1s/Krystal-Ball.webp" />
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Krystal-Ball">
 </svelte:head>
 

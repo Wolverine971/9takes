@@ -9,7 +9,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['']
+type: ['musician']
+person: 'Janelle-Monae'
 wikipedia: ''
 twitter: ''
 instagram: ''

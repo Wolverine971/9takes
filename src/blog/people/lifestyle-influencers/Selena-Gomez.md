@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'Selena-Gomez'
 wikipedia: 'https://en.wikipedia.org/wiki/Selena_Gomez'
 twitter: 'https://twitter.com/selenagomez'
 instagram: 'https://www.instagram.com/selenagomez'

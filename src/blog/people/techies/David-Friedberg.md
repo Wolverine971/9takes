@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie']
+person: 'David-Friedberg'
 wikipedia: 'https://en.wikipedia.org/wiki/David_Friedberg'
 twitter:
 instagram:

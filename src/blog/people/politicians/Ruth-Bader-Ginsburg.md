@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 1
 type: ['politician']
+person: 'Ruth-Bader-Ginsburg'
 wikipedia: 'https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg'
 twitter:
 instagram:

@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'Corina-Conf'
 wikipedia: ''
 twitter: ''
 instagram: ''

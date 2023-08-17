@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['celebrity']
+person: 'Pete-Davidson'
 wikipedia: ''
 twitter: ''
 instagram: ''

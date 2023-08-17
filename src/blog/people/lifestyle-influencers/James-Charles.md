@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'James-Charles'
 wikipedia: 'https://en.wikipedia.org/wiki/James_Charles'
 twitter: 'https://twitter.com/jamescharles'
 instagram: 'https://www.instagram.com/jamescharles'

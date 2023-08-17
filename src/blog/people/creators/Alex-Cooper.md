@@ -9,7 +9,8 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['']
+type: ['creator']
+person: 'Alex-Cooper'
 wikipedia: ''
 twitter: ''
 instagram: ''

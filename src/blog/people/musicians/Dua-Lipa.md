@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician']
+person: 'Dua-Lipa'
 wikipedia: ''
 twitter: ''
 instagram: ''

@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 5
 type: ['techie']
+person: 'Jack-Dorsey'
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Dorsey'
 twitter:
 instagram:

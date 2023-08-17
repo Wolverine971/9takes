@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician']
+person: 'Demi-Lovato'
 wikipedia: ''
 twitter: ''
 instagram: ''

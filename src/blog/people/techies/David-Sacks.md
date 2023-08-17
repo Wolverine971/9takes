@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie']
+person: 'David-Sacks'
 wikipedia: 'https://en.wikipedia.org/wiki/David_O._Sacks'
 twitter:
 instagram:

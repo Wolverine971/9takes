@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie']
+person: 'Paul-Graham'
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter:
 instagram:

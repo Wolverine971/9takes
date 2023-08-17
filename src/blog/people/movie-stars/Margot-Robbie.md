@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['movieStar']
+person: 'Margot-Robbie'
 wikipedia: ''
 twitter: ''
 instagram: ''

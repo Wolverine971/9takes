@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'Patrick-Starrr'
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Starrr'
 twitter: 'https://twitter.com/patrickstarrr'
 instagram: 'https://www.instagram.com/patrickstarrr/'

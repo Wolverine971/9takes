@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 6
 type: ['techie']
+person: 'Peter-Thiel'
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter:
 instagram:

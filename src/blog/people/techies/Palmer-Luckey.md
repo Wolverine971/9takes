@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 7
 type: ['techie']
+person: 'Palmer-Luckey'
 wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter:
 instagram:

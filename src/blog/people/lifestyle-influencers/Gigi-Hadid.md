@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'Gigi-Hadid'
 wikipedia: 'https://en.wikipedia.org/wiki/Gigi_Hadid'
 twitter: 'https://twitter.com/GiGiHadid'
 instagram: 'https://www.instagram.com/gigihadid/'

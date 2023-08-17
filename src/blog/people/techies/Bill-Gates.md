@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 5
 type: ['techie']
+person: 'Bill-Gates'
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
 twitter: 'https://twitter.com/BillGates'
 instagram: 'https://www.instagram.com/thisisbillgates'

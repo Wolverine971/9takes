@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
+person: 'Bernie-Sanders'
 wikipedia: 'https://en.wikipedia.org/wiki/Bernie_Sanders'
 twitter: 'https://twitter.com/BernieSanders'
 instagram: 'https://www.instagram.com/sensanders'

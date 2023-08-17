@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator']
+person: 'Logan-Paul'
 wikipedia: 'https://en.wikipedia.org/wiki/Logan_Paul'
 twitter: 'https://twitter.com/LoganPaul'
 instagram: 'https://www.instagram.com/loganpaul'

@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
+person: 'Emma-Chamberlain'
 wikipedia: 'https://en.wikipedia.org/wiki/Emma_Chamberlain'
 twitter: 'https://twitter.com/emmachamberlain'
 instagram: 'https://www.instagram.com/emmachamberlain'

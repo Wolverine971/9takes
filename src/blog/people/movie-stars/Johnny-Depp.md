@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['movieStar']
+person: 'Johnny-Depp'
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'
 twitter:
 instagram: 'https://www.instagram.com/johnnydepp/'

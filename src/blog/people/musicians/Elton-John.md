@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician']
+person: 'Elton-John'
 wikipedia: 'https://en.wikipedia.org/wiki/Elton_John'
 twitter: 'https://twitter.com/eltonofficial'
 instagram: 'https://www.instagram.com/eltonjohn'

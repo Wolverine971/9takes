@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['politician']
+person: 'Barack-Obama'
 wikipedia: 'https://en.wikipedia.org/wiki/Barack_Obama'
 twitter: 'https://twitter.com/BarackObama'
 instagram: 'https://www.instagram.com/barackobama'

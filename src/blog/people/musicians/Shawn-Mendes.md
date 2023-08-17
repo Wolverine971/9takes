@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 8
 type: ['musician']
+person: 'Shawn-Mendes'
 wikipedia: ''
 twitter: ''
 instagram: ''

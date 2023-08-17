@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 2
 type: ['celebrity']
+person: 'Oprah-Winfrey'
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'

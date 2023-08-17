@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['musician']
+person: 'Halsey'
 wikipedia: ''
 twitter: ''
 instagram: ''

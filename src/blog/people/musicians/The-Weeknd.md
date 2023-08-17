@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 4
 type: ['musician']
+person: 'the-Weeknd'
 wikipedia: 'https://en.wikipedia.org/wiki/The_Weeknd'
 twitter: 'https://twitter.com/theweeknd'
 instagram: 'https://www.instagram.com/theweeknd'

@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['historical']
+person: 'Robert-Oppenheimer'
 wikipedia: ''
 twitter: ''
 instagram: ''

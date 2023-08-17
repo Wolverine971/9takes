@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['movieStar']
+person: 'Arnold-Schwarzenegger'
 wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
 twitter: 'https://twitter.com/Schwarzenegger'
 instagram: 'https://www.instagram.com/schwarzenegger'

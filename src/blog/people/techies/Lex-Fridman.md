@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 5
 type: ['techie']
+person: 'Lex-Fridman'
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'
 twitter: 'https://twitter.com/lexfridman'
 instagram: 'https://www.instagram.com/lexfridman'

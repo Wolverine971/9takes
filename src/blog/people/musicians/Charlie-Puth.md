@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician']
+person: 'Charlie-Puth'
 wikipedia: 'https://en.wikipedia.org/wiki/Charlie_Puth'
 twitter: 'https://twitter.com/charlieputh'
 instagram: 'https://www.instagram.com/charlieputh/'

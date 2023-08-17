@@ -9,10 +9,6 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: 'situational'
-wikipedia: ''
-twitter: ''
-instagram: ''
-tiktok: ''
 pic: 'greek-statue-yeah-boi'
 ---
 

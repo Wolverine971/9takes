@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 1
 type: ['techie']
+person: 'Michael-Seibel'
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Seibel'
 twitter:
 instagram:

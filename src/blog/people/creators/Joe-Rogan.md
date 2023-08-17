@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 8
 type: ['creator']
+person: 'Joe-Rogan'
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Rogan'
 twitter: 'https://twitter.com/joerogan'
 instagram: 'https://www.instagram.com/joerogan'

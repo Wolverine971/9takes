@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['musician']
+person: 'Billie-Eilish'
 wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'
 twitter: 'https://twitter.com/billieeilish'
 instagram: 'https://www.instagram.com/billieeilish'

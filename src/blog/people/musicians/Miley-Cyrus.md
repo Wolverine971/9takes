@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 7
 type: ['musician']
+person: 'Miley-Cyrus'
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
 twitter: 'https://twitter.com/MileyCyrus'
 instagram: 'https://www.instagram.com/mileycyrus/'

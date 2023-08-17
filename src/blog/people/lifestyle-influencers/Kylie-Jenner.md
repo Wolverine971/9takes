@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 9
 type: ['lifestyleInfluencer']
+person: 'Kylie-Jenner'
 wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
 twitter: 'https://twitter.com/KylieJenner'
 instagram: 'https://www.instagram.com/kyliejenner'

@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['techie']
+person: 'Dalton-Cadwell'
 wikipedia: 'https://en.wikipedia.org/wiki/Dalton_Caldwell'
 twitter:
 instagram:

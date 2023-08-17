@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
+person: 'Khloe-Kardashian'
 wikipedia: ''
 twitter: ''
 instagram: ''

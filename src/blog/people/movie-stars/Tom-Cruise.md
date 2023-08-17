@@ -10,6 +10,7 @@ priority: '0.6'
 published: false
 enneagram: 3
 type: ['movieStar']
+person: 'Tom-Cruise'
 wikipedia: ''
 twitter: ''
 instagram: ''

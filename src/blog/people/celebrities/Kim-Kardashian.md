@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 3
 type: ['celebrity']
+person: 'Kim-Kardashian'
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'

@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 4
 type: ['politician']
+person: 'Jackie-Kennedy'
 wikipedia: 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
 twitter:
 instagram:

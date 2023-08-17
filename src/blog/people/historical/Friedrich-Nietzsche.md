@@ -10,10 +10,12 @@ priority: '0.6'
 published: true
 enneagram: 5
 type: ['historical']
+person: 'Friedrich-Nietzsche'
 wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
+person: 'Friedrich-Nietzsche'
 ---
 
 <!-- // notes:  -->
@@ -103,7 +105,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Type 8s would likely admire Nietzsche's courage to confront societal norms. They may resonate with his fierce intellectual independence.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Type 9s could find Nietzsche's controversial ideas disruptive to their desire for harmony. Nonetheless, they may appreciate his exploration of human experience, which could deepen their understanding of different perspectives.
 
-## Closing the Curtain on Nietzsche's Enneagram Journey
+## In Closing
 
 Tracing the path of Friedrich Nietzsche's life through the lens of Enneagram Type 5 has allowed us a more profound insight into the mind of this revered philosopher. Nietzsche's unquenchable thirst for knowledge, his love for solitude, and his intellectual resilience amidst controversy all point to the characteristics of a Type 5 personality. It's clear that his philosophical explorations were shaped by a mind uniquely attuned to introspection and intellectual pursuit.
 

@@ -10,6 +10,7 @@ priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
+person: 'Ellen-Degeneres'
 wikipedia: 'https://en.wikipedia.org/wiki/Ellen_DeGeneres'
 twitter: 'https://twitter.com/EllenDeGeneres'
 instagram: 'https://www.instagram.com/ellendegeneres'
