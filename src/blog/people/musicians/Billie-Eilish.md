@@ -64,8 +64,6 @@ How does this lens of Enneagram Type 9 shift your perspective on Billie Eilish a
 
 Curious to delve deeper? Sign up below ⬇️ and join 9takes to be part of a community that thrives on introspective explorations of personalities and perspectives. Let's embark on a journey of understanding, one personality at a time.
 
-
-
 <svelte:head>
 
 </svelte:head>

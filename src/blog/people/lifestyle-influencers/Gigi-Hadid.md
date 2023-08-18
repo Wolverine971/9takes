@@ -77,8 +77,6 @@ Does this exploration provide you with a richer understanding of Gigi Hadid, bey
 
 In a world obsessed with outward appearances, understanding the intricate tapestry of personalities can provide a refreshing perspective. Ready to dive deeper? Explore our other articles for more introspective analyses of famous personalities, or sign up below ⬇️ to join a community that thrives on unravelling the fascinating world of personalities and life perspectives. Let's explore the depths, one personality at a time.
 
-
-
 <svelte:head>
 
 </svelte:head>

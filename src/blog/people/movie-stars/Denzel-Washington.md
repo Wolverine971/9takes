@@ -272,6 +272,7 @@ Ready to embark on this journey of discovery? Join us on 9takes - where every pe
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

@@ -268,6 +268,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

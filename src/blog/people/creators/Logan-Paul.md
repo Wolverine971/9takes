@@ -94,7 +94,6 @@ How does this perspective of Logan Paul enhance your understanding of his enigma
 
 To explore more captivating personalities and gain a deeper understanding of the human experience, join our community. Sign up below ⬇️ to be part of a group that values introspective exploration of personalities and diverse viewpoints. Let's embark on a journey of discovery together, unraveling the enigmatic depths of one personality at a time.
 
-
 <svelte:head>
 
 <script type="application/ld+json">

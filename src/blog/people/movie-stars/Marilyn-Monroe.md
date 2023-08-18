@@ -55,7 +55,6 @@ Enneagram Type 6 also experiences inner turmoil and insecurity, which can manife
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/John-F-Kennedy">John F. Kennedy.👀</a>
 
-
 <svelte:head>
 
 </svelte:head>

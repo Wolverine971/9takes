@@ -123,7 +123,6 @@ In a world increasingly connected, yet paradoxically divided, understanding one 
 
 Join the exploration. Let's discover together. Sign up below ⬇️ and be a part of 9takes, a community that thrives on introspective exploration of personalities and perceptions. Let's journey together, unveiling one personality layer at a time.
 
-
 <svelte:head>
 
 <script type="application/ld+json">

@@ -17,8 +17,6 @@ instagram: 'https://www.instagram.com/sensanders'
 tiktok: 'https://www.tiktok.com/@bernie'
 ---
 
-
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -61,7 +59,6 @@ Now that we’ve explored the evidence, it seems quite plausible that Sanders do
 However, personalities are complex, and individuals cannot always be neatly sorted into categories. How does this perspective of Sanders enhance your understanding of him as a politician and public figure? Does seeing Sanders through the lens of the Enneagram Type 9 give you a deeper understanding of his motivations and actions?
 
 In an ever-polarizing world, perhaps there is value in understanding our leaders not just through their policy but also through their personality type. Maybe it's time to explore more. Sign up below ⬇️ and become part of a community that values introspective exploration of personalities and viewpoints. Together, let's peel back the layers, one personality at a time.
-
 
 <svelte:head>
 </svelte:head>

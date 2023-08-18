@@ -81,7 +81,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
 
-
 <svelte:head>
 
 <script type="application/ld+json">

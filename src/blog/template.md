@@ -97,12 +97,12 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
   <p></p>
 </article>
 
-
 <svelte:head>
 
 <script type="application/ld+json">
 
 </script>
+
 </svelte:head>
 
 <style lang="scss">

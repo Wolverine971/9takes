@@ -38,7 +38,6 @@ Dua Lipa and The Weeknd
 Dua Lipa fashion
 Dua Lipa and Calvin Harris -->
 
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

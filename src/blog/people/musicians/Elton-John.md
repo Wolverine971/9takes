@@ -54,7 +54,6 @@ Another hallmark of Type 7s is their creativity and imagination, and this is cer
 
 Finally, as a Type 7, Elton John is known for his charisma and engaging personality. His energetic and flamboyant stage presence has made him a beloved figure in the entertainment world, and he has built a strong fan base through his engaging and personable approach. He is also known for his philanthropic work and dedication to social causes, which reflects his desire to make a positive impact on the world.
 
-
 <svelte:head>
 
 </svelte:head>

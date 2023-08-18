@@ -19,7 +19,6 @@ tiktok: ''
 
 <!-- // notes:  -->
 
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -58,6 +57,7 @@ tiktok: ''
 </details>
 
 ## What is Keanu Reeves' Personality Type?
+
 We all know Keanu, but few have considered the intricate layers of his psyche. Before diving in, let's understand the backbone of our speculation – the Enneagram Type 9.
 
 Type 9, often referred to as "The Peacemaker," desires internal and external peace. They seek harmony, are typically easy-going, and may sometimes struggle with inertia. Their motivation? To maintain a sense of inner calm and avoid conflict.
@@ -86,6 +86,7 @@ Interestingly, many of Keanu's roles involve transformation, seeking peace, or r
 Now, one might argue, "But Keanu's action-packed roles? They're so... intense!" True, but remember, it's not the action but the motivation behind it. John Wick, for instance, only wishes for peace after a deeply personal loss.
 
 ### Understanding the Controversies
+
 Keanu Reeves has faced controversies, like any celebrity. But have we seen volatile outbursts? Rarely. His manner of handling criticism or personal questions often leans towards avoidance or diplomacy – further signs of a Type 9's aversion to conflict.
 
 **The "Sad Keanu" Meme:** In 2010, a paparazzi photo of Keanu sitting alone on a park bench, looking forlorn with a sandwich in hand, went viral. The internet dubbed it "Sad Keanu" and endless memes were created. Many speculated about his mental health and personal life. However, instead of lashing out or expressing disdain, Keanu took it in stride, addressing it with his typical calm demeanor in interviews.
@@ -104,9 +105,9 @@ Keanu Reeves has faced controversies, like any celebrity. But have we seen volat
 	/>
 </div>
 
-**Relationship Rumors:**  Throughout the years, Keanu has been linked romantically with various co-stars and celebrities. Some rumors were baseless, while others were true. One such notable instance was the speculated relationship with Sandra Bullock after their film Speed. Both actors later admitted to having had crushes on each other but never acted on them. Reeves, always reserved and respectful, hardly ever indulges in these conversations, maintaining privacy.
+**Relationship Rumors:** Throughout the years, Keanu has been linked romantically with various co-stars and celebrities. Some rumors were baseless, while others were true. One such notable instance was the speculated relationship with Sandra Bullock after their film Speed. Both actors later admitted to having had crushes on each other but never acted on them. Reeves, always reserved and respectful, hardly ever indulges in these conversations, maintaining privacy.
 
-**Accusations by Paparazzo:**  In 2007, a paparazzo named Alison Silva accused Reeves of hitting him with his Porsche. The case went to court, and while Silva sought damages, Reeves calmly testified that he did not hit the photographer. Witnesses supported Reeves' claim. Once again, instead of getting aggressive or defensive, Keanu remained composed, a testament to his possible Type 9 demeanor.
+**Accusations by Paparazzo:** In 2007, a paparazzo named Alison Silva accused Reeves of hitting him with his Porsche. The case went to court, and while Silva sought damages, Reeves calmly testified that he did not hit the photographer. Witnesses supported Reeves' claim. Once again, instead of getting aggressive or defensive, Keanu remained composed, a testament to his possible Type 9 demeanor.
 
 ## How Keanu's personality comes out in the roles he plays
 
@@ -134,7 +135,6 @@ Sandra Bullock, while reminiscing about their time on the set of Speed, recalled
 #### Handling On-Set Challenges
 
 During the filming of The Matrix, Keanu faced physical challenges due to a spinal surgery. Yet, colleagues reported his determined, yet non-aggressive approach to rehabilitation and training – a balance a Type 9 might naturally strike.
-
 
 ## How Each Enneagram Type Perceives Keanu Reeves
 
@@ -314,6 +314,7 @@ For those ready to embark on this captivating exploration, I invite you to sign 
 }
 
 </script>
+
 </svelte:head>
 
 <style lang="scss">

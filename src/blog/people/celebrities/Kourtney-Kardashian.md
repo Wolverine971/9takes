@@ -228,6 +228,7 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

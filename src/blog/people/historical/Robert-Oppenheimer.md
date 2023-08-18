@@ -210,6 +210,7 @@ In our complex world, understanding people's personalities could pave the way fo
 }
 
 </script>
+
 </svelte:head>
 
 <style lang="scss">
