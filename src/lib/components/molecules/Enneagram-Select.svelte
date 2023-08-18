@@ -197,7 +197,7 @@
 
 	.menu {
 		position: relative;
-		width: 2rem;
+		width: 80px;
 		height: 80px;
 		box-sizing: border-box;
 		text-align: left;

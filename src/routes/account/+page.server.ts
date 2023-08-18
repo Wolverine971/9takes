@@ -2,6 +2,7 @@ import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
+import { PRIVATE_DEMO } from '$env/static/private';
 
 import type { Actions } from './$types';
 
@@ -14,11 +15,11 @@ export const load: PageServerLoad = async (event) => {
 		status
 	} = await supabase.from('profiles').select('*').eq('email', session?.user.email).single();
 
-	let { data: subscriptions, error: subscriptionsError } = await supabase
-		.from('subscriptions')
+	const { data: subscriptions, error: subscriptionsError } = await supabase
+		.from(PRIVATE_DEMO ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
-		questions(id, question, url)`
+		${PRIVATE_DEMO ? 'questions_demo' : 'questions'}(id, question, url)`
 		)
 		.eq('user_id', user?.id);
 

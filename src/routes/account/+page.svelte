@@ -62,7 +62,7 @@
 					await applyAction(result);
 				};
 			}} -->
-		<form action="/logout" method="POST" use:enhance={submitLogout}>
+		<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
 			<button type="submit" class="btn btn-primary">Logout</button>
 		</form>
 	</div>
@@ -86,6 +86,7 @@
 		/>
 	</div>
 	<div class="row">
+		<span style="text-align: center;"> Enneagram <br />Type </span>
 		<EnneagramSelect
 			selectedEnneagram={enneagram}
 			on:enneagramSelected={({ detail }) => {
@@ -94,11 +95,9 @@
 		/>
 	</div>
 
-	<div class="row">
-		<button type="button" class="btn btn-primary" on:click={save}>Save</button>
-	</div>
+	<button type="button" class="btn btn-primary save-btn" on:click={save}>Save</button>
 
-	<div>
+	<div style="margin: 1rem; padding: 1rem;">
 		<h2>Question subscriptions</h2>
 		{#each data.subscriptions as subscription}
 			<div class="row" style="justify-content: flex-start;">
@@ -120,5 +119,17 @@
 		margin: 1rem;
 		justify-content: center;
 		align-items: center;
+	}
+	.logout-btn {
+		position: absolute;
+		top: 0.5rem;
+		right: 0.5rem;
+		width: 100px;
+	}
+	.save-btn {
+		position: absolute;
+		bottom: 0.5rem;
+		right: 0.5rem;
+		width: 100px;
 	}
 </style>
