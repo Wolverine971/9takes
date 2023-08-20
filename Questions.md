@@ -71,6 +71,7 @@
    - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
 
 9. Space and Astronomy
+
    - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
    - Solar System Exploration: Opinions about missions to planets, moons, and other celestial bodies within our solar system.
    - Deep Space and Cosmology: Theories and thoughts about the broader universe, black holes, galaxies, and the big bang.
@@ -80,46 +81,44 @@
    - Space Ethics and Colonization: Debates around the ethics of space exploration, colonization of other planets, and the potential impact on extraterrestrial ecosystems.
 
 10. Arts and Entertainment:
-   - Performing Arts: Opinions about theater, dance, concerts, and live performances.
-   - Visual Arts: Perspectives on painting, sculpture, exhibitions, and art galleries.
-   - Television and Series: Views on TV shows, series trends, streaming platforms.
-   - Gaming: Video games, tabletop games, gaming trends, and e-sports.
+
+- Performing Arts: Opinions about theater, dance, concerts, and live performances.
+- Visual Arts: Perspectives on painting, sculpture, exhibitions, and art galleries.
+- Television and Series: Views on TV shows, series trends, streaming platforms.
+- Gaming: Video games, tabletop games, gaming trends, and e-sports.
 
 11. Law and Justice:
-   - Legal Systems: Discussions about various legal systems, their effectiveness, and fairness.
-   - Criminal Justice: Topics related to prisons, rehabilitation, crime rates.
-   - Human Rights: Discussions on global human rights issues, treaties, and violations.
-   - Intellectual Property: Debates around patents, copyrights, trademarks.
+
+- Legal Systems: Discussions about various legal systems, their effectiveness, and fairness.
+- Criminal Justice: Topics related to prisons, rehabilitation, crime rates.
+- Human Rights: Discussions on global human rights issues, treaties, and violations.
+- Intellectual Property: Debates around patents, copyrights, trademarks.
 
 1.  Science and Research:
-   - Biology and Genetics: Discussions about genetic engineering, CRISPR, and ethical considerations.
-   - Chemistry: Latest discoveries, advancements, and societal impacts.
-   - Earth Sciences: Geology, meteorology, oceanography, and their implications.
-   - Research Ethics: Debates about the ethical considerations in scientific research, animal testing, human trials.
+
+- Biology and Genetics: Discussions about genetic engineering, CRISPR, and ethical considerations.
+- Chemistry: Latest discoveries, advancements, and societal impacts.
+- Earth Sciences: Geology, meteorology, oceanography, and their implications.
+- Research Ethics: Debates about the ethical considerations in scientific research, animal testing, human trials.
 
 13. Transport and Infrastructure:
-   - Public Transport: Opinions on buses, trains, metro systems, and their effectiveness.
-   - Roadways and Highways: Infrastructure development, traffic management, and urban planning.
-   - Air Travel: Opinions about airlines, air travel trends, and innovations.
-   - Maritime: Shipping, cruises, and maritime environmental concerns.
+
+- Public Transport: Opinions on buses, trains, metro systems, and their effectiveness.
+- Roadways and Highways: Infrastructure development, traffic management, and urban planning.
+- Air Travel: Opinions about airlines, air travel trends, and innovations.
+- Maritime: Shipping, cruises, and maritime environmental concerns.
 
 14. Agriculture and Food Production:
-   - Farming Practices: Discussions about organic farming, GMOs, and sustainable agriculture.
-   - Food Supply Chain: Topics about food distribution, wastage, and food security.
-   - Animal Farming: Debates around ethical treatment, veganism, and environmental impacts.
+
+- Farming Practices: Discussions about organic farming, GMOs, and sustainable agriculture.
+- Food Supply Chain: Topics about food distribution, wastage, and food security.
+- Animal Farming: Debates around ethical treatment, veganism, and environmental impacts.
 
 15. History and Archaeology:
-   - Ancient Civilizations: Discussions about historical societies, their practices, and impacts.
-   - Archaeological Discoveries: Latest findings, their significance, and what they tell us about the past.
-   - Modern History: World wars, significant events of the 20th and 21st centuries.
 
-
-
-
-
-
-
-
+- Ancient Civilizations: Discussions about historical societies, their practices, and impacts.
+- Archaeological Discoveries: Latest findings, their significance, and what they tell us about the past.
+- Modern History: World wars, significant events of the 20th and 21st centuries.
 
 ## Question Heirarchy:
 

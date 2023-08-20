@@ -1,5 +1,5 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-import { PRIVATE_AI_API_KEY } from '$env/static/private';
+import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
 
 import type { PageServerLoad } from './$types';
 
@@ -43,34 +43,32 @@ export const actions: Actions = {
 			throw error(400, 'user not registered');
 		}
 
-		// const questionData = {
-		// 	question: question,
-		// 	author_id: author_id,
-		// 	context: context,
-		// 	url: url,
-		// 	img_url: img_url
-		// };
 
-		const resp: any = await createESQuestion(body);
-		if (resp._id) {
-			const qData = {
-				es_id: resp._id,
-				question: question,
-				author_id: author_id,
-				context: context,
-				url: url,
-				img_url: img_url
-			};
-			const { data: insertedQuestion, error: questionInsertError } = await supabase
-				.from('questions')
-				.insert(qData)
-				.select();
-
-			if (insertedQuestion?.length && !questionInsertError) {
-				// await tagQuestion(question, insertedQuestion[0].id);
-				return resp;
+		let esId = null
+		if (!PRIVATE_DEMO) {
+			const resp: any = await createESQuestion(body);
+			if (resp._id) {
+				esId = resp._id
 			}
 		}
+		const qData = {
+			es_id: esId,
+			question: question,
+			author_id: author_id,
+			context: context,
+			url: url,
+			img_url: img_url
+		};
+		const { data: insertedQuestion, error: questionInsertError } = await supabase
+			.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
+			.insert(qData)
+			.select();
+
+		if (insertedQuestion?.length && !questionInsertError) {
+			// await tagQuestion(question, insertedQuestion[0].id);
+			return insertedQuestion;
+		}
+
 		return null;
 	}
 };

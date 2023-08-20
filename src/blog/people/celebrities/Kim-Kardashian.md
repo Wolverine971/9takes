@@ -37,7 +37,6 @@ Kylie Jenner - 3w4??? (And maybe Kim is 3w2?)
 Kendal Jenner - 4??? -->
 <!-- notes: where is kim Kardashian from, why is she famous, who is kim dating, can kim practice law, kim and kylie jenner sisters,, when was kim born, pete davidson, cristiano ronaldo, dating, skims, marylilyn monroe, bianca censori, net worth, boyfriend, age, height, instagram, met gala, house -->
 
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

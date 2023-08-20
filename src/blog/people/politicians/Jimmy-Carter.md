@@ -62,7 +62,6 @@ Finally, Enneagram Type 2s are known for their positive outlook and hope for a b
 
 One example of his positive outlook and hope is his work with the Elders, a group of world leaders who work together to promote peace and human rights. Carter has said that he remains optimistic about the future and believes that we can work together to build a more just and peaceful world.
 
-
 <svelte:head>
 
 </svelte:head>

@@ -66,7 +66,6 @@ Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-
 </div>
 -->
 
-
 <svelte:head>
 
 </svelte:head>

@@ -72,12 +72,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 <svelte:head>
 
-
 <script type="application/ld+json">
 
 </script>
-</svelte:head>
 
+</svelte:head>
 
 <style lang="scss">
   .accordion {

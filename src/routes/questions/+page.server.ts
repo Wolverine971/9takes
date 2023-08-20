@@ -4,6 +4,8 @@ import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
 import { elasticClient } from '$lib/elasticSearch';
 
+import { PRIVATE_DEMO } from '$env/static/private';
+
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import type { Database } from '../../schema';
@@ -105,7 +107,7 @@ export const actions: Actions = {
 			const questionString = body.searchString as string;
 
 			const { data: questions, error: findQuestionsError } = await supabase
-				.from('questions')
+				.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
 				.select('*')
 				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
 					type: 'websearch',
@@ -154,7 +156,7 @@ export const actions: Actions = {
 			const questionId = parseInt(body.questionId as string);
 
 			const { data: comments, error: findCommentsError } = await supabase
-				.from('comments')
+				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
 
 				.select(`*, profiles!inner (enneagram, id)`, { count: 'exact' })
 				.eq('parent_type', 'question')
@@ -178,7 +180,7 @@ export const actions: Actions = {
 			const count = parseInt(body.count as string);
 
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
-				.from('questions')
+				.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
 				.select(`*`, { count: 'estimated' })
 				.order('created_at', { ascending: false })
 				.range(count, count + 10);

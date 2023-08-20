@@ -80,7 +80,6 @@ Lex Fridman exemplifies that Type 5 individuals, with their profound understandi
 
 Indeed, as we engage with the world around us, it's worth taking a moment to consider the Enneagram's insights and how they might help us better understand not just the personalities of influential figures like Lex Fridman but also our own unique ways of interacting with the world.
 
-
 <svelte:head>
 
 <script type="application/ld+json">
@@ -173,4 +172,5 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   }
 }
 </script>
+
 </svelte:head>

@@ -250,6 +250,7 @@ I've tried to provide a balance between emotional appeal and logical reasoning f
 I hope this post resonates with your audience and encourages registrations for 9takes! Would you like any modifications or additional information?
 
 <svelte:head>
+
 <meta property="og:image" content="https://9takes.com/blogs/greek-statue-yeah-boi.webp" />
 <link rel="canonical" href="https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type">
 <script type="application/ld+json">

@@ -20,6 +20,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 <svelte:head>
 
 </svelte:head>
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

@@ -17,7 +17,6 @@ instagram: ''
 tiktok:
 ---
 
-
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -38,7 +37,6 @@ tiktok:
 > **Disclaimer** This analysis of Jenna Marbles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jenna Marbles.
 
 <p class="firstLetter"></p>
-
 
 <svelte:head>
 

@@ -222,6 +222,7 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

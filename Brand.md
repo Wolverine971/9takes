@@ -33,3 +33,7 @@ Building an honest, engaged, and insightful community
 ASK QUESTIONS, GIVE YOUR HOT TAKES, TALK TO PEOPLE\
 
 Make DMing easy, Get a convo starter- an ice breaker
+
+Behind that rough exterior is something soft
+
+The black on the surface gives way the pink between the cracks

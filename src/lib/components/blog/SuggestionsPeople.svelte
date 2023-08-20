@@ -103,7 +103,7 @@
 		max-width: 262px;
 		width: 100%;
 		//   background-color: #f2f8f9;
-		border-radius: 4px;
+		border-radius: 5px;
 		padding: 16px 12px;
 		margin: 6px;
 		text-decoration: none;

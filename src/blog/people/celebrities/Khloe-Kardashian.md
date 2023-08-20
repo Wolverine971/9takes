@@ -96,7 +96,6 @@ What does this perspective reveal about Khloé Kardashian beyond the glittering 
 
 Curious about the personalities of other famous individuals? Interested in seeing them through the lens of the Enneagram? Dive deeper, explore more, and join us at 9takes, a community that values introspective exploration of personalities and viewpoints. Together, let's unravel the layers of the human psyche, one personality at a time. Sign up below ⬇️.
 
-
 <svelte:head>
 
 <script type="application/ld+json">

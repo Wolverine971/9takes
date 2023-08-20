@@ -12,7 +12,7 @@ enneagram: 8
 type: ['creator']
 person: 'David-Portnoy'
 wikipedia: ''
-twitter: '' 
+twitter: ''
 instagram: ''
 tiktok:
 ---
@@ -37,8 +37,6 @@ tiktok:
 > **Disclaimer** This analysis of David Portnoy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Portnoy.
 
 <p class="firstLetter"></p>
-
-
 
 <svelte:head>
 

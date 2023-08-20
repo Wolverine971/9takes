@@ -19,7 +19,6 @@ tiktok: ''
 
 <!-- might be a type 3 -->
 
-
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

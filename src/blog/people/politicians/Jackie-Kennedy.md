@@ -56,8 +56,6 @@ Finally, Enneagram Type 4s often have a strong desire to be seen as special and 
 
 Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/John-F-Kennedy">John F Kennedy.</a>
 
-
-
 <svelte:head>
 
 </svelte:head>

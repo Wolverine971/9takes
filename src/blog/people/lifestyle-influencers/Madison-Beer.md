@@ -19,7 +19,6 @@ tiktok: ''
 
 <!-- Notes:  -->
 
-
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -36,5 +35,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div> -->
+
 <svelte:head>
 </svelte:head>

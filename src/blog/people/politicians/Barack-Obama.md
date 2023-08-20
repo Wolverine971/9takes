@@ -260,6 +260,7 @@ Understanding others starts with understanding oneself. Let's embark on this jou
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

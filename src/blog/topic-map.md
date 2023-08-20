@@ -88,6 +88,4 @@ Enneagram and Life Purpose.
 
 We are looking for enneagram type 1, 2, 3, 5, 6, 7, 8, 9
 
-
-
 How each enneagram type dances

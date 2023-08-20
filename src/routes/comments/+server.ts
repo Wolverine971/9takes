@@ -2,6 +2,7 @@
 
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import { PRIVATE_DEMO } from '$env/static/private';
 
 import type { PostgrestResponse } from '@supabase/supabase-js';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
@@ -33,7 +34,7 @@ export async function GET({
 
 		if (user?.id) {
 			const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
-				.from('comments')
+				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
 				.select('*')
 				.eq('parent_type', 'question')
 				.eq('parent_id', parentId)
@@ -55,8 +56,8 @@ export async function GET({
 			return {};
 		}
 
-		let { data: questionComments, error: questionCommentsError } = await supabase
-			.from('comments')
+		const { data: questionComments, error: questionCommentsError } = await supabase
+			.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
 			.select(
 				`
 		id
@@ -82,8 +83,8 @@ export async function GET({
 			throw new Error('Unable to retrieve comments');
 		}
 		if (questionCommentIds) {
-			let { data: commentComments, error: commentError } = await supabase
-				.from('comments')
+			const { data: commentComments, error: commentError } = await supabase
+				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
 				.select(
 					`
 					id
@@ -113,7 +114,7 @@ export async function GET({
 				});
 			}
 
-			let commentMap: ICommentMap = {};
+			const commentMap: ICommentMap = {};
 			commentComments?.forEach((c: any) => {
 				if (commentMap[c?.parent_id]) {
 					commentMap[c?.parent_id] = [...commentMap[c?.parent_id], c];
