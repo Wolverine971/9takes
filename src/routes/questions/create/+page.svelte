@@ -68,21 +68,28 @@
 </script>
 
 <div class="card">
-	<h1 style="color: white">Create Question</h1>
+	<h1 style="text-align: center">Create Question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
 		<input type="text" name="question" placeholder="Question" bind:value={question} />
-		<button class="btn btn-primary" type="button" on:click={getUrl}> Create Question </button>
+		<button class="btn btn-primary" type="button" on:click={getUrl}> Create </button>
 	</form>
 
 	<Modal2>
-		<div>
-			<p>Create Question</p>
+		<div class="modal-size">
+			<h1>Create Question</h1>
 			<!-- <p>Tag your question:</p> -->
-			<p>Url: {url}</p>
+
+			<h3>If your question gets 3 comments we will tag and keep it!</h3>
+
+			<p>Url: {`https://9takes.com/questions/${url}`}</p>
 			<button class="btn btn-primary" type="button" on:click={createQuestion}>Create</button>
 		</div>
 	</Modal2>
 </div>
 
 <style lang="scss">
+	.modal-size {
+		height: max(250px, 55vh, 55vh);
+		width: clamp(300px, 50vw, 50vw);
+	}
 </style>

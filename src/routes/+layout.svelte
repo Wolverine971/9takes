@@ -42,7 +42,7 @@
 <Toast />
 {#if $page.url.pathname === '/'}
 	<Jumbotron
-		image={'greek_pantheon.png'}
+		image={'greek_pantheon.webp'}
 		showIcon={innerWidth > 760 && true}
 		text={'9takes'}
 		subtext={''}

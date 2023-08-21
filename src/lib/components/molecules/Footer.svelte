@@ -48,10 +48,6 @@
 		padding: 0;
 		overflow: hidden;
 		gap: 10px;
-
-		li {
-			margin: 1rem;
-		}
 	}
 	footer {
 		display: flex;
@@ -75,6 +71,14 @@
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
+		}
+		li {
+			margin: 1rem;
+		}
+	}
+	@media (max-width: 480px) {
+		li {
+			margin: 0.2rem 0;
 		}
 	}
 </style>
