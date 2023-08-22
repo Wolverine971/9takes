@@ -13,11 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personality-test">
-</svelte:head>
 <!-- Take a free, ~5 min test here -->
 
 <p class="firstLetter">As opposed to other personality tests the enneagram gets at your core motivations
@@ -111,3 +106,93 @@ Once you have identified the emotion that you interact with the most the next pa
 - Fear, Types [5- The Investigator](/blog/enneagram/enneagram-type-5), [6- The Loyalist](/blog/enneagram/enneagram-type-6), [7- The Enthusiast](/blog/enneagram/enneagram-type-7)
 
 For now read the types and determine which if any you identify with. More to come!
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personality-test">
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "The blog aims to guide readers on how to determine their Enneagram type by examining their core motivations and fears. It delves into the concept of 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-03-11"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-03-11"
+      },
+      "description": "How to determine or deduce your Enneagram type.",
+      "headline": "Determining Your Enneagram Type",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-personality-test",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Past experiences, often referred to as 'childhood wounds,' play a significant role in shaping your Enneagram type. These experiences influence your core motivations and fears, which in turn define your type."
+          },
+          "name": "How do past experiences shape your Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Core emotions like anger, fear, and shame are pivotal in determining your Enneagram type. These emotions are linked to your core motivations and fears, helping you identify your dominant emotion and, consequently, your type."
+          },
+          "name": "What role do emotions like anger, fear, and shame play in determining your Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the Enneagram system, core emotions are linked to centers of intelligence like the head, heart, and body. For example, fear is associated with intellectual intelligence, shame with emotional intelligence, and anger with instinctual intelligence."
+          },
+          "name": "How do core emotions relate to centers of intelligence like the head, heart, and body?"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</svelte:head>

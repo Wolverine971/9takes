@@ -40,7 +40,7 @@ tiktok:
 <p class="firstLetter">You've seen him on social media, you've heard about his controversies, and you've probably even watched his BFFs podcast. But have you ever wondered what makes <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Dave_Portnoy" >Dave Portnoy</a> tick? What's the driving force behind the man who sold Barstool Sports only to buy it back from Penn Gaming? Today, we're diving deep into Dave's psyche, speculating on his Enneagram personality type: Type 8, also known as the Challenger.</p>
 
 <details>
-<summary class="accordion">TL;DR: Why Dave Portnoy is an Enneagram type tiptype </summary>
+<summary class="accordion">TL;DR: Why Dave Portnoy is an Enneagram type 8 </summary>
 <div class="panel">
 <ul>
 <li><b>The Maverick Entrepreneur:</b> When you think of Dave Portnoy, his audacious business moves come to mind, like selling Barstool Sports and then buying it back. This decisive and strategic behavior is a hallmark of an Enneagram Type 8, who values control and fears being controlled by others.

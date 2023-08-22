@@ -11,12 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-1">
-</svelte:head>
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -141,7 +135,10 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
 <!-- ## Psychologist Studies Relevant to the Enneagram 1
 - Concepts become forces when they resist one another: categorized as fear of being wrong as it pertains to the nature of concepts and how they interact with one another. Johann Friedrich Herbart -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-1">
 <script type="application/ld+json">  
   {
   "@context": "http://schema.org",
@@ -475,7 +472,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style>
     .scroll-table {

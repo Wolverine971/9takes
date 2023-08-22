@@ -14,12 +14,6 @@ previewHtml: ''
 pic: 'greek-statue-reading'
 ---
 
-<svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/blogs/greek-statue-reading.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-self-development">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -72,7 +66,10 @@ The Enneagram can also help us recognize our own goals and fears, as well as tho
 
 In using the Enneagram as a tool for personal growth and self-improvement, it's important to remember that everyone's journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.
 
-<div>
+<svelte:head>
+
+  <meta property="og:image" content="https://9takes.com/blogs/greek-statue-reading.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-self-development">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
@@ -80,7 +77,7 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
+    "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
@@ -136,4 +133,4 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   }
 }
 </script>
-</div>
+</svelte:head>

@@ -11,12 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-7">
-</svelte:head>
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -119,7 +113,10 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
 - The sight of tasty food makes a hungry man's mouth water: categorized as desire for pleasure and excitement as it pertains to the pleasures of the senses - Ivan Pavlov
 - Profitless acts are stamped out: categorized as fear of pain and suffering as it pertains to the need for behavior to be motivated by a clear goal or outcome - Edward Thorndike -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-7">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -318,7 +315,8 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
 .scroll-table {

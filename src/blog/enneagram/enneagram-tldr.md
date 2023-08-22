@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-tldr">
-</svelte:head>
-
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. Each type has its own distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
 
 ## The Nine Enneagram Types
@@ -56,3 +50,94 @@ While online tests can provide a starting point for determining your Enneagram t
 ## Conclusion
 
 By understanding your Enneagram type, you can gain insight into your strengths and weaknesses, and identify areas for personal growth. But you can also gain insight into others and the potential applications are only limited by your own creativity.
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-tldr">
+  <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "The blog provides a short synopsis of the Enneagram, a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. It briefly describes each of the nine Enneagram types and offers tips on how to determine your own type through self-reflection and introspection.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-02-10"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-02-10"
+      },
+      "description": "Short synopsis of the enneagram.",
+      "headline": "Enneagram TLDR",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-tldr",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your core motivations and fears are key elements in determining your Enneagram type. Each type is driven by a specific core motivation and fear, and aligning these with your own can help you identify your type."
+          },
+          "name": "How do your core motivations and fears align with the Enneagram types?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Introspection and self-reflection are crucial for accurately determining your Enneagram type. While online tests can provide a starting point, a deeper understanding of your motivations, fears, and traits is necessary for a more accurate identification."
+          },
+          "name": "What role does introspection play in accurately determining your Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Knowing your Enneagram type not only helps you understand yourself better but also provides insights into the motivations and behaviors of others. This can be particularly useful in relationships and team dynamics."
+          },
+          "name": "How can knowing your Enneagram type help you better understand the people around you?"
+        }
+      ]
+    }
+  ]
+}
+
+</script>
+
+</svelte:head>

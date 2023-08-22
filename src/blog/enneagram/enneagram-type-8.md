@@ -11,12 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-8">
-</svelte:head>
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -118,7 +112,10 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 - The struggle between the life and death instincts persists throughout life: categorized as fear of being controlled or harmed as it pertains to the primal struggle between opposing forces in life - Melanie Klein
 - Nothing is more natural than for the cat to "love" the rat: categorized as desire for power and control as it pertains to the natural order of predator and prey - Zing-Yang Kuo -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-8">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [
@@ -331,7 +328,8 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
 .scroll-table {

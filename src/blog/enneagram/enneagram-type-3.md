@@ -11,11 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-3">
-</svelte:head>
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -133,7 +128,10 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
 - The intelligence of an individual is not a fixed quantity: categorized as desire for success and recognition as it pertains to the nature of intelligence and how it can be developed and improved - Alfred Binet
 - The collective unconscious is made up of archetypes: categorized as desire for success and recognition as it pertains to the importance of archetypes in understanding the human psyche - Carl Jung -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-3">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [
@@ -339,7 +337,8 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
 

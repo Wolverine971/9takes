@@ -1,14 +1,14 @@
 ---
-title: 'Mindy Kaling An Enneagram Type 3'
-description: 'Why Mindy Kaling appears to be a type 3'
+title: 'Mindy Kaling An Enneagram Type 6'
+description: 'Why Mindy Kaling appears to be a type 6'
 author: 'DJ Wayne'
-date: '2023-06-21'
+date: '2023-08-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Mindy-Kaling'
-lastmod: '2023-06-21'
+lastmod: '2023-08-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 6
 type: ['movieStar']
 person: 'Mindy-Kaling'
 wikipedia: ''
@@ -16,6 +16,8 @@ twitter: ''
 instagram: ''
 tiktok: ''
 ---
+
+<!-- https://www.truity.com/blog/what-are-mindy-kalings-enneagram-and-myers-briggs-types -->
 
 <!-- // notes:  -->
 
@@ -29,7 +31,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Mindy-Kaling'}.webp`}
+		image={`/types/6s/${'Mindy-Kaling'}.webp`}
 		showIcon={false}
 		displayText="Mindy Kaling"
 		subtext=""
@@ -39,7 +41,7 @@ tiktok: ''
 > **Disclaimer** This analysis of Mindy Kaling's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mindy Kaling.
 
 <details>
-<summary class="accordion">TL;DR: Why Mindy Kaling is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Mindy Kaling is an Enneagram type 6</summary>
 <div class="panel">
 <ul>
 <li>
@@ -62,7 +64,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type 6- The Achiever](/blog/enneagram/enneagram-type-6)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

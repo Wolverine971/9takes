@@ -41,7 +41,7 @@ tiktok: ''
 <p class="firstLetter">You know him as Jack Dawson, the charming artist aboard the Titanic. You've seen him as Jordan Belfort, the Wall Street maven with a penchant for excess. But who is <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a> when the cameras stop rolling? What drives him, what are his fears, and most intriguingly, what is his Enneagram personality type?</p>
 
 <details>
-<summary class="accordion">TL;DR: Why Leonardo DiCaprio is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Leonardo DiCaprio is an Enneagram type 7</summary>
 <div class="panel">
 <ul>
 <li><b>Versatility in Roles:</b> When you think of DiCaprio, his diverse range of roles comes to mind. From romantic leads to complex anti-heroes, his choice of characters aligns with a Type 7's need for variety and fear of confinement. This versatility suggests a restless curiosity and a desire for new experiences, hallmark traits of a Type 7.

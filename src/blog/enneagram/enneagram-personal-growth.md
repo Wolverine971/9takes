@@ -14,12 +14,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personal-growth">
-</svelte:head>
-
 <!-- 3 step plan for personal growth -->
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
@@ -153,3 +147,94 @@ Growth Indicators: Improved assertiveness, effective conflict resolution, and pr
 In 5 Years: They will have developed a strong sense of individuality, become more assertive, and fostered healthier relationships through honest communication. They will think, feel, and behave with greater confidence and self-assurance.
 
 **In summary**, each Enneagram type benefits from a tailored approach to self-improvement. By recognizing their distinct tendencies and challenges, individuals can develop personalized strategies for growth. For each type, it's essential to move away from rudimentary approaches and unhealthy self-talk, embracing more nuanced and healthy perspectives. Dealing with stress involves specific techniques and activities that resonate with each type, enabling them to grow and improve. For more on <a href="enneagram-stress-number" >stress check out this article</a>. As individuals progress on their growth paths, they will notice tangible changes in their thoughts, feelings, and behaviors over time. Embracing the Enneagram's insights and applying tailored strategies allows for transformative personal growth and self-development, leading to more fulfilling lives.
+
+<svelte:head>
+
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personal-growth">
+<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "The blog explores personalized growth strategies based on your Enneagram type, covering ideal environments, practical tips, and empowering self-talk mantras for each type. It delves into the unique paths to self-improvement for each Enneagram type, discussing their strengths, weaknesses, and ideal approaches to growth.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-03-10"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-03-10"
+      },
+      "description": "Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering ideal environments, practical tips, and empowering self-talk mantras for each type.",
+      "headline": "Enneagram Personal Growth",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-personal-growth",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Understanding your Enneagram type can offer a unique, personalized path to self-improvement. It helps identify your strengths, weaknesses, and provides customized strategies for growth."
+          },
+          "name": "How can understanding your Enneagram type help you in personal development?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The ideal environment for your Enneagram type is one that aligns with your core motivations and needs. For example, Type 1 thrives in a supportive and organized environment, while Type 7 benefits from a diverse and dynamic setting."
+          },
+          "name": "What kind of environment best suits your Enneagram type for optimal growth?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each Enneagram type has specific techniques and activities that resonate with them when dealing with stress. For instance, Type 1 benefits from relaxation techniques and mindfulness, while Type 7 should engage in mindfulness or meditation."
+          },
+          "name": "What specific techniques and activities resonate with your Enneagram type to help you grow and improve?"
+        }
+      ]
+    }
+  ]
+}
+
+</script>
+
+</svelte:head>

@@ -11,11 +11,6 @@ published: true
 type: 'overview'
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-4">
-</svelte:head>
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -126,7 +121,10 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
 - Be that self which one truly is: categorized as desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
 - The unconscious sees the men behind the curtains: categorized as desire to be unique and special as it pertains to understanding the workings of the unconscious mind - Pierre Janet -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-4">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -326,7 +324,8 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
     .scroll-table {

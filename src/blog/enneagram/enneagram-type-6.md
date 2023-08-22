@@ -11,12 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-6">
-</svelte:head>
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -136,7 +130,10 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 - Anyone, regardless of their nature, can be trained to be anything: categorized as desire for safety and support as it pertains to the importance of training and education in shaping a person's abilities - John B. Watson
 - Imprinting cannot be forgotten!: categorized as fear of uncertainty and insecurity as it pertains to the long-lasting effects of early experiences on behavior - Konrad Lorenz -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-6">
 <script type="application/ld+json">
     {
   "@context": "http://schema.org",
@@ -350,7 +347,8 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
     .scroll-table {

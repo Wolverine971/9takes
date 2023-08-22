@@ -11,12 +11,6 @@ published: true
 type: ['overview']
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-9">
-</svelte:head>
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
@@ -141,7 +135,10 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <!-- ## Psychologist Studies Relevant to the Enneagram 9
 - It is notoriously inadequate to take an adopted child into one's home and love him: categorized as fear of conflict as it pertains to the challenges of integrating a new family member into an existing dynamic. - Donald Winnicott -->
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-9">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -355,7 +352,8 @@ Here are some tips for embracing your Enneagram Type 9 personality:
   ]
 }
 </script>
-</div>
+
+</svelte:head>
 
 <style>
 .scroll-table {
