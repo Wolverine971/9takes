@@ -108,6 +108,7 @@
 			{ name: 'Chelsea-Handler', link: false },
 			{ name: 'Denzel-Washington', link: true },
 			{ name: 'Joe-Rogan', link: true },
+			{ name: 'Dave-Portnoy', link: true },
 
 			{ name: 'Emily-Ratajkowski', link: true }
 		],

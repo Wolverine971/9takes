@@ -106,7 +106,8 @@
 			'Winston-Churchill',
 			'Chelsea-Handler',
 			'Denzel-Washington',
-			'Joe-Rogan'
+			'Joe-Rogan',
+			'Dave-Portnoy'
 		],
 		9: [
 			'Abraham-Lincoln',

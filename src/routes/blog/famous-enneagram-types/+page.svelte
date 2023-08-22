@@ -46,6 +46,15 @@
 </svelte:head>
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
+
+<p>
+	Ever ponder the traits that make Elon Musk a visionary or Beyoncé a cultural icon? You're not
+	alone. This blog dissects the personalities of influential figures across various domains—tech,
+	politics, entertainment, and more. We go beyond surface-level chatter, grounding our insights in
+	psychological theories and real-life examples. Why does this matter? Because understanding the
+	nuances of these personalities can offer a unique lens into human behavior and our own potential.
+	Intrigued? Your exploration into the complex tapestry of human personalities starts here.
+</p>
 <div class="blog-list tile-display">
 	<h3 class="position-center">Celebrities</h3>
 	<div class="people-grid-container">

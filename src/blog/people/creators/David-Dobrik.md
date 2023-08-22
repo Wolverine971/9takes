@@ -38,6 +38,8 @@ tiktok:
 
 > **Disclaimer** This analysis of David Dobrik's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Dobrik.
 
+<p class="firstLetter">He's charismatic, energetic, and always ready for the next big thing. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/David_Dobrik">David Dobrik</a>, the captivating YouTube sensation, has managed to capture the hearts of millions with his playful personality and candidness. Today, we're delving deep into Dobrik's persona, unmasking him as a compelling representation of the Enneagram Type 7 personality – The Enthusiast.</p>
+
 <details>
 <summary class="accordion">TL;DR: Why David Dobrik is an Enneagram 7</summary>
 <div class="panel">
@@ -49,8 +51,6 @@ tiktok:
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">He's charismatic, energetic, and always ready for the next big thing. David Dobrik, the captivating YouTube sensation, has managed to capture the hearts of millions with his playful personality and candidness. Today, we're delving deep into Dobrik's persona, unmasking him as a compelling representation of the Enneagram Type 7 personality – The Enthusiast.</p>
 
 ## The Adventurous Explorer
 
@@ -110,14 +110,14 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-      },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
       },
       "dateModified": {
         "@type": "Date",
