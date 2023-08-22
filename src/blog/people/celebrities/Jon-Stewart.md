@@ -100,7 +100,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 Having journeyed through the life and career of Jon Stewart, we can see how the characteristics of an Enneagram Type 7 seem to emerge at every turn. His joyful approach to life, his ability to find humor in adversity, his continual quest for new experiences, and even his occasional struggle with focus and commitment all point towards a classic Type 7 personality.
 
-But, as with every individual, Stewart is more than just a type. He is a complex character who has shaped his persona with years of experience and growth. While the Enneagram provides a compelling framework to understand his traits, it doesn't fully capture the depth and diversity of his character.
+But, as with every individual, Stewart is more than just a type. He is a complex character who has shaped his persona with years of experience and growth. While the Enneagram provides a framework to understand his traits, it doesn't fully capture the depth and diversity of his character.
 
 Does seeing Stewart through the lens of the Enneagram Type 7 give you a deeper understanding of his motivations and actions? How does this perspective enhance your view of him as a comedian and social commentator?
 

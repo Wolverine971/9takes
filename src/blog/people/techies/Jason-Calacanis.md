@@ -129,11 +129,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## The Call To Action
 
-Ultimately, our exploration offers a compelling case for Jason Calacanis as an Achiever, the Enneagram Type 3. But as we know, personalities are multi-faceted, continually evolving constructs. Could it be that there are other layers to Jason Calacanis' personality yet to be discovered?
+Now that we have made the case for Jason Calacanis being an Enneagram Type 3, has there been any shift in your opinion of him? Personalities are multi-faceted, continually evolving constructs and our opinions of others should be ready to both shift and give way to empathy when we realize we all have different strengths and weaknesses. What other layers of Jason were missed?
 
-Now, as we conclude this exploration, why not embark on your own? Connect with like-minded individuals on 9takes and delve deeper into the fascinating world of the Enneagram. Engage in open conversations, seek different perspectives, and unravel the complex tapestry of personalities around you.
-
-Register for 9takes below today and begin your journey towards a deeper understanding of yourself and others. Will you take the plunge into the captivating universe of the Enneagram?
+If you want to dive deeper into the world of the Enneagram sign up below. We will let you know when we launch!
 
 <svelte:head>
 

@@ -571,7 +571,7 @@ This blog will break down how these important parts work for each Enneagram type
   <p class="panel"> Nines are highly adaptable in their communication, often adjusting their style to maintain peace and harmony. However, they may struggle to adapt when the situation requires conflict or assertiveness.</p>
 </details>
 
-Time for the obligatory reminder that the Enneagram should be used as a tool. There is no replacement for being patient, empathetic, non-judgmental, and encouraging when trying to communicate. Communication is about allowing yourself and others to express themselves authentically while also respecting boundaries and individuality. Checkout this article for <a href="enneagram-communication-tips" >more tips on communicating.</a>
+Time for the obligatory reminder that the Enneagram should be used as a tool. There is no replacement for being patient, empathetic, non-judgmental, and encouraging when trying to communicate. Communication is about allowing yourself and others to express themselves while also respecting boundaries and individuality. Checkout this article for <a href="enneagram-communication-tips" >more tips on communicating.</a>
 
 <div>
 <script type="application/ld+json">{

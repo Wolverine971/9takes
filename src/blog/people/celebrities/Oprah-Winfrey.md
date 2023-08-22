@@ -78,7 +78,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Wrapping It Up
 
-Our exploration of Oprah Winfrey as an Enneagram Type 2 provides fresh insights into the psyche of this world-renowned figure. Her caring nature, desire to help others, and even her controversies provide compelling evidence of her alignment with the traits of 'The Helper.' But, as always with personality frameworks, there is room for interpretation and nuance.
+Our exploration of Oprah Winfrey as an Enneagram Type 2 provides fresh insights into the psyche of this world-renowned figure. Her caring nature, desire to help others, and even her controversies provide evidence of her alignment with the traits of 'The Helper.' But, as always with personality frameworks, there is room for interpretation and nuance.
 
 Now we pose an intriguing question: How does this perspective on Oprah Winfrey enhance your understanding of her as a media mogul and philanthropist? Does examining her actions through the lens of Enneagram Type 2 provide a more profound understanding of her motivations?
 

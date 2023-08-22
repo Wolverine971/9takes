@@ -87,7 +87,7 @@ Delving further into Davidson's jokes, one can glimpse an undercurrent of unreso
 
 ## Merging and Mirroring: Nines in Relationships
 
-Pete Davidson's dating history also paints a compelling picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated <a href="./Ariana-Grande">Ariana Grande</a>, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
+Pete Davidson's dating history also paints a picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated <a href="./Ariana-Grande">Ariana Grande</a>, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
 
 ## The Nine's Path: Seeking Peace amid Chaos
 

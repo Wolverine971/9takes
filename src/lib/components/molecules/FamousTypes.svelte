@@ -95,7 +95,8 @@
 			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Palmer-Luckey', link: false },
-			{ name: 'Grimes', link: true }
+			{ name: 'Grimes', link: true },
+			{ name: 'Leonardo-DiCaprio', link: true }
 		],
 		8: [
 			{ name: 'Beyonce-Knowles', link: true },
@@ -125,8 +126,7 @@
 			{ name: 'Pete-Davidson', link: true },
 			{ name: 'Queen-Elizabeth-II', link: true },
 			{ name: 'Ronald-Reagan', link: true },
-			{ name: 'Keanu-Reeves', link: true },
-			{ name: 'Leonardo-DiCaprio', link: false }
+			{ name: 'Keanu-Reeves', link: true }
 		]
 	};
 	// onMount(() => {

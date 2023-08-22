@@ -38,7 +38,7 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Taylor Swift's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Taylor Swift.
 
-<p class="firstLetter">You've listened to her, watched her, and without a doubt, you've formed an opinion about her. Grammy award-winning singer-songwriter, Taylor Swift, is an indelible part of our cultural landscape. But today, we step into an unexplored territory about Swift's persona, suggesting her as a compelling archetype of Enneagram Type 3 - The Achiever.</p>
+<p class="firstLetter">You've listened to her, watched her, and without a doubt, you've formed an opinion about her. Grammy award-winning singer-songwriter, Taylor Swift, is an indelible part of our cultural landscape. But today, we step into an unexplored territory examing about Taylor's personality, suggesting she is an Enneagram Type 3 - The Achiever.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Taylor Swift is an Enneagram type 3</summary>

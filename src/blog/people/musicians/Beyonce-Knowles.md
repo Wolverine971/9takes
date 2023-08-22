@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 
 > **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
 
-<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her compelling energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
+<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
 
 Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.
 
@@ -98,7 +98,7 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the compelling energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
+      "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

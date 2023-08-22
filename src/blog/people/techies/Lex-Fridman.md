@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 
 ## Unraveling the Enigma: Lex Fridman as an Enneagram Type 5
 
-A profound AI researcher, compelling podcaster, inspiring educator — these phrases only scratch the surface when we attempt to describe <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lex_Fridman">Lex Fridman</a>. Yet, today we delve beyond his career achievements and contributions to technology, to traverse the intriguing landscape of his personality. We will explore how Fridman's persona aligns with the profound characteristics of an Enneagram Type 5, "The Investigator."
+An AI researcher, podcaster, educator — these phrases only scratch the surface when we attempt to describe <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lex_Fridman">Lex Fridman</a>. Yet, today we delve beyond his career achievements and contributions to technology, to traverse the intriguing landscape of his personality. We will explore how Fridman's persona aligns with the profound characteristics of an Enneagram Type 5, "The Investigator."
 
 ### A Dive into The Mind: The Intricate Nature of Type 5
 

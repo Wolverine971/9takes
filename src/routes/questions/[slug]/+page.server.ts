@@ -140,9 +140,8 @@ export const actions: Actions = {
 
 			parseUrls(comment, questionId);
 
-			let esId = null
+			let esId = null;
 			if (!PRIVATE_DEMO) {
-
 				const resp: any = await addESComment({
 					index: parent_type,
 					parentId: es_id,
@@ -152,30 +151,29 @@ export const actions: Actions = {
 					ip
 				});
 				if (resp._id) {
-					esId = resp._id
+					esId = resp._id;
 				}
-
 			}
 
 			const cData =
 				author_id !== 'undefined'
 					? {
-						comment: comment,
-						parent_id: parentId,
-						author_id: author_id.toString(),
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId
-					}
+							comment: comment,
+							parent_id: parentId,
+							author_id: author_id.toString(),
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId
+					  }
 					: {
-						comment: comment,
-						parent_id: parentId,
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId
-					};
+							comment: comment,
+							parent_id: parentId,
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId
+					  };
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
@@ -200,7 +198,6 @@ export const actions: Actions = {
 			} else {
 				console.log(addCommentError);
 			}
-
 
 			throw error(404, {
 				message: `Add comment error`
@@ -228,9 +225,8 @@ export const actions: Actions = {
 
 			parseUrls(comment, questionId);
 
-			let esId = null
+			let esId = null;
 			if (!PRIVATE_DEMO) {
-
 				const resp: any = await addESComment({
 					index: parent_type,
 					parentId: es_id,
@@ -240,31 +236,29 @@ export const actions: Actions = {
 					ip
 				});
 				if (resp._id) {
-					esId = resp._id
+					esId = resp._id;
 				}
-
 			}
-
 
 			const cData =
 				author_id !== 'undefined'
 					? {
-						comment: comment,
-						parent_id: parentId,
-						author_id: author_id.toString(),
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId
-					}
+							comment: comment,
+							parent_id: parentId,
+							author_id: author_id.toString(),
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId
+					  }
 					: {
-						comment: comment,
-						parent_id: parentId,
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId
-					};
+							comment: comment,
+							parent_id: parentId,
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId
+					  };
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
@@ -289,7 +283,6 @@ export const actions: Actions = {
 			} else {
 				console.log(addCommentError);
 			}
-
 
 			throw error(404, {
 				message: `Add comment error`

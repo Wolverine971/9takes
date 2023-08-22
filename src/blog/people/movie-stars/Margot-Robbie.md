@@ -46,7 +46,7 @@ tiktok: ''
 <ul>
 <li><b>Top of Mind:</b> Margot Robbie, renowned for her fierce and bold portrayals in movies such as "Wolf of Wall Street" and "Suicide Squad," exemplifies Enneagram Type 8 characteristics. Her assertive roles and refusal to be typecast mirror Type 8's desire to be in control and resist vulnerability.
 </li>
-<li><b>Inner World:</b> Robbie's inner world as a Type 8 may be filled with an underlying drive to protect not only herself but those close to her. Constantly challenging herself to break new ground, she likely feels a daily responsibility to maintain her strength and autonomy. Her intensity and ability to express anger authentically reveal a Type 8's proactive, forceful nature.
+<li><b>Inner World:</b> Robbie's inner world as a Type 8 may be filled with an underlying drive to protect not only herself but those close to her. Constantly challenging herself to break new ground, she likely feels a daily responsibility to maintain her strength and autonomy. Her intensity and ability to express anger reveal a Type 8's proactive, forceful nature.
 </li>
 <li><b>Controversy:</b> The controversy surrounding Robbie's choice of roles, often strong and sexualized characters, reflects a Type 8's childhood wound of feeling that they must control their environment. While some may criticize her choices, these decisions can be seen as a demonstration of Robbie's Type 8 resilience and refusal to be controlled by societal norms. An empathetic understanding can reveal a deeper connection between these choices and her core Type 8 identity.
 </li>
@@ -64,7 +64,7 @@ In the realm of the Enneagram, Type 8 is known as The Challenger. This type is c
 
 #### Unraveling the Enneagram 8 in Margot Robbie
 
-Margot Robbie's life and career provide compelling evidence of her being a Type 8. From her breakthrough role in the "Wolf of Wall Street" alongside Leonardo DiCaprio to her fearless portrayal of Harley Quinn in the DC Universe, Robbie's career choices reflect her audacity, resilience, and ambition – traits commonly associated with Type 8 personalities.
+Margot Robbie's life and career provide evidence of her being a Type 8. From her breakthrough role in the "Wolf of Wall Street" alongside Leonardo DiCaprio to her fearless portrayal of Harley Quinn in the DC Universe, Robbie's career choices reflect her audacity, resilience, and ambition – traits commonly associated with Type 8 personalities.
 
 #### A Willingness to Confront and Embrace Anger
 

@@ -52,7 +52,7 @@ One example of her creativity and individuality is her painting "The Broken Colu
 
 ## Search for Authenticity
 
-Enneagram Type 4s have a deep desire for authenticity and a search for meaning in life. Frida Kahlo was no exception, and her art was a reflection of her search for authenticity and truth. Her paintings often depicted Mexican culture and folklore, and she used her art to explore her identity as a Mexican woman.
+Enneagram Type 4s have a deep desire to be authentic and to search for meaning in life. Frida Kahlo was no exception, and her art was a reflection of her search for authenticity and truth. Her paintings often depicted Mexican culture and folklore, and she used her art to explore her identity as a Mexican woman.
 
 One example of her search for authenticity is her painting "Self-Portrait with Thorn Necklace and Hummingbird," which depicts her wearing a traditional Mexican outfit and a necklace of thorns. The painting is a reflection of her struggle to find her true self, and a testament to her desire for authenticity and truth.
 

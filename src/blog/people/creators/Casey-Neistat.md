@@ -63,7 +63,7 @@ tiktok:
 <b>Facing Controversy with Vulnerability:</b> Neistat's fearlessness in showing his vulnerabilities can sometimes stir controversy. Yet, his openness aligns with the core fear of an Enneagram 4 — the fear of having no identity or significance. His unabashed authenticity, even in the face of criticism, mirrors the Enneagram 4's journey towards self-acceptance and understanding.
 </li>
 <li>
-<b>Core Motivation:</b> At his core, Casey's motivation lies in his quest for uniqueness and identity, a significant trait of the Enneagram 4. This driving force is evident in all his pursuits, from his passion for running to his unique approach to storytelling. All his actions seem to trace back to his desire for self-expression and individuality, making him a compelling embodiment of an Enneagram 4.
+<b>Core Motivation:</b> At his core, Casey's motivation lies in his quest for uniqueness and identity, a significant trait of the Enneagram 4. This driving force is evident in all his pursuits, from his passion for running to his unique approach to storytelling. All his actions seem to trace back to his desire for self-expression and individuality, making him an embodiment of an Enneagram 4.
 </li>
 </ul>
   </div>

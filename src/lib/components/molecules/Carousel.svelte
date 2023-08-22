@@ -93,7 +93,8 @@
 			'Miley-Cyrus',
 			'David-Dobrik',
 			'Robin-Williams',
-			'Grimes'
+			'Grimes',
+			'Leonardo-DiCaprio'
 		],
 		8: [
 			'Mr-Beast',
@@ -122,8 +123,7 @@
 			'Zooey-Deschanel',
 			'Pete-Davidson',
 			'Queen-Elizabeth-II',
-			'Ronald-Reagan',
-			'Leonardo-DiCaprio'
+			'Ronald-Reagan'
 		]
 	};
 	let w: any;

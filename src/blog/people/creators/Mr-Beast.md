@@ -98,7 +98,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## The Beast Unleashed
 
-Our journey into Mr. Beast's psyche presents a compelling argument for him embodying the traits of an Enneagram Type 8. His influence, desire for autonomy, and how he engages with conflict illustrate his alignment with the Challenger's traits. Simultaneously, his philanthropy and protectiveness reflect the empathetic side of Type 8s.
+Our journey into Mr. Beast's psyche presents a argument for him embodying the traits of an Enneagram Type 8. His influence, desire for autonomy, and how he engages with conflict illustrate his alignment with the Challenger's traits. Simultaneously, his philanthropy and protectiveness reflect the empathetic side of Type 8s.
 
 Does this exploration change your perception of Mr. Beast? Do you find yourself viewing his actions, philanthropy, and even his controversies through a new lens? Seeing Mr. Beast as a Type 8 not only offers us a richer understanding of his motivations but also invites us to see the Enneagram in action in a contemporary context.
 

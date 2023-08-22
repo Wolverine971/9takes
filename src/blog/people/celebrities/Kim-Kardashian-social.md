@@ -30,7 +30,7 @@ Hey there,
 
 Do you see Kim Kardashian as just a reality television star? Or do you see her as an entrepreneur, a beauty mogul, and a controversial figure? Our latest blog post positions Kardashian as a potential archetype of the Enneagram Type 3 - The Achiever​1​.
 
-Join us as we traverse Kardashian's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, to her ongoing balancing act between the real and the ideal, we've painted a compelling picture of why Kardashian may indeed represent a Type 3 personality​1​.
+Join us as we traverse Kardashian's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, to her ongoing balancing act between the real and the ideal, we've painted a picture of why Kardashian may indeed represent a Type 3 personality​1​.
 
 Intrigued? Click here to start reading. If you like this, sign up below and join a community that appreciates the in-depth exploration of personalities and perspectives.
 
