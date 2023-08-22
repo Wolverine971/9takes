@@ -58,7 +58,7 @@ tiktok: ''
 
 ## What is Denzel Washington’s Personality Type?
 
-With our insatiable curiosity about celebrities, understanding their personality types can give us profound insights into their actions, motivations, and, more importantly, their essence. The Enneagram, a popular personality system, might have some answers. Specifically, let's explore Type 8 - the Challenger.
+With our insatiable curiosity about celebrities, understanding their personality types can give us profound insights into their actions, motivations, and, more importantly, their essence. The Enneagram, a popular personality system, might have some answers. Let's explore Type 8 - the Challenger.
 
 ### Enneagram Type 8 - The Challenger
 

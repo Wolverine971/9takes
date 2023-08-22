@@ -145,7 +145,7 @@ This blog will break down how these important parts work for each Enneagram type
 </details>
 <details>
 <summary class="accordion">Respect:</summary>
-  <p class="panel"> They are usually respectful and appreciative of others, although they may struggle to respect boundaries, particularly when they are eager to help or connect.
+  <p class="panel"> They are respectful and appreciative of others, although they may struggle to respect boundaries, particularly when they are eager to help or connect.
 </p>
 </details>
 <details>
@@ -238,7 +238,7 @@ This blog will break down how these important parts work for each Enneagram type
 </details>
 <details>
 <summary class="accordion">Listening Skills:</summary>
-  <p class="panel"> Fours are usually sensitive and empathetic listeners. They are particularly attentive to emotions and unspoken feelings. However, they may become overwhelmed or lose interest if the conversation lacks depth or authenticity.
+  <p class="panel"> Fours are sensitive and empathetic listeners. They are particularly attentive to emotions and unspoken feelings. However, they may become overwhelmed or lose interest if the conversation lacks depth or authenticity.
 </p>
 </details>
 <details>
@@ -533,7 +533,7 @@ This blog will break down how these important parts work for each Enneagram type
 </details>
 <details>
 <summary class="accordion">Listening Skills:</summary>
-  <p class="panel"> Nines are usually good listeners who are genuinely interested in understanding others. However, they may tune out or become passive-aggressive when they encounter conflict or strong demands.
+  <p class="panel"> Nines are good listeners who are genuinely interested in understanding others. However, they may tune out or become passive-aggressive when they encounter conflict or strong demands.
 </p>
 </details>
 <details>

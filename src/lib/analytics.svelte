@@ -17,7 +17,7 @@
 <svelte:head>
 	<link href="https://www.googletagmanager.com/gtag/js?id=G-N2HX66R5RS" rel="preload" as="script" />
 
-	<script defer>
+	<script async>
 		window.dataLayer = window.dataLayer || [];
 
 		function gtag() {
@@ -35,7 +35,7 @@
 		rel="preload"
 		as="script"
 	/>
-	<script defer>
+	<script async>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);

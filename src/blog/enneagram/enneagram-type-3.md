@@ -92,7 +92,7 @@ Learn more about [other types in relationships](/blog/enneagram/enneagram-types-
 
 Enneagram Type 3 individuals, also known as "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, which means that they are often focused on achieving success and advancing in their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 
-In the workplace, Type 3s tend to be very competitive and often strive to be the best in their field. They are usually very self-confident and tend to be natural leaders who can inspire and motivate others to achieve their goals. They are often skilled at strategic planning and have a talent for seeing the big picture, which allows them to make sound business decisions.
+In the workplace, Type 3s tend to be very competitive and often strive to be the best in their field. They are very self-confident and tend to be natural leaders who can inspire and motivate others to achieve their goals. They are often skilled at strategic planning and have a talent for seeing the big picture, which allows them to make sound business decisions.
 
 Type 3s are often excellent at multitasking and can juggle multiple projects simultaneously. They are also skilled at adapting to changing situations and can think on their feet when faced with unexpected challenges. This makes them well-suited for fast-paced, high-pressure work environments.
 

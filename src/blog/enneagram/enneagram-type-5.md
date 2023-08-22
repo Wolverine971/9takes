@@ -56,7 +56,7 @@ While Type 5 individuals possess many strengths, they also face a number of chal
 
 ## Motivations
 
-Enneagram Type 5s are motivated by a core desire for knowledge, understanding, and self-sufficiency. They seek to accumulate knowledge and expertise in their areas of interest, and to become self-reliant and independent in their pursuits. Specifically, some of the common motivations of Enneagram Type 5s may include:
+Enneagram Type 5s are motivated by a core desire for knowledge, understanding, and self-sufficiency. They seek to accumulate knowledge and expertise in their areas of interest, and to become self-reliant and independent in their pursuits. Some of the common motivations of Enneagram Type 5s may include:
 
 - To acquire knowledge: Type 5s are motivated by a deep curiosity and desire for understanding. They seek to learn and explore, often immersing themselves in their areas of interest.
 - To be self-sufficient: Type 5s value their independence and autonomy, and are motivated to be self-sufficient and self-reliant in their pursuits. They may prefer to work alone or to have a high degree of control over their work.
@@ -68,7 +68,7 @@ Enneagram Type 5s are motivated by a core desire for knowledge, understanding, a
 
 Enneagram Type 5s are driven by a core fear of being overwhelmed, depleted, or invaded. They fear that they will not have enough knowledge, resources, or energy to handle the demands of the world around them. As a result, Type 5s tend to retreat into their own thoughts and inner world, seeking to accumulate knowledge and expertise as a way of feeling more prepared and in control.
 
-Specifically, some of the common fears of Enneagram Type 5s may include:
+Common fears of Enneagram Type 5s may include:
 
 - Being seen as incompetent or ignorant: Type 5s value knowledge and expertise, and may fear that they will be exposed as lacking in these areas.
 - Being drained or depleted: Type 5s fear that they will give too much of themselves to others or to their work, leaving them feeling depleted and vulnerable.
