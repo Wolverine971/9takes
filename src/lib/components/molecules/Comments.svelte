@@ -20,7 +20,7 @@
 	const matchData = () => {
 		// console.log('comments', data);
 		_data = Object.assign({}, data);
-		comments = [..._data?.comments];
+		comments = _data?.comments?.length ? [..._data?.comments] : [];
 		comment_count = _data?.comment_count;
 	};
 	// export let comments: any[];

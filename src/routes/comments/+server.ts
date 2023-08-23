@@ -26,6 +26,8 @@ export async function GET({
 }) {
 	try {
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
+
+		const parentType = String(url.searchParams.get('type') ?? '0');
 		const ipAddress = getClientAddress();
 
 		const user = locals?.session?.user;
@@ -34,9 +36,9 @@ export async function GET({
 
 		if (user?.id) {
 			const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
-				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
+				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 				.select('*')
-				.eq('parent_type', 'question')
+				.eq('parent_type', parentType)
 				.eq('parent_id', parentId)
 				.eq('author_id', user?.id);
 
@@ -44,9 +46,9 @@ export async function GET({
 		} else {
 			// checks if it is a rando
 			const { data: hasCommented, error: hasCommentedError } = await supabase
-				.from('comments')
+				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 				.select('*')
-				.eq('parent_type', 'question')
+				.eq('parent_type', parentType)
 				.eq('parent_id', parentId)
 				.eq('ip', ipAddress);
 			userHasAnswered = hasCommented?.length ? true : false;
@@ -57,7 +59,7 @@ export async function GET({
 		}
 
 		const { data: questionComments, error: questionCommentsError } = await supabase
-			.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
+			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 			.select(
 				`
 		id
@@ -70,7 +72,7 @@ export async function GET({
 		, parent_type
 		, es_id
 		, like_count
-		, profiles ( external_id, enneagram)
+		, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 		`,
 				{ count: 'exact' }
 			)
@@ -84,7 +86,7 @@ export async function GET({
 		}
 		if (questionCommentIds) {
 			const { data: commentComments, error: commentError } = await supabase
-				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
+				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 				.select(
 					`
 					id
@@ -97,11 +99,12 @@ export async function GET({
 					, parent_type
 					, es_id
 					, like_count
-					, profiles ( external_id, enneagram)
+					, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 					`,
 					{ count: 'exact' }
 				)
-				.in('parent_id', questionCommentIds);
+				.in('parent_id', questionCommentIds)
+				.eq('parent_type', parentType);
 
 			interface ICommentMap {
 				[key: string]: string[];
@@ -116,6 +119,7 @@ export async function GET({
 
 			const commentMap: ICommentMap = {};
 			commentComments?.forEach((c: any) => {
+				c.profiles = c.profiles_demo;
 				if (commentMap[c?.parent_id]) {
 					commentMap[c?.parent_id] = [...commentMap[c?.parent_id], c];
 				} else {
@@ -123,7 +127,11 @@ export async function GET({
 				}
 			});
 			questionComments?.forEach((q) => {
+				q.profiles = q.profiles_demo;
 				if (commentMap[q.id]) {
+					// q.profiles = q.profiles_demo;
+					commentMap[q.id].profiles = commentMap[q.id].profiles_demo;
+
 					q.comments = commentMap[q.id];
 				}
 			});

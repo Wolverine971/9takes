@@ -1,7 +1,8 @@
 import { Configuration, OpenAIApi } from 'openai';
 
 import { supabase } from '$lib/supabase';
-import { PRIVATE_AI_API_KEY } from '$env/static/private';
+
+import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
 
 export const tagQuestions = async () => {
 	try {
@@ -22,7 +23,7 @@ export const tagQuestions = async () => {
 			error: questionsError,
 			count: questionCount
 		} = await supabase
-			.from('questions')
+			.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
 			.select(`question, id`, { count: 'estimated' })
 			.eq('tagged', null);
 
@@ -125,12 +126,12 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		.from('question_tag')
 		.select()
 		.in('tag_name', cleanedTags);
-	if (!questionTags) {
+	if (!questionTags?.length) {
 		return;
 	}
 	for await (const tag of questionTags) {
 		await supabase
-			.from('question_tags')
+			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')
 			.insert({ question_id: questionId, tag_id: tag.tag_id })
 			.select();
 	}

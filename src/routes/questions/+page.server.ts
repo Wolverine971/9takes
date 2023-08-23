@@ -36,7 +36,7 @@ export const load: PageServerLoad = async (): Promise<{
 		// 		.select(`tag_id`, { count: 'estimated' })
 
 		const { data: uniquetags, error: tagsError } = await supabase
-			.from('distinct_question_tags')
+			.from(PRIVATE_DEMO === 'true' ? 'distinct_question_tags_demo' : 'distinct_question_tags')
 			.select();
 
 		// console.log(tags);
@@ -44,9 +44,13 @@ export const load: PageServerLoad = async (): Promise<{
 			return t.tag_id;
 		});
 		if (!tags) {
-			throw error(500, {
-				message: 'No Questions'
-			});
+			return {
+				subcategoryTags: [],
+				questionsAndTags: []
+			};
+			// throw error(500, {
+			// 	message: 'No Questions'
+			// });
 		}
 
 		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
@@ -65,8 +69,10 @@ export const load: PageServerLoad = async (): Promise<{
 			error: findQuestionsError,
 			count
 		} = await supabase
-			.from('question_tags')
-			.select(`questions(*), question_tag(*)`, { count: 'estimated' })
+			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')
+			.select(`${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
+				count: 'estimated'
+			})
 			.in('tag_id', tags)
 			.limit(20);
 
@@ -81,7 +87,15 @@ export const load: PageServerLoad = async (): Promise<{
 		// const tags = questionsAndTags.map((q) => {
 		// 	return q?.question_tag?.subcategory_id;
 		// });
-
+		if (PRIVATE_DEMO === 'true') {
+			return {
+				subcategoryTags,
+				questionsAndTags: questionsAndTags?.map((q) => {
+					q.questions = q.questions_demo;
+					return q;
+				})
+			};
+		}
 		return {
 			// questions: questionsAndTags.questions,
 			// tags: questionsAndTags.question_tag,
@@ -107,7 +121,7 @@ export const actions: Actions = {
 			const questionString = body.searchString as string;
 
 			const { data: questions, error: findQuestionsError } = await supabase
-				.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
+				.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
 				.select('*')
 				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
 					type: 'websearch',
@@ -156,14 +170,22 @@ export const actions: Actions = {
 			const questionId = parseInt(body.questionId as string);
 
 			const { data: comments, error: findCommentsError } = await supabase
-				.from(PRIVATE_DEMO ? 'comments_demo' : 'comments')
+				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 
-				.select(`*, profiles!inner (enneagram, id)`, { count: 'exact' })
+				.select(
+					`*, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}!inner (enneagram, id)`,
+					{
+						count: 'exact'
+					}
+				)
 				.eq('parent_type', 'question')
 				.eq('parent_id', questionId)
-				.in('profiles.enneagram', enneagramTypes);
+				.in(`${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes);
 			if (comments) {
-				return comments as Comment[];
+				return comments.map((c) => {
+					c.profiles = c.profiles_demo;
+					return c;
+				}) as Comment[];
 			} else {
 				throw error(500, {
 					message: 'Error finding comments'
@@ -180,7 +202,7 @@ export const actions: Actions = {
 			const count = parseInt(body.count as string);
 
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
-				.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
+				.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
 				.select(`*`, { count: 'estimated' })
 				.order('created_at', { ascending: false })
 				.range(count, count + 10);

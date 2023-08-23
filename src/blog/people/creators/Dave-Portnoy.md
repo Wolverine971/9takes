@@ -65,7 +65,7 @@ The Enneagram Type 8 is often described as self-confident, decisive, and willful
 
 When it comes to entrepreneurial spirit, Dave Portnoy is in a league of his own, and his journey with Barstool Sports serves as a case study. Founded in 2003 as a print publication, Barstool Sports transitioned into a digital platform under Portnoy's leadership, eventually becoming a cultural phenomenon. His ability to pivot and adapt to market trends showcases his decisive nature, a defining trait of a Type 8 personality.
 
-But what truly sets Portnoy apart is his audacious business move in 2020. After selling a majority stake of Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million, Portnoy did the unthinkable—he bought it back. This wasn't just a business transaction; it was a power move that screamed control and autonomy, characteristics deeply ingrained in a Type 8 individual.
+What truly sets Portnoy apart is his audacious business move in 2020. After selling a majority stake of Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million, Portnoy did the unthinkable—he bought it back. This wasn't just a business transaction; it was a power move that screamed control and autonomy, characteristics deeply ingrained in a Type 8 individual.
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/px-C7NziRGE?clip=UgkxYbJ6iontap-Nrtoz4sRnGoElpI8SPVv_&amp;clipt=EJKjAxj4sAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -83,9 +83,9 @@ This disregard for societal expectations and his willingness to forge his own pa
 
 Dave Portnoy has often found himself at the center of controversies, but his approach to handling these situations is anything but conventional. While many public figures might issue a carefully worded apology or sidestep the issue, Portnoy faces it head-on.
 
-For example, when Barstool Sports came under fire for its portrayal of women, Portnoy didn't mince words. He stated in an interview, "If you want to hate us, go ahead, but we're not going to change who we are." This wasn't about being defiant; it was about doing what he believed was fair.
+For example, when Barstool Sports came under fire for its portrayal of women, Portnoy didn't mince words. He stated in an interview, “If you want to hate us, go ahead, but we're not going to change who we are.” This wasn't about being defiant; it was about doing what he believed was fair.
 
-Similarly, when accusations arose about promoting a toxic work culture, Portnoy took to social media to say, "If you work for us and you're not happy, you're free to leave. I'm not holding anyone hostage." This wasn't an attempt to silence critics; it was a declaration that he would not be bullied by controversies or slander.
+Similarly, when accusations arose about promoting a toxic work culture, Portnoy took to social media to say, “If you work for us and you're not happy, you're free to leave. I'm not holding anyone hostage.” This wasn't an attempt to silence critics; it was a declaration that he would not be bullied by controversies or slander.
 
 Portnoy's approach to controversies isn't about appeasing the masses; it's about standing his ground and doing what he believes is just. He doesn't allow controversies or public opinion to bully him into submission. Instead, he shapes the narrative on his own terms, doing what he believes is fair and just.
 
@@ -107,7 +107,7 @@ In fact in a recent interview he expressed why he was a fan of Taylor Swift. He 
 
 ### It is not an impulsive act
 
-Also worth noting is that the champagne-popping is not an impulsive act; it's a calculated move. He waits for the right moment when his adversaries are down, and only then does he celebrate their downfall. If you have crossed and betrayed Dave to the level of getting your name on a bottle. You better believe Dave is not letting it go, and Dave is keeping score.
+It is worth noting is that the champagne-popping is not an impulsive act; it's a calculated move. He waits for the right moment when his adversaries are down, and only then does he celebrate their downfall. If you have crossed and betrayed Dave to the level of getting your name on a bottle. You better believe Dave is not letting it go, and Dave is keeping score.
 
 This level of patience is a hallmark of a Type 8 personality, who often plays the long game to achieve their goals.
 

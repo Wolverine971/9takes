@@ -14,6 +14,10 @@ import type { Actions } from './$types';
 import { supabase } from '$lib/supabase';
 import { createESQuestion } from '$lib/elasticSearch';
 import { error } from '@sveltejs/kit';
+import { tagQuestion } from '../../../utils/openai';
+import { typeaheadQuery } from '../../../utils/elasticSearch';
+
+import { elasticClient } from '$lib/elasticSearch';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -22,8 +26,47 @@ export const actions: Actions = {
 		const question = body.question as string;
 
 		const tempUrl = getUrlString(question);
-		console.log(tempUrl);
-		return tempUrl;
+
+		// export const typeaheadQuery = (
+		// 	index: string,
+		// 	field: string,
+		// 	text: string,
+		// 	size: number = 10
+		// ) => {
+		// 	return {
+		// 		index,
+		// 		body: {
+		// 			query: {
+		// 				match_phrase_prefix: {
+		// 					[field]: {
+		// 						query: text
+		// 					}
+		// 				}
+		// 			}
+		// 		},
+		// 		size
+		// 	};
+		// };
+		if (PRIVATE_DEMO === 'true') {
+			return tempUrl;
+		}
+		const response = await elasticClient.search(typeaheadQuery('question', 'url', tempUrl, 200));
+		if (response.hits.hits.length) {
+			return `${tempUrl}-${response.hits.hits.length}`;
+			// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
+		} else {
+			return tempUrl;
+		}
+
+		// const response = await client.search(typeaheadQuery('question', 'url', tempUrl, 200));
+
+		// if (response.hits.hits.length) {
+		// 	res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
+		// } else {
+		// 	res.json({ url: tempUrl });
+		// }
+		// console.log(tempUrl);
+		// return tempUrl;
 	},
 	createQuestion: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
@@ -35,7 +78,7 @@ export const actions: Actions = {
 		const img_url = body.img_url as string;
 
 		const { data: userExists, error: userError } = await supabase
-			.from('profiles')
+			.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 			.select('id')
 			.eq('id', author_id);
 
@@ -44,7 +87,7 @@ export const actions: Actions = {
 		}
 
 		let esId = null;
-		if (!PRIVATE_DEMO) {
+		if (PRIVATE_DEMO === 'false') {
 			const resp: any = await createESQuestion(body);
 			if (resp._id) {
 				esId = resp._id;
@@ -59,12 +102,13 @@ export const actions: Actions = {
 			img_url: img_url
 		};
 		const { data: insertedQuestion, error: questionInsertError } = await supabase
-			.from(PRIVATE_DEMO ? 'questions_demo' : 'questions')
+			.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
 			.insert(qData)
 			.select();
 
 		if (insertedQuestion?.length && !questionInsertError) {
 			// await tagQuestion(question, insertedQuestion[0].id);
+
 			return insertedQuestion;
 		}
 
@@ -73,6 +117,7 @@ export const actions: Actions = {
 };
 
 const getUrlString = (unalteredText: string) => {
+	console.log('fix this');
 	console.log(unalteredText);
 	const text = unalteredText.trim();
 	let url = '';

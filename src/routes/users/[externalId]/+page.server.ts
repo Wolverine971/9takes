@@ -3,6 +3,8 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 
+import { PRIVATE_DEMO } from '$env/static/private';
+
 import type { Actions } from './$types';
 
 /** @type {import('./$types').PageLoad} */
@@ -13,7 +15,7 @@ export const load: PageServerLoad = async (event: any) => {
 		error: findUserError,
 		status
 	} = await supabase
-		.from('profiles')
+		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 		.select('id, enneagram, external_id')
 		.eq('external_id', event.params.externalId)
 		.single();
@@ -51,7 +53,7 @@ export const actions: Actions = {
 				error: updateUserError,
 				status
 			} = await supabase
-				.from('profiles')
+				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
 			// insert(userData);

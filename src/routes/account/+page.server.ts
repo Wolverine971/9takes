@@ -16,10 +16,10 @@ export const load: PageServerLoad = async (event) => {
 	} = await supabase.from('profiles').select('*').eq('email', session?.user.email).single();
 
 	const { data: subscriptions, error: subscriptionsError } = await supabase
-		.from(PRIVATE_DEMO ? 'subscriptions_demo' : 'subscriptions')
+		.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
-		${PRIVATE_DEMO ? 'questions_demo' : 'questions'}(id, question, url)`
+		${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)`
 		)
 		.eq('user_id', user?.id);
 
@@ -48,7 +48,7 @@ export const actions: Actions = {
 				error: updateUserError,
 				status
 			} = await supabase
-				.from('profiles')
+				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
 			// insert(userData);

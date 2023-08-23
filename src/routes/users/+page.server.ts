@@ -2,6 +2,7 @@ import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
+import { PRIVATE_DEMO } from '$env/static/private';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event: any) => {
@@ -15,7 +16,7 @@ export const load: PageServerLoad = async (event: any) => {
 		error: findUserError,
 		status
 	} = await supabase
-		.from('profiles')
+		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 		.select('id, admin, external_id')
 		.eq('id', session?.user?.id)
 		.single();
@@ -23,7 +24,9 @@ export const load: PageServerLoad = async (event: any) => {
 	if (!user?.admin) {
 		throw redirect(307, '/questions');
 	}
-	let { data: profiles, error: profilesError } = await supabase.from('profiles').select('*');
+	let { data: profiles, error: profilesError } = await supabase
+		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+		.select('*');
 	let { data: signups, error: signupsError } = await supabase
 		.from('signups')
 		.select('*')
