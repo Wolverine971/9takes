@@ -140,7 +140,7 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
     "@graph": [
         {
             "@type": "Article",
-            "articleBody": "In the intricate tapestry of the Enneagram, each thread—each type—has its distinct hue and texture. While the art of flexing offers a glimpse into these colors, understanding the deeper motivations reveals the full spectrum. What drives each type to show off? How do they want to be perceived? Let's unravel these layers. [...]",  # truncated for brevity
+            "articleBody": "In the intricate tapestry of the Enneagram, each thread—each type—has its distinct hue and texture. While the art of flexing offers a glimpse into these colors, understanding the deeper motivations reveals the full spectrum. What drives each type to show off? How do they want to be perceived? Let's unravel these layers. [...]",
             "author": {
                 "@type": "Person",
                 "name": "9takes Editorial Team",
