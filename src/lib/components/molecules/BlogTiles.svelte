@@ -6,6 +6,7 @@
 		people: App.BlogPost[];
 		enneagram: App.BlogPost[];
 		community: App.BlogPost[];
+		guides: App.BlogPost[];
 	};
 </script>
 
@@ -37,21 +38,20 @@
 </div>
 
 <div style="width: 100%;">
-	<h2>People Analysis</h2>
-	<div class="people-grid-container">
-		{#each blogs?.people as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="card fit-card txt-white border-0 ">
+	<h2>Guides</h2>
+	<div class="blog-grid-container">
+		{#each blogs?.guides as eBlog}
+			<a
+				href="/blog/guides/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="card txt-white border-0  {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
-						{person.slug.split('-').join(' ')}
+						{eBlog.title}
 					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
 				</div>
 			</a>
 		{/each}
@@ -73,6 +73,28 @@
 						{eBlog.title}
 					</h3>
 					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/each}
+	</div>
+</div>
+
+<div style="width: 100%;">
+	<h2>People Analysis</h2>
+	<div class="people-grid-container">
+		{#each blogs?.people as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
 				</div>
 			</a>
 		{/each}

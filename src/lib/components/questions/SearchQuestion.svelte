@@ -10,7 +10,6 @@
 	let question: string = '';
 
 	const goToCreateQuestionPage = () => {
-		console.log('go create');
 		// cannot create question if you are not logged in
 		if (!data?.session?.user?.id) {
 			notifications.warning('Must be logged in', 3000);

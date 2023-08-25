@@ -1,11 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	// interface AccountData extends PageData {
-	// 	user: any;
-	// 	subscriptions: any;
-	// }
-
 	export let data: PageData;
 </script>
 

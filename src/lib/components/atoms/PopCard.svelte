@@ -7,7 +7,7 @@
 	export let showIcon: boolean = true;
 	export let aspectRatio: string = '';
 
-	export let displayText: string = '9takes';
+	export let displayText: string = '';
 	export let altText: string = '';
 	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
 
@@ -111,12 +111,26 @@
 		animation: pan-image 15s linear infinite;
 	}
 	:root {
-		--background-rgb: 114 33 243;
-		--purple-rbg: 114 33 243;
-		--primary-rgb: var(--purple-rbg);
+		--grex-700-hex: 64, 65, 69;
+		--grex-600-hex: 96, 98, 102;
+		--grex-500-hex: 126, 128, 133;
+		--grex-400-hex: 159, 161, 166;
+
+		--grex-300-hex: 186, 189, 194;
+		--grey-200-hex: 213, 215, 219;
+		--grey-100-hex: 232, 234, 237;
+
+		--color-paladin-1: #f0f5f9;
+		--color-paladin-2: #c9d6df;
+		--color-paladin-3: #52616b;
+		--color-paladin-4: #1e2922;
+		// here
+		--background-rgb: var(--grex-500-hex);
+		--purple-rbg: var(--grex-500-hex);
+		--primary-rgb: var(--grex-500-hex);
 
 		--blob-color-1: rgb(var(--purple-rbg));
-		--blob-color-2: rgb(128, 30, 255);
+		--blob-color-2: var(--grex-400-hex);
 	}
 
 	* {

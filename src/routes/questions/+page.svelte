@@ -17,7 +17,6 @@
 	export let data: PageData;
 
 	const questionUrls: any = {};
-	console.log(data.questionsAndTags);
 
 	const categories = data.questionsAndTags?.reduce((acc: any, curr: any) => {
 		if (!questionUrls[curr.questions.url]) {

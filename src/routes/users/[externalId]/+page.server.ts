@@ -28,8 +28,16 @@ export const load: PageServerLoad = async (event: any) => {
 		)
 		.eq('user_id', user?.id);
 
+	let { data: comments, error: commentsError } = await supabase
+		.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+		.select(`*,`)
+		.eq('author_id', user?.id);
+
+	// got to map the question separately
+	// ${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)
+
 	if (!findUserError) {
-		return { session, user, subscriptions };
+		return { session, user, subscriptions, comments };
 	} else {
 		throw error(404, {
 			message: `Couldn't find the user`

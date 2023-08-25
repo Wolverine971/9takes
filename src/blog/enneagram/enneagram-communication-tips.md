@@ -20,16 +20,16 @@ pic: 'greek-statues-arguing'
 <div
 	style="display: flex;
     justify-content: center;
-margin: 1rem 0;
-	margin: 1rem 0;
+    margin: 1rem 0;
 	"
 >
     <PopCard
     	image={`/blogs/greek-statues-arguing.webp`}
     	showIcon={false}
-    	text="Enneagram type communication tips"
+    	altText="greek statues arguing"
+      displayText=""
     	tint={true}
-		aspectRatio={'1'}
+      aspectRatio={'1'}
     	subtext=""
     />
 </div>

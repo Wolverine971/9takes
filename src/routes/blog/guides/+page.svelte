@@ -1,31 +1,28 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
-	import Layout from '$lib/components/blog/layout.svelte';
-	// import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
-	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	// import Card from '$lib/components/atoms/card.svelte';
+
 	export let data: PageData;
 </script>
 
 <svelte:head>
-	<link rel="canonical" href="https://9takes.com/blog/community" />
+	<link rel="canonical" href="https://9takes.com/blog/guides" />
 </svelte:head>
 
 <BlogPageHead
 	data={{
-		title: '9takes Community Blogs',
-		description: 'List famous people who have their enneagram type analyzed'
+		title: '9takes Guides',
+		description: 'Guides to various topics'
 	}}
 	slug={`blog/community`}
 />
 
-<h1 style="text-align: center;">9takes Community Blogs</h1>
+<h1 style="text-align: center;">9takes Guides</h1>
 <div class="blog-list">
 	<ol>
 		{#each data.posts as blog}
 			<li>
-				<a href={`/blog/community/${blog.slug}`}>
+				<a href={`/blog/guides/${blog.slug}`}>
 					<!-- {blog.slug.split('_').join(' ')}  -->
 					<!-- <pre>{blog.title}</pre> -->
 					{blog.title}

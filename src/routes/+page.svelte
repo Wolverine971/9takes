@@ -69,11 +69,11 @@
 			<h3>What are we building?</h3>
 			<p>
 				<b style="font-size: 1.2rem;">
-					<span style="text-shadow: .5px .5px red;">Reddit</span> Reimagined through the
-					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>
+					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> Reimagined through the
+					<span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>
 					Lens.
-					<!-- A better <span style="text-shadow: .5px .5px red;">reddit</span> tailored to the
-					<span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span>. -->
+					<!-- A better <span style="text-shadow: .5px .5px #E0373C;">reddit</span> tailored to the
+					<span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>. -->
 				</b>
 			</p>
 			<ul style="text-align: left;">
@@ -85,13 +85,14 @@
 				</li>
 				<li>
 					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
-						>Why the <span style="text-shadow: .5px .5px blue;" title="secret sauce">Enneagram</span
+						>Why the <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce"
+							>Enneagram</span
 						>?</a
 					>
 				</li>
 				<li>
 					<a href="blog/enneagram/enneagram-tldr"
-						>What is the <span style="text-shadow: .5px .5px blue;" title="secret sauce"
+						>What is the <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce"
 							>Enneagram</span
 						>?</a
 					>

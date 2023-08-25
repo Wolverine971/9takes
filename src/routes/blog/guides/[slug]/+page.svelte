@@ -13,7 +13,7 @@
 </script>
 
 <div style="align-items: inherit;">
-	<BlogPageHead data={data.frontmatter} slug={`blog/community/${data.slug}`} />
+	<BlogPageHead data={data.frontmatter} slug={`blog/topical/${data.slug}`} />
 	<ArticleTitle title={data.frontmatter.title} />
 	<ArticleDescription description={data.frontmatter.description} />
 	<ArticleSubTitle metaData={data.frontmatter} />

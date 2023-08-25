@@ -7,6 +7,7 @@ export const load = async (): Promise<{
 	people: App.BlogPost[];
 	enneagram: App.BlogPost[];
 	community: App.BlogPost[];
+	guides: App.BlogPost[];
 }> => {
 	// const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
 
@@ -39,13 +40,32 @@ export const load = async (): Promise<{
 
 	const communityPosts = (await Promise.all(communityPromises)).filter((post) => post.published);
 
+	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
+
+	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
+		resolver().then(
+			(post) =>
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
+		)
+	);
+
+	const guidesPosts = (await Promise.all(guidesPromises)).filter((post) => post.published);
+
 	const peoplePosts = (await getAllPosts()).filter((post: App.BlogPost) => post.published);
 
 	// const peoplePosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
 	// publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
-	return { people: peoplePosts, enneagram: enneagramPosts, community: communityPosts };
+	return {
+		people: peoplePosts,
+		enneagram: enneagramPosts,
+		community: communityPosts,
+		guides: guidesPosts
+	};
 };
 
 const getAllPosts = async (): Promise<App.BlogPost[]> => {

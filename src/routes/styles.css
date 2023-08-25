@@ -13,15 +13,24 @@
 	--color-bg-2: #ccd8e3;
 	--color-theme-dark-blue: rgb(25, 25, 112);
 	--color-theme-pink: rgb(247, 37, 133);
-	--color-theme-purple: #5407d9; /*84, 7, 217 */
-	--color-theme-purple-v: #d2cfd7; /* 210, 207, 215  */
+	--color-theme-purple: black; /*84, 7, 217 */
+	--color-theme-purple-v: grey; /* 210, 207, 215  */
 	--color-theme-purple-light: #bc96fd; /* 188, 150, 253  */
 	/* #5407d9; */
 
-	--color-p-origin: #5407d9;
-	--color-p-dark: #261098;
-	--color-p-origin-v: #9f8dff;
-	--color-p-light: #cfc6ff;
+	--grex-700-hex: 64, 65, 69;
+	--grex-600-hex: 96, 98, 102;
+	--grex-500-hex: 126, 128, 133;
+	--grex-400-hex: 159, 161, 166;
+
+	--grex-300-hex: 186, 189, 194;
+	--grey-200-hex: 213, 215, 219;
+	--grey-100-hex: 232, 234, 237;
+
+	--color-p-origin: #52616b;
+	--color-p-dark: #1e2922;
+	--color-p-origin-v: #c9d6df;
+	--color-p-light: #f0f5f9;
 	--color-p-light-rgb: rgb(207, 198, 255);
 
 	--color-paladin-1: #f0f5f9;

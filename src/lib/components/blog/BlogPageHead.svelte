@@ -26,6 +26,7 @@
 	// };
 
 	let jsonld = JSON.stringify(jsonldString);
+	console.log(data);
 </script>
 
 <svelte:head>

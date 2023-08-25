@@ -21,7 +21,16 @@
 		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
 		0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
 
-	--glass-color: rgba(16, 18, 27, 0.4);
+	--grex-700-hex: 64, 65, 69;
+	--grex-600-hex: 96, 98, 102;
+	--grex-500-hex: 126, 128, 133;
+	--grex-400-hex: 159, 161, 166;
+
+	--grex-300-hex: 186, 189, 194;
+	--grey-200-hex: 213, 215, 219;
+	--grey-100-hex: 232, 234, 237;
+
+	--glass-color: rgba(var(--grey-300-hex), 0.4);
 	--font-size: 16px;
 
 	--classic-border: 1px solid var(--color-p-origin-v);

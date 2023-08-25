@@ -45,7 +45,7 @@ margin: 1rem 0;"
 
 <p class="firstLetter">Where do we find authentic conversations today? Where do we discover diverse perspectives? How do we protect against developing echo chambers while also fostering a sense of community? I have not stumbled across that place but that is the place 9takes is going to become.<p>
 
-The closest comparison to 9takes would be <span style="text-shadow: .5px .5px red;">reddit</span>. But instead of random posts from around the internet, users will post questions. You can do the same on reddit, but there is a catch. Actually there are two catches:
+The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. But instead of random posts from around the internet, users will post questions. You can do the same on reddit, but there is a catch. Actually there are two catches:
 
 - One, is that you cannot see the answers to the questions until you post.
 - Two, is that users are anonymous. The only thing that identifies a user is their personality.

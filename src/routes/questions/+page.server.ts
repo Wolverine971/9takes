@@ -39,7 +39,6 @@ export const load: PageServerLoad = async (): Promise<{
 			.from(PRIVATE_DEMO === 'true' ? 'distinct_question_tags_demo' : 'distinct_question_tags')
 			.select();
 
-		// console.log(tags);
 		const tags = uniquetags?.map((t) => {
 			return t.tag_id;
 		});

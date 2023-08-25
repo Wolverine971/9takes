@@ -1,4 +1,3 @@
-
 [TYPE] = 4
 [QUESTION] = 'What would you change about yourself if you could?'
 
@@ -8,7 +7,7 @@ Vary up the comments. Consider how an enneagram type [TYPE] would answer and app
 
 [QUESTIONID] = 16
 
-You will then create SQL statements inserting the comments. 
+You will then create SQL statements inserting the comments.
 Generate a comment for each of these userIds:
 
 | id                                   |
@@ -46,33 +45,33 @@ Generate a comment for each of these userIds:
 
 The format will be like this:
 insert into
-  comments_demo (
-    comment,
-    parent_id,
-    author_id,
-    parent_type
-  )
+comments_demo (
+comment,
+parent_id,
+author_id,
+parent_type
+)
 values
-  (
-    [the generated comment],
-    [QUESTIONID],
-    [userId],
-    'question'
-  )
- 
- for example:
+(
+[the generated comment],
+[QUESTIONID],
+[userId],
+'question'
+)
 
- insert into
-  comments_demo (
-    comment,
-    parent_id,
-    author_id,
-    parent_type
-  )
+for example:
+
+insert into
+comments_demo (
+comment,
+parent_id,
+author_id,
+parent_type
+)
 values
-  (
-    'I''d like to better balance my personal life with my ambition. Work isn''t everything.',
-    16,
-    'd44ccb66-28d4-48bf-b796-ed185a76b670',
-    'question'
-  );
+(
+'I''d like to better balance my personal life with my ambition. Work isn''t everything.',
+16,
+'d44ccb66-28d4-48bf-b796-ed185a76b670',
+'question'
+);
