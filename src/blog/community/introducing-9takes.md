@@ -11,12 +11,12 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'open-cage'
+pic: 'greek-staue-in-an-open-cage-typing-on-a-computer'
 ---
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/open-cage-color.webp" />
+<meta property="og:image" content="https://9takes.com/blogs/greek-staue-in-an-open-cage-typing-on-a-computer.webp" />
   <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>
 
@@ -34,7 +34,7 @@ pic: 'open-cage'
 margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/open-cage.webp`}
+		image={`/blogs/greek-staue-in-an-open-cage-typing-on-a-computer.webp`}
 		showIcon={false}
 		tint={true}
 		displayText=""

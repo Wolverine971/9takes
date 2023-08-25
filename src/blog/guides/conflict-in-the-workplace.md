@@ -11,6 +11,7 @@ published: false
 pic: 'greek-statue-having-a-disagreement'
 ---
 
+Answer questions
 how to deal with conflict interview question
 How to deal with conflict in the workplace
 how to deal with conflict in a team
@@ -18,5 +19,8 @@ conflict resolution strategies
 how to handle conflict at work interview question
 how to resolve relationship conflict in the workplace
 
+Give examples and scenarios where
+
 https://online.champlain.edu/blog/top-conflict-resolution-strategies
 https://www.pon.harvard.edu/daily/conflict-resolution/conflict-resolution-strategies/
+https://www.indeed.com/career-advice/interviewing/interview-questions-about-conflict

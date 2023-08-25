@@ -2,6 +2,8 @@ const SITE_URL = '9takes.com';
 const getAllPosts = async () => {
 	// const imports = import.meta.glob('/posts/**/*.md'); // make sure you get files from the right place
 	const community = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
+
+	const guides = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
 	const enneagram = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
 	const generational = import.meta.glob(`/src/blog/generational/*.{md,svx,svelte.md}`);
 	const historical = import.meta.glob(`/src/blog/historical/*.{md,svx,svelte.md}`);
@@ -26,6 +28,7 @@ const getAllPosts = async () => {
 
 	const imports = [
 		community,
+		guides,
 		enneagram,
 		generational,
 		historical,
@@ -108,6 +111,12 @@ export async function GET() {
 	<url>
 	    <loc>https://9takes.com/blog/enneagram</loc>
 	    <lastmod>2023-08-09</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/guides</loc>
+	    <lastmod>2023-08-24</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
