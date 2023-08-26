@@ -94,6 +94,9 @@ As a Type 2, Biden may experience the weight of expectations from both his suppo
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

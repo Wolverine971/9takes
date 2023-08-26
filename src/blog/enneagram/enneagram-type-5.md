@@ -264,6 +264,9 @@ To help foster personal growth and development for individuals with a Type 5 per
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

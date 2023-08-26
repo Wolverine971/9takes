@@ -116,6 +116,9 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

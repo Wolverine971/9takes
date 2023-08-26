@@ -159,6 +159,9 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

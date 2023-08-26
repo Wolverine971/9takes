@@ -209,6 +209,9 @@ So, what can we learn from Dave Portnoy? That there's more than meets the eye wh
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

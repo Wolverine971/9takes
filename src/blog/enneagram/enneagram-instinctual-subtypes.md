@@ -133,6 +133,9 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

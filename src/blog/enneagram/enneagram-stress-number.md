@@ -90,6 +90,9 @@ Understanding your Enneagram stress number is essential if you want to thrive in
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

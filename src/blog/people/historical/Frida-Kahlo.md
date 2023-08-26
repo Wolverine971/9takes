@@ -88,6 +88,9 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

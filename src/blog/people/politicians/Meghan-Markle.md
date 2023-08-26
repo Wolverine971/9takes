@@ -90,6 +90,9 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

@@ -153,6 +153,9 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

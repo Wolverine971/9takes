@@ -115,6 +115,9 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

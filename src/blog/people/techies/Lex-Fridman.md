@@ -95,6 +95,9 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

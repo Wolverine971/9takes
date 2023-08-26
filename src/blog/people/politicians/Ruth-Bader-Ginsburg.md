@@ -84,6 +84,9 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

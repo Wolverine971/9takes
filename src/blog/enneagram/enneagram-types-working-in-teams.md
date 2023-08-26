@@ -137,6 +137,9 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

@@ -200,6 +200,9 @@ The more we understand about people, the richer our interactions and experiences
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

@@ -120,6 +120,9 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

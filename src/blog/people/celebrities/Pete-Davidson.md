@@ -139,6 +139,9 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

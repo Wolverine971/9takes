@@ -77,6 +77,9 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

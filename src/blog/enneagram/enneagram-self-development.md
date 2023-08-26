@@ -82,6 +82,9 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
         "@id": "https://www.instagram.com/djwayne3/"
       },
       {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+      },
+      {
         "@id": "https://twitter.com/djwayne3"
       }
      ]

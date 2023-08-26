@@ -255,6 +255,9 @@ In conclusion, ghosting affects individuals differently, and understanding how e
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

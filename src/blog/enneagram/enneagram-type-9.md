@@ -280,6 +280,9 @@ Here are some tips for embracing your Enneagram Type 9 personality:
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

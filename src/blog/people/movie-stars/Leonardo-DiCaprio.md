@@ -18,6 +18,9 @@ tiktok: ''
 ---
 
 <!-- // notes:  -->
+<p class="firstLetter">You know him as Jack Dawson, the charming artist aboard the Titanic. You've seen him as Jordan Belfort, the Wall Street maven with a penchant for excess. But who is <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a> when the cameras stop rolling? What drives him, what are his fears, and most intriguingly, what is his Enneagram personality type?</p>
+
+> **Disclaimer** This analysis of Leonardo DiCaprio's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Leonardo DiCaprio.
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -35,10 +38,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Leonardo DiCaprio's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Leonardo DiCaprio.
-
-<p class="firstLetter">You know him as Jack Dawson, the charming artist aboard the Titanic. You've seen him as Jordan Belfort, the Wall Street maven with a penchant for excess. But who is <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Leonardo_DiCaprio">Leonardo DiCaprio</a> when the cameras stop rolling? What drives him, what are his fears, and most intriguingly, what is his Enneagram personality type?</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Leonardo DiCaprio is an Enneagram type 7</summary>
@@ -178,6 +177,9 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
           },
           {
             "@id": "https://twitter.com/djwayne3"

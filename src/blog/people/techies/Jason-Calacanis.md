@@ -150,6 +150,9 @@ If you want to dive deeper into the world of the Enneagram sign up below. We wil
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

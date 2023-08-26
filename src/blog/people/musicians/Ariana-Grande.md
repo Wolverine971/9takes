@@ -112,6 +112,9 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

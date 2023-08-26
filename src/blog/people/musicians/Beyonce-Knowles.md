@@ -106,6 +106,9 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

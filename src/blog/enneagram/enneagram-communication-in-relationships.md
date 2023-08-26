@@ -161,6 +161,9 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

@@ -166,6 +166,9 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

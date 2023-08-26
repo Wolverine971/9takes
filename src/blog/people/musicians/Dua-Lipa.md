@@ -160,6 +160,9 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

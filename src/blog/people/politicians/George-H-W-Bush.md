@@ -70,6 +70,9 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
       {
         "@id": "https://www.instagram.com/djwayne3/"
       },
+          {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
       {
         "@id": "https://twitter.com/djwayne3"
       }

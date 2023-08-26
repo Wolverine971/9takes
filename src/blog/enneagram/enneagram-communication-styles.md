@@ -588,6 +588,9 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

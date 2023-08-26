@@ -191,6 +191,9 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

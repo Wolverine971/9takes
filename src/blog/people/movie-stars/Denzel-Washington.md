@@ -172,6 +172,9 @@ Ready to embark on this journey of discovery? Join us on 9takes - where every pe
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]

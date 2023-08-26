@@ -198,6 +198,9 @@ If you found this guide helpful I invite you to join 9takes where we delve deepe
             "@id": "https://www.instagram.com/djwayne3/"
           },
           {
+            "@id": "https://www.linkedin.com/in/davidtwayne/"
+          },
+          {
             "@id": "https://twitter.com/djwayne3"
           }
         ]
