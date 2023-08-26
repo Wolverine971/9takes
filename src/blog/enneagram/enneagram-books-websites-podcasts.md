@@ -76,12 +76,16 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       "name": "Enneagram"
     },
     "articleSection": "Psychology",
-    "author": {
-      "type": "Person",
-      "name": "DJ Wayne",
+    "creator" : ["DJ Wayne"],
+"author":{
+            "@type":"Person",
+            "name":"DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

@@ -142,12 +142,16 @@ If you want to dive deeper into the world of the Enneagram sign up below. We wil
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Jason Calacanis, co-host of 'The All In Podcast', through the lens of Enneagram Type 3. Known for his ambition, assertiveness, and role as the podcast's 'world's greatest moderator', Jason embodies many characteristics of Type 3 personalities. The article discusses various facets of Jason's life and career that demonstrate his Type 3 characteristics, including his successful investments, controversies, and interactions with his co-hosts.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

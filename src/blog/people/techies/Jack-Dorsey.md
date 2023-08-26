@@ -166,12 +166,16 @@ And now, a question for you: What drives the personalities behind your favorite 
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Jack Dorsey from the perspective of the Enneagram Type 5. Known for his introspective nature and seeking deep understanding of systems, Jack embodies many characteristics of Type 5 personalities. The article discusses various facets of Jack's life and career, such as his innovations in tech and his leadership style, linking these attributes to Type 5 characteristics.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

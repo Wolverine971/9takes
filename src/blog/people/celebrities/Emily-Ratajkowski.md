@@ -86,12 +86,16 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   "@type": "Article",
   "articleBody": "",
   "articleSection": "celebrity",
-  "author": {
+  "creator" : ["DJ Wayne"],
+"author": {
     "@type": "Person",
     "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

@@ -201,12 +201,16 @@ So, what can we learn from Dave Portnoy? That there's more than meets the eye wh
     {
       "@type": "Article",
       "articleBody": "This article delves into the complex personality of Dave Portnoy through the lens of the Enneagram Type 8. It explores various facets of his life, including his entrepreneurial ventures, his individualistic approach, and his handling of controversies, all of which point to characteristics commonly found in Type 8 individuals.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

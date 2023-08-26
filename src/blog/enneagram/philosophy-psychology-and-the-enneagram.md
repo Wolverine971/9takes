@@ -112,12 +112,16 @@ In essence, the Enneagram offers a framework for personal development that is de
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "author": {
+  "creator" : ["DJ Wayne"],
+"author": {
     "@type": "Person",
     "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

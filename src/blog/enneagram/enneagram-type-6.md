@@ -260,12 +260,16 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         ],
         "name": "Enneagram Type 3 Overview Sections"
       },
+"creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",
         "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

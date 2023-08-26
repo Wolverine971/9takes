@@ -115,12 +115,16 @@ The journey doesn’t end here. Nietzsche is just one of many personalities that
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Friedrich Nietzsche from the perspective of the Enneagram Type 5. Known for his deep thought, introspection, and intellectual autonomy, Nietzsche embodies many characteristics of Type 5 personalities. The article discusses various facets of Nietzsche's life and work that demonstrate his Type 5 characteristics, including his philosophical contributions, controversial ideas, and impact on modern thought.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

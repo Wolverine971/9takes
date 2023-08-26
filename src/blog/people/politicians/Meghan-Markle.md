@@ -82,12 +82,16 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
     {
       "@type": "Article",
       "articleBody": "Meghan Markle, Duchess of Sussex, has captivated global audiences since her engagement to Prince Harry and before that on the TV show \"Suits\". She displays characteristics of an Enneagram Type 2, also known as The Helper. A defining trait of Enneagram Type 2’s is their inherent need to be indispensable, which is evident in Meghan's philanthropic endeavors and her engagement in societal change. Meghan's career trajectory and advocacy work, including her role as a Global Ambassador for World Vision Canada, suggest an intrinsic need to be helpful. Her decision to leave the Royal Family might have been influenced by her desire to be in a place where she felt needed. Meghan is also very aware of her public image and has made efforts to control it. On the positive side, she is often praised for her warmth and empathy.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

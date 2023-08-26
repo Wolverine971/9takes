@@ -107,6 +107,9 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

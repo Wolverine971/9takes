@@ -203,7 +203,8 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
       {
          "@type":"Article",
          "articleBody":"This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
-         "author":{
+         "creator" : ["DJ Wayne"],
+"author":{
             "@type":"Person",
             "name":"DJ Wayne",
             "sameAs":[

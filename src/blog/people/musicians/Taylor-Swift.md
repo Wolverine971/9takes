@@ -117,12 +117,16 @@ Join us at 9takes - a community that values the exploration of personalities and
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Taylor Swift from the perspective of the Enneagram Type 3. Known for her ambition, resilience, and transformational creativity, Swift embodies many characteristics of Type 3 personalities. The article discusses various aspects of Swift's life and career that demonstrate her Type 3 characteristics, including her music evolution, songwriting skills, and media narratives.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

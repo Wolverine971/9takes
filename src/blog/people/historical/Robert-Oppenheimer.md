@@ -107,12 +107,16 @@ In our complex world, understanding people's personalities could pave the way fo
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Robert Oppenheimer from the perspective of the Enneagram Type 4. Known for his intellectual rigor, introspective nature, and significant contribution to the field of nuclear physics, Oppenheimer embodies many characteristics of Type 4 personalities. The article discusses various aspects of Oppenheimer's life and career that show his Type 4 characteristics, including his role in the Manhattan Project, personal struggles, and controversies.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

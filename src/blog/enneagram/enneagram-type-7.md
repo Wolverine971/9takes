@@ -243,12 +243,16 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
         ],
         "name": "Enneagram Type 7 Overview Sections"
       },
+"creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",
         "name": "DJ Wayne",
       "sameAs": [
         {
           "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
         },
         {
           "@id": "https://twitter.com/djwayne3"

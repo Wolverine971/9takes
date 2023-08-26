@@ -61,12 +61,16 @@ By understanding your Enneagram type, you can gain insight into your strengths a
     {
       "@type": "Article",
       "articleBody": "The blog provides a short synopsis of the Enneagram, a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. It briefly describes each of the nine Enneagram types and offers tips on how to determine your own type through self-reflection and introspection.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

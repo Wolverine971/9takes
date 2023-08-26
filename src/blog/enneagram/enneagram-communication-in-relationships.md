@@ -153,12 +153,16 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
       },
       "headline": "Enneagram Communication in Relationships",
       "description": "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

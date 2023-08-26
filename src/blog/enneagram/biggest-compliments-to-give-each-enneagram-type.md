@@ -260,7 +260,8 @@ I hope this post resonates with your audience and encourages registrations for 9
       {
          "@type":"Article",
          "articleBody":"In the vast tapestry of human existence, few tools unravel the intricacies of our souls as the Enneagram does. This post offers compliments for each Enneagram type, providing a balance between emotional appeal and logical reasoning. It's designed to guide the reader through the topic, promoting understanding and appreciation of each type.",
-         "author":{
+         "creator" : ["DJ Wayne"],
+"author":{
             "@type":"Person",
             "name":"DJ Wayne",
             "sameAs":[

@@ -117,12 +117,16 @@ For now read the types and determine which if any you identify with. More to com
     {
       "@type": "Article",
       "articleBody": "The blog aims to guide readers on how to determine their Enneagram type by examining their core motivations and fears. It delves into the concept of 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

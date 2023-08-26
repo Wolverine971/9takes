@@ -158,12 +158,16 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
     {
       "@type": "Article",
       "articleBody": "The blog explores personalized growth strategies based on your Enneagram type, covering ideal environments, practical tips, and empowering self-talk mantras for each type. It delves into the unique paths to self-improvement for each Enneagram type, discussing their strengths, weaknesses, and ideal approaches to growth.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

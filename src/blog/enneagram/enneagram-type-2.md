@@ -242,12 +242,16 @@ If you identify as a Type 2 personality, there are a number of things you can do
         ],
         "name": "Enneagram Type 2 Overview Sections"
       },
+"creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",
         "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

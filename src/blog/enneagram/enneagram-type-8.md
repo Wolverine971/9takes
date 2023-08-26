@@ -243,12 +243,16 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         ],
         "name": "Enneagram Type 8 Overview Sections"
       },
+"creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",
         "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

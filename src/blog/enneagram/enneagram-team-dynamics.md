@@ -43,12 +43,16 @@ Time for the obligatory that bettering team dynamics and overall productivity is
     {
       "@type": "Article",
       "articleBody": "The Enneagram can be a powerful tool for improving team dynamics. By identifying the strengths and weaknesses of each team member theoretically you can increase productivity. A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skillsets. The Enneagram can also play a crucial role in improving communication among team members. One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. Lastly, the Enneagram can help create a more supportive and empathetic work environment.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

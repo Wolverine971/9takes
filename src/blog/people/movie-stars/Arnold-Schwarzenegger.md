@@ -65,6 +65,9 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
     "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

@@ -180,6 +180,9 @@ previewHtml: ''
 		"sameAs": [
 			{
 				"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
 			},
 			{
 				"@id": "https://twitter.com/djwayne3"

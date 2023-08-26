@@ -32,13 +32,17 @@
 <svelte:head>
 	<title>{formattedTitle}</title>
 
-	<meta property="og:site_name" content={siteTitle} />
+	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={data.description} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={`https://9takes.com/${slug}`} />
+
 	<meta name="description" content={description || title} />
 
+	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta property="og:url" content={`https://9takes.com/${slug}`} />
+	<meta name="twitter:title" content={title} />
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

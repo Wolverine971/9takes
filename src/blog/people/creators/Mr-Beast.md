@@ -113,12 +113,16 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
     {
       "@type": "Article",
       "articleBody": "This article provides a deep dive into the personality traits of Mr. Beast, proposing him as a representation of Enneagram Type 8. Known for his assertiveness, control, and desire to influence, Mr. Beast embodies many characteristics of Type 8 personalities. The article delves into various facets of Mr. Beast's life and career that demonstrate his Type 8 traits, including his ambitious charity work, audacious YouTube stunts, and determination in the face of adversity.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

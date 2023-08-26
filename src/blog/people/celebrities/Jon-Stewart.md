@@ -115,12 +115,16 @@ As we continue to peel back the layers of personalities, we invite you to join u
     {
       "@type": "Article",
       "articleBody": "The article presents an in-depth analysis of Jon Stewart's personality traits as perceived by the Enneagram Type 7, The Enthusiast. It delves into Stewart's public persona, inner world, a related controversy, and how these facets are connected to Type 7's core motivations. Moreover, it offers a listicle on how all nine enneagram types might perceive Jon Stewart.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
 "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

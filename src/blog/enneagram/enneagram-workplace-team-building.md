@@ -103,65 +103,68 @@ In conclusion, the Enneagram is a powerful tool for team building and leadership
 <meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
   <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-workplace-team-building">
 <script type="application/ld+json">
-  {
-		"@context": "http://schema.org",
-		"@type": "BlogPosting",
-		articleBody:
-			"As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company"s culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
-		articleSection: "Team Building",
-		author: {
-			"@type": "Person",
-			name: "DJ Wayne",
-			sameAs: [
-				{
-					"@id": "https://www.instagram.com/djwayne3/"
-				},
-				{
-					"@id": "https://twitter.com/djwayne3"
-				}
-			]
-		},
-		dateModified: {
-			"@type": "Date",
-			"@value": "2023-03-01"
-		},
-		datePublished: {
-			"@type": "Date",
-			"@value": "2023-03-17"
-		},
-		description:
-			"Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
-		headline: "Using the Enneagram for Team Building and Leadership Development",
-		image: {
-			"@type": "ImageObject",
-			height: "630",
-			url: {
-				"@id": "https://9takes.com/blogs/working-in-teams.webp"
-			},
-			width: "1200"
-		},
-		mainEntityOfPage: {
-			"@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
-			"@type": "WebPage"
-		},
-		publisher: {
-			"@type": "Organization",
-			sameAs: [
-				{
-					"@id": "https://www.instagram.com/9takesdotcom/"
-				},
-				{
-					"@id": "https://twitter.com/9takesdotcom"
-				}
-			],
-			logo: {
-				"@type": "ImageObject",
-				url: {
-					"@id": "https://9takes.com/brand/darkRubix.png"
-				}
-			},
-			name: "9takes"
-		}
-	};
+	{
+  "@type": "http://schema.org/BlogPosting",
+  "http://schema.org/articleBody": "As organizations strive to create more productive and efficient work environments, they often overlook a critical aspect of their company's culture: the personality types and communication styles of their employees. This is where the Enneagram can play a vital role in team building and leadership development. ...",
+  "http://schema.org/articleSection": "Team Building",
+  "http://schema.org/author": {
+    "@type": "http://schema.org/Person",
+    "http://schema.org/name": "DJ Wayne",
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
+      },
+      {
+        "@id": "https://www.linkedin.com/in/davidtwayne/"
+      },
+      {
+        "@id": "https://twitter.com/djwayne3"
+      }
+    ]
+  },
+  "http://schema.org/dateModified": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-01"
+  },
+  "http://schema.org/datePublished": {
+    "@type": "http://schema.org/Date",
+    "@value": "2023-03-17"
+  },
+  "http://schema.org/description": "Learn how the Enneagram can help organizations create a more inclusive and supportive workplace culture that fosters collaboration, creativity, and innovation.",
+  "http://schema.org/headline": "Using the Enneagram for Team Building and Leadership Development",
+  "http://schema.org/image": {
+    "@type": "http://schema.org/ImageObject",
+    "http://schema.org/height": "630",
+    "http://schema.org/url": {
+      "@id": "https://9takes.com/blogs/working-in-teams.webp"
+    },
+    "http://schema.org/width": "1200"
+  },
+  "http://schema.org/mainEntityOfPage": {
+    "@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
+    "@type": "http://schema.org/WebPage"
+  },
+  "http://schema.org/publisher": {
+    "@type": "http://schema.org/Organization",
+    "http://schema.org/logo": {
+      "@type": "http://schema.org/ImageObject",
+      "http://schema.org/url": {
+        "@id": "https://9takes.com/brand/darkRubix.png"
+      }
+    },
+    "http://schema.org/name": "9takes",
+    "http://schema.org/sameAs": [
+      {
+        "@id": "https://www.instagram.com/9takesdotcom/"
+      },
+      {
+        "@id": "https://twitter.com/9takesdotcom"
+      }
+    ]
+  }
+}
 </script>
 </svelte:head>

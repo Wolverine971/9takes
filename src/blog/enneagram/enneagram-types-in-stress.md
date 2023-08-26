@@ -440,12 +440,16 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
   "@type": "BlogPosting",
   "headline": "Enneagram Types in Stress",
   "description": "Navigating Stress: How each Enneagram type responds to the uncomfortable",
-  "author": {
+  "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
 			{
 				"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
 			},
 			{
 				"@id": "https://twitter.com/djwayne3"

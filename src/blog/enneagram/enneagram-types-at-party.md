@@ -140,12 +140,16 @@ Each type has its unique characteristics and motivations for attending the party
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "articleBody": "At a party, each Enneagram type is likely to be doing something unique, revealing their individual motivations and characteristics. In this informative article, we'll explore what each Enneagram type is thinking, feeling, and doing at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
-  "author": {
+  "creator" : ["DJ Wayne"],
+"author": {
     "@type": "Person",
     "name": "DJ Wayne",
     "sameAs": [
       {
         "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
       },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

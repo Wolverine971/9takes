@@ -91,12 +91,16 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
     {
       "@type": "Article",
       "articleBody": "The article delves into the integration and disintegration lines of the nine Enneagram types, revealing how each type's behavior, thought patterns, and feelings shift under different states of mental health.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
         {
           "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
         },
         {
           "@id": "https://twitter.com/djwayne3"

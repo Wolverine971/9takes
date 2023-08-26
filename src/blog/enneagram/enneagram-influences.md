@@ -86,6 +86,9 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
 			"sameAs": [
 			{
 				"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
 			},
 			{
 				"@id": "https://twitter.com/djwayne3"

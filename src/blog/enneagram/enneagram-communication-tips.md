@@ -147,12 +147,16 @@ Effective communication is key to building strong relationships with others, and
   },
   "headline": "Enneagram Communication Tips",
   "image": "https://9takes.com/brand/darkRubix.png",
-  "author": {
+  "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

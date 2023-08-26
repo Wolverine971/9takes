@@ -129,12 +129,16 @@ There is a fascinating world of personalities out there waiting to be explored. 
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Kim Kardashian from the perspective of the Enneagram Type 3. Known for her ambition, drive for success, and public image management, Kim embodies many characteristics of Type 3 personalities. The article discusses various facets of Kim's life and career that demonstrate her Type 3 characteristics, including her rise to fame, social media presence, and controversies.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

@@ -99,12 +99,16 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Jake Paul from the perspective of the Enneagram Type 3. Known for his ambition, drive for success, and constant need for validation, Jake embodies many characteristics of Type 3 personalities. The article discusses various facets of Jake's life and career that demonstrate his Type 3 characteristics, including his rise to fame, boxing career, and controversies.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
             {
               "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
             },
             {
               "@id": "https://twitter.com/djwayne3"

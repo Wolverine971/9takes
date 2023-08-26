@@ -115,12 +115,16 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Kourtney Kardashian from the perspective of the Enneagram Type 1. Known for her meticulousness, drive for perfection, and strong principles, Kourtney embodies many characteristics of Type 1 personalities. The article discusses various facets of Kourtney's life that demonstrate her Type 1 characteristics, including her dedicated parenting, health-focused lifestyle, and controversial moments.",
-      "author": {
+      "creator" : ["DJ Wayne"],
+"author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

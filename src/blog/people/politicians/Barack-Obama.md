@@ -158,6 +158,9 @@ Understanding others starts with understanding oneself. Let's embark on this jou
 			"sameAs": [
 			{
 				"@id": "https://www.instagram.com/djwayne3/"
+},
+{
+"@id": "https://www.youtube.com/@djwayne3"
 			},
 			{
 				"@id": "https://twitter.com/djwayne3"
