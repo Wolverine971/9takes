@@ -22,6 +22,11 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Have you ever wondered what lies beneath the flamboyant exterior of Lady Gaga? Delve into a fascinating journey as we explore the intricacies of her personality through the insightful lens of the Enneagram.</p>
+
+> **Disclaimer** This analysis of Lady Gaga's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Lady Gaga's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
-
-<p class="firstLetter">Have you ever wondered what lies beneath the flamboyant exterior of Lady Gaga? Delve into a fascinating journey as we explore the intricacies of her personality through the insightful lens of the Enneagram.</p>
 
 Lady Gaga, a name synonymous with eccentricity and creativity, embodies more than just a musical icon. She is a living embodiment of Enneagram type 4, often known as the Individualist or the Romantic. This claim might spark curiosity, even skepticism. How can a global superstar align with the introspective and melancholic type 4?
 

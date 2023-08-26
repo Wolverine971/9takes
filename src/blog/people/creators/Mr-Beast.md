@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">He's conquered YouTube, melted hearts, and sparked debate with his larger-than-life philanthropy. Love him or criticize him, Mr. Beast, real name Jimmy Donaldson, isn't someone you can easily ignore. Today, we aim to take you on a journey inside the mind of this internet sensation, to understand why we believe he perfectly embodies Enneagram Type 8 - The Challenger.</p>
+
+> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Beast.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,8 +38,6 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Beast.
 
 <details>
 <summary class="accordion">TL;DR: Why Mr. Beast is an Enneagram 8</summary>
@@ -50,8 +53,6 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">He's conquered YouTube, melted hearts, and sparked debate with his larger-than-life philanthropy. Love him or criticize him, Mr. Beast, real name Jimmy Donaldson, isn't someone you can easily ignore. Today, we aim to take you on a journey inside the mind of this internet sensation, to understand why we believe he perfectly embodies Enneagram Type 8 - The Challenger.</p>
 
 ## The Challenger, Unmasked
 

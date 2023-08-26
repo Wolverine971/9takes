@@ -17,6 +17,8 @@ pic: 'greek-statue-having-a-disagreement'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
+<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But let's be real: love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight, but how you'll fight. This guide aims to be your go-to resource for navigating relationship conflicts effectively. We'll delve into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth. So, let's get started.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -30,8 +32,6 @@ pic: 'greek-statue-having-a-disagreement'
 		subtext=""
 	/>
 </div>
-
-<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But let's be real: love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight, but how you'll fight. This guide aims to be your go-to resource for navigating relationship conflicts effectively. We'll delve into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth. So, let's get started.</p>
 
 ## The Importance of Conflict Management
 

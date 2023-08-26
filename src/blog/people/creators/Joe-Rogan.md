@@ -22,6 +22,9 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You've heard his voice, experienced his charisma, and possibly, formed an opinion about him. Joe Rogan, the host of one of the most popular podcasts in the world, is an influential figure who's hard to ignore. Today, we embark on an exploratory journey, proposing Rogan as a classic example of Enneagram Type 8 - The Challenger.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -38,7 +41,7 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Joe Rogan.
 
-<p class="firstLetter">You've heard his voice, experienced his charisma, and possibly, formed an opinion about him. Joe Rogan, the host of one of the most popular podcasts in the world, is an influential figure who's hard to ignore. Today, we embark on an exploratory journey, proposing Rogan as a classic example of Enneagram Type 8 - The Challenger.</p>
+
 
 <details>
 <summary class="accordion">TL;DR: Why Joe Rogan is an Enneagram type 8 </summary>

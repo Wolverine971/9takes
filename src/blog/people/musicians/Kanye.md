@@ -43,6 +43,11 @@ Kanye West interviews -->
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You've heard his music, observed his fashion trends, and watched his controversies unfold. Kanye West, a stalwart in the global entertainment industry, continues to capture public attention with his every move. Today, we delve into an intriguing dimension of Kanye's persona, identifying him as a quintessential embodiment of the Enneagram Type 7 – The Enthusiast.</p>
+
+> **Disclaimer** This analysis of Kanye's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kanye.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -56,8 +61,6 @@ Kanye West interviews -->
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Kanye's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kanye.
 
 <details>
 <summary class="accordion">TL;DR: Why Kanye is an Enneagram 7</summary>
@@ -73,8 +76,6 @@ Kanye West interviews -->
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">You've heard his music, observed his fashion trends, and watched his controversies unfold. Kanye West, a stalwart in the global entertainment industry, continues to capture public attention with his every move. Today, we delve into an intriguing dimension of Kanye's persona, identifying him as a quintessential embodiment of the Enneagram Type 7 – The Enthusiast.</p>
 
 ## The Joyful Creative: Kanye's Reflection of Enneagram Type 7 Traits
 

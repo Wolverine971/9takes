@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Inside a softly lit Los Angeles studio, the room is abuzz. Directors call out instructions, cameras flash, and amidst the orchestrated chaos, one figure remains unexpectedly serene: Keanu Reeves. With every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick, Keanu consistently brings a unique depth. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram system? Specifically, might he be a Type 9? And how can this perspective offer us a richer understanding of both the man and his craft?</p>
+
+> **Disclaimer** This analysis of Keanu Reeves's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Keanu Reeves.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Keanu Reeves's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Keanu Reeves.
-
-<p class="firstLetter">Inside a softly lit Los Angeles studio, the room is abuzz. Directors call out instructions, cameras flash, and amidst the orchestrated chaos, one figure remains unexpectedly serene: Keanu Reeves. With every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick, Keanu consistently brings a unique depth. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram system? Specifically, might he be a Type 9? And how can this perspective offer us a richer understanding of both the man and his craft?</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Keanu Reeves is an Enneagram type 9</summary>

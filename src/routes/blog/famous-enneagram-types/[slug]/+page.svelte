@@ -16,7 +16,7 @@
 <div style="align-items: inherit;">
 	<PeopleBlogPageHead data={data.metadata} />
 	<ArticleTitle title={data.metadata.title} />
-	<ArticleDescription description={data.metadata.description} />
+	<!-- <ArticleDescription description={data.metadata.description} /> -->
 	<ArticleSubTitle metaData={data.metadata} />
 </div>
 

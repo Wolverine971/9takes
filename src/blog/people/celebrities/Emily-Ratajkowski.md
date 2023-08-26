@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/@emrata'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author. For those who are paying attention, they know that she pushes the boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger.</p>
+
+> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily Ratajkowski.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,10 +38,6 @@ tiktok: 'https://www.tiktok.com/@emrata'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily Ratajkowski.
-
-<p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author. Those who are paying attention know that she continually pushes the boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger. Let's explore how Ratajkowski's life and actions exemplify the key traits of this powerful personality type.</p>
 
 ## Owning and Embracing Her Sexuality
 

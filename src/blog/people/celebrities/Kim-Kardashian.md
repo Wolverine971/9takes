@@ -40,6 +40,11 @@ Kendal Jenner - 4??? -->
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kim_Kardashian">Kim Kardashian</a> is a woman of many facets, but have you ever wondered what fuels her inner drive? We're not talking about business acumen or fashion trends here; we're diving deeper into the realm of personality and we think she is an Enneagram Type 3- The Achiever.</p>
+
+> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -53,10 +58,6 @@ Kendal Jenner - 4??? -->
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
-
-<p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kim_Kardashian">Kim Kardashian</a> is a woman of many facets, but have you ever wondered what fuels her inner drive? We're not talking about business acumen or fashion trends here; we're diving deeper into the realm of personality. Today, let's explore why Kim Kardashian might just be an Enneagram Type 3 and what that reveals about the woman we think we know so well.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Kim is an Enneagram 3</summary>

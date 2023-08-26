@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter"></p>
+
+> **Disclaimer** This analysis of Grimes's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,8 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Grimes's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
 
 <details>
 <summary class="accordion">TL;DR: Why Grimes is an Enneagram type</summary>
@@ -54,7 +57,7 @@ tiktok: ''
   </div>
 </details>
 
-<p class="firstLetter"></p>
+
 
 ## How Each Enneagram Type Perceives Grimes
 

@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">She's been in your headphones, on your screens, and splashed across headlines. The eccentric and provocative Miley Cyrus, a force to reckon with in the pop music industry, continues to fascinate us with her evolving persona. In our try to understand the nuances of personalities, we venture into an unexplored realm - is Miley Cyrus a classic Enneagram Type 7?</p>
+
+> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Miley Cyrus.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,11 +38,6 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Miley Cyrus.
-
-<p class="firstLetter">She's been in your headphones, on your screens, and splashed across headlines. The eccentric and provocative Miley Cyrus, a force to reckon with in the pop music industry, continues to fascinate us with her evolving persona. In our try to understand the nuances of personalities, we venture into an unexplored realm - is Miley Cyrus a classic Enneagram Type 7?</p>
-
 ## Miley Cyrus: The Enthusiast?
 
 Enneagram Type 7s, often known as 'The Enthusiast,' are generally extroverted, optimistic, versatile, and spontaneous. They are playful, high-spirited, and practical, but can also be scattered and undisciplined. A Type 7's core desire is to be satisfied and content—to have their needs fulfilled.
