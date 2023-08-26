@@ -81,8 +81,122 @@
 
 <div style="width: 100%;">
 	<h2>People Analysis</h2>
+
+	<h3 class="position-center">Musicians/ Artists</h3>
 	<div class="people-grid-container">
-		{#each blogs?.people as person}
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('musician');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 class="position-center">Celebrities</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('celebrity');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 class="position-center">Creators</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('creator');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 class="position-center">Politicians</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('politician');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 class="position-center">Historical Figures</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('historical');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+				{#if person.enneagram}
+					<img
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 class="position-center">Movie Stars</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('movieStar');
+		}) as person}
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img

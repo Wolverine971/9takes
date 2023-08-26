@@ -1,6 +1,6 @@
 ---
 title: 'The Definitive Guide to Dealing with Relationship Conflict [Part 1]'
-description: 'Navigate the complexities of relationship conflict with this definitive guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.'
+description: 'Navigate relationship conflict with this guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.'
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
@@ -36,7 +36,7 @@ pic: 'greek-statue-having-a-disagreement'
 
 ## The Importance of Conflict Management
 
-### Why is conflict management crucial?
+### Is conflict bad? No
 
 Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage conflict can make or break your relationship. According to [Dr. John Gottman](https://www.gottman.com/about/john-julie-gottman/), renowned relationship expert, your conflict style can either erode trust or build a stronger bond between you and your partner1.
 

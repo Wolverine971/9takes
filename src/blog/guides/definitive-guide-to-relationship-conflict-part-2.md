@@ -1,6 +1,6 @@
 ---
 title: 'The Definitive Guide to Dealing with Relationship Conflict [Part 2]'
-description: 'Discover how to navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements when both parties feel strongly, and practical exercises to improve your conflict resolution skills.'
+description: 'Navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements, avoid common pitfalls, and get practical exercises to improve your conflict resolution skills.'
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2'
@@ -8,8 +8,12 @@ lastmod: '2023-08-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-pic: ''
+pic: 'pit-of-despair'
 ---
+
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
 
 ## Common Questions
 
@@ -48,6 +52,21 @@ Unhealthy conflict can manifest in various ways, such as talking maliciously abo
 - **Betrayal**: One friend may betray the trust of the other, perhaps by sharing confidential information. This can lead to a breakdown in communication and may end the friendship.
 - **Neglect**: One friend may feel neglected or taken for granted, leading to feelings of resentment.
 - **Competitiveness**: Friends may become overly competitive, affecting the friendship negatively. This can manifest as one-upmanship and can create a toxic environment.
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/blogs/pit-of-despair.webp`}
+		showIcon={false}
+		displayText=""
+    altText="pit of despair"
+		subtext=""
+	/>
+</div>
 
 ## Pitfalls
 

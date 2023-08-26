@@ -76,7 +76,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Musicians</h3>
+	<h3 class="position-center">Musicians/ Artists</h3>
 
 	<div class="people-grid-container">
 		{#each musicians as person}
