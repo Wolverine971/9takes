@@ -30,6 +30,7 @@ pic: 'enneagram-vs-meyers-briggs'
 		image={`/blogs/${'enneagram-vs-meyers-briggs'}.webp`}
 		showIcon={false}
 		displayText=""
+    altText="people walking in opposite directions"
     aspectRatio={'16/9'}
 		subtext=""
 	/>

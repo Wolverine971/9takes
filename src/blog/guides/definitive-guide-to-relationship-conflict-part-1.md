@@ -29,6 +29,7 @@ pic: 'greek-statue-having-a-disagreement'
 		image={`/blogs/greek-statue-having-a-disagreement.webp`}
 		showIcon={false}
 		displayText=""
+    altText="two greek statues looking at each other"
 		subtext=""
 	/>
 </div>
@@ -74,6 +75,7 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
 		image={`/blogs/male_and_female_greek_statues.webp`}
 		showIcon={false}
 		displayText="Stonewalling?"
+    altText="two greek statues in a standoff"
 		subtext=""
 	/>
 </div>

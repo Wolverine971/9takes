@@ -16,6 +16,7 @@ pic: 'greek-statue-yeah-boi'
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 <div
 	style="display: flex;
@@ -146,6 +147,10 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 - "You're like the Google everyone wishes they had IRL."
 - "Your insights? Straight outta tomorrow."
 - "Every time you share knowledge, it's a whole vibe."
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
 

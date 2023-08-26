@@ -41,8 +41,6 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Joe Rogan.
 
-
-
 <details>
 <summary class="accordion">TL;DR: Why Joe Rogan is an Enneagram type 8 </summary>
 <div class="panel">

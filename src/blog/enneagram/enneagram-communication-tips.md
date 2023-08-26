@@ -15,6 +15,8 @@ pic: 'greek-statues-arguing'
 ---
 
 <script>
+  
+   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
@@ -86,6 +88,10 @@ Type 5s are analytical, introspective, and independent. They have a strong desir
 - Avoid being overly emotional or intrusive.
 - Emphasize the practical implications of a situation.
 - Encourage them to share their knowledge and expertise.
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Enneagram 6 Communication Tips
 

@@ -4,7 +4,7 @@ description: 'Impact of ghosting on mental health from an Enneagram perspective'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: '2023-07-31'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -16,7 +16,9 @@ pic: 'greek-statue-being-ghosted'
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -88,6 +90,10 @@ of love and respect.
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
   </article>
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
   <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>

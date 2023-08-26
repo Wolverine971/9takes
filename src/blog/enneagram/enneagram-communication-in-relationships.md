@@ -13,6 +13,10 @@ blog: true
 previewHtml: ''
 ---
 
+<script>
+	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
+
 <p class="firstLetter">People don't talk like you. At least not everyone. Because everyone has their own unique worldview, motivations, and fears it follows that everyone's communication styles differ as well. If you look at the Enneagram it is not just about self-discovery; it can also be used to improve communication there by improving intimacy in relationships. Lets explore some tips and how you can use the Enneagram to enhance your relationships and create deeper connections with your loved ones.</p>
 
 ## General tips for Using the Enneagram in Relationships
@@ -63,6 +67,10 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 **What they don't like to talk about:** Threes may be uncomfortable discussing their personal feelings or struggles. They may also avoid conversations that challenge their success or accomplishments.
 
 **Imaginary scenario**: A Three and their partner are discussing their career goals. The Three may struggle with expressing their emotions or discussing their fears or insecurities, instead focusing on ways to improve their skills and succeed.
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ### Type 4: The Individualist
 

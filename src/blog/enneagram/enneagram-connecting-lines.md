@@ -11,11 +11,31 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'greek-statue-reading-a-book'
 ---
 
 <!-- Take a free, ~5 min test here -->
+<script>
+  
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
 
 <p class="firstLetter">The Enneagram is not just a static model of nine personality types. It is a dynamic system that shows how we change under different circumstances. One of the most fascinating aspects of the Enneagram is the concept of connecting lines, which represent the paths of integration (growth) and disintegration (stress). In this blog post, we'll delve into these dynamics and provide examples of how each type might look in growth and in stress.</p>
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/blogs/greek-statue-reading-a-book.webp`}
+		showIcon={false}
+		displayText=""
+		altText="greek statues reading a book"
+		subtext=""
+	/>
+</div>
 
 ## The Dynamics of the Enneagram
 

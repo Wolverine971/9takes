@@ -13,12 +13,6 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-concepts">
-</svelte:head>
-
 <p class="firstLetter">The Enneagram is divided into nine distinct personality types, each with its own unique set of traits, strengths, and weaknesses. Furthermore there are 3 triads or centers of intelligence relating to 3 core emotions. From there the system goes deeper exploring where each type goes to in stress and comfort.</p>
 
 ## The Nine Personality Types
@@ -90,8 +84,10 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 </div>
 <cite><a target="_blank" href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
- <div>
+<svelte:head>
 
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-concepts">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -151,7 +147,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     }
 }
 </script>
-</div>
+</svelte:head>
 
 <style>
 .scroll-table {

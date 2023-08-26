@@ -38,6 +38,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 		subtext=""
 	/>
 </div>
+
 ## Miley Cyrus: The Enthusiast?
 
 Enneagram Type 7s, often known as 'The Enthusiast,' are generally extroverted, optimistic, versatile, and spontaneous. They are playful, high-spirited, and practical, but can also be scattered and undisciplined. A Type 7's core desire is to be satisfied and content—to have their needs fulfilled.

@@ -76,8 +76,6 @@ Pete Davidson jokes
   </div>
 </details>
 
-
-
 ## The Nine's Humor: A Tool for Inner Peace
 
 One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with Ariana Grande during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.

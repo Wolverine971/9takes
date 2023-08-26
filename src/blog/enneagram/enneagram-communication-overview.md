@@ -13,11 +13,9 @@ blog: true
 previewHtml: ''
 ---
 
-<svelte:head>
-
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-overview">
-</svelte:head>
+<script>
+	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
 
 <p class="firstLetter">The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types.</p>
 
@@ -38,6 +36,10 @@ Threes are ambitious, competitive, and driven. They value success, recognition, 
 ## Enneagram 4 Communication
 
 Fours are creative, expressive, and introspective. They value authenticity, originality, and uniqueness. When communicating with Fours, it's important to be empathetic, understanding, and open-minded. Avoid being dismissive or judgmental of their emotions or opinions. Be willing to explore different perspectives and approaches, and encourage them to express themselves creatively. Recognize their unique contributions and appreciate their creativity and insight.
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Enneagram 5 Communication
 
@@ -63,7 +65,10 @@ Nines are peaceful, accommodating, and harmonious. They value unity, cooperation
 
 The Enneagram is a powerful tool for understanding ourselves and others and can greatly improve our communication skills. By recognizing each Enneagram type's unique approach to communication, we can learn how to effectively interact with people of different types. If you're interested in learning more about Enneagram communication, check out our blogs on <a href="enneagram-communication-tips" >"General Enneagram Communication Tips"</a> and <a href="enneagram-communication-styles" >"Enneagram Communication Styles."</a> These resources can provide valuable insights and strategies for building empathy, understanding, and connection in all your relationships. As Suzanne Stabile writes in "The Path Between Us," "All relationships—those that truly matter and even those that don't—require translation. And if our interest in relational growth and transformation is sincere, then the Enneagram is one of the most helpful translation tools available." Let's use the Enneagram to enhance our personal and professional lives through better communication and stronger relationships.
 
-<div>
+<svelte:head>
+
+<!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-overview">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [
@@ -151,4 +156,4 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
   ]
 }
 </script>
-</div>
+</svelte:head>

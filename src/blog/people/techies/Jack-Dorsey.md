@@ -55,7 +55,7 @@ tiktok:
 
 You're not alone in this curiosity. The Enneagram system, a unique personality typing method, categorizes individuals into nine core types. Each type offers a lens into our deepest fears, desires, and motivations. For Dorsey, we hypothesize - he's a Type 5: The Investigator.
 
-### Enneagram Type 5 - The Investigator, is characterized by:
+### Enneagram Type 5 - The Investigator, is characterized by
 
 A profound thirst for knowledge.
 A tendency to retreat into their inner world.
@@ -63,7 +63,7 @@ An ability to concentrate and focus on developing complex ideas and skills.
 Being observant, innovative, and often visionary.
 Sounds familiar?
 
-## Why Jack Dorsey might be a Type 5:
+## Why Jack Dorsey might be a Type 5
 
 1. Pioneering Innovations:
    Remember when Twitter first came into our lives? It was unlike anything we'd seen. Its simplicity and focus were revolutionary. Jack didn't just follow trends; he set them. This innovative spirit aligns closely with the visionary trait of a Type 5.
@@ -77,7 +77,7 @@ Sounds familiar?
 1. Handling Controversies:
    With leadership comes controversy. Jack's approach? Thoughtful and measured, showing a balanced blend of emotion and logic. When Twitter faced backlash over its policies, Jack was steadfast yet open to feedback - demonstrating the calm, observant demeanor of a Type 5.
 
-## Addressing the Skeptics:
+## Addressing the Skeptics
 
 Now, you might wonder, "But what about his entrepreneurial spirit? Doesn't that make him a Type 3 or 8?"
 
@@ -94,7 +94,7 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 3. Values Rooted in Reflection and Observation:
    Twitter's values emphasize empowering public conversation. Square values economic empowerment. These are not merely business objectives but deep reflections on societal dynamics. A Type 5, known for introspection and observation, would naturally gravitate towards such profound company values.
 
-### Dorsey's Unique Approach – Through the Type 5 Lens:
+### Dorsey's Unique Approach – Through the Type 5 Lens
 
 1. Handling Challenges:
    Dorsey's demeanor during controversies, such as censorship debates on Twitter, showed a composed, observant approach. Instead of impulsive reactions, he took steps based on thorough analysis and reflection. Challenges are not hurdles but opportunities for deeper understanding for a typical Type 5.
@@ -105,7 +105,7 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 3. Focused and Immersive Task Handling:
    Dorsey's deep involvement in his projects, often diving into coding and technical aspects, showcases a Type 5's desire to immerse fully into subjects of interest, mastering them from all angles.
 
-### Real-life Examples – The Investigator at Play:
+### Real-life Examples – The Investigator at Play
 
 **The Birth of Square:** A real-life incident that exemplifies Dorsey's Type 5 tendencies is the genesis of Square. The idea sprouted when Jim McKelvey (co-founder) couldn't sell his artwork because he couldn't accept credit cards. Instead of merely identifying the problem, Dorsey delved deep into the intricate world of financial systems, understanding its nuances, and consequently, Square was born. This profound quest for knowledge before solution creation aligns perfectly with a Type 5.
 

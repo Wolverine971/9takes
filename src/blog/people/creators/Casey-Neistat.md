@@ -22,7 +22,6 @@ tiktok:
 	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
 </script>
 
-
 <!-- <div
 	style="display: flex;
     justify-content: center;

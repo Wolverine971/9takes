@@ -132,6 +132,7 @@ In a world where public figures often shy away from displaying such raw emotions
 		showIcon={false}
 		aspectRatio="16/9"
 		displayText=""
+    altText="dave portnoy giving disproval"
 		subtext=""
 	/>
 </div>

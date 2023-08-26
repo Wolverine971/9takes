@@ -1,6 +1,6 @@
 ---
 title: 'What Was The Inspiration For 9takes?'
-description: ''
+description: 'Discover the personal journey that inspired 9takes—a platform for exploring Enneagram archetypes and fostering meaningful conversations.'
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/blog/community/inspiration-for-9takes'

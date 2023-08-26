@@ -4,16 +4,38 @@ description: 'Navigating Stress: How each Enneagram type responds to the uncomfo
 author: 'DJ Wayne'
 date: '2023-04-14'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
-lastmod: '2023-04-10'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: 'situational'
 blog: true
 previewHtml: ''
+pic: 'feeling-stressed'
 ---
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
+
 <p class="firstLetter">Stress effects people in different ways and people get stressed over different thingsHere we exploring how each type responds to stress, providing insights into the unique stressors that impact them and their internal monologues during challenging moments. By understanding the different ways in which Enneagram types navigate stress, you'll gain a deeper appreciation for the complexities of human behavior and develop a more empathetic perspective towards yourself and others. So, sit back, relax, and let's dive into the intriguing dynamics of stress and the Enneagram types!</p>
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/feeling-stressed.webp`}
+		showIcon={false}
+		displayText=""
+    altText="two people feeling stressed"
+    tint={true}
+		subtext=""
+	/>
+</div>
 
 ## Enneagram 1 in Stress
 
@@ -106,6 +128,10 @@ previewHtml: ''
 1. Learn to say no when feeling overwhelmed or unable to help.
 2. Make time for self-care and self-reflection.
 3. Communicate their needs and expectations to others.
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ## Enneagram 3 in Stress
 

@@ -57,8 +57,6 @@ tiktok: ''
   </div>
 </details>
 
-
-
 ## How Each Enneagram Type Perceives Grimes
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Grimes:

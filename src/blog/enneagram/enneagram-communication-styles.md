@@ -14,12 +14,9 @@ previewHtml: ''
 pic: 'communication-styles'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-styles">
-</svelte:head>
 <script>
+  
+   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
@@ -218,6 +215,10 @@ This blog will break down how these important parts work for each Enneagram type
 </details>
 
 </article>
+
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 <article>
 <h2>Enneagram 4 Communication Style</h2>
@@ -573,7 +574,10 @@ This blog will break down how these important parts work for each Enneagram type
 
 Time for the obligatory reminder that the Enneagram should be used as a tool. There is no replacement for being patient, empathetic, non-judgmental, and encouraging when trying to communicate. Communication is about allowing yourself and others to express themselves while also respecting boundaries and individuality. Checkout this article for <a href="enneagram-communication-tips" >more tips on communicating.</a>
 
-<div>
+<svelte:head>
+
+<meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-styles">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [
@@ -763,7 +767,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
   ]
 }
 </script>
-</div>
+</svelte:head>
 
 <style lang="scss">
   article{

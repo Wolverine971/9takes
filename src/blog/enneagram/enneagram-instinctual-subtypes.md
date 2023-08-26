@@ -1,25 +1,21 @@
 ---
 title: 'Enneagram Instinctual Subtypes'
-description: ''
+description: 'Explore the intricacies of Enneagram Instinctual Subtypes—self-preservation, social, and one-to-one. Understand your basic human needs and improve relationships.'
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
-lastmod: '2023-05-28'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'enneagram-self-preservation-symbol'
 ---
 
-<svelte:head>
-
-  <!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes">
-</svelte:head>
-
 <script>
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
@@ -112,11 +108,18 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 8. One-to-One Eights: One-to-One Eights seek intensity and honesty in their relationships. They value directness and may express their care through protecting their loved ones.
 9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
 
+<div>
+<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
+
 ## Wrapping Up
 
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
 
-<div>
+<svelte:head>
+
+  <!-- <meta property="og:image" content="" /> -->
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",
@@ -191,4 +194,4 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   }
 }
 </script>
-</div>
+</svelte:head>

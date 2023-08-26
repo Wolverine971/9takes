@@ -4,19 +4,22 @@ description: 'Unpacking your Enneagram stress number: How Knowing Your Stress Nu
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-stress-number'
-lastmod: '2023-04-15'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'feeling-the-tension'
+pic: 'feeling-tension'
 ---
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -24,15 +27,13 @@ pic: 'feeling-the-tension'
 	"
 >
 	<PopCard
-		image={`/blogs/feeling-the-tension.webp`}
+		image={`/blogs/feeling-tension.webp`}
 		showIcon={false}
 		displayText=""
 		altText="two people with tension between them tension"
 		subtext=""
 	/>
 </div>
-
-<p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number.</p>
 
 ## Understanding your place of comfort and stress
 

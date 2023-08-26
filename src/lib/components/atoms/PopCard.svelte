@@ -87,7 +87,7 @@
 	<div class="pop-card-content">
 		<!-- <i  /> -->
 		{#if showIcon}
-			<img class="pop-card-icon" src="darkRubix.webp" alt="enneagram symbol" style="width: 10%;" />
+			<img class="pop-card-icon" src="darkRubix.webp" alt="rubix cube" style="width: 10%;" />
 		{/if}
 
 		<div class="pop-card-user">

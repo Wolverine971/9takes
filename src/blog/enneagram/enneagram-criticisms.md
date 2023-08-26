@@ -4,13 +4,14 @@ description: 'Common criticisms of the enneagram and potential criticisms of 9ta
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
-lastmod: '2023-08-06'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'greek-statues-disagreeing'
 ---
 
 <!--
@@ -20,6 +21,26 @@ Enneagram Criticisms (200 words)
   -->
 
 <!-- <h2>Enneagram FAQs</h2> -->
+
+<script>
+  
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+    <PopCard
+    	image={`/blogs/greek-statues-disagreeing.webp`}
+    	showIcon={false}
+    	altText="greek statues disagreeing"
+      displayText=""
+    	tint={true}
+    	subtext=""
+    />
+</div>
 
 <details>
   <summary class="accordion">"Personality stuff is not real."</summary>
