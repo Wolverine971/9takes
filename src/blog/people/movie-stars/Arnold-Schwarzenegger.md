@@ -22,8 +22,8 @@ tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 </script>
 <div
 	style="display: flex;
-    justify-content: center;
-margin: 1rem 0;"
+  justify-content: center;
+  margin: 1rem 0;"
 >
 	<PopCard
 		image={`/types/3s/${'Arnold-Schwarzenegger'}.webp`}

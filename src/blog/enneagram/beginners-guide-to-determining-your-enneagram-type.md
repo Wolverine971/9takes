@@ -2,9 +2,9 @@
 title: "The Beginner's Guide to Determining Your Enneagram Type"
 description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself"
 author: 'DJ Wayne'
-date: '2023-03-11'
+date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2023-07-11'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -15,17 +15,19 @@ previewHtml: ''
 
 <!-- Take a free, ~5 min test here -->
 
-<p class="firstLetter"> Ever felt misunderstood or puzzled by your own behavior? The Enneagram can help clarify this by offering a framework for understanding your actions. </p>
+<p class="firstLetter"> Ever felt misunderstood or not understand something about someone else? Well, there is a personality system called the Enneagram that can help by offering a framework for understanding a person's core fears and motivations.</p>
 
 I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our own versions of the truth on each other. When we felt right about something we did not slow down to consider each other's perspectives. The Enneagram helped us slow down and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict but we continue to use it and it has we helped us become more of a team.
+
 In this guide, I'll simplify the complex world of the Enneagram. I'll show you exactly how to determine your type, so that you can understand yourself and others better.
 
 ## Enneagram Overview
 
-What is an Enneagram, exactly?
-The Enneagram is a personality system that identifies "types" or archetypes based on coping mechanisms we developed due to unresolved childhood traumas.
+**What is an Enneagram?**
 
-For example, a child who faced constant criticism may grow up to be an adult who second-guesses every decision, never believing their efforts are good enough. A child who grew up in a chaotic environment might always look on the bright side of things, avoiding uncomfortable or painful situations.
+The Enneagram is a personality system that identifies "types" or archetypes based on coping mechanisms (aka survival strategies) we developed due to unresolved childhood traumas.
+
+For example, a child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough. A child who grew up in a chaotic environment might cope by distracting themselves and always look on the bright side of things, avoiding uncomfortable or painful situations.
 
 Now that you understand what an Enneagram is, it's time to delve deeper into how you can determine your type.
 
@@ -43,50 +45,78 @@ In the enneagram, these core emotions relate to centers of intelligence. Fear re
 
 After identifying your core emotion, the next step is to identify your type. There are three three types per core emotion and each type handles the core emotion in different ways. One type uses the emotion actively, as a form of empowerment or motivation. Another type suppresses the emotion actively, attempting to escape the uncomfortable feeling. And the last type has the emotion unconsciously influencing them from the background. Determine your type within the core emotion that you identify with the most by examining the core motivation and fear.
 
+<article class="section-content">
+
 #### Type 1 - The Reformer/ Perfectionist
 
 - **Core Motivation:** Desire to be good, ethical, and correct.
 - **Core Fear:** Being corrupt, defective, or imperfect.
+
+</article>
+<article class="section-content">
 
 #### Type 2 - The Helper
 
 - **Core Motivation:** Desire to be loved and appreciated.
 - **Core Fear:** Being unwanted, unloved, or dispensable.
 
+</article>
+<article class="section-content">
+
 #### Type 3 - The Achiever
 
 - **Core Motivation:** Desire to be successful and admired.
 - **Core Fear:** Being worthless, unsuccessful, or unimportant.
+
+</article>
+<article class="section-content">
 
 #### Type 4 - The Individualist
 
 - **Core Motivation:** Desire to be unique, authentic, and understood.
 - **Core Fear:** Having no identity or personal significance.
 
+</article>
+<article class="section-content">
+
 #### Type 5 - The Investigator
 
 - **Core Motivation:** Desire to be knowledgeable and competent.
 - **Core Fear:** Being helpless, useless, or overwhelmed.
+
+</article>
+<article class="section-content">
 
 #### Type 6 - The Loyalist
 
 - **Core Motivation:** Desire for security and support.
 - **Core Fear:** Being without guidance, support, or security.
 
+</article>
+<article class="section-content">
+
 #### Type 7 - The Enthusiast
 
 - **Core Motivation:** Desire to be satisfied and content.
 - **Core Fear:** Being deprived, trapped, or in pain.
+
+</article>
+<article class="section-content">
 
 #### Type 8 - The Challenger
 
 - **Core Motivation:** Desire to protect themselves and control their own life.
 - **Core Fear:** Being harmed, controlled, or violated.
 
-Type 9 - The Peacemaker
+</article>
+<article class="section-content">
+
+#### Type 9 - The Peacemaker
 
 - **Core Motivation:** Desire for peace and harmony.
 - **Core Fear:** Conflict, tension, or disconnection.
+
+</article>
 
 ### Consider Your Childhood Wounds
 
@@ -100,7 +130,9 @@ Once you think you've identified your type, look at the connecting lines on the 
 
 **Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative traits of a Type Five (The Investigator), becoming more withdrawn and secretive.
 
-<div style="text-align: center;" >
+<div style="display: flex; text-align: center;
+  justify-content: center;
+  margin: 1rem 0;" >
 <img src="/blogs/enneagram-integration.webp" alt="Enneagram integration lines" title="Enneagram integration lines" />
 </div>
 
@@ -129,56 +161,84 @@ In the next section, we will delve deeper into each enneagram type, their core e
 
 ## Diving into the childhood wounds of each Enneagram Type
 
+<article class="section-content">
+
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent being distracted, overly strict, or overly lenient. To cope, Ones made themselves their own judges and critics, developing their own strict code of ethics and rules.
+
+</article>
+<article class="section-content">
 
 ### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Twos felt that there was a lack of nurturing, guidance, or structure coming from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their own needs.
 
+</article>
+<article class="section-content">
+
 ### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for what they achieved rather than who they were. They worked hard to gain approval through achievements.
+
+</article>
+<article class="section-content">
 
 ### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Fours felt disconnected from both parental figures. They felt like their parents didn’t see them for who they really were. They tried early on to accept what made them different.
 
+</article>
+<article class="section-content">
+
 ### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Fives felt ambivalent towards both their parental figures. They felt like “odd ducks,” forever on the outside looking in. To cope, Fives retreated from the outside world and focused on mastering a unique subject of interest.
+
+</article>
+<article class="section-content">
 
 ### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for a sense of security or guidance rather than trusting their own inner voice.
 
+</article>
+<article class="section-content">
+
 ### [Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sevens felt disconnected from the nurturing figure in their home. To deal with this, Sevens learned to focus on “transitional objects” or toys and activities that would feed the emptiness inside.
+
+</article>
+<article class="section-content">
 
 ### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness” they would be hurt, rejected, or betrayed.
 
+</article>
+<article class="section-content">
+
 ### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, to deny their own feelings, and to stay in the background.
 
+</article>
+
 ## Conclusion
 
 You now have a tool to better understand your thought patterns, emotions, and behaviors. Use what serves you, and disregard what does not but maybe come back to it later. It's not just about personal development; it's also about understanding others and having empathy in understanding how they became who they are.
 
-If you found this guide helpful I invite you to join 9takes where we delve deeper into the Enneagram. Or DM me on [Twitter (or X 🤷)](https://twitter.com/djwayne3) and let me know what you think!
+If you found this guide helpful, join 9takes you don't have to but there is so much more to explore with the Enneagram!
 
 <svelte:head>
 
@@ -209,8 +269,8 @@ If you found this guide helpful I invite you to join 9takes where we delve deepe
           }
         ]
       },
-      "dateModified": "2023-03-11",
-      "datePublished": "2023-03-11",
+      "dateModified": "2023-08-27",
+      "datePublished": "2023-07-11",
       "description": "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
       "headline": "The Beginner's Guide to Determining Your Enneagram Type",
       "mainEntityOfPage": {
@@ -273,3 +333,129 @@ If you found this guide helpful I invite you to join 9takes where we delve deepe
 }
 </script>
 </svelte:head>
+
+
+<style lang="scss">
+
+    @import '../../scss/index.scss';
+
+    h4, h3 {
+          margin: 0;
+    }
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>
