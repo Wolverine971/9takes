@@ -19,7 +19,6 @@
 		],
 		2: [
 			{ name: 'Oprah-Winfrey', link: true },
-			{ name: 'Margot-Robbie', link: true },
 			{ name: 'Dolly-Parton', link: false },
 			{ name: 'Jimmy-Carter', link: true },
 			{ name: 'Joe-Biden', link: true },
@@ -106,6 +105,7 @@
 			{ name: 'Ernest-Hemingway', link: false },
 			{ name: 'Martin-Luther-King-Jr', link: true },
 			{ name: 'Winston-Churchill', link: true },
+			{ name: 'Margot-Robbie', link: true },
 			{ name: 'Chelsea-Handler', link: false },
 			{ name: 'Denzel-Washington', link: true },
 			{ name: 'Joe-Rogan', link: true },

@@ -44,5 +44,7 @@
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
+
+	<link rel="canonical" href={`https://9takes.com/${slug}`} />
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

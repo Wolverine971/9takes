@@ -21,7 +21,6 @@
 		],
 		2: [
 			'Dolly-Parton',
-			'Margot-Robbie',
 			'Jimmy-Carter',
 			'Mother-Teresa',
 			'Joe-Biden',
@@ -100,6 +99,7 @@
 			'Mr-Beast',
 			'Emily-Ratajkowski',
 			'Halsey',
+			'Margot-Robbie',
 			'Clint-Eastwood',
 			'Beyonce-Knowles',
 			'Ernest-Hemingway',
