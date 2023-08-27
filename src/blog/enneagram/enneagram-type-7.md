@@ -23,7 +23,9 @@ type: ['overview']
 <Carousel type={7} gridDisplay={true} />
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 - Optimistic and enthusiastic
 - Energetic and creative
@@ -33,7 +35,11 @@ type: ['overview']
 - Highly adaptable and great problem-solvers
 - Struggle with commitment and follow-through
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 Type 7 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -43,21 +49,33 @@ Type 7 individuals possess a number of strengths that make them valuable members
 - Resourcefulness: Type 7 individuals possess a lot of energy and are very resourceful, they are able to find ways to overcome obstacles and to achieve their goals.
 - Creativity: Type 7s are highly creative and love to explore new ideas and experiences. They have a natural curiosity and can be great problem-solvers, always looking for new and innovative solutions.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 - Impulsivity: Type 7s can be impulsive and have a fear of missing out on new experiences. They may struggle with being present in the moment and can have a tendency to jump from one thing to the next.
 - Lack of commitment: Type 7s can struggle with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
 - Avoidance of negative emotions: Type 7s can struggle with negative emotions and may avoid dealing with them by seeking out new experiences or distracting themselves in other ways.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 Type 7s are motivated by the desire for new experiences and adventure. They want to feel alive and engaged with the world around them. They have a fear of missing out and can struggle with feeling trapped or limited in any way. They want to be free to explore and create, and can feel restless or unhappy when they are stuck in routine or monotony.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 One of the core fears of Type 7s is the fear of being trapped or limited in their options and experiences. They have a natural desire for freedom, adventure, and exploration, and they may fear that commitments or responsibilities will limit their ability to pursue these things. As a result, they may avoid situations that feel constricting or confining, and they may struggle with commitment in relationships, careers, or other areas of their life.
 
@@ -65,9 +83,15 @@ Another fear of Type 7s is the fear of missing out on experiences or opportuniti
 
 Finally, Type 7s may also fear experiencing difficult or painful emotions. They may have a tendency to avoid or suppress negative feelings, preferring to focus on positive experiences and emotions. This can sometimes lead to a lack of emotional depth or intimacy in their relationships, as well as a tendency to avoid dealing with important issues or conflicts.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others, as well as rigid and inflexible in their thinking. They might also struggle with feeling anxious and overwhelmed by the demands of life. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -77,7 +101,9 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 In relationships, Type 7s can be fun-loving, adventurous, and passionate partners. They often have a natural charm and enthusiasm that can be very attractive to others. They enjoy trying new things and exploring the world together with their partner.
 
@@ -87,7 +113,11 @@ To help Type 7s thrive in relationships, it is important for them to have a part
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Type 7s can bring a lot of energy and creativity to the workplace. They are often great at generating new ideas and are skilled at brainstorming sessions. Their natural optimism and enthusiasm can also be infectious, making them valuable team members who can motivate others.
 
@@ -97,7 +127,11 @@ To help Type 7s thrive in the workplace, it can be helpful to provide them with 
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## How to Develop and Grow as a Type 7 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 7 Personality</h2>
 
 - Learn to embrace discomfort: Type 7s tend to avoid discomfort, pain, or anything that might make them feel negative emotions. However, it is essential for Type 7s to learn how to tolerate and cope with discomfort to achieve personal growth. Engaging in mindfulness practices, such as meditation, can help Type 7s build resilience and manage negative emotions effectively.
 - Set realistic goals and priorities: Type 7s often have a lot of ideas and tend to get carried away with their enthusiasm. However, it is crucial for Type 7s to prioritize their goals and focus on achieving them one at a time. Setting realistic goals and sticking to them can help Type 7s build a sense of accomplishment and satisfaction.
@@ -105,9 +139,15 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
 - Learn to face and accept negative emotions: Type 7s tend to avoid negative emotions, but it is essential to learn how to face and accept them. Engaging in therapy or counseling can help Type 7s work through their emotions and develop emotional resilience.
 - Practice gratitude and appreciation: Type 7s tend to focus on the future and overlook the present. However, practicing gratitude and appreciation for the present moment can help Type 7s develop a sense of contentment and fulfillment.
 
-## Famous Enneagram 7s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 7s</h2>
 
 <FamousTypes type={7} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 7
 - The sight of tasty food makes a hungry man's mouth water: categorized as desire for pleasure and excitement as it pertains to the pleasures of the senses - Ivan Pavlov
@@ -374,4 +414,123 @@ td {
     border-radius:5px
 }
 
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+    
 </style>

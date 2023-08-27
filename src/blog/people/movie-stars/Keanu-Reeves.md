@@ -192,7 +192,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 	/>
 </div>
 
-## In Conclusion
+## Wrapping up
 
 Our journey into Keanu's possible Type 9 nature is speculative, but it's built on observed patterns and roles. It's an invitation—to empathize, to wonder, and to perceive beyond the surface.
 

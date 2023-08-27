@@ -54,7 +54,8 @@
 			'Frida-Kahlo',
 			'Jackie-Kennedy',
 			'Dixie-Damelio',
-			'The-Weeknd'
+			'The-Weeknd',
+			'Robert-Oppenheimer'
 		],
 		5: [
 			'Bill-Gates',
@@ -66,7 +67,6 @@
 			'Albert-Einstein',
 			'Agatha-Christie',
 			'Friedrich-Nietzsche',
-			'Robert-Oppenheimer',
 			'Rooney-Mara',
 			'David-Sacks',
 			'Lex-Fridman'

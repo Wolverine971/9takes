@@ -25,7 +25,9 @@ The Loyalist is governed by fear and is always on the lookout for potential dang
 <Carousel type={6} gridDisplay={true}/>
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Type 6's are often described as responsible, reliable, and hardworking. They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6's are also known for their desire for stability and security, both in their personal and professional lives.
 
@@ -36,19 +38,31 @@ The Enneagram Type 6 personality has several core traits that define their world
 - Preparation: In an effort to mitigate potential risks and reduce anxiety, Type 6 personalities often engage in extensive preparation and planning. They may be highly organized and detail-oriented, and they may seek out guidance and reassurance from others before making important decisions.
 - Skepticism: Type 6 personalities can be somewhat skeptical and distrustful of others, particularly those who they perceive as posing a threat to their sense of security. They may be highly attuned to potential risks and may struggle to trust others until they have proven themselves trustworthy.
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. They are highly committed to their obligations and are driven to fulfill them. Type 6's are also known for their ability to handle stress and adversity. They are able to think strategically and make difficult decisions in times of crisis. Additionally, Type 6's are often able to see multiple perspectives and are able to think critically.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 While Type 6's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6's can have a hard time trusting their own abilities and may struggle with self-doubt.
+
+</article>
 
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 - Safety and Security: Type 6s prioritize safety and security and often seek out situations, relationships, and jobs that they perceive as safe and predictable. They may avoid risks or uncertain situations, and may be drawn to routines, rules, or guidelines that provide structure and stability.
 - Guidance and Support: Type 6s value guidance and support from trusted authorities, such as mentors, leaders, or experts. They may seek out these figures in their personal or professional lives and may prioritize their opinions and advice.
@@ -56,7 +70,11 @@ While Type 6's have many strengths, they also have some weaknesses. One of their
 - Preparation and Planning: Type 6s may have a tendency to plan ahead and prepare for potential problems or challenges. They may be skilled at anticipating risks and may have a knack for problem-solving.
 - Adherence to Rules and Authority: Type 6s may value adherence to rules and authority and may have a strong sense of duty or responsibility. They may be drawn to structures or systems that provide clear expectations and guidelines.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 - Fear of Abandonment: Type 6 may fear being left alone, unsupported, or abandoned. They often seek relationships and connections to ensure they have a support system.
 - Fear of Uncertainty: Type 6 may fear the unknown, unexpected, or unpredictable. They prefer to have a plan, routine, or structure to provide a sense of stability and security.
@@ -64,9 +82,15 @@ While Type 6's have many strengths, they also have some weaknesses. One of their
 - Fear of Conflict: Type 6 may fear confrontation or conflict, as it can threaten their sense of security and stability. They may try to avoid conflicts or appease others to maintain harmony.
 - Fear of being blamed: Type 6 may fear being blamed for mistakes or negative outcomes, and may avoid taking risks or making decisions that could lead to criticism or failure.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. When they're under stress, they might become more obsessed with success and achievement, as well as competitive and envious of others. They might also struggle with feeling anxious and insecure about their abilities and worth. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -76,7 +100,9 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 - Loyal and Committed: Type 6s value stability and security, and they often prioritize their relationships. They are typically loyal and committed partners who prioritize their loved ones' needs and well-being.
 - Supportive and Reliable: Type 6s are often dependable and reliable partners who go above and beyond to support their loved ones. They may offer practical help, emotional support, or a listening ear when needed.
@@ -87,7 +113,11 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Type 6s are highly reliable and loyal employees, and they place a strong emphasis on security and stability in the workplace. They thrive in environments where they feel valued and supported, and they are often highly attuned to the needs and desires of their colleagues and superiors.
 
@@ -97,7 +127,11 @@ To get the best out of a Type 6 employee, it's important to provide clear guidel
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Behaviors and Interactions
+</article>
+
+<article class="section-content">
+
+<h2>Behaviors and Interactions</h2>
 
 The Enneagram Type 6 personality exhibits several key behaviors and tendencies in their interactions with others:
 
@@ -106,7 +140,11 @@ The Enneagram Type 6 personality exhibits several key behaviors and tendencies i
 - Indecision: Type 6 personalities may struggle with indecision and may have difficulty making important decisions without extensive preparation and planning. They may seek out reassurance and guidance from others before making a final choice.
 - Anxiety and Worry: Type 6 personalities may experience high levels of anxiety and worry, particularly when it comes to potential risks and threats. They may engage in worst-case scenario thinking and may struggle to remain calm in high-stress situations.
 
-## Growth Opportunities
+</article>
+
+<article class="section-content">
+
+<h2>Growth Opportunities</h2>
 
 While the Enneagram Type 6 personality has many strengths, there are also opportunities for growth and development:
 
@@ -114,7 +152,11 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 - Self-Confidence: Type 6 personalities may benefit from building greater self-confidence and learning to trust their own instincts and decisions.
 - Mindfulness: Type 6 personalities may benefit from cultivating
 
-## How to Develop and Grow as a Type 6 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 6 Personality</h2>
 
 - Develop Inner Trust: Enneagram Type 6s can benefit from learning to trust themselves and their own decisions, rather than constantly seeking the approval and guidance of others. This can be achieved through mindfulness practices, therapy, or other forms of self-reflection.
 - Embrace Change: Type 6s often fear change and uncertainty, but learning to embrace new experiences and challenges can help them grow and develop. Engaging in activities that are outside of their comfort zone or trying new things can help build confidence and resilience.
@@ -122,9 +164,15 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 - Develop Independence: Type 6s can sometimes struggle with being overly dependent on others for their sense of security. Learning to be self-sufficient and independent can help them build confidence and feel more in control of their lives.
 - Cultivate Positive Relationships: Enneagram Type 6s thrive in supportive and positive relationships, but it's important to be selective about the people they surround themselves with. Cultivating relationships with individuals who are supportive, trustworthy, and uplifting can help Type 6s feel more secure and confident in themselves.
 
-## Famous Enneagram 6s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 6s</h2>
 
 <FamousTypes type={6} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 6
 - Anyone, regardless of their nature, can be trained to be anything: categorized as desire for safety and support as it pertains to the importance of training and education in shaping a person's abilities - John B. Watson
@@ -390,4 +438,123 @@ th {
     border-radius:5px
 }
 
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+    
 </style>

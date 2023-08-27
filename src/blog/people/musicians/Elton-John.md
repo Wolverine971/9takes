@@ -25,7 +25,6 @@ tiktok: 'https://www.tiktok.com/@eltonjohn'
 
 > **Disclaimer** This analysis of Elton John's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Elton John.
 
-
 <div
 	style="display: flex;
     justify-content: center;

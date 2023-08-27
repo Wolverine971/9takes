@@ -23,7 +23,9 @@ type: ['overview']
 <Carousel type={1} gridDisplay={true} />
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong, and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place, and they may become involved in causes and organizations that align with their values.They are driven by a sense of duty and responsibility, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, and they strive for excellence in all areas of their life.
 
@@ -38,13 +40,21 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 - You are often hard on yourself and struggle with self-criticism
 - You can be critical of others if they don't meet your expectations
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 One of the biggest strengths of the Enneagram Type 1 is their strong sense of responsibility and duty. Perfectionists are highly motivated to make a positive impact on the world, and they are often willing to make sacrifices for the greater good. They are also highly organized and efficient, which can be an asset in both personal and professional settings.
 
 Enneagram Type 1 individuals are also known for their strong work ethic and determination. They are not easily discouraged and will persist in their efforts to achieve their goals. They are also honest and straightforward, making them respected and trusted by their peers.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 Type 1 personalities, also known as Perfectionists or Reformers, have several weaknesses and challenges that they may face. Here are some of them:
 
@@ -55,11 +65,15 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 - Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their own needs for self-care. They may struggle with self-compassion and may have a hard time giving themselves permission to take a break or rest.
 - Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may struggle with being open-minded and receptive to different perspectives.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 Type 1 personalities, also known as Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is right and responsible.
 
@@ -71,7 +85,11 @@ Here are some of the primary motivations of Type 1 personalities:
 - Being responsible: Type 1 personalities are motivated by a sense of duty and responsibility. They take their obligations seriously and work hard to meet their responsibilities in both personal and professional contexts.
 - Creating order: Type 1 personalities are motivated by a desire for order and structure in their lives. They seek to create order in their environments and to establish routines and systems that help them achieve their goals.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 - Making mistakes or being wrong: Type 1s have a strong desire to do things right and to be seen as perfect. They fear making mistakes, as this can lead to feelings of shame and inadequacy.
 - Being imperfect: Type 1s strive for perfection in all areas of their life, including themselves. They fear being seen as imperfect or flawed, as this can damage their self-image.
@@ -79,9 +97,15 @@ Here are some of the primary motivations of Type 1 personalities:
 - Being irresponsible: Type 1s have a strong sense of duty and responsibility. They fear being seen as irresponsible or unreliable, as this can conflict with their own self-image as a responsible person.
 - Chaos or disorder: Type 1s have a need for order and structure in their lives. They fear chaos or disorder, as this can make them feel out of control and anxious.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody, depressed, and isolate themselves from others. They might also become more self-critical and judgmental, as well as have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -91,7 +115,9 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 Type 1 personalities have high expectations for themselves and their partners. They strive for perfection in all areas of their lives, including relationships. If you're in a relationship with a Type 1, here are a few things to keep in mind:
 
@@ -102,7 +128,11 @@ Type 1 personalities have high expectations for themselves and their partners. T
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making. They make excellent leaders and are often respected for their work ethic and commitment to excellence. Here are a few characteristics that make Type 1 personalities successful in the workplace:
 
@@ -113,13 +143,21 @@ Type 1 personalities excel in roles that require attention to detail, high stand
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Growth and Development
+</article>
+
+<article class="section-content">
+
+<h2>Growth and Development</h2>
 
 While the Enneagram Type 1 has many strengths, there are also areas where they may struggle. One of the biggest challenges for Perfectionists is learning to let go of control and relax. They may struggle with feelings of guilt and inadequacy when things do not go according to plan, and they may find it difficult to relax and enjoy life's simple pleasures.
 
 Another area where Enneagram Type 1 individuals may struggle is in their relationships. Perfectionists may be highly critical and demanding of others, which can lead to strained relationships. They may also struggle with feelings of loneliness and disconnection, as their high standards and sense of duty can make it difficult for them to fully open up and connect with others.
 
-## How to Develop and Grow as a Type 1 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 1 Personality</h2>
 
 - Practice self-compassion: Type 1s can be very hard on themselves and may struggle with self-criticism. Practicing self-compassion, or treating oneself with kindness and understanding, can help Type 1s develop a more balanced and healthy self-image.
 - Learn to let go: Type 1s can be highly focused on details and may struggle with letting go of control. Learning to let go of the need for perfection and control can help Type 1s feel more relaxed and less stressed.
@@ -128,11 +166,16 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
 - Seek out feedback: Type 1s can benefit from seeking out constructive feedback from others. This can help them develop a more balanced perspective and learn to incorporate constructive criticism into their personal growth.
 - Practice self-reflection: Type 1s can benefit from practicing self-reflection and introspection. This can involve journaling, meditation, or seeking out therapy to explore their thoughts and feelings in more depth.
 
-## Famous Enneagram 1s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 1s</h2>
 
 <FamousTypes type={1} />
 
-<!-- ## Psychologist Studies Relevant to the Enneagram 1
+</article>
+<!-- <h2>Psychologist Studies Relevant to the Enneagram 1
 - Concepts become forces when they resist one another: categorized as fear of being wrong as it pertains to the nature of concepts and how they interact with one another. Johann Friedrich Herbart -->
 
 <svelte:head>
@@ -513,5 +556,124 @@ th {
     background-color: var(--color-p-origin);
     border-radius:5px
 }
+
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
 
 </style>

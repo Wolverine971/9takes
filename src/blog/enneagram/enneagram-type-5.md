@@ -23,7 +23,9 @@ type: ['overview']
 <Carousel type={5} gridDisplay={true}/>
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 - A strong desire for knowledge and information
 - A tendency to be introspective and self-contained
@@ -33,7 +35,11 @@ type: ['overview']
 - An aversion to small talk and socializing
 - A tendency to become detached or disengaged in social situations
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 Type 5 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -42,7 +48,11 @@ Type 5 individuals possess a number of strengths that make them valuable members
 - Objectivity: Type 5 individuals possess a strong sense of objectivity and detachment, which allows them to see things from multiple perspectives and to make unbiased judgments.
 - Innovation: Type 5 individuals are often innovative thinkers, who bring new ideas and solutions to the table.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 While Type 5 individuals possess many strengths, they also face a number of challenges. These include:
 
@@ -50,11 +60,15 @@ While Type 5 individuals possess many strengths, they also face a number of chal
 - Isolation: Type 5 individuals value their privacy and solitude, which can lead to isolation and lack of social connection.
 - Overthinking: Type 5 individuals have a tendency to overthink and overanalyze, which can lead to stress and anxiety.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 Enneagram Type 5s are motivated by a core desire for knowledge, understanding, and self-sufficiency. They seek to accumulate knowledge and expertise in their areas of interest, and to become self-reliant and independent in their pursuits. Some of the common motivations of Enneagram Type 5s may include:
 
@@ -64,7 +78,11 @@ Enneagram Type 5s are motivated by a core desire for knowledge, understanding, a
 - To be competent and capable: Type 5s value competence and expertise, and are motivated to develop their skills and abilities in their areas of interest. They may take pride in their knowledge and expertise, and seek recognition for their achievements.
 - To find meaning and purpose: Type 5s may be motivated by a desire to find meaning and purpose in their pursuits. They may seek to contribute to society or to make a difference in their field of interest.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 Enneagram Type 5s are driven by a core fear of being overwhelmed, depleted, or invaded. They fear that they will not have enough knowledge, resources, or energy to handle the demands of the world around them. As a result, Type 5s tend to retreat into their own thoughts and inner world, seeking to accumulate knowledge and expertise as a way of feeling more prepared and in control.
 
@@ -76,9 +94,15 @@ Common fears of Enneagram Type 5s may include:
 - Being trapped or confined: Type 5s fear that they will be trapped in situations or relationships that limit their freedom and independence.
 - Being dependent on others: Type 5s fear that they will be dependent on others for support or resources, which could leave them feeling vulnerable and exposed.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When they're under stress, they might become more impulsive and distractible, as well as struggle with feeling overwhelmed and out of control. They might also have difficulty focusing on one thing at a time and making decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -88,13 +112,19 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also have a tendency to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 In the workplace, Enneagram Type 5s are known for their analytical and independent approach to work. They have a strong desire to understand the details and inner workings of their field of expertise and often prefer working in roles that allow them to focus on research, analysis, and problem-solving.
 
@@ -104,11 +134,19 @@ While they are often highly skilled and knowledgeable in their areas of expertis
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Growth and Development
+</article>
+
+<article class="section-content">
+
+<h2>Growth and Development</h2>
 
 To help foster personal growth and development for individuals with a Type 5 personality, it can be helpful to focus on cultivating emotional intelligence and developing stronger interpersonal relationships. Additionally, seeking out opportunities to apply their knowledge and expertise in practical ways can be beneficial.
 
-## How to Develop and Grow as a Type 5 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 5 Personality</h2>
 
 - Cultivate Emotional Awareness: As Type 5s can sometimes struggle with expressing their emotions, they can benefit from focusing on cultivating emotional awareness. This can involve practices such as journaling, therapy, or mindfulness meditation.
 - Practice Assertiveness: Type 5s may sometimes struggle with advocating for themselves or expressing their needs to others. By practicing assertiveness and boundary-setting, Type 5s can learn to communicate more effectively and develop healthier relationships.
@@ -117,9 +155,15 @@ To help foster personal growth and development for individuals with a Type 5 per
 - Connect with Others: While Type 5s may sometimes prefer solitude, it's important for them to develop meaningful connections with others. This can involve seeking out social support, joining groups or organizations related to their interests, or finding ways to contribute to their communities.
 - Develop Interpersonal Skills: Type 5s may sometimes struggle with interpersonal communication, but by practicing active listening, empathy, and effective communication, they can strengthen their relationships and develop their leadership skills.
 
-## Famous Enneagram 5s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 5s</h2>
 
 <FamousTypes type={5} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
 - 24 hours after learning something, we forget two-thirds of it: categorized as fear of being incapable as it pertains to the limitations of human memory - Herman Ebbinghaus
@@ -341,7 +385,7 @@ To help foster personal growth and development for individuals with a Type 5 per
 </script>
 </svelte:head>
 
-<style >
+<style>
 
 .scroll-table {
     overflow-x: scroll;
@@ -374,5 +418,124 @@ th {
     background-color: var(--color-p-origin);
     border-radius:5px
 }
+
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
 
 </style>

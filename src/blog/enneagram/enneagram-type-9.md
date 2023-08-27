@@ -23,7 +23,9 @@ type: ['overview']
 <Carousel type={9}  gridDisplay={true}/>
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Type 9's are often described as easy-going, peaceful, and level-headed. They are highly adaptable and are able to go with the flow of any situation. They are also known for their ability to see multiple perspectives and for their ability to bring people together. Type 9's are also known for their desire for harmony and stability, both in their personal and professional lives.
 
@@ -36,7 +38,11 @@ Some of the key personality traits of the Enneagram Type 9 personality include:
 - Diplomatic and tactful
 - Creative and imaginative
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 One of the key strengths of the Type 9 is their ability to be easy-going and adaptable. They are able to go with the flow of any situation and are not easily ruffled. Type 9's are also known for their ability to bring people together. They have a natural ability to reconcile different viewpoints and to find common ground. Additionally, Type 9's are often able to see multiple perspectives and are able to think critically.
 
@@ -49,7 +55,11 @@ Some of the key strengths of the Enneagram Type 9 personality include:
 - Ability to see multiple perspectives and find common ground
 - Diplomatic and tactful approach to conflict resolution
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 While Type 9's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be passive and avoid conflict. They can also be indecisive and have a hard time making decisions. Additionally, Type 9's can have a hard time asserting themselves and may struggle with self-doubt.
 
@@ -62,11 +72,15 @@ Some of the key weaknesses of the Enneagram Type 9 personality include:
 - Tendency to become overly accommodating or indecisive
 - Struggle to set clear boundaries or say no to others
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 The motivations of Enneagram Type 9, also known as "The Peacemaker," are centered around creating harmony and avoiding conflict. They have a deep desire to maintain inner and outer peace, and to ensure that everyone around them is happy and satisfied. Type 9s tend to be highly empathetic and can easily pick up on the emotions of others, making it important for them to avoid anything that may cause tension or discord.
 
@@ -74,7 +88,11 @@ Type 9s often struggle with indecisiveness, as they want to make everyone happy 
 
 Type 9s seek to avoid anything that may disrupt their sense of inner calm, including conflict, stress, and change. They may engage in behaviors such as procrastination or avoidance in order to maintain this sense of peace and avoid any potential discomfort.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 Enneagram Type 9 individuals have a core fear of loss and separation. They are deeply afraid of being disconnected from others and losing the sense of peace and harmony they strive to maintain in their lives. This fear can manifest in different ways, such as avoiding conflict to keep the peace, minimizing their own needs to keep others happy, or merging with others to avoid feeling separate or alone.
 
@@ -82,9 +100,15 @@ Enneagram Type 9 individuals may also fear their own anger and assertiveness. Th
 
 Additionally, Enneagram Type 9 individuals may fear making the wrong decision or taking action that could lead to conflict or loss. They may struggle with making choices and taking risks because they fear the consequences of making a mistake or upsetting others.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When they're under stress, they might become more fearful and paranoid, as well as indecisive and hesitant. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -94,7 +118,9 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 In relationships, Enneagram Type 9 individuals tend to be supportive and accommodating, valuing harmony and peace above all else. They often put the needs of their partner before their own and may struggle with asserting their own desires or opinions. They are typically warm and empathetic, and their desire to maintain a sense of connection and avoid conflict can make them excellent listeners and mediators.
 
@@ -104,7 +130,11 @@ Enneagram Type 9 individuals may also be hesitant to make decisions or take acti
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 In the workplace, Enneagram Type 9 individuals tend to be supportive, reliable, and adaptable team members. They often prioritize maintaining a sense of harmony and avoiding conflict in their work environment, and may be skilled at mediating and finding compromises when conflicts do arise.
 
@@ -116,7 +146,11 @@ Enneagram Type 9 individuals may excel in roles that require a calm and supporti
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## How to Develop and Grow as a Type 9 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 9 Personality</h2>
 
 For Type 9's, growth opportunities lie in learning to assert themselves and becoming more self-assured. They can also benefit from learning to make decisions confidently and being more assertive. Additionally, Type 9's can benefit from learning to manage their passivity and developing greater emotional resilience.
 
@@ -128,9 +162,15 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 - Embrace your creativity and imagination and use it to find unique solutions to problems.
 - Practice self-care and prioritize your own needs to avoid becoming complacent or neglecting your own well-being.
 
-## Famous Enneagram 9s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 9s</h2>
 
 <FamousTypes type={9} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 9
 - It is notoriously inadequate to take an adopted child into one's home and love him: categorized as fear of conflict as it pertains to the challenges of integrating a new family member into an existing dynamic. - Donald Winnicott -->
@@ -413,5 +453,124 @@ td {
     background-color: var(--color-p-origin);
     border-radius:5px
 }
+
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
 
 </style>

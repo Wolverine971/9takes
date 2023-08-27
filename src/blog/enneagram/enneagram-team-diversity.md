@@ -57,15 +57,15 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
       "@type": "Article",
       "articleBody": "In today's rapidly evolving business landscape, the ability to create balanced and diverse teams has become increasingly crucial for success. The Enneagram, a powerful personality typing system, offers valuable insights into understanding team dynamics and assembling the ideal mix of members. This blog explores the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
+          },
+          {
+          "@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

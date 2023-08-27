@@ -4,7 +4,7 @@ description: 'Explore the ultimate compliments for each Enneagram type, delving 
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2023-08-26'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -37,6 +37,7 @@ pic: 'greek-statue-yeah-boi'
 	/>
 </div>
 
+<article class="section-content">
 
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
@@ -57,6 +58,12 @@ Type 1 individuals are driven by an innate desire for perfection and righteousne
 - "You're the blueprint for doing things right."
 - "That 'stick to your morals' energy? Straight fire."
 
+[More on type 1s](/blog/enneagram/enneagram-type-1)
+
+</article>
+
+<article class="section-content">
+
 ### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
 
 Type 2 personalities thrive on love and appreciation. They long to feel needed. By acknowledging their genuine concern and kindness, you mirror back the love they constantly radiate.
@@ -75,6 +82,12 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 - "You're the kind of person everyone wants on their squad."
 - "You're the real MVP of making everyone feel seen."
 - "You drip kindness like it's the latest trend."
+
+[More on type 2s](/blog/enneagram/enneagram-type-2)
+
+</article>
+
+<article class="section-content">
 
 ### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
 
@@ -95,6 +108,8 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 - "Your achievements are the tea everyone's sipping."
 - "Your style? Always on point, just like your game plan."
 
+[More on type 3s](/blog/enneagram/enneagram-type-3)
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -110,6 +125,10 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 		subtext="wow! you make me feel so good about myself"
 	/>
 </div>
+
+</article>
+
+<article class="section-content">
 
 ### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
 
@@ -130,6 +149,12 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 - "Your individuality is the main character energy we all need."
 - "Your style is the vibe check everyone fails next to."
 
+[More on type 4s](/blog/enneagram/enneagram-type-4)
+
+</article>
+
+<article class="section-content">
+
 ### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
 
 Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their analytical prowess and depth of understanding feeds their intrinsic need to be competent and well-prepared.
@@ -149,9 +174,15 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 - "Your insights? Straight outta tomorrow."
 - "Every time you share knowledge, it's a whole vibe."
 
+[More on type 5s](/blog/enneagram/enneagram-type-5)
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
+
+</article>
+
+<article class="section-content">
 
 ### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
 
@@ -172,6 +203,12 @@ Type 6 personalities value security and trust. By acknowledging their dedication
 - "Your vibe is like a loyalty card with infinite rewards."
 - "Every crew needs a you. Period."
 
+[More on type 6s](/blog/enneagram/enneagram-type-6)
+
+</article>
+
+<article class="section-content">
+
 ### [Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)
 
 Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and adventurous spirit aligns perfectly with their quest for pleasure and excitement.
@@ -191,6 +228,8 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 - "You're the sprinkle of hype in every situation."
 - "If joy was a brand, you'd be its ambassador."
 
+[More on type 7s](/blog/enneagram/enneagram-type-7)
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -206,6 +245,10 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 		subtext="bring it in, you are my friend now"
 	/>
 </div>
+
+</article>
+
+<article class="section-content">
 
 ### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
 
@@ -226,6 +269,12 @@ Type 8 personalities are natural leaders, driven by a desire to control their en
 - "Your strength? It's the blueprint. Period."
 - "If power had a look, it'd be you stepping into a room."
 
+[More on type 8s](/blog/enneagram/enneagram-type-8)
+
+</article>
+
+<article class="section-content">
+
 ### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
 
 Type 9 individuals are the peacekeepers. Celebrating their mediation skills and their gift for seeing multiple perspectives affirms their nurturing and harmonizing nature.
@@ -244,6 +293,10 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 - "Your style? Peaceful with a side of swag."
 - "In the soundtrack of life, you're the soothing interlude."
 - "You're the vibe everyone needs on their 'chill' playlist."
+
+[More on type 9s](/blog/enneagram/enneagram-type-9)
+
+</article>
 
 The Enneagram is a mirror, reflecting the multifaceted nature of humanity. By understanding and appreciating each type, we bridge gaps, forge connections, and create a world rich in empathy and understanding.
 
@@ -347,33 +400,122 @@ I hope this post resonates with your audience and encourages registrations for 9
 </svelte:head>
 
 <style lang="scss">
-  .accordion {
-    color: #444;
-    cursor: pointer;
-    padding: 0.5rem;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
+    @import '../../scss/index.scss';
 
-  .accordion:hover {
-    background-color: var(--color-theme-purple-v);
-    color: var(--color-theme-purple);
-  }
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-  /*.panel:hover {
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
 
-    background-color: #ccc;
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
 
-}*/
+    }
 
-  .panel {
-    padding: 18px;
-    /*display: none;*/
-    background-color: white;
-    overflow: hidden;
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
 
-  }
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
 </style>

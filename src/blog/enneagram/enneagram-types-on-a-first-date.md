@@ -4,7 +4,7 @@ description: 'What is each type thinking about and feeling. What do they do to p
 author: 'DJ Wayne'
 date: '2023-07-30'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date'
-lastmod: '2023-07-30'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -40,7 +40,8 @@ pic: 'greek-statues-on-a-first-date'
 
 This isn't a foolproof dating guide. It's a lens to understand and empathize with your date - or even yourself - better. Dive in, and let's decode the dance of dating, starting with Type 1, The Perfectionist...
 
-## Enneagram Type 1: The Perfectionist
+<article class="section-content">
+<h2>Enneagram Type 1: The Perfectionist</h2>
 
 The Perfectionist, with their strong desire for order and rightness, is a meticulous planner. They approach their first date with a clear set of expectations, perhaps even an ideal image of how it should go. They're likely to spend a lot of time choosing the perfect location, and their thoughts are focused on making the best impression possible. They might feel a mix of excitement and nervousness, the latter stemming from their fear of making a mistake or being imperfect. However, their genuine desire to do things right usually wins over any anxious feelings.
 
@@ -54,7 +55,9 @@ If a Perfectionist hears phrases like "I usually wing it" or "I don't care about
 
 On the other hand, statements like "I appreciate your attention to detail" or "I also strive to improve" can be heartening. These show respect for their principles and an alignment with their constant drive for self-improvement.
 
-## Enneagram Type 2: The Helper
+</article>
+<article class="section-content">
+<h2>Enneagram Type 2: The Helper</h2>
 
 The Helper, known for their warm-hearted nature, gears up for a first date with empathy and connection in mind. They are often in tune with others' needs and think extensively about how to make their date feel comfortable and appreciated. They might feel a rush of enthusiasm and perhaps a hint of worry about being liked back, but their positive outlook usually dominates any fear.
 
@@ -68,7 +71,10 @@ Phrases that suggest selfishness or lack of empathy, like "I don't care what oth
 
 Comments such as "Your kindness is touching" or "I love helping others too" indicate understanding and appreciation for the Helper's caring nature, which they would find reassuring.
 
-## Enneagram Type 3: The Achiever
+</article>
+<article class="section-content">
+
+<h2>Enneagram Type 3: The Achiever</h2>
 
 The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their accomplishments and ambitions without overwhelming their date. They might feel a thrill of competition and perhaps a dose of anxiety about being impressive enough.
 
@@ -82,7 +88,9 @@ For the Achiever, hearing "Why bother trying so hard?" can be disheartening, as 
 
 However, phrases like "Your drive is inspiring" or "I admire your achievements" can be very encouraging. It shows an appreciation for their hard work and ambition.
 
-## Enneagram Type 4: The Individualist
+</article>
+<article class="section-content">
+<h2>Enneagram Type 4: The Individualist</h2>
 
 The Individualist sees a first date as an opportunity to express their unique personality and connect on a deep, emotional level. They are introspective and might spend time contemplating what they wish to share about themselves and how they wish to be perceived. Their feelings could be a cocktail of anticipation and a little trepidation, fearing misunderstanding or rejection.
 
@@ -96,7 +104,11 @@ Hearing "Why can't you be more like others?" can be a significant deterrent for 
 
 On the positive side, remarks such as "I admire your creativity" or "Your unique perspective is fascinating" can deeply resonate with them. These affirmations validate their individuality and emotional depth.
 
-## Enneagram Type 5: The Investigator
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram Type 5: The Investigator</h2>
 
 The Investigator, known for their inquisitive nature and sharp intellect, sees a first date as an intriguing puzzle. Their thoughts likely involve understanding their date's character, potential compatibility, and what interesting insights they might share. Their feelings might be a mix of curiosity and some apprehension, given their natural desire for privacy.
 
@@ -110,11 +122,15 @@ For the Investigator, statements like "I don't like reading" or "Who cares about
 
 In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which the Type 5 finds appealing.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Enneagram Type 6: The Loyalist
+<article class="section-content">
+
+<h2>Enneagram Type 6: The Loyalist</h2>
 
 The Loyalist, often wary and diligent, approaches a first date with caution and care. They might spend a lot of time contemplating the possible outcomes, their date's intentions, and how to stay safe. Their feelings can oscillate between anticipation of a potential connection and anxiety rooted in their inherent skepticism.
 
@@ -128,7 +144,11 @@ Comments such as "I'm a free spirit, I don't make plans" or "Rules are meant to 
 
 Hearing phrases like "I believe in loyalty" or "I've planned a safe route for our hike" can be a good signal for Type 6. These show a commitment to safety and stability that the Loyalist appreciates.
 
-## Enneagram Type 7: The Enthusiast
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram Type 7: The Enthusiast</h2>
 
 The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure. Their thoughts are likely buzzing with the fun they'll have, the stories they'll share, and the potential joy this connection might bring. They might feel a sense of eagerness and perhaps some restlessness, as they're always on the lookout for the next great experience.
 
@@ -142,7 +162,11 @@ If an Enthusiast hears phrases like "I prefer routine and stability" or "Let's n
 
 Comments such as "I love trying new things" or "I'm excited about our next adventure" will likely be welcomed, signaling a shared passion for adventure and exploration.
 
-## Enneagram Type 8: The Challenger
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram Type 8: The Challenger</h2>
 
 The Challenger, bold and assertive, approaches a first date with confidence and straightforwardness. They're likely to spend time thinking about their date's character and potential compatibility, focusing less on impressing their date and more on assessing them. They might feel a sense of excitement, coupled with determination to understand their date.
 
@@ -156,7 +180,11 @@ Hearing "I don't like confrontation" or "I prefer to follow the crowd" can be re
 
 On the other hand, phrases like "I admire your courage" or "I value straightforwardness too" can be perceived as good signals, as they align with their candid nature and desire for justice.
 
-## Enneagram Type 9: The Peacemaker
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram Type 9: The Peacemaker</h2>
 
 The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding. They likely spend time contemplating how to ensure a smooth, pleasant experience for both parties. Their feelings might range from quiet excitement to slight worry about potential conflict.
 
@@ -170,6 +198,7 @@ Statements such as "I enjoy a good argument" or "I don't mind conflict" can be a
 
 Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfortable" are encouraging for them. These suggest a shared preference for calm and unity, which is integral to their nature.
 
+</article>
 ## Wrapping it up
 
 As we unravel the final threads in this exploration, it should be clear how different our expectations can be, particularly on something as personal as a first date. This is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
@@ -196,6 +225,7 @@ As we unravel the final threads in this exploration, it should be clear how diff
       },
       "width":1200
    },
+   "creator" : ["DJ Wayne"],
    "author":{
       "@type":"Person",
       "name":"DJ Wayne",
@@ -234,7 +264,7 @@ As we unravel the final threads in this exploration, it should be clear how diff
       "name":"9takes"
    },
    "datePublished":"2023-07-30",
-   "dateModified":"2023-07-30",
+   "dateModified":"2023-08-27",
    "mainEntity":{
       "@type":"FAQPage",
       "mainEntity":[
@@ -316,3 +346,125 @@ As we unravel the final threads in this exploration, it should be clear how diff
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+
+    @import '../../scss/index.scss';
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>

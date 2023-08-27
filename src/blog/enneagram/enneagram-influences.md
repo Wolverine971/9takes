@@ -172,7 +172,7 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
 
 </svelte:head>
 
-<style >
+<style>
 
 /* a {
 	color: #260958;

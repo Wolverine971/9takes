@@ -23,7 +23,9 @@ type: ['overview']
 <Carousel type={3} gridDisplay={true} />
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Enneagram Type 3 individuals are known for their high energy, ambitious nature, and strong work ethic. They are skilled at presenting themselves in a positive light and are often seen as confident and charismatic. However, their desire for success can sometimes lead them to prioritize their image over their true feelings or beliefs.
 
@@ -31,7 +33,11 @@ One of the key characteristics of Type 3 individuals is their ability to adapt t
 
 Another important trait of Enneagram Type 3 is their focus on achievement and success. They are driven to excel in their careers, hobbies, and personal goals. However, their pursuit of success can sometimes come at the cost of neglecting their relationships or personal well-being.
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 Type 3 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -40,7 +46,11 @@ Type 3 individuals possess a number of strengths that make them valuable members
 - Self-assurance: Type 3 individuals possess a strong sense of self-confidence and self-assurance, which allows them to take risks and pursue their goals with determination.
 - Leadership: Type 3 individuals are often natural leaders, who are able to inspire and guide others with their ambitious and driven nature.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 While Type 3 individuals possess many strengths, they also face a number of challenges. These include:
 
@@ -48,11 +58,15 @@ While Type 3 individuals possess many strengths, they also face a number of chal
 - Workaholism: Type 3 individuals are often highly ambitious and driven to succeed, which can lead to workaholism and neglect of their own needs and relationships.
 - Inauthenticity: Type 3 individuals often adapt to different situations in order to be successful, which can lead to inauthenticity and loss of their true selves.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 Enneagram Type 3 individuals, also known as "The Achiever," are motivated by a desire for success and recognition. They are often driven by a need to be seen as successful, accomplished, and admired by others. They are highly goal-oriented and may be willing to work hard and take on significant challenges in order to achieve their goals.
 
@@ -60,7 +74,11 @@ Type 3s are often very competitive and enjoy being the best in their field. They
 
 Type 3s are often skilled at presenting themselves in a positive light and may be highly attuned to the expectations and opinions of others. They may work hard to project an image of success, confidence, and achievement, even if they are struggling with feelings of self-doubt or insecurity.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 - Fear of failure: Despite their strong desire for success, Type 3s often have a deep-seated fear of failure. They may worry that they are not good enough or that they will not meet their own or others' high expectations.
 - Fear of being unimportant: Type 3s value being admired, respected, and recognized for their accomplishments. They may fear being seen as insignificant or ordinary, and work hard to maintain their image and status.
@@ -68,9 +86,15 @@ Type 3s are often skilled at presenting themselves in a positive light and may b
 - Fear of being exposed as a fraud: Type 3s may worry that their success and accomplishments are not truly deserved or that they are hiding their true selves to maintain their image. They may fear being exposed as a fraud or imposter.
 - Fear of being vulnerable: Type 3s may have difficulty showing their vulnerable side or admitting to their weaknesses. They may fear being seen as weak or inferior, and work hard to maintain a strong and successful image.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. When they're under stress, they might become more withdrawn and passive, as well as avoidant and indecisive. They might also struggle with feeling unimportant or insignificant in the eyes of others. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -80,7 +104,9 @@ Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonio
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 In relationships, Enneagram Type 3 individuals often seek partners who can appreciate and support their ambitious nature. They are attracted to those who can help them achieve their goals and provide them with the recognition they crave.
 
@@ -88,7 +114,11 @@ However, their focus on success can sometimes lead to a lack of emotional intima
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Enneagram Type 3 individuals, also known as "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, which means that they are often focused on achieving success and advancing in their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 
@@ -100,7 +130,11 @@ However, Type 3s may struggle with work-life balance, as they can sometimes prio
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Career Paths
+</article>
+
+<article class="section-content">
+
+<h2>Career Paths</h2>
 
 Enneagram Type 3 individuals excel in careers that allow them to use their natural talents and skills. They thrive in competitive environments and enjoy being recognized for their achievements. Some common career paths for Type 3 individuals include:
 
@@ -110,7 +144,11 @@ Enneagram Type 3 individuals excel in careers that allow them to use their natur
 - Management
 - Acting or entertainment
 
-## How to Develop and Grow as a Type 3 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 3 Personality</h2>
 
 Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop by focusing on their personal growth and emotional intelligence. Some key ways that a Type 3 can grow and develop include:
 
@@ -120,9 +158,15 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
 - Developing Empathy: Type 3s can benefit from developing their empathy and emotional intelligence. By learning to understand and relate to the experiences and emotions of others, they can become better leaders, team players, and communicators.
 - Focusing on Personal Growth: Type 3s can benefit from focusing on their personal growth and development, rather than solely on achieving external goals. By setting personal goals related to their emotional well-being, relationships, and personal growth, they can experience greater fulfillment and satisfaction in life.
 
-## Famous Enneagram 3s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 3s</h2>
 
 <FamousTypes type={3} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 3
 - The intelligence of an individual is not a fixed quantity: categorized as desire for success and recognition as it pertains to the nature of intelligence and how it can be developed and improved - Alfred Binet
@@ -377,5 +421,124 @@ th {
     background-color: var(--color-p-origin);
     border-radius:5px
 }
+
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
 
 </style>

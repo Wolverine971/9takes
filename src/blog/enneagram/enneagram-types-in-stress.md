@@ -37,7 +37,9 @@ pic: 'feeling-stressed'
 	/>
 </div>
 
-## Enneagram 1 in Stress
+<article class="section-content">
+
+<h2>Enneagram 1 in Stress</h2>
 
 **Stressors:** Unrealistic expectations, disorder, and perceived incompetence.
 
@@ -83,7 +85,11 @@ pic: 'feeling-stressed'
 2. Set realistic expectations for themselves and others.
 3. Schedule regular breaks and self-care activities to recharge.
 
-## Enneagram 2 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 2 in Stress</h2>
 
 **Stressors:** Feeling unappreciated, being unable to help others, and emotional exhaustion.
 
@@ -129,11 +135,15 @@ pic: 'feeling-stressed'
 2. Make time for self-care and self-reflection.
 3. Communicate their needs and expectations to others.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Enneagram 3 in Stress
+<article class="section-content">
+
+<h2>Enneagram 3 in Stress</h2>
 
 **Stressors:** Fear of failure, image concerns, and excessive competition.
 
@@ -179,7 +189,11 @@ pic: 'feeling-stressed'
 2. Prioritize self-care and maintain a healthy work-life balance.
 3. Seek support from trusted friends, family, or professionals when needed.
 
-## Enneagram 4 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 4 in Stress</h2>
 
 **Stressors:** Feeling misunderstood, lack of authenticity, and emotional turbulence.
 
@@ -225,7 +239,11 @@ pic: 'feeling-stressed'
 2. Practice self-compassion and self-acceptance.
 3. Engage in creative outlets to express emotions and cope with stress.
 
-## Enneagram 5 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 5 in Stress</h2>
 
 **Stressors:** Information overload, feeling incompetent, and emotional vulnerability.
 
@@ -271,7 +289,11 @@ pic: 'feeling-stressed'
 2. Recognize the importance of emotional intelligence and vulnerability.
 3. Engage in activities that allow for mental stimulation and relaxation.
 
-## Enneagram 6 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 6 in Stress</h2>
 
 **Stressors:** Uncertainty, perceived threats, and loss of security.
 
@@ -317,7 +339,11 @@ pic: 'feeling-stressed'
 2. Engage in relaxation techniques to reduce anxiety and stress.
 3. Develop a balanced approach to risk assessment and decision-making.
 
-## Enneagram 7 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 7 in Stress</h2>
 
 **Stressors:** Boredom, restrictions, and unmet expectations.
 
@@ -363,7 +389,11 @@ pic: 'feeling-stressed'
 2. Engage in mindfulness practices to cultivate present-moment awareness.
 3. Acknowledge and address negative emotions instead of avoiding them.
 
-## Enneagram 8 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 8 in Stress</h2>
 
 **Stressors:** Feeling powerless, loss of control, and perceived injustice.
 
@@ -409,7 +439,11 @@ pic: 'feeling-stressed'
 2. Practice vulnerability and empathy in relationships.
 3. Engage in self-reflection and self-care to maintain a healthy balance of strength and sensitivity.
 
-## Enneagram 9 in Stress
+</article>
+
+<article class="section-content">
+
+<h2>Enneagram 9 in Stress</h2>
 
 **Stressors:** Conflict, feeling overlooked, and pressure to make decisions.
 
@@ -455,6 +489,8 @@ Develop assertiveness skills and practice voicing personal needs and opinions.
 Engage in self-care activities to prioritize personal well-being.
 Seek out healthy, supportive relationships where mutual respect and harmony are valued.
 
+</article>
+
 In conclusion, understanding how each Enneagram type responds to stress and the unique challenges they face can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
 
 <svelte:head>
@@ -467,20 +503,20 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
   "headline": "Enneagram Types in Stress",
   "description": "Navigating Stress: How each Enneagram type responds to the uncomfortable",
   "creator" : ["DJ Wayne"],
-"author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-			{
-				"@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-			},
-			{
-				"@id": "https://twitter.com/djwayne3"
-			}
-		]
+  "author": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": [
+        {
+          "@id": "https://www.instagram.com/djwayne3/"
+        },
+        {
+          "@id": "https://www.youtube.com/@djwayne3"
+        },
+        {
+          "@id": "https://twitter.com/djwayne3"
+        }
+    ]
   },
   "datePublished": "2023-04-14",
   "url": "https://9takes.com/blog/enneagram/enneagram-types-in-stress",
@@ -587,3 +623,125 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+
+    @import '../../scss/index.scss';
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>

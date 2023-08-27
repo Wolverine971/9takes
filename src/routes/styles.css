@@ -266,12 +266,12 @@ body::-webkit-scrollbar-thumb {
 
 .txt-white {
 	color: white;
-	text-shadow: 1px 1px 2px var(--color-theme-purple);
+	text-shadow: 1px 1px 1px black;
 }
 
 .txt-dark {
 	color: var(--color-paladin-3);
-	text-shadow: 1px 1px 2px var(--color-theme-purple-v);
+	text-shadow: 1px 1px 1px var(--color-theme-purple-v);
 }
 
 .bold-shadow {

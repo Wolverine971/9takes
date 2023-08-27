@@ -80,7 +80,6 @@ Demi Lovato and Joe Jonas -->
   </div>
 </details>
 
-
 <!-- put camp rock video here: LINK -->
 
 <!-- camp rock mention in first sentence  -->

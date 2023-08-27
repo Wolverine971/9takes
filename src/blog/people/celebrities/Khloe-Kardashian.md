@@ -31,7 +31,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/6s/${'Khloé-Kardashian'}.webp`}
+		image={`/types/6s/${'Khloe-Kardashian'}.webp`}
 		showIcon={false}
 		displayText="Khloé Kardashian"
 		subtext=""

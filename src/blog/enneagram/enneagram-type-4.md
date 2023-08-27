@@ -23,7 +23,9 @@ type: 'overview'
 <Carousel type={4} gridDisplay={true} />
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Individuals with the Enneagram Type 4 are known for their strong sense of self, and their desire to express their unique individuality. They are driven by a sense of authenticity and self-expression, and they have a deep need to be understood and appreciated for who they truly are. Individualists are often highly creative and artistic, and they strive to make a meaningful impact in their lives and the world around them.
 
@@ -39,21 +41,33 @@ Key characteristics of Type 5 personalities include:
 - Strong sense of individuality
 - May struggle with feelings of envy and self-doubt
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 One of the biggest strengths of the Enneagram Type 4 is their creativity and artistic expression. Individualists are highly imaginative and resourceful, and they have a unique perspective on the world. They are able to tap into their emotions and create something that is truly authentic and meaningful.
 
 Enneagram Type 4 individuals are also known for their empathy and compassion. They have a deep understanding of the human experience and are able to connect with others on a deep emotional level. They are also deeply introspective and self-aware, which allows them to make positive changes in their own lives.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 Individualists can be moody and withdrawn, making it difficult for them to form and maintain relationships. They can also be prone to self-doubt and insecurity, which can hold them back from pursuing their goals. Additionally, they may struggle with feeling misunderstood and disconnected from others.
+
+</article>
 
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning. Type 4s have a deep need to understand themselves and their place in the world, and they often feel a sense of incompleteness or longing for something they believe is missing in their lives.
 
@@ -61,15 +75,25 @@ Type 4s are highly individualistic and strive to express their unique identity t
 
 At the same time, Type 4s may also struggle with a sense of self-doubt and may believe that they are not good enough or that they do not measure up to others. They may feel envious of others who seem to have a more fulfilling life or a stronger sense of self.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 - Inadequate or without significance. They fear being plain or ordinary, and they desire to be unique and special in some way. They also fear being misunderstood or not fully known by others, leading them to feel isolated and disconnected.
 - Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity as a means of expressing their unique identity and standing out from others.
 - Fear of abandonment, which can manifest in a belief that others will inevitably leave or reject them. They may feel that their flaws or vulnerabilities will make them unlovable and unworthy of connection, causing them to withdraw or push others away before they can be rejected.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When they're under stress, they might become more emotionally needy and dependent on others, as well as manipulative and controlling in their relationships. They might also struggle with feeling unlovable or inadequate. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -79,7 +103,9 @@ Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 Enneagram Type 4 individuals tend to approach relationships in a deep and intense way, seeking emotional connection and authenticity with their partners. They are often highly attuned to their own emotions and may feel a strong need to express themselves in their relationships.
 
@@ -89,7 +115,11 @@ In relationships, Type 4s may struggle with feelings of jealousy or insecurity, 
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Enneagram Type 4 individuals bring unique strengths and challenges to the workplace. They are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and come up with original ideas. They are also deeply attuned to their emotions and those of others, which can make them insightful and empathetic team members.
 
@@ -99,13 +129,21 @@ In the workplace, Type 4s may struggle with feelings of boredom or restlessness,
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Growth and Development
+</article>
+
+<article class="section-content">
+
+<h2>Growth and Development</h2>
 
 While the Enneagram Type 4 has many strengths, there are also areas where they may struggle. One of the biggest challenges for Individualists is learning to accept themselves for who they are. They may struggle with feelings of inadequacy and self-doubt, and they may have difficulty finding their place in the world.
 
 Another area where Enneagram Type 4 individuals may struggle is in their relationships. Individualists may struggle with feelings of envy and longing for what they perceive as a more fulfilling life. They may also find it difficult to maintain healthy boundaries, and they may struggle with feelings of codependency.
 
-## How to Develop and Grow as a Type 4 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 4 Personality</h2>
 
 - Self-Awareness: Type 4s can benefit from developing a deeper understanding of their own emotions and motivations, as well as how they relate to others. This can involve journaling, therapy, or other forms of self-reflection and introspection.
 - Gratitude: Type 4s may benefit from focusing on gratitude and cultivating a sense of appreciation for what they have, rather than dwelling on what they lack or feel is missing in their lives.
@@ -113,9 +151,15 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
 - Goal-Setting: Type 4s can benefit from setting specific, achievable goals that align with their values and passions. This can help them to focus their energy and motivation in a productive way, and to feel a sense of accomplishment and satisfaction.
 - Balance: Type 4s can be prone to extremes of emotion and behavior, and may benefit from developing a greater sense of balance and equilibrium in their lives. This can involve practicing self-care, setting boundaries, and developing healthy coping mechanisms for dealing with stress and overwhelm.
 
-## Famous Enneagram 4s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 4s</h2>
 
 <FamousTypes type={4} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
 - Be that self which one truly is: categorized as desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
@@ -367,4 +411,123 @@ th {
     border-radius:5px
 }
 
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+    
 </style>

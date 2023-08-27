@@ -125,7 +125,7 @@ How They Flex: By showcasing their role in fostering harmony, resolution, and se
 Desire to Be Seen: As the bridge, the harmonizer who sees and values all perspectives.
 Deep Dive: When Type 9s emphasize their peacemaking roles, they're subtly hinting at their profound ability to heal divides and their wish to be recognized for their tranquil spirit.
 
-## In Conclusion
+## Wrap up
 
 The Enneagram, in its depth, offers more than just categories—it's a mirror reflecting our deepest desires, our yearnings for acknowledgment, and our intrinsic motivations. As we appreciate the flexes of each type, it's pivotal to understand the heartfelt desires behind them. Such understanding fosters empathy, bridging the gaps between types and unveiling the shared human narrative.
 

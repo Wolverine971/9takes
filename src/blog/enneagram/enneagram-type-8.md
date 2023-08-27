@@ -23,37 +23,61 @@ type: ['overview']
 <Carousel type={8} gridDisplay={true}/>
 <br>
 
-## Characteristics
+<article class="section-content">
+
+<h2>Characteristics</h2>
 
 Type 8's are often described as strong-willed, assertive, and confident. They have a natural ability to take charge and lead others, and they are not afraid to speak their minds. Type 8's are also known for their determination and resilience. They are not easily swayed by others and are often able to overcome obstacles with ease.
 
-## Strengths
+</article>
+
+<article class="section-content">
+
+<h2>Strengths</h2>
 
 One of the key strengths of the Type 8 is their ability to take action. They are decisive and confident in their decisions, and they are not afraid to take risks. Type 8's are also known for their ability to inspire and lead others. They have a natural charisma and are able to rally others around a cause or goal. Additionally, Type 8's are often able to see the big picture and are able to think strategically.
 
-## Weaknesses/ Challenges
+</article>
+
+<article class="section-content">
+
+<h2>Weaknesses/ Challenges</h2>
 
 While Type 8's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be overly aggressive and confrontational. They can also be stubborn and unwilling to compromise. Additionally, Type 8's can have a hard time expressing their emotions and may struggle with vulnerability.
 
 Type 8s can struggle with issues related to control, as well as anger and impulsivity. They may have difficulty accepting vulnerability or admitting when they are wrong. In relationships, Type 8s may struggle with giving up control or appearing weak. Understanding these challenges can help Type 8s work on personal growth and develop healthier relationships.
 
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Motivations
+<article class="section-content">
+
+<h2>Motivations</h2>
 
 Enneagram Type 8 individuals are driven by a need for control and a desire to protect themselves and those they care about. They are highly motivated by a sense of justice and fairness and can be quite passionate about causes that align with their values.
 
 At their core, Enneagram Type 8 individuals are seeking to avoid being controlled by others. They value their independence and do not want to be beholden to anyone or anything. This can sometimes manifest as a fear of vulnerability or a reluctance to rely on others for support.
 
-## Fears
+</article>
+
+<article class="section-content">
+
+<h2>Fears</h2>
 
 The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They value their independence and autonomy above all else and may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others to maintain their sense of autonomy. Additionally, Enneagram Type 8 individuals may also have a fear of vulnerability, as they perceive vulnerability as a potential weakness that could be exploited by others.
 
-## Under Stress
+</article>
+
+<article class="section-content">
+
+<h2>Under Stress</h2>
 
 Their stress number is Type 5. Type 5s are analytical, independent, and private. When they're under stress, they might become more withdrawn and isolated from others, as well as cold and distant in their relationships. They might also struggle with feeling vulnerable and helpless in the face of challenges. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+
+</article>
 
 <div class="scroll-table">
 
@@ -63,7 +87,9 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 
 </div>
 
-## In Relationships
+<article class="section-content">
+
+<h2>In Relationships</h2>
 
 Enneagram Type 8 individuals can be complex partners in relationships. On one hand, they are fiercely loyal and protective of those they care about, and can be quite generous and supportive. They are also direct and straightforward in their communication, which can be refreshing for some partners.
 
@@ -73,7 +99,11 @@ To have a successful relationship with an Enneagram Type 8 individual, it is imp
 
 Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
 
-## In the Workplace
+</article>
+
+<article class="section-content">
+
+<h2>In the Workplace</h2>
 
 Enneagram Type 8 individuals can be powerful and effective leaders in the workplace. They are often natural problem solvers, with a talent for identifying and addressing challenges head-on. They are also highly independent and self-assured, and are not afraid to take risks or make tough decisions.
 
@@ -83,17 +113,29 @@ To work successfully with an Enneagram Type 8 individual, it is important to be 
 
 Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
 
-## Tips for Working with Enneagram Type 8
+</article>
+
+<article class="section-content">
+
+<h2>Tips for Working with Enneagram Type 8</h2>
 
 If you are working with an Enneagram Type 8 individual, it is important to be direct and straightforward in your communication. These individuals value honesty and respect those who are willing to speak their minds. However, it is also important to be mindful of their need for control and to avoid coming across as confrontational or challenging.
 
 Additionally, it can be helpful to offer Enneagram Type 8 individuals opportunities to lead and take charge. They are natural-born leaders and can be quite effective in positions of authority. However, it is important to ensure that they are working towards goals that align with the greater good and not just their own personal interests.
 
-## Growth and Development
+</article>
+
+<article class="section-content">
+
+<h2>Growth and Development</h2>
 
 For Type 8's, growth opportunities lie in learning to regulate their aggression and becoming more aware of the impact their actions have on others. They can also benefit from learning to express their emotions and developing greater empathy. Additionally, Type 8's can benefit from learning to be more open to feedback and willing to make changes.
 
-## How to Develop and Grow as a Type 8 Personality
+</article>
+
+<article class="section-content">
+
+<h2>How to Develop and Grow as a Type 8 Personality</h2>
 
 Enneagram Type 8 individuals can develop and grow by working on their vulnerabilities and emotional intelligence. This can involve developing a greater sense of self-awareness and understanding of their own emotions, as well as learning to be more vulnerable and open with others. Some specific strategies for growth might include:
 
@@ -104,9 +146,15 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 - Building healthy relationships: Enneagram Type 8 individuals may struggle with control and dominance in their relationships, but learning to build healthy, supportive relationships based on trust and mutual respect can be an important step in their growth.
 - By working on these areas, Enneagram Type 8 individuals can develop greater emotional intelligence and become more effective leaders, partners, and individuals.
 
-## Famous Enneagram 8s
+</article>
+
+<article class="section-content">
+
+<h2>Famous Enneagram 8s</h2>
 
 <FamousTypes type={8} />
+
+</article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 8
 - The struggle between the life and death instincts persists throughout life: categorized as fear of being controlled or harmed as it pertains to the primal struggle between opposing forces in life - Melanie Klein
@@ -390,4 +438,121 @@ td {
     border-radius:5px
 }
 
+/* @import '../../scss/index.scss'; */
+
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+    }
 </style>
