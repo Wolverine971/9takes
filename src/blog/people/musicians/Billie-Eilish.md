@@ -39,9 +39,9 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	/>
 </div>
 
-## Unraveling the Enigma
+## Billie the Enigma
 
-For the unacquainted, Billie Eilish Pirate Baird O'Connell, the wunderkind of pop music, started her career early. At the tender age of 13, her breakthrough song "Ocean Eyes" catapulted her into the limelight, and since then, her fame has only grown. Her unique take on music, combined with her distinctive style, earned her a niche fanbase, which rapidly expanded into a global phenomenon.
+Billie Eilish Pirate Baird O'Connell, the wunderkind of pop music, started her career early. At the tender age of 13, her breakthrough song "Ocean Eyes" catapulted her into the limelight, and since then, her fame has only grown. Her unique take on music, combined with her distinctive style, earned her a niche fanbase, which rapidly expanded into a global phenomenon.
 
 But let's shift our focus from her professional life to her personal one. On the surface, Eilish, with her vibrant hair and edgy fashion sense, might not seem like a typical Type 9. Yet, when we explore her internal world, we start seeing the traits synonymous with "The Peacemaker".
 

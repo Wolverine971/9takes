@@ -4,7 +4,7 @@ description: 'Discover the best Enneagram books, websites, and podcasts for pers
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
-lastmod: '2023-04-01'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,15 +14,8 @@ previewHtml: ''
 pic: 'greek-statue-listening-to-a-podcast'
 ---
 
-<svelte:head>
-
-<meta property="og:image" content="https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
-	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 <div
 	style="display: flex;
@@ -66,7 +59,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 - <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
 - <a target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/ca/podcast/enneagram-for-idiots/id1338051017">Enneagram for Idiots by Tara and Marissa</a>. Its a banter podcast and it is hilarious.
 
-<div>
+<svelte:head>
+
+<meta property="og:image" content="https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts">
 <script type="application/ld+json">
       {
     "@context": "http://schema.org",
@@ -77,25 +73,25 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     },
     "articleSection": "Psychology",
     "creator" : ["DJ Wayne"],
-"author":{
-            "@type":"Person",
-            "name":"DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/djwayne3/"
+          },
+          {
+          "@id": "https://www.youtube.com/@djwayne3"
+          },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"
           },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
-    },
-    "dateModified": "2023-04-01",
+          {
+            "@id": "https://twitter.com/djwayne3"
+          }
+        ]
+      },
+    "dateModified": "2023-08-26",
     "datePublished": "2023-04-01",
     "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
     "headline": "Books and Websites for Learning More About the Enneagram",
@@ -253,9 +249,23 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       }
     ],
     "publisher": {
-      "type": "Organization",
-      "name": "9takes"
-    }
+        "@type": "Organization",
+        "sameAs": [
+          {
+            "@id": "https://www.instagram.com/9takesdotcom/"
+          },
+          {
+            "@id": "https://twitter.com/9takesdotcom"
+          }
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": {
+            "@id": "https://9takes.com/brand/darkRubix.png"
+          }
+        },
+        "name": "9takes"
+      }
   }
 </script>
-</div>
+</svelte:head>

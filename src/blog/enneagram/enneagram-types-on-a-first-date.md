@@ -18,6 +18,10 @@ pic: 'greek-statues-on-a-first-date'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+<p class="firstLetter">Ever get a little nervous before a first date? You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will look at how each type prepares, what they likely feel, and what are their unique takes on dating red flags and green signals.
+</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,9 +37,6 @@ pic: 'greek-statues-on-a-first-date'
 		subtext=""
 	/>
 </div>
-
-<p class="firstLetter">Ever get a little nervous before a first date? You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will look at how each type prepares, what they likely feel, and what are their unique takes on dating red flags and green signals.
-</p>
 
 This isn't a foolproof dating guide. It's a lens to understand and empathize with your date - or even yourself - better. Dive in, and let's decode the dance of dating, starting with Type 1, The Perfectionist...
 
@@ -171,7 +172,7 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 ## Wrapping it up
 
-As we unravel the final threads in this exploration, it should be different our expectations can be, particularly on something as personal as a first date. But remember, this is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Dive into our collection of other blogs to uncover more about your type and others. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
+As we unravel the final threads in this exploration, it should be clear how different our expectations can be, particularly on something as personal as a first date. This is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
 
 <svelte:head>
 

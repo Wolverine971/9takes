@@ -4,7 +4,7 @@ description: 'Why Beyoncé Knowles appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Beyonce-Knowles'
-lastmod: '2023-06-17'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
+
+> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -34,11 +39,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
-
-<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
-
-Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.
+Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a Type 8. But there's more.
 
 ## Understanding the Drive
 
@@ -88,7 +89,7 @@ Listening to a Beyoncé tune or watching her captivating performances henceforth
 
 Now, let's shift gears slightly. How does this understanding of Beyoncé change the way you perceive her art? Does discerning Beyoncé as an Enneagram Type 8 provide you with a deeper comprehension of her motivations and actions? In a world where the persona often overshadows the person, perhaps there is merit in appreciating our icons not only through their work but also their personality types.
 
-If you enjoyed this article sign up below ⬇️ and join 9takes, a community that values the reflective investigation of personalities and life perspectives. Together, let's unravel the intricacies of human character, one personality at a time.
+If you enjoyed this article please sign up below ⬇️ and join 9takes. If you are a powerful Enneagram 8 like Beyoncé you already know you are free to refuse, but we are trying to create a community that values the reflective investigation of personalities and life perspectives. We would love for you to join.
 
 <svelte:head>
 
@@ -100,23 +101,23 @@ If you enjoyed this article sign up below ⬇️ and join 9takes, a community th
       "@type": "Article",
       "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": [
+            {
+              "@id": "https://www.instagram.com/djwayne3/"
+            },
+            {
+              "@id": "https://www.youtube.com/@djwayne3"
+            },
+            {
+              "@id": "https://www.linkedin.com/in/davidtwayne/"
+            },
+            {
+              "@id": "https://twitter.com/djwayne3"
+            }
+        ]
       },
       "dateModified": {
         "@type": "Date",

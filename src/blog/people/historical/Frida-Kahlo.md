@@ -20,6 +20,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.</p>
+
+> **Disclaimer** This analysis of Frida Kahlo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Frida Kahlo.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,10 +38,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Frida Kahlo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Frida Kahlo.
-
-<p class="firstLetter">Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.</p>
 
 ## Emotional Depth
 

@@ -191,15 +191,15 @@ If you found this guide helpful I invite you to join 9takes where we delve deepe
       "@type": "Article",
       "articleBody": "This article provides a beginner's guide to determining your Enneagram type. It explains the concept of the Enneagram, a personality system that identifies types based on coping mechanisms developed due to unresolved childhood traumas. The article outlines steps to determine your Enneagram type, including identifying your core emotion, understanding the connection between emotions and centers of intelligence, and considering your childhood wounds. It also provides an overview of each Enneagram type and their core emotions and childhood wounds.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
+          },
+          {
+          "@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

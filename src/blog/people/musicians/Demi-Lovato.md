@@ -46,6 +46,11 @@ Demi Lovato and Joe Jonas -->
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You know her, love her ❤️‍🔥, or possibly, critique her. Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of Enneagram Type 4 - The Individualist.</p>
+
+> **Disclaimer** This analysis of Demi Lovato's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -59,8 +64,6 @@ Demi Lovato and Joe Jonas -->
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Demi Lovato's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
 
 <details>
 <summary class="accordion">TL;DR: Why Demi Lovato is an Enneagram 4</summary>
@@ -77,7 +80,6 @@ Demi Lovato and Joe Jonas -->
   </div>
 </details>
 
-<p class="firstLetter">You know her, love her ❤️‍🔥, or possibly, critique her. Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of Enneagram Type 4 - The Individualist.</p>
 
 <!-- put camp rock video here: LINK -->
 
@@ -86,7 +88,7 @@ Demi Lovato and Joe Jonas -->
 
 ## The Individualist: A Closer Look
 
-Although the 'Individualist' label may seem to align effortlessly with Lovato's eccentric tattoos 🎨💉 and publicized dating life, Enneagram Type 4 personality isn't just about uniqueness. It's a complex type, characterised by a deep longing for identity, the pursuit of authenticity, and an internal struggle with feelings of being 'different' 🌈👽. Sound familiar? Let's take a closer look at Demi's life, exploring the instances where these traits have shone through.
+Although the 'Individualist' label may seem to align effortlessly with Lovato's eccentric tattoos 🎨💉 and publicized dating life, Enneagram Type 4 personality isn't just about uniqueness. It's a complex type, characterized by a deep longing for identity, the pursuit of authenticity, and an internal struggle with feelings of being 'different' 🌈👽. Sound familiar? Let's take a closer look at Demi's life, exploring the instances where these traits have shone through.
 
 ## From 'Camp Rock' to Rehab: Lovato's Struggle for Identity
 

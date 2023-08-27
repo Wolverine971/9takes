@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Could <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Barack_Obama">Barack Obama</a>, the 44th president of the United States, be a Type 9 on the Enneagram?</p>
+
+> **Disclaimer** This analysis of Barack Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,10 +38,6 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Barack Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
-
-<p class="firstLetter">Could <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Barack_Obama">Barack Obama</a>, the 44th president of the United States, be a Type 9 on the Enneagram?</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Obama is an Enneagram type 9 </summary>
@@ -54,7 +55,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
   </div>
 </details>
 
-In the realm of personality psychology, few tools can rival the insight and understanding provided by the Enneagram. It unravels a person's core motivations, fears, and desires, offering a fresh perspective on human behaviors. Today, let's delve into the fascinating journey of Barack Obama and ponder the possibility of him being a Type 9 - "The Peacemaker".
+In the realm of personality psychology, few tools can rival the insight and understanding provided by the Enneagram. It gets at a person's core motivations, fears, and desires, offering a fresh perspective on human behaviors. Today, let's delve into the fascinating journey of Barack Obama and ponder the possibility of him being a Type 9 - "The Peacemaker".
 
 ## The Enneagram Type 9: The Peacemaker
 

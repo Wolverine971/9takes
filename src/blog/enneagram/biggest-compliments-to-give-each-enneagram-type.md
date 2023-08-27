@@ -4,7 +4,7 @@ description: 'Explore the ultimate compliments for each Enneagram type, delving 
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2023-08-09'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,6 +18,9 @@ pic: 'greek-statue-yeah-boi'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
+
+<p class="firstLetter">Ever wondered how to make someone's day with just the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special. Let's get started!</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -34,8 +37,6 @@ pic: 'greek-statue-yeah-boi'
 	/>
 </div>
 
-The Ultimate Compliments for Every Enneagram Type
-In the vast tapestry of human existence, few tools unravel the intricacies of our souls as the Enneagram does. It's not just about knowing oneself but about understanding others, forging connections, and embracing diversity.
 
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
@@ -264,9 +265,9 @@ I hope this post resonates with your audience and encourages registrations for 9
    "@graph":[
       {
          "@type":"Article",
-         "articleBody":"In the vast tapestry of human existence, few tools unravel the intricacies of our souls as the Enneagram does. This post offers compliments for each Enneagram type, providing a balance between emotional appeal and logical reasoning. It's designed to guide the reader through the topic, promoting understanding and appreciation of each type.",
+         "articleBody":"Ever wondered how to make someone's day with just the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
          "creator" : ["DJ Wayne"],
-"author":{
+         "author":{
             "@type":"Person",
             "name":"DJ Wayne",
             "sameAs":[
@@ -283,7 +284,7 @@ I hope this post resonates with your audience and encourages registrations for 9
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2023-08-09"
+            "@value":"2023-08-26"
          },
          "datePublished":{
             "@type":"Date",
@@ -300,7 +301,7 @@ I hope this post resonates with your audience and encourages registrations for 9
             "width":1200
          },
          "mainEntityOfPage":{
-            "@id":"blog/enneagram/biggest-compliments-to-give-each-enneagram-type",
+            "@id":"https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type",
             "@type":"WebPage"
          },
          "mentions":{

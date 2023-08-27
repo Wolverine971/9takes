@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">"He who has a why to live can bear almost any how." You've come across his quotes, skimmed his writings, or at least heard his name mentioned in philosophical circles. Friedrich Nietzsche, a towering figure in the world of philosophy, continues to shape our understanding of existence and morality centuries after his death. But what if we tell you there's another layer to Nietzsche that remains largely unexplored? An enigmatic enneagram Type 5.</p>
+
+> **Disclaimer** This analysis of Friedrich Nietzsche's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Friedrich Nietzsche.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Friedrich Nietzsche's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Friedrich Nietzsche.
-
-<p class="firstLetter">"He who has a why to live can bear almost any how." You've come across his quotes, skimmed his writings, or at least heard his name mentioned in philosophical circles. Friedrich Nietzsche, a towering figure in the world of philosophy, continues to shape our understanding of existence and morality centuries after his death. But what if we tell you there's another layer to Nietzsche that remains largely unexplored? An enigmatic enneagram Type 5.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Friedrich Nietzsche is an Enneagram type 5</summary>
@@ -100,11 +101,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## In Closing
 
-Tracing the path of Friedrich Nietzsche's life through the lens of Enneagram Type 5 has allowed us a more profound insight into the mind of this revered philosopher. Nietzsche's unquenchable thirst for knowledge, his love for solitude, and his intellectual resilience amidst controversy all point to the characteristics of a Type 5 personality. It's clear that his philosophical explorations were shaped by a mind uniquely attuned to introspection and intellectual pursuit.
+Nietzsche's unquenchable thirst for knowledge, his love for solitude, and his intellectual resilience amidst controversy all point to the characteristics of a Type 5 personality. It's clear that his philosophical explorations were shaped by a mind uniquely attuned to introspection and intellectual pursuit.
 
-We must ask ourselves: How does this understanding of Nietzsche as a Type 5 influence our interpretation of his philosophy? Does viewing Nietzsche through this lens offer a richer understanding of his profound insights on existence, morality, and the human condition?
+We must ask ourselves: How does this viewing Nietzsche as a Type 5 influence our interpretation of his philosophy? Does viewing Nietzsche through this lens offer a richer understanding of his profound insights on existence, morality, and the human condition?
 
-The journey doesn’t end here. Nietzsche is just one of many personalities that we can explore through the enneagram lens. Join us in our quest for understanding at 9takes, where we unravel personalities and perspectives, one take at a time. Sign up and begin your own journey of discovery. ⬇️
+Nietzsche is just one of many personalities that we can explore through the enneagram lens. If this sounds interesting, join us in our quest for understanding at 9takes, where we explore personalities and perspectives, one take at a time.
 
 <svelte:head>
 

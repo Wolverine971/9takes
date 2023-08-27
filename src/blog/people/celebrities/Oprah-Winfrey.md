@@ -123,7 +123,7 @@ Better yet, why not become part of a community that values introspective explora
         "@value": "2023-02-18"
       },
       "description": "This blog post examines the reasons why Oprah Winfrey might be an Enneagram Type 2. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 2.",
-      "headline": "Unraveling Oprah Winfrey: An Insight Into Her Enneagram Type 2 Personality",
+      "headline": "Oprah Winfrey Enneagram Type 2",
       "image": {
         "@type": "ImageObject",
         "height": 800,

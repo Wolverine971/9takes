@@ -4,7 +4,7 @@ description: 'Freud and Plato stumble on the Enneagram'
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
-lastmod: '2023-07-11'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,15 +14,22 @@ previewHtml: ''
 pic: 'freud-plato'
 ---
 
-<svelte:head>
-
-  <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram">
-</svelte:head>
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<!-- They almost got it, so close
+Historical hints of the enneagram
+
+First principles
+Enneagram and Plato
+
+9 threads through the fabric of history -->
+
+<p class="firstLetter">Philosophy and Psychology, lets get poetic.</p>
+
+In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into the internal landscapes of our minds.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -37,19 +44,6 @@ pic: 'freud-plato'
 		subtext=""
 	/>
 </div>
-
-<!-- They almost got it, so close
-Historical hints of the enneagram
-
-First principles
-Enneagram and Plato
-
-9 threads through the fabric of history -->
-
-<p class="firstLetter">Philosophy and Psychology, lets get poetic.</p>
-
-In the intricate tapestry of human consciousness, understanding ourselves is a journey marked by fascinating waypoints. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. In this article, we'll map the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll embark on a deep dive into how core emotions sculpt these intelligence centers, aiding us to navigate the internal landscapes of our minds with newfound understanding and compassion. So, fasten your seatbelts as we journey through layers of psychological philosophy, unraveling the strands that interweave to create the framework that is the Enneagram.
-
 ## The Enneagram's Roots in Philosophy
 
 While the Enneagram is a popular tool for understanding human behavior and growth, it is essential to understand its philosophical lineage to truly appreciate its depth. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll gain a deeper understanding of how our core emotions shape these intelligence centers.
@@ -108,29 +102,32 @@ Understanding the connections between the Enneagram, Plato, and Freud, as well a
 
 In essence, the Enneagram offers a framework for personal development that is deeply rooted in the rich philosophical traditions of Plato and Freud. By exploring these connections, we can better appreciate the Enneagram as not only a tool for self-understanding but also as a means to foster personal growth and transformation.
 
-<div>
+<svelte:head>
+
+  <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
+  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "creator" : ["DJ Wayne"],
-"author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
-  },
+  "author": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": [
+        {
+          "@id": "https://www.instagram.com/djwayne3/"
+        },
+        {
+          "@id": "https://www.youtube.com/@djwayne3"
+        },
+        {
+          "@id": "https://www.linkedin.com/in/davidtwayne/"
+        },
+        {
+          "@id": "https://twitter.com/djwayne3"
+        }
+      ]
+    },
   "citation": [
     {
       "@type": "WebPage",
@@ -149,7 +146,7 @@ In essence, the Enneagram offers a framework for personal development that is de
   ],
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-07-11"
+    "@value": "2023-08-26"
   },
   "datePublished": {
     "@type": "Date",
@@ -215,20 +212,26 @@ In essence, the Enneagram offers a framework for personal development that is de
     }
   ],
   "publisher": {
-    "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
+      "@type": "Organization",
+      "sameAs": [
+        {
+          "@id": "https://www.instagram.com/9takesdotcom/"
+        },
+        {
+          "@id": "https://twitter.com/9takesdotcom"
+        }
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": {
+          "@id": "https://9takes.com/brand/darkRubix.png"
+        }
       },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
-    "name": "9takes"
-  }
+      "name": "9takes"
+    }
 }
 </script>
-</div>
+</svelte:head>
 
 <style>
 

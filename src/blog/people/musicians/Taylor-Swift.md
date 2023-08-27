@@ -146,7 +146,7 @@ Join us at 9takes - a community that values the exploration of personalities and
         "@value": "2023-07-29"
       },
       "description": "This blog post examines the reasons why Taylor Swift might be an Enneagram Type 3. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 3.",
-      "headline": "Unraveling Taylor Swift: An Insight Into Her Enneagram Type 3 Personality",
+      "headline": "Taylor Swift An Enneagram Type 3",
       "image": {
         "@type": "ImageObject",
         "height": 800,

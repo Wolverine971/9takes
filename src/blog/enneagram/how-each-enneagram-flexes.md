@@ -4,7 +4,7 @@ description: "Explore the Enneagram's intricate tapestry: how each type subtly s
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'
-lastmod: '2023-08-09'
+lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,6 +17,9 @@ pic: 'greek-statue-flex'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Each Enneagram type has its distinct hue and texture. Each type flexes in their own way. What drives each type to show off? How do they want to be perceived? Let's get into it.</p>
+
 <div style="display: flex;
     justify-content: center;">
 <PopCard
@@ -27,8 +30,6 @@ pic: 'greek-statue-flex'
 		subtext=""
 	/>
 </div>
-
-<p class="firstLetter">Each Enneagram type has its distinct hue and texture. Each type flexes in their own way. What drives each type to show off? How do they want to be perceived? Let's get into it.</p>
 
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
@@ -132,30 +133,36 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/how-each-enneagram-flexes">
+<meta property="og:image" content="https://9takes.com/blogs/greek-statue-flex.webp" />
 <script type="application/ld+json">
     {
     "@context": "http://schema.org",
     "@graph": [
         {
             "@type": "Article",
-            "articleBody": "In the intricate tapestry of the Enneagram, each thread—each type—has its distinct hue and texture. While the art of flexing offers a glimpse into these colors, understanding the deeper motivations reveals the full spectrum. What drives each type to show off? How do they want to be perceived? Let's unravel these layers.",
+            "articleBody": "In the intricate tapestry of the Enneagram, each thread—each type—has its distinct hue and texture. While the art of flexing offers a glimpse into these colors, understanding the deeper motivations reveals the full spectrum. What drives each type to show off? How do they want to be perceived? Let's explore these layers.",
+            "creator" : ["DJ Wayne"],
             "author": {
                 "@type": "Person",
                 "name": "DJ Wayne",
                 "sameAs": [
                     {
-                        "@id": "https://www.instagram.com/9takesdotcom/"
+                    "@id": "https://www.instagram.com/djwayne3/"
                     },
                     {
-                        "@id": "https://twitter.com/9takesdotcom"
+                    "@id": "https://www.youtube.com/@djwayne3"
+                    },
+                    {
+                    "@id": "https://www.linkedin.com/in/davidtwayne/"
+                    },
+                    {
+                    "@id": "https://twitter.com/djwayne3"
                     }
                 ]
-            },
+                },
             "dateModified": {
                 "@type": "Date",
-                "@value": "2023-08-09"
+                "@value": "2023-08-26"
             },
             "datePublished": {
                 "@type": "Date",

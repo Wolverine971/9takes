@@ -117,7 +117,7 @@ So, there you have it. A look at Halsey through the lens of Enneagram Type 8. Fr
 
 So, what do you think about this perspective on Halsey? Does understanding her through the Enneagram Type 8 shed new light on her music and actions?
 
-If you're intrigued and wish to explore more, delve into our other articles about various personalities from different walks of life. Sign up below ⬇️ and join 9takes, a community dedicated to unraveling the mysteries of personality and diverse perspectives on life. Together, let's dig deeper into the psyche, one personality at a time.
+If you're intrigued and wish to explore more, delve into our other articles about various personalities from different walks of life. Sign up below ⬇️ and join 9takes, a community dedicated to getting at the mysteries of personality and diverse perspectives on life. Together, let's dig deeper into the psyche, one personality at a time.
 
 <svelte:head>
 

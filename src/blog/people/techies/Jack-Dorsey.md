@@ -195,7 +195,7 @@ And now, a question for you: What drives the personalities behind your favorite 
         "@value": "2023-08-11"
       },
       "description": "This blog post examines the reasons why Jack Dorsey might be an Enneagram Type 5. It delves into his personality, his motivations, his inner world, controversies he's faced, and how these elements relate to the core attributes of a Type 5.",
-      "headline": "Unraveling Jack Dorsey: An Insight Into His Enneagram Type 5 Personality",
+      "headline": "Jack Dorsey Enneagram Type 5",
       "image": {
         "@type": "ImageObject",
         "height": 800,

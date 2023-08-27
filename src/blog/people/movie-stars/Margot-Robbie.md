@@ -220,7 +220,7 @@ The more we understand about people, the richer our interactions and experiences
         "@value": "2023-07-29"
       },
       "description": "This blog post examines the reasons why Margot Robbie might be an Enneagram Type 8. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 8.",
-      "headline": "Unraveling Margot Robbie: An Insight Into Her Enneagram Type 8 Personality",
+      "headline": "Margot Robbie An Enneagram Type 8",
       "image": {
         "@type": "ImageObject",
         "height": 800,

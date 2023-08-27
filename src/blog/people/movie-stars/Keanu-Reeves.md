@@ -237,7 +237,7 @@ For those ready to embark on this captivating exploration, I invite you to sign 
         "@value": "2023-08-11"
       },
       "description": "Exploring Keanu Reeves' personality through the lens of Enneagram Type 9, this article provides insights into his roles, challenges, and core motivations.",
-      "headline": "Unraveling Keanu Reeves: A Deep Dive into His Enneagram Type 9 Personality",
+      "headline": "Keanu Reeves An Enneagram Type 9",
       "image": {
         "@type": "ImageObject",
         "height": 800,

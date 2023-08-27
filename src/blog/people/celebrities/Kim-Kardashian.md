@@ -158,7 +158,7 @@ There is a fascinating world of personalities out there waiting to be explored. 
         "@value": "2023-06-20"
       },
       "description": "This blog post examines the reasons why Kim Kardashian might be an Enneagram Type 3. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 3.",
-      "headline": "Unraveling Kim Kardashian: An Insight Into Her Enneagram Type 3 Personality",
+      "headline": "Kim Kardashian's Personality: An Enneagram Type 3",
       "image": {
         "@type": "ImageObject",
         "height": 800,

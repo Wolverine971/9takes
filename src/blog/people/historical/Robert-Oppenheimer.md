@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions. Robert Oppenheimer is a figure shrouded in controversy, conflict, and intellectual brilliance. We are going to plunge into his psyche and propose that this complex personality bears the traits of the Enneagram Type 4 Personality - The Individualist.</p>
+
+> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
-
-<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions. Robert Oppenheimer is a figure shrouded in controversy, conflict, and intellectual brilliance. We are going to plunge into his psyche and propose that this complex personality bears the traits of the Enneagram Type 4 Personality - The Individualist.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Robert Oppenheimer is an Enneagram type 4</summary>
@@ -108,15 +109,15 @@ In our complex world, understanding people's personalities could pave the way fo
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Robert Oppenheimer from the perspective of the Enneagram Type 4. Known for his intellectual rigor, introspective nature, and significant contribution to the field of nuclear physics, Oppenheimer embodies many characteristics of Type 4 personalities. The article discusses various aspects of Oppenheimer's life and career that show his Type 4 characteristics, including his role in the Manhattan Project, personal struggles, and controversies.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
+          },
+          {
+            "@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"

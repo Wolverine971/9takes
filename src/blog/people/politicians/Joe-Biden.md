@@ -20,6 +20,11 @@ tiktok:
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You've heard his name, witnessed his actions, and formed your own opinions about him. Joe Biden, the 46th President of the United States, has a personality that can be intriguing to explore through the lens of the Enneagram. Today, we delve into an interesting perspective on Biden's persona, proposing him as a representation of Enneagram Type 2 - The Helper.</p>
+
+> **Disclaimer** This analysis of Joe Biden's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Joe Biden.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,10 +38,6 @@ tiktok:
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Joe Biden's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Joe Biden.
-
-<p class="firstLetter">You've heard his name, witnessed his actions, and formed your own opinions about him. Joe Biden, the 46th President of the United States, has a personality that can be intriguing to explore through the lens of the Enneagram. Today, we delve into an interesting perspective on Biden's persona, proposing him as a representation of Enneagram Type 2 - The Helper.</p>
 
 ## What Sets Type 2 Apart?
 
