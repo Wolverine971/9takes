@@ -41,6 +41,11 @@ Dua Lipa and Calvin Harris -->
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Immerse yourself in the vibrant universe of Dua Lipa 🌌🔮, the Grammy-awarded sensation who continues to captivate global audiences with her dynamic stage performances and chart-dominating hits. Her inimitable voice and indomitable spirit are undeniable. However, let's delve deeper and explore an intriguing perspective of Dua Lipa - as an embodiment of the Enneagram Type 3, also known as The Achiever.</p>
+
+> **Disclaimer** This analysis of Dua Lipa's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Dua Lipa.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -54,8 +59,6 @@ Dua Lipa and Calvin Harris -->
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Dua Lipa's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Dua Lipa.
 
 <details>
 <summary class="accordion">TL;DR: Why Dua Lipa is an Enneagram 3</summary>
@@ -72,8 +75,6 @@ Dua Lipa and Calvin Harris -->
 </ul>
   </div>
 </details>
-
-<p class="firstLetter">Immerse yourself in the vibrant universe of Dua Lipa 🌌🔮, the Grammy-awarded sensation who continues to captivate global audiences with her dynamic stage performances and chart-dominating hits. Her inimitable voice and indomitable spirit are undeniable. However, let's delve deeper and explore an intriguing perspective of Dua Lipa - as an embodiment of the Enneagram Type 3, also known as The Achiever.</p>
 
 ## Dua Lipa: An Enigmatic Enneagram Type 3
 

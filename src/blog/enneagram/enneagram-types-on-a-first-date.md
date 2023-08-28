@@ -224,7 +224,6 @@ As we unravel the final threads in this exploration, it should be clear how diff
 
 Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
-
 <svelte:head>
 
 <script type="application/ld+json">
@@ -240,9 +239,7 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
    "image":{
       "@type":"ImageObject",
       "height":800,
-      "url":{
-         "@id":"https://9takes.com/blogs/greek-statues-on-a-first-date.webp"
-      },
+      "url": "https://9takes.com/blogs/greek-statues-on-a-first-date.webp",
       "width":1200
    },
    "creator" : ["DJ Wayne"],

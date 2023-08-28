@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'team-building'
+pic: 'greek-statues-building-a-boat'
 ---
 
 <script>
@@ -27,10 +27,10 @@ pic: 'team-building'
 	"
 >
 	<PopCard
-		image={`/blogs/team-building.webp`}
+		image={`/blogs/greek-statues-building-a-boat.webp`}
 		showIcon={false}
 		displayText=""
-		altText="people gathered around a project"
+		altText="greek statues building a boat"
 		subtext=""
 	/>
 </div>
@@ -205,9 +205,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
    "image":{
       "@type":"ImageObject",
       "height":"630",
-      "url":{
-         "@id":"https://9takes.com/blogs/team-building.webp"
-      },
+      "url":"https://9takes.com/blogs/greek-statues-building-a-boat.webp",
       "width":"1200"
    },
    "keywords":"Enneagram, personality types, team building, leadership development, communication, collaboration",

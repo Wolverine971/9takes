@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Every once in a while, a legendary actor graces our screens, capturing our hearts and minds. Denzel Washington is undeniably one such force. But have you ever wondered what drives him? What’s the secret behind that undeniable presence he has on and off the camera?</p>
+
+> **Disclaimer** This analysis of Denzel Washington's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Denzel Washington.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Denzel Washington's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Denzel Washington.
-
-<p class="firstLetter">Every once in a while, a legendary actor graces our screens, capturing our hearts and minds. Denzel Washington is undeniably one such force. But have you ever wondered what drives him? What’s the secret behind that undeniable presence he has on and off the camera?</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Denzel Washington is an Enneagram type 8</summary>

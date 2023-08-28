@@ -71,7 +71,6 @@ The Enneagram is an ancient tool that has evolved over time through the contribu
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we like we said, there is so much more to explore. 🚀
 
-
 <svelte:head>
 
    <script type="application/ld+json">
@@ -108,7 +107,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
         {
           "@type": "Person",
           "name": "Oscar Ichazo",
-		  "sameAs": ["https://en.wikipedia.org/wiki/Oscar_Ichazo", "https://www.arica.org/oscar-ichazo"]
+          "sameAs": ["https://en.wikipedia.org/wiki/Oscar_Ichazo", "https://www.arica.org/oscar-ichazo"]
         },
         {
           "@type": "Person",

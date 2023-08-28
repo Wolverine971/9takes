@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'communication-styles'
+pic: 'two-female-greek-statues-having-a-conversation'
 ---
 
 <script>
@@ -19,6 +19,9 @@ pic: 'communication-styles'
    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -26,15 +29,13 @@ pic: 'communication-styles'
 	"
 >
 	<PopCard
-		image={`/blogs/communication-styles.webp`}
+		image={`/blogs/two-female-greek-statues-having-a-conversation.webp`}
 		showIcon={false}
 		displayText=""
 		altText="two people enjoying each others company"
 		subtext=""
 	/>
 </div>
-
-<p class="firstLetter">Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.</p>
 
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
 

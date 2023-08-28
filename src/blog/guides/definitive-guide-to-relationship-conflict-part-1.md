@@ -165,27 +165,13 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
       "mentions": [{
         "@type": "Person",
         "name": "Dr. John Gottman",
-        "sameAs": [
-          {
-            "@id": "https://www.gottman.com/"
-          },
-          {
-            "@id": "https://en.wikipedia.org/wiki/John_Gottman"
-          }
-        ]
+        "sameAs": ["https://www.gottman.com/", "https://en.wikipedia.org/wiki/John_Gottman"]
       },
       {
         "@type": "Person",
         "name": "Tony Robbins",
-        "sameAs": [
-          {
-            "@id": "https://www.tonyrobbins.com/"
-          },
-          {
-            "@id": "https://en.wikipedia.org/wiki/Tony_Robbins"
-          }
-        ]
-      },
+        "sameAs": ["https://www.tonyrobbins.com/", "https://en.wikipedia.org/wiki/Tony_Robbins"]
+      }
       ],
       "publisher": {
         "@type": "Organization",
