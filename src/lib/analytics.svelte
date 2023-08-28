@@ -15,26 +15,11 @@
 </script>
 
 <svelte:head>
-	<link href="https://www.googletagmanager.com/gtag/js?id=G-N2HX66R5RS" rel="preload" as="script" />
-
-	<script async>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-
-		gtag('js', new Date());
-		gtag('config', 'G-N2HX66R5RS');
-	</script>
-
 	<!-- Google tag (gtag.js) -->
 
-	<link
-		href="https://www.googletagmanager.com/gtag/js?id=UA-231754000-1"
-		rel="preload"
-		as="script"
-	/>
+	<link href="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG" rel="preload" as="script" />
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
@@ -42,6 +27,6 @@
 		}
 		gtag('js', new Date());
 
-		gtag('config', 'UA-231754000-1');
+		gtag('config', 'G-1BKNXQPYKG');
 	</script>
 </svelte:head>
