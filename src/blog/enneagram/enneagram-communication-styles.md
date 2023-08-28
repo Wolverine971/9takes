@@ -585,15 +585,15 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       "@type": "BlogPosting",
       "articleBody": "Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
           {
             "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
+          },
+          {
+            "@id": "https://www.youtube.com/@djwayne3"
           },
           {
             "@id": "https://www.linkedin.com/in/davidtwayne/"
@@ -770,7 +770,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
 </svelte:head>
 
 <style lang="scss">
-  article{
+  article {
     border: 1px solid #52616b;
     margin-top: 1rem;
     padding: 1rem;

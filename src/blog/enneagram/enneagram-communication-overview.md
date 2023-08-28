@@ -4,7 +4,7 @@ description: 'How to communicate and interact effectively with different Enneagr
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-overview'
-lastmod: '2023-06-17'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,45 +21,101 @@ previewHtml: ''
 
 First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in "The Path Between Us," "You can't change how you see—you can only change what you do with how you see." With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.
 
-## Enneagram 1 Communication
+## How Each Enneagram Type Communicates
+
+<article class="section-content">
+
+<h3>Enneagram 1 Communication</h3>
 
 Ones are principled, ethical, and perfectionistic. They value order, structure, and correctness. When communicating with Ones, it's important to be direct, clear, and respectful. Avoid being confrontational or critical, as Ones can be sensitive to criticism. Focus on solutions and constructive feedback, rather than dwelling on mistakes or flaws. Ones appreciate when others are honest and straightforward with them, so be authentic and genuine in your communication.
 
-## Enneagram 2 Communication
+[More on type 1](/blog/enneagram/enneagram-type-1)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 2 Communication</h3>
 
 Twos are caring, generous, and empathetic. They value relationships and are driven by a desire to help others. When communicating with Twos, it's essential to acknowledge their efforts and contributions. Listen actively and show appreciation for their support and assistance. Avoid being dismissive or taking advantage of their kindness. Be sensitive to their emotional needs, as Twos can be easily hurt by rejection or criticism.
 
-## Enneagram 3 Communication
+[More on type 2](/blog/enneagram/enneagram-type-2)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 3 Communication</h3>
 
 Threes are ambitious, competitive, and driven. They value success, recognition, and accomplishment. When communicating with Threes, it's essential to be concise, focused, and results-oriented. Avoid being too emotional or personal, as Threes prefer to keep things professional. Be supportive and encouraging of their goals and aspirations, and offer feedback that helps them achieve their objectives. Recognize their accomplishments and celebrate their successes.
 
-## Enneagram 4 Communication
+[More on type 3](/blog/enneagram/enneagram-type-3)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 4 Communication</h3>
 
 Fours are creative, expressive, and introspective. They value authenticity, originality, and uniqueness. When communicating with Fours, it's important to be empathetic, understanding, and open-minded. Avoid being dismissive or judgmental of their emotions or opinions. Be willing to explore different perspectives and approaches, and encourage them to express themselves creatively. Recognize their unique contributions and appreciate their creativity and insight.
+
+[More on type 4](/blog/enneagram/enneagram-type-4)
+
+</article>
 
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Enneagram 5 Communication
+<article class="section-content">
+
+<h3>Enneagram 5 Communication</h3>
 
 Fives are analytical, independent, and private. They value knowledge, expertise, and autonomy. When communicating with Fives, it's essential to be respectful, patient, and non-intrusive. Avoid being too emotional or personal, as Fives prefer to keep things logical and objective. Be willing to engage in deep, thoughtful conversations, and allow them the space and time to process information. Recognize their expertise and respect their need for privacy and solitude.
 
-## Enneagram 6 Communication
+[More on type 5](/blog/enneagram/enneagram-type-5)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 6 Communication</h3>
 
 Sixes are loyal, responsible, and anxious. They value security, stability, and support. When communicating with Sixes, it's important to be reassuring, trustworthy, and supportive. Avoid being too critical or judgmental, as Sixes can be sensitive to perceived threats. Provide them with clear expectations and guidelines, and be consistent in your communication. Recognize their loyalty and commitment, and appreciate their reliability and dependability.
 
-## Enneagram 7 Communication
+[More on type 6](/blog/enneagram/enneagram-type-6)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 7 Communication</h3>
 
 Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, variety, and excitement. When communicating with Sevens, it's essential to be upbeat, positive, and engaging. Avoid being too serious or negative, as Sevens can become bored or disinterested. Be willing to explore new ideas and experiences, and encourage them to be creative and imaginative. Recognize their optimism and energy, and appreciate their sense of fun and adventure.
 
-## Enneagram 8 Communication
+[More on type 7](/blog/enneagram/enneagram-type-7)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 8 Communication</h3>
 
 Eights are powerful, assertive, and confrontational. They value strength, control, and autonomy. When communicating with Eights, it's important to be direct, confident, and assertive. Avoid being too passive or weak, as Eights can become impatient or dismissive. Be willing to engage in honest, straightforward conversations, and provide them with clear expectations and boundaries. Recognize their leadership and courage, and appreciate their strength and determination.
 
-## Enneagram 9 Communication
+[More on type 8](/blog/enneagram/enneagram-type-8)
+
+</article>
+
+<article class="section-content">
+
+<h3>Enneagram 9 Communication</h3>
 
 Nines are peaceful, accommodating, and harmonious. They value unity, cooperation, and tranquility. When communicating with Nines, it's important to be calm, patient, and understanding. Avoid being too demanding or confrontational, as Nines can become passive or avoidant. Be willing to listen actively and show appreciation for their perspective and input. Recognize their diplomacy and mediation skills, and appreciate their ability to bring people together.
+
+[More on type 9](/blog/enneagram/enneagram-type-9)
+
+</article>
 
 ## Wrapping Up
 
@@ -96,7 +152,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-03-26"
+        "@value": "2023-08-27"
       },
       "datePublished": {
         "@type": "Date",
@@ -157,3 +213,159 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
 }
 </script>
 </svelte:head>
+
+<style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
+  }
+
+  /*.panel:hover {
+    background-color: #ccc;
+}*/
+
+  .panel {
+    padding: 18px;
+    /*display: none;*/
+    background-color: white;
+    overflow: hidden;
+  }
+  @import '../../scss/index.scss';
+
+    h4, h3 {
+          margin: 0;
+    }
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>

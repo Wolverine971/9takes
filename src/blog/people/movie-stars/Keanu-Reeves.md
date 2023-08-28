@@ -326,6 +326,12 @@ For those ready to embark on this captivating exploration, I invite you to sign 
 </svelte:head>
 
 <style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
   .accordion {
     color: #444;
     cursor: pointer;

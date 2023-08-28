@@ -246,7 +246,7 @@ button:hover {
 	} */
 
 body::-webkit-scrollbar {
-	width: 4px;
+	width: 0.5rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -256,6 +256,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
 	background-color: darkgrey;
 	outline: 4px solid slategrey;
+	border-radius: 5px;
 }
 
 .firstLetter::first-letter {

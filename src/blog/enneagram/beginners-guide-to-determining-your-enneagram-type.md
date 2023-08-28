@@ -334,7 +334,6 @@ If you found this guide helpful, join 9takes you don't have to but there is so m
 </script>
 </svelte:head>
 
-
 <style lang="scss">
 
     @import '../../scss/index.scss';

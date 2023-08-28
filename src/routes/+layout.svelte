@@ -215,18 +215,6 @@
 			background-size: 1em 1em;
 		}
 	}
-	body::-webkit-scrollbar {
-		width: 4px;
-	}
-
-	body::-webkit-scrollbar-track {
-		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	}
-
-	body::-webkit-scrollbar-thumb {
-		background-color: darkgrey;
-		outline: 0.5px solid slategrey;
-	}
 	@media (min-width: 768px) {
 		main {
 			padding: 3rem;

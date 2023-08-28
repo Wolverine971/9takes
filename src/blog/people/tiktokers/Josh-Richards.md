@@ -62,6 +62,12 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </div>
 
 <style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
   .accordion {
     color: #444;
     cursor: pointer;

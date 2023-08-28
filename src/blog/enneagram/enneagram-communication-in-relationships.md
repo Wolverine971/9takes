@@ -32,7 +32,9 @@ Here are some tips for using the Enneagram to improve communication and intimacy
 
 The Enneagram can also be a powerful tool for creating intimacy in relationships. By understanding your own type and the types of those around you, you can create deeper connections and build stronger relationships. Here we will explore each type by looking at what they need from their partner, how they may affect their partner, what they like to talk about, and what they don't like to talk about. We'll also include an Imaginary scenario for typical conversations each type may have regularly.
 
-### Type 1: The Perfectionist
+<article class="section-content">
+
+<h3>Type 1: The Perfectionist</h3>
 
 **What they need from their partner:** Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values.
 
@@ -44,7 +46,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A One and their partner are discussing the current political climate. The One is passionate about a particular issue and becomes frustrated when their partner doesn't seem as engaged. The One struggles to express their emotions and may come across as critical of their partner's lack of interest.
 
-### Type 2: The Helper
+[More on type 1](/blog/enneagram/enneagram-type-1)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 2: The Helper</h3>
 
 **What they need from their partner:** Twos need emotional connection, support, and nurturing. They appreciate partners who are attentive, caring, and show their love through actions.
 
@@ -56,7 +64,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Two and their partner are discussing a recent conflict with a friend. The Two may struggle to express their own needs or feelings and may become overly involved in trying to fix the situation.
 
-### Type 3: The Achiever
+[More on type 2](/blog/enneagram/enneagram-type-2)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 3: The Achiever</h3>
 
 **What they need from their partner:** Threes need recognition, success, and achievement. They appreciate partners who are supportive of their goals and who are driven and ambitious themselves.
 
@@ -68,11 +82,17 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Three and their partner are discussing their career goals. The Three may struggle with expressing their emotions or discussing their fears or insecurities, instead focusing on ways to improve their skills and succeed.
 
+[More on type 3](/blog/enneagram/enneagram-type-3)
+
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-### Type 4: The Individualist
+<article class="section-content">
+
+<h3>Type 4: The Individualist</h3>
 
 **What they need from their partner:** Fours need emotional depth, authenticity, and uniqueness. They appreciate partners who are sensitive, creative, and who share their values and passions.
 
@@ -84,7 +104,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Four and their partner are discussing their favorite books. The Four may become emotional or intense when discussing a book that resonated with them on a personal level, struggling to express their emotions in a clear or concise way.
 
-### Type 5: The Investigator
+[More on type 4](/blog/enneagram/enneagram-type-4)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 5: The Investigator</h3>
 
 **What they need from their partner:** Fives need knowledge, independence, and privacy. They appreciate partners who are respectful of their need for alone time and intellectual pursuits.
 
@@ -96,7 +122,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Five and their partner are discussing a new scientific discovery. The Five may become animated and engaged in the conversation, sharing their own ideas and theories while also respecting their partner's perspectives.
 
-### Type 6: The Loyalist
+[More on type 5](/blog/enneagram/enneagram-type-5)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 6: The Loyalist</h3>
 
 **What they need from their partner:** Sixes need security, loyalty, and responsibility. They appreciate partners who are reliable, trustworthy, and who provide a sense of stability and safety.
 
@@ -108,7 +140,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Six and their partner are discussing plans for a future vacation. The Six may become anxious or stressed about the potential risks or challenges, seeking reassurance from their partner while also considering practical solutions.
 
-### Type 7: The Enthusiast
+[More on type 6](/blog/enneagram/enneagram-type-6)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 7: The Enthusiast</h3>
 
 **What they need from their partner:** Sevens need adventure, spontaneity, and variety. They appreciate partners who are fun-loving, open-minded, and who share their sense of excitement and curiosity.
 
@@ -120,7 +158,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: A Seven and their partner are discussing potential travel plans. The Seven may become excited about new possibilities and experiences, but may struggle to commit to a specific plan or itinerary.
 
-### Type 8: The Challenger
+[More on type 7](/blog/enneagram/enneagram-type-7)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 8: The Challenger</h3>
 
 **What they need from their partner:** Eights need control, power, and strength. They appreciate partners who are independent, confident, and who can stand up to them when necessary.
 
@@ -132,7 +176,13 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 **Imaginary scenario**: An Eight and their partner are discussing a business opportunity. The Eight may become assertive and forceful in their opinions, but may also appreciate a partner who can challenge them and offer a different perspective.
 
-### Type 9: The Peacemaker
+[More on type 8](/blog/enneagram/enneagram-type-8)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 9: The Peacemaker</h3>
 
 **What they need from their partner:** Nines need harmony, peace, and balance. They appreciate partners who are calm, patient, and who can help them find a sense of tranquility in their lives.
 
@@ -143,6 +193,10 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 **What they don't like to talk about:** Nines may be uncomfortable discussing conflict or difficult emotions. They may also avoid conversations that challenge their sense of peace or balance.
 
 **Imaginary scenario**: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the sense of peace and harmony it brings to their life.
+
+[More on type 9](/blog/enneagram/enneagram-type-9)
+
+</article>
 
 Time for the obligatory reminder that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a tool for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.
 
@@ -286,3 +340,159 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
 }
 </script>
 </svelte:head>
+
+<style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
+  }
+
+  /*.panel:hover {
+    background-color: #ccc;
+}*/
+
+  .panel {
+    padding: 18px;
+    /*display: none;*/
+    background-color: white;
+    overflow: hidden;
+  }
+  @import '../../scss/index.scss';
+
+    h4, h3 {
+          margin: 0;
+    }
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 2rem;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>

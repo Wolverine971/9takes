@@ -55,6 +55,8 @@ If a Perfectionist hears phrases like "I usually wing it" or "I don't care about
 
 On the other hand, statements like "I appreciate your attention to detail" or "I also strive to improve" can be heartening. These show respect for their principles and an alignment with their constant drive for self-improvement.
 
+[More on type 1](/blog/enneagram/enneagram-type-1)
+
 </article>
 <article class="section-content">
 <h2>Enneagram Type 2: The Helper</h2>
@@ -70,6 +72,8 @@ Phrases that suggest selfishness or lack of empathy, like "I don't care what oth
 ### Good Signals
 
 Comments such as "Your kindness is touching" or "I love helping others too" indicate understanding and appreciation for the Helper's caring nature, which they would find reassuring.
+
+[More on type 2](/blog/enneagram/enneagram-type-2)
 
 </article>
 <article class="section-content">
@@ -88,6 +92,8 @@ For the Achiever, hearing "Why bother trying so hard?" can be disheartening, as 
 
 However, phrases like "Your drive is inspiring" or "I admire your achievements" can be very encouraging. It shows an appreciation for their hard work and ambition.
 
+[More on type 3](/blog/enneagram/enneagram-type-3)
+
 </article>
 <article class="section-content">
 <h2>Enneagram Type 4: The Individualist</h2>
@@ -103,6 +109,8 @@ Hearing "Why can't you be more like others?" can be a significant deterrent for 
 ### Good Signals
 
 On the positive side, remarks such as "I admire your creativity" or "Your unique perspective is fascinating" can deeply resonate with them. These affirmations validate their individuality and emotional depth.
+
+[More on type 4](/blog/enneagram/enneagram-type-4)
 
 </article>
 
@@ -121,6 +129,8 @@ For the Investigator, statements like "I don't like reading" or "Who cares about
 ### Good Signals
 
 In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which the Type 5 finds appealing.
+
+[More on type 5](/blog/enneagram/enneagram-type-5)
 
 </article>
 
@@ -144,6 +154,8 @@ Comments such as "I'm a free spirit, I don't make plans" or "Rules are meant to 
 
 Hearing phrases like "I believe in loyalty" or "I've planned a safe route for our hike" can be a good signal for Type 6. These show a commitment to safety and stability that the Loyalist appreciates.
 
+[More on type 6](/blog/enneagram/enneagram-type-6)
+
 </article>
 
 <article class="section-content">
@@ -161,6 +173,8 @@ If an Enthusiast hears phrases like "I prefer routine and stability" or "Let's n
 ### Good Signals
 
 Comments such as "I love trying new things" or "I'm excited about our next adventure" will likely be welcomed, signaling a shared passion for adventure and exploration.
+
+[More on type 7](/blog/enneagram/enneagram-type-7)
 
 </article>
 
@@ -180,6 +194,8 @@ Hearing "I don't like confrontation" or "I prefer to follow the crowd" can be re
 
 On the other hand, phrases like "I admire your courage" or "I value straightforwardness too" can be perceived as good signals, as they align with their candid nature and desire for justice.
 
+[More on type 8](/blog/enneagram/enneagram-type-8)
+
 </article>
 
 <article class="section-content">
@@ -198,7 +214,10 @@ Statements such as "I enjoy a good argument" or "I don't mind conflict" can be a
 
 Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfortable" are encouraging for them. These suggest a shared preference for calm and unity, which is integral to their nature.
 
+[More on type 9](/blog/enneagram/enneagram-type-9)
+
 </article>
+
 ## Wrapping it up
 
 As we unravel the final threads in this exploration, it should be clear how different our expectations can be, particularly on something as personal as a first date. This is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)

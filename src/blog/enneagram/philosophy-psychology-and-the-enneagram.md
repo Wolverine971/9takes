@@ -44,6 +44,7 @@ In the intricate tapestry of human consciousness, understanding ourselves is a j
 		subtext=""
 	/>
 </div>
+
 ## The Enneagram's Roots in Philosophy
 
 While the Enneagram is a popular tool for understanding human behavior and growth, it is essential to understand its philosophical lineage to truly appreciate its depth. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll gain a deeper understanding of how our core emotions shape these intelligence centers.

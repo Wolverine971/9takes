@@ -289,6 +289,12 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
 </svelte:head>
 
 <style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
   .accordion {
     color: #444;
     cursor: pointer;

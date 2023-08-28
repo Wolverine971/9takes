@@ -4,7 +4,7 @@ description: 'Understanding your strengths and weaknesses'
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
-lastmod: '2023-07-31'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,13 +19,15 @@ previewHtml: ''
 
 <p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally there are many dimensions by which can slice and dice the things we are good and bad at, so where choosing where to start is also difficult.</p>
 
-### Understanding Your Energizers and Drainers
+## Understanding Your Energizers and Drainers
 
 Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue us into identifying our strengths and weaknesses. What energizes one person may drain another. Some people love public speaking, while others dread it. Some people thrive in social situations while others fear turning into a pumpkin and are closely monitoring the clock.
 
 Let's take a look at common energizers and drainers for each Enneagram type and think about how to leverage our strengths and mitigating our weaknesses.
 
-## Type 1 - The Perfectionist
+<article class="section-content">
+
+<h3>Type 1 - The Perfectionist</h3>
 
 **Energizers:** Organizing, planning, completing tasks to a high standard, following rules and procedures. For example creating detailed to-do lists, organizing a cluttered space, achieving a difficult goal, following a strict routine.
 
@@ -37,7 +39,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 1 may excel in a job that requires precision, such as accounting or engineering. However, their perfectionism can cause them to become overly critical of themselves and others, leading to strained relationships and burnout.
 
-## Type 2 - The Helper
+[More on type 1](/blog/enneagram/enneagram-type-1)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 2 - The Helper</h3>
 
 **Energizers:** Helping others, being appreciated and valued, connecting with people emotionally, feeling needed. For example volunteering at a charity, helping a friend in need, receiving gratitude and appreciation, connecting with others emotionally.
 
@@ -49,7 +57,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 2 may thrive in a career that involves helping others, such as counseling or social work. However, their desire to be needed may cause them to neglect their own needs, leading to feelings of resentment and burnout.
 
-## Type 3 - The Achiever
+[More on type 2](/blog/enneagram/enneagram-type-2)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 3 - The Achiever</h3>
 
 **Energizers:** Setting and achieving goals, receiving recognition and praise, being successful, being in the spotlight. For example setting and achieving goals, receiving recognition and praise, presenting in front of an audience, competing and winning.
 
@@ -61,7 +75,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 3 may excel in a competitive career, such as sales or entrepreneurship. However, their focus on success and achievement can cause them to neglect their personal relationships and well-being, leading to feelings of isolation and burnout.
 
-## Type 4 - The Individualist
+[More on type 3](/blog/enneagram/enneagram-type-3)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 4 - The Individualist</h3>
 
 **Energizers:** Creative expression, self-discovery, deep and meaningful connections with others, unique and authentic experiences. For example creative expression through art or music, deep and meaningful conversations with others, exploring one's own emotions and identity.
 
@@ -73,11 +93,17 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 4 may excel in a career that allows them to express their creativity, such as writing or art. However, their focus on their emotions can cause them to become overly self-absorbed, leading to feelings of loneliness and disconnection from others.
 
+[More on type 4](/blog/enneagram/enneagram-type-4)
+
+</article>
+
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-## Type 5 - The Investigator
+<article class="section-content">
+
+<h3>Type 5 - The Investigator</h3>
 
 **Energizers:** Learning new things, exploring ideas and concepts, intellectual challenges, having time to think and reflect. For example researching a new topic or subject, learning a new skill or language, having time alone to think and reflect.
 
@@ -89,7 +115,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 5 may excel in a career that requires deep thinking and analysis, such as research or academia. However, their desire for privacy and independence can cause them to withdraw from social interactions, leading to a sense of isolation and loneliness.
 
-## Type 6 - The Loyalist
+[More on type 5](/blog/enneagram/enneagram-type-5)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 6 - The Loyalist</h3>
 
 **Energizers:** Feeling safe and secure, being prepared and organized, working towards a common goal with others, building trust and loyalty. For example being part of a loyal and trustworthy group, having a clear plan and structure, working together towards a common goal.
 
@@ -101,7 +133,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 6 may excel in a career that requires a strong sense of responsibility and commitment, such as law enforcement or military service. However, their tendency towards anxiety and fear can cause them to become overly cautious and hesitant, leading to missed opportunities and indecisiveness.
 
-## Type 7 - The Enthusiast
+[More on type 6](/blog/enneagram/enneagram-type-6)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 7 - The Enthusiast</h3>
 
 **Energizers:** New experiences and adventures, exploring possibilities, excitement and stimulation, having fun. For example planning a fun and adventurous trip, exploring new hobbies or interests, attending a party or social event.
 
@@ -113,7 +151,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 7 may excel in a career that allows them to explore new ideas and experiences, such as travel or entrepreneurship. However, their tendency towards distraction and lack of focus can cause them to neglect important tasks and responsibilities, leading to a lack of success and achievement.
 
-## Type 8 - The Challenger
+[More on type 7](/blog/enneagram/enneagram-type-7)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 8 - The Challenger</h3>
 
 **Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, standing up for oneself and others. For example leading and taking charge of a situation, standing up for oneself or others, achieving a difficult goal through determination.
 
@@ -125,7 +169,13 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 **Example career situation:** A Type 8 may excel in a career that requires assertiveness and confidence, such as politics or business. However, their tendency towards aggression and control can cause them to become overly dominant and intimidating, leading to conflicts and power struggles.
 
-## Type 9 - The Peacemaker
+[More on type 8](/blog/enneagram/enneagram-type-8)
+
+</article>
+
+<article class="section-content">
+
+<h3>Type 9 - The Peacemaker</h3>
 
 **Energizers:** Creating harmony and unity, being inclusive and accepting, being part of a supportive and peaceful community, feeling calm and content. For example creating a peaceful and harmonious environment, mediating and resolving conflicts, being part of a supportive and inclusive community.
 
@@ -136,6 +186,10 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 **Weaknesses:** Nines can become overly passive and indecisive, leading to a lack of motivation and direction. They may struggle with asserting themselves and may become overly accommodating in an attempt to avoid conflict.
 
 **Example career situation:** A Type 9 may excel in a career that requires mediation and conflict resolution, such as counseling or diplomacy. However, their tendency towards indecisiveness and lack of assertiveness can cause them to neglect their own needs and desires, leading to feelings of dissatisfaction and unhappiness.
+
+[More on type 9](/blog/enneagram/enneagram-type-9)
+
+</article>
 
 ## Wrap up
 
@@ -173,7 +227,7 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-07-31"
+    "@value": "2023-08-27"
   },
   "datePublished": {
     "@type": "Date",
@@ -247,3 +301,159 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
 }
 </script>
 </svelte:head>
+
+<style lang="scss">
+article {
+    border: 1px solid #52616b;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .accordion {
+    color: #444;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .accordion:hover {
+    background-color: var(--color-theme-purple-v);
+    color: var(--color-theme-purple);
+  }
+
+  /*.panel:hover {
+    background-color: #ccc;
+}*/
+
+  .panel {
+    padding: 18px;
+    /*display: none;*/
+    background-color: white;
+    overflow: hidden;
+  }
+  @import '../../scss/index.scss';
+
+    h4, h3 {
+          margin: 0;
+    }
+    .section-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 10px;
+        padding: 10px;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+    }
+
+    .section-meta {
+        margin: 10px;
+        padding: 10px;
+        /*transform: rotate(90deg);*/
+        /*transition: transform .7s ease-in-out;*/
+        transition: all 1s ease-in-out;
+        text-overflow: ellipsis;
+        /*max-width: 10rem;*/
+        max-height: 10rem;
+        overflow: hidden;
+        transition-timing-function: linear;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10%;
+        border: var(--classic-border);
+        border-radius: 5px;
+    }
+    .border {
+        border-left: 4px solid slategrey;
+
+    }
+
+    .section-meta:hover {
+        /*transform: rotate(360deg);*/
+        max-width: 100%;
+        /*max-height: 100%;*/
+        overflow-y: scroll;
+        margin-left: 10px;
+        display: flex;
+        width: 20%;
+        align-items: center;
+        flex-direction: column;
+        /*transform: scale(1.1);*/
+    }
+
+    .section-meta:hover:hover:after {
+        overflow-y: scroll;
+    }
+     .section-meta:hover:after {
+        overflow-y: scroll;
+    }
+
+    .a-type {
+        /*background-color: hsl(222, 15%, 19%);*/
+        border: var(--classic-border);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #000000B3;
+        font-size: 16px;
+        margin: 1rem;
+        padding: 0.4rem;
+        white-space: nowrap;
+        min-width: 85px;
+        min-height: 35px;
+        text-align: center;
+    }
+
+    aside::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+
+    @media all and (max-width: 576px) {
+        .section-main {
+            display: block;
+        }
+
+        .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+        .section-meta {
+            margin: 10px;
+            padding: 10px;
+            /*transform: rotate(90deg);*/
+            /*transition: transform .7s ease-in-out;*/
+            transition: all 1s ease-in-out;
+            text-overflow: ellipsis;
+            /*max-width: 10rem;*/
+            max-height: none;
+            overflow: hidden;
+            transition-timing-function: linear;
+            display: flex;
+
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+    }
+</style>
