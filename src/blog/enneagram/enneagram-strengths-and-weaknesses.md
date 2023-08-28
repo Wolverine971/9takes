@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Strengths and Weaknesses'
-description: 'Understanding your strengths and weaknesses'
+description: "Uncover your Enneagram type's strengths and weaknesses to navigate life more effectively. Learn about energizers, drainers, and how to leverage your unique traits."
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'

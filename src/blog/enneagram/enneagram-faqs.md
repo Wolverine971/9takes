@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram FAQs'
-description: 'Common questions asked about the Enneagram'
+description: 'Get answers to all your Enneagram questions. Learn about the nine types, its scientific basis, applications in therapy and the workplace, and more'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-faqs'

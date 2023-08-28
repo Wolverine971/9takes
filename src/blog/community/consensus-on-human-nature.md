@@ -85,7 +85,7 @@ In contrast, the unconscious aspects of the psyche are not immediately accessibl
 <div style="text-align: center;" >
 <img src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
 
-By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1467156">Link</a>
+By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: 'The Definitive Guide to Dealing with Relationship Conflict [Part 2]'
-description: 'Navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements, avoid common pitfalls, and get practical exercises to improve your conflict resolution skills.'
+description: 'Navigate relationship conflicts with Part 2 of our guide. Learn to resolve disagreements, avoid pitfalls, and gain practical skills for better conflict resolution.'
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2'

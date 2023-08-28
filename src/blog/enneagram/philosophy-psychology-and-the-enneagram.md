@@ -1,6 +1,6 @@
 ---
 title: 'Philosophy and Psychology Gave Birth to the Enneagram'
-description: 'Freud and Plato stumble on the Enneagram'
+description: "Dive into the Enneagram's roots in philosophy and psychology. Explore how Plato and Freud's theories align with the Enneagram's intelligence centers."
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'

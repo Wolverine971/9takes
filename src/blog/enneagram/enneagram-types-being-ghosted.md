@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Types Being Ghosted'
-description: 'Impact of ghosting on mental health from an Enneagram perspective'
+description: 'Explore the emotional impact of ghosting through the lens of the Enneagram. Understand how each type copes and find empowering strategies for healing'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'

@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Types Working in Teams'
-description: 'Understanding how different Enneagram types work together in teams'
+description: 'Unlock the power of Enneagram types in teamwork. Learn how each type communicates, collaborates, and contributes to team success'
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
