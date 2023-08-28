@@ -12,7 +12,11 @@
 </script>
 
 <BlogPageHead
-	data={{ title: '9takes Blog', description: 'List of blogs about the Enneagram and 9takes' }}
+	data={{
+		title: '9takes Blog',
+		description: 'List of blogs about the Enneagram and 9takes',
+		pic: 'rome'
+	}}
 	slug={'blog'}
 />
 
