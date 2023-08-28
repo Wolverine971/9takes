@@ -160,7 +160,7 @@ When in a romantic relationship, Type 4s tend to be very emotionally expressive 
 
 One potential challenge for Type 4s in relationships is their tendency towards emotional intensity and mood swings. They may become overwhelmed by their own emotions or those of their partner, leading to conflict or difficulty managing their feelings. Additionally, they may struggle with feelings of jealousy or envy towards their partner, particularly if they perceive their partner as having qualities or experiences they themselves lack.
 
-In order to have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be very self-critical and hard on themselves. Finally, cultivating a sense of gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/4)
+In order to have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be very self-critical and hard on themselves. Finally, cultivating a sense of gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/enneagram-type-5)
 
 </article>
 

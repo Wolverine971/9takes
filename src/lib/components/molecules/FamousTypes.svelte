@@ -52,8 +52,8 @@
 			{ name: 'Frida-Kahlo', link: true },
 			{ name: 'Lady-Gaga', link: true },
 			{ name: 'Jackie-Kennedy', link: true },
-			{ name: 'The-Weeknd', link: true },
-			{ name: 'Dixie-Damelio', link: true }
+			{ name: 'The-Weeknd', link: false },
+			{ name: 'Dixie-Damelio', link: false }
 		],
 		5: [
 			{ name: 'Bill-Gates', link: false },
@@ -88,13 +88,13 @@
 			{ name: 'Elton-John', link: true },
 			{ name: 'Britney-Spears', link: false },
 			{ name: 'Jon-Stewart', link: false },
-			{ name: 'John-F.-Kennedy', link: true },
+			{ name: 'John-F-Kennedy', link: true },
 			{ name: 'Miley-Cyrus', link: true },
 			{ name: 'Kanye', link: true },
 			{ name: 'David-Dobrik', link: true },
 			{ name: 'Robin-Williams', link: false },
 			{ name: 'Palmer-Luckey', link: false },
-			{ name: 'Grimes', link: true },
+			{ name: 'Grimes', link: false },
 			{ name: 'Leonardo-DiCaprio', link: true }
 		],
 		8: [
