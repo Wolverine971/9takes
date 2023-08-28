@@ -47,7 +47,6 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
-
 <svelte:head>
 
   <script type="application/ld+json">

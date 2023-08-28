@@ -62,8 +62,8 @@ Defensiveness signals to your partner that their concerns don't matter. It comes
 
 Stonewalling involves shutting down and refusing to engage with your partner. This can be a natural response to feeling overwhelmed but is harmful in the long run.
 
-> Want to learn more about these conflict styles?
-> Check out our blog on Understanding the Four Horsemen.
+<!-- > Want to learn more about these conflict styles?
+> Check out our blog on Understanding the Four Horsemen. -->
 
 <div
 	style="display: flex;

@@ -157,7 +157,6 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
-
 <svelte:head>
 
 <script type="application/ld+json">
