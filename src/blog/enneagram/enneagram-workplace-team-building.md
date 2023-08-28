@@ -218,19 +218,10 @@ The Enneagram is not just a tool but a catalyst for creating a more inclusive, e
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

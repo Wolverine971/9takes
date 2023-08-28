@@ -61,22 +61,10 @@ By understanding your Enneagram type, you can gain insight into your strengths a
       "@type": "Article",
       "articleBody": "The blog provides a short synopsis of the Enneagram, a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. It briefly describes each of the nine Enneagram types and offers tips on how to determine your own type through self-reflection and introspection.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -95,19 +83,10 @@ By understanding your Enneagram type, you can gain insight into your strengths a
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

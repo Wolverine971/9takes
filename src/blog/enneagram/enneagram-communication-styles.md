@@ -576,7 +576,8 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
 
 <svelte:head>
 
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
@@ -586,20 +587,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-          },
-          {
-            "@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
-        ]
+        "sameAs": [ "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
       "dateModified": {
         "@type": "Date",
@@ -621,66 +609,10 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
-        "articleSection": [
-          {
-            "@type": "BlogPosting",
-            "description": "Ones have a precise communication style and value clarity and order.",
-            "headline": "Enneagram 1 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Twos have a warm and nurturing communication style",
-            "headline": "Enneagram 2 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Threes have an assertive and goal-oriented communication style.",
-            "headline": "Enneagram 3 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Fours have a unique and expressive communication style.",
-            "headline": "Enneagram 4 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Fives have a thoughtful and private communication style",
-            "headline": "Enneagram 5 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Sixes have a cautious and loyal communication style.",
-            "headline": "Enneagram 6 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Sevens have an energetic and optimistic communication style.",
-            "headline": "Enneagram 7 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Eights have a direct and assertive communication style.",
-            "headline": "Enneagram 8 Communication Style"
-          },
-          {
-            "@type": "BlogPosting",
-            "description": "Nines have a peaceful and harmonious communication style.",
-            "headline": "Enneagram 9 Communication Style"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

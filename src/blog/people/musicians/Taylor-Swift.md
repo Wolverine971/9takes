@@ -119,22 +119,10 @@ Join us at 9takes - a community that values the exploration of personalities and
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Taylor Swift from the perspective of the Enneagram Type 3. Known for her ambition, resilience, and transformational creativity, Swift embodies many characteristics of Type 3 personalities. The article discusses various aspects of Swift's life and career that demonstrate her Type 3 characteristics, including her music evolution, songwriting skills, and media narratives.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -150,9 +138,7 @@ Join us at 9takes - a community that values the exploration of personalities and
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/3s/Taylor-Swift.webp"
-        },
+        "url": "https://9takes.com/types/3s/Taylor-Swift.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -162,39 +148,14 @@ Join us at 9takes - a community that values the exploration of personalities and
       "mentions": {
         "@type": "Person",
         "name": "Taylor Swift",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Taylor_Swift"
-          },
-          {
-            "@id": "https://www.taylorswift.com/"
-          },
-          {
-            "@id": "https://twitter.com/taylorswift13"
-          },
-          {
-            "@id": "https://www.instagram.com/taylorswift/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@taylorswift"
-          }
-        ]
+        "sameAs": [ "https://en.wikipedia.org/wiki/Taylor_Swift", "https://www.taylorswift.com/", "https://twitter.com/taylorswift13", "https://www.instagram.com/taylorswift/", "https://www.tiktok.com/@taylorswift"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

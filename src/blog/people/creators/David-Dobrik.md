@@ -108,22 +108,10 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
       "@type": "Article",
       "articleBody": "This article explores the personality traits of David Dobrik from the perspective of the Enneagram Type 7. Known for his enthusiasm, adventure-seeking nature, and ability to entertain, David embodies many characteristics of Type 7 personalities. The article discusses various facets of David's life and career that demonstrate his Type 7 characteristics, including his YouTube success, inner world, controversies, and core motivation.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -139,9 +127,7 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/7s/David-Dobrik.webp"
-        },
+        "url": "https://9takes.com/types/7s/David-Dobrik.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -151,36 +137,14 @@ Explore these questions and more. Go beyond the surface and delve deeper into th
       "mentions": {
         "@type": "Person",
         "name": "David Dobrik",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/David_Dobrik"
-          },
-          {
-            "@id": "https://twitter.com/DavidDobrik"
-          },
-          {
-            "@id": "https://www.instagram.com/daviddobrik/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@daviddobrik"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/David_Dobrik", "https://twitter.com/DavidDobrik", "https://www.instagram.com/daviddobrik/", "https://www.tiktok.com/@daviddobrik"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

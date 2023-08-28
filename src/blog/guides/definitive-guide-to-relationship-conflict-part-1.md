@@ -143,17 +143,11 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
       "@type": "Article",
       "articleBody": "This guide aims to be your go-to resource for navigating relationship conflicts effectively. It delves into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth.",
       "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": [
-                {
-                    "@id": "https://www.instagram.com/9takesdotcom/"
-                },
-                {
-                    "@id": "https://twitter.com/9takesdotcom"
-                }
-            ]
-        },
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
+      },
       "dateModified": {
         "@type": "Date",
         "@value": "2023-08-24"
@@ -195,19 +189,10 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
       ],
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

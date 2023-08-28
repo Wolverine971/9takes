@@ -158,22 +158,11 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
       "@type": "Article",
       "articleBody": "The blog explores personalized growth strategies based on your Enneagram type, covering ideal environments, practical tips, and empowering self-talk mantras for each type. It delves into the unique paths to self-improvement for each Enneagram type, discussing their strengths, weaknesses, and ideal approaches to growth.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+          "https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -192,19 +181,11 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
+        "sameAs": ["https://www.instagram.com/9takesdotcom/","https://twitter.com/9takesdotcom"
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

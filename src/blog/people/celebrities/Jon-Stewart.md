@@ -117,23 +117,11 @@ As we continue to peel back the layers of personalities, we invite you to join u
       "@type": "Article",
       "articleBody": "The article presents an in-depth analysis of Jon Stewart's personality traits as perceived by the Enneagram Type 7, The Enthusiast. It delves into Stewart's public persona, inner world, a related controversy, and how these facets are connected to Type 7's core motivations. Moreover, it offers a listicle on how all nine enneagram types might perceive Jon Stewart.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -180,19 +168,10 @@ As we continue to peel back the layers of personalities, we invite you to join u
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

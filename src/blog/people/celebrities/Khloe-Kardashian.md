@@ -106,23 +106,11 @@ Curious about the personalities of other famous individuals? Interested in seein
       "@type": "Article",
       "articleBody": "This article delves into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram Type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine enneagram types.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -137,9 +125,7 @@ Curious about the personalities of other famous individuals? Interested in seein
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/6s/Khloe-Kardashian.webp"
-        },
+        "url": "https://9takes.com/types/6s/Khloe-Kardashian.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -149,36 +135,14 @@ Curious about the personalities of other famous individuals? Interested in seein
       "mentions": {
         "@type": "Person",
         "name": "Khloé Kardashian",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian"
-          },
-          {
-            "@id": "https://twitter.com/khloekardashian"
-          },
-          {
-            "@id": "https://www.instagram.com/khloekardashian/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@khloekardashian"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian", "https://twitter.com/khloekardashian", "https://www.instagram.com/khloekardashian/", "https://www.tiktok.com/@khloekardashian"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

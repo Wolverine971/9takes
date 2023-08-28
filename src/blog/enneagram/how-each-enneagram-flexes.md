@@ -145,19 +145,7 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
             "author": {
                 "@type": "Person",
                 "name": "DJ Wayne",
-                "sameAs": [
-                    {
-                    "@id": "https://www.instagram.com/djwayne3/"
-                    },
-                    {
-                    "@id": "https://www.youtube.com/@djwayne3"
-                    },
-                    {
-                    "@id": "https://www.linkedin.com/in/davidtwayne/"
-                    },
-                    {
-                    "@id": "https://twitter.com/djwayne3"
-                    }
+                "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
                 ]
                 },
             "dateModified": {
@@ -187,23 +175,14 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
                 "name": "Enneagram"
             },
             "publisher": {
-                "@type": "Organization",
-                "sameAs": [
-                    {
-                        "@id": "https://www.instagram.com/9takesdotcom/"
-                    },
-                    {
-                        "@id": "https://twitter.com/9takesdotcom"
-                    }
-                ],
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": {
-                        "@id": "https://9takes.com/brand/darkRubix.png"
-                    }
-                },
-                "name": "9takes"
-            }
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
         }
     ]
 }

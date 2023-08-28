@@ -83,23 +83,11 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   "articleBody": "In this blog post, we explore the Enneagram stress number and how it affects your behavior and relationships. Each Enneagram type has a place of comfort and a place of stress, and recognizing your stress number can be incredibly valuable because it helps you understand yourself better. When you're in a place of stress, you're likely to experience negative emotions, such as anxiety and frustration, and exhibit behaviors that you're not proud of. The blog post also explains why it can be challenging to interact with people who are your stress number and how to recognize your stress number. The post provides examples of how each Enneagram type reacts under stress and what it means for them. The examples include tips on how to manage stress better, build stronger relationships, and communicate more effectively. The blog post is perfect for anyone interested in the Enneagram and self-improvement, including individuals, couples, and teams. Whether you're looking to improve your personal or professional life, understanding your Enneagram stress number is essential for your growth and success.",
   "articleSection": "Enneagram, Personality Types, Stress Number",
   "creator" : ["DJ Wayne"],
-"author": {
+  "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -111,9 +99,7 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   },
   "description": "Discover your Enneagram stress number and learn how it affects your behavior and relationships. Knowing your stress number can help you manage your stress and develop healthy coping mechanisms. Find out how each Enneagram type reacts under stress and how to interact with them more effectively.",
   "headline": "Understanding Your Enneagram Stress Number: How It Affects Your Behavior and Relationships",
-  "image": {
-    "@id": "https://9takes.com/blogs/feeling-the-tension.webp"
-  },
+  "image": "https://9takes.com/blogs/feeling-the-tension.webp",
   "keywords": "Enneagram, Stress Number, Personality Types, Relationships, Coping Mechanisms",
   "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-stress-number",
@@ -124,23 +110,14 @@ Understanding your Enneagram stress number is essential if you want to thrive in
         "name": "Enneagram"
       },
   "publisher": {
-    "@type": "Organization",
-  "sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  },
   "text": "In this blog post, we explore the Enneagram stress number and how it affects your behavior and relationships. Each Enneagram type has a place of comfort and a place of stress, and recognizing your stress number can be incredibly valuable because it helps you understand yourself better. When you're in a place of stress, you're likely to experience negative emotions, such as anxiety and frustration, and exhibit behaviors that you're not proud of. The blog post also explains why it can be challenging to interact with people who are your stress number and how to recognize your stress number. The post provides examples of how each Enneagram type reacts under stress and what it means for them. The examples include tips on how to manage stress better, build stronger relationships, and communicate more effectively. The blog post is perfect for anyone interested in the Enneagram and self-improvement, including individuals, couples, and teams. Whether you're looking to improve your personal or professional life, understanding your Enneagram stress number is essential for your growth and success."
 }
 </script>

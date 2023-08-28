@@ -105,23 +105,11 @@ To explore more captivating personalities and gain a deeper understanding of the
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Logan Paul from the perspective of the Enneagram Type 7. Known for his adventurous spirit, boundless energy, and pursuit of excitement, Logan embodies many characteristics of Type 7 personalities. The article discusses various facets of Logan Paul's life and controversies that provide insight into his Type 7 characteristics, including his daring stunts, thrill-seeking nature, and personal growth journey.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -148,36 +136,14 @@ To explore more captivating personalities and gain a deeper understanding of the
       "mentions": {
         "@type": "Person",
         "name": "Logan Paul",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Logan_Paul"
-          },
-          {
-            "@id": "https://twitter.com/LoganPaul"
-          },
-          {
-            "@id": "https://www.instagram.com/loganpaul"
-          },
-          {
-            "@id": "https://www.tiktok.com/@loganpaul"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Logan_Paul", "https://twitter.com/LoganPaul", "https://www.instagram.com/loganpaul", https://www.tiktok.com/@loganpaul"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

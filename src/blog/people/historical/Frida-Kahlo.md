@@ -83,41 +83,21 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
   "datePublished": "2023-03-10",
   "dateModified": "2023-03-10",
   "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "publisher": {
-    "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
-    "name": "9takes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://9takes.com/brand/darkRubix.png",
-      "height": 60
-    }
-  },
   "mentions": {
     "@type": "Person",
     "name": "Frida Kahlo",

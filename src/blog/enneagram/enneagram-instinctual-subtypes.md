@@ -128,23 +128,11 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   },
   "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
   "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -159,9 +147,7 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
   "image": {
     "@type": "ImageObject",
     "height": 965,
-    "url": {
-      "@id": "https://9takes.com/blogs/enneagram-subtypes.webp"
-    },
+    "url": "https://9takes.com/blogs/enneagram-subtypes.webp",
     "width": 685
   },
   "mainEntityOfPage": {
@@ -173,23 +159,14 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
         "name": "Enneagram"
       },
   "publisher": {
-    "@type": "Organization",
-    "sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  }
 }
 </script>
 </svelte:head>

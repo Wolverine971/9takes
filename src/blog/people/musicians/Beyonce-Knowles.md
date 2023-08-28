@@ -104,19 +104,7 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-            {
-              "@id": "https://www.instagram.com/djwayne3/"
-            },
-            {
-              "@id": "https://www.youtube.com/@djwayne3"
-            },
-            {
-              "@id": "https://www.linkedin.com/in/davidtwayne/"
-            },
-            {
-              "@id": "https://twitter.com/djwayne3"
-            }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -132,9 +120,7 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Beyonce-Knowles.webp"
-        },
+        "url": "https://9takes.com/types/8s/Beyonce-Knowles.webp",
         "width": 1200
       },
       "keywords": "Beyoncé,Enneagram Type 8,Type 8, Personality Type, Beyoncé's personality, Jay-Z, privacy, love, advocacy",
@@ -147,41 +133,15 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
         "description": "Beyoncé Giselle Knowles-Carter, aka Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
         "name": "Beyoncé Knowles",
         "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Beyonc%C3%A9"
-          },
-          {
-            "@id": "https://www.beyonce.com/"
-          },
-          {
-            "@id": "https://www.imdb.com/name/nm0461498/"
-          },
-          {
-            "@id": "https://www.instagram.com/beyonce/"
-          },
-          {
-            "@id": "https://www.britannica.com/biography/Beyonce"
-          },
-          {
-            "@id": "https://musicbrainz.org/artist/859d0860-d480-4efd-970c-c05d5f1776b8/"
-          }
+            "@id": "https://en.wikipedia.org/wiki/Beyonc%C3%A9", "https://www.beyonce.com/", "https://www.imdb.com/name/nm0461498/", "https://www.instagram.com/beyonce/", "https://www.britannica.com/biography/Beyonce", "https://musicbrainz.org/artist/859d0860-d480-4efd-970c-c05d5f1776b8/"
         ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

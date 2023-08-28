@@ -184,22 +184,10 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
       "@type": "Article",
       "articleBody": "This article delves into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and his readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -215,9 +203,7 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/4s/Casey-Neistat.webp"
-        },
+        "url": "https://9takes.com/types/4s/Casey-Neistat.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -227,36 +213,14 @@ If this was interesting to you I encourage you to sign up for '9takes' ⬇️. S
       "mentions": {
         "@type": "Person",
         "name": "Casey Neistat",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Casey_Neistat"
-          },
-          {
-            "@id": "https://twitter.com/Casey"
-          },
-          {
-            "@id": "https://www.instagram.com/caseyneistat/"
-          },
-          {
-            "@id": "https://www.youtube.com/user/caseyneistat"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Casey_Neistat", "https://twitter.com/Casey", "https://www.instagram.com/caseyneistat/", "https://www.youtube.com/user/caseyneistat"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

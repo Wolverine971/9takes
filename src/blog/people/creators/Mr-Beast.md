@@ -115,23 +115,11 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
       "@type": "Article",
       "articleBody": "This article provides a deep dive into the personality traits of Mr. Beast, proposing him as a representation of Enneagram Type 8. Known for his assertiveness, control, and desire to influence, Mr. Beast embodies many characteristics of Type 8 personalities. The article delves into various facets of Mr. Beast's life and career that demonstrate his Type 8 traits, including his ambitious charity work, audacious YouTube stunts, and determination in the face of adversity.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -146,9 +134,7 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Mr_Beast.webp"
-        },
+        "url": "https://9takes.com/types/8s/Mr_Beast.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -158,36 +144,14 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
       "mentions": {
         "@type": "Person",
         "name": "Mr Beast",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/MrBeast"
-          },
-          {
-            "@id": "https://twitter.com/MrBeast"
-          },
-          {
-            "@id": "https://www.instagram.com/mrbeast/"
-          },
-          {
-            "@id": "https://www.tiktok.com/discover/Mr-Beast"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/MrBeast", "https://twitter.com/MrBeast", "https://www.instagram.com/mrbeast/", "https://www.tiktok.com/discover/Mr-Beast"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

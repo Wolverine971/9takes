@@ -134,17 +134,11 @@ conflict resolution exercises for couples -->
       "@type": "Article",
       "articleBody": "This article is a comprehensive guide to dealing with relationship conflict. It covers healthy and unhealthy conflicts, examples, pitfalls, and conflict resolution skills. It also provides practical exercises for couples to improve their conflict resolution abilities.",
       "author": {
-            "@type": "Person",
-            "name": "DJ Wayne",
-            "sameAs": [
-                {
-                    "@id": "https://www.instagram.com/9takesdotcom/"
-                },
-                {
-                    "@id": "https://twitter.com/9takesdotcom"
-                }
-            ]
-        },
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
+      },
       "dateModified": "2023-08-24",
       "datePublished": "2023-08-24",
       "description": "Discover how to navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements when both parties feel strongly, and practical exercises to improve your conflict resolution skills.",
@@ -155,19 +149,10 @@ conflict resolution exercises for couples -->
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

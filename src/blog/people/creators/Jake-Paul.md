@@ -101,20 +101,11 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Jake Paul from the perspective of the Enneagram Type 3. Known for his ambition, drive for success, and constant need for validation, Jake embodies many characteristics of Type 3 personalities. The article discusses various facets of Jake's life and career that demonstrate his Type 3 characteristics, including his rise to fame, boxing career, and controversies.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-            {
-              "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-            },
-            {
-              "@id": "https://twitter.com/djwayne3"
-            }
-          ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -129,9 +120,7 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://example.com/types/3s/Jake-Paul.webp"
-        },
+        "url": "https://example.com/types/3s/Jake-Paul.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -141,31 +130,11 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "mentions": {
         "@type": "Person",
         "name": "Jake Paul",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Jake_Paul"
-          },
-          {
-            "@id": "https://twitter.com/jakepaul"
-          },
-          {
-            "@id": "https://www.instagram.com/jakepaul/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@jakepaul"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Jake_Paul", "https://twitter.com/jakepaul", "https://www.instagram.com/jakepaul/", "https://www.tiktok.com/@jakepaul"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
         "@type": "ImageObject",
         "height": 60,

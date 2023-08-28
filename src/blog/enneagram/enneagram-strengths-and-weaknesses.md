@@ -205,23 +205,11 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   "@type": "BlogPosting",
   "articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
   "creator" : ["DJ Wayne"],
-"author": {
+  "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-    "sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -249,22 +237,11 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
       },
   "publisher": {
     "@type": "Organization",
-  "sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+    "sameAs": ["https://www.instagram.com/9takesdotcom/""https://twitter.com/9takesdotcom"],
     "name": "9takes",
-    "url": {
-      "@id": "https://9takes.com"
-    }
+    "url": "https://9takes.com"
   },
-  "url": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
-  }
+  "url": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
 },
 {
       "@type": "FAQPage",

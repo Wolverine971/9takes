@@ -133,23 +133,11 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Kanye West from the perspective of the Enneagram Type 7. Known for his restless creativity, a quest for new experiences, and a desire to avoid negativity, Kanye embodies many characteristics of Type 7 personalities. The article discusses various facets of Kanye's life and career that demonstrate his Type 7 characteristics, including his rise to fame, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 7.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -164,9 +152,7 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/7s/Kanye.webp"
-        },
+        "url": "https://9takes.com/types/7s/Kanye.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -176,33 +162,14 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       "mentions": {
         "@type": "Person",
         "name": "Kanye West",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Kanye_West"
-          },
-          {
-            "@id": "https://twitter.com/kanyewest"
-          },
-          {
-            "@id": "https://www.instagram.com/kanyewest/"
-          }
-        ]
+        "sameAs": [ "https://en.wikipedia.org/wiki/Kanye_West", "https://twitter.com/kanyewest", "https://www.instagram.com/kanyewest/" ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

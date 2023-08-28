@@ -203,22 +203,10 @@ So, what can we learn from Dave Portnoy? That there's more than meets the eye wh
       "@type": "Article",
       "articleBody": "This article delves into the complex personality of Dave Portnoy through the lens of the Enneagram Type 8. It explores various facets of his life, including his entrepreneurial ventures, his individualistic approach, and his handling of controversies, all of which point to characteristics commonly found in Type 8 individuals.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -234,9 +222,7 @@ So, what can we learn from Dave Portnoy? That there's more than meets the eye wh
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Dave-Portnoy.webp"
-        },
+        "url": "https://9takes.com/types/8s/Dave-Portnoy.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -246,33 +232,14 @@ So, what can we learn from Dave Portnoy? That there's more than meets the eye wh
       "mentions": {
         "@type": "Person",
         "name": "Dave Portnoy",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Dave_Portnoy"
-          },
-          {
-            "@id": "https://twitter.com/stoolpresidente"
-          },
-          {
-            "@id": "https://www.instagram.com/stoolpresidente/"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Dave_Portnoy", "https://twitter.com/stoolpresidente", "https://www.instagram.com/stoolpresidente/"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

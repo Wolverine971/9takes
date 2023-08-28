@@ -242,8 +242,8 @@ If you found this guide helpful, join 9takes you don't have to but there is so m
 
 <svelte:head>
 
-  <script type="application/ld+json">
-    {
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
@@ -254,18 +254,10 @@ If you found this guide helpful, join 9takes you don't have to but there is so m
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-          },
-          {
-          "@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+          "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
+"https://www.linkedin.com/in/davidtwayne/",
+"https://twitter.com/djwayne3"
+
         ]
       },
       "dateModified": "2023-08-27",
@@ -282,19 +274,10 @@ If you found this guide helpful, join 9takes you don't have to but there is so m
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

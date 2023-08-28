@@ -154,23 +154,11 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       "@type": "Article",
       "articleBody": "This article delves into the personality and life of pop icon Dua Lipa through the lens of Enneagram Type 3. Recognized for her drive, determination, and capacity to maintain a successful image, Dua embodies the key traits of this Enneagram type. The piece explores facets of her life, music career, public controversies, and motivations, all pointing to her Enneagram Type 3 tendencies.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -185,9 +173,7 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/3s/Dua-Lipa.webp"
-        },
+        "url": "https://9takes.com/types/3s/Dua-Lipa.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -197,36 +183,15 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       "mentions": {
         "@type": "Person",
         "name": "Dua Lipa",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Dua_Lipa"
-          },
-          {
-            "@id": "https://twitter.com/DUALIPA"
-          },
-          {
-            "@id": "https://www.instagram.com/dualipa/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@dualipaofficial"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Dua_Lipa", "https://twitter.com/DUALIPA", "https://www.instagram.com/dualipa/", "https://www.tiktok.com/@dualipaofficial"
         ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

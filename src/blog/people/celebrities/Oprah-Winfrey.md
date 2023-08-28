@@ -96,23 +96,11 @@ Better yet, why not become part of a community that values introspective explora
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Oprah Winfrey from the perspective of the Enneagram Type 2. Known for her generosity, caring nature, and interpersonal skills, Oprah embodies many characteristics of Type 2 personalities. The article discusses various facets of Oprah's life and career that demonstrate her Type 2 characteristics, including her philanthropic efforts, talk show, and resilience in the face of controversy.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -127,9 +115,7 @@ Better yet, why not become part of a community that values introspective explora
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/2s/Oprah-Winfrey.webp"
-        },
+        "url": "https://9takes.com/types/2s/Oprah-Winfrey.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -139,36 +125,14 @@ Better yet, why not become part of a community that values introspective explora
       "mentions": {
         "@type": "Person",
         "name": "Oprah Winfrey",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Oprah_Winfrey"
-          },
-          {
-            "@id": "https://twitter.com/Oprah"
-          },
-          {
-            "@id": "https://www.instagram.com/oprah/"
-          },
-          {
-            "@id": "https://www.tiktok.com/discover/Oprah-Winfrey"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Oprah_Winfrey", "https://twitter.com/Oprah", "https://www.instagram.com/oprah/", "https://www.tiktok.com/discover/Oprah-Winfrey"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

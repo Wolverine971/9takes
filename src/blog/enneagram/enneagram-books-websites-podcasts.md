@@ -62,7 +62,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <svelte:head>
 
 <script type="application/ld+json">
-      {
+{
     "@context": "http://schema.org",
     "type": "BlogPosting",
     "about": {
@@ -75,18 +75,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "@type": "Person",
         "name": "DJ Wayne",
         "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-          },
-          {
-          "@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+          "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
+"https://www.linkedin.com/in/davidtwayne/",
+"https://twitter.com/djwayne3"
+
         ]
       },
     "dateModified": "2023-08-26",
@@ -185,43 +177,14 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       },
       {
         "type": "PodcastEpisode",
-        "host": {
-          "type": "Person",
-          "name": "Suzanne Stabile",
-          "sameAs": [
-            "https://www.instagram.com/suzannestabile/",
-            "https://twitter.com/SuzanneStabile"
-          ],
-          "url": "https://suzannestabile.com/"
-        },
         "name": "The Enneagram Journey"
       },
       {
         "type": "PodcastEpisode",
-        "host": {
-          "type": "Person",
-          "name": "Ian Morgan Cron",
-          "sameAs": [
-            "https://twitter.com/ianmorgancron/",
-            "https://www.instagram.com/ianmorgancron/?hl=en",
-            "https://www.amazon.com/stores/Ian-Morgan-Cron/author/B001K8737O"
-          ],
-          "url": "https://www.ianmorgancron.com/"
-        },
         "name": "Typology"
       },
       {
         "type": "PodcastEpisode",
-        "host": {
-          "type": "Person",
-          "name": "Sarajane Case",
-          "sameAs": [
-            "https://www.instagram.com/sarajanecase/?hl=en",
-            "https://twitter.com/sarajanecase?lang=en",
-            "https://www.youtube.com/sarajanecase"
-          ],
-          "url": "https://sarajane-case-llc-1.showit.site/"
-        },
         "name": "The Enneagram and Coffee"
       },
       {
@@ -230,17 +193,6 @@ For those who prefer listening to learning, these podcasts offer engaging conver
           "type": "Thing",
           "name": "Enneagram"
         },
-        "host": {
-          "type": "Person",
-          "name": "Marissa Di Poce",
-          "sameAs": [
-            "https://twitter.com/mangomaris",
-            {
-              "type": "Person",
-              "name": "Tara"
-            }
-          ]
-        },
         "name": "Enneagram for Idiots",
         "sameAs": "https://twitter.com/enneaforidiots",
         "url": "https://www.enneagramforidiots.com/"
@@ -248,19 +200,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     ],
     "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

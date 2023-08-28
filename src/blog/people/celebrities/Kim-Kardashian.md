@@ -131,22 +131,10 @@ There is a fascinating world of personalities out there waiting to be explored. 
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Kim Kardashian from the perspective of the Enneagram Type 3. Known for her ambition, drive for success, and public image management, Kim embodies many characteristics of Type 3 personalities. The article discusses various facets of Kim's life and career that demonstrate her Type 3 characteristics, including her rise to fame, social media presence, and controversies.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -162,9 +150,7 @@ There is a fascinating world of personalities out there waiting to be explored. 
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/3s/Kim-Kardashian.webp"
-        },
+        "url": "https://9takes.com/types/3s/Kim-Kardashian.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -174,39 +160,14 @@ There is a fascinating world of personalities out there waiting to be explored. 
       "mentions": {
         "@type": "Person",
         "name": "Kim Kardashian",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Kim_Kardashian"
-          },
-          {
-            "@id": "https://twitter.com/KimKardashian"
-          },
-          {
-            "@id": "https://www.instagram.com/kimkardashian/"
-          },
-          {
-            "@id": "https://www.tiktok.com/discover/Kim-Kardashian"
-          },
-		  {
-			"@id": "https://www.tiktok.com/@kimkardashian"
-		  }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Kim_Kardashian", "https://twitter.com/KimKardashian", "https://www.instagram.com/kimkardashian/", "https://www.tiktok.com/discover/Kim-Kardashian", "https://www.tiktok.com/@kimkardashian"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

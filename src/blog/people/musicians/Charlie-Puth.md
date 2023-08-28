@@ -113,23 +113,11 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
       "@type": "Article",
       "articleBody": "This article delves into the personality traits of Charlie Puth from the perspective of the Enneagram Type 4. Known for his emotional depth, artistic authenticity, and search for uniqueness, Puth embodies many characteristics of Type 4 personalities. The article discusses various aspects of Puth's life and career that demonstrate his Type 4 traits, including his musical journey, emotional expressions, and controversies.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -144,9 +132,7 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/4s/Charlie-Puth.webp"
-        },
+        "url": "https://9takes.com/types/4s/Charlie-Puth.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -156,36 +142,15 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
       "mentions": {
         "@type": "Person",
         "name": "Charlie Puth",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Charlie_Puth"
-          },
-          {
-            "@id": "https://twitter.com/charlieputh"
-          },
-          {
-            "@id": "https://www.instagram.com/charlieputh/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@charlieputh"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Charlie_Puth", "https://twitter.com/charlieputh", "https://www.instagram.com/charlieputh/", "https://www.tiktok.com/@charlieputh"
         ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

@@ -134,23 +134,11 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Pete Davidson from the perspective of the Enneagram Type 9. Known for his laid-back demeanor, adaptability, and struggle with anger, Pete embodies many characteristics of Type 9 personalities. The article discusses various aspects of Pete's life and career that demonstrate his Type 9 traits, including his relationship dynamics, comedy style, personal controversies, and his battles with mental health.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -165,9 +153,7 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/9s/Pete-Davidson.webp"
-        },
+        "url": "https://9takes.com/types/9s/Pete-Davidson.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -177,33 +163,14 @@ Join the exploration. Let's discover together. Sign up below ⬇️ and be a par
       "mentions": {
         "@type": "Person",
         "name": "Pete Davidson",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Pete_Davidson"
-          },
-          {
-            "@id": "https://www.imdb.com/name/nm0203457/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@petedavidson"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Pete_Davidson", "https://www.imdb.com/name/nm0203457/", "https://www.tiktok.com/@petedavidson"]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

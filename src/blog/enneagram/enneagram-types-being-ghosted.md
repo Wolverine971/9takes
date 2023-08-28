@@ -253,23 +253,11 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   "@type": "BlogPosting",
   "articleBody": "Ghosting is a term used to describe the act of suddenly ceasing all communication with someone without any explanation. It's a phenomenon that's become increasingly common in the digital age, and it can be particularly painful for those on the receiving end. In this blog post, we'll explore how each Enneagram type responds to ghosting and what it can reveal about their personalities. From the angry and confrontational to the hurt and withdrawn, we'll take a closer look at the different ways that each type handles being ghosted. Whether you've been ghosted yourself or you're just curious about the Enneagram, this post will provide valuable insights into how each type responds to this modern dating dilemma.",
   "creator" : ["DJ Wayne"],
-"author": {
+  "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-    "sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -298,23 +286,14 @@ In conclusion, ghosting affects individuals differently, and understanding how e
         "name": "Enneagram"
       },
   "publisher": {
-    "@type": "Organization",
-  "sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  }
 }
 </script>
 </svelte:head>

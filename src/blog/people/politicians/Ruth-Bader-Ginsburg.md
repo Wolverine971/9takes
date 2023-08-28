@@ -78,22 +78,11 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       "@type": "Article",
       "articleBody": "This article delves into the personality traits of Ruth Bader Ginsburg through the lens of the Enneagram Type 1. Known for her stringent pursuit of justice, commitment to principles, and unwavering self-discipline, Ginsburg exhibits many features of Type 1 personalities. The article covers multiple facets of Ginsburg's life and career, which exhibit her Type 1 characteristics, including her legal legacy, feminist advocacy, and landmark rulings.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
      ]
       },
       "dateModified": {
@@ -109,9 +98,7 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/1s/Ruth-Bader-Ginsburg.webp"
-        },
+        "url": "https://9takes.com/types/1s/Ruth-Bader-Ginsburg.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -121,20 +108,11 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       "mentions": {
         "@type": "Person",
         "name": "Ruth Bader Ginsburg",
-        "sameAs": {
-          "@id": "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg"
-        }
+        "sameAs": ["https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",

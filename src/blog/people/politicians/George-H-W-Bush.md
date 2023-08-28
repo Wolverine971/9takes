@@ -64,23 +64,11 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   "@type": "Article",
   "articleBody": "George H.W. Bush, the 41st president of the United States, exemplifies many traits of an Enneagram Type 6, the Loyalist. During his presidency, he was known for forging strong international alliances, showcasing his collaborative nature and desire for security. A notable example is his handling of the Gulf War, where he successfully assembled a coalition of 35 countries to liberate Kuwait from Iraqi occupation. This illustrates his Type 6 tendency to seek cooperation and support from others in times of crisis...",
   "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -95,9 +83,7 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/types/6s/George-H-W-Bush.webp"
-    },
+    "url": "https://9takes.com/types/6s/George-H-W-Bush.webp",
     "width": 1200
   },
   "mainEntityOfPage": {
@@ -108,36 +94,18 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
     "@type": "Person",
     "name": "George H. W. Bush",
     "description": "George Herbert Walker Bush was an American politician, diplomat, and businessman who served as the 41st president of the United States from 1989 to 1993. A member of the Republican Party, Bush also served as the 43rd vice president from 1981 to 1989 under Ronald Reagan, in the U.S. House of Representatives, as U.S. Ambassador to the United Nations, and as Director of Central Intelligence.",
-    "sameAs": [
-      {
-        "@id": "https://en.wikipedia.org/wiki/George_H._W._Bush"
-      },
-      {
-        "@id": "https://www.whitehouse.gov/about-the-white-house/presidents/george-h-w-bush/"
-      },
-      {
-        "@id": "https://www.britannica.com/biography/George-H-W-Bush"
-      }
+    "sameAs": ["https://en.wikipedia.org/wiki/George_H._W._Bush", "https://www.whitehouse.gov/about-the-white-house/presidents/george-h-w-bush/", "https://www.britannica.com/biography/George-H-W-Bush"
     ]
   },
   "publisher": {
-    "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  }
 }
 </script>
 

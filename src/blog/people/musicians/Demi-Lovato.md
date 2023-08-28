@@ -162,23 +162,11 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
       "@type": "Article",
       "articleBody": "This article examines the personality of Demi Lovato, widely thought to align with the Enneagram Type 4. Known for her authenticity, self-expression, and emotional depth, Demi embodies many characteristics of Type 4 personalities. The article delves into Demi's personal life, career, controversies, and daily struggles, all in relation to her Type 4 characteristics.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -193,9 +181,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://imagelink.com/DemiLovato.jpg"
-        },
+        "url": "https://imagelink.com/DemiLovato.jpg",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -205,33 +191,15 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
       "mentions": {
         "@type": "Person",
         "name": "Demi Lovato",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Demi_Lovato"
-          },
-          {
-            "@id": "https://twitter.com/ddlovato"
-          },
-          {
-            "@id": "https://www.instagram.com/ddlovato/"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Demi_Lovato", "https://twitter.com/ddlovato", "https://www.instagram.com/ddlovato/"
         ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

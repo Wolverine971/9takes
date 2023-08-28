@@ -110,23 +110,11 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       "@type": "Article",
       "articleBody": "This article delves into the personality traits of Kylie Jenner as seen through the lens of the Enneagram Type 9. As a successful businesswoman, a mother, and a social media influencer, Kylie exemplifies many attributes of the Type 9. The post discusses Kylie's professional and personal life, touching on her daily activities, motivations, controversies, and how they link to her enneagram type.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -141,9 +129,7 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/9s/Kylie-Jenner.webp"
-        },
+        "url": "https://9takes.com/types/9s/Kylie-Jenner.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -153,38 +139,14 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       "mentions": {
         "@type": "Person",
         "name": "Kylie Jenner",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Kylie_Jenner"
-          },
-          {
-            "@id": "https://twitter.com/KylieJenner"
-          },
-          {
-            "@id": "https://www.instagram.com/kyliejenner/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@kyliejenner"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Kylie_Jenner", "https://twitter.com/KylieJenner", "https://www.instagram.com/kyliejenner/", "https://www.tiktok.com/@kyliejenner" ]
       },
       "publisher": {
         "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "height": 60,
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          },
-          "width": 600
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

@@ -142,22 +142,10 @@ If this resonates with you, we invite you to explore more articles like this one
       "@type": "Article",
       "articleBody": "This article delves into Joe Rogan's personality traits through the lens of the Enneagram Type 8. It examines various facets of Joe's life, career, and perspectives that exemplify Type 8 traits. The key points discuss Joe's assertive and bold nature, his inner world, a prominent controversy, and his core motivations.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -173,9 +161,7 @@ If this resonates with you, we invite you to explore more articles like this one
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Joe-Rogan.webp"
-        },
+        "url": "https://9takes.com/types/8s/Joe-Rogan.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -185,36 +171,14 @@ If this resonates with you, we invite you to explore more articles like this one
       "mentions": {
         "@type": "Person",
         "name": "Joe Rogan",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Joe_Rogan"
-          },
-          {
-            "@id": "https://twitter.com/joerogan"
-          },
-          {
-            "@id": "https://www.instagram.com/joerogan/"
-          },
-          {
-            "@id": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Joe_Rogan", "https://twitter.com/joerogan", "https://www.instagram.com/joerogan/", "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

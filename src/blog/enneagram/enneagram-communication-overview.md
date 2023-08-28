@@ -123,30 +123,19 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
 
 <svelte:head>
 
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",
       "articleBody": "The Enneagram is a powerful tool for understanding ourselves and others. It provides insight into our motivations, fears, and behaviors, and helps us identify our strengths and weaknesses. Understanding the Enneagram can also help us communicate and interact more effectively with people of different types. In this article, we'll explore how to communicate and interact effectively with different Enneagram types. First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's essential to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in 'The Path Between Us,'' 'You can't change how you see—you can only change what you do with how you see.' With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
       },
       "dateModified": {
         "@type": "Date",
@@ -160,9 +149,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       "headline": "How to communicate and interact effectively with different Enneagram types",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "url": {
-          "@id": "https://9takes.com/blog/enneagram/communication-overview"
-        }
+        "url": "https://9takes.com/blog/enneagram/communication-overview"
       },
       "mentions": {
         "@type": "Thing",
@@ -170,19 +157,10 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       },
       "publisher": {
         "@type": "Organization",
-      "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+      "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }
@@ -203,9 +181,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
           "@id": "https://suzannestabile.com/"
         }
       ],
-      "url": {
-        "@id": "https://suzannestabile.com/"
-      }
+      "url": "https://suzannestabile.com/"
     }
   ]
 }

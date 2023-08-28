@@ -163,20 +163,8 @@ Each type has its unique characteristics and motivations for attending the party
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",
-      "sameAs": [
-        {
-          "@id": "https://www.instagram.com/djwayne3/"
-        },
-        {
-        "@id": "https://www.youtube.com/@djwayne3"
-        },
-        {
-          "@id": "https://www.linkedin.com/in/davidtwayne/"
-        },
-        {
-          "@id": "https://twitter.com/djwayne3"
-        }
-     ]
+      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -205,23 +193,14 @@ Each type has its unique characteristics and motivations for attending the party
         "name": "Enneagram"
       },
   "publisher": {
-    "@type": "Organization",
-    "sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
-      },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  }
 }
 </script>
 </svelte:head>

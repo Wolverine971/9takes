@@ -81,17 +81,8 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
       "author": {
 			"@type": "Person",
 			"name": "DJ Wayne",
-			"sameAs": [
-			{
-				"@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-			},
-			{
-				"@id": "https://twitter.com/djwayne3"
-			}
-			]
+			"sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
 		},
       "dateModified": "2023-07-11",
       "datePublished": "2023-03-02",

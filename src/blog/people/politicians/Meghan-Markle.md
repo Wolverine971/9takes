@@ -83,22 +83,10 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       "@type": "Article",
       "articleBody": "Meghan Markle, Duchess of Sussex, has captivated global audiences since her engagement to Prince Harry and before that on the TV show \"Suits\". She displays characteristics of an Enneagram Type 2, also known as The Helper. A defining trait of Enneagram Type 2’s is their inherent need to be indispensable, which is evident in Meghan's philanthropic endeavors and her engagement in societal change. Meghan's career trajectory and advocacy work, including her role as a Global Ambassador for World Vision Canada, suggest an intrinsic need to be helpful. Her decision to leave the Royal Family might have been influenced by her desire to be in a place where she felt needed. Meghan is also very aware of her public image and has made efforts to control it. On the positive side, she is often praised for her warmth and empathy.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -114,9 +102,7 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/2s/Meghan-Markle.webp"
-        },
+        "url": https://9takes.com/types/2s/Meghan-Markle.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -126,33 +112,15 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       "mentions": {
         "@type": "Person",
         "name": "Meghan Markle",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Meghan_Markle"
-          },
-          {
-            "@id": "https://twitter.com/MeghanMarkle"
-          },
-          {
-            "@id": "https://www.instagram.com/meghanmarkle/"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Meghan_Markle","https://twitter.com/MeghanMarkle","https://www.instagram.com/meghanmarkle/"
         ]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

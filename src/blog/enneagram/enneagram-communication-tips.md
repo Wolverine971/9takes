@@ -206,22 +206,10 @@ Effective communication is key to building strong relationships with others, and
   "headline": "Enneagram Communication Tips",
   "image": "https://9takes.com/brand/darkRubix.png",
   "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-          },
-          {
-            "@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "mentions": {
@@ -229,23 +217,14 @@ Effective communication is key to building strong relationships with others, and
         "name": "Enneagram"
       },
       "publisher": {
-          "@type": "Organization",
-          "sameAs": [
-            {
-              "@id": "https://www.instagram.com/9takesdotcom/"
-            },
-            {
-              "@id": "https://twitter.com/9takesdotcom"
-            }
-          ],
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
-      }
+      },
   "datePublished": "2023-02-27",
   "dateModified": "2023-08-27",
   "description": "This article provides communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types."

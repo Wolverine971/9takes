@@ -88,23 +88,11 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   "articleBody": "",
   "articleSection": "scientist",
   "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-      },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-      {
-        "@id": "https://twitter.com/djwayne3"
-      }
-     ]
+    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
   },
   "dateModified": {
     "@type": "Date",
@@ -119,9 +107,7 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/types/5s/Lex-Fridman.webp"
-    },
+    "url": "https://9takes.com/types/5s/Lex-Fridman.webp",
     "width": 1200
   },
   "keywords": [
@@ -140,42 +126,19 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
     "@type": "Person",
     "description": "Host of Lex Fridman Podcast. Research Scientist at MIT. Interested in robots and humans.",
     "name": "Lex Fridman",
-    "sameAs": [
-      {
-        "@id": "https://lexfridman.com/"
-      },
-      {
-        "@id": "https://www.youtube.com/c/lexfridman"
-      },
-      {
-        "@id": "https://en.wikipedia.org/wiki/Lex_Fridman"
-      },
-      {
-        "@id": "https://twitter.com/lexfridman"
-      }
+    "sameAs": ["https://lexfridman.com/", "https://www.youtube.com/c/lexfridman","https://en.wikipedia.org/wiki/Lex_Fridman","https://twitter.com/lexfridman"
     ]
   },
   "publisher": {
-    "@type": "Organization",
-"sameAs": [
-      {
-        "@id": "https://www.instagram.com/9takesdotcom/"
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
       },
-      {
-        "@id": "https://twitter.com/9takesdotcom"
-      }
-     ],
-    "logo": {
-      "@type": "ImageObject",
-      "url": {
-        "@id": "https://9takes.com/brand/darkRubix.png"
-      }
-    },
-    "name": "9takes"
-  },
-  "url": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman"
-  }
+  "url": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman"
 }
 </script>
 

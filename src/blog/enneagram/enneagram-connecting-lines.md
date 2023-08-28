@@ -157,8 +157,8 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 <svelte:head>
 
-  <script type="application/ld+json">
-    {
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
@@ -168,16 +168,7 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-        {
-          "@id": "https://www.instagram.com/djwayne3/"
-        },
-        {
-          "@id": "https://www.youtube.com/@djwayne3"
-        },
-        {
-          "@id": "https://twitter.com/djwayne3"
-        }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -200,19 +191,10 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }
@@ -248,7 +230,6 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
     }
   ]
 }
-
 </script>
 </svelte:head>
 

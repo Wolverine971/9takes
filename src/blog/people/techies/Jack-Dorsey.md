@@ -168,22 +168,10 @@ And now, a question for you: What drives the personalities behind your favorite 
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Jack Dorsey from the perspective of the Enneagram Type 5. Known for his introspective nature and seeking deep understanding of systems, Jack embodies many characteristics of Type 5 personalities. The article discusses various facets of Jack's life and career, such as his innovations in tech and his leadership style, linking these attributes to Type 5 characteristics.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -199,9 +187,7 @@ And now, a question for you: What drives the personalities behind your favorite 
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/5s/Jack-Dorsey.webp"
-        },
+        "url": "https://9takes.com/types/5s/Jack-Dorsey.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -211,30 +197,15 @@ And now, a question for you: What drives the personalities behind your favorite 
       "mentions": {
         "@type": "Person",
         "name": "Jack Dorsey",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Jack_Dorsey"
-          },
-          {
-            "@id": "https://twitter.com/jack"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Jack_Dorsey","https://twitter.com/jack"
         ]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

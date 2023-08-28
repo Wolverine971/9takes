@@ -156,17 +156,8 @@ Understanding others starts with understanding oneself. Let's embark on this jou
       "author": {
 			"@type": "Person",
 			"name": "DJ Wayne",
-			"sameAs": [
-			{
-				"@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-			},
-			{
-				"@id": "https://twitter.com/djwayne3"
-			}
-			]
+      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
 		},
       "dateModified": {
         "@type": "Date",
@@ -181,9 +172,7 @@ Understanding others starts with understanding oneself. Let's embark on this jou
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/9s/Barack-Obama.webp"
-        },
+        "url": "https://9takes.com/types/9s/Barack-Obama.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -193,33 +182,15 @@ Understanding others starts with understanding oneself. Let's embark on this jou
       "mentions": {
         "@type": "Person",
         "name": "Barack Obama",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Barack_Obama"
-          },
-          {
-            "@id": "https://twitter.com/BarackObama"
-          },
-          {
-            "@id": "https://www.instagram.com/barackobama/"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Barack_Obama","https://twitter.com/BarackObama","https://www.instagram.com/barackobama/"
         ]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
       }

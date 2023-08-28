@@ -74,22 +74,10 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
       "@type": "Article",
       "articleBody": "Often, when people first encounter the Enneagram their initial question is, \"Is the Enneagram a religious thing?\" The answer, as is often the case with nuanced systems, is not straightforward. The Enneagram is a rich and multifaceted tool that can be used within various religious and spiritual traditions for growth and self-understanding. However, it is not tied exclusively to any one religious tradition, nor is it inherently religious. At its core, the Enneagram is a psychological tool—a kind of map that can guide us toward a more profound understanding of ourselves and others.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/","https://www.youtube.com/@djwayne3","https://www.linkedin.com/in/davidtwayne/","https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -104,9 +92,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
       "headline": "The Enneagram: A Spiritual Tool Beyond Religious Boundaries",
       "image": {
         "@type": "ImageObject",
-        "url": {
-          "@id": "https://9takes.com/blogs/religious-books.webp"
-        }
+        "url": "https://9takes.com/blogs/religious-books.webp"
       },
       "mainEntityOfPage": {
         "@id": "Your Webpage URL",
@@ -116,18 +102,10 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
         "@type": "Organization",
         "logo": {
           "@type": "ImageObject",
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          }
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
+        "sameAs": ["https://www.instagram.com/9takesdotcom/","https://twitter.com/9takesdotcom"
         ]
       }
     },

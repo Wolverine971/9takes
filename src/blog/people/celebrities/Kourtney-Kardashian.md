@@ -117,22 +117,10 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Kourtney Kardashian from the perspective of the Enneagram Type 1. Known for her meticulousness, drive for perfection, and strong principles, Kourtney embodies many characteristics of Type 1 personalities. The article discusses various facets of Kourtney's life that demonstrate her Type 1 characteristics, including her dedicated parenting, health-focused lifestyle, and controversial moments.",
       "creator" : ["DJ Wayne"],
-"author": {
+      "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/djwayne3/"
-},
-{
-"@id": "https://www.youtube.com/@djwayne3"
-          },
-          {
-            "@id": "https://www.linkedin.com/in/davidtwayne/"
-          },
-          {
-            "@id": "https://twitter.com/djwayne3"
-          }
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
       "dateModified": {
@@ -148,9 +136,7 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/1s/Kourtney-Kardashian.webp"
-        },
+        "url": "https://9takes.com/types/1s/Kourtney-Kardashian.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -160,37 +146,15 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       "mentions": {
         "@type": "Person",
         "name": "Kourtney Kardashian",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Kourtney_Kardashian"
-          },
-          {
-            "@id": "https://twitter.com/kourtneykardash"
-          },
-          {
-            "@id": "https://www.instagram.com/kourtneykardash/"
-          },
-          {
-            "@id": "https://www.tiktok.com/@kourtneykardashian"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Kourtney_Kardashian", "https://twitter.com/kourtneykardash", "https://www.instagram.com/kourtneykardash/", "https://www.tiktok.com/@kourtneykardashian"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          {
-            "@id": "https://www.instagram.com/9takesdotcom/"
-          },
-          {
-            "@id": "https://twitter.com/9takesdotcom"
-          }
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
           "height": 60,
-          "url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
-          },
+          "url": "https://9takes.com/brand/darkRubix.png",
           "width": 600
         },
         "name": "9takes"
