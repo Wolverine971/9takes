@@ -258,19 +258,10 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
          "@type":"Article",
          "articleBody":"This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
          "creator" : ["DJ Wayne"],
-         "author":{
-            "@type":"Person",
-            "name":"DJ Wayne",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/djwayne3/"
-               },
-               {
-                  "@id":"https://www.linkedin.com/in/davidtwayne/"
-               },
-               {
-                  "@id":"https://twitter.com/djwayne3"
-               }
+         "author": {
+            "@type": "Person",
+            "name": "DJ Wayne",
+            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
             ]
          },
          "dateModified":{
@@ -284,9 +275,7 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
          "image":{
             "@type":"ImageObject",
             "height":800,
-            "url":{
-               "@id":"https://9takes.com/blogs/greek-statues-on-a-date.webp"
-            },
+            "url": "https://9takes.com/blogs/greek-statues-on-a-date.webp",
             "width":1200
          },
          "description":"This blog post examines the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships.",
@@ -299,24 +288,15 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
             "@type":"Thing",
             "name":"Enneagram"
          },
-         "publisher":{
-            "@type":"Organization",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/9takesdotcom/"
-               },
-               {
-                  "@id":"https://twitter.com/9takesdotcom"
-               }
-            ],
-            "logo":{
-               "@type":"ImageObject",
-               "url":{
-                  "@id":"https://9takes.com/brand/darkRubix.png"
-               }
+         "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/darkRubix.png"
             },
-            "name":"9takes"
-         }
+         "name": "9takes"
+      }
       },
       {
          "@type":"FAQPage",

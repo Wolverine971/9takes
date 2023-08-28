@@ -318,21 +318,12 @@ I hope this post resonates with your audience and encourages registrations for 9
          "@type":"Article",
          "articleBody":"Ever wondered how to make someone's day with just the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
          "creator" : ["DJ Wayne"],
-         "author":{
-            "@type":"Person",
-            "name":"DJ Wayne",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/djwayne3/"
-               },
-               {
-                  "@id":"https://www.linkedin.com/in/davidtwayne/"
-               },
-               {
-                  "@id":"https://twitter.com/djwayne3"
-               }
-            ]
-         },
+         "author": {
+            "@type": "Person",
+            "name": "DJ Wayne",
+            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+               ]
+            },
          "dateModified":{
             "@type":"Date",
             "@value":"2023-08-26"
@@ -346,9 +337,7 @@ I hope this post resonates with your audience and encourages registrations for 9
          "image":{
             "@type":"ImageObject",
             "height":800,
-            "url":{
-               "@id":"https://9takes.com/blogs/greek-statue-yeah-boi.webp"
-            },
+            "url": "https://9takes.com/blogs/greek-statue-yeah-boi.webp",
             "width":1200
          },
          "mainEntityOfPage":{
@@ -359,23 +348,14 @@ I hope this post resonates with your audience and encourages registrations for 9
             "@type":"Thing",
             "name":"Enneagram"
          },
-         "publisher":{
-            "@type":"Organization",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/9takesdotcom/"
-               },
-               {
-                  "@id":"https://twitter.com/9takesdotcom"
-               }
-            ],
-            "logo":{
-               "@type":"ImageObject",
-               "url":{
-                  "@id":"https://9takes.com/brand/darkRubix.png"
-               }
+         "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/darkRubix.png"
             },
-            "name":"9takes"
+            "name": "9takes"
          }
       },
       {

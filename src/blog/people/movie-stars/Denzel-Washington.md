@@ -184,9 +184,7 @@ Ready to embark on this journey of discovery? Join us on 9takes - where every pe
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Denzel-Washington.webp"
-        },
+        "url": "https://9takes.com/types/8s/Denzel-Washington.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

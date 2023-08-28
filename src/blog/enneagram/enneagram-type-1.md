@@ -501,6 +501,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
   ]
 }
 </script>
+
 </svelte:head>
 
 <style>

@@ -231,6 +231,7 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

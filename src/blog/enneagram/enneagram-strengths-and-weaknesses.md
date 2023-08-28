@@ -275,6 +275,7 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

@@ -315,6 +315,7 @@ previewHtml: ''
 	]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

@@ -317,6 +317,7 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

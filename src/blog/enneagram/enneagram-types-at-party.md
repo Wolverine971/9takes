@@ -179,9 +179,7 @@ Each type has its unique characteristics and motivations for attending the party
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/blogs/greek-statues-party-vibes.webp"
-    },
+    "url": "https://9takes.com/blogs/greek-statues-party-vibes.webp",
     "width": 1200
   },
   "mainEntityOfPage": {
@@ -203,4 +201,5 @@ Each type has its unique characteristics and motivations for attending the party
       }
 }
 </script>
+
 </svelte:head>

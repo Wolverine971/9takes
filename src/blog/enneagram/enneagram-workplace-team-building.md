@@ -184,23 +184,11 @@ The Enneagram is not just a tool but a catalyst for creating a more inclusive, e
       "creator":[
             "DJ Wayne"
          ],
-      "author":{
-        "@type":"Person",
-        "name":"DJ Wayne",
-        "sameAs":[
-            {
-              "@id":"https://www.instagram.com/djwayne3/"
-            },
-            {
-              "@id":"https://www.youtube.com/@djwayne3"
-            },
-            {
-              "@id":"https://www.linkedin.com/in/davidtwayne/"
-            },
-            {
-              "@id":"https://twitter.com/djwayne3"
-            }
-        ]
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
       },
       "dateModified": {
         "@type": "Date",
@@ -275,6 +263,7 @@ The Enneagram is not just a tool but a catalyst for creating a more inclusive, e
 }
 
 </script>
+
 </svelte:head>
 
 <style lang="scss">

@@ -184,24 +184,12 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
    "creator":[
       "DJ Wayne"
    ],
-   "author":{
-      "@type":"Person",
-      "name":"DJ Wayne",
-      "sameAs":[
-         {
-            "@id":"https://www.instagram.com/djwayne3/"
-         },
-         {
-            "@id":"https://www.youtube.com/@djwayne3"
-         },
-         {
-            "@id":"https://www.linkedin.com/in/davidtwayne/"
-         },
-         {
-            "@id":"https://twitter.com/djwayne3"
-         }
-      ]
-   },
+   "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
+      },
    "dateModified":{
       "@type":"Date",
       "@value":"2023-08-27"
@@ -229,26 +217,18 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
       "@type":"Thing",
       "name":"Enneagram"
    },
-   "publisher":{
-      "@type":"Organization",
-      "sameAs":[
-         {
-            "@id":"https://www.instagram.com/9takesdotcom/"
-         },
-         {
-            "@id":"https://twitter.com/9takesdotcom"
-         }
-      ],
-      "logo":{
-         "@type":"ImageObject",
-         "url":{
-            "@id":"https://9takes.com/brand/darkRubix.png"
-         }
-      },
-      "name":"9takes"
-   }
+   "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

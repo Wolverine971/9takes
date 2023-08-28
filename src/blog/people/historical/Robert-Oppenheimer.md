@@ -128,9 +128,7 @@ In our complex world, understanding people's personalities could pave the way fo
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/4s/Robert-Oppenheimer.webp"
-        },
+        "url": "https://9takes.com/types/4s/Robert-Oppenheimer.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

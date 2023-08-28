@@ -191,9 +191,7 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/7s/Leonardo-DiCaprio.webp"
-        },
+        "url": "https://9takes.com/types/7s/Leonardo-DiCaprio.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

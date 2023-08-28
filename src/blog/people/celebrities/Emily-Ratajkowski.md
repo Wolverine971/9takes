@@ -107,9 +107,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/types/8s/Emily-Ratajkowski.webp"
-    },
+    "url": "https://9takes.com/types/8s/Emily-Ratajkowski.webp",
     "width": 1200
   },
   "keywords": [
@@ -126,20 +124,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
     "@type": "Person",
     "description": "Emily O'Hara Ratajkowski is an American model and actress. Born in London and raised in San Diego, Ratajkowski first appeared on the cover of the March 2012 issue of the erotic magazine treats!, which led to her appearing in two music videos – Robin Thicke’s 'Blurred Lines' (the number-one song of 2013 in several countries) and Maroon 5's 'Love Somebody'.",
     "name": "Emily Ratajkowski",
-    "sameAs": [
-      {
-        "@id": "https://www.instagram.com/emrata/"
-      },
-      {
-        "@id": "https://twitter.com/emrata"
-      },
-      {
-        "@id": "https://en.wikipedia.org/wiki/Emily-Ratajkowski"
-      },
-      {
-        "@id": "https://people.com/tag/emily-ratajkowski/"
-      }
-    ]
+    "sameAs": ["https://www.instagram.com/emrata/", "https://twitter.com/emrata", "https://en.wikipedia.org/wiki/Emily-Ratajkowski", "https://people.com/tag/emily-ratajkowski/"]
   },
   "publisher": {
         "@type": "Organization",

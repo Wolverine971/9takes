@@ -697,6 +697,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

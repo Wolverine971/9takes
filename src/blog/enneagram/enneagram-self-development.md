@@ -92,9 +92,7 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/blogs/greek-statue-reading.webp"
-    },
+    "url": "https://9takes.com/blogs/greek-statue-reading.webp",
     "width": 1200
   },
   "keywords": "Enneagram, personal growth, self-improvement, decision-making, emotional awareness, goals, fears, self-awareness, compassion, empathy, relationships",
@@ -117,4 +115,5 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
       }
 }
 </script>
+
 </svelte:head>

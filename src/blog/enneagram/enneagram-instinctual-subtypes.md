@@ -169,4 +169,5 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
       }
 }
 </script>
+
 </svelte:head>

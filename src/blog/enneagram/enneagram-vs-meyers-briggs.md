@@ -145,22 +145,10 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
          "creator":[
             "DJ Wayne"
          ],
-         "author":{
-            "@type":"Person",
-            "name":"DJ Wayne",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/djwayne3/"
-               },
-               {
-                  "@id":"https://www.youtube.com/@djwayne3"
-               },
-               {
-                  "@id":"https://www.linkedin.com/in/davidtwayne/"
-               },
-               {
-                  "@id":"https://twitter.com/djwayne3"
-               }
+         "author": {
+            "@type": "Person",
+            "name": "DJ Wayne",
+            "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
             ]
          },
          "dateModified":{
@@ -176,9 +164,7 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
          "image":{
             "@type":"ImageObject",
             "height":800,
-            "url":{
-               "@id":"https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp"
-            },
+            "url": "https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp",
             "width":1200
          },
          "mainEntityOfPage":{
@@ -189,23 +175,14 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
             "@type":"Thing",
             "name":"Enneagram"
          },
-         "publisher":{
-            "type":"Organization",
-            "sameAs":[
-               {
-                  "@id":"https://www.instagram.com/9takesdotcom/"
-               },
-               {
-                  "@id":"https://twitter.com/9takesdotcom"
-               }
-            ],
-            "logo":{
-               "type":"ImageObject",
-               "height":60,
-               "url":"https://9takes.com/brand/darkRubix.png",
-               "width":600
+         "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/darkRubix.png"
             },
-            "name":"9takes"
+            "name": "9takes"
          }
       },
       {
@@ -232,6 +209,7 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
    ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

@@ -161,9 +161,7 @@ Embark on a journey of self-discovery and embrace the myriad hues of the Enneagr
             "image": {
                 "@type": "ImageObject",
                 "height": 800,
-                "url": {
-                    "@id": "https://9takes.com/blogs/greek-statue-flex.webp"
-                },
+                "url": "https://9takes.com/blogs/greek-statue-flex.webp",
                 "width": 1200
             },
             "mainEntityOfPage": {

@@ -212,9 +212,7 @@ The more we understand about people, the richer our interactions and experiences
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Margot-Robbie.webp"
-        },
+        "url": "https://9takes.com/types/8s/Margot-Robbie.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

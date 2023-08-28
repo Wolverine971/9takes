@@ -105,7 +105,8 @@ In essence, the Enneagram offers a framework for personal development that is de
 
 <svelte:head>
 
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "creator" : ["DJ Wayne"],
@@ -119,16 +120,12 @@ In essence, the Enneagram offers a framework for personal development that is de
     {
       "@type": "WebPage",
       "name": "Sigmund Freud",
-      "url": {
-        "@id": "https://www.britannica.com/biography/Sigmund-Freud"
-      }
+      "url": "https://www.britannica.com/biography/Sigmund-Freud"
     },
     {
       "@type": "WebPage",
       "name": "Plato",
-      "url": {
-        "@id": "https://plato.stanford.edu/entries/plato/"
-      }
+      "url": "https://plato.stanford.edu/entries/plato/"
     }
   ],
   "dateModified": {
@@ -144,9 +141,7 @@ In essence, the Enneagram offers a framework for personal development that is de
   "image": {
     "@type": "ImageObject",
     "height": 1200,
-    "url": {
-      "@id": "https://9takes.com/blogs/freud-plato.webp"
-    },
+    "url": "https://9takes.com/blogs/freud-plato.webp",
     "width": 630
   },
   "keywords": [
@@ -176,26 +171,12 @@ In essence, the Enneagram offers a framework for personal development that is de
     {
       "@type": "Person",
       "name": "Plato",
-      "sameAs": [
-        {
-          "@id": "https://en.wikipedia.org/wiki/Plato"
-        },
-        {
-          "@id": "https://www.britannica.com/biography/Plato"
-        }
-      ]
+      "sameAs": ["https://en.wikipedia.org/wiki/Plato", "https://www.britannica.com/biography/Plato"]
     },
     {
       "@type": "Person",
       "name": "Sigmund Freud",
-      "sameAs": [
-        {
-          "@id": "https://en.wikipedia.org/wiki/Sigmund_Freud"
-        },
-        {
-          "@id": "https://www.britannica.com/biography/Sigmund-Freud"
-        }
-      ]
+      "sameAs": ["https://en.wikipedia.org/wiki/Sigmund_Freud", "https://www.britannica.com/biography/Sigmund-Freud"]
     }
   ],
   "publisher": {
@@ -209,6 +190,7 @@ In essence, the Enneagram offers a framework for personal development that is de
       }
 }
 </script>
+
 </svelte:head>
 
 <style>

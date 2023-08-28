@@ -124,9 +124,7 @@ To explore more captivating personalities and gain a deeper understanding of the
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/7s/Logan-Paul.webp"
-        },
+        "url": "https://9takes.com/types/7s/Logan-Paul.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

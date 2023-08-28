@@ -136,9 +136,7 @@ Nietzsche is just one of many personalities that we can explore through the enne
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/5s/Friedrich-Nietzsche.webp"
-        },
+        "url": "https://9takes.com/types/5s/Friedrich-Nietzsche.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

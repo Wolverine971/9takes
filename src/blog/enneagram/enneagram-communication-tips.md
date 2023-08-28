@@ -309,6 +309,7 @@ Effective communication is key to building strong relationships with others, and
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

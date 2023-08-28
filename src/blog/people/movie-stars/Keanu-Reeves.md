@@ -229,9 +229,7 @@ For those ready to embark on this captivating exploration, I invite you to sign 
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/9s/Keanu-Reeves.webp"
-        },
+        "url": "https://9takes.com/types/9s/Keanu-Reeves.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

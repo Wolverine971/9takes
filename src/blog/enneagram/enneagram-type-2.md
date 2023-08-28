@@ -164,7 +164,6 @@ If you identify as a Type 2 personality, there are a number of things you can do
 
 <svelte:head>
 
-
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

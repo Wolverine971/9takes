@@ -157,7 +157,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
       },
       "publisher": {
         "@type": "Organization",
-      "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
@@ -186,6 +186,7 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

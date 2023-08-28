@@ -148,9 +148,7 @@ If you're intrigued and wish to explore more, delve into our other articles abou
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/8s/Halsey.webp"
-        },
+        "url": https://9takes.com/types/8s/Halsey.webp",
         "width": 1200
       },
       "mainEntityOfPage": {

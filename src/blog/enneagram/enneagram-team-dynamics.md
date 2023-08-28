@@ -62,9 +62,7 @@ Time for the obligatory that bettering team dynamics and overall productivity is
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/brand/darkRubix.png"
-        },
+        "url": "https://9takes.com/brand/darkRubix.png",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -133,4 +131,5 @@ Time for the obligatory that bettering team dynamics and overall productivity is
   ]
 }
 </script>
+
 </svelte:head>

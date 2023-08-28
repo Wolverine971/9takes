@@ -246,6 +246,7 @@ Enneagram Criticisms (200 words)
   ]
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

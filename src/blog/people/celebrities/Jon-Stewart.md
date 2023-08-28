@@ -136,9 +136,7 @@ As we continue to peel back the layers of personalities, we invite you to join u
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": {
-          "@id": "https://9takes.com/types/7s/Jon-Stewart.webp"
-        },
+        "url": "https://9takes.com/types/7s/Jon-Stewart.webp",
         "width": 1200
       },
       "mainEntityOfPage": {
@@ -148,23 +146,7 @@ As we continue to peel back the layers of personalities, we invite you to join u
       "mentions": {
         "@type": "Person",
         "name": "Jon Stewart",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Jon_Stewart"
-          },
-          {
-            "@id": "https://twitter.com/JonStewart"
-          },
-          {
-            "@id": "https://www.instagram.com/jonstewart/"
-          },
-          {
-            "@id": "https://www.tiktok.com/discover/Jon-Stewart"
-          },
-          {
-            "@id": "https://www.tiktok.com/@jonstewart"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Jon_Stewart", "https://twitter.com/JonStewart", "https://www.instagram.com/jonstewart/", "https://www.tiktok.com/discover/Jon-Stewart", "https://www.tiktok.com/@jonstewart"]
       },
       "publisher": {
         "@type": "Organization",

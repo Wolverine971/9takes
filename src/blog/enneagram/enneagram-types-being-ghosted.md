@@ -270,9 +270,7 @@ In conclusion, ghosting affects individuals differently, and understanding how e
   "image": {
     "@type": "ImageObject",
     "height": 800,
-    "url": {
-      "@id": "https://9takes.com/blogs/greek-statue-being-ghosted.webp"
-    },
+    "url": "https://9takes.com/blogs/greek-statue-being-ghosted.webp",
     "width": 1200
   },
   "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
@@ -296,6 +294,7 @@ In conclusion, ghosting affects individuals differently, and understanding how e
       }
 }
 </script>
+
 </svelte:head>
 
 <style lang="scss">

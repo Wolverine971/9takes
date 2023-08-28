@@ -138,9 +138,7 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
         "logo": {
         "@type": "ImageObject",
         "height": 60,
-        "url": {
-          "@id": "https://9takes.com/brand/darkRubix.png"
-        },
+        "url": "https://9takes.com/brand/darkRubix.png",
         "width": 600
         },
         "name": "9takes"
