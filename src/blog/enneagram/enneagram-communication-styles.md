@@ -4,7 +4,7 @@ description: 'Explore the unique communication styles of Enneagram types 1-9. En
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2023-07-26'
+lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -594,7 +594,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course you ar
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-07-25"
+        "@value": "2023-08-27"
       },
       "datePublished": {
         "@type": "Date",
