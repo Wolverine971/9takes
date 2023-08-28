@@ -1498,9 +1498,10 @@
 <!-- <ol>
 	<li> -->
 <div>
+	<h2>Instructions</h2>
 	<p>
-		<b>Instructions</b> Take one minute and write down all the negative emotions that you can think of
-		that are one word, then click submit.
+		Take one minute and write down all the negative emotions that you can think of that are one
+		word, then click submit.
 	</p>
 	<ul>
 		<li>Time yourself for 1 minute</li>

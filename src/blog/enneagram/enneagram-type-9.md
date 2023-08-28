@@ -177,8 +177,6 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-9">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

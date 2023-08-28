@@ -197,8 +197,6 @@ Hope this was helpful for understanding your strengths and weaknesses. Check thi
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",

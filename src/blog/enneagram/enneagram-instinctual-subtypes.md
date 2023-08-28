@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Instinctual Subtypes'
-description: 'Explore the intricacies of Enneagram Instinctual Subtypes—self-preservation, social, and one-to-one. Understand your basic human needs and improve relationships.'
+description: 'Discover the three Enneagram Instinctual Subtypes: self-preservation, social, and one-to-one. Learn how they influence your basic needs and relationships.'
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
@@ -118,8 +118,6 @@ Enneagram subtypes are an essential component of the Enneagram system, providing
 
 <svelte:head>
 
-  <!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",

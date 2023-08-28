@@ -1,7 +1,7 @@
 ---
 title: 'Enneagram Personal Growth'
 # 'Strategies for personal growth and self-improvement based on your Enneagram type'
-description: 'Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering ideal environments, practical tips, and empowering self-talk mantras for each type. Unlock your full potential and embrace self-improvement tailored to you.'
+description: 'Unlock transformative personal growth with the Enneagram. Learn tailored strategies, ideal environments, and empowering self-talk for each Enneagram type.'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
@@ -150,7 +150,6 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personal-growth">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",

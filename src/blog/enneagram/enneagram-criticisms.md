@@ -156,7 +156,6 @@ Enneagram Criticisms (200 words)
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-criticisms">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

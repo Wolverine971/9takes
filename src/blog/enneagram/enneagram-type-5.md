@@ -171,8 +171,6 @@ To help foster personal growth and development for individuals with a Type 5 per
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-5">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

@@ -174,8 +174,6 @@ The Enneagram is not just a tool but a catalyst for creating a more inclusive, e
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/working-in-teams.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-workplace-team-building">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

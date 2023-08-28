@@ -66,8 +66,6 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/religious-books.webp" />
-<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-and-religion">
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

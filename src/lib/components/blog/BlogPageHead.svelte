@@ -38,6 +38,8 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={`https://9takes.com/${slug}`} />
 
+	<meta property="og:image" content={`https://9takes.com/blogs/${data.pic}.webp`} />
+
 	<meta name="description" content={description || title} />
 
 	<meta name="twitter:site" content="@9takesdotcom" />

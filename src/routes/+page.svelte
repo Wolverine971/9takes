@@ -46,7 +46,7 @@
 </script>
 
 <svelte:head>
-	<title>9takes</title>
+	<title>9takes Home Page</title>
 	<meta
 		name="description"
 		content="9takes- Reddit Re-imagined through the Enneagram Lens. Ask questions, give hot takes, talk to real people"

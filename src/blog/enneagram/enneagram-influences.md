@@ -71,8 +71,6 @@ In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-influences">
    <script type="application/ld+json">
 	{
   "@context": "http://schema.org",

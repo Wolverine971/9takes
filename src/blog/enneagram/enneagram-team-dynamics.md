@@ -35,7 +35,6 @@ Time for the obligatory that bettering team dynamics and overall productivity is
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-dynamics">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

@@ -14,8 +14,6 @@ pic: 'enneagram-vs-meyers-briggs'
 ---
 
 <!-- // notes:  -->
-<!-- <meta property="og:image" content="https://9takes.com/blogs/husband-and-wife-arguing.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/introducing-9takes"> -->
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -138,8 +136,6 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs">
 <script type="application/ld+json">
 {
    "@graph":[

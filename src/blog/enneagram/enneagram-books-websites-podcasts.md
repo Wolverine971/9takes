@@ -61,8 +61,6 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts">
 <script type="application/ld+json">
       {
     "@context": "http://schema.org",

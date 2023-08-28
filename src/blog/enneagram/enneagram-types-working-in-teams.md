@@ -176,8 +176,6 @@ Recognizing each type's goals, thinking, and behaviors in different roles within
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/team-building.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-working-in-teams">
 <script type="application/ld+json">
   {
    "@context":"http://schema.org",

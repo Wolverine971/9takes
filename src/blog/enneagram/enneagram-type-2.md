@@ -164,8 +164,6 @@ If you identify as a Type 2 personality, there are a number of things you can do
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-2">
 
 <script type="application/ld+json">
 {

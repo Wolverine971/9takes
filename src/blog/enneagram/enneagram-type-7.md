@@ -155,8 +155,6 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-7">
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",

@@ -123,8 +123,6 @@ The Enneagram is a powerful tool for understanding ourselves and others and can 
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-overview">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [

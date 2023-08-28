@@ -77,8 +77,6 @@ Understanding your Enneagram stress number is essential if you want to thrive in
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/feeling-the-tension.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-stress-number">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",

@@ -164,8 +164,6 @@ previewHtml: ''
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-faqs">
   <script type="application/ld+json">
 {
 	"@context": "http://schema.org",

@@ -224,8 +224,6 @@ As we unravel the final threads in this exploration, it should be clear how diff
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-first-date.webp" />
-<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date">
 <script type="application/ld+json">
 {
    "@context":"http://schema.org",

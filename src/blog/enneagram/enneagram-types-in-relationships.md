@@ -31,8 +31,8 @@ pic: 'greek-statues-on-a-date'
 		image={`/blogs/greek-statues-on-a-date.webp`}
 		showIcon={false}
 		displayText=""
-    altText="greek statues on a date"
-    tint={true}
+      altText="greek statues on a date"
+      tint={true}
 		subtext=""
 	/>
 </div>
@@ -250,8 +250,6 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statues-on-a-date.webp" />
-<link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-relationships">
 <script type="application/ld+json">
 {
    "@context":"http://schema.org",
@@ -260,7 +258,7 @@ If you liked this checkout [how each Enneagram type approaches a first date](/bl
          "@type":"Article",
          "articleBody":"This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
          "creator" : ["DJ Wayne"],
-"author":{
+         "author":{
             "@type":"Person",
             "name":"DJ Wayne",
             "sameAs":[

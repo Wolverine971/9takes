@@ -242,7 +242,6 @@ If you found this guide helpful, join 9takes you don't have to but there is so m
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

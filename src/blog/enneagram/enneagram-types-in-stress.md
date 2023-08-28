@@ -495,7 +495,6 @@ In conclusion, understanding how each Enneagram type responds to stress and the 
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-in-stress">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

@@ -13,12 +13,10 @@
 
 <BlogPageHead
 	data={{ title: '9takes Blog', description: 'List of blogs about the Enneagram and 9takes' }}
-	slug={'/blog'}
+	slug={'blog'}
 />
 
-<svelte:head>
-	<link rel="canonical" href="https://9takes.com/blog" />
-</svelte:head>
+<svelte:head />
 
 <div class="btn-container-right">
 	<button

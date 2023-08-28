@@ -193,8 +193,6 @@ Effective communication is key to building strong relationships with others, and
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statues-arguing.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-tips">
   <script type="application/ld+json">
   {
     "@context": "http://schema.org",

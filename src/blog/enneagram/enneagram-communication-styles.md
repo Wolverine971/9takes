@@ -576,8 +576,6 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. Th
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/communication-styles.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-styles">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [

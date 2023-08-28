@@ -174,8 +174,6 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-type-3">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@graph": [

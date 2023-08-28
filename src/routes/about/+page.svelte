@@ -18,7 +18,7 @@
 </svelte:head>
 
 <div style=" margin:20px;">
-	<h1 style="text-align: center;">About 9takes</h1>
+	<h1 style="text-align: center;">What is 9takes and who is behind it?</h1>
 
 	<p>
 		<b>"Everyone is unique," ✨</b><br />we know that intellectually. But why do some people (not

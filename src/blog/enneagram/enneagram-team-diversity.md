@@ -47,8 +47,6 @@ Leveraging the Enneagram as a tool for building balanced and diverse teams can h
 
 <svelte:head>
 
-<!-- <meta property="og:image" content="" /> -->
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-team-diversity">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

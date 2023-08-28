@@ -157,7 +157,6 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-connecting-lines">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

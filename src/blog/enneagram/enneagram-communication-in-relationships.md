@@ -202,7 +202,6 @@ Time for the obligatory reminder that the Enneagram is not a one-size-fits-all s
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-communication-in-relationships">
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",

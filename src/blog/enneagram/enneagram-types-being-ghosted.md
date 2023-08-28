@@ -247,8 +247,6 @@ In conclusion, ghosting affects individuals differently, and understanding how e
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/greek-statue-being-ghosted.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-being-ghosted">
   <script type="application/ld+json">
   {
   "@context": "http://schema.org",

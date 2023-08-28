@@ -15,7 +15,7 @@
 		subtext={''}
 		aspectRatio={''}
 	>
-		<p class="jumbo-name bold-shadow " data-value={'The Blog'}>{'The Blog'}</p>
+		<h1 class="jumbo-name bold-shadow " data-value={'The Blog'}>{'The Blog'}</h1>
 	</Jumbotron>
 {/if}
 <slot />

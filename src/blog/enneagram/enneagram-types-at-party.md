@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram types and Party Dynamics: What is the Unique Behavior of Each Enneagram Type'
+title: 'Enneagram types and Party Dynamics: The Unique Behavior of Each Enneagram Type'
 description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'
@@ -154,8 +154,6 @@ Each type has its unique characteristics and motivations for attending the party
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statues-party-vibes.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-types-at-party">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

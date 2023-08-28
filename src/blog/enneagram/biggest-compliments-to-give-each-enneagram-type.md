@@ -310,8 +310,6 @@ I hope this post resonates with your audience and encourages registrations for 9
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statue-yeah-boi.webp" />
-<link rel="canonical" href="https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type">
 <script type="application/ld+json">
 {
    "@context":"http://schema.org",

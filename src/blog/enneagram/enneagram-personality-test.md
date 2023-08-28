@@ -109,7 +109,6 @@ For now read the types and determine which if any you identify with. More to com
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-personality-test">
 <script type="application/ld+json">
   {
   "@context": "http://schema.org",

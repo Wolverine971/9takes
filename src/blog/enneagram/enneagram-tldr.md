@@ -53,7 +53,6 @@ By understanding your Enneagram type, you can gain insight into your strengths a
 
 <svelte:head>
 
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-tldr">
   <script type="application/ld+json">
     {
   "@context": "http://schema.org",

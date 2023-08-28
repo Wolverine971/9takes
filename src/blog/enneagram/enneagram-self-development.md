@@ -68,8 +68,6 @@ In using the Enneagram as a tool for personal growth and self-improvement, it's 
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/greek-statue-reading.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/enneagram-self-development">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",

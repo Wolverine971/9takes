@@ -105,8 +105,6 @@ In essence, the Enneagram offers a framework for personal development that is de
 
 <svelte:head>
 
-  <meta property="og:image" content="https://9takes.com/blogs/freud-plato.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram">
 <script type="application/ld+json">{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
