@@ -94,7 +94,7 @@ The complexity of Khloé Kardashian’s personality becomes more nuanced when vi
 
 What does this perspective reveal about Khloé Kardashian beyond the glittering façade of reality TV? Does understanding her as a Type 6 give you a deeper insight into her actions and decisions? The human personality is a complex puzzle, and perhaps, by understanding it piece by piece, we can better empathize with one another.
 
-Curious about the personalities of other famous individuals? Interested in seeing them through the lens of the Enneagram? Dive deeper, explore more, and join us at 9takes, a community that values introspective exploration of personalities and viewpoints. Together, let's unravel the layers of the human psyche, one personality at a time. Sign up below ⬇️.
+Curious about the personalities of other famous individuals? Interested in seeing them through the lens of the Enneagram? Dive deeper, explore more, and join 9takes below ⬇️. The decision is yours but there is so much more to explore. 🚀
 
 <svelte:head>
 

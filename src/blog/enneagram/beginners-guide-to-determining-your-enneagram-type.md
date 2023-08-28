@@ -238,7 +238,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 
 You now have a tool to better understand your thought patterns, emotions, and behaviors. Use what serves you, and disregard what does not but maybe come back to it later. It's not just about personal development; it's also about understanding others and having empathy in understanding how they became who they are.
 
-If you found this guide helpful, join 9takes you don't have to but there is so much more to explore with the Enneagram!
+If you found this guide helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

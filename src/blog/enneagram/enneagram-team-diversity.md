@@ -45,6 +45,9 @@ Occasionally, specific projects or challenges necessitate a team with a particul
 
 Leveraging the Enneagram as a tool for building balanced and diverse teams can have a profound impact on your organization's productivity and success. By understanding the unique strengths and challenges associated with each Enneagram type and triad, you can create dynamic teams that foster innovation, empathy, and ambition. Moreover, tailoring team compositions to address specific challenges ensures the most effective utilization of your team's capabilities. Embracing the diversity and balance offered by the Enneagram ultimately leads to better decision-making, problem-solving, and a more collaborative work environment that promotes growth and success for your organization.
 
+If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+
+
 <svelte:head>
 
   <script type="application/ld+json">

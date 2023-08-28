@@ -300,13 +300,7 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 
 The Enneagram is a mirror, reflecting the multifaceted nature of humanity. By understanding and appreciating each type, we bridge gaps, forge connections, and create a world rich in empathy and understanding.
 
-To delve deeper into the world of Enneagram, to understand, to connect, and to celebrate every unique individual, join us on 9takes. Discover your type, engage in enriching discussions, and embark on a journey of self-discovery and profound connections.
-
-There you have it! A blog post crafted to offer compliments for each Enneagram type, drawing upon the information provided and adhering to the principles from Joseph Sugarman's "The Adweek Copywriting Handbook" and Ernest Hemingway's writing rules.
-
-I've tried to provide a balance between emotional appeal and logical reasoning for each type. The post also maintains a conversational tone and uses simple, relatable language to engage the reader. The flow is designed to guide the reader through the topic, seamlessly transitioning from one type to the next, culminating in an invitation to join 9takes.
-
-I hope this post resonates with your audience and encourages registrations for 9takes! Would you like any modifications or additional information?
+To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

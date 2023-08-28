@@ -124,7 +124,7 @@ Identify shared goals and values. This common ground will serve as the [foundati
 
 Conflict in relationships is inevitable, but it doesn't have to be destructive. By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. Remember, the goal isn't to win the argument but to strengthen the relationship.
 
-I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding conflict
+I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding conflict.
 
 ### Footnotes/ References
 

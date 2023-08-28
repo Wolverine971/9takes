@@ -55,23 +55,23 @@ If you're a Type 5, your stress number is Type 7. Type 7s are enthusiastic, adve
 
 Let's take a closer look at each Enneagram type's stress number and what it means for them:
 
-Type 1: Your stress number is Type 4. Type 4s are creative, emotional, and intuitive. When you're under stress, you might become moody, depressed, and isolate yourself from others. You might also become more self-critical and judgmental, as well as have difficulty accepting and expressing your emotions.
+**Type 1**: Your stress number is Type 4. Type 4s are creative, emotional, and intuitive. When you're under stress, you might become moody, depressed, and isolate yourself from others. You might also become more self-critical and judgmental, as well as have difficulty accepting and expressing your emotions.
 
-Type 2: Your stress number is Type 8. Type 8s are powerful, assertive, and confrontational. When you're under stress, you might become more aggressive and controlling, as well as overprotective and demanding of others. You might also struggle with feeling unappreciated or neglected by those around you.
+**Type 2**: Your stress number is Type 8. Type 8s are powerful, assertive, and confrontational. When you're under stress, you might become more aggressive and controlling, as well as overprotective and demanding of others. You might also struggle with feeling unappreciated or neglected by those around you.
 
-Type 3: Your stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. When you're under stress, you might become more withdrawn and passive, as well as avoidant and indecisive. You might also struggle with feeling unimportant or insignificant in the eyes of others.
+**Type 3**: Your stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. When you're under stress, you might become more withdrawn and passive, as well as avoidant and indecisive. You might also struggle with feeling unimportant or insignificant in the eyes of others.
 
-Type 4: Your stress number is Type 2. Type 2s are generous, caring, and nurturing. When you're under stress, you might become more emotionally needy and dependent on others, as well as manipulative and controlling in your relationships. You might also struggle with feeling unlovable or inadequate.
+**Type 4**: Your stress number is Type 2. Type 2s are generous, caring, and nurturing. When you're under stress, you might become more emotionally needy and dependent on others, as well as manipulative and controlling in your relationships. You might also struggle with feeling unlovable or inadequate.
 
-Type 5: Your stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When you're under stress, you might become more impulsive and more easily distracted, as well as struggle with feeling overwhelmed and out of control. You might also have difficulty focusing on one thing at a time and making decisions.
+**Type 5**: Your stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When you're under stress, you might become more impulsive and more easily distracted, as well as struggle with feeling overwhelmed and out of control. You might also have difficulty focusing on one thing at a time and making decisions.
 
-Type 6: Your stress number is Type 3. Type 3s are ambitious, competitive, and driven. When you're under stress, you might become more obsessed with success and achievement, as well as competitive and envious of others. You might also struggle with feeling anxious and insecure about your abilities and worth.
+**Type 6**: Your stress number is Type 3. Type 3s are ambitious, competitive, and driven. When you're under stress, you might become more obsessed with success and achievement, as well as competitive and envious of others. You might also struggle with feeling anxious and insecure about your abilities and worth.
 
-Type 7: Your stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When you're under stress, you might become more critical and judgmental of yourself and others, as well as rigid and inflexible in your thinking. You might also struggle with feeling anxious and overwhelmed by the demands of life.
+**Type 7**: Your stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When you're under stress, you might become more critical and judgmental of yourself and others, as well as rigid and inflexible in your thinking. You might also struggle with feeling anxious and overwhelmed by the demands of life.
 
-Type 8: Your stress number is Type 5. Type 5s are analytical, independent, and private. When you're under stress, you might become more withdrawn and isolated from others, as well as cold and distant in your relationships. You might also struggle with feeling vulnerable and helpless in the face of challenges.
+**Type 8**: Your stress number is Type 5. Type 5s are analytical, independent, and private. When you're under stress, you might become more withdrawn and isolated from others, as well as cold and distant in your relationships. You might also struggle with feeling vulnerable and helpless in the face of challenges.
 
-Type 9: Your stress number is Type 6. Type 6s are loyal, responsible, and anxious. When you're under stress, you might become more fearful and paranoid, as well as indecisive and hesitant. You might also struggle with feeling uncertain and insecure about the future.
+**Type 9**: Your stress number is Type 6. Type 6s are loyal, responsible, and anxious. When you're under stress, you might become more fearful and paranoid, as well as indecisive and hesitant. You might also struggle with feeling uncertain and insecure about the future.
 
 Understanding your Enneagram stress number is essential if you want to thrive in life. By recognizing your place of stress and the toxic behaviors and emotions associated with it, you can learn to manage your stress better and develop healthy coping mechanisms. Additionally, understanding other people's Enneagram types can help you build stronger relationships and communicate more effectively
 

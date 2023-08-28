@@ -181,7 +181,7 @@ Does understanding her potential enneagram type change your perception of her? C
 
 People, least of all Robbie, are intricate puzzles of emotions and actions. Our perspectives on people and their personalities are not static; they evolve with every new understanding we gain. If this exploration of Margot Robbie's personality intrigues you, consider joining our community at 9takes, where we delve deeper into the world of personalities.
 
-The more we understand about people, the richer our interactions and experiences become. So, why not dive in and explore? Sign up below ⬇️, and join 9takes. Together, let's discover more about the fascinating world of human personalities, one take at a time.
+The more we understand about people, the richer our interactions and experiences become. So, why not dive in and explore? Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

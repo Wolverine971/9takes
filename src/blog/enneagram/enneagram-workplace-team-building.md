@@ -168,9 +168,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 </article>
 
-## Conclusion
+## Wrapping up
 
 The Enneagram is not just a tool but a catalyst for creating a more inclusive, efficient, and harmonious workplace. By understanding each team member's unique personality type, you unlock the door to a realm of possibilities—better communication, stronger collaboration, and a work environment that feels like home to everyone.
+
+If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

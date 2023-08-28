@@ -193,7 +193,7 @@ Let's take a look at common energizers and drainers for each Enneagram type and 
 
 ## Wrap up
 
-Hope this was helpful for understanding your strengths and weaknesses. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>.
+Hope this was insightful. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" >self development and personal growth</a>. Also, if you did find this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

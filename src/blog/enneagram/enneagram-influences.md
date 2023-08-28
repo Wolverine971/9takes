@@ -67,7 +67,10 @@ Another school of thought when it comes to the Enneagram is the integrative trad
 
 ## Wrapping Up
 
-In conclusion, the Enneagram is an ancient tool for self-discovery and spiritual growth that has evolved over time through the contributions of different schools of thought. The Sufi tradition, Gurdjieff's work, Ichazo's teachings, and Naranjo's legacy have all influenced the development of the Enneagram as we know it today. Moreover, ancient philosophy and early psychology have also contributed to the Enneagram's evolution. Modern interpretations of the Enneagram, such as the Narrative Tradition, provide insight into the Enneagram's nine personality types and how they relate to personal growth and relationships. These different schools of thought show that people have been circling around and wrestling with these ideas for a long time and there is so much to discover.
+The Enneagram is an ancient tool that has evolved over time through the contributions of different schools of thought. Both ancient philosophy and early psychology have contributed to the Enneagram's evolution. Modern interpretations of the Enneagram, such as the Narrative Tradition, provide insight into the Enneagram's nine personality types and how they relate to personal growth and relationships. These different schools of thought show that people have been wrestling with these ideas for a long time and there is so much to discover.
+
+If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we like we said, there is so much more to explore. 🚀
+
 
 <svelte:head>
 

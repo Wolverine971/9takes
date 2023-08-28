@@ -122,7 +122,7 @@ However, human nature is intricate and one perspective isn't definitive. What ad
 
 In a world increasingly connected, yet paradoxically divided, understanding one another goes beyond mere curiosity - it fosters empathy, encourages dialogue, and can help bridge seemingly insurmountable gaps.
 
-Join the exploration. Let's discover together. Sign up below ⬇️ and be a part of 9takes, a community that thrives on introspective exploration of personalities and perceptions. Let's journey together, unveiling one personality layer at a time.
+Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

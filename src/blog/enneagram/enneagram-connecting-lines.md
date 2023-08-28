@@ -155,6 +155,9 @@ Stress/ Disintegration **(Moving to Type Six)**: Under stress, Nines can resembl
 
 Understanding the dynamics of the Enneagram can provide valuable insights into our behaviors and how they change under different circumstances. It can help us navigate our paths of growth and manage our stress responses more effectively. Remember, the Enneagram is not just about identifying our type, but also about understanding the dynamic nature of our personalities and using this understanding for personal growth and improved relationships.
 
+If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+
+
 <svelte:head>
 
 <script type="application/ld+json">

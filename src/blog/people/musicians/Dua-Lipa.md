@@ -142,7 +142,7 @@ However, the Enneagram, as any personality system, offers just one of many ways 
 
 Does viewing Dua Lipa through the lens of the Enneagram Type 3 give you a deeper understanding of her motivations, her drive, and her resilience? With her unique approach to fame and success, how does her Type 3 personality help shape your perception of her?
 
-If you are intrigued by this exploration of Dua Lipa's personality and wish to dive deeper into the fascinating world of the Enneagram and personality analysis, you're in the right place. Sign up below ⬇️ and join our community at 9takes. Here, we delve into the diverse world of personalities, exploring different viewpoints and uncovering fresh insights. Together, let's peel back the layers, one personality at a time.
+If you are intrigued by this exploration of Dua Lipa's personality and wish to dive deeper into the fascinating world of the Enneagram and personality analysis, you're in the right place. Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

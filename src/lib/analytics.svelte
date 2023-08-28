@@ -35,7 +35,7 @@
 		rel="preload"
 		as="script"
 	/>
-	<script async>
+	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() {
 			dataLayer.push(arguments);

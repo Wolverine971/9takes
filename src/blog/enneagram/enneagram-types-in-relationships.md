@@ -248,6 +248,8 @@ There are near infinite possibilities for how a person can think, feel and behav
 
 If you liked this checkout [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
 
+Also, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+
 <svelte:head>
 
 <script type="application/ld+json">
