@@ -1,14 +1,14 @@
 ---
-title: 'Alex Cooper An Enneagram Type 3'
-description: 'Why Alex Cooper appears to be a type 3'
+title: 'Alex Cooper An Enneagram Type 7'
+description: 'Why Alex Cooper appears to be a type 7'
 author: 'DJ Wayne'
-date: '2023-06-21'
+date: '2023-08-29'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Alex-Cooper'
-lastmod: '2023-06-21'
+lastmod: '2023-08-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
-enneagram: 3
+published: true
+enneagram: 7
 type: ['creator']
 person: 'Alex-Cooper'
 wikipedia: ''
@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">You've heard her voice, you've seen her Instagram, and you've probably even laughed along with her on the "Call Her Daddy" podcast. But who really is Alex Cooper? What drives her, and what makes her the captivating personality that she is? Let's delve into the world of Enneagram to explore the facets of her personality that make her so intriguing.</p>
+
+> **Disclaimer** This analysis of Alex Cooper's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -29,51 +34,204 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Alex-Cooper'}.webp`}
+		image={`/types/7s/${'Alex-Cooper'}.webp`}
 		showIcon={false}
 		displayText="Alex Cooper"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of Alex Cooper's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
-
 <details>
-<summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram type 7</summary>
 <div class="panel">
 <ul>
-<li>
+<li><b>The Adventurous Podcaster</b>: When you think of Alex Cooper, her podcast "Call Her Daddy" probably comes to mind. The show's eclectic mix of topics and her zest for exploring new experiences make her a quintessential Type 7. This type is known for their love of adventure and variety, traits that Alex embodies through her ever-evolving podcast.
 </li>
-<li>
+<li><b>The Inner World of Alex Cooper</b>: While Alex is known for her extroverted personality, what many may not see is her constant search for fulfillment and avoidance of pain, typical of a Type 7. She likely spends her days not just working but also seeking new opportunities and experiences that promise emotional satisfaction, whether it's a new podcast topic or a social event.
 </li>
-<li>
+<li><b>Navigating Controversies</b>: Alex has faced her share of controversies, most notably her public feud with former co-host Sofia Franklyn. This controversy can be tied back to a Type 7's core fear of being trapped or limited, leading to decisions that prioritize personal freedom. While the situation was messy, understanding her Type 7 tendencies can help us empathize with her choices.
 </li>
-<li>
+<li><b>Core Motivation</b>: At the heart of all her actions is Alex's core Type 7 motivation: the desire for freedom and happiness. Whether it's securing a lucrative Spotify deal or branching out into new ventures like The Unwell Network, all her actions can be traced back to this fundamental drive.
 </li>
 </ul>
-  </div>
+</div>
 </details>
 
-<p class="firstLetter"></p>
+## What is Alex Cooper's Personality Type?
+
+With her zest for life and insatiable curiosity, Alex seems to gives off Enneagram Type 7 energy, which is known as "The Enthusiast."
+
+### Characteristics of Enneagram Type 7
+
+Type 7 individuals are extroverted, optimistic, and spontaneous. They are the life of the party and are always seeking new experiences. However, their constant search for excitement can sometimes lead them to avoid facing their inner fears and anxieties.
+
+## Why Alex Cooper Could Be a Type 7
+
+### A Life in the Spotlight
+
+Alex was born on August 21, 1994, in Newtown, Pennsylvania. Growing up, she was active in sports and even received a scholarship to Boston University for women's soccer. Her father, a former hockey player, might have been an influence in shaping her competitive and adventurous spirit. But did you know that Alex's first media job was as an anchor for Dirty Water Media in 2016? She's always had a knack for grabbing attention.
+
+### The Adventurous Podcaster: A Glimpse into Alex Cooper's World
+
+"Call Her Daddy," created by Alex Cooper and Sofia Franklyn in 2018, is more than just a podcast; it's a reflection of Alex's adventurous spirit. Initially focusing on relationships and sex, the show has evolved to cover a broader spectrum, including women's rights and mental health. This adaptability is a hallmark of a Type 7 Enneagram, who thrives on new experiences.
+
+After securing a $60 million deal with Spotify and being labeled the female [Joe Rogan](/blog/famous-enneagram-types/Joe-Rogan), Alex took the podcast in a fresh direction. She aims to inspire her audience, especially women, by sharing personal stories and expert advice. Her willingness to explore diverse topics and adapt resonates strongly with the characteristics of a Type 7, who is always looking for the next exciting venture.
+
+Beyond the podcast, Alex has also launched [The Unwell Network](https://www.instagram.com/unwell/), collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
+
+In essence, "Call Her Daddy" serves as a mirror to Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities.
+
+### Handling Controversies with Optimism
+
+Alex Cooper, host of the "Call Her Daddy" podcast, has faced several controversies, most notably her public feud with former co-host Sofia Franklyn and disputes with Barstool Sports. Cooper's approach to handling these controversies has been marked by a blend of transparency, strategic decision-making, and optimism.
+
+She took to her platform to openly discuss the issues, providing her side of the story to maintain a connection with her audience. This transparency helped her gain public support, turning potential setbacks into opportunities for growth. Cooper also made strategic moves, such as negotiating a new contract with Barstool Sports that gave her full creative control, thereby turning a contentious situation into a win-win outcome.
+
+Her optimistic outlook has been a key factor in navigating these challenges. Instead of dwelling on the negatives, Cooper focuses on the lessons learned and the opportunities that arise from difficult situations. This mindset has not only helped her maintain her brand's integrity but also allowed her to grow both personally and professionally.
+
+### The Social Butterfly
+
+Alex Cooper is more than just a podcaster; she's a social butterfly who thrives on meaningful conversations. This aligns perfectly with her Enneagram Type 7 personality, known for being extroverted and enthusiastic. Her podcast episodes often delve into personal stories and controversial topics, showcasing her love for interviews and gossip.
+
+Alex's social reach extends to friendships with celebrities like [Miley Cyrus](/blog/famous-enneagram-types/Miley-Cyrus) and [Emily Ratajkowski](/blog/famous-enneagram-types/Emily-Ratajkowski). In a podcast episode with Emily, Alex discusses her image, personal relationship with sex, and her decision to tackle political issues. This conversation reflects her Type 7 traits, emphasizing the importance of having a voice and expressing herself openly.
 
 ## How Each Enneagram Type Perceives Alex Cooper
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Alex Cooper:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Alex:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** -
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
+<article>
+	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <p>The Perfectionist might have a mixed bag of feelings about Alex Cooper. On one hand, they would admire her work ethic, dedication, and the empire she's built around her podcast. However, they could also be critical of the controversial topics she often dives into on "Call Her Daddy." The thought might cross their mind: "She's successful, but does she have to be so edgy?"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <p>The Helper would likely find Alex Cooper endearing for her openness and her ability to discuss sensitive topics like relationships and mental health. They might think, "I love how she's helping people by talking openly about things that are often considered taboo. She's using her platform for good."</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <p>The Achiever would be thoroughly impressed by Alex Cooper's career milestones, especially her lucrative Spotify deal. They would see her as a role model for turning passion into a profession. The common thought would be, "Wow, she turned a podcast into a multi-million dollar deal. That's the kind of success I aspire to!"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <p>The Individualist may have a love-hate relationship with Alex Cooper. They would resonate with her unique style and the way she stands out in the podcasting world. However, they might also find her too mainstream or commercial, questioning her authenticity. They might ponder, "She's different, but is she authentic enough for my taste?"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <p>The Investigator would be intrigued by Alex Cooper's wide range of topics and her ability to engage her audience. However, they might question the depth of her discussions, wondering if she skims the surface rather than diving deep into issues. The thought could be, "She covers a lot of topics, but how deep does she really go? Is it all for show?"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <p>The Loyalist could be skeptical about Alex Cooper's quick rise to fame and her ever-changing list of topics and guests. They might appreciate her success but question her consistency and reliability. The common thought might be, "She's popular, but can she be trusted? What does she really stand for?"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <p>The Enthusiast would likely see a kindred spirit in Alex Cooper. They would admire her zest for life, her adventurous spirit, and her ability to make any topic entertaining. They might think, "She's living the dream—exploring new things, meeting new people, and having a blast while doing it. What's not to love?"</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <p>The Challenger would probably respect Alex Cooper's assertiveness and her ability to take control of her career, especially during controversies. They would appreciate her no-nonsense approach to tackling issues head-on, whether it's renegotiating contracts or addressing public feuds. The thought might be, "She's got guts and isn't afraid to take charge. That's commendable."</p>
+</article>
+<article>
+	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <p>The Peacemaker might find Alex Cooper's energetic and sometimes controversial style a bit overwhelming. However, they would likely appreciate her efforts to cover a variety of topics and appeal to a broad audience. The common thought could be, "She's a bit much for me, but I can see why people like her. She brings different perspectives to the table."</p>
+</article>
+
+## Wrapping up
+
+From her adventurous spirit and love for new experiences to her ability to navigate controversies, Alex embodies the essence of a Type 7 in many ways. Her actions, whether they're career milestones or personal choices, can be traced back to her core motivation for freedom and happiness.
+
+If this was interesting to you I encourage you to join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 
 <script type="application/ld+json">
-
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article explores the personality traits of Alex Cooper from the perspective of the Enneagram Type 7. Known for her adventurous spirit, love for new experiences, and ability to adapt, Alex embodies many characteristics of Type 7 personalities. The article discusses various facets of Alex's life and career that demonstrate her Type 7 characteristics, including her podcasting journey, inner world, controversies, and core motivations.",
+      "creator" : ["DJ Wayne"],
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-08-29"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-08-29"
+      },
+      "description": "This blog post examines the reasons why Alex Cooper might be an Enneagram Type 7. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 7.",
+      "headline": "Alex Cooper's Personality: An Enneagram Type 7",
+      "image": {
+        "@type": "ImageObject",
+        "height": 800,
+        "url": "https://9takes.com/types/7s/Alex-Cooper.webp",
+        "width": 1200
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Alex-Cooper",
+        "@type": "WebPage"
+      },
+      "mentions": {
+        "@type": "Person",
+        "name": "Alex Cooper",
+        "sameAs": ["https://en.wikipedia.org/wiki/Call_Her_Daddy", "https://twitter.com/alexandracooper", "https://www.instagram.com/alexandracooper/"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alex Cooper exhibits many characteristics associated with Enneagram Type 7 personalities. This includes her adventurous spirit, love for new experiences, and ability to adapt. These characteristics are deeply rooted in her desire for freedom and happiness, which is a core motivation for Type 7 individuals."
+          },
+          "name": "Why is Alex Cooper considered an Enneagram Type 7?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alex's success in podcasting, her influential social media presence, and her ability to navigate public controversies are all indicative of her Type 7 personality. Moreover, her constant pursuit of new ventures and her dedication to her personal image also reflect the strengths and growth potential of Type 7 individuals."
+          },
+          "name": "What are some examples of Alex Cooper's Type 7 characteristics?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alex Cooper is well-known for her adventurous and outgoing personality. She is enthusiastic, open-minded, and tends to be in the public eye often. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
+          },
+          "name": "What is Alex Cooper's personality?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alex Cooper is an Enneagram type 7, also known as The Enthusiast. This Enneagram type is adventurous, adaptable, and driven, often motivated by a desire for freedom and happiness. Please note that this information is based on public information and not directly confirmed by Alex Cooper herself."
+          },
+          "name": "What is Alex Cooper's Enneagram type?"
+        }
+      ]
+    }
+  ]
+}
 </script>
 
 </svelte:head>

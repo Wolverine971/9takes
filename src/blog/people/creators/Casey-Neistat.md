@@ -172,7 +172,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 Now, how does this exploration enhance your understanding of Neistat as a creative artist? Does viewing him through the Enneagram 4 lens provide a fresh perspective on his motivations and actions? Perhaps, there's a value in understanding our icons not just through their work, but also through their personality type.
 
-If this was interesting to you I encourage you to sign up for '9takes' ⬇️. Stay tuned for more blogs, diving deeper into other personalities.
+If this was interesting to you I encourage you to join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 
 <svelte:head>
 

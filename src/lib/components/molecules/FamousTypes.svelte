@@ -79,7 +79,6 @@
 			{ name: 'Mark-Twain', link: false },
 			{ name: 'Prince-Harry', link: true },
 			{ name: 'Peter-Thiel', link: false },
-
 			{ name: 'Malcom-X', link: false },
 			{ name: 'Khloe-Kardashian', link: true }
 		],
@@ -87,7 +86,8 @@
 			{ name: 'Logan-Paul', link: true },
 			{ name: 'Elton-John', link: true },
 			{ name: 'Britney-Spears', link: false },
-			{ name: 'Jon-Stewart', link: false },
+			{ name: 'Jon-Stewart', link: true },
+			{ name: 'Alex-Cooper', link: true },
 			{ name: 'John-F-Kennedy', link: true },
 			{ name: 'Miley-Cyrus', link: true },
 			{ name: 'Kanye', link: true },

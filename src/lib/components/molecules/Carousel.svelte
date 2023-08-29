@@ -87,6 +87,7 @@
 			'Kanye',
 			'Elton-John',
 			'Jon-Stewart',
+			'Alex-Cooper',
 			'Britney-Spears',
 			'John-F-Kennedy',
 			'Miley-Cyrus',
