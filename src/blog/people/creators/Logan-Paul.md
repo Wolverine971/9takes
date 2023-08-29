@@ -134,7 +134,7 @@ To explore more captivating personalities and gain a deeper understanding of the
       "mentions": {
         "@type": "Person",
         "name": "Logan Paul",
-        "sameAs": ["https://en.wikipedia.org/wiki/Logan_Paul", "https://twitter.com/LoganPaul", "https://www.instagram.com/loganpaul", https://www.tiktok.com/@loganpaul"]
+        "sameAs": ["https://en.wikipedia.org/wiki/Logan_Paul", "https://twitter.com/LoganPaul", "https://www.instagram.com/loganpaul", "https://www.tiktok.com/@loganpaul"]
       },
       "publisher": {
         "@type": "Organization",

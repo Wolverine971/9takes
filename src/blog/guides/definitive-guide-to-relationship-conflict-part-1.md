@@ -171,8 +171,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
         "@type": "Person",
         "name": "Tony Robbins",
         "sameAs": ["https://www.tonyrobbins.com/", "https://en.wikipedia.org/wiki/Tony_Robbins"]
-      }
-      ],
+      }],
       "publisher": {
         "@type": "Organization",
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
