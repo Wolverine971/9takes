@@ -21,9 +21,7 @@
 		isOpen = false;
 	});
 
-	console.log('mounted');
 	onMount(() => {
-		console.log('mounted2');
 		document.addEventListener('click', handleClickOutside);
 		innerWidth = window.innerWidth;
 		isLoading = false;

@@ -60,7 +60,7 @@ cwebp -sns 70 -f 50 -size 20000 "greek-statues-working-in-teams.webp" -o "C:/Use
 
 ### fix image size
 
-https://www.youtube.com/watch?v=fp9eVtkQ4EA
+[link](https://www.youtube.com/watch?v=fp9eVtkQ4EA)
 
 <!--
 ## transitions

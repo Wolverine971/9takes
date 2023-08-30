@@ -47,6 +47,10 @@
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
 
+	<!-- <meta property="article:publisher" content="https://www.facebook.com/yoast" />
+	<meta property="article:published_time" content="2023-02-23T12:00:00+00:00" />
+	<meta property="article:modified_time" content="2023-02-23T13:03:10+00:00" /> -->
+
 	<link rel="canonical" href={`https://9takes.com/${slug}`} />
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

@@ -10,6 +10,7 @@ specifiers:
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/adapter-node': ^1.2.0
   '@sveltejs/adapter-vercel': ^2.4.3
+  '@sveltejs/amp': ^1.0.2
   '@sveltejs/kit': ^1.5.0
   '@types/cookie': ^0.5.1
   '@types/gsap': ^3.0.0
@@ -23,6 +24,7 @@ specifiers:
   autoprefixer: ^10.4.2
   axios: ^1.2.2
   dotenv: ^16.0.3
+  dropcss: ^1.0.16
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -63,11 +65,13 @@ specifiers:
 dependencies:
   '@elastic/elasticsearch': 8.6.0
   '@sveltejs/adapter-node': 1.2.1_@sveltejs+kit@1.10.0
+  '@sveltejs/amp': 1.0.2_@sveltejs+kit@1.10.0
   '@types/gsap': 3.0.0
   '@types/node-schedule': 2.1.0
   '@vavite/node-loader': 1.7.0_vite@4.3.5
   '@vercel/analytics': 0.1.11
   dotenv: 16.0.3
+  dropcss: 1.0.16
   googleapis: 114.0.0
   gsap: 3.12.1
   mermaid: 10.0.0-rc.3
@@ -869,6 +873,14 @@ packages:
       - encoding
       - supports-color
     dev: true
+
+  /@sveltejs/amp/1.0.2_@sveltejs+kit@1.10.0:
+    resolution: {integrity: sha512-RAJLkZS6oYyF9T2ww/4QyUj3YDqnDIc2tFFi6WJ0EceLrmx107SNEhrhvTUCxECu5oIcA2s9GJtvaBplnjouWQ==}
+    peerDependencies:
+      '@sveltejs/kit': ^1.0.0
+    dependencies:
+      '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.3.5
+    dev: false
 
   /@sveltejs/kit/1.10.0_svelte@3.55.1+vite@4.3.5:
     resolution: {integrity: sha512-0P35zHrByfbF3Ym3RdQL+RvzgsCDSyO3imSwuZ67XAD5HoCQFF3a8Mhh0V3sObz3rc5aJd4Qn82UpAihJqZ6gQ==}
@@ -2186,6 +2198,10 @@ packages:
   /dotenv/16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
+    dev: false
+
+  /dropcss/1.0.16:
+    resolution: {integrity: sha512-QgA6BUh2SoBYE/dSuMmeGhNdoGtGewt3Rn66xKyXoGNyjrKRXf163wuM+xeQ83p87l/3ALoB6Il1dgKyGS5pEw==}
     dev: false
 
   /ecdsa-sig-formatter/1.0.11:
