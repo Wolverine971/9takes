@@ -602,6 +602,12 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course you ar
       },
       "description": "Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.",
       "headline": "Enneagram Communication Styles",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/two-female-greek-statues-having-a-conversation.webp",
+        "width": 900
+      },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-communication-styles",
         "@type": "WebPage"

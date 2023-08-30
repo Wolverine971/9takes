@@ -518,6 +518,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
         "@type": "Thing",
         "name": "Enneagram"
       },
+      "image":{
+        "@type":"ImageObject",
+        "height":900,
+        "url": "https://9takes.com/blogs/feeling-stressed.webp",
+        "width":900
+      },
   "publisher": {
         "@type": "Organization",
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],

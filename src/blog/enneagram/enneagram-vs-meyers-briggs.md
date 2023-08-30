@@ -163,9 +163,9 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
          "headline":"Enneagram vs Myers-Briggs: A Comprehensive Exploration",
          "image":{
             "@type":"ImageObject",
-            "height":800,
+            "height":810,
             "url": "https://9takes.com/blogs/enneagram-vs-meyers-briggs.webp",
-            "width":1200
+            "width":1450
          },
          "mainEntityOfPage":{
             "@id":"https://9takes.com/blog/enneagram/enneagram-vs-mbti",

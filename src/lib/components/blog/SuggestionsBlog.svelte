@@ -39,6 +39,7 @@
 		font-weight: 400;
 		line-height: 20px;
 		color: #666666;
+		word-break: break-word;
 
 		&.small {
 			font-size: 14px;
@@ -129,14 +130,6 @@
 	@media all and (max-width: 576px) {
 		.suggestion-link {
 			max-width: none;
-		}
-		.column {
-			display: flex;
-			flex-direction: column;
-			flex-basis: 100%;
-			width: 100%;
-			flex: 1;
-			align-items: center;
 		}
 	}
 </style>

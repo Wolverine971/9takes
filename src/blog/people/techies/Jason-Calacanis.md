@@ -54,7 +54,7 @@ tiktok:
 
 ## Jason Calacanis: An Embodiment of The Achiever?
 
-Internationally recognized entrepreneur, angel investor, and host of the "This Week in Startups" podcast, Jason Calacanis, has left an indelible imprint on the tech industry. But what could be the driving force behind his accomplishments? Could it be an inherent yearning to feel valuable and worthwhile, characteristic of the Enneagram Type 3 - The Achiever?
+Internationally recognized entrepreneur, angel investor, and host of the "[This Week in Startups](https://www.youtube.com/c/thisweekin)" podcast, Jason Calacanis, has left an indelible imprint on the tech industry. But what could be the driving force behind his accomplishments? Could it be an inherent yearning to feel valuable and worthwhile, characteristic of the Enneagram Type 3 - The Achiever?
 
 ### The Achiever: An Overview
 
@@ -64,7 +64,7 @@ When stressed or disintegrated, Threes may become disengaged and apathetic, akin
 
 ## Jason Calacanis: Tracing The Achiever's Path
 
-In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from Weblogs Inc to Mahalo, stand testament to his ambition and competence. He is a self-proclaimed "hustler," striving relentlessly towards his goals, embodying the Achiever's drive for advancement.
+In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from [Weblogs Inc](https://en.wikipedia.org/wiki/Weblogs,_Inc.) to [Mahalo](https://en.wikipedia.org/wiki/Mahalo.com), stand testament to his ambition and competence. He is a self-proclaimed "hustler," striving relentlessly towards his goals, embodying the Achiever's drive for advancement.
 
 ### The Charmer and The Professional
 
@@ -167,14 +167,14 @@ If you want to dive deeper into the world of the Enneagram sign up below. We wil
       "mentions": {
         "@type": "Person",
         "name": "Jason Calacanis",
-        "sameAs": ["https://en.wikipedia.org/wiki/Jason_Calacanis","https://twitter.com/Jason"
+        "sameAs": ["https://en.wikipedia.org/wiki/Jason_Calacanis", "https://twitter.com/Jason"
         ]
       },
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/3s/Jason-Calacanis.webp",
-        "width": 1200
+        "width": 900
       },
       "publisher": {
         "@type": "Organization",

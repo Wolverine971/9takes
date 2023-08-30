@@ -204,9 +204,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
    "headline":"Understanding how different Enneagram types work together in teams",
    "image":{
       "@type":"ImageObject",
-      "height":"630",
+      "height":"900",
       "url":"https://9takes.com/blogs/greek-statues-building-a-boat.webp",
-      "width":"1200"
+      "width":"900"
    },
    "keywords":"Enneagram, personality types, team building, leadership development, communication, collaboration",
    "mainEntityOfPage":{

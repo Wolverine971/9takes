@@ -206,7 +206,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
     "@id": "https://9takes.com/blog/enneagram/enneagram-communication-tips"
   },
   "headline": "Enneagram Communication Tips",
-  "image": "https://9takes.com/brand/darkRubix.png",
+  "image": {
+    "@type": "ImageObject",
+    "height": 900,
+    "url": "https://9takes.com/blogs/greek-statues-arguing.webp",
+    "width": 900
+  },
   "creator" : ["DJ Wayne"],
       "author": {
         "@type": "Person",

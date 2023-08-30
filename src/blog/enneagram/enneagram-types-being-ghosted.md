@@ -271,9 +271,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
   },
   "image": {
     "@type": "ImageObject",
-    "height": 800,
+    "height": 900,
     "url": "https://9takes.com/blogs/greek-statue-being-ghosted.webp",
-    "width": 1200
+    "width": 900
   },
   "description": "Find out how each Enneagram type responds to ghosting, and what it can reveal about their personalities.",
   "headline": "Ghosting and the Enneagram: How Each Type Responds",

@@ -61,12 +61,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
       },
       "description": "Using the Enneagram to improve team dynamics and productivity",
       "headline": "Enneagram Team Dynamics",
-      "image": {
-        "@type": "ImageObject",
-        "height": 800,
-        "url": "https://9takes.com/brand/darkRubix.png",
-        "width": 1200
-      },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-team-dynamics",
         "@type": "WebPage"

@@ -330,9 +330,9 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
          "headline":"The Ultimate Compliments for Every Enneagram Type",
          "image":{
             "@type":"ImageObject",
-            "height":800,
+            "height":900,
             "url": "https://9takes.com/blogs/greek-statue-yeah-boi.webp",
-            "width":1200
+            "width":900
          },
          "mainEntityOfPage":{
             "@id":"https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type",

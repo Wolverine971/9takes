@@ -238,9 +238,9 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
    "description":"What is each type thinking about and feeling. What do they do to prepare and what are red flags and good signals for each type.",
    "image":{
       "@type":"ImageObject",
-      "height":800,
+      "height":900,
       "url": "https://9takes.com/blogs/greek-statues-on-a-first-date.webp",
-      "width":1200
+      "width":900
    },
    "creator" : ["DJ Wayne"],
    "author": {

@@ -92,7 +92,9 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
       "headline": "The Enneagram: A Spiritual Tool Beyond Religious Boundaries",
       "image": {
         "@type": "ImageObject",
-        "url": "https://9takes.com/blogs/religious-books.webp"
+        "height": 900,
+        "url": "https://9takes.com/blogs/religious-books.webp",
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "Your Webpage URL",

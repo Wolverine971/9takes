@@ -180,9 +180,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
   "headline": "Enneagram Types at a Party: How Each Type Behaves",
   "image": {
     "@type": "ImageObject",
-    "height": 800,
+    "height": 900,
     "url": "https://9takes.com/blogs/greek-statues-party-vibes.webp",
-    "width": 1200
+    "width": 900
   },
   "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-types-at-party",

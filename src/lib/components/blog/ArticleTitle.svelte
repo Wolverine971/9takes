@@ -47,9 +47,5 @@
 		.large {
 			font-size: 1.5rem;
 		}
-
-		p {
-			margin-bottom: calc(var(--spacing-unit) / 2);
-		}
 	}
 </style>

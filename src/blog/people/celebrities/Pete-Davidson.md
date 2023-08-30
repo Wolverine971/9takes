@@ -78,7 +78,7 @@ Pete Davidson jokes
 
 ## The Nine's Humor: A Tool for Inner Peace
 
-One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with Ariana Grande during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
+One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/blog/famous-enneagram-types/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
 
 Where is Pete Davidson from, you ask? Staten Island, New York. The loss of his firefighter father in the 9/11 attacks is a topic he's broached repeatedly in his stand-up routines, drawing on dark humor to help himself and others cope with the tragedy.
 
@@ -88,7 +88,7 @@ Delving further into Davidson's jokes, one can glimpse an undercurrent of unreso
 
 ## Merging and Mirroring: Nines in Relationships
 
-Pete Davidson's dating history also paints a picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated <a href="./Ariana-Grande">Ariana Grande</a>, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
+Pete Davidson's dating history also paints a picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated Ariana Grande, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
 
 ## The Nine's Path: Seeking Peace amid Chaos
 

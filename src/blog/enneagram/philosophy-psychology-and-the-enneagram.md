@@ -142,9 +142,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
   "headline": "Philosophy and Psychology Gave Birth to the Enneagram",
   "image": {
     "@type": "ImageObject",
-    "height": 1200,
+    "height": 900,
     "url": "https://9takes.com/blogs/freud-plato.webp",
-    "width": 630
+    "width": 900
   },
   "keywords": [
     "Enneagram",

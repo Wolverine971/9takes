@@ -91,7 +91,7 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-04-15"
+    "@value": "2023-08-26"
   },
   "datePublished": {
     "@type": "Date",
@@ -99,7 +99,12 @@ Understanding your Enneagram stress number is essential if you want to thrive in
   },
   "description": "Discover your Enneagram stress number and learn how it affects your behavior and relationships. Knowing your stress number can help you manage your stress and develop healthy coping mechanisms. Find out how each Enneagram type reacts under stress and how to interact with them more effectively.",
   "headline": "Understanding Your Enneagram Stress Number: How It Affects Your Behavior and Relationships",
-  "image": "https://9takes.com/blogs/feeling-the-tension.webp",
+  "image": {
+    "@type": "ImageObject",
+    "height": 900,
+    "url": "https://9takes.com/blogs/feeling-tension.webp",
+    "width": 900
+  },
   "keywords": "Enneagram, Stress Number, Personality Types, Relationships, Coping Mechanisms",
   "mainEntityOfPage": {
     "@id": "https://9takes.com/blog/enneagram/enneagram-stress-number",

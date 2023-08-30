@@ -276,9 +276,9 @@ Also, sign up and join 9takes below ⬇️. Of course you are free to decline bu
          },
          "image":{
             "@type":"ImageObject",
-            "height":800,
+            "height":900,
             "url": "https://9takes.com/blogs/greek-statues-on-a-date.webp",
-            "width":1200
+            "width":900
          },
          "description":"This blog post examines the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships.",
          "headline":"Enneagram Types in Relationships: An Overview",

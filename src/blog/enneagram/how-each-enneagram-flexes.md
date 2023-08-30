@@ -160,9 +160,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
             "headline": "The Art of Flexing: Delving Deeper into the Enneagram's Showcase",
             "image": {
                 "@type": "ImageObject",
-                "height": 800,
+                "height": 900,
                 "url": "https://9takes.com/blogs/greek-statue-flex.webp",
-                "width": 1200
+                "width": 900
             },
             "mainEntityOfPage": {
                 "@id": "https://9takes.com/blog/enneagram/how-each-enneagram-flexes",

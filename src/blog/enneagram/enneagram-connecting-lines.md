@@ -187,6 +187,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
         "@id": "https://your-website-url.com/blog/enneagram-integrating-disintegrating-lines",
         "@type": "WebPage"
       },
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statue-reading-a-book.webp",
+        "width": 900
+      },
       "mentions": {
         "@type": "Thing",
         "name": "Enneagram"

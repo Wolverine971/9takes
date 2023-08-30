@@ -15,20 +15,24 @@
 	export let data: any;
 	let innerWidth: number;
 	let isOpen = false;
-	let isLoading = true;
+	let isLoading = false;
 
 	afterNavigate(() => {
 		isOpen = false;
 	});
 
+	console.log('mounted');
 	onMount(() => {
+		console.log('mounted2');
 		document.addEventListener('click', handleClickOutside);
 		innerWidth = window.innerWidth;
 		isLoading = false;
+		isOpen = false;
 	});
 
 	afterUpdate(() => {
 		innerWidth = window.innerWidth;
+		isLoading = false;
 	});
 
 	const handleClickOutside = (event: any) => {

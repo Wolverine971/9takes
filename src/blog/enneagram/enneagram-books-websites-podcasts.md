@@ -89,6 +89,12 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       "id": "https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts",
       "type": "WebPage"
     },
+    "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statue-listening-to-a-podcast.webp",
+        "width": 900
+      },
     "mentions": [
       {
         "@type": "Thing",

@@ -106,7 +106,7 @@
 				I am a techy, ex-military, most days happily married with 2 kids running around getting into
 				the highest of hijinks. My wife got me into the enneagram and I have been obsessed since. I
 				share my thoughts and opinions down below but would love to hear yours. Feel free to message
-				me <a target="_blank" href="https://twitter.com/djwayne3">here</a>.
+				me <a target="_blank" rel="noreferrer" href="https://twitter.com/djwayne3">here</a>.
 			</p>
 
 			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
@@ -121,7 +121,11 @@
 		</div>
 		<div style="margin:20px;">
 			<h3>I am also looking for help ✋</h3>
-			<p>DM me on Twitter <a target="_blank" href="https://twitter.com/djwayne3">here</a></p>
+			<p>
+				DM me on Twitter <a target="_blank" rel="noreferrer" href="https://twitter.com/djwayne3"
+					>here</a
+				>
+			</p>
 		</div>
 	</div>
 </div>

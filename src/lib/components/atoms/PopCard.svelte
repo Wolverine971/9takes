@@ -31,13 +31,6 @@
 		}
 
 		/* -- Text effect -- */
-
-		const popCard = document.querySelector('.pop-card');
-		if (popCard) {
-			popCard.onmouseenter = () => {
-				scribbleScrabble();
-			};
-		}
 	});
 	const scribbleScrabble = () => {
 		let name = document.querySelector('.name-pop');
@@ -71,7 +64,17 @@
 
 <!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
 
-<div class="pop-card" style="aspect-ratio: {aspectRatio};" title={altText || displayText}>
+<div
+	class="pop-card"
+	style="aspect-ratio: {aspectRatio};"
+	title={altText || displayText}
+	on:mouseover={() => {
+		scribbleScrabble();
+	}}
+	on:focus={() => {
+		scribbleScrabble();
+	}}
+>
 	<!-- <div
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
@@ -187,8 +190,8 @@
 
 	.pop-card-overlay {
 		background: linear-gradient(
-			rgb(var(--primary-rgb) / 0.15),
-			rgb(var(--primary-rgb) / 0.15) 3px,
+			rgb(var(--primary-rgb), 0.15),
+			rgb(var(--primary-rgb), 0.15) 3px,
 			transparent 3px,
 			transparent 9px
 		);

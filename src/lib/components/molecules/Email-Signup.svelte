@@ -6,6 +6,8 @@
 	let email: string = '';
 	let error: string = '';
 
+	console.log(cta);
+
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {
 			//!/.+@.+/.test(email) ||

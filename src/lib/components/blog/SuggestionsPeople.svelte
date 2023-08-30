@@ -70,6 +70,7 @@
 		font-weight: 400;
 		line-height: 20px;
 		color: #666666;
+		word-break: break-word;
 
 		&.small {
 			font-size: 14px;

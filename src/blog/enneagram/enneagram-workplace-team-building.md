@@ -206,6 +206,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
         "@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
         "@type": "WebPage"
       },
+      "image":{
+        "@type":"ImageObject",
+        "height":900,
+        "url": "https://9takes.com/blogs/greek-statues-working-in-teams.webp",
+        "width":900
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],

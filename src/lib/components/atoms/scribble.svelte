@@ -3,7 +3,7 @@
 
 	export let text: string = '9takes';
 
-	export let svgStyle: string = '';
+	// export let svgStyle: string = '';
 
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	// You can import and use other Svelte components or JavaScript modules here.
@@ -13,15 +13,7 @@
 		// if (!scrambleText) {
 		// 	return;
 		// }
-
 		/* -- Text effect -- */
-
-		const screen = document.querySelector('.scribble');
-		if (screen) {
-			screen.onmouseenter = (event: any) => {
-				scribbleScrabble();
-			};
-		}
 	});
 	const scribbleScrabble = () => {
 		console.log('scribble');
@@ -29,29 +21,41 @@
 		let iteration = 0;
 
 		clearInterval(interval);
+		if (name) {
+			interval = setInterval(() => {
+				name.innerText = text
+					.split('')
+					.map((letter, index) => {
+						if (index < iteration) {
+							return name.dataset.value[index];
+						}
 
-		interval = setInterval(() => {
-			name.innerText = text
-				.split('')
-				.map((letter, index) => {
-					if (index < iteration) {
-						return name.dataset.value[index];
-					}
+						return letters[Math.floor(Math.random() * 26)];
+					})
+					.join('');
 
-					return letters[Math.floor(Math.random() * 26)];
-				})
-				.join('');
+				if (iteration >= name.dataset.value.length) {
+					clearInterval(interval);
+				}
 
-			if (iteration >= name.dataset.value.length) {
-				clearInterval(interval);
-			}
-
-			iteration += 1 / 3;
-		}, 30);
+				iteration += 1 / 3;
+			}, 30);
+		}
 	};
 </script>
 
-<p class="scribble" data-value={text}>{text}</p>
+<p
+	class="scribble"
+	data-value={text}
+	on:mouseover={() => {
+		scribbleScrabble();
+	}}
+	on:focus={() => {
+		scribbleScrabble();
+	}}
+>
+	{text}
+</p>
 
 <style lang="scss">
 	/* You can style your SVG here */

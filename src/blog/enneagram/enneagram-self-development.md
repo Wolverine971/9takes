@@ -94,9 +94,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
   "headline": "How the Enneagram can be used for personal growth and self-improvement",
   "image": {
     "@type": "ImageObject",
-    "height": 800,
+    "height": 900,
     "url": "https://9takes.com/blogs/greek-statue-reading.webp",
-    "width": 1200
+    "width": 900
   },
   "keywords": "Enneagram, personal growth, self-improvement, decision-making, emotional awareness, goals, fears, self-awareness, compassion, empathy, relationships",
   "mainEntityOfPage": {

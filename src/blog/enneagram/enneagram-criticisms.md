@@ -184,6 +184,12 @@ Enneagram Criticisms (200 words)
         "@id": "https://9takes.com/blog/enneagram/enneagram-criticisms",
         "@type": "WebPage"
       },
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statues-disagreeing.webp",
+        "width": 900
+      },
       "mentions": {
         "@type": "Thing",
         "name": "Enneagram"
