@@ -228,9 +228,9 @@ For those ready to embark on this captivating exploration, I invite you to sign 
       "headline": "Keanu Reeves An Enneagram Type 9",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/9s/Keanu-Reeves.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves",
@@ -239,14 +239,7 @@ For those ready to embark on this captivating exploration, I invite you to sign 
       "mentions": {
         "@type": "Person",
         "name": "Keanu Reeves",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Keanu_Reeves"
-          },
-          {
-            "@id": "https://twitter.com/officialKeanu"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Keanu_Reeves", "https://twitter.com/officialKeanu"]
       },
       "publisher": {
         "@type": "Organization",

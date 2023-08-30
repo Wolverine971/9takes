@@ -149,9 +149,9 @@ There is a fascinating world of personalities out there waiting to be explored. 
       "headline": "Kim Kardashian's Personality: An Enneagram Type 3",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/3s/Kim-Kardashian.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian",

@@ -135,9 +135,9 @@ As we continue to peel back the layers of personalities, we invite you to join 9
       "headline": "The Enthusiast's View: A Deep Dive into Jon Stewart's Enneagram Type 7 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/7s/Jon-Stewart.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Jon-Stewart",

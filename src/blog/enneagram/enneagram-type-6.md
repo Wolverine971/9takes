@@ -186,126 +186,12 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "Loyalty",
-        "Anxiety",
-        "Preparation",
-        "Skepticism"
-      ],
       "description": "Enneagram Type 6, often referred to as the Loyalist or the Questioner, is known for being responsible, reliable, and hardworking. They value security, safety, and stability and are highly committed to their relationships and communities.",
-      "fears": [
-        "Fear of Abandonment",
-        "Fear of Uncertainty",
-        "Fear of Insecurity",
-        "Fear of Conflict",
-        "Fear of being blamed"
-      ],
-      "growthAndDevelopment": [
-        "Trust",
-        "Self-Confidence",
-        "Mindfulness"
-      ],
-      "howToDevelopAndGrow": [
-        "Develop Inner Trust",
-        "Embrace Change",
-        "Practice Self-Care",
-        "Develop Independence",
-        "Cultivate Positive Relationships"
-      ],
-      "motivations": [
-        "Safety and Security",
-        "Guidance and Support",
-        "Belonging and Loyalty",
-        "Preparation and Planning",
-        "Adherence to Rules and Authority"
-      ],
-      "name": "Enneagram type 6",
-      "relationshipTraits": [
-        "Loyal and Committed",
-        "Supportive and Reliable",
-        "Seek Reassurance and Validation",
-        "Need for Predictability",
-        "Prone to Anxiety and Worry",
-        "Can be Defensive or Reactive"
-      ],
-      "strengths": [
-        "Loyalty",
-        "Dedication",
-        "Handling stress and adversity",
-        "Strategic thinking",
-        "Seeing multiple perspectives"
-      ],
-      "weaknesses": [
-        "Anxiety and uncertainty",
-        "Indecision",
-        "Difficulty trusting own abilities",
-        "Self-doubt"
-      ],
-      "workplaceTraits": [
-        "Reliable and loyal employees",
-        "Value security and stability",
-        "Attuned to needs of colleagues and superiors",
-        "May struggle with self-doubt and anxiety"
-      ]
+      "name": "Enneagram type 6"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 3 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 3 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 3 Overview Sections"
-      },
+      "name": "Enneagram Type 3 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

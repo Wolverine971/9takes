@@ -152,9 +152,9 @@ Sign up and join 9takes below ⬇️. Of course you are free to decline but we a
       "headline": "Pete Davidson: A Deep Dive Into His Enneagram Type 9 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/9s/Pete-Davidson.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Pete-Davidson",

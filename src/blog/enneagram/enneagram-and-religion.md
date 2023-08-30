@@ -97,7 +97,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "Your Webpage URL",
+        "@id": "https://9takes.com/blog/enneagram/enneagram-and-religion",
         "@type": "WebPage"
       },
       "publisher": {

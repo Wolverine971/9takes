@@ -127,9 +127,9 @@ Go beyond the surface and delve deeper into the world of personalities with us. 
       "headline": "Unraveling David Dobrik: An Insight Into His Enneagram Type 7 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/7s/David-Dobrik.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/David-Dobrik",

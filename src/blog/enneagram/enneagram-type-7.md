@@ -161,126 +161,12 @@ Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "Optimistic and enthusiastic",
-        "Energetic and creative",
-        "Love to explore new ideas and experiences",
-        "Fear of missing out (FOMO)",
-        "Highly social and enjoy being around people",
-        "Highly adaptable and great problem-solvers",
-        "Struggle with commitment and follow-through"
-      ],
       "description": "Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to over commit, as they have a fear of missing out on anything exciting.",
-      "fears": [
-        "Being unfulfilled, trapped, deprived",
-        "Missing out on experiences or opportunities",
-        "Experiencing difficult or painful emotions"
-      ],
-      "growthAndDevelopment": [
-        "Learn to embrace discomfort",
-        "Set realistic goals and priorities",
-        "Develop patience and self-control",
-        "Learn to face and accept negative emotions",
-        "Practice gratitude and appreciation"
-      ],
-      "howToDevelopAndGrow": [
-        "Engage in mindfulness practices",
-        "Prioritize goals and focus on achieving them one at a time",
-        "Engage in activities that require patience and focus",
-        "Seek therapy or counseling to work through emotions",
-        "Practice gratitude and appreciation for the present moment"
-      ],
-      "motivations": [
-        "Desire for new experiences and adventure",
-        "Fear of missing out",
-        "Need for freedom and exploration"
-      ],
-      "name": "Enneagram type 7",
-      "relationshipTraits": [
-        "Fun-loving, adventurous, and passionate partners",
-        "Natural charm and enthusiasm",
-        "Enjoy trying new things and exploring the world with their partner",
-        "Struggle with staying committed to long-term relationships",
-        "May become restless or bored if the relationship becomes too routine"
-      ],
-      "strengths": [
-        "Optimism",
-        "Adventure",
-        "Adaptability",
-        "Resourcefulness",
-        "Creativity"
-      ],
-      "weaknesses": [
-        "Impulsivity",
-        "Lack of commitment",
-        "Avoidance of negative emotions"
-      ],
-      "workplaceTraits": [
-        "Energy and creativity",
-        "Great at generating new ideas and brainstorming",
-        "Natural optimism and enthusiasm",
-        "Struggle with following through on commitments",
-        "Restless and easily bored with routine tasks"
-      ]
+      "name": "Enneagram type 7"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 7 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 7 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 7 Overview Sections"
-      },
+      "name": "Enneagram Type 7 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

@@ -170,123 +170,12 @@ If you identify as a Type 2 personality, there are a number of things you can do
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "Generous with time and energy",
-        "Prioritizes the needs of others",
-        "Excellent at reading the emotions of others",
-        "Sensitive to criticism",
-        "Struggles with boundaries and saying 'no'"
-      ],
       "description": "Enneagram Type 2, known as 'The Helper', is a personality type characterized by a strong desire to be loved and appreciated by others.",
-      "fears": [
-        "Rejection",
-        "Inadequacy",
-        "Being unappreciated",
-        "Being a burden",
-        "Abandonment"
-      ],
-      "growthAndDevelopment": [
-        "Focusing on self-care",
-        "Setting healthy boundaries",
-        "Prioritizing own needs",
-        "Communicating needs and desires effectively"
-      ],
-      "howToDevelopAndGrow": [
-        "Setting healthy boundaries",
-        "Practicing self-care",
-        "Developing a strong sense of self",
-        "Seeking therapy or counseling"
-      ],
-      "motivations": [
-        "Desire to be loved and appreciated",
-        "Validation from others",
-        "Fulfillment from helping others"
-      ],
-      "name": "Enneagram Type 2",
-      "relationshipTraits": [
-        "Highly social",
-        "Warm and friendly",
-        "Natural charisma",
-        "Creates deep and meaningful connections",
-        "Struggles to express own needs",
-        "Prone to co-dependency"
-      ],
-      "strengths": [
-        "Empathy",
-        "Service",
-        "Emotional intelligence",
-        "Leadership"
-      ],
-      "weaknesses": [
-        "Codependency",
-        "People-pleasing",
-        "Burnout"
-      ],
-      "workplaceTraits": [
-        "Attuned to emotions and needs of colleagues",
-        "Empathetic and nurturing",
-        "Provides emotional support and practical assistance",
-        "May neglect own needs"
-      ]
+      "name": "Enneagram Type 2"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 2 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 2 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 2 Overview Sections"
-      },
+      "name": "Enneagram Type 2 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

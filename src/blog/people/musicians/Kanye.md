@@ -151,9 +151,9 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
       "headline": "Unraveling Kanye West: An Insight Into His Enneagram Type 7 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/7s/Kanye.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/kanye-west",

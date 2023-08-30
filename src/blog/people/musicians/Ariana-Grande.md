@@ -119,9 +119,9 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
       "headline": "Understanding Ariana Grande: A Deep Dive into Her Enneagram Type 3 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/3s/Ariana-Grande.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Ariana-Grande",

@@ -186,9 +186,9 @@ And now, a question for you: What drives the personalities behind your favorite 
       "headline": "Jack Dorsey Enneagram Type 5",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/5s/Jack-Dorsey.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey",

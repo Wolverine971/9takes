@@ -131,9 +131,9 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
       "headline": "Exploring Charlie Puth: An Insight Into His Enneagram Type 4 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/4s/Charlie-Puth.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Charlie-Puth",

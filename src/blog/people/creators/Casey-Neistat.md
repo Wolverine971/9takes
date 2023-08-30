@@ -202,9 +202,9 @@ If this was interesting to you I encourage you to join 9takes below ⬇️. Of c
       "headline": "Inside Casey Neistat: A Look Into His Enneagram Type 4 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/4s/Casey-Neistat.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Casey-Neistat",

@@ -171,9 +171,9 @@ Understanding others starts with understanding oneself. Let's embark on this jou
       "headline": "A Peaceful Commander-in-Chief: Is Barack Obama an Enneagram Type 9?",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/9s/Barack-Obama.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Barack-Obama",

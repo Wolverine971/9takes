@@ -160,9 +160,9 @@ If this resonates with you, we invite you to explore more articles like this one
       "headline": "Understanding Joe Rogan: A Deep Dive Into His Enneagram Type 8 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/8s/Joe-Rogan.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Joe-Rogan",

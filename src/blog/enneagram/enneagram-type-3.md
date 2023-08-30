@@ -174,139 +174,18 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
 
 <svelte:head>
 
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "High energy",
-        "Ambitious nature",
-        "Strong work ethic",
-        "Adaptable",
-        "Versatile",
-        "Focused on achievement and success"
-      ],
       "description": "Enneagram type 3, also known as “The Achiever,” is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.",
-      "fears": [
-        "Fear of failure",
-        "Fear of being unimportant",
-        "Fear of not being loved",
-        "Fear of being exposed as a fraud",
-        "Fear of being vulnerable"
-      ],
-      "growthAndDevelopment": [
-        "Cultivating self-awareness",
-        "Embracing vulnerability",
-        "Prioritizing relationships",
-        "Developing empathy",
-        "Focusing on personal growth"
-      ],
-      "howToDevelopAndGrow": [
-        "Develop a deeper understanding of their emotions, motivations, and behaviors",
-        "Learn to embrace vulnerability and be authentic with themselves and others",
-        "Make an effort to prioritize their relationships and connect with others on a deeper level",
-        "Develop their empathy and emotional intelligence",
-        "Set personal goals related to their emotional well-being, relationships, and personal growth"
-      ],
-      "motivations": [
-        "Desire for success and recognition",
-        "Need to be seen as successful, accomplished, and admired by others",
-        "Goal-oriented",
-        "Desire to win, achieve a high level of status or recognition, or be seen as an expert in their area of expertise",
-        "Fear of failure"
-      ],
-      "name": "Enneagram type 3",
-      "relationshipTraits": [
-        "Seek partners who can appreciate and support their ambitious nature",
-        "Attracted to those who can help them achieve their goals and provide them with the recognition they crave",
-        "May struggle to express their own feelings",
-        "May prioritize their career over their relationships"
-      ],
-      "strengths": [
-        "Ambition",
-        "Adaptability",
-        "Self-assurance",
-        "Leadership"
-      ],
-      "weaknesses": [
-        "Image consciousness",
-        "Workaholism",
-        "Inauthenticity"
-      ],
-      "workplaceTraits": [
-        "Highly driven and goal-oriented",
-        "Ambitious and results-driven",
-        "Skilled at networking and building relationships",
-        "Competitive",
-        "Self-confident",
-        "Natural leaders",
-        "Skilled at strategic planning",
-        "Excellent at multitasking",
-        "Able to adapt to changing situations",
-        "May struggle with work-life balance",
-        "May struggle with delegating tasks",
-        "May struggle with criticism"
-      ]
+      "name": "Enneagram type 3"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 3 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 3 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 3 Overview Sections"
-      },
+      "name": "Enneagram Type 3 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

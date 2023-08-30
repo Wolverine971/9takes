@@ -119,9 +119,9 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
       "headline": "Beyoncé: The Unyielding Powerhouse – An Enneagram Type 8",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/8s/Beyonce-Knowles.webp",
-        "width": 1200
+        "width": 900
       },
       "keywords": "Beyoncé,Enneagram Type 8,Type 8, Personality Type, Beyoncé's personality, Jay-Z, privacy, love, advocacy",
       "mainEntityOfPage": {
@@ -132,8 +132,7 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
         "@type": "Person",
         "description": "Beyoncé Giselle Knowles-Carter, aka Beyoncé, is an American singer, songwriter, actress, and record producer. Born and raised in Houston, Texas, Beyoncé performed in various singing and dancing competitions as a child. She rose to fame in the late 1990s as the lead singer of Destiny's Child, one of the best-selling girl groups of all time.",
         "name": "Beyoncé Knowles",
-        "sameAs": [
-            "@id": "https://en.wikipedia.org/wiki/Beyonc%C3%A9", "https://www.beyonce.com/", "https://www.imdb.com/name/nm0461498/", "https://www.instagram.com/beyonce/", "https://www.britannica.com/biography/Beyonce", "https://musicbrainz.org/artist/859d0860-d480-4efd-970c-c05d5f1776b8/"
+        "sameAs": ["https://en.wikipedia.org/wiki/Beyonc%C3%A9", "https://www.beyonce.com/", "https://www.imdb.com/name/nm0461498/", "https://www.instagram.com/beyonce/", "https://www.britannica.com/biography/Beyonce", "https://musicbrainz.org/artist/859d0860-d480-4efd-970c-c05d5f1776b8/"
         ]
       },
       "publisher": {

@@ -147,6 +147,12 @@ conflict resolution exercises for couples -->
         "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2",
         "@type": "WebPage"
       },
+      "image":{
+        "@type":"ImageObject",
+        "height":900,
+        "url": "https://9takes.com/blogs/pit-of-despair.webp",
+        "width":900
+      },
       "publisher": {
         "@type": "Organization",
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],

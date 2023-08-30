@@ -190,9 +190,9 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
       "headline": "Leonardo DiCaprio: The Enigma of an Enneagram Type 7",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/7s/Leonardo-DiCaprio.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Leonardo-DiCaprio",
@@ -201,16 +201,7 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
       "mentions": {
         "@type": "Person",
         "name": "Leonardo DiCaprio",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio"
-          },
-          {
-            "@id": "https://twitter.com/LeoDiCaprio"
-          },
-          {
-            "@id": "https://www.instagram.com/leonardodicaprio/"
-          }
+        "sameAs": ["https://en.wikipedia.org/wiki/Leonardo_DiCaprio","https://twitter.com/LeoDiCaprio", "https://www.instagram.com/leonardodicaprio/"
         ]
       },
       "publisher": {

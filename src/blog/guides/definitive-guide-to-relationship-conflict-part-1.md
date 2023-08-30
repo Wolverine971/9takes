@@ -162,6 +162,12 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
         "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1",
         "@type": "WebPage"
       },
+      "image":{
+        "@type":"ImageObject",
+        "height":900,
+        "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
+        "width":900
+      },
       "mentions": [{
         "@type": "Person",
         "name": "Dr. John Gottman",

@@ -173,9 +173,9 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       "headline": "Dua Lipa: Unraveling the Pop Icon's Enneagram Type 3 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/3s/Dua-Lipa.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Dua-Lipa",

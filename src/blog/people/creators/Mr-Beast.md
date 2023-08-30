@@ -133,9 +133,9 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
       "headline": "Inside The Mind of Mr. Beast: An Enneagram Type 8's Quest for Influence",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/8s/Mr_Beast.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Mr-Beast",

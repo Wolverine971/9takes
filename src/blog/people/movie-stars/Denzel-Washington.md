@@ -184,9 +184,9 @@ Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of cours
       "headline": "Denzel Washington: A Deep Dive Into His Possible Enneagram Type 8 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/8s/Denzel-Washington.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Denzel-Washington",
@@ -195,17 +195,7 @@ Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of cours
       "mentions": {
         "@type": "Person",
         "name": "Denzel Washington",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Denzel_Washington"
-          },
-          {
-            "@id": "https://twitter.com/OfficiaIDenzeI"
-          },
-          {
-            "@id": "https://www.instagram.com/denzelwashington.official/"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Denzel_Washington", "https://twitter.com/OfficiaIDenzeI", "https://www.instagram.com/denzelwashington.official/"]
       },
       "publisher": {
         "@type": "Organization",

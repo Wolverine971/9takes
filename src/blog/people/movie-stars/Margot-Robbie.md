@@ -212,9 +212,9 @@ The more we understand about people, the richer our interactions and experiences
       "headline": "Margot Robbie An Enneagram Type 8",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/8s/Margot-Robbie.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Margot-Robbie",
@@ -223,17 +223,7 @@ The more we understand about people, the richer our interactions and experiences
       "mentions": {
         "@type": "Person",
         "name": "Margot Robbie",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Margot_Robbie"
-          },
-          {
-            "@id": "https://twitter.com/MargotRobbie"
-          },
-          {
-            "@id": "https://www.instagram.com/margotrobbie/"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Margot_Robbie", "https://twitter.com/MargotRobbie". "https://www.instagram.com/margotrobbie/"]
       },
       "publisher": {
         "@type": "Organization",

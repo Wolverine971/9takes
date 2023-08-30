@@ -137,9 +137,9 @@ Join us at 9takes - a community that values the exploration of personalities and
       "headline": "Taylor Swift An Enneagram Type 3",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/3s/Taylor-Swift.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Taylor-Swift",

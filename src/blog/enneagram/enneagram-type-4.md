@@ -173,123 +173,12 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "Highly creative and artistic",
-        "Deeply in touch with their emotions",
-        "Longing for something they feel is missing",
-        "Strong sense of individuality",
-        "May struggle with feelings of envy and self-doubt"
-      ],
       "description": "Enneagram Type 4, also known as The Individualist, is characterized by a strong sense of self, emotional intensity, and a desire for authenticity and self-expression. They often feel misunderstood and have a deep need to be valued for their unique perspective and experiences.",
-      "fears": [
-        "Inadequate or without significance",
-        "Being plain or ordinary",
-        "Being misunderstood or not fully known by others",
-        "Abandonment"
-      ],
-      "growthAndDevelopment": [
-        "Learning to accept themselves",
-        "Maintaining healthy boundaries in relationships",
-        "Cultivating gratitude and self-compassion",
-        "Goal-setting and finding balance in life"
-      ],
-      "howToDevelopAndGrow": [
-        "Practice self-awareness and introspection",
-        "Focus on gratitude",
-        "Develop self-compassion techniques",
-        "Set specific, achievable goals",
-        "Create balance and practice self-care"
-      ],
-      "motivations": [
-        "Desire for self-discovery",
-        "Authenticity",
-        "Meaning",
-        "Expressing unique identity"
-      ],
-      "name": "Enneagram type 4",
-      "relationshipTraits": [
-        "Seeks deep emotional connection",
-        "Highly attuned to their emotions",
-        "Creative and passionate",
-        "May struggle with jealousy or insecurity",
-        "Tendency to idealize partners and romanticize relationships"
-      ],
-      "strengths": [
-        "Creativity and artistic expression",
-        "Empathy and compassion",
-        "Deep understanding of the human experience",
-        "Introspection and self-awareness"
-      ],
-      "weaknesses": [
-        "Moodiness and withdrawal",
-        "Self-doubt and insecurity",
-        "Feeling misunderstood and disconnected from others"
-      ],
-      "workplaceTraits": [
-        "Creative, innovative, and intuitive",
-        "Insightful and empathetic team members",
-        "May struggle with boredom, restlessness, or sensitivity to criticism",
-        "Deeply committed and loyal"
-      ]
+      "name": "Enneagram type 4"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 4 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 4 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 4 Overview Sections"
-      },
+      "name": "Enneagram Type 4 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

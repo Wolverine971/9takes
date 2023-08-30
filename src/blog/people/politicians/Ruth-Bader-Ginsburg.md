@@ -97,9 +97,9 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
       "headline": "Dissecting Ruth Bader Ginsburg: A Deep Dive into Her Enneagram Type 1 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/1s/Ruth-Bader-Ginsburg.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Ruth-Bader-Ginsburg",

@@ -114,9 +114,9 @@ Better yet, why not become part of a community that values introspective explora
       "headline": "Oprah Winfrey Enneagram Type 2",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/2s/Oprah-Winfrey.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Oprah-Winfrey",

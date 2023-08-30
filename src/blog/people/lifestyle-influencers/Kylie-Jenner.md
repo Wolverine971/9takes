@@ -129,9 +129,9 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       "headline": "Decoding Kylie Jenner: Insights Into Her Enneagram Type 9 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/9s/Kylie-Jenner.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner",

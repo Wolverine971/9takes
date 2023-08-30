@@ -119,9 +119,9 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "headline": "Unraveling Jake Paul: An Insight Into His Enneagram Type 3 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://example.com/types/3s/Jake-Paul.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://example.com/blog/famous-enneagram-types/Jake-Paul",

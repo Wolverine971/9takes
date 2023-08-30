@@ -127,9 +127,9 @@ In our complex world, understanding people's personalities could pave the way fo
       "headline": "Unraveling Robert Oppenheimer: An Insight Into His Enneagram Type 4 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/4s/Robert-Oppenheimer.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Robert-Oppenheimer",
@@ -138,11 +138,7 @@ In our complex world, understanding people's personalities could pave the way fo
       "mentions": {
         "@type": "Person",
         "name": "Robert Oppenheimer",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Robert_Oppenheimer"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Robert_Oppenheimer"]
       },
       "publisher": {
         "@type": "Organization",

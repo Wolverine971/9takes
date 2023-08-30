@@ -135,9 +135,9 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
       "headline": "Unraveling Kourtney Kardashian: An Insight Into Her Enneagram Type 1 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/1s/Kourtney-Kardashian.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian",

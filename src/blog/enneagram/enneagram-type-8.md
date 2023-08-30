@@ -162,133 +162,18 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 
 <svelte:head>
 
-<script type="application/ld+json">{
+<script type="application/ld+json">
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
       "type": "Person",
-      "characteristics": [
-        "strong-willed",
-        "assertive",
-        "confident",
-        "determined",
-        "resilient"
-      ],
       "description": "Type 8, also known as The Challenger, is a personality type characterized by their assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.",
-      "fears": [
-        "being controlled",
-        "being manipulated",
-        "vulnerability"
-      ],
-      "growthAndDevelopment": [
-        "regulating aggression",
-        "developing empathy",
-        "expressing emotions"
-      ],
-      "howToDevelopAndGrow": [
-        "cultivate self-awareness",
-        "practice vulnerability",
-        "develop empathy",
-        "seek balance",
-        "build healthy relationships"
-      ],
-      "motivations": [
-        "need for control",
-        "desire to protect themselves and others",
-        "sense of justice and fairness"
-      ],
-      "name": "Enneagram type 3",
-      "relationshipTraits": [
-        "loyal",
-        "protective",
-        "generous",
-        "supportive",
-        "direct",
-        "dominant",
-        "controlling"
-      ],
-      "strengths": [
-        "ability to take action",
-        "decisiveness",
-        "inspiring and leading others",
-        "natural charisma",
-        "strategic thinking"
-      ],
-      "weaknesses": [
-        "overly aggressive",
-        "confrontational",
-        "stubborn",
-        "unwilling to compromise",
-        "difficulty expressing emotions"
-      ],
-      "workplaceTraits": [
-        "effective leaders",
-        "problem solvers",
-        "independent",
-        "self-assured",
-        "risk-takers",
-        "assertive",
-        "struggle with authority"
-      ]
+      "name": "Enneagram type 8"
     },
     {
       "type": "BlogPosting",
-      "articleBody": {
-        "type": "ItemList",
-        "itemListElement": [
-          {
-            "type": "Section",
-            "name": "Characteristics",
-            "position": 1
-          },
-          {
-            "type": "Section",
-            "name": "Strengths",
-            "position": 2
-          },
-          {
-            "type": "Section",
-            "name": "Weaknesses/Challenges",
-            "position": 3
-          },
-          {
-            "type": "Section",
-            "name": "Motivations",
-            "position": 4
-          },
-          {
-            "type": "Section",
-            "name": "Fears",
-            "position": 5
-          },
-          {
-            "type": "Table",
-            "name": "Enneagram Type 8 Attributes",
-            "position": 6
-          },
-          {
-            "type": "Section",
-            "name": "In Relationships",
-            "position": 7
-          },
-          {
-            "type": "Section",
-            "name": "In the Workplace",
-            "position": 8
-          },
-          {
-            "type": "Section",
-            "name": "Growth and Development",
-            "position": 9
-          },
-          {
-            "type": "ItemList",
-            "name": "How to Develop and Grow as a Type 8 Personality",
-            "position": 10
-          }
-        ],
-        "name": "Enneagram Type 8 Overview Sections"
-      },
+      "name": "Enneagram Type 8 Overview Sections",
       "creator" : ["DJ Wayne"],
       "author": {
         "type": "Person",

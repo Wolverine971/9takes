@@ -135,9 +135,9 @@ Nietzsche is just one of many personalities that we can explore through the enne
       "headline": "Unraveling Friedrich Nietzsche: An Insight Into His Enneagram Type 5 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": "https://9takes.com/types/5s/Friedrich-Nietzsche.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Friedrich-Nietzsche",
@@ -146,14 +146,7 @@ Nietzsche is just one of many personalities that we can explore through the enne
       "mentions": {
         "@type": "Person",
         "name": "Friedrich Nietzsche",
-        "sameAs": [
-          {
-            "@id": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
-          },
-          {
-            "@id": "https://plato.stanford.edu/entries/nietzsche/"
-          }
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Friedrich_Nietzsche", "https://plato.stanford.edu/entries/nietzsche/" ]
       },
       "publisher": {
         "@type": "Organization",

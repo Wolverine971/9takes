@@ -147,9 +147,9 @@ If you're intrigued and wish to explore more, delve into our other articles abou
       "headline": "Understanding Halsey: A Deep Dive into Her Enneagram Type 8 Personality",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": https://9takes.com/types/8s/Halsey.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Halsey",

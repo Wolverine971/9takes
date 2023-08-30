@@ -101,9 +101,9 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       "headline": "Meghan Markle Enneagram Type 2",
       "image": {
         "@type": "ImageObject",
-        "height": 800,
+        "height": 900,
         "url": https://9takes.com/types/2s/Meghan-Markle.webp",
-        "width": 1200
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Meghan-Markle",
