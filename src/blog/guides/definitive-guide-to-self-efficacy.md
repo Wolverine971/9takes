@@ -387,6 +387,8 @@ Here is a list of current and past research having to do with self-efficacy.
 
 ## A step further
 
+"All we have to decide is what to do with the time that is given us." This encapsulates the essence of self-efficacy. It's about making the most of our time and resources, believing in our ability to navigate life's challenges, and taking actionable steps to improve.
+
 While self-efficacy is a universal concept, how we relate to it can be deeply personal and influenced by our inherent personality traits. This is where the Personality and more specifically the Enneagram comes into play. The Enneagram categorizes individuals into nine different types, each with its unique set of strengths, weaknesses, and coping mechanisms. It is based around our core emotions that were developed in response to childhood traumas. These responses or coping mechanisms form archetypes or a personality.
 
 Naturally some of us have high self-efficacy and confidence, while others may struggle due to the learned behaviors developed in childhood. The Enneagram can serve as an additional tool to help you understand these nuances. By diving deeper into your Enneagram type, you can uncover layers of your psyche that may be holding you back and take targeted steps to improve not just your self-efficacy, but your overall well-being.
