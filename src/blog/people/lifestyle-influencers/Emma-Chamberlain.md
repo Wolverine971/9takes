@@ -19,6 +19,14 @@ tiktok: 'https://www.tiktok.com/@emmachambie'
 
 <!-- Notes: Emma is most likely a 4-- she just jumped to popularity but she's always into niche trends like very "cool" girl -->
 
+<!-- cerave emma chamberlain
+pacsun emma
+emma chamberlain skims
+shop emma chamberlain com
+emma chamberlain gopuff
+emma chamberlain march
+emma chamberlain 17 -->
+
 <!-- // notes:  -->
 
 <script>

@@ -19,6 +19,43 @@ tiktok: ''
 
 <!-- might be a type 3 -->
 
+<!-- justin bieber sick 2022
+tour justin bieber 2022
+justin bieber tour 2022 europe
+justin bieber i selena gomez
+h & m justin bieber
+gaya rambut justin bieber
+selena gomez si justin bieber
+justice justin bieber tour
+justin bieber avc
+justice world tour tickets
+allie bieber
+justin bieber love yourself
+selena gomez and hailey bieber
+justin bieber and hailey bieber
+justin b
+justin timber
+mariah yeater
+justin bieber 2018
+justin bieber nicki minaj
+belieber justin bieber
+taylor swift justin bieber
+justin bieber 2019
+justin bieber california
+bizzle justin bieber
+jaden smith and justin bieber
+taylor swift and justin bieber
+justin bieber and nicki minaj
+justin bieber quiz
+justin bieber rise to fame
+justin justin bieber
+justin bieber and ariana
+little justin bieber
+swag swag swag on you
+justin bieber rym
+justin bieber with you
+jungkook justin bieber -->
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

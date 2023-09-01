@@ -4,7 +4,7 @@ description: 'Why Emily Ratajkowski appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski'
-lastmod: '2023-04-19'
+lastmod: '2023-08-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
 
 <p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author. For those who are paying attention, they know that she pushes the boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger.</p>
 
-> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily Ratajkowski.
+> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
 
 <div
 	style="display: flex;
@@ -96,7 +96,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-04-19"
+    "@value": "2023-08-30"
   },
   "datePublished": {
     "@type": "Date",

@@ -133,6 +133,7 @@ conflict resolution exercises for couples -->
     {
       "@type": "Article",
       "articleBody": "This article is a comprehensive guide to dealing with relationship conflict. It covers healthy and unhealthy conflicts, examples, pitfalls, and conflict resolution skills. It also provides practical exercises for couples to improve their conflict resolution abilities.",
+      "creator": ["DJ Wayne"],
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

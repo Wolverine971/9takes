@@ -49,7 +49,7 @@
 	<title>9takes Home Page</title>
 	<meta
 		name="description"
-		content="9takes- Reddit Re-imagined through the Enneagram Lens. Ask questions, give hot takes, talk to real people"
+		content="9takes- A reimagined Reddit based on personality. Ask questions, give hot takes, talk to real people"
 	/>
 	<meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" />
 	<link rel="canonical" href="https://9takes.com" />
@@ -69,9 +69,10 @@
 			<h3>What are we building?</h3>
 			<p>
 				<b style="font-size: 1.2rem;">
-					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> Reimagined through the
-					<span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>
-					Lens.
+					A reimagined <span style="text-shadow: .5px .5px #E0373C;">Reddit</span> based on
+					personality.
+					<!-- <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>
+					Lens. -->
 					<!-- A better <span style="text-shadow: .5px .5px #E0373C;">reddit</span> tailored to the
 					<span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>. -->
 				</b>
@@ -84,15 +85,14 @@
 					<a href="/blog/community/inspiration-for-9takes">What is the inspiration for 9takes?</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
-						>Why the <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce"
-							>Enneagram</span
-						>?</a
+					<a href="blog/enneagram/enneagram-tldr"
+						>The <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span
+						>is the chosen personality system.</a
 					>
 				</li>
 				<li>
-					<a href="blog/enneagram/enneagram-tldr"
-						>What is the <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce"
+					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
+						>Why the <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce"
 							>Enneagram</span
 						>?</a
 					>

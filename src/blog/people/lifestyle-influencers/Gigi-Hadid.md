@@ -17,6 +17,27 @@ instagram: 'https://www.instagram.com/gigihadid/'
 tiktok: 'https://www.tiktok.com/@gigihadid'
 ---
 
+<!-- zayn and yolanda
+yolanda hadid zayn
+zayn yolanda
+zayn malik and yolanda hadid
+gigi hadid leonardo dicaprio
+leonardo dicaprio gigi hadid
+gigi hadid and zayn malik
+gigi and zayn
+leo and gigi
+gigi hadid khai
+gigi hadid dicaprio
+zayn malik yolanda hadid
+jelena noura hadid
+yolanda hadid zayn malik
+jj hadid
+yolanda hadid and zayn malik
+khai gigi
+gigi hadid sports illustrated
+gig8 hadid
+rhobh yolanda -->
+
 <!-- Notes: Gigi is most likely not a 1,3 or an 8. She is pretty meek and mild-- almost shy. Her mother pushed her to be a model and have a specific body type. There was also the fight between Zayn and her mom-- where she took her mother's side. I could see her as a 6-- although this is just based off the little I know. -->
 <!-- <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

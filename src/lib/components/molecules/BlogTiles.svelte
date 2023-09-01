@@ -39,7 +39,7 @@
 
 <div style="width: 100%;">
 	<h2>Guides</h2>
-	<div class="blog-grid-container">
+	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.guides as eBlog}
 			<a
 				href="/blog/guides/{eBlog.slug}"

@@ -17,6 +17,16 @@ instagram:
 tiktok:
 ---
 
+<!-- graham paul
+paul graham on lisp
+photographer paul graham
+ansi common lisp
+paul graham linkedin
+paul graham startup
+paul graham yc
+paul graham paintings
+paul graham on writing -->
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

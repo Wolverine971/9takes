@@ -19,7 +19,7 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
   <channel>
     <title>9takes</title>
     <link>https://9takes.com/</link>
-    <description>9takes- Reddit Re-imagined through the Enneagram Lens. Ask questions, give hot takes, talk to real people</description>
+    <description>9takes- A reimagined Reddit based on personality. Ask questions, give hot takes, talk to real people</description>
     ${posts
 			.map(
 				(post: any) =>

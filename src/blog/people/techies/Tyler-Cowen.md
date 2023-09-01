@@ -17,6 +17,14 @@ instagram: ''
 tiktok: ''
 ---
 
+<!-- modern principles of economics tyler cowen
+tyler cowen blog
+modern principles microeconomics
+tyler cowen book
+stubborn attachments
+tyler cohen economist
+the complacent class -->
+
 <!-- // notes:  -->
 
 <script>

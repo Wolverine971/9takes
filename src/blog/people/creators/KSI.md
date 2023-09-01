@@ -17,7 +17,56 @@ instagram: ''
 tiktok:
 ---
 
-<!-- // notes:  -->
+<!-- // notes:
+ksi reddit
+1K – 10KLowjj olatunji
+1K – 10KLow$0.34
+$0.61
+logan paul boxing
+1K – 10KLowksi youtube
+1K – 10K
+0%
+-90%
+Lowjj ksi
+100 – 1KLowanne marie ksi
+100 – 1K
+0%
+-90%
+Lowksi live
+100 – 1K
+-9
+Lowksi tiktok
+100 – 1KLowjj sidemen
+100 – 1K
+0%
+-90%
+Lowsidemen onlyfans
+100 – 1KLowdeji youtube
+100 – 1K
+0%
+-90%
+Lowspeed ksi
+100 – 1K
+0%
+-90%
+Lowksi in real life free
+100 – 1K
+0%
++∞
+Lowksi shop
+100 – 1K
+0%
+-90%
+Low$1.48
+$5.53
+sam hyde boxing ksi
+100 – 1KLowdazn sam hyde
+100 – 1K
+-100%
+-100%
+logan paul live
+100 – 1KLowksi game
+100 – 1KLowksi streaming-->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -34,11 +83,7 @@ tiktok:
 		displayText="booboo"
 		subtext=""
 	/>
-</div>
-
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
-
-<details>
+</div>> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.<details>
 <summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
 <div class="panel">
 <ul>
@@ -52,13 +97,10 @@ tiktok:
 </li>
 </ul>
   </div>
-</details>
-
-<p class="firstLetter"></p>
-
+</details><p class="firstLetter"></p>
 ## How Each Enneagram Type Perceives booboo
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:-
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
@@ -72,9 +114,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 <svelte:head>
 
-<script type="application/ld+json">
-
-</script>
+<script type="application/ld+json"></script>
 
 </svelte:head>
 
@@ -94,24 +134,12 @@ article {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-  }
-
-  .accordion:hover {
+  }  .accordion:hover {
     background-color: var(--color-theme-purple-v);
     color: var(--color-theme-purple);
-  }
-
-  /*.panel:hover {
-
-    background-color: #ccc;
-
-}*/
-
-  .panel {
+  }  /*.panel:hover {    background-color: #ccc;}*/  .panel {
     padding: 18px;
     /*display: none;*/
     background-color: white;
-    overflow: hidden;
-
-  }
+    overflow: hidden;  }
 </style>

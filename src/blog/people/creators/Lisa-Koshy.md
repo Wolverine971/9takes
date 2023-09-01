@@ -1,6 +1,6 @@
 ---
-title: 'Lisa-Koshy Enneagram Type 8'
-description: 'Why Lisa-Koshy appears to be a type 8'
+title: 'Lisa Koshy Enneagram Type 8'
+description: 'Why Lisa Koshy appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-16'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lisa-Koshy'
@@ -18,6 +18,7 @@ tiktok:
 ---
 
 <!-- // notes:  -->
+<!-- liza koshy shop -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
