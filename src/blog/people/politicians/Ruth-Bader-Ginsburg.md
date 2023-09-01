@@ -83,7 +83,6 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
-     ]
       },
       "dateModified": {
         "@type": "Date",
