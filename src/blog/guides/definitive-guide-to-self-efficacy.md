@@ -33,7 +33,7 @@ Self-efficacy is not just a buzzword; it's a foundational element that impacts v
 
 ## ABOUT THE AUTHOR
 
-## Why I Wrote the Guide
+### Why I Wrote the Guide
 
 I wrote this guide to combat learned helplessness. We all have the power to improve our lives. Like Gandalf from Lord of the Rings said, all you have to do is decide what to do with the time that is given to you.
 
@@ -52,11 +52,11 @@ I wrote this guide to combat learned helplessness. We all have the power to impr
 	/>
 </div>
 
-## Why Me
+### Why Me
 
 I am no one special. But I am someone who cares enough to write about this problem. I have failed multiple times, and I know that there are more ways for things to go wrong than right. In that environment, I believe that your only option is to move forward, try your best, and learn as you go.
 
-## Who the Guide is For
+### Who the Guide is For
 
 This guide is for anyone who wants to improve their life by understanding and enhancing their self-efficacy.
 
@@ -72,7 +72,7 @@ This guide is for anyone who wants to improve their life by understanding and en
 
 <article class="section-content">
 
-<h2 id="four-sources">Chapter 1: The Four Sources of Self-Efficacy</h2>
+<h3 id="four-sources">Chapter 1: The Four Sources of Self-Efficacy</h3>
 
 #### The Genesis of Self-Efficacy
 
@@ -83,6 +83,11 @@ The concept of self-efficacy was first introduced by psychologist Albert Bandura
 Understanding the roots of self-efficacy is essential for personal and professional development. It helps you identify the areas you need to focus on to improve your belief in your abilities. This understanding is not just limited to individual growth; it also has implications for organizational success. High self-efficacy among employees can lead to increased productivity, better problem-solving skills, and more innovation.
 
 #### The Four Pillars of Self-Efficacy
+
+<!-- playing the piano
+clapping on the sidelines during the sporting event
+explaining something in a meeting
+person in chair contemplating things holding hands together in a steeple -->
 
 1. Mastery Experiences
    The most effective way to build self-efficacy is through mastery experiences. Achieving small goals and accumulating successes over time can significantly boost your belief in your abilities. In the workplace, HR professionals can encourage employees to take on challenging projects and provide the necessary support and tools for success.
@@ -105,7 +110,7 @@ In the next chapter, we'll delve into real-world examples that illustrate these 
 </article>
 <article class="section-content">
 
-<h2 id="examples-of-self-efficacy">Chapter 2: Examples of Self-Efficacy in Action</h2>
+<h3 id="examples-of-self-efficacy">Chapter 2: Examples of Self-Efficacy in Action</h3>
 
 #### The Power of Belief
 
@@ -115,22 +120,22 @@ Self-efficacy is not just a theoretical concept; it manifests in real-life scena
 
 - **Starting a Fitness Journey**
 
-  - Imagine you've never been the athletic type, but one day you wake up and decide, "I'm going to run a marathon." Crazy, right? But here's the thing: you're so convinced that if you stick to a training program and eat right, you'll cross that finish line. Sure, you'll face muscle soreness and days when you'd rather stay in bed, but you push through. Why? Because you believe you can do it. And guess what? You end up completing the marathon, turning the impossible into the possible.
+    - Imagine you've never been the athletic type, but one day you wake up and decide, "I'm going to run a marathon." Crazy, right? But here's the thing: you're so convinced that if you stick to a training program and eat right, you'll cross that finish line. Sure, you'll face muscle soreness and days when you'd rather stay in bed, but you push through. Why? Because you believe you can do it. And guess what? You end up completing the marathon, turning the impossible into the possible.
 
 - **Pursuing a Creative Hobby**
 
-  - Now, let's say you've always had a soft spot for painting but never really got around to it. One day, you decide enough is enough. You're going to become a painter. You invest in quality art supplies and even enroll in a course. Why? Because you genuinely believe that with time and practice, you'll get good at it. And you do. Your art starts to get noticed, and what was once a hobby starts looking like a potential career.
+    - Now, let's say you've always had a soft spot for painting but never really got around to it. One day, you decide enough is enough. You're going to become a painter. You invest in quality art supplies and even enroll in a course. Why? Because you genuinely believe that with time and practice, you'll get good at it. And you do. Your art starts to get noticed, and what was once a hobby starts looking like a potential career.
 
 - **Overcoming Social Anxiety**
 
-  - Imagine you've always been the shy one in the room, avoiding social events like the plague. But then you decide you've had enough. You start saying 'yes' to invitations and even seek professional help to manage your anxiety. It's not easy, but you're convinced that you can overcome this. And slowly but surely, you do. You start enjoying social gatherings and make new friends, all because you believed you could change.
+    - Imagine you've always been the shy one in the room, avoiding social events like the plague. But then you decide you've had enough. You start saying 'yes' to invitations and even seek professional help to manage your anxiety. It's not easy, but you're convinced that you can overcome this. And slowly but surely, you do. You start enjoying social gatherings and make new friends, all because you believed you could change.
 
 - **Switching Career Paths**
 
-  - Picture this: you're well into your career, but you're not happy. You decide to switch industries. It's a risky move, filled with uncertainties and a steep learning curve. But you're not deterred. You believe your skills are transferable and that you can learn what you don't know. So, you take courses, network like crazy, and apply for jobs that scare you a little. And it pays off. You land a job in your new field, proving that self-belief can indeed move mountains.
+    - Picture this: you're well into your career, but you're not happy. You decide to switch industries. It's a risky move, filled with uncertainties and a steep learning curve. But you're not deterred. You believe your skills are transferable and that you can learn what you don't know. So, you take courses, network like crazy, and apply for jobs that scare you a little. And it pays off. You land a job in your new field, proving that self-belief can indeed move mountains.
 
 - **Parenting a Special Needs Child**
-  - Lastly, imagine becoming parents to a special needs child. It's overwhelming and challenging, but you don't let that break you. You're convinced that with the right education, expert advice, and a whole lot of love, you can give your child a fulfilling life. So, you dive into research, consult experts, and become your child's biggest advocate. Your belief in your ability to make a difference becomes a self-fulfilling prophecy, improving not just your child's life but yours as well.
+    - Lastly, imagine becoming parents to a special needs child. It's overwhelming and challenging, but you don't let that break you. You're convinced that with the right education, expert advice, and a whole lot of love, you can give your child a fulfilling life. So, you dive into research, consult experts, and become your child's biggest advocate. Your belief in your ability to make a difference becomes a self-fulfilling prophecy, improving not just your child's life but yours as well.
 
 <!-- Start with Why
 Real-world examples make the concept of self-efficacy relatable and easier to understand.
@@ -151,7 +156,7 @@ Next, we'll focus on actionable strategies to improve your self-efficacy.
 </article>
 <article class="section-content">
 
-<h2 id="how-to-improve">Chapter 3: How to Improve Your Self-Efficacy</h2>
+<h3 id="how-to-improve">Chapter 3: How to Improve Your Self-Efficacy</h3>
 
 So, how can you boost your self-efficacy? Let's dive into some actionable strategies.
 
@@ -161,9 +166,9 @@ So, how can you boost your self-efficacy? Let's dive into some actionable strate
   Achieving small goals provides tangible evidence of your capabilities, reinforcing your belief in your abilities. It's like the person who decided to run a marathon; they started with shorter runs and gradually increased the distance, each small win boosting their confidence.
 
 - **How to Implement**
-  - SMART Goals: Use the SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to set your goals.
-  - Action Plan: Break down the goal into smaller tasks and create a timeline.
-  - Celebrate Wins: Each time you achieve a small goal, celebrate it. This positive reinforcement will boost your self-efficacy.
+    - SMART Goals: Use the SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to set your goals.
+    - Action Plan: Break down the goal into smaller tasks and create a timeline.
+    - Celebrate Wins: Each time you achieve a small goal, celebrate it. This positive reinforcement will boost your self-efficacy.
 
 #### Finding Role Models
 
@@ -171,9 +176,9 @@ So, how can you boost your self-efficacy? Let's dive into some actionable strate
   Seeing someone else achieve what you aspire to can make the goal seem more attainable. It's like the person who took up painting; they were inspired by artists who had mastered the craft.
 
 - **How to Implement**
-  - Identify Role Models: Look for people who have achieved what you aim to.
-  - Study Their Path: Understand their journey, the challenges they faced, and how they overcame them.
-  - Engage: If possible, engage with your role models. Ask for advice or mentorship.
+    - Identify Role Models: Look for people who have achieved what you aim to.
+    - Study Their Path: Understand their journey, the challenges they faced, and how they overcame them.
+    - Engage: If possible, engage with your role models. Ask for advice or mentorship.
 
 #### Positive Affirmations
 
@@ -181,9 +186,9 @@ So, how can you boost your self-efficacy? Let's dive into some actionable strate
   Positive affirmations can rewire your brain to believe in your capabilities. They act as emotional support that boosts your confidence, much like the person overcoming social anxiety who used positive affirmations to change their thought patterns.
 
 - **How to Implement**
-  - Create Affirmations: Write down positive statements that resonate with you.
-  - Daily Practice: Repeat these affirmations daily, ideally in front of a mirror.
-  - Visual Reminders: Place these affirmations where you can see them regularly.
+    - Create Affirmations: Write down positive statements that resonate with you.
+    - Daily Practice: Repeat these affirmations daily, ideally in front of a mirror.
+    - Visual Reminders: Place these affirmations where you can see them regularly.
 
 #### Coping Mechanisms
 
@@ -191,9 +196,9 @@ So, how can you boost your self-efficacy? Let's dive into some actionable strate
   Life is full of challenges and setbacks. Having coping mechanisms helps you deal with stress and obstacles without losing your self-belief. Think of the parents of a special needs child; they had to develop coping mechanisms to navigate the complexities of healthcare and education.
 
 - **How to Implement**
-  - Stress-Relief Techniques: Learn methods like deep breathing, meditation, or exercise.
-  - Problem-Solving: Develop a systematic approach to solving problems. Break them into smaller parts and tackle them one at a time.
-  - Seek Support: Don't hesitate to seek emotional support from friends, family, or professionals.
+    - Stress-Relief Techniques: Learn methods like deep breathing, meditation, or exercise.
+    - Problem-Solving: Develop a systematic approach to solving problems. Break them into smaller parts and tackle them one at a time.
+    - Seek Support: Don't hesitate to seek emotional support from friends, family, or professionals.
 
 <!-- 4-5 Tips
 Setting and Achieving Small Goals: Use the SMART criteria.
@@ -210,7 +215,7 @@ Next, we'll explore how your environment can either boost or hinder your self-ef
 </article>
 <article class="section-content">
 
-<h2 id="role-of-environment">Chapter 4: The Role of Environment in Self-Efficacy</h2>
+<h3 id="role-of-environment">Chapter 4: The Role of Environment in Self-Efficacy</h3>
 
 Your environment plays a pivotal role in shaping your self-efficacy. It's not just about what you believe you can do; it's also about the external factors that either nurture or hinder those beliefs. Understanding the impact of different environments can help you make informed decisions to foster your self-efficacy.
 
@@ -249,7 +254,7 @@ In the next chapter, we'll discuss how self-efficacy relates to other psychologi
 </article>
 <article class="section-content">
 
-<h2 id="other-psychological-constructs">Chapter 5: Self-Efficacy and Other Psychological Constructs</h2>
+<h3 id="other-psychological-constructs">Chapter 5: Self-Efficacy and Other Psychological Constructs</h3>
 
 Understanding how self-efficacy interacts with other psychological constructs can provide a more holistic view of your mental well-being.
 
@@ -284,7 +289,7 @@ Next, we'll debunk some common myths and misconceptions about self-efficacy.
 </article>
 <article class="section-content">
 
-<h2 id="common-myths">Chapter 6: Common Myths and Misconceptions</h2>
+<h3 id="common-myths">Chapter 6: Common Myths and Misconceptions</h3>
 
 #### Myth 1: You Either Have Self-Efficacy/ Self Esteem or You Don't
 
@@ -313,7 +318,7 @@ Finally, we'll look at future trends and research in the field of self-efficacy.
 </article>
 <article class="section-content">
 
-<h2 id="research">Chapter 7: Future Trends and Research in Self-Efficacy</h2>
+<h3 id="research">Chapter 7: Future Trends and Research in Self-Efficacy</h3>
 
 Here is a list of current and past research having to do with self-efficacy.
 
