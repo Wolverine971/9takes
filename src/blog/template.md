@@ -2,9 +2,9 @@
 title: 'booboo An Enneagram Type tiptype'
 description: 'Why booboo appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2023-07-17'
+date: '2023-09-03'
 loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
-lastmod: '2023-07-17'
+lastmod: '2023-09-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -22,6 +22,11 @@ tiktok: ''
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter"></p>
+
+> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,10 +40,6 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
-
-<p class="firstLetter"></p>
 
 <details>
 <summary class="accordion">TL;DR: Why booboo is an Enneagram type tiptype </summary>

@@ -122,15 +122,15 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-08-29</lastmod>
+	    <lastmod>2023-09-03</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -138,8 +138,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{
