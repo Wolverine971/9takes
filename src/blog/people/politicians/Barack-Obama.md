@@ -134,7 +134,7 @@ Just as we speculated about Barack Obama's Enneagram type, it's interesting to c
 
 ## Wrapping up
 
-Barack Obama's possible Type 9 personality has provided us with fresh insights into his leadership style, making us question and explore the role of personality in shaping our world. What other public figures potentially could be Type 9s? Or what is <a href="/blog/famous-enneagram-types/Michelle-Obama">Michelle's Enneagram type?</a> If you are interested checkout this blog describing <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" >Michelle and Barack's relationship</a> from an enneagram perspective.
+Barack Obama's possible Type 9 personality has provided us with fresh insights into his leadership style, making us question and explore the role of personality in shaping our world. What other public figures potentially could be Type 9s? Or what is <a href="/blog/famous-enneagram-types/Michelle-Obama">Michelle's Enneagram type</a>? If you are interested checkout this blog describing <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" >Michelle and Barack's relationship</a> from an enneagram perspective.
 
 At 9takes, we are driven by the belief that understanding the Enneagram opens doors to empathy and mutual respect. Through meaningful discussions, we can bridge divides and build a more compassionate society.
 

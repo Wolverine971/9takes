@@ -16,8 +16,6 @@ pic: 'husband-and-wife-arguing'
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/husband-and-wife-arguing.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/community/inspiration-for-9takes">
 </svelte:head>
 
 <script>

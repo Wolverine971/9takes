@@ -85,7 +85,7 @@ Each of these types offers a distinct lens through which individuals view the wo
 
 Enneagram theory identifies three centers of intelligence - the Gut, Heart, and Head centers. Each center encompasses three of the Enneagram types and represents a core human emotion. The Gut center, related to instinct and autonomy, includes Types 8, 9, and 1. The Heart center, associated with identity and image, comprises Types 2, 3, and 4. The Head center, linked to thinking and fear, incorporates Types 5, 6, and 7.
 
-## The Myers-Briggs Type Indicator (MBTI): Unpacking its Genesis and Principles
+## The Myers-Briggs Type Indicator (MBTI)
 
 MBTI, a popular and scientifically applied personality framework, traces its origins to the mid-20th century. The brainchild of Katharine Cook Briggs and her daughter, Isabel Briggs Myers, MBTI was heavily influenced by the psychological theories of Carl Jung.
 

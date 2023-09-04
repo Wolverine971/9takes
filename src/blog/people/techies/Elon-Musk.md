@@ -1,6 +1,6 @@
 ---
 title: 'Elon Musk Enneagram Type 5'
-description: "Explore Elon Musk's intriguing personality through the lens of Enneagram Type 5. Dive into his life, relationships, and how Type 5 traits shape his ventures."
+description: "Explore Elon Musk's personality as an Enneagram Type 5. Dive into his life, relationships, and how Type 5 traits shape his ventures."
 author: 'DJ Wayne'
 date: '2023-09-03'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Elon-Musk'
@@ -16,7 +16,6 @@ twitter: 'https://twitter.com/elonmusk'
 instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
-
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

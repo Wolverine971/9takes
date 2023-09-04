@@ -20,6 +20,11 @@ tiktok:
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Michelle Obama is a lawyer, writer, and former First Lady of the United States. Her personality traits are indicative of an Enneagram type 1, also known as the Perfectionist.</p>
+
+> **Disclaimer** This analysis of Michelle Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Michelle Obama.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -33,10 +38,6 @@ tiktok:
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Michelle Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Michelle Obama.
-
-<p class="firstLetter">Michelle Obama is a lawyer, writer, and former First Lady of the United States. Her personality traits are indicative of an enneagram type 1, also known as the Perfectionist. Here are four reasons why Michelle Obama fits the characteristics of an enneagram type 1:</p>
 
 ## Strong sense of morality and justice
 
@@ -54,7 +55,7 @@ Another characteristic of enneagram type 1 individuals is their organization and
 
 Enneagram type 1 individuals often struggle with perfectionist tendencies and a fear of making mistakes. Michelle has spoken about the pressure she felt as a public figure and the constant scrutiny she faced. However, she has also acknowledged the importance of resilience and learning from failures.
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Barack-Obama">Barack</a> and read this to for a look into <a href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" class="external-link" target="_blank">Michelle and Barack's relationship.</a>
+Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Barack-Obama">Barack</a> and read this to for a look into <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple">Michelle and Barack's relationship.</a>
 
 <svelte:head>
 

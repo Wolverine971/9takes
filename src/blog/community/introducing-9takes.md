@@ -11,13 +11,11 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'greek-staue-in-an-open-cage-typing-on-a-computer'
+pic: 'greek-statue-in-an-open-cage-typing-on-a-computer'
 ---
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-staue-in-an-open-cage-typing-on-a-computer.webp" />
-  <link rel="canonical" href="https://9takes.com/blog/community/introducing-9takes">
 </svelte:head>
 
 <script>
@@ -34,7 +32,7 @@ pic: 'greek-staue-in-an-open-cage-typing-on-a-computer'
 margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/greek-staue-in-an-open-cage-typing-on-a-computer.webp`}
+		image={`/blogs/greek-statue-in-an-open-cage-typing-on-a-computer.webp`}
 		showIcon={false}
 		tint={true}
 		displayText=""
@@ -109,9 +107,6 @@ Through the prism of the Enneagram's nine unique archetypes, 9takes fosters a dy
 Through 9takes, we delve into the nuanced world of human psychology, fostering mutual understanding, inviting personal growth, and cultivating a deeper sense of community. Indeed, it's more than a platform - it's a kaleidoscope of the human experience, each 'take' adding a new dimension to our collective understanding.
 
 Join us on 9takes, where we celebrate the beauty of nuance in every conversation.
-
-
-
 
 Embracing Authenticity: Encouraging Unbiased Responses
 Setting 9takes apart is its novel approach to comment visibility. Until you add your voice to the conversation, the thoughts of others remain unseen, encouraging unbiased and authentic responses. In contrast to the echo chambers of many platforms, this innovation prompts users to actively contribute their own unique perspective before exploring the voices of others.

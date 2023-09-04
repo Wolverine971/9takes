@@ -41,7 +41,7 @@ Each Enneagram type has a place of comfort and a place of stress. Your place of 
 
 Knowing your stress number can be incredibly valuable because it helps you understand yourself better. When you're in a place of stress, you're likely to experience all sorts of negative emotions, such as anxiety, frustration, anger or feeling like everyone is against you. You might also exhibit behavior that you're not proud of, such as being controlling, manipulative, or passive-aggressive. Mentally and emotionally when you are in that state you start acting like another enneagram type.
 
-## Why it's hard to interact with enneagram types that are your stress number
+## Interacting with enneagram types that are your stress number
 
 The thing about your stress number is that it's the number that you act like when you are at your worst. It can be hard to interact with people who are your stress number because you might recognize the toxic parts of yourself in that Enneagram type. It is also possible that when you're around that enneagram type, it can trigger your own negative tendencies. You might not even recognize your stress number at first because it might be the number that you least identify with. However, if you pay attention to how you react to stress, you'll start to see patterns that indicate your stress number.
 

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Criticisms'
-description: 'Explore common criticisms of the Enneagram and the 9takes platform. Understand the debates on its scientific validity, stereotyping risks, and user engagement'
+title: 'Enneagram Criticisms: Validity, Stereotypes, and User Engagement'
+description: 'Explore common criticisms of the Enneagram as well as 9takes. Understand the debates behind the scientific validity of personality.'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
-lastmod: '2023-08-26'
+lastmod: '2023-09-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
