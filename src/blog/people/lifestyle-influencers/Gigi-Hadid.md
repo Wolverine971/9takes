@@ -51,6 +51,7 @@ rhobh yolanda -->
 	<PopCard
 		image={`/types/7s/${'Gigi-Hadid'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Gigi Hadid"
 		subtext=""
 	/>

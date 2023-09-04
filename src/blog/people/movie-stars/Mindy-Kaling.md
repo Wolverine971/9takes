@@ -33,6 +33,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/6s/${'Mindy-Kaling'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Mindy Kaling"
 		subtext=""
 	/>

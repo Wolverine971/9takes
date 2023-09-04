@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/8s/${'Jenna-Marbles'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Jenna Marbles"
 		subtext=""
 	/>

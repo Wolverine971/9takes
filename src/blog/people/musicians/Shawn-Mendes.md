@@ -29,6 +29,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/8s/${'Shawn-Mendes'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Shawn Mendes"
 		subtext=""
 	/>

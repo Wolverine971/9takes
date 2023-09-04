@@ -36,6 +36,7 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 	<PopCard
 		image={`/types/7s/${'Logan-Paul'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Logan Paul"
 		subtext=""
 	/>

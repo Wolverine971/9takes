@@ -47,6 +47,7 @@ sheri rae -->
 	<PopCard
 		image={`/types/7s/${'Addison-Rae'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Addison Rae"
 		subtext=""
 	/>

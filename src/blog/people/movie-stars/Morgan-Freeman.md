@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Morgan-Freeman'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Morgan Freeman"
 		subtext=""
 	/>

@@ -36,6 +36,7 @@ tiktok:
 	<PopCard
 		image={`/types/7s/${'Jon-Stewart'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Jon Stewart"
 		subtext=""
 	/>

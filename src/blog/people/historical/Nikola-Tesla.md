@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/4s/${'Nikola-Tesla'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Nikola Tesla"
 		subtext=""
 	/>

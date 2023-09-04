@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 	<PopCard
 		image={`/types/8s/${'Joe-Rogan'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Joe Rogan"
 		subtext=""
 	/>

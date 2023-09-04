@@ -44,6 +44,7 @@ tiktok:
 	<PopCard
 		image={`/types/4s/${'Casey-Neistat'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Casey Neistat"
 		subtext=""
 		text=""

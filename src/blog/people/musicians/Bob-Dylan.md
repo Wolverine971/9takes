@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Bob-Dylan'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Bob Dylan"
 		subtext=""
 	/>

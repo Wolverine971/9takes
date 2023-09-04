@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/George-W-Bush.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="George W. Bush"
 		subtext=""
 	/>

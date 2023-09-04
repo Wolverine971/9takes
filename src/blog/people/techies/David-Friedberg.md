@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'David-Friedberg'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="David Friedberg"
 		subtext=""
 	/>

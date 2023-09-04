@@ -48,6 +48,7 @@ evry jewels tana mongeau -->
 	<PopCard
 		image={`/types/3s/${'Tana-Mongeau'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Tana Mongeau"
 		subtext=""
 	/>

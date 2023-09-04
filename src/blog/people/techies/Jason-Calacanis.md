@@ -34,6 +34,7 @@ tiktok:
 	<PopCard
 		image={`/types/3s/${'Jason-Calacanis'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Jason Calacanis"
 		subtext=""
 	/>

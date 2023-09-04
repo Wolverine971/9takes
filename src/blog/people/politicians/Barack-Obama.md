@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 	<PopCard
 		image={`/types/9s/Barack-Obama.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Barack Obama"
 		subtext=""
 	/>

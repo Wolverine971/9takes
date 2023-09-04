@@ -56,6 +56,7 @@ vacation bella poarch -->
 	<PopCard
 		image={`/types/7s/${'Bella-Poarch'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Bella Poarch"
 		subtext=""
 	/>

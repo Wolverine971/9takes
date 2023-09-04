@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 	<PopCard
 		image={`/types/8s/${'Mr-Beast'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Mr. Beast"
 		subtext=""
 	/>

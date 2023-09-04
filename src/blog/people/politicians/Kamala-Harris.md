@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Kamala-Harris'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Kamala Harris"
 		subtext=""
 	/>

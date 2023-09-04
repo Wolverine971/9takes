@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/8s/${'Denzel-Washington'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Denzel Washington"
 		subtext=""
 	/>

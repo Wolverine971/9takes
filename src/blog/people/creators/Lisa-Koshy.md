@@ -32,6 +32,7 @@ tiktok:
 	<PopCard
 		image={`/types/3s/${'Lisa-Koshy'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Lisa Koshy"
 		subtext=""
 	/>

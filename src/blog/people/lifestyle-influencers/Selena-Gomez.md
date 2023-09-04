@@ -31,6 +31,7 @@ tiktok: 'https://www.tiktok.com/@selenagomez'
 	<PopCard
 		image={`/types/7s/${'Selena-Gomez'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Selena Gomez"
 		subtext=""
 	/>

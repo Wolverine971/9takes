@@ -68,6 +68,7 @@ jungkook justin bieber -->
 	<PopCard
 		image={`/types/7s/${'Justin-Bieber'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Justin Bieber"
 		subtext=""
 	/>

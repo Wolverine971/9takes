@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Chamath-Palihapitiya'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Chamath Palihapitiya"
 		subtext=""
 	/>

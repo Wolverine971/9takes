@@ -36,6 +36,7 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 	<PopCard
 		image={`/types/4s/${'Lady-Gaga'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Lady Gaga"
 		subtext=""
 	/>

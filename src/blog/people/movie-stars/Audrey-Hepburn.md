@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Audrey-Hepburn'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Audrey Hepburn"
 		subtext=""
 	/>

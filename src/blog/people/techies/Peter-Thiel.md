@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Peter-Thiel'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Peter Thiel"
 		subtext=""
 	/>

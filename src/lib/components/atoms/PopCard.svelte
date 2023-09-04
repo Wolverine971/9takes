@@ -8,6 +8,7 @@
 	export let aspectRatio: string = '';
 
 	export let displayText: string = '';
+	export let enneagramType: number = 0;
 	export let altText: string = '';
 	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
 

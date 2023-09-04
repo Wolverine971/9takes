@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Janelle-Monae'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Janelle Monae"
 		subtext=""
 	/>

@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@'
 	<PopCard
 		image={`/types/7s/${'Josh-Richards'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Josh Richards"
 		subtext=""
 	/>

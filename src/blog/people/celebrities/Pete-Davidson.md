@@ -58,6 +58,7 @@ Pete Davidson jokes
 	<PopCard
 		image={`/types/9s/${'Pete-Davidson'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Pete Davidson"
 		subtext=""
 	/>

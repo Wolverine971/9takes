@@ -31,6 +31,7 @@ tiktok:
 	<PopCard
 		image={`/types/3s/${'Krystal-Ball'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Krystal Ball"
 		subtext=""
 	/>

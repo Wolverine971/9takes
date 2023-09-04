@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
 	<PopCard
 		image={`/types/8s/${'Emily-Ratajkowski'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Emily Ratajkowski"
 		subtext=""
 	/>

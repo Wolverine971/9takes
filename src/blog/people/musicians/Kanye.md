@@ -57,6 +57,7 @@ Kanye West interviews -->
 	<PopCard
 		image={`/types/7s/${'Kanye'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Kanye"
 		subtext=""
 	/>

@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/4s/${'Robert-Oppenheimer'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Robert Oppenheimer"
 		subtext=""
 	/>

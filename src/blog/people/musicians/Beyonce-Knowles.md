@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	<PopCard
 		image={`/types/8s/${'Beyonce-Knowles'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Beyoncé Knowles"
 		subtext=""
 	/>

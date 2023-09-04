@@ -39,6 +39,7 @@ the complacent class -->
 	<PopCard
 		image={`/types/3s/${'Tyler-Cowen'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Tyler Cowen"
 		subtext=""
 	/>

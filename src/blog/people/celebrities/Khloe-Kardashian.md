@@ -33,6 +33,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/6s/${'Khloe-Kardashian'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Khloé Kardashian"
 		subtext=""
 	/>

@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'boo-boo'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="booboo"
 		subtext=""
 	/>

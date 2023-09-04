@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Michael-Seibel'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Michael Seibel"
 		subtext=""
 	/>

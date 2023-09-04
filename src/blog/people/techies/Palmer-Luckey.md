@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Palmer-Luckey'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Palmer Luckey"
 		subtext=""
 	/>

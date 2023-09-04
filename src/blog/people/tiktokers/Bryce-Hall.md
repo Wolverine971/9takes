@@ -29,6 +29,7 @@ tiktok: 'https://www.tiktok.com/@brycehall'
 	<PopCard
 		image={`/types/7s/${'Bryce-Hall'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Bryce Halll"
 		subtext=""
 	/>

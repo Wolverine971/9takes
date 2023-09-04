@@ -29,6 +29,7 @@ tiktok: 'https://www.tiktok.com/@johnnydepp'
 	<PopCard
 		image={`/types/4s/${'Johnny-Depp'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Johnny Depp"
 		subtext=""
 	/>

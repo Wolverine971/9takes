@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Sam-Altman'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Sam Altman"
 		subtext=""
 	/>

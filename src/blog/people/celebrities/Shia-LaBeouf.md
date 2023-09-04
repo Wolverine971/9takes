@@ -31,6 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Shia-LaBeouf'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Shia LaBeouf"
 		subtext=""
 	/>

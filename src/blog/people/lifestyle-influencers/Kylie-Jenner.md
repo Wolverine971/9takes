@@ -36,6 +36,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	<PopCard
 		image={`/types/9s/${'Kylie-Jenner'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Kylie Jenner"
 		subtext=""
 	/>

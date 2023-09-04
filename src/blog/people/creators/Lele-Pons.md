@@ -85,6 +85,7 @@ lele pons boots
 	<PopCard
 		image={`/types/7s/${'Lele-Pons'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Lele Pons"
 		subtext=""
 	/>

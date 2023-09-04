@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Prince-Harry'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Prince Harry"
 		subtext=""
 	/>

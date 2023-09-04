@@ -29,6 +29,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 	<PopCard
 		image={`/types/7s/${'Charli-D'Amelio'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Charli D'Amelio"
 		subtext=""
 	/>

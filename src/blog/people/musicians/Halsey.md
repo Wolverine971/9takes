@@ -56,6 +56,7 @@ Halsey Instagram -->
 	<PopCard
 		image={`/types/8s/${'Halsey'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Halsey"
 		subtext=""
 	/>

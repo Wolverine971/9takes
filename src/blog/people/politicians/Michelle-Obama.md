@@ -34,6 +34,7 @@ tiktok:
 	<PopCard
 		image={`/types/1s/${'Michelle-Obama'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Michelle Obama"
 		subtext=""
 	/>

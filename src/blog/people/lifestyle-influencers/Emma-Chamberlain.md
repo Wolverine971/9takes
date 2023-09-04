@@ -41,6 +41,7 @@ emma chamberlain 17 -->
 	<PopCard
 		image={`/types/3s/${'Emma-Chamberlain'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Emma Chamberlain"
 		subtext=""
 	/>

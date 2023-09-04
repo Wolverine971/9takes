@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/8s/${'Margot-Robbie'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Margot Robbie"
 		subtext=""
 	/>
@@ -123,7 +124,7 @@ Robbie's portrayal transcends acting; it's an exploration of her Enneagram Type 
  showIcon={false}
  displayText=""
  altText="Margot Robbie as Harley Quinn"
- subtext="" 
+ subtext=""
   />
  <PopCard
  image={`/types/8s/${'margo-harley'}.webp`}

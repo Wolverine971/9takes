@@ -29,6 +29,7 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	<PopCard
 		image={`/types/7s/${'The- Weeknd'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="The Weeknd"
 		subtext=""
 	/>

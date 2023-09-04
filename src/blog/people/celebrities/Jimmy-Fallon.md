@@ -41,6 +41,7 @@ late show with david letterman -->
 	<PopCard
 		image={`/types/6s/${'Jimmy Fallon'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Jimmy Fallon"
 		subtext=""
 	/>

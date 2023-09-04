@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Dalton-Cadwell'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Dalton Cadwell"
 		subtext=""
 	/>

@@ -34,6 +34,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/4s/${'Frida-Kahlo'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Frida Kahlo"
 		subtext=""
 	/>

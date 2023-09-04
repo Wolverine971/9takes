@@ -34,6 +34,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Jack-Dorsey'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Jack Dorsey"
 		subtext=""
 	/>

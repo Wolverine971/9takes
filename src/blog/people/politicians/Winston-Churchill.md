@@ -28,6 +28,7 @@ margin: 1rem 0;"
 	<PopCard
 		image={`/types/8s/${'Winston-Churchill'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Winston Churchill"
 		subtext=""
 	/>

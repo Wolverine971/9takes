@@ -35,6 +35,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Marie-Kondo'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Marie Kondo"
 		subtext=""
 	/>

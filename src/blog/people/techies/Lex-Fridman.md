@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	<PopCard
 		image={`/types/5s/${'Lex-Fridman'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Lex Fridman"
 		subtext=""
 	/>

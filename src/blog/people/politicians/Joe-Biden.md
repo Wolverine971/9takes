@@ -34,6 +34,7 @@ tiktok:
 	<PopCard
 		image={`/types/2s/${'Joe-Biden'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Joe Biden"
 		subtext=""
 	/>

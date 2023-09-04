@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Grimes'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Grimes"
 		subtext=""
 	/>

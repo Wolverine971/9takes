@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	<PopCard
 		image={`/types/9s/Bernie-Sanders.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Bernie Sanders"
 		subtext=""
 	/>

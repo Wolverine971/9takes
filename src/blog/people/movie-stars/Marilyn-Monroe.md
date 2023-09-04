@@ -28,6 +28,7 @@ tiktok: 'https://www.tiktok.com/@marilynmonroe'
 	<PopCard
 		image={`/types/6s/${'Marilyn-Monroe'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Marilyn Monroe"
 		subtext=""
 	/>

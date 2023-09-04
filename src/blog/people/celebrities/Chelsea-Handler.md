@@ -33,6 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Chelsea-Handler'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Chelsea Handler"
 		subtext=""
 	/>

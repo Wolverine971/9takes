@@ -34,6 +34,7 @@ tiktok:
 	<PopCard
 		image={`/types/8s/${'Dave-Portnoy'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Dave Portnoy"
 		subtext=""
 	/>
@@ -130,6 +131,7 @@ In a world where public figures often shy away from displaying such raw emotions
 	<PopCard
 		image={`/types/dave-approval.webp`}
 		showIcon={false}
+		enneagramType=""
 		aspectRatio="16/9"
 		displayText=""
     altText="dave portnoy giving disproval"

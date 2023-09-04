@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/2s/${'Nancy-Reagan'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Nancy Reagan"
 		subtext=""
 	/>

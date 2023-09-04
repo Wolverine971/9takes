@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/3s/${'Nancy-Pelosi'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Nancy Pelosi"
 		subtext=""
 	/>

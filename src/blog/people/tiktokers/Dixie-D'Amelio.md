@@ -29,6 +29,7 @@ tiktok: 'https://www.tiktok.com/@dixiedamelio'
 	<PopCard
 		image={`/types/7s/${'Dixie-D'Amelio'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Dixie D'Ameliot="
 	/>
 </div> -->

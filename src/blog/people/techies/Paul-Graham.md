@@ -39,6 +39,7 @@ paul graham on writing -->
 	<PopCard
 		image={`/types/5s/${'Paul-Graham'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Paul Graham"
 		subtext=""
 	/>

@@ -54,6 +54,7 @@ Kendal Jenner - 4??? -->
 	<PopCard
 		image={`/types/3s/${'Kim-Kardashian'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Kim Kardashian"
 		subtext=""
 	/>

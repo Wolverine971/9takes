@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 	<PopCard
 		image={`/types/5s/${'Elon-Musk'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Elon Musk"
 		subtext=""
 	/>

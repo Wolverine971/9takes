@@ -33,6 +33,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 	<PopCard
 		image={`/types/6s/${'Ellen-Degeneres'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Ellen Degeneres"
 		subtext=""
 	/>

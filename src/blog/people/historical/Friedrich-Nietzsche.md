@@ -36,6 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/5s/${'Friedrich-Nietzsche'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Friedrich Nietzsche"
 		subtext=""
 	/>

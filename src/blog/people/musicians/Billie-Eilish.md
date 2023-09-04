@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	<PopCard
 		image={`/types/9s/${'Billie-Eilish'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Billie Eilish"
 		subtext=""
 	/>

@@ -42,6 +42,7 @@ maddie beer -->
 	<PopCard
 		image={`/types/7s/${'Madison-Beer'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Madison Beer"
 		subtext=""
 	/>

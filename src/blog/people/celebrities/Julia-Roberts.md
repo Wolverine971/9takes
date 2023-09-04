@@ -32,6 +32,7 @@ tiktok:
 	<PopCard
 		image={`/types/6s/${'Julia-Roberts'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Julia Roberts"
 		subtext=""
 	/>

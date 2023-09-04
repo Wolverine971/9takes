@@ -29,6 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/2s/${'Meghan-Markle'}.webp`}
 		showIcon={false}
+		enneagramType=""
 		displayText="Meghan Markle"
 		subtext=""
 	/>
