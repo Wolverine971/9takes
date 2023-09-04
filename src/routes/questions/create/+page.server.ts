@@ -20,7 +20,7 @@ import { typeaheadQuery } from '../../../utils/elasticSearch';
 import { elasticClient } from '$lib/elasticSearch';
 
 export const actions: Actions = {
-	getUrl: async ({ request, locals }) => {
+	getUrl: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;
@@ -68,7 +68,7 @@ export const actions: Actions = {
 		// console.log(tempUrl);
 		// return tempUrl;
 	},
-	createQuestion: async ({ request, locals }) => {
+	createQuestion: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;

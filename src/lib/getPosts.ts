@@ -38,7 +38,7 @@ export async function getPosts() {
 
 const getAllPosts = async (): Promise<App.BlogPost[]> => {
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
+	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
 	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
 	const lifestyleInfluencers = import.meta.glob(
 		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
@@ -52,7 +52,7 @@ const getAllPosts = async (): Promise<App.BlogPost[]> => {
 
 	const imports = [
 		celebrities,
-		commedians,
+		comedians,
 		creators,
 		lifestyleInfluencers,
 		movieStars,

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2023-07-13'
+lastmod: '2023-09-03'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -283,7 +283,7 @@ th {
     border-radius:5px
 }
 
-/* @import '../../scss/index.scss'; */
+/*@import '../../scss/index.scss';*/
 
     .section-main {
         display: flex;
