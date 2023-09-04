@@ -123,6 +123,19 @@
 		}
 	};
 
+	const share = () => {
+		if (navigator?.share) {
+			const shareData = {
+				url: `https:9takes.com/questions/${data.question.url}`,
+				text: '9takes Question',
+				title: data.question.question
+			};
+			navigator.share(shareData);
+		} else {
+			alert('Copy the URL, it is shareable');
+		}
+	};
+
 	let innerWidth: number = 0;
 </script>
 
@@ -159,7 +172,7 @@
 					''}
 			/>
 		</button>
-		<button title="Share" class="corner-btn" on:click={() => console.log('share')}>
+		<button title="Share" class="corner-btn" on:click={() => share()}>
 			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
 		</button>
 	{/if}

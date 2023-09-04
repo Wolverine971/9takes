@@ -155,20 +155,22 @@
 <svelte:window bind:innerWidth />
 
 <Card style="margin: .5rem 0; padding: .5rem;">
-	<div class="comment-meta">
-		<a
-			class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-			href={_commentComment?.profiles?.external_id
-				? `/users/${_commentComment.profiles.external_id}`
-				: ''}
-		>
-			{_commentComment?.profiles?.enneagram || 'Rando'}
-		</a>
-		/
-		<span style="min-width:30px"
-			>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
-		</span>
-	</div>
+	{#if innerWidth > 500}
+		<div class="comment-meta">
+			<a
+				class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+				href={_commentComment?.profiles?.external_id
+					? `/users/${_commentComment.profiles.external_id}`
+					: ''}
+			>
+				{_commentComment?.profiles?.enneagram || 'Rando'}
+			</a>
+			/
+			<span style="min-width:30px"
+				>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
+			</span>
+		</div>
+	{/if}
 	<div class="user-comment">
 		<div
 			style="display: flex; {innerWidth > 500
@@ -372,8 +374,8 @@
 		// top: 0;
 		// left: 0;
 
-		width: 10%;
 		min-width: 30px;
+		padding: 0.2rem;
 
 		align-self: center;
 		// display: flex;
