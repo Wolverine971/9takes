@@ -97,7 +97,7 @@ On the other hand, Enneagram Type 8 individuals can be quite dominant and contro
 
 To have a successful relationship with an Enneagram Type 8 individual, it is important to communicate openly and honestly, while also respecting their need for independence and autonomy. It can also be helpful to establish clear boundaries and expectations early on in the relationship, and to be willing to compromise and find common ground when conflicts arise. Additionally, it may be helpful for Enneagram Type 8 individuals to work on developing their emotional intelligence and vulnerability in order to build stronger, more intimate connections with their partners.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -111,7 +111,7 @@ In the workplace, Enneagram Type 8 individuals can be highly assertive and may s
 
 To work successfully with an Enneagram Type 8 individual, it is important to be direct and clear in communication, while also respecting their need for autonomy and independence. It can also be helpful to establish clear boundaries and expectations early on in the working relationship, and to be willing to collaborate and compromise when necessary. Additionally, it may be important to provide Enneagram Type 8 individuals with opportunities to take on leadership roles and exercise their problem-solving skills, while also supporting them in developing their emotional intelligence and ability to work collaboratively with others.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

@@ -113,7 +113,7 @@ Type 4s are known for their creativity and passion, which can make them deeply a
 
 In relationships, Type 4s may struggle with feelings of jealousy or insecurity, particularly if they perceive their partner as more successful or accomplished in certain areas. They may also have a tendency to idealize their partners or romanticize their relationships, which can set them up for disappointment or disillusionment when reality fails to live up to their expectations.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -127,7 +127,7 @@ Type 4s are often drawn to work that allows them to express their individuality 
 
 In the workplace, Type 4s may struggle with feelings of boredom or restlessness, particularly if they feel their work lacks meaning or purpose. They may also be prone to moodiness or sensitivity to criticism, and may struggle to take feedback or direction from others. However, they can be deeply committed and loyal team members who bring a unique perspective and creative flair to their work.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

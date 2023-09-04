@@ -118,7 +118,7 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also have a tendency to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -132,7 +132,7 @@ Type 5s value autonomy and may prefer working independently or in small groups r
 
 While they are often highly skilled and knowledgeable in their areas of expertise, Type 5s may struggle with sharing their insights and ideas with others. They may need to be encouraged to communicate their knowledge and expertise with colleagues and may require additional support to develop their interpersonal skills.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

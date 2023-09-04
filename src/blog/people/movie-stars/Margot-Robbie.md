@@ -65,7 +65,7 @@ In the realm of the Enneagram, Type 8 is known as The Challenger. This type is c
 
 #### Unraveling the Enneagram 8 in Margot Robbie
 
-Margot Robbie's life and career provide evidence of her being a Type 8. From her breakthrough role in the "Wolf of Wall Street" alongside [Leonardo DiCaprio](/blog/famous-enneagram-types/Leonardo-DiCaprio) to her fearless portrayal of Harley Quinn in the DC Universe, Robbie's career choices reflect her audacity, resilience, and ambition – traits commonly associated with Type 8 personalities.
+Margot Robbie's life and career provide evidence of her being a Type 8. From her breakthrough role in the "Wolf of Wall Street" alongside <a href="/blog/famous-enneagram-types/Leonardo-DiCaprio">Leonardo DiCaprio</a> to her fearless portrayal of Harley Quinn in the DC Universe, Robbie's career choices reflect her audacity, resilience, and ambition – traits commonly associated with Type 8 personalities.
 
 #### A Willingness to Confront and Embrace Anger
 

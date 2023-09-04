@@ -111,7 +111,7 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 - Prone to Anxiety and Worry: Type 6s may be prone to anxiety and worry, which can impact their relationships. They may overthink or obsess about potential problems, and may struggle with trust or vulnerability.
 - Can be Defensive or Reactive: When their fears or insecurities are triggered, type 6s may become defensive or reactive. They may struggle with criticism or conflict, and may feel threatened by changes or challenges in the relationship.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -125,7 +125,7 @@ At the same time, Type 6s may struggle with self-doubt and anxiety in the workpl
 
 To get the best out of a Type 6 employee, it's important to provide clear guidelines and expectations, and to offer plenty of opportunities for feedback and support. Type 6s also respond well to recognition and appreciation, so it's a good idea to acknowledge their contributions and efforts regularly.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

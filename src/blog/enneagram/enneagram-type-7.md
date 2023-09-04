@@ -111,7 +111,7 @@ However, Type 7s can also struggle with staying committed to long-term relations
 
 To help Type 7s thrive in relationships, it is important for them to have a partner who shares their sense of adventure and is willing to explore new things with them. It is also helpful for their partner to be patient and understanding when they become restless or distracted. It can be helpful for Type 7s to learn to embrace difficult emotions and work on developing deeper connections with their partner, rather than just seeking out new experiences.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -125,7 +125,7 @@ However, Type 7s can sometimes struggle with following through on commitments an
 
 To help Type 7s thrive in the workplace, it can be helpful to provide them with a variety of tasks and opportunities to learn new things. It can also be useful to provide regular check-ins to help them stay on track with their goals and commitments. Additionally, it can be helpful to encourage them to take breaks and engage in activities that promote creativity and imagination.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

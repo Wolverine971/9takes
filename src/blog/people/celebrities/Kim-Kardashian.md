@@ -89,11 +89,11 @@ When we consider the debate surrounding her rise to fame, there are varied opini
 
 What sets Kim apart from the stereotypical Type 3, absorbed solely in personal success, is her enduring commitment to her family. Her love for her children is palpable. Whether it's posting candid photos of family life on social media or fiercely protecting their privacy, Kim juggles her roles as a businesswoman and mother with evident passion.
 
-Furthermore, her relationships with her sisters— [Kourtney](/blog/famous-enneagram-types/Kourtney-Kardashian), [Khloé](/blog/famous-enneagram-types/Khloe-Kardashian), [Kylie](/blog/famous-enneagram-types/Kylie-Jenner), and Kendall—provide her a support network, a personal and professional advantage that she doesn't take for granted.
+Furthermore, her relationships with her sisters— <a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a>, and Kendall—provide her a support network, a personal and professional advantage that she doesn't take for granted.
 
 ## The Multi-Faceted Achiever: Kanye, Pete, and a Law Degree
 
-Kim's relationships have often been in the public eye, most notably her marriage to [Kanye West](/blog/famous-enneagram-types/Kanye) and her current relationship with [Pete Davidson](/blog/famous-enneagram-types/Pete-Davidson). These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, something that many Type 3s strive for but often struggle to balance with their ambitious goals.
+Kim's relationships have often been in the public eye, most notably her marriage to <a href="/blog/famous-enneagram-types/Kanye">Kanye West</a> and her current relationship with <a href="/blog/famous-enneagram-types/Pete-Davidson">Pete Davidson</a>. These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, something that many Type 3s strive for but often struggle to balance with their ambitious goals.
 
 Which brings us to another fascinating aspect of Kim—her pursuit of a law degree. Many were surprised when she announced her intention to become a lawyer. But think about it: this move is quintessentially Type 3. It’s not just about another achievement to add to her roster; it’s about meaningful success. Kim's advocacy work on criminal justice reform indicates a desire to merge her social influence with social impact, another hallmark of a well-integrated Type 3.
 

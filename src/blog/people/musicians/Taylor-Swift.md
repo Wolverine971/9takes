@@ -69,7 +69,7 @@ From an early age, Swift displayed the tenacity and ambition often associated wi
 
 #### Navigating Controversies: The Resilient Achiever
 
-Swift’s resilience in the face of controversies is a further testament to her Achiever persona. Through public feuds, such as those with [Kanye West](/blog/famous-enneagram-types/Kanye) and [Kim Kardashian](/blog/famous-enneagram-types/Kim-Kardashian), she has remained focused on her career. She has used these experiences as fodder for her songs, turning potential setbacks into victories. Her 2017 album, "Reputation," was a direct response to public criticism, demonstrating her adaptability and focus on controlling her narrative.
+Swift’s resilience in the face of controversies is a further testament to her Achiever persona. Through public feuds, such as those with <a href="/blog/famous-enneagram-types/Kanye" >Kanye West</a> and <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a>, she has remained focused on her career. She has used these experiences as fodder for her songs, turning potential setbacks into victories. Her 2017 album, "Reputation," was a direct response to public criticism, demonstrating her adaptability and focus on controlling her narrative.
 
 #### Taylor’s Image and Charisma: The Magnetic Achiever
 

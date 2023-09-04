@@ -128,7 +128,7 @@ However, Enneagram Type 9 individuals may also struggle with expressing their ow
 
 Enneagram Type 9 individuals may also be hesitant to make decisions or take action in their relationships, as they fear that doing so could upset the harmony they have worked hard to maintain. They may need reassurance from their partner and may benefit from a partner who is more assertive and can help them navigate decision-making.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -144,7 +144,7 @@ However, Enneagram Type 9 individuals may struggle with assertiveness and may fi
 
 Enneagram Type 9 individuals may excel in roles that require a calm and supportive presence, such as counseling, social work, or customer service. They may also thrive in roles that allow them to work with a team to achieve a shared goal, such as project management or collaborative creative work.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

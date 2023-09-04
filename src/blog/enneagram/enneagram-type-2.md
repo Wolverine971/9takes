@@ -107,7 +107,7 @@ Type 2 personalities are highly social and enjoy connecting with others. They ar
 
 However, their desire to be needed can also lead to unhealthy relationship dynamics. Type 2 personalities may struggle to express their own needs and emotions, leading to feelings of resentment and unmet needs. They may also become overly dependent on their relationships, leading to co-dependency and an inability to function independently.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -117,7 +117,7 @@ Learn more about [other types in relationships](/blog/enneagram/enneagram-types-
 
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for providing emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and to ensure that their own needs are being met.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

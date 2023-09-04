@@ -126,7 +126,7 @@ Type 1 personalities have high expectations for themselves and their partners. T
 - They may struggle with expressing vulnerability and emotions
 - They can be critical of their partners if they feel they are not meeting their high standards
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -141,7 +141,7 @@ Type 1 personalities excel in roles that require attention to detail, high stand
 - They have a strong sense of ethics and are known for making ethical decisions
 - They are detail-oriented and excel in roles that require attention to detail
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 

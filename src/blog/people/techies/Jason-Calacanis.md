@@ -54,7 +54,7 @@ tiktok:
 
 ## Jason Calacanis: An Embodiment of The Achiever?
 
-Internationally recognized entrepreneur, angel investor, and host of the "[This Week in Startups](https://www.youtube.com/c/thisweekin)" podcast, Jason Calacanis, has left an indelible imprint on the tech industry. But what could be the driving force behind his accomplishments? Could it be an inherent yearning to feel valuable and worthwhile, characteristic of the Enneagram Type 3 - The Achiever?
+Internationally recognized entrepreneur, angel investor, and host of the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" podcast, Jason Calacanis, has left an indelible imprint on the tech industry. But what could be the driving force behind his accomplishments? Could it be an inherent yearning to feel valuable and worthwhile, characteristic of the Enneagram Type 3 - The Achiever?
 
 ### The Achiever: An Overview
 
@@ -64,7 +64,7 @@ When stressed or disintegrated, Threes may become disengaged and apathetic, akin
 
 ## Jason Calacanis: Tracing The Achiever's Path
 
-In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from [Weblogs Inc](https://en.wikipedia.org/wiki/Weblogs,_Inc.) to [Mahalo](https://en.wikipedia.org/wiki/Mahalo.com), stand testament to his ambition and competence. He is a self-proclaimed "hustler," striving relentlessly towards his goals, embodying the Achiever's drive for advancement.
+In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Weblogs,_Inc." >Weblogs Inc</a> to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mahalo.com" >Mahalo</a>, stand testament to his ambition and competence. He is a self-proclaimed "hustler," striving relentlessly towards his goals, embodying the Achiever's drive for advancement.
 
 ### The Charmer and The Professional
 

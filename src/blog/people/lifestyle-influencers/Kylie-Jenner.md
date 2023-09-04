@@ -63,7 +63,8 @@ Jenner's public life is splashed across tabloid pages and Instagram feeds, offer
 
 ## The Desire for Harmony
 
-One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony. This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, [Kim](/blog/famous-enneagram-types/Kim-Kardashian), [Khloé](/blog/famous-enneagram-types/Khloe-Kardashian), and [Kourtney](/blog/famous-enneagram-types/Kourtney-Kardashian). She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
+One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony. This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and 
+<a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>. She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
 
 ## The Inertia of a Billionaire
 

@@ -112,7 +112,7 @@ In relationships, Enneagram Type 3 individuals often seek partners who can appre
 
 However, their focus on success can sometimes lead to a lack of emotional intimacy and neglect of their partner's needs. They may struggle to express their own feelings and may prioritize their career over their relationships.
 
-Learn more about [other types in relationships](/blog/enneagram/enneagram-types-in-relationships)
+Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
 </article>
 
@@ -128,7 +128,7 @@ Type 3s are often excellent at multitasking and can juggle multiple projects sim
 
 However, Type 3s may struggle with work-life balance, as they can sometimes prioritize their career goals over their personal lives. They may also struggle with delegating tasks to others, as they often feel that they can do things better themselves. Additionally, they may struggle with criticism and can be sensitive to feedback that they perceive as negative.
 
-Learn more about [other types in the workplace](/blog/enneagram/enneagram-types-working-in-teams)
+Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </article>
 
