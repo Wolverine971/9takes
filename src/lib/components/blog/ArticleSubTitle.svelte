@@ -9,7 +9,13 @@
 <p>
 	<span class="author" title="he is so cool"
 		>{metaData.author}
-		<a target="_blank" rel="noreferrer" href="https://twitter.com/djwayne3" style="padding: 0.5rem">
+		<a
+			class="external-link"
+			target="_blank"
+			rel="noreferrer"
+			href="https://twitter.com/djwayne3"
+			style="padding: 0.5rem"
+		>
 			<img src={twitter} alt="djwayne3 Twitter" class="icon" style="width:1.5rem" />
 		</a>
 	</span>

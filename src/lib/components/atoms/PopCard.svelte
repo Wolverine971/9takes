@@ -99,7 +99,7 @@
 			{:else}
 				<p style="width: 100%;" />
 			{/if}
-			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" target="_blank">@Hyperplexed</a> -->
+			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" class="external-link" target="_blank">@Hyperplexed</a> -->
 			<p class="link">{subtext}</p>
 		</div>
 	</div>

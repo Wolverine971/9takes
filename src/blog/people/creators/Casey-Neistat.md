@@ -31,7 +31,7 @@ tiktok:
 <img src="/casey-neistat2.svg" />
 </div> -->
 
-<p class="firstLetter">Vlogger, filmmaker, and entrepreneur, <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Casey_Neistat">Casey Neistat</a> is an enigma wrapped in a pair of Ray-Ban sunglasses. A man of details, intricacies, and a storyteller of the everyday, he is as iconic as he is idiosyncratic. He welcomes chaos and quietude, embodying the raw complexity of an Enneagram 4. This post delves into the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.</p>
+<p class="firstLetter">Vlogger, filmmaker, and entrepreneur, <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Casey_Neistat">Casey Neistat</a> is an enigma wrapped in a pair of Ray-Ban sunglasses. A man of details, intricacies, and a storyteller of the everyday, he is as iconic as he is idiosyncratic. He welcomes chaos and quietude, embodying the raw complexity of an Enneagram 4. This post delves into the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.</p>
 
 > **Disclaimer** This analysis of Casey Neistat's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Casey Neistat.
 

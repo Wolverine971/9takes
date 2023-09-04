@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kylie_Jenner">Kylie Jenner</a>, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
+<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kylie_Jenner">Kylie Jenner</a>, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
 
 > **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
 

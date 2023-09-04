@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to a prominent figure in the boxing arena. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jake_Paul">Jake Paul</a>, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.</p>
+<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to a prominent figure in the boxing arena. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jake_Paul">Jake Paul</a>, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.</p>
 
 > **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 

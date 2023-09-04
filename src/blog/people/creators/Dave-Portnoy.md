@@ -21,7 +21,7 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've seen him on social media, you've heard about his controversies, and you've probably even watched his BFFs podcast. But have you ever wondered what makes <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Dave_Portnoy" >Dave Portnoy</a> tick? What's the driving force behind the man who sold Barstool Sports only to buy it back from Penn Gaming? Today, we're diving deep into Dave's psyche, speculating on his Enneagram personality type: Type 8, also known as the Challenger.</p>
+<p class="firstLetter">You've seen him on social media, you've heard about his controversies, and you've probably even watched his BFFs podcast. But have you ever wondered what makes <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Dave_Portnoy" >Dave Portnoy</a> tick? What's the driving force behind the man who sold Barstool Sports only to buy it back from Penn Gaming? Today, we're diving deep into Dave's psyche, speculating on his Enneagram personality type: Type 8, also known as the Challenger.</p>
 
 > **Disclaimer** This analysis of Dave Portnoy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Dave Portnoy.
 

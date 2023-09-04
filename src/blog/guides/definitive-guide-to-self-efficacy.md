@@ -327,7 +327,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Research could also focus on how self-efficacy can aid in negotiating social problems, particularly in mental health contexts.
 <br/>
-<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/22019214/" target="_blank" rel="noopener noreferrer">The impact of perceived self-efficacy on mental time travel and social problem solving</a> by Adam D. Brown et al., 2012</p>
+<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/22019214/" class="external-link" target="_blank" rel="noopener noreferrer">The impact of perceived self-efficacy on mental time travel and social problem solving</a> by Adam D. Brown et al., 2012</p>
 </details>
 
 <details>
@@ -344,7 +344,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: An emerging trend is the investigation of how self-efficacy acts as a precursor to self-concept development.
 <br/>
-<b>Source</b>: <a href="https://link.springer.com/article/10.1023/A:1021302408382" target="_blank" rel="noopener noreferrer">Academic Self-Concept and Self-Efficacy</a>: How Different Are They Really? by M. Bong & E. Skaalvik, 2003
+<b>Source</b>: <a href="https://link.springer.com/article/10.1023/A:1021302408382" class="external-link" target="_blank" rel="noopener noreferrer">Academic Self-Concept and Self-Efficacy</a>: How Different Are They Really? by M. Bong & E. Skaalvik, 2003
 </p>
 </details>
 
@@ -353,7 +353,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: There is a growing interest in the development and validation of instruments that can measure self-efficacy more accurately.
 <br/>
-<b>Source</b>: <a href="https://www.semanticscholar.org/paper/Career-Self-Efficacy-Theory%3A-Back-to-the-Future-Betz-Hackett/ed94eee13b3e7e08e0a18e05fec7fa960fc1c8a0" target="_blank" rel="noopener noreferrer">Career Self-Efficacy Theory: Back to the Future</a> by N. Betz & G. Hackett, 2006</p>
+<b>Source</b>: <a href="https://www.semanticscholar.org/paper/Career-Self-Efficacy-Theory%3A-Back-to-the-Future-Betz-Hackett/ed94eee13b3e7e08e0a18e05fec7fa960fc1c8a0" class="external-link" target="_blank" rel="noopener noreferrer">Career Self-Efficacy Theory: Back to the Future</a> by N. Betz & G. Hackett, 2006</p>
 </details>
 
 <details>
@@ -361,7 +361,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Research should focus on investigating the effectiveness of strategies designed to enhance self‐efficacy, particularly in educational settings.
 <br/>
-<b>Source</b>: <a href="https://eric.ed.gov/?id=EJ681468" target="_blank" rel="noopener noreferrer">Self‐efficacy and statistics performance among Sport Studies students</a> by Andrew M. Lane et al., 2004</p>
+<b>Source</b>: <a href="https://eric.ed.gov/?id=EJ681468" class="external-link" target="_blank" rel="noopener noreferrer">Self‐efficacy and statistics performance among Sport Studies students</a> by Andrew M. Lane et al., 2004</p>
 </details>
 
 <details>
@@ -369,7 +369,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Understanding the impact of self-efficacy beliefs on health conditions and work ability is another area ripe for exploration.
 <br/>
-<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/22320237/" target="_blank" rel="noopener noreferrer">The impact of colorectal cancer and self-efficacy beliefs on work ability and employment status</a>: a longitudinal study by M. Bains et al., 2012</p>
+<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/22320237/" class="external-link" target="_blank" rel="noopener noreferrer">The impact of colorectal cancer and self-efficacy beliefs on work ability and employment status</a>: a longitudinal study by M. Bains et al., 2012</p>
 </details>
 
 <details>
@@ -377,7 +377,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Future studies could explore how self-efficacy influences academic productivity and research interest.
 <br/>
-<b>Source</b>: <a href="https://psycnet.apa.org/record/2014-35856-001" target="_blank" rel="noopener noreferrer">The advisory working alliance and research training</a>: test of a relational efficacy model by M. A. Morrison & R. Lent, 2014</p>
+<b>Source</b>: <a href="https://psycnet.apa.org/record/2014-35856-001" class="external-link" target="_blank" rel="noopener noreferrer">The advisory working alliance and research training</a>: test of a relational efficacy model by M. A. Morrison & R. Lent, 2014</p>
 </details>
 
 <details>
@@ -385,7 +385,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Investigating the relationship between self-efficacy and career success, especially in innovative behavior, is a promising avenue for future research.
 <br/>
-<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/30003632/" target="_blank" rel="noopener noreferrer">Relationships among structural empowerment</a>, innovative behavior, self‐efficacy, and career success in nursing field in mainland China by X. Dan et al., 2018</p>
+<b>Source</b>: <a href="https://pubmed.ncbi.nlm.nih.gov/30003632/" class="external-link" target="_blank" rel="noopener noreferrer">Relationships among structural empowerment</a>, innovative behavior, self‐efficacy, and career success in nursing field in mainland China by X. Dan et al., 2018</p>
 </details>
 
 </article>

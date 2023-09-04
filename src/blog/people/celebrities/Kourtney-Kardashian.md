@@ -23,7 +23,7 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kourtney_Kardashian">Kourtney Kardashian</a>, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
+<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kourtney_Kardashian">Kourtney Kardashian</a>, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
 
 > **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
 

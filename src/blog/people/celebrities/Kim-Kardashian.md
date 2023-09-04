@@ -41,7 +41,7 @@ Kendal Jenner - 4??? -->
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer. <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kim_Kardashian">Kim Kardashian</a> is a woman of many facets, but have you ever wondered what fuels her inner drive? We're not talking about business acumen or fashion trends here; we're diving deeper into the realm of personality and we think she is an Enneagram Type 3- The Achiever.</p>
+<p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kim_Kardashian">Kim Kardashian</a> is a woman of many facets, but have you ever wondered what fuels her inner drive? We're not talking about business acumen or fashion trends here; we're diving deeper into the realm of personality and we think she is an Enneagram Type 3- The Achiever.</p>
 
 > **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
 
@@ -216,6 +216,7 @@ There is a fascinating world of personalities out there waiting to be explored. 
 </svelte:head>
 
 <style lang="scss">
+
 article {
     border: 1px solid #52616b;
     margin-top: 1rem;

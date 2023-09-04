@@ -54,7 +54,7 @@ Another characteristic of enneagram type 1 individuals is their organization and
 
 Enneagram type 1 individuals often struggle with perfectionist tendencies and a fear of making mistakes. Michelle has spoken about the pressure she felt as a public figure and the constant scrutiny she faced. However, she has also acknowledged the importance of resilience and learning from failures.
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Barack-Obama">Barack</a> and read this to for a look into <a href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" target="_blank">Michelle and Barack's relationship.</a>
+Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Barack-Obama">Barack</a> and read this to for a look into <a href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" class="external-link" target="_blank">Michelle and Barack's relationship.</a>
 
 <svelte:head>
 

@@ -21,7 +21,7 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Are we all not stars in our own narratives, aching to make a mark? Driven by the pursuit of success, we mold ourselves to fit the framework of accomplishment. And in this shared human experience, few exemplify the journey of The Achiever - the Enneagram type 3 - as vividly as <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">Jason Calacanis</a>. Let's dive into a nuanced understanding of Jason Calacanis' personality through the lens of Enneagram.</p>
+<p class="firstLetter">Are we all not stars in our own narratives, aching to make a mark? Driven by the pursuit of success, we mold ourselves to fit the framework of accomplishment. And in this shared human experience, few exemplify the journey of The Achiever - the Enneagram type 3 - as vividly as <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">Jason Calacanis</a>. Let's dive into a nuanced understanding of Jason Calacanis' personality through the lens of Enneagram.</p>
 
 > **Disclaimer** This analysis of Jason Calacanis's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jason Calacanis.
 

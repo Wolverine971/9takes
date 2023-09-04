@@ -30,10 +30,20 @@
 		</ul>
 	</div>
 	<div style="display: flex; flex-direction: row; justify-content:center; gap: 1rem;">
-		<a target="_blank" rel="noreferrer" href="https://www.instagram.com/9takesdotcom/">
+		<a
+			class="external-link"
+			target="_blank"
+			rel="noreferrer"
+			href="https://www.instagram.com/9takesdotcom/"
+		>
 			<img src={instagram} alt="9takesdotcom Instagram" class="icon" />
 		</a>
-		<a target="_blank" rel="noreferrer" href="https://twitter.com/9takesdotcom">
+		<a
+			class="external-link"
+			target="_blank"
+			rel="noreferrer"
+			href="https://twitter.com/9takesdotcom"
+		>
 			<img src={twitter} alt="9takesdotcom Twitter" class="icon" />
 		</a>
 	</div>

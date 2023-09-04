@@ -51,9 +51,9 @@ Freud's theory of the mind like Plato describes three components: the id, the eg
 
 | Plato                                                                                                          | Emoji | Freud                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠    | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
-| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️    | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
-| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪    | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
+| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠     | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
+| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️     | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
+| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪     | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 So who has built upon these theories? Where are we today?
 

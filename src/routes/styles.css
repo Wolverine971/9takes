@@ -59,6 +59,12 @@
 	/* --primary: 
 	--secondary: */
 }
+
+.external-link::after {
+	text-decoration: none;
+	display: none !important;
+}
+
 body {
 	/* font-family: 'Open Sans', sans-serif; */
 	font-size: 1rem;
