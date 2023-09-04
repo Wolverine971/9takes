@@ -1,7 +1,7 @@
-import { beforeNavigate } from '$app/navigation';
+import { onNavigate } from '$app/navigation';
 
 export const preparePageTransition = () => {
-	beforeNavigate(async (navigation) => {
+	onNavigate(async (navigation) => {
 		if (!document.startViewTransition) {
 			return;
 		}

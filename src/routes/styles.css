@@ -50,6 +50,12 @@
 
 	--hover-background-cover: var(--color-bg-1);
 
+	@media (prefers-reduced-motion: no-preference) {
+		[style*='--tag'] {
+			view-transition-name: var(--tag);
+		}
+	}
+
 	/* --primary: 
 	--secondary: */
 }

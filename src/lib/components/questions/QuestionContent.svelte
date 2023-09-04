@@ -177,6 +177,7 @@
 		<button
 			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
+			style:--tag="a-comment"
 		>
 			<span style="text-wrap: nowrap">
 				{#if _data.comment_count > 0}
@@ -201,6 +202,7 @@
 		<button
 			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
+			style:--tag="a-comment"
 		>
 			<MasterCommentIcon
 				iconStyle={''}
@@ -251,7 +253,7 @@
 					? 'scroll-js pos-fixed'
 					: isStop
 					? 'scroll-js stop'
-					: 'scroll-js'} {_data.comment_count <= 5 ? 'hidden' : ''}"
+					: 'scroll-js pos-fixed'} {_data.comment_count <= 5 ? 'hidden' : ''}"
 			>
 				<p
 					bind:this={commentScrollElement}

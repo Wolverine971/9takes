@@ -311,7 +311,7 @@
 		left: 50%;
 		margin: 0 auto;
 		transform: translate(-50%, -50%);
-		z-index: 23124343245235435;
+		z-index: 2;
 		padding: 1rem;
 	}
 

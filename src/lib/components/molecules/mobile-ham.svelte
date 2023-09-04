@@ -49,7 +49,11 @@
 					>
 				</li>
 				<li>
-					<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>
+					<a
+						href="/blog"
+						class={$page.url.pathname === '/blog' ? 'active-link' : ''}
+						style:--tag="h-blog">Blog</a
+					>
 				</li>
 				<li>
 					<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>

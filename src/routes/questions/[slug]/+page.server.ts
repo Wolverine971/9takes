@@ -7,7 +7,6 @@ import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 
 import { PRIVATE_DEMO } from '$env/static/private';
-import { subscribe } from 'svelte/internal';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {

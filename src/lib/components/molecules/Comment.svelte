@@ -150,7 +150,6 @@
 	};
 
 	let innerWidth = 0;
-	console.log(_commentComment);
 </script>
 
 <svelte:window bind:innerWidth />

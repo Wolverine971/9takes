@@ -17,7 +17,6 @@
 	export let data: any; // QuestionObject | CommentObject;
 	export let user: any;
 	export let questionId: number;
-	export let stack: boolean;
 
 	// if (parentType === 'question') {
 	// 	data;
@@ -133,7 +132,7 @@
 	either pop down under the question like fb
 	or pop out in a dialog like qra
 -->
-<div class="interaction-div-display {stack ? 'interaction-div-column' : ''}">
+<div class="interaction-div-display">
 	<button
 		title="Comment"
 		class=""

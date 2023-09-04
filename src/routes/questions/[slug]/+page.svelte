@@ -60,13 +60,8 @@
 	<!-- <section>
 		
 	</section> -->
-	<div style:--tag="h-{data.question.question}">
-		<h1
-			class="question-box"
-			id="question-box"
-			style="overflow:hidden"
-			style:--tag={data.question.question}
-		>
+	<div>
+		<h1 class="question-box" id="question-box" style="overflow:hidden" style:--tag="h-question">
 			{data.question.question}
 		</h1>
 

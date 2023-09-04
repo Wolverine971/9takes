@@ -7,10 +7,6 @@
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { deserialize } from '$app/forms';
 
-	import { preparePageTransition } from '$lib/page-transition';
-
-	preparePageTransition();
-
 	// interface QuestionsData extends PageData {
 	// 	questions: any[];
 	// 	count: number;

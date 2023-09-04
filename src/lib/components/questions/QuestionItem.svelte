@@ -10,17 +10,12 @@
 	const newdate = month + '/' + day + '/' + year;
 </script>
 
-<a
-	href="/questions/{questionData.url}"
-	style=""
-	class="question-card"
-	style:--tag="h-{questionData.question}"
->
-	<p class="question-display" style:--tag={questionData.question}>
+<a href="/questions/{questionData.url}" class="question-card">
+	<p class="question-display" style:--tag="h-question">
 		{questionData.question}
 	</p>
 	<div class="small-div">
-		<span class="comment-span-display">
+		<span class="comment-span-display" style:--tag="a-comment">
 			{#if questionData.comment_count}
 				{questionData.comment_count}
 			{/if}
