@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/2s/${'J.K.-Rowling'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="2"
 		displayText="J.K. Rowling"
 		altText=""
 		subtext=""

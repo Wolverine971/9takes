@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/7s/${'John-F-Kennedy'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="7"
 		displayText="John F. Kennedy"
 		subtext=""
 	/>

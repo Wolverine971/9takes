@@ -34,7 +34,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 	<PopCard
 		image={`/types/7s/${'Miley-Cyrus'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="7"
 		displayText="Miley Cyrus"
 		subtext=""
 	/>

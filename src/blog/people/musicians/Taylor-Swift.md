@@ -36,7 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Taylor-Swift'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Taylor Swift"
 		subtext=""
 	/>

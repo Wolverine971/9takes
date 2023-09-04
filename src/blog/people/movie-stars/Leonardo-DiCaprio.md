@@ -34,7 +34,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/7s/${'Leonardo-DiCaprio'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="7"
 		displayText="Leonardo DiCaprio"
 		subtext=""
 	/>

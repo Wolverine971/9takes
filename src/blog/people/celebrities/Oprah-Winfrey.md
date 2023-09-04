@@ -29,7 +29,7 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 	<PopCard
 		image={`/types/2s/${'Oprah-Winfrey'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="2"
 		displayText="Oprah Winfrey"
 		subtext=""
 	/>

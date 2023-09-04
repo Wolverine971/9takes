@@ -33,7 +33,7 @@ tiktok:
 	<PopCard
 		image={`/types/5s/${'Stephen-King'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="5"
 		displayText="Stephen King"
 		altText=""
 		subtext=""

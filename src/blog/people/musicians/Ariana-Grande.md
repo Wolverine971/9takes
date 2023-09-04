@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@arianagrande'
 	<PopCard
 		image={`/types/3s/${'Ariana-Grande'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Ariana Grande"
 		subtext=""
 	/>

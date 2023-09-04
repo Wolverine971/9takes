@@ -28,18 +28,18 @@ tiktok: ''
 > **Disclaimer** This analysis of Nikola Tesla's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
-	<PopCard
-		image={`/types/4s/${'Nikola-Tesla'}.webp`}
-		showIcon={false}
-		enneagramType=""
-		displayText="Nikola Tesla"
-		subtext=""
-	/>
+  <PopCard
+    image={`/types/4s/${'Nikola-Tesla'}.webp`}
+    showIcon={false}
+    enneagramType="4"
+    displayText="Nikola Tesla"
+    subtext=""
+  />
 </div>
 
 <details>
@@ -74,11 +74,11 @@ In essence, Tesla's journey from Graz to the New World was propelled by a deep e
 
 Nikola Tesla found himself in a world that seemed to be against him at every turn. The most glaring example was his rivalry with Thomas Edison, the champion of direct current (DC). Tesla, a fervent believer in the potential of alternating current (AC), was often dismissed as a dreamer. The debate between AC and DC wasn't just a scientific disagreement; it was a battle for the future of electricity itself.
 
-Tesla faced not only professional challenges but also financial instability and public skepticism. Yet, his resilience was extraordinary. Driven by a Type 4's emotional intensity and need for individuality, Tesla continued to innovate, even when the odds seemed insurmountable. His emotional turmoil was both a curse and a blessing. It caused him distress but also fueled his relentless pursuit to make a mark on the world.
+Tesla faced not only professional challenges but also financial instability and public skepticism. Yet, his resilience was extraordinary. Driven by Type 4's emotional intensity and need for individuality, Tesla continued to innovate, even when the odds seemed insurmountable. His emotional turmoil was both a curse and a blessing. It caused him distress but also fueled his relentless pursuit to make a mark on the world.
 
 ## The Triumphs: A Light in the Darkness
 
-Nikola Tesla's rise to fame was a beacon in his life, illuminating the dark corners of his emotional struggles. When his alternating-current (AC) system finally won over Edison's direct-current, Tesla became a household name. The 1893 World's Columbian Exposition in Chicago, where Tesla's AC system was the star, marked a turning point. He was no longer just a scientist but a celebrity.
+Nikola Tesla's rise to fame was a beacon in his life, illuminating the dark corners of his emotional struggles. When his alternating-current (AC) system finally won over Edison's direct current, Tesla became a household name. The 1893 World's Columbian Exposition in Chicago, where Tesla's AC system was the star, marked a turning point. He was no longer just a scientist but a celebrity.
 
 The spotlight seemed to bring him a sense of validation, but it was a double-edged sword. Tesla was a deeply private man, and fame brought scrutiny he wasn't comfortable with. Yet, contemporaries like George Westinghouse praised him as a "pioneer," reinforcing his belief that he was changing the world.
 
@@ -103,47 +103,48 @@ Reflecting on his life, Tesla may have felt a blend of pride and unfulfilled dre
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Tesla:
 
 <article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>"Tesla was undoubtedly a genius, but imagine what he could have achieved with a more structured approach. His inventions were groundbreaking, yet his methods seemed haphazard at times."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>"Tesla gave so much to humanity; it's heartbreaking to think he spent his later years in solitude. He deserved more recognition and emotional support for his contributions."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>"Tesla's inventions were revolutionary, but he lacked business savvy. With a bit of marketing, he could have been as famous as Edison. Still, his achievements are impressive."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>"Tesla was a true original, a man unafraid to be different. His emotional complexity and need for uniqueness resonate deeply with me. He's the kind of person I would have loved to be friends with."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>"Tesla's theories on wireless energy and alternating currents are intellectually stimulating. I could spend hours diving into his work, dissecting each idea. He was a man ahead of his time."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>"Tesla's dedication to his vision is admirable, but some of his ideas seem a bit out there. Still, you can't deny his commitment to pushing boundaries, even if it made people uncomfortable."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>"Tesla's life was an adventure, filled with groundbreaking experiments and challenges. I wish I could have been there to witness his work firsthand; it must have been exhilarating!"</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>"I respect Tesla for having the guts to go against Edison and the establishment. But some of his ideas, like free energy for all, were a bit too idealistic. Still, he had courage."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>"Tesla found a sort of peace in his own world, tinkering with his inventions in solitude. There's something calming and beautiful about that, even if the world didn't always understand him."</p>
+  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <p>"Tesla found a sort of peace in his world, tinkering with his inventions in solitude. Something is calming and beautiful about that, even if the world didn't always understand him."</p>
 </article>
 
 ## Conclusion: The Enneagram and The Genius
 
 Tesla's story is a testament to the power of individuality, the beauty of emotional depth, and the courage it takes to follow one's own path, no matter how unconventional.
 
-Take a moment to reflect on your own life. Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? Either way, let Tesla's story inspire you to embrace your own individuality and to examine the motivations that guide your actions. After all, understanding ourselves is the first step in making our own indelible marks on the world.
+Take a moment to reflect on your own life. Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? Either way, let Tesla's story inspire you to embrace your individuality and examine the motivations that guide your actions. After all, understanding ourselves is the first step in making our indelible marks on the world.
+
 
 <svelte:head>
 

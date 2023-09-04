@@ -36,7 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/9s/${'Keanu-Reeves'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="9"
 		displayText="Keanu Reeves"
 		subtext=""
 	/>

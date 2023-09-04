@@ -55,7 +55,7 @@ Dua Lipa and Calvin Harris -->
 	<PopCard
 		image={`/types/3s/${'Dua-Lipa'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Dua Lipa"
 		subtext=""
 	/>

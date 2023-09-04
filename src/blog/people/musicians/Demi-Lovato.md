@@ -60,7 +60,7 @@ Demi Lovato and Joe Jonas -->
 	<PopCard
 		image={`/types/4s/${'Demi-Lovato'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="4"
 		displayText="Demi Lovato"
 		subtext=""
 	/>

@@ -21,23 +21,23 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Ever wondered what makes Elon Musk tick? You know, the guy behind Tesla, SpaceX, and even PayPal. Today, we're diving deep into his mind, exploring his personality through the lens of the Enneagram Type 5. So, grab a cup of coffee and let's get started. And hey, if you find this intriguing, check out 9takes to explore your own personality!</p>
+<p class="firstLetter">Ever wondered what makes Elon Musk tick? You know, the guy behind Tesla, SpaceX, and even PayPal. Today, we're diving deep into his mind, exploring his personality through the lens of the Enneagram Type 5. So, grab a cup of coffee, and let's get started. And hey, if you find this intriguing, check out 9takes to explore your personality!</p>
 
 > **Disclaimer** This analysis of Elon Musk's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Elon.
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
-	<PopCard
-		image={`/types/5s/${'Elon-Musk'}.webp`}
-		showIcon={false}
-		enneagramType=""
-		displayText="Elon Musk"
-		subtext=""
-	/>
+  <PopCard
+    image={`/types/5s/${'Elon-Musk'}.webp`}
+    showIcon={false}
+    enneagramType="5"
+    displayText="Elon Musk"
+    subtext=""
+  />
 </div>
 
 <details>
@@ -46,7 +46,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 <ul>
 <li><b>Visionary Innovator</b>: When you think of Elon Musk, you likely envision a trailblazing entrepreneur. This aligns perfectly with his Enneagram Type 5 traits, which include an insatiable thirst for knowledge and a focus on future possibilities. Whether it's PayPal, Tesla, or SpaceX, Elon's ventures are a testament to his Type 5's quest to understand the world and reshape it.
 </li>
-<li><b>The Inner World of a Type 5</b>: Behind the public persona, Elon's daily life is a constant pursuit of knowledge and problem-solving. He dives deep into the intricacies of rocket science, AI, and more, often isolating himself to concentrate. This intense focus and sometimes reclusive behavior are classic Type 5 traits, aimed at gaining enough knowledge to feel competent and secure.
+<li><b>The Inner World of Type 5</b>: Behind the public persona, Elon's daily life is a constant pursuit of knowledge and problem-solving. He dives deep into the intricacies of rocket science, AI, and more, often isolating himself to concentrate. This intense focus and sometimes reclusive behavior are classic Type 5 traits, aimed at gaining enough knowledge to feel competent and secure.
 </li>
 <li><b>Controversial Yet Human</b>: Elon has had his share of controversies, from Twitter spats to management styles that some find abrasive. These can be traced back to a Type 5's core fear of being useless or incompetent. When threatened, a Type 5 may become detached or confrontational, behaviors that have sometimes landed Elon in hot water. Yet, understanding this helps us empathize with the man behind the headlines.
 </li>
@@ -58,7 +58,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 
 ## Early Life
 
-Born in Pretoria, South Africa, in 1971, Elon Musk was a daydreamer from the start. Picture a young boy so engrossed in his thoughts about inventions that his parents actually took him for a hearing test. Yep, they thought he couldn't hear them! At just 10 years old, Elon discovered the world of computers. He taught himself to code and, believe it or not, sold a video game he created for a few hundred bucks when he was only 12. But life wasn't all sunshine and rainbows. Elon was short, introverted, and a bookworm, making him an easy target for bullies until he turned 15. These early challenges and triumphs shaped the curious, risk-taking entrepreneur we know today.
+Born in Pretoria, South Africa, in 1971, Elon Musk was a daydreamer from the start. Picture a young boy so engrossed in his thoughts about inventions that his parents took him for a hearing test. Yep, they thought he couldn't hear them! At just 10 years old, Elon discovered the world of computers. He taught himself to code and, believe it or not, sold a video game he created for a few hundred bucks when he was only 12. But life wasn't all sunshine and rainbows. Elon was short, introverted, and a bookworm, making him an easy target for bullies until he turned 15. These early challenges and triumphs shaped the curious, risk-taking entrepreneur we know today.
 
 ## Family Background
 
@@ -112,11 +112,11 @@ Elon Musk and Grimes' relationship is a modern-day tale of intellect meeting art
 
 Being a Type 5, Elon would likely approach relationships as another complex system to understand. This could make him an incredibly attentive partner when engaged but also a bit detached when consumed by his work or intellectual pursuits. His need for personal space and time to "recharge" could be a point of tension in relationships, requiring a partner who understands and respects these needs.
 
-## Elon's Personality Through in His Companies
+## Elon's Personality Through His Companies
 
 ### PayPal: The Genesis of a Visionary
 
-At PayPal, Elon Musk's Enneagram Type 5 traits of curiosity and future-focus met Peter Thiel's Type 6 qualities of caution and risk assessment. While Elon was eager to revolutionize online payments, Peter often played the skeptic, questioning the risks. Despite their philosophical clashes, they found common ground. Elon respected Peter's caution as a counterbalance to his own visionary zeal, and Peter admired Elon's forward-thinking. Their collaboration became a dance of complementary Enneagram types, each enhancing the other's strengths. This dynamic duo at PayPal serves as an early example of how Elon's Type 5 personality traits manifest in his ability to work with diverse minds in every company he touches.
+At PayPal, Elon Musk's Enneagram Type 5 traits of curiosity and future focus met Peter Thiel's Type 6 qualities of caution and risk assessment. While Elon was eager to revolutionize online payments, Peter often played the skeptic, questioning the risks. Despite their philosophical clashes, they found common ground. Elon respected Peter's caution as a counterbalance to his visionary zeal, and Peter admired Elon's forward-thinking. Their collaboration became a dance of complementary Enneagram types, each enhancing the other's strengths. This dynamic duo at PayPal serves as an early example of how Elon's Type 5 personality traits manifest in his ability to work with diverse minds in every company he touches.
 
 ### Tesla: Engineering Marvels with a Dash of Fun
 
@@ -124,7 +124,7 @@ Elon Musk's approach to Tesla is a fascinating blend of rigorous engineering and
 
 ### SpaceX: A Sci-Fi Dream Turned Reality
 
-SpaceX is perhaps the most vivid manifestation of Elon Musk's love for science fiction and his commitment to first principles thinking. His audacious goal to make space travel affordable and eventually colonize Mars is not just a business strategy; it's a mission. This aligns perfectly with the Type 5's need to foresee and prepare for future challenges. Elon's willingness to invest in long-term visions, even at the risk of immediate failure, speaks volumes about his personality type.
+SpaceX is perhaps the most vivid manifestation of Elon Musk's love for science fiction and his commitment to first-principle thinking. His audacious goal to make space travel affordable and eventually colonize Mars is not just a business strategy; it's a mission. This aligns perfectly with the Type 5's need to foresee and prepare for future challenges. Elon's willingness to invest in long-term visions, even at the risk of immediate failure, speaks volumes about his personality type.
 
 ### Twitter: The Public Square of Elon's Mind
 
@@ -139,45 +139,45 @@ Elon Musk's involvement in these radically different companies stems from his in
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Elon Musk:
 
 <article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>"Elon is a visionary, but he could be more responsible. His companies have had ethical and environmental issues that can't be ignored. However, I admire his drive to innovate and make the world a better place."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>"I love how Elon wants to help humanity, like with sustainable energy and space exploration. But sometimes, I wish he'd show more emotional intelligence. He could be such a great leader if he connected more with people."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>"Elon is goals! The guy has built multiple companies, disrupted entire industries, and he's not stopping. He's a role model for what you can achieve with hard work and vision. Sure, he's got flaws, but who doesn't?"</p>
+  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <p>"Elon is goals! The guy has built multiple companies and disrupted entire industries, and he's not stopping. He's a role model for what you can achieve with hard work and vision. Sure, he's got flaws, but who doesn't?"</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>"Elon is fascinating but also a bit enigmatic. He's not like any other CEO; he's got this unique blend of engineer and artist. I appreciate his originality but sometimes wonder if he feels authentic to himself amidst all his personas."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>"Elon is a fellow knowledge-seeker, and I respect that. His ventures into various scientific fields are intriguing. However, his public behavior can be erratic, which makes me question how deeply he thinks before he acts."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>"I have mixed feelings about Elon. On one hand, his advancements in technology could provide security for the future. On the other hand, he's unpredictable, and that makes me nervous about what he'll do next."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>"Elon is like a real-life Tony Stark! He's always up to something new and exciting. Sure, he's got his issues, but don't we all? I can't wait to see what adventure he takes us on next!"</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>"Elon doesn't back down, and I like that. He challenges the status quo and isn't afraid to take on big industries. But he could be more transparent and accountable in how he wields his power."</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>"Elon is doing some great things, but I wish he'd be more harmonious in how he goes about it. The way he communicates, especially on social media, can be divisive. Still, it's hard not to admire his vision for a better world."</p>
 </article>
 
 ## Wrap up
 
-As we've journeyed through the complex and fascinating world of Elon Musk, a quintessential Enneagram Type 5, it's clear that his insatiable thirst for knowledge and innovation has not only shaped his life but also revolutionized multiple industries. Yet, even a man of his stature grapples with the same fears and stressors we all do. So, as you go about your day, ponder this: How do you approach life? Are you an Elon in the making, driven by a relentless quest for understanding? Or perhaps your path is entirely different, colored by your unique personality traits. Either way, take a moment to introspect. Knowing yourself is the first step to making your own indelible mark on the world.
+As we've journeyed through the complex and fascinating world of Elon Musk, a quintessential Enneagram Type 5, it's clear that his insatiable thirst for knowledge and innovation has not only shaped his life but also revolutionized multiple industries. Yet, even a man of his stature grapples with the same fears and stressors we all do. So, as you go about your day, ponder this: How do you approach life? Are you an Elon in the making, driven by a relentless quest for understanding? Or perhaps your path is entirely different, colored by your unique personality traits. Either way, take a moment to introspect. Knowing yourself is the first step to making your indelible mark on the world.
 
 <svelte:head>
 

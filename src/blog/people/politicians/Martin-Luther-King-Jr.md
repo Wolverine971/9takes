@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/8s/${'Martin-Luther-King-Jr'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="8"
 		displayText="Martin Luther King Jr."
 		subtext=""
 	/>

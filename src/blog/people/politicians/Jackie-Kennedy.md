@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/4s/${'Jackie-Kennedy'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		4
 		displayText="Jackie Kennedy"
 		subtext=""
 	/>

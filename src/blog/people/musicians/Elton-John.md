@@ -34,7 +34,7 @@ tiktok: 'https://www.tiktok.com/@eltonjohn'
 	<PopCard
 		image={`/types/7s/${'Elton-John'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="7"
 		displayText="Elton John"
 		subtext=""
 	/>

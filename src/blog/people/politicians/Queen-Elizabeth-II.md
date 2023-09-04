@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/9s/${'Queen-Elizabeth-II'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="9"
 		displayText="Queen Elizabeth II"
 		subtext=""
 	/>

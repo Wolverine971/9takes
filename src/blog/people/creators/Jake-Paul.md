@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 	<PopCard
 		image={`/types/3s/${'Jake-Paul'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Jake Paul"
 		subtext=""
 	/>

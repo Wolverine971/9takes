@@ -28,7 +28,7 @@ tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 	<PopCard
 		image={`/types/3s/${'Arnold-Schwarzenegger'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Arnold Schwarzenegger"
 		subtext=""
 	/>

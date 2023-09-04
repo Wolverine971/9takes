@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/2s/${'Jimmy-Carter'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="2"
 		displayText="Jimmy Carter"
 		subtext=""
 	/>

@@ -36,7 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/8s/${'Margot-Robbie'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="8"
 		displayText="Margot Robbie"
 		subtext=""
 	/>

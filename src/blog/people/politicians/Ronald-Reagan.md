@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/9s/${'Ronald-Reagan'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="9"
 		displayText="Ronald Reagan"
 		subtext=""
 	/>

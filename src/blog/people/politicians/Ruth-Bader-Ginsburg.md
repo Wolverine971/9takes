@@ -29,7 +29,7 @@ tiktok:
 	<PopCard
 		image={`/types/1s/${'Ruth-Bader-Ginsburg'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="1"
 		displayText="Ruth Bader Ginsburg"
 		subtext=""
 	/>

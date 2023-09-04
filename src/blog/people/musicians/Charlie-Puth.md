@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 	<PopCard
 		image={`/types/4s/${'Charlie-Puth'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="4"
 		displayText="Charlie Puth"
 		subtext=""
 	/>
