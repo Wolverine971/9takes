@@ -53,11 +53,13 @@
 			{ name: 'Lady-Gaga', link: true },
 			{ name: 'Jackie-Kennedy', link: true },
 			{ name: 'The-Weeknd', link: false },
-			{ name: 'Dixie-Damelio', link: false }
+			{ name: 'Dixie-Damelio', link: false },
+			{ name: 'Nikola-Tesla', link: true },
+			{ name: 'Robert-Oppenheimer', link: true }
 		],
 		5: [
 			{ name: 'Bill-Gates', link: false },
-			{ name: 'Elon-Musk', link: false },
+			{ name: 'Elon-Musk', link: true },
 			{ name: 'Jack-Dorsey', link: true },
 			{ name: 'Mark-Zuckerberg', link: false },
 			{ name: 'Emily-Dickinson', link: false },
@@ -66,7 +68,6 @@
 			{ name: 'Agatha-Christie', link: false },
 			{ name: 'Rooney-Mara', link: false },
 			{ name: 'Friedrich-Nietzsche', link: true },
-			{ name: 'Robert-Oppenheimer', link: true },
 			{ name: 'David-Sacks', link: false },
 			{ name: 'Lex-Fridman', link: false }
 		],

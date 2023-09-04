@@ -13,7 +13,7 @@ const getAllPosts = async () => {
 	const situational = import.meta.glob(`/src/blog/situational/*.{md,svx,svelte.md}`);
 	const topical = import.meta.glob(`/src/blog/topical/*.{md,svx,svelte.md}`);
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
+	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
 	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
 	const lifestyleInfluencers = import.meta.glob(
 		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
@@ -38,7 +38,7 @@ const getAllPosts = async () => {
 		situational,
 		topical,
 		celebrities,
-		commedians,
+		comedians,
 		creators,
 		lifestyleInfluencers,
 		movieStars,
@@ -122,15 +122,15 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-08-29</lastmod>
+	    <lastmod>2023-09-03</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -138,8 +138,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{

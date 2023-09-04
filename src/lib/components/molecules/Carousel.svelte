@@ -55,7 +55,8 @@
 			'Jackie-Kennedy',
 			'Dixie-Damelio',
 			'The-Weeknd',
-			'Robert-Oppenheimer'
+			'Robert-Oppenheimer',
+			'Nikola-Tesla'
 		],
 		5: [
 			'Bill-Gates',

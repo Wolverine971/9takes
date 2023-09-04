@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2023-07-13'
+lastmod: '2023-09-13'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -33,7 +33,7 @@ One of the most notable characteristics of the Enneagram Type 4 is their strong 
 
 Another key trait of the Enneagram Type 4 is their desire for self-expression and individuality. Individualists are highly creative and artistic, and they have a deep need to express themselves in a meaningful way. They may struggle with feelings of inadequacy and self-doubt, and they may have difficulty finding their place in the world.
 
-Key characteristics of Type 5 personalities include:
+Key characteristics of Type 4 personalities include:
 
 - Highly creative and artistic
 - Deeply in touch with their emotions
@@ -186,7 +186,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
+      "dateModified": "2023-09-13",
       "datePublished": "2023-2-18",
       "keywords": [
         "Enneagram",
@@ -279,7 +279,7 @@ th {
     border-radius:5px
 }
 
-/* @import '../../scss/index.scss'; */
+/*@import '../../scss/index.scss';*/
 
     .section-main {
         display: flex;
@@ -397,5 +397,5 @@ th {
         }
 
     }
-    
+
 </style>

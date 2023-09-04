@@ -27,7 +27,7 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 
 const getAllPosts = async () => {
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const commedians = import.meta.glob(`/src/blog/people/commedians/*.{md,svx,svelte.md}`);
+	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
 	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
 	const lifestyleInfluencers = import.meta.glob(
 		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
@@ -41,7 +41,7 @@ const getAllPosts = async () => {
 
 	const imports = [
 		celebrities,
-		commedians,
+		comedians,
 		creators,
 		lifestyleInfluencers,
 		movieStars,
@@ -60,6 +60,7 @@ const getAllPosts = async () => {
 				imports[category][path]().then(({ metadata }) => {
 					const parts = path.split('/');
 					const slug = slugFromPath(parts[parts.length - 1]);
+
 					if (metadata) {
 						return {
 							...metadata, // may not be required for sitemap
