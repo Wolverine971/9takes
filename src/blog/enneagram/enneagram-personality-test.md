@@ -31,8 +31,7 @@ in some ways. It could be many things:
 - A sibling or friend treated you a certain way
 - You were constantly told a certain message
 
-There is a great article here that explains and gives great examples of the
-[enneagram's childhood wounds](https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/).
+There is a great article here that explains and gives great examples of the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >enneagram's childhood wounds</a>.
 
 You do not have to specifically identify your childhood wound in order to find your
 type but whatever your childhood was it causes you to be sensitive to a specific
@@ -41,7 +40,7 @@ emotion. Identifying that core emotion that effects you is the first step.
 ### Emotions Tangent
 
 It may seem overwhelming to try to identify what core emotion affects you the most
-but it might not as hard as you think. Click here if you would like to do [a quick experiment with regards to emotions](/blog/experiment),
+but it might not as hard as you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>,
 otherwise keep reading to help determine your type.
 
 ## Identifying your dominant core emotion

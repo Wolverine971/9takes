@@ -67,7 +67,7 @@ Firstly, Kourtney's pursuit of perfection is on display in her dedication to a h
 
 ## Assertive Moral Compass
 
-Moreover, Kourtney's assertive moral compass comes to light during moments of family controversies. When her sister [Kim](/blog/famous-enneagram-types/Kim-Kardashian) lost her diamond earring in the ocean, Kourtney's response was not of sympathy, but rather a stern reminder of their privileged life - "Kim, there's people that are dying." This incidence mirrors the rationality and ethical sense of a Type 1, who can't ignore the bigger picture for petty grievances.
+Moreover, Kourtney's assertive moral compass comes to light during moments of family controversies. When her sister <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> lost her diamond earring in the ocean, Kourtney's response was not of sympathy, but rather a stern reminder of their privileged life - "Kim, there's people that are dying." This incidence mirrors the rationality and ethical sense of a Type 1, who can't ignore the bigger picture for petty grievances.
 
 ## Need for Order and Control
 
@@ -75,7 +75,7 @@ Lastly, Kourtney's need for order and control, another typical Type 1 trait, is 
 
 ## How Kourtney Differs from Her Sisters
 
-The Type 1 personality traits further differentiate Kourtney from her sisters. While Kim, [Khloé](/blog/famous-enneagram-types/Khloe-Kardashian), and [Kylie](/blog/famous-enneagram-types/Kylie-Jenner) may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
+The Type 1 personality traits further differentiate Kourtney from her sisters. While Kim, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
 
 ## The Downside: Dealing with Controversies and Criticism
 

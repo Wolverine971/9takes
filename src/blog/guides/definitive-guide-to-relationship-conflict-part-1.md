@@ -38,13 +38,13 @@ pic: 'greek-statue-having-a-disagreement'
 
 ### Is conflict bad? No
 
-Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage conflict can make or break your relationship. According to [Dr. John Gottman](https://www.gottman.com/about/john-julie-gottman/), renowned relationship expert, your conflict style can either erode trust or build a stronger bond between you and your partner1.
+Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, renowned relationship expert, your conflict style can either erode trust or build a stronger bond between you and your partner1.
 
 ## The Four Horsemen: Conflict Styles to Avoid
 
 ### What are the Four Horsemen?
 
-Dr. John Gottman identifies [four conflict styles that can hurt your relationship](https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/): criticism, contempt, defensiveness, and stonewalling. These styles can rip at the very fabric of your relationship if not addressed.
+Dr. John Gottman identifies <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four conflict styles that can hurt your relationship</a>: criticism, contempt, defensiveness, and stonewalling. These styles can rip at the very fabric of your relationship if not addressed.
 
 ### Criticism
 
@@ -86,7 +86,7 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
 
 The issue is not your partner or the person you are fighting. The issue is how the situation is being handled. If the situation was handled differently you would not be fighting.
 
-Tony Robbins talks about the importance of focusing on [resolving the issue rather than defending yourself](https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/). Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
+Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
 
 ### Effective Communication
 
@@ -115,7 +115,7 @@ Put yourself in your partner's shoes. Try to understand their feelings, needs, a
 
 ### Step 4: Find Common Ground
 
-Identify shared goals and values. This common ground will serve as the [foundation for resolving the conflict](https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/).
+Identify shared goals and values. This common ground will serve as the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/">foundation for resolving the conflict</a>.
 
 <!-- >Looking for more practical steps?
 >Check out our blog on 5 Steps to Fight Better in Relationships. -->
@@ -128,10 +128,10 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
 
 ### Footnotes/ References
 
-- [5 Steps to Fight Better if Your Relationship is Worth Fighting For](https://www.gottman.com/blog/5-steps-to-fight-better-if-your-relationship-is-worth-fighting-for/)
-- [4 Conflict Styles That Hurt Your Relationship](https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/)
-- [How to Resolve Conflict and Save Your Relationship](https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/)
-- [Managing vs. Resolving Conflict in Relationships: Blueprints for Success](https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/)
+- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/5-steps-to-fight-better-if-your-relationship-is-worth-fighting-for/" >5 Steps to Fight Better if Your Relationship is Worth Fighting For</a>
+- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >4 Conflict Styles That Hurt Your Relationship</a>
+- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >How to Resolve Conflict and Save Your Relationship</a>
+- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/" >Managing vs. Resolving Conflict in Relationships: Blueprints for Success</a>
 
 <svelte:head>
 

@@ -60,7 +60,7 @@ But how does this relate to her being a Type 2? This controversy, among others, 
 
 While we've dissected Oprah Winfrey through the lens of Enneagram Type 2, it's essential to remember that personality frameworks are not definitive. They are tools to help us understand the complex tapestry of human behavior better.
 
-Just as we've seen aspects of Oprah's life aligning with Type 2 characteristics, it's important to note that there are facets of her personality that align with other Enneagram types. For instance, [some sources](https://www.truity.com/blog/what-are-oprah-winfreys-enneagram-and-myers-briggs-personality-types) argue that Oprah could be a Type 3, 'The Achiever,' based on her ambition and drive for success.
+Just as we've seen aspects of Oprah's life aligning with Type 2 characteristics, it's important to note that there are facets of her personality that align with other Enneagram types. For instance, <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-are-oprah-winfreys-enneagram-and-myers-briggs-personality-types">some sources</a> argue that Oprah could be a Type 3, 'The Achiever,' based on her ambition and drive for success.
 
 ## How Each Enneagram Type Perceives Oprah
 

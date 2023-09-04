@@ -75,9 +75,9 @@ Alex was born on August 21, 1994, in Newtown, Pennsylvania. Growing up, she was 
 
 "Call Her Daddy," created by Alex Cooper and Sofia Franklyn in 2018, is more than just a podcast; it's a reflection of Alex's adventurous spirit. Initially focusing on relationships and sex, the show has evolved to cover a broader spectrum, including women's rights and mental health. This adaptability is a hallmark of a Type 7 Enneagram, who thrives on new experiences.
 
-After securing a $60 million deal with Spotify and being labeled the female [Joe Rogan](/blog/famous-enneagram-types/Joe-Rogan), Alex took the podcast in a fresh direction. She aims to inspire her audience, especially women, by sharing personal stories and expert advice. Her willingness to explore diverse topics and adapt resonates strongly with the characteristics of a Type 7, who is always looking for the next exciting venture.
+After securing a $60 million deal with Spotify and being labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, Alex took the podcast in a fresh direction. She aims to inspire her audience, especially women, by sharing personal stories and expert advice. Her willingness to explore diverse topics and adapt resonates strongly with the characteristics of a Type 7, who is always looking for the next exciting venture.
 
-Beyond the podcast, Alex has also launched [The Unwell Network](https://www.instagram.com/unwell/), collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
+Beyond the podcast, Alex has also launched <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/unwell/" >The Unwell Network</a>, collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
 
 In essence, "Call Her Daddy" serves as a mirror to Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities.
 
@@ -93,7 +93,7 @@ Her optimistic outlook has been a key factor in navigating these challenges. Ins
 
 Alex Cooper is more than just a podcaster; she's a social butterfly who thrives on meaningful conversations. This aligns perfectly with her Enneagram Type 7 personality, known for being extroverted and enthusiastic. Her podcast episodes often delve into personal stories and controversial topics, showcasing her love for interviews and gossip.
 
-Alex's social reach extends to friendships with celebrities like [Miley Cyrus](/blog/famous-enneagram-types/Miley-Cyrus) and [Emily Ratajkowski](/blog/famous-enneagram-types/Emily-Ratajkowski). In a podcast episode with Emily, Alex discusses her image, personal relationship with sex, and her decision to tackle political issues. This conversation reflects her Type 7 traits, emphasizing the importance of having a voice and expressing herself openly.
+Alex's social reach extends to friendships with celebrities like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a> and <a href="/blog/famous-enneagram-types/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, personal relationship with sex, and her decision to tackle political issues. This conversation reflects her Type 7 traits, emphasizing the importance of having a voice and expressing herself openly.
 
 ## How Each Enneagram Type Perceives Alex Cooper
 

@@ -104,7 +104,7 @@ saying they just are not curious. Have they ever met someone who was similar to 
 
 So the next step was finding the place where people's similarities and differences could be explored. There were a few places I explored but none of them facilitated exploratory conversation. So I decided I would build the platform to explore people's similarities and differences. And I decided I would call it 9takes. "9" because there are 9 types of archetypes from the enneagram. And "Takes" because there are different takes on life.
 
-Additionally I found some [similarities between the philosophy and psychology that pointed towards the enneagram.](/blog/community/consensus-on-human-nature)
+Additionally I found some <a href="/blog/community/consensus-on-human-nature" >similarities between the philosophy and psychology that pointed towards the enneagram</a>.
 
 So that was the inspiration for 9takes. If you want to see what I am building sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
 

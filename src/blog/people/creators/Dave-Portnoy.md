@@ -73,9 +73,9 @@ What truly sets Portnoy apart is his audacious business move in 2020. After sell
 
 ### Marching to His Own Beat: The BFFs Podcast and Celebrity Connections
 
-Dave Portnoy's BFFs podcast with Josh Richards and Bri Chickenfry isn't just another podcast; it's a vivid illustration of his non-conformist approach to life. Whether it's his choice of co-hosts or his friendships with well-known figures like [Logan Paul](/blog/famous-enneagram-types/Logan-Paul) and [Jake Paul](/blog/famous-enneagram-types/Jake-Paul), Portnoy defies societal norms and popular opinions at every turn.
+Dave Portnoy's BFFs podcast with Josh Richards and Bri Chickenfry isn't just another podcast; it's a vivid illustration of his non-conformist approach to life. Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
 
-He's is friends with the Gen Z TikTokers and he's also unapologetically a stan of both [Taylor Swift](/blog/famous-enneagram-types/Taylor-Swift) and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his own lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
+He's is friends with the Gen Z TikTokers and he's also unapologetically a stan of both <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his own lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
 This disregard for societal expectations and his willingness to forge his own path are emblematic of a Type 8 personality—someone who values control over their own life and is unafraid to stand alone.
 
