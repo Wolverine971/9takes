@@ -60,8 +60,13 @@
 	<!-- <section>
 		
 	</section> -->
-	<Card>
-		<h1 class="question-box" id="question-box" style="overflow:hidden">
+	<div style:--tag="h-{data.question.question}">
+		<h1
+			class="question-box"
+			id="question-box"
+			style="overflow:hidden"
+			style:--tag={data.question.question}
+		>
 			{data.question.question}
 		</h1>
 
@@ -74,7 +79,7 @@
 			on:commentAdded={({ detail }) => addComment(detail)}
 			user={data?.session?.user}
 		/>
-	</Card>
+	</div>
 </article>
 
 <!--

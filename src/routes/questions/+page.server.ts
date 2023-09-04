@@ -1,10 +1,9 @@
-import { supabase } from '$lib/supabase';
-// import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+// import { error } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import { error } from '@sveltejs/kit';
-import { elasticClient } from '$lib/elasticSearch';
-
 import { PRIVATE_DEMO } from '$env/static/private';
+import { elasticClient } from '$lib/elasticSearch';
+import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
@@ -72,8 +71,7 @@ export const load: PageServerLoad = async (): Promise<{
 			.select(`${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
 				count: 'estimated'
 			})
-			.in('tag_id', tags)
-			.limit(20);
+			.in('tag_id', tags);
 
 		// const { data: subcategories, error: subcategoriesError } = await supabase
 		// 	.from('question_subcategories')
@@ -179,7 +177,8 @@ export const actions: Actions = {
 				)
 				.eq('parent_type', 'question')
 				.eq('parent_id', questionId)
-				.in(`${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes);
+				.in(`${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes)
+				.order('created_at', { ascending: false });
 			if (comments) {
 				return comments.map((c) => {
 					c.profiles = c.profiles_demo;

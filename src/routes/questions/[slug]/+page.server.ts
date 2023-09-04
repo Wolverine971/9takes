@@ -35,7 +35,8 @@ export async function load(event: any) {
 			.select('*')
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id)
-			.eq('author_id', session?.user.id);
+			.eq('author_id', session?.user.id)
+			.order('created_at', { ascending: false });
 		if (!question || findQuestionError) {
 			throw error(400, {
 				message: 'No question found'
@@ -50,7 +51,8 @@ export async function load(event: any) {
 			.select('*')
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id)
-			.eq('ip', ipAddress);
+			.eq('ip', ipAddress)
+			.order('created_at', { ascending: false });
 		userHasAnswered = hasCommented?.length ? true : false;
 	}
 
@@ -87,7 +89,8 @@ export async function load(event: any) {
 			{ count: 'exact' }
 		)
 		.eq('parent_id', question?.id)
-		.limit(10);
+		.limit(10)
+		.order('created_at', { ascending: false });
 
 	if (questionCommentsError) {
 		console.log('No comments for question');
@@ -242,6 +245,11 @@ export const actions: Actions = {
 			const parentId = parseInt(parent_id);
 			const ip = getClientAddress();
 
+			if (typeof comment !== 'string') {
+				throw error(404, {
+					message: `Bad comment`
+				});
+			}
 			parseUrls(comment, questionId);
 
 			let esId = null;

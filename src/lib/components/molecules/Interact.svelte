@@ -17,6 +17,7 @@
 	export let data: any; // QuestionObject | CommentObject;
 	export let user: any;
 	export let questionId: number;
+	export let stack: boolean;
 
 	// if (parentType === 'question') {
 	// 	data;
@@ -91,36 +92,6 @@
 		}
 	};
 
-	const likeComment = async () => {
-		if (!user) {
-			notifications.info('Must register or login to like comments', 3000);
-			return;
-		}
-		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
-		let body = new FormData();
-		body.append('parent_id', data.id);
-		body.append('user_id', user.id);
-		body.append('es_id', data.es_id);
-		body.append('operation', operation);
-
-		const resp = await fetch('?/likeComment', {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
-		const newLike = result?.data;
-		if (newLike) {
-			likes = [newLike, ...likes];
-		} else {
-			likes = likes.filter((c) => {
-				c.user_id !== user.id;
-			});
-		}
-	};
-
 	const subscribe = async () => {
 		if (!user) {
 			notifications.info('Must register or login to subscribe to questions', 3000);
@@ -162,11 +133,11 @@
 	either pop down under the question like fb
 	or pop out in a dialog like qra
 -->
-<div class="interaction-div-display">
+<div class="interaction-div-display {stack ? 'interaction-div-column' : ''}">
 	<button
 		title="Comment"
 		class=""
-		style="padding: 0.25rem;{parentType === 'question' ? 'width: 8rem;' : ''}"
+		style="padding: 0.25rem; {parentType === 'question' ? 'width: 8rem;' : ''}"
 		on:click={() => (commenting = !commenting)}
 	>
 		<MasterCommentIcon
@@ -177,29 +148,6 @@
 		/>
 	</button>
 
-	{#if parentType !== 'question'}
-		<button
-			title="Like"
-			class=""
-			style="{parentType === 'question' ? '' : 'padding: 0.25rem;'}color: {likes &&
-				user?.id &&
-				likes.some((e) => e.user_id === user?.id) &&
-				'#5407d9'}"
-			on:click={likeComment}
-		>
-			{#if likes.length}
-				{likes.length}
-			{/if}
-			<!-- {#if parentType === 'question'}
-				Like
-			{/if} -->
-			<ThumbsUpIcon
-				iconStyle={parentType === 'question' ? 'margin-left: .5rem;' : 'padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') || ''}
-			/>
-		</button>
-	{/if}
 	{#if parentType === 'question'}
 		<button title="Subscribe" class="corner-btn" style={'padding: 0.25rem;'} on:click={subscribe}>
 			<BellIcon
@@ -392,6 +340,11 @@ interface QuestionObject {
 		background-color: var(--color-bg-0);
 		border-radius: 5px;
 		border: 1px solid var(--color-bg-2);
+	}
+
+	.interaction-div-column {
+		flex-direction: column;
+		width: 5%;
 	}
 
 	.interact-text-container {

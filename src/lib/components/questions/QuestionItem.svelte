@@ -10,8 +10,13 @@
 	const newdate = month + '/' + day + '/' + year;
 </script>
 
-<a href="/questions/{questionData.url}" style="" class="question-card">
-	<p class="question-display">
+<a
+	href="/questions/{questionData.url}"
+	style=""
+	class="question-card"
+	style:--tag="h-{questionData.question}"
+>
+	<p class="question-display" style:--tag={questionData.question}>
 		{questionData.question}
 	</p>
 	<div class="small-div">

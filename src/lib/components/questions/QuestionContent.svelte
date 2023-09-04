@@ -265,13 +265,13 @@
 			</h3>
 		{/if}
 		<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
-		<Card style="padding: .5rem; border: none;">
+		<div style="padding: .5rem; border: none;">
 			<!-- Renders for SEO, removed if not answered -->
 			<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
 				<h3 class="tab-header">Comments</h3>
 			{/if} -->
 			<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
-		</Card>
+		</div>
 	</article>
 
 	<article class="flexr {selectedTab === 'articles' && 'first'}">

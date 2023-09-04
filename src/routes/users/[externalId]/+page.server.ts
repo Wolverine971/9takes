@@ -1,5 +1,6 @@
-import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import { supabase } from '$lib/supabase';
+
 import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 
@@ -31,7 +32,8 @@ export const load: PageServerLoad = async (event: any) => {
 	let { data: comments, error: commentsError } = await supabase
 		.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 		.select(`*,`)
-		.eq('author_id', user?.id);
+		.eq('author_id', user?.id)
+		.order('created_at', { ascending: false });
 
 	// got to map the question separately
 	// ${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)

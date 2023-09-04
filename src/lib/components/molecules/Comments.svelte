@@ -6,7 +6,7 @@
 	let loading = false;
 
 	export let nested: boolean = false;
-	export let parentType: string = 'question';
+	export let parentType: string = 'comment';
 
 	export let data: any;
 	export let user: any;
@@ -16,6 +16,8 @@
 	let comment_count: number;
 
 	$: data, matchData();
+
+	console.log(data);
 
 	const matchData = () => {
 		// console.log('comments', data);
@@ -60,9 +62,10 @@
 			.then((response) => response.json())
 			.then((commentData) => {
 				if (!commentData?.message) {
-					_data = Object.assign({}, data);
-					comments = [..._data?.comments];
-					comment_count = _data?.comment_count;
+					// _data = Object.assign({}, commentData);
+					comments = [...commentData];
+					comment_count += 1;
+					loading = false;
 				}
 			});
 	};
@@ -86,6 +89,7 @@
 					{questionId}
 					{comment}
 					{user}
+					{data}
 					on:commentAdded={({ detail }) => addComment(detail)}
 				/>
 			{/each}
@@ -99,7 +103,13 @@
 {:else if !browser || (comments?.length && parentType === 'comment')}
 	<div>
 		{#each comments as comment}
-			<Comment {questionId} {comment} {user} on:commentAdded={({ detail }) => addComment(detail)} />
+			<Comment
+				{questionId}
+				{comment}
+				{data}
+				{user}
+				on:commentAdded={({ detail }) => addComment(detail)}
+			/>
 		{/each}
 	</div>
 	{#if comments?.length < comment_count}

@@ -6,6 +6,23 @@
 	import './styles.css';
 	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 	import { dev } from '$app/environment';
+	// import { beforeNavigate } from '$app/navigation';
+
+	// beforeNavigate((navigation) => {
+	// 	if (!document.startViewTransition) {
+	// 		return;
+	// 	}
+
+	// 	return new Promise((oldStateCaptureResolve) => {
+	// 		document.startViewTransition(async () => {
+	// 			oldStateCaptureResolve();
+	// 			await navigation.complete;
+	// 		});
+	// 	});
+	// });
+	import { preparePageTransition } from '$lib/page-transition';
+
+	preparePageTransition();
 
 	$: if (browser && analyticsId && !dev) {
 		webVitals({
@@ -73,6 +90,12 @@
 		</div>
 	</div> -->
 <style lang="scss">
+	@media (prefers-reduced-motion: no-preference) {
+		[style*='--tag'] {
+			view-transition-name: var(--tag);
+		}
+	}
+
 	.content-display {
 		display: flex;
 		justify-content: center;

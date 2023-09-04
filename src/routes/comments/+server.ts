@@ -1,8 +1,8 @@
 // import type { error, json } from 'src/schema';
 
 import { error, json } from '@sveltejs/kit';
-import { supabase } from '$lib/supabase';
 import { PRIVATE_DEMO } from '$env/static/private';
+import { supabase } from '$lib/supabase';
 
 import type { PostgrestResponse } from '@supabase/supabase-js';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
@@ -76,7 +76,8 @@ export async function GET({
 		`,
 				{ count: 'exact' }
 			)
-			.eq('parent_id', parentId);
+			.eq('parent_id', parentId)
+			.order('created_at', { ascending: false });
 		const questionCommentIds = questionComments?.map((q) => {
 			return q.id;
 		});
@@ -104,7 +105,8 @@ export async function GET({
 					{ count: 'exact' }
 				)
 				.in('parent_id', questionCommentIds)
-				.eq('parent_type', parentType);
+				.eq('parent_type', parentType)
+				.order('created_at', { ascending: false });
 
 			interface ICommentMap {
 				[key: string]: string[];
