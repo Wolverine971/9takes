@@ -106,9 +106,9 @@
 		{/if}
 
 		<div class="pop-card-user">
-			{#if enneagramType && showDescription}
+			<!-- {#if enneagramType && showDescription}
 				<div class="type-description">core motivation, core fear, common stereotypes</div>
-			{/if}
+			{/if} -->
 			{#if displayText}
 				<p class="name-pop" data-value={displayText}>{displayText}</p>
 			{/if}
