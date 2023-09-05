@@ -165,7 +165,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 
 - "Your brain's like the latest iPhone update, always ahead."
 - "Dropping wisdom like it's hot!"
-- "If insights were currency, you'd be <a href="/blog/enneagram/Elon-Musk" >Elon Musk</a>."
+- "If insights were currency, you'd be <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk</a>."
 - "That big brain energy? It's the drip for real."
 - "When you speak, it's like a TED Talk everyone's tuned into."
 - "Your look today? Intellectual with a side of drip."

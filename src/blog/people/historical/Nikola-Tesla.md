@@ -90,7 +90,7 @@ Nikola Tesla was more than an inventor; he was a visionary. His emotional depth 
 
 His groundbreaking inventions, from the Tesla Coil to his audacious theories on wireless energy, were not just feats of engineering but expressions of his emotional and intellectual complexity. He envisioned a world where energy could be transmitted wirelessly, a concept so ahead of its time that it still captures our imagination today.
 
-This legacy of innovation and vision didn't just stop with him. <a href="/blog/enneagram/Elon-Musk" >Elon Musk's</a> Tesla Inc. was inspired by and named after Nikola Tesla, aiming to continue his work of challenging conventional wisdom and pushing technological boundaries. In this way, Tesla's emotional and creative richness continues to inspire and shape the future.
+This legacy of innovation and vision didn't just stop with him. <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk's</a> Tesla Inc. was inspired by and named after Nikola Tesla, aiming to continue his work of challenging conventional wisdom and pushing technological boundaries. In this way, Tesla's emotional and creative richness continues to inspire and shape the future.
 
 ## The Final Years: A Life Well Lived
 
