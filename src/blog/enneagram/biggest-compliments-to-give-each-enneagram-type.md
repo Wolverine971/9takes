@@ -4,7 +4,7 @@ description: 'Explore the ultimate compliments for each Enneagram type, delving 
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2023-08-27'
+lastmod: '2023-09-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,36 +19,36 @@ pic: 'greek-statue-yeah-boi'
    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Ever wondered how to make someone's day with just the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special. Let's get started!</p>
+<p class="firstLetter">Have you Ever wondered how to make someone's day with a fitting compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special. Let's get started!</p>
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/blogs/greek-statue-yeah-boi.webp`}
-		showIcon={false}
-		displayText=""
-        altText="greek statues being happy"
+    <PopCard
+        image={`/blogs/greek-statue-yeah-boi.webp`}
+        showIcon={false}
+        displayText=""
+        altText="Greek statues being happy"
         tint={true}
-		subtext="thanks for the compliment"
-	/>
+        subtext="Thanks for the compliment."
+    />
 </div>
 
 <article class="section-content">
 
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
-Type 1 individuals are driven by an innate desire for perfection and righteousness. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
+An innate desire for perfection and righteousness drives type 1 individuals. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
 
-**Basic Compliment:** "Your integrity and commitment to making the world better never cease to inspire. You lead with unwavering principles."
+**Basic Compliment:** "Your integrity and commitment to improving the world never cease to inspire. You lead with unwavering principles."
 
 **What the kids say:**
 
 - "Your vibe? Straight-up chef's kiss."
-- "When you walked in with that commitment to excellence? Whole place lit up, no cap."
+- "When you walked in with that commitment to excellence? The whole place lit up, no cap."
 - "You're the real OG of keeping things 100."
 - "That dedication to fairness? It's the drip."
 - "You glow different when you're on that righteous mission."
@@ -111,19 +111,19 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/blogs/greek-statue-yeah-boi-1.webp`}
-		showIcon={false}
-		displayText=""
-        altText="greek statues being happy again"
+    <PopCard
+        image={`/blogs/greek-statue-yeah-boi-1.webp`}
+        showIcon={false}
+        displayText=""
+        altText="Greek statues being happy again"
         tint={true}
-		subtext="wow! you make me feel so good about myself"
-	/>
+        subtext="wow! you make me feel so good about myself"
+    />
 </div>
 
 </article>
@@ -186,7 +186,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 
 ### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
 
-Type 6 personalities value security and trust. By acknowledging their dedication and reliability, you affirm their foundational role in any relationship or endeavor.
+Type 6 personalities value security and trust. Acknowledging their dedication and reliability affirms their foundational role in any relationship or endeavor.
 
 **Basic Compliment:** "Your loyalty and steadfastness are the pillars on which people lean. Your commitment is unwavering."
 
@@ -231,19 +231,19 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/blogs/greek-statue-yeah-boi-2.webp`}
+    <PopCard
+        image={`/blogs/greek-statue-yeah-boi-2.webp`}
         showIcon={false}
-		displayText=""
+        displayText=""
         altText="happy greek statues"
         tint={true}
-		subtext="bring it in, you are my friend now"
-	/>
+        subtext="Bring it in. You are my friend now."
+    />
 </div>
 
 </article>
@@ -252,7 +252,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 
 ### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
 
-Type 8 personalities are natural leaders, driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
+Type 8 personalities are natural leaders driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
 
 **Basic Compliment:** "Your strength and protective nature make people feel safe. You advocate fearlessly for what you believe in."
 
@@ -277,7 +277,7 @@ Type 8 personalities are natural leaders, driven by a desire to control their en
 
 ### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
 
-Type 9 individuals are the peacekeepers. Celebrating their mediation skills and their gift for seeing multiple perspectives affirms their nurturing and harmonizing nature.
+Type 9 individuals are the peacekeepers. Celebrating their mediation skills and the gift of seeing multiple perspectives affirms their nurturing and harmonizing nature.
 
 **Basic Compliment:** "Your ability to bring harmony and unity is unparalleled. Your calm presence is a soothing balm in any storm."
 
@@ -291,7 +291,7 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 - "That harmonious glow? It's a whole aesthetic."
 - "You're the calming tea everyone needs after a long day."
 - "Your style? Peaceful with a side of swag."
-- "In the soundtrack of life, you're the soothing interlude."
+- "In life's soundtrack, you're the soothing interlude."
 - "You're the vibe everyone needs on their 'chill' playlist."
 
 [More on type 9s](/blog/enneagram/enneagram-type-9)
@@ -300,7 +300,7 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 
 The Enneagram is a mirror, reflecting the multifaceted nature of humanity. By understanding and appreciating each type, we bridge gaps, forge connections, and create a world rich in empathy and understanding.
 
-To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is so much more to explore. 🚀
 
 <svelte:head>
 
@@ -310,7 +310,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
    "@graph":[
       {
          "@type":"Article",
-         "articleBody":"Ever wondered how to make someone's day with just the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
+         "articleBody":"Ever wondered how to make someone's day with the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
          "creator" : ["DJ Wayne"],
          "author": {
             "@type": "Person",
@@ -320,13 +320,13 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
             },
          "dateModified":{
             "@type":"Date",
-            "@value":"2023-08-26"
+            "@value":"2023-09-04"
          },
          "datePublished":{
             "@type":"Date",
             "@value":"2023-08-09"
          },
-         "description":"A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's core essence.",
+         "description":"A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's essence.",
          "headline":"The Ultimate Compliments for Every Enneagram Type",
          "image":{
             "@type":"ImageObject",
@@ -359,7 +359,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
                "@type":"Question",
                "acceptedAnswer":{
                   "@type":"Answer",
-                  "text":"The compliments provided in the article are crafted based on the core essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
+                  "text":"The compliments provided in the article are crafted based on the essence and desires of each Enneagram type. It is designed to resonate deeply and acknowledge the strengths of each type."
                },
                "name":"How were the compliments for each Enneagram type determined?"
             }
@@ -367,6 +367,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
       }
    ]
 }
+
 </script>
 
 </svelte:head>

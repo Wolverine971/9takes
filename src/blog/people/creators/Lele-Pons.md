@@ -69,8 +69,6 @@ lele taehyung
 lele pons photoshop
 lele pons boots
 
-
-
 -->
 
 <!-- <script>

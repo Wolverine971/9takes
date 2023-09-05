@@ -4,7 +4,7 @@ description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncov
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2023-08-27'
+lastmod: '2023-09-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -15,11 +15,11 @@ previewHtml: ''
 
 <!-- Take a free, ~5 min test here -->
 
-<p class="firstLetter"> Ever felt misunderstood or not understand something about someone else? Well, there is a personality system called the Enneagram that can help by offering a framework for understanding a person's core fears and motivations.</p>
+<p class="firstLetter"> Ever felt misunderstood or did not understand something about someone else? A personality system called the Enneagram can help by offering a framework for understanding a person's core fears and motivations.</p>
 
-I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our own versions of the truth on each other. When we felt right about something we did not slow down to consider each other's perspectives. The Enneagram helped us slow down and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict but we continue to use it and it has we helped us become more of a team.
+I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our versions of the truth on each other. We did not slow down to consider each other's perspectives when we felt right about something. The Enneagram helped us slow down, and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict, but we continue to use it, which has helped us become more of a team.
 
-In this guide, I'll simplify the complex world of the Enneagram. I'll show you exactly how to determine your type, so that you can understand yourself and others better.
+In this guide, I'll simplify the complex world of the Enneagram. I'll show you exactly how to determine your type so that you can understand yourself and others better.
 
 ## Enneagram Overview
 
@@ -27,23 +27,23 @@ In this guide, I'll simplify the complex world of the Enneagram. I'll show you e
 
 The Enneagram is a personality system that identifies "types" or archetypes based on coping mechanisms (aka survival strategies) we developed due to unresolved childhood traumas.
 
-For example, a child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough. A child who grew up in a chaotic environment might cope by distracting themselves and always look on the bright side of things, avoiding uncomfortable or painful situations.
+For example, a child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are reasonable enough. A child who grew up in a chaotic environment might cope by distracting themselves and always looking on the bright side of things, avoiding uncomfortable or painful situations.
 
 Now that you understand what an Enneagram is, it's time to delve deeper into how you can determine your type.
 
-## Steps to Determining your Enneagram
+## Steps to Determining Your Enneagram
 
 ### Identify Your Core Emotion
 
-The first step in identifying your enneagram type is to understand the three core emotions that form your "type": anger, fear, and shame. Ask yourself which of these emotions comes up for you the most in daily life? You either feel that emotion and use it to motivate you, feel that emotion and push it away, or feel that emotion constantly in the back of your head. Another way to get at that emotion would be to ask which emotion do you have the easiest access to? Or if someone else was feeling anger, fear, or shame, which emotion would be easiest for you to empathize with?
+The first step in identifying your enneagram type is understanding the three core emotions that form your "type": anger, fear, and shame. Ask yourself which of these emotions comes up for you the most in daily life. You either feel that emotion and use it to motivate you, feel that emotion and push it away, or feel that emotion constantly in the back of your head. Another way to get at that emotion would be to ask which emotion you have the most accessible access to. Or if someone else was feeling anger, fear, or shame, which emotion would be easiest for you to empathize with?
 
 ### Understand the Connection Between Emotions and Centers of Intelligence
 
-In the enneagram, these core emotions relate to centers of intelligence. Fear relates to intellectual intelligence, shame to emotional intelligence, and anger to instinctual intelligence. Understanding this connection can help you better understand your reactions and behaviors.
+In the Enneagram, these core emotions relate to centers of intelligence. Fear relates to intellectual intelligence, shame to emotional intelligence, and anger to instinctual intelligence. Understanding this connection can help you better understand your reactions and behaviors.
 
 ### Identify Your Type
 
-After identifying your core emotion, the next step is to identify your type. There are three three types per core emotion and each type handles the core emotion in different ways. One type uses the emotion actively, as a form of empowerment or motivation. Another type suppresses the emotion actively, attempting to escape the uncomfortable feeling. And the last type has the emotion unconsciously influencing them from the background. Determine your type within the core emotion that you identify with the most by examining the core motivation and fear.
+After identifying your core emotion, the next step is to identify your type. There are three types per core emotion, and each one handles the core emotion differently. One type uses emotion actively as a form of empowerment or motivation. Another type suppresses the emotion actively, attempting to escape the uncomfortable feeling. And the last class has the emotion unconsciously influencing them from the background. Determine your type within the core emotion you identify with the most by examining the core motivation and fear.
 
 <article class="section-content">
 
@@ -90,7 +90,7 @@ After identifying your core emotion, the next step is to identify your type. The
 #### Type 6 - The Loyalist
 
 - **Core Motivation:** Desire for security and support.
-- **Core Fear:** Being without guidance, support, or security.
+- **Core Fear:** Without guidance, support, or security.
 
 </article>
 <article class="section-content">
@@ -105,7 +105,7 @@ After identifying your core emotion, the next step is to identify your type. The
 
 #### Type 8 - The Challenger
 
-- **Core Motivation:** Desire to protect themselves and control their own life.
+- **Core Motivation:** Desire to protect themselves and control their lives.
 - **Core Fear:** Being harmed, controlled, or violated.
 
 </article>
@@ -120,15 +120,15 @@ After identifying your core emotion, the next step is to identify your type. The
 
 ### Consider Your Childhood Wounds
 
-Many enneagram teachers talk about how your type develops as a result of a childhood wound. Something happened in your past that still affects you and you are compensating for in some ways. It could be many things: Your parent did or didn’t do something, a specific incident happened, your environment was skewed a certain way, a sibling or friend treated you a certain way, or you were constantly told a certain message. Understanding these wounds can help you better understand your enneagram type.
+Many enneagram teachers discuss how your type develops due to a childhood wound. Something happened in your past that still affects you, and you are compensating for it somehow. It could be many things: Your parent did or didn’t do something, a specific incident happened, your environment was skewed a certain way, a sibling or friend treated you a certain way, or you were constantly told a particular message. Understanding these wounds can help you better understand your enneagram type.
 
 ### Examine the Connecting Lines on the Enneagram
 
-Once you think you've identified your type, look at the connecting lines on the Enneagram. These represent where each type goes in times of stress or comfort also known as the path of integration (growth/ comfort) and a path of disintegration (destruction/stress).
+Once you think you've identified your type, look at the connecting lines on the Enneagram. These represent where each type goes in times of stress or comfort, also known as the path of integration (growth/ comfort) and the path of disintegration (destruction/stress).
 
-**Path of Integration (Growth):** This is the direction we move when we are growing, feeling secure, or operating out of our higher selves. We take on some of the positive traits of another type. For example, when a Type Eight (The Challenger) is moving in the direction of growth, they take on some of the positive traits of a Type Two (The Helper), becoming more open-hearted and caring.
+**Path of Integration (Growth):** This is the direction we move when growing, feeling secure, or operating out of our higher selves. We take on some of the positive traits of another type. For example, when a Type Eight (The Challenger) is moving toward growth, they take on some of the positive characteristics of a Type Two (The Helper), becoming more open-hearted and caring.
 
-**Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative traits of a Type Five (The Investigator), becoming more withdrawn and secretive.
+**Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative characteristics of a Type Five (The Investigator), becoming more withdrawn and secretive.
 
 <div style="display: flex; text-align: center;
   justify-content: center;
@@ -153,11 +153,11 @@ Link here -->
 
 ### Avoid the Common Pitfall
 
-Be aware of the common pitfall of identifying with the type you idealize, rather than who you truly are. Consider your natural tendencies and daily behaviors.
+Be aware of the common pitfall of identifying with the type you idealize rather than who you are. Consider your natural tendencies and daily behaviors.
 
-By following these steps, you should be on your way to determining your enneagram type. Remember, this is a journey of self-discovery and it may take time to fully understand your type. Be patient with yourself and the process.
+By following these steps, you should be on your way to determining your enneagram type. Remember, this is a journey of self-discovery, and it may take time to understand your type fully. Be patient with yourself and the process.
 
-In the next section, we will delve deeper into each enneagram type, their core emotions, and the childhood wounds associated with them.
+In the next section, we will delve deeper into each enneagram type, their core emotions, and their associated childhood wounds.
 
 ## Diving into the childhood wounds of each Enneagram Type
 
@@ -166,7 +166,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 
 - **Core Emotion:** Anger
-- **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent being distracted, overly strict, or overly lenient. To cope, Ones made themselves their own judges and critics, developing their own strict code of ethics and rules.
+- **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent needing to be more focused, overly strict, or lenient. Ones made themselves their judges and critics, developing their strict code of ethics and rules to cope.
 
 </article>
 <article class="section-content">
@@ -174,7 +174,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
 
 - **Core Emotion:** Shame
-- **Childhood Wound:** Twos felt that there was a lack of nurturing, guidance, or structure coming from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their own needs.
+- **Childhood Wound:** Twos felt a lack of nurturing, guidance, or structure came from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their needs.
 
 </article>
 <article class="section-content">
@@ -182,7 +182,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
 
 - **Core Emotion:** Shame
-- **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for what they achieved rather than who they were. They worked hard to gain approval through achievements.
+- **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for their achievements rather than who they were. They worked hard to gain approval through achievements.
 
 </article>
 <article class="section-content">
@@ -190,7 +190,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
 
 - **Core Emotion:** Shame
-- **Childhood Wound:** Fours felt disconnected from both parental figures. They felt like their parents didn’t see them for who they really were. They tried early on to accept what made them different.
+- **Childhood Wound:** Fours felt disconnected from both parental figures. They felt their parents didn’t see them for who they were. They tried early on to accept what made them different.
 
 </article>
 <article class="section-content">
@@ -198,7 +198,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
 
 - **Core Emotion:** Fear
-- **Childhood Wound:** Fives felt ambivalent towards both their parental figures. They felt like “odd ducks,” forever on the outside looking in. To cope, Fives retreated from the outside world and focused on mastering a unique subject of interest.
+- **Childhood Wound:** Fives felt ambivalent towards their parental figures. They felt like “odd ducks,” forever on the outside looking in. Fives retreated from the outside world to cope and focused on mastering a unique subject of interest.
 
 </article>
 <article class="section-content">
@@ -206,7 +206,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
 
 - **Core Emotion:** Fear
-- **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for a sense of security or guidance rather than trusting their own inner voice.
+- **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for security or guidance rather than trusting their inner voice.
 
 </article>
 <article class="section-content">
@@ -222,7 +222,7 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
 
 - **Core Emotion:** Anger
-- **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness” they would be hurt, rejected, or betrayed.
+- **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness,” they would be hurt, rejected, or betrayed.
 
 </article>
 <article class="section-content">
@@ -230,15 +230,15 @@ In the next section, we will delve deeper into each enneagram type, their core e
 ### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
 
 - **Core Emotion:** Anger
-- **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, to deny their own feelings, and to stay in the background.
+- **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, deny their feelings, and stay in the background.
 
 </article>
 
-## Conclusion
+## Wrapping Up
 
-You now have a tool to better understand your thought patterns, emotions, and behaviors. Use what serves you, and disregard what does not but maybe come back to it later. It's not just about personal development; it's also about understanding others and having empathy in understanding how they became who they are.
+You now have a tool better to understand your thought patterns, emotions, and behaviors. Use what serves you, disregard what does not, but return later. It's not just about personal development; it's also about understanding others and having empathy in understanding how they became who they are.
 
-If you found this guide helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this guide helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -260,9 +260,9 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
 
         ]
       },
-      "dateModified": "2023-08-27",
+      "dateModified": "2023-09-04",
       "datePublished": "2023-07-11",
-      "description": "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
+      "description": "Navigate the Enneagram easily using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
       "headline": "The Beginner's Guide to Determining Your Enneagram Type",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type",
@@ -297,7 +297,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Each Enneagram type has a core emotion and a childhood wound associated with it. For example, Type 1, The Perfectionist, has anger as the core emotion and often felt disconnected from the protective figure in their life as their childhood wound."
+            "text": "Each Enneagram type has a core emotion and a childhood wound. For example, Type 1, The Perfectionist, has anger as the core emotion and often feels disconnected from the protective figure in their life as their childhood wound."
           },
           "name": "What are the core emotions and childhood wounds of Enneagram types?"
         },
@@ -305,7 +305,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram can be a journey of self-discovery and it may take time to fully understand your type. Be patient with yourself and the process."
+            "text": "The Enneagram can be a journey of self-discovery, and it may take time to understand your type fully. Be patient with yourself and the process."
           },
           "name": "How long does it take to determine my Enneagram type?"
         }
@@ -313,6 +313,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
     }
   ]
 }
+
 </script>
 
 </svelte:head>

@@ -145,7 +145,6 @@ Tesla's story is a testament to the power of individuality, the beauty of emotio
 
 Take a moment to reflect on your own life. Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? Either way, let Tesla's story inspire you to embrace your individuality and examine the motivations that guide your actions. After all, understanding ourselves is the first step in making our indelible marks on the world.
 
-
 <svelte:head>
 
 <script type="application/ld+json">
