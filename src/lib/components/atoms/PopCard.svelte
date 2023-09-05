@@ -61,6 +61,11 @@
 			}, 30);
 		}
 	};
+
+	const showTypeDescription = () => {
+		showDescription = true;
+	};
+	let showDescription = false;
 </script>
 
 <!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
@@ -71,9 +76,14 @@
 	title={altText || displayText}
 	on:mouseover={() => {
 		scribbleScrabble();
+		showDescription = true;
 	}}
 	on:focus={() => {
 		scribbleScrabble();
+		showDescription = true;
+	}}
+	on:mouseleave={() => {
+		showDescription = false;
 	}}
 >
 	<!-- <div
@@ -83,6 +93,7 @@
 	/> -->
 	<img
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
+		style={showDescription ? 'filter: none !important;' : ''}
 		src={image}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
@@ -95,10 +106,11 @@
 		{/if}
 
 		<div class="pop-card-user">
+			{#if enneagramType && showDescription}
+				<div class="type-description">core motivation, core fear, common stereotypes</div>
+			{/if}
 			{#if displayText}
 				<p class="name-pop" data-value={displayText}>{displayText}</p>
-			{:else}
-				<p style="width: 100%;" />
 			{/if}
 			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" class="external-link" target="_blank">@Hyperplexed</a> -->
 			<p class="link">{subtext}</p>
@@ -107,6 +119,9 @@
 </div>
 
 <style lang="scss">
+	.type-description:hover {
+	}
+
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
@@ -167,9 +182,9 @@
 		/* .profileFace {
 			filter: blur(1px) !important;
 		} */
-		img {
-			filter: none !important;
-		}
+		// img {
+		// 	filter: none !important;
+		// }
 	}
 
 	.pop-card:after {
