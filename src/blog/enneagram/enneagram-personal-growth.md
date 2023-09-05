@@ -150,7 +150,7 @@ In 5 Years: They will have developed a strong sense of individuality, become mor
 
 Each Enneagram type benefits from a tailored approach to self-improvement. By recognizing their distinct tendencies and challenges, individuals can develop personalized strategies for growth. For each type, it's essential to move away from rudimentary approaches and unhealthy self-talk, embracing more nuanced and healthy perspectives. Dealing with stress involves specific techniques and activities that resonate with each type, enabling them to grow and improve. For more on <a href="enneagram-stress-number" >stress check out this article</a>. As individuals progress on their growth paths, they will notice tangible changes in their thoughts, feelings, and behaviors over time. Embracing the Enneagram's insights and applying tailored strategies allows for transformative personal growth and self-development, leading to more fulfilling lives.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

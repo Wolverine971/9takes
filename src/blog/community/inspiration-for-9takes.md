@@ -104,7 +104,7 @@ So the next step was finding the place where people's similarities and differenc
 
 Additionally I found some <a href="/blog/community/consensus-on-human-nature" >similarities between the philosophy and psychology that pointed towards the enneagram</a>.
 
-So that was the inspiration for 9takes. If you want to see what I am building sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+So that was the inspiration for 9takes. If you want to see what I am building sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <style>
 </style>

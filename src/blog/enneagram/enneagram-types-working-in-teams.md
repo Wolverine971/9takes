@@ -174,7 +174,7 @@ Here we'll explore how different Enneagram types work together in teams and give
 
 Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

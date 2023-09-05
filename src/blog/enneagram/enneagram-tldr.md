@@ -51,7 +51,7 @@ While online tests can provide a starting point for determining your Enneagram t
 
 By understanding your Enneagram type, you can gain insight into your strengths and weaknesses, and identify areas for personal growth. But you can also gain insight into others and the potential applications are only limited by your own creativity.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

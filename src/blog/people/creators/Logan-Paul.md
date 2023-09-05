@@ -94,7 +94,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 How does this perspective of Logan Paul enhance your understanding of his enigmatic personality? Does it shed light on his motivations and actions, helping you appreciate the layers beneath his controversial image? In an ever-evolving world of social media influencers, perhaps there is value in understanding not just their outward appearances but also their inner drives and perspectives.
 
-To explore more captivating personalities and gain a deeper understanding of the human experience, join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+To explore more captivating personalities and gain a deeper understanding of the human experience, join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

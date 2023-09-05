@@ -200,7 +200,7 @@ The Enneagram can also be a powerful tool for creating intimacy in relationships
 
 Time for the obligatory reminder that the Enneagram is not a one-size-fits-all solution for every relationship. Each person is unique, and there are many factors that influence how we communicate and connect with others. However, by using the Enneagram as a tool for understanding yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.
 
-If you found this helpful sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

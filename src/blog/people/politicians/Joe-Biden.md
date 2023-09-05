@@ -70,7 +70,7 @@ As a Type 2, Biden may experience the weight of expectations from both his suppo
 
 ## Wrapping up
 
-Joe Biden's personality aligns with the Enneagram Type 2 - The Helper. His extensive career in public service, empathetic connections with others, and dedication to important causes exemplify his inclination to assist and uplift those in need. However, it is important to acknowledge the challenges that come with this personality type, such as setting boundaries and managing the burden of expectations. By understanding the Enneagram type of public figures like Joe Biden, we gain a deeper insight into their actions and decisions. If you're curious about exploring the personalities of influential individuals and delving into the intricacies of human behavior, we invite you to join our community. Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Joe Biden's personality aligns with the Enneagram Type 2 - The Helper. His extensive career in public service, empathetic connections with others, and dedication to important causes exemplify his inclination to assist and uplift those in need. However, it is important to acknowledge the challenges that come with this personality type, such as setting boundaries and managing the burden of expectations. By understanding the Enneagram type of public figures like Joe Biden, we gain a deeper insight into their actions and decisions. If you're curious about exploring the personalities of influential individuals and delving into the intricacies of human behavior, we invite you to join our community. Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

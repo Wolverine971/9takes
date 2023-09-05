@@ -98,7 +98,7 @@ As we journey back from this deep dive into David Dobrik's psyche, we see how th
 
 How does this viewpoint of Dobrik enhance your understanding of him as an Internet personality? Does seeing Dobrik through the lens of Enneagram Type 7 offer deeper insights into his actions and motivations?
 
-Go beyond the surface and delve deeper into the world of personalities with us. Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Go beyond the surface and delve deeper into the world of personalities with us. Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

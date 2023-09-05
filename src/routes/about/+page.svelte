@@ -22,33 +22,32 @@
 
 	<p>
 		<b>"Everyone is unique," ✨</b><br />we know that intellectually. But why do some people (not
-		you 😉) get surprised when someone doesn't agree with them. Surely if that other person had all
-		the facts, was smart, kind and had your experience they would totally agree with your point of
-		view. We forget that other people can have facts, be smart, kind and have similar experiences
-		AND still disagree. 9takes is about leaning into these disagreements and embracing these
-		differences because, in the end, we all learn something, becoming better 👍 faster ⚡ and
-		stronger 💪.
+		you 😉) get surprised when someone doesn't agree with them? Surely if that other person had all
+		the facts, was smart, kind and had your experience they would agree with your point of view. We
+		forget that other people can have facts, be smart, kind and have similar experiences AND still
+		disagree. 9takes is about leaning into these disagreements and embracing these differences
+		because, in the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
 
 		<br /><br />
 		<b>
 			"Technology" should open us up to new things, not create bubbles where we hear the same
-			perspective over and over. 9takes is opening the conversation back up and dishing out fresh
+			perspective repeatedly. 9takes is opening the conversation back up and dishing out fresh
 			takes.
 		</b>
 		<!-- <br /><br />
-        Our perspectives, thoughts, emotions, and ways of doing things are all different. We may know that
-        in our head but how often are we surprised when others are not thinking, feeling, and acting like
-        we do? When we realize someone doesn't think like us, do we think “Wow, I wonder what their perspective
+        Our perspectives, thoughts, emotions, and ways of doing things differ. We may know that
+        in our head, but how often are we surprised when others are not thinking, feeling, and acting like
+        we do? When we realize someone doesn't think like us, do we think, “Wow, I wonder what their perspective
         is and why they think that," or do we think that a person is not smart or maybe they don't have all
-        the information? When we see others not feeling the way we feel we feel on a certain subject do we
-        recognize the layers beneath the feelings or Do we morally superior to them? And when someone doesn't
-        act like us does that make us curious or dismissive? -->
+        the information? When we see others not feeling like we do on a certain subject, do we
+        recognize the layers beneath the feelings, or Are we morally superior to them? And when someone doesn't
+        act like us, does that make us curious or dismissive? -->
 	</p>
 
 	<h3>What was the inspiration for 9takes?</h3>
 	<p>
 		<a href="/blog/community/inspiration-for-9takes"
-			>TLDR, I got married and my wife and I were fighting a lot
+			>TLDR, I got married, and my wife and I were fighting a lot
 		</a>
 	</p>
 
@@ -58,42 +57,41 @@
 		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
 			Plato and Freud would have been fans of the Enneagram.
 		</a>
-		Currently, it is used by niche life coaches and as a tool for certain psychologists and therapists.
-		But it is not mainstream and probably won't be for some time.
+		It is used by niche life coaches and as a tool for certain psychologists and therapists. But it is
+		not mainstream and won't be for some time.
 		<br /><br />
-		We use it because it identifies a person's core motivations and fears. Typically through being guided
-		or through self-reflection people figure out their type. We are not going to tell you what your "Enneagram
-		type" is, that is for you to discover.
+		We use it because it identifies a person's core motivations and fears. Typically, people figure out
+		their type through being guided or through self-reflection. We are not going to tell you what your
+		"Enneagram type" is, that is for you to discover.
 	</p>
 
 	<h3>Why focus on questions and answers?</h3>
 	<p>
 		Because the process of forming and asking a question is a mental unlock. When you are asking
-		questions you are growing. When you have run out of questions you stop growing and you not only
-		run out of answers, you run out of hope.
+		questions, you are growing. When you have run out of questions, you stop growing, and you not
+		only run out of answers, you run out of hope.
 	</p>
-	<p>For example, in your daily life you may be asking yourself "why can't people...""</p>
+	<p>For example, in your daily life, you may be asking yourself, "Why can't people..."</p>
 
 	<ul>
-		<li>just do things the right way?</li>
+		<li>do things the right way?</li>
 		<li>be more grateful for all the things I do for them?</li>
-		<li>just appreciate my hard work and success?</li>
+		<li>appreciate my hard work and success?</li>
 		<li>understand my unique perspective and emotions?</li>
 		<li>respect my need for privacy and independence?</li>
-		<li>just be more reliable and trustworthy?</li>
-		<li>Wjust have more fun and excitement?</li>
-		<li>be more honest and dish out the hard truth?</li>
-		<li>just get along and find common ground?</li>
+		<li>be more reliable and trustworthy?</li>
+		<li>have more fun and excitement?</li>
+		<li>be more honest and dish out the hard truth.</li>
+		<li>get along and find common ground?</li>
 	</ul>
 	<p>
-		There are endless questions to ask. Fortunately, there are endless people out there with answers
-		and perspectives that you can learn from. They also have questions like you and will share if
-		you ask them to. Some people see the world like you and there are others who see a vastly
-		different world.
+		There are endless questions to ask. Fortunately, there are endless people with answers and
+		perspectives you can learn from. They also have questions like you and will share if you ask
+		them to. Some people see the world like you, and others see a vastly different world.
 	</p>
 	<p>
-		9takes is about embracing these differences or "takes" on the world. And by asking questions,
-		sharing stories, and getting curious people will be connected to the community around them.
+		9takes is about embracing these differences or "takes" on the world. By asking questions,
+		sharing stories, and getting curious, people will be connected to the community around them.
 	</p>
 </div>
 
@@ -103,10 +101,10 @@
 		<div style="margin:20px;">
 			<h3>Right now, just me, DJ</h3>
 			<p>
-				I am a techy, ex-military, most days happily married with 2 kids running around getting into
-				the highest of hijinks. My wife got me into the enneagram and I have been obsessed since. I
-				share my thoughts and opinions down below but would love to hear yours. Feel free to message
-				me <a
+				I am a techy, ex-military, most days happily married with two kids running around getting
+				into the highest of hijinks. My wife got me into the enneagram, and I have been obsessed
+				since. I share my thoughts and opinions below, but I would love to hear yours. Feel free to
+				message me <a
 					class="external-link"
 					target="_blank"
 					rel="noreferrer"

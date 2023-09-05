@@ -222,7 +222,7 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 As we unravel the final threads in this exploration, it should be clear how different our expectations can be, particularly on something as personal as a first date. This is just the tip of the iceberg. The Enneagram holds deeper secrets, waiting to be explored. Understanding the Enneagram means understanding yourself and those around you better. If you liked this checkout [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
 
-Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

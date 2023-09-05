@@ -106,7 +106,7 @@ But, as with every individual, Stewart is more than just a type. He is a complex
 
 Does seeing Stewart through the lens of the Enneagram Type 7 give you a deeper understanding of his motivations and actions? How does this perspective enhance your view of him as a comedian and social commentator?
 
-As we continue to peel back the layers of personalities, we invite you to join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+As we continue to peel back the layers of personalities, we invite you to join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

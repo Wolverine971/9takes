@@ -155,7 +155,7 @@ If there's one thing we've learned today, it's that Denzel Washington's possible
 
 What other insights can you uncover about your favorite celebrities? Dive deeper, challenge your preconceptions, and foster understanding by exploring their potential Enneagram types.
 
-Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

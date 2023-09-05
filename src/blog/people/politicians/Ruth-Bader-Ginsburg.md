@@ -67,7 +67,7 @@ Ginsburg's extraordinary self-restraint is evident in her approach to her cancer
 
 As we conclude our exploration, it seems rather convincing that Ginsburg's persona is deeply resonant with the attributes of an Enneagram Type 1. Her relentless pursuit of excellence, uncompromising idealism, devotion to duty, and exemplary self-restraint, all serve as a testament to this alignment. However, personalities are multifaceted and the unique nuances of each individual often defy categorization. How does this perspective of Ginsburg enrich your perception of her as a jurist and an inspiring figure? Does understanding Ginsburg through the lens of the Enneagram Type 1 provide deeper insights into her motivations and actions?
 
-In a world yearning for unity amidst diversity, perhaps there is merit in comprehending our role models beyond their achievements, through the lens of their personality types. Intrigued? We invite you to explore further. Sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+In a world yearning for unity amidst diversity, perhaps there is merit in comprehending our role models beyond their achievements, through the lens of their personality types. Intrigued? We invite you to explore further. Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

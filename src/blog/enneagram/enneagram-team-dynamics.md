@@ -33,7 +33,7 @@ Lastly, the Enneagram can help create a more supportive and empathetic work envi
 
 Time for the obligatory that bettering team dynamics and overall productivity is a complex task and the Enneagram should be used as a tool. When seeking to build strong teams the Enneagram can provide helpful insights into a team's dynamics and provide a glimpse of what it would look like to unlock the full potential of individuals in a team.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

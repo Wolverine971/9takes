@@ -85,7 +85,7 @@ Now we pose an intriguing question: How does this perspective on Oprah Winfrey e
 
 In an ever-complex world, taking the time to explore personalities can provide us with insights into what drives the people who shape our world. If you're interested in delving deeper into the fascinating world of personality exploration, we invite you to explore more of our articles.
 
-Better yet, why not become part of a community that values introspective exploration of personalities and worldviews? We're building an app just for that purpose - a dedicated platform for curious minds who want to understand the people around us better. Pre-register below and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Better yet, why not become part of a community that values introspective exploration of personalities and worldviews? We're building an app just for that purpose - a dedicated platform for curious minds who want to understand the people around us better. Pre-register below and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

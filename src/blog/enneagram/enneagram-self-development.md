@@ -67,7 +67,7 @@ The Enneagram can also help us recognize our own goals and fears, as well as tho
 
 In using the Enneagram as a tool for personal growth and self-improvement, it's important to remember that everyone's journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

@@ -116,7 +116,7 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 
 Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

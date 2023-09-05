@@ -122,7 +122,7 @@ We've explored the evidence, and it seems plausible that Kanye West indeed align
 
 How does this perspective of Kanye West enhance your understanding of him as an artist and a public figure? Does viewing Kanye through the Enneagram Type 7 lens give you a deeper insight into his motivations and actions?
 
-Perhaps there's value in understanding our celebrities, our leaders, and even ourselves not just for their accomplishments but also through their personality type. If you're eager to delve deeper, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+Perhaps there's value in understanding our celebrities, our leaders, and even ourselves not just for their accomplishments but also through their personality type. If you're eager to delve deeper, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

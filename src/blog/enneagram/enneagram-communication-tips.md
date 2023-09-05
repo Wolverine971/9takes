@@ -191,7 +191,7 @@ Type 9s are peaceful, easy-going, and accommodating. They have a strong desire f
 
 Effective communication is key to building strong relationships with others, and understanding each Enneagram type's communication style can be incredibly helpful. By tailoring your communication to each type's unique needs and tendencies, you can build rapport, trust, and understanding with those around you. Remember, communication is a two-way street, so be sure to also communicate your own needs and preferences clearly to others. With practice and intentionality, you can communicate more effectively with each Enneagram type and build stronger, healthier relationships in all areas of your life. Checkout this article for a deeper dive into <a href="enneagram-communication-tips" >communication styles.</a>
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

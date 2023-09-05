@@ -106,7 +106,7 @@ Kourtney is on a quest for perfection. She has a strong moral compass, and her p
 
 Does this exploration of Kourtney enhance your understanding of her as a public figure? Does seeing Kourtney through the lens of the Enneagram Type 1 give you a deeper insight into her motivations and actions? In a world quick to judge, perhaps there's merit in understanding public figures not just through their actions but also through their personality types.
 
-Is your curiosity piqued? Are you interested in exploring personalities further, one enneagram type at a time? Sign up below⬇️ and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀 Or DM me on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/djwayne3" >Twitter (or X 🤷)</a> and let me know what you think!
+Is your curiosity piqued? Are you interested in exploring personalities further, one enneagram type at a time? Sign up below⬇️ and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀 Or DM me on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/djwayne3" >Twitter (or X 🤷)</a> and let me know what you think!
 
 <svelte:head>
 

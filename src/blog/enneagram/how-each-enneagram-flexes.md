@@ -129,7 +129,7 @@ Deep Dive: When Type 9s emphasize their peacemaking roles, they're subtly hintin
 
 The Enneagram, in its depth, offers more than just categories—it's a mirror reflecting our deepest desires, our yearnings for acknowledgment, and our intrinsic motivations. As we appreciate the flexes of each type, it's pivotal to understand the heartfelt desires behind them. Such understanding fosters empathy, bridging the gaps between types and unveiling the shared human narrative.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

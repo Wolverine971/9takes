@@ -131,7 +131,7 @@ Having traversed the diverse and fascinating terrain of Joe Rogan's persona, it 
 
 Our world is becoming more polarized, making it all the more essential to understand and empathize with different perspectives. Do you find this exploration of Joe Rogan's personality intriguing? Curious about how other personalities interact with the world around them?
 
-If this resonates with you, we invite you to explore more articles like this one, delve deeper into the enigmatic world of Enneagram, and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If this resonates with you, we invite you to explore more articles like this one, delve deeper into the enigmatic world of Enneagram, and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

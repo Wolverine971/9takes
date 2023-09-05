@@ -125,7 +125,7 @@ By recognizing each Enneagram type's unique approach to communication, we can le
 
 Let's use the Enneagram to enhance our personal and professional lives through better communication and stronger relationships.
 
-If you found this helpful sign up and join 9takes below ⬇️. Of course you are free to decline but we are there is so much more to explore. 🚀
+If you found this helpful sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
