@@ -6,12 +6,23 @@
 		sameEnneagram: { type: string; posts: App.BlogPost[] };
 	};
 
-	const pluralNiche = Pluralize(suggestions.niche.type);
-	const firstLetter = pluralNiche.charAt(0);
-	const firstLetterCap = firstLetter.toUpperCase();
-	const remainingLetters = pluralNiche.slice(1);
-	const capitalizedPluralNiche = firstLetterCap + remainingLetters;
+	let pluralNiche = Pluralize(suggestions.niche.type);
+	let firstLetter = pluralNiche.charAt(0);
+	let firstLetterCap = firstLetter.toUpperCase();
+	let remainingLetters = pluralNiche.slice(1);
+
+	let tempNiche = firstLetterCap + remainingLetters;
+	let capitalizedPluralNiche = tempNiche.split(/(?=[A-Z])/).join(' ');
 	let innerWidth = 0;
+
+	$: {
+		pluralNiche = Pluralize(suggestions.niche.type);
+		firstLetter = pluralNiche.charAt(0);
+		firstLetterCap = firstLetter.toUpperCase();
+		remainingLetters = pluralNiche.slice(1);
+		tempNiche = firstLetterCap + remainingLetters;
+		capitalizedPluralNiche = tempNiche.split(/(?=[A-Z])/).join(' ');
+	}
 </script>
 
 <svelte:window bind:innerWidth />
@@ -21,31 +32,49 @@
 		<h3 style="text-align: center; margin-bottom: 3rem;">Related Analysis</h3>
 		<div class="blog-previews stack">
 			{#if suggestions.niche.posts.length}
-				<div style="column">
+				<div>
 					<h4 style="text-align: center;">More {capitalizedPluralNiche}</h4>
-					{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
-						<a class="suggestion-link" href={slug}>
-							<h3 class="small-h3" {title}>{title}</h3>
-							<p class="small" title={description}>{description}</p>
-							<div class="go-corner">
-								<div class="go-arrow">→</div>
-							</div>
-						</a>
-					{/each}
+					<div class="people-grid-container">
+						{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date, enneagram }}
+							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
+								{#if enneagram}
+									<img
+										class="grid-img"
+										src={`/types/${enneagram}s/s-${slug}.webp`}
+										alt={slug.split('-').join(' ')}
+									/>
+								{/if}
+								<div class="fit-card txt-white border-0 ">
+									<h3 class="small-h3">
+										{slug.split('-').join(' ')}
+									</h3>
+								</div>
+							</a>
+						{/each}
+					</div>
 				</div>
 			{/if}
 			{#if suggestions.sameEnneagram.posts.length}
-				<div class="column">
+				<div>
 					<h4 style="text-align: center;">More Enneagram {suggestions.sameEnneagram.type}s</h4>
-					{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date }}
-						<a class="suggestion-link" href={slug}>
-							<h3 class="small-h3" {title}>{title}</h3>
-							<p class="small" title={description}>{description}</p>
-							<div class="go-corner">
-								<div class="go-arrow">→</div>
-							</div>
-						</a>
-					{/each}
+					<div class="people-grid-container">
+						{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date, enneagram }}
+							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
+								{#if enneagram}
+									<img
+										class="grid-img"
+										src={`/types/${enneagram}s/s-${slug}.webp`}
+										alt={slug.split('-').join(' ')}
+									/>
+								{/if}
+								<div class="fit-card txt-white border-0 ">
+									<h3 class="small-h3">
+										{slug.split('-').join(' ')}
+									</h3>
+								</div>
+							</a>
+						{/each}
+					</div>
 				</div>
 			{/if}
 		</div>
@@ -55,21 +84,27 @@
 {/if}
 
 <style lang="scss">
+	.grid-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
 	.small-h3 {
-		color: #262626;
+		// color: #262626;
 		font-size: 17px;
 		line-height: 24px;
 		font-weight: 700;
 		margin-bottom: 4px;
 		text-wrap: balance;
-		word-break: break-word;
 	}
 
 	p {
 		font-size: 17px;
 		font-weight: 400;
 		line-height: 20px;
-		color: #666666;
+		// color: #666666;
 		word-break: break-word;
 
 		&.small {
@@ -97,6 +132,17 @@
 		color: white;
 		font-family: courier, sans;
 	}
+	.grid-item {
+		margin-bottom: 0.5rem;
+		background-color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		border: var(--classic-border);
+		border-radius: 5px;
+		position: relative;
+		// padding: 0.5rem;
+
+		box-sizing: border-box;
+	}
 
 	.suggestion-link {
 		display: block;
@@ -105,12 +151,12 @@
 		width: 100%;
 		//   background-color: #f2f8f9;
 		border-radius: 5px;
-		padding: 16px 12px;
-		margin: 6px;
-		text-decoration: none;
-		z-index: 0;
-		overflow: hidden;
-		border: 1px solid var(--color-theme-purple-v);
+		// padding: 16px 12px;
+		// margin: 6px;
+		// text-decoration: none;
+		// z-index: 0;
+		// overflow: hidden;
+		// border: 1px solid var(--color-theme-purple-v);
 		&:after {
 			background-color: white;
 		}
@@ -132,8 +178,8 @@
 			// background-size: 40px 40px;
 			// background-image: linear-gradient(to right, var(--color-p-origin-v) 1px, transparent 1px),
 			// 	linear-gradient(to bottom, var(--color-p-origin-v) 1px, transparent 1px);
-			height: 32px;
-			width: 32px;
+			// height: 32px;
+			// width: 32px;
 			border-radius: 32px;
 			transform: scale(1);
 			transform-origin: 50% 50%;
@@ -168,6 +214,7 @@
 		.column {
 			display: flex;
 			flex-direction: column;
+			position: relative;
 			flex-basis: 100%;
 			width: 100%;
 			flex: 1;
@@ -180,6 +227,58 @@
 			width: 100%;
 			flex: 1;
 			align-items: center;
+		}
+	}
+
+	.fit-card {
+		position: absolute;
+		/* top: 0;
+		right: 0; */
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+		padding: 1rem;
+		width: 100%;
+		color: white;
+	}
+
+	.people-grid-container {
+		width: 100%;
+		display: grid;
+		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+		grid-template-columns: 1fr;
+		column-count: 1;
+		column-gap: 1.25rem;
+		grid-gap: 0.5rem;
+		/* padding: 20px; */
+		/* column-count: 3;
+		column-gap: 0.5rem;
+		orphans: 1; */
+	}
+
+	.people-grid-container .grid-item {
+		background-color: rgba(255, 255, 255, 0.5);
+		text-align: center;
+		border: var(--classic-border);
+		border-radius: 5px;
+		position: relative;
+		max-height: 220px;
+	}
+
+	@media (max-width: 550px) {
+		h3 {
+			font-size: 1rem;
+		}
+		p {
+			font-size: 0.7rem;
+		}
+
+		.temp-three-row {
+			grid-template-columns: 30vw 30vw 30vw;
+		}
+		.people-grid-container {
+			grid-template-columns: 30vw;
 		}
 	}
 </style>

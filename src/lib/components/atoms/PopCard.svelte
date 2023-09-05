@@ -2,6 +2,9 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	/* -- Glow effect -- */
+	import { scale } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+	import { blur } from 'svelte/transition';
 
 	export let image: string = 'cyber-campfire.webp';
 	export let showIcon: boolean = true;
@@ -62,10 +65,64 @@
 		}
 	};
 
-	const showTypeDescription = () => {
-		showDescription = true;
-	};
 	let showDescription = false;
+
+	let enneagramTypeCheatSheet = [
+		{
+			EnneagramType: 'Type 1 - The Perfectionist',
+			CoreMotivation: 'To be good, ethical, and correct.',
+			CoreFear: 'Being corrupt or defective.',
+			CommonStereotypes: 'Rigid, judgmental, overly critical.'
+		},
+		{
+			EnneagramType: 'Type 2 - The Helper',
+			CoreMotivation: 'To be loved and appreciated.',
+			CoreFear: 'Being unloved or unwanted.',
+			CommonStereotypes: 'People-pleaser, overly emotional, manipulative.'
+		},
+		{
+			EnneagramType: 'Type 3 - The Achiever',
+			CoreMotivation: 'To succeed and be admired.',
+			CoreFear: 'Being worthless or a failure.',
+			CommonStereotypes: 'Workaholic, superficial, overly competitive.'
+		},
+		{
+			EnneagramType: 'Type 4 - The Individualist',
+			CoreMotivation: 'To be unique and authentic.',
+			CoreFear: 'Having no identity or significance.',
+			CommonStereotypes: 'Melodramatic, self-absorbed, moody.'
+		},
+		{
+			EnneagramType: 'Type 5 - The Investigator',
+			CoreMotivation: 'To be knowledgeable and competent.',
+			CoreFear: 'Being useless or incompetent.',
+			CommonStereotypes: 'Detached, secretive, overly intellectual.'
+		},
+		{
+			EnneagramType: 'Type 6 - The Loyalist',
+			CoreMotivation: 'To have security and support.',
+			CoreFear: 'Being without guidance or support.',
+			CommonStereotypes: 'Anxious, indecisive, overly cautious.'
+		},
+		{
+			EnneagramType: 'Type 7 - The Enthusiast',
+			CoreMotivation: 'To be happy and satisfied.',
+			CoreFear: 'Being deprived or trapped in pain.',
+			CommonStereotypes: 'Impulsive, scattered, commitment-phobic.'
+		},
+		{
+			EnneagramType: 'Type 8 - The Challenger',
+			CoreMotivation: 'To be in control and self-reliant.',
+			CoreFear: 'Being controlled or manipulated.',
+			CommonStereotypes: 'Aggressive, confrontational, domineering.'
+		},
+		{
+			EnneagramType: 'Type 9 - The Peacemaker',
+			CoreMotivation: 'To have inner and outer peace.',
+			CoreFear: 'Conflict and disconnection.',
+			CommonStereotypes: 'Complacent, indecisive, disengaged.'
+		}
+	];
 </script>
 
 <!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
@@ -76,10 +133,14 @@
 	title={altText || displayText}
 	on:mouseover={() => {
 		scribbleScrabble();
+		if (!enneagramType) {
+			scribbleScrabble();
+		}
+	}}
+	on:mouseenter={() => {
 		showDescription = true;
 	}}
 	on:focus={() => {
-		scribbleScrabble();
 		showDescription = true;
 	}}
 	on:mouseleave={() => {
@@ -92,8 +153,8 @@
 		in:fly={{ y: 200, duration: 2000 }}
 	/> -->
 	<img
-		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint && 'tint'}"
-		style={showDescription ? 'filter: none !important;' : ''}
+		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint && showDescription && 'tint'}"
+		style={showDescription ? 'filter: invert !important;' : ''}
 		src={image}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
@@ -106,11 +167,33 @@
 		{/if}
 
 		<div class="pop-card-user">
-			<!-- {#if enneagramType && showDescription}
-				<div class="type-description">core motivation, core fear, common stereotypes</div>
-			{/if} -->
-			{#if displayText}
-				<p class="name-pop" data-value={displayText}>{displayText}</p>
+			{#if showDescription}
+				<!-- {#if showDescription} -->
+				<!-- transition:blur={{ amount: 10 }} -->
+				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
+					<p style="font-size: 2rem;">
+						<b>Type:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].EnneagramType}
+					</p>
+					<p style="font-size: 1.5rem; text-wrap: balance;">
+						<b>Motivation:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].CoreMotivation}
+					</p>
+					<p style="font-size: 1.5rem; text-wrap: balance;">
+						<b>Fear:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].CoreFear}
+					</p>
+					<p style="font-size: 1.5rem; text-wrap: balance;">
+						<b>Stereotypes:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].CommonStereotypes}
+					</p>
+				</div>
+			{/if}
+
+			{#if !showDescription && displayText}
+				<p class="name-pop" data-value={displayText} in:fly={{ y: -200, duration: 2000 }}>
+					{displayText}
+				</p>
 			{/if}
 			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" class="external-link" target="_blank">@Hyperplexed</a> -->
 			<p class="link">{subtext}</p>
@@ -119,9 +202,6 @@
 </div>
 
 <style lang="scss">
-	.type-description:hover {
-	}
-
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
@@ -176,15 +256,6 @@
 		position: relative;
 		z-index: 10;
 		margin: 1rem;
-	}
-
-	.pop-card:hover {
-		/* .profileFace {
-			filter: blur(1px) !important;
-		} */
-		// img {
-		// 	filter: none !important;
-		// }
 	}
 
 	.pop-card:after {
@@ -295,7 +366,7 @@
 	}
 
 	.tint {
-		filter: sepia(100%) hue-rotate(160deg);
+		filter: invert(1);
 		opacity: 0.6;
 	}
 
@@ -331,7 +402,7 @@
 	.pop-card > .pop-card-content > .pop-card-user:after {
 		height: 3px;
 		width: 30px;
-		translate: 26px calc(-1rem - 0.5px);
+		// translate: 26px calc(-1rem - 0.5px);
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
@@ -355,10 +426,6 @@
 		font-weight: 400;
 		letter-spacing: 0.3rem;
 		text-decoration: none;
-	}
-
-	.pop-card > .pop-card-content > .pop-card-user > .link:is(:hover, :focus) {
-		text-decoration: underline;
 	}
 
 	/* -- Blob effect -- */
