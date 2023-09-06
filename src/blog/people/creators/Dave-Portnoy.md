@@ -74,7 +74,7 @@ What truly sets Portnoy apart is his audacious business move in 2020. After sell
 
 ### Marching to His Own Beat: The BFFs Podcast and Celebrity Connections
 
-Dave Portnoy's BFFs podcast with Josh Richards and Bri Chickenfry isn't just another podcast; it vividly illustrates his non-conformist approach to life. Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
+Dave Portnoy's BFFs podcast with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/JoshRichards">Josh Richards</a> and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bchickenfry">Bri Chickenfry</a> isn't just another podcast; it vividly illustrates his non-conformist approach to life. Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
 
 He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
@@ -98,9 +98,9 @@ One aspect of Dave Portnoy's personality is his unique fixation on revenge. Now,
 
 ### A Symbolic Gesture
 
-Dedicating champagne bottles to his enemies is not just a quirky habit; it's a symbolic gesture. It shows a man who values victory and justice, even if served cold. This ritual aligns perfectly with the characteristics of Type 8, who often seeks to correct the record and root out injustice. Dave keeps his how scorecard and has a certain strategic patience.
+Dedicating champagne bottles to his enemies is not just a quirky habit; it's a symbolic gesture. It shows a man who values victory and justice, even if served cold. This ritual aligns perfectly with the characteristics of Type 8, who often seeks to correct the record and root out injustice. Dave keeps his how scorecard and has a particular strategic patience.
 
-In a recent interview, he expressed why he was a fan of Taylor Swift. He knows what it is like to be unfairly slandered.
+In a recent interview, he expressed why he was a fan of Taylor Swift. He followed a story where <a href="/blog/famous-enneagram-types/Kanye">Kanye</a> had a lyric about Taylor Swift that said, "I made that bitch famous." Taylor said she never knew about that Lyric, but <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. But then it came out later that the recording of Taylor was edited and was fake. Dave knows what it is like to be unfairly slandered, and he doesn't like it.
 
 <div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

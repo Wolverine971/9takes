@@ -121,7 +121,9 @@ export async function GET({
 
 			const commentMap: ICommentMap = {};
 			commentComments?.forEach((c: any) => {
-				c.profiles = c.profiles_demo;
+				if (c.profiles_demo) {
+					c.profiles = c.profiles_demo;
+				}
 				if (commentMap[c?.parent_id]) {
 					commentMap[c?.parent_id] = [...commentMap[c?.parent_id], c];
 				} else {
@@ -129,10 +131,14 @@ export async function GET({
 				}
 			});
 			questionComments?.forEach((q) => {
-				q.profiles = q.profiles_demo;
+				if (q.profiles_demo) {
+					q.profiles = q.profiles_demo;
+				}
 				if (commentMap[q.id]) {
 					// q.profiles = q.profiles_demo;
-					commentMap[q.id].profiles = commentMap[q.id].profiles_demo;
+					if (q.profiles_demo) {
+						commentMap[q.id].profiles = commentMap[q.id].profiles_demo;
+					}
 
 					q.comments = commentMap[q.id];
 				}

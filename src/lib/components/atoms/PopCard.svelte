@@ -2,9 +2,6 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	/* -- Glow effect -- */
-	import { scale } from 'svelte/transition';
-	import { quintOut } from 'svelte/easing';
-	import { blur } from 'svelte/transition';
 
 	export let image: string = 'cyber-campfire.webp';
 	export let showIcon: boolean = true;
@@ -48,7 +45,7 @@
 						.split('')
 						.map((letter, index) => {
 							if (index < iteration) {
-								return name.dataset.value[index];
+								return name?.dataset?.value[index];
 							}
 
 							return letters[Math.floor(Math.random() * 26)];

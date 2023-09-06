@@ -60,7 +60,7 @@ src="https://youtube.com/clip/UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8">
 
 ## Awareness of Power Dynamics
 
-As an Enneagram Type 8, Ratajkowski's keen understanding of power dynamics in the modeling and entertainment industries is no surprise. In her book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://us.macmillan.com/books/9781250817860/mybody" >My Body</a>," she discusses issues related to consent, exploitation, and the male gaze, demonstrating her ability to confront and challenge the imbalances that exist within these industries. This awareness of power dynamics and the desire to challenge them is a hallmark of the Type 8 personality.
+As an Enneagram Type 8, Ratajkowski's keen understanding of power dynamics in the modeling and entertainment industries is no surprise. In her book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://us.macmillan.com/books/9781250817860/mybody">My Body</a>," she discusses issues related to consent, exploitation, and the male gaze, demonstrating her ability to confront and challenge the imbalances that exist within these industries. This awareness of power dynamics and the desire to challenge them is a hallmark of the Type 8 personality.
 
 ## Supporting the Underdog and Amplifying the Voices of Outcasts
 

@@ -33,6 +33,7 @@
 		"@sveltejs/kit": "^1.24.0",
 		"@types/cookie": "^0.5.1",
 		"@types/gtag.js": "^0.0.12",
+		"@types/pluralize": "^0.0.30",
 		"@types/stopword": "^2.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",

@@ -120,7 +120,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 It is important to note that people are complex. This analysis is one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Does seeing Kardashian through the lens of an Enneagram Type 3 give you a deeper insight into her actions and motivations?
 
- Understanding public figures like Kim Kardashian through the Enneagram lens could offer valuable insights. If you like this, join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+Understanding public figures like Kim Kardashian through the Enneagram lens could offer valuable insights. If you like this, join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 

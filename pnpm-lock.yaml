@@ -16,6 +16,7 @@ specifiers:
   '@types/gsap': ^3.0.0
   '@types/gtag.js': ^0.0.12
   '@types/node-schedule': ^2.1.0
+  '@types/pluralize': ^0.0.30
   '@types/stopword': ^2.0.0
   '@typescript-eslint/eslint-plugin': ^5.45.0
   '@typescript-eslint/parser': ^5.45.0
@@ -98,6 +99,7 @@ devDependencies:
   '@sveltejs/kit': 1.24.0_svelte@4.2.0+vite@4.3.5
   '@types/cookie': 0.5.1
   '@types/gtag.js': 0.0.12
+  '@types/pluralize': 0.0.30
   '@types/stopword': 2.0.0
   '@typescript-eslint/eslint-plugin': 5.54.1_gk5bzfj2t4ge7coznwsoysmlni
   '@typescript-eslint/parser': 5.54.1_3rifh24lelkramsxq7zeqs7u7e
@@ -1002,6 +1004,10 @@ packages:
 
   /@types/phoenix/1.5.5:
     resolution: {integrity: sha512-1eWWT19k0L4ZiTvdXjAvJ9KvW0B8SdiVftQmFPJGTEx78Q4PCSIQDpz+EfkFVR1N4U9gREjlW4JXL8YCIlY0bw==}
+    dev: true
+
+  /@types/pluralize/0.0.30:
+    resolution: {integrity: sha512-kVww6xZrW/db5BR9OqiT71J9huRdQ+z/r+LbDuT7/EK50mCmj5FoaIARnVv0rvjUS/YpDox0cDU9lpQT011VBA==}
     dev: true
 
   /@types/pug/2.0.6:

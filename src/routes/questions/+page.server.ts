@@ -181,7 +181,9 @@ export const actions: Actions = {
 				.order('created_at', { ascending: false });
 			if (comments) {
 				return comments.map((c) => {
-					c.profiles = c.profiles_demo;
+					if (c.profiles_demo) {
+						c.profiles = c.profiles_demo;
+					}
 					return c;
 				}) as Comment[];
 			} else {

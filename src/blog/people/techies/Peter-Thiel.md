@@ -35,8 +35,8 @@ tiktok:
 	/>
 </div>
 
-
 <!-- Sacks talking about peter not being a product guy https://youtu.be/TYA_vdHSD8w?si=uSJrtrrXTBIHk0E5&t=1757 -->
+
 ## The Unconventional Loyalist: Exploring Peter Thiel as an Enneagram Type 6
 
 PayPal co-founder and venture capitalist, Peter Thiel, is nothing short of a paradox. His remarkable ability to think outside the box and unwavering loyalty to his inner circle echoes the traits of an Enneagram Type 6: The Loyalist. The twist? His way of demonstrating these traits is both phobic and counter-phobic, making him a uniquely fascinating character.

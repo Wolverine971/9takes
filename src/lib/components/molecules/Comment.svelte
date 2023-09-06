@@ -157,15 +157,6 @@
 <Card style="margin: .5rem 0; padding: .5rem;">
 	{#if innerWidth > 500}
 		<div class="comment-meta">
-			<a
-				class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-				href={_commentComment?.profiles?.external_id
-					? `/users/${_commentComment.profiles.external_id}`
-					: ''}
-			>
-				{_commentComment?.profiles?.enneagram || 'Rando'}
-			</a>
-			/
 			<span style="min-width:30px"
 				>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
 			</span>
@@ -188,19 +179,18 @@
 				</a>
 			{/if} -->
 
-			<p class="comment-box">{_commentComment.comment}</p>
+			<p class="comment-box">
+				<a
+					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+					href={_commentComment?.profiles?.external_id
+						? `/users/${_commentComment.profiles.external_id}`
+						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+				>: {_commentComment.comment}
+			</p>
 			{#if innerWidth < 500}
+				<hr class="rounded" />
 				<div style="display: flex; align-items: center; gap: 0.5rem;">
 					<div class="comment-meta">
-						<a
-							class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-							href={_commentComment?.profiles?.external_id
-								? `/users/${_commentComment.profiles.external_id}`
-								: ''}
-						>
-							{_commentComment?.profiles?.enneagram || 'Rando'}
-						</a>
-						/
 						<span style="min-width:30px"
 							>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
 						</span>
@@ -332,6 +322,10 @@
 </Card>
 
 <style lang="scss">
+	.rounded {
+		border-radius: 5px;
+		width: 80%;
+	}
 	.drop-down {
 		width: 100%;
 		display: flex;
@@ -362,12 +356,24 @@
 		display: flex;
 		// gap: 0.5rem;
 		position: relative;
+		
+	}
+	.user-comment button {
+		border: none;
+
+		transition: 0.3s;
+		border-radius: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 35px;
 	}
 	.comment-meta {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
 		margin: -0.5rem auto;
 		gap: 1rem;
+		margin-right: 4rem;
 	}
 	.profile-avatar {
 		// position: absolute;
@@ -388,8 +394,7 @@
 		font-weight: bolder;
 		min-width: 3rem;
 		text-align: center;
-		// aspect-ratio: 1/1;
-		// margin: 0.5rem;
+		aspect-ratio: 1/1;
 		// -webkit-border-radius: 50%;
 		// -moz-border-radius: 50%;
 		border-radius: 5px;

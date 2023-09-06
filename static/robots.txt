@@ -2,6 +2,7 @@
 User-agent: *
 Disallow: /register/
 Disallow: /login/
+Disallow: /users/
 Allow: /
 
 Sitemap: https://9takes.com/sitemap.xml
