@@ -103,7 +103,7 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": https://9takes.com/types/2s/Meghan-Markle.webp",
+        "url": "https://9takes.com/types/2s/Meghan-Markle.webp",
         "width": 900
       },
       "mainEntityOfPage": {

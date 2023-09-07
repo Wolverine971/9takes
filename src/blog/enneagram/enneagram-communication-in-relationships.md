@@ -235,7 +235,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
           "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
-      }
+      },
       "datePublished": "2023-03-26",
       "dateModified": "2023-03-26"
     },

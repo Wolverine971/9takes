@@ -203,14 +203,19 @@ export const actions: Actions = {
 				.single();
 			if (!addCommentError) {
 				if (parent_type === 'comment') {
-					const { data: incremented, error: incrementError } = await supabase.rpc(
-						'increment_comment_count',
-						{
-							comment_parent_id: parentId
-						}
-					);
+					if (PRIVATE_DEMO === 'false') {
+						// need to increment the demo commentcount
+						const { data: incremented, error: incrementError } = await supabase.rpc(
+							'increment_comment_count',
+							{
+								comment_parent_id: parentId
+							}
+						);
 
-					if (!incrementError) {
+						if (!incrementError) {
+							return record;
+						}
+					} else {
 						return record;
 					}
 				} else {
