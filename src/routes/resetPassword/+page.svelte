@@ -3,7 +3,6 @@
 	// import { enhance, type SubmitFunction } from '$app/forms';
 
 	export let data: PageData;
-	console.log(data);
 
 	let password = '';
 </script>

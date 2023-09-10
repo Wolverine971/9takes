@@ -38,3 +38,11 @@ law of reciprocity
 In negotiation there is the law of reciprocity which is in order to get you must give
 people feel inclined to give in order to get
 [David Sacks from the All in Podcast ](https://youtu.be/qQ544sWC8ZQ?t=485) talking about the give to get strategy as a tactic to get people to share their data.
+
+
+
+
+
+Morgan Housel — The Psychology of Money, Picking the Right Game, and the $6 Million Janitor
+talking about how your kids are different personalities
+https://youtu.be/szQwdZDiVh4?si=pG2E-eJO6JvjJ6G2&t=1208

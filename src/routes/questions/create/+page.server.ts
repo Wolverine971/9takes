@@ -1,5 +1,6 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
+import { redirect } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
 
@@ -68,7 +69,8 @@ export const actions: Actions = {
 		// console.log(tempUrl);
 		// return tempUrl;
 	},
-	createQuestion: async ({ request }) => {
+	createQuestion: async (event) => {
+		const { request } = event;
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;
@@ -77,13 +79,28 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
+		// const session = await getServerSession(event);
+		// const canAskQuestion = session.user.id;
+
 		const { data: userExists, error: userError } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
-			.select('id')
-			.eq('id', author_id);
+			.select('*')
+			.eq('id', author_id)
+			.single();
 
 		if (userError || !userExists) {
 			throw error(400, 'user not registered');
+		}
+
+		if (!userExists.admin) {
+			const { data: permissions, error: permissionsError } = await supabase
+				.from(PRIVATE_DEMO === 'true' ? 'permissions_demo' : 'permissions')
+				.select('*')
+				.eq('profile_id', author_id);
+
+			if (permissionsError || !permissions.can_ask_question) {
+				throw error(500, 'user not authorized to ask question');
+			}
 		}
 
 		let esId = null;

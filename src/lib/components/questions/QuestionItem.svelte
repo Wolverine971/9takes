@@ -11,11 +11,11 @@
 </script>
 
 <a href="/questions/{questionData.url}" class="question-card">
-	<p class="question-display" style:--tag="h-question">
+	<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 		{questionData.question}
 	</p>
 	<div class="small-div">
-		<span class="comment-span-display" style:--tag="a-comment">
+		<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
 			{#if questionData.comment_count}
 				{questionData.comment_count}
 			{/if}

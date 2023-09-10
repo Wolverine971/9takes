@@ -61,7 +61,7 @@
 		
 	</section> -->
 	<div>
-		<h1 class="question-box" id="question-box" style="overflow:hidden" style:--tag="h-question">
+		<h1 class="question-box" id="question-box" style="overflow:hidden" style:--tag={`h-question-${data.question.id}`}>
 			{data.question.question}
 		</h1>
 

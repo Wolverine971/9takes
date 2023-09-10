@@ -177,7 +177,7 @@
 		<button
 			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
-			style:--tag="a-comment"
+			style:--tag={`a-comment${data.id}`}
 		>
 			<span style="text-wrap: nowrap">
 				{#if _data.comment_count > 0}
@@ -202,7 +202,7 @@
 		<button
 			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 			on:click={() => (selectedTab = 'comments')}
-			style:--tag="a-comment"
+			style:--tag={`a-comment${data.id}`}
 		>
 			<MasterCommentIcon
 				iconStyle={''}
