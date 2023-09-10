@@ -17,7 +17,6 @@
 
 	$: data, matchData();
 
-
 	const matchData = () => {
 		// console.log('comments', data);
 		_data = Object.assign({}, data);

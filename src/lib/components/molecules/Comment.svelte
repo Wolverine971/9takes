@@ -356,7 +356,6 @@
 		display: flex;
 		// gap: 0.5rem;
 		position: relative;
-		
 	}
 	.user-comment button {
 		border: none;

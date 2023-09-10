@@ -27,13 +27,21 @@
 			<div class="pretty-div">
 				<h2>User's Profiles # {data.profiles?.length}</h2>
 
-				{#each data.profiles as profile}
-					<div class="row" style="justify-content: flex-start;">
-						<span>{profile.email}</span>
-						<span>Name: {profile.first_name} {profile.last_name}</span>
-						<span>Admin: {profile.admin}</span>
-					</div>
-				{/each}
+				<table>
+					<tr>
+						<th>Email</th>
+						<th>Name</th>
+						<th>Is Admin</th>
+					</tr>
+
+					{#each data.profiles as profile}
+						<tr>
+							<td>{profile.email}</td>
+							<td>{profile.first_name} {profile.last_name}</td>
+							<td>{profile.admin}</td>
+						</tr>
+					{/each}
+				</table>
 			</div>
 		{/if}
 
@@ -74,4 +82,35 @@
 		margin: 1rem;
 		padding: 1rem;
 	}
+	.scroll-table {
+    overflow-x: scroll;
+}
+tr {
+
+    border: var(--classic-border);
+    text-align: center;
+}
+td {
+
+    border: var(--classic-border);
+    text-align: start;
+}
+th {
+
+    border: var(--classic-border);
+    text-align: center;
+}
+.scroll-table::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.scroll-table::-webkit-scrollbar-track {
+    box-shadow: 0 0 .2rem var(--color-p-origin);
+    border-radius:5px;
+}
+
+.scroll-table::-webkit-scrollbar-thumb {
+    background-color: var(--color-p-origin);
+    border-radius:5px
+}
 </style>

@@ -57,12 +57,7 @@ tiktok: ''
   </div>
 </details>
 
-
-
-
 https://www.youtube.com/watch?v=3NWKgNv8fQY
-
-
 
 ## How Each Enneagram Type Perceives Peter Attia
 
