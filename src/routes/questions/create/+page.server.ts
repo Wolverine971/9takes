@@ -124,7 +124,7 @@ export const actions: Actions = {
 			.select();
 
 		if (insertedQuestion?.length && !questionInsertError) {
-			// await tagQuestion(question, insertedQuestion[0].id);
+			await tagQuestion(question, insertedQuestion[0].id);
 
 			return insertedQuestion;
 		}
