@@ -43,22 +43,7 @@
 <!-- {/if} -->
 
 <Toast />
-{#if $page.url.pathname === '/'}
-	<Jumbotron
-		image={'greek_pantheon.webp'}
-		showIcon={innerWidth > 760 && true}
-		text={'9takes'}
-		subtext={''}
-		panBackground={false}
-	>
-		<div class="content-display">
-			<h1 class=" txt-white jumbo-name bold-shadow" data-value={'9takes'}>{'9takes'}</h1>
-			<p class=" txt-white link bold-shadow">
-				{'nine perspectives, one community'}
-			</p>
-		</div>
-	</Jumbotron>
-{:else}
+{#if $page.url.pathname !== '/'}
 	<BackNavigation />
 {/if}
 <main
@@ -70,6 +55,7 @@
 	<slot />
 	<Footer {data} />
 </main>
+
 <!-- </div> -->
 
 <!-- </div>

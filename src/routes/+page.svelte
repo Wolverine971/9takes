@@ -1,14 +1,15 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import type { SubmitFunction } from '$app/forms';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import { page } from '$app/stores';
+	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	// export let data: PageData;
 	export let data: PageData;
-	const submitLogout: SubmitFunction = async ({ cancel }) => {
+	const submitLogout = async ({ cancel }) => {
 		const { error: logoutError } = await supabase.auth.signOut();
 		if (logoutError) {
 			console.log(logoutError);
@@ -43,7 +44,10 @@
 			transform = `transform: translate(${scrollPercent}px);`;
 		}
 	};
+	let innerWidth = 0;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <svelte:head>
 	<title>9takes Home Page</title>
@@ -66,8 +70,57 @@
 <section>
 	<div class="column">
 		<div class="big-points center-align">
-			<h3>What are we building?</h3>
+			<h1>9takes --> NOT RELEASED YET</h1>
+			<h2>Signup for the Beta at the bottom ⬇️</h2>
+
+			<h3>Second wave of social media meets personality</h3>
+
+			<h4>Old wave</h4>
+
 			<p>
+				What's wrong with <b>social media</b>? Do I have to address this? Okay, I will; social media
+				has the promise of connecting people. But are we now more connected or divided? Does social
+				media feel cold and shallow or like the warm, friendly community we were promised?
+			</p>
+			<p>
+				What's with <b>personality</b>? Have you ever taken a personality test? Was it accurate?
+				Probably not. Understanding your personality is an introspective thing. It takes some
+				serious thought and reflection to identify your patterns and motivations and narrow the
+				options to an archetype you might identify with.
+			</p>
+
+			<h4>New wave</h4>
+
+			<p>
+				<b>Social media</b> should be about finding and connecting with your people. And it should also
+				be about finding interesting stuff and learning new things. It should prevent piling on and should
+				be about safe and authentic expression. You shouldn't be afraid to post or ask questions.
+			</p>
+			<p>
+				<b>Personality</b> should be open ended. You should go at your own pace and be able to see yourself
+				in context to other people. You shouldnt be put in a box or told what your are. You will better
+				understand yourself through trial and error aka asking questions.
+			</p>
+			<p>And thats what 9takes is all about. Asking questions.</p>
+		</div>
+		<Jumbotron
+			image={'greek_pantheon.webp'}
+			showIcon={innerWidth > 760 && true}
+			text={'9takes'}
+			subtext={''}
+			panBackground={false}
+		>
+			<div class="content-display">
+				<h1 class=" txt-white jumbo-name bold-shadow" data-value={'9takes'}>{'9takes'}</h1>
+				<p class=" txt-white link bold-shadow">
+					{'nine perspectives, one community'}
+				</p>
+			</div>
+		</Jumbotron>
+
+		<div class="big-points center-align">
+			<h3 style="text-align: start;">What are we building?</h3>
+			<p style="text-align: start;">
 				<b style="font-size: 1.2rem;">
 					A reimagined <span style="text-shadow: .5px .5px #E0373C;">Reddit</span> based on
 					personality.
@@ -104,7 +157,7 @@
 						once you feel understood, you will be ready to understand.
 					</p> -->
 		<div class="big-points">
-			<h3 class="center-align">What is different?</h3>
+			<h3 style="text-align: start;">What is different?</h3>
 			<p class="">
 				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
 				community
@@ -156,7 +209,7 @@
 						</li>
 					</ul> -->
 		<div class="big-points">
-			<h3 class="center-align">Creating the following magic moments:</h3>
+			<h3 style="text-align: start;">Creating the following magic moments:</h3>
 			<ul>
 				<li>
 					- Connecting with other people who think, feel, and act like you <br /><span
@@ -236,6 +289,7 @@
 		justify-content: center;
 		flex-direction: column;
 		margin: auto;
+		margin-top: 100px;
 	}
 	.center-align {
 		text-align: center;
@@ -244,8 +298,10 @@
 		word-break: break-all;
 		margin: 0;
 		text-align: center;
+		font-size: 3rem;
 	}
 	h2 {
+		font-size: 2.5rem;
 		margin-top: 0;
 	}
 	h3 {
