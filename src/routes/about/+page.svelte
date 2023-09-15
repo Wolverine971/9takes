@@ -18,13 +18,85 @@
 </svelte:head>
 
 <div style=" margin:20px;">
-	<h1 style="text-align: center;">What is 9takes and who is behind it?</h1>
+	<h1 style="text-align: center;">Who is behind 9takes and what is it?</h1>
+
+	<div style="margin:20px;">
+		<div>
+			<div style="margin:20px;">
+				<h2>Right now, just me, DJ</h2>
+				<p>
+					I am an engineer at a YC backed startup working on logistics. I am taking my understanding
+					of logistics and applying it to running a well oiled social community. There are many
+					moving parts and tradeoffs that social media companies have to make. I think it is
+					possible to optimize for engagement and honesty while also making the 9takes platform safe
+					and inclusive. Social media today has made too many short term decisions and has paved the
+					way for what not to do. See the video below:
+				</p>
+				<div style="display:flex; align-items: center; justify-content: center;">
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/-IYvvm8gzqw?si=3UEXg3eGSfzSW7N2"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+					/>
+				</div>
+
+				<p>
+					<a href="/blog/community/inspiration-for-9takes"
+						>I got into personality because of my wife.</a
+					>
+					I was blown away by it similar to how people are blown away by taking psychedelics. The problem
+					was when I tried to find a community to explore personality further. There is more to it but
+					thats why I am building 9takes. I would love to connect with you and hear about how you view
+					personality and hear any thoughts or suggestions you have for how to build a better social
+					media platform. DM me on
+					<a
+						class="external-link"
+						target="_blank"
+						rel="noreferrer"
+						href="https://twitter.com/djwayne3">Twitter/ X</a
+					>.
+				</p>
+
+				<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
+				<!-- <ul>
+                <li>
+                    <a class="external-link" target="_blank" href="https://github.com/Wolverine971">Github</a>
+                </li>
+                <li>
+                    <a class="external-link" target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
+                </li>
+            </ul> -->
+			</div>
+		</div>
+	</div>
+	<h2>What is 9takes</h2>
+	<p>
+		9takes is reddit reimagined based on personality. Its based on questions and answers, and there
+		are 2 catches:
+	</p>
+
+	<ul>
+		<li>
+			You cannot see answers to questions untill you comment. That is so that people are honest and
+			unbiased.
+		</li>
+		<li>
+			You are anonymous except for your personality. "Personality" is the perfect context for
+			learning about yourself and others.
+		</li>
+	</ul>
+
+	<h3>The philosophy of 9takes</h3>
 
 	<p>
 		<b>"Everyone is unique," ✨</b><br />we know that intellectually. But why do some people (not
 		you 😉) get surprised when someone doesn't agree with them? Surely if that other person had all
 		the facts, was smart, kind and had your experience they would agree with your point of view. We
-		forget that other people can have facts, be smart, kind and have similar experiences AND still
+		forget that others can have facts, be smart and kind, have similar experiences, AND still
 		disagree. 9takes is about leaning into these disagreements and embracing these differences
 		because, in the end, we all learn something, becoming better 👍 faster ⚡ and stronger 💪.
 
@@ -44,13 +116,6 @@
         act like us, does that make us curious or dismissive? -->
 	</p>
 
-	<h3>What was the inspiration for 9takes?</h3>
-	<p>
-		<a href="/blog/community/inspiration-for-9takes"
-			>TLDR, I got married, and my wife and I were fighting a lot
-		</a>
-	</p>
-
 	<h3>Why the Enneagram?</h3>
 	<p>
 		Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
@@ -62,7 +127,7 @@
 		<br /><br />
 		We use it because it identifies a person's core motivations and fears. Typically, people figure out
 		their type through being guided or through self-reflection. We are not going to tell you what your
-		"Enneagram type" is, that is for you to discover.
+		"Enneagram type" that is for you to discover.
 	</p>
 
 	<h3>Why focus on questions and answers?</h3>
@@ -93,47 +158,6 @@
 		9takes is about embracing these differences or "takes" on the world. By asking questions,
 		sharing stories, and getting curious, people will be connected to the community around them.
 	</p>
-</div>
-
-<div style="margin:20px;">
-	<h2 style="text-align: center;">People Behind 9takes</h2>
-	<div>
-		<div style="margin:20px;">
-			<h3>Right now, just me, DJ</h3>
-			<p>
-				I am a techy, ex-military, most days happily married with two kids running around getting
-				into the highest of hijinks. My wife got me into the enneagram, and I have been obsessed
-				since. I share my thoughts and opinions below, but I would love to hear yours. Feel free to
-				message me <a
-					class="external-link"
-					target="_blank"
-					rel="noreferrer"
-					href="https://twitter.com/djwayne3">here</a
-				>.
-			</p>
-
-			<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
-			<!-- <ul>
-                <li>
-                    <a class="external-link" target="_blank" href="https://github.com/Wolverine971">Github</a>
-                </li>
-                <li>
-                    <a class="external-link" target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
-                </li>
-            </ul> -->
-		</div>
-		<div style="margin:20px;">
-			<h3>I am also looking for help ✋</h3>
-			<p>
-				DM me on Twitter <a
-					class="external-link"
-					target="_blank"
-					rel="noreferrer"
-					href="https://twitter.com/djwayne3">here</a
-				>
-			</p>
-		</div>
-	</div>
 </div>
 
 <div style="margin:2rem;">
