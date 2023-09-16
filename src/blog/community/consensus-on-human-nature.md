@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
-lastmod: '2023-07-11'
+lastmod: '2023-09-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -49,9 +49,9 @@ Freud's theory of the mind like Plato describes three components: the id, the eg
 
 | Plato                                                                                                          | Emoji | Freud                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠    | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
-| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️    | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
-| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪    | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
+| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠     | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
+| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️     | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
+| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪     | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 So who has built upon these theories? Where are we today?
 
@@ -86,6 +86,25 @@ In contrast, the unconscious aspects of the psyche are not immediately accessibl
 By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
 
 </div>
+
+### Andrew Huberman on the model of the mind
+
+Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Conti, M.D., who trained at Stanford School of Medicine talking about this iceberg model of the mind.
+
+<div style="text-align: center;" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&amp;start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+#### Huberman Lab Iceberg Model
+
+<div style="text-align: center;" >
+<!-- <img src="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf" alt="Andrew Huberman Iceberg Model of the mind" title="Andrew Huberman Iceberg Model" /> -->
+<object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px">
+      <p>Unable to display PDF file. <a href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>
+    </object>
+</div>
+
+
 
 ## Wrapping it up
 
