@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 2</h2>
 
 - They are generous with their time and energy, and often put the needs of others before their own.
 - They are excellent at reading the emotions of others and providing emotional support.
@@ -36,7 +36,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 2</h2>
 
 Type 2 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -49,7 +49,7 @@ Type 2 individuals possess a number of strengths that make them valuable members
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 2</h2>
 
 While Type 2 individuals possess many strengths, they also face a number of challenges. These include:
 
@@ -65,7 +65,7 @@ While Type 2 individuals possess many strengths, they also face a number of chal
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 2</h2>
 
 The Helper is motivated by a deep desire to be loved and appreciated by those around them. They seek to find their self-worth through the validation of others. The Helper often looks for ways to be of service to others, and they feel most fulfilled when they are helping others. However, their desire to help others can also come at a cost. Type 2 personalities may neglect their own needs and emotions, leading to burnout and resentment. They may also struggle with boundaries, taking on too much responsibility and becoming overwhelmed.
 
@@ -73,7 +73,7 @@ The Helper is motivated by a deep desire to be loved and appreciated by those ar
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 2</h2>
 
 - Rejection: Type 2s are very sensitive to being rejected by others. They may fear that if they don't offer enough help or support, they will be pushed away or left alone.
 - Inadequacy: Type 2s often tie their self-worth to how much they can help others. They may fear that if they are not able to provide enough support or meet the needs of others, they will be seen as inadequate.
@@ -101,7 +101,7 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 2 in relationships</h2>
 
 Type 2 personalities are highly social and enjoy connecting with others. They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections, and they thrive in social settings.
 
@@ -113,7 +113,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 2 in the Workplace</h2>
 
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for providing emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and to ensure that their own needs are being met.
 

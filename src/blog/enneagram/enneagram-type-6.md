@@ -27,7 +27,7 @@ The Loyalist is governed by fear and is always on the lookout for potential dang
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 6</h2>
 
 Type 6's are often described as responsible, reliable, and hardworking. They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6's are also known for their desire for stability and security, both in their personal and professional lives.
 
@@ -42,7 +42,7 @@ The Enneagram Type 6 personality has several core traits that define their world
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 6</h2>
 
 One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. They are highly committed to their obligations and are driven to fulfill them. Type 6's are also known for their ability to handle stress and adversity. They are able to think strategically and make difficult decisions in times of crisis. Additionally, Type 6's are often able to see multiple perspectives and are able to think critically.
 
@@ -50,7 +50,7 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 6</h2>
 
 While Type 6's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6's can have a hard time trusting their own abilities and may struggle with self-doubt.
 
@@ -62,7 +62,7 @@ While Type 6's have many strengths, they also have some weaknesses. One of their
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 6</h2>
 
 - Safety and Security: Type 6s prioritize safety and security and often seek out situations, relationships, and jobs that they perceive as safe and predictable. They may avoid risks or uncertain situations, and may be drawn to routines, rules, or guidelines that provide structure and stability.
 - Guidance and Support: Type 6s value guidance and support from trusted authorities, such as mentors, leaders, or experts. They may seek out these figures in their personal or professional lives and may prioritize their opinions and advice.
@@ -74,7 +74,7 @@ While Type 6's have many strengths, they also have some weaknesses. One of their
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 6</h2>
 
 - Fear of Abandonment: Type 6 may fear being left alone, unsupported, or abandoned. They often seek relationships and connections to ensure they have a support system.
 - Fear of Uncertainty: Type 6 may fear the unknown, unexpected, or unpredictable. They prefer to have a plan, routine, or structure to provide a sense of stability and security.
@@ -102,7 +102,7 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 6 in relationships</h2>
 
 - Loyal and Committed: Type 6s value stability and security, and they often prioritize their relationships. They are typically loyal and committed partners who prioritize their loved ones' needs and well-being.
 - Supportive and Reliable: Type 6s are often dependable and reliable partners who go above and beyond to support their loved ones. They may offer practical help, emotional support, or a listening ear when needed.
@@ -117,7 +117,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 6 in the Workplace</h2>
 
 Type 6s are highly reliable and loyal employees, and they place a strong emphasis on security and stability in the workplace. They thrive in environments where they feel valued and supported, and they are often highly attuned to the needs and desires of their colleagues and superiors.
 

@@ -25,7 +25,7 @@ type: 'overview'
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 4</h2>
 
 Individuals with the Enneagram Type 4 are known for their strong sense of self, and their desire to express their unique individuality. They are driven by a sense of authenticity and self-expression, and they have a deep need to be understood and appreciated for who they truly are. Individualists are often highly creative and artistic, and they strive to make a meaningful impact in their lives and the world around them.
 
@@ -45,7 +45,7 @@ Key characteristics of Type 4 personalities include:
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 4</h2>
 
 One of the biggest strengths of the Enneagram Type 4 is their creativity and artistic expression. Individualists are highly imaginative and resourceful, and they have a unique perspective on the world. They are able to tap into their emotions and create something that is truly authentic and meaningful.
 
@@ -55,7 +55,7 @@ Enneagram Type 4 individuals are also known for their empathy and compassion. Th
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 4</h2>
 
 Individualists can be moody and withdrawn, making it difficult for them to form and maintain relationships. They can also be prone to self-doubt and insecurity, which can hold them back from pursuing their goals. Additionally, they may struggle with feeling misunderstood and disconnected from others.
 
@@ -67,7 +67,7 @@ Individualists can be moody and withdrawn, making it difficult for them to form 
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 4</h2>
 
 The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning. Type 4s have a deep need to understand themselves and their place in the world, and they often feel a sense of incompleteness or longing for something they believe is missing in their lives.
 
@@ -79,7 +79,7 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 4</h2>
 
 - Inadequate or without significance. They fear being plain or ordinary, and they desire to be unique and special in some way. They also fear being misunderstood or not fully known by others, leading them to feel isolated and disconnected.
 - Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity as a means of expressing their unique identity and standing out from others.
@@ -105,7 +105,7 @@ Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 4 in relationships</h2>
 
 Enneagram Type 4 individuals tend to approach relationships in a deep and intense way, seeking emotional connection and authenticity with their partners. They are often highly attuned to their own emotions and may feel a strong need to express themselves in their relationships.
 
@@ -119,7 +119,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 4 in the Workplace</h2>
 
 Enneagram Type 4 individuals bring unique strengths and challenges to the workplace. They are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and come up with original ideas. They are also deeply attuned to their emotions and those of others, which can make them insightful and empathetic team members.
 

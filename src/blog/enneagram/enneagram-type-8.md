@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 8</h2>
 
 Type 8's are often described as strong-willed, assertive, and confident. They have a natural ability to take charge and lead others, and they are not afraid to speak their minds. Type 8's are also known for their determination and resilience. They are not easily swayed by others and are often able to overcome obstacles with ease.
 
@@ -33,7 +33,7 @@ Type 8's are often described as strong-willed, assertive, and confident. They ha
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 8</h2>
 
 One of the key strengths of the Type 8 is their ability to take action. They are decisive and confident in their decisions, and they are not afraid to take risks. Type 8's are also known for their ability to inspire and lead others. They have a natural charisma and are able to rally others around a cause or goal. Additionally, Type 8's are often able to see the big picture and are able to think strategically.
 
@@ -41,7 +41,7 @@ One of the key strengths of the Type 8 is their ability to take action. They are
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 8</h2>
 
 While Type 8's have many strengths, they also have some weaknesses. One of their biggest weaknesses is their tendency to be overly aggressive and confrontational. They can also be stubborn and unwilling to compromise. Additionally, Type 8's can have a hard time expressing their emotions and may struggle with vulnerability.
 
@@ -55,7 +55,7 @@ Type 8s can struggle with issues related to control, as well as anger and impuls
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 8</h2>
 
 Enneagram Type 8 individuals are driven by a need for control and a desire to protect themselves and those they care about. They are highly motivated by a sense of justice and fairness and can be quite passionate about causes that align with their values.
 
@@ -65,7 +65,7 @@ At their core, Enneagram Type 8 individuals are seeking to avoid being controlle
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 8</h2>
 
 The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They value their independence and autonomy above all else and may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others to maintain their sense of autonomy. Additionally, Enneagram Type 8 individuals may also have a fear of vulnerability, as they perceive vulnerability as a potential weakness that could be exploited by others.
 
@@ -89,7 +89,7 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 8 in relationships</h2>
 
 Enneagram Type 8 individuals can be complex partners in relationships. On one hand, they are fiercely loyal and protective of those they care about, and can be quite generous and supportive. They are also direct and straightforward in their communication, which can be refreshing for some partners.
 
@@ -103,7 +103,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 8 in the Workplace</h2>
 
 Enneagram Type 8 individuals can be powerful and effective leaders in the workplace. They are often natural problem solvers, with a talent for identifying and addressing challenges head-on. They are also highly independent and self-assured, and are not afraid to take risks or make tough decisions.
 

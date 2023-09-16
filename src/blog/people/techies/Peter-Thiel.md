@@ -62,6 +62,8 @@ Another crucial aspect of Type 6 individuals is their unwavering loyalty to thos
 A New Perspective: Selling the Concept of the Dualistic Type 6
 When we propose Peter Thiel as a Type 6, we aren't merely cataloging his traits. We're offering a concept, a unique perspective into his complex personality. We're highlighting how this successful investor and entrepreneur embodies the Type 6 duality - cautious yet daring, private yet challenging, a steadfast loyalist who isn’t afraid to disrupt and innovate.
 
+<!-- https://youtube.com/shorts/Nbx1lFR1MC8?si=nye62M4EWBDwTio5 -->
+
 ## Embracing the Paradox
 
 Thiel's combination of phobic and counter-phobic traits may seem paradoxical. Yet, it is this very mix that enables him to navigate the risks of the investment world while remaining true to his trusted circle. As a Type 6, he isn’t simply a worrier or a risk-taker. He’s both.

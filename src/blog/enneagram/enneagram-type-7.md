@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 7</h2>
 
 - Optimistic and enthusiastic
 - Energetic and creative
@@ -39,7 +39,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 7</h2>
 
 Type 7 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -53,7 +53,7 @@ Type 7 individuals possess a number of strengths that make them valuable members
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 7</h2>
 
 - Impulsivity: Type 7s can be impulsive and have a fear of missing out on new experiences. They may struggle with being present in the moment and can have a tendency to jump from one thing to the next.
 - Lack of commitment: Type 7s can struggle with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
@@ -67,7 +67,7 @@ Type 7 individuals possess a number of strengths that make them valuable members
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 7</h2>
 
 Type 7s are motivated by the desire for new experiences and adventure. They want to feel alive and engaged with the world around them. They have a fear of missing out and can struggle with feeling trapped or limited in any way. They want to be free to explore and create, and can feel restless or unhappy when they are stuck in routine or monotony.
 
@@ -75,7 +75,7 @@ Type 7s are motivated by the desire for new experiences and adventure. They want
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 7</h2>
 
 One of the core fears of Type 7s is the fear of being trapped or limited in their options and experiences. They have a natural desire for freedom, adventure, and exploration, and they may fear that commitments or responsibilities will limit their ability to pursue these things. As a result, they may avoid situations that feel constricting or confining, and they may struggle with commitment in relationships, careers, or other areas of their life.
 
@@ -103,7 +103,7 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 7 in relationships</h2>
 
 In relationships, Type 7s can be fun-loving, adventurous, and passionate partners. They often have a natural charm and enthusiasm that can be very attractive to others. They enjoy trying new things and exploring the world together with their partner.
 
@@ -117,7 +117,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 7 in the Workplace</h2>
 
 Type 7s can bring a lot of energy and creativity to the workplace. They are often great at generating new ideas and are skilled at brainstorming sessions. Their natural optimism and enthusiasm can also be infectious, making them valuable team members who can motivate others.
 

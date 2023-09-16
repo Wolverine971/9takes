@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 5</h2>
 
 - A strong desire for knowledge and information
 - A tendency to be introspective and self-contained
@@ -39,7 +39,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 5</h2>
 
 Type 5 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -52,7 +52,7 @@ Type 5 individuals possess a number of strengths that make them valuable members
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 5</h2>
 
 While Type 5 individuals possess many strengths, they also face a number of challenges. These include:
 
@@ -68,7 +68,7 @@ While Type 5 individuals possess many strengths, they also face a number of chal
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 5</h2>
 
 Enneagram Type 5s are motivated by a core desire for knowledge, understanding, and self-sufficiency. They seek to accumulate knowledge and expertise in their areas of interest, and to become self-reliant and independent in their pursuits. Some of the common motivations of Enneagram Type 5s may include:
 
@@ -82,7 +82,7 @@ Enneagram Type 5s are motivated by a core desire for knowledge, understanding, a
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 5</h2>
 
 Enneagram Type 5s are driven by a core fear of being overwhelmed, depleted, or invaded. They fear that they will not have enough knowledge, resources, or energy to handle the demands of the world around them. As a result, Type 5s tend to retreat into their own thoughts and inner world, seeking to accumulate knowledge and expertise as a way of feeling more prepared and in control.
 
@@ -114,7 +114,7 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 5 in relationships</h2>
 
 In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also have a tendency to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
 
@@ -124,7 +124,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 5 in the Workplace</h2>
 
 In the workplace, Enneagram Type 5s are known for their analytical and independent approach to work. They have a strong desire to understand the details and inner workings of their field of expertise and often prefer working in roles that allow them to focus on research, analysis, and problem-solving.
 

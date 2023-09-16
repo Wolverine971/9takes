@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 3</h2>
 
 Enneagram Type 3 individuals are known for their high energy, ambitious nature, and strong work ethic. They are skilled at presenting themselves in a positive light and are often seen as confident and charismatic. However, their desire for success can sometimes lead them to prioritize their image over their true feelings or beliefs.
 
@@ -37,7 +37,7 @@ Another important trait of Enneagram Type 3 is their focus on achievement and su
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 3</h2>
 
 Type 3 individuals possess a number of strengths that make them valuable members of any team or community. These include:
 
@@ -50,7 +50,7 @@ Type 3 individuals possess a number of strengths that make them valuable members
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 3</h2>
 
 While Type 3 individuals possess many strengths, they also face a number of challenges. These include:
 
@@ -66,7 +66,7 @@ While Type 3 individuals possess many strengths, they also face a number of chal
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 3</h2>
 
 Enneagram Type 3 individuals, also known as "The Achiever," are motivated by a desire for success and recognition. They are often driven by a need to be seen as successful, accomplished, and admired by others. They are highly goal-oriented and may be willing to work hard and take on significant challenges in order to achieve their goals.
 
@@ -78,7 +78,7 @@ Type 3s are often skilled at presenting themselves in a positive light and may b
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 3</h2>
 
 - Fear of failure: Despite their strong desire for success, Type 3s often have a deep-seated fear of failure. They may worry that they are not good enough or that they will not meet their own or others' high expectations.
 - Fear of being unimportant: Type 3s value being admired, respected, and recognized for their accomplishments. They may fear being seen as insignificant or ordinary, and work hard to maintain their image and status.
@@ -106,7 +106,7 @@ Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonio
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 3 in relationships</h2>
 
 In relationships, Enneagram Type 3 individuals often seek partners who can appreciate and support their ambitious nature. They are attracted to those who can help them achieve their goals and provide them with the recognition they crave.
 
@@ -118,7 +118,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 3 in the Workplace</h2>
 
 Enneagram Type 3 individuals, also known as "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, which means that they are often focused on achieving success and advancing in their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 

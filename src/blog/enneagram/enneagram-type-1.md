@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics</h2>
+<h2>Characteristics of an Enneagram 1</h2>
 
 Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong, and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place, and they may become involved in causes and organizations that align with their values.They are driven by a sense of duty and responsibility, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, and they strive for excellence in all areas of their life.
 
@@ -44,7 +44,7 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 
 <article class="section-content">
 
-<h2>Strengths</h2>
+<h2>Strengths of an Enneagram 1</h2>
 
 One of the biggest strengths of the Enneagram Type 1 is their strong sense of responsibility and duty. Perfectionists are highly motivated to make a positive impact on the world, and they are often willing to make sacrifices for the greater good. They are also highly organized and efficient, which can be an asset in both personal and professional settings.
 
@@ -54,7 +54,7 @@ Enneagram Type 1 individuals are also known for their strong work ethic and dete
 
 <article class="section-content">
 
-<h2>Weaknesses/ Challenges</h2>
+<h2>Weaknesses/ Challenges of an Enneagram 1</h2>
 
 Type 1 personalities, also known as Perfectionists or Reformers, have several weaknesses and challenges that they may face. Here are some of them:
 
@@ -73,7 +73,7 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 
 <article class="section-content">
 
-<h2>Motivations</h2>
+<h2>Motivations of an Enneagram 1</h2>
 
 Type 1 personalities, also known as Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is right and responsible.
 
@@ -89,7 +89,7 @@ Here are some of the primary motivations of Type 1 personalities:
 
 <article class="section-content">
 
-<h2>Fears</h2>
+<h2>Fears of an Enneagram 1</h2>
 
 - Making mistakes or being wrong: Type 1s have a strong desire to do things right and to be seen as perfect. They fear making mistakes, as this can lead to feelings of shame and inadequacy.
 - Being imperfect: Type 1s strive for perfection in all areas of their life, including themselves. They fear being seen as imperfect or flawed, as this can damage their self-image.
@@ -117,7 +117,7 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 <article class="section-content">
 
-<h2>In Relationships</h2>
+<h2>An Enneagram 1 in relationships</h2>
 
 Type 1 personalities have high expectations for themselves and their partners. They strive for perfection in all areas of their lives, including relationships. If you're in a relationship with a Type 1, here are a few things to keep in mind:
 
@@ -132,7 +132,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <article class="section-content">
 
-<h2>In the Workplace</h2>
+<h2>An Enneagram 1 in the Workplace</h2>
 
 Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making. They make excellent leaders and are often respected for their work ethic and commitment to excellence. Here are a few characteristics that make Type 1 personalities successful in the workplace:
 
