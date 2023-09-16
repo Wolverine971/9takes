@@ -65,9 +65,9 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 3 - The Achiever</h3>
 
-**Energizers:** Setting and achieving goals, receiving recognition and praise, being successful, being in the spotlight. For example, setting and achieving goals, receiving glory and honor, presenting in front of an audience, competing, and winning.
+**Energizers:** Setting and achieving goals, receiving recognition and praise, being successful, being in the spotlight, and, for example, setting and achieving goals, receiving glory and honor, presenting in front of an audience, competing, and winning.
 
-**Drainers:** Failure, criticism, lack of progress or achievement, feeling unimportant or insignificant. For example, failing to meet expectations or goals, receiving negative feedback or complaints, and feeling like a failure or impostor.
+**Drainers:** Failure, criticism, lack of progress or achievement, feeling unimportant or insignificant, for example, failing to meet expectations or goals, receiving negative feedback or complaints, and feeling like a failure or impostor.
 
 **Strengths:** Threes are ambitious, driven, and highly motivated. They are skilled at setting and achieving goals and have a natural talent for leadership. They are confident, charismatic, and highly adaptable.
 
@@ -85,7 +85,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Energizers:** Creative expression, self-discovery, deep and meaningful connections with others, unique and authentic experiences. For example, creative expression through art or music, deep and meaningful conversations with others, and exploring one's emotions and identity.
 
-**Drainers:** Mundane or routine tasks, feeling misunderstood or unappreciated, rejection, emotionally empty or disconnected. For example, engaging in mundane or repetitive tasks, feeling like an outsider or misunderstood, and facing rejection or criticism.
+**Drainers:** Mundane or routine tasks, feeling misunderstood or unappreciated, rejection, emotionally empty or disconnected, and for example, engaging in mundane or repetitive tasks, feeling like an outsider or misunderstood, and facing rejection or criticism.
 
 **Strengths:** Fours are creative, imaginative, and highly intuitive. They have a unique perspective on the world and are highly attuned to their emotions. They are highly empathetic and have a natural talent for understanding and connecting with others.
 
@@ -105,9 +105,9 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 5 - The Investigator</h3>
 
-**Energizers:** Learning new things, exploring ideas and concepts, intellectual challenges, having time to think and reflect. For example, researching a new topic or subject, learning a new skill or language, and having time alone to think and reflect.
+**Energizers:** Learning new things, exploring ideas and concepts, intellectual challenges, having time to think and reflect, and, for example, researching a new topic or subject, learning a new skill or language, and having time alone to think and reflect.
 
-**Drainers:** Socializing, being forced to engage with emotions, being interrupted or distracted, feeling overwhelmed. For example, being forced to socialize or engage with emotions, dealing with overwhelming amounts of information or stimulation.
+**Drainers:** Socializing, being forced to engage with emotions, being interrupted or distracted, feeling overwhelmed, and, for example, being forced to socialize or engage with emotions, dealing with overwhelming amounts of information or stimulation.
 
 **Strengths:** Fives are highly analytical, logical, and objective. They have a natural talent for understanding complex systems and ideas. They are highly independent and value their privacy.
 
@@ -123,7 +123,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 6 - The Loyalist</h3>
 
-**Energizers:** Feeling safe and secure, being prepared and organized, working towards a common goal with others, building trust and loyalty. For example, being part of a loyal and trustworthy group, having a clear plan and structure, working together towards a common goal.
+**Energizers:** Feeling safe and secure, being prepared and organized, working towards a common goal with others, building trust and loyalty, for example, being part of a loyal and trustworthy group, having a clear plan and structure, working together towards a common goal.
 
 **Drainers:** Feeling uncertain or unsafe, conflicts or disagreements, making important decisions, unexpected changes or surprises. For example, sixes feel drained when facing uncertainty or unexpected changes, dealing with disputes or controversies, and feeling unsupported or betrayed.
 
@@ -141,9 +141,9 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 7 - The Enthusiast</h3>
 
-**Energizers:** New experiences and adventures, exploring possibilities, excitement and stimulation, having fun. For example, planning a fun and adventurous trip, exploring new hobbies or interests, and attending a party or social event.
+**Energizers:** New experiences and adventures, exploring possibilities, excitement, and stimulation, having fun and, for example, planning a fun and adventurous trip, exploring new hobbies or interests, and attending a party or social event.
 
-**Drainers:** Routine or repetitive tasks, feeling stuck or restricted, negative emotions or experiences, being forced to confront problems or challenges. For example, engaging in routine or boring activities, facing negative emotions or experiences, feeling trapped or restricted.
+**Drainers:** Routine or repetitive tasks feeling stuck or restricted, negative emotions or experiences, being forced to confront problems or challenges, for example, engaging in routine or boring activities, facing negative emotions or experiences, feeling trapped or restricted.
 
 **Strengths:** Sevens are highly energetic, optimistic, and adventurous. They have a natural talent for exploring new ideas and experiences. They are highly creative and enjoy sharing their enthusiasm with others.
 
@@ -159,7 +159,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 8 - The Challenger</h3>
 
-**Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, and standing up for oneself and others. For example, leading and taking charge of a situation, standing up for oneself or others, achieving a difficult goal through determination.
+**Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, and standing up for oneself and others, for example, leading and taking charge of a situation, standing up for oneself or others, achieving a difficult goal through determination.
 
 **Drainers:** Feeling vulnerable or powerless, controlled or dominated, criticized or rejected, forced to submit or back down. For example, feeling powerless or helpless, being controlled or dominated by others, and facing criticism or rejection.
 
@@ -177,9 +177,9 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 9 - The Peacemaker</h3>
 
-**Energizers:** Creating harmony and unity, being inclusive and accepting, being part of a supportive and peaceful community, feeling calm and content. For example, creating a peaceful and harmonious environment, mediating and resolving conflicts, and being part of a supportive and inclusive community.
+**Energizers:** Creating harmony and unity, being inclusive and accepting, being part of a supportive and peaceful community, feeling calm and content, and for example, creating a peaceful and harmonious environment, mediating and resolving conflicts, and being part of a supportive and inclusive community.
 
-**Drainers:** Conflict or confrontation, feeling pressured or rushed, making decisions or taking a stand, feeling disconnected or isolated. For example, dealing with confrontation or disagreements, feeling rushed or pressured, and facing difficult choices or changes.
+**Drainers:** Conflict or confrontation, feeling pressured or rushed, making decisions or taking a stand, feeling disconnected or isolated, dealing with confrontation or disagreements, feeling rushed or pressured, and facing difficult choices or changes.
 
 **Strengths:** Nines are highly peaceful, harmonious, and empathetic. They have a natural talent for mediating conflicts and finding common ground. They value relationships and strive for balance and harmony in their lives.
 
@@ -193,7 +193,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 ## Wrap up
 
-I hope this was insightful. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>. Also, if you did find this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+This was insightful. Check this out for more on <a href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>. Also, if you did find this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
