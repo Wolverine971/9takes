@@ -161,7 +161,7 @@
 	.hamburger {
 		width: 25px;
 		height: 3px;
-		background: var(--color-bg-0, white);
+		background: var(--color-paladin-1, white);
 		display: block;
 		position: absolute;
 		top: 50%;

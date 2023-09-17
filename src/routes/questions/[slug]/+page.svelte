@@ -89,8 +89,8 @@
 <style lang="scss">
 	.question-box {
 		width: -webkit-fill-available;
-		background-color: var(--color-bg-0);
-		border: 1px solid var(--color-bg-0);
+		background-color: var(--color-paladin-1);
+		border: 1px solid var(--color-paladin-1);
 		border-radius: 5px;
 		// height: 24px;
 		padding: 0.5rem 1rem;

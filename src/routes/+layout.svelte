@@ -81,7 +81,7 @@
 		// font-weight: 400;
 		margin: 1rem;
 		// font-family: 'Source Code Pro', monospace;
-		// color: var(--color-bg-0, white);
+		// color: var(--color-paladin-1, white);
 		text-align: center;
 		text-transform: uppercase;
 	}

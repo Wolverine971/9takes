@@ -162,7 +162,7 @@
 	.slide-name {
 		text-align: center;
 		position: absolute;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1);
 		font-size: xx-large;
 		font-size: xxx-large;
 		z-index: 1345;
@@ -175,7 +175,6 @@
 
 	body {
 		align-items: center;
-		// background: #e3e3e3;
 		display: flex;
 		height: 100vh;
 		justify-content: center;

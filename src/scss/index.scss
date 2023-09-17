@@ -13,7 +13,6 @@
 	--block-spacing-vertical: calc(1rem * 2);
 	--block-spacing-horizontal: calc(1rem * 2);
 	--border-radius: 0.25rem;
-	--card-background-color: #fff;
 	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(27, 40, 50, 0.01698),
 		0.0335rem 0.067rem 0.402rem rgba(27, 40, 50, 0.024),
 		0.0625rem 0.125rem 0.75rem rgba(27, 40, 50, 0.03),
@@ -33,7 +32,7 @@
 	--glass-color: rgba(var(--grey-300-hex), 0.4);
 	--font-size: 16px;
 
-	--classic-border: 1px solid var(--color-p-origin-v);
+	--classic-border: 1px solid var(--color-paladin-3);
 
 	--card-padding: 0.8rem 1rem;
 	--card-margin: 1rem;
@@ -229,7 +228,7 @@ main::before {
 
 	&:hover {
 		background-color: var(--color-theme-purple-v);
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1);
 	}
 }
 
@@ -372,7 +371,7 @@ a.disabled {
 // 	// padding: clamp(1rem, 2vw, 5rem);
 // 	background: hsl(200deg 20% 10%);
 // 	color-scheme: dark;
-// 	color: var(--color-bg-0, white);
+// 	color: var(--color-paladin-1);
 // 	accent-color: hotpink;
 // }
 
@@ -481,7 +480,7 @@ section {
 	flex-basis: calc(50% - 20px);
 	margin: var(--block-spacing-vertical) 0;
 	padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
-	background-color: #d8e2eb;
+	background-color: var(--color-paladin-2);
 	border: var(--classic-border);
 	box-sizing: border-box;
 	border-radius: 0.25rem;

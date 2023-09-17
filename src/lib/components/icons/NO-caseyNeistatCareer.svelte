@@ -1,7 +1,7 @@
 <script>
 	export let className = '';
 
-	export let fill = '#52616b';
+	export let fill = 'var(--color-paladin-3)';
 	export let iconStyle = '';
 </script>
 
@@ -27,7 +27,7 @@
 		#graph-div {
 			font-family: 'trebuchet ms', verdana, arial, sans-serif;
 			font-size: 12px;
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .error-icon {
 			fill: hsl(60, 90%, 100%);
@@ -72,11 +72,11 @@
 			fill: hsl(240, 90%, 71.0784313725%);
 		}
 		#graph-div .section--1 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon--1 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge--1 {
 			stroke: hsl(240, 90%, 71.0784313725%);
@@ -89,7 +89,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -106,11 +106,11 @@
 			fill: hsl(240, 22.2222222222%, 67.9411764706%);
 		}
 		#graph-div .section-0 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-0 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-0 {
 			stroke: hsl(240, 22.2222222222%, 67.9411764706%);
@@ -123,7 +123,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -140,11 +140,11 @@
 			fill: hsl(60, 90%, 75%);
 		}
 		#graph-div .section-1 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-1 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-1 {
 			stroke: hsl(60, 90%, 75%);
@@ -157,7 +157,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -174,11 +174,11 @@
 			fill: hsl(270, 90%, 71.0784313725%);
 		}
 		#graph-div .section-2 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-2 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-2 {
 			stroke: hsl(270, 90%, 71.0784313725%);
@@ -191,7 +191,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -208,11 +208,11 @@
 			fill: hsl(300, 90%, 71.0784313725%);
 		}
 		#graph-div .section-3 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-3 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-3 {
 			stroke: hsl(300, 90%, 71.0784313725%);
@@ -225,7 +225,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -242,11 +242,11 @@
 			fill: hsl(330, 90%, 71.0784313725%);
 		}
 		#graph-div .section-4 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-4 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-4 {
 			stroke: hsl(330, 90%, 71.0784313725%);
@@ -259,7 +259,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -276,11 +276,11 @@
 			fill: hsl(0, 90%, 71.0784313725%);
 		}
 		#graph-div .section-5 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-5 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-5 {
 			stroke: hsl(0, 90%, 71.0784313725%);
@@ -293,7 +293,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -310,11 +310,11 @@
 			fill: hsl(30, 90%, 71.0784313725%);
 		}
 		#graph-div .section-6 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-6 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-6 {
 			stroke: hsl(30, 90%, 71.0784313725%);
@@ -327,7 +327,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -344,11 +344,11 @@
 			fill: hsl(90, 90%, 75%);
 		}
 		#graph-div .section-7 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-7 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-7 {
 			stroke: hsl(90, 90%, 75%);
@@ -361,7 +361,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -378,11 +378,11 @@
 			fill: hsl(150, 90%, 71.0784313725%);
 		}
 		#graph-div .section-8 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-8 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-8 {
 			stroke: hsl(150, 90%, 71.0784313725%);
@@ -395,7 +395,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -412,11 +412,11 @@
 			fill: hsl(180, 90%, 71.0784313725%);
 		}
 		#graph-div .section-9 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-9 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-9 {
 			stroke: hsl(180, 90%, 71.0784313725%);
@@ -429,7 +429,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -446,11 +446,11 @@
 			fill: hsl(210, 90%, 71.0784313725%);
 		}
 		#graph-div .section-10 text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .node-icon-10 {
 			font-size: 40px;
-			color: var(--color-paladin-3, #333);
+			color: var(--color-paladin-3);
 		}
 		#graph-div .section-edge-10 {
 			stroke: hsl(210, 90%, 71.0784313725%);
@@ -463,7 +463,7 @@
 			stroke-width: 3;
 		}
 		#graph-div .lineWrapper line {
-			stroke: var(--color-paladin-3, #333);
+			stroke: var(--color-paladin-3);
 		}
 		#graph-div .disabled,
 		#graph-div .disabled circle,
@@ -479,7 +479,7 @@
 			fill: hsl(240, 90%, 71.0784313725%);
 		}
 		#graph-div .section-root text {
-			fill: var(--color-paladin-3, #333);
+			fill: var(--color-paladin-3);
 		}
 		#graph-div .icon-container {
 			height: 100%;

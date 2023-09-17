@@ -401,7 +401,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: var(--color-bg-0, white);
+			color: var(--color-paladin-1);
 			z-index: 12433;
 			text-decoration: none !important;
 		}
@@ -418,7 +418,7 @@
 			background: no-repeat;
 			border-radius: 5px;
 			border: var(--classic-border);
-			background-color: var(--color-bg-0, white);
+			background-color: var(--color-paladin-1);
 		}
 		.mobile-ham {
 			display: flex;
@@ -441,7 +441,7 @@
 			border-radius: 5px;
 		}
 		.mobile-navbar {
-			background: var(--color-bg-0, white);
+			background: var(--color-paladin-1);
 			position: absolute;
 			z-index: 2314;
 		}

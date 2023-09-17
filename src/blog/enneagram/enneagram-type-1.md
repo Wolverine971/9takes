@@ -297,12 +297,12 @@ th {
 }
 
 .scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 .2rem var(--color-p-origin);
+    box-shadow: 0 0 .2rem var(--color-paladin-3);
     border-radius:5px;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
-    background-color: var(--color-p-origin);
+    background-color: var(--color-paladin-3);
     border-radius:5px
 }
 
@@ -370,7 +370,7 @@ th {
         border: var(--classic-border);
         border-radius: 5px;
         padding: 10px 20px;
-        color: #000000B3;
+        color:  var(--color-paladin-5);
         font-size: 16px;
         margin: 1rem;
         padding: 0.4rem;

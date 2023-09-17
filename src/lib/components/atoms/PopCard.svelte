@@ -212,28 +212,6 @@
 	.home {
 		animation: pan-image 15s linear infinite;
 	}
-	:root {
-		--grex-700-hex: 64, 65, 69;
-		--grex-600-hex: 96, 98, 102;
-		--grex-500-hex: 126, 128, 133;
-		--grex-400-hex: 159, 161, 166;
-
-		--grex-300-hex: 186, 189, 194;
-		--grey-200-hex: 213, 215, 219;
-		--grey-100-hex: 232, 234, 237;
-
-		--color-paladin-1: #f0f5f9;
-		--color-paladin-2: #c9d6df;
-		--color-paladin-3: #52616b;
-		--color-paladin-4: #1e2922;
-		// here
-		--background-rgb: var(--grex-500-hex);
-		--purple-rbg: var(--grex-500-hex);
-		--primary-rgb: var(--grex-500-hex);
-
-		--blob-color-1: rgb(var(--purple-rbg));
-		--blob-color-2: var(--grex-400-hex);
-	}
 
 	* {
 		box-sizing: border-box;
@@ -389,7 +367,7 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-icon {
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1);
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
@@ -410,7 +388,7 @@
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
 		font-family: 'Source Code Pro', monospace;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1);
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -448,7 +426,7 @@
 	}
 
 	#blob {
-		background-color: var(--color-bg-0, white);
+		background-color: var(--color-paladin-1);
 		height: 34vmax;
 		aspect-ratio: 1;
 		position: absolute;

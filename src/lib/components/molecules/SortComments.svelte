@@ -92,12 +92,12 @@
 		border-radius: 5px;
 
 		&:hover {
-			background-color: var(--color-bg-0);
+			background-color: var(--color-paladin-1);
 		}
 	}
 
 	.details-display button {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		// float: left;
 		border: 1px solid var(--color-theme-purple-v);
 		outline: none;
@@ -114,7 +114,7 @@
 
 	/* Change background color of buttons on hover */
 	.details-display button:hover {
-		// background-color: var(--color-bg-0);
+		// background-color: var(--color-paladin-1);
 		border-radius: 5px;
 		border: 1px solid var(--color-theme-purple);
 	}

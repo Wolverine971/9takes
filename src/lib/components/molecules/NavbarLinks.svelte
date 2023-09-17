@@ -118,7 +118,7 @@
 		background: no-repeat;
 		border-radius: 5px;
 		border: var(--classic-border);
-		background-color: var(--color-bg-0, white);
+		background-color: var(--color-paladin-1);
 	}
 
 	.mobile-card {
@@ -135,7 +135,7 @@
 	}
 	.navbar-blogs {
 		overflow: hidden;
-		// background-color: #d8e2eb;
+		// background-color: var(--color-paladin-2);
 		border-radius: 5px;
 		display: flex;
 		justify-content: center;
@@ -179,7 +179,7 @@
 
 	.navbar-blogs a:hover,
 	.subnav:hover .subnavbtn {
-		background-color: #d8e2eb;
+		background-color: var(--color-paladin-2);
 		z-index: 1234;
 	}
 
@@ -188,7 +188,7 @@
 		position: absolute;
 		// top: 100px;
 		// left: 0;
-		background-color: var(--color-bg-0, white);
+		background-color: var(--color-paladin-1);
 		// width: 100%;
 		// display: flex;
 		flex-direction: column;
@@ -246,7 +246,7 @@
 
 	.navbar-blogs a:hover,
 	.main-subnav:hover .main-subnavbtn {
-		// background-color: var(--color-bg-0, white);
+		// background-color: var(--color-paladin-1);
 		z-index: 1234;
 	}
 
@@ -254,7 +254,7 @@
 		display: none;
 		position: absolute;
 		// left: 0;
-		background-color: var(--color-bg-0, white);
+		background-color: var(--color-paladin-1);
 		// width: 100%;
 		// display: flex;
 		flex-direction: column;

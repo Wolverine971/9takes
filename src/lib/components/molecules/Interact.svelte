@@ -301,7 +301,7 @@ interface QuestionObject {
 		padding: 0.25rem;
 
 		&:hover {
-			background: var(--color-bg-0);
+			background: var(--color-paladin-1);
 		}
 	}
 	.sub-comment {
@@ -310,7 +310,7 @@ interface QuestionObject {
 		justify-content: center;
 		align-items: center;
 		&:disabled {
-			background-color: var(--color-bg-0, white);
+			background-color: var(--color-paladin-1, white);
 			color: grey;
 			border: 1px solid grey;
 			opacity: 1;
@@ -332,7 +332,7 @@ interface QuestionObject {
 	}
 
 	.interaction-div-display button {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		// float: left;
 		border: none;
 		outline: none;
@@ -348,9 +348,9 @@ interface QuestionObject {
 
 	/* Change background color of buttons on hover */
 	.interaction-div-display button:hover {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		border-radius: 5px;
-		border: 1px solid var(--color-bg-1);
+		border: 1px solid var(--color-paladin-2);
 	}
 
 	.interaction-div-column {

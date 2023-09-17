@@ -412,7 +412,7 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
         border: var(--classic-border);
         border-radius: 5px;
         padding: 10px 20px;
-        color: #000000B3;
+        color:  var(--color-paladin-5);
         font-size: 16px;
         margin: 1rem;
         padding: 0.4rem;

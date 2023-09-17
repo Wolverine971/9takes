@@ -333,17 +333,17 @@
 		text-align: center;
 		cursor: pointer;
 
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		border-radius: 5px;
-		border: 1px solid var(--color-bg-1);
+		border: 1px solid var(--color-paladin-2);
 
 		&:hover {
-			background-color: var(--color-bg-1);
+			background-color: var(--color-paladin-2);
 		}
 	}
 	.comment-box {
 		width: -webkit-fill-available;
-		// background-color: var(--color-bg-0);
+		// background-color: var(--color-paladin-1);
 		// border: 1px solid var(--color-theme-purple-v);
 		border-radius: 5px;
 		// margin-bottom: 0;
@@ -386,7 +386,7 @@
 		// justify-content: center;
 		align-items: center;
 		// background: red;
-		border: 1px solid var(--color-p-origin-v);
+		border: 1px solid var(--color-paladin-3-v);
 		// width: 3rem;
 		// height: 3rem;
 		font-weight: bolder;
@@ -404,7 +404,7 @@
 		word-break: keep-all;
 
 		&:hover {
-			border: 1px solid var(--color-p-origin);
+			border: 1px solid var(--color-paladin-3);
 		}
 	}
 	.top-right-corner {
@@ -429,7 +429,7 @@
 		padding: 0.25rem;
 
 		&:hover {
-			background: var(--color-bg-0);
+			background: var(--color-paladin-1);
 		}
 	}
 	.sub-comment {
@@ -438,7 +438,7 @@
 		justify-content: center;
 		align-items: center;
 		&:disabled {
-			background-color: var(--color-bg-0, white);
+			background-color: var(--color-paladin-1, white);
 			color: grey;
 			border: 1px solid grey;
 			opacity: 1;
@@ -461,7 +461,7 @@
 	}
 
 	.interaction-div-display button {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		// float: left;
 		border: none;
 		outline: none;
@@ -478,9 +478,9 @@
 
 	/* Change background color of buttons on hover */
 	.interaction-div-display button:hover {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		border-radius: 5px;
-		border: 1px solid var(--color-bg-1);
+		border: 1px solid var(--color-paladin-2);
 	}
 
 	.interact-text-container {

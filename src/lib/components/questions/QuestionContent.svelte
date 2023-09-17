@@ -332,7 +332,7 @@
 		// transform: rotate(270deg);
 	}
 	.tab-header {
-		border: 1px solid var(--color-bg-1);
+		border: 1px solid var(--color-paladin-2);
 		border-radius: 5px;
 		text-align: center;
 	}
@@ -383,7 +383,7 @@
 
 	/* Change background color of buttons on hover */
 	.tabs button:hover {
-		background-color: var(--color-bg-0);
+		background-color: var(--color-paladin-1);
 		border-radius: 5px;
 	}
 

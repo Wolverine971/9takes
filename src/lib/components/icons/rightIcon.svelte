@@ -2,7 +2,7 @@
 	export let className = '';
 
 	export let height = '1rem';
-	export let fill = '#52616b';
+	export let fill = 'var(--color-paladin-3)';
 	export let iconStyle = '';
 </script>
 

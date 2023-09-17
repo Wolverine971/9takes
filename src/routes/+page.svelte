@@ -244,7 +244,7 @@
 	{/if}
 </section>
 
-<style>
+<style lang="scss">
 	/* Basic styles */
 
 	a {
@@ -316,13 +316,13 @@
 		word-break: normal;
 	}
 	a {
-		color: var(--color-paladin-3, #333);
+		color: var(--color-paladin-3);
 		/* text-decoration: none; */
 		margin: 0.5rem;
 		padding: 0.5rem;
 
 		&:hover {
-			background-color: #d8e2eb;
+			background-color: var(--color-paladin-2);
 			border-radius: 5px;
 		}
 	}
@@ -331,7 +331,7 @@
 	}
 	/* Header styles */
 	header {
-		background-color: var(--color-paladin-3, #333);
+		background-color: var(--color-paladin-3);
 		background-image: url('/background.webp');
 		color: #fff;
 		padding: 20px;
@@ -348,7 +348,7 @@
 	}
 	/* Navigation styles */
 	nav {
-		background-color: #d8e2eb;
+		background-color: var(--color-paladin-2);
 		border-bottom: var(--classic-border);
 		padding: 10px;
 	}
@@ -372,23 +372,14 @@
 		flex-basis: calc(50% - 20px);
 		margin-bottom: 20px;
 		padding: 10px;
-		/* background-color: #d8e2eb;
+		/* background-color: var(--color-paladin-2);
 		border: var(--classic-border); */
 		box-sizing: border-box;
 		margin: auto;
 	}
-	/* Footer styles */
-	footer {
-		/* background-color: var(--color-paladin-3, #333);
-		color: #fff; */
-		padding: 20px;
-		text-align: center;
-	}
+
 	/* Media queries */
 	@media (max-width: 768px) {
-		header h1 {
-			font-size: 24px;
-		}
 		nav li {
 			margin: 5px;
 		}
@@ -401,9 +392,6 @@
 		} */
 	}
 	@media (max-width: 480px) {
-		header h1 {
-			font-size: 18px;
-		}
 		main section {
 			flex-basis: 100%;
 		}

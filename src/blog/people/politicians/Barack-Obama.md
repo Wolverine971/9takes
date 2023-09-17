@@ -242,13 +242,13 @@ Understanding others starts with understanding oneself. Let's embark on this jou
 
 <style lang="scss">
 article {
-    border: 1px solid #52616b;
+    border: 1px solid var(--color-paladin-3);
     margin-top: 1rem;
     padding: 1rem;
     border-radius: 5px;
   }
   .accordion {
-    color: #444;
+    color: var(--color-paladin-4);
     cursor: pointer;
     padding: 0.5rem;
     border: none;
@@ -267,7 +267,7 @@ article {
 
   .panel {
     padding: 18px;
-    background-color: var(--color-bg-0, white);
+    background-color: var(--color-paladin-1, white);
     overflow: hidden;
 
   }

@@ -25,7 +25,7 @@
 
 <style lang="scss">
 	.marquee-text {
-		color: var(--color-p-origin) !important;
+		color: var(--color-paladin-3) !important;
 		text-transform: uppercase;
 		flex: none;
 		font-size: 1.2rem;

@@ -437,7 +437,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
         border: var(--classic-border);
         border-radius: 5px;
         padding: 10px 20px;
-        color: #000000B3;
+        color:  var(--color-paladin-5);
         font-size: 16px;
         margin: 1rem;
         padding: 0.4rem;

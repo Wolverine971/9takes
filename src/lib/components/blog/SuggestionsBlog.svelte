@@ -25,7 +25,7 @@
 
 <style lang="scss">
 	.small-h3 {
-		color: #262626;
+		color: var(--color-paladin-5);
 		font-size: 17px;
 		line-height: 24px;
 		font-weight: 700;
@@ -38,7 +38,7 @@
 		font-size: 17px;
 		font-weight: 400;
 		line-height: 20px;
-		color: #666666;
+		color: var(--color-paladin-3);
 		word-break: break-word;
 
 		&.small {
@@ -63,7 +63,7 @@
 	.go-arrow {
 		margin-top: -4px;
 		margin-right: -4px;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1);
 		font-family: courier, sans;
 	}
 
@@ -72,7 +72,6 @@
 		position: relative;
 		max-width: 262px;
 		width: 100%;
-		//   background-color: #f2f8f9;
 		border-radius: 4px;
 		padding: 16px 12px;
 		margin: 6px;
@@ -82,7 +81,7 @@
 		border: 1px solid var(--color-theme-purple-v);
 
 		&:after {
-			background-color: var(--color-bg-0, white);
+			background-color: var(--color-paladin-1);
 		}
 
 		&:before {
@@ -110,14 +109,13 @@
 	.suggestion-link:hover {
 		transform: rotate(1deg);
 		background-size: 10px 10px;
-		background-image: radial-gradient(circle, var(--color-p-light) 1px, rgba(0, 0, 0, 0) 1px);
+		background-image: radial-gradient(circle, var(--color-paladin-2) 1px, rgba(0, 0, 0, 0) 1px);
 		p {
 			transition: all 0.3s ease-out;
 			// color: rgba(255, 255, 255, 0.8);
 		}
 		h3 {
 			transition: all 0.3s ease-out;
-			// color: #ffffff;
 		}
 	}
 

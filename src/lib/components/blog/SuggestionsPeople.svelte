@@ -122,14 +122,14 @@
 		overflow: hidden;
 		top: 0;
 		right: 0;
-		background-color: var(--color-p-origin-v);
+		background-color: var(--color-paladin-3-v);
 		border-radius: 0 4px 0 32px;
 	}
 
 	.go-arrow {
 		margin-top: -4px;
 		margin-right: -4px;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1, white);
 		font-family: courier, sans;
 	}
 	.grid-item {
@@ -158,7 +158,7 @@
 		// overflow: hidden;
 		// border: 1px solid var(--color-theme-purple-v);
 		&:after {
-			background-color: var(--color-bg-0, white);
+			background-color: var(--color-paladin-1, white);
 		}
 
 		&:before {
@@ -169,15 +169,15 @@
 			z-index: -1;
 			top: -16px;
 			right: -16px;
-			// background-color: var(--color-p-origin-v);
+			// background-color: var(--color-paladin-3-v);
 			// background-image: radial-gradient(
 			// 	circle,
-			// 	var(--color-p-origin-v) 1px,
-			// 	var(--color-p-origin-v) 1px
+			// 	var(--color-paladin-3-v) 1px,
+			// 	var(--color-paladin-3-v) 1px
 			// );
 			// background-size: 40px 40px;
-			// background-image: linear-gradient(to right, var(--color-p-origin-v) 1px, transparent 1px),
-			// 	linear-gradient(to bottom, var(--color-p-origin-v) 1px, transparent 1px);
+			// background-image: linear-gradient(to right, var(--color-paladin-3-v) 1px, transparent 1px),
+			// 	linear-gradient(to bottom, var(--color-paladin-3-v) 1px, transparent 1px);
 			// height: 32px;
 			// width: 32px;
 			border-radius: 32px;
@@ -240,7 +240,7 @@
 		z-index: 2;
 		padding: 1rem;
 		width: 100%;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1, white);
 	}
 
 	.people-grid-container {

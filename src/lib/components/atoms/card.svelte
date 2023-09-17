@@ -17,7 +17,7 @@
 		box-shadow: var(--card-box-shadow);
 	}
 	section:hover {
-		border: 1px solid var(--color-bg-1);
+		border: 1px solid var(--color-paladin-2);
 		// cursor: pointer;
 	}
 </style>

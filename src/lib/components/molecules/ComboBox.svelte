@@ -317,7 +317,7 @@
 <style lang="scss">
 	.combobox {
 		--accent-color: #06113c;
-		--background-color: var(--color-bg-0, white);
+		--background-color: var(--color-paladin-1, white);
 		--border-radius: 1em;
 
 		--option-border: ;
@@ -336,7 +336,7 @@
 		margin: 0;
 		width: 100%;
 		padding: 0.8rem 1rem;
-		// border: 0.1rem solid var(--color-p-origin);
+		// border: 0.1rem solid var(--color-paladin-3);
 		border: var(--classic-border);
 		border-radius: 0.3rem;
 	}
@@ -410,12 +410,12 @@
 	.list__option:active {
 		cursor: pointer;
 		outline: none;
-		color: var(--color-bg-0, white);
+		color: var(--color-paladin-1, white);
 		background-color: var(--accent-color) !important;
 	}
 
 	.list__option:focus :global(svg),
 	.list__option:hover :global(svg) {
-		--icon-color: var(--color-bg-0, white) !important;
+		--icon-color: var(--color-paladin-1, white) !important;
 	}
 </style>
