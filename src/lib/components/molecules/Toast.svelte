@@ -1,7 +1,7 @@
 <script>
 	import { flip } from 'svelte/animate';
 	import { fly } from 'svelte/transition';
-	import { notifications } from './notifications';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let themes = {
 		danger: '#E26D69',

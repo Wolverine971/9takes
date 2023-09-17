@@ -8,8 +8,8 @@
 	import { afterUpdate } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import Rubix from '../icons/rubix.svelte';
-	import Scribble from '../atoms/scribble.svelte';
+	import Rubix from '$lib/components/icons/rubix.svelte';
+	import Scribble from '$lib/components/atoms/scribble.svelte';
 
 	// import rubixThick from './darkRubixThick.svg';
 	export let data: any;

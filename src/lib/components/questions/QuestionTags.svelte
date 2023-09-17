@@ -1,5 +1,5 @@
 <script lang="ts">
-	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
+	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 
 	export let questionData: any;
 

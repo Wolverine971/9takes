@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { deserialize, enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
-	import ComboBox from '../molecules/ComboBox.svelte';
-	import Context from '../molecules/Context.svelte';
-	import { notifications } from '../molecules/notifications';
+	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
+	import Context from '$lib/components/molecules/Context.svelte';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: any;
 

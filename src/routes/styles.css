@@ -38,6 +38,17 @@
 	--color-paladin-3: #52616b;
 	--color-paladin-4: #1e2922;
 
+	--light-grey: #ccc;
+	--whiteish: #eee;
+	--test: #333;
+	--test2: #444;
+	--test3: #000000b3;
+	--bluish-white: #e8edf1;
+	--bluish-white2: #d8e2eb;
+	--redish-white: #f2f2f2;
+	--blue: #3a6df0;
+	--purple: #5407d9;
+
 	--color-text: rgba(0, 0, 0, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -149,27 +160,6 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
-}
-/* 
-h1 {
-	font-size: clamp(2em, 8vw, 7em);
-} */
-
-@media (min-width: 720px) {
-	/* h1 {
-		font-size: 2.4rem;
-	} */
-	body {
-		/* background-image: radial-gradient(
-				50% 50% at 50% 50%,
-				rgba(255, 255, 255, 0.75) 0%,
-				rgba(255, 255, 255, 0) 100%
-			),
-			linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%); */
-	}
-	footer {
-		/* background-color: var(--color-bg-2); */
-	}
 }
 
 @media (max-width: 576px) {

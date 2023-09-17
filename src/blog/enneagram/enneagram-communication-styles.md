@@ -733,7 +733,6 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
     color: var(--color-theme-purple);
   }
 
-  
   .panel {
     padding: 18px;
     /*display: none;*/

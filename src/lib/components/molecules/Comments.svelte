@@ -46,7 +46,7 @@
 			});
 	};
 
-	const addComment = async (data: any) => {
+	const refreshComments = async (data: any) => {
 		if (parentType !== 'question') {
 			return;
 		}
@@ -88,7 +88,7 @@
 					{comment}
 					{user}
 					{data}
-					on:commentAdded={({ detail }) => addComment(detail)}
+					on:commentAdded={({ detail }) => refreshComments(detail)}
 				/>
 			{/each}
 		</div>
@@ -106,7 +106,7 @@
 				{comment}
 				{data}
 				{user}
-				on:commentAdded={({ detail }) => addComment(detail)}
+				on:commentAdded={({ detail }) => refreshComments(detail)}
 			/>
 		{/each}
 	</div>

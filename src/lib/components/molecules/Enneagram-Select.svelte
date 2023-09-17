@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Enneagram from '../icons/enneagram.svelte';
+	import Enneagram from '$lib/components/icons/enneagram.svelte';
 	import { createEventDispatcher } from 'svelte';
 	const dispatch = createEventDispatcher();
 	export let selectedEnneagram: number | string | null = null;

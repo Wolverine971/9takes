@@ -1,14 +1,13 @@
 <script lang="ts">
-	import Card from '../atoms/card.svelte';
-	import Comments from './Comments.svelte';
-	import Interact from './Interact.svelte';
-	import DownIcon from '../icons/downIcon.svelte';
-	import { notifications } from './notifications';
-	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
+	import Card from '$lib/components/atoms/card.svelte';
+	import Comments from '$lib/components/molecules//Comments.svelte';
+	import DownIcon from '$lib/components/icons/downIcon.svelte';
+	import { notifications } from '$lib/components/molecules/notifications';
+	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';
-	import RightIcon from '../icons/rightIcon.svelte';
-	import ThumbsUpIcon from '../icons/thumbsUpIcon.svelte';
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let user: any;

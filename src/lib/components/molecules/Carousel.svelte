@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import PopCard from '../atoms/PopCard.svelte';
-	import RubixGrid from './rubixGrid.svelte';
+	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import RubixGrid from '$lib/components/molecules/rubixGrid.svelte';
 
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 	export let gridDisplay: boolean = false;

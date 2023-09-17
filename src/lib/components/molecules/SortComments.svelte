@@ -2,10 +2,10 @@
 	import { deserialize } from '$app/forms';
 	import MultiSelect from 'svelte-multiselect';
 	import FilterListIcon from '$lib/components/icons/filterListIcon.svelte';
-	import { notifications } from './notifications.js';
+	import { notifications } from '$lib/components/molecules/notifications.js';
 
 	import { createEventDispatcher } from 'svelte';
-	import DownIcon from '../icons/downIcon.svelte';
+	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let data: any;

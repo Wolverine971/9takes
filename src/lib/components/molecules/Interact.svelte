@@ -1,12 +1,11 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import BellIcon from '../icons/bellIcon.svelte';
-	import MasterCommentIcon from '../icons/masterCommentIcon.svelte';
-	import ShareIcon from '../icons/shareIcon.svelte';
-	import ThumbsUpIcon from '../icons/thumbsUpIcon.svelte';
-	import RightIcon from '../icons/rightIcon.svelte';
+	import BellIcon from '$lib/components/icons/bellIcon.svelte';
+	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
-	import { notifications } from './notifications.js';
+	import { notifications } from '$lib/components/molecules/notifications.js';
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';

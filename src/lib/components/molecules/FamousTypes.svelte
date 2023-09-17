@@ -1,6 +1,6 @@
 <script lang="ts">
 	// import { onMount } from 'svelte';
-	// import PopCard from '../atoms/PopCard.svelte';
+	// import PopCard from '$lib/components/atoms/PopCard.svelte';
 
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 

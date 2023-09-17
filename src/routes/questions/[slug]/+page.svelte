@@ -82,14 +82,6 @@
 	</div>
 </article>
 
-<!--
-  Renders if has answered and signed in
-          OR not answered and not signed in
--->
-<!-- {data.flags.userSignedIn} || {!(!data.flags.userSignedIn && data.flags.userHasAnswered)} -->
-<!-- {#if data.flags.userSignedIn || !(!data.flags.userSignedIn && data.flags.userHasAnswered)}
-		<Interact {data} parentType={'question'} />
-	{/if} -->
 {#if dataForChild}
 	<QuestionContent data={dataForChild} user={data?.session?.user} />
 {/if}

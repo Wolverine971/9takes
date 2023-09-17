@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import PopCard from '../atoms/PopCard.svelte';
+	import PopCard from '$lib/components/atoms/PopCard.svelte';
 	import { fade, fly } from 'svelte/transition';
 
 	export let peopleList: string[];

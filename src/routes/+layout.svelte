@@ -24,8 +24,8 @@
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Analytics from '$lib/analytics.svelte';
 	import { page } from '$app/stores';
-	import Footer from '../lib/components/molecules/Footer.svelte';
-	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
+	import Footer from '$lib/components/molecules/Footer.svelte';
+	// import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
 	export let data: PageData;
 	let innerWidth = 0;

@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
-	import Envelope from '../icons/envelope.svelte';
+	import Envelope from '$lib/components/icons/envelope.svelte';
 
 	export let cta: string = '';
 	let email: string = '';
