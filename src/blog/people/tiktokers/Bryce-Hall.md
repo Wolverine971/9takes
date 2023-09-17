@@ -82,11 +82,7 @@ article {
     color: var(--color-theme-purple);
   }
 
-  /*.panel:hover {
-
-    background-color: #ccc;
-
-}*/
+  
 
   .panel {
     padding: 18px;

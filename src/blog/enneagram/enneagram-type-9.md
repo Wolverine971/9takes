@@ -264,13 +264,6 @@ Here are some tips for embracing your Enneagram Type 9 personality:
     overflow-x: scroll;
 }
 
-table {
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #212529;
-    border: var(--classic-border);
-
-}
 thead {
     display: table-header-group;
     vertical-align: middle;

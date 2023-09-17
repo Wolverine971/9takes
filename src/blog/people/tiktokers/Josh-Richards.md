@@ -86,11 +86,7 @@ article {
     color: white;
   }
 
-  /*.panel:hover {
-
-    background-color: #ccc;
-
-}*/
+  
 
   .panel {
     padding: 18px;
