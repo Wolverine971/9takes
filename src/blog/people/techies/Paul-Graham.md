@@ -106,12 +106,8 @@ article {
     color: var(--color-theme-purple);
   }
 
-  
-
   .panel {
-    padding: 18px;
-    /*display: none;*/
-    background-color: white;
+    padding: 18px;background-color: var(--color-bg-0, white);
     overflow: hidden;
 
   }

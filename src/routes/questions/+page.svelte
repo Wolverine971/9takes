@@ -79,30 +79,9 @@
 					</div>
 				</div>
 			{/if}
-			<!-- <QuestionItem questionData={qtag.questions} /> -->
 		{/each}
 	{/if}
-
-	<!-- {#each questions as questionData}
-		<QuestionItem {questionData} />
-	{/each}
-	{#if data?.count && data?.count > questions.length}
-		<button class="btn btn-primary" on:click={() => loadQuestions()} aria-label="Load More">
-			Load More
-		</button>
-	{/if} -->
-
-	<!-- {#if qtag.question_tag.parent_id}
-			{findParent(qtag)} /
-			{data.categories.find((c) => c.id === qtag.question_tag.subcategory_id).subcategory_name} /
-			{/if}
-
-			{qtag.question_tag.tag_name} -->
 </div>
 
 <style lang="scss">
-	h1 {
-		// padding: var(--card-padding);
-		// margin: var(--card-margin);
-	}
 </style>

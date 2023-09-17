@@ -717,11 +717,9 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
     border-radius: 5px;
   }
   .accordion {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
-    border: none;
+    padding: 18px;border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
@@ -735,8 +733,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
 
   .panel {
     padding: 18px;
-    /*display: none;*/
-    background-color: white;
+    background-color: var(--color-bg-0, white);
     overflow: hidden;
 
   }

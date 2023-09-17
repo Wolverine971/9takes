@@ -284,15 +284,10 @@
 	.people-grid-container {
 		width: 100%;
 		display: grid;
-		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
 		grid-template-columns: 1fr 1fr 1fr;
 		column-count: 3;
 		column-gap: 1.25rem;
 		grid-gap: 0.5rem;
-		/* padding: 20px; */
-		/* column-count: 3;
-		column-gap: 0.5rem;
-		orphans: 1; */
 	}
 
 	.people-grid-container .grid-item {

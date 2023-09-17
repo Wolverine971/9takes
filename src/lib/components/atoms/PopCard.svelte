@@ -128,6 +128,9 @@
 	class="pop-card"
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
+	aria-roledescription="card"
+	role="button"
+	tabindex="0"
 	on:mouseover={() => {
 		scribbleScrabble();
 		if (!enneagramType) {
@@ -150,7 +153,10 @@
 		in:fly={{ y: 200, duration: 2000 }}
 	/> -->
 	<img
-		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint && showDescription && 'tint'}"
+		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
+			showDescription &&
+			enneagramType &&
+			'tint'}"
 		style={showDescription ? 'filter: invert !important;' : ''}
 		src={image}
 		alt={altText || displayText}
@@ -383,7 +389,7 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-icon {
-		color: white;
+		color: var(--color-bg-0, white);
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
@@ -404,7 +410,7 @@
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
 		font-family: 'Source Code Pro', monospace;
-		color: white;
+		color: var(--color-bg-0, white);
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -442,7 +448,7 @@
 	}
 
 	#blob {
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 		height: 34vmax;
 		aspect-ratio: 1;
 		position: absolute;

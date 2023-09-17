@@ -129,7 +129,7 @@
 	.go-arrow {
 		margin-top: -4px;
 		margin-right: -4px;
-		color: white;
+		color: var(--color-bg-0, white);
 		font-family: courier, sans;
 	}
 	.grid-item {
@@ -158,7 +158,7 @@
 		// overflow: hidden;
 		// border: 1px solid var(--color-theme-purple-v);
 		&:after {
-			background-color: white;
+			background-color: var(--color-bg-0, white);
 		}
 
 		&:before {
@@ -240,7 +240,7 @@
 		z-index: 2;
 		padding: 1rem;
 		width: 100%;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 
 	.people-grid-container {

@@ -351,13 +351,12 @@ article {
   }
 
   /*.panel:hover {
-    background-color: #ccc;
+    background-color: var(--color-paladin-2, #ccc);
 }*/
 
   .panel {
     padding: 18px;
-    /*display: none;*/
-    background-color: white;
+    background-color: var(--color-bg-0, white);
     overflow: hidden;
   }
   @import '../../scss/index.scss';

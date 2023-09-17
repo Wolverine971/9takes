@@ -264,7 +264,7 @@
 		border: none;
 		font-size: calc(0.08 * var(--width));
 		border-radius: 2px;
-		background: white;
+		background: var(--color-bg-0, white);
 		margin: 0;
 		color: rgba(0, 0, 0, 0.7);
 	}
@@ -276,7 +276,7 @@
 
 	.letter.exact {
 		background: var(--color-theme-pink);
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 
 	.letter.close {
@@ -312,7 +312,7 @@
 	.keyboard button,
 	.keyboard button:disabled {
 		--size: min(8vw, 4vh, 40px);
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 		color: black;
 		width: var(--size);
 		border: none;
@@ -323,7 +323,7 @@
 
 	.keyboard button.exact {
 		background: var(--color-theme-pink);
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 
 	.keyboard button.missing {
@@ -336,7 +336,7 @@
 
 	.keyboard button:focus {
 		background: var(--color-theme-dark-blue);
-		color: white;
+		color: var(--color-bg-0, white);
 		outline: none;
 	}
 
@@ -374,7 +374,7 @@
 	.restart:focus,
 	.restart:hover {
 		background: var(--color-theme-dark-blue);
-		color: white;
+		color: var(--color-bg-0, white);
 		outline: none;
 	}
 

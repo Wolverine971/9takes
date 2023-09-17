@@ -196,27 +196,27 @@ url({`/types/${type}s/${person}.webp`}) -->
 	}
 	.cube-face-front .cell {
 		background-color: blue;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 	.cube-face-back .cell {
 		background-color: yellow;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 	.cube-face-left .cell {
 		background-color: green;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 	.cube-face-right .cell {
 		background-color: red;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 	.cube-face-top .cell {
 		background-color: orange;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 	.cube-face-bottom .cell {
 		background-color: grey;
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 
 	.cube-face-front {

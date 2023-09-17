@@ -32,7 +32,6 @@
 		margin: 2rem;
 	}
 	a::after {
-		// background: white;
 		margin: 0 0.2rem;
 	}
 	.marquee-horizontal {

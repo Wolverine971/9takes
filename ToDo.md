@@ -54,3 +54,9 @@ INSERT INTO profiles_demo (username, first_name, last_name, email, enneagram) VA
 ('user28', 'Zachary', 'Morris28', '<zacharymorris28@email.com>', '1'),
 ('user29', 'Amy', 'Nelson29', '<amynelson29@email.com>', '1'),
 ('user30', 'Brian', 'Cooper30', '<briancooper30@email.com>', '1');
+
+3 Sections
+
+Gamification
+Queue System
+Blogs that are actually interesting

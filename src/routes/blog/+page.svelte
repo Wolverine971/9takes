@@ -284,14 +284,14 @@
 		flex-basis: calc(50% - 20px);
 		margin-bottom: 20px;
 		padding: 10px;
-		background-color: #f2f2f2;
+		background-color: #d8e2eb;
 		border: var(--classic-border);
 		box-sizing: border-box;
 		border-radius: 0.25rem;
 	}
 	/* Footer styles */
 	footer {
-		background-color: #333;
+		background-color: var(--color-paladin-3, #333);
 		color: #fff;
 		padding: 20px;
 		text-align: center;

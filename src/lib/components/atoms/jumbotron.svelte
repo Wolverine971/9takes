@@ -157,7 +157,7 @@
 		z-index: 4;
 		left: 50%;
 		translate: -50% 0%;
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 	}
 
 	.jumbo-card:before {
@@ -293,7 +293,7 @@
 	}
 
 	.jumbo-card > .jumbo-card-content > .jumbo-card-icon {
-		color: white;
+		color: var(--color-bg-0, white);
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
@@ -331,7 +331,7 @@
 
 	.jumbo-card > .jumbo-card-content > .jumbo-card-user > :is(.jumbo-name, .link) {
 		font-family: 'Source Code Pro', monospace;
-		color: white;
+		color: var(--color-bg-0, white);
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -393,7 +393,7 @@
 	}
 
 	#blob {
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 		height: 34vmax;
 		aspect-ratio: 1;
 		position: absolute;

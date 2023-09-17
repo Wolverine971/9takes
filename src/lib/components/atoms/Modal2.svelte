@@ -98,7 +98,7 @@
 	#modal {
 		position: relative;
 		border-radius: 6px;
-		background: white;
+		background: var(--color-bg-0, white);
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;

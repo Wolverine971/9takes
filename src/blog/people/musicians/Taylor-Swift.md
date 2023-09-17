@@ -226,11 +226,8 @@ article {
     color: var(--color-theme-purple);
   }
 
-  
-
-  .panel {
+.panel {
     padding: 18px;
-    /*display: none;*/
     background-color: white;
     overflow: hidden;
 

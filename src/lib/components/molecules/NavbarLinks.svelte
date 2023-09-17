@@ -118,7 +118,7 @@
 		background: no-repeat;
 		border-radius: 5px;
 		border: var(--classic-border);
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 	}
 
 	.mobile-card {
@@ -135,7 +135,7 @@
 	}
 	.navbar-blogs {
 		overflow: hidden;
-		// background-color: #e8edf1;
+		// background-color: #d8e2eb;
 		border-radius: 5px;
 		display: flex;
 		justify-content: center;
@@ -179,7 +179,7 @@
 
 	.navbar-blogs a:hover,
 	.subnav:hover .subnavbtn {
-		background-color: #e8edf1;
+		background-color: #d8e2eb;
 		z-index: 1234;
 	}
 
@@ -188,7 +188,7 @@
 		position: absolute;
 		// top: 100px;
 		// left: 0;
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 		// width: 100%;
 		// display: flex;
 		flex-direction: column;
@@ -205,7 +205,7 @@
 	}
 
 	.subnav-content a:hover {
-		background-color: #eee;
+		background-color: var(--color-paladin-1);
 		color: var(--color-paladin-3);
 		z-index: 1234;
 	}
@@ -229,7 +229,7 @@
 		outline: none;
 		box-sizing: border-box;
 		color: var(--color-theme-purple);
-		// background: white;
+
 		// padding: 14px 16px;
 		// background-color: inherit;
 		// font-family: inherit;
@@ -246,7 +246,7 @@
 
 	.navbar-blogs a:hover,
 	.main-subnav:hover .main-subnavbtn {
-		// background-color: white;
+		// background-color: var(--color-bg-0, white);
 		z-index: 1234;
 	}
 
@@ -254,7 +254,7 @@
 		display: none;
 		position: absolute;
 		// left: 0;
-		background-color: white;
+		background-color: var(--color-bg-0, white);
 		// width: 100%;
 		// display: flex;
 		flex-direction: column;
@@ -269,7 +269,7 @@
 	}
 
 	.main-subnav-content a:hover {
-		background-color: #eee;
+		background-color: var(--color-paladin-1);
 		color: var(--color-paladin-3);
 		z-index: 1234;
 	}

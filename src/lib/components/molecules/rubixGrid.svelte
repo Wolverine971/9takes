@@ -214,7 +214,7 @@
 		img {
 			filter: none !important;
 		}
-		color: white;
+		color: var(--color-bg-0, white);
 	}
 
 	.pop-card-user {
@@ -231,9 +231,9 @@
 		font-weight: 200;
 		margin: 1rem;
 		font-family: 'Source Code Pro', monospace;
-		color: white;
+		color: var(--color-bg-0, white);
 		text-shadow: 1px 1px 1px black;
-		// color: white;
+		// color: var(--color-bg-0, white);
 		text-align: center;
 		text-transform: uppercase;
 		z-index: 1;
@@ -334,30 +334,6 @@
 		animation: fade 3s infinite;
 		-webkit-animation-timing-function: ease-in-out; /* Safari 4.0 - 8.0 */
 		animation-timing-function: ease-in-out;
-	}
-
-	#rubix {
-		position: relative;
-		display: block;
-		margin: auto;
-		padding: 10rem;
-		height: 40vh;
-		perspective: 150vmin;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-
-		// -webkit-animation: spin 1s infinite; /* Safari 4.0 - 8.0 */
-		// animation: spin 1s infinite;
-		-webkit-animation-timing-function: ease-in-out; /* Safari 4.0 - 8.0 */
-		animation-timing-function: ease-in-out;
-	}
-
-	.cube {
-		transition: transform 1s;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-		-webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
-		animation-timing-function: linear;
 	}
 
 	.face {

@@ -67,7 +67,6 @@
 		margin: 2rem;
 	}
 	a::after {
-		// background: white;
 		margin: 0 0.2rem;
 	}
 	.back-nav {
@@ -76,7 +75,6 @@
 		height: 2rem;
 		outline-offset: -1px;
 		object-fit: scale-down;
-		// border-top: 3px solid var(--color-theme-purple-v);
 		border-bottom: 3px solid var(--color-theme-purple-v);
 		outline: 2px solid #fdfdfb;
 		justify-content: flex-start;

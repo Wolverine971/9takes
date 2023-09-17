@@ -305,7 +305,6 @@
 			box-sizing: border-box;
 
 			.nav-text {
-				// color: var(--color-paladin-3); // #eee;
 				letter-spacing: 0.28px;
 				text-transform: uppercase;
 				font-weight: 700;
@@ -402,7 +401,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: white;
+			color: var(--color-bg-0, white);
 			z-index: 12433;
 			text-decoration: none !important;
 		}
@@ -419,7 +418,7 @@
 			background: no-repeat;
 			border-radius: 5px;
 			border: var(--classic-border);
-			background-color: white;
+			background-color: var(--color-bg-0, white);
 		}
 		.mobile-ham {
 			display: flex;
@@ -442,7 +441,7 @@
 			border-radius: 5px;
 		}
 		.mobile-navbar {
-			background: white;
+			background: var(--color-bg-0, white);
 			position: absolute;
 			z-index: 2314;
 		}

@@ -162,7 +162,7 @@
 	.slide-name {
 		text-align: center;
 		position: absolute;
-		color: white;
+		color: var(--color-bg-0, white);
 		font-size: xx-large;
 		font-size: xxx-large;
 		z-index: 1345;
@@ -173,7 +173,6 @@
 		margin: auto auto;
 	}
 
-	// #d8e2eb
 	body {
 		align-items: center;
 		// background: #e3e3e3;

@@ -123,8 +123,7 @@ article {
 
   .panel {
     padding: 18px;
-    /*display: none;*/
-    background-color: white;
+    background-color: var(--color-bg-0, white);
     overflow: hidden;
 
   }

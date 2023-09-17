@@ -138,9 +138,8 @@ article {
   }  .accordion:hover {
     background-color: var(--color-theme-purple-v);
     color: var(--color-theme-purple);
-  }  /*.panel:hover {    background-color: #ccc;}*/  .panel {
+  }  /*.panel:hover {    background-color: var(--color-paladin-2, #ccc);}*/  .panel {
     padding: 18px;
-    /*display: none;*/
-    background-color: white;
+    background-color: var(--color-bg-0, white);
     overflow: hidden;  }
 </style>

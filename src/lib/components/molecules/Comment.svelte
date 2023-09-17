@@ -335,10 +335,10 @@
 
 		background-color: var(--color-bg-0);
 		border-radius: 5px;
-		border: 1px solid var(--color-bg-2);
+		border: 1px solid var(--color-bg-1);
 
 		&:hover {
-			background-color: var(--color-bg-2);
+			background-color: var(--color-bg-1);
 		}
 	}
 	.comment-box {
@@ -438,7 +438,7 @@
 		justify-content: center;
 		align-items: center;
 		&:disabled {
-			background-color: white;
+			background-color: var(--color-bg-0, white);
 			color: grey;
 			border: 1px solid grey;
 			opacity: 1;
@@ -480,7 +480,7 @@
 	.interaction-div-display button:hover {
 		background-color: var(--color-bg-0);
 		border-radius: 5px;
-		border: 1px solid var(--color-bg-2);
+		border: 1px solid var(--color-bg-1);
 	}
 
 	.interact-text-container {
