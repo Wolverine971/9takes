@@ -236,13 +236,13 @@
 	</div>
 </section>
 <!-- </main> -->
-<section style="max-width: 64rem;">
-	{#if !data?.session?.user}
+{#if !data?.session?.user}
+	<section style="max-width: 64rem;">
 		<div class="join">
 			<EmailSignup cta={'Join Waitlist'} />
 		</div>
-	{/if}
-</section>
+	</section>
+{/if}
 
 <style lang="scss">
 	/* Basic styles */
