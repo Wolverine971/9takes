@@ -1,5 +1,5 @@
 ---
-title: ' Kardashian An Enneagram Type 6'
+title: 'Khloé Kardashian An Enneagram Type 6'
 description: 'Why Khloé Kardashian appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-07-25'

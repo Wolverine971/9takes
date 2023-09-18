@@ -334,7 +334,7 @@ interface QuestionObject {
 	.interaction-div-display button {
 		background-color: var(--color-paladin-1);
 		// float: left;
-		border: none;
+		border: 1px solid var(--color-paladin-1);
 		outline: none;
 		cursor: pointer;
 		transition: 0.3s;
@@ -348,7 +348,7 @@ interface QuestionObject {
 
 	/* Change background color of buttons on hover */
 	.interaction-div-display button:hover {
-		background-color: var(--color-paladin-1);
+		background-color: var(--color-paladin-2);
 		border-radius: 5px;
 		border: 1px solid var(--color-paladin-2);
 	}
@@ -371,12 +371,6 @@ interface QuestionObject {
 		/* max-width: 900px; */
 
 		position: relative;
-	}
-	.interact-expand {
-		z-index: 10;
-		position: absolute;
-		top: 5px;
-		left: calc(100% - 73px);
 	}
 
 	@media all and (max-width: 576px) {

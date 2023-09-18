@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Card from '$lib/components/atoms/card.svelte';
-	import Comments from '$lib/components/molecules//Comments.svelte';
+	import BlogComments from '$lib/components/blog/BlogComments.svelte';
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
@@ -10,11 +10,16 @@
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	const dispatch = createEventDispatcher();
 
-	export let user: any;
-	export let comment: any;
+	// export let user: any;
+	// export let comment: any;
 
-	export let data: any;
-	export let questionId: number;
+	// export let data: any;
+	// export let questionId: number;
+	export let comment: any;
+	export let parentType: string;
+	export let slug: string;
+	export let session: any;
+
 	let _commentComment: any = null;
 	if (comment?.id) {
 		_commentComment = Object.assign({}, comment);
@@ -65,36 +70,6 @@
 		_commentComment.comment_count += 1;
 	};
 
-	const likeComment = async () => {
-		if (!user) {
-			notifications.info('Must register or login to like comments', 3000);
-			return;
-		}
-		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
-		let body = new FormData();
-		body.append('parent_id', comment.id);
-		body.append('user_id', user.id);
-		body.append('es_id', comment.es_id);
-		body.append('operation', operation);
-
-		const resp = await fetch('?/likeComment', {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
-		const newLike = result?.data;
-		if (newLike) {
-			likes = [newLike, ...likes];
-		} else {
-			likes = likes.filter((c) => {
-				c.user_id !== user.id;
-			});
-		}
-	};
-
 	let newcomment: string = '';
 	let commenting: boolean = false;
 
@@ -129,9 +104,8 @@
 		body.append('author_id', user.id);
 		body.append('parent_type', 'comment');
 		body.append('es_id', comment.es_id);
-		body.append('question_id', questionId.toString());
 
-		const resp = await fetch('?/createComment', {
+		const resp = await fetch(`/${blogType}/createComment`, {
 			method: 'POST',
 			body
 		});
@@ -163,17 +137,25 @@
 	{/if}
 	<div class="user-comment">
 		<div
-			style="display: flex; {innerWidth > 500
-				? 'width: 95%;'
-				: 'flex-direction: column; width: 100%'}"
+			style={ innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}
 		>
+			<!-- {#if innerWidth > 500}
+				<a
+					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+					href={_commentComment?.profiles?.external_id
+						? `/users/${_commentComment.profiles.external_id}`
+						: ''}
+				>
+					{_commentComment?.profiles?.enneagram || 'Rando'}
+				</a>
+			{/if} -->
+
 			<p class="comment-box">
 				<a
 					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
 					href={_commentComment?.profiles?.external_id
 						? `/users/${_commentComment.profiles.external_id}`
-						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-				>: {_commentComment.comment}
+						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a>: {_commentComment.comment}
 			</p>
 			{#if innerWidth < 500}
 				<hr class="rounded" />
@@ -183,7 +165,7 @@
 							>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
 						</span>
 					</div>
-					<button
+					<!-- <button
 						title="Comment"
 						class=""
 						style="padding: 0.25rem; height: 45px;"
@@ -195,32 +177,13 @@
 							fill={'#5407d9'}
 							type={comment.length ? 'full' : 'empty'}
 						/>
-					</button>
-					<button
-						title="Like"
-						class=""
-						style="{'padding: 0.25rem; height: 45px;'} color: {likes &&
-							user?.id &&
-							likes.some((e) => e.user_id === user?.id) &&
-							'#5407d9'}"
-						on:click={likeComment}
-					>
-						{#if likes.length}
-							{likes.length}
-						{/if}
-						<ThumbsUpIcon
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
-								''}
-						/>
-					</button>
+					</button> -->
 				</div>
 			{/if}
 		</div>
 
 		{#if innerWidth > 500}
-			<div class="interaction-div-display ">
+			<!-- <div class="interaction-div-display ">
 				<button
 					title="Comment"
 					class=""
@@ -234,27 +197,16 @@
 						type={comment.length ? 'full' : 'empty'}
 					/>
 				</button>
-				<button
-					title="Like"
-					class=""
-					style="{'padding: 0.25rem;'} color: {likes &&
-						user?.id &&
-						likes.some((e) => e.user_id === user?.id) &&
-						'#5407d9'}"
-					on:click={likeComment}
-				>
-					{#if likes.length}
-						{likes.length}
-					{/if}
-					<ThumbsUpIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
-							''}
-					/>
-				</button>
-			</div>
+			</div> -->
 		{/if}
+		<!-- <Interact
+			{questionId}
+			data={_commentData}
+			parentType={'comment'}
+			stack={true}
+			{user}
+			on:commentAdded={({ detail }) => addComment(detail)}
+		/> -->
 	</div>
 	{#if commenting}
 		<div class="interact-text-container">
@@ -268,6 +220,7 @@
 		>
 			Send it
 			{#if newcomment?.length > 1}
+				<!-- <ArrowRight /> -->
 				<RightIcon
 					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
 					height={'1.5rem'}
@@ -277,9 +230,11 @@
 		</button>
 	{/if}
 
+	<!-- <p>ParentId: {comment?.parent_id}</p> -->
+
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<Comments {questionId} data={_commentComment} nested={true} parentType={'comment'} {user} />
+			<BlogComments {slug} comments={comment.comments} {session} blogType={'comment'} />
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
@@ -311,23 +266,27 @@
 		text-align: center;
 		cursor: pointer;
 
-		background-color: var(--color-paladin-1);
+		background-color: var(--color-paladin-2);
 		border-radius: 5px;
-		border: 1px solid var(--color-paladin-2);
+		border: 1px solid var(--color-paladin-4);
 
 		&:hover {
-			background-color: var(--color-paladin-2);
+			background-color: var(--color-paladin-4);
 		}
 	}
 	.comment-box {
 		width: -webkit-fill-available;
+		// background-color: var(--color-paladin-2);
+		// border: 1px solid var(--color-theme-purple-v);
 		border-radius: 5px;
+		// margin-bottom: 0;
 		margin: 0.25rem;
 		padding: 0.5rem;
 	}
 
 	.user-comment {
 		display: flex;
+		// gap: 0.5rem;
 		position: relative;
 	}
 	.user-comment button {
@@ -345,18 +304,30 @@
 		justify-content: flex-end;
 		margin: -0.5rem auto;
 		gap: 1rem;
-		margin-right: 4rem;
+		margin-right: 1rem;
 	}
 	.profile-avatar {
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+
 		min-width: 30px;
 		padding: 0.2rem;
+
 		align-self: center;
+		// display: flex;
+		// justify-content: center;
 		align-items: center;
-		border: 1px solid var(--color-paladin-3-v);
+		// background: red;
+		border: 1px solid var(--color-p-origin-v);
+		// width: 3rem;
+		// height: 3rem;
 		font-weight: bolder;
 		min-width: 3rem;
 		text-align: center;
 		aspect-ratio: 1/1;
+		// -webkit-border-radius: 50%;
+		// -moz-border-radius: 50%;
 		border-radius: 5px;
 		transition: all 0.5s;
 		-moz-transition: all 0.5s; /* Firefox 4 */
@@ -366,14 +337,18 @@
 		word-break: keep-all;
 
 		&:hover {
-			border: 1px solid var(--color-paladin-3);
+			border: 1px solid var(--color-p-origin);
 		}
 	}
 	.top-right-corner {
+		// position: absolute;
+		// top: 0;
+		// right: 0;
 		display: flex;
 		align-items: center;
 		margin: 0.25rem;
 		margin-left: auto;
+		// gap: 0.25rem;
 	}
 	.corner-btn {
 		background: transparent;
@@ -387,7 +362,7 @@
 		padding: 0.25rem;
 
 		&:hover {
-			background: var(--color-paladin-1);
+			background: var(--color-paladin-2);
 		}
 	}
 	.sub-comment {
@@ -396,7 +371,7 @@
 		justify-content: center;
 		align-items: center;
 		&:disabled {
-			background-color: var(--color-paladin-1, white);
+			background-color: white;
 			color: grey;
 			border: 1px solid grey;
 			opacity: 1;
@@ -419,8 +394,9 @@
 	}
 
 	.interaction-div-display button {
-		background-color: var(--color-paladin-1);
-		border: 1px solid var(--color-paladin-1);
+		background-color: var(--color-paladin-2);
+		// float: left;
+		border: none;
 		outline: none;
 		cursor: pointer;
 		transition: 0.3s;
@@ -437,7 +413,7 @@
 	.interaction-div-display button:hover {
 		background-color: var(--color-paladin-2);
 		border-radius: 5px;
-		border: 1px solid var(--color-paladin-2);
+		border: 1px solid var(--color-paladin-4);
 	}
 
 	.interact-text-container {
@@ -450,6 +426,8 @@
 		box-sizing: border-box;
 		padding: 1rem;
 		width: 100%;
+		/* max-width: 900px; */
+
 		position: relative;
 	}
 

@@ -1,20 +1,25 @@
-import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
+import type { PageServerLoad } from './$types';
 
-const MAX_POSTS = 6;
-
-export const load: PageLoad = async ({
-	params
-}): Promise<{
+export const load: PageServerLoad = async (
+	event: any
+): Promise<{
 	component: any;
+	comments: any[];
 	metadata: App.BlogPost;
 	slug: string;
 	suggestions: {
 		niche: { type: string; posts: App.BlogPost[] };
 		sameEnneagram: { type: string; posts: App.BlogPost[] };
 	};
+	flags: {
+		userHasAnswered: boolean;
+		userSignedIn: boolean;
+	};
 }> => {
+	const params = event.params;
+
 	const pposts: { post: any; posts: any[] } = await getAllPosts(params.slug);
 	let group: any = null;
 	switch (pposts.post.type[0]) {
@@ -64,7 +69,6 @@ export const load: PageLoad = async ({
 	const post = await match?.resolver?.();
 
 	if (!post || !post.metadata.published) {
-		// throw error(404); // Couldn't resolve the post
 		throw error(404, {
 			message: `Couldn't find the blog`
 		});
@@ -76,28 +80,18 @@ export const load: PageLoad = async ({
 			(p) =>
 				post?.metadata.enneagram && p?.enneagram === parseInt(post?.metadata.enneagram as string)
 		)
-
 		.filter((p) => params.slug !== p.slug)
 		.sort(() => 0.5 - Math.random());
-	// most recent
-	// .sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
-
-	// limit
-	// .slice(0, MAX_POSTS);
 
 	const sameNichePosts = pposts.posts
 		.filter((p) => p.published)
 		.filter((p) => post?.metadata.type?.length && p?.type?.includes(post?.metadata.type[0]))
 		.filter((p) => params.slug !== p.slug)
 		.sort(() => 0.5 - Math.random());
-	// most recent
-	// .sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
-
-	// limit
-	// .slice(0, MAX_POSTS);
 
 	return {
 		component: post.default,
+		comments: event.data.comments,
 		metadata: post.metadata as App.BlogPost,
 		slug: params.slug,
 		suggestions: {
@@ -106,7 +100,8 @@ export const load: PageLoad = async ({
 				posts: sameEnneagramPosts,
 				type: post.metadata.enneagram ? post.metadata.enneagram.toString() : ''
 			}
-		}
+		},
+		flags: event.data.flags
 	};
 };
 

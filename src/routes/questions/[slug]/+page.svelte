@@ -95,7 +95,7 @@
 		// height: 24px;
 		padding: 0.5rem 1rem;
 		color: hsl(222, 15%, 19%);
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		// box-sizing: content-box;
 
 		margin: 0.25rem;

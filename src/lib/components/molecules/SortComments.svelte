@@ -6,6 +6,7 @@
 
 	import { createEventDispatcher } from 'svelte';
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
+	import UpIcon from '$lib/components/icons/upIcon.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let data: any;
@@ -54,12 +55,25 @@
 			fill={open ? '#5407d9' : ''}
 		/>
 
-		Filter Comments <DownIcon
+		Filter Comments 
+		{#if !open}
+		<DownIcon
 			className="hover-change"
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
 			fill={open ? '#5407d9' : ''}
 		/>
+		{/if}
+		{#if open}
+		<UpIcon
+			className="hover-change"
+			iconStyle={'padding: 0.25rem; margin: .5rem'}
+			height={'1.5rem'}
+			fill={open ? '#5407d9' : ''}
+		/>
+		{/if}
+
+		
 	</summary>
 	<MultiSelect bind:selected options={typeOptions} />
 	<br />

@@ -24,7 +24,6 @@
 	--grey-200-hex: 213, 215, 219;
 	--grey-100-hex: 232, 234, 237;
 
-	--color-p-light: #f0frgb(1, 1, 1)
 	--color-p-light-rgb: rgb(207, 198, 255);
 
 	--color-paladin-1: #f0f5f9;
@@ -224,19 +223,6 @@ button:hover {
 	cursor: pointer;
 } */
 
-/* .interact-expand {
-		z-index: 10;
-		border-radius: 1px 5px;
-		position: absolute;
-		top: 5px;
-		left: calc(100% - 75px);
-		border: double var(--color-paladin-3);
-	}
-	.interact-expand:hover {
-		background-color: grey;
-		cursor: pointer;
-	} */
-
 body::-webkit-scrollbar {
 	width: 0.5rem;
 }
@@ -273,8 +259,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 details {
-	border-top: 3px solid var(--color-theme-purple-v);
-	border-left: 3px solid var(--color-theme-purple-v);
+	border-top: 2px solid var(--color-theme-purple-v);
+	border-left: 2px solid var(--color-theme-purple-v);
+	border-right: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+}
+details:hover {
+	border: 2px solid var(--color-theme-purple-v);
 }
 
 figcaption {
