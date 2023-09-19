@@ -20,6 +20,8 @@
 	export let slug: string;
 	export let session: any;
 
+	export let userHasAnswered: any;
+
 	let _commentComment: any = null;
 	if (comment?.id) {
 		_commentComment = Object.assign({}, comment);
@@ -98,7 +100,6 @@
 		}
 
 		let body = new FormData();
-		console.log('send comment');
 		body.append('comment', newcomment);
 		body.append('parent_id', comment.id);
 		body.append('author_id', user.id);
@@ -136,9 +137,7 @@
 		</div>
 	{/if}
 	<div class="user-comment">
-		<div
-			style={ innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}
-		>
+		<div style={innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}>
 			<!-- {#if innerWidth > 500}
 				<a
 					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
@@ -155,7 +154,8 @@
 					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
 					href={_commentComment?.profiles?.external_id
 						? `/users/${_commentComment.profiles.external_id}`
-						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a>: {_commentComment.comment}
+						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+				>: {_commentComment.comment}
 			</p>
 			{#if innerWidth < 500}
 				<hr class="rounded" />
@@ -234,7 +234,13 @@
 
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<BlogComments {slug} comments={comment.comments} {session} blogType={'comment'} />
+			<BlogComments
+				{slug}
+				comments={comment.comments}
+				{session}
+				parentType={'comment'}
+				{userHasAnswered}
+			/>
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}

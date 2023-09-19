@@ -18,8 +18,6 @@
 	$: comments, matchData();
 
 	const matchData = () => {
-		console.log(session)
-		// console.log('comments', data);
 		_comments = comments?.length ? [...comments] : [];
 		comment_count = comments.length;
 	};
@@ -50,13 +48,14 @@
 					{parentType}
 					{slug}
 					{session}
+					{userHasAnswered}
 					on:commentAdded={({ detail }) => refreshComments(detail)}
 				/>
 			{/each}
 		</div>
-		{#if comments?.length < comment_count}
+		<!-- {#if comments?.length < comment_count}
 			<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
-		{/if}
+		{/if} -->
 	{:else}
 		<p>nothing right now</p>
 	{/if}
@@ -68,13 +67,14 @@
 				{parentType}
 				{slug}
 				{session}
+				{userHasAnswered}
 				on:commentAdded={({ detail }) => refreshComments(detail)}
 			/>
 		{/each}
 	</div>
-	{#if comments?.length < comment_count}
+	<!-- {#if comments?.length < comment_count}
 		<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
-	{/if}
+	{/if} -->
 {/if}
 
 <style lang="scss">

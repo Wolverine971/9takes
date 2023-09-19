@@ -210,7 +210,6 @@ export const actions: Actions = {
 			if (!moreQuestionsError) {
 				return moreQuestions;
 			} else {
-				console.log(moreQuestionsError);
 				throw error(500, {
 					message: 'Error finding comments'
 				});

@@ -16,7 +16,6 @@
 		/* -- Text effect -- */
 	});
 	const scribbleScrabble = () => {
-		console.log('scribble');
 		let name = document.querySelector('.scribble');
 		let iteration = 0;
 

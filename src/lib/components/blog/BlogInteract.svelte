@@ -80,7 +80,6 @@
 	};
 
 	const share = () => {
-		console.log('share');
 		if (navigator?.share) {
 			const shareData = {
 				url: data.metadata.loc,
@@ -99,14 +98,18 @@
 <svelte:window bind:innerWidth />
 
 <div class="interact-text-container">
-	<textarea placeholder="What are your thoughts on {data.slug.split('-').join(' ')}?" class="interact-textbox" bind:value={comment} />
+	<textarea
+		placeholder="What are your thoughts on {data.slug.split('-').join(' ')}?"
+		class="interact-textbox"
+		bind:value={comment}
+	/>
 </div>
 
 <div class="interaction-div-display">
 	<button
 		class="btn btn-primary sub-comment"
 		type="button"
-        style={comment?.length > 1 ? 'color: #5407d9; border: 1px solid #5407d9;' : ''}
+		style={comment?.length > 1 ? 'color: #5407d9; border: 1px solid #5407d9;' : ''}
 		title="You only YOLO once"
 		on:click={createComment}
 		disabled={comment?.length < 1}
@@ -120,8 +123,13 @@
 			/>
 		{/if}
 	</button>
-	<button title="Share" type="button" class="btn btn-primary sub-comment share-btn" on:click={() => share()}>
-        Share Blog
+	<button
+		title="Share"
+		type="button"
+		class="btn btn-primary sub-comment share-btn"
+		on:click={() => share()}
+	>
+		Share Blog
 		<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
 	</button>
 </div>
@@ -130,23 +138,22 @@
 	.sub-comment {
 		text-align: center;
 		display: flex;
-        // border: 1px solid #5407d9;
+		// border: 1px solid #5407d9;
 		justify-content: center;
 		align-items: center;
 		&:disabled {
-			background-color: white ;
+			background-color: white;
 
-            color: var(--color-paladin-5) !important;
-            border: 1px solid var(--color-paladin-5) !important;
+			color: var(--color-paladin-5) !important;
+			border: 1px solid var(--color-paladin-5) !important;
 			opacity: 1;
 			cursor: auto;
 		}
 	}
-    .share-btn:hover {
-        color: #5407d9; 
-        border: 1px solid #5407d9;
-
-    }
+	.share-btn:hover {
+		color: #5407d9;
+		border: 1px solid #5407d9;
+	}
 	textarea {
 		width: 100%;
 		border: 2px solid #5407d9;
@@ -167,15 +174,15 @@
 		background-color: var(--color-paladin-2);
 		border-radius: 5px;
 
-        // color: var(--color-paladin-5);
+		// color: var(--color-paladin-5);
 		// border: 1px solid var(--color-paladin-5);
 
-        color: #5407d9; 
-        border: 1px solid #5407d9;
+		color: #5407d9;
+		border: 1px solid #5407d9;
 	}
 
 	.interact-text-container {
-        margin-top: 2rem;
+		margin-top: 2rem;
 		position: relative;
 		width: 100%;
 		height: 100px;

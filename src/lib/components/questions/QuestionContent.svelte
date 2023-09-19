@@ -148,7 +148,6 @@
 	};
 
 	const saveClick = async (link: any) => {
-		console.log(link);
 		let body = new FormData();
 		body.append('linkId', link.id);
 

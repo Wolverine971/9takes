@@ -33,7 +33,6 @@
 	};
 
 	const autoGrow = (element: HTMLElement | null) => {
-		console.log('adjust');
 		if (element) {
 			element.style.height = '1rem';
 			element.style.height = element.scrollHeight + 'px';

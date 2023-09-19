@@ -57,7 +57,6 @@
 
 		let body = new FormData();
 		if (parentType === 'comment') {
-			console.log('send comment');
 			body.append('comment', comment);
 			body.append('parent_id', data.id);
 			body.append('author_id', user.id);

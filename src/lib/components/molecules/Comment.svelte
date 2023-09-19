@@ -123,7 +123,6 @@
 		}
 
 		let body = new FormData();
-		console.log('send comment');
 		body.append('comment', newcomment);
 		body.append('parent_id', comment.id);
 		body.append('author_id', user.id);

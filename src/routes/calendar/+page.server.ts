@@ -87,8 +87,6 @@ export const actions: Actions = {
 				calendarId: 'primary',
 				requestBody: event
 			});
-
-			console.log('Event created successfully: ', createdEvent.data.htmlLink);
 		} catch (e) {
 			throw error(404, {
 				message: `Failed to insert email, ${JSON.stringify(e)}`
@@ -166,8 +164,6 @@ const createEvent = async (
 			calendarId: 'primary',
 			requestBody: event
 		});
-
-		console.log('Event created successfully: ', createdEvent.data.htmlLink);
 	} catch (e) {
 		throw error(404, {
 			message: `Failed to insert email, ${JSON.stringify(e)}`

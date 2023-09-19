@@ -18,7 +18,6 @@
 	$: data, matchData();
 
 	const matchData = () => {
-		// console.log('comments', data);
 		_data = Object.assign({}, data);
 		comments = _data?.comments?.length ? [..._data?.comments] : [];
 		comment_count = _data?.comment_count;
@@ -31,7 +30,6 @@
 
 	const loadMore = async () => {
 		loading = true;
-		console.log('load comments');
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : _data.id
@@ -51,7 +49,6 @@
 			return;
 		}
 		loading = true;
-		console.log('load comments');
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : _data.id

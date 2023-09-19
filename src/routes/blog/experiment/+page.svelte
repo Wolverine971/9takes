@@ -1344,7 +1344,7 @@
 		formattedListOfEmotions = finalEmotionList;
 
 		// console.log(sortedEmotions);
-		console.log(newEmotionsMap);
+		// console.log(newEmotionsMap);
 	};
 
 	const submit = async () => {

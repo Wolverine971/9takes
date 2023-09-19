@@ -15,14 +15,13 @@
 	$: component = data.component as unknown as C;
 	import { invalidate } from '$app/navigation';
 
-
-	let comments = data.comments
-	let userHasAnswered =  data.flags.userHasAnswered
+	let comments = data.comments;
+	let userHasAnswered = data.flags.userHasAnswered;
 
 	const commentAdded = (detail: any) => {
 		console.log(detail);
-		comments = [...detail, ...comments]
-		userHasAnswered = true
+		comments = [...detail, ...comments];
+		userHasAnswered = true;
 	};
 </script>
 
@@ -49,7 +48,6 @@
 		parentType={'famous-enneagram-types'}
 		on:commentAdded={({ detail }) => commentAdded(detail)}
 		user={data?.session?.user}
-		
 	/>
 </div>
 

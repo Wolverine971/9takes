@@ -90,6 +90,7 @@
 				{#if data?.session?.user}
 					<div class="corner">
 						<button
+							title="go to account"
 							type="button"
 							on:click={() => {
 								goto('/account');

@@ -7,7 +7,6 @@
 	$: selectedEnneagram;
 
 	const selected = async (numb: number) => {
-		console.log(numb);
 		dispatch('enneagramSelected', numb);
 		let checkbox: any | null = document.getElementById('menu-open');
 		if (checkbox) {

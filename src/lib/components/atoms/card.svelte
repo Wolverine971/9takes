@@ -16,8 +16,8 @@
 		background: var(--card-background-color);
 		box-shadow: var(--card-box-shadow);
 	}
-	section:hover {
-		border: 1px solid var(--color-paladin-2);
-		// cursor: pointer;
-	}
+	// section:hover {
+	// 	border: 1px solid var(--color-paladin-2);
+	// 	// cursor: pointer;
+	// }
 </style>
