@@ -178,13 +178,19 @@
 
 {#if commenting}
 	<div class="interact-text-container">
-		<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={comment} />
+		<textarea
+			placeholder="Speak your mind"
+			class="interact-textbox"
+			bind:value={comment}
+			id="comment-box"
+		/>
 	</div>
 	<button
 		class="btn btn-primary sub-comment"
 		type="button"
 		on:click={createComment}
 		disabled={comment?.length < 1}
+		id="comment-button"
 	>
 		Send it
 		{#if comment?.length > 1}
