@@ -285,7 +285,7 @@ export const actions: Actions = {
 					: {
 							comment: comment,
 							parent_id: parentId,
-							author_id: author_id.toString(),
+							author_id: null,
 							comment_count: 0,
 							ip,
 							parent_type: parent_type,
