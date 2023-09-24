@@ -5,6 +5,7 @@ import { URL } from 'url';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
+import { decode } from 'base64-arraybuffer';
 
 import { PRIVATE_DEMO } from '$env/static/private';
 
@@ -467,6 +468,40 @@ export const actions: Actions = {
 				message: `error creating comment ${JSON.stringify(e)}`
 			});
 		}
+	},
+	updateQuestionImg: async (event) => {
+		const { request } = event;
+		const body = Object.fromEntries(await request.formData());
+
+		const img_url = body.img_url as string;
+		const url = body.url as string;
+
+		const base64 = img_url.split('base64,')[1];
+
+		const buffer = decode(base64);
+		const imgPath = `public/${url}.png`;
+		const { data: imgUploadData, error: uploadError } = await supabase.storage
+			.from('questions')
+			.upload(
+				imgPath,
+				buffer,
+				{ upsert: true, contentType: 'image/png' }
+				// { upsert: true, contentType: 'image/png'}
+			);
+
+		if (uploadError) {
+			throw error(400, 'question not updated');
+		}
+		if (imgUploadData) {
+			const { data, error: uploadError } = await supabase
+				.from('questions')
+				.update({ img_url: imgPath })
+				.eq('url', url);
+		}
+
+		// // get image here https://www.youtube.com/watch?v=HvOvdD2nX1k
+
+		return true;
 	}
 };
 

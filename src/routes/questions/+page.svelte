@@ -6,6 +6,9 @@
 	import type { PageData } from './$types';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { deserialize } from '$app/forms';
+	import { notifications } from '$lib/components/molecules/notifications';
+	import { goto } from '$app/navigation';
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
 	// interface QuestionsData extends PageData {
 	// 	questions: any[];
@@ -29,23 +32,17 @@
 
 		return acc;
 	}, {});
-	const loadQuestions = async () => {
-		let body = new FormData();
-		body.append('count', count.toString());
 
-		const resp = await fetch('/questions?/getMoreQuestions', {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		if (result.error) {
-			console.log(result.error);
-		} else if (result.data) {
-			// questions = [...questions, ...result.data];
-			count = count + 10;
+	const goToCreateQuestionPage = () => {
+		// cannot create question if you are not logged in
+		if (!data?.session?.user?.id) {
+			notifications.warning('Must be logged in to ask a question', 3000);
+			goto(`/register`, { invalidateAll: true });
 		}
+
+		setTimeout(() => {
+			goto(`/questions/create/`, { invalidateAll: true });
+		}, 0);
 	};
 	// const findParent = (qTag) => {
 	// 	const subcategory = data.categories.find((c) => c.id === qTag.question_tag.subcategory_id);
@@ -61,7 +58,25 @@
 </svelte:head>
 
 <div>
-	<h1>Asked questions</h1>
+	<h1 style="display: flex; justify-content: space-between; align-content: center">
+		<span>{data?.session?.user?.id ? 'Search and ask questions' : 'Search Questions'} </span>
+		{#if !data?.session?.user?.id}
+		<button
+			class="btn btn-primary"
+			style="display: flex; 
+			justify-content: space-between; 
+			align-items: center"
+			type="button"
+			on:click={() => {
+				goToCreateQuestionPage();
+			}}
+			title={data?.session?.user?.id ? 'Create a question' : 'Register to ask a question'}
+		>
+			{data?.session?.user?.id ? 'Create question' : 'Register to ask a question'}
+			<RightIcon iconStyle={'margin-left: .5rem;'} height={'1rem'} fill={'#5407d9'} />
+		</button>
+		{/if}
+	</h1>
 
 	<SearchQuestion {data} />
 	<!-- <p>Count {data.count}</p> -->

@@ -29,9 +29,9 @@
 	};
 </script>
 
-{#if comment_count > 0 && comments?.length === 0 && userHasAnswered}
+<!-- {#if comment_count > 0 && comments?.length === 0 && userHasAnswered}
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
-{/if}
+{/if} -->
 
 {#if comment_count > 0 && !userHasAnswered}
 	<p>Must answer question first</p>

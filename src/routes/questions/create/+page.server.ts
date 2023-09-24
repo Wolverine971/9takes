@@ -1,10 +1,13 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
+import {  PRIVATE_DEMO } from '$env/static/private';
 import { redirect } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
+	const session = await getServerSession(event);
+	if (!session?.user.id) throw redirect(303, '/login');
+
 	return {
 		session: await getServerSession(event)
 	};

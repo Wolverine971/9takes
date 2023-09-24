@@ -24,6 +24,7 @@ specifiers:
   '@vercel/analytics': ^0.1.11
   autoprefixer: ^10.4.2
   axios: ^1.2.2
+  base64-arraybuffer: ^1.0.2
   dotenv: ^16.0.3
   dropcss: ^1.0.16
   eslint: ^8.28.0
@@ -31,6 +32,7 @@ specifiers:
   eslint-plugin-svelte3: ^4.0.0
   googleapis: ^114.0.0
   gsap: ^3.12.1
+  html-to-image: ^1.11.11
   mdsvex: ^0.10.6
   mermaid: 10.0.0-rc.3
   natural: ^6.2.0
@@ -71,10 +73,12 @@ dependencies:
   '@types/node-schedule': 2.1.0
   '@vavite/node-loader': 1.7.0_vite@4.3.5
   '@vercel/analytics': 0.1.11
+  base64-arraybuffer: 1.0.2
   dotenv: 16.0.3
   dropcss: 1.0.16
   googleapis: 114.0.0
   gsap: 3.12.1
+  html-to-image: 1.11.11
   mermaid: 10.0.0-rc.3
   natural: 6.2.0
   node-schedule: 2.1.1
@@ -1404,6 +1408,11 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  /base64-arraybuffer/1.0.2:
+    resolution: {integrity: sha512-I3yl4r9QB5ZRY3XuJVEPfc2XhZO6YweFPI+UovAzn+8/hb3oJ6lnysaFcjVpkCPfVWFUDvoZ8kmVDP7WyRtYtQ==}
+    engines: {node: '>= 0.6.0'}
+    dev: false
 
   /base64-js/1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -2928,6 +2937,10 @@ packages:
   /hpagent/1.2.0:
     resolution: {integrity: sha512-A91dYTeIB6NoXG+PxTQpCCDDnfHsW9kc06Lvpu1TEe9gnd6ZFeiBoRO9JvzEv6xK7EX97/dUE8g/vBMTqTS3CA==}
     engines: {node: '>=14'}
+    dev: false
+
+  /html-to-image/1.11.11:
+    resolution: {integrity: sha512-9gux8QhvjRO/erSnDPv28noDZcPZmYE7e1vFsBLKLlRlKDSqNJYebj6Qz1TGd5lsRV+X+xYyjCKjuZdABinWjA==}
     dev: false
 
   /http-cache-semantics/4.1.1:

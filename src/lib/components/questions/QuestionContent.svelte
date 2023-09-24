@@ -178,7 +178,7 @@
 			on:click={() => (selectedTab = 'comments')}
 			style:--tag={`a-comment${data.id}`}
 		>
-			<span style="text-wrap: nowrap">
+			<span style="text-wrap: nowrap" itemprop="answerCount">
 				{#if _data.comment_count > 0}
 					{_data.comment_count}
 				{/if}
@@ -241,41 +241,52 @@
 	{/if}
 </div>
 <div class="tab-box">
-	<article
+	<div
 		class="flexr {selectedTab === 'comments' && 'first'} container-js"
 		id="comments"
 		bind:this={commentContainerElement}
 	>
-		{#if innerWidth > 575 && _data.comments.length >= 5}
-			<h3
-				class=" {isFixed
-					? 'scroll-js pos-fixed'
-					: isStop
-					? 'scroll-js stop'
-					: 'scroll-js pos-fixed'} {_data.comment_count <= 5 ? 'hidden' : ''}"
-			>
-				<p
-					bind:this={commentScrollElement}
-					id="comments-scroller"
-					class="tab-side-bar vertical-display"
+		<Card style="padding: .5rem; border: none;">
+			{#if innerWidth > 575 && _data.comments.length >= 5}
+				<h3
+					class=" {isFixed
+						? 'scroll-js pos-fixed'
+						: isStop
+						? 'scroll-js stop'
+						: 'scroll-js pos-fixed'} {_data.comment_count <= 5 ? 'hidden' : ''}"
 				>
-					<span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span><span
-						>t</span
-					><span>s</span>
-				</p>
-			</h3>
-		{/if}
-		<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
-		<div style="padding: .5rem; border: none;">
-			<!-- Renders for SEO, removed if not answered -->
-			<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
+					<p
+						bind:this={commentScrollElement}
+						id="comments-scroller"
+						class="tab-side-bar vertical-display"
+					>
+						<span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span
+						><span>t</span><span>s</span>
+					</p>
+				</h3>
+			{:else}
+				<h3 class="tab-header">Comments</h3>
+			{/if}
+			{#if data?.flags?.userHasAnswered}
+				<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
+			{:else}
+				<span style="font-size: 3rem;">
+					{_data.comments.length === 0
+						? 'Be the first to answer the question!'
+						: 'Must answer question first before you can see the other comments'}
+				</span>
+			{/if}
+			<div style="padding: .5rem; border: none;">
+				<!-- Renders for SEO, removed if not answered -->
+				<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
 				<h3 class="tab-header">Comments</h3>
 			{/if} -->
-			<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
-		</div>
-	</article>
+				<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
+			</div>
+		</Card>
+	</div>
 
-	<article class="flexr {selectedTab === 'articles' && 'first'}">
+	<div class="flexr {selectedTab === 'articles' && 'first'}">
 		<Card style="padding: .5rem; border: none;">
 			<h3 class="tab-header">Articles</h3>
 			{#if data?.links?.length}
@@ -292,13 +303,13 @@
 				<p>nothing right now</p>
 			{/if}
 		</Card>
-	</article>
-	<article class="flexr {selectedTab === 'visuals' && 'first'}">
+	</div>
+	<div class="flexr {selectedTab === 'visuals' && 'first'}">
 		<Card style="padding: .5rem; border: none;">
 			<h3 class="tab-header">Visuals</h3>
 			<p>nothing right now</p>
 		</Card>
-	</article>
+	</div>
 </div>
 
 <style lang="scss">

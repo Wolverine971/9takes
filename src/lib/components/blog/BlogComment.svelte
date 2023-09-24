@@ -43,7 +43,7 @@
 		: null;
 
 	const loadMore = async () => {
-		if (!user) {
+		if (!session?.user?.id) {
 			notifications.info('Must register or login to see nested comments', 3000);
 			return;
 		}
@@ -102,7 +102,7 @@
 		let body = new FormData();
 		body.append('comment', newcomment);
 		body.append('parent_id', comment.id);
-		body.append('author_id', user.id);
+		body.append('author_id', session?.user?.id);
 		body.append('parent_type', 'comment');
 		body.append('es_id', comment.es_id);
 

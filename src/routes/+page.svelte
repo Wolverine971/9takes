@@ -1,22 +1,13 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
-	import { page } from '$app/stores';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	// export let data: PageData;
 	export let data: PageData;
-	const submitLogout = async ({ cancel }) => {
-		const { error: logoutError } = await supabase.auth.signOut();
-		if (logoutError) {
-			console.log(logoutError);
-		}
-		cancel();
-	};
-
+	
 	onMount(() => {
 		height = window.innerHeight;
 		window.onscroll = function () {
@@ -73,26 +64,32 @@
 			<div class="main-preview">
 				<img src="/9takes-preview.png" alt="9takes preview" style="max-width: 500px;" />
 
-				<div>
+				<div class="main-description">
 					<h1>9takes</h1>
 					<h2>Kill group think one question at a time</h2>
 					<h3>Reddit reimagined, based on personality</h3>
 				</div>
 			</div>
-			<div style="margin: 15rem 0;">
-				<h2>NOT YET RELEASED</h2>
-				<h2>
-					Signup for the Beta at the bottom <svg
-						style="display: inline;"
-						xmlns="http://www.w3.org/2000/svg"
-						height="1em"
-						viewBox="0 0 384 512"
-						><path
-							d="M82.2 224L192 334 301.8 224H248c-13.3 0-24-10.7-24-24V80H160V200c0 13.3-10.7 24-24 24H82.2zM192 384c-11.5 0-22.5-4.6-30.6-12.7L45.6 255.2C36.9 246.5 32 234.7 32 222.4C32 196.8 52.8 176 78.4 176H112V80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v96h33.6c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L222.6 371.3c-8.1 8.1-19.1 12.7-30.6 12.7zM24 432H360c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
-						/></svg
-					>
-				</h2>
-			</div>
+
+			{#if !data?.session?.user?.id}
+				<div style="margin: 15rem 0;">
+					<h2>NOT YET RELEASED</h2>
+					<h2>
+						Signup for the Beta at the bottom
+						<a href="#signup" id="signup-link">
+							<svg
+								style="display: inline;"
+								xmlns="http://www.w3.org/2000/svg"
+								height="1em"
+								viewBox="0 0 384 512"
+								><path
+									d="M82.2 224L192 334 301.8 224H248c-13.3 0-24-10.7-24-24V80H160V200c0 13.3-10.7 24-24 24H82.2zM192 384c-11.5 0-22.5-4.6-30.6-12.7L45.6 255.2C36.9 246.5 32 234.7 32 222.4C32 196.8 52.8 176 78.4 176H112V80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v96h33.6c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L222.6 371.3c-8.1 8.1-19.1 12.7-30.6 12.7zM24 432H360c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
+								/>
+							</svg>
+						</a>
+					</h2>
+				</div>
+			{/if}
 
 			<!-- 9takes- kill group think one question at a time. how socrates must have been explaining things
 			How we see the World -->
@@ -312,7 +309,7 @@
 <!-- </main> -->
 {#if !data?.session?.user}
 	<section style="max-width: 64rem; margin: 10rem auto">
-		<div class="join">
+		<div class="join" id="signup">
 			<EmailSignup cta={'Join Waitlist'} />
 		</div>
 	</section>
@@ -320,6 +317,16 @@
 
 <style lang="scss">
 	/* Basic styles */
+
+	#signup-link {
+		&::after {
+			content: none;
+		}
+	}
+
+	.main-description {
+		min-width: 500px;
+	}
 
 	.main-p {
 		font-size: 2rem;
@@ -455,6 +462,19 @@
 	}
 
 	/* Media queries */
+
+	@media (max-width: 1000px) {
+
+		.main-preview {
+			flex-direction: column-reverse;
+		}
+		.main-description {
+			min-width: 200px;
+		}
+
+
+
+	}
 	@media (max-width: 768px) {
 		// main section {
 		// 	flex-basis: calc(100% - 20px);
@@ -463,18 +483,22 @@
 		/* .big-points {
 			min-width: 300px;
 		} */
+
+		
 	}
 	@media (max-width: 480px) {
 		// main section {
 		// 	flex-basis: 100%;
 		// }
+		.main-description {
+			min-width: auto;
+		}
+
 		.big-points {
 			min-width: 300px;
 		}
 
-		.main-preview {
-			flex-direction: column-reverse;
-		}
+		
 
 		.wave-sections {
 			margin: 0.5rem 0;

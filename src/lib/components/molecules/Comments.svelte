@@ -26,14 +26,15 @@
 	// Database['public']['Tables']['comments']['Row'][]
 	let comments: any[] = _data?.comments || [];
 
-	const lastDate = comments?.length ? comments[comments?.length - 1]?.created_at || null : null;
+	const lastDate = data.comments?.length ? data.comments[data.comments?.length - 1]?.created_at || null : null;
 
 	const loadMore = async () => {
+		console.log('load more');
 		loading = true;
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : _data.id
-			}&lastDate=${lastDate}`
+			}&lastDate=${lastDate}&range=${data?.comments?.length || 0}`
 		)
 			.then((response) => response.json())
 			.then((commentData) => {

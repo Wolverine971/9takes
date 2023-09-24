@@ -363,6 +363,17 @@ a.disabled {
 	cursor: default;
 }
 
+.btn-disabled {
+	// pointer-events: none;
+	color: rgba(var(--grey-300-hex), 0.4) !important;
+    text-decoration: line-through;
+}
+
+.btn-disabled:hover {
+	color: ghostwhite !important;
+	background-color: grey !important;;
+}
+
 // body {
 // 	--size: 0.75rem;
 // 	font-family: Helvetica, sans-serif;

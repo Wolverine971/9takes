@@ -79,15 +79,19 @@
 		</Context>
 	</div>
 
-	<button
-		class="btn btn-primary"
-		type="button"
-		on:click={() => {
-			goToCreateQuestionPage();
-		}}
-	>
-		Create Question
-	</button>
+	{#if data?.session?.user?.id}
+		<button
+			class="btn btn-primary {!data?.session?.user?.id && 'btn-disabled'}"
+			type="button"
+			disabled={!data?.session?.user?.id}
+			on:click={() => {
+				goToCreateQuestionPage();
+			}}
+			title={data?.session?.user?.id ? 'Create a question' : 'Must be logged in to create question'}
+		>
+			Create Question
+		</button>
+	{/if}
 </form>
 
 <style lang="scss">

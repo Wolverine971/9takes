@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import type { PageData } from './$types';
+	import { toPng } from 'html-to-image';
 
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
@@ -25,7 +26,7 @@
 		question = $page.url.searchParams.get('question') || '';
 	});
 
-	export async function createQuestion() {
+	const createQuestion = async () => {
 		try {
 			var body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
@@ -42,13 +43,32 @@
 			if (result) {
 				getModal().close();
 				goto(`/questions/${url}`, {});
+
+				// question image creation
+				// setTimeout(async () => {
+				// 	const newQ = document.getElementById('question-box');
+				// 	console.log(newQ);
+				// 	if (newQ) {
+				// 		const pngSrc = await toPng(newQ);
+						
+				// 		let body = new FormData();
+				// 		body.append('img_url', pngSrc);
+				// 		body.append('url', url);
+
+				// 		fetch('?/updateQuestionImg', {
+				// 			method: 'POST',
+				// 			body
+				// 		});
+				// 	}
+				// 	console.log('end image creation');
+				// }, 3000);
 			}
 		} catch (error) {
 			console.error(error);
 		}
-	}
+	};
 
-	export async function getUrl() {
+	const getUrl = async () => {
 		var body = new FormData();
 		body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 
@@ -64,7 +84,7 @@
 			});
 
 		visible = true;
-	}
+	};
 </script>
 
 <div class="card">

@@ -41,7 +41,11 @@
 			return;
 		}
 		loading = true;
-		await fetch(`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
+		await fetch(
+			`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}&range=${
+				comment?.comments?.length || 0
+			}`
+		)
 			.then((response) => response.json())
 			.then((newcommentData) => {
 				if (!_commentComment.comments) {
@@ -147,7 +151,22 @@
 		}
 	};
 
+	const expandText = () => {
+		console.log('expand text');
+		const container = document.querySelector(`#comment-box${comment.id}`);
+		if (container) {
+			container.classList.add('expanded');
+			container.style.maxHeight = 'none';
+		}
+
+		const readMore = document.querySelector(`#read-more-btn${comment.id}`);
+		if (readMore) {
+			readMore.style.display = 'none';
+		}
+	};
+
 	let innerWidth = 0;
+	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
 </script>
 
 <svelte:window bind:innerWidth />
@@ -156,30 +175,43 @@
 	{#if innerWidth > 500}
 		<div class="comment-meta">
 			<span style="min-width:30px"
-				>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
+				><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
 			</span>
 		</div>
 	{/if}
-	<div class="user-comment">
+	<div
+		class="user-comment"
+		itemprop="suggestedAnswer acceptedAnswer"
+		itemscope
+		itemtype="https://schema.org/Answer"
+	>
 		<div
-			style="display: flex; {innerWidth > 500
-				? 'width: 95%;'
-				: 'flex-direction: column; width: 100%'}"
+			style="display: flex; { innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}"
 		>
-			<p class="comment-box">
-				<a
-					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-					href={_commentComment?.profiles?.external_id
-						? `/users/${_commentComment.profiles.external_id}`
-						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-				>: {_commentComment.comment}
-			</p>
+			<div style="display: flex; flex-direction: column; width: 100%}">
+				<p class="comment-box" id="comment-box{comment.id}">
+					{comment.id}
+					<a
+						class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+						href={_commentComment?.profiles?.external_id
+							? `/users/${_commentComment.profiles.external_id}`
+							: ''}
+						>{_commentComment?.profiles?.enneagram || 'Rando'}
+					</a>:
+					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
+				</p>
+				{#if _commentComment.comment.length > 136}
+					<span id="read-more-btn{comment.id}" class="read-more-btn" on:click={() => expandText()}
+						>Read More</span
+					>
+				{/if}
+			</div>
 			{#if innerWidth < 500}
 				<hr class="rounded" />
 				<div style="display: flex; align-items: center; gap: 0.5rem;">
 					<div class="comment-meta">
 						<span style="min-width:30px"
-							>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
+							><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
 						</span>
 					</div>
 					<button
@@ -205,7 +237,9 @@
 						on:click={likeComment}
 					>
 						{#if likes.length}
-							{likes.length}
+							<span itemprop="upvoteCount">
+								{likes.length}
+							</span>
 						{/if}
 						<ThumbsUpIcon
 							iconStyle={'padding: 0.25rem;'}
@@ -243,7 +277,9 @@
 					on:click={likeComment}
 				>
 					{#if likes.length}
-						{likes.length}
+						<span itemprop="upvoteCount">
+							{likes.length}
+						</span>
 					{/if}
 					<ThumbsUpIcon
 						iconStyle={'padding: 0.25rem;'}
@@ -323,6 +359,43 @@
 		border-radius: 5px;
 		margin: 0.25rem;
 		padding: 0.5rem;
+		max-height: 5em;
+		overflow: hidden;
+	}
+
+	.comment-text {
+		max-height: 3em;
+		overflow: hidden;
+	}
+
+	.expanded .comment-text {
+		max-height: none;
+	}
+
+	// .container {
+	// 	// width: 300px; /* Adjust width as needed */
+	// 	line-height: 1.5em;
+	// 	max-height: 4.5em; /* 3 lines */
+	// 	overflow: hidden;
+	// 	position: relative;
+	// }
+
+	.read-more-btn {
+		// display: none;
+		// position: absolute;
+		// bottom: 0;
+		// right: 0;
+		background-color: #f1f1f1;
+		padding: 5px 10px;
+		cursor: pointer;
+	}
+
+	.comment-box.expanded {
+		max-height: none;
+	}
+
+	.comment-box.expanded .read-more-btn {
+		display: none;
 	}
 
 	.user-comment {

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Card from '$lib/components/atoms/card.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import { onMount } from 'svelte';
@@ -55,7 +54,7 @@
 </svelte:head>
 
 <!-- Question always renders -->
-<article>
+<article itemscope itemtype="https://schema.org/Question">
 	<!-- <section>
 		
 	</section> -->
@@ -65,6 +64,7 @@
 			id="question-box"
 			style="overflow:hidden"
 			style:--tag={`h-question-${data.question.id}`}
+			itemprop="name"
 		>
 			{data.question.question}
 		</h1>
