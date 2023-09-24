@@ -1,3 +1,7 @@
+// clean up this css file
+// check the code base for unused css
+
+
 :root {
 	--primary: #191970;
 	--primary_v: #0e0e3d;
@@ -366,12 +370,12 @@ a.disabled {
 .btn-disabled {
 	// pointer-events: none;
 	color: rgba(var(--grey-300-hex), 0.4) !important;
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .btn-disabled:hover {
 	color: ghostwhite !important;
-	background-color: grey !important;;
+	background-color: grey !important;
 }
 
 // body {

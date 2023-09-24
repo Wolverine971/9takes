@@ -61,20 +61,20 @@
 	<h1 style="display: flex; justify-content: space-between; align-content: center">
 		<span>{data?.session?.user?.id ? 'Search and ask questions' : 'Search Questions'} </span>
 		{#if !data?.session?.user?.id}
-		<button
-			class="btn btn-primary"
-			style="display: flex; 
+			<button
+				class="btn btn-primary"
+				style="display: flex; 
 			justify-content: space-between; 
 			align-items: center"
-			type="button"
-			on:click={() => {
-				goToCreateQuestionPage();
-			}}
-			title={data?.session?.user?.id ? 'Create a question' : 'Register to ask a question'}
-		>
-			{data?.session?.user?.id ? 'Create question' : 'Register to ask a question'}
-			<RightIcon iconStyle={'margin-left: .5rem;'} height={'1rem'} fill={'#5407d9'} />
-		</button>
+				type="button"
+				on:click={() => {
+					goToCreateQuestionPage();
+				}}
+				title={data?.session?.user?.id ? 'Create a question' : 'Register to ask a question'}
+			>
+				{data?.session?.user?.id ? 'Create question' : 'Register to ask a question'}
+				<RightIcon iconStyle={'margin-left: .5rem;'} height={'1rem'} fill={'#5407d9'} />
+			</button>
 		{/if}
 	</h1>
 

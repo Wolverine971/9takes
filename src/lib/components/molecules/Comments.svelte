@@ -26,7 +26,9 @@
 	// Database['public']['Tables']['comments']['Row'][]
 	let comments: any[] = _data?.comments || [];
 
-	const lastDate = data.comments?.length ? data.comments[data.comments?.length - 1]?.created_at || null : null;
+	const lastDate = data.comments?.length
+		? data.comments[data.comments?.length - 1]?.created_at || null
+		: null;
 
 	const loadMore = async () => {
 		console.log('load more');

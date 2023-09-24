@@ -7,7 +7,7 @@
 
 	// export let data: PageData;
 	export let data: PageData;
-	
+
 	onMount(() => {
 		height = window.innerHeight;
 		window.onscroll = function () {
@@ -464,16 +464,12 @@
 	/* Media queries */
 
 	@media (max-width: 1000px) {
-
 		.main-preview {
 			flex-direction: column-reverse;
 		}
 		.main-description {
 			min-width: 200px;
 		}
-
-
-
 	}
 	@media (max-width: 768px) {
 		// main section {
@@ -483,8 +479,6 @@
 		/* .big-points {
 			min-width: 300px;
 		} */
-
-		
 	}
 	@media (max-width: 480px) {
 		// main section {
@@ -497,8 +491,6 @@
 		.big-points {
 			min-width: 300px;
 		}
-
-		
 
 		.wave-sections {
 			margin: 0.5rem 0;

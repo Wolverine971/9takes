@@ -186,7 +186,9 @@
 		itemtype="https://schema.org/Answer"
 	>
 		<div
-			style="display: flex; { innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}"
+			style="display: flex; {innerWidth > 500
+				? 'width: 95%;'
+				: 'flex-direction: column; width: 100%;'}"
 		>
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">

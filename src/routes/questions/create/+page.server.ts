@@ -1,5 +1,5 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-import {  PRIVATE_DEMO } from '$env/static/private';
+import { PRIVATE_DEMO } from '$env/static/private';
 import { redirect } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
