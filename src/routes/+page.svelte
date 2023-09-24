@@ -61,7 +61,7 @@
 <section>
 	<div class="column">
 		<div class="big-points center-align" style="margin-top: 100px;">
-			<div class="main-preview">
+			<div class="main-preview" style="margin: 5rem 0;">
 				<img src="/9takes-preview.png" alt="9takes preview" style="max-width: 500px;" />
 
 				<div class="main-description">
@@ -71,8 +71,12 @@
 				</div>
 			</div>
 
-			{#if !data?.session?.user?.id}
-				<div style="margin: 15rem 0;">
+			<!-- 9takes- kill group think one question at a time. how socrates must have been explaining things
+			How we see the World -->
+		</div>
+		{#if !data?.session?.user?.id}
+			<div class="big-points center-align">
+				<div style="margin: 5rem 0;">
 					<h2>NOT YET RELEASED</h2>
 					<h2>
 						Signup for the Beta at the bottom
@@ -89,42 +93,42 @@
 						</a>
 					</h2>
 				</div>
-			{/if}
-
-			<!-- 9takes- kill group think one question at a time. how socrates must have been explaining things
-			How we see the World -->
-
-			<h2>How we see the World</h2>
-
-			<h3>Second wave of social media meets personality</h3>
-			<div class="wave-sections" style="border: 1px solid grey;">
-				<h4 style="margin-top: 0;">Old wave</h4>
-
-				<p>
-					<b>Social media</b> promised connection, but we are now more divided than maybe ever, and depression
-					is on the rise.
-				</p>
-				<p>
-					<b>Personality</b> promised to simplify our understanding of people. Yes, people are similar
-					and different, but the conversation gets more complicated when you introduce personality.
-				</p>
 			</div>
-			<div class="wave-sections" style="border: 1px solid purple;">
-				<h4 style="margin-top: 0;">New wave</h4>
+		{/if}
+		<div class="big-points center-align">
+			<div>
+				<h2>How we see the World</h2>
 
-				<p>
-					<b>Social media</b> should be about finding and connecting with your people. And it should
-					also be about finding interesting stuff and learning new things. It should prevent piling on
-					and should be about safe and authentic expression. It would help if you weren't afraid to post
-					or ask questions.
-				</p>
-				<p>
-					<b>Personality</b> should be open ended. It would help if you discovered your personality at
-					your own pace. You shouldn't be put in a box or told what you are. It should be fun and enlightening
-					as you learn your personality and should be driven by asking questions.
-				</p>
+				<h3>Second wave of social media meets personality</h3>
+				<div class="wave-sections" style="border: 1px solid grey;">
+					<h4 style="margin-top: 0;">Old wave</h4>
+
+					<p>
+						<b>Social media</b> promised connection, but we are now more divided than maybe ever, and
+						depression is on the rise.
+					</p>
+					<p>
+						<b>Personality</b> promised to simplify our understanding of people. Yes, people are similar
+						and different, but the conversation gets more complicated when you introduce personality.
+					</p>
+				</div>
+				<div class="wave-sections" style="border: 1px solid purple;">
+					<h4 style="margin-top: 0;">New wave</h4>
+
+					<p>
+						<b>Social media</b> should be about finding and connecting with your people. And it should
+						also be about finding interesting stuff and learning new things. It should prevent piling
+						on and should be about safe and authentic expression. It would help if you weren't afraid
+						to post or ask questions.
+					</p>
+					<p>
+						<b>Personality</b> should be open ended. It would help if you discovered your personality
+						at your own pace. You shouldn't be put in a box or told what you are. It should be fun and
+						enlightening as you learn your personality and should be driven by asking questions.
+					</p>
+				</div>
+				<p>And thats what 9takes is all about. <b>Asking questions</b>.</p>
 			</div>
-			<p>And thats what 9takes is all about. <b>Asking questions</b>.</p>
 		</div>
 		<Jumbotron
 			image={'greek_pantheon.webp'}
