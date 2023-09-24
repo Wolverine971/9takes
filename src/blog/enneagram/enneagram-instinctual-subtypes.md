@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'enneagram-self-preservation-symbol'
+pic: 'neoclassical-fortress2'
 ---
 
 <script>
@@ -30,10 +30,10 @@ pic: 'enneagram-self-preservation-symbol'
 	"
 >
 	<PopCard
-		image={`/blogs/enneagram-self-preservation-symbol.webp`}
+		image={`/blogs/neoclassical-fortress2.webp`}
 		showIcon={false}
 		displayText=""
-		altText="fortress, a symbol of self preservation"
+		altText="neoclassical fortress, a symbol of self preservation"
 		subtext=""
 	/>
 </div>

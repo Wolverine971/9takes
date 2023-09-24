@@ -55,8 +55,8 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "greek-statues-working-in-teams.png" -o "greek-statues-working-in-teams.webp"
-cwebp -sns 70 -f 50 -size 20000 "greek-statues-working-in-teams.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-greek-statues-working-in-teams.webp"
+cwebp "neoclassical-fortress2.png" -o "neoclassical-fortress2.webp"
+cwebp -sns 70 -f 50 -size 20000 "neoclassical-fortress2.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-neoclassical-fortress2.webp"
 
 ### fix image size
 

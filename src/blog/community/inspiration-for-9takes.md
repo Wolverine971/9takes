@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'husband-and-wife-arguing'
+pic: 'husband-and-wife'
 ---
 
 <svelte:head>
@@ -28,7 +28,7 @@ pic: 'husband-and-wife-arguing'
 margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/husband-and-wife-arguing.webp`}
+		image={`/blogs/husband-and-wife.webp`}
 		showIcon={false}
 		tint={true}
 		displayText=""

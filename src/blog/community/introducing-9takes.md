@@ -11,7 +11,7 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'greek-statue-in-an-open-cage-typing-on-a-computer'
+pic: 'greek-sculpture-on-a-laptop'
 ---
 
 <svelte:head>
@@ -32,7 +32,7 @@ pic: 'greek-statue-in-an-open-cage-typing-on-a-computer'
 margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/greek-statue-in-an-open-cage-typing-on-a-computer.webp`}
+		image={`/blogs/greek-sculpture-on-a-laptop.webp`}
 		showIcon={false}
 		tint={true}
 		displayText=""
