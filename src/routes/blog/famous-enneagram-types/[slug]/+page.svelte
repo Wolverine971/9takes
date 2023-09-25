@@ -31,8 +31,9 @@
 	<!-- <ArticleDescription description={data.metadata.description} /> -->
 	<ArticleSubTitle metaData={data.metadata} />
 </div>
-
-<svelte:component this={component} />
+<section itemscope itemtype="https://schema.org/BlogPosting">
+	<svelte:component this={component} />
+</section>
 <hr style="margin: 5rem;" />
 <h3 title="Comments">What was missed? Do you disagree? Give us your thoughts. 🙏</h3>
 <div>

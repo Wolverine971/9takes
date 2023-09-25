@@ -1,6 +1,6 @@
-<div class="blog">
+<!-- <section class="blog" itemprop="articleBody"> -->
 	<slot />
-</div>
+<!-- </section> -->
 
 <style lang="scss">
 </style>

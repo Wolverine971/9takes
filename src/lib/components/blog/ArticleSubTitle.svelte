@@ -7,9 +7,11 @@
 </script>
 
 <p>
-	<span class="author" title="he is so cool"
-		>{metaData.author}
+	<span class="author" title="he is so cool" itemprop="author" itemscope itemtype="https://schema.org/Person"
+		>
+		<span itemprop="name">{metaData.author}</span>
 		<a
+			itemprop="url"
 			class="external-link"
 			target="_blank"
 			rel="noreferrer"

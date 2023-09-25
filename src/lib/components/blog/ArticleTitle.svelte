@@ -16,7 +16,7 @@
 		</a>
 	</h2>
 {:else}
-	<h1 class="heading" class:large={!slug} {id}>
+	<h1 class="heading" class:large={!slug} {id} itemprop="name">
 		{title}
 	</h1>
 {/if}

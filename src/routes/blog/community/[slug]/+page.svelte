@@ -18,8 +18,9 @@
 	<ArticleDescription description={data.frontmatter.description} />
 	<ArticleSubTitle metaData={data.frontmatter} />
 </div>
-
+<section itemscope itemtype="https://schema.org/BlogPosting">
 <svelte:component this={component} />
+</section>
 
 <hr style="margin: 5rem;" />
 
