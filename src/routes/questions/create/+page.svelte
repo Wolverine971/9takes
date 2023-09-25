@@ -1,12 +1,14 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import type { PageData } from './$types';
-	import { toPng } from 'html-to-image';
+	// import { toPng } from 'html-to-image';
 
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
+	import QRCode from 'qrcode';
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
 	let question: string = '';
 
@@ -18,6 +20,19 @@
 	function makeVisible() {
 		visible = true;
 	}
+
+	const opts = {
+		errorCorrectionLevel: 'H',
+		type: 'image/jpeg',
+		quality: 0.3,
+		margin: 1,
+		color: {
+			dark: '#5407d9',
+			light: ''
+		}
+	};
+	let loading = false;
+
 	function closeModal(event: Event) {
 		visible = false;
 	}
@@ -28,6 +43,7 @@
 
 	const createQuestion = async () => {
 		try {
+			loading = true;
 			var body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 			body.append('author_id', data?.session?.user.id || '');
@@ -63,8 +79,10 @@
 				// 	console.log('end image creation');
 				// }, 3000);
 			}
+			loading = false;
 		} catch (error) {
 			console.error(error);
+			loading = false;
 		}
 	};
 
@@ -79,6 +97,12 @@
 			.then((response) => response.json())
 			.then((data) => {
 				url = JSON.parse(data?.data)?.[0];
+				QRCode.toDataURL(`https://9takes.com/questions/${url}`, opts, function (err, url) {
+					if (err) throw err;
+
+					var img = document.getElementById('qr-image');
+					img.src = url;
+				});
 
 				getModal().open();
 			});
@@ -96,20 +120,51 @@
 
 	<Modal2>
 		<div class="modal-size">
-			<h1>Create Question</h1>
+			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
+			<hr />
 			<!-- <p>Tag your question:</p> -->
+			<div class="center">
+				<div class="warning">
+					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
+				</div>
 
-			<h3>If your question gets 3 comments we will tag and keep it!</h3>
+				<img id="qr-image" src="" alt="QR Code" />
 
-			<p>Url: {`https://9takes.com/questions/${url}`}</p>
-			<button class="btn btn-primary" type="button" on:click={createQuestion}>Create</button>
+				<p>Url: <b> {`https://9takes.com/questions/${url}`} </b></p>
+			</div>
+			<button class="btn btn-primary create-btn" type="button" on:click={createQuestion}>
+				{#if loading}
+					<div class="loader" />
+				{:else}
+					Create <RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'#5407d9'} />
+				{/if}
+			</button>
 		</div>
 	</Modal2>
 </div>
 
 <style lang="scss">
 	.modal-size {
-		height: max(250px, 55vh, 55vh);
-		width: clamp(300px, 50vw, 50vw);
+		height: 100%;
+		// width: clamp(300px, 50vw, 50vw);
+	}
+
+	.create-btn {
+		float: right;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.warning {
+		border: 1px solid red;
+		border-radius: 5px;
+		margin: 1rem;
+		padding: 0.5rem;
+	}
+	.center {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
