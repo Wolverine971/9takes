@@ -198,7 +198,4 @@ If you're intrigued and wish to explore more, delve into our other articles abou
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

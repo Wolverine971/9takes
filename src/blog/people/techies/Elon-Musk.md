@@ -274,7 +274,4 @@ As we've journeyed through the complex and fascinating world of Elon Musk, a qui
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

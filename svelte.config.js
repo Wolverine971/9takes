@@ -1,8 +1,7 @@
-// import adapter from '@sveltejs/adapter-node';
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
-import path, { dirname } from 'path';
+import  { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import mdsvexConfig from './mdsvex.config.js';
@@ -22,6 +21,7 @@ const config = {
 		mdsvex(mdsvexConfig),
 		preprocess({
 			postcss: true,
+			'postcss-scss': true,
 			preserve: ['ld+json'],
 			// scss: {
 			// 	prependData: `@import '${sassPath}index.scss';`

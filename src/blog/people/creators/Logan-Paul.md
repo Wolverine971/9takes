@@ -190,7 +190,4 @@ To explore more captivating personalities and gain a deeper understanding of the
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

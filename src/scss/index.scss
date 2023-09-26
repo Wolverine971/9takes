@@ -12,61 +12,56 @@
 	--info: #f3f3f4;
 	--warning: #fb8c00;
 	--error: #ff5252;
-
 	--block-spacing-vertical: calc(1rem * 2);
 	--block-spacing-horizontal: calc(1rem * 2);
 	--border-radius: 0.25rem;
-	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(27, 40, 50, 0.01698),
-		0.0335rem 0.067rem 0.402rem rgba(27, 40, 50, 0.024),
-		0.0625rem 0.125rem 0.75rem rgba(27, 40, 50, 0.03),
-		0.1125rem 0.225rem 1.35rem rgba(27, 40, 50, 0.036),
-		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.04302), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.06),
-		0 0 0 0.0625rem rgba(27, 40, 50, 0.015);
-
+	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgb(27 40 50 / 1.7%),
+		0.0335rem 0.067rem 0.402rem rgb(27 40 50 / 2.4%),
+		0.0625rem 0.125rem 0.75rem rgb(27 40 50 / 3%),
+		0.1125rem 0.225rem 1.35rem rgb(27 40 50 / 3.6%),
+		0.2085rem 0.417rem 2.502rem rgb(27 40 50 / 4.3%), 0.5rem 1rem 6rem rgb(27 40 50 / 6%),
+		0 0 0 0.0625rem rgb(27 40 50 / 1.5%);
 	--grex-700-hex: 64, 65, 69;
 	--grex-600-hex: 96, 98, 102;
 	--grex-500-hex: 126, 128, 133;
 	--grex-400-hex: 159, 161, 166;
-
 	--grex-300-hex: 186, 189, 194;
 	--grey-200-hex: 213, 215, 219;
 	--grey-100-hex: 232, 234, 237;
-
-	--glass-color: rgba(var(--grey-300-hex), 0.4);
+	--glass-color: rgb(var(--grey-300-hex) 0.4);
 	--font-size: 16px;
-
 	--classic-border: 1px solid var(--color-paladin-3);
-
 	--card-padding: 0.8rem 1rem;
 	--card-margin: 1rem;
-
 	--contrast: 20;
 	--size: 0.75rem;
 	--cardBg: linear-gradient(135deg, hotpink, blue);
 	--invert: 1;
 	--blendMode: multiply;
+
 	// --bgSize: 0.75rem;
-	--mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
+	--mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 50%));
 	--dotsColor: 255 255 255;
 	--dotRadius: 20%; // 20rem;
 	--bgPosition: calc(var(--bgSize) / 2);
-	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
+	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 15%) calc(var(--dotRadius, 53%) * 0.95);
 	--stop1: 3%;
 	--stop2: 60%;
 }
 
-$dark-300: hsl(213, 24%, 7%);
-$dark-200: hsl(222, 15%, 13%);
-$dark-100: hsl(222, 15%, 19%);
-$primary-300: hsl(149, 77%, 46%);
-$primary-200: hsl(149, 77%, 56%);
-$primary-100: hsl(149, 77%, 66%);
-$secondary-300: hsl(289, 90%, 53%);
-$secondary-200: hsl(289, 90%, 63%);
-$secondary-100: hsl(289, 90%, 73%);
-$gray: hsl(212, 15%, 48%);
+$dark-300: hsl(213deg 24% 7%);
+$dark-200: hsl(222deg 15% 13%);
+$dark-100: hsl(222deg 15% 19%);
+$primary-300: hsl(149deg 77% 46%);
+$primary-200: hsl(149deg 77% 56%);
+$primary-100: hsl(149deg 77% 66%);
+$secondary-300: hsl(289deg 90% 53%);
+$secondary-200: hsl(289deg 90% 63%);
+$secondary-100: hsl(289deg 90% 73%);
+$gray: hsl(212deg 15% 48%);
 
 /* Write your global styles here, in PostCSS syntax */
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -88,6 +83,9 @@ $gray: hsl(212, 15%, 48%);
 */
 body {
 	height: 100%;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	font-family: sans-serif;
 }
 
 /*
@@ -95,11 +93,7 @@ body {
   4. Add accessible line-height
   5. Improve text rendering
 */
-body {
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
-	font-family: sans-serif;
-}
+
 
 /*
   6. Improve media defaults
@@ -146,12 +140,13 @@ a:hover {
 
 body {
 	background: $dark-200;
-	color: #ffffff;
+	color: #fff;
 	font-size: 18px;
 }
 
 main {
 	padding: 2rem;
+
 	// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d1d5db' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
@@ -168,6 +163,7 @@ main::before {
 	overflow: hidden;
 	transform-origin: center;
 }
+
 // .ghosts {
 // 	width: 100vw;
 // 	height: 100vh;
@@ -205,9 +201,10 @@ main::before {
 	display: flex;
 	flex-direction: column;
 	margin: var(--card-margin);
+
 	// background-color: $dark-200;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
 	padding: var(--card-padding);
 }
 
@@ -261,8 +258,9 @@ select {
 	// border: hsl(212, 15%, 48%) 2px solid;
 	// border-radius: 5px;
 	// padding: 10px 20px;
-	color: hsl(222, 15%, 19%);
+	color: hsl(222deg 15% 19%);
 	font-size: 16px;
+
 	// margin-bottom: 20px;
 
 	&:focus {
@@ -287,11 +285,13 @@ select {
 .big-a:hover {
 	text-decoration: none;
 }
+
 .article-preview {
 	max-width: none;
 	height: clamp(1rem, 145px, 12rem);
 	width: clamp(1rem, 345px, 32rem);
 }
+
 .preview {
 	text-overflow: clip;
 	white-space: nowrap;
@@ -325,6 +325,7 @@ select {
 	overflow: hidden;
 	max-width: 100%;
 }
+
 .blog :global(a::after) {
 	content: '';
 	background-image: url('/icons/arrow.svg');
@@ -338,8 +339,10 @@ select {
 
 .glass-card {
 	background-color: var(--glass-color);
+
 	/* background-color: var(--theme-bg-color); */
 	max-width: 1250px;
+
 	// max-height: 860px;
 	// height: 90vh;
 	display: flex;
@@ -349,7 +352,7 @@ select {
 	width: 100%;
 	border-radius: 5px;
 	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -362,13 +365,14 @@ select {
 a.disabled {
 	color: grey !important;
 	text-decoration: line-through;
+
 	// pointer-events: none;
 	cursor: default;
 }
 
 .btn-disabled {
 	// pointer-events: none;
-	color: rgba(var(--grey-300-hex), 0.4) !important;
+	color: rgb(var(--grey-300-hex) 0.4) !important;
 	text-decoration: line-through;
 }
 
@@ -494,12 +498,13 @@ section {
 	flex-basis: calc(50% - 20px);
 	margin: var(--block-spacing-vertical) 0;
 	padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
+
 	// border: var(--classic-border);
 	box-sizing: border-box;
 	border-radius: 0.25rem;
 }
 
-@media (max-width: 800px) {
+@media (width <= 800px) {
 	main {
 		padding: 1rem;
 	}
@@ -509,9 +514,9 @@ section {
 	}
 }
 
-@media all and (max-width: 576px) {
+@media all and (width <= 576px) {
 	section {
 		margin: 1rem 0;
-		padding: 1rem 1rem;
+		padding: 1rem;
 	}
 }

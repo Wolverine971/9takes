@@ -227,7 +227,4 @@ If this resonates with you, we invite you to explore more articles like this one
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

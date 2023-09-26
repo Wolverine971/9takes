@@ -1,6 +1,7 @@
 const autoprefixer = require('autoprefixer');
 
 const config = {
+	parser: 'postcss-scss',
 	plugins: [
 		require('postcss-simple-vars'),
 		autoprefixer,

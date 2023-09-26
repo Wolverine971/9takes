@@ -240,7 +240,4 @@ Understanding others starts with understanding oneself. Let's embark on this jou
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

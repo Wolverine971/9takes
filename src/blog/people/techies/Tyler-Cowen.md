@@ -87,7 +87,4 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

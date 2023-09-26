@@ -204,7 +204,4 @@ Is your curiosity piqued? Are you interested in exploring personalities further,
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

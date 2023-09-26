@@ -197,7 +197,4 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

@@ -202,7 +202,4 @@ Perhaps there's value in understanding our celebrities, our leaders, and even ou
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

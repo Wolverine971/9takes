@@ -231,7 +231,4 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

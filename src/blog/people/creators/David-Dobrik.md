@@ -194,7 +194,4 @@ Go beyond the surface and delve deeper into the world of personalities with us. 
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

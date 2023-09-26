@@ -202,7 +202,4 @@ As we continue to peel back the layers of personalities, we invite you to join 9
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

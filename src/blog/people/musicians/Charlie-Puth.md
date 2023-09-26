@@ -199,7 +199,4 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

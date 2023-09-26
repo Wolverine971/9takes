@@ -220,5 +220,4 @@ Sign up and join 9takes below ⬇️. Of course, you are free to decline, but th
 
 <style lang="scss">
 
-
 </style>

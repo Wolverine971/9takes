@@ -203,7 +203,4 @@ Nietzsche is just one of many personalities that we can explore through the enne
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

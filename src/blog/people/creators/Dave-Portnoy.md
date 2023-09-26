@@ -289,7 +289,4 @@ So, what can we learn from Dave Portnoy? There's more than meets the eye when yo
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

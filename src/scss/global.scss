@@ -1,4 +1,5 @@
 /* Write your global styles here, in PostCSS syntax */
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -79,11 +80,13 @@ a:hover {
 .big-a:hover {
 	text-decoration: none;
 }
+
 .article-preview {
 	max-width: none;
 	height: clamp(1rem, 145px, 12rem);
 	width: clamp(1rem, 321px, 32rem);
 }
+
 .preview {
 	text-overflow: clip;
 	white-space: nowrap;

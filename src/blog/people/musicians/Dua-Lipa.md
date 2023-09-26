@@ -241,7 +241,4 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

@@ -191,7 +191,4 @@ Curious about the personalities of other famous individuals? Interested in seein
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

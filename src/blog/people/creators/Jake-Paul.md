@@ -188,7 +188,4 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

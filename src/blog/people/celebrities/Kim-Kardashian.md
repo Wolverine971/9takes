@@ -217,7 +217,4 @@ Understanding public figures like Kim Kardashian through the Enneagram lens coul
 </svelte:head>
 
 <style lang="scss">
-
-
-
 </style>

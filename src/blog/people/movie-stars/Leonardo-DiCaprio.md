@@ -242,7 +242,4 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

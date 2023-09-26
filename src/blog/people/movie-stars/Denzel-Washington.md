@@ -251,7 +251,4 @@ Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of cours
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

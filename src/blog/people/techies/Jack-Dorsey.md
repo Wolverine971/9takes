@@ -254,7 +254,4 @@ And now, a question for you: What drives the personalities behind your favorite 
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

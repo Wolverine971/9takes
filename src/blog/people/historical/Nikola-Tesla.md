@@ -239,7 +239,4 @@ Take a moment to reflect on your own life. Are you, like Tesla, driven by a deep
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

@@ -280,7 +280,4 @@ The more we understand about people, the richer our interactions and experiences
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

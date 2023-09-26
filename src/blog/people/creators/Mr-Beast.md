@@ -200,7 +200,4 @@ It's your turn to delve deeper into this fascinating world of personalities. Exp
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>

@@ -296,7 +296,4 @@ For those ready to embark on this captivating exploration, I invite you to sign 
 
 </svelte:head>
 
-<style lang="scss">
-
-
-</style>
+<style lang="scss"></style>
