@@ -210,12 +210,4 @@ article {
     color: var(--color-theme-purple);
   }
 
-  
-
-  .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-
-  }
 </style>

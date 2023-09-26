@@ -86,9 +86,5 @@ article {
     color: var(--color-paladin-1, white);
   }
 
-  .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-  }
+  
 </style>

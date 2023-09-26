@@ -82,34 +82,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </div>
 
 <style lang="scss">
-article {
-    border: 1px solid var(--color-paladin-3);
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-  }
-  .accordion {
-    color: var(--color-paladin-4);
-    cursor: pointer;
-    padding: 0.5rem;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
 
-  .accordion:hover {
-    background-color: var(--color-theme-purple-v);
-    color: var(--color-theme-purple);
-  }
 
-  
-
-  .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-
-  }
 </style>

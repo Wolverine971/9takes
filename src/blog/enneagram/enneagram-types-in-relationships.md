@@ -328,37 +328,13 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
 </svelte:head>
 
 <style lang="scss">
-article {
-    border: 1px solid var(--color-paladin-3);
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-  }
-  .accordion {
-    color: var(--color-paladin-4);
-    cursor: pointer;
-    padding: 0.5rem;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
 
-  .accordion:hover {
-    background-color: var(--color-theme-purple-v);
-    color: var(--color-theme-purple);
-  }
 
   /*.panel:hover {
     background-color: var(--color-paladin-2);
 }*/
 
-  .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-  }
+  
   @import '../../scss/index.scss';
 
     h4, h3 {
