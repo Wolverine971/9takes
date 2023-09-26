@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/Jeff-Bezos'
 lastmod: '2023-07-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 5
 type: ['techie']
 person: 'Jeff-Bezos'
