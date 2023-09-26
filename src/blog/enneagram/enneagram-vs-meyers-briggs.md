@@ -214,5 +214,4 @@ The Enneagram and the Myers-Briggs Type Indicator, both rich in history and insi
 
 <style lang="scss">
 
-
 </style>

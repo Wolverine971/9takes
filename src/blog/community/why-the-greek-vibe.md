@@ -18,7 +18,7 @@ pic: 'neoclassical-metropolis'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-# Its called "neoclassical"
+## Its called "neoclassical"
 
 The term "neoclassical" is derived from the Greek words "neo," meaning new, and "klassikos," which refers to the classical art and literature of ancient Greece and Rome. Neoclassical design draws inspiration from these ancient civilizations' art, architecture, and philosophy, aiming to bring their timeless elegance and grandeur to contemporary settings.
 
@@ -41,7 +41,7 @@ margin: 1rem 0;"
 
 ## The Influence of Neoclassical Architecture
 
-The Cultural Tutor](https://twitter.com/culturaltutor)[] recently shared a thread on Twitter, providing a brief introduction to neoclassical architecture:
+[The Cultural Tutor](https://twitter.com/culturaltutor) recently shared a thread on Twitter, providing a brief introduction to neoclassical architecture:
 
 <div style="display: flex;
     justify-content: center;

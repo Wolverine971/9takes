@@ -256,5 +256,4 @@ Enneagram Criticisms (200 words)
 
 <style lang="scss">
 
- 
 </style>
