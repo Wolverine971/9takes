@@ -120,8 +120,10 @@
 			CommonStereotypes: 'Complacent, indecisive, disengaged.'
 		}
 	];
+	let innerWidth = 0;
 </script>
 
+<svelte:window bind:innerWidth />
 <!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
 
 <div
@@ -174,19 +176,19 @@
 				<!-- {#if showDescription} -->
 				<!-- transition:blur={{ amount: 10 }} -->
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
-					<p style="font-size: 2rem;">
+					<p class="big-p">
 						<b>Type:</b>
 						{enneagramTypeCheatSheet[enneagramType - 1].EnneagramType}
 					</p>
-					<p style="font-size: 1.5rem; text-wrap: balance;">
+					<p class="mid-p">
 						<b>Motivation:</b>
 						{enneagramTypeCheatSheet[enneagramType - 1].CoreMotivation}
 					</p>
-					<p style="font-size: 1.5rem; text-wrap: balance;">
+					<p class="mid-p">
 						<b>Fear:</b>
 						{enneagramTypeCheatSheet[enneagramType - 1].CoreFear}
 					</p>
-					<p style="font-size: 1.5rem; text-wrap: balance;">
+					<p class="mid-p">
 						<b>Stereotypes:</b>
 						{enneagramTypeCheatSheet[enneagramType - 1].CommonStereotypes}
 					</p>
@@ -211,18 +213,6 @@
 	}
 	.home {
 		animation: pan-image 15s linear infinite;
-	}
-
-	* {
-		box-sizing: border-box;
-	}
-
-	@media (min-width: 500px) {
-		.pop-card {
-			/* width: 500px; */
-			width: clamp(400px, 100%, 600px);
-			max-height: 500px;
-		}
 	}
 
 	.pop-card {
@@ -425,39 +415,17 @@
 		}
 	}
 
-	#blob {
-		background-color: var(--color-paladin-1);
-		height: 34vmax;
-		aspect-ratio: 1;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		translate: -50% -50%;
-		border-radius: 50%;
-		background: linear-gradient(to right, var(--blob-color-1), var(--blob-color-2));
-		animation: rotate 20s infinite;
-		opacity: 0.5;
+	.type-description {
+		text-shadow: 0 0 black;
+		text-wrap: balance;
+		font-weight: bolder;
 	}
 
-	#blur {
-		height: 100%;
-		width: 100%;
-		position: absolute;
-		z-index: 2;
-		backdrop-filter: blur(12vmax);
+	.big-p {
+		font-size: 2rem;
 	}
-
-	/* -- Links -- */
-
-	#links {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		z-index: 10;
-		padding: 1rem;
+	.mid-p {
+		font-size: 1.6rem;
 	}
 
 	@media (max-width: 700px) {
@@ -475,6 +443,32 @@
 			font-size: 1.5rem;
 			font-weight: 200;
 			margin: 1rem;
+		}
+
+		.big-p {
+			font-size: 1.7rem;
+		}
+		.mid-p {
+			font-size: 1.5rem;
+		}
+	}
+
+	@media (min-width: 500px) {
+		.pop-card {
+			/* width: 500px; */
+			width: clamp(400px, 100%, 600px);
+			max-height: 500px;
+		}
+	}
+
+	@media (max-width: 400px) {
+		.pop-card-user {
+			.big-p {
+				font-size: 1.4rem;
+			}
+			.mid-p {
+				font-size: 1.1rem;
+			}
 		}
 	}
 </style>

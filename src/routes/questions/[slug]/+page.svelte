@@ -87,9 +87,9 @@
 		} else if (text.length < 220) {
 			return innerWidth > 400 ? '1.5rem' : '1.1rem';
 		} else if (text.length < 240) {
-			return innerWidth > 400 ? '1.4rem'	: '1rem';
+			return innerWidth > 400 ? '1.4rem' : '1rem';
 		} else if (text.length < 290) {
-			return innerWidth > 400 ? '1.3rem' : '0.9rem';	;
+			return innerWidth > 400 ? '1.3rem' : '0.9rem';
 		} else if (text.length < 380) {
 			return innerWidth > 400 ? '0.75rem' : '0.8rem';
 		} else {

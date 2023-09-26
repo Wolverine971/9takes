@@ -11,17 +11,21 @@
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
 	$: component = data.component as unknown as C;
 </script>
-<article>
-<div style="align-items: inherit;">
-	<BlogPageHead data={data.frontmatter} slug={`blog/enneagram/${data.slug}`} />
-	<ArticleTitle title={data.frontmatter.title} />
-	<!-- <ArticleDescription description={data.frontmatter.description} /> -->
-	<ArticleSubTitle metaData={data.frontmatter} />
-</div>
-<section itemscope itemtype="https://schema.org/BlogPosting">
-	<svelte:component this={component} />
-</section>
 
+<article>
+	<div style="align-items: inherit;">
+		<BlogPageHead data={data.frontmatter} slug={`blog/enneagram/${data.slug}`} />
+		<ArticleTitle title={data.frontmatter.title} />
+		<!-- <ArticleDescription description={data.frontmatter.description} /> -->
+		<ArticleSubTitle metaData={data.frontmatter} />
+	</div>
+	<section
+		itemscope
+		itemtype="https://schema.org/BlogPosting"
+		style="margin-top: 0; padding-top: 0;"
+	>
+		<svelte:component this={component} />
+	</section>
 </article>
 
 <hr style="margin: 5rem;" />

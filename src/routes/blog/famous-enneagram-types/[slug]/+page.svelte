@@ -31,7 +31,7 @@
 	<!-- <ArticleDescription description={data.metadata.description} /> -->
 	<ArticleSubTitle metaData={data.metadata} />
 </div>
-<section itemscope itemtype="https://schema.org/BlogPosting">
+<section itemscope itemtype="https://schema.org/BlogPosting" style="margin-top: 0; padding-top: 0;">
 	<svelte:component this={component} />
 </section>
 <hr style="margin: 5rem;" />

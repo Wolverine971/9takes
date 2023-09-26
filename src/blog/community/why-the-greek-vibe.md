@@ -14,8 +14,6 @@ previewHtml: ''
 pic: 'neoclassical-metropolis'
 ---
 
-
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -23,7 +21,6 @@ pic: 'neoclassical-metropolis'
 # Its called "neoclassical"
 
 The term "neoclassical" is derived from the Greek words "neo," meaning new, and "klassikos," which refers to the classical art and literature of ancient Greece and Rome. Neoclassical design draws inspiration from these ancient civilizations' art, architecture, and philosophy, aiming to bring their timeless elegance and grandeur to contemporary settings.
-
 
 <div
 	style="display: flex;

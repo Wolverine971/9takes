@@ -169,18 +169,18 @@ button:focus:not(:focus-visible) {
 	}
 
 	h2 {
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 		line-height: 1;
 		text-wrap: balance;
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		line-height: 1;
 		text-wrap: balance;
 	}
 	h4 {
-		font-size: 0.8rem;
+		font-size: 1.1rem;
 		line-height: 1;
 		text-wrap: balance;
 	}
@@ -292,3 +292,10 @@ figcaption {
 		transform: rotate(360deg);
 	}
 }
+
+
+.panel {
+    padding: 18px;
+    background-color: var(--color-paladin-1, white);
+    overflow: hidden;
+  }

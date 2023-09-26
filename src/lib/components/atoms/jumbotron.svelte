@@ -69,7 +69,9 @@
 </script>
 
 <div
-	role="banner" itemscope itemtype="http://schema.org/WPHeader"
+	role="banner"
+	itemscope
+	itemtype="http://schema.org/WPHeader"
 	class="jumbo-card {$page.url.pathname === '/' ? 'full-jumbo-card' : ''}"
 	style="aspect-ratio: {aspectRatio}; "
 >
