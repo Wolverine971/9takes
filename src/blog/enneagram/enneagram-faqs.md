@@ -28,8 +28,7 @@ previewHtml: ''
 <details>
 <summary class="accordion">What is enneagram?</summary>
 <div class="panel">
-
-  <p>The term "Enneagram" comes from the Greek words "ennea" and "gramma".</p>
+ <p>The term "Enneagram" comes from the Greek words "ennea" and "gramma".</p>
   <p>"Ennea" is the Greek word for nine, and "gramma" means something written or drawn. So, combined, "Enneagram" essentially translates to "nine-pointed diagram."</p>
   <p>The Enneagram symbol itself is a circle with nine points on its circumference, each point representing one of the nine fundamental personality types. These points are connected by lines to form a geometric figure that illustrates the connections and interactions among the types.</p>
   <p>Though the exact origins of the Enneagram system are a subject of debate, it is generally believed to have ancient roots, with influences from mystical aspects of Christianity, Sufism, and other spiritual traditions. The modern usage of the Enneagram as a personality typology is largely credited to the Bolivian psychologist and philosopher Oscar Ichazo in the mid-20th century, and later developed by psychiatrist Claudio Naranjo.</p>
@@ -51,8 +50,7 @@ previewHtml: ''
     <li>Type 8: The Challenger</li>
     <li>Type 9: The Peacemaker</li>
     </ul>
-
-  <!-- - Type 1: The Perfectionist
+ <!-- - Type 1: The Perfectionist
   + Type 2: The Helper
   + Type 3: The Achiever
   + Type 4: The Individualist
@@ -61,8 +59,7 @@ previewHtml: ''
   + Type 7: The Enthusiast
   + Type 8: The Challenger
   + Type 9: The Peacemaker -->
-
-  <p >Each type is characterized by a core motivation, core fear, and core desire that underlie their personality and
+ <p >Each type is characterized by a core motivation, core fear, and core desire that underlie their personality and
     behavior patterns.</p>
 </div>
 </details>
@@ -83,8 +80,7 @@ previewHtml: ''
     motivations, fears, and desires that define each type typically remain relatively stable over time. However, the
     Enneagram system emphasizes personal growth and self-awareness, and individuals can work to become more balanced and
     integrated within their type, as well as to develop traits and qualities associated with other types.
-
-  </p>
+ </p>
 </details>
 
 <details>
@@ -100,8 +96,7 @@ previewHtml: ''
 
 <details>
 <summary class="accordion">Is Enneagram scientific?</summary>
-
-  <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence
+ <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence
   and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
   Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are
   eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche
@@ -164,7 +159,7 @@ previewHtml: ''
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
 {
 	"@context": "http://schema.org",
 	"@type": "FAQPage",
@@ -319,12 +314,4 @@ previewHtml: ''
 </svelte:head>
 
 <style lang="scss">
-
-
-  .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-
-  }
 </style>

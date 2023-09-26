@@ -36,8 +36,7 @@ pic: 'greek-statues-party-vibes'
     subtext=""
   />
 </div>
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type 1 - The Perfectionist</h3>
 
 At a party, Type 1s are likely to be seen helping the host, making sure everything is perfect and that everyone is comfortable. They're not the first ones on the dance floor, but they might join in later if they feel it's appropriate. Type 1s attend the party because they want to have a good time, but they also want to ensure that everything is going according to plan. They're looking forward to spending time with friends and meeting new people but are likely to be a bit reserved.
@@ -77,8 +76,7 @@ At a party, Type 3s will likely be seen networking, making connections, and look
     subtext=""
   />
 </div>
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type 4 - The Individualist</h3>
 
 Type 4s are often the most unique and creative people at the party, expressing themselves through clothing, music, and conversation. They're likely to be found having deep discussions with a small group of people, and they may even perform or showcase their artistic talents. Type 4s attend the party to express themselves and connect with others who appreciate their uniqueness. They're looking forward to expressing themselves and connecting with like-minded individuals.
@@ -97,8 +95,7 @@ At a party, Type 5s are likely to be found observing, analyzing, and taking ever
 <div>
 <MarqueeHorizontal displayList={[{name: 'on a first date', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type 6 - The Loyalist</h3>
 
 Type 6s are often the most cautious and responsible people at the party, ensuring everyone is safe, and everything is going according to plan. They're likely to be found checking in with their friends and ensuring everyone is having a good time. Type 6s attend the party because they want to connect with others and have a good time, but they also want to ensure everyone is safe and responsible. They're looking forward to spending time with friends and making new connections.
@@ -130,8 +127,7 @@ Type 7s are often the most energetic and adventurous at a party, trying new thin
     subtext=""
   />
 </div>
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type 8 - The Challenger</h3>
 
 At a party, Type 8s are likely to be found leading the charge, taking charge of the situation, and asserting themselves in conversations. They're often the loudest and most dominant people at the party but also the most protective of their friends. Type 8s attend the party because they want to have fun and enjoy themselves, but they also want to ensure that their friends are safe and cared for. They're looking forward to having a good time and taking charge of the situation if necessary.
@@ -156,7 +152,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
     {
   "@context": "http://schema.org",
   "@type": "BlogPosting",

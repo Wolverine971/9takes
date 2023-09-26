@@ -36,8 +36,7 @@ pic: 'greek-statue-being-ghosted'
 </div>
 
 <p class="firstLetter">In the perplexing realm of modern relationships, the term "ghosting" has emerged. Those on the receiving end grapple with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.</p>
-
-  <article class="section-content">
+ <article class="section-content">
   <h3>Type One: The Perfectionist</h3>
    Type Ones, known for their strong sense of morality and desire for improvement, may struggle
    with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
@@ -48,17 +47,15 @@ pic: 'greek-statue-being-ghosted'
 
 [More on type 1s](/blog/enneagram/enneagram-type-1)
 
-  </article>
+ </article>
 
 <!-- <hr class="border"/>  -->
   <!-- <aside class="section-meta">
   
    <a href="/blog/enneagram/enneagram-type-1" class="a-type">Type 1</a>
    <p>The enneagram 1 is a put together creature</p>
-
-  </aside> -->
-
-  <article class="section-content">
+ </aside> -->
+ <article class="section-content">
    <h3>Type Two: The Helper</h3>
 
 Type Twos, known for their generosity and desire to help others, may struggle with feelings of
@@ -70,14 +67,12 @@ that they are worthy of love and respect.
 
 [More on type 2s](/blog/enneagram/enneagram-type-2)
 
-  </article>
-
-  <!-- <aside class="section-meta">
+ </article>
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-2" class="a-type">Type 2</a>
    <p>The enneagram 2 is a loving creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Three: The Achiever</h3>
 
 Type Threes, known for their ambition and desire for success, may struggle with feelings of
@@ -89,18 +84,16 @@ of love and respect.
 
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
-  </article>
+ </article>
 
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
-
-  <!-- <aside class="section-meta">
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>
    <p>The enneagram 3 is a shiny creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Four: The Individualist</h3>
 
 Type Fours, known for their sensitivity and desire for authenticity, may struggle with
@@ -112,7 +105,7 @@ that they are worthy of love and respect.
 
 [More on type 4s](/blog/enneagram/enneagram-type-4)
 
-  </article>
+ </article>
 
 <div
 	style="display: flex;
@@ -129,13 +122,11 @@ that they are worthy of love and respect.
 		subtext=""
 	/>
 </div>
-
-  <!-- <aside class="section-meta">
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
    <p>The enneagram 4 is a complicated creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Five: The Investigator</h3>
 
 Type Fives, known for their intellect and desire for knowledge, may struggle with feelings of
@@ -147,14 +138,12 @@ that they are worthy of love and respect.
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
-  </article>
-
-  <!-- <aside class="section-meta">
+ </article>
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-5" class="a-type">Type 5</a>
    <p>The enneagram 5 is a mysterious creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Six: The Loyalist</h3>
 
 Type Sixes, known for their loyalty and desire for security, may struggle with feelings of
@@ -166,14 +155,12 @@ that they are worthy of love and respect.
 
 [More on type 6s](/blog/enneagram/enneagram-type-6)
 
-  </article>
-
-  <!-- <aside class="section-meta">
+ </article>
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-6" class="a-type">Type 6</a>
    <p>The enneagram 6 is a wary creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Seven: The Enthusiast</h3>
 
 Type Sevens, known for their optimism and desire for adventure, may struggle with feelings of
@@ -185,14 +172,12 @@ and self-care, reminding themselves that they are worthy of love and respect.
 
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
-  </article>
-
-  <!-- <aside class="section-meta">
+ </article>
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-7" class="a-type">Type 7</a>
    <p>The enneagram 7 is a joyful creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Eight: The Challenger</h3>
 
 Type Eights, known for their confidence and desire for control, may struggle with feelings of
@@ -204,7 +189,7 @@ of love and respect.
 
 [More on type 8s](/blog/enneagram/enneagram-type-8)
 
-  </article>
+ </article>
 
 <div
 	style="display: flex;
@@ -221,22 +206,19 @@ of love and respect.
 		subtext=""
 	/>
 </div>
-
-  <!-- <aside class="section-meta">
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
    <p>The enneagram 8 is a strong creature</p>
   </aside> -->
-
-  <article class="section-content">
+ <article class="section-content">
    <h3>Type Nine: The Peacemaker</h3>
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
 
 [More on type 9s](/blog/enneagram/enneagram-type-9)
 
-  </article>
-
-  <!-- <aside class="section-meta">
+ </article>
+ <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
    <p>The enneagram 9 is a easy going creature</p>
   </aside> -->
@@ -249,7 +231,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
   {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
@@ -300,24 +282,20 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
-
-    @import '../../scss/index.scss';
-
-    .section-main {
+   @import '../../scss/index.scss';
+   .section-main {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .section-content {
+   .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
         padding: 10px;
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-
-    .section-meta {
+   .section-meta {
         margin: 10px;
         padding: 10px;
         /*transform: rotate(90deg);*/
@@ -337,10 +315,8 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     }
     .border {
         border-left: 4px solid slategrey;
-
-    }
-
-    .section-meta:hover {
+   }
+   .section-meta:hover {
         /*transform: rotate(360deg);*/
         max-width: 100%;
         /*max-height: 100%;*/
@@ -352,15 +328,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         flex-direction: column;
         /*transform: scale(1.1);*/
     }
-
-    .section-meta:hover:hover:after {
+   .section-meta:hover:hover:after {
         overflow-y: scroll;
     }
      .section-meta:hover:after {
         overflow-y: scroll;
     }
-
-    .a-type {
+   .a-type {
         /*background-color: hsl(222, 15%, 19%);*/
         border: var(--classic-border);
         border-radius: 5px;
@@ -374,34 +348,28 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         min-height: 35px;
         text-align: center;
     }
-
-    aside::-webkit-scrollbar {
+   aside::-webkit-scrollbar {
         width: 4px;
     }
-
-    aside::-webkit-scrollbar-track {
+   aside::-webkit-scrollbar-track {
         box-shadow: 0 0 4px slategrey;
     }
-
-    aside::-webkit-scrollbar-thumb {
+   aside::-webkit-scrollbar-thumb {
         background-color: slategrey;
         /*outline: .5px solid slategrey;*/
     }
-
-    @media all and (max-width: 576px) {
+   @media all and (max-width: 576px) {
         .section-main {
             display: block;
         }
-
-        .section-content {
+       .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;
             padding: 10px;
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-
-        .section-meta {
+       .section-meta {
             margin: 10px;
             padding: 10px;
             /*transform: rotate(90deg);*/
@@ -413,10 +381,8 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
             overflow: hidden;
             transition-timing-function: linear;
             display: flex;
-
-            width: 100%;
+           width: 100%;
             margin-bottom: 2rem;
         }
-
-    }
+   }
 </style>

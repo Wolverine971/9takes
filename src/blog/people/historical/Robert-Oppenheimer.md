@@ -197,5 +197,4 @@ Understanding people's personalities could pave the way for empathy and understa
 
 <style lang="scss">
 
-
 </style>

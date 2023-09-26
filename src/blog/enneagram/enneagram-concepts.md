@@ -133,18 +133,15 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     overflow-x: scroll;
 }
 tr {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 td {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 th {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 .scroll-table::-webkit-scrollbar {

@@ -78,8 +78,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
           "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
 "https://www.linkedin.com/in/davidtwayne/",
 "https://twitter.com/djwayne3"
-
-        ]
+       ]
       },
     "dateModified": "2023-08-26",
     "datePublished": "2023-04-01",

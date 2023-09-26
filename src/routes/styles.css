@@ -300,7 +300,7 @@ figcaption {
 }
 
 article {
-	border: 1px solid var(--color-paladin-3);
+	/* border: 1px solid var(--color-paladin-3); */
 	margin-top: 1rem;
 	padding: 1rem;
 	border-radius: 5px;
@@ -320,4 +320,53 @@ article {
 .accordion:hover {
 	background-color: var(--color-theme-purple-v);
 	color: var(--color-theme-purple);
+}
+
+.section-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-content {
+	/*border-right: 4px solid slategrey;*/
+	margin: 10px;
+	padding: 10px;
+	transition: transform 0.7s ease-in-out;
+	flex: 1;
+}
+
+.section-meta {
+	margin: 10px;
+	padding: 10px;
+	/*transform: rotate(90deg);*/
+	/*transition: transform .7s ease-in-out;*/
+	transition: all 1s ease-in-out;
+	text-overflow: ellipsis;
+	/*max-width: 10rem;*/
+	max-height: 10rem;
+	overflow: hidden;
+	transition-timing-function: linear;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 10%;
+	border: var(--classic-border);
+	border-radius: 5px;
+}
+
+.scroll-table {
+	overflow-x: scroll;
+}
+tr {
+	border: var(--classic-border);
+	text-align: center;
+}
+td {
+	border: var(--classic-border);
+	text-align: center;
+}
+th {
+	border: var(--classic-border);
+	text-align: center;
 }

@@ -190,11 +190,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <style lang="scss">
 
-
-  .panel {
+ .panel {
     padding: 18px;
     background-color: var(--color-paladin-1, white);
     overflow: hidden;
-
-  }
+ }
 </style>

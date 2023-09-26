@@ -93,7 +93,7 @@ When you answer a question your selected "personality" is displayed next to your
 
 In a world where absolutes and fact checking we forget that many of the things we are searching for don't have black and white answers. 9takes invites users to explore different takes on questions because there is not just one right perspective. There is a kaleidoscope of different takes and diamonds in the rough waiting to be uncovered.
 
- <!-- But most of our time on the internet is spent searching for the answers to our 
+<!-- But most of our time on the internet is spent searching for the answers to our
 However all  -->
 
 <!-- the first step for doing everything. Determining that the world revolved around the sun started out by questioning the status quo

@@ -137,7 +137,7 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@graph": [

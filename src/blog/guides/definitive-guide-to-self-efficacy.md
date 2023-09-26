@@ -119,20 +119,16 @@ Self-efficacy is not just a theoretical concept; it manifests in real-life scena
 #### Self-Efficacy Examples
 
 - **Starting a Fitness Journey**
-
-  - Imagine you've never been the athletic type, but one day you wake up and decide, "I'm going to run a marathon." Crazy, right? But here's the thing: you're so convinced that if you stick to a training program and eat right, you'll cross that finish line. Sure, you'll face muscle soreness and days when you'd rather stay in bed, but you push through. Why? Because you believe you can do it. And guess what? You end up completing the marathon, turning the impossible into the possible.
+- Imagine you've never been the athletic type, but one day you wake up and decide, "I'm going to run a marathon." Crazy, right? But here's the thing: you're so convinced that if you stick to a training program and eat right, you'll cross that finish line. Sure, you'll face muscle soreness and days when you'd rather stay in bed, but you push through. Why? Because you believe you can do it. And guess what? You end up completing the marathon, turning the impossible into the possible.
 
 - **Pursuing a Creative Hobby**
-
-  - Now, let's say you've always had a soft spot for painting but never really got around to it. One day, you decide enough is enough. You're going to become a painter. You invest in quality art supplies and even enroll in a course. Why? Because you genuinely believe that with time and practice, you'll get good at it. And you do. Your art starts to get noticed, and what was once a hobby starts looking like a potential career.
+- Now, let's say you've always had a soft spot for painting but never really got around to it. One day, you decide enough is enough. You're going to become a painter. You invest in quality art supplies and even enroll in a course. Why? Because you genuinely believe that with time and practice, you'll get good at it. And you do. Your art starts to get noticed, and what was once a hobby starts looking like a potential career.
 
 - **Overcoming Social Anxiety**
-
-  - Imagine you've always been the shy one in the room, avoiding social events like the plague. But then you decide you've had enough. You start saying 'yes' to invitations and even seek professional help to manage your anxiety. It's not easy, but you're convinced that you can overcome this. And slowly but surely, you do. You start enjoying social gatherings and make new friends, all because you believed you could change.
+- Imagine you've always been the shy one in the room, avoiding social events like the plague. But then you decide you've had enough. You start saying 'yes' to invitations and even seek professional help to manage your anxiety. It's not easy, but you're convinced that you can overcome this. And slowly but surely, you do. You start enjoying social gatherings and make new friends, all because you believed you could change.
 
 - **Switching Career Paths**
-
-  - Picture this: you're well into your career, but you're not happy. You decide to switch industries. It's a risky move, filled with uncertainties and a steep learning curve. But you're not deterred. You believe your skills are transferable and that you can learn what you don't know. So, you take courses, network like crazy, and apply for jobs that scare you a little. And it pays off. You land a job in your new field, proving that self-belief can indeed move mountains.
+- Picture this: you're well into your career, but you're not happy. You decide to switch industries. It's a risky move, filled with uncertainties and a steep learning curve. But you're not deterred. You believe your skills are transferable and that you can learn what you don't know. So, you take courses, network like crazy, and apply for jobs that scare you a little. And it pays off. You land a job in your new field, proving that self-belief can indeed move mountains.
 
 - **Parenting a Special Needs Child**
   - Lastly, imagine becoming parents to a special needs child. It's overwhelming and challenging, but you don't let that break you. You're convinced that with the right education, expert advice, and a whole lot of love, you can give your child a fulfilling life. So, you dive into research, consult experts, and become your child's biggest advocate. Your belief in your ability to make a difference becomes a self-fulfilling prophecy, improving not just your child's life but yours as well.

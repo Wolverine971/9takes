@@ -73,7 +73,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
 
 <svelte:head>
 
-   <script type="application/ld+json">
+  <script type="application/ld+json">
 	{
   "@context": "http://schema.org",
   "@graph": [

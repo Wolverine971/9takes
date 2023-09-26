@@ -82,21 +82,7 @@
 		margin: 1rem;
 		padding: 1rem;
 	}
-	.scroll-table {
-		overflow-x: scroll;
-	}
-	tr {
-		border: var(--classic-border);
-		text-align: center;
-	}
-	td {
-		border: var(--classic-border);
-		text-align: start;
-	}
-	th {
-		border: var(--classic-border);
-		text-align: center;
-	}
+
 	.scroll-table::-webkit-scrollbar {
 		width: 1rem;
 	}

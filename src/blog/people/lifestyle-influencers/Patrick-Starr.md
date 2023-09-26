@@ -81,5 +81,4 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 <style lang="scss">
 
-
 </style>

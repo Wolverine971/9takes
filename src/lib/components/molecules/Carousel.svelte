@@ -274,8 +274,7 @@ cwebp "self-pres.png" -o "self-pres.webp"
 cwebp "background3.png" -o "background3.webp"
 
 
-
- -->
+-->
 <style lang="scss">
 	.slide-name {
 		text-align: center;

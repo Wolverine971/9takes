@@ -234,6 +234,5 @@ Join us at 9takes - a community that values the exploration of personalities and
     padding: 18px;
     background-color: white;
     overflow: hidden;
-
-  }
+ }
 </style>

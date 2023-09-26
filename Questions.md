@@ -1,84 +1,84 @@
-## All the questions:
+## All the questions
 
 1. Politics and Policy:
 
-   - Politics: Opinions on political parties, candidates, policies, current events.
-   - International Relations: Views on foreign policies, global issues.
-   - Public Policy: Opinions on local or national policies, proposed legislation, government regulation.
-   - Military and Defense: Views on military spending, defense strategies, veterans' issues.
+- Politics: Opinions on political parties, candidates, policies, current events.
+- International Relations: Views on foreign policies, global issues.
+- Public Policy: Opinions on local or national policies, proposed legislation, government regulation.
+- Military and Defense: Views on military spending, defense strategies, veterans' issues.
 
 2. Society and Culture:
 
-   - Societal Issues: Subjects like equality, justice, human rights, social welfare.
-   - Cultural Topics: Opinions about art, literature, movies, music, food, cultural phenomena.
-   - Diversity and Inclusion: Views on diversity in the workplace, inclusivity in media, representation.
-   - Religion and Philosophy: Personal beliefs, views on religious practices, moral and ethical dilemmas, philosophical inquiries.
-   - Ageing and Retirement: Opinions about the ageing process, senior care, retirement planning.
-   - Recreational Drugs and Alcohol: Opinions about the legalization of certain substances, their societal impact.
+- Societal Issues: Subjects like equality, justice, human rights, social welfare.
+- Cultural Topics: Opinions about art, literature, movies, music, food, cultural phenomena.
+- Diversity and Inclusion: Views on diversity in the workplace, inclusivity in media, representation.
+- Religion and Philosophy: Personal beliefs, views on religious practices, moral and ethical dilemmas, philosophical inquiries.
+- Ageing and Retirement: Opinions about the ageing process, senior care, retirement planning.
+- Recreational Drugs and Alcohol: Opinions about the legalization of certain substances, their societal impact.
 
 3. Economy and Work:
 
-   - Economics: Opinions about economic theories, state of the economy, personal finance strategies.
-   - Work and Career: Work-life balance, career development, industry trends.
-   - Entrepreneurship and Startups: Opinions about starting a business, entrepreneurship challenges, venture capital.
-   - Housing and Urban Development: Architecture, city planning, housing policies.
-   - Real Estate and Property: Property investment, real estate market trends, housing policies.
-   - Consumer Goods and Services: Opinions on different brands, products, services.
-   - Cryptocurrency and Blockchain: Future of these technologies, their impact on economies, benefits/drawbacks of decentralized finance.
+- Economics: Opinions about economic theories, state of the economy, personal finance strategies.
+- Work and Career: Work-life balance, career development, industry trends.
+- Entrepreneurship and Startups: Opinions about starting a business, entrepreneurship challenges, venture capital.
+- Housing and Urban Development: Architecture, city planning, housing policies.
+- Real Estate and Property: Property investment, real estate market trends, housing policies.
+- Consumer Goods and Services: Opinions on different brands, products, services.
+- Cryptocurrency and Blockchain: Future of these technologies, their impact on economies, benefits/drawbacks of decentralized finance.
 
 4. Technology and Innovation:
 
-   - Technology: Impact and future of technology.
-   - Cybersecurity: Data privacy, hacking, online safety.
-   - Automation and Robotics: Rise of automation, future of work, ethical considerations of robotics.
-   - Internet and Digital Culture: Internet trends, memes, digital subcultures, online communities.
-   - Quantum Computing and Physics: Potential impact of quantum computing, implications of quantum physics theories.
-   - Nanotechnology and Material Science: Potential applications of nanotechnology, ethics of manipulating materials on a microscopic scale.
-   - Virtual Reality and Augmented Reality: Impact of these technologies on entertainment, education, work.
+- Technology: Impact and future of technology.
+- Cybersecurity: Data privacy, hacking, online safety.
+- Automation and Robotics: Rise of automation, future of work, ethical considerations of robotics.
+- Internet and Digital Culture: Internet trends, memes, digital subcultures, online communities.
+- Quantum Computing and Physics: Potential impact of quantum computing, implications of quantum physics theories.
+- Nanotechnology and Material Science: Potential applications of nanotechnology, ethics of manipulating materials on a microscopic scale.
+- Virtual Reality and Augmented Reality: Impact of these technologies on entertainment, education, work.
 
 5. Personal Interests and Lifestyle:
 
-   - Personal Preferences: Favorite foods, preferred styles of clothing, leisure activities.
-   - Relationships and Family: Familial relations, friendship, love and romance, parenting.
-   - Travel and Tourism: Personal travel experiences, impact of tourism on local communities, favorite travel destinations.
-   - Sports: Favorite sports, teams, players, rules, significance and societal role of sports.
-   - Hobbies and Interests: Personal hobbies, interests, leisure activities.
-   - Fashion and Style: Fashion trends, personal style, the fashion industry.
-   - Food and Nutrition: Dietary preferences, opinions on different diets or food trends, food ethics.
-   - Minimalism and Simple Living: Opinions about the minimalist lifestyle, consumerism.
+- Personal Preferences: Favorite foods, preferred styles of clothing, leisure activities.
+- Relationships and Family: Familial relations, friendship, love and romance, parenting.
+- Travel and Tourism: Personal travel experiences, impact of tourism on local communities, favorite travel destinations.
+- Sports: Favorite sports, teams, players, rules, significance and societal role of sports.
+- Hobbies and Interests: Personal hobbies, interests, leisure activities.
+- Fashion and Style: Fashion trends, personal style, the fashion industry.
+- Food and Nutrition: Dietary preferences, opinions on different diets or food trends, food ethics.
+- Minimalism and Simple Living: Opinions about the minimalist lifestyle, consumerism.
 
 6. Health and Wellness:
 
-   - Health: Personal health habits, healthcare policy, mental health awareness, diet, exercise.
-   - Mental Health: Personal attitudes and societal views towards mental health and wellness, therapy, mindfulness.
-   - Physical Fitness and Wellness: Various workout regimens, wellness trends, health supplements.
-   - Healthcare Systems: Effectiveness of different healthcare models, health insurance, public health
-   - Alternative Medicine: Opinions about the effectiveness or value of non-traditional medical practices.
-   - Nutrition and Diet: Views on different diet trends, nutritional science.
+- Health: Personal health habits, healthcare policy, mental health awareness, diet, exercise.
+- Mental Health: Personal attitudes and societal views towards mental health and wellness, therapy, mindfulness.
+- Physical Fitness and Wellness: Various workout regimens, wellness trends, health supplements.
+- Healthcare Systems: Effectiveness of different healthcare models, health insurance, public health
+- Alternative Medicine: Opinions about the effectiveness or value of non-traditional medical practices.
+- Nutrition and Diet: Views on different diet trends, nutritional science.
 
 7. Education and Personal Development:
 
-   - Education: Schooling practices, educational policy, value of different types of education
-   - Education Systems: Effectiveness of different education systems, teaching methodologies
-   - Personal Development: Self-improvement, learning methods, life choices.
-   - Parenting and Childcare: Views on parenting styles, childhood education, screen time for kids.
-   - Digital Literacy and E-learning: Opinions about the importance of digital literacy, the effectiveness of online learning.
+- Education: Schooling practices, educational policy, value of different types of education
+- Education Systems: Effectiveness of different education systems, teaching methodologies
+- Personal Development: Self-improvement, learning methods, life choices.
+- Parenting and Childcare: Views on parenting styles, childhood education, screen time for kids.
+- Digital Literacy and E-learning: Opinions about the importance of digital literacy, the effectiveness of online learning.
 
 8. Environment and Sustainability:
 
-   - Environment: Climate change, conservation, sustainability.
-   - Climate and Environment: Environmental policies, conservation, climate change, renewable energy.
-   - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
+- Environment: Climate change, conservation, sustainability.
+- Climate and Environment: Environmental policies, conservation, climate change, renewable energy.
+- Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
 
 9. Space and Astronomy
 
-   - Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
-   - Solar System Exploration: Opinions about missions to planets, moons, and other celestial bodies within our solar system.
-   - Deep Space and Cosmology: Theories and thoughts about the broader universe, black holes, galaxies, and the big bang.
-   - Space Missions and Technology: Views on space agencies, spaceflights, satellite technologies, and space exploration advancements.
-   - Astronomy and Observational Science: Stargazing, telescopes, significant astronomical events, and discoveries.
-   - Astrophysics and Theoretical Concepts: Discussions about the underlying physics of the universe, concepts like dark matter, and dark energy.
-   - Space Ethics and Colonization: Debates around the ethics of space exploration, colonization of other planets, and the potential impact on extraterrestrial ecosystems.
+- Extraterrestrial Life: Beliefs about the existence of life elsewhere in the universe.
+- Solar System Exploration: Opinions about missions to planets, moons, and other celestial bodies within our solar system.
+- Deep Space and Cosmology: Theories and thoughts about the broader universe, black holes, galaxies, and the big bang.
+- Space Missions and Technology: Views on space agencies, spaceflights, satellite technologies, and space exploration advancements.
+- Astronomy and Observational Science: Stargazing, telescopes, significant astronomical events, and discoveries.
+- Astrophysics and Theoretical Concepts: Discussions about the underlying physics of the universe, concepts like dark matter, and dark energy.
+- Space Ethics and Colonization: Debates around the ethics of space exploration, colonization of other planets, and the potential impact on extraterrestrial ecosystems.
 
 10. Arts and Entertainment:
 
@@ -94,7 +94,7 @@
 - Human Rights: Discussions on global human rights issues, treaties, and violations.
 - Intellectual Property: Debates around patents, copyrights, trademarks.
 
-1.  Science and Research:
+1. Science and Research:
 
 - Biology and Genetics: Discussions about genetic engineering, CRISPR, and ethical considerations.
 - Chemistry: Latest discoveries, advancements, and societal impacts.
@@ -120,7 +120,7 @@
 - Archaeological Discoveries: Latest findings, their significance, and what they tell us about the past.
 - Modern History: World wars, significant events of the 20th and 21st centuries.
 
-## Question Heirarchy:
+## Question Heirarchy
 
 - Closed-ended Questions
   - Yes/No Questions

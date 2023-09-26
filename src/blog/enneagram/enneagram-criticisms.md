@@ -150,13 +150,12 @@ Enneagram Criticisms (200 words)
   <summary class="accordion">There are many personality systems, the Enneagram isn't special</summary>
   <div class="panel" style="margin: 16px 0"><p>
     <p>
-
- </p></div>
+</p></div>
 </details> -->
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
     {
   "@context": "http://schema.org",
   "@graph": [
@@ -257,6 +256,5 @@ Enneagram Criticisms (200 words)
 
 <style lang="scss">
 
-
-  
+ 
 </style>

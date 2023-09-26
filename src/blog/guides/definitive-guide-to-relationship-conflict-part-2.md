@@ -210,11 +210,9 @@ conflict resolution exercises for couples -->
 
 <style lang="scss">
 
-
-  .panel {
+ .panel {
     padding: 18px;
     background-color: var(--color-paladin-1);
     overflow: hidden;
-
-  }
+ }
 </style>

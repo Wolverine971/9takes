@@ -49,7 +49,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <svelte:head>
 
-  <script type="application/ld+json">
+ <script type="application/ld+json">
     {
   "@context": "http://schema.org",
   "@graph": [
@@ -63,9 +63,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "sameAs": [
           "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
 "https://www.linkedin.com/in/davidtwayne/",
-"https://twitter.com/djwayne3"
-
-        ]
+"https://twitter.com/djwayne3" ]
       },
       "dateModified": {
         "@type": "Date",

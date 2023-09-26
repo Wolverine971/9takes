@@ -84,11 +84,4 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </svelte:head>
 
 <style lang="scss">
-
-
-  .panel {
-    padding: 18px;background-color: var(--color-paladin-1, white);
-    overflow: hidden;
-
-  }
 </style>

@@ -37,8 +37,7 @@ Pete Davidson biography
 Pete Davidson mental health
 Pete Davidson style
 Pete Davidson jokes
-
- -->
+-->
  <!-- ariana grande, kim kardashian, kanye -->
 
 <script>

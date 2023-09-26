@@ -347,24 +347,20 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
 </svelte:head>
 
 <style lang="scss">
-
-    @import '../../scss/index.scss';
-
-    .section-main {
+   @import '../../scss/index.scss';
+   .section-main {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .section-content {
+   .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
         padding: 10px;
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-
-    .section-meta {
+   .section-meta {
         margin: 10px;
         padding: 10px;
         /*transform: rotate(90deg);*/
@@ -384,10 +380,8 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
     }
     .border {
         border-left: 4px solid slategrey;
-
-    }
-
-    .section-meta:hover {
+   }
+   .section-meta:hover {
         /*transform: rotate(360deg);*/
         max-width: 100%;
         /*max-height: 100%;*/
@@ -399,15 +393,13 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
         flex-direction: column;
         /*transform: scale(1.1);*/
     }
-
-    .section-meta:hover:hover:after {
+   .section-meta:hover:hover:after {
         overflow-y: scroll;
     }
      .section-meta:hover:after {
         overflow-y: scroll;
     }
-
-    .a-type {
+   .a-type {
         /*background-color: hsl(222, 15%, 19%);*/
         border: var(--classic-border);
         border-radius: 5px;
@@ -421,34 +413,28 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
         min-height: 35px;
         text-align: center;
     }
-
-    aside::-webkit-scrollbar {
+   aside::-webkit-scrollbar {
         width: 4px;
     }
-
-    aside::-webkit-scrollbar-track {
+   aside::-webkit-scrollbar-track {
         box-shadow: 0 0 4px slategrey;
     }
-
-    aside::-webkit-scrollbar-thumb {
+   aside::-webkit-scrollbar-thumb {
         background-color: slategrey;
         /*outline: .5px solid slategrey;*/
     }
-
-    @media all and (max-width: 576px) {
+   @media all and (max-width: 576px) {
         .section-main {
             display: block;
         }
-
-        .section-content {
+       .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;
             padding: 10px;
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-
-        .section-meta {
+       .section-meta {
             margin: 10px;
             padding: 10px;
             /*transform: rotate(90deg);*/
@@ -460,10 +446,8 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
             overflow: hidden;
             transition-timing-function: linear;
             display: flex;
-
-            width: 100%;
+           width: 100%;
             margin-bottom: 2rem;
         }
-
-    }
+   }
 </style>

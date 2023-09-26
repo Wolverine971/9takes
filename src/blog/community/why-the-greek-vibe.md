@@ -82,18 +82,15 @@ Were Socrates alive today, he'd likely be fascinated and dismayed by our digital
     overflow-x: scroll;
 }
 tr {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 td {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 th {
-
-    border: var(--classic-border);
+   border: var(--classic-border);
     text-align: center;
 }
 
