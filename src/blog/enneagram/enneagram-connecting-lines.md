@@ -43,7 +43,7 @@ Each Enneagram type is connected to two other types via lines. One line leads to
 
 Let's explore how this works for each type:
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 1 - The Reformer</h3>
 
@@ -53,9 +53,9 @@ Stress/ Disintegration **(Moving to Type Four)**: However, when stress mounts, O
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 2 - The Helper</h3>
 
@@ -65,9 +65,9 @@ Stress/ Disintegration **(Moving to Type Eight**): Under pressure, Twos might ex
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 3 - The Achiever</h3>
 
@@ -77,9 +77,9 @@ Stress/ Disintegration **(Moving to Type Nine)**: Stressed Threes, however, can 
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 4 - The Individualist</h3>
 
@@ -89,9 +89,9 @@ Stress/ Disintegration **(Moving to Type Two)**: But under stress, Fours can tur
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 5 - The Investigator</h3>
 
@@ -101,9 +101,9 @@ Stress/ Disintegration **(Moving to Type Seven)**: However, during disintegratio
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 6 - The Loyalist</h3>
 
@@ -113,9 +113,9 @@ Stress/ Disintegration **(Moving to Type Three)**: Under stress, Sixes can adopt
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 7 - The Enthusiast</h3>
 
@@ -125,9 +125,9 @@ Stress/ Disintegration **(Moving to Type One)**: But when under stress, Sevens c
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 8 - The Challenger</h3>
 
@@ -137,9 +137,9 @@ Stress/ Disintegration **(Moving to Type Five)**: When stressed, Eights may retr
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h3>Type 9 - The Peacemaker</h3>
 
@@ -149,7 +149,7 @@ Stress/ Disintegration **(Moving to Type Six)**: Under stress, Nines can resembl
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrapping up
 
@@ -244,15 +244,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <style lang="scss">
 
-  @import '../../scss/index.scss';
-   h4, h3 {
-          margin: 0;
-    }
-    .section-main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -278,9 +269,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         border: var(--classic-border);
         border-radius: 5px;
     }
-    .border {
-        border-left: 4px solid slategrey;
-   }
    .section-meta:hover {
         /*transform: rotate(360deg);*/
         max-width: 100%;
@@ -299,20 +287,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
      .section-meta:hover:after {
         overflow-y: scroll;
     }
-   .a-type {
-        /*background-color: hsl(222, 15%, 19%);*/
-        border: var(--classic-border);
-        border-radius: 5px;
-        padding: 10px 20px;
-        color:  var(--color-paladin-5);
-        font-size: 16px;
-        margin: 1rem;
-        padding: 0.4rem;
-        white-space: nowrap;
-        min-width: 85px;
-        min-height: 35px;
-        text-align: center;
-    }
+   
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -334,20 +309,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       .section-meta {
-            margin: 10px;
-            padding: 10px;
-            /*transform: rotate(90deg);*/
-            /*transition: transform .7s ease-in-out;*/
-            transition: all 1s ease-in-out;
-            text-overflow: ellipsis;
-            /*max-width: 10rem;*/
-            max-height: none;
-            overflow: hidden;
-            transition-timing-function: linear;
-            display: flex;
-           width: 100%;
-            margin-bottom: 2rem;
-        }
+       
    }
 </style>

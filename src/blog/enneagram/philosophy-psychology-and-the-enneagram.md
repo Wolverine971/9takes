@@ -196,43 +196,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 </svelte:head>
 
-<style>
-
-table {
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #212529;
-    border: var(--classic-border);
-
-}
-thead {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-th {
-    border-bottom-width: 2px;
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-    border: var(--classic-border);
-    padding: 0.75rem;
-}
-
-td {
-    padding: 0.75rem;
-    vertical-align: top;
-    border: var(--classic-border);
-    text-align: center;
-}
-
-.scroll-table {
-    overflow-x: scroll;
-}
+<style lang="scss">
 
 </style>

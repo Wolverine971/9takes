@@ -259,57 +259,10 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 
 </svelte:head>
 
-<style>
-.scroll-table {
-    overflow-x: scroll;
-}
-
-thead {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-th {
-    border-bottom-width: 2px;
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-    border: var(--classic-border);
-    padding: 0.75rem;
-}
-
-td {
-    padding: 0.75rem;
-    vertical-align: top;
-    border: var(--classic-border);
-    text-align: center;
-}
-
-.scroll-table::-webkit-scrollbar {
-    width: 1rem;
-}
-
-.scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 .2rem var(--color-paladin-3);
-    border-radius:5px;
-}
-
-.scroll-table::-webkit-scrollbar-thumb {
-    background-color: var(--color-paladin-3);
-    border-radius:5px
-}
+<style lang="scss">
 
 /* @import '../../scss/index.scss'; */
-   .section-main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+   
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -317,59 +270,8 @@ td {
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   .section-meta {
-        margin: 10px;
-        padding: 10px;
-        /*transform: rotate(90deg);*/
-        /*transition: transform .7s ease-in-out;*/
-        transition: all 1s ease-in-out;
-        text-overflow: ellipsis;
-        /*max-width: 10rem;*/
-        max-height: 10rem;
-        overflow: hidden;
-        transition-timing-function: linear;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 10%;
-        border: var(--classic-border);
-        border-radius: 5px;
-    }
-    .border {
-        border-left: 4px solid slategrey;
-   }
-   .section-meta:hover {
-        /*transform: rotate(360deg);*/
-        max-width: 100%;
-        /*max-height: 100%;*/
-        overflow-y: scroll;
-        margin-left: 10px;
-        display: flex;
-        width: 20%;
-        align-items: center;
-        flex-direction: column;
-        /*transform: scale(1.1);*/
-    }
-   .section-meta:hover:hover:after {
-        overflow-y: scroll;
-    }
-     .section-meta:hover:after {
-        overflow-y: scroll;
-    }
-   .a-type {
-        /*background-color: hsl(222, 15%, 19%);*/
-        border: var(--classic-border);
-        border-radius: 5px;
-        padding: 10px 20px;
-        color:  var(--color-paladin-5);
-        font-size: 16px;
-        margin: 1rem;
-        padding: 0.4rem;
-        white-space: nowrap;
-        min-width: 85px;
-        min-height: 35px;
-        text-align: center;
-    }
+   
+   
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -391,21 +293,7 @@ td {
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       .section-meta {
-            margin: 10px;
-            padding: 10px;
-            /*transform: rotate(90deg);*/
-            /*transition: transform .7s ease-in-out;*/
-            transition: all 1s ease-in-out;
-            text-overflow: ellipsis;
-            /*max-width: 10rem;*/
-            max-height: none;
-            overflow: hidden;
-            transition-timing-function: linear;
-            display: flex;
-           width: 100%;
-            margin-bottom: 2rem;
-        }
+       
    }
 
 </style>

@@ -117,9 +117,5 @@ type: ['overview']
 
 </div>
 
-<style>
-.scroll-table {
-    overflow-x: scroll;
-}
-
+<style lang="scss">
 </style>

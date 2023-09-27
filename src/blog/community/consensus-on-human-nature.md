@@ -108,39 +108,5 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 
 So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
 
-<style>
-    table {
-        margin: 1rem;
-    }
-
-.scroll-table {
-    overflow-x: scroll;
-}
-tr {
-   border: var(--classic-border);
-    text-align: center;
-}
-td {
-   border: var(--classic-border);
-    text-align: center;
-}
-th {
-   border: var(--classic-border);
-    text-align: center;
-}
-
-.scroll-table::-webkit-scrollbar {
-    width: 1rem;
-}
-
-.scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 .2rem var(--color-paladin-3);
-    border-radius:5px;
-}
-
-.scroll-table::-webkit-scrollbar-thumb {
-    background-color: var(--color-paladin-3);
-    border-radius:5px
-}
-
+<style lang="scss">
 </style>

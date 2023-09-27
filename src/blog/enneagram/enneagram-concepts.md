@@ -128,34 +128,5 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
 
 </svelte:head>
 
-<style>
-.scroll-table {
-    overflow-x: scroll;
-}
-tr {
-   border: var(--classic-border);
-    text-align: center;
-}
-td {
-   border: var(--classic-border);
-    text-align: center;
-}
-th {
-   border: var(--classic-border);
-    text-align: center;
-}
-.scroll-table::-webkit-scrollbar {
-    width: 1rem;
-}
-
-.scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 .2rem var(--color-paladin-3);
-    border-radius:5px;
-}
-
-.scroll-table::-webkit-scrollbar-thumb {
-    background-color: var(--color-paladin-3);
-    border-radius:5px
-}
-
+<style lang="scss">
 </style>

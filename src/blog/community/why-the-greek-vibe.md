@@ -73,39 +73,5 @@ Were Socrates alive today, he'd likely be fascinated and dismayed by our digital
 
 9takes aims to address this void. By weaving in Greek philosophy and iconography elements, it honors the profound insights of thinkers like Socrates. The platform harks back to an era where discourse was profound, ideas transformative, and the pursuit of knowledge was revered.
 
-<style>
-    table {
-        margin: 1rem;
-    }
-
-.scroll-table {
-    overflow-x: scroll;
-}
-tr {
-   border: var(--classic-border);
-    text-align: center;
-}
-td {
-   border: var(--classic-border);
-    text-align: center;
-}
-th {
-   border: var(--classic-border);
-    text-align: center;
-}
-
-.scroll-table::-webkit-scrollbar {
-    width: 1rem;
-}
-
-.scroll-table::-webkit-scrollbar-track {
-    box-shadow: 0 0 .2rem var(--color-paladin-3);
-    border-radius:5px;
-}
-
-.scroll-table::-webkit-scrollbar-thumb {
-    background-color: var(--color-paladin-3);
-    border-radius:5px
-}
-
+<style lang="scss">
 </style>
