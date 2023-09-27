@@ -37,7 +37,9 @@
 		let name = document.querySelector('.name-pop');
 		let iteration = 0;
 
-		clearInterval(interval);
+		if (interval) {
+			clearInterval(interval);
+		}
 		if (name) {
 			interval = setInterval(() => {
 				if (name) {
@@ -52,7 +54,7 @@
 						})
 						.join('');
 
-					if (iteration >= name.dataset.value.length) {
+					if (iteration && iteration >= name.dataset.value.length) {
 						clearInterval(interval);
 					}
 				}
@@ -124,7 +126,6 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<!-- <caseyNeistatCareer iconStyle="" fill={''} /> -->
 
 <div
 	class="pop-card"
@@ -149,11 +150,6 @@
 		showDescription = false;
 	}}
 >
-	<!-- <div
-		class="pop-card-image {showIcon ? 'home' : 'profileFace'}"
-		style="background-image: url({image});"
-		in:fly={{ y: 200, duration: 2000 }}
-	/> -->
 	<img
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
 			showDescription &&
@@ -166,15 +162,12 @@
 	/>
 	<div class="pop-card-overlay" />
 	<div class="pop-card-content">
-		<!-- <i  /> -->
 		{#if showIcon}
 			<img class="pop-card-icon" src="darkRubix.webp" alt="rubix cube" style="width: 10%;" />
 		{/if}
 
 		<div class="pop-card-user">
 			{#if showDescription}
-				<!-- {#if showDescription} -->
-				<!-- transition:blur={{ amount: 10 }} -->
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
 					<p class="big-p">
 						<b>Type:</b>

@@ -2,26 +2,22 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
-import { error, redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 
 import { PRIVATE_DEMO } from '$env/static/private';
 
 import type { Actions } from './$types';
 
 /** @type {import('./$types').PageLoad} */
-export const load: PageServerLoad = async (event: any) => {
+export const load: PageServerLoad = async (event) => {
 	const session = await getServerSession(event);
-	const {
-		data: user,
-		error: findUserError,
-		status
-	} = await supabase
+	const { data: user, error: findUserError } = await supabase
 		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 		.select('id, enneagram, external_id')
 		.eq('external_id', event.params.externalId)
 		.single();
 
-	let { data: subscriptions, error: subscriptionsError } = await supabase
+	const { data: subscriptions, error: subscriptionsError } = await supabase
 		.from('subscriptions')
 		.select(
 			`*,
@@ -29,11 +25,19 @@ export const load: PageServerLoad = async (event: any) => {
 		)
 		.eq('user_id', user?.id);
 
-	let { data: comments, error: commentsError } = await supabase
+	if (subscriptionsError) {
+		console.log(subscriptionsError);
+	}
+
+	const { data: comments, error: commentsError } = await supabase
 		.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 		.select(`*,`)
 		.eq('author_id', user?.id)
 		.order('created_at', { ascending: false });
+
+	if (commentsError) {
+		console.log(commentsError);
+	}
 
 	// got to map the question separately
 	// ${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)
@@ -58,11 +62,7 @@ export const actions: Actions = {
 
 			const email = body.email as string;
 
-			const {
-				data,
-				error: updateUserError,
-				status
-			} = await supabase
+			const { error: updateUserError } = await supabase
 				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);

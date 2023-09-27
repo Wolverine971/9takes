@@ -1,7 +1,4 @@
 <script lang="ts">
-	// import { onMount } from 'svelte';
-	// import PopCard from '$lib/components/atoms/PopCard.svelte';
-
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 
 	const famousTypes: { [index: number]: any[] } = {
@@ -130,18 +127,6 @@
 			{ name: 'Keanu-Reeves', link: true }
 		]
 	};
-	// onMount(() => {
-	// 	visibleImage = famousTypes[type][1];
-	// 	setInterval(changePerson, 3333);
-	// });
-	// let visibleImage: string = '';
-	// const changePerson = () => {
-	// 	let index = famousTypes[type].indexOf(visibleImage);
-	// 	visibleImage =
-	// 		index < 0 || !famousTypes[type][index + 1]
-	// 			? famousTypes[type][0]
-	// 			: famousTypes[type][index + 1];
-	// };
 </script>
 
 <ul>

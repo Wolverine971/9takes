@@ -1,6 +1,6 @@
 import { slugFromPath } from './slugFromPath';
 
-export async function getPosts() {
+export const getPosts = async () => {
 	const enneagramModules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then((post) => ({
@@ -34,7 +34,7 @@ export async function getPosts() {
 		.sort((a, b) => (a.date < b.date ? 1 : -1));
 
 	return posts;
-}
+};
 
 const getAllPosts = async (): Promise<App.BlogPost[]> => {
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);

@@ -19,9 +19,6 @@
 /*
   3. Allow percentage-based heights in the application
 */
-body {
-	height: 100%;
-}
 
 /*
   Typographic tweaks!
@@ -32,6 +29,7 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	font-family: sans-serif;
+	height: 100%;
 }
 
 /*

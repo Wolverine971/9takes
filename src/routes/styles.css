@@ -30,7 +30,6 @@
 	--color-paladin-3: #52616b;
 	--color-paladin-4: #444;
 	--color-paladin-5: #1e2922;
-	
 	--blue: #3a6df0;
 	--purple: #5407d9;
 	--color-text: rgb(47 40 40 / 70%);
@@ -48,12 +47,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-:root {
+	:root {
 		[style*='--tag'] {
 			view-transition-name: var(--tag);
 		}
-}
 	}
+}
 
 /* --primary: 
 	--secondary: */
@@ -62,8 +61,6 @@
 	display: none !important;
 	text-decoration: none;
 }
-
-
 
 body {
 	/* font-family: 'Open Sans', sans-serif; */
@@ -267,8 +264,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bold-shadow {
-	text-shadow: -1px -1px 0 black, 1px -1px 0 black,
-		-1px 1px 0 #000, 1px 1px 0 #000;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 #000, 1px 1px 0 #000;
 	text-shadow: -1px -1px 0 var(--color-theme-purple), 1px -1px 0 var(--color-theme-purple),
 		-1px 1px 0 #000, 1px 1px 0 #000;
 }

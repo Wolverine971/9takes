@@ -16,8 +16,7 @@
 	--block-spacing-horizontal: calc(1rem * 2);
 	--border-radius: 0.25rem;
 	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgb(27 40 50 / 1.7%),
-		0.0335rem 0.067rem 0.402rem rgb(27 40 50 / 2.4%),
-		0.0625rem 0.125rem 0.75rem rgb(27 40 50 / 3%),
+		0.0335rem 0.067rem 0.402rem rgb(27 40 50 / 2.4%), 0.0625rem 0.125rem 0.75rem rgb(27 40 50 / 3%),
 		0.1125rem 0.225rem 1.35rem rgb(27 40 50 / 3.6%),
 		0.2085rem 0.417rem 2.502rem rgb(27 40 50 / 4.3%), 0.5rem 1rem 6rem rgb(27 40 50 / 6%),
 		0 0 0 0.0625rem rgb(27 40 50 / 1.5%);
@@ -93,7 +92,6 @@ body {
   4. Add accessible line-height
   5. Improve text rendering
 */
-
 
 /*
   6. Improve media defaults
@@ -351,7 +349,6 @@ select {
 	position: relative;
 	width: 100%;
 	border-radius: 5px;
-	backdrop-filter: blur(20px);
 	backdrop-filter: blur(20px);
 	font-size: 15px;
 	font-weight: 500;

@@ -5,16 +5,8 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { createEventDispatcher } from 'svelte';
-	import { deserialize } from '$app/forms';
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	const dispatch = createEventDispatcher();
 
-	// export let user: any;
-	// export let comment: any;
-
-	// export let data: any;
-	// export let questionId: number;
 	export let comment: any;
 	export let parentType: string;
 	export let slug: string;
@@ -27,16 +19,14 @@
 		_commentComment = Object.assign({}, comment);
 	}
 
-	let _commentData = Object.assign({}, comment);
-
 	$: comment, matchData();
 
 	const matchData = () => {
 		_commentComment = Object.assign({}, comment);
-		_commentData = Object.assign({}, comment);
 	};
 
 	let loading: boolean = false;
+	let innerWidth = 0;
 
 	const lastDate = comment?.comments?.length
 		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
@@ -58,72 +48,6 @@
 				loading = false;
 			});
 	};
-
-	const addComment = async (newComment: any) => {
-		dispatch('commentAdded', newComment);
-
-		if (_commentComment.comments) {
-			_commentComment.comments = [newComment, ..._commentComment.comments];
-		} else {
-			_commentComment.comments = [];
-			_commentComment.comments.push(newComment);
-		}
-		// _commentComment.comments = [newComment, ..._commentComment.comments];
-		_commentComment.comment_count += 1;
-	};
-
-	let newcomment: string = '';
-	let commenting: boolean = false;
-
-	$: comment, watchData();
-
-	let anonymousComment = false;
-
-	const watchData = () => {
-		// if (!data?.flags?.userHasAnswered && parentType === 'question') {
-		// 	commenting = true;
-		// }
-		likes = comment?.comment_like ? [...comment.comment_like] : [];
-	};
-
-	let likes: any[] = comment?.comment_like ? [...comment.comment_like] : [];
-
-	const createComment = async () => {
-		if (!data?.flags?.userSignedIn && !user?.id) {
-			if (data?.flags?.userHasAnswered || anonymousComment) {
-				notifications.info('Must register or login to comment multiple times', 3000);
-				return;
-			} else {
-				notifications.info('Must register or login to comment on other comments', 3000);
-				return;
-			}
-		}
-
-		let body = new FormData();
-		body.append('comment', newcomment);
-		body.append('parent_id', comment.id);
-		body.append('author_id', session?.user?.id);
-		body.append('parent_type', 'comment');
-		body.append('es_id', comment.es_id);
-
-		const resp = await fetch(`/${blogType}/createComment`, {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		if (result.error) {
-			notifications.danger('Error adding comment', 3000);
-			console.log(result.error);
-		} else {
-			notifications.info('Comment Added', 3000);
-			dispatch('commentAdded', result?.data);
-			comment = '';
-		}
-	};
-
-	let innerWidth = 0;
 </script>
 
 <svelte:window bind:innerWidth />
@@ -138,17 +62,6 @@
 	{/if}
 	<div class="user-comment">
 		<div style={innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}>
-			<!-- {#if innerWidth > 500}
-				<a
-					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-					href={_commentComment?.profiles?.external_id
-						? `/users/${_commentComment.profiles.external_id}`
-						: ''}
-				>
-					{_commentComment?.profiles?.enneagram || 'Rando'}
-				</a>
-			{/if} -->
-
 			<p class="comment-box">
 				<a
 					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
@@ -165,72 +78,10 @@
 							>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
 						</span>
 					</div>
-					<!-- <button
-						title="Comment"
-						class=""
-						style="padding: 0.25rem; height: 45px;"
-						on:click={() => (commenting = !commenting)}
-					>
-						<MasterCommentIcon
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={'#5407d9'}
-							type={comment.length ? 'full' : 'empty'}
-						/>
-					</button> -->
 				</div>
 			{/if}
 		</div>
-
-		{#if innerWidth > 500}
-			<!-- <div class="interaction-div-display ">
-				<button
-					title="Comment"
-					class=""
-					style="padding: 0.25rem;"
-					on:click={() => (commenting = !commenting)}
-				>
-					<MasterCommentIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={'#5407d9'}
-						type={comment.length ? 'full' : 'empty'}
-					/>
-				</button>
-			</div> -->
-		{/if}
-		<!-- <Interact
-			{questionId}
-			data={_commentData}
-			parentType={'comment'}
-			stack={true}
-			{user}
-			on:commentAdded={({ detail }) => addComment(detail)}
-		/> -->
 	</div>
-	{#if commenting}
-		<div class="interact-text-container">
-			<textarea placeholder="Speak your mind" class="interact-textbox" bind:value={newcomment} />
-		</div>
-		<button
-			class="btn btn-primary sub-comment"
-			type="button"
-			on:click={createComment}
-			disabled={newcomment?.length < 1}
-		>
-			Send it
-			{#if newcomment?.length > 1}
-				<!-- <ArrowRight /> -->
-				<RightIcon
-					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-					height={'1.5rem'}
-					fill={'#5407d9'}
-				/>
-			{/if}
-		</button>
-	{/if}
-
-	<!-- <p>ParentId: {comment?.parent_id}</p> -->
 
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
@@ -271,7 +122,6 @@
 		align-items: center;
 		text-align: center;
 		cursor: pointer;
-
 		background-color: var(--color-paladin-2);
 		border-radius: 5px;
 		border: 1px solid var(--color-paladin-4);
@@ -282,17 +132,13 @@
 	}
 	.comment-box {
 		width: -webkit-fill-available;
-		// background-color: var(--color-paladin-2);
-		// border: 1px solid var(--color-theme-purple-v);
 		border-radius: 5px;
-		// margin-bottom: 0;
 		margin: 0.25rem;
 		padding: 0.5rem;
 	}
 
 	.user-comment {
 		display: flex;
-		// gap: 0.5rem;
 		position: relative;
 	}
 	.user-comment button {
@@ -313,27 +159,16 @@
 		margin-right: 1rem;
 	}
 	.profile-avatar {
-		// position: absolute;
-		// top: 0;
-		// left: 0;
-
 		min-width: 30px;
 		padding: 0.2rem;
 
 		align-self: center;
-		// display: flex;
-		// justify-content: center;
 		align-items: center;
-		// background: red;
 		border: 1px solid var(--color-p-origin-v);
-		// width: 3rem;
-		// height: 3rem;
 		font-weight: bolder;
 		min-width: 3rem;
 		text-align: center;
 		aspect-ratio: 1/1;
-		// -webkit-border-radius: 50%;
-		// -moz-border-radius: 50%;
 		border-radius: 5px;
 		transition: all 0.5s;
 		-moz-transition: all 0.5s; /* Firefox 4 */
@@ -347,14 +182,10 @@
 		}
 	}
 	.top-right-corner {
-		// position: absolute;
-		// top: 0;
-		// right: 0;
 		display: flex;
 		align-items: center;
 		margin: 0.25rem;
 		margin-left: auto;
-		// gap: 0.25rem;
 	}
 	.corner-btn {
 		background: transparent;

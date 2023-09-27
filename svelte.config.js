@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
-import  { dirname } from 'path';
+import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import mdsvexConfig from './mdsvex.config.js';

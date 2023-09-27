@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import Comment from './Comment.svelte';
-	// import type { Database } from 'src/schema';
 
 	let loading = false;
 
@@ -22,7 +21,7 @@
 		comments = _data?.comments?.length ? [..._data?.comments] : [];
 		comment_count = _data?.comment_count;
 	};
-	// export let comments: any[];
+
 	// Database['public']['Tables']['comments']['Row'][]
 	let comments: any[] = _data?.comments || [];
 
@@ -31,7 +30,6 @@
 		: null;
 
 	const loadMore = async () => {
-		console.log('load more');
 		loading = true;
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
@@ -60,7 +58,6 @@
 			.then((response) => response.json())
 			.then((commentData) => {
 				if (!commentData?.message) {
-					// _data = Object.assign({}, commentData);
 					comments = [...commentData];
 					comment_count += 1;
 					loading = false;

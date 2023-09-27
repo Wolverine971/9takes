@@ -1,5 +1,4 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 
 import type { PageServerLoad } from './$types';
@@ -12,13 +11,13 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
-import type { Actions, RequestHandler } from '@sveltejs/kit';
+import type { Actions } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { joinEmail2 } from '../../emails';
 import { error } from '@sveltejs/kit';
 
 export const actions: Actions = {
-	submit: async ({ request, locals }) => {
+	submit: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 
 		const { data: emailExists } = await supabase
@@ -36,7 +35,7 @@ export const actions: Actions = {
 
 		if (!insertError) {
 			try {
-				const sent: any = await sendEmail({
+				const sent = await sendEmail({
 					to: body.email.toString(),
 					subject: 'Welcome to the Waitlist for 9takes',
 					body: joinEmail2()
@@ -59,7 +58,7 @@ export const actions: Actions = {
 			});
 		}
 	},
-	emailTest: async ({ request, locals }) => {
+	emailTest: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 		const email = body.email;
 
@@ -70,7 +69,7 @@ export const actions: Actions = {
 		}
 
 		try {
-			const sent: any = await sendEmail({
+			const sent = await sendEmail({
 				to: body.email.toString(),
 				subject: 'TEST EMAIL for 9takes',
 				body: joinEmail2()
@@ -119,7 +118,7 @@ const sendEmail = async ({ to, subject, body }: { to: string; subject: string; b
 		const { privateKey } = JSON.parse(PRIVATE_gmail_private_key);
 		const authClient = new google.auth.JWT(
 			'id-takes-gmail-service-account@smart-mark-302504.iam.gserviceaccount.com',
-			null,
+			'',
 			privateKey,
 			['https://www.googleapis.com/auth/gmail.send'],
 			'usersup@9takes.com'

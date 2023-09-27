@@ -19,7 +19,6 @@
 			{#if questionData.comment_count}
 				{questionData.comment_count}
 			{/if}
-			<!-- <CommentsIcon  /> -->
 			<MasterCommentIcon
 				iconStyle={'margin-left: .5rem'}
 				height={'1.5rem'}

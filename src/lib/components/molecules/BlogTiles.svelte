@@ -1,7 +1,4 @@
 <script lang="ts">
-	// import { useLazyImage as lazyImage } from 'svelte-lazy-image';
-	import { lazyLoad } from '../abstract/lazyLoad';
-
 	export let blogs: {
 		people: App.BlogPost[];
 		enneagram: App.BlogPost[];

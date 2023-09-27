@@ -2,7 +2,6 @@
 	import { Portal } from '$lib/components/abstract';
 	import { clickOutside } from '$lib/utils';
 	import { setContext } from 'svelte';
-	// import { clickOutside } from '$lib/utils';
 	export let title: string;
 	export let visible = false;
 	export let canClickOutside = false;
@@ -22,7 +21,8 @@
 
 	<div class="modal" {id} use:clickOutside={{ callback: handleClickOutside }}>
 		<div class="modal-box">
-			<div
+			<button
+				type="button"
 				class="close"
 				on:click={close}
 				on:keydown={(e) => {
@@ -30,7 +30,7 @@
 				}}
 			>
 				✖
-			</div>
+			</button>
 			<h2>
 				{title ?? ''}
 			</h2>

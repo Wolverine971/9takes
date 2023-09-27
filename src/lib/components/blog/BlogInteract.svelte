@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import BellIcon from '$lib/components/icons/bellIcon.svelte';
-	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
@@ -27,7 +25,11 @@
 			};
 			sameEnneagram: any;
 		};
-	}; // QuestionObject | CommentObject;
+		flags: {
+			userHasAnswered: boolean;
+			userSignedIn: boolean;
+		};
+	};
 	export let user: any;
 
 	$: data, watchData();

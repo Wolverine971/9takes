@@ -11,7 +11,6 @@
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
 
-	// import rubixThick from './darkRubixThick.svg';
 	export let data: any;
 	let innerWidth: number;
 	let isOpen = false;

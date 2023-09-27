@@ -28,19 +28,6 @@
 		flags: Flags;
 	}
 
-	// question: {
-	//     [x: string]: any;
-	// };
-	// comments: never[];
-	// comment_count: number | null;
-	// session: Session | null;
-	// flags: {
-	//     userHasAnswered: false;
-	//     userSignedIn: any;
-	// };
-	// links?: undefined;
-	// links_count?: undefined;
-
 	interface Flags {
 		userHasAnswered: boolean;
 		userSignedIn: string;
@@ -277,10 +264,6 @@
 				</span>
 			{/if}
 			<div style="padding: .5rem; border: none;">
-				<!-- Renders for SEO, removed if not answered -->
-				<!-- {#if innerWidth < 575 || _data.comments.length <= 5}
-				<h3 class="tab-header">Comments</h3>
-			{/if} -->
 				<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
 			</div>
 		</Card>

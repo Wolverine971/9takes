@@ -43,11 +43,7 @@ export const actions: Actions = {
 
 			const email = body.email as string;
 
-			const {
-				data,
-				error: updateUserError,
-				status
-			} = await supabase
+			const { error: updateUserError } = await supabase
 				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
