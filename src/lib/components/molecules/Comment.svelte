@@ -20,13 +20,11 @@
 		_commentComment = Object.assign({}, comment);
 	}
 
-	let _commentData = Object.assign({}, comment);
 
 	$: comment, matchData();
 
 	const matchData = () => {
 		_commentComment = Object.assign({}, comment);
-		_commentData = Object.assign({}, comment);
 	};
 
 	let loading: boolean = false;
@@ -152,7 +150,6 @@
 	};
 
 	const expandText = () => {
-		console.log('expand text');
 		const container = document.querySelector(`#comment-box${comment.id}`);
 		if (container) {
 			container.classList.add('expanded');
@@ -167,6 +164,7 @@
 
 	let innerWidth = 0;
 	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
+	console.log(_commentComment);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -192,7 +190,6 @@
 		>
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">
-					{comment.id}
 					<a
 						class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
 						href={_commentComment?.profiles?.external_id

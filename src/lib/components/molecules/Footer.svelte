@@ -5,7 +5,7 @@
 	export let data: any;
 </script>
 
-<footer class="footer">
+<footer class="footer column">
 	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -63,7 +63,7 @@
 		justify-content: center;
 		align-items: center;
 		padding: 12px;
-		margin: -2px 0;
+		margin: 0 1rem;
 
 		& .icon {
 			width: 2em;

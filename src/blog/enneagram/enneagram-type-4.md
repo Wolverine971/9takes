@@ -249,7 +249,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
 <style lang="scss">
 
 /*@import '../../scss/index.scss';*/
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -257,8 +257,7 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }

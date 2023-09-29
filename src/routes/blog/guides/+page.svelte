@@ -107,14 +107,6 @@
 				width: 100%;
 				padding: 0 10%;
 			}
-
-			.column {
-				display: flex;
-				flex-direction: column;
-				flex-basis: 100%;
-				flex: 1;
-				align-items: center;
-			}
 		}
 	}
 </style>

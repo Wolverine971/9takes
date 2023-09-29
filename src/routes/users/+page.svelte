@@ -75,7 +75,6 @@
 									on:click={() => {
 										active = { ...profile };
 										activeAdmin = !!active.admin;
-										console.log(activeAdmin);
 										getModal().open();
 									}}
 								>

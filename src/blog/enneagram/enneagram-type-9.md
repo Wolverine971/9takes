@@ -262,7 +262,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <style lang="scss">
 
 /* @import '../../scss/index.scss'; */
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -270,8 +270,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -293,7 +292,6 @@ Here are some tips for embracing your Enneagram Type 9 personality:
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
    }
 
 </style>

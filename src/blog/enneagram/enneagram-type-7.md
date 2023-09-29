@@ -233,7 +233,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 <style lang="scss">
 
 /* @import '../../scss/index.scss'; */
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -241,8 +241,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -264,6 +263,5 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
    }
 </style>

@@ -250,7 +250,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
 <style lang="scss">
 
 /*@import '../../scss/index.scss';*/
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -258,8 +258,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -281,7 +280,6 @@ If you identify as a Type 2 personality, there are a number of things you can do
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
    }
 
 </style>

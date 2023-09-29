@@ -411,3 +411,9 @@ th {
 	background-color: var(--color-paladin-3);
 	border-radius: 5px;
 }
+
+
+.column {
+	/* background-color: aliceblue; */
+	border-radius: 5px;
+}

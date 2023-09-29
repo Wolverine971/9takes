@@ -154,144 +154,192 @@
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);
+
+	function isInViewport(element) {
+		const rect = element.getBoundingClientRect();
+		return (
+			// rect.top >= 0 &&
+			rect.left >= 0 &&
+			// rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+		);
+	}
+
+	$: selectedTab, watch();
+
+	const watch = () => {
+		console.log(selectedTab);
+	};
 </script>
 
 <svelte:window bind:innerWidth />
 
-<div class="tabs">
-	{#if innerWidth > 575}
-		<button
-			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
-			on:click={() => (selectedTab = 'comments')}
-			style:--tag={`a-comment${data.id}`}
-		>
-			<span style="text-wrap: nowrap" itemprop="answerCount">
-				{#if _data.comment_count > 0}
-					{_data.comment_count}
-				{/if}
-				{_data.comment_count === 1 ? 'Comment' : 'Comments'}
-			</span>
-		</button>
-		<button
-			class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
-			on:click={() => (selectedTab = 'visuals')}
-		>
-			Visuals
-		</button>
-		<button
-			class="tab-links {selectedTab === 'articles' && 'tab-active'}"
-			on:click={() => (selectedTab = 'articles')}
-		>
-			Articles
-		</button>
-	{:else}
-		<button
-			class="tab-links {selectedTab === 'comments' && 'tab-active'}"
-			on:click={() => (selectedTab = 'comments')}
-			style:--tag={`a-comment${data.id}`}
-		>
-			<MasterCommentIcon
-				iconStyle={''}
-				height={'1.5rem'}
-				fill={selectedTab === 'comments' ? '#5407d9' : ''}
-				type={'multiple'}
-			/>
-			<span style="text-align: center; text-wrap: nowrap"
-				>{#if _data.comment_count > 0}
-					{_data.comment_count}
-				{/if}
-				{_data.comment_count === 1 ? 'Comment' : 'Comments'}
-			</span>
-		</button>
-		<button
-			class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
-			on:click={() => (selectedTab = 'visuals')}
-		>
-			<CameraIcon
-				iconStyle={''}
-				height={'1.5rem'}
-				fill={selectedTab === 'visuals' ? '#5407d9' : ''}
-			/>
-			<span style="text-align: center;"> Visuals</span>
-		</button>
-		<button
-			class="tab-links {selectedTab === 'articles' && 'tab-active'}"
-			on:click={() => (selectedTab = 'articles')}
-		>
-			<PostIcon
-				iconStyle={''}
-				height={'1.5rem'}
-				fill={selectedTab === 'articles' ? '#5407d9' : ''}
-			/>
-			<span style="text-align: center;"> Articles</span>
-		</button>
-	{/if}
-</div>
-<div class="tab-box">
-	<div
-		class="flexr {selectedTab === 'comments' && 'first'} container-js"
-		id="comments"
-		bind:this={commentContainerElement}
-	>
-		<Card style="padding: .5rem; border: none;">
-			{#if innerWidth > 575 && _data.comments.length >= 5}
-				<h3
-					class=" {isFixed
-						? 'scroll-js pos-fixed'
-						: isStop
-						? 'scroll-js stop'
-						: 'scroll-js pos-fixed'} {_data.comment_count <= 5 ? 'hidden' : ''}"
-				>
-					<p
-						bind:this={commentScrollElement}
-						id="comments-scroller"
-						class="tab-side-bar vertical-display"
-					>
-						<span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span
-						><span>t</span><span>s</span>
-					</p>
-				</h3>
-			{:else}
-				<h3 class="tab-header">Comments</h3>
-			{/if}
-			{#if data?.flags?.userHasAnswered}
-				<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
-			{:else}
-				<span style="font-size: 3rem;">
-					{_data.comments.length === 0
-						? 'Be the first to answer the question!'
-						: 'Must answer question first before you can see the other comments'}
-				</span>
-			{/if}
-			<div style="padding: .5rem; border: none;">
-				<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
-			</div>
-		</Card>
-	</div>
+<!-- <hr style="border-top: 1px solid black; width: 100%;" /> -->
 
-	<div class="flexr {selectedTab === 'articles' && 'first'}">
-		<Card style="padding: .5rem; border: none;">
-			<h3 class="tab-header">Articles</h3>
-			{#if data?.links?.length}
-				<ul>
-					{#each data?.links as link}
-						{#if link}
-							<li>
-								<a href={link.url} on:click={() => saveClick(link)}>{link.url}</a>
-							</li>
+<div class="tab-box">
+	<div class="tabs">
+		{#if innerWidth > 575}
+			<a
+				href="#comments"
+				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
+				on:click={() => (selectedTab = 'comments')}
+				style:--tag={`a-comment${data.id}`}
+			>
+				<span style="text-wrap: nowrap" itemprop="answerCount">
+					{#if _data.comment_count > 0}
+						{_data.comment_count}
+					{/if}
+					{_data.comment_count === 1 ? 'Comment' : 'Comments'}
+				</span>
+			</a>
+			<a
+				href="#visuals"
+				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
+				on:click={() => (selectedTab = 'visuals')}
+			>
+				Visuals
+			</a>
+			<a
+				href="#articles"
+				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
+				on:click={() => (selectedTab = 'articles')}
+			>
+				Articles
+			</a>
+		{:else}
+			<a
+				href="#comments"
+				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
+				on:click={() => (selectedTab = 'comments')}
+				style:--tag={`a-comment${data.id}`}
+			>
+				<MasterCommentIcon
+					iconStyle={''}
+					height={'1.5rem'}
+					fill={selectedTab === 'comments' ? '#5407d9' : ''}
+					type={'multiple'}
+				/>
+				{#if selectedTab === 'comments'}
+					<span style="text-align: center; text-wrap: nowrap"
+						>{#if _data.comment_count > 0}
+							{_data.comment_count}
 						{/if}
-					{/each}
-				</ul>
-			{:else}
-				<p>nothing right now</p>
-			{/if}
-		</Card>
+						{_data.comment_count === 1 ? 'Comment' : 'Comments'}
+					</span>
+				{/if}
+			</a>
+			<a
+				href="#visuals"
+				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
+				on:click={() => (selectedTab = 'visuals')}
+			>
+				<CameraIcon
+					iconStyle={''}
+					height={'1.5rem'}
+					fill={selectedTab === 'visuals' ? '#5407d9' : ''}
+				/>
+				{#if selectedTab === 'visuals'}
+					<span style="text-align: center;"> Visuals</span>
+				{/if}
+			</a>
+			<a
+				href="#articles"
+				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
+				on:click={() => (selectedTab = 'articles')}
+			>
+				<PostIcon
+					iconStyle={''}
+					height={'1.5rem'}
+					fill={selectedTab === 'articles' ? '#5407d9' : ''}
+				/>
+				{#if selectedTab === 'articles'}
+					<span style="text-align: center;"> Articles</span>
+				{/if}
+			</a>
+		{/if}
 	</div>
-	<div class="flexr {selectedTab === 'visuals' && 'first'}">
-		<Card style="padding: .5rem; border: none;">
-			<h3 class="tab-header">Visuals</h3>
-			<p>nothing right now</p>
-		</Card>
+	<div
+		class="slides"
+		on:scroll={() => {
+			if (isInViewport(document.getElementById('comments'))) {
+				const isInView = (selectedTab = 'comments');
+				return;
+			} else if (isInViewport(document.getElementById('articles'))) {
+				const isInView = isInViewport(document.getElementById('articles'));
+				selectedTab = 'articles';
+				return;
+			} else if (isInViewport(document.getElementById('visuals'))) {
+				const isInView = isInViewport(document.getElementById('visuals'));
+				selectedTab = 'visuals';
+				return;
+			}
+		}}
+	>
+		<div
+			class="flexr {selectedTab === 'comments' && 'first'} container-js"
+			id="comments"
+			bind:this={commentContainerElement}
+		>
+			<Card style="padding: .5rem; border: none;">
+				{#if innerWidth > 575 && _data.comments.length >= 5}
+					<h3
+						class=" {isFixed
+							? 'scroll-js pos-fixed'
+							: isStop
+							? 'scroll-js stop'
+							: 'scroll-js pos-fixed'} {_data.comment_count <= 5 ? 'hidden' : ''}"
+					>
+						<p
+							bind:this={commentScrollElement}
+							id="comments-scroller"
+							class="tab-side-bar vertical-display"
+						>
+							<span>c</span><span>o</span><span>m</span><span>m</span><span>e</span><span>n</span
+							><span>t</span><span>s</span>
+						</p>
+					</h3>
+				{:else}
+					<!-- <h3 class="tab-header">Comments</h3> -->
+				{/if}
+				{#if data?.flags?.userHasAnswered}
+					<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
+				{:else}
+					<span style="font-size: 3rem;">
+						{_data.comments.length === 0
+							? 'Be the first to answer the question!'
+							: 'Must answer question first before you can see the other comments'}
+					</span>
+				{/if}
+				<div style="padding: .5rem; border: none;">
+					<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
+				</div>
+			</Card>
+		</div>
+		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
+			<Card style="padding: .5rem; border: none;">
+				<!-- <h3 class="tab-header">Visuals</h3> -->
+				<p>nothing right now</p>
+			</Card>
+		</div>
+
+		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
+			<Card style="padding: .5rem; border: none;">
+				<!-- <h3 class="tab-header">Articles</h3> -->
+				{#if data?.links?.length}
+					<ul>
+						{#each data?.links as link}
+							{#if link}
+								<li>
+									<a href={link.url} on:click={() => saveClick(link)}>{link.url}</a>
+								</li>
+							{/if}
+						{/each}
+					</ul>
+				{:else}
+					<p>nothing right now</p>
+				{/if}
+			</Card>
+		</div>
 	</div>
 </div>
 
@@ -321,9 +369,6 @@
 		margin: 1rem;
 	}
 
-	.tab-side-bar {
-		// transform: rotate(270deg);
-	}
 	.tab-header {
 		border: 1px solid var(--color-paladin-2);
 		border-radius: 5px;
@@ -332,8 +377,12 @@
 	.tab-links {
 		display: flex;
 		margin: 0.25rem;
+		justify-content: center;
+		align-items: center;
+		width: 20%;
 	}
 	.tab-active {
+		width: 50%;
 		border: var(--classic-border) !important;
 		border-bottom: none !important;
 		border-radius: 5px 5px 0 0 !important;
@@ -343,25 +392,28 @@
 	.flexr {
 		flex: 1 0 100%;
 		position: relative;
-	}
-	.first {
-		order: -1;
+		scroll-margin-top: 15rem;
 	}
 	.tab-box {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
-		border-top: var(--classic-border) !important;
+		// border-top: var(--classic-border) !important;
+	}
+
+	:target {
+		scroll-margin-top: 200px;
 	}
 	/* Style the tab */
 	.tabs {
+		width: 100%;
 		overflow: hidden;
 		display: flex;
 		justify-content: space-evenly;
 	}
 
 	/* Style the buttons inside the tab */
-	.tabs button {
+	.tabs a {
 		overflow: hidden;
 		background-color: inherit;
 		// float: left;
@@ -375,7 +427,7 @@
 	}
 
 	/* Change background color of buttons on hover */
-	.tabs button:hover {
+	.tabs a:hover {
 		background-color: var(--color-paladin-1);
 		border-radius: 5px;
 	}
@@ -396,6 +448,7 @@
 
 	@media all and (max-width: 576px) {
 		.tabs {
+			width: 100%;
 			margin: 0.25rem;
 			gap: 0.25rem;
 		}
@@ -409,5 +462,63 @@
 		.question-display {
 			width: 80%;
 		}
+	}
+
+	@supports (scroll-snap-type) {
+		.slider > a {
+			display: none;
+		}
+	}
+
+	.slider {
+		width: 300px;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.slides {
+		display: flex;
+
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+		touch-action: pan-x;
+		width: 100%;
+
+		/*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+	}
+	.slides::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
+	.slides::-webkit-scrollbar-thumb {
+		background: black;
+		border-radius: 10px;
+	}
+	.slides::-webkit-scrollbar-track {
+		// background: transparent;
+	}
+	.slides > div {
+		scroll-snap-align: center;
+		// flex-shrink: 0;
+		// width: 300px;
+		// height: 300px;
+		// margin-right: 50px;
+		// border-radius: 10px;
+		// background: #eee;
+		transform-origin: center center;
+		// transform: scale(1);
+		transition: transform 0.5s;
+		position: relative;
+
+		// display: flex;
+		// justify-content: center;
+		// align-items: center;
+		// font-size: 100px;
 	}
 </style>
