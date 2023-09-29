@@ -319,7 +319,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
 
 <style lang="scss">
    @import '../../scss/index.scss';
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -327,8 +327,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -350,6 +349,6 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
+
    }
 </style>

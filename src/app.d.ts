@@ -14,6 +14,7 @@ import type { Session } from '@supabase/supabase-js';
 interface TakesUser extends User {
 	first_name: string;
 	last_name: string;
+	id: number
 }
 interface SbSession extends Session {
 	user: TakesUser;

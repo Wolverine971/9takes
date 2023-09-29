@@ -69,3 +69,5 @@ https://www.youtube.com/watch?v=ecP8RwpkiQw
 
 <!-- Zooom into question so it takes over the page -->
 <!-- Experiment to sort emotion words -->
+
+ <!-- npx stylelint "**/*.css" --fix -->

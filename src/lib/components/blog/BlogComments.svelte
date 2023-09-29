@@ -20,7 +20,7 @@
 	// Database['public']['Tables']['comments']['Row'][]
 
 	const refreshComments = async (data: any) => {
-		console.log(data);
+		// console.log(data);
 	};
 </script>
 

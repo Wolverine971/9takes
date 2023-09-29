@@ -374,7 +374,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
 
 <style lang="scss">
     @import '../../scss/index.scss';
-   
+
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
@@ -382,8 +382,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
         transition: transform .7s ease-in-out;
         flex: 1;
     }
-   
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -405,6 +404,6 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
+
    }
 </style>

@@ -395,6 +395,7 @@ td {
 th {
 	border: var(--classic-border);
 	text-align: center;
+	padding: 0.5rem;
 }
 
 .scroll-table::-webkit-scrollbar {

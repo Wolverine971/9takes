@@ -287,7 +287,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
      .section-meta:hover:after {
         overflow-y: scroll;
     }
-   
+
    aside::-webkit-scrollbar {
         width: 4px;
     }
@@ -309,6 +309,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
+
    }
 </style>

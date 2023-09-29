@@ -126,9 +126,14 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		.from('question_tag')
 		.select()
 		.in('tag_name', cleanedTags);
+
+	if (questionTagsError) {
+		console.log(questionTagsError);
+	}
 	if (!questionTags?.length) {
 		return;
 	}
+
 	for await (const tag of questionTags) {
 		await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')

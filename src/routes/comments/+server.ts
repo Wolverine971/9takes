@@ -4,8 +4,8 @@ import { error, json } from '@sveltejs/kit';
 import { PRIVATE_DEMO } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 
-import type { PostgrestResponse } from '@supabase/supabase-js';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+// import type { PostgrestResponse } from '@supabase/supabase-js';
+// import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 // import type { Comments } from '$lib/components';
 // /** @type {import('./$types').RequestHandler} */
 // : Promise<Database.public.Tables.comments>

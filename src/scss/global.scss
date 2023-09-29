@@ -6,7 +6,7 @@
 *,
 *::before,
 *::after {
-	// box-sizing: border-box;
+	/* box-sizing: border-box;*/
 }
 
 /*
@@ -81,8 +81,8 @@ a:hover {
 
 .article-preview {
 	max-width: none;
-	height: clamp(1rem, 145px, 12rem);
-	width: clamp(1rem, 321px, 32rem);
+	height: max(1rem, min(145px, 12rem));
+	width: max(1rem, min(321px, 32rem));
 }
 
 .preview {
