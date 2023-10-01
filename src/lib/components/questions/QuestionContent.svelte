@@ -481,7 +481,7 @@
 		scroll-snap-type: x mandatory;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
-		touch-action: pan-x;
+		// touch-action: pan-x;
 		width: 100%;
 	}
 

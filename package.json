@@ -54,6 +54,7 @@
 		"sass": "^1.57.1",
 		"stopword": "^2.0.5",
 		"stylelint": "^15.10.3",
+		"stylelint-config-concentric-order": "^5.2.0",
 		"stylelint-config-standard": "^34.0.0",
 		"stylelint-config-standard-scss": "^11.0.0",
 		"supabase": "^1.34.5",

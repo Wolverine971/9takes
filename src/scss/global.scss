@@ -6,7 +6,7 @@
 *,
 *::before,
 *::after {
-	/* box-sizing: border-box;*/
+	/* box-sizing: border-box; */
 }
 
 /*
@@ -26,10 +26,10 @@
   5. Improve text rendering
 */
 body {
-	line-height: 1.5;
-	-webkit-font-smoothing: antialiased;
-	font-family: sans-serif;
 	height: 100%;
+	line-height: 1.5;
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 /*
@@ -60,8 +60,8 @@ select {
 
 a {
 	text-decoration: none;
-	color: inherit;
 	word-break: break-all;
+	color: inherit;
 }
 
 a:hover {
@@ -80,14 +80,14 @@ a:hover {
 }
 
 .article-preview {
+	width: max(1rem, min(321px, 32rem));
 	max-width: none;
 	height: max(1rem, min(145px, 12rem));
-	width: max(1rem, min(321px, 32rem));
 }
 
 .preview {
+	overflow: hidden;
+	overflow-x: clip;
 	text-overflow: clip;
 	white-space: nowrap;
-	overflow-x: clip;
-	overflow: hidden;
 }
