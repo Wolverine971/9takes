@@ -167,7 +167,7 @@
 		{/if}
 
 		<div class="pop-card-user">
-			{#if showDescription}
+			{#if showDescription && enneagramType}
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
 					<p class="big-p">
 						<b>Type:</b>

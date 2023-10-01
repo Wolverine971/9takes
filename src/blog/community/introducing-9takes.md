@@ -29,7 +29,7 @@ pic: 'greek-sculpture-on-a-laptop'
 <div
 	style="display: flex;
     justify-content: center;
-margin: 1rem 0;"
+	margin: 1rem 0;"
 >
  <PopCard
 		image={`/blogs/greek-sculpture-on-a-laptop.webp`}
@@ -39,6 +39,7 @@ margin: 1rem 0;"
 		altText="scenic view of a person working on a computer in the jungle"
 		subtext=""
 	/>
+
 </div>
 
 <p class="firstLetter">Where do we find authentic conversations today? Where do we discover diverse perspectives? How do we protect against developing echo chambers while also fostering a sense of community? I have not stumbled across that place but that is the place 9takes is going to become.<p>

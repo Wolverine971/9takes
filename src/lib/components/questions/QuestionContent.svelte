@@ -96,6 +96,7 @@
 	}
 
 	export let data: any; //: PassedPageData;
+	console.log('data', data);
 	export let user: any;
 	let selectedTab: string = 'comments';
 	let _data: any;
@@ -206,19 +207,19 @@
 				on:click={() => (selectedTab = 'comments')}
 				style:--tag={`a-comment${data.id}`}
 			>
+			{#if selectedTab === 'comments'}
+					<span style="text-align: center; text-wrap: nowrap; margin-right: 0.5rem;"
+						>{#if _data.comment_count > 0}
+							{_data.comment_count}
+						{/if}
+					</span>
+				{/if}
 				<MasterCommentIcon
 					iconStyle={''}
 					height={'1.5rem'}
 					fill={selectedTab === 'comments' ? '#5407d9' : ''}
 					type={'multiple'}
 				/>
-				{#if selectedTab === 'comments'}
-					<span style="text-align: center; text-wrap: nowrap; margin-left: 0.5rem;"
-						>{#if _data.comment_count > 0}
-							{_data.comment_count}
-						{/if}
-					</span>
-				{/if}
 			</a>
 			<a
 				href="#visuals"
@@ -295,7 +296,7 @@
 					<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
 				{:else}
 					<span class="helper-suggestion">
-						{_data.comments.length === 0
+						{_data.comment_count === 0
 							? 'Be the first to answer the question!'
 							: 'Must answer question first before you can see the other comments'}
 					</span>
