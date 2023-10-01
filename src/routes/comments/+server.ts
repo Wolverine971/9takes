@@ -29,7 +29,7 @@ export async function GET({
 
 		const parentType = String(url.searchParams.get('type') ?? '0');
 
-		const lastDate = url.searchParams.get('lastDate') ?? null;
+		// const lastDate = url.searchParams.get('lastDate') ?? null;
 
 		const range = parseInt(url.searchParams.get('range') as string) ?? null;
 
@@ -42,7 +42,7 @@ export async function GET({
 		let userHasAnswered = false;
 
 		if (user?.id) {
-			const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
+			const { data: hasUserCommented } = await supabase
 				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 				.select('*')
 				.eq('parent_type', parentType)
@@ -52,7 +52,7 @@ export async function GET({
 			userHasAnswered = hasUserCommented?.length ? true : false;
 		} else {
 			// checks if it is a rando
-			const { data: hasCommented, error: hasCommentedError } = await supabase
+			const { data: hasCommented } = await supabase
 				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 				.select('*')
 				.eq('parent_type', parentType)

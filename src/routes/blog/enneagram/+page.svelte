@@ -100,7 +100,6 @@
 				width: 100%;
 				padding: 0 10%;
 			}
-
 		}
 	}
 </style>

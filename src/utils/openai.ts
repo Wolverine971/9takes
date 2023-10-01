@@ -1,8 +1,6 @@
-import { Configuration, OpenAIApi } from 'openai';
-
-import { supabase } from '$lib/supabase';
-
 import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
+import { supabase } from '$lib/supabase';
+import { Configuration, OpenAIApi } from 'openai';
 
 export const tagQuestions = async () => {
 	try {
@@ -10,73 +8,88 @@ export const tagQuestions = async () => {
 			.from('admin_settings')
 			.select('refresh_questions');
 
+		if (settingsDataError) {
+			console.log(settingsDataError);
+			return;
+		}
+
 		if (settingsData && !settingsData[0].refresh_questions) {
 			console.log(settingsData[0].refresh_questions);
 			return;
 		}
 
-		if (settingsData) {
-			console.log(settingsData[0]?.refresh_questions);
-		}
-		const {
-			data: questions,
-			error: questionsError,
-			count: questionCount
-		} = await supabase
+		const date = new Date();
+		const yesterday = new Date(date.getTime() - 24 * 60 * 60 * 1000).toISOString();
+		const { data: questions, error: questionsError } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
 			.select(`question, id`, { count: 'estimated' })
-			.eq('tagged', null);
+			.eq('tagged', false)
+			.eq('flagged', false)
+			.lte('created_at', yesterday);
 
-		const { data: tags, error: tagsError } = await supabase.from('question_tag').select('tag_name');
+		if (!questions) {
+			return;
+		}
+
+		const { data: tags, error: tagsError } = await supabase
+			.from('question_tag')
+			.select('tag_id, tag_name');
 		if (tagsError || questionsError) {
 			return;
 		}
 
-		console.log(questions);
+		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.tag_name).join(', '));
+		const questionsToClassify = getTheQuestionsToClassify(questions.map((e) => e.question));
 
-		console.log(getMultiQuestionsPrompt(tags.map((e) => e.tag_name)));
+		const configuration = new Configuration({
+			organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
+			apiKey: PRIVATE_AI_API_KEY
+		});
 
-		// const configuration = new Configuration({
-		// 	organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
-		// 	apiKey: PRIVATE_AI_API_KEY
-		// });
+		const openai = new OpenAIApi(configuration);
+		const completion = await openai.createChatCompletion({
+			model: 'gpt-3.5-turbo',
+			messages: [
+				{ role: 'system', content: prompt },
+				{ role: 'user', content: questionsToClassify.toString() }
+			]
+		});
 
-		// const openai = new OpenAIApi(configuration);
-		// const completion = await openai.createChatCompletion({
-		// 	model: 'gpt-3.5-turbo',
-		// 	messages: [
-		// 		{ role: 'system', content: getMultiQuestionsPrompt(tags.map((e) => e.tag_name)) },
-		// 		{ role: 'user', content: questions }
-		// 	]
-		// });
+		if (!completion?.data?.choices[0]?.message?.content) {
+			return;
+		}
 
-		// console.log(completion.data.choices[0].message);
-		// if (!completion.data.choices[0].message) {
-		// 	return;
-		// }
+		const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
+		if (!cleanedTags) {
+			return;
+		}
 
-		// const cleanedTags = completion.data.choices[0].message.content
-		// 	?.split(',')
-		// 	.map((t) => {
-		// 		return t.trim();
-		// 	})
-		// 	.filter((e) => e);
-		// if (!cleanedTags) {
-		// 	return;
-		// }
-		// const { data: questionTags, error: questionTagsError } = await supabase
-		// 	.from('question_tag')
-		// 	.select()
-		// 	.in('tag_name', cleanedTags);
-		// if (!questionTags) {
-		// 	return;
-		// }
-		// for await (const tag of questionTags) {
-		// 	await supabase
-		// 		.from('question_tags')
-		// 		.insert({ question_id: questionId, tag_id: tag.tag_id })
-		// 		.select();
-		// }
+		for await (const tag of cleanedTags) {
+			const newTags = tag.tags;
+			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+
+			const newTagIds = newTagz.map((e) => e.tag_id);
+			const questionId = questions?.find((e) => e.question.includes(tag.question.slice(1, tag.question.length - 2)))?.id;
+			if (!questionId) {
+				continue;
+			}
+
+			if (!newTagz.length) {
+				await supabase
+					.from('questions')
+					.update({ flagged: true, updated_at: new Date() })
+					.eq('id', questionId);
+				continue;
+			}
+
+			newTagIds.forEach(async (tagId) => {
+				await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+			});
+			await supabase
+				.from('questions')
+				.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
+				.eq('id', questionId);
+		}
 		const { data: updateSuccess, error: updateFailed } = await supabase
 			.from('admin_settings')
 			.update({
@@ -84,6 +97,7 @@ export const tagQuestions = async () => {
 			})
 			.eq('id', 1);
 		console.log(updateFailed);
+		return updateSuccess;
 	} catch (e) {
 		console.log(e);
 	}
@@ -152,11 +166,24 @@ const classifymultipleQuestionsPrompt = `You are going to be given a list of a q
  For example: [
     {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"]}
  ]
- These are the tags:
+ Only tag from these predefined tags:
  `;
 
-const getMultiQuestionsPrompt = (tags: string[]) => {
+const getMultiQuestionsPrompt = (tags: string) => {
 	return `${classifymultipleQuestionsPrompt} ${tags}`;
+};
+
+const getTheQuestionsToClassify = (questionsToClassify: string[]) => {
+	let stringLengthLimit = 2000;
+	const questionsToSend = [];
+	for (let i = 0; i < questionsToClassify.length; i++) {
+		stringLengthLimit -= questionsToClassify[i].length;
+		if (stringLengthLimit > 0) {
+			questionsToSend.push(questionsToClassify[i]);
+		}
+	}
+	return questionsToSend;
+	// `${classifymultipleQuestionsPrompt} ${tagsToSend}`;
 };
 
 const getPrompt = (tags: string[]) => {

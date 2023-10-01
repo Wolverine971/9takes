@@ -20,7 +20,6 @@
 		_commentComment = Object.assign({}, comment);
 	}
 
-
 	$: comment, matchData();
 
 	const matchData = () => {
@@ -150,13 +149,13 @@
 	};
 
 	const expandText = () => {
-		const container = document.querySelector(`#comment-box${comment.id}`);
+		const container: any = document.querySelector(`#comment-box${comment.id}`);
 		if (container) {
 			container.classList.add('expanded');
 			container.style.maxHeight = 'none';
 		}
 
-		const readMore = document.querySelector(`#read-more-btn${comment.id}`);
+		const readMore: any = document.querySelector(`#read-more-btn${comment.id}`);
 		if (readMore) {
 			readMore.style.display = 'none';
 		}
@@ -200,7 +199,10 @@
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
 				{#if _commentComment.comment.length > 136}
-					<span id="read-more-btn{comment.id}" class="read-more-btn" on:click={() => expandText()}
+					<span role="button" tabindex="0" id="read-more-btn{comment.id}" class="read-more-btn" on:click={() => expandText()}
+						on:keydown={(e) => {
+							if(e?.key === 'Enter') expandText();
+						}} 
 						>Read More</span
 					>
 				{/if}

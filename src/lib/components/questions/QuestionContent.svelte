@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { browser } from '$app/environment';
 	import { onMount, afterUpdate } from 'svelte';
 	import Card from '$lib/components/atoms/card.svelte';
 	import CameraIcon from '$lib/components/icons/cameraIcon.svelte';
@@ -98,7 +97,6 @@
 
 	export let data: any; //: PassedPageData;
 	export let user: any;
-	let question: string = '';
 	let selectedTab: string = 'comments';
 	let _data: any;
 
@@ -155,20 +153,12 @@
 
 	afterUpdate(calculateHeightsAndSetClasses);
 
-	function isInViewport(element) {
+	const isInViewport = (element?: Element | null) => {
+		if (!element) return false;
 		const rect = element.getBoundingClientRect();
-		return (
-			// rect.top >= 0 &&
-			rect.left >= 0 &&
-			// rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-		);
-	}
-
-	$: selectedTab, watch();
-
-	const watch = () => {
-		console.log(selectedTab);
+		const val =
+			rect.left >= 0 && rect.right <= (window.innerWidth || document.documentElement.clientWidth);
+		return val;
 	};
 </script>
 
@@ -210,6 +200,9 @@
 			<a
 				href="#comments"
 				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
+				style="display: flex; flex-direction: row;
+				justify-content: center;
+				align-items: center;"
 				on:click={() => (selectedTab = 'comments')}
 				style:--tag={`a-comment${data.id}`}
 			>
@@ -220,11 +213,10 @@
 					type={'multiple'}
 				/>
 				{#if selectedTab === 'comments'}
-					<span style="text-align: center; text-wrap: nowrap"
+					<span style="text-align: center; text-wrap: nowrap; margin-left: 0.5rem;"
 						>{#if _data.comment_count > 0}
 							{_data.comment_count}
 						{/if}
-						{_data.comment_count === 1 ? 'Comment' : 'Comments'}
 					</span>
 				{/if}
 			</a>
@@ -238,9 +230,9 @@
 					height={'1.5rem'}
 					fill={selectedTab === 'visuals' ? '#5407d9' : ''}
 				/>
-				{#if selectedTab === 'visuals'}
+				<!-- {#if selectedTab === 'visuals'}
 					<span style="text-align: center;"> Visuals</span>
-				{/if}
+				{/if} -->
 			</a>
 			<a
 				href="#articles"
@@ -252,9 +244,9 @@
 					height={'1.5rem'}
 					fill={selectedTab === 'articles' ? '#5407d9' : ''}
 				/>
-				{#if selectedTab === 'articles'}
+				<!-- {#if selectedTab === 'articles'}
 					<span style="text-align: center;"> Articles</span>
-				{/if}
+				{/if} -->
 			</a>
 		{/if}
 	</div>
@@ -298,13 +290,11 @@
 							><span>t</span><span>s</span>
 						</p>
 					</h3>
-				{:else}
-					<!-- <h3 class="tab-header">Comments</h3> -->
 				{/if}
 				{#if data?.flags?.userHasAnswered}
 					<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
 				{:else}
-					<span style="font-size: 3rem;">
+					<span class="helper-suggestion">
 						{_data.comments.length === 0
 							? 'Be the first to answer the question!'
 							: 'Must answer question first before you can see the other comments'}
@@ -317,14 +307,12 @@
 		</div>
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
 			<Card style="padding: .5rem; border: none;">
-				<!-- <h3 class="tab-header">Visuals</h3> -->
 				<p>nothing right now</p>
 			</Card>
 		</div>
 
 		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
 			<Card style="padding: .5rem; border: none;">
-				<!-- <h3 class="tab-header">Articles</h3> -->
 				{#if data?.links?.length}
 					<ul>
 						{#each data?.links as link}
@@ -348,9 +336,11 @@
 		text-combine-upright: all;
 		writing-mode: vertical-lr;
 	}
+
 	.container-js {
 		position: relative;
 	}
+
 	.scroll-js {
 		position: relative;
 	}
@@ -361,6 +351,7 @@
 		z-index: 123;
 		margin: 1rem -3rem;
 	}
+
 	.stop {
 		position: absolute;
 		bottom: 0;
@@ -374,6 +365,7 @@
 		border-radius: 5px;
 		text-align: center;
 	}
+
 	.tab-links {
 		display: flex;
 		margin: 0.25rem;
@@ -381,6 +373,7 @@
 		align-items: center;
 		width: 20%;
 	}
+
 	.tab-active {
 		width: 50%;
 		border: var(--classic-border) !important;
@@ -394,16 +387,16 @@
 		position: relative;
 		scroll-margin-top: 15rem;
 	}
+
 	.tab-box {
 		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		// border-top: var(--classic-border) !important;
+		flex-flow: row wrap;
 	}
 
-	:target {
-		scroll-margin-top: 200px;
-	}
+	// :target {
+	// 	scroll-margin-top: 200px;
+	// }
+
 	/* Style the tab */
 	.tabs {
 		width: 100%;
@@ -416,6 +409,7 @@
 	.tabs a {
 		overflow: hidden;
 		background-color: inherit;
+
 		// float: left;
 		border: none;
 		outline: none;
@@ -424,43 +418,47 @@
 		transition: 0.3s;
 		font-size: 1rem;
 		border-radius: 5px;
+
+		&:hover {
+			background-color: var(--color-paladin-1);
+			border-radius: 5px;
+		}
 	}
 
-	/* Change background color of buttons on hover */
-	.tabs a:hover {
-		background-color: var(--color-paladin-1);
-		border-radius: 5px;
+	.helper-suggestion {
+		font-size: 3rem;
 	}
-
-	/* Create an active/current tablink class */
-	// .tab button.active {
-	// 	text-decoration: underline;
-	// 	border-radius: 5px;
-	// 	color: var(--color-theme-purple);
-	// 	border: var(--classic-border);
-	// }
 
 	@media (max-width: 768px) {
 		.question-form {
 			flex-direction: column;
 		}
+		.helper-suggestion {
+			font-size: 2.5rem;
+		}
 	}
 
-	@media all and (max-width: 576px) {
+	@media (max-width: 576px) {
 		.tabs {
 			width: 100%;
 			margin: 0.25rem;
 			gap: 0.25rem;
 		}
+		.tabs a {
+			padding: 0.5rem;
+		}
+
 		.tab-links {
 			flex-direction: column;
 			align-items: center;
 			gap: 0.25rem;
-			// margin: 1rem;
-			// width: 20%;
 		}
+
 		.question-display {
 			width: 80%;
+		}
+		.helper-suggestion {
+			font-size: 2rem;
 		}
 	}
 
@@ -478,47 +476,33 @@
 
 	.slides {
 		display: flex;
-
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
-
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 		touch-action: pan-x;
 		width: 100%;
-
-		/*
-  scroll-snap-points-x: repeat(300px);
-  scroll-snap-type: mandatory;
-  */
 	}
+
 	.slides::-webkit-scrollbar {
 		width: 10px;
 		height: 10px;
 	}
+
 	.slides::-webkit-scrollbar-thumb {
 		background: black;
 		border-radius: 10px;
 	}
-	.slides::-webkit-scrollbar-track {
-		// background: transparent;
-	}
+
+	// .slides::-webkit-scrollbar-track {
+	// 	// background: transparent;
+	// }
+
 	.slides > div {
 		scroll-snap-align: center;
-		// flex-shrink: 0;
-		// width: 300px;
-		// height: 300px;
-		// margin-right: 50px;
-		// border-radius: 10px;
-		// background: #eee;
-		transform-origin: center center;
-		// transform: scale(1);
+
+		// transform-origin: center center;
 		transition: transform 0.5s;
 		position: relative;
-
-		// display: flex;
-		// justify-content: center;
-		// align-items: center;
-		// font-size: 100px;
 	}
 </style>

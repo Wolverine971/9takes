@@ -102,8 +102,8 @@
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	<title>{`9takes | ${data.question.question}`}</title>
-	<meta name="description" content={`9takes Question | ${data.question.question}`} />
+	<title>{`9takes | ${data.question.question_formatted}`}</title>
+	<meta name="description" content={`9takes Question | ${data.question.question_formatted}`} />
 	<!-- <meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" /> -->
 	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
 </svelte:head>
@@ -122,7 +122,7 @@
 				style:--tag={`h-question-${data.question.id}`}
 				itemprop="name"
 			>
-				{data.question.question}
+				{data.question.question_formatted}
 			</h1>
 			<img id="qr-image" src="" alt="QR Code" style="width: {innerWidth > 400 ? '20%' : '30%'};" />
 		</div>

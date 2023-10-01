@@ -1,6 +1,7 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
+
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
@@ -30,7 +31,7 @@ export async function load(event: any) {
 	}
 
 	if (session?.user) {
-		const { data: hasUserCommented, error: hasUserCommentedError } = await supabase
+		const { data: hasUserCommented } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 			.select('*')
 			.eq('parent_type', 'question')
@@ -46,7 +47,7 @@ export async function load(event: any) {
 	} else {
 		// checks if it is a rando
 		const ipAddress = event.getClientAddress();
-		const { data: hasCommented, error: hasCommentedError } = await supabase
+		const { data: hasCommented } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 			.select('*')
 			.eq('parent_type', 'question')
@@ -57,7 +58,7 @@ export async function load(event: any) {
 	}
 
 	if (!userHasAnswered) {
-		const { count: commentCount, error: commentCountError } = await supabase
+		const { count: commentCount } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
 			.select('*', { count: 'exact' })
 			.eq('parent_type', 'question')
@@ -206,12 +207,9 @@ export const actions: Actions = {
 				if (parent_type === 'comment') {
 					if (PRIVATE_DEMO === 'false') {
 						// need to increment the demo commentcount
-						const { data: incremented, error: incrementError } = await supabase.rpc(
-							'increment_comment_count',
-							{
-								comment_parent_id: parentId
-							}
-						);
+						const { error: incrementError } = await supabase.rpc('increment_comment_count', {
+							comment_parent_id: parentId
+						});
 
 						if (!incrementError) {
 							return record;
@@ -300,12 +298,9 @@ export const actions: Actions = {
 				.single();
 			if (!addCommentError) {
 				if (parent_type === 'comment') {
-					const { data: incremented, error: incrementError } = await supabase.rpc(
-						'increment_comment_count',
-						{
-							comment_parent_id: parentId
-						}
-					);
+					const { error: incrementError } = await supabase.rpc('increment_comment_count', {
+						comment_parent_id: parentId
+					});
 
 					if (!incrementError) {
 						return record;
@@ -361,7 +356,7 @@ export const actions: Actions = {
 						console.log(addLikeError);
 					}
 				} else {
-					const { data: record, error: removeLikeError } = await supabase
+					const { error: removeLikeError } = await supabase
 						.from(PRIVATE_DEMO === 'true' ? 'comment_like_demo' : 'comment_like')
 						.delete()
 						.eq('user_id', user_id)
@@ -422,7 +417,7 @@ export const actions: Actions = {
 						console.log(addSubscriptionError);
 					}
 				} else {
-					const { data: record, error: removeSubscriptionError } = await supabase
+					const { error: removeSubscriptionError } = await supabase
 						.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
 						.delete()
 						.eq('user_id', user_id)
@@ -449,13 +444,13 @@ export const actions: Actions = {
 		}
 	},
 
-	linkClick: async ({ request, getClientAddress }) => {
+	linkClick: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 
 			const linkId = body.linkId as string;
 
-			const { data, error: incrementError } = await supabase.rpc('increment_clicks', {
+			const { error: incrementError } = await supabase.rpc('increment_clicks', {
 				link_id: parseInt(linkId)
 			});
 			if (incrementError) {
@@ -493,10 +488,13 @@ export const actions: Actions = {
 			throw error(400, 'question not updated');
 		}
 		if (imgUploadData) {
-			const { data, error: uploadError } = await supabase
+			const { error: uploadError } = await supabase
 				.from('questions')
 				.update({ img_url: imgPath })
 				.eq('url', url);
+			if (uploadError) {
+				console.log(uploadError);
+			}
 		}
 
 		// // get image here https://www.youtube.com/watch?v=HvOvdD2nX1k
@@ -535,7 +533,7 @@ const parseUrls = async (comment: string, questionId: string) => {
 	} else {
 		domainId = linkDomainUpdateSuccess[0].id;
 	}
-	const { data: linkSuccess, error: linkError } = await supabase
+	const { error: linkError } = await supabase
 		.from('links')
 		.upsert({
 			url,

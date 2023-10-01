@@ -12,7 +12,7 @@
 
 <a href="/questions/{questionData.url}" style="" class="question-card">
 	<p class="question-display">
-		{questionData.question}
+		{questionData.question_formatted}
 	</p>
 	<div class="small-div">
 		<span class="comment-span-display">
@@ -43,7 +43,6 @@
 
 	.question-display {
 		word-break: break-word;
-		align-self: flex-start;
 	}
 	.date-span {
 		// position: absolute;
@@ -90,11 +89,16 @@
 	@media all and (max-width: 576px) {
 		.small-div {
 			flex-direction: column;
-			margin: 1rem;
+			margin: 0.5rem;
 			width: 20%;
 		}
 		.question-display {
 			width: 80%;
+			margin: 0;
+		}
+		.question-card {
+			margin: 0.5rem;
+			padding: 0.5rem;
 		}
 	}
 </style>
