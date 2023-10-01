@@ -104,7 +104,6 @@
 <svelte:head>
 	<title>{`9takes | ${data.question.question_formatted}`}</title>
 	<meta name="description" content={`9takes Question | ${data.question.question_formatted}`} />
-	<!-- <meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" /> -->
 	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
 </svelte:head>
 

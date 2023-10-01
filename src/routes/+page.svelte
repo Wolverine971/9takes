@@ -46,7 +46,7 @@
 		name="description"
 		content="9takes- A reimagined Reddit based on personality. Ask questions, give hot takes, talk to real people"
 	/>
-	<meta property="og:image" content="https://9takes.com/city-of-thought-bubbles.webp" />
+	<meta property="og:image" content="https://9takes.com/greek_pantheon.webp" />
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 
