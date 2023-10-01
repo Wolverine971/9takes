@@ -38,12 +38,9 @@ Behind that rough exterior is something soft
 
 The black on the surface gives way the pink between the cracks
 
+---
 
-
-
----------------
-
-Home page 
+Home page
 
 See questions answer questions
 Wana ask a question --> email me
@@ -53,6 +50,6 @@ To keep the question quality up
 You gotta share and get 3 people to answer your question
 Then it will go from this to this
 
-Share your question and 
+Share your question and
 
 DM me to ask a question

@@ -2,35 +2,61 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 
 	export let questionData: any;
+	export let isAdmin: boolean;
 
 	const dateObj = new Date(questionData.created_at);
 	const month = dateObj.getUTCMonth() + 1; //months from 1-12
 	const day = dateObj.getUTCDate();
 	const year = dateObj.getUTCFullYear();
 	const newdate = month + '/' + day + '/' + year;
+
+
+	const remove = async () => {
+		let body = new FormData();
+		body.append('questionId', questionData.id);
+
+		const resp = await fetch('/questions?/remove', {
+			method: 'POST',
+			body
+		});
+	};
 </script>
 
-<a href="/questions/{questionData.url}" class="question-card">
-	<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-		{questionData.question_formatted}
-	</p>
-	<div class="small-div">
-		<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
-			{#if questionData.comment_count}
-				{questionData.comment_count}
-			{/if}
-			<MasterCommentIcon
-				iconStyle={'margin-left: .5rem'}
-				height={'1.5rem'}
-				fill={questionData.comment_count ? '#5407d9' : ''}
-				type={questionData.comment_count ? 'multiple' : 'empty'}
-			/>
-		</span>
-		<span class="date-span">
-			{newdate}
-		</span>
-	</div>
-</a>
+<div style="display: flex; justify-content: center; align-items: center;">
+	<a href="/questions/{questionData.url}" class="question-card">
+		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+			{questionData.question_formatted}
+		</p>
+		<div class="small-div">
+			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
+				{#if questionData.comment_count}
+					{questionData.comment_count}
+				{/if}
+				<MasterCommentIcon
+					iconStyle={'margin-left: .5rem'}
+					height={'1.5rem'}
+					fill={questionData.comment_count ? '#5407d9' : ''}
+					type={questionData.comment_count ? 'multiple' : 'empty'}
+				/>
+			</span>
+			<span class="date-span">
+				{newdate}
+			</span>
+		</div>
+	</a>
+	{#if isAdmin}
+		<button
+			class="btn btn-primary"
+			type="button"
+			style="height: 3rem;"
+			on:click={async () => {
+				await remove();
+			}}
+		>
+			Remove
+		</button>
+	{/if}
+</div>
 
 <style lang="scss">
 	.comment-span-display {
@@ -61,6 +87,7 @@
 		align-items: center;
 	}
 	.question-card {
+		width: 100%;
 		display: flex;
 		// flex-direction: column;
 		justify-content: space-between;

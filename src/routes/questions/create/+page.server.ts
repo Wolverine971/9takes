@@ -9,7 +9,7 @@ export const load: PageServerLoad = async (event) => {
 	if (!session?.user.id) throw redirect(303, '/login');
 
 	return {
-		session: await getServerSession(event)
+		session: session
 	};
 };
 

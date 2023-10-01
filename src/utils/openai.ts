@@ -69,7 +69,9 @@ export const tagQuestions = async () => {
 			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
 
 			const newTagIds = newTagz.map((e) => e.tag_id);
-			const questionId = questions?.find((e) => e.question.includes(tag.question.slice(1, tag.question.length - 2)))?.id;
+			const questionId = questions?.find((e) =>
+				e.question.includes(tag.question.slice(1, tag.question.length - 2))
+			)?.id;
 			if (!questionId) {
 				continue;
 			}

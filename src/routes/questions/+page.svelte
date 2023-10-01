@@ -89,7 +89,10 @@
 					<h3>{category.tag_name}</h3>
 					<div>
 						{#each categories[category.tag_name] as questionData}
-							<QuestionItem questionData={questionData.questions} />
+							<QuestionItem
+								questionData={questionData.questions}
+								isAdmin={data?.session?.user?.id}
+							/>
 						{/each}
 					</div>
 				</div>

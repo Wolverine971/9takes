@@ -199,11 +199,15 @@
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
 				{#if _commentComment.comment.length > 136}
-					<span role="button" tabindex="0" id="read-more-btn{comment.id}" class="read-more-btn" on:click={() => expandText()}
+					<span
+						role="button"
+						tabindex="0"
+						id="read-more-btn{comment.id}"
+						class="read-more-btn"
+						on:click={() => expandText()}
 						on:keydown={(e) => {
-							if(e?.key === 'Enter') expandText();
-						}} 
-						>Read More</span
+							if (e?.key === 'Enter') expandText();
+						}}>Read More</span
 					>
 				{/if}
 			</div>

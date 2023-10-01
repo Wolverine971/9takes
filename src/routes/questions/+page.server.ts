@@ -1,6 +1,6 @@
 // import { error } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import { PRIVATE_DEMO } from '$env/static/private';
 import { elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';
@@ -62,16 +62,16 @@ export const load: PageServerLoad = async (): Promise<{
 			});
 		}
 
-		const {
-			data: questionsAndTags,
-			error: findQuestionsError,
-			count
-		} = await supabase
+		const { data: questionsAndTags, error: findQuestionsError } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')
 			.select(`${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
 				count: 'estimated'
 			})
 			.in('tag_id', tags);
+
+		if (findQuestionsError) {
+			console.log(findQuestionsError);
+		}
 
 		// const { data: subcategories, error: subcategoriesError } = await supabase
 		// 	.from('question_subcategories')
@@ -97,7 +97,9 @@ export const load: PageServerLoad = async (): Promise<{
 			// questions: questionsAndTags.questions,
 			// tags: questionsAndTags.question_tag,
 			subcategoryTags,
-			questionsAndTags
+			questionsAndTags: questionsAndTags.filter((q) => {
+				return !q.questions.removed;
+			})
 
 			// categories: subcategories,
 			// hiearchy: completeHiearchy,
@@ -218,6 +220,47 @@ export const actions: Actions = {
 			console.log(e);
 			return [];
 		}
+	},
+	remove: async ({ request, locals }) => {
+		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw redirect(302, '/questions');
+			}
+			const { data: user, error: findUserError } = await supabase
+				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (findUserError) {
+				console.log(findUserError);
+			}
+
+			if (!user?.admin) {
+				throw redirect(307, '/questions');
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const questionId = parseInt(body.questionId as string);
+
+			const { error: removeQuestionError } = await supabase
+				.from('questions')
+				.update({ removed: true })
+				.eq('id', questionId);
+
+			if (!removeQuestionError) {
+				return true;
+			} else {
+				throw error(500, {
+					message: 'Error removing question'
+				});
+			}
+		} catch (e) {
+			console.log(e);
+			return false;
+		}
 	}
 };
 
@@ -273,7 +316,7 @@ type Category = {
 // ];
 
 function buildHierarchy(categories: Category[]): Category[] {
-	let map: { [key: number]: Category } = {};
+	const map: { [key: number]: Category } = {};
 
 	// First pass: Create a map of all categories by their ID
 	categories.forEach((category) => {
