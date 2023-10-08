@@ -4,7 +4,7 @@ description: 'Why Meghan Markle appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Meghan-Markle'
-lastmod: '2023-08-16'
+lastmod: '2023-10-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -49,12 +49,7 @@ This also helps explain the motivation to leave the Royal Family. The Royal Fami
 
 Type 2's have a deep desire to feel love and are willing to twist narratives and details to make themselves appear worthy of sympathy and love. Meghan seems to be very aware of how she is perceived and has put forth multiple efforts to control her public image. When she and her husband Prince Harry were preparing to leave the royal family and they were planning their exit. But to appear strategic would not play well with the narrative of being outcast by the royal family.
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
+<div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GVc-Cai-rYs?clip=Ugkxp9SeQd0c9RRykVUkOj9_Xc9dprHWscii&amp;clipt=EMD4Hhi5gSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -62,12 +57,7 @@ Type 2's have a deep desire to feel love and are willing to twist narratives and
 
 On the positive side type 2's are often praised for their warmth and empathy. Meghan does have a warm smile and has the ability to make you feel like the best thing since sliced bread. Or as the kids say she can make you feel like your shii be bussin respectively. Twos can build genuine rapport with people quickly and one can tell there was an element to this in her and Prince Harry's quick and whirlwind romance. It is likely that she displayed empathy for the Prince and this was something that drew Harry towards her and that he reciprocated for her when she started getting criticized.
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
+<div style="display:flex; align-items: center; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb_yl4rOEVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -92,7 +82,7 @@ On the positive side type 2's are often praised for their warmth and empathy. Me
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-16"
+        "@value": "2023-10-08"
       },
       "datePublished": {
         "@type": "Date",
