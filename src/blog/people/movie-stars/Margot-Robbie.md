@@ -86,7 +86,7 @@ Type 8s are known for having a strong connection with their body. Margot has sha
  margin: 1rem 0;
  "
 >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### From Australian Soap to Hollywood: A True Challenger's Journey

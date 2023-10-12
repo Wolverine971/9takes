@@ -79,7 +79,7 @@ A Three with a Two-Wing, often called "The Charmer," is known for its warmth, am
  margin: 1rem 0;
  "
 >
-<iframe width="315" height="560"
+<iframe width="100%" height="560"
 src="https://youtube.com/embed/CptK4H5ZOxU"
 title="Jason Calacanis talking about networking"
 frameborder="0"

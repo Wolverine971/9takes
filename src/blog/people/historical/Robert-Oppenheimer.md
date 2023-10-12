@@ -69,7 +69,7 @@ Individualists are deep thinkers, often introspective and in tune with their emo
 Type 4 personalities strive for uniqueness and often feel different from others. This trait manifested in Oppenheimer's life in many ways. His intellectual brilliance set him apart from others from a young age, and yet <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.thetrailblazer.co.uk/blog/6-things-you-probably-didnt-know-about-j-robert-oppenheimer">he had dyslexia and a stammer.</a> He continued to differentiate himself throughout his life through his poetic approach to science. His interests extended beyond physics to philosophy, languages, and Eastern mysticism, displaying a distinct inclination towards originality and diversity.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AwOFcxENsVk?start=174" title="Andreessen brothers examining Oppenheimer's personality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/AwOFcxENsVk?start=174" title="Andreessen brothers examining Oppenheimer's personality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Internal Struggles and Turmoil

@@ -50,7 +50,7 @@ It's not just what he shows, but how he shows it that's captivating. His tradema
 
 ## Why Casey Wears the Sunglasses
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xFbJoXJBIIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/xFbJoXJBIIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Running Towards Vulnerability
 
@@ -58,7 +58,7 @@ Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He 
 
 ## Why Casey loves to run
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-M7WA1qX1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/8-M7WA1qX1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## The Chaos and the Quiet
 
@@ -76,7 +76,7 @@ Now, how does this exploration enhance your understanding of Neistat as a creati
 
 He loves the chaos of his life but also needs that alone time.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-M7WA1qX1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/8-M7WA1qX1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Casey has some iconic glasses
 

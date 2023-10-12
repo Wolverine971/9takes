@@ -69,7 +69,7 @@ Regarding entrepreneurial spirit, Dave Portnoy is in a league of his own, and hi
 What truly sets Portnoy apart is his audacious business move in 2020. After selling a majority stake in Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million, Portnoy did the unthinkable—he bought it back. This wasn't just a business transaction but a power move that screamed control and autonomy, characteristics deeply ingrained in a Type 8 individual.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/px-C7NziRGE?clip=UgkxYbJ6iontap-Nrtoz4sRnGoElpI8SPVv_&amp;clipt=EJKjAxj4sAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/px-C7NziRGE?clip=UgkxYbJ6iontap-Nrtoz4sRnGoElpI8SPVv_&amp;clipt=EJKjAxj4sAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### Marching to His Own Beat: The BFFs Podcast and Celebrity Connections
@@ -103,7 +103,7 @@ Dedicating champagne bottles to his enemies is not just a quirky habit; it's a s
 In a recent interview, he expressed why he was a fan of Taylor Swift. He followed a story where <a href="/blog/famous-enneagram-types/Kanye">Kanye</a> had a lyric about Taylor Swift that said, "I made that bitch famous." Taylor said she never knew about that Lyric, but <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. But then it came out later that the recording of Taylor was edited and was fake. Dave knows what it is like to be unfairly slandered, and he doesn't like it.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### It is not an impulsive act

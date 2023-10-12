@@ -66,7 +66,7 @@ Kendal Jenner - 4??? -->
 <ul>
 <li>Kim's rise from stylist to media mogul exemplifies Type 3's relentless drive for success. She even has a game, 'Kim Kardashian: Hollywood,' which reveals her strategic exploitation of public image.</li>
 <li>Kim curates her social media presence in a typical Type 3 fashion. However, her retreat post the Paris robbery unveiled a vulnerable side that Type 3s often hide.
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/VkRg0tIKyKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/VkRg0tIKyKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 </li>
 <li>Kim's 72-day marriage and trademark controversy are potential reflections of Type 3's pursuit of societal expectations and resilience. These incidents might underscore their core fear of being unworthy.</li>
 <li>Kim's actions seem rooted in a Type 3's need to feel valued through achievements. Whether launching businesses or managing her image, her primary driver is ambition and desire for success.</li>

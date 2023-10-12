@@ -46,7 +46,7 @@ Pelosi's list of achievements is impressive, beginning with her ability to raise
 Type 3s are known for setting goals and working toward them tirelessly, often thriving in competitive environments. Pelosi's perseverance in adversity and setbacks aligns her with this Enneagram type. Additionally, her unwavering commitment to progressive policies, such as health care reform, climate change, and equal rights, strongly aligns with Type 3's drive for achievement and success.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c9_f_AgxfoE?start=195" title="Pelosi's daughter describing growing up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/c9_f_AgxfoE?start=195" title="Pelosi's daughter describing growing up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## The Work Ethic Connection: Type 3 and Pelosi
@@ -56,7 +56,7 @@ Pelosi's work ethic has been widely noted by her colleagues and aides, who have 
 The Enneagram Type 3 is recognized for its innate drive to succeed and achieve its goals. Pelosi's ability to persevere in challenging circumstances and her unwavering commitment to her work reflect this Enneagram type's core traits.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1aOaIY3hXJQ?start=503" title="Pelosi's work ethic described" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/1aOaIY3hXJQ?start=503" title="Pelosi's work ethic described" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Image Consciousness: A Key Aspect of Type 3
@@ -66,7 +66,7 @@ Pelosi is also known for her keen sense of style and image consciousness, often 
 Enneagram 3s are concerned with their image and reputation, striving to present themselves in the best possible light. In Pelosi's case, her carefully curated image communicates her dedication to her work and serves as a powerful symbol of overcoming barriers and succeeding in traditionally male-dominated fields.
 
 <div style="display:flex; align-items: center; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ar0yjBm2HTU" title="Pelosi's response to criticism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/ar0yjBm2HTU" title="Pelosi's response to criticism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Notice how Pelosi was sensitive to being considered a hateful person. She rejects that characterization of herself but then says that Trump is a coward and that she prays for him.
