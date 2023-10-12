@@ -28,7 +28,8 @@
 	};
 
 	const addComment = async (newData: any) => {
-		await fetch(`/comments/?type=question&parentId=${data?.question?.id}`)
+		setTimeout(async () => {
+			await fetch(`/comments/?type=question&parentId=${data?.question?.id}`)
 			.then((response) => response.json())
 			.then((commentData) => {
 				if (!commentData?.message) {
@@ -41,6 +42,8 @@
 					});
 				}
 			});
+		}, 500);
+		
 	};
 
 	const autoGrow = (element: HTMLElement | null) => {
@@ -121,7 +124,7 @@
 				style:--tag={`h-question-${data.question.id}`}
 				itemprop="name"
 			>
-				{data.question.question_formatted}
+				{data.question.question_formatted || data.question.question}
 			</h1>
 			<img id="qr-image" src="" alt="QR Code" style="width: {innerWidth > 400 ? '20%' : '30%'};" />
 		</div>

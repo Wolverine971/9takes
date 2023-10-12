@@ -106,7 +106,7 @@ export const tagQuestions = async () => {
 };
 
 export const tagQuestion = async (questionText: string, questionId: number) => {
-	const { data: tags, error: tagsError } = await supabase.from('question_tag').select('tag_name');
+	const { data: tags, error: tagsError } = await supabase.from('question_tag').select('tag_id, tag_name');
 	if (tagsError) {
 		return;
 	}
@@ -125,43 +125,54 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		]
 	});
 
-	console.log(completion.data.choices[0].message);
-	if (!completion.data.choices[0].message) {
+	if (!completion?.data?.choices[0]?.message?.content) {
 		return;
 	}
-	const cleanedTags = completion.data.choices[0].message.content
-		?.split(',')
-		.map((t) => {
-			return t.trim();
-		})
-		.filter((e) => e);
+	
+	const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
+	
 	if (!cleanedTags) {
 		return;
 	}
-	const { data: questionTags, error: questionTagsError } = await supabase
-		.from('question_tag')
-		.select()
-		.in('tag_name', cleanedTags);
 
-	if (questionTagsError) {
-		console.log(questionTagsError);
-	}
-	if (!questionTags?.length) {
-		return;
-	}
+	for await (const tag of cleanedTags) {
+		const newTags = tag.tags;
+		const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
 
-	for await (const tag of questionTags) {
+		const newTagIds = newTagz.map((e) => e.tag_id);
+		
+		if (!questionId) {
+			continue;
+		}
+
+		if (!newTagz.length) {
+			await supabase
+				.from('questions')
+				.update({ flagged: true, updated_at: new Date() })
+				.eq('id', questionId);
+			continue;
+		}
+
+		newTagIds.forEach(async (tagId) => {
+			await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+		});
 		await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')
-			.insert({ question_id: questionId, tag_id: tag.tag_id })
-			.select();
+			.from('questions')
+			.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
+			.eq('id', questionId);
 	}
+
+	return
+
 };
 
 // I can pull this system prompt dynamically
 
-const classifyOneQuestionPrompt = `You are going to be given either a question or a statement.  Your job is to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the tags in an array of strings.
- These are the tags:
+const classifyOneQuestionPrompt = `You are going to be given either a question or a statement.  Your job is to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in an json form with the tags in an array of strings.
+For example: [
+    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"]}
+ ]
+ Only tag from these predefined tags:
  `;
 
 const classifymultipleQuestionsPrompt = `You are going to be given a list of a questions or a statements with ids.  Your job is to classify the questions or statements and tag them with the applicable these predefined tags. A question or statement can have more than one tag. Return the results in an json form with the tags in an array of strings.

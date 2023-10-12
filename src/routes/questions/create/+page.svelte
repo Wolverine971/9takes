@@ -39,6 +39,7 @@
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
+		console.log('create question')
 	});
 
 	const createQuestion = async () => {
@@ -99,7 +100,6 @@
 				url = JSON.parse(data?.data)?.[0];
 				QRCode.toDataURL(`https://9takes.com/questions/${url}`, opts, function (err, url) {
 					if (err) throw err;
-
 					var img = document.getElementById('qr-image');
 					img.src = url;
 				});

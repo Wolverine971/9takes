@@ -1,13 +1,11 @@
 <!-- // Get all questions -->
 <script lang="ts">
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
-	// import { supabase } from '$lib/supabase';
 
 	import type { PageData } from './$types';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { goto } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
 	// interface QuestionsData extends PageData {
@@ -91,7 +89,8 @@
 						{#each categories[category.tag_name] as questionData}
 							<QuestionItem
 								questionData={questionData.questions}
-								isAdmin={data?.session?.user?.id}
+								isAdmin={!!data?.session?.user?.id}
+								on:questionRemoved={() => invalidateAll()}
 							/>
 						{/each}
 					</div>

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import { createEventDispatcher } from 'svelte';
 
 	export let questionData: any;
 	export let isAdmin: boolean;
@@ -10,6 +11,8 @@
 	const year = dateObj.getUTCFullYear();
 	const newdate = month + '/' + day + '/' + year;
 
+	const dispatch = createEventDispatcher();
+
 
 	const remove = async () => {
 		let body = new FormData();
@@ -19,13 +22,15 @@
 			method: 'POST',
 			body
 		});
+		
+		dispatch('questionRemoved');
 	};
 </script>
 
 <div style="display: flex; justify-content: center; align-items: center;">
 	<a href="/questions/{questionData.url}" class="question-card">
 		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-			{questionData.question_formatted}
+			{questionData.question_formatted || questionData.question}
 		</p>
 		<div class="small-div">
 			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
