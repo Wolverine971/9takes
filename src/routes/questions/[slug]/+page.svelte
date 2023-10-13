@@ -43,7 +43,6 @@
 				}
 			});
 		}, 500);
-		
 	};
 
 	const autoGrow = (element: HTMLElement | null) => {

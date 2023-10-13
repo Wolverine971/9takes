@@ -31,7 +31,7 @@ export async function GET({
 
 		// const lastDate = url.searchParams.get('lastDate') ?? null;
 
-		const range = parseInt(url.searchParams.get('range') as string) ?? null;
+		const range = parseInt(url.searchParams.get('range') as string) || null;
 
 		// parseInt(body.range as string);
 
