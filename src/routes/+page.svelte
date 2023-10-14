@@ -66,12 +66,12 @@
 
 				<div class="main-description">
 					<h1>9takes</h1>
-					<h2>Kill group think one question at a time</h2>
+					<h2>Find your people and understand everyone else.</h2>
 					<h3>Reddit reimagined, based on personality</h3>
 				</div>
 			</div>
 
-			<!-- 9takes- kill group think one question at a time. how socrates must have been explaining things
+			<!-- 9takes- Find people similar to you and understand everyone else. how socrates must have been explaining things
 			How we see the World -->
 		</div>
 		{#if !data?.session?.user?.id}

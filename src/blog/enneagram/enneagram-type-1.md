@@ -281,7 +281,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
         padding: 10px;
-        transition: tnsform .7s ease-in-out;
+        transition: transform .7s ease-in-out;
         flex: 1;
     }
 
