@@ -39,7 +39,6 @@
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
-		console.log('create question')
 	});
 
 	const createQuestion = async () => {

@@ -163,7 +163,6 @@
 
 	let innerWidth = 0;
 	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
-	console.log(_commentComment);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -190,11 +189,13 @@
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">
 					<a
-						class="profile-avatar {_commentComment?.profiles?.external_id ? 'hoverable' : 'disabled'}"
+						class="profile-avatar {_commentComment?.profiles?.external_id
+							? 'hoverable'
+							: 'disabled'}"
 						href={_commentComment?.profiles?.external_id
 							? `/users/${_commentComment.profiles.external_id}`
-							: ''}
-						>{_commentComment?.profiles?.enneagram || 'Rando'}</a>:
+							: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+					>:
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
 				{#if _commentComment.comment.length > 136}

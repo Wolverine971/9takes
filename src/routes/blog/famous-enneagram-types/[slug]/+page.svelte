@@ -19,7 +19,6 @@
 	let userHasAnswered = data.flags.userHasAnswered;
 
 	const commentAdded = (detail: any) => {
-		console.log(detail);
 		comments = [...detail, ...comments];
 		userHasAnswered = true;
 	};

@@ -138,7 +138,6 @@ export const actions: Actions = {
 
 const getUrlString = (unalteredText: string) => {
 	console.log('fix this');
-	console.log(unalteredText);
 	const text = unalteredText.trim();
 	let url = '';
 	const leftOver = removeStopwords(text.split(' '));

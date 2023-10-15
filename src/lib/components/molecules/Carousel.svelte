@@ -7,7 +7,6 @@
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 	export let gridDisplay: boolean = false;
 
-	
 	let w: any;
 	let h: any;
 	onMount(() => {

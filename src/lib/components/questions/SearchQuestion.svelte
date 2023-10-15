@@ -58,7 +58,6 @@
 	};
 
 	const goToPage = async (page: any) => {
-		console.log(page.url);
 		goto(`/questions/${page.url}`, {});
 	};
 </script>

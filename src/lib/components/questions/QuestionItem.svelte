@@ -13,7 +13,6 @@
 
 	const dispatch = createEventDispatcher();
 
-
 	const remove = async () => {
 		let body = new FormData();
 		body.append('questionId', questionData.id);
@@ -22,7 +21,7 @@
 			method: 'POST',
 			body
 		});
-		
+
 		dispatch('questionRemoved');
 	};
 </script>

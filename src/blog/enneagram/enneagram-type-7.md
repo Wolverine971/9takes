@@ -232,8 +232,6 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <style lang="scss">
 
-/* @import '../../scss/index.scss'; */
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

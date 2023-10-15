@@ -30,7 +30,6 @@
 			email = '';
 		} else {
 			if (emailError?.message && emailError?.message === 'Email already exists') {
-				// console.log(emailError);
 				notifications.warning('Email already exists', 3000);
 			} else {
 				notifications.warning('Email Failed', 3000);

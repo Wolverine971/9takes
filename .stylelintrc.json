@@ -1,1 +1,7 @@
-{ "extends": ["stylelint-config-standard", "stylelint-config-standard-scss", "stylelint-config-concentric-order"] }
+{
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-standard-scss",
+		"stylelint-config-concentric-order"
+	]
+}

@@ -30,18 +30,18 @@
 	const addComment = async (newData: any) => {
 		setTimeout(async () => {
 			await fetch(`/comments/?type=question&parentId=${data?.question?.id}`)
-			.then((response) => response.json())
-			.then((commentData) => {
-				if (!commentData?.message) {
-					dataForChild = Object.assign({}, data.question, {
-						comments: commentData,
-						comment_count: data.comment_count ? (data.comment_count += 1) : 1,
-						links: data.links,
-						links_count: data.links_count,
-						flags: Object.assign({}, data.flags, { userHasAnswered: true })
-					});
-				}
-			});
+				.then((response) => response.json())
+				.then((commentData) => {
+					if (!commentData?.message) {
+						dataForChild = Object.assign({}, data.question, {
+							comments: commentData,
+							comment_count: data.comment_count ? (data.comment_count += 1) : 1,
+							links: data.links,
+							links_count: data.links_count,
+							flags: Object.assign({}, data.flags, { userHasAnswered: true })
+						});
+					}
+				});
 		}, 500);
 	};
 

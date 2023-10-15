@@ -1,7 +1,6 @@
 <script lang="ts">
 	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 	import { famousTypes } from '$lib/components/molecules/famousTypes';
-	
 </script>
 
 <ul>

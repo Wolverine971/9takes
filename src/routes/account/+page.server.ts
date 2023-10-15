@@ -1,7 +1,7 @@
 import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
-import { error, redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 import { PRIVATE_DEMO } from '$env/static/private';
 
 import type { Actions } from './$types';
@@ -9,11 +9,11 @@ import type { Actions } from './$types';
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
 	const session = await getServerSession(event);
-	const {
-		data: user,
-		error: findUserError,
-		status
-	} = await supabase.from('profiles').select('*').eq('email', session?.user.email).single();
+	const { data: user, error: findUserError } = await supabase
+		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+		.select('*')
+		.eq('email', session?.user.email)
+		.single();
 
 	const { data: subscriptions, error: subscriptionsError } = await supabase
 		.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
@@ -23,6 +23,9 @@ export const load: PageServerLoad = async (event) => {
 		)
 		.eq('user_id', user?.id);
 
+	if (subscriptionsError) {
+		console.log(subscriptionsError);
+	}
 	if (!findUserError) {
 		return { session, user, subscriptions };
 	} else {

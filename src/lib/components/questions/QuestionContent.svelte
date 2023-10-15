@@ -96,7 +96,6 @@
 	}
 
 	export let data: any; //: PassedPageData;
-	console.log('data', data);
 	export let user: any;
 	let selectedTab: string = 'comments';
 	let _data: any;
@@ -207,7 +206,7 @@
 				on:click={() => (selectedTab = 'comments')}
 				style:--tag={`a-comment${data.id}`}
 			>
-			{#if selectedTab === 'comments'}
+				{#if selectedTab === 'comments'}
 					<span style="text-align: center; text-wrap: nowrap; margin-right: 0.5rem;"
 						>{#if _data.comment_count > 0}
 							{_data.comment_count}

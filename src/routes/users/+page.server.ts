@@ -53,7 +53,7 @@ export const actions: Actions = {
 			const enneagram = body.enneagram as string;
 			const email = body.email as string;
 			const { error: updateUserError } = await supabase
-				.from('profiles')
+				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
 			// insert(userData);
@@ -97,7 +97,7 @@ export const actions: Actions = {
 			const isAdmin = body.isAdmin as string;
 			const email = body.email as string;
 			const { error: updateUserToAdminError } = await supabase
-				.from('profiles')
+				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
 				.update({ admin: isAdmin === 'true' })
 				.eq('email', email);
 			// insert(userData);

@@ -282,7 +282,6 @@ To help foster personal growth and development for individuals with a Type 5 per
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
    }
 
 </style>

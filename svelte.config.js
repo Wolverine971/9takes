@@ -29,8 +29,7 @@ const config = {
 			scss: {
 				prependData: `@import './src/scss/index.scss';`
 			}
-		}),
-		
+		})
 	],
 	onwarn: (warning, handler) => {
 		if (warning.code === 'css-unused-selector') {
