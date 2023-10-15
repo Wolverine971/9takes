@@ -319,7 +319,7 @@
 
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<Comments {questionId} data={_commentComment} nested={true} parentType={'comment'} {user} />
+			<Comments {questionId} data={_commentComment} parentType={'comment'} {user} />
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}

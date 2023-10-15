@@ -2,24 +2,24 @@ import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
-import { PRIVATE_DEMO } from '$env/static/private';
 
 import type { Actions } from './$types';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
+	const { demo_time } = await event.parent();
 	const session = await getServerSession(event);
 	const { data: user, error: findUserError } = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*')
 		.eq('email', session?.user.email)
 		.single();
 
 	const { data: subscriptions, error: subscriptionsError } = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
+		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
-		${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)`
+		${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)`
 		)
 		.eq('user_id', user?.id);
 
@@ -36,8 +36,17 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	updateAccount: async ({ request }) => {
+	updateAccount: async (event) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
+			const { request } = event;
 			const body = Object.fromEntries(await request.formData());
 
 			const first_name = body.firstName as string;
@@ -47,7 +56,7 @@ export const actions: Actions = {
 			const email = body.email as string;
 
 			const { error: updateUserError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
 			// insert(userData);

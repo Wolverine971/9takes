@@ -1,18 +1,15 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { supabase } from '$lib/supabase';
-
-import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
-
-import { PRIVATE_DEMO } from '$env/static/private';
-
-import type { Actions } from './$types';
+import type { Actions, PageServerLoad } from './$types';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
+	const { demo_time } = await event.parent();
+
 	const session = await getServerSession(event);
 	const { data: user, error: findUserError } = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('id, enneagram, external_id')
 		.eq('external_id', event.params.externalId)
 		.single();
@@ -30,8 +27,8 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { data: comments, error: commentsError } = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
-		.select(`*,`)
+		.from(demo_time === true ? 'comments_demo' : 'comments')
+		.select(`*`)
 		.eq('author_id', user?.id)
 		.order('created_at', { ascending: false });
 
@@ -40,7 +37,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	// got to map the question separately
-	// ${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(id, question, url)
+	// ${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)
 
 	if (!findUserError) {
 		return { session, user, subscriptions, comments };
@@ -54,6 +51,14 @@ export const load: PageServerLoad = async (event) => {
 export const actions: Actions = {
 	updateAccount: async ({ request }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 
 			const first_name = body.firstName as string;
@@ -63,7 +68,7 @@ export const actions: Actions = {
 			const email = body.email as string;
 
 			const { error: updateUserError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
 			// insert(userData);

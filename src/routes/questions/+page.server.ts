@@ -1,6 +1,5 @@
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import { error, redirect } from '@sveltejs/kit';
-import { PRIVATE_DEMO } from '$env/static/private';
 import { elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';
 
@@ -8,7 +7,9 @@ import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import type { Database } from '../../schema';
 
-export const load: PageServerLoad = async (): Promise<{
+export const load: PageServerLoad = async (
+	event
+): Promise<{
 	// data: any;
 	subcategoryTags: Array<Database['public']['Tables']['question_subcategories']>;
 	questionsAndTags: Array<Database['public']['Tables']['questions']>;
@@ -17,6 +18,7 @@ export const load: PageServerLoad = async (): Promise<{
 	// count: number | null;
 }> => {
 	try {
+		const { demo_time } = await event.parent();
 		// const {
 		// 	data: questionsAndTags,
 		// 	error: findQuestionsError,
@@ -34,7 +36,7 @@ export const load: PageServerLoad = async (): Promise<{
 		// 		.select(`tag_id`, { count: 'estimated' })
 
 		const { data: uniquetags, error: tagsError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'distinct_question_tags_demo' : 'distinct_question_tags')
+			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
 			.select();
 
 		if (tagsError) {
@@ -66,8 +68,8 @@ export const load: PageServerLoad = async (): Promise<{
 		}
 
 		const { data: questionsAndTags, error: findQuestionsError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'question_tags_demo' : 'question_tags')
-			.select(`${PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
+			.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
+			.select(`${demo_time === true ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
 				count: 'estimated'
 			})
 			.in('tag_id', tags);
@@ -87,7 +89,7 @@ export const load: PageServerLoad = async (): Promise<{
 		// const tags = questionsAndTags.map((q) => {
 		// 	return q?.question_tag?.subcategory_id;
 		// });
-		if (PRIVATE_DEMO === 'true') {
+		if (demo_time === true) {
 			return {
 				subcategoryTags,
 				questionsAndTags: questionsAndTags?.map((q) => {
@@ -119,16 +121,28 @@ export const load: PageServerLoad = async (): Promise<{
 export const actions: Actions = {
 	search: async ({ request }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
 
 			const { data: questions, error: findQuestionsError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
+				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.select('*')
 				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
 					type: 'websearch',
 					config: 'english'
 				});
+
+			if (findQuestionsError) {
+				console.log(findQuestionsError);
+			}
 
 			return questions;
 		} catch (e) {
@@ -166,23 +180,27 @@ export const actions: Actions = {
 	},
 	sortComments: async ({ request }): Promise<Comment[]> => {
 		try {
-			const body = Object.fromEntries(await request.formData());
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
 
+			const demo_time = demoTime?.value;
+
+			const body = Object.fromEntries(await request.formData());
 			const enneagramTypes = (body.enneagramTypes as string).split(',');
 			const questionId = parseInt(body.questionId as string);
 
 			const { data: comments, error: findCommentsError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+				.from(demo_time === true ? 'comments_demo' : 'comments')
 
-				.select(
-					`*, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}!inner (enneagram, id)`,
-					{
-						count: 'exact'
-					}
-				)
+				.select(`*, ${demo_time === true ? 'profiles_demo' : 'profiles'}!inner (enneagram, id)`, {
+					count: 'exact'
+				})
 				.eq('parent_type', 'question')
 				.eq('parent_id', questionId)
-				.in(`${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes)
+				.in(`${demo_time === true ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes)
 				.order('created_at', { ascending: false });
 			if (comments) {
 				return comments.map((c) => {
@@ -203,11 +221,19 @@ export const actions: Actions = {
 	},
 	getMoreQuestions: async ({ request }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 			const count = parseInt(body.count as string);
 
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
+				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.select(`*`, { count: 'estimated' })
 				.order('created_at', { ascending: false })
 				.range(count, count + 10);
@@ -226,13 +252,21 @@ export const actions: Actions = {
 	},
 	remove: async ({ request, locals }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const session = locals.session;
 
 			if (!session?.user?.id) {
 				throw redirect(302, '/questions');
 			}
 			const { data: user, error: findUserError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.select('id, admin, external_id')
 				.eq('id', session?.user?.id)
 				.single();
@@ -249,7 +283,7 @@ export const actions: Actions = {
 			const questionId = parseInt(body.questionId as string);
 
 			const { error: removeQuestionError } = await supabase
-				.from('questions')
+				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.update({ removed: true })
 				.eq('id', questionId);
 

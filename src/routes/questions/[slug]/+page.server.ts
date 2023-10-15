@@ -8,18 +8,17 @@ import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 import { decode } from 'base64-arraybuffer';
 
-import { PRIVATE_DEMO } from '$env/static/private';
-
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
+	const { demo_time } = await event.parent();
 	const session = await getServerSession(event);
 	let userHasAnswered = false;
 
 	const { data: question, error: findQuestionError } = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
+		.from(demo_time === true ? 'questions_demo' : 'questions')
 		.select(
 			`*,
-			${PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions'} ( id, question_id, user_id )`
+			${demo_time === true ? 'subscriptions_demo' : 'subscriptions'} ( id, question_id, user_id )`
 		)
 		.eq('url', event.params.slug)
 		.single();
@@ -32,7 +31,7 @@ export async function load(event: any) {
 
 	if (session?.user) {
 		const { data: hasUserCommented } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select('*')
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id)
@@ -48,7 +47,7 @@ export async function load(event: any) {
 		// checks if it is a rando
 		const ipAddress = event.getClientAddress();
 		const { data: hasCommented } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select('*')
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id)
@@ -59,7 +58,7 @@ export async function load(event: any) {
 
 	if (!userHasAnswered) {
 		const { count: commentCount } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select('*', { count: 'exact' })
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id);
@@ -81,11 +80,11 @@ export async function load(event: any) {
 		count: questionCommentCount,
 		error: questionCommentsError
 	} = await supabase
-		.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+		.from(demo_time === true ? 'comments_demo' : 'comments')
 		.select(
 			`*
-			, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-			, ${PRIVATE_DEMO === 'true' ? 'comment_like_demo' : 'comment_like'} ( id, comment_id, user_id )`,
+			, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+			, ${demo_time === true ? 'comment_like_demo' : 'comment_like'} ( id, comment_id, user_id )`,
 
 			{ count: 'exact' }
 		)
@@ -115,7 +114,7 @@ export async function load(event: any) {
 		console.log('No links for question');
 	}
 
-	if (PRIVATE_DEMO === 'true') {
+	if (demo_time === true) {
 		return {
 			question: { ...question, ...{ subscriptions: question?.subscriptions_demo } },
 			comments: questionComments?.map((q) => {
@@ -150,6 +149,14 @@ export async function load(event: any) {
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 
 			const questionId = body.question_id as string;
@@ -164,7 +171,7 @@ export const actions: Actions = {
 			parseUrls(comment, questionId);
 
 			let esId = null;
-			if (PRIVATE_DEMO === 'false') {
+			if (demo_time === false) {
 				const resp: any = await addESComment({
 					index: parent_type,
 					parentId: es_id,
@@ -199,13 +206,13 @@ export const actions: Actions = {
 					  };
 
 			const { data: record, error: addCommentError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.insert(cData)
 				.select()
 				.single();
 			if (!addCommentError) {
 				if (parent_type === 'comment') {
-					if (PRIVATE_DEMO === 'false') {
+					if (demo_time === false) {
 						// need to increment the demo commentcount
 						const { error: incrementError } = await supabase.rpc('increment_comment_count', {
 							comment_parent_id: parentId
@@ -236,6 +243,13 @@ export const actions: Actions = {
 
 	createCommentRando: async ({ request, getClientAddress }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
 			//refresh the comments
 			const body = Object.fromEntries(await request.formData());
 
@@ -256,7 +270,7 @@ export const actions: Actions = {
 			parseUrls(comment, questionId);
 
 			let esId = null;
-			if (PRIVATE_DEMO === 'false') {
+			if (demo_time === false) {
 				const resp: any = await addESComment({
 					index: parent_type,
 					parentId: es_id,
@@ -292,7 +306,7 @@ export const actions: Actions = {
 					  };
 
 			const { data: record, error: addCommentError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.insert(cData)
 				.select()
 				.single();
@@ -324,6 +338,14 @@ export const actions: Actions = {
 
 	likeComment: async ({ request }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 
 			const parent_id = body.parent_id as string;
@@ -357,7 +379,7 @@ export const actions: Actions = {
 					}
 				} else {
 					const { error: removeLikeError } = await supabase
-						.from(PRIVATE_DEMO === 'true' ? 'comment_like_demo' : 'comment_like')
+						.from(demo_time === true ? 'comment_like_demo' : 'comment_like')
 						.delete()
 						.eq('user_id', user_id)
 						.eq('comment_id', parent_id);
@@ -385,12 +407,19 @@ export const actions: Actions = {
 
 	subscribe: async ({ request }) => {
 		try {
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
 			const body = Object.fromEntries(await request.formData());
 
 			const parent_id = body.parent_id as string;
 			const user_id = body.user_id as string;
 			const es_id = body.es_id as string;
-
 			const operation = body.operation as string;
 			const parentId = parseInt(parent_id);
 			const subscriptionData = {
@@ -404,7 +433,7 @@ export const actions: Actions = {
 			if (resp._id) {
 				if (operation === 'add') {
 					const { data: subscriptionRecord, error: addSubscriptionError } = await supabase
-						.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
+						.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 						.insert(subscriptionData)
 						.select()
 						.single();
@@ -418,7 +447,7 @@ export const actions: Actions = {
 					}
 				} else {
 					const { error: removeSubscriptionError } = await supabase
-						.from(PRIVATE_DEMO === 'true' ? 'subscriptions_demo' : 'subscriptions')
+						.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 						.delete()
 						.eq('user_id', user_id)
 						.eq('question_id', parent_id);
@@ -447,7 +476,6 @@ export const actions: Actions = {
 	linkClick: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
-
 			const linkId = body.linkId as string;
 
 			const { error: incrementError } = await supabase.rpc('increment_clicks', {

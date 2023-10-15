@@ -1,7 +1,6 @@
 // import type { error, json } from 'src/schema';
 
 import { error, json } from '@sveltejs/kit';
-import { PRIVATE_DEMO } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 
 // import type { PostgrestResponse } from '@supabase/supabase-js';
@@ -25,15 +24,17 @@ export async function GET({
 	getClientAddress: any;
 }) {
 	try {
+		const { data: demoTime } = await supabase
+			.from('admin_settings')
+			.select('value')
+			.eq('type', 'demo_time')
+			.single();
+
+		const demo_time = demoTime?.value;
+
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
-
 		const parentType = String(url.searchParams.get('type') ?? '0');
-
-		// const lastDate = url.searchParams.get('lastDate') ?? null;
-
 		const range = parseInt(url.searchParams.get('range') as string) || null;
-
-		// parseInt(body.range as string);
 
 		const ipAddress = getClientAddress();
 
@@ -43,7 +44,7 @@ export async function GET({
 
 		if (user?.id) {
 			const { data: hasUserCommented } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select('*')
 				.eq('parent_type', parentType)
 				.eq('parent_id', parentId)
@@ -53,7 +54,7 @@ export async function GET({
 		} else {
 			// checks if it is a rando
 			const { data: hasCommented } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select('*')
 				.eq('parent_type', parentType)
 				.eq('parent_id', parentId)
@@ -66,7 +67,7 @@ export async function GET({
 		}
 
 		const { data: questionComments, error: questionCommentsError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select(
 				`
 		id
@@ -79,7 +80,7 @@ export async function GET({
 		, parent_type
 		, es_id
 		, like_count
-		, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+		, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 		`,
 				{ count: 'exact' }
 			)
@@ -97,7 +98,7 @@ export async function GET({
 			}
 			if (questionCommentIds) {
 				const { data: commentComments, error: commentError } = await supabase
-					.from(PRIVATE_DEMO === 'true' ? 'comments_demo' : 'comments')
+					.from(demo_time === true ? 'comments_demo' : 'comments')
 					.select(
 						`
 					id
@@ -110,7 +111,7 @@ export async function GET({
 					, parent_type
 					, es_id
 					, like_count
-					, ${PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+					, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 					`,
 						{ count: 'exact' }
 					)

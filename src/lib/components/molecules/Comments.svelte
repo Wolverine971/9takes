@@ -4,7 +4,7 @@
 
 	let loading = false;
 
-	export let nested: boolean = false;
+	// export let nested: boolean = false;
 	export let parentType: string = 'comment';
 
 	export let data: any;

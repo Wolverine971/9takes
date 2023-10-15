@@ -4,18 +4,39 @@ description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncov
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2023-09-04'
+lastmod: '2023-10-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'greek-statues-two-females-on-phones'
 ---
+
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
 
 <!-- Take a free, ~5 min test here -->
 
 <p class="firstLetter"> Ever felt misunderstood or did not understand something about someone else? A personality system called the Enneagram can help by offering a framework for understanding a person's core fears and motivations.</p>
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+  <PopCard
+		image={`/blogs/greek-statues-two-females-on-phones.webp`}
+		showIcon={false}
+		displayText=""
+    altText="two greek statues figuring out their Enneagram type"
+    tint={true}
+		subtext=""
+	/>
+</div>
 
 I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our versions of the truth on each other. We did not slow down to consider each other's perspectives when we felt right about something. The Enneagram helped us slow down, and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict, but we continue to use it, which has helped us become more of a team.
 
@@ -52,6 +73,8 @@ After identifying your core emotion, the next step is to identify your type. The
 - **Core Motivation:** Desire to be good, ethical, and correct.
 - **Core Fear:** Being corrupt, defective, or imperfect.
 
+<a href="/blog/enneagram/enneagram-type-1"><b>More on type One</b></a>
+
 </article>
 <article class="section-content">
 
@@ -59,6 +82,8 @@ After identifying your core emotion, the next step is to identify your type. The
 
 - **Core Motivation:** Desire to be loved and appreciated.
 - **Core Fear:** Being unwanted, unloved, or dispensable.
+
+<a href="/blog/enneagram/enneagram-type-2"><b>More on type Twp</b></a>
 
 </article>
 <article class="section-content">
@@ -68,6 +93,8 @@ After identifying your core emotion, the next step is to identify your type. The
 - **Core Motivation:** Desire to be successful and admired.
 - **Core Fear:** Being worthless, unsuccessful, or unimportant.
 
+<a href="/blog/enneagram/enneagram-type-3"><b>More on type Three</b></a>
+
 </article>
 <article class="section-content">
 
@@ -75,6 +102,8 @@ After identifying your core emotion, the next step is to identify your type. The
 
 - **Core Motivation:** Desire to be unique, authentic, and understood.
 - **Core Fear:** Having no identity or personal significance.
+
+<a href="/blog/enneagram/enneagram-type-4"><b>More on type Four</b></a>
 
 </article>
 <article class="section-content">
@@ -84,6 +113,8 @@ After identifying your core emotion, the next step is to identify your type. The
 - **Core Motivation:** Desire to be knowledgeable and competent.
 - **Core Fear:** Being helpless, useless, or overwhelmed.
 
+<a href="/blog/enneagram/enneagram-type-5"><b>More on type Five</b></a>
+
 </article>
 <article class="section-content">
 
@@ -91,6 +122,8 @@ After identifying your core emotion, the next step is to identify your type. The
 
 - **Core Motivation:** Desire for security and support.
 - **Core Fear:** Without guidance, support, or security.
+
+<a href="/blog/enneagram/enneagram-type-6"><b>More on type Six</b></a>
 
 </article>
 <article class="section-content">
@@ -100,6 +133,8 @@ After identifying your core emotion, the next step is to identify your type. The
 - **Core Motivation:** Desire to be satisfied and content.
 - **Core Fear:** Being deprived, trapped, or in pain.
 
+<a href="/blog/enneagram/enneagram-type-7"><b>More on type Seven</b></a>
+
 </article>
 <article class="section-content">
 
@@ -108,6 +143,8 @@ After identifying your core emotion, the next step is to identify your type. The
 - **Core Motivation:** Desire to protect themselves and control their lives.
 - **Core Fear:** Being harmed, controlled, or violated.
 
+<a href="/blog/enneagram/enneagram-type-8"><b>More on type Eight</b></a>
+
 </article>
 <article class="section-content">
 
@@ -115,6 +152,8 @@ After identifying your core emotion, the next step is to identify your type. The
 
 - **Core Motivation:** Desire for peace and harmony.
 - **Core Fear:** Conflict, tension, or disconnection.
+
+<a href="/blog/enneagram/enneagram-type-9"><b>More on type Nine</b></a>
 
 </article>
 

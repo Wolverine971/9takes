@@ -1,5 +1,4 @@
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-import { PRIVATE_DEMO } from '$env/static/private';
 import { redirect } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
@@ -25,10 +24,17 @@ import { elasticClient } from '$lib/elasticSearch';
 
 export const actions: Actions = {
 	getUrl: async ({ request }) => {
+		const { data: demoTime } = await supabase
+			.from('admin_settings')
+			.select('value')
+			.eq('type', 'demo_time')
+			.single();
+
+		const demo_time = demoTime?.value;
+
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;
-
 		const tempUrl = getUrlString(question);
 
 		// export const typeaheadQuery = (
@@ -51,7 +57,7 @@ export const actions: Actions = {
 		// 		size
 		// 	};
 		// };
-		if (PRIVATE_DEMO === 'true') {
+		if (demo_time === true) {
 			return tempUrl;
 		}
 		const response = await elasticClient.search(typeaheadQuery('question', 'url', tempUrl, 200));
@@ -86,7 +92,7 @@ export const actions: Actions = {
 		// const canAskQuestion = session.user.id;
 
 		const { data: userExists, error: userError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'profiles_demo' : 'profiles')
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('*')
 			.eq('id', author_id)
 			.single();
@@ -97,7 +103,7 @@ export const actions: Actions = {
 
 		if (!userExists.admin) {
 			const { data: permissions, error: permissionsError } = await supabase
-				.from(PRIVATE_DEMO === 'true' ? 'permissions_demo' : 'permissions')
+				.from(demo_time === true ? 'permissions_demo' : 'permissions')
 				.select('*')
 				.eq('profile_id', author_id);
 
@@ -107,7 +113,7 @@ export const actions: Actions = {
 		}
 
 		let esId = null;
-		if (PRIVATE_DEMO === 'false') {
+		if (demo_time === false) {
 			const resp: any = await createESQuestion(body);
 			if (resp._id) {
 				esId = resp._id;
@@ -122,7 +128,7 @@ export const actions: Actions = {
 			img_url: img_url
 		};
 		const { data: insertedQuestion, error: questionInsertError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
+			.from(demo_time === true ? 'questions_demo' : 'questions')
 			.insert(qData)
 			.select();
 

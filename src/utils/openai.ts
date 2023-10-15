@@ -1,9 +1,17 @@
-import { PRIVATE_AI_API_KEY, PRIVATE_DEMO } from '$env/static/private';
+import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import { Configuration, OpenAIApi } from 'openai';
 
 export const tagQuestions = async () => {
 	try {
+		const { data: demoTime } = await supabase
+			.from('admin_settings')
+			.select('value')
+			.eq('type', 'demo_time')
+			.single();
+
+		const demo_time = demoTime?.value;
+
 		const { data: ableToRefreshQuestions, error: settingsDataError } = await supabase
 			.from('admin_settings')
 			.select('value')
@@ -22,7 +30,7 @@ export const tagQuestions = async () => {
 		const date = new Date();
 		const yesterday = new Date(date.getTime() - 24 * 60 * 60 * 1000).toISOString();
 		const { data: questions, error: questionsError } = await supabase
-			.from(PRIVATE_DEMO === 'true' ? 'questions_demo' : 'questions')
+			.from(demo_time === true ? 'questions_demo' : 'questions')
 			.select(`question, id`, { count: 'estimated' })
 			.eq('tagged', false)
 			.eq('flagged', false)
