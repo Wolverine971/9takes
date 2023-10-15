@@ -93,9 +93,9 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <div class="scroll-table">
 
-| Type | Characteristic role | Ego fixation                                       | Holy idea     | Trap    | Basic fear      | Basic desire           | [Temptation](https://en.wikipedia.org/wiki/Temptation)                                   | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)     | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | -------------------------------------------------- | ------------- | ------- | --------------- | ---------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
-| 2    | Helper, Giver       | [Flattery](https://en.wikipedia.org/wiki/Flattery) | Freedom, Will | Freedom | Being unlovable | To feel worthy of love | Deny own needs, [manipulation](https://en.wikipedia.org/wiki/Psychological_manipulation) | [Pride](https://en.wikipedia.org/wiki/Pride)                    | [Humility](https://en.wikipedia.org/wiki/Humility) | 8                      | 4                     |
+| Type | Characteristic role | Ego fixation                                       | Holy idea     | Trap    | Basic fear      | Basic desire           | Temptation                                                                               | Vice/Passion                                 | Virtue                                             | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | -------------------------------------------------- | ------------- | ------- | --------------- | ---------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
+| 2    | Helper, Giver       | [Flattery](https://en.wikipedia.org/wiki/Flattery) | Freedom, Will | Freedom | Being unlovable | To feel worthy of love | Deny own needs, [manipulation](https://en.wikipedia.org/wiki/Psychological_manipulation) | [Pride](https://en.wikipedia.org/wiki/Pride) | [Humility](https://en.wikipedia.org/wiki/Humility) | 8                      | 4                     |
 
 </div>
 

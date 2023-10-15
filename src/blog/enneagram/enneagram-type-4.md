@@ -97,7 +97,7 @@ Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When
 
 <div class="scroll-table">
 
-| Type | Characteristic role     | Ego fixation                                                    | Holy idea | Trap         | Basic fear                         | Basic desire              | [Temptation](https://en.wikipedia.org/wiki/Temptation) | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)                             | Stress/ Disintegration | Security/ Integration |
+| Type | Characteristic role     | Ego fixation                                                    | Holy idea | Trap         | Basic fear                         | Basic desire              | Temptation | Vice/Passion | Virtue                             | Stress/ Disintegration | Security/ Integration |
 | ---- | ----------------------- | --------------------------------------------------------------- | --------- | ------------ | ---------------------------------- | ------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------- | --------------------- |
 | 4    | Individualist, Romantic | [Melancholy](<https://en.wikipedia.org/wiki/Depression_(mood)>) | Origin    | Authenticity | Having no identity or significance | To be uniquely themselves | To overuse imagination in search of self               | [Envy](https://en.wikipedia.org/wiki/Envy)                      | [Equanimity](https://en.wikipedia.org/wiki/Equanimity) (Emotional Balance) | 2                      | 1                     |
 

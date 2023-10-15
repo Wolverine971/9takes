@@ -6,26 +6,6 @@
 
 	export let type: number;
 
-	// function getRandomElements(arr: string[]) {
-	// 	// return [];
-	// 	// if (arr.length < 9) {
-	// 	// 	throw new Error('Array must contain at least 9 elements.');
-	// 	// }
-
-	// 	let randomElements: string[] = [];
-
-	// 	while (randomElements.length < 9) {
-	// 		const randomIndex = Math.floor(Math.random() * arr.length);
-	// 		const randomElement = arr[randomIndex];
-
-	// 		if (!randomElements.includes(randomElement)) {
-	// 			randomElements.push(randomElement);
-	// 		}
-	// 	}
-	// 	// debugger;
-	// 	return randomElements;
-	// }
-
 	let randomElements: string[] = [];
 
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
@@ -154,22 +134,22 @@
 
 <div class="grid">
 	{#each firstGroup as person, i}
-		<div class="face front grid-item">
+		<a class="face front grid-item" href={person.link ? `/blog/famous-enneagram-types/${person.name}` : '#'}>
 			<div class="pop-card" style="aspect-ratio: 1/1" title="">
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->
 				<img
 					class="pop-card-image profileFace tint"
-					src={`/types/${type}s/${person}.webp`}
+					src={`/types/${type}s/${person.name}.webp`}
 					alt={''}
 					in:fly={{ y: 200, duration: 2000 }}
 				/>
 				<div class="pop-card-user">
-					<p class="name-pop" data-value={person.split('-').join(' ')}>
-						{person.split('-').join(' ')}
+					<p class="name-pop" data-value={person.name.split('-').join(' ')}>
+						{person.name.split('-').join(' ')}
 					</p>
 				</div>
 			</div>
-		</div>
+		</a>
 	{/each}
 </div>
 

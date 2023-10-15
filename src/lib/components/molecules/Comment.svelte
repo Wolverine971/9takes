@@ -190,12 +190,11 @@
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">
 					<a
-						class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+						class="profile-avatar {_commentComment?.profiles?.external_id ? 'hoverable' : 'disabled'}"
 						href={_commentComment?.profiles?.external_id
 							? `/users/${_commentComment.profiles.external_id}`
 							: ''}
-						>{_commentComment?.profiles?.enneagram || 'Rando'}
-					</a>:
+						>{_commentComment?.profiles?.enneagram || 'Rando'}</a>:
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
 				{#if _commentComment.comment.length > 136}
@@ -441,10 +440,9 @@
 		-o-transition: all 0.5s; /* Opera */
 		cursor: pointer;
 		word-break: keep-all;
-
-		&:hover {
-			border: 1px solid var(--color-paladin-3);
-		}
+	}
+	.hoverable::hover {
+		border: 1px solid var(--color-paladin-3);
 	}
 	.top-right-corner {
 		display: flex;

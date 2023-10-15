@@ -4,17 +4,18 @@ import { Configuration, OpenAIApi } from 'openai';
 
 export const tagQuestions = async () => {
 	try {
-		const { data: settingsData, error: settingsDataError } = await supabase
+		const { data: ableToRefreshQuestions, error: settingsDataError } = await supabase
 			.from('admin_settings')
-			.select('refresh_questions');
+			.select('value')
+			.eq('type', 'refresh_questions');
 
 		if (settingsDataError) {
 			console.log(settingsDataError);
 			return;
 		}
 
-		if (settingsData && !settingsData[0].refresh_questions) {
-			console.log(settingsData[0].refresh_questions);
+		if (ableToRefreshQuestions) {
+			console.log(ableToRefreshQuestions[0]);
 			return;
 		}
 
@@ -92,13 +93,15 @@ export const tagQuestions = async () => {
 				.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
 				.eq('id', questionId);
 		}
+
 		const { data: updateSuccess, error: updateFailed } = await supabase
 			.from('admin_settings')
-			.update({
-				refresh_questions: false
-			})
-			.eq('id', 1);
-		console.log(updateFailed);
+			.update({ value: false })
+			.eq('type', 'refresh_questions');
+
+		if (updateFailed) {
+			console.log(updateFailed);
+		}
 		return updateSuccess;
 	} catch (e) {
 		console.log(e);
@@ -106,7 +109,9 @@ export const tagQuestions = async () => {
 };
 
 export const tagQuestion = async (questionText: string, questionId: number) => {
-	const { data: tags, error: tagsError } = await supabase.from('question_tag').select('tag_id, tag_name');
+	const { data: tags, error: tagsError } = await supabase
+		.from('question_tag')
+		.select('tag_id, tag_name');
 	if (tagsError) {
 		return;
 	}
@@ -128,9 +133,9 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 	if (!completion?.data?.choices[0]?.message?.content) {
 		return;
 	}
-	
+
 	const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
-	
+
 	if (!cleanedTags) {
 		return;
 	}
@@ -140,7 +145,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
 
 		const newTagIds = newTagz.map((e) => e.tag_id);
-		
+
 		if (!questionId) {
 			continue;
 		}
@@ -162,8 +167,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 			.eq('id', questionId);
 	}
 
-	return
-
+	return;
 };
 
 // I can pull this system prompt dynamically

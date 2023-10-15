@@ -322,6 +322,7 @@
 			// background-color: rgb(240, 248, 255, 0.6);
 
 			a {
+				color: var(--color-paladin-3) !important;
 				margin: 0;
 				padding: 0.75rem;
 			}

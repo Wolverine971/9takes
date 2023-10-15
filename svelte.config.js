@@ -1,16 +1,16 @@
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 import preprocess from 'svelte-preprocess';
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
+// import { dirname } from 'path';
+// import { fileURLToPath } from 'url';
 
 import mdsvexConfig from './mdsvex.config.js';
 import { mdsvex } from 'mdsvex';
 // import svelte from 'rollup-plugin-svelte'
 // + import sveltePreprocess from 'svelte-preprocess';
 
-const filePath = dirname(fileURLToPath(import.meta.url));
-const sassPath = `${filePath}\\src\\scss\\`;
+// const filePath = dirname(fileURLToPath(import.meta.url));
+// const sassPath = `${filePath}\\src\\scss\\`;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -29,8 +29,15 @@ const config = {
 			scss: {
 				prependData: `@import './src/scss/index.scss';`
 			}
-		})
+		}),
+		
 	],
+	onwarn: (warning, handler) => {
+		if (warning.code === 'css-unused-selector') {
+			return;
+		}
+		handler(warning);
+	},
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
 	css: (css) => {
 		css.write('public/bundle.css');

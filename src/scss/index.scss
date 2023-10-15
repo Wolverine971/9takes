@@ -120,7 +120,7 @@ select {
 */
 
 a {
-	text-decoration: none;
+	// text-decoration: none;
 	color: inherit;
 
 	// word-break: break-word;
@@ -317,28 +317,29 @@ select {
 	}
 }
 
-.blog :global(a) {
+.blog a {
 	display: inline-block;
 	flex-wrap: wrap;
 	max-width: 100%;
 	overflow: hidden;
 	vertical-align: middle;
 	color: #260958;
+
+	&::after {
+		display: inline-block;
+		border-radius: 5px;
+		background-image: url('/icons/arrow.svg');
+		background-size: 1em 1em;
+		width: 1em;
+		height: 1em;
+		vertical-align: middle;
+		content: '';
+	}
 }
 
-.blog :global(a::after) {
-	display: inline-block;
-	border-radius: 5px;
-	background-image: url('/icons/arrow.svg');
-	background-size: 1em 1em;
-	width: 1em;
-	height: 1em;
-	vertical-align: middle;
-	content: '';
-}
+
 
 .glass-card {
-
 	// max-height: 860px;
 	// height: 90vh;
 	display: flex;
@@ -362,7 +363,6 @@ select {
 }
 
 a.disabled {
-
 	// pointer-events: none;
 	cursor: default;
 	text-decoration: line-through;
@@ -494,7 +494,6 @@ a.disabled {
 }
 
 section {
-
 	// padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
 
 	// border: var(--classic-border);

@@ -95,9 +95,9 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 
 <div class="scroll-table">
 
-| Type | Characteristic role | Ego fixation                                       | Holy idea          | Trap     | Basic fear                           | Basic desire                | [Temptation](https://en.wikipedia.org/wiki/Temptation) | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)     | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | -------------------------------------------------- | ------------------ | -------- | ------------------------------------ | --------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
-| 7    | Enthusiast, Epicure | [Planning](https://en.wikipedia.org/wiki/Planning) | Plan, Work, Wisdom | Idealism | Being unfulfilled, trapped, deprived | To be satisfied and content | Thinking fulfillment is somewhere else                 | [Gluttony](https://en.wikipedia.org/wiki/Gluttony)              | [Sobriety](https://en.wikipedia.org/wiki/Sobriety) | 1                      | 5                     |
+| Type | Characteristic role | Ego fixation                                       | Holy idea          | Trap     | Basic fear                           | Basic desire                | Temptation                             | Vice/Passion                                       | Virtue                                             | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | -------------------------------------------------- | ------------------ | -------- | ------------------------------------ | --------------------------- | -------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
+| 7    | Enthusiast, Epicure | [Planning](https://en.wikipedia.org/wiki/Planning) | Plan, Work, Wisdom | Idealism | Being unfulfilled, trapped, deprived | To be satisfied and content | Thinking fulfillment is somewhere else | [Gluttony](https://en.wikipedia.org/wiki/Gluttony) | [Sobriety](https://en.wikipedia.org/wiki/Sobriety) | 1                      | 5                     |
 
 </div>
 

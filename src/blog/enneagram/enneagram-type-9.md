@@ -112,9 +112,9 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When
 
 <div class="scroll-table">
 
-| Type | Characteristic role  | Ego fixation                                        | Holy idea | Trap   | Basic fear                      | Basic desire             | [Temptation](https://en.wikipedia.org/wiki/Temptation) | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)      | Stress/ Disintegration | Security/ Integration |
-| ---- | -------------------- | --------------------------------------------------- | --------- | ------ | ------------------------------- | ------------------------ | ------------------------------------------------------ | --------------------------------------------------------------- | --------------------------------------------------- | ---------------------- | --------------------- |
-| 9    | Peacemaker, Mediator | [Indolence](https://en.wikipedia.org/wiki/Laziness) | Love      | Seeker | Loss, fragmentation, separation | Wholeness, peace of mind | Avoiding conflicts, avoiding self-assertion            | [Sloth](<https://en.wikipedia.org/wiki/Sloth_(deadly_sin)>)     | [Action](https://en.wikipedia.org/wiki/Proactivity) | 6                      | 3                     |
+| Type | Characteristic role  | Ego fixation                                        | Holy idea | Trap   | Basic fear                      | Basic desire             | Temptation                                  | Vice/Passion                                                | Virtue                                              | Stress/ Disintegration | Security/ Integration |
+| ---- | -------------------- | --------------------------------------------------- | --------- | ------ | ------------------------------- | ------------------------ | ------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------- | ---------------------- | --------------------- |
+| 9    | Peacemaker, Mediator | [Indolence](https://en.wikipedia.org/wiki/Laziness) | Love      | Seeker | Loss, fragmentation, separation | Wholeness, peace of mind | Avoiding conflicts, avoiding self-assertion | [Sloth](<https://en.wikipedia.org/wiki/Sloth_(deadly_sin)>) | [Action](https://en.wikipedia.org/wiki/Proactivity) | 6                      | 3                     |
 
 </div>
 

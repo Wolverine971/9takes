@@ -7,8 +7,15 @@
 	};
 </script>
 
+<ul>
+	<li><a href="#ideas" class="blog-headings">Ideas</a></li>
+	<li><a href="#guides" class="blog-headings">Guides</a></li>
+	<li><a href="#enneagram" class="blog-headings">Enneagram</a></li>
+	<li><a href="#people" class="blog-headings">Famous People</a></li>
+</ul>
+
 <div style="width: 100%;">
-	<h2>Ideas behind 9takes</h2>
+	<h2 id="ideas">Ideas behind 9takes</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.community as cBlog}
 			<a href="/blog/community/{cBlog.slug}" class="grid-item">
@@ -35,7 +42,7 @@
 </div>
 
 <div style="width: 100%;">
-	<h2>Guides</h2>
+	<h2 id="guides">Guides</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.guides as eBlog}
 			<a
@@ -56,7 +63,7 @@
 </div>
 
 <div style="width: 100%;">
-	<h2>Enneagram explained</h2>
+	<h2 id="enneagram">Enneagram explained</h2>
 	<div class="blog-grid-container">
 		{#each blogs?.enneagram as eBlog}
 			<a
@@ -77,7 +84,7 @@
 </div>
 
 <div style="width: 100%;">
-	<h2>People Analysis</h2>
+	<h2 id="people">People Analysis</h2>
 
 	<h3 class="position-center">Musicians/ Artists</h3>
 	<div class="people-grid-container">
@@ -213,6 +220,22 @@
 </div>
 
 <style class="scss">
+	.blog-headings {
+		font-size: 1.5rem;
+		text-decoration: none;
+		font-weight: bold;
+		border-radius: 5px;
+		padding: 0.25rem;
+	}
+	li::marker {
+		display: none;
+		content: '';
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
 	h3 {
 		font-size: 1.5rem;
 	}

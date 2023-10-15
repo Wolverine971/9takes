@@ -1,4 +1,3 @@
-// import { error } from '@supabase/auth-helpers-sveltekit';
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import { error, redirect } from '@sveltejs/kit';
 import { PRIVATE_DEMO } from '$env/static/private';
@@ -37,6 +36,10 @@ export const load: PageServerLoad = async (): Promise<{
 		const { data: uniquetags, error: tagsError } = await supabase
 			.from(PRIVATE_DEMO === 'true' ? 'distinct_question_tags_demo' : 'distinct_question_tags')
 			.select();
+
+		if (tagsError) {
+			console.log(tagsError);
+		}
 
 		const tags = uniquetags?.map((t) => {
 			return t.tag_id;

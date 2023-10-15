@@ -146,7 +146,7 @@
 					style="text-align: center;"
 					itemprop="description"
 				>
-					{'nine perspectives, one community'}
+					{'ask good questions, make Socrates proud'}
 				</p>
 			</div>
 		</Jumbotron>

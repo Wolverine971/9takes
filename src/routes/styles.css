@@ -75,7 +75,7 @@ body {
 a {
 	transition: color 0.3s ease;
 	text-decoration: none;
-	color: var(--secondary-color);
+	color: var(--purple) !important;
 }
 
 a:hover {
@@ -417,4 +417,42 @@ th {
 .column {
 	/* background-color: aliceblue; */
 	border-radius: 5px;
+}
+
+.main a {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	color: #260958;
+}
+
+/* main a::after {
+	display: inline-block;
+	align-items: center;
+	background-image: url('/icons/arrow.svg');
+	background-size: 1em 1em;
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	content: '';
+} */
+
+.blog a {
+	display: inline-block;
+	flex-wrap: wrap;
+	max-width: 100%;
+	overflow: hidden;
+	vertical-align: middle;
+	color: #260958;
+}
+
+.blog a::after {
+	display: inline-block;
+	border-radius: 5px;
+	background-image: url('/icons/arrow.svg');
+	background-size: 1em 1em;
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	content: '';
 }

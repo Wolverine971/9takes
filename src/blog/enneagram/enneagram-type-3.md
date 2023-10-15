@@ -98,9 +98,9 @@ Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonio
 
 <div class="scroll-table">
 
-| Type | Characteristic role | Ego fixation                                   | Holy idea | Trap       | Basic fear    | Basic desire     | [Temptation](https://en.wikipedia.org/wiki/Temptation) | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)        | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | ---------------------------------------------- | --------- | ---------- | ------------- | ---------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ----------------------------------------------------- | ---------------------- | --------------------- |
-| 3    | Achiever, Performer | [Vanity](https://en.wikipedia.org/wiki/Vanity) | Hope, Law | Efficiency | Worthlessness | To feel valuable | Pushing self to always be "the best"                   | [Deceit](https://en.wikipedia.org/wiki/Deceit)                  | [Truthfulness](https://en.wikipedia.org/wiki/Honesty) | 9                      | 6                     |
+| Type | Characteristic role | Ego fixation                                   | Holy idea | Trap       | Basic fear    | Basic desire     | Temptation                           | Vice/Passion                                   | Virtue                                                | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | ---------------------------------------------- | --------- | ---------- | ------------- | ---------------- | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------- | ---------------------- | --------------------- |
+| 3    | Achiever, Performer | [Vanity](https://en.wikipedia.org/wiki/Vanity) | Hope, Law | Efficiency | Worthlessness | To feel valuable | Pushing self to always be "the best" | [Deceit](https://en.wikipedia.org/wiki/Deceit) | [Truthfulness](https://en.wikipedia.org/wiki/Honesty) | 9                      | 6                     |
 
 </div>
 

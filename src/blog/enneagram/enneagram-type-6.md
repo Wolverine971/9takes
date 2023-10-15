@@ -94,9 +94,9 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 <div class="scroll-table">
 
-| Type | Characteristic role     | Ego fixation                                         | Holy idea | Trap     | Basic fear                        | Basic desire                 | [Temptation](https://en.wikipedia.org/wiki/Temptation) | [Vice](https://en.wikipedia.org/wiki/Seven_deadly_sins)/Passion | [Virtue](https://en.wikipedia.org/wiki/Virtue)   | Stress/ Disintegration | Security/ Integration |
-| ---- | ----------------------- | ---------------------------------------------------- | --------- | -------- | --------------------------------- | ---------------------------- | ------------------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------------ | ---------------------- | --------------------- |
-| 6    | Loyalist, Loyal Skeptic | [Cowardice](https://en.wikipedia.org/wiki/Cowardice) | Faith     | Security | Being without support or guidance | To have support and guidance | Indecision, doubt, seeking reassurance                 | [Fear](https://en.wikipedia.org/wiki/Fear)                      | [Courage](https://en.wikipedia.org/wiki/Courage) | 3                      | 9                     |
+| Type | Characteristic role     | Ego fixation                                         | Holy idea | Trap     | Basic fear                        | Basic desire                 | Temptation                             | Vice/Passion                               | Virtue                                           | Stress/ Disintegration | Security/ Integration |
+| ---- | ----------------------- | ---------------------------------------------------- | --------- | -------- | --------------------------------- | ---------------------------- | -------------------------------------- | ------------------------------------------ | ------------------------------------------------ | ---------------------- | --------------------- |
+| 6    | Loyalist, Loyal Skeptic | [Cowardice](https://en.wikipedia.org/wiki/Cowardice) | Faith     | Security | Being without support or guidance | To have support and guidance | Indecision, doubt, seeking reassurance | [Fear](https://en.wikipedia.org/wiki/Fear) | [Courage](https://en.wikipedia.org/wiki/Courage) | 3                      | 9                     |
 
 </div>
 
