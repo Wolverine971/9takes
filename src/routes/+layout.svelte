@@ -32,15 +32,9 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<!-- <div class="">
-		<div class="card">
-			<div class="halftone" style="height: 100%;"> -->
-<!-- <div class="foreward-main"> -->
-<Analytics />
-<!-- {#if $page.url.pathname !== '/'} -->
-<Header {data} />
 
-<!-- {/if} -->
+<Analytics />
+<Header {data} />
 
 <Toast />
 {#if $page.url.pathname !== '/'}
@@ -56,11 +50,6 @@
 	<Footer {data} />
 </main>
 
-<!-- </div> -->
-
-<!-- </div>
-		</div>
-	</div> -->
 <style lang="scss">
 	@media (prefers-reduced-motion: no-preference) {
 		[style*='--tag'] {
