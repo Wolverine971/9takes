@@ -38,6 +38,13 @@ export const load: PageServerLoad = async (event) => {
 export const actions: Actions = {
 	updateAccount: async (event) => {
 		try {
+			const { request, locals } = event;
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')
@@ -46,7 +53,6 @@ export const actions: Actions = {
 
 			const demo_time = demoTime?.value;
 
-			const { request } = event;
 			const body = Object.fromEntries(await request.formData());
 
 			const first_name = body.firstName as string;

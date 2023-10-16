@@ -23,7 +23,13 @@ import { typeaheadQuery } from '../../../utils/elasticSearch';
 import { elasticClient } from '$lib/elasticSearch';
 
 export const actions: Actions = {
-	getUrl: async ({ request }) => {
+	getUrl: async ({ request, locals }) => {
+		const session = locals.session;
+
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+
 		const { data: demoTime } = await supabase
 			.from('admin_settings')
 			.select('value')
@@ -79,7 +85,14 @@ export const actions: Actions = {
 		// return tempUrl;
 	},
 	createQuestion: async (event) => {
-		const { request } = event;
+		const { request, locals } = event;
+
+		const session = locals.session;
+
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+
 		const body = Object.fromEntries(await request.formData());
 
 		const question = body.question as string;

@@ -252,6 +252,12 @@ export const actions: Actions = {
 	},
 	remove: async ({ request, locals }) => {
 		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')
@@ -260,11 +266,6 @@ export const actions: Actions = {
 
 			const demo_time = demoTime?.value;
 
-			const session = locals.session;
-
-			if (!session?.user?.id) {
-				throw redirect(302, '/questions');
-			}
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.select('id, admin, external_id')

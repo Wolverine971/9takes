@@ -336,8 +336,14 @@ export const actions: Actions = {
 		}
 	},
 
-	likeComment: async ({ request }) => {
+	likeComment: async ({ request, locals }) => {
 		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')
@@ -405,8 +411,14 @@ export const actions: Actions = {
 		}
 	},
 
-	subscribe: async ({ request }) => {
+	subscribe: async ({ request, locals }) => {
 		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')

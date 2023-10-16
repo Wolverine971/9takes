@@ -49,8 +49,14 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	updateAccount: async ({ request }) => {
+	updateAccount: async ({ request, locals }) => {
 		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')

@@ -46,8 +46,14 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	updateUserAccount: async ({ request }) => {
+	updateUserAccount: async ({ request, locals }) => {
 		try {
+			const session = locals?.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')
@@ -81,6 +87,12 @@ export const actions: Actions = {
 	},
 	updateAdmin: async (event) => {
 		try {
+			const session = event.locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
 			const { data: demoTime } = await supabase
 				.from('admin_settings')
 				.select('value')
@@ -89,11 +101,6 @@ export const actions: Actions = {
 
 			const demo_time = demoTime?.value;
 
-			const session = event.locals.session;
-
-			if (!session?.user?.id) {
-				throw redirect(302, '/questions');
-			}
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.select('id, admin, external_id')
@@ -128,6 +135,46 @@ export const actions: Actions = {
 		} catch (e) {
 			throw error(400, {
 				message: `Failed to update user to admin ${JSON.stringify(e)}`
+			});
+		}
+	},
+	toggleDemo: async (event) => {
+		try {
+			const request = event.request;
+			const session = event.locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const { data: demoTime } = await supabase
+				.from('admin_settings')
+				.select('value')
+				.eq('type', 'demo_time')
+				.single();
+
+			const demo_time = demoTime?.value;
+
+			const body = Object.fromEntries(await request.formData());
+			const first_name = body.firstName as string;
+			const last_name = body.lastName as string;
+			const enneagram = body.enneagram as string;
+			const email = body.email as string;
+			const { error: updateUserError } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.update({ first_name, last_name, enneagram })
+				.eq('email', email);
+			// insert(userData);
+			if (!updateUserError) {
+				return { success: true };
+			} else {
+				throw error(500, {
+					message: `Failed to update user ${JSON.stringify(updateUserError)}`
+				});
+			}
+		} catch (e) {
+			throw error(400, {
+				message: `Failed to update user ${JSON.stringify(e)}`
 			});
 		}
 	}
