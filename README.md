@@ -55,8 +55,8 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "Kamala-Harris.png" -o "Kamala-Harris.webp"
-cwebp -sns 70 -f 50 -size 20000 "Kamala-Harris.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/types/3s/s-Kamala-Harris.webp"
+cwebp "Lady-Gaga.jpg" -o "Lady-Gaga.webp"
+cwebp -sns 70 -f 50 -size 20000 "Lady-Gaga.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/types/4s/s-Lady-Gaga.webp"
 
 ### fix image size
 
