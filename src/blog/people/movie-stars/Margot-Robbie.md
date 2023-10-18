@@ -81,10 +81,7 @@ Robbie's commanding screen presence echoes the inherent intensity that Type 8s p
 Type 8s are known for having a strong connection with their body. Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her stunts.
 
 <div
- style="display: flex;
- justify-content: center;
- margin: 1rem 0;
- "
+ class="iframe-container"
 >
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>

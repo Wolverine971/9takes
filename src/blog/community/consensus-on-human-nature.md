@@ -57,7 +57,7 @@ So who has built upon these theories? Where are we today?
 
 ## Pinker calling for Rationality
 
-<div style="display:flex; align-items: center; justify-content: center;">
+<div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM" title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
@@ -91,13 +91,13 @@ By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historica
 
 Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Conti, M.D., who trained at Stanford School of Medicine talking about this iceberg model of the mind.
 
-<div style="text-align: center; display: flex; flex-direction: column;" >
+<div class="iframe-container" >
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&amp;start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### Huberman Lab Iceberg Model
 
-<div style="text-align: center; display: flex; flex-direction: column;" >
+<div class="iframe-container" >
 <!-- <img src="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf" alt="Andrew Huberman Iceberg Model of the mind" title="Andrew Huberman Iceberg Model" /> -->
 <object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px">
       <p>Unable to display PDF file. <a href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>

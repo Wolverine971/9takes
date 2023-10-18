@@ -78,7 +78,7 @@ It's captivating not just what he shows but how he shows it. His trademark sungl
 
 ## Why Casey Wears the Sunglasses
 
-<div style="display:flex; align-items: center; justify-content: center;">
+<div class="iframe-container">
 <!-- https://youtu.be/xFbJoXJBIIA?t=409 -->
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/xFbJoXJBIIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
@@ -89,7 +89,7 @@ Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He 
 
 ## Why Casey loves to run
 
-<div style="display:flex; align-items: center; justify-content: center;">
+<div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/8-M7WA1qX1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
