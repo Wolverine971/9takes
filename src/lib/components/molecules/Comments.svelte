@@ -70,12 +70,8 @@
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 
-{#if comment_count > 0 && parentType === 'question' && !_data?.flags?.userHasAnswered}
-	<p>Must answer question first</p>
-{/if}
-{#if loading}
-	<div>Loading comments...</div>
-{:else if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
+
+{#if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
 		<div>
@@ -90,25 +86,17 @@
 			{/each}
 		</div>
 		{#if comments?.length < comment_count}
-			<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
+			<button class="btn btn-secondary" on:click={loadMore}>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				Load More
+			{/if}
+		
+		</button>
 		{/if}
 	{:else}
 		<p>nothing right now</p>
-	{/if}
-{:else if !browser || (comments?.length && parentType === 'comment')}
-	<div>
-		{#each comments as comment}
-			<Comment
-				{questionId}
-				{comment}
-				{data}
-				{user}
-				on:commentAdded={({ detail }) => refreshComments(detail)}
-			/>
-		{/each}
-	</div>
-	{#if comments?.length < comment_count}
-		<button class="btn btn-secondary" on:click={loadMore}>Load More</button>
 	{/if}
 {/if}
 

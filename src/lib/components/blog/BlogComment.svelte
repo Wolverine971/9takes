@@ -97,13 +97,15 @@
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
 		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments">
 			{comment.comment_count}
-			<MasterCommentIcon
-				iconStyle={'padding: 0.25rem;'}
-				height={'1rem'}
-				fill={'#5407d9'}
-				type={'multiple'}
-			/>
-			{#if !loading}
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				<MasterCommentIcon
+					iconStyle={'padding: 0.25rem;'}
+					height={'1rem'}
+					fill={'#5407d9'}
+					type={'multiple'}
+				/>
 				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
 			{/if}
 		</button>

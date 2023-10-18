@@ -5,6 +5,7 @@
 	export let cta: string = '';
 	let email: string = '';
 	let error: string = '';
+	let loading: boolean = false;
 
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {
@@ -14,6 +15,7 @@
 		} else {
 			error = '';
 		}
+		loading = true;
 
 		let body = new FormData();
 		body.append('email', email);
@@ -38,6 +40,7 @@
 				notifications.warning('Email Failed', 3000);
 			}
 		}
+		loading = false;
 	};
 </script>
 
@@ -54,8 +57,14 @@
 			on:click={submit}
 			disabled={email.length ? false : true}
 			class:form-send={true}
-			class={email.length ? 'regular' : 'disabled'}>Sign up</button
+			class={email.length ? 'regular' : 'disabled'}
 		>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				Sign up
+			{/if}
+		</button>
 	</form>
 	{#if error}
 		<p class="error">{error}</p>

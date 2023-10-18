@@ -26,6 +26,7 @@
 		_commentComment = Object.assign({}, comment);
 	};
 
+	let loadingComments: boolean = false;
 	let loading: boolean = false;
 
 	const lastDate = comment?.comments?.length
@@ -37,7 +38,7 @@
 			notifications.info('Must register or login to see nested comments', 3000);
 			return;
 		}
-		loading = true;
+		loadingComments = true;
 		await fetch(
 			`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}&range=${
 				comment?.comments?.length || 0
@@ -49,8 +50,9 @@
 					_commentComment.comments = [];
 				}
 				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
-				loading = false;
+				
 			});
+			loadingComments = false;
 	};
 
 	const addComment = async (newComment: any) => {
@@ -122,6 +124,7 @@
 				return;
 			}
 		}
+		loading = true;
 
 		let body = new FormData();
 		body.append('comment', newcomment);
@@ -146,6 +149,7 @@
 			dispatch('commentAdded', result?.data);
 			comment = '';
 		}
+		loading = false;
 	};
 
 	const expandText = () => {
@@ -307,12 +311,16 @@
 			disabled={newcomment?.length < 1}
 		>
 			Send it
-			{#if newcomment?.length > 1}
-				<RightIcon
-					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-					height={'1.5rem'}
-					fill={'#5407d9'}
-				/>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				{#if newcomment?.length > 1}
+					<RightIcon
+						iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
+						height={'1.5rem'}
+						fill={'#5407d9'}
+					/>
+				{/if}
 			{/if}
 		</button>
 	{/if}
@@ -325,13 +333,15 @@
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
 		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments">
 			{comment.comment_count}
-			<MasterCommentIcon
-				iconStyle={'padding: 0.25rem;'}
-				height={'1rem'}
-				fill={'#5407d9'}
-				type={'multiple'}
-			/>
-			{#if !loading}
+			{#if loadingComments}
+				<div class="loader" />
+			{:else}
+				<MasterCommentIcon
+					iconStyle={'padding: 0.25rem;'}
+					height={'1rem'}
+					fill={'#5407d9'}
+					type={'multiple'}
+				/>
 				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
 			{/if}
 		</button>
@@ -364,7 +374,7 @@
 		border-radius: 5px;
 		margin: 0.25rem;
 		padding: 0.5rem;
-		max-height: 5em;
+		max-height: 7em;
 		overflow: hidden;
 	}
 

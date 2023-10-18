@@ -42,6 +42,7 @@
 
 	let comment: string = '';
 	let commenting: boolean = false;
+	let loading: boolean = false;
 
 	const createComment = async () => {
 		if (!data?.flags?.userSignedIn && !user?.id) {
@@ -54,6 +55,7 @@
 			}
 			anonymousComment = true;
 		}
+		loading = true;
 
 		let body = new FormData();
 		if (parentType === 'comment') {
@@ -87,6 +89,7 @@
 			dispatch('commentAdded', result?.data);
 			comment = '';
 		}
+		loading = false;
 	};
 
 	const subscribe = async () => {
@@ -193,13 +196,17 @@
 		id="comment-button"
 	>
 		Send it
-		{#if comment?.length > 1}
-			<!-- <ArrowRight /> -->
-			<RightIcon
-				iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={'#5407d9'}
-			/>
+		{#if loading}
+				<div class="loader" />
+		{:else}
+			{#if comment?.length > 1}
+				<!-- <ArrowRight /> -->
+				<RightIcon
+					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
+					height={'1.5rem'}
+					fill={'#5407d9'}
+				/>
+			{/if}
 		{/if}
 	</button>
 {/if}
