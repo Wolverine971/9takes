@@ -42,7 +42,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 </div>
 
 <details>
-<summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram type 4 </summary>
+<summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram type 4</summary>
 <div class="panel">
 <ul>
 <li><b>Artistic Individuality</b>:
