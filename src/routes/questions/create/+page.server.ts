@@ -117,7 +117,7 @@ export const actions: Actions = {
 				.select('*')
 				.eq('profile_id', author_id);
 
-			if (permissionsError || !permissions.can_ask_question) {
+			if (permissionsError || !permissions[0].can_ask_question) {
 				throw error(500, 'user not authorized to ask question');
 			}
 		}

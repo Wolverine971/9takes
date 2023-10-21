@@ -3,6 +3,7 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
+import { tagQuestion } from '../../utils/openai';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -25,6 +26,15 @@ export const load: PageServerLoad = async (event) => {
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*');
 
+	const { data: questions, error: questionsError } = await supabase
+		.from(demo_time === true ? 'questions_demo' : 'questions')
+		.select('*')
+		.order('created_at', { ascending: false })
+		.limit(100);
+	if (questionsError) {
+		console.log(questionsError);
+	}
+
 	if (profilesError) {
 		console.log(profilesError);
 	}
@@ -37,7 +47,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(signupsError);
 	}
 	if (!findUserError) {
-		return { session, user, profiles, signups };
+		return { session, user, profiles, signups, questions, demoTime: demo_time };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`
@@ -46,6 +56,78 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
+	classifyQuestion: async ({ request, locals }) => {
+		try {
+			const session = locals?.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const demo_time = await checkDemoTime();
+
+			const { data: user, error: findUserError } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (findUserError) {
+				console.log(findUserError);
+			}
+
+			if (!user?.admin) {
+				throw redirect(307, '/questions');
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const questionId = body.questionId as string;
+			const questionText = body.questionText as string;
+
+			await tagQuestion(questionText, parseInt(questionId));
+		} catch (e) {
+			throw error(400, {
+				message: `Failed to classify question ${JSON.stringify(e)}`
+			});
+		}
+	},
+
+	classifyAllUntaggedQuestions: async ({ request, locals }) => {
+		try {
+			const session = locals?.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const demo_time = await checkDemoTime();
+
+			const { data: user, error: findUserError } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (findUserError) {
+				console.log(findUserError);
+			}
+
+			if (!user?.admin) {
+				throw redirect(307, '/questions');
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const questionId = body.questionId as string;
+			const questionText = body.questionText as string;
+
+			await tagQuestion(questionText, parseInt(questionId));
+		} catch (e) {
+			throw error(400, {
+				message: `Failed to classify question ${JSON.stringify(e)}`
+			});
+		}
+	},
+
 	updateUserAccount: async ({ request, locals }) => {
 		try {
 			const session = locals?.session;
@@ -55,6 +137,20 @@ export const actions: Actions = {
 			}
 
 			const demo_time = await checkDemoTime();
+
+			const { data: user, error: findUserError } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (findUserError) {
+				console.log(findUserError);
+			}
+
+			if (!user?.admin) {
+				throw redirect(307, '/questions');
+			}
 
 			const body = Object.fromEntries(await request.formData());
 			const first_name = body.firstName as string;
@@ -128,35 +224,41 @@ export const actions: Actions = {
 	},
 	toggleDemo: async (event) => {
 		try {
-			const request = event.request;
 			const session = event.locals.session;
 
 			if (!session?.user?.id) {
 				throw error(400, 'unauthorized');
 			}
-
 			const demo_time = await checkDemoTime();
 
-			const body = Object.fromEntries(await request.formData());
-			const first_name = body.firstName as string;
-			const last_name = body.lastName as string;
-			const enneagram = body.enneagram as string;
-			const email = body.email as string;
-			const { error: updateUserError } = await supabase
+			const { data: user } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (!user?.admin) {
+				throw redirect(307, '/questions');
+			}
+
+			const newDemoTime = !demo_time;
+			const { data: updateDemo, error: updateDemoError } = await supabase
+				.from('admin_settings')
+				.update({ value: newDemoTime })
+				.eq('id', 2)
+				.select();
 			// insert(userData);
-			if (!updateUserError) {
+			if (!updateDemoError) {
+				console.log(updateDemo);
 				return { success: true };
 			} else {
 				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
+					message: `Failed to update demo ${JSON.stringify(updateDemoError)}`
 				});
 			}
 		} catch (e) {
 			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
+				message: `Failed to update demo ${JSON.stringify(e)}`
 			});
 		}
 	}

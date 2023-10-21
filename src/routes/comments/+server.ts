@@ -29,7 +29,7 @@ export async function GET({
 
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
 		const parentType = String(url.searchParams.get('type') ?? '0');
-		const range = parseInt(url.searchParams.get('range') as string) || null;
+		const range = parseInt(url.searchParams.get('range') as string) || 0;
 
 		const ipAddress = getClientAddress();
 
@@ -137,7 +137,7 @@ export async function GET({
 						commentMap[c?.parent_id] = [c];
 					}
 				});
-				questionComments?.forEach((q) => {
+				questionComments?.forEach((q: any) => {
 					if (q.profiles_demo) {
 						q.profiles = q.profiles_demo;
 					}

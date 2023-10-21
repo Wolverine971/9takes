@@ -1,15 +1,20 @@
 import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 
 import type { Actions } from './$types';
 import { checkDemoTime } from '../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
+	const session = event.locals.session;
+
+	if (!session?.user?.id) {
+		throw redirect(302, '/questions');
+	}
+
 	const { demo_time } = await event.parent();
-	const session = await getServerSession(event);
+
 	const { data: user, error: findUserError } = await supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*')

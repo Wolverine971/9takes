@@ -10,9 +10,10 @@ import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
-export async function load(event: any) {
+export async function load(event) {
 	const { demo_time } = await event.parent();
-	const session = await getServerSession(event);
+	const session = event.locals.session;
+
 	let userHasAnswered = false;
 
 	const { data: question, error: findQuestionError } = await supabase

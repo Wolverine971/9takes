@@ -52,50 +52,53 @@
 </script>
 
 <div class="glass-card">
-	<div class="row">
-		<h1 style="">Hello {data?.session?.user.email}</h1>
+	<div>
+		<div class="row">
+			<h1 style="">Hello {data?.session?.user.email}</h1>
 
-		<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
-		<!-- use:enhance={() => {
-				return async ({ result }) => {
-					invalidateAll();
-					await applyAction(result);
-				};
-			}} -->
-		<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
-			<button type="submit" class="btn btn-primary">Logout</button>
-		</form>
-	</div>
-	<div class="row">
-		<!-- <label for="firstName">First Name</label> -->
-		<input
-			type="text"
-			name="firstName"
-			id="firstName"
-			bind:value={firstName}
-			placeholder="First Name"
-		/>
+			<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
+			<!-- use:enhance={() => {
+					return async ({ result }) => {
+						invalidateAll();
+						await applyAction(result);
+					};
+				}} -->
+			<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
+				<button type="submit" class="btn btn-primary">Logout</button>
+			</form>
+		</div>
+		<div class="row">
+			<!-- <label for="firstName">First Name</label> -->
+			<input
+				type="text"
+				name="firstName"
+				id="firstName"
+				bind:value={firstName}
+				placeholder="First Name"
+			/>
 
-		<!-- <label for="lastName">Last Name</label> -->
-		<input
-			type="text"
-			name="lastName"
-			id="lastName"
-			bind:value={lastName}
-			placeholder="Last Name"
-		/>
+			<!-- <label for="lastName">Last Name</label> -->
+			<input
+				type="text"
+				name="lastName"
+				id="lastName"
+				bind:value={lastName}
+				placeholder="Last Name"
+			/>
+		</div>
+		<div class="row">
+			<span style="text-align: center;"> Enneagram <br />Type </span>
+			<EnneagramSelect
+				selectedEnneagram={enneagram}
+				on:enneagramSelected={({ detail }) => {
+					enneagram = detail;
+				}}
+			/>
+		</div>
+		<div class="row">
+			<button type="button" class="btn btn-primary save-btn" on:click={save}>Save</button>
+		</div>
 	</div>
-	<div class="row">
-		<span style="text-align: center;"> Enneagram <br />Type </span>
-		<EnneagramSelect
-			selectedEnneagram={enneagram}
-			on:enneagramSelected={({ detail }) => {
-				enneagram = detail;
-			}}
-		/>
-	</div>
-
-	<button type="button" class="btn btn-primary save-btn" on:click={save}>Save</button>
 
 	<div style="margin: 1rem; padding: 1rem;">
 		<h2>Question subscriptions</h2>
@@ -121,15 +124,9 @@
 		align-items: center;
 	}
 	.logout-btn {
-		position: absolute;
-		top: 0.5rem;
-		right: 0.5rem;
-		width: 100px;
+		align-self: end;
 	}
 	.save-btn {
-		position: absolute;
-		bottom: 0.5rem;
-		right: 0.5rem;
-		width: 100px;
+		align-self: end;
 	}
 </style>
