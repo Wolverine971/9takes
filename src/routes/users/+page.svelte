@@ -49,63 +49,65 @@
 		{#if data.profiles?.length}
 			<div class="pretty-div">
 				<h2>User Profiles ({data.profiles?.length})</h2>
-
-				<table>
-					<tr>
-						<th>Email</th>
-						<th>Name</th>
-						<th>Created At</th>
-						<th>Enneagram</th>
-						<th>Is Admin</th>
-						<th>Save</th>
-					</tr>
-
-					{#each data.profiles as profile}
+				<div class="scroll-table">
+					<table>
 						<tr>
-							<td>{profile.email}</td>
-							<td>{profile.first_name} {profile.last_name}</td>
-							<td>{profile.created_at}</td>
-							<td>{profile.enneagram}</td>
-							<td>
-								{profile.admin ? true : false}
-							</td>
-							<td>
-								<button
-									type="button"
-									on:click={() => {
-										active = { ...profile };
-										activeAdmin = !!active.admin;
-										getModal().open();
-									}}
-								>
-									Edit
-								</button>
-							</td>
+							<th>Email</th>
+							<th>Name</th>
+							<th>Created At</th>
+							<th>Enneagram</th>
+							<th>Is Admin</th>
+							<th>Save</th>
 						</tr>
-					{/each}
-				</table>
+
+						{#each data.profiles as profile}
+							<tr>
+								<td>{profile.email}</td>
+								<td>{profile.first_name} {profile.last_name}</td>
+								<td>{profile.created_at}</td>
+								<td>{profile.enneagram}</td>
+								<td>
+									{profile.admin ? true : false}
+								</td>
+								<td>
+									<button
+										type="button"
+										on:click={() => {
+											active = { ...profile };
+											activeAdmin = !!active.admin;
+											getModal().open();
+										}}
+									>
+										Edit
+									</button>
+								</td>
+							</tr>
+						{/each}
+					</table>
+				</div>
 			</div>
 		{/if}
 
 		{#if formattedSignups?.length}
 			<div class="pretty-div">
 				<h2>Signups # {data.signups?.length}</h2>
-
-				<table>
-					<tr>
-						<th>Email</th>
-						<th>Name</th>
-						<th>Created At</th>
-					</tr>
-
-					{#each formattedSignups as signup}
+				<div class="scroll-table">
+					<table>
 						<tr>
-							<td>{signup.email}</td>
-							<td>{signup.name}</td>
-							<td>{signup.createdAt}</td>
+							<th>Email</th>
+							<th>Name</th>
+							<th>Created At</th>
 						</tr>
-					{/each}
-				</table>
+
+						{#each formattedSignups as signup}
+							<tr>
+								<td>{signup.email}</td>
+								<td>{signup.name}</td>
+								<td>{signup.createdAt}</td>
+							</tr>
+						{/each}
+					</table>
+				</div>
 			</div>
 		{/if}
 	{:else}

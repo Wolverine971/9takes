@@ -19,9 +19,7 @@
 	// export let comments: any[];
 	// Database['public']['Tables']['comments']['Row'][]
 
-	const refreshComments = async (data: any) => {
-		// console.log(data);
-	};
+	const refreshComments = async (data: any) => {};
 </script>
 
 {#if comment_count > 0 && !userHasAnswered}

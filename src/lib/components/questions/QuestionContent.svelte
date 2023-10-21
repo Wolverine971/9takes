@@ -272,7 +272,7 @@
 			id="comments"
 			bind:this={commentContainerElement}
 		>
-			<Card style="padding: .5rem; border: none;">
+			<Card style="padding: .5rem; border: none; min-height: 100vh;">
 				{#if innerWidth > 575 && _data.comments.length >= 5}
 					<h3
 						class=" {isFixed
@@ -482,6 +482,7 @@
 		-webkit-overflow-scrolling: touch;
 		// touch-action: pan-x;
 		width: 100%;
+		min-height: 100vh;
 	}
 
 	.slides::-webkit-scrollbar {

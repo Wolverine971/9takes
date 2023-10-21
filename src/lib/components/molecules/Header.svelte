@@ -14,7 +14,7 @@
 	export let data: any;
 	let innerWidth: number;
 	let isOpen = false;
-	let isLoading = false;
+	let isLoading = true;
 
 	afterNavigate(() => {
 		isOpen = false;

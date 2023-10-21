@@ -242,14 +242,13 @@ export const actions: Actions = {
 			}
 
 			const newDemoTime = !demo_time;
-			const { data: updateDemo, error: updateDemoError } = await supabase
+			const { error: updateDemoError } = await supabase
 				.from('admin_settings')
 				.update({ value: newDemoTime })
 				.eq('id', 2)
 				.select();
 			// insert(userData);
 			if (!updateDemoError) {
-				console.log(updateDemo);
 				return { success: true };
 			} else {
 				throw error(500, {
