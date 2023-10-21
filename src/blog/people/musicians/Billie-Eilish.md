@@ -21,7 +21,6 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <p class="firstLetter">You've seen her eclectic outfits, heard her haunting voice, and most likely, you've felt the emotional depth in her music. Billie Eilish, the Grammy Award-winning artist, is an enigma wrapped in a riddle. Today, we traverse the landscape of her personality through the perspective of Enneagram Type 4 - The Individualist.</p>
 
 > **Disclaimer** This analysis of Billie Eilish's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
@@ -133,7 +132,6 @@ Billie Eilish often explores sadness in her music. In her song, she sings, “I 
     <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>Likely to appreciate Billie’s softer ballads that promote introspection and self-reflection, finding solace in her more tranquil tunes.</p>
 </article>
-
 
 ## Wrapping Up
 

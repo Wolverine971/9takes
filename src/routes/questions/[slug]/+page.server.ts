@@ -7,6 +7,7 @@ import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 import { decode } from 'base64-arraybuffer';
+import { checkDemoTime } from '../../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event: any) {
@@ -149,13 +150,7 @@ export async function load(event: any) {
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
 		try {
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 
@@ -243,13 +238,7 @@ export const actions: Actions = {
 
 	createCommentRando: async ({ request, getClientAddress }) => {
 		try {
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 			//refresh the comments
 			const body = Object.fromEntries(await request.formData());
 
@@ -344,13 +333,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 
@@ -419,13 +402,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 

@@ -1,16 +1,11 @@
 import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import { Configuration, OpenAIApi } from 'openai';
+import { checkDemoTime } from './api';
 
 export const tagQuestions = async () => {
 	try {
-		const { data: demoTime } = await supabase
-			.from('admin_settings')
-			.select('value')
-			.eq('type', 'demo_time')
-			.single();
-
-		const demo_time = demoTime?.value;
+		const demo_time = await checkDemoTime();
 
 		const { data: ableToRefreshQuestions, error: settingsDataError } = await supabase
 			.from('admin_settings')

@@ -70,7 +70,6 @@
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 
-
 {#if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
@@ -87,13 +86,12 @@
 		</div>
 		{#if comments?.length < comment_count}
 			<button class="btn btn-secondary" on:click={loadMore}>
-			{#if loading}
-				<div class="loader" />
-			{:else}
-				Load More
-			{/if}
-		
-		</button>
+				{#if loading}
+					<div class="loader" />
+				{:else}
+					Load More
+				{/if}
+			</button>
 		{/if}
 	{:else}
 		<p>nothing right now</p>

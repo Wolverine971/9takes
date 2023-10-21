@@ -6,6 +6,7 @@ import { supabase } from '$lib/supabase';
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import type { Database } from '../../schema';
+import { checkDemoTime } from '../../utils/api';
 
 export const load: PageServerLoad = async (
 	event
@@ -121,13 +122,7 @@ export const load: PageServerLoad = async (
 export const actions: Actions = {
 	search: async ({ request }) => {
 		try {
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const questionString = body.searchString as string;
@@ -180,13 +175,7 @@ export const actions: Actions = {
 	},
 	sortComments: async ({ request }): Promise<Comment[]> => {
 		try {
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const enneagramTypes = (body.enneagramTypes as string).split(',');
@@ -210,6 +199,9 @@ export const actions: Actions = {
 					return c;
 				}) as Comment[];
 			} else {
+				if (findCommentsError) {
+					console.log(findCommentsError);
+				}
 				throw error(500, {
 					message: 'Error finding comments'
 				});
@@ -221,13 +213,7 @@ export const actions: Actions = {
 	},
 	getMoreQuestions: async ({ request }) => {
 		try {
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const count = parseInt(body.count as string);
@@ -258,13 +244,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')

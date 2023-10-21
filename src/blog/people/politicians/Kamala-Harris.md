@@ -101,7 +101,6 @@ Kamala's alliances extend beyond individual relationships to encompass groups an
 
 These instances underscore Kamala's adeptness at nurturing relationships and building a camaraderie rooted in mutual respect and shared objectives while navigating the complex dynamics of political alliances.
 
-
 ## How Each Enneagram Type Perceives Kamala Harris
 
 <article>

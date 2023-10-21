@@ -21,6 +21,7 @@ import { tagQuestion } from '../../../utils/openai';
 import { typeaheadQuery } from '../../../utils/elasticSearch';
 
 import { elasticClient } from '$lib/elasticSearch';
+import { checkDemoTime } from '../../../utils/api';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -30,13 +31,7 @@ export const actions: Actions = {
 			throw error(400, 'unauthorized');
 		}
 
-		const { data: demoTime } = await supabase
-			.from('admin_settings')
-			.select('value')
-			.eq('type', 'demo_time')
-			.single();
-
-		const demo_time = demoTime?.value;
+		const demo_time = await checkDemoTime();
 
 		const body = Object.fromEntries(await request.formData());
 
@@ -86,6 +81,8 @@ export const actions: Actions = {
 	},
 	createQuestion: async (event) => {
 		const { request, locals } = event;
+
+		const demo_time = await checkDemoTime();
 
 		const session = locals.session;
 

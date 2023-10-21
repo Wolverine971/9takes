@@ -50,9 +50,8 @@
 					_commentComment.comments = [];
 				}
 				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
-				
 			});
-			loadingComments = false;
+		loadingComments = false;
 	};
 
 	const addComment = async (newComment: any) => {
@@ -313,14 +312,12 @@
 			Send it
 			{#if loading}
 				<div class="loader" />
-			{:else}
-				{#if newcomment?.length > 1}
-					<RightIcon
-						iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={'#5407d9'}
-					/>
-				{/if}
+			{:else if newcomment?.length > 1}
+				<RightIcon
+					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
+					height={'1.5rem'}
+					fill={'#5407d9'}
+				/>
 			{/if}
 		</button>
 	{/if}

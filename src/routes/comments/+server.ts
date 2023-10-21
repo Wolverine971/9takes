@@ -2,6 +2,7 @@
 
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+import { checkDemoTime } from '../../utils/api';
 
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 // import { getServerSession } from '@supabase/auth-helpers-sveltekit';
@@ -24,13 +25,7 @@ export async function GET({
 	getClientAddress: any;
 }) {
 	try {
-		const { data: demoTime } = await supabase
-			.from('admin_settings')
-			.select('value')
-			.eq('type', 'demo_time')
-			.single();
-
-		const demo_time = demoTime?.value;
+		const demo_time = await checkDemoTime();
 
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
 		const parentType = String(url.searchParams.get('type') ?? '0');

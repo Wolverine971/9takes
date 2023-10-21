@@ -4,6 +4,7 @@ import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
 
 import type { Actions } from './$types';
+import { checkDemoTime } from '../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -45,13 +46,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 

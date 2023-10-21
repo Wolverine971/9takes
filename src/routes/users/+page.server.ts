@@ -2,6 +2,7 @@ import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
+import { checkDemoTime } from '../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -54,13 +55,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const first_name = body.firstName as string;
@@ -93,13 +88,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const { data: user, error: findUserError } = await supabase
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
@@ -147,13 +136,7 @@ export const actions: Actions = {
 				throw error(400, 'unauthorized');
 			}
 
-			const { data: demoTime } = await supabase
-				.from('admin_settings')
-				.select('value')
-				.eq('type', 'demo_time')
-				.single();
-
-			const demo_time = demoTime?.value;
+			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const first_name = body.firstName as string;
