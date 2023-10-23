@@ -1,40 +1,36 @@
 <script lang="ts">
 	import type { PageData } from './$types';
+	import AdminQuestionItem from '$lib/components/questions/AdminQuestionItem.svelte';
+	import { invalidateAll } from '$app/navigation';
 
 	export let data: PageData;
 
-	let isDemoTime: boolean = data.demoTime;
-
-	const changeDemoTime = async () => {
-		let body = new FormData();
-
-		await fetch('?/toggleDemo', {
-			method: 'POST',
-			body
-		});
-
-		isDemoTime = !isDemoTime;
-	};
+	// export let data: PageData;
 </script>
 
 {#if data.user?.admin}
 	<div class="glass-card">
 		<div class="row">
-			<a href="/admin/users">Users</a> /
-			<a href="/admin/questions">Questions</a>
+			<h1 style="">Questions Page</h1>
 		</div>
 
-		<div class="row">
-			<h2>Is Demo Time: {isDemoTime}</h2>
-			<button
-				type="button"
-				on:click={() => {
-					changeDemoTime();
-				}}
-			>
-				Update
-			</button>
-		</div>
+		{#if data?.questions?.length}
+			<div class="pretty-div">
+				<h3>Questions</h3>
+				<div class="scrollable-div">
+					<!-- <pre>
+						{data?.questions}
+					</pre> -->
+					{#each data?.questions as questionData}
+						<AdminQuestionItem
+							{questionData}
+							isAdmin={!!data?.session?.user?.id}
+							on:questionRemoved={() => invalidateAll()}
+						/>
+					{/each}
+				</div>
+			</div>
+		{/if}
 	</div>
 {:else}
 	<div class="pretty-div">

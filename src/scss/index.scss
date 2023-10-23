@@ -85,6 +85,9 @@ body {
 	line-height: 1.5;
 	font-family: sans-serif;
 	-webkit-font-smoothing: antialiased;
+	background: $dark-200;
+	color: #fff;
+	font-size: 18px;
 }
 
 /*
@@ -135,12 +138,6 @@ a:hover {
 */
 #root {
 	isolation: isolate;
-}
-
-body {
-	background: $dark-200;
-	color: #fff;
-	font-size: 18px;
 }
 
 main {
@@ -369,6 +366,7 @@ a.disabled {
 
 .btn-disabled {
 	text-decoration: line-through;
+
 	// pointer-events: none;
 	color: rgb(var(--grey-300-hex) 0.4) !important;
 }
@@ -516,6 +514,7 @@ section {
 	main {
 		padding: 0.5rem;
 	}
+
 	section {
 		margin: 1rem 0;
 		padding: 1rem;
@@ -524,11 +523,12 @@ section {
 
 .iframe-container {
 	position: relative;
-	width: 100%;
-	padding-bottom: 56.25%;
-	height: 0;
 	margin: 1rem 0;
+	padding-bottom: 56.25%;
+	width: 100%;
+	height: 0;
 }
+
 .iframe-container iframe {
 	position: absolute;
 	top: 0;

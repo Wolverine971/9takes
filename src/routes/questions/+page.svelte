@@ -89,7 +89,6 @@
 						{#each categories[category.tag_name] as questionData}
 							<QuestionItem
 								questionData={questionData.questions}
-								isAdmin={!!data?.session?.user?.id}
 								on:questionRemoved={() => invalidateAll()}
 							/>
 						{/each}

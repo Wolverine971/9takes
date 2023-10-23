@@ -1,32 +1,14 @@
 <script lang="ts">
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import { createEventDispatcher } from 'svelte';
-	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	export let questionData: any;
-	export let isAdmin: boolean;
 	let innerWidth = 0;
 
-	const dateObj = new Date(questionData.created_at);
+	const dateObj = new Date(questionData?.created_at);
 	const month = dateObj.getUTCMonth() + 1; //months from 1-12
 	const day = dateObj.getUTCDate();
 	const year = dateObj.getUTCFullYear();
 	const newDate = `${month}/${day}${innerWidth > 400 ? '/' + year : ''}`;
-
-	const dispatch = createEventDispatcher();
-
-	const remove = async () => {
-		let body = new FormData();
-		body.append('questionId', questionData.id);
-
-		const resp = await fetch('/questions?/remove', {
-			method: 'POST',
-			body
-		});
-
-		dispatch('questionRemoved');
-	};
 </script>
 
 <svelte:window bind:innerWidth />
@@ -53,32 +35,6 @@
 			</span>
 		</div>
 	</a>
-	{#if isAdmin}
-		<button
-			class="btn btn-primary"
-			type="button"
-			style="padding: 0.25rem; display: flex;"
-			on:click={async () => {
-				getModal().open();
-			}}
-		>
-			<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
-		</button>
-	{/if}
-
-	<Modal2>
-		<p>Kill it fr real?</p>
-		<button
-			class="btn btn-primary"
-			type="button"
-			style="padding: 0.25rem; display: flex;"
-			on:click={async () => {
-				await remove();
-			}}
-		>
-			yes
-		</button>
-	</Modal2>
 </div>
 
 <style lang="scss">

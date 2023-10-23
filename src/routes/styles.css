@@ -414,6 +414,24 @@ th {
 	background-color: var(--color-paladin-3);
 }
 
+.scrollable-div {
+	overflow-y: scroll;
+}
+
+.scrollable-div::-webkit-scrollbar {
+	width: 1rem;
+}
+
+.scrollable-div::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: 0 0 0.2rem var(--color-paladin-3);
+}
+
+.scrollable-div::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: var(--color-paladin-3);
+}
+
 .column {
 	/* background-color: aliceblue; */
 	border-radius: 5px;

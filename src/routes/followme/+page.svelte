@@ -1,10 +1,6 @@
 <script lang="ts">
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
-	import type { PageData } from './$types';
-
-	export let data: PageData;
-
 	const jsonld = '';
 </script>
 
@@ -18,7 +14,7 @@
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
 
-<div style=" margin:20px; ">
+<div style=" margin:20px;">
 	<div style="margin:20px; padding: 20px;">
 		<h1 style="">Closing Slide</h1>
 
