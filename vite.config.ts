@@ -1,9 +1,14 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
+// import { webSocketServer } from './src/utils/socket';
+
+
+
 
 /** @type {import('vite').UserConfig} */
 const config = {
 	plugins: [sveltekit(), nodeLoaderPlugin()],
+
 	define: {
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),
 		'import.meta.env.PUBLIC_GOOGLE': JSON.stringify(process.env.PUBLIC_GOOGLE),
