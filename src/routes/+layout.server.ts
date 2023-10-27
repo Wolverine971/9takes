@@ -1,4 +1,3 @@
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { LayoutServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 
@@ -12,9 +11,10 @@ export const load: LayoutServerLoad = async (event) => {
 	}
 
 	const demo_time = adminSettings?.filter((setting) => setting.type === 'demo_time')[0]?.value;
+	const session = event.locals.session
 
 	return {
 		demo_time,
-		session: await getServerSession(event)
+		session
 	};
 };
