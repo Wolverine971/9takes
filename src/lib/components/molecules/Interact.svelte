@@ -198,13 +198,9 @@
 		Send it
 		{#if loading}
 			<div class="loader" />
-		{:else if comment?.length > 1}
+		{:else if comment?.length >= 1}
 			<!-- <ArrowRight /> -->
-			<RightIcon
-				iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={'#5407d9'}
-			/>
+			<RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'#5407d9'} />
 		{/if}
 	</button>
 {/if}

@@ -36,6 +36,18 @@
 		}
 	};
 	let innerWidth = 0;
+
+	import { io } from 'socket.io-client'
+
+	const socket = io()
+
+	
+	socket.on("eventFromServer", ( msg) => {
+		console.log(msg)
+	});
+	
+
+  
 </script>
 
 <svelte:window bind:innerWidth />
@@ -73,6 +85,16 @@
 
 			<!-- 9takes- Find people similar to you and understand everyone else. how socrates must have been explaining things
 			How we see the World -->
+		</div>
+
+		<div>
+			<button type="button" class="btn btn-primary" id="signup" on:click={() => {
+				socket.emit('eventFromClient', 'yelloooooww')
+			}}>
+				emit event
+
+				</button>
+
 		</div>
 		{#if !data?.session?.user?.id}
 			<div class="big-points center-align">

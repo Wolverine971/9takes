@@ -20,6 +20,7 @@ export const load: PageServerLoad = async (
 }> => {
 	try {
 		const { demo_time } = await event.parent();
+		const session = event.locals.session;
 		// const {
 		// 	data: questionsAndTags,
 		// 	error: findQuestionsError,
@@ -92,6 +93,7 @@ export const load: PageServerLoad = async (
 		// });
 		if (demo_time === true) {
 			return {
+				session,
 				subcategoryTags,
 				questionsAndTags: questionsAndTags?.map((q) => {
 					q.questions = q.questions_demo;
@@ -102,6 +104,7 @@ export const load: PageServerLoad = async (
 		return {
 			// questions: questionsAndTags.questions,
 			// tags: questionsAndTags.question_tag,
+			session,
 			subcategoryTags,
 			questionsAndTags: questionsAndTags.filter((q) => {
 				return !q.questions.removed;

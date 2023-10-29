@@ -4,6 +4,7 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
+	let showEmail = false;
 </script>
 
 <svelte:head>
@@ -155,6 +156,20 @@
 	<p>
 		9takes is about embracing these differences or "takes" on the world. By asking questions,
 		sharing stories, and getting curious, people will be connected to the community around them.
+	</p>
+
+	<h3>Email me</h3>
+	<p>Got feedback or suggestions? Let me know!</p>
+	<p>
+		{#if !showEmail}
+			<button type="button" on:click={() => (showEmail = true)}>Show Email</button>
+		{/if}
+		{#if showEmail}
+			<ul>
+				<li><a href="mailto:dj@9takes.com">dj@9takes.com</a></li>
+				<li><a href="mailto:userSup@9takes.com">userSup@9takes.com</a></li>
+			</ul>
+		{/if}
 	</p>
 </div>
 
