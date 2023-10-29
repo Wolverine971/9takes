@@ -14,7 +14,7 @@
 			class="hamburger menu-trigger"
 			aria-label="Toggle navigation"
 			on:click={() => {
-				getModal().open();
+				getModal('mobile').open();
 			}}
 		>
 			<i class="menu-trigger-bar top" />
@@ -27,7 +27,7 @@
 			class="hamburger close-trigger "
 			aria-label="Toggle navigation"
 			on:click={() => {
-				getModal().close();
+				getModal('mobile').close();
 			}}
 		>
 			<i class="close-trigger-bar left" />
@@ -37,7 +37,7 @@
 		</button>
 	{/if}
 
-	<Modal2>
+	<Modal2 id="mobile">
 		<nav class="mobile-nav">
 			<ul class="menu">
 				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>

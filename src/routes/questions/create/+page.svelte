@@ -57,7 +57,7 @@
 
 			const result: any = deserialize(await resp.text());
 			if (result) {
-				getModal().close();
+				getModal('question-create').close();
 				goto(`/questions/${url}`, {});
 
 				// question image creation
@@ -103,7 +103,7 @@
 					img.src = url;
 				});
 
-				getModal().open();
+				getModal('question-create').open();
 			});
 
 		visible = true;
@@ -117,7 +117,7 @@
 		<button class="btn btn-primary" type="button" on:click={getUrl}> Create </button>
 	</form>
 
-	<Modal2>
+	<Modal2 id="question-create">
 		<div class="modal-size">
 			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
 			<hr />

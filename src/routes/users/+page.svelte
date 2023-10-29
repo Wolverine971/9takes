@@ -34,7 +34,7 @@
 				return p;
 			});
 		}
-		getModal().close();
+		getModal(user - modal2).close();
 	};
 
 	// export let data: PageData;
@@ -75,7 +75,7 @@
 										on:click={() => {
 											active = { ...profile };
 											activeAdmin = !!active.admin;
-											getModal().open();
+											getModal(user - modal2).open();
 										}}
 									>
 										Edit
@@ -117,7 +117,7 @@
 	{/if}
 </div>
 
-<Modal2>
+<Modal2 id="user-modal2">
 	<div>
 		<h1>Edit {active?.email}</h1>
 		<h2>{active?.first_name} {active?.last_name}</h2>
