@@ -26,18 +26,31 @@ export const load: PageServerLoad = async (event) => {
 	const { data: questions, error: questionsError } = await supabase
 		.from(demo_time === true ? 'questions_demo' : 'questions')
 		.select(
-			`*, question_tag(*), ${
-				demo_time === true ? 'profiles_demo' : 'profiles'
+			`*, question_tag(*), ${demo_time === true ? 'profiles_demo' : 'profiles'
 			} ( external_id, enneagram)`
 		)
 		.order('created_at', { ascending: false })
 		.limit(100);
+
+	const { data: tags, error: tagsError } = await supabase
+		.from('question_tag')
+		.select(
+			`*, question_subcategories(*, question_subcategories(*))`
+		)
+
+	if (tagsError) {
+		console.log(tagsError);
+	}
+
+
+
+
 	if (questionsError) {
 		console.log(questionsError);
 	}
 
 	if (!findUserError) {
-		return { session, user, questions, demoTime: demo_time };
+		return { session, user, questions, demoTime: demo_time, tags };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

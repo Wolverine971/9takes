@@ -2,11 +2,16 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { createEventDispatcher } from 'svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
+	import EditIcon from '$lib/components/icons/editIcon.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	export let questionData: any;
 	export let isAdmin: boolean;
+
+	export let tags: any[];
+
 	let innerWidth = 0;
+	let selectedTags = questionData.question_tag;
 
 	const dateObj = new Date(questionData?.created_at);
 	const month = dateObj.getUTCMonth() + 1; //months from 1-12
@@ -16,6 +21,15 @@
 	console.log('questionData', questionData);
 
 	let editing = false;
+
+	$: selectedTags, checkTags();
+
+	const checkTags = () => {
+		console.log('selectedTags', selectedTags);
+		tags = tags.filter((t: any) => {
+			return !selectedTags.find((st: any) => st.tag_id === t.tag_id);
+		});
+	};
 
 	const dispatch = createEventDispatcher();
 
@@ -30,6 +44,29 @@
 
 		dispatch('questionRemoved');
 	};
+
+	const removeTag = async (tag: any) => {
+		selectedTags = selectedTags.filter((t: any) => t.tag_id !== tag.tag_id);
+	};
+	const addTag = async (tag: any) => {
+		selectedTags = [...selectedTags, tag];
+		// tags = tags.filter((t: any) => t.tag_id !== tag.tag_id);
+	};
+
+	const save = async () => {
+		let body = new FormData();
+		body.append('questionId', questionData.id);
+		body.append('question', questionData.question);
+		body.append('question_formatted', questionData.question_formatted);
+		body.append('tags', JSON.stringify(selectedTags));
+
+		await fetch('/questions?/update', {
+			method: 'POST',
+			body
+		});
+
+		editing = false;
+	};
 </script>
 
 <svelte:window bind:innerWidth />
@@ -39,15 +76,13 @@
 		<a href="/questions/{questionData.url}" class="top-right">Go to</a>
 		<div style="width: 60%;">
 			<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-				<b>Regular:</b>
+				<b>Original:</b>
 				{questionData.question}
 			</p>
 			<p class="question-display">
 				<b>Formatted:</b>
 				{#if !editing}
 					{questionData.question_formatted}
-				{:else}
-					<input bind:value={questionData.question_formatted} />
 				{/if}
 			</p>
 
@@ -77,11 +112,19 @@
 					Removed: {questionData.removed}
 				</span>
 			</div>
-			{#if questionData.question_tag.length}
+			{#if selectedTags.length}
 				<div class="small-div ">
-					Tags:
+					Selected Tags
+					<EditIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={questionData.comment_count ? '#5407d9' : ''}
+						on:click={() => {
+							editing = !editing;
+						}}
+					/>
 					<div class="tags-div">
-						{#each questionData.question_tag as tag}
+						{#each selectedTags as tag}
 							<span class="tag">{tag.tag_name}</span>
 						{/each}
 					</div>
@@ -99,7 +142,7 @@
 				type="button"
 				style="padding: 0.25rem; display: flex;"
 				on:click={async () => {
-					getModal().open();
+					getModal('kill-modal').open();
 				}}
 			>
 				<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
@@ -111,6 +154,7 @@
 			style="padding: 0.25rem; display: flex;"
 			on:click={async () => {
 				editing = !editing;
+				getModal(`edit-modal-${questionData.id}`).open();
 			}}
 		>
 			{editing ? 'Editing' : 'Edit'}
@@ -127,7 +171,7 @@
 		<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
 	</button> -->
 
-	<Modal2>
+	<Modal2 id="kill-modal">
 		<p>Kill it fr real?</p>
 		<button
 			class="btn btn-primary"
@@ -139,6 +183,120 @@
 		>
 			yes
 		</button>
+	</Modal2>
+
+	<Modal2 id={`edit-modal-${questionData.id}`}>
+		<div style="max-height: 500px;">
+			<div style="width: 60%;">
+				<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+					<b>Original:</b>
+					{questionData.question}
+				</p>
+				<p class="question-display">
+					<b>Formatted:</b>
+
+					<textarea bind:value={questionData.question_formatted} />
+				</p>
+
+				<div class="small-div">
+					<span class="comment-span-display">
+						{#if questionData.comment_count}
+							{questionData.comment_count}
+						{/if}
+						<MasterCommentIcon
+							iconStyle={'margin-left: .5rem'}
+							height={'1.5rem'}
+							fill={questionData.comment_count ? '#5407d9' : ''}
+							type={questionData.comment_count ? 'multiple' : 'empty'}
+						/>
+					</span>
+					<span class="date-span">
+						{newDate}
+					</span>
+				</div>
+			</div>
+			<div>
+				<div class="small-div">
+					<div class="">
+						Flagged:
+						<button
+							class="remove-tag-btn"
+							type="button"
+							on:click={() => {
+								questionData.flagged = !questionData.flagged;
+							}}
+						>
+							{questionData.flagged}
+						</button>
+					</div>
+					<div class="">
+						Removed:
+						<button
+							class="remove-tag-btn"
+							type="button"
+							on:click={() => {
+								questionData.removed = !questionData.removed;
+							}}
+						>
+							{questionData.removed}
+						</button>
+					</div>
+				</div>
+
+				<div>
+					<h2>Selected Tags</h2>
+
+					<div class="big-tags">
+						{#if selectedTags?.length}
+							{#each selectedTags as tag}
+								<span class="tag"
+									>{tag.tag_name}
+									<button
+										class="remove-tag-btn"
+										type="button"
+										on:click={() => {
+											removeTag(tag);
+										}}
+									>
+										<XmarkIcon iconStyle={''} height={'1rem'} fill={'red'} />
+									</button>
+								</span>
+							{/each}
+						{/if}
+					</div>
+				</div>
+
+				<div>
+					<h2>Add Tags</h2>
+
+					<div class="big-tags">
+						{#if tags?.length}
+							{#each tags as tag}
+								<button
+									class="tag"
+									type="button"
+									on:click={() => {
+										addTag(tag);
+									}}
+								>
+									{tag.tag_name}
+								</button>
+							{/each}
+						{/if}
+					</div>
+				</div>
+			</div>
+			<button
+				class="btn btn-primary save-btn"
+				type="button"
+				style="padding: 0.25rem; display: flex;"
+				on:click={async () => {
+					await save();
+				}}
+			>
+				Save
+			</button>
+		</div>
 	</Modal2>
 </div>
 
@@ -180,6 +338,7 @@
 		right: 0;
 		padding: 0.25rem;
 		border: var(--classic-border);
+		color: var(--purple) !important;
 		border-radius: 5px 0 0 0;
 	}
 
@@ -188,17 +347,39 @@
 		padding: 0.5rem;
 		display: flex;
 		flex-direction: column;
-		max-height: 50px;
+		max-height: 100px;
 		overflow-y: scroll;
-		width: 200px;
+	}
+
+	.big-tags {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 800px;
 	}
 
 	.tag {
-		border-radius: 5px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 15px;
+		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;
 		border: var(--classic-border);
 		width: fit-content;
+	}
+
+	.save-btn {
+		border: var(--classic-border);
+		color: var(--purple);
+		float: inline-end;
+	}
+
+	.remove-tag-btn {
+		margin: 0.25rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.small-div {

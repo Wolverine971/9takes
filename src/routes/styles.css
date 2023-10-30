@@ -63,7 +63,7 @@
 
 body {
 	margin: 0;
-	background-color: var(--background-color);
+	background-color: #f4f4ef;
 	padding: 0;
 	line-height: 1.5;
 	color: var(--primary-color);
@@ -473,4 +473,10 @@ th {
 	height: 1em;
 	vertical-align: middle;
 	content: '';
+}
+
+textarea {
+	border: var(--classic-border);
+	border-radius: 5px;
+	padding: 0.5rem;
 }

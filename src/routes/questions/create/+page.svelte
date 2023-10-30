@@ -113,8 +113,16 @@
 <div class="card">
 	<h1 style="text-align: center">Create Question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
-		<input type="text" name="question" placeholder="Question" bind:value={question} />
-		<button class="btn btn-primary" type="button" on:click={getUrl}> Create </button>
+		<textarea
+			rows="3"
+			name="question"
+			placeholder="Question"
+			class="create-question-textarea"
+			bind:value={question}
+		/>
+		<button class="btn btn-primary" style="align-self: end;" type="button" on:click={getUrl}>
+			Create
+		</button>
 	</form>
 
 	<Modal2 id="question-create">
@@ -143,6 +151,12 @@
 </div>
 
 <style lang="scss">
+	.create-question-textarea {
+		margin: 1rem 0;
+		padding: 0.5rem;
+		border: var(--classic-border);
+		border-radius: 5px;
+	}
 	.modal-size {
 		height: 100%;
 		// width: clamp(300px, 50vw, 50vw);

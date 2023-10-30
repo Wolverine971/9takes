@@ -106,7 +106,7 @@ export const load: PageServerLoad = async (
 			// tags: questionsAndTags.question_tag,
 			session,
 			subcategoryTags,
-			questionsAndTags: questionsAndTags.filter((q) => {
+			questionsAndTags: (questionsAndTags || []).filter((q) => {
 				return !q.questions.removed;
 			})
 
@@ -270,6 +270,83 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.update({ removed: true })
 				.eq('id', questionId);
+
+			if (!removeQuestionError) {
+				return true;
+			} else {
+				throw error(500, {
+					message: 'Error removing question'
+				});
+			}
+		} catch (e) {
+			console.log(e);
+			return false;
+		}
+	},
+	update: async ({ request, locals }) => {
+		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const demo_time = await checkDemoTime();
+
+			const { data: user, error: findUserError } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (findUserError) {
+				console.log(findUserError);
+			}
+
+			if (!user?.admin) {
+				throw error(400, {
+					message: 'Not authorized'
+				});
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const questionId = parseInt(body.questionId as string);
+			const question = body.question as string;
+			const question_formatted = body.question_formatted as string;
+			const tags = JSON.parse(body.tags as string);
+
+			// 	body.append('questionId', questionData.id);
+			// body.append('question', questionData.question);
+			// body.append('question_formatted', questionData.question_formatted);
+			// body.append('tags', JSON.stringify(tags));
+
+			const { error: removeQuestionError } = await supabase
+				.from(demo_time === true ? 'questions_demo' : 'questions')
+				.update({ question_formatted, })
+				.eq('id', questionId);
+
+			if (tags.length > 0) {
+				const { error: removeQuestionTagsError } = await supabase
+					.from(demo_time === true ? 'questions_tags_demo' : 'questions_tags')
+					.delete()
+					.eq('id', questionId);
+
+				if (!removeQuestionTagsError) {
+					console.log('error removing tags')
+					throw error(400, {
+						message: 'error updating tags'
+					});
+
+				}
+
+
+				tags.forEach(async (tag: any) => {
+					await supabase
+						.from(demo_time === true ? 'questions_tags_demo' : 'questions_tags')
+						.insert({ question_id: questionId, tag_id: tag.id });
+
+				})
+			}
 
 			if (!removeQuestionError) {
 				return true;

@@ -18,12 +18,10 @@
 			<div class="pretty-div">
 				<h3>Questions</h3>
 				<div class="scrollable-div">
-					<!-- <pre>
-						{data?.questions}
-					</pre> -->
 					{#each data?.questions as questionData}
 						<AdminQuestionItem
 							{questionData}
+							tags={data.tags || []}
 							isAdmin={!!data?.session?.user?.id}
 							on:questionRemoved={() => invalidateAll()}
 						/>
