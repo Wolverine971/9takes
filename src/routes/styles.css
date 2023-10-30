@@ -235,13 +235,15 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
+	border-radius: 5px;
 	box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+	background-color: var(--color-paladin-3);
 }
 
 body::-webkit-scrollbar-thumb {
 	outline: 4px solid slategrey;
 	border-radius: 5px;
-	background-color: darkgrey;
+	background-color: var(--color-paladin-3);
 }
 
 .firstLetter::first-letter {

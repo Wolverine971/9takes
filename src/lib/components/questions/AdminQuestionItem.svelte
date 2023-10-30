@@ -56,6 +56,8 @@
 	const save = async () => {
 		let body = new FormData();
 		body.append('questionId', questionData.id);
+		body.append('flagged', questionData.flagged);
+		body.append('removed', questionData.removed);
 		body.append('question', questionData.question);
 		body.append('question_formatted', questionData.question_formatted);
 		body.append('tags', JSON.stringify(selectedTags));
@@ -115,14 +117,7 @@
 			{#if selectedTags.length}
 				<div class="small-div ">
 					Selected Tags
-					<EditIcon
-						iconStyle={'margin-left: .5rem'}
-						height={'1.5rem'}
-						fill={questionData.comment_count ? '#5407d9' : ''}
-						on:click={() => {
-							editing = !editing;
-						}}
-					/>
+
 					<div class="tags-div">
 						{#each selectedTags as tag}
 							<span class="tag">{tag.tag_name}</span>
@@ -187,16 +182,19 @@
 
 	<Modal2 id={`edit-modal-${questionData.id}`}>
 		<div style="max-height: 500px;">
-			<div style="width: 60%;">
-				<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-					<b>Original:</b>
+			<div style="max-width: 60%;">
+				<div>
+					<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+						<b>Original:</b>
+					</p>
 					{questionData.question}
-				</p>
-				<p class="question-display">
-					<b>Formatted:</b>
-
+				</div>
+				<div>
+					<p class="question-display">
+						<b>Formatted:</b>
+					</p>
 					<textarea bind:value={questionData.question_formatted} />
-				</p>
+				</div>
 
 				<div class="small-div">
 					<span class="comment-span-display">
@@ -245,7 +243,6 @@
 
 				<div>
 					<h2>Selected Tags</h2>
-
 					<div class="big-tags">
 						{#if selectedTags?.length}
 							{#each selectedTags as tag}
@@ -268,7 +265,6 @@
 
 				<div>
 					<h2>Add Tags</h2>
-
 					<div class="big-tags">
 						{#if tags?.length}
 							{#each tags as tag}
@@ -310,6 +306,8 @@
 
 	.question-display {
 		word-break: break-word;
+		display: flex;
+		align-items: center;
 	}
 	.date-span {
 		// position: absolute;

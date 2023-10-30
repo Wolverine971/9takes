@@ -311,7 +311,9 @@ export const actions: Actions = {
 
 			const body = Object.fromEntries(await request.formData());
 			const questionId = parseInt(body.questionId as string);
-			const question = body.question as string;
+			// const question = body.question as string;
+			const removed = body.removed as string;
+			const flagged = body.flagged as string;
 			const question_formatted = body.question_formatted as string;
 			const tags = JSON.parse(body.tags as string);
 
@@ -319,19 +321,21 @@ export const actions: Actions = {
 			// body.append('question', questionData.question);
 			// body.append('question_formatted', questionData.question_formatted);
 			// body.append('tags', JSON.stringify(tags));
+			// body.append('flagged', questionData.flagged);
+			// body.append('removed', questionData.removed);
 
 			const { error: removeQuestionError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.update({ question_formatted })
+				.update({ question_formatted, removed, flagged })
 				.eq('id', questionId);
 
 			if (tags.length > 0) {
 				const { error: removeQuestionTagsError } = await supabase
-					.from(demo_time === true ? 'questions_tags_demo' : 'questions_tags')
+					.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
 					.delete()
-					.eq('id', questionId);
+					.eq('question_id', questionId);
 
-				if (!removeQuestionTagsError) {
+				if (removeQuestionTagsError) {
 					console.log('error removing tags');
 					throw error(400, {
 						message: 'error updating tags'
@@ -339,9 +343,13 @@ export const actions: Actions = {
 				}
 
 				tags.forEach(async (tag: any) => {
-					await supabase
-						.from(demo_time === true ? 'questions_tags_demo' : 'questions_tags')
-						.insert({ question_id: questionId, tag_id: tag.id });
+					const { error: addTagError } = await supabase
+						.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
+						.insert({ question_id: questionId, tag_id: tag.tag_id });
+
+					if (addTagError) {
+						console.log('error adding tag', addTagError);
+					}
 				});
 			}
 
