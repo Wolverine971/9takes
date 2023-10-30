@@ -322,7 +322,7 @@ export const actions: Actions = {
 
 			const { error: removeQuestionError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.update({ question_formatted, })
+				.update({ question_formatted })
 				.eq('id', questionId);
 
 			if (tags.length > 0) {
@@ -332,20 +332,17 @@ export const actions: Actions = {
 					.eq('id', questionId);
 
 				if (!removeQuestionTagsError) {
-					console.log('error removing tags')
+					console.log('error removing tags');
 					throw error(400, {
 						message: 'error updating tags'
 					});
-
 				}
-
 
 				tags.forEach(async (tag: any) => {
 					await supabase
 						.from(demo_time === true ? 'questions_tags_demo' : 'questions_tags')
 						.insert({ question_id: questionId, tag_id: tag.id });
-
-				})
+				});
 			}
 
 			if (!removeQuestionError) {

@@ -355,6 +355,8 @@
 		display: flex;
 		flex-wrap: wrap;
 		max-width: 800px;
+		max-height: 500px;
+		overflow-y: scroll;
 	}
 
 	.tag {

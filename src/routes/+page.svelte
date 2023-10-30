@@ -37,17 +37,13 @@
 	};
 	let innerWidth = 0;
 
-	import { io } from 'socket.io-client'
+	import { io } from 'socket.io-client';
 
-	const socket = io()
+	const socket = io();
 
-	
-	socket.on("eventFromServer", ( msg) => {
-		console.log(msg)
+	socket.on('eventFromServer', (msg) => {
+		console.log(msg);
 	});
-	
-
-  
 </script>
 
 <svelte:window bind:innerWidth />
@@ -88,13 +84,16 @@
 		</div>
 
 		<div>
-			<button type="button" class="btn btn-primary" id="signup" on:click={() => {
-				socket.emit('eventFromClient', 'yelloooooww')
-			}}>
+			<button
+				type="button"
+				class="btn btn-primary"
+				id="signup"
+				on:click={() => {
+					socket.emit('eventFromClient', 'yelloooooww');
+				}}
+			>
 				emit event
-
-				</button>
-
+			</button>
 		</div>
 		{#if !data?.session?.user?.id}
 			<div class="big-points center-align">
