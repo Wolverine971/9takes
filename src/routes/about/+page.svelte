@@ -24,11 +24,11 @@
 			<div style="margin:20px;">
 				<h2>Right now, just me, DJ</h2>
 				<p>
-					I am an engineer at a YC backed startup working on logistics. I am taking my understanding
-					of logistics and applying it to running a well oiled social community. There are many
+					I am an engineer at a YC-backed startup working on logistics. I am taking my understanding
+					of logistics and applying it to running a well-oiled social community. There are many
 					moving parts and tradeoffs that social media companies have to make. I think it is
 					possible to optimize for engagement and honesty while also making the 9takes platform safe
-					and inclusive. Social media today has made too many short term decisions and has paved the
+					and inclusive. Social media today has made too many short-term decisions and has paved the
 					way for what not to do. See the video below:
 				</p>
 				<div style="display:flex; align-items: center; justify-content: center;">
@@ -47,10 +47,10 @@
 					<a href="/blog/community/inspiration-for-9takes"
 						>I got into personality because of my wife.</a
 					>
-					I was blown away by it similar to how people are blown away by taking psychedelics. The problem
-					was when I tried to find a community to explore personality further. There is more to it but
-					thats why I am building 9takes. I would love to connect with you and hear about how you view
-					personality and hear any thoughts or suggestions you have for how to build a better social
+					I was blown away by it, similar to how people are blown away by taking psychedelics. The problem
+					was when I tried to find a community to explore my personality further. There is more to it,
+					but that's why I am building 9takes. I would love to connect with you and hear about how you
+					view personality and hear any thoughts or suggestions you have for how to build a better social
 					media platform. DM me on
 					<a
 						class="external-link"
@@ -60,7 +60,7 @@
 					>.
 				</p>
 
-				<!-- <p>I am a Software Engineer who has gained a lot of value from the enneagram in his personal life. I am amazed that the enneagram isn't in the common </p> -->
+				<!-- <p>I am a Software Engineer who has gained much value from the Enneagram in his personal life. I am amazed that the Enneagram isn't in the common </p> -->
 				<!-- <ul>
                 <li>
                     <a class="external-link" target="_blank" href="https://github.com/Wolverine971">Github</a>
@@ -74,13 +74,13 @@
 	</div>
 	<h2>What is 9takes</h2>
 	<p>
-		9takes is reddit reimagined based on personality. Its based on questions and answers, and there
-		are 2 catches:
+		9takes is an Anonymous question-and-answer platform based on personality. It is Reddit
+		reimagined based on a personality system called the Enneagram. Two things make it different:
 	</p>
 
 	<ul>
 		<li>
-			You cannot see answers to questions untill you comment. That is so that people are honest and
+			You can only see answers to questions once you comment. That is so that people are honest and
 			unbiased.
 		</li>
 		<li>

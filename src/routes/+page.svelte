@@ -52,7 +52,7 @@
 	<title>9takes Home Page</title>
 	<meta
 		name="description"
-		content="9takes- A reimagined Reddit based on personality. Ask questions, give hot takes, talk to real people"
+		content="9takes- Anonymous questions and answers based on personality. Find out what people think, feel, and do."
 	/>
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.webp" />
 	<link rel="canonical" href="https://9takes.com" />
@@ -74,26 +74,13 @@
 
 				<div class="main-description">
 					<h1>9takes</h1>
-					<h2>Find your people and understand everyone else.</h2>
-					<h3>Reddit reimagined, based on personality</h3>
+					<h2>Anonymous questions and answers based on personality.</h2>
+					<h3>Find out what people think, feel, and do.</h3>
 				</div>
 			</div>
 
 			<!-- 9takes- Find people similar to you and understand everyone else. how socrates must have been explaining things
 			How we see the World -->
-		</div>
-
-		<div>
-			<button
-				type="button"
-				class="btn btn-primary"
-				id="signup"
-				on:click={() => {
-					socket.emit('eventFromClient', 'yelloooooww');
-				}}
-			>
-				emit event
-			</button>
 		</div>
 		{#if !data?.session?.user?.id}
 			<div class="big-points center-align">
@@ -167,16 +154,18 @@
 					style="text-align: center;"
 					itemprop="description"
 				>
-					{'ask good questions, make Socrates proud'}
+					{'everything GOOD that we built started with a GOOD question'}
 				</p>
 			</div>
 		</Jumbotron>
 
 		<div class="big-points">
-			<h3 style="">What are we building?</h3>
+			<h3 style="">What is 9takes?</h3>
 			<p style="">
+				An anonymous question and answering platform based on the Enneagram personality system. It
+				is like
 				<b style="font-size: 1.2rem;">
-					A reimagined <span style="text-shadow: .5px .5px #E0373C;">Reddit</span> based on
+					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> reimagined and based on
 					personality.
 					<!-- <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>
 					Lens. -->

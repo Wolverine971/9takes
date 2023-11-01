@@ -74,7 +74,7 @@ In his interpersonal relationships and public persona, Calacanis often displays 
 A Three with a Two-Wing, often called "The Charmer," is known for its warmth, ambition, and people-pleasing tendencies. While a Three with a Four-Wing, termed "The Professional," balances their dreams with a sense of individualism and introspection. Calacanis seems to oscillate between these two sides, embodying the outgoing charisma of a "Charmer" and the professional composure of a "Professional." Nowhere is this more evident than in how he describes building his network.
 
 <div class="iframe-container">
-<iframe width="100%" height="560"
+<iframe width="100%" height="315"
 src="https://youtube.com/embed/CptK4H5ZOxU"
 title="Jason Calacanis talking about networking"
 frameborder="0"

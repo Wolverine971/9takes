@@ -4,14 +4,14 @@ const name = '9takes';
 const website = 'https://9takes.com';
 
 export async function GET() {
-	const posts = await getPosts();
-	const body = xml(posts);
+  const posts = await getPosts();
+  const body = xml(posts);
 
-	// const headers = {
-	// 	'Cache-Control': 'max-age=0, s-maxage=3600',
-	// 	'Content-Type': 'application/xml'
-	// };
-	return new Response(body);
+  // const headers = {
+  // 	'Cache-Control': 'max-age=0, s-maxage=3600',
+  // 	'Content-Type': 'application/xml'
+  // };
+  return new Response(body);
 }
 
 const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
@@ -19,11 +19,11 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
   <channel>
     <title>9takes</title>
     <link>https://9takes.com/</link>
-    <description>9takes- A reimagined Reddit based on personality. Ask questions, give hot takes, talk to real people</description>
+    <description>9takes- Anonymous questions and answers based on personality. Find out what people think, feel, and do.</description>
     ${posts
-			.map(
-				(post: any) =>
-					`<item>
+    .map(
+      (post: any) =>
+        `<item>
           <title>${post.title}</title>
           <description>${post.description}</description>
           <link>${post.loc}/</link>
@@ -31,8 +31,8 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
           <lastBuildDate>${post.rssUpdateDate}</lastBuildDate>
         </item>
       `
-			)
-			.join('')}
+    )
+    .join('')}
   </channel>
 </rss>`;
 
