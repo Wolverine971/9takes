@@ -1,4 +1,16 @@
 {
 	"version": 2,
-	"alias": "9takes.com"
+	"alias": "9takes.com",
+	"builds": [
+		{
+			"src": "./server/index.js",
+			"use": "@vercel/node"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "./server/index.js"
+		}
+	]
 }
