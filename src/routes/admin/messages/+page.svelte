@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { onMount } from 'svelte';
-	import { browser } from '$app/environment';
+	import { browser, dev } from '$app/environment';
 
 	import { io } from 'socket.io-client';
 
@@ -21,7 +21,13 @@
 		console.log('mounting messages');
 
 		if (browser) {
-			socket = io();
+			if (dev) {
+				socket = io('http://localhost:3000', {
+					transports: ['websocket', 'polling', 'flashsocket']
+				});
+			} else {
+				socket = io();
+			}
 
 			socket.on(
 				'eventFromServer',

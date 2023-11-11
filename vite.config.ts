@@ -2,19 +2,26 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
 
+const dev = process.env.NODE_ENV === 'development'
 
-export const webSocketServer = {
-	name: 'webSocketServer',
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	configureServer(server: any) {
-		injectSocketIO(server.httpServer);
-	}
-};
+
+let webSocketServer
+if (dev) {
+	webSocketServer = {
+		name: 'webSocketServer',
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		configureServer(server: any) {
+			injectSocketIO(server.httpServer);
+		}
+	};
+}
+
+
 
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit(), nodeLoaderPlugin(), webSocketServer],
+	plugins: [sveltekit(), nodeLoaderPlugin(), dev && webSocketServer],
 
 	define: {
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),

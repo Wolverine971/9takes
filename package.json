@@ -8,6 +8,7 @@
 	},
 	"scripts": {
 		"dev": "vite dev",
+		"startNode": "node server",
 		"devTest": "vavite-loader vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -80,6 +81,7 @@
 		"base64-arraybuffer": "^1.0.2",
 		"dotenv": "^16.0.3",
 		"dropcss": "^1.0.16",
+		"express": "^4.18.2",
 		"googleapis": "^114.0.0",
 		"gsap": "^3.12.1",
 		"html-to-image": "^1.11.11",
