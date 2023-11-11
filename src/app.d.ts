@@ -17,7 +17,7 @@ interface TakesUser extends User {
 	id: number;
 }
 interface SbSession extends Session {
-	user: TakesUser;
+	user?: TakesUser;
 }
 
 declare global {
@@ -25,7 +25,7 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			sb: TypedSupabaseClient;
-			session: SbSession | null;
+			session: SbSession | Session | null;
 		}
 		interface PageData {
 			session: SbSession | null;

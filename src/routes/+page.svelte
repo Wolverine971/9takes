@@ -5,7 +5,6 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
-	// export let data: PageData;
 	export let data: PageData;
 
 	onMount(() => {
@@ -36,14 +35,6 @@
 		}
 	};
 	let innerWidth = 0;
-
-	import { io } from 'socket.io-client';
-
-	const socket = io();
-
-	socket.on('eventFromServer', (msg) => {
-		console.log(msg);
-	});
 </script>
 
 <svelte:window bind:innerWidth />

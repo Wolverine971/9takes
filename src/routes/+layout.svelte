@@ -29,6 +29,27 @@
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
 	export let data: PageData;
 	let innerWidth = 0;
+
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		// if (dev) return;
+
+		const fp = await FingerprintJS.load();
+		const fpval = await fp.get();
+
+		const formdata = new FormData();
+		formdata.append('fingerprint', fpval?.visitorId?.toString());
+
+		await fetch(`/api/adder`, {
+			method: 'POST',
+			body: formdata
+		})
+			.then((response) => response.text())
+			.then((result) => console.log(result))
+			.catch((error) => console.log('error', error));
+	});
 </script>
 
 <svelte:window bind:innerWidth />

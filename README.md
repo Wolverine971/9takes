@@ -1,8 +1,13 @@
-# 9takes Svelte Rewrite/ Notes
+
+# 9takes- Anonymous questions and answers with a touch of personality
+
+## Find out what people think, feel and do
+
+> this is a rewrite of 9takes
 
 ## Why the name 9takes
 
-9takes eludes to the enneagram and how there are 9 personalities/ worldviews/ takes on life.
+9takes comes from the 9 personality types within the Enneagram. Therefore there are 9 personalities/ worldviews/ takes on life.
 
 ## Reasons for rewrite
 
@@ -39,10 +44,6 @@ Rate limit API when questions go live
 
 <https://www.youtube.com/watch?v=jMVhxBB3l0w>
 
-### site map
-
-npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-map "1.0"
-
 ### checkout pwa
 
 <https://dev.to/askrodney/sveltekit-pwa-installable-app-with-offline-access-5a8n>
@@ -55,8 +56,8 @@ npx sitemap-generator-cli 9takes.com --last-mod --change-freq weekly --priority-
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "Lady-Gaga.jpg" -o "Lady-Gaga.webp"
-cwebp -sns 70 -f 50 -size 20000 "Lady-Gaga.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/types/4s/s-Lady-Gaga.webp"
+cwebp "paint-transpo.jpeg" -o "paint-transpo.webp"
+cwebp -sns 70 -f 50 -size 20000 "paint-transpo.webp" -o "/Users/djwayne/Downloads/s-paint-transpo.webp"
 
 ### fix image size
 

@@ -4,13 +4,13 @@
 - Ask for shares
 - Comments on the blogs
 - Homepage problem- redesign
-  - Develop a clearer mission statement and value proposition for the website. This should be prominently displayed on the landing page to immediately inform new visitors about the purpose of the platform.
+    - Develop a clearer mission statement and value proposition for the website. This should be prominently displayed on the landing page to immediately inform new visitors about the purpose of the platform.
 - Question details
-  - comment count, upvotes
+    - comment count, upvotes
 - Address Question Curation
-  - Question Search
-  - Questions view
-  - Tell chatGPT to create a Question Classifier based on [Questions](Questions.md)
+    - Question Search
+    - Questions view
+    - Tell chatGPT to create a Question Classifier based on [Questions](Questions.md)
 - Blog Tagging
 - Dedicated Sign up page
 
@@ -55,8 +55,34 @@ INSERT INTO profiles_demo (username, first_name, last_name, email, enneagram) VA
 ('user29', 'Amy', 'Nelson29', '<amynelson29@email.com>', '1'),
 ('user30', 'Brian', 'Cooper30', '<briancooper30@email.com>', '1');
 
-3 Sections
+## 3 Sections
 
-Gamification
-Queue System
+Gamification--
+Queue System--
 Blogs that are actually interesting
+
+Fix fingerprinting
+Build out admin panel
+
+Update and delete questions, manually classify questions
+Set up Queue for classifying questions
+Messaging/ DMs
+show email
+
+## Make enneagram slide show for Friday
+
+Examples
+Reddit- <https://www.reddit.com/r/Enneagram/comments/174ws7n/comment/k4ld8tn/?context=3>
+Ian Cron asking questions
+Susan Storm asking question
+
+### Questions I will be asked
+
+Accreditation- am open to getting accredited
+
+### Asks
+
+Share with audience- say that implicitly
+Be the socrates in the group chat- be the good listeners
+Private group
+Feedback today
