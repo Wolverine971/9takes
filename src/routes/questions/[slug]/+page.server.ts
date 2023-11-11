@@ -94,7 +94,7 @@ export async function load(event) {
 		.order('created_at', { ascending: false });
 
 	if (questionCommentsError) {
-		console.log('No comments for question');
+		console.log('No comments for question', questionCommentsError);
 	}
 
 	const {
@@ -112,7 +112,7 @@ export async function load(event) {
 		.limit(10);
 
 	if (questionLinksError) {
-		console.log('No links for question');
+		console.log('No links for question', questionLinksError);
 	}
 
 	if (demo_time === true) {

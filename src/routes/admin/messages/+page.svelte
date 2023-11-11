@@ -18,11 +18,9 @@
 	let channelListeningOn: string;
 
 	onMount(async () => {
-		console.log('mounting messages');
-
 		if (browser) {
-			if (dev) {
-				socket = io('http://localhost:3000', {
+			if (!dev) {
+				socket = io('https://9takes.com:3000', {
 					transports: ['websocket', 'polling', 'flashsocket']
 				});
 			} else {
@@ -32,17 +30,14 @@
 			socket.on(
 				'eventFromServer',
 				(msg: string, meta: { to: string; from: string; message: string }) => {
-					console.log(msg, meta);
 					messages = [...messages, msg];
 				}
 			);
 			channelListeningOn = `user:${data.user.external_id}`;
 
-			console.log(`listening for ${channelListeningOn}`);
 			socket.on(
 				channelListeningOn,
 				(msg: string, meta: { to: string; from: string; message: string }) => {
-					console.log(meta);
 					userMessages = [...userMessages, meta];
 				}
 			);
@@ -110,7 +105,6 @@
 				on:click={() => {
 					const sendChannel = `user:${userid}`;
 
-					console.log(sendChannel, userMessage);
 					socket.emit('eventFromClient', userMessage, {
 						to: sendChannel,
 						from: channelListeningOn,

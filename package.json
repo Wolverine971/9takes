@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"dev": "vite dev",
-		"startNode": "node server",
+		"startNode": "node ./server/index.js",
 		"devTest": "vavite-loader vite dev",
 		"build": "vite build",
 		"preview": "vite preview",

@@ -15,7 +15,6 @@ injectSocketIO(server)
 // SvelteKit handlers
 app.use(handler)
 console.log('SvelteKit injected')
-console.log(handler)
 
 
 server.listen(port, () => {
