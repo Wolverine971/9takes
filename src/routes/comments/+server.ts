@@ -18,14 +18,17 @@ import { checkDemoTime } from '../../utils/api';
 export async function GET({
 	url,
 	locals,
-	getClientAddress
+	getClientAddress,
+	cookies
 }: {
 	url: any;
 	locals: any;
 	getClientAddress: any;
+	cookies: any;
 }) {
 	try {
 		const demo_time = await checkDemoTime();
+		const cookie = cookies.get('9tfingerprint');
 
 		const parentId = Number(url.searchParams.get('parentId') ?? '0');
 		const parentType = String(url.searchParams.get('type') ?? '0');
@@ -53,7 +56,8 @@ export async function GET({
 				.select('*')
 				.eq('parent_type', parentType)
 				.eq('parent_id', parentId)
-				.eq('ip', ipAddress);
+				.eq('fingerprint', cookie)
+				// .eq('ip', ipAddress);
 			userHasAnswered = hasCommented?.length ? true : false;
 		}
 
@@ -75,6 +79,7 @@ export async function GET({
 		, parent_type
 		, es_id
 		, like_count
+		, fingerprint
 		, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 		`,
 				{ count: 'exact' }
@@ -106,6 +111,7 @@ export async function GET({
 					, parent_type
 					, es_id
 					, like_count
+					, fingerprint
 					, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
 					`,
 						{ count: 'exact' }

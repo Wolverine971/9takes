@@ -8,6 +8,7 @@ export const load: PageServerLoad = async (event: any) => {
 	const session = await getServerSession(event);
 	const user = session?.user;
 	const slug = event.params.slug;
+	const cookie = event.cookies.get('9tfingerprint');
 
 	let userHasAnswered = false;
 
@@ -25,13 +26,15 @@ export const load: PageServerLoad = async (event: any) => {
 			.from('blog_comments')
 			.select('id')
 			.eq('blog_link', slug)
-			.eq('ip', ipAddress);
+			.eq('fingerprint', cookie)
+			// .eq('ip', ipAddress);
+
 		userHasAnswered = hasCommented?.length ? true : false;
 	}
 
 	let comments: any[] = [];
 	if (userHasAnswered) {
-		let { data: blogComments, error: blogCommentsError } = await supabase
+		const { data: blogComments, error: blogCommentsError } = await supabase
 			.from('blog_comments')
 			.select('*')
 			.eq('blog_link', slug)

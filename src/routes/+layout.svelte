@@ -27,11 +27,12 @@
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	// import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
-	export let data: PageData;
-	let innerWidth = 0;
-
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import { onMount } from 'svelte';
+	import { setCookie } from '../utils/cookies';
+
+	export let data: PageData;
+	let innerWidth = 0;
 
 	onMount(async () => {
 		// if (dev) return;
@@ -41,6 +42,7 @@
 
 		const formdata = new FormData();
 		formdata.append('fingerprint', fpval?.visitorId?.toString());
+		setCookie('9tfingerprint', fpval?.visitorId?.toString(), 365);
 
 		await fetch(`/api/adder`, {
 			method: 'POST',

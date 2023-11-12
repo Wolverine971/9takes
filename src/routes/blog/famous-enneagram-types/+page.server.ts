@@ -95,6 +95,7 @@ export const actions: Actions = {
 			const blog_link = body.blog_link;
 			const blog_type = 'famous-enneagram-types';
 			const ip = getClientAddress();
+			const fingerprint = body.fingerprint as string;
 
 			const { data: insertedComment, error: insertedCommentError } = await supabase
 				.from('blog_comments')
@@ -103,7 +104,8 @@ export const actions: Actions = {
 					blog_link,
 					blog_type,
 					author_id,
-					ip
+					ip,
+					fingerprint
 				})
 				.select();
 

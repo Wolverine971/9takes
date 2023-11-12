@@ -12,6 +12,7 @@ import { checkDemoTime } from '../../../utils/api';
 export async function load(event) {
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
+	const cookie = event.cookies.get('9tfingerprint');
 
 	let userHasAnswered = false;
 
@@ -52,7 +53,8 @@ export async function load(event) {
 			.select('*')
 			.eq('parent_type', 'question')
 			.eq('parent_id', question?.id)
-			.eq('ip', ipAddress)
+			.eq('fingerprint', cookie)
+			// .eq('ip', ipAddress)
 			.order('created_at', { ascending: false });
 		userHasAnswered = hasCommented?.length ? true : false;
 	}
@@ -162,6 +164,7 @@ export const actions: Actions = {
 			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
 			const ip = getClientAddress();
+			const fingerprint = body.fingerprint as string;
 
 			parseUrls(comment, questionId);
 
@@ -189,7 +192,8 @@ export const actions: Actions = {
 							comment_count: 0,
 							ip,
 							parent_type: parent_type,
-							es_id: esId
+							es_id: esId,
+							fingerprint
 					  }
 					: {
 							comment: comment,
@@ -197,7 +201,8 @@ export const actions: Actions = {
 							comment_count: 0,
 							ip,
 							parent_type: parent_type,
-							es_id: esId
+							es_id: esId,
+							fingerprint
 					  };
 
 			const { data: record, error: addCommentError } = await supabase
@@ -250,6 +255,7 @@ export const actions: Actions = {
 			const es_id = body.es_id as string;
 			const parentId = parseInt(parent_id);
 			const ip = getClientAddress();
+			const fingerprint = body.fingerprint as string;
 
 			if (typeof comment !== 'string') {
 				throw error(404, {
@@ -282,7 +288,8 @@ export const actions: Actions = {
 							comment_count: 0,
 							ip,
 							parent_type: parent_type,
-							es_id: esId
+							es_id: esId,
+							fingerprint
 					  }
 					: {
 							comment: comment,
@@ -291,7 +298,8 @@ export const actions: Actions = {
 							comment_count: 0,
 							ip,
 							parent_type: parent_type,
-							es_id: esId
+							es_id: esId,
+							fingerprint
 					  };
 
 			const { data: record, error: addCommentError } = await supabase

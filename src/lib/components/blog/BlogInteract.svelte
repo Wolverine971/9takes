@@ -8,6 +8,8 @@
 
 	import { createEventDispatcher } from 'svelte';
 	import type { Session } from '@supabase/supabase-js';
+
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
@@ -57,12 +59,16 @@
 			anonymousComment = true;
 		}
 
+		const fp = await FingerprintJS.load();
+		const fpval = await fp.get();
+
 		let body = new FormData();
 
 		body.append('comment', comment);
 		body.append('author_id', user?.id);
 		body.append('parent_type', parentType);
 		body.append('blog_link', data.slug);
+		body.append('fingerprint', fpval?.visitorId?.toString());
 
 		const resp = await fetch(`/blog/${parentType}?/createComment`, {
 			method: 'POST',

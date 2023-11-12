@@ -4,6 +4,7 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
 	import { notifications } from '$lib/components/molecules/notifications.js';
 	// import { page } from '$app/stores';
@@ -57,6 +58,9 @@
 		}
 		loading = true;
 
+		const fp = await FingerprintJS.load();
+		const fpval = await fp.get();
+
 		let body = new FormData();
 		if (parentType === 'comment') {
 			body.append('comment', comment);
@@ -65,6 +69,7 @@
 			body.append('parent_type', parentType);
 			body.append('es_id', data.es_id);
 			body.append('question_id', questionId.toString());
+			body.append('fingerprint', fpval?.visitorId?.toString());
 		} else if (parentType === 'question') {
 			body.append('comment', comment);
 			body.append('parent_id', data.question.id);
@@ -72,6 +77,7 @@
 			body.append('parent_type', parentType);
 			body.append('es_id', data.question.es_id);
 			body.append('question_id', questionId.toString());
+			body.append('fingerprint', fpval?.visitorId?.toString());
 		}
 
 		const resp = await fetch('?/createCommentRando', {

@@ -8,6 +8,8 @@
 	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
+
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	const dispatch = createEventDispatcher();
 
 	export let user: any;
@@ -125,6 +127,9 @@
 		}
 		loading = true;
 
+		const fp = await FingerprintJS.load();
+		const fpval = await fp.get();
+
 		let body = new FormData();
 		body.append('comment', newcomment);
 		body.append('parent_id', comment.id);
@@ -132,6 +137,7 @@
 		body.append('parent_type', 'comment');
 		body.append('es_id', comment.es_id);
 		body.append('question_id', questionId.toString());
+		body.append('fingerprint', fpval?.visitorId?.toString());
 
 		const resp = await fetch('?/createComment', {
 			method: 'POST',
