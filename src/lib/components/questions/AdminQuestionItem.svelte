@@ -18,7 +18,6 @@
 	const day = dateObj.getUTCDate();
 	const year = dateObj.getUTCFullYear();
 	const newDate = `${month}/${day}${innerWidth > 400 ? '/' + year : ''}`;
-	console.log('questionData', questionData);
 
 	let editing = false;
 
@@ -185,13 +184,13 @@
 			<div style="max-width: 60%;">
 				<div>
 					<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-						<b>Original:</b>
+						<b style="text-wrap: nowrap;">Original: </b>
 					</p>
 					{questionData.question}
 				</div>
 				<div>
 					<p class="question-display">
-						<b>Formatted:</b>
+						<b style="text-wrap: nowrap;">Formatted: </b>
 					</p>
 					<textarea bind:value={questionData.question_formatted} />
 				</div>
@@ -308,6 +307,8 @@
 		word-break: break-word;
 		display: flex;
 		align-items: center;
+		text-wrap: balance;
+		gap: 0.5rem;
 	}
 	.date-span {
 		// position: absolute;
@@ -361,12 +362,16 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 15px;
+		border-radius: 5px;
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;
 		border: var(--classic-border);
 		width: fit-content;
+		cursor: pointer;
+		&:hover {
+			background-color: var(--color-p-light);
+		}
 	}
 
 	.save-btn {
@@ -377,6 +382,7 @@
 
 	.remove-tag-btn {
 		margin: 0.25rem;
+		padding: 0.25rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;

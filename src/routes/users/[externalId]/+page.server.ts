@@ -4,6 +4,7 @@ import type { Actions, PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 
 /** @type {import('./$types').PageLoad} */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const load: PageServerLoad = async (event) => {
 	const { demo_time } = await event.parent();
 
@@ -26,11 +27,11 @@ export const load: PageServerLoad = async (event) => {
 		console.log(subscriptionsError);
 	}
 
-	const { data: comments, error: commentsError } = await supabase
-		.from(demo_time === true ? 'comments_demo' : 'comments')
-		.select(`*`)
-		.eq('author_id', user?.id)
-		.order('created_at', { ascending: false });
+
+
+	const { data: comments, error: commentsError } = await supabase.rpc('get_user_question_comments', {
+		authorid: user?.id
+	});
 
 	if (commentsError) {
 		console.log(commentsError);

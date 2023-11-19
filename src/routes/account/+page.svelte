@@ -2,9 +2,8 @@
 	import { supabase } from '$lib/supabase';
 	import type { PageData } from './$types';
 
-	import { applyAction, deserialize, enhance, type SubmitFunction } from '$app/forms';
+	import { deserialize, enhance } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { invalidateAll } from '$app/navigation';
 	import EnneagramSelect from '$lib/components/molecules/Enneagram-Select.svelte';
 	let firstName: string;
 	let lastName: string;
@@ -15,11 +14,12 @@
 	}
 
 	export let data: AccountData;
+
 	firstName = data?.user?.first_name;
 	lastName = data?.user?.last_name;
 	enneagram = data?.user?.enneagram;
 
-	const submitLogout: SubmitFunction = async ({ cancel }) => {
+	const submitLogout = async ({ cancel }: { cancel: Function }) => {
 		const { error: signOutError } = await supabase.auth.signOut();
 		if (signOutError) {
 			console.log(signOutError);
@@ -54,7 +54,12 @@
 <div class="glass-card">
 	<div>
 		<div class="row">
-			<h1 style="">Hello {data?.session?.user.email}</h1>
+			{#if data?.user?.admin}
+				<a href="/admin">
+					<button type="button" class="btn btn-primary">Admin</button>
+				</a>
+			{/if}
+			<h1 style="margin: auto 1rem">Hello {data?.session?.user?.email}</h1>
 
 			<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
 			<!-- use:enhance={() => {
@@ -125,6 +130,7 @@
 	}
 	.logout-btn {
 		align-self: end;
+		margin: auto 0;
 	}
 	.save-btn {
 		align-self: end;

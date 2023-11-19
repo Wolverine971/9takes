@@ -14,7 +14,19 @@ import type { Session } from '@supabase/supabase-js';
 interface TakesUser extends User {
 	first_name: string;
 	last_name: string;
+	email: string;
 	id: number;
+	username?: string;
+
+	external_id?: string;
+	canAskQuestion?: boolean;
+	created_at?: string;
+	avatar_url?: string;
+
+	admin?: boolean;
+	website?: string;
+	enneagram?: string;
+
 }
 interface SbSession extends Session {
 	user?: TakesUser;

@@ -20,8 +20,9 @@
 {#if data.user?.admin}
 	<div class="glass-card">
 		<div class="row">
-			<a href="/admin/users">Users</a> /
-			<a href="/admin/questions">Questions</a>
+			<a href="/admin/users">Users</a> |
+			<a href="/admin/questions">Questions</a> |
+			<a href="/admin/messages">Messages</a>
 		</div>
 
 		<div class="row">
