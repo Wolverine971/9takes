@@ -186,7 +186,6 @@ export const actions: Actions = {
 
 			const { data: comments, error: findCommentsError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
-
 				.select(`*, ${demo_time === true ? 'profiles_demo' : 'profiles'}!inner (enneagram, id)`, {
 					count: 'exact'
 				})

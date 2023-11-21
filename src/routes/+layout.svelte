@@ -41,7 +41,7 @@
 		const fpval = await fp.get();
 
 		const formdata = new FormData();
-		formdata.append('fingerprint', fpval?.visitorId?.toString());
+		formdata.append('fp', fpval?.visitorId?.toString());
 		setCookie('9tfingerprint', fpval?.visitorId?.toString(), 365);
 
 		await fetch(`/api/adder`, {

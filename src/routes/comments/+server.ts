@@ -18,13 +18,7 @@ import { checkDemoTime } from '../../utils/api';
 export async function GET({
 	url,
 	locals,
-	getClientAddress,
 	cookies
-}: {
-	url: any;
-	locals: any;
-	getClientAddress: any;
-	cookies: any;
 }) {
 	try {
 		const demo_time = await checkDemoTime();
@@ -34,35 +28,19 @@ export async function GET({
 		const parentType = String(url.searchParams.get('type') ?? '0');
 		const range = parseInt(url.searchParams.get('range') as string) || 0;
 
-		const ipAddress = getClientAddress();
 
 		const user = locals?.session?.user;
 
-		let userHasAnswered = false;
-
-		if (user?.id) {
-			const { data: hasUserCommented } = await supabase
-				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.select('*')
-				.eq('parent_type', parentType)
-				.eq('parent_id', parentId)
-				.eq('author_id', user?.id);
-
-			userHasAnswered = hasUserCommented?.length ? true : false;
-		} else {
-			// checks if it is a rando
-			const { data: hasCommented } = await supabase
-				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.select('*')
-				.eq('parent_type', parentType)
-				.eq('parent_id', parentId)
-				.eq('fingerprint', cookie)
-				// .eq('ip', ipAddress);
-			userHasAnswered = hasCommented?.length ? true : false;
-		}
+		// only works for questions
+		const { data: userHasAnswered, error } = await supabase
+			.rpc('can_see_comments_2', {
+				userfingerprint: cookie,
+				questionid: parentId,
+				userid: user?.id || null
+			})
 
 		if (!userHasAnswered) {
-			return {};
+			return json({});
 		}
 
 		const { data: questionComments, error: questionCommentsError } = await supabase

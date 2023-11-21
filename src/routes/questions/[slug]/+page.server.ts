@@ -14,7 +14,6 @@ export async function load(event) {
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 
-	let userHasAnswered = false;
 
 	const { data: question, error: findQuestionError } = await supabase
 		.from(demo_time === true ? 'questions_demo' : 'questions')
@@ -25,39 +24,19 @@ export async function load(event) {
 		.eq('url', event.params.slug)
 		.single();
 
-	if (!question) {
+	if (!question || findQuestionError) {
 		throw error(400, {
 			message: 'No question found'
 		});
 	}
 
-	if (session?.user) {
-		const { data: hasUserCommented } = await supabase
-			.from(demo_time === true ? 'comments_demo' : 'comments')
-			.select('*')
-			.eq('parent_type', 'question')
-			.eq('parent_id', question?.id)
-			.eq('author_id', session?.user.id)
-			.order('created_at', { ascending: false });
-		if (!question || findQuestionError) {
-			throw error(400, {
-				message: 'No question found'
-			});
-		}
-		userHasAnswered = hasUserCommented?.length ? true : false;
-	} else {
-		// checks if it is a rando
-		const ipAddress = event.getClientAddress();
-		const { data: hasCommented } = await supabase
-			.from(demo_time === true ? 'comments_demo' : 'comments')
-			.select('*')
-			.eq('parent_type', 'question')
-			.eq('parent_id', question?.id)
-			.eq('fingerprint', cookie)
-			// .eq('ip', ipAddress)
-			.order('created_at', { ascending: false });
-		userHasAnswered = hasCommented?.length ? true : false;
-	}
+
+	const { data: userHasAnswered } = await supabase
+		.rpc('can_see_comments_2', {
+			userfingerprint: cookie,
+			questionid: question?.id,
+			userid: session?.user?.id || null
+		})
 
 	if (!userHasAnswered) {
 		const { count: commentCount } = await supabase
@@ -186,24 +165,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -282,25 +261,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						author_id: null,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')

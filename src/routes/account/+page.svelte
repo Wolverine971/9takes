@@ -14,7 +14,6 @@
 	}
 
 	export let data: AccountData;
-
 	firstName = data?.user?.first_name;
 	lastName = data?.user?.last_name;
 	enneagram = data?.user?.enneagram;

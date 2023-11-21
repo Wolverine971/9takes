@@ -5,7 +5,7 @@ import { error, json } from '@sveltejs/kit';
 export async function POST({ request }) {
 	try {
 		const body = Object.fromEntries(await request.formData());
-		const fingerprint = body.fingerprint as string;
+		const fingerprint = body.fp as string;
 
 		const { data: addedVisitor, error: addedVisitorsError } = await supabase
 			.from('visitors')
