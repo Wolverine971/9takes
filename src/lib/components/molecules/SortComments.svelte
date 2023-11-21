@@ -5,8 +5,7 @@
 	import { notifications } from '$lib/components/molecules/notifications.js';
 
 	import { createEventDispatcher } from 'svelte';
-	import DownIcon from '$lib/components/icons/downIcon.svelte';
-	import UpIcon from '$lib/components/icons/upIcon.svelte';
+	import Modal2, { getModal } from '../atoms/Modal2.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let data: any;
@@ -47,41 +46,38 @@
 
 <svelte:window bind:innerWidth />
 
-<details class="details-display" bind:open>
-	<summary class="summary-display">
+<button
+	type="button"
+	class="details-display"
+	on:click={() => {
+		open = !open;
+		if (open) getModal('sorter').open();
+		else getModal('sorter').close();
+	}}
+>
+	<div class="summary-display">
 		<FilterListIcon
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
 			fill={open ? '#5407d9' : ''}
 		/>
 
-		Filter Comments
-		{#if !open}
-			<DownIcon
-				className="hover-change"
-				iconStyle={'padding: 0.25rem; margin: .5rem'}
-				height={'1.5rem'}
-				fill={open ? '#5407d9' : ''}
-			/>
-		{/if}
-		{#if open}
-			<UpIcon
-				className="hover-change"
-				iconStyle={'padding: 0.25rem; margin: .5rem'}
-				height={'1.5rem'}
-				fill={open ? '#5407d9' : ''}
-			/>
-		{/if}
-	</summary>
-	<MultiSelect bind:selected options={typeOptions} />
-	<br />
-	<button
-		type="button"
-		value="Sort"
-		on:click={sort}
-		class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''}">Sort</button
-	>
-</details>
+		Filter
+	</div>
+</button>
+
+<Modal2 id="sorter">
+	<div style="margin: 2rem;">
+		<MultiSelect bind:selected options={typeOptions} />
+		<br />
+		<button
+			type="button"
+			value="Sort"
+			on:click={sort}
+			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''}">Sort</button
+		>
+	</div>
+</Modal2>
 
 <style lang="scss">
 	.dropdown-content ul {
@@ -100,7 +96,7 @@
 	.details-display {
 		cursor: pointer;
 		margin: 0.5rem;
-		padding: 0.5rem;
+		padding: 0 0.5rem;
 		border-radius: 5px;
 
 		&:hover {

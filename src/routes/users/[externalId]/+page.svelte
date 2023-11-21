@@ -2,7 +2,6 @@
 	import type { PageData } from './$types';
 
 	export let data: PageData;
-	// console.log(data);
 
 	interface IComment {
 		id: number;
@@ -38,7 +37,7 @@
 
 	{#if data.comments?.length}
 		<div>
-			<h2>User's subscriptions</h2>
+			<h2>User's Comments</h2>
 
 			{#each data.comments as comment}
 				<div class="row" style="justify-content: flex-start;">

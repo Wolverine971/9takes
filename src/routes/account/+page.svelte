@@ -41,10 +41,7 @@
 		const resp = await fetch('?/updateAccount', {
 			method: 'POST',
 			body
-		}).then(async (response) => {
-			const data = deserialize(await response.text());
-			console.log('👍');
-
+		}).then(async () => {
 			notifications.info('Account updated', 3000);
 		});
 	};
