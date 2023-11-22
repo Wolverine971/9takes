@@ -9,13 +9,19 @@ export const elasticClient = new Client({
 	// auth: { username: 'anon', password: PRIVATE_ELASTIC_GENERAL }
 });
 
-export const createESQuestion = async (body: any) => {
+export const createESQuestion = async (body: {
+	question: string;
+	author_id: string;
+	context: string;
+	url: string;
+	img_url?: string;
+}) => {
 	try {
 		const question = body.question as string;
 		const author_id = body.author_id as string;
 		const context = body.context as string;
 		const url = body.url as string;
-		const img_url = body.img_url as string;
+		// const img_url = body.img_url as string;
 
 		const date = new Date();
 		const resp = await elasticClient.index({

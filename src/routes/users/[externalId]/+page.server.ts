@@ -27,11 +27,12 @@ export const load: PageServerLoad = async (event) => {
 		console.log(subscriptionsError);
 	}
 
-
-
-	const { data: comments, error: commentsError } = await supabase.rpc('get_user_question_comments', {
-		authorid: user?.id
-	});
+	const { data: comments, error: commentsError } = await supabase.rpc(
+		'get_user_question_comments',
+		{
+			authorid: user?.id
+		}
+	);
 
 	if (commentsError) {
 		console.log(commentsError);

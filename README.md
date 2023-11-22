@@ -1,4 +1,3 @@
-
 # 9takes- Anonymous questions and answers with a touch of personality
 
 ## Find out what people think, feel and do

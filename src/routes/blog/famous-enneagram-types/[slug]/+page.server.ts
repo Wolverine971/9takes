@@ -26,8 +26,8 @@ export const load: PageServerLoad = async (event: any) => {
 			.from('blog_comments')
 			.select('id')
 			.eq('blog_link', slug)
-			.eq('fingerprint', cookie)
-			// .eq('ip', ipAddress);
+			.eq('fingerprint', cookie);
+		// .eq('ip', ipAddress);
 
 		userHasAnswered = hasCommented?.length ? true : false;
 	}

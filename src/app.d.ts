@@ -26,7 +26,6 @@ interface TakesUser extends User {
 	admin?: boolean;
 	website?: string;
 	enneagram?: string;
-
 }
 interface SbSession extends Session {
 	user?: TakesUser;

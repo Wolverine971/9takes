@@ -15,6 +15,15 @@
 
 		isDemoTime = !isDemoTime;
 	};
+
+	const reindexEverything = async () => {
+		let body = new FormData();
+
+		await fetch('?/reindexEverything', {
+			method: 'POST',
+			body
+		});
+	};
 </script>
 
 {#if data.user?.admin}
@@ -23,6 +32,10 @@
 			<a href="/admin/users">Users</a> |
 			<a href="/admin/questions">Questions</a> |
 			<a href="/admin/messages">Messages</a>
+		</div>
+
+		<div>
+			<button type="button" on:click={reindexEverything}>Reindex Elastic Search</button>
 		</div>
 
 		<div class="row">

@@ -15,11 +15,7 @@ import { checkDemoTime } from '../../utils/api';
 // export type MoviesResponseError = GETResponse['error'];
 
 /** @type {import('./$types').RequestHandler} */
-export async function GET({
-	url,
-	locals,
-	cookies
-}) {
+export async function GET({ url, locals, cookies }) {
 	try {
 		const demo_time = await checkDemoTime();
 		const cookie = cookies.get('9tfingerprint');
@@ -28,16 +24,14 @@ export async function GET({
 		const parentType = String(url.searchParams.get('type') ?? '0');
 		const range = parseInt(url.searchParams.get('range') as string) || 0;
 
-
 		const user = locals?.session?.user;
 
 		// only works for questions
-		const { data: userHasAnswered, error } = await supabase
-			.rpc('can_see_comments_2', {
-				userfingerprint: cookie,
-				questionid: parentId,
-				userid: user?.id || null
-			})
+		const { data: userHasAnswered, error } = await supabase.rpc('can_see_comments_2', {
+			userfingerprint: cookie,
+			questionid: parentId,
+			userid: user?.id || null
+		});
 
 		if (!userHasAnswered) {
 			return json({});

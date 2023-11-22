@@ -10,20 +10,16 @@ export async function POST({ request }) {
 		const { data: addedVisitor, error: addedVisitorsError } = await supabase
 			.from('visitors')
 			.upsert({ fingerprint, updated_at: new Date() }, { onConflict: 'fingerprint' })
-			.select()
+			.select();
 
 		if (addedVisitorsError) {
 			console.log(addedVisitorsError);
 		}
 
 		return json(addedVisitor);
-
 	} catch (e) {
 		throw error(400, {
 			message: `encountered error`
 		});
 	}
 }
-
-
-

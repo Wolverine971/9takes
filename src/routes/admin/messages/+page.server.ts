@@ -5,34 +5,31 @@ import { redirect, type Actions } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
-    const session = await getServerSession(event);
+	const session = await getServerSession(event);
 
-    if (!session?.user?.id) {
-        throw redirect(302, '/questions');
-    }
-    const { data: user, error: findUserError } = await supabase
-        .from('profiles')
-        .select('id, admin, external_id')
-        .eq('id', session?.user?.id)
-        .single();
+	if (!session?.user?.id) {
+		throw redirect(302, '/questions');
+	}
+	const { data: user, error: findUserError } = await supabase
+		.from('profiles')
+		.select('id, admin, external_id')
+		.eq('id', session?.user?.id)
+		.single();
 
-    if (!user?.admin || findUserError) {
-        console.log(findUserError)
-        throw redirect(307, '/questions');
-    }
+	if (!user?.admin || findUserError) {
+		console.log(findUserError);
+		throw redirect(307, '/questions');
+	}
 
-    const { data: users, error: findUsersError } = await supabase
-        .from('profiles')
-        .select('id, admin, email, external_id')
+	const { data: users, error: findUsersError } = await supabase
+		.from('profiles')
+		.select('id, admin, email, external_id');
 
-    if (findUsersError) {
-        console.log(findUsersError)
-    }
+	if (findUsersError) {
+		console.log(findUsersError);
+	}
 
-    return { session, user, users };
-
+	return { session, user, users };
 };
 
-export const actions: Actions = {
-
-};
+export const actions: Actions = {};

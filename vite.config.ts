@@ -2,10 +2,9 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
 
-const dev = process.env.NODE_ENV === 'development'
+const dev = process.env.NODE_ENV === 'development';
 
-
-let webSocketServer
+let webSocketServer;
 if (dev) {
 	webSocketServer = {
 		name: 'webSocketServer',
@@ -15,9 +14,6 @@ if (dev) {
 		}
 	};
 }
-
-
-
 
 /** @type {import('vite').UserConfig} */
 const config = {
@@ -34,8 +30,6 @@ const config = {
 		'import.meta.env.PRIVATE_DEMO': process.env.PRIVATE_DEMO === 'true',
 		'import.meta.env.PRIVATE_WEBHOOK_AUTH': process.env.PRIVATE_WEBHOOK_AUTH,
 		'import.meta.env.VITE_UNSECURE_SECRET': process.env.VITE_UNSECURE_SECRET
-
-
 	},
 	test: {
 		include: [

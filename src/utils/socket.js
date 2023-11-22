@@ -24,4 +24,6 @@ export default function injectSocketIO(server) {
 			socket.broadcast.emit(to, msg, meta);
 		});
 	});
+
+	console.log('SocketIO injected');
 }
