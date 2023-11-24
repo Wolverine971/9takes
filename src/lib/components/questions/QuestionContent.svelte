@@ -147,6 +147,13 @@
 		_data.comment_count = data.length;
 	};
 
+	const scrollToSection = (sectionId: string) => {
+		const section = document.getElementById(sectionId);
+		if (section) {
+			section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+		}
+	};
+
 	onMount(() => {
 		window.addEventListener('scroll', calculateHeightsAndSetClasses);
 	});
@@ -172,7 +179,11 @@
 			<a
 				href="#comments"
 				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
-				on:click={() => (selectedTab = 'comments')}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'visuals';
+					scrollToSection('comments');
+				}}
 				style:--tag={`a-comment${data.id}`}
 			>
 				<span style="text-wrap: nowrap" itemprop="answerCount">
@@ -185,14 +196,22 @@
 			<a
 				href="#visuals"
 				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
-				on:click={() => (selectedTab = 'visuals')}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'visuals';
+					scrollToSection('visuals');
+				}}
 			>
 				Visuals
 			</a>
 			<a
 				href="#articles"
 				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
-				on:click={() => (selectedTab = 'articles')}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'articles';
+					scrollToSection('articles');
+				}}
 			>
 				Articles
 			</a>
@@ -205,6 +224,11 @@
 				align-items: center;"
 				on:click={() => (selectedTab = 'comments')}
 				style:--tag={`a-comment${data.id}`}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'visuals';
+					scrollToSection('comments');
+				}}
 			>
 				{#if selectedTab === 'comments'}
 					<span style="text-align: center; text-wrap: nowrap; margin-right: 0.5rem;"
@@ -223,7 +247,11 @@
 			<a
 				href="#visuals"
 				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
-				on:click={() => (selectedTab = 'visuals')}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'visuals';
+					scrollToSection('visuals');
+				}}
 			>
 				<CameraIcon
 					iconStyle={''}
@@ -237,7 +265,11 @@
 			<a
 				href="#articles"
 				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
-				on:click={() => (selectedTab = 'articles')}
+				on:click={(e) => {
+					e.preventDefault();
+					selectedTab = 'visuals';
+					scrollToSection('articles');
+				}}
 			>
 				<PostIcon
 					iconStyle={''}
@@ -250,28 +282,18 @@
 			</a>
 		{/if}
 	</div>
-	<div
-		class="slides"
-		on:scroll={() => {
-			if (isInViewport(document.getElementById('comments'))) {
-				const isInView = (selectedTab = 'comments');
-				return;
-			} else if (isInViewport(document.getElementById('articles'))) {
-				const isInView = isInViewport(document.getElementById('articles'));
-				selectedTab = 'articles';
-				return;
-			} else if (isInViewport(document.getElementById('visuals'))) {
-				const isInView = isInViewport(document.getElementById('visuals'));
-				selectedTab = 'visuals';
-				return;
-			}
-		}}
-	>
+	<div class="slides">
 		<div
 			class="flexr {selectedTab === 'comments' && 'first'} container-js"
 			id="comments"
 			bind:this={commentContainerElement}
 		>
+			<SortComments
+				{data}
+				on:commentsSorted={({ detail }) => sortComments(detail)}
+				size={'large'}
+			/>
+
 			<Card style="padding: .5rem; border: none; min-height: 100vh;">
 				{#if innerWidth > 575 && _data.comments.length >= 5}
 					<h3
@@ -291,13 +313,12 @@
 						</p>
 					</h3>
 				{/if}
-				{#if data?.flags?.userHasAnswered}
-					<SortComments {data} on:commentsSorted={({ detail }) => sortComments(detail)} />
-				{:else}
+
+				{#if !data?.flags?.userHasAnswered}
 					<span class="helper-suggestion">
 						{_data.comment_count === 0
 							? 'Be the first to answer the question!'
-							: 'Must answer question first before you can see the other comments'}
+							: 'Must answer question before seeing the comments'}
 					</span>
 				{/if}
 				<div style="padding: .5rem; border: none;">

@@ -145,6 +145,7 @@ input,
 button {
 	font-family: inherit;
 	font-size: inherit;
+	background-color: transparent;
 }
 
 button:focus:not(.focus-visible) {

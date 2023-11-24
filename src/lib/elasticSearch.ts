@@ -50,6 +50,27 @@ export const createESQuestion = async (body: {
 	}
 };
 
+export const deleteESQuestion = async (body: {
+	questionId: string;
+}) => {
+	try {
+		const questionId = body.questionId as string;
+
+		const resp = await elasticClient.delete({
+			index: 'question',
+			id: questionId,
+		});
+
+		if (resp) {
+			return resp;
+		} else {
+			return { success: false };
+		}
+	} catch (e) {
+		console.log(e);
+	}
+};
+
 export const addESQuestionLike = async ({
 	questionId,
 	operation
@@ -85,9 +106,8 @@ export const addESSubscription = async ({
 			id: questionId,
 			body: {
 				script: {
-					source: `${
-						operation === 'add' ? 'ctx._source.subscriptions++' : 'ctx._source.subscriptions--'
-					}`
+					source: `${operation === 'add' ? 'ctx._source.subscriptions++' : 'ctx._source.subscriptions--'
+						}`
 				}
 			}
 		});

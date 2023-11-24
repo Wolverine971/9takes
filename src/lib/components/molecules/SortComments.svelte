@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
 	import MultiSelect from 'svelte-multiselect';
-	import FilterListIcon from '$lib/components/icons/filterListIcon.svelte';
+	// import FilterListIcon from '$lib/components/icons/filterListIcon.svelte';
+	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
+
 	import { notifications } from '$lib/components/molecules/notifications.js';
 
 	import { createEventDispatcher } from 'svelte';
@@ -9,6 +11,7 @@
 	const dispatch = createEventDispatcher();
 
 	export let data: any;
+	export let size: string = 'large';
 
 	$: data, watchData();
 
@@ -45,36 +48,55 @@
 </script>
 
 <svelte:window bind:innerWidth />
+{#if size === 'large'}
+	<button
+		type="button"
+		class="btn btn-primary details-display"
+		on:click={() => {
+			open = !open;
+			if (open) getModal('sorter').open();
+			else getModal('sorter').close();
+		}}
+	>
+		<div class="summary-display">
+			<SlidersIcon
+				iconStyle={'padding: 0.25rem; margin: .5rem'}
+				height={'1.5rem'}
+				fill={open ? '#5407d9' : ''}
+			/>
 
-<button
-	type="button"
-	class="details-display"
-	on:click={() => {
-		open = !open;
-		if (open) getModal('sorter').open();
-		else getModal('sorter').close();
-	}}
->
-	<div class="summary-display">
-		<FilterListIcon
+			Filter Comments
+		</div>
+	</button>
+{:else}
+	<button
+		type="button"
+		class="btn btn-primary"
+		on:click={() => {
+			open = !open;
+			if (open) getModal('sorter').open();
+			else getModal('sorter').close();
+		}}
+	>
+		<SlidersIcon
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
 			fill={open ? '#5407d9' : ''}
 		/>
-
-		Filter
-	</div>
-</button>
+	</button>
+{/if}
 
 <Modal2 id="sorter">
-	<div style="margin: 2rem;">
+	<div style="margin: 2rem; min-width: 40vw">
 		<MultiSelect bind:selected options={typeOptions} />
+		<br />
 		<br />
 		<button
 			type="button"
 			value="Sort"
+			style="float: right;"
 			on:click={sort}
-			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''}">Sort</button
+			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''} btn btn-primary">Sort</button
 		>
 	</div>
 </Modal2>

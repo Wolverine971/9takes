@@ -1,6 +1,6 @@
 // import type { PostgrestResponse } from '@supabase/supabase-js';
 import { error, redirect } from '@sveltejs/kit';
-import { elasticClient } from '$lib/elasticSearch';
+import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';
@@ -271,6 +271,16 @@ export const actions: Actions = {
 				.eq('id', questionId);
 
 			if (!removeQuestionError) {
+				const { data: question } = await supabase
+					.from(demo_time === true ? 'questions_demo' : 'questions')
+					.select('*')
+					.eq('id', questionId)
+					.single()
+
+				if (question) {
+					await deleteESQuestion({ questionId: question.es_id.toString() })
+				}
+
 				return true;
 			} else {
 				throw error(500, {

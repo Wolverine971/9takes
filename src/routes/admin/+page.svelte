@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -19,10 +21,11 @@
 	const reindexEverything = async () => {
 		let body = new FormData();
 
-		await fetch('?/reindexEverything', {
+		const resp = await fetch('?/reindexEverything', {
 			method: 'POST',
 			body
 		});
+		notifications.info('Reindexed Questions', 3000);
 	};
 </script>
 
@@ -34,20 +37,26 @@
 			<a href="/admin/messages">Messages</a>
 		</div>
 
-		<div>
-			<button type="button" on:click={reindexEverything}>Reindex Elastic Search</button>
-		</div>
-
 		<div class="row">
 			<h2>Is Demo Time: {isDemoTime}</h2>
 			<button
 				type="button"
+				class="btn btn-primary"
 				on:click={() => {
 					changeDemoTime();
 				}}
 			>
 				Update
 			</button>
+			<div>
+				<button
+					type="button"
+					class="btn btn-primary"
+					on:click={() => {
+						getModal('confirmReindex').open();
+					}}>Reindex Elastic Search</button
+				>
+			</div>
 		</div>
 	</div>
 {:else}
@@ -55,6 +64,12 @@
 		<h1>Error</h1>
 	</div>
 {/if}
+
+<Modal2 id="confirmReindex">
+	<h1>Reindex elastic</h1>
+	Are you sure?
+	<button type="button" class="btn btn-primary" on:click={reindexEverything}>yes</button>
+</Modal2>
 
 <style lang="scss">
 	h1 {

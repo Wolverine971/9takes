@@ -92,7 +92,6 @@ export const actions: Actions = {
 						context: question.context,
 						url: question.url,
 						img_url: question.img_url,
-						id: question.id
 					});
 
 					if (resp?._id) {
@@ -110,6 +109,7 @@ export const actions: Actions = {
 						}
 					}
 				}
+				return { success: true };
 			}
 		} catch (e) {
 			throw error(400, {
