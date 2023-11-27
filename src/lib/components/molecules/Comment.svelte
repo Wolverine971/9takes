@@ -176,7 +176,7 @@
 
 <svelte:window bind:innerWidth />
 
-<Card style="margin: .5rem 0; padding: .5rem;">
+<Card style="margin: .5rem 0; padding: .5rem; border: 1px solid black">
 	{#if innerWidth > 500}
 		<div class="comment-meta">
 			<span style="min-width:30px"

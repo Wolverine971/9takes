@@ -49,9 +49,11 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.pretty-div {
-		margin: 1rem;
-		padding: 1rem;
+	@media (width > 500px) {
+		.pretty-div {
+			margin: 1rem;
+			padding: 1rem;
+		}
 	}
 	.scrollable-div {
 		max-height: 100vh;

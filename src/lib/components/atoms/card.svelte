@@ -14,6 +14,5 @@
 
 		border-radius: var(--border-radius);
 		background: var(--card-background-color);
-		box-shadow: var(--card-box-shadow);
 	}
 </style>

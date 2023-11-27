@@ -80,11 +80,30 @@
 	<!-- <p>Count {data.count}</p> -->
 
 	<!-- <QuestionTags /> -->
+
+	<div class="question-category-div">
+		<h2 style="margin-top: 0;">Question categories</h2>
+		<div class="big-tags">
+			{#each data.subcategoryTags as category}
+				{#if category}
+					<!-- <div>
+				<h3 id={category.subcategory_name}>{category.subcategory_name}</h3>
+				<div>
+					{#each categories[category.subcategory_name] as questionData} -->
+					<a href="#{category.tag_name}" class="tag">{category.tag_name} </a>
+					<!-- {/each} -->
+					<!-- </div>
+			</div> -->
+				{/if}
+			{/each}
+		</div>
+	</div>
+
 	{#if categories}
 		{#each data.subcategoryTags as category}
 			{#if categories[category.tag_name]?.length}
 				<div>
-					<h3>{category.tag_name}</h3>
+					<h3 id={category.tag_name}>{category.tag_name}</h3>
 					<div>
 						{#each categories[category.tag_name] as questionData}
 							<QuestionItem
@@ -100,4 +119,42 @@
 </div>
 
 <style lang="scss">
+	.question-category-div {
+		margin: 1rem 0;
+		padding: 1rem;
+		// border: 1px solid var(--color-p-light);
+		border: var(--classic-border);
+		border-radius: 5px;
+	}
+	.tags-div {
+		margin: 0.5rem;
+		padding: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		max-height: 100px;
+		overflow-y: scroll;
+	}
+	.big-tags {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 800px;
+		max-height: 500px;
+		overflow-y: scroll;
+	}
+
+	.tag {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		font-size: 0.8rem;
+		margin: 0.25rem;
+		padding: 0.25rem;
+		border: var(--classic-border);
+		width: fit-content;
+		cursor: pointer;
+		&:hover {
+			background-color: var(--color-paladin-1);
+		}
+	}
 </style>

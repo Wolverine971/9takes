@@ -75,7 +75,7 @@
 <div style="display: flex; justify-content: center; align-items: center;">
 	<div class="question-card">
 		<a href="/questions/{questionData.url}" class="top-right">Go to</a>
-		<div style="width: 60%;">
+		<div>
 			<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 				<b>Original:</b>
 				{questionData.question}
@@ -86,7 +86,8 @@
 					{questionData.question_formatted}
 				{/if}
 			</p>
-
+		</div>
+		<div style="display: flex;">
 			<div class="small-div">
 				<span class="comment-span-display">
 					{#if questionData.comment_count}
@@ -103,8 +104,6 @@
 					{newDate}
 				</span>
 			</div>
-		</div>
-		<div>
 			<div class="small-div">
 				<span class="">
 					Flagged: {questionData.flagged}
@@ -304,7 +303,7 @@
 	}
 
 	.question-display {
-		word-break: break-word;
+		word-break: normal;
 		display: flex;
 		align-items: center;
 		text-wrap: balance;
@@ -390,14 +389,16 @@
 
 	.small-div {
 		display: flex;
-		gap: 10px;
+		gap: 1rem;
 		align-items: center;
+		margin: 0 1rem;
 	}
 	.question-card {
 		width: 100%;
 		display: flex;
+		flex-direction: column;
 		gap: 1rem;
-		align-items: center;
+		align-items: flex-start;
 		overflow: hidden;
 		position: relative;
 		margin: var(--card-margin);
@@ -425,8 +426,10 @@
 			width: 20%;
 		}
 		.question-display {
-			width: 80%;
+			width: 90%;
 			margin: 0;
+			word-break: break-word;
+			display: block;
 		}
 		.question-card {
 			margin: 0.5rem;
