@@ -17,28 +17,28 @@ pic: 'greek-statue-having-a-disagreement'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as we know, love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight, but how and when you will fight and what you will fight about. This guide aims to be your go-to resource for navigating relationship conflicts. We'll delve into common pitfalls, prevention tips, and practical steps to turn disagreements into opportunities for growth.</p>
+<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as we know, love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight but how, when, and what you will fight about. This guide aims to be your go-to resource for navigating relationship conflicts. We'll delve into common pitfalls, prevention tips, and practical steps to turn disagreements into opportunities for growth.</p>
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
-	<PopCard
-		image={`/blogs/greek-statue-having-a-disagreement.webp`}
-		showIcon={false}
-		displayText=""
-    altText="two greek statues looking at each other"
-		subtext=""
-	/>
+  <PopCard
+    image={`/blogs/greek-statue-having-a-disagreement.webp`}
+    showIcon={false}
+    displayText=""
+    altText="two Greek statues looking at each other."
+    subtext=""
+  />
 </div>
 
 ## The Importance of Conflict Management
 
-### Is conflict bad? No
+### Is Conflict bad? No
 
-First things first, conflict is not necessarily a bad thing. It has been said that conflict is growth trying to happen. So try to frame it that way when you bump into it next time. It can be an opportunity for growth and understanding. However, how you manage conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, author of several books on successful relationships, your conflict style can either erode trust or build a stronger bond between you and your partner.
+First things first, Conflict is necessarily a good thing. It has been said that Conflict is growth trying to happen. So try to frame it that way when you bump into it next time. It can be an opportunity for growth and understanding. However, how you manage Conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, author of several successful relations books, says your conflict style can erode trust or build a stronger bond between you and your partner.
 
 Gotman talks about
 
@@ -83,57 +83,57 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
   </figcaption>
 </figure>
 
-Now that we have identified some of the pitfalls. Lets get into how to fight well.
+Now that we have identified some of the pitfalls. Let's get into how to fight well.
 
 
 ## The Art of Fighting Fair
 
 ### Focus on the Issue, Not the Person
 
-The issue is not your partner or the person you are fighting. The issue is how the situation is being handled. You and the person you are fighting with have alot in common. Find the common ground and cast a vision for how can both 
-If the situation was handled differently you would not be fighting.
+The issue is not your partner or the person you are fighting. The problem is how the situation is being handled. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done. 
+If the situation were handled differently, you would not be fighting.
 
 Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
 
 ### Effective Communication
 
-Communication is the cornerstone of resolving disagreements. One couple in a coffee shop argued about going to dinner with friends. One partner said, "It's never fun—you said so yourself last time," while the other responded sarcastically. The other couple, however, communicated their feelings and found a compromise3.
+Communication is the cornerstone of resolving disagreements. One couple in a coffee shop argued about going to dinner with friends. One partner said, "It's never fun—you said so yourself last time," while the other responded sarcastically. The other couple, however, communicated their feelings and found a compromise.
 
 ### Turn Conflict into Opportunity
 
-Conflicts are opportunities for you and your partner to align on values and outcomes. They are chances to understand, appreciate, and embrace differences3.
+Conflicts are opportunities for you and your partner to align on values and outcomes. They are chances to understand, appreciate, and embrace differences.
 
 <!-- >Interested in improving your communication skills?
 >Read our blog on Effective Communication in Relationships. -->
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
-	<PopCard
-		image={`/blogs/male_and_female_greek_statues.webp`}
-		showIcon={false}
-		displayText="Stonewalling?"
-    altText="two greek statues in a standoff"
-		subtext=""
-	/>
+  <PopCard
+    image={`/blogs/male_and_female_greek_statues.webp`}
+    showIcon={false}
+    displayText="Stonewalling?"
+    altText="two Greek statues in a standoff."
+    subtext=""
+  />
 </div>
 
 ## Practical Steps for Conflict Resolution
 
 ### Step 1: Self-Examination
 
-Before diving into the conflict, examine your focus. Are you focused on building a beautiful, passionate relationship, or are you focused on defending yourself? Your focus determines the direction of your relationship4.
+Before diving into the Conflict, examine your focus. Are you focused on building a beautiful, passionate relationship, or are you focused on defending yourself? Your focus determines the direction of your relationship.
 
 ### Step 2: Open Dialogue
 
-Open and honest communication is crucial. Avoid blame games and focus on understanding each other's perspectives1.
+Open and honest communication is crucial. Avoid blame games and focus on understanding each other's perspectives.
 
 ### Step 3: Seek to Understand
 
-Put yourself in your partner's shoes. Try to understand their feelings, needs, and viewpoints1.
+Put yourself in your partner's shoes. Try to understand their feelings, needs, and viewpoints.
 
 ### Step 4: Find Common Ground
 
@@ -144,9 +144,9 @@ Identify shared goals and values. This common ground will serve as the <a class=
 
 ## Conclusion
 
-Conflict in relationships is inevitable, but it doesn't have to be destructive. By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. Remember, the goal isn't to win the argument but to strengthen the relationship.
+Relationship conflict is inevitable, but it doesn't have to be destructive. By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. Remember, the goal isn't to win the argument but to strengthen the relationship.
 
-I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding conflict.
+I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding Conflict.
 
 ### Footnotes/ References
 
@@ -218,7 +218,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage conflict can make or break your relationship."
+            "text": "Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage Conflict can make or break your relationship."
           },
           "name": "Why is conflict management crucial in relationships?"
         },
