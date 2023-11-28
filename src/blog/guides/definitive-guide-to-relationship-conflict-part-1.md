@@ -4,7 +4,7 @@ description: 'Navigate relationship conflict with this guide. Learn to avoid com
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
-lastmod: '2023-08-24'
+lastmod: '2023-11-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,7 +17,7 @@ pic: 'greek-statue-having-a-disagreement'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But let's be real: love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight, but how you'll fight. This guide aims to be your go-to resource for navigating relationship conflicts effectively. We'll delve into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth. So, let's get started.</p>
+<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as we know, love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight, but how and when you will fight and what you will fight about. This guide aims to be your go-to resource for navigating relationship conflicts. We'll delve into common pitfalls, prevention tips, and practical steps to turn disagreements into opportunities for growth.</p>
 
 <div
 	style="display: flex;
@@ -38,32 +38,73 @@ pic: 'greek-statue-having-a-disagreement'
 
 ### Is conflict bad? No
 
-Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, renowned relationship expert, your conflict style can either erode trust or build a stronger bond between you and your partner1.
+First things first, conflict is not necessarily a bad thing. It has been said that conflict is growth trying to happen. So try to frame it that way when you bump into it next time. It can be an opportunity for growth and understanding. However, how you manage conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, author of several books on successful relationships, your conflict style can either erode trust or build a stronger bond between you and your partner.
+
+Gotman talks about
 
 ## The Four Horsemen: Conflict Styles to Avoid
 
 ### What are the Four Horsemen?
 
-Dr. John Gottman identifies <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four conflict styles that can hurt your relationship</a>: criticism, contempt, defensiveness, and stonewalling. These styles can rip at the very fabric of your relationship if not addressed.
+Dr. John Gottman talks about <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a>. He calls them the four horsemen. The four pitfalls are criticism, contempt, defensiveness, and stonewalling. These pitfalls or tendencies can rip at the very fabric of your relationship if not addressed.
 
-### Criticism
+#### Criticism
 
 Criticism involves attacking your partner's character. Phrases like "You never help around here" or "Why can't you be more thoughtful?" are examples of criticism.
 
-### Contempt
+#### Contempt
 
 Contempt is when you're disrespectful and purposely hurtful. This includes name-calling, mocking, and other harmful forms of communication.
 
-### Defensiveness
+#### Defensiveness
 
 Defensiveness signals to your partner that their concerns don't matter. It comes off as self-centered and dismissive.
 
-### Stonewalling
+#### Stonewalling
 
 Stonewalling involves shutting down and refusing to engage with your partner. This can be a natural response to feeling overwhelmed but is harmful in the long run.
 
 <!-- > Want to learn more about these conflict styles?
 > Check out our blog on Understanding the Four Horsemen. -->
+
+### What are the antidotes?
+
+<figure style="display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0">
+  <img src="/blogs/The-Four-Horsemen-Social.webp" alt="the antidotes for the four horsemen" style="width: clamp(200px, 500px, 100%);" />
+  <figcaption>
+  <cite>
+  the antidotes for the Four Horsemen
+  <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/the-four-horsemen-the-antidotes/" > from the Gottman Institute
+  </a>
+  </cite>
+  </figcaption>
+</figure>
+
+Now that we have identified some of the pitfalls. Lets get into how to fight well.
+
+
+## The Art of Fighting Fair
+
+### Focus on the Issue, Not the Person
+
+The issue is not your partner or the person you are fighting. The issue is how the situation is being handled. You and the person you are fighting with have alot in common. Find the common ground and cast a vision for how can both 
+If the situation was handled differently you would not be fighting.
+
+Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
+
+### Effective Communication
+
+Communication is the cornerstone of resolving disagreements. One couple in a coffee shop argued about going to dinner with friends. One partner said, "It's never fun—you said so yourself last time," while the other responded sarcastically. The other couple, however, communicated their feelings and found a compromise3.
+
+### Turn Conflict into Opportunity
+
+Conflicts are opportunities for you and your partner to align on values and outcomes. They are chances to understand, appreciate, and embrace differences3.
+
+<!-- >Interested in improving your communication skills?
+>Read our blog on Effective Communication in Relationships. -->
 
 <div
 	style="display: flex;
@@ -79,25 +120,6 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
 		subtext=""
 	/>
 </div>
-
-## The Art of Fighting Fair
-
-### Focus on the Issue, Not the Person
-
-The issue is not your partner or the person you are fighting. The issue is how the situation is being handled. If the situation was handled differently you would not be fighting.
-
-Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
-
-### Effective Communication
-
-Communication is the cornerstone of resolving disagreements. One couple in a coffee shop argued about going to dinner with friends. One partner said, "It's never fun—you said so yourself last time," while the other responded sarcastically. The other couple, however, communicated their feelings and found a compromise3.
-
-### Turn Conflict into Opportunity
-
-Conflicts are opportunities for you and your partner to align on values and outcomes. They are chances to understand, appreciate, and embrace differences3.
-
-<!-- >Interested in improving your communication skills?
->Read our blog on Effective Communication in Relationships. -->
 
 ## Practical Steps for Conflict Resolution
 

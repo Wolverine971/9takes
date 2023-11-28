@@ -275,10 +275,10 @@ export const actions: Actions = {
 					.from(demo_time === true ? 'questions_demo' : 'questions')
 					.select('*')
 					.eq('id', questionId)
-					.single()
+					.single();
 
 				if (question) {
-					await deleteESQuestion({ questionId: question.es_id.toString() })
+					await deleteESQuestion({ questionId: question.es_id.toString() });
 				}
 
 				return true;

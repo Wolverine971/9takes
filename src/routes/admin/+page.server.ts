@@ -91,7 +91,7 @@ export const actions: Actions = {
 						author_id: question.author_id,
 						context: question.context,
 						url: question.url,
-						img_url: question.img_url,
+						img_url: question.img_url
 					});
 
 					if (resp?._id) {
