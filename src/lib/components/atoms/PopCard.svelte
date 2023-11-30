@@ -155,7 +155,7 @@
 			showDescription &&
 			enneagramType &&
 			'tint'}"
-		style={showDescription ? 'filter: invert !important;' : ''}
+		style={showDescription ? 'opacity: .1 !important;' : ''}
 		src={image}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
@@ -321,17 +321,16 @@
 		top: 0px;
 		background-size: 300%;
 		background-position: 0% 0%;
-		-webkit-transition: opacity 1s ease-in-out;
-		-moz-transition: opacity 1s ease-in-out;
-		-o-transition: opacity 1s ease-in-out;
-		transition: opacity 1s ease-in-out;
+		-webkit-transition: opacity 0.5s ease-in-out;
+		-moz-transition: opacity 0.5s ease-in-out;
+		-o-transition: opacity 0.5s ease-in-out;
+		transition: opacity 0.5s ease-in-out;
 		object-fit: cover;
 		/* animation: pan-image 15s linear infinite; */
 	}
 
 	.tint {
-		filter: invert(1);
-		opacity: 0.6;
+		opacity: 0.1;
 	}
 
 	.pop-card > .pop-card-content {

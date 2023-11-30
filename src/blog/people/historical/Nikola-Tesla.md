@@ -4,7 +4,7 @@ description: 'Why Nikola Tesla appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-09-03'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Nikola-Tesla'
-lastmod: '2023-09-03'
+lastmod: '2023-11-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -60,41 +60,43 @@ tiktok: ''
 
 ## The Early Years: A Different Kind of Child
 
-Nikola Tesla was born into a world that didn't quite understand him. His father was a priest, and his mother, although uneducated, was a fountain of wisdom. You might wonder, what sets a Type 4 child apart? Well, they're often introspective and emotionally intense. Young Tesla was no different. He had a photographic memory and a love for poetry, signs of a mind that was both analytical and deeply emotional.
+Nikola Tesla was born into a world that didn't quite understand him. His father was a priest, and his mother, although uneducated, was a fountain of wisdom. She invented various tools around the house and made clothes for everyone in her home. In fact <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.plitvicetimes.com/teslas-mother-georgina-duka-tesla/">Nikola called his mom a first-class inventor</a> and credited her for his gift of "discovery." His father had a library in which Nikola immersed himself; however <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.pbs.org/tesla/ll/ll_early.html" >as Nikola grew, his father pressured him to become a priest</a>. When Nikola was 17, he contracted cholera, and it was so bad that his father said that if he survived, he would be allowed to study engineering, which was Nikola's dream. Nikola survived, and when he entered the engineering world, he was primed by studying long hours and developing inventions. He already showed signs that he was comfortable going against the grain. 
+
+Enneagram Type 4s, known for their introspective nature and emotional intensity, often grapple with internal conflicts. Imagine Tesla struggling with the emotional turmoil of his situation: his brilliant mother relegated to housework, and his father imposing expectations on him. This tension heightened his awareness of the societal pressure to conform. Observing his mother forced into a role that didn’t suit her and feeling his father's push towards a path he resisted drove Nikola to seek refuge in books and intellectual pursuits. In these spaces, he could forge a new identity separate from the familial and societal molds he felt pressured to fit into.
 
 ## The Spark: Tesla's Educational Journey
 
-When Nikola Tesla entered the lecture hall at the Technical University in Graz, Austria, he was captivated by the Gramme dynamo displayed at the front. For many, it was just another piece of machinery, but for Tesla, it was a revelation that ignited a lifelong obsession with electricity. This wasn't just a scientific endeavor for him; it was a personal quest.
+When Nikola Tesla entered the lecture hall at the Technical University in Graz, Austria, he was captivated by the Gramme dynamo displayed at the front. For many, it was just another piece of machinery, but for Tesla, it was a revelation that ignited a lifelong obsession with electricity. This wasn't just a scientific endeavor for him but a personal quest.
 
 His professors, confined by traditional theories, couldn't grasp the radical changes Tesla envisioned. Yet, their skepticism only fueled his Type 4 drive for innovation and individuality. Feeling misunderstood, Tesla sought a place that could accommodate his unique vision. He moved to Paris and eventually to America, not merely as geographical transitions but as steps in a pilgrimage for intellectual and emotional fulfillment.
 
-In essence, Tesla's journey from Graz to the New World was propelled by a deep emotional and intellectual connection to his work, a hallmark of his Enneagram Type 4 personality.
+Tesla's journey from Graz to the New World was propelled by a deep emotional and intellectual connection to his work, a hallmark of his Enneagram Type 4 personality.
 
 ## The Struggles: Tesla vs. The World
 
-Nikola Tesla found himself in a world that seemed to be against him at every turn. The most glaring example was his rivalry with Thomas Edison, the champion of direct current (DC). Tesla, a fervent believer in the potential of alternating current (AC), was often dismissed as a dreamer. The debate between AC and DC wasn't just a scientific disagreement; it was a battle for the future of electricity itself.
+Nikola Tesla found himself in a world that seemed against him at every turn. The most glaring example was his rivalry with Thomas Edison, the champion of direct current (DC). Tesla, a fervent believer in the potential of alternating current (AC), was often dismissed as a dreamer. The debate between AC and DC wasn't just a scientific disagreement; it was a battle for the future of electricity itself.
 
-Tesla faced not only professional challenges but also financial instability and public skepticism. Yet, his resilience was extraordinary. Driven by Type 4's emotional intensity and need for individuality, Tesla continued to innovate, even when the odds seemed insurmountable. His emotional turmoil was both a curse and a blessing. It caused him distress but also fueled his relentless pursuit to make a mark on the world.
+Tesla faced not only professional challenges but also financial instability and public skepticism. Yet, his resilience was extraordinary. Driven by Type 4's emotional intensity and need for individuality, Tesla continued to innovate, even when the odds seemed insurmountable. His emotional turmoil was both a curse and a blessing. It caused him distress but fueled his relentless pursuit to make a mark on the world.
 
 ## The Triumphs: A Light in the Darkness
 
 Nikola Tesla's rise to fame was a beacon in his life, illuminating the dark corners of his emotional struggles. When his alternating-current (AC) system finally won over Edison's direct current, Tesla became a household name. The 1893 World's Columbian Exposition in Chicago, where Tesla's AC system was the star, marked a turning point. He was no longer just a scientist but a celebrity.
 
-The spotlight seemed to bring him a sense of validation, but it was a double-edged sword. Tesla was a deeply private man, and fame brought scrutiny he wasn't comfortable with. Yet, contemporaries like George Westinghouse praised him as a "pioneer," reinforcing his belief that he was changing the world.
+The spotlight seemed to bring him a sense of validation, but it was a double-edged sword. Tesla was an intensely private man, and fame brought scrutiny he wasn't comfortable with. Yet, contemporaries like George Westinghouse praised him as a "pioneer," reinforcing his belief that he was changing the world.
 
 This wasn't just professional success; it was personal vindication. Tesla, often seen as commercially out-of-touch and vulnerable, had proven his naysayers wrong. His emotional landscape, so often turbulent, found some solace in these triumphs.
 
 ## The Man Behind the Inventions: Emotional Depth and Creativity
 
-Nikola Tesla was more than an inventor; he was a visionary. His emotional depth and creative spirit, hallmarks of his Enneagram Type 4 personality, allowed him to see a future that others couldn't even begin to imagine. Feeling inherently different from those around him, Tesla was free to think and dream in ways that defied the norm.
+Nikola Tesla was more than an inventor; he was a visionary. His emotional depth and creative spirit, hallmarks of his Enneagram Type 4 personality, allowed him to see a future that others couldn't imagine. Feeling inherently different from those around him, Tesla was free to think and dream in ways that defied the norm.
 
-His groundbreaking inventions, from the Tesla Coil to his audacious theories on wireless energy, were not just feats of engineering but expressions of his emotional and intellectual complexity. He envisioned a world where energy could be transmitted wirelessly, a concept so ahead of its time that it still captures our imagination today.
+His groundbreaking inventions, from the Tesla Coil to his audacious theories on wireless energy, were not just feats of engineering but expressions of his emotional and intellectual complexity. He envisioned a world where power could be transmitted wirelessly, a concept so ahead of time that it still captures our imagination today.
 
-This legacy of innovation and vision didn't just stop with him. <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk's</a> Tesla Inc. was inspired by and named after Nikola Tesla, aiming to continue his work of challenging conventional wisdom and pushing technological boundaries. In this way, Tesla's emotional and creative richness continues to inspire and shape the future.
+This legacy of innovation and vision didn't just stop with him. <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk's</a> Tesla Inc. was inspired by and named after Nikola Tesla, aiming to continue his work of challenging conventional wisdom and pushing technological boundaries. In this way, Tesla's emotional and creative richness inspires and shapes the future.
 
 ## The Final Years: A Life Well Lived
 
-In his later years, Nikola Tesla remained a dreamer, even as public perception shifted from pioneer to eccentric recluse. This change likely resonated with his emotionally intense Type 4 personality. Despite waning public interest, Tesla's passion never dimmed. He spent his final years in a New York hotel room, still engrossed in projects and feeding pigeons from his window. Friends noted his unwavering commitment to his work.
+Nikola Tesla remained a dreamer in his later years, even as public perception shifted from pioneer to eccentric recluse. This change likely resonated with his emotionally intense Type 4 personality. Despite waning public interest, Tesla's passion never dimmed. He spent his final years in a New York hotel room, still engrossed in projects and feeding pigeons from his window. Friends noted his unwavering commitment to his work.
 
 Reflecting on his life, Tesla may have felt a blend of pride and unfulfilled dreams. While not all his visions materialized, his impact was undeniable. His emotional depth and creativity left an indelible mark on the world, ensuring his legacy would endure.
 

@@ -43,7 +43,7 @@
 	<title>9takes Home Page</title>
 	<meta
 		name="description"
-		content="9takes- Anonymous questions and answers based on personality. Find out what people think, feel, and do."
+		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"
 	/>
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.webp" />
 	<link rel="canonical" href="https://9takes.com" />

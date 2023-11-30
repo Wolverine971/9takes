@@ -55,8 +55,8 @@ Rate limit API when questions go live
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "paint-transpo.jpeg" -o "paint-transpo.webp"
-cwebp -sns 70 -f 50 -size 20000 "paint-transpo.webp" -o "/Users/djwayne/Downloads/s-paint-transpo.webp"
+cwebp "bee-BOP.png" -o "bee-BOP.webp"
+cwebp -sns 70 -f 50 -size 20000 "bee-BOP.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-bee-BOP.webp"
 
 ### fix image size
 
