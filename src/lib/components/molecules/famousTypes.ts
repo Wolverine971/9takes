@@ -26,7 +26,6 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Kim-Kardashian', link: true },
 		{ name: 'Arnold-Schwarzenegger', link: true },
 		{ name: 'Ariana-Grande', link: true },
-		{ name: 'Meghan-Markle', link: true },
 		{ name: 'Dua-Lipa', link: true },
 		{ name: 'Nancy-Pelosi', link: true },
 		{ name: 'Taylor-Swift', link: true },

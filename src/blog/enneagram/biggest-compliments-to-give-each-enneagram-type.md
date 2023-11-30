@@ -4,7 +4,7 @@ description: 'Explore the ultimate compliments for each Enneagram type, delving 
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2023-09-04'
+lastmod: '2023-11-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,7 +39,7 @@ pic: 'greek-statue-yeah-boi'
 
 <article class="section-content">
 
-### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
+<h3>Type 1- The Perfectionist</h3>
 
 An innate desire for perfection and righteousness drives type 1 individuals. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
 
@@ -64,7 +64,7 @@ An innate desire for perfection and righteousness drives type 1 individuals. Rec
 
 <article class="section-content">
 
-### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
+<h3>Type 2- The Helper</h3>
 
 Type 2 personalities thrive on love and appreciation. They long to feel needed. By acknowledging their genuine concern and kindness, you mirror back the love they constantly radiate.
 
@@ -89,7 +89,7 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 
 <article class="section-content">
 
-### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
+<h3>Type 3- The Achiever</h3>
 
 Type 3 individuals are goal-oriented powerhouses. They yearn for success and validation. Praising their accomplishments and efficiency resonates deeply with their ambitious spirit.
 
@@ -130,7 +130,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 
 <article class="section-content">
 
-### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
+<h3>Type 4- The Individualist</h3>
 
 Type 4 personalities cherish their individuality. Celebrating their uniqueness and emotional richness validates their constant search for identity and meaning.
 
@@ -155,7 +155,7 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 
 <article class="section-content">
 
-### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
+<h3>Type 5- The Investigator</h3>
 
 Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their analytical prowess and depth of understanding feeds their intrinsic need to be competent and well-prepared.
 
@@ -177,14 +177,14 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
 <div>
-<MarqueeHorizontal displayList={[{name: 'at a party', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
 </article>
 
 <article class="section-content">
 
-### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
+<h3>Type 6- The Loyalist</h3>
 
 Type 6 personalities value security and trust. Acknowledging their dedication and reliability affirms their foundational role in any relationship or endeavor.
 
@@ -209,7 +209,7 @@ Type 6 personalities value security and trust. Acknowledging their dedication an
 
 <article class="section-content">
 
-### [Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)
+<h3>Type 7- The Enthusiast</h3>
 
 Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and adventurous spirit aligns perfectly with their quest for pleasure and excitement.
 
@@ -250,7 +250,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 
 <article class="section-content">
 
-### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
+<h3>Type 8- The Challenger</h3>
 
 Type 8 personalities are natural leaders driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
 
@@ -275,7 +275,7 @@ Type 8 personalities are natural leaders driven by a desire to control their env
 
 <article class="section-content">
 
-### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
+<h3>Type 9- The Peacemaker</h3>
 
 Type 9 individuals are the peacekeepers. Celebrating their mediation skills and the gift of seeing multiple perspectives affirms their nurturing and harmonizing nature.
 
@@ -320,7 +320,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below ⬇�
             },
          "dateModified":{
             "@type":"Date",
-            "@value":"2023-09-04"
+            "@value":"2023-11-29"
          },
          "datePublished":{
             "@type":"Date",

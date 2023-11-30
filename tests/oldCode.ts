@@ -134,7 +134,7 @@ const jsonldString = {
 						},
 						{
 							'@type': 'WebPage',
-							name: 'Strengths and weaknesses',
+							name: 'strengths 💪 and weaknesses',
 							url: {
 								'@id': 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
 							}
@@ -168,7 +168,7 @@ const jsonldString = {
 						},
 						{
 							'@type': 'WebPage',
-							name: 'Communication styles',
+							name: 'communication styles 🙊',
 							url: {
 								'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
 							}
@@ -279,4 +279,4 @@ const jsonldString = {
 		}
 	]
 };
-let jsonld = JSON.stringify(jsonldString);
+const jsonld = JSON.stringify(jsonldString);

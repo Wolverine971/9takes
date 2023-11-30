@@ -4,7 +4,7 @@ description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncov
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2023-10-15'
+lastmod: '2023-11-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -202,74 +202,93 @@ In the next section, we will delve deeper into each enneagram type, their core e
 
 <article class="section-content">
 
-### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
+<h3>Type 1- The Perfectionist</h3>
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent needing to be more focused, overly strict, or lenient. Ones made themselves their judges and critics, developing their strict code of ethics and rules to cope.
 
+[More on type 1s](/blog/enneagram/enneagram-type-1)
+
 </article>
 <article class="section-content">
 
-### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
+<h3>Type 2- The Helper</h3>
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Twos felt a lack of nurturing, guidance, or structure came from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their needs.
 
+[More on type 2s](/blog/enneagram/enneagram-type-2)
+
 </article>
 <article class="section-content">
 
-### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
+<h3>Type 3- The Achiever</h3>
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for their achievements rather than who they were. They worked hard to gain approval through achievements.
 
+[More on type 3s](/blog/enneagram/enneagram-type-3)
+
 </article>
 <article class="section-content">
 
-### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
+<h3>Type 4- The Individualist</h3>
 
 - **Core Emotion:** Shame
 - **Childhood Wound:** Fours felt disconnected from both parental figures. They felt their parents didn’t see them for who they were. They tried early on to accept what made them different.
 
+[More on type 4s](/blog/enneagram/enneagram-type-4)
+
 </article>
 <article class="section-content">
 
-### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
+<h3>Type 5- The Investigator</h3>
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Fives felt ambivalent towards their parental figures. They felt like “odd ducks,” forever on the outside looking in. Fives retreated from the outside world to cope and focused on mastering a unique subject of interest.
 
+[More on type 5s](/blog/enneagram/enneagram-type-5)
+
 </article>
 <article class="section-content">
 
-### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
+<h3>Type 6- The Loyalist</h3>
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for security or guidance rather than trusting their inner voice.
 
+
+[More on type 6s](/blog/enneagram/enneagram-type-6)
+
 </article>
 <article class="section-content">
 
-### [Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)
+<h3>Type 7- The Enthusiast</h3>
 
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sevens felt disconnected from the nurturing figure in their home. To deal with this, Sevens learned to focus on “transitional objects” or toys and activities that would feed the emptiness inside.
 
+[More on type 7s](/blog/enneagram/enneagram-type-7)
+
 </article>
 <article class="section-content">
 
-### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
+<h3>Type 8- The Challenger</h3>
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness,” they would be hurt, rejected, or betrayed.
 
+[More on type 8s](/blog/enneagram/enneagram-type-8)
+
 </article>
 <article class="section-content">
 
-### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
+<h3>Type 9- The Peacemaker</h3>
 
 - **Core Emotion:** Anger
 - **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, deny their feelings, and stay in the background.
+
+[More on type 9s](/blog/enneagram/enneagram-type-9)
 
 </article>
 
@@ -298,7 +317,7 @@ If you found this guide helpful, sign up and join 9takes below ⬇️. Of course
 "https://twitter.com/djwayne3"
        ]
       },
-      "dateModified": "2023-09-04",
+      "dateModified": "2023-11-29",
       "datePublished": "2023-07-11",
       "description": "Navigate the Enneagram easily using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
       "headline": "The Beginner's Guide to Determining Your Enneagram Type",

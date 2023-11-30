@@ -4,7 +4,7 @@ description: "Explore the Enneagram's intricate tapestry: how each type subtly s
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'
-lastmod: '2023-08-26'
+lastmod: '2023-11-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -31,7 +31,9 @@ pic: 'greek-statue-flex'
 	/>
 </div>
 
-### [Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)
+<article class="section-content">
+
+<h3>Type 1- The Perfectionist</h3>
 
 The Meticulous Maverick
 
@@ -39,7 +41,12 @@ How They Flex: Through their unwavering commitment to perfection and integrity.
 Desire to Be Seen: As paragons of righteousness, holding the beacon of moral and ethical standards.
 Deep Dive: For Type 1s, every flex is a testament to their dedication to ideals. When they showcase their precision or unwavering standards, they're seeking acknowledgment for their ceaseless strive for betterment.
 
-### [Type 2- The Helper](/blog/enneagram/enneagram-type-2)
+[More on type 1s](/blog/enneagram/enneagram-type-1)
+
+</article>
+<article class="section-content">
+
+<h3>Type 2- The Helper</h3>
 
 The Generous Gem
 
@@ -47,7 +54,12 @@ How They Flex: Through tales of their altruistic endeavors and selfless acts.
 Desire to Be Seen: As the embodiment of love and care, always there when needed.
 Deep Dive: Type 2s' showcase of warmth is more than just kindness—it's their subtle plea for appreciation, a reminder of their indispensable role in the lives of others.
 
-### [Type 3- The Achiever](/blog/enneagram/enneagram-type-3)
+[More on type 2s](/blog/enneagram/enneagram-type-2)
+
+</article>
+<article class="section-content">
+
+<h3>Type 3- The Achiever</h3>
 
 The Dynamic Dynamo
 
@@ -55,13 +67,22 @@ How They Flex: By parading their achievements, successes, and milestones.
 Desire to Be Seen: As role models, epitomes of success, and sources of inspiration.
 Deep Dive: Every accolade shared by Type 3s is rooted in their yearning for validation, their inner need to be revered for their dedication and prowess.
 
-### [Type 4- The Individualist](/blog/enneagram/enneagram-type-4)
+[More on type 3s](/blog/enneagram/enneagram-type-3)
+
+</article>
+<article class="section-content">
+
+<h3>Type 4- The Individualist</h3>
 
 The Expressive Enigma
 
 How They Flex: Through artistic expressions, introspections, and unique viewpoints.
 Desire to Be Seen: As the authentic voice, untouched by societal molds, and uniquely profound.
 Deep Dive: When Type 4s share their creations or perspectives, they're inviting others into their world, seeking acknowledgment for their unparalleled depth.
+
+[More on type 4s](/blog/enneagram/enneagram-type-4)
+
+</article>
 
 <div style="display: flex;
     justify-content: center;">
@@ -74,7 +95,9 @@ Deep Dive: When Type 4s share their creations or perspectives, they're inviting 
 	/>
 </div>
 
-### [Type 5- The Investigator](/blog/enneagram/enneagram-type-5)
+<article class="section-content">
+
+<h3>Type 5- The Investigator</h3>
 
 The Thoughtful Theorist
 
@@ -82,7 +105,12 @@ How They Flex: By sharing enlightening facts, discoveries, or intellectual pursu
 Desire to Be Seen: As the font of wisdom, always seeking, always curious.
 Deep Dive: Each revelation from Type 5s stems from their insatiable thirst for knowledge and their silent request to be recognized for their cerebral prowess.
 
-### [Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)
+[More on type 5s](/blog/enneagram/enneagram-type-5)
+
+</article>
+<article class="section-content">
+
+<h3>Type 6- The Loyalist</h3>
 
 The Dependable Defender
 
@@ -90,13 +118,22 @@ How They Flex: By emphasizing their unwavering loyalty and dependability.
 Desire to Be Seen: As the anchor, the steadfast protector amidst the storm.
 Deep Dive: Behind each story of allegiance from Type 6s lies their intrinsic need for security and their hope to be seen as the bulwark of trust.
 
-### [Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)
+[More on type 6s](/blog/enneagram/enneagram-type-6)
+
+</article>
+<article class="section-content">
+
+<h3>Type 7- The Enthusiast</h3>
 
 The Joyous Jetsetter
 
 How They Flex: With tales of adventures, exhilarating experiences, and zestful pursuits.
 Desire to Be Seen: As the beacon of joy, the life of the party, and the eternal optimist.
 Deep Dive: Every story of exhilaration from Type 7s is a testament to their pursuit of happiness and their longing to be the source of joy for others.
+
+[More on type 7s](/blog/enneagram/enneagram-type-7)
+
+</article>
 
 <div style="display: flex;
     justify-content: center;">
@@ -109,7 +146,9 @@ Deep Dive: Every story of exhilaration from Type 7s is a testament to their purs
 	/>
 </div>
 
-### [Type 8- The Challenger](/blog/enneagram/enneagram-type-8)
+<article class="section-content">
+
+<h3>Type 8- The Challenger</h3>
 
 The Assertive Ace
 
@@ -117,13 +156,22 @@ How They Flex: Through tales of conquests, leadership feats, and trailblazing in
 Desire to Be Seen: As the indomitable force, the leader who paves the path.
 Deep Dive: Each flex from Type 8s is a proclamation of their power and control, their inner desire to be revered for their resilience and strength.
 
-### [Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)
+[More on type 8s](/blog/enneagram/enneagram-type-8)
+
+</article>
+<article class="section-content">
+
+<h3>Type 9- The Peacemaker</h3>
 
 The Harmonious Healer
 
 How They Flex: By showcasing their role in fostering harmony, resolution, and serenity.
 Desire to Be Seen: As the bridge, the harmonizer who sees and values all perspectives.
 Deep Dive: When Type 9s emphasize their peacemaking roles, they're subtly hinting at their profound ability to heal divides and their wish to be recognized for their tranquil spirit.
+
+[More on type 9s](/blog/enneagram/enneagram-type-9)
+
+</article>
 
 ## Wrap up
 
@@ -150,7 +198,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
                 },
             "dateModified": {
                 "@type": "Date",
-                "@value": "2023-08-26"
+                "@value": "2023-11-29"
             },
             "datePublished": {
                 "@type": "Date",
