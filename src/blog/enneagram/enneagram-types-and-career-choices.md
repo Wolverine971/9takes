@@ -14,12 +14,10 @@ previewHtml: ''
 pic: 'female-greek-statues-of-different-professions'
 ---
 
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
 
 <p class="firstLetter">Choosing a career path is a big task.
 But understanding your Enneagram type helps point you in the right direction.</p>
@@ -157,7 +155,6 @@ The Enneagram can be a powerful tool in guiding your career choices. By understa
 For more checkout <a href="/blog/enneagram/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
-
 
 <svelte:head>
 

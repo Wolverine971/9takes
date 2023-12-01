@@ -257,7 +257,6 @@ In the next section, we will delve deeper into each enneagram type, their core e
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for security or guidance rather than trusting their inner voice.
 
-
 [More on type 6s](/blog/enneagram/enneagram-type-6)
 
 </article>

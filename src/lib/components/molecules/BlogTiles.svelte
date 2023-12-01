@@ -278,6 +278,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		object-position: center;
 	}
 
 	.fit-card {
@@ -308,6 +309,8 @@
 	.blog-grid-container .grid-item {
 		margin-bottom: 0.5rem;
 		background-color: rgba(255, 255, 255, 0.5);
+		background-size: cover;
+		background-position: center;
 		text-align: center;
 		border: var(--classic-border);
 		border-radius: 5px;
@@ -352,6 +355,16 @@
 		}
 		.inline-it {
 			width: 30vw;
+		}
+	}
+
+	@media (min-width: 850px) {
+		.people-grid-container {
+			grid-auto-rows: 300px;
+		}
+
+		.blog-grid-container {
+			grid-auto-rows: 300px;
 		}
 	}
 </style>

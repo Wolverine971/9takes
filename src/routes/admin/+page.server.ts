@@ -20,12 +20,13 @@ export const load: PageServerLoad = async (event) => {
 		.eq('id', session?.user?.id)
 		.single();
 
-
-	const { data: dailyVisitors, error: dailyVisitorsErrors } = await supabase.rpc('daily_visitors', {});
+	const { data: dailyVisitors, error: dailyVisitorsErrors } = await supabase.rpc(
+		'daily_visitors',
+		{}
+	);
 	if (dailyVisitorsErrors) {
 		console.log(dailyVisitorsErrors);
 	}
-
 
 	if (!user?.admin) {
 		throw redirect(307, '/questions');

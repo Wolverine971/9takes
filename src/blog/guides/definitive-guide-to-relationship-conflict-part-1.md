@@ -85,12 +85,11 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
 
 Now that we have identified some of the pitfalls. Let's get into how to fight well.
 
-
 ## The Art of Fighting Fair
 
 ### Focus on the Issue, Not the Person
 
-The issue is not your partner or the person you are fighting. The problem is how the situation is being handled. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done. 
+The issue is not your partner or the person you are fighting. The problem is how the situation is being handled. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done.
 If the situation were handled differently, you would not be fighting.
 
 Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
