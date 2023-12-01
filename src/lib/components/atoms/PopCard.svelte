@@ -155,6 +155,7 @@
 		{`${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()} 218w,`}
 		{image} 560w"
 		loading="lazy"
+		sizes="(max-width: 560px) 218px, 560px"
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
 			showDescription &&
 			enneagramType &&
