@@ -1378,7 +1378,7 @@
 	}
 
 	::-webkit-scrollbar {
-		width: 6px;
+		width: 1rem;
 		border-radius: 10px;
 	}
 

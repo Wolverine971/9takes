@@ -75,10 +75,16 @@
 	class="jumbo-card {$page.url.pathname === '/' ? 'full-jumbo-card' : ''}"
 	style="aspect-ratio: {aspectRatio}; "
 >
-	<div
+	<!-- <div
 		class="jumbo-card-image {panBackground ? 'home' : 'profileFace'}"
 		style="background-image: url({image});"
 		in:fly={{ y: 200, duration: 2000 }}
+	/> -->
+	<img
+		class="jumbo-card-image {panBackground ? 'home' : 'profileFace'}"
+		src={image}
+		in:fly={{ y: 200, duration: 2000 }}
+		alt="9takes pantheon"
 	/>
 	<div class="jumbo-card-overlay" />
 	<div class="jumbo-card-content" style="justify-content: {centerText}">

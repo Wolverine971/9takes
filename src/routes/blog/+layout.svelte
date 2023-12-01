@@ -7,7 +7,7 @@
 
 <!-- <Layout> -->
 <!-- <div class="app"> -->
-{#if $page.url.pathname === '/blog'}
+<!-- {#if $page.url.pathname === '/blog'}
 	<Jumbotron
 		image={'/blogs/rome.webp'}
 		showIcon={false}
@@ -19,7 +19,7 @@
 			{'The Blog'}
 		</h1>
 	</Jumbotron>
-{/if}
+{/if} -->
 <slot />
 <!-- </div> -->
 

@@ -3,7 +3,6 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
-import { tagQuestion } from '../../utils/openai';
 import { createESQuestion } from '$lib/elasticSearch';
 
 /** @type {import('./$types').PageLoad} */
@@ -93,7 +92,6 @@ export const actions: Actions = {
 			const { data: questions } = await supabase.from('questions').select('*');
 			if (questions?.length) {
 				for await (const question of questions) {
-					console.log(question);
 					const resp: any = await createESQuestion({
 						question: question.question,
 						author_id: question.author_id,

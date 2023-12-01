@@ -7,13 +7,6 @@
 	};
 </script>
 
-<ul>
-	<li><a href="#ideas" class="blog-headings">Ideas</a></li>
-	<li><a href="#guides" class="blog-headings">Guides</a></li>
-	<li><a href="#enneagram" class="blog-headings">Enneagram</a></li>
-	<li><a href="#people" class="blog-headings">Famous People</a></li>
-</ul>
-
 <div style="width: 100%;">
 	<h2 id="ideas">Ideas behind 9takes</h2>
 	<div class="blog-grid-container temp-three-row">
@@ -93,7 +86,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('musician');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -117,7 +110,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('celebrity');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -141,7 +134,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('creator');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -165,7 +158,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('politician');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -189,7 +182,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('historical');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -213,7 +206,7 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('movieStar');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
 						loading="lazy"
@@ -234,22 +227,6 @@
 </div>
 
 <style class="scss">
-	.blog-headings {
-		font-size: 1.5rem;
-		text-decoration: none;
-		font-weight: bold;
-		border-radius: 5px;
-		padding: 0.25rem;
-	}
-	li::marker {
-		display: none;
-		content: '';
-	}
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
 	h3 {
 		font-size: 1.5rem;
 	}
@@ -268,6 +245,8 @@
 	.temp-three-row {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
+		gap: 0.5rem;
+		grid-row: inherit;
 	}
 
 	.inline-it {
@@ -290,6 +269,7 @@
 		transform: translate(-50%, -50%);
 		z-index: 2;
 		padding: 1rem;
+		width: 100%;
 	}
 
 	.fit-card-center {
@@ -304,6 +284,7 @@
 		column-count: 3;
 		column-gap: 0.5rem;
 		orphans: 1;
+		gap: 1.5rem;
 	}
 
 	.blog-grid-container .grid-item {
@@ -316,7 +297,9 @@
 		border-radius: 5px;
 		position: relative;
 		padding: 0.5rem;
-		box-sizing: border-box;
+		height: 100%;
+		width: 100%;
+		gap: 1rem;
 	}
 	.people-grid-container {
 		width: 100%;
@@ -333,6 +316,10 @@
 		border: var(--classic-border);
 		border-radius: 5px;
 		position: relative;
+		height: 100%;
+	}
+
+	.max-high {
 		max-height: 220px;
 	}
 
@@ -355,6 +342,10 @@
 		}
 		.inline-it {
 			width: 30vw;
+		}
+
+		.fit-card {
+			padding: 0.5rem;
 		}
 	}
 
