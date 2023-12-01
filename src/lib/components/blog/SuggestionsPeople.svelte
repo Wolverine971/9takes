@@ -41,6 +41,7 @@
 									<img
 										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										loading="lazy"
+										fetchPriority="low"
 										class="grid-img"
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}
@@ -65,6 +66,7 @@
 								{#if enneagram}
 									<img
 										loading="lazy"
+										fetchPriority="low"
 										class="grid-img"
 										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										src={`/types/${enneagram}s/s-${slug}.webp`}

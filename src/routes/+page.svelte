@@ -61,7 +61,12 @@
 	<div class="column">
 		<div class="big-points center-align" style="margin-top: 100px;">
 			<div class="main-preview" style="margin: 5rem 0;">
-				<img src="/9takes-preview.webp" alt="9takes preview" style="max-width: 500px;" />
+				<img
+					src="/9takes-preview.webp"
+					alt="9takes preview"
+					style="max-width: 500px;"
+					fetchPriority="high"
+				/>
 
 				<div class="main-description">
 					<h1>9takes</h1>

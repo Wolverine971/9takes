@@ -14,7 +14,7 @@
 			<a href="/blog/community/{cBlog.slug}" class="grid-item">
 				{#if cBlog.pic}
 					<img
-						loading="lazy"
+						fetchPriority="high"
 						srcset={`${`/blogs/s-${cBlog.pic}.webp`} 218w,`}
 						class="grid-img"
 						src={`/blogs/s-${cBlog.pic}.webp`}
@@ -89,6 +89,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
@@ -113,6 +114,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
@@ -137,6 +139,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
@@ -161,6 +164,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
@@ -185,6 +189,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
@@ -209,6 +214,7 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
 				{#if person.enneagram}
 					<img
+						fetchPriority="low"
 						loading="lazy"
 						class="grid-img"
 						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}

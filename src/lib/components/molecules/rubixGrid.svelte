@@ -2,14 +2,14 @@
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 
-	export let peopleList: string[];
+	export let peopleList: { name: string; link: string }[];
 
 	export let type: number;
 
 	let randomElements: string[] = [];
 
 	// Efficient shuffling algorithm (Fisher-Yates (aka Knuth) Shuffle)
-	function shuffleArray(array: string[]) {
+	function shuffleArray(array: { name: string; link: string }[]) {
 		let currentIndex = array.length,
 			temporaryValue,
 			randomIndex;
@@ -28,14 +28,14 @@
 
 		return array;
 	}
-	let firstGroup: string[] = [];
-	let secondGroup: string[] = [];
-	let thirdGroup: string[] = [];
-	let fourthGroup: string[] = [];
-	let fifthGroup: string[] = [];
-	let sixthGroup: string[] = [];
+	let firstGroup: { name: string; link: string }[] = [];
+	let secondGroup: { name: string; link: string }[] = [];
+	let thirdGroup: { name: string; link: string }[] = [];
+	let fourthGroup: { name: string; link: string }[] = [];
+	let fifthGroup: { name: string; link: string }[] = [];
+	let sixthGroup: { name: string; link: string }[] = [];
 
-	let mainGroup: string[] = [];
+	let mainGroup: { name: string; link: string }[] = [];
 
 	onMount(() => {
 		firstGroup = shuffleArray([...peopleList]).slice(0, 9);
@@ -143,7 +143,7 @@
 				<img
 					class="pop-card-image profileFace tint"
 					src={`/types/${type}s/${person.name}.webp`}
-					alt={''}
+					alt={person.name.split('-').join(' ')}
 					in:fly={{ y: 200, duration: 2000 }}
 				/>
 				<div class="pop-card-user">
