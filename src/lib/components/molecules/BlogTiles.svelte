@@ -21,6 +21,8 @@
 			<a href="/blog/community/{cBlog.slug}" class="grid-item">
 				{#if cBlog.pic}
 					<img
+						loading="lazy"
+						srcset={`${`/blogs/s-${cBlog.pic}.webp`} 218w,`}
 						class="grid-img"
 						src={`/blogs/s-${cBlog.pic}.webp`}
 						alt={cBlog.pic.split('-').join(' ')}
@@ -94,7 +96,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
@@ -116,7 +120,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
@@ -138,7 +144,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
@@ -160,7 +168,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
@@ -182,7 +192,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>
@@ -204,7 +216,9 @@
 			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
 				{#if person.enneagram}
 					<img
+						loading="lazy"
 						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
 						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
 						alt={person.slug.split('-').join(' ')}
 					/>

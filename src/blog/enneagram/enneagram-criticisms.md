@@ -46,7 +46,7 @@ Enneagram Criticisms (200 words)
   <summary class="accordion">"Personality stuff is not real."</summary>
   <div class="panel">
   <figure>
-     <img src="/personality-snippet.webp" alt="personality definition" title="personality definition from google" class="small-absolute" />
+     <img loading="lazy" src="/personality-snippet.webp" alt="personality definition" title="personality definition from google" class="small-absolute" />
     <figcaption>personality definition from google</figcaption>
 </figure>
     <p>Do you get along with everyone? Do you not? Why? Are people similar to you or is everyone different from you?

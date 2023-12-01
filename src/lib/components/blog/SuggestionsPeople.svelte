@@ -39,6 +39,8 @@
 							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
 								{#if enneagram}
 									<img
+										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
+										loading="lazy"
 										class="grid-img"
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}
@@ -62,7 +64,9 @@
 							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
 								{#if enneagram}
 									<img
+										loading="lazy"
 										class="grid-img"
+										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}
 									/>

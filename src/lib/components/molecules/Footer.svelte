@@ -34,7 +34,7 @@
 			rel="noreferrer"
 			href="https://www.instagram.com/9takesdotcom/"
 		>
-			<img src={instagram} alt="9takesdotcom Instagram" class="icon" />
+			<img loading="lazy" src={instagram} alt="9takesdotcom Instagram" class="icon" />
 		</a>
 		<a
 			class="external-link"
@@ -42,7 +42,7 @@
 			rel="noreferrer"
 			href="https://twitter.com/9takesdotcom"
 		>
-			<img src={twitter} alt="9takesdotcom Twitter" class="icon" />
+			<img loading="lazy" src={twitter} alt="9takesdotcom Twitter" class="icon" />
 		</a>
 	</div>
 </footer>

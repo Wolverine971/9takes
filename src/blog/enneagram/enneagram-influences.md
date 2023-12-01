@@ -16,7 +16,7 @@ previewHtml: ''
 <p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 
 <p  style="text-align: center;">
-<img src="https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png" alt="Enneagram Symbol" title="the Enneagram symbol">
+<img loading="lazy" src="https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png" alt="Enneagram Symbol" title="the Enneagram symbol">
 </p>
 
 ## Different Schools of Thought

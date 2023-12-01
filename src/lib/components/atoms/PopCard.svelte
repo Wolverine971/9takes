@@ -151,19 +151,28 @@
 	}}
 >
 	<img
+		srcset="
+		{`${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()} 218w,`}
+		{image} 560w"
+		loading="lazy"
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
 			showDescription &&
 			enneagramType &&
 			'tint'}"
 		style={showDescription ? 'opacity: .1 !important;' : ''}
-		src={image}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
 	<div class="pop-card-overlay" />
 	<div class="pop-card-content">
 		{#if showIcon}
-			<img class="pop-card-icon" src="darkRubix.webp" alt="rubix cube" style="width: 10%;" />
+			<img
+				loading="lazy"
+				class="pop-card-icon"
+				src="darkRubix.webp"
+				alt="rubix cube"
+				style="width: 10%;"
+			/>
 		{/if}
 
 		<div class="pop-card-user">

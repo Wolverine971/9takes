@@ -25,7 +25,7 @@ pic: ''
 <p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? No... but there have been two main perspectives that keep coming up that are worth looking at. One theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
 <div style="text-align: center;" >
-<img title="Google's human nature definition" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
+<img loading="lazy" title="Google definition of human nature" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
 </div>
 
 <figure style="margin:2rem" title="9takes's human nature definition">
@@ -81,7 +81,7 @@ A potential reason why discussions often focus on the rational aspect of the psy
 In contrast, the unconscious aspects of the psyche are not immediately accessible. It is easier to critique someone's logic than it is their perceived morals or instincts.
 
 <div style="text-align: center; display: flex; flex-direction: column;">
-<img src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
+<img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
 
 By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
 

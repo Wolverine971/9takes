@@ -35,15 +35,12 @@
 	let innerWidth = 0;
 
 	onMount(async () => {
-		// if (dev) return;
-
+		if (dev) return;
 		const fp = await FingerprintJS.load();
 		const fpval = await fp.get();
-
 		const formdata = new FormData();
 		formdata.append('fp', fpval?.visitorId?.toString());
 		setCookie('9tfingerprint', fpval?.visitorId?.toString(), 365);
-
 		await fetch(`/api/adder`, {
 			method: 'POST',
 			body: formdata

@@ -37,25 +37,46 @@
 			<a href="/admin/messages">Messages</a>
 		</div>
 
-		<div class="row">
+		<div class="column">
 			<h2>Is Demo Time: {isDemoTime}</h2>
-			<button
-				type="button"
-				class="btn btn-primary"
-				on:click={() => {
-					changeDemoTime();
-				}}
-			>
-				Update
-			</button>
-			<div>
+			<div class="row">
 				<button
 					type="button"
 					class="btn btn-primary"
 					on:click={() => {
-						getModal('confirmReindex').open();
-					}}>Reindex Elastic Search</button
+						changeDemoTime();
+					}}
 				>
+					Change Demo Time
+				</button>
+			</div>
+		</div>
+		<div class="row">
+			<button
+				type="button"
+				class="btn btn-primary"
+				on:click={() => {
+					getModal('confirmReindex').open();
+				}}>Reindex Elastic Search</button
+			>
+		</div>
+
+		<div class="column">
+			<h2>Daily Visitors</h2>
+			<div class="row">
+				<table>
+					<tr>
+						<th>Days</th>
+						<th>Visitor Count</th>
+					</tr>
+
+					{#each data.dailyVisitors as visitor}
+						<tr>
+							<td>{visitor.days}</td>
+							<td>{visitor.number_of_visitors} </td>
+						</tr>
+					{/each}
+				</table>
 			</div>
 		</div>
 	</div>

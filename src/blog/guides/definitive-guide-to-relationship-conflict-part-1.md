@@ -73,7 +73,7 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
     flex-direction: column;
     align-items: center;
     margin: 0">
-  <img src="/blogs/The-Four-Horsemen-Social.webp" alt="the antidotes for the four horsemen" style="width: clamp(200px, 500px, 100%);" />
+  <img loading="lazy" src="/blogs/The-Four-Horsemen-Social.webp" alt="the antidotes for the four horsemen" style="width: clamp(200px, 500px, 100%);" />
   <figcaption>
   <cite>
   the antidotes for the Four Horsemen

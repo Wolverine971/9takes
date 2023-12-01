@@ -172,7 +172,7 @@ Once you think you've identified your type, look at the connecting lines on the 
 <div style="display: flex; text-align: center;
   justify-content: center;
   margin: 1rem 0;" >
-<img src="/blogs/enneagram-integration.webp" alt="Enneagram integration lines" title="Enneagram integration lines" />
+<img loading="lazy" src="/blogs/enneagram-integration.webp" alt="Enneagram integration lines" title="Enneagram integration lines" />
 </div>
 
 Here's how it works for each type:
