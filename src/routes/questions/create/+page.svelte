@@ -125,7 +125,7 @@
 		</button>
 	</form>
 
-	<Modal2 id="question-create">
+	<Modal2 id="question-create" name={'create question'}>
 		<div class="modal-size">
 			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
 			<hr />

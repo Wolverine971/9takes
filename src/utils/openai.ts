@@ -159,15 +159,30 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 				.update({ flagged: true, updated_at: new Date() })
 				.eq('id', questionId);
 			continue;
-		}
+		} else {
 
-		newTagIds.forEach(async (tagId) => {
-			await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
-		});
-		await supabase
-			.from('questions')
-			.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
-			.eq('id', questionId);
+			newTagIds.forEach(async (tagId) => {
+				await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+			});
+		}
+	}
+
+	await supabase
+		.from('questions')
+		.update({ tagged: true, updated_at: new Date(), question_formatted: cleanedTags[0].question })
+		.eq('id', questionId);
+
+	// update ai comments
+	if (cleanedTags?.[0]?.answers?.length) {
+		for await (const answer of cleanedTags[0].answers) {
+			const type = Object.keys(answer)[0];
+			const answerText = Object.values(answer)[0];
+			if (type && answerText) {
+				await supabase
+					.from('comments_ai')
+					.insert({ enneagram_type: type, comment: answerText, question_id: questionId })
+			}
+		}
 	}
 
 	return;
@@ -175,16 +190,67 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 // I can pull this system prompt dynamically
 
-const classifyOneQuestionPrompt = `You are going to be given either a question or a statement.  Your job is to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in an json form with the tags in an array of strings.
+const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do two things and return a json response. 
+First, you should should use the Enneagram system of personality to answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
+The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
+
+Second, you need to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
 For example: [
-    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"]}
+    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
  ]
  Only tag from these predefined tags:
  `;
 
-const classifymultipleQuestionsPrompt = `You are going to be given a list of a questions or a statements with ids.  Your job is to classify the questions or statements and tag them with the applicable these predefined tags. A question or statement can have more than one tag. Return the results in an json form with the tags in an array of strings.
+const classifyOneQuestionPrompt = `Your task involves two main components: responding to a question or statement using the Enneagram personality system and classifying the question or statement with predefined tags. The response should be formatted in JSON.
+
+ Detailed Instructions:
+ 
+ Receive a Question or Statement: You will be given a question or a statement.
+ 
+ Respond Using the Enneagram System:
+ Use the Enneagram system of personality to craft 9 distinct responses.
+ Each response should correspond to one of the 9 Enneagram types.
+ Your answers should be conversational, as if a real person of each Enneagram type is responding.
+ Ensure that each response reflects how different Enneagram personalities might approach and answer the question or statement.
+ But be causal and unique for each Enneagram Type and do not mention the Enneagram in the response.
+ 
+ 
+ 
+ Format the Response in VALID JSON:
+ Structure your response as a JSON array.
+ Include an identifier for each question/statement, the tags, and the Enneagram-based answers.
+ For Example:
+ [
+    {
+        "id": 1,
+        "question": "I need date ideas. What would you do?",
+        "tags": ["Personal Growth", "Romantic Relationships"],
+        "answers": [
+            {"1": "I would organize a volunteering date to help others."},
+            {"2": "I'd plan a romantic dinner at home."},
+            ...
+            {"9": "A quiet evening walk would be nice."}
+        ]
+    }
+]
+
+Classify the Question or Statement:
+Tag the question or statement with applicable predefined tags.
+ A question or statement can be associated with multiple tags.
+
+`
+
+
+
+
+
+const classifymultipleQuestionsPrompt = `You are going to be given a list of a questions or a statements with ids.  Your job is to do two things.
+First, you should use the Enneagram system of personality answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
+The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
+
+Second, you need to classify the questions or statements and tag them with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
  For example: [
-    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"]}
+    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"],answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
  ]
  Only tag from these predefined tags:
  `;
@@ -313,3 +379,43 @@ const getPrompt = (tags: string[]) => {
 // 'Building and Maintaining Relationships in the Digital Age',
 // 'Navigating Online Dating and Relationships',
 // 'The Impact of Social Media on Relationships'
+
+
+// [
+// 	{
+// 		id: 1,
+// 		question: "When is the longest you have stayed awake on a project you were passionate about",
+// 		tags: [
+// 			"Personal Growth",
+// 		],
+// 		answers: [
+// 			{
+// 				"1": "As a Type 1, I strive for perfection and can get caught up in details. When working on a project I'm passionate about, I have stayed awake for several nights in a row, making sure everything is flawless and meets my high standards.",
+// 			},
+// 			{
+// 				"2": "As a Type 2, I prioritize the needs of others over my own. If I'm passionate about a project, I might stay awake late into the night to provide support and help others involved in the project. Their success is important to me.",
+// 			},
+// 			{
+// 				"3": "As a Type 3, I am driven by success and recognition. If I'm passionate about a project, I'll stay awake for as long as it takes to achieve my goals and make a name for myself. I want to be the best in what I do.",
+// 			},
+// 			{
+// 				"4": "As a Type 4, I'm deeply connected to my emotions. When working on a project I'm passionate about, I might stay awake late into the night to dive into my inner world and channel my profound emotions into my work.",
+// 			},
+// 			{
+// 				"5": "As a Type 5, I value knowledge and intellectual pursuits. If I'm passionate about a project, I might stay awake for long hours to immerse myself in research and gather as much information as possible to make it a success.",
+// 			},
+// 			{
+// 				"6": "As a Type 6, I am a loyal and committed person. If I'm passionate about a project, I might stay awake to ensure everything is secure and prepared for any potential risks or challenges. I want to be well-prepared.",
+// 			},
+// 			{
+// 				"7": "As a Type 7, I seek new experiences and avoid pain or boredom. If I'm passionate about a project, I might stay awake late into the night out of excitement and to explore every possibility and potential that the project offers.",
+// 			},
+// 			{
+// 				"8": "As a Type 8, I am determined and focused on control. If I'm passionate about a project, I might stay awake to exert my power and drive it forward. I want to ensure that everything goes according to my vision and objectives.",
+// 			},
+// 			{
+// 				"9": "As a Type 9, I value peace and harmony. If I'm passionate about a project, I might stay awake to mediate conflicts and ensure that everyone's opinions and needs are considered. I want to create a harmonious environment.",
+// 			},
+// 		],
+// 	},
+// ]

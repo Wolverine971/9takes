@@ -14,5 +14,12 @@
 
 		border-radius: var(--border-radius);
 		background: var(--card-background-color);
+		padding: 0.5rem;
+	}
+
+	@media (max-width: 480px) {
+		section {
+			padding: 0;
+		}
 	}
 </style>

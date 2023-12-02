@@ -11,6 +11,7 @@
 	let dataForChild = Object.assign({}, data.question, {
 		comments: data.comments,
 		comment_count: data.comment_count,
+		ai_comments: data.ai_comments,
 		links: data.links,
 		links_count: data.links_count,
 		flags: data.flags
@@ -36,6 +37,7 @@
 						dataForChild = Object.assign({}, data.question, {
 							comments: commentData,
 							comment_count: data.comment_count ? (data.comment_count += 1) : 1,
+							ai_comments: data.ai_comments,
 							links: data.links,
 							links_count: data.links_count,
 							flags: Object.assign({}, data.flags, { userHasAnswered: true })

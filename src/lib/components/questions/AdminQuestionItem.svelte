@@ -82,9 +82,7 @@
 			</p>
 			<p class="question-display">
 				<b>Formatted:</b>
-				{#if !editing}
-					{questionData.question_formatted}
-				{/if}
+				{questionData.question_formatted}
 			</p>
 		</div>
 		<div style="display: flex;">
@@ -135,7 +133,7 @@
 				type="button"
 				style="padding: 0.25rem; display: flex;"
 				on:click={async () => {
-					getModal('kill-modal').open();
+					getModal(`kill-modal-${questionData.id}`).open();
 				}}
 			>
 				<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
@@ -164,7 +162,7 @@
 		<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
 	</button> -->
 
-	<Modal2 id="kill-modal">
+	<Modal2 id={`kill-modal-${questionData.id}`}>
 		<p>Kill it fr real?</p>
 		<button
 			class="btn btn-primary"
@@ -182,7 +180,7 @@
 		<div style="max-height: 500px;">
 			<div style="max-width: 60%;">
 				<div>
-					<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+					<p class="question-display">
 						<b style="text-wrap: nowrap;">Original: </b>
 					</p>
 					{questionData.question}

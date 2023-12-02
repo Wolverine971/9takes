@@ -99,7 +99,7 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 
 <div class="iframe-container" >
 <!-- <img src="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf" alt="Andrew Huberman Iceberg Model of the mind" title="Andrew Huberman Iceberg Model" /> -->
-<object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px">
+<object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px" aria-label="Andrew Huberman Iceberg Model">
       <p>Unable to display PDF file. <a href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>
     </object>
 </div>

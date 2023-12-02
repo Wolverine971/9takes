@@ -7,6 +7,8 @@
 	import { Comments } from '$lib/components/molecules';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 
+	import AIComments from '$lib/components/molecules/AIComments.svelte';
+
 	interface PassedPageData {
 		id: number;
 		question: string;
@@ -321,19 +323,18 @@
 							: 'Must answer question before seeing the comments'}
 					</span>
 				{/if}
-				<div style="padding: .5rem; border: none;">
-					<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
-				</div>
+				<AIComments questionId={data.id} data={_data} parentType={'question'} {user} />
+				<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
 			</Card>
 		</div>
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
-			<Card style="padding: .5rem; border: none;">
+			<Card>
 				<p>nothing right now</p>
 			</Card>
 		</div>
 
 		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
-			<Card style="padding: .5rem; border: none;">
+			<Card>
 				{#if data?.links?.length}
 					<ul>
 						{#each data?.links as link}

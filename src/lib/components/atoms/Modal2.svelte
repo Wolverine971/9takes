@@ -17,6 +17,7 @@
 	let prevOnTop: null;
 	let closeCallback: (arg0: any) => void;
 	export let navTop: boolean = false;
+	export let name: string = 'modal';
 
 	export let id = '';
 
@@ -66,9 +67,15 @@
 </script>
 
 <div id="topModal" class:visible bind:this={topDiv} on:click={close}>
-	<div id="modal" on:click|stopPropagation={() => {}}>
+	<div
+		id="modal"
+		on:click|stopPropagation={() => {}}
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby={name}
+	>
 		{#if !navTop}
-			<svg id="close" on:click={close} viewBox="0 0 12 12">
+			<svg id="close" on:click={close} viewBox="0 0 12 12" role="button">
 				<circle cx="6" cy="6" r="6" />
 				<line x1="3" y1="3" x2="9" y2="9" />
 				<line x1="9" y1="3" x2="3" y2="9" />
