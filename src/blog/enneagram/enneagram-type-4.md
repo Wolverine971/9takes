@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 4: The Individualist'
+title: 'Overview of Enneagram Type 4: The Individualist'
 description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2023-09-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: 'overview'
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 4</h2>
+<h2>Enneagram 4 Description</h2>
 
 Individuals with the Enneagram Type 4 are known for their strong sense of self, and their desire to express their unique individuality. They are driven by a sense of authenticity and self-expression, and they have a deep need to be understood and appreciated for who they truly are. Individualists are often highly creative and artistic, and they strive to make a meaningful impact in their lives and the world around them.
 
@@ -172,22 +172,25 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Enneagram Type 4, also known as The Individualist, is characterized by a strong sense of self, emotional intensity, and a desire for authenticity and self-expression. They often feel misunderstood and have a deep need to be valued for their unique perspective and experiences.",
       "name": "Enneagram type 4"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 4 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 4: The Individualist",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-09-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
         "Type 4",
@@ -198,50 +201,28 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         "Growth",
         "Relationships",
         "Workplace",
-        "stress"
-      ],
-      "mainEntity": [
-        {
-          "type": "Question",
-          "acceptedAnswer": {
-            "type": "Answer",
-            "text": "Enneagram Type 4, or The Individualist, is characterized by a strong sense of self, emotional intensity, and a desire for authenticity and self-expression. They often feel misunderstood and have a deep need to be valued for their unique perspective and experiences. Key characteristics include being highly creative and artistic, deeply in touch with their emotions, longing for something they feel is missing, having a strong sense of individuality, and possibly struggling with feelings of envy and self-doubt."
-          },
-          "name": "What are the main characteristics of Enneagram Type 4?"
-        },
-        {
-          "type": "Question",
-          "acceptedAnswer": {
-            "type": "Answer",
-            "text": "Strengths of Enneagram Type 4 include creativity and artistic expression, empathy and compassion, deep understanding of the human experience, and introspection and self-awareness. Weaknesses include moodiness and withdrawal, self-doubt and insecurity, and feeling misunderstood and disconnected from others."
-          },
-          "name": "What are the strengths and weaknesses of Enneagram Type 4?"
-        },
-        {
-          "type": "Question",
-          "acceptedAnswer": {
-            "type": "Answer",
-            "text": "Enneagram Type 4 individuals can grow and develop by practicing self-awareness and introspection, focusing on gratitude, developing self-compassion techniques, setting specific and achievable goals, and creating balance in their lives. This can involve journaling, therapy, mindfulness, positive self-talk, and setting boundaries to deal with stress and overwhelm."
-          },
-          "name": "How can Enneagram Type 4 individuals grow and develop?"
-        }
+        "Stress"
       ],
       "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-4",
-        "type": "WebPage"
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-4",
+        "@type": "WebPage"
       },
       "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "@type": "Organization",
+        "name": "9takes",
         "logo": {
-          "type": "ImageObject",
+          "@type": "ImageObject",
           "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "9takes"
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
       }
     }
   ]
 }
+
 </script>
 
 </svelte:head>

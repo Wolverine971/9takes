@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 8: The Challenger'
+title: 'Overview of Enneagram Type 8: The Challenger'
 description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 8</h2>
+<h2>Enneagram 8 Description</h2>
 
 Type 8's are often described as strong-willed, assertive, and confident. They have a natural ability to take charge and lead others, and they are not afraid to speak their minds. Type 8's are also known for their determination and resilience. They are not easily swayed by others and are often able to overcome obstacles with ease.
 
@@ -163,26 +163,29 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+ {
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Type 8, also known as The Challenger, is a personality type characterized by their assertiveness, self-confidence, and need for control. Type 8s tend to be very direct and can come across as domineering, but they have a strong sense of justice and loyalty.",
       "name": "Enneagram type 8"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 8 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 8: The Challenger",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
         "Type 8",
@@ -199,14 +202,30 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
         "Workplace Traits",
         "Emotional Intelligence",
         "Vulnerability",
-        "Empathy",
-        "Motivations",
-        "Fears",
-        "stress"
+        "Empathy"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-8",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+     {
+      "@type": "FAQPage",
       "mainEntity": [
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "The key strengths of Enneagram Type 8 individuals include their ability to take action, decisiveness, inspiring and leading others, natural charisma, and strategic thinking."
@@ -214,7 +233,7 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
           "name": "What are the key strengths of Enneagram Type 8 individuals?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "The challenges or weaknesses of Enneagram Type 8 individuals include being overly aggressive, confrontational, stubborn, unwilling to compromise, and difficulty expressing emotions."
@@ -222,30 +241,18 @@ Enneagram Type 8 individuals can develop and grow by working on their vulnerabil
           "name": "What are the challenges or weaknesses of Enneagram Type 8 individuals?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 8 individuals can develop and grow personally by cultivating self-awareness, practicing vulnerability, developing empathy, seeking balance, and building healthy relationships."
           },
           "name": "How can Enneagram Type 8 individuals develop and grow personally?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-8",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

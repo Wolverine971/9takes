@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 6: The Loyalist'
+title: 'Overview of Enneagram Type 6: The Loyalist'
 description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -27,7 +27,7 @@ The Loyalist is governed by fear and is always on the lookout for potential dang
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 6</h2>
+<h2>Enneagram 6 Description</h2>
 
 Type 6's are often described as responsible, reliable, and hardworking. They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6's are also known for their desire for stability and security, both in their personal and professional lives.
 
@@ -181,26 +181,29 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 <svelte:head>
 
 <script type="application/ld+json">
-    {
+{
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Enneagram Type 6, often referred to as the Loyalist or the Questioner, is known for being responsible, reliable, and hardworking. They value security, safety, and stability and are highly committed to their relationships and communities.",
       "name": "Enneagram type 6"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 3 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 6: The Loyalist",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
         "Type 6",
@@ -221,20 +224,38 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         "Workplace traits",
         "Relationship traits",
         "Growth opportunities",
-        "Self-development",
-        "stress"
+        "Self-development"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-6",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
       "mainEntity": [
-        {
-          "type": "Question",
-          "acceptedAnswer": {
+         {
+          "@type": "Question",
+           "acceptedAnswer": {
             "type": "Answer",
             "text": "Key characteristics of Enneagram Type 6 include loyalty, anxiety, preparation, and skepticism. They are known for being responsible, reliable, and hardworking, placing a high value on security and stability."
           },
           "name": "What are the key characteristics of Enneagram Type 6?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Strengths of Enneagram Type 6 individuals include loyalty, dedication, handling stress and adversity, strategic thinking, and seeing multiple perspectives. Weaknesses or challenges they may face include anxiety and uncertainty, indecision, difficulty trusting their own abilities, and self-doubt."
@@ -242,30 +263,18 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
           "name": "What are the strengths and weaknesses of Enneagram Type 6?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 6 individuals can grow and develop by building inner trust, embracing change, practicing self-care, developing independence, and cultivating positive relationships."
           },
           "name": "How can Enneagram Type 6 individuals grow and develop?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-6",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

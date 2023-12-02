@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 1: The Perfectionist'
+title: 'Overview of Enneagram Type 1: The Perfectionist'
 description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 1</h2>
+<h2>Enneagram 1 Description</h2>
 
 Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong, and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place, and they may become involved in causes and organizations that align with their values.They are driven by a sense of duty and responsibility, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, and they strive for excellence in all areas of their life.
 
@@ -185,7 +185,7 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "additionalType": "EnneagramType1",
       "alternateName": [
         "Perfectionist",
@@ -195,49 +195,63 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
       "name": "Enneagram Type 1"
     },
     {
-      "type": "BlogPosting",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 1: The Perfectionist",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
+      "dateModified": "2023-12-01",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",
       "keywords": [
         "Enneagram",
-        "Type 2",
-        "Helper",
+        "Type 1",
+        "Perfectionist",
+        "Reformer",
         "characteristics",
         "strengths",
         "weaknesses",
-        "motivations",
-        "fears",
-        "relationships",
-        "workplace",
         "growth",
-        "development",
-        "stress"
+        "development"
       ],
-      "mainEntity": [
-        {
-          "type": "Person",
-          "jobTitle": "Helper",
-          "name": "Enneagram Type 2"
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-1",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
-        {
-          "type": "Question",
-          "acceptedAnswer": {
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+         {
+          "@type": "Question",
+           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 1 personalities are known for their strong sense of right and wrong, desire for improvement, commitment to making the world a better place, sense of duty and responsibility, high standards, and desire for control and order. They are often highly organized, efficient, and driven by their ethical principles."
           },
           "name": "What are the key characteristics of an Enneagram Type 1 personality?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Strengths of Enneagram Type 1 individuals include their strong sense of responsibility, work ethic, determination, organization, and ethical decision-making. Weaknesses or challenges they may face include being overly critical, struggling with flexibility, feeling guilty, having difficulty relaxing, neglecting self-care, and becoming rigid or dogmatic in their thinking."
@@ -245,30 +259,18 @@ Another area where Enneagram Type 1 individuals may struggle is in their relatio
           "name": "What are the strengths and weaknesses of an Enneagram Type 1 personality?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Type 1 personalities can grow and develop by practicing self-compassion, learning to let go of control, exploring their creativity, cultivating flexibility in thinking and behavior, seeking out constructive feedback, and engaging in self-reflection and introspection through journaling, meditation, or therapy."
           },
           "name": "How can an Enneagram Type 1 personality grow and develop?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-1",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

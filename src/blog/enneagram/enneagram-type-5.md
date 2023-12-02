@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 5: The Observer'
+title: 'Overview of Enneagram Type 5: The Observer'
 description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2023-09-03'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 5</h2>
+<h2>Enneagram 5 Description</h2>
 
 - A strong desire for knowledge and information
 - A tendency to be introspective and self-contained
@@ -176,22 +176,25 @@ To help foster personal growth and development for individuals with a Type 5 per
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Enneagram Type 5, also known as the 'observer' or the 'investigator', is known for their analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.",
       "name": "Enneagram type 5"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 5 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 5: The Observer",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",
         "Observer",
@@ -200,51 +203,57 @@ To help foster personal growth and development for individuals with a Type 5 per
         "Analytical",
         "Introverted",
         "Reserved",
-        "Independent",
-        "stress"
+        "Independent"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-5",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
       "mainEntity": [
-        {
-          "type": "Question",
+         {
+          "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 5 individuals are characterized by a strong desire for knowledge and information, a tendency to be introspective and self-contained, a need for privacy and personal space, an analytical and logical approach to problem-solving, a preference for independence and autonomy, an aversion to small talk and socializing, and a tendency to become detached or disengaged in social situations."
           },
           "name": "What are the characteristics of Enneagram Type 5?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Strengths of Enneagram Type 5 individuals include intelligence, analytical thinking, objectivity, and innovation. Weaknesses or challenges they may face include detachment, isolation, and overthinking."
           },
           "name": "What are the strengths and weaknesses of Enneagram Type 5?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 5 individuals can grow and develop by cultivating emotional awareness, practicing assertiveness, engaging in physical activities, seeking out new experiences, connecting with others, and developing interpersonal skills."
           },
           "name": "How can Enneagram Type 5 individuals grow and develop?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-5",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

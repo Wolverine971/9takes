@@ -150,7 +150,7 @@
 	const scrollToSection = (sectionId: string) => {
 		const section = document.getElementById(sectionId);
 		if (section) {
-			section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+			section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
 		}
 	};
 
@@ -181,7 +181,7 @@
 				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
 				on:click={(e) => {
 					e.preventDefault();
-					selectedTab = 'visuals';
+					selectedTab = 'comments';
 					scrollToSection('comments');
 				}}
 				style:--tag={`a-comment${data.id}`}
@@ -406,7 +406,7 @@
 	.flexr {
 		flex: 1 0 100%;
 		position: relative;
-		scroll-margin-top: 15rem;
+		scroll-snap-align: start;
 	}
 
 	.tab-box {
@@ -499,6 +499,7 @@
 		display: flex;
 		overflow-x: auto;
 		scroll-snap-type: x mandatory;
+		// scroll-padding: 30px 40px;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 		// touch-action: pan-x;
@@ -522,6 +523,7 @@
 
 	.slides > div {
 		scroll-snap-align: center;
+		// scroll-padding: 30px 40px;
 
 		// transform-origin: center center;
 		transition: transform 0.5s;

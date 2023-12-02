@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 9: The Peacemaker'
+title: 'Overview of Enneagram Type 9: The Peacemaker'
 description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 9</h2>
+<h2>Enneagram 9 Description</h2>
 
 Type 9's are often described as easy-going, peaceful, and level-headed. They are highly adaptable and are able to go with the flow of any situation. They are also known for their ability to see multiple perspectives and for their ability to bring people together. Type 9's are also known for their desire for harmony and stability, both in their personal and professional lives.
 
@@ -178,26 +178,29 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <svelte:head>
 
 <script type="application/ld+json">
-{
+  {
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Enneagram Type 9 personalities are known for their ability to maintain harmony and avoid conflict in their relationships. They are empathetic, optimistic, and have a strong desire to create a peaceful and comfortable environment for themselves and others.",
       "name": "Enneagram type 9"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 9 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 9: The Peacemaker",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 9",
         "The Peacemaker",
@@ -210,12 +213,30 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         "Fears",
         "Growth and Development",
         "Relationships",
-        "Workplace Traits",
-        "stress"
+        "Workplace Traits"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-9",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+     {
+      "@type": "FAQPage",
       "mainEntity": [
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Easy-going and adaptable, empathetic and compassionate, supportive and nurturing, non-judgmental and accepting, diplomatic and tactful, creative and imaginative."
@@ -223,7 +244,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "name": "What are the characteristics of Enneagram Type 9?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Strengths: Ability to empathize and connect with others, strong listening and communication skills, flexible and adaptable in new situations, strong sense of creativity and imagination, ability to see multiple perspectives and find common ground, diplomatic and tactful approach to conflict resolution. Weaknesses: Tendency to avoid conflict and become passive, difficulty asserting themselves and their needs, tendency to procrastinate or become complacent, struggle to make decisions or take action without input from others, tendency to become overly accommodating or indecisive, struggle to set clear boundaries or say no to others."
@@ -231,30 +252,18 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "name": "What are the strengths and weaknesses of Enneagram Type 9?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 9 individuals can grow and develop by focusing on their strengths and using them to their advantage, being aware of their weaknesses and working to improve upon them, practicing assertiveness and setting clear boundaries to avoid becoming overly accommodating or passive, embracing their creativity and imagination, and practicing self-care and prioritizing their own needs to avoid becoming complacent or neglecting their own well-being."
           },
           "name": "How can Enneagram Type 9 individuals grow and develop?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-9",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

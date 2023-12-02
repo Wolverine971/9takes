@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 2: The Helper'
+title: 'Overview of Enneagram Type 2: The Helper'
 description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 2</h2>
+<h2>Enneagram 2 Description</h2>
 
 - They are generous with their time and energy, and often put the needs of others before their own.
 - They are excellent at reading the emotions of others and providing emotional support.
@@ -169,49 +169,70 @@ If you identify as a Type 2 personality, there are a number of things you can do
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
+      "@type": "Person",
       "description": "Enneagram Type 2, known as 'The Helper', is a personality type characterized by a strong desire to be loved and appreciated by others.",
       "name": "Enneagram Type 2"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 2 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 2: The Helper",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",
       "keywords": [
         "Type 2",
         "Helper",
-        "characteristics",
-        "strengths",
-        "weaknesses",
-        "motivations",
-        "fears",
-        "relationships",
-        "workplace",
-        "growth",
-        "development",
-        "stress"
+        "Characteristics",
+        "Strengths",
+        "Weaknesses",
+        "Motivations",
+        "Fears",
+        "Relationships",
+        "Workplace",
+        "Growth",
+        "Development"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-2",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
       "mainEntity": [
-        {
-          "type": "Question",
-          "acceptedAnswer": {
+         {
+          "@type": "Question",
+           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 2 individuals, also known as 'The Helper,' are characterized by their empathy, service-oriented nature, emotional intelligence, and leadership. They are generous with their time and energy, often putting others' needs before their own, and excel at reading and providing emotional support."
           },
           "name": "What are the key characteristics of Enneagram Type 2 personalities?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 2 individuals face challenges such as codependency, people-pleasing, and burnout. They often prioritize others' needs over their own, leading to neglect of their personal needs and a strong desire for appreciation from others. This can result in a tendency to overcommit and experience burnout."
@@ -219,30 +240,18 @@ If you identify as a Type 2 personality, there are a number of things you can do
           "name": "What are the main challenges and weaknesses of Enneagram Type 2 individuals?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Type 2 personalities can focus on self-care, setting healthy boundaries, prioritizing their own needs, and improving communication skills. Developing a strong sense of self not dependent on others' validation can also help them feel more secure. Seeking therapy or counseling can provide additional support for emotional processing and developing healthier coping strategies."
           },
           "name": "How can Enneagram Type 2 individuals grow and develop?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-2",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

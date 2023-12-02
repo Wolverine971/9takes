@@ -111,7 +111,7 @@
 </script>
 
 <div class="card">
-	<h1 style="text-align: center">Create Question</h1>
+	<h1 style="text-align: center">Ask a question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
 		<textarea
 			rows="3"

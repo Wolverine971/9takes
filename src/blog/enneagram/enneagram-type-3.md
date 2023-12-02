@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 3: The Achiever'
+title: 'Overview of Enneagram Type 3: The Achiever'
 description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2023-07-13'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 3</h2>
+<h2>Enneagram 3 Description</h2>
 
 Enneagram Type 3 individuals are known for their high energy, ambitious nature, and strong work ethic. They are skilled at presenting themselves in a positive light and are often seen as confident and charismatic. However, their desire for success can sometimes lead them to prioritize their image over their true feelings or beliefs.
 
@@ -175,45 +175,67 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
-      "description": "Enneagram type 3, also known as “The Achiever,” is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.",
+      "@type": "Person",
+      "description": "Enneagram type 3, also known as 'The Achiever,' is one of the most ambitious and success-driven personality types. They have a strong desire to excel in their chosen field, and they are highly motivated to achieve their goals. They are known for their ability to adapt and to be versatile in different situations and are able to change their approach and strategies to achieve their goals.",
       "name": "Enneagram type 3"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 3 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 3: The Achiever",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
-        "type 3",
+        "Type 3",
         "Achiever",
         "Personality",
         "Self-improvement",
-        "stress"
+        "Stress"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-3",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
       "mainEntity": [
-        {
-          "type": "Question",
-          "acceptedAnswer": {
+         {
+          "@type": "Question",
+           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram type 3, also known as 'The Achiever', is characterized by high energy, an ambitious nature, strong work ethic, confidence, and adaptability. They are driven to excel in their chosen field and are motivated by success and recognition."
           },
           "name": "What are the key characteristics of Enneagram type 3?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Type 3 individuals can grow and develop by cultivating self-awareness, embracing vulnerability, prioritizing relationships, developing empathy, and focusing on personal growth. Setting personal goals related to emotional well-being and personal growth can also be beneficial."
@@ -221,30 +243,18 @@ Enneagram Type 3 individuals, also known as "The Achiever," can grow and develop
           "name": "How can Enneagram type 3 individuals grow and develop?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram type 3 individuals often struggle with fears of failure, being unimportant, not being loved, being exposed as a fraud, and being vulnerable. Challenges they may face include image consciousness, workaholism, and inauthenticity."
           },
           "name": "What are some common fears and challenges faced by Enneagram type 3?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-3",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
 </script>
 
 </svelte:head>

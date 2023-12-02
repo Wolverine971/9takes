@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Type 7: The Enthusiast'
+title: 'Overview of Enneagram Type 7: The Enthusiast'
 description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2023-07-29'
+lastmod: '2023-12-01'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,7 +25,7 @@ type: ['overview']
 
 <article class="section-content">
 
-<h2>Characteristics of an Enneagram 7</h2>
+<h2>Enneagram 7 Description</h2>
 
 - Optimistic and enthusiastic
 - Energetic and creative
@@ -160,33 +160,54 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
   "@context": "http://schema.org",
   "@graph": [
     {
-      "type": "Person",
-      "description": "Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to over commit, as they have a fear of missing out on anything exciting.",
+      "@type": "Person",
+      "description": "Type 7 individuals are known for their boundless enthusiasm, optimism, and love for adventure. They have a natural ability to see the positive in everything and are always eager to try new experiences. However, this enthusiasm can sometimes lead them to overcommit, as they have a fear of missing out on anything exciting.",
       "name": "Enneagram type 7"
     },
     {
-      "type": "BlogPosting",
-      "name": "Enneagram Type 7 Overview Sections",
-      "creator" : ["DJ Wayne"],
+      "@type": "BlogPosting",
+      "name": "Overview of Enneagram Type 7: The Enthusiast",
       "author": {
-        "type": "Person",
+        "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-07-13",
-      "datePublished": "2023-2-18",
+      "dateModified": "2023-12-01",
+      "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
         "Type 7",
         "Enthusiast",
         "Epicure",
-        "Personality",
-        "stress"
+        "Personality"
       ],
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-type-7",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "9takes",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ]
+      }
+    },
+     {
+      "@type": "FAQPage",
       "mainEntity": [
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Enneagram Type 7 individuals are characterized by their optimism, enthusiasm, energy, creativity, love for exploration, fear of missing out (FOMO), sociability, adaptability, and struggles with commitment and follow-through."
@@ -194,7 +215,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
           "name": "What are the characteristics of Enneagram Type 7 individuals?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Strengths of Type 7 individuals include optimism, adventure, adaptability, resourcefulness, and creativity. Weaknesses include impulsivity, lack of commitment, and avoidance of negative emotions."
@@ -202,30 +223,21 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
           "name": "What are the strengths and weaknesses of Type 7 individuals?"
         },
         {
-          "type": "Question",
+          "@type": "Question",
           "acceptedAnswer": {
             "type": "Answer",
             "text": "Type 7 individuals can develop and grow by learning to embrace discomfort, setting realistic goals and priorities, developing patience and self-control, facing and accepting negative emotions, and practicing gratitude and appreciation."
           },
           "name": "How can Type 7 individuals develop and grow personally?"
         }
-      ],
-      "mainEntityOfPage": {
-        "id": "https://9takes.com/blog/enneagram/enneagram-type-7",
-        "type": "WebPage"
-      },
-      "publisher": {
-        "type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
+      ]
     }
   ]
 }
+
+
+
+
 </script>
 
 </svelte:head>
