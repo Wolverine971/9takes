@@ -6,8 +6,9 @@
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
 	import { Comments } from '$lib/components/molecules';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
-
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
+	import { createEventDispatcher } from 'svelte';
+	const dispatch = createEventDispatcher();
 
 	interface PassedPageData {
 		id: number;
@@ -324,7 +325,17 @@
 					</span>
 				{/if}
 				<AIComments questionId={data.id} data={_data} parentType={'question'} {user} />
-				<Comments questionId={data.id} data={_data} parentType={'question'} {user} />
+				<Comments
+					questionId={data.id}
+					data={_data}
+					parentType={'question'}
+					{user}
+					on:commentAdded={({ detail }) => {
+						if (!data?.flags?.userHasAnswered) {
+							dispatch('commentAdded');
+						}
+					}}
+				/>
 			</Card>
 		</div>
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">

@@ -416,6 +416,7 @@ th {
 
 .scrollable-div {
 	overflow-y: scroll;
+	overscroll-behavior-y: contain;
 }
 
 .scrollable-div::-webkit-scrollbar {

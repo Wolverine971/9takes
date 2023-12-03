@@ -4,6 +4,7 @@
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import QRCode from 'qrcode';
+	import { invalidateAll } from '$app/navigation';
 
 	/** @type {import('./$types').PageData} */
 	export let data: PageData;
@@ -143,7 +144,14 @@
 </article>
 
 {#if dataForChild}
-	<QuestionContent data={dataForChild} user={data?.session?.user} />
+	<QuestionContent
+		data={dataForChild}
+		user={data?.session?.user}
+		on:commentAdded={({ detail }) => {
+			console.log('invalidateAll');
+			invalidateAll();
+		}}
+	/>
 {/if}
 
 <style lang="scss">

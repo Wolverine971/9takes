@@ -1,6 +1,6 @@
 import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { supabase } from '$lib/supabase';
-import { Configuration, OpenAIApi } from 'openai';
+import OpenAI from 'openai';
 import { checkDemoTime } from './api';
 
 export const tagQuestions = async () => {
@@ -45,25 +45,23 @@ export const tagQuestions = async () => {
 		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.tag_name).join(', '));
 		const questionsToClassify = getTheQuestionsToClassify(questions.map((e) => e.question));
 
-		const configuration = new Configuration({
-			organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
+		const openai = new OpenAI({
 			apiKey: PRIVATE_AI_API_KEY
 		});
-
-		const openai = new OpenAIApi(configuration);
-		const completion = await openai.createChatCompletion({
-			model: 'gpt-3.5-turbo',
+		const completion = await openai.chat.completions.create({
+			model: 'gpt-3.5-turbo-1106',
 			messages: [
 				{ role: 'system', content: prompt },
 				{ role: 'user', content: questionsToClassify.toString() }
-			]
+			],
+			response_format: { type: "json_object" },
 		});
 
-		if (!completion?.data?.choices[0]?.message?.content) {
+		if (!completion?.choices[0]?.message?.content) {
 			return;
 		}
 
-		const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
+		const cleanedTags = JSON.parse(completion.choices[0].message.content);
 		if (!cleanedTags) {
 			return;
 		}
@@ -119,64 +117,84 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		return;
 	}
 
-	const configuration = new Configuration({
+	const openai = new OpenAI({
 		organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
 		apiKey: PRIVATE_AI_API_KEY
 	});
-
-	const openai = new OpenAIApi(configuration);
-	const completion = await openai.createChatCompletion({
-		model: 'gpt-3.5-turbo',
+	const completion = await openai.chat.completions.create({
+		model: 'gpt-3.5-turbo-1106',
 		messages: [
 			{ role: 'system', content: getPrompt(tags.map((e) => e.tag_name)) },
 			{ role: 'user', content: questionText }
-		]
+		],
+		response_format: { type: "json_object" },
 	});
 
-	if (!completion?.data?.choices[0]?.message?.content) {
+	if (!completion?.choices[0]?.message?.content) {
 		return;
 	}
 
-	const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
+	const chatResp = JSON.parse(completion.choices[0].message.content);
 
-	if (!cleanedTags?.length) {
+
+	// {
+	// 	answers: [
+	// 	  {
+	// 		"1": "I hope people describe me as compassionate and idealistic, always striving to make the world a better place.",
+	// 		"2": "I hope people see me as warm and empathetic, someone who can connect with others on a deeper level.",
+	// 		"3": "I hope people describe me as successful and driven, someone who sets high goals and achieves them.",
+	// 		"4": "I hope people see me as creative and authentic, valuing deep connections and emotional expression.",
+	// 		"5": "I hope people describe me as knowledgeable and perceptive, someone who seeks to understand the world deeply.",
+	// 		"6": "I hope people see me as loyal and trustworthy, someone who can always be counted on.",
+	// 		"7": "I hope people describe me as adventurous and fun-loving, always seeking new experiences and opportunities.",
+	// 		"8": "I hope people see me as strong and confident, someone who stands up for themselves and others.",
+	// 		"9": "I hope people describe me as peaceful and harmonious, someone who brings people together and avoids conflict.",
+	// 	  },
+	// 	],
+	// 	question: "How do you hope people describe you",
+	// 	tags: [
+	// 	  "Self-awareness and Self-understanding",
+	// 	  "Building Self-confidence and Self-worth",
+	// 	  "Engaging with Community and Neighbors",
+	// 	  "Building Social Bonds and Trust",
+	// 	  "Personal Growth",
+	// 	],
+	//   }
+
+	if (!chatResp?.answers) {
+		console.log(chatResp);
 		return;
 	}
 
 	await supabase
 		.from('questions')
-		.update({ tagged: true, updated_at: new Date(), question_formatted: cleanedTags[0].question })
+		.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question })
 		.eq('id', questionId).then(async () => {
 
-			for await (const tag of cleanedTags) {
-				const newTags = tag.tags;
-				const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+			const newTags = chatResp.tags
+			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
 
-				const newTagIds = newTagz.map((e) => e.tag_id);
+			const newTagIds = newTagz.map((e) => e.tag_id);
 
-				if (!questionId) {
-					continue;
-				}
 
-				if (!newTagz.length) {
-					await supabase
-						.from('questions')
-						.update({ flagged: true, updated_at: new Date() })
-						.eq('id', questionId);
-					continue;
-				} else {
 
-					newTagIds.forEach(async (tagId) => {
-						await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
-					});
-				}
+			if (!newTagz.length) {
+				await supabase
+					.from('questions')
+					.update({ flagged: true, updated_at: new Date() })
+					.eq('id', questionId);
+			} else {
+
+				newTagIds.forEach(async (tagId) => {
+					await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+				});
 			}
 
 			// update ai comments
-			if (cleanedTags?.[0]?.answers?.length) {
-				for await (const answer of cleanedTags[0].answers) {
-					const type = Object.keys(answer)[0];
-					const answerText = Object.values(answer)[0];
+			if (chatResp.answers) {
+				for await (const answerKey of Object.keys(chatResp.answers)) {
+					const type = answerKey
+					const answerText = chatResp.answers[answerKey];
 					if (type && answerText) {
 						await supabase
 							.from('comments_ai')
@@ -217,28 +235,36 @@ const classifyOneQuestionPrompt = `Your task involves two main components: respo
  
  
  
- Format the Response in VALID JSON:
- Structure your response as a JSON array.
- Include an identifier for each question/statement, the tags, and the Enneagram-based answers.
- For Example:
+ Format the Response in VALID JSON like the following example:
  [
-    {
-        "id": 1,
-        "question": "I need date ideas. What would you do?",
-        "tags": ["Personal Growth", "Romantic Relationships"],
-        "answers": [
-            {"1": "I would organize a volunteering date to help others."},
-            {"2": "I'd plan a romantic dinner at home."},
-            ...
-            {"9": "A quiet evening walk would be nice."}
-        ]
-    }
-]
+	{
+	  id: 1,
+	  question: "What was your dream job as a child?",
+	  tags: [
+		"Personal Growth",
+		"Career Development",
+		"Childhood",
+		"Aspirations",
+	  ],
+	  answers: {
+		  "1": "As a child, I dreamed of having a job where I could make a positive impact on the world, like becoming a teacher or a social worker.",
+		  "2": "I always wanted to be a performer, like an actor or a singer. I loved the idea of being on stage and entertaining people.",
+		  "3": "I wanted to be a successful entrepreneur. Even as a child, I was always thinking of new business ideas and ways to make money.",
+		  "4": "As a child, I was drawn to creative fields like writing or painting. I loved the idea of expressing myself through art.",
+		  "5": "My dream job as a child was to become a scientist or an inventor. I was fascinated by the world of discovery and innovation.",
+		  "6": "I wanted to be a police officer or a firefighter. I admired the bravery and dedication of those professions.",
+		  "7": "As a child, I dreamed of being a travel blogger or a photographer. I wanted to explore the world and capture its beauty.",
+		  "8": "I wanted to be a professional athlete. I loved sports and the idea of competing at the highest level.",
+		  "9": "My dream job as a child was to be a veterinarian. I had a strong love for animals and wanted to help them."
+		},
+	  ],
+	},
+  ]
 
 Classify the Question or Statement:
 Tag the question or statement with applicable predefined tags.
- A question or statement can be associated with multiple tags.
-
+A question or statement can be associated with multiple tags.
+Only tag from these predefined tags:
 `
 
 

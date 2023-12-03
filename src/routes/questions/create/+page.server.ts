@@ -126,13 +126,13 @@ export const actions: Actions = {
 			}
 		}
 
-		const esId = null;
-		// if (demo_time === false) {
-		// 	const resp: any = await createESQuestion(body);
-		// 	if (resp._id) {
-		// 		esId = resp._id;
-		// 	}
-		// }
+		let esId = null;
+		if (demo_time === false) {
+			const resp: any = await createESQuestion(body);
+			if (resp._id) {
+				esId = resp._id;
+			}
+		}
 		const qData = {
 			es_id: esId,
 			question: question,
@@ -147,7 +147,7 @@ export const actions: Actions = {
 			.select();
 
 		if (insertedQuestion?.length && !questionInsertError) {
-			await tagQuestion(question, insertedQuestion[0].id);
+			tagQuestion(question, insertedQuestion[0].id);
 
 			return insertedQuestion;
 		}

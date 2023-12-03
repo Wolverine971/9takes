@@ -76,7 +76,6 @@
 		outline-offset: -1px;
 		object-fit: scale-down;
 		border-bottom: 3px solid var(--color-theme-purple-v);
-		outline: 2px solid #fdfdfb;
 		justify-content: flex-start;
 		max-width: 64rem;
 		align-items: center;

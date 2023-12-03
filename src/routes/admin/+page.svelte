@@ -26,6 +26,7 @@
 			body
 		});
 		notifications.info('Reindexed Questions', 3000);
+		getModal('confirmReindex').close();
 	};
 </script>
 

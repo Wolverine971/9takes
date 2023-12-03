@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { createEventDispatcher } from 'svelte';
 	import Comment from './Comment.svelte';
+	const dispatch = createEventDispatcher();
 
 	let loading = false;
 
@@ -49,6 +51,7 @@
 		if (parentType !== 'question') {
 			return;
 		}
+		dispatch('commentAdded');
 		loading = true;
 		await fetch(
 			`/comments/?type=${parentType}&parentId=${
