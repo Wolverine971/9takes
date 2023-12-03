@@ -22,7 +22,7 @@ const config = {
 		preprocess({
 			postcss: true,
 			'postcss-scss': true,
-			preserve: ['ld+json'],
+			preserve: ['ld+json', 'partytown'],
 			// scss: {
 			// 	prependData: `@import '${sassPath}index.scss';`
 			// }

@@ -3,22 +3,12 @@
 	import { page } from '$app/stores';
 	import { env } from '$env/dynamic/public';
 	// import { PUBLIC_GOOGLE } from '$env/static/public';
-
-	let PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
-	$: {
-		if (typeof gtag !== 'undefined') {
-			gtag('config', 'MEASUREMENT_ID', {
-				page_title: document.title,
-				page_path: $page.url.pathname
-			});
-		}
-	}
 </script>
 
 <svelte:head>
 	<!-- Google tag (gtag.js) -->
 	{#if !dev}
-		<script type="text/javascript" defer>
+		<!-- <script type="text/javascript" defer>
 			if (document.URL.includes('9takes')) {
 				(function (c, l, a, r, i, t, y) {
 					c[a] =
@@ -95,6 +85,6 @@
 			posthog.init('phc_osbO9KZwWV9XRGSD2pIzPF7yGbNO92SfjXkuGi6Vljf', {
 				api_host: 'https://app.posthog.com'
 			});
-		</script>
+		</script> -->
 	{/if}
 </svelte:head>

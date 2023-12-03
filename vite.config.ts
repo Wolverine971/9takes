@@ -1,7 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
-
 const dev = process.env.NODE_ENV === 'development';
 
 let webSocketServer;
