@@ -1,6 +1,6 @@
 ---
 title: 'Introducing 9takes'
-description: 'Questions and answers inspired by the Enneagram'
+description: 'Explore 9takes: A unique Q&A platform fostering diverse, anonymous perspectives inspired by the Enneagram.'
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'

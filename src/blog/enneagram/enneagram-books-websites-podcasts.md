@@ -57,7 +57,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/the-enneagram-journey/id1292950516">The Enneagram Journey with Suzanne Stabile</a>: This podcast features interviews with people from various backgrounds, discussing their experiences with the Enneagram and offering practical advice for growth and understanding.
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/typology/id1254061093">Typology with Ian Morgan Cron</a>: Cron, co-author of The Road Back to You, interviews guests from diverse fields, exploring how the Enneagram has impacted their lives and careers.
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">The Enneagram and Coffee with Sarajane Case</a>: In this lighthearted podcast, Case discusses Enneagram-related topics, ranging from type-specific self-care tips to common misconceptions, all while enjoying a cup of coffee.
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://podcasts.apple.com/ca/podcast/enneagram-for-idiots/id1338051017">Enneagram for Idiots by Tara and Marissa</a>. Its a banter podcast and it is hilarious.
+- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.podbean.com/podcast-detail/afar6-65fca/Enneagram-for-Idiots-Podcast">Enneagram for Idiots by Tara and Marissa</a>. Its a banter podcast and it is hilarious.
 
 <svelte:head>
 

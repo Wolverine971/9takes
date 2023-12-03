@@ -47,7 +47,7 @@ margin: 1rem 0;"
     justify-content: center;
     margin: 1rem 0;"
 >
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A brief introduction to neoclassical Architecture... <a href="https://t.co/XE8453cvRU">pic.twitter.com/XE8453cvRU</a></p>&mdash; The Cultural Tutor (@culturaltutor) <a href="https://twitter.com/culturaltutor/status/1705236124581404929?ref_src=twsrc%5Etfw">September 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A brief introduction to Neoclassical Architecture... <a href="https://t.co/XE8453cvRU">pic.twitter.com/XE8453cvRU</a></p>&mdash; The Cultural Tutor (@culturaltutor) <a href="https://twitter.com/culturaltutor/status/1705236124581404929?ref_src=twsrc%5Etfw">September 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>
 
