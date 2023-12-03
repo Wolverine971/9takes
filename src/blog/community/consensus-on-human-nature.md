@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
-lastmod: '2023-09-16'
+lastmod: '2023-12-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,9 +14,6 @@ previewHtml: ''
 pic: ''
 ---
 
-<svelte:head>
-
-</svelte:head>
 
 <!-- <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
@@ -107,6 +104,104 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 ## Wrapping it up
 
 So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something checkout the <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
+
+<svelte:head>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article explores the varying perspectives on human nature, focusing on the theories of Plato, Aristotle, Freud, and Steven Pinker. It delves into the complexities of human nature, contrasting the logical and illogical aspects. The article discusses Plato’s tripartite soul theory and Freud's concept of the id, ego, and superego, while examining Pinker's emphasis on rationality. The blog concludes by pondering whether human nature can be simplified or if the theories of Plato and Freud offer a more accurate representation.",
+      "creator": [
+        "DJ Wayne"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2023-12-02",
+      "datePublished": "2023-07-16",
+      "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
+      "headline": "The Consensus on Human Nature",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/community/consensus-on-human-nature",
+        "@type": "WebPage"
+      },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Human Nature"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the two main perspectives on human nature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The two main perspectives on human nature are the fluctuation between logical and illogical behavior and the complexity of human psyche. Philosophers Plato and Aristotle, along with psychologists Freud and Steven Pinker, represent opposing views on this topic. Aristotle and Pinker advocate for rationality, while Plato and Freud present a more complex interplay of elements within the human psyche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What was Plato's view of human nature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Plato viewed human nature as divided into three parts: reason, spirit, and appetite, forming the 'tripartite soul.' Reason represents wisdom and logical thinking, spirit relates to emotions and noble ideals, and appetite concerns bodily desires and needs"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do Freud's concepts relate to Plato's theory of the soul?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Freud’s theory of the mind, comprising the id, ego, and superego, parallels Plato's tripartite soul. The id corresponds to Plato's appetite, representing instinctual drives; the ego is akin to reason, mediating rational thought; and the superego aligns with spirit, embodying internalized societal values and moral standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Steven Pinker's stance on human nature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Steven Pinker advocates for rationality in understanding human nature. He posits that discussions on human nature tend to oversimplify by focusing predominantly on rational aspects, thereby neglecting the complex interplay of rational and irrational elements in the human psyche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the 9takes blog conclude about the understanding of human nature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 9takes blog suggests that while figures like Aristotle and Pinker have aimed to simplify human nature, the complexity outlined by Plato and Freud might offer a more accurate representation. The blog implies that the recurring divisions in theories of human nature might provide a more comprehensive understanding of the concept."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+</svelte:head>
 
 <style lang="scss">
 </style>

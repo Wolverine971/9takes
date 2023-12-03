@@ -4,7 +4,7 @@ description: "Dive into the Enneagram's roots in philosophy and psychology. Expl
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
-lastmod: '2023-09-04'
+lastmod: '2023-12-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -108,7 +108,10 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
+  "@context": "http://schema.org",
+  "@graph": [
+{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "creator" : ["DJ Wayne"],
@@ -132,7 +135,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   ],
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-09-04"
+    "@value": "2023-12-02"
   },
   "datePublished": {
     "@type": "Date",
@@ -190,8 +193,46 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         "name": "9takes"
       }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+      "@type": "Question",
+      "name": "What is the Enneagram and its significance in understanding human behavior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Enneagram is a framework that refracts the complexity of human behaviors and personal growth into understandable patterns, tracing its roots back to philosophical and psychological concepts. It maps the intersections between its intelligence centers and influential constructs of the psyche by Freud, as well as Plato's blueprint of the human soul."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Plato’s Tripartite Soul theory align with the Enneagram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plato's idea of the human soul, comprising reason, spirit, and appetite, aligns with the Enneagram’s intellectual, emotional, and instinctual intelligence centers, respectively. Reason guides thinking and decision-making, spirit drives emotions and desires, and appetite governs primal needs and drives."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Freud's Model of the Psyche parallel the Enneagram?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freud's theory of the human psyche, comprising the id, ego, and superego, parallels the Enneagram’s intelligence centers. The id aligns with instinctual intelligence, the ego with intellectual intelligence, and the superego with emotional intelligence, each governing primal drives, rational thought, and moral compass, respectively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the core emotions that shape the Enneagram’s intelligence centers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The core emotions shaping the Enneagram’s intelligence centers are fear, shame, and anger. Fear drives intellectual intelligence, shaping our understanding of the world. Shame, the core of emotional intelligence, influences our interpersonal relationships. Anger fuels instinctual intelligence, focusing on our responses to threats and challenges."
+      }
+    }
+  ]
 }
-
+]
+  }
 </script>
 
 </svelte:head>
