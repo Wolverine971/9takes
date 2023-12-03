@@ -54,12 +54,12 @@ const config = {
 			checkOrigin: true
 		},
 		csp: {
-			directives: {
-				'script-src': ['self']
-			},
-			reportOnly: {
-				'script-src': ['self']
-			}
+			// directives: {
+			// 	'script-src': ['self']
+			// }
+			// reportOnly: {
+			// 	'script-src': ['self']
+			// }
 		}
 	}
 };
