@@ -166,4 +166,8 @@
 		margin: 0.2rem;
 		padding: 0.5rem;
 	}
+	select {
+		border-radius: 5px;
+		border: var(--classic-border);
+	}
 </style>

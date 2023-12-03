@@ -1,4 +1,4 @@
-// import type { PostgrestResponse } from '@supabase/supabase-js';
+// import type { error, redirect } from '@supabase/supabase-js';
 import { error, redirect } from '@sveltejs/kit';
 import { deleteESQuestion, elasticClient } from '$lib/elasticSearch';
 import { supabase } from '$lib/supabase';
@@ -176,23 +176,31 @@ export const actions: Actions = {
 			return [];
 		}
 	},
-	sortComments: async ({ request }): Promise<Comment[]> => {
+	sortComments: async ({ request }) => {
 		try {
 			const demo_time = await checkDemoTime();
 
 			const body = Object.fromEntries(await request.formData());
 			const enneagramTypes = (body.enneagramTypes as string).split(',');
 			const questionId = parseInt(body.questionId as string);
+			const sortBy = body.sortBy as string;
+
 
 			const { data: comments, error: findCommentsError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.select(`*, ${demo_time === true ? 'profiles_demo' : 'profiles'}!inner (enneagram, id)`, {
+				.select(`*, 
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''} (enneagram, id)
+				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`, {
 					count: 'exact'
 				})
 				.eq('parent_type', 'question')
 				.eq('parent_id', questionId)
-				.in(`${demo_time === true ? 'profiles_demo' : 'profiles'}.enneagram`, enneagramTypes)
-				.order('created_at', { ascending: false });
+				.or(`enneagram.in.(${enneagramTypes.join(',')})`, {
+					foreignTable: 'profiles'
+				})
+				.order(sortBy === 'newest' || sortBy === 'oldest' ? 'created_at' : 'like_count',
+					{ ascending: sortBy === 'newest' || sortBy === 'oldest' ? sortBy === 'newest' ? false : true : false })
+
 			if (comments) {
 				return comments.map((c) => {
 					if (c.profiles_demo) {
@@ -222,7 +230,7 @@ export const actions: Actions = {
 
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
-				.select(`*`, { count: 'estimated' })
+				.select(`* `, { count: 'estimated' })
 				.order('created_at', { ascending: false })
 				.range(count, count + 10);
 

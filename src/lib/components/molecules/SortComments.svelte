@@ -25,6 +25,7 @@
 		let body = new FormData();
 		body.append('enneagramTypes', selected.join(','));
 		body.append('questionId', data.id);
+		body.append('sortBy', sortBy);
 
 		const resp = await fetch('/questions?/sortComments', {
 			method: 'POST',
@@ -45,6 +46,7 @@
 	const typeOptions = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `unknown`, `rando`];
 
 	let open: boolean = false;
+	let sortBy: string = 'newest';
 </script>
 
 <svelte:window bind:innerWidth />
@@ -90,6 +92,13 @@
 	<div style="margin: 2rem; min-width: 40vw">
 		<MultiSelect bind:selected options={typeOptions} />
 		<br />
+		<br />
+
+		<select bind:value={sortBy}>
+			<option value="newest">Newest</option>
+			<option value="oldest">Oldest</option>
+			<option value="likes">Likes</option>
+		</select>
 		<br />
 		<button
 			type="button"
@@ -157,5 +166,9 @@
 
 			border: 1px solid var(--color-theme-purple);
 		}
+	}
+	select {
+		border-radius: 5px;
+		border: var(--classic-border);
 	}
 </style>
