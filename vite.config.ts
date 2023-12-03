@@ -18,7 +18,10 @@ if (dev) {
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit(), nodeLoaderPlugin(), dev && webSocketServer, partytownVite()],
+	plugins: [sveltekit(), nodeLoaderPlugin(), dev && webSocketServer, partytownVite({
+		// `dest` specifies where files are copied to in production
+		dest: join(process.cwd(), 'static', '~partytown')
+	})],
 
 	define: {
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),
