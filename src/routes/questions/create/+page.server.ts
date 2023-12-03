@@ -25,59 +25,63 @@ import { checkDemoTime } from '../../../utils/api';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
-		const session = locals.session;
+		try {
+			const session = locals.session;
 
-		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const demo_time = await checkDemoTime();
+
+			const body = Object.fromEntries(await request.formData());
+
+			const question = body.question as string;
+			const tempUrl = getUrlString(question);
+
+			// export const typeaheadQuery = (
+			// 	index: string,
+			// 	field: string,
+			// 	text: string,
+			// 	size: number = 10
+			// ) => {
+			// 	return {
+			// 		index,
+			// 		body: {
+			// 			query: {
+			// 				match_phrase_prefix: {
+			// 					[field]: {
+			// 						query: text
+			// 					}
+			// 				}
+			// 			}
+			// 		},
+			// 		size
+			// 	};
+			// };
+			if (demo_time === true) {
+				return tempUrl;
+			}
+			const response = await elasticClient.search(typeaheadQuery('question', 'url', tempUrl, 200));
+			if (response.hits.hits.length) {
+				return `${tempUrl}-${response.hits.hits.length}`;
+				// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
+			} else {
+				return tempUrl;
+			}
+
+			// const response = await client.search(typeaheadQuery('question', 'url', tempUrl, 200));
+
+			// if (response.hits.hits.length) {
+			// 	res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
+			// } else {
+			// 	res.json({ url: tempUrl });
+			// }
+			// console.log(tempUrl);
+			// return tempUrl;
+		} catch (e) {
+			console.log(e);
 		}
-
-		const demo_time = await checkDemoTime();
-
-		const body = Object.fromEntries(await request.formData());
-
-		const question = body.question as string;
-		const tempUrl = getUrlString(question);
-
-		// export const typeaheadQuery = (
-		// 	index: string,
-		// 	field: string,
-		// 	text: string,
-		// 	size: number = 10
-		// ) => {
-		// 	return {
-		// 		index,
-		// 		body: {
-		// 			query: {
-		// 				match_phrase_prefix: {
-		// 					[field]: {
-		// 						query: text
-		// 					}
-		// 				}
-		// 			}
-		// 		},
-		// 		size
-		// 	};
-		// };
-		if (demo_time === true) {
-			return tempUrl;
-		}
-		const response = await elasticClient.search(typeaheadQuery('question', 'url', tempUrl, 200));
-		if (response.hits.hits.length) {
-			return `${tempUrl}-${response.hits.hits.length}`;
-			// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
-		} else {
-			return tempUrl;
-		}
-
-		// const response = await client.search(typeaheadQuery('question', 'url', tempUrl, 200));
-
-		// if (response.hits.hits.length) {
-		// 	res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
-		// } else {
-		// 	res.json({ url: tempUrl });
-		// }
-		// console.log(tempUrl);
-		// return tempUrl;
 	},
 	createQuestion: async (event) => {
 		const { request, locals } = event;
@@ -122,13 +126,13 @@ export const actions: Actions = {
 			}
 		}
 
-		let esId = null;
-		if (demo_time === false) {
-			const resp: any = await createESQuestion(body);
-			if (resp._id) {
-				esId = resp._id;
-			}
-		}
+		const esId = null;
+		// if (demo_time === false) {
+		// 	const resp: any = await createESQuestion(body);
+		// 	if (resp._id) {
+		// 		esId = resp._id;
+		// 	}
+		// }
 		const qData = {
 			es_id: esId,
 			question: question,

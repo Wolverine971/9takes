@@ -139,58 +139,59 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 	const cleanedTags = JSON.parse(completion.data.choices[0].message.content);
 
-	if (!cleanedTags) {
+	if (!cleanedTags?.length) {
 		return;
-	}
-
-	for await (const tag of cleanedTags) {
-		const newTags = tag.tags;
-		const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
-
-		const newTagIds = newTagz.map((e) => e.tag_id);
-
-		if (!questionId) {
-			continue;
-		}
-
-		if (!newTagz.length) {
-			await supabase
-				.from('questions')
-				.update({ flagged: true, updated_at: new Date() })
-				.eq('id', questionId);
-			continue;
-		} else {
-
-			newTagIds.forEach(async (tagId) => {
-				await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
-			});
-		}
 	}
 
 	await supabase
 		.from('questions')
 		.update({ tagged: true, updated_at: new Date(), question_formatted: cleanedTags[0].question })
-		.eq('id', questionId);
+		.eq('id', questionId).then(async () => {
 
-	// update ai comments
-	if (cleanedTags?.[0]?.answers?.length) {
-		for await (const answer of cleanedTags[0].answers) {
-			const type = Object.keys(answer)[0];
-			const answerText = Object.values(answer)[0];
-			if (type && answerText) {
-				await supabase
-					.from('comments_ai')
-					.insert({ enneagram_type: type, comment: answerText, question_id: questionId })
+			for await (const tag of cleanedTags) {
+				const newTags = tag.tags;
+				const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+
+				const newTagIds = newTagz.map((e) => e.tag_id);
+
+				if (!questionId) {
+					continue;
+				}
+
+				if (!newTagz.length) {
+					await supabase
+						.from('questions')
+						.update({ flagged: true, updated_at: new Date() })
+						.eq('id', questionId);
+					continue;
+				} else {
+
+					newTagIds.forEach(async (tagId) => {
+						await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+					});
+				}
 			}
-		}
-	}
+
+			// update ai comments
+			if (cleanedTags?.[0]?.answers?.length) {
+				for await (const answer of cleanedTags[0].answers) {
+					const type = Object.keys(answer)[0];
+					const answerText = Object.values(answer)[0];
+					if (type && answerText) {
+						await supabase
+							.from('comments_ai')
+							.insert({ enneagram_type: type, comment: answerText, question_id: questionId })
+					}
+				}
+			}
+		})
 
 	return;
 };
 
 // I can pull this system prompt dynamically
 
-const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do two things and return a json response. 
+export const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do two things and return a json response. 
 First, you should should use the Enneagram system of personality to answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
 The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
 
