@@ -34,11 +34,8 @@
 
 	export let data: PageData;
 	let innerWidth = 0;
-	let scriptEl;
 	onMount(async () => {
-		if (scriptEl) {
-			scriptEl.textContent = partytownSnippet();
-		}
+		
 		if (dev) return;
 		const fp = await FingerprintJS.load();
 		const fpval = await fp.get();
@@ -55,6 +52,7 @@
 </script>
 
 <svelte:head>
+	<link href="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG" rel="preload" as="script" />
 	<!-- Config options -->
 	<script>
 		// Forward the necessary functions to the web worker layer
@@ -62,8 +60,8 @@
 			forward: ['dataLayer.push']
 		};
 	</script>
+	{@html '<script>' + partytownSnippet() + '</script>'}
 
-	<script bind:this={scriptEl}></script>
 
 	<script type="text/partytown" defer>
 		if (document.URL.includes('9takes')) {
@@ -81,7 +79,7 @@
 			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
 		}
 	</script>
-	<link href="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG" rel="preload" as="script" />
+	
 
 	<script
 		type="text/partytown"
