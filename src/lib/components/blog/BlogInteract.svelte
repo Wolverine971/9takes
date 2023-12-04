@@ -162,56 +162,6 @@
 		color: #5407d9;
 		border: 1px solid #5407d9;
 	}
-	textarea {
-		width: 100%;
-		border: 2px solid #5407d9;
-		border-radius: 5px;
-		padding: 10px 20px;
-		color: hsl(222, 15%, 19%);
-		font-size: 16px;
-		margin-bottom: 20px;
-	}
-	.interaction-div-display {
-		overflow: hidden;
-		display: flex;
-		gap: 0.5rem;
-	}
-
-	/* Change background color of buttons on hover */
-	.interaction-div-display button:hover {
-		background-color: var(--color-paladin-2);
-		border-radius: 5px;
-
-		// color: var(--color-paladin-5);
-		// border: 1px solid var(--color-paladin-5);
-
-		color: #5407d9;
-		border: 1px solid #5407d9;
-	}
-
-	.interact-text-container {
-		margin-top: 2rem;
-		position: relative;
-		width: 100%;
-		height: 100px;
-	}
-	.interact-textbox {
-		border-radius: 5px;
-		box-sizing: border-box;
-		padding: 1rem;
-		width: 100%;
-		position: relative;
-	}
-
-	@media all and (max-width: 576px) {
-		.interaction-div-display {
-			gap: 0.25rem;
-			margin: 0.25rem;
-		}
-
-		.interaction-div-display button {
-			flex: 1;
-			margin: 0;
-		}
-	}
+	
+	
 </style>

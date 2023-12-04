@@ -165,24 +165,5 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
 
 <style>
 
-/* a {
-	color: #260958;
-	display: flex;
-	flex-wrap: wrap;
-	overflow: hidden;
-
-}
-a::after {
-		content: '';
-
-		background-image: url('/icons/arrow.svg');
-
-		display: inline-flex;
-		justify-content: flex-start;
-		align-items: center;
-		width: 1em;
-		height: 1em;
-		background-size: 1em 1em;
-	} */
 
 </style>

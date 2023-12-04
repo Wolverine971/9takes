@@ -46,6 +46,7 @@
 					}
 				});
 		}, 500);
+		invalidateAll();
 	};
 
 	const autoGrow = (element: HTMLElement | null) => {

@@ -51,7 +51,7 @@ const config = {
 		// 	entries: ['/blog/enneagram/1', '/blog/enneagram/2']
 		// },
 		csrf: {
-			checkOrigin: true
+			checkOrigin: false
 		},
 		csp: {
 			// directives: {

@@ -19,58 +19,41 @@
 <div style=" margin:20px;">
 	<h1 style="text-align: center;">Who is behind 9takes and what is it?</h1>
 
-	<div style="margin:20px;">
-		<div>
-			<div style="margin:20px;">
-				<h2>Right now, just me, DJ</h2>
-				<p>
-					I am an engineer at a YC-backed startup working on logistics. I am taking my understanding
-					of logistics and applying it to running a well-oiled social community. There are many
-					moving parts and tradeoffs that social media companies have to make. I think it is
-					possible to optimize for engagement and honesty while also making the 9takes platform safe
-					and inclusive. Social media today has made too many short-term decisions and has paved the
-					way for what not to do. See the video below:
-				</p>
-				<div style="display:flex; align-items: center; justify-content: center;">
-					<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube.com/embed/-IYvvm8gzqw?si=3UEXg3eGSfzSW7N2"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-						allowfullscreen
-					/>
-				</div>
-
-				<p>
-					<a href="/blog/community/inspiration-for-9takes"
-						>I got into personality because of my wife.</a
-					>
-					I was blown away by it, similar to how people are blown away by taking psychedelics. The problem
-					was when I tried to find a community to explore my personality further. There is more to it,
-					but that's why I am building 9takes. I would love to connect with you and hear about how you
-					view personality and hear any thoughts or suggestions you have for how to build a better social
-					media platform. DM me on
-					<a
-						class="external-link"
-						target="_blank"
-						rel="noreferrer"
-						href="https://twitter.com/djwayne3">Twitter/ X</a
-					>.
-				</p>
-
-				<!-- <p>I am a Software Engineer who has gained much value from the Enneagram in his personal life. I am amazed that the Enneagram isn't in the common </p> -->
-				<!-- <ul>
-                <li>
-                    <a class="external-link" target="_blank" href="https://github.com/Wolverine971">Github</a>
-                </li>
-                <li>
-                    <a class="external-link" target="_blank" href="https://twitter.com/djwayne3">Twitter</a>
-                </li>
-            </ul> -->
-			</div>
+	<div>
+		<h2>Right now, just me, DJ</h2>
+		<p>
+			I am an engineer at a YC-backed startup working on logistics. I am taking my understanding of
+			logistics and applying it to running a well-oiled social community. There are many moving
+			parts and tradeoffs that social media companies have to make. I think it is possible to
+			optimize for engagement and honesty while also making the 9takes platform safe and inclusive.
+			Social media today has made too many short-term decisions and has paved the way for what not
+			to do. See the video below:
+		</p>
+		<div style="display:flex; align-items: center; justify-content: center;">
+			<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/-IYvvm8gzqw?si=3UEXg3eGSfzSW7N2"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			/>
 		</div>
+
+		<p>
+			<a href="/blog/community/inspiration-for-9takes">
+				I got into personality because of my wife.
+			</a>
+			I was blown away by it, similar to how people are blown away by taking psychedelics. The problem
+			was when I tried to find a community to explore my personality further. There is more to it, but
+			that's why I am building 9takes. I would love to connect with you and hear about how you view personality
+			and hear any thoughts or suggestions you have for how to build a better social media platform.
+			DM me on
+			<a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/djwayne3">
+				Twitter/ X
+			</a>.
+		</p>
 	</div>
 	<h2>What is 9takes</h2>
 	<p>
@@ -112,7 +95,7 @@
         is and why they think that," or do we think that a person is not smart or maybe they don't have all
         the information? When we see others not feeling like we do on a certain subject, do we
         recognize the layers beneath the feelings, or Are we morally superior to them? And when someone doesn't
-        act like us, does that make us curious or dismissive? -->
+                                    act like us, does that make us curious or dismissive? -->
 	</p>
 
 	<h3>Why the Enneagram?</h3>
@@ -180,13 +163,11 @@
 </div>
 
 <style lang="scss">
-	.row {
-		display: flex;
-		justify-content: space-around;
-	}
-	p {
-		margin: 1em;
-	}
+	// .row {
+	// 	display: flex;
+	// 	justify-content: space-around;
+	// }
+
 	a {
 		color: #260958;
 		display: inline-flex;

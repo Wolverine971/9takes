@@ -1,39 +1,11 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	import { onMount } from 'svelte';
 
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	export let data: PageData;
 
-	onMount(() => {
-		height = window.innerHeight;
-		window.onscroll = function () {
-			scroll();
-		};
-		window.onresize = function () {
-			resetMax();
-		};
-	});
-
-	let height = 0;
-	let transform = '';
-
-	const resetMax = () => {
-		height = window.innerHeight;
-	};
-
-	const scroll = () => {
-		const position = height - window.scrollY;
-		if (position > 0 && window.innerWidth > 992) {
-			let scrollPercent = (window.scrollY / height) * 100;
-			const transformPercentage = Math.floor(scrollPercent);
-			// let scroll = window.scrollY / height;
-
-			transform = `transform: translate(${scrollPercent}px);`;
-		}
-	};
 	let innerWidth = 0;
 </script>
 
@@ -64,6 +36,7 @@
 				<img
 					src="/9takes-preview.webp"
 					alt="9takes preview"
+					style="max-width: 500px;"
 					fetchPriority="high"
 					width="500"
 					height="694"

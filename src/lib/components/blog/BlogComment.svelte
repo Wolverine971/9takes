@@ -183,103 +183,10 @@
 			border: 1px solid var(--color-p-origin);
 		}
 	}
-	.top-right-corner {
-		display: flex;
-		align-items: center;
-		margin: 0.25rem;
-		margin-left: auto;
-	}
-	.corner-btn {
-		background: transparent;
-		border: none;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		margin: 0.25rem;
-		padding: 0.1rem;
-		border-radius: 5px;
-		padding: 0.25rem;
+	
+	
+	
+	
 
-		&:hover {
-			background: var(--color-paladin-2);
-		}
-	}
-	.sub-comment {
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		&:disabled {
-			background-color: white;
-			color: grey;
-			border: 1px solid grey;
-			opacity: 1;
-			cursor: auto;
-		}
-	}
-	textarea {
-		width: 100%;
-		border: hsl(212, 15%, 48%) 2px solid;
-		border-radius: 5px;
-		padding: 10px 20px;
-		color: hsl(222, 15%, 19%);
-		font-size: 16px;
-		margin-bottom: 20px;
-	}
-	.interaction-div-display {
-		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.interaction-div-display button {
-		background-color: var(--color-paladin-2);
-		// float: left;
-		border: none;
-		outline: none;
-		cursor: pointer;
-		transition: 0.3s;
-		font-size: 0.75rem;
-		border-radius: 5px;
-		display: flex;
-		margin: 0 0 0.25rem 0.25rem;
-		justify-content: center;
-		align-items: center;
-		min-width: 35px;
-	}
-
-	/* Change background color of buttons on hover */
-	.interaction-div-display button:hover {
-		background-color: var(--color-paladin-2);
-		border-radius: 5px;
-		border: 1px solid var(--color-paladin-4);
-	}
-
-	.interact-text-container {
-		position: relative;
-		width: 100%;
-		height: 100px;
-	}
-	.interact-textbox {
-		border-radius: 5px;
-		box-sizing: border-box;
-		padding: 1rem;
-		width: 100%;
-		/* max-width: 900px; */
-
-		position: relative;
-	}
-
-	@media all and (max-width: 576px) {
-		.interaction-div-display {
-			gap: 0.25rem;
-			margin: 0.25rem;
-			min-width: 8%;
-		}
-
-		.interaction-div-display button {
-			flex: 1;
-			margin: 0;
-		}
-	}
+	
 </style>

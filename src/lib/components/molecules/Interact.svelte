@@ -291,16 +291,7 @@ interface QuestionObject {
 	</button>
 </form> -->
 <style lang="scss">
-	.top-right-corner {
-		// position: absolute;
-		// top: 0;
-		// right: 0;
-		display: flex;
-		align-items: center;
-		margin: 0.25rem;
-		margin-left: auto;
-		// gap: 0.25rem;
-	}
+	
 	.corner-btn {
 		background: transparent;
 		border: none;
@@ -329,71 +320,6 @@ interface QuestionObject {
 			cursor: auto;
 		}
 	}
-	textarea {
-		width: 100%;
-		border: hsl(212, 15%, 48%) 2px solid;
-		border-radius: 5px;
-		padding: 10px 20px;
-		color: hsl(222, 15%, 19%);
-		font-size: 16px;
-		margin-bottom: 20px;
-	}
-	.interaction-div-display {
-		overflow: hidden;
-		display: flex;
-	}
-
-	.interaction-div-display button {
-		background-color: var(--color-paladin-1);
-		// float: left;
-		border: 1px solid var(--color-paladin-1);
-		outline: none;
-		cursor: pointer;
-		transition: 0.3s;
-		font-size: 0.75rem;
-		border-radius: 5px;
-		display: flex;
-		margin: 0 0 0.25rem 0.25rem;
-		justify-content: center;
-		align-items: center;
-	}
-
-	/* Change background color of buttons on hover */
-	.interaction-div-display button:hover {
-		background-color: var(--color-paladin-2);
-		border-radius: 5px;
-		border: 1px solid var(--color-paladin-2);
-	}
-
-	.interaction-div-column {
-		flex-direction: column;
-		width: 5%;
-	}
-
-	.interact-text-container {
-		position: relative;
-		width: 100%;
-		height: 100px;
-	}
-	.interact-textbox {
-		border-radius: 5px;
-		box-sizing: border-box;
-		padding: 1rem;
-		width: 100%;
-		/* max-width: 900px; */
-
-		position: relative;
-	}
-
-	@media all and (max-width: 576px) {
-		.interaction-div-display {
-			gap: 0.25rem;
-			margin: 0.25rem;
-		}
-
-		.interaction-div-display button {
-			flex: 1;
-			margin: 0;
-		}
-	}
+	
+	
 </style>
