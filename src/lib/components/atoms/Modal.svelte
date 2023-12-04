@@ -23,7 +23,6 @@
 		<div class="modal-box">
 			<button
 				type="button"
-				class="close"
 				on:click={close}
 				on:keydown={(e) => {
 					if (e.charCode === 13) close();

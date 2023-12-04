@@ -35,7 +35,6 @@
 	export let data: PageData;
 	let innerWidth = 0;
 	onMount(async () => {
-		
 		if (dev) return;
 		const fp = await FingerprintJS.load();
 		const fpval = await fp.get();
@@ -62,7 +61,6 @@
 	</script>
 	{@html '<script>' + partytownSnippet() + '</script>'}
 
-
 	<script type="text/partytown" defer>
 		if (document.URL.includes('9takes')) {
 			(function (c, l, a, r, i, t, y) {
@@ -79,7 +77,6 @@
 			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
 		}
 	</script>
-	
 
 	<script
 		type="text/partytown"
@@ -195,77 +192,6 @@
 		text-align: center;
 		text-transform: uppercase;
 	}
-
-	// .mcard {
-	// 	/* --mask: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5)); */
-	// 	/* --dotsColor: 255 255 255; */
-	// 	--bg: radial-gradient(
-	// 		circle at center,
-	// 		rgb(var(--dotsColor)) 3%,
-	// 		rgb(var(--dotsColor) / 0.4) var(--dotRadius, 70%)
-	// 	);
-	// 	/* --bgSize: var(--size); */
-	// 	/* --cardBg: linear-gradient(135deg, hotpink, blue); */
-	// 	background: linear-gradient(135deg, hotpink, blue);
-	// 	background: var(--cardBg);
-	// 	overflow: hidden;
-	// 	border: 2px solid;
-	// 	-o-border-image: linear-gradient(135deg, hotpink, blue) 30;
-	// 	/* border-image: linear-gradient(135deg, hotpink, blue) 30; */
-	// 	-o-border-image: var(--cardBg) 30;
-	// 	/* border-image: var(--cardBg) 30; */
-	// }
-
-	// .rcard {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	margin: 1rem;
-	// 	margin: var(--card-margin);
-	// 	border-radius: 10px;
-	// 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	// 	padding: 0.8rem 1rem;
-	// 	padding: var(--card-padding);
-	// }
-
-	// .halftone.s-7IPF32Wcq3s8.s-7IPF32Wcq3s8 {
-	// 	position: relative;
-	// 	aspect-ratio: 1;
-	// 	background: rgb(0, 0, 0);
-	// 	/* filter: contrast(20); */
-	// 	/* filter: contrast(var(--contrast, 20)); */
-	// 	/* mix-blend-mode: multiply; */
-	// 	/* mix-blend-mode: var(--blendMode, multiply); */
-	// }
-
-	// .halftone.s-7IPF32Wcq3s8.s-7IPF32Wcq3s8::before {
-	// 	content: '';
-	// 	position: fixed;
-	// 	top: 0;
-	// 	right: 0;
-	// 	bottom: 0;
-	// 	/* mix-blend-mode: var(--blendMode, multiply); */
-	// 	left: 0;
-	// 	background-image: var(--bg);
-	// 	background-size: 0.75rem 0.75rem;
-	// 	background-size: var(--bgSize, 0.75rem) var(--bgSize, 0.75rem);
-	// 	background-repeat: round;
-	// 	background-position: 0 0, calc(0.75rem / 2) calc(0.75rem / 2);
-	// 	background-position: 0 0, var(--bgPosition) var(--bgPosition);
-	// 	-webkit-mask-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
-	// 	-webkit-mask-image: var(--mask);
-	// 	mask-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
-	// 	mask-image: var(--mask);
-	// 	-webkit-mask-size: cover;
-	// 	mask-size: cover;
-	// 	-webkit-mask-position: center;
-	// 	mask-position: center;
-	// 	transition: background-size 100ms;
-	// }
-	// .app {
-	// 	display: flex;
-	// 	flex-direction: column;
-	// 	min-height: 100vh;
-	// }
 
 	main {
 		flex: 1;

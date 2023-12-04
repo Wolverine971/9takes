@@ -1,8 +1,8 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { join } from 'path'
+import { join } from 'path';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
-import { partytownVite } from '@builder.io/partytown/utils'
+import { partytownVite } from '@builder.io/partytown/utils';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -19,10 +19,15 @@ if (dev) {
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit(), nodeLoaderPlugin(), dev && webSocketServer, partytownVite({
-		// `dest` specifies where files are copied to in production
-		dest: join(process.cwd(), 'static', '~partytown')
-	})],
+	plugins: [
+		sveltekit(),
+		nodeLoaderPlugin(),
+		dev && webSocketServer,
+		partytownVite({
+			// `dest` specifies where files are copied to in production
+			dest: join(process.cwd(), 'static', '~partytown')
+		})
+	],
 
 	define: {
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),

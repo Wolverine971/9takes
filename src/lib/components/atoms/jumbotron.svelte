@@ -95,61 +95,42 @@
 <style lang="scss">
 	.full-jumbo-card {
 		height: 100vh;
-		// width: 100vw;
 	}
+
 	.profileFace {
 		background-position: center !important;
 		background-size: cover !important;
 	}
+
 	.jumbo-card:hover {
-		.profileFace {
+		.profileface {
 			filter: blur(1px) !important;
 		}
+
 		img {
 			filter: blur(1px) !important;
 		}
 	}
+
 	.home {
 		animation: pan-image 15s linear infinite;
 	}
+
 	:root {
-		/* --background-rgb: 29 30 34;
-
-		--purple-rbg: 33 150 243; */
-
 		--background-rgb: 114 33 243;
 		--purple-rbg: 114 33 243;
 		--primary-rgb: var(--purple-rbg);
-
 		--blob-color-1: rgb(var(--purple-rbg));
-		--blob-color-2: rgb(128, 30, 255);
+		--blob-color-2: #801eff;
 	}
 
 	* {
 		box-sizing: border-box;
 	}
 
-	/* body {
-		height: 100vh;
-		display: grid;
-		place-items: center;
-		background-color: rgb(var(--background-rgb));
-		margin: 0rem;
-		overflow: hidden;
-	} */
-	@media (min-width: 500px) {
-		.jumbo-card {
-			/* width: 500px; */
-			/* width: clamp(400px, 100%, 600px); */
-		}
-	}
-
 	.jumbo-card {
-		/* width: 500px; */
-		/* width: clamp(400px, 100%, 600px); */
 		display: flex;
 		border: 2px solid rgb(var(--primary-rgb) / 80%);
-		/* aspect-ratio: 10 / 16; */
 		border-radius: 0.25rem;
 		background-color: rgb(var(--primary-rgb) / 15%);
 		overflow: hidden;
@@ -159,37 +140,20 @@
 	}
 
 	.jumbo-card:after,
-	/* .jumbo-card:before {
-		content: '';
-		height: 5px;
-		position: absolute;
-		z-index: 4;
-		left: 50%;
-		translate: -50% 0%;
-		background-color: var(--color-paladin-1, white);
-	}
-
-	.jumbo-card:before {
-		width: 15%;
-		top: 0rem;
-		border-bottom-left-radius: 1rem;
-		border-bottom-right-radius: 1rem;
-	} */
-
 	.jumbo-card:after {
 		width: 25%;
-		bottom: 0rem;
+		bottom: 0;
 		border-top-left-radius: 1rem;
 		border-top-right-radius: 1rem;
 	}
 
 	@keyframes pan-overlay {
 		from {
-			background-position: 0% 0%;
+			background-position: 0 0;
 		}
 
 		to {
-			background-position: 0% -100%;
+			background-position: 0 -100%;
 		}
 	}
 
@@ -206,8 +170,8 @@
 		animation: pan-overlay 22s infinite linear;
 		position: absolute;
 		z-index: 2;
-		left: 0px;
-		top: 0px;
+		left: 0;
+		top: 0;
 	}
 
 	@keyframes pan-image {
@@ -222,7 +186,6 @@
 		}
 
 		20.0001% {
-			/* -- View 2 -- */
 			background-position: 60% 85%;
 			background-size: 500%;
 		}
@@ -233,7 +196,6 @@
 		}
 
 		40.0001% {
-			/* -- View 3 -- */
 			background-position: 80% 42%;
 			background-size: 300%;
 		}
@@ -244,8 +206,7 @@
 		}
 
 		60.0001% {
-			/* -- View 4 -- */
-			background-position: 0% 0%;
+			background-position: 0 0;
 			background-size: 300%;
 		}
 
@@ -255,7 +216,6 @@
 		}
 
 		80.0001% {
-			/* -- View 5 -- */
 			background-position: 80% 10%;
 			background-size: 300%;
 		}
@@ -271,30 +231,25 @@
 		width: 100%;
 		position: absolute;
 		z-index: 1;
-		left: 0px;
-		top: 0px;
+		left: 0;
+		top: 0;
 		background-size: 300%;
-		background-position: 0% 0%;
+		background-position: 0 0;
 		-webkit-filter: grayscale(100%);
 		filter: grayscale(100%);
-		/* filter: sepia(100%) hue-rotate(160deg); */
 		opacity: 0.6;
 		-webkit-transition: opacity 1s ease-in-out;
 		-moz-transition: opacity 1s ease-in-out;
 		-o-transition: opacity 1s ease-in-out;
 		transition: opacity 1s ease-in-out;
-		/* animation: pan-image 15s linear infinite; */
 	}
 
 	.jumbo-card > .jumbo-card-content {
-		/* gap: 4rem; */
 		position: relative;
 		z-index: 3;
 		margin: 1rem;
-		/* padding-bottom: 6rem; */
 		border: 1px solid rgb(var(--primary-rgb) / 50%);
 		border-radius: 0.6rem;
-
 		justify-content: center;
 		display: flex;
 		align-items: center;
@@ -304,33 +259,15 @@
 	.jumbo-card > .jumbo-card-content > .jumbo-card-icon {
 		color: var(--color-paladin-1, white);
 		font-size: 4rem;
-		text-shadow: 0px 0px 0.5rem white;
+		text-shadow: 0 0 0.5rem #fff;
 	}
 
 	.jumbo-card > .jumbo-card-content > .jumbo-card-user {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		/* gap: 1rem; */
 		position: relative;
 	}
-
-	/* .jumbo-card > .jumbo-card-content > .jumbo-card-user:before,
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user:after {
-		content: '';
-		position: absolute;
-		top: 0px;
-		background-color: rgb(var(--primary-rgb));
-		border-radius: 1rem;
-		box-shadow: 0px 0px 8px 3px rgb(var(--primary-rgb) / 60%);
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user:before {
-		height: 2px;
-		width: 50px;
-		translate: -20px -1rem;
-		opacity: 0.75;
-	} */
 
 	.jumbo-card > .jumbo-card-content > .jumbo-card-user:after {
 		height: 3px;
@@ -352,30 +289,10 @@
 		margin: 1rem;
 	}
 
-	/* .jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:before,
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:after {
-		content: '';
-		height: 4px;
-		width: 4px;
-		position: absolute;
-		border: 2px solid white;
-		border-radius: 2px;
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:before {
-		top: 55%;
-		right: -1.5rem;
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name:after {
-		top: 45%;
-		left: -1.5rem;
-	} */
-
 	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .link {
 		opacity: 0.8;
 		font-size: 1.5rem;
-		text-shadow: 0px 0px 0.5rem white;
+		text-shadow: 0 0 0.5rem #fff;
 		font-weight: 400;
 		letter-spacing: 0.3rem;
 		text-decoration: none;
@@ -385,11 +302,9 @@
 		text-decoration: underline;
 	}
 
-	/* -- Blob effect -- */
-
 	@keyframes rotate {
 		from {
-			rotate: 0deg;
+			rotate: 0;
 		}
 
 		50% {
@@ -423,34 +338,28 @@
 		backdrop-filter: blur(12vmax);
 	}
 
-	/* -- Links -- */
-
 	#links {
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
 		position: absolute;
-		top: 0px;
-		left: 0px;
+		top: 0;
+		left: 0;
 		z-index: 10;
 		padding: 1rem;
 	}
 
 	@media (max-width: 700px) {
 		.jumbo-card {
-			/* scale: 0.6; */
-			margin-bottom: 0rem;
+			margin-bottom: 0;
 		}
+
 		.jumbo-name {
 			text-shadow: 2px 2px #0e0e0e;
 		}
 
 		.link {
 			text-shadow: 2px 2px #0e0e0e !important;
-		}
-
-		.jumbo-card-content {
-			/* padding-bottom: 1rem !important; */
 		}
 	}
 </style>

@@ -64,8 +64,9 @@
 				<img
 					src="/9takes-preview.webp"
 					alt="9takes preview"
-					style="max-width: 500px;"
 					fetchPriority="high"
+					width="500"
+					height="694"
 				/>
 
 				<div class="main-description">

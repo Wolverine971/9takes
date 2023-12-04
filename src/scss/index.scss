@@ -1,6 +1,5 @@
 // clean up this css file
 // check the code base for unused css
-
 :root {
 	--primary: #191970;
 	--primary_v: #0e0e3d;
@@ -15,11 +14,9 @@
 	--block-spacing-vertical: calc(1rem * 2);
 	--block-spacing-horizontal: calc(1rem * 2);
 	--border-radius: 0.25rem;
-	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgb(27 40 50 / 1.7%),
-		0.0335rem 0.067rem 0.402rem rgb(27 40 50 / 2.4%), 0.0625rem 0.125rem 0.75rem rgb(27 40 50 / 3%),
-		0.1125rem 0.225rem 1.35rem rgb(27 40 50 / 3.6%),
-		0.2085rem 0.417rem 2.502rem rgb(27 40 50 / 4.3%), 0.5rem 1rem 6rem rgb(27 40 50 / 6%),
-		0 0 0 0.0625rem rgb(27 40 50 / 1.5%);
+	--card-box-shadow: 0.0145rem 0.029rem 0.174rem #1b2832ff 0.0335rem 0.067rem 0.402rem #1b2832ff
+		0.0625rem 0.125rem 0.75rem #1b2832ff 0.1125rem 0.225rem 1.35rem #1b2832ff 0.2085rem 0.417rem
+		2.502rem #1b2832ff 0.5rem 1rem 6rem #1b2832ff 0 0 0 0.0625rem #1b283203;
 	--grex-700-hex: 64, 65, 69;
 	--grex-600-hex: 96, 98, 102;
 	--grex-500-hex: 126, 128, 133;
@@ -34,15 +31,13 @@
 	--card-margin: 1rem;
 	--contrast: 20;
 	--size: 0.75rem;
-	--cardBg: linear-gradient(135deg, hotpink, blue);
+	--cardbg: linear-gradient(135deg, hotpink, blue);
 	--invert: 1;
-	--blendMode: multiply;
-
-	// --bgSize: 0.75rem;
-	--mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 50%));
-	--dotsColor: 255 255 255;
-	--dotRadius: 20%; // 20rem;
-	--bgPosition: calc(var(--bgSize) / 2);
+	--blendmode: multiply;
+	--mask: linear-gradient(#000, #00000080);
+	--dotscolor: 255 255 255;
+	--dotradius: 20%;
+	--bgposition: calc(var(--bgSize) / 2);
 	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 15%) calc(var(--dotRadius, 53%) * 0.95);
 	--stop1: 3%;
 	--stop2: 60%;
@@ -59,46 +54,27 @@ $secondary-200: hsl(289deg 90% 63%);
 $secondary-100: hsl(289deg 90% 73%);
 $gray: hsl(212deg 15% 48%);
 
-/* Write your global styles here, in PostCSS syntax */
+/* Write your global styles here,in PostCSS syntax */
 
 /*
-  1. Use a more-intuitive box-sizing model.
-*/
+	1. Use a more-intuitive box-sizing model.
+	*/
 *,
-*::before,
-*::after {
+::before,
+::after {
 	box-sizing: border-box;
 }
 
-/*
-  2. Remove default margin
-*/
-// * {
-// 	margin: 0;
-// }
-
-/*
-  3. Allow percentage-based heights in the application
-*/
 body {
+	background: $dark-200;
 	height: 100%;
 	line-height: 1.5;
-	font-family: sans-serif;
-	-webkit-font-smoothing: antialiased;
-	background: $dark-200;
 	color: #fff;
+	font-family: sans-serif;
 	font-size: 18px;
+	-webkit-font-smoothing: antialiased;
 }
 
-/*
-  Typographic tweaks!
-  4. Add accessible line-height
-  5. Improve text rendering
-*/
-
-/*
-  6. Improve media defaults
-*/
 img,
 picture,
 video,
@@ -108,9 +84,6 @@ svg {
 	max-width: 100%;
 }
 
-/*
-  7. Remove built-in form typography styles
-*/
 input,
 button,
 textarea,
@@ -118,24 +91,14 @@ select {
 	font: inherit;
 }
 
-/*
-  8. Avoid text overflows
-*/
-
 a {
-	// text-decoration: none;
 	color: inherit;
-
-	// word-break: break-word;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-/*
-  9. Create a root stacking context
-*/
 #root {
 	isolation: isolate;
 }
@@ -143,8 +106,6 @@ a:hover {
 main {
 	background-color: transparent;
 	padding: 2rem;
-
-	// background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d1d5db' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 main::before {
@@ -160,15 +121,6 @@ main::before {
 	animation: spin 300s linear infinite;
 	content: '';
 }
-
-// .ghosts {
-// 	width: 100vw;
-// 	height: 100vh;
-// 	overflow: hidden;
-// 	position: absolute;
-// 	top: 0%;
-// 	left: 0%;
-// }
 
 @keyframes spin {
 	100% {
@@ -186,22 +138,12 @@ main::before {
 	height: 100vh;
 }
 
-// .auth-buttons {
-// 	display: flex;
-// 	justify-content: center;
-// 	align-items: center;
-// 	margin-top: 1rem;
-// 	gap: 1rem;
-// }
-
 .card {
 	display: flex;
 	flex-direction: column;
 	margin: var(--card-margin);
-
-	// background-color: $dark-200;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+	box-shadow: 0 0 10px #0003;
 	padding: var(--card-padding);
 }
 
@@ -251,13 +193,8 @@ input {
 }
 
 select {
-	// border: hsl(212, 15%, 48%) 2px solid;
-	// border-radius: 5px;
-	// padding: 10px 20px;
 	color: hsl(222deg 15% 19%);
 	font-size: 16px;
-
-	// margin-bottom: 20px;
 
 	&:focus {
 		outline: $primary-300 2px solid;
@@ -270,12 +207,6 @@ select {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 400px;
-
-	// & label {
-	// 	text-align: left;
-	// 	padding-bottom: 2px;
-	// 	font-size: 16px;
-	// }
 }
 
 .big-a:hover {
@@ -334,16 +265,12 @@ select {
 }
 
 .glass-card {
-	// max-height: 860px;
-	// height: 90vh;
 	display: flex;
 	position: relative;
 	flex-direction: column;
 	border-radius: 5px;
 	background-color: var(--glass-color);
 	width: 100%;
-
-	/* background-color: var(--theme-bg-color); */
 	max-width: 1250px;
 	overflow: hidden;
 	font-size: 15px;
@@ -357,7 +284,6 @@ select {
 }
 
 a.disabled {
-	// pointer-events: none;
 	cursor: default;
 	text-decoration: line-through;
 	color: grey !important;
@@ -365,121 +291,13 @@ a.disabled {
 
 .btn-disabled {
 	text-decoration: line-through;
-
-	// pointer-events: none;
 	color: rgb(var(--grey-300-hex) 0.4) !important;
 }
 
 .btn-disabled:hover {
 	background-color: grey !important;
-	color: ghostwhite !important;
+	color: #f8f8ff !important;
 }
-
-// body {
-// 	--size: 0.75rem;
-// 	font-family: Helvetica, sans-serif;
-// 	margin: 0;
-// 	// min-height: 100vh;
-// 	// padding: clamp(1rem, 2vw, 5rem);
-// 	background: hsl(200deg 20% 10%);
-// 	color-scheme: dark;
-// 	color: var(--color-paladin-1);
-// 	accent-color: hotpink;
-// }
-
-// .grid {
-// 	display: grid;
-// 	grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
-// 	gap: 1rem;
-// 	margin-top: 1rem;
-// }
-
-// // --contrast: 20
-// // --size:0.75rem;
-// // --cardBg: linear-gradient(135deg, hotpink, blue);
-// // --invert: false
-// // --blendMode: Multiply
-// // --bgSize: 0.75rem
-// // --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
-// // --dotsColor: 255 255 255;
-// // --dotRadius: 20rem
-// // --bgPosition: calc(var(--bgSize) / 2);
-// // --stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
-// // --stop1: 3%;
-// // --stop2: 60%;
-
-// .card {
-// 	// --mask: linear-gradient(rgb(0 0 0), rgb(0 0 0 / 0.5));
-// 	// --dotsColor: 255 255 255;
-// 	--bg: radial-gradient(
-// 		circle at center,
-// 		rgb(var(--dotsColor)) 3%,
-// 		rgb(var(--dotsColor) / 0.4) var(--dotRadius, 70%)
-// 	);
-// 	--bgSize: var(--size);
-// 	--cardBg: linear-gradient(135deg, hotpink, blue);
-// 	background: var(--cardBg);
-
-// 	background: linear-gradient(135deg, hotpink, blue);
-// 	border: 2px solid;
-// 	-o-border-image: linear-gradient(135deg, hotpink, blue) 30;
-
-// 	overflow: hidden;
-// 	border: 2px solid;
-// 	// border-image: var(--cardBg) 30;
-// }
-
-// .halftone {
-// 	position: relative;
-// 	aspect-ratio: 1;
-// 	background: rgb(0 0 0);
-// 	// filter: contrast(var(--contrast, 20)); //invert(0, 0)
-// 	// mix-blend-mode: var(--blendMode, multiply);
-// }
-
-// .halftone::before {
-// 	content: '';
-// 	position: fixed;
-// 	inset: 0;
-// 	background-image: var(--bg);
-// 	background-size: var(--bgSize, 0.75rem) var(--bgSize, 0.75rem);
-// 	background-repeat: round;
-// 	background-position: 0 0, var(--bgPosition) var(--bgPosition);
-// 	-webkit-mask-image: var(--mask);
-// 	mask-image: var(--mask);
-// 	mask-size: cover;
-// 	mask-position: center;
-// 	transition: background-size 100ms;
-// }
-
-// .card:nth-child(even) {
-// 	--bgSize: calc(var(--size) * 1.3);
-// 	--bgPosition: calc(var(--bgSize) / 2);
-// 	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 0.15) calc(var(--dotRadius, 53%) * 0.95);
-// 	--bg: radial-gradient(circle at center, var(--stops)),
-// 		radial-gradient(circle at center, var(--stops));
-// }
-
-// .card:nth-child(3),
-// .card:nth-child(4) {
-// 	--mask: radial-gradient(circle at center, rgb(0 0 0), rgb(0 0 0 / 0.2));
-// }
-
-// .card:nth-child(5),
-// .card:nth-child(6) {
-// 	--mask: repeating-linear-gradient(45deg, rgb(0 0 0), rgb(0 0 0 / 0.55) 20%, rgb(0 0 0) 40%);
-// }
-
-// .card:nth-child(7),
-// .card:nth-child(8) {
-// 	--mask: url(https://assets.codepen.io/85648/mask-test-2.png);
-// }
-
-// .card:nth-child(7) .halftone::before,
-// .card:nth-child(8) .halftone::before {
-// 	mask-size: 80%;
-// 	mask-repeat: no-repeat;
-// }
 
 .flex-columns {
 	display: flex;
@@ -489,9 +307,6 @@ a.disabled {
 }
 
 section {
-	// padding: var(--block-spacing-vertical) var(--block-spacing-horizontal);
-
-	// border: var(--classic-border);
 	box-sizing: border-box;
 	flex-basis: calc(50% - 20px);
 	margin: 0;

@@ -54,7 +54,7 @@ export const tagQuestions = async () => {
 				{ role: 'system', content: prompt },
 				{ role: 'user', content: questionsToClassify.toString() }
 			],
-			response_format: { type: "json_object" },
+			response_format: { type: 'json_object' }
 		});
 
 		if (!completion?.choices[0]?.message?.content) {
@@ -127,7 +127,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 			{ role: 'system', content: getPrompt(tags.map((e) => e.tag_name)) },
 			{ role: 'user', content: questionText }
 		],
-		response_format: { type: "json_object" },
+		response_format: { type: 'json_object' }
 	});
 
 	if (!completion?.choices[0]?.message?.content) {
@@ -135,7 +135,6 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 	}
 
 	const chatResp = JSON.parse(completion.choices[0].message.content);
-
 
 	// {
 	// 	answers: [
@@ -169,14 +168,12 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 	await supabase
 		.from('questions')
 		.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question })
-		.eq('id', questionId).then(async () => {
-
-			const newTags = chatResp.tags
+		.eq('id', questionId)
+		.then(async () => {
+			const newTags = chatResp.tags;
 			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
 
 			const newTagIds = newTagz.map((e) => e.tag_id);
-
-
 
 			if (!newTagz.length) {
 				await supabase
@@ -184,7 +181,6 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 					.update({ flagged: true, updated_at: new Date() })
 					.eq('id', questionId);
 			} else {
-
 				newTagIds.forEach(async (tagId) => {
 					await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
 				});
@@ -193,16 +189,16 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 			// update ai comments
 			if (chatResp.answers) {
 				for await (const answerKey of Object.keys(chatResp.answers)) {
-					const type = answerKey
+					const type = answerKey;
 					const answerText = chatResp.answers[answerKey];
 					if (type && answerText) {
 						await supabase
 							.from('comments_ai')
-							.insert({ enneagram_type: type, comment: answerText, question_id: questionId })
+							.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
 					}
 				}
 			}
-		})
+		});
 
 	return;
 };
@@ -265,11 +261,7 @@ Classify the Question or Statement:
 Tag the question or statement with applicable predefined tags.
 A question or statement can be associated with multiple tags.
 Only tag from these predefined tags:
-`
-
-
-
-
+`;
 
 const classifymultipleQuestionsPrompt = `You are going to be given a list of a questions or a statements with ids.  Your job is to do two things.
 First, you should use the Enneagram system of personality answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
@@ -406,7 +398,6 @@ const getPrompt = (tags: string[]) => {
 // 'Building and Maintaining Relationships in the Digital Age',
 // 'Navigating Online Dating and Relationships',
 // 'The Impact of Social Media on Relationships'
-
 
 // [
 // 	{
