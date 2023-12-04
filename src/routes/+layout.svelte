@@ -57,7 +57,7 @@
 		partytown = {
 			forward: ['dataLayer.push'],
 			resolveUrl: (url) => {
-				const siteUrl = `https://sveltekit-ga-partytown.vercel.app/proxytown`;
+				const siteUrl = `https://9takes.com`;
 
 				if (url.hostname === 'www.googletagmanager.com') {
 					const proxyUrl = new URL(`${siteUrl}/gtm`);
@@ -81,7 +81,7 @@
 	{#if $page.url.hostname === '9takes.com'}
 		<script
 			type="text/partytown"
-			href="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
+			src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
 		></script>
 		<script type="text/partytown">
 			(function (c, l, a, r, i, t, y) {
