@@ -291,7 +291,6 @@ interface QuestionObject {
 	</button>
 </form> -->
 <style lang="scss">
-	
 	.corner-btn {
 		background: transparent;
 		border: none;
@@ -320,6 +319,4 @@ interface QuestionObject {
 			cursor: auto;
 		}
 	}
-	
-	
 </style>

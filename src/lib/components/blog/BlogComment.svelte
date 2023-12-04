@@ -183,10 +183,4 @@
 			border: 1px solid var(--color-p-origin);
 		}
 	}
-	
-	
-	
-	
-
-	
 </style>

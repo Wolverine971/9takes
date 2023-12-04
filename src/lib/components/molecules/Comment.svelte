@@ -458,8 +458,7 @@
 	.hoverable::hover {
 		border: 1px solid var(--color-paladin-3);
 	}
-	
-	
+
 	.sub-comment {
 		text-align: center;
 		display: flex;
@@ -473,6 +472,4 @@
 			cursor: auto;
 		}
 	}
-	
-	
 </style>

@@ -152,5 +152,4 @@
 		// cursor: pointer;
 		word-break: keep-all;
 	}
-	
 </style>

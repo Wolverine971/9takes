@@ -162,6 +162,4 @@
 		color: #5407d9;
 		border: 1px solid #5407d9;
 	}
-	
-	
 </style>
