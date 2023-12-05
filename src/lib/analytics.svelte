@@ -8,7 +8,7 @@
 <svelte:head>
 	<!-- Google tag (gtag.js) -->
 	{#if !dev}
-		<script defer>
+		<script type="text/javascript" defer>
 			!(function (t, e) {
 				var o, n, p, r;
 				e.__SV ||
