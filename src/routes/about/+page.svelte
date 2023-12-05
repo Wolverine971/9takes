@@ -163,11 +163,6 @@
 </div>
 
 <style lang="scss">
-	// .row {
-	// 	display: flex;
-	// 	justify-content: space-around;
-	// }
-
 	a {
 		color: #260958;
 		display: inline-flex;

@@ -30,7 +30,7 @@
 	/> -->
 <!-- <main> -->
 <section>
-	<div class="column">
+	<div class="landing-column">
 		<div class="big-points center-align" style="margin-top: 100px;">
 			<div class="main-preview" style="margin: 5rem 0;">
 				<img
@@ -352,7 +352,7 @@
 		}
 	}
 
-	.column {
+	.landing-column {
 		/* display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -435,12 +435,7 @@
 	}
 
 	/* Main content styles */
-	main {
-		margin: 20px;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-	}
+
 	section {
 		flex-basis: calc(50% - 20px);
 		margin-bottom: 20px;

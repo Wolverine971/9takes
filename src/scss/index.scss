@@ -104,8 +104,14 @@ a:hover {
 }
 
 main {
+	box-sizing: border-box;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: 0 auto;
 	background-color: transparent;
 	padding: 2rem;
+	width: 100%;
 }
 
 main::before {
@@ -306,6 +312,29 @@ a.disabled {
 	margin: 20px;
 }
 
+.column {
+	display: flex;
+	flex: 1;
+	flex-basis: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem;
+	width: 100%;
+}
+
+.pretty-div {
+	margin: 1rem;
+	padding: 1rem;
+}
+
 section {
 	box-sizing: border-box;
 	flex-basis: calc(50% - 20px);
@@ -333,6 +362,10 @@ section {
 		margin: 1rem 0;
 		padding: 1rem;
 	}
+
+	.fit-card {
+		padding: 0.5rem;
+	}
 }
 
 .iframe-container {
@@ -349,4 +382,89 @@ section {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.drop-down {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--color-paladin-2);
+	border-radius: 5px;
+	background-color: var(--color-paladin-1);
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+
+	&:hover {
+		background-color: var(--color-paladin-2);
+	}
+}
+
+.comment-box {
+	margin: 0.25rem;
+	border-radius: 5px;
+	padding: 0.5rem;
+	width: fill-available;
+	max-height: 7em;
+	overflow: hidden;
+}
+
+.comment-box.expanded {
+	max-height: none;
+}
+
+.comment-box.expanded .read-more-btn {
+	display: none;
+}
+
+.user-comment {
+	display: flex;
+	position: relative;
+	padding: 0.25rem;
+}
+
+.user-comment button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+	border: none;
+	border-radius: 5px;
+	min-width: 35px;
+}
+
+.comment-meta {
+	display: flex;
+	gap: 1rem;
+	justify-content: flex-end;
+	margin: -0.5rem auto;
+	margin-right: 4rem;
+}
+
+.sub-comment {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	&:disabled {
+		opacity: 1;
+		border: 1px solid grey;
+		background-color: var(--color-paladin-1, white);
+		cursor: auto;
+		color: grey;
+	}
+}
+
+.fit-card {
+	position: absolute;
+
+	/* top: 0;
+		right: 0; */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	padding: 1rem;
+	width: 100%;
 }

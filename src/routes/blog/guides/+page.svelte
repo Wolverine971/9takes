@@ -65,10 +65,6 @@
 		align-items: inherit;
 		margin: 1rem;
 
-		// .row {
-		// 	display: flex;
-		// 	justify-content: space-around;
-		// }
 		.big-a:hover {
 			text-decoration: none;
 		}
@@ -82,31 +78,6 @@
 			white-space: nowrap;
 			overflow-x: clip;
 			overflow: hidden;
-		}
-		.row {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			flex-wrap: wrap;
-			width: 100%;
-			padding: 0 10%;
-		}
-
-		.column {
-			display: flex;
-			flex-direction: column;
-			flex-basis: 100%;
-			flex: 1;
-			align-items: center;
-		}
-
-		@media all and (max-width: 576px) {
-			.row {
-				display: flex;
-				flex-direction: column;
-				width: 100%;
-				padding: 0 10%;
-			}
 		}
 	}
 </style>

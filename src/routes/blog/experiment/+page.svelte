@@ -1635,16 +1635,9 @@ resentment temper violence -->
 	.row {
 		display: flex;
 		justify-content: space-evenly;
-
 		margin: 1rem;
 	}
-	.column {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 
-		margin: 1rem;
-	}
 	textarea {
 		border: var(--classic-border);
 		border-radius: 5px;

@@ -217,15 +217,6 @@
 	}
 
 	@media all and (max-width: 576px) {
-		.column {
-			display: flex;
-			flex-direction: column;
-			position: relative;
-			flex-basis: 100%;
-			width: 100%;
-			flex: 1;
-			align-items: center;
-		}
 		.stack {
 			display: flex;
 			flex-direction: column;
@@ -234,19 +225,6 @@
 			flex: 1;
 			align-items: center;
 		}
-	}
-
-	.fit-card {
-		position: absolute;
-		/* top: 0;
-		right: 0; */
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		z-index: 2;
-		padding: 1rem;
-		width: 100%;
-		color: var(--color-paladin-1, white);
 	}
 
 	.people-grid-container {

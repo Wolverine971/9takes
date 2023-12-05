@@ -51,7 +51,6 @@ body {
 	background-color: #f4f4ef;
 	padding: 0;
 	line-height: 1.5;
-	color: var(--color-text);
 	font-size: 1rem;
 }
 
@@ -349,10 +348,6 @@ th {
 	background-color: var(--color-paladin-3);
 }
 
-.column {
-	border-radius: 5px;
-}
-
 .main a {
 	display: flex;
 	flex-wrap: wrap;
@@ -414,11 +409,6 @@ textarea {
 	border: 1px solid var(--color-paladin-2);
 	border-radius: 5px;
 	background-color: var(--color-paladin-2);
-}
-
-.interaction-div-column {
-	flex-direction: column;
-	width: 5%;
 }
 
 .interact-text-container {

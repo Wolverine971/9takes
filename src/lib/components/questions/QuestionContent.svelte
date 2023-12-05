@@ -297,7 +297,7 @@
 				size={'large'}
 			/>
 
-			<Card style="padding: .5rem; border: none; min-height: 100vh;">
+			<Card style="border: none; min-height: 100vh;">
 				{#if innerWidth > 575 && _data.comments.length >= 5}
 					<h3
 						class=" {isFixed
@@ -509,7 +509,7 @@
 
 	.slides {
 		display: flex;
-		overflow-x: auto;
+		// overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		// scroll-padding: 30px 40px;
 		scroll-behavior: smooth;

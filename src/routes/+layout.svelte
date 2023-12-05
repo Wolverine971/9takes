@@ -194,15 +194,6 @@
 		text-transform: uppercase;
 	}
 
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
 	.column-width {
 		max-width: 64rem;
 		border-radius: 5px;
@@ -211,11 +202,6 @@
 	.pos-rel {
 		position: relative;
 		overflow: hidden;
-	}
-
-	.column {
-		padding: 0;
-		margin: 0;
 	}
 
 	main > a {
@@ -231,12 +217,6 @@
 			width: 1em;
 			height: 1em;
 			background-size: 1em 1em;
-		}
-	}
-
-	@media (min-width: 768px) {
-		main {
-			padding: 2rem;
 		}
 	}
 </style>

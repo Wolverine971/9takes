@@ -306,17 +306,4 @@ interface QuestionObject {
 			background: var(--color-paladin-1);
 		}
 	}
-	.sub-comment {
-		text-align: center;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		&:disabled {
-			background-color: var(--color-paladin-1, white);
-			color: grey;
-			border: 1px solid grey;
-			opacity: 1;
-			cursor: auto;
-		}
-	}
 </style>

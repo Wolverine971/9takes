@@ -117,53 +117,10 @@
 		border-radius: 5px;
 		width: 80%;
 	}
-	.drop-down {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-		cursor: pointer;
-		background-color: var(--color-paladin-2);
-		border-radius: 5px;
-		border: 1px solid var(--color-paladin-4);
 
-		&:hover {
-			background-color: var(--color-paladin-4);
-		}
-	}
-	.comment-box {
-		width: -webkit-fill-available;
-		border-radius: 5px;
-		margin: 0.25rem;
-		padding: 0.5rem;
-	}
-
-	.user-comment {
-		display: flex;
-		position: relative;
-	}
-	.user-comment button {
-		border: none;
-
-		transition: 0.3s;
-		border-radius: 5px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-width: 35px;
-	}
-	.comment-meta {
-		display: flex;
-		justify-content: flex-end;
-		margin: -0.5rem auto;
-		gap: 1rem;
-		margin-right: 1rem;
-	}
 	.profile-avatar {
 		min-width: 30px;
 		padding: 0.2rem;
-
 		align-self: center;
 		align-items: center;
 		border: 1px solid var(--color-p-origin-v);

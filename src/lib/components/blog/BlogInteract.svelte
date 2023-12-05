@@ -143,21 +143,6 @@
 </div>
 
 <style lang="scss">
-	.sub-comment {
-		text-align: center;
-		display: flex;
-		// border: 1px solid #5407d9;
-		justify-content: center;
-		align-items: center;
-		&:disabled {
-			background-color: white;
-
-			color: var(--color-paladin-5) !important;
-			border: 1px solid var(--color-paladin-5) !important;
-			opacity: 1;
-			cursor: auto;
-		}
-	}
 	.share-btn:hover {
 		color: #5407d9;
 		border: 1px solid #5407d9;

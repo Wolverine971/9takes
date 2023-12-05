@@ -266,6 +266,7 @@
 		object-position: center;
 	}
 
+	/* cd */
 	.fit-card {
 		position: absolute;
 		/* top: 0;
@@ -349,7 +350,6 @@
 		.inline-it {
 			width: 30vw;
 		}
-
 		.fit-card {
 			padding: 0.5rem;
 		}

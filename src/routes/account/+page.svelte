@@ -115,15 +115,7 @@
 	h1 {
 		font-size: 1.5rem;
 	}
-	.row {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		gap: 10px;
-		margin: 1rem;
-		justify-content: center;
-		align-items: center;
-	}
+
 	.logout-btn {
 		align-self: end;
 		margin: auto 0;

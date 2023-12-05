@@ -75,10 +75,6 @@
 </div>
 
 <style lang="scss">
-	.row {
-		display: flex;
-		justify-content: space-around;
-	}
 	p {
 		margin: 1em;
 	}
