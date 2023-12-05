@@ -38,11 +38,7 @@
 		margin-top: 1rem;
 		text-align: center;
 	}
-	.section-main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+
 	.section-content {
 		border-right: solid;
 		margin: 10px;
@@ -58,18 +54,6 @@
 		align-items: inherit;
 		margin: 1rem;
 
-		// .row {
-		// 	display: flex;
-		// 	justify-content: space-around;
-		// }
-		.big-a:hover {
-			text-decoration: none;
-		}
-		.article-preview {
-			max-width: none;
-			height: clamp(1rem, 145px, 12rem);
-			width: clamp(1rem, 321px, 32rem);
-		}
 		.preview {
 			text-overflow: clip;
 			white-space: nowrap;

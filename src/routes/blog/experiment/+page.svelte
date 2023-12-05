@@ -1301,14 +1301,14 @@
 		return finalEmotionList;
 	};
 
-	const generateSpans = async () => {
-		const box = document.getElementById(`emotions-box`);
-		const div = document.createElement('div');
-		div.height = box.offsetHeight;
-		div.width = box.offsetWidth;
-		position;
-		formattedListOfEmotions.forEach((emotionIdentified) => {});
-	};
+	// const generateSpans = async () => {
+	// 	const box = document.getElementById(`emotions-box`);
+	// 	const div = document.createElement('div');
+	// 	div.height = box.offsetHeight;
+	// 	div.width = box.offsetWidth;
+	// 	position;
+	// 	formattedListOfEmotions.forEach((emotionIdentified) => {});
+	// };
 
 	const filter = async () => {
 		let finalEmotionList: string[] = await getFilteredList();
@@ -1401,7 +1401,7 @@
 
 	// anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased
 	const flip = async () => {
-		let firstPos = [];
+		let firstPos: any[] = [];
 		formattedListOfEmotions.forEach((emotion, i) => {
 			const element = document.getElementById(`${emotion}-${i}`);
 			if (element) {

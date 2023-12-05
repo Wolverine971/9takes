@@ -33,8 +33,8 @@
 			<iframe
 				width="560"
 				height="315"
-				src="https://www.youtube.com/embed/-IYvvm8gzqw?si=3UEXg3eGSfzSW7N2"
-				title="YouTube video player"
+				src="https://www.youtube.com/embed/-IYvvm8gzqw?si=8MaKuA5vfTpcXhGN"
+				title="Talk about how social media messes up 'socializing'"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen

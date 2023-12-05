@@ -342,9 +342,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        .section-main {
-            display: block;
-        }
+        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

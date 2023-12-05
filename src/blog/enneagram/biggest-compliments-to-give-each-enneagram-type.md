@@ -394,9 +394,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        .section-main {
-            display: block;
-        }
+        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

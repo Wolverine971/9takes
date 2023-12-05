@@ -158,7 +158,7 @@
 	};
 
 	onMount(() => {
-		window.addEventListener('scroll', calculateHeightsAndSetClasses);
+		window.addEventListener('scroll', calculateHeightsAndSetClasses, { passive: true });
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);

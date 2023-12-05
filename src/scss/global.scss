@@ -75,16 +75,6 @@ a:hover {
 	isolation: isolate;
 }
 
-.big-a:hover {
-	text-decoration: none;
-}
-
-.article-preview {
-	width: max(1rem, min(321px, 32rem));
-	max-width: none;
-	height: max(1rem, min(145px, 12rem));
-}
-
 .preview {
 	overflow: hidden;
 	overflow-x: clip;

@@ -215,16 +215,6 @@ select {
 	max-width: 400px;
 }
 
-.big-a:hover {
-	text-decoration: none;
-}
-
-.article-preview {
-	width: clamp(1rem, 345px, 32rem);
-	max-width: none;
-	height: clamp(1rem, 145px, 12rem);
-}
-
 .preview {
 	overflow: hidden;
 	overflow-x: clip;
@@ -404,7 +394,7 @@ section {
 	margin: 0.25rem;
 	border-radius: 5px;
 	padding: 0.5rem;
-	width: fill-available;
+	width: stretch;
 	max-height: 7em;
 	overflow: hidden;
 }
@@ -458,9 +448,6 @@ section {
 
 .fit-card {
 	position: absolute;
-
-	/* top: 0;
-		right: 0; */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);

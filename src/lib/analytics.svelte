@@ -8,7 +8,7 @@
 <svelte:head>
 	<!-- Google tag (gtag.js) -->
 	{#if !dev}
-		<script type="text/javascript" defer>
+		<!-- <script type="text/javascript" defer>
 			!(function (t, e) {
 				var o, n, p, r;
 				e.__SV ||
@@ -53,7 +53,7 @@
 			posthog.init('phc_osbO9KZwWV9XRGSD2pIzPF7yGbNO92SfjXkuGi6Vljf', {
 				api_host: 'https://app.posthog.com'
 			});
-		</script>
+		</script> -->
 		<!-- <script type="text/javascript" defer>
 			if (document.URL.includes('9takes')) {
 				(function (c, l, a, r, i, t, y) {

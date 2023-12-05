@@ -279,9 +279,7 @@ If you identify as a Type 2 personality, there are a number of things you can do
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        .section-main {
-            display: block;
-        }
+        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

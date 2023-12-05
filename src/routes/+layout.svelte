@@ -55,7 +55,7 @@
 	<script>
 		// Forward the necessary functions to the web worker layer
 		partytown = {
-			forward: ['dataLayer.push']
+			forward: ['dataLayer.push', 'qab', 'clarity', 'posthog', 'posthog.capture']
 			// resolveUrl: (url) => {
 			// 	const siteUrl = `https://9takes.com`;
 
@@ -83,6 +83,7 @@
 			type="text/partytown"
 			src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
 		></script>
+		<!-- type="text/javascript"> -->
 		<script type="text/partytown">
 			(function (c, l, a, r, i, t, y) {
 				c[a] =

@@ -250,9 +250,6 @@ Another area where Enneagram Type 4 individuals may struggle is in their relatio
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        .section-main {
-            display: block;
-        }
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

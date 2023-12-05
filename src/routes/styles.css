@@ -266,12 +266,6 @@ article {
 	color: var(--color-theme-purple);
 }
 
-.section-main {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
 .section-content {
 	flex: 1;
 	transition: transform 0.7s ease-in-out;

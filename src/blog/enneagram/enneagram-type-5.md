@@ -281,9 +281,6 @@ To help foster personal growth and development for individuals with a Type 5 per
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        .section-main {
-            display: block;
-        }
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

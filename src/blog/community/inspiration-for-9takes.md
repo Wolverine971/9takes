@@ -106,5 +106,5 @@ Additionally I found some <a href="/blog/community/consensus-on-human-nature" >s
 
 So that was the inspiration for 9takes. If you want to see what I am building sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
-<style>
+<style lang="scss">
 </style>

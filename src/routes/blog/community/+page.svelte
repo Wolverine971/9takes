@@ -44,11 +44,7 @@
 		text-align: center;
 		margin: 1rem auto;
 	}
-	.section-main {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
+
 	.section-content {
 		border-right: solid;
 		margin: 10px;
@@ -67,12 +63,6 @@
 		justify-content: flex-start;
 		align-items: inherit;
 		margin: 1rem;
-
-		.article-preview {
-			max-width: none;
-			height: clamp(1rem, 145px, 12rem);
-			width: clamp(1rem, 321px, 32rem);
-		}
 
 		@media all and (max-width: 576px) {
 		}

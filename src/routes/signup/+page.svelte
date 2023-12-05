@@ -124,7 +124,7 @@
 		if (browser) {
 			const canvas = document.getElementById('world');
 			const context = canvas.getContext('2d');
-			window.addEventListener('resize', () => resizeWindow(canvas));
+			window.addEventListener('resize', () => resizeWindow(canvas), { passive: true });
 			resizeWindow(canvas);
 			step(context);
 

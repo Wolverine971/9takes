@@ -21,7 +21,7 @@
 	</div>
 {/if}
 
-<style>
+<style lang="scss">
 	.display-emails {
 		display: flex;
 		flex-direction: column;
