@@ -77,23 +77,15 @@
 	</h1>
 
 	<SearchQuestion {data} />
-	<!-- <p>Count {data.count}</p> -->
-
-	<!-- <QuestionTags /> -->
 
 	<div class="question-category-div">
 		<h2 style="margin-top: 0;">Question categories</h2>
 		<div class="big-tags">
 			{#each data.subcategoryTags as category}
 				{#if category}
-					<!-- <div>
-				<h3 id={category.subcategory_name}>{category.subcategory_name}</h3>
-				<div>
-					{#each categories[category.subcategory_name] as questionData} -->
-					<a href="#{category.tag_name}" class="tag">{category.tag_name} </a>
-					<!-- {/each} -->
-					<!-- </div>
-			</div> -->
+					<a href={`/questions/categories/${category?.tag_name.split(' ').join('-')}`} class="tag"
+						>{category?.tag_name}
+					</a>
 				{/if}
 			{/each}
 		</div>

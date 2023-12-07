@@ -74,10 +74,3 @@ a:hover {
 #root {
 	isolation: isolate;
 }
-
-.preview {
-	overflow: hidden;
-	overflow-x: clip;
-	text-overflow: clip;
-	white-space: nowrap;
-}

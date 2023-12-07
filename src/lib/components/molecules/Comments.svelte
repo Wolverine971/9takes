@@ -99,8 +99,6 @@
 	{:else}
 		<p>nothing right now</p>
 	{/if}
-{:else}
-	<p>no comments</p>
 {/if}
 
 <style lang="scss">

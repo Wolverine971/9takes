@@ -157,7 +157,7 @@
 
 <style lang="scss">
 	.question-box {
-		width: stretch;
+		width: -webkit-fill-available;
 		border-radius: 5px;
 		// height: 24px;
 		// padding: 0.5rem 1rem;

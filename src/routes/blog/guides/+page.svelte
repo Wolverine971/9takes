@@ -60,12 +60,5 @@
 		justify-content: flex-start;
 		align-items: inherit;
 		margin: 1rem;
-
-		.preview {
-			text-overflow: clip;
-			white-space: nowrap;
-			overflow-x: clip;
-			overflow: hidden;
-		}
 	}
 </style>

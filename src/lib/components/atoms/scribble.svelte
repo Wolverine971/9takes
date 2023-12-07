@@ -16,7 +16,7 @@
 		/* -- Text effect -- */
 	});
 	const scribbleScrabble = () => {
-		let name = document.querySelector('.scribble');
+		let name = document.querySelector(`.scrib${text.split(' ').join('-')}`);
 		let iteration = 0;
 
 		clearInterval(interval);
@@ -44,7 +44,7 @@
 </script>
 
 <p
-	class="scribble"
+	class="scribble scrib{text.split(' ').join('-')}"
 	data-value={text}
 	on:mouseover={() => {
 		scribbleScrabble();

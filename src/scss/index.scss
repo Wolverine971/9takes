@@ -215,13 +215,6 @@ select {
 	max-width: 400px;
 }
 
-.preview {
-	overflow: hidden;
-	overflow-x: clip;
-	text-overflow: clip;
-	white-space: nowrap;
-}
-
 .main a {
 	display: flex;
 	flex-wrap: wrap;
@@ -394,7 +387,7 @@ section {
 	margin: 0.25rem;
 	border-radius: 5px;
 	padding: 0.5rem;
-	width: stretch;
+	width: -webkit-fill-available;
 	max-height: 7em;
 	overflow: hidden;
 }
@@ -428,7 +421,7 @@ section {
 	gap: 1rem;
 	justify-content: flex-end;
 	margin: -0.5rem auto;
-	margin-right: 4rem;
+	z-index: 12345;
 }
 
 .sub-comment {

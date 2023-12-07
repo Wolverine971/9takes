@@ -18,7 +18,7 @@
 	{#if data?.ai_comments?.length}
 		<div>
 			{#each data.ai_comments as comment}
-				<Card style="border: 1px solid black">
+				<Card style="margin: .5rem 0; border: 1px solid black">
 					<div
 						class="user-comment"
 						itemprop="suggestedAnswer acceptedAnswer"
@@ -44,8 +44,6 @@
 	{:else}
 		<p>nothing right now</p>
 	{/if}
-{:else}
-	<p>no comments</p>
 {/if}
 
 <style lang="scss">

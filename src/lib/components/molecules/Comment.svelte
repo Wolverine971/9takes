@@ -177,13 +177,6 @@
 <svelte:window bind:innerWidth />
 
 <Card style="margin: .5rem 0; border: 1px solid black">
-	{#if innerWidth > 500}
-		<div class="comment-meta">
-			<span style="min-width:30px"
-				><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
-			</span>
-		</div>
-	{/if}
 	<div
 		class="user-comment"
 		itemprop="suggestedAnswer acceptedAnswer"
@@ -266,42 +259,52 @@
 			{/if}
 		</div>
 
-		{#if innerWidth > 500}
-			<div class="interaction-div-display ">
-				<button
-					title="Comment"
-					class=""
-					style="padding: 0.25rem;"
-					on:click={() => (commenting = !commenting)}
-				>
-					<MasterCommentIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={'#5407d9'}
-						type={comment.length ? 'full' : 'empty'}
-					/>
-				</button>
-				<button
-					title="Like"
-					class=""
-					style="{'padding: 0.25rem;'} color: {likes &&
-						user?.id &&
-						likes.some((e) => e.user_id === user?.id) &&
-						'#5407d9'}"
-					on:click={likeComment}
-				>
-					{#if likes.length}
-						<span itemprop="upvoteCount">
-							{likes.length}
-						</span>
-					{/if}
-					<ThumbsUpIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
-							''}
-					/>
-				</button>
+		{#if innerWidth >= 500}
+			<div
+				style="display: flex;
+			flex-direction: column"
+			>
+				<div class="comment-meta">
+					<span style="min-width:30px"
+						><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
+					</span>
+				</div>
+				<div class="interaction-div-display">
+					<button
+						title="Comment"
+						class=""
+						style="padding: 0.25rem;"
+						on:click={() => (commenting = !commenting)}
+					>
+						<MasterCommentIcon
+							iconStyle={'padding: 0.25rem;'}
+							height={'1.5rem'}
+							fill={'#5407d9'}
+							type={comment.length ? 'full' : 'empty'}
+						/>
+					</button>
+					<button
+						title="Like"
+						class=""
+						style="{'padding: 0.25rem;'} color: {likes &&
+							user?.id &&
+							likes.some((e) => e.user_id === user?.id) &&
+							'#5407d9'}"
+						on:click={likeComment}
+					>
+						{#if likes.length}
+							<span itemprop="upvoteCount">
+								{likes.length}
+							</span>
+						{/if}
+						<ThumbsUpIcon
+							iconStyle={'padding: 0.25rem;'}
+							height={'1.5rem'}
+							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
+								''}
+						/>
+					</button>
+				</div>
 			</div>
 		{/if}
 	</div>

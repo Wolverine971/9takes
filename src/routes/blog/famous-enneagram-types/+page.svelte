@@ -253,13 +253,6 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-
-		.preview {
-			text-overflow: clip;
-			white-space: nowrap;
-			overflow-x: clip;
-			overflow: hidden;
-		}
 	}
 
 	p {

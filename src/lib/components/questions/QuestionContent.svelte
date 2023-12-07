@@ -153,12 +153,12 @@
 	const scrollToSection = (sectionId: string) => {
 		const section = document.getElementById(sectionId);
 		if (section) {
-			section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'start' });
+			section.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'start' });
 		}
 	};
 
 	onMount(() => {
-		window.addEventListener('scroll', calculateHeightsAndSetClasses, { passive: true });
+		window.addEventListener('scroll', calculateHeightsAndSetClasses);
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);
@@ -229,7 +229,7 @@
 				style:--tag={`a-comment${data.id}`}
 				on:click={(e) => {
 					e.preventDefault();
-					selectedTab = 'visuals';
+					selectedTab = 'comments';
 					scrollToSection('comments');
 				}}
 			>
@@ -270,7 +270,7 @@
 				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
 				on:click={(e) => {
 					e.preventDefault();
-					selectedTab = 'visuals';
+					selectedTab = 'articles';
 					scrollToSection('articles');
 				}}
 			>
@@ -298,7 +298,7 @@
 			/>
 
 			<Card style="border: none; min-height: 100vh;">
-				{#if innerWidth > 575 && _data.comments.length >= 5}
+				{#if innerWidth > 575 && _data.comments.length >= 5 && selectedTab === 'comments'}
 					<h3
 						class=" {isFixed
 							? 'scroll-js pos-fixed'
@@ -417,8 +417,8 @@
 
 	.flexr {
 		flex: 1 0 100%;
+		scroll-snap-align: center;
 		position: relative;
-		scroll-snap-align: start;
 	}
 
 	.tab-box {
@@ -509,7 +509,7 @@
 
 	.slides {
 		display: flex;
-		// overflow-x: auto;
+		overflow-x: auto;
 		scroll-snap-type: x mandatory;
 		// scroll-padding: 30px 40px;
 		scroll-behavior: smooth;
