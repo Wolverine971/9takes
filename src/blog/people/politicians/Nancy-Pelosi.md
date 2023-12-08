@@ -20,6 +20,9 @@ tiktok:
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">Nancy Pelosi, an influential and pioneering political figure, has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness, and political flexibility.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -37,7 +40,6 @@ tiktok:
 
 > **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
 
-<p class="firstLetter">Nancy Pelosi, an influential and pioneering political figure, has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness, and political flexibility.</p>
 
 ## Pelosi's Accomplishments: A Reflection of Type 3 Traits
 

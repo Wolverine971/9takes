@@ -4,7 +4,7 @@ description: 'Why Grimes appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Grimes'
-lastmod: '2023-06-21'
+lastmod: '2023-12-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -36,7 +36,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/7s/${'Grimes'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="7"
 		displayText="Grimes"
 		subtext=""
 	/>
@@ -83,7 +83,7 @@ Grimes' social media presence is a vibrant tapestry of her adventures, artistic 
 
 ## The Shadow Side of Enthusiasm
 
-While Type 7 individuals are known for their positive outlook and boundless energy, they can be susceptible to impulsiveness, boredom, and an inclination to evade unpleasant emotions. Grimes' controversies have provided glimpses of this shadow side:
+While Type 7 personalities are known for their buoyant outlook and boundless energy, they are susceptible to impulsiveness, bouts of boredom, and a tendency to evade unpleasant emotions. Grimes’ controversies have offered glimpses of this shadow side:
 
 - Her past relationships with <a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a> have been characterized by public displays of affection and impulsiveness.
 - Some of her artistic expressions have been criticized for being provocative and lacking depth.
