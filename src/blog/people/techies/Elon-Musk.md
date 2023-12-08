@@ -106,7 +106,7 @@ Elon's first wife, Justine Musk, has described him as "a man obsessed with his w
 
 #### Grimes: The Artistic Muse
 
-Elon Musk and Grimes' relationship is a modern-day tale of intellect meeting artistry. They first connected over a shared joke about artificial intelligence on Twitter and made their public debut at the 2018 Met Gala. Their dynamic blends deep intellectual debates and artistic expression, epitomizing Elon's Enneagram Type 5 traits. They are co-parents to their son, X AE A-12, navigating an on-and-off relationship while balancing demanding careers. Grimes once said they love to debate AI and the future, capturing the essence of their complex yet fascinating relationship.
+Elon Musk and <a href="/blog/famous-enneagram-types/Grimes">Grimes'</a> relationship is a modern-day tale of intellect meeting artistry. They first connected over a shared joke about artificial intelligence on Twitter and made their public debut at the 2018 Met Gala. Their dynamic blends deep intellectual debates and artistic expression, epitomizing Elon's Enneagram Type 5 traits. They are co-parents to their son, X AE A-12, navigating an on-and-off relationship while balancing demanding careers. Grimes once said they love to debate AI and the future, capturing the essence of their complex yet fascinating relationship.
 
 ### The Dynamic with Elon in a Relationship
 

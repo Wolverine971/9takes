@@ -98,7 +98,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog</loc>
-	    <lastmod>2023-11-29</lastmod>
+	    <lastmod>2023-12-07</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>1.0</priority>
 	</url>
@@ -122,15 +122,15 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-10-18</lastmod>
+	    <lastmod>2023-12-07</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -138,8 +138,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{

@@ -169,6 +169,17 @@ By addressing these areas, Type 4 individuals can navigate their challenges more
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
 - Be that self which one truly is: categorized as desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
 - The unconscious sees the men behind the curtains: categorized as desire to be unique and special as it pertains to understanding the workings of the unconscious mind - Pierre Janet -->
+<!-- cheat sheet
+Enneagram Type 4, "The Individualist," relies on emotions for decision-making.
+Type 4s desire uniqueness and creativity but often grapple with feelings of not fitting in.
+Strengths encompass creativity, empathy, and self-awareness.
+Challenges include moodiness, self-doubt, and relationship difficulties.
+Motivations center on self-discovery, authenticity, and meaning.
+Fears involve inadequacy, misunderstanding, and abandonment.
+Under stress, Type 4s may resemble Type 2, becoming emotionally needy and controlling.
+In relationships, they seek emotional connection but may struggle with jealousy and idealization.
+In the workplace, they bring creativity and empathy but may face boredom and sensitivity to criticism.
+Growth involves self-awareness, gratitude, self-compassion, goal-setting, and balance. -->
 
 <svelte:head>
 

@@ -90,7 +90,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'David-Dobrik', link: true },
 		{ name: 'Robin-Williams', link: false },
 		{ name: 'Palmer-Luckey', link: false },
-		{ name: 'Grimes', link: false },
+		{ name: 'Grimes', link: true },
 		{ name: 'Leonardo-DiCaprio', link: true }
 	],
 	8: [
