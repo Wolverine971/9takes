@@ -2,9 +2,9 @@
 title: 'Grimes An Enneagram Type 7'
 description: 'Why Grimes appears to be a type 7'
 author: 'DJ Wayne'
-date: '2023-06-21'
+date: '2023-12-07'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Grimes'
-lastmod: '2023-12-21'
+lastmod: '2023-12-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
