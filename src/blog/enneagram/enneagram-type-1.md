@@ -17,7 +17,7 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three types in the Action Center/ Gut Triad. People of this type are driven by a desire to live up to their high ideals and principles, and to make the world a better place through their actions.</p>
+<p class="firstLetter">The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three Action Center/ Gut Triad types. People of this type desire to live up to their high ideals and principles and make the world a better place through their actions.</p>
 
 <br>
 <Carousel type={1} gridDisplay={true} />
@@ -27,16 +27,16 @@ type: ['overview']
 
 <h2>Enneagram 1 Description</h2>
 
-Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong, and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place, and they may become involved in causes and organizations that align with their values.They are driven by a sense of duty and responsibility, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, and they strive for excellence in all areas of their life.
+Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values. A sense of duty and responsibility drives them, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, striving for excellence.
 
-Another key trait of the Enneagram Type 1 is their desire for control and order. Perfectionists are often highly organized and efficient, and they strive for excellence in all areas of their life. They may have difficulty relaxing and letting go of control, and they may struggle with feelings of guilt and inadequacy when things do not go according to plan.
+Another key trait of the Enneagram Type 1 is their desire for control and order. Perfectionists are often highly organized and efficient, striving for excellence. They may have difficulty relaxing and letting go of control and struggle with guilt and inadequacy when things do not go according to plan.
 
 If you are a Type 1 personality, you may recognize these core characteristics:
 
 - You have high standards for yourself and others
 - You are detail-oriented and strive for perfection in all areas of life
 - You have a strong sense of ethics and moral values
-- You are organized, structured, and have a clear sense of right and wrong
+- You are organized and structured and have a clear sense of right and wrong
 - You are often hard on yourself and struggle with self-criticism
 - You can be critical of others if they don't meet your expectations
 
@@ -46,16 +46,16 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 
 <h2>💪 Strengths of an Enneagram 1</h2>
 
-One of the biggest strengths of the Enneagram Type 1 is their strong sense of responsibility and duty. Perfectionists are highly motivated to make a positive impact on the world, and they are often willing to make sacrifices for the greater good. They are also highly organized and efficient, which can be an asset in both personal and professional settings.
+One of the biggest strengths of the Enneagram Type 1 is their strong sense of responsibility and duty. Perfectionists are highly motivated to impact the world positively and are often willing to make sacrifices for the greater good. They are also highly organized and efficient, which can be an asset in personal and professional settings.
 
-Enneagram Type 1 individuals are also known for their strong work ethic and determination. They are not easily discouraged and will persist in their efforts to achieve their goals. They are also honest and straightforward, making them respected and trusted by their peers.
+Enneagram Type 1 individuals are known for their strong work ethic and determination. They are not easily discouraged and will persist in achieving their goals. They are also honest and straightforward, making them respected and trusted by their peers.
 
 <h3>Situations where 1s thrive</h3>
 <ul>
 <li>Organizing a Community Event: Their attention to detail and sense of responsibility ensure everything is done correctly and ethically.</li>
 <li>Leading a Quality Assurance Team: Their perfectionism and high standards lead to exceptional outcomes.</li>
 <li>Volunteering for Social Causes: Their strong sense of right and wrong drives them to make meaningful contributions.</li>
-<li>Teaching or Mentoring: Their desire to improve things and share knowledge benefits others.</li>
+<li>Teaching or Mentoring: Their desire to improve and share knowledge benefits others.</li>
 </ul>
 
 </article>
@@ -66,12 +66,12 @@ Enneagram Type 1 individuals are also known for their strong work ethic and dete
 
 Type 1 personalities, also known as Perfectionists or Reformers, have several weaknesses and challenges that they may face. Here are some of them:
 
-- Being overly critical: Type 1 personalities can be perfectionists and have a strong sense of right and wrong. They may hold themselves and others to extremely high standards, which can lead to being overly critical of themselves and others. This can create tension in relationships and cause them to feel stressed or anxious.
-- Struggling with flexibility: Type 1 personalities have a strong desire for structure and order. They may struggle with flexibility and may have difficulty adapting to change or unexpected events. This can lead to feeling frustrated or overwhelmed.
-- Feeling guilty: Type 1 personalities have a strong sense of responsibility and duty. They may feel guilty if they don't live up to their own high standards or if they feel they have let others down. This can lead to feelings of shame, self-doubt, and anxiety.
-- Difficulty relaxing: Type 1 personalities can have a hard time relaxing and may feel like they always need to be doing something productive. This can lead to burnout and exhaustion.
-- Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their own needs for self-care. They may struggle with self-compassion and may have a hard time giving themselves permission to take a break or rest.
-- Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may struggle with being open-minded and receptive to different perspectives.
+- Being overly critical: Type 1 personalities can be perfectionists and have a strong sense of right and wrong. They may hold themselves and others to extremely high standards, making them overly critical of themselves and others. This can create tension in relationships and cause them to feel stressed or anxious.
+- Struggling with flexibility: Type 1 personalities strongly desire structure and order. They may need help with flexibility and adapting to change or unexpected events. This can lead to feeling frustrated or overwhelmed.
+- Feeling guilty: Type 1 personalities have a strong sense of responsibility and duty. They may feel guilty if they don't live up to their high standards or feel they have let others down. This can lead to feelings of shame, self-doubt, and anxiety.
+- Difficulty relaxing: Type 1 personalities can have difficulty relaxing and may feel like they always need to be doing something productive. This can lead to burnout and exhaustion.
+- Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their self-care needs. They may struggle with self-compassion and have difficulty giving themselves permission to take a break or rest.
+- Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may need help with being open-minded and receptive to different perspectives.
 
 </article>
 
@@ -83,15 +83,15 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 
 <h2>🧭 Motivations of an Enneagram 1</h2>
 
-Type 1 personalities, also known as Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is right and responsible.
+Type 1 personalities, Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is proper and responsible.
 
 Here are some of the typical motivations of Type 1 personalities:
 
-- Striving for perfection: Type 1 personalities have a strong desire to be perfect and to do things correctly. They set high standards for themselves and others and strive to meet these standards in all aspects of their lives.
-- Seeking excellence: Type 1 personalities are motivated by the desire to excel in their chosen fields or areas of interest. They work hard to develop their skills and knowledge and to achieve mastery in their endeavors.
-- Valuing integrity: Type 1 personalities are motivated by a strong sense of moral and ethical values. They strive to live their lives with honesty, authenticity, and integrity and to be true to their own beliefs and values.
+- Striving for perfection: Type 1 personalities strongly desire to be perfect and do things correctly. They set high standards for themselves and others and strive to meet these standards in all aspects of their lives.
+- Seeking excellence: Type 1 personalities are motivated to excel in their chosen fields or areas of interest. They work hard to develop their skills and knowledge and to achieve mastery in their endeavors.
+- Valuing integrity: Type 1 personalities are motivated by a strong sense of moral and ethical values. They strive to live with honesty, authenticity, and integrity and be true to their beliefs and values.
 - Being responsible: Type 1 personalities are motivated by a sense of duty and responsibility. They take their obligations seriously and work hard to meet their responsibilities in both personal and professional contexts.
-- Creating order: Type 1 personalities are motivated by a desire for order and structure in their lives. They seek to create order in their environments and to establish routines and systems that help them achieve their goals.
+- Creating order: Type 1 personalities are motivated by a desire for order and structure. They seek to create order in their environments and establish routines and systems to help them achieve their goals.
 
 </article>
 
@@ -99,11 +99,11 @@ Here are some of the typical motivations of Type 1 personalities:
 
 <h2>😨 Fears of an Enneagram 1</h2>
 
-- Making mistakes or being wrong: Type 1s have a strong desire to do things right and to be seen as perfect. They fear making mistakes, as this can lead to feelings of shame and inadequacy.
+- Making mistakes or being wrong: Type 1s strongly desire to do things right and be seen as perfect. They fear making mistakes, as this can lead to feelings of shame and inadequacy.
 - Being imperfect: Type 1s strive for perfection in all areas of their life, including themselves. They fear being seen as imperfect or flawed, as this can damage their self-image.
-- Being criticized: Type 1s have a critical inner voice and can be very hard on themselves. They fear being criticized or judged by others, as this can reinforce their own self-criticism.
-- Being irresponsible: Type 1s have a strong sense of duty and responsibility. They fear being seen as irresponsible or unreliable, as this can conflict with their own self-image as a responsible person.
-- Chaos or disorder: Type 1s have a need for order and structure in their lives. They fear chaos or disorder, as this can make them feel out of control and anxious.
+- Being criticized: Type 1s have a critical inner voice and can be very hard on themselves. They fear being criticized or judged by others, as this can reinforce their self-criticism.
+- Being irresponsible: Type 1s have a strong sense of duty and responsibility. They fear being seen as irresponsible or unreliable, which can conflict with their self-image as a responsible person.
+- Chaos or disorder: Type 1s need order and structure. They fear chaos or disorder, as this can make them feel out of control and anxious.
 
 </article>
 
@@ -111,7 +111,7 @@ Here are some of the typical motivations of Type 1 personalities:
 
 <h2>🤯 Enneagram 1s Under Stress</h2>
 
-Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody, depressed, and isolate themselves from others. They might also become more self-critical and judgmental, as well as have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </article>
 
@@ -159,7 +159,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2>🌱 Growth and Development for Type 1 Personalities</h2>
 
-Enneagram Type 1 individuals, often known as Perfectionists, possess many strengths but also face specific challenges. A significant area of growth for them is learning to let go of control and to relax. They often struggle with feelings of guilt and inadequacy when things don't go as planned, and may find it difficult to enjoy life's simple pleasures. In relationships, their high standards and critical nature can lead to strained connections, and their strong sense of duty may hinder them from fully opening up and connecting with others.
+Enneagram Type 1 individuals, often known as Perfectionists, possess many strengths but also face specific challenges. A significant growth area for them is learning to let go of control and relax. They often struggle with guilt and inadequacy when things don't go as planned and may find it difficult to enjoy life's simple pleasures. In relationships, their high standards and critical nature can lead to strained connections, and their strong sense of duty may hinder them from fully opening up and connecting with others.
 
 To foster personal growth, Type 1s can focus on:
 

@@ -12,7 +12,9 @@
 	<meta name="description" content={`9takes Question | ${data.questionTag?.tag_name}`} />
 	<link
 		rel="canonical"
-		href={`https://9takes.com/questions/categories/${data.questionTag?.tag_name}`}
+		href={`https://9takes.com/questions/categories/${data.questionTag?.tag_name
+			.split(' ')
+			.join('-')}`}
 	/>
 </svelte:head>
 
