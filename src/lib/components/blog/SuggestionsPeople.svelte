@@ -47,7 +47,7 @@
 										alt={slug.split('-').join(' ')}
 									/>
 								{/if}
-								<div class="fit-card txt-white border-0 ">
+								<div class="fit-card txt-white">
 									<h3 class="small-h3">
 										{slug.split('-').join(' ')}
 									</h3>
@@ -73,7 +73,7 @@
 										alt={slug.split('-').join(' ')}
 									/>
 								{/if}
-								<div class="fit-card txt-white border-0 ">
+								<div class="fit-card txt-white">
 									<h3 class="small-h3">
 										{slug.split('-').join(' ')}
 									</h3>
@@ -155,7 +155,7 @@
 		position: relative;
 		max-width: 262px;
 		width: 100%;
-		//   background-color: #f2f8f9;
+		// background-color: #f2f8f9;
 		border-radius: 5px;
 		// padding: 16px 12px;
 		// margin: 6px;

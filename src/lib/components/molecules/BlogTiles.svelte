@@ -21,11 +21,7 @@
 						alt={cBlog.pic.split('-').join(' ')}
 					/>
 				{/if}
-				<div
-					class="card text-white border-0 {cBlog.pic
-						? 'txt-white fit-card'
-						: 'txt-dark fit-card-center'}"
-				>
+				<div class="text-white{cBlog.pic ? 'txt-white fit-card' : 'txt-dark fit-card-center'}">
 					<h3>
 						{cBlog.title}
 					</h3>
@@ -46,7 +42,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="card txt-white border-0  {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -67,7 +63,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="card txt-white border-0  {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -97,7 +93,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -122,7 +118,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -147,7 +143,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -172,7 +168,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -197,7 +193,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -222,7 +218,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -247,7 +243,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>

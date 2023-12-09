@@ -62,7 +62,6 @@
 	};
 </script>
 
-<!-- <section class="card"> -->
 <form class="question-form">
 	<div style="flex: 1">
 		<Context>

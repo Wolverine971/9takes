@@ -69,7 +69,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -92,7 +92,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -114,7 +114,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -136,7 +136,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -158,7 +158,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -179,7 +179,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>
@@ -211,7 +211,7 @@
 						alt={person.slug.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="card fit-card txt-white border-0 ">
+				<div class="fit-card txt-white">
 					<h3>
 						{person.slug.split('-').join(' ')}
 					</h3>

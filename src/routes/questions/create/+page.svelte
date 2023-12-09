@@ -110,7 +110,7 @@
 	};
 </script>
 
-<div class="card">
+<div class="">
 	<h1 style="text-align: center">Ask a question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form">
 		<textarea
