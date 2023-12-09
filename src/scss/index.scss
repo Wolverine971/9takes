@@ -387,7 +387,7 @@ section {
 	margin: 0.25rem;
 	border-radius: 5px;
 	padding: 0.5rem;
-	width: -webkit-fill-available;
+	width: fill-available;
 	max-height: 7em;
 	overflow: hidden;
 }
@@ -420,8 +420,8 @@ section {
 	display: flex;
 	gap: 1rem;
 	justify-content: flex-end;
-	margin: -0.5rem auto;
 	z-index: 12345;
+	margin: -0.5rem auto;
 }
 
 .sub-comment {

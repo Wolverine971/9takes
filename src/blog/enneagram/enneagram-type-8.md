@@ -295,7 +295,6 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;
@@ -303,6 +302,5 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
             /*transition: transform .7s ease-in-out;*/
             /*flex: 1;*/
         }
-       
     }
 </style>

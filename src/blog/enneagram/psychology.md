@@ -129,5 +129,4 @@ previewHtml: ''
 
 <style lang="scss">
 
-
 </style>

@@ -299,7 +299,6 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

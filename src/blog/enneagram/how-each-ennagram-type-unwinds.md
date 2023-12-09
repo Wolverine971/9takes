@@ -42,7 +42,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 1: The Reformer
 
-### Unwind with Purposeful Play:
+### Unwind with Purposeful Play
 
 - Benefit: Combat perfectionism and embrace the joy of imperfection.
 - Why it's essential: Releasing the need for control allows you to experience the present moment more fully.
@@ -52,7 +52,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 2: The Helper
 
-### Pamper Yourself with Self-Care Rituals:
+### Pamper Yourself with Self-Care Rituals
 
 - Benefit: Recharge your batteries and nurture your own needs.
 - Why it's essential: Avoiding burnout requires prioritizing your well-being.
@@ -62,7 +62,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 3: The Achiever
 
-### Challenge Yourself with Thrilling Activities:
+### Challenge Yourself with Thrilling Activities
 
 - Benefit: Boost your confidence and step outside your comfort zone.
 - Why it's essential: Pushing your limits unlocks new possibilities and keeps life exciting.
@@ -72,7 +72,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 4: The Individualist
 
-### Immerse Yourself in Artistic Expression:
+### Immerse Yourself in Artistic Expression
 
 - Benefit: Connect with your emotions and explore your unique perspective.
 - Why it's essential: Self-expression allows you to process your inner world and share your authentic self.
@@ -82,7 +82,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 5: The Investigator
 
-### Dive Deep into Knowledge and Exploration:
+### Dive Deep into Knowledge and Exploration
 
 - Benefit: Satisfy your curiosity and expand your understanding of the world.
 - Why it's essential: Learning and exploring new topics can spark creativity and fuel intellectual growth.
@@ -92,7 +92,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 6: The Loyalist
 
-### Connect with Trusted Companions and Engage in Meaningful Activities:
+### Connect with Trusted Companions and Engage in Meaningful Activities
 
 - Benefit: Strengthen your bonds with loved ones and build a sense of belonging.
 - Why it's crucial: Social connection and shared experiences are essential for well-being.
@@ -102,7 +102,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 7: The Enthusiast
 
-### Seek Novelty and Embrace the Unexpected:
+### Seek Novelty and Embrace the Unexpected
 
 - Benefit: Keep your life exciting and avoid boredom.
 - Why it's essential: Embracing new experiences allows you to discover new passions and expand your horizons.
@@ -112,7 +112,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 8: The Challenger
 
-### Embrace Personal Growth Through Challenging Activities:
+### Embrace Personal Growth Through Challenging Activities
 
 - Benefit: Build confidence and overcome your limitations.
 - Why it's essential: Pushing boundaries helps you discover your inner strength and resilience.
@@ -122,7 +122,7 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 ## Enneagram Type 9: The Peacemaker
 
-### Find Harmony in Simplicity and Nature:
+### Find Harmony in Simplicity and Nature
 
 - Benefit: Calm your mind and reconnect with your inner peace.
 - Why it's important: Creating space for quiet reflection helps you recharge and cope with stress.
