@@ -60,21 +60,23 @@ I hope these suggestions are helpful!
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram, a profound and popular personality typing system, serves as a valuable tool for self-discovery and understanding others. Drawing insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, this guide delves into the intricate layers of each Enneagram type. It not only facilitates personal growth and improved relationships but also illuminates the unique mental health challenges associated with each type. Central to this exploration is the concept of the "shadow side" – the less favorable aspects of our personalities that can lead to psychological struggles. By examining these shadow sides, we aim to provide a comprehensive understanding of how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns, illustrated through specific scenarios.</p>
+<p class="firstLetter">The Enneagram, a profound and popular personality typing system, is a valuable tool for self-discovery and understanding others. Drawing insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, this guide delves into the intricate layers of each Enneagram type. It facilitates personal growth and improved relationships and illuminates the unique mental health challenges associated with each type. Central to this exploration is the "shadow side" concept – the less favorable aspects of our personalities that can lead to psychological struggles. By examining these shadow sides, we will better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns, illustrated through specific scenarios.</p>
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/blogs/greek-statue-2-sided-mask.webp`}
-		showIcon={false}
-		altText="greek statue with 2 faces"
-		subtext=""
-	/>
+    <PopCard
+        image={`/blogs/greek-statue-2-sided-mask.webp`}
+        showIcon={false}
+        altText="Greek statue with two faces"
+        subtext=""
+    />
 </div>
+
+Here, we will describe each type's mental health risks and give examples of unhealthy spirals and how each type might find themselves in these negative situations.
 
 ## Enneagram Type 1: The Perfectionist
 
@@ -100,7 +102,7 @@ Type 2s risk developing Histrionic Personality Disorder, hypochondriasis, and co
 
 ### Unhealthy Spirals:
 
-Liam, a health care professional, begins to manipulate his relationships for validation. His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
+Liam, a healthcare professional, begins to manipulate his relationships for validation. His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
 
 Emma, deeply invested in her friendships, starts exhibiting somatization of stress. Her desire for appreciation turns into obsessive behaviors, impacting her mental and physical health.
 
@@ -148,7 +150,7 @@ Type 5s face Schizoid, Schizotypal, Avoidant Personality Disorders, psychotic br
 
 ### Unhealthy Spirals:
 
-Ethan, a researcher, increasingly isolates himself, neglecting his physical health. His eccentricity and refusal of help lead to distorted perceptions and suicidal ideation.
+Ethan, a researcher, increasingly isolates himself, neglecting his physical health. His eccentricity and refusal of help led to distorted perceptions and suicidal ideation.
 
 Ava, an introverted student, experiences severe insomnia and nightmares. Her growing isolation and hostility toward help result in a disconnection from reality and potential psychotic breaks.
 
@@ -166,7 +168,7 @@ Type 6s are susceptible to Paranoid, Dependent, Borderline Personality Disorders
 
 Noah, feeling insecure in his job, experiences intense anxiety and panic attacks. His fear of losing support leads to dependency and defiance, triggering a cycle of anxiety and depression.
 
-Mia, plagued by inferiority feelings, becomes extremely suspicious and paranoid. Her attachment to unhealthy relationships and impulsive defiance exacerbate her mental health challenges.
+Mia, plagued by feelings of inferiority, becomes extraordinarily suspicious and paranoid. Her attachment to unhealthy relationships and impulsive defiance exacerbate her mental health challenges.
 
 ### Negative Coping Mechanisms:
 
@@ -180,7 +182,7 @@ Type 7s might develop Manic-Depressive Disorders, Histrionic Personality Disorde
 
 ### Unhealthy Spirals:
 
-Lucas, seeking to escape anxiety, falls into serious addictions. His impulsiveness and mood swings lead to periods of uncontrolled behavior and panic, indicating severe mental health issues.
+Lucas, seeking to escape anxiety, falls into severe addictions. His impulsiveness and mood swings lead to periods of uncontrolled behavior and panic, indicating severe mental health issues.
 
 Charlotte, a vivacious socialite, experiences wild mood swings. Her attempts to avoid anxiety through compulsive activities result in debilitating addictions and manic-depressive behaviors.
 
@@ -222,9 +224,9 @@ Type 9s' denial of problems and tendency to yield to others can lead to severe l
 
 ## Conclusion
 
-In conclusion, the exploration of each Enneagram type's predisposition to specific mental health challenges is indeed heavy and profound. Within Enneagram circles and amongst personality experts, these negative aspects of our personality are often referred to as our "shadow side." This shadow side, though daunting to confront, is an essential part of our journey towards self-awareness and growth. Understanding these potential pitfalls is not about labeling or limiting ourselves, but rather about recognizing the full spectrum of our personality, including the parts we often prefer to keep in the dark.
+In conclusion, the exploration of each Enneagram type's predisposition to specific mental health challenges is indeed heavy and profound. Within Enneagram circles and amongst personality experts, these negative aspects of our personality are often called our "shadow side." This shadow side, though daunting to confront, is an essential part of our journey toward self-awareness and growth. Understanding these potential pitfalls is not about labeling or limiting ourselves but rather about recognizing the full spectrum of our personality, including the parts we often prefer to keep in the dark.
 
-By acknowledging and understanding our shadow side, we empower ourselves to address these challenges proactively. This awareness allows us to seek appropriate support, develop healthier coping mechanisms, and ultimately, navigate our lives with greater understanding and compassion, both for ourselves and others. The journey through the Enneagram's insights is not just about celebrating our strengths but also about bravely facing our vulnerabilities and transforming them into stepping stones for personal growth and mental well-being.
+By acknowledging and understanding our shadow side, we empower ourselves to address these challenges proactively. This awareness allows us to seek appropriate support, develop healthier coping mechanisms, and ultimately, navigate our lives with greater understanding and compassion for ourselves and others. The journey through the Enneagram's insights is about celebrating our strengths, bravely facing our vulnerabilities, and transforming them into stepping stones for personal growth and mental well-being.
 
 <svelte:head>
 

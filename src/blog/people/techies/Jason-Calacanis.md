@@ -21,7 +21,7 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Are we all not stars in our narratives, aching to make a mark? Driven by success, we mold ourselves to fit the accomplishment framework. And in this shared human experience, few exemplify the journey of The Achiever - the Enneagram type 3 - as vividly as <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">Jason Calacanis</a>. Let's dive into a nuanced understanding of Jason Calacanis' personality through the lens of Enneagram.</p>
+<p class="firstLetter">Are we all, not stars in our narratives, aching to make a mark? Driven by success, we mold ourselves to fit the accomplishment framework. And in this shared human experience, few exemplify the journey of The Achiever - the Enneagram type 3 - as vividly as <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">Jason Calacanis</a>. Let's dive into a nuanced understanding of Jason Calacanis' personality through the lens of Enneagram.</p>
 
 > **Disclaimer** This analysis of Jason Calacanis's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jason Calacanis.
 
@@ -59,7 +59,7 @@ Internationally recognized entrepreneur, angel investor, and host of the "<a cla
 
 ### The Achiever: An Overview
 
-Type 3s, or Achievers, are characterized by their desire for success, ambition, and competency. They embody the best in culture, often serving as role models that inspire others to more extraordinary personal achievements. However, they are also driven by their basic fear of worthlessness. Their pursuit of success is a quest for affirmation, a desire to be admired, to distinguish themselves from others, and to validate their value.
+Type 3s, or Achievers, are characterized by their desire for success, ambition, and competency. They embody the best in culture, often serving as role models that inspire others to more extraordinary personal achievements. However, they are also driven by their primary fear of worthlessness. Their pursuit of success is a quest for affirmation, a desire to be admired, to distinguish themselves from others, and to validate their value.
 
 Threes may become disengaged and apathetic when stressed or disintegrated, akin to an unhealthy Nine. On the other hand, when they are growing or integrated, Threes become more cooperative and committed to others, much like healthy Sixes.
 
@@ -69,9 +69,9 @@ In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His en
 
 ### The Charmer and The Professional
 
-In his interpersonal relationships and public persona, Calacanis often displays the charm and diplomacy associated with Threes. He manages to create an impression, whether it's through his assertive statements on Twitter or the charisma he displays in his podcast.
+In his interpersonal relationships and public persona, Calacanis often displays the charm and diplomacy associated with Threes. He manages to create an impression, whether it's through his assertive statements on Twitter or the charisma he says in his podcast.
 
-A Three with a Two-Wing, often called "The Charmer," is known for its warmth, ambition, and people-pleasing tendencies. While a Three with a Four-Wing, termed "The Professional," balances their dreams with a sense of individualism and introspection. Calacanis seems to oscillate between these two sides, embodying the outgoing charisma of a "Charmer" and the professional composure of a "Professional." Nowhere is this more evident than in how he describes building his network.
+A Three with a Two-Wing, often called "The Charmer," is known for its warmth, ambition, and people-pleasing tendencies. Meanwhile, a Three with a Four-Wing, termed "The Professional," balances their dreams with individualism and introspection. Calacanis seems to oscillate between these two sides, embodying the outgoing charisma of a "Charmer" and the professional composure of a "Professional." Nowhere is this more evident than in how he describes building his network.
 
 <div class="iframe-container">
 <iframe width="100%" height="315"
@@ -96,7 +96,7 @@ Jason's first major triumph, co-founding Weblogs Inc., indicates the ambitious, 
 
 Calacanis consistently states that hard work is the key to his success, which echoes Type 3's tendency towards workaholism. However, it's his flexibility and determination where we truly see the Type 3 shine. When his venture, Mahalo, struggled, he didn't give up. Instead, he transformed it into a successful YouTube video content provider, Inside.com, demonstrating Type 3's adaptive, success-focused nature.
 
-Furthermore, through his popular podcast, "This Week in Startups," Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and charm commonly seen in this Enneagram type.
+Furthermore, through his popular podcast, "This Week in Startups," Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and appeal commonly seen in this Enneagram type.
 
 ## Jason's impact on "The All in Podcast"
 
@@ -104,7 +104,7 @@ Jason Calacanis's influence on "The All In Podcast" is a testament to his Enneag
 
 His self-proclaimed title as the 'world's greatest moderator' underpins his Type 3's desire for achievement and recognition. He artfully directs the conversation, allowing each participant to express their views, demonstrating his adaptability, a key trait of Type 3.
 
-The playful tension between Calacanis and Sacks adds a unique dynamic to the podcast, showcasing Jason's charm and charisma, characteristic of his Enneagram type. His firm stance on his beliefs reflects his determination and persistence, while his ability to shift from serious debates to laughter underscores his flexibility.
+The playful tension between Calacanis and Sacks adds a unique dynamic to the podcast, showcasing Jason's charm and charisma, which are characteristic of his Enneagram type. His firm stance on his beliefs reflects his determination and persistence, while his ability to shift from serious debates to laughter underscores his flexibility.
 
 There's an underlying ambition within Jason that once resulted in him being jokingly accused of trying to take over the podcast, indicative of Type 3's desire for success. Yet his respect for the team dynamic and focus on their friendship shows a healthy ability to manage this ambition, further illustrating his Type 3 traits.
 

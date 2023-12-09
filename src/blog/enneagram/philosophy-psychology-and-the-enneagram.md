@@ -53,8 +53,8 @@ While the Enneagram is a popular tool for understanding human behavior and growt
 
 The Enneagram's intelligence centers align remarkably well with Plato's idea of the human soul. According to Plato, the soul consists of reason, spirit, and appetite. These three components correspond to the Enneagram's intellectual intelligence, emotional intelligence, and instinctual intelligence centers.
 
-**Reason (intellectual intelligence)**: Plato believed the soul's rational aspect guides our thinking and decision-making. This aligns with the Enneagram's intellectual intelligence center, which focuses on understanding the world around us.
-**Spirit (emotional intelligence)**: For Plato, the spirited part of the soul drives our emotions and desires. This connects to the Enneagram's emotional intelligence center, which manages our emotions and interpersonal relationships.
+**Reason (intellectual intelligence)**: Plato believed the soul's rational aspect guides our thinking and decision-making. This aligns with the Enneagram's intelligence center, which focuses on understanding the world around us.
+**Spirit (emotional intelligence)**: For Plato, the spirited part of the soul drives our emotions and desires. This connects to the Enneagram's emotional center, which manages our emotions and interpersonal relationships.
 **Appetite (instinctual intelligence)**: Plato's third component, appetite, governs our primal needs and drives. This mirrors the Enneagram's instinctual intelligence center, which concentrates on survival and self-preservation.
 
 ## Freud's Model of the Psyche and the Enneagram
@@ -62,8 +62,8 @@ The Enneagram's intelligence centers align remarkably well with Plato's idea of 
 Similarly, Freud's theory of the human psyche—comprising the id, ego, and superego—parallels the Enneagram's intelligence centers.
 
 **Id (instinctual intelligence)**: The id represents our basic instincts and desires. It aligns with the Enneagram's instinctual intelligence center, governing our primal drives.
-**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intellectual intelligence center, which focuses on understanding our environment.
-**Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional intelligence center, which manages our emotions and connections with others.
+**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intelligence center, which focuses on understanding our environment.
+**Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional center, which manages our emotions and connections with others.
 
 <div class="scroll-table">
 
@@ -81,7 +81,7 @@ Now that we've established the connections between the Enneagram, Plato, and Fre
 
 ## Fear and Intellectual Intelligence
 
-Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to the development of a sophisticated understanding of the world around us.
+Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to developing a sophisticated understanding of the world around us.
 
 **Fear Example**: Imagine a person who fears losing their job. To prevent this, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure job security.
 
@@ -95,7 +95,7 @@ Shame is the core emotion behind emotional intelligence. Our desire to be accept
 
 Anger is the fundamental emotion fueling the development of instinctual intelligence. Our innate need to protect ourselves and our resources can give rise to anger, which then propels us to take action. As we learn to channel and control our anger, we develop the capacity to respond effectively to threats and challenges, ultimately honing our instinctual intelligence.
 
-**Anger Example**: Consider someone who experiences anger when they feel their boundaries have been violated. Over time, they learn to assert their boundaries and protect their well-being, developing a keen sense of instinctual intelligence.
+**Anger Example**: Consider someone who experiences anger when they feel their boundaries have been violated. Over time, they learn to assert their borders and protect their well-being, developing a keen sense of instinctual intelligence.
 
 ## The Interplay of Emotions and Intelligence Centers
 
@@ -202,7 +202,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "name": "What is the Enneagram and its significance in understanding human behavior?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Enneagram is a framework that refracts the complexity of human behaviors and personal growth into understandable patterns, tracing its roots back to philosophical and psychological concepts. It maps the intersections between its intelligence centers and influential constructs of the psyche by Freud, as well as Plato's blueprint of the human soul."
+        "text": "The Enneagram is a framework that refracts the complexity of human behaviors and personal growth into understandable patterns, tracing its roots back to philosophical and psychological concepts. It maps the intersections between its intelligence centers and influential constructs of the psyche by Freud and Plato's blueprint of the human soul."
       }
     },
     {

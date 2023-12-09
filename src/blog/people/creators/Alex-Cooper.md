@@ -1,6 +1,6 @@
 ---
 title: 'Alex Cooper An Enneagram Type 7'
-description: 'Why Alex Cooper appears to be a type 7'
+description: "Unveiling Alex Cooper's Enneagram 7 Personality: A Journey into 'The Enthusiast' on 'Call Her Daddy' podcast."
 author: 'DJ Wayne'
 date: '2023-08-29'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Alex-Cooper'

@@ -24,27 +24,27 @@ tiktok:
 <p class="firstLetter">Sam Altman, a name synonymous with innovation and disruption in the tech world, embodies the essence of Enneagram Type 4 - The Individualist. His journey from the early days of Y Combinator to his current role at OpenAI is not just a tale of technological triumph but also a deep dive into the psyche of a complex, driven individual.</p>
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/types/4s/${'Sam-Altman'}.webp`}
-		showIcon={false}
-		enneagramType="4"
-		displayText="Sam Altman"
-		subtext=""
-	/>
+    <PopCard
+        image={`/types/4s/${'Sam-Altman'}.webp`}
+        showIcon={false}
+        enneagramType="4"
+        displayText="Sam Altman"
+        subtext=""
+    />
 </div>
 
-> **Disclaimer** This analysis of Sam Altman's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Sam Altman.
+> **Disclaimer** This analysis of Sam Altman's Enneagram type is purely speculative, based on publicly available information, and may not reflect Sam Altman's actual personality type.
 
 ## What Is Sam Altman's Personality Type?
 
 ### Sam Altman as an Enneagram Type 4
 
-Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity. They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of a Type 4.
+Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity. They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of Type 4.
 
 ## Sam Altman: A Prototype of the Enneagram 4
 
@@ -52,13 +52,13 @@ Enneagram Type 4s, known as The Individualists, are defined by their uniqueness,
 
 From his intellectual beginnings at Stanford University, majoring in computer science, Sam Altman's path diverged from the conventional. His decision to leave Stanford to pursue entrepreneurial ventures highlights a typical Type 4's aversion to the ordinary and a drive for authenticity. This period was more than just an academic journey; it was the cultivation of an independent spirit, a hallmark of the Enneagram 4 personality.
 
-### Y Combinator and Beyond: Fostering Innovation
+### Y Combinator and Beyond: Fostering innovation
 
-At Y Combinator, Altman's innate ability to spot potential and nurture innovation came to the forefront. This environment was a perfect match for a Type 4's core values of authenticity and self-expression. By empowering a community of innovators, Altman not only reshaped industries but also solidified his identity as a visionary leader.
+At Y Combinator, Altman's innate ability to spot potential and nurture innovation came to the forefront. This environment perfectly matched Type 4's core values of authenticity and self-expression. By empowering a community of innovators, Altman reshaped industries and solidified his identity as a visionary leader.
 
 ### Embracing Complexity: The Shadows and Strengths
 
-However, like all Enneagram types, Type 4s have their complexities. Their quest for uniqueness can lead to feelings of envy or a sense of superiority, and their introspective nature can sometimes result in isolation. Altman's journey likely involved navigating these shadows, balancing his ambitious drive with self-awareness and introspection to become a more balanced individual.
+However, like all Enneagram types, Type 4s have their complexities. Their quest for uniqueness can lead to envy or a sense of superiority, and their reflective nature can sometimes result in isolation. Altman's journey likely involved navigating these shadows, balancing his ambitious drive with self-awareness and introspection to become a more balanced individual.
 
 ## Inside the Mind of Sam Altman
 
@@ -68,7 +68,7 @@ For a Type 4 like Sam Altman, leading an organization like OpenAI comes with uni
 
 ### Pride and Ambition: A Force for Change
 
-Altman's pride in his work at OpenAI is likely tied to his ambition to use AI as a tool for positive societal change. This ambition, characteristic of a Type 4, drives him to strive for a future where AI benefits humanity. His focus on AI safety and ethics at OpenAI reflects a deep-seated commitment to impactful and significant contributions.
+Altman's pride in his work at OpenAI is likely tied to his ambition to use AI for positive societal change. This ambition, characteristic of Type 4, drives him to strive for a future where AI benefits humanity. His focus on AI safety and ethics at OpenAI reflects a deep-seated commitment to impactful and significant contributions.
 
 ### Intellectual Curiosity: Exploring New Frontiers
 
@@ -80,13 +80,13 @@ As a Type 4, Altman's reflective nature is evident in <a href="https://press.far
 
 ### Lifestyle Choices: Balancing Body and Mind
 
-<a href="https://honehealth.com/edge/lifestyle/culture/celebrity/sam-altman-anti-aging-metformin-diet-sleep/">Altman's disciplined approach to health and wellness</a>, including a vegetarian diet, regular fitness routine, and prioritization of sleep, is indicative of a Type 4's awareness of their physical and emotional state. These habits reflect a conscious effort to maintain a balance that fuels both his personal well-being and professional creativity​.
+<a href="https://honehealth.com/edge/lifestyle/culture/celebrity/sam-altman-anti-aging-metformin-diet-sleep/">Altman's disciplined approach to health and wellness</a>, including a vegetarian diet, regular fitness routine, and prioritization of sleep, is indicative of a Type 4's awareness of their physical and emotional state. These habits reflect a conscious effort to maintain a balance that fuels his personal well-being and professional creativity​.
 
 ## Conclusion
 
-In summary, Sam Altman's life and career, viewed through the Enneagram Type 4 lens, provide a window into the mind of a leader who blends technological prowess with a deeply personal quest for identity and impact. His journey is a vivid illustration of how a Type 4 navigates the complexities of innovation, ethics, and personal growth, offering insights into the inner workings of a visionary mind.
+In summary, Sam Altman's life and career, viewed through the Enneagram Type 4 lens, provide a window into the mind of a leader who blends technological prowess with a deeply personal quest for identity and impact. His journey is a vivid illustration of how Type 4 navigates the complexities of innovation, ethics, and personal growth, offering insights into the inner workings of a visionary mind.
 
-Are you inspired by Altman's journey? Do you see reflections of your own personality in his story? Join us at 9takes to delve deeper into the world of Enneagram and discover your unique type. Sign up now and be part of a community that values the exploration of personalities and perspectives. Let's embark on this journey together, one story, one question, one personality at a time.
+Are you inspired by Altman's journey? Do you see reflections of your own personality in his story? Join us at 9takes to delve deeper into the world of Enneagram and discover your unique type. Sign up now and be part of a community that values the exploration of personalities and perspectives. Let's embark on this journey together, one story, question, and personality at a time.
 
 <svelte:head>
 
@@ -139,59 +139,59 @@ Are you inspired by Altman's journey? Do you see reflections of your own persona
         "name": "9takes"
       }
     },
-	{
-		"@type": "FAQPage",
-		"mainEntity": [
-			{
-				"@type": "Question",
-				"name": "Why is Sam Altman considered an Enneagram Type 4?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Sam Altman is seen as an Enneagram Type 4 due to his deep sense of individuality, creative vision, and pursuit of authenticity. His career path from Stanford to leading OpenAI demonstrates a drive for unique and meaningful work, aligning with the core characteristics of Type 4s."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "How does Sam Altman's Enneagram type influence his leadership at OpenAI?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "As an Enneagram Type 4, Altman's leadership at OpenAI is characterized by innovation, ethical responsibility, and authenticity. He focuses on AI development that prioritizes safety and societal benefit, reflecting the depth and idealism typical of Type 4 personalities."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "What are some key traits of Sam Altman that align with Enneagram Type 4?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Key traits of Sam Altman aligning with Enneagram Type 4 include intellectual curiosity, independent spirit, commitment to impactful innovation, introspective nature, and dedication to ethical leadership in technology."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "Can Sam Altman's entrepreneurial spirit be attributed to his Enneagram type?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Yes, Sam Altman's entrepreneurial spirit can be partly attributed to his Enneagram Type 4 personality. Type 4s often seek to express their identity and values through their work, leading to a strong drive for innovative and meaningful ventures."
-				}
-			},
-			{
-				"@type": "Question",
-				"name": "What is Sam Altman's Personality type?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Sam Altman's personality is often described as that of an Enneagram Type 4, characterized by his unique vision, depth of emotions, and pursuit of authenticity in his professional endeavors. This type aligns with his innovative approach and leadership style in the tech industry."
-			}
-			},
-				{
-				"@type": "Question",
-				"name": "What is Sam Altman's Enneagram type?",
-				"acceptedAnswer": {
-					"@type": "Answer",
-					"text": "Sam Altman is considered to exhibit the characteristics of an Enneagram Type 4, also known as The Individualist. This is inferred from his deep sense of identity, emotional intensity, creative vision, and his desire for authenticity and significance in his work."
-				}
-			}
-		]
-	}
+    {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Why is Sam Altman considered an Enneagram Type 4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sam Altman is seen as an Enneagram Type 4 due to his deep sense of individuality, creative vision, and pursuit of authenticity. His career path from Stanford to leading OpenAI demonstrates a drive for unique and meaningful work, aligning with the core characteristics of Type 4s."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Sam Altman's Enneagram type influence his leadership at OpenAI?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "As an Enneagram Type 4, Altman's leadership at OpenAI is characterized by innovation, ethical responsibility, and authenticity. He focuses on AI development that prioritizes safety and societal benefit, reflecting the depth and idealism typical of Type 4 personalities."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are some key traits of Sam Altman that align with Enneagram Type 4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key traits of Sam Altman aligning with Enneagram Type 4 include intellectual curiosity, independent spirit, commitment to impactful innovation, introspective nature, and dedication to ethical leadership in technology."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Sam Altman's entrepreneurial spirit be attributed to his Enneagram type?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Sam Altman's entrepreneurial spirit can be partly attributed to his Enneagram Type 4 personality. Type 4s often seek to express their identity and values through their work, leading to a strong drive for innovative and meaningful ventures."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Sam Altman's Personality type?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sam Altman's personality is often described as an Enneagram Type 4, characterized by his unique vision, depth of emotions, and pursuit of authenticity in his professional endeavors. This type aligns with his innovative approach and leadership style in the tech industry."
+            }
+            },
+                {
+                "@type": "Question",
+                "name": "What is Sam Altman's Enneagram type?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sam Altman is considered to exhibit the characteristics of an Enneagram Type 4, also known as The Individualist. This is inferred from his deep sense of identity, emotional intensity, creative vision, and desire for authenticity and significance in his work."
+                }
+            }
+        ]
+    }
 
   ]
 }

@@ -21,7 +21,8 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Miley Cyrus is a great example of a Type 4 personality from the Enneagram system. This means she is very individualistic, emotional, and always searching for her true self. Her life in the spotlight shows these traits well.</p>
+<p class="firstLetter">Miley Cyrus is an excellent example of a Type 4 personality from the Enneagram system. This means she is very individualistic, emotional, and always searching for her true self. Her life in the spotlight shows these traits well.
+</p>
 
 > **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect Miley's actual personality type.
 
@@ -102,13 +103,13 @@ Her story beckons us to delve deeper to understand the emotional undercurrents t
 
 ## Wrapping up: The Enigma of Miley Cyrus
 
-In unraveling the layers of Miley Cyrus's personality, it's clear she embodies the spirit of a Type 4 Enneagram. Just like she came in like a wrecking ball, Miley has smashed through the norms, constantly reinventing herself with an enthusiasm that's hard to ignore.
+In unraveling the layers of Miley Cyrus's personality, she embodies the spirit of a Type 4 Enneagram. Just like she came in like a wrecking ball, Miley has smashed through the norms, constantly reinventing herself with an enthusiasm that's hard to ignore.
 
-Her journey reminds us that it's all about the climb – the ups and downs, the changes, and the growth. She's shown us time and again, through her bold transformations and daring moves, that she can't be stopped. Whether she's reflecting on her younger days in songs like "Used to be young" or embracing her current self, Miley always keeps us guessing what's next.
+Her journey reminds us that it's all about the climb – the ups and downs, the changes, and the growth. She's shown us repeatedly through her bold transformations and daring moves that she can't be stopped. Whether reflecting on her younger days in songs like "Used to Be Young" or embracing her current self, Miley always keeps us guessing what's next.
 
-So, does this deep dive into Miley's world give you a new perspective? Maybe now when you hear "We Can't Stop," you'll think not just of the party anthem, but also of Miley's unyielding drive to be uniquely herself.
+So, does this deep dive into Miley's world give you a new perspective? Maybe now, when you hear "We Can't Stop," you'll think of the party anthem and Miley's unyielding drive to be uniquely herself.
 
-Remember, understanding people, much like understanding Miley, is never a one-size-fits-all. It's a journey, sometimes a climb, but always an adventure worth taking. If you're intrigued to explore more, just remember, in the words of Miley, we can't stop, and we won't stop! 🚀🎤🌟
+Remember, understanding people, much like understanding Miley, is never a one-size-fits-all. It's a journey, sometimes a climb, but an adventure worth taking. If you're intrigued to explore more, remember, in the words of Miley, we can't stop, and we won't stop! 🚀🎤🌟
 
 <svelte:head>
 
@@ -120,7 +121,7 @@ Remember, understanding people, much like understanding Miley, is never a one-si
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality of Miley Cyrus, showcasing her as a quintessential example of the Enneagram Type 4 - 'The Individualist.' Her journey from being Hannah Montana to a pop music sensation encapsulates the Type 4's deep desire for individuality, emotional depth, and a continuous search for self-identity. It explores various phases of Miley's career and life, highlighting how they align with the characteristics of a Type 4 personality.",
+      "articleBody": "This article delves into the personality of Miley Cyrus, showcasing her as a quintessential example of the Enneagram Type 4 - 'The Individualist.' Her journey from being Hannah Montana to a pop music sensation encapsulates Type 4's deep desire for individuality, emotional depth, and a continuous search for self-identity. It explores various phases of Miley's career and life, highlighting how they align with the characteristics of a Type 4 personality.",
       "creator" : ["DJ Wayne"],
       "author": {
         "@type": "Person",

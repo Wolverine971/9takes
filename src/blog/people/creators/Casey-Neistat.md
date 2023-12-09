@@ -70,11 +70,13 @@ tiktok:
   </div>
 </details>
 
+## Understanding Enneagram Type 4 - The Individualist
+
+Enneagram Type 4s, known as 'Individualists,' are defined by their unique qualities, profound emotions, and artistic tendencies. Described by <a href="https://www.enneagraminstitute.com/type-4">The Enneagram Institute</a> as self-aware, sensitive, and reserved, they exhibit a dynamic mix of creativity and melancholy. Casey Neistat, with his unique video blogging style, embodies these Type 4 characteristics. His blend of personal narrative and professional filmmaking highlights Type 4's creative flair, while his open discussions about life's challenges showcase their introspective and emotionally rich nature.
+
 ## Seeing the Unseen
 
-If you watch Casey’s vlogs, you get sucked in. It’s about the storyline and the visual journey he takes you on. He excels in capturing the minute details that often escape the naked eye, transforming them into significant narrative elements. These carefully framed shots keep his viewers hooked, transforming ordinary scenes into extraordinary narratives.
-
-It's captivating not just what he shows but how he shows it. His trademark sunglasses, for example, are more than a fashion statement. Neistat uses them to connect directly with his audience, making viewers feel like he's looking right at them. It’s a clever trick, making us think that Casey, much like a consummate Enneagram 4, is constantly aware of his surroundings, giving us a sense of his deep desire to understand and be understood.
+Casey Neistat's vlogs offer more than meets the eye. He excels in capturing small, often overlooked details, transforming them into key narrative elements. His approach keeps viewers engaged, turning everyday scenes into captivating stories. A distinctive aspect is his use of sunglasses, not just a style choice, but a way to establish a direct connection with the audience. This technique reflects a deep awareness of his environment, a trait common in Enneagram Type 4s, emphasizing their desire for understanding and connection.
 
 ## Why Casey Wears the Sunglasses
 

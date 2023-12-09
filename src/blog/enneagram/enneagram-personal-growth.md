@@ -38,7 +38,7 @@ In 5 Years, They will feel a sense of inner peace, having cultivated self-compas
 
 Rudimentary Approach to Growth: Prioritizing others' needs over their own, seeking validation through helping. They think, "I am only worthy if I help others."
 
-Ideal Approach to Growth: Establish boundaries, prioritize self-care, and focus on personal needs. Thinking to themselves, "I am worthy of love and care, too."
+Ideal Approach: Establish boundaries, prioritize self-care, and focus on personal needs. Thinking to themselves, "I am worthy of love and care, too."
 
 When Stressed: Watch out for overextending oneself and struggling with self-worth. Practice self-care, set boundaries, and seek support from loved ones.
 
@@ -110,7 +110,7 @@ Rudimentary Approach: Seeking constant stimulation and avoiding negative emotion
 
 Ideal Approach: Practice mindfulness, develop healthy routines, and embrace delayed gratification. Thinking to themselves, "the present moment is fulfilling and valuable."
 
-When Stressed: Watch out for escapism and impulsive behaviors—mindfulness or meditation to cultivate presence and focus on the present moment.
+When Stressed: Watch out for escapism and impulsive behaviors. Use mindfulness or meditation to cultivate presence and focus on the present moment.
 
 Ideal Environment: A diverse and dynamic setting that supports personal growth and exploration.
 
@@ -148,7 +148,7 @@ In 5 Years, They will have developed a strong sense of individuality, become mor
 
 ## Wrapping up
 
-Each Enneagram type benefits from a tailored approach to self-improvement. By recognizing their distinct tendencies and challenges, individuals can develop personalized strategies for growth. For each type, it's essential to move away from rudimentary approaches and unhealthy self-talk, embracing more nuanced and healthy perspectives. Dealing with stress involves specific techniques and activities that resonate with each type, enabling them to grow and improve. For more on <a href="enneagram-stress-number" >stress, check out this article</a>. As individuals progress on their growth paths, they will notice tangible changes in their thoughts, feelings, and behaviors over time. Embracing the Enneagram's insights and applying tailored strategies allows for transformative personal growth and self-development, leading to more fulfilling lives.
+Each Enneagram type benefits from a tailored approach to self-improvement. By recognizing their distinct tendencies and challenges, individuals can develop personalized strategies for growth. For each type, it's essential to move away from rudimentary approaches and unhealthy self-talk, embracing more nuanced and healthy perspectives. Dealing with stress involves specific techniques and activities that resonate with each type, enabling them to grow and improve. For more on <a href="enneagram-stress-number" > pressure, check out this article</a>. As individuals progress on their growth paths, they will notice tangible changes in their thoughts, feelings, and behaviors over time. Embracing the Enneagram's insights and applying tailored strategies allows for transformative personal growth and self-development, leading to more fulfilling lives.
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 

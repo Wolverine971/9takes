@@ -19,22 +19,22 @@ pic: 'feeling-stressed'
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Stress effects people in different ways and people get stressed over different thingsHere we exploring how each type responds to stress, providing insights into the unique stressors that impact them and their internal monologues during challenging moments. By understanding the different ways in which Enneagram types navigate stress, you'll gain a deeper appreciation for the complexities of human behavior and develop a more empathetic perspective towards yourself and others. So, sit back, relax, and let's dive into the intriguing dynamics of stress and the Enneagram types!</p>
+<p class="firstLetter">Stress affects people in different ways and people get stressed over different things. Here, we explore how each type responds to stress, providing insights into the unique stressors that impact them and their internal monologues during challenging moments. By understanding how Enneagram types navigate stress, you'll gain a deeper appreciation for the complexities of human behavior and develop a more empathetic perspective towards yourself and others. So, please sit back, relax, and let's dive into the intriguing dynamics of stress and the Enneagram types!</p>
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
   <PopCard
-		image={`/blogs/feeling-stressed.webp`}
-		showIcon={false}
-		displayText=""
+    image={`/blogs/feeling-stressed.webp`}
+    showIcon={false}
+    displayText=""
     altText="two people feeling stressed"
     tint={true}
-		subtext=""
-	/>
+    subtext=""
+  />
 </div>
 
 <article class="section-content">
@@ -58,7 +58,7 @@ pic: 'feeling-stressed'
 **Stressful Event Series:**
 
 1. Receiving multiple tasks with tight deadlines.
-2. Discovering that team members are not following agreed-upon procedures.
+2. Discovering that team members need to follow agreed-upon procedures.
 3. Receiving negative feedback on a project they invested significant effort in.
 
 **Internal Dialog:**
@@ -91,7 +91,7 @@ pic: 'feeling-stressed'
 
 <h2>Enneagram 2 in Stress</h2>
 
-**Stressors:** Feeling unappreciated, being unable to help others, and emotional exhaustion.
+**Stressors:** Feeling unappreciated, unable to help others, and emotionally exhausted.
 
 **Stressful Situations:**
 
@@ -163,7 +163,7 @@ pic: 'feeling-stressed'
 
 1. Experiencing a series of setbacks or failures in a short period.
 2. Juggling multiple high-stakes projects with competing deadlines.
-3. Losing a key opportunity to advance in their career or personal life.
+3. Losing a pivotal opportunity to advance in their career or personal life.
 
 **Internal Dialog:**
 
@@ -249,7 +249,7 @@ pic: 'feeling-stressed'
 
 **Stressful Situations:**
 
-1. Being asked to speak on a topic they don't feel knowledgeable about.
+1. Being asked to speak on a topic they feel they need to be more knowledgeable about.
 2. Experiencing information overload or facing an overwhelming problem.
 3. Being forced into emotionally charged or highly social situations.
 
@@ -261,20 +261,20 @@ pic: 'feeling-stressed'
 
 **Stressful Event Series:**
 
-1. Struggling to find a solution to a complex problem despite extensive research.
+1. Struggling to solve a complex problem despite extensive research.
 2. Feeling increasing pressure to perform or meet expectations.
 3. Experiencing a personal crisis that demands vulnerability and emotional engagement.
 
 **Internal Dialog:**
 
 1. "I need to gather more information before making a decision."
-2. "I must find a way to solve this problem on my own."
+2. "I must find a way to solve this problem alone."
 3. "Why can't people respect my need for privacy and space?"
 
 **Unhealthy Self-Talk:**
 
-1. "I can't ever let anyone see that I don't know something."
-2. "I'm only valuable if I can solve every problem on my own."
+1. "I can't let anyone see that I don't know something."
+2. "I'm only valuable if I can solve every problem independently."
 3. "Emotions are a weakness and should be suppressed."
 
 **Healthy Self-Talk:**
@@ -305,7 +305,7 @@ pic: 'feeling-stressed'
 
 **Stressful Settings:**
 
-1. Environments with a lack of structure or organization.
+1. Environments with a need for more structure or organization.
 2. Situations where they feel unsupported or isolated.
 3. High-pressure scenarios that challenge their sense of security.
 
@@ -362,7 +362,7 @@ pic: 'feeling-stressed'
 **Stressful Event Series:**
 
 1. Feeling trapped in a monotonous cycle with no escape.
-2. Realizing that their pursuit of pleasure has led to negative outcomes.
+2. Realizing that their pursuit of pleasure has led to adverse outcomes.
 3. Confronting the reality of unfulfilled goals or dreams.
 
 **Internal Dialog:**
@@ -469,7 +469,7 @@ pic: 'feeling-stressed'
 
 1. "I must find a way to restore harmony and balance."
 2. "How can I avoid conflict and maintain peace?"
-3. "I need to keep the peace, even if it means suppressing my own needs."
+3. "I must keep the peace, even if it means suppressing my needs."
 
 **Unhealthy Self-Talk:**
 
@@ -493,7 +493,7 @@ Seek out healthy, supportive relationships where mutual respect and harmony are 
 
 ## Wrapping up
 
-Understanding how each Enneagram type responds to stress and the unique challenges they face can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
+Understanding how each Enneagram type responds to stress and its unique challenges can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
@@ -519,7 +519,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "Enneagram"
       },
       "image":{
-        "@type":"ImageObject",
+        "@type": "ImageObject",
         "height":900,
         "url": "https://9takes.com/blogs/feeling-stressed.webp",
         "width":900
@@ -565,7 +565,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "What are the stressors for an Enneagram 4 type?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enneagram 4 types feel stressed when they feel misunderstood, experience a lack of authenticity, and go through emotional turbulence."
+          "text": "Enneagram 4 types feel stressed when they feel misunderstood, lack authenticity, and experience emotional turbulence."
         }
       },
       {
@@ -573,7 +573,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "How does an Enneagram 5 type respond to stress?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enneagram 5 types respond to stress by feeling information overload, feeling incompetent, and experiencing emotional vulnerability. They often have an internal dialog of needing to gather more information before making a decision and finding a way to solve problems on their own."
+          "text": "Enneagram 5 types respond to stress by feeling information overload, feeling incompetent, and experiencing emotional vulnerability. They often have an internal dialog of needing to gather more information before deciding and finding a way to solve problems independently."
         }
       },
       {
@@ -589,7 +589,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "How does an Enneagram Type 7 respond to stress?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enneagram Type 7s respond to stress with boredom, restrictions, and unmet expectations. They may feel stressed when being confined to a mundane or repetitive routine, facing the consequences of impulsive or poorly planned decisions, or encountering limitations that restrict their freedom or opportunities."
+          "text": "Enneagram Type 7s respond to stress with boredom, restrictions, and unmet expectations. They may feel stressed when confined to a mundane or repetitive routine, facing the consequences of impulsive or poorly planned decisions, or encountering limitations restricting their freedom or opportunities."
         }
       },
       {
@@ -597,7 +597,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "How does an Enneagram Type 8 respond to stress?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enneagram Type 8s feel stressed when they feel powerless, experience a loss of control, or perceive injustice. They may feel stressed when feeling a lack of control or being forced to submit to others’ authority, perceiving vulnerability or weakness in themselves or their environment, or encountering obstacles or opposition that hinder their progress."
+          "text": "Enneagram Type 8s feel stressed when they feel powerless, experience a loss of control, or perceived injustice. They may feel stressed when feeling a lack of control or being forced to submit to others’ authority, perceiving vulnerability or weakness in themselves or their environment, or encountering obstacles or opposition that hinder their progress."
         }
       },
       {
@@ -605,7 +605,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "How does an Enneagram Type 9 respond to stress?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Enneagram Type 9s respond to stress with conflict, feeling overlooked, and pressure to make decisions. They may feel stressed when being forced to make decisions that may lead to conflict or disharmony, experiencing a personal attack or criticism that threatens their sense of peace, or witnessing turmoil or discord within their environment."
+          "text": "Enneagram Type 9s respond to stress with conflict, feeling overlooked, and pressure to make decisions. They may feel stressed when forced to make decisions leading to conflict or disharmony, experiencing a personal attack or criticism threatening their sense of peace, or witnessing turmoil or discord within their environment."
         }
       }
     ]
