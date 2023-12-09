@@ -21,7 +21,7 @@
 						alt={cBlog.pic.split('-').join(' ')}
 					/>
 				{/if}
-				<div class="text-white{cBlog.pic ? 'txt-white fit-card' : 'txt-dark fit-card-center'}">
+				<div class="text-white {cBlog.pic ? 'txt-white fit-card' : 'txt-dark fit-card-center'}">
 					<h3>
 						{cBlog.title}
 					</h3>
