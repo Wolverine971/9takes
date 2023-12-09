@@ -21,48 +21,50 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Miley Cyrus, a dynamo of creativity and emotional intensity, epitomizes the Enneagram Type 4 - 'The Individualist.' Her journey through the highs and lows of fame mirrors the core traits of this personality type: a deep-seated need for uniqueness, intense emotions, and an unwavering quest for self-identity.</p>
+<p class="firstLetter">Miley Cyrus is a great example of a Type 4 personality from the Enneagram system. This means she is very individualistic, emotional, and always searching for her true self. Her life in the spotlight shows these traits well.</p>
 
-> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Miley.
+> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect Miley's actual personality type.
 
 <div
-	style="display: flex;
+    style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+    "
 >
-	<PopCard
-		image={`/types/4s/${'Miley-Cyrus'}.webp`}
-		showIcon={false}
-		enneagramType="4"
-		displayText="Miley Cyrus"
-		subtext=""
-	/>
+    <PopCard
+        image={`/types/4s/${'Miley-Cyrus'}.webp`}
+        showIcon={false}
+        enneagramType="4"
+        displayText="Miley Cyrus"
+        subtext=""
+    />
 </div>
+
+
 
 ## What is Miley Cyrus's Personality Type?
 
 ### Enneagram Type 4: The Individualist
 
-Type 4 personalities are known for their desire to be unique. They are deeply rooted in emotions and have an innate sense of being different from others. They often engage in a self-exploration journey to understand their identity and place in the world.
+Type 4 personalities, which Miley Cyrus exemplifies, are often driven by a deep desire to be unique and stand out from others. This isn't just about being different for the sake of it; it's a genuine search for an identity that feels true to themselves. They often feel like they're different from others and are on a continuous journey to understand and express this uniqueness.
 
-### Miley's Journey of Self-Discovery and Expression
+### Miley's Path of Finding Herself
 
-Miley's life has been a roller-coaster of self-discovery and expression. From her days as Hannah Montana to her <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.billboard.com/music/music-news/miley-cyrus-bangerz-era-harshly-judged-1235331972/">Bangerz era</a>, she has never shied away from the spotlight. She is ever evolving and this is characteristic of a Type 4 who refuse to be pinned down and prefer to embody a persona that you have never seen or heard of before, a true original.
+Miley's life has been a roller-coaster of self-discovery and expression. From her days as Hannah Montana to her <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.billboard.com/music/music-news/miley-cyrus-bangerz-era-harshly-judged-1235331972/">Bangerz era</a>, she has never shied away from the spotlight. She's constantly evolving, revealing new aspects of her identity. Each career phase reflects a deeper layer of her self-discovery, typical of Type 4's endless quest for authenticity.
 
 ### The glitz and glamor comes with its own stressors
 
-Being in the spotlight has brought Miley her share of stressors. When she started to grow out the fame of being Hannah Montana it was a struggle trying to redifine herself. She went into
+Being in the spotlight has brought Miley her share of stressors. When she started to grow out the fame of being Hannah Montana, it was a struggle trying to redefine herself. She went into
 
-The scrutiny and the expectations seemed to have pushed her to experiment, sometimes sparking controversies. Her openness about her struggles with drugs and sobriety is a testimony to a Type 4’s introspective nature and desire for emotional honesty.
+The scrutiny and the expectations seemed to have pushed her to experiment, sometimes sparking controversies. Her openness about her struggles with drugs and sobriety is a testimony to a Type 4’s reflective nature and desire for emotional honesty.
 
 ### Pride and Achievement
 
-Her musical achievements are a source of pride. However, it’s her journey of self-discovery and her advocacy for LGBTQ+ rights that truly resonate with the Type 4’s desire for significance and making a meaningful impact.
+Her musical achievements are a source of pride. However, it’s her journey of self-discovery and her advocacy for LGBTQ+ rights that genuinely resonate with Type 4’s desire for significance and making a meaningful impact.
 
 ## Conversations and Reflections
 
-Miley often delves into discussions about her voice, her musical journey, and her personal evolutions. These conversations, often laden with emotional undertones, offer a glimpse into her introspective mind, a hallmark of Type 4 personalities.
+Miley often discusses her voice, musical journey, and personal evolutions. Often laden with emotional undertones, these conversations offer a glimpse into her reflective mind, a hallmark of Type 4 personalities.
 
 ### Habits and Companions
 
@@ -70,11 +72,11 @@ Miley’s habits, particularly her strict diet and fitness regimen, reflect a Ty
 
 ## Miley’s Rough Roads: Where Trauma Meets Transformation
 
-Miley Cyrus has had her fair share of rough patches. Enneagram 4s are know for diving deep into their pain and traumas and at times using that to fuel their creativity. Miley has penty of fuel.
+Miley Cyrus has had her fair share of rough patches. Enneagram 4s are known for diving deep into their pain and traumas and, at times, using that to fuel their creativity. Miley has plenty of fuel.
 
 ### When Home is Just a Memory
 
-Miley had a house in Malibu, which she shared with Liam Hemsworth. That house burned down in the California wildfires. She lost many treasures and memories in that fire. It is also ironic that at the time her house burned down she was filming an <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.hollywoodreporter.com/tv/tv-news/miley-cyrus-filming-black-mirror-malibu-house-burned-down-anxiety-attacks-1235584022/">episode of Black Mirror.</a> The next day she went on to shoot a music video for the black mirror episode saying that "the show must go on."
+Miley had a house in Malibu, which she shared with Liam Hemsworth. That house burned down in the California wildfires. She lost many treasures and memories in that fire. It is also ironic that at the time her house burned down, she was filming an <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.hollywoodreporter.com/tv/tv-news/miley-cyrus-filming-black-mirror-malibu-house-burned-down-anxiety-attacks-1235584022/">episode of Black Mirror.</a> The next day, she went on to shoot a music video for the black mirror episode, saying that "the show must go on."
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mileycyrus/video/7275325888546245918" data-video-id="7275325888546245918" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mileycyrus" href="https://www.tiktok.com/@mileycyrus?refer=embed">@mileycyrus</a> <p>Used To Be Young (Series) - PART 36</p> <a target="_blank" title="♬ Used To Be Young - Miley Cyrus" href="https://www.tiktok.com/music/Used-To-Be-Young-7270927725950076930?refer=embed">♬ Used To Be Young - Miley Cyrus</a> </section> </blockquote>
 
@@ -88,26 +90,82 @@ Miley had a house in Malibu, which she shared with Liam Hemsworth. That house bu
 
 ### Early Glimpses of Stardom: Not All That Glitters
 
-It is important to remember that Miley in her early days was living under the towering fame of her dad, Billy Ray Cyrus. At one time young Miley was the designated ‘bra picker’ at her dad’s concerts. She knew what fame was from an early age and to see her father receiving that amount of attention probably inspired and motivated her to reach that level of stardom one day.
+It is important to remember that Miley, in her early days, was living under the towering fame of her dad, Billy Ray Cyrus. At one time, young Miley was the designated ‘bra picker’ at her dad’s concerts. She knew what fame was from an early age, and seeing her father receive that amount of attention probably inspired and motivated her to reach that level of stardom one day.
 
 ### Controversies and The Type 4 Identity
 
-Miley’s various controversies, be it her twerking phase or her candid remarks, could be seen as a manifestation of a Type 4’s inner turbulence and quest for identity. Each controversy brought forth a new facet of Miley, showcasing her complex and evolving personality.
+Miley’s various controversies, be it her twerking phase or her candid remarks, could be seen as a manifestation of Type 4’s inner turbulence and the quest for identity. Each controversy brought a new facet of Miley, showcasing her complex and evolving personality.
 
 ## Gazing Into the Mind of Miley Cyrus
 
 The world of Miley Cyrus is a complex labyrinth of emotions, experiences, and expressions. Through the lens of the Enneagram, her actions and evolutions provide a riveting exploration into the mind of a Type 4 personality.
 
-Her story beckons us to delve deeper, to understand the emotional undercurrents that drive the actions of Type 4 individuals. As we traverse through Miley's life, the essence of Enneagram and its profound impact on understanding human behavior unravels.
+Her story beckons us to delve deeper to understand the emotional undercurrents that drive the actions of Type 4 individuals. As we traverse Miley's life, the essence of Enneagram and its profound impact on understanding human behavior unravels.
 
 ## Wrapping up: The Enigma of Miley Cyrus
 
-As we dissect these facets of Miley Cyrus's persona, her alignment with a Type 4 Enneagram seems conceivable. Her boldness, enthusiasm, and love for constant change reflect the key traits of 'The Enthusiast.' But, as always, the complexity of human nature resists such straightforward categorization.
+In unraveling the layers of Miley Cyrus's personality, it's clear she embodies the spirit of a Type 4 Enneagram. Just like she came in like a wrecking ball, Miley has smashed through the norms, constantly reinventing herself with an enthusiasm that's hard to ignore.
 
-So, does this exploration reshape your understanding of Miley Cyrus? Does viewing Miley through the lens of Enneagram Type 4 offer a deeper insight into her motivations and actions?
+Her journey reminds us that it's all about the climb – the ups and downs, the changes, and the growth. She's shown us time and again, through her bold transformations and daring moves, that she can't be stopped. Whether she's reflecting on her younger days in songs like "Used to be young" or embracing her current self, Miley always keeps us guessing what's next.
 
-Your understanding of people's personalities can always be expanded and nuanced. If you're intrigued by these perspectives and wish to explore more, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+So, does this deep dive into Miley's world give you a new perspective? Maybe now when you hear "We Can't Stop," you'll think not just of the party anthem, but also of Miley's unyielding drive to be uniquely herself.
+
+Remember, understanding people, much like understanding Miley, is never a one-size-fits-all. It's a journey, sometimes a climb, but always an adventure worth taking. If you're intrigued to explore more, just remember, in the words of Miley, we can't stop, and we won't stop! 🚀🎤🌟
 
 <svelte:head>
  <script async src="https://www.tiktok.com/embed.js"></script>
+
+ <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article delves into the personality of Miley Cyrus, showcasing her as a quintessential example of the Enneagram Type 4 - 'The Individualist.' Her journey from being Hannah Montana to a pop music sensation encapsulates the Type 4's deep desire for individuality, emotional depth, and a continuous search for self-identity. It explores various phases of Miley's career and life, highlighting how they align with the characteristics of a Type 4 personality.",
+      "creator" : ["DJ Wayne"],
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-12-08"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-12-01"
+      },
+      "description": "An exploration of Miley Cyrus's personality through the lens of the Enneagram Type 4, discussing her unique traits, emotional depth, and journey of self-discovery.",
+      "headline": "Miley Cyrus: A Deep Dive into Her Enneagram Type 4 Personality",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/types/4s/Miley-Cyrus.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Miley-Cyrus",
+        "@type": "WebPage"
+      },
+      "mentions": {
+        "@type": "Person",
+        "name": "Miley Cyrus",
+        "sameAs": ["https://en.wikipedia.org/wiki/Miley_Cyrus", "https://twitter.com/MileyCyrus", "https://www.instagram.com/mileycyrus/"]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
+    }
+  ]
+}
+
+</script>
 </svelte:head>

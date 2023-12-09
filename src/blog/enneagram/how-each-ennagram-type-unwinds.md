@@ -2,9 +2,9 @@
 title: 'How Each Enneagram Type Unwinds'
 description: 'Unwind and recharge the right way! Discover the perfect activities to relax and de-stress, based on your unique Enneagram type.'
 author: 'DJ Wayne'
-date: '2023-03-27'
+date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds'
-lastmod: '2023-08-27'
+lastmod: '2023-12-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
