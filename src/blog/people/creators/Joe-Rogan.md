@@ -114,7 +114,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </article>
 <article>
   <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast</b></a>
-  Type 7s would likely enjoy Rogan's energetic podcast discussions and various topics. They might also admire his ability to explore new territories, like his switch to Spotify.</p>
+  <p>Type 7s would likely enjoy Rogan's energetic podcast discussions and various topics. They might also admire his ability to explore new territories, like his switch to Spotify.</p>
 </article>
 <article>
   <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger</b></a>

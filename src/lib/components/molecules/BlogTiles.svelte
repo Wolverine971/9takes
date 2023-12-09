@@ -230,6 +230,31 @@
 			</a>
 		{/each}
 	</div>
+
+	<h3 class="position-center">Techies</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('techie');
+		}) as person}
+			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+				{#if person.enneagram}
+					<img
+						fetchPriority="low"
+						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
+						loading="lazy"
+						class="grid-img"
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="card fit-card txt-white border-0 ">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
 </div>
 
 <style class="scss">
