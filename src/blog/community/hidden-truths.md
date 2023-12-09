@@ -14,9 +14,7 @@ previewHtml: ''
 pic: ''
 ---
 
-
 The enneagram is the key to unlocking hidden truths
-
 
 9takes: Unleash Your Inner Socrates and Unmask the World's Hidden Truths
 Have you ever wondered what the world would look like if everyone felt safe to share their honest opinions, without fear of judgment or social media backlash? Imagine a place where questions ignited insightful dialogue, where diverse perspectives revealed hidden truths, and where empathy bridged the gap between seemingly disparate opinions.

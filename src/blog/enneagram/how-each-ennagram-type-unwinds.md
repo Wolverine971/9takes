@@ -31,7 +31,7 @@ pic: 'greek-statues-at-the-beach'
 	<PopCard
         image={`/blogs/greek-statues-at-the-beach.webp`}
 		showIcon={false}
-		displayText="greek statues at the beach"
+		altText="greek statues at the beach"
 		subtext=""
 	/>
 </div>
@@ -39,7 +39,6 @@ pic: 'greek-statues-at-the-beach'
 Enter the Enneagram! This personality system helps you understand yourself better, including how you recharge. Imagine discovering activities tailored just for you, boosting your mood and helping you truly unwind.
 
 So, are you a perfectionist who needs a break from the to-do list? Or maybe you're a supportive soul longing for some pampering? Whatever your Enneagram type, this blog post is your guide to finding the perfect way to unwind and recharge.
-
 
 ## Enneagram Type 1: The Reformer
 
@@ -50,7 +49,6 @@ So, are you a perfectionist who needs a break from the to-do list? Or maybe you'
 - Step 1: Choose an activity that feels inherently messy or spontaneous, like playing with paint, sculpting, or trying a new sport.
 - Step 2: Focus on the process, not the outcome. Let go of expectations and simply enjoy the act of creation.
 - Step 3: Share your playful creations with loved ones. This strengthens connection and helps you see things through their eyes.
-
 
 ## Enneagram Type 2: The Helper
 
@@ -81,7 +79,6 @@ So, are you a perfectionist who needs a break from the to-do list? Or maybe you'
 - Step 1: Choose an artistic medium that resonates with you, like writing, painting, playing music, or dancing.
 - Step 2: Create a dedicated space for your art, free from distractions.
 - Step 3: Focus on the process of creation, rather than the end product. Allow yourself to tap into your raw emotions and express them freely.
-
 
 ## Enneagram Type 5: The Investigator
 
@@ -133,10 +130,69 @@ So, are you a perfectionist who needs a break from the to-do list? Or maybe you'
 - Step 2: Engage in activities that promote relaxation and mindfulness, like meditation, yoga, or simply sitting in silence.
 - Step 3: Practice gratitude for the simple things in life. This helps you appreciate the present moment and cultivate inner peace.
 
-
 <svelte:head>
 
 <script type="application/ld+json">
+    {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "Tired of feeling drained after your 'relaxing' weekend? Enter the Enneagram! This personality system helps you understand yourself better, including how you recharge. Whether you're a perfectionist, a supportive soul, or any other Enneagram type, this blog post is your guide to finding the perfect way to unwind and recharge. It includes specific suggestions for each Enneagram type, such as engaging in purposeful play, self-care rituals, challenging activities, artistic expression, knowledge exploration, and more.",
+       "creator" : ["DJ Wayne"],
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": "2023-12-08",
+      "datePublished": "2023-12-08",
+      "description": "Explore unique ways to unwind and recharge tailored to your Enneagram personality type. From purposeful play to knowledge exploration, find activities that truly help you relax.",
+      "headline": "Find Your Perfect Way to Unwind Based on Your Enneagram Type",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,  // Replace with the actual image height
+        "url": "https://9takes.com/blogs/greek-statues-at-the-beach.webp",
+        "width": 900   // Replace with the actual image width
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds",
+        "@type": "WebPage"
+      },
+      "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/darkRubix.png"
+            },
+            "name": "9takes"
+         }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Enneagram is a personality system that helps individuals understand themselves better, including how they recharge and unwind. It categorizes personalities into nine types, each with unique traits and preferences."
+          },
+          "name": "What is the Enneagram and how does it relate to unwinding?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, the blog offers specific suggestions for unwinding and recharging for each Enneagram type. These include activities like purposeful play, self-care rituals, challenging activities, and artistic expression tailored to the needs and preferences of each type."
+          },
+          "name": "Does the blog provide specific suggestions for each Enneagram type?"
+        }
+      ]
+    }
+  ]
+}
 
 </script>
 

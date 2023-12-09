@@ -40,8 +40,6 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
     />
 </div>
 
-
-
 ## What is Miley Cyrus's Personality Type?
 
 ### Enneagram Type 4: The Individualist
@@ -113,6 +111,7 @@ So, does this deep dive into Miley's world give you a new perspective? Maybe now
 Remember, understanding people, much like understanding Miley, is never a one-size-fits-all. It's a journey, sometimes a climb, but always an adventure worth taking. If you're intrigued to explore more, just remember, in the words of Miley, we can't stop, and we won't stop! 🚀🎤🌟
 
 <svelte:head>
+
  <script async src="https://www.tiktok.com/embed.js"></script>
 
  <script type="application/ld+json">
@@ -168,4 +167,5 @@ Remember, understanding people, much like understanding Miley, is never a one-si
 }
 
 </script>
+
 </svelte:head>
