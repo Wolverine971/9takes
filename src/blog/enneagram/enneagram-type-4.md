@@ -12,7 +12,7 @@ type: 'overview'
 ---
 
 <script>
-	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
+  import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
@@ -27,11 +27,11 @@ type: 'overview'
 
 <h2>Enneagram 4 Description</h2>
 
-Individuals with the Enneagram Type 4 are known for their strong sense of self and desire to express their unique individuality. A sense of authenticity and self-expression drives them, and they need to be understood and appreciated for who they are. Individualists are often highly creative and artistic, striving to make a meaningful impact in their lives and the world around them.
+Individuals with the Enneagram Type 4 are known for their strong sense of self and desire to express individuality. A sense of authenticity and self-expression drives them, and they need to be understood and appreciated for who they are. Individualists are often highly creative and artistic, striving to make a meaningful impact in their lives and the world around them.
 
 One of the most notable characteristics of the Enneagram Type 4 is their strong sense of emotional intensity. Individualists have a deep and complex inner world and are highly attuned to their emotions and feelings. They often strongly desire to be understood and valued for their unique perspective and experiences.
 
-Another key trait of the Enneagram Type 4 is their desire for self-expression and individuality. Individualists are highly creative and artistic, and they have a deep need to express themselves in a meaningful way. They may struggle with feelings of inadequacy and self-doubt and have difficulty finding their place in the world.
+Another key trait of the Enneagram Type 4 is their desire for self-expression and individuality. Individualists are highly creative and artistic, and they have a deep need to express themselves in a meaningful way. They may struggle with inadequacy and self-doubt and have difficulty finding their place in the world.
 
 Critical characteristics of Type 4 personalities include:
 
@@ -47,9 +47,9 @@ Critical characteristics of Type 4 personalities include:
 
 <h2>💪 Strengths of an Enneagram 4</h2>
 
-One of the biggest strengths of the Enneagram Type 4 is their creativity and artistic expression. Individualists are highly imaginative and resourceful and have a unique perspective on the world. They can tap into their emotions and create something truly authentic and meaningful.
+One of the biggest strengths of the Enneagram Type 4 is its creativity and artistic expression. Individualists are highly imaginative and resourceful and have a unique perspective on the world. They can tap into their emotions and create something truly authentic and meaningful.
 
-Enneagram Type 4 individuals are also known for their empathy and compassion. They deeply understand the human experience and can connect with others on a deep emotional level. They are also profoundly introspective and self-aware, allowing them to make positive life changes.
+Enneagram Type 4 individuals are also known for their empathy and compassion. They deeply understand the human experience and can connect with others deeply emotionally. They are also profoundly introspective and self-aware, allowing them to make positive life changes.
 
 <h3>Situations where 4s thrive</h3>
 <ul>
@@ -90,7 +90,7 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 <h2>😨 Fears of an Enneagram 4</h2>
 
 - Inadequate or without significance. They fear being plain or ordinary and desire to be unique and special in some way. They also fear being misunderstood or not fully known by others, making them feel isolated and disconnected.
-- Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity to express their unique identity and stand out from others.
+- Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity to express their unique identity and stand out.
 - Fear of abandonment, which can manifest in a belief that others will inevitably leave or reject them. They may feel that their flaws or vulnerabilities will make them unlovable and unworthy of connection, causing them to withdraw or push others away before they can be rejected.
 
 </article>
@@ -147,7 +147,7 @@ Enneagram Type 4 individuals, or Individualists, have unique strengths but face 
 
 To foster personal growth, Type 4s can focus on:
 
-- Developing Self-Awareness: Engaging in self-reflection through journaling, therapy, or introspection can help Type 4s better understand their emotions and motivations.
+- Developing Self-Awareness: Self-reflection through journaling, therapy, or introspection can help Type 4s better understand their emotions and motivations.
 - Cultivating Gratitude: Focusing on gratitude can shift their perspective from lacking to appreciating what they have.
 - Practicing Self-Compassion: Type 4s often battle self-criticism. Techniques like mindfulness and positive self-talk can foster a more compassionate self-relationship.
 - Goal-Setting: Establishing specific, achievable goals aligned with their values can provide direction and a sense of accomplishment.
@@ -166,11 +166,11 @@ By addressing these areas, Type 4 individuals can effectively navigate their cha
 </article>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
-- Be that self which one truly is: categorized as desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
-- The unconscious sees the men behind the curtains: categorized as desire to be unique and special as it pertains to understanding the workings of the unconscious mind - Pierre Janet -->
+- Be that self which one truly is: categorized as a desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
+- The unconscious sees the men behind the curtains: categorized as a desire to be unique and special as it pertains to understanding the workings of the unconscious mind - Pierre Janet -->
 <!-- cheat sheet
 Enneagram Type 4, "The Individualist," relies on emotions for decision-making.
-Type 4s desire uniqueness and creativity but often grapple with feelings of not fitting in.
+Type 4s desire uniqueness and creativity but often do not fit in.
 Strengths encompass creativity, empathy, and self-awareness.
 Challenges include moodiness, self-doubt, and relationship difficulties.
 Motivations center on self-discovery, authenticity, and meaning.

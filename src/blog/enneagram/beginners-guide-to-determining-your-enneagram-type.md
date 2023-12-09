@@ -23,22 +23,22 @@ pic: 'greek-statues-two-females-on-phones'
 <p class="firstLetter"> Ever felt misunderstood or did not understand something about someone else? A personality system called the Enneagram can help by offering a framework for understanding a person's core fears and motivations.</p>
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
     margin: 1rem 0;
-	"
+  "
 >
   <PopCard
-		image={`/blogs/greek-statues-two-females-on-phones.webp`}
-		showIcon={false}
-		displayText=""
-    altText="two greek statues figuring out their Enneagram type"
+    image={`/blogs/greek-statues-two-females-on-phones.webp`}
+    showIcon={false}
+    displayText=""
+    altText="two Greek statues figuring out their Enneagram type"
     tint={true}
-		subtext=""
-	/>
+    subtext=""
+  />
 </div>
 
-I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our versions of the truth on each other. We did not slow down to consider each other's perspectives when we felt right about something. The Enneagram helped us slow down, and we used it as a tool to see into each other's inner world. We used it not only to resolve our one conflict, but we continue to use it, which has helped us become more of a team.
+I remember how life was before I discovered my enneagram type. My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over facts and trying to impose our versions of the truth on each other. We did not slow down to consider each other's perspectives when we felt right about something. The Enneagram helped us slow down, and we used it as a tool to see into each other's inner world. We used it to resolve our one conflict and continue to use it, which has helped us become more of a team.
 
 In this guide, I'll simplify the complex world of the Enneagram. I'll show you exactly how to determine your type so that you can understand yourself and others better.
 
@@ -48,7 +48,7 @@ In this guide, I'll simplify the complex world of the Enneagram. I'll show you e
 
 The Enneagram is a personality system that identifies "types" or archetypes based on coping mechanisms (aka survival strategies) we developed due to unresolved childhood traumas.
 
-For example, a child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are reasonable enough. A child who grew up in a chaotic environment might cope by distracting themselves and always looking on the bright side of things, avoiding uncomfortable or painful situations.
+For example, a child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are reasonable enough. A child who grew up in a chaotic environment might cope by distracting themselves, always looking on the bright side of things, and avoiding uncomfortable or painful situations.
 
 Now that you understand what an Enneagram is, it's time to delve deeper into how you can determine your type.
 
@@ -56,7 +56,7 @@ Now that you understand what an Enneagram is, it's time to delve deeper into how
 
 ### Identify Your Core Emotion
 
-The first step in identifying your enneagram type is understanding the three core emotions that form your "type": anger, fear, and shame. Ask yourself which of these emotions comes up for you the most in daily life. You either feel that emotion and use it to motivate you, feel that emotion and push it away, or feel that emotion constantly in the back of your head. Another way to get at that emotion would be to ask which emotion you have the most accessible access to. Or if someone else was feeling anger, fear, or shame, which emotion would be easiest for you to empathize with?
+The first step in identifying your enneagram type is understanding the three core emotions that form your "type": anger, fear, and shame. Ask yourself which of these emotions comes up for you the most in daily life. You either feel that emotion and use it to motivate you, think that emotion and push it away, or feel that emotion constantly in the back of your head. Another way to get at that emotion would be to ask which emotion you have the most accessible access to. Or if someone else was feeling anger, fear, or shame, which emotion would be easiest for you to empathize with?
 
 ### Understand the Connection Between Emotions and Centers of Intelligence
 
@@ -64,7 +64,7 @@ In the Enneagram, these core emotions relate to centers of intelligence. Fear re
 
 ### Identify Your Type
 
-After identifying your core emotion, the next step is to identify your type. There are three types per core emotion, and each one handles the core emotion differently. One type uses emotion actively as a form of empowerment or motivation. Another type suppresses the emotion actively, attempting to escape the uncomfortable feeling. And the last class has the emotion unconsciously influencing them from the background. Determine your type within the core emotion you identify with the most by examining the core motivation and fear.
+After identifying your core emotion, the next step is to identify your type. There are three types per core emotion, each one handles the core emotion differently. One type uses emotion actively as a form of empowerment or motivation. Another type suppresses the emotion actively, attempting to escape the uncomfortable feeling. And the last class has the emotion unconsciously influencing them from the background. Determine your style within the core emotion you identify with the most by examining the core motivation and fear.
 
 <article class="section-content">
 
@@ -194,9 +194,9 @@ Link here -->
 
 Be aware of the common pitfall of identifying with the type you idealize rather than who you are. Consider your natural tendencies and daily behaviors.
 
-By following these steps, you should be on your way to determining your enneagram type. Remember, this is a journey of self-discovery, and it may take time to understand your type fully. Be patient with yourself and the process.
+By following these steps, you should be on your way to determining your enneagram type. Remember, this is a journey of self-discovery, and it may take time to understand your kind fully. Be patient with yourself and the process.
 
-In the next section, we will delve deeper into each enneagram type, their core emotions, and their associated childhood wounds.
+The following section will delve deeper into each enneagram type, their core emotions, and their associated childhood wounds.
 
 ## Diving into the childhood wounds of each Enneagram Type
 

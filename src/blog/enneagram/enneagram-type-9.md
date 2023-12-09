@@ -115,7 +115,7 @@ Additionally, Enneagram Type 9 individuals may fear making the wrong decision or
 
 <h2>🤯Enneagram 9s Under Stress</h2>
 
-Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When they're under stress, they might become more fearful, paranoid, indecisive, and hesitant. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They might become more fearful, paranoid, indecisive, and hesitant when they're under stress. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </article>
 
@@ -133,7 +133,7 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. When
 
 In relationships, Enneagram Type 9 individuals tend to be supportive and accommodating, valuing harmony and peace above all else. They often put their partner's needs before their own and may struggle with asserting their desires or opinions. They are typically warm and empathetic, and their desire to maintain a sense of connection and avoid conflict can make them excellent listeners and mediators.
 
-However, Enneagram Type 9 individuals may struggle to express their needs and emotions in relationships. They may tend to suppress their desires and opinions to keep the peace, leading to a sense of inner frustration or resentment over time. They may also struggle with setting boundaries and saying no, leading to feeling overwhelmed or taken advantage of by their partner.
+However, Enneagram Type 9 individuals may struggle to express their needs and emotions in relationships. They may suppress their desires and opinions to keep the peace, leading to inner frustration or resentment over time. They may also struggle with setting boundaries and saying no, leading to feeling overwhelmed or taken advantage of by their partner.
 
 Enneagram Type 9 individuals may also be hesitant to make decisions or take action in their relationships, fearing that doing so could upset the harmony they have worked hard to maintain. They may need reassurance from their partner and may benefit from a more assertive partner who can help them navigate decision-making.
 
@@ -165,7 +165,7 @@ For Type 9s, growth opportunities lie in learning to assert themselves and becom
 
 Here are some tips for embracing your Enneagram Type 9 personality:
 
-- Focus on your strengths and use them to your advantage personally and professionally.
+- Focus on your strengths and use them personally and professionally.
 - Be aware of your weaknesses and work to improve upon them.
 - Practice assertiveness and setting clear boundaries to avoid becoming overly accommodating or passive.
 - Embrace your creativity and imagination and use it to find unique solutions to problems.

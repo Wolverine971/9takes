@@ -41,7 +41,7 @@ Key traits of the Enneagram Type 5 personality include:
 <li><strong>Guarded Personal Life:</strong> They are typically private, sharing their inner world with only a trusted few.</li>
 </ul>
 
-As insightful and perceptive individuals, Type 5s offer unique perspectives and ideas. Their journey towards integrating emotional connections and embracing more open interactions can significantly enrich their relationships and enhance their overall life experience.
+As insightful and wise individuals, Type 5s offer unique perspectives and ideas. Their journey towards integrating emotional connections and embracing more open interactions can significantly enrich their relationships and enhance their overall life experience.
 
 </article>
 
@@ -192,7 +192,7 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
   "@graph": [
     {
       "@type": "Person",
-      "description": "Enneagram Type 5, also known as the 'observer' or the 'investigator', is known for their analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.",
+      "description": "Enneagram Type 5, also known as the 'observer' or the 'investigator,' is known for its analytical and intellectual abilities. They are often introverted and reserved, preferring to spend their time alone or with a small group of like-minded individuals. Type 5s are driven by a need to understand the world around them, and they seek knowledge and expertise in their areas of interest.",
       "name": "Enneagram type 5"
     },
     {

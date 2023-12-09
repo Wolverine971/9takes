@@ -25,7 +25,7 @@ tiktok: ''
 
 <p class="firstLetter">You've seen her lighting up the big screen, captivating audiences worldwide with her charm and charisma. Margot Robbie, the versatile actress from Australia, is a force to be reckoned with in Hollywood. This article dives into a fascinating exploration of Robbie's persona, suggesting her as an embodiment of Enneagram Type 8 - The Challenger..</p>
 
-> **Disclaimer** This analysis of Margot Robbie's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Margot Robbie.
+> **Disclaimer** This analysis of Margot Robbie's Enneagram type is purely speculative, based on publicly available information, and may not reflect Margot Robbie's actual personality type.
 
 <div
   style="display: flex;
@@ -70,7 +70,7 @@ Margot Robbie's life and career provide evidence of her being a Type 8. From her
 
 #### A Willingness to Confront and Embrace anger
 
-Type 8 personalities are not afraid to confront conflicts head-on, and neither is Robbie. She has embraced intense emotions and controversy with conviction in many of her roles. Her portrayal of Tonya Harding, an Olympic figure skater entangled in a scandal, demonstrated her ability to channel her anger into her performance, making it a raw and gripping experience for viewers.
+Type 8 personalities are not afraid to confront conflicts head-on, and neither is Robbie. She has passionately embraced intense emotions and controversy in many of her roles. Her portrayal of Tonya Harding, an Olympic figure skater entangled in a scandal, demonstrated her ability to channel her anger into her performance, making it a raw and gripping experience for viewers.
 
 #### Commanding Presence and Intensity
 
@@ -78,7 +78,7 @@ Robbie's commanding screen presence echoes the inherent intensity that Type 8s p
 
 #### In Tune With Her Body
 
-Type 8s are known for having a strong connection with their body. Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her stunts.
+Type 8s are known for having a solid connection with their body. Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her stunts.
 
 <div
  class="iframe-container"
@@ -100,7 +100,7 @@ In “The Wolf of Wall Street,” Robbie stepped into the shoes of Naomi Lapagli
 
 ### Tonya Harding in "I, Tonya"
 
-Robbie's depiction of Tonya Harding, the professional ice skater caught in a storm of controversy, in “I, Tonya” provides another illuminating instance of her Enneagram Type 8 alignment. Harding's real-life portrayal as someone unafraid to express her anger and face conflicts aligns closely with a Type 8's comfortable confrontation with anger. The storyline's journey through adversity and struggle for control and respect mirror the common life challenges of Type 8 individuals. Robbie's fearless performance here further illustrates her understanding and embodiment of her inner Type 8.
+Robbie's depiction of Tonya Harding, the professional ice skater caught in a storm of controversy, in “I, Tonya” provides another illuminating instance of her Enneagram Type 8 alignment. Harding's real-life portrayal as someone unafraid to express her anger and face conflicts aligns closely with a Type 8's comfortable confrontation with rage. The storyline's journey through adversity and struggle for control and respect mirror the common life challenges of Type 8 individuals. Robbie's fearless performance here further illustrates her understanding and embodiment of her inner Type 8.
 
 ### Harley Quinn in "Suicide Squad" and "Birds of Prey"
 
@@ -132,11 +132,11 @@ Robbie's portrayal transcends acting; it's an exploration of her Enneagram Type 
   />
 </div>
 
-Thus, whether playing Naomi Lapaglia, Tonya Harding, or Harley Quinn, Robbie's performance reflects not just her acting prowess but also her Type 8 personality. These roles serve as vehicles for her to confront conflicts, challenge power structures, and display her assertive nature, all of which are key traits of an Enneagram Type 8. Ultimately, Robbie’s characters do more than tell their stories - they offer a profound insight into the actress's personality and Enneagram Type 8 characteristics.
+Thus, whether playing Naomi Lapaglia, Tonya Harding, or Harley Quinn, Robbie's performance reflects her acting prowess and Type 8 personality. These roles serve as vehicles for her to confront conflicts, challenge power structures, and display her assertive nature, all of which are critical traits of an Enneagram Type 8. Ultimately, Robbie’s characters do more than tell their stories - they offer a profound insight into the actress's personality and Enneagram Type 8 characteristics.
 
 <article>
  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
- <p>They may admire Robbie for her pursuit of perfection in her roles and her professional ethics. However, they might also be critical of her choice to play morally ambiguous characters.</p>
+ <p>They may admire Robbie's pursuit of perfection in her roles and professional ethics. However, they might also be critical of her choice to play morally ambiguous characters.</p>
 </article>
 <article>
  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
@@ -256,7 +256,7 @@ The more we understand about people, the richer our interactions and experiences
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Margot Robbie is known for her confident and assertive personality. She is ambitious tenacious, and tends to choose complex and strong characters. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
+            "text": "Margot Robbie is known for her confident and assertive personality. She is ambitious and tenacious and tends to choose complex and strong characters. However, these descriptions are based on public perception and her portrayed image in the media. To know her exact personality, one would have to know her personally."
           },
           "name": "What is Margot Robbie's personality?"
         },
