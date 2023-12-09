@@ -40,13 +40,11 @@ tiktok:
 
 > **Disclaimer** This analysis of Sam Altman's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Sam Altman.
 
-
 ## What Is Sam Altman's Personality Type?
 
 ### Sam Altman as an Enneagram Type 4
 
 Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity. They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of a Type 4.
-
 
 ## Sam Altman: A Prototype of the Enneagram 4
 

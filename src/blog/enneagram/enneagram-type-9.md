@@ -55,7 +55,6 @@ Some of the key strengths of the Enneagram Type 9 personality include:
 - Ability to see multiple perspectives and find common ground
 - Diplomatic and tactful approach to conflict resolution
 
-
 <h3>Situations where 9s thrive</h3>
 <ul>
 <li>Mediation or Conflict Resolution: Their ability to understand all sides and seek harmony is key.</li>
@@ -64,7 +63,6 @@ Some of the key strengths of the Enneagram Type 9 personality include:
 <li>Counseling or Therapy: Their acceptance and nonjudgmental nature help clients feel at ease.</li>
 <li>Community Building: Their knack for creating a peaceful and welcoming environment strengthens community bonds.</li>
 </ul>
-
 
 </article>
 

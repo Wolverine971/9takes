@@ -51,7 +51,6 @@ One of the biggest strengths of the Enneagram Type 4 is their creativity and art
 
 Enneagram Type 4 individuals are also known for their empathy and compassion. They deeply understand the human experience and can connect with others on a deep emotional level. They are also profoundly introspective and self-aware, allowing them to make positive life changes.
 
-
 <h3>Situations where 4s thrive</h3>
 <ul>
 <li>Artistic or Creative Projects: Their depth of emotion and authenticity fuels unique and meaningful work.</li>

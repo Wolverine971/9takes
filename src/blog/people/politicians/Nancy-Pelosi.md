@@ -40,7 +40,6 @@ tiktok:
 
 > **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
 
-
 ## Pelosi's Accomplishments: A Reflection of Type 3 Traits
 
 Pelosi's list of achievements is impressive, beginning with her ability to raise a family while pursuing a political career. In the 1980s, she was elected as a member of the Democratic National Committee, and her political career progressed steadily from there. Pelosi's ascent to the role of House Minority Leader in 2003 and subsequently becoming the first female Speaker of the House in 2007 reflects a relentless pursuit of success, characteristic of the Enneagram Type 3.

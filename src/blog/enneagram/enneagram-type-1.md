@@ -153,8 +153,6 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 </article>
 
-
-
 <article class="section-content">
 
 <h2>🌱 Growth and Development for Type 1 Personalities</h2>

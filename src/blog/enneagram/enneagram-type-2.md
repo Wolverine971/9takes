@@ -55,7 +55,6 @@ Type 2 individuals possess several strengths that make them valuable team or com
 - Emotional intelligence: Type 2 individuals possess a high level of emotional intelligence, which allows them to connect with others on a deep level and to understand their emotions and needs.
 - Leadership: Type 2 individuals are often natural leaders who can inspire and guide others with their caring and compassionate nature.
 
-
 <h3>Situations where 2s thrive</h3>
 <ul>
 <li>Hosting Social Gatherings: Their warmth and caring nature make everyone feel welcome and cared for.</li>

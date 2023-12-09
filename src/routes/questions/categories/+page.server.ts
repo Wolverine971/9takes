@@ -9,9 +9,9 @@ export const load: PageServerLoad = async (
 ): Promise<{
 	// data: any;
 	session: any;
-	subcategoryTags: any
-	questionsAndTags: any
-	categories: any
+	subcategoryTags: any;
+	questionsAndTags: any;
+	categories: any;
 	// categories: any;
 	// hiearchy: any;
 	// count: number | null;
@@ -51,8 +51,7 @@ export const load: PageServerLoad = async (
 			});
 		}
 
-		const { data: categories, error: categoriesErrors } = await supabase
-			.rpc('getcategories')
+		const { data: categories, error: categoriesErrors } = await supabase.rpc('getcategories');
 
 		if (categoriesErrors) {
 			console.log(categoriesErrors);

@@ -237,7 +237,6 @@ Join us at 9takes - a community that values the exploration of personalities and
  }
 </style>
 
-
 <!-- Alternate info -->
 
 Taylor Swift: An Enneagram Type 3

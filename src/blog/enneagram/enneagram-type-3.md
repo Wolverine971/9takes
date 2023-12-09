@@ -56,7 +56,6 @@ Type 3 individuals possess several strengths that make them valuable team or com
 - Self-assurance: Type 3 individuals possess a strong sense of self-confidence and self-assurance, which allows them to take risks and pursue their goals with determination.
 - Leadership: Type 3 individuals are often natural leaders who can inspire and guide others with their ambitious and driven nature.
 
-
 <h3>Situations where 3s thrive</h3>
 <ul>
 <li>Leading a Sales Team: Their charisma and drive for success lead to impressive results.</li>

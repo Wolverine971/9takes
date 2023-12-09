@@ -3,11 +3,12 @@ import { supabase } from '$lib/supabase';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
-
 	const slug = event.params.slug ? event.params.slug.split('-').join(' ') : '';
 
-	const { data: questionCategories, error: questionCategoriesErrors } = await supabase
-		.rpc('get_category_questions', { slug })
+	const { data: questionCategories, error: questionCategoriesErrors } = await supabase.rpc(
+		'get_category_questions',
+		{ slug }
+	);
 
 	if (questionCategoriesErrors) {
 		console.log(questionCategoriesErrors);

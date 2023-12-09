@@ -145,9 +145,6 @@ Additionally, offering Enneagram Type 8 individuals opportunities to lead and ta
 
 </article>
 
-
-
-
 <article class="section-content">
 
 <h2>🌱 Growth and Development for Type 8 Personalities</h2>
@@ -161,7 +158,7 @@ Specific strategies for growth include:
 - Developing Empathy: Actively listening and striving to understand others' perspectives and emotions can enhance Type 8's ability to empathize.
 - Seeking Balance: Type 8s often push themselves and others hard, so prioritizing self-care and balance is essential to avoid burnout and maintain healthy relationships
 - Building Healthy Relationships: Moving away from control and dominance towards relationships based on trust and mutual respect is key for Type 8s.
-  
+
 By focusing on these areas, Type 8 individuals can become more effective leaders, partners, and compassionate individuals, harnessing their natural strengths while addressing growth areas.
 
 </article>
