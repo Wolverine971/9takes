@@ -74,7 +74,7 @@ Puth's openness about his struggles with mental health 🧠💡 further illustra
 
 ## The Controversial Contours of Type 4
 
-Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with Justin Bieber 🥊🎤 grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
+Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with <a href="/blog/famous-enneagram-types/Justin-Bieber">Justin Bieber</a> 🥊🎤 grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
 
 ## Unfolding Puth: The Enigmatic Enneagram 4
 

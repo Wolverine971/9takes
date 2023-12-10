@@ -86,7 +86,7 @@ Consider Kanye West's new album, "Donda." Named after his late mother, it is a r
 
 ## The Eternal Optimist Amid Controversies
 
-Kanye's controversies, often broadcasted worldwide, also paint a picture of the Type 7's tendency to avoid negative feelings and seek happiness above all else. From interrupting Taylor Swift's acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
+Kanye's controversies, often broadcasted worldwide, also paint a picture of the Type 7's tendency to avoid negative feelings and seek happiness above all else. From interrupting <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift's</a> acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
 
 ## Mental Health: An Empathetic Lens into Kanye's Mind
 

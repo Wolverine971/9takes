@@ -79,7 +79,7 @@ In contrast, the unconscious aspects of the psyche are not immediately accessibl
 <div style="text-align: center; display: flex; flex-direction: column;">
 <img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
 
-By <a href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a href="https://en.wikipedia.org/wiki/User:Jordangordanier" class="extiw" title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
+By <a class="external-link" target="_blank" rel="noreferrer" href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a class="external-link extiw" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/User:Jordangordanier"  title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
 
 </div>
 
@@ -96,7 +96,7 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 <div class="iframe-container" >
 <!-- <img src="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf" alt="Andrew Huberman Iceberg Model of the mind" title="Andrew Huberman Iceberg Model" /> -->
 <object data="/blogs/The-Iceberg-Model.pdf" type="application/pdf" width="100%" height="500px" aria-label="Andrew Huberman Iceberg Model">
-      <p>Unable to display PDF file. <a href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>
+      <p>Unable to display PDF file. <a class="external-link" target="_blank" rel="noreferrer" href="https://hubermanlab.com/wp-content/uploads/2023/09/The-Iceberg-Model.pdf">Download</a> instead.</p>
     </object>
 </div>
 

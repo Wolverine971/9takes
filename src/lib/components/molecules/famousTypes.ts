@@ -32,7 +32,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Jason-Calacanis', link: true },
 		{ name: 'Reese-Witherspoon', link: false },
 		{ name: 'Jake-Paul', link: true },
-		{ name: 'Justin-Bieber', link: false },
+		{ name: 'Justin-Bieber', link: true },
 		{ name: 'Tom-Cruise', link: false },
 		{ name: 'Dwayne-Johnson', link: false },
 		{ name: 'Addison-Rae', link: false },

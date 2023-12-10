@@ -1,6 +1,6 @@
 ---
-title: 'Lana Del Ray An Enneagram Type tiptype'
-description: 'Why Lana Del Ray appears to be a type tiptype'
+title: 'Lana Del Ray An Enneagram Type 4'
+description: 'Why Lana Del Ray appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-09-03'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lana-Del-Ray'
@@ -8,7 +8,7 @@ lastmod: '2023-09-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: tiptype
+enneagram: 4
 type: ['celebrity']
 person: 'Lana-Del-Ray'
 wikipedia: ''
@@ -36,7 +36,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/tiptypes/${'Lana-Del-Ray'}.webp`}
+		image={`/types/4s/${'Lana-Del-Ray'}.webp`}
 		showIcon={false}
 		displayText="Lana Del Ray"
 		subtext=""
@@ -44,7 +44,7 @@ tiktok: ''
 </div>
 
 <details>
-<summary class="accordion">TL;DR: Why Lana Del Ray is an Enneagram type tiptype </summary>
+<summary class="accordion">TL;DR: Why Lana Del Ray is an Enneagram type 4 </summary>
 <div class="panel">
 <ul>
 <li>
