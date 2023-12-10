@@ -42,10 +42,10 @@
 			{#each data.comments as comment}
 				<div class="row" style="justify-content: flex-start;">
 					<div>
-						<a href="/questions/{'test'}"
-							>Question: {comment.question_formatted || comment.question}</a
+						<a href="/questions/{comment.url}"
+							>Q: {comment.question_formatted || comment.question}</a
 						>
-						<p>{comment.comment}</p>
+						<p>A: {comment.comment}</p>
 					</div>
 				</div>
 			{/each}

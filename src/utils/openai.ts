@@ -111,9 +111,6 @@ export const tagQuestions = async () => {
 
 export const tagQuestion = async (questionText: string, questionId: number) => {
 	try {
-
-
-
 		const demo_time = await checkDemoTime();
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_tag')
@@ -206,7 +203,6 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 			});
 
 		return;
-
 	} catch (e) {
 		console.log(e);
 	}

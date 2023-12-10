@@ -44,7 +44,12 @@ export const load: PageServerLoad = async (event) => {
 	// ${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)
 
 	if (!findUserError) {
-		return { session, user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions), comments: mapDemoValues(comments) };
+		return {
+			session,
+			user: mapDemoValues(user),
+			subscriptions: mapDemoValues(subscriptions),
+			comments: mapDemoValues(comments)
+		};
 	} else {
 		throw error(404, {
 			message: `Couldn't find the user`

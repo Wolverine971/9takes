@@ -1,7 +1,9 @@
 import { error, json } from '@sveltejs/kit';
 import { PRIVATE_WEBHOOK_AUTH } from '$env/static/private';
 
-import { tagQuestions } from '../../../utils/openai';
+import { tagQuestion, tagQuestions } from '../../../utils/openai';
+import { supabase } from '$lib/supabase';
+import { checkDemoTime } from '../../../utils/api';
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ request }) {
@@ -19,6 +21,39 @@ export async function GET({ request }) {
 		// await TESTtagQuestions();
 		await tagQuestions();
 		return json('lets goo');
+	} catch (e) {
+		throw error(400, {
+			message: `encountered error`
+		});
+	}
+}
+
+export async function POST({ request, locals }) {
+	try {
+		const session = locals.session;
+
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+		const demo_time = await checkDemoTime();
+
+		const { data: user } = await supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', session?.user?.id)
+			.single();
+
+		if (!user?.admin) {
+			throw error(400, 'unauthorized');
+		}
+
+		const body = Object.fromEntries(await request.formData());
+		const questionId = body.questionId as string;
+		const questionText = body.questionText as string;
+
+		console.log(questionId, questionText);
+
+		return json({ success: await tagQuestion(questionText, parseInt(questionId)) });
 	} catch (e) {
 		throw error(400, {
 			message: `encountered error`

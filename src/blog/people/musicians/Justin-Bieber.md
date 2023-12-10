@@ -178,7 +178,6 @@ If you're intrigued by this exploration of personality and fame, join the 9takes
   ]
 }
 
-
 </script>
 
 </svelte:head>

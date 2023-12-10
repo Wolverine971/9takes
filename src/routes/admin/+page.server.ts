@@ -58,7 +58,7 @@ export const actions: Actions = {
 				.single();
 
 			if (!user?.admin) {
-				throw redirect(307, '/questions');
+				throw error(400, 'unauthorized');
 			}
 
 			const newDemoTime = !demo_time;
@@ -87,6 +87,19 @@ export const actions: Actions = {
 			const session = event.locals.session;
 
 			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const demo_time = await checkDemoTime();
+
+			const { data: user } = await supabase
+				.from(demo_time === true ? 'profiles_demo' : 'profiles')
+				.select('id, admin, external_id')
+				.eq('id', session?.user?.id)
+				.single();
+
+			if (!user?.admin) {
+				// throw redirect(307, '/questions');
 				throw error(400, 'unauthorized');
 			}
 

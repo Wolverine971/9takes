@@ -6,7 +6,6 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	export let questionData: any;
-	export let isAdmin: boolean;
 
 	export let tags: any[];
 
@@ -51,6 +50,21 @@
 		// tags = tags.filter((t: any) => t.tag_id !== tag.tag_id);
 	};
 
+	const tagQuestion = async () => {
+		let body = new FormData();
+		body.append('questionId', questionData.id);
+		body.append('questionText', questionData.question);
+
+		console.log(questionData.question, questionData.id);
+
+		await fetch('/api/update-questions', {
+			method: 'POST',
+			body
+		});
+
+		// editing = false;
+	};
+
 	const save = async () => {
 		let body = new FormData();
 		body.append('questionId', questionData.id);
@@ -73,7 +87,7 @@
 
 <div style="display: flex; justify-content: center; align-items: center;">
 	<div class="question-card">
-		<a href="/questions/{questionData.url}" class="top-right">Go to</a>
+		<a href="/questions/{questionData.url}" class="btn btn-primary top-right">Go to</a>
 		<div>
 			<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 				<b>Original:</b>
@@ -109,21 +123,32 @@
 					Removed: {questionData.removed}
 				</span>
 			</div>
-			{#if selectedTags.length}
-				<div class="small-div ">
-					Selected Tags
 
+			<div class="small-div">
+				<div style="display: flex; flex-direction: column;">
+					Tags
+					<button
+						class="btn btn-primary"
+						type="button"
+						style="padding: 0.25rem; display: flex; background-color: var(--color-p-light);"
+						on:click={async () => {
+							getModal(`tag-question-${questionData.id}`).open();
+						}}
+					>
+						AI Tag
+					</button>
+				</div>
+
+				{#if selectedTags.length}
 					<div class="tags-div">
 						{#each selectedTags as tag}
 							<span class="tag">{tag.tag_name}</span>
 						{/each}
 					</div>
-				</div>
-			{:else}
-				<span class="">
-					Tagged: {questionData.tagged}
-				</span>
-			{/if}
+				{:else}
+					<span class=""> No tags </span>
+				{/if}
+			</div>
 		</div>
 
 		{#if editing}
@@ -169,6 +194,21 @@
 			style="padding: 0.25rem; display: flex;"
 			on:click={async () => {
 				await remove();
+			}}
+		>
+			yes
+		</button>
+	</Modal2>
+
+	<Modal2 id={`tag-question-${questionData.id}`}>
+		<h2>Tag Question:</h2>
+		<h3>{questionData.question}</h3>
+		<button
+			class="btn btn-primary"
+			type="button"
+			style="padding: 0.25rem; display: flex;"
+			on:click={async () => {
+				await tagQuestion();
 			}}
 		>
 			yes

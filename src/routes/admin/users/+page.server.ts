@@ -39,7 +39,13 @@ export const load: PageServerLoad = async (event) => {
 		console.log(signupsError);
 	}
 	if (!findUserError) {
-		return { session, user: mapDemoValues(user), profiles: mapDemoValues(profiles), signups, demoTime: demo_time };
+		return {
+			session,
+			user: mapDemoValues(user),
+			profiles: mapDemoValues(profiles),
+			signups,
+			demoTime: demo_time
+		};
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

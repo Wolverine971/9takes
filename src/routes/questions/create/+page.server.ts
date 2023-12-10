@@ -40,7 +40,6 @@ export const actions: Actions = {
 			const question = body.question as string;
 			const tempUrl = getUrlString(question);
 
-
 			if (demo_time === true) {
 				return tempUrl;
 			}

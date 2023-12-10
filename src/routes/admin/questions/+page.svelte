@@ -22,7 +22,6 @@
 						<AdminQuestionItem
 							{questionData}
 							tags={data.tags || []}
-							isAdmin={!!data?.session?.user?.id}
 							on:questionRemoved={() => invalidateAll()}
 						/>
 					{/each}

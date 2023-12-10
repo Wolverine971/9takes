@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const famousTypes: { [index: number]: any[] } = {
 	1: [
 		{ name: 'Hillary-Clinton', link: false },

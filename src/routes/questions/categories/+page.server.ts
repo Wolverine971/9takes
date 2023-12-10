@@ -80,7 +80,6 @@ export const load: PageServerLoad = async (
 			questionsAndTags: (questionsAndTags || []).filter((q) => {
 				return !q.questions.removed;
 			})
-
 		};
 	} catch (e) {
 		console.log(e);

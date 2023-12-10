@@ -8,9 +8,7 @@ import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
 
-export const load: PageServerLoad = async (
-	event
-) => {
+export const load: PageServerLoad = async (event) => {
 	try {
 		const { demo_time } = await event.parent();
 		const session = event.locals.session;
@@ -150,7 +148,8 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
+						!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
@@ -172,8 +171,7 @@ export const actions: Actions = {
 				});
 
 			if (comments) {
-				return mapDemoValues(comments)
-
+				return mapDemoValues(comments);
 			} else {
 				if (findCommentsError) {
 					console.log(findCommentsError);
