@@ -106,12 +106,13 @@
 </script>
 
 <svelte:window bind:innerWidth />
+console.log(data)
 
 <svelte:head>
-	<title>{`9takes | ${data.question.question_formatted | data.question.question}`}</title>
+	<title>{`9takes | ${data.question.question_formatted || data.question.question}`}</title>
 	<meta
 		name="description"
-		content={`9takes Question | ${data.question.question_formatted | data.question.question}`}
+		content={`9takes Question | ${data.question.question_formatted || data.question.question}`}
 	/>
 	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
 </svelte:head>

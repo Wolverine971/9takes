@@ -5,37 +5,15 @@ import { supabase } from '$lib/supabase';
 
 import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
-import type { Database } from '../../schema';
 import { checkDemoTime } from '../../utils/api';
+import { mapDemoValues } from '../../utils/demo';
 
 export const load: PageServerLoad = async (
 	event
-): Promise<{
-	// data: any;
-	subcategoryTags: Array<Database['public']['Tables']['question_subcategories']>;
-	questionsAndTags: Array<Database['public']['Tables']['questions']>;
-	// categories: any;
-	// hiearchy: any;
-	// count: number | null;
-}> => {
+) => {
 	try {
 		const { demo_time } = await event.parent();
 		const session = event.locals.session;
-		// const {
-		// 	data: questionsAndTags,
-		// 	error: findQuestionsError,
-		// 	count
-		// } = await supabase
-		// 	.from('question_tags')
-		// 	.select(`questions(*), question_tag(*)`, { count: 'estimated' })
-		// 	.limit(20);
-
-		// const {
-		// 	data: tags,
-		// 	error: tagsError,
-		// } = await supabase
-		// 	.from('question_tags')
-		// 		.select(`tag_id`, { count: 'estimated' })
 
 		const { data: uniquetags, error: tagsError } = await supabase
 			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
@@ -53,9 +31,6 @@ export const load: PageServerLoad = async (
 				subcategoryTags: [],
 				questionsAndTags: []
 			};
-			// throw error(500, {
-			// 	message: 'No Questions'
-			// });
 		}
 
 		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
@@ -80,25 +55,11 @@ export const load: PageServerLoad = async (
 			console.log(findQuestionsError);
 		}
 
-		// const { data: subcategories, error: subcategoriesError } = await supabase
-		// 	.from('question_subcategories')
-		// 	.select(`*`, { count: 'estimated' });
-
-		// const copyofTags = [...questionsAndTags];
-		// const categoryHiearchy = buildHierarchy(subcategories);
-		// const completeHiearchy = addQuestionsToHierarchy(categoryHiearchy, copyofTags);
-
-		// const tags = questionsAndTags.map((q) => {
-		// 	return q?.question_tag?.subcategory_id;
-		// });
 		if (demo_time === true) {
 			return {
 				session,
 				subcategoryTags,
-				questionsAndTags: questionsAndTags?.map((q) => {
-					q.questions = q.questions_demo;
-					return q;
-				})
+				questionsAndTags: mapDemoValues(questionsAndTags)
 			};
 		}
 		return {
@@ -142,7 +103,7 @@ export const actions: Actions = {
 				console.log(findQuestionsError);
 			}
 
-			return questions;
+			return mapDemoValues(questions);
 		} catch (e) {
 			console.log(e);
 			throw error(500, {
@@ -189,8 +150,7 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-						!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
@@ -200,7 +160,7 @@ export const actions: Actions = {
 				.eq('parent_type', 'question')
 				.eq('parent_id', questionId)
 				.or(`enneagram.in.(${enneagramTypes.join(',')})`, {
-					foreignTable: 'profiles'
+					foreignTable: demo_time === true ? 'profiles_demo' : 'profiles'
 				})
 				.order(sortBy === 'newest' || sortBy === 'oldest' ? 'created_at' : 'like_count', {
 					ascending:
@@ -212,12 +172,8 @@ export const actions: Actions = {
 				});
 
 			if (comments) {
-				return comments.map((c) => {
-					if (c.profiles_demo) {
-						c.profiles = c.profiles_demo;
-					}
-					return c;
-				}) as Comment[];
+				return mapDemoValues(comments)
+
 			} else {
 				if (findCommentsError) {
 					console.log(findCommentsError);

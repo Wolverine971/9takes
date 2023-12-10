@@ -25,7 +25,6 @@
 					return { ...item, special: false };
 				}
 			});
-			console.log('categories', categories);
 		};
 		window.addEventListener('resize', () => res());
 		res();

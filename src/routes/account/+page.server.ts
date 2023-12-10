@@ -4,6 +4,7 @@ import { error, redirect } from '@sveltejs/kit';
 
 import type { Actions } from './$types';
 import { checkDemoTime } from '../../utils/api';
+import { mapDemoValues } from '../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -33,7 +34,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(subscriptionsError);
 	}
 	if (!findUserError) {
-		return { session, user, subscriptions };
+		return { session, user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions) };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

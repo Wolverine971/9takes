@@ -13,15 +13,9 @@
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
-
-	export let data: any; // QuestionObject | CommentObject;
+	export let data: any;
 	export let user: any;
 	export let questionId: number;
-
-	// if (parentType === 'question') {
-	// 	data;
-	// } else if (parentType === 'comment') {
-	// }
 
 	// update this to like_count and add boolean for if user liked
 	let likes: any[] = data?.comment_like ? [...data.comment_like] : [];

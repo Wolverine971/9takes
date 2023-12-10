@@ -3,6 +3,7 @@ import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
+import { mapDemoValues } from '../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -37,7 +38,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(signupsError);
 	}
 	if (!findUserError) {
-		return { session, user, profiles, signups };
+		return { session, user: mapDemoValues(user), profiles: mapDemoValues(profiles), signups: mapDemoValues(signups) };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

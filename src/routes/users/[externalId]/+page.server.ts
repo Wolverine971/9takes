@@ -2,6 +2,7 @@ import { supabase } from '$lib/supabase';
 import { error } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
+import { mapDemoValues } from '../../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -16,10 +17,11 @@ export const load: PageServerLoad = async (event) => {
 		.single();
 
 	const { data: subscriptions, error: subscriptionsError } = await supabase
-		.from('subscriptions')
+		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
-		questions(id, question, url)`
+			${demo_time === true ? 'questions_demo' : 'questions'}
+		(id, question, url)`
 		)
 		.eq('user_id', user?.id);
 
@@ -28,7 +30,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const { data: comments, error: commentsError } = await supabase.rpc(
-		'get_user_question_comments',
+		'get_user_question_comments2',
 		{
 			authorid: user?.id
 		}
@@ -42,7 +44,7 @@ export const load: PageServerLoad = async (event) => {
 	// ${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)
 
 	if (!findUserError) {
-		return { session, user, subscriptions, comments };
+		return { session, user: mapDemoValues(user), subscriptions: mapDemoValues(subscriptions), comments: mapDemoValues(comments) };
 	} else {
 		throw error(404, {
 			message: `Couldn't find the user`

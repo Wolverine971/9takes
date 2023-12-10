@@ -138,18 +138,18 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-05-28"
+    "@value": "2023-08-26"
   },
   "datePublished": {
     "@type": "Date",
-    "@value": "2023-03-01"
+    "@value": "2023-02-28"
   },
   "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
   "headline": "Understanding Enneagram Instinctual Subtypes",
   "image": {
     "@type": "ImageObject",
     "height": 965,
-    "url": "https://9takes.com/blogs/enneagram-subtypes.webp",
+    "url": "https://9takes.com/blogs/neoclassical-fortress2.webp",
     "width": 685
   },
   "mainEntityOfPage": {

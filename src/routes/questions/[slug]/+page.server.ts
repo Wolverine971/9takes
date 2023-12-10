@@ -7,6 +7,7 @@ import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
+import { mapDemoValues } from '../../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
@@ -29,11 +30,13 @@ export async function load(event) {
 		});
 	}
 
-	const { data: userHasAnswered } = await supabase.rpc('can_see_comments_2', {
+	const { data: userHasAnswered } = await supabase.rpc('can_see_comments_3', {
 		userfingerprint: cookie,
 		questionid: question?.id,
 		userid: session?.user?.id || null
 	});
+
+	console.log('userHasAnswered', userHasAnswered);
 
 	if (!userHasAnswered) {
 		const { count: commentCount } = await supabase
@@ -173,24 +176,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -198,7 +201,7 @@ export const actions: Actions = {
 				.select()
 				.single();
 			if (!addCommentError) {
-				if (parent_type === 'comment') {
+				if (parent_type === 'comment' && demo_time === false) {
 					if (demo_time === false) {
 						// need to increment the demo commentcount
 						const { error: incrementError } = await supabase.rpc('increment_comment_count', {
@@ -269,25 +272,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						author_id: null,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -295,16 +298,16 @@ export const actions: Actions = {
 				.select()
 				.single();
 			if (!addCommentError) {
-				if (parent_type === 'comment') {
+				if (parent_type === 'comment' && demo_time === false) {
 					const { error: incrementError } = await supabase.rpc('increment_comment_count', {
 						comment_parent_id: parentId
 					});
 
 					if (!incrementError) {
-						return record;
+						return mapDemoValues(record);
 					}
 				} else {
-					return record;
+					return mapDemoValues(record);
 				}
 			} else {
 				console.log(addCommentError);

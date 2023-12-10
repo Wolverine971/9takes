@@ -4,6 +4,7 @@ import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
 import { createESQuestion } from '$lib/elasticSearch';
+import { mapDemoValues } from '../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -32,7 +33,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	if (!findUserError) {
-		return { session, user, demoTime: demo_time, dailyVisitors };
+		return { session, user: mapDemoValues(user), demoTime: demo_time, dailyVisitors };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

@@ -24,7 +24,6 @@
 	$: selectedTags, checkTags();
 
 	const checkTags = () => {
-		console.log('selectedTags', selectedTags);
 		tags = tags.filter((t: any) => {
 			return !selectedTags.find((st: any) => st.tag_id === t.tag_id);
 		});

@@ -22,6 +22,7 @@ import { typeaheadQuery } from '../../../utils/elasticSearch';
 
 import { elasticClient } from '$lib/elasticSearch';
 import { checkDemoTime } from '../../../utils/api';
+import { mapDemoValues } from '../../../utils/demo';
 
 export const actions: Actions = {
 	getUrl: async ({ request, locals }) => {
@@ -39,26 +40,7 @@ export const actions: Actions = {
 			const question = body.question as string;
 			const tempUrl = getUrlString(question);
 
-			// export const typeaheadQuery = (
-			// 	index: string,
-			// 	field: string,
-			// 	text: string,
-			// 	size: number = 10
-			// ) => {
-			// 	return {
-			// 		index,
-			// 		body: {
-			// 			query: {
-			// 				match_phrase_prefix: {
-			// 					[field]: {
-			// 						query: text
-			// 					}
-			// 				}
-			// 			}
-			// 		},
-			// 		size
-			// 	};
-			// };
+
 			if (demo_time === true) {
 				return tempUrl;
 			}
@@ -149,7 +131,7 @@ export const actions: Actions = {
 		if (insertedQuestion?.length && !questionInsertError) {
 			tagQuestion(question, insertedQuestion[0].id);
 
-			return insertedQuestion;
+			return mapDemoValues(insertedQuestion);
 		}
 
 		return null;

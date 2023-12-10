@@ -3,18 +3,15 @@ import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
+import { mapDemoValues } from '../../../utils/demo';
 
 export const load: PageServerLoad = async (
 	event
 ): Promise<{
-	// data: any;
 	session: any;
 	subcategoryTags: any;
 	questionsAndTags: any;
 	categories: any;
-	// categories: any;
-	// hiearchy: any;
-	// count: number | null;
 }> => {
 	try {
 		const { demo_time } = await event.parent();
@@ -73,10 +70,7 @@ export const load: PageServerLoad = async (
 				session,
 				subcategoryTags,
 				categories,
-				questionsAndTags: questionsAndTags?.map((q) => {
-					q.questions = q.questions_demo;
-					return q;
-				})
+				questionsAndTags: mapDemoValues(questionsAndTags)
 			};
 		}
 		return {
@@ -87,9 +81,6 @@ export const load: PageServerLoad = async (
 				return !q.questions.removed;
 			})
 
-			// categories: subcategories,
-			// hiearchy: completeHiearchy,
-			// count
 		};
 	} catch (e) {
 		console.log(e);

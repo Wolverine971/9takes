@@ -80,7 +80,7 @@ export const tagQuestions = async () => {
 
 			if (!newTagz.length) {
 				await supabase
-					.from('questions')
+					.from(demo_time === true ? 'questions_demo' : 'questions')
 					.update({ flagged: true, updated_at: new Date() })
 					.eq('id', questionId);
 				continue;
@@ -90,7 +90,7 @@ export const tagQuestions = async () => {
 				await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
 			});
 			await supabase
-				.from('questions')
+				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.update({ tagged: true, updated_at: new Date(), question_formatted: tag.question })
 				.eq('id', questionId);
 		}
@@ -110,97 +110,106 @@ export const tagQuestions = async () => {
 };
 
 export const tagQuestion = async (questionText: string, questionId: number) => {
-	const { data: tags, error: tagsError } = await supabase
-		.from('question_tag')
-		.select('tag_id, tag_name');
-	if (tagsError) {
-		return;
-	}
+	try {
 
-	const openai = new OpenAI({
-		organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
-		apiKey: PRIVATE_AI_API_KEY
-	});
-	const completion = await openai.chat.completions.create({
-		model: 'gpt-3.5-turbo-1106',
-		messages: [
-			{ role: 'system', content: getPrompt(tags.map((e) => e.tag_name)) },
-			{ role: 'user', content: questionText }
-		],
-		response_format: { type: 'json_object' }
-	});
 
-	if (!completion?.choices[0]?.message?.content) {
-		return;
-	}
 
-	const chatResp = JSON.parse(completion.choices[0].message.content);
+		const demo_time = await checkDemoTime();
+		const { data: tags, error: tagsError } = await supabase
+			.from('question_tag')
+			.select('tag_id, tag_name');
+		if (tagsError) {
+			return;
+		}
 
-	// {
-	// 	answers: [
-	// 	  {
-	// 		"1": "I hope people describe me as compassionate and idealistic, always striving to make the world a better place.",
-	// 		"2": "I hope people see me as warm and empathetic, someone who can connect with others on a deeper level.",
-	// 		"3": "I hope people describe me as successful and driven, someone who sets high goals and achieves them.",
-	// 		"4": "I hope people see me as creative and authentic, valuing deep connections and emotional expression.",
-	// 		"5": "I hope people describe me as knowledgeable and perceptive, someone who seeks to understand the world deeply.",
-	// 		"6": "I hope people see me as loyal and trustworthy, someone who can always be counted on.",
-	// 		"7": "I hope people describe me as adventurous and fun-loving, always seeking new experiences and opportunities.",
-	// 		"8": "I hope people see me as strong and confident, someone who stands up for themselves and others.",
-	// 		"9": "I hope people describe me as peaceful and harmonious, someone who brings people together and avoids conflict.",
-	// 	  },
-	// 	],
-	// 	question: "How do you hope people describe you",
-	// 	tags: [
-	// 	  "Self-awareness and Self-understanding",
-	// 	  "Building Self-confidence and Self-worth",
-	// 	  "Engaging with Community and Neighbors",
-	// 	  "Building Social Bonds and Trust",
-	// 	  "Personal Growth",
-	// 	],
-	//   }
-
-	if (!chatResp?.answers) {
-		console.log(chatResp);
-		return;
-	}
-
-	await supabase
-		.from('questions')
-		.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question })
-		.eq('id', questionId)
-		.then(async () => {
-			const newTags = chatResp.tags;
-			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
-
-			const newTagIds = newTagz.map((e) => e.tag_id);
-
-			if (!newTagz.length) {
-				await supabase
-					.from('questions')
-					.update({ flagged: true, updated_at: new Date() })
-					.eq('id', questionId);
-			} else {
-				newTagIds.forEach(async (tagId) => {
-					await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
-				});
-			}
-
-			// update ai comments
-			if (chatResp.answers) {
-				for await (const answerKey of Object.keys(chatResp.answers)) {
-					const type = answerKey;
-					const answerText = chatResp.answers[answerKey];
-					if (type && answerText) {
-						await supabase
-							.from('comments_ai')
-							.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
-					}
-				}
-			}
+		const openai = new OpenAI({
+			organization: 'org-qhR8p39TxOzb3MVePrWE58ld',
+			apiKey: PRIVATE_AI_API_KEY
+		});
+		const completion = await openai.chat.completions.create({
+			model: 'gpt-3.5-turbo-1106',
+			messages: [
+				{ role: 'system', content: getPrompt(tags.map((e) => e.tag_name)) },
+				{ role: 'user', content: questionText }
+			],
+			response_format: { type: 'json_object' }
 		});
 
-	return;
+		if (!completion?.choices[0]?.message?.content) {
+			return;
+		}
+
+		const chatResp = JSON.parse(completion.choices[0].message.content);
+
+		// {
+		// 	answers: [
+		// 	  {
+		// 		"1": "I hope people describe me as compassionate and idealistic, always striving to make the world a better place.",
+		// 		"2": "I hope people see me as warm and empathetic, someone who can connect with others on a deeper level.",
+		// 		"3": "I hope people describe me as successful and driven, someone who sets high goals and achieves them.",
+		// 		"4": "I hope people see me as creative and authentic, valuing deep connections and emotional expression.",
+		// 		"5": "I hope people describe me as knowledgeable and perceptive, someone who seeks to understand the world deeply.",
+		// 		"6": "I hope people see me as loyal and trustworthy, someone who can always be counted on.",
+		// 		"7": "I hope people describe me as adventurous and fun-loving, always seeking new experiences and opportunities.",
+		// 		"8": "I hope people see me as strong and confident, someone who stands up for themselves and others.",
+		// 		"9": "I hope people describe me as peaceful and harmonious, someone who brings people together and avoids conflict.",
+		// 	  },
+		// 	],
+		// 	question: "How do you hope people describe you",
+		// 	tags: [
+		// 	  "Self-awareness and Self-understanding",
+		// 	  "Building Self-confidence and Self-worth",
+		// 	  "Engaging with Community and Neighbors",
+		// 	  "Building Social Bonds and Trust",
+		// 	  "Personal Growth",
+		// 	],
+		//   }
+
+		if (!chatResp?.answers) {
+			console.log(chatResp);
+			return;
+		}
+
+		await supabase
+			.from(demo_time === true ? 'questions_demo' : 'questions')
+			.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question })
+			.eq('id', questionId)
+			.then(async () => {
+				const newTags = chatResp.tags;
+				const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+
+				const newTagIds = newTagz.map((e) => e.tag_id);
+
+				if (!newTagz.length) {
+					await supabase
+						.from(demo_time === true ? 'questions_demo' : 'questions')
+						.update({ flagged: true, updated_at: new Date() })
+						.eq('id', questionId);
+				} else {
+					newTagIds.forEach(async (tagId) => {
+						await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+					});
+				}
+
+				// update ai comments
+				if (chatResp.answers) {
+					for await (const answerKey of Object.keys(chatResp.answers)) {
+						const type = answerKey;
+						const answerText = chatResp.answers[answerKey];
+						if (type && answerText) {
+							await supabase
+								.from(demo_time === true ? 'comments_ai_demo' : 'comments_ai')
+								.insert({ enneagram_type: type, comment: answerText, question_id: questionId });
+						}
+					}
+				}
+			});
+
+		return;
+
+	} catch (e) {
+		console.log(e);
+	}
 };
 
 // I can pull this system prompt dynamically

@@ -27,7 +27,7 @@ export async function GET({ url, locals, cookies }) {
 		const user = locals?.session?.user;
 
 		// only works for questions
-		const { data: userHasAnswered, error } = await supabase.rpc('can_see_comments_2', {
+		const { data: userHasAnswered, error } = await supabase.rpc('can_see_comments_3', {
 			userfingerprint: cookie,
 			questionid: parentId,
 			userid: user?.id || null
@@ -130,7 +130,6 @@ export async function GET({ url, locals, cookies }) {
 				});
 			}
 		}
-
 		if (!questionCommentsError && questionComments?.length) {
 			return json(questionComments);
 		} else {

@@ -4,6 +4,7 @@ import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../../utils/api';
 import { tagQuestion } from '../../../utils/openai';
+import { mapDemoValues } from '../../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -38,7 +39,7 @@ export const load: PageServerLoad = async (event) => {
 		console.log(signupsError);
 	}
 	if (!findUserError) {
-		return { session, user, profiles, signups, demoTime: demo_time };
+		return { session, user: mapDemoValues(user), profiles: mapDemoValues(profiles), signups, demoTime: demo_time };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`
