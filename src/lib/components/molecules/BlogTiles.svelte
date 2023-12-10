@@ -257,6 +257,9 @@
 	h3 {
 		font-size: 1.5rem;
 	}
+	h2 {
+		margin-top: 2rem;
+	}
 	p {
 		font-size: 1rem;
 	}
