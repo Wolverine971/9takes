@@ -106,7 +106,6 @@
 </script>
 
 <svelte:window bind:innerWidth />
-console.log(data)
 
 <svelte:head>
 	<title>{`9takes | ${data.question.question_formatted || data.question.question}`}</title>
