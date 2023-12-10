@@ -23,7 +23,7 @@
 />
 
 <svelte:head />
-
+<h1>The 9takes Blog</h1>
 {#if structuredView}
 	<div class="btn-container-right">
 		<button

@@ -33,7 +33,7 @@ Self-efficacy is not just a buzzword; it's a foundational element that impacts v
 
 ## ABOUT THE AUTHOR
 
-### Why I Wrote the Guide
+### Why I Wrote this Guide
 
 I wrote this guide to combat learned helplessness. We all have the power to improve our lives. Like Gandalf from Lord of the Rings said, all you have to do is decide what to do with the time that is given to you.
 
@@ -425,11 +425,11 @@ So, if you found this guide helpful and are curious to explore more about yourse
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://example.com/images/self-efficacy.jpg",
+        "url": "https://9takes.com/blogs/gandalf-statue.webp",
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://example.com/blog/self-efficacy-guide",
+        "@id": "https://9takes.com/blog/guides/definitive-guide-to-self-efficacy",
         "@type": "WebPage"
       },
       "publisher": {

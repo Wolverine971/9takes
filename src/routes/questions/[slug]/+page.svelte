@@ -108,8 +108,11 @@
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	<title>{`9takes | ${data.question.question_formatted}`}</title>
-	<meta name="description" content={`9takes Question | ${data.question.question_formatted}`} />
+	<title>{`9takes | ${data.question.question_formatted | data.question.question}`}</title>
+	<meta
+		name="description"
+		content={`9takes Question | ${data.question.question_formatted | data.question.question}`}
+	/>
 	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
 </svelte:head>
 

@@ -235,7 +235,7 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
     {
       "@type": "Article",
       "articleBody": "This article provides an in-depth guide on each Enneagram type's predispositions to specific mental health challenges. It highlights the shadow side, or negative aspects, of each personality type and describes how these can lead to unique mental health risks. The article offers two detailed examples of unhealthy spirals for each type and discusses how their coping mechanisms can exacerbate these negative patterns, providing a comprehensive understanding of each type's mental health journey.",
-      "name": "Overview of Enneagram Type 2: The Helper",
+      "creator" : ["DJ Wayne"],
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

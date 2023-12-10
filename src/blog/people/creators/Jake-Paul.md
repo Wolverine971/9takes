@@ -121,11 +121,11 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://example.com/types/3s/Jake-Paul.webp",
+        "url": "https://9takes.com/types/3s/Jake-Paul.webp",
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://example.com/blog/famous-enneagram-types/Jake-Paul",
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Jake-Paul",
         "@type": "WebPage"
       },
       "mentions": {

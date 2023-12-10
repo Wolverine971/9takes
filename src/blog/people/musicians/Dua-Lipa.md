@@ -95,7 +95,7 @@ Every path to the summit is strewn with hurdles, and Dua's journey ⛰️ is no 
 
 ## Confronting Controversies with Adaptive Resilience
 
-Dua Lipa's career has not been without controversies. Her high-profile relationship with Anwar Hadid and collaborations with fellow artists like <a href="./Miley-Cyrus">Miley Cyrus</a>, The Weeknd, and Calvin Harris have often been tabloid fodder. However, it's in these moments that Dua's Type 3 resilience truly shines, as she adeptly navigates these situations to keep her career trajectory on an upward trend.
+Dua Lipa's career has not been without controversies. Her high-profile relationship with Anwar Hadid and collaborations with fellow artists like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a>, The Weeknd, and Calvin Harris have often been tabloid fodder. However, it's in these moments that Dua's Type 3 resilience truly shines, as she adeptly navigates these situations to keep her career trajectory on an upward trend.
 
 ## Unraveling the Forces that Drive Dua Lipa
 

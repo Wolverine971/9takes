@@ -1,6 +1,6 @@
 ---
 title: 'The Enneagram Party Planner: Customize Your Invites for All Types'
-description: 'Delve into the dynamics of Enneagram personalities in party planning. Gain insights on crafting the perfect invite for each type, making your party the most anticipated event of the season.'
+description: 'Explore Enneagram dynamics in party planning to craft perfect invites for each type, ensuring an unforgettable event.'
 author: 'DJ Wayne'
 date: '2023-12-09'
 loc: 'https://9takes.com/blog/enneagram/enneagram-party-planner'
@@ -39,11 +39,9 @@ pic: 'greek-statues-partying'
     />
 </div>
 
-
 ## Uncovering the Layers
 
 Imagine Alex, a quintessential Type 3 (The Achiever), planning a party. Their approach isn't just about having fun; they aim to create an event that's memorable and impactful. For Alex, a poorly attended party is a failure, a dent in their high expectations. They take pride in their social connections and organizational skills, often sparking conversations about recent successes in work or personal life. Alex's meticulous planning and attention to detail are essential in their party preparation.
-
 
 ## The Planning Paradox
 
@@ -277,6 +275,7 @@ Alex understands that crafting the proper invites is just the start. The party n
 </details>
 
 ## The Philosophical Twist
+
 This party transcends mere socializing; it's akin to a modern-day symposium reminiscent of gatherings held by Greek philosophers. Each conversation and interaction offers a deeper understanding and empathy. For an in-depth exploration of how different Enneagram types contribute to the dynamics of a party, delve into our comprehensive blog [here](/blog/enneagram/enneagram-types-at-party), enriching your perspective on hosting a memorable and meaningful event.
 
 ## The Aftermath
@@ -286,7 +285,6 @@ Reflecting on the event, Alex realizes the party was more than a social gatherin
 ## Conclusion
 
 Your next social gathering can transcend the ordinary by applying these insights into the human psyche. If intrigued by the world of the Enneagram, join the 9takes community, where every question unlocks a new perspective. Start your journey of exploration and understanding by signing up now.
-
 
 <svelte:head>
 

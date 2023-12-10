@@ -17,8 +17,6 @@ instagram: ''
 tiktok: ''
 ---
 
-
-
 <script>
     import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -182,4 +180,5 @@ If you're intrigued by this exploration of personality and fame, join the 9takes
 
 
 </script>
+
 </svelte:head>
