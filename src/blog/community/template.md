@@ -39,3 +39,9 @@ people feel inclined to give in order to get
 Morgan Housel — The Psychology of Money, Picking the Right Game, and the $6 Million Janitor
 talking about how your kids are different personalities
 https://youtu.be/szQwdZDiVh4?si=pG2E-eJO6JvjJ6G2&t=1208
+
+
+<!-- BLOG on this -->
+
+freud psychodynamic theory
+freuds psychoanalysis

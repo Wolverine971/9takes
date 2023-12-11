@@ -22,6 +22,8 @@ pic: 'husband-and-wife'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
+<p class="firstLetter">I got married and my wife and I were fighting a lot.</p>
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -37,7 +39,6 @@ margin: 1rem 0;"
 	/>
 </div>
 
-<p class="firstLetter">I got married and my wife and I were fighting a lot.</p>
 
 Through counseling, we learned that we were different 🤯. And that it is normal to
 think differently and have a slew of baggage that you subconsciously expect the
