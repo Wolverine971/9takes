@@ -13,7 +13,7 @@
 		title: '9takes Enneagram Blogs',
 		description: 'List of blogs explaining different parts of the enneagram'
 	}}
-	slug={'/blog/enneagram'}
+	slug={'blog/enneagram'}
 />
 
 <div style="width: 100%;">

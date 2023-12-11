@@ -51,7 +51,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Drainers:** Being ignored, feeling unappreciated or taken for granted, neglecting one's needs, for example, being taken for granted, feeling unappreciated or overlooked, neglecting one's own needs for the sake of others.
 
-**Strengths:** Twos are warm, empathetic, and caring individuals. They have a natural talent for connecting with others and helping them meaningfully. They are generous, nurturing, and sincerely desire to serve others.
+**Strengths:** Twos are warm, empathetic, and caring individuals. They have a natural talent for connecting with others and helping them meaningfully. They are generous and nurturing and sincerely desire to serve others.
 
 **Weaknesses:** Twos can become overly dependent on the approval and validation of others. They may struggle with boundaries and become highly involved in other people's lives, leading to feelings of exhaustion and burnout.
 
@@ -67,7 +67,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Energizers:** Setting and achieving goals, receiving recognition and praise, being successful, being in the spotlight, and, for example, setting and achieving goals, receiving glory and honor, presenting in front of an audience, competing, and winning.
 
-**Drainers:** Failure, criticism, lack of progress or achievement, feeling unimportant or insignificant, for example, failing to meet expectations or goals, receiving negative feedback or complaints, and feeling like a failure or impostor.
+**Drainers:** Failure, criticism, lack of progress or achievement, feeling unimportant, for example, failing to meet expectations or goals, receiving negative feedback or complaints, and feeling like a failure or impostor.
 
 **Strengths:** Threes are ambitious, driven, and highly motivated. They are skilled at setting and achieving goals and have a natural talent for leadership. They are confident, charismatic, and highly adaptable.
 
@@ -159,7 +159,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h3>Type 8 - The Challenger</h3>
 
-**Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, and standing up for oneself and others, for example, leading and taking charge of a situation, standing up for oneself or others, achieving a difficult goal through determination.
+**Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, and standing up for oneself and others, for example, leading and taking charge of a situation, standing up for oneself or others, achieving a challenging goal through determination.
 
 **Drainers:** Feeling vulnerable or powerless, controlled or dominated, criticized or rejected, forced to submit or back down. For example, feeling powerless or helpless, being controlled or dominated by others, and facing criticism or rejection.
 

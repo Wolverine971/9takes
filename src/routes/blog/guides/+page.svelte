@@ -14,7 +14,7 @@
 		title: '9takes Guides',
 		description: 'Guides to various topics'
 	}}
-	slug={`blog/community`}
+	slug={`blog/guides`}
 />
 
 <h1 style="text-align: center;">9takes Guides</h1>

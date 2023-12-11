@@ -39,7 +39,7 @@
 		title: '9takes Analysis of Famous People',
 		description: 'List famous people who have their enneagram type analyzed'
 	}}
-	slug={'/blog/famous-enneagram-types'}
+	slug={'blog/famous-enneagram-types'}
 />
 <svelte:head>
 	<link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types" />
