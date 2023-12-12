@@ -10,30 +10,40 @@
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
+	import EditIcon from '../icons/editIcon.svelte';
+	import Modal2, { getModal } from '../atoms/Modal2.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let user: any;
 	export let comment: any;
-
 	export let data: any;
 	export let questionId: number;
-	let _commentComment: any = null;
-	if (comment?.id) {
-		_commentComment = Object.assign({}, comment);
-	}
 
 	$: comment, matchData();
 
-	const matchData = () => {
-		_commentComment = Object.assign({}, comment);
-	};
-
+	let likes: any[] = comment?.comment_like ? [...comment.comment_like] : [];
 	let loadingComments: boolean = false;
 	let loading: boolean = false;
+	let innerWidth = 0;
+	let newcomment: string = '';
+	let _commentComment: any = null;
+	let commenting: boolean = false;
+	let anonymousComment = false;
+	let commentEdit = comment.comment;
 
 	const lastDate = comment?.comments?.length
 		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
 		: null;
+
+	if (comment?.id) {
+		_commentComment = Object.assign({}, comment);
+	}
+	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
+
+	const matchData = () => {
+		_commentComment = Object.assign({}, comment);
+		likes = comment?.comment_like ? [...comment.comment_like] : [];
+	};
 
 	const loadMore = async () => {
 		if (!user) {
@@ -99,22 +109,6 @@
 		}
 	};
 
-	let newcomment: string = '';
-	let commenting: boolean = false;
-
-	$: comment, watchData();
-
-	let anonymousComment = false;
-
-	const watchData = () => {
-		// if (!data?.flags?.userHasAnswered && parentType === 'question') {
-		// 	commenting = true;
-		// }
-		likes = comment?.comment_like ? [...comment.comment_like] : [];
-	};
-
-	let likes: any[] = comment?.comment_like ? [...comment.comment_like] : [];
-
 	const createComment = async () => {
 		if (!data?.flags?.userSignedIn && !user?.id) {
 			if (data?.flags?.userHasAnswered || anonymousComment) {
@@ -170,8 +164,30 @@
 		}
 	};
 
-	let innerWidth = 0;
-	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
+	const save = async () => {
+		loading = true;
+
+		let body = new FormData();
+		body.append('comment', commentEdit);
+		body.append('comment_id', _commentComment.id);
+
+		const resp = await fetch('/comments', {
+			method: 'POST',
+			body
+		});
+
+		const result: any = deserialize(await resp.text());
+
+		if (result?.success) {
+			notifications.info('Comment Updated', 3000);
+			_commentComment.comment = commentEdit;
+			getModal(`edit-modal-${_commentComment.id}`).close();
+		} else {
+			notifications.danger('Error updating comment', 3000);
+			console.log(result.error);
+		}
+		loading = false;
+	};
 </script>
 
 <svelte:window bind:innerWidth />
@@ -191,6 +207,7 @@
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">
 					<a
+						title="View profile"
 						class="profile-avatar {_commentComment?.profiles?.external_id
 							? 'hoverable'
 							: 'disabled'}"
@@ -198,6 +215,23 @@
 							? `/users/${_commentComment.profiles.external_id}`
 							: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
 					>:
+					{#if user?.id === _commentComment?.author_id}
+						<button
+							type="button"
+							class="comment-edit"
+							itemprop="text"
+							title="Edit"
+							on:click={async () => {
+								getModal(`edit-modal-${_commentComment.id}`).open();
+							}}
+							on:keydown={(e) => {
+								if (e?.key === 'Enter') getModal(`edit-modal-${_commentComment.id}`).open();
+							}}
+						>
+							<EditIcon height={'1rem'} fill={'#5407d9'} />
+						</button>
+					{/if}
+
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
 				{#if _commentComment.comment.length > 136}
@@ -262,7 +296,7 @@
 		{#if innerWidth >= 500}
 			<div
 				style="display: flex;
-			flex-direction: column"
+			flex-direction: column; justify-content: space-between; align-items: flex-end;"
 			>
 				<div class="comment-meta">
 					<span style="min-width:30px"
@@ -354,6 +388,24 @@
 	{/if}
 </Card>
 
+<Modal2 id={`edit-modal-${_commentComment.id}`}>
+	<div style="max-height: 500px; min-width: 350px">
+		<h1>Edit Comment</h1>
+		<textarea rows="5" bind:value={commentEdit} />
+
+		<button
+			class="btn btn-primary save-btn"
+			type="button"
+			style="padding: 0.25rem; display: flex;"
+			on:click={async () => {
+				await save();
+			}}
+		>
+			Save
+		</button>
+	</div>
+</Modal2>
+
 <style lang="scss">
 	.rounded {
 		border-radius: 5px;
@@ -368,20 +420,18 @@
 	.expanded .comment-text {
 		max-height: none;
 	}
-
-	// .container {
-	// 	// width: 300px; /* Adjust width as needed */
-	// 	line-height: 1.5em;
-	// 	max-height: 4.5em; /* 3 lines */
-	// 	overflow: hidden;
-	// 	position: relative;
-	// }
+	.comment-edit {
+		display: inline !important;
+		cursor: pointer;
+		display: inline;
+		transition: 0.3s;
+		border: none;
+		border-radius: 0;
+		min-width: 0 !important;
+		padding: 0 !important;
+	}
 
 	.read-more-btn {
-		// display: none;
-		// position: absolute;
-		// bottom: 0;
-		// right: 0;
 		background-color: #f1f1f1;
 		padding: 5px 10px;
 		cursor: pointer;

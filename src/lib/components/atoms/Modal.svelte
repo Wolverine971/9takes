@@ -25,7 +25,7 @@
 				type="button"
 				on:click={close}
 				on:keydown={(e) => {
-					if (e.charCode === 13) close();
+					if (e?.key === 'Enter') close();
 				}}
 			>
 				✖

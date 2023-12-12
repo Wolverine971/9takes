@@ -27,13 +27,16 @@ export async function GET({ url, locals, cookies }) {
 		const user = locals?.session?.user;
 
 		// only works for questions
-		const { data: userHasAnswered, error } = await supabase.rpc('can_see_comments_3', {
+		const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc('can_see_comments_3', {
 			userfingerprint: cookie,
 			questionid: parentId,
 			userid: user?.id || null
 		});
 
 		if (!userHasAnswered) {
+			if (canSeeCommentsError) {
+				console.log(canSeeCommentsError);
+			}
 			return json({});
 		}
 
@@ -142,4 +145,46 @@ export async function GET({ url, locals, cookies }) {
 			message: `encountered error`
 		});
 	}
+}
+
+
+export async function POST({ locals, request }) {
+	try {
+		const session = locals.session;
+
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+		const demo_time = await checkDemoTime();
+		const body = Object.fromEntries(await request.formData());
+		const comment = body.comment as string;
+		const comment_id = body.comment_id as string;
+
+		const { data: commentAuthorized } = await supabase
+			.from(demo_time === true ? 'comments_demo' : 'comments')
+			.select('id, author_id')
+			.eq('author_id', session?.user?.id)
+			.eq('id', comment_id)
+			.single();
+
+		if (commentAuthorized) {
+			const { data: commentUpdated } = await supabase
+				.from(demo_time === true ? 'comments_demo' : 'comments')
+				.update({ comment, modified_at: new Date() })
+				.eq('author_id', session?.user?.id)
+				.eq('id', comment_id)
+				.single();
+
+			return json({ success: true, commentUpdated });
+		} else {
+			throw error(400, 'unauthorized');
+		}
+
+
+	} catch (e) {
+		throw error(400, {
+			message: `encountered error`
+		});
+	}
+
 }
