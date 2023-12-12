@@ -53,7 +53,7 @@ Dua Lipa and Calvin Harris -->
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Dua-Lipa'}.webp`}
+		image={`/types/3s/Dua-Lipa.webp`}
 		showIcon={false}
 		enneagramType="3"
 		displayText="Dua Lipa"
@@ -164,11 +164,11 @@ If you are intrigued by this exploration of Dua Lipa's personality and wish to d
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-06-22"
+        "@value": "2023-06-17"
       },
       "datePublished": {
         "@type": "Date",
-        "@value": "2023-06-22"
+        "@value": "2023-03-09"
       },
       "description": "This blog post investigates why Dua Lipa might be an Enneagram Type 3. It focuses on her personality traits, daily thoughts and feelings, her controversies, and how these aspects might align with the core characteristics of a Type 3.",
       "headline": "Dua Lipa: Unraveling the Pop Icon's Enneagram Type 3 Personality",

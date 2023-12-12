@@ -18,7 +18,7 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:source="http://source.scripting.com/">
   <channel>
     <title>9takes</title>
-    <link>https://9takes.com/</link>
+    <link>https://9takes.com</link>
     <description>9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?</description>
     ${posts
 			.map(
@@ -26,7 +26,7 @@ const xml = (posts: any) => `<?xml version="1.0" encoding="UTF-8"?>
 					`<item>
           <title>${post.title}</title>
           <description>${post.description}</description>
-          <link>${post.loc}/</link>
+          <link>${post.loc}</link>
           <pubDate>${post.rssDate}</pubDate>
           <lastBuildDate>${post.rssUpdateDate}</lastBuildDate>
         </item>

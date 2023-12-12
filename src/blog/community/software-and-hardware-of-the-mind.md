@@ -103,7 +103,7 @@ These thought leaders exemplify the synergy that can be achieved when empirical 
 
 ## The Future
 
-A holistic understanding of the mind requires us to embrace both the seen and the unseen, the measurable and the immeasurable, the hardware and the software of the mind. The mind is not just a machine to be studied from the outside; it's a rich, complex world waiting to be explored from within. 
+A holistic understanding of the mind requires us to embrace both the seen and the unseen, the measurable and the immeasurable, the hardware and the software of the mind. The mind is not just a machine to be studied from the outside; it's a rich, complex world waiting to be explored from within.
 
 <svelte:head>
 
@@ -134,7 +134,7 @@ A holistic understanding of the mind requires us to embrace both the seen and th
       "image": {
         "@type": "ImageObject",
         "height": 800,
-        "url": "https://9takes.com/blogs/community/software-and-hardware-of-the-mind",
+        "url": "https://9takes.com/blogs/greek-mind.webp",
         "width": 800
       },
       "mainEntityOfPage": {

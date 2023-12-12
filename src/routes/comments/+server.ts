@@ -27,11 +27,14 @@ export async function GET({ url, locals, cookies }) {
 		const user = locals?.session?.user;
 
 		// only works for questions
-		const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc('can_see_comments_3', {
-			userfingerprint: cookie,
-			questionid: parentId,
-			userid: user?.id || null
-		});
+		const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
+			'can_see_comments_3',
+			{
+				userfingerprint: cookie,
+				questionid: parentId,
+				userid: user?.id || null
+			}
+		);
 
 		if (!userHasAnswered) {
 			if (canSeeCommentsError) {
@@ -127,7 +130,6 @@ export async function GET({ url, locals, cookies }) {
 	}
 }
 
-
 export async function POST({ locals, request }) {
 	try {
 		const session = locals.session;
@@ -159,12 +161,9 @@ export async function POST({ locals, request }) {
 		} else {
 			throw error(400, 'unauthorized');
 		}
-
-
 	} catch (e) {
 		throw error(400, {
 			message: `encountered error`
 		});
 	}
-
 }

@@ -39,7 +39,6 @@ margin: 1rem 0;"
 	/>
 </div>
 
-
 Through counseling, we learned that we were different 🤯. And that it is normal to
 think differently and have a slew of baggage that you subconsciously expect the
 person to help you deal with...

@@ -91,7 +91,7 @@ export async function GET() {
 	  <!-- this is where all the urls go -->
 
 	<url>
-	    <loc>https://9takes.com/</loc>
+	    <loc>https://9takes.com</loc>
 	    <lastmod>2023-11-02</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>1.0</priority>
@@ -128,9 +128,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-				.map(
-					(post) =>
-						`
+			.map(
+				(post) =>
+					`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -138,8 +138,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-				)
-				.join('')}
+			)
+			.join('')}
 
 	</urlset>`.trim(),
 		{

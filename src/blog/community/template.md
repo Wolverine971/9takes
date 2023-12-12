@@ -40,8 +40,20 @@ Morgan Housel — The Psychology of Money, Picking the Right Game, and the $6 Mi
 talking about how your kids are different personalities
 https://youtu.be/szQwdZDiVh4?si=pG2E-eJO6JvjJ6G2&t=1208
 
-
 <!-- BLOG on this -->
 
 freud psychodynamic theory
 freuds psychoanalysis
+
+<!-- psychology applied to modern life  -->
+
+forums like reddit
+sites like reddit
+similar sites to reddit
+
+diogenes- father of cynicism
+allegory of the cave
+socrates questioning
+critias- Athenian poet pro spartan government
+
+mindful self compassion

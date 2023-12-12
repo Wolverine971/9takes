@@ -1,3 +1,31 @@
+# Recent suggestions
+
+enneagram childhood wound\*\*\*\*
+
+famous enneagram 3
+famous enneagram 8
+famous enneagram 5
+
+the helper enneagram
+loyalist enneagram
+enneagram helper
+
+enneagram childhood,
+relationships,
+enneagram groups
+can personality change
+can personality types change
+
+personality for pisces taurus aquarius aries
+
+personality and social behavior can be determined by
+personality generator
+personality zodiac signs
+personality disorder types
+personality traits list
+
+9 benefits of learning your enneagram type
+
 # Keyword Strategy for "enneagram"
 
 ## Title

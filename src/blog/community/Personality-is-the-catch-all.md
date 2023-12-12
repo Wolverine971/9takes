@@ -28,7 +28,6 @@ https://youtu.be/yixIc1Ai6jM?si=U69iY0TaEAAgrh_p&t=377
 MFM- what is the personality archetype that I am irrationally drawn towards
 https://youtu.be/pv_X11pUKtg?si=V5qFj4cBEudT_1zE&t=1569
 
-
 Tyler Cowen Talking to Peter Thiel about personality
 neuro diverse
 Crazy scientists are going extinct, conformity is the norm

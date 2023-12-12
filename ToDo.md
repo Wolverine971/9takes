@@ -86,3 +86,68 @@ Share with audience- say that implicitly
 Be the socrates in the group chat- be the good listeners
 Private group
 Feedback today
+
+## Collabs
+
+relationship analysis youtuber
+https://www.youtube.com/@AnthonyRecenello
+
+put up a booth here
+https://baltimorecomiccon.com/
+
+chatbots?
+https://www.personalityforge.com/
+
+## Content flow
+
+https://twitter.com/thejustinwelsh/status/1669410778091274254?s=46&t=nZ341-HFdXrkPSjVma-MtQ
+A simple content flow for creators:
+
+1. Write a Twitter thread
+2. Expand it to a newsletter
+3. Use it as a carousel on LinkedIn
+4. Use it as a carousel on Instagram
+5. Shorten it to a regular Tweet
+6. Image post it to LinkedIn
+7. Image post it to Instagram
+
+Think 1x, publish 7x.
+
+https://www.youtube.com/watch?v=SwksMt9mE6Y
+
+### IDEAS
+
+Udemy research for blogs
+Amazon: look for books, look at table of contents
+Conference agenda 2. Headlines:
+Proven Phrases- BuzzSumo
+Brackets of parenthesis in title
+Long headlines 3. Attention Grab Intro
+PPT formula- preview proof transition
+Preview- what to expect
+Proof- I know what I am talking about, personal results, years of experience, number of clients, credentials (why 9takes blog)- I have been wanting to build a personality app for 5 years
+Transition- cap it off, Lets dive in 4. Write awesome post
+Section Subheaders
+add lots of visuals
+Charts, Screenshots, pic, infographics
+16 or 20 px
+3000+ words 5. Conclusion
+3 step conclustion
+
+### TAC
+
+Transition- meat is over, sum things up
+Ask- specific question
+CTA- what to do next 6. Optimize post for SEO
+3 techniques
+Include target keyword in intro
+Short URLs
+Internal Links- 2 to 5 7. Promote Post
+
+### Content Roadshow
+
+20% writing, 80% promoting content
+Content announcement newsletter
+Tweet, newsletter
+Facebook retargeting- boost to people who visited site
+Email outreach- personalized message

@@ -32,7 +32,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	"
 >
 	<PopCard
-		image={`/types/8s/${'Beyonce-Knowles'}.webp`}
+		image={`/types/8s/Beyonce-Knowles.webp`}
 		showIcon={false}
 		enneagramType="8"
 		displayText="Beyoncé Knowles"
@@ -110,7 +110,7 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-05-18"
+        "@value": "2023-08-26"
       },
       "datePublished": {
         "@type": "Date",
