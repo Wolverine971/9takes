@@ -1,10 +1,13 @@
 <script lang="ts">
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import twitter from '$lib/images/twitter.svg';
 
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 	let showEmail = false;
+	let showLaser = true;
+	let innerWidth = 0;
 </script>
 
 <svelte:head>
@@ -16,17 +19,113 @@
 	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
 
+<svelte:window bind:innerWidth />
+
 <div style=" margin:20px;">
 	<h1 style="text-align: center;">Who is behind 9takes and what is it?</h1>
 
 	<div>
-		<h2>Right now, just me, DJ</h2>
+		<div
+			style="display: flex; justify-content: center; align-items: center; gap: 2rem; {innerWidth <
+			500
+				? 'flex-direction: column;'
+				: ''}"
+		>
+			<div
+				class="profile-section"
+				role="img"
+				on:click={() => (showLaser = !showLaser)}
+				on:mouseenter={() => (showLaser = true)}
+				on:mouseleave={() => (showLaser = false)}
+				on:keydown={(e) => {
+					if (e?.key === 'Enter') showLaser = !showLaser;
+				}}
+			>
+				<picture
+					style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
+				>
+					{#if showLaser}
+						<source
+							style="display: {showLaser ? 'block' : 'none'};"
+							srcset="/brand/dj-lazer-eyes.webp, /brand/s-dj-lazer-eyes.webp"
+							media="(orientation: portrait)"
+						/>
+					{:else}
+						<source
+							style="display: {showLaser ? 'none' : 'block'};"
+							srcset="/brand/dj-profile-pic.webp, /brand/s-dj-profile-pic.webp"
+							media="(orientation: portrait)"
+						/>
+					{/if}
+					<img
+						style="display: {showLaser
+							? 'none'
+							: 'block'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
+						src="/brand/dj-lazer-eyes.webp"
+						alt="DJ Wayne fun profile picture"
+					/>
+					<img
+						style=" display: {showLaser
+							? 'block'
+							: 'none'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
+						src="/brand/s-dj-profile-pic.webp"
+						alt="DJ Wayne serious profile picture"
+					/>
+				</picture>
+				<div>
+					<p style="margin-bottom: 0;">
+						I am a software engineer at a YC-backed startup working on logistics. I am taking my
+						understanding of logistics and applying it to building a social community that I would
+						like to be part of.
+					</p>
+					<span>
+						<a
+							style="background: aliceblue; padding: .5rem; border-radius: 5px; margin: .2rem;"
+							target="_blank"
+							rel="noreferrer"
+							href="https://twitter.com/djwayne3"
+						>
+							<img loading="lazy" src={twitter} alt="djwayne3 Twitter" class="icon" />
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<h2>Why am I building 9takes?</h2>
+		<ul>
+			<li>people are divided</li>
+			<li>social media sucks</li>
+		</ul>
+		<h3 style="margin: 1.5rem 0">On social media sucking</h3>
+		<!-- <h1 style="text-decoration: underline; text-align: center">We need a redo on social media</h1> -->
 		<p>
-			I am an engineer at a YC-backed startup working on logistics. I am taking my understanding of
-			logistics and applying it to running a well-oiled social community. There are many moving
-			parts and tradeoffs that social media companies have to make. I think it is possible to
-			optimize for engagement and honesty while also making the 9takes platform safe and inclusive.
-			Social media today has made too many short-term decisions and has paved the way for what not
+			<b>The Lost Promise of Social Media:</b> There is no great place to get people's thoughts and opinions
+			anymore. Why? Because people are toxic and because there is too much at stake. If you make a statement,
+			5 trolls are waiting for you in the comments, ready to kill the conversation. It is too risky for
+			your brand, to be completely honest. All the people who like you for one reason might not like
+			you for another reason or in another context. We have lost the serendipity, playfulness , and the
+			realness that social media was supposed to bring us. That's why 9takes is here.
+		</p>
+		<p>
+			<b>The Complexities of Managing Social Media:</b> Now, social media companies have to deal with
+			and optimize many moving parts and tradeoffs. Running a social media company is more like running
+			a logistics company than a media company. Existing social media provided a rough draft, but it
+			is time for a redo.
+		</p>
+
+		<div style="color: purple; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
+			<span
+				>Optimize social media, don't police it and go after short-term cash like a dusty newspaper
+				editor
+			</span>
+			<br />
+			<span style="display: flex; justify-content: center;">🙅‍♂️ 💨</span>
+		</div>
+
+		<p>
+			It is possible to <b>optimize for engagement and honesty</b> while not sacrificing safety and inclusively.
+			Social media today has made too many short-term decisions and has paved the way for what is not
 			to do. See the video below:
 		</p>
 		<div style="display:flex; align-items: center; justify-content: center;">
@@ -41,18 +140,27 @@
 			/>
 		</div>
 
+		<h3 style="margin: 1.5rem 0">On people being divided</h3>
+
 		<p>
-			<a href="/blog/community/inspiration-for-9takes">
-				I got into personality because of my wife.
-			</a>
-			I was blown away by it, similar to how people are blown away by taking psychedelics. The problem
-			was when I tried to find a community to explore my personality further. There is more to it, but
-			that's why I am building 9takes. I would love to connect with you and hear about how you view personality
-			and hear any thoughts or suggestions you have for how to build a better social media platform.
-			DM me on
-			<a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/djwayne3">
-				Twitter/ X
-			</a>.
+			I got married at a stressful time when I was leaving the military. My wife and I had several
+			disagreements and were fighting, and it got to a point where we felt helpless. We loved each
+			other, but we could not understand each other. That is when
+			<a href="/blog/community/inspiration-for-9takes" style="font-size: 1.2rem;">
+				my wife convinced me to take a personality test</a
+			>. I was blown away. It told me things about myself that I had never put into words. It not
+			only helped me understand my spouse and find common ground, but, it was helping me understand
+			myself.
+		</p>
+		<p>
+			It felt like I had been living my life on auto pilot, and I finally got to peak into the
+			cockpit. I wanted to talk more about it and connect with others. I felt like people who do
+			psychedelics and want everyone to do psychedelics. The problem was finding other people to
+			explore personality further.
+		</p>
+		<p style="color: purple; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
+			If understanding my personality could help me, it could help others. And I have been using it
+			ever since
 		</p>
 	</div>
 	<h2>What is 9takes</h2>
@@ -133,36 +241,64 @@
 	</ul>
 	<p>
 		There are endless questions to ask. Fortunately, there are endless people with answers and
-		perspectives you can learn from. They also have questions like you and will share if you ask
-		them to. Some people see the world like you, and others see a vastly different world.
+		perspectives you can learn from. They also have questions like yours and will share if you ask
+		them. Some people see the world like you, and others see a vastly different world.
 	</p>
 	<p>
 		9takes is about embracing these differences or "takes" on the world. By asking questions,
 		sharing stories, and getting curious, people will be connected to the community around them.
 	</p>
 
-	<h3>Email me</h3>
-	<p>Got feedback or suggestions? Let me know!</p>
-	<p>
-		{#if !showEmail}
-			<button type="button" on:click={() => (showEmail = true)}>Show Email</button>
-		{/if}
-		{#if showEmail}
-			<ul>
-				<li><a href="mailto:dj@9takes.com">dj@9takes.com</a></li>
-				<li><a href="mailto:userSup@9takes.com">userSup@9takes.com</a></li>
-			</ul>
-		{/if}
-	</p>
+	<div class="email-section">
+		<h3>Email me</h3>
+		<p>Got feedback or suggestions? Let me know!</p>
+		<p>
+			{#if !showEmail}
+				<button type="button" class="btn btn-primary" on:click={() => (showEmail = true)}
+					>Show Email</button
+				>
+			{/if}
+			{#if showEmail}
+				<p><a href="mailto:dj@9takes.com">dj@9takes.com </a></p>
+				<p><a href="mailto:userSup@9takes.com">userSup@9takes.com </a></p>
+			{/if}
+		</p>
+	</div>
 </div>
 
-<div style="margin:2rem;">
+<!-- <div style="margin:2rem;">
 	{#if !data?.session?.user}
 		<EmailSignup cta={'Join Waitlist'} />
 	{/if}
-</div>
-
+</div> -->
 <style lang="scss">
+	.email-section {
+		text-align: center;
+		border: var(--classic-border);
+		padding: 2rem;
+		border-radius: 5px;
+	}
+	.profile-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.5rem;
+		background-image: linear-gradient(
+			to right,
+			black,
+			var(--color-theme-purple) 200px,
+			black 800px
+		);
+		border-radius: 10px;
+		color: white;
+		font-size: 1.3rem;
+
+		picture,
+		div {
+			width: 50%;
+		}
+	}
 	a {
 		color: #260958;
 		display: inline-flex;
@@ -178,6 +314,17 @@
 			width: 1em;
 			height: 1em;
 			background-size: 1em 1em;
+		}
+	}
+
+	@media all and (max-width: 576px) {
+		.profile-section {
+			flex-direction: column;
+
+			picture,
+			div {
+				width: 100%;
+			}
 		}
 	}
 </style>

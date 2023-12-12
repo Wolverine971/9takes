@@ -10,7 +10,7 @@
 		name="description"
 		content="Answering what is the purpose, inspiration, and who is behind 9takes"
 	/>
-	<link rel="canonical" href="https://9takes.com/about" />
+	<link rel="canonical" href="https://9takes.com/followme" />
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
 
