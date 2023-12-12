@@ -38,7 +38,9 @@
 	if (comment?.id) {
 		_commentComment = Object.assign({}, comment);
 	}
-	const createdAt = new Date(_commentComment.created_at).toLocaleDateString('en-US');
+	const createdOrModifiedAt = new Date(
+		_commentComment.modified_at || _commentComment.created_at
+	).toLocaleDateString('en-US');
 
 	const matchData = () => {
 		_commentComment = Object.assign({}, comment);
@@ -251,8 +253,13 @@
 				<hr class="rounded" />
 				<div style="display: flex; align-items: center; gap: 0.5rem;">
 					<div class="comment-meta">
-						<span style="min-width:30px"
-							><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
+						<span style="min-width:30px">
+							{#if _commentComment.modified_at}
+								<span style="color: #5407d9" title="modified">Modified</span>
+							{/if}
+							<time itemprop="dateCreated" datetime={createdOrModifiedAt}
+								>{createdOrModifiedAt}</time
+							>
 						</span>
 					</div>
 					<button
@@ -299,8 +306,11 @@
 			flex-direction: column; justify-content: space-between; align-items: flex-end;"
 			>
 				<div class="comment-meta">
-					<span style="min-width:30px"
-						><time itemprop="dateCreated" datetime={createdAt}>{createdAt}</time>
+					<span style="min-width:30px; display:flex; gap: .5rem">
+						{#if _commentComment.modified_at}
+							<span style="color: #5407d9" title="modified">M</span>
+						{/if}
+						<time itemprop="dateCreated" datetime={createdOrModifiedAt}>{createdOrModifiedAt}</time>
 					</span>
 				</div>
 				<div class="interaction-div-display">

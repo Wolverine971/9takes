@@ -44,19 +44,9 @@ export async function GET({ url, locals, cookies }) {
 			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select(
 				`
-		id
-		, created_at
-		, parent_id
-		, comment
-		, author_id
-		, ip
-		, comment_count
-		, parent_type
-		, es_id
-		, like_count
-		, fingerprint
-		, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-		`,
+					*
+					, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+				`,
 				{ count: 'exact' }
 			)
 			.eq('parent_id', parentId)
@@ -76,19 +66,9 @@ export async function GET({ url, locals, cookies }) {
 					.from(demo_time === true ? 'comments_demo' : 'comments')
 					.select(
 						`
-					id
-					, created_at
-					, parent_id
-					, comment
-					, author_id
-					, ip
-					, comment_count
-					, parent_type
-					, es_id
-					, like_count
-					, fingerprint
-					, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-					`,
+							*
+							, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+						`,
 						{ count: 'exact' }
 					)
 					.in('parent_id', questionCommentIds)
