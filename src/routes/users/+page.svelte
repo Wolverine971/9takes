@@ -1,16 +1,13 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import { convertDateToReadable } from '../../utils/conversions';
 
 	export let data: PageData;
 
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
-				const dateObj = new Date(s.created_at);
-				const month = dateObj.getUTCMonth() + 1; //months from 1-12
-				const day = dateObj.getUTCDate();
-				const year = dateObj.getUTCFullYear();
-				const newdate = month + '/' + day + '/' + year;
+				const newdate = convertDateToReadable(s.created_at);
 				return { ...s, createdAt: newdate };
 		  })
 		: [];

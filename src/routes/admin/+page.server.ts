@@ -21,19 +21,37 @@ export const load: PageServerLoad = async (event) => {
 		.single();
 
 	const { data: dailyVisitors, error: dailyVisitorsErrors } = await supabase.rpc(
-		'daily_visitors',
+		'visitors_last_30_days',
 		{}
 	);
 	if (dailyVisitorsErrors) {
 		console.log(dailyVisitorsErrors);
 	}
 
+	const { data: dailyComments, error: dailyCommentsErrors } = await supabase.rpc(
+		'comments_last_30_days',
+		{}
+	);
+	if (dailyCommentsErrors) {
+		console.log(dailyCommentsErrors);
+	}
+
+
+	const { data: dailyQuestions, error: dailyQuestionsErrors } = await supabase.rpc(
+		'daily_questions_stats',
+		{}
+	);
+	if (dailyQuestionsErrors) {
+		console.log(dailyQuestionsErrors);
+	}
+
+
 	if (!user?.admin) {
 		throw redirect(307, '/questions');
 	}
 
 	if (!findUserError) {
-		return { session, user: mapDemoValues(user), demoTime: demo_time, dailyVisitors };
+		return { session, user: mapDemoValues(user), demoTime: demo_time, dailyVisitors, dailyComments, dailyQuestions };
 	} else {
 		throw error(404, {
 			message: `Error searching for user`

@@ -48,7 +48,7 @@ export const load: PageServerLoad = async (
 			});
 		}
 
-		const { data: categories, error: categoriesErrors } = await supabase.rpc('getcategories');
+		const { data: categories, error: categoriesErrors } = await supabase.rpc('get_categories');
 
 		if (categoriesErrors) {
 			console.log(categoriesErrors);
