@@ -1,7 +1,5 @@
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
-
-// import type { PostgrestResponse } from '@supabase/supabase-js';
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
@@ -174,24 +172,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -270,25 +268,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						author_id: null,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -458,7 +456,7 @@ export const actions: Actions = {
 		}
 	},
 
-	linkClick: async ({ request }) => {
+	saveLinkClick: async ({ request }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const linkId = body.linkId as string;
@@ -471,12 +469,44 @@ export const actions: Actions = {
 					message: `Add comment error`
 				});
 			}
+			return true;
 		} catch (e) {
 			throw error(400, {
 				message: `error creating comment ${JSON.stringify(e)}`
 			});
 		}
 	},
+
+	flagComment: async ({ request, locals }) => {
+		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const comment_id = body.comment_id as string;
+			// const reason_id = body.reason_id as string;
+			const description = body.description as string;
+
+			const { error: flagCommentError } = await supabase
+				.from('flagged_comments')
+				.insert({ flagged_by: session?.user?.id, comment_id, description })
+
+			if (flagCommentError) {
+				throw error(404, {
+					message: `Flag comment error`
+				});
+			}
+		} catch (e) {
+			console.log(e);
+			throw error(400, {
+				message: `error flagging comment ${JSON.stringify(e)}`
+			});
+		}
+	},
+
 	updateQuestionImg: async (event) => {
 		const { request } = event;
 		const body = Object.fromEntries(await request.formData());

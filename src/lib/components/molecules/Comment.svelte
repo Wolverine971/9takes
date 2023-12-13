@@ -8,10 +8,12 @@
 	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
+	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
 
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import EditIcon from '../icons/editIcon.svelte';
 	import Modal2, { getModal } from '../atoms/Modal2.svelte';
+	import Popover from '../atoms/Popover.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let user: any;
@@ -28,8 +30,11 @@
 	let newcomment: string = '';
 	let _commentComment: any = null;
 	let commenting: boolean = false;
-	let anonymousComment = false;
-	let commentEdit = comment.comment;
+	let settingOpen: boolean = false;
+	let anonymousComment: boolean = false;
+	let commentEdit: string = comment.comment;
+	let flaggingReasonDescription: string = '';
+	let flaggingReasonId: string = '';
 
 	const lastDate = comment?.comments?.length
 		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
@@ -190,6 +195,32 @@
 		}
 		loading = false;
 	};
+
+	const submitFlag = async () => {
+		loading = true;
+
+		let body = new FormData();
+		body.append('description', flaggingReasonDescription);
+		body.append('comment_id', _commentComment.id);
+		body.append('reason_id', flaggingReasonId);
+
+		const resp = await fetch('?/flagComment', {
+			method: 'POST',
+			body
+		});
+
+		const result: any = deserialize(await resp.text());
+
+		if (result?.success) {
+			notifications.info('Comment Flagged', 3000);
+			flaggingReasonDescription = '';
+			getModal(`flag-comment-modal-${_commentComment.id}`).close();
+		} else {
+			notifications.danger('Error flagging comment', 3000);
+			console.log(result.error);
+		}
+		loading = false;
+	};
 </script>
 
 <svelte:window bind:innerWidth />
@@ -251,51 +282,77 @@
 			</div>
 			{#if innerWidth < 500}
 				<hr class="rounded" />
-				<div style="display: flex; align-items: center; gap: 0.5rem;">
-					<div class="comment-meta">
-						<span style="min-width:30px">
-							{#if _commentComment.modified_at}
-								<span style="color: #5407d9" title="modified">Modified</span>
+				<div style="display: flex; justify-content: space-between; align-items: center;">
+					<div style="display: flex; align-items: center; gap: 0.5rem;">
+						<button
+							title="Comment"
+							class=""
+							style="padding: 0.25rem; height: 45px;"
+							on:click={() => (commenting = !commenting)}
+						>
+							<MasterCommentIcon
+								iconStyle={'padding: 0.25rem;'}
+								height={'1.5rem'}
+								fill={'#5407d9'}
+								type={comment.length ? 'full' : 'empty'}
+							/>
+						</button>
+						<button
+							title="Like"
+							class=""
+							style="{'padding: 0.25rem; height: 45px;'} color: {likes &&
+								user?.id &&
+								likes.some((e) => e.user_id === user?.id) &&
+								'#5407d9'}"
+							on:click={likeComment}
+						>
+							{#if likes.length}
+								<span itemprop="upvoteCount">
+									{likes.length}
+								</span>
 							{/if}
-							<time itemprop="dateCreated" datetime={createdOrModifiedAt}
-								>{createdOrModifiedAt}</time
-							>
-						</span>
+							<ThumbsUpIcon
+								iconStyle={'padding: 0.25rem;'}
+								height={'1.5rem'}
+								fill={(likes &&
+									user?.id &&
+									likes.some((e) => e.user_id === user.id) &&
+									'#5407d9') ||
+									''}
+							/>
+						</button>
 					</div>
-					<button
-						title="Comment"
-						class=""
-						style="padding: 0.25rem; height: 45px;"
-						on:click={() => (commenting = !commenting)}
-					>
-						<MasterCommentIcon
+					<Popover>
+						<SettingsIcon
+							slot="icon"
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
 							fill={'#5407d9'}
-							type={comment.length ? 'full' : 'empty'}
 						/>
-					</button>
-					<button
-						title="Like"
-						class=""
-						style="{'padding: 0.25rem; height: 45px;'} color: {likes &&
-							user?.id &&
-							likes.some((e) => e.user_id === user?.id) &&
-							'#5407d9'}"
-						on:click={likeComment}
-					>
-						{#if likes.length}
-							<span itemprop="upvoteCount">
-								{likes.length}
-							</span>
-						{/if}
-						<ThumbsUpIcon
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
-								''}
-						/>
-					</button>
+
+						<div slot="popoverValue">
+							<div style="display: flex; flex-direction: column">
+								<div class="comment-meta">
+									<span style="min-width:30px; display:flex; gap: .5rem">
+										{#if _commentComment.modified_at}
+											<span style="color: #5407d9" title="modified">M</span>
+										{/if}
+										<time itemprop="dateCreated" datetime={createdOrModifiedAt}
+											>{createdOrModifiedAt}</time
+										>
+									</span>
+								</div>
+								<button
+									title="settings"
+									class="btn btn-primary"
+									style="padding: 0.25rem; height: 45px;"
+									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
+								>
+									Flag
+								</button>
+							</div>
+						</div>
+					</Popover>
 				</div>
 			{/if}
 		</div>
@@ -303,20 +360,12 @@
 		{#if innerWidth >= 500}
 			<div
 				style="display: flex;
-			flex-direction: column; justify-content: space-between; align-items: flex-end;"
+			flex-direction: column; justify-content: center; align-items: flex-end;"
 			>
-				<div class="comment-meta">
-					<span style="min-width:30px; display:flex; gap: .5rem">
-						{#if _commentComment.modified_at}
-							<span style="color: #5407d9" title="modified">M</span>
-						{/if}
-						<time itemprop="dateCreated" datetime={createdOrModifiedAt}>{createdOrModifiedAt}</time>
-					</span>
-				</div>
-				<div class="interaction-div-display">
+				<div style="display: flex; align-items: center;">
 					<button
 						title="Comment"
-						class=""
+						class="btn"
 						style="padding: 0.25rem;"
 						on:click={() => (commenting = !commenting)}
 					>
@@ -329,7 +378,7 @@
 					</button>
 					<button
 						title="Like"
-						class=""
+						class="btn"
 						style="{'padding: 0.25rem;'} color: {likes &&
 							user?.id &&
 							likes.some((e) => e.user_id === user?.id) &&
@@ -348,6 +397,35 @@
 								''}
 						/>
 					</button>
+					<Popover>
+						<SettingsIcon
+							slot="icon"
+							iconStyle={'padding: 0.25rem;'}
+							height={'1.5rem'}
+							fill={'#5407d9'}
+						/>
+
+						<div slot="popoverValue">
+							<div style="display: flex; flex-direction: column">
+								<span style="min-width:30px; display:flex; gap: .5rem">
+									{#if _commentComment.modified_at}
+										<span style="color: #5407d9" title="modified">M</span>
+									{/if}
+									<time itemprop="dateCreated" datetime={createdOrModifiedAt}
+										>{createdOrModifiedAt}</time
+									>
+								</span>
+								<button
+									title="settings"
+									class="btn btn-primary"
+									style="padding: 0.25rem; height: 45px;"
+									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
+								>
+									Flag
+								</button>
+							</div>
+						</div>
+					</Popover>
 				</div>
 			</div>
 		{/if}
@@ -412,6 +490,38 @@
 			}}
 		>
 			Save
+		</button>
+	</div>
+</Modal2>
+
+<Modal2 id={`flag-comment-modal-${_commentComment.id}`}>
+	<div style="max-height: 500px; min-width: 350px">
+		<h1>Flag Comment</h1>
+		{#if data?.flagReasons?.length < 1}
+			<p>Reason</p>
+
+			<select bind:value={flaggingReasonId}>
+				{#each data?.flagReasons as reason}
+					<option value={reason?.id}>{reason?.reason}</option>
+				{/each}
+				<!-- <option value="newest">Newest</option>
+			<option value="oldest">Oldest</option>
+			<option value="likes">Likes</option> -->
+			</select>
+		{/if}
+
+		<p>Description</p>
+		<textarea rows="5" bind:value={flaggingReasonDescription} />
+
+		<button
+			class="btn btn-primary save-btn"
+			type="button"
+			style="padding: 0.25rem; display: flex;"
+			on:click={async () => {
+				await submitFlag();
+			}}
+		>
+			Send
 		</button>
 	</div>
 </Modal2>

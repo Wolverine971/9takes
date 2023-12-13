@@ -1,18 +1,6 @@
-// import type { error, json } from 'src/schema';
-
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { checkDemoTime } from '../../utils/api';
-
-// import type { PostgrestResponse } from '@supabase/supabase-js';
-// import { getServerSession } from '@supabase/auth-helpers-sveltekit';
-// import type { Comments } from '$lib/components';
-// /** @type {import('./$types').RequestHandler} */
-// : Promise<Database.public.Tables.comments>
-
-// type GETResponse = Awaited<ReturnType<typeof GET>>;
-// export type MoviesResponseSuccess = GETResponse['data'];
-// export type MoviesResponseError = GETResponse['error'];
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET({ url, locals, cookies }) {

@@ -135,11 +135,11 @@
 		}
 	};
 
-	const saveClick = async (link: any) => {
+	const saveLinkClick = async (link: any) => {
 		let body = new FormData();
 		body.append('linkId', link.id);
 
-		const resp = await fetch('?/linkClick', {
+		const resp = await fetch('?/saveLinkClick', {
 			method: 'POST',
 			body
 		});
@@ -297,7 +297,7 @@
 				size={'large'}
 			/>
 
-			<Card style="border: none; min-height: 100vh;">
+			<Card style="border: none;">
 				{#if innerWidth > 575 && _data.comments.length >= 5 && selectedTab === 'comments'}
 					<h3
 						class=" {isFixed
@@ -339,19 +339,21 @@
 			</Card>
 		</div>
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
+			<h2>Visuals</h2>
 			<Card>
 				<p>nothing right now</p>
 			</Card>
 		</div>
 
 		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
+			<h2>Articles</h2>
 			<Card>
 				{#if data?.links?.length}
 					<ul>
 						{#each data?.links as link}
 							{#if link}
 								<li>
-									<a href={link.url} on:click={() => saveClick(link)}>{link.url}</a>
+									<a href={link.url} on:click={() => saveLinkClick(link)}>{link.url}</a>
 								</li>
 							{/if}
 						{/each}
@@ -416,7 +418,7 @@
 	}
 
 	.flexr {
-		flex: 1 0 100%;
+		// flex: 1 0 100%;
 		scroll-snap-align: center;
 		position: relative;
 	}
@@ -426,11 +428,6 @@
 		flex-flow: row wrap;
 	}
 
-	// :target {
-	// 	scroll-margin-top: 200px;
-	// }
-
-	/* Style the tab */
 	.tabs {
 		width: 100%;
 		overflow: hidden;
@@ -509,7 +506,7 @@
 
 	.slides {
 		display: flex;
-		overflow-x: auto;
+		flex-direction: column;
 		scroll-snap-type: x mandatory;
 		// scroll-padding: 30px 40px;
 		scroll-behavior: smooth;

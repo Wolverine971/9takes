@@ -156,7 +156,7 @@
 
 	.pos-rel {
 		position: relative;
-		overflow: hidden;
+		// overflow: hidden;
 	}
 
 	main > a {

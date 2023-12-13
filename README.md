@@ -39,6 +39,10 @@ Rate limit API when questions go live
 
 ### Design
 
+#### Font Awesome Icons
+
+[fontawesome](https://fontawesome.com/)
+
 #### Card Inspo, Thank you @Hyperplexed
 
 <https://www.youtube.com/watch?v=jMVhxBB3l0w>

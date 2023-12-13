@@ -80,7 +80,6 @@
 	}
 	a {
 		color: #260958;
-		display: inline-flex;
 		align-items: center;
 		overflow: hidden;
 

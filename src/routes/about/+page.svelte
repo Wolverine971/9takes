@@ -80,7 +80,7 @@
 					</p>
 					<span>
 						<a
-							style="background: aliceblue; padding: .5rem; border-radius: 5px; margin: .2rem;"
+							style="background: aliceblue; padding: .5rem; border-radius: 5px; margin: .2rem; display: inline-flex;"
 							target="_blank"
 							rel="noreferrer"
 							href="https://twitter.com/djwayne3"
@@ -301,7 +301,6 @@
 	}
 	a {
 		color: #260958;
-		display: inline-flex;
 		align-items: center;
 		overflow: hidden;
 
