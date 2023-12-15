@@ -250,7 +250,7 @@
 	}
 
 	.pop-card-overlay {
-		background: linear-gradient(
+		background-color: linear-gradient(
 			rgb(var(--primary-rgb), 0.15),
 			rgb(var(--primary-rgb), 0.15) 3px,
 			transparent 3px,

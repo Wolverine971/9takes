@@ -1,5 +1,6 @@
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
+
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
@@ -313,9 +314,7 @@ export const actions: Actions = {
 				message: `Add comment error`
 			});
 		} catch (e) {
-			throw error(400, {
-				message: `error creating comment ${JSON.stringify(e)}`
-			});
+			console.log(e);
 		}
 	},
 
@@ -492,7 +491,7 @@ export const actions: Actions = {
 
 			const { error: flagCommentError } = await supabase
 				.from('flagged_comments')
-				.insert({ flagged_by: session?.user?.id, comment_id, description })
+				.insert({ flagged_by: session?.user?.id, comment_id, description });
 
 			if (flagCommentError) {
 				throw error(404, {
@@ -567,7 +566,7 @@ const parseUrls = async (comment: string, questionId: string) => {
 	} else if (linkDomainUpdateSuccess.length === 0) {
 		const { data: linkDomainInsertSuccess, error: linkInsertDomainError } = await supabase
 			.from('link_domains')
-			.insert([{ domain, updated_at: new Date(), clicks: 0 }])
+			.insert([{ domain, updated_at: new Date() }])
 			.select();
 		if (linkInsertDomainError) {
 			throw new Error('failed to upload domain');

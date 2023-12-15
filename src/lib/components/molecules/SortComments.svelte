@@ -155,7 +155,6 @@
 	.details-display button:hover {
 		// background-color: var(--color-paladin-1);
 		border-radius: 5px;
-		border: 1px solid var(--color-theme-purple);
 	}
 
 	@media (max-width: 576px) {

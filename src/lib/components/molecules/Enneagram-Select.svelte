@@ -139,7 +139,7 @@
 
 	.menu-item,
 	.menu-open-button {
-		background: black;
+		background-color: black;
 		border-radius: 100%;
 		cursor: pointer;
 		width: 80px;
@@ -160,7 +160,7 @@
 	.hamburger {
 		width: 25px;
 		height: 3px;
-		background: var(--color-paladin-1, white);
+		background-color: var(--color-paladin-1, white);
 		display: block;
 		position: absolute;
 		top: 50%;
@@ -203,7 +203,7 @@
 	}
 
 	.menu-item:hover {
-		background: rgb(190, 38, 215);
+		background-color: rgb(190, 38, 215);
 		color: black;
 		border: 1px solid black;
 	}

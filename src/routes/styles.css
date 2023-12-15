@@ -167,7 +167,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	outline: 0.2rem solid slategrey;
+	outline: 0.2rem solid var(--color-paladin-2);
 	border-radius: 5px;
 }
 
@@ -184,7 +184,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .txt-dark {
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px var(--color-paladin-2);
 	text-shadow: 1px 1px 1px var(--color-theme-purple-v);
 	color: #52616b;
 	color: var(--color-paladin-3);
@@ -197,16 +197,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 details {
-	border-top: 2px solid grey;
+	border-top: 2px solid var(--color-paladin-2);
 	border-top: 2px solid var(--color-theme-purple-v);
 	border-right: 2px solid transparent;
 	border-bottom: 2px solid transparent;
-	border-left: 2px solid grey;
+	border-left: 2px solid var(--color-paladin-2);
 	border-left: 2px solid var(--color-theme-purple-v);
 }
 
 details:hover {
-	border: 2px solid grey;
+	border: 2px solid var(--color-paladin-2);
 	border: 2px solid var(--color-theme-purple-v);
 }
 
@@ -260,7 +260,7 @@ article {
 }
 
 .accordion:hover {
-	background-color: grey;
+	background-color: var(--color-paladin-2);
 	background-color: var(--color-theme-purple-v);
 	color: #000;
 	color: var(--color-theme-purple);

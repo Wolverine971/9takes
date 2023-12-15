@@ -18,7 +18,7 @@
 	{#if data?.ai_comments?.length}
 		<div>
 			{#each data.ai_comments as comment}
-				<Card style="margin: .5rem 0; border: 1px solid black">
+				<Card style="margin: .5rem 0; border: 1px solid black;">
 					<div
 						class="user-comment"
 						itemprop="suggestedAnswer acceptedAnswer"

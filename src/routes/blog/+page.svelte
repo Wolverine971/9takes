@@ -144,6 +144,6 @@
 		border-radius: 5px;
 	}
 	.view-btn:hover {
-		background-color: lightgrey;
+		background-color: var(--color-paladin-2);
 	}
 </style>

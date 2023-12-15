@@ -66,7 +66,7 @@ $gray: hsl(212deg 15% 48%);
 }
 
 body {
-	background: $dark-200;
+	background-color: $dark-200;
 	height: 100%;
 	line-height: 1.5;
 	color: #fff;
@@ -164,7 +164,7 @@ main::before {
 
 	&:hover {
 		text-decoration: none;
-		background-color: lightgrey;
+		background-color: var(--color-paladin-2);
 	}
 }
 
@@ -327,7 +327,7 @@ section {
 	padding: 0;
 }
 
-@media (width <= 800px) {
+@media (max-width: 800px) {
 	main {
 		padding: 1rem;
 	}
@@ -337,18 +337,21 @@ section {
 	}
 }
 
-@media all and (width <= 576px) {
+@media all and (max-width: 576px) {
 	main {
 		padding: 0.5rem;
 	}
 
 	section {
-		margin: 1rem 0;
-		padding: 1rem;
+		margin: 0.5rem 0;
+		padding: 0.2rem;
 	}
 
 	.fit-card {
 		padding: 0.5rem;
+	}
+	.comment-box {
+		padding-bottom: 0 !important;
 	}
 }
 

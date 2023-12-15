@@ -53,10 +53,9 @@
 	}
 
 	.popover {
-		background: #fff;
 		border-radius: 5px;
 		padding: 1rem;
-		background-color: var(--color-paladin-2);
+		background-color: #f4f4ef;
 		border: var(--classic-border);
 		width: min-content;
 		position: absolute;

@@ -297,7 +297,7 @@
 				size={'large'}
 			/>
 
-			<Card style="border: none;">
+			<Card className="comments-card">
 				{#if innerWidth > 575 && _data.comments.length >= 5 && selectedTab === 'comments'}
 					<h3
 						class=" {isFixed
@@ -367,6 +367,9 @@
 </div>
 
 <style lang="scss">
+	.comments-card {
+		border: none;
+	}
 	.vertical-display {
 		text-combine-upright: all;
 		writing-mode: vertical-lr;
@@ -490,6 +493,9 @@
 		.helper-suggestion {
 			font-size: 2rem;
 		}
+		.comments-card {
+			padding: 0.2rem !important;
+		}
 	}
 
 	@supports (scroll-snap-type) {
@@ -522,7 +528,7 @@
 	}
 
 	.slides::-webkit-scrollbar-thumb {
-		background: black;
+		background-color: black;
 		border-radius: 10px;
 	}
 

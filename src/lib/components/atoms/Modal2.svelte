@@ -104,7 +104,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: var(--color-paladin-4) 8;
+		background-color: var(--color-paladin-2) 8;
 		display: flex;
 		align-items: center;
 		z-index: 23425343;
@@ -113,7 +113,7 @@
 	#modal {
 		position: relative;
 		border-radius: 6px;
-		background: var(--color-paladin-1, white);
+		background-color: white;
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;

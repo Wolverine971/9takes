@@ -149,7 +149,7 @@
 <div class="interaction-div-display">
 	<button
 		title="Comment"
-		class=""
+		class="corner-btn"
 		style="padding: 0.25rem; {parentType === 'question' ? 'width: 8rem;' : ''}"
 		on:click={() => (commenting = !commenting)}
 	>
@@ -286,8 +286,7 @@ interface QuestionObject {
 </form> -->
 <style lang="scss">
 	.corner-btn {
-		background: transparent;
-		border: none;
+		background-color: transparent;
 		cursor: pointer;
 		display: flex;
 		align-items: center;
@@ -297,7 +296,7 @@ interface QuestionObject {
 		padding: 0.25rem;
 
 		&:hover {
-			background: var(--color-paladin-1);
+			background-color: var(--color-paladin-2);
 		}
 	}
 </style>

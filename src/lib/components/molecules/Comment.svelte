@@ -225,7 +225,7 @@
 
 <svelte:window bind:innerWidth />
 
-<Card style="margin: .5rem 0; border: 1px solid black">
+<Card style="margin: .3rem 0; border: 1px solid black; padding: .2rem">
 	<div
 		class="user-comment"
 		itemprop="suggestedAnswer acceptedAnswer"
@@ -281,7 +281,6 @@
 				{/if}
 			</div>
 			{#if innerWidth < 500}
-				<hr class="rounded" />
 				<div style="display: flex; justify-content: space-between; align-items: center;">
 					<div style="display: flex; align-items: center; gap: 0.5rem;">
 						<button
@@ -348,7 +347,7 @@
 									style="padding: 0.25rem; height: 45px;"
 									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
 								>
-									Flag
+									Flag Comment
 								</button>
 							</div>
 						</div>
@@ -421,7 +420,7 @@
 									style="padding: 0.25rem; height: 45px;"
 									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
 								>
-									Flag
+									Flag Comment
 								</button>
 							</div>
 						</div>

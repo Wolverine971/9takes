@@ -434,16 +434,6 @@
 		margin: 0;
 	}
 
-	/* Main content styles */
-
-	section {
-		flex-basis: calc(50% - 20px);
-		margin-bottom: 20px;
-		padding: 10px;
-		box-sizing: border-box;
-		margin: auto;
-	}
-
 	/* Media queries */
 
 	@media (max-width: 1000px) {
@@ -454,19 +444,8 @@
 			min-width: 200px;
 		}
 	}
-	@media (max-width: 768px) {
-		// main section {
-		// 	flex-basis: calc(100% - 20px);
-		// }
 
-		/* .big-points {
-			min-width: 300px;
-		} */
-	}
 	@media (max-width: 480px) {
-		// main section {
-		// 	flex-basis: 100%;
-		// }
 		.main-description {
 			min-width: auto;
 		}

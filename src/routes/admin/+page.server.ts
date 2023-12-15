@@ -1,5 +1,6 @@
-import { supabase } from '$lib/supabase';
 import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+import { supabase } from '$lib/supabase';
+
 import type { PageServerLoad } from './$types';
 import { error, redirect, type Actions } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
@@ -36,7 +37,6 @@ export const load: PageServerLoad = async (event) => {
 		console.log(dailyCommentsErrors);
 	}
 
-
 	const { data: dailyQuestions, error: dailyQuestionsErrors } = await supabase.rpc(
 		'daily_questions_stats',
 		{}
@@ -45,13 +45,19 @@ export const load: PageServerLoad = async (event) => {
 		console.log(dailyQuestionsErrors);
 	}
 
-
 	if (!user?.admin) {
 		throw redirect(307, '/questions');
 	}
 
 	if (!findUserError) {
-		return { session, user: mapDemoValues(user), demoTime: demo_time, dailyVisitors, dailyComments, dailyQuestions };
+		return {
+			session,
+			user: mapDemoValues(user),
+			demoTime: demo_time,
+			dailyVisitors,
+			dailyComments,
+			dailyQuestions
+		};
 	} else {
 		throw error(404, {
 			message: `Error searching for user`
