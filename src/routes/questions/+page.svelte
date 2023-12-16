@@ -1,4 +1,3 @@
-<!-- // Get all questions -->
 <script lang="ts">
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 
@@ -18,14 +17,20 @@
 	export let data: PageData;
 
 	const questionUrls: any = {};
+	const questionCategories: any = {};
 
 	const categories = data.questionsAndTags?.reduce((acc: any, curr: any) => {
-		if (!questionUrls[curr.questions.url]) {
-			const key = curr.question_tag.tag_name;
+		if (!questionUrls[curr.url]) {
+			const key = curr.tag_name;
+			const subcategoryId = curr.subcategory_id;
+			questionCategories[subcategoryId] =
+				questionCategories[subcategoryId] && questionCategories[subcategoryId].length
+					? [...questionCategories[subcategoryId], curr]
+					: [curr];
 
 			acc[key] = acc[key] || [];
 			acc[key].push(curr);
-			questionUrls[curr.questions.url] = 1;
+			questionUrls[curr.url] = 1;
 		}
 
 		return acc;
@@ -57,7 +62,7 @@
 
 <div>
 	<h1 style="display: flex; justify-content: space-between; align-content: center">
-		<span>{data?.session?.user?.id ? 'Search and ask questions' : 'Search Questions'} </span>
+		<span>{data?.session?.user?.id ? 'Search or ask a question' : 'Search Questions'} </span>
 		{#if !data?.session?.user?.id}
 			<button
 				class="btn btn-primary"
@@ -98,10 +103,7 @@
 					<h3 id={category.tag_name}>{category.tag_name}</h3>
 					<div>
 						{#each categories[category.tag_name] as questionData}
-							<QuestionItem
-								questionData={questionData.questions}
-								on:questionRemoved={() => invalidateAll()}
-							/>
+							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
 					</div>
 				</div>

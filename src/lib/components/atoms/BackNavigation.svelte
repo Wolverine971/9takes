@@ -16,10 +16,19 @@
 
 	const displayRoute = async () => {
 		if ($page.route.id) {
-			const tempSteps = $page.route.id.split('/').filter((x) => !!x && x !== 'users');
+			const tempSteps = $page.route.id.split('/').filter((x) => {
+				if (!!x) {
+					if (x === 'users') {
+						if ($page.route.id?.includes('/admin')) {
+							return true;
+						}
+						return false;
+					}
+					return true;
+				}
+				return false;
+			});
 
-			// .shift();
-			// tempSteps.pop();
 			if (tempSteps) {
 				const tempNavSteps = tempSteps.map((step, i) => {
 					let url = getHref(i + 1, tempSteps);

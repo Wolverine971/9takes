@@ -27,6 +27,8 @@ export const load: PageServerLoad = async (event) => {
 		if (!tags) {
 			return {
 				subcategoryTags: [],
+				allTags: [],
+				questionSubcategories: [],
 				questionsAndTags: []
 			};
 		}
@@ -42,36 +44,54 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-		const { data: questionsAndTags, error: findQuestionsError } = await supabase
-			.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-			.select(`${demo_time === true ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
-				count: 'estimated'
-			})
-			.in('tag_id', tags);
+
+		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
+			'get_10_question_tags',
+			{}
+		);
 
 		if (findQuestionsError) {
 			console.log(findQuestionsError);
+		}
+
+		const { data: allTags, error: allTagsError } = await supabase
+			.from('question_tag')
+			.select(`*, question_subcategories(*, question_subcategories(*))`)
+
+
+		if (allTagsError) {
+			console.log(allTagsError);
+		}
+
+		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
+			.from('question_subcategories')
+			.select(`*, question_subcategories(*, question_subcategories(*))`)
+
+
+		if (questionSubcategoriesError) {
+			console.log(questionSubcategoriesError);
 		}
 
 		if (demo_time === true) {
 			return {
 				session,
 				subcategoryTags,
-				questionsAndTags: mapDemoValues(questionsAndTags)
+				allTags,
+				questionSubcategories,
+				questionsAndTags: mapDemoValues(questionsAndTags).filter((q) => {
+					return !q.removed;
+				})
 			};
 		}
 		return {
-			// questions: questionsAndTags.questions,
-			// tags: questionsAndTags.question_tag,
 			session,
 			subcategoryTags,
+			allTags,
+			questionSubcategories,
 			questionsAndTags: (questionsAndTags || []).filter((q) => {
-				return !q.questions.removed;
+				return !q.removed;
 			})
 
-			// categories: subcategories,
-			// hiearchy: completeHiearchy,
-			// count
 		};
 	} catch (e) {
 		console.log(e);
@@ -148,8 +168,7 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-						!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
