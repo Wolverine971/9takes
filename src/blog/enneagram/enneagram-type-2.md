@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -119,6 +119,22 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 2's Childhood</h2>
+
+- **Childhood Stereotype**: Commonly nurtured in caring environments but felt that love was conditional on their helpfulness. They might have had a family member who needed extra care, placing the child in a caregiver role early on.
+- **Childhood Wound**: Developed a belief that their worth was tied to their ability to care for others, often neglecting their own needs and desires.
+- **Developmental Aspects**:
+  - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
+  - May have received praise and acknowledgment primarily when supporting or nurturing others.
+- **Typical Behaviors**: Always ready to help, often putting others' needs before their own. May have taken on roles like mediator or caretaker within the family.
+- **Thoughts and Feelings**: Felt a sense of belonging and value when helping others but simultaneously a deep longing for unconditional love and acceptance for themselves.
+- **View on Childhood**: Often fondly remember moments of connection and care but may also feel a sense of loss for not being seen or valued for their individuality. They might wish they had been encouraged to prioritize their own needs and desires.
+
+</article>
+
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 2 in relationships</h2>
 
 Type 2 personalities are highly social and enjoy connecting with others. They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections and thrive in social settings.
@@ -199,7 +215,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

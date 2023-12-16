@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -124,6 +124,21 @@ Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonio
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 3's Childhood</h2>
+
+- **Childhood Stereotype**: Raised in settings where achievements and external success were highly valued. Family or societal expectations often centered around visible accomplishments.
+- **Childhood Wound**: Internalized the idea that love and acceptance were contingent on their successes and achievements.
+- **Developmental Aspects**:
+  - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
+  - Often received more attention and praise for what they did rather than who they were.
+- **Typical Behaviors**: Highly driven, often overachievers, striving to be the best in their pursuits. They may have taken on leadership roles in school or extracurricular activities.
+- **Thoughts and Feelings**: Felt a constant drive to achieve and be recognized, often equating success with self-worth. They may have struggled with the fear of failure and the need for approval.
+- **View on Childhood**: Likely views their early years as a foundation for their ambition and success. However, there may be a sense of loss for not experiencing a more balanced childhood, where they could be valued for themselves rather than their accomplishments.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 3 in relationships</h2>
 
 In relationships, Enneagram Type 3 individuals often seek partners who can appreciate and support their ambitious nature. They are attracted to those who can help them achieve their goals and give them the recognition they crave.
@@ -214,7 +229,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

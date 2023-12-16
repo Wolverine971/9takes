@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -129,6 +129,21 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 9's Childhood</h2>
+
+- **Childhood Stereotype**: Grew up in environments where they felt their presence was overlooked or that they needed to maintain peace and harmony.
+- **Childhood Wound**: Often felt neglected or that their opinions and presence didn't matter, leading to a tendency to blend in or go along with others. Developed a coping mechanism of minimizing their own desires and prioritizing the peace and comfort of those around them.
+- **Developmental Aspects**:
+  - May have been surrounded by strong personalities or conflict, leading them to take on a mediating role.
+  - Found comfort in routine, familiar environments, and activities.
+- **Typical Behaviors**: Avoided conflict, often appeared complacent or agreeable, and had a chameleon-like ability to blend into different social groups.
+- **Thoughts and Feelings**: A deep desire for inner and outer peace, often at the cost of neglecting their own needs and aspirations.
+- **View on Childhood**: Reflects on it as a period of comfort but also recognizes a pattern of self-neglect and a struggle to assert their own identity and desires.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 9 in relationships</h2>
 
 In relationships, Enneagram Type 9 individuals tend to be supportive and accommodating, valuing harmony and peace above all else. They often put their partner's needs before their own and may struggle with asserting their desires or opinions. They are typically warm and empathetic, and their desire to maintain a sense of connection and avoid conflict can make them excellent listeners and mediators.
@@ -208,7 +223,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 9",

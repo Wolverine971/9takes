@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -117,6 +117,21 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 7's Childhood</h2>
+
+- **Childhood Stereotype**: Often experienced childhoods where they felt trapped or deprived, leading them to seek happiness and fulfillment in external experiences and adventures.
+- **Childhood Wound**: Faced situations where their needs (emotional or physical) were not adequately met, leading to a sense of missing out. Developed an adaptive strategy of seeking pleasure and avoiding pain, often through imaginative and future-oriented thinking.
+- **Developmental Aspects**:
+  - May have experienced family environments where negative emotions or problems were glossed over or ignored.
+  - Sought escape through engaging in a variety of activities, hobbies, and friendships.
+- **Typical Behaviors**: Often the class clown or the adventurer or most talkative, always planning or engaging in new experiences.
+- **Thoughts and Feelings**: A deep-seated fear of missing out and a desire to maintain personal freedom and happiness.
+- **View on Childhood**: Remembers it as a time of adventure and exploration but may acknowledge a pattern of escapism and surface-level engagements.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 7 in relationships</h2>
 
 Type 7s can be fun-loving, adventurous, and passionate partners in relationships. They often have a natural charm and enthusiasm that can be very attractive to others. They enjoy trying new things and exploring the world together with their partner.
@@ -191,7 +206,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

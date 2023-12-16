@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -125,6 +125,23 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 1's Childhood</h2>
+
+- **Childhood Stereotype**: Often raised in households where precision and order were highly valued. Parents or guardians may have been strict, emphasizing moral and ethical standards.
+- **Childhood Wound**: Faced criticism or punishment for minor mistakes, leading to a deep-seated fear of making errors. This experience fostered an internal critic that constantly pushed for perfection.
+- **Developmental Aspects**:
+  - High expectations from family and teachers, with a focus on discipline and responsibility.
+  - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
+- **Typical Behaviors**: Sought to be model students or children, diligently following rules and guidelines. Often took on adult responsibilities early.
+- **Thoughts and Feelings**: Battled with feelings of inadequacy and a relentless drive to improve. May have felt emotionally restrained, suppressing feelings to maintain control.
+- **View on Childhood**: Likely views their upbringing as disciplined and structured, possibly lamenting the lack of spontaneity and freedom to make mistakes. Proud of their resilience but may wish for more emotional warmth and acceptance in their early years.
+
+</article>
+
+
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 1 in relationships</h2>
 
 Type 1 personalities have high expectations for themselves and their partners. They strive for perfection in all areas of their lives, including relationships. If you're in a relationship with a Type 1, here are a few things to keep in mind:
@@ -211,7 +228,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",

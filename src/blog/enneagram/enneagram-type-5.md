@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -130,6 +130,21 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 5's Childhood</h2>
+
+- **Childhood Stereotype**: Often grew up in environments where they felt their personal space and boundaries were not respected, leading to a deep need for privacy and autonomy.
+- **Childhood Wound**: Experienced an intense sense of intrusion or not being allowed their own space, whether emotionally or physically. May have developed a coping mechanism of retreating into their mind, finding solace in knowledge and independence.
+- **Developmental Aspects**:
+  - Exposure to overwhelming adult issues or expectations at a young age.
+  - Found comfort in solitary activities, like reading, puzzles, or exploring nature.
+- **Typical Behaviors**: Preferred observing rather than participating, developed early expertise in niche subjects.
+- **Thoughts and Feelings**: Felt safest in their world of thoughts and theories, often felt misunderstood or alienated by their peers.
+- **View on Childhood**: May reminisce about the freedom of exploration and learning but also recognize a sense of emotional isolation and a longing for deeper connections they might have missed.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 5 in relationships</h2>
 
 In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also tend to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
@@ -208,7 +223,7 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

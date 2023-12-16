@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -109,6 +109,21 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 8's Childhood</h2>
+
+- **Childhood Stereotype**: Raised in environments where they felt they had to be strong and assertive to protect themselves or others.
+- **Childhood Wound**: Encountered situations where they felt vulnerable or powerless, leading to a focus on building strength and control. Developed a protective shell to shield their vulnerability, often by asserting dominance or independence.
+- **Developmental Aspects**:
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+- **Typical Behaviors**: Natural leaders, often took charge in group settings, not afraid to challenge authority.
+- **Thoughts and Feelings**: Strong sense of justice and protection, often masking a deep sensitivity and fear of being controlled or harmed.
+- **View on Childhood**: Often views it as a formative period where they learned to be self-reliant and strong but may regret not being able to show vulnerability or experience carefree dependence.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 8 in relationships</h2>
 
 Enneagram Type 8 individuals can be complex partners in relationships. On one hand, they are fiercely loyal and protective of those they care about and can be generous and supportive. They are also direct in their communication, which can be refreshing for some partners.
@@ -199,7 +214,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -110,6 +110,21 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 <article class="section-content">
 
+<h2>🧸 An Enneagram 6's Childhood</h2>
+
+- **Childhood Stereotype**: Grew up in environments where they felt a constant undercurrent of fear or instability, leading to an ingrained sense of vigilance and loyalty.
+- **Childhood Wound**: Experiences of unpredictability or betrayal, which could be as subtle as mixed messages from caregivers or as overt as family upheaval. Developed a keen sense for risks and threats as a way to feel safer.
+- **Developmental Aspects**:
+  - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
+  - Found security in routines, rules, or structured environments.
+- **Typical Behaviors**: Often the “worrier” or the “responsible one” in their family or friend groups.
+- **Thoughts and Feelings**: A constant search for security and stability, often battling internal anxieties and doubts.
+- **View on Childhood**: Reflects on the protective aspects of their cautious nature but may yearn for the carefree experiences they missed due to their anxieties and fears.
+
+</article>
+
+<article class="section-content">
+
 <h2>👫 An Enneagram 6 in relationships</h2>
 
 - Loyal and Committed: Type 6s value stability and security and often prioritize their relationships. They are typically loyal and committed partners prioritizing their loved ones' needs and well-being.
@@ -210,7 +225,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

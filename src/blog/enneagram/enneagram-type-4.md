@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2023-12-07'
+lastmod: '2023-12-16'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -72,6 +72,21 @@ Individualists can be moody and withdrawn, making forming and maintaining relati
 <div>
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
+
+<article class="section-content">
+
+<h2>🧸 An Enneagram 4's Childhood</h2>
+
+- **Childhood Stereotype**: Often felt a sense of alienation or difference from their family or peers. This could be due to a unique family situation, emotional sensitivity, or simply feeling out of place.
+- **Childhood Wound**: Experienced feelings of abandonment, neglect, or significant misunderstanding, leading to a sense of being fundamentally different.
+- **Developmental Aspects**:
+  - May have felt like an outsider in their own family, struggling to find a place where they truly belonged.
+  - Highly attuned to their emotional environment, often feeling misunderstood or overlooked.
+- **Typical Behaviors**: Sought out unique or creative outlets for expression. They may have had a rich inner life, often feeling melancholic or different from others.
+- **Thoughts and Feelings**: Intensely emotional, they may have experienced a profound sense of longing or unfulfilled desire, feeling a deep connection to the beauty and pain in the world.
+- **View on Childhood**: Often romanticized as a period of deep emotional experiences but also marred by feelings of alienation.
+
+</article>
 
 <article class="section-content">
 
@@ -204,7 +219,7 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-07",
+      "dateModified": "2023-12-16",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
