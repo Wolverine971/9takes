@@ -34,7 +34,7 @@ pic: 'greek-sculpture-on-a-laptop'
  <PopCard
 		image={`/blogs/greek-sculpture-on-a-laptop.webp`}
 		showIcon={false}
-		tint={true}
+		tint={false}
 		displayText=""
 		altText="scenic view of a person working on a computer in the jungle"
 		subtext=""

@@ -32,7 +32,7 @@ pic: 'greek-statue-yeah-boi'
         showIcon={false}
         displayText=""
         altText="Greek statues being happy"
-        tint={true}
+        tint={false}
         subtext="Thanks for the compliment."
     />
 </div>
@@ -121,7 +121,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
         showIcon={false}
         displayText=""
         altText="Greek statues being happy again"
-        tint={true}
+        tint={false}
         subtext="wow! you make me feel so good about myself"
     />
 </div>
@@ -241,7 +241,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
         showIcon={false}
         displayText=""
         altText="happy greek statues"
-        tint={true}
+        tint={false}
         subtext="Bring it in. You are my friend now."
     />
 </div>

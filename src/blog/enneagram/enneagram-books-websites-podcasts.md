@@ -28,7 +28,7 @@ pic: 'greek-statue-listening-to-a-podcast'
 		showIcon={false}
 		displayText=""
     altText="a greek statue listening to a podcast"
-    tint={true}
+    tint={false}
 		subtext=""
 	/>
 </div>

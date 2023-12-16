@@ -32,7 +32,7 @@ margin: 1rem 0;"
  <PopCard
 		image={`/blogs/husband-and-wife.webp`}
 		showIcon={false}
-		tint={true}
+		tint={false}
 		displayText=""
 		altText="My wife and I arguing 💑"
 		subtext=""

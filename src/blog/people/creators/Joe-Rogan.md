@@ -4,7 +4,7 @@ description: 'Why Joe Rogan appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-07-26'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Joe-Rogan'
-lastmod: '2023-07-26'
+lastmod: '2023-12-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,13 +17,19 @@ instagram: 'https://www.instagram.com/joerogan'
 tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 ---
 
-<!-- notes: bring up wife, podcast, net worth, height, age, spotify, fear factor, ufc, dana white, "joe rogan with family" -->
+<!-- notes: bring up wife, podcast, net worth, height, age, spotify, fear factor, ufc, dana white, "joe rogan with family"
+
+new notes:
+family
+house
+
+ -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've heard his voice, experienced his charisma, and possibly, formed an opinion about him. Joe Rogan, the host of one of the most popular podcasts in the world, is an influential figure who's hard to ignore. Today, we embark on an exploratory journey, proposing Rogan as a classic example of Enneagram Type 8 - The Challenger.</p>
+<p class="firstLetter">You've heard his voice, experienced his charisma or lack there of, and possibly, formed an opinion about him. Joe Rogan, is hard to ignore. Today, we going to look at his personality and give you some reasons why he might be an Enneagram Type 8 - The Challenger.</p>
 
 <div
   style="display: flex;
@@ -62,15 +68,22 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 
 ### Joe Rogan is an Enneagram Type 8
 
-Type 8s, known as The Challengers, are characterized by their desire to assert dominance and control their environment. They are natural leaders characterized by self-confidence, resilience, and a direct approach to life. This type is known for their strength, and they tend to confront life head-on, fearlessly facing any challenge that comes their way.
+Type 8s, known as The Challengers, are characterized by their desire to assert dominance and control their environment. They seek to protect themselves by gathering strength. This strength can be in the form of physical strength, wealth, power, or even wisdom. They do because somewhere back in their childhood they received the message that it was not ok to be weak. Often 8s can remember a time when they were vulnerable and they were taken advantage of. So the typical 8s coping mechanism is to armor up and remove any perceived vulnerabilities they might have.
 
-The assertive Rogan epitomizes this type. His long-standing career, from stand-up comedian to UFC commentator, Fear Factor host, and now, the head of a multi-million dollar podcast deal with Spotify, reflects a relentless drive quintessential to Type 8s.
+They are natural leaders characterized by self-confidence, resilience, and a direct approach to life. 8s have been known to unintentionally intimidate others. They also tend to confront life head-on and are always up to a challenge. Fear is not a factor for 8s 😉.
+
+Rogan epitomizes this type. He has had multiple careers, from stand-up comedian to UFC commentator, Fear Factor host, and also host of the most popular podcast in the world, the joe rogan experience. Most people do not attempt to do half the things Joe has done. But Joe likes a challenge. Joe is an 8 and he knows that every challenge he faces only makes him stronger.
 
 ## The Case for Joe Rogan as a Type 8
 
 ### Assertiveness and Directness
 
-Rogan's assertiveness and directness in communication make him a quintessential Type 8. Rogan does not mince words when discussing complex issues with guests on his podcast, The Joe Rogan Experience, or exchanging barbs with Dana White in a UFC commentary. This outspoken nature is a crucial feature of the Type 8 personality.
+Rogan's assertiveness and directness in communication. Outside commentators when they talk about Rogan's podcast marvel at how nonchalant and unrefined he is. Joe is able to talk this way because he is not hiding anything. He approaches life with a brash honesty that he uses to remove get to the root of the matter. He does not mince words when discussing complex issues with guests even guests like <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk</a>. This openness to life born out of a feeling of being untouchable creates a sense of comfort and help people relax and be honest on his podcast, as seen in the iconic moment where he gets Elon to smoke a joint.
+
+<!-- smoke a joint clip -->
+
+
+ <!-- or exchanging barbs with Dana White in a UFC commentary. This outspoken nature is a crucial feature of the Type 8 personality. -->
 
 ### Defying Conventions
 
@@ -151,7 +164,7 @@ If this resonates with you, we invite you to explore more articles like this one
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-07-26"
+        "@value": "2023-12-16"
       },
       "datePublished": {
         "@type": "Date",

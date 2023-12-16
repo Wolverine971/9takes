@@ -17,6 +17,8 @@ instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
 
+<!-- redo -->
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

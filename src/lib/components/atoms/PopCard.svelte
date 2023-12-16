@@ -157,10 +157,11 @@
 		loading="lazy"
 		sizes="(max-width: 560px) 218px, 560px"
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
-			showDescription &&
-			enneagramType &&
-			'tint'}"
-		style={showDescription ? 'opacity: .1 !important;' : ''}
+		showDescription &&
+		enneagramType
+			? 'tint'
+			: ''}"
+		style={showDescription && tint ? 'opacity: .1 !important;' : ''}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>

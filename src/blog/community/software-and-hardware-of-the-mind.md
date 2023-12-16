@@ -28,7 +28,7 @@ margin: 1rem 0;"
  <PopCard
         image={`/blogs/greek-mind.webp`}
         showIcon={false}
-        tint={true}
+        tint={false}
         displayText=""
         altText="greek mind 🧠"
         subtext=""

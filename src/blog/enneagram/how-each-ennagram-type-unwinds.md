@@ -31,6 +31,7 @@ pic: 'greek-statues-at-the-beach'
     <PopCard
         image={`/blogs/greek-statues-at-the-beach.webp`}
         showIcon={false}
+        tint={false}
         altText="Greek statues at the beach"
         subtext=""
     />

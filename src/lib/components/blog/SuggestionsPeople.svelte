@@ -97,6 +97,16 @@
 		border-radius: 5px;
 	}
 
+	.grid-img:hover {
+		filter: blur(2px) !important;
+	}
+
+	.grid-item:hover {
+		h3 {
+			transform: scale(1.1);
+		}
+	}
+
 	.small-h3 {
 		// color: #262626;
 		font-size: 17px;
@@ -104,6 +114,11 @@
 		font-weight: 700;
 		margin-bottom: 4px;
 		text-wrap: balance;
+	}
+
+	.fit-card {
+		filter: none !important;
+		pointer-events: none;
 	}
 
 	p {

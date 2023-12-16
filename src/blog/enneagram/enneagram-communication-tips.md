@@ -33,7 +33,7 @@ pic: 'greek-statues-arguing'
     	showIcon={false}
     	altText="greek statues arguing"
       displayText=""
-    	tint={true}
+    	tint={false}
       aspectRatio={'1'}
     	subtext=""
     />

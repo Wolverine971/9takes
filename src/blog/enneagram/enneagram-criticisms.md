@@ -37,7 +37,7 @@ Enneagram Criticisms (200 words)
     	showIcon={false}
     	altText="greek statues disagreeing"
       displayText=""
-    	tint={true}
+    	tint={false}
     	subtext=""
     />
 </div>

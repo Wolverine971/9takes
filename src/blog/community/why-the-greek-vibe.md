@@ -30,7 +30,7 @@ margin: 1rem 0;"
  <PopCard
 		image={`/blogs/neoclassical-metropolis.webp`}
 		showIcon={false}
-		tint={true}
+		tint={false}
 		displayText=""
 		altText="neoclassical metropolis"
 		subtext=""

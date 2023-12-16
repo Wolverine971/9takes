@@ -32,7 +32,7 @@ pic: 'feeling-stressed'
     showIcon={false}
     displayText=""
     altText="two people feeling stressed"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>

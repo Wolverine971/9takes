@@ -33,7 +33,7 @@ pic: 'greek-statues-two-females-on-phones'
     showIcon={false}
     displayText=""
     altText="two Greek statues figuring out their Enneagram type"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>

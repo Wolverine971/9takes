@@ -30,7 +30,7 @@ pic: 'greek-statue-being-ghosted'
 		showIcon={false}
 		displayText=""
     altText="a person being ghosted"
-    tint={true}
+    tint={false}
 		subtext=""
 	/>
 </div>
@@ -118,7 +118,7 @@ that they are worthy of love and respect.
 		showIcon={false}
 		displayText=""
     altText="a girl statue being ghosted"
-    tint={true}
+    tint={false}
 		subtext=""
 	/>
 </div>
@@ -202,7 +202,7 @@ of love and respect.
 		showIcon={false}
 		displayText=""
     altText="a girl statue being ghosted"
-    tint={true}
+    tint={false}
 		subtext=""
 	/>
 </div>

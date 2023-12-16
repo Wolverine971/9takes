@@ -33,7 +33,7 @@ pic: 'greek-statues-on-a-first-date'
       showIcon={false}
       displayText=""
     altText="Greek statues on a first date"
-    tint={true}
+    tint={false}
       subtext=""
    />
 </div>

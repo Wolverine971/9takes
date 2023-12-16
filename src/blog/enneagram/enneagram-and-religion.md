@@ -31,7 +31,7 @@ previewHtml: ''
 		showIcon={false}
 		displayText=""
     altText="sacred books"
-    tint={true}
+    tint={false}
 		subtext=""
 	/>
 </div>

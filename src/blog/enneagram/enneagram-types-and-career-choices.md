@@ -35,7 +35,7 @@ Each Enneagram type has things that will rub them incorrectly in a job. Converse
     showIcon={false}
     displayText=""
     altText="Two female Greek statues of a doctor and a rapper meeting"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>
@@ -76,7 +76,7 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
     showIcon={false}
     displayText=""
     altText="Greek statues of a blacksmith and a businessman meeting"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>
@@ -127,7 +127,7 @@ Type 7s, with their versatile and adventurous nature, thrive in dynamic and vari
     showIcon={false}
     displayText=""
     altText="Greek statue of a hacker working at a coffee shop"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>

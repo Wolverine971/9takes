@@ -32,7 +32,7 @@ pic: 'greek-statues-on-a-date'
 		showIcon={false}
 		displayText=""
       altText="greek statues on a date"
-      tint={true}
+      tint={false}
 		subtext=""
 	/>
 </div>

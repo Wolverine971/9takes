@@ -32,7 +32,7 @@ pic: 'greek-statues-party-vibes'
     showIcon={false}
     displayText=""
     altText="party in the street"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>
@@ -72,7 +72,7 @@ At a party, Type 3s will likely be seen networking, making connections, and look
     showIcon={false}
     displayText=""
     altText="greek statues partying"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>
@@ -123,7 +123,7 @@ Type 7s are often the most energetic and adventurous at a party, trying new thin
     showIcon={false}
     displayText=""
     altText="talking at a party"
-    tint={true}
+    tint={false}
     subtext=""
   />
 </div>
