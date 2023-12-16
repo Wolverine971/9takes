@@ -100,7 +100,7 @@
 			grid-template-columns: 30vw 30vw 30vw;
 		}
 		.inline-it {
-			width: 30vw;
+			width: 30vw; // !important;
 		}
 		.fit-card {
 			padding: 0.5rem;

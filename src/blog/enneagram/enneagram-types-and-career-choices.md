@@ -96,7 +96,7 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
 </article>
-<div>
+<div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
  <article class="section-content">

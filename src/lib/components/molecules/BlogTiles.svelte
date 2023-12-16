@@ -288,6 +288,7 @@
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
+		border-radius: 5px;
 	}
 
 	/* cd */
@@ -315,7 +316,6 @@
 		column-count: 3;
 		column-gap: 0.5rem;
 		orphans: 1;
-		gap: 1.5rem;
 	}
 
 	.blog-grid-container .grid-item {
@@ -327,10 +327,11 @@
 		border: var(--classic-border);
 		border-radius: 5px;
 		position: relative;
-		padding: 0.5rem;
 		height: 100%;
 		width: 100%;
 		gap: 1rem;
+		overflow: hidden;
+		text-overflow: clip;
 	}
 	.people-grid-container {
 		width: 100%;
@@ -363,6 +364,7 @@
 		}
 
 		.temp-three-row {
+			display: grid;
 			grid-template-columns: 30vw 30vw 30vw;
 		}
 		.people-grid-container {

@@ -259,9 +259,11 @@
 		}
 
 		.temp-three-row {
+			display: grid;
 			grid-template-columns: 30vw 30vw 30vw;
 		}
 		.people-grid-container {
+			display: grid;
 			grid-template-columns: 30vw;
 		}
 	}
