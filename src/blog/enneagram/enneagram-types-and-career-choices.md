@@ -152,7 +152,7 @@ Type 9s, with their easy-going and inclusive nature, are well-suited for roles t
 
 The Enneagram can be a powerful tool in guiding your career choices. By understanding your intrinsic motivations and strengths, you can find a professional path that suits your personality and brings fulfillment and success. Remember, the Enneagram is just one piece of the puzzle - your experiences, skills, and passions also play a crucial role in your career journey. So, as you consider your next career move don't limit yourself, consider your whole self and what you can bring to the table.
 
-For more checkout <a href="/blog/enneagram/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
+For more checkout <a style="font-weight: bold;" href="/blog/enneagram/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
