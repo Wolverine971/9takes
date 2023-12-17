@@ -207,7 +207,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
   "@graph": [
     {
       "@type": "Person",
-      "description": "Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships. They are empathetic and optimistic and strongly desire to create a peaceful and comfortable environment for themselves and others."
+      "description": "Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships. They are empathetic and optimistic and strongly desire to create a peaceful and comfortable environment for themselves and others.",
       "name": "Enneagram type 9"
     },
     {

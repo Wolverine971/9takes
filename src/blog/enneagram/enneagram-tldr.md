@@ -19,7 +19,7 @@ previewHtml: ''
 
 **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Strives for perfection and is highly critical of themselves and others. They have a strong sense of right and wrong and are motivated by a desire to improve the world around them. <a href="/blog/enneagram/enneagram-type-1" > More about the 1 </a>
 
-**[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**Type 2 - The Helper: Values relationships and is driven by a need to feel loved and appreciated. They are empathetic and nurturing, but can struggle with asserting their own needs. <a href="/blog/enneagram/enneagram-type-2" > More about the 2 </a>
+**[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Values relationships and is driven by a need to feel loved and appreciated. They are empathetic and nurturing, but can struggle with asserting their own needs. <a href="/blog/enneagram/enneagram-type-2" > More about the 2 </a>
 
 **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Goal-oriented and success-driven, the Achiever is motivated by a need for recognition and validation. They are often competitive and can struggle with work-life balance. <a href="/blog/enneagram/enneagram-type-3" > More about the 3 </a>
 
@@ -46,6 +46,8 @@ While online tests can provide a starting point for determining your Enneagram t
 3. Consider your childhood experiences: Our childhood experiences can shape our personality and behavior. Reflect on your upbringing and see how it may have influenced your Enneagram type.
 
 4. Seek outside opinions: Ask friends, family, and colleagues for their feedback on your personality traits and tendencies. They may offer insight into your Enneagram type that you may not have considered.
+
+For a more in-depth guide checkout this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
 
 ## Conclusion
 
