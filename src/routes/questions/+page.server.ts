@@ -44,7 +44,6 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-
 		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
 			'get_10_question_tags',
 			{}
@@ -56,8 +55,7 @@ export const load: PageServerLoad = async (event) => {
 
 		const { data: allTags, error: allTagsError } = await supabase
 			.from('question_tag')
-			.select(`*, question_subcategories(*, question_subcategories(*))`)
-
+			.select(`*, question_subcategories(*, question_subcategories(*))`);
 
 		if (allTagsError) {
 			console.log(allTagsError);
@@ -65,8 +63,7 @@ export const load: PageServerLoad = async (event) => {
 
 		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
 			.from('question_subcategories')
-			.select(`*, question_subcategories(*, question_subcategories(*))`)
-
+			.select(`*, question_subcategories(*, question_subcategories(*))`);
 
 		if (questionSubcategoriesError) {
 			console.log(questionSubcategoriesError);
@@ -91,7 +88,6 @@ export const load: PageServerLoad = async (event) => {
 			questionsAndTags: (questionsAndTags || []).filter((q) => {
 				return !q.removed;
 			})
-
 		};
 	} catch (e) {
 		console.log(e);
@@ -168,7 +164,8 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
+						!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{

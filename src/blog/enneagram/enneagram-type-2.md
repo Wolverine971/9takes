@@ -132,7 +132,6 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 </article>
 
-
 <article class="section-content">
 
 <h2>👫 An Enneagram 2 in relationships</h2>

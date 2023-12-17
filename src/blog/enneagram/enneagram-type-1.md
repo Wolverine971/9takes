@@ -138,8 +138,6 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 </article>
 
-
-
 <article class="section-content">
 
 <h2>👫 An Enneagram 1 in relationships</h2>

@@ -156,6 +156,7 @@
 		padding: 0.5rem;
 		border: var(--classic-border);
 		border-radius: 5px;
+		field-sizing: content;
 	}
 	.modal-size {
 		height: 100%;

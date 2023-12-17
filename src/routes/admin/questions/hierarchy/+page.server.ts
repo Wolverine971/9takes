@@ -1,6 +1,6 @@
 import { supabase } from '$lib/supabase';
 import type { PageServerLoad } from './$types';
-import { error, } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 import { mapDemoValues } from '../../../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
@@ -27,8 +27,6 @@ export const load: PageServerLoad = async (event) => {
 			};
 		}
 
-
-
 		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
 			'get_10_question_tags',
 			{}
@@ -38,12 +36,9 @@ export const load: PageServerLoad = async (event) => {
 			console.log(findQuestionsError);
 		}
 
-
-
 		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
 			.from('question_subcategories')
-			.select(`*, question_subcategories(*, question_subcategories(*))`)
-
+			.select(`*, question_subcategories(*, question_subcategories(*))`);
 
 		if (questionSubcategoriesError) {
 			console.log(questionSubcategoriesError);
@@ -64,7 +59,6 @@ export const load: PageServerLoad = async (event) => {
 			questionsAndTags: (questionsAndTags || []).filter((q) => {
 				return !q.removed;
 			})
-
 		};
 	} catch (e) {
 		console.log(e);

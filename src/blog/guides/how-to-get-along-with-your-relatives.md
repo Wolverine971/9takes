@@ -34,8 +34,6 @@ pic: 'greek-statue-having-a-disagreement'
   />
 </div>
 
-
-
 <svelte:head>
 
 <script type="application/ld+json">

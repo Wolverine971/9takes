@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Childhood Stereotypes'
-description: "Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time"
+description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time'
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes'
@@ -13,7 +13,6 @@ blog: true
 previewHtml: ''
 pic: 'greek-statue-babies'
 ---
-
 
 <script>
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";

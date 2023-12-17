@@ -14,5 +14,4 @@ previewHtml: ''
 pic: ''
 ---
 
-
 <!-- Mental Hijacking: How when and why each type can lose their train of thought -->

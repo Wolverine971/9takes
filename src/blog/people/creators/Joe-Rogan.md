@@ -95,14 +95,16 @@ Watch the clip here of <a style="font-weight: bold;" class="external-link" targe
  <!-- or exchanging barbs with Dana White in a UFC commentary. This outspoken nature is a crucial feature of the Type 8 personality. -->
 
  <!-- Joe Rogan helping his friends -->
+
 ### Joe Rogan helps his friends
 
 One thing about 8s is that when they are doing good or are in "security," they act like Enneagram 2s, which are known as "the helpers." Many of Rogan's friends talk about Rogan being a good friend. They talk about him giving gifts and genuinely being happy when they succeed. Rogan is not a zero-sum kind of person. He genuinely cares about his friends.
+
 <div class="iframe-container">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/en4EJ_ocOqk?si=1UkTEJmk1HU5W9bC&amp;start=225" title="Elon Musk and Joe Rogan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  </div>
 
- Another name for Enneagram 8s is the "protector." Joe helping his friends can also be seen as protecting what he cares about. Many of Rogan's friends have been in bad situations, and Rogan has helped them. This is a testament to his character and aligns with him being an Enneagram 8.
+Another name for Enneagram 8s is the "protector." Joe helping his friends can also be seen as protecting what he cares about. Many of Rogan's friends have been in bad situations, and Rogan has helped them. This is a testament to his character and aligns with him being an Enneagram 8.
 
 ### Defying Conventions
 
