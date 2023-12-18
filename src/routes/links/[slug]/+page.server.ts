@@ -43,6 +43,9 @@ export const load: PageServerLoad = async (event) => {
 				console.log(questionError);
 				throw redirect(307, '/questions');
 			} else {
+				await supabase.rpc('increment_link_hit', {
+					link_id: linkDrop.id
+				});
 				throw redirect(301, `/questions/${question.url}`);
 
 			}
