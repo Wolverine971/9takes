@@ -8,6 +8,7 @@
 	import type { PageData } from './$types';
 	import { browser } from '$app/environment';
 	import { QuestionItem } from '$lib/components/molecules';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: PageData;
 
@@ -75,7 +76,6 @@
 		console.log(selectedQuestion);
 
 		var body = new FormData();
-		body.append('location', location);
 		body.append('lat', location?.latitude);
 		body.append('lng', location?.longitude);
 
@@ -84,8 +84,14 @@
 			method: 'POST',
 			body
 		});
-		const deserRes = deserialize(await resp.text());
-		console.log(deserRes);
+		const deserRes: any = deserialize(await resp.text());
+
+		if (deserRes.error) {
+			notifications.danger('Error dropping link', 3000);
+			console.log(deserRes.error);
+		} else {
+			notifications.info('Link Dropped', 3000);
+		}
 	};
 </script>
 

@@ -78,7 +78,7 @@ export const load: PageServerLoad = async (event) => {
 };
 
 export const actions: Actions = {
-	submitLinkDrop: async ({ request }) => {
+	submitLinkDrop: async ({ request, params }) => {
 		try {
 			const body = Object.fromEntries(await request.formData());
 			const lat = body.lat
@@ -125,7 +125,7 @@ export const actions: Actions = {
 
 			const { data: linkDrop, error: linkDropError } = await supabase
 				.from('link_drops')
-				.upsert({ question_id: question?.id, address_id: address?.id })
+				.upsert({ external_id: params.slug, question_id: question?.id, address_id: address?.id })
 				.select()
 				.single();
 
