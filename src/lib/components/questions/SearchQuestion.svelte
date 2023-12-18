@@ -29,7 +29,7 @@
 	let timer: any;
 	let options: { text: string; value: any }[] = [];
 
-	const search = async (searchString: string) => {
+	const searchES = async (searchString: string) => {
 		let body = new FormData();
 		body.append('searchString', searchString);
 		await fetch('questions?/typeahead', {
@@ -53,7 +53,7 @@
 		question = v;
 		clearTimeout(timer);
 		timer = setTimeout(() => {
-			search(v);
+			searchES(v);
 		}, 750);
 	};
 
@@ -70,7 +70,7 @@
 				name="question"
 				placeholder="Ask a question..."
 				on:inputChange={({ detail: { text } }) => debounce(text)}
-				on:createQuestion={({ detail: { text } }) => goToCreateQuestionPage()}
+				on:selectQuestion={({ detail: { text } }) => goToCreateQuestionPage()}
 				{options}
 				on:selection={({ detail }) => goToPage(detail)}
 			/>

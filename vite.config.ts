@@ -35,6 +35,11 @@ const config = {
 		'import.meta.env.PRIVATE_gmail_private_key': JSON.stringify(
 			process.env.PRIVATE_gmail_private_key
 		),
+		'import.meta.env.PRIVATE_GOOGLE_MAPS_API_KEY': process.env.PRIVATE_GOOGLE_MAPS_API_KEY,
+
+
+
+
 		'import.meta.env.PRIVATE_ELASTIC_GENERAL': process.env.PRIVATE_ELASTIC_GENERAL,
 		'import.meta.env.PRIVATE_AI_API_KEY': process.env.PRIVATE_AI_API_KEY,
 		'import.meta.env.PRIVATE_DEMO': process.env.PRIVATE_DEMO === 'true',

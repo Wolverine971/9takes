@@ -88,7 +88,7 @@
 				flag = true;
 				break;
 			case 'Enter': {
-				dispatch('createQuestion', {
+				dispatch('selectQuestion', {
 					text: event.target.value
 				});
 				break;

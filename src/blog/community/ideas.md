@@ -27,4 +27,8 @@ mental health issues caused by social media
 72. serious dates, 300
 73. dating in this generation, 100
 74. how to meet a life partner, 50
-    75.christian dating help, 20
+75. christian dating help, 20
+
+
+WEWorks founder Personality analysis clip, Adam Newman
+https://youtu.be/Ro4KM2vJDkY?si=Yw5KyqkwmJ52dUyi&t=380
