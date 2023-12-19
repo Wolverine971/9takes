@@ -8,6 +8,22 @@
 <svelte:head>
 	<!-- Google tag (gtag.js) -->
 	{#if !dev}
+		<script type="text/javascript" defer>
+			if (document.URL.includes('9takes')) {
+				(function (c, l, a, r, i, t, y) {
+					c[a] =
+						c[a] ||
+						function () {
+							(c[a].q = c[a].q || []).push(arguments);
+						};
+					t = l.createElement(r);
+					t.async = 1;
+					t.src = 'https://www.clarity.ms/tag/' + i;
+					y = l.getElementsByTagName(r)[0];
+					y.parentNode.insertBefore(t, y);
+				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
+			}
+		</script>
 		<!-- <script type="text/javascript" defer>
 			!(function (t, e) {
 				var o, n, p, r;

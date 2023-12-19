@@ -55,7 +55,7 @@
 	<script>
 		// Forward the necessary functions to the web worker layer
 		partytown = {
-			forward: ['dataLayer.push', 'qab', 'clarity', 'posthog', 'posthog.capture']
+			forward: ['dataLayer.push', 'qab', 'posthog', 'posthog.capture']
 			// resolveUrl: (url) => {
 			// 	const siteUrl = `https://9takes.com`;
 
@@ -84,20 +84,6 @@
 			src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
 		></script>
 		<!-- type="text/javascript"> -->
-		<script type="text/partytown">
-			(function (c, l, a, r, i, t, y) {
-				c[a] =
-					c[a] ||
-					function () {
-						(c[a].q = c[a].q || []).push(arguments);
-					};
-				t = l.createElement(r);
-				t.async = 1;
-				t.src = 'https://www.clarity.ms/tag/' + i;
-				y = l.getElementsByTagName(r)[0];
-				y.parentNode.insertBefore(t, y);
-			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
-		</script>
 
 		<script
 			type="text/partytown"
