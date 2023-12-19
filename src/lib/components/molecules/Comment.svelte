@@ -30,7 +30,6 @@
 	let newcomment: string = '';
 	let _commentComment: any = null;
 	let commenting: boolean = false;
-	let settingOpen: boolean = false;
 	let anonymousComment: boolean = false;
 	let commentEdit: string = comment.comment;
 	let flaggingReasonDescription: string = '';
@@ -71,19 +70,6 @@
 				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
 			});
 		loadingComments = false;
-	};
-
-	const addComment = async (newComment: any) => {
-		dispatch('commentAdded', newComment);
-
-		if (_commentComment.comments) {
-			_commentComment.comments = [newComment, ..._commentComment.comments];
-		} else {
-			_commentComment.comments = [];
-			_commentComment.comments.push(newComment);
-		}
-		// _commentComment.comments = [newComment, ..._commentComment.comments];
-		_commentComment.comment_count += 1;
 	};
 
 	const likeComment = async () => {

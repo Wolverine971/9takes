@@ -8,6 +8,7 @@
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import { createEventDispatcher } from 'svelte';
+	import Links from '../molecules/Links.svelte';
 	const dispatch = createEventDispatcher();
 
 	interface PassedPageData {
@@ -133,16 +134,6 @@
 				}
 			}
 		}
-	};
-
-	const saveLinkClick = async (link: any) => {
-		let body = new FormData();
-		body.append('linkId', link.id);
-
-		const resp = await fetch('?/saveLinkClick', {
-			method: 'POST',
-			body
-		});
 	};
 
 	const sortComments = (data: SortedComment[]) => {
@@ -340,27 +331,27 @@
 		</div>
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
 			<h2>Visuals</h2>
-			<Card>
-				<p>nothing right now</p>
-			</Card>
+			{#if data?.flags?.userHasAnswered}
+				<Card>
+					<p>nothing right now</p>
+				</Card>
+			{/if}
 		</div>
 
 		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
 			<h2>Articles</h2>
 			<Card>
-				{#if data?.links?.length}
-					<ul>
-						{#each data?.links as link}
-							{#if link}
-								<li>
-									<a href={link.url} on:click={() => saveLinkClick(link)}>{link.url}</a>
-								</li>
-							{/if}
-						{/each}
-					</ul>
-				{:else}
-					<p>nothing right now</p>
-				{/if}
+				<Links
+					questionId={data.id}
+					data={_data}
+					parentType={'question'}
+					{user}
+					on:commentAdded={({ detail }) => {
+						if (!data?.flags?.userHasAnswered) {
+							dispatch('commentAdded');
+						}
+					}}
+				/>
 			</Card>
 		</div>
 	</div>
