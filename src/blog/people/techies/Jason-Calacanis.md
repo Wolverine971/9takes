@@ -4,7 +4,7 @@ description: 'Why Jason Calacanis appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-07-30'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis'
-lastmod: '2023-09-04'
+lastmod: '2023-12-20'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,9 +21,9 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Are we all, not stars in our narratives, aching to make a mark? Driven by success, we mold ourselves to fit the accomplishment framework. And in this shared human experience, few exemplify the journey of The Achiever - the Enneagram type 3 - as vividly as <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">Jason Calacanis</a>. Let's dive into a nuanced understanding of Jason Calacanis' personality through the lens of Enneagram.</p>
+<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others. Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to mold and reinvent himself to accomplish his next goal. Jason is this way, we argue, because we think his personality type is an Enneagram type 3, also known as "The Achiever." </p>
 
-> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jason Calacanis.
+> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason Calacanis's actual personality type. Please leave a comment at the end telling us if we hit or missed the mark.
 
 <div
   style="display: flex;
@@ -55,23 +55,31 @@ tiktok:
 
 ## Jason Calacanis: An Embodiment of The Achiever?
 
-Internationally recognized entrepreneur, angel investor, and host of the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" podcast, Jason Calacanis, has left an indelible imprint on the tech industry. But what could be the driving force behind his accomplishments? Could it be an inherent yearning to feel valuable and worthwhile, characteristic of the Enneagram Type 3 - The Achiever?
+Jason is an angel investor, the host of the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" podcast. He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
+
+Why does Jason feel the need to work so hard? Is it because he loves making the world a better place? Or is it because he would feel worthless if he was not successful? The answer is the latter. 
 
 ### The Achiever: An Overview
 
-Type 3s, or Achievers, are characterized by their desire for success, ambition, and competency. They embody the best in culture, often serving as role models that inspire others to more extraordinary personal achievements. However, they are also driven by their primary fear of worthlessness. Their pursuit of success is a quest for affirmation, a desire to be admired, to distinguish themselves from others, and to validate their value.
+Type 3s, or Achievers, are characterized by their desire for success and relentless pursuit of their goals and ambitions. They embody the best of a culture, often serving as role models that inspire others to more extraordinary personal achievements. However, their need to be successful is born out of a fear of worthlessness. In another sense, they feel deep shame and are insecure that they are not worthy of love if they are unsuccessful. Somewhere in their childhood, they picked up this message, and now, every time they achieve something, it validates their value.
 
-Threes may become disengaged and apathetic when stressed or disintegrated, akin to an unhealthy Nine. On the other hand, when they are growing or integrated, Threes become more cooperative and committed to others, much like healthy Sixes.
+Threes, when they are not achieving or are very stressed, may become disengaged and lethargic and act like an unhealthy version of another personality type, the Enneagram 9. On the other hand, when they are achieving, growing, and feeling their best, Threes become more cooperative and committed to others, much like healthy Enneagram Sixes.
 
 ## Jason Calacanis: Tracing The Achiever's Path
 
-In Calacanis' journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Weblogs,_Inc." >Weblogs Inc</a> to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mahalo.com" >Mahalo</a>, stand testament to his ambition and competence. He is a self-proclaimed "hustler," striving relentlessly toward his goals, embodying the Achiever's drive for advancement.
+In Jason's journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Weblogs,_Inc." >Weblogs Inc</a> to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mahalo.com" >Mahalo</a>, stand testament to his never ending ambition. He is a self-proclaimed "hustler" and beats the drum of needing to work hard relentlessly. 
+
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://youtube.com/embed/9ofj5pMWKPk?si=5y0sLNd7r_I7dYmV" title="Jason Calacanis on hardwork" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ### The Charmer and The Professional
 
-In his interpersonal relationships and public persona, Calacanis often displays the charm and diplomacy associated with Threes. He manages to create an impression, whether it's through his assertive statements on Twitter or the charisma he says in his podcast.
+But Jason is not just a hard worker. If you watch him in interviews or a group setting, he is often the most charismatic person in the room. He is a master of socializing. He is good in front of a camera and frankly enjoys being on camera. Did we mention that he hosts two podcasts?
 
-A Three with a Two-Wing, often called "The Charmer," is known for its warmth, ambition, and people-pleasing tendencies. Meanwhile, a Three with a Four-Wing, termed "The Professional," balances their dreams with individualism and introspection. Calacanis seems to oscillate between these two sides, embodying the outgoing charisma of a "Charmer" and the professional composure of a "Professional." Nowhere is this more evident than in how he describes building his network.
+The thing about 3s is that they have a superpower. Hard work is not their superpower. A three's superpower is their ability to read a room and read the emotions and body language of anyone they come in contact with. They can sense what you think and feel about them and use that highly tuned people's reading to their advantage. With that intuition, they can become the person they would like and admire if they so choose. Naturally charismatic people do this, but 3s have finely tuned this people reading ability since they were young, and so has Jason.
+
 
 <div class="iframe-container">
 <iframe width="100%" height="315"
@@ -84,7 +92,7 @@ allowfullscreen></iframe>
 
 ## Beyond The Glittering Image
 
-While the Achiever in Calacanis is evident, it's essential to acknowledge the challenges of this Enneagram type. Threes, in their pursuit of success, can become overly concerned with their image and disconnected from their true feelings. In some instances, Calacanis' competitiveness and workaholism have been subjects of debate. These tendencies mirror the Achiever's potential pitfalls, highlighting the importance of introspection and authenticity in maintaining balance.
+While the Achiever in Calacanis is evident, it's essential to acknowledge the challenges of this Enneagram type. Threes, in their pursuit of success, can become overly concerned with their image and disconnected from their true feelings. In some instances, Jason's competitiveness and workaholism have rubbed people the wrong way. These tendencies mirror the Achiever's potential pitfalls, highlighting the importance of introspection and authenticity in maintaining balance.
 
 ### The Journey Towards Self-Acceptance
 
@@ -92,23 +100,19 @@ Nevertheless, Calacanis' journey also provides a fascinating glimpse into the Ac
 
 ## How Jason's enneagram type can be seen influencing his work
 
-Jason's first major triumph, co-founding Weblogs Inc., indicates the ambitious, competent nature of Type 3. The way he later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber, further showcases his goal-oriented mindset and knack for achievement.
+Jason started as a <a class="external-link" target="_blank" rel="noopener noreferrer"href="https://en.wikipedia.org/wiki/Jason_Calacanis" > reporter talking about the "internet industry."</a>After the dot-com boom, he worked his way up to becoming a startup founder. Jason's first major triumph was co-founding Weblogs Inc., where he got an investment from Mark Cuban and sold it two years later. He kept upping the anti and later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber. Jason was on a steep incline of growth, showcasing his goal-oriented mindset and knack for achievement.
 
-Calacanis consistently states that hard work is the key to his success, which echoes Type 3's tendency towards workaholism. However, it's his flexibility and determination where we truly see the Type 3 shine. When his venture, Mahalo, struggled, he didn't give up. Instead, he transformed it into a successful YouTube video content provider, Inside.com, demonstrating Type 3's adaptive, success-focused nature.
-
-Furthermore, through his popular podcast, "This Week in Startups," Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and appeal commonly seen in this Enneagram type.
+Nowadays, he works on his popular podcast, "This Week in Startups," where Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and appeal commonly seen in this Enneagram type.
 
 ## Jason's impact on "The All in Podcast"
 
-Jason Calacanis's influence on "The All In Podcast" is a testament to his Enneagram Type 3 personality traits of ambition, adaptability, and a knack for achievement. As the moderator, he skillfully manages the ideological spectrum, facilitating dynamic discussions while maintaining harmony and camaraderie among the hosts.
+Jason's influence on "The All In Podcast" is a testament to his Enneagram Type 3 personality traits. He is the moderator. The self-proclaimed "world's greatest moderator." He skillfully manages the ideological spectrum, facilitating dynamic discussions while maintaining harmony and camaraderie among the hosts.
 
-His self-proclaimed title as the 'world's greatest moderator' underpins his Type 3's desire for achievement and recognition. He artfully directs the conversation, allowing each participant to express their views, demonstrating his adaptability, a key trait of Type 3.
+This underscores his Type 3's desire for achievement and recognition. He artfully directs the conversation, allowing each participant to express their views while always getting his 2 cents in.
 
-The playful tension between Calacanis and Sacks adds a unique dynamic to the podcast, showcasing Jason's charm and charisma, which are characteristic of his Enneagram type. His firm stance on his beliefs reflects his determination and persistence, while his ability to shift from serious debates to laughter underscores his flexibility.
+The playful tension between Calacanis and David Sacks adds a unique dynamic to the podcast. Jason and Sacks started off on opposite sides of the political spectrum; however, the hostility has died down over time. Jason showcases his ability to shift from serious debates to laughter, highlighting his flexibility. They are both poker players and VCs. In the place of political competition now stands a friendship, and though he and Sacks don't always agree, Jason is loyal to his friend David Sacks and has defended him on multiple occasions.
 
-There's an underlying ambition within Jason that once resulted in him being jokingly accused of trying to take over the podcast, indicative of Type 3's desire for success. Yet his respect for the team dynamic and focus on their friendship shows a healthy ability to manage this ambition, further illustrating his Type 3 traits.
-
-Jason's Enneagram Type 3 personality deeply informs his role and impact on "The All In Podcast," balancing ambition, adaptability, and a drive for recognition, creating a captivating dynamic that fuels the show's success.
+Jason was jokingly accused of trying to take over the podcast once. There needed to be more clarity on where to take the podcast. Jason wanted to do things to grow the podcast and monetize it; however, the other podcast members wanted to keep the podcast authentic. Jason ended up focusing on the friendship between the podcasters rather than the show's success. This shows a healthy ability to manage this ambition.
 
 ## How Each Enneagram Type Perceives Jason Calacanis
 
@@ -148,7 +152,7 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-09-04"
+        "@value": "2023-12-20"
       },
       "datePublished": {
         "@type": "Date",
@@ -205,7 +209,7 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jason Calacanis is known for his assertive and charismatic personality. He is ambitious business-minded, and often plays a key role in leading discussions. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
+            "text": "Jason Calacanis is known for his assertive and charismatic personality. He is ambitious and business-minded and often plays a key role in leading discussions. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
           },
           "name": "What is Jason Calacanis's personality?"
         },
