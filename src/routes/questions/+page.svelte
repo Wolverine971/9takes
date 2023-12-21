@@ -131,8 +131,7 @@
 	.big-tags {
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 800px;
-		max-height: 500px;
+		max-height: 150px;
 		overflow-y: auto;
 		overscroll-behavior-y: contain;
 	}

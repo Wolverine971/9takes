@@ -22,6 +22,7 @@ export async function GET({ request }) {
 		await tagQuestions();
 		return json('lets goo');
 	} catch (e) {
+		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});
@@ -30,6 +31,7 @@ export async function GET({ request }) {
 
 export async function POST({ request, locals }) {
 	try {
+		// update-question api endpoint
 		const session = locals.session;
 
 		if (!session?.user?.id) {
@@ -52,9 +54,13 @@ export async function POST({ request, locals }) {
 		const questionText = body.questionText as string;
 
 		console.log(questionId, questionText);
+		await tagQuestion(questionText, parseInt(questionId))
 
-		return json({ success: await tagQuestion(questionText, parseInt(questionId)) });
+		return json({ data: { success: true } });
+
+
 	} catch (e) {
+		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});

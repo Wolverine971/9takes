@@ -96,11 +96,9 @@
 	@media all and (max-width: 576px) {
 		.small-div {
 			flex-direction: column;
-			margin: 0.5rem;
-			width: 20%;
+			margin: 0.5rem 0;
 		}
 		.question-display {
-			width: 80%;
 			margin: 0;
 		}
 		.question-card {

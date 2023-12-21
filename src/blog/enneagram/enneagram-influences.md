@@ -13,10 +13,16 @@ blog: true
 previewHtml: ''
 ---
 
-<p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
+
+<script>
+	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
+</script>
+
+
+<p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back tPo the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 
 <p  style="text-align: center;">
-<img loading="lazy" src="https://www.ennea.com/wp-content/uploads/2013/10/enneagram_numbered-300x300.png" alt="Enneagram Symbol" title="the Enneagram symbol">
+<Enneagram height={'10rem'} fill={'#1e2922'}/>
 </p>
 
 ## Different Schools of Thought

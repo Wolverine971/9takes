@@ -112,6 +112,7 @@ export async function GET({ url, locals, cookies }) {
 			});
 		}
 	} catch (e) {
+		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});
@@ -150,6 +151,7 @@ export async function POST({ locals, request }) {
 			throw error(400, 'unauthorized');
 		}
 	} catch (e) {
+		console.log(e);
 		throw error(400, {
 			message: `encountered error`
 		});

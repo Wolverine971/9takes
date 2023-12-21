@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import Card from '../atoms/card.svelte';
+	import DownIcon from '../icons/downIcon.svelte';
+	import RightIcon from '../icons/rightIcon.svelte';
 
 	export let parentType: string = 'comment';
 
@@ -9,6 +11,7 @@
 	export let questionId: number;
 
 	let innerWidth = 0;
+	let showAiComments = true;
 </script>
 
 <svelte:window bind:innerWidth />
@@ -16,37 +19,58 @@
 {#if !browser || (data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered)}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if data?.ai_comments?.length}
-		<div>
-			{#each data.ai_comments as comment}
-				<Card style="margin: .5rem 0; border: 1px solid black;">
-					<div
-						class="user-comment"
-						itemprop="suggestedAnswer acceptedAnswer"
-						itemscope
-						itemtype="https://schema.org/Answer"
-					>
-						<div
-							style="display: flex; {innerWidth > 500
-								? 'width: 95%;'
-								: 'flex-direction: column; width: 100%;'}"
-						>
-							<div style="display: flex; flex-direction: column; width: 100%}">
-								<p class="comment-box" id="comment-box{comment.id}">
-									<span class="profile-avatar">{comment.enneagram_type}:</span>
-									<span class="comment-text" itemprop="text">{comment.comment} </span>
-								</p>
+		<div class="canned-resp-div">
+			<h2 style="display: flex; justify-content: space-between;">
+				<span>Stereotypical responses</span>
+				<button
+					on:click={() => (showAiComments = !showAiComments)}
+					class="btn btn-primary"
+					style="display: inline-flex"
+				>
+					{#if showAiComments}
+						<DownIcon />
+					{:else}
+						<RightIcon />
+					{/if}
+				</button>
+			</h2>
+			{#if showAiComments}
+				<div>
+					{#each data.ai_comments as comment}
+						<Card style="margin: .5rem 0; border: 1px solid black;">
+							<div
+								class="user-comment"
+								itemprop="suggestedAnswer acceptedAnswer"
+								itemscope
+								itemtype="https://schema.org/Answer"
+							>
+								<div
+									style="display: flex; {innerWidth > 500
+										? 'width: 95%;'
+										: 'flex-direction: column; width: 100%;'}"
+								>
+									<div style="display: flex; flex-direction: column; width: 100%}">
+										<p class="comment-box" id="comment-box{comment.id}">
+											<span class="profile-avatar">{comment.enneagram_type}:</span>
+											<span class="comment-text" itemprop="text">{comment.comment} </span>
+										</p>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-				</Card>
-			{/each}
+						</Card>
+					{/each}
+				</div>
+			{/if}
 		</div>
-	{:else}
-		<p>nothing right now</p>
 	{/if}
 {/if}
 
 <style lang="scss">
+	.canned-resp-div {
+		border-radius: 5px;
+		padding: 0.5rem;
+		border: var(--color-paladin-3) 1px solid;
+	}
 	.comment-text {
 		max-height: 3em;
 		overflow: hidden;

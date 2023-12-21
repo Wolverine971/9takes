@@ -4,6 +4,8 @@
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
 	import EditIcon from '$lib/components/icons/editIcon.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import { deserialize } from '$app/forms';
+	import { notifications } from '../molecules/notifications';
 
 	export let questionData: any;
 
@@ -19,6 +21,8 @@
 	const newDate = `${month}/${day}${innerWidth > 400 ? '/' + year : ''}`;
 
 	let editing = false;
+	let taggingLoading = false;
+	let questionEditsSaving = false;
 
 	$: selectedTags, checkTags();
 
@@ -34,12 +38,18 @@
 		let body = new FormData();
 		body.append('questionId', questionData.id);
 
-		await fetch('/questions?/remove', {
+		const resp = await fetch('/questions?/remove', {
 			method: 'POST',
 			body
 		});
+		const result: any = deserialize(await resp.text());
 
-		dispatch('questionRemoved');
+		if (result?.data?.success) {
+			notifications.info('Question removed', 3000);
+			dispatch('questionRemoved');
+		} else {
+			notifications.danger('Error removing question', 3000);
+		}
 	};
 
 	const removeTag = async (tag: any) => {
@@ -51,21 +61,34 @@
 	};
 
 	const tagQuestion = async () => {
+		taggingLoading = true;
 		let body = new FormData();
 		body.append('questionId', questionData.id);
 		body.append('questionText', questionData.question);
 
 		console.log(questionData.question, questionData.id);
 
-		await fetch('/api/update-questions', {
+		const resp = await await fetch('/api/update-questions', {
 			method: 'POST',
 			body
 		});
+		const result: any = deserialize(await resp.text());
+
+		if (result?.data?.success) {
+			notifications.info('Tagged question', 3000);
+			getModal(`tag-question-${questionData.id}`).close();
+			editing = false;
+		} else {
+			notifications.danger('Error tagging question', 3000);
+		}
+
+		taggingLoading = false;
 
 		// editing = false;
 	};
 
-	const save = async () => {
+	const saveQuestionEdits = async () => {
+		questionEditsSaving = true;
 		let body = new FormData();
 		body.append('questionId', questionData.id);
 		body.append('flagged', questionData.flagged);
@@ -74,12 +97,21 @@
 		body.append('question_formatted', questionData.question_formatted);
 		body.append('tags', JSON.stringify(selectedTags));
 
-		await fetch('/questions?/update', {
+		const resp = await fetch('/questions?/update', {
 			method: 'POST',
 			body
 		});
 
-		editing = false;
+		const result: any = deserialize(await resp.text());
+
+		if (result?.data?.success) {
+			editing = false;
+			notifications.info('Question edited', 3000);
+			getModal(`edit-modal-${questionData.id}`).close();
+		} else {
+			notifications.danger('Error saving edits', 3000);
+		}
+		questionEditsSaving = false;
 	};
 </script>
 
@@ -151,18 +183,6 @@
 			</div>
 		</div>
 
-		{#if editing}
-			<button
-				class="btn btn-primary"
-				type="button"
-				style="padding: 0.25rem; display: flex;"
-				on:click={async () => {
-					getModal(`kill-modal-${questionData.id}`).open();
-				}}
-			>
-				<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
-			</button>
-		{/if}
 		<button
 			class="btn btn-primary bottom-right"
 			type="button"
@@ -175,35 +195,12 @@
 			{editing ? 'Editing' : 'Edit'}
 		</button>
 	</div>
-	<!-- <button
-		class="btn btn-primary"
-		type="button"
-		style="padding: 0.25rem; display: flex;"
-		on:click={async () => {
-			getModal().open();
-		}}
-	>
-		<XmarkIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'red'} />
-	</button> -->
-
-	<Modal2 id={`kill-modal-${questionData.id}`}>
-		<p>Kill it fr real?</p>
-		<button
-			class="btn btn-primary"
-			type="button"
-			style="padding: 0.25rem; display: flex;"
-			on:click={async () => {
-				await remove();
-			}}
-		>
-			yes
-		</button>
-	</Modal2>
 
 	<Modal2 id={`tag-question-${questionData.id}`}>
 		<h2>Tag Question:</h2>
 		<h3>{questionData.question}</h3>
 		<button
+			disabled={taggingLoading}
 			class="btn btn-primary"
 			type="button"
 			style="padding: 0.25rem; display: flex;"
@@ -211,13 +208,17 @@
 				await tagQuestion();
 			}}
 		>
-			yes
+			{#if taggingLoading}
+				<div class="loader" />
+			{:else}
+				yes
+			{/if}
 		</button>
 	</Modal2>
 
 	<Modal2 id={`edit-modal-${questionData.id}`}>
 		<div style="max-height: 500px;">
-			<div style="max-width: 60%;">
+			<div style="">
 				<div>
 					<p class="question-display">
 						<b style="text-wrap: nowrap;">Original: </b>
@@ -278,7 +279,7 @@
 
 				<div>
 					<h2>Selected Tags</h2>
-					<div class="big-tags">
+					<div style="display: flex; flex-wrap: wrap;">
 						{#if selectedTags?.length}
 							{#each selectedTags as tag}
 								<span class="tag"
@@ -318,14 +319,19 @@
 				</div>
 			</div>
 			<button
+				disabled={questionEditsSaving}
 				class="btn btn-primary save-btn"
 				type="button"
 				style="padding: 0.25rem; display: flex;"
 				on:click={async () => {
-					await save();
+					await saveQuestionEdits();
 				}}
 			>
-				Save
+				{#if questionEditsSaving}
+					<div class="loader" />
+				{:else}
+					Save
+				{/if}
 			</button>
 		</div>
 	</Modal2>
@@ -389,9 +395,11 @@
 	.big-tags {
 		display: flex;
 		flex-wrap: wrap;
-		max-width: 800px;
-		max-height: 500px;
-		overflow-y: scroll;
+		max-width: 900px;
+		padding: 0.5rem;
+		margin: 0.5rem;
+		border-radius: 5px;
+		border: var(--classic-border);
 	}
 
 	.tag {

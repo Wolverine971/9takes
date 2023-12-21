@@ -2,6 +2,7 @@ import { PRIVATE_AI_API_KEY } from '$env/static/private';
 import { supabase } from '$lib/supabase';
 import OpenAI from 'openai';
 import { checkDemoTime } from './api';
+import { notifications } from '$lib/components/molecules/notifications';
 
 export const tagQuestions = async () => {
 	try {
@@ -133,6 +134,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		});
 
 		if (!completion?.choices[0]?.message?.content) {
+			notifications.error('Something went wrong');
 			return;
 		}
 
@@ -164,12 +166,13 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 		if (!chatResp?.answers) {
 			console.log(chatResp);
+			notifications.error('Something went wrong');
 			return;
 		}
 
 		await supabase
 			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question })
+			.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question_formatted || chatResp.question })
 			.eq('id', questionId)
 			.then(async () => {
 				const newTags = chatResp.tags;
@@ -210,18 +213,21 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 // I can pull this system prompt dynamically
 
-export const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do two things and return a json response. 
+export const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do three things and return a json response. 
 First, you should should use the Enneagram system of personality to answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
 The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
 
 Second, you need to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+Third, format the question and add punctuation.
 For example: [
-    {id: 1, question: "I need date ideas What would you do", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
+    {id: 1, question: "I need date ideas What would you do", question_formatted: "I need date ideas, what would you do?", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
  ]
  Only tag from these predefined tags:
  `;
 
-const classifyOneQuestionPrompt = `Your task involves two main components: responding to a question or statement using the Enneagram personality system and classifying the question or statement with predefined tags. The response should be formatted in JSON.
+const classifyOneQuestionPrompt = `Your task involves 3 main components: responding to a question or statement using the Enneagram personality system and classifying the question or statement with predefined tags. 
+Also, format the question and add punctuation.
+The response should be formatted in JSON.
 
  Detailed Instructions:
  
@@ -240,7 +246,8 @@ const classifyOneQuestionPrompt = `Your task involves two main components: respo
  [
 	{
 	  id: 1,
-	  question: "What was your dream job as a child?",
+	  question: "What was your Dream job as a child",
+	  question_formatted: "What was your dream job as a child?",
 	  tags: [
 		"Personal Growth",
 		"Career Development",

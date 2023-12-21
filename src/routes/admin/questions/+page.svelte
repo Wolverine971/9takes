@@ -4,8 +4,6 @@
 	import { invalidateAll } from '$app/navigation';
 
 	export let data: PageData;
-
-	// export let data: PageData;
 </script>
 
 {#if data.user?.admin}

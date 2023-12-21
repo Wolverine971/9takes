@@ -1,6 +1,8 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import { deserialize } from '$app/forms';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: PageData;
 
@@ -17,15 +19,25 @@
 	let active: any = null;
 	let activeAdmin: boolean = false;
 
-	const save = async () => {
+	const saveUserAdminChanges = async () => {
+		console.log('updating admin');
 		let body = new FormData();
 		body.append('isAdmin', activeAdmin.toString());
 		body.append('email', active.email);
 
-		await fetch('?/updateAdmin', {
+		const resp = await fetch('?/updateAdmin', {
 			method: 'POST',
 			body
 		});
+
+		const result: any = deserialize(await resp.text());
+
+		if (result?.data?.success) {
+			notifications.info('User updated', 3000);
+		} else {
+			notifications.danger('Error updating user', 3000);
+		}
+
 		if (data.profiles) {
 			data.profiles = data?.profiles?.map((p) => {
 				if (p.email === active.email) {
@@ -130,7 +142,7 @@
 		<button
 			type="button"
 			on:click={() => {
-				save();
+				saveUserAdminChanges();
 			}}
 		>
 			Save

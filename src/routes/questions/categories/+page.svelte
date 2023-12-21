@@ -60,10 +60,9 @@
 							<span class="list__text">
 								<a
 									href={`/questions/categories/${category.tag_name.split(' ').join('-')}`}
-									style="display: flex;
-										flex-direction: column;"
+									class="list_link bold-shadow"
 								>
-									<Scribble text={category.tag_name} />
+									<span style="text-align: center;">{category.tag_name}</span>
 									<span>{category.question_count}</span>
 								</a>
 							</span>
@@ -97,6 +96,13 @@ https://codepen.io/derekmorash/pen/jyMGaX -->
 		padding: 0;
 	}
 
+	.list_link {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: whitesmoke !important;
+	}
 	.list {
 		padding: 0;
 		display: grid;

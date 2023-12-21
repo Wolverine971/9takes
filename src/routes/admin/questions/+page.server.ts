@@ -27,8 +27,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: questions, error: questionsError } = await supabase
 		.from(demo_time === true ? 'questions_demo' : 'questions')
 		.select(
-			`*, question_tag(*), ${
-				demo_time === true ? 'profiles_demo' : 'profiles'
+			`*, question_tag(*), ${demo_time === true ? 'profiles_demo' : 'profiles'
 			} ( external_id, enneagram)`
 		)
 		.order('created_at', { ascending: false })
@@ -83,7 +82,7 @@ export const actions: Actions = {
 			}
 
 			if (!user?.admin) {
-				throw redirect(307, '/questions');
+				throw error(400, 'unauthorized');
 			}
 
 			const body = Object.fromEntries(await request.formData());
@@ -181,53 +180,7 @@ export const actions: Actions = {
 			});
 		}
 	},
-	updateAdmin: async (event) => {
-		try {
-			const session = event.locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime();
-
-			const { data: user, error: findUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (findUserError) {
-				console.log(findUserError);
-			}
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const { request } = event;
-
-			const body = Object.fromEntries(await request.formData());
-			const isAdmin = body.isAdmin as string;
-			const email = body.email as string;
-			const { error: updateUserToAdminError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ admin: isAdmin === 'true' })
-				.eq('email', email);
-			// insert(userData);
-			if (!updateUserToAdminError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user to admin ${JSON.stringify(updateUserToAdminError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user to admin ${JSON.stringify(e)}`
-			});
-		}
-	},
 	toggleDemo: async (event) => {
 		try {
 			const session = event.locals.session;

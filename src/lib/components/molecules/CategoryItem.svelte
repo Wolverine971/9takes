@@ -7,7 +7,7 @@
 	let showChildren = true;
 </script>
 
-<h3>
+<h3 style="display: flex; justify-content: space-between;">
 	{category?.subcategory_name}
 	{#if category?.question_subcategories && category?.question_subcategories?.length !== 0}
 		<button
