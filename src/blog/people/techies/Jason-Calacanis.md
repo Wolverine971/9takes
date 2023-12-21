@@ -57,7 +57,7 @@ tiktok:
 
 Jason is an angel investor, the host of the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" podcast. He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
 
-Why does Jason feel the need to work so hard? Is it because he loves making the world a better place? Or is it because he would feel worthless if he was not successful? The answer is the latter. 
+Why does Jason feel the need to work so hard? Is it because he loves making the world a better place? Or is it because he would feel worthless if he was not successful? The answer is the latter.
 
 ### The Achiever: An Overview
 
@@ -67,8 +67,7 @@ Threes, when they are not achieving or are very stressed, may become disengaged 
 
 ## Jason Calacanis: Tracing The Achiever's Path
 
-In Jason's journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Weblogs,_Inc." >Weblogs Inc</a> to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mahalo.com" >Mahalo</a>, stand testament to his never ending ambition. He is a self-proclaimed "hustler" and beats the drum of needing to work hard relentlessly. 
-
+In Jason's journey, we can observe the hallmark qualities of a Type 3. His entrepreneurial success stories, from <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Weblogs,_Inc." >Weblogs Inc</a> to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Mahalo.com" >Mahalo</a>, stand testament to his never ending ambition. He is a self-proclaimed "hustler" and beats the drum of needing to work hard relentlessly.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://youtube.com/embed/9ofj5pMWKPk?si=5y0sLNd7r_I7dYmV" title="Jason Calacanis on hardwork" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -79,7 +78,6 @@ In Jason's journey, we can observe the hallmark qualities of a Type 3. His entre
 But Jason is not just a hard worker. If you watch him in interviews or a group setting, he is often the most charismatic person in the room. He is a master of socializing. He is good in front of a camera and frankly enjoys being on camera. Did we mention that he hosts two podcasts?
 
 The thing about 3s is that they have a superpower. Hard work is not their superpower. A three's superpower is their ability to read a room and read the emotions and body language of anyone they come in contact with. They can sense what you think and feel about them and use that highly tuned people's reading to their advantage. With that intuition, they can become the person they would like and admire if they so choose. Naturally charismatic people do this, but 3s have finely tuned this people reading ability since they were young, and so has Jason.
-
 
 <div class="iframe-container">
 <iframe width="100%" height="315"

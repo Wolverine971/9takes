@@ -1,6 +1,5 @@
-
 import { PRIVATE_GOOGLE_MAPS_API_KEY } from '$env/static/private';
-import { redirect } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 
@@ -47,19 +46,16 @@ export const load: PageServerLoad = async (event) => {
 					link_id: linkDrop.id
 				});
 				throw redirect(301, `/questions/${question.url}`);
-
 			}
-
 		} else {
 			throw redirect(307, '/questions');
 		}
-
 	} else {
 		// need to create link find question via elastic search
 		if (!linkDrop) {
 			return {
 				linkDrop
-			}
+			};
 		} else {
 			const { data: question, error: questionError } = await supabase
 				.from('questions')
@@ -74,47 +70,85 @@ export const load: PageServerLoad = async (event) => {
 					linkDrop,
 					question,
 					linkError: questionError
-				}
+				};
 			}
 		}
 	}
 };
 
 export const actions: Actions = {
-	submitLinkDrop: async ({ request, params }) => {
+	submitLinkDrop: async ({ request, params, locals }) => {
 		try {
-			const body = Object.fromEntries(await request.formData());
-			const lat = body.lat
-			const lng = body.lng
-			const selectedQuestionURL = body.selectedQuestionURL
+			const session = locals.session;
 
-			const resp = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${PRIVATE_GOOGLE_MAPS_API_KEY}`)
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			if (session?.user?.id) {
+				const { data: userResp, error: findUserError } = await supabase
+					.from('profiles')
+					.select('id, admin, external_id')
+					.eq('id', session?.user?.id)
+					.single();
+
+				if (findUserError || !userResp?.admin) {
+					throw error(400, 'unauthorized');
+				}
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const lat = body.lat;
+			const lng = body.lng;
+			const selectedQuestionURL = body.selectedQuestionURL;
+
+			const resp = await fetch(
+				`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${lng}&key=${PRIVATE_GOOGLE_MAPS_API_KEY}`
+			);
 
 			const jsonResp = await resp.json();
 
-			const extraInfo = jsonResp.results[0].address_components
+			const extraInfo = jsonResp.results[0].address_components;
 			const { data: address, error: addressError } = await supabase
 				.from('addresses')
-				.upsert({
-					address_line_1: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('street_number') || item.types.includes('route')).map((item: any) => item?.long_name || item?.short_name).join(' '),
-					address_line_2: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('subpremise'))[0]?.long_name,
-					city: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('locality'))[0]?.long_name,
-					state: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('administrative_area_level_1'))[0]?.long_name,
-					postal_code: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('postal_code'))[0]?.long_name,
-					country: jsonResp.results[0].address_components.filter((item: any) => item.types.includes('country'))[0].short_name,
-					latitude: body.lat,
-					longitude: body.lng,
-					name: jsonResp.results[0].formatted_address,
-					extra_details: extraInfo
-				}, { onConflict: 'name' })
+				.upsert(
+					{
+						address_line_1: jsonResp.results[0].address_components
+							.filter(
+								(item: any) => item.types.includes('street_number') || item.types.includes('route')
+							)
+							.map((item: any) => item?.long_name || item?.short_name)
+							.join(' '),
+						address_line_2: jsonResp.results[0].address_components.filter((item: any) =>
+							item.types.includes('subpremise')
+						)[0]?.long_name,
+						city: jsonResp.results[0].address_components.filter((item: any) =>
+							item.types.includes('locality')
+						)[0]?.long_name,
+						state: jsonResp.results[0].address_components.filter((item: any) =>
+							item.types.includes('administrative_area_level_1')
+						)[0]?.long_name,
+						postal_code: jsonResp.results[0].address_components.filter((item: any) =>
+							item.types.includes('postal_code')
+						)[0]?.long_name,
+						country: jsonResp.results[0].address_components.filter((item: any) =>
+							item.types.includes('country')
+						)[0].short_name,
+						latitude: body.lat,
+						longitude: body.lng,
+						name: jsonResp.results[0].formatted_address,
+						extra_details: extraInfo
+					},
+					{ onConflict: 'name' }
+				)
 				.select()
-				.single()
+				.single();
 
 			if (addressError) {
 				console.log('addy', addressError);
 			}
 
-			console.log(selectedQuestionURL)
+			console.log(selectedQuestionURL);
 
 			const { data: question, error: questionError } = await supabase
 				.from('questions')
@@ -136,10 +170,10 @@ export const actions: Actions = {
 				console.log('linkErr', linkDropError);
 			}
 
-			return linkDrop
+			return linkDrop;
 		} catch (e) {
 			console.log(e);
-			return null
+			return null;
 		}
 	}
 };

@@ -24,12 +24,12 @@
 		}
 	});
 
-	const successCallback = (position) => {
+	const successCallback = (position: any) => {
 		console.log(position);
 		location = position?.coords;
 	};
 
-	const errorCallback = (error) => {
+	const errorCallback = (error: any) => {
 		console.log(error);
 	};
 

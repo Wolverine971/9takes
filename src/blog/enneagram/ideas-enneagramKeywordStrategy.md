@@ -176,33 +176,31 @@ Based on the average weight of search engine positions, the slug should be "enne
 
 Discover the Enneagram personality types and how they can help you understand yourself, relationships, and spirituality. Take a free test and explore expert insights, courses, and more.
 
-## Meta Title:
+## Meta Title
 
 Discover Your Enneagram Type: A Comprehensive Guide to Personality Typing
 
-## Meta Description:
+## Meta Description
 
 Uncover the secrets of the Enneagram with our comprehensive guide to personality typing. Learn about the 9 types, take our free test, and find answers to FAQs.
 
-## Page Excerpt:
+## Page Excerpt
 
 Uncover the secrets of the Enneagram and discover your personality type with our comprehensive guide. Our free test, FAQs, and expert insights will help you understand yourself better.
 
-## References:
+## References
 
-The Enneagram Institute: https://www.enneagraminstitute.com/
-Truity: https://www.truity.com/test/enneagram-personality-test
-Integrative Enneagram Solutions: https://www.integrative9.com/enneagram/
-Verywell Mind: https://www.verywellmind.com/the-enneagram-of-personality-2795988
-Forbes Health: https://www.forbes.com/health/mind/enneagram-meaning-personality-types-test/
+The Enneagram Institute: <https://www.enneagraminstitute.com/>
+Truity: <https://www.truity.com/test/enneagram-personality-test>
+Integrative Enneagram Solutions: <https://www.integrative9.com/enneagram/>
+Verywell Mind: <https://www.verywellmind.com/the-enneagram-of-personality-2795988>
+Forbes Health: <https://www.forbes.com/health/mind/enneagram-meaning-personality-types-test/>
 
-## Slug:
+## Slug
 
 /how-to-discover-your-enneagram-type
 
 Page Excerpt:
 The Enneagram is a fascinating personality model that describes people in terms of nine interconnected personality types. Discover the meaning behind each type and how it can help you better understand yourself and those around you.
-
-
 
 patterns of behavior

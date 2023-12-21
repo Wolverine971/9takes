@@ -44,6 +44,4 @@ why do people steal catalytic converters
 Paul English talking about a new social media platform
 https://www.youtube.com/watch?v=UUZE7eK2dho&t=2566s
 
-
 rubbing people the wrong way
-

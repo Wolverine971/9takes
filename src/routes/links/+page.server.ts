@@ -3,7 +3,6 @@ import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async (event) => {
-
 	const session = event.locals.session;
 
 	if (!session?.user?.id) {
@@ -17,14 +16,10 @@ export const load: PageServerLoad = async (event) => {
 
 	if (findUserError) {
 		console.log('findUserError', findUserError);
-
 	} else if (userResp?.admin) {
-		return {}
+		return {};
 	}
 	throw redirect(307, '/questions');
-
 };
 
-export const actions: Actions = {
-
-};
+export const actions: Actions = {};
