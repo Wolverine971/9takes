@@ -29,6 +29,21 @@ mental health issues caused by social media
 74. how to meet a life partner, 50
 75. christian dating help, 20
 
-
 WEWorks founder Personality analysis clip, Adam Newman
 https://youtu.be/Ro4KM2vJDkY?si=Yw5KyqkwmJ52dUyi&t=380
+
+Go look up behaviors
+
+why do people lie
+why do people cheat
+
+Memetic Desires
+
+why do people steal catalytic converters
+
+Paul English talking about a new social media platform
+https://www.youtube.com/watch?v=UUZE7eK2dho&t=2566s
+
+
+rubbing people the wrong way
+

@@ -202,3 +202,7 @@ Forbes Health: https://www.forbes.com/health/mind/enneagram-meaning-personality-
 
 Page Excerpt:
 The Enneagram is a fascinating personality model that describes people in terms of nine interconnected personality types. Discover the meaning behind each type and how it can help you better understand yourself and those around you.
+
+
+
+patterns of behavior
