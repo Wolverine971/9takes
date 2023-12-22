@@ -12,12 +12,7 @@
 				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
 			</li>
 			<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
-				<a
-					href="/questions"
-					class="{!data?.session?.user && 'disabled'} {$page.url.pathname.startsWith('/questions')
-						? 'active-link'
-						: ''}">Questions</a
-				>
+				<a href="/questions" class={'active-link'}>Questions</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/blog' ? 'page' : undefined}>
 				<a href="/blog" class={$page.url.pathname === '/blog' ? 'active-link' : ''}>Blog</a>

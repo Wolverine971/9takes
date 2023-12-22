@@ -148,31 +148,28 @@
 						</div>
 					</a>
 					<a
-						title={!data?.session?.user?.id ? 'Not available yet' : ''}
-						href={!data?.session?.user?.id ? '#' : '/questions'}
-						class="a-wrap {!data?.session?.user?.id && 'disabled'}"
+						title={'Questions with at least 9 takes'}
+						href={'/questions'}
+						class=" {$page.url.pathname === '/questions' ? 'active-link' : ''} a-wrap"
 					>
 						<div
-							class="nav-text nav-element {data?.session?.user?.id
-								? 'nav-element1'
-								: ''} {$page.url.pathname.startsWith('/questions') && data?.session?.user?.id
+							class="nav-text nav-element nav-element1 {$page.url.pathname.startsWith('/questions')
 								? 'active-link'
 								: ''}"
 							style=""
 						>
 							QUESTIONS
 						</div>
-						{#if data?.session?.user?.id}
-							<div
-								class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions') &&
-								data?.session?.user?.id
-									? 'active-link'
-									: ''}"
-								style=""
-							>
-								QUESTIONS
-							</div>
-						{/if}
+						<!-- {#if data?.session?.user?.id} -->
+						<div
+							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions')
+								? 'active-link'
+								: ''}"
+							style=""
+						>
+							QUESTIONS
+						</div>
+						<!-- {/if} -->
 						<!-- <div
 						class="nav-element-disabled nav-element2  {$page.url.pathname.startsWith('/questions')
 							? 'active-link'
@@ -230,19 +227,19 @@
 							<img src={account} alt="Account" />
 						</button>
 					</div>
-					<!-- not yet ready to allow registration and login
+					<!-- not yet ready to allow registration and login -->
 				{:else}
-				<div class=" right login">
-					<button
-						type="button"
-						on:click={() => {
-							goto('/login');
-						}}
-						class="corner-icon"
-					>
-						Login/ Register
-					</button>
-				</div> -->
+					<div class=" right login">
+						<button
+							type="button"
+							on:click={() => {
+								goto('/login');
+							}}
+							class="corner-icon"
+						>
+							Sign Up/ In
+						</button>
+					</div>
 				{/if}
 				<!-- </div> -->
 			</nav>

@@ -43,9 +43,8 @@
 				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
 				<li>
 					<a
-						href={data?.session?.user?.id ? '/questions' : ''}
-						class="{$page.url.pathname.startsWith('/questions') ? 'active-link' : ''} {!data
-							?.session?.user && 'disabled'}">Questions</a
+						href={'/questions'}
+						class={$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}>Questions</a
 					>
 				</li>
 				<li>

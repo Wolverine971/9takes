@@ -39,7 +39,7 @@
 	const goToCreateQuestionPage = () => {
 		// cannot create question if you are not logged in
 		if (!data?.session?.user?.id) {
-			notifications.warning('Must be logged in to ask a question', 3000);
+			// notifications.warning('Must be logged in to ask a question', 3000);
 			goto(`/register`, { invalidateAll: true });
 		}
 
