@@ -1,6 +1,5 @@
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
-
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
@@ -35,6 +34,22 @@ export async function load(event) {
 		userid: session?.user?.id || null
 	});
 
+	const {
+		data: questionTags,
+		error: questionTagsError
+	} = await supabase
+		.from('question_tags')
+		.select(
+			`*, question_tag(*)`,
+			{ count: 'exact' }
+		)
+		.eq('question_id', question?.id)
+
+	if (questionTagsError) {
+		console.log('No question tags for question', questionTagsError);
+	}
+
+
 	if (!userHasAnswered) {
 		const { count: commentCount } = await supabase
 			.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -46,6 +61,7 @@ export async function load(event) {
 			question,
 			comments: [],
 			comment_count: commentCount,
+			questionTags,
 			session,
 			flags: {
 				userHasAnswered: userHasAnswered,
@@ -104,6 +120,7 @@ export async function load(event) {
 			comment_count: questionCommentCount,
 			links: questionLinks,
 			links_count: questionLinksCount,
+			questionTags,
 			session,
 			flags: {
 				userHasAnswered: userHasAnswered,
@@ -128,6 +145,7 @@ export async function load(event) {
 		ai_comments: aiComments,
 		links: questionLinks,
 		links_count: questionLinksCount,
+		questionTags,
 		session,
 		flags: {
 			userHasAnswered: userHasAnswered,
@@ -173,24 +191,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -269,25 +287,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						author_id: null,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')

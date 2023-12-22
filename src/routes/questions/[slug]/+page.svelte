@@ -146,6 +146,20 @@
 		/>
 	</div>
 </article>
+<aside>
+	{#if data.questionTags}
+		{#each data.questionTags as tag}
+			<a
+				href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
+				class="tag"
+				style="text-decoration: none; color: hsl(222, 15%, 19%);"
+				rel="tag"
+			>
+				{tag.question_tag.tag_name}
+			</a>
+		{/each}
+	{/if}
+</aside>
 
 {#if dataForChild}
 	<QuestionContent
@@ -170,4 +184,40 @@
 
 		margin: 0.25rem;
 	}
+
+	aside {
+	}
+
+	.tag {
+		display: flex;
+		text-wrap: nowrap;
+		align-items: center;
+		justify-content: center;
+		border-radius: 5px;
+		font-size: 0.8rem;
+		margin: 0.25rem;
+		padding: 0.25rem;
+		border: var(--classic-border);
+		width: fit-content;
+		cursor: pointer;
+		&:hover {
+			background-color: var(--color-p-light);
+		}
+	}
+
+	@media (min-width: 1600px) {
+		aside {
+			position: fixed;
+			margin-left: 975px;
+		}
+	}
+
+	// @media (max-width: 700px) {
+	aside {
+		position: relative;
+		right: 0;
+		display: flex;
+		overflow-x: scroll;
+	}
+	// }
 </style>
