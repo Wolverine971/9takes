@@ -38,7 +38,7 @@
 			<a href="/admin/questions">Questions</a> |
 			<a href="/admin/messages">Messages</a>
 		</div>
-		<details>
+		<details open>
 			<summary class="accordion">Visitors last 30 days</summary>
 
 			<div class="column panel">

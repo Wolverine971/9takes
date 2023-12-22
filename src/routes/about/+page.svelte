@@ -22,7 +22,7 @@
 <svelte:window bind:innerWidth />
 
 <div style=" margin:20px;">
-	<h1 style="text-align: center;">Who is behind 9takes and what is it?</h1>
+	<h1 style="text-align: center;">Allow me to introduce myself</h1>
 
 	<div>
 		<div

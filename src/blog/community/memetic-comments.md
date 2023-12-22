@@ -1,6 +1,6 @@
 ---
 title: 'Memetic comments'
-description: "How seeing other people's comments pushes people to imitate or attack the other person"
+description: "The Echo Chamber Effect: How Online Comments Shape Our Views"
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/blog/community/memetic-comments'
@@ -39,15 +39,27 @@ pic: 'greek-sculpture-on-a-laptop'
 </div>
 
 <p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
+Online discussions are like battlegrounds. You are either 'for' or 'against' whatever the topic is. This polarized nature fosters mimicry or conflict rather than constructive conversations. Comments on forums often turn memetic. They spread fast, fueling anger and hostility in digital realms. A key factor here is seeing others' comments before adding our own. This post explores how this visibility shapes our responses, often limiting diverse perspectives in online debates.
 
-Are you for or against something? That is how many online discussions devolve. Discussions devolve into binary yesses and noes. And you have to choose sides. 
+## Understanding the Memetic Effect:
 
-Comments pile on either side of an issue and the temperature of the disagreement gets raised.
+People easily mirror the opinions they see online, especially when anonymity and impulsivity play in. The common habit of reading comments first often leads to cherry-picking opinions. This primes individuals for conflict and creates echo chambers. Complex discussions thus get reduced to simple arguments, overshadowing a wealth of perspectives. To break this cycle, we must encourage the exploration of varied viewpoints and lessen the sway of pre-existing comments.
 
-It is said that anger spreads quickly when people don't know each other. And online forums are the perfect breeding grounds for anger and hate to grow stronger. 
 
-One thing that exacerbates the issues is that people can see what everyone is saying before they comment. They choose what opinions or takes on a topic they like and don't like without giving their own first. In this, they are being primed to fight and 
+## Exploring 'Memetic': René Girard and Online Echo Chambers:
 
-Furthermore, this often prematurely reduces the topic or discussion to binary fights. There are many angles on a topic, and many remain hidden while the people debating take up oxygen in the thread. People should be able to hear all sides of an argument on a topic before "sides" are created, and lines in the sand are drawn.
+The term 'memetic' comes from René Girard's memetic theory. It suggests that our desires and behaviors are often copied from others, leading to rivalry and conflict. Furthermore, we are often unaware of what or whom we are copying. This theory can be seen in online forums. Comments often imitate popular or provocative opinions, creating similar responses. People are not saying original and authentic things. They are copying the opinions of the people they want to imitate.
 
-To nip this in the bud. It would help if you asked questions. And it would help if you did not see the comments before you comment.
+This only compounds when a person can see other people's comments. Rather than participating in the conversation, they choose who they want to imitate and who they want to be against.
+
+## Crafting Healthier Online Conversations:
+
+How can we replace impulse reactions with genuine curiosity and open-mindedness?
+
+**Question > Hot takes**. "Hot takes" create a binary situation where you either agree or disagree. Questions elicit a response and open the door for understanding. If people want to answer the question, they will. If they want to answer the question, they will respond.
+
+**Prompt users to reflect on their views before seeing others' comments**. Or hide the comments until you comment. This encourages independent thought and curbs the memetic trend in online interactions.
+
+Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding.
+
+The negative effects of mimetics can be stopped. And that is what 9takes is here to do.
