@@ -4,14 +4,14 @@ description: 'Explore 9takes: A unique Q&A platform fostering diverse, anonymous
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'
-lastmod: '2023-08-06'
+lastmod: '2023-12-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: 'greek-sculpture-on-a-laptop'
+pic: 'greek-statue-introducing-9takes'
 ---
 
 <svelte:head>
@@ -32,7 +32,7 @@ pic: 'greek-sculpture-on-a-laptop'
 	margin: 1rem 0;"
 >
  <PopCard
-		image={`/blogs/greek-sculpture-on-a-laptop.webp`}
+		image={`/blogs/greek-statue-introducing-9takes.webp`}
 		showIcon={false}
 		tint={false}
 		displayText=""
@@ -42,57 +42,70 @@ pic: 'greek-sculpture-on-a-laptop'
 
 </div>
 
-<p class="firstLetter">Where do we find authentic conversations today? Where do we discover diverse perspectives? How do we protect against developing echo chambers while also fostering a sense of community? I have not stumbled across that place but that is the place 9takes is going to become.<p>
+<p class="firstLetter">Where are the good conversations happening online? Are there any authentic conversations happening? Many discussions and forums devolve into echo chambers where people have to pick sides or silently accept the dominant culture.<p>
 
-The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. But instead of random posts from around the internet, users will post questions. You can do the same on reddit, but there is a catch. Actually there are two catches:
+9takes is trying to solve this problem.
 
-- One, is that you cannot see the answers to the questions until you post.
-- Two, is that users are anonymous. The only thing that identifies a user is their personality.
+The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. Reddit is centered around subreddits, with moderators forming separate cultures and rules for each subreddit. People post random things, and the mods determine if the post is on topic and if the comments within the post are in keeping with the subreddit's culture. This system works well for niche subreddits with very few members and bot armies wanting to get a message across.
 
-I will touch on this more in a minute but I want to address why 9takes is focused on questions.
+Reddit has two main problems:
+
+- First, the subreddits are arbitrary. They are topics of conversation that have gatekeepers. While this does help the subreddit stay on topic, it also stifles potential conversation. 
+- The second is that users can passively see the comments without participating. This allows lurkers and bots to roam freely.
+
+What if we had a different model?
+
+- What if we had questions instead of random posts? 
+- And what if you could only see the answers to the questions once you post?
+
 
 ## Questions unlock everything
 
 At a high level, questions are why people are on the internet. "Who is blank? What is blank? Where is blank? When is blank? How does blank?"
 
-**Google** tries to serve you something accurate. But that accuracy is based on inferring the underlying question and matching it statistically to the data it has determined is relevant. There is a lot of room for error in that equation. So people have been going to reddit.
+**Google** tries to serve you something accurate based on your search terms. But that accuracy is based on inferring the underlying question and matching it statistically to the data it has determined is relevant or the data that someone is paying you to see. That equation has much room for error, which is why people have been going to Reddit.
 
-**Reddit** has a bunch of posts but it also can provide you answers to your questions you have. The trick with reddit is finding the right subreddit to ask you questions. Also these subreddit have their own cultures and it may not be in their best interest to provide you a good answer to your question. It might be in their best interest to troll you or say something funny in order to earn the approval and karma points of others on the subreddit.
+**Reddit** has a bunch of posts, but it also can provide you with answers to your questions. The trick with Reddit is finding the right subreddit to ask you questions. As mentioned, these subreddits have subcultures, and beginners and outsiders often do not receive a warm welcome. Hopefully, someone has asked a question relevant to your question, or you can lurk and find a conversation mentioning your search term.
 
-Recently **ChatGPT** has come out and it will answer your questions pretty well. But the only catch is the language learning model has been trained on google and reddit data and therefore has limited creativity and originality. Any new information it produces is inferred from the data it was trained on.
+**ChatGPT** and large language models have answered your questions well. The only catch is that the model has been trained on Google and Reddit data. Its ability to be creative and original is limited to the data it was introduced on. However, the LLMs are getting better every day. One day, an AI agent can answer all your questions.
 
-These will all provide answers to your questions. But they are looking for the singular most accurate answer. If you are looking for a singular answer, cool, go to one of the above. The thing is that many of the most important questions that we can ask don't have a one right answer. Many questions require diverse perspectives and insightful opinions.
+There are many ways to get answers to your questions. But most of these options are tailored to give you the most accurate answer. There is a difference between wanting correct answers and wanting creative answers. If you are looking for a singular, more precise answer, go to one of the above or go to Quora (lol). But you need something else if you are looking for a creative answer. 
 
+Many of the most important questions have a different answer. Many questions require diverse perspectives and insightful opinions, and great questions give birth to more questions and trains of thought. The purpose of 9takes is to flesh out these unexplored questions and trains of thought.
+
+Do the following questions have one correct answer?
+
+- [What is something about yourself that is never going to change](https://9takes.com/questions/something-going-change-yourself)
 - What is the best way to balance work and personal life?
 - How do you feel about online learning and its effectiveness?
 - What is the best educational system?
 - How should I approach getting a girlfriend?
 - How are you balancing caring for kids and aging parents?
 - What does it mean to lead a good life?
-- How have your relationships changed over time, and why do I think that is?
+- How have your relationships changed over time, and why is that?
 - How do you show someone you are interested in them?
 
-Questions can be anything from simple to complex, timeless to basic. But we are all searching for answers to our questions and 9takes will be the place to ask questions.
+Questions can be anything from simple to complex, timeless to basic. We are all searching for answers to our questions.
 
 ## Back to what makes 9takes different
 
-### Why you cannot see the answers to the questions until you post?
+### Why can you only see the answers to the questions once you post?
 
-This is because your answer will be biased if you are able to see what everyone else said before you answer. In order to provide an authentic and original answer to a question, you shouldn't be influenced by what everyone else said, you should be you. Give your take not what you think is the right or funny or nice take.
+This is because your answer will be biased if you can see what everyone else said before you answer. To provide an authentic and original answer to a question, you shouldn't be influenced by what everyone else says; you should be yourself. Give your take, different from what you think is the proper, funny, or nice take.
 
 ### Why are users anonymous?
 
-Users are anonymous so that they can be honest about their true thoughts, feelings, and opinions. Users shouldn't be worrying about their personal brand when trying to answer a question. Just give your honest take.
+Users are anonymous so that they can be honest about their true thoughts, feelings, and opinions. Users shouldn't worry about their brand when answering a question. Just give your honest take.
 
 ### What do you mean a user is identified by their personality?
 
-When you answer a question your selected "personality" is displayed next to your answer. The personality system 9takes uses is the Enneagram. The Enneagram is a personality system where human psychology and philosophy meet and there are many reasons why it has been selected as the preferred personality system.
+Your selected "personality" is displayed next to your answer when you answer a question. The personality system 9takes uses is the Enneagram. The Enneagram is a personality system where human psychology and philosophy meet, and there are many reasons why it has been selected as the preferred personality system.
 
-**But why are users identified by their personality?** People of the same personality or same Enneagram type will see the world similarly. This presents an opportunity to distinguish between similar and different perspectives or takes on a question. If 10 people of the same personality type answer a question, you are not going to be getting many new perspectives because they are all the same personality. However if 10 people of different personalities answer the question, you will have some significant differences in perspectives. Even if 10 people answering the same question it will be interesting. Theoretically there will be some common thread between people of the same personality types but the variations are the important bits.
+**But why does their personality identify users?** People of the same personality or Enneagram type will see the world similarly. This presents an opportunity to distinguish between similar and different perspectives or takes on a question. If ten people of the same personality type answer a question, you will not get a few new perspectives because they are all the same personality. However, if ten people of different personalities answer the question, you will have significant differences in perspectives. Even if ten people answer the same question, it will be interesting. Theoretically, there will be some common thread between people of the same personality types, but the variations are essential.
 
 ## 9takes allows for nuance
 
-In a world where absolutes and fact checking we forget that many of the things we are searching for don't have black and white answers. 9takes invites users to explore different takes on questions because there is not just one right perspective. There is a kaleidoscope of different takes and diamonds in the rough waiting to be uncovered.
+In a world where absolutes and fact-checking, we forget that many of the things we are searching for don't have black-and-white answers. 9takes invites users to explore different takes on questions because there is more than one perspective. There is a kaleidoscope of different takes and diamonds in the rough waiting to be uncovered.
 
 <!-- But most of our time on the internet is spent searching for the answers to our
 However all  -->

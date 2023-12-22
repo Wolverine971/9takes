@@ -45,3 +45,5 @@ Paul English talking about a new social media platform
 https://www.youtube.com/watch?v=UUZE7eK2dho&t=2566s
 
 rubbing people the wrong way
+
+throwing the baby out with the bath water

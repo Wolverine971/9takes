@@ -11,12 +11,12 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'greeks-debating-human-nature'
 ---
 
-<!-- <script>
+<script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
-</script> -->
+</script>
 
 <p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? No... but there have been two main perspectives that keep coming up that are worth looking at. One theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
 
@@ -38,6 +38,21 @@ Plato had a complicated view of human nature, but his pupil Aristotle had a simp
 ## What was Plato's view?
 
 Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪.
+
+<div
+    style="display: flex;
+    justify-content: center;
+margin: 1rem 0;"
+>
+ <PopCard
+        image={`/blogs/greeks-debating-human-nature.webp`}
+        showIcon={false}
+        tint={false}
+        displayText=""
+        altText="Greeks debating human nature"
+        subtext=""
+    />
+</div>
 
 ## Unified concepts: Plato's "soul" and Freud's "psyche"
 
@@ -126,10 +141,16 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-02",
+      "dateModified": "2023-12-21",
       "datePublished": "2023-07-16",
       "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
       "headline": "The Consensus on Human Nature",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greeks-debating-human-nature.webp",
+        "width": 900
+      },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/community/consensus-on-human-nature",
         "@type": "WebPage"

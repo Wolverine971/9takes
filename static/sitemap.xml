@@ -50,7 +50,13 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/community/introducing-9takes</loc>
-<lastmod>2023-08-06T00:00:00.000Z</lastmod>
+<lastmod>2023-12-21T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/blog/community/memetic-comments</loc>
+<lastmod>2023-12-21T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>

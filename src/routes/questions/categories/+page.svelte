@@ -53,7 +53,7 @@
 							<img
 								alt="nuthin"
 								class="list__image"
-								src="https://picsum.photos/id/{index + 1}1/500/500"
+								src={`/blogs/${category.tag_name.split(' ').join('-')}.webp`}
 								width="400"
 								height="400"
 							/>
