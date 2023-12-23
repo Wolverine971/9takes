@@ -110,7 +110,7 @@ export const actions: Actions = {
 		let esId = null;
 		if (demo_time === false) {
 			const resp: any = await createESQuestion(body);
-			if (resp._id) {
+			if (resp?._id) {
 				esId = resp._id;
 			}
 		}

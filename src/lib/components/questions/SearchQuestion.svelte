@@ -12,7 +12,7 @@
 	const goToCreateQuestionPage = () => {
 		// cannot create question if you are not logged in
 		if (!data?.session?.user?.id) {
-			notifications.warning('Must be logged in', 3000);
+			goto(`/register`, { invalidateAll: true });
 		}
 		const val = question;
 		let url: string;
@@ -60,6 +60,20 @@
 	const goToPage = async (page: any) => {
 		goto(`/questions/${page.url}`, {});
 	};
+
+	const questionDisplay = ()=>{
+		if(data?.session?.user?.id){
+			if(data?.canAskQuestion){
+				return 'Create question'
+			}else {
+				return 'Only 10 questions per day'
+			}
+
+		}else {
+			return 'Register to ask a question'
+		} 
+	}
+
 </script>
 
 <form class="question-form">
@@ -77,19 +91,17 @@
 		</Context>
 	</div>
 
-	{#if data?.session?.user?.id}
 		<button
 			class="btn btn-primary {!data?.session?.user?.id && 'btn-disabled'}"
 			type="button"
-			disabled={!data?.session?.user?.id}
+			disabled={data?.session?.user?.id && !data?.canAskQuestion}
 			on:click={() => {
 				goToCreateQuestionPage();
 			}}
-			title={data?.session?.user?.id ? 'Create a question' : 'Must be logged in to create question'}
+			title={questionDisplay()}
 		>
-			Create Question
+			{questionDisplay()}
 		</button>
-	{/if}
 </form>
 
 <style lang="scss">

@@ -12,12 +12,11 @@
 	// 	count: number;
 	// }
 
-	let count = 20;
-
 	export let data: PageData;
 
 	const questionUrls: any = {};
 	const questionCategories: any = {};
+	let count = 20;
 
 	const categories = data.questionsAndTags?.reduce((acc: any, curr: any) => {
 		if (!questionUrls[curr.url]) {
@@ -63,22 +62,7 @@
 <div>
 	<h1 style="display: flex; justify-content: space-between; align-content: center">
 		<span>{data?.session?.user?.id ? 'Search or ask a question' : 'Search Questions'} </span>
-		{#if !data?.session?.user?.id}
-			<button
-				class="btn btn-primary"
-				style="display: flex; 
-			justify-content: space-between; 
-			align-items: center"
-				type="button"
-				on:click={() => {
-					goToCreateQuestionPage();
-				}}
-				title={data?.session?.user?.id ? 'Create a question' : 'Register to ask a question'}
-			>
-				{data?.session?.user?.id ? 'Create question' : 'Register to ask a question'}
-				<RightIcon iconStyle={'margin-left: .5rem;'} height={'1rem'} fill={'#5407d9'} />
-			</button>
-		{/if}
+		
 	</h1>
 
 	<SearchQuestion {data} />

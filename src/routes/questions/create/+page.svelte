@@ -112,7 +112,7 @@
 
 <div class="">
 	<h1 style="text-align: center">Ask a question</h1>
-	<form action="?/getUrl" method="POST" class="auth-form">
+	<form action="?/getUrl" method="POST" class="auth-form" style="margin: 0">
 		<textarea
 			rows="3"
 			name="question"
@@ -131,9 +131,9 @@
 			<hr />
 			<!-- <p>Tag your question:</p> -->
 			<div class="flex-center">
-				<div class="warning">
+				<!-- <div class="warning">
 					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
-				</div>
+				</div> -->
 
 				<img id="qr-image" src="" alt="QR Code" />
 
@@ -156,7 +156,6 @@
 		padding: 0.5rem;
 		border: var(--classic-border);
 		border-radius: 5px;
-		field-sizing: content;
 	}
 	.modal-size {
 		height: 100%;

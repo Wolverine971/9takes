@@ -108,7 +108,7 @@
 
 <Toast />
 {#if $page.url.pathname !== '/'}
-	<BackNavigation isAdmin={data} />
+	<BackNavigation />
 {/if}
 <main
 	class="{$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url.pathname !== '/signup'
