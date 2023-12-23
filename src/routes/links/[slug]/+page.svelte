@@ -9,6 +9,7 @@
 	import { browser } from '$app/environment';
 	import { QuestionItem } from '$lib/components/molecules';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
 
 	export let data: PageData;
 
@@ -124,6 +125,8 @@
 			<p># of Drops: {data.linkDrop?.number_of_drops || 0}</p>
 			<p>Hits: {data.linkDrop?.number_of_hits || 0}</p>
 		</div>
+
+		<LinkMap linkDrops={[data.linkDrop]} />
 	{/if}
 </div>
 

@@ -2,10 +2,9 @@
 	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import QRCode from 'qrcode';
+	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
 
 	export let data: PageData;
-
-	let email = '';
 
 	const opts = {
 		errorCorrectionLevel: 'H',
@@ -45,6 +44,8 @@
 			</div>
 		{/each}
 	</div>
+
+	<LinkMap linkDrops={data?.linkDrops} />
 </div>
 
 <style lang="scss">

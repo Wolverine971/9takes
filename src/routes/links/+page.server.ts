@@ -17,7 +17,18 @@ export const load: PageServerLoad = async (event) => {
 	if (findUserError) {
 		console.log('findUserError', findUserError);
 	} else if (userResp?.admin) {
-		return {};
+
+		const { data: linkDrops, error: linkDropsError } = await supabase
+			.from('link_drops')
+			.select('*,  addresses(*), questions(*)')
+
+		if (linkDropsError) {
+			console.log('linkDropsError', linkDropsError);
+		}
+
+
+
+		return { linkDrops };
 	}
 	throw redirect(307, '/questions');
 };

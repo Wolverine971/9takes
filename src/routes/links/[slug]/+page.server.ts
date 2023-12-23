@@ -22,7 +22,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const { data: linkDrop, error: linkDropError } = await supabase
 		.from('link_drops')
-		.select('*')
+		.select('*,  addresses(*), questions(*)')
 		.eq('external_id', event.params.slug)
 		.single();
 
