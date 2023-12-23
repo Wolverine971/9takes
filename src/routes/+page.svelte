@@ -31,7 +31,7 @@
 <!-- <main> -->
 <section>
 	<div class="landing-column">
-		<div class="big-points center-align" style="margin-top: 100px;">
+		<div class="big-points center-align flex-center" style="margin-top: 100px;">
 			<div class="main-preview" style="margin: 5rem 0;">
 				<img
 					src="/9takes-preview.webp"
@@ -53,7 +53,7 @@
 			How we see the World -->
 		</div>
 		{#if !data?.session?.user?.id}
-			<div class="big-points center-align">
+			<div class="big-points center-align flex-center">
 				<div style="margin: 5rem 0;">
 					<h2>NOT YET RELEASED</h2>
 					<h2>
@@ -73,7 +73,7 @@
 				</div>
 			</div>
 		{/if}
-		<div class="big-points center-align">
+		<div class="big-points center-align flex-center">
 			<div>
 				<h2>How we see the World</h2>
 
@@ -129,7 +129,7 @@
 			</div>
 		</Jumbotron>
 
-		<div class="big-points">
+		<div class="big-points flex-center">
 			<h3 style="">What is 9takes?</h3>
 			<p style="">
 				An anonymous question and answering platform based on the Enneagram personality system. It
@@ -169,7 +169,7 @@
 						To find and connect with people that think, feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
 					</p> -->
-		<div class="big-points">
+		<div class="big-points flex-center">
 			<h3 style="">What is different?</h3>
 			<p class="">
 				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
@@ -237,7 +237,7 @@
 							with the Enneagram there are a slew of blogs to checkout.
 						</li>
 					</ul> -->
-		<div class="big-points">
+		<div class="big-points flex-center">
 			<h3 style="">Creating the following magic moments:</h3>
 			<ul>
 				<li>
@@ -353,26 +353,15 @@
 	}
 
 	.landing-column {
-		/* display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center; */
 		display: grid;
 		grid-template-columns: 1fr;
-		/* column-count: 3; */
 		column-gap: 1.25rem;
 		grid-gap: 10rem;
-		/* gap: 10%; */
 	}
 	.big-points {
-		/* min-height: 80vh; */
 		max-width: 50%;
 		min-width: 400px;
 		width: 100%;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
 		margin: auto;
 	}
 	.center-align {

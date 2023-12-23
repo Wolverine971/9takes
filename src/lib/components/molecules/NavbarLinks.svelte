@@ -186,21 +186,15 @@
 	.subnav-content {
 		display: none;
 		position: absolute;
-		// top: 100px;
-		// left: 0;
 		background-color: var(--color-paladin-1);
-		// width: 100%;
-		// display: flex;
 		flex-direction: column;
 		left: 100%;
-		// top: 0;
 		z-index: 1234;
 	}
 
 	.subnav-content a {
 		float: left;
 		color: var(--color-theme-purple);
-		// text-decoration: none;
 		z-index: 1234;
 	}
 
@@ -246,17 +240,13 @@
 
 	.navbar-blogs a:hover,
 	.main-subnav:hover .main-subnavbtn {
-		// background-color: var(--color-paladin-1);
 		z-index: 1234;
 	}
 
 	.main-subnav-content {
 		display: none;
 		position: absolute;
-		// left: 0;
 		background-color: var(--color-paladin-1);
-		// width: 100%;
-		// display: flex;
 		flex-direction: column;
 		z-index: 1234;
 	}
@@ -264,7 +254,6 @@
 	.main-subnav-content a {
 		float: left;
 		color: var(--color-theme-purple);
-		// text-decoration: none;
 		z-index: 1234;
 	}
 

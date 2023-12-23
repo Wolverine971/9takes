@@ -177,7 +177,7 @@
 			/>
 		{/if}
 
-		<div class="pop-card-user">
+		<div class="pop-card-user flex-center">
 			{#if showDescription && enneagramType}
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
 					<p class="big-p">
@@ -366,9 +366,7 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
+		
 		gap: 1rem;
 		position: relative;
 	}

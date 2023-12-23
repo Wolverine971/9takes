@@ -60,7 +60,7 @@
 							<span class="list__text">
 								<a
 									href={`/questions/categories/${category.tag_name.split(' ').join('-')}`}
-									class="list_link bold-shadow"
+									class="list_link bold-shadow flex-center"
 								>
 									<span style="text-align: center;">{category.tag_name}</span>
 									<span>{category.question_count}</span>
@@ -97,10 +97,6 @@ https://codepen.io/derekmorash/pen/jyMGaX -->
 	}
 
 	.list_link {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		color: whitesmoke !important;
 	}
 	.list {

@@ -7,7 +7,6 @@
 
 <div style="margin-bottom:5rem;">
 	<h3 style="text-align: center;">More</h3>
-	<!-- <div class="row"> -->
 	<div class="blog-previews">
 		{#each posts.slice(0, innerWidth > 920 ? 10 : 6) as { slug, title, author, description, date }}
 			<a class="suggestion-link" href={slug}>
@@ -19,8 +18,6 @@
 			</a>
 		{/each}
 	</div>
-
-	<!-- </div> -->
 </div>
 
 <style lang="scss">

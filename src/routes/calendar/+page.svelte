@@ -8,7 +8,7 @@
 {#if dev}
 	<div class="text-column">
 		<h1>Content Calendar</h1>
-		<div class="display-emails">
+		<div class="flex-center">
 			<iframe
 				src="https://calendar.google.com/calendar/embed?src=usersup%409takes.com&ctz=America%2FNew_York"
 				style="border: 0"
@@ -22,10 +22,4 @@
 {/if}
 
 <style lang="scss">
-	.display-emails {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 </style>

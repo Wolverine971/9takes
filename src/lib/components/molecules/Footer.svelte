@@ -5,7 +5,7 @@
 	export let data: any;
 </script>
 
-<footer class="footer column">
+<footer class="footer flex-center">
 	<div style="margin: 2rem 2rem 1rem 2rem;">
 		<ul class="footer-links">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
@@ -53,10 +53,6 @@
 		gap: 10px;
 	}
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		padding: 12px;
 		margin: 0 1rem;
 

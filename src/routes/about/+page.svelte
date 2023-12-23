@@ -41,9 +41,7 @@
 					if (e?.key === 'Enter') showLaser = !showLaser;
 				}}
 			>
-				<picture
-					style="display: flex; flex-direction: column; justify-content: center; align-items: center;"
-				>
+				<picture class="flex-center">
 					{#if showLaser}
 						<source
 							style="display: {showLaser ? 'block' : 'none'};"

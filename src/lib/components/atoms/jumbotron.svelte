@@ -256,51 +256,9 @@
 		width: 100%;
 	}
 
-	.jumbo-card > .jumbo-card-content > .jumbo-card-icon {
-		color: var(--color-paladin-1, white);
-		font-size: 4rem;
-		text-shadow: 0 0 0.5rem #fff;
-	}
+	
 
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		position: relative;
-	}
 
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user:after {
-		height: 3px;
-		width: 30px;
-		translate: 26px calc(-1rem - 0.5px);
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > :is(.jumbo-name, .link) {
-		font-family: 'Source Code Pro', monospace;
-		color: var(--color-paladin-1, white);
-		text-align: center;
-		text-transform: uppercase;
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .jumbo-name {
-		position: relative;
-		font-size: 3.25rem;
-		font-weight: 400;
-		margin: 1rem;
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .link {
-		opacity: 0.8;
-		font-size: 1.5rem;
-		text-shadow: 0 0 0.5rem #fff;
-		font-weight: 400;
-		letter-spacing: 0.3rem;
-		text-decoration: none;
-	}
-
-	.jumbo-card > .jumbo-card-content > .jumbo-card-user > .link:is(:hover, :focus) {
-		text-decoration: underline;
-	}
 
 	@keyframes rotate {
 		from {

@@ -157,7 +157,7 @@
 			</div>
 
 			<div class="small-div">
-				<div style="display: flex; flex-direction: column;">
+				<div class="flex-center">
 					Tags
 					<button
 						class="btn btn-primary"

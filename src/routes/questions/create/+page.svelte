@@ -130,7 +130,7 @@
 			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
 			<hr />
 			<!-- <p>Tag your question:</p> -->
-			<div class="center">
+			<div class="flex-center">
 				<div class="warning">
 					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
 				</div>
@@ -175,10 +175,5 @@
 		margin: 1rem;
 		padding: 0.5rem;
 	}
-	.center {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+	
 </style>

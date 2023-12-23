@@ -371,6 +371,13 @@ section {
 	height: 100%;
 }
 
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .drop-down {
 	display: flex;
 	align-items: center;

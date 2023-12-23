@@ -11,7 +11,7 @@
 <div style="position: relative; z-index: 11;">
 	{#if !active}
 		<button
-			class="hamburger menu-trigger"
+			class="hamburger flex-center menu-trigger"
 			aria-label="Toggle navigation"
 			on:click={() => {
 				getModal('mobile').open();
@@ -24,7 +24,7 @@
 		</button>
 	{:else}
 		<button
-			class="hamburger close-trigger "
+			class="hamburger flex-center close-trigger "
 			aria-label="Toggle navigation"
 			on:click={() => {
 				getModal('mobile').close();
@@ -83,10 +83,6 @@
 	/* Add your CSS styles here */
 	.hamburger {
 		margin: 1rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
 		width: 50px;
 		height: 50px;
 		background-color: transparent;
