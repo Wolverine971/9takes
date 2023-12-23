@@ -17,16 +17,13 @@ export const load: PageServerLoad = async (event) => {
 	if (findUserError) {
 		console.log('findUserError', findUserError);
 	} else if (userResp?.admin) {
-
 		const { data: linkDrops, error: linkDropsError } = await supabase
 			.from('link_drops')
-			.select('*,  addresses(*), questions(*)')
+			.select('*,  addresses(*), questions(*)');
 
 		if (linkDropsError) {
 			console.log('linkDropsError', linkDropsError);
 		}
-
-
 
 		return { linkDrops };
 	}

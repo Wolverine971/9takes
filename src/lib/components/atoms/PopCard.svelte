@@ -366,7 +366,6 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user {
-		
 		gap: 1rem;
 		position: relative;
 	}

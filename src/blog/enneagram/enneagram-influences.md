@@ -13,11 +13,9 @@ blog: true
 previewHtml: ''
 ---
 
-
 <script>
 	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
 </script>
-
 
 <p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back tPo the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
 

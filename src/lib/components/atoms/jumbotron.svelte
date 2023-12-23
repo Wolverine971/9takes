@@ -256,10 +256,6 @@
 		width: 100%;
 	}
 
-	
-
-
-
 	@keyframes rotate {
 		from {
 			rotate: 0;

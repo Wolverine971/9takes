@@ -175,5 +175,4 @@
 		margin: 1rem;
 		padding: 0.5rem;
 	}
-	
 </style>

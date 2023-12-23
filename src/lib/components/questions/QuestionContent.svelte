@@ -167,7 +167,7 @@
 
 <!-- <hr style="border-top: 1px solid black; width: 100%;" /> -->
 
-<div class="tab-box">
+<div class="tab-div-display">
 	<div class="tabs">
 		{#if innerWidth > 575}
 			<a
@@ -213,7 +213,7 @@
 			<a
 				href="#comments"
 				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
-				style="display: flex; flex-direction: row;
+				style="display: flex;
 				justify-content: center;
 				align-items: center;"
 				on:click={() => (selectedTab = 'comments')}
@@ -278,7 +278,8 @@
 	</div>
 	<div class="slides">
 		<div
-			class="flexr {selectedTab === 'comments' && 'first'} container-js"
+			style="position: relative;"
+			class="flexr {selectedTab === 'comments' && 'first'}"
 			id="comments"
 			bind:this={commentContainerElement}
 		>
@@ -366,10 +367,6 @@
 		writing-mode: vertical-lr;
 	}
 
-	.container-js {
-		position: relative;
-	}
-
 	.scroll-js {
 		position: relative;
 	}
@@ -387,12 +384,6 @@
 		left: -4rem;
 		z-index: 123;
 		margin: 1rem;
-	}
-
-	.tab-header {
-		border: 1px solid var(--color-paladin-2);
-		border-radius: 5px;
-		text-align: center;
 	}
 
 	.tab-links {
@@ -417,7 +408,7 @@
 		position: relative;
 	}
 
-	.tab-box {
+	.tab-div-display {
 		display: flex;
 		flex-flow: row wrap;
 	}
@@ -433,8 +424,6 @@
 	.tabs a {
 		overflow: hidden;
 		background-color: inherit;
-
-		// float: left;
 		border: none;
 		outline: none;
 		cursor: pointer;
@@ -505,10 +494,8 @@
 		display: flex;
 		flex-direction: column;
 		scroll-snap-type: x mandatory;
-		// scroll-padding: 30px 40px;
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
-		// touch-action: pan-x;
 		width: 100%;
 		min-height: 100vh;
 	}
@@ -523,15 +510,8 @@
 		border-radius: 10px;
 	}
 
-	// .slides::-webkit-scrollbar-track {
-	// 	// background: transparent;
-	// }
-
 	.slides > div {
 		scroll-snap-align: center;
-		// scroll-padding: 30px 40px;
-
-		// transform-origin: center center;
 		transition: transform 0.5s;
 		position: relative;
 	}

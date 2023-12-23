@@ -1,3 +1,3 @@
-const contextKey = {}
+const contextKey = {};
 
-export { contextKey }
+export { contextKey };

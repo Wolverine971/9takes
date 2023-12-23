@@ -2,9 +2,6 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import twitter from '$lib/images/twitter.svg';
 
-	import type { PageData } from './$types';
-
-	export let data: PageData;
 	let showEmail = false;
 	let showLaser = true;
 	let innerWidth = 0;

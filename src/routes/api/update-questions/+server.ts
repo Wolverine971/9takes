@@ -54,11 +54,9 @@ export async function POST({ request, locals }) {
 		const questionText = body.questionText as string;
 
 		console.log(questionId, questionText);
-		await tagQuestion(questionText, parseInt(questionId))
+		await tagQuestion(questionText, parseInt(questionId));
 
 		return json({ data: { success: true } });
-
-
 	} catch (e) {
 		console.log(e);
 		throw error(400, {

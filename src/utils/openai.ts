@@ -172,7 +172,11 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 		await supabase
 			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.update({ tagged: true, updated_at: new Date(), question_formatted: chatResp.question_formatted || chatResp.question })
+			.update({
+				tagged: true,
+				updated_at: new Date(),
+				question_formatted: chatResp.question_formatted || chatResp.question
+			})
 			.eq('id', questionId)
 			.then(async () => {
 				const newTags = chatResp.tags;

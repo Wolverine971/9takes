@@ -1,6 +1,6 @@
 ---
 title: 'Memetic comments'
-description: "The Echo Chamber Effect: How Online Comments Shape Our Views"
+description: 'The Echo Chamber Effect: How Online Comments Shape Our Views'
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/blog/community/memetic-comments'
@@ -44,7 +44,6 @@ Online discussions are like battlegrounds. You are either 'for' or 'against' wha
 ## Understanding the Memetic Effect:
 
 People easily mirror the opinions they see online, especially when anonymity and impulsivity play in. The common habit of reading comments first often leads to cherry-picking opinions. This primes individuals for conflict and creates echo chambers. Complex discussions thus get reduced to simple arguments, overshadowing a wealth of perspectives. To break this cycle, we must encourage the exploration of varied viewpoints and lessen the sway of pre-existing comments.
-
 
 ## Exploring 'Memetic': René Girard and Online Echo Chambers:
 

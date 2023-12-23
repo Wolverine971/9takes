@@ -50,14 +50,13 @@ The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E
 
 Reddit has two main problems:
 
-- First, the subreddits are arbitrary. They are topics of conversation that have gatekeepers. While this does help the subreddit stay on topic, it also stifles potential conversation. 
+- First, the subreddits are arbitrary. They are topics of conversation that have gatekeepers. While this does help the subreddit stay on topic, it also stifles potential conversation.
 - The second is that users can passively see the comments without participating. This allows lurkers and bots to roam freely.
 
 What if we had a different model?
 
-- What if we had questions instead of random posts? 
+- What if we had questions instead of random posts?
 - And what if you could only see the answers to the questions once you post?
-
 
 ## Questions unlock everything
 
@@ -69,7 +68,7 @@ At a high level, questions are why people are on the internet. "Who is blank? Wh
 
 **ChatGPT** and large language models have answered your questions well. The only catch is that the model has been trained on Google and Reddit data. Its ability to be creative and original is limited to the data it was introduced on. However, the LLMs are getting better every day. One day, an AI agent can answer all your questions.
 
-There are many ways to get answers to your questions. But most of these options are tailored to give you the most accurate answer. There is a difference between wanting correct answers and wanting creative answers. If you are looking for a singular, more precise answer, go to one of the above or go to Quora (lol). But you need something else if you are looking for a creative answer. 
+There are many ways to get answers to your questions. But most of these options are tailored to give you the most accurate answer. There is a difference between wanting correct answers and wanting creative answers. If you are looking for a singular, more precise answer, go to one of the above or go to Quora (lol). But you need something else if you are looking for a creative answer.
 
 Many of the most important questions have a different answer. Many questions require diverse perspectives and insightful opinions, and great questions give birth to more questions and trains of thought. The purpose of 9takes is to flesh out these unexplored questions and trains of thought.
 
