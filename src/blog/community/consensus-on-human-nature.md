@@ -155,10 +155,73 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
         "@id": "https://9takes.com/blog/community/consensus-on-human-nature",
         "@type": "WebPage"
       },
-      "mentions": {
-        "@type": "Thing",
-        "name": "Human Nature"
-      },
+      "about": [
+        {
+            "@type": "Thing",
+            "name": "Human nature",
+            "description": "Human nature comprises the fundamental dispositions and characteristics--including ways of thinking feeling and acting--that humans are said to have naturally. The term is often used to denote the essence of humankind or what it 'means' to be human",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q742609",
+                "http://en.wikipedia.org/wiki/Human_nature"
+            ]
+        }
+      ],
+      "mentions": [
+        {
+            "@type": "Thing",
+            "name": "Plato",
+            "description": "Plato ( PLAY-toe; Greek: Platon Platon; 428/427 or 424/423 - 348 BC) was an ancient Greek philosopher born in Athens during the Classical period. In Athens Plato founded the Academy a philosophical school where he taught the philosophical doctrines that would later become known as Platonism",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q859",
+                "http://en.wikipedia.org/wiki/Plato"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Aristotle",
+            "description": "Aristotle (; Greek: Aristoteles Aristoteles pronounced [aristotele:s]; 384-322 BCE) was an Ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences philosophy linguistics economics politics psychology and the arts",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q868",
+                "http://en.wikipedia.org/wiki/Aristotle"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Psychology",
+            "description": "Psychology is the study of mind and behavior. Its subject matter includes the behavior of humans and nonhumans both conscious and unconscious phenomena and mental processes such as thoughts feelings and motives",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q9418",
+                "http://en.wikipedia.org/wiki/Psychology"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Sigmund Freud",
+            "description": "Sigmund Freud ( FROYD German: ['zi:gmUnd 'froYd]; born Sigismund Schlomo Freud; 6 May 1856 - 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis a clinical method for evaluating and treating pathologies seen as originating from conflicts in the psyche through dialogue between patient and psychoanalyst and the distinctive theory of mind and human agency derived from it. Freud was born to Galician Jewish parents in the Moravian town of Freiberg in the Austrian Empire",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q9215",
+                "http://en.wikipedia.org/wiki/Sigmund_Freud"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Rationality",
+            "description": "Rationality is the quality of being guided by or based on reason. In this regard a person acts rationally if they have a good reason for what they do or a belief is rational if it is based on strong evidence",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q938185",
+                "http://en.wikipedia.org/wiki/Rationality"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Steven Pinker",
+            "description": "Steven Arthur Pinker (born September 18 1954) is a Canadian-American cognitive psychologist psycholinguist popular science author and public intellectual. He is an advocate of evolutionary psychology and the computational theory of mind",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q212730",
+                "http://en.wikipedia.org/wiki/Steven_Pinker"
+            ]
+        }
+      ],
       "publisher": {
         "@type": "Organization",
         "sameAs": [

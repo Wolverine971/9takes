@@ -4,7 +4,7 @@ description: 'The Overlooked Gem: Personality in the Modern Psychological Discou
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2023-12-10'
+lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,7 +18,7 @@ pic: 'greek-mind'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Psychoanalysis: the mind's intricate software, lost in a rush for empirical hardware.</p>
+<p class="firstLetter">The mind is too complex to be understood by anyone who hasn't done the work of looking at all the peer reviewed studies.</p>
 
 <div
     style="display: flex;
@@ -37,43 +37,35 @@ margin: 1rem 0;"
 
 ## The Overlooked Gem: Personality in the Modern Psychological Discourse
 
-In a world where tangible, empirical evidence reigns supreme, the subtleties of personality psychology often get sidelined and brushed off as mere "pseudo-science." But what if I told you that this overlooked gem holds the key to understanding the human psyche more profoundly than any behavioral study ever could?
+Tangible, empirical evidence reigns supreme. No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality? 
+
+<!-- What if how we interact with our emotions determines 
+
+It held buried treasures that could lead to more than mental health.
+
+and mental health, the subtleties of personality psychology often get sidelined and brushed off as mere "pseudo-science." But what if I told you that this overlooked gem holds the key to understanding the human psyche more profoundly than any behavioral study ever could? -->
 
 ### From Jung to Now: The Shift from Depth to Surface
 
-Carl Jung, the pioneer of psychological archetypes, initiated a journey into the depths of the mind, exploring the unseen, the subjective, and the emotional. Yet, as psychology evolved, it pivoted sharply towards empirical studies – the hardware of the human mind – leaving the rich world of psychoanalysis in the shadows.
+Carl Jung was the pioneer of psychological archetypes. He was inspired by Freud, who had developed psychoanalysis- a process by which individuals could explore their unconscious mind to reveal and understand hidden emotions, desires, and conflicts. This approach was criticized for being subjective and fell out of favor in favor of methods that could be scientifically tested and verified. Behaviorism grew popular because it created experiments that could get reproducible results. Early behaviorism experiments included:
+
+- Skinners box- where animals were encouraged and discouraged to do different behaviors
+- Pavlov's dogs- where dogs would salivate at the sound of a dinner bell because they had been conditioned to expect food when they heard the bell
+
+Nice, now we know that people's behavior can be conditioned. This didn't lead anywhere, and eventually, interest shifted towards cognitive psychology. Technology was improving, and there were now more data points to gather on a person's brain. Neuroimaging tools came out, and we learned that different brain parts get stimulated when subjects are subjected to other ideas and images.
+
+Nice, now we can map the physical parts of the brain. "Front brain turn red on picture when person is asked what is 1 plus 1. Back of brain turn red when person see picture of cute puppy."
+
+These approaches are far from what Freud and Jung were trying to do.
 
 ### The Software vs. Hardware of the Human Mind
 
-The mind can be likened to a computer. While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface.
+The mind can be likened to a computer. While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
 
-## Freud and Lacan separate Biology from Psychology
 
-Sigmund Freud and Jacques Lacan, two towering figures in psychology, played pivotal roles in shaping the field's understanding of the human mind. Their work distinctively separates the psychological 'software' – the complex inner workings of the mind – from the biological 'hardware,' the observable physical aspects.
+## We need to get back to understanding the Archetypes
 
-**Freud's Psychological Underpinnings**: Freud, often regarded as the father of psychoanalysis, revolutionized our understanding of the human psyche. His emphasis on drives and instincts and the concept of the unconscious mind represent the intricate software of human psychology. These elements – our unconscious desires, repressed memories, and psychological defense mechanisms – are akin to the complex, unseen code that operates beneath the surface of our behaviors, driving our actions in ways that extend beyond mere biological processes.
-
-**Lacan's Linguistic and Symbolic Layers**: Jacques Lacan, another influential psychoanalyst, extended and nuanced Freud's ideas, particularly in language and symbolism. Lacan's exploration of language, the symbolic order, and his concepts of the Real, the Imaginary, and the Symbolic further delve into the software aspect of the mind. He posited that our psyche is not merely a product of biological makeup but is profoundly shaped by the symbolic structures we navigate – our language, social norms, and the unattainable Real. This complex interplay forms our subjectivity's foundational 'code,' influencing how we perceive and interact with the world.
-
-### Contrasting with Skinner's Behaviorism: The Hardware of Psychology
-
-**Skinner's Empirical Approach**: In contrast, Skinner's behaviorist experiments, focusing on observable and measurable behaviors, represent the 'hardware' of psychology. His work, akin to testing and observing the physical components of a machine, offers valuable insights into how certain stimuli elicit specific responses. However, this approach primarily addresses the external, observable aspects of human behavior, akin to the hardware that executes the commands but doesn't delve into the underlying 'software'—the thoughts, emotions, and unconscious processes.
-
-### Integrating Software and Hardware for a Complete Understanding
-
-A holistic understanding of the brain requires examining its 'software' and 'hardware.' Where Freud and Lacan left off, contemporary psychology has shifted focus to:
-
-- Social and cultural factors impacting the mind
-- The importance of diversity and individual differences
-- The role of a compatible therapist
-
-However, these elements only partially replace the need to explore our thought patterns and personalities. Not everyone from the same social or cultural background thinks alike, and factors like race, ethnicity, age, and gender provide context but don't fully explain psychological nuances.
-
-## Why We Need to Rediscover the Software of Our Minds
-
-### Beyond the Observable: The Richness of Internal Experience
-
-Our relentless pursuit of empirical validation has led to neglecting the rich, complex world of internal experiences. Emotions, thoughts, and dreams, integral to our humanity, may not be quantifiable but are crucial for a comprehensive understanding of the psyche. It's time to re-embrace psychoanalysis and explore the depths of the human mind, going beyond what is immediately observable.
+The idea of archetypes goes back to Greek mythology. The Greeks did not have a word for archetypes, but each of the gods served as an archetype because they had associated behaviors and emotions. There were both cautionary tales and inspirational stories related to the gods. These stories and archetypes, though imperfect, helped form the Greek culture. It served as a tool for a green citizen to understand his place in the culture and the world. We need to look at archetypes and personalities and the emotions associated with their formation. Emotions, thoughts, and dreams, integral to our humanity, may not be quantifiable, but they remain a gap in our understanding of the psyche. It's time to re-embrace psychoanalysis and explore the depths of the human mind, going beyond what is immediately observable.
 
 ### Modern Day proponents of the less tangible aspects of psychology
 
@@ -85,11 +77,11 @@ The following contemporary thinkers and practitioners are leading a renaissance 
 
 #### Esther Perel: A Fusion of Clinical Knowledge and Emotional Depth
 
-<a href="https://www.estherperel.com/">Esther Perel</a>, renowned for her work on relationships and intimacy, masterfully combines her background in clinical psychology with a rich exploration of the emotional aspects of human connections. Her approach goes beyond empirical data, delving into the intricate psychological dynamics that govern intimacy, trust, and desire in relationships. Perel's work is a testament to the importance of integrating scientific understanding with a deep appreciation of human psychology's less tangible, emotional aspects.
+<a href="https://www.estherperel.com/">Esther Perel</a>, renowned for her work on relationships and intimacy, masterfully combines her background in clinical psychology with a rich exploration of the emotional aspects of human connections. Her approach goes beyond empirical data, delving into the intricate psychological dynamics that govern intimacy, trust, and desire in relationships. Perel's work is a testament to integrating scientific understanding with a deep appreciation of human psychology's less tangible, emotional aspects.
 
 #### Jordan Peterson: Archetypes, Myths, and Personality Analysis
 
-<a href="https://www.jordanbpeterson.com/about/">Jordan Peterson</a>, a clinical psychologist and cultural commentator, is known for his unique approach that intertwines the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, grounding his explorations of narrative and mythology in empirical psychology. Peterson’s work demonstrates how ancient wisdom and modern scientific understanding can be interwoven to better understand human behavior and personality.
+<a href="https://www.jordanbpeterson.com/about/">Jordan Peterson</a>, a clinical psychologist and cultural commentator, is known for his unique approach that intertwines the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, grounding his explorations of narrative and mythology in empirical psychology. Peterson’s work demonstrates how ancient wisdom and modern scientific understanding can be interwoven to understand human behavior and personality better.
 
 #### Ray Dalio: Applying Personality Insights in the Business World
 
@@ -104,6 +96,17 @@ These thought leaders exemplify the synergy that can be achieved when empirical 
 ## The Future
 
 A holistic understanding of the mind requires us to embrace both the seen and the unseen, the measurable and the immeasurable, the hardware and the software of the mind. The mind is not just a machine to be studied from the outside; it's a rich, complex world waiting to be explored from within.
+
+<!-- 
+The Ben and Marc Show with Tony Robbins
+27:50 
+
+Tony Robbins- a psychological engineer
+https://a16z.com/bio-health/
+https://twitter.com/vijaypande
+https://a16z.com/author/vijay-pande/
+
+-->
 
 <svelte:head>
 
@@ -123,7 +126,7 @@ A holistic understanding of the mind requires us to embrace both the seen and th
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-10"
+        "@value": "2023-12-24"
       },
       "datePublished": {
         "@type": "Date",
