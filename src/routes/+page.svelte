@@ -48,16 +48,18 @@
 					<p style="font-size: 1.5rem; font-weight: 700;">
 						Find out what people think, feel, and do
 					</p>
-					<button
-						type="button"
-						class="btn btn-primary"
-						style="border: 1px solid;"
-						on:click={() => {
-							goto('/login');
-						}}
-					>
-						Sign Up/ In
-					</button>
+					{#if !data?.session?.user?.id}
+						<button
+							type="button"
+							class="btn btn-primary"
+							style="border: 1px solid;"
+							on:click={() => {
+								goto('/login');
+							}}
+						>
+							Sign Up/ In
+						</button>
+					{/if}
 				</div>
 			</div>
 
