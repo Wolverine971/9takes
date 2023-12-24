@@ -91,9 +91,14 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
   "@context": "http://schema.org",
   "type": "BlogPosting",
   "about": {
-    "type": "Thing",
-    "name": "Enneagram"
-  },
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+        "SameAs": [
+            "https://www.wikidata.org/wiki/Q273047",
+            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+    },
   "articleBody": "In this blog post, we explore the basic concepts of the Enneagram, a personality typing system that can help you understand yourself and others better. We provide an overview of the nine Enneagram types and explain how they relate to different personality traits. Whether you are new to the Enneagram or have been studying it for a while, this post is a great resource for gaining a deeper understanding of this powerful tool for personal growth and development.",
   "author": {
     "type": "Person",
@@ -111,8 +116,13 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
     "type": "WebPage"
   },
   "mentions": {
-        "@type": "Thing",
-        "name": "Enneagram"
+              "@type": "Thing",
+              "name": "Enneagram of Personality",
+              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q273047",
+                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+              ]
       },
   "publisher": {
         "@type": "Organization",

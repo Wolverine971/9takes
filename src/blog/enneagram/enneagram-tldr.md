@@ -4,7 +4,7 @@ description: 'Short synopsis of the enneagram'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-tldr'
-lastmod: '2023-04-15'
+lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,6 +14,16 @@ previewHtml: ''
 ---
 
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. Each type has its own distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
+
+There are 3 groups or divisions in the Enneagram called triads. These triads are divided by 3 core emotions which corelate to special intelligences.  The emotions are anger, fear and shame. And the unique intelligences corelate with the emotions are the following:
+
+- Fear- Intellectual intelligence
+- Shame- Emotional intelligence
+- Anger- Instinctual intelligence
+
+Each enneagram type deals with their core emotion in different ways. Either they actively use that emotion to motivate them. Or they feel that emotion and try to suppress it. Or they are unaware of that emotions impact and it lives in their subconscious.
+
+The following are the 9 Enneagram types.
 
 ## The Nine Enneagram Types
 
@@ -73,7 +83,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-02-10"
+        "@value": "2023-12-24"
       },
       "datePublished": {
         "@type": "Date",
@@ -84,6 +94,15 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-tldr",
         "@type": "WebPage"
+      },
+      "mentions": {
+            "@type": "Thing",
+            "name": "Enneagram of Personality",
+            "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q273047",
+                "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+            ]
       },
       "publisher": {
         "@type": "Organization",

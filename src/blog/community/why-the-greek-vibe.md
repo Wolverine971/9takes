@@ -4,7 +4,7 @@ description: '9takes is what Socrates would have wanted'
 author: 'DJ Wayne'
 date: '2023-09-24'
 loc: 'https://9takes.com/blog/community/why-the-greek-vibe'
-lastmod: '2023-09-24'
+lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,7 +18,15 @@ pic: 'neoclassical-metropolis'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-## Its called "neoclassical"
+<p class="firstLetter">Ancient Greece was ahead of its time. They had the world's first Democracy. They came up with Philosophy. They built a working plumbing system and many of their buildings still remain standing today ~ 2000 years later.</p>
+
+The Greeks formed many aspects of western thought. However today we don't have a place to follow one of their most important practices. And that is openly talking about philosophy through asking questions. The socratic method is sometimes still talked about in college classrooms but it remains an obscure relec from the past. We need to bring it back.
+
+Plato used to ask open questions and talk through different trains of thought in the acropolis. The acropolis was the open market where people congregated. Today we have twitter and reddit but open questions are not talked through like they were back in ancient Greece.
+
+**9takes seeks to be the modern day acropolis where fundamental questions can be discussed in the openly**
+
+## Neoclassical inspiration
 
 The term "neoclassical" is derived from the Greek words "neo," meaning new, and "klassikos," which refers to the classical art and literature of ancient Greece and Rome. Neoclassical design draws inspiration from these ancient civilizations' art, architecture, and philosophy, aiming to bring their timeless elegance and grandeur to contemporary settings.
 
@@ -61,9 +69,9 @@ The greeks built stuff to last. It was ornate and detailed.  -->
 
 ## The Significance of Greek Iconography
 
-The Greeks weren't just builders; they were artists. Their structures, ornate and purposeful, often paid tribute to their gods. Every meticulous detail carried meaning, symbolizing virtues such as trust and honor.
+The Greeks were builders as well as artists. Their structures were purposeful yet ornate. Meticulous details carried meaning, symbolizing virtues such as trust and honor.
 
-For 9takes.com, Greek iconography isn't merely aesthetic. It's a salute to the Greeks' visionary craftsmanship and a reminder of timeless values. Platforms that evoke trust and timelessness are invaluable in our fast-paced digital world.
+For 9takes.com, the Greek aesthetic is something to look up to. It's a salute to the Greeks' visionary craftsmanship and a reminder of timeless values. Platforms that evoke trust and timelessness are invaluable in our fast-paced digital world.
 
 In essence, 9takes.com melds the ancient and the modern. Embracing Greek iconography and philosophy ensures that age-old wisdom shines brightly in our digital age.
 

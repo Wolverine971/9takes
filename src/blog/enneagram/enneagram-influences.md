@@ -100,8 +100,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
       },
       "mentions": [
         {
-          "@type": "Thing",
-          "name": "Enneagram"
+              "@type": "Thing",
+              "name": "Enneagram of Personality",
+              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q273047",
+                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+              ]
         },
         {
           "@type": "Person",
@@ -168,6 +173,5 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
 </svelte:head>
 
 <style>
-
 
 </style>

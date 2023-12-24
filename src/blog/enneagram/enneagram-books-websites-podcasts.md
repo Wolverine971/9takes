@@ -66,8 +66,13 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     "@context": "http://schema.org",
     "type": "BlogPosting",
     "about": {
-      "type": "Thing",
-      "name": "Enneagram"
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+        "SameAs": [
+            "https://www.wikidata.org/wiki/Q273047",
+            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
     },
     "articleSection": "Psychology",
     "creator" : ["DJ Wayne"],
@@ -96,14 +101,19 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       },
     "mentions": [
       {
-        "@type": "Thing",
-        "name": "Enneagram"
+              "@type": "Thing",
+              "name": "Enneagram of Personality",
+              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q273047",
+                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+              ]
       },
       {
-        "type": "Book",
+        "@type": "Book",
         "author": [
           {
-            "type": "Person",
+            "@type": "Person",
             "name": "Don Richard Riso",
             "sameAs": [
               "https://en.wikipedia.org/wiki/Don_Richard_Riso",
@@ -111,7 +121,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
             ]
           },
           {
-            "type": "Person",
+            "@type": "Person",
             "name": "Russ Hudson",
             "sameAs": [
               "https://www.instagram.com/hudson_russ/?hl=enn",
@@ -125,7 +135,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "name": "The Wisdom of the Enneagram"
       },
       {
-        "type": "Book",
+        "@type": "Book",
         "author": {
           "type": "Person",
           "name": "Beatrice Chestnut",
@@ -195,9 +205,14 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       {
         "type": "PodcastEpisode",
         "about": {
-          "type": "Thing",
-          "name": "Enneagram"
-        },
+              "@type": "Thing",
+              "name": "Enneagram of Personality",
+              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q273047",
+                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+              ]
+          },
         "name": "Enneagram for Idiots",
         "sameAs": "https://twitter.com/enneaforidiots",
         "url": "https://www.enneagramforidiots.com/"

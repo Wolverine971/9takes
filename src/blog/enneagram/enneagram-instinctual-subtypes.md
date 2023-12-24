@@ -125,8 +125,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "about": {
-    "@type": "Thing",
-    "name": "Enneagram"
+          "@type": "Thing",
+          "name": "Enneagram of Personality",
+          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+          "SameAs": [
+              "https://www.wikidata.org/wiki/Q273047",
+              "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+          ]
   },
   "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
   "creator" : ["DJ Wayne"],
@@ -157,8 +162,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "@type": "WebPage"
   },
   "mentions": {
-        "@type": "Thing",
-        "name": "Enneagram"
+              "@type": "Thing",
+              "name": "Enneagram of Personality",
+              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q273047",
+                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+              ]
       },
   "publisher": {
         "@type": "Organization",

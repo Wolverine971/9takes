@@ -168,21 +168,83 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram",
     "@type": "WebPage"
   },
-  "mentions": [
-    {
-        "@type": "Thing",
-        "name": "Enneagram"
-    },
-    {
-      "@type": "Person",
-      "name": "Plato",
-      "sameAs": ["https://en.wikipedia.org/wiki/Plato", "https://www.britannica.com/biography/Plato"]
-    },
-    {
-      "@type": "Person",
-      "name": "Sigmund Freud",
-      "sameAs": ["https://en.wikipedia.org/wiki/Sigmund_Freud", "https://www.britannica.com/biography/Sigmund-Freud"]
-    }
+  "about": [
+        {
+            "@type": "Thing",
+            "name": "Philosophy",
+            "description": "Philosophy (love of wisdom in ancient Greek) is a systematic study of general and fundamental questions concerning topics like existence reason knowledge value mind and language. It is a rational and critical inquiry that reflects on its own methods and assumptions",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q5891",
+                "http://en.wikipedia.org/wiki/Philosophy"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Psychology",
+            "description": "Psychology is the study of mind and behavior. Its subject matter includes the behavior of humans and nonhumans both conscious and unconscious phenomena and mental processes such as thoughts feelings and motives",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q9418",
+                "http://en.wikipedia.org/wiki/Psychology"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Enneagram of Personality",
+            "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q273047",
+                "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+            ]
+        }
+    ],
+    "mentions": [
+        {
+            "@type": "Thing",
+            "name": "Emotion",
+            "description": "Emotions are mental states brought on by neurophysiological changes variously associated with thoughts feelings behavioral responses and a degree of pleasure or displeasure. There is no scientific consensus on a definition",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q9415",
+                "http://en.wikipedia.org/wiki/Emotion"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Plato",
+            "description": "Plato ( PLAY-toe; Greek: Platon Platon; 428/427 or 424/423 - 348 BC) was an ancient Greek philosopher born in Athens during the Classical period. In Athens Plato founded the Academy a philosophical school where he taught the philosophical doctrines that would later become known as Platonism",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q859",
+                "http://en.wikipedia.org/wiki/Plato",
+                "https://www.britannica.com/biography/Plato"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Human behavior",
+            "description": "Human behavior is the potential and expressed capacity (mentally physically and socially) of human individuals or groups to respond to internal and external stimuli throughout their life. Behavior is driven by genetic and environmental factors that affect an individual",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q3769299",
+                "http://en.wikipedia.org/wiki/Human_behavior"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Id, ego and super-ego",
+            "description": "In psychoanalytic theory the id ego and super-ego are three distinct interacting agents in the psychic apparatus defined in Sigmund Freud's structural model of the psyche. The three agents are theoretical constructs that Freud employed to describe the basic structure of mental life as it was encountered in psychoanalytic practice",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q486893",
+                "http://en.wikipedia.org/wiki/Id,_ego_and_super-ego"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Sigmund Freud",
+            "description": "Sigmund Freud ( FROYD German: ['zi:gmUnd 'froYd]; born Sigismund Schlomo Freud; 6 May 1856 - 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis a clinical method for evaluating and treating pathologies seen as originating from conflicts in the psyche through dialogue between patient and psychoanalyst and the distinctive theory of mind and human agency derived from it. Freud was born to Galician Jewish parents in the Moravian town of Freiberg in the Austrian Empire",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q9215",
+                "http://en.wikipedia.org/wiki/Sigmund_Freud",
+                "https://www.britannica.com/biography/Sigmund-Freud"
+            ]
+        }
   ],
   "publisher": {
         "@type": "Organization",
