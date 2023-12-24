@@ -228,7 +228,7 @@
 						</button>
 					</div>
 					<!-- not yet ready to allow registration and login -->
-				{:else}
+				{:else if $page.url.pathname !== '/'}
 					<div class=" right login">
 						<button
 							type="button"

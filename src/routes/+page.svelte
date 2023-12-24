@@ -3,6 +3,7 @@
 
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
+	import { goto } from '$app/navigation';
 
 	export let data: PageData;
 
@@ -36,16 +37,27 @@
 				<img
 					src="/9takes-preview.webp"
 					alt="9takes preview"
-					style="max-width: 500px;"
+					style="max-width: 600px;"
 					fetchPriority="high"
-					width="500"
-					height="694"
+					width="600"
+					height="794"
 				/>
 
 				<div class="main-description">
-					<h1>9takes</h1>
-					<h2>Anonymous questions and answers based on personality.</h2>
-					<h3>Find out what people think, feel, and do.</h3>
+					<h1>Anonymous questions and answers based on personality</h1>
+					<p style="font-size: 1.5rem; font-weight: 700;">
+						Find out what people think, feel, and do
+					</p>
+					<button
+						type="button"
+						class="btn btn-primary"
+						style="border: 1px solid;"
+						on:click={() => {
+							goto('/login');
+						}}
+					>
+						Sign Up/ In
+					</button>
 				</div>
 			</div>
 
@@ -316,6 +328,7 @@
 
 	.main-description {
 		min-width: 500px;
+		max-width: 100vw;
 	}
 
 	.main-p {
@@ -363,6 +376,9 @@
 		min-width: 400px;
 		width: 100%;
 		margin: auto;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
 	}
 	.center-align {
 		text-align: center;
@@ -371,10 +387,10 @@
 		word-break: break-word;
 		margin: 0;
 		text-align: center;
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	h2 {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
 		margin-top: 0;
 	}
 	h3 {
