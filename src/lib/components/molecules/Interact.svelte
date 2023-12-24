@@ -6,7 +6,7 @@
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
-	import { notifications } from '$lib/components/molecules/notifications.js';
+	import { notifications } from '$lib/components/molecules/notifications';
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';

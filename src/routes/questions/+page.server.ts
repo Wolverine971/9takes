@@ -28,10 +28,8 @@ export const load: PageServerLoad = async (event) => {
 				console.log(questionsError);
 			}
 			if (questions && questions?.length <= 10) {
-				console.log(questions?.length)
 				canAskQuestion = true
 			}
-
 		}
 
 

@@ -167,7 +167,7 @@ export const actions: Actions = {
 				.single();
 
 			if (linkDropError) {
-				console.log('linkErr', linkDropError);
+				console.log(linkDropError);
 			}
 
 			return linkDrop;

@@ -141,15 +141,13 @@ export const actions: Actions = {
 					if (resp?._id) {
 						const esId = resp._id;
 
-						const { data: questionUpdated, error: updateQuestionError } = await supabase
+						const { error: updateQuestionError } = await supabase
 							.from('questions')
 							.update({ es_id: esId })
 							.eq('id', question.id);
 
 						if (updateQuestionError) {
 							console.log(updateQuestionError);
-						} else if (questionUpdated) {
-							console.log('updated question');
 						}
 					}
 				}

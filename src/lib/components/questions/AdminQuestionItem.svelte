@@ -66,15 +66,13 @@
 		body.append('questionId', questionData.id);
 		body.append('questionText', questionData.question);
 
-		console.log(questionData.question, questionData.id);
-
 		const resp = await await fetch('/api/update-questions', {
 			method: 'POST',
 			body
 		});
 		const result: any = deserialize(await resp.text());
 
-		if (result?.data?.success) {
+		if (result?.success) {
 			notifications.info('Tagged question', 3000);
 			getModal(`tag-question-${questionData.id}`).close();
 			editing = false;

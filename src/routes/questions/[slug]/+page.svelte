@@ -166,7 +166,6 @@
 		data={dataForChild}
 		user={data?.session?.user}
 		on:commentAdded={({ detail }) => {
-			console.log('invalidateAll');
 			invalidateAll();
 		}}
 	/>

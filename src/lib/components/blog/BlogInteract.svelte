@@ -3,7 +3,7 @@
 	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
-	import { notifications } from '$lib/components/molecules/notifications.js';
+	import { notifications } from '$lib/components/molecules/notifications';
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';

@@ -4,7 +4,7 @@
 	// import FilterListIcon from '$lib/components/icons/filterListIcon.svelte';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 
-	import { notifications } from '$lib/components/molecules/notifications.js';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	import { createEventDispatcher } from 'svelte';
 	import Modal2, { getModal } from '../atoms/Modal2.svelte';

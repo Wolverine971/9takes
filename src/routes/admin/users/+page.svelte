@@ -20,7 +20,6 @@
 	let activeAdmin: boolean = false;
 
 	const saveUserAdminChanges = async () => {
-		console.log('updating admin');
 		let body = new FormData();
 		body.append('isAdmin', activeAdmin.toString());
 		body.append('email', active.email);

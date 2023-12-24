@@ -74,7 +74,6 @@
 	}
 
 	export function setZoom(value, data = {}) {
-		console.log('setZoom', value, data);
 		queue.send('setZoom', [value, data]);
 	}
 

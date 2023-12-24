@@ -134,7 +134,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		});
 
 		if (!completion?.choices[0]?.message?.content) {
-			notifications.error('Something went wrong');
+			notifications.danger('Something went wrong', 3000);
 			return;
 		}
 
@@ -166,7 +166,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 		if (!chatResp?.answers) {
 			console.log(chatResp);
-			notifications.error('Something went wrong');
+			notifications.danger('Something went wrong', 3000);
 			return;
 		}
 
