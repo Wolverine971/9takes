@@ -13,7 +13,7 @@
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	<title>9takes Home Page</title>
+	<title>9takes</title>
 	<meta
 		name="description"
 		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"

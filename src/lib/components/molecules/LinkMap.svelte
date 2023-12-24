@@ -105,7 +105,6 @@
 		// marker = detail.center;
 	}
 
-	console.log(innerWidth);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -146,7 +145,12 @@
 					{#if linkDrops?.length}
 						{#each linkDrops as point}
 							<Marker
-								popupHtml={`<div class="popup"><h3>${point.addresses.name}</h3><a href="/questions/${point.questions.url}"" >${point.questions.question}</a></div>`}
+								popupHtml={`
+								<div class="popup">
+									<h3>${point.addresses.name}</h3>
+									<a href="/questions/${point.questions.url}"" >${point.questions.question}</a>
+									<p>Number of hits: ${point.number_of_hits}</p>
+									</div>`}
 								lat={point.addresses.latitude}
 								lng={point.addresses.longitude}
 								label={point.addresses.name}
@@ -167,7 +171,7 @@
 <style lang="scss">
 	.map-wrap {
 		width: 500px;
-		height: 300px;
+		height: 500px;
 		max-width: 1000px;
 	}
 

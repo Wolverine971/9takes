@@ -4,7 +4,7 @@ description: 'How to determine or deduce your Enneagram type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: '2023-07-11'
+lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -15,56 +15,52 @@ previewHtml: ''
 
 <!-- Take a free, ~5 min test here -->
 
-<p class="firstLetter">As opposed to other personality tests the enneagram gets at your core motivations
-and fears. From there patterns of thinking feeling and behavior can be extrapolated
-which form an archetype or your "type". To determine your type you need to examine
+<p class="firstLetter"> Unlike other personality tests, the Enneagram gets at your core motivations
+and fears. Their thinking, feeling, and behavior patterns can be extrapolated, forming an archetype or your "type." To determine your type, you must examine
 your fears and motivations, but where does one start?</p>
 
-Its commonly said that your personality gets developed overtime, but many enneagram
-teachers talk about how you your type develops as a result of a childhood wound.
-Something happened in your past that still effects you and you are compensating for
-in some ways. It could be many things:
+It is commonly said that your personality develops over time, but many Enneagram teachers discuss how your type develops due to a childhood wound.
+Something happened in your past that still affects you, and you are compensating for
+it somehow. It could be many things:
 
 - Your parent did or didn't do something
 - A specific incident happened
-- Your environment was skewed a certain way
+- Your environment was skewed in a certain way
 - A sibling or friend treated you a certain way
-- You were constantly told a certain message
+- You were constantly told a specific message
 
-There is a great article here that explains and gives great examples of the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >enneagram's childhood wounds</a>.
+There is a great article here that explains and gives excellent examples of the <a class="external-link" target="_blank" rel=" noopener noreferrer" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >Enneagram's childhood wounds</a>.
 
-You do not have to specifically identify your childhood wound in order to find your
-type but whatever your childhood was it causes you to be sensitive to a specific
-emotion. Identifying that core emotion that effects you is the first step.
+You do not have to specifically identify your childhood wound to find your
+type. Still, whatever your childhood was, it caused you to be sensitive to a specific
+emotion. Identifying that core emotion that affects you is the first step.
 
 ### Emotions Tangent
 
-It may seem overwhelming to try to identify what core emotion affects you the most
-but it might not as hard as you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>,
-otherwise keep reading to help determine your type.
+Identifying what core emotion affects you the most may seem overwhelming, but it might not be easier than you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>; otherwise, keep reading to help determine your type.
 
 ## Identifying your dominant core emotion
 
-In the enneagram the three core emotions are anger, fear and shame which we will
-explain further later. We all feel these emotions from time to time and do what
+The three core emotions in the Enneagram are anger, fear, and shame, which we will
+explain later. We all feel these emotions occasionally and do what
 we can to deal with them. But ask yourself which of these emotions comes up for
 you the most in daily life? You either
 
-- Feel that emotion and use it motivate you
+- Feel that emotion and use it to motivate you
 - Feel that emotion and actively push it away
 - Feel that emotion constantly in the back of your head
 
-Another way to get at that emotion would be to ask which emotion do you have the
-easiest access to? Or if someone else was feeling anger fear or shame which emotion
+Another way to get at that emotion would be to ask which emotion you have the
+most accessible access to. Or if someone else was feeling anger, fear, or shame, which emotion
 would be easiest for you to empathize with? You might find it easier to empathize
-someone feeling anger over someone feeling shame or fear or vice versa. Once you
-have identified that emotion you are ready for the next part.
+with someone feeling anger over someone feeling shame or fear or vice versa. Once you
+have identified that emotion, you are ready for the next part.
 
-## Emotions and centers of intelligence explained
+## Emotions and Centers of Intelligence explained
 
-In the enneagram these core emotions relate to centers of intelligence. Or put
-another way, as you feel one of these emotions you learn to cope with it by
-developing a certain intelligence. The core emotions map to the centers of intelligence like this:
+In the Enneagram, these core emotions relate to centers of Intelligence. Put
+another way, as you feel one of these emotions, you learn to cope by
+developing a specific intelligence. The core emotions map to the centers of Intelligence like this:
 
 - Fear --> Head/ Intellectual Intelligence
 - Shame --> Heart/ Emotional Intelligence
@@ -73,38 +69,32 @@ developing a certain intelligence. The core emotions map to the centers of intel
 ### The link between **fear** and **intellectual** intelligence
 
 If you think about it, fear is born out of possible situations that might go wrong.
-When you are feeling fear you are stuck in your head. You feel insecure because you
-just need to know a little bit more so you don't fear and you do feel secure.
-So overtime you develop good reasoning and logical thinking abilities. It becomes
+When you are feeling fear, you are stuck in your head. You feel insecure because you
+need to know a little more so you don't fear and feel secure.
+So, over time, you develop sound reasoning and logical thinking abilities. It becomes
 easy for you to logically think through complex situations.
 
 ### The link between **shame** and **emotional** intelligence
 
-If you are feeling shame you can feel other people judging you. When you feel shame
-you are feeling all the negative emotions that are wrapped up in someone not liking
-you. You feel insecure because you just need to be seen in a positive light again
-so you don't feel shame but feel good about yourself. Overtime your emotional
-intelligence develops and you can sense how people are feeling based on how you
-would feel in the same situation. It become easy for you to connect with others emotionally.
+If you are feeling shame, you can feel other people judging you. When you feel shame,
+you feel all the negative emotions wrapped up in someone not liking
+you. You feel insecure because you need to be seen in a positive light again so you don't feel shame but good about yourself. Overtime your emotional
+Intelligence develops, and you can sense how people feel based on how you would feel in the same situation. It becomes easy for you to connect with others emotionally.
 
 ### The link between **anger** and **instinctual** intelligence
 
-If you are feeling anger you feel instinctually something is not right. Before
-you can emotionally or logically determine something is not right you instinctually
-feel it and you feel angry. You feel insecure because something needs to be done
-so you don't feel anger but if you follow your instincts and lash out you situation
-worse. Overtime you learn to surround yourself with people and set up your environment
-where in you can be comfortable and at peace free from anger.
+If you are feeling anger, you instinctively feel something is not correct. Before you can emotionally or logically determine something is incorrect, you instinctually think about it and feel angry. You feel insecure because something needs to be done so you don't feel angry, but if you follow your instincts and lash out, your situation worsens. Over time, you learn to surround yourself with people and set up your environment
+where you can be comfortable and at peace, free from anger.
 
 ## Discovering the archetypes behind the core emotions
 
-Once you have identified the emotion that you interact with the most the next part is to deduce which type you are. Each core emotion forms a triad where it has 3 types under it. Or said another way each core emotion has 3 archetypes wherein there are different ways to cope with that emotion.
+Once you have identified the emotion you interact with the most, the next part is to deduce which type you are. Each core emotion forms a triad where it has 3 types under it. Or said another way, each core emotion has 3 archetypes wherein there are different ways to cope with that emotion.
 
 - Anger, Types [8- The Challenger-](/blog/enneagram/enneagram-type-8), [9- The Peacemaker](/blog/enneagram/enneagram-type-9), [1- The Perfectionist](/blog/enneagram/enneagram-type-1)
 - Shame, Types [2- The Helper](/blog/enneagram/enneagram-type-2), [3- The Achiever](/blog/enneagram/enneagram-type-3), [4- The Individualist](/blog/enneagram/enneagram-type-4)
 - Fear, Types [5- The Investigator](/blog/enneagram/enneagram-type-5), [6- The Loyalist](/blog/enneagram/enneagram-type-6), [7- The Enthusiast](/blog/enneagram/enneagram-type-7)
 
-For now read the types and determine which if any you identify with. More to come!
+For now, read the types and determine which, if any, you identify with. More to come!
 
 <svelte:head>
 
@@ -114,7 +104,7 @@ For now read the types and determine which if any you identify with. More to com
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "The blog aims to guide readers on how to determine their Enneagram type by examining their core motivations and fears. It delves into the concept of 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types.",
+      "articleBody": "The blog aims to guide readers in determining their Enneagram type by examining their core motivations and fears. It delves into 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types.",
       "creator" : ["DJ Wayne"],
       "author": {
         "@type": "Person",
@@ -124,7 +114,7 @@ For now read the types and determine which if any you identify with. More to com
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-03-11"
+        "@value": "2023-12-24"
       },
       "datePublished": {
         "@type": "Date",
@@ -153,7 +143,7 @@ For now read the types and determine which if any you identify with. More to com
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Past experiences, often referred to as 'childhood wounds,' play a significant role in shaping your Enneagram type. These experiences influence your core motivations and fears, which in turn define your type."
+            "text": "Past experiences, often referred to as 'childhood wounds,' play a significant role in shaping your Enneagram type. These experiences influence your core motivations and fears, defining your type."
           },
           "name": "How do past experiences shape your Enneagram type?"
         },
@@ -169,7 +159,7 @@ For now read the types and determine which if any you identify with. More to com
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In the Enneagram system, core emotions are linked to centers of intelligence like the head, heart, and body. For example, fear is associated with intellectual intelligence, shame with emotional intelligence, and anger with instinctual intelligence."
+            "text": "In the Enneagram system, core emotions are linked to centers of Intelligence like the head, heart, and body. For example, fear is associated with intellectual Intelligence, shame with Emotional Intelligence, and anger with instinctual Intelligence."
           },
           "name": "How do core emotions relate to centers of intelligence like the head, heart, and body?"
         }

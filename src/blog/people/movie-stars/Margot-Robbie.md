@@ -221,7 +221,7 @@ The more we understand about people, the richer our interactions and experiences
       "mentions": {
         "@type": "Person",
         "name": "Margot Robbie",
-        "sameAs": ["https://en.wikipedia.org/wiki/Margot_Robbie", "https://twitter.com/MargotRobbie". "https://www.instagram.com/margotrobbie/"]
+        "sameAs": ["https://en.wikipedia.org/wiki/Margot_Robbie", "https://twitter.com/MargotRobbie", "https://www.instagram.com/margotrobbie/"]
       },
       "publisher": {
         "@type": "Organization",
