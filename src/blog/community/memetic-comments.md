@@ -41,17 +41,17 @@ pic: 'greek-sculpture-on-a-laptop'
 <p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
 Online discussions are like battlegrounds. You are either 'for' or 'against' whatever the topic is. This polarized nature fosters mimicry or conflict rather than constructive conversations. Comments on forums often turn memetic. They spread fast, fueling anger and hostility in digital realms. A key factor here is seeing others' comments before adding our own. This post explores how this visibility shapes our responses, often limiting diverse perspectives in online debates.
 
-## Understanding the Memetic Effect:
+## Understanding the Memetic Effect
 
 People easily mirror the opinions they see online, especially when anonymity and impulsivity play in. The common habit of reading comments first often leads to cherry-picking opinions. This primes individuals for conflict and creates echo chambers. Complex discussions thus get reduced to simple arguments, overshadowing a wealth of perspectives. To break this cycle, we must encourage the exploration of varied viewpoints and lessen the sway of pre-existing comments.
 
-## Exploring 'Memetic': René Girard and Online Echo Chambers:
+## René Girard and Online Echo Chambers
 
 The term 'memetic' comes from René Girard's memetic theory. It suggests that our desires and behaviors are often copied from others, leading to rivalry and conflict. Furthermore, we are often unaware of what or whom we are copying. This theory can be seen in online forums. Comments often imitate popular or provocative opinions, creating similar responses. People are not saying original and authentic things. They are copying the opinions of the people they want to imitate.
 
 This only compounds when a person can see other people's comments. Rather than participating in the conversation, they choose who they want to imitate and who they want to be against.
 
-## Crafting Healthier Online Conversations:
+## Crafting Healthier Online Conversations
 
 How can we replace impulse reactions with genuine curiosity and open-mindedness?
 
