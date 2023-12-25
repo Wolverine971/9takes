@@ -608,9 +608,7 @@
 		}
 	}
 
-	img {
-		max-width: 100%;
-	}
+	
 
 	.dark-light {
 		position: fixed;

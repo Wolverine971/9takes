@@ -18,7 +18,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div style=" margin:20px;">
+<div class="main-div">
 	<h1 style="text-align: center;">Allow me to introduce myself</h1>
 
 	<div>
@@ -267,6 +267,9 @@
 	{/if}
 </div> -->
 <style lang="scss">
+	.main-div {
+		margin:20px;
+	}
 	.email-section {
 		text-align: center;
 		border: var(--classic-border);
@@ -312,6 +315,10 @@
 	}
 
 	@media all and (max-width: 576px) {
+		.main-div {
+			margin:20px 5px;
+		}
+		
 		.profile-section {
 			flex-direction: column;
 

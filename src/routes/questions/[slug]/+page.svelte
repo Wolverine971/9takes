@@ -183,7 +183,6 @@
 
 		margin: 0.25rem;
 	}
-
 	aside {
 	}
 
@@ -203,20 +202,22 @@
 			background-color: var(--color-p-light);
 		}
 	}
-
-	@media (min-width: 1600px) {
-		aside {
-			position: fixed;
-			margin-left: 975px;
-		}
-	}
-
-	// @media (max-width: 700px) {
 	aside {
 		position: relative;
 		right: 0;
 		display: flex;
-		overflow-x: scroll;
+		overflow: auto;
 	}
+	
+	@media (min-width: 1200px) {
+		aside {
+			position:  fixed !important;
+			margin-left: 975px;
+			right: auto;
+		}
+	}
+
+	// @media (max-width: 700px) {
+	
 	// }
 </style>

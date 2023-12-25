@@ -37,7 +37,7 @@
 				<img
 					src="/9takes-preview.webp"
 					alt="9takes preview"
-					style="max-width: 600px;"
+					class="img-preview"
 					fetchPriority="high"
 					width="600"
 					height="794"
@@ -441,8 +441,17 @@
 		margin: 0;
 	}
 
+	.img-preview {
+			max-width: none;
+		}
+
 	/* Media queries */
 
+	@media (min-width: 800px) {
+		.img-preview {
+			max-width: 600px;
+		}
+	}
 	@media (max-width: 1000px) {
 		.main-preview {
 			flex-direction: column-reverse;
