@@ -15,7 +15,7 @@ previewHtml: ''
 
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. Each type has its own distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
 
-There are 3 groups or divisions in the Enneagram called triads. These triads are divided by 3 core emotions which corelate to special intelligences.  The emotions are anger, fear and shame. And the unique intelligences corelate with the emotions are the following:
+There are 3 groups or divisions in the Enneagram called triads. These triads are divided by 3 core emotions which corelate to special intelligences. The emotions are anger, fear and shame. And the unique intelligences corelate with the emotions are the following:
 
 - Fear- Intellectual intelligence
 - Shame- Emotional intelligence

@@ -208,16 +208,16 @@
 		display: flex;
 		overflow: auto;
 	}
-	
+
 	@media (min-width: 1200px) {
 		aside {
-			position:  fixed !important;
+			position: fixed !important;
 			margin-left: 975px;
 			right: auto;
 		}
 	}
 
 	// @media (max-width: 700px) {
-	
+
 	// }
 </style>

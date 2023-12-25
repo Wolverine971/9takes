@@ -608,8 +608,6 @@
 		}
 	}
 
-	
-
 	.dark-light {
 		position: fixed;
 		bottom: 50px;

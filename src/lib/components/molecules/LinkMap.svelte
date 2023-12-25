@@ -104,7 +104,6 @@
 	function drag({ detail }) {
 		// marker = detail.center;
 	}
-
 </script>
 
 <svelte:window bind:innerWidth />

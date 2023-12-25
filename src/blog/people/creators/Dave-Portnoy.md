@@ -101,9 +101,10 @@ One aspect of Enneagram 8s is that they are fixated on revenge. Revenge might so
 ### A Symbolic Gesture
 
 <!-- Dedicating champagne bottles to his enemies is not just a quirky habit; it's a symbolic gesture. It shows a man who values victory and justice, even if served cold.  -->
+
 This ritual aligns perfectly with the characteristics of Type 8, who often seeks to correct the record and root out injustice. Dave keeps his how scorecard and is willing to wait for his enemies to face the music. When that music finally plays, Dave is ready with a bottle of champagne.
 
-Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/blog/famous-enneagram-types/Kanye">Kanye's</a>  drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake*. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
+Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/blog/famous-enneagram-types/Kanye">Kanye's</a> drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

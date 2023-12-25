@@ -442,8 +442,8 @@
 	}
 
 	.img-preview {
-			max-width: none;
-		}
+		max-width: none;
+	}
 
 	/* Media queries */
 

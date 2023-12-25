@@ -61,19 +61,17 @@
 		goto(`/questions/${page.url}`, {});
 	};
 
-	const questionDisplay = ()=>{
-		if(data?.session?.user?.id){
-			if(data?.canAskQuestion){
-				return 'Create question'
-			}else {
-				return 'Only 10 questions per day'
+	const questionDisplay = () => {
+		if (data?.session?.user?.id) {
+			if (data?.canAskQuestion) {
+				return 'Create question';
+			} else {
+				return 'Only 10 questions per day';
 			}
-
-		}else {
-			return 'Register to ask a question'
-		} 
-	}
-
+		} else {
+			return 'Register to ask a question';
+		}
+	};
 </script>
 
 <form class="question-form">
@@ -91,17 +89,17 @@
 		</Context>
 	</div>
 
-		<button
-			class="btn btn-primary {!data?.session?.user?.id && 'btn-disabled'}"
-			type="button"
-			disabled={data?.session?.user?.id && !data?.canAskQuestion}
-			on:click={() => {
-				goToCreateQuestionPage();
-			}}
-			title={questionDisplay()}
-		>
-			{questionDisplay()}
-		</button>
+	<button
+		class="btn btn-primary {!data?.session?.user?.id && 'btn-disabled'}"
+		type="button"
+		disabled={data?.session?.user?.id && !data?.canAskQuestion}
+		on:click={() => {
+			goToCreateQuestionPage();
+		}}
+		title={questionDisplay()}
+	>
+		{questionDisplay()}
+	</button>
 </form>
 
 <style lang="scss">

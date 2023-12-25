@@ -1,11 +1,9 @@
 import type { PageServerLoad } from './$types';
-import { slugFromPath } from '$lib/slugFromPath';
 import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 const MAX_POSTS = 20;
 
 export const load: PageServerLoad = async (event: any) => {
-	const session = await getServerSession(event);
+	const session = event.locals.session;
 	const user = session?.user;
 	const slug = event.params.slug;
 	const cookie = event.cookies.get('9tfingerprint');

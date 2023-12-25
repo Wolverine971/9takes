@@ -62,7 +62,6 @@
 <div>
 	<h1 style="display: flex; justify-content: space-between; align-content: center">
 		<span>{data?.session?.user?.id ? 'Search or ask a question' : 'Search Questions'} </span>
-		
 	</h1>
 
 	<SearchQuestion {data} />

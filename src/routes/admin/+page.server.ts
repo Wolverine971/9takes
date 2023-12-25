@@ -1,4 +1,3 @@
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { supabase } from '$lib/supabase';
 
 import type { PageServerLoad } from './$types';
@@ -9,7 +8,7 @@ import { mapDemoValues } from '../../utils/demo';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
-	const session = await getServerSession(event);
+	const session = event.locals.session;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');

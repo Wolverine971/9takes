@@ -1,11 +1,10 @@
 import { supabase } from '$lib/supabase';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 import { redirect, type Actions } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
-	const session = await getServerSession(event);
+	const session = event.locals.session;
 
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');

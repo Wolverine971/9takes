@@ -268,7 +268,7 @@
 </div> -->
 <style lang="scss">
 	.main-div {
-		margin:20px;
+		margin: 20px;
 	}
 	.email-section {
 		text-align: center;
@@ -316,9 +316,9 @@
 
 	@media all and (max-width: 576px) {
 		.main-div {
-			margin:20px 5px;
+			margin: 20px 5px;
 		}
-		
+
 		.profile-section {
 			flex-direction: column;
 

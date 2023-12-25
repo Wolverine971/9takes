@@ -1,6 +1,5 @@
 import { fail, redirect, type Actions } from '@sveltejs/kit';
 import { AuthApiError } from '@supabase/supabase-js';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
@@ -15,7 +14,7 @@ export const actions: Actions = {
 	forgotPass: async ({ request, locals }) => {
 		const body = Object.fromEntries(await request.formData());
 
-		const { data, error: err } = await locals.sb.auth.resetPasswordForEmail(body.email as string, {
+		const { error: err } = await locals.sb.auth.resetPasswordForEmail(body.email as string, {
 			redirectTo: 'https://9takes.com/resetPassword'
 		});
 

@@ -19,7 +19,7 @@ type: ['overview']
 
 <p class="firstLetter">Type 8s, are known as "The Challengers." They embody assertiveness, self-confidence, and have a need for control. Their directness and tendancy to control situations can be perceived as domineering, but this is their go to coping mechanism that has served them well since they were a child. Sometime in their childhood they learned that it is not ok to be weak or put yourself in vulnerable situations. So there way of being is to continually be getting stronger in all aspects of life so that they can be in control of their own destiny. </p>
 
-<!-- have been trying to get stronger and control 
+<!-- have been trying to get stronger and control
  their core is driven by a profound sense of justice and loyalty, making them natural leaders in various spheres of life -->
 
 <br>
@@ -115,8 +115,8 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 - **Childhood Stereotype**: Raised in environments where they felt they had to be strong and assertive to protect themselves or others.
 - **Childhood Wound**: Encountered situations where they felt vulnerable or powerless, leading to a focus on building strength and control. Developed a protective shell to shield their vulnerability, often by asserting dominance or independence.
 - **Developmental Aspects**:
-    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
 - **Typical Behaviors**: Natural leaders, often took charge in group settings, not afraid to challenge authority.
 - **Thoughts and Feelings**: Strong sense of justice and protection, often masking a deep sensitivity and fear of being controlled or harmed.
 - **View on Childhood**: Often views it as a formative period where they learned to be self-reliant and strong but may regret not being able to show vulnerability or experience carefree dependence.

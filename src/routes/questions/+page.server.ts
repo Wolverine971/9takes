@@ -16,22 +16,20 @@ export const load: PageServerLoad = async (event) => {
 		let canAskQuestion = false;
 
 		if (session?.user?.id) {
-
 			const { data: questions, error: questionsError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.select('*')
 				.eq('author_id', session?.user?.id)
 				.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
-				.limit(10)
+				.limit(10);
 
 			if (questionsError) {
 				console.log(questionsError);
 			}
 			if (questions && questions?.length <= 10) {
-				canAskQuestion = true
+				canAskQuestion = true;
 			}
 		}
-
 
 		const { data: uniquetags, error: tagsError } = await supabase
 			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
@@ -187,7 +185,8 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
+						!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{

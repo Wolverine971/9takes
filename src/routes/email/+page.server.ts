@@ -1,4 +1,3 @@
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 
 import type { PageServerLoad } from './$types';
@@ -6,15 +5,37 @@ import type { PageServerLoad } from './$types';
 import { google } from 'googleapis';
 
 export const load: PageServerLoad = async (event) => {
+	const session = event.locals.session;
+
+	if (!session?.user?.id) {
+		throw redirect(302, '/questions');
+	}
+
+	const { demo_time } = await event.parent();
+
+	const { data: user, error: findUserError } = await supabase
+		.from(demo_time === true ? 'profiles_demo' : 'profiles')
+		.select('id, admin, external_id')
+		.eq('id', session?.user?.id)
+		.single();
+
+	if (!user?.admin) {
+		throw redirect(307, '/questions');
+	}
+
+	if (findUserError) {
+		console.log(findUserError);
+	}
+
 	return {
-		session: await getServerSession(event)
+		session
 	};
 };
 
 import type { Actions } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
-import { joinEmail2 } from '../../emails';
-import { error } from '@sveltejs/kit';
+import { forgotPass, joinEmail, joinEmail2, signupEmail } from '../../emails';
+import { error, redirect } from '@sveltejs/kit';
 
 export const actions: Actions = {
 	submit: async ({ request }) => {
@@ -60,7 +81,32 @@ export const actions: Actions = {
 	},
 	emailTest: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
-		const email = body.email;
+		const email = body.email.toString();
+		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
+		const emailType = body.emailType.toString();
+
+		let emailTypeToSend: string = '';
+
+		switch (emailType) {
+			case 'joinEmail':
+				emailTypeToSend = joinEmail();
+				break;
+			case 'joinEmail2':
+				emailTypeToSend = joinEmail2();
+				break;
+
+			case 'signupEmail':
+				emailTypeToSend = signupEmail();
+				break;
+
+			case 'forgotPass':
+				emailTypeToSend = forgotPass('test');
+				break;
+
+			default:
+				emailTypeToSend = joinEmail();
+				break;
+		}
 
 		if (!email) {
 			throw error(404, {
@@ -71,8 +117,8 @@ export const actions: Actions = {
 		try {
 			const sent = await sendEmail({
 				to: body.email.toString(),
-				subject: 'TEST EMAIL for 9takes',
-				body: joinEmail2()
+				subject,
+				body: emailTypeToSend
 			});
 			if (sent) {
 				return { success: true };

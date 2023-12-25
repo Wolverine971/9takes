@@ -37,9 +37,9 @@ margin: 1rem 0;"
 
 ## The Overlooked Gem: Personality in the Modern Psychological Discourse
 
-Tangible, empirical evidence reigns supreme. No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality? 
+Tangible, empirical evidence reigns supreme. No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality?
 
-<!-- What if how we interact with our emotions determines 
+<!-- What if how we interact with our emotions determines
 
 It held buried treasures that could lead to more than mental health.
 
@@ -61,7 +61,6 @@ These approaches are far from what Freud and Jung were trying to do.
 ### The Software vs. Hardware of the Human Mind
 
 The mind can be likened to a computer. While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
-
 
 ## We need to get back to understanding the Archetypes
 
@@ -97,9 +96,9 @@ These thought leaders exemplify the synergy that can be achieved when empirical 
 
 A holistic understanding of the mind requires us to embrace both the seen and the unseen, the measurable and the immeasurable, the hardware and the software of the mind. The mind is not just a machine to be studied from the outside; it's a rich, complex world waiting to be explored from within.
 
-<!-- 
+<!--
 The Ben and Marc Show with Tony Robbins
-27:50 
+27:50
 
 Tony Robbins- a psychological engineer
 https://a16z.com/bio-health/
