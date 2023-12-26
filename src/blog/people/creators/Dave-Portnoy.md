@@ -82,7 +82,7 @@ This disregard for societal expectations and his willingness to forge his path s
 
 ### The Controversies
 
-Dave Portnoy has been at the center of a few controversies. However, Dave's approach to handling these situations differs from most celebrities. While many public figures might issue a carefully worded apology or sidestep the issue, Portnoy faces it head-on.
+Dave Portnoy has been at the center of a few controversies. However, Dave's approach to handling these situations differs from that of most celebrities. While many public figures might issue a carefully worded apology or sidestep the issue, Portnoy faces it head-on.
 
 Barstool has been accused of being misogynistic multiple times. However, Portnoy doesn't come down and say that he will do better. Instead, he goes on the offense and points out that Barstool has a female CEO and multiple female employees who have gone on to start their own shows and podcasts. If Barstool was misogynistic, then women would not be killing it like they are at Barstool.
 
@@ -112,7 +112,7 @@ Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/blo
 
 ### The public display as a reminder
 
-It is a strategic move to share these champagne-popping moments on social media. It turns a personal ritual into a public display. This act serves a dual purpose: it rallies his supporters and sends a message to his enemies. Dave is a natural leader who is unafraid to stand alone and not afraid to display his raw emotions. It's a window into the complex psyche of a man who could very well be an Enneagram Type 8, driven by a need for control, a thirst for justice, and an unyielding will to stand his ground.
+It is a strategic move to share these champagne-popping moments on social media. It turns a personal ritual into a public display. This act serves a dual purpose: it rallies his supporters and sends a message to his enemies. Dave is a natural leader who is unafraid to stand alone and not afraid to display his raw emotions. It's a window into the complex psyche of a man who could be an Enneagram Type 8, driven by a need for control, a thirst for justice, and an unyielding will to stand his ground.
 
 <div
   style="display: flex;

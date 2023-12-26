@@ -37,7 +37,7 @@ emotion. Identifying that core emotion that affects you is the first step.
 
 ### Emotions Tangent
 
-Identifying what core emotion affects you the most may seem overwhelming, but it might not be easier than you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>; otherwise, keep reading to help determine your type.
+Identifying what core emotion affects you the most may seem overwhelming, but it might take more work than you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>; otherwise, keep reading to help determine your type.
 
 ## Identifying your dominant core emotion
 
