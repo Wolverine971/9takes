@@ -66,28 +66,9 @@
 			<!-- 9takes- Find people similar to you and understand everyone else. how socrates must have been explaining things
 			How we see the World -->
 		</div>
-		{#if !data?.session?.user?.id}
-			<div class="big-points center-align flex-center">
-				<div style="margin: 5rem 0;">
-					<h2>NOT YET RELEASED</h2>
-					<h2>
-						Signup for the Beta at the bottom
-						<a href="#signup" id="signup-link">
-							<svg
-								style="display: inline;"
-								xmlns="http://www.w3.org/2000/svg"
-								height="1em"
-								viewBox="0 0 384 512"
-								><path
-									d="M82.2 224L192 334 301.8 224H248c-13.3 0-24-10.7-24-24V80H160V200c0 13.3-10.7 24-24 24H82.2zM192 384c-11.5 0-22.5-4.6-30.6-12.7L45.6 255.2C36.9 246.5 32 234.7 32 222.4C32 196.8 52.8 176 78.4 176H112V80c0-26.5 21.5-48 48-48h64c26.5 0 48 21.5 48 48v96h33.6c25.6 0 46.4 20.8 46.4 46.4c0 12.3-4.9 24.1-13.6 32.8L222.6 371.3c-8.1 8.1-19.1 12.7-30.6 12.7zM24 432H360c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24z"
-								/>
-							</svg>
-						</a>
-					</h2>
-				</div>
-			</div>
-		{/if}
+
 		<div class="big-points center-align flex-center">
+			<h1>9takes Explained</h1>
 			<div>
 				<h2>How we see the World</h2>
 
@@ -138,7 +119,7 @@
 					style="text-align: center;"
 					itemprop="description"
 				>
-					{'everything GOOD that we built started with a GOOD question'}
+					{'everything we built started with a question'}
 				</p>
 			</div>
 		</Jumbotron>
@@ -372,6 +353,7 @@
 		grid-template-columns: 1fr;
 		column-gap: 1.25rem;
 		grid-gap: 10rem;
+		overflow: auto;
 	}
 	.big-points {
 		max-width: 50%;

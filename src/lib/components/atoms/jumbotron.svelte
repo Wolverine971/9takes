@@ -238,6 +238,7 @@
 		-webkit-filter: grayscale(100%);
 		filter: grayscale(100%);
 		opacity: 0.6;
+		object-fit: cover;
 		-webkit-transition: opacity 1s ease-in-out;
 		-moz-transition: opacity 1s ease-in-out;
 		-o-transition: opacity 1s ease-in-out;

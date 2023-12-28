@@ -48,10 +48,28 @@
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">Sign up for the 9takes Beta</h2>
-	<p>9takes will be free for the first 1000 users</p>
+	<h2 style="margin-top: 0;">Sign up for the 9takes</h2>
+	<p>Find out the similarities and <br /> differences between people</p>
 
 	<!-- // Signup to get a sneak peak into what we are building -->
+	<form class="waitlist-form">
+		<button
+			type="button"
+			on:click={() => {
+				goto('/register');
+			}}
+			class="corner-icon"
+		>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				Sign up
+			{/if}
+		</button>
+	</form>
+
+	<!-- <h2 style="margin-top: 0;">Sign up for the 9takes Beta</h2>
+	<p>9takes will be free for the first 1000 users</p>
 	<form class="waitlist-form">
 		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
 		<button
@@ -68,7 +86,7 @@
 				Sign up
 			{/if}
 		</button>
-	</form>
+	</form> -->
 	{#if error}
 		<p class="error">{error}</p>
 	{/if}

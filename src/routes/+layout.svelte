@@ -111,7 +111,8 @@
 	<BackNavigation />
 {/if}
 <main
-	class="{$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url.pathname !== '/signup'
+	class="flexrate {$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url.pathname !==
+	'/signup'
 		? 'pos-rel'
 		: ''}"
 >
@@ -159,5 +160,13 @@
 			height: 1em;
 			background-size: 1em 1em;
 		}
+	}
+
+	.flexrate {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: calc(100vh - 62px);
 	}
 </style>
