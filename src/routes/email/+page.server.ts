@@ -41,11 +41,22 @@ export const actions: Actions = {
 	submit: async ({ request }) => {
 		const body = Object.fromEntries(await request.formData());
 
-		const { data: emailExists } = await supabase
+		const email = body.email.toString();
+
+		const { data: emailExists, error: emailError } = await supabase
 			.from('signups')
 			.select('*')
-			.eq('email', body.email);
-		if (emailExists?.length) {
+			.eq('email', email)
+
+		if (emailError) {
+			console.log(emailError)
+			throw error(404, {
+				message: 'Email already exists'
+			});
+		}
+
+		if (emailExists?.length > 0) {
+			console.log(emailExists)
 			throw error(404, {
 				message: 'Email already exists'
 			});

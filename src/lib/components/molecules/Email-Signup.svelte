@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { deserialize } from '$app/forms';
 	import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
 
@@ -20,21 +21,23 @@
 		let body = new FormData();
 		body.append('email', email);
 
-		const { data, error: emailError } = await (
-			await fetch(`/email?/submit`, {
-				method: 'POST',
-				body
-			})
-		).json();
+		const resp = await fetch(`/email?/submit`, {
+			method: 'POST',
+			body
+		});
 
-		if (data) {
+		const data = deserialize(await resp.text());
+		console.log(data);
+
+		if (!data?.error) {
 			notifications.info('Email Submitted', 3000);
+			notifications.info('Check and confirm your email', 6000);
 
 			// goto('/signup');
 
 			email = '';
 		} else {
-			if (emailError?.message && emailError?.message === 'Email already exists') {
+			if (data?.error?.message && data?.error?.message === 'Email already exists') {
 				notifications.warning('Email already exists', 3000);
 			} else {
 				notifications.warning('Email Failed', 3000);
