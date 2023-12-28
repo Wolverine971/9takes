@@ -47,9 +47,9 @@
 	};
 </script>
 
-<div class="glass-card">
+<div class="">
 	<div>
-		<div class="row">
+		<div class="row" style="justify-content: space-between;">
 			{#if data?.user?.admin}
 				<a href="/admin">
 					<button type="button" class="btn btn-primary">Admin</button>
@@ -65,7 +65,7 @@
 					};
 				}} -->
 			<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
-				<button type="submit" class="btn btn-primary">Logout</button>
+				<button type="submit" class="btn btn-secondary">Logout</button>
 			</form>
 		</div>
 		<div class="row">
@@ -96,7 +96,7 @@
 				}}
 			/>
 		</div>
-		<div class="row">
+		<div class="row" style="justify-content: flex-end;">
 			<button type="button" class="btn btn-primary save-btn" on:click={save}>Save</button>
 		</div>
 	</div>

@@ -1,13 +1,10 @@
 <script lang="ts">
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import { convertDateToReadable } from '../../../utils/conversions';
 
 	export let questionData: any;
 
-	const dateObj = new Date(questionData.created_at);
-	const month = dateObj.getUTCMonth() + 1; //months from 1-12
-	const day = dateObj.getUTCDate();
-	const year = dateObj.getUTCFullYear();
-	const newdate = month + '/' + day + '/' + year;
+	const newdate = convertDateToReadable(questionData.created_at);
 </script>
 
 <a href="/questions/{questionData.url}" style="" class="question-card">

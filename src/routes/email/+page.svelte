@@ -10,7 +10,6 @@
 
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {
-			//!/.+@.+/.test(email) ||
 			error = 'must be a valid email';
 			return;
 		} else {

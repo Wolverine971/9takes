@@ -3,17 +3,19 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { deserialize } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { convertDateToReadable } from '../../../utils/conversions';
 
 	export let data: PageData;
 
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
-				const dateObj = new Date(s.created_at);
-				const month = dateObj.getUTCMonth() + 1; //months from 1-12
-				const day = dateObj.getUTCDate();
-				const year = dateObj.getUTCFullYear();
-				const newdate = month + '/' + day + '/' + year;
-				return { ...s, createdAt: newdate };
+				return { ...s, createdAt: convertDateToReadable(s.created_at) };
+		  })
+		: [];
+
+	const formattedProfiles: any[] = data?.profiles?.length
+		? data?.profiles?.map((p) => {
+				return { ...p, createdAt: convertDateToReadable(p.created_at) };
 		  })
 		: [];
 	let active: any = null;
@@ -55,9 +57,9 @@
 			<h1 style="">Users</h1>
 		</div>
 
-		{#if data.profiles?.length}
+		{#if formattedProfiles?.length}
 			<div class="pretty-div">
-				<h2>User Profiles ({data.profiles?.length})</h2>
+				<h2>User Profiles ({formattedProfiles?.length})</h2>
 				<div class="scroll-table scrollable-div">
 					<table>
 						<tr>
@@ -69,18 +71,23 @@
 							<th>Save</th>
 						</tr>
 
-						{#each data.profiles as profile}
+						{#each formattedProfiles as profile}
 							<tr>
 								<td>{profile.email}</td>
-								<td>{profile.first_name} {profile.last_name}</td>
-								<td>{profile.created_at}</td>
-								<td>{profile.enneagram}</td>
+								<td
+									>{profile.first_name || profile.last_name
+										? `${profile.first_name} ${profile.last_name}`
+										: ''}</td
+								>
+								<td>{profile.createdAt}</td>
+								<td>{profile.enneagram || ''}</td>
 								<td>
 									{profile.admin ? true : false}
 								</td>
 								<td>
 									<button
 										type="button"
+										class="btn btn-primary"
 										on:click={() => {
 											active = { ...profile };
 											activeAdmin = !!active.admin;
