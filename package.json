@@ -68,6 +68,9 @@
 		"vite": "^4.3.5",
 		"vitest": "^0.25.8"
 	},
+	"browser": {
+		"crypto": false
+	},
 	"type": "module",
 	"dependencies": {
 		"@builder.io/partytown": "^0.8.1",
