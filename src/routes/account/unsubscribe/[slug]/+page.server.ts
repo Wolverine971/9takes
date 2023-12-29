@@ -9,7 +9,6 @@ import { decrypt } from '../../../../utils/crypto';
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
     const slug = event.params.slug;
-    console.log(slug)
 
     const { data: userSignup, error: userSignupfError } = await supabase
         .from('signups')

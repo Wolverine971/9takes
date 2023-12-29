@@ -1,10 +1,11 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import { convertDateToReadable } from '../../../utils/conversions';
+	import { deserialize } from '$app/forms';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: PageData;
 
-	// console.log(data);
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
 				return {
@@ -20,10 +21,19 @@
 		let body = new FormData();
 		body.append('email', email.trim());
 
-		await fetch('?/createCypher', {
+		const resp = await fetch('?/createCypher', {
 			method: 'POST',
 			body
 		});
+
+		const result: any = deserialize(await resp.text());
+
+		if (result?.data?.success) {
+			notifications.info('Updated cypher', 3000);
+		} else {
+			notifications.danger('Error updating cypher', 3000);
+			console.log(result.error);
+		}
 	};
 
 	const refreshAllCyphersForAll = async () => {
@@ -38,14 +48,7 @@
 				});
 			}
 		}
-
-		// let body = new FormData();
-		// body.append('email', email.trim());
-
-		// await fetch('?/createCypher', {
-		// 	method: 'POST',
-		// 	body
-		// });
+		notifications.info('Updated successful', 3000);
 	};
 </script>
 

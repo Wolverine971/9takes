@@ -74,38 +74,26 @@ export const actions: Actions = {
                 throw error(400, 'unauthorized');
             }
 
-
-
             const body = Object.fromEntries(await request.formData());
-
             const email = body.email as string;
-            console.log(email)
-
             const emailCypher = encrypt(email);
-            console.log(emailCypher)
 
-
-            const { data: userSignup, error: userSignupfError } = await supabase
+            const { error: userSignupfError } = await supabase
                 .from('signups')
                 .update({ 'unsubscribe_id': emailCypher.encryptedData, 'unsubscribe_iv': emailCypher.iv })
                 .eq('email', email)
                 .single();
 
-
             if (userSignupfError) {
                 console.log(userSignupfError)
-
             }
-            if (userSignup) {
-                console.log(userSignup)
 
-            }
             return { success: true, emailCypher };
 
 
         } catch (e) {
-
             console.log(e)
+            throw error(400, 'error');
         }
 
     },

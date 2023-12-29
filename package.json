@@ -83,7 +83,6 @@
 		"@vavite/node-loader": "^1.7.0",
 		"@vercel/analytics": "^0.1.11",
 		"base64-arraybuffer": "^1.0.2",
-		"crypto": "^1.0.1",
 		"dotenv": "^16.0.3",
 		"dropcss": "^1.0.16",
 		"express": "^4.18.2",

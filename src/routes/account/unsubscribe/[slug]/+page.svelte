@@ -6,8 +6,6 @@
 
 	export let data: PageData;
 
-	console.log(data);
-
 	const confirmUnsubscribe = async () => {
 		let body = new FormData();
 		body.append('email', data.userSignup?.email);
