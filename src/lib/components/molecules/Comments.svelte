@@ -73,7 +73,7 @@
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 
-{#if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
+{#if !browser || (comments?.length && parentType === 'question' && _data?.flags?.userHasAnswered) || (comments?.length && parentType === 'comment')}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
 		<div>

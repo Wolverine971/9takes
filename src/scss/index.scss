@@ -276,7 +276,7 @@ select {
 a.disabled {
 	cursor: default;
 	text-decoration: line-through;
-	color: grey !important;
+	color: var(--color-paladin-3) !important;
 }
 
 .btn-disabled {
@@ -443,10 +443,10 @@ section {
 
 	&:disabled {
 		opacity: 1;
-		border: 1px solid grey;
+		border: 1px solid var(--color-paladin-3);
 		background-color: var(--color-paladin-1, white);
 		cursor: auto;
-		color: grey;
+		color: var(--color-paladin-3);
 	}
 }
 

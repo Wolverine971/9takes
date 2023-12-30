@@ -1,5 +1,6 @@
 import { error, json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
+
 import { checkDemoTime } from '../../utils/api';
 
 /** @type {import('./$types').RequestHandler} */
@@ -14,21 +15,23 @@ export async function GET({ url, locals, cookies }) {
 
 		const user = locals?.session?.user;
 
-		// only works for questions
-		const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
-			'can_see_comments_3',
-			{
-				userfingerprint: cookie,
-				questionid: parentId,
-				userid: user?.id || null
-			}
-		);
+		if (parentType === 'question') {
+			// only works for questions
+			const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
+				'can_see_comments_3',
+				{
+					userfingerprint: cookie,
+					questionid: parentId,
+					userid: user?.id || null
+				}
+			);
 
-		if (!userHasAnswered) {
-			if (canSeeCommentsError) {
-				console.log(canSeeCommentsError);
+			if (!userHasAnswered) {
+				if (canSeeCommentsError) {
+					console.log(canSeeCommentsError);
+				}
+				return json({});
 			}
-			return json({});
 		}
 
 		const { data: questionComments, error: questionCommentsError } = await supabase

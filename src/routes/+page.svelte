@@ -84,7 +84,7 @@
 						and different, but the conversation gets more complicated when you introduce personality.
 					</p>
 				</div>
-				<div class="wave-sections" style="border: 1px solid purple;">
+				<div class="wave-sections" style="border: 1px solid #5407d9;">
 					<h4 style="margin-top: 0;">New wave</h4>
 
 					<p>

@@ -312,8 +312,8 @@
 				{#if !data?.flags?.userHasAnswered}
 					<span class="helper-suggestion">
 						{_data.comment_count === 0
-							? 'Be the first to answer the question!'
-							: 'Must answer question before seeing the comments'}
+							? 'Be the first one to answer ✋'
+							: 'Must answer before seeing the comments'}
 					</span>
 				{/if}
 				<AIComments questionId={data.id} data={_data} parentType={'question'} {user} />

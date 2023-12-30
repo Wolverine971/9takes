@@ -195,7 +195,7 @@
 		display: block;
 		width: 100%;
 		height: 4px;
-		background-color: grey;
+		background-color: var(--color-paladin-3);
 		position: relative;
 		transition: $slide;
 

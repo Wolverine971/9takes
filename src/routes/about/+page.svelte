@@ -109,7 +109,7 @@
 			is time for a redo.
 		</p>
 
-		<div style="color: purple; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
+		<div style="color: #5407d9; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
 			<span
 				>Optimize social media, don't police it and go after short-term cash like a dusty newspaper
 				editor
@@ -153,9 +153,8 @@
 			psychedelics and want everyone to do psychedelics. The problem was finding other people to
 			explore personality further.
 		</p>
-		<p style="color: purple; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
-			If understanding my personality could help me, it could help others. And I have been using it
-			ever since
+		<p style="color: #5407d9; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
+			If understanding my own personality could help me, how much could it help everyone else?
 		</p>
 	</div>
 	<h2>What is 9takes</h2>
