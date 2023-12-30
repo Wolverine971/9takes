@@ -3,7 +3,8 @@
 
 <div>
 	<h1 style="text-align: center; margin: 1rem;">
-		<span style="text-decoration: underline;">Login</span>/ <a href="/register">Register</a>
+		<span style="text-decoration: underline; color: #5407d9;">Login</span> /
+		<a href="/register" style="">Register</a>
 	</h1>
 	<form action="?/login" method="POST" class="auth-form">
 		<label for=""> Email </label>

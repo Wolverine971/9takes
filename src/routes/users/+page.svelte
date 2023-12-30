@@ -31,7 +31,7 @@
 				return p;
 			});
 		}
-		getModal(user - modal2).close();
+		getModal('user-modal2').close();
 	};
 
 	// export let data: PageData;
@@ -72,7 +72,7 @@
 										on:click={() => {
 											active = { ...profile };
 											activeAdmin = !!active.admin;
-											getModal(user - modal2).open();
+											getModal('user-modal2').open();
 										}}
 									>
 										Edit

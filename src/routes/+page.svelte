@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	import { goto } from '$app/navigation';
@@ -68,9 +67,9 @@
 		</div>
 
 		<div class="big-points center-align flex-center">
-			<h1>9takes Explained</h1>
+			<h1>The 9takes worldview</h1>
 			<div>
-				<h2>How we see the World</h2>
+				<h2>How we see the world</h2>
 
 				<h3>Second wave of social media meets personality</h3>
 				<div class="wave-sections" style="border: 1px solid grey;">

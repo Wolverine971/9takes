@@ -9,9 +9,9 @@
 			data: { subscription }
 		} = supabase.auth.onAuthStateChange((event, state, session) => {
 			if (state == 'SIGNED_IN') {
-				user.set(session.user);
+				session.user.set(session.user);
 			} else {
-				user.set(false);
+				session.user.set(false);
 			}
 			// invalidateAll();
 			if (event === 'PASSWORD_RECOVERY') {

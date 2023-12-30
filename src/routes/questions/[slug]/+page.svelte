@@ -212,8 +212,11 @@
 	@media (min-width: 1200px) {
 		aside {
 			position: fixed !important;
-			margin-left: 975px;
+			margin-left: 955px;
 			right: auto;
+			display: block;
+			margin-top: 0.5rem;
+			padding: 0.5rem;
 		}
 	}
 
