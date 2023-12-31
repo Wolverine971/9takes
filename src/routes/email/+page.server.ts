@@ -36,61 +36,30 @@ import type { Actions } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
 import { forgotPass, joinEmail, joinEmail2, signupEmail } from '../../emails';
 import { error, redirect } from '@sveltejs/kit';
+import { checkDemoTime } from '../../utils/api';
 
 export const actions: Actions = {
-	submit: async ({ request }) => {
-		const body = Object.fromEntries(await request.formData());
-
-		const email = body.email.toString();
-
-		const { data: emailExists, error: emailError } = await supabase
-			.from('signups')
-			.select('*')
-			.eq('email', email)
-
-		if (emailError) {
-			console.log(emailError)
-			throw error(404, {
-				message: 'Email already exists'
-			});
+	emailTemplate: async ({ request, locals }) => {
+		if (!locals?.session?.user?.id) {
+			throw error(400, 'unauthorized');
 		}
 
-		if (emailExists?.length > 0) {
-			console.log(emailExists)
-			throw error(404, {
-				message: 'Email already exists'
-			});
-		}
-		const { error: insertError } = await supabase
-			.from('signups')
-			.insert([{ email: body.email, name: '' }]);
+		const demo_time = await checkDemoTime();
 
-		if (!insertError) {
-			try {
-				const sent = await sendEmail({
-					to: body.email.toString(),
-					subject: 'Welcome to the Waitlist for 9takes',
-					body: joinEmail2()
-				});
-				if (sent) {
-					return { success: true };
-				} else {
-					throw error(404, {
-						message: `Failed to insert email, no error available`
-					});
-				}
-			} catch (e) {
-				throw error(404, {
-					message: `Failed to insert email, ${JSON.stringify(e)}`
-				});
-			}
-		} else {
-			throw error(404, {
-				message: `Failed to insert email, ${JSON.stringify(insertError)}`
-			});
+		const { data: user, error: findUserError } = await supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', locals?.session?.user?.id)
+			.single();
+
+		if (!user?.admin) {
+			throw error(400, 'unauthorized');
 		}
-	},
-	emailTest: async ({ request }) => {
+		if (findUserError) {
+			console.log(findUserError);
+			throw error(400, 'unauthorized');
+		}
+
 		const body = Object.fromEntries(await request.formData());
 		const email = body.email.toString();
 		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
@@ -143,7 +112,121 @@ export const actions: Actions = {
 				message: `Failed to send email, ${JSON.stringify(e)}`
 			});
 		}
-	}
+	},
+	singleCustomEmail: async ({ request, locals }) => {
+		if (!locals?.session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+
+		const demo_time = await checkDemoTime();
+
+		const { data: user, error: findUserError } = await supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', locals?.session?.user?.id)
+			.single();
+
+		if (!user?.admin) {
+			throw error(400, 'unauthorized');
+		}
+		if (findUserError) {
+			console.log(findUserError);
+			throw error(400, 'unauthorized');
+		}
+
+		const body = Object.fromEntries(await request.formData());
+		const email = body.email.toString();
+		const emailToSend = body.emailToSend.toString();
+		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
+
+		if (!email) {
+			throw error(404, {
+				message: 'no email'
+			});
+		}
+
+		try {
+			const sent = await sendEmail({
+				to: body.email.toString(),
+				subject,
+				body: emailToSend
+			});
+			if (sent) {
+				return { success: true };
+			} else {
+				throw error(404, {
+					message: `Failed to test email, no error available`
+				});
+			}
+		} catch (e) {
+			throw error(404, {
+				message: `Failed to send email, ${JSON.stringify(e)}`
+			});
+		}
+	},
+	sendCustomEmailToEveryone: async ({ request, locals }) => {
+		if (!locals?.session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
+
+		const demo_time = await checkDemoTime();
+
+		const { data: user, error: findUserError } = await supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', locals?.session?.user?.id)
+			.single();
+
+		if (!user?.admin) {
+			throw error(400, 'unauthorized');
+		}
+		if (findUserError) {
+			console.log(findUserError);
+			throw error(400, 'unauthorized');
+		}
+
+		const body = Object.fromEntries(await request.formData());
+		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
+		const emailToSend = body.emailToSend.toString();
+
+		if (!emailToSend) {
+			throw error(404, {
+				message: 'no email'
+			});
+		}
+
+		const { data: signups, error: signupsError } = await supabase
+			.from('signups')
+			.select('*')
+
+		if (signupsError) {
+			throw error(404, {
+				message: `Failed to get signups, ${JSON.stringify(signupsError)}`
+			});
+		}
+
+		try {
+			for (const signup of signups) {
+				const sent = await sendEmail({
+					to: signup.email.toString(),
+					subject,
+					body: emailToSend
+				});
+				if (sent) {
+					console.log(`sent to ${signup.email.toString()}`)
+				} else {
+					throw error(404, {
+						message: `Failed to test email, no error available`
+					});
+				}
+			}
+
+		} catch (e) {
+			throw error(404, {
+				message: `Failed to send email, ${JSON.stringify(e)}`
+			});
+		}
+	},
 };
 
 const makeBody = ({

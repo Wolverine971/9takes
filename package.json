@@ -90,6 +90,7 @@
 		"gsap": "^3.12.1",
 		"html-to-image": "^1.11.11",
 		"mapbox-gl": "^3.0.1",
+		"medium-editor": "^5.23.3",
 		"mermaid": "10.0.0-rc.3",
 		"natural": "^6.2.0",
 		"node-schedule": "^2.1.1",

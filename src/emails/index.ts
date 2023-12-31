@@ -2,7 +2,7 @@ import { EmailHead } from './EmailHead';
 
 const from = '9takes Admins';
 export const joinEmail = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -113,7 +113,7 @@ export const joinEmail = () => {
 };
 
 export const joinEmail2 = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -138,7 +138,7 @@ export const joinEmail2 = () => {
                     <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
                       <div value="15" style="padding-top:15px"> </div><b style="">
                         Feel free to
-                        reach out to us</b> on
+                        reach out</b> on
                       <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom"> twitter </a> or reply to
                       this email at usersup@9takes.com.
                     </div>
@@ -200,9 +200,69 @@ export const joinEmail2 = () => {
     </html>`;
 };
 
+export const emailTemplate = (subject: string, header: string, body: string) => {
+  return `<!DOCTYPE html>
+    <html>
+      ${EmailHead(subject)}
+      <body style="background-color: #f6f6f6;">
+        <table style="border-collapse:collapse;width:600px;max-width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr style="">
+              <td style="border-collapse:collapse;display:block;padding:0 1em;width:600px;max-width:600px;margin:30px auto;background-color:#ffffff"
+                width="600" bgcolor="#ffffff">
+                <div style="text-align:center">
+                  <div value="20" style="padding-top:20px"> </div>
+                  <div
+                    style="height:100%;padding:45px;border-radius:10px;margin:10px auto;background-color:#ffffff">
+                    <h1
+                      style="font-size:36px;line-height:40px;letter-spacing:-0.5px;font-weight:600;color:black;margin:0">
+                      ${header}
+                    </h1>
+                    <div value="15" style="padding-top:15px"> </div>
+                    <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
+                      ${body}
+                    </div>
+                    <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
+                      <div value="15" style="padding-top:15px"> </div><b style="">
+                        Feel free to
+                        reach out</b> on
+                      <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom"> twitter </a> or reply to
+                      this email at usersup@9takes.com.
+                    </div>
+                    <div value="30" style="padding-top:30px"> </div>
+                    <div value="30" style="padding-top:30px"> </div>
+                    <div value="30" style="padding-top:30px">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%" >
+                        <tr style="margin: auto" align="center">
+                          <td valign="top" align="right">
+                              
+                            <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom">
+                              <img src="https://9takes.com/icons/twitter.png" alt="Twitter" class="icon" width="50px"/>
+                            </a>
+                          </td>
+                          <td valign="top" align="left">
+                              <a class="external-link" target="_blank" href="https://www.instagram.com/9takesdotcom/">
+                              <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    
+    </html>`;
+};
+
 // this is in supabase
 export const signupEmail = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Confirm your email to join 9takes')}
       <body style="background-color: #f6f6f6;">
@@ -233,7 +293,7 @@ export const signupEmail = () => {
 };
 
 export const forgotPass = (link: string) => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
       <html>
         <head>
         <meta charset="utf-8">

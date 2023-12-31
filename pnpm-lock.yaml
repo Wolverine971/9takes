@@ -56,6 +56,9 @@ dependencies:
   mapbox-gl:
     specifier: ^3.0.1
     version: 3.0.1
+  medium-editor:
+    specifier: ^5.23.3
+    version: 5.23.3
   mermaid:
     specifier: 10.0.0-rc.3
     version: 10.0.0-rc.3
@@ -4098,6 +4101,10 @@ packages:
   /media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /medium-editor@5.23.3:
+    resolution: {integrity: sha512-he9/TdjX8f8MGdXGfCs8AllrYnqXJJvjNkDKmPg3aPW/uoIrlRqtkFthrwvmd+u4QyzEiadhCCM0EwTiRdUCJw==}
     dev: false
 
   /meow@10.1.5:
