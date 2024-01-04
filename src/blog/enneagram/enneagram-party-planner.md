@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram Party Planner: Customize Your Invites for All Types'
-description: 'Explore Enneagram dynamics in party planning to craft perfect invites for each type, ensuring an unforgettable event.'
+title: 'Enneagram Party Planner: Customize Your Invites for All Types'
+description: 'The Enneagram dynamics in party planning, craft perfect invites for each personality type, ensuring unforgettable events.'
 author: 'DJ Wayne'
 date: '2023-12-09'
 loc: 'https://9takes.com/blog/enneagram/enneagram-party-planner'
-lastmod: '2023-12-09'
+lastmod: '2024-01-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -22,7 +22,7 @@ pic: 'greek-statues-partying'
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
-<p class="firstLetter">Have you ever thought about the nuances of a Type 2 Enneagram, the ever-helpful supporter, at a party compared to the dynamics involving a Type 5, the intense cerebral type? It's not just about who brings the best dish or who's the life of the party; it's an exploration into the deeper intricacies of human nature, making any gathering truly unforgettable.</p>
+<p class="firstLetter">Trying to plan a great event? Take a moment to consider the <a href="/blog/enneagram/enneagram-tldr" >personality types</a> of the people who might be attending. Are the people who are attending your close friends who love and support you or is it a bunch of cerebral people who are there for interesting conversations? Who is going to be late and who will be early. Who will be silently judging you and who will be wanting to get wild with anyone over a 6. Here we will explore the personality types that might show up to your party and help you make you make any gathering an unforgettable event.</p>
 
 <div
     style="display: flex;
@@ -39,20 +39,22 @@ pic: 'greek-statues-partying'
     />
 </div>
 
-## Uncovering the Layers
+## An example approach to party planning
 
-Imagine Alex, a quintessential Type 3 (The Achiever), planning a party. Their approach isn't just about having fun; they aim to create an event that's memorable and impactful. For Alex, a poorly attended party is a failure, a dent in their high expectations. They take pride in their social connections and organizational skills, often sparking conversations about recent successes in work or personal life. Alex's meticulous planning and attention to detail are essential in their party preparation.
+Imagine Alex embodying the quintessential traits of a Type 3 Achiever, meticulously orchestrating a party. For Alex, this isn't just about hosting a fun gathering; it's an opportunity to shine and demonstrate prowess. The party must be a resounding success, something to discuss for days, even weeks. A sparsely attended event would be more than a disappointment—it would be a blow to Alex's high standards and self-image.
 
-## The Planning Paradox
+Alex takes immense pride in their social connections and organizational abilities, aiming to leave guests in awe. Every detail, from the choice of venue, menu, and music to the overall ambiance, is carefully curated to align with Alex's vision of cool and sophistication. The goal is to create an experience that resonates with respectability and leaves an indelible impression of Alex's flair and finesse.
 
-Alex's strategy involves tailoring invites to resonate with each Enneagram type, ensuring not just attendance but fostering meaningful connections among diverse personalities.
+In pursuit of this ambition, Alex might extend invitations to particularly notable or impressive individuals, adding an extra layer of prestige to the event. This party is less about the celebration and more an avenue for Alex to showcase their capabilities and social clout. It's a strategic display of Alex's personal and social achievements, carefully designed to elevate their standing in the eyes of every attendee.
+
+How Alex approaches planning a party might be very different from your own. It is essential first to determine your motivations for throwing the party and then think about the motivations for other people to attend your party.
 
 ### The Invite Strategy
 
-Each Enneagram type is approached with a unique strategy that aligns with their motivations and desires. For instance, a Type 1 - The Reformer, is invited to a party focused on improvement and order, engaging them in meaningful, purpose-driven activities. Meanwhile, a Type 7 - The Enthusiast, is enticed with the promise of fun, adventurous experiences, and spontaneity.
+Let's reverse-engineer why each Enneagram type might want to attend a party. Each Enneagram type approaches a party differently and has unique but also subtle motivations and desires. For instance, if a Type 1, "The Reformer/ The Perfectionist," is invited to a party, to them, the party might be serving some utility and may have a clear purpose, and there might be an ideal way the party should be run in their min. Meanwhile, a Type 7 - The Enthusiast, is enticed with the promise of fun, adventurous experiences, and spontaneity.
 
 <details>
-<summary class="accordion">Invite for Enneagram 1- The Reformer</summary>
+<summary class="accordion">Invite for Enneagram 1- The Reformer/ Perfectionist</summary>
 
 <p style="margin: 0 1rem">Motivations</p>
 
@@ -305,7 +307,7 @@ Your next social gathering can transcend the ordinary by applying these insights
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-09"
+        "@value": "2024-01-04"
       },
       "datePublished": {
         "@type": "Date",

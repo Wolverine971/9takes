@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
-lastmod: '2023-12-02'
+lastmod: '2023-12-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -141,7 +141,7 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-21",
+      "dateModified": "2023-12-25",
       "datePublished": "2023-07-16",
       "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
       "headline": "The Consensus on Human Nature",

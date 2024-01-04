@@ -45,7 +45,7 @@
 				<div class="main-description">
 					<h1>Anonymous questions and answers based on personality</h1>
 					<p style="font-size: 1.5rem; font-weight: 700;">
-						Find out what people think, feel, and do
+						Find out what people <br /> think, feel, and do
 					</p>
 					{#if !data?.session?.user?.id}
 						<button
@@ -67,39 +67,39 @@
 		</div>
 
 		<div class="big-points center-align flex-center">
-			<h1>The 9takes worldview</h1>
+			<h2>The 9takes worldview</h2>
 			<div>
-				<h2>How we see the world</h2>
-
-				<h3>Second wave of social media meets personality</h3>
+				<h3>There are two social media waves</h3>
 				<div class="wave-sections" style="border: 1px solid grey;">
 					<h4 style="margin-top: 0;">Old wave</h4>
 
 					<p>
-						<b>Social media</b> promised connection, but we are now more divided than maybe ever, and
-						depression is on the rise.
+						<b>"Social media"</b> was about being connected to your friends and finding cool stuff that
+						was shareable. That morphed into lurking and mindlessly scrolling, looking for cheap laughs
+						and dopamine bumps. We are now more divided than maybe ever, and depression is on the rise.
 					</p>
 					<p>
-						<b>Personality</b> promised to simplify our understanding of people. Yes, people are similar
-						and different, but the conversation gets more complicated when you introduce personality.
+						<b>"Personality"</b> was supposed to be something fun an interesting. You could learn about
+						yourself and your friends. But it morphed into pseudoscience and a way to put people in boxes.
+						Yes, people are similar and different, but the conversation gets more complicated when you
+						bring up personality.
 					</p>
 				</div>
 				<div class="wave-sections" style="border: 1px solid #5407d9;">
 					<h4 style="margin-top: 0;">New wave</h4>
 
 					<p>
-						<b>Social media</b> should be about finding and connecting with your people. And it should
-						also be about finding interesting stuff and learning new things. It should prevent piling
-						on and should be about safe and authentic expression. It would help if you weren't afraid
-						to post or ask questions.
+						<b>Social media</b> shouldn't feel stifling. It should be about self-expression and finding
+						and connecting with like-minded people. Different opinions make for better conversations,
+						not shutting people down. Social media should be the place to ask the big questions.
 					</p>
 					<p>
-						<b>Personality</b> should be open ended. It would help if you discovered your personality
-						at your own pace. You shouldn't be put in a box or told what you are. It should be fun and
-						enlightening as you learn your personality and should be driven by asking questions.
+						<b>Personality</b> should be open ended. Discover your personality at your own pace. You
+						shouldn't be put in a box or told what you are. It should be fun and enlightening as you
+						learn your personality and should be driven by asking questions.
 					</p>
 				</div>
-				<p>And thats what 9takes is all about. <b>Asking questions</b>.</p>
+				<p>And thats what 9takes is about. <b>Asking questions</b>.</p>
 			</div>
 		</div>
 		<Jumbotron

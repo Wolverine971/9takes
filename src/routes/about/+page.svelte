@@ -5,6 +5,9 @@
 	let showEmail = false;
 	let showLaser = true;
 	let innerWidth = 0;
+	// https://www.youtube.com/shorts/2362fFtFQN4
+
+	import { browser } from '$app/environment';
 </script>
 
 <svelte:head>
@@ -123,17 +126,19 @@
 			Social media today has made too many short-term decisions and has paved the way for what is not
 			to do. See the video below:
 		</p>
-		<div style="display:flex; align-items: center; justify-content: center;">
-			<iframe
-				width="560"
-				height="315"
-				src="https://www.youtube.com/embed/-IYvvm8gzqw?si=8MaKuA5vfTpcXhGN"
-				title="Talk about how social media messes up 'socializing'"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			/>
-		</div>
+		{#if browser}
+			<div style="display:flex; align-items: center; justify-content: center;">
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/-IYvvm8gzqw?si=8MaKuA5vfTpcXhGN"
+					title="Meetup presentation about how social media messes up 'socializing'"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				/>
+			</div>
+		{/if}
 
 		<h3 style="margin: 1.5rem 0">On people being divided</h3>
 
