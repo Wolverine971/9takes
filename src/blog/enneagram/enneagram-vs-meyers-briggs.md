@@ -168,7 +168,7 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
             "width":1450
          },
          "mainEntityOfPage":{
-            "@id":"https://9takes.com/blog/enneagram/enneagram-vs-mbti",
+            "@id":"https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs",
             "@type":"WebPage"
          },
          "mentions":{
