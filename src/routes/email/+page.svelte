@@ -3,7 +3,6 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	// import { MediumEditor } from 'medium-editor';
 	import { onMount } from 'svelte';
-	import { Modal2 } from '$lib/components';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	let email: string = '';
