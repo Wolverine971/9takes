@@ -41,7 +41,8 @@ export const actions: Actions = {
 			if (demo_time === true) {
 				return tempUrl;
 			}
-			const response = await elasticClient.search(typeaheadQuery('question', 'url', tempUrl, 200));
+			const response = await elasticClient.search(typeaheadQuery(
+				{ index: question, field: 'url', text: tempUrl, size: 200 }));
 			if (response.hits.hits.length) {
 				return `${tempUrl}-${response.hits.hits.length}`;
 				// res.json({ url: `${tempUrl}-${response.hits.hits.length}` });
@@ -167,6 +168,7 @@ const removeStopwords = function (tokens: string[]) {
 		return stopwords.indexOf(value.toLowerCase()) === -1;
 	});
 };
+
 
 const eng = [
 	'about',

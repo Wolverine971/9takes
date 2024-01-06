@@ -152,7 +152,7 @@ export const actions: Actions = {
 			const questionString = body.searchString as string;
 
 			const {
-				hits: { hits: elasticHits }
+				hits: { hits: elasticPrefixHits }
 			} = await elasticClient.search({
 				index: 'question',
 				body: {
@@ -166,7 +166,34 @@ export const actions: Actions = {
 				}
 			});
 
-			return elasticHits;
+			const {
+				hits: { hits: elasticQueryStringHits }
+			} = await elasticClient.search({
+				index: 'question',
+				body: {
+					query: {
+						query_string: {
+							query: questionString
+						}
+					}
+				}
+			});
+			console.log(elasticPrefixHits, elasticQueryStringHits);
+
+			const hitMap: any = {}
+			const dedupedHits: any[] = []
+
+			const hits = [...elasticPrefixHits, ...elasticQueryStringHits]
+			console.log(hits);
+
+			hits.forEach((hit) => {
+				if (!hitMap[hit._id]) {
+					hitMap[hit._id] = 1
+					dedupedHits.push(hit)
+				}
+			})
+
+			return dedupedHits;
 		} catch (e) {
 			console.log(e);
 			return [];
@@ -185,8 +212,7 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-						!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{

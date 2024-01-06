@@ -23,6 +23,7 @@
 	}
 
 	export let filter = (text) => {
+		if (!text) return options;
 		const sanitized = text.trim().toLowerCase();
 
 		return options.reduce((a, o) => {
@@ -172,11 +173,12 @@
 	}
 
 	async function showList(inputValue) {
-		const isExactMatch = options.some((o) =>
-			o.options ? o.options.some((o) => o.text === inputValue) : o.text === inputValue
-		);
+		// do not need exact match
+		// const isExactMatch = options.some((o) =>
+		// 	o.options ? o.options.some((o) => o.text === inputValue) : o.text === inputValue
+		// );
 
-		list = inputValue === '' || isExactMatch ? options : await filter(inputValue);
+		list = inputValue === '' ? options : await filter(inputValue);
 		isListOpen = true;
 	}
 
