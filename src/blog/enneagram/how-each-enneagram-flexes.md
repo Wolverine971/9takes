@@ -181,7 +181,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
 <svelte:head>
 
-<meta property="og:image" content="https://9takes.com/blogs/greek-statue-flex.webp" />
 <script type="application/ld+json">
     {
     "@context": "http://schema.org",
