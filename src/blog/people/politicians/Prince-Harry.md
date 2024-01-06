@@ -4,7 +4,7 @@ description: 'Why Prince Harry appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Prince-Harry'
-lastmod: '2023-03-26'
+lastmod: '2024-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,6 +20,11 @@ tiktok:
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory. Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the revealing lens of the Enneagram Type 6.</p>
+
+> **Disclaimer** This analysis of Prince Harry's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,28 +40,52 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Prince Harry's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
+## What is Prince Harry's Personality Type?
 
-<p class="firstLetter">Prince Harry, the Duke of Sussex, is a member of the British royal family known for his philanthropic work and advocacy for mental health awareness. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 6, the Loyalist.</p>
+### Prince Harry: An Enneagram Type 6
 
-## Loyalty to his wife
+The Enneagram Type 6, often known as "The Loyalist," is characterized by a complex blend of commitment, security-seeking, and an acute sense of anxiety. Type 6 individuals are the vigilant guardians of their world, constantly scanning for potential hazards yet yearning for stability and trust in their relationships.
 
-One of the key characteristics of Type 6 is loyalty, and Prince Harry has demonstrated this trait consistently in his marriage. He has stood by his wife, Meghan Markle, through thick and thin, and has been vocal about his support for her, even in the face of public criticism. He has shown his willingness to protect and defend his wife, which is a hallmark of Type 6's loyalty.
+## A Royal Under the Microscope: The Six's Struggle for Security
 
-## He has concerns about security and safety
+Prince Harry's life, cast under the scrutiny of the public eye, is a case study for the Six's innate need for safety. His mother's tragic death left a scar, igniting a deep-seated quest for a secure haven amidst a world that often seems hostile. This quest is seen in his military service, where camaraderie and a clear code of conduct provided a structured sanctuary, and later in his protective stance towards his own family, stepping back from royal duties to shield them from relentless media pressure.
 
-Another hallmark of Enneagram Type 6s is their concern for security and safety, and this is evident in Prince Harry's behavior. He has spoken publicly about his struggles with mental health and the toll that the intense scrutiny of the media has taken on him and his family. He has also been involved in many charitable endeavors that aim to provide support and resources for those who are struggling with mental health issues 🧠💡.
+## The Loyalty of a Prince
 
-## He seeks guidance and support
+Type 6s are fiercely loyal, and Harry's dedication to his military comrades and charity work is a testament to this trait. His involvement with the Invictus Games showcases his commitment to supporting those who have experienced the harsh realities of conflict, reflecting the Six's deep sense of solidarity with the underdog.
 
-Enneagram Type 6s also seek guidance and support from trusted sources. He has been open about his reliance on therapy and the support of his wife, Meghan Markle, and has spoken about the importance of seeking help when struggling with mental health issues. He has also been a vocal advocate for ending the stigma surrounding mental health.
+## The Loyalist's Inner Circle
 
-## He has a sense of purpose
+A Six's environment is a fortress, populated with trusted allies. Prince Harry's close-knit circle, including his wife <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan</a> and a handful of lifelong friends, illustrates his careful selection of confidants. This inner sanctum is his bulwark against the unpredictable tides of royal life.
 
-Finally, Enneagram Type 6s have a sense of purpose and a desire to make a positive impact on the world. He has been involved in several charitable organizations, including Sentebale, which supports children affected by HIV in Lesotho and Botswana He also involves himself in the Invictus Games, which aims to support wounded veterans through sports and competition. He efforts reflect a 6s desire to effect positive change in the world.
+## Stressors That Shake the Royal Ground
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan Markle.</a>
-Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-types/Queen-Elizabeth-II">Queen Elizabeth.</a>
+What keeps Prince Harry up at night? For a Six, trust is paramount, and betrayal is the ultimate stressor. The constant media scrutiny, with its cycle of praise and criticism, is a minefield for someone seeking stability. His outspoken nature on issues like mental health is a double-edged sword, earning both commendation and controversy, stirring the Six's fear of missteps.
+
+## A Prince's Pride: Advocacy and Authenticity
+
+Prince Harry's pride lies in his advocacy work. From championing mental health awareness to environmental conservation, his efforts to make a tangible difference resonate with the Six's desire to contribute to a greater, more secure world.
+
+## Conversations Close to a Royal Heart
+
+What does Prince Harry like to talk about? His dialogues often revolve around themes of service, mental well-being, and the vulnerability that comes with being in the public eye. These topics are not only personally relevant but also speak to the Six's preoccupation with fostering a safer, more understanding society.
+
+## The Contemplations of a Loyalist
+
+Within the walls of his mind, a Type 6 like Prince Harry is likely strategizing, planning for the future while wrestling with doubts. His decision to step away from royal duties may have been fraught with such internal debates, weighing loyalty against the need for personal peace.
+
+## Habits That Hold a Prince Together
+
+Routine is a Six's ally, and despite the seeming chaos of royal life, Prince Harry has shown a penchant for structure. His dedication to fitness, regimented military life, and disciplined approach to philanthropy all point to a Six's reliance on habit to navigate an uncertain world.
+
+## Conclusion
+
+So that is Prince Harry. Have these insights shifted your view of the prince? How might understanding his search for security and loyalty offer a new lens through which to see his actions and choices? Who else in your life might have the strengths and weaknesses of Prince Harry?
+
+In a world where judgment often precedes empathy, taking the time to understand the motivations behind someone's behavior can help you have empathy for the person, no matter who they are. If this exploration has piqued your interest, don't stop here. Sign up and join the 9takes community, where the deep dive into personalities and life perspectives continues.
+
+- Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan Markle.</a>
+- Check out this one for an analysis on his mother <a href="/blog/famous-enneagram-types/Queen-Elizabeth-II">Queen Elizabeth.</a>
 
 <!-- <div>
 
@@ -70,3 +99,6 @@ Check out this one for an analysis on his mother<a href="/blog/famous-enneagram-
 <svelte:head>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

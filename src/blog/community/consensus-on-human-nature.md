@@ -65,6 +65,7 @@ margin: 2rem 0;"
 ## Plato and Freud's concepts unified
 
 Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives 💪. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality 🧠. The superego, similar to Plato's spirit, represents internalized societal values and moral standards ❤️.
+
 <div
     style="display: flex;
     justify-content: center;

@@ -3,8 +3,6 @@
 
 	import { page } from '$app/stores';
 
-	export let data: any;
-
 	let active = false;
 </script>
 

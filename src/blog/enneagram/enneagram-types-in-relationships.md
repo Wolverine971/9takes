@@ -37,7 +37,6 @@ pic: 'greek-statues-on-a-date'
 	/>
 </div>
 
-
 ## Overview of Enneagram types in a relationship
 
 1. The Reformer - Perfectionist, responsible, and rational

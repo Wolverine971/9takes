@@ -2,7 +2,7 @@ import { EmailHead } from './EmailHead';
 
 const from = '9takes Admins';
 export const joinEmail = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -113,7 +113,7 @@ export const joinEmail = () => {
 };
 
 export const joinEmail2 = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -201,7 +201,7 @@ export const joinEmail2 = () => {
 };
 
 export const emailTemplate = (subject: string, header: string, body: string) => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
     <html>
       ${EmailHead(subject)}
       <body style="background-color: #f6f6f6;">
@@ -262,7 +262,7 @@ export const emailTemplate = (subject: string, header: string, body: string) => 
 
 // this is in supabase
 export const signupEmail = () => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
     <html>
       ${EmailHead('Confirm your email to join 9takes')}
       <body style="background-color: #f6f6f6;">
@@ -293,7 +293,7 @@ export const signupEmail = () => {
 };
 
 export const forgotPass = (link: string) => {
-  return `<!DOCTYPE html>
+	return `<!DOCTYPE html>
       <html>
         <head>
         <meta charset="utf-8">

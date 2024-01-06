@@ -152,7 +152,6 @@ Tweet, newsletter
 Facebook retargeting- boost to people who visited site
 Email outreach- personalized message
 
-
 https://jan.ai/api-reference/#tag/Assistants
 
 check signup flow

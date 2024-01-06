@@ -45,7 +45,6 @@ pic: 'greek-statue-introducing-9takes'
 
 </div>
 
-
 The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. Reddit is centered around subreddits, with moderators forming separate cultures and rules for each subreddit. People post random things, and the mods determine if the post is on topic and if the comments within the post are in keeping with the subreddit's culture. This system works well for niche subreddits with very few members and bot armies wanting to get a message across.
 
 Reddit has two main problems:

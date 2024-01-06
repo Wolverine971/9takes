@@ -195,9 +195,7 @@ export const actions: Actions = {
 			});
 		}
 
-		const { data: signups, error: signupsError } = await supabase
-			.from('signups')
-			.select('*')
+		const { data: signups, error: signupsError } = await supabase.from('signups').select('*');
 
 		if (signupsError) {
 			throw error(404, {
@@ -213,20 +211,19 @@ export const actions: Actions = {
 					body: emailToSend
 				});
 				if (sent) {
-					console.log(`sent to ${signup.email.toString()}`)
+					console.log(`sent to ${signup.email.toString()}`);
 				} else {
 					throw error(404, {
 						message: `Failed to test email, no error available`
 					});
 				}
 			}
-
 		} catch (e) {
 			throw error(404, {
 				message: `Failed to send email, ${JSON.stringify(e)}`
 			});
 		}
-	},
+	}
 };
 
 const makeBody = ({

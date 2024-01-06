@@ -22,7 +22,6 @@ pic: 'greek-sculpture-on-a-laptop'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
 	style="display: flex;
     justify-content: center;
