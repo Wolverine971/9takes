@@ -43,5 +43,4 @@ pic: 'greek-statue-having-a-disagreement'
 </svelte:head>
 
 <style lang="scss">
-
 </style>

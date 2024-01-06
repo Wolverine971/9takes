@@ -245,5 +245,4 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
 </svelte:head>
 
 <style lang="scss">
-
 </style>

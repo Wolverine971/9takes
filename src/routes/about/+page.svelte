@@ -1,5 +1,5 @@
 <script lang="ts">
-	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	// import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import twitter from '$lib/images/twitter.svg';
 
 	let showEmail = false;

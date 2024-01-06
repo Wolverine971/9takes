@@ -209,10 +209,4 @@ conflict resolution exercises for couples -->
 </svelte:head>
 
 <style lang="scss">
-
- .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1);
-    overflow: hidden;
- }
 </style>

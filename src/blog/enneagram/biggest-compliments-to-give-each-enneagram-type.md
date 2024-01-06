@@ -373,8 +373,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
 </svelte:head>
 
 <style lang="scss">
-    @import '../../scss/index.scss';
-
+    
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

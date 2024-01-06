@@ -289,9 +289,6 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
 </svelte:head>
 
 <style lang="scss">
-
-/*@import '../../scss/index.scss';*/
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

@@ -285,9 +285,6 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
 </svelte:head>
 
 <style lang="scss">
-
-/*@import '../../scss/index.scss';*/
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

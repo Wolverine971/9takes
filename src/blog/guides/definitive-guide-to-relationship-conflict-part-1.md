@@ -247,5 +247,4 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
 </svelte:head>
 
 <style lang="scss">
-
 </style>

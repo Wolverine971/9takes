@@ -258,9 +258,6 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
 </svelte:head>
 
 <style lang="scss">
-
-/*@import '../../scss/index.scss';*/
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

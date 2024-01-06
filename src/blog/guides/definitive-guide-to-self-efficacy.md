@@ -478,4 +478,5 @@ So, if you found this guide helpful and are curious to explore more about yourse
 
 </svelte:head>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

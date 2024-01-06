@@ -199,4 +199,5 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
 
 </svelte:head>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

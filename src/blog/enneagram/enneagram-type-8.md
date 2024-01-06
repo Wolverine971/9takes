@@ -286,10 +286,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
 
 </svelte:head>
 
-<style lang="scss">
-
-/* @import '../../scss/index.scss'; */
-
+<style lang="scss"
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

@@ -69,7 +69,7 @@
 		<div class="big-points center-align flex-center">
 			<h2>The 9takes worldview</h2>
 			<div>
-				<h3>There are two social media waves</h3>
+				<h3 style="margin: 0;">There are two social media waves</h3>
 				<div class="wave-sections" style="border: 1px solid grey;">
 					<h4 style="margin-top: 0;">Old wave</h4>
 
@@ -126,8 +126,9 @@
 		<div class="big-points flex-center">
 			<h3 style="">What is 9takes?</h3>
 			<p style="">
-				An anonymous question and answering platform based on the Enneagram personality system. It
-				is like
+				An anonymous question and answering platform based on the Enneagram personality system.
+				<br />
+				It is like
 				<b style="font-size: 1.2rem;">
 					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> reimagined and based on
 					personality.

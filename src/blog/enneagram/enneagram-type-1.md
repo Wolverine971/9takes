@@ -295,9 +295,6 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 </svelte:head>
 
 <style lang="scss">
-
-/*@import '../../scss/index.scss';*/
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;
