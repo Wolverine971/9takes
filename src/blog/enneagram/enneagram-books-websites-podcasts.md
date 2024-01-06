@@ -231,3 +231,6 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

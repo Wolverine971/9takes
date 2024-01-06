@@ -4,7 +4,7 @@ description: 'Explore the emotional impact of ghosting through the lens of the E
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
-lastmod: '2023-08-26'
+lastmod: '2024-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -35,7 +35,10 @@ pic: 'greek-statue-being-ghosted'
 	/>
 </div>
 
-<p class="firstLetter">In the perplexing realm of modern relationships, the term "ghosting" has emerged. Those on the receiving end grapple with feelings of confusion, rejection, and abandonment. It's essential to recognize that our individual responses to ghosting can vary significantly, shaped by our unique personalities and perspectives. In this exploration, we'll uncover the influence of ghosting on mental health through the lens of the Enneagram. We'll delve into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer empowering strategies for healing and personal growth. Join us as we navigate the intriguing interplay between ghosting and the Enneagram types.</p>
+<p class="firstLetter">Modern relationships are tough. After school is done and work is over for the day, it can be hard to find friends and meet new people. And when you do meet someone its easy to be ghosted. Ghosting is a **"first world problem"** but those on the receiving end grapple all the negative feelings. Confusion, rejection, and abandonment all effect your mental health. </p>
+
+It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](blog/enneagram/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
+
  <article class="section-content">
   <h3>Type One: The Perfectionist</h3>
    Type Ones, known for their strong sense of morality and desire for improvement, may struggle
@@ -245,11 +248,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-07-31"
+    "@value": "2024-01-06"
   },
   "datePublished": {
     "@type": "Date",
-    "@value": "2023-02-17"
+    "@value": "2023-02-10"
   },
   "image": {
     "@type": "ImageObject",

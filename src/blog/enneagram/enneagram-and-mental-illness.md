@@ -323,4 +323,5 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
 
 </svelte:head>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>

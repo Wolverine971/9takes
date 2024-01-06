@@ -183,3 +183,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </script>
 
 </svelte:head>
+
+
+<style lang="scss">
+</style>

@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
-lastmod: '2023-12-25'
+lastmod: '2024-01-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,13 +18,15 @@ pic: 'greeks-debating-human-nature'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Is there a consensus on human nature? Is there a peer reviewed theory that is widely agreed upon? No... but there have been two main perspectives that keep coming up that are worth looking at. One theory is complicated but the other boils down to human nature fluctuating between being logical and illogical. The philosophers Plato and Aristotle had stood on opposing sides as have the psychologists Sigmund Freud and Steven Pinker. Let's get into it.</p>
+<p class="firstLetter">Is there a definition of human nature? Did we come to some consensus? Is there a peer-reviewed study that shows what human nature is? No, but there have been two main perspectives that keep popping up that are worth looking at.</p>
 
-<div style="text-align: center;" >
+One theory of human nature is about how humans fluctuate between being logical and illogical, and our goal is to be rational. The other theory is more complicated and less explored. The philosophers Plato and Aristotle had opposing views on this, and this mirrors the opposing views of the psychologists Sigmund Freud and Steven Pinker.
+
+<div style="display: flex; justify-content: center; margin: 2rem 0; text-align: center;">
 <img loading="lazy" title="Google definition of human nature" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
 </div>
 
-<figure style="margin:2rem" title="9takes's human nature definition">
+<figure title="9takes's human nature definition">
     <blockquote>
     9takes definition of Human Nature: The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.
     </blockquote>
@@ -33,16 +35,22 @@ pic: 'greeks-debating-human-nature'
 
 ## Plato is to Aristotle as Freud is to Pinker
 
-Plato had a complicated view of human nature, but his pupil Aristotle had a simple view. Aristotle argued that humans have the unique ability to be rational and that we are in a constant struggle to be rational. Similarly Freud had a complicated view of human nature where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche. However the modern psychologist Steven Pinker calls for rationality, mirroring Aristotle's view.
+**Plato** had a complicated view of human nature. He thought of human nature as having three distinct parts, calling it the "Tripartite Soul." These parts were the rational soul that governed the logical intellect. Then, the spirited soul was the source of emotions and courage. And lastly, there was the appetitive soul, which was associated with desires and bodily needs.
 
-## What was Plato's view?
+**Aristotle**, however, thought that the defining feature of humans was our capacity to be rational. He talked about how humans were social and that morals were important, but our rationality set us apart.
 
-Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪.
+Similarly **Freud** had a complicated view of human nature that mirrored Plato's view, where there was an interplay between three elements: the id, ego, and superego that pull at the human psyche.
+
+However, again, like Aristotle, the modern psychologist **Steven Pinker** focuses on rationality. He calls on humans to be rational to mitigate potential chaos.
+
+<!-- ## What was Plato's view?
+
+Plato talked about the human soul and about how it was divided into three parts: **reason**, **spirit**, and **appetite** which formed something called the "tripartite soul." Reason, associated with the rational part of the soul, represents wisdom, intellect, and the capacity for logical thinking 🧠. Spirit, associated with the spirited or emotional part of the soul, represents courage, honor, and the pursuit of noble ideals ❤️. Appetite, associated with the bodily or sensual part of the soul, represents the desires, passions, and basic physical needs 💪. -->
 
 <div
     style="display: flex;
     justify-content: center;
-margin: 1rem 0;"
+margin: 2rem 0;"
 >
  <PopCard
         image={`/blogs/greeks-debating-human-nature.webp`}
@@ -54,9 +62,14 @@ margin: 1rem 0;"
     />
 </div>
 
-## Unified concepts: Plato's "soul" and Freud's "psyche"
+## Plato and Freud's concepts unified
 
 Freud's theory of the mind like Plato describes three components: the id, the ego, and the superego. The id can be seen as analogous to Plato's appetite, representing the instinctual and primitive drives 💪. The ego, like Plato's reason, represents the rational and conscious aspect of the mind, mediating between the id's demands and the external reality 🧠. The superego, similar to Plato's spirit, represents internalized societal values and moral standards ❤️.
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 2rem 0;"
+>
 
 | Plato                                                                                                          | Emoji | Freud                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -64,6 +77,7 @@ Freud's theory of the mind like Plato describes three components: the id, the eg
 | **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️    | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
 | **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪    | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
+</div>
 So who has built upon these theories? Where are we today?
 
 ## Pinker calling for Rationality
@@ -91,7 +105,7 @@ A potential reason why discussions often focus on the rational aspect of the psy
 
 In contrast, the unconscious aspects of the psyche are not immediately accessible. It is easier to critique someone's logic than it is their perceived morals or instincts.
 
-<div style="text-align: center; display: flex; flex-direction: column;">
+<div style="text-align: center; display: flex; flex-direction: column; margin: 2rem 0;">
 <img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" />
 
 By <a class="external-link" target="_blank" rel="noreferrer" href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a class="external-link extiw" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/User:Jordangordanier"  title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
@@ -141,7 +155,7 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-25",
+      "dateModified": "2024-01-06",
       "datePublished": "2023-07-16",
       "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
       "headline": "The Consensus on Human Nature",

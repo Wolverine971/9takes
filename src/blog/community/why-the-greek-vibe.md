@@ -1,5 +1,5 @@
 ---
-title: 'Why the greek vibe'
+title: 'Why the Greek vibe?'
 description: '9takes is what Socrates would have wanted'
 author: 'DJ Wayne'
 date: '2023-09-24'

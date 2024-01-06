@@ -195,3 +195,6 @@ https://a16z.com/author/vijay-pande/
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

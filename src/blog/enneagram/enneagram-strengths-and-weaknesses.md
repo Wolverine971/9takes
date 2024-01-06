@@ -285,9 +285,6 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
 </svelte:head>
 
 <style lang="scss">
-
-  @import '../../scss/index.scss';
-
    .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 10px;

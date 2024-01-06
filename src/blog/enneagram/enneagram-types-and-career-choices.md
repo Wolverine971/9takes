@@ -162,143 +162,146 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 {
   "@context": "http://schema.org",
   "@graph": [
-{
-  "@type": "BlogPosting",
-  "articleBody": "This article delves into the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia, to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
-  "creator" : ["DJ Wayne"],
-  "author": {
-      "@type": "Person",
-      "name": "DJ Wayne",
-      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-  },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2023-12-02"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-11-29"
-  },
-  "description": "This blog post explores the ideal career paths for each Enneagram type, providing insights into how personality influences career choices. It covers each Enneagram type and suggests professions that align with their unique strengths and preferences.",
-  "headline": "Enneagram Types and Career Choices: Finding Your Professional Path",
-  "image": {
-    "@type": "ImageObject",
-    "height": 450,
-    "url": "https://9takes.com/blogs/female-greek-statues-of-different-professions.webp",
-    "width": 550
-  },
-  "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-types-and-career-choices",
-    "@type": "WebPage"
-  },
-  "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
+    {
+      "@type": "BlogPosting",
+      "articleBody": "This article delves into the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia, to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
+      "creator" : ["DJ Wayne"],
+      "author": {
+          "@type": "Person",
+          "name": "DJ Wayne",
+          "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+            ]
       },
-  "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2023-12-02"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2023-11-29"
+      },
+      "description": "This blog post explores the ideal career paths for each Enneagram type, providing insights into how personality influences career choices. It covers each Enneagram type and suggests professions that align with their unique strengths and preferences.",
+      "headline": "Enneagram Types and Career Choices: Finding Your Professional Path",
+      "image": {
+        "@type": "ImageObject",
+        "height": 450,
+        "url": "https://9takes.com/blogs/female-greek-statues-of-different-professions.webp",
+        "width": 550
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-types-and-career-choices",
+        "@type": "WebPage"
+      },
+      "mentions": {
+                  "@type": "Thing",
+                  "name": "Enneagram of Personality",
+                  "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+                  "SameAs": [
+                      "https://www.wikidata.org/wiki/Q273047",
+                      "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+                  ]
+          },
+      "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://9takes.com/brand/darkRubix.png"
+            },
+            "name": "9takes"
+          }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How can understanding my Enneagram type help in choosing a career?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Understanding your Enneagram type can point you in the right direction for your career path. Each Enneagram type has unique strengths and preferences that make them suitable for specific careers."
+          }
         },
-        "name": "9takes"
-      }
-},
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How can understanding my Enneagram type help in choosing a career?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Understanding your Enneagram type can point you in the right direction for your career path. Each Enneagram type has unique strengths and preferences that make them suitable for specific careers【6†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the best career choices for Enneagram Type 1 - The Perfectionist?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 1s, known as 'The Perfectionist', thrive in careers that offer a sense of order, integrity, and purpose. Suitable roles include law, academia, quality assurance, auditing, editing, and compliance【7†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What careers are ideal for Enneagram Type 2 - The Helper?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Enneagram Type 2s excel in roles that allow them to support and care for others, such as healthcare, counseling, social work, customer service, and hospitality【8†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What professional paths suit Enneagram Type 3 - The Achiever?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 3s are ambitious and goal-oriented, well-suited for leadership roles in business, marketing, entrepreneurship, sales, and corporate management【9†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the recommended careers for Enneagram Type 4 - The Individualist?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 4s find satisfaction in creative fields like art, writing, music, design, psychology, and counseling, where they can express their individuality and emotional depth【10†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which careers are best for Enneagram Type 5 - The Investigator?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 5s, as investigators, excel in careers involving research, analysis, and innovation, such as science, technology, engineering, academia, data analysis, and IT roles【11†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What professional paths are suitable for Enneagram Type 6 - The Loyalist?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 6s value security and stability, making them fit for administration, law enforcement, risk management, and roles that require loyalty and team commitment【12†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What career options are best for Enneagram Type 7 - The Enthusiast?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 7s thrive in dynamic careers like travel writing, event planning, marketing, and entrepreneurial ventures, where they can experience variety and creativity【13†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which careers are ideal for Enneagram Type 8 - The Challenger?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 8s are natural leaders and are drawn to careers in business leadership, entrepreneurship, law, crisis management, and political advocacy【14†source】."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the recommended career paths for Enneagram Type 9 - The Peacemaker?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Type 9s are suited for roles requiring mediation and consensus-building, such as human resources, counseling, diplomacy, and conflict resolution【15†source】."
-      }
+        {
+          "@type": "Question",
+          "name": "What are the best career choices for Enneagram Type 1 - The Perfectionist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 1s, known as 'The Perfectionist', thrive in careers that offer a sense of order, integrity, and purpose. Suitable roles include law, academia, quality assurance, auditing, editing, and compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What careers are ideal for Enneagram Type 2 - The Helper?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enneagram Type 2s excel in roles that allow them to support and care for others, such as healthcare, counseling, social work, customer service, and hospitality."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What professional paths suit Enneagram Type 3 - The Achiever?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 3s are ambitious and goal-oriented, well-suited for leadership roles in business, marketing, entrepreneurship, sales, and corporate management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the recommended careers for Enneagram Type 4 - The Individualist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 4s find satisfaction in creative fields like art, writing, music, design, psychology, and counseling, where they can express their individuality and emotional depth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which careers are best for Enneagram Type 5 - The Investigator?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 5s, as investigators, excel in careers involving research, analysis, and innovation, such as science, technology, engineering, academia, data analysis, and IT roles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What professional paths are suitable for Enneagram Type 6 - The Loyalist?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 6s value security and stability, making them fit for administration, law enforcement, risk management, and roles that require loyalty and team commitment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What career options are best for Enneagram Type 7 - The Enthusiast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 7s thrive in dynamic careers like travel writing, event planning, marketing, and entrepreneurial ventures, where they can experience variety and creativity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which careers are ideal for Enneagram Type 8 - The Challenger?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 8s are natural leaders and are drawn to careers in business leadership, entrepreneurship, law, crisis management, and political advocacy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the recommended career paths for Enneagram Type 9 - The Peacemaker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Type 9s are suited for roles requiring mediation and consensus-building, such as human resources, counseling, diplomacy, and conflict resolution."
+          }
+        }
+      ]
     }
-    ]
+  ]
 }
-]
-  }
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

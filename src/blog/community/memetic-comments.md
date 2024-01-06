@@ -22,6 +22,7 @@ pic: 'greek-sculpture-on-a-laptop'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -39,6 +40,7 @@ pic: 'greek-sculpture-on-a-laptop'
 </div>
 
 <p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
+
 Online discussions are like battlegrounds. You are either 'for' or 'against' whatever the topic is. This polarized nature fosters mimicry or conflict rather than constructive conversations. Comments on forums often turn memetic. They spread fast, fueling anger and hostility in digital realms. A key factor here is seeing others' comments before adding our own. This post explores how this visibility shapes our responses, often limiting diverse perspectives in online debates.
 
 ## Understanding the Memetic Effect
@@ -196,3 +198,6 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
 }
 
 </script>
+
+<style lang="scss">
+</style>

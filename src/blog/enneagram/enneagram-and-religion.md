@@ -153,3 +153,6 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

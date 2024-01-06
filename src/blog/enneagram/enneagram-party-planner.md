@@ -379,3 +379,6 @@ Your next social gathering can transcend the ordinary by applying these insights
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>

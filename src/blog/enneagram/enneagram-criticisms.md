@@ -260,5 +260,4 @@ Enneagram Criticisms (200 words)
 </svelte:head>
 
 <style lang="scss">
-
 </style>

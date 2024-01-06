@@ -25,6 +25,9 @@ pic: 'greek-statue-introducing-9takes'
 <!-- big long panel of people experiencing anger fear and shame -->
 
 <!-- ## Discover the Power of Nine Perspectives -->
+<p class="firstLetter">Where are the good conversations happening online? Are there any authentic conversations happening? Many discussions and forums devolve into echo chambers where people have to pick sides or silently accept the dominant culture.<p>
+
+9takes is trying to solve this problem.
 
 <div
 	style="display: flex;
@@ -42,9 +45,6 @@ pic: 'greek-statue-introducing-9takes'
 
 </div>
 
-<p class="firstLetter">Where are the good conversations happening online? Are there any authentic conversations happening? Many discussions and forums devolve into echo chambers where people have to pick sides or silently accept the dominant culture.<p>
-
-9takes is trying to solve this problem.
 
 The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. Reddit is centered around subreddits, with moderators forming separate cultures and rules for each subreddit. People post random things, and the mods determine if the post is on topic and if the comments within the post are in keeping with the subreddit's culture. This system works well for niche subreddits with very few members and bot armies wanting to get a message across.
 
@@ -132,3 +132,6 @@ Harnessing the Power of Nine: 9takes in Today’s Polarized World
 
 <!-- people not algorithms decide -->
 <!-- would you rather ask chat gpt or poll 100 people -->
+
+<style lang="scss">
+</style>

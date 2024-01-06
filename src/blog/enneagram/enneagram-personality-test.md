@@ -170,3 +170,6 @@ For now, read the types and determine which, if any, you identify with. More to 
 </script>
 
 </svelte:head>
+
+<style lang="scss">
+</style>
