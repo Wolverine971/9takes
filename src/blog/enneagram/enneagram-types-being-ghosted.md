@@ -37,7 +37,7 @@ pic: 'greek-statue-being-ghosted'
 
 <p class="firstLetter">Modern relationships are tough. After school is done and work is over for the day, it can be hard to find friends and meet new people. And when you do meet someone its easy to be ghosted. Ghosting is a **"first world problem"** but those on the receiving end grapple all the negative feelings. Confusion, rejection, and abandonment all effect your mental health. </p>
 
-It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](blog/enneagram/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
+It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](/blog/enneagram/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
 
  <article class="section-content">
   <h3>Type One: The Perfectionist</h3>

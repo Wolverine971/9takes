@@ -17,7 +17,7 @@
 		name="description"
 		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"
 	/>
-	<meta property="og:image" content="https://9takes.com/greek_pantheon.webp" />
+	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<link rel="canonical" href="https://9takes.com" />
 </svelte:head>
 

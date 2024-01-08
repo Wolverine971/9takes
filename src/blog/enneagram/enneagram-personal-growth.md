@@ -14,7 +14,9 @@ blog: true
 previewHtml: ''
 ---
 
-<!-- 3 step plan for personal growth -->
+<!-- 3 step plan for personal growth 
+fix this
+-->
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
@@ -22,9 +24,9 @@ previewHtml: ''
 
 ### Type 1: The Perfectionist - Embracing Imperfection
 
-Rudimentary Approach to Growth: Focusing on fixing flaws and making everything perfect. Thinking to themselves, "I must be perfect at all times."
+Rudimentary Approach: Focusing on fixing flaws and making everything perfect. Thinking to themselves, "I must be perfect at all times."
 
-Ideal Approach to Growth: Embrace imperfection, practice self-compassion, and cultivate flexibility. Thinking to themselves, "Progress, not perfection."
+Ideal Approach: Embrace imperfection, practice self-compassion, and cultivate flexibility. Thinking to themselves, "Progress, not perfection."
 
 When Stressed: Watch out for excessive self-criticism and rigid thinking. Engage in relaxation techniques, practice mindfulness, and remind oneself that imperfection is a natural part of life.
 
@@ -36,7 +38,7 @@ In 5 Years, They will feel a sense of inner peace, having cultivated self-compas
 
 ### Type 2: The Helper - Establishing Boundaries
 
-Rudimentary Approach to Growth: Prioritizing others' needs over their own, seeking validation through helping. They think, "I am only worthy if I help others."
+Rudimentary Approach: Prioritizing others' needs over their own, seeking validation through helping. They think, "I am only worthy if I help others."
 
 Ideal Approach: Establish boundaries, prioritize self-care, and focus on personal needs. Thinking to themselves, "I am worthy of love and care, too."
 

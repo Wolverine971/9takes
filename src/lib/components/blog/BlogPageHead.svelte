@@ -5,7 +5,7 @@
 	let title: string = data?.title;
 	let description: string = data?.description;
 	const siteTitle = '9takes';
-	const formattedTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+	const formattedTitle = title ? `${title}` : siteTitle;
 
 	let jsonldString = {
 		'@context': 'http://schema.org',
