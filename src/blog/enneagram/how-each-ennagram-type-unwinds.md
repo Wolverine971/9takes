@@ -140,7 +140,12 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
     {
       "@type": "Article",
       "articleBody": "Tired of feeling drained after your 'relaxing' weekend? Enter the Enneagram! This personality system helps you understand yourself better, including how you recharge. Whether you're a perfectionist, a supportive soul, or any other Enneagram type, this blog post is your guide to finding the perfect way to unwind and recharge. It includes specific suggestions for each Enneagram type, such as engaging in purposeful play, self-care rituals, challenging activities, artistic expression, knowledge exploration, and more.",
-       "creator" : ["DJ Wayne"],
+       "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

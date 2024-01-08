@@ -78,7 +78,12 @@ Do you see Marilyn's life differently now? Understanding her possible Enneagram 
     {
       "@type": "Article",
       "articleBody": "This article delves into Marilyn Monroe's personality from the Enneagram Type 6 - The Loyalist perspective. It explores her life's stresses, triumphs, and controversies, including her rumored affair with JFK, and how these may align with Type 6 characteristics. The article aims to provide insights into Monroe's inner world, her thoughts, feelings, and habits, all through the Enneagram lens.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

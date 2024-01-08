@@ -44,7 +44,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     {
       "@type": "Article",
       "articleBody": "The Enneagram can be a powerful tool for improving team dynamics. Theoretically, you can increase productivity by identifying each team member's strengths and weaknesses. A well-rounded team should have a mix of Enneagram types to ensure a variety of perspectives and skill sets. The Enneagram can also play a crucial role in improving communication among team members. One of the greatest benefits of using the Enneagram in a team setting is its ability to facilitate personal and professional growth. Lastly, the Enneagram can help create a more supportive and empathetic work environment.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

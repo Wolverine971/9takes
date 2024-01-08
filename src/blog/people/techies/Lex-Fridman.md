@@ -88,7 +88,12 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   "@type": "Article",
   "articleBody": "",
   "articleSection": "scientist",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
     "@type": "Person",
     "name": "DJ Wayne",

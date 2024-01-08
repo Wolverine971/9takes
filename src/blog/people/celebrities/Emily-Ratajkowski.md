@@ -90,7 +90,12 @@ If you found this interesting, check out <a href="/blog/famous-enneagram-types/A
   "@type": "Article",
   "articleBody": "",
   "articleSection": "celebrity",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",

@@ -101,7 +101,12 @@ If you enjoyed this article please sign up below ⬇️ and join 9takes. If you 
     {
       "@type": "Article",
       "articleBody": "Have you ever wondered what fuels the unstoppable force that is Beyoncé? Intricately woven within her actions, music, and public persona, lies the energy of the Enneagram Type 8 – The Challenger Beyoncé has consistently demonstrated an unrivaled level of self-confidence and a resolute desire to control her own destiny - hallmark traits of a Type 8. But there's more. Her unyielding assertiveness, palpable in every performance, and her willingness to confront issues head-on resonates profoundly with this type.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

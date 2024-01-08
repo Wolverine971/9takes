@@ -186,7 +186,12 @@ If this interests you, I encourage you to join 9takes below ⬇️. Of course, y
     {
       "@type": "Article",
       "articleBody": "This article delves into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

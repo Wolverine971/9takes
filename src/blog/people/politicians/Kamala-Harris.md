@@ -149,7 +149,12 @@ These instances underscore Kamala's adeptness at nurturing relationships and bui
     {
       "@type": "Article",
       "articleBody": "This article explores the persona of Kamala Harris through the Enneagram Type 3 lens, unveiling her ambitious ascent, inner world dynamics, controversies faced, and the core motivation driving her actions. The narrative delves into her ability to adapt and resonate with diverse audiences, reflecting the Type 3 attributes of ambition, adaptability, and a quest for validation.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

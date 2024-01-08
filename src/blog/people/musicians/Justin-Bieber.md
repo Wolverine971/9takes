@@ -105,7 +105,12 @@ If you're intrigued by this exploration of personality and fame, join the 9takes
     {
       "@type": "Article",
       "articleBody": "This article delves into the personality traits of Justin Bieber, exploring how he embodies the characteristics of an Enneagram Type 3 - The Achiever. It covers various aspects of his life and career, from his rise to fame to his evolution as an artist, demonstrating how his actions and decisions reflect Type 3 traits such as ambition, charm, and a focus on achievement.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

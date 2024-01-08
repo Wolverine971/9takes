@@ -109,7 +109,12 @@ Go beyond the surface and delve deeper into the world of personalities with us. 
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of David Dobrik from the perspective of the Enneagram Type 7. Known for his enthusiasm, adventure-seeking nature, and ability to entertain, David embodies many characteristics of Type 7 personalities. The article discusses various facets of David's life and career that demonstrate his Type 7 characteristics, including his YouTube success, inner world, controversies, and core motivation.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -152,7 +152,12 @@ If this interests you, I encourage you to join 9takes below ⬇️. Of course, y
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Alex Cooper from the perspective of the Enneagram Type 7. Known for her adventurous spirit, love for new experiences, and ability to adapt, Alex embodies many characteristics of Type 7 personalities. The article discusses various facets of Alex's life and career that demonstrate her Type 7 characteristics, including her podcasting journey, inner world, controversies, and core motivations.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

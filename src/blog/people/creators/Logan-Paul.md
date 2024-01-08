@@ -105,7 +105,12 @@ To explore more captivating personalities and gain a deeper understanding of the
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Logan Paul from the perspective of the Enneagram Type 7. Known for his adventurous spirit, boundless energy, and pursuit of excitement, Logan embodies many characteristics of Type 7 personalities. The article discusses various facets of Logan Paul's life and controversies that provide insight into his Type 7 characteristics, including his daring stunts, thrill-seeking nature, and personal growth journey.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

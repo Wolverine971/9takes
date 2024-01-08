@@ -259,7 +259,12 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
       {
          "@type":"Article",
          "articleBody":"This article explores the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships. The article also provides specific examples of how different type combinations might interact.",
-         "creator" : ["DJ Wayne"],
+         "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",

@@ -204,7 +204,12 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
 {
   "@type": "BlogPosting",
   "articleBody": "We all know that people have different strengths and weaknesses... (truncated for brevity)... By identifying our energizers and drainers and considering our Enneagram type, we can gain valuable insight into our unique strengths and weaknesses.",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",

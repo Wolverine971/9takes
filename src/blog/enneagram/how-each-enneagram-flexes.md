@@ -188,7 +188,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         {
             "@type": "Article",
             "articleBody": "In the intricate tapestry of the Enneagram, each thread—each type—has its distinct hue and texture. While the art of flexing offers a glimpse into these colors, understanding the deeper motivations reveals the full spectrum. What drives each type to show off? How do they want to be perceived? Let's explore these layers.",
-            "creator" : ["DJ Wayne"],
+            "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
             "author": {
                 "@type": "Person",
                 "name": "DJ Wayne",

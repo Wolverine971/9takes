@@ -297,7 +297,12 @@ Your next social gathering can transcend the ordinary by applying these insights
     {
       "@type": "Article",
       "articleBody": "This article delves into how each Enneagram type experiences and contributes to the dynamics of a party. It provides insights into the motivations, inviting strategies, and ideal party setups for each type, ensuring every guest enjoys the event in a way that resonates with their personality. The article also explores the philosophical implications of these gatherings, likening them to a modern-day symposium of Greek philosophers.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

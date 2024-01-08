@@ -100,7 +100,12 @@ These examples of political flexibility further solidify the connection between 
   },
   "datePublished": "2023-03-10",
   "dateModified": "2023-09-04",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
     "@type": "Person",
     "name": "DJ Wayne",

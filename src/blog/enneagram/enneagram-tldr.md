@@ -74,7 +74,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     {
       "@type": "Article",
       "articleBody": "The blog provides a short synopsis of the Enneagram, a personality typing system that categorizes people into nine different types based on their core motivations, fears, and desires. It briefly describes each of the nine Enneagram types and offers tips on how to determine your own type through self-reflection and introspection.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

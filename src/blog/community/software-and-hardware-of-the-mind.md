@@ -117,7 +117,12 @@ https://a16z.com/author/vijay-pande/
     {
       "@type": "Article",
       "articleBody": "This article delves into the holistic approach to psychology, highlighting the integration of empirical research with exploring emotions, personal narratives, and psychological complexities. It features insights from thought leaders such as Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio, who champion the fusion of empirical methods with a deep understanding of human emotions and personality. The article emphasizes the need for a comprehensive understanding of the human psyche, combining the observable 'hardware' of behavior with the intricate 'software' of our inner lives.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

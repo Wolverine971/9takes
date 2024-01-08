@@ -113,7 +113,12 @@ Join us at 9takes. Explore more articles. Unravel more personalities. Sign up be
     {
       "@type": "Article",
       "articleBody": "This article delves into the personality traits of Charlie Puth from the perspective of the Enneagram Type 4. Known for his emotional depth, artistic authenticity, and search for uniqueness, Puth embodies many characteristics of Type 4 personalities. The article discusses various aspects of Puth's life and career that demonstrate his Type 4 traits, including his musical journey, emotional expressions, and controversies.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

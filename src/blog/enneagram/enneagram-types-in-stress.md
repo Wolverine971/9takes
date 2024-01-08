@@ -505,7 +505,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@type": "BlogPosting",
   "headline": "Enneagram Types in Stress",
   "description": "Navigating Stress: How each Enneagram type responds to the uncomfortable",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",

@@ -157,7 +157,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "articleBody": "At a party, each Enneagram type will likely do something unique, revealing their motivations and characteristics. In this informative article, we'll explore what each Enneagram type thinks, feels, and does at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
   "author": {
       "@type": "Person",
       "name": "DJ Wayne",

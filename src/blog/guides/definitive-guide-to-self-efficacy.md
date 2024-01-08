@@ -405,7 +405,12 @@ So, if you found this guide helpful and are curious to explore more about yourse
     {
       "@type": "Article",
       "articleBody": "This article delves into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -83,7 +83,12 @@ One example of her intensity and passion is her painting "The Suicide of Dorothy
   },
   "datePublished": "2023-03-10",
   "dateModified": "2023-03-10",
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
     "@type": "Person",
     "name": "DJ Wayne",

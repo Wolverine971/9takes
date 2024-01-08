@@ -92,7 +92,12 @@ In a world where understanding and empathy are increasingly needed, exploring pe
     {
       "@type": "Article",
       "articleBody": "This article offers an in-depth exploration of Jennifer Garner's personality through the lens of the Enneagram Type 1. Known for her dedication to perfection, integrity, and moral righteousness, Garner's life and career choices reflect many attributes of a Type 1 personality. The article provides insights into her motivations, career decisions, personal challenges, and her approach to life's complexities.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

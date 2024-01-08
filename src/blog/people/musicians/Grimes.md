@@ -148,7 +148,12 @@ Do you share Grimes' Enneagram type? How do you see your own personality reflect
     {
       "@type": "Article",
       "articleBody": "This article explores Grimes, the Canadian singer-songwriter, and her dynamic persona, speculatively analyzing her as an Enneagram Type 7. The article discusses her adventurous and spontaneous nature, her optimistic and imaginative outlook, and her independence, which are characteristic of Type 7s. It delves into her music career, relationship with Elon Musk, and social media presence, providing insights into how these aspects of her life reflect a Type 7 personality.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

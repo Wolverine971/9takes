@@ -173,7 +173,12 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Leonardo DiCaprio from the perspective of the Enneagram Type 7. Known for his versatility in roles, zest for life, and handling of controversies, Leonardo embodies many characteristics of Type 7 personalities. The article discusses various facets of Leonardo's life and career that demonstrate his Type 7 characteristics, including his diverse roles, inner world, and controversies.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

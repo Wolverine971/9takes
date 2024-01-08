@@ -56,7 +56,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     {
       "@type": "Article",
       "articleBody": "In today's rapidly evolving business landscape, the ability to create balanced and diverse teams has become increasingly crucial for success. The Enneagram, a powerful personality typing system, offers valuable insights into understanding team dynamics and assembling the ideal mix of members. This blog explores the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

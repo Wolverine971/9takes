@@ -166,7 +166,12 @@ Ready to embark on this journey of discovery? Join 9takes below ⬇️. Of cours
     {
       "@type": "Article",
       "articleBody": "This article delves deep into the personality of Denzel Washington, speculating on his Enneagram Type 8 attributes. Through examining his career choices, his approach to roles, and even controversies, we gain insight into the possible core motivations that drive this acclaimed actor. The article draws connections between his Enneagram type and the projects he pursues, offering a holistic view of Denzel from a unique psychological perspective.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -133,7 +133,12 @@ Sign up and join 9takes below ⬇️. Of course, you are free to decline, but th
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Pete Davidson from the perspective of the Enneagram Type 9. Known for his laid-back demeanor, adaptability, and struggle with anger, Pete embodies many characteristics of Type 9 personalities. The article discusses various aspects of Pete's life and career that demonstrate his Type 9 traits, including his relationship dynamics, comedy style, personal controversies, and his battles with mental health.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

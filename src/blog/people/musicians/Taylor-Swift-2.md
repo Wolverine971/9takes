@@ -141,7 +141,12 @@ Join us at 9takes - a community that values the exploration of personalities and
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Taylor Swift from the perspective of the Enneagram Type 4. Known for her ambition, resilience, and transformational creativity, Swift embodies many characteristics of Type 4 personalities. The article discusses various aspects of Swift's life and career that demonstrate her Type 4 characteristics, including her music evolution, songwriting skills, and media narratives.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

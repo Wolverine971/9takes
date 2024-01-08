@@ -112,7 +112,12 @@ If this resonates with you, we invite you to explore more articles like this one
     {
       "@type": "Article",
       "articleBody": "This blog explores the childhood behaviors and characteristics of the nine Enneagram personality types. It discusses how each type may have manifested in childhood, offering insights into the early development of these distinct personality patterns.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -191,7 +191,12 @@ The more we understand about people, the richer our interactions and experiences
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Margot Robbie from the perspective of the Enneagram Type 8. Known for her assertiveness, protective nature, and tenacity, Margot embodies many characteristics of Type 8 personalities. The article discusses various facets of Margot's life and career that demonstrate her Type 8 characteristics, including her famous roles, inner world, and controversies.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

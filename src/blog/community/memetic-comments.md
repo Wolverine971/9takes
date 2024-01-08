@@ -71,7 +71,12 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
     {
       "@type": "Article",
       "articleBody": "This article discusses the 'echo chamber' effect in online discussions, highlighting how comments often turn memetic, fostering polarization. It explores René Girard's memetic theory, suggesting our behaviors and desires are often imitated, leading to conflict. The article also suggests methods to foster healthier online conversations.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

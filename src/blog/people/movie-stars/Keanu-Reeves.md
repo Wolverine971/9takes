@@ -211,7 +211,12 @@ For those ready to embark on this captivating exploration, I invite you to sign 
     {
       "@type": "Article",
       "articleBody": "This article delves deep into the personality and career of Keanu Reeves, speculating on how his Enneagram Type 9 attributes may manifest in his roles and personal decisions. It navigates through Keanu's calm demeanor, his way of tackling challenges, his notable controversies, and how the core motivation of a Type 9 might be driving his actions.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

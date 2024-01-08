@@ -73,7 +73,12 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
     {
       "@type": "Article",
       "articleBody": "Often, when people first encounter the Enneagram, their initial question is, \"Is the Enneagram a religious thing?\" The answer, as is often the case with nuanced systems, is not straightforward. The Enneagram is a rich and multifaceted tool used within various religious and spiritual traditions for growth and self-understanding. However, it is not tied exclusively to any one religious tradition or inherently religious. At its core, the Enneagram is a psychological tool—a kind of map that can guide us toward a more profound understanding of ourselves and others.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

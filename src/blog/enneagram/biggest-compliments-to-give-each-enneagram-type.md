@@ -311,7 +311,12 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
       {
          "@type":"Article",
          "articleBody":"Ever wondered how to make someone's day with the right compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special.",
-         "creator" : ["DJ Wayne"],
+         "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",

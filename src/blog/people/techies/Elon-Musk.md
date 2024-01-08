@@ -190,7 +190,12 @@ As we've journeyed through the complex and fascinating world of Elon Musk, a qui
     {
       "@type": "Article",
       "articleBody": "This article delves into the multifaceted personality of Elon Musk, exploring his characteristics as an Enneagram Type 5. It covers various aspects of his life, from his early years and education to his relationships and career ventures like PayPal, Tesla, and SpaceX. The article also discusses how his Type 5 traits manifest in his companies and personal life.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

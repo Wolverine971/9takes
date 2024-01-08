@@ -165,7 +165,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     {
       "@type": "BlogPosting",
       "articleBody": "This article delves into the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia, to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
           "@type": "Person",
           "name": "DJ Wayne",

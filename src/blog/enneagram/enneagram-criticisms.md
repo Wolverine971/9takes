@@ -162,7 +162,12 @@ Enneagram Criticisms (200 words)
     {
       "@type": "Article",
       "articleBody": "This article discusses common criticisms of the Enneagram. It covers a range of issues, including the lack of empirical validation, the risk of oversimplification, and the potential for creating echo chambers. It also addresses concerns about the 9takes platform, such as the lack of professional psychologists or therapists involved, the potential for harmful content or behavior, and the lack of clear information about moderation policies.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

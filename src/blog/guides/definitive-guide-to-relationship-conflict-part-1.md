@@ -163,7 +163,12 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
     {
       "@type": "Article",
       "articleBody": "This guide aims to be your go-to resource for navigating relationship conflicts effectively. It delves into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

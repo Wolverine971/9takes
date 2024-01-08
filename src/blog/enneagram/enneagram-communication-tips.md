@@ -212,7 +212,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "url": "https://9takes.com/blogs/greek-statues-arguing.webp",
     "width": 900
   },
-  "creator" : ["DJ Wayne"],
+  "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

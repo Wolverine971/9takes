@@ -163,7 +163,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     {
       "@type": "Article",
       "articleBody": "The blog explores personalized growth strategies based on your Enneagram type, covering ideal environments, practical tips, and empowering self-talk mantras for each type. It delves into the unique paths to self-improvement for each Enneagram type, discussing their strengths, weaknesses, and ideal approaches to growth.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
