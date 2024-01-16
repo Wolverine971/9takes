@@ -256,7 +256,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "The key strengths of Enneagram Type 8 individuals include their ability to take action, decisiveness, inspiring and leading others, natural charisma, and strategic thinking."
           },
           "name": "What are the key strengths of Enneagram Type 8 individuals?"
@@ -264,7 +264,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "The challenges or weaknesses of Enneagram Type 8 individuals include being overly aggressive, confrontational, stubborn, unwilling to compromise, and difficulty expressing emotions."
           },
           "name": "What are the challenges or weaknesses of Enneagram Type 8 individuals?"
@@ -272,7 +272,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 8 individuals can develop and grow personally by cultivating self-awareness, practicing vulnerability, developing empathy, seeking balance, and building healthy relationships."
           },
           "name": "How can Enneagram Type 8 individuals develop and grow personally?"

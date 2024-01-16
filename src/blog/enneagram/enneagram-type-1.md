@@ -264,7 +264,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
          {
           "@type": "Question",
            "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 1 personalities are known for their strong sense of right and wrong, desire for improvement, commitment to making the world a better place, sense of duty and responsibility, high standards, and desire for control and order. They are often highly organized, efficient, and driven by their ethical principles."
           },
           "name": "What are the key characteristics of an Enneagram Type 1 personality?"
@@ -272,7 +272,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Strengths of Enneagram Type 1 individuals include their strong sense of responsibility, work ethic, determination, organization, and ethical decision-making. Weaknesses or challenges they may face include being overly critical, struggling with flexibility, feeling guilty, having difficulty relaxing, neglecting self-care, and becoming rigid or dogmatic in their thinking."
           },
           "name": "What are the strengths and weaknesses of an Enneagram Type 1 personality?"
@@ -280,7 +280,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Type 1 personalities can grow and develop by practicing self-compassion, learning to let go of control, exploring their creativity, cultivating flexibility in thinking and behavior, seeking out constructive feedback, and engaging in self-reflection and introspection through journaling, meditation, or therapy."
           },
           "name": "How can an Enneagram Type 1 personality grow and develop?"

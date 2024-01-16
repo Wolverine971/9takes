@@ -342,7 +342,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
          {
           "@type": "Question",
            "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram type 3, also known as 'The Achiever', is characterized by high energy, an ambitious nature, strong work ethic, confidence, and adaptability. They are driven to excel in their chosen field and are motivated by success and recognition."
           },
           "name": "What are the key characteristics of Enneagram type 3?"
@@ -350,7 +350,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Type 3 individuals can grow and develop by cultivating self-awareness, embracing vulnerability, prioritizing relationships, developing empathy, and focusing on personal growth. Setting personal goals related to emotional well-being and personal growth can also be beneficial."
           },
           "name": "How can Enneagram type 3 individuals grow and develop?"
@@ -358,7 +358,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram type 3 individuals often struggle with fears of failure, being unimportant, not being loved, being exposed as a fraud, and being vulnerable. Challenges they may face include image consciousness, workaholism, and inauthenticity."
           },
           "name": "What are some common fears and challenges faced by Enneagram type 3?"

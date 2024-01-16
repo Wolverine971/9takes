@@ -272,7 +272,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
          {
           "@type": "Question",
            "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Key characteristics of Enneagram Type 6 include loyalty, anxiety, preparation, and skepticism. They are known for being responsible, reliable, and hardworking, placing a high value on security and stability."
           },
           "name": "What are the key characteristics of Enneagram Type 6?"
@@ -280,7 +280,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Strengths of Enneagram Type 6 individuals include loyalty, dedication, handling stress and adversity, strategic thinking, and seeing multiple perspectives. They may face Weaknesses or challenges, including anxiety and uncertainty, indecision, difficulty trusting their abilities, and self-doubt."
           },
           "name": "What are the strengths and weaknesses of Enneagram Type 6?"
@@ -288,7 +288,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 6 individuals can grow and develop by building inner trust, embracing change, practicing self-care, developing independence, and cultivating positive relationships."
           },
           "name": "How can Enneagram Type 6 individuals grow and develop?"

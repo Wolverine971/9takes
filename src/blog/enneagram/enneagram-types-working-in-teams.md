@@ -183,9 +183,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
    "@context":"http://schema.org",
    "@type":"BlogPosting",
    "articleBody":"Have you ever worked in a team where everyone seemed to be on a different wavelength? It can be frustrating when people don't communicate effectively or have different work styles. The Enneagram is a personality system that can help us understand why people act the way they do. In this article, we'll explore how different Enneagram types work together in teams. We'll give you some tips on how to communicate effectively with each type and create a more harmonious team environment. So whether you're a team leader or a team member, get ready to learn how to work better with others!",
-   "creator":[
-      "DJ Wayne"
-   ],
+   "creator": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+      ]
+   },
    "author": {
         "@type": "Person",
         "name": "DJ Wayne",

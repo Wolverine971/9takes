@@ -254,7 +254,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
          {
           "@type": "Question",
            "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 2 individuals, also known as 'The Helper,' are characterized by their empathy, service-oriented nature, emotional intelligence, and leadership. They are generous with their time and energy, often putting others' needs before their own, and excel at reading and providing emotional support."
           },
           "name": "What are the key characteristics of Enneagram Type 2 personalities?"
@@ -262,7 +262,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 2 individuals face challenges such as codependency, people-pleasing, and burnout. They often prioritize others' needs over their own, leading to neglect of their personal needs and a strong desire for appreciation from others. This can result in a tendency to overcommit and experience burnout."
           },
           "name": "What are the main challenges and weaknesses of Enneagram Type 2 individuals?"
@@ -270,7 +270,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Type 2 personalities can focus on self-care, setting healthy boundaries, prioritizing their own needs, and improving communication skills. Developing a strong sense of self not dependent on others' validation can also help them feel more secure. Seeking therapy or counseling can provide additional support for emotional processing and developing healthier coping strategies."
           },
           "name": "How can Enneagram Type 2 individuals grow and develop?"

@@ -142,9 +142,12 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
       {
          "@type": "Article",
          "articleBody": "The article discusses the Enneagram and the Myers-Briggs Type Indicator (MBTI), two systems that aim to decode the complexity of human personality. The article delves into both systems' origins, key concepts, and principles and explores their differences and potential intersections. In addition, it provides guidance on how to choose between the two systems based on the aspects of personality one aims to explore.",
-         "creator":[
-            "DJ Wayne"
-         ],
+         "creator": {
+               "@type": "Person",
+               "name": "DJ Wayne",
+               "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+            ]
+         },
          "author": {
             "@type": "Person",
             "name": "DJ Wayne",

@@ -122,7 +122,7 @@ These examples of political flexibility further solidify the connection between 
         "name": "9takes"
       },
   "mentions": {
-    "type": "Person",
+    "@type": "Person",
     "name": "Nancy Pelosi",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Nancy_Pelosi",

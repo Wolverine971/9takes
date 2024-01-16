@@ -109,7 +109,7 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
     "@value": "2023-03-09"
   },
   "description": "Explore the mind of AI researcher Lex Fridman through the lens of the Enneagram Type 5. Understand the internal dialogue he maintains during interviews and how his Type 5 traits shine through.",
-  "headline": "The Enigmatic Enneagram Type 5: A Deeper Look into Lex Fridman's Mind",
+  "headline": "Lex Fridman Enneagram Type 5",
   "image": {
     "@type": "ImageObject",
     "height": 800,

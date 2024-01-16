@@ -186,7 +186,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "jobTitle": "Author",
       "name": "Suzanne Stabile",
       "description": "Suzanne Stabile is a highly sought-after speaker and teacher, known for her engaging laugh, personal vulnerability, and creative approach to Enneagram instruction. As an internationally recognized Enneagram Master, Suzanne has conducted over 500 Enneagram workshops over the past 25 years.",
-      "sameAs": ["https://www.instagram.com/suzannestabile/", "https://twitter.com/SuzanneStabile", "https://suzannestabile.com/", "https://suzannestabile.com/"]
+      "sameAs": ["https://www.instagram.com/suzannestabile/", "https://twitter.com/SuzanneStabile", "https://suzannestabile.com/"]
 }
 
 </script>

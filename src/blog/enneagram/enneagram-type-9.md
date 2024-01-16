@@ -262,7 +262,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Easy-going and adaptable, empathetic and compassionate, supportive and nurturing, nonjudgmental and accepting, diplomatic and tactful, creative and imaginative."
           },
           "name": "What are the characteristics of Enneagram Type 9?"
@@ -270,7 +270,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Strengths: Ability to empathize and connect with others, strong listening and communication skills, flexibility and adaptability in new situations, a strong sense of creativity and imagination, ability to see multiple perspectives and find common ground, diplomatic and tactful approach to conflict resolution. Weaknesses: Tendency to avoid conflict and become passive, difficulty asserting themselves and their needs, tendency to procrastinate or become complacent, struggle to make decisions or take action without input from others, tendency to become overly accommodating or indecisive, struggle to set clear boundaries or say no to others."
           },
           "name": "What are the strengths and weaknesses of Enneagram Type 9?"
@@ -278,7 +278,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 9 individuals can grow and develop by focusing on their strengths and using them to their advantage, being aware of their weaknesses and working to improve upon them, practicing assertiveness and setting clear boundaries to avoid becoming overly accommodating or passive, embracing their creativity and imagination, and practicing self-care and prioritizing their own needs to avoid becoming complacent or neglecting their well-being."
           },
           "name": "How can Enneagram Type 9 individuals grow and develop?"

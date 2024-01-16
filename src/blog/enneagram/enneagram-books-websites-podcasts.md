@@ -64,7 +64,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
-    "type": "BlogPosting",
+    "@type": "BlogPosting",
     "about": {
         "@type": "Thing",
         "name": "Enneagram of Personality",
@@ -80,23 +80,21 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3",
-"https://www.linkedin.com/in/davidtwayne/",
-"https://twitter.com/djwayne3"
-       ]
-      },
+    },
+    "author": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": [
+        "https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+      ]
+    },
     "dateModified": "2023-08-26",
     "datePublished": "2023-04-01",
     "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
     "headline": "Books and Websites for Learning More About the Enneagram",
     "mainEntityOfPage": {
       "id": "https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts",
-      "type": "WebPage"
+      "@type": "WebPage"
     },
     "image": {
         "@type": "ImageObject",
@@ -106,13 +104,13 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       },
     "mentions": [
       {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q273047",
+            "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
       },
       {
         "@type": "Book",
@@ -142,7 +140,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
       {
         "@type": "Book",
         "author": {
-          "type": "Person",
+          "@type": "Person",
           "name": "Beatrice Chestnut",
           "sameAs": [
             "https://twitter.com/beatricemc2?lang=en",
@@ -155,9 +153,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "name": "The Complete Enneagram: 27 Paths to Greater Self-Knowledge"
       },
       {
-        "type": "Book",
+        "@type": "Book",
         "author": {
-          "type": "Person",
+          "@type": "Person",
           "name": "Sarajane Case",
           "sameAs": [
             "https://www.instagram.com/sarajanecase/?hl=en",
@@ -169,10 +167,10 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "name": "The Enneagram Letters"
       },
       {
-        "type": "Book",
+        "@type": "Book",
         "author": [
           {
-            "type": "Person",
+            "@type": "Person",
             "jobTitle": "Author",
             "name": "Ian Morgan Cron",
             "sameAs": [
@@ -183,7 +181,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
             "url": "https://www.ianmorgancron.com/"
           },
           {
-            "type": "Person",
+            "@type": "Person",
             "jobTitle": "Author",
             "name": "Suzanne Stabile",
             "sameAs": [
@@ -196,19 +194,19 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         "name": "The Road Back to You: An Enneagram Journey to Self-Discovery"
       },
       {
-        "type": "PodcastEpisode",
+        "@type": "PodcastEpisode",
         "name": "The Enneagram Journey"
       },
       {
-        "type": "PodcastEpisode",
+        "@type": "PodcastEpisode",
         "name": "Typology"
       },
       {
-        "type": "PodcastEpisode",
+        "@type": "PodcastEpisode",
         "name": "The Enneagram and Coffee"
       },
       {
-        "type": "PodcastEpisode",
+        "@type": "PodcastEpisode",
         "about": {
               "@type": "Thing",
               "name": "Enneagram of Personality",

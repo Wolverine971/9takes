@@ -59,9 +59,9 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
-  "type": "Article",
+  "@type": "Article",
   "author": {
-    "type": "Person",
+    "@type": "Person",
     "name": "DJ Wayne",
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
@@ -71,17 +71,17 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
   "description": "This article explores why Arnold Schwarzenegger appears to be a Type 3 in the Enneagram system, focusing on his success and achievement-oriented mindset, concern for his image and reputation, ability to adapt and change, and competitive nature.",
   "headline": "Arnold Schwarzenegger Enneagram Type 3",
   "image": {
-    "type": "ImageObject",
+    "@type": "ImageObject",
     "height": 800,
     "url": "https://9takes.com/types/3s/Arnold-Schwarzenegger.webp",
     "width": 1200
   },
   "mainEntityOfPage": {
     "id": "https://9takes.com/blog/famous-enneagram-types/Arnold-Schwarzenegger",
-    "type": "WebPage"
+    "@type": "WebPage"
   },
   "mentions": {
-    "type": "Person",
+    "@type": "Person",
     "name": "Arnold Schwarzenegger",
     "sameAs": [
       "https://en.wikipedia.org/wiki/Arnold-Schwarzenegger",

@@ -244,16 +244,16 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
                   "https://www.wikidata.org/wiki/Q273047",
                   "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
               ]
-      },
+     },
   "publisher": {
     "@type": "Organization",
-    "sameAs": ["https://www.instagram.com/9takesdotcom/""https://twitter.com/9takesdotcom"],
+    "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
     "name": "9takes",
     "url": "https://9takes.com"
   },
   "url": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
-},
-{
+  },
+  {
       "@type": "FAQPage",
       "mainEntity": [
         {

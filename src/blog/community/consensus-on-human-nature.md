@@ -143,9 +143,12 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
     {
       "@type": "Article",
       "articleBody": "This article explores the varying perspectives on human nature, focusing on the theories of Plato, Aristotle, Freud, and Steven Pinker. It delves into the complexities of human nature, contrasting the logical and illogical aspects. The article discusses Plato’s tripartite soul theory and Freud's concept of the id, ego, and superego, while examining Pinker's emphasis on rationality. The blog concludes by pondering whether human nature can be simplified or if the theories of Plato and Freud offer a more accurate representation.",
-      "creator": [
-        "DJ Wayne"
-      ],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

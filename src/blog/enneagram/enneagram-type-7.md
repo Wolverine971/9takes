@@ -238,7 +238,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Enneagram Type 7 individuals are characterized by their optimism, enthusiasm, energy, creativity, love for exploration, fear of missing out (FOMO), sociability, adaptability, and struggles with commitment and follow-through."
           },
           "name": "What are the characteristics of Enneagram Type 7 individuals?"
@@ -246,7 +246,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Strengths of Type 7 individuals include optimism, adventure, adaptability, resourcefulness, and creativity. Weaknesses include impulsivity, lack of commitment, and avoidance of negative emotions."
           },
           "name": "What are the strengths and weaknesses of Type 7 individuals?"
@@ -254,7 +254,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
         {
           "@type": "Question",
           "acceptedAnswer": {
-            "type": "Answer",
+            "@type": "Answer",
             "text": "Type 7 individuals can develop and grow by learning to embrace discomfort, setting realistic goals and priorities, developing patience and self-control, facing and accepting negative emotions, and practicing gratitude and appreciation."
           },
           "name": "How can Type 7 individuals develop and grow personally?"
