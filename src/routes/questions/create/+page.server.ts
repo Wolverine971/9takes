@@ -82,9 +82,6 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
-		// const session = await getServerSession(event);
-		// const canAskQuestion = session.user.id;
-
 		const { data: userExists, error: userError } = await supabase
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('*')

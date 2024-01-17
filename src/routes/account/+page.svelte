@@ -36,7 +36,7 @@
 		body.append('lastName', lastName);
 		body.append('enneagram', enneagram);
 		// website
-		body.append('email', data.user.email);
+		body.append('email', data?.user.email);
 
 		const resp = await fetch('?/updateAccount', {
 			method: 'POST',

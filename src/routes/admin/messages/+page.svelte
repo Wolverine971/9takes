@@ -33,7 +33,7 @@
 					messages = [...messages, msg];
 				}
 			);
-			channelListeningOn = `user:${data.user.external_id}`;
+			channelListeningOn = `user:${data?.user?.external_id || Math.random()}`;
 
 			socket.on(
 				channelListeningOn,

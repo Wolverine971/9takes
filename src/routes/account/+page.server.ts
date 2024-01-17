@@ -19,7 +19,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: user, error: findUserError } = await supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
 		.select('*')
-		.eq('email', session?.user.email)
+		.eq('email', session?.user?.email)
 		.single();
 
 	const { data: subscriptions, error: subscriptionsError } = await supabase

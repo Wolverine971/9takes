@@ -4,7 +4,7 @@ description: 'Dive deep into the personality traits of AI researcher Lex Fridman
 author: 'DJ Wayne'
 date: '2023-07-23'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lex-Fridman'
-lastmod: '2023-07-23'
+lastmod: '2024-01-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,7 +21,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">An AI researcher, podcaster, educator — these phrases only scratch the surface when we attempt to describe <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lex_Fridman">Lex Fridman</a>. Yet, today we delve beyond his career achievements and contributions to technology, to traverse the intriguing landscape of his personality. We will explore how Fridman's persona aligns with the profound characteristics of an Enneagram Type 5, "The Investigator."</p>
+<p class="firstLetter">An AI researcher, a podcaster, and a promoter of love — this only scratches the surface the man the myth the legend, <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lex_Fridman">Lex Fridman</a>. Today we are going to dive into Lex's personality and explore how Lex Fridman's persona aligns with the characteristics of an Enneagram Type 5, "The Investigator" or "The Observer"</p>
 
 > **Disclaimer** This analysis of Lex Fridmans's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lex Fridman.
 
@@ -40,13 +40,13 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	/>
 </div>
 
-### A Dive into The Mind: The Intricate Nature of Type 5
+### The Mind of an Enneagram Type 5
 
-Type 5s are recognized as the intense, cerebral explorers within the Enneagram. They constantly seek knowledge, crave understanding, and relentlessly pursue expertise. Does this sound familiar? Let's embark on a journey to draw the connections between Fridman and these notable traits of an Enneagram Type 5.
+Type 5s are usually introverted. They have an intense, cerebral world that they can get lost in. They want to understand the world and everything around them on a deep level. They are knowledge seekers or said less charitably; they are knowledge hoarders. Is this not Lex? Lex enjoys the state of being deeply engrossed in a subject. He loves analyzing and theorizing about anything and everything. For 5s, this seeking of knowledge is born out of a fear that they are secretly useless, helpless, and incapable. To combat those negatives, 5s seek to know everything so they no longer feel useless, helpless, or incapable. For 5s, knowledge seeking is an enjoyment and a coping mechanism.
 
 ### Intellectual Curiosity: The Pursuit of Knowledge
 
-Observing Lex Fridman's career and pursuits, we quickly see the manifestation of an insatiable intellectual curiosity, a defining trait of Type 5s. Fridman immerses himself in the understanding of complex AI systems and shares his insights through lectures and podcasts, acting as a bridge between high-level concepts and curious minds worldwide.
+Fridman immerses himself in the understanding of complex AI systems and shares his insights through lectures and podcasts, acting as a bridge between high-level concepts and curious minds worldwide.
 
 During his podcasts, an internal dialogue likely unfolds within him. As an exemplar Type 5, he might think: "What's the underlying concept here? How does this link to the broader narrative? I need to understand this fully." This relentless pursuit of understanding and absorption of knowledge aligns seamlessly with the intellectual curiosity that characterizes a Type 5.
 
@@ -102,7 +102,7 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-04-19"
+    "@value": "2024-01-16"
   },
   "datePublished": {
     "@type": "Date",

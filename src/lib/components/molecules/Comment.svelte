@@ -301,7 +301,7 @@
 								height={'1.5rem'}
 								fill={(likes &&
 									user?.id &&
-									likes.some((e) => e.user_id === user.id) &&
+									likes.some((e) => e.user_id === user?.id) &&
 									'#5407d9') ||
 									''}
 							/>

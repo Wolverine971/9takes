@@ -46,7 +46,7 @@
 			loading = true;
 			var body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
-			body.append('author_id', data?.session?.user.id || '');
+			body.append('author_id', data?.session?.user?.id || '');
 			body.append('context', '');
 			body.append('url', url);
 			body.append('img_url', '');
