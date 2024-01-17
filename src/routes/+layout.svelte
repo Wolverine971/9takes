@@ -51,6 +51,7 @@
 </script>
 
 <svelte:head>
+	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 	<!-- Config options -->
 	<script>
 		// Forward the necessary functions to the web worker layer

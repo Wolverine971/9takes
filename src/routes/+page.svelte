@@ -17,8 +17,22 @@
 		name="description"
 		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"
 	/>
-	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
 	<link rel="canonical" href="https://9takes.com" />
+
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content="9takes Home Page" />
+	<meta
+		property="og:description"
+		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"
+	/>
+	<meta property="og:url" content="https://9takes.com" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta property="twitter:title" content="9takes" />
+	<meta property="twitter:url" content="https://9takes.com" />
 </svelte:head>
 
 <!-- <Jumbotron
@@ -124,7 +138,7 @@
 		</Jumbotron>
 
 		<div class="big-points flex-center">
-			<h3 style="">What is 9takes?</h3>
+			<h2 style="">What is 9takes?</h2>
 			<p style="">
 				An anonymous question and answering platform based on the Enneagram personality system.
 				<br />
@@ -165,7 +179,7 @@
 						once you feel understood, you will be ready to understand.
 					</p> -->
 		<div class="big-points flex-center">
-			<h3 style="">What is different?</h3>
+			<h2 style="">What is different?</h2>
 			<p class="">
 				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
 				community
@@ -233,7 +247,7 @@
 						</li>
 					</ul> -->
 		<div class="big-points flex-center">
-			<h3 style="">Creating the following magic moments:</h3>
+			<h2 style="">Creating the following magic moments:</h2>
 			<ul>
 				<li>
 					- Connecting with other people who think, feel, and act like you

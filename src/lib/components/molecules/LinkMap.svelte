@@ -59,7 +59,7 @@
 		short_name: string;
 	}
 
-	export let linkDrops: LinkDrops[] = [];
+	export let linkDrops: LinkDrops[] | undefined = [];
 	// 40.911552736237624, -73.9934208
 	let center = { lat: 40.91155273, lng: -73.9934208 };
 	let zoom = 11.15;

@@ -29,7 +29,14 @@
 			rel="noreferrer"
 			href="https://www.instagram.com/9takesdotcom/"
 		>
-			<img loading="lazy" src={instagram} alt="9takesdotcom Instagram" class="icon" />
+			<img
+				loading="lazy"
+				src={instagram}
+				alt="9takesdotcom Instagram"
+				width="150"
+				height="150"
+				class="icon"
+			/>
 		</a>
 		<a
 			class="external-link"
@@ -37,7 +44,14 @@
 			rel="noreferrer"
 			href="https://twitter.com/9takesdotcom"
 		>
-			<img loading="lazy" src={twitter} alt="9takesdotcom Twitter" class="icon" />
+			<img
+				loading="lazy"
+				src={twitter}
+				alt="9takesdotcom Twitter"
+				width="150"
+				height="150"
+				class="icon"
+			/>
 		</a>
 	</div>
 </footer>
