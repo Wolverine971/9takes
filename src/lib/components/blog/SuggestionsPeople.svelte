@@ -215,7 +215,11 @@
 	.suggestion-link:hover {
 		transform: rotate(1deg);
 		background-size: 10px 10px;
-		background-image: radial-gradient(circle, var(--color-p-light) 1px, rgba(0, 0, 0, 0) 1px);
+		background-image: radial-gradient(
+			circle,
+			var(--color-theme-purple-v) 1px,
+			rgba(0, 0, 0, 0) 1px
+		);
 		p {
 			transition: all 0.3s ease-out;
 			// color: rgba(255, 255, 255, 0.8);

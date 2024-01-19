@@ -199,7 +199,7 @@
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
-			background-color: var(--color-p-light);
+			background-color: var(--color-paladin-2);
 		}
 	}
 	aside {

@@ -150,10 +150,12 @@
 					<a
 						title={'Questions with at least 9 takes'}
 						href={'/questions'}
-						class=" {$page.url.pathname === '/questions' ? 'active-link' : ''} a-wrap"
+						class=" {$page.url.pathname.includes('/questions')
+							? 'active-link'
+							: 'question-blink'} a-wrap"
 					>
 						<div
-							class="nav-text nav-element nav-element1 {$page.url.pathname.startsWith('/questions')
+							class="nav-text nav-element nav-element1 {$page.url.pathname.includes('/questions')
 								? 'active-link'
 								: ''}"
 							style=""
@@ -162,7 +164,7 @@
 						</div>
 						<!-- {#if data?.session?.user?.id} -->
 						<div
-							class="nav-element nav-element2  {$page.url.pathname.startsWith('/questions')
+							class="nav-element nav-element2  {$page.url.pathname.includes('/questions')
 								? 'active-link'
 								: ''}"
 							style=""
@@ -249,6 +251,30 @@
 {/if}
 
 <style lang="scss">
+	.question-blink {
+		box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px var(--color-theme-purple),
+			0 0 30px var(--color-theme-purple), 0 0 40px var(--color-theme-purple),
+			0 0 50px var(--color-theme-purple);
+		-webkit-animation: blink 0.7s infinite alternate;
+		animation: blink 0.7s infinite alternate;
+		// box-shadow: -0.25rem -0.25rem 0.5rem rgba(#fff, 0.07), 0.25rem 0.25rem 0.5rem rgba(#000, 0.12),
+		// 	-0.75rem -0.75rem 1.75rem rgba(#fff, 0.07), 0.75rem 0.75rem 1.75rem rgba(#000, 0.12),
+		// 	inset 8rem 8rem 8rem rgba(white, 0.05), inset -8rem -8rem 8rem rgba(#fff, 0.05);
+	}
+
+	@-webkit-keyframes blink {
+		100% {
+			box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px var(--color-theme-purple),
+				0 0 70px var(--color-theme-purple), 0 0 80px var(--color-theme-purple);
+		}
+	}
+
+	@keyframes blink {
+		100% {
+			box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px var(--color-theme-purple),
+				0 0 70px var(--color-theme-purple), 0 0 80px var(--color-theme-purple);
+		}
+	}
 	.the-header {
 		padding: 0 2rem;
 		z-index: 9999;
@@ -261,6 +287,7 @@
 			max-width: 100%;
 			display: flex;
 			align-items: center;
+			justify-content: center;
 			height: 100%;
 		}
 

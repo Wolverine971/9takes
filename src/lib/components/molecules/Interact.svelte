@@ -174,7 +174,7 @@
 			/>
 		</button>
 		<button title="Share" class="corner-btn" on:click={() => share()}>
-			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
+			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'#5407d9'} />
 		</button>
 	{/if}
 </div>

@@ -8,6 +8,7 @@
 
 	import { createEventDispatcher } from 'svelte';
 	import Modal2, { getModal } from '../atoms/Modal2.svelte';
+	import Context, { onClickOutside } from './Context.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let data: any;
@@ -47,13 +48,14 @@
 
 	let open: boolean = false;
 	let sortBy: string = 'newest';
+	let multiSelectOpen: boolean = false;
 </script>
 
 <svelte:window bind:innerWidth />
 {#if size === 'large'}
 	<button
 		type="button"
-		class="btn btn-primary details-display"
+		class="btn btn-primary sort-btn"
 		on:click={() => {
 			open = !open;
 			if (open) getModal('sorter').open();
@@ -90,10 +92,21 @@
 
 <Modal2 id="sorter">
 	<div style="margin: 2rem; min-width: 40vw">
-		<MultiSelect bind:selected options={typeOptions} />
-		<br />
+		<p>Personality Type</p>
+		<Context>
+			<div
+				use:onClickOutside={() => {
+					if (multiSelectOpen) {
+						multiSelectOpen = false;
+					}
+				}}
+			>
+				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen} />
+			</div>
+		</Context>
 		<br />
 
+		<p>Order By</p>
 		<select bind:value={sortBy}>
 			<option value="newest">Newest</option>
 			<option value="oldest">Oldest</option>
@@ -124,7 +137,7 @@
 		align-items: center;
 		justify-content: center;
 	}
-	.details-display {
+	.sort-btn {
 		cursor: pointer;
 		margin: 0.5rem;
 		padding: 0 0.5rem;
@@ -135,7 +148,7 @@
 		}
 	}
 
-	.details-display button {
+	.sort-btn button {
 		background-color: var(--color-paladin-1);
 		// float: left;
 		border: 1px solid var(--color-theme-purple-v);
@@ -152,13 +165,13 @@
 	}
 
 	/* Change background color of buttons on hover */
-	.details-display button:hover {
+	.sort-btn button:hover {
 		// background-color: var(--color-paladin-1);
 		border-radius: 5px;
 	}
 
 	@media (max-width: 576px) {
-		.details-display {
+		.sort-btn {
 			margin: 0.2rem;
 			padding: 0.2rem;
 			border-radius: 5px;

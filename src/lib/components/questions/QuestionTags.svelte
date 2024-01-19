@@ -71,8 +71,8 @@
 	}
 	.question-card:hover {
 		background-color: var(--color-paladin-1);
-		box-shadow: 0 2px 0px -1px var(--color-p-light), 0 3px 3px 1px var(--color-p-light),
-			0 1px 5px 0 var(--color-p-light);
+		box-shadow: 0 2px 0px -1px var(--color-theme-purple-v),
+			0 3px 3px 1px var(--color-theme-purple-v), 0 1px 5px 0 var(--color-theme-purple-v);
 		text-decoration: none;
 	}
 

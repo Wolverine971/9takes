@@ -5,7 +5,7 @@
 	--color-theme-dark-blue: #191970;
 	--color-theme-pink: #f72585;
 	--color-theme-purple: #5407d9;
-	--color-theme-purple-v: #d2cfd7;
+	--color-theme-purple-v: #965ff3;
 	--color-theme-purple-light: #bc96fd;
 	--grex-700-hex: 64, 65, 69;
 	--grex-600-hex: 96, 98, 102;
@@ -92,14 +92,6 @@ button {
 	background-color: transparent;
 	font-family: inherit;
 	font-size: inherit;
-}
-
-button:focus:not(.focus-visible) {
-	outline: none;
-}
-
-button:focus:not(:focus-visible) {
-	outline: none;
 }
 
 @media (width <=576px) {

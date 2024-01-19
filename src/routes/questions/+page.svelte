@@ -108,7 +108,7 @@
 	.question-category-div {
 		margin: 1rem 0;
 		padding: 1rem;
-		// border: 1px solid var(--color-p-light);
+		// border: 1px solid var(--color-theme-purple-v);
 		border: var(--classic-border);
 		border-radius: 5px;
 	}

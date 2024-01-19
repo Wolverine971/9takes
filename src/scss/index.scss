@@ -137,6 +137,37 @@ main::before {
 	content: '';
 }
 
+button {
+	// border: none;
+	z-index: 1;
+	transition: all 0.3s ease;
+	position: relative;
+}
+button:after {
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002,
+		4px 4px 5px 0px #0001;
+	transition: all 0.3s ease;
+}
+button:hover {
+	// color: #000;
+	// border: 1px solid var(--color-paladin-3);
+	border: none;
+}
+button:hover:after {
+	left: 0;
+	width: 100%;
+}
+button:active {
+	// top: 2px;
+}
+
 @keyframes spin {
 	100% {
 		transform: rotate(360deg);

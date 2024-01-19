@@ -84,7 +84,7 @@
 		height: 2rem;
 		outline-offset: -1px;
 		object-fit: scale-down;
-		border-bottom: 3px solid var(--color-theme-purple-v);
+		border-bottom: 3px solid var(--color-paladin-3);
 		justify-content: flex-start;
 		max-width: 64rem;
 		align-items: center;

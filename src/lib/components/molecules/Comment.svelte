@@ -211,7 +211,7 @@
 
 <svelte:window bind:innerWidth />
 
-<Card style="margin: .3rem 0; border: 1px solid black; padding: .2rem">
+<Card style="margin: .3rem 0; padding: .2rem" className="neumo-card">
 	<div
 		class="user-comment"
 		itemprop="suggestedAnswer acceptedAnswer"

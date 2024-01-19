@@ -160,7 +160,7 @@
 					<button
 						class="btn btn-primary"
 						type="button"
-						style="padding: 0.25rem; display: flex; background-color: var(--color-p-light);"
+						style="padding: 0.25rem; display: flex; background-color: var(--color-theme-purple-v);"
 						on:click={async () => {
 							getModal(`tag-question-${questionData.id}`).open();
 						}}
@@ -412,7 +412,7 @@
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
-			background-color: var(--color-p-light);
+			background-color: var(--color-theme-purple-v);
 		}
 	}
 
@@ -451,13 +451,13 @@
 	}
 	.question-card:hover {
 		// background-color: rgba(255, 255, 255, 0.5);
-		// background-color: var(--color-p-light);
+		// background-color: var(--color-theme-purple-v);
 
 		// background-color: rgb(207, 198, 255, 0.5);
 		background-color: var(--color-paladin-1);
 		// border: 0.1px solid var(--color-theme-purple-v);
-		box-shadow: 0 2px 0px -1px var(--color-p-light), 0 3px 3px 1px var(--color-p-light),
-			0 1px 5px 0 var(--color-p-light);
+		box-shadow: 0 2px 0px -1px var(--color-theme-purple-v),
+			0 3px 3px 1px var(--color-theme-purple-v), 0 1px 5px 0 var(--color-theme-purple-v);
 		text-decoration: none;
 		// box-shadow: inset 0.2em 0.2em 0.2em var(--color-theme-purple-v);
 	}
