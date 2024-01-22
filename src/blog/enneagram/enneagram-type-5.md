@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -189,6 +189,16 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Five's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8-vZtfZB7Is?si=V1HyruLDiNU4OtYs" title="Enneagram 5 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 5s</h2>
 
 <FamousTypes type={5} />
@@ -223,7 +233,7 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

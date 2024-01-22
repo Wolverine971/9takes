@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -191,6 +191,16 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Six's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SQ2c0d5wP30?si=yFjB_iT43oWS7Yh3" title="Enneagram 6 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 6s</h2>
 
 <FamousTypes type={6} />
@@ -225,7 +235,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

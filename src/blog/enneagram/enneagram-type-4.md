@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -174,6 +174,16 @@ By addressing these areas, Type 4 individuals can effectively navigate their cha
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Four's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BySvn_zyTnY?si=62xJaQdTFhx-vmBH" title="Enneagram 4 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 4s</h2>
 
 <FamousTypes type={4} />
@@ -219,7 +229,7 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

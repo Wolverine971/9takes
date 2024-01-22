@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -180,6 +180,16 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Two's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PUREB46h--M?si=j3HTcDtW35Tr3DY7" title="Enneagram 2 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 2s</h2>
 
 <FamousTypes type={2} />
@@ -214,7 +224,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -172,6 +172,16 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Seven's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cl_fHZZhjJA?si=lV6zaD8J8BdUjBMo" title="Enneagram 7 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 7s</h2>
 
 <FamousTypes type={7} />
@@ -206,7 +216,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

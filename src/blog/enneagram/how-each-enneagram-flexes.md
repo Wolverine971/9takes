@@ -4,7 +4,7 @@ description: "Explore the Enneagram's intricate tapestry: how each type subtly s
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'
-lastmod: '2023-11-29'
+lastmod: '2024-01-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -202,7 +202,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
                 },
             "dateModified": {
                 "@type": "Date",
-                "@value": "2023-11-29"
+                "@value": "2024-01-16"
             },
             "datePublished": {
                 "@type": "Date",

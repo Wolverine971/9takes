@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2023-12-24'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -179,6 +179,16 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
 
 <section class="section-content">
 
+<h2>🤝 Enneagram eight's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bfMfq4g6DU4?si=LX8NB4ILDuk6OV4r" title="Enneagram 8 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</section>
+
+<section class="section-content">
+
 <h2>🌟 Famous Enneagram 8s</h2>
 
 <FamousTypes type={8} />
@@ -213,7 +223,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-24",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

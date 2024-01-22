@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -17,7 +17,13 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram Type 1, also known as the Perfectionist or the Reformer, is one of the three Action Center/ Gut Triad types. People of this type desire to live up to their high ideals and principles and make the world a better place through their actions.</p>
+<p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer." People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood one's got the message that they were "bad" so they have been trying to prove that critic wrong ever since.</p>
+
+
+
+ <!-- have very high standards for themselves and others and they often mention that they have a little voice in the back of their heads criticizing their every move saying good is never good enough. Over time that has developed
+
+high ideals and principles that they meticulously pay attention to. Why do they have such high ideals? Because they secretly fear that they are corrupt  -->
 
 <br>
 <Carousel type={1} gridDisplay={true} />
@@ -46,9 +52,11 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 
 <h2>💪 Strengths of an Enneagram 1</h2>
 
-One of the biggest strengths of the Enneagram Type 1 is their strong sense of responsibility and duty. Perfectionists are highly motivated to impact the world positively and are often willing to make sacrifices for the greater good. They are also highly organized and efficient, which can be an asset in personal and professional settings.
+Enneagram Type 1 individuals are often recognized for their remarkable reliability, a trait that emerges from their deep-seated sense of responsibility and duty. These individuals are driven by a compelling urge to contribute positively to the world, a commitment so strong that they are willing to make significant personal sacrifices to achieve this goal. This innate sense of duty is not just a personal trait but extends into their professional lives, making them valuable members of any team.
 
-Enneagram Type 1 individuals are known for their strong work ethic and determination. They are not easily discouraged and will persist in achieving their goals. They are also honest and straightforward, making them respected and trusted by their peers.
+Their organizational skills are another notable strength. Type 1s have a natural ability to bring order and efficiency to both their personal and professional environments. This organizational prowess enables them to manage complex tasks and projects effectively, ensuring that everything is well-planned and executed with precision.
+
+Moreover, Type 1s are known for their honesty and straightforwardness. This trait fosters a high level of trust and respect among their peers and colleagues. They are often seen as dependable individuals who value integrity, which enhances their credibility and trustworthiness in both their personal and professional relationships. This honesty, coupled with their commitment to responsibility and organization, makes Enneagram Type 1 individuals highly respected and often looked up to by others.
 
 <h3>Situations where 1s thrive</h3>
 <ul>
@@ -189,6 +197,16 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 
 <article class="section-content">
 
+<h2>🤝 Enneagram One's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 1s</h2>
 
 <FamousTypes type={1} />
@@ -226,7 +244,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",

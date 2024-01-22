@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2023-12-16'
+lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -190,6 +190,16 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 
 <article class="section-content">
 
+<h2>🤝 Enneagram Nine's sharing their experience</h2>
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VJ3nZIXKvqc?si=8iVvz94DxQzFEPCl" title="Enneagram 9 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</article>
+
+<article class="section-content">
+
 <h2>🌟 Famous Enneagram 9s</h2>
 
 <FamousTypes type={9} />
@@ -223,7 +233,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-01-21",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 9",
