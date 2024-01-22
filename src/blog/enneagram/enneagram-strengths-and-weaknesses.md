@@ -17,11 +17,11 @@ previewHtml: ''
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally, there are many dimensions by which we can slice and dice the things we are good at and bad at, so choosing where to start is also difficult.</p>
+<p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally, there are almost infinite dimensions by which we can slice and dice the things we are good at and bad at, so choosing where to start is also difficult.</p>
 
 ## Understanding Your Energizers and Drainers
 
-Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue us into identifying our strengths and weaknesses. What energizes one person may drain another. Some people love public speaking, while others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
+Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue you into identifying your strengths and weaknesses. Keep in mind that what energizes one person may drain another. So, while some people love public speaking, others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
 
 Let's look at common energizers and drainers for each Enneagram type and think about how to leverage our strengths and mitigate our weaknesses.
 

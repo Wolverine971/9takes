@@ -126,11 +126,7 @@
 					{/if}
 				</a>
 
-				<div
-					class="center menu big-nav-links {$page.url.pathname === '/'
-						? 'home-page'
-						: ''} dope-nav-menu"
-				>
+				<div class="center menu {$page.url.pathname === '/' ? 'home-page' : ''} dope-nav-menu">
 					<a href="/" class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap">
 						<div
 							class="nav-text nav-element nav-element1 {$page.url.pathname === '/'
@@ -336,21 +332,6 @@
 			}
 		}
 
-		.big-nav-links {
-			display: flex;
-			align-items: center;
-			margin-left: auto;
-			font-size: 1rem;
-			padding: 0 2rem;
-			color: var(--color-paladin-3);
-			// background-color: rgb(240, 248, 255, 0.6);
-
-			a {
-				color: var(--color-paladin-3) !important;
-				margin: 0;
-				padding: 0.75rem;
-			}
-		}
 		.home-page {
 			min-height: 2rem;
 			// background-color: aliceblue;
@@ -383,6 +364,16 @@
 				display: flex;
 				align-items: center;
 				margin-left: auto;
+				font-size: 1rem;
+				padding: 0 2rem;
+				color: var(--color-paladin-3);
+				// background-color: rgb(240, 248, 255, 0.6);
+
+				a {
+					color: var(--color-paladin-3) !important;
+					margin: 0;
+					padding: 0.75rem;
+				}
 
 				@media screen and (max-width: 740px) {
 					// display: none;

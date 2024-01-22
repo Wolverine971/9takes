@@ -59,7 +59,7 @@
 		border: var(--classic-border);
 		width: min-content;
 		position: absolute;
-		top: 100%;
+		top: -40px;
 		right: 0;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 		z-index: 12324;

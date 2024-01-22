@@ -20,12 +20,18 @@
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if data?.ai_comments?.length}
 		<div class="canned-resp-div">
-			<h2 style="display: flex; justify-content: space-between;">
-				<span>Stereotypical responses</span>
+			<div style="display: flex; justify-content: space-between; align-items: center;">
+				<div>
+					<h2 style="padding: 0; margin:0;">Generic responses</h2>
+					<p style="margin: .5rem 0 0 0;">
+						Why? To give stereotypical responses and to get the convo going and to learn from
+					</p>
+				</div>
 				<button
 					on:click={() => (showAiComments = !showAiComments)}
 					class="btn btn-primary"
-					style="display: inline-flex"
+					title="Show/Hide AI Comments"
+					style="display: flex;"
 				>
 					{#if showAiComments}
 						<DownIcon />
@@ -33,7 +39,7 @@
 						<RightIcon />
 					{/if}
 				</button>
-			</h2>
+			</div>
 			{#if showAiComments}
 				<div>
 					{#each data.ai_comments as comment}

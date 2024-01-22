@@ -148,6 +148,9 @@
 </article>
 <aside>
 	{#if data.questionTags}
+		{#if innerWidth > 1200}
+			<h3 class="tags-heading">Related question <br />categories</h3>
+		{/if}
 		{#each data.questionTags as tag}
 			<a
 				href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
@@ -184,6 +187,12 @@
 		margin: 0.25rem;
 	}
 	aside {
+	}
+
+	.tags-heading {
+		margin-left: 0.25rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
 	}
 
 	.tag {
