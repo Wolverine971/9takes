@@ -103,15 +103,15 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
   "author": {
     "@type": "Person",
     "name": "DJ Wayne",
-    "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
     "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
+    ]
   },
+  "creator": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+      ]
+    },
   "dateModified": "2023-02-28",
   "datePublished": "2023-02-28",
   "description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",

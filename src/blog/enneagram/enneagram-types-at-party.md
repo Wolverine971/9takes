@@ -153,7 +153,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 <svelte:head>
 
  <script type="application/ld+json">
-    {
+{
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "articleBody": "At a party, each Enneagram type will likely do something unique, revealing their motivations and characteristics. In this informative article, we'll explore what each Enneagram type thinks, feels, and does at a party, what they're looking forward to, and why they're attending. Whether you're a seasoned Enneagram enthusiast or just looking to understand others better, this article will give you insights into the different perspectives and motivations at play in social settings.",
@@ -178,7 +178,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "@value": "2023-02-17"
   },
   "description": "Discover different types of doing, thinking, and feeling at a party.",
-  "headline": "Enneagram Types at a Party: How Each Type Behaves",
+  "headline": "Enneagram types and Party Dynamics: How Each Enneagram Type Behaves",
   "image": {
     "@type": "ImageObject",
     "height": 900,
