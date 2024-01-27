@@ -1,10 +1,10 @@
 ---
 title: 'Leonardo DiCaprio Enneagram Type 7'
-description: 'Why Leonardo DiCaprio appears to be a type 7'
+description: "Dive into Leonardo DiCaprio's Enneagram Type 7 traits, exploring his versatile roles and environmental activism in a captivating analysis."
 author: 'DJ Wayne'
 date: '2023-08-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Leonardo-DiCaprio'
-lastmod: '2023-08-21'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -187,7 +187,7 @@ What do you think? Does the adventurous and optimistic nature of Type 7 resonate
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-21"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

@@ -43,6 +43,9 @@
 										loading="lazy"
 										fetchPriority="low"
 										class="grid-img"
+										height="218"
+										width="218"
+										title={slug.split('-').join(' ')}
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}
 									/>
@@ -68,6 +71,9 @@
 										loading="lazy"
 										fetchPriority="low"
 										class="grid-img"
+										height="218"
+										width="218"
+										title={slug.split('-').join(' ')}
 										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}

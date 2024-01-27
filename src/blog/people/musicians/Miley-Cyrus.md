@@ -1,10 +1,10 @@
 ---
 title: 'Miley Cyrus Enneagram Type 4'
-description: 'Why Miley Cyrus appears to be a type 4'
+description: "Unveil the raw and rebellious spirit of Miley Cyrus as a Type 4 Enneagram. Discover her tumultuous journey of identity and defiance in this revealing analysis."
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Miley-Cyrus'
-lastmod: '2023-12-08'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -136,7 +136,7 @@ Remember, understanding people, much like understanding Miley, is never a one-si
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-08"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

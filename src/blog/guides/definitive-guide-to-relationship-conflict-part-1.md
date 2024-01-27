@@ -1,10 +1,10 @@
 ---
-title: 'The Definitive Guide to Dealing with Relationship Conflict [Part 1]'
+title: 'The Definitive Guide to Relationship Conflict [Part 1]'
 description: 'Navigate relationship conflict with this guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.'
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
-lastmod: '2023-11-27'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -177,7 +177,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-24"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

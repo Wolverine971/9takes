@@ -1,10 +1,10 @@
 ---
 title: 'Taylor Swift An Enneagram Type 3'
-description: 'Why Taylor Swift appears to be a type 3'
+description: "Explore Taylor Swift's personality as an Enneagram Type 3, revealing her drive, resilience, and charisma in this insightful analysis"
 author: 'DJ Wayne'
 date: '2023-07-29'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Taylor-Swift'
-lastmod: '2023-12-07'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -133,7 +133,7 @@ Join us at 9takes - a community that values the exploration of personalities and
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-07"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

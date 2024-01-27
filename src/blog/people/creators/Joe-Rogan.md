@@ -1,10 +1,10 @@
 ---
 title: 'Joe Rogan Enneagram Type 8'
-description: 'Why Joe Rogan appears to be a type 8'
+description: 'Discover the bold and controversial side of Joe Rogan as an Enneagram Type 8. Delve into his assertive persona and confrontational moments.'
 author: 'DJ Wayne'
 date: '2023-07-26'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Joe-Rogan'
-lastmod: '2023-12-16'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -186,7 +186,7 @@ If this resonates with you, we invite you to explore more articles like this one
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-16"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

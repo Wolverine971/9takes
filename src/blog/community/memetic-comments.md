@@ -1,10 +1,10 @@
 ---
-title: 'Memetic comments'
-description: 'The Echo Chamber Effect: How Online Comments Shape Our Views'
+title: 'Echoes Online: The Power of Memetic Comments'
+description: 'Discover the impact of echo chambers and memetics in online comments, analyzing how digital discourse shapes social perceptions.'
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/blog/community/memetic-comments'
-lastmod: '2023-12-21'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -89,7 +89,7 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-21"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

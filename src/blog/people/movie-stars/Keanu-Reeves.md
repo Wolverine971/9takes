@@ -1,10 +1,10 @@
 ---
 title: 'Keanu Reeves An Enneagram Type 9'
-description: 'Why Keanu Reeves appears to be a type 9'
+description: "Dive into Keanu Reeves' speculated Enneagram Type 9 traits, exploring his calm demeanor and peace-seeking roles in this engaging analysis."
 author: 'DJ Wayne'
 date: '2023-08-11'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves'
-lastmod: '2023-08-11'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -225,7 +225,7 @@ For those ready to embark on this captivating exploration, I invite you to sign 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-11"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

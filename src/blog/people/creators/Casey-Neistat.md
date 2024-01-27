@@ -1,10 +1,10 @@
 ---
-title: 'Casey Neistat Enneagram Type 4'
-description: 'Why Casey Neistat appears to be a type 4'
+title: 'Casey Neistat: Unraveling the Enigma of a Type 4'
+description: 'Explore the enigmatic world of Casey Neistat as a Type 4. Dive into his creative spirit and emotional depth in our latest analysis'
 author: 'DJ Wayne'
 date: '2023-03-16'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Casey-Neistat'
-lastmod: '2023-09-04'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -200,7 +200,7 @@ If this interests you, I encourage you to join 9takes below ⬇️. Of course, y
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-09-04"
+        "@value": "2024-01-26"
       },
       "datePublished": {
         "@type": "Date",

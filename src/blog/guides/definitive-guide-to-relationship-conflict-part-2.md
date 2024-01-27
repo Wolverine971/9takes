@@ -1,10 +1,10 @@
 ---
-title: 'The Definitive Guide to Dealing with Relationship Conflict [Part 2]'
+title: 'The Definitive Guide to Relationship Conflict [Part 2]'
 description: 'Part 2 of Navigating relationship conflicts. Resolve disagreements, avoid pitfalls, and gain skills for better conflict resolution.'
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2'
-lastmod: '2023-08-24'
+lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -145,7 +145,7 @@ conflict resolution exercises for couples -->
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
           ]
       },
-      "dateModified": "2023-08-24",
+      "dateModified": "2024-01-26",
       "datePublished": "2023-08-24",
       "description": "Discover how to navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements when both parties feel strongly, and practical exercises to improve your conflict resolution skills.",
       "headline": "The Definitive Guide to Dealing with Relationship Conflict: Part 2",
