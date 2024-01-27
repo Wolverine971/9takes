@@ -222,7 +222,7 @@
 							style=""
 							class="corner-icon"
 						>
-							<img src={account} alt="Account" />
+							<img src={account} alt="Account" title="Account" width="30" height="30" />
 						</button>
 					</div>
 					<!-- not yet ready to allow registration and login -->

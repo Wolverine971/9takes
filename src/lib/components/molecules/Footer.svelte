@@ -33,6 +33,7 @@
 				loading="lazy"
 				src={instagram}
 				alt="9takesdotcom Instagram"
+				title="9takesdotcom Instagram"
 				width="150"
 				height="150"
 				class="icon"
@@ -48,6 +49,7 @@
 				loading="lazy"
 				src={twitter}
 				alt="9takesdotcom Twitter"
+				title="9takesdotcom Twitter"
 				width="150"
 				height="150"
 				class="icon"

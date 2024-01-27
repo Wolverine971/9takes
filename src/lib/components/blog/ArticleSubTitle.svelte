@@ -23,7 +23,15 @@
 			href="https://twitter.com/djwayne3"
 			style="padding: 0.5rem"
 		>
-			<img src={twitter} alt="djwayne3 Twitter" class="icon" style="width:1.5rem" width="150" />
+			<img
+				src={twitter}
+				alt="djwayne3 Twitter"
+				title="djwayne3 Twitter"
+				class="icon"
+				style="width:1.5rem"
+				width="150"
+				height="150"
+			/>
 		</a>
 	</span>
 	<span class="date">{formattedDate}</span>
