@@ -30,7 +30,6 @@
 				class="icon"
 				style="width:1.5rem"
 				width="150"
-				height="150"
 			/>
 		</a>
 	</span>

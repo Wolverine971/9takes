@@ -146,17 +146,30 @@
 					<a
 						title={'Questions with at least 9 takes'}
 						href={'/questions'}
-						class=" {$page.url.pathname.includes('/questions')
-							? 'active-link'
-							: 'question-blink'} a-wrap"
+						class="{$page.url.pathname.includes('/questions') ? 'active-link' : ''} a-wrap"
 					>
 						<div
-							class="nav-text nav-element nav-element1 {$page.url.pathname.includes('/questions')
+							class="nav-text nav-element nav-element1  {$page.url.pathname.includes('/questions')
 								? 'active-link'
 								: ''}"
 							style=""
 						>
-							QUESTIONS
+							<div
+								class="{$page.url.pathname.includes('/questions')
+									? ''
+									: 'questions-flicker'} questions-text"
+							>
+								<!-- QUESTIONS -->
+								<span>Q</span>
+								<span>U</span>
+								<span>E</span>
+								<span>S</span>
+								<span>T</span>
+								<span>I</span>
+								<span>O</span>
+								<span>N</span>
+								<span>S</span>
+							</div>
 						</div>
 						<!-- {#if data?.session?.user?.id} -->
 						<div
@@ -552,5 +565,65 @@
 		.the-header {
 			padding: 0;
 		}
+	}
+	.questions-text {
+		display: flex;
+		justify-content: center;
+	}
+
+	.questions-flicker > span {
+		text-transform: uppercase;
+		animation: glow 2.5s ease-in-out infinite;
+	}
+
+	@keyframes glow {
+		0%,
+		100% {
+			color: #fff;
+			text-shadow: 0 0 10px var(--color-theme-purple), 0 0 50px var(--color-theme-purple),
+				0 0 100px var(--color-theme-purple);
+		}
+
+		10%,
+		90% {
+			color: #111;
+			text-shadow: none;
+		}
+	}
+
+	.questions-flicker > span:nth-child(2) {
+		animation-delay: 0.25s;
+	}
+
+	.questions-flicker > span:nth-child(3) {
+		animation-delay: 0.5s;
+	}
+
+	.questions-flicker > span:nth-child(4) {
+		animation-delay: 0.75s;
+	}
+
+	.questions-flicker > span:nth-child(5) {
+		animation-delay: 1s;
+	}
+
+	.questions-flicker > span:nth-child(6) {
+		animation-delay: 1.25s;
+	}
+
+	.questions-flicker > span:nth-child(7) {
+		animation-delay: 1.5s;
+	}
+
+	.questions-flicker > span:nth-child(8) {
+		animation-delay: 1.75s;
+	}
+
+	.questions-flicker > span:nth-child(9) {
+		animation-delay: 2s;
+	}
+
+	.questions-flicker > span:nth-child(10) {
+		animation-delay: 2.25s;
 	}
 </style>
