@@ -1,10 +1,10 @@
 ---
 title: 'How Each Enneagram Type Unwinds'
-description: 'Unwind and recharge the right way! Discover the perfect activities to relax and de-stress, based on your unique Enneagram type.'
+description: 'Unwind and recharge the right way! See the ideal activities to relax and de-stress for each Enneagram type.'
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds'
-lastmod: '2023-12-08'
+lastmod: '2024-01-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -152,15 +152,15 @@ So, are you a perfectionist who needs a break from the to-do list? Or you're a s
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-08",
+      "dateModified": "2024-01-28",
       "datePublished": "2023-12-08",
-      "description": "Explore unique ways to unwind and recharge tailored to your Enneagram personality type. From purposeful play to knowledge exploration, find activities that truly help you relax.",
-      "headline": "Find Your Perfect Way to Unwind Based on Your Enneagram Type",
+      "description": "Unwind and recharge the right way! See the ideal activities to relax and de-stress for each Enneagram type.",
+      "headline": "How Each Enneagram Type Unwinds",
       "image": {
         "@type": "ImageObject",
-        "height": 900,  // Replace with the actual image height
+        "height": 900,
         "url": "https://9takes.com/blogs/greek-statues-at-the-beach.webp",
-        "width": 900   // Replace with the exact image width
+        "width": 900
       },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds",

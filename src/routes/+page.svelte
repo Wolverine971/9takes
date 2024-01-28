@@ -124,9 +124,14 @@
 			panBackground={false}
 		>
 			<div class="content-display">
-				<h1 class=" txt-white jumbo-name bold-shadow" data-value={'9takes'} itemprop="name">
+				<h2
+					class=" txt-white jumbo-name bold-shadow"
+					data-value={'9takes'}
+					itemprop="name"
+					style="text-align: center;"
+				>
 					{'9takes'}
-				</h1>
+				</h2>
 				<p
 					class="txt-white link bold-shadow main-p"
 					style="text-align: center;"
