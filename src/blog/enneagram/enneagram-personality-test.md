@@ -1,10 +1,10 @@
 ---
-title: 'Determining Your Enneagram Type'
-description: 'How to determine or deduce your Enneagram type'
+title: 'A simple test to determine your Enneagram personality type'
+description: 'Identify your Enneagram type with the 9takes guide. Explore core motivations and emotional patterns narrow down your type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: '2023-12-24'
+lastmod: '2024-01-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -119,14 +119,14 @@ For now, read the types and determine which, if any, you identify with. More to 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-24"
+        "@value": "2024-01-28"
       },
       "datePublished": {
         "@type": "Date",
         "@value": "2023-03-11"
       },
-      "description": "How to determine or deduce your Enneagram type.",
-      "headline": "Determining Your Enneagram Type",
+      "description": "Identify your Enneagram type with the 9takes guide. Explore core motivations and emotional patterns narrow down your type",
+      "headline": "A simple test to determine your Enneagram personality type",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-personality-test",
         "@type": "WebPage"

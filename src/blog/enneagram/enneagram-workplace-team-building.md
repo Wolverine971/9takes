@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Workplace Team Building'
-description: 'How the Enneagram can be used for team building and leadership development'
+title: 'Boosting Team Dynamics with Enneagram Insights'
+description: 'Enhance team collaboration and productivity in the workplace using Enneagram insights. Learn effective strategies for team building'
 author: 'DJ Wayne'
 date: '2023-03-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
-lastmod: '2023-08-27'
+lastmod: '2024-01-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'greek-statues-working-in-teams'
 ---
 
-<!-- week sauce -->
+<!-- weak sauce -->
 
 <script>
   
@@ -108,7 +108,7 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 <article class="section-content">
 
-<h3>Type 5 - The Investigator
+<h3>Type 5 - The Investigator</h3>
 
 **Approach to work:** Type 5s are the researchers, always diving deep into their subjects. Their primary goal is to gain expertise and knowledge. They're the ones who will spend hours getting to the root of a problem. While their analytical skills are top-notch, they may sometimes struggle with teamwork. What's unique about them? Their ability to see details others may overlook, making them invaluable in problem-solving.
 
@@ -199,14 +199,14 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-03-27"
+        "@value": "2024-01-28"
       },
       "datePublished": {
         "@type": "Date",
         "@value": "2023-03-27"
       },
-      "description": "How the Enneagram can be used for team building and leadership development.",
-      "headline": "Enneagram Workplace Team Building",
+      "description": "Enhance team collaboration and productivity in the workplace using Enneagram insights. Learn effective strategies for team building",
+      "headline": "Boosting Team Dynamics with Enneagram Insights",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
         "@type": "WebPage"
