@@ -165,7 +165,7 @@
 					<a href="/blog/community/inspiration-for-9takes">What is the inspiration for 9takes?</a>
 				</li>
 				<li>
-					<a href="blog/enneagram/enneagram-tldr"
+					<a href="/blog/enneagram/enneagram-tldr"
 						>The <span style="text-shadow: .5px .5px #547CF2;" title="secret sauce">Enneagram</span>
 						is the chosen personality system.</a
 					>

@@ -104,7 +104,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/about</loc>
-	    <lastmod>2023-12-12</lastmod>
+	    <lastmod>2024-01-30</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -128,9 +128,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -138,8 +138,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{

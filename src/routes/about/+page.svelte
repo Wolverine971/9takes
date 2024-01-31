@@ -92,24 +92,29 @@
 
 		<h2>Why am I building 9takes?</h2>
 		<ul>
-			<li>people are divided</li>
 			<li>social media sucks</li>
+			<li>people are divided</li>
 		</ul>
-		<h3 style="margin: 1.5rem 0">On social media sucking</h3>
+		<h3 style="margin: 1.5rem 0">Why social media sucks:</h3>
 		<!-- <h1 style="text-decoration: underline; text-align: center">We need a redo on social media</h1> -->
 		<p>
-			<b>The Lost Promise of Social Media:</b> There is no great place to get people's thoughts and opinions
-			anymore. Why? Because people are toxic and because there is too much at stake. If you make a statement,
-			5 trolls are waiting for you in the comments, ready to kill the conversation. It is too risky for
-			your brand, to be completely honest. All the people who like you for one reason might not like
-			you for another reason or in another context. We have lost the serendipity, playfulness , and the
-			realness that social media was supposed to bring us. That's why 9takes is here.
+			<b>Social media isn't living up to what it was supposed to be:</b> There is no great place to get
+			people's thoughts and opinions anymore. Online conversations can quickly turn toxic. If you make
+			a statement, 5 trolls are waiting for you in the comments, ready to kill the conversation.
 		</p>
 		<p>
-			<b>The Complexities of Managing Social Media:</b> Now, social media companies have to deal with
-			and optimize many moving parts and tradeoffs. Running a social media company is more like running
-			a logistics company than a media company. Existing social media provided a rough draft, but it
-			is time for a redo.
+			<b>It is too risky for your brand, to be completely honest:</b> All the people who like you for
+			one reason might not like you for another reason or in another context. We have lost the serendipity,
+			playfulness, and the realness that social media was supposed to bring us. That's why 9takes is
+			here.
+		</p>
+		<p>
+			<b>Social media is for advertisers, not for people being social:</b> Now, social media companies
+			have to deal with and optimize many moving parts and tradeoffs. Creating a great user experience
+			is often secondary to what the advertisers want. What may start out as a great social media platform
+			can quickly turn into an add ridden mess filled with bots. Running a social media company is more
+			like running a logistics company than a media company. The existing platforms provided a rough
+			draft, but it is time for a redo.
 		</p>
 
 		<div style="color: #5407d9; font-weight: bold; font-size: 2rem; margin: 2rem 0;">
@@ -143,9 +148,10 @@
 		<h3 style="margin: 1.5rem 0">On people being divided</h3>
 
 		<p>
-			I got married at a stressful time when I was leaving the military. My wife and I had several
-			disagreements and were fighting, and it got to a point where we felt helpless. We loved each
-			other, but we could not understand each other. That is when
+			I got married during a stressful time in my life when I was leaving the military. My wife and
+			I were fighting, and it got to a point where we were at each others throats and we felt
+			helpless in resolving our conflict. We loved each other, but we could not understand each
+			other. That is when
 			<a href="/blog/community/inspiration-for-9takes" style="font-size: 1.2rem;">
 				my wife convinced me to take a personality test</a
 			>. I was blown away. It told me things about myself that I had never put into words. It not
