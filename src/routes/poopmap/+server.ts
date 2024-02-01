@@ -126,6 +126,12 @@ export async function GET() {
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
+	<url>
+	    <loc>https://9takes.com/blog/experiment</loc>
+	    <lastmod>2024-02-01</lastmod>
+	    <changefreq>yearly</changefreq>
+	    <priority>0.5</priority>
+	</url>
 
 	  ${posts
 				.map(

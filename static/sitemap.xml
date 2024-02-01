@@ -37,6 +37,12 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://9takes.com/blog/experiment</loc>
+<lastmod>2024-02-01</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
 <loc>https://9takes.com/blog/community/consensus-on-human-nature</loc>
 <lastmod>2024-01-06T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>

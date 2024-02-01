@@ -327,7 +327,7 @@ Your next social gathering can transcend the ordinary by applying these insights
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-party-planning",
+        "@id": "https://9takes.com/blog/enneagram/enneagram-party-planner",
         "@type": "WebPage"
       },
       "publisher": {

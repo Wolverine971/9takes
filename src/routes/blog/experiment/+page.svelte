@@ -3,10 +3,14 @@
 	export let data: PageData;
 	import { stemmer } from 'stemmer';
 	import { supabase } from '$lib/supabase';
+	// https://www.youtube.com/watch?v=ngekIXiFN3s
 
 	let emotionList: string = '';
 	// let finalEmotionList: string[] = [];
 
+	// emotions synonyms
+	// how to control your emotions
+	// first you need to name your emotion
 	import { tick } from 'svelte';
 
 	// import { gsap } from 'gsap/dist/gsap';
@@ -1485,27 +1489,81 @@
 </script>
 
 <svelte:head>
-	<title>9takes 1 minute experiment</title>
-	<meta name="description" content="An experiment examining emotions" />
+	<title>9takes Emotions Experiment</title>
+	<meta
+		name="description"
+		content="Emotion Analyzer: List your feelings, see them neatly organized- a user-friendly tool for easy emotion understanding"
+	/>
 	<link rel="canonical" href="https://9takes.com/blog/experiment" />
+	<script type="application/ld+json">
+  {
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2024-02-01"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2024-02-01"
+      },
+      "description": "Emotion Analyzer: List your feelings, see them neatly organized - a user-friendly tool for easy emotion understanding",
+      "headline": "One minute Emotions experiment",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/experiment",
+        "@type": "WebPage"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      }
+    }
+	]
+}
+
+	</script>
 </svelte:head>
 
 <!-- <h1>EXPERIMENT</h1> -->
-<h1>One minute experiment</h1>
+<h1 style="margin-bottom: 0;">One minute Emotions experiment</h1>
+<h2 style="margin-top: 0; padding-top:0;">
+	Demystify emotions and have a better understanding of what you and other people are feeling.
+</h2>
 
 <!-- <h3>Instructions</h3> -->
 
 <!-- <ol>
 	<li> -->
 <div>
-	<h2>Instructions</h2>
+	<h3>Experiment Instructions</h3>
 	<p>
-		Take one minute and write down all the negative emotions that you can think of that are one
-		word, then click submit.
+		Take one minute and write down all the <span style="text-decoration: underline;"
+			>negative emotions</span
+		> that are one word that you can think of.
 	</p>
 	<ul>
 		<li>Time yourself for 1 minute</li>
 		<li>Write all the negative emotions that are one word</li>
+		<li>Only use english</li>
 	</ul>
 
 	<!-- // anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased -->
@@ -1513,8 +1571,8 @@
 		{#if !submitBox}
 			<textarea
 				bind:this={textArea}
+				align="center"
 				name="list emotions"
-				id="emotions-box"
 				cols="30"
 				rows="10"
 				style="width: 100%;"
@@ -1575,7 +1633,7 @@
 				</div>
 			{/if}
 		</div> -->
-		<div class="column">
+		<div>
 			<h3>Enneagram Core Emotions</h3>
 			{#if swap}
 				<div class="row">
@@ -1584,12 +1642,14 @@
 							<h4>{rootEmotion}</h4>
 							<div class="row">
 								<div>
-									{#each categories[rootEmotion] as emotionz}
+									{#each categories[rootEmotion] as categorizedEmotion}
 										<div
 											class="circle"
-											id={`${emotionz}-${formattedListOfEmotions.indexOf(emotionz)}`}
+											id={`${categorizedEmotion}-${formattedListOfEmotions.indexOf(
+												categorizedEmotion
+											)}`}
 										>
-											{emotionz}
+											{categorizedEmotion}
 										</div>
 									{/each}
 								</div>
@@ -1603,27 +1663,26 @@
 
 	<br />
 	<p>
-		Most most emotions can be grouped into 3 main buckets. These buckets are anger, fear and shame.
-		If we couldn't classify the emotion we put it into the other category. Try to think of an
-		emotion that doesn't fall into one of these buckets.
+		Most emotions can be grouped into three main buckets. These buckets are anger, fear, and shame.
+		If we can't classify the emotion, we put it into another category. Try to think of an emotion
+		that doesn't fall into one of these buckets.
 	</p>
 	<br />
 	<p>
-		Most positive emotions are derivatives of being happy. Being happy does not is not what shapes
-		our personality, everyone wants to be happy. It is the ways in which we pursue being happy and
-		the pain and trauma that we have been exposed to and that we are sensitive to that shapes our
-		personality.
+		Most positive emotions are derivatives of being happy. Being happy does not shape our
+		personality, everyone wants to be happy. It is how we pursue being happy and the pain and trauma
+		that we have been exposed to and that we are sensitive to that shape our personality.
 	</p>
 	<br />
 
 	<p>
-		Which of these core emotions do you experience the most on a regular basis or which one do you
-		most relate to the most or is most familiar to you? While that emotion might be familiar to you
-		it might be foreign to other personalities. It is important to recognize these emotions in
-		yourself and others and not overlook them. We experience a range of emotions from time to time
-		and to varying degrees, however there is usually a core emotion that we are most sensitive to
-		and that we have developed coping mechanisms around. Or as the enneagram puts it we develop
-		certain intelligences around or core emotions.
+		Which of these core emotions do you experience the most regularly, or which one do you relate to
+		the most or is most familiar to you? While that emotion might be familiar, it might be foreign
+		to other personalities. It is important to recognize these emotions in yourself and others and
+		not overlook them. We experience a range of emotions from time to time and varying degrees.
+		However, there is usually a core emotion that we are most sensitive to and have developed coping
+		mechanisms around. Or, as the enneagram puts it, we develop certain intelligences around our
+		core emotions.
 	</p>
 {/if}
 
@@ -1641,5 +1700,8 @@ resentment temper violence -->
 	textarea {
 		border: var(--classic-border);
 		border-radius: 5px;
+	}
+	.column {
+		max-width: 100px;
 	}
 </style>
