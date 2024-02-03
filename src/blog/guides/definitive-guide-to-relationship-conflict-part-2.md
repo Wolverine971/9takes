@@ -11,6 +11,11 @@ published: true
 pic: 'pit-of-despair'
 ---
 
+<!-- conflict styles in relationships
+conflict synonym
+internal and external conflict
+ -->
+
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>

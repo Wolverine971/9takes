@@ -13,6 +13,12 @@ blog: true
 previewHtml: ''
 ---
 
+<!-- 
+personality strengths and weaknesses 
+https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknesses
+
+-->
+
 <script>
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>

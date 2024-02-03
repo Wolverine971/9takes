@@ -11,15 +11,20 @@ published: true
 type: ['overview']
 ---
 
+<!-- wings
+enneagram 6 wing 5
+enneagram 6 wing 7
+ -->
+
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Type 6 is often called the Loyalist or the Questioner. They are the quintessential team players and are highly committed to their relationships and communities. The Loyalists value security, safety, and stability and can be apprehensive when threatened. They seek a sense of belonging and often form strong bonds with their friends, family, and colleagues.</p>
+<p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner." They are the quintessential team players and are highly committed to their relationships and communities. Enneagram 6s value security, safety, and stability and can be apprehensive when threatened. They are wary of who to trust but seek a sense of belonging. The often form strong bonds with their friends, family, and colleagues.</p>
 
-The Loyalist is governed by fear and always looks for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which can sometimes hold them back.
+The Loyalist's core emotion is fear. They are constantly on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which increases their sense of safety but it can hold them back.
 
 <br>
 <Carousel type={6} gridDisplay={true}/>

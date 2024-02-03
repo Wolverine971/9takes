@@ -11,7 +11,10 @@ published: true
 pic: 'gandalf-statue'
 ---
 
-<!-- // notes:  -->
+<!-- // notes:  
+self efficacy is ____
+
+-->
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
