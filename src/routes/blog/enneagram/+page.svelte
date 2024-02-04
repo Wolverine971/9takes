@@ -11,13 +11,13 @@
 <BlogPageHead
 	data={{
 		title: '9takes Enneagram Blogs',
-		description: 'List of blogs explaining different parts of the enneagram'
+		description: 'List of blogs explaining different parts of the Enneagram'
 	}}
 	slug={'blog/enneagram'}
 />
 
 <div style="width: 100%;">
-	<h2 id="enneagram">Enneagram Blogs</h2>
+	<h1 id="enneagram">Enneagram Blogs</h1>
 	<div class="blog-grid-container">
 		{#each data.enneagramBlogs as eBlog}
 			<a

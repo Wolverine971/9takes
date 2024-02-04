@@ -116,7 +116,13 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/guides</loc>
-	    <lastmod>2023-08-24</lastmod>
+	    <lastmod>2024-02-03</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/community</loc>
+	    <lastmod>2024-02-03</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -134,9 +140,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -144,8 +150,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{
