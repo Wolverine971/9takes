@@ -2,8 +2,10 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	import { page } from '$app/stores';
+	import Context, { onClickOutside } from './Context.svelte';
 
 	let active = false;
+	let dropdownActive = false;
 </script>
 
 <div style="position: relative; z-index: 11;">
@@ -46,11 +48,61 @@
 					>
 				</li>
 				<li>
-					<a
-						href="/blog"
-						class={$page.url.pathname === '/blog' ? 'active-link' : ''}
-						style:--tag="h-blog">Blog</a
+					<button
+						title="see blogs"
+						type="button"
+						on:click={() => {
+							dropdownActive = !dropdownActive;
+						}}
+						class="blog-dropdown {dropdownActive ? 'is-active' : ''}"
 					>
+						<div class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}" style="">
+							Blogs
+						</div>
+
+						<ul class="">
+							<li>
+								<a href="/blog/community" class="a-wrap">
+									<div
+										class=" {$page.url.pathname === '/blog/community' ? 'active-link' : ''}"
+										style=""
+									>
+										9takes Inspiration
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/blog/enneagram" class="a-wrap">
+									<div
+										class={$page.url.pathname === '/blog/enneagram' ? 'active-link' : ''}
+										style=""
+									>
+										Enneagram Blogs
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/blog/famous-enneagram-types" class="a-wrap">
+									<div
+										class={$page.url.pathname === '/blog/famous-enneagram-types'
+											? 'active-link'
+											: ''}
+										style=""
+									>
+										Famous Enneagram Types
+									</div>
+								</a>
+							</li>
+
+							<li>
+								<a href="/blog/guides" class="a-wrap">
+									<div class={$page.url.pathname === '/blog/guides' ? 'active-link' : ''} style="">
+										Guides
+									</div>
+								</a>
+							</li>
+						</ul>
+					</button>
 				</li>
 				<li>
 					<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
@@ -215,6 +267,61 @@
 		&.right {
 			transform: rotate(45deg);
 			top: -3px;
+		}
+	}
+
+	.blog-dropdown {
+		margin: 0;
+		padding: 0;
+		cursor: pointer;
+		position: relative;
+		text-decoration: none;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+		font-size: 2rem;
+		line-height: 1.5;
+		color: var(--color-theme-purple);
+		height: auto;
+		border: none;
+		// transition: all 1.2s ease-in-out;
+
+		ul {
+			position: relative;
+			padding-left: 0.5rem;
+			max-height: 0;
+			transform: scaleY(0);
+			transform-origin: top;
+			transition: transform 0.3s ease;
+
+			li {
+				list-style-type: none;
+				a {
+					text-decoration: none;
+					font-size: 1.7rem;
+					line-height: 1;
+				}
+			}
+		}
+	}
+	.blog-dropdown:after {
+		transition: none;
+		box-shadow: none;
+	}
+
+	.blog-dropdown.is-active {
+		ul {
+			// visibility: visible;
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: center;
+			height: auto !important;
+			max-height: none;
+			flex: 1;
+			transform: scaleY(1);
 		}
 	}
 </style>

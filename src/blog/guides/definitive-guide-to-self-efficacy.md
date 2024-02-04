@@ -11,7 +11,7 @@ published: true
 pic: 'gandalf-statue'
 ---
 
-<!-- // notes:  
+<!-- // notes:
 self efficacy is ____
 
 -->

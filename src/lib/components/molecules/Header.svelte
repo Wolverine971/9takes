@@ -10,11 +10,13 @@
 	import { page } from '$app/stores';
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
+	import Context, { onClickOutside } from './Context.svelte';
 
 	export let data: any;
 	let innerWidth: number;
 	let isOpen = false;
 	let isLoading = true;
+	let dropdownActive = false;
 
 	afterNavigate(() => {
 		isOpen = false;
@@ -190,22 +192,124 @@
 						QUESTIONS
 					</div> -->
 					</a>
-					<a href="/blog" class="a-wrap">
+					<button
+						title="see blogs"
+						type="button"
+						on:click={() => {
+							dropdownActive = !dropdownActive;
+						}}
+						class="blog-dropdown {dropdownActive ? 'is-active' : ''}"
+					>
 						<div
-							class="nav-text nav-element nav-element1 {$page.url.pathname === '/blog'
-								? 'active-link'
-								: ''}"
+							class="nav-element  {$page.url.pathname === '/blog' ? 'active-link' : ''}"
 							style=""
 						>
 							BLOG
 						</div>
-						<div
-							class="nav-element nav-element2 {$page.url.pathname === '/blog' ? 'active-link' : ''}"
-							style=""
-						>
-							BLOG
-						</div>
-					</a>
+
+						<Context>
+							<ul
+								class=""
+								use:onClickOutside={() => {
+									if (dropdownActive) {
+										dropdownActive = false;
+									}
+								}}
+							>
+								<li>
+									<a href="/blog/community" class="a-wrap">
+										<div
+											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
+											'/blog/community'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											9takes Inspiration
+										</div>
+										<div
+											class="nav-text nav-element nav-element2-h {$page.url.pathname ===
+											'/blog/community'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											9takes Inspiration
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="/blog/enneagram" class="a-wrap">
+										<div
+											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
+											'/blog/enneagram'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Enneagram Blogs
+										</div>
+										<div
+											class="nav-text nav-element nav-element2-h {$page.url.pathname ===
+											'/blog/enneagram'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Enneagram Blogs
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="/blog/famous-enneagram-types" class="a-wrap">
+										<div
+											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
+											'/blog/famous-enneagram-types'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Famous Enneagram Types
+										</div>
+										<div
+											class="nav-text nav-element nav-element2-h {$page.url.pathname ===
+											'/blog/famous-enneagram-types'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Famous Enneagram Types
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="/blog/guides" class="a-wrap">
+										<div
+											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
+											'/blog/guides'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Guides
+										</div>
+										<div
+											class="nav-text nav-element nav-element2-h {$page.url.pathname ===
+											'/blog/guides'
+												? 'active-link'
+												: ''}"
+											style=""
+										>
+											Guides
+										</div>
+									</a>
+								</li>
+							</ul>
+						</Context>
+					</button>
+					<!-- </div> -->
+					<!-- </a> -->
 					<a href="/about" class="a-wrap">
 						<div
 							class="nav-text nav-element nav-element1 {$page.url.pathname === '/about'
@@ -329,6 +433,24 @@
 			transform: translateY(0);
 		}
 
+		.nav-element1-h {
+			// background: red;
+			transform: translateX(0);
+		}
+
+		.nav-element2-h {
+			// background: blue;
+			transform: translateX(100%);
+		}
+
+		.a-wrap:hover .nav-element1-h {
+			transform: translateX(-100%);
+		}
+
+		.a-wrap:hover .nav-element2-h {
+			transform: translateX(0);
+		}
+
 		.dope-nav-menu {
 			justify-content: space-between;
 			align-items: center;
@@ -386,6 +508,58 @@
 					color: var(--color-paladin-3) !important;
 					margin: 0;
 					padding: 0.75rem;
+				}
+
+				.blog-dropdown {
+					color: var(--color-paladin-3) !important;
+					margin: 0;
+					padding: 0.75rem;
+					border: none;
+					cursor: pointer;
+					position: relative;
+					overflow: visible;
+					width: 10rem;
+					text-decoration: none;
+					max-width: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 100%;
+
+					ul {
+						position: absolute;
+						background: var(--dropdown-bg);
+						padding: 0;
+						right: 0;
+						left: 0;
+						top: 1rem;
+						pointer-events: none;
+						opacity: 0;
+						transform: translatey(10px);
+						transition: all 0.4s ease;
+						padding: 0.5rem;
+						border-radius: 5px;
+						li {
+							list-style-type: none;
+							a {
+								text-decoration: none;
+								color: black;
+								font-size: 12px;
+							}
+						}
+					}
+				}
+				.blog-dropdown:after {
+					transition: none;
+					box-shadow: none;
+				}
+
+				.blog-dropdown.is-active {
+					ul {
+						opacity: 1;
+						pointer-events: all;
+						background-color: var(--color-paladin-2);
+					}
 				}
 
 				@media screen and (max-width: 740px) {

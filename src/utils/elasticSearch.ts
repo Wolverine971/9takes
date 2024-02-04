@@ -1,4 +1,14 @@
-export const typeaheadQuery = ({ index, field, text, size = 10 }: { index: string, field: string, text: string, size: number }) => {
+export const typeaheadQuery = ({
+	index,
+	field,
+	text,
+	size = 10
+}: {
+	index: string;
+	field: string;
+	text: string;
+	size: number;
+}) => {
 	return {
 		index,
 		body: {

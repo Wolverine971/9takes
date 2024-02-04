@@ -14,11 +14,9 @@ previewHtml: ''
 pic: 'greek-statue-reading'
 ---
 
-<!-- self regulated strategy development 
+<!-- self regulated strategy development
 self regulation examples
 -->
-
-
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

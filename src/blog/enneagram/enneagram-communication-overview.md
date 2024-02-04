@@ -12,6 +12,7 @@ type: ['overview']
 blog: true
 previewHtml: ''
 ---
+
 <!-- make this the hub for the other enneagram blogs
 
 Enneagram Communication
@@ -28,7 +29,7 @@ Enneagram Type Dynamics
 Enneagram in Workplace Communication
 Enneagram for Better Communication
 Enneagram Social Skills
-Conflict Resolution Enneagram 
+Conflict Resolution Enneagram
 
  Communication Strategies
 Communication Tips
@@ -39,12 +40,11 @@ Tailored Communication
   Better Interaction
   Adapting Communication
   Effective Dialogue
-  Communication Styles 
+  Communication Styles
   Navigating Communication
   Conflict Resolution
   Specific Communication Advice
 -->
-
 
 <script>
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
@@ -61,6 +61,7 @@ First, it's essential to recognize that each Enneagram type has a unique worldvi
 <h3>Enneagram 1 Communication</h3>
 
 Ones are principled, ethical, and perfectionistic. They value order, structure, and correctness. Being direct, precise, and respectful is essential when communicating with Ones. Avoid being confrontational or critical, as Ones can be sensitive to criticism. Focus on solutions and constructive feedback rather than dwelling on mistakes or flaws. Ones appreciate when others are honest and straightforward with them, so be authentic and genuine in your communication.
+
 - **Motivation:** Integrity and correctness.
 - **Fear:** Being corrupt/evil, imbalanced.
 - **Communication Style:** Precise, values-driven, sometimes critical.
@@ -80,7 +81,6 @@ Twos are caring, generous, and empathetic. They value relationships and are driv
 - **Fear:** Being unwanted, unloved.
 - **Communication Style:** Warm, supportive, can struggle with directness.
 - **Empathy Pointer:** Acknowledge their contributions and need for appreciation.
-
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
@@ -161,7 +161,6 @@ Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, varie
 - **Communication Style:** Optimistic, scattered, enthusiastic.
 - **Empathy Pointer:** Engage their ideas and zest for life.
 
-
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
 </article>
@@ -191,7 +190,6 @@ Nines are peaceful, accommodating, and harmonious. They value unity, cooperation
 - **Fear:** Loss, separation.
 - **Communication Style:** Agreeable, passive, sometimes indirect.
 - **Empathy Pointer:** Encourage self-expression and personal stance.
-
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 

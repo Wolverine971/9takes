@@ -14,7 +14,7 @@ blog: true
 previewHtml: ''
 ---
 
-<!-- 3 step plan for personal growth 
+<!-- 3 step plan for personal growth
 fix this
 -->
 

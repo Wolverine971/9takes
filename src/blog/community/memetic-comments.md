@@ -15,6 +15,7 @@ pic: 'greek-sculpture-on-a-laptop'
 ---
 
 <!-- steal like an artist there is nothing new under the sun -->
+
 <svelte:head>
 
 </svelte:head>
@@ -57,7 +58,7 @@ René Girard's concept of mimesis centers on the idea that human desires, intere
 
 ### Memesis Online
 
-In the online world, this mimetic behavior becomes even more pronounced. With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments. 
+In the online world, this mimetic behavior becomes even more pronounced. With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
 
 <!-- To counteract this trend, it's crucial to foster a culture that values diverse opinions and encourages critical thinking, moving beyond the initial reactions that are so easily mimicked online. -->
 
@@ -69,7 +70,7 @@ This only compounds when a person can see other people's comments. Rather than p
 
 ## Anti-memetic Online Conversations
 
-How can we replace these impulse reactions with genuine curiosity and open-mindedness? How can we take advantage of diverse opinions where readers are challenged to think critically? 
+How can we replace these impulse reactions with genuine curiosity and open-mindedness? How can we take advantage of diverse opinions where readers are challenged to think critically?
 
 **Give your opinion before you see other people's views.** Lurking wasn't always a thing. Comments should be hidden before you comment. This would encourage independent thought and curb the memetic trend in online interactions. 9takes does this.
 

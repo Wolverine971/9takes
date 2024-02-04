@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'greek-statues-working-in-teams'
 ---
 
-<!-- weak sauce 
+<!-- weak sauce
 
 team building questions
 -->

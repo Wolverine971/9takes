@@ -26,13 +26,14 @@ We are going to look at the communication styles of each Enneagram type. Each En
 After you have learned your Enneagram Type its time to start thinking about the other possible Enneagram types of the people around you.
 
 ### Ground Rules:
+
 - Be patient and compassionate with yourself and others. Understanding and reflecting on who you are and who other people are takes time. And it takes time to get it right. Many people <a href="https://personalitypath.com/enneagram/mistypes/common-misidentifications/">mistype themselves and others</a> and the learning process is just that, a process. No need trying to rush it. There are many conversations that can be had so approach personality topics with patience.
 - Use conversations to discuss vulnerability so that you can uncover each other's preferred communication style.
 
 ### Steps
 
 1. Identify your type and the think through the likely types of those around you. This will help you identify your own <a href="enneagram-communication-styles" >communication style</a> and start to be attuned to the communication styles of those around you.
-2. Open up the conversation by asking your partner about their motivations and fears. Start the conversation by being vulnerable and sharing with your partner your own thoughts and feelings. Ask them if they can see these motivations and fears within you. Then ask your partner if they identify with one of the other enneagram types fears and motivations. 
+2. Open up the conversation by asking your partner about their motivations and fears. Start the conversation by being vulnerable and sharing with your partner your own thoughts and feelings. Ask them if they can see these motivations and fears within you. Then ask your partner if they identify with one of the other enneagram types fears and motivations.
 3. Focus on learning about the <a href="/blog/enneagram/enneagram-strengths-and-weaknesses" >strengths and weaknesses of each type</a>. This will help you and your partner get to a deeper layer of vulnerability where you can begin to understand how different people perceive the world. Ultimately this will lead to a conversation about you and your partner need in relationships.
 
 ## Relationship Communication Playbook for Each Enneagram Type

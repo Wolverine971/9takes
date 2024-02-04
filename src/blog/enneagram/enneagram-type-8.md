@@ -115,8 +115,8 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 - **Childhood Stereotype**: Raised in environments where they felt they had to be strong and assertive to protect themselves or others.
 - **Childhood Wound**: Encountered situations where they felt vulnerable or powerless, leading to a focus on building strength and control. Developed a protective shell to shield their vulnerability, often by asserting dominance or independence.
 - **Developmental Aspects**:
-    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
 - **Typical Behaviors**: Natural leaders often take charge in group settings and are unafraid to challenge authority.
 - **Thoughts and Feelings**: Strong sense of justice and protection, often masking a deep sensitivity and fear of being controlled or harmed.
 - **View on Childhood**: Often, it is a formative period where they learn to be self-reliant and strong but may regret not being able to show vulnerability or experience carefree dependence.

@@ -19,8 +19,6 @@ type: ['overview']
 
 <p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer." People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood one's got the message that they were "bad" so they have been trying to prove that critic wrong ever since.</p>
 
-
-
  <!-- have very high standards for themselves and others and they often mention that they have a little voice in the back of their heads criticizing their every move saying good is never good enough. Over time that has developed
 
 high ideals and principles that they meticulously pay attention to. Why do they have such high ideals? Because they secretly fear that they are corrupt  -->

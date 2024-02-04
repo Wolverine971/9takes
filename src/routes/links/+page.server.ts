@@ -33,7 +33,6 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {};
 
-
 interface LinkDrops {
 	id: number;
 	created_at: string;

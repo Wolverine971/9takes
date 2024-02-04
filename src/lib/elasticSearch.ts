@@ -104,8 +104,9 @@ export const addESSubscription = async ({
 			id: questionId,
 			body: {
 				script: {
-					source: `${operation === 'add' ? 'ctx._source.subscriptions++' : 'ctx._source.subscriptions--'
-						}`
+					source: `${
+						operation === 'add' ? 'ctx._source.subscriptions++' : 'ctx._source.subscriptions--'
+					}`
 				}
 			}
 		});

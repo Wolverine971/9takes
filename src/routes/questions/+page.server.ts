@@ -180,18 +180,18 @@ export const actions: Actions = {
 			});
 			console.log(elasticPrefixHits, elasticQueryStringHits);
 
-			const hitMap: any = {}
-			const dedupedHits: any[] = []
+			const hitMap: any = {};
+			const dedupedHits: any[] = [];
 
-			const hits = [...elasticPrefixHits, ...elasticQueryStringHits]
+			const hits = [...elasticPrefixHits, ...elasticQueryStringHits];
 			console.log(hits);
 
 			hits.forEach((hit) => {
 				if (!hitMap[hit._id]) {
-					hitMap[hit._id] = 1
-					dedupedHits.push(hit)
+					hitMap[hit._id] = 1;
+					dedupedHits.push(hit);
 				}
-			})
+			});
 
 			return dedupedHits;
 		} catch (e) {
@@ -212,7 +212,8 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
+						!enneagramTypes.includes('rando') ? '!inner' : ''
 					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
