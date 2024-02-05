@@ -1546,7 +1546,7 @@
 <!-- <h1>EXPERIMENT</h1> -->
 <h1 style="margin-bottom: 0;">One minute Emotions experiment</h1>
 <h2 style="margin-top: 0; padding-top:0;">
-	Demystify emotions and have a better understanding of what you and other people are feeling.
+	Demystify your own emotions and understand what other people are feeling.
 </h2>
 
 <!-- <h3>Instructions</h3> -->

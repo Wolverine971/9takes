@@ -90,9 +90,8 @@
 	</div>
 
 	<button
-		class="btn btn-primary {!data?.session?.user?.id && 'btn-disabled'}"
+		class="btn btn-primary"
 		type="button"
-		disabled={data?.session?.user?.id && !data?.canAskQuestion}
 		on:click={() => {
 			goToCreateQuestionPage();
 		}}

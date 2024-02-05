@@ -5,6 +5,8 @@
 	--color-theme-dark-blue: #191970;
 	--color-theme-pink: #f72585;
 	--color-theme-purple: #5407d9;
+
+	--color-theme-purple-d: #2f0479;
 	--color-theme-purple-v: #b3a6c9;
 	--color-theme-purple-light: #bc96fd;
 	/* #b3a6c9 */
@@ -22,7 +24,6 @@
 	--color-paladin-4: #444;
 	--color-paladin-5: #1e2922;
 	--blue: #3a6df0;
-	--purple: #5407d9;
 	--color-text: #2f2828b3;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -58,7 +59,7 @@ body {
 a {
 	transition: color 0.3s ease;
 	text-decoration: none;
-	color: var(--purple) !important;
+	color: var(--color-theme-purple) !important;
 }
 
 a:hover {

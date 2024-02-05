@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Criticisms: Validity, Stereotypes, and User Engagement'
-description: 'Explore common criticisms of the Enneagram as well as 9takes. Understand the debates behind the scientific validity of personality.'
+title: 'Criticisms of the Enneagram: Evidence & Stereotypes'
+description: 'Explore common criticisms of the Enneagram. Understand the debates behind personality and the solutions within 9takes.'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
-lastmod: '2023-09-03'
+lastmod: '2024-01-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -176,7 +176,7 @@ Enneagram Criticisms (200 words)
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-06"
+        "@value": "2024-01-04"
       },
       "datePublished": {
         "@type": "Date",

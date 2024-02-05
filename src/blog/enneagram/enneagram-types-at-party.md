@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram types and Party Dynamics: How Each Enneagram Type Behaves'
+title: 'Enneagram & Party Dynamics: Behavior Guide'
 description: 'What are different types doing, thinking, feeling at a party'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
-lastmod: '2023-09-04'
+lastmod: '2024-01-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -171,7 +171,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-09-04"
+    "@value": "2024-01-04"
   },
   "datePublished": {
     "@type": "Date",

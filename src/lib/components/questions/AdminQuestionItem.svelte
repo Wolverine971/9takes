@@ -377,7 +377,7 @@
 		right: 0;
 		padding: 0.25rem;
 		border: var(--classic-border);
-		color: var(--purple) !important;
+		color: var(--color-theme-purple) !important;
 		border-radius: 5px 0 0 0;
 	}
 
@@ -418,7 +418,7 @@
 
 	.save-btn {
 		border: var(--classic-border);
-		color: var(--purple);
+		color: var(--color-theme-purple);
 		float: inline-end;
 	}
 
