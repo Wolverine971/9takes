@@ -1,36 +1,73 @@
 <script lang="ts">
-	import Scribble from '$lib/components/atoms/scribble.svelte';
 	import type { PageData } from './$types';
-	import { onMount } from 'svelte';
 
 	export let data: PageData;
-	let categories: any = data?.categories.map((item: any) => {
+	let subCats = {};
+	let questionTags = {};
+
+	data?.subcategoryTags.forEach((item: any) => {
+		if (!questionTags[item.tag_id]) {
+			questionTags[item.tag_id] = [
+				{
+					subcategory_id: item.subcategory_id,
+					tag_id: item.tag_id,
+					tag_name: item.tag_name
+				}
+			];
+		} else {
+			questionTags[item.tag_id] = [
+				...questionTags[item.tag_id],
+				{
+					subcategory_id: item.subcategory_id,
+					tag_id: item.tag_id,
+					tag_name: item.tag_name
+				}
+			];
+		}
+	});
+	data?.categories.forEach((item: any) => {
+		if (questionTags[item.tagid]) {
+			questionTags[item.tagid] = [
+				Object.assign(...questionTags[item.tagid], { question_count: item.question_count })
+			];
+		}
+
 		return { ...item, special: false };
 	});
-	onMount(() => {
-		const list = document.querySelector('.js-list');
-		const items = document.querySelectorAll('.js-listItem');
-		const iw = items.item(0).clientWidth;
-		const res = () => {
-			const lw = list?.clientWidth;
-			const num0 = lw / iw;
-			const num1 = Math.floor(num0);
-			let num2 = num1;
-			if (num0 % 1 < 0.5) num2 = num1 - 1;
-			categories = categories.map((item, j) => {
-				const flg = (j + num2) % (num1 + num2) === 0;
-				if (flg) {
-					return { ...item, special: true };
-				} else {
-					return { ...item, special: false };
-				}
-			});
-		};
-		window.addEventListener('resize', () => res());
-		res();
+
+	data?.subcategoryTags.forEach((item: any) => {
+		if (item.tag_id && !subCats[item.question_subcategories.id]) {
+			subCats[item.question_subcategories.id] = questionTags[item.tag_id];
+		} else {
+			if (item.question_subcategories.subcategory_name) {
+				subCats[item.question_subcategories.id] = [
+					...subCats[item.question_subcategories.id],
+
+					...questionTags[item.tag_id]
+				];
+			}
+		}
 	});
 
-	const skipVals = [86, 97, 105, 138, 148, 150];
+	const findParent = (id: number) => {
+		let hasParent = false;
+		data?.rootCategories.forEach((item: any) => {
+			if (item.parent_id === id) {
+				hasParent = true;
+			}
+		});
+		return hasParent;
+	};
+	const findParentCategory = (id: number) => {
+		let parents = data?.rootCategories.filter((item: any) => {
+			if (item.parent_id === id) {
+				return true;
+			}
+		});
+		return parents;
+	};
+
+	// console.log('subCats', subCats);
 </script>
 
 <svelte:head>
@@ -41,36 +78,127 @@
 
 <div>
 	<div class="container">
-		<ul class="list js-list">
-			<!-- Repeating list items for each number, skipping the ones in the 'skip' array -->
-			<!-- Manually expanded for demonstration based on the given start and count -->
-			<!-- You may need to manually adjust the numbers based on your specific requirements -->
+		<!-- <ul class=""> -->
+		<!-- Repeating list items for each number, skipping the ones in the 'skip' array -->
+		<!-- Manually expanded for demonstration based on the given start and count -->
+		<!-- You may need to manually adjust the numbers based on your specific requirements -->
+		<h1>Categorized Questions</h1>
 
-			{#each categories as category, index}
-				{#if !skipVals.includes(index)}
-					<li class="list__item js-listItem {category.special ? 'list__item--ex' : ''}">
-						<div class="list__itemInner">
-							<img
-								alt="nuthin"
-								class="list__image"
-								src={`/blogs/${category.tag_name.split(' ').join('-')}.webp`}
-								width="400"
-								height="400"
-							/>
-							<span class="list__text">
-								<a
-									href={`/questions/categories/${category.tag_name.split(' ').join('-')}`}
-									class="list_link bold-shadow flex-center"
-								>
-									<span style="text-align: center;">{category.tag_name}</span>
-									<span>{category.question_count}</span>
-								</a>
-							</span>
-						</div>
-					</li>
-				{/if}
-			{/each}
-		</ul>
+		{#each data?.rootCategories as category, index}
+			{#if category.parent_id === null}
+				<h3 style="text-align: start;">
+					{category.subcategory_name}
+					<ul>
+						{#each data?.rootCategories as subCategory}
+							{#if subCategory?.parent_id === category.id}
+								<li style="list-style-type: none; text-align: start;">
+									<p>
+										<!-- <span>{subCategory.id}</span> -->
+										{subCategory.subcategory_name}
+									</p>
+									<ul>
+										{#if subCats[subCategory.id]}
+											{#each subCats[subCategory.id] as subSubCategory, i}
+												{#if findParent(subSubCategory.subcategory_id) && findParentCategory(subSubCategory.subcategory_id)}
+													<ul>
+														{#each findParentCategory(subSubCategory.subcategory_id) as suuCategory}
+															{#if suuCategory?.tag_name === subSubCategory.subcategory_name && i === 0}
+																<li style="list-style-type: none; text-align: start;">
+																	<p>{suuCategory?.subcategory_name}</p>
+																	{#if subCats[suuCategory.id]}
+																		<ul>
+																			{#each subCats[suuCategory.id] as scat}
+																				<li style="list-style-type: none; text-align: start;">
+																					<a
+																						href={`/questions/categories/${scat?.tag_name
+																							.split(' ')
+																							.join('-')}`}
+																						class=""
+																					>
+																						<span style="text-align: center;">{scat?.tag_name}</span
+																						>
+																						<span
+																							>({scat?.question_count > 1
+																								? `${scat?.question_count} comments`
+																								: '1 comment'})</span
+																						>
+																					</a>
+																				</li>
+																			{/each}
+																		</ul>
+																	{/if}
+																</li>
+															{/if}
+														{/each}
+													</ul>
+												{:else}
+													<li style="list-style-type: none; text-align: start;">
+														<a
+															href={`/questions/categories/${subSubCategory?.tag_name
+																.split(' ')
+																.join('-')}`}
+															class=""
+														>
+															<span style="text-align: center;">{subSubCategory?.tag_name}</span>
+															<!-- <span>{subSubCategory?.question_count}</span> -->
+															<span
+																>({subSubCategory?.question_count > 1
+																	? `${subSubCategory?.question_count} comments`
+																	: '1 comment'})</span
+															>
+														</a>
+													</li>
+												{/if}
+											{/each}
+										{/if}
+									</ul>
+
+									<ul>
+										{#each data?.rootCategories as sub}
+											{#if findParent(subCategory.id) && 1 === 5}
+												<li style="list-style-type: none; text-align: start;">
+													<p>
+														<span>sub: {sub.id}</span>
+														{sub.subcategory_name}
+													</p>
+													<ul>
+														<!-- <pre>{JSON.stringify(subCats[sub.id])}</pre> -->
+														{#if subCats[sub.id]}
+															{#each subCats[sub.id] as subSubCategory}
+																<li style="list-style-type: none; text-align: start;">
+																	<a
+																		href={`/questions/categories/${subSubCategory?.tag_name
+																			.split(' ')
+																			.join('-')}`}
+																		class=""
+																	>
+																		<span style="text-align: center;"
+																			>{subSubCategory?.tag_name}</span
+																		>
+																		<!-- <span>{subSubCategory?.question_count}</span> -->
+
+																		<span
+																			>({subSubCategory?.question_count > 1
+																				? `${subSubCategory?.question_count} comments`
+																				: '1 comment'})</span
+																		>
+																	</a>
+																</li>
+															{/each}
+														{/if}
+													</ul>
+												</li>
+											{/if}
+										{/each}
+									</ul>
+								</li>
+								<!-- {:else if subCategory?.parent_id !== category.id} -->
+							{/if}
+						{/each}
+					</ul>
+				</h3>
+			{/if}
+		{/each}
 	</div>
 </div>
 
@@ -82,6 +210,10 @@ D3 view
 
 https://codepen.io/derekmorash/pen/jyMGaX -->
 <style lang="scss">
+	h3 {
+		margin: 0.2rem;
+		padding: 0.2rem;
+	}
 	:root {
 		--threeRoot: 1.73205080757; // sqrt(3);
 	}
@@ -93,6 +225,9 @@ https://codepen.io/derekmorash/pen/jyMGaX -->
 		height: 100%;
 		max-width: 800px;
 		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 		padding: 0;
 	}
 

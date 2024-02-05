@@ -10,7 +10,9 @@ export const load: PageServerLoad = async (
 ): Promise<{
 	session: any;
 	subcategoryTags: any;
-	questionsAndTags: any;
+	// questionsAndTags: any;
+	rootCategories: [],
+
 	categories: any;
 }> => {
 	try {
@@ -32,10 +34,20 @@ export const load: PageServerLoad = async (
 			return {
 				session,
 				subcategoryTags: [],
-				questionsAndTags: [],
+				// questionsAndTags: [],
+				rootCategories: [],
 				categories: []
 			};
 		}
+
+
+		const { data: rootCategories, error: rootCategoriesError } = await supabase
+			.from('question_subcategories')
+			.select(`*`)
+		if (rootCategoriesError) {
+			console.log(rootCategoriesError);
+		}
+
 
 		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
 			.from('question_tag')
@@ -53,16 +65,16 @@ export const load: PageServerLoad = async (
 		if (categoriesErrors) {
 			console.log(categoriesErrors);
 		}
-		const { data: questionsAndTags, error: findQuestionsError } = await supabase
-			.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
-			.select(`${demo_time === true ? 'questions_demo' : 'questions'}(*), question_tag(*)`, {
-				count: 'estimated'
-			})
-			.in('tag_id', tags);
+		// const { data: questionsAndTags, error: findQuestionsError } = await supabase
+		// 	.from(demo_time === true ? 'question_tags_demo' : 'question_tags')
+		// 	.select(`${demo_time === true ? 'questions_demo' : 'questions'}(*), question_tag(*, question_subcategories(*))`, {
+		// 		count: 'estimated'
+		// 	})
+		// 	.in('tag_id', tags);
 
-		if (findQuestionsError) {
-			console.log(findQuestionsError);
-		}
+		// if (findQuestionsError) {
+		// 	console.log(findQuestionsError);
+		// }
 
 		// });
 		if (demo_time === true) {
@@ -70,16 +82,18 @@ export const load: PageServerLoad = async (
 				session,
 				subcategoryTags,
 				categories,
-				questionsAndTags: mapDemoValues(questionsAndTags)
+				rootCategories: mapDemoValues(rootCategories),
+				// questionsAndTags: mapDemoValues(questionsAndTags)
 			};
 		}
 		return {
 			session,
 			subcategoryTags,
 			categories,
-			questionsAndTags: (questionsAndTags || []).filter((q) => {
-				return !q.questions.removed;
-			})
+			rootCategories: mapDemoValues(rootCategories),
+			// questionsAndTags: (questionsAndTags || []).filter((q) => {
+			// 	return !q.questions.removed;
+			// })
 		};
 	} catch (e) {
 		console.log(e);
