@@ -183,7 +183,7 @@ Curious to dive deeper into the intricacies of personalities and gain new insigh
         "@value": "2023-06-22"
       },
       "description": "This blog post explores Demi Lovato as a possible Enneagram Type 4. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these aspects might tie into the fundamental attributes of a Type 4.",
-      "headline": "Demi Lovato: A Deep Dive into Her Enneagram Type 4 Personality",
+      "headline": "Demi Lovato– An Enneagram Type 4",
       "image": {
         "@type": "ImageObject",
         "height": 900,

@@ -110,7 +110,7 @@
 	};
 </script>
 
-<div class="">
+<div class="flex-center">
 	<h1 style="text-align: center">Ask a question</h1>
 	<form action="?/getUrl" method="POST" class="auth-form" style="margin: 0">
 		<textarea
@@ -130,14 +130,16 @@
 			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
 			<hr />
 			<!-- <p>Tag your question:</p> -->
-			<div class="flex-center">
+			<div class="flex-center" style="flex-wrap: wrap; overflow: hidden;">
 				<!-- <div class="warning">
 					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
 				</div> -->
 
 				<img id="qr-image" src="" alt="QR Code" />
 
-				<p>Url: <b> {`https://9takes.com/questions/${url}`} </b></p>
+				<p style="overflow-wrap: anywhere;">
+					Url: <b> {`https://9takes.com/questions/${url}`} </b>
+				</p>
 			</div>
 			<button class="btn btn-primary create-btn" type="button" on:click={createQuestion}>
 				{#if loading}

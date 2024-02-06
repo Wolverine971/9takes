@@ -6,7 +6,7 @@
 </script>
 
 <footer class="footer flex-center">
-	<div style="margin: 2rem 2rem 1rem 2rem;">
+	<div class="footer-div">
 		<ul class="footer-links">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
@@ -68,6 +68,9 @@
 		overflow: hidden;
 		gap: 10px;
 	}
+	.footer-div {
+		margin: 2rem 2rem 1rem 2rem;
+	}
 	footer {
 		padding: 12px;
 		margin: 0 1rem;
@@ -94,6 +97,16 @@
 	@media (max-width: 480px) {
 		li {
 			margin: 0.2rem 0;
+		}
+		footer {
+			width: 100%;
+			align-items: normal !important;
+		}
+		.footer-links {
+			justify-content: space-around;
+		}
+		.footer-div {
+			margin: 2rem 0 1rem 0;
 		}
 	}
 </style>

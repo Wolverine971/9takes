@@ -57,12 +57,12 @@
 				/>
 
 				<div class="main-description">
-					<h1>Anonymous questions and answers based on personality</h1>
+					<h1 style="margin-bottom: 1rem;">Anonymous questions and answers based on personality</h1>
 					<p style="font-size: 1.5rem; font-weight: 700;">
 						Find out what people <br /> think, feel, and do
 					</p>
 					{#if !data?.session?.user?.id}
-						<button
+						<!-- <button
 							type="button"
 							class="btn btn-primary"
 							style="border: 1px solid;"
@@ -71,7 +71,10 @@
 							}}
 						>
 							Sign Up/ In
-						</button>
+						</button> -->
+						<a href="/questions" class="btn btn-primary questionLink" style="border: 1px solid;">
+							What people are asking?
+						</a>
 					{/if}
 				</div>
 			</div>
@@ -80,7 +83,7 @@
 			How we see the World -->
 		</div>
 
-		<div class="big-points center-align flex-center">
+		<div class="big-points-section center-align flex-center">
 			<h2>The 9takes worldview</h2>
 			<div>
 				<h3 style="margin: 0;">There are two social media waves</h3>
@@ -322,6 +325,12 @@
 <style lang="scss">
 	/* Basic styles */
 
+	.questionLink::after {
+		// content: '';
+		width: 0;
+		background-image: none;
+	}
+
 	#signup-link {
 		&::after {
 			content: none;
@@ -372,9 +381,10 @@
 		grid-template-columns: 1fr;
 		column-gap: 1.25rem;
 		grid-gap: 10rem;
-		overflow: auto;
+		// overflow: auto;
 	}
-	.big-points {
+	.big-points,
+	.big-points-section {
 		max-width: 50%;
 		min-width: 400px;
 		width: 100%;
@@ -383,6 +393,7 @@
 		justify-content: center;
 		flex-direction: column;
 	}
+
 	.center-align {
 		text-align: center;
 	}
@@ -469,6 +480,9 @@
 
 		.big-points {
 			min-width: 300px;
+		}
+		.big-points-section {
+			min-width: fit-content;
 		}
 
 		.wave-sections {

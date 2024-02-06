@@ -147,4 +147,14 @@
 		max-height: calc(100vh - 20px);
 		overflow: auto;
 	}
+
+	@media (max-width: 480px) {
+		#topModal {
+			width: 95%;
+			justify-content: space-around;
+		}
+		#modal {
+			width: 95%;
+		}
+	}
 </style>

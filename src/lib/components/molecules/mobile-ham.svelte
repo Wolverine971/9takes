@@ -14,7 +14,7 @@
 			class="hamburger flex-center menu-trigger"
 			aria-label="Toggle navigation"
 			on:click={() => {
-				getModal('mobile').open();
+				getModal('mobile-nav').open();
 			}}
 		>
 			<i class="menu-trigger-bar top" />
@@ -27,7 +27,7 @@
 			class="hamburger flex-center close-trigger "
 			aria-label="Toggle navigation"
 			on:click={() => {
-				getModal('mobile').close();
+				getModal('mobile-nav').close();
 			}}
 		>
 			<i class="close-trigger-bar left" />
@@ -37,7 +37,7 @@
 		</button>
 	{/if}
 
-	<Modal2 id="mobile">
+	<Modal2 id="mobile-nav">
 		<nav class="mobile-nav">
 			<ul class="menu">
 				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
@@ -279,7 +279,7 @@
 		max-width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: start;
+		align-items: flex-start;
 		justify-content: center;
 		font-size: 2rem;
 		line-height: 1.5;
@@ -316,7 +316,7 @@
 			// visibility: visible;
 			display: flex;
 			flex-direction: column;
-			align-items: start;
+			align-items: flex-start;
 			justify-content: center;
 			height: auto !important;
 			max-height: none;

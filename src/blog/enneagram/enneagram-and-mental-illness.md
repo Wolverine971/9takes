@@ -260,7 +260,7 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
         "@value": "2023-12-08"
       },
       "description": "Explore each Enneagram type's mental health risks and shadow side in our guide on personality predispositions and coping mechanisms.",
-      "headline": "The Enneagram and Mental Health: A Guide to Understanding Each Type's Predispositions",
+      "headline": "The Enneagram and Mental Illness: A Guide to Understanding Each Type's Predispositions",
       "image": {
         "@type": "ImageObject",
         "height": 900,
