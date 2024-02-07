@@ -11,7 +11,7 @@ export const load: PageServerLoad = async (
 	session: any;
 	subcategoryTags: any;
 	// questionsAndTags: any;
-	rootCategories: [],
+	rootCategories: [];
 
 	categories: any;
 }> => {
@@ -40,14 +40,12 @@ export const load: PageServerLoad = async (
 			};
 		}
 
-
 		const { data: rootCategories, error: rootCategoriesError } = await supabase
 			.from('question_subcategories')
-			.select(`*`)
+			.select(`*`);
 		if (rootCategoriesError) {
 			console.log(rootCategoriesError);
 		}
-
 
 		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
 			.from('question_tag')
@@ -82,7 +80,7 @@ export const load: PageServerLoad = async (
 				session,
 				subcategoryTags,
 				categories,
-				rootCategories: mapDemoValues(rootCategories),
+				rootCategories: mapDemoValues(rootCategories)
 				// questionsAndTags: mapDemoValues(questionsAndTags)
 			};
 		}
@@ -90,7 +88,7 @@ export const load: PageServerLoad = async (
 			session,
 			subcategoryTags,
 			categories,
-			rootCategories: mapDemoValues(rootCategories),
+			rootCategories: mapDemoValues(rootCategories)
 			// questionsAndTags: (questionsAndTags || []).filter((q) => {
 			// 	return !q.questions.removed;
 			// })

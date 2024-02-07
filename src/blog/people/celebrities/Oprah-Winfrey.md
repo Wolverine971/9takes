@@ -20,6 +20,11 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
+
+<p class="firstLetter">She's one of the most influential figures of our time. A beacon of empathy, support, and heart-centered leadership, Oprah Winfrey has crafted a legacy that transcends boundaries. Today, we're going to dig deep into the Enneagram personality framework to provide a fresh perspective on this global icon. The hypothesis? Oprah Winfrey is an embodiment of Enneagram Type 2 - The Helper.</p>
+
+> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
+
 <div
 	style="display: flex;
     justify-content: center;
@@ -34,10 +39,6 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
-
-<p class="firstLetter">She's one of the most influential figures of our time. A beacon of empathy, support, and heart-centered leadership, Oprah Winfrey has crafted a legacy that transcends boundaries. Today, we're going to dig deep into the Enneagram personality framework to provide a fresh perspective on this global icon. The hypothesis? Oprah Winfrey is an embodiment of Enneagram Type 2 - The Helper.</p>
 
 ## The Helper and The Mogul: A Perfect Blend
 
