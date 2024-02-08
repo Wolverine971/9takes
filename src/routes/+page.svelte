@@ -116,7 +116,7 @@
 						learn your personality and should be driven by asking questions.
 					</p>
 				</div>
-				<p>And thats what 9takes is about. <b>Asking questions</b>.</p>
+				<p>And thats what 9takes. <b>Asking questions, build community, heal the globe</b> 🌎.</p>
 			</div>
 		</div>
 		<Jumbotron
@@ -150,10 +150,9 @@
 			<p style="">
 				An anonymous question and answering platform based on the Enneagram personality system.
 				<br />
-				It is like
+				Think
 				<b style="font-size: 1.2rem;">
-					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> reimagined and based on
-					personality.
+					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> based on personality.
 					<!-- <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce">Enneagram</span>
 					Lens. -->
 					<!-- A better <span style="text-shadow: .5px .5px #E0373C;">reddit</span> tailored to the
@@ -162,20 +161,20 @@
 			</p>
 			<ul style="">
 				<li>
-					<a href="/blog/community/introducing-9takes">How is 9takes different?</a>
+					<a href="/blog/community/inspiration-for-9takes">Why create 9takes?</a>
 				</li>
 				<li>
-					<a href="/blog/community/inspiration-for-9takes">What is the inspiration for 9takes?</a>
+					<a href="/blog/community/introducing-9takes">How is 9takes different?</a>
 				</li>
 				<li>
 					<a href="/blog/enneagram/enneagram-tldr"
 						>The <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce">Enneagram</span>
-						is the chosen personality system.</a
+						is the ideal personality system.</a
 					>
 				</li>
 				<li>
 					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
-						>Why the <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce"
+						>Why use the <span style="text-shadow: .5px .5px #2f0479;" title="supa secret sauce"
 							>Enneagram</span
 						>?</a
 					>
@@ -189,8 +188,8 @@
 		<div class="big-points flex-center">
 			<h2 style="">What is different?</h2>
 			<p class="">
-				9takes uses <span style="color: #5407d9">psychology</span> to create an honest, engaged and insightful
-				community
+				9takes leverages <span style="color: #5407d9">personality theory</span> to create an engaged
+				community.
 			</p>
 			<ul>
 				<li>
