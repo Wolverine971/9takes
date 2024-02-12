@@ -72,9 +72,9 @@
 		align-items: center;
 		overflow: hidden;
 		position: relative;
-		margin: var(--card-margin);
-		padding: var(--card-padding);
-		border-radius: 10px;
+		margin: 0.25rem 0 0.25rem 0.5rem;
+		padding: 0 1rem;
+		border-radius: 5px;
 		border: var(--classic-border);
 		// box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
 		// 	0 1px 5px 0 rgb(0 0 0 / 12%);
@@ -101,8 +101,10 @@
 			margin: 0;
 		}
 		.question-card {
-			margin: 0.5rem;
-			padding: 0.5rem;
+			// margin: 0.25rem;
+			// padding: 0.25rem;
+			margin: 0.25rem 0 0.25rem 0.5rem;
+			padding: 0 0.75rem;
 		}
 	}
 </style>

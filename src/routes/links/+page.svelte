@@ -36,33 +36,62 @@
 
 <div>
 	<h1>Link Drops</h1>
-	<div style="display: flex; flex-direction: column; gap: 0.5rem">
-		{#each Array(numberOfQRCodes) as _, i}
-			<div style="display: flex; flex-wrap: wrap; gap: 0.5rem">
-				{#each Array(3) as _, j}
-					<!-- {#if i === 1} -->
-					<div style="position: relative; margin: 1rem;">
-						<img id="qr-image-{i}" src="" style="max-width: 90px;" />
-						<fieldset style="top: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
+	<div style="display: flex;">
+		<div style="display: flex; flex-direction: column; gap: 2px">
+			{#each Array(numberOfQRCodes) as _, i}
+				<div style="display: flex; flex-wrap: wrap; gap: 2px">
+					{#each Array(3) as _, j}
+						<!-- {#if i === 1} -->
+						<div style="position: relative; margin: 2px;">
+							<img id="qr-image-{i}" src="" style="max-width: 90px;" />
+							<!-- <fieldset style="top: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
 						<fieldset style="right: -40px; 	top: 10px"><legend>9takes</legend></fieldset>
 						<fieldset style="bottom: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
-						<fieldset style="left: -40px; 	top: 10px"><legend>9takes</legend></fieldset>
+						<fieldset style="left: -40px; 	top: 10px"><legend>9takes</legend></fieldset> -->
 
-						<!-- <fieldset style="top: -24px;	left: -16px;"><legend>9takes</legend></fieldset>
+							<!-- <fieldset style="top: -24px;	left: -16px;"><legend>9takes</legend></fieldset>
 						<fieldset style="right: -45px; 	top: 6px"><legend>9takes</legend></fieldset>
 						<fieldset style="bottom: -20px;	left: -16px;"><legend>9takes</legend></fieldset>
 						<fieldset style="left: -45px; 	top: 6px"><legend>9takes</legend></fieldset> -->
-					</div>
-					<!-- {/if} -->
-				{/each}
-			</div>
-		{/each}
+						</div>
+						<!-- {/if} -->
+					{/each}
+				</div>
+			{/each}
+		</div>
+		<div style="display: flex; flex-direction: column; gap: 2px">
+			{#each Array(numberOfQRCodes) as _, i}
+				<div style="display: flex; flex-wrap: wrap; gap: 2px">
+					{#each Array(3) as _, j}
+						<!-- {#if i === 1} -->
+						<div style="position: relative; margin: 2px;">
+							<!-- <img id="qr-image-{i}" src="" style="max-width: 90px;" /> -->
+							<h1 class="wording">9takes</h1>
+							<!-- <fieldset style="top: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
+						<fieldset style="right: -40px; 	top: 10px"><legend>9takes</legend></fieldset>
+						<fieldset style="bottom: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
+						<fieldset style="left: -40px; 	top: 10px"><legend>9takes</legend></fieldset> -->
+
+							<!-- <fieldset style="top: -24px;	left: -16px;"><legend>9takes</legend></fieldset>
+						<fieldset style="right: -45px; 	top: 6px"><legend>9takes</legend></fieldset>
+						<fieldset style="bottom: -20px;	left: -16px;"><legend>9takes</legend></fieldset>
+						<fieldset style="left: -45px; 	top: 6px"><legend>9takes</legend></fieldset> -->
+						</div>
+						<!-- {/if} -->
+					{/each}
+				</div>
+			{/each}
+		</div>
 	</div>
 
-	<LinkMap linkDrops={data?.linkDrops} />
+	<!-- <LinkMap linkDrops={data?.linkDrops} /> -->
 </div>
 
 <style lang="scss">
+	.wording {
+		border: var(--classic-border);
+		border-radius: 5px;
+	}
 	fieldset {
 		// border: 10px solid transparent;
 		border: 5px solid transparent;

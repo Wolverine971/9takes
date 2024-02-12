@@ -507,7 +507,7 @@
 
 	.slides::-webkit-scrollbar-thumb {
 		background-color: black;
-		border-radius: 10px;
+		border-radius: 5px;
 	}
 
 	.slides > div {

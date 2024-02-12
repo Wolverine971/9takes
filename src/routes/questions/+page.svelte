@@ -83,7 +83,7 @@
 		{#each data.subcategoryTags as category}
 			{#if categories[category.tag_name]?.length}
 				<div>
-					<h3 id={category.tag_name}>{category.tag_name}</h3>
+					<h3 id={category.tag_name} style="margin: 0.5rem 0 .25rem 0">{category.tag_name}</h3>
 					<div>
 						{#each categories[category.tag_name] as questionData}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />

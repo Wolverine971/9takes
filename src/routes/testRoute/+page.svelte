@@ -1375,11 +1375,11 @@
 
 	::-webkit-scrollbar {
 		width: 1rem;
-		border-radius: 10px;
+		border-radius: 6px;
 	}
 
 	::-webkit-scrollbar-thumb {
 		background: var(--scrollbar-bg);
-		border-radius: 10px;
+		border-radius: 6px;
 	}
 </style>
