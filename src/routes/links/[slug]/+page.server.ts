@@ -145,10 +145,8 @@ export const actions: Actions = {
 				.single();
 
 			if (addressError) {
-				console.log('addy', addressError);
+				console.log('addy error', addressError);
 			}
-
-			console.log(selectedQuestionURL);
 
 			const { data: question, error: questionError } = await supabase
 				.from('questions')
@@ -168,6 +166,58 @@ export const actions: Actions = {
 
 			if (linkDropError) {
 				console.log(linkDropError);
+			}
+
+			return linkDrop;
+		} catch (e) {
+			console.log(e);
+			return null;
+		}
+	},
+
+	updateLinkDrop: async ({ request, locals }) => {
+		try {
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(400, 'unauthorized');
+			}
+
+			if (session?.user?.id) {
+				const { data: userResp, error: findUserError } = await supabase
+					.from('profiles')
+					.select('id, admin, external_id')
+					.eq('id', session?.user?.id)
+					.single();
+
+				if (findUserError || !userResp?.admin) {
+					throw error(400, 'unauthorized');
+				}
+			}
+
+			const body = Object.fromEntries(await request.formData());
+			const selectedQuestionURL = body.selectedQuestionURL;
+			const linkDropExternalId = body.linkDropExternalId;
+
+			const { data: question, error: questionError } = await supabase
+				.from('questions')
+				.select('*')
+				.eq('url', selectedQuestionURL)
+				.single();
+
+			if (questionError || !question) {
+				console.log('questionError', questionError);
+			}
+
+			const { data: linkDrop, error: linkDropError } = await supabase
+				.from('link_drops')
+				.update({ question_id: question?.id })
+				.eq('external_id', linkDropExternalId)
+				.select()
+				.single();
+
+			if (linkDropError) {
+				console.log('linkDropError', linkDropError);
 			}
 
 			return linkDrop;

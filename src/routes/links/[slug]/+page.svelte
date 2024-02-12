@@ -10,6 +10,7 @@
 	import { QuestionItem } from '$lib/components/molecules';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import LinkMap from '$lib/components/molecules/LinkMap.svelte';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	export let data: PageData;
 
@@ -26,7 +27,6 @@
 	});
 
 	const successCallback = (position: any) => {
-		console.log(position);
 		location = position?.coords;
 	};
 
@@ -63,7 +63,6 @@
 	};
 
 	const questionSelected = async (question: any) => {
-		const { id } = question;
 		selectedQuestion = question;
 	};
 
@@ -72,9 +71,6 @@
 			alert('Must select a question');
 			return;
 		}
-		// submitLinkDrop
-		console.log(location);
-		console.log(selectedQuestion);
 
 		var body = new FormData();
 		body.append('lat', location?.latitude);
@@ -93,6 +89,32 @@
 		} else {
 			notifications.info('Link Dropped', 3000);
 		}
+		getModal(`edit-link`).close();
+	};
+
+	const updateLink = async () => {
+		if (!selectedQuestion) {
+			alert('Must select a question');
+			return;
+		}
+
+		var body = new FormData();
+
+		body.append('selectedQuestionURL', selectedQuestion ? selectedQuestion?.url : '');
+		body.append('linkDropExternalId', data.linkDrop?.external_id);
+		const resp = await fetch('?/updateLinkDrop', {
+			method: 'POST',
+			body
+		});
+		const deserRes: any = deserialize(await resp.text());
+
+		if (deserRes.error) {
+			notifications.danger('Error updating link', 3000);
+			console.log('fe', deserRes.error);
+		} else {
+			notifications.info('Link Drop updated', 3000);
+		}
+		getModal(`edit-link`).close();
 	};
 </script>
 
@@ -125,10 +147,34 @@
 			<p># of Drops: {data.linkDrop?.number_of_drops || 0}</p>
 			<p>Hits: {data.linkDrop?.number_of_hits || 0}</p>
 		</div>
+		<button type="button" class="btn btn-primary" on:click={() => getModal(`edit-link`).open()}>
+			Change Question
+		</button>
 
 		<LinkMap linkDrops={[data.linkDrop]} />
 	{/if}
 </div>
+
+<Modal2 id={`edit-link`}>
+	<div style="max-height: 500px; min-width: 350px; min-height:300px;">
+		<form>
+			<div style="flex: 1">
+				<Context>
+					<ComboBox
+						label=""
+						name="question"
+						placeholder="Ask a question..."
+						on:inputChange={({ detail: { text } }) => debounce(text)}
+						{options}
+						on:selection={({ detail }) => questionSelected(detail)}
+					/>
+				</Context>
+			</div>
+
+			<button type="button" class="btn btn-primary" on:click={() => updateLink()}> Save </button>
+		</form>
+	</div>
+</Modal2>
 
 <style lang="scss">
 </style>
