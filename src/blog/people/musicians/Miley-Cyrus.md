@@ -143,7 +143,7 @@ Remember, understanding people, much like understanding Miley, is never a one-si
         "@value": "2023-12-01"
       },
       "description": "Explore Miley Cyrus's personality through the lens of the Enneagram Type 4, discussing her unique traits, emotional depth, and journey of self-discovery.",
-      "headline": "Miley Cyrus: A Deep Dive into Her Enneagram Type 4 Personality",
+      "headline": "Miley Cyrus Enneagram Type 4",
       "image": {
         "@type": "ImageObject",
         "height": 900,

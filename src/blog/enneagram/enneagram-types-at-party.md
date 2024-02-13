@@ -178,7 +178,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
     "@value": "2023-02-17"
   },
   "description": "Discover different types of doing, thinking, and feeling at a party.",
-  "headline": "Enneagram types and Party Dynamics: How Each Enneagram Type Behaves",
+  "headline": "Enneagram & Party Dynamics: Behavior Guide",
   "image": {
     "@type": "ImageObject",
     "height": 900,

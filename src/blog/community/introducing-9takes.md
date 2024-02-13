@@ -73,7 +73,7 @@ Many of the most important questions have a different answer. Many questions req
 
 Do the following questions have one correct answer?
 
-- [What is something about yourself that is never going to change](https://9takes.com/questions/something-going-change-yourself)
+- <a href="https://9takes.com/questions/something-going-change-yourself">What is something about yourself that is never going to change</a>
 - What is the best way to balance work and personal life?
 - How do you feel about online learning and its effectiveness?
 - What is the best educational system?

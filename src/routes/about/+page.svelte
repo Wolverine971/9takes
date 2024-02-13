@@ -72,9 +72,9 @@
 				</picture>
 				<div>
 					<p style="margin-bottom: 0;">
-						I am a software engineer at a YC-backed startup working on logistics. I am taking my
-						understanding of logistics and applying it to building a social community that I would
-						like to be part of.
+						I am a software engineer at a YC-backed logistics startup. I have taken what I have
+						learned working on logistics problems and have applied it to building a social
+						community.
 					</p>
 					<span>
 						<a
