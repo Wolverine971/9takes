@@ -44,6 +44,7 @@
 </script>
 
 <p
+	aria-hidden="true"
 	class="scribble scrib{text.split(' ').join('-')}"
 	data-value={text}
 	on:mouseover={() => {
@@ -52,9 +53,11 @@
 	on:focus={() => {
 		scribbleScrabble();
 	}}
+	aria-describedby="scribbleDesc"
 >
 	{text}
 </p>
+<p id="scribbleDesc" class="visually-hidden">This is a scribble element with text {text}.</p>
 
 <style lang="scss">
 	/* You can style your SVG here */
@@ -70,5 +73,16 @@
 		display: flex;
 		text-shadow: -1px -1px 0 var(--color-theme-purple), 1px -1px 0 var(--color-theme-purple),
 			-1px 1px 0 #000, 1px 1px 0 #000;
+	}
+
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		padding: 0;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		border: 0;
 	}
 </style>

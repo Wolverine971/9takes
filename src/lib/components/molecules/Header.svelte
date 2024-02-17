@@ -16,7 +16,6 @@
 	let innerWidth: number;
 	let isOpen = false;
 	let isLoading = true;
-	let dropdownActive = false;
 
 	afterNavigate(() => {
 		isOpen = false;
@@ -51,7 +50,7 @@
 	<div style="display: flex; justify-content: center; margin: 10px; padding: 0 2rem">
 		<svg
 			version="1.1"
-			id="loader-1"
+			id="loader"
 			xmlns="http://www.w3.org/2000/svg"
 			xmlns:xlink="http://www.w3.org/1999/xlink"
 			x="0px"
@@ -61,6 +60,8 @@
 			viewBox="0 0 50 50"
 			style="enable-background:new 0 0 50 50;"
 			xml:space="preserve"
+			aria-label="Loading"
+			role="img"
 		>
 			<path
 				fill="#5407d9"
@@ -74,17 +75,21 @@
 					to="360 25 25"
 					dur="0.6s"
 					repeatCount="indefinite"
+					aria-hidden="true"
 				/>
 			</path>
 		</svg>
 	</div>
 {:else}
-	<header class="the-header">
+	<header class="the-header" role="banner">
 		{#if innerWidth < 1000}
-			<div class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}">
+			<div
+				class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}"
+				aria-label="Main Navigation"
+			>
 				<MobileHam {data} />
 
-				<a href="/" class="brand">
+				<a href="/" class="brand" aria-labelledby="nineTakesBrandLogo">
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 				</a>
 
@@ -97,6 +102,7 @@
 								goto('/account');
 							}}
 							class="corner-icon"
+							aria-label="Go to account"
 						>
 							<img src={account} alt="Account" />
 						</button>
@@ -120,8 +126,10 @@
 			<nav
 				class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
 					'absolute-pos'}"
+				aria-label="Main Navigation"
+				role="navigation"
 			>
-				<a href="/" class="brand left" aria-label="9takes logo">
+				<a href="/" class="brand left" aria-label="Home">
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 					{#if innerWidth > 1000 && $page.url.pathname !== '/'}
 						<Scribble text={'9takes'} />
@@ -192,32 +200,47 @@
 						QUESTIONS
 					</div> -->
 					</a>
-					<button
-						title="see blogs"
-						type="button"
-						on:click={() => {
-							dropdownActive = !dropdownActive;
-						}}
-						class="blog-dropdown {dropdownActive ? 'is-active' : ''}"
-					>
-						<div
-							class="nav-element  {$page.url.pathname === '/blog' ? 'active-link' : ''}"
-							style=""
+					<div class="dropdown" role="menu" aria-label="Blog Navigation">
+						<button
+							id="blogButton"
+							title="See Blogs"
+							type="button"
+							on:click={() => {
+								isOpen = !isOpen;
+							}}
+							class="dropdown-button"
+							aria-haspopup="true"
+							aria-controls="blogMenu"
+							aria-expanded={isOpen ? 'true' : 'false'}
 						>
-							BLOG
-						</div>
+							<div
+								class="nav-element  {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+								style=""
+							>
+								BLOG
+							</div>
+						</button>
 
 						<Context>
 							<ul
-								class=""
+								id="blogMenu"
+								aria-labelledby="blogButton"
+								aria-hidden={!isOpen ? 'true' : 'false'}
+								class="dropdown-menu {isOpen ? 'open' : ''}"
 								use:onClickOutside={() => {
-									if (dropdownActive) {
-										dropdownActive = false;
+									if (isOpen) {
+										isOpen = false;
 									}
 								}}
+								role="menu"
 							>
-								<li>
-									<a href="/blog/community" class="a-wrap">
+								<li role="none">
+									<a
+										href="/blog/community"
+										class="a-wrap"
+										tabindex={isOpen ? 0 : -1}
+										role="menuitem"
+									>
 										<div
 											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
 											'/blog/community'
@@ -238,8 +261,13 @@
 										</div>
 									</a>
 								</li>
-								<li>
-									<a href="/blog/enneagram" class="a-wrap">
+								<li role="none">
+									<a
+										href="/blog/enneagram"
+										class="a-wrap"
+										tabindex={isOpen ? 0 : -1}
+										role="menuitem"
+									>
 										<div
 											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
 											'/blog/enneagram'
@@ -260,8 +288,13 @@
 										</div>
 									</a>
 								</li>
-								<li>
-									<a href="/blog/famous-enneagram-types" class="a-wrap">
+								<li role="none">
+									<a
+										href="/blog/famous-enneagram-types"
+										class="a-wrap"
+										tabindex={isOpen ? 0 : -1}
+										role="menuitem"
+									>
 										<div
 											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
 											'/blog/famous-enneagram-types'
@@ -283,8 +316,8 @@
 									</a>
 								</li>
 
-								<li>
-									<a href="/blog/guides" class="a-wrap">
+								<li role="none">
+									<a href="/blog/guides" class="a-wrap" tabindex={isOpen ? 0 : -1} role="menuitem">
 										<div
 											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
 											'/blog/guides'
@@ -307,7 +340,7 @@
 								</li>
 							</ul>
 						</Context>
-					</button>
+					</div>
 					<!-- </div> -->
 					<!-- </a> -->
 					<a href="/about" class="a-wrap">
@@ -510,7 +543,38 @@
 					padding: 0.75rem;
 				}
 
-				.blog-dropdown {
+				.dropdown {
+					position: relative;
+				}
+
+				.dropdown-menu {
+					display: none;
+					list-style-type: none;
+					position: absolute;
+					right: 0;
+					left: 0;
+					top: 1rem;
+					pointer-events: none;
+					transform: translateY(10px);
+					transition: all 0.4s ease;
+					padding: 0.5rem;
+					border-radius: 5px;
+					pointer-events: all;
+					background-color: var(--color-paladin-2);
+					font-size: 14px;
+
+					a {
+						text-decoration: none;
+						color: black;
+						font-size: 12px;
+					}
+				}
+
+				.dropdown-menu.open {
+					display: block;
+				}
+
+				.dropdown-button {
 					color: var(--color-paladin-3) !important;
 					margin: 0;
 					padding: 0.75rem;
@@ -525,41 +589,11 @@
 					align-items: center;
 					justify-content: center;
 					height: 100%;
-
-					ul {
-						position: absolute;
-						background: var(--dropdown-bg);
-						padding: 0;
-						right: 0;
-						left: 0;
-						top: 1rem;
-						pointer-events: none;
-						opacity: 0;
-						transform: translatey(10px);
-						transition: all 0.4s ease;
-						padding: 0.5rem;
-						border-radius: 5px;
-						li {
-							list-style-type: none;
-							a {
-								text-decoration: none;
-								color: black;
-								font-size: 12px;
-							}
-						}
-					}
 				}
-				.blog-dropdown:after {
+
+				.dropdown-button:after {
 					transition: none;
 					box-shadow: none;
-				}
-
-				.blog-dropdown.is-active {
-					ul {
-						opacity: 1;
-						pointer-events: all;
-						background-color: var(--color-paladin-2);
-					}
 				}
 
 				@media screen and (max-width: 740px) {

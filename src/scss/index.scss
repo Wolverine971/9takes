@@ -82,6 +82,7 @@ h4,
 h5,
 h6 {
 	padding: 2rem 0 1rem 0;
+	margin: 1rem 0 0.5rem 0;
 }
 
 img,
@@ -112,7 +113,7 @@ a:hover {
 	isolation: isolate;
 }
 
-main {
+.main {
 	box-sizing: border-box;
 	display: flex;
 	flex: 1;
@@ -123,7 +124,7 @@ main {
 	width: 100%;
 }
 
-main::before {
+.main::before {
 	position: fixed;
 	top: -150vh;
 	left: -150vw;
@@ -372,7 +373,7 @@ section {
 }
 
 @media (max-width: 800px) {
-	main {
+	.main {
 		padding: 1rem;
 	}
 

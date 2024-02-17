@@ -112,8 +112,8 @@
 	<BackNavigation />
 {/if}
 <main
-	class="flexrate {$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url.pathname !==
-	'/signup'
+	class="main flexrate {$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url
+		.pathname !== '/signup'
 		? 'pos-rel'
 		: ''}"
 >

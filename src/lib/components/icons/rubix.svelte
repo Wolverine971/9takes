@@ -7,6 +7,7 @@
 </script>
 
 <svg
+	id="nineTakesBrandLogo"
 	{width}
 	{height}
 	style={svgStyle}

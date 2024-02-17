@@ -4,6 +4,12 @@
 	export let data: PageData;
 </script>
 
+<svelte:head>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
 <div class="video-bg">
 	<!-- <video width="320" height="240" autoplay loop muted>
 		<source src="https://youtube.com/clip/UgkxnC8lrUjF-5XwwDJDOAIJoiuf0P8HgDGr" type="video/mp4" />
@@ -531,8 +537,6 @@
 </div>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 	* {
 		outline: none;
 		box-sizing: border-box;
