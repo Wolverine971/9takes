@@ -1,6 +1,6 @@
 ---
 title: 'Echoes Online: The Power of Memetic Comments'
-description: 'Discover the impact of echo chambers and memesis in online comments, analyzing how digital discourse shapes social perceptions.'
+description: 'Discover the impact of echo chambers and mimesis in online comments, analyzing how digital discourse shapes social perceptions.'
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/blog/community/memetic-comments'
@@ -56,7 +56,7 @@ People often mirror the beliefs of those they admire. If someone respects belief
 
 René Girard's concept of mimesis centers on the idea that human desires, interests, and behaviors are imitated mainly from others rather than originating independently. In Girard's view, we are intrinsically inclined to mimic the desires of those around us, especially individuals we perceive as models or figures of authority. This mimetic desire can lead to harmonious and conflicting relationships, as it not only involves emulating positive traits but can also result in rivalry and competition for the same objectives or status.
 
-### Memesis Online
+### Mimesis Online
 
 In the online world, this mimetic behavior becomes even more pronounced. With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
 
@@ -74,7 +74,7 @@ How can we replace these impulse reactions with genuine curiosity and open-minde
 
 **Give your opinion before you see other people's views.** Lurking wasn't always a thing. Comments should be hidden before you comment. This would encourage independent thought and curb the memetic trend in online interactions. 9takes does this.
 
-**Questions > Hot takes**. "Hot takes," or posts do not solicit feedback. Unless someone specifically asks you to write something, posting something online can feel like shouting into the void. Plus, posts or hot takes create a binary situation where you agree or disagree. Questions invite responses and open the door to learning something new. [Check out the questions asked on 9takes](/questions).
+**Questions > Hot takes**. "Hot takes" or posts do not solicit feedback. Unless someone specifically asks you to write something, posting something online can feel like shouting into the void. Plus, posts or hot takes create a binary situation where you agree or disagree. Questions invite responses and open the door to learning something new. [Check out the questions asked on 9takes](/questions).
 
 Refocusing on respectful engagement and diverse perspectives can rejuvenate online discourse, enhancing mutual understanding.
 
@@ -111,7 +111,7 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
         "@type": "Date",
         "@value": "2023-12-21"
       },
-      "description": "Discover the impact of echo chambers and memesis in online comments, analyzing how digital discourse shapes social perceptions.",
+      "description": "Discover the impact of echo chambers and mimesis in online comments, analyzing how digital discourse shapes social perceptions.",
       "headline": "The Echo Chamber Effect: How Online Comments Shape Our Views",
       "image": {
         "@type": "ImageObject",

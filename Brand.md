@@ -94,7 +94,7 @@ Keith
 
 david wayne
 1 second ago
-That is fricken right! The psychologists went down the wrong track a long time ago. They make their money treating disorders therefore they are a hammer and every person looks like a nail to them. Psychology needs to get back to normal people and create tools for them. It needs to closer align with philosophy. Checkout 9takes I talk about this more there.
+That is fricken right! The psychologists went down the wrong track a long time ago. They make their money treating disorders therefore they are a hammer and every person looks like a nail to them. Psychology needs to get back to normal people and create tools for them. It needs to closer align with philosophy. Check out 9takes I talk about this more there.
 
 https://www.youtube.com/channel/UCBXE3W58P2S76kdKdWVNdGQ
 

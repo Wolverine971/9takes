@@ -18,7 +18,7 @@ pic: 'greek-mind'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">The mind is too complex to be understood by anyone who hasn't done the work of looking at all the peer reviewed studies.</p>
+<p class="firstLetter">The mind is too complex to be understood by anyone who has yet to look at all the peer-reviewed studies.</p>
 
 <div
     style="display: flex;
@@ -54,7 +54,10 @@ Carl Jung was the pioneer of psychological archetypes. He was inspired by Freud,
 
 Nice, now we know that people's behavior can be conditioned. This didn't lead anywhere, and eventually, interest shifted towards cognitive psychology. Technology was improving, and there were now more data points to gather on a person's brain. Neuroimaging tools came out, and we learned that different brain parts get stimulated when subjects are subjected to other ideas and images.
 
-Nice, now we can map the physical parts of the brain. "Front brain turn red on picture when person is asked what is 1 plus 1. Back of brain turn red when person see picture of cute puppy."
+Nice, now we can map the physical parts of the brain.
+
+- The front brain turns red when a person is asked what is one plus one. 
+- The back of the brain turns red when a person sees a cute puppy picture.
 
 These approaches are far from what Freud and Jung were trying to do.
 
@@ -80,7 +83,7 @@ The following contemporary thinkers and practitioners are leading a renaissance 
 
 #### Jordan Peterson: Archetypes, Myths, and Personality Analysis
 
-<a href="https://www.jordanbpeterson.com/about/">Jordan Peterson</a>, a clinical psychologist and cultural commentator, is known for his unique approach that intertwines the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, grounding his explorations of narrative and mythology in empirical psychology. Peterson’s work demonstrates how ancient wisdom and modern scientific understanding can be interwoven to understand human behavior and personality better.
+<a href="https://www.jordanbpeterson.com/about/">Jordan Peterson</a>, a clinical psychologist and cultural commentator, is known for his unique approach that intertwines the study of archetypes and myths with modern psychological practice. He advocates using the Big Five personality test, grounding his explorations of narrative and mythology in empirical psychology. Peterson’s work demonstrates how ancient wisdom and modern scientific understanding can be interwoven to better understand human behavior and personality.
 
 #### Ray Dalio: Applying Personality Insights in the Business World
 

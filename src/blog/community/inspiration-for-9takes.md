@@ -1,6 +1,6 @@
 ---
 title: 'What Was The Inspiration For 9takes?'
-description: 'TLDR my wife and I were fighting and we went to a counselor which led to taking a personality test'
+description: 'TLDR: My wife and I were fighting, and we went to a counselor which led to taking a personality test'
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/blog/community/inspiration-for-9takes'

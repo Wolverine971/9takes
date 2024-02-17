@@ -1,6 +1,6 @@
 ---
 title: 'A simple test to determine your Enneagram personality type'
-description: 'Identify your Enneagram type with the 9takes guide. Explore core motivations and emotional patterns narrow down your type'
+description: 'Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
@@ -125,7 +125,7 @@ For now, read the types and determine which, if any, you identify with. More to 
         "@type": "Date",
         "@value": "2023-03-11"
       },
-      "description": "Identify your Enneagram type with the 9takes guide. Explore core motivations and emotional patterns narrow down your type",
+      "description": "Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type",
       "headline": "A simple test to determine your Enneagram personality type",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-personality-test",

@@ -119,7 +119,7 @@
 >
 	<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
 	<slot />
-	<Footer {data} />
+	<Footer />
 </main>
 
 <style lang="scss">
@@ -167,5 +167,6 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		overflow: hidden;
 	}
 </style>

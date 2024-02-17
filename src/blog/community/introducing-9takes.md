@@ -45,7 +45,7 @@ pic: 'greek-statue-introducing-9takes'
 
 </div>
 
-The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">reddit</span>. Reddit is centered around subreddits, with moderators forming separate cultures and rules for each subreddit. People post random things, and the mods determine if the post is on topic and if the comments within the post are in keeping with the subreddit's culture. This system works well for niche subreddits with very few members and bot armies wanting to get a message across.
+The closest comparison to 9takes would be <span style="text-shadow: .5px .5px #E0373C;">Reddit</span>. Reddit is centered around subreddits, with moderators forming separate cultures and rules for each subreddit. People post random things, and the mods determine if the post is on topic and if the comments within the post are in keeping with the subreddit's culture. This system works well for niche subreddits with few members and bot armies wanting to convey a message.
 
 Reddit has two main problems:
 
@@ -61,9 +61,9 @@ What if we had a different model?
 
 At a high level, questions are why people are on the internet. "Who is blank? What is blank? Where is blank? When is blank? How does blank?"
 
-**Google** tries to serve you something accurate based on your search terms. But that accuracy is based on inferring the underlying question and matching it statistically to the data it has determined is relevant or the data that someone is paying you to see. That equation has much room for error, which is why people have been going to Reddit.
+**Google** tries to serve you something accurate based on your search terms. But that accuracy is based on inferring the underlying question and matching it statistically to the data it has determined is relevant or the data that someone is paying you to see. That equation has much room for error, so people have been going to Reddit.
 
-**Reddit** has a bunch of posts, but it also can provide you with answers to your questions. The trick with Reddit is finding the right subreddit to ask you questions. As mentioned, these subreddits have subcultures, and beginners and outsiders often do not receive a warm welcome. Hopefully, someone has asked a question relevant to your question, or you can lurk and find a conversation mentioning your search term.
+**Reddit** has a bunch of posts, but it also can provide you with answers to your questions. The trick with Reddit is finding the right subreddit to ask you questions. As mentioned, these subreddits have subcultures, and beginners and outsiders often need to receive a warm welcome. Hopefully, someone has asked a question relevant to your question, or you can lurk and find a conversation mentioning your search term.
 
 **ChatGPT** and large language models have answered your questions well. The only catch is that the model has been trained on Google and Reddit data. Its ability to be creative and original is limited to the data it was introduced on. However, the LLMs are getting better every day. One day, an AI agent can answer all your questions.
 
@@ -89,7 +89,7 @@ Questions can be anything from simple to complex, timeless to basic. We are all 
 
 ### Why can you only see the answers to the questions once you post?
 
-This is because your answer will be biased if you can see what everyone else said before you answer. To provide an authentic and original answer to a question, you shouldn't be influenced by what everyone else says; you should be yourself. Give your take, different from what you think is the proper, funny, or nice take.
+This is because your answer will be biased if you can see what everyone else said before you answer. To provide an authentic and original answer to a question, you shouldn't be influenced by what everyone else says; you should be yourself. Give your take, different from what you think is proper, funny, or nice.
 
 ### Why are users anonymous?
 

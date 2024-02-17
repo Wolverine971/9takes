@@ -66,7 +66,17 @@
 	});
 </script>
 
-<div id="topModal" class:visible bind:this={topDiv} on:click={close}>
+<div
+	id="topModal"
+	class:visible
+	role="dialog"
+	tabindex="0"
+	bind:this={topDiv}
+	on:click={close}
+	on:keydown={(e) => {
+		if (e?.key === 'Enter') close(e);
+	}}
+>
 	<div
 		id="modal"
 		on:click|stopPropagation={() => {}}

@@ -47,7 +47,7 @@ The Enneagram can be used in many ways, but one of its most powerful application
 
 ### Starting Conversations and Connecting with Others
 
-The Enneagram offers a shared language and framework for understanding ourselves and others. By exploring your type and learning about the other types, you can gain a deeper appreciation for the diversity of human experience. You may also find it easier to connect with others and start meaningful conversations about personal growth and self-improvement. Checkout this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
+The Enneagram offers a shared language and framework for understanding ourselves and others. By exploring your type and learning about the other types, you can gain a deeper appreciation for the diversity of human experience. You may also find it easier to connect with others and start meaningful conversations about personal growth and self-improvement. Check out this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
 
 ### Making Sense of Yourself and Others
 

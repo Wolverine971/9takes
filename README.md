@@ -78,3 +78,7 @@ https://www.youtube.com/watch?v=ecP8RwpkiQw
  https://rodneylab.com/stylelint-sveltekit/
  npx stylelint "**/*.{css,scss}" --fix 
  -->
+
+## Svelte component UI library?
+
+[https://www.shadcn-svelte.com/docs/components/combobox](https://www.shadcn-svelte.com/docs/components/combobox)

@@ -57,7 +57,7 @@ While online tests can provide a starting point for determining your Enneagram t
 
 4. Seek outside opinions: Ask friends, family, and colleagues for their feedback on your personality traits and tendencies. They may offer insight into your Enneagram type that you may not have considered.
 
-For a more in-depth guide checkout this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
+For a more in-depth guide check out this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
 
 ## Conclusion
 

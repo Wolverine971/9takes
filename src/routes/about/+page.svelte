@@ -31,9 +31,9 @@
 				? 'flex-direction: column;'
 				: ''}"
 		>
+			<!-- role="img" -->
 			<div
 				class="profile-section"
-				role="img"
 				on:click={() => (showLaser = !showLaser)}
 				on:mouseenter={() => (showLaser = true)}
 				on:mouseleave={() => (showLaser = false)}

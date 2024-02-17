@@ -3,6 +3,7 @@ import { join } from 'path';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
 import { partytownVite } from '@builder.io/partytown/utils';
+import { enhancedImages } from '@sveltejs/enhanced-img';
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -20,6 +21,7 @@ if (dev) {
 /** @type {import('vite').UserConfig} */
 const config = {
 	plugins: [
+		enhancedImages(),
 		sveltekit(),
 		nodeLoaderPlugin(),
 		dev && webSocketServer,

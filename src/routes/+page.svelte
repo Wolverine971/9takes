@@ -47,13 +47,11 @@
 	<div class="landing-column">
 		<div class="big-points center-align flex-center" style="margin-top: 100px;">
 			<div class="main-preview" style="margin: 5rem 0;">
-				<img
-					src="/9takes-preview.webp"
+				<enhanced:img
+					src="/static/9takes-preview.webp?enhanced"
 					alt="9takes preview"
 					class="img-preview"
 					fetchPriority="high"
-					width="600"
-					height="794"
 				/>
 
 				<div class="main-description">
@@ -73,7 +71,7 @@
 							Sign Up/ In
 						</button> -->
 						<a href="/questions" class="btn btn-primary questionLink" style="border: 1px solid;">
-							What people are asking?
+							Ask a question
 						</a>
 					{/if}
 				</div>
@@ -88,7 +86,7 @@
 			<div>
 				<h3 style="margin: 0;">There are two social media waves</h3>
 				<div class="wave-sections" style="border: 1px solid grey;">
-					<h4 style="margin-top: 0;">Old wave</h4>
+					<h4 style="margin-top: 0;">🤖 Old wave 🔄</h4>
 
 					<p>
 						<b>"Social media"</b> was about being connected to your friends and finding cool stuff that
@@ -103,7 +101,7 @@
 					</p>
 				</div>
 				<div class="wave-sections" style="border: 1px solid #5407d9;">
-					<h4 style="margin-top: 0;">New wave</h4>
+					<h4 style="margin-top: 0;">🎭 New wave ❓</h4>
 
 					<p>
 						<b>Social media</b> shouldn't feel stifling. It should be about self-expression and finding
@@ -116,7 +114,7 @@
 						learn your personality and should be driven by asking questions.
 					</p>
 				</div>
-				<p>And thats what 9takes. <b>Asking questions, build community, heal the globe</b> 🌎.</p>
+				<p>And thats what 9takes. <b>Asking questions, build community, heal the globe</b> 🌎💗.</p>
 			</div>
 		</div>
 		<Jumbotron
@@ -168,15 +166,17 @@
 				</li>
 				<li>
 					<a href="/blog/enneagram/enneagram-tldr"
-						>The <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce">Enneagram</span>
-						is the ideal personality system.</a
+						>What is the <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce"
+							>Enneagram</span
+						>?</a
 					>
 				</li>
 				<li>
-					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
-						>Why use the <span style="text-shadow: .5px .5px #2f0479;" title="supa secret sauce"
+					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
+						Why is the <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce"
 							>Enneagram</span
-						>?</a
+						>
+						the best personality system?</a
 					>
 				</li>
 			</ul>
@@ -193,12 +193,14 @@
 			</p>
 			<ul>
 				<li>
-					<span style="font-size: 1.5rem;"
-						><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"
-							><path
-								d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"
-							/></svg
-						> You cannot see comments until you comment.</span
+					<span class="point-list">
+						<span style="width: 2rem;">
+							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"
+								><path
+									d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"
+								/>
+							</svg>
+						</span>You cannot see comments until you comment.</span
 					>
 					<ul>
 						<li>
@@ -208,12 +210,14 @@
 					</ul>
 				</li>
 				<li>
-					<span style="font-size: 1.5rem;"
-						><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"
-							><path
-								d="M0 88C0 74.7 10.7 64 24 64H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H24C10.7 112 0 101.3 0 88zM0 248c0-13.3 10.7-24 24-24H296c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24zM192 408c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H168c13.3 0 24 10.7 24 24z"
-							/></svg
-						> You can sort the comments by personality type.</span
+					<span class="point-list">
+						<span style="width: 2rem;">
+							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"
+								><path
+									d="M0 88C0 74.7 10.7 64 24 64H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H24C10.7 112 0 101.3 0 88zM0 248c0-13.3 10.7-24 24-24H296c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24zM192 408c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H168c13.3 0 24 10.7 24 24z"
+								/>
+							</svg>
+						</span>You can sort the comments by personality type.</span
 					>
 					<ul>
 						<li>
@@ -224,17 +228,22 @@
 					</ul>
 				</li>
 				<li>
-					<span style="font-size: 1.5rem;">
-						<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
-							><path
-								d="M48 256C48 141.1 141.1 48 256 48c63.1 0 119.6 28.1 157.8 72.5l15.6 18.2 36.4-31.3L450.2 89.2C403.3 34.6 333.7 0 256 0C114.6 0 0 114.6 0 256v40 24H48V296 256zm458.5-52.9l-4.9-23.5-47 9.9 4.9 23.5c2.9 13.9 4.5 28.3 4.5 43.1v40 24h48V296 256c0-18.1-1.9-35.8-5.5-52.9zM256 80c-34.2 0-66 9.7-93 26.6l31.7 37c18.2-9.9 39.1-15.6 61.3-15.6c70.7 0 128 57.3 128 128v24.9c0 34.6-2.8 69.1-8.4 103.1h48.6c5.2-34 7.8-68.5 7.8-103.1V256c0-97.2-78.8-176-176-176zM126.1 137.3C97.5 168.6 80 210.3 80 256v24.9c0 35-5.5 69.8-16.2 103.1h50.1c9.3-33.5 14.1-68.2 14.1-103.1V256c0-31.1 11.1-59.7 29.6-81.9l-31.6-36.8zM256 160c-53 0-96 43-96 96v24.9c0 46-7.6 91.6-22.5 135.1h46.3c13.4-43.7 20.3-89.2 20.3-135.1V256c0-28.7 23.3-52 52-52s52 23.3 52 52v24.9c0 45.6-5.5 91-16.4 135.1h45.2c10.1-44.2 15.2-89.5 15.2-135.1V256c0-53-43-96-96-96zm24 96H232v24.9c0 59.9-11 119.3-32.5 175.2l-5.9 15.3-3.3 8.6h51.4l2.6-6.7C267.9 411.9 280 346.7 280 280.9V256z"
-							/></svg
-						> The only thing that identifies you is your personality type.
+					<span class="point-list">
+						<span style="width: 2rem;">
+							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+								><path
+									d="M48 256C48 141.1 141.1 48 256 48c63.1 0 119.6 28.1 157.8 72.5l15.6 18.2 36.4-31.3L450.2 89.2C403.3 34.6 333.7 0 256 0C114.6 0 0 114.6 0 256v40 24H48V296 256zm458.5-52.9l-4.9-23.5-47 9.9 4.9 23.5c2.9 13.9 4.5 28.3 4.5 43.1v40 24h48V296 256c0-18.1-1.9-35.8-5.5-52.9zM256 80c-34.2 0-66 9.7-93 26.6l31.7 37c18.2-9.9 39.1-15.6 61.3-15.6c70.7 0 128 57.3 128 128v24.9c0 34.6-2.8 69.1-8.4 103.1h48.6c5.2-34 7.8-68.5 7.8-103.1V256c0-97.2-78.8-176-176-176zM126.1 137.3C97.5 168.6 80 210.3 80 256v24.9c0 35-5.5 69.8-16.2 103.1h50.1c9.3-33.5 14.1-68.2 14.1-103.1V256c0-31.1 11.1-59.7 29.6-81.9l-31.6-36.8zM256 160c-53 0-96 43-96 96v24.9c0 46-7.6 91.6-22.5 135.1h46.3c13.4-43.7 20.3-89.2 20.3-135.1V256c0-28.7 23.3-52 52-52s52 23.3 52 52v24.9c0 45.6-5.5 91-16.4 135.1h45.2c10.1-44.2 15.2-89.5 15.2-135.1V256c0-53-43-96-96-96zm24 96H232v24.9c0 59.9-11 119.3-32.5 175.2l-5.9 15.3-3.3 8.6h51.4l2.6-6.7C267.9 411.9 280 346.7 280 280.9V256z"
+								/>
+							</svg>
+						</span> The only thing that identifies you is your personality type.
 					</span>
 					<ul>
 						<li>
-							<span style="color: #5407d9">Engage</span> with and reveal what you want to who you want
-							via direct messages. People can see your answers but they do not know anything else.
+							<span style="color: #5407d9">Engage</span>
+							<span
+								>with and reveal what you want to who you want via direct messages. People can see
+								your answers but they do not know anything else.</span
+							>
 						</li>
 					</ul>
 				</li>
@@ -250,7 +259,7 @@
 							Your identity is publicly hidden and privately shared. Everyone is default anonymous
 							but you can message others and optionally reveal what you want. The only thing that
 							identifies you publicly is your Enneagram personality type. If you aren't familiar
-							with the Enneagram there are a slew of blogs to checkout.
+							with the Enneagram there are a slew of blogs to check out.
 						</li>
 					</ul> -->
 		<div class="big-points flex-center">
@@ -322,6 +331,12 @@
 {/if}
 
 <style lang="scss">
+	.point-list {
+		font-size: 1.5rem;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
 	/* Basic styles */
 
 	.questionLink::after {
@@ -354,7 +369,9 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 100px;
+		// gap: 100px;
+		grid-column-gap: 100px;
+		grid-row-gap: 100px;
 	}
 
 	a {
@@ -453,7 +470,8 @@
 	}
 
 	.img-preview {
-		max-width: none;
+		width: auto;
+		height: auto;
 	}
 
 	/* Media queries */
@@ -473,6 +491,10 @@
 	}
 
 	@media (max-width: 480px) {
+		.img-preview {
+			overflow: hidden;
+			max-width: none;
+		}
 		.main-description {
 			min-width: auto;
 		}

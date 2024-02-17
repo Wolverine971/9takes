@@ -21,7 +21,7 @@ A well-rounded team should have a mix of Enneagram types to ensure a variety of 
 
 ### Enhancing Communication and Conflict Resolution
 
-The Enneagram can also play a crucial role in improving communication among team members. By understanding different types of communication styles and preferences, team members can better tailor their messages to avoid misunderstandings. For example, a Type 3 (The Achiever) might prefer a direct and results-oriented communication style, while a Type 9 (The Peacemaker) may value harmony and consensus. Recognizing these differences can help prevent conflicts and facilitate smoother interactions within the team. For more information checkout enneagram <a href="enneagram-communication-tips" >communication tips</a> and <a href="enneagram-communication-styles" >communication styles</a>.
+The Enneagram can also play a crucial role in improving communication among team members. By understanding different types of communication styles and preferences, team members can better tailor their messages to avoid misunderstandings. For example, a Type 3 (The Achiever) might prefer a direct and results-oriented communication style, while a Type 9 (The Peacemaker) may value harmony and consensus. Recognizing these differences can help prevent conflicts and facilitate smoother interactions within the team. For more information check out Enneagram <a href="enneagram-communication-tips" >communication tips</a> and <a href="enneagram-communication-styles" >communication styles</a>.
 
 ### Fostering Personal and Professional Growth
 
