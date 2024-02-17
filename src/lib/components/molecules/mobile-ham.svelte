@@ -38,7 +38,7 @@
 	{/if}
 
 	<Modal2 id="mobile-nav">
-		<nav class="mobile-nav">
+		<nav class="mobile-nav" aria-label="Main Navigation">
 			<ul class="menu">
 				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
 				<li>
@@ -55,18 +55,17 @@
 							dropdownActive = !dropdownActive;
 						}}
 						class="blog-dropdown {dropdownActive ? 'is-active' : ''}"
+						aria-haspopup="true"
+						aria-expanded={dropdownActive ? 'true' : 'false'}
 					>
-						<div class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}" style="">
+						<div class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}">
 							Blogs
 						</div>
 
 						<ul class="">
 							<li>
 								<a href="/blog/community" class="a-wrap">
-									<div
-										class=" {$page.url.pathname === '/blog/community' ? 'active-link' : ''}"
-										style=""
-									>
+									<div class=" {$page.url.pathname === '/blog/community' ? 'active-link' : ''}">
 										9takes Inspiration
 									</div>
 								</a>
