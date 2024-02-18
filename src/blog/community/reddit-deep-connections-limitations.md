@@ -1,6 +1,6 @@
 ---
 title: "5 Reasons Why Reddit Can't Satisfy Your Craving for Deep Connections"
-description: ''
+description: 'Discover why Reddit falls short in forging deep connections and learn how to find meaningful interactions online.'
 author: 'DJ Wayne'
 date: '2024-02-18'
 loc: 'https://9takes.com/blog/community/reddit-deep-connections-limitations'
