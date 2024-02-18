@@ -238,7 +238,7 @@
 		<div class="big-points flex-center">
 			<h2 style="">What is different?</h2>
 			<p class="">
-				9takes leverages <span style="color: #5407d9">personality theory</span> to create an engaged
+				9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a better
 				community.
 			</p>
 			<ul>

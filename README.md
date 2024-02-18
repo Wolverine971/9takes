@@ -59,8 +59,8 @@ Rate limit API when questions go live
 
 magick party-in-street.png -alpha set -channel A -evaluate set 75% -sepia-tone 100% -modulate 100,100,200 party-in-street-try.png
 
-cwebp "Professional-Relationships.png" -o "Professional-Relationships.webp"
-cwebp -sns 70 -f 50 -size 20000 "Professional-Relationships.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-Professional-Relationships.webp"
+cwebp "reddit-late-at-night.png" -o "reddit-late-at-night.webp"
+cwebp -sns 70 -f 50 -size 20000 "reddit-late-at-night.webp" -o "C:/Users/djway/Desktop/svelte/9takes/static/blogs/s-reddit-late-at-night.webp"
 
 ### fix image size
 
