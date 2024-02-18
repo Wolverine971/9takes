@@ -1,19 +1,39 @@
 ---
 title: 'Enneagram TLDR'
-description: 'Short synopsis of the enneagram'
+description: 'Explore the Enneagram fast with our TL;DR guide, offering quick insights into all nine types for those seeking personal growth on the go.'
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-tldr'
-lastmod: '2023-12-24'
+lastmod: '2024-02-17'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'greek-dude-reading-book'
 ---
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine types based on their core motivations, fears, and desires. Each type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
+
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/blogs/greek-dude-reading-book.webp`}
+		showIcon={false}
+		displayText=""
+		altText="greek statue reading and focused 🤓"
+		subtext=""
+	/>
+</div>
 
 There are 3 groups or divisions in the Enneagram called triads. These triads are divided into 3 core emotions, which correlate to particular intelligences. The emotions are anger, fear, and shame. The unique intelligences connected with the emotions are the following:
 
@@ -59,6 +79,8 @@ While online tests can provide a starting point for determining your Enneagram t
 
 For a more in-depth guide check out this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
 
+Go here to check out <a style="font-weight: bold;" href="/blog/enneagram/enneagram-faqs" >Enneagram FAQs</a>.
+
 ## Conclusion
 
 By understanding your Enneagram type, you can gain insight into your strengths and weaknesses, and identify areas for personal growth. But you can also gain insight into others and the potential applications are only limited by your own creativity.
@@ -88,13 +110,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-24"
+        "@value": "2024-02-17"
       },
       "datePublished": {
         "@type": "Date",
         "@value": "2023-02-10"
       },
-      "description": "Short synopsis of the enneagram.",
+      "description": "Explore the Enneagram fast with our TL;DR guide, offering quick insights into all nine types for those seeking personal growth on the go",
       "headline": "Enneagram TLDR",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-tldr",

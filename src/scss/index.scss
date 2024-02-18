@@ -41,18 +41,16 @@
 	--stops: rgb(var(--dotsColor)) 3%, rgb(var(--dotsColor) / 15%) calc(var(--dotRadius, 53%) * 0.95);
 	--stop1: 3%;
 	--stop2: 60%;
+	--dark-200: hsl(222deg 15% 13%);
+	--dark-100: hsl(222deg 15% 19%);
+	--primary-300: hsl(149deg 77% 46%);
+	--primary-200: hsl(149deg 77% 56%);
+	--primary-100: hsl(149deg 77% 66%);
+	--secondary-300: hsl(289deg 90% 53%);
+	--secondary-200: hsl(289deg 90% 63%);
+	--secondary-100: hsl(289deg 90% 73%);
+	--gray: hsl(212deg 15% 48%);
 }
-
-$dark-300: hsl(213deg 24% 7%);
-$dark-200: hsl(222deg 15% 13%);
-$dark-100: hsl(222deg 15% 19%);
-$primary-300: hsl(149deg 77% 46%);
-$primary-200: hsl(149deg 77% 56%);
-$primary-100: hsl(149deg 77% 66%);
-$secondary-300: hsl(289deg 90% 53%);
-$secondary-200: hsl(289deg 90% 63%);
-$secondary-100: hsl(289deg 90% 73%);
-$gray: hsl(212deg 15% 48%);
 
 /* Write your global styles here,in PostCSS syntax */
 
@@ -66,12 +64,11 @@ $gray: hsl(212deg 15% 48%);
 }
 
 body {
-	background-color: $dark-200;
+	background-color: var(--dark-200);
 	height: 100%;
 	line-height: 1.5;
 	color: #fff;
-	font-family: sans-serif;
-	font-size: 18px;
+	font: 18px/1.5 sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -116,7 +113,7 @@ a:hover {
 .main {
 	box-sizing: border-box;
 	display: flex;
-	flex: 1;
+	flex: 1 1 auto;
 	flex-direction: column;
 	margin: 0 auto;
 	background-color: transparent;
@@ -139,8 +136,6 @@ a:hover {
 }
 
 button {
-	// border: none;
-	z-index: 1;
 	transition: all 0.3s ease;
 	position: relative;
 }
@@ -151,27 +146,21 @@ button:after {
 	height: 100%;
 	top: 0;
 	right: 0;
-	z-index: -1;
 	box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002,
 		4px 4px 5px 0px #0001;
 	transition: all 0.3s ease;
 }
 button:hover {
-	// color: #000;
-	// border: 1px solid var(--color-paladin-3);
 	border: none;
 }
 button:hover:after {
 	left: 0;
 	width: 100%;
 }
-button:active {
-	// top: 2px;
-}
 
 @keyframes spin {
 	100% {
-		transform: rotate(360deg);
+		transform: rotate(1turn);
 		transform-origin: center;
 		overflow: hidden;
 	}
@@ -200,7 +189,7 @@ button:active {
 	border-radius: 5px;
 	cursor: pointer;
 	padding: 10px 20px;
-	color: $dark-300;
+	color: var(--dark-300);
 	font-size: 16px;
 
 	&:hover {
@@ -219,24 +208,24 @@ button:active {
 }
 
 .btn-secondary {
-	background-color: $secondary-200;
-	color: $dark-300;
+	background-color: var(--secondary-200);
+	color: var(--dark-300);
 
 	&:hover {
-		background-color: $secondary-300;
+		background-color: var(--secondary-300);
 	}
 }
 
 input {
 	margin-bottom: 20px;
-	border: $gray 2px solid;
+	border: var(--gray) 2px solid;
 	border-radius: 5px;
 	padding: 10px 20px;
-	color: $dark-100;
+	color: var(--dark-100);
 	font-size: 16px;
 
 	&:focus {
-		outline: $primary-300 2px solid;
+		outline: var(--primary-300) 2px solid;
 	}
 }
 
@@ -245,7 +234,7 @@ select {
 	font-size: 16px;
 
 	&:focus {
-		outline: $primary-300 2px solid;
+		outline: var(--primary-300) 2px solid;
 	}
 }
 
@@ -258,9 +247,6 @@ select {
 }
 
 .main a {
-	display: flex;
-	flex-wrap: wrap;
-	overflow: hidden;
 	color: #260958;
 
 	&::after {

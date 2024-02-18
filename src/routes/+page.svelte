@@ -143,7 +143,7 @@
 			</div>
 		</Jumbotron>
 
-		<div class="big-points flex-center">
+		<div class="big-points flex-center" style="max-width: none;">
 			<h2 style="">What is 9takes?</h2>
 			<p style="">
 				An anonymous question and answering platform based on the Enneagram personality system.
@@ -157,30 +157,80 @@
 					<span style="text-shadow: .5px .5px #2f0479;" title="secret sauce">Enneagram</span>. -->
 				</b>
 			</p>
-			<ul style="">
-				<li>
-					<a href="/blog/community/inspiration-for-9takes">Why create 9takes?</a>
+
+			<ul class="bento-list">
+				<li class="bento">
+					<a class="bento-a" href="/blog/community/inspiration-for-9takes">
+						<img
+							srcset={`${`/blogs/husband-and-wife.webp`} 218w,`}
+							loading="lazy"
+							fetchPriority="low"
+							class="grid-img"
+							height="218"
+							width="218"
+							title={'husband and wife'}
+							src={`/blogs/husband-and-wife.webp`}
+							alt={'husband and wife'}
+						/>
+						<h4 class="small-h4 txt-white link bold-shadow">Why create 9takes?</h4>
+					</a>
 				</li>
-				<li>
-					<a href="/blog/community/introducing-9takes">How is 9takes different?</a>
+				<li class="bento">
+					<a class="bento-a" href="/blog/community/introducing-9takes">
+						<img
+							srcset={`${`/blogs/greek-statue-introducing-9takes.webp`} 218w,`}
+							loading="lazy"
+							fetchPriority="low"
+							class="grid-img"
+							height="218"
+							width="218"
+							title={'A scenic view of a person working on a computer in the jungle'}
+							src={`/blogs/greek-statue-introducing-9takes.webp`}
+							alt={'A scenic view of a person working on a computer in the jungle'}
+						/>
+						<h4 class="small-h4 txt-white link bold-shadow">What is different about 9takes?</h4>
+					</a>
 				</li>
-				<li>
-					<a href="/blog/enneagram/enneagram-tldr"
-						>What is the <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce"
-							>Enneagram</span
-						>?</a
-					>
+				<li class="bento">
+					<a class="bento-a" href="/blog/enneagram/enneagram-tldr">
+						<img
+							srcset={`${`/blogs/greek-dude-reading-book.webp`} 218w,`}
+							loading="lazy"
+							fetchPriority="low"
+							class="grid-img"
+							height="218"
+							width="218"
+							title={'husband and wife'}
+							src={`/blogs/greek-dude-reading-book.webp`}
+							alt={'husband and wife'}
+						/>
+						<h4 class="small-h4 txt-white link bold-shadow">
+							What is the <span title="secret sauce">Enneagram</span>?
+						</h4>
+					</a>
 				</li>
-				<li>
-					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
-						Why is the <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce"
-							>Enneagram</span
-						>
-						the best personality system?</a
-					>
+				<li class="bento">
+					<a class="bento-a" href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
+						<img
+							srcset={`${`/blogs/freud-plato.webp`} 218w,`}
+							loading="lazy"
+							fetchPriority="low"
+							class="grid-img"
+							height="218"
+							width="218"
+							title={'Sigmund Freud squaring off with Plato'}
+							src={`/blogs/freud-plato.webp`}
+							alt={'Sigmund Freud squaring off with Plato'}
+						/>
+						<h4 class="small-h4 txt-white link bold-shadow">
+							Why is the <span title="secret sauce">Enneagram</span>
+							the best personality system?
+						</h4>
+					</a>
 				</li>
 			</ul>
 		</div>
+
 		<!-- <p>
 						To find and connect with people that think, feel and act like you do. The bet is that
 						once you feel understood, you will be ready to understand.
@@ -331,6 +381,67 @@
 {/if}
 
 <style lang="scss">
+	.small-h4 {
+		// color: #262626;
+		font-size: 17px;
+		line-height: 1rem;
+		font-weight: 700;
+		text-wrap: balance;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding: 0;
+	}
+
+	.bento-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0;
+	}
+	.bento {
+		background: #8884;
+		display: inline-flex;
+		flex-direction: column;
+		flex-grow: 1;
+		height: 7em;
+		overflow: hidden;
+		position: relative;
+		width: 20%; // calc(25% - 1rem);
+		height: auto;
+		background-position: 50%;
+		background-size: cover;
+		box-shadow: 0px 8px 16px -8px #000a;
+		color: #fff;
+		border-radius: 10px;
+	}
+
+	.bento-a {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		overflow: hidden;
+	}
+
+	.bento-a::after {
+		content: '';
+		display: none;
+	}
+
+	.grid-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
+	.grid-img:hover {
+		filter: blur(2px) !important;
+	}
 	.point-list {
 		font-size: 1.5rem;
 		display: flex;
@@ -480,7 +591,15 @@
 		.img-preview {
 			max-width: 600px;
 		}
+		// .bento {
+		// 	width: 40%;
+		// }
+		.small-h4 {
+			font-size: 2.5rem;
+			line-height: 2.5rem;
+		}
 	}
+
 	@media (max-width: 1000px) {
 		.main-preview {
 			flex-direction: column-reverse;
@@ -488,9 +607,33 @@
 		.main-description {
 			min-width: 200px;
 		}
+		.small-h4 {
+			font-size: 1.7rem;
+			line-height: 1.7rem;
+		}
+	}
+	@media (max-width: 800px) {
+		.small-h4 {
+			font-size: 2rem;
+			line-height: 2rem;
+		}
+		.bento {
+			width: 33%;
+			height: auto;
+			margin: 0.25rem;
+		}
 	}
 
 	@media (max-width: 480px) {
+		.small-h4 {
+			font-size: 1.5rem;
+			line-height: 1.5rem;
+		}
+		.bento {
+			width: 33%;
+			height: auto;
+			margin: 0.25rem;
+		}
 		.img-preview {
 			overflow: hidden;
 			max-width: none;

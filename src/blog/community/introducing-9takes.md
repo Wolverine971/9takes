@@ -39,7 +39,7 @@ pic: 'greek-statue-introducing-9takes'
 		showIcon={false}
 		tint={false}
 		displayText=""
-		altText="scenic view of a person working on a computer in the jungle"
+		altText="A scenic view of a person working on a computer in the jungle"
 		subtext=""
 	/>
 

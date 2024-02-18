@@ -138,7 +138,7 @@
 			class="face front grid-item"
 			href={person.link ? `/blog/famous-enneagram-types/${person.name}` : '#'}
 		>
-			<div class="pop-card" style="aspect-ratio: 1/1" title="">
+			<div class="pop-card" title="">
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->
 				<img
 					class="pop-card-image profileFace tint"

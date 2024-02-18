@@ -337,9 +337,6 @@ th {
 }
 
 .main a {
-	display: flex;
-	flex-wrap: wrap;
-	overflow: hidden;
 	color: #260958;
 }
 
