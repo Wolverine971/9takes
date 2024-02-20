@@ -11,7 +11,7 @@
 	<h2 id="ideas">Ideas behind 9takes</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.community as cBlog}
-			<a href="/blog/community/{cBlog.slug}" class="grid-item">
+			<a href="/blog/community/{cBlog.slug}" class="grid-item" data-sveltekit-preload-data="tap">
 				{#if cBlog.pic}
 					<img
 						fetchPriority="high"
@@ -41,6 +41,7 @@
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+				data-sveltekit-preload-data="tap"
 			>
 				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
@@ -62,6 +63,7 @@
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+				data-sveltekit-preload-data="tap"
 			>
 				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
@@ -82,7 +84,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('musician');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -107,7 +113,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('celebrity');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -132,7 +142,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('creator');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -157,7 +171,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('politician');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -182,7 +200,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('historical');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -207,7 +229,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('movieStar');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"
@@ -232,7 +258,11 @@
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('techie');
 		}) as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item max-high">
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
 				{#if person.enneagram}
 					<img
 						fetchPriority="low"

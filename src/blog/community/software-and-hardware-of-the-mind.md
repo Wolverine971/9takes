@@ -56,7 +56,7 @@ Nice, now we know that people's behavior can be conditioned. This didn't lead an
 
 Nice, now we can map the physical parts of the brain.
 
-- The front brain turns red when a person is asked what is one plus one. 
+- The front brain turns red when a person is asked what is one plus one.
 - The back of the brain turns red when a person sees a cute puppy picture.
 
 These approaches are far from what Freud and Jung were trying to do.

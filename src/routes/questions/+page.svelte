@@ -71,7 +71,10 @@
 		<div class="big-tags">
 			{#each data.subcategoryTags as category}
 				{#if category}
-					<a href={`/questions/categories/${category?.tag_name.split(' ').join('-')}`} class="tag"
+					<a
+						href={`/questions/categories/${category?.tag_name.split(' ').join('-')}`}
+						class="tag"
+						data-sveltekit-preload-data="tap"
 						>{category?.tag_name}
 					</a>
 				{/if}
