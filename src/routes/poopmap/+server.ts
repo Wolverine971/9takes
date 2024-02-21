@@ -54,6 +54,7 @@ const getAllPosts = async () => {
 	for (const category in imports) {
 		for (const path in imports[category]) {
 			body.push(
+				// eslint-disable-next-line @typescript-eslint/no-explicit-any
 				imports[category][path]().then(({ metadata }: any) => {
 					return {
 						...metadata, // may not be required for sitemap
@@ -92,7 +93,7 @@ export async function GET() {
 
 	<url>
 	    <loc>https://9takes.com</loc>
-	    <lastmod>2024-02-17</lastmod>
+	    <lastmod>2024-02-21</lastmod>
 	    <changefreq>monthly</changefreq>
 	    <priority>1.0</priority>
 	</url>

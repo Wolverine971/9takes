@@ -2,8 +2,8 @@
 	import type { PageData } from './$types';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
-	import { goto } from '$app/navigation';
 
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	export let data: PageData;
 
 	let innerWidth = 0;
@@ -35,17 +35,9 @@
 	<meta property="twitter:url" content="https://9takes.com" />
 </svelte:head>
 
-<!-- <Jumbotron
-		image={'background.png'}
-		showIcon={true}
-		text={'9takes'}
-		subtext={'Ask questions, share your story, get curious'}
-		aspectRatio={'16/5'}
-	/> -->
-<!-- <main> -->
 <section>
 	<div class="landing-column">
-		<div class="big-points center-align flex-center" style="margin-top: 100px;">
+		<div class="big-points center-align flex-center" style="">
 			<div class="main-preview" style="margin: 5rem 0;">
 				<enhanced:img
 					src="/static/9takes-preview.webp?enhanced"
@@ -59,21 +51,13 @@
 					<p style="font-size: 1.5rem; font-weight: 700;">
 						Find out what people <br /> think, feel, and do
 					</p>
-					{#if !data?.session?.user?.id}
-						<!-- <button
-							type="button"
-							class="btn btn-primary"
-							style="border: 1px solid;"
-							on:click={() => {
-								goto('/login');
-							}}
-						>
-							Sign Up/ In
-						</button> -->
-						<a href="/questions" class="btn btn-primary questionLink" style="border: 1px solid;">
-							Ask a question
-						</a>
-					{/if}
+					<a href="/questions" class="btn btn-primary questionLink" style="border: 1px solid;">
+						Ask a question <RightIcon
+							iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
+							height={'1.5rem'}
+							fill={'#5407d9'}
+						/>
+					</a>
 				</div>
 			</div>
 
@@ -81,42 +65,6 @@
 			How we see the World -->
 		</div>
 
-		<div class="big-points-section center-align flex-center">
-			<h2>The 9takes worldview</h2>
-			<div>
-				<h3 style="margin: 0;">There are two social media waves</h3>
-				<div class="wave-sections" style="border: 1px solid grey;">
-					<h4 style="margin-top: 0;">🤖 Old wave 🔄</h4>
-
-					<p>
-						<b>"Social media"</b> was about being connected to your friends and finding cool stuff that
-						was shareable. That morphed into lurking and mindlessly scrolling, looking for cheap laughs
-						and dopamine bumps. We are now more divided than maybe ever, and depression is on the rise.
-					</p>
-					<p>
-						<b>"Personality"</b> was supposed to be something fun an interesting. You could learn about
-						yourself and your friends. But it morphed into pseudoscience and a way to put people in boxes.
-						Yes, people are similar and different, but the conversation gets more complicated when you
-						bring up personality.
-					</p>
-				</div>
-				<div class="wave-sections" style="border: 1px solid #5407d9;">
-					<h4 style="margin-top: 0;">🎭 New wave ❓</h4>
-
-					<p>
-						<b>Social media</b> shouldn't feel stifling. It should be about self-expression and finding
-						and connecting with like-minded people. Different opinions make for better conversations,
-						not shutting people down. Social media should be the place to ask the big questions.
-					</p>
-					<p>
-						<b>Personality</b> should be open ended. Discover your personality at your own pace. You
-						shouldn't be put in a box or told what you are. It should be fun and enlightening as you
-						learn your personality and should be driven by asking questions.
-					</p>
-				</div>
-				<p>And thats what 9takes. <b>Asking questions, build community, heal the globe</b> 🌎💗.</p>
-			</div>
-		</div>
 		<Jumbotron
 			image={'greek_pantheon.webp'}
 			showIcon={innerWidth > 760 && true}
@@ -138,10 +86,13 @@
 					style="text-align: center;"
 					itemprop="description"
 				>
-					{'everything we built started with a question'}
+					the place where different viewpoints are embraced,
+					<br />not feared
 				</p>
 			</div>
 		</Jumbotron>
+
+		<!-- are we embracing different view points or are we fearful of different view point -->
 
 		<div class="big-points flex-center" style="max-width: none;">
 			<h2 style="">What is 9takes?</h2>
@@ -231,92 +182,15 @@
 			</ul>
 		</div>
 
-		<!-- <p>
-						To find and connect with people that think, feel and act like you do. The bet is that
-						once you feel understood, you will be ready to understand.
-					</p> -->
 		<div class="big-points flex-center">
-			<h2 style="">What is different?</h2>
-			<p class="">
-				9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a better
-				community.
-			</p>
+			<h2 style="">
+				9takes is designed to spark joy and to turn online questions into horizon broadening
+				experiences for those who use it. Here's how:
+			</h2>
 			<ul>
 				<li>
-					<span class="point-list">
-						<span style="width: 2rem;">
-							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"
-								><path
-									d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"
-								/>
-							</svg>
-						</span>You cannot see comments until you comment.</span
-					>
-					<ul>
-						<li>
-							<span style="color: #5407d9">Honest</span> and unbiased feedback comes when people cannot
-							see what everyone else is saying.
-						</li>
-					</ul>
-				</li>
-				<li>
-					<span class="point-list">
-						<span style="width: 2rem;">
-							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"
-								><path
-									d="M0 88C0 74.7 10.7 64 24 64H424c13.3 0 24 10.7 24 24s-10.7 24-24 24H24C10.7 112 0 101.3 0 88zM0 248c0-13.3 10.7-24 24-24H296c13.3 0 24 10.7 24 24s-10.7 24-24 24H24c-13.3 0-24-10.7-24-24zM192 408c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24s10.7-24 24-24H168c13.3 0 24 10.7 24 24z"
-								/>
-							</svg>
-						</span>You can sort the comments by personality type.</span
-					>
-					<ul>
-						<li>
-							<span style="color: #5407d9">Insightful</span> comments come out when people are compared
-							to others who are their same personality type? You have to consider what patterns you are
-							falling into.
-						</li>
-					</ul>
-				</li>
-				<li>
-					<span class="point-list">
-						<span style="width: 2rem;">
-							<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
-								><path
-									d="M48 256C48 141.1 141.1 48 256 48c63.1 0 119.6 28.1 157.8 72.5l15.6 18.2 36.4-31.3L450.2 89.2C403.3 34.6 333.7 0 256 0C114.6 0 0 114.6 0 256v40 24H48V296 256zm458.5-52.9l-4.9-23.5-47 9.9 4.9 23.5c2.9 13.9 4.5 28.3 4.5 43.1v40 24h48V296 256c0-18.1-1.9-35.8-5.5-52.9zM256 80c-34.2 0-66 9.7-93 26.6l31.7 37c18.2-9.9 39.1-15.6 61.3-15.6c70.7 0 128 57.3 128 128v24.9c0 34.6-2.8 69.1-8.4 103.1h48.6c5.2-34 7.8-68.5 7.8-103.1V256c0-97.2-78.8-176-176-176zM126.1 137.3C97.5 168.6 80 210.3 80 256v24.9c0 35-5.5 69.8-16.2 103.1h50.1c9.3-33.5 14.1-68.2 14.1-103.1V256c0-31.1 11.1-59.7 29.6-81.9l-31.6-36.8zM256 160c-53 0-96 43-96 96v24.9c0 46-7.6 91.6-22.5 135.1h46.3c13.4-43.7 20.3-89.2 20.3-135.1V256c0-28.7 23.3-52 52-52s52 23.3 52 52v24.9c0 45.6-5.5 91-16.4 135.1h45.2c10.1-44.2 15.2-89.5 15.2-135.1V256c0-53-43-96-96-96zm24 96H232v24.9c0 59.9-11 119.3-32.5 175.2l-5.9 15.3-3.3 8.6h51.4l2.6-6.7C267.9 411.9 280 346.7 280 280.9V256z"
-								/>
-							</svg>
-						</span> The only thing that identifies you is your personality type.
-					</span>
-					<ul>
-						<li>
-							<span style="color: #5407d9">Engage</span>
-							<span
-								>with and reveal what you want to who you want via direct messages. People can see
-								your answers but they do not know anything else.</span
-							>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-
-		<!-- <ul>
-						<li>
-							Comments are not visible until you comment, this allows people to give original takes
-							on questions without outside influence.
-						</li>
-						<li>
-							Your identity is publicly hidden and privately shared. Everyone is default anonymous
-							but you can message others and optionally reveal what you want. The only thing that
-							identifies you publicly is your Enneagram personality type. If you aren't familiar
-							with the Enneagram there are a slew of blogs to check out.
-						</li>
-					</ul> -->
-		<div class="big-points flex-center">
-			<h2 style="">Creating the following magic moments:</h2>
-			<ul>
-				<li>
-					- Connecting with other people who think, feel, and act like you
+					- <b>Finding Your Tribe</b>: Instantly connect with individuals whose thoughts, emotions,
+					and actions resonate with yours, creating a sense of belonging and understanding.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -328,7 +202,9 @@
 					</svg>
 				</li>
 				<li>
-					- Going down the rabbit hole of another personality types answers to questions
+					- <b>Exploring New Perspectives</b>: Immerse yourself in the worldviews of different
+					personality types by navigating through their unique responses to various questions,
+					enriching your understanding of others.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -340,7 +216,8 @@
 					</svg>
 				</li>
 				<li>
-					- DMing someone who has many amazing, inspiring and insightful answers to questions
+					- <b>Engaging in Meaningful Conversations</b>: Reach out directly to users whose answers
+					catch your eye and inspire and provoke thought, initiating a deeper dialogue.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -352,7 +229,9 @@
 					</svg>
 				</li>
 				<li>
-					- Getting DM'd and having to decide if you want to reveal yourself or not
+					- <b>Choosing Transparency</b>: Experience the excitement and curiosity of receiving
+					direct messages from other users, leaving you with the intriguing decision of whether to
+					unveil your identity or remain an enigma.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +250,6 @@
 				</div> -->
 	</div>
 </section>
-<!-- </main> -->
 {#if !data?.session?.user}
 	<section style="max-width: 64rem; margin: 10rem auto">
 		<div class="join" id="signup">
