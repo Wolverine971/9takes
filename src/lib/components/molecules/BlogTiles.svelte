@@ -9,19 +9,16 @@
 
 <div style="width: 100%;">
 	<h2 id="ideas">Ideas behind 9takes</h2>
-	<div class="blog-grid-container temp-three-row">
+	<div class="blog-grid-container">
 		{#each blogs?.community as cBlog}
-			<a href="/blog/community/{cBlog.slug}" class="grid-item" data-sveltekit-preload-data="tap">
-				{#if cBlog.pic}
-					<img
-						fetchPriority="high"
-						srcset={`${`/blogs/s-${cBlog.pic}.webp`} 218w,`}
-						class="grid-img"
-						src={`/blogs/s-${cBlog.pic}.webp`}
-						alt={cBlog.pic.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="text-white {cBlog.pic ? 'txt-white fit-card' : 'txt-dark fit-card-center'}">
+			<a
+				href="/blog/enneagram/{cBlog.slug}"
+				class="grid-item inline-it"
+				style={cBlog.pic &&
+					`background-image: url(${`/blogs/s-${cBlog.pic}.webp`}); background-size: cover;`}
+				data-sveltekit-preload-data="tap"
+			>
+				<div class="txt-white {cBlog.pic ? 'txt-white' : 'txt-dark'}">
 					<h3>
 						{cBlog.title}
 					</h3>

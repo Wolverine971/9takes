@@ -22,18 +22,14 @@
 		aria-current={$page.url.pathname === '/' ? 'page' : undefined}>Home</a
 	>
 	<div class="main-subnav" style="margin: {!isMobile && '1rem'}">
-		<!-- <button class="main-subnavbtn" style="background: {isMobile && 'white'};">
-			
-			
-		</button> -->
 		<button
-			class="main-subnavbtn {!isMobile && 'big-btn'} {!isMobile && 'subnavbtn'}"
+			class="main-subNavBtn {!isMobile && 'big-btn'} {!isMobile && 'subNavBtn'}"
 			style="background: {isMobile && 'white'}; border: {isMobile && 'none'};"
 			>Enneagram Blog<i class="fa fa-caret-down" /></button
 		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
 			<div class="subnav">
-				<button class="subnavbtn">Overview<i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Overview<i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<!-- <a href="#enneagram">Understanding the Enneagram</a> -->
 					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
@@ -45,7 +41,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">9 Types <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">9 Types <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content ">
 					<a href="/blog/enneagram/enneagram-type-1">Type 1: The Perfectionist</a>
 					<a href="/blog/enneagram/enneagram-type-2">Type 2: The Helper</a>
@@ -59,7 +55,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">Personal Development <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Personal Development <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-personality-test">Determining your type</a>
 					<a href="/blog/enneagram/enneagram-self-development">Self development</a>
@@ -68,7 +64,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">Relationships <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Relationships <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-types-in-relationships">Types in relationships</a>
 					<a href="/blog/enneagram/enneagram-communication-tips">Communication tips</a>
@@ -76,7 +72,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">Workplace <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Workplace <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-workplace-team-building">Team building</a>
 					<a href="/blog/enneagram/enneagram-types-working-in-teams">Working in teams</a>
@@ -85,7 +81,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">Resources <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Resources <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-faqs">FAQs</a>
 					<a href="/blog/enneagram/enneagram-books-websites-podcasts"
@@ -96,7 +92,7 @@
 				</div>
 			</div>
 			<div class="subnav">
-				<button class="subnavbtn">Situational Topics <i class="fa fa-caret-down" /></button>
+				<button class="subNavBtn">Situational Topics <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<a href="/blog/enneagram/enneagram-types-at-party">Types at a party</a>
 					<a href="/blog/enneagram/enneagram-types-being-ghosted">Impact of ghosting</a>
@@ -163,7 +159,7 @@
 		z-index: 1234;
 	}
 
-	.subnav .subnavbtn {
+	.subnav .subNavBtn {
 		font-size: 16px;
 		border: none;
 		outline: none;
@@ -178,7 +174,7 @@
 	}
 
 	.navbar-blogs a:hover,
-	.subnav:hover .subnavbtn {
+	.subnav:hover .subNavBtn {
 		background-color: var(--color-paladin-2);
 		z-index: 1234;
 	}
@@ -215,19 +211,13 @@
 		z-index: 1234;
 	}
 
-	.main-subnav .main-subnavbtn {
-		// font-size: 16px;
+	.main-subnav .main-subNavBtn {
 		display: flex;
 		align-items: center;
-		// border: none;
 		outline: none;
 		box-sizing: border-box;
 		color: var(--color-theme-purple);
 
-		// padding: 14px 16px;
-		// background-color: inherit;
-		// font-family: inherit;
-		// margin: 0;
 		z-index: 1234;
 		// float: left;
 		font-size: 16px;
@@ -239,7 +229,7 @@
 	}
 
 	.navbar-blogs a:hover,
-	.main-subnav:hover .main-subnavbtn {
+	.main-subnav:hover .main-subNavBtn {
 		z-index: 1234;
 	}
 

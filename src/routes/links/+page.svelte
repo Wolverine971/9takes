@@ -17,7 +17,7 @@
 			light: ''
 		}
 	};
-	const numberOfQRCodes = 10;
+	const numberOfQRCodes = 20;
 
 	onMount(() => {
 		for (let i = 0; i < numberOfQRCodes; i++) {
@@ -84,13 +84,14 @@
 		</div>
 	</div>
 
-	<!-- <LinkMap linkDrops={data?.linkDrops} /> -->
+	<LinkMap linkDrops={data?.linkDrops} />
 </div>
 
 <style lang="scss">
 	.wording {
 		border: var(--classic-border);
 		border-radius: 5px;
+		padding: 0 0.5rem 0;
 	}
 	fieldset {
 		// border: 10px solid transparent;
@@ -115,11 +116,7 @@
 		transform: rotate(-90deg);
 	}
 	legend {
-		// font: 15pt/0 'Averia Serif Libre';
 		font-weight: bolder;
-		// font-size: xx-large;
-		// margin: auto;
-		// padding: 0 4px;
 	}
 	fieldset:nth-of-type(3) > legend {
 		transform: rotate(180deg);

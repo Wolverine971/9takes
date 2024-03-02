@@ -39,13 +39,13 @@
 							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
 								{#if enneagram}
 									<img
-										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										loading="lazy"
 										fetchPriority="low"
 										class="grid-img"
 										height="218"
 										width="218"
 										title={slug.split('-').join(' ')}
+										srcset={`${`/types/${enneagram}s/s-${slug}.webp`} 218w,`}
 										src={`/types/${enneagram}s/s-${slug}.webp`}
 										alt={slug.split('-').join(' ')}
 									/>
@@ -157,7 +157,6 @@
 		margin-top: -4px;
 		margin-right: -4px;
 		color: var(--color-paladin-1, white);
-		font-family: courier, sans;
 	}
 	.grid-item {
 		margin-bottom: 0.5rem;
@@ -176,14 +175,7 @@
 		position: relative;
 		max-width: 262px;
 		width: 100%;
-		// background-color: #f2f8f9;
 		border-radius: 5px;
-		// padding: 16px 12px;
-		// margin: 6px;
-		// text-decoration: none;
-		// z-index: 0;
-		// overflow: hidden;
-		// border: 1px solid var(--color-theme-purple-v);
 		&:after {
 			background-color: var(--color-paladin-1, white);
 		}
@@ -283,13 +275,8 @@
 			font-size: 0.7rem;
 		}
 
-		.temp-three-row {
-			display: grid;
-			grid-template-columns: 30vw 30vw 30vw;
-		}
 		.people-grid-container {
 			display: grid;
-			grid-template-columns: 30vw;
 		}
 	}
 </style>

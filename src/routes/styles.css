@@ -1,5 +1,7 @@
 :root {
-	--font-family: 'Source Code Pro', monospace;
+	--font-family: 'GFS Didot', serif;
+	/* 'Source Code Pro', monospace; */
+
 	--font-body: var(--font-family);
 	--font-mono: 'Fira Mono', monospace;
 	--color-theme-dark-blue: #191970;

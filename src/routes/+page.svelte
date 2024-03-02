@@ -185,7 +185,7 @@
 		<div class="big-points flex-center">
 			<h2 style="">
 				9takes is designed to spark joy and to turn online questions into horizon broadening
-				experiences for those who use it. Here's how:
+				experiences for those who use it. <br />Here's how:
 			</h2>
 			<ul>
 				<li>

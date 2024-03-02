@@ -377,7 +377,7 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
-		font-family: 'Source Code Pro', monospace;
+		font-family: var(--font-family);
 		color: var(--color-paladin-1);
 		text-align: center;
 		text-transform: uppercase;

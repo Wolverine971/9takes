@@ -61,7 +61,6 @@
 		margin-top: -4px;
 		margin-right: -4px;
 		color: var(--color-paladin-1);
-		font-family: courier, sans;
 	}
 
 	.suggestion-link {

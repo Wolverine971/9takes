@@ -213,7 +213,7 @@
 		font-size: 1.5rem;
 		font-weight: 200;
 		margin: 1rem;
-		font-family: 'Source Code Pro', monospace;
+		font-family: var(--font-family);
 		color: var(--color-paladin-1);
 		text-shadow: 1px 1px 1px black;
 		// color: var(--color-paladin-1);
