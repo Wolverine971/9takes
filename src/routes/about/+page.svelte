@@ -22,7 +22,7 @@
 <svelte:window bind:innerWidth />
 
 <div class="main-div">
-	<h1 style="text-align: center;">Allow me to introduce myself</h1>
+	<h1>Allow me to introduce myself</h1>
 
 	<div>
 		<div
@@ -72,9 +72,8 @@
 				</picture>
 				<div>
 					<p style="margin-bottom: 0;">
-						I am a software engineer at a YC-backed logistics startup. I have taken what I have
-						learned working on logistics problems and have applied it to building a social
-						community.
+						I am a software engineer at a logistics startup. I am taking what I have learned working
+						on logistics problems and applying it to building something fresh.
 					</p>
 					<span>
 						<a
@@ -92,8 +91,8 @@
 
 		<h2>Why am I building 9takes?</h2>
 		<ul>
-			<li>social media sucks</li>
-			<li>people are divided</li>
+			<li>Social media feels fake and at times toxic</li>
+			<li>People are divided and afraid to express themselves</li>
 		</ul>
 		<h3 style="margin: 1.5rem 0">Why social media sucks:</h3>
 		<!-- <h1 style="text-decoration: underline; text-align: center">We need a redo on social media</h1> -->
