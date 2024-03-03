@@ -12,7 +12,7 @@
 	<div class="blog-grid-container">
 		{#each blogs?.community as cBlog}
 			<a
-				href="/blog/enneagram/{cBlog.slug}"
+				href="/blog/community/{cBlog.slug}"
 				class="grid-item inline-it"
 				style={cBlog.pic &&
 					`background-image: url(${`/blogs/s-${cBlog.pic}.webp`}); background-size: cover;`}
