@@ -131,7 +131,7 @@
 	}
 	.menu {
 		filter: url('#shadowed-goo');
-		z-index: 124321423;
+		z-index: 2;
 		display: flex;
 		justify-content: center;
 		height: 80px;

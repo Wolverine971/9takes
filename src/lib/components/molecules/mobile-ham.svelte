@@ -2,7 +2,6 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 
 	import { page } from '$app/stores';
-	import Context, { onClickOutside } from './Context.svelte';
 
 	let active = false;
 	let dropdownActive = false;
@@ -54,54 +53,61 @@
 						on:click={() => {
 							dropdownActive = !dropdownActive;
 						}}
-						class="blog-dropdown {dropdownActive ? 'is-active' : ''}"
+						class="blog-dropdown"
 						aria-haspopup="true"
 						aria-expanded={dropdownActive ? 'true' : 'false'}
 					>
-						<div class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}">
+						<div
+							class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+							style="text-align: start"
+						>
 							Blogs
 						</div>
-
-						<ul class="">
-							<li>
-								<a href="/blog/community" class="a-wrap">
-									<div class=" {$page.url.pathname === '/blog/community' ? 'active-link' : ''}">
-										9takes Inspiration
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="/blog/enneagram" class="a-wrap">
-									<div
-										class={$page.url.pathname === '/blog/enneagram' ? 'active-link' : ''}
-										style=""
-									>
-										Enneagram Blogs
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="/blog/famous-enneagram-types" class="a-wrap">
-									<div
-										class={$page.url.pathname === '/blog/famous-enneagram-types'
-											? 'active-link'
-											: ''}
-										style=""
-									>
-										Famous Enneagram Types
-									</div>
-								</a>
-							</li>
-
-							<li>
-								<a href="/blog/guides" class="a-wrap">
-									<div class={$page.url.pathname === '/blog/guides' ? 'active-link' : ''} style="">
-										Guides
-									</div>
-								</a>
-							</li>
-						</ul>
 					</button>
+
+					<ul class="dropdown {dropdownActive ? 'is-active' : ''}">
+						<li>
+							<a href="/blog/community" class="a-wrap">
+								<div
+									class={$page.url.pathname === '/blog/community' ? 'active-link' : ''}
+									style="text-align: start"
+								>
+									9takes Inspiration
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/blog/enneagram" class="a-wrap">
+								<div
+									class={$page.url.pathname === '/blog/enneagram' ? 'active-link' : ''}
+									style="text-align: start;"
+								>
+									Enneagram Blogs
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="/blog/famous-enneagram-types" class="a-wrap">
+								<div
+									class={$page.url.pathname === '/blog/famous-enneagram-types' ? 'active-link' : ''}
+									style="text-align: start"
+								>
+									Famous Enneagram Types
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a href="/blog/guides" class="a-wrap">
+								<div
+									class={$page.url.pathname === '/blog/guides' ? 'active-link' : ''}
+									style="text-align: start;"
+								>
+									Guides
+								</div>
+							</a>
+						</li>
+					</ul>
 				</li>
 				<li>
 					<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
@@ -310,17 +316,18 @@
 		box-shadow: none;
 	}
 
-	.blog-dropdown.is-active {
-		ul {
-			// visibility: visible;
-			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
-			justify-content: center;
-			height: auto !important;
-			max-height: none;
-			flex: 1;
-			transform: scaleY(1);
-		}
+	.dropdown {
+		display: none;
+	}
+
+	.is-active {
+		display: flex !important;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		height: auto !important;
+		max-height: none;
+		flex: 1;
+		transform: scaleY(1);
 	}
 </style>

@@ -52,7 +52,7 @@
 
 body {
 	margin: 0;
-	background-color: #f4f4ef;
+	background-color: #ffffea;
 	padding: 0;
 	line-height: 1.5;
 	font-size: 1rem;
@@ -364,7 +364,7 @@ th {
 
 textarea {
 	margin-bottom: 20px;
-	border: hsl(212deg 15% 48%) 2px solid;
+	border: hsl(212deg 15% 48%) 1px solid;
 	border-radius: 5px;
 	padding: 10px 20px;
 	width: 100%;
@@ -425,4 +425,24 @@ textarea {
 		flex: 1;
 		margin: 0;
 	}
+}
+
+.shimmer-button {
+	background-image: linear-gradient(
+		-60deg,
+		transparent 0%,
+		transparent 40%,
+		#ffffff44 40%,
+		#ffffff44 60%,
+		transparent 60%,
+		transparent 100%
+	);
+	background-size: 200% 100%;
+	background-repeat: no-repeat;
+	background-position-x: 150%;
+}
+
+.shimmer-button:hover {
+	background-position-x: -150%;
+	transition: background-position-x 1000ms;
 }

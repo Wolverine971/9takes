@@ -146,12 +146,12 @@ button:after {
 	height: 100%;
 	top: 0;
 	right: 0;
-	box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002,
-		4px 4px 5px 0px #0001;
+	// box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002,
+	// 	4px 4px 5px 0px #0001;
 	transition: all 0.3s ease;
 }
 button:hover {
-	border: none;
+	// border: none;
 }
 button:hover:after {
 	left: 0;
@@ -218,14 +218,14 @@ button:hover:after {
 
 input {
 	margin-bottom: 20px;
-	border: var(--gray) 2px solid;
+	border: var(--gray) 1px solid;
 	border-radius: 5px;
 	padding: 10px 20px;
 	color: var(--dark-100);
 	font-size: 16px;
 
 	&:focus {
-		outline: var(--primary-300) 2px solid;
+		outline: var(--primary-300) 1px solid;
 	}
 }
 
@@ -234,7 +234,7 @@ select {
 	font-size: 16px;
 
 	&:focus {
-		outline: var(--primary-300) 2px solid;
+		outline: var(--primary-300) 1px solid;
 	}
 }
 
@@ -520,4 +520,24 @@ section {
 
 ::-webkit-scrollbar-thumb:hover {
 	background: var(--color-paladin-4);
+}
+
+.shimmer-button {
+	background-image: linear-gradient(
+		-60deg,
+		transparent 0%,
+		transparent 40%,
+		#a89e9e1f 40%,
+		#a89e9e1f 60%,
+		transparent 60%,
+		transparent 100%
+	);
+	background-size: 200% 100%;
+	background-repeat: no-repeat;
+	background-position-x: 150%;
+}
+
+.shimmer-button:hover {
+	background-position-x: -150%;
+	transition: background-position-x 1000ms;
 }

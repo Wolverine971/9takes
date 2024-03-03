@@ -73,7 +73,7 @@
 				{#if category}
 					<a
 						href={`/questions/categories/${category?.tag_name.split(' ').join('-')}`}
-						class="tag"
+						class="tag shimmer-button"
 						data-sveltekit-preload-data="tap"
 						>{category?.tag_name}
 					</a>

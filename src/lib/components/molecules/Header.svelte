@@ -87,7 +87,7 @@
 				class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}"
 				aria-label="Main Navigation"
 			>
-				<MobileHam {data} />
+				<MobileHam />
 
 				<a href="/" class="brand" aria-labelledby="nineTakesBrandLogo">
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
@@ -377,7 +377,7 @@
 					</div>
 					<!-- not yet ready to allow registration and login -->
 				{:else if $page.url.pathname !== '/'}
-					<div class=" right login">
+					<div class="right login">
 						<button
 							type="button"
 							on:click={() => {
@@ -477,7 +477,7 @@
 		}
 
 		.a-wrap:hover .nav-element1-h {
-			transform: translateX(-100%);
+			transform: translateX(-150%);
 		}
 
 		.a-wrap:hover .nav-element2-h {

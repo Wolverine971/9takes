@@ -14,7 +14,11 @@
 <svelte:window bind:innerWidth />
 
 <div style="display: flex; justify-content: center; align-items: center;">
-	<a href="/questions/{questionData.url}" class="question-card" data-sveltekit-preload-data="tap">
+	<a
+		href="/questions/{questionData.url}"
+		class="question-card shimmer-button"
+		data-sveltekit-preload-data="tap"
+	>
 		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 			{questionData.question_formatted || questionData.question}
 		</p>
