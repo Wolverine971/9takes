@@ -506,7 +506,7 @@
 	}
 
 	.slides::-webkit-scrollbar-thumb {
-		background-color: black;
+		background-color: var(--black);
 		border-radius: 5px;
 	}
 

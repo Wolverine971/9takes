@@ -319,7 +319,7 @@
 <style lang="scss">
 	.combobox {
 		--accent-color: #06113c;
-		--background-color: var(--color-paladin-1, white);
+		--background-color: var(--color-paladin-1, var(--white));
 		--border-radius: 1em;
 
 		--option-border: ;
@@ -412,12 +412,12 @@
 	.list__option:active {
 		cursor: pointer;
 		outline: none;
-		color: var(--color-paladin-1, white);
+		color: var(--color-paladin-1, var(--white));
 		background-color: var(--accent-color) !important;
 	}
 
 	.list__option:focus :global(svg),
 	.list__option:hover :global(svg) {
-		--icon-color: var(--color-paladin-1, white) !important;
+		--icon-color: var(--color-paladin-1, var(--white)) !important;
 	}
 </style>

@@ -51,7 +51,7 @@
 		font-size: 0.8em;
 		width: 2.4em;
 		height: 2.4em;
-		background-color: var(--color-paladin-1, white);
+		background-color: var(--color-paladin-1, var(--white));
 		box-sizing: border-box;
 		border-radius: 2px;
 		border-width: 2px;
@@ -70,7 +70,7 @@
 
 	.exact {
 		background: var(--color-theme-pink);
-		color: var(--color-paladin-1, white);
+		color: var(--color-paladin-1, var(--white));
 	}
 
 	.example {

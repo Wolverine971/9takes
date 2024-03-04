@@ -565,7 +565,7 @@
 
 					a {
 						text-decoration: none;
-						color: black;
+						color: var(--black);
 						font-size: 12px;
 					}
 				}

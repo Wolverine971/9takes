@@ -272,7 +272,7 @@
 	}
 
 	#blob {
-		background-color: var(--color-paladin-1, white);
+		background-color: var(--color-paladin-1, var(--white));
 		height: 34vmax;
 		aspect-ratio: 1;
 		position: absolute;

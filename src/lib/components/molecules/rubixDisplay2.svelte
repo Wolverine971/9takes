@@ -428,7 +428,7 @@ url({`/types/${type}s/${person}.webp`}) -->
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		border: solid black 0.1rem;
+		border: solid var(--black) 0.1rem;
 		border-radius: 1vmin;
 
 		-webkit-animation: grow 1s; /* Safari 4.0 - 8.0 */

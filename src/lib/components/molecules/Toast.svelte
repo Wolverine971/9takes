@@ -50,7 +50,7 @@
 	.content {
 		padding: 10px;
 		display: block;
-		color: var(--color-paladin-1, white);
+		color: var(--color-paladin-1, var(--white));
 		font-weight: 500;
 	}
 </style>

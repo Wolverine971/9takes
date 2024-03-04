@@ -96,7 +96,7 @@
 	fieldset {
 		// border: 10px solid transparent;
 		border: 5px solid transparent;
-		border-top-color: black;
+		border-top-color: var(--black);
 		box-sizing: border-box;
 		grid-area: 1 / 1;
 		padding: 20px;

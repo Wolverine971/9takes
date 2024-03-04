@@ -105,7 +105,9 @@
 		<h2>Question subscriptions</h2>
 		{#each data.subscriptions as subscription}
 			<div class="row" style="justify-content: flex-start;">
-				<a href="/questions/{subscription.questions.url}">{subscription.questions.question}</a>
+				<a href="/questions/{subscription.questions.url}"
+					>{subscription.questions.question_formatted || subscription.questions.question}</a
+				>
 			</div>
 		{/each}
 	</div>

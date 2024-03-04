@@ -215,7 +215,7 @@
 		margin: 1rem;
 		font-family: var(--font-family);
 		color: var(--color-paladin-1);
-		text-shadow: 1px 1px 1px black;
+		text-shadow: 1px 1px 1px var(--black);
 		// color: var(--color-paladin-1);
 		text-align: center;
 		text-transform: uppercase;

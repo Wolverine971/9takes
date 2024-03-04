@@ -21,7 +21,7 @@ export const load: PageServerLoad = async (event) => {
 		.select(
 			`*,
 			${demo_time === true ? 'questions_demo' : 'questions'}
-		(id, question, url)`
+		(id, question, question_formatted, url)`
 		)
 		.eq('user_id', user?.id);
 

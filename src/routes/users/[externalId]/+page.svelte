@@ -19,37 +19,31 @@
 </script>
 
 <div class="glass-card pretty-div">
-	<div class="row">
-		<h1 style="">User Enneagram: {data?.user.enneagram}</h1>
-	</div>
+	<h1 style="">User: Enneagram {data?.user.enneagram}</h1>
 
 	{#if data.subscriptions?.length}
-		<div>
-			<h2>User's Answered Question</h2>
+		<h2>User's Answered Question</h2>
 
-			{#each data.subscriptions as subscription}
-				<div class="row" style="justify-content: flex-start;">
-					<a href="/questions/{subscription.questions.url}">{subscription.questions.question}</a>
-				</div>
-			{/each}
-		</div>
+		{#each data.subscriptions as subscription}
+			<div class="row" style="justify-content: flex-start;">
+				<a href="/questions/{subscription.questions.url}"
+					>{subscription.questions.question_formatted || subscription.questions.question}</a
+				>
+			</div>
+		{/each}
 	{/if}
 
 	{#if data.comments?.length}
-		<div>
-			<h2>User's Comments</h2>
+		<h2>User's Comments</h2>
 
-			{#each data.comments as comment}
-				<div class="row" style="justify-content: flex-start;">
-					<div>
-						<a href="/questions/{comment.url}"
-							>Q: {comment.question_formatted || comment.question}</a
-						>
-						<p>A: {comment.comment}</p>
-					</div>
+		{#each data.comments as comment}
+			<div class="row" style="justify-content: flex-start;">
+				<div>
+					<a href="/questions/{comment.url}">Q: {comment.question_formatted || comment.question}</a>
+					<p>A: {comment.comment}</p>
 				</div>
-			{/each}
-		</div>
+			</div>
+		{/each}
 	{/if}
 </div>
 

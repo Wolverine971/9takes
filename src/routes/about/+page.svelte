@@ -293,9 +293,9 @@
 		padding: 0.5rem;
 		background-image: linear-gradient(
 			to right,
-			black,
+			var(--black),
 			var(--color-theme-purple) 200px,
-			black 800px
+			var(--black) 800px
 		);
 		border-radius: 10px;
 		color: white;

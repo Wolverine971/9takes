@@ -26,7 +26,7 @@ export const load: PageServerLoad = async (event) => {
 		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(
 			`*,
-		${demo_time === true ? 'questions_demo' : 'questions'}(id, question, url)`
+		${demo_time === true ? 'questions_demo' : 'questions'}(id, question, question_formatted, url)`
 		)
 		.eq('user_id', user?.id);
 

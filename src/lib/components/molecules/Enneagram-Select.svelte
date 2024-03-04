@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Enneagram from '$lib/components/icons/enneagram.svelte';
 	import { createEventDispatcher } from 'svelte';
+	import Context, { onClickOutside } from './Context.svelte';
 	const dispatch = createEventDispatcher();
 	export let selectedEnneagram: number | string | null = null;
 
@@ -15,78 +16,88 @@
 	};
 </script>
 
-<nav class="menu">
-	<input type="checkbox" class="menu-open menu-open-button" name="menu-open" id="menu-open" />
-	<label class="menu-open-button enneagram-btn" for="menu-open">
-		<!-- <span class="hamburger hamburger-1" />
+<Context>
+	<nav
+		class="menu"
+		use:onClickOutside={() => {
+			let checkbox = document.getElementById('menu-open');
+			if (checkbox) {
+				checkbox.checked = false;
+			}
+		}}
+	>
+		<input type="checkbox" class="menu-open menu-open-button" name="menu-open" id="menu-open" />
+		<label class="menu-open-button enneagram-btn" for="menu-open">
+			<!-- <span class="hamburger hamburger-1" />
 		<span class="hamburger hamburger-2" />
 		<span class="hamburger hamburger-3" /> -->
-		<!-- <enneagram /> -->
+			<!-- <enneagram /> -->
 
-		{#if selectedEnneagram}
-			{selectedEnneagram}
-		{:else}
-			<Enneagram height={'3rem'} fill={''} />
-		{/if}
-		<!-- Enneagram {selectedEnneagram ? selectedEnneagram : ''} -->
-	</label>
+			{#if selectedEnneagram}
+				{selectedEnneagram}
+			{:else}
+				<Enneagram height={'3rem'} fill={''} />
+			{/if}
+			<!-- Enneagram {selectedEnneagram ? selectedEnneagram : ''} -->
+		</label>
 
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(2);
-		}}
-		>2
-	</button>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(3);
-		}}>3</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(4);
-		}}>4</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(5);
-		}}>5</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(6);
-		}}>6</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(7);
-		}}>7</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(8);
-		}}>8</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(9);
-		}}>9</button
-	>
-	<button
-		class="menu-item"
-		on:click={() => {
-			selected(1);
-		}}>1</button
-	>
-</nav>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(2);
+			}}
+			>2
+		</button>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(3);
+			}}>3</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(4);
+			}}>4</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(5);
+			}}>5</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(6);
+			}}>6</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(7);
+			}}>7</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(8);
+			}}>8</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(9);
+			}}>9</button
+		>
+		<button
+			class="menu-item"
+			on:click={() => {
+				selected(1);
+			}}>1</button
+		>
+	</nav>
+</Context>
 
 <!-- filters -->
 
@@ -139,7 +150,7 @@
 
 	.menu-item,
 	.menu-open-button {
-		background-color: black;
+		background-color: var(--black);
 		border-radius: 100%;
 		cursor: pointer;
 		width: 80px;
@@ -160,7 +171,7 @@
 	.hamburger {
 		width: 25px;
 		height: 3px;
-		background-color: var(--color-paladin-1, white);
+		background-color: var(--color-paladin-1, var(--white));
 		display: block;
 		position: absolute;
 		top: 50%;
@@ -204,8 +215,8 @@
 
 	.menu-item:hover {
 		background-color: rgb(190, 38, 215);
-		color: black;
-		border: 1px solid black;
+		color: var(--black);
+		border: 1px solid var(--black);
 	}
 
 	.menu-open-button {

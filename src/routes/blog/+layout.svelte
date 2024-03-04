@@ -30,7 +30,7 @@
 		font-size: 3.25rem;
 		font-weight: 400;
 		margin: 1rem;
-		color: var(--color-paladin-1, white);
+		color: var(--color-paladin-1, var(--white));
 		text-align: center;
 		text-transform: uppercase;
 	}
