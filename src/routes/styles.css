@@ -36,6 +36,8 @@
 	--white: #30303030;
 	--black: #303030;
 
+	--body-color: #30303030;
+
 	color: var(--color-text);
 	font-family: var(--font-family);
 }
@@ -55,7 +57,7 @@
 
 body {
 	margin: 0;
-	background-color: #30303030;
+	background-color: var(--body-color);
 
 	/* #d5b7a72e; */
 	/* #fff4ea; */

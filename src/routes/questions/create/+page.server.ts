@@ -42,7 +42,7 @@ export const actions: Actions = {
 				return tempUrl;
 			}
 			const response = await elasticClient.search(
-				typeaheadQuery({ index: question, field: 'url', text: tempUrl, size: 200 })
+				typeaheadQuery({ index: 'question', field: 'url', text: tempUrl, size: 200 })
 			);
 			if (response.hits.hits.length) {
 				return `${tempUrl}-${response.hits.hits.length}`;

@@ -197,15 +197,15 @@
 
 		const result: any = deserialize(await resp.text());
 
-		if (result?.success) {
+		if (result?.type === 'success') {
 			notifications.info('Comment Flagged', 3000);
 			flaggingReasonDescription = '';
-			getModal(`flag-comment-modal-${_commentComment.id}`).close();
 		} else {
 			notifications.danger('Error flagging comment', 3000);
 			console.log(result.error);
 		}
 		loading = false;
+		getModal(`flag-comment-modal-${_commentComment.id}`).close();
 	};
 </script>
 

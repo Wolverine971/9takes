@@ -254,7 +254,7 @@
 	</p>
 
 	<div class="email-section">
-		<h3>Email me</h3>
+		<h3>Message me 👀</h3>
 		<p>Got feedback or suggestions? Let me know!</p>
 		<p>
 			{#if !showEmail}
