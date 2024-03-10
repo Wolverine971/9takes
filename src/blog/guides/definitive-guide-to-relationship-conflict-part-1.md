@@ -147,6 +147,8 @@ Relationship conflict is inevitable, but it doesn't have to be destructive. By u
 
 I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding Conflict.
 
+<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-2" >Part 2 ➡️</a>
+
 ### Footnotes/ References
 
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/5-steps-to-fight-better-if-your-relationship-is-worth-fighting-for/" >5 Steps to Fight Better if Your Relationship is Worth Fighting For</a>

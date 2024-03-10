@@ -20,6 +20,9 @@ internal and external conflict
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
+<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >⬅️ Part 1</a>
+
+
 ## Common Questions
 
 ### What is Healthy Conflict in a Relationship?
