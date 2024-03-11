@@ -11,38 +11,38 @@ published: true
 type: ['overview']
 blog: true
 previewHtml:
-pic: ''
+pic: 'giving-a-speech'
 ---
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram is awesome, unique, mysterious and old. I have found it useful in my own life, but sharing its insights requires careful consideration.</p>
+<p class="firstLetter">The Enneagram is awesome, unique, mysterious, and old. I have found it helpful in my own life, but sharing its insights requires careful consideration.</p>
 
-<!-- <div
+<div
     style="display: flex;
     justify-content: center;
 margin: 1rem 0;"
 >
  <PopCard
-        image={`/blogs/greek-mind.webp`}
+        image={`/blogs/giving-a-speech.webp`}
         showIcon={false}
         tint={false}
         displayText=""
-        altText="greek mind 🧠"
+        altText="a greek statue explaining the Enneagram"
         subtext=""
     />
-</div> -->
-Here are somethings to watchout for and think about before you go and try to explain the Enneagram to someone else.
+</div>
+Here are some things to watch out for and think about before you try to explain the Enneagram to someone else.
 
 ## Not Everyone Appreciates Being Psychoanalyzed or Labeled
 
 Labeling or analyzing someone without their consent can feel invasive. When we excitedly share how the Enneagram has altered our perception, it's crucial to remember not everyone wants to be seen through that lens.
 
-Imagine mentioning to a friend that they seem like a <a href="/blog/enneagram/enneagram-type-2">Type 2</a> because they're always helping others, only for them to respond coldly. They might not appreciate being categorized, especially without understanding the Enneagram's depth. It's a reminder that personal growth journeys are deeply individual.
+Imagine mentioning to a friend that they seem like a <a href="/blog/enneagram/enneagram-type-2">Type 2</a> because they're always helping others, only for them to respond coldly. They might not appreciate being categorized, especially without understanding the depth of Enneagram. It's a reminder that personal growth journeys are deeply individual.
 
-**Tip**: Begin conversations by sharing your personal experience with the Enneagram in a way that focuses on your journey, rather than attempting to analyze or label the listener. This approach invites curiosity without making the other person feel judged or categorized.
+**Tip**: Begin conversations by sharing your personal experience with the Enneagram in a way that focuses on your journey rather than attempting to analyze or label the listener. This approach invites curiosity without making the other person feel judged or categorized.
 
 Respect boundaries. Recognize that personal discovery is a path walked by choice, not by persuasion.
 
@@ -54,7 +54,7 @@ Consider a scenario where you're explaining the Enneagram's intricacies to a fri
 
 **Tip**: Foster a mutual exchange of ideas by asking questions and showing genuine interest in the other person's views and experiences. This creates an environment of mutual learning rather than a teacher-student dynamic.
 
-Engage, don't lecture. Dialogue fosters mutual exploration, rather than imposing a one-sided view.
+Engage, don't lecture. Dialogue fosters mutual exploration rather than imposing a one-sided view.
 
 ## The Complexity of the Enneagram Can Be Overwhelming
 
@@ -62,7 +62,7 @@ Explaining the Enneagram's nuances in one sitting is ambitious. Its complexity i
 
 You've likely spent hours, if not days, piecing together your understanding of the Enneagram. Expecting someone to grasp its full spectrum immediately is unrealistic. Bombarding someone with information can lead to confusion rather than enlightenment.
 
-**Tip**: Introduce the Enneagram by highlighting one or two key insights that personally impacted you, rather than trying to cover its entire framework. Encourage the person to explore further on their own if they express interest, and recommend resources that eased your own learning process.
+**Tip**: Introduce the Enneagram by highlighting one or two key insights that personally impacted you rather than trying to cover its entire framework. Encourage the person to explore further on their own if they express interest, and recommend resources that ease your own learning process.
 
 Simplify and intrigue. Offer a glimpse into the Enneagram's insights, inviting curiosity rather than overwhelming with details.
 
@@ -72,7 +72,7 @@ Interest in the Enneagram must be self-driven. Pressuring someone to explore it 
 
 Recall your journey to discovering the Enneagram—it was likely driven by a personal quest for understanding, not someone else's urging. Allowing others the space to find their way to it, if they choose, respects their autonomy in personal growth.
 
-**Tip**: Share resources like books, websites, or podcasts that helped you understand the Enneagram better, rather than pushing for immediate interest or understanding. This allows the other person to explore at their own pace and based on their own curiosity.
+**Tip**: Share resources like books, websites, or podcasts that helped you understand the Enneagram better rather than pushing for immediate interest or understanding. This allows the other person to explore at their own pace and based on their own curiosity.
 
 Encourage, don't coerce. Inspire interest through your experience, not insistence.
 
