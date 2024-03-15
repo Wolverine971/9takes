@@ -17,7 +17,16 @@ instagram: 'https://www.instagram.com/arianagrande/'
 tiktok: 'https://www.tiktok.com/@arianagrande'
 ---
 
-<!-- // notes: where is Ariana Grande from, why she left the voice, when was she born, how she became famous, ariana grande no makeup, mac miller, taylor swift, age networth, height, husband, songs, cloud perfume, perfume -->
+<!-- // notes: where is Ariana Grande from, why she left the voice, when was she born, how she became famous, ariana grande no makeup, mac miller, taylor swift, age networth, height, husband, songs, cloud perfume, perfume 
+
+when she sees a guy who loves his girl she takes that as a challenge and needs to prove that she is better than the other girl
+
+https://www.youtube.com/watch?v=MP29J_R-TLw
+
+Ariana switches up on people
+
+i want it i got it
+-->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

@@ -425,7 +425,7 @@
 			on:click={createComment}
 			disabled={newcomment?.length < 1}
 		>
-			Send it
+			Submit
 			{#if loading}
 				<div class="loader" />
 			{:else if newcomment?.length > 1}

@@ -164,3 +164,16 @@ create email system
 https://www.youtube.com/watch?v=H9g4pzcz6Tk
 
 https://www.fiverr.com/akadil_b/do-book-formatting-and-design-layout-for-print-ebook-kdp-and-more?context_referrer=search_gigs_with_modalities&source=top-bar&ref_ctx_id=b51e46d7828b48a089f39bc541364a74&pckg_id=1&pos=1&ad_key=954d0e62-c631-4176-b166-2825bbef0980&context_type=auto&funnel=b51e46d7828b48a089f39bc541364a74&seller_online=true&imp_id=162ce97f-0650-4f01-bf62-a51dd36449ea
+
+
+
+9takes- search engine for people's opinions
+
+https://youtu.be/pIYVY0op0MQ?si=ZLz78EELLXZEzqIm&t=2084
+
+writing rhythm cadence
+
+1 3 1
+
+This did not go how I thought it would go
+This Did Not Go How I Thought It Would
