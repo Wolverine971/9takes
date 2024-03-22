@@ -24,15 +24,20 @@
 	};
 </script>
 
-<div style="align-items: inherit;">
-	<PeopleBlogPageHead data={data.metadata} />
-	<ArticleTitle title={data.metadata.title} />
-	<!-- <ArticleDescription description={data.metadata.description} /> -->
-	<ArticleSubTitle metaData={data.metadata} />
-</div>
-<section itemscope itemtype="https://schema.org/BlogPosting" style="margin-top: 0; padding-top: 0;">
+<article
+	itemscope
+	itemtype="https://schema.org/BlogPosting"
+	style="margin-top: 0; padding-top: 0;"
+	class="blog"
+>
+	<div style="align-items: inherit;">
+		<PeopleBlogPageHead data={data.metadata} />
+		<ArticleTitle title={data.metadata.title} />
+		<!-- <ArticleDescription description={data.metadata.description} /> -->
+		<ArticleSubTitle metaData={data.metadata} />
+	</div>
 	<svelte:component this={component} />
-</section>
+</article>
 <hr style="margin: 5rem;" />
 <h3 title="Comments">What was missed? Do you disagree? Give us your thoughts. 🙏</h3>
 <div>

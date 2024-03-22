@@ -454,3 +454,10 @@ textarea {
 	background-position-x: -150%;
 	transition: background-position-x 1000ms;
 }
+
+.blog > h2,
+.blog > h3,
+.blog > h4 {
+	margin: 1.5rem 0 0 !important;
+	padding: 1.5rem 0 0 !important;
+}
