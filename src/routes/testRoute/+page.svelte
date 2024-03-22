@@ -32,10 +32,10 @@
 	<div class="header">
 		<!-- <div class="menu-circle" /> -->
 		<div class="header-menu">
-			<a class="menu-link is-active" href="#">Apps</a>
-			<a class="menu-link notify" href="#">Your work</a>
-			<a class="menu-link" href="#">Discover</a>
-			<a class="menu-link notify" href="#">Market</a>
+			<a class="menu-link is-active" href="#yerp">Apps</a>
+			<a class="menu-link notify" href="#yerp">Your work</a>
+			<a class="menu-link" href="#yerp">Discover</a>
+			<a class="menu-link notify" href="#yerp">Market</a>
 		</div>
 		<div class="search-bar">
 			<input type="text" placeholder="Search" />
@@ -72,7 +72,7 @@
 			<div class="side-wrapper">
 				<div class="side-title">Apps</div>
 				<div class="side-menu">
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512">
 							<g xmlns="http://www.w3.org/2000/svg" fill="currentColor">
 								<path
@@ -95,7 +95,7 @@
 						</svg>
 						All Apps
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 488.932 488.932" fill="currentColor">
 							<path
 								d="M243.158 61.361v-57.6c0-3.2 4-4.9 6.7-2.9l118.4 87c2 1.5 2 4.4 0 5.9l-118.4 87c-2.7 2-6.7.2-6.7-2.9v-57.5c-87.8 1.4-158.1 76-152.1 165.4 5.1 76.8 67.7 139.1 144.5 144 81.4 5.2 150.6-53 163-129.9 2.3-14.3 14.7-24.7 29.2-24.7 17.9 0 31.8 15.9 29 33.5-17.4 109.7-118.5 192-235.7 178.9-98-11-176.7-89.4-187.8-187.4-14.7-128.2 84.9-237.4 209.9-238.8z"
@@ -109,7 +109,7 @@
 			<div class="side-wrapper">
 				<div class="side-title">Categories</div>
 				<div class="side-menu">
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 488.455 488.455" fill="currentColor">
 							<path
 								d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0"
@@ -120,7 +120,7 @@
 						</svg>
 						Photography
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<circle
 								cx="295.099"
@@ -134,7 +134,7 @@
 						</svg>
 						Graphic Design
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 58 58" fill="currentColor">
 							<path
 								d="M57 6H1a1 1 0 00-1 1v44a1 1 0 001 1h56a1 1 0 001-1V7a1 1 0 00-1-1zM10 50H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2V8h8v9zm26.537 12.844l-11 7a1.007 1.007 0 01-1.018.033A1.001 1.001 0 0124 36V22a1.001 1.001 0 011.538-.844l11 7a1.003 1.003 0 01-.001 1.688zM56 50h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8V8h8v9z"
@@ -142,7 +142,7 @@
 						</svg>
 						Video
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M499.377 46.402c-8.014-8.006-18.662-12.485-29.985-12.613a41.13 41.13 0 00-.496-.003c-11.142 0-21.698 4.229-29.771 11.945L198.872 275.458c25.716 6.555 47.683 23.057 62.044 47.196a113.544 113.544 0 0110.453 23.179L500.06 106.661C507.759 98.604 512 88.031 512 76.89c0-11.507-4.478-22.33-12.623-30.488zM176.588 302.344a86.035 86.035 0 00-3.626-.076c-20.273 0-40.381 7.05-56.784 18.851-19.772 14.225-27.656 34.656-42.174 53.27C55.8 397.728 27.795 409.14 0 416.923c16.187 42.781 76.32 60.297 115.752 61.24 1.416.034 2.839.051 4.273.051 44.646 0 97.233-16.594 118.755-60.522 23.628-48.224-5.496-112.975-62.192-115.348z"
@@ -150,7 +150,7 @@
 						</svg>
 						Illustrations
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M497 151H316c-8.401 0-15 6.599-15 15v300c0 8.401 6.599 15 15 15h181c8.401 0 15-6.599 15-15V166c0-8.401-6.599-15-15-15zm-76 270h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15zm0-180h-30c-8.401 0-15-6.599-15-15s6.599-15 15-15h30c8.401 0 15 6.599 15 15s-6.599 15-15 15z"
@@ -161,7 +161,7 @@
 						</svg>
 						UI/UX
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M0 331v112.295a14.996 14.996 0 007.559 13.023L106 512V391L0 331zM136 391v121l105-60V331zM271 331v121l105 60V391zM406 391v121l98.441-55.682A14.995 14.995 0 00512 443.296V331l-106 60zM391 241l-115.754 57.876L391 365.026l116.754-66.15zM262.709 1.583a15.006 15.006 0 00-13.418 0L140.246 57.876 256 124.026l115.754-66.151L262.709 1.583zM136 90v124.955l105 52.5V150zM121 241L4.246 298.876 121 365.026l115.754-66.15zM271 150v117.455l105-52.5V90z"
@@ -174,7 +174,7 @@
 			<div class="side-wrapper">
 				<div class="side-title">Fonts</div>
 				<div class="side-menu">
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 332 332" fill="currentColor">
 							<path
 								d="M282.341 8.283C275.765 2.705 266.211 0 253.103 0c-18.951 0-36.359 5.634-51.756 16.743-14.972 10.794-29.274 28.637-42.482 53.028-4.358 7.993-7.428 11.041-8.973 12.179h-26.255c-10.84 0-19.626 8.786-19.626 19.626 0 8.989 6.077 16.486 14.323 18.809l-.05.165h.589c1.531.385 3.109.651 4.757.651h18.833l-32.688 128.001c-7.208 27.848-10.323 37.782-11.666 41.24-1.445 3.711-3.266 7.062-5.542 10.135-.42-5.39-2.637-10.143-6.508-13.854-4.264-4.079-10.109-6.136-17.364-6.136-8.227 0-15.08 2.433-20.37 7.229-5.416 4.93-8.283 11.193-8.283 18.134 0 5.157 1.701 12.712 9.828 19.348 6.139 4.97 14.845 7.382 26.621 7.382 17.096 0 32.541-4.568 45.891-13.577 13.112-8.845 24.612-22.489 34.166-40.522 9.391-17.678 18.696-45.124 28.427-83.9l18.598-73.479h30.016c10.841 0 19.625-8.785 19.625-19.625s-8.784-19.626-19.625-19.626h-19.628c6.34-21.62 14.175-37.948 23.443-48.578 2.284-2.695 5.246-5.692 8.412-7.678-1.543 3.392-2.325 6.767-2.325 10.055 0 6.164 2.409 11.714 6.909 16.03 4.484 4.336 10.167 6.54 16.888 6.54 7.085 0 13.373-2.667 18.17-7.716 4.76-5.005 7.185-11.633 7.185-19.703.017-9.079-3.554-16.899-10.302-22.618z"
@@ -187,7 +187,7 @@
 			<div class="side-wrapper">
 				<div class="side-title">Resource Links</div>
 				<div class="side-menu">
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M467 0H45C20.186 0 0 20.186 0 45v422c0 24.814 20.186 45 45 45h422c24.814 0 45-20.186 45-45V45c0-24.814-20.186-45-45-45zM181 241c41.353 0 75 33.647 75 75s-33.647 75-75 75-75-33.647-75-75c0-8.291 6.709-15 15-15s15 6.709 15 15c0 24.814 20.186 45 45 45s45-20.186 45-45-20.186-45-45-45c-41.353 0-75-33.647-75-75s33.647-75 75-75 75 33.647 75 75c0 8.291-6.709 15-15 15s-15-6.709-15-15c0-24.814-20.186-45-45-45s-45 20.186-45 45 20.186 45 45 45zm180 120h30c8.291 0 15 6.709 15 15s-6.709 15-15 15h-30c-24.814 0-45-20.186-45-45V211h-15c-8.291 0-15-6.709-15-15s6.709-15 15-15h15v-45c0-8.291 6.709-15 15-15s15 6.709 15 15v45h45c8.291 0 15 6.709 15 15s-6.709 15-15 15h-45v135c0 8.276 6.724 15 15 15z"
@@ -195,7 +195,7 @@
 						</svg>
 						Stock
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 511.441 511.441" fill="currentColor">
 							<path
 								d="M255.721 347.484L90.22 266.751v106.57l165.51 73.503 165.509-73.503V266.742z"
@@ -206,7 +206,7 @@
 						</svg>
 						Tutorials
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path d="M196 151h-75v90h75c24.814 0 45-20.186 45-45s-20.186-45-45-45z" />
 							<path
@@ -215,7 +215,7 @@
 						</svg>
 						Portfolio
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M181 181h-60v60h60c16.54 0 30-13.46 30-30s-13.46-30-30-30zm0 0M181 271h-60v60h60c16.54 0 30-13.46 30-30s-13.46-30-30-30zm0 0M346 241c-19.555 0-36.238 12.54-42.438 30h84.875c-6.199-17.46-22.882-30-42.437-30zm0 0"
@@ -226,7 +226,7 @@
 						</svg>
 						Behance
 					</a>
-					<a href="#">
+					<a href="#yerp">
 						<svg viewBox="0 0 512 512" fill="currentColor">
 							<path
 								d="M352 0H64C28.704 0 0 28.704 0 64v320a16.02 16.02 0 009.216 14.496A16.232 16.232 0 0016 400c3.68 0 7.328-1.248 10.24-3.712L117.792 320H352c35.296 0 64-28.704 64-64V64c0-35.296-28.704-64-64-64z"
@@ -242,11 +242,11 @@
 		</div>
 		<div class="main-container">
 			<div class="main-header">
-				<a class="menu-link-main" href="#">All Apps</a>
+				<a class="menu-link-main" href="#yerp">All Apps</a>
 				<div class="header-menu">
-					<a class="main-header-link is-active" href="#">Desktop</a>
-					<a class="main-header-link" href="#">Mobile</a>
-					<a class="main-header-link" href="#">Web</a>
+					<a class="main-header-link is-active" href="#yerp">Desktop</a>
+					<a class="main-header-link" href="#yerp">Mobile</a>
+					<a class="main-header-link" href="#yerp">Web</a>
 				</div>
 			</div>
 			<div class="content-wrapper">
@@ -334,9 +334,9 @@
 								<div class="menu">
 									<button class="dropdown">
 										<ul>
-											<li><a href="#">Go to Discover</a></li>
-											<li><a href="#">Learn more</a></li>
-											<li><a href="#">Uninstall</a></li>
+											<li><a href="#yerp">Go to Discover</a></li>
+											<li><a href="#yerp">Learn more</a></li>
+											<li><a href="#yerp">Uninstall</a></li>
 										</ul>
 									</button>
 								</div>
@@ -386,7 +386,7 @@
 									</div>
 									<div class="pop-up__subtitle">
 										Adjust your selections for advanced options as desired before continuing. <a
-											href="#">Learn more</a
+											href="#yerp">Learn more</a
 										>
 									</div>
 									<div class="checkbox-wrapper">
@@ -405,9 +405,9 @@
 								<div class="menu">
 									<button class="dropdown">
 										<ul>
-											<li><a href="#">Go to Discover</a></li>
-											<li><a href="#">Learn more</a></li>
-											<li><a href="#">Uninstall</a></li>
+											<li><a href="#yerp">Go to Discover</a></li>
+											<li><a href="#yerp">Learn more</a></li>
+											<li><a href="#yerp">Uninstall</a></li>
 										</ul>
 									</button>
 								</div>
@@ -440,9 +440,9 @@
 								<div class="menu">
 									<button class="dropdown">
 										<ul>
-											<li><a href="#">Go to Discover</a></li>
-											<li><a href="#">Learn more</a></li>
-											<li><a href="#">Uninstall</a></li>
+											<li><a href="#yerp">Go to Discover</a></li>
+											<li><a href="#yerp">Learn more</a></li>
+											<li><a href="#yerp">Uninstall</a></li>
 										</ul>
 									</button>
 								</div>

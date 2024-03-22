@@ -3,7 +3,6 @@
 	import Card from '../atoms/card.svelte';
 
 	export let data: any;
-	export let user: any;
 	export let questionId: number;
 	export let link: any;
 	let linkData: any = false;

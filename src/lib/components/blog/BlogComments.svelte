@@ -34,7 +34,6 @@
 			{#each comments as comment}
 				<BlogComment
 					{comment}
-					{parentType}
 					{slug}
 					{session}
 					{userHasAnswered}
@@ -50,7 +49,6 @@
 		{#each comments as comment}
 			<BlogComment
 				{comment}
-				{parentType}
 				{slug}
 				{session}
 				{userHasAnswered}

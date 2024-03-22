@@ -13,7 +13,6 @@
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponent<any, any, any>>;
 	$: component = data.component as unknown as C;
-	import { invalidate } from '$app/navigation';
 
 	let comments = data.comments;
 	let userHasAnswered = data.flags.userHasAnswered;

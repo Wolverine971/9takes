@@ -4,11 +4,9 @@
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import { createEventDispatcher } from 'svelte';
-	const dispatch = createEventDispatcher();
+
 
 	export let comment: any;
-	export let parentType: string;
 	export let slug: string;
 	export let session: any;
 
