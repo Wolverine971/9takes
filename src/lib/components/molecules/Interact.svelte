@@ -319,7 +319,6 @@ interface QuestionObject {
 		/* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
 		display: grid;
 		height: 100%;
-		overflow-y: scroll;
 	}
 	.interact-text-container::after {
 		/* Note the weird space! Needed to preventy jumpy behavior */
@@ -347,6 +346,6 @@ interface QuestionObject {
 
 		/* Place on top of each other */
 		grid-area: 1 / 1 / 2 / 2;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 </style>
