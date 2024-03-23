@@ -34,11 +34,47 @@ export const load: PageServerLoad = async (event) => {
 
 import type { Actions } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
-import { forgotPass, joinEmail, joinEmail2, signupEmail } from '../../emails';
+import { forgotPass, joinEmail, joinEmail2, personSuggestionEmail, signupEmail } from '../../emails';
 import { error, redirect } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
 
 export const actions: Actions = {
+	submitFamousPerson: async ({ request }) => {
+		const body = Object.fromEntries(await request.formData());
+
+		const email = body.email.toString();
+		const suggestedPerson = body.suggestedPerson.toString();
+
+		const { error: insertError } = await supabase
+			.from('person_suggestions')
+			.insert([{ email: email, person_name: suggestedPerson }]);
+
+		if (!insertError) {
+			try {
+				const sent = await sendEmail({
+					to: body.email.toString(),
+					subject: `Thanks for suggesting ${suggestedPerson}`,
+					body: personSuggestionEmail()
+				});
+				if (sent) {
+					return { success: true };
+				} else {
+					throw error(404, {
+						message: `Failed to insert suggestion, no error available`
+					});
+				}
+			} catch (e) {
+				throw error(404, {
+					message: `Failed to insert suggestion, ${JSON.stringify(e)}`
+				});
+			}
+		} else {
+			throw error(404, {
+				message: `Failed to insert suggestion, ${JSON.stringify(insertError)}`
+			});
+		}
+	},
+
 	emailTemplate: async ({ request, locals }) => {
 		if (!locals?.session?.user?.id) {
 			throw error(400, 'unauthorized');

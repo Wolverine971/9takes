@@ -171,7 +171,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	outline: 0.2rem solid var(--color-paladin-2);
+	outline: 0.2rem solid var(--color-paladin-3);
 	border-radius: 5px;
 }
 

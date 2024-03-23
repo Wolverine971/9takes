@@ -1,4 +1,6 @@
 <script lang="ts">
+	import SuggestFamousPerson from '$lib/components/molecules/SuggestFamousPerson.svelte';
+
 	import BlogInteract from '$lib/components/blog/BlogInteract.svelte';
 
 	import BlogComments from '$lib/components/blog/BlogComments.svelte';
@@ -9,7 +11,6 @@
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
-	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	export let data: PageData;
 	type C = $$Generic<typeof SvelteComponent<any, any, any>>;
 	$: component = data.component as unknown as C;
@@ -37,8 +38,7 @@
 	</div>
 	<svelte:component this={component} />
 </article>
-<hr style="margin: 5rem;" />
-<h3 title="Comments">What was missed? Do you disagree? Give us your thoughts. 🙏</h3>
+<h3 title="Comments">What was missed? What would you add?</h3>
 <div>
 	<BlogComments
 		slug={data.slug}
@@ -61,7 +61,7 @@
 
 <div class="join">
 	{#if !data?.session?.user}
-		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
+		<SuggestFamousPerson />
 	{/if}
 </div>
 

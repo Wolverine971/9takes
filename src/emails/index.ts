@@ -200,6 +200,64 @@ export const joinEmail2 = () => {
     </html>`;
 };
 
+export const personSuggestionEmail = () => {
+  return `<!DOCTYPE html>
+    <html>
+      ${EmailHead('Appreciate the suggestion')}
+      <body style="background-color: #f6f6f6;">
+        <table style="border-collapse:collapse;width:600px;max-width:600px;margin:0 auto" width="600">
+          <tbody>
+            <tr style="">
+              <td style="border-collapse:collapse;display:block;padding:0 1em;width:600px;max-width:600px;margin:30px auto;background-color:#ffffff"
+                width="600" bgcolor="#ffffff">
+                <div style="text-align:center">
+                  <div value="20" style="padding-top:20px"> </div>
+                  <div
+                    style="height:100%;padding:45px;border-radius:10px;margin:10px auto;background-color:#ffffff">
+                   
+                    <div value="15" style="padding-top:15px"> </div>
+                    <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
+                      <p>We will email you when we write the analysis.</p>
+                       <p>In the meantime read our <a class="external-link" target="_blank" href="https://9takes.com/blog/famous-enneagram-types">other blogs.</p>
+                    </div>
+                    <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
+                      <div value="15" style="padding-top:15px"> </div><b style="">
+                        Feel free to
+                        reach out</b> on
+                      <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom"> twitter </a> or reply to
+                      this email at usersup@9takes.com.
+                    </div>
+                    <div value="30" style="padding-top:30px"> </div>
+                    <div value="30" style="padding-top:30px"> </div>
+                    <div value="30" style="padding-top:30px">
+                      <table cellpadding="0" cellspacing="0" border="0" width="100%" >
+                        <tr style="margin: auto; border: none;" align="center">
+                          <td valign="top" align="right" style="border: none;">
+                              
+                            <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom">
+                              <img src="https://9takes.com/icons/twitter.png" alt="Twitter" class="icon" width="50px"/>
+                            </a>
+                          </td>
+                          <td valign="top" align="left" style="border: none;">
+                              <a class="external-link" target="_blank" href="https://www.instagram.com/9takesdotcom/">
+                              <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </body>
+    
+    </html>`;
+};
+
 export const emailTemplate = (subject: string, header: string, body: string) => {
   return `<!DOCTYPE html>
     <html>
@@ -233,14 +291,14 @@ export const emailTemplate = (subject: string, header: string, body: string) => 
                     <div value="30" style="padding-top:30px"> </div>
                     <div value="30" style="padding-top:30px">
                       <table cellpadding="0" cellspacing="0" border="0" width="100%" >
-                        <tr style="margin: auto" align="center">
-                          <td valign="top" align="right">
+                        <tr style="margin: auto; border: none;" align="center">
+                          <td valign="top" align="right" style="border: none;">
                               
                             <a class="external-link" target="_blank" href="https://twitter.com/9takesdotcom">
                               <img src="https://9takes.com/icons/twitter.png" alt="Twitter" class="icon" width="50px"/>
                             </a>
                           </td>
-                          <td valign="top" align="left">
+                          <td valign="top" align="left" style="border: none;">
                               <a class="external-link" target="_blank" href="https://www.instagram.com/9takesdotcom/">
                               <img src="https://9takes.com/icons/instagram.png" alt="Instagram" class="icon" width="50px"/>
                             </a>
