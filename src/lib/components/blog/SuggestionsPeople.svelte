@@ -29,11 +29,11 @@
 
 {#if suggestions.niche.posts.length || suggestions.sameEnneagram.posts.length}
 	<div style="margin-bottom:5rem;">
-		<h3 style="text-align: center; margin-bottom: 3rem;">Related Analysis</h3>
+		<h3 style="text-align: center; margin-bottom: 1rem;">Further Analysis</h3>
 		<div class="blog-previews stack">
 			{#if suggestions.niche.posts.length}
 				<div>
-					<h4 style="text-align: center;">More {capitalizedPluralNiche}</h4>
+					<h4 style="text-align: center; padding: .5rem;">More {capitalizedPluralNiche}</h4>
 					<div class="people-grid-container">
 						{#each suggestions.niche.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date, enneagram }}
 							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
@@ -62,7 +62,9 @@
 			{/if}
 			{#if suggestions.sameEnneagram.posts.length}
 				<div>
-					<h4 style="text-align: center;">More Enneagram {suggestions.sameEnneagram.type}s</h4>
+					<h4 style="text-align: center; padding: .5rem;">
+						Other Enneagram {suggestions.sameEnneagram.type}s
+					</h4>
 					<div class="people-grid-container">
 						{#each suggestions.sameEnneagram.posts.slice(0, innerWidth > 920 ? 5 : 3) as { slug, title, author, description, date, enneagram }}
 							<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">

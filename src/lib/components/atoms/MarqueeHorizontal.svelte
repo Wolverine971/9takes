@@ -42,7 +42,7 @@
 		z-index: 200;
 		width: 100%;
 		height: 3rem;
-		outline-offset: -1px;
+		// outline-offset: -1px;
 		object-fit: scale-down;
 		border-top: 3px solid var(--color-theme-purple-v);
 		border-bottom: 3px solid var(--color-theme-purple-v);

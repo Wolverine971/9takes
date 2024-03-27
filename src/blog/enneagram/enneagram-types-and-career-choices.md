@@ -4,7 +4,7 @@ description: 'Explore ideal careers for each Enneagram type and discover how per
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-and-career-choices'
-lastmod: '2024-01-04'
+lastmod: '2024-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,10 +19,19 @@ pic: 'female-greek-statues-of-different-professions'
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Choosing a career path is a big task.
-But understanding your Enneagram type helps point you in the right direction.</p>
+<p class="firstLetter">Follow your heart.</p>
 
-Each Enneagram type has things that will rub them incorrectly in a job. Conversely, each Enneagram type pays attention to and is good at certain things that make them uniquely adept for specific careers. We will explore the typical careers each Enneagram type goes into and hopefully make choosing a career easier.
+Don't follow your heart.
+
+Do what you are passionate about.
+
+Don't do what you are passionate about.
+
+Just do it.
+
+Choosing a career path is a big task. Finding a happy medium between making money and not hating your life is hard. This is where understanding your Enneagram type can help.
+
+Each Enneagram type has things that will rub them the wrong way in a job. Each type wants different things and is drawn to certain things. Here, we will explore what each type values and how that translates to the types of jobs in which they would thrive.
 
 <div
   style="display: flex;
@@ -45,6 +54,14 @@ Each Enneagram type has things that will rub them incorrectly in a job. Converse
 
 For Type 1s, careers that offer a sense of order, integrity, and purpose are highly appealing. They thrive in roles where they can apply their strong sense of right and wrong, such as law, academia, or quality assurance. Type 1s find fulfillment in professions where they can work towards excellence and ensure that standards are met, making them outstanding auditors, editors, or compliance officers.
 
+<h4>Potential Careers for the Enneagram type 1</h4>
+
+- Environmental Lawyer: Advocating for environmental protection aligns with their strong sense of right and wrong.
+- Quality Control Analyst: Their attention to detail ensures products meet high standards.
+- Ethics Officer: Upholding organizational integrity resonates with their moral compass.
+- Architect: Planning and designing sustainable buildings can fulfill their need for order and improvement.
+- Editor: Perfecting written work appeals to their keen eye for detail and desire for perfection.
+
 [More on type 1s](/blog/enneagram/enneagram-type-1)
 
 </article>
@@ -53,6 +70,15 @@ For Type 1s, careers that offer a sense of order, integrity, and purpose are hig
 
 Type 2s are naturally drawn to careers that allow them to support and care for others. Their empathetic nature makes them excellent in healthcare, counseling, or social work. In these roles, they can fulfill their desire to be needed and make a tangible difference in people's lives. Type 2s are also fantastic in customer service or hospitality, where their warm, people-oriented approach shines.
 
+<h4>Potential Careers for the Enneagram type 2</h4>
+
+- Nurse: Providing care and support fits their nurturing nature.
+- Social Worker: Helping individuals through challenges leverages their empathy and desire to be needed.
+- Customer Service Representative: Resolving issues and aiding customers suits their people-pleasing tendencies.
+- Human Resources Manager: Supporting employee well-being and resolving conflicts aligns with their interpersonal skills.
+- Kindergarten Teacher: Fostering young children’s growth and development caters to their caring and supportive qualities.
+
+
 [More on type 2s](/blog/enneagram/enneagram-type-2)
 
 </article>
@@ -60,6 +86,15 @@ Type 2s are naturally drawn to careers that allow them to support and care for o
    <h3>Type 3 - The Achiever</h3>
 
 Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities for advancement and recognition. They are well-suited for leadership roles in business, marketing, or entrepreneurship. Their charisma and drive make them effective in positions where they can motivate others and achieve tangible results, such as sales or corporate management.
+
+<h4>Potential Careers for the Enneagram type 3</h4>
+
+- Sales Director: Achieving sales goals satisfies their need for accomplishment and recognition.
+- Entrepreneur: Starting and growing a business fulfills their ambition and drive.
+- Public Relations Specialist: Crafting a positive public image aligns with their concern for appearance and success.
+- Investment Banker: Thriving in competitive, high-stakes environments matches their goal-oriented nature.
+- Marketing Manager: Strategizing and achieving market success leverages their creativity and desire to excel.
+
 
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
@@ -85,6 +120,14 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
 
 Type 4s, with their appreciation for uniqueness and self-expression, find satisfaction in creative careers. Fields like art, writing, music, or design allow them to express their individuality and emotional depth. They may also be drawn to roles in psychology or counseling, where they can explore the depths of the human experience.
 
+<h4>Potential Careers for the Enneagram type 4</h4>
+
+- Graphic Designer: Expressing creativity and originality through design caters to their artistic nature.
+- Musician: Creating and performing music allows for emotional expression and uniqueness.
+- Author: Writing provides a medium for exploring personal and complex themes.
+- Art Therapist: Helping others through creative expression aligns with their empathy and depth.
+- Fashion Designer: Crafting unique and expressive clothing suits their individualistic and aesthetic sensibilities.
+
 [More on type 4s](/blog/enneagram/enneagram-type-4)
 
 </article>
@@ -92,6 +135,15 @@ Type 4s, with their appreciation for uniqueness and self-expression, find satisf
    <h3>Type 5 - The Investigator</h3>
 
 Intrigued by knowledge and expertise, Type 5s are well-suited for careers that involve research, analysis, and innovation. They excel in fields like science, technology, engineering, or academia, where they can delve into complex problems and develop expertise. Their analytical nature also makes them great in data analysis or IT roles.
+
+<h4>Potential Careers for the Enneagram type 5</h4>
+
+- Research Scientist: Conducting in-depth research fulfills their need to understand complex topics.
+- Software Developer: Solving problems through coding suits their analytical mind and independence.
+- Technical Writer: Explaining technical information in writing caters to their clarity of thought and love for knowledge.
+- Data Analyst: Interpreting data and trends aligns with their objective and investigative nature.
+- Archaeologist: Uncovering historical truths through research and exploration satisfies their curiosity and desire for knowledge.
+
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
@@ -104,6 +156,14 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 
 Type 6s value security and stability, making them well-suited for administration, law enforcement, or risk management roles. They excel in environments where they can exercise caution and prepare for contingencies. Their loyalty and commitment make them excellent team players in any organizational setting.
 
+<h4>Potential Careers for the Enneagram type 6</h4>
+
+- Risk Manager: Identifying and mitigating risks leverages their cautious and preparatory nature.
+- Police Officer: Ensuring community safety aligns with their sense of duty and loyalty.
+- Systems Analyst: Maintaining and improving IT systems suits their problem-solving skills and need for security.
+- School Counselor: Supporting students’ emotional and educational needs fits their responsible and committed nature.
+- Emergency Room Nurse: Thriving in high-stress, supportive roles matches their reliability and teamwork abilities.
+
 [More on type 6s](/blog/enneagram/enneagram-type-6)
 
 </article>
@@ -111,6 +171,14 @@ Type 6s value security and stability, making them well-suited for administration
    <h3>Type 7 - The Enthusiast</h3>
 
 Type 7s, with their versatile and adventurous nature, thrive in dynamic and varied careers. They might find fulfillment in roles like travel writing, event planning, or marketing, where they can experience new things and avoid monotony. Their enthusiasm and creativity also make them outstanding in entrepreneurial ventures.
+
+<h4>Potential Careers for the Enneagram type 7</h4>
+
+- Travel Guide: Exploring new cultures and sharing experiences with others leverages their adventurous spirit.
+- Event Planner: Creating and organizing exciting events suits their optimistic and versatile nature.
+- Content Creator: Producing engaging content for social media or blogs aligns with their creativity and need for variety.
+- Outdoor Adventure Leader: Leading outdoor activities satisfies their desire for excitement and novelty.
+- Innovation Consultant: Generating and implementing innovative ideas that fit their visionary and energetic personality.
 
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
@@ -136,13 +204,29 @@ Type 7s, with their versatile and adventurous nature, thrive in dynamic and vari
 
 Type 8s are natural leaders drawn to positions where they can exert influence and make impactful decisions. Careers in business leadership, entrepreneurship, or law can be highly suitable. Their assertiveness and willingness to take on challenges make them effective in high-stakes environments like crisis management or political advocacy.
 
+<h4>Potential Careers for the Enneagram type 8</h4>
+
+- Startup founder: Leading a startup satisfies their desire to be in control of their destiny.
+- Crisis Manager: Navigating high-pressure situations leverages their strength and decisiveness.
+- Political Strategist: Crafting and executing political campaigns aligns with their assertive and protective nature
+- Litigation Attorney: Advocating fiercely in the courtroom suits their confrontational and persuasive skills.
+- Construction Manager: Overseeing building projects fits their need to lead and have a straightforward approach.
+
 [More on type 8s](/blog/enneagram/enneagram-type-8)
 
 </article>
   <article class="section-content">
    <h3>Type 9 - The Peacemaker</h3>
 
-Type 9s, with their easy-going and inclusive nature, are well-suited for roles that require mediation and consensus-building. They thrive in fields like human resources, counseling, or diplomacy. Their ability to see multiple perspectives makes them effective in roles that require negotiation and conflict resolution.
+Type 9s, with their easygoing and inclusive nature, are well-suited for roles that require mediation and consensus-building. They thrive in fields like human resources, counseling, or diplomacy. Their ability to see multiple perspectives makes them effective in roles that require negotiation and conflict resolution.
+
+<h4>Potential Careers for the Enneagram type 9</h4>
+
+- Mediator: Resolving conflicts leverages their natural ability to see multiple perspectives.
+- Librarian: Providing a calm and welcoming environment suits their supportive and easygoing nature.
+- Garden Designer: Creating peaceful outdoor spaces aligns with their love for harmony and nature.
+- Yoga Instructor: Teaching and guiding others in finding balance and inner peace caters to their soothing presence and inclusive approach.
+- Non-Profit Organization Worker: Contributing to causes that promote peace and well-being aligns with their altruistic values.
 
 [More on type 9s](/blog/enneagram/enneagram-type-9)
 
@@ -150,7 +234,7 @@ Type 9s, with their easy-going and inclusive nature, are well-suited for roles t
 
 ## Wrap up
 
-The Enneagram can be a powerful tool in guiding your career choices. By understanding your intrinsic motivations and strengths, you can find a professional path that suits your personality and brings fulfillment and success. Remember, the Enneagram is just one piece of the puzzle - your experiences, skills, and passions also play a crucial role in your career journey. So, as you consider your next career move don't limit yourself, consider your whole self and what you can bring to the table.
+The Enneagram can be a powerful tool in guiding your career choices. By understanding your intrinsic motivations and strengths, you can find a professional path that suits your personality and brings fulfillment and success. Remember, the Enneagram is just one piece of the puzzle - your experiences, skills, and passions also play a crucial role in your career journey. So, as you consider your next career move, don't limit yourself; consider your whole self and what you can bring to the table.
 
 For more check out <a style="font-weight: bold;" href="/blog/enneagram/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
 
@@ -164,7 +248,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@graph": [
     {
       "@type": "BlogPosting",
-      "articleBody": "This article delves into the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia, to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
+      "articleBody": "This article delves into the ideal career choices for each Enneagram type. It explores how personality traits influence professional preferences and capabilities, offering insights into the most suitable careers for each type. From the perfectionist Type 1 finding fulfillment in law and academia to the adventurous Type 7 thriving in dynamic roles like event planning, the article provides a comprehensive guide for aligning career choices with Enneagram personality types.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -179,7 +263,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-04"
+        "@value": "2024-03-27"
       },
       "datePublished": {
         "@type": "Date",
@@ -200,7 +284,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "mentions": {
                   "@type": "Thing",
                   "name": "Enneagram of Personality",
-                  "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+                  "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed, contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
                   "SameAs": [
                       "https://www.wikidata.org/wiki/Q273047",
                       "http://en.wikipedia.org/wiki/Enneagram_of_Personality"

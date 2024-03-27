@@ -47,12 +47,23 @@
 				/>
 
 				<div class="main-description">
-					<h1 style="margin-bottom: 1rem;">Anonymous questions and answers based on personality</h1>
+					<h1
+						style="margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;"
+					>
+						<span style="text-wrap: nowrap;">Questions</span>
+						<span style="margin: .5rem;">{'>'}</span>
+						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
+						>
+					</h1>
 					<p style="font-size: 1.5rem; font-weight: 700;">
 						Find out what people <br /> think, feel, and do
 					</p>
-					<a href="/questions" class="btn btn-primary questionLink" style="border: 1px solid;">
-						Ask a question <RightIcon
+					<a
+						href="/questions"
+						class="btn btn-primary questionLink"
+						style="border: 1px solid; font-size: x-large;"
+					>
+						ask the question <RightIcon
 							iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
 							height={'1.5rem'}
 							fill={'#5407d9'}
@@ -73,6 +84,13 @@
 			panBackground={false}
 		>
 			<div class="content-display">
+				<p
+					class="txt-white link bold-shadow main-p"
+					style="text-align: center;"
+					itemprop="description"
+				>
+					Where can you find different viewpoints?
+				</p>
 				<h2
 					class=" txt-white jumbo-name bold-shadow"
 					data-value={'9takes'}
@@ -81,18 +99,30 @@
 				>
 					{'9takes'}
 				</h2>
-				<p
-					class="txt-white link bold-shadow main-p"
-					style="text-align: center;"
-					itemprop="description"
-				>
-					the place where different viewpoints are embraced,
-					<br />not feared
-				</p>
 			</div>
 		</Jumbotron>
 
 		<!-- are we embracing different view points or are we fearful of different view point -->
+
+		<div class="big-points flex-center">
+			<h2 style="margin-bottom: 0">It is hard to find open discussions online.</h2>
+			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0">
+				Conversation gets stifled for a few reasons:
+			</h3>
+			<ul>
+				<li>
+					<b>People make posts instead of asking question.</b> Everything is rhetorical and confrontational.
+				</li>
+				<li>
+					<b>People can read comments before commenting.</b> Only the content that produces fear, anger,
+					and embarrassment gets engagement.
+				</li>
+				<li>
+					<b>People are afraid to be honest.</b> You don't want to receive criticism so you only express
+					opinions that are status quo.
+				</li>
+			</ul>
+		</div>
 
 		<div class="big-points flex-center" style="max-width: none;">
 			<h2 style="">What is 9takes?</h2>
@@ -111,22 +141,6 @@
 
 			<ul class="bento-list">
 				<li class="bento">
-					<a class="bento-a" href="/blog/community/inspiration-for-9takes">
-						<img
-							srcset={`${`/blogs/husband-and-wife.webp`} 218w,`}
-							loading="lazy"
-							fetchPriority="low"
-							class="grid-img"
-							height="218"
-							width="218"
-							title={'husband and wife'}
-							src={`/blogs/husband-and-wife.webp`}
-							alt={'husband and wife'}
-						/>
-						<h4 class="small-h4 txt-white link bold-shadow">Why create 9takes?</h4>
-					</a>
-				</li>
-				<li class="bento">
 					<a class="bento-a" href="/blog/community/introducing-9takes">
 						<img
 							srcset={`${`/blogs/greek-statue-introducing-9takes.webp`} 218w,`}
@@ -139,7 +153,23 @@
 							src={`/blogs/greek-statue-introducing-9takes.webp`}
 							alt={'A scenic view of a person working on a computer in the jungle'}
 						/>
-						<h4 class="small-h4 txt-white link bold-shadow">What is different about 9takes?</h4>
+						<h4 class="small-h4 txt-white link bold-shadow">What makes 9takes different?</h4>
+					</a>
+				</li>
+				<li class="bento">
+					<a class="bento-a" href="/blog/community/inspiration-for-9takes">
+						<img
+							srcset={`${`/blogs/husband-and-wife.webp`} 218w,`}
+							loading="lazy"
+							fetchPriority="low"
+							class="grid-img"
+							height="218"
+							width="218"
+							title={'husband and wife'}
+							src={`/blogs/husband-and-wife.webp`}
+							alt={'husband and wife'}
+						/>
+						<h4 class="small-h4 txt-white link bold-shadow">Why did I create 9takes?</h4>
 					</a>
 				</li>
 				<li class="bento">
@@ -175,7 +205,7 @@
 						/>
 						<h4 class="small-h4 txt-white link bold-shadow">
 							Why is the <span title="secret sauce">Enneagram</span>
-							the best personality system?
+							the best?
 						</h4>
 					</a>
 				</li>
@@ -183,14 +213,16 @@
 		</div>
 
 		<div class="big-points flex-center">
-			<h2 style="">
-				9takes is designed to spark joy and to turn online questions into horizon broadening
-				experiences for those who use it. <br />Here's how:
+			<h2 style="margin-bottom: 0">
+				9takes is designed from the ground up to be the place to source unbiased opinions and takes
+				on every subject.
 			</h2>
+			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0">
+				In doing so you can find a few other things:
+			</h3>
 			<ul>
 				<li>
-					- <b>Finding Your Tribe</b>: Instantly connect with individuals whose thoughts, emotions,
-					and actions resonate with yours, creating a sense of belonging and understanding.
+					- <b>Find Your Tribe</b>: Connect with people think, feel and act like you.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -202,9 +234,8 @@
 					</svg>
 				</li>
 				<li>
-					- <b>Exploring New Perspectives</b>: Immerse yourself in the worldviews of different
-					personality types by navigating through their unique responses to various questions,
-					enriching your understanding of others.
+					- <b>Find New Perspectives</b>: Uncover worldviews from different personality types by
+					searching through unique responses to various questions and topics.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -216,8 +247,8 @@
 					</svg>
 				</li>
 				<li>
-					- <b>Engaging in Meaningful Conversations</b>: Reach out directly to users whose answers
-					catch your eye and inspire and provoke thought, initiating a deeper dialogue.
+					- <b>Find and engage in Meaningful Conversations</b>: Reach out to users whose takes catch
+					your eye.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -225,20 +256,6 @@
 						viewBox="0 0 512 512"
 						><path
 							d="M192 416c0-17.7-14.3-32-32-32H64c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H309.3c-6.9 0-13.7 2.2-19.2 6.4L192 464V416zM64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h64 32v32 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM192 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm128 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM155.9 252.1c-6.6 5.9-7.1 16-1.3 22.6C179.5 302.5 215.7 320 256 320s76.5-17.5 101.4-45.3c5.9-6.6 5.3-16.7-1.3-22.6s-16.7-5.3-22.6 1.3C314.5 274.6 286.8 288 256 288s-58.5-13.4-77.5-34.7c-5.9-6.6-16-7.1-22.6-1.3z"
-						/>
-					</svg>
-				</li>
-				<li>
-					- <b>Choosing Transparency</b>: Experience the excitement and curiosity of receiving
-					direct messages from other users, leaving you with the intriguing decision of whether to
-					unveil your identity or remain an enigma.
-					<svg
-						style="display: inline;"
-						xmlns="http://www.w3.org/2000/svg"
-						height="1em"
-						viewBox="0 0 512 512"
-						><path
-							d="M168.2 384.9c-15-5.4-31.7-3.1-44.6 6.4c-8.2 6-22.3 14.8-39.4 22.7c5.6-14.7 9.9-31.3 11.3-49.4c1-12.9-3.3-25.7-11.8-35.5C60.4 302.8 48 272 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-31.6 0-61.3-5.5-87.8-15.1zM26.3 423.8c-1.6 2.7-3.3 5.4-5.1 8.1l-.3 .5c-1.6 2.3-3.2 4.6-4.8 6.9c-3.5 4.7-7.3 9.3-11.3 13.5c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c5.1 0 10.2-.3 15.3-.8l.7-.1c4.4-.5 8.8-1.1 13.2-1.9c.8-.1 1.6-.3 2.4-.5c17.8-3.5 34.9-9.5 50.1-16.1c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9zM144 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm144-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm80 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"
 						/>
 					</svg>
 				</li>
@@ -253,7 +270,7 @@
 {#if !data?.session?.user}
 	<section style="max-width: 64rem; margin: 10rem auto">
 		<div class="join" id="signup">
-			<EmailSignup cta={'Join Waitlist'} />
+			<EmailSignup cta={'Signup and start asking questions'} />
 		</div>
 	</section>
 {/if}
