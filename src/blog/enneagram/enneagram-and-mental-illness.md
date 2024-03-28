@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
-lastmod: '2023-12-08'
+lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -58,7 +58,13 @@ I hope these suggestions are helpful!
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram, a profound and popular personality typing system, is a valuable tool for self-discovery and understanding others. Drawing insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, this guide delves into the intricate layers of each Enneagram type. It facilitates personal growth and improved relationships and illuminates the unique mental health challenges associated with each type. Central to this exploration is the "shadow side" concept – the less favorable aspects of our personalities that can lead to psychological struggles. By examining these shadow sides, we will better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns, illustrated through specific scenarios.</p>
+<p class="firstLetter">The Enneagram is a profound and popular personality typing system that illuminates the positive and negative aspects of different personalities.</p>
+
+Here, we examine how each type in an unhealthy state can go down a negative spiral toward mental illness.
+
+ We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type. Each type has different struggles that stem from unhealthy coping mechanisms. If left unaddressed for a long period of time, behavior, emotions, and thought patterns can become extreme, and professional help is needed.
+ 
+The "shadow side" concept is central to this exploration, which is the less favorable aspects of our personalities that can lead to psychological struggles. Examining these shadow sides will better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
 
 <div
     style="display: flex;
@@ -253,7 +259,7 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-08"
+        "@value": "2024-03-28"
       },
       "datePublished": {
         "@type": "Date",

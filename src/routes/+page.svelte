@@ -20,7 +20,7 @@
 	<link rel="canonical" href="https://9takes.com" />
 
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes Home Page" />
+	<meta property="og:title" content="9takes home of the questioners" />
 	<meta
 		property="og:description"
 		content="9takes- Anonymous questions and answers based on personality. What are people thinking, feeling, and doing?"
