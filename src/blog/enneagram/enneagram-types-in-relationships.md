@@ -4,7 +4,7 @@ description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
-lastmod: '2024-01-06'
+lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,7 +19,13 @@ pic: 'greek-statues-on-a-date'
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">It's hard to quantify how anyone approaches a relationship, but the Enneagram is a good place to start when trying to identify a person's tendencies in a relationship. This article dives into those tendencies going into three layers of depth on each of the Enneagram personality types.</p>
+<p class="firstLetter">There is no one right way to approach a relationship.</p>
+
+There are many ways to approach a relationship.
+
+It's also hard to quantify all the ways anyone could approach a relationship. But the Enneagram provides a rough framework for how different people do approach relationships. Today we are going to identify people's tendencies and approaches to relationships in varying degrees of depth.
+
+Jump in where ever feels comfortable. Lets go!
 
 <div
 	style="display: flex;
@@ -39,6 +45,8 @@ pic: 'greek-statues-on-a-date'
 
 ## Overview of Enneagram types in a relationship
 
+There are 9 different Enneagram personality types and below is a brief stereotypic overview.
+
 1. The Reformer - Perfectionist, responsible, and rational
 2. The Helper - Generous, caring, and people-pleasing
 3. The Achiever - Ambitious, adaptable, and driven
@@ -50,6 +58,8 @@ pic: 'greek-statues-on-a-date'
 9. The Peacemaker - Easygoing, agreeable, and conflict-avoidant
 
 ## Mid-tier with a little more depth
+
+Going a little deeper here is a brief description for what each Enneagram type struggles with n relationships.
 
 <details>
 <summary class="accordion">Enneagram Type 1 Relationship Overview</summary>
@@ -107,6 +117,8 @@ pic: 'greek-statues-on-a-date'
 </details>
 
 ## Enneagram relationships on a deeper level
+
+At this level we are going to examine each types values in a relationship and tips for their partners.
 
 <article class="section-content">
 
@@ -273,7 +285,7 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2024-01-06"
+            "@value":"2024-03-28"
          },
          "datePublished":{
             "@type":"Date",
