@@ -62,8 +62,8 @@ I hope these suggestions are helpful!
 
 Here, we examine how each type in an unhealthy state can go down a negative spiral toward mental illness.
 
- We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type. Each type has different struggles that stem from unhealthy coping mechanisms. If left unaddressed for a long period of time, behavior, emotions, and thought patterns can become extreme, and professional help is needed.
- 
+We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type. Each type has different struggles that stem from unhealthy coping mechanisms. If left unaddressed for a long period of time, behavior, emotions, and thought patterns can become extreme, and professional help is needed.
+
 The "shadow side" concept is central to this exploration, which is the less favorable aspects of our personalities that can lead to psychological struggles. Examining these shadow sides will better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
 
 <div

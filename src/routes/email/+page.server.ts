@@ -34,7 +34,13 @@ export const load: PageServerLoad = async (event) => {
 
 import type { Actions } from '@sveltejs/kit';
 import { supabase } from '$lib/supabase';
-import { forgotPass, joinEmail, joinEmail2, personSuggestionEmail, signupEmail } from '../../emails';
+import {
+	forgotPass,
+	joinEmail,
+	joinEmail2,
+	personSuggestionEmail,
+	signupEmail
+} from '../../emails';
 import { error, redirect } from '@sveltejs/kit';
 import { checkDemoTime } from '../../utils/api';
 

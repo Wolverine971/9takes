@@ -22,7 +22,6 @@ internal and external conflict
 
 <a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >⬅️ Part 1</a>
 
-
 ## Common Questions
 
 ### What is Healthy Conflict in a Relationship?

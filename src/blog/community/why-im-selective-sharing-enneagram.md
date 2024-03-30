@@ -1,5 +1,5 @@
 ---
-title: "The Enneagram Changed My Life, But Here’s Why I’m Careful Who I Tell"
+title: 'The Enneagram Changed My Life, But I am Careful Who I Tell'
 description: 'Discover why sharing the life-changing insights of the Enneagram requires thoughtful consideration and how to approach conversations wisely.'
 author: 'DJ Wayne'
 date: '2024-03-09'

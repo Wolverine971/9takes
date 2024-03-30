@@ -41,7 +41,6 @@ Today we are going to look at the impact of ghosting on different Enneagram type
 	/>
 </div>
 
-
 It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](/blog/enneagram/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
 
  <article class="section-content">

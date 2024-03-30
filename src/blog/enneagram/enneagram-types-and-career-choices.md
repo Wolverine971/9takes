@@ -78,7 +78,6 @@ Type 2s are naturally drawn to careers that allow them to support and care for o
 - Human Resources Manager: Supporting employee well-being and resolving conflicts aligns with their interpersonal skills.
 - Kindergarten Teacher: Fostering young children’s growth and development caters to their caring and supportive qualities.
 
-
 [More on type 2s](/blog/enneagram/enneagram-type-2)
 
 </article>
@@ -94,7 +93,6 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
 - Public Relations Specialist: Crafting a positive public image aligns with their concern for appearance and success.
 - Investment Banker: Thriving in competitive, high-stakes environments matches their goal-oriented nature.
 - Marketing Manager: Strategizing and achieving market success leverages their creativity and desire to excel.
-
 
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
@@ -143,7 +141,6 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 - Technical Writer: Explaining technical information in writing caters to their clarity of thought and love for knowledge.
 - Data Analyst: Interpreting data and trends aligns with their objective and investigative nature.
 - Archaeologist: Uncovering historical truths through research and exploration satisfies their curiosity and desire for knowledge.
-
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 

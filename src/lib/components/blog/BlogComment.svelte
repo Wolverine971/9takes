@@ -5,7 +5,6 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 
-
 	export let comment: any;
 	export let slug: string;
 	export let session: any;
