@@ -541,7 +541,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
   },
-  "dateModified": "2024-03-27"
+  "dateModified": "2024-03-27",
   "datePublished": "2023-04-14",
   "url": "https://9takes.com/blog/enneagram/enneagram-types-in-stress",
   "mentions": {
