@@ -24,7 +24,7 @@
 				<div>
 					<h2 style="padding: 0; margin:0;">Generic responses</h2>
 					<p style="margin: .5rem 0 0 0;">
-						Why? To give stereotypical responses and to get the convo going and to learn from
+						These are prepopulated generic responses that different enneagram types might give.
 					</p>
 				</div>
 				<button

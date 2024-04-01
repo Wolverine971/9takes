@@ -37,7 +37,7 @@ margin: 1rem 0;"
 
 ## 1. Surface-Level Interactions
 
-**The very structure of Reddit encourages brief, transactional interactions.**
+**The structure of Reddit encourages brief, transactional interactions.**
 
 Users flock to subreddits based on interests, yet these spaces prioritize quick exchanges over sustained dialogue. A comment that took seconds to write receives upvotes but seldom evolves into a deeper conversation. Consider how a brief comment on a favorite book rarely leads to a profound discussion about how that book changed your life.
 
@@ -74,3 +74,24 @@ Even when you do connect with someone, the platform's design makes it hard to su
 The core issue is evident: continuity is necessary for there to be a deep connection.
 
 Recognize the limitations of Reddit in satisfying deep social needs, and <a href="/blog/community/introducing-9takes">seek out platforms</a> and spaces that prioritize personal interaction and sustained relationships. Your craving for connection deserves a setting where your thoughts, feelings, and experiences can be shared and valued deeply.
+
+<!-- ## Comparing Platforms: 9takes vs. Reddit
+
+9takes aims to improve upon the Reddit model by addressing three key issues:
+
+<h3 style="margin: 0;">Reddit's Moderator Dependence</h3>
+
+- **Problem**: On Reddit, moderators have become gatekeepers of ideas rather than protectors of civil discourse.
+- **Solution**: 9takes reduces the reliance on moderators by fostering a community-driven approach to content curation and moderation.
+
+<h3 style="margin: 0;">Reddit's Subreddit Isolation</h3>
+
+- **Problem**: Reddit's subreddits function as distinct conversation hubs, each with its own rules, leading to controlled but often insular discussion environments.
+- **Solution**: 9takes has no gatekeepers of topics, only owners of questions. When a comment gets flagged the content gets moved to a separate section for flagged content.
+
+<h3 style="margin: 0;">Reddit's Lurking Culture</h3>
+
+- **Problem**: Reddit allows users to view comments without contributing, leading to a lurking culture that can dilute active engagement.
+- **Solution**: On 9takes answers are revealed only after a user posts their unbiased opinion. Its a high bar but participation should be a habbit.
+
+By tackling these issues head-on, 9takes aims to create a more engaging, diverse, and intellectually stimulating environment for online conversations. -->
