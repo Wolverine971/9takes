@@ -14,6 +14,9 @@ previewHtml: ''
 pic: 'greek-statue-2-sided-mask'
 ---
 
+
+
+
 <!-- // notes:
 
 Intriguing Hooks:
@@ -56,6 +59,7 @@ I hope these suggestions are helpful!
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">The Enneagram is a profound and popular personality typing system that illuminates the positive and negative aspects of different personalities.</p>
@@ -237,9 +241,7 @@ In conclusion, the exploration of each Enneagram type's predisposition to specif
 By acknowledging and understanding our shadow side, we empower ourselves to address these challenges proactively. This awareness allows us to seek appropriate support, develop healthier coping mechanisms, and ultimately, navigate our lives with greater understanding and compassion for ourselves and others. The journey through the Enneagram's insights is about celebrating our strengths, bravely facing our vulnerabilities, and transforming them into stepping stones for personal growth and mental well-being.
 
 <svelte:head>
-<script>
-  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
-</script>
+
 
 <script type="application/ld+json">
 {
