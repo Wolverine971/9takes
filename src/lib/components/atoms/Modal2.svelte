@@ -88,6 +88,7 @@
 			<svg
 				id="close"
 				on:click={close}
+				width="1rem"
 				viewBox="0 0 12 12"
 				role="button"
 				on:keydown={(e) => {

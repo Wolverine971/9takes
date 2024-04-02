@@ -12,7 +12,7 @@
 	{fill}
 	style={iconStyle}
 	xmlns:svgjs="http://svgjs.com/svgjs"
-	viewBox="23.763996124267578 21.259004592895508 94.20199584960938 99.21300506591797"
+	viewBox="23.7 21.2 94.2 99.2"
 >
 	<g fill={fill || 'url(#SvgjsLinearGradient1001)'}>
 		<path

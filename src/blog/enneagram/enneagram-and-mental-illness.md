@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
-lastmod: '2024-03-28'
+lastmod: '2024-04-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -130,6 +130,10 @@ Sophia, a high-achieving student, starts concealing her emotional distress. Her 
 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
+
 ## Enneagram Type 4: The Individualist
 
 ### Mental Health Risks
@@ -233,6 +237,9 @@ In conclusion, the exploration of each Enneagram type's predisposition to specif
 By acknowledging and understanding our shadow side, we empower ourselves to address these challenges proactively. This awareness allows us to seek appropriate support, develop healthier coping mechanisms, and ultimately, navigate our lives with greater understanding and compassion for ourselves and others. The journey through the Enneagram's insights is about celebrating our strengths, bravely facing our vulnerabilities, and transforming them into stepping stones for personal growth and mental well-being.
 
 <svelte:head>
+<script>
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
 
 <script type="application/ld+json">
 {
@@ -259,7 +266,7 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-03-28"
+        "@value": "2024-04-01"
       },
       "datePublished": {
         "@type": "Date",
