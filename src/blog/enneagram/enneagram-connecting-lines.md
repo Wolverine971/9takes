@@ -161,7 +161,6 @@ Stress/ Disintegration **(Moving to Type Six)**: Under stress, Nines can resembl
 
 Understanding the dynamics of the Enneagram can provide valuable insights into our behaviors and how they change under different circumstances. It can help us navigate our paths of growth and manage our stress responses more effectively. To dive deeper into how each Enneagram type responds to stress [look here](/blog/enneagram/enneagram-types-in-stress).
 
-
 <svelte:head>
 
 <script type="application/ld+json">

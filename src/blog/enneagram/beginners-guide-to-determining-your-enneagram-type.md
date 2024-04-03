@@ -18,7 +18,7 @@ pic: 'greek-statues-two-females-on-phones'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<!-- Take a free, ~5 min test here 
+<!-- Take a free, ~5 min test here
 adjust title
 
 
@@ -64,6 +64,7 @@ The Enneagram is a personality system. A personality is a grouping of characteri
 It is said that your type/ personality is formed in childhood as a response to some kind of unmet need (e.g., a childhood wound). Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
 
 For example:
+
 - A child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough.
 - A child who grew up in a chaotic environment might cope by distracting themselves, always looking on the bright side, and avoiding uncomfortable or painful situations.
 - A child who was only shown love and affection when they achieved something might grow up to be a workaholic who believes they must win at everything, otherwise they are worthless.
@@ -77,7 +78,6 @@ Now, let's dive deeper into how you can determine your type.
 ### 1. Identify Your Core Emotion
 
 The first step in identifying your Enneagram type is understanding the three core emotions that form your "type."
-
 
 Ask yourself, "Which of these emotions comes up for you the most in daily life?" You either:
 
@@ -96,8 +96,8 @@ In the Enneagram, these core emotions relate to centers of intelligence. The neg
 - Anger relates to instinctual intelligence.
 
 If you can always sense what other people are feeling, you might have high emotional intelligence, and your core emotion might be shame. If you are always in your head or have been told that you "over think" things, you might have intellectual intelligence that you developed in response to fear. If you go with your guy a lot to make decisions, you might have instinctual intelligence and wrestle with anger.
-  
-The crazy thing to think about is that other people have different intelligences that may come off as superpowers. 
+
+The crazy thing to think about is that other people have different intelligences that may come off as superpowers.
 
 Conversely your own intelligence/ superpower might be a blind spot to you but not to other people.
 
@@ -107,15 +107,15 @@ When trying to identify your core emotion you need to consider how each type "us
 
 Each type handles their core emotion differently. There are three Enneagram types for each core emotion. The different ways of handling the emotion are the following:
 
-- Actively using the emotion as a form of empowerment or motivation 
+- Actively using the emotion as a form of empowerment or motivation
 - Actively suppressing the emotion in an attempt to escape the uncomfortable feeling
 - Unconsciously using that emotion, or having that emotion constantly in the background
-  
+
 With that in mind you are now ready to determine your Enneagram type.
 
 ### 4. Find Your Type
 
-In addition to a core emotion, each type has a core motivation and fear. Look through the following to get a sense of what your type  might be.
+In addition to a core emotion, each type has a core motivation and fear. Look through the following to get a sense of what your type might be.
 
 <section class="section-content">
 
@@ -228,11 +228,9 @@ In addition to a core emotion, each type has a core motivation and fear. Look th
 
 If you identify with an Enneagram type or are trying to decide between a few, there is one more thing you need to know.
 
-
-
 ### The Connecting Lines on the Enneagram
 
-The Enneagram types are connected. 
+The Enneagram types are connected.
 
 <div style="display: flex; text-align: center;
   justify-content: center;
@@ -247,7 +245,6 @@ These connections represent how each type will appear depending on their emotion
 **Path of Integration (Growth):** This is the direction we move when growing, feeling secure, or operating out of our higher selves. We take on some of the positive traits of another type. For example, when a Type Eight (The Challenger) is moving toward growth, they take on some of the positive characteristics of a Type Two (The Helper), becoming more open-hearted and caring.
 
 **Path of Disintegration (Stress):** This is the direction we move when we are under stress or operating out of our lower selves. We take on some of the negative traits of another type. For example, when a Type Eight is under stress, they take on some of the negative characteristics of a Type Five (The Investigator), becoming more withdrawn and secretive.
-
 
 Here's how it works for each type:
 

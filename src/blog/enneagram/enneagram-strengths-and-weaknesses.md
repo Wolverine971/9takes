@@ -4,7 +4,7 @@ description: "Uncover each Enneagram type's strengths and weaknesses. Learn abou
 author: 'DJ Wayne'
 date: '2023-05-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
-lastmod: '2023-09-03'
+lastmod: '2024-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,17 +23,19 @@ https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknes
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Everyone has different strengths and weaknesses. The trick is knowing how to identify them. Additionally, there are almost infinite dimensions by which we can slice and dice the things we are good at and bad at, so choosing where to start is also difficult.</p>
+<p class="firstLetter">Everyone has different strengths and weaknesses.</p>
+
+The trick is knowing how to identify them. There are also almost an infinite amount of dimensions by which we can slice and dice the things we are good at and bad at. Choosing where to start is difficult but the Enneagram can help.
 
 ## Understanding Your Energizers and Drainers
 
-Many enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue you into identifying your strengths and weaknesses. Keep in mind that what energizes one person may drain another. So, while some people love public speaking, others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
+Many Enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue you into identifying your strengths and weaknesses. Keep in mind that what energizes one person may drain another. So, while some people love public speaking, others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
 
 Let's look at common energizers and drainers for each Enneagram type and think about how to leverage our strengths and mitigate our weaknesses.
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 1 - The Perfectionist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 1 - The Perfectionist</h3>
 
 **Energizers:** Organizing, planning, completing tasks to a high standard, following rules and procedures. For example, creating detailed to-do lists, organizing a cluttered space, achieving a challenging goal, and following a strict routine.
 
@@ -47,11 +49,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 2 - The Helper</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 2 - The Helper</h3>
 
 **Energizers:** Helping others, being appreciated and valued, connecting with people emotionally, feeling needed, volunteering at a charity, helping a friend in need, receiving gratitude and appreciation, and connecting with others emotionally.
 
@@ -65,11 +67,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 3 - The Achiever</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 3 - The Achiever</h3>
 
 **Energizers:** Setting and achieving goals, receiving recognition and praise, being successful, being in the spotlight, and, for example, setting and achieving goals, receiving glory and honor, presenting in front of an audience, competing, and winning.
 
@@ -83,11 +85,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 4 - The Individualist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 4 - The Individualist</h3>
 
 **Energizers:** Creative expression, self-discovery, deep and meaningful connections with others, unique and authentic experiences. For example, creative expression through art or music, deep and meaningful conversations with others, and exploring one's emotions and identity.
 
@@ -101,15 +103,15 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 5 - The Investigator</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 5 - The Investigator</h3>
 
 **Energizers:** Learning new things, exploring ideas and concepts, intellectual challenges, having time to think and reflect, and, for example, researching a new topic or subject, learning a new skill or language, and having time alone to think and reflect.
 
@@ -123,11 +125,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 6 - The Loyalist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 6 - The Loyalist</h3>
 
 **Energizers:** Feeling safe and secure, being prepared and organized, working towards a common goal with others, building trust and loyalty, for example, being part of a loyal and trustworthy group, having a clear plan and structure, working together towards a common goal.
 
@@ -141,11 +143,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 7 - The Enthusiast</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 7 - The Enthusiast</h3>
 
 **Energizers:** New experiences and adventures, exploring possibilities, excitement, and stimulation, having fun and, for example, planning a fun and adventurous trip, exploring new hobbies or interests, and attending a party or social event.
 
@@ -159,11 +161,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 8 - The Challenger</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 8 - The Challenger</h3>
 
 **Energizers:** Being in control and taking charge, achieving goals and overcoming obstacles, and standing up for oneself and others, for example, leading and taking charge of a situation, standing up for oneself or others, achieving a challenging goal through determination.
 
@@ -177,11 +179,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 9 - The Peacemaker</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 9 - The Peacemaker</h3>
 
 **Energizers:** Creating harmony and unity, being inclusive and accepting, being part of a supportive and peaceful community, feeling calm and content, and for example, creating a peaceful and harmonious environment, mediating and resolving conflicts, and being part of a supportive and inclusive community.
 
@@ -195,11 +197,11 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrap up
 
-This was insightful. Check this out for more on <a style="font-weight: bold;" href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>. Also, if you did find this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+Hopefully this was insightful. Check this out for more on <a style="font-weight: bold;" href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>. Also, if you did find this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -224,7 +226,7 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-08-27"
+    "@value": "2024-04-03"
   },
   "datePublished": {
     "@type": "Date",
@@ -248,7 +250,7 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
               "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
               "SameAs": [
                   "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+                  "http://en.wikipedia.org/wiki/enneagram_of_Personality"
               ]
      },
   "publisher": {
@@ -298,10 +300,11 @@ This was insightful. Check this out for more on <a style="font-weight: bold;" hr
 <style lang="scss">
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

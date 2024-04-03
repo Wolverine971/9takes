@@ -14,7 +14,6 @@ previewHtml: ''
 pic: 'female-greek-statues-of-different-professions'
 ---
 
-
 <div
   style="display: flex;
     justify-content: center;
@@ -233,8 +232,6 @@ For more check out <a style="font-weight: bold;" href="/blog/enneagram/enneagram
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
-
-
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
@@ -387,7 +384,6 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   ]
 }
 </script>
-
 
 <style lang="scss">
    .section-content {
