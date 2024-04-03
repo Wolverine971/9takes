@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let metaData: App.BlogPost;
 
-	import twitter from '$lib/images/twitter.svg';
+	// import twitter from '$lib/images/twitter.svg';
 
 	const formattedDate = new Date(metaData.date).toDateString();
 </script>
@@ -14,7 +14,6 @@
 		itemscope
 		itemtype="https://schema.org/Person"
 	>
-		<span itemprop="name">{metaData.author}</span>
 		<a
 			itemprop="url"
 			class="external-link"
@@ -23,14 +22,15 @@
 			href="https://twitter.com/djwayne3"
 			style="padding: 0.5rem"
 		>
-			<img
+			{metaData.author}
+			<!-- <img
 				src={twitter}
 				alt="djwayne3 Twitter"
 				title="djwayne3 Twitter"
 				class="icon"
 				style="width:1.5rem"
 				width="150"
-			/>
+			/> -->
 		</a>
 	</span>
 	<span class="date">{formattedDate}</span>
