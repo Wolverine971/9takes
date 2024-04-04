@@ -4,7 +4,7 @@ description: 'The Enneagram dynamics in party planning, craft perfect invites fo
 author: 'DJ Wayne'
 date: '2023-12-09'
 loc: 'https://9takes.com/blog/enneagram/enneagram-party-planner'
-lastmod: '2024-01-04'
+lastmod: '2024-04-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -22,8 +22,6 @@ pic: 'greek-statues-partying'
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
-<p class="firstLetter">Trying to plan a great event? Take a moment to consider the <a href="/blog/enneagram/enneagram-tldr" >personality types</a> of the people who might be attending. Are the people who are attending your close friends who love and support you or is it a bunch of cerebral people who are there for interesting conversations? Who is going to be late and who will be early. Who will be silently judging you and who will be wanting to get wild with anyone over a 6. Here we will explore the personality types that might show up to your party and help you make you make any gathering an unforgettable event.</p>
-
 <div
     style="display: flex;
     justify-content: center;
@@ -39,19 +37,31 @@ pic: 'greek-statues-partying'
     />
 </div>
 
-## An example approach to party planning
+<p class="firstLetter">Trying to plan a great event? Have you considered the personality types that you might be attending?</p>
 
-Imagine Alex embodying the quintessential traits of a Type 3 Achiever, meticulously orchestrating a party. For Alex, this isn't just about hosting a fun gathering; it's an opportunity to shine and demonstrate prowess. The party must be a resounding success, something to discuss for days, even weeks. A sparsely attended event would be more than a disappointment—it would be a blow to Alex's high standards and self-image.
+ Are the people in the group your close friends who love and support you? Or is the group a bunch of intellectual types who are going to need some social lubrication? Who might cause problems, and who wants to help? Who will be silently judging you, and who will be hitting on everyone?
 
-Alex takes immense pride in their social connections and organizational abilities, aiming to leave guests in awe. Every detail, from the choice of venue, menu, and music to the overall ambiance, is carefully curated to align with Alex's vision of cool and sophistication. The goal is to create an experience that resonates with respectability and leaves an indelible impression of Alex's flair and finesse.
+ Here, we will explore the personality types that might attend your event and try to help you throw a great party.
 
-In pursuit of this ambition, Alex might extend invitations to particularly notable or impressive individuals, adding an extra layer of prestige to the event. This party is less about the celebration and more an avenue for Alex to showcase their capabilities and social clout. It's a strategic display of Alex's personal and social achievements, carefully designed to elevate their standing in the eyes of every attendee.
+## One Approach to Party Planning
 
-How Alex approaches planning a party might be very different from your own. It is essential first to determine your motivations for throwing the party and then think about the motivations for other people to attend your party.
+Imagine Alex, an Enneagram 3, "the achiever," who is busy meticulously planning a party. For Alex, this isn't just about hosting a fun gathering; it's an opportunity to show off. The party must be a resounding success in every aspect and, ideally, should be the talk of the town for weeks to come. Needless to say, a sparsely attended event would be a disappointment and a big blow to Alex's self-image.
+
+Alex takes immense pride in his connections and abilities. He aims to leave guests in awe and is likely throwing this party as a means to an end. Every detail, from the choice of venue, menu, and music to the overall ambiance, is carefully curated to align with Alex's vision and create the outcome he desires.
+
+Alex is thinking about who to invite. Who will increase his clout? He is very aware of the impressive individuals he has access to or wants to get access to. And a party is a perfect excuse to get access to the people he is after.
+
+Do you know someone like Alex who might approach planning a party this way? Is Alex similar to or different from you?
+
+It is essential to consider your motivations for throwing the party and then consider the attendees' motivations.
 
 ### The Invite Strategy
 
-Let's reverse-engineer why each Enneagram type might want to attend a party. Each Enneagram type approaches a party differently and has unique but also subtle motivations and desires. For instance, if a Type 1, "The Reformer/ The Perfectionist," is invited to a party, to them, the party might be serving some utility and may have a clear purpose, and there might be an ideal way the party should be run in their min. Meanwhile, a Type 7 - The Enthusiast, is enticed with the promise of fun, adventurous experiences, and spontaneity.
+Assuming you have considered your own motivations lets think about the reasons why different personalities go to a party.
+
+Each Enneagram type approaches a party differently and has unique motivations and desires. For instance, if a Type 1, "The Reformer/ The Perfectionist," is invited to a party, to them, the party is likely serving some utility. The party likely has a clear purpose, and they already have expectations for how the party should go. Meanwhile, a Type 7- "Enthusiast", will likely show up for any party as long as there is the possibility of fun.
+
+Lets dive into how you would entice each Enneagram type to attend your party.
 
 <details>
 <summary class="accordion">Invite for Enneagram 1- The Reformer/ Perfectionist</summary>
@@ -206,87 +216,84 @@ Let's reverse-engineer why each Enneagram type might want to attend a party. Eac
 
 </details>
 
-## The Emotional Connect
 
-Alex understands that crafting the proper invites is just the start. The party needs to reflect the diverse emotional landscapes of the Enneagram types, offering each guest an experience that resonates with their personality.
+## The Idea Environment
 
-### The Party Setup for Each Enneagram Type
+Now that we have the invites down, lets look what the ideal party looks like for each Enneagram type.
+
+### The Party Setup for a Each Enneagram Type
 
 <details>
-<summary class="accordion">Party Setup for Type 1- The Reformer</summary>
+<summary class="accordion">The Type 1- The Reformer Party Vibe</summary>
 
 - **Environment**: Keep the setting organized and structured. Have clear guidelines for the event to maintain order.
 - **Activities**: Include activities with a purpose or benefit, like a charity auction or a group discussion on a relevant topic, to engage their sense of right and wrong.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 2- The Helper</summary>
+<summary class="accordion">The Type 2- The Helper Party Vibe</summary>
 
 - **Environment**: Create a warm, welcoming atmosphere where they can nurture and be nurtured.
 - **Activities**: Provide opportunities for them to help out, like assisting in the kitchen or greeting guests, making them feel valued and needed.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 3- The Achiever</summary>
+<summary class="accordion">The Type 3- The Achiever Party Vibe</summary>
 
 - **Environment**: Ensure the setting is somewhat upscale or impressive. Recognition and status should be subtly evident.
 - **Activities**: Include elements where they can showcase their talents or achievements, like a brief awards ceremony or a talent show.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 4- The Individualist</summary>
+<summary class="accordion">The Type 4- The Individualist Party Vibe</summary>
 
 - **Environment**: Create a unique, aesthetically pleasing setting with opportunities for self-expression.
 - **Activities**: Incorporate creative elements like an art corner, poetry readings, or a space for musical performances.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 5- The Investigator</summary>
+<summary class="accordion">The Type 5- The Investigator Party Vibe</summary>
 
 - **Environment**: Offer a space where they can retreat for quiet contemplation. A corner with books or interesting articles can be a good addition.
 - **Activities**: Include intellectually stimulating activities, like a trivia game or a discussion circle on intriguing topics.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 6- The Loyalist</summary>
+<summary class="accordion">The Type 6- The Loyalist Party Vibe</summary>
 
 - **Environment**: Focus on creating a secure, stable atmosphere. Make sure safety measures are visible.
 - **Activities**: Plan group activities that build trust and camaraderie, like team-building exercises or group games.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 7- The Enthusiast</summary>
+<summary class="accordion">The Type 7- The Enthusiast Party Vibe</summary>
 
 - **Environment**: Ensure the setting is lively and flexible, with room for spontaneity.
 - **Activities**: Incorporate a variety of fun, high-energy activities like a dance-off, a scavenger hunt, or an impromptu karaoke session.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 8- The Challenger</summary>
+<summary class="accordion">The Type 8- The Challenger Party Vibe</summary>
 
 - **Environment**: Create an open space for assertiveness and intensity.
 - **Activities**: Set up debates, competitive games, or activities that allow them to demonstrate strength and leadership.
 
 </details>
 <details>
-<summary class="accordion">Party Setup for Type 9- The Peacemaker</summary>
+<summary class="accordion">The Type 9- The Peacemaker Party Vibe</summary>
 
 - **Environment**: Aim for a relaxed, comfortable setting where everyone feels included.
 - **Activities**: Facilitate group activities that are non-competitive and inclusive, like group storytelling or a collaborative art project.
 
 </details>
 
-## The Philosophical Twist
 
-This party transcends mere socializing; it's akin to a modern-day symposium reminiscent of gatherings held by Greek philosophers. Each conversation and interaction offers a deeper understanding and empathy. For an in-depth exploration of how different Enneagram types contribute to the dynamics of a party, delve into our comprehensive blog [here](/blog/enneagram/enneagram-types-at-party), enriching your perspective on hosting a memorable and meaningful event.
+## Wrap up 🎉
 
-## The Aftermath
+Hopefully this helps you throw a great party!
 
-Reflecting on the event, Alex realizes the party was more than a social gathering; it was a journey into the heart of human emotions and connections, a source of immense pride and a testament to their ability to bring together diverse personalities.
+To dive deeper and see how each Enneagram type behaves at a party checkout this blog [here](/blog/enneagram/enneagram-types-at-party).
 
-## Conclusion
-
-Your next social gathering can transcend the ordinary by applying these insights into the human psyche. If intrigued by the world of the Enneagram, join the 9takes community, where every question unlocks a new perspective. Start your journey of exploration and understanding by signing up now.
 
 <svelte:head>
 
@@ -312,7 +319,7 @@ Your next social gathering can transcend the ordinary by applying these insights
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-04"
+        "@value": "2024-04-04"
       },
       "datePublished": {
         "@type": "Date",

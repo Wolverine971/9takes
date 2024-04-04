@@ -4,7 +4,7 @@ description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
-lastmod: '2024-03-28'
+lastmod: '2024-04-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,14 +18,6 @@ pic: 'greek-statues-on-a-date'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<p class="firstLetter">There is no one right way to approach a relationship.</p>
-
-There are many ways to approach a relationship.
-
-It's also hard to quantify all the ways anyone could approach a relationship. But the Enneagram provides a rough framework for how different people do approach relationships. Today we are going to identify people's tendencies and approaches to relationships in varying degrees of depth.
-
-Jump in where ever feels comfortable. Lets go!
 
 <div
 	style="display: flex;
@@ -43,9 +35,17 @@ Jump in where ever feels comfortable. Lets go!
 	/>
 </div>
 
-## Overview of Enneagram types in a relationship
+<p class="firstLetter">There is no one right way to approach a relationship.</p>
 
-There are 9 different Enneagram personality types and below is a brief stereotypic overview.
+There are many ways to approach a relationship.
+
+It is hard to even try to quantify all the ways anyone could approach a relationship. But the Enneagram provides a rough framework. Today we are going to identify people's tendencies and approaches to relationships in varying degrees of depth.
+
+Up first is a broad overview of what each type is like in a relationship.
+
+## Characteristics of Enneagram Type In a Relationship
+
+There are 9 different Enneagram personality types and below is a brief stereotypical overview for how each type acts in a relationship.
 
 1. The Reformer - Perfectionist, responsible, and rational
 2. The Helper - Generous, caring, and people-pleasing
@@ -57,60 +57,60 @@ There are 9 different Enneagram personality types and below is a brief stereotyp
 8. The Challenger - Powerful, assertive, and confrontational
 9. The Peacemaker - Easygoing, agreeable, and conflict-avoidant
 
-## Mid-tier with a little more depth
+## The Struggles of Each Enneagram Type In a Relationship
 
-Going a little deeper here is a brief description for what each Enneagram type struggles with n relationships.
+Going a little deeper here is a brief description for what each Enneagram type struggles with in relationships.
 
 <details>
-<summary class="accordion">Enneagram Type 1 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 1 Relationship Struggles</summary>
   <p class="panel"> Type 1 reformers are often perfectionists and can be critical of themselves and others. In relationships, they may have high expectations and struggle to accept their partner's flaws. They may also struggle to express their emotions and come across as distant or cold.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 2 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 2 Relationship Struggles</summary>
   <p class="panel"> Type 2 helpers are often focused on the needs of others and may struggle with setting boundaries. In relationships, they may put their partner's needs before their own, leading to resentment or burnout.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 3 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 3 Relationship Struggles</summary>
   <p class="panel"> Type 3 achievers often focus on success and may prioritize work or career over relationships. In relationships, they may struggle with vulnerability and may avoid emotional intimacy.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 4 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 4 Relationship Struggles</summary>
   <p class="panel"> Type 4 individualists are often sensitive and may struggle with feeling misunderstood. In relationships, they may be prone to dramatic emotional outbursts and struggle to trust their partner.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 5 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 5 Relationship Struggles</summary>
   <p class="panel"> Type 5 investigators are often analytical and may struggle with emotional intimacy. In relationships, they may appear distant or aloof and struggle with expressing their emotions.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 6 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 6 Relationship Struggles</summary>
   <p class="panel">Type 6 loyalists are often anxious and may struggle with trust. In relationships, they may seek constant reassurance and be prone to jealousy or possessiveness.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 7 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 7 Relationship Struggles</summary>
   <p class="panel">Type 7 enthusiasts are often spontaneous and may struggle with commitment. In relationships, they may struggle with emotional intimacy and prioritize excitement over stability.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 8 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 8 Relationship Struggles</summary>
   <p class="panel">Type 8 challengers are often powerful and may struggle with vulnerability. In relationships, they may appear domineering or controlling and struggle with empathy.
 </p>
 </details>
 
 <details>
-<summary class="accordion">Enneagram Type 9 Relationship Overview</summary>
+<summary class="accordion">Enneagram Type 9 Relationship Struggles</summary>
   <p class="panel">Type 9 peacemakers are often conflict-avoidant and may struggle with asserting their needs. They may need help setting boundaries and prioritizing harmony over authenticity in relationships.
 
 </p>
@@ -120,9 +120,9 @@ Going a little deeper here is a brief description for what each Enneagram type s
 
 At this level we are going to examine each types values in a relationship and tips for their partners.
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 1 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 1 Relationship Values</h3>
 
 Enneagram type 1 individuals are often known as "The Perfectionist" or "The Reformer." In a relationship, they bring a strong sense of responsibility and integrity and strive to do things in the "right" way. A sense of purpose typically drives them, and they have high standards for themselves and others.
 
@@ -132,11 +132,11 @@ Type 1s value honesty, communication, and respect in relationships. They appreci
 
 Partners of type 1s must understand and appreciate their strong sense of morality and desire for order and structure. They may also need reassurance that they are appreciated for who they are, even if they only sometimes meet their high standards. Type 1s can form strong, committed, and fulfilling relationships with patience and understanding. [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 2 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 2 Relationship Values</h3>
 
 Enneagram Type 2, also known as "The Helper," is warm, caring, and attentive to the needs of others. They are motivated by the desire to be loved and appreciated and often seek validation through their relationships. In a romantic relationship, they are incredibly loving and affectionate partners who go above and beyond to make their significant other feel loved and appreciated.
 
@@ -146,11 +146,11 @@ Type 2s may also struggle with jealousy and possessiveness, particularly if they
 
 Type 2s need to learn to balance their desire to help others with taking care of their own emotional needs. Communicating openly and honestly with their partner and setting clear boundaries can help prevent resentment from building up over time. It's also important for them to recognize that their partner is their person and to respect their autonomy rather than trying to control or fix everything. [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 3 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 3 Relationship Values</h3>
 
 Enneagram type 3 individuals, or "The Achievers," are focused on success, achievement, and recognition. They are highly ambitious and driven, always looking for new opportunities to prove their worth and achieve their goals. In a relationship, they are often very attentive and focused on their partner, but they may struggle with balancing their desire for success with their commitment to the relationship.
 
@@ -160,11 +160,11 @@ In a romantic relationship, a type 3 individual may prioritize their success and
 
 To have a successful relationship, type 3 individuals must learn to balance their drive for success with their commitment to their partner. They need to prioritize emotional connection and vulnerability over success and recognition and learn how to communicate effectively and address conflicts in the relationship. Additionally, they need to recognize the value of their partner's needs and goals and work to support and encourage them. [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 4 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 4 Relationship Values</h3>
 
 Enneagram Type 4 individuals are known for their strong emotions and introspective nature. In relationships, they seek deep connection and often crave an understanding and appreciation for their unique qualities. However, they may also struggle with inadequacy and fear of rejection.
 
@@ -174,15 +174,15 @@ One potential challenge for Type 4s in relationships is their tendency towards e
 
 To have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be self-critical and hard on themselves. Finally, cultivating gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 5 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 5 Relationship Values</h3>
 
 Enneagram type 5, the Investigator or Observer tends to be analytical, cerebral, and introspective. They are driven by a desire to understand the world around them and gather information, often at the expense of social interaction and emotional expression.
 
@@ -194,11 +194,11 @@ However, when type 5s feel comfortable and secure in a relationship, they can be
 
 Relationships with type 5s can be rewarding and intellectually stimulating but may require patience, understanding, and a willingness to give them the space they need to recharge and pursue their interests. [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 6 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 6 Relationship Values</h3>
 
 Enneagram Type Sixes, the Loyalists, are known for their sense of duty and loyalty towards others. They are excellent at predicting potential problems and preparing for them. Type Sixes tend to be very caring and supportive towards their partner in a relationship. However, they may struggle with trust issues and may need reassurance from their partner that they are loved and accepted. They often seek a stable and reliable partner and may need help feeling secure if their partner is unpredictable or inconsistent.
 
@@ -208,11 +208,11 @@ In romantic relationships, Type Sixes often seek a sense of security and stabili
 
 Type Sixes can be very supportive partners, offering stability and security to their loved ones. However, they may also struggle with anxiety and fear, which can impact their relationships. They benefit from patient, understanding, and reassuring partners, helping them feel more secure in their relationships. With the right partner, Type Sixes can build lasting, meaningful relationships based on trust and mutual support. [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 7 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 7 Relationship Values</h3>
 
 Enneagram type sevens, also known as the Enthusiast, are adventurous, fun-loving, and spontaneous individuals who enjoy experiencing new things and are always looking for new adventures. In a relationship, sevens can bring a sense of excitement, joy, and spontaneity to their partners' lives.
 
@@ -224,11 +224,11 @@ Additionally, sevens can struggle with being present in the moment and may somet
 
 Despite these potential challenges, Enneagram sevens are typically warm, enthusiastic, and engaging partners who bring joy and excitement to their relationships. They are optimistic, playful, and spontaneous and love making their partners feel loved and appreciated. Sevens are also skilled at diffusing tension and making light of difficult situations, which can be a valuable asset in any relationship. [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 8 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 8 Relationship Values</h3>
 
 Enneagram type 8, also known as the Challenger or Leader, is characterized by assertiveness, self-confidence, and a protective nature. They have a strong desire for control and can be seen as intimidating to others, but their true motivation is to protect those they care about and ensure justice and fairness in their relationships. In a relationship, type 8s value honesty, loyalty, and strength.
 
@@ -238,11 +238,11 @@ For a relationship with a type 8 to thrive, their partner must be willing to mee
 
 Type 8s may struggle with vulnerability and may need to work on expressing their emotions and allowing themselves to be vulnerable with their partner. They may also need to work on recognizing and respecting their partner's emotions and perspective rather than dismissing them in favor of their own. A relationship with a type 8 can be deeply fulfilling and loving with effort and communication. [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram Type 9 in Relationships</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram Type 9 Relationship Values</h3>
 
 Enneagram Type 9, also known as the "Peacemaker," is a gentle and easygoing personality type that values harmony and peaceful interactions. Nines are known for their empathetic and compassionate nature and ability to see things from multiple perspectives.
 
@@ -252,15 +252,14 @@ Nines are also known for remaining calm and composed even amid conflict. They av
 
 One potential challenge for Nines in relationships is their tendency to prioritize harmony over their needs. This can lead to a lack of assertiveness and difficulty setting boundaries, which can be problematic if their partner takes advantage of their accommodating nature. Nines may also need help making decisions, as they often see multiple sides to every situation and may be hesitant to take a definitive stance. [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
-## Enneagram Relationship Conclusion
+## Enneagram Relationship Wrap up
 
-There are near-infinite possibilities for how a person can think, feel, and behave in a relationship; therefore, this is all to be taken with a grain of salt. It is, however, helpful to be aware of common tendencies that the types display and that you might be prone to. I hope you use this information to bring your best self forward in all your relationships. ❤️
+There are near-infinite possibilities for how a person can think, feel, and behave in a relationship; therefore, this is all to be taken with a grain of salt. It is, however, helpful to be aware of common tendencies that the types display. Hopefully you found this helpful. ❤️
 
 If you liked this, check [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
 
-Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -285,7 +284,7 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2024-03-28"
+            "@value":"2024-04-04"
          },
          "datePublished":{
             "@type":"Date",
@@ -347,10 +346,11 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
 <style lang="scss">
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {
@@ -364,7 +364,6 @@ Also, sign up and join 9takes below ⬇️. Of course, you are free to decline, 
         /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
-        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

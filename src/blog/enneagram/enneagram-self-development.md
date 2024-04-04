@@ -4,7 +4,7 @@ description: 'How the Enneagram can be used for personal growth and self-improve
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-self-development'
-lastmod: '2023-04-15'
+lastmod: '2024-04-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -22,8 +22,6 @@ self regulation examples
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">If you've been exploring the world of self-help and personal development, chances are you've come across the Enneagram. It offers a unique perspective on our strengths, weaknesses, and inner motivations, allowing us to deepen our self-awareness and make positive changes in our lives.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -39,11 +37,13 @@ self regulation examples
 	/>
 </div>
 
-Yet lessons learned through self-help can be healing and inspiring, and can also make us feel like we're failing. It's important to remember that developing self-awareness is a endless pursuit. There will be good days and bad days, but there is no finish line. The Enneagram can be used as a tool to support you on your journey, helping you navigate the ups and downs with greater clarity and compassion.
+<p class="firstLetter">You are not a self-help and personal development junkie if you haven't explored the Enneagram.</p>
 
-At its core, the Enneagram is a system of nine interconnected personality types, each with its own unique strengths and challenges. While it's not necessary to know every detail about each type, having a basic understanding of the system can be helpful in applying it to your own life.
+The Enneagram is not just about your strengths and weaknesses but also about your inner motivations and fears. It is a complicated system of nine interconnected personality types. Each type is defined by a childhood wound, where the person deals with unresolved emotional trauma. This forces the person to develop coping mechanisms that make up their personality. Are you aware of your coping mechanisms?
 
-The Enneagram can be used in many ways, but one of its most powerful applications is as a tool for personal growth and self-improvement. Here are just a few ways the Enneagram can support you in your journey:
+While it's unnecessary to know every detail about each type, having a basic understanding of the system can be helpful in your own life.
+
+Here are a few ways the Enneagram can support you in your self development journey.
 
 ### Starting Conversations and Connecting with Others
 
@@ -94,7 +94,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-03-25"
+    "@value": "2024-04-04"
   },
   "datePublished": {
     "@type": "Date",
