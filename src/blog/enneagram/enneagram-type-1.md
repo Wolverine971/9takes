@@ -17,17 +17,18 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer." People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood one's got the message that they were "bad" so they have been trying to prove that critic wrong ever since.</p>
-
  <!-- have very high standards for themselves and others and they often mention that they have a little voice in the back of their heads criticizing their every move saying good is never good enough. Over time that has developed
 
 high ideals and principles that they meticulously pay attention to. Why do they have such high ideals? Because they secretly fear that they are corrupt  -->
 
-<br>
 <Carousel type={1} gridDisplay={true} />
 <br>
 
-<article class="section-content">
+<p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer."</p>
+
+People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood Enneagram type one's got the message that they were "bad" so they have been trying to prove that critic wrong ever since.
+
+<section class="section-content">
 
 <h2>Enneagram 1 Description</h2>
 
@@ -44,9 +45,9 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 - You are often hard on yourself and struggle with self-criticism
 - You can be critical of others if they don't meet your expectations
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 1</h2>
 
@@ -64,9 +65,9 @@ Moreover, Type 1s are known for their honesty and straightforwardness. This trai
 <li>Teaching or Mentoring: Their desire to improve and share knowledge benefits others.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 1</h2>
 
@@ -79,13 +80,13 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 - Struggling with self-care: Type 1 personalities can be so focused on doing what is right and responsible that they may neglect their self-care needs. They may struggle with self-compassion and have difficulty giving themselves permission to take a break or rest.
 - Becoming rigid or dogmatic: Type 1 personalities can become rigid in their thinking and may hold onto beliefs or ideas even when presented with new information. They may need help with being open-minded and receptive to different perspectives.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 1</h2>
 
@@ -99,9 +100,9 @@ Here are some of the typical motivations of Type 1 personalities:
 - Being responsible: Type 1 personalities are motivated by a sense of duty and responsibility. They take their obligations seriously and work hard to meet their responsibilities in both personal and professional contexts.
 - Creating order: Type 1 personalities are motivated by a desire for order and structure. They seek to create order in their environments and establish routines and systems to help them achieve their goals.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 1</h2>
 
@@ -111,15 +112,15 @@ Here are some of the typical motivations of Type 1 personalities:
 - Being irresponsible: Type 1s have a strong sense of duty and responsibility. They fear being seen as irresponsible or unreliable, which can conflict with their self-image as a responsible person.
 - Chaos or disorder: Type 1s need order and structure. They fear chaos or disorder, as this can make them feel out of control and anxious.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 1s Under Stress</h2>
 
 Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -129,7 +130,7 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 1's Childhood</h2>
 
@@ -142,9 +143,9 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 - **Thoughts and Feelings**: Battled with feelings of inadequacy and a relentless drive to improve. May have felt emotionally restrained, suppressing feelings to maintain control.
 - **View on Childhood**: Likely views their upbringing as disciplined and structured, possibly lamenting the lack of spontaneity and freedom to make mistakes. Proud of their resilience but may wish for more emotional warmth and acceptance in their early years.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 1 in relationships</h2>
 
@@ -157,9 +158,9 @@ Type 1 personalities have high expectations for themselves and their partners. T
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 1 in the Workplace</h2>
 
@@ -172,9 +173,9 @@ Type 1 personalities excel in roles that require attention to detail, high stand
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 1 Personalities</h2>
 
@@ -191,9 +192,9 @@ To foster personal growth, Type 1s can focus on:
 
 By embracing these strategies, Type 1 individuals can navigate their challenges more effectively, leading to a more balanced and fulfilling life.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram One's sharing their experience</h2>
 
@@ -201,15 +202,15 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 1s</h2>
 
 <FamousTypes type={1} />
 
-</article>
+</section>
 <!-- <h2>Psychologist Studies Relevant to the Enneagram 1
 - Concepts become forces when they resist one another: categorized as fear of being wrong as it pertains to the nature of concepts and how they interact with one another. Johann Friedrich Herbart -->
 

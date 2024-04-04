@@ -17,13 +17,15 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth. These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.</p>
+<p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p> 
+
+These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
 
 <br>
 <Carousel type={5} gridDisplay={true}/>
 <br>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>Enneagram 5 Description</h2>
 
@@ -43,9 +45,9 @@ Key traits of the Enneagram Type 5 personality include:
 
 As insightful and wise individuals, Type 5s offer unique perspectives and ideas. Their journey towards integrating emotional connections and embracing more open interactions can significantly enrich their relationships and enhance their overall life experience.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 5</h2>
 
@@ -64,9 +66,9 @@ Type 5 individuals possess several strengths that make them valuable team or com
 <li>Academic or Scientific Writing: Their depth of knowledge and insight contributes significantly to their field.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 5</h2>
 
@@ -76,13 +78,13 @@ While Type 5 individuals possess many strengths, they also face several challeng
 - Isolation: Type 5 individuals value their privacy and solitude, which can lead to isolation and lack of social connection.
 - Overthinking: Type 5 individuals have a tendency to overthink and overanalyze, which can lead to stress and anxiety.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 5</h2>
 
@@ -94,9 +96,9 @@ Enneagram Type 5s are motivated by a core desire for knowledge, understanding, a
 - To be competent: Type 5s value competence and expertise and are motivated to develop their skills and abilities in their areas of interest. They may take pride in their knowledge and expertise and seek recognition for their achievements.
 - To find meaning and purpose: Type 5s may be motivated by a desire to find meaning and purpose in their pursuits. They may seek to contribute to society or to make a difference in their field of interest.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 5</h2>
 
@@ -110,15 +112,15 @@ Typical fears of Enneagram Type 5s may include:
 - Being trapped or confined: Type 5s fear being trapped in situations or relationships that limit their freedom and independence.
 - Being dependent on others: Type 5s fear that they will be dependent on others for support or resources, which could leave them feeling vulnerable and exposed.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 5s Under Stress</h2>
 
 Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When they're under stress, they might become more impulsive and distractible and struggle with feeling overwhelmed and out of control. They might also need help to focus on one thing at a time and make decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -128,7 +130,7 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 5's Childhood</h2>
 
@@ -141,9 +143,9 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 - **Thoughts and Feelings**: Felt safest in their world of thoughts and theories, often felt misunderstood or alienated by their peers.
 - **View on Childhood**: May reminisce about the freedom of exploration and learning but also recognize a sense of emotional isolation and a longing for deeper connections they might have missed.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 5 in relationships</h2>
 
@@ -151,9 +153,9 @@ In relationships, individuals with a Type 5 personality may struggle with emotio
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 5 in the Workplace</h2>
 
@@ -165,9 +167,9 @@ While they are often highly skilled and knowledgeable in their areas of expertis
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 5 Personalities</h2>
 
@@ -185,9 +187,9 @@ Critical strategies for growth include:
 
 By focusing on these areas, Type 5 individuals can grow beyond their comfort zones, leading to a more balanced and fulfilling personal and professional life.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Five's sharing their experience</h2>
 
@@ -195,15 +197,15 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8-vZtfZB7Is?si=V1HyruLDiNU4OtYs" title="Enneagram 5 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 5s</h2>
 
 <FamousTypes type={5} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
 - 24 hours after learning something, we forget two-thirds of it: categorized as fear of being incapable as it pertains to the limitations of human memory - Herman Ebbinghaus

@@ -17,13 +17,15 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Enneagram Type 3s are known as "The Achiever." They are the most ambitious and success-driven personality types. They strongly desire to excel in their chosen field and are highly motivated to achieve their goals. The three's secret weapon is their ability to adapt to any situation or environment.</p>
 
-<br>
 <Carousel type={3} gridDisplay={true} />
 <br>
 
-<article class="section-content">
+<p class="firstLetter">Enneagram Type 3s are known as "The Achiever."</p>
+
+They are the most ambitious and success-driven personality types. They strongly desire to excel in their chosen field and are highly motivated to achieve their goals. The three's secret weapon is their ability to adapt to any situation or environment.
+
+<section class="section-content">
 
 <h2>Enneagram 3 Description and Characteristics</h2>
 
@@ -45,9 +47,9 @@ They are in the shame triad, which means they have high emotional intelligence. 
 <li><strong>Identity Puzzle:</strong> Beneath the polished surface, a confusing mix of roles masks their true self. Connecting with their core needs and accepting imperfections is crucial for authentic growth.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 3</h2>
 
@@ -74,9 +76,9 @@ Their strengths include
   <li><strong>Building Business Empires</strong>: Their ambition and efficiency make them natural entrepreneurs. They turn ideas into successful ventures, driving innovation and growth. Mant visionary founders building the next billion dollar companies are Enneagram 3s.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 3</h2>
 
@@ -104,13 +106,13 @@ While Type 3 individuals are renowned for their drive and efficiency, they face 
   Type 3s often feel they are only as valuable as their latest achievement. This dependence on external success for self-validation can lead to a constant fear of being 'exposed' as a failure, driving them to continuously seek new accomplishments, often at the expense of deeper personal fulfillment.</li>
 </ul>
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of Enneagram Type 3s</h2>
 Enneagram Type 3 individuals, "The Achievers," are driven by a complex web of motivations that fuel their relentless pursuit of success. While we've explored their strengths and weaknesses, it's essential to understand what drives them and how they stay motivated to achieve their goals.
@@ -134,9 +136,9 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
   <li><strong>Social Support:</strong> Surrounding themselves with a supportive network of friends, mentors, and colleagues who appreciate their achievements and provide encouragement is vital for Type 3s. Positive feedback and reinforcement boost their motivation.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 3</h2>
 
@@ -146,9 +148,9 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
 - **Fear of being exposed as a fraud**: Type 3s may worry that their success and accomplishments are not truly deserved or that they hide their true selves to maintain their image. They may fear being exposed as a fraud or imposter.
 - **Fear of vulnerability**: Type 3s may have difficulty showing their vulnerable side or admitting to their weaknesses. They may fear being seen as weak or inferior and work hard to maintain a solid and successful image.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 3s Under Stress</h2>
 
@@ -172,7 +174,7 @@ Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonio
 
 Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -182,7 +184,7 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 3's Childhood</h2>
 
@@ -195,9 +197,9 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 - **Thoughts and Feelings**: Felt a constant drive to achieve and be recognized, often equating success with self-worth. They may have struggled with the fear of failure and needing approval.
 - **View on Childhood**: Likely view their early years as a foundation for their ambition and success. However, there may be a loss for not experiencing a more balanced childhood, where they could be valued for themselves rather than their accomplishments.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 3 in relationships</h2>
 
@@ -226,9 +228,9 @@ Enneagram Type 3s bring a dynamic and engaging energy to their relationships. Th
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 3 in the Workplace</h2>
 
@@ -242,9 +244,9 @@ However, Type 3s may struggle with work-life balance, as they can sometimes prio
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>Career Paths</h2>
 
@@ -257,9 +259,9 @@ Enneagram Type 3 individuals excel in careers that allow them to use their natur
 - Acting or entertainment
 - Standup comedy
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 3 Personalities</h2>
 
@@ -271,9 +273,9 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
 - Developing Empathy: Type 3s can benefit from developing their empathy and emotional intelligence. By learning to understand and relate to the experiences and emotions of others, they can become better leaders, team players, and communicators.
 - Focusing on Personal Growth: Type 3s can benefit from focusing on personal growth and development rather than solely on achieving external goals. By setting personal goals related to their emotional well-being, relationships, and personal growth, they can experience greater fulfillment and satisfaction in life.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Three's sharing their experience</h2>
 
@@ -281,15 +283,15 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m0uAC0cU9Z4?si=HPZFqXqkGdqa-eio" title="Enneagram 3 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 3s</h2>
 
 <FamousTypes type={3} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 3
 - The intelligence of an individual is not a fixed quantity: categorized as desire for success and recognition as it pertains to the nature of intelligence and how it can be developed and improved - Alfred Binet

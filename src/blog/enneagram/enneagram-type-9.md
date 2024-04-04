@@ -17,13 +17,15 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships. They are empathetic, optimistic, and strongly desire to create a peaceful and comfortable environment for themselves and others. In this article, we will explore the Enneagram Type 9 personality in detail, including their strengths, weaknesses, and how they can better understand themselves.</p>
 
-<br>
 <Carousel type={9}  gridDisplay={true}/>
 <br>
 
-<article class="section-content">
+<p class="firstLetter">Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships.</p>
+
+They are empathetic, optimistic, and strongly desire to create a peaceful and comfortable environment for themselves and others. In this article, we will explore the Enneagram Type 9 personality in detail, including their strengths, weaknesses, and how they can better understand themselves.
+
+<section class="section-content">
 
 <h2>Enneagram 9 Description</h2>
 
@@ -38,9 +40,9 @@ Some of the key personality traits of the Enneagram Type 9 personality include:
 - Diplomatic and tactful
 - Creative and imaginative
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 9</h2>
 
@@ -64,9 +66,9 @@ Some of the key strengths of the Enneagram Type 9 personality include:
 <li>Community Building: Their knack for creating a peaceful and welcoming environment strengthens community bonds.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔Weaknesses/ Challenges of an Enneagram 9</h2>
 
@@ -81,13 +83,13 @@ Some of the critical weaknesses of the Enneagram Type 9 personality include:
 - Tendency to become overly accommodating or indecisive
 - Struggle to set clear boundaries or say no to others
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 9</h2>
 
@@ -97,9 +99,9 @@ Type 9s often need help with indecisiveness, as they want to make everyone happy
 
 Type 9s seek to avoid anything that may disrupt their sense of inner calm, including conflict, stress, and change. They may engage in behaviors such as procrastination or avoidance to maintain this sense of peace and avoid any potential discomfort.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 9</h2>
 
@@ -109,15 +111,15 @@ Enneagram Type 9 individuals may also fear their anger and assertiveness. They m
 
 Additionally, Enneagram Type 9 individuals may fear making the wrong decision or taking action that could lead to conflict or loss. They may struggle with making choices and taking risks because they fear the consequences of making mistakes or upsetting others.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯Enneagram 9s Under Stress</h2>
 
 Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They might become more fearful, paranoid, indecisive, and hesitant when they're under stress. They might also struggle with feeling uncertain and insecure about the future. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -127,7 +129,7 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 9's Childhood</h2>
 
@@ -140,9 +142,9 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They
 - **Thoughts and Feelings**: A deep desire for inner and outer peace, often at the cost of neglecting their own needs and aspirations.
 - **View on Childhood**: Reflects on it as a period of comfort but also recognizes a pattern of self-neglect and a struggle to assert their own identity and desires.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 9 in relationships</h2>
 
@@ -154,9 +156,9 @@ Enneagram Type 9 individuals may also be hesitant to make decisions or take acti
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 9 in the Workplace</h2>
 
@@ -170,9 +172,9 @@ Enneagram Type 9 individuals may excel in roles that require a calm and supporti
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 9 Personalities</h2>
 
@@ -186,9 +188,9 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 - Embrace your creativity and imagination and use it to find unique solutions to problems.
 - Practice self-care and prioritize your needs to avoid becoming complacent or neglecting your well-being.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Nine's sharing their experience</h2>
 
@@ -196,15 +198,15 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VJ3nZIXKvqc?si=8iVvz94DxQzFEPCl" title="Enneagram 9 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 9s</h2>
 
 <FamousTypes type={9} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 9
 - It is notoriously inadequate to take an adopted child into one's home and love him, categorized as fear of conflict as it pertains to the challenges of integrating a new family member into an existing dynamic. - Donald Winnicott -->

@@ -17,13 +17,14 @@ type: ['overview']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram. Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.</p>
-
-<br>
 <Carousel type={7} gridDisplay={true} />
 <br>
 
-<article class="section-content">
+<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram.</p> 
+
+Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.
+
+<section class="section-content">
 
 <h2>Enneagram 7 Description</h2>
 
@@ -41,9 +42,9 @@ Distinct traits of Type 7s include:
 
 Type 7s infuse their surroundings with energy and joy as dynamic and optimistic individuals. Their creativity and adaptability are tremendous assets, but they also face challenges in managing their fear of missing out and cultivating commitment and follow-through in their endeavors.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 7</h2>
 
@@ -63,9 +64,9 @@ Type 7 individuals possess several strengths that make them valuable team or com
 <li>Teaching or Training Roles: Their lively and engaging approach keeps learners interested and motivated.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 7</h2>
 
@@ -73,21 +74,21 @@ Type 7 individuals possess several strengths that make them valuable team or com
 - Lack of commitment: Type 7s need help with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
 - Avoidance of negative emotions: Type 7s can struggle with negative emotions and may avoid dealing with them by seeking out new experiences or distracting themselves in other ways.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 7</h2>
 
 Type 7s are motivated by the desire for new experiences and adventure. They want to feel alive and engaged with the world around them. They fear missing out and can struggle with feeling trapped or limited in any way. They want to be accessible to explore and create and can feel restless or unhappy when stuck in routine or monotony.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 7</h2>
 
@@ -97,15 +98,15 @@ Another fear of Type 7s is missing out on experiences or opportunities. They hav
 
 Finally, Type 7s may also fear experiencing difficult or painful emotions. They may avoid or suppress negative feelings, preferring to focus on positive experiences and emotions. This can sometimes lead to a lack of emotional depth or intimacy in their relationships and a tendency to avoid dealing with critical issues or conflicts.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 7s Under Stress</h2>
 
 Their stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking. They might also struggle with feeling anxious and overwhelmed by the demands of life. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -115,7 +116,7 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 7's Childhood</h2>
 
@@ -128,9 +129,9 @@ Their stress number is Type 1. Type 1s are principled, ethical, and perfectionis
 - **Thoughts and Feelings**: A deep-seated fear of missing out and a desire to maintain personal freedom and happiness.
 - **View on Childhood**: Remembers it as a time of adventure and exploration but may acknowledge a pattern of escapism and surface-level engagements.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 7 in relationships</h2>
 
@@ -142,9 +143,9 @@ To help Type 7s thrive in relationships, they need a partner who shares their se
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 7 in the Workplace</h2>
 
@@ -156,9 +157,9 @@ To help Type 7s thrive in the workplace, providing them with various tasks and o
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 7 Personalities</h2>
 
@@ -168,9 +169,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 - Learn to face and accept negative emotions: Type 7s tend to avoid negative emotions, but learning how to meet and get them is essential. Therapy or counseling can help Type 7s work through their emotions and develop emotional resilience.
 - Practice gratitude and appreciation: Type 7s focus on the future and overlook the present. However, practicing gratitude and appreciation for the present moment can help Type 7s develop a sense of contentment and fulfillment.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Seven's sharing their experience</h2>
 
@@ -178,15 +179,15 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cl_fHZZhjJA?si=lV6zaD8J8BdUjBMo" title="Enneagram 7 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 7s</h2>
 
 <FamousTypes type={7} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 7
 - The sight of tasty food makes a hungry man's mouth water: categorized as the desire for pleasure and excitement as it pertains to the pleasures of the senses - Ivan Pavlov

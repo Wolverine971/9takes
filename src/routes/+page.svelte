@@ -4,6 +4,7 @@
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	export let data: PageData;
 
 	let innerWidth = 0;
@@ -56,14 +57,19 @@
 						>
 					</h1>
 					<p style="font-size: 1.5rem; font-weight: 700;">
-						Find out what people <br /> think, feel, and do
+						<span class="purple-text">9takes</span> is a question and answering platform <br />where
+						you can find out what people
+						<br />
+						<span class="purple-text">think</span>,
+						<span class="purple-text">feel</span>, and
+						<span class="purple-text">do</span>
 					</p>
 					<a
 						href="/questions"
 						class="btn btn-primary questionLink"
 						style="border: 1px solid; font-size: x-large;"
 					>
-						ask the question <RightIcon
+						ask your questions<ArrowRightIcon
 							iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
 							height={'1.5rem'}
 							fill={'#5407d9'}
@@ -276,6 +282,9 @@
 {/if}
 
 <style lang="scss">
+	.purple-text {
+		color: #260958;
+	}
 	.small-h4 {
 		// color: #262626;
 		font-size: 17px;

@@ -22,15 +22,16 @@ enneagram 6 wing 7
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner." They are the quintessential team players and are highly committed to their relationships and communities. Enneagram 6s value security, safety, and stability and can be apprehensive when threatened. They are wary of who to trust but seek a sense of belonging. The often form strong bonds with their friends, family, and colleagues.</p>
-
-The Loyalist's core emotion is fear. They are constantly on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which increases their sense of safety but it can hold them back.
-
-<br>
 <Carousel type={6} gridDisplay={true}/>
 <br>
 
-<article class="section-content">
+<p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner."</p>
+
+ They are the quintessential team players and are highly committed to their relationships and communities. Enneagram 6s value security, safety, and stability and can be apprehensive when threatened. They are wary of who to trust but seek a sense of belonging. The often form strong bonds with their friends, family, and colleagues.
+
+The Loyalist's core emotion is fear. They are constantly on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which increases their sense of safety but it can hold them back.
+
+<section class="section-content">
 
 <h2>Enneagram 6 Description</h2>
 
@@ -43,9 +44,9 @@ The Enneagram Type 6 personality has several core traits that define their world
 - Preparation: To mitigate potential risks and reduce anxiety, Type 6 personalities often engage in extensive preparation and planning. They may be highly organized and detail-oriented and seek guidance and reassurance from others before making important decisions.
 - Skepticism: Type 6 personalities can be somewhat skeptical and distrustful of others, particularly those they perceive as threatening their sense of security. They may be highly attuned to potential risks and only trust others once they have proven trustworthy.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 6</h2>
 
@@ -59,21 +60,21 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 <li>Team Sports: Their loyalty and team spirit boost group morale and effectiveness.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 6</h2>
 
 While Type 6s have many strengths, they also have some weaknesses. One of their most significant weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6s can have difficulty trusting their abilities and may need help with self-doubt.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 6</h2>
 
@@ -83,9 +84,9 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 - Preparation and Planning: Type 6s may plan and prepare for potential problems or challenges. They may be skilled at anticipating risks and have a knack for problem-solving.
 - Adherence to Rules and Authority: Type 6s may value adherence to rules and authority and may have a strong sense of duty or responsibility. They may be drawn to structures or systems with clear expectations and guidelines.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 6</h2>
 
@@ -95,15 +96,15 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 - Fear of Conflict: Type 6 may fear confrontation or conflict, as it can threaten their sense of security and stability. They may try to avoid conflicts or appease others to maintain harmony.
 - Fear of being blamed: Type 6 may fear being blamed for mistakes or adverse outcomes and may avoid taking risks or making decisions that could lead to criticism or failure.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 6s Under Stress</h2>
 
 Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. When they're under stress, they might become more obsessed with success and achievement, as well as competitive and envious of others. They might also feel anxious and insecure about their abilities and worth. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -113,7 +114,7 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 6's Childhood</h2>
 
@@ -126,9 +127,9 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 - **Thoughts and Feelings**: A constant search for security and stability, often battling internal anxieties and doubts.
 - **View on Childhood**: Reflects on the protective aspects of their cautious nature but may yearn for the carefree experiences they missed due to their anxieties and fears.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 6 in relationships</h2>
 
@@ -141,9 +142,9 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 6 in the Workplace</h2>
 
@@ -155,9 +156,9 @@ To get the best out of a Type 6 employee, it's essential to provide clear guidel
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>Behaviors and Interactions</h2>
 
@@ -168,9 +169,9 @@ The Enneagram Type 6 personality exhibits several key behaviors and tendencies i
 - Indecision: Type 6 personalities may need more preparation and planning to make crucial decisions. They may seek out reassurance and guidance from others before making a final choice.
 - Anxiety and Worry: Type 6 personalities may experience high levels of anxiety and worry, particularly when it comes to potential risks and threats. They may engage in worst-case-scenario thinking and struggle to remain calm in high-stress situations.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>Growth Opportunities</h2>
 
@@ -180,9 +181,9 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 - Self-Confidence: Type 6 personalities may benefit from building greater self-confidence and learning to trust their instincts and decisions.
 - Mindfulness: Type 6 personalities may benefit from cultivating
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 6 Personalities</h2>
 
@@ -192,9 +193,9 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 - Develop Independence: Type 6s can sometimes struggle with being overly dependent on others for their sense of security. Being self-sufficient and independent can help them build confidence and feel more in control of their lives.
 - Cultivate Positive Relationships: Enneagram Type 6s thrive in supportive and positive relationships, but it's essential to be selective about the people they surround themselves with. Cultivating relationships with supportive, trustworthy, and uplifting individuals can help Type 6s feel more secure and confident in themselves.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Six's sharing their experience</h2>
 
@@ -202,15 +203,15 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQ2c0d5wP30?si=yFjB_iT43oWS7Yh3" title="Enneagram 6 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 6s</h2>
 
 <FamousTypes type={6} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 6
 - Anyone, regardless of their nature, can be trained to be anything: categorized as the desire for safety and support as it pertains to the importance of training and education in shaping a person's abilities - John B. Watson

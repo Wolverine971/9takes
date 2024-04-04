@@ -17,13 +17,15 @@ type: 'overview'
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Enneagram Type 4 is known as The Individualist and is one of the three types in the Feeling Center/ Heart Triad. This means they make decisions based on emotions and strongly connect to their inner world. Type 4 individuals deeply desire to be unique and express themselves creatively. They often feel like they don't quite fit in and may struggle with longing or melancholy.</p>
 
-<br>
 <Carousel type={4} gridDisplay={true} />
 <br>
 
-<article class="section-content">
+<p class="firstLetter">Enneagram Type 4 is known as The Individualist and is one of the three types in the Feeling Center/ Heart Triad.</p>
+
+Being in the Feeling Center or Heart Triad means that they make decisions based on emotions and strongly connect to their inner world. Type 4 individuals deeply desire to be unique and express themselves creatively. They often feel like they don't quite fit in and may struggle with longing or melancholy.
+
+<section class="section-content">
 
 <h2>Enneagram 4 Description</h2>
 
@@ -41,9 +43,9 @@ Critical characteristics of Type 4 personalities include:
 - Strong sense of individuality
 - May struggle with feelings of envy and self-doubt
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💪 Strengths of an Enneagram 4</h2>
 
@@ -59,21 +61,21 @@ Enneagram Type 4 individuals are also known for their empathy and compassion. Th
 <li>Music or Performing Arts: Their expressiveness and individuality captivate and move audiences.</li>
 </ul>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤔 Weaknesses/ Challenges of an Enneagram 4</h2>
 
 Individualists can be moody and withdrawn, making forming and maintaining relationships difficult. They can also be prone to self-doubt and insecurity, holding them back from pursuing their goals. Additionally, they may struggle with feeling misunderstood and disconnected from others.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧸 An Enneagram 4's Childhood</h2>
 
@@ -86,9 +88,9 @@ Individualists can be moody and withdrawn, making forming and maintaining relati
 - **Thoughts and Feelings**: Intensely emotional, they may have experienced a profound sense of longing or unfulfilled desire, feeling a deep connection to the beauty and pain in the world.
 - **View on Childhood**: Often romanticized as a period of deep emotional experiences but also marred by feelings of alienation.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🧭 Motivations of an Enneagram 4</h2>
 
@@ -98,9 +100,9 @@ Type 4s are highly individualistic and strive to express their unique identity t
 
 At the same time, Type 4s may also struggle with a sense of self-doubt and may believe that they are not good enough or that they do not measure up to others. They may envy others who seem to have a more fulfilling life or a stronger sense of self.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>😨 Fears of an Enneagram 4</h2>
 
@@ -108,15 +110,15 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 - Feel that they are missing something essential that others possess, and they are driven to find that missing piece. This can lead them to pursue creativity, beauty, and authenticity to express their unique identity and stand out.
 - Fear of abandonment, which can manifest in a belief that others will inevitably leave or reject them. They may feel that their flaws or vulnerabilities will make them unlovable and unworthy of connection, causing them to withdraw or push others away before they can be rejected.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤯 Enneagram 4s Under Stress</h2>
 
 Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When they're under stress, they might become more emotionally needy and dependent on others, as well as manipulative and controlling in their relationships. They might also struggle with feeling unlovable or inadequate. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
-</article>
+</section>
 
 <div class="scroll-table">
 
@@ -126,7 +128,7 @@ Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When
 
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>👫 An Enneagram 4 in relationships</h2>
 
@@ -138,9 +140,9 @@ In relationships, Type 4s may struggle with jealousy or insecurity, particularly
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>💼 An Enneagram 4 in the Workplace</h2>
 
@@ -152,9 +154,9 @@ In the workplace, Type 4s may struggle with boredom or restlessness, particularl
 
 Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌱 Growth and Development for Type 4 Personalities</h2>
 
@@ -170,9 +172,9 @@ To foster personal growth, Type 4s can focus on:
 
 By addressing these areas, Type 4 individuals can effectively navigate their challenges, leading to a more balanced and fulfilling life.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🤝 Enneagram Four's sharing their experience</h2>
 
@@ -180,15 +182,15 @@ By addressing these areas, Type 4 individuals can effectively navigate their cha
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BySvn_zyTnY?si=62xJaQdTFhx-vmBH" title="Enneagram 4 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
 <h2>🌟 Famous Enneagram 4s</h2>
 
 <FamousTypes type={4} />
 
-</article>
+</section>
 
 <!-- ## Psychologist Studies Relevant to the Enneagram 4
 - Be that self which one truly is: categorized as a desire to be unique and special as it pertains to embracing one's true self - Soren Kierkegaard
