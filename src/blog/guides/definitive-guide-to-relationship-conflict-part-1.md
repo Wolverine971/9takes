@@ -4,7 +4,7 @@ description: 'Navigate relationship conflict with this guide. Learn to avoid com
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
-lastmod: '2024-01-26'
+lastmod: '2024-04-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,7 +17,6 @@ pic: 'greek-statue-having-a-disagreement'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as we know, love isn't always a bed of roses. Conflicts are inevitable in any relationship. The question isn't if you'll fight but how, when, and what you will fight about. This guide aims to be your go-to resource for navigating relationship conflicts. We'll delve into common pitfalls, prevention tips, and practical steps to turn disagreements into opportunities for growth.</p>
 
 <div
   style="display: flex;
@@ -34,19 +33,27 @@ pic: 'greek-statue-having-a-disagreement'
   />
 </div>
 
-## The Importance of Conflict Management
+<p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as you might have heard love isn't always a bed of roses.</p>
+
+Conflict is inevitable. The question isn't if you'll fight but when, how, and over what. This guide aims to be your go-to resource for navigating that relationship conflict. Here we will go over the common pitfalls, and practical steps, and prevention tips to turn disagreements into opportunities for growth.
+
+## Reframing Conflict
 
 ### Is Conflict bad? No
 
-First things first, Conflict is necessarily a good thing. It has been said that Conflict is growth trying to happen. So try to frame it that way when you bump into it next time. It can be an opportunity for growth and understanding. However, how you manage Conflict can make or break your relationship. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, author of several successful relations books, says your conflict style can erode trust or build a stronger bond between you and your partner.
+Conflict can be a good thing.
 
-Gotman talks about
+My therapist once told me "conflict is growth trying to happen." Consider that for a moment. The reason you are fighting is because something important is at stake. The conflict arises out of the struggle to understand the needs, wants, views and beliefs of another person.
 
-## The Four Horsemen: Conflict Styles to Avoid
+People and especially couples develop patterns when conflict arises. These patterns are usually bad and have the potential to break your relationship over time. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, a revered expert when it comes to relationship conflict, he says that these patterns are either woring to erode trust or to build a stronger bond.
 
-### What are the Four Horsemen?
+Gotman has written about "The Four Horsemen" bad conflict.
 
-Dr. John Gottman talks about <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a>. He calls them the four horsemen. The four pitfalls are criticism, contempt, defensiveness, and stonewalling. These pitfalls or tendencies can rip at the very fabric of your relationship if not addressed.
+## What are the Four Horsemen?
+
+The Four Horsemen are the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a> that have been identified through relationship research. These four pitfalls lead to the end of relationships. The four horsemen are criticism, contempt, defensiveness, and stonewalling. 
+
+Here we will explain the patterns behind each of the pitfalls.
 
 #### Criticism
 
@@ -85,11 +92,13 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
 
 Now that we have identified some of the pitfalls. Let's get into how to fight well.
 
-## The Art of Fighting Fair
+## The Art of Fighting Well
 
 ### Focus on the Issue, Not the Person
 
-The issue is not your partner or the person you are fighting. The problem is how the situation is being handled. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done.
+The issue is not your partner or the person you are fighting.
+
+The problem is how the situation is being handled and the patterns you are falling into. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done.
 If the situation were handled differently, you would not be fighting.
 
 Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
@@ -122,17 +131,19 @@ Conflicts are opportunities for you and your partner to align on values and outc
 
 ## Practical Steps for Conflict Resolution
 
+The following is a checklist of things to think about before trying to resolve your conflict.
+
 ### Step 1: Self-Examination
 
 Before diving into the Conflict, examine your focus. Are you focused on building a beautiful, passionate relationship, or are you focused on defending yourself? Your focus determines the direction of your relationship.
 
 ### Step 2: Open Dialogue
 
-Open and honest communication is crucial. Avoid blame games and focus on understanding each other's perspectives.
+Open and honest communication is crucial. Avoid blame games and focus on understanding each other's perspectives. If you are too heated and angry you are not going to have a productive dialogue. Give yourself time to gather your thoughts before rushing to vent or rant.
 
 ### Step 3: Seek to Understand
 
-Put yourself in your partner's shoes. Try to understand their feelings, needs, and viewpoints.
+Put yourself in your partner's shoes. Try to understand their feelings, needs, and viewpoints. If you are completely lost, say that. Be vulnerable and say that you are having a hard time understanding where the other person is coming from.
 
 ### Step 4: Find Common Ground
 
@@ -141,13 +152,15 @@ Identify shared goals and values. This common ground will serve as the <a class=
 <!-- >Looking for more practical steps?
 >Check out our blog on 5 Steps to Fight Better in Relationships. -->
 
-## Conclusion
+## Wrap up
 
-Relationship conflict is inevitable, but it doesn't have to be destructive. By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. Remember, the goal isn't to win the argument but to strengthen the relationship.
+As mentioned before conflict is inevitable, but it doesn't have to be destructive.
+
+By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. Remember, the goal isn't to win the argument but to strengthen the relationship.
 
 I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding Conflict.
 
-<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-2" >Part 2 ➡️</a>
+<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-2" >Part 2 </a>
 
 ### Footnotes/ References
 
@@ -179,7 +192,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-26"
+        "@value": "2024-04-05"
       },
       "datePublished": {
         "@type": "Date",
