@@ -24,9 +24,6 @@ pic: 'greek-sculpture-on-a-laptop'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
-
-Online discussions are not for the faint of heart. They are little battlegrounds where opposing ideologies duke it out. You are either 'for' or 'against' whatever the topic. This polarizing dynamic fosters mimicry or memetic behavior. We copy the people we like and look up to.
 
 <div
   style="display: flex;
@@ -44,6 +41,10 @@ Online discussions are not for the faint of heart. They are little battlegrounds
 
 </div>
 
+<p class="firstLetter">He who is without sin cast the first stone- John 8:7<p>
+
+Online discussions are not for the faint of heart. They are little battlegrounds where ideologies duke it out. You are either 'for' or 'against' whatever the topic. This polarizing dynamic fosters mimicry or memetic behavior. We copy the people we like and look up to.
+
 <!-- breaking the memetic hold, say something nice about someone you disagree with -->
 
 <!-- Maybe someone we like supports X, so we  -->
@@ -58,7 +59,9 @@ René Girard's concept of mimesis centers on the idea that human desires, intere
 
 ### Mimesis Online
 
-In the online world, this mimetic behavior becomes even more pronounced. With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
+In the online world, this mimetic behavior becomes even more pronounced. 
+
+With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
 
 <!-- To counteract this trend, it's crucial to foster a culture that values diverse opinions and encourages critical thinking, moving beyond the initial reactions that are so easily mimicked online. -->
 

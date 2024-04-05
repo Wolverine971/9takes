@@ -22,7 +22,6 @@ pic: 'husband-and-wife'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Marriage is a forcing function for developing emotional intelligence. At least, that is how it has been for me. When I married my wife, we were in marital bliss, yet we seemed to be fighting more than we thought typical. Our ways of resolving our conflict kept failing, and we eventually turned to personality tests to help us understand each other.</p>
 
 <div
     style="display: flex;
@@ -39,13 +38,23 @@ margin: 1rem 0;"
     />
 </div>
 
-After we failed multiple times to resolve our conflict using our own devices, we went to counseling. The counselor helped get the conversation going where we could listen to each other. Once we could hear each other, we realized we were jumping to conclusions on autopilot. Over time, we learned that different things we say to each other mean different things. I didn’t like the word “trigger,” but it seemed like a trigger was the best word to describe jumping to conclusions we were each experiencing.
+<p class="firstLetter">Marriage is a forcing function for developing emotional intelligence.</p> 
 
-We slowly discovered our differences. Intellectually, we knew we were different, but we were getting surprised every time the other person wasn’t seeing eye to eye with us. We were slowly learning about the slew of baggage that we each carried.
+At least, that is how it has been for me. When I married my wife, we were in marital bliss, yet we seemed to be fighting more than we thought typical. Our ways of resolving our conflict kept failing, and we eventually turned to personality tests to help us understand each other.
 
-The trick we learned was how to listen to each other. It’s not about quietly letting the other person talk but about making the other person feel like you understand them. This is something FBI hostage negotiator Chris Voss talks about.
+## What We Learned Through Therapy and Personality Tests
 
-He talks about how negotiations aren’t about logic but about making the other side feel heard and understood.
+After my wife and I failed multiple times to resolve our conflict, we went to counseling.
+
+At the time we could not start the conversation without it quickly leading to yelling or tears. The counselor helped us get the conversation going where we could both listen to each other. We will dive deeper into what it means to listen later but once we started listening, we realized we were stuck in some negative patterns. We were jumping to conclusions and operating on autopilot. After multiple sessions, we learned that different things we say to each other mean completely different things. I didn't like the word “trigger,” but that is exactly what was happening when certain words were mentioned. We were being triggered and rushing to conclusions via our thoughts and emotions.
+
+Over time we were narrowed in on our differences. This is where the personality tests came in, more on that later. Intellectually, we knew we were different, but we were getting surprised every time the other person wasn’t seeing things our way. We were slowly learning about the slew of baggage that we each carried.
+
+## How To Listen
+
+The trick we learned though counseling was how to listen to each other. It’s not about quietly letting the other person talk. It is about making the other person feel like you understand them.
+
+This is echoed by FBI hostage negotiator Chris Voss. He talks about how negotiations aren’t about logic but about making the other side feel completely understood.
 
 <div class="iframe-container" >
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8EguLJgkc54?si=eBarFdPjKOxM8nRW&amp;start=2203" title="Chris Voss talking about the feeling of being heard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -55,7 +64,9 @@ We learned that most of your relationship problems can be sorted out if you slow
 
 ## When you don't feel understood
 
-People do crazy things when they don’t feel understood. They say, “You are not listening to me.” The other side may be listening, but they must seek to understand. They may be butting in and interrupting. They may be thinking about counter-examples and comebacks. There are many reasons why someone might feel like they need to be listened to, which creates a gap between the two sides.
+People do crazy things when they don’t feel understood.
+
+They say, “You are not listening to me.” The other side may be listening, but they must seek to understand. They may be butting in and interrupting. They may be thinking about counter-examples and comebacks. There are many reasons why someone might feel like they need to be listened to, which creates a gap between the two sides.
 
 When an individual feels that they are not being heard, it can lead to a range of emotions. They might feel anger towards the person who is not listening. Their fear may grow if they feel like the other side isn’t listening when discussing topics that evoke fear. Additionally, if a person feels like they are being ignored, this can foster insecurity where they feel like they are less worthy of being heard.
 

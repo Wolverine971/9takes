@@ -4,7 +4,7 @@ description: 'The Overlooked Gem: Personality in the Modern Psychological Discou
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2023-12-24'
+lastmod: '2024-04-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,8 +17,6 @@ pic: 'greek-mind'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
-<p class="firstLetter">The mind is too complex to be understood by anyone who has yet to look at all the peer-reviewed studies.</p>
 
 <div
     style="display: flex;
@@ -35,9 +33,15 @@ margin: 1rem 0;"
     />
 </div>
 
-## The Overlooked Gem: Personality in the Modern Psychological Discourse
+<p class="firstLetter">The mind can only be understood by experts who have the educational background. It is too complex.</p>
 
-Tangible, empirical evidence reigns supreme. No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality?
+Ya right.
+
+## The Overlooked Gem: Personality Theory
+
+Yes, tangible, empirical evidence reigns supreme.
+
+No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality?
 
 <!-- What if how we interact with our emotions determines
 
@@ -63,13 +67,22 @@ These approaches are far from what Freud and Jung were trying to do.
 
 ### The Software vs. Hardware of the Human Mind
 
-The mind can be likened to a computer. While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
+The mind can be likened to a computer. 
 
-## We need to get back to understanding the Archetypes
+While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
 
-The idea of archetypes goes back to Greek mythology. The Greeks did not have a word for archetypes, but each of the gods served as an archetype because they had associated behaviors and emotions. There were both cautionary tales and inspirational stories related to the gods. These stories and archetypes, though imperfect, helped form the Greek culture. It served as a tool for a green citizen to understand his place in the culture and the world. We need to look at archetypes and personalities and the emotions associated with their formation. Emotions, thoughts, and dreams, integral to our humanity, may not be quantifiable, but they remain a gap in our understanding of the psyche. It's time to re-embrace psychoanalysis and explore the depths of the human mind, going beyond what is immediately observable.
+## Archetypes Reveal the Way
 
-### Modern Day proponents of the less tangible aspects of psychology
+The Greeks understood the importance of archetypes.
+
+The Greeks had gods that were flawed. The gods gave the Greeks both cautionary tales of what not to do and inspirational stories. These stories and archetypes, though imperfect, helped form the Greek culture. 
+
+<!-- TODO needs work here -->
+Today we have no shared archetypes for classifying the way people think feel and behave. We do however recognize patterns. Sometimes stories are more accurate that facts. We may not know the science be we recognize the emotions thought patterns and behaviors behind what people do. These archetypes serve as a way for the common man to make sense of others and himself.
+
+It's time to re-embrace these archetypes and use the imperfect tool of psychoanalysis to explore the depths of the human mind, going beyond what is immediately observable.
+
+### Advocates of the Less Tangible Aspects of Psychology
 
 The following contemporary thinkers and practitioners are leading a renaissance in understanding the depths of our internal experiences, championing the exploration of emotions, personal narratives, and the subtle complexities of human behavior.
 
@@ -133,7 +146,7 @@ https://a16z.com/author/vijay-pande/
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-24"
+        "@value": "2024-04-05"
       },
       "datePublished": {
         "@type": "Date",

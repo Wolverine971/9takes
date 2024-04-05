@@ -4,7 +4,7 @@ description: 'Do we sway between being rational or irrational? Or is it more com
 author: 'DJ Wayne'
 date: '2023-05-13'
 loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
-lastmod: '2024-01-06'
+lastmod: '2024-04-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,20 +18,24 @@ pic: 'greeks-debating-human-nature'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Is there a definition of human nature? Did we come to some consensus? Is there a peer-reviewed study that shows what human nature is? No, but there have been two main perspectives that keep popping up that are worth looking at.</p>
-
-One theory of human nature is about how humans fluctuate between being logical and illogical, and our goal is to be rational. The other theory is more complicated and less explored. The philosophers Plato and Aristotle had opposing views on this, and this mirrors the opposing views of the psychologists Sigmund Freud and Steven Pinker.
-
 <div style="display: flex; justify-content: center; margin: 2rem 0; text-align: center;">
 <img loading="lazy" title="Google definition of human nature" src="/blogs/human-nature.webp" alt="Google's human nature definition" />
 </div>
 
 <figure title="9takes's human nature definition">
     <blockquote>
-    9takes definition of Human Nature: The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.
+    "The descriptions of how people think, feel, and act. These descriptions are studied within psychology and philosophy.""
     </blockquote>
-    <figcaption style="margin-left: 80%">-<cite>9takes</cite></figcaption>
+    <figcaption style="margin-left: 80%">-<cite>9takes definition</cite></figcaption>
 </figure>
+
+<p class="firstLetter">What is the a definition of human nature?</p>
+
+Philosophers and psychologists have talked about human nature a lot but did they come to a consensus? Is there a peer-reviewed study that shows what human nature is? No, not really. But there have been two main perspectives that keep coming up in different circles that we are going to examine in this blog.
+
+One theory of human nature is about how humans fluctuate between being logical and illogical, and our goal is to be rational. The other theory is more complicated and less explored. The philosophers Plato and Aristotle had opposing views on this, and this mirrors the opposing views of the psychologists Sigmund Freud and Steven Pinker.
+
+
 
 ## Plato is to Aristotle as Freud is to Pinker
 
@@ -159,7 +163,7 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-06",
+      "dateModified": "2024-04-05",
       "datePublished": "2023-07-16",
       "description": "Explore the diverse theories on human nature, including perspectives from Plato, Aristotle, Freud, and Steven Pinker.",
       "headline": "The Consensus on Human Nature",
