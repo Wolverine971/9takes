@@ -56,30 +56,35 @@
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
 						>
 					</h1>
-					<p style="font-size: 1.5rem; font-weight: 700;">
-						<span class="purple-text">9takes</span> is a question and answering platform <br />where
-						you can find out what people
-						<br />
-						<span class="purple-text">think</span>,
-						<span class="purple-text">feel</span>, and
-						<span class="purple-text">do</span>
-					</p>
-					<a
-						href="/questions"
-						class="btn btn-primary questionLink"
-						style="border: 1px solid; font-size: x-large;"
-					>
-						ask your questions<ArrowRightIcon
-							iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
-							height={'1.5rem'}
-							fill={'#5407d9'}
-						/>
-					</a>
 				</div>
 			</div>
 
 			<!-- 9takes- Find people similar to you and understand everyone else. how socrates must have been explaining things
 			How we see the World -->
+		</div>
+
+		<div class="big-points center-align flex-center border-boy" style="">
+			<div class="" style="margin: 3rem 0;">
+				<p style="font-size: 1.5rem; font-weight: 700;">
+					<span class="purple-text">9takes</span> is a question and answering platform <br />where
+					you can find out what people
+					<br />
+					<span class="purple-text">think</span>,
+					<span class="purple-text">feel</span>, and
+					<span class="purple-text">do</span>
+				</p>
+				<a
+					href="/questions"
+					class="btn btn-primary questionLink"
+					style="border: 1px solid; font-size: x-large;"
+				>
+					ask your questions<ArrowRightIcon
+						iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
+						height={'1.5rem'}
+						fill={'#5407d9'}
+					/>
+				</a>
+			</div>
 		</div>
 
 		<Jumbotron
@@ -282,6 +287,10 @@
 {/if}
 
 <style lang="scss">
+	.border-boy {
+		border: 1px solid;
+		border-radius: 5px;
+	}
 	.purple-text {
 		color: #260958;
 	}
