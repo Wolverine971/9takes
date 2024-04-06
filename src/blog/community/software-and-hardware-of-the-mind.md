@@ -67,7 +67,7 @@ These approaches are far from what Freud and Jung were trying to do.
 
 ### The Software vs. Hardware of the Human Mind
 
-The mind can be likened to a computer. 
+The mind can be likened to a computer.
 
 While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
 
