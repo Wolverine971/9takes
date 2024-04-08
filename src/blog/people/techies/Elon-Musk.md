@@ -23,10 +23,6 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter"> What makes Elon Musk tick? You know, the guy behind Tesla, SpaceX, and even PayPal. Today, we're diving deep into his mind, exploring his personality through the lens of the Enneagram Type 5. So, please grab a cup of coffee, and let's get started. And hey, if you find this intriguing, check out 9takes to explore your personality!</p>
-
-> **Disclaimer** This analysis of Elon Musk's Enneagram type is purely speculative, based on publicly available information, and may not reflect Elon's personality type.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Elon Musk's Enneagram type is purely speculative, based on publicly available information, and may not reflect Elon's personality type.
+
+<p class="firstLetter"> What makes Elon Musk tick?</p>
+
+ What is behind the eyes of the guy behind Tesla, SpaceX, and PayPal? Here, we dive deep into Elon's mind, exploring his personality through the lens of the Enneagram. Elon resembles the personality of the Enneagram type 5- "the Observer" or "the Investigator."
 
 <details>
 <summary class="accordion">TL;DR: Why Elon Musk is an Enneagram type 5</summary>
@@ -74,7 +76,7 @@ The divorce had a profound impact on young Elon. He chose to live with his fathe
 
 ## Education and Early Career
 
-Elon's educational journey is as unique as he is. After high school in South Africa, he moved to Canada to attend Queen's University, sidestepping mandatory military service back home. Two years in, he transferred to the University of Pennsylvania, earning degrees in physics and economics. But here's the kicker: Elon then got into Stanford for a Ph.D. in applied physics. He attended for just two days before dropping out. Why? The internet boom was happening, and he wanted in. He co-founded Zip2, a city guide software for newspapers, which Compaq later bought for nearly $300 million. It was his first big win, setting the stage for his future ventures.
+Elon's educational journey is as unique as he is. After high school in South Africa, he moved to Canada to attend Queen's University, sidestepping mandatory military service back home. Two years later, he transferred to the University of Pennsylvania, earning degrees in physics and economics. But here's the kicker: Elon then got into Stanford for a Ph.D. in applied physics. He attended for just two days before dropping out. Why? The internet boom was happening, and he wanted in. He co-founded Zip2, a city guide software for newspapers, which Compaq later bought for nearly $300 million. It was his first big win, setting the stage for his future ventures.
 
 ## Personal Stressors and Coping Mechanisms
 
@@ -126,7 +128,7 @@ Elon Musk's approach to Tesla is a fascinating blend of rigorous engineering and
 
 ### SpaceX: A Sci-Fi Dream Turned Reality
 
-SpaceX is the most vivid manifestation of Elon Musk's love for science fiction and commitment to first-principle thinking. His audacious goal to make space travel affordable and eventually colonize Mars is not just a business strategy; it's a mission. This aligns perfectly with the need for Type 5 to foresee and prepare for future challenges. Elon's willingness to invest in long-term visions, even at the risk of immediate failure, speaks volumes about his personality type.
+SpaceX is the most vivid manifestation of Elon Musk's love for science fiction and commitment to first-principle thinking. His audacious goal to make space travel affordable and eventually colonize Mars is not just a business strategy; it's a mission. This aligns with Type 5's need to foresee and prepare for future challenges. Elon's willingness to invest in long-term visions, even at the risk of immediate failure, speaks volumes about his personality type.
 
 ### Twitter: The Public Square of Elon's Mind
 
