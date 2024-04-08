@@ -22,22 +22,48 @@
 
 <div style="width: 100%;">
 	<h1 id="">9takes Community Blogs</h1>
-	<h2>The ideas behind 9takes</h2>
+
+	<p>Here are the different blogs discussing the inspiration and ideas behind 9takes.</p>
+	<h2>The inspiration behind 9takes</h2>
 	<div class="blog-grid-container">
 		{#each data.posts as blog}
-			<a
-				href={`/blog/community/${blog.slug}`}
-				class="grid-item inline-it"
-				style={blog.pic &&
-					`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
-			>
-				<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
-					<h3>
-						{blog.title}
-					</h3>
-					<p class="font-adjust-p">{blog.description}</p>
-				</div>
-			</a>
+			{#if blog?.type?.[0] === 'inspiration'}
+				<a
+					href={`/blog/community/${blog.slug}`}
+					class="grid-item inline-it"
+					style={blog.pic &&
+						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
+				>
+					<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
+						<h3>
+							{blog.title}
+						</h3>
+						<p class="font-adjust-p">{blog.description}</p>
+					</div>
+				</a>
+			{/if}
+		{/each}
+	</div>
+
+	<h2>The ideas behind 9takes</h2>
+
+	<div class="blog-grid-container">
+		{#each data.posts as blog}
+			{#if blog?.type?.[0] === 'idea'}
+				<a
+					href={`/blog/community/${blog.slug}`}
+					class="grid-item inline-it"
+					style={blog.pic &&
+						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
+				>
+					<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
+						<h3>
+							{blog.title}
+						</h3>
+						<p class="font-adjust-p">{blog.description}</p>
+					</div>
+				</a>
+			{/if}
 		{/each}
 	</div>
 </div>

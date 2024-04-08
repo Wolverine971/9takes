@@ -8,7 +8,7 @@ lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['inspiration']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-introducing-9takes'

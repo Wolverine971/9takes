@@ -8,7 +8,7 @@ lastmod: '2024-01-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greek-sculpture-on-a-laptop'

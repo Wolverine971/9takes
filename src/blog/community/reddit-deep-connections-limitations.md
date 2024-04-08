@@ -8,7 +8,7 @@ lastmod: '2024-02-18'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'reddit-late-at-night'
@@ -17,8 +17,6 @@ pic: 'reddit-late-at-night'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
-<p class="firstLetter">Reddit may seem like a treasure trove of communities, but it falls short in nurturing deep, meaningful connections.</p>
 
 <div
     style="display: flex;
@@ -34,6 +32,10 @@ margin: 1rem 0;"
         subtext=""
     />
 </div>
+
+<p class="firstLetter">Reddit may seem like a treasure trove of communities, but it falls short in nurturing deep, meaningful connections.</p>
+
+Here we discuss Reddit's shortcomings.
 
 ## 1. Surface-Level Interactions
 

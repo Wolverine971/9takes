@@ -8,7 +8,7 @@ lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'neoclassical-metropolis'

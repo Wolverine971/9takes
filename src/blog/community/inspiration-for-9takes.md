@@ -8,7 +8,7 @@ lastmod: '2023-12-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['inspiration']
 blog: true
 previewHtml: ''
 pic: 'husband-and-wife'
@@ -21,7 +21,6 @@ pic: 'husband-and-wife'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
 
 <div
     style="display: flex;

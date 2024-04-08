@@ -19,6 +19,7 @@
 
 <div style="width: 100%;">
 	<h1 id="enneagram">9takes Guides</h1>
+	<p>WIP 🚧</p>
 	<div class="blog-grid-container">
 		{#each data.posts as blog}
 			<a

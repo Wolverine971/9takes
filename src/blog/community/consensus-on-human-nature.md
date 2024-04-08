@@ -8,7 +8,7 @@ lastmod: '2024-04-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['idea']
 blog: true
 previewHtml: ''
 pic: 'greeks-debating-human-nature'
