@@ -4,7 +4,7 @@ description: 'Why Kylie Jenner appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-07-24'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner'
-lastmod: '2023-07-24'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,10 +23,6 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Kylie_Jenner">Kylie Jenner</a>, the youngest member of the Kardashian-Jenner clan, has established an empire, pushing the boundaries of fame and fortune in unprecedented ways. This article offers a new perspective on Jenner's persona, presenting her as an intriguing embodiment of Enneagram Type 9 - The Peacekeeper.</p>
-
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+
+<p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon.</p>
+
+Kylie Jenner is the youngest member of the Kardashian-Jenner clan and has established an empire. She pushes the boundaries of fame and fortune and is the envy of many Millennials and Gen Zers. This article dives into Kylie's persona, presenting her as the embodiment of Enneagram Type 9- The Peacekeeper.
 
 <details>
 <summary class="accordion">TL;DR: Why Kylie Jenner is an Enneagram type 9</summary>
@@ -60,7 +62,9 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 
 ## The Unseen Depths of a Media Mogul
 
-Jenner's public life is splashed across tabloid pages and Instagram feeds, offering a curated glance at her world. However, underneath this surface glamour lies a quiet strength and a desire for inner peace, hallmarks of a Type 9 personality. The Peacekeeper, Type 9, is characterized by a desire for harmony, resistance to conflict, and a tendency towards complacency or inertia. Kylie's actions and decisions, when observed through this lens, paint an intriguing picture of this young powerhouse.
+Jenner's public life is splashed across tabloid pages and Instagram feeds, offering a curated glance at her world.
+
+Underneath the surface of glamour lies a quiet strength and a desire for inner peace. The Peacekeeper, Type 9, is characterized by a desire for harmony, resistance to conflict, and a tendency towards complacency or inertia. Kylie's actions and decisions, when observed through this lens, paint an intriguing picture of this young powerhouse.
 
 ## The Desire for Harmony
 
@@ -126,7 +130,7 @@ If you're curious to delve deeper into the Enneagram and personalities, sign up 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-07-25"
+        "@value": "2024-04-07"
       },
       "datePublished": {
         "@type": "Date",

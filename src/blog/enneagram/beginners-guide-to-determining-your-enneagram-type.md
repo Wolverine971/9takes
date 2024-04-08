@@ -4,7 +4,7 @@ description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncov
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2024-04-03'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -41,7 +41,9 @@ adjust title
   />
 </div>
 
-<p class="firstLetter"> Ever felt misunderstood or did not understand something about someone else? A personality system called the Enneagram can help by offering a framework for understanding a person's core fears and motivations.</p>
+<p class="firstLetter"> Ever felt misunderstood?</p>
+
+Ever felt like did not understand someone else? People are different and there is a personality system called the Enneagram can help demystify others and yourself. The Enneagram offers a framework for understanding people's core fears and motivations.
 
 I remember how life was before I discovered my Enneagram type.
 
@@ -55,7 +57,7 @@ In this guide, I'll simplify the complex world of the Enneagram. I'll show you e
 
 ### What is an Enneagram?
 
-There is much to cover, but we will cover the broad strokes.
+There is much to cover, but we will go over the broad strokes.
 
 The Enneagram is a personality system. A personality is a grouping of characteristics that explain how people are similar and different. The Enneagram looks at thoughts, feelings, and actions and identifies "types" or archetypes. There are 9 core types, which is where you might have heard someone mention that they are an 8 or a 4.
 
@@ -305,7 +307,7 @@ As Socrates said, “The more you know, the more you realize you don’t know, a
 "https://twitter.com/djwayne3"
        ]
       },
-      "dateModified": "2024-04-03",
+      "dateModified": "2024-04-07",
       "datePublished": "2023-07-11",
       "description": "Navigate the Enneagram easily using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
       "headline": "The Beginner's Guide to Determining Your Enneagram Type",

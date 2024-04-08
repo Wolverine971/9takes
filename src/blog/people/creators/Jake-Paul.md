@@ -4,7 +4,7 @@ description: 'Why Jake Paul appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-06-021'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jake-Paul'
-lastmod: '2023-06-21'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,9 +23,6 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to a prominent figure in the boxing arena. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jake_Paul">Jake Paul</a>, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.</p>
-
-> **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 
 <div
 	style="display: flex;
@@ -41,6 +38,13 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
+
+
+<p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to amateur boxer.</p>
+
+Jake Paul, the controversial yet undeniably successful internet sensation, has made an indelible mark in pop culture. Let's take an engaging deep-dive into the intriguing world of Jake Paul, proposing him as a representation of Enneagram Type 3 - The Achiever.
 
 <details>
 <summary class="accordion">TL;DR: Why Jake Paul is an Enneagram type 3</summary>
@@ -115,7 +119,7 @@ Maybe it's time to explore more. Sign up below ⬇️ and join us at 9takes, a c
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-06-22"
+        "@value": "2024-04-07"
       },
       "datePublished": {
         "@type": "Date",

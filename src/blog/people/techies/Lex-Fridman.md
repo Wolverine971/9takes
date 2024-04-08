@@ -4,7 +4,7 @@ description: 'Dive deep into the personality traits of AI researcher Lex Fridman
 author: 'DJ Wayne'
 date: '2023-07-23'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Lex-Fridman'
-lastmod: '2024-01-16'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">An AI researcher, a podcaster, and a promoter of love — this only scratches the surface the man the myth the legend, <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Lex_Fridman">Lex Fridman</a>. Today we are going to dive into Lex's personality and explore how Lex Fridman's persona aligns with the characteristics of an Enneagram Type 5, "The Investigator" or "The Observer"</p>
-
-> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lex Fridman.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lex Fridman.
+
+<p class="firstLetter">AI researcher, podcaster, and promoter of love— who is Lex Fridman.</p>
+
+Here we delve into Lex's personality and explore how and why Lex Fridman's persona aligns with the characteristics of an Enneagram Type 5. The type 5 is known as "The Investigator" or "The Observer" and that is the role Lex plays day in and day out.
 
 ### The Mind of an Enneagram Type 5
 
@@ -102,7 +104,7 @@ Indeed, as we engage with the world around us, it's worth taking a moment to con
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-01-16"
+    "@value": "2024-04-07"
   },
   "datePublished": {
     "@type": "Date",

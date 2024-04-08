@@ -25,7 +25,6 @@ team building questions
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Imagine walking into a room where everyone speaks a different language. Confusing, right? That's what it's like in a workplace where people don't understand each other's personality types. Enter the Enneagram—a tool that deciphers this "language barrier," transforming it into a bridge for better communication, collaboration, and overall team dynamics.</p>
 
 <div style="display: flex;
     justify-content: center;">
@@ -37,6 +36,10 @@ team building questions
 		subtext=""
 	/>
 </div>
+
+<p class="firstLetter">Imagine walking into a room where everyone speaks a different language.</p>
+
+ Confusing, right? That's what it's like in a workplace where people don't understand each other's personality types. Enter the Enneagram—a tool that deciphers this "language barrier," transforming it into a bridge for better communication, collaboration, and overall team dynamics.
 
 ## The Enneagram: A Brief Overview
 

@@ -4,7 +4,7 @@ description: 'Explore the Enneagram fast with our TL;DR guide, offering quick in
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-tldr'
-lastmod: '2024-02-17'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,8 +17,6 @@ pic: 'greek-dude-reading-book'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
-<p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine types based on their core motivations, fears, and desires. Each type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.</p>
 
 <div
 	style="display: flex;
@@ -35,13 +33,19 @@ pic: 'greek-dude-reading-book'
 	/>
 </div>
 
-There are 3 groups or divisions in the Enneagram called triads. These triads are divided into 3 core emotions, which correlate to particular intelligences. The emotions are anger, fear, and shame. The unique intelligences connected with the emotions are the following:
+<p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine types.</p>
+
+ It is based on core motivations, fears, and childhood trauma. Each Enneagram type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
+
+The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads. The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame. 
+
+The unique intelligences connected with the emotions are the following:
 
 - Fear- Intellectual intelligence
 - Shame- Emotional intelligence
 - Anger- Instinctual intelligence
 
-Each enneagram type deals with their core emotion in different ways. Either they actively use that emotion to motivate them. Or they feel that emotion and try to suppress it. Or they are unaware of the impact of that emotion, and it lives in their subconscious.
+Each enneagram type deals with or copes with their core emotion in different ways. Either they actively use that emotion to motivate them. Or they feel that emotion and try to suppress it. Or they are unaware of the impact of that emotion, and it lives in their subconscious.
 
 The following are the 9 Enneagram types.
 
@@ -79,13 +83,11 @@ While online tests can provide a starting point for determining your Enneagram t
 
 For a more in-depth guide check out this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
 
+## Wrap up
+
+By understanding your Enneagram type, you can gain insight into your strengths and weaknesses, and identify areas for personal growth. You can also gain insight into other people's thinking feeling and actions. The potential applications are only limited by your own creativity.
+
 Go here to check out <a style="font-weight: bold;" href="/blog/enneagram/enneagram-faqs" >Enneagram FAQs</a>.
-
-## Conclusion
-
-By understanding your Enneagram type, you can gain insight into your strengths and weaknesses, and identify areas for personal growth. But you can also gain insight into others and the potential applications are only limited by your own creativity.
-
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -110,7 +112,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-02-17"
+        "@value": "2024-04-07"
       },
       "datePublished": {
         "@type": "Date",

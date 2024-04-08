@@ -19,14 +19,6 @@ pic: 'feeling-stressed'
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Stress affects people in different ways </p>
-
-People get stressed over different things.
-
-We will explore how each Enneagram type responds to stress and what they get stressed about. We are going to offer insight into each type's internal monologue. My goal is to help you empathize with other people who get stressed out by things different from yours and handle that stress differently.
-
-Let's dive into how each Enneagram type handles stress.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -43,11 +35,19 @@ Let's dive into how each Enneagram type handles stress.
   />
 </div>
 
-<article class="section-content">
+<p class="firstLetter">Stress affects people in different ways </p>
 
-<h2>Enneagram 1 in Stress</h2>
+People get stressed over different things.
 
-Under stress, Type 1s might become overly critical of themselves and others. They may exhibit black-and-white thinking and become more rigid in their beliefs about right and wrong. Outsiders might notice an increased tendency to nitpick or frustration over imperfections.
+We will explore how each Enneagram type responds to stress and what they get stressed about. We are going to offer insight into each type's internal monologue. My goal is to help you empathize with other people who get stressed out by things different from yours and handle that stress differently.
+
+Let's dive into how each Enneagram type handles stress.
+
+<section class="section-content">
+
+<h2 style="padding: 0; margin-top: 1em">Enneagram 1 in Stress</h2>
+
+Under stress, Type 1s become overly critical of themselves and others. They often exhibit black-and-white thinking and become more rigid in their beliefs about right and wrong. Outsiders might notice an increased tendency to nitpick or frustration over imperfections.
 
 **Stressors:** Unrealistic expectations, disorder, and perceived incompetence.
 
@@ -93,11 +93,11 @@ Under stress, Type 1s might become overly critical of themselves and others. The
 2. Set realistic expectations for themselves and others.
 3. Schedule regular breaks and self-care activities to recharge.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 2 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 2 in Stress</h2>
 
 Stressed Type 2s may try to become more involved in others' lives, offering unsolicited help or advice. They might also become more emotionally needy, seeking validation or appreciation for their efforts. To an outsider, they might appear more clingy or overbearing.
 
@@ -145,15 +145,15 @@ Stressed Type 2s may try to become more involved in others' lives, offering unso
 2. Make time for self-care and self-reflection.
 3. Communicate their needs and expectations to others.
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'career choices 💼💰📈', link: '/blog/enneagram/enneagram-types-and-career-choices'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 3 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 3 in Stress</h2>
 
 In stress, Type 3s often double down on their work, becoming even more focused on success and recognition. They might ignore their emotional and physical needs, leading to burnout. Outsiders might notice them becoming more competitive and image-conscious.
 
@@ -201,11 +201,11 @@ In stress, Type 3s often double down on their work, becoming even more focused o
 2. Prioritize self-care and maintain a healthy work-life balance.
 3. Seek support from trusted friends, family, or professionals when needed.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 4 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 4 in Stress</h2>
 
 When stressed, Type 4s can become overly introspective and withdrawn, dwelling on their feelings and perceived shortcomings. They might become moody or overly dramatic. To an outsider, they may seem more sensitive and emotionally volatile.
 
@@ -253,11 +253,11 @@ When stressed, Type 4s can become overly introspective and withdrawn, dwelling o
 2. Practice self-compassion and self-acceptance.
 3. Engage in creative outlets to express emotions and cope with stress.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 5 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 5 in Stress</h2>
 
 Stressed Type 5s often retreat into their minds, becoming more isolated and detached from their environment. They might obsess over their thoughts or theories, ignoring practical matters. Outsiders may find them more aloof or disengaged.
 
@@ -305,11 +305,11 @@ Stressed Type 5s often retreat into their minds, becoming more isolated and deta
 2. Recognize the importance of emotional intelligence and vulnerability.
 3. Engage in activities that allow for mental stimulation and relaxation.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 6 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 6 in Stress</h2>
 
 Under stress, Type 6s can become more anxious and suspicious, questioning the loyalty and intentions of those around them. They might prepare for worst-case scenarios, appearing more cautious or indecisive. Outsiders might notice their increased worry and skepticism.
 
@@ -357,11 +357,11 @@ Under stress, Type 6s can become more anxious and suspicious, questioning the lo
 2. Engage in relaxation techniques to reduce anxiety and stress.
 3. Develop a balanced approach to risk assessment and decision-making.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 7 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 7 in Stress</h2>
 
 When stressed, Type 7s may try to escape their feelings by seeking new experiences or distractions. They can become more impulsive, jumping from one activity to another. To an outsider, they seem more scattered and less focused.
 
@@ -409,11 +409,11 @@ When stressed, Type 7s may try to escape their feelings by seeking new experienc
 2. Engage in mindfulness practices to cultivate present-moment awareness.
 3. Acknowledge and address negative emotions instead of avoiding them.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 8 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 8 in Stress</h2>
 
 In stress, Type 8s can become more confrontational and domineering, trying to assert control over their environment and relationships. They may exhibit a lower tolerance for vulnerability or perceived weakness. Outsiders might find them more intimidating and aggressive.
 
@@ -461,11 +461,11 @@ In stress, Type 8s can become more confrontational and domineering, trying to as
 2. Practice vulnerability and empathy in relationships.
 3. Engage in self-reflection and self-care to maintain a healthy balance of strength and sensitivity.
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 9 in Stress</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 9 in Stress</h2>
 
 Stressed Type 9s might withdraw or disengage to avoid conflict, becoming more passive-aggressive or complacent. They may prioritize peace over addressing underlying issues, appearing indifferent or stubbornly unmoving to outsiders.
 
@@ -513,7 +513,7 @@ Develop assertiveness skills and practice voicing personal needs and opinions.
 Engage in self-care activities to prioritize personal well-being.
 Seek out healthy, supportive relationships where mutual respect and harmony are valued.
 
-</article>
+</section>
 
 ## Wrapping up
 
@@ -651,13 +651,13 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
-   
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

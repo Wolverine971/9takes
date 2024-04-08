@@ -4,7 +4,7 @@ description: 'Explore the ultimate compliments for each Enneagram type, delving 
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2023-11-29'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,8 +18,6 @@ pic: 'greek-statue-yeah-boi'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<p class="firstLetter">Have you Ever wondered how to make someone's day with a fitting compliment? The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes them tick and how to make them feel special. Let's get started!</p>
 
 <div
     style="display: flex;
@@ -37,9 +35,13 @@ pic: 'greek-statue-yeah-boi'
     />
 </div>
 
+<p class="firstLetter">Want to know how to make someone's day with the best compliment possible?</p>
+
+The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes each personality tick and how to make them feel special. Let's get started!
+
 <article class="section-content">
 
-<h3>Type 1- The Perfectionist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 1- The Perfectionist</h3>
 
 An innate desire for perfection and righteousness drives type 1 individuals. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
 
@@ -64,7 +66,7 @@ An innate desire for perfection and righteousness drives type 1 individuals. Rec
 
 <article class="section-content">
 
-<h3>Type 2- The Helper</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 2- The Helper</h3>
 
 Type 2 personalities thrive on love and appreciation. They long to feel needed. By acknowledging their genuine concern and kindness, you mirror back the love they constantly radiate.
 
@@ -89,7 +91,7 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 
 <article class="section-content">
 
-<h3>Type 3- The Achiever</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 3- The Achiever</h3>
 
 Type 3 individuals are goal-oriented powerhouses. They yearn for success and validation. Praising their accomplishments and efficiency resonates deeply with their ambitious spirit.
 
@@ -130,7 +132,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 
 <article class="section-content">
 
-<h3>Type 4- The Individualist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 4- The Individualist</h3>
 
 Type 4 personalities cherish their individuality. Celebrating their uniqueness and emotional richness validates their constant search for identity and meaning.
 
@@ -155,7 +157,7 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 
 <article class="section-content">
 
-<h3>Type 5- The Investigator</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 5- The Investigator</h3>
 
 Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their analytical prowess and depth of understanding feeds their intrinsic need to be competent and well-prepared.
 
@@ -184,7 +186,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 
 <article class="section-content">
 
-<h3>Type 6- The Loyalist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 6- The Loyalist</h3>
 
 Type 6 personalities value security and trust. Acknowledging their dedication and reliability affirms their foundational role in any relationship or endeavor.
 
@@ -209,7 +211,7 @@ Type 6 personalities value security and trust. Acknowledging their dedication an
 
 <article class="section-content">
 
-<h3>Type 7- The Enthusiast</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 7- The Enthusiast</h3>
 
 Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and adventurous spirit aligns perfectly with their quest for pleasure and excitement.
 
@@ -250,7 +252,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 
 <article class="section-content">
 
-<h3>Type 8- The Challenger</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 8- The Challenger</h3>
 
 Type 8 personalities are natural leaders driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
 
@@ -275,7 +277,7 @@ Type 8 personalities are natural leaders driven by a desire to control their env
 
 <article class="section-content">
 
-<h3>Type 9- The Peacemaker</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 9- The Peacemaker</h3>
 
 Type 9 individuals are the peacekeepers. Celebrating their mediation skills and the gift of seeing multiple perspectives affirms their nurturing and harmonizing nature.
 
@@ -325,7 +327,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
             },
          "dateModified":{
             "@type":"Date",
-            "@value":"2023-11-29"
+            "@value":"2024-04-07"
          },
          "datePublished":{
             "@type":"Date",
@@ -378,13 +380,13 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
 </svelte:head>
 
 <style lang="scss">
-    
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

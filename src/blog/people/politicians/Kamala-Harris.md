@@ -4,7 +4,7 @@ description: 'Why Kamala Harris appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Kamala-Harris'
-lastmod: '2023-10-18'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've witnessed her charisma, heard her articulate speeches, and seen her navigate the challenging terrain of American politics. Kamala Harris, the first female Vice President of the United States, is celebrated and scrutinized. Today, we delve into an intriguing aspect of Harris's persona, exploring her through the lens of Enneagram Type 3 - The Achiever.</p>
-
-> **Disclaimer** This analysis of Kamala Harris's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
-
 <div
     style="display: flex;
     justify-content: center;
@@ -41,6 +37,13 @@ tiktok: ''
         subtext=""
     />
 </div>
+
+> **Disclaimer** This analysis of Kamala Harris's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
+
+<p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p> 
+
+Kamala Harris, the first female Vice President of the United States, is both celebrated and scrutinized. Today, we delve into an intriguing aspect of Harris's persona, exploring her through the lens of Enneagram Type 3 - The Achiever.
+
 
 <details>
 <summary class="accordion">TL;DR: Why Kamala Harris is an Enneagram type 3</summary>
@@ -162,7 +165,7 @@ These instances underscore Kamala's adeptness at nurturing relationships and bui
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-10-18"
+        "@value": "2024-04-07"
       },
       "datePublished": {
         "@type": "Date",

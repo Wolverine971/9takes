@@ -20,7 +20,6 @@ pic: 'greek-statues-at-the-beach'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Tired of feeling drained after your "relaxing" weekend? Don't worry, you're not alone. We all unwind differently, and what works for your friend might leave you feeling even more stressed.</p>
 
 <div
     style="display: flex;
@@ -36,6 +35,10 @@ pic: 'greek-statues-at-the-beach'
         subtext=""
     />
 </div>
+
+<p class="firstLetter">Tired of feeling drained after your "relaxing" weekend?</p>
+
+Don't worry, you're not alone. We all unwind differently, and what works for your friend might leave you feeling even more stressed.
 
 Enter the Enneagram! This personality system helps you understand yourself better, including how you recharge. Imagine discovering activities tailored just for you, boosting your mood and helping you unwind.
 

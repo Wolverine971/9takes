@@ -50,15 +50,17 @@ Tailored Communication
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">Understanding the Enneagram gives us insight into our motivations, fears, and behaviors. Through this we should be able to navigate the world more easily. The important part in this is picking up on how we and others communicate. Because everyone is different there are many nuances that can be picked up on. This article will explore how to communicate and what interact effectively with different Enneagram types.</p>
+<p class="firstLetter">Understanding the Enneagram gives us insight into our motivations, fears, and behaviors.</p>
+
+ Through this we should be able to navigate the world more easily. The important part in this is picking up on how we and others communicate. Because everyone is different there are many nuances that can be picked up on. This article will explore how to communicate and what interact effectively with different Enneagram types.
 
 First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's necessary to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in "The Path Between Us," "You can't change how you see—you can only change what you do with how you see." With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.
 
 ## How Each Enneagram Type Communicates
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 1 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 1 Communication</h3>
 
 Ones are principled, ethical, and perfectionistic. They value order, structure, and correctness. Being direct, precise, and respectful is essential when communicating with Ones. Avoid being confrontational or critical, as Ones can be sensitive to criticism. Focus on solutions and constructive feedback rather than dwelling on mistakes or flaws. Ones appreciate when others are honest and straightforward with them, so be authentic and genuine in your communication.
 
@@ -69,11 +71,11 @@ Ones are principled, ethical, and perfectionistic. They value order, structure, 
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 2 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 2 Communication</h3>
 
 Twos are caring, generous, and empathetic. They value relationships and are driven by a desire to help others. When communicating with Twos, it's essential to acknowledge their efforts and contributions. Listen actively and show appreciation for their support and assistance. Avoid being dismissive or taking advantage of their kindness. Be sensitive to their emotional needs, as Twos can be easily hurt by rejection or criticism.
 
@@ -84,11 +86,11 @@ Twos are caring, generous, and empathetic. They value relationships and are driv
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 3 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 3 Communication</h3>
 
 Threes are ambitious, competitive, and driven. They value success, recognition, and accomplishment. When communicating with Threes, being concise, focused, and results-oriented is essential. Avoid being too emotional or personal, as Threes prefers keeping things professional. Support and encourage their goals and aspirations, and offer feedback that helps them achieve their objectives. Recognize their accomplishments and celebrate their successes.
 
@@ -99,11 +101,11 @@ Threes are ambitious, competitive, and driven. They value success, recognition, 
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 4 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 4 Communication</h3>
 
 Fours are creative, expressive, and introspective. They value authenticity, originality, and uniqueness. Being empathetic, understanding, and open-minded is essential when communicating with Fours. Avoid being dismissive or judgmental of their emotions or opinions. Be willing to explore different perspectives and approaches and encourage them to express themselves creatively. Recognize their unique contributions and appreciate their creativity and insight.
 
@@ -114,15 +116,15 @@ Fours are creative, expressive, and introspective. They value authenticity, orig
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 5 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 5 Communication</h3>
 
 Fives are analytical, independent, and private. They value knowledge, expertise, and autonomy. When communicating with Fives, being respectful, patient, and non-intrusive is essential. Avoid being too emotional or personal, as Fives prefer to keep things logical and objective. Be willing to engage in deep, thoughtful conversations, and allow them the space and time to process information. Recognize their expertise and respect their need for privacy and solitude.
 
@@ -133,11 +135,11 @@ Fives are analytical, independent, and private. They value knowledge, expertise,
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 6 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 6 Communication</h3>
 
 Sixes are loyal, responsible, and anxious. They value security, stability, and support. Being reassuring, trustworthy, and supportive is essential when communicating with Sixes. Avoid being too critical or judgmental, as Sixes can be sensitive to perceived threats. Provide them with clear expectations and guidelines, and communicate consistently. Recognize their loyalty and commitment, and appreciate their reliability and dependability.
 
@@ -148,11 +150,11 @@ Sixes are loyal, responsible, and anxious. They value security, stability, and s
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 7 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 7 Communication</h3>
 
 Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, variety, and excitement. When communicating with Sevens, being upbeat, positive, and engaging is essential. Avoid being too serious or negative, as Sevens can become bored or disinterested. Be willing to explore new ideas and experiences, and encourage them to be creative and imaginative. Recognize their optimism and energy, and appreciate their sense of fun and adventure.
 
@@ -163,11 +165,11 @@ Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, varie
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 8 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 8 Communication</h3>
 
 Eights are powerful, assertive, and confrontational. They value strength, control, and autonomy. Being direct, confident, and assertive is essential when communicating with Eights. Avoid being passive or weak, as Eights can become impatient or dismissive. Be willing to engage in honest, straightforward conversations and provide them with clear expectations and boundaries. Recognize their leadership and courage, and appreciate their strength and determination.
 
@@ -178,11 +180,11 @@ Eights are powerful, assertive, and confrontational. They value strength, contro
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Enneagram 9 Communication</h3>
+<h3 style="padding: 0; margin-top: 1em">Enneagram 9 Communication</h3>
 
 Nines are peaceful, accommodating, and harmonious. They value unity, cooperation, and tranquility. Being calm, patient, and understanding is essential when communicating with Nines. Avoid being too demanding or confrontational, as Nines can become passive or avoidant. Be willing to listen actively and show appreciation for their perspective and input. Recognize their diplomacy and mediation skills and appreciate their ability to unite people.
 
@@ -193,7 +195,7 @@ Nines are peaceful, accommodating, and harmonious. They value unity, cooperation
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrapping Up
 
@@ -203,7 +205,6 @@ By recognizing each Enneagram type's unique approach to communication, we can le
 
 Let's use the Enneagram to enhance our personal and professional lives through better communication and stronger relationships.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -276,10 +277,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

@@ -4,7 +4,7 @@ description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes'
-lastmod: '2023-12-16'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,7 +19,9 @@ pic: 'greek-statue-babies'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe? Well, park your scroll thumb or mousey flicker for a moment, and let's take a walk down memory lane and revisit some trauma. JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know. </p>
+<p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
+
+Well, park your scroll thumb or mousey flicker for a moment, and let's take a walk down memory lane and revisit some trauma. JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know. 
 
 <div
     style="display: flex;
@@ -124,7 +126,7 @@ If this resonates with you, we invite you to explore more articles like this one
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-12-16",
+      "dateModified": "2024-04-07",
       "datePublished": "2023-12-16",
       "description": "An exploration of the Enneagram personality types through the lens of childhood, examining the early traits and behaviors that correspond to each of the nine types.",
       "headline": "Enneagram Childhood Stereotypes",

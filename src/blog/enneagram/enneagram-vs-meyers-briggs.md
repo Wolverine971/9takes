@@ -4,7 +4,7 @@ description: 'Describing the nuances of Enneagram and Myers-Briggs personality s
 author: 'DJ Wayne'
 date: '2023-07-16'
 loc: 'https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs'
-lastmod: '2023-12-02'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 published: true
 type: ['overview']
@@ -18,8 +18,6 @@ pic: 'enneagram-vs-meyers-briggs'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">
-People are both similar and different. How we are similar and different can be described as personality. This quickly becomes complex and is a hotly debated area. Two popular frameworks for understanding personality are the Enneagram and Myers-Briggs Type Indicator (MBTI). In this blog, we will delve into the depths of both systems.</p>
 
 <div
 	style="display: flex;
@@ -36,6 +34,10 @@ People are both similar and different. How we are similar and different can be d
 		subtext=""
 	/>
 </div>
+
+<p class="firstLetter">People are both similar and different.</p>
+
+How we are similar and different can be described as personality. This quickly becomes complex and is a hotly debated area. Two popular frameworks for understanding a person's psychology that define different personalities are the Enneagram and Myers-Briggs Type Indicator (MBTI). In this blog, we will delve into the depths of both systems.
 
 <details>
 <summary class="accordion">TL;DR: Overview of the Enneagram vs Myers-Briggs</summary>
@@ -59,7 +61,9 @@ The Enneagram is an ancient personality system believed to have roots in several
 
 ### The Historical Roots of Enneagram
 
-The Enneagram's origins are a subject of much debate, with theories pointing to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
+The Enneagram's origins are a subject of much debate.
+
+ Various theories point to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
 
 ### Key Concepts and Structure of Enneagram
 
@@ -156,7 +160,7 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2023-12-02"
+            "@value":"2024-04-07"
          },
          "datePublished":{
             "@type":"Date",

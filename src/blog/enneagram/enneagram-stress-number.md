@@ -18,8 +18,6 @@ pic: 'feeling-tension'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number. This is also known as the Enneagram types path of disintegration. Its like your negative alter ego that comes out when you are not doing well.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -34,6 +32,10 @@ pic: 'feeling-tension'
 		subtext=""
 	/>
 </div>
+
+<p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number.</p>
+
+ This is also known as the Enneagram types path of disintegration. Its like your negative alter ego that comes out when you are not doing well.
 
 ## The Dual Faces of Personality: Comfort and Stress
 
