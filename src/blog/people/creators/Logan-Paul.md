@@ -23,10 +23,6 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've probably seen his name plastered across headlines, witnessed his controversial antics, and formed your own opinions about him. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Logan_Paul">Logan Paul</a>, the charismatic and often polarizing social media sensation, has been a subject of fascination and speculation for years. Today, we delve into a perspective on Paul's personality, proposing him as a captivating representation of Enneagram Type 7 - The Enthusiast.</p>
-
-> **Disclaimer** This analysis of Logan Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Logan Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
+
+<p class="firstLetter">You've probably seen his name plastered across headlines, witnessed his controversial antics, and formed your own opinions about him.</p> 
+
+Logan Paul, the charismatic and often polarizing social media sensation, has been a subject of fascination and speculation for years. Today, we delve into a perspective on Paul's personality, proposing him as a captivating representation of Enneagram Type 7 - The Enthusiast.
 
 <details>
 <summary class="accordion">TL;DR: Why Logan is an Enneagram 7</summary>

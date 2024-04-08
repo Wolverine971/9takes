@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions. Robert Oppenheimer is shrouded in controversy, conflict, and intellectual brilliance. We are going to plunge into his psyche and propose that this complex personality bears the traits of the Enneagram Type 4 Personality - The Individualist.</p>
-
-> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: ''
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
+
+<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions.</p> 
+
+Robert Oppenheimer is shrouded in controversy, conflict, and intellectual brilliance. We are going to plunge into his psyche and propose that this complex personality bears the traits of the Enneagram Type 4 Personality - The Individualist.
 
 <details>
 <summary class="accordion">TL;DR: Why Robert Oppenheimer is an Enneagram type 4</summary>

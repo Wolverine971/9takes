@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've heard her voice, you've seen her Instagram, and you've probably even laughed along with her on the "Call Her Daddy" podcast. But who is Alex Cooper? What drives her, and what makes her the captivating personality she is? Let's delve into the world of Enneagram to explore the facets of her personality that make her so intriguing.</p>
-
-> **Disclaimer** This analysis of Alex Cooper's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: ''
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Alex Cooper's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
+
+<p class="firstLetter">You've heard her voice, you've seen her Instagram, and you've probably even laughed along with her.</p>
+
+The founding father, Alex Cooper of the "Call Her Daddy" podcast is a force to be reckoned with. But who is Alex Cooper? What drives her, and what makes her the captivating personality she is? Let's delve into the world of Enneagram to explore the facets of her personality that make her so intriguing.
 
 <details>
 <summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram type 7</summary>

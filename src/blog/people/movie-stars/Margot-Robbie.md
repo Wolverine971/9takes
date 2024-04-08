@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've seen her lighting up the big screen, captivating audiences worldwide with her charm and charisma. Margot Robbie, the versatile actress from Australia, is a force to be reckoned with in Hollywood. This article dives into a fascinating exploration of Robbie's persona, suggesting her as an embodiment of Enneagram Type 8 - The Challenger..</p>
-
-> **Disclaimer** This analysis of Margot Robbie's Enneagram type is purely speculative, based on publicly available information, and may not reflect Margot Robbie's actual personality type.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: ''
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Margot Robbie's Enneagram type is purely speculative, based on publicly available information, and may not reflect Margot Robbie's actual personality type.
+
+<p class="firstLetter">You've seen her lighting up the big screen, captivating audiences worldwide with her charm and charisma.</p> 
+
+Margot Robbie, the versatile actress from Australia, is a force to be reckoned with in Hollywood. This article dives into a fascinating exploration of Robbie's persona, suggesting her as an embodiment of Enneagram Type 8 - The Challenger.
 
 <details>
 <summary class="accordion">TL;DR: Why Margot Robbie is an Enneagram type 8 </summary>

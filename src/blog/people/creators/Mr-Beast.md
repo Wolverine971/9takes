@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">He's conquered YouTube, melted hearts, and sparked debate with his larger-than-life philanthropy. Love or criticize him, Mr. Beast, real name Jimmy Donaldson, isn't someone you can easily ignore. Today, we aim to take you on a journey inside the mind of this internet sensation to understand why we believe he perfectly embodies Enneagram Type 8 - The Challenger.</p>
-
-> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect Mr. Beast's actual personality type.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect Mr. Beast's actual personality type.
+
+<p class="firstLetter">He's conquered YouTube, melted hearts, and sparked debate with his larger-than-life philanthropy.</p> 
+
+Love or criticize him, Mr. Beast, real name Jimmy Donaldson, isn't someone you can easily ignore. Today, we aim to take you on a journey inside the mind of this internet sensation to understand why we believe he perfectly embodies Enneagram Type 8 - The Challenger.
 
 <details>
 <summary class="accordion">TL;DR: Why Mr. Beast is an Enneagram 8</summary>
@@ -70,7 +72,9 @@ Let's take a look at his philanthropy. Beast's generosity ranges from providing 
 
 ## The Struggle for Autonomy
 
-A less-publicized aspect of Mr. Beast's journey is his determination to maintain independence. As a teenager, he began his YouTube journey, operating out of his mother's house. He didn't run to a corporate studio or sell out to investors when his videos generated income. Instead, he reinvested every dollar into his work, scaling his operations independently and avoiding the grip of external control.
+A less-publicized aspect of Mr. Beast's journey is his determination to maintain independence. 
+
+As a teenager, he began his YouTube journey, operating out of his mother's house. He didn't run to a corporate studio or sell out to investors when his videos generated income. Instead, he reinvested every dollar into his work, scaling his operations independently and avoiding the grip of external control.
 
 His insistence on autonomy echoes a core trait of Type 8s, who fiercely protect their independence. They despise being controlled and strive to maintain their sovereignty, a philosophy that Beast applies to his business and creative pursuits.
 

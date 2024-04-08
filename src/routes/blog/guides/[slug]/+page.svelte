@@ -30,7 +30,7 @@
 
 <hr style="margin: 5rem;" />
 
-<SuggestionsBlog posts={data?.posts} />
+<SuggestionsBlog posts={data?.posts} blogType={'guides'} />
 
 <div class="join">
 	{#if !data?.session?.user}

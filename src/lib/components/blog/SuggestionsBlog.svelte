@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let posts: App.BlogPost[];
+	export let blogType: string;
 	let innerWidth = 0;
 </script>
 
@@ -10,7 +11,7 @@
 	<div class="blog-grid-container">
 		{#each posts.slice(0, innerWidth > 920 ? 10 : 6) as eBlog}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/blog/{blogType}/{eBlog.slug}"
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
