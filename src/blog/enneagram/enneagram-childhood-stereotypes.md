@@ -19,9 +19,6 @@ pic: 'greek-statue-babies'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
-
-Well, park your scroll thumb or mousey flicker for a moment, and let's take a walk down memory lane and revisit some trauma. JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know. 
 
 <div
     style="display: flex;
@@ -38,6 +35,11 @@ Well, park your scroll thumb or mousey flicker for a moment, and let's take a wa
         subtext=""
     />
 </div>
+
+<p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
+
+Well, park your scroll thumb or mousey flicker for a moment, and let's take a walk down memory lane and revisit some trauma. JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know. 
+
 
 ## Type 1: The Little Perfectionists
 
@@ -71,7 +73,6 @@ The kid in class who wrote poetry or daydreamed, not just to escape boredom but 
 
 Remember that kid who always had their nose in a book or was tirelessly dismantling gadgets to see how they tick? They may have been a loner. That's our Type 5. Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. They built fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories.
 
-Consider someone like a young Marie Curie in her formative years, driven by an insatiable curiosity about the world. This child isn't just playing with science; they use it as a refuge. They're the kid who skips the school dance not out of shyness but to stay home and complete a chemistry set experiment. When other children are out making noise and causing a ruckus, this future investigator is in their element, unraveling the mysteries of the universe, one experiment at a time.
 
 Their bedroom, cluttered with books, gadgets, and notes, is a testament to their quest for knowledge and a haven from the unpredictability of human interactions. It's here, in this self-created world of inquiry and discovery, that they feel most alive and most themselves.
 

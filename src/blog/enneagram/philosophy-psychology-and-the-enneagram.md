@@ -4,7 +4,7 @@ description: "Dive into the Enneagram's roots in philosophy and psychology. Expl
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
-lastmod: '2023-12-02'
+lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -26,10 +26,6 @@ Enneagram and Plato
 
 9 threads through the fabric of history -->
 
-<p class="firstLetter">Philosophy and Psychology, lets get poetic.</p>
-
-Understanding ourselves is a journey marked by fascinating waypoints in the intricate tapestry of human consciousness. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. This article maps the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. We'll dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into the internal landscapes of our minds.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -45,9 +41,17 @@ Understanding ourselves is a journey marked by fascinating waypoints in the intr
   />
 </div>
 
+<p class="firstLetter">Philosophy and Psychology, let's get poetic.</p>
+
+Understanding ourselves is a journey marked by fascinating waypoints in the intricate tapestry of human consciousness. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. This article maps the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. 
+
+Here, we dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into our minds' internal landscapes.
+
 ## The Enneagram's Roots in Philosophy
 
-While the Enneagram is a popular tool for understanding human behavior and growth, it is essential to understand its philosophical lineage to appreciate its depth truly. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll better understand how our core emotions shape these intelligence centers.
+The Enneagram's philosophical lineage often gets overlooked.
+
+Yes, the Enneagram is a popular tool for understanding human behavior and growth, but many of its ideas resemble those of great thinkers of the past. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll better understand how our core emotions shape these intelligence centers.
 
 ## Plato's Tripartite Soul and the Enneagram
 
@@ -81,7 +85,7 @@ Now that we've established the connections between the Enneagram, Plato, and Fre
 
 ## Fear and Intellectual Intelligence
 
-Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to developing a sophisticated understanding of the world around us.
+Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to the development of a sophisticated understanding of the world around us.
 
 **Fear Example**: Imagine a person who fears losing their job. To prevent this, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure job security.
 
@@ -101,9 +105,8 @@ Anger is the fundamental emotion fueling the development of instinctual intellig
 
 Understanding the connections between the Enneagram, Plato, and Freud, as well as the core emotions driving the development of these intelligence centers, helps us appreciate the Enneagram's depth and complexity. We can better understand our motivations and growth paths by recognizing how fear, shame, and anger shape our intellectual, emotional, and instinctual intelligence.
 
-In essence, the Enneagram offers a framework for personal development deeply rooted in the rich philosophical traditions of Plato and Freud. By exploring these connections, we can better appreciate the Enneagram as a tool for self-understanding and a means to foster personal growth and transformation.
+By exploring these connections, we can better appreciate the Enneagram as a tool for self-understanding and a means to foster personal growth and transformation.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
 <svelte:head>
 
@@ -140,7 +143,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   ],
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-12-02"
+    "@value": "2024-04-07"
   },
   "datePublished": {
     "@type": "Date",

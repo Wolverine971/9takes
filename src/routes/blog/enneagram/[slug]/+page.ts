@@ -20,10 +20,10 @@ export const load: PageLoad = async ({ params }) => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 
@@ -31,6 +31,7 @@ export const load: PageLoad = async ({ params }) => {
 	const publishedPosts = posts
 		.filter((post) => post.published)
 		.filter((post) => post.blog)
+		.filter((p) => p?.type?.[0] === post?.metadata?.type?.[0])
 		.filter((post) => params.slug !== post.slug)
 		.sort(() => 0.5 - Math.random())
 		.slice(0, MAX_POSTS);
