@@ -8,7 +8,7 @@ lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['resources']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-two-females-on-phones'
@@ -20,8 +20,6 @@ pic: 'greek-statues-two-females-on-phones'
 
 <!-- Take a free, ~5 min test here
 adjust title
-
-
 
 -->
 

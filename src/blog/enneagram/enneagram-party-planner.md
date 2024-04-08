@@ -287,13 +287,11 @@ Now that we have the invites down, lets look what the ideal party looks like for
 
 </details>
 
-
 ## Wrap up 🎉
 
 Hopefully this helps you throw a great party!
 
 To dive deeper and see how each Enneagram type behaves at a party checkout this blog [here](/blog/enneagram/enneagram-types-at-party).
-
 
 <svelte:head>
 

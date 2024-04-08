@@ -8,7 +8,7 @@ lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: 'situational'
+type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-being-ghosted'

@@ -9,7 +9,7 @@ lastmod: '2023-09-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['self-development']
+type: ['development']
 blog: true
 previewHtml: ''
 ---

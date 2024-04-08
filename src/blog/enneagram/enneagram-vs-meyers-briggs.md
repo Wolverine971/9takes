@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs'
 lastmod: '2024-04-07'
 changefreq: 'monthly'
 published: true
-type: ['overview']
+type: ['resources']
 blog: true
 previewHtml: ''
 pic: 'enneagram-vs-meyers-briggs'

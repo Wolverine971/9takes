@@ -8,7 +8,7 @@ lastmod: '2024-01-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: 'situational'
+type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-flex'

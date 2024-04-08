@@ -8,7 +8,7 @@ lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
-type: 'overview'
+type: ['nine-types']
 ---
 
 <script>
@@ -16,7 +16,6 @@ type: 'overview'
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
 
 <Carousel type={4} gridDisplay={true} />
 <br>

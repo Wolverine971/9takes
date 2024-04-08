@@ -8,7 +8,7 @@ lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: 'situational'
+type: ['situational']
 pic: 'greek-statue-yeah-boi'
 ---
 

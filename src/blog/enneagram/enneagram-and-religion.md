@@ -18,8 +18,6 @@ previewHtml: ''
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Often, when people first encounter the Enneagram, their initial question is, "Is the Enneagram a religious thing?" As is often the case with nuanced systems, the answer is complex.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -35,6 +33,8 @@ previewHtml: ''
 		subtext=""
 	/>
 </div>
+
+<p class="firstLetter">Often, when people first encounter the Enneagram, their initial question is, "Is the Enneagram a religious thing?" As is often the case with nuanced systems, the answer is complex.</p>
 
 The Enneagram is a rich and multifaceted tool used within various religious and spiritual traditions for growth and self-understanding. But, it is not tied to any one religious tradition, nor is it inherently religious. At its core, the Enneagram is a psychological tool—a map that can guide you toward a more profound understanding of yourself and others.
 

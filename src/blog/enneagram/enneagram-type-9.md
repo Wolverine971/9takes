@@ -8,7 +8,7 @@ lastmod: '2024-01-21'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['nine-types']
 ---
 
 <script>

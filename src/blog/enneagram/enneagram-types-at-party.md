@@ -8,7 +8,7 @@ lastmod: '2024-01-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: 'situational'
+type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-party-vibes'

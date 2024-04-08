@@ -8,7 +8,7 @@ lastmod: '2024-01-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['resources']
 blog: true
 previewHtml: ''
 ---

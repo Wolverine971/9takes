@@ -8,7 +8,7 @@ lastmod: '2024-04-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-building-a-boat'

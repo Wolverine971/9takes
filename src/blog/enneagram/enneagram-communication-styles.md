@@ -8,7 +8,7 @@ lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['development']
 blog: true
 previewHtml: ''
 pic: 'two-female-greek-statues-having-a-conversation'

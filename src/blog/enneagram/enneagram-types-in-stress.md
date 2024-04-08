@@ -8,7 +8,7 @@ lastmod: '2024-03-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: 'situational'
+type: ['situational']
 blog: true
 previewHtml: ''
 pic: 'feeling-stressed'

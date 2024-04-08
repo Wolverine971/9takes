@@ -8,7 +8,7 @@ lastmod: '2024-04-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['overview']
+type: ['development']
 blog: true
 previewHtml: ''
 pic: 'greek-statue-reading'
