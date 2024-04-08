@@ -42,6 +42,8 @@ Enneagram Criticisms (200 words)
     />
 </div>
 
+<p>Below are the common criticisms of personality, psychology and the ideas behind 9takes.</p>
+
 <details>
   <summary class="accordion">"Personality stuff is not real."</summary>
   <div class="panel">

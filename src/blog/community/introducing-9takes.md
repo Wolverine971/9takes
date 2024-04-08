@@ -27,13 +27,6 @@ pic: 'greek-statue-introducing-9takes'
 <!-- big long panel of people experiencing anger fear and shame -->
 
 <!-- ## Discover the Power of Nine Perspectives -->
-<p class="firstLetter">Where are the good conversations happening online?<p>
-
-Is there any place left where you can get multiple perspectives?
-
-Most of the forums have devolved into echo chambers. The platforms have chosen sides. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
-
-9takes is fixing the problem of echo chambers.
 
 <div
 	style="display: flex;
@@ -50,6 +43,14 @@ Most of the forums have devolved into echo chambers. The platforms have chosen s
 	/>
 
 </div>
+
+<p class="firstLetter">Where are the good conversations happening online?<p>
+
+Is there any place left where you can get multiple perspectives?
+
+Most of the forums have devolved into echo chambers. The platforms have chosen sides. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
+
+9takes is fixing the problem of echo chambers.
 
 ## The Evolution of Social Media
 

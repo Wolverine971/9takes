@@ -4,22 +4,42 @@ description: "Improving Relationships through the Enneagram: Understanding Your 
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-in-relationships'
-lastmod: '2024-01-30'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['relationships']
 blog: true
 previewHtml: ''
+pic: 'greek-statues-having-an-intimate-conversation'
 ---
 
 <script>
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">People don't talk like you. People don't think and feel like you, too, and yet you have likely found a way to get along with and talk to the many different people in your life. If every relationship in your life is thriving, skip this blog. But if some relationships are a struggle and you could use some insight into people's preferred communication styles, read on.</p>
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    "
+>
+  <PopCard
+        image={`/blogs/greek-statues-having-an-intimate-conversation.webp`}
+        showIcon={false}
+        displayText=""
+        altText="two Greeks statues having an intimate conversation"
+        tint={false}
+        subtext=""
+    />
+</div>
 
-We are going to look at the communication styles of each Enneagram type. Each Enneagram personality type has its own fears and motivations and has developed a specific communication style. It may be hard to pick up on the nuances of communication, but once you are familiar with the Enneagram types, you can start to understand where each type is coming from and attempt to speak their language. But the first step is to <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">learn your Enneagram type</a>.
+<p class="firstLetter">People don't talk like you.</p>
+
+People don't think and feel like you, too, and yet you have likely found a way to get along with and talk to the many different people in your life. If every relationship in your life is thriving, skip this blog. But if some relationships are a struggle maybe its time to investigate different people's preferred communication styles.
+
+We are going to look at the communication styles of each Enneagram type. It may be hard to pick up on the nuances of communication, but once you are familiar with the Enneagram types, you can start to understand where each type is coming from and attempt to speak their language. But the first step is to <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">learn your Enneagram type</a>.
 
 ## Steps for Using the Enneagram in Relationships
 
@@ -224,6 +244,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "headline": "Enneagram Insights for Relationship Communication",
       "description": "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statues-having-an-intimate-conversation.webp",
+        "width": 900
+      },
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -1,10 +1,10 @@
 ---
 title: 'How each Enneagram type flexes'
-description: "Explore the Enneagram's intricate tapestry: how each type subtly showcases strengths, desires for perception, and the heartfelt motivations behind them."
+description: "Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized"
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'
-lastmod: '2024-01-16'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -18,8 +18,6 @@ pic: 'greek-statue-flex'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Each Enneagram type has its distinct hue and texture. Each type flexes in their own way. What drives each type to show off? How do they want to be perceived? Let's get into it.</p>
-
 <div style="display: flex;
     justify-content: center;">
 <PopCard
@@ -31,9 +29,13 @@ pic: 'greek-statue-flex'
 	/>
 </div>
 
+<p class="firstLetter">Every Enneagram type wants to be seen in a certain light.</p>
+
+In order to be seen in that desired way each type will go out of their way to flex in certain situations or when certain topics are brought up. Each type subtly shows off in their own way. Here we will explore what drives each type to show off and how do they want to be perceived? Let's get into it.
+
 <article class="section-content">
 
-<h3>Type 1- The Perfectionist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 1- The Perfectionist</h3>
 
 The Meticulous Maverick
 
@@ -46,7 +48,7 @@ Deep Dive: For Type 1s, every flex is a testament to their dedication to ideals.
 </article>
 <article class="section-content">
 
-<h3>Type 2- The Helper</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 2- The Helper</h3>
 
 The Generous Gem
 
@@ -59,7 +61,7 @@ Deep Dive: Type 2s' showcase of warmth is more than just kindness—it's their s
 </article>
 <article class="section-content">
 
-<h3>Type 3- The Achiever</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 3- The Achiever</h3>
 
 The Dynamic Dynamo
 
@@ -72,7 +74,7 @@ Deep Dive: Every accolade shared by Type 3s is rooted in their yearning for vali
 </article>
 <article class="section-content">
 
-<h3>Type 4- The Individualist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 4- The Individualist</h3>
 
 The Expressive Enigma
 
@@ -97,7 +99,7 @@ Deep Dive: When Type 4s share their creations or perspectives, they're inviting 
 
 <article class="section-content">
 
-<h3>Type 5- The Investigator</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 5- The Investigator</h3>
 
 The Thoughtful Theorist
 
@@ -110,7 +112,7 @@ Deep Dive: Each revelation from Type 5s stems from their insatiable thirst for k
 </article>
 <article class="section-content">
 
-<h3>Type 6- The Loyalist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 6- The Loyalist</h3>
 
 The Dependable Defender
 
@@ -123,7 +125,7 @@ Deep Dive: Behind each story of allegiance from Type 6s lies their intrinsic nee
 </article>
 <article class="section-content">
 
-<h3>Type 7- The Enthusiast</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 7- The Enthusiast</h3>
 
 The Joyous Jetsetter
 
@@ -148,7 +150,7 @@ Deep Dive: Every story of exhilaration from Type 7s is a testament to their purs
 
 <article class="section-content">
 
-<h3>Type 8- The Challenger</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 8- The Challenger</h3>
 
 The Assertive Ace
 
@@ -161,7 +163,7 @@ Deep Dive: Each flex from Type 8s is a proclamation of their power and control, 
 </article>
 <article class="section-content">
 
-<h3>Type 9- The Peacemaker</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 9- The Peacemaker</h3>
 
 The Harmonious Healer
 
@@ -202,14 +204,14 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
                 },
             "dateModified": {
                 "@type": "Date",
-                "@value": "2024-01-16"
+                "@value": "2024-04-08"
             },
             "datePublished": {
                 "@type": "Date",
                 "@value": "2023-08-09"
             },
-            "description": "Delve deeper into the Enneagram's nine types, exploring how they flex, their desires for perception, and their heartfelt motivations.",
-            "headline": "The Art of Flexing: Delving Deeper into the Enneagram's Showcase",
+            "description": "Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized",
+            "headline": "How each Enneagram type flexes",
             "image": {
                 "@type": "ImageObject",
                 "height": 900,
@@ -247,10 +249,38 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
-
  .panel {
     padding: 18px;
     background-color: var(--color-paladin-1, white);
     overflow: hidden;
  }
+ .section-content {
+        /*border-right: 4px solid slategrey;*/
+        margin: 1rem 0;
+        padding: 1rem;
+        transition: transform .7s ease-in-out;
+        flex: 1;
+        border: 1px solid grey;
+    }
+
+   aside::-webkit-scrollbar {
+        width: 4px;
+    }
+   aside::-webkit-scrollbar-track {
+        box-shadow: 0 0 4px slategrey;
+    }
+   aside::-webkit-scrollbar-thumb {
+        background-color: slategrey;
+        /*outline: .5px solid slategrey;*/
+    }
+   @media all and (max-width: 576px) {
+       .section-content {
+            /*border-right: 4px solid slategrey;*/
+            margin: 10px;
+            padding: 10px;
+            /*transition: transform .7s ease-in-out;*/
+            /*flex: 1;*/
+        }
+
+   }
 </style>

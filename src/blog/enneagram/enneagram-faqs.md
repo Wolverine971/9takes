@@ -17,6 +17,8 @@ previewHtml: ''
 
 <h2>Enneagram FAQs</h2>
 
+<p>Below are the frequently asked questions about the Enneagram, personality and 9takes.</p>
+
 <details>
 <summary class="accordion">What is the Enneagram?</summary>
 <div class="panel">

@@ -4,7 +4,7 @@ description: 'Different personalities have subtle quirks to how they communicate
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
-lastmod: '2024-02-03'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -19,8 +19,6 @@ pic: 'greek-statues-arguing'
    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
-<p class="firstLetter">When it comes to interacting with Enneagram types that are different from our own, the key is to approach them with respect, curiosity, and an open mind. Remember that each Enneagram type has its unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.</p>
 
 <div
 	style="display: flex;
@@ -38,6 +36,10 @@ pic: 'greek-statues-arguing'
     	subtext=""
     />
 </div>
+
+<p class="firstLetter">How do you bring respect, curiosity, and an open mind into every conversation?</p>
+
+Everyone has their own unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.
 
 <article class="section-content">
 
@@ -279,7 +281,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "9takes"
       },
   "datePublished": "2023-02-27",
-  "dateModified": "2024-02-03",
+  "dateModified": "2024-04-08",
   "description": "This article provides practical communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types."
   },
   {

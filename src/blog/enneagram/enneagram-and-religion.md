@@ -34,13 +34,15 @@ previewHtml: ''
 	/>
 </div>
 
-<p class="firstLetter">Often, when people first encounter the Enneagram, their initial question is, "Is the Enneagram a religious thing?" As is often the case with nuanced systems, the answer is complex.</p>
+<p class="firstLetter">Often, when people first encounter the Enneagram, their initial question is, "Is the Enneagram a religious thing?" Well, the answer is complex.</p>
 
 The Enneagram is a rich and multifaceted tool used within various religious and spiritual traditions for growth and self-understanding. But, it is not tied to any one religious tradition, nor is it inherently religious. At its core, the Enneagram is a psychological tool—a map that can guide you toward a more profound understanding of yourself and others.
 
 ### Christianity and the Enneagram
 
-In Christianity, the Enneagram has been adopted as a tool for spiritual growth. Richard Rohr, a Franciscan friar, has championed the Enneagram within Christian circles, seeing it as a way to better understand oneself and others, thereby facilitating personal and spiritual development. His Center for Action and Contemplation offers various resources, including online courses, articles, and books on the Enneagram from a Christian perspective. Here is <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/the-enneagram-an-introduction/" >Rohr giving an into to the enneagram</a>.
+In Christianity, the Enneagram was and has been adopted as a tool for spiritual growth. 
+
+Richard Rohr, a Franciscan friar, has championed the Enneagram within Christian circles, seeing it as a way to better understand oneself and others, thereby facilitating personal and spiritual development. His Center for Action and Contemplation offers various resources, including online courses, articles, and books on the Enneagram from a Christian perspective. Here is <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/the-enneagram-an-introduction/" >Rohr giving an into to the enneagram</a>.
 
 ### Sufism and the Enneagram's Origins
 
@@ -48,15 +50,21 @@ Sufism, a mystical branch of Islam, has often been linked to the Enneagram. Alth
 
 ### The Enneagram and Judaism
 
-While not a mainstream practice in Judaism, the Enneagram has found acceptance among some Jewish scholars and practitioners. Some Jewish scholars and practitioners value the Enneagram for self-understanding and spiritual growth. Rabbi David Cooper's book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/God-Verb-Kabbalah-Practice-Mystical/dp/1573226947" >God Is a Verb: Kabbalah and the Practice of Mystical Judaism</a>" provides some insights into how the Enneagram and Kabbalah may intersect.
+While not a mainstream practice in Judaism, the Enneagram has found acceptance among some Jewish scholars and practitioners. 
+
+Some Jewish scholars and practitioners value the Enneagram for self-understanding and spiritual growth. Rabbi David Cooper's book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/God-Verb-Kabbalah-Practice-Mystical/dp/1573226947" >God Is a Verb: Kabbalah and the Practice of Mystical Judaism</a>" provides some insights into how the Enneagram and Kabbalah may intersect.
 
 ### New Age, Esoteric Groups, and the Enneagram
 
-The Enneagram has also found its way into various New Age and esoteric groups. The Enneagram is often adopted as a personal and spiritual development tool, drawing on different religious and spiritual traditions in their interpretation of the system. Helen Palmer's book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838" >The Enneagram: Understanding Yourself and the Others in Your Life</a>" offers a comprehensive resource for understanding how these groups use the Enneagram.
+The Enneagram has also found its way into various New Age and esoteric groups. 
+
+The Enneagram is often adopted as a personal and spiritual development tool, drawing on different religious and spiritual traditions in their interpretation of the system. Helen Palmer's book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838" >The Enneagram: Understanding Yourself and the Others in Your Life</a>" offers a comprehensive resource for understanding how these groups use the Enneagram.
 
 ### The Enneagram in Jesuit Tradition
 
-The Jesuits, a Catholic religious order known for their commitment to education and intellectual exploration, have been known to use the Enneagram. They see the system as a tool for spiritual discernment, promoting greater self-understanding and aiding in personal growth. Jerome Wagner, Ph.D., a clinical psychologist, explains more the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://enneagramspectrum.com/173/history-of-the-enneagram/" > Enneagram's origins connecting it to a Jesuit mathematician Athanasius Kircher</a>.
+The Jesuits, a Catholic religious order known for their commitment to education and intellectual exploration, have been known to use the Enneagram. 
+
+They see the system as a tool for spiritual discernment, promoting greater self-understanding and aiding in personal growth. Jerome Wagner, Ph.D., a clinical psychologist, explains more the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://enneagramspectrum.com/173/history-of-the-enneagram/" > Enneagram's origins connecting it to a Jesuit mathematician Athanasius Kircher</a>.
 
 ### The Enneagram: Beyond Religion
 

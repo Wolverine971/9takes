@@ -4,7 +4,7 @@ description: 'Explore the unique communication styles of Enneagram types 1-9. En
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2023-08-27'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,8 +20,6 @@ pic: 'two-female-greek-statues-having-a-conversation'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Want to get better at chatting and relating to people? The Enneagram can help. It's a handy guide that shows us how different folks talk and relate. Each of the nine Enneagram types has a unique way of interacting, and we'll look at that through key stuff like body language, listening, understanding feelings, being clear and brief, showing confidence, empathy, respect, giving feedback, and adapting to changes.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -36,6 +34,21 @@ pic: 'two-female-greek-statues-having-a-conversation'
 		subtext=""
 	/>
 </div>
+
+<p class="firstLetter">Want to be able to talk with anyone about anything?</p>
+
+The Enneagram can help. Below is a handy guide that shows us how different personality types talk and relate to one another. Each of the nine Enneagram types has a unique way of interacting.
+
+Here we  look at a slew of things related to communication
+
+- body language
+- listening well
+- understanding feelings
+- being clear and brief
+- showing confidence
+- showing empathy
+- showing respect
+- giving feedback and adapting to changes.
 
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
 
@@ -599,7 +612,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-27"
+        "@value": "2024-04-08"
       },
       "datePublished": {
         "@type": "Date",
