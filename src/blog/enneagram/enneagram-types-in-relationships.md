@@ -260,7 +260,6 @@ There are near-infinite possibilities for how a person can think, feel, and beha
 
 If you liked this, check [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
 
-
 <svelte:head>
 
 <script type="application/ld+json">

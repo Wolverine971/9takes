@@ -40,10 +40,9 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Kamala Harris's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
 
-<p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p> 
+<p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>
 
 Kamala Harris, the first female Vice President of the United States, is both celebrated and scrutinized. Today, we delve into an intriguing aspect of Harris's persona, exploring her through the lens of Enneagram Type 3 - The Achiever.
-
 
 <details>
 <summary class="accordion">TL;DR: Why Kamala Harris is an Enneagram type 3</summary>

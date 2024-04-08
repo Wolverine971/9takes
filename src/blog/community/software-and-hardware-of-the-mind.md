@@ -75,9 +75,10 @@ While empirical behavioral studies concentrate on the hardware – the observabl
 
 The Greeks understood the importance of archetypes.
 
-The Greeks had gods that were flawed. The gods gave the Greeks both cautionary tales of what not to do and inspirational stories. These stories and archetypes, though imperfect, helped form the Greek culture. 
+The Greeks had gods that were flawed. The gods gave the Greeks both cautionary tales of what not to do and inspirational stories. These stories and archetypes, though imperfect, helped form the Greek culture.
 
 <!-- TODO needs work here -->
+
 Today we have no shared archetypes for classifying the way people think feel and behave. We do however recognize patterns. Sometimes stories are more accurate that facts. We may not know the science be we recognize the emotions thought patterns and behaviors behind what people do. These archetypes serve as a way for the common man to make sense of others and himself.
 
 It's time to re-embrace these archetypes and use the imperfect tool of psychoanalysis to explore the depths of the human mind, going beyond what is immediately observable.

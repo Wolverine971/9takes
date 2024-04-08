@@ -39,7 +39,7 @@ pic: 'two-female-greek-statues-having-a-conversation'
 
 The Enneagram can help. Below is a handy guide that shows us how different personality types talk and relate to one another. Each of the nine Enneagram types has a unique way of interacting.
 
-Here we  look at a slew of things related to communication
+Here we look at a slew of things related to communication:
 
 - body language
 - listening well

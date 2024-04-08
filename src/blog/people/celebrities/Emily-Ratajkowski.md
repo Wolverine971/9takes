@@ -4,7 +4,7 @@ description: 'Why Emily Ratajkowski appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski'
-lastmod: '2023-09-04'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/@emrata'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author. For those who are paying attention, they know that she pushes the boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger.</p>
-
-> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/@emrata'
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
+
+<p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author.</p>
+
+For those who are paying attention, they know that she pushes boundaries and is all about challenging societal norms. Her unapologetic embrace of her sexuality, keen awareness of power dynamics, and support for underdogs and outcasts align with the characteristics of an Enneagram Type 8, also known as The Challenger.
 
 ## Owning and Embracing Her Sexuality
 
@@ -104,7 +106,7 @@ If you found this interesting, check out <a href="/blog/famous-enneagram-types/A
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2023-09-04"
+    "@value": "2024-04-08"
   },
   "datePublished": {
     "@type": "Date",

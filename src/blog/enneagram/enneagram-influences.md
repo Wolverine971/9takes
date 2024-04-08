@@ -1,27 +1,43 @@
 ---
-title: 'Enneagram Influences'
-description: 'Differing traditions and schools of thought that wrestle with and influence the enneagram'
+title: 'Enneagram Influences: Differing Traditions and Schools of Thought'
+description: 'Explore the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.'
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/blog/enneagram/enneagram-influences'
-lastmod: '2023-07-11'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'enneagram-inspiration-docs'
 ---
 
 <script>
 	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
+  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram has its roots in ancient spiritual traditions, dating back tPo the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.</p>
+<div
+	style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+	"
+>
+	<PopCard
+		image={`/blogs/enneagram-inspiration-docs.webp`}
+		showIcon={false}
+		displayText=""
+		altText="a desk of documents on the origins of the Enneagram"
+		subtext=""
+	/>
+</div>
 
-<p  style="text-align: center;">
-<Enneagram height={'10rem'} fill={'#1e2922'}/>
-</p>
+<p class="firstLetter">The Enneagram's origins are mysterious and there have been many influences on the system.</p>
+
+The Enneagram has its roots in ancient spiritual traditions, dating back to the fourth century AD. It was primarily used as a tool for self-discovery and spiritual growth. The Enneagram consists of a circle with nine equidistant points, each representing a personality type.
+
 
 ## Different Schools of Thought
 
@@ -30,6 +46,10 @@ Over the centuries, different schools of thought have contributed to the develop
 ### Sufi Tradition - ~10th-14th Centuries AD
 
 The Sufi tradition is an Islamic mystical tradition that is one of the earliest recorded sources of the Enneagram. Sufi teachings emphasize the importance of self-knowledge and spiritual awakening, and many Sufi masters have used the Enneagram as a tool for self-discovery and personal growth. The Enneagram's nine-pointed symbol is believed to represent the nine qualities of God, and each Enneagram type is seen as a reflection of a specific aspect of the divine. The Sufi tradition's emphasis on the spiritual significance of the Enneagram has helped to bring a greater depth and richness to the Enneagram as a tool for personal growth and spiritual development. Today, many Enneagram practitioners continue to draw inspiration from the Sufi tradition and its teachings on the Enneagram. <a href="https://sufipathoflove.com/enneagram-in-sufism/" title="">Learn more about it here</a>
+
+<p  style="text-align: center;">
+<Enneagram height={'10rem'} fill={'#1e2922'}/>
+</p>
 
 ### Gurdjieff Work - Early 20th Century, 1915-1949
 
@@ -90,9 +110,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
 			"sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
 		},
-      "dateModified": "2023-07-11",
+      "dateModified": "2024-04-08",
       "datePublished": "2023-03-02",
-      "description": "This blog post explores the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.",
+      "description": "Explore the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.",
       "headline": "Enneagram Influences: Differing Traditions and Schools of Thought",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-influences",

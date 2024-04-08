@@ -52,7 +52,7 @@ Tailored Communication
 
 <p class="firstLetter">Understanding the Enneagram gives us insight into our motivations, fears, and behaviors.</p>
 
- Through this we should be able to navigate the world more easily. The important part in this is picking up on how we and others communicate. Because everyone is different there are many nuances that can be picked up on. This article will explore how to communicate and what interact effectively with different Enneagram types.
+Through this we should be able to navigate the world more easily. The important part in this is picking up on how we and others communicate. Because everyone is different there are many nuances that can be picked up on. This article will explore how to communicate and what interact effectively with different Enneagram types.
 
 First, it's essential to recognize that each Enneagram type has a unique worldview and approach to life. It's necessary to approach each person with empathy and understanding, regardless of their type. As Suzanne Stabile writes in "The Path Between Us," "You can't change how you see—you can only change what you do with how you see." With that in mind, let's dive into how to communicate and interact effectively with each Enneagram type.
 
@@ -204,7 +204,6 @@ By recognizing each Enneagram type's unique approach to communication, we can le
 > "All relationships—those that truly matter and even those that don't—require translation. And if our interest in relational growth and transformation is sincere, then the Enneagram is one of the most helpful translation tools available."
 
 Let's use the Enneagram to enhance our personal and professional lives through better communication and stronger relationships.
-
 
 <svelte:head>
 

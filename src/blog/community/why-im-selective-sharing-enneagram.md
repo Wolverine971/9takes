@@ -4,7 +4,7 @@ description: 'Discover why sharing the life-changing insights of the Enneagram r
 author: 'DJ Wayne'
 date: '2024-03-09'
 loc: 'https://9takes.com/blog/community/why-im-selective-sharing-enneagram'
-lastmod: '2024-03-09'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -17,8 +17,6 @@ pic: 'giving-a-speech'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
-<p class="firstLetter">The Enneagram is awesome, unique, mysterious, and old. I have found it helpful in my own life, but sharing its insights requires careful consideration.</p>
 
 <div
     style="display: flex;
@@ -34,7 +32,10 @@ margin: 1rem 0;"
         subtext=""
     />
 </div>
-Here are some things to watch out for and think about before you try to explain the Enneagram to someone else.
+
+<p class="firstLetter">The Enneagram is awesome, unique, mysterious, and old.</p>
+
+I have found it helpful in my own life, but sharing its insights requires careful consideration. Here are some things to watch out for and think about before you try to explain the Enneagram to someone else.
 
 ## Not Everyone Appreciates Being Psychoanalyzed or Labeled
 
@@ -88,4 +89,6 @@ Acknowledge your view as one among many. Embrace the diversity of experiences th
 
 ## Takeaway
 
-Sharing something big like the Enneagram requires sensitivity. By approaching conversations with openness, respect, and an awareness of our biases, we can inspire curiosity without imposing. Let your journey be a beacon, not a directive.
+Sharing something big like the Enneagram requires sensitivity. By approaching conversations with openness, respect, and an awareness of our biases, we can inspire curiosity without imposing. 
+
+Let your journey be a beacon, not a directive.

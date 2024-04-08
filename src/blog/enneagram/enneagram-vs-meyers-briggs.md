@@ -18,7 +18,6 @@ pic: 'enneagram-vs-meyers-briggs'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -63,7 +62,7 @@ The Enneagram is an ancient personality system believed to have roots in several
 
 The Enneagram's origins are a subject of much debate.
 
- Various theories point to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
+Various theories point to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
 
 ### Key Concepts and Structure of Enneagram
 

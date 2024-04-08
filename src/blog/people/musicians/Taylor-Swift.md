@@ -44,7 +44,6 @@ tiktok: ''
 
 From 2023 onward, she has taken the world by storm through her Eras tour. But for Swifties, this icon has been iconic since she started. She is her. Here, we dive into the uncharted territory of Taylor's personality, proposing that she embodies the traits of an Enneagram Type 3 - The Achiever.
 
-
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 <details>

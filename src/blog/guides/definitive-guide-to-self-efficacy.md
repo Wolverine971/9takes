@@ -167,9 +167,9 @@ Below are practical steps you can take to start increasing your self-efficacy.
   Achieving small goals provides tangible evidence of your capabilities, reinforcing your belief in your abilities. It's like the person who decided to run a marathon; they started with shorter runs and gradually increased the distance, each small win boosting their confidence.
 
 - **How to Implement**
-    - SMART Goals: Use the SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to set your goals.
-    - Action Plan: Break down the goal into smaller tasks and create a timeline.
-    - Celebrate Wins: Each time you achieve a small goal, celebrate it. This positive reinforcement will boost your self-efficacy.
+  - SMART Goals: Use the SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to set your goals.
+  - Action Plan: Break down the goal into smaller tasks and create a timeline.
+  - Celebrate Wins: Each time you achieve a small goal, celebrate it. This positive reinforcement will boost your self-efficacy.
 
 #### Finding Role Models
 
@@ -177,9 +177,9 @@ Below are practical steps you can take to start increasing your self-efficacy.
   Seeing someone else achieve what you aspire to can make the goal seem more attainable. It's like the person who took up painting; they were inspired by artists who had mastered the craft.
 
 - **How to Implement**
-    - Identify Role Models: Look for people who have achieved what you aim to.
-    - Study Their Path: Understand their journey, the challenges they faced, and how they overcame them.
-    - Engage: If possible, engage with your role models. Ask for advice or mentorship.
+  - Identify Role Models: Look for people who have achieved what you aim to.
+  - Study Their Path: Understand their journey, the challenges they faced, and how they overcame them.
+  - Engage: If possible, engage with your role models. Ask for advice or mentorship.
 
 #### Positive Affirmations
 
@@ -187,9 +187,9 @@ Below are practical steps you can take to start increasing your self-efficacy.
   Positive affirmations can rewire your brain to believe in your capabilities. They act as emotional support that boosts your confidence, much like the person overcoming social anxiety who used positive affirmations to change their thought patterns.
 
 - **How to Implement**
-    - Create Affirmations: Write down positive statements that resonate with you.
-    - Daily Practice: Repeat these affirmations daily, ideally in front of a mirror.
-    - Visual Reminders: Place these affirmations where you can see them regularly.
+  - Create Affirmations: Write down positive statements that resonate with you.
+  - Daily Practice: Repeat these affirmations daily, ideally in front of a mirror.
+  - Visual Reminders: Place these affirmations where you can see them regularly.
 
 #### Coping Mechanisms
 
@@ -197,9 +197,9 @@ Below are practical steps you can take to start increasing your self-efficacy.
   Life is full of challenges and setbacks. Having coping mechanisms helps you deal with stress and obstacles without losing your self-belief. Think of the parents of a special needs child; they had to develop coping mechanisms to navigate the complexities of healthcare and education.
 
 - **How to Implement**
-    - Stress-Relief Techniques: Learn methods like deep breathing, meditation, or exercise.
-    - Problem-Solving: Develop a systematic approach to solving problems. Break them into smaller parts and tackle them one at a time.
-    - Seek Support: Don't hesitate to seek emotional support from friends, family, or professionals.
+  - Stress-Relief Techniques: Learn methods like deep breathing, meditation, or exercise.
+  - Problem-Solving: Develop a systematic approach to solving problems. Break them into smaller parts and tackle them one at a time.
+  - Seek Support: Don't hesitate to seek emotional support from friends, family, or professionals.
 
 <!-- 4-5 Tips
 Setting and Achieving Small Goals: Use the SMART criteria.
@@ -252,7 +252,7 @@ Society is like the air we breathe: invisible but impactful. A supportive commun
 - **Practical Steps:**
   If you're feeling stifled by societal norms, find your tribe. Engage in community work or join groups that resonate with your values. It's empowering and uplifting for everyone involved.
 
-Your environment is more than just a backdrop; it's an active player in your life's drama. And guess what? You're not just an actor; you're also the director. Take the steps to set the stage for your success story. 
+Your environment is more than just a backdrop; it's an active player in your life's drama. And guess what? You're not just an actor; you're also the director. Take the steps to set the stage for your success story.
 
 <!-- joe rogan video on being the hero of your own journey -->
 
@@ -402,7 +402,6 @@ Here is a list of current and past research having to do with self-efficacy.
 "All we have to decide is what to do with the time that is given us." This is the essence of self-efficacy. It's about making the most of our time and resources, believing in our ability to navigate life's challenges, and taking steps to improve.
 
 People are different and have different experiences. Thus it is natural that some of us have high self-efficacy and confidence, while others may struggle due to the learned behaviors developed in childhood. The <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">Enneagram</a> can serve as an additional tool to help you understand these nuances. By diving deeper into your Enneagram type, you can uncover layers of your psyche that may be holding you back and take targeted steps to improve not just your self-efficacy, but your overall well-being.
-
 
 <svelte:head>
 

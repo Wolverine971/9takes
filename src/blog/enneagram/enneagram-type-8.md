@@ -17,16 +17,15 @@ type: ['nine-types']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-
 <!-- have been trying to get stronger and control
  their core is driven by a profound sense of justice and loyalty, making them natural leaders in various spheres of life -->
 
 <Carousel type={8} gridDisplay={true}/>
 <br>
 
-<p class="firstLetter">Type 8s, are known as "The Challengers."</p> 
+<p class="firstLetter">Type 8s, are known as "The Challengers."</p>
 
-They embody assertiveness and self-confidence and need control. Their directness and tendency to control situations can be perceived as domineering, but this is their go-to coping mechanism that has served them well since childhood. Sometime in their childhood, they learned that being weak or putting yourself in vulnerable situations is not okay. So their way of being is to continually get stronger in all aspects of life so that they can control their own destiny. 
+They embody assertiveness and self-confidence and need control. Their directness and tendency to control situations can be perceived as domineering, but this is their go-to coping mechanism that has served them well since childhood. Sometime in their childhood, they learned that being weak or putting yourself in vulnerable situations is not okay. So their way of being is to continually get stronger in all aspects of life so that they can control their own destiny.
 
 <section class="section-content">
 

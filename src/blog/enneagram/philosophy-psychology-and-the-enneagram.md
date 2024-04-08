@@ -43,7 +43,7 @@ Enneagram and Plato
 
 <p class="firstLetter">Philosophy and Psychology, let's get poetic.</p>
 
-Understanding ourselves is a journey marked by fascinating waypoints in the intricate tapestry of human consciousness. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. This article maps the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul. 
+Understanding ourselves is a journey marked by fascinating waypoints in the intricate tapestry of human consciousness. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. This article maps the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul.
 
 Here, we dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into our minds' internal landscapes.
 
@@ -106,7 +106,6 @@ Anger is the fundamental emotion fueling the development of instinctual intellig
 Understanding the connections between the Enneagram, Plato, and Freud, as well as the core emotions driving the development of these intelligence centers, helps us appreciate the Enneagram's depth and complexity. We can better understand our motivations and growth paths by recognizing how fear, shame, and anger shape our intellectual, emotional, and instinctual intelligence.
 
 By exploring these connections, we can better appreciate the Enneagram as a tool for self-understanding and a means to foster personal growth and transformation.
-
 
 <svelte:head>
 

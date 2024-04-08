@@ -20,7 +20,6 @@ pic: 'greek-statues-at-the-beach'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
     style="display: flex;
     justify-content: center;

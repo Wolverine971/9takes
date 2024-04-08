@@ -20,7 +20,7 @@ type: ['nine-types']
 <Carousel type={7} gridDisplay={true} />
 <br>
 
-<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram.</p> 
+<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram.</p>
 
 Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.
 

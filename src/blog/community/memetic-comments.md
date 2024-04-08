@@ -4,7 +4,7 @@ description: 'Discover the impact of echo chambers and mimesis in online comment
 author: 'DJ Wayne'
 date: '2023-12-21'
 loc: 'https://9takes.com/blog/community/memetic-comments'
-lastmod: '2024-01-30'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -23,7 +23,6 @@ pic: 'greek-sculpture-on-a-laptop'
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
-
 
 <div
   style="display: flex;
@@ -53,15 +52,19 @@ Online discussions are not for the faint of heart. They are little battlegrounds
 
 ## Understanding the Memetic Effect
 
-People often mirror the beliefs of those they admire. If someone respects beliefs in 'X,' their admirers are more likely to also believe in 'X' because they have been influenced by the person they admire rather than independent analysis. Similarly, when two people agree on one opinion, they're more open to each other's other views. This is known as mirroring, or, as Rene Girard would say, this is a memetic effect.
+People often mirror the beliefs of those they admire. 
+
+If someone respects beliefs in 'X,' their admirers are more likely to also believe in 'X' because they have been influenced by the person they admire rather than independent analysis. Similarly, when two people agree on one opinion, they're more open to each other's other views. This is known as mirroring, or, as Rene Girard would say, this is a memetic effect.
 
 René Girard's concept of mimesis centers on the idea that human desires, interests, and behaviors are imitated mainly from others rather than originating independently. In Girard's view, we are intrinsically inclined to mimic the desires of those around us, especially individuals we perceive as models or figures of authority. This mimetic desire can lead to harmonious and conflicting relationships, as it not only involves emulating positive traits but can also result in rivalry and competition for the same objectives or status.
 
 ### Mimesis Online
 
-In the online world, this mimetic behavior becomes even more pronounced. 
+In the online world, this mimetic behavior becomes even more pronounced.
 
-With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions. Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
+With its blend of anonymity and impulsivity, the internet acts as a fertile ground for the rapid spread of opinions.
+
+Individuals often mirror the perspectives they encounter online, particularly in comment sections where the first few opinions can disproportionately influence subsequent readers. This contributes to the formation of echo chambers, where a single viewpoint is amplified, and contrasting perspectives are minimized. In such an environment, discussions that could be rich and diverse are often simplified into binary arguments.
 
 <!-- To counteract this trend, it's crucial to foster a culture that values diverse opinions and encourages critical thinking, moving beyond the initial reactions that are so easily mimicked online. -->
 
@@ -108,7 +111,7 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-30"
+        "@value": "2024-04-08"
       },
       "datePublished": {
         "@type": "Date",

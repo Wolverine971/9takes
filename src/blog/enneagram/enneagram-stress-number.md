@@ -35,7 +35,7 @@ pic: 'feeling-tension'
 
 <p class="firstLetter">We're going to talk about one of the most important aspects of the Enneagram: the stress number.</p>
 
- This is also known as the Enneagram types path of disintegration. Its like your negative alter ego that comes out when you are not doing well.
+This is also known as the Enneagram types path of disintegration. Its like your negative alter ego that comes out when you are not doing well.
 
 ## The Dual Faces of Personality: Comfort and Stress
 

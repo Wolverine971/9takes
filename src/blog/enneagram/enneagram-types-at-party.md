@@ -37,7 +37,7 @@ pic: 'greek-statues-party-vibes'
 
 <p class="firstLetter">People like to party differently.</p>
 
-Each Enneagram type is looking for something different that relates to their individual motivations and characteristics. In this article, we'll explore what each Enneagram type thinks, feels, and does at a party. We will also explore what they're looking forward to, and why they're attending the party in the first place. 
+Each Enneagram type is looking for something different that relates to their individual motivations and characteristics. In this article, we'll explore what each Enneagram type thinks, feels, and does at a party. We will also explore what they're looking forward to, and why they're attending the party in the first place.
 
 This article is for the seasoned Enneagram enthusiast and the person just looking to understand others better. Lets dive into what each type is like in a social setting.
 

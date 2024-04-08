@@ -1,6 +1,6 @@
 ---
 title: 'How each Enneagram type flexes'
-description: "Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized"
+description: 'Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized'
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'

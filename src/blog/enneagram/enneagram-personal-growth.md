@@ -5,7 +5,7 @@ description: 'Unlock transformative personal growth with the Enneagram. Learn ta
 author: 'DJ Wayne'
 date: '2023-03-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
-lastmod: '2023-09-04'
+lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,7 +20,28 @@ fix this
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
-<p class="firstLetter">While self-help books offer a one-size-fits-all approach to personal growth, the Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and those of others, we can identify our strengths and weaknesses and develop customized strategies for growth.</p>
+<script>
+    import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
+<!-- <div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    "
+>
+    <PopCard
+        image={`/blogs/greek-statues-partying.webp`}
+        showIcon={false}
+        displayText=""
+        altText="Greek statues partying 🎉"
+        subtext=""
+    />
+</div> -->
+
+<p class="firstLetter">Self-help books offer a one-size-fits-all approach to personal growth but the Enneagram does not.</p>
+
+The Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and the types of others, we can identify our strengths and weaknesses and develop customized growth strategies.
 
 ### Type 1: The Perfectionist - Embracing Imperfection
 
@@ -178,7 +199,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-09-04"
+        "@value": "2024-04-08"
       },
       "datePublished": {
         "@type": "Date",
@@ -186,6 +207,12 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "description": "Discover personalized growth strategies based on your Enneagram type with this insightful guide, covering ideal environments, practical tips, and empowering self-talk mantras for each type.",
       "headline": "Enneagram Personal Growth",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/greek-statues-arguing.webp",
+        "width": 900
+      },
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-personal-growth",
         "@type": "WebPage"

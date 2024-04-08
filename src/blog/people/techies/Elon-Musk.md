@@ -42,7 +42,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 
 <p class="firstLetter"> What makes Elon Musk tick?</p>
 
- What is behind the eyes of the guy behind Tesla, SpaceX, and PayPal? Here, we dive deep into Elon's mind, exploring his personality through the lens of the Enneagram. Elon resembles the personality of the Enneagram type 5- "the Observer" or "the Investigator."
+What is behind the eyes of the guy behind Tesla, SpaceX, and PayPal? Here, we dive deep into Elon's mind, exploring his personality through the lens of the Enneagram. Elon resembles the personality of the Enneagram type 5- "the Observer" or "the Investigator."
 
 <details>
 <summary class="accordion">TL;DR: Why Elon Musk is an Enneagram type 5</summary>

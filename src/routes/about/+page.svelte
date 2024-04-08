@@ -81,9 +81,9 @@
 				</picture>
 				<div>
 					<p style="margin-bottom: 0;">
-						I am an Enneagram entusiast and I am tired of fighting with people. I have a tech
-						background and I am applying what I have learned to build a platform where people can
-						find common ground and grow.
+						I am an Enneagram enthusiast, tired of fighting with people. I have a tech background
+						and am applying what I have learned to build a platform where people can find common
+						ground and grow.
 					</p>
 					<span>
 						<a

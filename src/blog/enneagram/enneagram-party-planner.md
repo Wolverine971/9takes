@@ -39,9 +39,9 @@ pic: 'greek-statues-partying'
 
 <p class="firstLetter">Trying to plan a great event? Have you considered the personality types that you might be attending?</p>
 
- Are the people in the group your close friends who love and support you? Or is the group a bunch of intellectual types who are going to need some social lubrication? Who might cause problems, and who wants to help? Who will be silently judging you, and who will be hitting on everyone?
+Are the people in the group your close friends who love and support you? Or is the group a bunch of intellectual types who are going to need some social lubrication? Who might cause problems, and who wants to help? Who will be silently judging you, and who will be hitting on everyone?
 
- Here, we will explore the personality types that might attend your event and try to help you throw a great party.
+Here, we will explore the personality types that might attend your event and try to help you throw a great party.
 
 ## One Approach to Party Planning
 
@@ -215,7 +215,6 @@ Lets dive into how you would entice each Enneagram type to attend your party.
 - Offer an event that emphasizes inclusively and harmonizes diverse groups.
 
 </details>
-
 
 ## The Idea Environment
 

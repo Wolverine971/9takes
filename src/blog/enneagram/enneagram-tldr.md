@@ -35,9 +35,9 @@ pic: 'greek-dude-reading-book'
 
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine types.</p>
 
- It is based on core motivations, fears, and childhood trauma. Each Enneagram type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
+It is based on core motivations, fears, and childhood trauma. Each Enneagram type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
 
-The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads. The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame. 
+The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads. The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame.
 
 The unique intelligences connected with the emotions are the following:
 

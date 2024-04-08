@@ -35,8 +35,6 @@ Philosophers and psychologists have talked about human nature a lot but did they
 
 One theory of human nature is about how humans fluctuate between being logical and illogical, and our goal is to be rational. The other theory is more complicated and less explored. The philosophers Plato and Aristotle had opposing views on this, and this mirrors the opposing views of the psychologists Sigmund Freud and Steven Pinker.
 
-
-
 ## Plato is to Aristotle as Freud is to Pinker
 
 **Plato** had a complicated view of human nature. He thought of human nature as having three distinct parts, calling it the "Tripartite Soul." These parts were the rational soul that governed the logical intellect. Then, the spirited soul was the source of emotions and courage. And lastly, there was the appetitive soul, which was associated with desires and bodily needs.

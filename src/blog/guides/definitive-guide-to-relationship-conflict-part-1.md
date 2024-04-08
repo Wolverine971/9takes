@@ -17,7 +17,6 @@ pic: 'greek-statue-having-a-disagreement'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
   style="display: flex;
     justify-content: center;
@@ -51,7 +50,7 @@ Gotman has written about "The Four Horsemen" bad conflict.
 
 ## What are the Four Horsemen?
 
-The Four Horsemen are the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a> that have been identified through relationship research. These four pitfalls lead to the end of relationships. The four horsemen are criticism, contempt, defensiveness, and stonewalling. 
+The Four Horsemen are the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a> that have been identified through relationship research. These four pitfalls lead to the end of relationships. The four horsemen are criticism, contempt, defensiveness, and stonewalling.
 
 Here we will explain the patterns behind each of the pitfalls.
 

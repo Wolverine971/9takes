@@ -21,7 +21,6 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
     style="display: flex;
     justify-content: center;

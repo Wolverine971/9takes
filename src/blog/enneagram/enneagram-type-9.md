@@ -17,7 +17,6 @@ type: ['nine-types']
     import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-
 <Carousel type={9}  gridDisplay={true}/>
 <br>
 

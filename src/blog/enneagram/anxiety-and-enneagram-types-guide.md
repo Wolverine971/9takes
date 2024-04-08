@@ -1,6 +1,6 @@
 ---
-title: "Understanding Anxiety Through the Enneagram: A Comprehensive Guide"
-description: "Explore how anxiety affects each Enneagram type with tailored management strategies. Unlock self-awareness and growth for your personality."
+title: 'Crash Course in Dealing with Anxiety with the Enneagram'
+description: 'Explore how anxiety affects each Enneagram type with tailored management strategies. Unlock self-awareness and growth for your personality.'
 author: 'DJ Wayne'
 date: '2024-03-28'
 loc: 'https://9takes.com/blog/enneagram/anxiety-and-enneagram-types-guide'
@@ -14,21 +14,21 @@ previewHtml: ''
 pic: ''
 ---
 
+<!-- how anxiety manifests itself in each enneagram type
 
-
-<!-- how anxiety manifests itself in each enneagram type -->
-
-
+Finish this
+-->
 
 ## Introduction
+
 Brief overview of the Enneagram system and its importance in understanding personality types.
 Introduction to the concept of anxiety and its various manifestations.
 Explanation of the blog's purpose: to explore how anxiety uniquely affects each Enneagram type and offer tailored strategies for management.
 
 ## Section 1: The Basics of Anxiety and the Enneagram
+
 Brief explanation of what anxiety is and its common triggers and symptoms.
 Overview of the Enneagram system, including its origins and how it categorizes personality types.
-
 
 ## Section 2: Anxiety in the Heart Triad (Types 1, 2, and 3)
 
@@ -43,7 +43,6 @@ Strategies for Type 2s to set healthy boundaries and manage stress.
 Type 3: The Achiever
 The stress of maintaining an image and the resulting anxiety.
 Techniques for Type 3s to balance achievement with self-care.
-
 
 ## Section 3: Anxiety in the Head Triad (Types 4, 5, and 6)
 
@@ -72,7 +71,6 @@ Techniques for Type 8s to embrace vulnerability as strength.
 Type 9: The Peacemaker
 Conflict avoidance and its link to anxiety.
 Strategies for Type 9s to face conflicts and find inner peace.
-
 
 ## Section 5: Tailored Strategies for Managing Anxiety
 
