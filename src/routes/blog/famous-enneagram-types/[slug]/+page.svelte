@@ -24,12 +24,7 @@
 	};
 </script>
 
-<article
-	itemscope
-	itemtype="https://schema.org/BlogPosting"
-	style="margin-top: 0; padding-top: 0;"
-	class="blog"
->
+<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
 	<div style="align-items: inherit;">
 		<PeopleBlogPageHead data={data.metadata} />
 		<ArticleTitle title={data.metadata.title} />

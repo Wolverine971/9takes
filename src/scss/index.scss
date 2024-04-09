@@ -261,23 +261,30 @@ select {
 	}
 }
 
-.blog a {
-	display: inline-block;
-	flex-wrap: wrap;
-	max-width: 100%;
-	overflow: hidden;
-	vertical-align: middle;
-	color: #260958;
-
-	&::after {
+.blog {
+	margin-top: 0;
+	padding-top: 0;
+	padding: 2rem;
+	background: #c1c0c036;
+	border-radius: 5px;
+	&a {
 		display: inline-block;
-		border-radius: 5px;
-		background-image: url('/icons/arrow.svg');
-		background-size: 1em 1em;
-		width: 1em;
-		height: 1em;
+		flex-wrap: wrap;
+		max-width: 100%;
+		overflow: hidden;
 		vertical-align: middle;
-		content: '';
+		color: #260958;
+
+		&::after {
+			display: inline-block;
+			border-radius: 5px;
+			background-image: url('/icons/arrow.svg');
+			background-size: 1em 1em;
+			width: 1em;
+			height: 1em;
+			vertical-align: middle;
+			content: '';
+		}
 	}
 }
 

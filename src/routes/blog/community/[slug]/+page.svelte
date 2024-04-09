@@ -12,12 +12,7 @@
 	$: component = data.component as unknown as C;
 </script>
 
-<article
-	itemscope
-	itemtype="https://schema.org/BlogPosting"
-	style="margin-top: 0; padding-top: 0;"
-	class="blog"
->
+<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
 	<div style="align-items: inherit;">
 		<BlogPageHead data={data.frontmatter} slug={`blog/community/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
