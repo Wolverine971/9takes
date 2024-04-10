@@ -208,7 +208,7 @@
 							on:click={() => {
 								isOpen = !isOpen;
 							}}
-							class="dropdown-button"
+							class="dropdown-button blog-btn"
 							aria-haspopup="true"
 							aria-controls="blogMenu"
 							aria-expanded={isOpen ? 'true' : 'false'}
@@ -237,7 +237,7 @@
 								<li role="none">
 									<a
 										href="/blog/community"
-										class="a-wrap"
+										class="a-wrap blog-nav-awrap"
 										tabindex={isOpen ? 0 : -1}
 										role="menuitem"
 									>
@@ -264,7 +264,7 @@
 								<li role="none">
 									<a
 										href="/blog/enneagram"
-										class="a-wrap"
+										class="a-wrap blog-nav-awrap"
 										tabindex={isOpen ? 0 : -1}
 										role="menuitem"
 									>
@@ -291,7 +291,7 @@
 								<li role="none">
 									<a
 										href="/blog/famous-enneagram-types"
-										class="a-wrap"
+										class="a-wrap blog-nav-awrap"
 										tabindex={isOpen ? 0 : -1}
 										role="menuitem"
 									>
@@ -317,7 +317,12 @@
 								</li>
 
 								<li role="none">
-									<a href="/blog/guides" class="a-wrap" tabindex={isOpen ? 0 : -1} role="menuitem">
+									<a
+										href="/blog/guides"
+										class="a-wrap blog-nav-awrap"
+										tabindex={isOpen ? 0 : -1}
+										role="menuitem"
+									>
 										<div
 											class="nav-text nav-element nav-element1-h {$page.url.pathname ===
 											'/blog/guides'
@@ -468,16 +473,28 @@
 
 		.nav-element1-h {
 			// background: red;
+			font-size: 1rem;
+			width: auto;
 			transform: translateX(0);
 		}
 
 		.nav-element2-h {
 			// background: blue;
-			transform: translateX(100%);
+			font-size: 1rem;
+			width: auto;
+			transform: translateX(500%);
+		}
+
+		.blog-nav-awrap {
+			justify-content: flex-start;
 		}
 
 		.a-wrap:hover .nav-element1-h {
-			transform: translateX(-150%);
+			transform: translateX(-200%);
+		}
+
+		.a-wrap:hover .nav-element2-h {
+			transform: translateX(0);
 		}
 
 		.a-wrap:hover .nav-element2-h {
@@ -528,6 +545,10 @@
 				margin-left: -10px;
 			}
 
+			// .blog-btn:hover {
+			// 	color: var(--color-theme-purple) !important;
+			// }
+
 			.menu {
 				display: flex;
 				align-items: center;
@@ -542,6 +563,9 @@
 					margin: 0;
 					padding: 0.75rem;
 				}
+				a:hover {
+					color: var(--color-theme-purple) !important;
+				}
 
 				.dropdown {
 					position: relative;
@@ -551,6 +575,7 @@
 					display: none;
 					list-style-type: none;
 					position: absolute;
+					width: 17rem;
 					right: 0;
 					left: 0;
 					top: 1rem;
@@ -560,13 +585,13 @@
 					padding: 0.5rem;
 					border-radius: 5px;
 					pointer-events: all;
+					border: 1px solid;
 					background-color: var(--color-paladin-2);
 					font-size: 14px;
 
 					a {
 						text-decoration: none;
-						color: var(--black);
-						font-size: 12px;
+						width: 17rem;
 					}
 				}
 
@@ -575,7 +600,7 @@
 				}
 
 				.dropdown-button {
-					color: var(--color-paladin-3) !important;
+					color: var(--color-paladin-3);
 					margin: 0;
 					padding: 0.75rem;
 					border: none;
@@ -589,6 +614,10 @@
 					align-items: center;
 					justify-content: center;
 					height: 100%;
+				}
+
+				.dropdown-button:hover {
+					color: var(--color-theme-purple) !important;
 				}
 
 				.dropdown-button:after {
