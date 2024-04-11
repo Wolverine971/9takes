@@ -575,7 +575,7 @@
 					display: none;
 					list-style-type: none;
 					position: absolute;
-					width: 17rem;
+					width: 18rem;
 					right: 0;
 					left: 0;
 					top: 1rem;
@@ -591,7 +591,7 @@
 
 					a {
 						text-decoration: none;
-						width: 17rem;
+						width: 18rem;
 					}
 				}
 

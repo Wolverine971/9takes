@@ -66,7 +66,7 @@
 					</button>
 
 					<ul class="dropdown {dropdownActive ? 'is-active' : ''}">
-						<li>
+						<li style="display: inline-flex;">
 							<a href="/blog/community" class="a-wrap">
 								<div
 									class={$page.url.pathname === '/blog/community' ? 'active-link' : ''}
@@ -76,7 +76,7 @@
 								</div>
 							</a>
 						</li>
-						<li>
+						<li style="display: inline-flex;">
 							<a href="/blog/enneagram" class="a-wrap">
 								<div
 									class={$page.url.pathname === '/blog/enneagram' ? 'active-link' : ''}
@@ -86,7 +86,7 @@
 								</div>
 							</a>
 						</li>
-						<li>
+						<li style="display: inline-flex;">
 							<a href="/blog/famous-enneagram-types" class="a-wrap">
 								<div
 									class={$page.url.pathname === '/blog/famous-enneagram-types' ? 'active-link' : ''}
@@ -97,7 +97,7 @@
 							</a>
 						</li>
 
-						<li>
+						<li style="display: inline-flex;">
 							<a href="/blog/guides" class="a-wrap">
 								<div
 									class={$page.url.pathname === '/blog/guides' ? 'active-link' : ''}
