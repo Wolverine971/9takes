@@ -132,7 +132,13 @@
 			>
 				{data.question.question_formatted || data.question.question}
 			</h1>
-			<img id="qr-image" src="" alt="QR Code" style="width: {innerWidth > 400 ? '20%' : '30%'};" />
+			<img
+				id="qr-image"
+				src=""
+				alt="QR Code"
+				class="qr-image-border"
+				style="width: {innerWidth > 400 ? '20%' : '30%'};"
+			/>
 		</div>
 
 		<!-- oninput="auto_grow(this)" -->
@@ -146,7 +152,7 @@
 		/>
 	</div>
 </article>
-<aside>
+<aside class="aside-outline">
 	{#if data.questionTags}
 		{#if innerWidth > 1200}
 			<h3 class="tags-heading">Related question <br />categories</h3>
@@ -175,6 +181,11 @@
 {/if}
 
 <style lang="scss">
+	.qr-image-border {
+		border: var(--classic-border);
+		margin: 0.5rem;
+		border-radius: 5px;
+	}
 	.question-box {
 		width: -webkit-fill-available;
 		border-radius: 5px;
@@ -193,6 +204,8 @@
 		margin-left: 0.25rem;
 		margin-bottom: 0;
 		padding-bottom: 0;
+		margin-top: 0;
+		padding-top: 0;
 	}
 
 	.tag {
@@ -221,11 +234,13 @@
 	@media (min-width: 1200px) {
 		aside {
 			position: fixed !important;
-			margin-left: 955px;
+			margin-left: 970px;
 			right: auto;
 			display: block;
 			margin-top: 0.5rem;
 			padding: 0.5rem;
+			border: var(--classic-border);
+			border-radius: 5px;
 		}
 	}
 

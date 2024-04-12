@@ -24,7 +24,7 @@
 				<div>
 					<h2 style="padding: 0; margin:0;">Generic responses</h2>
 					<p style="margin: .5rem 0 0 0;">
-						These are prepopulated generic responses that different enneagram types might give.
+						Steriotypical responses based on Enneagram types. Don't be basic! 😉
 					</p>
 				</div>
 				<button
