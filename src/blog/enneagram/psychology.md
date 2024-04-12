@@ -1,5 +1,5 @@
 ---
-title: 'Psychology'
+title: 'Psychology history'
 description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'

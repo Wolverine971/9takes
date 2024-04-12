@@ -1,9 +1,31 @@
+---
+title: 'toxic traits of each enneagram type'
+description: ''
+author: 'DJ Wayne'
+date: '2023-03-26'
+loc: 'https://9takes.com/blog/enneagram/psychology'
+lastmod: '2023-03-26'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+type: ['overview']
+blog: true
+previewHtml: ''
+pic: ''
+---
+
+<!-- todo -->
+
+
 <!-- the reader is experiencing pain and needs catharsis
 they need to be validated -->
 
 toxic traits
 toxic traits list
 examples of toxic traits
+
+
+<!-- todo finish this -->
 
 **Blog Title:** Navigating the Shadows: Understanding the Toxic Traits of Each Enneagram Type
 

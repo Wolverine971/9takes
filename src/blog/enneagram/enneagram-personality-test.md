@@ -1,10 +1,10 @@
 ---
-title: 'A simple test to determine your Enneagram personality type'
+title: 'The Enneagram Personality Test Simplified'
 description: 'Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type'
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: '2024-01-28'
+lastmod: '2024-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,12 +14,35 @@ previewHtml: ''
 ---
 
 <!-- Take a free, ~5 min test here -->
+<script>
+	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
+  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
+
+<p  style="text-align: center;">
+<Enneagram height={'10rem'} fill={'#1e2922'}/>
+</p>
 
 <p class="firstLetter"> Unlike other personality tests, the Enneagram gets at your core motivations
-and fears. Their thinking, feeling, and behavior patterns can be extrapolated, forming an archetype or your "type." To determine your type, you must examine
-your fears and motivations, but where does one start?</p>
+and fears.</p>
 
-It is commonly said that your personality develops over time, but many Enneagram teachers discuss how your type develops due to a childhood wound.
+A individual's thinking, feeling, and behavior patterns can be synthesized, forming an archetype or a "type." There are several steps to determining your type but the first step is to understand what personality is.
+
+## Personality Demystified
+
+
+<!-- todo check and fill out this part-->
+There are many definitions of personality.
+
+But personality is just an attempt to define the dimensions by which people are similar and different. For example, the Meyers-Briggs personality test (MBTI) separates people by:
+- introverts and extroverts
+- intuitive or sensing
+- thinking and feeling
+- judging and perceiving
+
+The Enneagram categorizes individuals based on their core emotions, which are developed in response to childhood wounds. These wounds lead to the development of coping mechanisms and a heightened sensitivity to the negative emotions experienced during the formative event. As a result, each Enneagram type is characterized by a specific set of emotional patterns and reactions that stem from their unique childhood experiences.
+
 Something happened in your past that still affects you, and you are compensating for
 it somehow. It could be many things:
 
@@ -119,14 +142,14 @@ For now, read the types and determine which, if any, you identify with. More to 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-28"
+        "@value": "2024-04-12"
       },
       "datePublished": {
         "@type": "Date",
         "@value": "2023-03-11"
       },
       "description": "Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type",
-      "headline": "A simple test to determine your Enneagram personality type",
+      "headline": "The Enneagram Personality Test Simplified",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/enneagram-personality-test",
         "@type": "WebPage"

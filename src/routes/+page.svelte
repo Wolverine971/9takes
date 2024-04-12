@@ -29,6 +29,8 @@
 	<meta property="og:url" content="https://9takes.com" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="https://9takes.com/greek_pantheon.png" />
+	<meta property="og:image:type" content="image/png" />
+	<!-- todo fix for linkedin and test for twitter -->
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
@@ -118,18 +120,19 @@
 		<div class="big-points flex-center">
 			<h2 style="margin-bottom: 0">It is hard to find open discussions online.</h2>
 			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0">
-				Conversation gets stifled for a few reasons:
+				Conversation gets stifled for the following reasons:
 			</h3>
 			<ul>
 				<li>
-					<b>People make posts instead of asking question.</b> Everything is rhetorical and confrontational.
+					<b>People post into the void instead of asking questions.</b> Rhetorical statements turn people
+					away in conversations while questions invite collaboration.
 				</li>
 				<li>
-					<b>People can read comments before commenting.</b> Only the content that produces fear, anger,
-					and embarrassment gets engagement.
+					<b>People can passively lurk.</b> The only engagement that happens is on the content that produces
+					fear, anger, or embarrassment.
 				</li>
 				<li>
-					<b>People are afraid to be honest.</b> You don't want to receive criticism so you only express
+					<b>It is too risky to be honest.</b> You don't want to receive criticism so you only express
 					opinions that are status quo.
 				</li>
 			</ul>

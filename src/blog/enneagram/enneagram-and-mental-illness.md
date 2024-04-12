@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
-lastmod: '2024-04-01'
+lastmod: '2024-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -59,14 +59,6 @@ I hope these suggestions are helpful!
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<p class="firstLetter">The Enneagram is a profound and popular personality typing system that illuminates the positive and negative aspects of different personalities.</p>
-
-Here, we examine how each type in an unhealthy state can go down a negative spiral toward mental illness.
-
-We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type. Each type has different struggles that stem from unhealthy coping mechanisms. If left unaddressed for a long period of time, behavior, emotions, and thought patterns can become extreme, and professional help is needed.
-
-The "shadow side" concept is central to this exploration, which is the less favorable aspects of our personalities that can lead to psychological struggles. Examining these shadow sides will better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
-
 <div
     style="display: flex;
     justify-content: center;
@@ -81,6 +73,15 @@ The "shadow side" concept is central to this exploration, which is the less favo
     />
 </div>
 
+<p class="firstLetter">Mental illness is something everyone is scared of.
+
+We would like to think that we are not capable of becoming mentally ill. But the downward spirals start somewhere.
+
+Here we are going to use the Enneagram to look at the negative aspects of different personalities. We will examine how each personality type in an unhealthy state can go down a negative spiral toward mental illness. We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type.
+
+These dark sides are sometimes called the "shadow side," and it is central to this exploration. In examining these shadow sides we hope to better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
+
+
 Here, we will describe each type's mental health risks and give examples of unhealthy spirals and how each type might find themselves in these negative situations.
 
 ## Enneagram Type 1: The Perfectionist
@@ -91,6 +92,7 @@ Type 1s are susceptible to Obsessive-Compulsive Disorder, Depressive Personality
 
 ### Unhealthy Spirals
 
+<!-- todo fill in examples, specific and tangible -->
 Alex, a dedicated teacher and Type 1, starts fixating on flawlessness in lesson plans. This obsession leads to crippling guilt over minor mistakes, culminating in self-punishment and depressive episodes.
 
 Maria, a meticulous artist, becomes increasingly inflexible and self-righteous about her work. Her need for perfection evolves into obsessive-compulsive behaviors, alienating her from colleagues and leading to intense disillusionment.
@@ -107,9 +109,9 @@ Type 2s risk developing Histrionic Personality Disorder, hypochondriasis, and co
 
 ### Unhealthy Spirals
 
-Liam, a healthcare professional, begins to manipulate his relationships for validation. His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
+Liam, a healthcare professional, deeply cares for his patients. He tries to emotionally bond with his patients but overtime resentment grows when patients don't follow his advice. He begins to find ways where he can assert himself so that he can have more and more control of his patients. He starts to blur the lines between patient care and manipulation.  His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
 
-Emma, deeply invested in her friendships, starts exhibiting somatization of stress. Her desire for appreciation turns into obsessive behaviors, impacting her mental and physical health.
+Emma, deeply invested in her friendship with Alice, gets jealous everytime Alice is with other friends. She tries to be a better friend to Alice than everyone else and she starts to obsess over Alice. Gradually this turns in to stalking Alice in an ongoing attempt to be the most important person in Alice's life.
 
 ### Negative Coping Mechanisms
 
@@ -123,17 +125,15 @@ Type 3s are prone to Narcissistic Personality Disorder, hypertension, depression
 
 ### Unhealthy Spirals
 
-Jack, an ambitious executive, becomes consumed by his image of success. His relentless pursuit leads to burnout, emotional emptiness, and deceptive practices, exacerbating his stress and mental strain.
+Jack, an ambitious executive, becomes consumed by his image of success. He enjoys climbing the corporate and social ladder and enjoys upgrading his lifestyle. This creates a vicious cycle where he has to work harder to keep up his lifestyle. This leads him to take shortcuts and play deceptive bureaucratic games at work in an attempt to get ahead.
 
-Sophia, a high-achieving student, starts concealing her emotional distress. Her unrealistic expectations of success turn into jealousy and exploitation, culminating in severe episodes of hostility.
+Sophia, a high-achieving student, wants to get into an Ivy League college. This causes her so much stress that she starts cheating on her tests. This makes her feel like an imposter, but she also justifies this, thinking she deserves what she wants. She starts to become hostile to anyone who challenges her intellectually, and she slowly starts becoming narcissistic as she develops unrealistic expectations for her life.
 
 ### Negative Coping Mechanisms
 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
-</div>
+
 
 ## Enneagram Type 4: The Individualist
 
@@ -233,9 +233,11 @@ Type 9s' denial of problems and tendency to yield to others can lead to severe l
 
 ## Conclusion
 
-In conclusion, the exploration of each Enneagram type's predisposition to specific mental health challenges is indeed heavy and profound. Within Enneagram circles and amongst personality experts, these negative aspects of our personality are often called our "shadow side." This shadow side, though daunting to confront, is an essential part of our journey toward self-awareness and growth. Understanding these potential pitfalls is not about labeling or limiting ourselves but rather about recognizing the full spectrum of our personality, including the parts we often prefer to keep in the dark.
+<!-- todo link positive talk blog -->
 
-By acknowledging and understanding our shadow side, we empower ourselves to address these challenges proactively. This awareness allows us to seek appropriate support, develop healthier coping mechanisms, and ultimately, navigate our lives with greater understanding and compassion for ourselves and others. The journey through the Enneagram's insights is about celebrating our strengths, bravely facing our vulnerabilities, and transforming them into stepping stones for personal growth and mental well-being.
+Exploring the Enneagram types' predispositions to mental health challenges is a heavy but important task.
+
+By understanding our shadow side, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. The Enneagram's insights help us celebrate our strengths, face our vulnerabilities, and transform them into opportunities for personal growth and mental well-being.
 
 <svelte:head>
 
@@ -264,7 +266,7 @@ By acknowledging and understanding our shadow side, we empower ourselves to addr
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-01"
+        "@value": "2024-04-12"
       },
       "datePublished": {
         "@type": "Date",

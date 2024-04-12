@@ -1544,9 +1544,9 @@
 </svelte:head>
 
 <!-- <h1>EXPERIMENT</h1> -->
-<h1 style="margin-bottom: 0;">One minute Emotions experiment</h1>
+<h1 style="margin-bottom: 0;">The one minute experiment for Emotions</h1>
 <h2 style="margin-top: 0; padding-top:0;">
-	Demystify your own emotions and understand what other people are feeling.
+	Demystify emotions and understand what other people are feeling.
 </h2>
 
 <!-- <h3>Instructions</h3> -->
@@ -1554,7 +1554,7 @@
 <!-- <ol>
 	<li> -->
 <div>
-	<h3>Experiment Instructions</h3>
+	<h3>Instructions:</h3>
 	<p>
 		Take one minute and write down all the <span style="text-decoration: underline;"
 			>negative emotions</span
@@ -1562,7 +1562,8 @@
 	</p>
 	<ul>
 		<li>Time yourself for 1 minute</li>
-		<li>Write all the negative emotions that are one word</li>
+		<li>Write all the negative emotions</li>
+		<li>Only write emotions that are one word</li>
 		<li>Only use english</li>
 	</ul>
 

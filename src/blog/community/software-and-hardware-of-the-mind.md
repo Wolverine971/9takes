@@ -4,7 +4,7 @@ description: 'The Overlooked Gem: Personality in the Modern Psychological Discou
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2024-04-05'
+lastmod: '2024-04-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -75,13 +75,18 @@ While empirical behavioral studies concentrate on the hardware – the observabl
 
 The Greeks understood the importance of archetypes.
 
-The Greeks had gods that were flawed. The gods gave the Greeks both cautionary tales of what not to do and inspirational stories. These stories and archetypes, though imperfect, helped form the Greek culture.
+
+The Greeks had gods that were flawed. The gods and their escapades served as both inspirational stories and cautionary tales. These stories had archetypes in them that Greeks learned to recognize. Though imperfect these archetypes helped Greeks form a common language for identifying patterns in people.
+
+These archetypes helped form the Greek culture.
 
 <!-- TODO needs work here -->
 
-Today we have no shared archetypes for classifying the way people think feel and behave. We do however recognize patterns. Sometimes stories are more accurate that facts. We may not know the science be we recognize the emotions thought patterns and behaviors behind what people do. These archetypes serve as a way for the common man to make sense of others and himself.
+Today we have no shared archetypes. We have no shared understanding for identifying the emotions, thought patterns, and behaviors behind what people do. It is as if we are waiting for the science to catch up or for the experts weigh in. We may not know the science but we recognize patterns and we should pay attention to them.
 
-It's time to re-embrace these archetypes and use the imperfect tool of psychoanalysis to explore the depths of the human mind, going beyond what is immediately observable.
+The greeks were on to something. Sometimes stories are more accurate that facts.
+
+Archetypes though imperfect provide a way to make sense of the people around us.
 
 ### Advocates of the Less Tangible Aspects of Psychology
 
@@ -147,7 +152,7 @@ https://a16z.com/author/vijay-pande/
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-05"
+        "@value": "2024-04-12"
       },
       "datePublished": {
         "@type": "Date",
