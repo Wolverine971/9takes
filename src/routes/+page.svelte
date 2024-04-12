@@ -47,6 +47,7 @@
 					alt="9takes preview"
 					class="img-preview"
 					fetchPriority="high"
+					loading="eager"
 				/>
 
 				<div class="main-description">

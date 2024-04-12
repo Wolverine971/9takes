@@ -9,6 +9,7 @@ changefreq: 'weekly'
 priority: '0.6'
 published: true
 type: ['nine-types']
+blog: true
 ---
 
 <script>

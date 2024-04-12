@@ -60,9 +60,9 @@ After you have learned your Enneagram Type its time to start thinking about the 
 
 By understanding your type and the types of those around you, you can make deeper connections and build stronger relationships. Here, we will explore each type by looking at what they need from their partner, how they may affect their partner, what they like to talk about, and what they don't want to discuss. We'll also include an Imaginary scenario for typical conversations each type may have regularly.
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 1: The Perfectionist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 1: The Perfectionist</h3>
 
 **What they need from their partner:** Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values.
 
@@ -76,11 +76,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 2: The Helper</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 2: The Helper</h3>
 
 **What they need from their partner:** Twos need emotional connection, support, and nurturing. They appreciate attentive and caring partners and show their love through actions.
 
@@ -94,11 +94,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 3: The Achiever</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 3: The Achiever</h3>
 
 **What they need from their partner:** Threes need recognition, success, and achievement. They appreciate partners who are supportive of their goals and who are driven and ambitious themselves.
 
@@ -112,15 +112,15 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 4: The Individualist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 4: The Individualist</h3>
 
 **What they need from their partner:** Fours need emotional depth, authenticity, and uniqueness. They appreciate sensitive and creative partners who share their values and passions.
 
@@ -134,11 +134,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 5: The Investigator</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 5: The Investigator</h3>
 
 **What they need from their partner:** Fives need knowledge, independence, and privacy. They appreciate partners who respect their need for alone time and intellectual pursuits.
 
@@ -152,11 +152,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 6: The Loyalist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 6: The Loyalist</h3>
 
 **What they need from their partner:** Sixes need security, loyalty, and responsibility. They appreciate partners who are reliable, trustworthy, and who provide a sense of stability and safety.
 
@@ -170,11 +170,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 7: The Enthusiast</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 7: The Enthusiast</h3>
 
 **What they need from their partner:** Sevens need adventure, spontaneity, and variety. They appreciate partners who are fun-loving, open-minded, and who share their sense of excitement and curiosity.
 
@@ -188,11 +188,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 8: The Challenger</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 8: The Challenger</h3>
 
 **What they need from their partner:** Eights need control, power, and strength. They appreciate independent and confident partners who can stand up to them when necessary.
 
@@ -206,11 +206,11 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 9: The Peacemaker</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 9: The Peacemaker</h3>
 
 **What they need from their partner:** Nines need harmony, peace, and balance. They appreciate partners who are calm and patient and who can help them find a sense of tranquility in their lives.
 
@@ -224,7 +224,7 @@ By understanding your type and the types of those around you, you can make deepe
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 The Enneagram is not a one-size-fits-all solution for every relationship. Everyone is unique, and many factors influence how we communicate and connect. However, by using the Enneagram to understand yourself and those around you, you can create a foundation for deeper, more fulfilling relationships.
 
@@ -369,10 +369,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 <style lang="scss">
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

@@ -9,6 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['overview']
+blog: true
 ---
 
 <div class="scroll-table">

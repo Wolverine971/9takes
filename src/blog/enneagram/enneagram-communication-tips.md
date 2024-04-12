@@ -41,9 +41,9 @@ pic: 'greek-statues-arguing'
 
 Everyone has their own unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 1 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 1 Communication Tips</h2>
 
 Type 1s are principled, ethical, and perfectionistic. They have a strong sense of right and wrong and strive to do the right thing in all situations. However, their perfectionism can lead to rigidity and inflexibility, which can make it challenging to communicate with them.
 
@@ -59,11 +59,11 @@ Type 1s are principled, ethical, and perfectionistic. They have a strong sense o
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 2 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 2 Communication Tips</h2>
 
 Type 2s are generous, caring, and nurturing. They have a strong desire to help others and often put the needs of others before their own. However, their desire to please others can sometimes lead to manipulation and codependency.
 
@@ -79,11 +79,11 @@ Type 2s are generous, caring, and nurturing. They have a strong desire to help o
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 3 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 3 Communication Tips</h2>
 
 Type 3s are ambitious, competitive, and driven. They have a strong desire to succeed and often measure their self-worth by their accomplishments. However, their focus on success can sometimes lead to a lack of authenticity and a tendency to prioritize image over substance.
 
@@ -99,11 +99,11 @@ Type 3s are ambitious, competitive, and driven. They have a strong desire to suc
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 4 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 4 Communication Tips</h2>
 
 Type 4s are creative, emotional, and intuitive. They have a strong sense of individuality and often feel that they are different from others. However, their focus on their own emotions can sometimes lead to moodiness and self-absorption.
 
@@ -119,11 +119,11 @@ Type 4s are creative, emotional, and intuitive. They have a strong sense of indi
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 5 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 5 Communication Tips</h2>
 
 Type 5s are analytical, introspective, and independent. They have a strong desire for knowledge and often value their independence and privacy. However, their focus on independence can sometimes lead to a sense of detachment and a tendency to become overly withdrawn.
 
@@ -139,15 +139,15 @@ Type 5s are analytical, introspective, and independent. They have a strong desir
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 6 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 6 Communication Tips</h2>
 
 Type 6s are loyal, responsible, and anxious. They have a strong desire for security and often value trust and loyalty in relationships. However, their focus on security can sometimes lead to a sense of fear and anxiety, which can make it challenging to communicate with them.
 
@@ -163,11 +163,11 @@ Type 6s are loyal, responsible, and anxious. They have a strong desire for secur
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 7 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 7 Communication Tips</h2>
 
 Type 7s are enthusiastic, adventurous, and spontaneous. They have a strong desire for new experiences and often value their freedom and independence. However, their focus on excitement and pleasure can sometimes lead to a lack of focus and a tendency to avoid difficult or unpleasant situations.
 
@@ -183,11 +183,11 @@ Type 7s are enthusiastic, adventurous, and spontaneous. They have a strong desir
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 8 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 8 Communication Tips</h2>
 
 Type 8s are powerful, assertive, and decisive. They have a strong desire for control and often value their independence and strength. However, their focus on control can sometimes lead to a sense of aggression and a tendency to become overly confrontational.
 
@@ -203,11 +203,11 @@ Type 8s are powerful, assertive, and decisive. They have a strong desire for con
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram 9 Communication Tips</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram 9 Communication Tips</h2>
 
 Type 9s are peaceful, easy-going, and accommodating. They have a strong desire for harmony and often value their ability to mediate conflicts. However, their focus on harmony can sometimes lead to a lack of assertiveness and a tendency to avoid conflict altogether.
 
@@ -223,7 +223,7 @@ Type 9s are peaceful, easy-going, and accommodating. They have a strong desire f
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrapping up
 
@@ -370,10 +370,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 <style lang="scss">
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

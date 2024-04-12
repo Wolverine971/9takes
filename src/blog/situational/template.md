@@ -9,11 +9,14 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 type: ['overview']
+blog: true
 ---
 
 ## Ideas For Blogs
 
 ## Template
+
+<!-- todo template -->
 
 - Just in time articles
   - checkout socials- twitter, youtube, facebook, instagram, tiktok

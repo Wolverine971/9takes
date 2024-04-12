@@ -84,9 +84,7 @@ These dark sides are sometimes called the "shadow side," and it is central to th
 
 Here, we will describe each type's mental health risks and give examples of unhealthy spirals and how each type might find themselves in these negative situations.
 
-## Enneagram Type 1: The Perfectionist
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 1: The Perfectionist
 
 Type 1s are susceptible to Obsessive-Compulsive Disorder, Depressive Personality Disorder, eating disorders, intense guilt, and self-destructive behaviors.
 
@@ -101,9 +99,8 @@ Maria, a meticulous artist, becomes increasingly inflexible and self-righteous a
 
 Type 1s may rigidly adhere to their high standards, leading to a cycle of unrealistic expectations, self-criticism, and guilt. This pattern can amplify their predisposition to depressive and obsessive-compulsive behaviors.
 
-## Enneagram Type 2: The Helper
+## Mental Health Risks of the Enneagram Type 2: The Helper
 
-### Mental Health Risks
 
 Type 2s risk developing Histrionic Personality Disorder, hypochondriasis, and coercive behaviors like stalking.
 
@@ -117,9 +114,7 @@ Emma, deeply invested in her friendship with Alice, gets jealous everytime Alice
 
 Type 2s' need for approval can drive them into manipulative behaviors, creating a vicious cycle of emotional dependency and self-deception, potentially leading to histrionic and coercive tendencies.
 
-## Enneagram Type 3: The Achiever
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 3: The Achiever
 
 Type 3s are prone to Narcissistic Personality Disorder, hypertension, depression, and narcissistic rage.
 
@@ -134,10 +129,8 @@ Sophia, a high-achieving student, wants to get into an Ivy League college. This 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
 
 
+## Mental Health Risks of the Enneagram Type 4: The Individualist
 
-## Enneagram Type 4: The Individualist
-
-### Mental Health Risks
 
 Type 4s are at risk for severe depression, Narcissistic Personality Disorder, Avoidant Personality Disorder, and self-destructive behaviors.
 
@@ -151,9 +144,7 @@ Isabella, grappling with a sense of inadequacy, becomes obsessed with death and 
 
 Type 4s' intense emotional volatility can lead to a cycle of alienation, chronic depression, and self-sabotage, further exacerbating their predisposition to depressive and avoidant behaviors.
 
-## Enneagram Type 5: The Investigator
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 5: The Investigator
 
 Type 5s face Schizoid, Schizotypal, Avoidant Personality Disorders, psychotic breaks, and suicidal tendencies.
 
@@ -167,9 +158,7 @@ Ava, an introverted student, experiences severe insomnia and nightmares. Her gro
 
 Type 5s' tendency to isolate and neglect physical needs can spiral into severe mental health issues, including distorted perceptions and suicidal thoughts, further aggravated by their refusal to seek help.
 
-## Enneagram Type 6: The Loyalist
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 6: The Loyalist
 
 Type 6s are susceptible to Paranoid, Dependent, Borderline Personality Disorders, and intense anxiety attacks.
 
@@ -183,9 +172,7 @@ Mia, plagued by feelings of inferiority, becomes extraordinarily suspicious and 
 
 Type 6s' chronic fear and suspicion can create a feedback loop of anxiety and paranoia, leading to dependent and passive-aggressive behaviors that compound their Mental Health Risks.
 
-## Enneagram Type 7: The Enthusiast
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 7: The Enthusiast
 
 Type 7s might develop Manic-Depressive Disorders, Histrionic Personality Disorder, and substance abuse issues.
 
@@ -199,9 +186,7 @@ Charlotte, a vivacious socialite, experiences wild mood swings. Her attempts to 
 
 Type 7s' escapism and pursuit of pleasure can lead to addictive behaviors and mood swings, exacerbating their risk for manic-depressive and substance abuse disorders.
 
-## Enneagram Type 8: The Challenger
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 8: The Challenger
 
 Type 8s are at risk for Antisocial Personality Disorder, sadistic behavior, and social isolation.
 
@@ -215,9 +200,7 @@ Amelia, perceiving herself as an "outlaw," plots revenge against perceived enemi
 
 Type 8s' strong sense of betrayal and need for control can lead to social isolation, rage, and violence, potentially exacerbating their predisposition to antisocial and sadistic behaviors.
 
-## Enneagram Type 9: The Peacemaker
-
-### Mental Health Risks
+## Mental Health Risks of the Enneagram Type 9: The Peacemaker
 
 Type 9s face risks of Dissociative Disorders, Dependent and Schizoid Disorders, and severe depersonalization.
 

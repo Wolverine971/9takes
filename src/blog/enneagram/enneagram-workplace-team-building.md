@@ -63,9 +63,9 @@ Understanding each type's ideal work environment can be a game-changer. For inst
 
 Understanding the ideal work environment for each Enneagram type can help organizations create a more supportive and inclusive workplace culture. For example, an Enneagram Type 1 may thrive in a structured and organized environment, while an Enneagram Type 7 may prefer a more flexible and creative work environment. By tailoring the work environment to each employee's personality type, organizations can create a more engaged and motivated workforce.Here are some examples of the ideal work environment for each Enneagram type:
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 1 - The Perfectionist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 1 - The Perfectionist</h3>
 
 **Approach to work:** Type 1s are the meticulous planners of the office, always striving for excellence. Their primary goal is to create a flawless work environment, often taking on the role of the quality checker. They're the ones who will stay late to ensure that a project is error-free. However, this can sometimes lead to stress, as they set incredibly high standards for themselves and others. Their unique contribution? They bring a level of precision and accountability that's hard to match.
 
@@ -73,11 +73,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 1s](/blog/enneagram/enneagram-type-1)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 2 - The Helper</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 2 - The Helper</h3>
 
 **Approach to work:** Type 2s are the nurturers, always willing to lend a helping hand. Their main goal is to create a harmonious work environment. They're the ones who remember birthdays, organize team lunches, and are always available to assist colleagues. While their kindness is their strength, it can sometimes be their downfall if they neglect their own needs. They uniquely bring emotional intelligence into the workplace, making everyone feel supported and valued.
 
@@ -85,11 +85,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 2s](/blog/enneagram/enneagram-type-2)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 3 - The Achiever</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 3 - The Achiever</h3>
 
 **Approach to work:** For Type 3s, work is a platform to shine. Their primary goal is to achieve and be recognized for it. They're the ones who will take the lead on projects, often setting ambitious timelines. While their drive is admirable, it can sometimes lead to burnout. What sets them apart? Their ability to inspire others with their vision and determination, making them natural leaders.
 
@@ -97,11 +97,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 3s](/blog/enneagram/enneagram-type-3)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 4 - The Individualist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 4 - The Individualist</h3>
 
 **Approach to work:** Type 4s are the artists of the workplace, always seeking to inject creativity into their projects. Their main goal is to make a unique mark. They're the ones who will suggest out-of-the-box ideas during brainstorming sessions. While their creativity is a boon, it can sometimes clash with more structured environments. Their unique trait? They bring a depth of emotion and originality that can turn any project into a masterpiece.
 
@@ -109,11 +109,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 4s](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 5 - The Investigator</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 5 - The Investigator</h3>
 
 **Approach to work:** Type 5s are the researchers, always diving deep into their subjects. Their primary goal is to gain expertise and knowledge. They're the ones who will spend hours getting to the root of a problem. While their analytical skills are top-notch, they may sometimes struggle with teamwork. What's unique about them? Their ability to see details others may overlook, making them invaluable in problem-solving.
 
@@ -121,15 +121,15 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 5s](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 6 - The Loyalist</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 6 - The Loyalist</h3>
 
 **Approach to work:** Type 6s are the reliable backbone of any team. Their main goal is to provide a stable work environment. They're the ones who will double-check safety protocols and always have a Plan B. While their caution is a strength, it can sometimes lead to indecisiveness. Their unique contribution? They bring a sense of security and reliability that keeps the team grounded.
 
@@ -137,11 +137,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 6s](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 7 - The Enthusiast</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 7 - The Enthusiast</h3>
 
 **Approach to work:** Type 7s are the adventurers, always looking for the next big thing. Their main goal is to make work fun and engaging. They're the ones who will propose a team-building trip or a new, exciting project. While their enthusiasm is infectious, it can sometimes be a distraction. What sets them apart? Their ability to keep the team motivated and morale high, especially during challenging times.
 
@@ -149,11 +149,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 7s](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 8 - The Challenger</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 8 - The Challenger</h3>
 
 **Approach to work:** Type 8s are the assertive leaders, never shying away from a challenge. Their main goal is to take control and make impactful decisions. They're the ones who will confront issues head-on and are not afraid to voice unpopular opinions. While their assertiveness is a strength, it can sometimes intimidate others. Their unique trait? They bring a level of candidness and directness that cuts through ambiguity.
 
@@ -161,11 +161,11 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 8s](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h3>Type 9 - The Peacemaker</h3>
+<h3 style="padding: 0; margin-top: 1em">Type 9 - The Peacemaker</h3>
 
 **Approach to work** Type 9s are the mediators, always seeking harmony. Their main goal is to create a peaceful work environment. They're the ones who will diffuse tensions and avoid conflicts. While their diplomacy is a strength, it can sometimes lead to passivity. What's unique about them? Their ability to see multiple perspectives makes them excellent at resolving conflicts and finding middle ground.
 
@@ -173,7 +173,7 @@ Understanding the ideal work environment for each Enneagram type can help organi
 
 [More on type 9s](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrapping up
 
@@ -287,10 +287,11 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 <style lang="scss">
    .section-content {
         /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
+        margin: 1rem 0;
+        padding: 1rem;
         transition: transform .7s ease-in-out;
         flex: 1;
+        border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {

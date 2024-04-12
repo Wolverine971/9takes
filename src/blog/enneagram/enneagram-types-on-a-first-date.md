@@ -18,10 +18,6 @@ pic: 'greek-statues-on-a-first-date'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<p class="firstLetter">Ever get a little nervous before a first date? You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will examine how each type prepares, what they likely feel, and their unique takes on dating red flags and green signals.
-</p>
-
 <div
    style="display: flex;
     justify-content: center;
@@ -38,10 +34,15 @@ pic: 'greek-statues-on-a-first-date'
    />
 </div>
 
+<p class="firstLetter">Ever get a little nervous before a first date?</p> 
+
+You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will examine how each type prepares, what they likely feel, and their unique takes on dating red flags and green signals.
+
+
 This isn't a foolproof dating guide. It's a lens to better understand and empathize with your date - or even yourself. Dive in, and let's decode the dating dance, starting with Type 1, The Perfectionist...
 
-<article class="section-content">
-<h2>Enneagram Type 1: The Perfectionist</h2>
+<section class="section-content">
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 1: The Perfectionist</h2>
 
 The Perfectionist, with their strong desire for order and rightness, is a meticulous planner. They approach their first date with clear expectations, perhaps even an ideal image of how it should go. They're likely to spend much time choosing the perfect location, focusing on making the best impression possible. They might feel excitement and nervousness stemming from their fear of making a mistake or being imperfect. However, their genuine desire to do things right usually wins over anxious feelings.
 
@@ -57,9 +58,9 @@ On the other hand, statements like "I appreciate your attention to detail" or "I
 
 [More on type 1](/blog/enneagram/enneagram-type-1)
 
-</article>
-<article class="section-content">
-<h2>Enneagram Type 2: The Helper</h2>
+</section>
+<section class="section-content">
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 2: The Helper</h2>
 
 The Helper, known for their warm-hearted nature, gears up for a first date with empathy and connection in mind. They are often in tune with others' needs and think extensively about making their date feel comfortable and appreciated. They might feel a rush of enthusiasm and perhaps a hint of worry about being liked back, but their optimistic outlook usually dominates any fear.
 
@@ -75,10 +76,10 @@ Comments such as "Your kindness is touching" or "I love helping others too" indi
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
-</article>
-<article class="section-content">
+</section>
+<section class="section-content">
 
-<h2>Enneagram Type 3: The Achiever</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 3: The Achiever</h2>
 
 The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their achievements and ambitions without overwhelming their date. They might feel the thrill of competition and perhaps anxiety about being impressive enough.
 
@@ -94,9 +95,9 @@ However, phrases like "Your drive is inspiring" or "I admire your achievements" 
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
 
-</article>
-<article class="section-content">
-<h2>Enneagram Type 4: The Individualist</h2>
+</section>
+<section class="section-content">
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 4: The Individualist</h2>
 
 The Individualist sees a first date as an opportunity to express their unique personality and connect deeply and emotionally. They are introspective and might contemplate what they wish to share about themselves and how they want to be perceived. Their feelings could be a cocktail of anticipation and a little trepidation, fearing misunderstanding or rejection.
 
@@ -112,11 +113,11 @@ On the positive side, remarks such as "I admire your creativity" or "Your unique
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram Type 5: The Investigator</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 5: The Investigator</h2>
 
 The Investigator, known for their inquisitive nature and sharp intellect, sees a first date as an intriguing puzzle. Their thoughts likely involve understanding their date's character, potential compatibility, and what exciting insights they might share. Their feelings might be a mix of curiosity and some apprehension, given their natural desire for privacy.
 
@@ -132,15 +133,15 @@ In contrast, phrases like "I enjoy learning new things" or "Tell me more about t
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
-</article>
+</section>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram Type 6: The Loyalist</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 6: The Loyalist</h2>
 
 Often wary and diligent, the Loyalist approaches a first date with caution and care. They might spend much time contemplating the possible outcomes, their date's intentions, and how to stay safe. Their feelings can oscillate between anticipation of a potential connection and anxiety rooted in their inherent skepticism.
 
@@ -156,11 +157,11 @@ Hearing phrases like "I believe in loyalty" or "I've planned a safe route for ou
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram Type 7: The Enthusiast</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 7: The Enthusiast</h2>
 
 The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure. Their thoughts are likely buzzing with the fun they'll have, the stories they'll share, and the potential joy this connection might bring. They might feel a sense of eagerness and perhaps some restlessness as they're always looking for the next great experience.
 
@@ -176,11 +177,11 @@ Comments such as "I love trying new things" or "I'm excited about our next adven
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram Type 8: The Challenger</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 8: The Challenger</h2>
 
 The bold and assertive Challenger approaches a first date with confidence and straightforwardness. They're likely to think about their date's character and potential compatibility, focusing less on impressing their date and more on assessing them. They might feel a sense of excitement, coupled with a determination to understand their date.
 
@@ -196,11 +197,11 @@ On the other hand, phrases like "I admire your courage" or "I value straightforw
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
-</article>
+</section>
 
-<article class="section-content">
+<section class="section-content">
 
-<h2>Enneagram Type 9: The Peacemaker</h2>
+<h2 style="padding: 0; margin-top: 1em">Enneagram Type 9: The Peacemaker</h2>
 
 The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding. They likely contemplate ensuring a smooth, pleasant experience for both parties. Their feelings might range from quiet excitement to slight worry about potential conflict.
 
@@ -216,7 +217,7 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 
-</article>
+</section>
 
 ## Wrapping it up
 
@@ -353,11 +354,11 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
 
 <style lang="scss">
    .section-content {
-        /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
-        transition: transform .7s ease-in-out;
-        flex: 1;
+      margin: 1rem 0;
+      padding: 1rem;
+      transition: transform .7s ease-in-out;
+      flex: 1;
+      border: 1px solid grey;
     }
 
    aside::-webkit-scrollbar {
