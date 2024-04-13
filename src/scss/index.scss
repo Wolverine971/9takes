@@ -262,11 +262,6 @@ select {
 }
 
 .blog {
-	margin-top: 0;
-	padding-top: 0;
-	padding: 2rem;
-	background: #c1c0c036;
-	border-radius: 5px;
 	&a {
 		display: inline-block;
 		flex-wrap: wrap;
@@ -372,6 +367,16 @@ section {
 
 	.flex-columns {
 		margin: 0 !important;
+	}
+}
+
+@media (min-width: 800px) {
+	.blog {
+		margin-top: 0;
+		padding-top: 0;
+		padding: 2rem;
+		background: #c1c0c036;
+		border-radius: 5px;
 	}
 }
 

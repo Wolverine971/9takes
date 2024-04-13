@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Influences: Differing Traditions and Schools of Thought'
-description: 'Explore the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.'
+description: 'Explore the different schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.'
 author: 'DJ Wayne'
 date: '2023-03-02'
 loc: 'https://9takes.com/blog/enneagram/enneagram-influences'

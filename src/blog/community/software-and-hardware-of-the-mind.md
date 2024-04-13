@@ -21,7 +21,7 @@ pic: 'greek-mind'
 <div
     style="display: flex;
     justify-content: center;
-margin: 1rem 0;"
+    margin: 1rem 0;"
 >
  <PopCard
         image={`/blogs/greek-mind.webp`}

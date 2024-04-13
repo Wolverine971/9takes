@@ -1,6 +1,6 @@
 ---
 title: 'Miley Cyrus Enneagram Type 4'
-description: 'Unveil the raw and rebellious spirit of Miley Cyrus as a Type 4 Enneagram. Discover her tumultuous journey of identity and defiance in this revealing analysis.'
+description: 'Unveil the rebellious spirit of Miley Cyrus as a Type 4 Enneagram. See what is behind her tumultuous journey of identity and defiance.'
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Miley-Cyrus'

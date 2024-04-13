@@ -1,3 +1,20 @@
+---
+title: 'A Different Community'
+description: ''
+author: 'DJ Wayne'
+date: '2023-05-13'
+loc: 'https://9takes.com/blog/community/'
+lastmod: '2024-04-05'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+type: ['idea']
+blog: true
+previewHtml: ''
+pic: ''
+---
+
+
 Create a blog post about how creating a community based on personality is better than creating a community based on random interests.
 
 If you are going to Reddit to find community and find like-minded friends, stop it. Stop it now.

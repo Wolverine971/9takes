@@ -21,7 +21,7 @@ pic: 'giving-a-speech'
 <div
     style="display: flex;
     justify-content: center;
-margin: 1rem 0;"
+    margin: 1rem 0;"
 >
  <PopCard
         image={`/blogs/giving-a-speech.webp`}

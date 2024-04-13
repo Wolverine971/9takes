@@ -79,7 +79,7 @@ The creator of 9takes has observed the progression of social media and identifie
 
     				<p>
     					<b>Social media</b> shouldn't feel stifling. It should be about self-expression and finding
-    					and connecting with like-minded people. Different opinions make for better conversations,
+    					and connecting with like-minded people. Different opinions make for different conversations,
     					not shutting people down. Social media should be the place to ask the big questions.
     				</p>
     				<p>
@@ -158,7 +158,7 @@ These questions highlight the essence of 9takes: a platform that thrives on the 
 
 ## Back to what makes 9takes different
 
-9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a better community.
+9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a different community.
 
 <ul class="plain-list">
 <li>

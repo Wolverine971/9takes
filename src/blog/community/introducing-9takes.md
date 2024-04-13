@@ -52,7 +52,7 @@ Most of the forums have devolved into echo chambers. The platforms have chosen s
 
 9takes is fixing the problem of echo chambers.
 
-## The Evolution of Social Media
+## Why Social Media isn't Social Anymore
 
 Over time, the internet has become increasingly fragmented. The once vibrant platforms have lost their spark and have become filled with bots and inauthentic interactions. The exciting conversations that used to define these spaces have been replaced by a dull, lifeless atmosphere. How did we get here, and what can we do to fix online discussions?
 
@@ -85,7 +85,7 @@ Over time, the internet has become increasingly fragmented. The once vibrant pla
 	<p>Ask who am I? And who are you?</p>
 </div>
 
-## The Power of Questions
+## Why Questions Are The Key
 
 <!-- //fix knowledge -->
 
@@ -117,7 +117,7 @@ There are a few problems with just asking a question online. You are not guarant
 
 ### How 9takes Gets the Best Answers
 
-<!-- 9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a better community. -->
+<!-- 9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a different community. -->
 
 <ul class="plain-list">
 <li>
@@ -196,9 +196,9 @@ Learn from each personality type and worldview. Find out who is similar and diff
 </ul>
 
 <!-- A new habit is being formed where instead of seeking to be
-A new habit of participating is being formed and that is the key to redefining a new and better social media.  -->
+A new habit of participating is being formed and that is the key to redefining a new and different social media.  -->
 
-## Questions Get the Conversation Going
+## Questions Start the Conversation
 
 <!-- Put your offline questions online -->
 

@@ -1,4 +1,24 @@
-<!-- two topics to talk about: memes and ads -->
+---
+title: 'Where should you go to ask questions online?'
+description: 'What Can Go Wrong When Asking Questions Online and How to Learn From It'
+author: 'DJ Wayne'
+date: '2023-05-13'
+loc: 'https://9takes.com/blog/community/where-to-go-for-questions'
+lastmod: '2024-04-05'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+type: ['idea']
+blog: true
+previewHtml: ''
+pic: ''
+---
+
+<!--
+
+todo
+
+two topics to talk about: memes and ads -->
 
 <h3 style="margin: 0;">Exploring the Limitations of Existing Platforms</h3>
 
