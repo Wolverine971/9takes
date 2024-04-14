@@ -24,7 +24,8 @@ What to Say When Someone Shares Their Problems With You
 What to say when someone says something politically spicy that you don't agree with?
 Tell me more.
 
-How to deal with someone threatening your identity
+How to deal with someone threatening your identity- boz, lenny's podcast, facebook
+going out 4/19/2024
 https://youtu.be/_XqDB2Upr3s?si=nmJ3d6Hb2NFP5CiD&t=5230
 Identity threat- afraid of being wrong- react with curiosity
 omni vhora

@@ -89,8 +89,6 @@ export async function GET() {
 	  xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
 	>
 
-	  <!-- this is where all the urls go -->
-
 	<url>
 	    <loc>https://9takes.com</loc>
 	    <lastmod>2024-03-27</lastmod>
@@ -99,7 +97,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog</loc>
-	    <lastmod>2023-12-16</lastmod>
+	    <lastmod>2024-04-13</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>1.0</priority>
 	</url>
@@ -123,7 +121,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/community</loc>
-	    <lastmod>2024-04-07</lastmod>
+	    <lastmod>2024-04-13</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -141,9 +139,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -151,8 +149,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{

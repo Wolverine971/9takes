@@ -1,10 +1,10 @@
 ---
 title: 'The Hardware and Software of the Mind'
-description: 'The Overlooked Gem: Personality in the Modern Psychological Discourse'
+description: 'Where the study of Personality went wrong in the modern Psychological discourse'
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2024-04-12'
+lastmod: '2024-04-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -37,56 +37,57 @@ pic: 'greek-mind'
 
 Ya right.
 
-## The Overlooked Gem: Personality Theory
+When people talk about the understanding of the mind they talk in terms of hardware. What is the biology of the brain. Where are the lobes and cortexes? What connects to what? What happens in the brain when a person sees a picture of a puppy?
 
-Yes, tangible, empirical evidence reigns supreme.
+But what happens when something goes wrong in the brain. In extreme cases one may undergo brain surgery, but more likely the person goes to a therapist or a psychologist to examine the software within the brain.
 
-No one has time for antidotes or discussions about emotions. If the emotions are difficult to deal with, here is a number for a therapist, and if you want, I can get you a prescription to take the edge off. The emotional landscape is too tricky, and those who attempt to talk about it are venturing into "pseudo-science." But what if they were wrong? What if emotions were the building blocks of our personality?
+## Understanding the Software in the Brain
 
-<!-- What if how we interact with our emotions determines
+Exploring the human mind reveals a complex interplay between its physical structure and its intangible processes.
 
-It held buried treasures that could lead to more than mental health.
+Much like a computer operates with both hardware and software, the human mind is formed of the brain's physical components and the immaterial elements like thoughts, emotions, and personality. Modern science has proficiently mapped the brain's anatomy, yet it struggles to decode the subtler aspects of how we think, feel, and engage with our surroundings. This exploration into the mind's "software" is crucial for a comprehensive understanding of human behavior.
 
-and mental health, the subtleties of personality psychology often get sidelined and brushed off as mere "pseudo-science." But what if I told you that this overlooked gem holds the key to understanding the human psyche more profoundly than any behavioral study ever could? -->
+Grasping these intangible elements continues to be a formidable challenge, setting the stage for deeper inquiries into the psychological sciences.
 
-### From Jung to Now: The Shift from Depth to Surface
 
-Carl Jung was the pioneer of psychological archetypes. He was inspired by Freud, who had developed psychoanalysis- a process by which individuals could explore their unconscious mind to reveal and understand hidden emotions, desires, and conflicts. This approach was criticized for being subjective and fell out of favor in favor of methods that could be scientifically tested and verified. Behaviorism grew popular because it created experiments that could get reproducible results. Early behaviorism experiments included:
+### The Overlooked Gem: Personality Theory
 
-- Skinners box- where animals were encouraged and discouraged to do different behaviors
-- Pavlov's dogs- where dogs would salivate at the sound of a dinner bell because they had been conditioned to expect food when they heard the bell
+In the pursuit of empirical, tangible evidence, the subtle complexities of personality and emotion often get sidelined, dismissed as "pseudo-science" by those who favor measurable data. Yet, what if emotions are not just byproducts of biochemical processes but are central to shaping our identity and behavior?
 
-Nice, now we know that people's behavior can be conditioned. This didn't lead anywhere, and eventually, interest shifted towards cognitive psychology. Technology was improving, and there were now more data points to gather on a person's brain. Neuroimaging tools came out, and we learned that different brain parts get stimulated when subjects are subjected to other ideas and images.
+### Emotions are often viewed as the problem
 
-Nice, now we can map the physical parts of the brain.
+In our modern society, the default response to emotional struggles often involves quick pharmacological solutions rather than engaging discussions.
 
-- The front brain turns red when a person is asked what is one plus one.
-- The back of the brain turns red when a person sees a cute puppy picture.
+The prevailing culture of immediate gratification pushes many to seek fast relief from discomfort, leading to a heavy reliance on medications as the first line of defense against emotional distress. This approach, while sometimes necessary, can overshadow the benefits of psychotherapy and personal reflection, which often provide more sustainable healing. By prioritizing prescriptions, we risk neglecting the deeper exploration of emotions that could unveil the root causes of psychological issues and foster long-term wellness.
+
+Recognizing the value of conversations about emotions is essential for developing a more profound and comprehensive approach to mental health. Carl Jung understood the importance of emotions.
+
+### From Jung to Now: The Shift from software to hardware
+
+Carl Jung, inspired by Freud, pioneered the exploration of psychological archetypes.
+
+Through psychoanalysis he attempted to map out what was happening inside the mind. He sought to explore the difference between stated preferences and revealed preferences. He was trying to map out archetypes or personalities. Over time, however, his subjective methods of study fell out of favor. They were replaced by the objective, reproducible experiments of behaviorism—like Skinner's box and Pavlov's dogs.
+
+As we advanced into the realm of cognitive psychology and neuroimaging, the focus remained predominantly on the brain's hardware. We mapped out the brain and learned which parts activate during specific tasks. 
 
 These approaches are far from what Freud and Jung were trying to do.
 
-### The Software vs. Hardware of the Human Mind
 
-The mind can be likened to a computer.
-
-While empirical behavioral studies concentrate on the hardware – the observable and measurable – psychoanalysis represents the software, delving into the intricate thoughts and emotions beneath the surface. Behaviorism and cognitive psychology studied the mind's hardware, but the mind's software remains largely unexplored. In terms of software, contemporary psychology focuses primarily on social and cultural factors. However, not everyone from the same social or cultural background thinks, feels, and behaves alike. Factors like race, ethnicity, age, and gender are more 'hardware' than 'software.'
 
 ## Archetypes Reveal the Way
 
 The Greeks understood the importance of archetypes.
 
+The Greeks had gods that were flawed. But the gods weren't meant to be perfect. The gods were archetypes and their stories served as both inspiration and cautionary tales. These stories helped Greeks form a type of pattern recognition when it came to understanding people.
 
-The Greeks had gods that were flawed. The gods and their escapades served as both inspirational stories and cautionary tales. These stories had archetypes in them that Greeks learned to recognize. Though imperfect these archetypes helped Greeks form a common language for identifying patterns in people.
+This pattern recognition that came from observing archetypes gave the Greeks a form of self awareness.
 
-These archetypes helped form the Greek culture.
 
-<!-- TODO needs work here -->
 
-Today we have no shared archetypes. We have no shared understanding for identifying the emotions, thought patterns, and behaviors behind what people do. It is as if we are waiting for the science to catch up or for the experts weigh in. We may not know the science but we recognize patterns and we should pay attention to them.
+Today, we lack a shared set of archetypes. This leaves a gap in our collective understanding of the underlying emotions, thought patterns, and behaviors that drive human actions. Many wait for research to be done so that the experts can tell us how to feel, think, and act.
 
-The greeks were on to something. Sometimes stories are more accurate that facts.
+Our absence of common archetypes also means we miss out on a level of self-awareness that was prevalent among the Greeks, who not only embraced these archetypes but also used them to forge foundational ideas in philosophy.
 
-Archetypes though imperfect provide a way to make sense of the people around us.
 
 ### Advocates of the Less Tangible Aspects of Psychology
 
@@ -152,7 +153,7 @@ https://a16z.com/author/vijay-pande/
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-12"
+        "@value": "2024-04-13"
       },
       "datePublished": {
         "@type": "Date",

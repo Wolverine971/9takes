@@ -1,6 +1,6 @@
 ---
 title: 'What Winning Online Arguments Looks Like'
-description: 'How no one really wins'
+description: 'An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.'
 author: 'DJ Wayne'
 date: '2024-04-13'
 loc: 'https://9takes.com/blog/community/what-winning-online-arguments-looks-like'
@@ -133,7 +133,81 @@ This is how you speed-run an argument towards progress. Once you open yourself t
 
 If the other side takes the time to try to understand your views, you are not having an argument anymore.
 
-
----- 
+----
 
 I hope these tips help you experience what winning feels like.
+
+<svelte:head>
+
+<script async src="//www.instagram.com/embed.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "This article discusses effective strategies for arguing online with a focus on learning rather than winning. It introduces concepts like 'steel manning' versus 'straw manning' and provides steps for engaging in productive online arguments aiming at mutual understanding and progress.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      },
+      "dateModified": "2024-04-13",
+      "datePublished": "2024-04-13",
+      "description": "An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.",
+      "headline": "What Winning Online Arguments Looks Like",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/blogs/greek-statue-arguing-online.webp",
+        "height": 800,
+        "width": 800
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/community/what-winning-online-arguments-looks-like",
+        "@type": "WebPage"
+      },
+      "publisher": {
+            "@type": "Organization",
+            "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+            "logo": {
+               "@type": "ImageObject",
+               "url": "https://9takes.com/brand/darkRubix.png"
+            },
+            "name": "9takes"
+        }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does 'steel manning' mean in an argument?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Steel manning an argument involves representing the opposing side's argument in its strongest form to better understand and discuss it, as opposed to 'straw manning' which simplifies and weakens it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can one engage in a productive online argument?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engaging productively in online arguments involves shifting from a combative to a learning mindset, finding common ground, expressing vulnerability, and asking thoughtful, open-ended questions to deepen understanding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the benefit of asking the other side to correct your understanding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Asking for corrections helps break down barriers, shows humility, and demonstrates a genuine effort to understand the opposing viewpoint, facilitating more open and constructive discussions."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+</script>
+
+</svelte:head>

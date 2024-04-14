@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram and Religion: Exploring the Connections'
-description: "Explore the Enneagram's applications across various spiritual traditions and its use as a universal tool for self-understanding"
+title: 'Exploring the Connections between the Enneagram and Religion'
+description: "Though not inherently religious, many spiritual traditions reference the Enneagram's ideas and use it as a tool for self-understanding"
 author: 'DJ Wayne'
 date: '2023-08-05'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-religion'
-lastmod: '2024-04-08'
+lastmod: '2024-04-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -34,9 +34,11 @@ previewHtml: ''
 	/>
 </div>
 
-<p class="firstLetter">Often, when people first encounter the Enneagram, their initial question is, "Is the Enneagram a religious thing?" Well, the answer is complex.</p>
+<p class="firstLetter">"Is the Enneagram a religious thing?"</p>
 
-The Enneagram is a rich and multifaceted tool used within various religious and spiritual traditions for growth and self-understanding. But, it is not tied to any one religious tradition, nor is it inherently religious. At its core, the Enneagram is a psychological tool—a map that can guide you toward a more profound understanding of yourself and others.
+Well, the answer is complex. The Enneagram is old. Some say it is ancient. One thing is clear: It is used within various religious and spiritual traditions for growth and self-understanding. But it is not inherently religious. There is no council or governing body. At its core, the Enneagram is a psychological tool—a system that can guide students toward a profound understanding of themselves and others.
+
+With that, let's look at the Enneagram's various religious connections.
 
 ### Christianity and the Enneagram
 
@@ -95,7 +97,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-08"
+        "@value": "2024-04-13"
       },
       "datePublished": {
         "@type": "Date",
