@@ -49,7 +49,6 @@ Much like a computer operates with both hardware and software, the human mind is
 
 Grasping these intangible elements continues to be a formidable challenge, setting the stage for deeper inquiries into the psychological sciences.
 
-
 ### The Overlooked Gem: Personality Theory
 
 In the pursuit of empirical, tangible evidence, the subtle complexities of personality and emotion often get sidelined, dismissed as "pseudo-science" by those who favor measurable data. Yet, what if emotions are not just byproducts of biochemical processes but are central to shaping our identity and behavior?
@@ -68,11 +67,9 @@ Carl Jung, inspired by Freud, pioneered the exploration of psychological archety
 
 Through psychoanalysis he attempted to map out what was happening inside the mind. He sought to explore the difference between stated preferences and revealed preferences. He was trying to map out archetypes or personalities. Over time, however, his subjective methods of study fell out of favor. They were replaced by the objective, reproducible experiments of behaviorism—like Skinner's box and Pavlov's dogs.
 
-As we advanced into the realm of cognitive psychology and neuroimaging, the focus remained predominantly on the brain's hardware. We mapped out the brain and learned which parts activate during specific tasks. 
+As we advanced into the realm of cognitive psychology and neuroimaging, the focus remained predominantly on the brain's hardware. We mapped out the brain and learned which parts activate during specific tasks.
 
 These approaches are far from what Freud and Jung were trying to do.
-
-
 
 ## Archetypes Reveal the Way
 
@@ -82,12 +79,9 @@ The Greeks had gods that were flawed. But the gods weren't meant to be perfect. 
 
 This pattern recognition that came from observing archetypes gave the Greeks a form of self awareness.
 
-
-
 Today, we lack a shared set of archetypes. This leaves a gap in our collective understanding of the underlying emotions, thought patterns, and behaviors that drive human actions. Many wait for research to be done so that the experts can tell us how to feel, think, and act.
 
 Our absence of common archetypes also means we miss out on a level of self-awareness that was prevalent among the Greeks, who not only embraced these archetypes but also used them to forge foundational ideas in philosophy.
-
 
 ### Advocates of the Less Tangible Aspects of Psychology
 

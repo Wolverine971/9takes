@@ -89,6 +89,6 @@ Acknowledge your view as one among many. Embrace the diversity of experiences th
 
 ## Takeaway
 
-Sharing something big like the Enneagram requires sensitivity. By approaching conversations with openness, respect, and an awareness of our biases, we can inspire curiosity without imposing. 
+Sharing something big like the Enneagram requires sensitivity. By approaching conversations with openness, respect, and an awareness of our biases, we can inspire curiosity without imposing.
 
 Let your journey be a beacon, not a directive.

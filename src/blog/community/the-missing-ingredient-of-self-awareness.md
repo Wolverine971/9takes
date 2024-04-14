@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'greek-statue-arguing-online'
 ---
 
-<!-- 
+<!--
 todo
 Archetypes are the missing ingredient
 

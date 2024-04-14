@@ -16,14 +16,12 @@ pic: ''
 
 <!-- todo -->
 
-
 <!-- the reader is experiencing pain and needs catharsis
 they need to be validated -->
 
 toxic traits
 toxic traits list
 examples of toxic traits
-
 
 <!-- todo finish this -->
 

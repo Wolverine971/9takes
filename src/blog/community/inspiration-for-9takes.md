@@ -73,7 +73,7 @@ When an individual feels that they are not being heard, it can lead to a range o
 
 ### People needed to be listened to. 👂
 
-After having a series of conversations where my wife and I felt like we were getting it, she told me to take a personality test. 
+After having a series of conversations where my wife and I felt like we were getting it, she told me to take a personality test.
 
 At first, I didn’t want to because I thought it was pseudo-science and didn’t know I would get anything out of it. However, since I couldn’t solve our relationship problems alone, I should be open to other solutions and perspectives. I figured I had nothing to lose, so I gave it a shot.
 
@@ -87,7 +87,7 @@ I would start conversations with other people about personality, but only some w
 
 ### Focus on questions that highlight our similarities and differences 👣
 
-So, to help people on "the journey," I wanted to ask them a specific question. 
+So, to help people on "the journey," I wanted to ask them a specific question.
 
 How are they similar or different from people? If you start thinking about that, you can quickly get into discussions about personality. The responses usually fell into two categories:
 

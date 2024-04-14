@@ -29,7 +29,6 @@ house
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <div
   style="display: flex;
     justify-content: center;
@@ -47,7 +46,7 @@ house
 
 > **Disclaimer** This analysis of Joe Rogan's Enneagram type is purely speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
 
-<p class="firstLetter">You've heard his voice, experienced his charisma or lack thereof, and possibly formed an opinion about him.</p> 
+<p class="firstLetter">You've heard his voice, experienced his charisma or lack thereof, and possibly formed an opinion about him.</p>
 
 Joe Rogan is hard to ignore. What enables him to garner such a significant influence across podcasting, comedy, and fighting? Today, we will examine his personality and explain why he might be an Enneagram Type 8 - The Challenger.
 

@@ -40,7 +40,7 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
 
-<p class="firstLetter">He's the 'father of the atomic bomb,' the man whose genius both saved and doomed millions.</p> 
+<p class="firstLetter">He's the "father of the atomic bomb," the man whose genius both saved and doomed millions.</p>
 
 Robert Oppenheimer is shrouded in controversy, conflict, and intellectual brilliance. We are going to plunge into his psyche and propose that this complex personality bears the traits of the Enneagram Type 4 Personality - The Individualist.
 

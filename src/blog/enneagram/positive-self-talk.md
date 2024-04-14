@@ -1,5 +1,5 @@
 ---
-title: "positive self talk"
+title: 'positive self talk'
 description: "Explore each Enneagram type's mental health risks and shadow side in our guide on personality predispositions and coping mechanisms."
 author: 'DJ Wayne'
 date: '2023-12-08'

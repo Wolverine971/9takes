@@ -96,7 +96,7 @@ Her optimistic outlook has been a critical factor in navigating these challenges
 
 ### The Social Butterfly
 
-Alex  is more than just a podcaster; she's a social butterfly who thrives who brings the energy. 
+Alex is more than just a podcaster; she's a social butterfly who thrives who brings the energy.
 
 This aligns perfectly with her Enneagram Type 7 personality, known for being extroverted and enthusiastic. Her podcast episodes often delve into personal stories and controversial topics, showcasing her love for interviews and gossip.
 
@@ -146,7 +146,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 ## Wrapping up
 
 From her adventurous spirit and love for new experiences to her ability to navigate controversies, Alex embodies the essence of Type 7 in many ways. Her actions, whether career milestones or personal choices, can be traced back to Enneagram 8's core motivation of freedom and happiness.
-
 
 <svelte:head>
 

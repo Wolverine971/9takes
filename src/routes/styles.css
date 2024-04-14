@@ -106,46 +106,6 @@ button {
 	font-size: inherit;
 }
 
-@media (width <=576px) {
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-weight: 700;
-	}
-
-	h1 {
-		line-height: 1;
-		font-size: 1.5rem;
-		text-wrap: balance;
-	}
-
-	h2 {
-		line-height: 1;
-		font-size: 1.3rem;
-		text-wrap: balance;
-	}
-
-	h3 {
-		line-height: 1;
-		font-size: 1.2rem;
-		text-wrap: balance;
-	}
-
-	h4 {
-		line-height: 1;
-		font-size: 1.1rem;
-		text-wrap: balance;
-	}
-
-	p {
-		margin-top: 0;
-		margin-bottom: 0.8rem;
-	}
-}
-
 .visually-hidden {
 	position: absolute;
 	margin: 0;
@@ -423,18 +383,6 @@ textarea {
 	width: 100%;
 }
 
-@media all and (width <=576px) {
-	.interaction-div-display {
-		gap: 0.25rem;
-		margin: 0.25rem;
-	}
-
-	.interaction-div-display button {
-		flex: 1;
-		margin: 0;
-	}
-}
-
 .shimmer-button {
 	background-image: linear-gradient(
 		-60deg,
@@ -460,4 +408,60 @@ textarea {
 .blog > h4 {
 	margin: 1.5rem 0 0 !important;
 	padding: 1.5rem 0 0 !important;
+}
+
+@media all and (width <=576px) {
+	.interaction-div-display {
+		gap: 0.25rem;
+		margin: 0.25rem;
+	}
+
+	.interaction-div-display button {
+		flex: 1;
+		margin: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-weight: 700;
+	}
+
+	h1 {
+		line-height: 1;
+		font-size: 1.5rem;
+		text-wrap: balance;
+	}
+
+	h2 {
+		line-height: 1;
+		font-size: 1.3rem;
+		text-wrap: balance;
+	}
+
+	h3 {
+		line-height: 1;
+		font-size: 1.2rem;
+		text-wrap: balance;
+	}
+
+	h4 {
+		line-height: 1;
+		font-size: 1.1rem;
+		text-wrap: balance;
+	}
+
+	p {
+		margin-top: 0;
+		margin-bottom: 0.8rem;
+	}
+
+	.blog > h2,
+	.blog > h3,
+	.blog > h4 {
+		padding: 1.5rem 0 1rem 0 !important;
+	}
 }

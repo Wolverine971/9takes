@@ -14,8 +14,7 @@ previewHtml: ''
 pic: ''
 ---
 
-
-Create a blog post about how creating a community based on personality is better than creating a community based on random interests.
+Create a blog post about how creating a community based on personality is different than creating a community based on random interests.
 
 If you are going to Reddit to find community and find like-minded friends, stop it. Stop it now.
 

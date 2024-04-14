@@ -34,10 +34,9 @@ pic: 'greek-statues-on-a-first-date'
    />
 </div>
 
-<p class="firstLetter">Ever get a little nervous before a first date?</p> 
+<p class="firstLetter">Ever get a little nervous before a first date?</p>
 
 You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will examine how each type prepares, what they likely feel, and their unique takes on dating red flags and green signals.
-
 
 This isn't a foolproof dating guide. It's a lens to better understand and empathize with your date - or even yourself. Dive in, and let's decode the dating dance, starting with Type 1, The Perfectionist...
 

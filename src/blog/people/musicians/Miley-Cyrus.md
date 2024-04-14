@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
 
 > **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect Miley's actual personality type.
 
-<p class="firstLetter">Miley Cyrus is an excellent example of a Type 4 personality from the Enneagram system.</p> 
+<p class="firstLetter">Miley Cyrus is an excellent example of a Type 4 personality from the Enneagram system.</p>
 
 This means she is very individualistic, emotional, and always searching for her true self. Her life in the spotlight shows the traits she has been through and she wears them on her sleeve. Today we dive into Miley's personality.
 

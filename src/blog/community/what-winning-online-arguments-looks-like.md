@@ -43,7 +43,7 @@ Biggest mistake people make in an argument is they want to be understood before 
 - you should have done research and thought deeply about the other side's views so that you understand them
 - you should think "How could a smart, reasonable, loving, and kind person who has real-life experience have these views?" and actually think about how they arrived at those views
 - if you have properly steelmaned the other side you should be able to explain their point of view in such a way that they agree with it
-- 
+-
 2nd step- establish common ground
 - Start by acknowledging points of agreement.
 
@@ -85,7 +85,7 @@ Have you ever proven someone wrong in the comments section? It feels good to win
 
 No one changes their mind at the end of an argument.
 
-The sides become more dug in. You may have made some good points but most of the time you are giving the other side motivation to go prove you wrong. If you embarrassed the other side, you now have an enemy. They now look at you and people who hold your views as the mean, heartless and smug. 
+The sides become more dug in. You may have made some good points but most of the time you are giving the other side motivation to go prove you wrong. If you embarrassed the other side, you now have an enemy. They now look at you and people who hold your views as the mean, heartless and smug.
 
 When people feel attacked, they respond with flight or fight or freeze. The more you try to "win" the more likely you are creating an enemy.
 
@@ -113,7 +113,7 @@ Once you have thoughtfully considered their point of view, you are ready to star
 
 - ### Step 2: Find Common Ground By Narrowing the Point of Contention
 
-Start with what you agree on. Find the common ground. It's easier to build a conversation when you're not coming from opposing corners. You should be upfront and clear that you disagree about something; however, you should take the time to narrow the disagreement. 
+Start with what you agree on. Find the common ground. It's easier to build a conversation when you're not coming from opposing corners. You should be upfront and clear that you disagree about something; however, you should take the time to narrow the disagreement.
 
 Voice or type out what you likely agree on before arguing.
 
@@ -133,7 +133,7 @@ This is how you speed-run an argument towards progress. Once you open yourself t
 
 If the other side takes the time to try to understand your views, you are not having an argument anymore.
 
-----
+---
 
 I hope these tips help you experience what winning feels like.
 

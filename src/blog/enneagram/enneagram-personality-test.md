@@ -19,7 +19,6 @@ previewHtml: ''
   import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
 <p  style="text-align: center;">
 <Enneagram height={'10rem'} fill={'#1e2922'}/>
 </p>
@@ -31,11 +30,12 @@ A individual's thinking, feeling, and behavior patterns can be synthesized, form
 
 ## Personality Demystified
 
-
 <!-- todo check and fill out this part-->
+
 There are many definitions of personality.
 
 But personality is just an attempt to define the dimensions by which people are similar and different. For example, the Meyers-Briggs personality test (MBTI) separates people by:
+
 - introverts and extroverts
 - intuitive or sensing
 - thinking and feeling

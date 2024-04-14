@@ -12,8 +12,6 @@ type: ['nine-types']
 blog: true
 ---
 
-
-
 <script>
 	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
     import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";

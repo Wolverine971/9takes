@@ -52,7 +52,7 @@ Online discussions are not for the faint of heart. They are little battlegrounds
 
 ## Understanding the Memetic Effect
 
-People often mirror the beliefs of those they admire. 
+People often mirror the beliefs of those they admire.
 
 If someone respects beliefs in 'X,' their admirers are more likely to also believe in 'X' because they have been influenced by the person they admire rather than independent analysis. Similarly, when two people agree on one opinion, they're more open to each other's other views. This is known as mirroring, or, as Rene Girard would say, this is a memetic effect.
 

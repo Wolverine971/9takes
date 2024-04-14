@@ -14,7 +14,6 @@ previewHtml: ''
 pic: ''
 ---
 
-
 Ever tried to crowdsource your conflict online? Here’s how to effectively leverage the wisdom of the crowd to resolve your dilemmas.
 
 Step 1: Initiate the Conflict

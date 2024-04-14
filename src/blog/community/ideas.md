@@ -14,7 +14,6 @@ previewHtml: ''
 pic: ''
 ---
 
-
 social media issues
 social media is a problem
 

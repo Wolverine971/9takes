@@ -81,7 +81,6 @@ Here we are going to use the Enneagram to look at the negative aspects of differ
 
 These dark sides are sometimes called the "shadow side," and it is central to this exploration. In examining these shadow sides we hope to better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
 
-
 Here, we will describe each type's mental health risks and give examples of unhealthy spirals and how each type might find themselves in these negative situations.
 
 ## Mental Health Risks of the Enneagram Type 1: The Perfectionist
@@ -91,6 +90,7 @@ Type 1s are susceptible to Obsessive-Compulsive Disorder, Depressive Personality
 ### Unhealthy Spirals
 
 <!-- todo fill in examples, specific and tangible -->
+
 Alex, a dedicated teacher and Type 1, starts fixating on flawlessness in lesson plans. This obsession leads to crippling guilt over minor mistakes, culminating in self-punishment and depressive episodes.
 
 Maria, a meticulous artist, becomes increasingly inflexible and self-righteous about her work. Her need for perfection evolves into obsessive-compulsive behaviors, alienating her from colleagues and leading to intense disillusionment.
@@ -101,12 +101,11 @@ Type 1s may rigidly adhere to their high standards, leading to a cycle of unreal
 
 ## Mental Health Risks of the Enneagram Type 2: The Helper
 
-
 Type 2s risk developing Histrionic Personality Disorder, hypochondriasis, and coercive behaviors like stalking.
 
 ### Unhealthy Spirals
 
-Liam, a healthcare professional, deeply cares for his patients. He tries to emotionally bond with his patients but overtime resentment grows when patients don't follow his advice. He begins to find ways where he can assert himself so that he can have more and more control of his patients. He starts to blur the lines between patient care and manipulation.  His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
+Liam, a healthcare professional, deeply cares for his patients. He tries to emotionally bond with his patients but overtime resentment grows when patients don't follow his advice. He begins to find ways where he can assert himself so that he can have more and more control of his patients. He starts to blur the lines between patient care and manipulation. His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
 
 Emma, deeply invested in her friendship with Alice, gets jealous everytime Alice is with other friends. She tries to be a better friend to Alice than everyone else and she starts to obsess over Alice. Gradually this turns in to stalking Alice in an ongoing attempt to be the most important person in Alice's life.
 
@@ -128,9 +127,7 @@ Sophia, a high-achieving student, wants to get into an Ivy League college. This 
 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
 
-
 ## Mental Health Risks of the Enneagram Type 4: The Individualist
-
 
 Type 4s are at risk for severe depression, Narcissistic Personality Disorder, Avoidant Personality Disorder, and self-destructive behaviors.
 
