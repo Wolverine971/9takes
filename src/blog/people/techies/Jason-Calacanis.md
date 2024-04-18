@@ -21,9 +21,7 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others. Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to mold and reinvent himself to accomplish his next goal. Jason is this way, we argue, because we think his personality type is an Enneagram type 3, also known as "The Achiever." </p>
 
-> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason Calacanis's actual personality type. Please leave a comment at the end telling us if we hit or missed the mark.
 
 <div
   style="display: flex;
@@ -40,6 +38,8 @@ tiktok:
   />
 </div>
 
+> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason Calacanis's actual personality type. Please leave a comment at the end telling us if we hit or missed the mark.
+
 <details>
 <summary class="accordion">TL;DR: Why Jason Calacanis is an Enneagram 3</summary>
 <div class="panel">
@@ -53,9 +53,15 @@ tiktok:
   </div>
 </details>
 
+<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p> 
+
+Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
+
+ Here, we will explain what that looks like.
+
 ## Jason Calacanis: An Embodiment of The Achiever?
 
-Jason is an angel investor, the host of the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" podcast. He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
+Jason is an angel investor and the host of the two prominent podcasts "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" and the "All in". He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
 
 Why does Jason feel the need to work so hard? Is it because he loves making the world a better place? Or is it because he would feel worthless if he was not successful? The answer is the latter.
 
@@ -63,7 +69,7 @@ Why does Jason feel the need to work so hard? Is it because he loves making the 
 
 Type 3s, or Achievers, are characterized by their desire for success and relentless pursuit of their goals and ambitions. They embody the best of a culture, often serving as role models that inspire others to more extraordinary personal achievements. However, their need to be successful is born out of a fear of worthlessness. In another sense, they feel deep shame and are insecure that they are not worthy of love if they are unsuccessful. Somewhere in their childhood, they picked up this message, and now, every time they achieve something, it validates their value.
 
-Threes, when they are not achieving or are very stressed, may become disengaged and lethargic and act like an unhealthy version of another personality type, the Enneagram 9. On the other hand, when they are achieving, growing, and feeling their best, Threes become more cooperative and committed to others, much like healthy Enneagram Sixes.
+When they are not achieving or are very stressed, type 3s may become disengaged and lethargic and act like an unhealthy version of another personality type, the Enneagram 9. On the other hand, when they are achieving, growing, and feeling their best, Threes become more cooperative and committed to others, much like healthy Enneagram Sixes.
 
 ## Jason Calacanis: Tracing The Achiever's Path
 
@@ -98,7 +104,7 @@ Nevertheless, Calacanis' journey also provides a fascinating glimpse into the Ac
 
 ## How Jason's enneagram type can be seen influencing his work
 
-Jason started as a <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis"> reporter talking about the "internet industry."</a>After the dot-com boom, he worked his way up to becoming a startup founder. Jason's first major triumph was co-founding Weblogs Inc., where he got an investment from Mark Cuban and sold it two years later. He kept upping the anti and later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber. Jason was on a steep incline of growth, showcasing his goal-oriented mindset and knack for achievement.
+Jason started as a reporter talking about the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry."</a>After the dot-com boom, he worked his way up to becoming a startup founder. Jason's first major triumph was co-founding Weblogs Inc., where he got an investment from Mark Cuban and sold it two years later. He kept upping the anti and later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber. Jason was on a steep incline of growth, showcasing his goal-oriented mindset and knack for achievement.
 
 Nowadays, he works on his popular podcast, "This Week in Startups," where Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and appeal commonly seen in this Enneagram type.
 
