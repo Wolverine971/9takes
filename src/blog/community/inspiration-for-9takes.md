@@ -39,21 +39,23 @@ margin: 1rem 0;"
 
 <p class="firstLetter">Marriage is a forcing function for developing emotional intelligence.</p>
 
-At least, that is how it has been for me. When I married my wife, we were in marital bliss, yet we seemed to be fighting more than we thought typical. Our ways of resolving our conflict kept failing, and we eventually turned to personality tests to help us understand each other.
+At least, that is how it has been for me. When I got married, my wife and I were in marital bliss! But that quickly wore off as reality set in that we were each married to flawed people who saw the world very differently. We were fighting more than what we thought was typical. And the ways we were attempting to resolve the conflict kept failing.
+
+We eventually turned to personality tests to help us understand each other.
 
 ## What We Learned Through Therapy and Personality Tests
 
 After my wife and I failed multiple times to resolve our conflict, we went to counseling.
 
-At the time we could not start the conversation without it quickly leading to yelling or tears. The counselor helped us get the conversation going where we could both listen to each other. We will dive deeper into what it means to listen later but once we started listening, we realized we were stuck in some negative patterns. We were jumping to conclusions and operating on autopilot. After multiple sessions, we learned that different things we say to each other mean completely different things. I didn't like the word “trigger,” but that is exactly what was happening when certain words were mentioned. We were being triggered and rushing to conclusions via our thoughts and emotions.
+At the time, we could not start the conversation without it quickly leading to yelling and or tears. The counselor we went to helped us get the conversation going to a place where we could both listen to each other (deep dive into listening later). We realized we were stuck in some negative patterns. We were jumping to conclusions and operating on autopilot. We were being "triggered" (this was a new concept for me). After multiple sessions, we learned that the things we say to each other can mean completely different things. We were being triggered and rushing to conclusions via our thoughts and emotions.
 
-Over time we were narrowed in on our differences. This is where the personality tests came in, more on that later. Intellectually, we knew we were different, but we were getting surprised every time the other person wasn’t seeing things our way. We were slowly learning about the slew of baggage that we each carried.
+Over time, we narrowed in on our differences. This is where the personality tests came in. Intellectually, we knew we were different, but we were surprised every time the other person didn't see things our way. We were slowly learning about the slew of baggage that we each carried.
 
 ## How To Listen
 
 The trick we learned though counseling was how to listen to each other.
 
-It’s not about quietly letting the other person talk. It is about making the other person feel like you understand them.
+It’s not about quietly letting the other person talk. It is about making the other person feel like you understand them. Sometimes people say you need to show empathy or "mirror" the other person. But what you are trying to do is make the other person feel like you get them.
 
 This is echoed by FBI hostage negotiator Chris Voss. He talks about how negotiations aren’t about logic but about making the other side feel completely understood.
 
