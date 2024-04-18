@@ -1,7 +1,8 @@
 import { AuthApiError } from '@supabase/supabase-js';
 import { fail, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
-import { getServerSession } from '@supabase/auth-helpers-sveltekit';
+
+import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
 
 export const load: PageServerLoad = async (event) => {
 	// redirect user if logged in
@@ -30,6 +31,12 @@ export const actions: Actions = {
 			return fail(500, {
 				message: 'Server error. Try again later.'
 			});
+		}
+
+		if (body.email === PRIVATE_ADMIN_EMAIL) {
+
+			throw redirect(303, '/admin');
+
 		}
 
 		throw redirect(303, '/questions');

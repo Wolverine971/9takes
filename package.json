@@ -76,7 +76,7 @@
 	"dependencies": {
 		"@builder.io/partytown": "^0.8.1",
 		"@elastic/elasticsearch": "^8.6.0",
-		"@fingerprintjs/fingerprintjs": "^4.1.0",
+		"@fingerprintjs/fingerprintjs": "^4.2.1",
 		"@sveltejs/adapter-node": "^1.2.1",
 		"@sveltejs/amp": "^1.0.2",
 		"@types/gsap": "^3.0.0",
