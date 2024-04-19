@@ -20,7 +20,7 @@
 </url>
 <url>
 <loc>https://9takes.com/blog/enneagram</loc>
-<lastmod>2024-04-07</lastmod>
+<lastmod>2024-04-19</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -153,6 +153,12 @@
 <url>
 <loc>https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes</loc>
 <lastmod>2024-04-07T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/blog/enneagram/enneagram-coach-toolkit</loc>
+<lastmod>2024-04-19T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
