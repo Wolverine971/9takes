@@ -78,7 +78,7 @@
 					<div class="scrollable-div">
 						{#each data?.comments as comment}
 							<div class="comment-border">
-								<p style="color: {comment.removed ? 'red' : 'black'}">{comment?.comment}</p>
+								<p style="color: {comment.removed ? 'red' : ''}">{comment?.comment}</p>
 								<div class="column" style="align-items: end">
 									{#if comment?.parentQuestion}
 										<a href="/questions/{comment?.parentQuestion?.url}"

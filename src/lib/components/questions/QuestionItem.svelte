@@ -76,9 +76,9 @@
 		align-items: center;
 		overflow: hidden;
 		position: relative;
-		margin: 0.25rem 0 0.25rem 0.5rem;
+		margin: 0.25rem 0 0.25rem 0;
 		padding: 0 1rem;
-		border-radius: 5px;
+		border-radius: 3px;
 		border: var(--classic-border);
 		// box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
 		// 	0 1px 5px 0 rgb(0 0 0 / 12%);
@@ -88,7 +88,7 @@
 		// background-color: var(--color-theme-purple-v);
 
 		// background-color: rgb(207, 198, 255, 0.5);
-		background-color: var(--color-paladin-1);
+		background-color: #cfcfcf; // var(--color-paladin-1);
 		// border: 0.1px solid var(--color-theme-purple-v);
 		box-shadow: 0 2px 0px -1px var(--color-theme-purple-v),
 			0 3px 3px 1px var(--color-theme-purple-v), 0 1px 5px 0 var(--color-theme-purple-v);

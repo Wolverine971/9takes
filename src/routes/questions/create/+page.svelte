@@ -120,8 +120,14 @@
 			class="create-question-textarea"
 			bind:value={question}
 		/>
-		<button class="btn btn-primary" style="align-self: end;" type="button" on:click={getUrl}>
-			Create
+		<button
+			disabled={!question.length}
+			class="btn btn-primary  {question.length === 0 && 'disabled'}"
+			style="align-self: end;"
+			type="button"
+			on:click={getUrl}
+		>
+			Submit
 		</button>
 	</form>
 
@@ -153,6 +159,10 @@
 </div>
 
 <style lang="scss">
+	.disabled {
+		background-color: lightgray;
+		color: grey;
+	}
 	.create-question-textarea {
 		margin: 1rem 0;
 		padding: 0.5rem;

@@ -64,7 +64,7 @@
 	const questionDisplay = () => {
 		if (data?.session?.user?.id) {
 			if (data?.canAskQuestion) {
-				return 'Create question';
+				return 'Ask question';
 			} else {
 				return 'Only 10 questions per day';
 			}

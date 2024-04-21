@@ -8,6 +8,23 @@
 	let firstName: string;
 	let lastName: string;
 	let enneagram: string;
+	let formChanged: boolean = false;
+
+	$: (firstName, lastName, enneagram), doSomething();
+
+	const doSomething = () => {
+		if (
+			firstName !== data?.user?.first_name ||
+			lastName !== data?.user?.last_name ||
+			enneagram !== data?.user?.enneagram
+		) {
+			formChanged = true;
+			console.log('form changed');
+		} else {
+			formChanged = false;
+			console.log('form not changed');
+		}
+	};
 	interface AccountData extends PageData {
 		user: any;
 		subscriptions: any;
@@ -48,27 +65,31 @@
 </script>
 
 <div class="">
-	<div>
-		<div class="row" style="justify-content: space-between;">
-			{#if data?.user?.admin}
-				<a href="/admin">
-					<button type="button" class="btn btn-primary">Admin</button>
-				</a>
-			{/if}
-			<h1 style="margin: auto 1rem">Hello {data?.session?.user?.email}</h1>
+	<div class="neat-row" style="justify-content: space-between;">
+		<h1 style="margin: auto 1rem; padding:0">Hello {data?.session?.user?.email}</h1>
 
-			<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
-			<!-- use:enhance={() => {
+		<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
+		<!-- use:enhance={() => {
 					return async ({ result }) => {
 						invalidateAll();
 						await applyAction(result);
 					};
 				}} -->
+		<div>
 			<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
 				<button type="submit" class="btn btn-secondary">Logout</button>
 			</form>
+			{#if data?.user?.admin}
+				<a href="/admin">
+					<button type="button" class="btn btn-primary" style="margin-top: 0.5rem">Admin</button>
+				</a>
+			{/if}
 		</div>
-		<div class="row">
+	</div>
+
+	<div class="glass-card">
+		<h2>Profile</h2>
+		<div class="">
 			<!-- <label for="firstName">First Name</label> -->
 			<input
 				type="text"
@@ -87,7 +108,7 @@
 				placeholder="Last Name"
 			/>
 		</div>
-		<div class="row">
+		<div class="neat-row" style="justify-content: start">
 			<span style="text-align: center;"> Enneagram <br />Type </span>
 			<EnneagramSelect
 				selectedEnneagram={enneagram}
@@ -96,15 +117,20 @@
 				}}
 			/>
 		</div>
-		<div class="row" style="justify-content: flex-end;">
-			<button type="button" class="btn btn-primary save-btn" on:click={save}>Save</button>
+		<div class="neat-row" style="justify-content: flex-end;">
+			<button
+				type="button"
+				disabled={!formChanged}
+				class="btn btn-primary save-btn {formChanged === false && 'disabled'}"
+				on:click={save}>Save</button
+			>
 		</div>
 	</div>
 
-	<div style="margin: 1rem; padding: 1rem;">
+	<div class="glass-card" style="margin: 1rem; padding: 1rem;">
 		<h2>Question subscriptions</h2>
 		{#each data.subscriptions as subscription}
-			<div class="row" style="justify-content: flex-start;">
+			<div class="neat-row" style="justify-content: flex-start;">
 				<a href="/questions/{subscription.questions.url}"
 					>{subscription.questions.question_formatted || subscription.questions.question}</a
 				>
@@ -114,8 +140,32 @@
 </div>
 
 <style lang="scss">
+	.disabled {
+		background-color: lightgray;
+		color: grey;
+	}
+	.glass-card {
+		background-color: #d1cdcd; // var(--color-paladin-2);
+		border-radius: 5px;
+		padding: 1rem;
+		margin: 1rem;
+		padding: 0.5rem;
+	}
+
+	.neat-row {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+		justify-content: center;
+	}
+
 	h1 {
 		font-size: 1.5rem;
+	}
+
+	h2 {
+		padding: 0.5rem 0;
+		margin: 0.5rem 0;
 	}
 
 	.logout-btn {
