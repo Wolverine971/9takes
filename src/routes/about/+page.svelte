@@ -22,17 +22,11 @@
 <svelte:window bind:innerWidth />
 
 <div class="main-div">
-	<h1>Why build 9takes?</h1>
-
-	<p>Social media is broken and there is a widening division tearing people apart.</p>
-	<p>Specifically:</p>
-	<ul>
-		<li>Social media feels fake and at times toxic</li>
-		<li>People are divided and afraid to express themselves</li>
-	</ul>
+	<h1>9takes- a place of Questions for the Enneagram obsessed</h1>
+	<p>And a place for people to explore their differences and find common ground.</p>
 
 	<div>
-		<h2>Allow me to introduce myself</h2>
+		<p>My name is DJ</p>
 
 		<div
 			style="display: flex; justify-content: center; align-items: center; gap: 2rem; {innerWidth <
@@ -81,13 +75,13 @@
 				</picture>
 				<div>
 					<p style="margin-bottom: 0;">
-						I am an Enneagram enthusiast, tired of fighting with people. I have a tech background
-						and am applying what I have learned to build a platform where people can find common
-						ground and grow.
+						I am obsessed with the Enneagram and am tired of social media feeling fake. <br />
+						<br />I have a tech background and am building a platform where people can explore their
+						differences and find common ground.
 					</p>
 					<span>
 						<a
-							style="background: aliceblue; padding: .5rem; border-radius: 5px; margin: .2rem; display: inline-flex;"
+							class="twitter-link"
 							target="_blank"
 							rel="noreferrer"
 							href="https://twitter.com/djwayne3"
@@ -98,7 +92,8 @@
 				</div>
 			</div>
 		</div>
-		<h3 style="margin: 1.5rem 0">Why social media sucks:</h3>
+		<h2 style="margin: .5rem 0">Views and Goals</h2>
+		<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why social media sucks:</h3>
 		<!-- <h1 style="text-decoration: underline; text-align: center">We need a redo on social media</h1> -->
 
 		<p><b>Social media isn't living up to what it was supposed to be.</b></p>
@@ -153,7 +148,7 @@
 			</div>
 		{/if}
 
-		<h3 style="margin: 1.5rem 0">Why people are divided</h3>
+		<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why people are divided</h3>
 
 		<p>Most people are living their life on autopilot.</p>
 
@@ -209,7 +204,7 @@
 		online.
 	</p>
 
-	<h3>The philosophy of 9takes</h3>
+	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">The philosophy of 9takes</h3>
 
 	<p>"Everyone is unique." ✨</p>
 	<p>
@@ -242,7 +237,7 @@
 		</b>
 	</p>
 
-	<h3>Why the Enneagram?</h3>
+	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why the Enneagram?</h3>
 	<p>
 		Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
 		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
@@ -256,7 +251,7 @@
 		"Enneagram type" that is for you to discover.
 	</p>
 
-	<h3>Why focus on questions and answers?</h3>
+	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why focus on questions and answers?</h3>
 	<p>
 		Because the process of forming and asking a question is a mental unlock. When you are asking
 		questions, you are growing. When you have run out of questions, you stop growing, and you not
@@ -308,6 +303,17 @@
 	{/if}
 </div> -->
 <style lang="scss">
+	.twitter-link {
+		background: aliceblue;
+		padding: 0.5rem;
+		border-radius: 5px;
+		margin: 0.2rem;
+		display: inline-flex;
+	}
+
+	.twitter-link:hover {
+		background-color: #bc81ff;
+	}
 	.main-div {
 		margin: 20px;
 	}

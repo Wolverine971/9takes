@@ -5,6 +5,7 @@
 
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	export let data: PageData;
 
 	let innerWidth = 0;
@@ -54,11 +55,16 @@
 					<h1
 						style="margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;"
 					>
-						<span style="text-wrap: nowrap;">Questions</span>
+						<span style="text-wrap: nowrap;"
+							><a href="/questions" class="no-arrow">Questions</a></span
+						>
 						<span style="margin: .5rem;">{'>'}</span>
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
 						>
 					</h1>
+					<h2 style="font-size: x-large">
+						Got a question? <br />Get 9 different personalities' takes on it via 9takes.
+					</h2>
 				</div>
 			</div>
 
@@ -66,7 +72,7 @@
 			How we see the World -->
 		</div>
 
-		<div class="big-points center-align flex-center border-boy" style="">
+		<div class="big-points center-align flex-center " style="">
 			<div class="" style="margin: 3rem 0;">
 				<p style="font-size: 1.5rem; font-weight: 700;">
 					<span class="purple-text">9takes</span> is a question and answering platform <br />where
@@ -76,17 +82,11 @@
 					<span class="purple-text">feel</span>, and
 					<span class="purple-text">do</span>
 				</p>
-				<a
-					href="/questions"
-					class="btn btn-primary questionLink"
-					style="border: 1px solid; font-size: x-large;"
-				>
-					ask your questions<ArrowRightIcon
-						iconStyle={'margin-left: 0.5rem; vertical-align: middle;'}
-						height={'1.5rem'}
-						fill={'#5407d9'}
-					/>
-				</a>
+			</div>
+			<div style="width: 100%; padding: .5rem">
+				{#each data?.top5Questions as questionData}
+					<QuestionItem {questionData} />
+				{/each}
 			</div>
 		</div>
 
@@ -291,6 +291,11 @@
 {/if}
 
 <style lang="scss">
+	.no-arrow {
+		&::after {
+			content: none;
+		}
+	}
 	.border-boy {
 		border: 1px solid;
 		border-radius: 5px;
@@ -388,11 +393,6 @@
 		font-size: 2rem;
 	}
 
-	.wave-sections {
-		border-radius: 5px;
-		margin: 2rem;
-		padding: 2rem;
-	}
 	.main-preview {
 		display: flex;
 		justify-content: center;
@@ -427,8 +427,7 @@
 		grid-gap: 10rem;
 		// overflow: auto;
 	}
-	.big-points,
-	.big-points-section {
+	.big-points {
 		max-width: 50%;
 		min-width: 400px;
 		width: 100%;
@@ -478,23 +477,6 @@
 	}
 	p {
 		word-break: normal;
-	}
-	/* Header styles */
-	header {
-		background-color: var(--color-paladin-3);
-		background-image: url('/background.webp');
-		color: #fff;
-		padding: 20px;
-		aspect-ratio: 16 / 6;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		-webkit-filter: grayscale(100%);
-		filter: grayscale(100%);
-	}
-	header h2 {
-		text-align: center;
-		margin: 0;
 	}
 
 	.img-preview {
@@ -562,14 +544,7 @@
 		.big-points {
 			min-width: 300px;
 		}
-		.big-points-section {
-			min-width: fit-content;
-		}
 
-		.wave-sections {
-			margin: 0.5rem 0;
-			padding: 1rem 0.5rem;
-		}
 		h1 {
 			font-size: 2rem;
 		}
