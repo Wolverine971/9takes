@@ -26,8 +26,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: questions, error: questionsError } = await supabase
 		.from(demo_time === true ? 'questions_demo' : 'questions')
 		.select(
-			`*, question_tag(*), ${
-				demo_time === true ? 'profiles_demo' : 'profiles'
+			`*, question_tag(*), ${demo_time === true ? 'profiles_demo' : 'profiles'
 			} ( external_id, enneagram)`
 		)
 		.order('created_at', { ascending: false })
@@ -166,14 +165,12 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'profiles_demo' : 'profiles')
 				.update({ first_name, last_name, enneagram })
 				.eq('email', email);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
+			if (updateUserError) {
 				throw error(500, {
 					message: `Failed to update user ${JSON.stringify(updateUserError)}`
 				});
 			}
+			return { success: true };
 		} catch (e) {
 			throw error(400, {
 				message: `Failed to update user ${JSON.stringify(e)}`
@@ -181,43 +178,5 @@ export const actions: Actions = {
 		}
 	},
 
-	toggleDemo: async (event) => {
-		try {
-			const session = event.locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-			const demo_time = await checkDemoTime();
-
-			const { data: user } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.select('id, admin, external_id')
-				.eq('id', session?.user?.id)
-				.single();
-
-			if (!user?.admin) {
-				throw redirect(307, '/questions');
-			}
-
-			const newDemoTime = !demo_time;
-			const { error: updateDemoError } = await supabase
-				.from('admin_settings')
-				.update({ value: newDemoTime })
-				.eq('id', 2)
-				.select();
-			// insert(userData);
-			if (!updateDemoError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update demo ${JSON.stringify(updateDemoError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update demo ${JSON.stringify(e)}`
-			});
-		}
-	}
 };

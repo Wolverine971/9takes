@@ -21,8 +21,6 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
-
 <div
   style="display: flex;
     justify-content: center;
@@ -53,7 +51,7 @@ tiktok:
   </div>
 </details>
 
-<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p> 
+<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p>
 
 Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
 

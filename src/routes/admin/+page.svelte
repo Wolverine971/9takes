@@ -22,7 +22,7 @@
 	const reindexEverything = async () => {
 		let body = new FormData();
 
-		const resp = await fetch('?/reindexEverything', {
+		await fetch('?/reindexEverything', {
 			method: 'POST',
 			body
 		});
@@ -36,6 +36,7 @@
 		<div class="row">
 			<a href="/admin/users">Users</a> |
 			<a href="/admin/questions">Questions</a> |
+			<a href="/admin/comments">Comments</a> |
 			<a href="/admin/messages">Messages</a>
 		</div>
 		<details open>

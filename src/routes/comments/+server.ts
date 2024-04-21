@@ -44,6 +44,7 @@ export async function GET({ url, locals, cookies }) {
 				{ count: 'exact' }
 			)
 			.eq('parent_id', parentId)
+			.eq('parent_type', parentType)
 			.eq('removed', false)
 			.order('created_at', { ascending: false })
 			.range(range, range + 10);

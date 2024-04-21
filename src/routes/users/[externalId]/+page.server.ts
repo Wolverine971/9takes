@@ -16,6 +16,12 @@ export const load: PageServerLoad = async (event) => {
 		.eq('external_id', event.params.externalId)
 		.single();
 
+	if (!user?.id) {
+		throw error(404, {
+			message: `Couldn't find the user`
+		});
+	}
+
 	const { data: subscriptions, error: subscriptionsError } = await supabase
 		.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
 		.select(

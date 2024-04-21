@@ -1,4 +1,4 @@
-const SITE_URL = '9takes.com';
+// const SITE_URL = '9takes.com';
 const getAllPosts = async () => {
 	// const imports = import.meta.glob('/posts/**/*.md'); // make sure you get files from the right place
 	const community = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);

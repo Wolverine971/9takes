@@ -80,12 +80,12 @@ It is not a small thing seeking to be understood. People do unexpected things wh
 
 <!-- Its as if you are saying that they don't belong. -->
 
-When someone comes to you trying to express something and they feel as though you don't understand them, its as if you are saying that their reality doesn't make sense.  They need to change and think, feel and do things that do make sense. 
+When someone comes to you trying to express something and they feel as though you don't understand them, its as if you are saying that their reality doesn't make sense.  They need to change and think, feel and do things that do make sense.
 <!-- Obviously this can happen to varying degrees but it is no small thing when someone doesn't feel understood. -->
-There are a range of emotions that can pop up when someone feels like they aren't being understood. 
+There are a range of emotions that can pop up when someone feels like they aren't being understood.
 
-- They might feel anger towards the person who is not understanding. 
-- They might feel anxious that they aren't making sense. 
+- They might feel anger towards the person who is not understanding.
+- They might feel anxious that they aren't making sense.
 - They may feel like like an outcast and that they don't belong.
 
 Be on the look out for a topic changing too fast. Be on the lookout for someone suddenly becoming quiet. Be on the lookout for someone saying "you are not listening to me." You may be listening but the other person does not feel understood.

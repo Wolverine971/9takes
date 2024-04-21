@@ -132,38 +132,5 @@ export const actions: Actions = {
 			});
 		}
 	},
-	toggleDemo: async (event) => {
-		try {
-			const request = event.request;
-			const session = event.locals.session;
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const demo_time = await checkDemoTime();
-
-			const body = Object.fromEntries(await request.formData());
-			const first_name = body.firstName as string;
-			const last_name = body.lastName as string;
-			const enneagram = body.enneagram as string;
-			const email = body.email as string;
-			const { error: updateUserError } = await supabase
-				.from(demo_time === true ? 'profiles_demo' : 'profiles')
-				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
-			// insert(userData);
-			if (!updateUserError) {
-				return { success: true };
-			} else {
-				throw error(500, {
-					message: `Failed to update user ${JSON.stringify(updateUserError)}`
-				});
-			}
-		} catch (e) {
-			throw error(400, {
-				message: `Failed to update user ${JSON.stringify(e)}`
-			});
-		}
-	}
 };

@@ -244,10 +244,12 @@
 			role="combobox"
 			aria-autocomplete="list"
 			aria-expanded={isListOpen}
+			aria-controls="combobox__list"
 			aria-required={required ? 'true' : undefined}
 		/>
 
 		<ul
+			id="combobox__list"
 			class="combobox__list"
 			role="listbox"
 			aria-label={label}

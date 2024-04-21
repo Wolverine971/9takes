@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
 	import { browser } from '$app/environment';
-	let onTop: null; //keeping track of which open modal is on top
+	let onTop: any; //keeping track of which open modal is on top
 	const modals: any = {}; //all modals get registered here for easy future access
 
 	// 	returns an object for the modal specified by `id`, which contains the API functions (`open` and `close` )
@@ -31,7 +31,7 @@
 		closeCallback = callback;
 		if (visible) return;
 		prevOnTop = onTop;
-		onTop = topDiv;
+		if (topDiv) onTop = topDiv;
 		if (browser) {
 			window.addEventListener('keydown', keyPress);
 		}
@@ -41,7 +41,7 @@
 
 		visible = true;
 		//Move the modal in the DOM to be the last child of <BODY> so that it can be on top of everything
-		document.body.appendChild(topDiv);
+		if (topDiv) document.body.appendChild(topDiv);
 	}
 
 	function close(retVal: Event) {
@@ -92,7 +92,7 @@
 				viewBox="0 0 12 12"
 				role="button"
 				on:keydown={(e) => {
-					if (e?.key === 'Enter') close();
+					if (e?.key === 'Enter') close(e);
 				}}
 			>
 				<circle cx="6" cy="6" r="6" />

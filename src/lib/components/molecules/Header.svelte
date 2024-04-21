@@ -81,7 +81,7 @@
 		</svg>
 	</div>
 {:else}
-	<header class="the-header" role="banner">
+	<header class="the-header">
 		{#if innerWidth < 1000}
 			<div
 				class="mobile-ham {$page.url.pathname === '/' && 'absolute-pos'}"
@@ -127,7 +127,6 @@
 				class="nav-bar {innerWidth < 1000 && 'big-navbar'} {$page.url.pathname === '/' &&
 					'absolute-pos'}"
 				aria-label="Main Navigation"
-				role="navigation"
 			>
 				<a href="/" class="brand left" aria-label="Home">
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
