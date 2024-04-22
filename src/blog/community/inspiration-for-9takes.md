@@ -51,7 +51,7 @@ At the time, many topics of conversation would quickly lead to yelling and/or te
 
 We were being triggered and rushing to conclusions.
 
-Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison]((/blog/enneagram/enneagram-vs-meyers-briggs))).
+Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison](/blog/enneagram/enneagram-vs-meyers-briggs)).
 
 As we started diving deep into all these personality layers, listening became the most important skill that we were developing.
 
