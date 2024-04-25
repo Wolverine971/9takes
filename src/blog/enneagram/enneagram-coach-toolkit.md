@@ -4,14 +4,14 @@ description: 'Discover essential homework strategies for Enneagram coaches and l
 author: 'DJ Wayne'
 date: '2024-04-19'
 loc: 'https://9takes.com/blog/enneagram/enneagram-coach-toolkit'
-lastmod: '2024-04-19'
+lastmod: '2024-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['resources']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'greek-statue-giving-a-speech'
 ---
 
 <!-- todo
@@ -20,6 +20,26 @@ personality coaches
 trends in conflict resolution
  give them homework 
  pantheon temple of the gods -->
+
+ <script>
+  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
+
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    "
+>
+  <PopCard
+        image={`/blogs/greek-statue-giving-a-speech.webp`}
+        showIcon={false}
+        displayText=""
+        altText="a greek statue giving a speech"
+        tint={false}
+        subtext=""
+    />
+</div>
 
 <p class="firstLetter">It is hard out there being an Enneagram coach.</p>
 
@@ -70,4 +90,3 @@ Clear, relatable explanations keep beginners interested and eager to learn more.
 Enneagram coaching is not confined to the session time; it extends through thoughtfully assigned homework and clear, engaging initial explanations.
 
 In addition to the above, there are <a class="external-link" target="_blank" href="https://explaintheenneagram.com/" >5 the common pitfalls in explaining the Enneagram to newcomers that are turn-offs</a>. If you are ready to learn more and refine your approach to attracting and retaining clients, click the link ⬆️.
-

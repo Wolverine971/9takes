@@ -4,7 +4,7 @@ description: 'Unwind and recharge the right way! See the ideal activities to rel
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds'
-lastmod: '2024-04-12'
+lastmod: '2024-04-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -50,6 +50,8 @@ Enneagram Type 1s, known as Reformers, often struggle with perfectionism. Engagi
 - Step 1: Choose an activity that feels inherently messy or spontaneous, like playing with paint, sculpting, or trying a new sport.
 - Step 2: Focus on the process, not the outcome. Let go of expectations and enjoy the act of creation.
 - Step 3: Share your playful creations with loved ones. This strengthens the connection and helps you see things through their eyes.
+- **Bonus suggestion:** Maybe try taking a calligraphy class, but have fun with it ✒️🎨.
+<!-- take a calligraphy class -->
 
 ## Enneagram Type 2: Rejuvenate with Self-Care Rituals
 
@@ -70,6 +72,8 @@ Enneagram Type 3s, known as Achievers, are highly motivated and success-driven. 
 - Step 1: Choose an activity that requires you to learn new skills and test your limits. This could be anything from rock climbing to public speaking.
 - Step 2: Set realistic goals and track your progress. Celebrate your achievements, both big and small.
 - Step 3: Share your experiences with others who appreciate your drive and ambition.
+- **Bonus suggestion:** Maybe try a luxury picnics or go glamping 🏕️✨.
+<!-- Luxury Picnics -->
 
 ## Enneagram Type 4: Dive Deep into Artistic Expression
 
@@ -80,6 +84,8 @@ Enneagram Type 4s, the Individualists, are deeply in touch with their emotions a
 - Step 1: Choose an artistic medium that resonates with you, like writing, painting, playing music, or dancing.
 - Step 2: Create a dedicated space for your art, free from distractions.
 - Step 3: Focus on the creation process rather than the end product. Allow yourself to tap into your raw emotions and express them freely.
+- **Bonus suggestion:** Maybe try doing some breathwork, or watch a Wim Hof video. 🌬️🧊
+<!-- breathwork -->
 
 ## Enneagram Type 5: Embrace Exploration and Intellectual Discovery
 
@@ -90,6 +96,8 @@ Enneagram Type 5s, known as Investigators, are driven by a deep thirst for knowl
 - Step 1: Choose a topic that genuinely fascinates you, whether it's history, science, art, or anything else that piques your interest.
 - Step 2: Devour books, articles, and documentaries about your chosen topic.
 - Step 3: Discuss with other knowledgeable individuals or join online communities to share your insights and learn from others.
+- **Bonus suggestion:** Try Mudlarking, who knows what you will uncover 🔍🌊.
+<!-- Mudlarking -->
 
 ## Enneagram Type 6: Strengthen Bonds Through Shared Experiences
 
@@ -100,6 +108,8 @@ Enneagram Type 6s, known as Loyalists, value security and community. Connecting 
 - Step 1: Plan outings or activities with your close friends and family. This could be anything from playing games to volunteering together.
 - Step 2: Engage in meaningful conversations that go beyond small talk. Share your thoughts and feelings openly and listen attentively to others.
 - Step 3: Create traditions and rituals with your loved ones. These shared experiences will strengthen your connection and create lasting memories.
+- **Bonus suggestion:** Go get a group of friends together and go to a bar battle 🍻⚔️.
+<!-- bar battle -->
 
 ## Enneagram Type 7: Embrace Adventure and Spontaneity
 
@@ -120,6 +130,8 @@ Enneagram Type 8s, known as Challengers, are assertive and self-confident. Engag
 - Step 1: Choose a physical or mental challenge that pushes you outside your comfort zone. This could be anything from running a marathon to learning a new language.
 - Step 2: Set realistic goals and break down your challenge into manageable steps.
 - Step 3: Celebrate your progress, no matter how small. Acknowledge your effort and determination.
+- **Bonus suggestion:** Go to a rage room, you know you want to 💢🔨.
+<!-- go to a rage room -->
 
 ## Enneagram Type 9: Cultivate Calm with Nature and Simplicity
 
@@ -156,7 +168,7 @@ Now that you’ve discovered relaxation techniques tailored to your Enneagram ty
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-04-12",
+      "dateModified": "2024-04-24",
       "datePublished": "2023-12-08",
       "description": "Unwind and recharge the right way! See the ideal activities to relax and de-stress for each Enneagram type.",
       "headline": "How Each Enneagram Type Unwinds",

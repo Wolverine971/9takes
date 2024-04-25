@@ -1,3 +1,17 @@
+---
+title: 'How to find the right words'
+description: ''
+author: 'DJ Wayne'
+date: '2024-04-24'
+loc: 'https://9takes.com/blog/guides/finding-the-right-words'
+lastmod: '2024-04-24'
+changefreq: 'monthly'
+priority: '0.6'
+published: false
+pic: ''
+---
+
+
 Finding the Right Words:
 
 There are so many situations where you are fighting to find the right words.
