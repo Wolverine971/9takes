@@ -1,7 +1,9 @@
-# 9takes- Anonymous questions and answers with a touch of personality
+# 9takes
 
-## Find out what people think, feel and do
-
+> Anonymous questions and answers with a touch of personality
+> 
+> Find out what people think, feel and do
+> 
 > this is a rewrite of 9takes
 
 ## Why the name 9takes
