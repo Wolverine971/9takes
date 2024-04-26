@@ -25,7 +25,7 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 
 <p class="firstLetter">We've all heard his catchy tunes and seen his charming, boyish grin. Charlie Puth, the Grammy-nominated singer-songwriter, is undoubtedly an influential figure in contemporary pop music. Let's peel back the layers of his persona and explore him through the lens of the Enneagram Type 4 - The Individualist.</p>
 
-> **Disclaimer** This analysis of Charlie Puth's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+> **Disclaimer** This analysis of Charlie Puth's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
 
 <div
 	style="display: flex;

@@ -36,7 +36,7 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of Trevor Noah's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Trevor Noah.
+> **Disclaimer** This analysis of Trevor Noah's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Trevor Noah.
 
 <div
 	style="display: flex;

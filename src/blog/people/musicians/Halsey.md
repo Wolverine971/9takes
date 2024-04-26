@@ -45,7 +45,7 @@ Halsey Instagram -->
 
 <p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats. Halsey, an influential figure in the music industry, is a fascinating study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.</p>
 
-> **Disclaimer** This analysis of Halsey's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
+> **Disclaimer** This analysis of Halsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
 
 <div
 	style="display: flex;

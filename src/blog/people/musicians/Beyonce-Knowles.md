@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 
 <p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
 
-> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
+> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
 
 <div
 	style="display: flex;

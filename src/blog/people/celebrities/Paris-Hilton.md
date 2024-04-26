@@ -37,7 +37,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Paris Hilton's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Paris Hilton.
+> **Disclaimer** This analysis of Paris Hilton's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Paris Hilton.
 
 <details>
 <summary class="accordion">TL;DR: Why Paris Hilton is an Enneagram type 3</summary>

@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div> -->
 
-> **Disclaimer** This analysis of Jenna Marbles's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jenna Marbles.
+> **Disclaimer** This analysis of Jenna Marbles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jenna Marbles.
 
 <p class="firstLetter"></p>
 

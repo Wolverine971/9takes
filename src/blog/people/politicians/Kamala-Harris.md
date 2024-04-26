@@ -38,7 +38,7 @@ tiktok: ''
     />
 </div>
 
-> **Disclaimer** This analysis of Kamala Harris's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
+> **Disclaimer** This analysis of Kamala Harris's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
 
 <p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>
 

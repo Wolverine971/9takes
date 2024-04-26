@@ -47,7 +47,7 @@ emma chamberlain 17 -->
 	/>
 </div>
 
-> **Disclaimer** This analysis of Emma Chamberlain's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emma Chamberlain.
+> **Disclaimer** This analysis of Emma Chamberlain's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Emma Chamberlain.
 
 <details>
 <summary class="accordion">TL;DR: Why Emma Chamberlain is an Enneagram type</summary>

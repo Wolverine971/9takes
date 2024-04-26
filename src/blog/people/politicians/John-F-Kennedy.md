@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of John F. Kennedy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of John F. Kennedy.
+> **Disclaimer** This analysis of John F. Kennedy's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of John F. Kennedy.
 
 <p class="firstLetter">As a charismatic leader and President of the United States, John F. Kennedy is often remembered for his bold and adventurous spirit. It is no surprise that he embodies the Enneagram Type 7 personality, also known as the "Enthusiast." In this article, we will explore the key traits and characteristics of this personality type and how they manifest in JFK's life and leadership.</p>
 

@@ -39,7 +39,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
+> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
 
 <details>
 <summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>

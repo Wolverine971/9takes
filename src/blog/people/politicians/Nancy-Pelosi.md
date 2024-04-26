@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
+> **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
 
 ## Pelosi's Accomplishments: A Reflection of Type 3 Traits
 

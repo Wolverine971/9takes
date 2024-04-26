@@ -34,7 +34,7 @@ tiktok: 'https://www.tiktok.com/tag/arnoldschwarzenegger'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Arnold Schwarzenegger's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Arnold Schwarzenegger.
+> **Disclaimer** This analysis of Arnold Schwarzenegger's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Arnold Schwarzenegger.
 
 <p class="firstLetter">Arnold Schwarzenegger is a well-known actor, politician, and bodybuilder. He is driven by success and achievement, making him a perfect example of an Enneagram Type 3: The Achiever.</p>
 

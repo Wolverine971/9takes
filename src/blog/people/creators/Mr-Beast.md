@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
   />
 </div>
 
-> **Disclaimer** This analysis of Mr. Beast's Enneagram type is purely speculative, based on publicly available information, and may not reflect Mr. Beast's actual personality type.
+> **Disclaimer** This analysis of Mr. Beast's Enneagram type is speculative, based on publicly available information, and may not reflect Mr. Beast's actual personality type.
 
 <p class="firstLetter">He's conquered YouTube, melted hearts, and sparked debate with his larger-than-life philanthropy.</p>
 

@@ -25,7 +25,7 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of Peter Attia's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Peter Attia.
+> **Disclaimer** This analysis of Peter Attia's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Peter Attia.
 
 <div
 	style="display: flex;

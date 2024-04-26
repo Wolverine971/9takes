@@ -41,7 +41,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Marie Kondo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Marie Kondo.
+> **Disclaimer** This analysis of Marie Kondo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Marie Kondo.
 
 <details>
 <summary class="accordion">TL;DR: Why Marie Kondo is an Enneagram type</summary>

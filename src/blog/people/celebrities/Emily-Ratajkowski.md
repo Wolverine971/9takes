@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@emrata'
   />
 </div>
 
-> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
+> **Disclaimer** This analysis of Emily Ratajkowski's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Emily.
 
 <p class="firstLetter">Emily Ratajkowski has been in the public eye for years as a model, actress, and author.</p>
 

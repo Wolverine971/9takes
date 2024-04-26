@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@theweeknd'
 	/>
 </div> -->
 
-> **Disclaimer** This analysis of The Weeknd's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of The Weeknd.
+> **Disclaimer** This analysis of The Weeknd's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of The Weeknd.
 
 <details>
 <summary class="accordion">TL;DR: Why The Weeknd is an Enneagram 3</summary>

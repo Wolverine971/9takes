@@ -37,7 +37,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Janelle Monae's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Janelle.
+> **Disclaimer** This analysis of Janelle Monae's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Janelle.
 
 <details>
 <summary class="accordion">TL;DR: Why Janelle Monae is an Enneagram type</summary>

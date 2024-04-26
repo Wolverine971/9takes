@@ -25,7 +25,7 @@ tiktok: ''
 
 <p class="firstLetter">Picture this: A young boy, sickly yet bright-eyed, gazes at the lightning storm outside his window in a small town called Smiljan in Croatia. His mind races with questions, curiosity, and a sense of wonder that most of us can only dream of. This boy is Nikola Tesla, and today we're going on a journey through his life, exploring how he embodies the traits of an Enneagram Type 4.</p>
 
-> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
+> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
 
 <div
   style="display: flex;

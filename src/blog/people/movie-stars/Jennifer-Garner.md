@@ -37,7 +37,7 @@ tiktok: ''
     />
 </div>
 
-> **Disclaimer** This analysis of Jennifer Garner's Enneagram type is purely speculative, based on publicly available information, and may not reflect Jennifer Garner's actual personality type.
+> **Disclaimer** This analysis of Jennifer Garner's Enneagram type is speculative, based on publicly available information, and may not reflect Jennifer Garner's actual personality type.
 
 ## What Is Jennifer Garner's Personality Type?
 

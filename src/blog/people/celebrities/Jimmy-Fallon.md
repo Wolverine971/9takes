@@ -47,7 +47,7 @@ late show with david letterman -->
 	/>
 </div> -->
 
-> **Disclaimer** This analysis of Jimmy Fallon's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jimmy Fallon.
+> **Disclaimer** This analysis of Jimmy Fallon's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jimmy Fallon.
 
 <p class="firstLetter">You've seen him, heard him, and shared in his contagious laughter. Jimmy Fallon, the renowned comedian, actor, and television host, has become a household name through his vibrant personality and undeniable charm. Today, we embark on a captivating exploration into the enigmatic mind of Jimmy Fallon, proposing him as a representation of Enneagram Type 7 - The Enthusiast.</p>
 

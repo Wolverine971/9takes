@@ -25,7 +25,7 @@ tiktok: ''
 
 <p class="firstLetter">Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona. Beyond the outlandish outfits and ethereal vocals, however, lies a complex inner world that the Enneagram, a personality typing system, helps us understand.</p>
 
-> **Disclaimer** This analysis of Grimes's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
+> **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
 
 <div
 	style="display: flex;

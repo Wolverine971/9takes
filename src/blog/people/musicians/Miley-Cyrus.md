@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@mileycyrus'
     />
 </div>
 
-> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is purely speculative, based on publicly available information, and may not reflect Miley's actual personality type.
+> **Disclaimer** This analysis of Miley Cyrus's Enneagram type is speculative, based on publicly available information, and may not reflect Miley's actual personality type.
 
 <p class="firstLetter">Miley Cyrus is an excellent example of a Type 4 personality from the Enneagram system.</p>
 

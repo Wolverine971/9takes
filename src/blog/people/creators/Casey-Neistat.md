@@ -47,7 +47,7 @@ tiktok:
   />
 </div>
 
-> **Disclaimer** This analysis of Casey Neistat's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Casey Neistat.
+> **Disclaimer** This analysis of Casey Neistat's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Casey Neistat.
 
 <p class="firstLetter">Vlogger, filmmaker, and entrepreneur, Casey Neistat is an enigma wrapped in a pair of Ray-Ban sunglasses.</p>
 

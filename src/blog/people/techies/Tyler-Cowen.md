@@ -45,7 +45,7 @@ the complacent class -->
 	/>
 </div>
 
-> **Disclaimer** This analysis of Tyler Cowen's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Tyler Cowen.
+> **Disclaimer** This analysis of Tyler Cowen's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tyler Cowen.
 
 <details>
 <summary class="accordion">TL;DR: Why Tyler Cowen is an Enneagram type</summary>

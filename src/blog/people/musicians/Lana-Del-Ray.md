@@ -27,7 +27,7 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of Lana Del Ray's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lana Del Ray.
+> **Disclaimer** This analysis of Lana Del Ray's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lana Del Ray.
 
 <div
 	style="display: flex;

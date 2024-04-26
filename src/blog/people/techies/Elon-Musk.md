@@ -66,7 +66,7 @@ why do people hate Elon Musk
   />
 </div>
 
-> **Disclaimer** This analysis of Elon Musk's Enneagram type is purely speculative, based on publicly available information, and may not reflect Elon's personality type.
+> **Disclaimer** This analysis of Elon Musk's Enneagram type is speculative, based on publicly available information, and may not reflect Elon's personality type.
 
 <p class="firstLetter"> What makes Elon Musk tick?</p>
 

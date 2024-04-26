@@ -36,7 +36,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of George H. W. Bush's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of George H. W. Bush.
+> **Disclaimer** This analysis of George H. W. Bush's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of George H. W. Bush.
 
 ## Building International Alliances: A Type 6's Collaborative Nature
 

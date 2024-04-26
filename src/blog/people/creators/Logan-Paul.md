@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Logan Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
+> **Disclaimer** This analysis of Logan Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Logan Paul.
 
 <p class="firstLetter">You've probably seen his name plastered across headlines, witnessed his controversial antics, and formed your own opinions about him.</p>
 

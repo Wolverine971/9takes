@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@lexfridman'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lex Fridman.
+> **Disclaimer** This analysis of Lex Fridmans's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lex Fridman.
 
 <p class="firstLetter">AI researcher, podcaster, and promoter of love— who is Lex Fridman.</p>
 

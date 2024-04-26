@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Dalton Cadwell's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Dalton Cadwell.
+> **Disclaimer** This analysis of Dalton Cadwell's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Dalton Cadwell.
 
 <details>
 <summary class="accordion">TL;DR: Why Dalton Cadwell is an Enneagram 3</summary>

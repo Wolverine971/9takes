@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@eltonjohn'
 
 <p class="firstLetter">You've heard his music, seen his flamboyant stage persona, and perhaps even tapped your feet to the rhythm of “Rocket Man.” Elton John, the iconic Pinner, Middlesex musician, has enchanted audiences for decades. Today, we traverse the less trodden path to explore Elton's persona through the ancient wisdom of Enneagram, proposing him as a definitive representation of Type 4 - The Individualist..</p>
 
-> **Disclaimer** This analysis of Elton John's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Elton John.
+> **Disclaimer** This analysis of Elton John's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Elton John.
 
 <div
     style="display: flex;

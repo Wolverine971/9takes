@@ -32,7 +32,7 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of Tom Hiddleston's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Tom Hiddleston.
+> **Disclaimer** This analysis of Tom Hiddleston's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom Hiddleston.
 
 <div
 	style="display: flex;
