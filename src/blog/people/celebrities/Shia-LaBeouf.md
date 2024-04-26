@@ -1,14 +1,14 @@
 ---
-title: 'Shia LaBeouf An Enneagram Type 3'
-description: 'Why Shia LaBeouf appears to be a type 3'
+title: 'Shia LaBeouf An Enneagram Type 8'
+description: 'Why Shia LaBeouf appears to be a type 8'
 author: 'DJ Wayne'
-date: '2023-06-21'
+date: '2024-04-23'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Shia-LaBeouf'
-lastmod: '2023-06-21'
+lastmod: '2024-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 3
+enneagram: 8
 type: ['celebrity']
 person: 'Shia-LaBeouf'
 wikipedia: ''
@@ -17,7 +17,16 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  -->
+<!--
+    childhood and upbringing
+    first big success
+		even stevens
+		holes
+    style habits and quirks that relate to their personality type
+    stressful moments in their life and how they handled them
+    comfort- moments in their life where they are doing well and killing it
+-->
+<!-- // keywords:  -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -29,7 +38,7 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Shia-LaBeouf'}.webp`}
+		image={`/types/8s/${'Shia-LaBeouf'}.webp`}
 		showIcon={false}
 		enneagramType=""
 		displayText="Shia LaBeouf"
@@ -63,7 +72,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** -
+- **[Type 8- The Achiever](/blog/enneagram/enneagram-type-8)** -
 - **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
 - **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
 - **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -

@@ -17,7 +17,6 @@ export const load: LayoutServerLoad = async (event) => {
 		.limit(5);
 
 	if (top5QuestionsError) {
-
 		console.log(top5QuestionsError);
 	}
 

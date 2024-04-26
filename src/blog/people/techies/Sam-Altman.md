@@ -17,6 +17,18 @@ instagram:
 tiktok:
 ---
 
+<!--
+  childhood and upbringing
+  first big success
+    y combinator
+  style habits and quirks that relate to their personality type
+    oppenheimer reference
+  stressful moments in their life and how they handled them
+    getting fired from openai
+  comfort- moments in their life where they are doing well and killing it
+
+  -->
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

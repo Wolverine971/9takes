@@ -45,9 +45,6 @@ const config = {
 		'import.meta.env.VITE_UNSECURE_SECRET': process.env.VITE_UNSECURE_SECRET,
 		'import.meta.env.PRIVATE_SIGNUP_KEY': process.env.PRIVATE_SIGNUP_KEY,
 		'import.meta.env.PRIVATE_ADMIN_EMAIL': process.env.PRIVATE_ADMIN_EMAIL
-
-
-
 	},
 	test: {
 		include: [

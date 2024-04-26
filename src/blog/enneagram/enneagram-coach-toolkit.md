@@ -16,9 +16,9 @@ pic: 'greek-statue-giving-a-speech'
 
 <!-- todo
 
-personality coaches 
+personality coaches
 trends in conflict resolution
- give them homework 
+ give them homework
  pantheon temple of the gods -->
 
  <script>
@@ -65,7 +65,7 @@ These insights bridge sessions with real-life applications.
 
 An Enneagram 8 wants to improve conflict resolution with his wife. An example of homework to give that Enneagram 8 would be to think about all the times they raised their voice or got angry in their relationship at the end of the day. Then, at the end of the week, show the journal entry to his spouse. This gets the 8 in the habit of noticing his behavior and introduces accountability and awareness of what situations are causing conflict with the 8. This also helps the 8 work on being vulnerable.
 
-**Tip 2**: Suggest a piece of homework for the person to notice in their own life. 
+**Tip 2**: Suggest a piece of homework for the person to notice in their own life.
 
 You can say that many enneagram type Xs struggle with Y, so be on the lookout for Z. For example:
 

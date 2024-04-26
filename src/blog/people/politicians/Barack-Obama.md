@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 
 <p class="firstLetter">Could <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Barack_Obama">Barack Obama</a>, the 44th president of the United States, be a Type 9 on the Enneagram?</p>
 
-> **Disclaimer** This analysis of Barack Obama's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+> **Disclaimer** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
 
 <div
   style="display: flex;
