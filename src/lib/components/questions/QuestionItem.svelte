@@ -22,7 +22,7 @@
 		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 			{questionData.question_formatted || questionData.question}
 		</p>
-		<div class="small-div">
+		<!-- <div class="small-div">
 			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
 				{#if questionData.comment_count}
 					{questionData.comment_count}
@@ -37,7 +37,7 @@
 			<span class="date-span">
 				{newDate}
 			</span>
-		</div>
+		</div> -->
 	</a>
 </div>
 
