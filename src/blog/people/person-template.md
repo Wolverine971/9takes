@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
 lastmod: '2024-04-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: tiptype
 type: ['celebrity']
 person: 'boo-boo'
