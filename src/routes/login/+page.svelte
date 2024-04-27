@@ -4,7 +4,7 @@
 <div>
 	<h1 style="text-align: center; margin: 1rem;">
 		<span style="text-decoration: underline; color: #5407d9;">Login</span> /
-		<a href="/register" style="">Register</a>
+		<a href="/register" class="unselected">Register</a>
 	</h1>
 	<form action="?/login" method="POST" class="auth-form">
 		<label for=""> Email </label>
@@ -20,4 +20,8 @@
 </div>
 
 <style lang="scss">
+	.unselected {
+		color: var(--color-paladin-3) !important;
+	}
 </style>
+

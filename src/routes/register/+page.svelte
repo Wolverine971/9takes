@@ -1,17 +1,44 @@
 <script lang="ts">
+	import { deserialize } from "$app/forms";
+	import { goto } from "$app/navigation";
+	import { notifications } from "$lib/components/molecules/notifications";
+
+
+	let email: string = 'newest';
+	let password: string = 'newest';
+const handleSubmit = async () => {
+	let body = new FormData();
+	body.append('email', email);
+	body.append('password', password);
+
+	const resp = await fetch('?/register', {
+		method: 'POST',
+		body
+	});
+
+	const result: any = deserialize(await resp.text());
+
+	if (result.error) {
+		console.log(result.error);
+	} else if (result.data) {
+		goto("/login");
+		notifications.info("Check your email", 3000);
+	}
+		
+}
 </script>
 
 <div>
 	<h1 style="text-align: center; margin: 1rem;">
-		<a href="/login">Login</a> /
+		<a href="/login" class="unselected">Login</a> /
 		<span style="text-decoration: underline; color: #5407d9;">Register</span>
 	</h1>
-	<form action="?/register" method="POST" class="auth-form">
-		<label for=""> Email </label>
-		<input type="text" name="email" />
-		<label for=""> Password </label>
-		<input type="password" name="password" />
-		<button class="btn btn-primary">Register</button>
+	<form  class="auth-form" on:submit|preventDefault={handleSubmit}>
+		<label for="email"> Email </label>
+		<input id="email" type="text" name="email" bind:value={email} />
+		<label for="password"  > Password </label>
+		<input id="password" type="password" name="password"  bind:value={password}/>
+		<button type="button" class="btn btn-primary" on:click={handleSubmit}>Register</button>
 	</form>
 	<br />
 	<div style="text-align: center; margin: 1rem;">
@@ -20,4 +47,7 @@
 </div>
 
 <style lang="scss">
+	.unselected {
+		color: var(--color-paladin-3) !important;
+	}
 </style>
