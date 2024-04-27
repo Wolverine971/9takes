@@ -27,7 +27,7 @@ tiktok: ''
 <!-- // keywords:  -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter"></p>
@@ -40,12 +40,12 @@ tiktok: ''
     margin: 1rem 0;
 	"
 >
-	<PopCard
+	<!-- <PopCard
 		image={`/types/tiptypes/${'boo-boo'}.webp`}
 		showIcon={false}
 		displayText="booboo"
 		subtext=""
-	/>
+	/> -->
 </div>
 
 <details>
