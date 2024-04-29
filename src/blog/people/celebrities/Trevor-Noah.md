@@ -7,7 +7,7 @@ loc: 'https://9takes.com/blog/famous-enneagram-types/Trevor-Noah'
 lastmod: '2023-09-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 9
 type: ['celebrity']
 person: 'Trevor-Noah'
