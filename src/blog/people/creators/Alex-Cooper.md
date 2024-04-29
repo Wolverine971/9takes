@@ -38,7 +38,7 @@ tiktok: ''
   />
 </div>
 
-> **Disclaimer** This analysis of Alex Cooper's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
+> **Disclaimer** This analysis of Alex Cooper's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alex Cooper.
 
 <p class="firstLetter">You've heard her voice, you've seen her Instagram, and you've probably even laughed along with her.</p>
 

@@ -38,7 +38,7 @@ tiktok: ''
   />
 </div>
 
-> **Disclaimer** This analysis of Margot Robbie's Enneagram type is purely speculative, based on publicly available information, and may not reflect Margot Robbie's actual personality type.
+> **Disclaimer** This analysis of Margot Robbie's Enneagram type is speculative, based on publicly available information, and may not reflect Margot Robbie's actual personality type.
 
 <p class="firstLetter">You've seen her lighting up the big screen, captivating audiences worldwide with her charm and charisma.</p>
 

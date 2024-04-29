@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of David Sacks's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Sacks.
+> **Disclaimer** This analysis of David Sacks's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of David Sacks.
 
 <details>
 <summary class="accordion">TL;DR: Why David Sacks is an Enneagram 5</summary>

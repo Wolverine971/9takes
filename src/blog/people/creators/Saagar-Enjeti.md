@@ -37,7 +37,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
 
 <details>
 <summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>

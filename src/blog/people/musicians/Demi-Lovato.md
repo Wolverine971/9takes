@@ -49,7 +49,7 @@ Demi Lovato and Joe Jonas -->
 
 <p class="firstLetter">You know her, love her ❤️‍🔥, or possibly, critique her. Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of Enneagram Type 4 - The Individualist.</p>
 
-> **Disclaimer** This analysis of Demi Lovato's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
+> **Disclaimer** This analysis of Demi Lovato's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
 
 <div
 	style="display: flex;

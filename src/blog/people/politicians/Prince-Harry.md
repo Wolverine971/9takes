@@ -23,7 +23,7 @@ tiktok:
 
 <p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory. Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the revealing lens of the Enneagram Type 6.</p>
 
-> **Disclaimer** This analysis of Prince Harry's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
+> **Disclaimer** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
 
 <div
 	style="display: flex;

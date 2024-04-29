@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Michael Seibel's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Michael Seibel.
+> **Disclaimer** This analysis of Michael Seibel's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Michael Seibel.
 
 <details>
 <summary class="accordion">TL;DR: Why Michael Seibel is an Enneagram 3</summary>

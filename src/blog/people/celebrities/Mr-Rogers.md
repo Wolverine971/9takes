@@ -39,7 +39,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Mr. Rogers's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Rogers.
+> **Disclaimer** This analysis of Mr. Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Rogers.
 
 <p class="firstLetter">Mr. Rogers, aka Fred Rogers, was a beloved children's television host and advocate for kindness and compassion. His personality traits are indicative of an enneagram type 2, also known as the Helper. Here are four reasons why Mr. Rogers fits the characteristics of an enneagram type 2:</p>
 

@@ -54,7 +54,7 @@ evry jewels tana mongeau -->
 	/>
 </div>
 
-> **Disclaimer** This analysis of Tana Mongeau's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Tana Mongeau.
+> **Disclaimer** This analysis of Tana Mongeau's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tana Mongeau.
 
 <details>
 <summary class="accordion">TL;DR: Why Tana Mongeau is an Enneagram type</summary>

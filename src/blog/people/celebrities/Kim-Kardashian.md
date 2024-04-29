@@ -56,7 +56,7 @@ Kendal Jenner - 4??? -->
   />
 </div>
 
-> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
+> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
 
 <p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer.</p>
 

@@ -37,7 +37,7 @@ tiktok: 'https://www.tiktok.com/@marilynmonroe'
     />
 </div>
 
-> **Disclaimer** This analysis of Marilyn Monroe's Enneagram type is purely speculative, based on publicly available information, and may not reflect Marilyn Monroe's personality type.
+> **Disclaimer** This analysis of Marilyn Monroe's Enneagram type is speculative, based on publicly available information, and may not reflect Marilyn Monroe's personality type.
 
 ## What is Marilyn Monroe’s Personality Type?
 

@@ -17,7 +17,35 @@ instagram: 'https://www.instagram.com/elonmusk'
 tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 ---
 
-<!-- redo -->
+<!-- redo
+why do people like Elon Musk
+
+why do people hate Elon Musk
+-->
+
+<!--
+
+    // childhood and upbringing
+        south africa, violence, smart, studied alot
+
+    // first big success
+        paypal- x partnership with peter thiel
+
+    // style habits and quirks that
+        many marriages
+        a bit nerdy- bought car, playfulness
+
+    // stressful moments in their life and how they handled them
+        enneagram 5s go to 7 when stressed and they go have fun, they escape, they distract,
+
+    // comfort
+        enneagram 5s go to 8 and they start to assert themselves they value strength and dominance
+        the get commandy and bossy
+        Elon is ruthless when running his companies- hires and fires frequently
+        crazy hard work ethic- sleep on factory floor- wasnt doing that out of stress but out of focus
+
+
+    -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -38,7 +66,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
   />
 </div>
 
-> **Disclaimer** This analysis of Elon Musk's Enneagram type is purely speculative, based on publicly available information, and may not reflect Elon's personality type.
+> **Disclaimer** This analysis of Elon Musk's Enneagram type is speculative, based on publicly available information, and may not reflect Elon's personality type.
 
 <p class="firstLetter"> What makes Elon Musk tick?</p>
 

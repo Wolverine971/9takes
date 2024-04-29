@@ -38,7 +38,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Lisa Koshy's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lisa Koshy.
+> **Disclaimer** This analysis of Lisa Koshy's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lisa Koshy.
 
 <details>
 <summary class="accordion">TL;DR: Why Lisa Koshy is an Enneagram type</summary>

@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Chamath Palihapitiya's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Chamath Palihapitiya.
+> **Disclaimer** This analysis of Chamath Palihapitiya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Chamath Palihapitiya.
 
 <details>
 <summary class="accordion">TL;DR: Why Chamath Palihapitiya is an Enneagram 3</summary>

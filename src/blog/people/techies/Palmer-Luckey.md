@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Palmer Luckey's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of 'Palmer Luckey.
+> **Disclaimer** This analysis of Palmer Luckey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of 'Palmer Luckey.
 
 <details>
 <summary class="accordion">TL;DR: Why Palmer Luckey is an Enneagram 3</summary>

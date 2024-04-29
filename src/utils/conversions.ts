@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { supabase } from "$lib/supabase";
+import { supabase } from '$lib/supabase';
 
 export const convertDateToReadable = (date: string): string => {
 	const dateObj = new Date(date);
@@ -10,48 +10,48 @@ export const convertDateToReadable = (date: string): string => {
 	return newdate;
 };
 
-
 export const getCommentParents = async (comments: any[]) => {
+	const commentsOnQuestions = comments.filter(
+		(comment) => comment.parent_id !== null && comment.parent_type === 'question'
+	);
+	const commentsOnComments = comments.filter(
+		(comment) => comment.parent_id !== null && comment.parent_type !== 'question'
+	);
 
-	const commentsOnQuestions = comments.filter((comment) => comment.parent_id !== null && comment.parent_type === 'question');
-	const commentsOnComments = comments.filter((comment) => comment.parent_id !== null && comment.parent_type !== 'question');
-
-
-	console.log(commentsOnComments)
+	console.log(commentsOnComments);
 	const { data: questions, error: questionsError } = await supabase
 		.from('questions')
-		.select(
-			`*`
-		)
-		.in('id', commentsOnQuestions.map((comment) => comment.parent_id))
+		.select(`*`)
+		.in(
+			'id',
+			commentsOnQuestions.map((comment) => comment.parent_id)
+		);
 
 	if (questionsError) {
 		throw new Error(`Failed to get parent questions ${JSON.stringify(questionsError)}`);
 	}
 
-	const questionMap = {}
+	const questionMap = {};
 	questions.forEach((question) => {
-		questionMap[question.id] = question
-	})
-
-
+		questionMap[question.id] = question;
+	});
 
 	const { data: cOnComments, error: cOnCommentsError } = await supabase
 		.from('questions')
-		.select(
-			`*`
-		)
-		.in('id', commentsOnComments.map((comment) => comment.parent_id))
+		.select(`*`)
+		.in(
+			'id',
+			commentsOnComments.map((comment) => comment.parent_id)
+		);
 
 	if (cOnCommentsError) {
 		throw new Error(`Failed to get parent comments ${JSON.stringify(cOnCommentsError)}`);
 	}
 
-	const commentMap = {}
+	const commentMap = {};
 	cOnComments.forEach((comment) => {
 		commentMap[comment.id] = comment;
-	})
-
+	});
 
 	comments.forEach((comment) => {
 		if (comment.parent_type === 'question') {
@@ -59,11 +59,7 @@ export const getCommentParents = async (comments: any[]) => {
 		} else {
 			comment.parentComment = commentMap[comment.parent_id];
 		}
-	})
+	});
 
-	return comments
-
-
-
-
-}
+	return comments;
+};

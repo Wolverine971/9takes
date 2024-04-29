@@ -39,7 +39,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Ellen Degeneres's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Ellen Degeneres.
+> **Disclaimer** This analysis of Ellen Degeneres's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ellen Degeneres.
 
 <p class="firstLetter">Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an enneagram type 6, also known as the Loyalist.</p>
 

@@ -55,7 +55,7 @@ tiktok:
 
 Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
 
- Here, we will explain what that looks like.
+Here, we will explain what that looks like.
 
 ## Jason Calacanis: An Embodiment of The Achiever?
 

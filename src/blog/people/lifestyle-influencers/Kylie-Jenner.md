@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
 
 <p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon.</p>
 

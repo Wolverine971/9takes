@@ -37,7 +37,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bob Dylan's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Bob Dylan.
+> **Disclaimer** This analysis of Bob Dylan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bob Dylan.
 
 <details>
 <summary class="accordion">TL;DR: Why Bob Dylan is an Enneagram type</summary>

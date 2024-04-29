@@ -34,9 +34,7 @@ export const actions: Actions = {
 		}
 
 		if (body.email === PRIVATE_ADMIN_EMAIL) {
-
 			throw redirect(303, '/admin');
-
 		}
 
 		throw redirect(303, '/questions');

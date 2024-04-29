@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Jake Paul's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
+> **Disclaimer** This analysis of Jake Paul's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jake Paul.
 
 <p class="firstLetter">You've watched his bouts, heard his brash proclamations, and possibly even followed his rise from Disney Channel star to amateur boxer.</p>
 

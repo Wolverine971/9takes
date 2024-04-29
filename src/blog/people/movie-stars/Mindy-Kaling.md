@@ -39,7 +39,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Mindy Kaling's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Mindy Kaling.
+> **Disclaimer** This analysis of Mindy Kaling's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mindy Kaling.
 
 <details>
 <summary class="accordion">TL;DR: Why Mindy Kaling is an Enneagram type 6</summary>

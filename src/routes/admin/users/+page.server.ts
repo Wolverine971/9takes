@@ -218,6 +218,5 @@ export const actions: Actions = {
 				message: `Failed to update user to admin ${JSON.stringify(e)}`
 			});
 		}
-	},
-
+	}
 };

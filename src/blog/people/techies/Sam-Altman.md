@@ -17,6 +17,18 @@ instagram:
 tiktok:
 ---
 
+<!--
+  childhood and upbringing
+  first big success
+    y combinator
+  style habits and quirks that relate to their personality type
+    oppenheimer reference
+  stressful moments in their life and how they handled them
+    getting fired from openai
+  comfort- moments in their life where they are doing well and killing it
+
+  -->
+
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
@@ -36,7 +48,7 @@ tiktok:
     />
 </div>
 
-> **Disclaimer** This analysis of Sam Altman's Enneagram type is purely speculative, based on publicly available information, and may not reflect Sam Altman's actual personality type.
+> **Disclaimer** This analysis of Sam Altman's Enneagram type is speculative, based on publicly available information, and may not reflect Sam Altman's actual personality type.
 
 <p class="firstLetter">Sam Altman, a name synonymous with innovation and disruption in the tech world, embodies the essence of Enneagram Type 4- The Individualist. His journey from the early days of Y Combinator to his current role at OpenAI is not just a tale of technological triumph but also a deep dive into the psyche of a complex, driven individual.</p>
 

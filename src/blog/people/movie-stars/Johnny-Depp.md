@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@johnnydepp'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Johnny Depp's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
+> **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
 
 <p class="firstLetter">As a highly versatile actor with an unmistakable artistic flair, Johnny Depp has captivated audiences worldwide with his diverse range of performances. From the eccentric Captain Jack Sparrow in Pirates of the Caribbean to the tormented Edward Scissorhands, it's clear that Depp is drawn to roles that showcase the complexities of the human experience. It's no surprise, then, that many fans and experts alike believe that he embodies the traits of an Enneagram Type 4.</p>
 

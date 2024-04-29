@@ -25,7 +25,7 @@ tiktok:
 
 <p class="firstLetter">He's charismatic, energetic, and always ready for the next big thing. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/David_Dobrik">David Dobrik</a>, the captivating YouTube sensation, has managed to capture the hearts of millions with his playful personality and candidness. Today, we're delving deep into Dobrik's persona, unmasking him as a representation of the Enneagram Type 7 personality – The Enthusiast.</p>
 
-> **Disclaimer** This analysis of David Dobrik's Enneagram type is purely speculative, based on publicly available information, and may not reflect David Dobrik's personality.
+> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
 
 <div
   style="display: flex;

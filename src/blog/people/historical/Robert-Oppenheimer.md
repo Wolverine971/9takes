@@ -38,7 +38,7 @@ tiktok: ''
   />
 </div>
 
-> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
+> **Disclaimer** This analysis of Robert Oppenheimer's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Robert Oppenheimer.
 
 <p class="firstLetter">He's the "father of the atomic bomb," the man whose genius both saved and doomed millions.</p>
 

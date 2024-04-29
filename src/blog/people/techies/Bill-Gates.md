@@ -35,7 +35,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bill Gates's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Bill Gates.
+> **Disclaimer** This analysis of Bill Gates's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bill Gates.
 
 <p class="firstLetter">Bill Gates, the co-founder of Microsoft, is widely regarded as one of the most successful and influential entrepreneurs of all time. When viewed through the lens of the Enneagram personality system, it becomes clear that he is an Enneagram Type 5, the Investigator.</p>
 

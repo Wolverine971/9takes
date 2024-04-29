@@ -80,8 +80,10 @@ It is not a small thing seeking to be understood. People do unexpected things wh
 
 <!-- Its as if you are saying that they don't belong. -->
 
-When someone comes to you trying to express something and they feel as though you don't understand them, its as if you are saying that their reality doesn't make sense.  They need to change and think, feel and do things that do make sense.
+When someone comes to you trying to express something and they feel as though you don't understand them, its as if you are saying that their reality doesn't make sense. They need to change and think, feel and do things that do make sense.
+
 <!-- Obviously this can happen to varying degrees but it is no small thing when someone doesn't feel understood. -->
+
 There are a range of emotions that can pop up when someone feels like they aren't being understood.
 
 - They might feel anger towards the person who is not understanding.
@@ -94,8 +96,8 @@ Be on the look out for a topic changing too fast. Be on the lookout for someone 
 
 <!-- So they will go away and talk to someone where their reality does make sense. They may only give you one chance
 
-what you are saying to the other person when you dont show that you understand them is that they are 
-They may have given you a chance and opened up to you but 
+what you are saying to the other person when you dont show that you understand them is that they are
+They may have given you a chance and opened up to you but
 
 Get revenge- like a confirmation bias
 
@@ -141,7 +143,7 @@ How are they similar or different from the other people in their lives? [What ce
 
 Both responses were partially true. People are both similar and different. But it is a spectrum. There is a spectrum of similarities and differences between people. Realizing that spectrum is the unlock and it is where growth happens. At the extreme end, people feel like they have nothing to learn from exploring their personality.
 
-- "People are too similar ➡️  there is nothing to learn from personality"
+- "People are too similar ➡️ there is nothing to learn from personality"
 - "People are too different ➡️there is nothing to learn from personality"
 
 These perspectives stifle curiosity. Have the person ever met someone similar to them? Have they ever met someone different from them? These similarities and differences are personality traits. That is all it is. Personality attempts to map out the dimensions by which people are similar and different.

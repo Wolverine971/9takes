@@ -35,7 +35,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of David Friedberg's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of David Friedberg.
+> **Disclaimer** This analysis of David Friedberg's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of David Friedberg.
 
 <details>
 <summary class="accordion">TL;DR: Why David Friedberg is an Enneagram 3</summary>

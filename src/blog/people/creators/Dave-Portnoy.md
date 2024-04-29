@@ -36,7 +36,7 @@ tiktok:
   />
 </div>
 
-> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is purely speculative, based on publicly available information, and may not reflect Dave Portnoy's actual personality type.
+> **Disclaimer** This analysis of Dave Portnoy's Enneagram type is speculative, based on publicly available information, and may not reflect Dave Portnoy's actual personality type.
 
 <p class="firstLetter">You've seen him on social media, heard about his controversies, and probably even watched him eat pizza.</p>
 

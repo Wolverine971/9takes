@@ -38,7 +38,7 @@ tiktok: ''
     />
 </div>
 
-> **Disclaimer** This analysis of Justin Bieber's Enneagram type is purely speculative, based on publicly available information, and may not reflect Justin Bieber's actual personality type.
+> **Disclaimer** This analysis of Justin Bieber's Enneagram type is speculative, based on publicly available information, and may not reflect Justin Bieber's actual personality type.
 
 ## What is Justin Bieber's Personality Type?
 

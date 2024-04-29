@@ -25,7 +25,7 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 
 <p class="firstLetter">Have you ever wondered what lies beneath the flamboyant exterior of Lady Gaga? Delve into a fascinating journey as we explore the intricacies of her personality through the insightful lens of the Enneagram.</p>
 
-> **Disclaimer** This analysis of Lady Gaga's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
+> **Disclaimer** This analysis of Lady Gaga's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
 
 <div
 	style="display: flex;

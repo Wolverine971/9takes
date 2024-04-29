@@ -44,7 +44,7 @@ house
   />
 </div>
 
-> **Disclaimer** This analysis of Joe Rogan's Enneagram type is purely speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
+> **Disclaimer** This analysis of Joe Rogan's Enneagram type is speculative, based on publicly available information, and may not reflect Joe Rogan's actual personality type.
 
 <p class="firstLetter">You've heard his voice, experienced his charisma or lack thereof, and possibly formed an opinion about him.</p>
 

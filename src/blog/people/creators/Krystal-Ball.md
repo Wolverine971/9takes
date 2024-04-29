@@ -37,7 +37,7 @@ tiktok:
 	/>
 </div>
 
-> **Disclaimer** This analysis of Krystal Ball's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Krystal Ball.
+> **Disclaimer** This analysis of Krystal Ball's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Krystal Ball.
 
 <details>
 <summary class="accordion">TL;DR: Why Krystal Ball is an Enneagram type</summary>

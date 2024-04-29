@@ -36,7 +36,7 @@ tiktok: 'https://www.tiktok.com/@bernie'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
+> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
 
 <p class="firstLetter">You've seen his arms crossed, heard his grouchy voice, and very likely formed an opinion about him.</p>
 

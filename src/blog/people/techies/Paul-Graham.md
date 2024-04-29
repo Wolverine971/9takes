@@ -45,7 +45,7 @@ paul graham on writing -->
 	/>
 </div>
 
-> **Disclaimer** This analysis of Paul Graham's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Paul Graham.
+> **Disclaimer** This analysis of Paul Graham's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Paul Graham.
 
 <details>
 <summary class="accordion">TL;DR: Why Paul Graham is an Enneagram 3</summary>

@@ -37,7 +37,7 @@ tiktok: ''
 	/>
 </div>
 
-> **Disclaimer** This analysis of Morgan Freeman's Enneagram type is purely speculative, based on publicly available information, and may not reflect the actual personality type of Morgan Freeman.
+> **Disclaimer** This analysis of Morgan Freeman's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Morgan Freeman.
 
 <details>
 <summary class="accordion">TL;DR: Why Morgan Freeman is an Enneagram type</summary>
