@@ -60,12 +60,18 @@
 	<div class="user-comment">
 		<div style={innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}>
 			<p class="comment-box">
-				<a
-					class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-					href={_commentComment?.profiles?.external_id
-						? `/users/${_commentComment.profiles.external_id}`
-						: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-				>: {_commentComment.comment}
+				{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
+					<a
+						class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
+						href={_commentComment?.profiles?.external_id
+							? `/users/${_commentComment.profiles.external_id}`
+							: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+					>
+				{:else}
+					<span class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}">
+						Rando
+					</span>
+				{/if}: {_commentComment.comment}
 			</p>
 			{#if innerWidth < 500}
 				<hr class="rounded" />
@@ -130,7 +136,6 @@
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */
 		-o-transition: all 0.5s; /* Opera */
-		cursor: pointer;
 		word-break: keep-all;
 
 		&:hover {

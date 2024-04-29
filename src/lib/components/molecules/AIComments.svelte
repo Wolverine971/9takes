@@ -101,7 +101,6 @@
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */
 		-o-transition: all 0.5s; /* Opera */
-		// cursor: pointer;
 		word-break: keep-all;
 	}
 </style>

@@ -225,15 +225,21 @@
 		>
 			<div style="display: flex; flex-direction: column; width: 100%}">
 				<p class="comment-box" id="comment-box{comment.id}">
-					<a
-						title="View profile"
-						class="profile-avatar {_commentComment?.profiles?.external_id
-							? 'hoverable'
-							: 'disabled'}"
-						href={_commentComment?.profiles?.external_id
-							? `/users/${_commentComment.profiles.external_id}`
-							: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-					>:
+					{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
+						<a
+							title="View profile"
+							class="profile-avatar {_commentComment?.profiles?.external_id
+								? 'hoverable'
+								: 'disabled'}"
+							href={_commentComment?.profiles?.external_id
+								? `/users/${_commentComment.profiles.external_id}`
+								: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+						>:
+					{:else}
+						<span class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}">
+							Rando
+						</span>:
+					{/if}
 					{#if user?.id === _commentComment?.author_id}
 						<button
 							type="button"
@@ -557,7 +563,6 @@
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */
 		-o-transition: all 0.5s; /* Opera */
-		cursor: pointer;
 		word-break: keep-all;
 	}
 	.hoverable::hover {
