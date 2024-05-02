@@ -18,7 +18,7 @@
 
 	export let user: any;
 	export let comment: any;
-	export let data: any;
+	export let parentData: any;
 	export let questionId: number;
 
 	$: comment, matchData();
@@ -103,8 +103,8 @@
 	};
 
 	const createComment = async () => {
-		if (!data?.flags?.userSignedIn && !user?.id) {
-			if (data?.flags?.userHasAnswered || anonymousComment) {
+		if (!parentData?.flags?.userSignedIn && !user?.id) {
+			if (parentData?.flags?.userHasAnswered || anonymousComment) {
 				notifications.info('Must register or login to comment multiple times', 3000);
 				return;
 			} else {
@@ -446,7 +446,14 @@
 
 	{#if _commentComment?.comments?.length}
 		<div style="margin-left:10px;">
-			<Comments {questionId} data={_commentComment} parentType={'comment'} {user} />
+			<Comments
+				{questionId}
+				comments={_commentComment.comments}
+				comment_count={_commentComment.comment_count}
+				parentData={_commentComment}
+				parentType={'comment'}
+				{user}
+			/>
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
@@ -488,11 +495,11 @@
 <Modal2 id={`flag-comment-modal-${_commentComment.id}`}>
 	<div style="max-height: 500px; min-width: 350px">
 		<h1>Flag Comment</h1>
-		{#if data?.flagReasons?.length < 1}
+		{#if parentData?.flagReasons?.length < 1}
 			<p>Reason</p>
 
 			<select bind:value={flaggingReasonId}>
-				{#each data?.flagReasons as reason}
+				{#each parentData?.flagReasons as reason}
 					<option value={reason?.id}>{reason?.reason}</option>
 				{/each}
 				<!-- <option value="newest">Newest</option>

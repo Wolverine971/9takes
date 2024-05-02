@@ -7,8 +7,6 @@
 	export let parentType: string = 'comment';
 
 	export let data: any;
-	export let user: any;
-	export let questionId: number;
 
 	let innerWidth = 0;
 	let showAiComments = true;

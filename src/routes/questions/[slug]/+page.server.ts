@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
 import type { Actions } from './$types';
@@ -54,7 +55,9 @@ export async function load(event) {
 		return {
 			question,
 			comments: [],
+			removedComments: [],
 			comment_count: commentCount,
+			removed_comment_count: 0,
 			questionTags,
 			session,
 			flags: {
@@ -87,6 +90,30 @@ export async function load(event) {
 		console.log('No comments for question', questionCommentsError);
 	}
 
+
+	const {
+		data: questionRemovedComments,
+		count: questionRemovedCommentCount,
+		error: questionRemovedCommentsError
+	} = await supabase
+		.from(demo_time === true ? 'comments_demo' : 'comments')
+		.select(
+			`*
+			, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
+			, ${demo_time === true ? 'comment_like_demo' : 'comment_like'} ( id, comment_id, user_id )`,
+
+			{ count: 'exact' }
+		)
+		.eq('parent_id', question?.id)
+		.eq('parent_type', 'question')
+		.eq('removed', true)
+		.limit(10)
+		.order('created_at', { ascending: false });
+
+	if (questionRemovedCommentsError) {
+		console.log('No removed comments for question', questionRemovedCommentsError);
+	}
+
 	const {
 		data: questionLinks,
 		count: questionLinksCount,
@@ -113,6 +140,12 @@ export async function load(event) {
 				q.comment_like = q.comment_like_demo;
 				return q;
 			}),
+			removedComments: questionRemovedComments?.map((q) => {
+				q.profiles = q.profiles_demo;
+				q.comment_like = q.comment_like_demo;
+				return q;
+			}),
+			removed_comment_count: questionRemovedCommentCount,
 			comment_count: questionCommentCount,
 			links: questionLinks,
 			links_count: questionLinksCount,
@@ -138,6 +171,12 @@ export async function load(event) {
 		question,
 		comments: questionComments,
 		comment_count: questionCommentCount,
+		removedComments: questionRemovedComments?.map((q) => {
+			q.profiles = q.profiles_demo;
+			q.comment_like = q.comment_like_demo;
+			return q;
+		}),
+		removed_comment_count: questionRemovedCommentCount,
 		ai_comments: aiComments,
 		links: questionLinks,
 		links_count: questionLinksCount,
@@ -187,24 +226,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -283,25 +322,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
+						comment: comment,
+						parent_id: parentId,
+						author_id: author_id.toString(),
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					}
 					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
+						comment: comment,
+						parent_id: parentId,
+						author_id: null,
+						comment_count: 0,
+						ip,
+						parent_type: parent_type,
+						es_id: esId,
+						fingerprint
+					};
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')

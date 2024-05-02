@@ -10,6 +10,8 @@
 	export let data: PageData;
 
 	let dataForChild = Object.assign({}, data.question, {
+		removedComments: data.removedComments,
+		removed_comment_count: data.removed_comment_count,
 		comments: data.comments,
 		comment_count: data.comment_count,
 		ai_comments: data.ai_comments,
@@ -20,7 +22,7 @@
 
 	const opts = {
 		errorCorrectionLevel: 'H',
-		type: 'image/jpeg',
+		type: 'image/png',
 		quality: 0.7,
 		margin: 1,
 		color: {
@@ -36,6 +38,8 @@
 				.then((commentData) => {
 					if (!commentData?.message) {
 						dataForChild = Object.assign({}, data.question, {
+							removedComments: data.removedComments,
+							removed_comment_count: data.removed_comment_count,
 							comments: commentData,
 							comment_count: data.comment_count ? (data.comment_count += 1) : 1,
 							ai_comments: data.ai_comments,

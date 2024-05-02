@@ -3,7 +3,6 @@
 	import Card from '../atoms/card.svelte';
 
 	export let data: any;
-	export let questionId: number;
 	export let link: any;
 	let linkData: any = false;
 
@@ -42,9 +41,9 @@
 				// Parse the text
 				var doc = parser.parseFromString(data, 'text/html');
 
-				const parsedTitle = doc.querySelector('title').textContent;
-				const parsedDescription = doc.querySelector('meta[name="description"]').content;
-				const parsedImage = doc.querySelector('meta[property="og:image"]').content;
+				const parsedTitle = doc.querySelector('title')?.textContent;
+				const parsedDescription = doc.querySelector('meta[name="description"]')?.content;
+				const parsedImage = doc.querySelector('meta[property="og:image"]')?.content;
 
 				title = parsedTitle ? parsedTitle : '';
 				description = parsedDescription ? parsedDescription.slice(0, 70) : '';

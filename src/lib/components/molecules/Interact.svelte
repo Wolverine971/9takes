@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { deserialize } from '$app/forms';
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
@@ -10,6 +9,7 @@
 	// import { page } from '$app/stores';
 
 	import { createEventDispatcher } from 'svelte';
+	import { deserialize } from '$app/forms';
 	const dispatch = createEventDispatcher();
 
 	export let parentType: string;
@@ -161,7 +161,7 @@
 			iconStyle={'padding: 0.25rem;'}
 			height={'1.5rem'}
 			fill={'#5407d9'}
-			type={comment.length ? 'full' : 'empty'}
+			type={comment?.length ? 'full' : 'empty'}
 		/>
 	</button>
 

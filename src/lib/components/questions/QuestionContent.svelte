@@ -4,6 +4,7 @@
 	import CameraIcon from '$lib/components/icons/cameraIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
+	import CommentXMarkIcon from '$lib/components/icons/CommentXMarkIcon.svelte';
 	import { Comments } from '$lib/components/molecules';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
@@ -149,7 +150,9 @@
 	};
 
 	onMount(() => {
-		window.addEventListener('scroll', calculateHeightsAndSetClasses);
+		return () => {
+			window.removeEventListener('scroll', calculateHeightsAndSetClasses);
+		};
 	});
 
 	afterUpdate(calculateHeightsAndSetClasses);
@@ -178,7 +181,7 @@
 					selectedTab = 'comments';
 					scrollToSection('comments');
 				}}
-				style:--tag={`a-comment${data.id}`}
+				style:--tag={`a-comment${_data.id}`}
 			>
 				<span style="text-wrap: nowrap" itemprop="answerCount">
 					{#if _data.comment_count > 0}
@@ -187,6 +190,20 @@
 					{_data.comment_count === 1 ? 'Comment' : 'Comments'}
 				</span>
 			</a>
+
+			{#if _data?.removedComments?.length > 0}
+				<a
+					href="#removedComments"
+					class="tab-links {selectedTab === 'removedComments' && 'tab-active'}"
+					on:click={(e) => {
+						e.preventDefault();
+						selectedTab = 'removedComments';
+						scrollToSection('removedComments');
+					}}
+				>
+					Flagged Comments
+				</a>
+			{/if}
 			<a
 				href="#visuals"
 				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
@@ -217,7 +234,7 @@
 				justify-content: center;
 				align-items: center;"
 				on:click={() => (selectedTab = 'comments')}
-				style:--tag={`a-comment${data.id}`}
+				style:--tag={`a-comment${_data.id}`}
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'comments';
@@ -238,6 +255,23 @@
 					type={'multiple'}
 				/>
 			</a>
+			{#if _data?.removedComments?.length > 0}
+				<a
+					href="#removedComments"
+					class="tab-links {selectedTab === 'removedComments' && 'tab-active'}"
+					on:click={(e) => {
+						e.preventDefault();
+						selectedTab = 'removedComments';
+						scrollToSection('removedComments');
+					}}
+				>
+					<CommentXMarkIcon
+						iconStyle={''}
+						height={'1.5rem'}
+						fill={selectedTab === 'removedComments' ? '#5407d9' : ''}
+					/>
+				</a>
+			{/if}
 			<a
 				href="#visuals"
 				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
@@ -316,11 +350,13 @@
 							: 'Must answer before seeing the comments'}
 					</span>
 				{/if}
-				<AIComments questionId={data.id} data={_data} parentType={'question'} {user} />
+				<AIComments data={_data} parentType={'question'} />
 				<Comments
-					questionId={data.id}
-					data={_data}
+					questionId={_data.id}
+					comments={_data.comments}
+					comment_count={_data.comment_count}
 					parentType={'question'}
+					parentData={_data}
 					{user}
 					on:commentAdded={({ detail }) => {
 						if (!data?.flags?.userHasAnswered) {
@@ -330,6 +366,25 @@
 				/>
 			</Card>
 		</div>
+		{#if _data?.removedComments?.length > 0}
+			<div
+				style="position: relative;"
+				class="flexr {selectedTab === 'comments' && 'first'}"
+				id="removedComments"
+			>
+				<h2>Flagged Comments</h2>
+				<Card className="comments-card">
+					<Comments
+						questionId={_data.id}
+						parentData={_data}
+						comment_count={_data.removed_comment_count}
+						comments={_data.removedComments}
+						parentType={'question'}
+						{user}
+					/>
+				</Card>
+			</div>
+		{/if}
 		<div class="flexr {selectedTab === 'visuals' && 'first'}" id="visuals">
 			<h2>Visuals</h2>
 			{#if data?.flags?.userHasAnswered}
