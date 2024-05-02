@@ -32,6 +32,6 @@ export const actions: Actions = {
 				error: 'Server error. Please try again later.'
 			});
 		}
-		return { data: true }
+		return { data: true };
 	}
 };

@@ -1,31 +1,29 @@
 <script lang="ts">
-	import { deserialize } from "$app/forms";
-	import { goto } from "$app/navigation";
-	import { notifications } from "$lib/components/molecules/notifications";
-
+	import { deserialize } from '$app/forms';
+	import { goto } from '$app/navigation';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	let email: string = 'newest';
 	let password: string = 'newest';
-const handleSubmit = async () => {
-	let body = new FormData();
-	body.append('email', email);
-	body.append('password', password);
+	const handleSubmit = async () => {
+		let body = new FormData();
+		body.append('email', email);
+		body.append('password', password);
 
-	const resp = await fetch('?/register', {
-		method: 'POST',
-		body
-	});
+		const resp = await fetch('?/register', {
+			method: 'POST',
+			body
+		});
 
-	const result: any = deserialize(await resp.text());
+		const result: any = deserialize(await resp.text());
 
-	if (result.error) {
-		console.log(result.error);
-	} else if (result.data) {
-		goto("/login");
-		notifications.info("Check your email", 3000);
-	}
-		
-}
+		if (result.error) {
+			console.log(result.error);
+		} else if (result.data) {
+			goto('/login');
+			notifications.info('Check your email', 3000);
+		}
+	};
 </script>
 
 <div>
@@ -33,11 +31,11 @@ const handleSubmit = async () => {
 		<a href="/login" class="unselected">Login</a> /
 		<span style="text-decoration: underline; color: #5407d9;">Register</span>
 	</h1>
-	<form  class="auth-form" on:submit|preventDefault={handleSubmit}>
+	<form class="auth-form" on:submit|preventDefault={handleSubmit}>
 		<label for="email"> Email </label>
 		<input id="email" type="text" name="email" bind:value={email} />
-		<label for="password"  > Password </label>
-		<input id="password" type="password" name="password"  bind:value={password}/>
+		<label for="password"> Password </label>
+		<input id="password" type="password" name="password" bind:value={password} />
 		<button type="button" class="btn btn-primary" on:click={handleSubmit}>Register</button>
 	</form>
 	<br />

@@ -77,7 +77,7 @@ Dua Lipa and Calvin Harris -->
 
 <p class="firstLetter">Dua Lipa 🌌🔮, the Albanian Grammy winning sensation has captivated global audiences with her dynamic stage performances and chart-dominating hits.</p>
 
- Her inimitable voice and indomitable spirit are undeniable. However, let's delve deeper and explore an intriguing perspective of Dua Lipa - as an embodiment of the Enneagram Type 3, also known as The Achiever.
+Her inimitable voice and indomitable spirit are undeniable. However, let's delve deeper and explore an intriguing perspective of Dua Lipa - as an embodiment of the Enneagram Type 3, also known as The Achiever.
 
 ## Dua Lipa: An Enigmatic Enneagram Type 3
 

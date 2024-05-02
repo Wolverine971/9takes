@@ -24,4 +24,3 @@
 		color: var(--color-paladin-3) !important;
 	}
 </style>
-

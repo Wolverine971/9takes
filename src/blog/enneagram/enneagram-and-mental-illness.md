@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
-lastmod: '2024-04-12'
+lastmod: '2024-05-02'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -217,7 +217,7 @@ Type 9s' denial of problems and tendency to yield to others can lead to severe l
 
 Exploring the Enneagram types' predispositions to mental health challenges is a heavy but important task.
 
-By understanding our shadow side, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. The Enneagram's insights help us celebrate our strengths, face our vulnerabilities, and transform them into opportunities for personal growth and mental well-being.
+By understanding the extremes of our personality, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. Go <a href="/blog/enneagram/enneagram-stress-number" >here to explore how stress leads to our shadow side</a>. With these Enneagram insights let us face our vulnerabilities, celebrate our strengths, and proactively transform our mental health.
 
 <svelte:head>
 
@@ -246,7 +246,7 @@ By understanding our shadow side, we can proactively address these challenges, s
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-12"
+        "@value": "2024-05-02"
       },
       "datePublished": {
         "@type": "Date",
