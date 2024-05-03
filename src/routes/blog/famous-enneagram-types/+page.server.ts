@@ -65,7 +65,7 @@ const getAllPosts = async () => {
 					const parts = path.split('/');
 					const slug = slugFromPath(parts[parts.length - 1]);
 
-					if (metadata) {
+					if (metadata && metadata.published) {
 						return {
 							...metadata, // may not be required for sitemap
 							path,

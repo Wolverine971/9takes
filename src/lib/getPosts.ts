@@ -71,7 +71,7 @@ const getAllPosts = async (): Promise<App.BlogPost[]> => {
 				imports[category][path]().then(({ metadata }) => {
 					const parts = path.split('/');
 					const slug = slugFromPath(parts[parts.length - 1]);
-					if (metadata) {
+					if (metadata && metadata.published) {
 						return {
 							...metadata, // may not be required for sitemap
 							rssDate: buildRFC822Date(metadata.date),
