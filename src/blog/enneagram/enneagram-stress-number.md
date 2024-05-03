@@ -4,7 +4,7 @@ description: 'Describing how people are when stressed so that you recognize the 
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-stress-number'
-lastmod: '2024-05-02'
+lastmod: '2024-05-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -40,7 +40,33 @@ outbursts of anger fear and shame
 	/>
 </div>
 
-<p class="firstLetter">Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
+<!-- show table of contents
+accordion on mobile
+ -->
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#bigMistake">What everyone gets wrong about stress</a></li>
+        <li><a href="#situationsChange">Situations change, but emotions do not</a></li>
+        <li><a href="#exploringStress">Exploring the stress number for each type</a></li>
+        <ul>
+            <li><a href="#type1">Type 1 in stress</a></li>
+            <li><a href="#type2">Type 2 in stress</a></li>
+            <li><a href="#type3">Type 3 in stress</a></li>
+            <li><a href="#type4">Type 4 in stress</a></li>
+            <li><a href="#type5">Type 5 in stress</a></li>
+            <li><a href="#type6">Type 6 in stress</a></li>
+            <li><a href="#type7">Type 7 in stress</a></li>
+            <li><a href="#type8">Type 8 in stress</a></li>
+            <li><a href="#type9">Type 9 in stress</a></li>
+        </ul>
+        <li><a href="#conclusion">The power of understanding your stress number</a></li>
+    </ul>
+</details>
+
+
+<p class="firstLetter" id="intro">Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
 
 TLDR: It's because specific personalities are sensitive to specific emotions, and when specific situations cause them to feel that emotion, they lash out. You might be surprised to learn that the reasons people lash out are not as complex as you might think. Lashing out is due to something making us feel one of these three emotions: anger, fear, or shame.
 
@@ -56,7 +82,7 @@ Here, we are going to use the Enneagram to understand why these emotions come up
 
 And that is what we will be exploring below- stress numbers. -->
 
-## What everyone gets wrong about stress
+<h2 id="bigMistake">What everyone gets wrong about stress</h2>
 
 Many people don't see a buildup of stress until it's too late.
 
@@ -72,7 +98,7 @@ Again, it's not the situation; it's the emotions triggered by the situation. The
 
 <!-- People do not always see the build up of the. Its too late -->
 
-## Situations change, but emotions do not
+<h2 id="situationsChange">Situations change, but emotions do not</h2>
 
 Have you ever heard someone say, "That's not me" or "That is not the real me"?
 
@@ -98,7 +124,7 @@ In exploring the darker sides of -->
 
 In the following section, we will explore the stress numbers for each Enneagram personality type and examine exactly how they act when stressed.
 
-## Exploring the stress number for each type
+<h2 id="exploringStress">Exploring the stress number for each type</h2>
 
 Let's examine how each Enneagram type grapples with stress. We will examine how stress develops, the specific thoughts, feelings, and behavior of each type when stressed, and give stress mitigation tips.
 
@@ -118,7 +144,7 @@ how to repair
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  1 (The Reformer) meets Type 4 (The Individualist): Rational meets emotional.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type1">Type  1 (The Reformer) meets Type 4 (The Individualist): Rational meets emotional.</h3>
 
 Type 1s are rational perfectionists, but under stress, they may take on the negative traits of Type 4, becoming moody and self-absorbed. Type 4s are introspective individualists who, at their worst, can wallow in self-pity and despair. When stressed, Type 1s may adopt these unhealthy Type 4 patterns.
 
@@ -168,7 +194,7 @@ Seek support from loved ones or professionals:
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  2 (The Helper) and Type 8 (The Challenger): Caring meets confrontation.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type2">Type  2 (The Helper) and Type 8 (The Challenger): Caring meets confrontation.</h3>
 
 Type 2s are caring and helpful, but under stress, they may take on the negative traits of Type 8, becoming confrontational and domineering. Type 8s are assertive challengers who, at their worst, can be controlling and aggressive. When stressed, Type 2s may adopt these unhealthy Type 8 patterns.
 
@@ -213,7 +239,7 @@ When Type 2s find themselves slipping into unhealthy Type 8 patterns, it's cruci
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  3 (The Achiever) and Type 9 (The Peacemaker): Driven meets complacent.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type3">Type  3 (The Achiever) and Type 9 (The Peacemaker): Driven meets complacent.</h3>
 
 Type 3s are driven achievers, but under stress, they may take on the negative traits of Type 9, becoming complacent and disengaged. Type 9s are peaceful mediators who, at their worst, can be apathetic and neglectful. When stressed, Type 3s may adopt these unhealthy Type 9 patterns.
 
@@ -257,7 +283,7 @@ When Type 3s find themselves slipping into unhealthy Type 9 patterns, it's essen
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  4 (The Individualist) and Type 2 (The Helper): Expressive meets needy</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type4">Type  4 (The Individualist) and Type 2 (The Helper): Expressive meets needy</h3>
 
 Type 4s are expressive individualists, but under stress, they may take on the negative traits of Type 2, becoming needy and clingy. Type 2s are helpful nurturers who, at their worst, can be manipulative and self-sacrificing. When stressed, Type 4s may adopt these unhealthy Type 2 patterns.
 
@@ -305,7 +331,7 @@ When Type 4s find themselves slipping into unhealthy Type 2 patterns, it's cruci
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  5 (The Investigator) confronts Type 7 (The Enthusiast): Detached meets scattered.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type5">Type  5 (The Investigator) confronts Type 7 (The Enthusiast): Detached meets scattered.</h3>
 
 Type 5s are detached investigators, but under stress, they may take on the negative traits of Type 7, becoming scattered and impulsive. Type 7s are enthusiastic adventurers who, at their worst, can be erratic and escapist. When stressed, Type 5s may adopt these unhealthy Type 7 patterns.
 
@@ -350,7 +376,7 @@ When Type 5s find themselves slipping into unhealthy Type 7 patterns, it's essen
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  6 (The Loyalist) and Type 3 (The Achiever): Security-focused meets image-focused.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type6">Type  6 (The Loyalist) and Type 3 (The Achiever): Security-focused meets image-focused.</h3>
 
 Type 6s are security-focused loyalists, but under stress, they may take on the negative traits of Type 3, becoming image-focused and competitive. Type 3s are achievement-oriented performers who, at their worst, can be deceitful and self-promoting. When stressed, Type 6s may adopt these unhealthy Type 3 patterns.
 
@@ -395,7 +421,7 @@ When Type 6s find themselves slipping into unhealthy Type 3 patterns, it's cruci
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  7 (The Enthusiast) and Type 1 (The Reformer): Excitable meets critical.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type7">Type  7 (The Enthusiast) and Type 1 (The Reformer): Excitable meets critical.</h3>
 
 Type 7s are excitable enthusiasts, but under stress, they may take on the negative traits of Type 1, becoming critical and perfectionistic. Type 1s are principled reformers who, at their worst, can be judgmental and inflexible. When stressed, Type 7s may adopt these unhealthy Type 1 patterns.
 
@@ -440,7 +466,7 @@ When Type 7s find themselves slipping into unhealthy Type 1 patterns, it's essen
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  8 (The Challenger) and Type 5 (The Investigator): Dominant meets withdrawn.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type8">Type  8 (The Challenger) and Type 5 (The Investigator): Dominant meets withdrawn.</h3>
 
 Type 8s are dominant challengers, but under stress, they may take on the negative traits of Type 5, becoming withdrawn and detached. Type 5s are analytical investigators who, at their worst, can be isolated and intellectually arrogant. When stressed, Type 8s may adopt these unhealthy Type 5 patterns.
 
@@ -485,7 +511,7 @@ When Type 8s find themselves slipping into unhealthy Type 5 patterns, it's cruci
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type  9 (The Peacemaker) faces Type 6 (The Loyalist): Accommodating meets anxious.</h3>
+<h3 style="padding: 0; margin-top: 1em" id="type9">Type  9 (The Peacemaker) faces Type 6 (The Loyalist): Accommodating meets anxious.</h3>
 
 Type 9s are accommodating peacemakers, but under stress, they may take on the negative traits of Type 6, becoming anxious and suspicious. Type 6s are loyal skeptics who, at their worst, can be paranoid and reactive. When stressed, Type 9s may adopt these unhealthy Type 6 patterns.
 
@@ -528,7 +554,7 @@ When Type 9s find themselves slipping into unhealthy Type 6 patterns, it's essen
 
 </section>
 
-### The Power of Understanding Your Stress Number
+<h2 id="conclusion">The power of understanding your stress number</h2>
 
 Recognizing your stress-induced alter ego is a game-changer. It's not just about self-awareness; it's about managing those moments of disintegration and turning them into opportunities for growth. It's about seeing the world through a different lens, where your weaknesses become stepping stones for resilience.
 
@@ -553,7 +579,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-05-02"
+    "@value": "2024-05-03"
   },
   "datePublished": {
     "@type": "Date",
