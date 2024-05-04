@@ -4,7 +4,7 @@ description: 'Different personalities have subtle quirks to how they communicate
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
-lastmod: '2024-04-08'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -37,13 +37,32 @@ pic: 'greek-statues-arguing'
     />
 </div>
 
+Here is the table of contents section with just the relevant headings:
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#type1">Enneagram 1 - Perfectionists: Communicate with Tact and Patience</a></li>
+        <li><a href="#type2">Enneagram 2 - Helpers: Prioritize Self-Care in Communication</a></li>
+        <li><a href="#type3">Enneagram 3 - Achievers: Authenticity Matters in Conversations</a></li>
+        <li><a href="#type4">Enneagram 4 - Individualists: Validate Feelings for Effective Dialogue</a></li>
+        <li><a href="#type5">Enneagram 5 - Investigators: Give Space and Time to Process Thoughts</a></li>
+        <li><a href="#type6">Enneagram 6 - Loyalists: Provide Reassurance and Build Trust</a></li>
+        <li><a href="#type7">Enneagram 7 - Enthusiasts: Stay Focused and Listen Attentively</a></li>
+        <li><a href="#type8">Enneagram 8 - Challengers: Communicate Directly with Respect</a></li>
+        <li><a href="#type9">Enneagram 9 - Peacemakers: Assert Your Needs Confidently</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</details>
+
+
 <p class="firstLetter">How do you bring respect, curiosity, and an open mind into every conversation?</p>
 
 Everyone has their own unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 1 Communication Tips</h2>
+<h2 id="type1" style="padding: 0; margin-top: 1em">Enneagram 1 - Perfectionists: Communicate with Tact and Patience</h2>
 
 Type 1s are principled, ethical, and perfectionistic. They have a strong sense of right and wrong and strive to do the right thing in all situations. However, their perfectionism can lead to rigidity and inflexibility, which can make it challenging to communicate with them.
 
@@ -63,7 +82,7 @@ Type 1s are principled, ethical, and perfectionistic. They have a strong sense o
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 2 Communication Tips</h2>
+<h2 id="type2" style="padding: 0; margin-top: 1em">Enneagram 2 - Helpers: Prioritize Self-Care in Communication</h2>
 
 Type 2s are generous, caring, and nurturing. They have a strong desire to help others and often put the needs of others before their own. However, their desire to please others can sometimes lead to manipulation and codependency.
 
@@ -83,7 +102,7 @@ Type 2s are generous, caring, and nurturing. They have a strong desire to help o
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 3 Communication Tips</h2>
+<h2 id="type3" style="padding: 0; margin-top: 1em">Enneagram 3 - Achievers: Authenticity Matters in Conversations</h2>
 
 Type 3s are ambitious, competitive, and driven. They have a strong desire to succeed and often measure their self-worth by their accomplishments. However, their focus on success can sometimes lead to a lack of authenticity and a tendency to prioritize image over substance.
 
@@ -103,7 +122,7 @@ Type 3s are ambitious, competitive, and driven. They have a strong desire to suc
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 4 Communication Tips</h2>
+<h2 id="type4" style="padding: 0; margin-top: 1em">Enneagram 4 - Individualists: Validate Feelings for Effective Dialogue</h2>
 
 Type 4s are creative, emotional, and intuitive. They have a strong sense of individuality and often feel that they are different from others. However, their focus on their own emotions can sometimes lead to moodiness and self-absorption.
 
@@ -123,7 +142,7 @@ Type 4s are creative, emotional, and intuitive. They have a strong sense of indi
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 5 Communication Tips</h2>
+<h2 id="type5" style="padding: 0; margin-top: 1em">Enneagram 5 - Investigators: Give Space and Time to Process Thoughts</h2>
 
 Type 5s are analytical, introspective, and independent. They have a strong desire for knowledge and often value their independence and privacy. However, their focus on independence can sometimes lead to a sense of detachment and a tendency to become overly withdrawn.
 
@@ -147,7 +166,7 @@ Type 5s are analytical, introspective, and independent. They have a strong desir
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 6 Communication Tips</h2>
+<h2 id="type6" style="padding: 0; margin-top: 1em">Enneagram 6 - Loyalists: Provide Reassurance and Build Trust</h2>
 
 Type 6s are loyal, responsible, and anxious. They have a strong desire for security and often value trust and loyalty in relationships. However, their focus on security can sometimes lead to a sense of fear and anxiety, which can make it challenging to communicate with them.
 
@@ -167,7 +186,7 @@ Type 6s are loyal, responsible, and anxious. They have a strong desire for secur
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 7 Communication Tips</h2>
+<h2 id="type7" style="padding: 0; margin-top: 1em">Enneagram 7 - Enthusiasts: Stay Focused and Listen Attentively</h2>
 
 Type 7s are enthusiastic, adventurous, and spontaneous. They have a strong desire for new experiences and often value their freedom and independence. However, their focus on excitement and pleasure can sometimes lead to a lack of focus and a tendency to avoid difficult or unpleasant situations.
 
@@ -187,7 +206,7 @@ Type 7s are enthusiastic, adventurous, and spontaneous. They have a strong desir
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 8 Communication Tips</h2>
+<h2 id="type8" style="padding: 0; margin-top: 1em">Enneagram 8 - Challengers: Communicate Directly with Respect</h2>
 
 Type 8s are powerful, assertive, and decisive. They have a strong desire for control and often value their independence and strength. However, their focus on control can sometimes lead to a sense of aggression and a tendency to become overly confrontational.
 
@@ -207,7 +226,7 @@ Type 8s are powerful, assertive, and decisive. They have a strong desire for con
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 9 Communication Tips</h2>
+<h2 id="type9" style="padding: 0; margin-top: 1em">Enneagram 9 - Peacemakers: Assert Your Needs Confidently</h2>
 
 Type 9s are peaceful, easy-going, and accommodating. They have a strong desire for harmony and often value their ability to mediate conflicts. However, their focus on harmony can sometimes lead to a lack of assertiveness and a tendency to avoid conflict altogether.
 
@@ -225,7 +244,7 @@ Type 9s are peaceful, easy-going, and accommodating. They have a strong desire f
 
 </section>
 
-## Wrapping up
+<h2 id="conclusion">Conclusion</h2>
 
 Effective communication is key to building strong relationships with others, and understanding each Enneagram type's communication style can be incredibly helpful. By tailoring your communication to each type's unique needs and tendencies, you can build rapport, trust, and understanding with those around you. Remember, communication is a two-way street, so be sure to also communicate your own needs and preferences clearly to others. With practice and intentionality, you can communicate more effectively with each Enneagram type and build stronger, healthier relationships in all areas of your life. Check out this article for a deeper dive into <a href="enneagram-communication-tips" >communication styles.</a>
 
@@ -281,7 +300,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "name": "9takes"
       },
   "datePublished": "2023-02-27",
-  "dateModified": "2024-04-08",
+  "dateModified": "2024-05-04",
   "description": "This article provides practical communication tips for each Enneagram type, helping individuals understand how to interact effectively with different personality types."
   },
   {

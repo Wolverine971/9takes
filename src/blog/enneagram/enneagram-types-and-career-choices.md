@@ -4,7 +4,7 @@ description: 'Explore ideal careers for each Enneagram type and discover how per
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-and-career-choices'
-lastmod: '2024-04-03'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -30,6 +30,23 @@ pic: 'female-greek-statues-of-different-professions'
   />
 </div>
 
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#type1">Type 1 - The Perfectionist: Pursuing Excellence in Their Chosen Field</a></li>
+        <li><a href="#type2">Type 2 - The Helper: Building Careers Around Empowering Others</a></li>
+        <li><a href="#type3">Type 3 - The Achiever: Driven to Succeed in High-Powered Roles</a></li>
+        <li><a href="#type4">Type 4 - The Individualist: Expressing Creativity in Unique Careers</a></li>
+        <li><a href="#type5">Type 5 - The Investigator: Analyzing Complex Problems in Specialized Fields</a></li>
+        <li><a href="#type6">Type 6 - The Loyalist: Finding Security in Responsible Positions</a></li>
+        <li><a href="#type7">Type 7 - The Enthusiast: Seeking Adventure in Dynamic Careers</a></li>
+        <li><a href="#type8">Type 8 - The Challenger: Taking Charge in Leadership Roles</a></li>
+        <li><a href="#type9">Type 9 - The Peacemaker: Creating Harmony in Collaborative Environments</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</details>
+
+
 <p class="firstLetter">Follow your heart.</p>
 
 Don't follow your heart.
@@ -45,7 +62,7 @@ Choosing a career path is a big task. Finding a happy medium between making mone
 Each Enneagram type has things that will rub them the wrong way in a job. Each type wants different things and is drawn to certain things. Here, we will explore what each type values and how that translates to the types of jobs in which they would thrive.
 
  <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 1 - The Perfectionist</h3>
+   <h3 id="type1" style="padding: 0; margin: 0">Type 1 - The Perfectionist: Pursuing Excellence in Their Chosen Field</h3>
 
 For Type 1s, careers that offer a sense of order, integrity, and purpose are highly appealing. They thrive in roles where they can apply their strong sense of right and wrong, such as law, academia, or quality assurance. Type 1s find fulfillment in professions where they can work towards excellence and ensure that standards are met, making them outstanding auditors, editors, or compliance officers.
 
@@ -61,7 +78,7 @@ For Type 1s, careers that offer a sense of order, integrity, and purpose are hig
 
 </section>
   <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 2 - The Helper</h3>
+   <h3 id="type2" style="padding: 0; margin: 0">Type 2 - The Helper: Building Careers Around Empowering Others</h3>
 
 Type 2s are naturally drawn to careers that allow them to support and care for others. Their empathetic nature makes them excellent in healthcare, counseling, or social work. In these roles, they can fulfill their desire to be needed and make a tangible difference in people's lives. Type 2s are also fantastic in customer service or hospitality, where their warm, people-oriented approach shines.
 
@@ -77,7 +94,7 @@ Type 2s are naturally drawn to careers that allow them to support and care for o
 
 </section>
   <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 3 - The Achiever</h3>
+   <h3 id="type3" style="padding: 0; margin: 0">Type 3 - The Achiever: Driven to Succeed in High-Powered Roles</h3>
 
 Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities for advancement and recognition. They are well-suited for leadership roles in business, marketing, or entrepreneurship. Their charisma and drive make them effective in positions where they can motivate others and achieve tangible results, such as sales or corporate management.
 
@@ -109,7 +126,7 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
   />
 </div>
  <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 4 - The Individualist</h3>
+   <h3 id="type4" style="padding: 0; margin: 0">Type 4 - The Individualist: Expressing Creativity in Unique Careers</h3>
 
 Type 4s, with their appreciation for uniqueness and self-expression, find satisfaction in creative careers. Fields like art, writing, music, or design allow them to express their individuality and emotional depth. They may also be drawn to roles in psychology or counseling, where they can explore the depths of the human experience.
 
@@ -125,7 +142,7 @@ Type 4s, with their appreciation for uniqueness and self-expression, find satisf
 
 </section>
   <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 5 - The Investigator</h3>
+   <h3 id="type5" style="padding: 0; margin: 0">Type 5 - The Investigator: Analyzing Complex Problems in Specialized Fields</h3>
 
 Intrigued by knowledge and expertise, Type 5s are well-suited for careers that involve research, analysis, and innovation. They excel in fields like science, technology, engineering, or academia, where they can delve into complex problems and develop expertise. Their analytical nature also makes them great in data analysis or IT roles.
 
@@ -144,7 +161,7 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 <MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
 </div>
  <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 6 - The Loyalist</h3>
+   <h3 id="type6" style="padding: 0; margin: 0">Type 6 - The Loyalist: Finding Security in Responsible Positions</h3>
 
 Type 6s value security and stability, making them well-suited for administration, law enforcement, or risk management roles. They excel in environments where they can exercise caution and prepare for contingencies. Their loyalty and commitment make them excellent team players in any organizational setting.
 
@@ -160,7 +177,7 @@ Type 6s value security and stability, making them well-suited for administration
 
 </section>
   <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 7 - The Enthusiast</h3>
+   <h3 id="type7" style="padding: 0; margin: 0">Type 7 - The Enthusiast: Seeking Adventure in Dynamic Careers</h3>
 
 Type 7s, with their versatile and adventurous nature, thrive in dynamic and varied careers. They might find fulfillment in roles like travel writing, event planning, or marketing, where they can experience new things and avoid monotony. Their enthusiasm and creativity also make them outstanding in entrepreneurial ventures.
 
@@ -192,7 +209,7 @@ Type 7s, with their versatile and adventurous nature, thrive in dynamic and vari
   />
 </div>
  <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 8 - The Challenger</h3>
+   <h3 id="type8" style="padding: 0; margin: 0">Type 8 - The Challenger: Taking Charge in Leadership Roles</h3>
 
 Type 8s are natural leaders drawn to positions where they can exert influence and make impactful decisions. Careers in business leadership, entrepreneurship, or law can be highly suitable. Their assertiveness and willingness to take on challenges make them effective in high-stakes environments like crisis management or political advocacy.
 
@@ -208,7 +225,7 @@ Type 8s are natural leaders drawn to positions where they can exert influence an
 
 </section>
   <section class="section-content">
-   <h3 style="padding: 0; margin: 0">Type 9 - The Peacemaker</h3>
+   <h3 id="type9" style="padding: 0; margin: 0">Type 9 - The Peacemaker: Creating Harmony in Collaborative Environments</h3>
 
 Type 9s, with their easygoing and inclusive nature, are well-suited for roles that require mediation and consensus-building. They thrive in fields like human resources, counseling, or diplomacy. Their ability to see multiple perspectives makes them effective in roles that require negotiation and conflict resolution.
 
@@ -224,7 +241,7 @@ Type 9s, with their easygoing and inclusive nature, are well-suited for roles th
 
 </section>
 
-## Wrap up
+<h2 id="conclusion">Conclusion</h2>
 
 The Enneagram can be a powerful tool in guiding your career choices. By understanding your intrinsic motivations and strengths, you can find a professional path that suits your personality and brings fulfillment and success. Remember, the Enneagram is just one piece of the puzzle - your experiences, skills, and passions also play a crucial role in your career journey. So, as you consider your next career move, don't limit yourself; consider your whole self and what you can bring to the table.
 
@@ -258,7 +275,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-03"
+        "@value": "2024-05-04"
       },
       "datePublished": {
         "@type": "Date",

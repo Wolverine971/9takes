@@ -4,7 +4,7 @@ description: 'Unlock the power of Enneagram types in teamwork. Learn how each ty
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
-lastmod: '2024-04-03'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -33,17 +33,38 @@ pic: 'greek-statues-building-a-boat'
 	/>
 </div>
 
+<!-- here -->
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#workingInTeam">How Each Enneagram Type Works in a Team</a></li>
+        <li><a href="#type1">Type 1 - The Principled Perfectionist: Upholding Standards in Teams</a></li>
+        <li><a href="#type2">Type 2 - The Supportive Giver: Nurturing Relationships in Teams</a></li>
+        <li><a href="#type3">Type 3 - The Ambitious Achiever: Driving Success in Teams</a></li>
+        <li><a href="#type4">Type 4 - The Individualistic Creative: Bringing Authenticity to Teams</a></li>
+        <li><a href="#type5">Type 5 - The Analytical Observer: Providing Insight in Teams</a></li>
+        <li><a href="#type6">Type 6 - The Loyal Skeptic: Ensuring Security in Teams</a></li>
+        <li><a href="#type7">Type 7 - The Enthusiastic Visionary: Inspiring Innovation in Teams</a></li>
+        <li><a href="#type8">Type 8 - The Assertive Leader: Driving Change in Teams</a></li>
+        <li><a href="#type9">Type 9 - The Harmonious Mediator: Facilitating Unity in Teams</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</details>
+
 <p class="firstLetter">Some teams are crushing it, while other teams suck.</p>
 
 Have you ever been on a dysfunctional team? Have you ever worked in a team where everyone is operating on a different wavelength? It is frustrating when communication is broken. The Enneagram can clue us into where communication is broken and why people act the way they do. It can show us why some teams thrive while others are straight-up toxic.
 
 Here, we’ll explore how different Enneagram types work together in teams and give tips to help make working with them more efficient make them better.
 
-## How Each Enneagram Type Works in a Team
+<h2 id="workingInTeam">How Each Enneagram Type Works in a Team</h2>
+
+Discover how each Enneagram type contributes to a team, their goals, thought processes, and behaviors in different roles. Learn how to provide effective feedback to each type, fostering a cohesive and successful team dynamic.
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 1: The Perfectionist</h3>
+<h3 id="type1" style="padding: 0; margin: 0">Enneagram Type 1 - The Principled Perfectionist: Upholding Standards in Teams</h3>
 
 The Perfectionist is a principled, responsible, and improvement-oriented individual. They have a strong sense of right and wrong and strive to maintain high standards in their work and personal life. They are often self-disciplined, reliable, and focused on doing things correctly.
 
@@ -76,7 +97,7 @@ When giving feedback to a Perfectionist, it is essential to provide clear, objec
 </section>
 
 <section class="section-content">
-<h3 style="padding: 0; margin: 0">Type 2: The Helper</h3>
+<h3 id="type2" style="padding: 0; margin: 0">Type 2 - The Supportive Giver: Nurturing Relationships in Teams</h3>
 
 The Helper is a caring, generous, and people-pleasing individual. They have a strong desire to be loved and appreciated and often prioritize the needs of others over their own. They are empathetic, supportive, and always ready to lend a helping hand.
 
@@ -109,7 +130,7 @@ When giving feedback to a Helper, it is important to recognize their efforts to 
 </section>
 
 <section class="section-content">
-<h3 style="padding: 0; margin: 0">Type 3: The Achiever</h3>
+<h3 id="type3" style="padding: 0; margin: 0">Enneagram Type 3 - The Ambitious Achiever: Driving Success in Teams</h3>
 
 The Achiever is a success-oriented, ambitious, and adaptable individual. They have a strong desire to be successful and admired by others, often focusing on goals and accomplishments. They are driven, competitive, and excel at presenting themselves and their work in the best possible light.
 
@@ -143,7 +164,7 @@ When giving feedback to an Achiever, it is essential to recognize their achievem
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 4: The Individualist</h3>
+<h3 id="type4" style="padding: 0; margin: 0">Enneagram Type 4 - The Individualistic Creative: Bringing Authenticity to Teams</h3>
 
 The Individualist is a sensitive, expressive, and self-aware individual. They have a deep desire to be unique and authentic, often focusing on their own emotions and personal growth. They are creative, introspective, and value the ability to express themselves in their work and relationships.
 
@@ -177,7 +198,7 @@ When giving feedback to an Individualist, it is important to recognize their uni
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 5: The Investigator</h3>
+<h3 id="type5" style="padding: 0; margin: 0">Enneagram Type 5 - The Analytical Observer: Providing Insight in Teams</h3>
 
 The Investigator is an analytical, knowledgeable, and independent individual. They have a deep desire to understand the world around them and acquire knowledge, often focusing on developing their expertise in specific areas. They are observant, objective, and value privacy and solitude.
 
@@ -211,7 +232,7 @@ When giving feedback to an Investigator, it is essential to recognize their expe
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 6: The Loyalist</h3>
+<h3 id="type6" style="padding: 0; margin: 0">Enneagram Type 6 - The Loyal Skeptic: Ensuring Security in Teams</h3>
 
 The Loyalist is a responsible, committed, and security-oriented individual. They have a strong desire to feel safe and secure, often focusing on anticipating and preparing for potential challenges or threats. They are reliable, hardworking, and value loyalty and trust in their relationships.
 
@@ -245,7 +266,7 @@ When giving feedback to a Loyalist, it is important to recognize their loyalty a
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 7: The Enthusiast</h3>
+<h3 id="type7" style="padding: 0; margin: 0">Enneagram Type 7 - The Enthusiastic Visionary: Inspiring Innovation in Teams</h3>
 
 The Enthusiast is an optimistic, energetic, and adventurous individual. They have a strong desire to experience life to the fullest and enjoy new ideas and possibilities. They are quick-thinking, spontaneous, and have a contagious enthusiasm that can inspire and motivate others.
 
@@ -279,7 +300,7 @@ When giving feedback to an Enthusiast, it is important to recognize their enthus
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 8: The Challenger</h3>
+<h3 id="type8" style="padding: 0; margin: 0">Enneagram Type 8 - The Assertive Leader: Driving Change in Teams</h3>
 
 The Challenger is a powerful, assertive, and self-confident individual. They have a strong desire to be in control and protect themselves and others from perceived threats or injustices. They are decisive, direct, and have a commanding presence that can inspire and motivate others to take action.
 
@@ -313,7 +334,7 @@ When giving feedback to a Challenger, it is important to recognize their leaders
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 9: The Peacemaker</h3>
+<h3 id="type9" style="padding: 0; margin: 0">Type 9 - The Harmonious Mediator: Facilitating Unity in Teams</h3>
 
 The Peacemaker is a harmonious, supportive, and accommodating individual. They have a strong desire to maintain peace and avoid conflict, often focusing on creating a sense of stability and unity within their relationships and environments. They are empathetic, patient, and have a calming presence that can diffuse tense situations and bring people together.
 
@@ -345,6 +366,8 @@ When giving feedback to a Peacemaker, it is important to recognize their ability
 
 </section>
 
+<h2 id="conclusion">Conclusion</h2>
+
 Recognizing each type's goals, thinking, and behaviors in different roles within the team, allows us to learn how to effectively communicate, collaborate, and give feedback to each type to help contribute to the team's success. By leveraging the strengths of each type and addressing their challenges, we can create a balanced and successful team.
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
@@ -370,7 +393,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       },
    "dateModified":{
       "@type":"Date",
-      "@value":"2024-04-03"
+      "@value":"2024-05-04"
    },
    "datePublished":{
       "@type":"Date",

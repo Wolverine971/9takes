@@ -4,7 +4,7 @@ description: 'Explore the unique communication styles of Enneagram types 1-9. En
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2024-04-08'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -35,6 +35,21 @@ pic: 'two-female-greek-statues-having-a-conversation'
 	/>
 </div>
 
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#type1">Type 1 - The Perfectionist: Communicating with Precision and Purpose</a></li>
+        <li><a href="#type2">Type 2 - The Helper: Empathetic Communication for Strong Connections</a></li>
+        <li><a href="#type3">Type 3 - The Achiever: Confident Communication for Success</a></li>
+        <li><a href="#type4">Type 4 - The Individualist: Authentic Expression in Communication</a></li>
+        <li><a href="#type5">Type 5 - The Investigator: Analytical Communication for Clarity</a></li>
+        <li><a href="#type6">Type 6 - The Loyalist: Cautious Communication for Trust-Building</a></li>
+        <li><a href="#type7">Type 7 - The Enthusiast: Engaging Communication for Inspiration</a></li>
+        <li><a href="#type8">Type 8 - The Challenger: Assertive Communication for Impact</a></li>
+        <li><a href="#type9">Type 9 - The Peacemaker: Harmonious Communication for Unity</a></li>
+    </ul>
+</details>
+
 <p class="firstLetter">Want to be able to talk with anyone about anything?</p>
 
 The Enneagram can help. Below is a handy guide that shows us how different personality types talk and relate to one another. Each of the nine Enneagram types has a unique way of interacting.
@@ -53,7 +68,7 @@ Here we look at a slew of things related to communication:
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
 
 <article>
-<h2>Enneagram 1 Communication Style</h2>
+<h2 id="type1">Enneagram Type 1 - The Perfectionist: Communicating with Precision and Purpose</h2>
 
 <p>Ones value order, organization, and structure. They strive to live according to their principles and beliefs and can be critical of themselves and others when they fall short.</p>
 
@@ -113,7 +128,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 2 Communication Style</h2>
+<h2 id="type2">Enneagram Type 2 - The Helper: Empathetic Communication for Strong Connections</h2>
 
 <p>Twos value relationships and are generous, caring, and nurturing. They have a strong desire to be needed and appreciated by others.</p>
 
@@ -172,7 +187,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 3 Communication Style</h2>
+<h2 id="type3">Enneagram Type 3 - The Achiever: Confident Communication for Success</h2>
 
 <p>Threes value success, achievement, and recognition. They are ambitious, confident, and driven.</p>
 
@@ -235,7 +250,7 @@ This blog will break down how these important parts work for each Enneagram type
 </div>
 
 <article>
-<h2>Enneagram 4 Communication Style</h2>
+<h2 id="type4">Enneagram Type 4 - The Individualist: Authentic Expression in Communication</h2>
 
 <p>Fours value creativity, authenticity, and individuality. They have a strong desire to express themselves and their emotions.</p>
 
@@ -294,7 +309,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 5 Communication Style</h2>
+<h2 id="type5">Enneagram Type 5 - The Investigator: Analytical Communication for Clarity</h2>
 
 <p>Fives value knowledge, expertise, and independence. They are analytical, logical, and private.</p>
 
@@ -353,7 +368,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 6 Communication Style</h2>
+<h2 id="type6">Enneagram Type 6 - The Loyalist: Cautious Communication for Trust-Building</h2>
 
 <p>Sixes value security, loyalty, and trust. They are responsible, committed, and skeptical.</p>
 
@@ -412,7 +427,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 7 Communication Style</h2>
+<h2 id="type7">Enneagram Type 7 - The Enthusiast: Engaging Communication for Inspiration</h2>
 
 <p>Sevens value excitement, novelty, and adventure. They are optimistic, spontaneous, and curious.</p>
 
@@ -471,7 +486,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 8 Communication Style</h2>
+<h2 id="type8">Enneagram Type 8 - The Challenger: Assertive Communication for Impact</h2>
 
 <p>Eights value strength, power, and control. They are assertive, direct, and confident.</p>
 
@@ -530,7 +545,7 @@ This blog will break down how these important parts work for each Enneagram type
 </article>
 
 <article>
-<h2>Enneagram 9 Communication Style</h2>
+<h2 id="type9">Enneagram Type 9 - The Peacemaker: Harmonious Communication for Unity</h2>
 
 <p>Nines value harmony, peace, and cooperation. They are easygoing, agreeable, and diplomatic.</p>
 
@@ -612,7 +627,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-08"
+        "@value": "2024-05-04"
       },
       "datePublished": {
         "@type": "Date",
