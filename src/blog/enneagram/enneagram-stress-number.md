@@ -4,7 +4,7 @@ description: 'Describing how people are when stressed so that you recognize the 
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-stress-number'
-lastmod: '2024-05-03'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -64,7 +64,6 @@ accordion on mobile
         <li><a href="#conclusion">The power of understanding your stress number</a></li>
     </ul>
 </details>
-
 
 <p class="firstLetter" id="intro">Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
 
@@ -579,7 +578,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-05-03"
+    "@value": "2024-05-04"
   },
   "datePublished": {
     "@type": "Date",

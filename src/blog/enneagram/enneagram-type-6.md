@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,6 +25,24 @@ enneagram 6 wing 7
 
 <Carousel type={6} gridDisplay={true}/>
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 6 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 6</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 6</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 6</a></li>
+        <li><a href="#fears">Fears of an Enneagram 6</a></li>
+        <li><a href="#stress">Enneagram 6s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 6's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 6 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 6 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 6 Personalities</a></li>
+        <li><a href="#experience">Enneagram Six's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 6s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner."</p>
 
@@ -49,7 +67,7 @@ The Enneagram Type 6 personality has several core traits that define their world
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 6</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 6</h2>
 
 One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. They are highly committed to their obligations and are driven to fulfill them. Type 6s are also known for their ability to handle stress and adversity. They can think strategically and make difficult decisions in times of crisis. Additionally, Type 6s can often see multiple perspectives and think critically.
 
@@ -65,7 +83,7 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 
 <section class="section-content">
 
-<h2>🤔 Weaknesses/ Challenges of an Enneagram 6</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 6</h2>
 
 While Type 6s have many strengths, they also have some weaknesses. One of their most significant weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6s can have difficulty trusting their abilities and may need help with self-doubt.
 
@@ -77,7 +95,7 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 6</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 6</h2>
 
 - Safety and Security: Type 6s prioritize safety and security and often seek out situations, relationships, and jobs they perceive as safe and predictable. They may avoid risks or uncertain situations and be drawn to routines, rules, or guidelines that provide structure and stability.
 - Guidance and Support: Type 6s value guidance and support from trusted authorities, such as mentors, leaders, or experts. They may seek out these figures personally or professionally and prioritize their opinions and advice.
@@ -89,7 +107,7 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 6</h2>
+<h2 id="fears">😨 Fears of an Enneagram 6</h2>
 
 - Fear of Abandonment: Type 6 may fear being left alone, unsupported, or abandoned. They often seek relationships and connections to ensure they have a support system.
 - Fear of Uncertainty: Type 6 may fear the unknown, unexpected, or unpredictable. They prefer to have a plan, routine, or structure to provide a sense of stability and security.
@@ -101,7 +119,7 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 6s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 6s Under Stress</h2>
 
 Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. When they're under stress, they might become more obsessed with success and achievement, as well as competitive and envious of others. They might also feel anxious and insecure about their abilities and worth. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
@@ -117,7 +135,7 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 6's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 6's Childhood</h2>
 
 - **Childhood Stereotype**: Grew up in environments where they felt a constant undercurrent of fear or instability, leading to an ingrained sense of vigilance and loyalty.
 - **Childhood Wound**: Experiences of unpredictability or betrayal, which could be as subtle as mixed messages from caregivers or as overt as family upheaval. Developed a keen sense for risks and threats as a way to feel safer.
@@ -132,7 +150,7 @@ Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. W
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 6 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 6 in relationships</h2>
 
 - Loyal and Committed: Type 6s value stability and security and often prioritize their relationships. They are typically loyal and committed partners prioritizing their loved ones' needs and well-being.
 - Supportive and Reliable: Type 6s are often dependable partners who go above and beyond to support their loved ones. When needed, they may offer practical help, emotional support, or a listening ear.
@@ -147,7 +165,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 6 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 6 in the Workplace</h2>
 
 Type 6s are highly reliable and loyal employees, and they strongly emphasize security and stability in the workplace. They thrive in environments where they feel valued and supported, and they are often highly attuned to their colleagues' and superiors' needs and desires.
 
@@ -186,7 +204,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 6 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 6 Personalities</h2>
 
 - Develop Inner Trust: Enneagram Type 6s can benefit from learning to trust themselves and their own decisions rather than constantly seeking the approval and guidance of others. This can be achieved through mindfulness practices, therapy, or other forms of self-reflection.
 - Embrace Change: Type 6s often fear change and uncertainty, but embracing new experiences and challenges can help them grow and develop. Engaging in activities outside their comfort zone or trying new things can help build confidence and resilience.
@@ -198,7 +216,15 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 
 <section class="section-content">
 
-<h2>🤝 Enneagram Six's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram Six's sharing their experience</h2>
+
+In this video, Beatrice Chestnut moderates a panel discussion with several Enneagram Type 6 individuals, providing unique insights into this complex personality type.
+
+Key Takeaways:
+
+- Sixes exhibit a range of subtypes - "phobic" (avoidant), "counter-phobic" (aggressive), and those seeking authority/guidance - reflecting the diverse ways they cope with their core fear.
+- Sixes have a strong desire for certainty, consistency, and predictability, often engaging in extensive planning and "worst-case scenario" thinking as a defense mechanism.
+- Sixes can be highly intuitive, with an ability to sense potential problems before they occur, though this is rooted in an underlying anxiety about the unknown.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SQ2c0d5wP30?si=yFjB_iT43oWS7Yh3" title="Enneagram 6 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -208,7 +234,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 6s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 6s</h2>
 
 <FamousTypes type={6} />
 
@@ -242,7 +268,7 @@ While the Enneagram Type 6 personality has many strengths, there are also opport
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

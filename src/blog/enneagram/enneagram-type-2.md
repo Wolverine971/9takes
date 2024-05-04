@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -20,6 +20,24 @@ blog: true
 
 <Carousel type={2} gridDisplay={true} />
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 2 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 2</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 2</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 2</a></li>
+        <li><a href="#fears">Fears of an Enneagram 2</a></li>
+        <li><a href="#stress">Enneagram 2s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 2's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 2 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 2 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 2 Personalities</a></li>
+        <li><a href="#experience">Enneagram Two's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 2s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
 
@@ -48,7 +66,7 @@ Type 2s are warm, caring, and nurturing, often supporting their communities and 
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 2</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 2</h2>
 
 Type 2 individuals possess several strengths that make them valuable team or community members. These include:
 
@@ -69,7 +87,7 @@ Type 2 individuals possess several strengths that make them valuable team or com
 
 <section class="section-content">
 
-<h2>🤔 Weaknesses/ Challenges of an Enneagram 2</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 2</h2>
 
 While Type 2 individuals possess many strengths, they also face several challenges. These include:
 
@@ -85,7 +103,7 @@ While Type 2 individuals possess many strengths, they also face several challeng
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 2</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 2</h2>
 
 The Helper is motivated by a deep desire to be loved and appreciated by those around them. They seek to find their self-worth through the validation of others. The Helper often looks for ways to be of service to others, and they feel most fulfilled when they are helping others. However, their desire to help others can also come at a cost. Type 2 personalities may neglect their needs and emotions, leading to burnout and resentment. They may also struggle with boundaries, taking on too much responsibility and becoming overwhelmed.
 
@@ -93,7 +111,7 @@ The Helper is motivated by a deep desire to be loved and appreciated by those ar
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 2</h2>
+<h2 id="fears">😨 Fears of an Enneagram 2</h2>
 
 - Rejection: Type 2s are very sensitive to being rejected by others. They may fear that they will be pushed away or left alone if they don't offer enough help or support.
 - Inadequacy: Type 2s often tie their self-worth to how much they can help others. They may fear that if they cannot provide enough support or meet the needs of others, they will be seen as inadequate.
@@ -105,7 +123,7 @@ The Helper is motivated by a deep desire to be loved and appreciated by those ar
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 2s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 2s Under Stress</h2>
 
 Their stress number is Type 8. Type 8s are powerful, assertive, and confrontational. When they're under stress, they might become more aggressive and controlling, as well as overprotective and demanding of others. They might also struggle with feeling unappreciated or neglected by those around them. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
@@ -121,7 +139,7 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 2's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 2's Childhood</h2>
 
 - **Childhood Stereotype**: Commonly nurtured in caring environments but felt that love was conditional on their helpfulness. They might have had a family member who needed extra care, placing the child in a caregiver role early on.
 - **Childhood Wound**: Developed a belief that their worth was tied to their ability to care for others, often neglecting their own needs and desires.
@@ -136,7 +154,7 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 2 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 2 in relationships</h2>
 
 Type 2 personalities are highly social and enjoy connecting with others. They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections and thrive in social settings.
 
@@ -148,7 +166,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 2 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 2 in the Workplace</h2>
 
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and ensure their own needs are met.
 
@@ -166,7 +184,7 @@ If Type 2s do not address their tendency to prioritize others' needs over their 
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 2 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 2 Personalities</h2>
 Type 2 personalities, often known for their caring and nurturing nature, can significantly benefit from focusing on self-care and setting healthy boundaries. They must learn to prioritize their needs and emotions rather than consistently placing others' needs above their own. Effectively communicating their needs and desires is also crucial, as they rely on others to intuitively understand their emotions.
 
 Critical strategies for personal growth for Type 2s include:
@@ -182,7 +200,13 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
 
 <section class="section-content">
 
-<h2>🤝 Enneagram Two's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram Two's sharing their experience</h2>
+
+In this video, Beatrice Chestnut hosts a panel discussion with several individuals who identify as Enneagram type 2. The panelists provide unique insights into the experiences and inner world of Enneagram 2s:
+
+- Type 2s can struggle with unconscious pride and a desire to see themselves as indispensable to others, often manifesting in manipulative or controlling behavior.
+- Grief, a sense of not being truly loved, and a lack of clear self-identity are core issues for many type 2s.  
+- The path of growth for type 2s involves learning to love and accept themselves, set boundaries, and express their authentic feelings.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PUREB46h--M?si=j3HTcDtW35Tr3DY7" title="Enneagram 2 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -192,7 +216,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 2s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 2s</h2>
 
 <FamousTypes type={2} />
 
@@ -226,7 +250,7 @@ By embracing these strategies, Type 2 personalities can achieve a more balanced 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 1: The Perfectionist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -25,13 +25,31 @@ high ideals and principles that they meticulously pay attention to. Why do they 
 <Carousel type={1} gridDisplay={true} />
 <br>
 
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 1 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 1</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 1</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 1</a></li>
+        <li><a href="#fears">Fears of an Enneagram 1</a></li>
+        <li><a href="#stress">Enneagram 1s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 1's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 1 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 1 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 1 Personalities</a></li>
+        <li><a href="#experience">Enneagram One's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 1s</a></li>
+    </ul>
+</details>
+
 <p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer."</p>
 
 People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood Enneagram type one's got the message that they were "bad" so they have been trying to prove that critic wrong ever since.
 
 <section class="section-content">
 
-<h2>Enneagram 1 Description</h2>
+<h2 id="description">Enneagram 1 Description</h2>
 
 Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values. A sense of duty and responsibility drives them, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, striving for excellence.
 
@@ -50,7 +68,7 @@ If you are a Type 1 personality, you may recognize these core characteristics:
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 1</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 1</h2>
 
 Enneagram Type 1 individuals are often recognized for their remarkable reliability, a trait that emerges from their deep-seated sense of responsibility and duty. These individuals are driven by a compelling urge to contribute positively to the world, a commitment so strong that they are willing to make significant personal sacrifices to achieve this goal. This innate sense of duty is not just a personal trait but extends into their professional lives, making them valuable members of any team.
 
@@ -70,7 +88,7 @@ Moreover, Type 1s are known for their honesty and straightforwardness. This trai
 
 <section class="section-content">
 
-<h2>🤔 Weaknesses/ Challenges of an Enneagram 1</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 1</h2>
 
 Type 1 personalities, also known as Perfectionists or Reformers, have several weaknesses and challenges that they may face. Here are some of them:
 
@@ -89,7 +107,7 @@ Type 1 personalities, also known as Perfectionists or Reformers, have several we
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 1</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 1</h2>
 
 Type 1 personalities, Perfectionists or Reformers, are motivated by a strong desire for integrity, order, and excellence. They strive to be their best selves and to do what is proper and responsible.
 
@@ -105,7 +123,7 @@ Here are some of the typical motivations of Type 1 personalities:
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 1</h2>
+<h2 id="fears">😨 Fears of an Enneagram 1</h2>
 
 - Making mistakes or being wrong: Type 1s strongly desire to do things right and be seen as perfect. They fear making mistakes, as this can lead to feelings of shame and inadequacy.
 - Being imperfect: Type 1s strive for perfection in all areas of their life, including themselves. They fear being seen as imperfect or flawed, as this can damage their self-image.
@@ -117,7 +135,7 @@ Here are some of the typical motivations of Type 1 personalities:
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 1s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 1s Under Stress</h2>
 
 Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
@@ -133,7 +151,7 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 1's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 1's Childhood</h2>
 
 - **Childhood Stereotype**: Often raised in households where precision and order were highly valued. Parents or guardians may have been strict, emphasizing moral and ethical standards.
 - **Childhood Wound**: Faced criticism or punishment for minor mistakes, leading to a deep-seated fear of making errors. This experience fostered an internal critic that constantly pushed for perfection.
@@ -148,7 +166,7 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 1 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 1 in relationships</h2>
 
 Type 1 personalities have high expectations for themselves and their partners. They strive for perfection in all areas of their lives, including relationships. If you're in a relationship with a Type 1, here are a few things to keep in mind:
 
@@ -163,7 +181,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 1 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 1 in the Workplace</h2>
 
 Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making. They make excellent leaders and are often respected for their work ethic and commitment to excellence. Here are a few characteristics that make Type 1 personalities successful in the workplace:
 
@@ -178,7 +196,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 1 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 1 Personalities</h2>
 
 Enneagram Type 1 individuals, often known as Perfectionists, possess many strengths but also face specific challenges. A significant growth area for them is learning to let go of control and relax. They often struggle with guilt and inadequacy when things don't go as planned and may find it difficult to enjoy life's simple pleasures. In relationships, their high standards and critical nature can lead to strained connections, and their strong sense of duty may hinder them from fully opening up and connecting with others.
 
@@ -197,7 +215,14 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 
 <section class="section-content">
 
-<h2>🤝 Enneagram One's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram One's sharing their experience</h2>
+
+In this Enneagram panel moderated by Beatrice Chestnut, a group of experienced Type 1s discuss the unique patterns and challenges of their personality type. Key insights include:
+
+- Type 1s are often highly self-critical, with an internal "inner critic" that can be exhausting to manage
+- Anger and resentment are common for Type 1s, but learning to channel these constructively is an important growth area
+- The high side of Type 1s involves strong discernment, attention to detail, and a drive to improve things, but this can also alienate others if not balanced
+- Letting go of constant self-improvement and making space for mistakes and self-acceptance are valuable practices for Type 1 growth
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -207,7 +232,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 1s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 1s</h2>
 
 <FamousTypes type={1} />
 
@@ -244,7 +269,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",

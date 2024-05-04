@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 8: The Challenger'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -23,6 +23,24 @@ blog: true
 
 <Carousel type={8} gridDisplay={true}/>
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 8 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 8</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 8</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 8</a></li>
+        <li><a href="#fears">Fears of an Enneagram 8</a></li>
+        <li><a href="#stress">Enneagram 8s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 8's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 8 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 8 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 8 Personalities</a></li>
+        <li><a href="#experience">Enneagram Eight's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 8s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">Type 8s, are known as "The Challengers."</p>
 
@@ -50,7 +68,7 @@ Their journey often involves learning to be vulnerable and sensitive. When they 
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 8</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 8</h2>
 
 One of the critical strengths of Type 8 is its ability to take action. They are decisive and confident in their decisions and do not fear taking risks. Many 8s live by the motto, "Move fast and break things." 8s are likely strong enough to handle any negative consequences that result from one of their mistakes. 8s have a natural charisma and often can rally others around a cause or goal. Additionally, Type 8's can often see the big picture and think strategically.
 
@@ -66,7 +84,7 @@ One of the critical strengths of Type 8 is its ability to take action. They are 
 
 <section class="section-content">
 
-<h2>🤔Weaknesses/ Challenges of an Enneagram 8</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 8</h2>
 
 While Type 8s have many strengths, they also have some weaknesses. Their tendency to be overly aggressive and confrontational can get them into trouble when it is inappropriate. They can also be stubborn and unwilling to compromise. Additionally, Type 8's can have a hard time expressing their emotions and often self-isolate rather than open up to someone about their struggles. 8s are also known to be impulsive, and it is sometimes difficult for them to be patient. Type 8s may struggle with giving up control or appearing weak in relationships. Understanding these challenges can help Type 8s work on personal growth and develop healthier relationships.
 
@@ -78,7 +96,7 @@ While Type 8s have many strengths, they also have some weaknesses. Their tendenc
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 8</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 8</h2>
 
 As mentioned, Enneagram Type 8 individuals are driven by a need for control. They also have a desire to protect themselves and those they care about. Many 8s can point to a time in their childhood when they felt vulnerable and were taken advantage of. So the 8s are highly motivated to never let that happen again. They pursue ever higher and higher levels of freedom. 8s want to be so strong that they never rely on others for support. They value their independence and will do almost anything to avoid being in a vulnerable situation again.
 
@@ -86,7 +104,7 @@ As mentioned, Enneagram Type 8 individuals are driven by a need for control. The
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 8</h2>
+<h2 id="fears">😨 Fears of an Enneagram 8</h2>
 
 The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. They may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others to maintain their autonomy. Enneagram Type 8 individuals may also fear vulnerability, as they perceive vulnerability as a potential weakness that others could exploit.
 
@@ -96,7 +114,7 @@ This looks like an 8 working out really hard so that someone cannot physically o
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 8s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 8s Under Stress</h2>
 
 Their stress number is Type 5. Type 5s are analytical, independent, and private. When an 8 is stressed, they become more withdrawn and self-isolated from others. They may become cold and distant in their relationships. They might also struggle to say exactly what they feel, fearing their vulnerability not being well received. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
@@ -112,7 +130,7 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 8's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 8's Childhood</h2>
 
 - **Childhood Stereotype**: Raised in environments where they felt they had to be strong and assertive to protect themselves or others.
 - **Childhood Wound**: Encountered situations where they felt vulnerable or powerless, leading to a focus on building strength and control. Developed a protective shell to shield their vulnerability, often by asserting dominance or independence.
@@ -127,7 +145,7 @@ Their stress number is Type 5. Type 5s are analytical, independent, and private.
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 8 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 8 in relationships</h2>
 
 Enneagram Type 8 individuals can be complex partners in relationships. On one hand, they are fiercely loyal and protective of those they care about and can be generous and supportive. They are also direct in their communication, which can be refreshing for some partners but be off-putting for others.
 
@@ -141,7 +159,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 8 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 8 in the Workplace</h2>
 
 Type 8s can be powerful and influential leaders in the workplace. They are natural problem solvers with a talent for identifying and addressing challenges head-on. They are also highly independent, self-assured, and unafraid to take risks or make tough decisions.
 
@@ -163,7 +181,7 @@ Your communication must be direct when working with a Type 8 individual. These i
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 8 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 8 Personalities</h2>
 
 Enneagram Type 8s have significant opportunities for growth by learning to regulate their aggression and becoming more aware of the impact of their actions on others. Developing a sense of empathy for those around them is key for an Enneagram 8s development. They can benefit from cultivating self-awareness, understanding their emotions, needs, and fears, being more open to feedback, and being willing to make changes.
 
@@ -181,7 +199,15 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
 
 <section class="section-content">
 
-<h2>🤝 Enneagram eight's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram eight's sharing their experience</h2>
+
+In this Enneagram panel discussion, moderator Beatrice Chestnut welcomes a group of Enneagram type 8s to share their personal experiences and insights about this body-based personality type. The panelists include Suzanna, Jeanette, Connie, and Don, all of whom have studied the Enneagram in-depth and reflect on how the 8 archetype manifests in their lives.
+
+Key takeaways from the video include:
+
+- 8s often describe having an early experience of needing to be stronger or more powerful than their actual age or size as a child, leading to a sense of inner intensity and a desire to take action.
+- 8s can come across as intimidating or aggressive, but this is often not their intention - they simply have a bold, direct communication style rooted in a concern for truth and justice.  
+- Underlying the 8's tough exterior is a vulnerability and sensitivity that they can struggle to fully express, sometimes resorting to overcontrol or impulsiveness as a result.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bfMfq4g6DU4?si=LX8NB4ILDuk6OV4r" title="Enneagram 8 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -191,7 +217,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 8s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 8s</h2>
 
 <FamousTypes type={8} />
 
@@ -225,7 +251,7 @@ By focusing on these areas, Type 8 individuals can become more effective leaders
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

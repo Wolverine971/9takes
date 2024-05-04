@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -20,6 +20,24 @@ blog: true
 
 <Carousel type={3} gridDisplay={true} />
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 3 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 3</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 3</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 3</a></li>
+        <li><a href="#fears">Fears of an Enneagram 3</a></li>
+        <li><a href="#stress">Enneagram 3s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 3's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 3 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 3 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 3 Personalities</a></li>
+        <li><a href="#experience">Enneagram Three's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 3s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">Enneagram Type 3s are known as "The Achiever."</p>
 
@@ -51,7 +69,7 @@ They are in the shame triad, which means they have high emotional intelligence. 
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 3</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 3</h2>
 
 Enneagram Type 3 individuals are the engines driving a team or community forward. Their vibrant energy and laser focus on achieving goals make them invaluable assets in any setting.
 
@@ -80,7 +98,7 @@ Their strengths include
 
 <section class="section-content">
 
-<h2>🤔 Weaknesses/ Challenges of an Enneagram 3</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 3</h2>
 
 While Type 3 individuals are renowned for their drive and efficiency, they face unique challenges stemming from their core motivations and fears. Their pursuit of success and admiration, while a source of strength, can also lead to significant personal and interpersonal difficulties.
 
@@ -114,7 +132,7 @@ While Type 3 individuals are renowned for their drive and efficiency, they face 
 
 <section class="section-content">
 
-<h2>🧭 Motivations of Enneagram Type 3s</h2>
+<h2 id="motivations">🧭 Motivations of Enneagram Type 3s</h2>
 Enneagram Type 3 individuals, "The Achievers," are driven by a complex web of motivations that fuel their relentless pursuit of success. While we've explored their strengths and weaknesses, it's essential to understand what drives them and how they stay motivated to achieve their goals.
 
 <h3>Motivating Factors for Enneagram Type 3s:</h3>
@@ -140,7 +158,7 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 3</h2>
+<h2 id="fears">😨 Fears of an Enneagram 3</h2>
 
 - **Fear of failure**: Despite their strong desire for success, Type 3s often have a deep-seated fear of failure. They may worry they need to improve or will not meet their or others' high expectations.
 - Fear of being unimportant: Type 3s value being admired, respected, and recognized for their accomplishments. They may fear being seen as insignificant or ordinary and work hard to maintain their image and status.
@@ -152,7 +170,7 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 3s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 3s Under Stress</h2>
 
 Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. They might become more withdrawn, passive, avoidant, and indecisive when stressed. They might also struggle with feeling unimportant in the eyes of others.
 
@@ -186,7 +204,7 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 3's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 3's Childhood</h2>
 
 - **Childhood Stereotype**: Raised in settings where achievements and external success were highly valued. Family or societal expectations are often centered around visible accomplishments.
 - **Childhood Wound**: Internalized the idea that love and acceptance were contingent on their successes and achievements.
@@ -201,7 +219,7 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 3 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 3 in relationships</h2>
 
 Enneagram Type 3s bring a dynamic and engaging energy to their relationships. Their interactions are often characterized by ambition, charisma, and a deep desire for success and recognition. However, they also face unique challenges affecting their romantic and interpersonal connections.
 
@@ -232,7 +250,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 3 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 3 in the Workplace</h2>
 
 Enneagram Type 3 individuals, or "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, often focused on achieving success and advancing their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 
@@ -263,7 +281,7 @@ Enneagram Type 3 individuals excel in careers that allow them to use their natur
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 3 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 3 Personalities</h2>
 
 Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusing on personal growth and emotional intelligence. Some key ways that a Type 3 can produce and design include:
 
@@ -277,7 +295,13 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
 
 <section class="section-content">
 
-<h2>🤝 Enneagram Three's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram Three's sharing their experience</h2>
+
+In this video, Beatrice Chestnut moderates a panel discussion with several Enneagram Type 3 individuals, who share their personal experiences and insights about this personality type. The key takeaways from the video are:
+
+- Threes often struggle to distinguish their true self from the image and persona they present to the world, leading to a confusion of identity.
+- The different subtypes of Threes (self-preservation, social, sexual) have nuanced differences in how they express their drive for recognition and success.
+- Threes frequently avoid or suppress their emotions, only addressing them when faced with a major life crisis or breakdown that forces them to reevaluate.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m0uAC0cU9Z4?si=HPZFqXqkGdqa-eio" title="Enneagram 3 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -287,7 +311,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 3s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 3s</h2>
 
 <FamousTypes type={3} />
 
@@ -321,7 +345,7 @@ Enneagram Type 3 individuals, or "The Achiever," can grow and develop by focusin
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

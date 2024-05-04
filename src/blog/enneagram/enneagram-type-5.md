@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -20,6 +20,24 @@ blog: true
 
 <Carousel type={5} gridDisplay={true}/>
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 5 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 5</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 5</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 5</a></li>
+        <li><a href="#fears">Fears of an Enneagram 5</a></li>
+        <li><a href="#stress">Enneagram 5s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 5's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 5 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 5 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 5 Personalities</a></li>
+        <li><a href="#experience">Enneagram Five's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 5s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
 
@@ -49,7 +67,7 @@ As insightful and wise individuals, Type 5s offer unique perspectives and ideas.
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 5</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 5</h2>
 
 Type 5 individuals possess several strengths that make them valuable team or community members. These include:
 
@@ -70,7 +88,7 @@ Type 5 individuals possess several strengths that make them valuable team or com
 
 <section class="section-content">
 
-<h2>🤔 Weaknesses/ Challenges of an Enneagram 5</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 5</h2>
 
 While Type 5 individuals possess many strengths, they also face several challenges. These include:
 
@@ -86,7 +104,7 @@ While Type 5 individuals possess many strengths, they also face several challeng
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 5</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 5</h2>
 
 Enneagram Type 5s are motivated by a core desire for knowledge, understanding, and self-sufficiency. They seek to accumulate knowledge and expertise in their areas of interest and become self-reliant and independent. Some of the common motivations of Enneagram Type 5s may include:
 
@@ -100,7 +118,7 @@ Enneagram Type 5s are motivated by a core desire for knowledge, understanding, a
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 5</h2>
+<h2 id="fears">😨 Fears of an Enneagram 5</h2>
 
 Enneagram Type 5s are driven by a core fear of being overwhelmed, depleted, or invaded. They fear needing more knowledge, resources, or energy to handle the world's demands. As a result, Type 5s tend to retreat into their own thoughts and inner world, seeking to accumulate knowledge and expertise to feel more prepared and in control.
 
@@ -116,7 +134,7 @@ Typical fears of Enneagram Type 5s may include:
 
 <section class="section-content">
 
-<h2>🤯 Enneagram 5s Under Stress</h2>
+<h2 id="stress">🤯 Enneagram 5s Under Stress</h2>
 
 Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When they're under stress, they might become more impulsive and distractible and struggle with feeling overwhelmed and out of control. They might also need help to focus on one thing at a time and make decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
@@ -132,7 +150,7 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 5's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 5's Childhood</h2>
 
 - **Childhood Stereotype**: Often grew up in environments where they felt their personal space and boundaries were not respected, leading to a deep need for privacy and autonomy.
 - **Childhood Wound**: Experienced an intense sense of intrusion or not being allowed their own space, whether emotionally or physically. May have developed a coping mechanism of retreating into their mind, finding solace in knowledge and independence.
@@ -147,7 +165,7 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 5 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 5 in relationships</h2>
 
 In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also tend to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
 
@@ -157,7 +175,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 5 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 5 in the Workplace</h2>
 
 Enneagram Type 5s are known in the workplace for their analytical and independent approach to work. They have a strong desire to understand the details and inner workings of their field of expertise and often prefer working in roles that allow them to focus on research, analysis, and problem-solving.
 
@@ -171,7 +189,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 5 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 5 Personalities</h2>
 
 For individuals with a Type 5 personality, fostering personal growth involves a focus on cultivating emotional intelligence and developing stronger interpersonal relationships. It's beneficial for Type 5s to apply their knowledge and expertise in practical ways while also engaging in activities that balance their analytical tendencies.
 
@@ -191,7 +209,15 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
 
 <section class="section-content">
 
-<h2>🤝 Enneagram Five's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram Five's sharing their experience</h2>
+
+In this Enneagram panel moderated by Beatrice Chestnut, a group of self-identified type 5s share their personal experiences and insights into this unique personality type.
+
+Key Takeaways:
+
+- Type 5s often initially resist or struggle to accept their Enneagram type, finding the traits unattractive, before eventually embracing the self-understanding it provides.
+- 5s tend to be highly sensitive and protective of their inner resources, valuing private space and time alone to process emotions and thoughts.
+- 5s can come across as aloof, detached or intellectually-focused as a defense mechanism, when in reality they are deeply thoughtful and observant.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8-vZtfZB7Is?si=V1HyruLDiNU4OtYs" title="Enneagram 5 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -201,13 +227,13 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 5s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 5s</h2>
 
 <FamousTypes type={5} />
 
 </section>
 
-<!-- ## Psychologist Studies Relevant to the Enneagram 4
+<!-- ## Psychologist Studies Relevant to the Enneagram 5
 - 24 hours after learning something, we forget two-thirds of it: categorized as fear of being incapable as it pertains to the limitations of human memory - Herman Ebbinghaus
 - The unconscious is the psychic reality: categorized as desire to be knowledgeable and self-sufficient as it pertains to the workings of the unconscious mind - Sigmund Freud -->
 
@@ -235,7 +261,7 @@ By focusing on these areas, Type 5 individuals can grow beyond their comfort zon
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

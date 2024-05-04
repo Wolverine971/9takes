@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 9: The Peacemaker'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2024-01-21'
+lastmod: '2024-05-04'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -20,6 +20,24 @@ blog: true
 
 <Carousel type={9}  gridDisplay={true}/>
 <br>
+
+<details>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#description">Enneagram 9 Description</a></li>
+        <li><a href="#strengths">Strengths of an Enneagram 9</a></li>
+        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 9</a></li>
+        <li><a href="#motivations">Motivations of an Enneagram 9</a></li>
+        <li><a href="#fears">Fears of an Enneagram 9</a></li>
+        <li><a href="#stress">Enneagram 9s Under Stress</a></li>
+        <li><a href="#childhood">An Enneagram 9's Childhood</a></li>
+        <li><a href="#relationships">An Enneagram 9 in Relationships</a></li>
+        <li><a href="#workplace">An Enneagram 9 in the Workplace</a></li>
+        <li><a href="#growth">Growth and Development for Type 9 Personalities</a></li>
+        <li><a href="#experience">Enneagram Nine's Sharing Their Experience</a></li>
+        <li><a href="#famous">Famous Enneagram 9s</a></li>
+    </ul>
+</details>
 
 <p class="firstLetter">Enneagram Type 9 personalities are known for maintaining harmony and avoiding conflict in their relationships.</p>
 
@@ -44,7 +62,7 @@ Some of the key personality traits of the Enneagram Type 9 personality include:
 
 <section class="section-content">
 
-<h2>💪 Strengths of an Enneagram 9</h2>
+<h2 id="strengths">💪 Strengths of an Enneagram 9</h2>
 
 One of the key strengths of the Type 9 is their ability to be easy-going and adaptable. They can go with the flow of any situation and are not easily ruffled. Type 9s are also known for their ability to bring people together. They have a natural ability to reconcile viewpoints and find common ground. Additionally, Type 9s can often see multiple perspectives and think critically.
 
@@ -70,7 +88,7 @@ Some of the key strengths of the Enneagram Type 9 personality include:
 
 <section class="section-content">
 
-<h2>🤔Weaknesses/ Challenges of an Enneagram 9</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 9</h2>
 
 While Type 9s have many strengths, they also have some weaknesses. One of their most significant weaknesses is their tendency to be passive and avoid conflict. They can also be indecisive and have a hard time making decisions. Additionally, Type 9's can have a hard time asserting themselves and may struggle with self-doubt.
 
@@ -91,7 +109,7 @@ Some of the critical weaknesses of the Enneagram Type 9 personality include:
 
 <section class="section-content">
 
-<h2>🧭 Motivations of an Enneagram 9</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram 9</h2>
 
 The motivations of Enneagram Type 9, also known as "The Peacemaker," are centered around creating harmony and avoiding conflict. They deeply desire to maintain inner and outer peace and ensure that everyone around them is happy and satisfied. Type 9s tend to be highly empathetic and can easily pick up on the emotions of others, making it essential for them to avoid anything that may cause tension or discord.
 
@@ -103,7 +121,7 @@ Type 9s seek to avoid anything that may disrupt their sense of inner calm, inclu
 
 <section class="section-content">
 
-<h2>😨 Fears of an Enneagram 9</h2>
+<h2 id="fears">😨 Fears of an Enneagram 9</h2>
 
 Enneagram Type 9 individuals have a core fear of loss and separation. They are terrified of being disconnected from others and losing the sense of peace and harmony they strive to maintain. This fear can manifest in different ways, such as avoiding conflict to keep the peace, minimizing their needs to keep others happy, or merging with others to avoid feeling separate or alone.
 
@@ -131,7 +149,7 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They
 
 <section class="section-content">
 
-<h2>🧸 An Enneagram 9's Childhood</h2>
+<h2 id="childhood">🧸 An Enneagram 9's Childhood</h2>
 
 - **Childhood Stereotype**: Grew up in environments where they felt their presence was overlooked or that they needed to maintain peace and harmony.
 - **Childhood Wound**: Often felt neglected or that their opinions and presence didn't matter, leading to a tendency to blend in or go along with others. Developed a coping mechanism of minimizing their own desires and prioritizing the peace and comfort of those around them.
@@ -146,7 +164,7 @@ Their stress number is Type 6. Type 6s are loyal, responsible, and anxious. They
 
 <section class="section-content">
 
-<h2>👫 An Enneagram 9 in relationships</h2>
+<h2 id="relationships">👫 An Enneagram 9 in relationships</h2>
 
 In relationships, Enneagram Type 9 individuals tend to be supportive and accommodating, valuing harmony and peace above all else. They often put their partner's needs before their own and may struggle with asserting their desires or opinions. They are typically warm and empathetic, and their desire to maintain a sense of connection and avoid conflict can make them excellent listeners and mediators.
 
@@ -160,7 +178,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <section class="section-content">
 
-<h2>💼 An Enneagram 9 in the Workplace</h2>
+<h2 id="workplace">💼 An Enneagram 9 in the Workplace</h2>
 
 Enneagram Type 9 individuals in the workplace tend to be supportive, reliable, and adaptable team members. They often prioritize maintaining a sense of harmony and avoiding conflict in their work environment and may be skilled at mediating and finding compromises when disputes arise.
 
@@ -176,7 +194,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <section class="section-content">
 
-<h2>🌱 Growth and Development for Type 9 Personalities</h2>
+<h2 id="growth">🌱 Growth and Development for Type 9 Personalities</h2>
 
 For Type 9s, growth opportunities lie in learning to assert themselves and becoming more self-assured. They can also benefit from learning to make decisions confidently and being more assertive. Additionally, Type 9's can benefit from learning to manage their passivity and developing greater emotional resilience.
 
@@ -192,7 +210,13 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 
 <section class="section-content">
 
-<h2>🤝 Enneagram Nine's sharing their experience</h2>
+<h2 id="experience">🤝 Enneagram Nine's sharing their experience</h2>
+
+In this video, Beatrice Chestnut moderates a panel of Enneagram Type 9s who share their personal experiences and insights about this type. The key takeaways from the discussion include:
+
+- Nines often struggle to access and express their anger, leading to passive-aggressive tendencies and a difficulty making decisions.
+- Developing assertiveness and self-advocacy is an important growth area for many nines, as they can have a tendency to lose themselves or merge in relationships.
+- Connecting to a spiritual or divine sense of self can help nines find their own center and overcome their fear of conflict.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VJ3nZIXKvqc?si=8iVvz94DxQzFEPCl" title="Enneagram 9 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -202,7 +226,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
 
 <section class="section-content">
 
-<h2>🌟 Famous Enneagram 9s</h2>
+<h2 href="#famous">🌟 Famous Enneagram 9s</h2>
 
 <FamousTypes type={9} />
 
@@ -235,7 +259,7 @@ Here are some tips for embracing your Enneagram Type 9 personality:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-01-21",
+      "dateModified": "2024-05-04",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 9",
