@@ -29,7 +29,6 @@
 		});
 
 		const data = deserialize(await resp.text());
-		console.log(data);
 
 		if (!data?.error) {
 			notifications.info('Thanks for the suggestion', 3000);

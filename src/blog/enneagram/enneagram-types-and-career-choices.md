@@ -46,7 +46,6 @@ pic: 'female-greek-statues-of-different-professions'
     </ul>
 </details>
 
-
 <p class="firstLetter">Follow your heart.</p>
 
 Don't follow your heart.

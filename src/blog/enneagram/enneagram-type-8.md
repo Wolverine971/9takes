@@ -24,13 +24,11 @@ blog: true
 <Carousel type={8} gridDisplay={true}/>
 <br>
 
-
-
 <p class="firstLetter">Type 8s, are known as "The Challengers."</p>
 
-They embody assertiveness and self-confidence but they need control. 
+They embody assertiveness and self-confidence but they need control.
 
-Their directness and tendency to control situations can be perceived as domineering, but this is their go-to coping mechanism (and it has served them well since childhood). At some point in an 8's childhood, they learned to not be weak or put themselves in a vulnerable situation. 
+Their directness and tendency to control situations can be perceived as domineering, but this is their go-to coping mechanism (and it has served them well since childhood). At some point in an 8's childhood, they learned to not be weak or put themselves in a vulnerable situation.
 
 Therefore their chosen life strategy is to continually get stronger and gain power in all aspects of life so that they never have to be vulnerable again.
 
@@ -92,7 +90,7 @@ One of the critical strengths of Type 8 is its ability to take action. They are 
 
 <h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 8</h2>
 
-Type 8s have a tendency to be overly aggressive and confrontational which can get them into trouble when it is inappropriate. 
+Type 8s have a tendency to be overly aggressive and confrontational which can get them into trouble when it is inappropriate.
 
 They can also be stubborn and unwilling to compromise. Additionally, Type 8's can have a hard time expressing their emotions and often self-isolate rather than open up to someone about their struggles. 8s are also known to be impulsive, and it is sometimes difficult for them to be patient. Type 8s may struggle with giving up control or appearing weak in relationships. Understanding these challenges can help Type 8s work on personal growth and develop healthier relationships.
 
@@ -106,7 +104,7 @@ They can also be stubborn and unwilling to compromise. Additionally, Type 8's ca
 
 <h2 id="motivations">🧭 Motivations of an Enneagram 8</h2>
 
-Type 8 individuals are driven by a need for control or having the most freedom possible. 
+Type 8 individuals are driven by a need for control or having the most freedom possible.
 
 They also have a desire to protect themselves and those they care about. Many 8s can point to a time in their childhood when they felt vulnerable and were taken advantage of. So the 8s are highly motivated to never let that happen again. They pursue ever higher and higher levels of freedom. 8s want to be so strong that they never rely on others for support. They value their independence and will do almost anything to avoid being in a vulnerable situation again.
 
@@ -116,7 +114,7 @@ They also have a desire to protect themselves and those they care about. Many 8s
 
 <h2 id="fears">😨 Fears of an Enneagram 8</h2>
 
-The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others. 
+The primary fear of Enneagram Type 8 individuals is the fear of being controlled or manipulated by others.
 
 They may feel threatened by anyone or anything that could limit their freedom or power. This fear can sometimes manifest as a need for control and a tendency to dominate others to maintain their autonomy. Enneagram Type 8 individuals may also fear vulnerability, as they perceive vulnerability as a potential weakness that others could exploit.
 
@@ -161,11 +159,11 @@ A type 8's stress number is 5.
 
 <h2 id="relationships">👫 An Enneagram 8 in relationships</h2>
 
-Enneagram Type 8 individuals can be complex partners in relationships. 
+Enneagram Type 8 individuals can be complex partners in relationships.
 
-On one hand, they are fiercely loyal and protective of those they care about and can be generous and supportive. But they can also be dominant and controlling in their relationships. 
+On one hand, they are fiercely loyal and protective of those they care about and can be generous and supportive. But they can also be dominant and controlling in their relationships.
 
-Type 8s prefer direct communication in their relationships, which can be refreshing for some partners but be off-putting for others. They may struggle to compromise with their partners, leading to conflicts and power struggles. They have a tendency to avoid vulnerability can make it difficult for them to connect emotionally with their partners. Many 8 partners want the 8 to express their feelings and show more empathy. 
+Type 8s prefer direct communication in their relationships, which can be refreshing for some partners but be off-putting for others. They may struggle to compromise with their partners, leading to conflicts and power struggles. They have a tendency to avoid vulnerability can make it difficult for them to connect emotionally with their partners. Many 8 partners want the 8 to express their feelings and show more empathy.
 
 However, for context, the Enneagram 8 partner may be one of the only people that the 8 has actually been vulnerable with.
 
@@ -173,7 +171,7 @@ However, for context, the Enneagram 8 partner may be one of the only people that
 
 To have a successful relationship with an Enneagram Type 8, it is essential to communicate openly and honestly.
 
-8s need their need for independence and autonomy and their partners need to know that. It can be helpful to establish clear boundaries and expectations early on in the relationship and talk about what compromise will look like. It also may be helpful for Enneagram Type 8 individuals to be vulnerable early on so that later, when conflict does arise, being vulnerable will feel foreign. An 8s partner should try to gently coax out the softness in the 8. 
+8s need their need for independence and autonomy and their partners need to know that. It can be helpful to establish clear boundaries and expectations early on in the relationship and talk about what compromise will look like. It also may be helpful for Enneagram Type 8 individuals to be vulnerable early on so that later, when conflict does arise, being vulnerable will feel foreign. An 8s partner should try to gently coax out the softness in the 8.
 
 If an Enneagram 8's partner can get at the 8's soft underbelly, it will be an excellent place for cuddles and warm feelings to come out.
 
@@ -185,7 +183,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 8 in the Workplace</h2>
 
-Type 8s can be powerful and influential leaders in the workplace. 
+Type 8s can be powerful and influential leaders in the workplace.
 
 They are natural problem solvers with a talent for identifying and addressing challenges head-on. They are also highly independent, self-assured, and unafraid to take risks or make tough decisions.
 
@@ -234,7 +232,7 @@ In this Enneagram panel discussion, moderator Beatrice Chestnut welcomes a group
 Key takeaways from the video include:
 
 - 8s often describe having an early experience of needing to be stronger or more powerful than their actual age or size as a child, leading to a sense of inner intensity and a desire to take action.
-- 8s can come across as intimidating or aggressive, but this is often not their intention - they simply have a bold, direct communication style rooted in a concern for truth and justice.  
+- 8s can come across as intimidating or aggressive, but this is often not their intention - they simply have a bold, direct communication style rooted in a concern for truth and justice.
 - Underlying the 8's tough exterior is a vulnerability and sensitivity that they can struggle to fully express, sometimes resorting to overcontrol or impulsiveness as a result.
 
 <div class="iframe-container">

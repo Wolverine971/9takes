@@ -139,9 +139,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-				.map(
-					(post) =>
-						`
+			.map(
+				(post) =>
+					`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -149,8 +149,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-				)
-				.join('')}
+			)
+			.join('')}
 
 	</urlset>`.trim(),
 		{

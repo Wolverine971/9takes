@@ -18,7 +18,7 @@
 		if ($page.route.id) {
 			const tempSteps = $page.route.id.split('/').filter((x) => {
 				if (!!x) {
-					if (x === 'users' || x === 'unsubscribe') {
+					if (x === 'users' || x === 'unsubscribe' || x === 'type' || x === 'subtopic') {
 						if ($page.route.id?.includes('/admin')) {
 							return true;
 						}

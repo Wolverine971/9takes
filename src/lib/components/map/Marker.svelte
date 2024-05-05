@@ -25,7 +25,6 @@
 	export let popupOptions = {};
 	export let markerOptions = {};
 	export let popupHtml = '';
-	console.log(label);
 	const dispatch = createEventDispatcher();
 	let marker;
 	let element;
@@ -73,7 +72,6 @@
 		return marker;
 	}
 	const popupClicked = () => {
-		console.log('popupClicked');
 		dispatch('popupClicked');
 	};
 </script>

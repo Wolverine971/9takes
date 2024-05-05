@@ -3,14 +3,7 @@
 	import BlogTiles from '$lib/components/molecules/BlogTiles.svelte';
 	import type { PageData } from './$types';
 
-	import ObjectsColumnOutlineIcon from '$lib/components/icons/objectsColumnOutlineIcon.svelte';
-	import SiteMapIcon from '$lib/components/icons/siteMapIcon.svelte';
-
-	import StructuredBlogView from '$lib/components/blog/StructuredBlogView.svelte';
-
 	export let data: PageData;
-
-	let structuredView = false;
 </script>
 
 <BlogPageHead

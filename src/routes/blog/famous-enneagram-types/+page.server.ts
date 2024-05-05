@@ -1,15 +1,10 @@
 import { supabase } from '$lib/supabase';
 import type { Actions } from './$types';
-import { error } from '@sveltejs/kit';
 
 import type { PageServerLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 
-const MAX_POSTS = 20;
-
 export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogPost[] }> => {
-	const modules = import.meta.glob(`/src/blog/people/*.{md,svx,svelte.md}`);
-
 	const posts: any = await getAllPosts();
 	// 	Object.entries(modules).map(([path, resolver]) =>
 	// 	resolver().then(
@@ -24,24 +19,22 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 	// const posts = await Promise.all(postPromises);
 	const publishedPosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
-	const uniqueTypes = Array.from(new Set(publishedPosts.map(obj => obj?.enneagram)));
+	const uniqueTypes = Array.from(new Set(publishedPosts.map((obj) => obj?.enneagram)));
 
 	// Store objects of unique types
 	const uniqueObjects: any[] = [];
 
 	// Iterate through unique types
-	uniqueTypes.forEach(enneagram => {
+	uniqueTypes.forEach((enneagram) => {
 		// Find objects with current type
-		const objectsWithType = publishedPosts.filter(obj => obj?.enneagram === enneagram);
+		const objectsWithType = publishedPosts.filter((obj) => obj?.enneagram === enneagram);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
+		objectsWithType.sort((a, b) => new Date(a.lastmod) - new Date(b.lastmod));
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 3));
 	});
-
-
 
 	return { people: uniqueObjects };
 };

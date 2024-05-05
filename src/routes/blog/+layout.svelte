@@ -1,8 +1,4 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-	// import Layout from '$lib/components/blog/layout.svelte';
-	import { page } from '$app/stores';
-	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 </script>
 
 <!-- <Layout> -->

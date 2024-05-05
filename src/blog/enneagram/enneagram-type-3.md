@@ -252,7 +252,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 3 in the Workplace</h2>
 
-Enneagram Type 3 individuals are highly driven and goal-oriented, making them well-suited for the workplace. 
+Enneagram Type 3 individuals are highly driven and goal-oriented, making them well-suited for the workplace.
 
 They are Stereotypically workaholics. They are ambitious and results-driven, often focused on achieving success and advancing their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 
@@ -270,7 +270,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2>Career Paths</h2>
 
-Enneagram Type 3 individuals thrive in competitive environments and enjoy being recognized for their achievements. 
+Enneagram Type 3 individuals thrive in competitive environments and enjoy being recognized for their achievements.
 
 Some common career paths for Type 3 individuals include:
 

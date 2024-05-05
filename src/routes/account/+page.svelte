@@ -19,10 +19,8 @@
 			enneagram !== data?.user?.enneagram
 		) {
 			formChanged = true;
-			console.log('form changed');
 		} else {
 			formChanged = false;
-			console.log('form not changed');
 		}
 	};
 	interface AccountData extends PageData {

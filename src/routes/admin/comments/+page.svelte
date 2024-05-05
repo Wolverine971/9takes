@@ -52,7 +52,6 @@
 											class="btn btn-primary"
 											on:click={() => {
 												unflag(comment?.comments?.id);
-												console.log(comment?.comments?.id);
 											}}>Clear Comment</button
 										>
 										<button

@@ -21,7 +21,6 @@ blog: true
 <Carousel type={4} gridDisplay={true} />
 <br>
 
-
 <p class="firstLetter">Enneagram Type 4 is known as The Individualist and is one of the three types in the Feeling Center/ Heart Triad.</p>
 
 Being in the Feeling Center or Heart Triad means that they make decisions based on emotions and strongly connect to their inner world. Type 4 individuals deeply desire to be unique and express themselves creatively. They often feel like they don't quite fit in and may struggle with longing or melancholy.
@@ -48,7 +47,7 @@ Being in the Feeling Center or Heart Triad means that they make decisions based 
 
 <h2>Enneagram 4 Description</h2>
 
-Enneagram Type 4s are known for their strong sense of self and desire to express individuality. 
+Enneagram Type 4s are known for their strong sense of self and desire to express individuality.
 
 A sense of authenticity and self-expression drives them, and they need to be understood and appreciated for who they are. Individualists are often highly creative and artistic, striving to make a meaningful impact in their lives and the world around them.
 
@@ -115,7 +114,7 @@ Individualists can be moody and withdrawn, making forming and maintaining relati
 
 <h2 id="motivations">🧭 Motivations of an Enneagram 4</h2>
 
-The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning. 
+The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning.
 
 Type 4s deeply need to understand themselves and their place in the world, and they often feel a sense of incompleteness or longing for something they believe is missing in their lives.
 
@@ -169,7 +168,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 4 in the Workplace</h2>
 
-Enneagram Type 4s are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and develop original ideas. 
+Enneagram Type 4s are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and develop original ideas.
 
 They are deeply attuned to their emotions and those of others, which can make them insightful and empathetic team members.
 
@@ -185,7 +184,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2 id="growth">🌱 Growth and Development for Type 4 Personalities</h2>
 
-A significant growth area for enneagram type 4s is learning to accept themselves and cope with inadequacy and self-doubt. 
+A significant growth area for enneagram type 4s is learning to accept themselves and cope with inadequacy and self-doubt.
 
 They often struggle to find their place in the world and may experience intense emotions like envy and longing for a life they perceive as more fulfilling. In relationships, maintaining healthy boundaries and avoiding codependency are common challenges.
 
@@ -208,7 +207,7 @@ By addressing these areas, Type 4 individuals can effectively navigate their cha
 In this panel discussion moderated by Beatrice Chestnut, four individuals share their personal experiences and insights as Enneagram Type 4s. The key takeaways from their discussion are:
 
 - Type 4s can over-identify with emotions like sadness and melancholy, using them as a defense mechanism.
-- 4s tend to focus more on their internal emotional world rather than external references.  
+- 4s tend to focus more on their internal emotional world rather than external references.
 - Growth for 4s involves being present in the moment, appreciating the ordinary, and not over-identifying with emotions.
 
 The panelists provide a nuanced look at the unique patterns and challenges faced by Enneagram Type 4s, offering a valuable firsthand perspective on this introspective personality type.

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
+	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	// import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	// import Card from '$lib/components/atoms/card.svelte';
@@ -23,8 +24,8 @@
 		<li><a href="#9types">The Nine Enneagram Types</a></li>
 		<li><a href="#personal-development">The Enneagram for Personal Development</a></li>
 		<li><a href="#relationships">The Enneagram in Relationships</a></li>
-		<li><a href="#workplace">TheEnneagram in the Workplace</a></li>
-		<li><a href="#resources">TheEnneagram Resources</a></li>
+		<li><a href="#workplace">The Enneagram in the Workplace</a></li>
+		<li><a href="#resources">The Enneagram Resources</a></li>
 		<li><a href="#situations">The Enneagram Types in Specific Situations</a></li>
 	</ul>
 </details>
@@ -48,6 +49,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/overview" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All Enneagram topic blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 
 <h2 id="9types">The Nine Enneagram Types</h2>
@@ -90,6 +100,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/development" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All personal development blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 <h2 id="relationships">Enneagram in Relationships</h2>
 <div class="blog-grid-container temp-three-row">
@@ -110,6 +129,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/relationships" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All relationship blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 
 <h2 id="workplace">Enneagram in the Workplace</h2>
@@ -131,6 +159,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/workplace" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All workplace blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 
 <h2 id="resources">Enneagram Resources</h2>
@@ -152,6 +189,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/resources" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All resource blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 
 <h2 id="situations">Enneagram Situational Topics</h2>
@@ -173,6 +219,15 @@
 			</a>
 		{/if}
 	{/each}
+	<a href="/blog/enneagram/subtopic/situational" class="grid-item">
+		<div class="fit-card black-white">
+			<h3 style="">
+				<span>All situational blogs </span>
+				<br />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+			</h3>
+		</div>
+	</a>
 </div>
 
 <style lang="scss">
@@ -216,7 +271,7 @@
 
 	.temp-three-row {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 0.7fr;
 		gap: 0.5rem;
 		grid-row: inherit;
 	}
@@ -250,7 +305,7 @@
 		}
 
 		.blog-grid-container {
-			grid-template-columns: 30vw 30vw 30vw;
+			grid-template-columns: 21vw 21vw 21vw 15vw;
 		}
 		.inline-it {
 			width: 30vw; // !important;

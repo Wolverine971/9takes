@@ -64,8 +64,6 @@ pic: 'greek-statue-having-a-disagreement'
     </ul>
 </details>
 
-
-
 <p class="firstLetter">Ah, love—the stuff of poetry, songs, and late-night talks. But as you might have heard love isn't always a bed of roses.</p>
 
 Conflict is inevitable. The question isn't if you'll fight but when, how, and over what. This guide aims to be your go-to resource for navigating that relationship conflict. Here we will go over the common pitfalls, and practical steps, and prevention tips to turn disagreements into opportunities for growth.
