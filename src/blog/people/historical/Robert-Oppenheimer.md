@@ -60,15 +60,21 @@ Robert Oppenheimer is shrouded in controversy, conflict, and intellectual brilli
 
 ## The Architect of Destruction
 
-Robert Oppenheimer's most notable contribution to history is his leadership of the Manhattan Project, the top-secret mission that produced the world's first nuclear weapons. This mirrors the paradox of the Type 4 personality: creation and destruction wrapped in a single, complicated package. The Individualist is known for their unique and introspective nature, often driven by the need to create something that's theirs. For Oppenheimer, this creation bore the ironic twist of being a weapon of mass destruction.
+Robert Oppenheimer's most notable contribution to history is his leadership of the Manhattan Project, the top-secret mission that produced the world's first nuclear weapons.
+
+This mirrors the paradox of the Type 4 personality: creation and destruction wrapped in a single, complicated package. The Individualist is known for their unique and introspective nature, often driven by the need to create something that's theirs. For Oppenheimer, this creation bore the ironic twist of being a weapon of mass destruction.
 
 ## The Introspective Genius
 
-Individualists are deep thinkers, often reflective and in tune with their emotions. This is a trait that was evident in Oppenheimer's character. Known for his poetic demeanor, he often used philosophical and literary references in his speeches, one time quoting from the Hindu scripture Bhagavad Gita after the first successful atomic bomb test: <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer">"Now I am become Death, the destroyer of worlds."</a> This profound self-awareness and introspection, often leading to dramatic self-expression, aligns him with the Enneagram Type 4.
+Individualists are deep thinkers, often reflective and in tune with their emotions.
+
+This is a trait that was evident in Oppenheimer's character. Known for his poetic demeanor, he often used philosophical and literary references in his speeches, one time quoting from the Hindu scripture Bhagavad Gita after the first successful atomic bomb test: <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/J._Robert_Oppenheimer">"Now I am become Death, the destroyer of worlds."</a> This profound self-awareness and introspection, often leading to dramatic self-expression, aligns him with the Enneagram Type 4.
 
 ## The Pursuit of Uniqueness
 
-Type 4 personalities strive for uniqueness and often feel different from others. This trait manifested in Oppenheimer's life in many ways. His intellectual brilliance set him apart from others from a young age, and yet <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.thetrailblazer.co.uk/blog/6-things-you-probably-didnt-know-about-j-robert-oppenheimer">he had dyslexia and a stammer.</a> He continued to differentiate himself throughout his life through his poetic approach to science. His interests extended beyond physics to philosophy, languages, and Eastern mysticism, displaying a distinct inclination towards originality and diversity.
+Type 4 personalities strive for uniqueness and often feel different from others.
+
+This trait manifested in Oppenheimer's life in many ways. His intellectual brilliance set him apart from others from a young age, and yet <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.thetrailblazer.co.uk/blog/6-things-you-probably-didnt-know-about-j-robert-oppenheimer">he had dyslexia and a stammer.</a> He continued to differentiate himself throughout his life through his poetic approach to science. His interests extended beyond physics to philosophy, languages, and Eastern mysticism, displaying a distinct inclination towards originality and diversity.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/AwOFcxENsVk?start=174" title="Andreessen brothers examining Oppenheimer's personality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -76,7 +82,9 @@ Type 4 personalities strive for uniqueness and often feel different from others.
 
 ## Internal Struggles and Turmoil
 
-One of the critical facets of the Enneagram Type 4 is its capacity for intense emotional highs and lows. Throughout his life, Oppenheimer experienced significant mood swings and depressive episodes, reflective of this trait. His conflicted feelings about his involvement in the Manhattan Project and its catastrophic aftermath, coupled with the drama of being accused of disloyalty during the McCarthy era, cast long shadows over his life, illuminating the intense internal struggle characteristic of Type 4.
+One of the critical facets of the Enneagram Type 4 is its capacity for intense emotional highs and lows.
+
+Throughout his life, Oppenheimer experienced significant mood swings and depressive episodes, reflective of this trait. His conflicted feelings about his involvement in the Manhattan Project and its catastrophic aftermath, coupled with the drama of being accused of disloyalty during the McCarthy era, cast long shadows over his life, illuminating the intense internal struggle characteristic of Type 4.
 
 ## How Each Enneagram Type Perceives Robert Oppenheimer
 
@@ -97,8 +105,6 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 A sense of being an outsider marked Oppenheimer's life. Despite his crucial role in a project that ended World War II, he was treated with suspicion and endured a public trial during the height of the Red Scare. This sense of alienation resonates with the Type 4's feeling of being different from the world around them.
 
 Oppenheimer's genius and originality, philosophical inclinations, and emotional intensity all coalesce, suggesting that Oppenheimer's personality echoes the profound depths of Type 4. Yet, the complexity of human personality means that a single category can encapsulate no one.
-
-This exploration provides a unique lens to better understand Oppenheimer's motivations and actions. What does seeing Oppenheimer through the lens of the Enneagram Type 4 tell you about his enigmatic personality? Does it give you a deeper understanding of his motivations and internal struggles?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

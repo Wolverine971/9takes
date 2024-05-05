@@ -38,6 +38,12 @@ tiktok:
 
 > **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason Calacanis's actual personality type. Please leave a comment at the end telling us if we hit or missed the mark.
 
+<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p>
+
+Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
+
+Here, we will explain what that looks like.
+
 <details>
 <summary class="accordion">TL;DR: Why Jason Calacanis is an Enneagram 3</summary>
 <div class="panel">
@@ -51,21 +57,19 @@ tiktok:
   </div>
 </details>
 
-<p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p>
-
-Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
-
-Here, we will explain what that looks like.
-
 ## Jason Calacanis: An Embodiment of The Achiever?
 
-Jason is an angel investor and the host of the two prominent podcasts "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" and the "All in". He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
+Jason is an angel investor and the host of the two prominent podcasts "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin" >This Week in Startups</a>" and the "All in".
+
+He also runs a startup accelerator called "Founder University" and hosts another podcast called the "All-In" podcast. To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
 
 Why does Jason feel the need to work so hard? Is it because he loves making the world a better place? Or is it because he would feel worthless if he was not successful? The answer is the latter.
 
 ### The Achiever: An Overview
 
-Type 3s, or Achievers, are characterized by their desire for success and relentless pursuit of their goals and ambitions. They embody the best of a culture, often serving as role models that inspire others to more extraordinary personal achievements. However, their need to be successful is born out of a fear of worthlessness. In another sense, they feel deep shame and are insecure that they are not worthy of love if they are unsuccessful. Somewhere in their childhood, they picked up this message, and now, every time they achieve something, it validates their value.
+Type 3s, or Achievers, are characterized by their desire for success and relentless pursuit of their goals and ambitions.
+
+They embody the best of a culture, often serving as role models that inspire others to more extraordinary personal achievements. However, their need to be successful is born out of a fear of worthlessness. In another sense, they feel deep shame and are insecure that they are not worthy of love if they are unsuccessful. Somewhere in their childhood, they picked up this message, and now, every time they achieve something, it validates their value.
 
 When they are not achieving or are very stressed, type 3s may become disengaged and lethargic and act like an unhealthy version of another personality type, the Enneagram 9. On the other hand, when they are achieving, growing, and feeling their best, Threes become more cooperative and committed to others, much like healthy Enneagram Sixes.
 
@@ -79,7 +83,9 @@ In Jason's journey, we can observe the hallmark qualities of a Type 3. His entre
 
 ### The Charmer and The Professional
 
-But Jason is not just a hard worker. If you watch him in interviews or a group setting, he is often the most charismatic person in the room. He is a master of socializing. He is good in front of a camera and frankly enjoys being on camera. Did we mention that he hosts two podcasts?
+But Jason is not just a hard worker.
+
+If you watch him in interviews or a group setting, he is often the most charismatic person in the room. He is a master of socializing. He is good in front of a camera and frankly enjoys being on camera. Did we mention that he hosts two podcasts?
 
 The thing about 3s is that they have a superpower. Hard work is not their superpower. A three's superpower is their ability to read a room and read the emotions and body language of anyone they come in contact with. They can sense what you think and feel about them and use that highly tuned people's reading to their advantage. With that intuition, they can become the person they would like and admire if they so choose. Naturally charismatic people do this, but 3s have finely tuned this people reading ability since they were young, and so has Jason.
 
@@ -94,7 +100,9 @@ allowfullscreen></iframe>
 
 ## Beyond The Glittering Image
 
-While the Achiever in Calacanis is evident, it's essential to acknowledge the challenges of this Enneagram type. Threes, in their pursuit of success, can become overly concerned with their image and disconnected from their true feelings. In some instances, Jason's competitiveness and workaholism have rubbed people the wrong way. These tendencies mirror the Achiever's potential pitfalls, highlighting the importance of introspection and authenticity in maintaining balance.
+While the Achiever in Calacanis is evident, it's essential to acknowledge the challenges of this Enneagram type.
+
+Threes, in their pursuit of success, can become overly concerned with their image and disconnected from their true feelings. In some instances, Jason's competitiveness and workaholism have rubbed people the wrong way. These tendencies mirror the Achiever's potential pitfalls, highlighting the importance of introspection and authenticity in maintaining balance.
 
 ### The Journey Towards Self-Acceptance
 

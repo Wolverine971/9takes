@@ -50,23 +50,31 @@ tiktok:
 
 > **Disclaimer** This analysis of Sam Altman's Enneagram type is speculative, based on publicly available information, and may not reflect Sam Altman's actual personality type.
 
-<p class="firstLetter">Sam Altman, a name synonymous with innovation and disruption in the tech world, embodies the essence of Enneagram Type 4- The Individualist. His journey from the early days of Y Combinator to his current role at OpenAI is not just a tale of technological triumph but also a deep dive into the psyche of a complex, driven individual.</p>
+<p class="firstLetter">Sam Altman, a name synonymous with innovation and disruption in the tech world, embodies the essence of Enneagram Type 4- The Individualist.</p>
+
+His journey from the early days of Y Combinator to his current role at OpenAI is not just a tale of technological triumph but also a deep dive into the psyche of a complex, driven individual.
 
 ## What Is Sam Altman's Personality Type?
 
 ### Sam Altman as an Enneagram Type 4
 
-Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity. They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of Type 4.
+Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity.
+
+They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of Type 4.
 
 ## Sam Altman: A Prototype of the Enneagram 4
 
 ### Early Days: The Seed of Individualism
 
-From his intellectual beginnings at Stanford University, majoring in computer science, Sam Altman's path diverged from the conventional. His decision to leave Stanford to pursue entrepreneurial ventures highlights a typical Type 4's aversion to the ordinary and a drive for authenticity. This period was more than just an academic journey; it was the cultivation of an independent spirit, a hallmark of the Enneagram 4 personality.
+From his intellectual beginnings at Stanford University, majoring in computer science, Sam Altman's path diverged from the conventional.
+
+His decision to leave Stanford to pursue entrepreneurial ventures highlights a typical Type 4's aversion to the ordinary and a drive for authenticity. This period was more than just an academic journey; it was the cultivation of an independent spirit, a hallmark of the Enneagram 4 personality.
 
 ### Y Combinator and Beyond: Fostering innovation
 
-At Y Combinator, Altman's innate ability to spot potential and nurture innovation came to the forefront. This environment perfectly matched Type 4's core values of authenticity and self-expression. By empowering a community of innovators, Altman reshaped industries and solidified his identity as a visionary leader.
+At Y Combinator, Altman's innate ability to spot potential and nurture innovation came to the forefront.
+
+This environment perfectly matched Type 4's core values of authenticity and self-expression. By empowering a community of innovators, Altman reshaped industries and solidified his identity as a visionary leader.
 
 ### Embracing Complexity: The Shadows and Strengths
 

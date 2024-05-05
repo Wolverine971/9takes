@@ -218,7 +218,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 <h2 id="conclusion">Conclusion</h2>
 
-Hopefully this was insightful. Check this out for more on <a style="font-weight: bold;" href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>. 
+Hopefully this was insightful. Check this out for more on <a style="font-weight: bold;" href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

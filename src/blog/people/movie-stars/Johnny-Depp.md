@@ -37,11 +37,15 @@ tiktok: 'https://www.tiktok.com/@johnnydepp'
 
 > **Disclaimer** This analysis of Johnny Depp's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Johnny Depp.
 
-<p class="firstLetter">As a highly versatile actor with an unmistakable artistic flair, Johnny Depp has captivated audiences worldwide with his diverse range of performances. From the eccentric Captain Jack Sparrow in Pirates of the Caribbean to the tormented Edward Scissorhands, it's clear that Depp is drawn to roles that showcase the complexities of the human experience. It's no surprise, then, that many fans and experts alike believe that he embodies the traits of an Enneagram Type 4.</p>
+<p class="firstLetter">As a highly versatile actor with an unmistakable artistic flair, Johnny Depp has captivated audiences worldwide with his diverse range of performances.</p>
+
+From the eccentric Captain Jack Sparrow in Pirates of the Caribbean to the tormented Edward Scissorhands, it's clear that Depp is drawn to roles that showcase the complexities of the human experience. It's no surprise, then, that many fans and experts alike believe that he embodies the traits of an Enneagram Type 4.
 
 ## Individualism and Self-Expression
 
-One of the core characteristics of Type 4 is a deep need for individualism and self-expression. Depp's career is a testament to his desire to explore the boundaries of creativity and pursue his own artistic vision. Whether it's his passion for music, his love of painting, or his commitment to taking on unconventional roles, Depp has consistently shown a willingness to carve out his own path.
+One of the core characteristics of Type 4 is a deep need for individualism and self-expression.
+
+Depp's career is a testament to his desire to explore the boundaries of creativity and pursue his own artistic vision. Whether it's his passion for music, his love of painting, or his commitment to taking on unconventional roles, Depp has consistently shown a willingness to carve out his own path.
 
 ## Emotional Intensity
 

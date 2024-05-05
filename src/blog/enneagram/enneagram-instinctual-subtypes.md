@@ -19,7 +19,9 @@ pic: 'neoclassical-fortress2'
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Enneagram subtypes refer to the three different variations of each of the nine Enneagram types. These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.</p>
+<p class="firstLetter">Enneagram subtypes refer to the three different variations of each of the nine Enneagram types.</p>
+
+These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.
 
 ## Self-Preservation Enneagram Subtypes
 
