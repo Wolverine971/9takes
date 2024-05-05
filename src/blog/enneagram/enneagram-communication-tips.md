@@ -37,9 +37,11 @@ pic: 'greek-statues-arguing'
     />
 </div>
 
-Here is the table of contents section with just the relevant headings:
+<p class="firstLetter">How do you bring respect, curiosity, and an open mind into every conversation?</p>
 
-<details>
+Everyone has their own unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#type1">Enneagram 1 - Perfectionists: Communicate with Tact and Patience</a></li>
@@ -54,11 +56,6 @@ Here is the table of contents section with just the relevant headings:
         <li><a href="#conclusion">Conclusion</a></li>
     </ul>
 </details>
-
-
-<p class="firstLetter">How do you bring respect, curiosity, and an open mind into every conversation?</p>
-
-Everyone has their own unique strengths, weaknesses, and motivations, and try to understand where they're coming from. This blog will give some practical tips for communicating with each Enneagram type.
 
 <section class="section-content">
 

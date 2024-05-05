@@ -23,7 +23,11 @@ https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknes
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<details>
+<p class="firstLetter">Everyone has different strengths and weaknesses.</p>
+
+The trick is knowing how to identify them. There are also almost an infinite amount of dimensions by which we can slice and dice the things we are good at and bad at. Choosing where to start is difficult but the Enneagram can help.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#understanding">Understanding Your Energizers and Drainers</a></li>
@@ -39,10 +43,6 @@ https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknes
         <li><a href="#conclusion">Conclusion</a></li>
     </ul>
 </details>
-
-<p class="firstLetter">Everyone has different strengths and weaknesses.</p>
-
-The trick is knowing how to identify them. There are also almost an infinite amount of dimensions by which we can slice and dice the things we are good at and bad at. Choosing where to start is difficult but the Enneagram can help.
 
 <h2 id="understanding">Understanding Your Energizers and Drainers</h2>
 

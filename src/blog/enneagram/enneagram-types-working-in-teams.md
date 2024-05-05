@@ -35,7 +35,7 @@ pic: 'greek-statues-building-a-boat'
 
 <!-- here -->
 
-<details>
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#workingInTeam">How Each Enneagram Type Works in a Team</a></li>

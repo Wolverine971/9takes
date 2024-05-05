@@ -35,7 +35,7 @@ self efficacy is ____
 	/>
 </div>
 
-<details>
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#why-important">Why Self-efficacy is Important</a></li>

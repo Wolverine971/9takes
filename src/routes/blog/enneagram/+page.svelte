@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
-	import Layout from '$lib/components/blog/layout.svelte';
 	// import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	// import Card from '$lib/components/atoms/card.svelte';
@@ -16,154 +15,164 @@
 	slug={'blog/enneagram'}
 />
 
-<div style="width: 100%;">
-	<h1 id="enneagram">Enneagram Blogs</h1>
+<h1 id="enneagram">Enneagram Blogs</h1>
+<details open>
+	<summary class="accordion">Table of Contents</summary>
+	<ul>
+		<li><a href="#understanding">Understanding the Enneagram</a></li>
+		<li><a href="#9types">The Nine Enneagram Types</a></li>
+		<li><a href="#personal-development">The Enneagram for Personal Development</a></li>
+		<li><a href="#relationships">The Enneagram in Relationships</a></li>
+		<li><a href="#workplace">TheEnneagram in the Workplace</a></li>
+		<li><a href="#resources">TheEnneagram Resources</a></li>
+		<li><a href="#situations">The Enneagram Types in Specific Situations</a></li>
+	</ul>
+</details>
 
-	<h2>Understanding the Enneagram</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'overview'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="understanding">Understanding the Enneagram</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'overview'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
 
-	<h2>The Nine Enneagram Types</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'nine-types'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="9types">The Nine Enneagram Types</h2>
+<div class="blog-grid-container">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'nine-types'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
 
-	<h2>Using the Enneagram for Personal Development</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'development'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
-	<h2>Enneagram in Relationships</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'relationships'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="personal-development">Using the Enneagram for Personal Development</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'development'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
+<h2 id="relationships">Enneagram in Relationships</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'relationships'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
 
-	<h2>Enneagram in the Workplace</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'workplace'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="workplace">Enneagram in the Workplace</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'workplace'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
 
-	<h2>Enneagram Resources</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'resources'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="resources">Enneagram Resources</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'resources'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
+</div>
 
-	<h2>Enneagram Situational Topics</h2>
-	<div class="blog-grid-container">
-		{#each data.enneagramBlogs as eBlog}
-			{#if eBlog.type[0] === 'situational'}
-				<a
-					href="/blog/enneagram/{eBlog.slug}"
-					class="grid-item inline-it"
-					style={eBlog.pic &&
-						`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
-				>
-					<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
-						<h3>
-							{eBlog.title}
-						</h3>
-						<p class="font-adjust-p">{eBlog.description}</p>
-					</div>
-				</a>
-			{/if}
-		{/each}
-	</div>
+<h2 id="situations">Enneagram Situational Topics</h2>
+<div class="blog-grid-container temp-three-row">
+	{#each data.enneagramBlogs as eBlog}
+		{#if eBlog.type[0] === 'situational'}
+			<a
+				href="/blog/enneagram/{eBlog.slug}"
+				class="grid-item inline-it"
+				style={eBlog.pic &&
+					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
+			>
+				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+					<h3>
+						{eBlog.title}
+					</h3>
+					<p class="font-adjust-p">{eBlog.description}</p>
+				</div>
+			</a>
+		{/if}
+	{/each}
 </div>
 
 <style lang="scss">
@@ -201,7 +210,17 @@
 		height: 100%;
 		width: 100%;
 		gap: 1rem;
+		overflow: hidden;
+		text-overflow: clip;
 	}
+
+	.temp-three-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 0.5rem;
+		grid-row: inherit;
+	}
+
 	.fit-card {
 		position: absolute;
 		/* top: 0;
@@ -223,6 +242,11 @@
 		}
 		p {
 			font-size: 0.7rem;
+		}
+
+		.temp-three-row {
+			display: grid;
+			grid-template-columns: 30vw 30vw 30vw;
 		}
 
 		.blog-grid-container {

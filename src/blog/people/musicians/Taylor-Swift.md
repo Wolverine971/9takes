@@ -4,7 +4,7 @@ description: "Explore Taylor Swift's personality as an Enneagram Type 3, reveali
 author: 'DJ Wayne'
 date: '2023-07-29'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Taylor-Swift'
-lastmod: '2024-01-26'
+lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -70,7 +70,13 @@ At the heart of Taylor Swift’s persona lies a resolute Enneagram Type 3, the A
 
 #### The Evidence: Swift’s Rise to Stardom
 
-Swift exhibited the tenacity and ambition often associated with a Type 3 personality from a young age. She persuaded her family to relocate to Nashville, Tennessee, the heartland of country music, and inked her first record deal at a mere 14. Her commitment to her goals is manifest in her tireless work ethic; she is renowned for spending extensive hours in the studio, honing her craft.
+Swift exhibited the tenacity and ambition often associated with a Type 3 personality from a young age. She persuaded her family to relocate to Nashville, Tennessee, the heartland of country music, and inked her first record deal at a mere 14. From an early age she new what she wanted and she was going to do what she could to get there.
+
+Here is Anthony Recenello a social and relationship coach talking about Taylor's rise to fame.
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/payp-I_Yklo?si=gldfJJ4Q_fW0yc7x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 #### Navigating Controversies: The Resilient Achiever
 
@@ -135,7 +141,7 @@ Join us at 9takes - a community that values the exploration of personalities and
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-26"
+        "@value": "2024-05-04"
       },
       "datePublished": {
         "@type": "Date",

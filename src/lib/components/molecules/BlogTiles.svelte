@@ -7,6 +7,26 @@
 	};
 </script>
 
+<details open>
+	<summary class="accordion">Table of Contents</summary>
+	<ul>
+		<li><a href="#ideas">Ideas behind 9takes</a></li>
+		<li><a href="#guides">Guides</a></li>
+		<li><a href="#enneagram">The Enneagram explained</a></li>
+		<li><a href="#people">Personality Analysis</a></li>
+
+		<ul>
+			<li><a href="#musicians">Musicians/ Artists</a></li>
+			<li><a href="#celebrities">Celebrities</a></li>
+			<li><a href="#creators">Creators</a></li>
+			<li><a href="#politicians">Politicians</a></li>
+			<li><a href="#movie-stars">Movie Stars</a></li>
+			<li><a href="#historical-figures">Historical Figures</a></li>
+			<li><a href="#Techies">Techies</a></li>
+		</ul>
+	</ul>
+</details>
+
 <div style="width: 100%;">
 	<h2 id="ideas">Ideas behind 9takes</h2>
 	<div class="blog-grid-container">
@@ -74,9 +94,9 @@
 </div>
 
 <div style="width: 100%;">
-	<h2 id="people">People Analysis</h2>
+	<h2 id="people">Personality Analysis</h2>
 
-	<h3 class="position-center">Musicians/ Artists</h3>
+	<h3 id="musicians" class="position-center">Musicians/ Artists</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('musician');
@@ -105,7 +125,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Celebrities</h3>
+	<h3 id="celebrities" class="position-center">Celebrities</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('celebrity');
@@ -134,7 +154,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Creators</h3>
+	<h3 id="creators" class="position-center">Creators</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('creator');
@@ -163,7 +183,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Politicians</h3>
+	<h3 id="politicians" class="position-center">Politicians</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('politician');
@@ -192,36 +212,7 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Historical Figures</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('historical');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 class="position-center">Movie Stars</h3>
+	<h3 id="movie-stars" class="position-center">Movie Stars</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('movieStar');
@@ -250,7 +241,36 @@
 		{/each}
 	</div>
 
-	<h3 class="position-center">Techies</h3>
+	<h3 id="historical-figures" class="position-center">Historical Figures</h3>
+	<div class="people-grid-container">
+		{#each blogs?.people.filter((person) => {
+			return person.type?.includes('historical');
+		}) as person}
+			<a
+				href="/blog/famous-enneagram-types/{person.slug}"
+				class="grid-item max-high"
+				data-sveltekit-preload-data="tap"
+			>
+				{#if person.enneagram}
+					<img
+						fetchPriority="low"
+						loading="lazy"
+						class="grid-img"
+						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
+						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+						alt={person.slug.split('-').join(' ')}
+					/>
+				{/if}
+				<div class="fit-card txt-white">
+					<h3>
+						{person.slug.split('-').join(' ')}
+					</h3>
+				</div>
+			</a>
+		{/each}
+	</div>
+
+	<h3 id="Techies" class="position-center">Techies</h3>
 	<div class="people-grid-container">
 		{#each blogs?.people.filter((person) => {
 			return person.type?.includes('techie');

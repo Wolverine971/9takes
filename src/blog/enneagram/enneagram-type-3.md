@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 3: The Achiever'
+title: 'Enneagram Type 3: The Achiever'
 description: 'Understanding the Enneagram Type 3: The Achiever'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -21,7 +21,11 @@ blog: true
 <Carousel type={3} gridDisplay={true} />
 <br>
 
-<details>
+<p class="firstLetter">Enneagram Type 3s are known as "The Achiever."</p>
+
+They are the most ambitious and success-driven personality types. They strongly desire to excel in their chosen field and are highly motivated to achieve their goals. The three's secret weapon is their ability to adapt to any situation or environment.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 3 Description</a></li>
@@ -38,10 +42,6 @@ blog: true
         <li><a href="#famous">Famous Enneagram 3s</a></li>
     </ul>
 </details>
-
-<p class="firstLetter">Enneagram Type 3s are known as "The Achiever."</p>
-
-They are the most ambitious and success-driven personality types. They strongly desire to excel in their chosen field and are highly motivated to achieve their goals. The three's secret weapon is their ability to adapt to any situation or environment.
 
 <section class="section-content">
 
@@ -252,7 +252,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 3 in the Workplace</h2>
 
-Enneagram Type 3 individuals, or "The Achiever," are highly driven and goal-oriented, making them well-suited for the workplace. They are ambitious and results-driven, often focused on achieving success and advancing their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
+Enneagram Type 3 individuals are highly driven and goal-oriented, making them well-suited for the workplace. 
+
+They are Stereotypically workaholics. They are ambitious and results-driven, often focused on achieving success and advancing their careers. They are often skilled at networking and building relationships, which can be a valuable asset in many industries.
 
 In the workplace, Type 3s are very competitive and often strive to be the best in their field. They are self-confident and natural leaders who inspire and motivate others to achieve their goals. They are often skilled at strategic planning and have a talent for seeing the big picture, which allows them to make sound business decisions.
 
@@ -268,7 +270,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2>Career Paths</h2>
 
-Enneagram Type 3 individuals excel in careers that allow them to use their natural talents and skills. They thrive in competitive environments and enjoy being recognized for their achievements. Some common career paths for Type 3 individuals include:
+Enneagram Type 3 individuals thrive in competitive environments and enjoy being recognized for their achievements. 
+
+Some common career paths for Type 3 individuals include:
 
 - Sales and marketing
 - Public relations
@@ -311,7 +315,7 @@ In this video, Beatrice Chestnut moderates a panel discussion with several Ennea
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 3s</h2>
+<h2 id="famous">🌟 Famous Enneagram 3s</h2>
 
 <FamousTypes type={3} />
 

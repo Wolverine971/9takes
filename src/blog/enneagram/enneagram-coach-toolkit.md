@@ -1,5 +1,5 @@
 ---
-title: "The Busy Enneagram Coach's Toolkit: Homework & Explanation Tips"
+title: "The Busy Enneagram Coach's Toolkit: Homework & Tips"
 description: 'Discover essential homework strategies for Enneagram coaches and learn to avoid common explanation mistakes in our latest blog.'
 author: 'DJ Wayne'
 date: '2024-04-19'

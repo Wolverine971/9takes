@@ -24,9 +24,26 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 	// const posts = await Promise.all(postPromises);
 	const publishedPosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
-	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
+	const uniqueTypes = Array.from(new Set(publishedPosts.map(obj => obj?.enneagram)));
 
-	return { people: publishedPosts };
+	// Store objects of unique types
+	const uniqueObjects: any[] = [];
+
+	// Iterate through unique types
+	uniqueTypes.forEach(enneagram => {
+		// Find objects with current type
+		const objectsWithType = publishedPosts.filter(obj => obj?.enneagram === enneagram);
+
+		// Sort objects by date_created
+		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
+
+		// Push first 3 objects to uniqueObjects
+		uniqueObjects.push(...objectsWithType.slice(0, 3));
+	});
+
+
+
+	return { people: uniqueObjects };
 };
 
 const getAllPosts = async () => {

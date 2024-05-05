@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 4: The Individualist'
+title: 'Enneagram Type 4: The Individualist'
 description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -21,7 +21,12 @@ blog: true
 <Carousel type={4} gridDisplay={true} />
 <br>
 
-<details>
+
+<p class="firstLetter">Enneagram Type 4 is known as The Individualist and is one of the three types in the Feeling Center/ Heart Triad.</p>
+
+Being in the Feeling Center or Heart Triad means that they make decisions based on emotions and strongly connect to their inner world. Type 4 individuals deeply desire to be unique and express themselves creatively. They often feel like they don't quite fit in and may struggle with longing or melancholy.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 4 Description</a></li>
@@ -39,15 +44,13 @@ blog: true
     </ul>
 </details>
 
-<p class="firstLetter">Enneagram Type 4 is known as The Individualist and is one of the three types in the Feeling Center/ Heart Triad.</p>
-
-Being in the Feeling Center or Heart Triad means that they make decisions based on emotions and strongly connect to their inner world. Type 4 individuals deeply desire to be unique and express themselves creatively. They often feel like they don't quite fit in and may struggle with longing or melancholy.
-
 <section class="section-content">
 
 <h2>Enneagram 4 Description</h2>
 
-Individuals with the Enneagram Type 4 are known for their strong sense of self and desire to express individuality. A sense of authenticity and self-expression drives them, and they need to be understood and appreciated for who they are. Individualists are often highly creative and artistic, striving to make a meaningful impact in their lives and the world around them.
+Enneagram Type 4s are known for their strong sense of self and desire to express individuality. 
+
+A sense of authenticity and self-expression drives them, and they need to be understood and appreciated for who they are. Individualists are often highly creative and artistic, striving to make a meaningful impact in their lives and the world around them.
 
 One of the most notable characteristics of the Enneagram Type 4 is their strong sense of emotional intensity. Individualists have a deep and complex inner world and are highly attuned to their emotions and feelings. They often strongly desire to be understood and valued for their unique perspective and experiences.
 
@@ -112,7 +115,9 @@ Individualists can be moody and withdrawn, making forming and maintaining relati
 
 <h2 id="motivations">🧭 Motivations of an Enneagram 4</h2>
 
-The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning. Type 4s deeply need to understand themselves and their place in the world, and they often feel a sense of incompleteness or longing for something they believe is missing in their lives.
+The motivations of Enneagram Type 4 personalities are rooted in their desire for self-discovery, authenticity, and meaning. 
+
+Type 4s deeply need to understand themselves and their place in the world, and they often feel a sense of incompleteness or longing for something they believe is missing in their lives.
 
 Type 4s are highly individualistic and strive to express their unique identity through various forms of art, music, or other creative outlets. They value authenticity and reject societal norms and expectations in favor of living according to their beliefs and values.
 
@@ -164,7 +169,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 4 in the Workplace</h2>
 
-Enneagram Type 4 individuals bring unique strengths and challenges to the workplace. They are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and develop original ideas. They are also deeply attuned to their emotions and those of others, which can make them insightful and empathetic team members.
+Enneagram Type 4s are often creative, innovative, and highly intuitive, with a natural ability to think outside the box and develop original ideas. 
+
+They are deeply attuned to their emotions and those of others, which can make them insightful and empathetic team members.
 
 Type 4s are often drawn to work that allows them to express their individuality and creativity, such as art, music, writing, or design. They may also be drawn to professions that involve helping others, such as counseling, social work, or teaching. However, they may struggle in environments that feel too rigid or rule-bound, as they value the freedom to express themselves and follow their instincts.
 
@@ -178,7 +185,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2 id="growth">🌱 Growth and Development for Type 4 Personalities</h2>
 
-Enneagram Type 4 individuals, or Individualists, have unique strengths but face specific challenges. A significant growth area for them is learning to accept themselves and cope with inadequacy and self-doubt. They often struggle to find their place in the world and may experience intense emotions like envy and longing for a life they perceive as more fulfilling. In relationships, maintaining healthy boundaries and avoiding codependency are common challenges.
+A significant growth area for enneagram type 4s is learning to accept themselves and cope with inadequacy and self-doubt. 
+
+They often struggle to find their place in the world and may experience intense emotions like envy and longing for a life they perceive as more fulfilling. In relationships, maintaining healthy boundaries and avoiding codependency are common challenges.
 
 To foster personal growth, Type 4s can focus on:
 
@@ -212,7 +221,7 @@ The panelists provide a nuanced look at the unique patterns and challenges faced
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 4s</h2>
+<h2 id="famous">🌟 Famous Enneagram 4s</h2>
 
 <FamousTypes type={4} />
 

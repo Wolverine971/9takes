@@ -15,101 +15,18 @@
 
 <BlogPageHead
 	data={{
-		title: '9takes Blog',
-		description: 'List of blogs about the Enneagram and 9takes',
+		title: 'All the 9takes Blogs',
+		description:
+			'List of blogs about the Enneagram, guides, personality analysis of famous people and the ideas behind 9takes',
 		pic: 'rome'
 	}}
 	slug={'blog'}
 />
 
 <svelte:head />
-<h1>The 9takes Blog</h1>
-{#if structuredView}
-	<div class="btn-container-right">
-		<button
-			aria-label="structured view of blogs button"
-			title="structured view of blogs"
-			class="view-btn"
-			style=""
-			on:click={() => {
-				structuredView = false;
-			}}
-		>
-			<ObjectsColumnOutlineIcon
-				iconStyle={'padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={!structuredView ? '#5407d9' : ''}
-			/>
-		</button>
+<h1>All the 9takes Blogs</h1>
 
-		<button
-			aria-label="image preview view of blogs button"
-			title="image preview view of blogs"
-			class="view-btn"
-			style=""
-			on:click={() => {
-				structuredView = true;
-			}}
-		>
-			<SiteMapIcon
-				iconStyle={'padding: 0.25rem;'}
-				height={'1.5rem'}
-				fill={structuredView ? '#5407d9' : ''}
-			/>
-		</button>
-	</div>
-	<div class="flex-columns">
-		<StructuredBlogView />
-	</div>
-{:else}
-	<div>
-		<div style="display: flex; justify-content: space-between">
-			<div>
-				<ul>
-					<li><a href="#ideas" class="blog-headings">Ideas</a></li>
-					<li><a href="#guides" class="blog-headings">Guides</a></li>
-					<li><a href="#enneagram" class="blog-headings">Enneagram</a></li>
-					<li><a href="#people" class="blog-headings">Famous People</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<button
-					aria-label="structured view of blogs button"
-					title="structured view of blogs"
-					class="view-btn"
-					style=""
-					on:click={() => {
-						structuredView = false;
-					}}
-				>
-					<ObjectsColumnOutlineIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={!structuredView ? '#5407d9' : ''}
-					/>
-				</button>
-
-				<button
-					aria-label="image preview view of blogs button"
-					title="image preview view of blogs"
-					class="view-btn"
-					style=""
-					on:click={() => {
-						structuredView = true;
-					}}
-				>
-					<SiteMapIcon
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={structuredView ? '#5407d9' : ''}
-					/>
-				</button>
-			</div>
-		</div>
-		<BlogTiles blogs={data} />
-	</div>
-{/if}
+<BlogTiles blogs={data} />
 
 <style lang="scss">
 	.blog-headings {

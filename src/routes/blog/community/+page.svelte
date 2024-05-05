@@ -103,6 +103,7 @@
 		height: 100%;
 		width: 100%;
 		gap: 1rem;
+		overflow: hidden;
 	}
 	.fit-card {
 		position: absolute;

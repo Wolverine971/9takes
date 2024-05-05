@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 2: The Helper'
+title: 'Enneagram Type 2: The Helper'
 description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -21,7 +21,12 @@ blog: true
 <Carousel type={2} gridDisplay={true} />
 <br>
 
-<details>
+
+<p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
+
+Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls. Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 2 Description</a></li>
@@ -39,15 +44,13 @@ blog: true
     </ul>
 </details>
 
-<p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
-
-Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls. Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
-
 <section class="section-content">
 
 <h2>Enneagram 2 Description</h2>
 
-They are commonly known as "The Helper," Type 2s are recognized for their caring, empathetic nature and a strong desire to serve others. This deep-rooted desire to help and be needed manifests in various ways. They are generous, emotionally intuitive, and often prioritize the needs and well-being of those around them, sometimes even at the expense of their own needs.
+Type 2s are recognized for their caring, empathetic nature and a strong desire to serve others. 
+
+This deep-rooted desire to help and be needed manifests in various ways. They are generous, emotionally intuitive, and often prioritize the needs and well-being of those around them, sometimes even at the expense of their own needs.
 
 Key traits of the Enneagram Type 2 personality include:
 
@@ -105,7 +108,9 @@ While Type 2 individuals possess many strengths, they also face several challeng
 
 <h2 id="motivations">🧭 Motivations of an Enneagram 2</h2>
 
-The Helper is motivated by a deep desire to be loved and appreciated by those around them. They seek to find their self-worth through the validation of others. The Helper often looks for ways to be of service to others, and they feel most fulfilled when they are helping others. However, their desire to help others can also come at a cost. Type 2 personalities may neglect their needs and emotions, leading to burnout and resentment. They may also struggle with boundaries, taking on too much responsibility and becoming overwhelmed.
+The Helper is motivated by a deep desire to be loved and appreciated by those around them. 
+
+They seek to find their self-worth through the validation of others. The Helper often looks for ways to be of service to others, and they feel most fulfilled when they are helping others. However, their desire to help others can also come at a cost. Type 2 personalities may neglect their needs and emotions, leading to burnout and resentment. They may also struggle with boundaries, taking on too much responsibility and becoming overwhelmed.
 
 </section>
 
@@ -185,7 +190,10 @@ If Type 2s do not address their tendency to prioritize others' needs over their 
 <section class="section-content">
 
 <h2 id="growth">🌱 Growth and Development for Type 2 Personalities</h2>
-Type 2 personalities, often known for their caring and nurturing nature, can significantly benefit from focusing on self-care and setting healthy boundaries. They must learn to prioritize their needs and emotions rather than consistently placing others' needs above their own. Effectively communicating their needs and desires is also crucial, as they rely on others to intuitively understand their emotions.
+
+Type 2 personalities can significantly benefit from focusing on self-care and setting healthy boundaries. 
+
+They must learn to prioritize their needs and emotions rather than consistently placing others' needs above their own. Effectively communicating their needs and desires is also crucial, as they rely on others to intuitively understand their emotions.
 
 Critical strategies for personal growth for Type 2s include:
 
@@ -216,7 +224,7 @@ In this video, Beatrice Chestnut hosts a panel discussion with several individua
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 2s</h2>
+<h2 id="famous">🌟 Famous Enneagram 2s</h2>
 
 <FamousTypes type={2} />
 

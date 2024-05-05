@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 5: The Observer'
+title: 'Enneagram Type 5: The Observer'
 description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -21,7 +21,13 @@ blog: true
 <Carousel type={5} gridDisplay={true}/>
 <br>
 
-<details>
+
+
+<p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
+
+These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 5 Description</a></li>
@@ -38,10 +44,6 @@ blog: true
         <li><a href="#famous">Famous Enneagram 5s</a></li>
     </ul>
 </details>
-
-<p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
-
-These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
 
 <section class="section-content">
 
@@ -177,9 +179,11 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 5 in the Workplace</h2>
 
-Enneagram Type 5s are known in the workplace for their analytical and independent approach to work. They have a strong desire to understand the details and inner workings of their field of expertise and often prefer working in roles that allow them to focus on research, analysis, and problem-solving.
+Enneagram Type 5s are known in the workplace for their analytical and independent approach to work.
 
-Type 5s value autonomy and may prefer working independently or in small groups rather than in a large team setting. They may find it challenging to work in environments requiring frequent social interaction or teamwork, as they prefer working in quieter and more reflective environments.
+Stereotypically type 5s are the programmers, or the engineers, or the accountants. They have a strong desire to understand the details and inner workings of their field of expertise and often prefer working in roles that allow them to focus on research, analysis, and problem-solving.
+
+Type 5s also value autonomy and may prefer working independently or in small groups. Large team settings and activities may make 5's feel uncomfortable and out of their element. They may find it challenging to work in environments requiring frequent social interaction or teamwork, as they prefer working in quieter and more reflective environments.
 
 While they are often highly skilled and knowledgeable in their areas of expertise, Type 5s may need help sharing their insights and ideas with others. They may need to be encouraged to communicate their knowledge and expertise with colleagues and may require additional support to develop their interpersonal skills.
 
@@ -191,7 +195,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2 id="growth">🌱 Growth and Development for Type 5 Personalities</h2>
 
-For individuals with a Type 5 personality, fostering personal growth involves a focus on cultivating emotional intelligence and developing stronger interpersonal relationships. It's beneficial for Type 5s to apply their knowledge and expertise in practical ways while also engaging in activities that balance their analytical tendencies.
+Type 5 personalities have to work on developing emotional intelligence. It doesn't come natural to them.
+
+When they do make an effort to recognize the realm of emotions it opens up the world of interpersonal relationships for them. It's beneficial for Type 5s to apply their knowledge and expertise in practical ways while also engaging in activities that balance out their analytical tendencies.
 
 Critical strategies for growth include:
 
@@ -227,7 +233,7 @@ Key Takeaways:
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 5s</h2>
+<h2 id="famous">🌟 Famous Enneagram 5s</h2>
 
 <FamousTypes type={5} />
 

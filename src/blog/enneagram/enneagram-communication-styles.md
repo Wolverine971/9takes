@@ -35,21 +35,6 @@ pic: 'two-female-greek-statues-having-a-conversation'
 	/>
 </div>
 
-<details>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#type1">Type 1 - The Perfectionist: Communicating with Precision and Purpose</a></li>
-        <li><a href="#type2">Type 2 - The Helper: Empathetic Communication for Strong Connections</a></li>
-        <li><a href="#type3">Type 3 - The Achiever: Confident Communication for Success</a></li>
-        <li><a href="#type4">Type 4 - The Individualist: Authentic Expression in Communication</a></li>
-        <li><a href="#type5">Type 5 - The Investigator: Analytical Communication for Clarity</a></li>
-        <li><a href="#type6">Type 6 - The Loyalist: Cautious Communication for Trust-Building</a></li>
-        <li><a href="#type7">Type 7 - The Enthusiast: Engaging Communication for Inspiration</a></li>
-        <li><a href="#type8">Type 8 - The Challenger: Assertive Communication for Impact</a></li>
-        <li><a href="#type9">Type 9 - The Peacemaker: Harmonious Communication for Unity</a></li>
-    </ul>
-</details>
-
 <p class="firstLetter">Want to be able to talk with anyone about anything?</p>
 
 The Enneagram can help. Below is a handy guide that shows us how different personality types talk and relate to one another. Each of the nine Enneagram types has a unique way of interacting.
@@ -66,6 +51,21 @@ Here we look at a slew of things related to communication:
 - giving feedback and adapting to changes.
 
 This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
+
+<details open>
+<summary class="accordion">Table of Contents</summary>
+    <ul>
+        <li><a href="#type1">Type 1 - The Perfectionist: Communicating with Precision and Purpose</a></li>
+        <li><a href="#type2">Type 2 - The Helper: Empathetic Communication for Strong Connections</a></li>
+        <li><a href="#type3">Type 3 - The Achiever: Confident Communication for Success</a></li>
+        <li><a href="#type4">Type 4 - The Individualist: Authentic Expression in Communication</a></li>
+        <li><a href="#type5">Type 5 - The Investigator: Analytical Communication for Clarity</a></li>
+        <li><a href="#type6">Type 6 - The Loyalist: Cautious Communication for Trust-Building</a></li>
+        <li><a href="#type7">Type 7 - The Enthusiast: Engaging Communication for Inspiration</a></li>
+        <li><a href="#type8">Type 8 - The Challenger: Assertive Communication for Impact</a></li>
+        <li><a href="#type9">Type 9 - The Peacemaker: Harmonious Communication for Unity</a></li>
+    </ul>
+</details>
 
 <article>
 <h2 id="type1">Enneagram Type 1 - The Perfectionist: Communicating with Precision and Purpose</h2>

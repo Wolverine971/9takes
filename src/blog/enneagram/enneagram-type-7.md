@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 7: The Enthusiast'
+title: 'Enneagram Type 7: The Enthusiast'
 description: 'Understanding the Enneagram Type 7: The Enthusiast'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -21,7 +21,12 @@ blog: true
 <Carousel type={7} gridDisplay={true} />
 <br>
 
-<details>
+
+<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram.</p>
+
+Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 7 Description</a></li>
@@ -38,10 +43,6 @@ blog: true
         <li><a href="#famous">Famous Enneagram 7s</a></li>
     </ul>
 </details>
-
-<p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the quintessential adventurers of the Enneagram.</p>
-
-Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.
 
 <section class="section-content">
 
@@ -111,7 +112,9 @@ Type 7s are motivated by the desire for new experiences and adventure. They want
 
 <h2 id="fears">😨 Fears of an Enneagram 7</h2>
 
-One of the core fears of Type 7s is the fear of being trapped or limited in their options and experiences. They naturally desire freedom, adventure, and exploration and may fear that commitments or responsibilities will restrict their ability to pursue these things. As a result, they may avoid situations that feel constricting or confining and struggle with commitment in relationships, careers, or other areas of their life.
+One of the core fears of Type 7s is the fear of being trapped or limited in their options and experiences. 
+
+They naturally desire freedom, adventure, and exploration and may fear that commitments or responsibilities will restrict their ability to pursue these things. As a result, they may avoid situations that feel constricting or confining and struggle with commitment in relationships, careers, or other areas of their life.
 
 Another fear of Type 7s is missing out on experiences or opportunities. They have an intense FOMO (fear of missing out) drive, and they may feel anxious or restless when they perceive that there are experiences or opportunities available to them that they cannot access. This can sometimes lead to impulsive decision-making or jumping from one adventure to another without fully considering the consequences.
 
@@ -209,7 +212,7 @@ In this panel discussion, Enneagram expert Beatrice Chestnut sits down with a gr
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 7s</h2>
+<h2 id="famous">🌟 Famous Enneagram 7s</h2>
 
 <FamousTypes type={7} />
 

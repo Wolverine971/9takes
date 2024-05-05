@@ -1,37 +1,9 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
-	import Layout from '$lib/components/blog/layout.svelte';
-	// import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
-	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
-	// import Card from '$lib/components/atoms/card.svelte';
+	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 
 	export let data: PageData;
-
-	const politicians = data.people.filter((person) => {
-		return person.type?.includes('politician');
-	});
-	const celebrities = data.people.filter((person) => {
-		return person.type?.includes('celebrity');
-	});
-	const historicals = data.people.filter((person) => {
-		return person.type?.includes('historical');
-	});
-	const musicians = data.people.filter((person) => {
-		return person.type?.includes('musician');
-	});
-	const techies = data.people.filter((person) => {
-		return person.type?.includes('techie');
-	});
-	const creators = data.people.filter((person) => {
-		return person.type?.includes('creator');
-	});
-	const lifestyleInfluencer = data.people.filter((person) => {
-		return person.type?.includes('lifestyleInfluencer');
-	});
-	const movieStar = data.people.filter((person) => {
-		return person.type?.includes('movieStar');
-	});
 </script>
 
 <BlogPageHead
@@ -56,169 +28,42 @@
 	Intrigued? Your exploration into the complex tapestry of human personalities starts here.
 </p>
 <div class="blog-list tile-display">
-	<h3 class="position-center">Celebrities</h3>
-	<div class="people-grid-container">
-		{#each celebrities as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 class="position-center">Musicians/ Artists</h3>
-
-	<div class="people-grid-container">
-		{#each musicians as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 class="position-center">Creators</h3>
-	<div class="people-grid-container">
-		{#each creators as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 class="position-center">Politicians</h3>
-	<div class="people-grid-container">
-		{#each politicians as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 class="position-center">Historical Figures</h3>
-	<div class="people-grid-container">
-		{#each historicals as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-	<h3 class="position-center">Movie Stars</h3>
-	<div class="people-grid-container">
-		{#each movieStar as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<!-- <h3 class="position-center">Techies</h3>
-	<ul>
-		{#each techies as person}
-			<li>
-				<a href={`/blog/famous-enneagram-types/${person.slug}`}>
-					{person.slug.split('-').join(' ')}
+	{#each Array.from(Array(10).keys()) as number}
+		{#if number !== 0}
+			<h3 class="position-center">Famous Enneagram type {number}</h3>
+			<div class="people-grid-container">
+				{#each data.people.filter((p) => p.enneagram === number) as person}
+					<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+						{#if person.enneagram}
+							<img
+								srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
+								loading="lazy"
+								class="grid-img"
+								src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+								alt={person.slug.split('-').join(' ')}
+							/>
+						{/if}
+						<div class="fit-card txt-white">
+							<h3>
+								{person.slug.split('-').join(' ')}
+							</h3>
+						</div>
+					</a>
+				{/each}
+				<a href="/blog/famous-enneagram-types/type/{number}" class="grid-item">
+					<div class="fit-card black-white">
+						<h3 style="display: flex; align-items: center; justify-content: center;">
+							All {number}s <ArrowRightIcon
+								iconStyle={'margin-left: .5rem'}
+								height={'1.5rem'}
+								fill={'#5407d9'}
+							/>
+						</h3>
+					</div>
 				</a>
-			</li>
-		{/each}
-	</ul> -->
-	<h3 class="position-center">Techies</h3>
-	<div class="people-grid-container">
-		{#each techies as person}
-			<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
-				{#if person.enneagram}
-					<img
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
+			</div>
+		{/if}
+	{/each}
 
 	<br />
 	<hr />
@@ -282,7 +127,7 @@
 		width: 100%;
 		display: grid;
 		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		column-count: 3;
 		column-gap: 1.25rem;
 		grid-gap: 0.5rem;
@@ -311,7 +156,7 @@
 			font-size: 0.7rem;
 		}
 		.people-grid-container {
-			grid-template-columns: 30vw 30vw 30vw;
+			grid-template-columns: 21vw 21vw 21vw 21vw;
 		}
 	}
 </style>

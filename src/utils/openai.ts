@@ -217,61 +217,43 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 
 // I can pull this system prompt dynamically
 
-export const classifyOneQuestionPrompt2 = `You are going to be given a question or a statement.  Your job is to do three things and return a json response. 
-First, you should should use the Enneagram system of personality to answer or respond to the question or statement in 9 different ways that correlate to the 9 different Enneagram types. 
-The way in which you answer the questions should be conversational as if a real person were answering the question or statement but it should take into account how different enneagram personalities would approach and respond. 
+export const classifyOneQuestionPrompt2 = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 3 tasks and return a formatted json response. 
+1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. 
+Your response should be conversational and you should approach the question like the Enneagram type. 
 
-Second, you need to classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
-Third, format the question and add punctuation.
+2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+3rd, format the question and add punctuation.
 For example: [
-    {id: 1, question: "I need date ideas What would you do", question_formatted: "I need date ideas, what would you do?", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "I would go to the movies"}, {2: "I would go to the park"} ...]}
+    {id: 1, question: "I need date ideas What would you do", question_formatted: "I need date ideas, what would you do?", tags: ["Personal Growth", "Romantic Relationships"], answers: [{1: "A thoughtfully planned date that aligns with your shared values is ideal. Perhaps a museum visit, volunteering together, or dining at a reputable restaurant. The key is to be respectful, authentic, and create a meaningful connection."}, {2: "...."} ...]}
  ]
  Only tag from these predefined tags:
  `;
 
-const classifyOneQuestionPrompt = `Your task involves 3 main components: responding to a question or statement using the Enneagram personality system and classifying the question or statement with predefined tags. 
-Also, format the question and add punctuation.
-The response should be formatted in JSON.
-
- Detailed Instructions:
- 
- Receive a Question or Statement: You will be given a question or a statement.
- 
- Respond Using the Enneagram System:
- Use the Enneagram system of personality to craft 9 distinct responses.
- Each response should correspond to one of the 9 Enneagram types.
- Your answers should be conversational, as if a real person of each Enneagram type is responding.
- Ensure that each response reflects how different Enneagram personalities might approach and answer the question or statement.
- But be causal and unique for each Enneagram Type and do not mention the Enneagram in the response.
- 
- 
+const classifyOneQuestionPrompt = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 3 tasks and return a formatted json response. 
+1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. 
+Your response should be conversational and you should approach the question like the Enneagram type. 
+2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
+3rd, format the question and add punctuation.
  
  Format the Response in VALID JSON like the following example:
  [
 	{
 	  id: 1,
-	  question: "What was your Dream job as a child",
-	  question_formatted: "What was your dream job as a child?",
+	  question: "I need date ideas What would you do",
+	  question_formatted: "I need date ideas, what would you do?",
 	  tags: [
-		"Personal Growth",
-		"Career Development",
-		"Childhood",
-		"Aspirations",
+		"Personal Growth", "Romantic Relationships"
 	  ],
 	  answers: {
-		  "1": "As a child, I dreamed of having a job where I could make a positive impact on the world, like becoming a teacher or a social worker.",
-		  "2": "I always wanted to be a performer, like an actor or a singer. I loved the idea of being on stage and entertaining people.",
-		  "3": "I wanted to be a successful entrepreneur. Even as a child, I was always thinking of new business ideas and ways to make money.",
-		  "4": "As a child, I was drawn to creative fields like writing or painting. I loved the idea of expressing myself through art.",
-		  "5": "My dream job as a child was to become a scientist or an inventor. I was fascinated by the world of discovery and innovation.",
-		  "6": "I wanted to be a police officer or a firefighter. I admired the bravery and dedication of those professions.",
-		  "7": "As a child, I dreamed of being a travel blogger or a photographer. I wanted to explore the world and capture its beauty.",
-		  "8": "I wanted to be a professional athlete. I loved sports and the idea of competing at the highest level.",
-		  "9": "My dream job as a child was to be a veterinarian. I had a strong love for animals and wanted to help them."
+		  "1": "...",
+		  "2": "...",
+		  ...
 		},
 	  ],
 	},
   ]
+
+  Vary up the response length depending on how the Enneagram type would likely respond.
 
 Classify the Question or Statement:
 Tag the question or statement with applicable predefined tags.

@@ -43,10 +43,17 @@ outbursts of anger fear and shame
 <!-- show table of contents
 accordion on mobile
  -->
-<details>
+
+
+<p class="firstLetter" >Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
+
+TLDR: It's because specific personalities are sensitive to specific emotions, and when specific situations cause them to feel that emotion, they lash out. You might be surprised to learn that the reasons people lash out are not as complex as you might think. Lashing out is due to something making us feel one of these three emotions: anger, fear, or shame.
+
+Here, we are going to use the Enneagram to understand why these emotions come up and learn how to mitigate the lashing out.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
-        <li><a href="#intro">Intro</a></li>
         <li><a href="#bigMistake">What everyone gets wrong about stress</a></li>
         <li><a href="#situationsChange">Situations change, but emotions do not</a></li>
         <li><a href="#exploringStress">Exploring the stress number for each type</a></li>
@@ -64,12 +71,6 @@ accordion on mobile
         <li><a href="#conclusion">The power of understanding your stress number</a></li>
     </ul>
 </details>
-
-<p class="firstLetter" id="intro">Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
-
-TLDR: It's because specific personalities are sensitive to specific emotions, and when specific situations cause them to feel that emotion, they lash out. You might be surprised to learn that the reasons people lash out are not as complex as you might think. Lashing out is due to something making us feel one of these three emotions: anger, fear, or shame.
-
-Here, we are going to use the Enneagram to understand why these emotions come up and learn how to mitigate the lashing out.
 
 <!-- out that emotion these have been developed overtime starting from childhood.  -->
 

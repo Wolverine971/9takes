@@ -1,5 +1,5 @@
 ---
-title: 'Overview of Enneagram Type 6: The Loyalist'
+title: 'Enneagram Type 6: The Loyalist'
 description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -26,7 +26,14 @@ enneagram 6 wing 7
 <Carousel type={6} gridDisplay={true}/>
 <br>
 
-<details>
+
+<p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner."</p>
+
+They are the quintessential team players and are highly committed to their relationships and communities. Enneagram 6s value security, safety, and stability and can be apprehensive when threatened. They are wary of who to trust but seek a sense of belonging. The often form strong bonds with their friends, family, and colleagues.
+
+The Loyalist's core emotion is fear. They are constantly on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which increases their sense of safety but it can hold them back.
+
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#description">Enneagram 6 Description</a></li>
@@ -43,12 +50,6 @@ enneagram 6 wing 7
         <li><a href="#famous">Famous Enneagram 6s</a></li>
     </ul>
 </details>
-
-<p class="firstLetter">The Enneagram Type 6 is known as "the Loyalist" or "the Questioner."</p>
-
-They are the quintessential team players and are highly committed to their relationships and communities. Enneagram 6s value security, safety, and stability and can be apprehensive when threatened. They are wary of who to trust but seek a sense of belonging. The often form strong bonds with their friends, family, and colleagues.
-
-The Loyalist's core emotion is fear. They are constantly on the lookout for potential dangers or risks. They tend to be good at anticipating problems and are highly risk-averse. This can lead to them needing to be more cautious and confident in decision-making, which increases their sense of safety but it can hold them back.
 
 <section class="section-content">
 
@@ -167,7 +168,9 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 6 in the Workplace</h2>
 
-Type 6s are highly reliable and loyal employees, and they strongly emphasize security and stability in the workplace. They thrive in environments where they feel valued and supported, and they are often highly attuned to their colleagues' and superiors' needs and desires.
+Type 6s are highly reliable and loyal employees, and they strongly emphasize security and stability in the workplace. 
+
+They thrive in environments where they feel valued and supported, and they are often highly attuned to their colleagues' and superiors' needs and desires.
 
 At the same time, Type 6s may struggle with self-doubt and anxiety in the workplace, which can lead them to second-guess their decisions and actions. They may also be hesitant to take risks or make significant changes, as they prefer to stick with what is familiar and safe.
 
@@ -234,7 +237,7 @@ Key Takeaways:
 
 <section class="section-content">
 
-<h2 href="#famous">🌟 Famous Enneagram 6s</h2>
+<h2 id="famous">🌟 Famous Enneagram 6s</h2>
 
 <FamousTypes type={6} />
 

@@ -1,10 +1,10 @@
 <script lang="ts">
-	import type { PageData } from './$types';
 	import { invalidateAll } from '$app/navigation';
 	import { QuestionItem } from '$lib/components';
+	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 
 	/** @type {import('./$types').PageData} */
-	export let data: PageData;
+	export let data: any;
 </script>
 
 <svelte:head>
@@ -19,6 +19,7 @@
 </svelte:head>
 
 <div>
+	<SearchQuestion {data} />
 	<h1 class="question-box" id="question-box" itemprop="name">
 		{data?.questionTag?.tag_name}
 	</h1>
