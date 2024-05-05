@@ -6,12 +6,12 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Michelle-Obama', link: true },
 		{ name: 'Nelson-Mandela', link: false },
 		{ name: 'Ruth-Bader-Ginsburg', link: true },
-		{ name: 'Steve-Jobs', link: false },
+		{ name: 'Steve-Jobs', link: true },
 		{ name: 'Brene-Brown', link: false },
 		{ name: 'Gandhi', link: false },
 		{ name: 'Morgan-Freeman', link: false },
 		{ name: 'Kourtney-Kardashian', link: true },
-		{ name: 'Jennifer-Garner', link: true }
+		{ name: 'Jennifer-Garner', link: true },
 	],
 	2: [
 		{ name: 'Oprah-Winfrey', link: true },

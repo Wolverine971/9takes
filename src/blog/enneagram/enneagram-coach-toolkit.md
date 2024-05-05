@@ -4,7 +4,7 @@ description: 'Discover essential homework strategies for Enneagram coaches and l
 author: 'DJ Wayne'
 date: '2024-04-19'
 loc: 'https://9takes.com/blog/enneagram/enneagram-coach-toolkit'
-lastmod: '2024-04-24'
+lastmod: '2024-05-05'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -90,3 +90,93 @@ Clear, relatable explanations keep beginners interested and eager to learn more.
 Enneagram coaching is not confined to the session time; it extends through thoughtfully assigned homework and clear, engaging initial explanations.
 
 In addition to the above, there are <a class="external-link" target="_blank" href="https://explaintheenneagram.com/" >5 the common pitfalls in explaining the Enneagram to newcomers that are turn-offs</a>. If you are ready to learn more and refine your approach to attracting and retaining clients, click the link ⬆️.
+
+<svelte:head>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@graph": [
+    {
+      "@type": "Article",
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+          ]
+      },
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2024-05-05"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2024-04-19"
+      },
+      "description": "Discover essential homework strategies for Enneagram coaches and learn to avoid common explanation mistakes in our latest blog.",
+      "headline": "The Busy Enneagram Coach's Toolkit: Homework & Tips",
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/blog/enneagram/enneagram-coach-toolkit",
+        "@type": "WebPage"
+      },
+      "image":{
+        "@type":"ImageObject",
+        "height":900,
+        "url": "https://9takes.com/blogs/greek-statue-giving-a-speech.webp",
+        "width":900
+      },
+      "about": [
+        {
+            "@type": "Thing",
+            "name": "Personal development",
+            "description": "Personal development or self-improvement consists of activities that develop a person's capabilities and potential build human capital facilitate employability enhance quality of life and facilitate the realization of dreams and aspirations. Personal development may take place over the course of an individual's entire lifespan and is not limited to one stage of a person's life",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q10998095",
+                "http://en.wikipedia.org/wiki/Personal_development",
+                "https://www.google.com/search?kgmid=/m/012zcz"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Enneagram of Personality",
+            "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.  Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q273047",
+                "http://en.wikipedia.org/wiki/Enneagram_of_Personality",
+                "https://www.google.com/search?kgmid=/m/02qp9w0"
+            ]
+        }
+      ],
+      "mentions": [
+        {
+            "@type": "Thing",
+            "name": "Conflict resolution",
+            "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group (e",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q1194317",
+                "http://en.wikipedia.org/wiki/Conflict_resolution",
+                "https://www.google.com/search?kgmid=/m/0dl3gq"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Information overload",
+            "description": "Information overload (also known as infobesity infoxication or information anxiety ) is the difficulty in understanding an issue and effectively making decisions when one has too much information (TMI) about that issue and is generally associated with the excessive quantity of daily information. The term \"information overload\" was first used as early as 1962 by scholars in management and information studies including in Bertram Gross' 1964 book The Managing of Organizations and was further popularized by Alvin Toffler in his bestselling 1970 book Future Shock",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q1130191",
+                "http://en.wikipedia.org/wiki/Information_overload",
+                "https://www.google.com/search?kgmid=/m/02hb_d"
+            ]
+        }
+      ]
+    }
+ ]
+}
+</script>
+
+</svelte:head>

@@ -30,9 +30,7 @@ tiktok: ''
 	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
 
 <div
 	style="display: flex;
@@ -47,6 +45,11 @@ tiktok: ''
 		subtext=""
 	/> -->
 </div>
+
+
+> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+
+<p class="firstLetter"></p>
 
 <details>
 <summary class="accordion">TL;DR: Why booboo is an Enneagram type tiptype </summary>

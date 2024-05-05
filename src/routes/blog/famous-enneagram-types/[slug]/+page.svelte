@@ -33,7 +33,7 @@
 	</div>
 	<svelte:component this={component} />
 </article>
-<h3 title="Comments">What was missed? What would you add?</h3>
+<h3 title="additional comments">What would you add?</h3>
 <div>
 	<BlogComments
 		slug={data.slug}

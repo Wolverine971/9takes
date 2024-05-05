@@ -241,11 +241,61 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
         "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
         "width":900
       },
-      "mentions": [{
-        "@type": "Person",
-        "name": "Dr. John Gottman",
-        "sameAs": ["https://www.gottman.com/", "https://en.wikipedia.org/wiki/John_Gottman"]
-      },
+      
+      "about": [
+        {
+            "@type": "Thing",
+            "name": "Communication",
+            "description": "Communication is commonly defined as the transmission of information. Its precise definition is disputed and there are disagreements about whether unintentional or failed transmissions are included and whether communication not only transmits meaning but also creates it",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q11024",
+                "http://en.wikipedia.org/wiki/Communication",
+                "https://www.google.com/search?kgmid=/m/01lhf"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "Conflict resolution",
+            "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group (e",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q1194317",
+                "http://en.wikipedia.org/wiki/Conflict_resolution",
+                "https://www.google.com/search?kgmid=/m/0dl3gq"
+            ]
+        },
+        {
+            "@type": "Thing",
+            "name": "John Gottman",
+            "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
+            "SameAs": [
+                "https://www.wikidata.org/wiki/Q776341",
+                "http://en.wikipedia.org/wiki/John_Gottman",
+                "https://www.google.com/search?kgmid=/m/05y739y"
+            ]
+        }
+      ],
+      "mentions": [
+          {
+              "@type": "Thing",
+              "name": "Conflict resolution",
+              "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q1194317",
+                  "http://en.wikipedia.org/wiki/Conflict_resolution",
+                  "https://www.google.com/search?kgmid=/m/0dl3gq"
+              ]
+          },
+          {
+              "@type": "Thing",
+              "name": "John Gottman",
+              "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
+              "SameAs": [
+                  "https://www.wikidata.org/wiki/Q776341",
+                  "http://en.wikipedia.org/wiki/John_Gottman",
+                  "https://www.google.com/search?kgmid=/m/05y739y"
+              ]
+          }
+      ]
       {
         "@type": "Person",
         "name": "Tony Robbins",
