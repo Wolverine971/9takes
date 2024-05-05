@@ -60,7 +60,6 @@
 	const goToPage = async (page: any) => {
 		goto(`/questions/${page.url}`, {});
 	};
-	console.log(data);
 
 	const questionDisplay = () => {
 		if (data?.session?.user?.id) {

@@ -51,7 +51,7 @@ People of this type often mention a little voice in the back of their heads that
 
 <h2 id="description">Enneagram 1 Description</h2>
 
-Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong and their desire to improve themselves and the world around them. 
+Individuals with the Enneagram Type 1 are known for their strong sense of right and wrong and their desire to improve themselves and the world around them.
 
 They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values. A sense of duty and responsibility drives them, and they have high standards for themselves and others. Perfectionists are often highly organized and efficient, striving for excellence.
 
@@ -94,12 +94,11 @@ Moreover, Type 1s are known for their honesty and straightforwardness. This trai
 
 <h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 1</h2>
 
-Type 1 personalities are stereotypically known for being overly critical. 
+Type 1 personalities are stereotypically known for being overly critical.
 
 They can be perfectionists and and sometimes that makes them hard to work with. They may hold themselves and others to extremely high standards, making them overly critical of themselves and others. This can create tension in relationships and cause them to feel stressed or anxious.
 
 Here are some other things Type 1s struggle with:
-
 
 - Struggling with flexibility: Type 1 personalities strongly desire structure and order. They may need help with flexibility and adapting to change or unexpected events. This can lead to feeling frustrated or overwhelmed.
 - Feeling guilty: Type 1 personalities have a strong sense of responsibility and duty. They may feel guilty if they don't live up to their high standards or feel they have let others down. This can lead to feelings of shame, self-doubt, and anxiety.
@@ -176,7 +175,7 @@ Their stress number is Type 4. Type 4s are creative, emotional, and intuitive. W
 
 <h2 id="relationships">👫 An Enneagram 1 in relationships</h2>
 
-Type 1 personalities have high expectations for themselves and their partners. 
+Type 1 personalities have high expectations for themselves and their partners.
 
 They strive for perfection in all areas of their lives, including relationships. If you're in a relationship with a Type 1, here are a few things to keep in mind:
 
@@ -193,7 +192,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 <h2 id="workplace">💼 An Enneagram 1 in the Workplace</h2>
 
-Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making. 
+Type 1 personalities excel in roles that require attention to detail, high standards, and ethical decision-making.
 
 They make excellent leaders and are often respected for their work ethic and commitment to excellence. Here are a few characteristics that make Type 1 personalities successful in the workplace:
 
@@ -210,7 +209,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2 id="growth">🌱 Growth and Development for Type 1 Personalities</h2>
 
-A significant growth area for Type 1 personalities is learning to let go of control and relax. 
+A significant growth area for Type 1 personalities is learning to let go of control and relax.
 
 They often struggle with guilt and inadequacy when things don't go as planned and may find it difficult to enjoy life's simple pleasures. In relationships, their high standards and critical nature can lead to strained connections, and their strong sense of duty may hinder them from fully opening up and connecting with others.
 

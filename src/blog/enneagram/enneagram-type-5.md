@@ -21,8 +21,6 @@ blog: true
 <Carousel type={5} gridDisplay={true}/>
 <br>
 
-
-
 <p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
 
 These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.

@@ -19,13 +19,27 @@
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
 
+<p>Ever wonder what makes Elon Musk a visionary or Beyoncé a cultural icon?</p>
+
 <p>
-	Ever ponder the traits that make Elon Musk a visionary or Beyoncé a cultural icon? You're not
-	alone. This blog dissects the personalities of influential figures across various domains—tech,
-	politics, entertainment, and more. We go beyond surface-level chatter, grounding our insights in
-	psychological theories and real-life examples. Why does this matter? Because understanding the
-	nuances of these personalities can offer a unique lens into human behavior and our own potential.
-	Intrigued? Your exploration into the complex tapestry of human personalities starts here.
+	You're not alone. Here we dissects the personalities of influential figures across various
+	domains.
+</p>
+<ul>
+	<li>musicians</li>
+	<li>creators</li>
+	<li>movie stars</li>
+	<li>politicians</li>
+	<li>historical figures</li>
+	<li>technologists</li>
+</ul>
+politics, entertainment, and more.
+
+<p>
+	We go beyond surface-level chatter, grounding our insights in psychological theories and real-life
+	examples. Why does this matter? Because understanding the nuances of these personalities can offer
+	a unique lens into human behavior and our own potential. Intrigued? Your exploration into the
+	complex tapestry of human personalities starts here.
 </p>
 <div class="blog-list tile-display">
 	{#each Array.from(Array(10).keys()) as number}
@@ -52,12 +66,10 @@
 				{/each}
 				<a href="/blog/famous-enneagram-types/type/{number}" class="grid-item">
 					<div class="fit-card black-white">
-						<h3 style="display: flex; align-items: center; justify-content: center;">
-							All {number}s <ArrowRightIcon
-								iconStyle={'margin-left: .5rem'}
-								height={'1.5rem'}
-								fill={'#5407d9'}
-							/>
+						<h3 style="">
+							<span>All {number}s </span>
+							<br />
+							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 						</h3>
 					</div>
 				</a>
@@ -127,7 +139,7 @@
 		width: 100%;
 		display: grid;
 		/* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 0.5fr;
 		column-count: 3;
 		column-gap: 1.25rem;
 		grid-gap: 0.5rem;
@@ -156,7 +168,7 @@
 			font-size: 0.7rem;
 		}
 		.people-grid-container {
-			grid-template-columns: 21vw 21vw 21vw 21vw;
+			grid-template-columns: 21vw 21vw 21vw 15vw;
 		}
 	}
 </style>

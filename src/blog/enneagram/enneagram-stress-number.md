@@ -44,7 +44,6 @@ outbursts of anger fear and shame
 accordion on mobile
  -->
 
-
 <p class="firstLetter" >Everyone gets stressed, but how people act when stressed differs a lot. Why is that?</p>
 
 TLDR: It's because specific personalities are sensitive to specific emotions, and when specific situations cause them to feel that emotion, they lash out. You might be surprised to learn that the reasons people lash out are not as complex as you might think. Lashing out is due to something making us feel one of these three emotions: anger, fear, or shame.
@@ -221,17 +220,17 @@ Type 2s are caring and helpful, but under stress, they may take on the negative 
 When Type 2s find themselves slipping into unhealthy Type 8 patterns, it's crucial to take proactive steps to manage stress and prevent further escalation.
 
 - Practice self-care and set boundaries
-    - Prioritize personal needs and well-being.
-    - Learn to say "no" when necessary.
-    - Schedule regular "me-time" activities.
+  - Prioritize personal needs and well-being.
+  - Learn to say "no" when necessary.
+  - Schedule regular "me-time" activities.
 - Communicate needs and expectations directly
-    - Express feelings openly and honestly.
-    - Ask for help or support when needed.
-    - Avoid passive-aggressive behavior.
+  - Express feelings openly and honestly.
+  - Ask for help or support when needed.
+  - Avoid passive-aggressive behavior.
 - Cultivate gratitude and self-compassion
-    - Appreciate one's own efforts and growth.
-    - Practice self-forgiveness for imperfections.
-    - Engage in positive self-talk and affirmations.
+  - Appreciate one's own efforts and growth.
+  - Practice self-forgiveness for imperfections.
+  - Engage in positive self-talk and affirmations.
 
 [More on type 2](/blog/enneagram/enneagram-type-2)
 
@@ -266,19 +265,20 @@ Type 3s are driven achievers, but under stress, they may take on the negative tr
 When Type 3s find themselves slipping into unhealthy Type 9 patterns, it's essential to take proactive steps to manage stress and prevent further disengagement.
 
 - Redefine success and self-worth
-    - Embrace personal values beyond achievements.
-    - Celebrate progress, not just outcomes.
-    - Practice self-acceptance and self-compassion.
+  - Embrace personal values beyond achievements.
+  - Celebrate progress, not just outcomes.
+  - Practice self-acceptance and self-compassion.
 - Prioritize self-care and work-life balance
-    - Set realistic goals and boundaries.
-    - Schedule time for relaxation and hobbies.
-    - Maintain a healthy sleep and exercise routine.
+  - Set realistic goals and boundaries.
+  - Schedule time for relaxation and hobbies.
+  - Maintain a healthy sleep and exercise routine.
 - Seek support and connection with others
-    - Open up to trusted friends or therapists.
-    - Engage in activities that foster a sense of community.
-    - Practice vulnerability and emotional authenticity.
+  - Open up to trusted friends or therapists.
+  - Engage in activities that foster a sense of community.
+  - Practice vulnerability and emotional authenticity.
 
 [More on type 3](/blog/enneagram/enneagram-type-3)
+
 </section>
 
 <section class="section-content">
@@ -310,19 +310,20 @@ Type 4s are expressive individualists, but under stress, they may take on the ne
 When Type 4s find themselves slipping into unhealthy Type 2 patterns, it's crucial to take proactive steps to manage stress and prevent further emotional entanglement.
 
 - Cultivate self-acceptance and inner validation
-    - Embrace unique qualities and strengths.
-    - Practice self-compassion and self-soothing.
-    - Develop a stable sense of self-worth.
+  - Embrace unique qualities and strengths.
+  - Practice self-compassion and self-soothing.
+  - Develop a stable sense of self-worth.
 - Set healthy boundaries and communicate needs directly
-    - Express feelings openly and honestly.
-    - Avoid manipulative or passive-aggressive behavior.
-    - Learn to respect others' boundaries and autonomy.
+  - Express feelings openly and honestly.
+  - Avoid manipulative or passive-aggressive behavior.
+  - Learn to respect others' boundaries and autonomy.
 - Engage in creative outlets and self-reflection
-    - Channel emotions into artistic pursuits.
-    - Practice journaling or meditation.
-    - Seek therapy or counseling for deeper insights.
+  - Channel emotions into artistic pursuits.
+  - Practice journaling or meditation.
+  - Seek therapy or counseling for deeper insights.
 
 [More on type 4](/blog/enneagram/enneagram-type-4)
+
 </section>
 
 <div style="overflow: hidden;">
@@ -358,17 +359,17 @@ Type 5s are detached investigators, but under stress, they may take on the negat
 When Type 5s find themselves slipping into unhealthy Type 7 patterns, it's essential to take proactive steps to manage stress and prevent further ungrounding.
 
 - Prioritize solitude and self-reflection
-    - Schedule regular alone time for recharging.
-    - Practice mindfulness and grounding techniques.
-    - Reconnect with intellectual passions and curiosity.
+  - Schedule regular alone time for recharging.
+  - Practice mindfulness and grounding techniques.
+  - Reconnect with intellectual passions and curiosity.
 - Set boundaries and practice discernment
-    - Evaluate commitments and opportunities carefully.
-    - Learn to say "no" when necessary.
-    - Communicate limits and needs clearly.
+  - Evaluate commitments and opportunities carefully.
+  - Learn to say "no" when necessary.
+  - Communicate limits and needs clearly.
 - Seek balance and moderation in activities
-    - Pace yourself and avoid overextension.
-    - Engage in calming hobbies or relaxation techniques.
-    - Maintain a healthy sleep and self-care routine.
+  - Pace yourself and avoid overextension.
+  - Engage in calming hobbies or relaxation techniques.
+  - Maintain a healthy sleep and self-care routine.
 
 [More on type 5](/blog/enneagram/enneagram-type-5)
 
@@ -403,17 +404,17 @@ Type 6s are security-focused loyalists, but under stress, they may take on the n
 When Type 6s find themselves slipping into unhealthy Type 3 patterns, it's crucial to take proactive steps to manage stress and prevent further disconnection from their authentic selves.
 
 - Cultivate self-acceptance and inner security
-    - Embrace unique strengths and values.
-    - Practice self-compassion and self-affirmation.
-    - Develop a stable sense of self-worth beyond achievements.
+  - Embrace unique strengths and values.
+  - Practice self-compassion and self-affirmation.
+  - Develop a stable sense of self-worth beyond achievements.
 - Prioritize relationships and support systems
-    - Nurture authentic connections with loved ones.
-    - Seek guidance and reassurance from trusted allies.
-    - Engage in activities that foster a sense of belonging.
+  - Nurture authentic connections with loved ones.
+  - Seek guidance and reassurance from trusted allies.
+  - Engage in activities that foster a sense of belonging.
 - Stay true to personal values and integrity
-    - Make decisions aligned with core beliefs.
-    - Practice transparency and honesty in interactions.
-    - Regularly reassess goals and motivations.
+  - Make decisions aligned with core beliefs.
+  - Practice transparency and honesty in interactions.
+  - Regularly reassess goals and motivations.
 
 [More on type 6](/blog/enneagram/enneagram-type-6)
 
@@ -448,17 +449,17 @@ Type 7s are excitable enthusiasts, but under stress, they may take on the negati
 When Type 7s find themselves slipping into unhealthy Type 1 patterns, it's essential to take proactive steps to manage stress and prevent further disconnection from their natural enthusiasm and adaptability.
 
 - Embrace imperfection and cultivate self-acceptance
-    - Practice self-compassion and self-forgiveness.
-    - Celebrate progress, not just outcomes.
-    - Find joy in the journey, not just the destination.
+  - Practice self-compassion and self-forgiveness.
+  - Celebrate progress, not just outcomes.
+  - Find joy in the journey, not just the destination.
 - Prioritize self-care and personal boundaries
-    - Schedule time for rest and relaxation.
-    - Set realistic expectations and goals.
-    - Communicate limits and needs clearly.
+  - Schedule time for rest and relaxation.
+  - Set realistic expectations and goals.
+  - Communicate limits and needs clearly.
 - Maintain flexibility and openness to change
-    - Practice adaptability and resilience.
-    - Embrace new experiences and perspectives.
-    - Regularly reassess priorities and adjust accordingly.
+  - Practice adaptability and resilience.
+  - Embrace new experiences and perspectives.
+  - Regularly reassess priorities and adjust accordingly.
 
 [More on type 7](/blog/enneagram/enneagram-type-7)
 
@@ -493,17 +494,17 @@ Type 8s are dominant challengers, but under stress, they may take on the negativ
 When Type 8s find themselves slipping into unhealthy Type 5 patterns, it's crucial to take proactive steps to manage stress and prevent further disconnection from their natural assertiveness and engagement with the world.
 
 - Embrace vulnerability and emotional authenticity
-    - Practice expressing feelings openly and honestly.
-    - Seek support from trusted friends or therapists.
-    - Engage in activities that foster emotional connection.
+  - Practice expressing feelings openly and honestly.
+  - Seek support from trusted friends or therapists.
+  - Engage in activities that foster emotional connection.
 - Prioritize physical health and self-care
-    - Maintain a regular exercise routine.
-    - Eat nutritious meals and get sufficient sleep.
-    - Practice stress-reducing techniques like deep breathing or meditation.
+  - Maintain a regular exercise routine.
+  - Eat nutritious meals and get sufficient sleep.
+  - Practice stress-reducing techniques like deep breathing or meditation.
 - Stay engaged with the world and face challenges head-on
-    - Confront conflicts and challenges directly, but with compassion.
-    - Seek out opportunities for leadership and making a positive impact.
-    - Regularly reassess goals and adjust strategies accordingly.
+  - Confront conflicts and challenges directly, but with compassion.
+  - Seek out opportunities for leadership and making a positive impact.
+  - Regularly reassess goals and adjust strategies accordingly.
 
 [More on type 8](/blog/enneagram/enneagram-type-8)
 
@@ -538,17 +539,17 @@ Type 9s are accommodating peacemakers, but under stress, they may take on the ne
 When Type 9s find themselves slipping into unhealthy Type 6 patterns, it's essential to take proactive steps to manage stress and prevent further disconnection from their natural calm and inner stability.
 
 - Cultivate mindfulness and inner peace
-    - Practice meditation or deep breathing exercises.
-    - Engage in calming hobbies or relaxation techniques.
-    - Regularly check in with emotions and bodily sensations.
+  - Practice meditation or deep breathing exercises.
+  - Engage in calming hobbies or relaxation techniques.
+  - Regularly check in with emotions and bodily sensations.
 - Seek support and maintain healthy relationships
-    - Open up to trusted friends or therapists about concerns.
-    - Engage in activities that foster a sense of connection and belonging.
-    - Set healthy boundaries and communicate needs assertively.
+  - Open up to trusted friends or therapists about concerns.
+  - Engage in activities that foster a sense of connection and belonging.
+  - Set healthy boundaries and communicate needs assertively.
 - Challenge anxious thoughts and cultivate trust
-    - Practice reality-testing and questioning worst-case scenarios.
-    - Focus on positive aspects of situations and relationships.
-    - Develop a sense of faith and trust in oneself and others.
+  - Practice reality-testing and questioning worst-case scenarios.
+  - Focus on positive aspects of situations and relationships.
+  - Develop a sense of faith and trust in oneself and others.
 
 [More on type 9](/blog/enneagram/enneagram-type-9)
 

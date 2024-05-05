@@ -18,7 +18,6 @@ export const getCommentParents = async (comments: any[]) => {
 		(comment) => comment.parent_id !== null && comment.parent_type !== 'question'
 	);
 
-	console.log(commentsOnComments);
 	const { data: questions, error: questionsError } = await supabase
 		.from('questions')
 		.select(`*`)

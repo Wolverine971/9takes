@@ -192,7 +192,6 @@
 			bind:value={comment}
 			id="comment-box"
 			on:keydown={() => {
-				console.log('key');
 				if (comment.toString().length > width * wrap) {
 					const interactText = document.querySelector('#interact-text-container');
 					if (interactText?.dataset) {
