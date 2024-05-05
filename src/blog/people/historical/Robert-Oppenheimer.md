@@ -100,7 +100,7 @@ Oppenheimer's genius and originality, philosophical inclinations, and emotional 
 
 This exploration provides a unique lens to better understand Oppenheimer's motivations and actions. What does seeing Oppenheimer through the lens of the Enneagram Type 4 tell you about his enigmatic personality? Does it give you a deeper understanding of his motivations and internal struggles?
 
-Understanding people's personalities could pave the way for empathy and understanding in our complex world. If this exploration of Robert Oppenheimer sparked your curiosity and you wish to unravel more about the personalities that shape our world, it's time to take the next step. Join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

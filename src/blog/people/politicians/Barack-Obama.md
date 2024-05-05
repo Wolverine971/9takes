@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Could <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Barack_Obama">Barack Obama</a>, the 44th president of the United States, be a Type 9 on the Enneagram?</p>
-
-> **Disclaimer** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+
+<p class="firstLetter">Barack Obama, the 44th president of the United States, is an Enneagram Type 9, "The Peacemaker"</p>
+
+In personality psychology, few tools can rival the insight and understanding the Enneagram provides. It examines a person's core motivations, fears, and desires, offering a fresh perspective on human behaviors. Today, let's delve into the fascinating journey of Barack Obama and ponder the possibility of him being a Type 9 - "The Peacemaker."
 
 <details>
 <summary class="accordion">TL;DR: Why Obama is an Enneagram type 9 </summary>
@@ -56,31 +58,45 @@ tiktok: 'https://www.tiktok.com/@barrackobamafans'
   </div>
 </details>
 
-In personality psychology, few tools can rival the insight and understanding the Enneagram provides. It examines a person's core motivations, fears, and desires, offering a fresh perspective on human behaviors. Today, let's delve into the fascinating journey of Barack Obama and ponder the possibility of him being a Type 9 - "The Peacemaker."
-
 ## The Enneagram Type 9: The Peacemaker
 
-Type 9s are the serene, accepting, and reassuring personalities of the Enneagram. Their desire for inner and outer peace drives them to avoid conflicts and embrace harmonious environments. Often marked by a laid-back demeanor, they seek unity and stability, valuing everyone's perspective in their quest for common ground. So, could Obama be a Type 9?
+Type 9s are the serene, accepting, and reassuring personalities.
+
+They desire inner and outer peace and it drives them to avoid conflicts and embrace harmonious environments. Often marked by a laid-back demeanor, they seek unity and stability, valuing everyone's perspective in their quest for common ground. Does that sound like Obama?
 
 ### Barack Obama: A Type 9 in the Spotlight
 
-Obama's presidential campaigns and his time in office were characterized by an overarching theme - "unity." His speeches carried the unmistakable ring of inclusivity, emphasizing the need for consensus-building rather than divisiveness. This bears a striking resemblance to the classic Type 9's aspiration for peace and understanding.
+Obama's presidential campaigns and his time in office were characterized by an overarching theme - "progress." He wanted to bring people together and push towards a better future while being unified. He made it his mission to champion inclusivity, emphasized the need for consensus-building rather than divisiveness. This bears a striking resemblance to the classic Type 9's aspiration for peace and understanding.
+
+<!-- todo: talk about him being passive agressive However his goal of progress and unity was going to be persued with or without his critics. -->
 
 Even under the most intense scrutiny and criticism, Obama's calm and controlled demeanor further suggests a Type 9 personality. He consistently portrayed a sense of composure and balance, often treating others with consideration and respect. His ability to remain unfazed in the face of chaos, an attribute often admired in Type 9 individuals, was a hallmark of his presidency.
 
 ### Controversies and the Type 9 Perspective
 
-Every influential figure faces controversies, and Obama was no exception. Criticisms revolved around his perceived inaction or unwillingness to engage aggressively with opposition. However, through the lens of Type 9, this could be interpreted as a deep-seated desire to maintain peace, adopting a "soft power" approach rather than confrontation - a quintessential Type 9 strategy.
+Obama's criticisms revolved around his perceived inaction or unwillingness to engage aggressively with opposition.
+
+- In 2014, Obama warned Putin against further aggression in Ukraine after Russia invaded Crimea and backed separatists in the Donbas region. However, when Putin ignored these warnings, Obama responded primarily with sanctions and diplomacy rather than direct military action or significant aid to Ukraine.
+- Obama cautioned North Korean leader Kim Jong Un against conducting nuclear tests and missile launches. However, when North Korea defied these warnings and continued its provocations throughout Obama's second term, Obama focused on tightening sanctions and pressuring North Korea through China rather than taking direct action.
+- Obama promised to withdraw U.S. troops from Iraq and followed through in 2011, despite concerns about a potential power vacuum. When ISIS subsequently seized significant territory in Iraq and Syria by 2014, Obama relied mainly on airstrikes, special forces, and local forces rather than redeploying U.S. ground troops.
+
+All these accounts show a lack of willingness to get involved.
+
+However, through the lens of Type 9, this could be interpreted as a deep-seated desire to maintain peace, adopting a "soft power" approach rather than confrontation - a quintessential Type 9 strategy.
 
 ### Obama's Desire for Unity and Harmony
 
-One of the most compelling arguments for Obama being a Type 9 is his pursuit of unity and cooperation, both domestically and internationally. He consistently emphasized bridging gaps and mending fences. His diplomacy-first approach resonates strongly with the Type 9's preference for negotiation over conflict.
+One of the most compelling arguments for Obama being a Type 9 is his pursuit of unity and cooperation, both domestically and internationally.
+
+He consistently emphasized bridging gaps and mending fences. His diplomacy-first approach resonates strongly with the Type 9's preference for negotiation over conflict.
 
 His famous quote, "There is not a liberal America and a conservative America - there is the United States of America," embodies the essence of Type 9, where unification and acceptance reign supreme. Such a statement reflects a deep understanding of the interconnectedness of all things, a characteristic often associated with Type 9.
 
 ## Obama's Enneagram and His Political Priorities
 
-Understanding Barack Obama as a potential Type 9 Enneagram provides an enlightening perspective on the political issues he cared deeply about during his presidency. From healthcare reform to climate change and racial equality to international diplomacy, Obama's political agenda reflected a Type 9's desire for harmony and its drive to create an inclusive and balanced society.
+Barack Obama's Enneagram type 9 personality can be seen by looking at his political priorities.
+
+From healthcare reform to climate change and racial equality to international diplomacy, Obama's political agenda reflected a Type 9's desire for harmony and its drive to create an inclusive and balanced society.
 
 **Healthcare Reform:** Obama's push for healthcare reform, culminating in the Affordable Care Act, also known as Obamacare, manifests the Type 9's desire for peace and equilibrium. By advocating for accessible and affordable healthcare, Obama aimed to bridge the health disparities among various social and economic groups, fostering a more harmonious society.
 
@@ -133,17 +149,11 @@ Just as we speculated about Barack Obama's Enneagram type, it's interesting to c
   <p>This type could deeply resonate with Obama's inclination towards peace, unity, and consensus. They might appreciate his calm demeanor in the face of adversity, although they could critique him for not asserting his perspectives more forcefully.</p>
 </article>
 
-## Wrapping up
+## Conclusion
 
 Barack Obama's possible Type 9 personality has provided us with fresh insights into his leadership style, making us question and explore the role of personality in shaping our world. What other public figures could be Type 9s? Or what is <a href="/blog/famous-enneagram-types/Michelle-Obama">Michelle's Enneagram type</a>? If you are interested, check out this blog describing <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" >Michelle and Barack's relationship</a> from an enneagram perspective.
 
 At 9takes, understanding the Enneagram opens doors to empathy and mutual respect. We can bridge divides and build a more compassionate society through meaningful discussions.
-
-Don't you want to be a part of this enlightening journey? Discover the power of the Enneagram, share your perspectives, and connect with others by signing up for 9takes. Dive into the intriguing world of personality types and see the world through a new lens.
-
-So, are you ready to plunge into the Enneagram world and explore the fascinating array of personalities? If yes, 9takes welcomes you with open arms!
-
-Understanding others starts with understanding oneself. Let's embark on this journey together with 9takes.
 
 <svelte:head>
 

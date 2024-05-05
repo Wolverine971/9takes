@@ -519,7 +519,7 @@ Seek out healthy, supportive relationships where mutual respect and harmony are 
 
 Understanding how each Enneagram type responds to stress and its unique challenges can help individuals develop healthier coping mechanisms and proactively set boundaries. By recognizing the patterns of thoughts and behaviors associated with stress, we can foster self-awareness and empathy, ultimately leading to improved well-being and interpersonal relationships.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

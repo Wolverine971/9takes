@@ -21,8 +21,6 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Nancy Pelosi, an influential and pioneering political figure, has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness, and political flexibility.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -40,9 +38,15 @@ tiktok:
 
 > **Disclaimer** This analysis of Nancy Pelosi's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nancy Pelosi.
 
+<p class="firstLetter">Nancy Pelosi, is an influential and pioneering political figure to say the least.</p>
+
+She has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life. In this analysis, we will explore the potential correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever – by examining her accomplishments, work ethic, image consciousness, and political flexibility.
+
 ## Pelosi's Accomplishments: A Reflection of Type 3 Traits
 
-Pelosi's list of achievements is impressive, beginning with her ability to raise a family while pursuing a political career. In the 1980s, she was elected as a member of the Democratic National Committee, and her political career progressed steadily from there. Pelosi's ascent to the role of House Minority Leader in 2003 and subsequently becoming the first female Speaker of the House in 2007 reflects a relentless pursuit of success, characteristic of the Enneagram Type 3.
+Pelosi's list of achievements is impressive, beginning with her ability to raise a family while pursuing a political career.
+
+In the 1980s, she was elected as a member of the Democratic National Committee, and her political career progressed steadily from there. Pelosi's ascent to the role of House Minority Leader in 2003 and subsequently becoming the first female Speaker of the House in 2007 reflects a relentless pursuit of success, characteristic of the Enneagram Type 3.
 
 Type 3s are known for setting goals and working toward them tirelessly, often thriving in competitive environments. Pelosi's perseverance in adversity and setbacks aligns her with this Enneagram type. Additionally, her unwavering commitment to progressive policies, such as health care reform, climate change, and equal rights, strongly aligns with Type 3's drive for achievement and success.
 
@@ -52,7 +56,9 @@ Type 3s are known for setting goals and working toward them tirelessly, often th
 
 ## The Work Ethic Connection: Type 3 and Pelosi
 
-Pelosi's work ethic has been widely noted by her colleagues and aides, who have observed her ability to work long hours, attend numerous meetings, and review extensive legislation with acute attention to detail. This tenacity and determination contributed to her extraordinary career and are also commonly associated with the Enneagram Type 3.
+Pelosi's impressive work ethic has been widely touted by her colleagues and aides.
+
+They have observed her ability to work long hours, attend numerous meetings, and review extensive legislation with acute attention to detail. This tenacity and determination contributed to her extraordinary career and are also commonly associated with the Enneagram Type 3.
 
 The Enneagram Type 3 is recognized for its innate drive to succeed and achieve its goals. Pelosi's ability to persevere in challenging circumstances and her unwavering commitment to her work reflect this Enneagram type's core traits.
 
@@ -74,7 +80,9 @@ Notice how Pelosi was sensitive to being considered a hateful person. She reject
 
 ## Political Flexibility: Type 3's Adaptability in Action
 
-Another aspect of Nancy Pelosi's political career that aligns with the Enneagram Type 3 is her political flexibility. Pelosi has demonstrated a remarkable ability to adapt her stance and collaborate with various factions within the political spectrum to get things done. This pragmatism and willingness to compromise are key indicators of the Type 3's adaptability and resourcefulness.
+Nancy Pelosi's political career has been marked by her political flexibility which is a hallmark of an Enneagram type 3.
+
+Pelosi has demonstrated a remarkable ability to adapt her stance and collaborate with various factions within the political spectrum to get things done. This pragmatism and willingness to compromise are key indicators of the Type 3's adaptability and resourcefulness.
 
 One notable example of Pelosi's political flexibility is her approach to the Affordable Care Act (ACA) in 2010. As the Speaker of the House, she played a pivotal role in securing the necessary votes and ensuring the bill's passage by skillfully navigating the diverse interests within her party and striking compromises to address the concerns of both moderate and progressive Democrats. This ability to bring together factions within her party showcases her adaptability and effectiveness as a leader.
 

@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona. Beyond the outlandish outfits and ethereal vocals, however, lies a complex inner world that the Enneagram, a personality typing system, helps us understand.</p>
-
-> **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: ''
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
+
+<p class="firstLetter">Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona.</p>
+
+Beyond the outlandish outfits and ethereal vocals, however, lies a complex inner world that the Enneagram, a personality typing system, helps us understand.
 
 ## What is Grimes' Enneagram Type?
 
@@ -76,7 +78,9 @@ Examples include:
 
 ## An Enthusiasm for Life
 
-Grimes' social media presence is a vibrant tapestry of her adventures, artistic pursuits, and outspoken opinions. Her constant engagement with her fans and unfiltered expression of her thoughts and feelings are hallmarks of the Type 7's desire for connection and enjoyment of life.
+Grimes' social media presence is a vibrant tapestry of her adventures, artistic pursuits, and outspoken opinions.
+
+Her constant engagement with her fans and unfiltered expression of her thoughts and feelings are hallmarks of the Type 7's desire for connection and enjoyment of life.
 
 - Her Instagram feed is filled with photos and videos of her travels, performances, and artistic creations, sharing her experiences with her audience.
 - Her outspoken advocacy for environmental causes and social justice issues reflects her desire to make a positive impact on the world.

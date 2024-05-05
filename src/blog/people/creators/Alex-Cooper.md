@@ -76,7 +76,9 @@ Alex was born on August 21, 1994, in Newtown, Pennsylvania. Growing up, she was 
 
 ### The Adventurous Podcaster: A Glimpse into Alex Cooper's World
 
-"Call Her Daddy," created by Alex Cooper and Sofia Franklyn in 2018, is more than just a podcast; its Alex's pet project where she lets loose. Initially the podcast was focused on relationships and sex, but overtime the show has evolved to cover a broad spectrum of topics. These topics include everything from celebrity gossip to women's rights and mental health. Alex goes anywhere she pleases and has built a loyal following that will go with her no matter the platform.
+"Call Her Daddy," created by Alex Cooper and Sofia Franklyn in 2018, is more than just a podcast; its Alex's pet project where she lets loose.
+
+Initially the podcast was focused on relationships and sex, but overtime the show has evolved to cover a broad spectrum of topics. These topics include everything from celebrity gossip to women's rights and mental health. Alex goes anywhere she pleases and has built a loyal following that will go with her no matter the platform.
 
 After securing a $60 million deal with Spotify and being labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, Alex took the podcast in a fresh direction. She aims to inspire her audience, especially women, by sharing personal stories and expert advice. Her willingness to explore diverse topics and adapt resonates strongly with the characteristics of Type 7, who is always looking for the next exciting venture.
 
@@ -145,7 +147,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Wrapping up
 
-From her adventurous spirit and love for new experiences to her ability to navigate controversies, Alex embodies the essence of Type 7 in many ways. Her actions, whether career milestones or personal choices, can be traced back to Enneagram 8's core motivation of freedom and happiness.
+From her adventurous spirit and love for new experiences to her ability to navigate controversies, Alex embodies the essence of Type 7 in many ways. Her actions, whether career milestones or personal choices, can be traced back to Enneagram 7's core motivation of freedom and happiness.
+
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 

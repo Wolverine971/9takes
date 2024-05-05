@@ -23,10 +23,6 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">He's charismatic, energetic, and always ready for the next big thing. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/David_Dobrik">David Dobrik</a>, the captivating YouTube sensation, has managed to capture the hearts of millions with his playful personality and candidness. Today, we're delving deep into Dobrik's persona, unmasking him as a representation of the Enneagram Type 7 personality – The Enthusiast.</p>
-
-> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -42,6 +38,12 @@ tiktok:
   />
 </div>
 
+> **Disclaimer** This analysis of David Dobrik's Enneagram type is speculative, based on publicly available information, and may not reflect David Dobrik's personality.
+
+<p class="firstLetter">He's charismatic, energetic, and always ready for the next big thing.</p>
+
+David Dobrik, the captivating YouTube sensation, has managed to capture the hearts of millions with his playful personality and candidness. Today, we're delving deep into Dobrik's persona, unmasking him as a representation of the Enneagram Type 7 personality – The Enthusiast.
+
 <details>
 <summary class="accordion">TL;DR: Why David Dobrik is an Enneagram 7</summary>
 <div class="panel">
@@ -56,19 +58,27 @@ tiktok:
 
 ## The Adventurous Explorer
 
-David Dobrik is not someone to rest on his laurels. He's always on the lookout for new adventures and exciting experiences. If you've ever wondered about the origins of David Dobrik's fame, it's easy to trace. His hunger for novelty and excitement, a common characteristic of Type 7s, propelled him to the heights of YouTube's popularity. His distinctive flair for impromptu comedy and audacious stunts resonates with the natural spontaneity and adaptability of Type 7.
+David Dobrik is not someone to rest on his laurels.
+
+He's always on the lookout for new adventures and exciting experiences. If you've ever wondered about the origins of David Dobrik's fame, it's easy to trace. His hunger for novelty and excitement, a common characteristic of Type 7s, propelled him to the heights of YouTube's popularity. His distinctive flair for impromptu comedy and audacious stunts resonates with the natural spontaneity and adaptability of Type 7.
 
 ## Relationships and Dynamics
 
-Who is David Dobrik dating? Or rather, who has he been linked with? This question has sparked numerous speculations throughout his career. From Corina Conf to Madison Beer, his relationships embody his pursuit for varied experiences, again a hallmark of a Type 7 personality. However, these relationships 💑 also highlight Type 7's tendency to keep things light and avoid deep emotional entanglement.
+Who is David Dobrik dating?
+
+Or rather, who has he been linked with? This question has sparked numerous speculations throughout his career. From Corina Conf to Madison Beer, his relationships embody his pursuit for varied experiences, again a hallmark of a Type 7 personality. However, these relationships 💑 also highlight Type 7's tendency to keep things light and avoid deep emotional entanglement.
 
 ## Friends, Fun, and Type 7 Traits
 
-Who are David Dobrik's friends? A question we hear often. His companions are as diverse as his interests, ranging from actors like Taylor Hudson to Internet personalities like Jeff Wittek. This craving for diversity and fear of missing out aligns with Type 7’s penchant for constant engagement and exploration. His YouTube videos with his friends, often full of fun and pranks, exemplify his quest for continual stimulation.
+Who are David Dobrik's friends?
+
+A question we hear often. His companions are as diverse as his interests, ranging from actors like Taylor Hudson to Internet personalities like Jeff Wittek. This craving for diversity and fear of missing out aligns with Type 7’s penchant for constant engagement and exploration. His YouTube videos with his friends, often full of fun and pranks, exemplify his quest for continual stimulation.
 
 ## Confronting Controversies
 
-But life hasn’t always been a laugh for Dobrik. Controversies have clouded his career, most notably the David Dobrik controversy with Jeff Wittek. The incident highlighted another characteristic of Type 7 – the tendency to avoid negative emotions. Instead of addressing the issue head-on, Dobrik was seen as preventing confrontation and discomfort. This incident was a stark reminder of the challenges Type 7s face in confronting their fears and pains.
+But life hasn’t always been a laugh for Dobrik. Controversies have clouded his career, most notably the David Dobrik controversy with Jeff Wittek.
+
+The incident highlighted another characteristic of Type 7 – the tendency to avoid negative emotions. Instead of addressing the issue head-on, Dobrik was seen as preventing confrontation and discomfort. This incident was a stark reminder of the challenges Type 7s face in confronting their fears and pains.
 
 ## Origins and Growth
 
@@ -76,7 +86,9 @@ Where is David Dobrik from? The question might seem irrelevant, but the answer i
 
 ## The Future: Will David Dobrik Come Back to YouTube?
 
-The question on everyone’s lips: will David Dobrik return to YouTube? As a Type 7, his appetite for new experiences will likely guide him back. As we've seen, Type 7 personalities are never content to remain static. They're always seeking new challenges and adventures. Whether or not that takes Dobrik back to YouTube remains to be seen, but rest assured, it will be dynamic and exciting.
+The question on everyone’s lips: will David Dobrik return to YouTube?
+
+As a Type 7, his appetite for new experiences will likely guide him back. As we've seen, Type 7 personalities are never content to remain static. They're always seeking new challenges and adventures. Whether or not that takes Dobrik back to YouTube remains to be seen, but rest assured, it will be dynamic and exciting.
 
 ## How Each Enneagram Type Perceives David Dobrik
 
@@ -98,7 +110,8 @@ As we journey back from this deep dive into David Dobrik's psyche, we see how th
 
 How does this viewpoint of Dobrik enhance your understanding of him as an Internet personality? Does seeing Dobrik through the lens of Enneagram Type 7 offer deeper insights into his actions and motivations?
 
-Go beyond the surface and delve deeper into the world of personalities with us. Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+<!-- todo good CTA ^ -->
 
 <svelte:head>
 

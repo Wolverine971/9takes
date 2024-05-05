@@ -102,7 +102,7 @@ How does this perspective of Charlie Puth enhance your understanding of him as a
 
 Exploring personalities like Puth's through the Enneagram can offer not only intriguing insights but also provoke deeper discussions about individuality and self-identity. Would you like to dive further into these thought-provoking conversations?
 
-Join us at 9takes. Explore more articles. Unravel more personalities. Sign up below ⬇️ and join a community where we celebrate the complexity of personalities and share perspectives. Together, let's continue this journey of introspection and discovery, one personality at a time.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 

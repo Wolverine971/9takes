@@ -44,10 +44,6 @@ Pete Davidson jokes
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You know him, you've watched him, and there's a good chance he's made you laugh out loud. Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in pop culture since his debut on the iconic sketch comedy show. Let's dive into the whirlwind life of Davidson and delve into the intriguing possibility of him being an exemplar of an Enneagram Type 9 personality - The Peacemaker.</p>
-
-> **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete Davidson.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -62,6 +58,12 @@ Pete Davidson jokes
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete Davidson.
+
+<p class="firstLetter">You know him, you've watched him, and there's a good chance he's made you laugh out loud.</p>
+
+Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in pop culture since his debut on the iconic sketch comedy show. Let's dive into the whirlwind life of Davidson and delve into the intriguing possibility of him being an exemplar of an Enneagram Type 9 personality - The Peacemaker.
 
 <details>
 <summary class="accordion">TL;DR: Why Pete is an Enneagram 9</summary>
@@ -116,13 +118,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## The Enneagram Lens: Seeing Pete Davidson Afresh
 
-We’ve traversed the life of Pete Davidson, guided by the lens of the Enneagram Type 9. This journey has led us through a landscape marked by humor, anger, relationships, mental health struggles, and success. The Pete Davidson we see at the end of this exploration isn’t just the comedian from SNL but a complex individual possibly embodying the Peacemaker's traits.
+Pete's internal landscape is marked by humor, anger, relationships wins and losses, mental health struggles, and success. The Pete Davidson we see at the end of this exploration isn’t just the comedian from SNL but a complex individual embodying the Peacemaker's traits.
 
 However, human nature is intricate and one perspective isn't definitive. What additional layers could be uncovered when we observe Pete Davidson, or any other personality, through the prism of the Enneagram? Do these insights change the way you view Davidson, or influence your understanding of his comedy and his actions?
 
-In a world increasingly connected, yet paradoxically divided, understanding one another goes beyond mere curiosity - it fosters empathy, encourages dialogue, and can help bridge seemingly insurmountable gaps.
-
-Sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

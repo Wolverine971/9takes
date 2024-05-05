@@ -163,7 +163,7 @@ Rogan's drive, resilience, and courageous confrontation of life's challenges are
 
 The Enneagram is a tool to help us understand ourselves, others, and even people like Rogan. It is becoming ever more polarized in a world that is becoming harder to understand the other side of any issue. But if we can humanize those around us and understand our neighbor's fear, anger, and shame, we might have a path to finding common ground.
 
-If this resonates with you, we invite you to explore more articles like this one, delve deeper into the enigmatic world of Enneagram, and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

@@ -44,10 +44,6 @@ Kanye West interviews -->
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've heard his music, observed his fashion trends, and watched his controversies unfold. Kanye West, a stalwart in the global entertainment industry, continues to capture public attention with his every move. Today, we delve into an intriguing dimension of Kanye's persona, identifying him as a quintessential embodiment of the Enneagram Type 7 – The Enthusiast.</p>
-
-> **Disclaimer** This analysis of Kanye's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kanye.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -62,6 +58,12 @@ Kanye West interviews -->
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Kanye's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kanye.
+
+<p class="firstLetter">You've heard his music, observed his fashion trends, and watched his controversies unfold.</p>
+
+Kanye West, a stalwart in the global entertainment industry, continues to capture public attention with his every move. Today, we delve into an intriguing dimension of Kanye's persona, identifying him as a quintessential embodiment of the Enneagram Type 7 – The Enthusiast.
 
 <details>
 <summary class="accordion">TL;DR: Why Kanye is an Enneagram 7</summary>
@@ -80,17 +82,23 @@ Kanye West interviews -->
 
 ## The Joyful Creative: Kanye's Reflection of Enneagram Type 7 Traits
 
-Type 7s in the Enneagram are known for their versatile, optimistic, and spontaneous nature. This is perhaps nowhere more evident than in Kanye's music career. Spanning over two decades, Kanye West's discography, packed with vibrant and eclectic tracks, exemplifies his restless creative energy. From his groundbreaking debut, "The College Dropout," to his latest release, "Donda," Kanye continually pushes the boundaries of hip-hop, a testament to his Type 7 drive for new experiences and exploration.
+Type 7s in the Enneagram are known for their versatile, optimistic, and spontaneous nature.
+
+This is perhaps nowhere more evident than in Kanye's music career. Spanning over two decades, Kanye West's discography, packed with vibrant and eclectic tracks, exemplifies his restless creative energy. From his groundbreaking debut, "The College Dropout," to his latest release, "Donda," Kanye continually pushes the boundaries of hip-hop, a testament to his Type 7 drive for new experiences and exploration.
 
 Consider Kanye West's new album, "Donda." Named after his late mother, it is a remarkable tapestry of sounds and sentiments, echoing the Type 7's wide-ranging pursuits and resistance to being boxed into one category. This exploration isn't limited to his music alone. Kanye's fashion line, Yeezy, bears testament to his relentless desire for innovation and evolution, much like the Enneagram Type 7 personality.
 
 ## The Eternal Optimist Amid Controversies
 
-Kanye's controversies, often broadcasted worldwide, also paint a picture of the Type 7's tendency to avoid negative feelings and seek happiness above all else. From interrupting <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift's</a> acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
+Kanye's controversies, often broadcasted worldwide, also paint a picture of the Type 7's tendency to avoid negative feelings and seek happiness above all else.
+
+From interrupting <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift's</a> acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
 
 ## Mental Health: An Empathetic Lens into Kanye's Mind
 
-As we explore Kanye's alignment with the Type 7 personality, it's crucial to empathetically consider his mental health journey. In 2016, Kanye publicly revealed his diagnosis with bipolar disorder. The struggles associated with this condition can certainly amplify the Type 7 traits of restlessness and avoidance of negative emotions. Kanye's frank discussions about his mental health challenges provide a powerful example of the vulnerability beneath the seemingly joyous exterior of many Type 7 individuals.
+As we explore Kanye's alignment with the Type 7 personality, it's crucial to empathetically consider his mental health journey.
+
+In 2016, Kanye publicly revealed his diagnosis with bipolar disorder. The struggles associated with this condition can certainly amplify the Type 7 traits of restlessness and avoidance of negative emotions. Kanye's frank discussions about his mental health challenges provide a powerful example of the vulnerability beneath the seemingly joyous exterior of many Type 7 individuals.
 
 ## Kanye's Connections: Reflections of Type 7 Relationships
 
@@ -118,11 +126,9 @@ As we explore Kanye West through the lens of the Enneagram Type 7, we get a deep
 
 Kanye's life is a testament to the Enneagram philosophy's complexity, showing us how one's personality can simultaneously fuel brilliance and controversies. It's a reminder that our personalities, much like Kanye's music and life, are intricate compositions of multiple elements – ever-evolving and endlessly fascinating.
 
-We've explored the evidence, and it seems plausible that Kanye West indeed aligns with the traits of a Type 7. His restless creativity, his optimism amid controversies, and his struggle with commitment appear to present a convincing case. But personalities are multifaceted, and individuals cannot always be neatly sorted into categories.
-
 How does this perspective of Kanye West enhance your understanding of him as an artist and a public figure? Does viewing Kanye through the Enneagram Type 7 lens give you a deeper insight into his motivations and actions?
 
-Perhaps there's value in understanding our celebrities, our leaders, and even ourselves not just for their accomplishments but also through their personality type. If you're eager to delve deeper, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

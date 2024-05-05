@@ -105,7 +105,7 @@ Does this perspective of Kylie enhance your understanding of her as a businesswo
 
 With the world as her stage, Kylie Jenner's persona will continue to evolve, as will our understanding of it. Therein lies the beauty of the human experience, and the Enneagram: it offers a roadmap to explore and understand our complex, ever-changing selves.
 
-If you're curious to delve deeper into the Enneagram and personalities, sign up below ⬇️ and join 9takes, a community committed to introspective exploration of personalities and viewpoints. Together, let's uncover more, one personality at a time. Keep learning, keep questioning, and keep exploring. Sign up, and become a part of our unique journey.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

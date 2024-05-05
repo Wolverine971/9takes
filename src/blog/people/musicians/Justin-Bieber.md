@@ -21,8 +21,6 @@ tiktok: ''
     import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've heard his songs, followed his journey, and undoubtedly have thoughts about him. Justin Bieber, a global superstar and music sensation, has left a lasting imprint on our cultural consciousness. But today, we delve deeper, exploring an intriguing aspect of Justin's persona by suggesting he embodies the characteristics of an Enneagram Type 3 - The Achiever.</p>
-
 <div
     style="display: flex;
     justify-content: center;
@@ -39,6 +37,10 @@ tiktok: ''
 </div>
 
 > **Disclaimer** This analysis of Justin Bieber's Enneagram type is speculative, based on publicly available information, and may not reflect Justin Bieber's actual personality type.
+
+<p class="firstLetter">You've heard his songs, followed his journey, and undoubtedly have thoughts about him.</p>
+
+Justin Bieber, a global superstar and music sensation, has left a lasting imprint on our cultural consciousness. But today, we delve deeper, exploring an intriguing aspect of Justin's persona by suggesting he embodies the characteristics of an Enneagram Type 3 - The Achiever.
 
 ## What is Justin Bieber's Personality Type?
 
@@ -94,7 +96,7 @@ As we delve into the intricacies of Justin Bieber's personality through the lens
 
 Does understanding Bieber as a Type 3 change how you view his life and music? Does it shed light on the motives behind his public actions and artistic expressions?
 
-If you're intrigued by this exploration of personality and fame, join the 9takes community. Here, we delve into the fascinating world of personalities, unraveling the stories behind the public figures. Sign up and be part of a community that values understanding and exploring the diverse perspectives of life. Let's discover the layers of personality, one story at a time.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 

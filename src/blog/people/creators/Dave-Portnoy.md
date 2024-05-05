@@ -66,7 +66,9 @@ The Enneagram Type 8 is often described as self-confident, decisive, and willful
 
 ### Portnoy's Business Acumen
 
-Dave Portnoy is in a league of his own regarding business IQ. He wheels and deals like an old-school mobster boss. His pride and joy, Barstool Sports, serves as a case study. Founded in 2003 as a print publication, Barstool transitioned into a digital platform under Portnoy's leadership, eventually becoming a cultural phenomenon. Portnoy pivoted multiple times to keep Barstool relevant while remaining true to its fans. This adaptability showcases his decisive nature, a defining trait of a Type 8 personality.
+Dave Portnoy is in a league of his own regarding business IQ.
+
+He wheels and deals like an old-school mobster boss. His pride and joy, Barstool Sports, serves as a case study. Founded in 2003 as a print publication, Barstool transitioned into a digital platform under Portnoy's leadership, eventually becoming a cultural phenomenon. Portnoy pivoted multiple times to keep Barstool relevant while remaining true to its fans. This adaptability showcases his decisive nature, a defining trait of a Type 8 personality.
 
 What truly sets Portnoy apart is what happened in 2020. He sold a majority stake in Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million. Barstool was the same with Portnoy at the helm, and in 2023, Portnoy bought it back- for $1. This was a power move that again showed Portnoy's savvy.
 
@@ -76,7 +78,9 @@ What truly sets Portnoy apart is what happened in 2020. He sold a majority stake
 
 ### Marching to His Own Beat: The BFFs Podcast and Celebrity Connections
 
-Dave Portnoy's BFFs podcast with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/JoshRichards">Josh Richards</a> and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bchickenfry">Bri Chickenfry</a> isn't just another podcast; it vividly illustrates his non-conformist approach to life. Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
+Dave Portnoy's BFFs podcast with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/JoshRichards">Josh Richards</a> and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bchickenfry">Bri Chickenfry</a> isn't just another podcast; it vividly illustrates his non-conformist approach to life.
+
+Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
 
 He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
@@ -84,7 +88,9 @@ This disregard for societal expectations and his willingness to forge his path s
 
 ### The Controversies
 
-Dave Portnoy has been at the center of a few controversies. However, Dave's approach to handling these situations differs from that of most celebrities. While many public figures might issue a carefully worded apology or sidestep the issue, Portnoy faces it head-on.
+Dave Portnoy thrives off of controversy.
+
+However, Dave's approach to handling these situations differs from that of most celebrities. While many public figures might issue a carefully worded apology or sidestep the issue, Portnoy faces it head-on.
 
 Barstool has been accused of being misogynistic multiple times. However, Portnoy doesn't come down and say that he will do better. Instead, he goes on the offense and points out that Barstool has a female CEO and multiple female employees who have gone on to start their own shows and podcasts. If Barstool was misogynistic, then women would not be killing it like they are at Barstool.
 
@@ -98,7 +104,9 @@ In the context of the Enneagram, this approach to controversies is typical of a 
 
 ## The Art of Revenge: Dave Portnoy's Champagne Ritual
 
-One aspect of Enneagram 8s is that they are fixated on revenge. Revenge might sound like a strong word, but in the world of Type 8s, it's not about malice but justice. Portnoy considers himself the underdog and keeps track of his doubters and haters. Portnoy has a collection of champagne bottles dedicated to his enemies, and he pops them open whenever one faces a downfall.
+One aspect of Enneagram 8s is that they are fixated on revenge.
+
+Revenge might sound like a strong word, but in the world of Type 8s, it's not about malice but justice. Portnoy considers himself the underdog and keeps track of his doubters and haters. Portnoy has a collection of champagne bottles dedicated to his enemies, and he pops them open whenever one faces a downfall.
 
 ### A Symbolic Gesture
 
@@ -114,7 +122,9 @@ Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/blo
 
 ### The public display as a reminder
 
-It is a strategic move to share these champagne-popping moments on social media. It turns a personal ritual into a public display. This act serves a dual purpose: it rallies his supporters and sends a message to his enemies. Dave is a natural leader who is unafraid to stand alone and not afraid to display his raw emotions. It's a window into the complex psyche of a man who could be an Enneagram Type 8, driven by a need for control, a thirst for justice, and an unyielding will to stand his ground.
+It is a strategic move to share these champagne-popping moments on social media.
+
+It turns a personal ritual into a public display. This act serves a dual purpose: it rallies his supporters and sends a message to his enemies. Dave is a natural leader who is unafraid to stand alone and not afraid to display his raw emotions. It's a window into the complex psyche of a man who could be an Enneagram Type 8, driven by a need for control, a thirst for justice, and an unyielding will to stand his ground.
 
 <div
   style="display: flex;
@@ -187,6 +197,8 @@ Dave is polarizing. Both his supporters and haters see different things in Dave'
 Dave Portnoy is a man of contrasts. He can do whatever he wants with a net worth of around $120 million. Yet, he does his pizza reviews almost every day. Why? Because he is a man of the people. He leads Barstool, a media empire in the making, and is constantly surrounded by content creators. Portnoy could easily delegate these reviews to someone else, but he chooses to get his hands dirty. It's not about the pizza; it's about staying grounded. He doesn't care what others think; he does what he believes and sets an example.
 
 So, what can we learn from Dave Portnoy? There's more than meets the eye when you look deeply at people. On the surface, he may appear as just another wealthy businessman, but delve a little deeper, and you'll find that El Presidente" is a decisive, aggressive, and unapologetic Enneagram 8.
+
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

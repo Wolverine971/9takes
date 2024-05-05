@@ -108,7 +108,7 @@ Our journey into Mr. Beast's psyche presents an argument for him embodying the t
 
 Does this exploration change your perception of Mr. Beast? Do you view his actions, philanthropy, and even his controversies through a new lens? Seeing Mr. Beast as a Type 8 offers us a richer understanding of his motivations and invites us to see the Enneagram in action in a contemporary context.
 
-It's your turn to delve deeper into this fascinating world of personalities. Explore more articles and unravel the personas of public figures, celebrities, and leaders. Sign up today and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

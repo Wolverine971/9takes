@@ -70,7 +70,9 @@ As we venture into the compelling world of Kamala Harris, we'll uncover instance
 
 ## The Ascent of Ambition
 
-Kamala’s rise to political prominence is a narrative steeped in ambition. Her career as a prosecutor, district attorney, attorney general, and eventually the United States vice president is a testament to her unyielding ambition. Each step of her journey was marked by significant achievements, reflecting a Type 3’s desire for success and societal recognition.
+Kamala’s rise to political prominence is a narrative steeped in ambition.
+
+Her career as a prosecutor, district attorney, attorney general, and eventually the United States vice president is a testament to her unyielding ambition. Each step of her journey was marked by significant achievements, reflecting a Type 3’s desire for success and societal recognition.
 
 ## Tailored Tenacity
 
@@ -83,13 +85,16 @@ One notable instance is her performance during the Democratic primary debates in
 </div>
 
 Moreover, her campaign slogan, "For the People," echoes a tailored approach aimed at resonating with a broad spectrum of voters. The slogan encapsulates a message of inclusivity and advocacy, aligning with the desires and expectations of a diverse electorate.
+
 Her adeptness at molding her rhetoric based on the audience's pulse, whether during debates, public addresses, or campaign slogans, encapsulates the essence of Type 3's tailored tenacity. Each maneuver is calculated, reflecting a deep understanding of the audience's expectations and a keen ability to adapt her narrative accordingly to ensure a favorable impression.
 
 These instances reflect the skill and charisma of Type 3 and their ability to read the room.
 
 ## The Spectrum of Scrutiny
 
-Kamala's journey has been full of controversies and public scrutiny. A particular aspect that often catches the eye is her laughter, sometimes perceived as disingenuous or used as a mechanism to navigate through tricky or uncomfortable questions. This behavior, often dubbed a 'fake laugh' by critics, can be seen as a Type 3 defense mechanism to maintain a poised and likable facade amidst scrutiny.
+Kamala's journey has been full of controversies and public scrutiny.
+
+A particular aspect that often catches the eye is her laughter, sometimes perceived as disingenuous or used as a mechanism to navigate through tricky or uncomfortable questions. This behavior, often dubbed a 'fake laugh' by critics, can be seen as a Type 3 defense mechanism to maintain a poised and likable facade amidst scrutiny.
 
 Moreover, her tendency to delve into lengthy explanations — sometimes ending up in what critics label as 'word salad' — is another aspect that has been under the microscope. This trait can be tied to Type 3's desire to appear competent and knowledgeable. An instance that illustrates this is her discussion around Artificial Intelligence (AI). When broached on complex topics like AI, Kamala has tended to become verbose, seemingly dancing around the issue with a flurry of words yet lacking a direct stance or clear articulation. This behavior might reflect a Type 3's fear of appearing incompetent or unprepared, hence resorting to a verbose shield.
 
@@ -97,7 +102,9 @@ These instances under the spotlight provide a window into the pressures and copi
 
 ## Comrades of Conviction
 
-The journey of forming alliances in the political arena is a testament to an individual's adaptability and strategic foresight. Kamala Harris's relationship with Joe Biden reflects this intricacy. During the 2019 Democratic primary debates, Kamala was noted for her critique of Biden concerning school busing policies. Despite this early contention, the two were able to transcend their differences, culminating in Kamala being chosen as Biden's Vice President. This transition reflects her ability to reconcile and build bridges despite prior disagreements, an attribute resonating with the adaptable and goal-oriented nature of Enneagram Type 3 personalities.
+The journey of forming alliances in the political arena is a testament to an individual's adaptability and strategic foresight.
+
+Kamala Harris's relationship with Joe Biden reflects this intricacy. During the 2019 Democratic primary debates, Kamala was noted for her critique of Biden concerning school busing policies. Despite this early contention, the two were able to transcend their differences, culminating in Kamala being chosen as Biden's Vice President. This transition reflects her ability to reconcile and build bridges despite prior disagreements, an attribute resonating with the adaptable and goal-oriented nature of Enneagram Type 3 personalities.
 
 Kamala's alliances extend beyond individual relationships to encompass groups and factions within the political landscape. During her term, Kamala defended California's greenhouse gas emission standards against federal attempts to weaken them. Aligning with environmental advocacy groups, she bolstered her stance and created a joint coalition to tackle climate change issues. This alliance reflected her strategic insight and showcased a Type 3 personality trait of forming goal-oriented relationships to achieve shared objectives.
 

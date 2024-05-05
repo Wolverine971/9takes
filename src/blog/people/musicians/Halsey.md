@@ -43,10 +43,6 @@ Halsey Instagram -->
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats. Halsey, an influential figure in the music industry, is a fascinating study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.</p>
-
-> **Disclaimer** This analysis of Halsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -61,6 +57,12 @@ Halsey Instagram -->
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Halsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Halsey.
+
+<p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats.</p>
+
+Halsey, an influential figure in the music industry, is a fascinating study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.
 
 <details>
 <summary class="accordion">TL;DR: Why Halsey is an Enneagram 8</summary>
@@ -84,7 +86,9 @@ From her early career with 'Room 93' to her recent album 'If I Can't Have Love, 
 
 ## Against the Grain: Defiance and Power
 
-Halsey's career in music showcases her boldness, a characteristic trait of Enneagram Type 8 personalities. Her transition from 'Badlands' to 'Hopeless Fountain Kingdom' and finally 'Manic' displays her courage to defy norms and take the road less traveled. But it's not only her music that reflects this. Remember her split from G-Eazy? The 'Without Me' hitmaker's decision to publicize their breakup was nothing short of audacious, a quality inherent in Type 8s.
+Halsey's career in music showcases her boldness, a characteristic trait of Enneagram Type 8 personalities.
+
+Her transition from 'Badlands' to 'Hopeless Fountain Kingdom' and finally 'Manic' displays her courage to defy norms and take the road less traveled. But it's not only her music that reflects this. Remember her split from G-Eazy? The 'Without Me' hitmaker's decision to publicize their breakup was nothing short of audacious, a quality inherent in Type 8s.
 
 ## Halsey's Take on Life and Music: Emotion and Intensity
 
@@ -92,7 +96,9 @@ Intensity is a key aspect of Type 8 personalities and a defining feature of Hals
 
 ## A Challenger's Vulnerability
 
-Type 8s are often misconstrued as cold or hardened, but they possess a deep vulnerability, which Halsey often gives voice to. Whether it's dealing with miscarriage or bipolar disorder, she doesn't shy away from exposing her wounds. This honesty further solidifies her alignment with Enneagram Type 8, which values emotional authenticity.
+Type 8s are often misconstrued as cold or hardened, but they possess a deep vulnerability, which Halsey often gives voice to.
+
+Whether it's dealing with miscarriage or bipolar disorder, she doesn't shy away from exposing her wounds. This honesty further solidifies her alignment with Enneagram Type 8, which values emotional authenticity.
 
 ## Halsey's Fight for Justice
 

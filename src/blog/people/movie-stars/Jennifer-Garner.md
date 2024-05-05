@@ -81,7 +81,7 @@ In an industry often criticized for its superficiality, Garner stands out as an 
 
 Now that we've explored Jennifer Garner's world through an Enneagram Type 1 lens, does it change your view of her? Understanding her drive for perfection, her response to stress, and her intrinsic need for moral alignment offers a new perspective on her public persona and artistic choices.
 
-In a world where understanding and empathy are increasingly needed, exploring personalities like Garner's can be enlightening. If this analysis piqued your interest, we invite you to delve deeper into the fascinating world of the Enneagram and human psychology. Sign up below ⬇️ to join 9takes, where we continuously explore the intricacies of personalities and perspectives, one story at a time. Let's unravel the layers of the human mind together.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

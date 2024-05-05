@@ -32,10 +32,6 @@ i want it i got it
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You know her, you've listened to her, and there's no doubt you've formed an opinion about her. Ariana Grande, the Grammy-winning artist, has been a luminary in the music industry, capturing hearts with her powerful vocals and enthralling performances. Today, we traverse an intriguing path, exploring the pop sensation through the lens of the Enneagram Type 3 – The Achiever.</p>
-
-> **Disclaimer** This analysis of Ariana Grande's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ariana Grande.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -50,6 +46,12 @@ i want it i got it
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Ariana Grande's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ariana Grande.
+
+<p class="firstLetter">You know her, you've listened to her, and there's no doubt you've formed an opinion about her.</p>
+
+Ariana Grande, the Grammy-winning artist, has been a luminary in the music industry, capturing hearts with her powerful vocals and enthralling performances. Here, we traverse an intriguing path, exploring the pop sensation through the lens of the Enneagram Type 3 – The Achiever.
 
 <details>
 <summary class="accordion">TL;DR: Why Ariana Grande is an Enneagram 3</summary>

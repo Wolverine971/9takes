@@ -52,7 +52,9 @@ Sanders is also famous for his temperament. Despite being in the throes of often
 
 ## Sanders’ Commitment to the Collective
 
-The Peacemaker, true to its name, seeks harmony and avoids conflict. This has been evident throughout Sanders' career. For instance, his fight against income inequality stems from a desire for a more harmonious society. His passionate speeches on the Senate floor, while fervent, rarely devolve into personal attacks—highlighting his inclination to keep the peace.
+The Peacemaker, true to its name, seeks harmony and avoids conflict.
+
+This has been evident throughout Sanders' career. For instance, his fight against income inequality stems from a desire for a more harmonious society. His passionate speeches on the Senate floor, while fervent, rarely devolve into personal attacks—highlighting his inclination to keep the peace.
 
 The acceptance and easy-going nature that is characteristic of Type 9s are equally visible. Consider his 2016 Democratic primary race. Despite a hard-fought campaign, he gracefully accepted the results, endorsing Hillary Clinton, his former rival. This magnanimity in defeat speaks to his accepting nature, a clear trait of the Type 9.
 
@@ -62,7 +64,7 @@ Now that we’ve explored the evidence, it seems quite plausible that Sanders do
 
 However, personalities are complex, and individuals cannot always be neatly sorted into categories. How does this perspective of Sanders enhance your understanding of him as a politician and public figure? Does seeing Sanders through the lens of the Enneagram Type 9 give you a deeper understanding of his motivations and actions?
 
-In an ever-polarizing world, perhaps there is value in understanding our leaders not just through their policy but also through their personality type. Maybe it's time to explore more. Sign up below ⬇️ and become part of a community that values introspective exploration of personalities and viewpoints. Together, let's peel back the layers, one personality at a time.
+In an ever-polarizing world, perhaps there is value in understanding our leaders not just through their policy but also through their personality type. If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 </svelte:head>

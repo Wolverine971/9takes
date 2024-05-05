@@ -56,7 +56,7 @@ Kendal Jenner - 4??? -->
   />
 </div>
 
-> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kim Kardashian.
+> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kim.
 
 <p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer.</p>
 
@@ -84,25 +84,33 @@ Sound familiar? If you've followed Kim's trajectory, from reality TV to building
 
 ## The Ascent to Fame: Driven by Success
 
-Kim's climb up the social ladder wasn't a fluke. It was a carefully calibrated ascent marked by an unquenchable thirst for success. Type 3s are renowned for their ambitious nature, setting their sights high and working tirelessly to meet their goals. This drive is apparent in Kim's career.
+Kim's climb up the social ladder wasn't a fluke.
+
+It was a carefully calibrated ascent marked by an unquenchable thirst for success. Type 3s are renowned for their ambitious nature, setting their sights high and working tirelessly to meet their goals. This drive is apparent in Kim's career.
 
 There are varied opinions when we consider the debate surrounding her rise to fame. Some say it was luck; others say it was strategized exposure. But either way, her persistence, and adaptability are classic Type 3 traits. She leveraged her initial fame into an ever-expanding empire of beauty products, fashion lines, and, more recently, legal advocacy.
 
 ## A Love for Family and a Quest for Balance
 
-What sets Kim apart from the stereotypical Type 3, absorbed solely in personal success, is her enduring commitment to her family. Her love for her children is palpable. Whether posting candid photos of family life on social media or fiercely protecting their privacy, Kim juggles her roles as a businesswoman and mother with evident passion.
+What sets Kim apart from the stereotypical Type 3, absorbed solely in personal success, is her enduring commitment to her family.
+
+Her love for her children is palpable. Whether posting candid photos of family life on social media or fiercely protecting their privacy, Kim juggles her roles as a businesswoman and mother with evident passion.
 
 Furthermore, her relationships with her sisters— <a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a>, and Kendall—provide her a support network, a personal and professional advantage that she doesn't take for granted.
 
 ## The Multi-Faceted Achiever: Kanye, Pete, and a Law Degree
 
-Kim's relationships have often been in the public eye, most notably her marriage to <a href="/blog/famous-enneagram-types/Kanye">Kanye West</a> and her current relationship with <a href="/blog/famous-enneagram-types/Pete-Davidson">Pete Davidson</a>. These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, which many Type 3s strive for but often struggle to balance with their ambitious goals.
+Kim's relationships have often been in the public eye, most notably her marriage to <a href="/blog/famous-enneagram-types/Kanye">Kanye West</a> and her current relationship with <a href="/blog/famous-enneagram-types/Pete-Davidson">Pete Davidson</a>.
+
+These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, which many Type 3s strive for but often struggle to balance with their ambitious goals.
 
 Another thing to touch on is Kim's pursuit of a law degree. Many were surprised when she announced her intention to become a lawyer. But think about it: this move is quintessentially Type 3. It’s not just about adding another achievement to her roster; it’s about meaningful success. Kim's advocacy work on criminal justice reform indicates a desire to merge her social influence with social impact, another hallmark of a well-integrated Type 3.
 
 ## Addressing Controversies: The Flip Side of the Coin
 
-Let's address the elephant in the room. Kim has faced her share of controversies, ranging from cultural appropriation accusations to questions about her influence on body image standards. These issues are crucial and deserve scrutiny, but for a Type 3, controversies often serve as both a learning curve and a drive to do better. Rather than retreating, she takes these as challenges, seeking to improve and refine her image and actions, true to her Type 3 nature.
+Let's address the elephant in the room.
+
+Kim has faced her share of controversies, ranging from cultural appropriation accusations to questions about her influence on body image standards. These issues are crucial and deserve scrutiny, but for a Type 3, controversies often serve as both a learning curve and a drive to do better. Rather than retreating, she takes these as challenges, seeking to improve and refine her image and actions, true to her Type 3 nature.
 
 ## How Each Enneagram Type Perceives Kim Kardashian
 
@@ -118,11 +126,13 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8s, appreciating strength, might respect Kim's resilience in the face of controversy and her assertiveness in business. They might, however, question her influence and the societal standards her brand sets.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9s, seeking peace and harmony, might feel conflicted about Kim. They might appreciate her advocacy for criminal justice reform but feel uneasy about the drama and controversies surrounding her.
 
-**To wrap up,** we've analyzed Kim's journey through the lens of an Enneagram Type 3. From her drive to achieve, the controversies she's faced, and her ongoing balancing act between the real and the ideal, the picture of why Kardashian may represent a Type 3 personality has been painted.
+## Conclusion
+
+From her drive to achieve, the controversies she's faced, and her ongoing balancing act between the real and the ideal, the picture of why Kardashian may represent a Type 3 personality has been painted.
 
 It is important to note that people are complex. This analysis is one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Does seeing Kardashian through the lens of an Enneagram Type 3 give you a deeper insight into her actions and motivations?
 
-Understanding public figures like Kim Kardashian through the Enneagram lens could offer valuable insights. If you like this, join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

@@ -21,10 +21,6 @@ tiktok:
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory. Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the revealing lens of the Enneagram Type 6.</p>
-
-> **Disclaimer** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok:
 		subtext=""
 	/>
 </div>
+
+> **Disclaimer** This analysis of Prince Harry's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Prince Harry.
+
+<p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory.</p>
+
+Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the revealing lens of the Enneagram Type 6.
 
 ## What is Prince Harry's Personality Type?
 

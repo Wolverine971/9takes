@@ -62,19 +62,27 @@ Jon Stewart, the former host of The Daily Show, has left an indelible mark on mo
 
 ## The Adventurer, The Enthusiast
 
-Enneagram Type 7s are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly. He exemplifies the Type 7's playful energy and insatiable curiosity. Throughout his tenure on The Daily Show, his knack for exploring the lighter side of even the grimmest news stories was unparalleled.
+Enneagram Type 7s are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly.
+
+He exemplifies the Type 7's playful energy and insatiable curiosity. Throughout his tenure on The Daily Show, his knack for exploring the lighter side of even the grimmest news stories was unparalleled.
 
 ## Stewart’s Controversial Wit
 
-Jon Stewart’s controversial moments on The Daily Show are some of the best illustrations of his Type 7 personality. In true Type 7 fashion, he has an uncanny ability to diffuse tense situations with humor and wit, turning them into laughable moments. He consistently demonstrated a flair for crafting jokes that provoke thought, an approach that sparked laughter but also urged audiences to ponder deeper societal issues.
+Jon Stewart’s controversial moments on The Daily Show are some of the best illustrations of his Type 7 personality.
+
+In true Type 7 fashion, he has an uncanny ability to diffuse tense situations with humor and wit, turning them into laughable moments. He consistently demonstrated a flair for crafting jokes that provoke thought, an approach that sparked laughter but also urged audiences to ponder deeper societal issues.
 
 ## Embracing Uncertainty, With Laughter
 
-Stewart's comedic style often centers on the uncertainty of life - a classic Type 7 characteristic. Type 7 personalities tend to avoid pain and unpleasantness, preferring to stay in the positive spectrum of their emotions. This can be seen in Stewart’s penchant for framing negative news with humor, therefore creating a buffer against the harsh realities of the world.
+Stewart's comedic style often centers on the uncertainty of life - a classic Type 7 characteristic.
+
+Type 7 personalities tend to avoid pain and unpleasantness, preferring to stay in the positive spectrum of their emotions. This can be seen in Stewart’s penchant for framing negative news with humor, therefore creating a buffer against the harsh realities of the world.
 
 ## Surprising Stability and Enthusiastic Engagement
 
-The duration of Jon Stewart's tenure at <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/The_Daily_Show" >The Daily Show</a>, which spanned an impressive 16 years, may initially seem at odds with a Type 7 personality. Known for their desire for change, adventure, and a spectrum of experiences, one might question how a Type 7 like Stewart could commit to a single project for such an extended period. However, an integral part of this seeming paradox can be unraveled when considering the unique and dynamic nature of the show itself.
+The duration of Jon Stewart's tenure at <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/The_Daily_Show" >The Daily Show</a>, which spanned an impressive 16 years, may initially seem at odds with a Type 7 personality.
+
+Known for their desire for change, adventure, and a spectrum of experiences, one might question how a Type 7 like Stewart could commit to a single project for such an extended period. However, an integral part of this seeming paradox can be unraveled when considering the unique and dynamic nature of the show itself.
 
 Stewart's individual episodes of The Daily Show were anything but monotonous. Each one presented a fresh canvas for Stewart's humor, wit, and critical thinking, making the show a continually evolving journey of exploration. With every episode, Stewart breathed life into the day's topics, transforming them into engaging narratives that were both informative and entertaining. His ability to turn even the densest and most challenging subjects into palatable content illustrates how his Enneagram Type 7 personality traits were at play.
 
@@ -108,7 +116,7 @@ But, as with every individual, Stewart is more than just a type. He is a complex
 
 Does seeing Stewart through the lens of the Enneagram Type 7 give you a deeper understanding of his motivations and actions? How does this perspective enhance your view of him as a comedian and social commentator?
 
-As we continue to peel back the layers of personalities, we invite you to join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

@@ -78,7 +78,9 @@ Enneagram Type 4s, known as 'Individualists,' are defined by their unique qualit
 
 ## Seeing the Unseen
 
-Casey Neistat's vlogs offer more than meets the eye. He excels in capturing small, often overlooked details, transforming them into key narrative elements. His approach keeps viewers engaged, turning everyday scenes into captivating stories. A distinctive aspect is his use of sunglasses, not just a style choice, but a way to establish a direct connection with the audience. This technique reflects a deep awareness of his environment, a trait common in Enneagram Type 4s, emphasizing their desire for understanding and connection.
+Casey Neistat's vlogs offer more than meets the eye.
+
+He excels in capturing small, often overlooked details, transforming them into key narrative elements. His approach keeps viewers engaged, turning everyday scenes into captivating stories. A distinctive aspect is his use of sunglasses, not just a style choice, but a way to establish a direct connection with the audience. This technique reflects a deep awareness of his environment, a trait common in Enneagram Type 4s, emphasizing their desire for understanding and connection.
 
 ## Why Casey Wears the Sunglasses
 
@@ -89,7 +91,9 @@ Casey Neistat's vlogs offer more than meets the eye. He excels in capturing smal
 
 ## Running Towards Vulnerability
 
-Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He openly shares his struggles, passions, and pursuits, offering us an authentic glimpse into his world. His affinity for running is one such pursuit that reveals his complex personality. It's not just a fitness routine for him; it's a metaphorical journey towards embracing his individuality and a symbol of his resilience and determination.
+Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities.
+
+He openly shares his struggles, passions, and pursuits, offering us an authentic glimpse into his world. His affinity for running is one such pursuit that reveals his complex personality. It's not just a fitness routine for him; it's a metaphorical journey towards embracing his individuality and a symbol of his resilience and determination.
 
 ## Why Casey loves to run
 
@@ -101,7 +105,9 @@ Like a true Enneagram 4, Neistat is unafraid of showing his vulnerabilities. He 
 
 ## The Chaos and the Quiet
 
-Neistat’s life, much like his vlogs, is a blend of chaos and quietude. As an entrepreneur, he thrives in the tumult, yet his creative spirit also yearns for solitude. This paradox reflects his Enneagram 4 tendencies – a love for the unique and extraordinary coupled with a need for introspection and self-expression.
+Neistat’s life, much like his vlogs, is a blend of chaos and quietude.
+
+As an entrepreneur, he thrives in the tumult, yet his creative spirit also yearns for solitude. This paradox reflects his Enneagram 4 tendencies – a love for the unique and extraordinary coupled with a need for introspection and self-expression.
 
 ## Casey Timeline
 
@@ -177,7 +183,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 How does this exploration enhance your understanding of Neistat as a creative artist? Does viewing him through the Enneagram 4 lens provide a fresh perspective on his motivations and actions? Perhaps there's value in understanding our icons not just through their work but also through their personality type.
 
-If this interests you, I encourage you to join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
 <svelte:head>
 

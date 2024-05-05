@@ -116,7 +116,7 @@ As intricate beings, people’s thoughts, emotions, and actions are molded over 
 
 In a world where perspectives are diverse and often conflicting, taking the time to comprehend another’s point of view can be enlightening. If this exploration has sparked your interest, we invite you to delve further into the realm of personalities and perspectives.
 
-Join us at 9takes - a community that values the exploration of personalities and viewpoints. Let’s delve deeper into the intricate tapestry of personalities that surrounds us, one person at a time. Sign up below ⬇️ and begin your journey of discovery today.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 
