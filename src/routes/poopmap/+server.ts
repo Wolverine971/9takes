@@ -114,6 +114,48 @@ export async function GET() {
 	    <priority>0.7</priority>
 	</url>
 	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/overview</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/nine-types</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/development</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/relationships</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/workplace</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/resources</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/enneagram/subtopic/situational</loc>
+	    <lastmod>2024-05-04</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
 	    <loc>https://9takes.com/blog/guides</loc>
 	    <lastmod>2024-04-07</lastmod>
 	    <changefreq>weekly</changefreq>
@@ -127,7 +169,61 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
-	    <lastmod>2023-12-07</lastmod>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/1</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/2</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/3</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/4</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/5</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/6</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/7</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/8</loc>
+	    <lastmod>2024-05-05</lastmod>
+	    <changefreq>weekly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
+	    <loc>https://9takes.com/blog/famous-enneagram-types/type/9</loc>
+	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
@@ -139,9 +235,9 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) =>
+						`
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -149,8 +245,8 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{

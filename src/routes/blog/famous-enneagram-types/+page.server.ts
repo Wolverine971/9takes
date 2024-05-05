@@ -30,7 +30,7 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 		const objectsWithType = publishedPosts.filter((obj) => obj?.enneagram === enneagram);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(a.lastmod) - new Date(b.lastmod));
+		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 3));

@@ -10,10 +10,10 @@ export const load: PageServerLoad = async () => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 
@@ -37,7 +37,7 @@ export const load: PageServerLoad = async () => {
 		const objectsWithType = publishedPosts.filter((obj) => obj?.type?.[0] === type);
 
 		// Sort objects by date_created
-		objectsWithType.sort((a, b) => new Date(a.lastmod) - new Date(b.lastmod));
+		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
 
 		// Push first 3 objects to uniqueObjects
 		uniqueObjects.push(...objectsWithType.slice(0, 3));
