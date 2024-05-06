@@ -6,7 +6,10 @@
 	// import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	// import Card from '$lib/components/atoms/card.svelte';
 	export let data: PageData;
+	let innerWidth = 0;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <BlogPageHead
 	data={{
@@ -49,16 +52,30 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/overview" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/overview" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All Enneagram topic blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/overview" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All Enneagram topic blogs </span>
-				<br />
+
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
 
 <h2 id="9types">The Nine Enneagram Types</h2>
 <div class="blog-grid-container">
@@ -100,16 +117,29 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/development" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/development" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All personal development blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/development" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All personal development blogs </span>
-				<br />
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
+
 <h2 id="relationships">Enneagram in Relationships</h2>
 <div class="blog-grid-container temp-three-row three-small">
 	{#each data.enneagramBlogs as eBlog}
@@ -129,16 +159,29 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/relationships" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/relationships" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All relationship blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/relationships" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All relationship blogs </span>
-				<br />
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
 
 <h2 id="workplace">Enneagram in the Workplace</h2>
 <div class="blog-grid-container temp-three-row">
@@ -159,16 +202,29 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/workplace" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/workplace" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All workplace blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/workplace" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All workplace blogs </span>
-				<br />
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
 
 <h2 id="resources">Enneagram Resources</h2>
 <div class="blog-grid-container temp-three-row">
@@ -189,16 +245,28 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/resources" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/resources" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All resource blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/resources" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All resource blogs </span>
-				<br />
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
 
 <h2 id="situations">Enneagram Situational Topics</h2>
 <div class="blog-grid-container temp-three-row">
@@ -219,16 +287,28 @@
 			</a>
 		{/if}
 	{/each}
-	<a href="/blog/enneagram/subtopic/situational" class="grid-item">
-		<div class="fit-card black-white">
-			<h3 style="">
+	{#if innerWidth > 550}
+		<a href="/blog/enneagram/subtopic/situational" class="grid-item">
+			<div class="fit-card black-white">
+				<h3 style="">
+					<span>All situational blogs </span>
+					<br />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				</h3>
+			</div>
+		</a>
+	{/if}
+</div>
+{#if innerWidth <= 550}
+	<a href="/blog/enneagram/subtopic/situational" class="">
+		<div class="black-white">
+			<h3 style="display: flex; align-items: center;">
 				<span>All situational blogs </span>
-				<br />
 				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 			</h3>
 		</div>
 	</a>
-</div>
+{/if}
 
 <style lang="scss">
 	h3 {
@@ -301,12 +381,11 @@
 
 		.temp-three-row {
 			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 30vw 30vw 30vw;
 		}
 
 		.blog-grid-container {
-			// grid-template-columns: 45vw 45vw;
-			// gap: 0;
+			grid-template-columns: 30vw 30vw 30vw;
 			column-gap: 0.5rem;
 		}
 		.inline-it {
@@ -314,10 +393,6 @@
 		}
 		.fit-card {
 			padding: 0.5rem;
-		}
-
-		.three-small {
-			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 
