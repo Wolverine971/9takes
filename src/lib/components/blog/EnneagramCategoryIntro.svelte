@@ -28,7 +28,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -71,14 +71,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 
@@ -107,7 +107,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -140,14 +140,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 
@@ -176,7 +176,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -218,14 +218,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 
@@ -254,7 +254,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -298,14 +298,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 {#if subsection === 'workplace'}
@@ -333,7 +333,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -367,14 +367,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 {#if subsection === 'resources'}
@@ -403,7 +403,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -447,14 +447,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 {#if subsection === 'situational'}
@@ -482,7 +482,7 @@
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 					>
-						<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+						<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 							<h3>
 								{eBlog.title}
 							</h3>
@@ -527,14 +527,14 @@
 			</ul>
 		</section>
 
-		<section id="cta">
+		<!-- <section id="cta">
 			<h2>Stay Connected</h2>
 			<p>
 				Subscribe to our blog for the latest articles and insights on the Enneagram and its
 				applications.
 			</p>
 			<a href="#" class="cta-button">Subscribe Now</a>
-		</section>
+		</section> -->
 	</main>
 {/if}
 
@@ -609,17 +609,23 @@
 
 		.temp-three-row {
 			display: grid;
-			grid-template-columns: 30vw 30vw 30vw;
+			grid-template-columns: 1fr 1fr;
 		}
 
 		.blog-grid-container {
-			grid-template-columns: 30vw 30vw 30vw;
+			grid-template-columns: 45vw 45vw;
+			// gap: 0;
+			column-gap: 0.5rem;
 		}
 		.inline-it {
 			width: 30vw; // !important;
 		}
 		.fit-card {
 			padding: 0.5rem;
+		}
+
+		.three-small {
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 

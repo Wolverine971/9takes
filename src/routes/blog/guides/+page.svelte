@@ -18,9 +18,9 @@
 />
 
 <div style="width: 100%;">
-	<h1 id="enneagram">9takes Guides</h1>
-	<p>WIP 🚧</p>
-	<div class="blog-grid-container">
+	<h1 id="guides">9takes Guides</h1>
+
+	<div class="blog-grid-container temp-three-row">
 		{#each data.posts as blog}
 			<a
 				href={`/blog/guides/${blog.slug}`}
@@ -28,7 +28,7 @@
 				style={blog.pic &&
 					`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={blog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{blog.title}
 					</h3>
@@ -37,6 +37,8 @@
 			</a>
 		{/each}
 	</div>
+	<br />
+	<p>WIP 🚧</p>
 </div>
 
 <style lang="scss">
@@ -76,6 +78,14 @@
 		gap: 1rem;
 		overflow: hidden;
 	}
+
+	.temp-three-row {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 0.7fr;
+		gap: 0.5rem;
+		grid-row: inherit;
+	}
+
 	.fit-card {
 		position: absolute;
 		/* top: 0;

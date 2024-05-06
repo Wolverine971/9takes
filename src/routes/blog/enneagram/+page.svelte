@@ -40,7 +40,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -70,7 +70,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -91,7 +91,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -111,7 +111,7 @@
 	</a>
 </div>
 <h2 id="relationships">Enneagram in Relationships</h2>
-<div class="blog-grid-container temp-three-row">
+<div class="blog-grid-container temp-three-row three-small">
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'relationships'}
 			<a
@@ -120,7 +120,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -150,7 +150,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -180,7 +180,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -210,7 +210,7 @@
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
-				<div class="txt-white {eBlog.pic ? 'txt-white' : 'txt-dark'}">
+				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
 					<h3>
 						{eBlog.title}
 					</h3>
@@ -301,17 +301,23 @@
 
 		.temp-three-row {
 			display: grid;
-			grid-template-columns: 30vw 30vw 30vw;
+			grid-template-columns: 1fr 1fr;
 		}
 
 		.blog-grid-container {
-			grid-template-columns: 21vw 21vw 21vw 15vw;
+			// grid-template-columns: 45vw 45vw;
+			// gap: 0;
+			column-gap: 0.5rem;
 		}
 		.inline-it {
 			width: 30vw; // !important;
 		}
 		.fit-card {
 			padding: 0.5rem;
+		}
+
+		.three-small {
+			grid-template-columns: 1fr 1fr 1fr;
 		}
 	}
 

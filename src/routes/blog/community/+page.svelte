@@ -34,7 +34,7 @@
 					style={blog.pic &&
 						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 				>
-					<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
+					<div class={blog.pic ? 'txt-white' : 'txt-dark'}>
 						<h3>
 							{blog.title}
 						</h3>
@@ -56,7 +56,7 @@
 					style={blog.pic &&
 						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 				>
-					<div class="txt-white {blog.pic ? 'txt-white' : 'txt-dark'}">
+					<div class={blog.pic ? 'txt-white' : 'txt-dark'}>
 						<h3>
 							{blog.title}
 						</h3>
@@ -103,7 +103,7 @@
 		height: 100%;
 		width: 100%;
 		gap: 1rem;
-		overflow: hidden;
+		// overflow: hidden;
 	}
 	.fit-card {
 		position: absolute;

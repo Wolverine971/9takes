@@ -169,6 +169,7 @@ politics, entertainment, and more.
 		}
 		.people-grid-container {
 			grid-template-columns: 21vw 21vw 21vw 15vw;
+			// gap: 0;
 		}
 	}
 </style>
