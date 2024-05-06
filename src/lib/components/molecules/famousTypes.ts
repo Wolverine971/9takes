@@ -70,7 +70,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Stephen-Hawking', link: false },
 		{ name: 'Albert-Einstein', link: false },
 		{ name: 'Agatha-Christie', link: false },
-		{ name: 'Rooney-Mara', link: false },
+		{ name: 'Rooney-Mara', link: true },
 		{ name: 'Friedrich-Nietzsche', link: true },
 		{ name: 'David-Sacks', link: false },
 		{ name: 'Lex-Fridman', link: true },

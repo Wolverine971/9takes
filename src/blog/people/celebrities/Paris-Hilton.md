@@ -31,7 +31,7 @@ tiktok: ''
 	<PopCard
 		image={`/types/3s/${'Paris-Hilton'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="3"
 		displayText="Paris Hilton"
 		subtext=""
 	/>

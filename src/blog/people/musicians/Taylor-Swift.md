@@ -68,7 +68,7 @@ From 2023 onward, she has taken the world by storm through her Eras tour. But fo
 
 At the heart of Taylor Swift’s persona lies a resolute Enneagram Type 3, the Achiever. This personality type is marked by ambition, efficiency, and charm, with individuals driven to excel and be perceived as successful. Swift, with her diligent work ethic and charisma, seamlessly embodies these traits.
 
-#### The Evidence: Swift’s Rise to Stardom
+#### Taylor’s Rise to Stardom
 
 Swift exhibited the tenacity and ambition often associated with a Type 3 personality from a young age. She persuaded her family to relocate to Nashville, Tennessee, the heartland of country music, and inked her first record deal at a mere 14. From an early age she new what she wanted and she was going to do what she could to get there.
 
