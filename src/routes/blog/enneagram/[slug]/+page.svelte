@@ -27,11 +27,11 @@
 
 <SuggestionsBlog posts={data?.posts} blogType={'enneagram'} />
 
-<div class="join">
-	{#if !data?.session?.user}
-		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
-	{/if}
-</div>
+{#if !data?.session?.user}
+	<div class="join">
+		<EmailSignup />
+	</div>
+{/if}
 
 <style lang="scss">
 </style>

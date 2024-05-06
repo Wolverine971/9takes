@@ -2,9 +2,9 @@
 title: 'booboo An Enneagram Type tiptype'
 description: 'Why booboo appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2024-04-23'
+date: '2024-05-06'
 loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
-lastmod: '2024-04-23'
+lastmod: '2024-05-06'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -29,8 +29,6 @@ tiktok: ''
 <script>
 	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
-
-
 
 <div
 	style="display: flex;

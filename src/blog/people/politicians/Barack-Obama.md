@@ -155,6 +155,8 @@ Barack Obama's possible Type 9 personality has provided us with fresh insights i
 
 At 9takes, understanding the Enneagram opens doors to empathy and mutual respect. We can bridge divides and build a more compassionate society through meaningful discussions.
 
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
 <svelte:head>
 
 <script type="application/ld+json">

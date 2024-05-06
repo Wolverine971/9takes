@@ -2,6 +2,7 @@
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
+	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
 	export let data: PageData;
 </script>
@@ -46,6 +47,11 @@
 	<hr />
 	<br />
 	<p class="position-center">🚧 More to come</p>
+	{#if !data?.session?.user}
+		<div class="join position-center">
+			<EmailSignup />
+		</div>
+	{/if}
 </div>
 
 <style lang="scss">

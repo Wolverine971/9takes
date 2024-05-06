@@ -2,6 +2,7 @@
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
+	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
 	export let data: PageData;
 </script>
@@ -76,12 +77,15 @@ politics, entertainment, and more.
 			</div>
 		{/if}
 	{/each}
-
-	<br />
-	<hr />
-	<br />
-	<p class="position-center">🚧 More to come</p>
 </div>
+<br />
+<hr />
+<br />
+{#if !data?.session?.user}
+	<div class="join">
+		<EmailSignup />
+	</div>
+{/if}
 
 <style lang="scss">
 	h3 {

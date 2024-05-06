@@ -48,8 +48,10 @@
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">{cta || 'Sign up for the 9takes'}</h2>
-	<p style="margin-top: 0;">Find out the similarities and <br /> differences between people</p>
+	<h2 style="margin-top: 0;">{cta || 'Join 9takes and go deeper with personality'}</h2>
+	<p style="margin-top: 0;">
+		Find out the similarities and differences<br /> between you and anyone
+	</p>
 
 	<!-- // Signup to get a sneak peak into what we are building -->
 	<form class="waitlist-form">
