@@ -9,6 +9,7 @@
 	import { deserialize } from '$app/forms';
 	import QRCode from 'qrcode';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	let question: string = '';
 
@@ -54,8 +55,15 @@
 				method: 'POST',
 				body
 			});
-
+			// What are the problems of each political party
 			const result: any = deserialize(await resp.text());
+			console.log(result);
+
+			if (result?.error) {
+				notifications.danger(result.error.message, 3000);
+				getModal('question-create').close();
+				return;
+			}
 			if (result) {
 				getModal('question-create').close();
 				goto(`/questions/${url}`, {});

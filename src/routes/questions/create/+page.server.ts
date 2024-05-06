@@ -83,25 +83,21 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
-		const { data: userExists, error: userError } = await supabase
+		const { data: user, error: userError } = await supabase
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('*')
 			.eq('id', author_id)
 			.single();
 
-		if (userError || !userExists) {
+		if (userError || !user) {
 			throw error(400, 'user not registered');
 		}
 
-		if (!userExists.admin) {
-			const { data: permissions, error: permissionsError } = await supabase
-				.from(demo_time === true ? 'permissions_demo' : 'permissions')
-				.select('*')
-				.eq('profile_id', author_id);
 
-			if (permissionsError || !permissions[0].can_ask_question) {
-				throw error(500, 'user not authorized to ask question');
-			}
+		if (!user.admin && !user.canAskQuestion) {
+			console.log(user);
+			throw error(500, 'user not authorized to ask question');
+
 		}
 
 		let esId = null;
@@ -130,7 +126,7 @@ export const actions: Actions = {
 			return mapDemoValues(insertedQuestion);
 		}
 
-		return null;
+		return { success: true };
 	}
 };
 
