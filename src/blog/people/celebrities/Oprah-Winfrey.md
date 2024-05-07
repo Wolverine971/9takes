@@ -21,9 +21,8 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">She's one of the most influential figures of our time. A beacon of empathy, support, and heart-centered leadership, Oprah Winfrey has crafted a legacy that transcends boundaries. Today, we're going to dig deep into the Enneagram personality framework to provide a fresh perspective on this global icon. The hypothesis? Oprah Winfrey is an embodiment of Enneagram Type 2 - The Helper.</p>
+<!-- todo update -->
 
-> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
 
 <div
 	style="display: flex;
@@ -40,6 +39,12 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 	/>
 </div>
 
+> **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
+
+<p class="firstLetter">She's one of the most influential figures of our time.</p> 
+
+Oprah Winfrey is a beacon of empathy, support, and heart-centered leadership and has crafted a legacy that transcends boundaries. Today, we're going to dig deep into the Enneagram personality framework to provide a fresh perspective on this global icon. The hypothesis? Oprah Winfrey is an embodiment of Enneagram Type 2 - The Helper.
+
 ## The Helper and The Mogul: A Perfect Blend
 
 Enneagram Type 2 personalities are known as 'The Helper' or 'The People Pleaser.'2 They are guided by their immense heart-centered energy, which fuels their desire to connect, support, and serve others. Who better represents these qualities than Oprah?
@@ -48,13 +53,15 @@ Through her globally renowned talk show, Oprah cultivated an environment where p
 
 ## The Balance Between Desire and Impact
 
-Oprah's Type 2 tendencies also become apparent when you observe her philanthropic endeavors. From the Oprah Winfrey Leadership Academy for Girls in South Africa to her numerous donations to causes close to her heart, the motivation behind her actions is fundamentally rooted in helping others and making a positive impact.
+Oprah's Type 2 tendencies also become apparent when you observe her philanthropic endeavors. 
+
+From the Oprah Winfrey Leadership Academy for Girls in South Africa to her numerous donations to causes close to her heart, the motivation behind her actions is fundamentally rooted in helping others and making a positive impact.
 
 Yet, this care and generosity isn't without a downside. Enneagram Type 2 personalities often struggle with neglecting their own needs in their quest to help others2. Has Oprah experienced this? The answer seems to be a resounding 'yes.' Over the years, Oprah has often candidly discussed her struggles with personal issues, such as weight loss, indicating a classic Type 2 struggle of focusing on others to the detriment of self-care.
 
 ## Controversies Through the Type 2 Lens
 
-Not all aspects of Oprah's life have been positive. Controversies have swirled around her over the years. One of the most prominent was the controversy surrounding her support for James Frey, the author of "A Million Little Pieces." When it was revealed that Frey had fabricated much of his memoir, Oprah found herself in the middle of a media storm.
+One of the most prominent controversies Oprah faced was the controversy surrounding her support for James Frey, the author of "A Million Little Pieces." When it was revealed that Frey had fabricated much of his memoir, Oprah found herself in the middle of a media storm.
 
 But how does this relate to her being a Type 2? This controversy, among others, indicates an inherent desire for positive validation, a trait common to Type 2 personalities. Oprah's support for Frey may have been driven by her inherent Type 2 need to support and uplift others, leading to a lapse in judgment.
 

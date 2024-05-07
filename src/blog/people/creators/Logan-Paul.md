@@ -100,7 +100,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## A Deeper Understanding and the Next Step
 
-How does this perspective of Logan Paul enhance your understanding of his enigmatic personality? Does it shed light on his motivations and actions, helping you appreciate the layers beneath his controversial image? In an ever-evolving world of social media influencers, perhaps there is value in understanding not just their outward appearances but also their inner drives and perspectives.
+How does this perspective of Logan Paul enhance your understanding of his enigmatic personality? Does it shed light on his motivations and actions, helping you appreciate the layers beneath his controversial image?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

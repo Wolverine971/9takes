@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@kyliejenner'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kylie Jenner.
+> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kylie.
 
 <p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon.</p>
 
@@ -62,22 +62,28 @@ Kylie Jenner is the youngest member of the Kardashian-Jenner clan and has establ
 
 ## The Unseen Depths of a Media Mogul
 
-Jenner's public life is splashed across tabloid pages and Instagram feeds, offering a curated glance at her world.
+Kylie's public life is splashed across tabloid pages and Instagram feeds, offering a curated glance at her world.
 
 Underneath the surface of glamour lies a quiet strength and a desire for inner peace. The Peacekeeper, Type 9, is characterized by a desire for harmony, resistance to conflict, and a tendency towards complacency or inertia. Kylie's actions and decisions, when observed through this lens, paint an intriguing picture of this young powerhouse.
 
 ## The Desire for Harmony
 
-One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony. This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and
+One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony.
+
+This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and
 <a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>. She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
 
 ## The Inertia of a Billionaire
 
-The inertia characteristic of Type 9s is not synonymous with laziness; instead, it refers to a resistance to change that disrupts their inner peace. Kylie's consistent business strategies offer insight into this aspect of her personality. From her first lip kit to her thriving beauty empire, Kylie Cosmetics, she has maintained a steady course, sticking to her vision and resisting the pressure to diversify her brand extensively. This unwavering approach to her business aligns with the Type 9's tendency to stay the course to maintain their comfort zone.
+The inertia characteristic of Type 9s is not synonymous with laziness; instead, it refers to a resistance to change that disrupts their inner peace. 
+
+Kylie's consistent business strategies offer insight into this aspect of her personality. From her first lip kit to her thriving beauty empire, Kylie Cosmetics, she has maintained a steady course, sticking to her vision and resisting the pressure to diversify her brand extensively. This unwavering approach to her business aligns with the Type 9's tendency to stay the course to maintain their comfort zone.
 
 ## The Internal and External Disconnect
 
-Kylie’s seemingly contradictory public image versus her private self further illustrates her alignment with the Type 9 persona. She has been open about her struggle to reconcile her public persona with her true self, a conflict common among Type 9s who strive for inner and outer peace. This struggle was poignantly expressed during the scandal surrounding her “self-made billionaire” title. Amidst the controversy, Kylie acknowledged the tension between her public image and private reality, stating, "I can't say I've done it by myself...But that's the category I fall under."
+Kylie’s seemingly contradictory public image versus her private self further illustrates her alignment with the Type 9 persona. 
+
+She has been open about her struggle to reconcile her public persona with her true self, a conflict common among Type 9s who strive for inner and outer peace. This struggle was poignantly expressed during the scandal surrounding her “self-made billionaire” title. Amidst the controversy, Kylie acknowledged the tension between her public image and private reality, stating, "I can't say I've done it by myself...But that's the category I fall under."
 
 ## Escaping into Peaceful Spaces
 
@@ -99,11 +105,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Reflections and Takeaways
 
-As we pull back the curtain on Kylie Jenner's persona through the lens of the Enneagram Type 9, we see a young woman navigating fame and fortune while maintaining a quest for harmony and tranquility. Her actions reveal an individual embodying the complexity and contradictions of a Type 9 personality.
+Kylie is a young woman navigating fame and fortune while maintaining a quest for harmony and tranquility. She is an individual embodying the complexity and contradictions of a Type 9 personality.
 
 Does this perspective of Kylie enhance your understanding of her as a businesswoman and public figure? Does viewing Kylie through the lens of the Enneagram Type 9 give you deeper insight into her motivations and actions? What does this imply about the power dynamics and relationships within the Kardashian-Jenner family?
 
-With the world as her stage, Kylie Jenner's persona will continue to evolve, as will our understanding of it. Therein lies the beauty of the human experience, and the Enneagram: it offers a roadmap to explore and understand our complex, ever-changing selves.
+With the world as her stage, Kylie's persona will continue to evolve, as will our understanding of it. Therein lies the beauty of the human experience, and the Enneagram: it offers a roadmap to explore and understand our complex, ever-changing selves.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

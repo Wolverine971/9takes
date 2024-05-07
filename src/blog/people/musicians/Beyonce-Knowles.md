@@ -84,11 +84,13 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Unmasking the Icon
 
-As we draw the curtains on this exploration of Beyoncé as an Enneagram Type 8, we find that the luminary force that she is, perfectly encapsulates the robust, assertive, and authentic essence of a Type 8. Her musical oeuvre, advocacy work, romantic passions, and fiercely protected privacy all offer a vivid manifestation of this personality type. But more than just providing us with an understanding of Beyoncé as an individual, this insight grants us a broader perspective of the immense diversity and depth inherent within each Enneagram Type.
+Beyoncé us a luminary force that perfectly encapsulates the robust, assertive, and authentic essence of a Type 8. 
+
+Her musical oeuvre, advocacy work, romantic passions, and fiercely protected privacy all offer a vivid manifestation of this personality type. But more than just providing us with an understanding of Beyoncé as an individual, this insight grants us a broader perspective of the immense diversity and depth inherent within each Enneagram Type.
 
 Listening to a Beyoncé tune or watching her captivating performances henceforth, I encourage you to remember that you're not just appreciating an entertainment spectacle. Rather, you're experiencing the powerful, unyielding, and inspiring authenticity of a true Challenger - Beyoncé, the Type 8 Enneagram.
 
-Now, let's shift gears slightly. How does this understanding of Beyoncé change the way you perceive her art? Does discerning Beyoncé as an Enneagram Type 8 provide you with a deeper comprehension of her motivations and actions? In a world where the persona often overshadows the person, perhaps there is merit in appreciating our icons not only through their work but also their personality types.
+How does this understanding of Beyoncé change the way you perceive her art? Does seeing Beyoncé through the lens of the Enneagram Type 8 provide you with a deeper comprehension of her motivations and actions?
 
 If you enjoyed this article please sign up below ⬇️ and join 9takes. If you are a powerful Enneagram 8 like Beyoncé you already know you are free to refuse, but we are trying to create a community that values the reflective investigation of personalities and life perspectives. We would love for you to join.
 
