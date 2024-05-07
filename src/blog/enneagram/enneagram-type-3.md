@@ -98,7 +98,7 @@ Their strengths include
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 3</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 3</h2>
 
 While Type 3 individuals are renowned for their drive and efficiency, they face unique challenges stemming from their core motivations and fears. Their pursuit of success and admiration, while a source of strength, can also lead to significant personal and interpersonal difficulties.
 
@@ -172,7 +172,7 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
 
 <h2 id="stress">🤯 Enneagram 3s Under Stress</h2>
 
-Their stress number is Type 9. Type 9s are peaceful, accommodating, and harmonious. They might become more withdrawn, passive, avoidant, and indecisive when stressed. They might also struggle with feeling unimportant in the eyes of others.
+Their stress number is Type 9. <a href="/blog/enneagram/enneagram-type-9">Type 9s</a> are normally peaceful, accommodating, and harmonious. They might become more withdrawn, passive, avoidant, and indecisive when stressed. They might also struggle with feeling unimportant in the eyes of others.
 
 <h3>More on Their Shift to Type 9 Under Stress</h3>
 

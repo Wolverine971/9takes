@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 6: The Loyalist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2024-05-04'
+lastmod: '2024-05-07'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -54,7 +54,9 @@ The Loyalist's core emotion is fear. They are constantly on the lookout for pote
 
 <h2>Enneagram 6 Description</h2>
 
-Type 6's are often described as responsible, reliable, and hardworking. They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6s are also known for their desire for stability and security in their personal and professional lives.
+Type 6's are often described as responsible, reliable, and hardworking. 
+
+They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6s are also known for their desire for stability and security in their personal and professional lives.
 
 The Enneagram Type 6 personality has several core traits that define their worldview and behavior:
 
@@ -69,7 +71,9 @@ The Enneagram Type 6 personality has several core traits that define their world
 
 <h2 id="strengths">💪 Strengths of an Enneagram 6</h2>
 
-One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. They are highly committed to their obligations and are driven to fulfill them. Type 6s are also known for their ability to handle stress and adversity. They can think strategically and make difficult decisions in times of crisis. Additionally, Type 6s can often see multiple perspectives and think critically.
+One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. 
+
+They are highly committed to their obligations and are driven to fulfill them. Type 6s are also known for their ability to handle stress and adversity. They can think strategically and make difficult decisions in times of crisis. Additionally, Type 6s can often see multiple perspectives and think critically.
 
 <h3>Situations where 6s thrive</h3>
 <ul>
@@ -83,9 +87,14 @@ One of the key strengths of the Type 6 is their ability to be loyal and dedicate
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 6</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 6</h2>
 
-While Type 6s have many strengths, they also have some weaknesses. One of their most significant weaknesses is their tendency to be anxious and uncertain. They can also be indecisive and have a hard time making decisions. Additionally, Type 6s can have difficulty trusting their abilities and may need help with self-doubt.
+One of the primary weaknesses of Type 6s is their tendency to be overly anxious and pessimistic.
+
+They often anticipate the worst-case scenario and spend a significant amount of time worrying about potential dangers or threats, even when there may be no rational basis for their concerns. This constant state of anxiety can lead to indecisiveness, as they struggle to trust their own judgment and may seek excessive reassurance from others.
+
+Their skepticism and doubt can make it challenging for them to build trust in relationships, as they may question the motives and intentions of others.
+
 
 </section>
 
@@ -121,7 +130,13 @@ While Type 6s have many strengths, they also have some weaknesses. One of their 
 
 <h2 id="stress">🤯 Enneagram 6s Under Stress</h2>
 
-Their stress number is Type 3. Type 3s are ambitious, competitive, and driven. When they're under stress, they might become more obsessed with success and achievement, as well as competitive and envious of others. They might also feel anxious and insecure about their abilities and worth. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Under stress, a Type 6 may become excessively focused on achievement and success, driven by a fear of failure and a need to prove their worth.
+
+Their stress number is Type 3. <a href="/blog/enneagram/enneagram-type-3">Type 3s</a> are normally ambitious, competitive, and driven. When they're under stress, they become more obsessed with success and achievement, as well as competitive and envious of others.
+
+Type 6s may start to prioritize their image and status, becoming more competitive and less collaborative in their pursuits. This shift in focus can lead to a disregard for their own values and ethics, as they may be tempted to cut corners or engage in manipulative behavior to get ahead.
+
+Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -270,7 +285,7 @@ Key Takeaways:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-07",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

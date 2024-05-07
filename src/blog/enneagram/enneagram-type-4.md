@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 4: The Individualist'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2024-05-04'
+lastmod: '2024-05-07'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -69,7 +69,9 @@ Critical characteristics of Type 4 personalities include:
 
 <h2 id="strengths">💪 Strengths of an Enneagram 4</h2>
 
-One of the biggest strengths of the Enneagram Type 4 is its creativity and artistic expression. Individualists are highly imaginative and resourceful and have a unique perspective on the world. They can tap into their emotions and create something truly authentic and meaningful.
+One of the biggest strengths of the Enneagram Type 4 is its creativity and artistic expression.
+
+Individualists are highly imaginative and resourceful and have a unique perspective on the world. They can tap into their emotions easily and often use them to create art that is truly authentic and meaningful.
 
 Enneagram Type 4 individuals are also known for their empathy and compassion. They deeply understand the human experience and can connect with others deeply emotionally. They are also profoundly introspective and self-aware, allowing them to make positive life changes.
 
@@ -85,7 +87,7 @@ Enneagram Type 4 individuals are also known for their empathy and compassion. Th
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 4</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 4</h2>
 
 Individualists can be moody and withdrawn, making forming and maintaining relationships difficult. They can also be prone to self-doubt and insecurity, holding them back from pursuing their goals. Additionally, they may struggle with feeling misunderstood and disconnected from others.
 
@@ -138,7 +140,11 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 
 <h2 id="stress">🤯 Enneagram 4s Under Stress</h2>
 
-Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When they're under stress, they might become more emotionally needy and dependent on others, as well as manipulative and controlling in their relationships. They might also struggle with feeling unlovable or inadequate. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Type 4s under stress go to 2. The <a href="/blog/enneagram/enneagram-type-2">type 2</a> is generous, caring, and nurturing. When the type 2 is under stress, they become more emotionally needy and dependent on others. They can also become manipulative and controlling in their relationships.
+
+Type 4s when stressed struggle with feeling unlovable or inadequate. In that state of negativity they can become clingy and seek constant reassurance and validation from others. They also might become a people pleaser to gain approval. If their motional needs are not being met they may resort to manipulative tactics, such as guilt-tripping or playing the victim, to gain sympathy and attention.
+
+Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -154,7 +160,9 @@ Their stress number is Type 2. Type 2s are generous, caring, and nurturing. When
 
 <h2 id="relationships">👫 An Enneagram 4 in relationships</h2>
 
-Enneagram Type 4 individuals approach relationships intensely, seeking emotional connection and authenticity with their partners. They are often highly attuned to their emotions and may feel a strong need to express themselves in their relationships.
+Type 4 individuals have intense relationships. 
+
+They seek deep emotional connection and authenticity with their partners.  They are often highly attuned to their emotions and may feel a strong need to express themselves in their relationships.
 
 Type 4s are known for their creativity and passion, which can make them deeply attractive to partners. They may use their artistic talents to woo and impress their loved ones or express their emotions through heartfelt gestures or poetry. However, they can also be prone to moodiness and may withdraw or become distant if they feel misunderstood or unappreciated.
 
@@ -184,7 +192,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">othe
 
 <h2 id="growth">🌱 Growth and Development for Type 4 Personalities</h2>
 
-A significant growth area for enneagram type 4s is learning to accept themselves and cope with inadequacy and self-doubt.
+A significant growth area for type 4s is learning to accept themselves and cope with inadequacy and self-doubt.
 
 They often struggle to find their place in the world and may experience intense emotions like envy and longing for a life they perceive as more fulfilling. In relationships, maintaining healthy boundaries and avoiding codependency are common challenges.
 
@@ -265,7 +273,7 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-07",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

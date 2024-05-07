@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 5: The Observer'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2024-05-04'
+lastmod: '2024-05-07'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -23,7 +23,7 @@ blog: true
 
 <p class="firstLetter">Dubbed as the "observer" or the "investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
 
-These individuals often exhibit introverted tendencies, cherishing their time in solitude or with a select few who share their thirst for knowledge. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
+These individuals often exhibit introverted tendencies, cherishing their time in solitude. They thirst for knowledge and only share it with a few. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
 
 <details open>
 <summary class="accordion">Table of Contents</summary>
@@ -47,7 +47,7 @@ These individuals often exhibit introverted tendencies, cherishing their time in
 
 <h2>Enneagram 5 Description</h2>
 
-Enneagram Type 5 personalities, known for their intense curiosity and innovative thinking, approach the world with a keen intellect and a desire to uncover its mysteries. Their independent nature and analytical mindset lead them to explore a variety of subjects, often delving into the depths of complex ideas and theories.
+Enneagram Type 5 personalities are known for their intense curiosity and innovative thinking. They seek to uncover the world's mysteries. They have an independent nature and like to explore a variety of subjects, often going deep down the rabbit hole of ideas and theories. To them the game of life is a quest for knowledge where you win when you have it all. **They prefer to think before acting and emotions are often thought of as a phenomenon to be observed rather than a feeling to be felt**.
 
 Key traits of the Enneagram Type 5 personality include:
 
@@ -61,7 +61,7 @@ Key traits of the Enneagram Type 5 personality include:
 <li><strong>Guarded Personal Life:</strong> They are typically private, sharing their inner world with only a trusted few.</li>
 </ul>
 
-As insightful and wise individuals, Type 5s offer unique perspectives and ideas. Their journey towards integrating emotional connections and embracing more open interactions can significantly enrich their relationships and enhance their overall life experience.
+Type 5s offer unique perspectives and ideas. But each 5 has a journey before them where they need to learn how to make emotional connections to others. They prefer the solace of their mind but when they engage and open up they can significantly enrich their relationships and enhance their overall life experience.
 
 </section>
 
@@ -88,7 +88,7 @@ Type 5 individuals possess several strengths that make them valuable team or com
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 5</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 5</h2>
 
 While Type 5 individuals possess many strengths, they also face several challenges. These include:
 
@@ -136,7 +136,9 @@ Typical fears of Enneagram Type 5s may include:
 
 <h2 id="stress">🤯 Enneagram 5s Under Stress</h2>
 
-Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and adventurous. When they're under stress, they might become more impulsive and distractible and struggle with feeling overwhelmed and out of control. They might also need help to focus on one thing at a time and make decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+When stressed the Enneagram type 5 goes to 7. This means they take on the negative aspects of the type 7. <a href="/blog/enneagram/enneagram-type-7">Type 7s</a> are known for being enthusiastic, spontaneous, and adventurous. However when they're under stress, they become more impulsive and distractible and struggle with feeling overwhelmed and out of control. Type 5s when feeling stressed will distract themselves with pleasurable and fun activities. They abandon their analytical thinking and become spontaneous as a way to escape their stress.
+
+When stressed type 5s need help to focus on one thing at a time and make decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -167,7 +169,11 @@ Their stress number is Type 7. Type 7s are enthusiastic, spontaneous, and advent
 
 <h2 id="relationships">👫 An Enneagram 5 in relationships</h2>
 
-In relationships, individuals with a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also tend to withdraw or become emotionally distant. However, with patience, understanding, and communication, individuals with a Type 5 personality can learn to develop deeper and more meaningful relationships.
+In relationships, a Type 5 personality may struggle with emotional intimacy and vulnerability. They may also tend to withdraw or become emotionally distant. Their partners often complain about the 5 not emotionally engaging.
+
+However, with patience, understanding, and communication, Type 5s can learn to develop deeper relationships.
+
+**Relationship Tip**- Don't surprise a type 5 with a big emotional situation. Prep them. Tell them that you want to talk about something emotional and want them to engage. This will give the type 5 time to gather his thoughts and be ready to connect emotionally during the conversation. Type 5s are emotional, its just that they think first and feel later. Also keep in mind that they are not always public with their emotions.
 
 Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
 
@@ -265,7 +271,7 @@ Key Takeaways:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-07",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

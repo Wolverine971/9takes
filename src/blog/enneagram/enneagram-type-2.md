@@ -4,7 +4,7 @@ description: 'Understanding the Enneagram Type 2: The Helper'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2024-05-04'
+lastmod: '2024-05-07'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -23,7 +23,9 @@ blog: true
 
 <p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
 
-Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls. Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
+Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls. 
+
+Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
 
 <details open>
 <summary class="accordion">Table of Contents</summary>
@@ -70,7 +72,9 @@ Type 2s are warm, caring, and nurturing, often supporting their communities and 
 
 <h2 id="strengths">💪 Strengths of an Enneagram 2</h2>
 
-Type 2 individuals possess several strengths that make them valuable team or community members. These include:
+Type 2 individuals possess several strengths that make them valuable team or community members. 
+
+These include:
 
 - Empathy: Type 2 individuals are highly attuned to the emotions and needs of others, and they use this understanding to help others in a caring and compassionate way.
 - Service: Type 2 individuals have a strong desire to be of service to others and to make a positive impact in the world. They are often willing to put the needs of others before their own, and they are highly dedicated to their work and causes.
@@ -89,9 +93,11 @@ Type 2 individuals possess several strengths that make them valuable team or com
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 2</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 2</h2>
 
-While Type 2 individuals possess many strengths, they also face several challenges. These include:
+While Type 2 individuals possess many strengths, they also face several challenges. 
+
+These include:
 
 - Codependency: Type 2 individuals often put the needs of others before their own, which can lead to codependency and neglect of their own needs.
 - People-pleasing: Type 2 individuals have a strong desire to be appreciated and loved by others, which can lead to a tendency to put the needs of others before their own and to sacrifice their own needs to please others.
@@ -129,7 +135,13 @@ They seek to find their self-worth through the validation of others. The Helper 
 
 <h2 id="stress">🤯 Enneagram 2s Under Stress</h2>
 
-Their stress number is Type 8. Type 8s are powerful, assertive, and confrontational. When they're under stress, they might become more aggressive and controlling, as well as overprotective and demanding of others. They might also struggle with feeling unappreciated or neglected by those around them. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+The usually caring and accommodating Type 2 under stress may become uncharacteristically aggressive, domineering, and confrontational. 
+
+Their stress number is Type 8. <a href="/blog/enneagram/enneagram-type-8">Type 8s</a> are normally powerful, assertive, and confrontational. When they're under stress, they become more aggressive and controlling, as well as overprotective and demanding of others.
+
+Type 2s may feel a need to take control of situations and people, driven by a fear of being vulnerable or taken advantage of. The stressed Type 2 might become excessively blunt and direct in their communication, disregarding others' feelings and coming across as insensitive or even ruthless. They may also have a short temper and become easily irritated, lashing out at others when they feel threatened or unsupported.
+
+Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -160,7 +172,9 @@ Their stress number is Type 8. Type 8s are powerful, assertive, and confrontatio
 
 <h2 id="relationships">👫 An Enneagram 2 in relationships</h2>
 
-Type 2 personalities are highly social and enjoy connecting with others. They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections and thrive in social settings.
+Type 2 personalities are highly social and enjoy connecting with others. 
+
+They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections and thrive in social settings.
 
 However, their desire to be needed can also lead to unhealthy relationship dynamics. Type 2 personalities may struggle to express their needs and emotions, leading to resentment and unmet needs. They may also become overly dependent on their relationships, leading to codependency and an inability to function independently.
 
@@ -257,7 +271,7 @@ In this video, Beatrice Chestnut hosts a panel discussion with several individua
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-07",
       "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

@@ -87,7 +87,7 @@ Type 7 individuals possess several strengths that make them valuable team or com
 
 <section class="section-content">
 
-<h2 id="weaknesses">🤔 Weaknesses/ Challlenges of an Enneagram 7</h2>
+<h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 7</h2>
 
 - Impulsivity: Type 7s can be impulsive and fear missing out on new experiences. They may struggle with being present at the moment and can tend to jump from one thing to the next.
 - Lack of commitment: Type 7s need help with commitment and follow-through. They may become bored or lose interest in a project or relationship and move on to something new.
@@ -103,7 +103,10 @@ Type 7 individuals possess several strengths that make them valuable team or com
 
 <h2 id="motivations">🧭 Motivations of an Enneagram 7</h2>
 
-Type 7s are motivated by the desire for new experiences and adventure. They want to feel alive and engaged with the world around them. They fear missing out and can struggle with feeling trapped or limited in any way. They want to be accessible to explore and create and can feel restless or unhappy when stuck in routine or monotony.
+Type 7s are primarily motivated by a desire to experience joy, excitement, and fulfillment in their lives.
+
+"The Enthusiast" is driven by a fear of missing out on worthwhile experiences and a constant pursuit of stimulation and novelty. They seek to avoid feelings of boredom, pain, or limitation by continuously exploring new ideas, activities, and adventures. This motivation stems from an underlying belief that life should be enjoyed to the fullest and that happiness can be found through the acquisition of diverse experiences and knowledge. Type 7s are also motivated by a need to maintain a sense of freedom and autonomy, as they fear being trapped or constrained by mundane responsibilities or negative emotions.
+
 
 </section>
 
@@ -125,7 +128,13 @@ Finally, Type 7s may also fear experiencing difficult or painful emotions. They 
 
 <h2 id="stress">🤯 Enneagram 7s Under Stress</h2>
 
-Their stress number is Type 1. Type 1s are principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking. They might also struggle with feeling anxious and overwhelmed by the demands of life. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Under stress, the usually spontaneous and fun-loving Type 7 may become uncharacteristically rigid, critical, and perfectionistic. 
+
+Their stress number is Type 1. <a href="/blog/enneagram/enneagram-type-1">Type 1s</a> are normally principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking.
+
+They may feel a strong need to control their environment and the people around them, driven by a fear of things spiraling out of control. The stressed Type 7 might become overly serious and judgmental, setting unrealistically high standards for themselves and others. They may also become more self-critical, focusing on their own perceived shortcomings and failures, which can lead to feelings of frustration, anger, and resentment.
+
+Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 

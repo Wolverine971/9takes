@@ -54,7 +54,9 @@ Therefore their chosen life strategy is to continually get stronger and gain pow
 
 <h2>Enneagram 8 Description</h2>
 
-Enneagram Type 8 personalities are marked by strength, protectiveness, and a straightforward approach to life. Their assertive nature is complemented by a deep-seated sense of justice. They recognize vulnerability a mile away and often seek to defend those they care about. This often positions them as both protectors and natural leaders.
+Enneagram Type 8 personalities are marked by strength, protectiveness, and a straightforward approach to life. 
+
+Their assertive nature is complemented by a deep-seated sense of justice. They recognize vulnerability a mile away and often seek to defend those they care about. This often positions them as both protectors and natural leaders.
 
 Distinct characteristics of Type 8s include:
 
@@ -74,7 +76,9 @@ Their journey often involves learning to be vulnerable and sensitive. When they 
 
 <h2 id="strengths">💪 Strengths of an Enneagram 8</h2>
 
-One of the critical strengths of Type 8 is its ability to take action. They are decisive and confident in their decisions and do not fear taking risks. Many 8s live by the motto, "Move fast and break things." 8s are likely strong enough to handle any negative consequences that result from one of their mistakes. 8s have a natural charisma and often can rally others around a cause or goal. Additionally, Type 8's can often see the big picture and think strategically.
+One of the critical strengths of Type 8 is its ability to take action. 
+
+They are decisive and confident in their decisions and do not fear taking risks. Many 8s live by the motto, "Move fast and break things." 8s are likely strong enough to handle any negative consequences that result from one of their mistakes. 8s have a natural charisma and often can rally others around a cause or goal. Additionally, Type 8's can often see the big picture and think strategically.
 
 <h3>Situations where 8s thrive</h3>
 <ul>
@@ -126,9 +130,13 @@ This looks like an 8 working out really hard so that someone cannot physically o
 
 <h2 id="stress">🤯 Enneagram 8s Under Stress</h2>
 
-A type 8's stress number is 5.
+Under duress, the normally assertive and action-oriented Type 8 may become uncharacteristically withdrawn, isolated, and detached. 
 
-<a href="/blog/enneagram/enneagram-type-5">Type 5s</a> are analytical, independent, and private. When an 8 is stressed, they become more withdrawn and self-isolated from others. They may become cold and distant in their relationships. They might also struggle to say exactly what they feel, fearing their vulnerability not being well received. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+A type 8's stress number is 5. <a href="/blog/enneagram/enneagram-type-5">Type 5s</a> are analytical, independent, and private. When an 8 is stressed, they become more withdrawn and self-isolated from others. They may become cold and distant in their relationships. They might also struggle to say exactly what they feel, fearing their vulnerability not being well received. 
+
+They may retreat into a world of intellectualization and analysis, becoming excessively preoccupied with their thoughts and ideas as a means of coping with stress. The stressed Type 8 might become more secretive and withholding, hoarding information and resources as a way to maintain a sense of control and power. They may also become more cynical and mistrustful, viewing others as potential threats to their autonomy and independence.
+
+Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
 
 </section>
 
