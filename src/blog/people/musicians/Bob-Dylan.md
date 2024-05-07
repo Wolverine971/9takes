@@ -17,7 +17,9 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  -->
+<!-- // notes: 
+
+todo update -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

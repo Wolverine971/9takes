@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">You've seen her eclectic outfits, heard her haunting voice, and most likely, you've felt the emotional depth in her music. Billie Eilish, the Grammy Award-winning artist, is an enigma wrapped in a riddle. Today, we traverse the landscape of her personality through the perspective of Enneagram Type 4 - The Individualist.</p>
-
-> **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
-
 <div
     style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
         subtext=""
     />
 </div>
+
+> **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
+
+<p class="firstLetter">You've seen her eclectic outfits, heard her haunting voice, and most likely, you've felt the emotional depth in her music.</p> 
+
+Billie Eilish, the Grammy Award-winning artist, is an enigma wrapped in a riddle. Today, we traverse the landscape of her personality through the perspective of Enneagram Type 4 - The Individualist.
 
 <details>
 <summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram type 4</summary>
@@ -64,13 +66,17 @@ At the heart of Billie’s actions lies a core motivation to express her unique 
 
 ### Billie Eilish as an Enneagram Type 4
 
-Enneagram Type 4, known as The Individualist, is characterized by a deep desire to be unique and special. They are known for their emotional depth and expression. This enigmatic quality resonates through Billie's music and public persona.
+Enneagram Type 4, known as The Individualist, is characterized by a deep desire to be unique and special.
+
+They are known for their emotional depth and expression. This enigmatic quality resonates through Billie's music and public persona.
 
 Billie's music often explores heartbreak, mental health, and the human experience, reflecting the emotional depth and introspection typical of Type 4s. Her ability to express these emotions through music provides a window into her complex inner world.
 
 ## Billie's Inner World
 
-Billie has never shied away from expressing her emotions through her music or her advocacy for mental health. This emotional honesty is a hallmark of Enneagram Type 4. They are known for their willingness to explore their emotions and share their findings, however dark or uncomfortable.
+Billie has never shied away from expressing her emotions through her music or her advocacy for mental health. 
+
+This emotional honesty is a hallmark of Enneagram Type 4. They are known for their willingness to explore their emotions and share their findings, however dark or uncomfortable.
 
 Moreover, her candid discussions about her struggles with body dysmorphia and Tourette syndrome reflect a self-awareness and authenticity characteristic of Type 4s. These challenges, coupled with the relentless scrutiny from the public, might have contributed to her melancholic and introspective musical style.
 
@@ -88,11 +94,15 @@ But Billie's music is a gateway to her inner world. She channels her emotional c
 
 ## She is not afraid to go dark
 
-Billie Eilish’s artistic realm is a dive into dark emotional abysses, a characteristic voyage of Enneagram Type 4 individuals who are comfortable exploring human emotion's twisted and edgy facets. Her willingness to traverse these dark waters sets her apart in a music landscape that often shies away from such raw exploration and resonates with the essence of Type 4’s quest for authenticity and depth in self-expression. Her music videos often paint a stark, sometimes haunting picture that invites audiences into these obscure corners of emotional experience, flirting with themes that are as edgy as they are profound.
+Billie Eilish’s artistic realm is a dive into dark emotional abysses.
+
+A characteristic of Enneagram Type 4 individuals is that they are comfortable exploring human emotion's twisted and edgy facets. Her willingness to traverse these dark waters sets her apart in a music landscape that often shies away from such raw exploration and resonates with the essence of Type 4’s quest for authenticity and depth in self-expression. Her music videos often paint a stark, sometimes haunting picture that invites audiences into these obscure corners of emotional experience, flirting with themes that are as edgy as they are profound.
 
 ## She is not afraid to get sad
 
-Billie Eilish often explores sadness in her music. In her song, she sings, “I could lie, say I like it like that,” hinting that sometimes it's easier to pretend things are fine. This mirrors Enneagram Type 4 individuals who might hide their true feelings. Billie has faced depression, which she reflects in her songs. Her music allows her and her listeners to navigate these heavy feelings together. For instance, the somber tunes and honest lyrics in her song "When The Party's Over" allow listeners to enter her emotional world, showcasing how Billie turns her sadness into shared understanding through her music.
+Billie Eilish often explores sadness in her music too. 
+
+In her song, she sings, “I could lie, say I like it like that,” hinting that sometimes it's easier to pretend things are fine. This mirrors Enneagram Type 4 individuals who might hide their true feelings. Billie has faced depression, which she reflects in her songs. Her music allows her and her listeners to navigate these heavy feelings together. For instance, the somber tunes and honest lyrics in her song "When The Party's Over" allow listeners to enter her emotional world, showcasing how Billie turns her sadness into shared understanding through her music.
 
 ## How Each Enneagram Type Perceives Billie Eilish
 
@@ -135,7 +145,11 @@ Billie Eilish often explores sadness in her music. In her song, she sings, “I 
 
 ## Wrapping Up
 
-Billie Eilish's story shows us a clear picture of an Enneagram Type 4 person. Through her music, she takes us on a journey through her feelings, both good and bad. She has struggled with finding who she is, much like a Type 4 person often does. Her music, filled with raw emotions, lets us see into her heart, making her stand out in the crowd. Even in dark times, she finds a way to share her feelings through her songs. Billie’s story is like a lesson for all of us. It tells us it's okay to be different, to feel deeply, and to share our true selves with the world, just like she does.
+Billie Eilish, through her music takes us on a journey through her feelings, both good and bad. 
+
+She has struggled with finding who she is, much like a Type 4 person often does. Her music, filled with raw emotions, lets us see into her heart, making her stand out in the crowd. Even in dark times, she finds a way to share her feelings through her songs. Billie’s story is like a lesson for all of us. It tells us it's okay to be different, to feel deeply, and to share our true selves with the world, just like she does.
+
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 

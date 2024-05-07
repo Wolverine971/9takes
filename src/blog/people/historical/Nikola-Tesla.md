@@ -23,10 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Picture this: A young boy, sickly yet bright-eyed, gazes at the lightning storm outside his window in a small town called Smiljan in Croatia. His mind races with questions, curiosity, and a sense of wonder that most of us can only dream of. This boy is Nikola Tesla, and today we're going on a journey through his life, exploring how he embodies the traits of an Enneagram Type 4.</p>
-
-> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
-
 <div
   style="display: flex;
     justify-content: center;
@@ -41,6 +37,11 @@ tiktok: ''
     subtext=""
   />
 </div>
+
+> **Disclaimer** This analysis of Nikola Tesla's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Nikola Tesla.
+
+<p class="firstLetter">Picture this: A young boy, sickly yet bright-eyed, gazes at the lightning storm outside his window in a small town called Smiljan in Croatia. His mind races with questions, curiosity, and a sense of wonder that most of us can only dream of. This boy is Nikola Tesla, and today we're going on a journey through his life, exploring how he embodies the traits of an Enneagram Type 4.</p>
+
 
 <details>
 <summary class="accordion">TL;DR: Why Nikola Tesla is an Enneagram type 4 </summary>
@@ -145,7 +146,9 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 Tesla's story is a testament to the power of individuality, the beauty of emotional depth, and the courage it takes to follow one's own path, no matter how unconventional.
 
-Take a moment to reflect on your own life. Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? Either way, let Tesla's story inspire you to embrace your individuality and examine the motivations that guide your actions. After all, understanding ourselves is the first step in making our indelible marks on the world.
+Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? 
+
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 

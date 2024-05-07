@@ -21,10 +21,6 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
-
-> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -39,6 +35,12 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 		subtext=""
 	/>
 </div>
+
+
+> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
+
+<p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
+
 
 Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a Type 8. But there's more.
 

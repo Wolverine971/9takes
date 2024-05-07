@@ -23,10 +23,6 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">We've all heard his catchy tunes and seen his charming, boyish grin. Charlie Puth, the Grammy-nominated singer-songwriter, is undoubtedly an influential figure in contemporary pop music. Let's peel back the layers of his persona and explore him through the lens of the Enneagram Type 4 - The Individualist.</p>
-
-> **Disclaimer** This analysis of Charlie Puth's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -41,6 +37,12 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 		subtext=""
 	/>
 </div>
+
+
+> **Disclaimer** This analysis of Charlie Puth's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Charlie Puth.
+
+<p class="firstLetter">We've all heard his catchy tunes and seen his charming, boyish grin. Charlie Puth, the Grammy-nominated singer-songwriter, is undoubtedly an influential figure in contemporary pop music. Let's peel back the layers of his persona and explore him through the lens of the Enneagram Type 4 - The Individualist.</p>
+
 
 <details>
 <summary class="accordion">TL;DR: Why Charlie Puth is an Enneagram 4</summary>
@@ -58,7 +60,9 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 
 ## The Heartbeat of Type 4: The Individualist
 
-In his soulful music and candid interviews, Puth exhibits the hallmarks of a Type 4 personality. Renowned for their sensitivity, self-awareness, and craving for uniqueness, Type 4s are akin to romantic idealists who wear their hearts on their sleeves. Puth's artistic prowess, emotional intensity, and continuous quest for authenticity align him closely with this personality type.
+In his soulful music and candid interviews, Puth exhibits the hallmarks of a Type 4 personality. 
+
+Renowned for their sensitivity, self-awareness, and craving for uniqueness, Type 4s are akin to romantic idealists who wear their hearts on their sleeves. Puth's artistic prowess, emotional intensity, and continuous quest for authenticity align him closely with this personality type.
 
 ## Creative Originality: An Expression of Type 4 Individualism
 

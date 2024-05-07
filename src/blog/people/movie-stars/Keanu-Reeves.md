@@ -24,9 +24,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter"> The room is abuzz Inside a softly lit Los Angeles studio. Directors call out instructions, cameras flash, and one figure remains unexpectedly serene amidst the orchestrated chaos: Keanu Reeves. Keanu consistently brings a unique depth with every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram system? Specifically, might he be a Type 9? And how can this perspective offer us a richer understanding of both the man and his craft?</p>
-
-> **Disclaimer** This analysis of Keanu Reeves's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Keanu Reeves.
 
 <div
   style="display: flex;
@@ -42,6 +39,14 @@ tiktok: ''
     subtext=""
   />
 </div>
+
+
+> **Disclaimer** This analysis of Keanu Reeves's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Keanu Reeves.
+
+<p class="firstLetter"> The room is abuzz Inside a softly lit Los Angeles studio. Directors call out instructions, cameras flash, and one figure remains unexpectedly serene amidst the orchestrated chaos: Keanu Reeves.</p> 
+
+Keanu consistently brings a unique depth with every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram system? Specifically, might he be a Type 9? And how can this perspective offer us a richer understanding of both the man and his craft?</p>
+
 
 <details>
 <summary class="accordion">TL;DR: Why Keanu Reeves is an Enneagram type 9</summary>
@@ -200,7 +205,7 @@ Our journey into Keanu's possible Type 9 nature is speculative but built on obse
 
 If you were to delve deeper into the Enneagram, which celebrity would you analyze next? And what might you discover about yourself?
 
-For those ready to embark on this captivating exploration, I invite you to sign up for 9takes. Dive into a universe of insights, conversations, and revelations. Who knows? You might decode your own matrix.
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 <svelte:head>
 
