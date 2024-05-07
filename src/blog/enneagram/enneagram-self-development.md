@@ -4,7 +4,7 @@ description: 'How the Enneagram can be used for personal growth and self-improve
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-self-development'
-lastmod: '2024-04-04'
+lastmod: '2024-05-07'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,6 +20,7 @@ self regulation examples
 
 <script>
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <div
@@ -47,27 +48,54 @@ Here are a few ways the Enneagram can support you in your self development journ
 
 ### Starting Conversations and Connecting with Others
 
-The Enneagram offers a shared language and framework for understanding ourselves and others. By exploring your type and learning about the other types, you can gain a deeper appreciation for the diversity of human experience. You may also find it easier to connect with others and start meaningful conversations about personal growth and self-improvement. Check out this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
+The Enneagram is a fantastic icebreaker when meeting new people. 
+
+Imagine you're at a party and someone asks about your Enneagram type. You share that you're a Type 2, the Helper, and suddenly you're bonding over your shared desire to support others and make a difference in the world. You might even discover that you have similar struggles with setting boundaries and taking care of your own needs.
+
+**Tip**: When discussing the Enneagram with others, approach the conversation with curiosity and openness. Ask questions about their experiences and share your own insights without judgment. Check out this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
 
 ### Making Sense of Yourself and Others
 
-Have you ever struggled to understand why you do the things you do? Or felt frustrated by someone else's behavior? The Enneagram can help you make sense of these patterns by shedding light on your inner motivations and those of others. By understanding your type and the types of those around you, you can cultivate greater empathy and compassion in your relationships.
+Have you ever had a lightbulb moment when reading about your Enneagram type? Maybe you're a Type 5, the Investigator, and you suddenly realize why you've always felt the need to withdraw and recharge after social interactions. Or perhaps you're a Type 8, the Challenger, and you gain a new appreciation for your natural leadership skills and desire to protect others.
+
+**Tip**: Take some time to reflect on your own patterns and motivations through the lens of your Enneagram type. Write down your insights in a journal and consider sharing them with a trusted friend or therapist.
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
 
 ### Practical Applications for Decision-Making
 
-The Enneagram isn't just a theoretical framework - it can be used practically to help you make good decisions and prevent yourself from falling into bad patterns. By understanding your type's strengths and challenges, you can make choices that align with your values and avoid behaviors that lead to negative consequences.
+Let's say you're a Type 6, the Loyalist, and you're faced with a big decision about whether to take a new job. 
+
+Your Enneagram knowledge can help you navigate this choice by reminding you to trust your own intuition and seek support from your inner circle. You might also realize that your fear of change is holding you back, and that stepping outside your comfort zone could lead to great opportunities.
+
+**Tip**: When faced with a decision, consider how your Enneagram type might be influencing your thought process. Are you letting fear or shame drive your choices, or are you staying true to your authentic self?
 
 ### Recognizing when you are stressed and doing well
 
-Each Enneagram type has a unique set of stress and comfort numbers, which can provide valuable insight into how we behave and react under different circumstances. By <a href="enneagram-stress-number">understanding our own stress</a> and comfort numbers, we can become more aware of our patterns and tendencies, and work to break free from them.
+Picture this: you're a Type 1, the Reformer, and you've been working tirelessly on a project for weeks. 
+
+Suddenly, you find yourself snapping at your colleagues and feeling overwhelmed by the smallest tasks. This could be a sign that you're in your <a href="enneagram-stress-number">stress number</a>, Type 4, and need to take a step back and practice self-care.
+
+**Tip**: Familiarize yourself with your type's stress and comfort numbers, and pay attention to the signs that you might be shifting into one of these modes. Develop a toolkit of self-care practices that can help you navigate these transitions with grace.
+
+
 
 ### Develop emotional awareness
 
-Another way the Enneagram can help us is by providing greater emotional awareness. The Enneagram identifies three core emotions - anger, fear, and shame - and each type has a unique relationship with these emotions. By exploring our own type's relationship with these emotions, we can develop greater emotional intelligence and awareness, and learn to better manage our emotions.
+As a Type 9, the Peacemaker, you might have a tendency to avoid conflict and suppress your own anger in order to maintain harmony. By exploring your relationship with anger through the Enneagram, you can learn to acknowledge and express this emotion in healthy ways, rather than letting it simmer beneath the surface.
+
+**Tip**: Practice naming and validating your emotions, even if they feel uncomfortable or scary. Remember that all emotions are valid and have something to teach us.
 
 ### Recognize underlying goals and fears
 
-The Enneagram can also help us recognize our own goals and fears, as well as those of others. By understanding our own type's goals and fears, we can develop greater self-awareness and work towards our own personal growth. Similarly, by understanding the goals and fears of others, we can become more empathetic and understanding in our relationships.
+Imagine you're a Type 3, the Achiever, and you've been working tirelessly to earn a promotion at work. When you finally receive the good news, you feel a sense of emptiness rather than joy. This could be a sign that your underlying goal of success and recognition is out of alignment with your authentic self.
+
+**Tip**: Take some time to reflect on your deepest goals and fears, and consider whether they are serving your highest good. Are you chasing after external validation or staying true to your own values and desires?
+
+
+## Conclusion
 
 In using the Enneagram as a tool for personal growth and self-improvement, it's important to remember that everyone's journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.
 
@@ -94,7 +122,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-04-04"
+    "@value": "2024-05-07"
   },
   "datePublished": {
     "@type": "Date",

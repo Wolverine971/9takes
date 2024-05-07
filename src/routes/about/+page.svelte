@@ -22,7 +22,7 @@
 <svelte:window bind:innerWidth />
 
 <div class="main-div">
-	<h1>9takes- a place of Questions for the Enneagram obsessed</h1>
+	<h1>A place of Questions for the Enneagram obsessed</h1>
 	<p>And a place for people to explore their differences and find common ground.</p>
 
 	<div>
@@ -93,7 +93,7 @@
 			</div>
 		</div>
 		<h2 style="margin: .5rem 0">Views and Goals</h2>
-		<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why social media sucks:</h3>
+		<h3 style="margin: .5rem 0; padding: .2rem 0;">Why social media sucks:</h3>
 		<!-- <h1 style="text-decoration: underline; text-align: center">We need a redo on social media</h1> -->
 
 		<p><b>Social media isn't living up to what it was supposed to be.</b></p>
@@ -148,7 +148,7 @@
 			</div>
 		{/if}
 
-		<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why people are divided</h3>
+		<h3 style="margin: .5rem 0; padding: .2rem 0;">Why people are divided</h3>
 
 		<p>Most people are living their life on autopilot.</p>
 
@@ -204,7 +204,7 @@
 		online.
 	</p>
 
-	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">The philosophy of 9takes</h3>
+	<h3 style="margin: .5rem 0; padding: .2rem 0;">The philosophy of 9takes</h3>
 
 	<p>"Everyone is unique." ✨</p>
 	<p>
@@ -237,7 +237,7 @@
 		</b>
 	</p>
 
-	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why the Enneagram?</h3>
+	<h3 style="margin: .5rem 0; padding: .2rem 0;">Why the Enneagram?</h3>
 	<p>
 		Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
 		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
@@ -251,7 +251,7 @@
 		"Enneagram type" that is for you to discover.
 	</p>
 
-	<h3 style="margin: .2rem .5rem; padding: .2rem .5rem;">Why focus on questions and answers?</h3>
+	<h3 style="margin: .5rem 0; padding: .2rem 0;">Why focus on questions and answers?</h3>
 	<p>
 		Because the process of forming and asking a question is a mental unlock. When you are asking
 		questions, you are growing. When you have run out of questions, you stop growing, and you not

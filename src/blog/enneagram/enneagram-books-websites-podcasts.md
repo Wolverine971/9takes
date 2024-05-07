@@ -39,7 +39,11 @@ be the hub
 	/>
 </div>
 
-### Essential Enneagram Books
+There are many resources when it comes to the Enneagram.
+
+Here we try to lay out our favorites ❤️
+
+## Essential Enneagram Books
 
 If you're looking to dive deeper into the world of the Enneagram, these books offer comprehensive insights and practical advice for personal growth and understanding:
 
@@ -48,7 +52,7 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/dp/0830846190/?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=f8532d1f5c094f1cf0970a93df6d0cc8&camp=1789&creative=932">The Road Back to You: An Enneagram Journey to Self-Discovery</a> by Ian Morgan Cron and Suzanne Stabile: This accessible and engaging book introduces readers to the Enneagram using relatable stories, helping individuals identify their type and understand its implications for their lives.
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Enneagram-Letters-Poetic-Exploration-Thought/dp/1524875694?&amp;_encoding=UTF&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=c6e1d60be1616d5fd8460f5f11567e14&camp=1789&creative=9325">The Enneagram Letters</a> by Sarajane Case: The subtitle is "A poetic exploration of who you thought you had to be." Short and approachable read and a good recommendation for beginners.
 
-### Informative Websites for Enneagram Enthusiasts
+## Informative Websites for Enneagram Enthusiasts
 
 If you prefer online resources, these websites offer valuable information, interactive tools, and engaging content related to the Enneagram:
 
@@ -56,7 +60,7 @@ If you prefer online resources, these websites offer valuable information, inter
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.narrativeenneagram.org/">The Narrative Enneagram</a> (enneagramworldwide.com): This organization's website features a variety of resources, including articles, workshops, and training programs focused on the Enneagram and its applications in personal and professional settings.
 - <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://enneagramuserguide.com/">Enneagram User Guide</a> (enneagramuserguide.com): This user-friendly website provides concise type descriptions, FAQs, and an interactive Enneagram test to help users identify their type and learn more about the system.
 
-### Podcasts for Enneagram Insight and Inspiration
+## Podcasts for Enneagram Insight and Inspiration
 
 For those who prefer listening to learning, these podcasts offer engaging conversations and valuable insights into the Enneagram:
 
