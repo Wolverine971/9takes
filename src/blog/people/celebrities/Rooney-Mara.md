@@ -122,7 +122,7 @@ Mara's personal life has also been a source of fascination for fans. In 2016, sh
 
 ## Conclusion
 
-Rooney Mara's journey from introspective child to acclaimed actress is a testament to the power of the Enneagram Type 5. Her ability to bring depth and nuance to complex characters has made her one of the most sought-after actresses of her generation. As she continues to take on new challenges both on and off the screen, one thing is certain: Rooney Mara will always remain an enigma. 
+Rooney Mara's journey from introspective child to acclaimed actress is a testament to the power of the Enneagram Type 5. Her ability to bring depth and nuance to complex characters has made her one of the most sought-after actresses of her generation. As she continues to take on new challenges both on and off the screen, one thing is certain: Rooney Mara will always remain an enigma.
 
 Will she continue to captivate audiences with her intense and introspective performances, or will she surprise us all with a new direction? Only time will tell.
 

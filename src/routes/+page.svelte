@@ -63,7 +63,10 @@
 						>
 					</h1>
 					<h2 style="font-size: x-large">
-						Got a question? <br />Get 9 different personalities' takes on it via 9takes.
+						Got a question? <br />There are at least 9 personality types with different takes on
+						it...
+						<br />
+						at least
 					</h2>
 				</div>
 			</div>

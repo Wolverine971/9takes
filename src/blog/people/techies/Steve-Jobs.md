@@ -45,7 +45,6 @@ tiktok: ''
 	/>
 </div>
 
-
 > **Disclaimer** This analysis of Steve Jobs's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Steve Jobs.
 
 <p class="firstLetter">You know his name, you've seen his face, and you've likely used a product he created. </p>
@@ -105,7 +104,6 @@ The pride and shame of a visionary like Jobs are two sides of the same coin, dri
 Jobs' Type 1 personality shaped his leadership style and the habits he cultivated.
 
 He surrounded himself with people who shared his vision and his commitment to excellence, inspiring and motivating his team to push the boundaries of what was possible. At the same time, Jobs could be demanding and uncompromising, pushing people to their limits and rewarding loyalty and hard work. These habits, born from his Type 1 traits, defined his approach to leadership and played a significant role in his success.
-
 
 ## Conclusion
 

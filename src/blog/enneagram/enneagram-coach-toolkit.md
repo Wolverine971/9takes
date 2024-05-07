@@ -92,6 +92,7 @@ Enneagram coaching is not confined to the session time; it extends through thoug
 In addition to the above, there are <a class="external-link" target="_blank" href="https://explaintheenneagram.com/" >5 the common pitfalls in explaining the Enneagram to newcomers that are turn-offs</a>. If you are ready to learn more and refine your approach to attracting and retaining clients, click the link ⬆️.
 
 <svelte:head>
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

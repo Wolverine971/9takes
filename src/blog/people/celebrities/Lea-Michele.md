@@ -35,8 +35,6 @@ GLEE
 	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -52,13 +50,12 @@ GLEE
 	/> -->
 </div>
 
-
 > **Disclaimer** This analysis of Lea Michele's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lea Michele.
 
 <p class="firstLetter"></p>
 
-
 <svelte:head>
+
 <script type="application/ld+json">
 
 </script>

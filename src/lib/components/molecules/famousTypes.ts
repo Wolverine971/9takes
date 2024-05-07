@@ -11,7 +11,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Gandhi', link: false },
 		{ name: 'Morgan-Freeman', link: false },
 		{ name: 'Kourtney-Kardashian', link: true },
-		{ name: 'Jennifer-Garner', link: true },
+		{ name: 'Jennifer-Garner', link: true }
 	],
 	2: [
 		{ name: 'Oprah-Winfrey', link: true },

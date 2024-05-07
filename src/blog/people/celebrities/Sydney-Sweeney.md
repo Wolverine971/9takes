@@ -30,8 +30,6 @@ tiktok: ''
 	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-
-
 > **Disclaimer** This analysis of Sydney Sweeney's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sydney.
 
 <div
@@ -50,11 +48,9 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Sydney Sweeney's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sydney Sweeney.
 
-
 <p class="firstLetter">You've seen her captivating performances, felt the depth of her emotions on screen, and likely been drawn into the complex characters she portrays.</p>
 
 Sydney Sweeney, the rising star known for her roles in "Euphoria" and "The White Lotus," has quickly become a household name. But what lies beneath the surface of this talented actress? Today, we delve into the intricacies of Sydney Sweeney's personality through the lens of the Enneagram.
-
 
 ## What is Sydney Sweeney's Enneagram Type?
 

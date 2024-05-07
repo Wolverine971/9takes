@@ -45,7 +45,6 @@ tiktok: ''
 	/> -->
 </div>
 
-
 > **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
 
 <p class="firstLetter"></p>

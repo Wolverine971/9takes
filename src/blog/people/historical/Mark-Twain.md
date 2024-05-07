@@ -1,16 +1,16 @@
 ---
-title: 'Alexandria Ocasio Cortez An Enneagram Type 1'
-description: 'Why Alexandria Ocasio Cortez appears to be a type 1'
+title: 'Mark Twain An Enneagram Type 6'
+description: 'Why Mark Twain appears to be a type 6'
 author: 'DJ Wayne'
-date: '2024-05-06'
-loc: 'https://9takes.com/blog/famous-enneagram-types/boo-boo'
-lastmod: '2024-05-06'
+date: '2024-04-23'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Mark-Twain'
+lastmod: '2024-04-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 1
+enneagram: 6
 type: ['celebrity']
-person: 'boo-boo'
+person: 'Mark-Twain'
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -23,8 +23,6 @@ tiktok: ''
     style habits and quirks that relate to their personality type
     stressful moments in their life and how they handled them
     comfort- moments in their life where they are doing well and killing it
-
-    todo
 -->
 <!-- // keywords:  -->
 
@@ -39,15 +37,15 @@ tiktok: ''
 	"
 >
 	<!-- <PopCard
-		image={`/types/1s/${'boo-boo'}.webp`}
-		enneagram{1}
+		image={`/types/6s/${'Mark-Twain'}.webp`}
+		enneagram{6}
 		showIcon={false}
-		displayText="Alexandria Ocasio Cortez"
+		displayText="Mark Twain"
 		subtext=""
 	/> -->
 </div>
 
-> **Disclaimer** This analysis of Alexandria Ocasio Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Alexandria Ocasio Cortez.
+> **Disclaimer** This analysis of Mark Twain's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mark Twain.
 
 <p class="firstLetter"></p>
 
