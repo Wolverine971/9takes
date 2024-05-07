@@ -13,10 +13,8 @@
 	}}
 	slug={'blog/famous-enneagram-types/type/' + data.slug}
 />
-<svelte:head>
-	<link rel="canonical" href={`https://9takes.com/blog/famous-enneagram-types/type/${data.slug}`} />
-</svelte:head>
 
+<!-- here -->
 <EnneagramCategoryIntro subsection={data.slug} blogs={data.posts} />
 
 <br /><br />

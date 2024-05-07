@@ -1685,6 +1685,21 @@
 		mechanisms around. Or, as the enneagram puts it, we develop certain intelligences around our
 		core emotions.
 	</p>
+
+	<h2>Next steps</h2>
+
+	For now, here is a good thread on how to regulate your emotions:
+
+	<blockquote class="twitter-tweet">
+		<p lang="en" dir="ltr">
+			How To (Actually) Regulate Your Emotions<br /><br />A STEP BY STEP GUIDE:
+		</p>
+		&mdash; Dr. Nicole LePera (@Theholisticpsyc)<a
+			href="https://twitter.com/Theholisticpsyc/status/1717556727510634854?ref_src=twsrc%5Etfw"
+			>October 26, 2023</a
+		>
+	</blockquote>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {/if}
 
 <!-- acrimony scandalized animosity contempt annoyance degraded antagonism dishonored displeasure
