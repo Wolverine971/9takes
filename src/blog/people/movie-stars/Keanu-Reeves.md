@@ -45,8 +45,7 @@ tiktok: ''
 
 <p class="firstLetter"> The room is abuzz Inside a softly lit Los Angeles studio. Directors call out instructions, cameras flash, and one figure remains unexpectedly serene amidst the orchestrated chaos: Keanu Reeves.</p> 
 
-Keanu consistently brings a unique depth with every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram system? Specifically, might he be a Type 9? And how can this perspective offer us a richer understanding of both the man and his craft?</p>
-
+Keanu consistently brings a unique depth with every role he undertakes, from the enigmatic Neo in The Matrix to the soulful assassin John Wick. But what fuels this unparalleled intensity? Let's embark on a journey to unearth a captivating theory: could the foundation of Keanu's artistry be rooted in the Enneagram Type 9 personality. And how can this perspective offer us a richer understanding of both the man and his craft?
 
 <details>
 <summary class="accordion">TL;DR: Why Keanu Reeves is an Enneagram type 9</summary>
