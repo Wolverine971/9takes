@@ -142,6 +142,12 @@
 	let width = innerWidth > 768 ? 125 : 40;
 
 	let wrap = 1;
+
+	let textAreas = document.getElementsByTagName('textarea');
+
+	Array.prototype.forEach.call(textAreas, function (elem) {
+		elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+	});
 </script>
 
 <svelte:window bind:innerWidth />
@@ -187,10 +193,11 @@
 	<div class="interact-text-container" id="interact-text-container">
 		<textarea
 			contenteditable
-			placeholder="Speak your mind"
+			placeholder={`Speak your mind \n . \n . \n . \n Say it with your chest`}
 			class="interact-textbox"
 			bind:value={comment}
 			id="comment-box"
+			rows="5"
 			on:keydown={() => {
 				if (comment.toString().length > width * wrap) {
 					const interactText = document.querySelector('#interact-text-container');

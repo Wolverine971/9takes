@@ -90,7 +90,7 @@ The question on everyone’s lips: will David Dobrik return to YouTube?
 
 As a Type 7, his appetite for new experiences will likely guide him back. As we've seen, Type 7 personalities are never content to remain static. They're always seeking new challenges and adventures. Whether or not that takes Dobrik back to YouTube remains to be seen, but rest assured, it will be dynamic and exciting.
 
-## How Each Enneagram Type Perceives David Dobrik
+## How Each Enneagram Type Perceives David
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive David:
 

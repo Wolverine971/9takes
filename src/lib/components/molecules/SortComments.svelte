@@ -96,9 +96,7 @@
 		<Context>
 			<div
 				use:onClickOutside={() => {
-					if (multiSelectOpen) {
-						multiSelectOpen = false;
-					}
+					multiSelectOpen = !multiSelectOpen;
 				}}
 			>
 				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen} />

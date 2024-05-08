@@ -11,6 +11,7 @@
 
 <script lang="ts">
 	import { onDestroy } from 'svelte';
+	import { portal } from '../../../utils/portal';
 
 	let topDiv: HTMLDivElement | null;
 	let visible = false;
@@ -21,7 +22,7 @@
 
 	export let id = '';
 
-	function keyPress(ev: Event) {
+	function keyPress(ev: KeyboardEvent) {
 		//only respond if the current modal is the top one
 		if (ev.key == 'Escape' && onTop == topDiv) close(ev); //ESC
 	}
@@ -69,21 +70,14 @@
 <div
 	id="topModal"
 	class:visible
-	role="dialog"
-	tabindex="0"
 	bind:this={topDiv}
+	use:portal
 	on:click={close}
 	on:keydown={(e) => {
 		if (e?.key === 'Enter') close(e);
 	}}
 >
-	<div
-		id="modal"
-		on:click|stopPropagation={() => {}}
-		role="dialog"
-		aria-modal="true"
-		aria-labelledby={name}
-	>
+	<div id="modal" role="dialog" aria-modal="true" aria-labelledby={name}>
 		{#if !navTop}
 			<svg
 				id="close"
@@ -91,6 +85,7 @@
 				width="1rem"
 				viewBox="0 0 12 12"
 				role="button"
+				tabindex="0"
 				on:keydown={(e) => {
 					if (e?.key === 'Enter') close(e);
 				}}
