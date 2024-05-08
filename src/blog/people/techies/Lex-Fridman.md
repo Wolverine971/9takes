@@ -44,7 +44,9 @@ Here we delve into Lex's personality and explore how and why Lex Fridman's perso
 
 ### The Mind of an Enneagram Type 5
 
-Type 5s are usually introverted. They have an intense, cerebral world that they can get lost in. They want to understand the world and everything around them on a deep level. They are knowledge seekers or said less charitably; they are knowledge hoarders. Is this not Lex? Lex enjoys the state of being deeply engrossed in a subject. He loves analyzing and theorizing about anything and everything. For 5s, this seeking of knowledge is born out of a fear that they are secretly useless, helpless, and incapable. To combat those negatives, 5s seek to know everything so they no longer feel useless, helpless, or incapable. For 5s, knowledge seeking is an enjoyment and a coping mechanism.
+Type 5s are introverted.
+
+They have an intense, cerebral world that they can get lost in. They want to understand the world and everything around them on a deep level. They are knowledge seekers or said less charitably; they are knowledge hoarders. Is this not Lex? Lex enjoys the state of being deeply engrossed in a subject. He loves analyzing and theorizing about anything and everything. For 5s, this seeking of knowledge is born out of a fear that they are secretly useless, helpless, and incapable. To combat those negatives, 5s seek to know everything so they no longer feel useless, helpless, or incapable. For 5s, knowledge seeking is an enjoyment and a coping mechanism.
 
 ### Intellectual Curiosity: The Pursuit of Knowledge
 
@@ -76,7 +78,7 @@ His podcast episodes, particularly those exploring complex AI systems or probing
 
 ### Final Thoughts: Lex Fridman as a Type 5
 
-As we draw this exploration to a close, the narrative becomes clear. Lex Fridman's insatiable curiosity, his deep intellectual understanding, his introverted nature, and his immense contributions to the field of AI and beyond position him as a remarkable representation of an Enneagram Type 5.
+Lex Fridman's insatiable curiosity, his deep intellectual understanding, his introverted nature, and his immense contributions to the field of AI and beyond position him as a remarkable representation of an Enneagram Type 5.
 
 Lex Fridman exemplifies that Type 5 individuals, with their profound understanding, curiosity, and desire to contribute, can truly revolutionize our understanding of the world. As we continue to marvel at Fridman's accomplishments and contributions, we are reminded of the profound insights and possibilities that come with being a Type 5, making the world a more knowledgeable, curious, and innovative place.
 

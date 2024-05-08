@@ -58,7 +58,7 @@
 						aria-expanded={dropdownActive ? 'true' : 'false'}
 					>
 						<div
-							class="nav-element {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+							class="nav-element {$page.url.pathname.startsWith('/blog') ? 'active-link' : ''}"
 							style="text-align: start"
 						>
 							Blogs

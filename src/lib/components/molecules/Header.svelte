@@ -163,21 +163,8 @@
 								: ''}"
 							style=""
 						>
-							<div
-								class="{$page.url.pathname.includes('/questions')
-									? ''
-									: 'questions-flicker'} questions-text"
-							>
-								<!-- QUESTIONS -->
-								<span>Q</span>
-								<span>U</span>
-								<span>E</span>
-								<span>S</span>
-								<span>T</span>
-								<span>I</span>
-								<span>O</span>
-								<span>N</span>
-								<span>S</span>
+							<div class={$page.url.pathname.includes('/questions') ? 'active-link' : ''}>
+								QUESTIONS
 							</div>
 						</div>
 						<!-- {#if data?.session?.user?.id} -->
@@ -213,7 +200,7 @@
 							aria-expanded={isOpen ? 'true' : 'false'}
 						>
 							<div
-								class="nav-element  {$page.url.pathname === '/blog' ? 'active-link' : ''}"
+								class="nav-element {$page.url.pathname.includes('/blog') ? 'active-link' : ''}"
 								style=""
 							>
 								BLOG
@@ -801,10 +788,6 @@
 		.the-header {
 			padding: 0;
 		}
-	}
-	.questions-text {
-		display: flex;
-		justify-content: center;
 	}
 
 	.questions-flicker > span {
