@@ -54,6 +54,12 @@
 {#if data.user?.admin}
 	<div class="glass-card">
 		<div class="row">
+			<a href="/admin/users" class="active-link">Users</a> |
+			<a href="/admin/questions">Questions</a> |
+			<a href="/admin/comments">Comments</a> |
+			<a href="/admin/messages">Messages</a>
+		</div>
+		<div class="row">
 			<h1 style="">Users</h1>
 		</div>
 

@@ -1,20 +1,38 @@
 <script lang="ts">
+	import BlogPageHead from './BlogPageHead.svelte';
+
 	export let subsection: string;
 	export let blogs: any;
+
+	const slug = `blog/enneagram/subtopic/${subsection}`;
 </script>
 
 {#if subsection === 'overview'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Overview of the Enneagram System`,
+			description: 'Describing the basics of the Enneagram system and its applications.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/overview',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: ''
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>Understanding the Enneagram</h1>
 	</header>
 
 	<main>
 		<section id="introduction">
+			<p>The Enneagram is a personality system that describes nine distinct personality types.</p>
 			<p>
-				The Enneagram is a powerful personality system that describes nine distinct personality
-				types, each with its own unique set of motivations, fears, and behavioral patterns. This
-				subsection is dedicated to providing a foundational understanding of the Enneagram system
-				and its applications.
+				Each has its own unique set of motivations, fears, and behavioral patterns. This subsection
+				is dedicated to providing a foundational understanding of the Enneagram system and its
+				applications.
 			</p>
 		</section>
 
@@ -83,6 +101,20 @@
 {/if}
 
 {#if subsection === 'nine-types'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Overview of the 9 Enneagram types`,
+			description: 'Describing the 9 Enneagram types and their characteristics.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/nine-types',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 's-greek-statues-working-in-teams'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Nine Enneagram Types</h1>
 	</header>
@@ -152,6 +184,21 @@
 {/if}
 
 {#if subsection === 'development'}
+	<BlogPageHead
+		data={{
+			title: `9takes- The Enneagram for personal development`,
+			description:
+				'Blogs on using the Enneagram for personal development, growth, and self-improvement.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/development',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 'Self-awareness-and-Self-understanding'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Enneagram for Personal Development</h1>
 	</header>
@@ -230,6 +277,20 @@
 {/if}
 
 {#if subsection === 'relationships'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Using the Enneagram in Relationships`,
+			description: 'Blogs about using the Enneagram to improve your relationships.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/relationships',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 'greek-statues-having-an-intimate-conversation'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Enneagram in Relationships</h1>
 	</header>
@@ -309,6 +370,21 @@
 	</main>
 {/if}
 {#if subsection === 'workplace'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Using the Enneagram in the workplace`,
+			description:
+				'Blogs about using the Enneagram in the workplace for personal growth and success.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/workplace',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 'greek-statues-disagreeing'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Enneagram in the Workplace</h1>
 	</header>
@@ -378,6 +454,21 @@
 	</main>
 {/if}
 {#if subsection === 'resources'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Enneagram Resources`,
+			description:
+				'Blogs that serve as various resources for those interested in the Enneagram and its applciations.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/resources',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 'greek-dude-reading-book'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Enneagram Resources</h1>
 	</header>
@@ -458,6 +549,20 @@
 	</main>
 {/if}
 {#if subsection === 'situational'}
+	<BlogPageHead
+		data={{
+			title: `9takes- Blogs for using the Enneagram in specific situations`,
+			description: 'Blogs that explore how each Enneagram type behaves in specific situations.',
+			slug: slug,
+			author: 'DJ Wayne',
+			date: '2024-05-09',
+			loc: 'https://9takes.com/blog/enneagram/subtopic/situational',
+			lastmod: '2024-05-09',
+			blog: true,
+			pic: 'greek-statue-flex'
+		}}
+		{slug}
+	/>
 	<header>
 		<h1>The Enneagram Types in Specific Situations</h1>
 	</header>

@@ -45,57 +45,31 @@
 	});
 </script>
 
-<div style="display: flex; justify-content: space-between; align-items: baseline">
-	<div>
-		<h1>Server Messages</h1>
-		<input type="text" name="socketID" id="socketID" bind:value={socketID} placeholder="socketID" />
-
-		<input
-			type="text"
-			name="message"
-			id="message"
-			bind:value={serverMessage}
-			placeholder="message"
-		/>
-		<button
-			type="button"
-			class="btn btn-primary"
-			id="signup"
-			on:click={() => {
-				const sendChannel = `${userid}`;
-				socket.emit('clientBroadCastEvent', serverMessage, sendChannel);
-			}}
-		>
-			broadcast events
-		</button>
+<div class="glass-card">
+	<div class="row">
+		<a href="/admin/users">Users</a> |
+		<a href="/admin/questions">Questions</a> |
+		<a href="/admin/comments">Comments</a> |
+		<a href="/admin/messages" class="active-link">Messages</a>
 	</div>
+	<h1>Messages</h1>
 
-	<div>
-		<h2>Server Messages</h2>
-		<ul>
-			{#each messages as m}
-				<li>
-					<span class="marquee-text">{m}</span>
-				</li>
-			{/each}
-		</ul>
-	</div>
-</div>
-<br />
-<hr />
-<br />
-
-<div style="display: flex; justify-content: space-between; align-items: baseline">
-	<div>
-		<h1>User Messages</h1>
+	<div style="display: flex; justify-content: space-between; align-items: baseline">
 		<div>
-			<input type="text" name="user" id="user" bind:value={userid} placeholder="User id" />
+			<h1>Server Messages</h1>
+			<input
+				type="text"
+				name="socketID"
+				id="socketID"
+				bind:value={socketID}
+				placeholder="socketID"
+			/>
 
 			<input
 				type="text"
 				name="message"
 				id="message"
-				bind:value={userMessage}
+				bind:value={serverMessage}
 				placeholder="message"
 			/>
 			<button
@@ -103,43 +77,91 @@
 				class="btn btn-primary"
 				id="signup"
 				on:click={() => {
-					const sendChannel = `user:${userid}`;
-
-					socket.emit('eventFromClient', userMessage, {
-						to: sendChannel,
-						from: channelListeningOn,
-						message: userMessage
-					});
+					const sendChannel = `${userid}`;
+					socket.emit('clientBroadCastEvent', serverMessage, sendChannel);
 				}}
 			>
-				emit event
+				broadcast events
 			</button>
 		</div>
+
 		<div>
-			<h2>Users</h2>
-			{#if data?.users?.length}
-				<ul>
-					{#each data?.users as u}
-						{#if u}
-							<li>
-								<span>{u?.email}</span> : <span>{u?.external_id}</span>
-							</li>
-						{/if}
-					{/each}
-				</ul>
-			{/if}
+			<h2>Server Messages</h2>
+			<ul>
+				{#each messages as m}
+					<li>
+						<span class="marquee-text">{m}</span>
+					</li>
+				{/each}
+			</ul>
 		</div>
 	</div>
-	<div>
-		<h2>User Messages</h2>
-		<ul>
-			{#each userMessages as um}
-				<li style="display: flex; justify-content: space-between">
-					<span style="font-weight: bold; max-width: 2rem">{um.from}</span><span class=""
-						>{um.message}</span
-					>
-				</li>
-			{/each}
-		</ul>
+	<br />
+	<hr />
+	<br />
+
+	<div style="display: flex; justify-content: space-between; align-items: baseline">
+		<div>
+			<h1>User Messages</h1>
+			<div>
+				<input type="text" name="user" id="user" bind:value={userid} placeholder="User id" />
+
+				<input
+					type="text"
+					name="message"
+					id="message"
+					bind:value={userMessage}
+					placeholder="message"
+				/>
+				<button
+					type="button"
+					class="btn btn-primary"
+					id="signup"
+					on:click={() => {
+						const sendChannel = `user:${userid}`;
+
+						socket.emit('eventFromClient', userMessage, {
+							to: sendChannel,
+							from: channelListeningOn,
+							message: userMessage
+						});
+					}}
+				>
+					emit event
+				</button>
+			</div>
+			<div>
+				<h2>Users</h2>
+				{#if data?.users?.length}
+					<ul>
+						{#each data?.users as u}
+							{#if u}
+								<li>
+									<span>{u?.email}</span> : <span>{u?.external_id}</span>
+								</li>
+							{/if}
+						{/each}
+					</ul>
+				{/if}
+			</div>
+		</div>
+		<div>
+			<h2>User Messages</h2>
+			<ul>
+				{#each userMessages as um}
+					<li style="display: flex; justify-content: space-between">
+						<span style="font-weight: bold; max-width: 2rem">{um.from}</span><span class=""
+							>{um.message}</span
+						>
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</div>
 </div>
+
+<style lang="scss">
+	h1 {
+		font-size: 1.5rem;
+	}
+</style>

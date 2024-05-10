@@ -1,6 +1,6 @@
 ---
 title: 'Rooney Mara: Unraveling the Enigmatic Enneagram Type 5 Actress'
-description: 'Dive into the world of Rooney Mara, the captivating Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her enigmatic persona.'
+description: 'Rooney Mara, the Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her persona.'
 author: 'DJ Wayne'
 date: '2024-05-06'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Rooney-Mara'

@@ -9,6 +9,12 @@
 {#if data.user?.admin}
 	<div class="glass-card">
 		<div class="row">
+			<a href="/admin/users">Users</a> |
+			<a href="/admin/questions" class="active-link">Questions</a> |
+			<a href="/admin/comments">Comments</a> |
+			<a href="/admin/messages">Messages</a>
+		</div>
+		<div class="row">
 			<h1 style="">Questions Page</h1>
 		</div>
 

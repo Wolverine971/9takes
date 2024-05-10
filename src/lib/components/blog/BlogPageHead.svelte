@@ -1,19 +1,36 @@
 <script lang="ts">
-	export let data: any;
+	export let data: App.BlogPost;
 	export let slug: string;
 
 	let title: string = data?.title;
 	let description: string = data?.description;
-	const siteTitle = '9takes';
-	const formattedTitle = title ? `${title}` : siteTitle;
+	const formattedTitle = title ? `${title}` : '9takes';
 
 	let jsonldString = {
 		'@context': 'http://schema.org',
 		'@type': 'Blog',
 		name: title,
 		url: `https://9takes.com/${slug}`,
+		author: {
+			'@type': 'Person',
+			name: 'DJ Wayne',
+			sameAs: [
+				'https://www.instagram.com/djwayne3/',
+				'https://www.youtube.com/@djwayne3',
+				'https://www.linkedin.com/in/davidtwayne/',
+				'https://twitter.com/djwayne3'
+			]
+		},
 		description: description,
-		publisher: { '@type': 'Person', name: data?.author }
+		publisher: {
+			'@type': 'Organization',
+			sameAs: ['https://www.instagram.com/9takesdotcom/', 'https://twitter.com/9takesdotcom'],
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://9takes.com/brand/darkRubix.png'
+			},
+			name: '9takes'
+		}
 	};
 
 	// let jsonld = {
@@ -30,26 +47,24 @@
 
 <svelte:head>
 	<title>{formattedTitle}</title>
+	<link rel="canonical" href={`https://9takes.com/${slug}`} />
+	<meta name="description" content={description || title} />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
 
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={data.description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={`https://9takes.com/${slug}`} />
-
-	<meta property="og:image" content={`https://9takes.com/blogs/${data.pic}.webp`} />
-
-	<meta name="description" content={description || title} />
+	<meta property="og:image" content={`https://9takes.com/blogs/${data?.pic}.webp`} />
 
 	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:description" content={description || title} />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@djwayne3" />
 	<meta name="twitter:title" content={title} />
+	<meta property="twitter:url" content={`https://9takes.com/${slug}`} />
+	<meta name="twitter:image" content={`https://9takes.com/blogs/${data?.pic}.webp`} />
 
-	<!-- <meta property="article:publisher" content="https://www.facebook.com/yoast" />
-	<meta property="article:published_time" content="2023-02-23T12:00:00+00:00" />
-	<meta property="article:modified_time" content="2023-02-23T13:03:10+00:00" /> -->
-
-	<link rel="canonical" href={`https://9takes.com/${slug}`} />
-	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
+	{@html `<script type="application/ld+json">${jsonld}</script>`}
 </svelte:head>

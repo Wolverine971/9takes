@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Stress Number'
+title: 'The Enneagram Stress Number Explained'
 description: 'Describing how people are when stressed so that you recognize the warning signs and can combat unhealthy patterns'
 author: 'DJ Wayne'
 date: '2023-03-26'

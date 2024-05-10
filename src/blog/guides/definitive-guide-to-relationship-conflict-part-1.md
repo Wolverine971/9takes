@@ -241,7 +241,6 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
         "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
         "width":900
       },
-      
       "about": [
         {
             "@type": "Thing",

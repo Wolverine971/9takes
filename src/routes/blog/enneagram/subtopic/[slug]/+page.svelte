@@ -6,14 +6,6 @@
 	export let data: any;
 </script>
 
-<BlogPageHead
-	data={{
-		title: `9takes Analysis of Famous Enneagram Type ${data.slug}s`,
-		description: 'List famous people who have their enneagram type analyzed'
-	}}
-	slug={'blog/famous-enneagram-types/type/' + data.slug}
-/>
-
 <!-- here -->
 <EnneagramCategoryIntro subsection={data.slug} blogs={data.posts} />
 
