@@ -110,7 +110,9 @@ Nevertheless, Calacanis' journey also provides a fascinating glimpse into the Ac
 
 ## How Jason's enneagram type can be seen influencing his work
 
-Jason started as a reporter talking about the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry."</a>After the dot-com boom, he worked his way up to becoming a startup founder. Jason's first major triumph was co-founding Weblogs Inc., where he got an investment from Mark Cuban and sold it two years later. He kept upping the anti and later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber. Jason was on a steep incline of growth, showcasing his goal-oriented mindset and knack for achievement.
+Jason started as a reporter talking about the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry."</a>
+
+After the dot-com boom, he worked his way up to becoming a startup founder. Jason's first major triumph was co-founding Weblogs Inc., where he got an investment from Mark Cuban and sold it two years later. He kept upping the anti and later leveraged his skills and insights as an angel investor, scoring wins with companies like Uber. Jason was on a steep incline of growth, showcasing his goal-oriented mindset and knack for achievement.
 
 Nowadays, he works on his popular podcast, "This Week in Startups," where Calacanis exemplifies a Type 3's charm and charisma. His ability to captivate audiences, motivate, and inspire others aligns with the natural leadership and appeal commonly seen in this Enneagram type.
 

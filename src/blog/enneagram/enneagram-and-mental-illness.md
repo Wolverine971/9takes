@@ -219,6 +219,8 @@ Exploring the Enneagram types' predispositions to mental health challenges is a 
 
 By understanding the extremes of our personality, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. Go <a href="/blog/enneagram/enneagram-stress-number" >here to explore how stress leads to our shadow side</a>. With these Enneagram insights let us face our vulnerabilities, celebrate our strengths, and proactively transform our mental health.
 
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
 <svelte:head>
 
 <script type="application/ld+json">

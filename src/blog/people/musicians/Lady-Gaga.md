@@ -71,6 +71,8 @@ Lady Gaga's unique blend of authenticity, emotional resonance, feelings of being
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
 
+If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
 <svelte:head>
 
 </svelte:head>

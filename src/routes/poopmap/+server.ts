@@ -235,9 +235,23 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map(
-				(post) =>
-					`
+				.map(
+					(post) => {
+						if (post.loc.includes('famous-enneagram-types')) {
+							if (post.person && post.enneagram) {
+								return `		
+	  <url>
+	    <loc>${post.loc}</loc>
+	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
+	    <changefreq>${post.changefreq}</changefreq>
+	    <priority>0.7</priority>
+		<image:image>
+			<image:loc>https://9takes.com/types/${post.enneagram}s/${post.person}.webp</image:loc>
+		</image:image>
+	  </url>
+	  `
+							} else {
+								return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -245,8 +259,45 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `
-			)
-			.join('')}
+							}
+						}
+
+						if (post.loc.includes('enneagram') || post.loc.includes('guides') || post.loc.includes('community')) {
+							if (post.pic) {
+								return `
+	  <url>
+	    <loc>${post.loc}</loc>
+	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
+	    <changefreq>${post.changefreq}</changefreq>
+	    <priority>0.7</priority>
+		<image:image>
+			<image:loc>https://9takes.com/blogs/${post.pic}.webp</image:loc>
+		</image:image>
+	  </url>
+	  `
+							} else {
+								return `
+	  <url>
+	    <loc>${post.loc}</loc>
+	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
+	    <changefreq>${post.changefreq}</changefreq>
+	    <priority>0.7</priority>
+	  </url>
+	  `
+							}
+						} else {
+							return `
+							<url>
+							  <loc>${post.loc}</loc>
+							  <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
+							  <changefreq>${post.changefreq}</changefreq>
+							  <priority>0.7</priority>
+							</url>
+							`
+						}
+					}
+				)
+				.join('')}
 
 	</urlset>`.trim(),
 		{
