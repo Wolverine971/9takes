@@ -5,7 +5,7 @@
 	import type { PageData } from './$types';
 	import QRCode from 'qrcode';
 	import { invalidateAll } from '$app/navigation';
-
+	
 	/** @type {import('./$types').PageData} */
 	export let data: PageData;
 
@@ -113,6 +113,17 @@
 	const url = `https://9takes.com/questions/${slug}`
 	const imgUrl = data.question?.img_url ? `https://9takes.s3.amazonaws.com/${data.question.img_url }` : `https://9takes.com/blogs/looking-at-questions.webp`
 	console.log(data.question)
+	const questionObject = {
+		"@context": "https://schema.org",
+		"@type": "QAPage",
+		"mainEntity": {
+		  "@type": "Question",
+		  "name": data.question.question_formatted,
+		  "answerCount": data.question.comment_count,
+		  "dateCreated": data.question.created_at,
+		}
+	}
+	const questionJsonLd = JSON.stringify(questionObject);
 </script>
 
 <svelte:window bind:innerWidth />
@@ -137,7 +148,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="twitter:url" content={url} />
 	<meta name="twitter:image" content={imgUrl} />
-	<!-- looking-at-questions -->
+	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
 <div class="question-area-box">
