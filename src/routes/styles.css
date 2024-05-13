@@ -465,3 +465,9 @@ textarea {
 		padding: 1.5rem 0 1rem 0 !important;
 	}
 }
+
+.noticia-text-regular {
+	font-family: "Noticia Text", serif !important;
+	font-weight: 400;
+	font-style: normal;
+  }

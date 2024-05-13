@@ -1,5 +1,8 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
+import { PRIVATE_S3_BUCKET, PRIVATE_S3_ACCESS_KEY_ID, PRIVATE_S3_SECRET_ACCESS_KEY } from '$env/static/private';
+import { v4 as uuidv4 } from "uuid";
+import S3 from 'aws-sdk/clients/s3.js'
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -83,6 +86,32 @@ export const actions: Actions = {
 		const url = body.url as string;
 		const img_url = body.img_url as string;
 
+		const Key = uuidv4();
+		try {
+			const buf = Buffer.from(
+				img_url.replace(/^data:image\/\w+;base64,/, ""),
+				"base64"
+			);
+			const data = {
+				Bucket: PRIVATE_S3_BUCKET as string,
+				Key,
+				Body: buf,
+				ContentEncoding: "base64",
+				ContentType: "image/jpeg",
+				ACL: "public-read",
+			};
+			const s3 = await new S3({
+				accessKeyId: PRIVATE_S3_ACCESS_KEY_ID,
+				secretAccessKey: PRIVATE_S3_SECRET_ACCESS_KEY,
+				region: "us-east-1",
+			})
+
+			s3.putObject(data).promise();
+		} catch (error) {
+			console.log(error);
+			throw new Error("error uploading image");
+		}
+
 		const { data: user, error: userError } = await supabase
 			.from(demo_time === true ? 'profiles_demo' : 'profiles')
 			.select('*')
@@ -111,7 +140,7 @@ export const actions: Actions = {
 			author_id: author_id,
 			context: context,
 			url: url,
-			img_url: img_url
+			img_url: Key
 		};
 		const { data: insertedQuestion, error: questionInsertError } = await supabase
 			.from(demo_time === true ? 'questions_demo' : 'questions')

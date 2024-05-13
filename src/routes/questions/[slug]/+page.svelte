@@ -107,28 +107,49 @@
 		}
 	};
 	let innerWidth = 0;
+	const title = `9takes | ${data.question.question_formatted || data.question.question}`
+	const description = `9takes Question | ${data.question.question_formatted || data.question.question}`
+	const slug = data.question.url
+	const url = `https://9takes.com/questions/${slug}`
+	const imgUrl = data.question?.img_url ? `https://9takes.s3.amazonaws.com/${data.question.img_url }` : `https://9takes.com/blogs/looking-at-questions.webp`
+	console.log(data.question)
 </script>
 
 <svelte:window bind:innerWidth />
 
 <svelte:head>
-	<title>{`9takes | ${data.question.question_formatted || data.question.question}`}</title>
-	<meta
-		name="description"
-		content={`9takes Question | ${data.question.question_formatted || data.question.question}`}
-	/>
-	<link rel="canonical" href={`https://9takes.com/questions/${data.question.url}`} />
+	<title>{title}</title>
+	<link rel="canonical" href={url} />
+	<meta name="description" content={description} />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content={title} />
+	<meta property="og:description" content={description} />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content={url} />
+	<meta property="og:image" content={imgUrl} />
+
+	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@djwayne3" />
+	<meta name="twitter:title" content={title} />
+	<meta property="twitter:url" content={url} />
+	<meta name="twitter:image" content={imgUrl} />
+	<!-- looking-at-questions -->
 </svelte:head>
 
+<div class="question-area-box">
 <!-- Question always renders -->
-<article itemscope itemtype="https://schema.org/Question">
+<article itemscope itemtype="https://schema.org/Question" >
 	<!-- <section>
 		
 	</section> -->
 	<div>
 		<div style="display: flex; justify-content: center; align-items:center;">
 			<h1
-				class="question-box"
+				class="question-box noticia-text-regular"
 				id="question-box"
 				style="overflow:hidden; font-size: {calcSize(data.question.question)}"
 				style:--tag={`h-question-${data.question.id}`}
@@ -183,6 +204,7 @@
 		}}
 	/>
 {/if}
+</div>
 
 <style lang="scss">
 	.qr-image-border {
@@ -200,8 +222,6 @@
 		// box-sizing: content-box;
 
 		margin: 0.25rem;
-	}
-	aside {
 	}
 
 	.tags-heading {
@@ -238,7 +258,7 @@
 	@media (min-width: 1200px) {
 		aside {
 			position: fixed !important;
-			margin-left: 970px;
+			margin-left: 960px;
 			right: auto;
 			display: block;
 			margin-top: 0.5rem;

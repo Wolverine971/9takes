@@ -1,7 +1,5 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import { page } from '$app/stores';
-	import { env } from '$env/dynamic/public';
 	// import { PUBLIC_GOOGLE } from '$env/static/public';
 </script>
 

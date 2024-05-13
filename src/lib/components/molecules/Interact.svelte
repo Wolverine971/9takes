@@ -8,7 +8,7 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	// import { page } from '$app/stores';
 
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	const dispatch = createEventDispatcher();
 
@@ -143,10 +143,13 @@
 
 	let wrap = 1;
 
-	let textAreas = document.getElementsByTagName('textarea');
+	
+	onMount(() => {
+		let textAreas = document.getElementsByTagName('textarea');
 
-	Array.prototype.forEach.call(textAreas, function (elem) {
-		elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+		Array.prototype.forEach.call(textAreas, function (elem) {
+			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+		});
 	});
 </script>
 

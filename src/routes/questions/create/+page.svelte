@@ -10,6 +10,7 @@
 	import QRCode from 'qrcode';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { toPng } from 'html-to-image'
 
 	let question: string = '';
 
@@ -45,12 +46,17 @@
 	const createQuestion = async () => {
 		try {
 			loading = true;
+			const questionNode = document.getElementById('question-pic')
 			var body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 			body.append('author_id', data?.session?.user?.id.toString() || '');
 			body.append('context', '');
 			body.append('url', url);
-			body.append('img_url', '');
+
+			let png = await toPng(questionNode).then((dataUrl) => {
+				return dataUrl
+			})
+			body.append('img_url', png);
 			const resp = await fetch('?/createQuestion', {
 				method: 'POST',
 				body
@@ -125,7 +131,7 @@
 			rows="3"
 			name="question"
 			placeholder="Question"
-			class="create-question-textarea"
+			class="create-question-textarea noticia-text-regular"
 			bind:value={question}
 		/>
 		<button
@@ -149,6 +155,8 @@
 					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
 				</div> -->
 
+				<h3 id="question-pic" class="noticia-text-regular">{question}</h3>
+
 				<img id="qr-image" src="" alt="QR Code" />
 
 				<p style="overflow-wrap: anywhere;">
@@ -167,6 +175,13 @@
 </div>
 
 <style lang="scss">
+	#question-pic {
+		margin: 1rem 0;
+		padding: 0.5rem;
+		border: var(--classic-border);
+		border-radius: 5px;
+	
+	}
 	.disabled {
 		background-color: lightgray;
 		color: grey;

@@ -32,9 +32,9 @@
 		// cursor: pointer;
 		// transition: 0.3s ease;
 
-		// &:hover {
-		// 	color: var(--primary);
-		// }
+		&:hover {
+			border: 1px solid var(--color-theme-purple-v);
+		}
 		// &:active {
 		// 	box-shadow: $inner-shadow;
 		// }
@@ -43,9 +43,10 @@
 		// Opacify any color with pure CSS
 		animation: 1s -0.3s 1 paused opacify;
 		backdrop-filter: blur(1.5rem);
-		border: 1px solid rgba(#fff, 0.2);
-		box-shadow: -0.25rem -0.25rem 0.5rem rgba(#fff, 0.07), 0.25rem 0.25rem 0.5rem rgba(#000, 0.12),
-			-0.75rem -0.75rem 1.75rem rgba(#fff, 0.07), 0.75rem 0.75rem 1.75rem rgba(#000, 0.12),
-			inset 8rem 8rem 8rem rgba(#fff, 0.05), inset -8rem -8rem 8rem rgba(#fff, 0.05);
+		border: 1px solid transparent;
+		// box-shadow: -0.25rem -0.25rem 0.5rem rgba(#fff, 0.07), 0.25rem 0.25rem 0.5rem rgba(#000, 0.12),
+		// 	-0.75rem -0.75rem 1.75rem rgba(#fff, 0.07), 0.75rem 0.75rem 1.75rem rgba(#000, 0.12),
+		// 	inset 8rem 8rem 8rem rgba(#fff, 0.05), inset -8rem -8rem 8rem rgba(#fff, 0.05);
 	}
+	
 </style>

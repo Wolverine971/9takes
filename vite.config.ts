@@ -44,7 +44,10 @@ const config = {
 		'import.meta.env.PRIVATE_WEBHOOK_AUTH': process.env.PRIVATE_WEBHOOK_AUTH,
 		'import.meta.env.VITE_UNSECURE_SECRET': process.env.VITE_UNSECURE_SECRET,
 		'import.meta.env.PRIVATE_SIGNUP_KEY': process.env.PRIVATE_SIGNUP_KEY,
-		'import.meta.env.PRIVATE_ADMIN_EMAIL': process.env.PRIVATE_ADMIN_EMAIL
+		'import.meta.env.PRIVATE_ADMIN_EMAIL': process.env.PRIVATE_ADMIN_EMAIL,
+		'import.meta.env.PRIVATE_S3_BUCKET': process.env.PRIVATE_S3_BUCKET,
+		'import.meta.env.PRIVATE_S3_ACCESS_KEY_ID': process.env.PRIVATE_S3_ACCESS_KEY_ID,
+		'import.meta.env.PRIVATE_S3_SECRET_ACCESS_KEY': process.env.PRIVATE_S3_SECRET_ACCESS_KEY,
 	},
 	test: {
 		include: [
