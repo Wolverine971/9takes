@@ -143,7 +143,7 @@
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
-			background-color: var(--color-paladin-1);
+			background-color: var(--base-white-outline);
 		}
 	}
 </style>

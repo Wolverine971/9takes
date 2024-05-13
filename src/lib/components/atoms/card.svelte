@@ -48,5 +48,4 @@
 		// 	-0.75rem -0.75rem 1.75rem rgba(#fff, 0.07), 0.75rem 0.75rem 1.75rem rgba(#000, 0.12),
 		// 	inset 8rem 8rem 8rem rgba(#fff, 0.05), inset -8rem -8rem 8rem rgba(#fff, 0.05);
 	}
-	
 </style>

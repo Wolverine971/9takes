@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import Card from '../atoms/card.svelte';
 
-	export let data: any;
+	// export let data: any;
 	export let link: any;
 	let linkData: any = false;
 

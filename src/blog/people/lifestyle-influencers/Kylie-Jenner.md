@@ -75,13 +75,13 @@ This drive is evident in her role within her famous family. Despite the inevitab
 
 ## The Inertia of a Billionaire
 
-The inertia characteristic of Type 9s is not synonymous with laziness; instead, it refers to a resistance to change that disrupts their inner peace. 
+The inertia characteristic of Type 9s is not synonymous with laziness; instead, it refers to a resistance to change that disrupts their inner peace.
 
 Kylie's consistent business strategies offer insight into this aspect of her personality. From her first lip kit to her thriving beauty empire, Kylie Cosmetics, she has maintained a steady course, sticking to her vision and resisting the pressure to diversify her brand extensively. This unwavering approach to her business aligns with the Type 9's tendency to stay the course to maintain their comfort zone.
 
 ## The Internal and External Disconnect
 
-Kylie’s seemingly contradictory public image versus her private self further illustrates her alignment with the Type 9 persona. 
+Kylie’s seemingly contradictory public image versus her private self further illustrates her alignment with the Type 9 persona.
 
 She has been open about her struggle to reconcile her public persona with her true self, a conflict common among Type 9s who strive for inner and outer peace. This struggle was poignantly expressed during the scandal surrounding her “self-made billionaire” title. Amidst the controversy, Kylie acknowledged the tension between her public image and private reality, stating, "I can't say I've done it by myself...But that's the category I fall under."
 

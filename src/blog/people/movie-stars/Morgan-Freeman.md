@@ -17,7 +17,7 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  
+<!-- // notes:
 todo
 
 -->

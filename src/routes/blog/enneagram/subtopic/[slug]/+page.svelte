@@ -6,7 +6,6 @@
 	export let data: any;
 </script>
 
-<!-- here -->
 <EnneagramCategoryIntro subsection={data.slug} blogs={data.posts} />
 
 <br /><br />

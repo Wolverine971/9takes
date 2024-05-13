@@ -309,7 +309,7 @@
 									user?.id &&
 									likes.some((e) => e.user_id === user?.id) &&
 									'#5407d9') ||
-									''}
+									'#444'}
 							/>
 						</button>
 					</div>
@@ -324,7 +324,7 @@
 						<div slot="popoverValue">
 							<div style="display: flex; flex-direction: column">
 								<div class="comment-meta">
-									<span style="min-width:30px; display:flex; gap: .5rem">
+									<span style="min-width:30px; display:flex; gap: .5rem; padding: .5rem">
 										{#if _commentComment.modified_at}
 											<span style="color: #5407d9" title="modified">M</span>
 										{/if}
@@ -371,9 +371,10 @@
 						title="Like"
 						class="btn"
 						style="{'padding: 0.25rem;'} color: {likes &&
-							user?.id &&
-							likes.some((e) => e.user_id === user?.id) &&
-							'#5407d9'}"
+						user?.id &&
+						likes.some((e) => e.user_id === user?.id)
+							? '#5407d9'
+							: '#444'}"
 						on:click={likeComment}
 					>
 						{#if likes.length}
@@ -384,8 +385,9 @@
 						<ThumbsUpIcon
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
-							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id) && '#5407d9') ||
-								''}
+							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id)
+								? '#5407d9'
+								: '#444') || ''}
 						/>
 					</button>
 					<Popover>

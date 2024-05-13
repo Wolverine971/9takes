@@ -71,7 +71,7 @@ Ariana Grande, the Grammy-winning artist, has been a luminary in the music indus
 
 ## Living in the Limelight
 
-It's virtually impossible to miss Ariana's relentless drive to excel. 
+It's virtually impossible to miss Ariana's relentless drive to excel.
 
 This hardwired ambition is a signature trait of a Type 3 personality. From her early acting days in Broadway and Nickelodeon to her transformation into a global pop sensation, Ariana's career trajectory mirrors the archetypal aspiration of an Achiever. Her competitive spirit, coupled with a relentless work ethic, marks her as a textbook example of an Enneagram Type 3 personality.
 
@@ -85,12 +85,11 @@ Type 3 personalities are highly image-conscious, a trait that manifests vividly 
 
 ## Achievement as a Source of Value
 
-Type 3s often seek validation through accomplishment. 
+Type 3s often seek validation through accomplishment.
 
 Ariana's is constantly pursuing success. Her ever-expanding discography, constant evolution as an artist, and ambition to be the best exemplify this trait. She once confessed, "I’m a perfectionist. I think lots of people in the entertainment business are." She is a perfectionist because she wants to be perfect. She has an unquenchable thirst to be the most talked and admired.
 
 <!-- update -->
-
 
 ## How Each Enneagram Type Perceives Ariana Grande
 

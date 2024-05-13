@@ -63,14 +63,14 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: var(--dark-200);
-	height: 100%;
-	line-height: 1.5;
-	color: #fff;
-	font: 18px/1.5 sans-serif;
-	-webkit-font-smoothing: antialiased;
-}
+// body {
+// 	background-color: var(--dark-200);
+// 	height: 100%;
+// 	line-height: 1.5;
+// 	color: #fff;
+// 	font: 18px/1.5 sans-serif;
+// 	-webkit-font-smoothing: antialiased;
+// }
 
 h1,
 h2,
@@ -194,7 +194,7 @@ button:hover:after {
 
 	&:hover {
 		text-decoration: none;
-		background-color: var(--color-paladin-2);
+		background-color: var(--base-white-outline);
 	}
 }
 
@@ -208,7 +208,7 @@ button:hover:after {
 }
 
 .btn-secondary {
-	background-color: var(--secondary-200);
+	background-color: var(--color-theme-purple-light);
 	color: var(--dark-300);
 
 	&:hover {
@@ -225,7 +225,16 @@ input {
 	font-size: 16px;
 
 	&:focus {
-		outline: var(--primary-300) 1px solid;
+		// change here
+		outline: var(--color-theme-purple) 1px solid;
+		// border: 1px solid var(--color-theme-purple);
+	}
+}
+textarea {
+	&:focus {
+		// change here
+		outline: var(--color-theme-purple) 1px solid;
+		// border: 1px solid var(--color-theme-purple);
 	}
 }
 
@@ -234,7 +243,7 @@ select {
 	font-size: 16px;
 
 	&:focus {
-		outline: var(--primary-300) 1px solid;
+		outline: var(--color-theme-purple) 1px solid;
 	}
 }
 
@@ -375,14 +384,14 @@ section {
 		margin-top: 0;
 		padding-top: 0;
 		padding: 2rem;
-		background: #c1c0c036;
+		background: var(--base-grey-1);
 		border-radius: 5px;
 	}
 	.question-area-box {
 		margin-top: 0;
 		padding-top: 0;
 		padding: 2rem;
-		background: #c1c0c036;
+		background-color: var(--base-grey-1);
 		border-radius: 5px;
 	}
 }
@@ -498,7 +507,7 @@ section {
 	gap: 1rem;
 	justify-content: flex-end;
 	z-index: 12345;
-	margin: -0.5rem auto;
+	margin: 0.5rem auto;
 }
 
 .sub-comment {
@@ -506,13 +515,15 @@ section {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	border: 1px solid var(--color-theme-purple);
+	margin: 0.25rem 0;
 
 	&:disabled {
 		opacity: 1;
-		border: 1px solid var(--color-paladin-3);
-		background-color: var(--color-paladin-1, #303030);
+		color: var(--base-white-outline);
+		border: 1px solid var(--base-white-outline);
+		background-color: var(--base-grey-1, #303030);
 		cursor: auto;
-		color: var(--color-paladin-3);
 	}
 }
 

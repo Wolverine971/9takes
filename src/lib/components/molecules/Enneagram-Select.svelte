@@ -36,7 +36,7 @@
 			{#if selectedEnneagram}
 				{selectedEnneagram}
 			{:else}
-				<Enneagram height={'3rem'} fill={''} />
+				<Enneagram height={'3rem'} fill={'#444'} />
 			{/if}
 			<!-- Enneagram {selectedEnneagram ? selectedEnneagram : ''} -->
 		</label>

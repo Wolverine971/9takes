@@ -1,5 +1,5 @@
 import { supabase } from '$lib/supabase';
-import { Actions, error, redirect } from '@sveltejs/kit';
+import { error, redirect, type Actions } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { getCommentParents } from '../../../utils/conversions';

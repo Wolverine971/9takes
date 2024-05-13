@@ -141,10 +141,9 @@ Ultimately, each person's perception of Grimes will be shaped by their own indiv
 
 Grimes' persona is a captivating blend of artistic brilliance, childlike wonder, and unbridled enthusiasm. By examining her life and work through the lens of the Enneagram Type 7, we gain a deeper appreciation for her unique personality and the motivations that drive her artistic vision. Ultimately, Grimes' story is a testament to the power of individuality and the boundless potential of the human spirit.
 
-Do you share Grimes' Enneagram type? How do you see your own personality reflected in the characteristics of Type 7? Share your thoughts and experiences in the comments below. 
+Do you share Grimes' Enneagram type? How do you see your own personality reflected in the characteristics of Type 7? Share your thoughts and experiences in the comments below.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
-
 
 <svelte:head>
 

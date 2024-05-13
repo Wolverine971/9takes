@@ -42,7 +42,6 @@ tiktok: ''
 
 <p class="firstLetter">Picture this: A young boy, sickly yet bright-eyed, gazes at the lightning storm outside his window in a small town called Smiljan in Croatia. His mind races with questions, curiosity, and a sense of wonder that most of us can only dream of. This boy is Nikola Tesla, and today we're going on a journey through his life, exploring how he embodies the traits of an Enneagram Type 4.</p>
 
-
 <details>
 <summary class="accordion">TL;DR: Why Nikola Tesla is an Enneagram type 4 </summary>
 <div class="panel">
@@ -146,7 +145,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 Tesla's story is a testament to the power of individuality, the beauty of emotional depth, and the courage it takes to follow one's own path, no matter how unconventional.
 
-Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else? 
+Are you, like Tesla, driven by a deep emotional connection to your pursuits, or are you driven by something else?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 

@@ -36,11 +36,9 @@ tiktok: 'https://www.tiktok.com/discover/beyonce-knowles'
 	/>
 </div>
 
-
 > **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
 
 <p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
-
 
 Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a Type 8. But there's more.
 
@@ -86,7 +84,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Unmasking the Icon
 
-Beyoncé us a luminary force that perfectly encapsulates the robust, assertive, and authentic essence of a Type 8. 
+Beyoncé us a luminary force that perfectly encapsulates the robust, assertive, and authentic essence of a Type 8.
 
 Her musical oeuvre, advocacy work, romantic passions, and fiercely protected privacy all offer a vivid manifestation of this personality type. But more than just providing us with an understanding of Beyoncé as an individual, this insight grants us a broader perspective of the immense diversity and depth inherent within each Enneagram Type.
 

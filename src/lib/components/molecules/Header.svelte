@@ -653,7 +653,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			color: var(--color-paladin-1);
+			color: var(--base-white-outline);
 			z-index: 12433;
 			text-decoration: none !important;
 		}
@@ -670,7 +670,7 @@
 			background: no-repeat;
 			border-radius: 5px;
 			border: var(--classic-border);
-			background-color: var(--color-paladin-1);
+			background-color: var(--base-white-outline);
 		}
 		.mobile-ham {
 			display: flex;
@@ -693,7 +693,7 @@
 			border-radius: 5px;
 		}
 		.mobile-navbar {
-			background: var(--color-paladin-1);
+			background: var(--base-white-outline);
 			position: absolute;
 			z-index: 2314;
 		}

@@ -312,7 +312,7 @@
 	.keyboard button,
 	.keyboard button:disabled {
 		--size: min(8vw, 4vh, 40px);
-		background-color: var(--color-paladin-1, var(--white));
+		background-color: var(--base-white-outline, var(--white));
 		color: black;
 		width: var(--size);
 		border: none;

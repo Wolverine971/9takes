@@ -1,5 +1,5 @@
 ---
-title: "Palmer Luckey: An Enneagram 7, The Daring Dreamer"
+title: 'Palmer Luckey: An Enneagram 7, The Daring Dreamer'
 description: 'Explore the psychology of tech visionary Palmer Luckey through the lens of Enneagram Type 7. Discover how his personality fuels his bold innovations in VR and AI.'
 author: 'DJ Wayne'
 date: '2024-05-07'
@@ -39,7 +39,7 @@ tiktok:
 
 <p class="firstLetter">Palmer Luckey is a man driven by an insatiable hunger for new experiences and ideas.</p>
 
-He is an audacious innovator and he had a major hand in catapulting virtual reality into the mainstream. His rapid rise to tech stardom and penchant for risk-taking has left many wondering: what fuels this unconventional trailblazer? 
+He is an audacious innovator and he had a major hand in catapulting virtual reality into the mainstream. His rapid rise to tech stardom and penchant for risk-taking has left many wondering: what fuels this unconventional trailblazer?
 
 Here we explore the depths of Luckey's psyche through the lens of the Enneagram.
 
@@ -77,7 +77,7 @@ The $2B Facebook acquisition in 2014, pre-consumer product, testified to Luckey'
 
 This "leap before you look" boldness catapulted Luckey to overnight stardom. But for a 7, sudden success can be a double-edged sword, as we'll see in his post-Oculus drive to 1 in stress.
 
-## The Dark Side of the Enthusiast 
+## The Dark Side of the Enthusiast
 
 What happens when an Enneagram 7 like Palmer Luckey faces sudden constraints and setbacks?
 

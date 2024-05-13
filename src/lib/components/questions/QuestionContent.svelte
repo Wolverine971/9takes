@@ -443,7 +443,7 @@
 
 	.tab-links {
 		display: flex;
-		margin: 0.25rem;
+		margin: 0.5rem;
 		justify-content: center;
 		align-items: center;
 		width: 20%;
@@ -451,7 +451,8 @@
 
 	.tab-active {
 		width: 50%;
-		border: var(--classic-border) !important;
+		// border: var(--classic-border) !important;
+		border: 1px solid #f0f5f9 !important;
 		border-bottom: none !important;
 		border-radius: 5px 5px 0 0 !important;
 		margin-bottom: 0;
@@ -472,7 +473,6 @@
 		width: 100%;
 		overflow: hidden;
 		display: flex;
-		justify-content: space-evenly;
 	}
 
 	/* Style the buttons inside the tab */
@@ -482,14 +482,13 @@
 		border: none;
 		outline: none;
 		cursor: pointer;
-		padding: 1rem;
+		padding: 0.5rem;
 		transition: 0.3s;
 		font-size: 1rem;
 		border-radius: 5px;
 
 		&:hover {
-			background-color: var(--color-paladin-1);
-			border-radius: 5px;
+			background-color: var(--base-white-outline);
 		}
 	}
 
@@ -509,7 +508,6 @@
 	@media (max-width: 576px) {
 		.tabs {
 			width: 100%;
-			margin: 0.25rem;
 			gap: 0.25rem;
 		}
 		.tabs a {
@@ -531,18 +529,6 @@
 		.comments-card {
 			padding: 0.2rem !important;
 		}
-	}
-
-	@supports (scroll-snap-type) {
-		.slider > a {
-			display: none;
-		}
-	}
-
-	.slider {
-		width: 300px;
-		text-align: center;
-		overflow: hidden;
 	}
 
 	.slides {

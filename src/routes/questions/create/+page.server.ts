@@ -1,8 +1,12 @@
 import { redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
-import { PRIVATE_S3_BUCKET, PRIVATE_S3_ACCESS_KEY_ID, PRIVATE_S3_SECRET_ACCESS_KEY } from '$env/static/private';
-import { v4 as uuidv4 } from "uuid";
-import S3 from 'aws-sdk/clients/s3.js'
+import {
+	PRIVATE_S3_BUCKET,
+	PRIVATE_S3_ACCESS_KEY_ID,
+	PRIVATE_S3_SECRET_ACCESS_KEY
+} from '$env/static/private';
+import { v4 as uuidv4 } from 'uuid';
+import S3 from 'aws-sdk/clients/s3.js';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -88,28 +92,25 @@ export const actions: Actions = {
 
 		const Key = uuidv4();
 		try {
-			const buf = Buffer.from(
-				img_url.replace(/^data:image\/\w+;base64,/, ""),
-				"base64"
-			);
+			const buf = Buffer.from(img_url.replace(/^data:image\/\w+;base64,/, ''), 'base64');
 			const data = {
 				Bucket: PRIVATE_S3_BUCKET as string,
 				Key,
 				Body: buf,
-				ContentEncoding: "base64",
-				ContentType: "image/jpeg",
-				ACL: "public-read",
+				ContentEncoding: 'base64',
+				ContentType: 'image/jpeg',
+				ACL: 'public-read'
 			};
 			const s3 = await new S3({
 				accessKeyId: PRIVATE_S3_ACCESS_KEY_ID,
 				secretAccessKey: PRIVATE_S3_SECRET_ACCESS_KEY,
-				region: "us-east-1",
-			})
+				region: 'us-east-1'
+			});
 
 			s3.putObject(data).promise();
 		} catch (error) {
 			console.log(error);
-			throw new Error("error uploading image");
+			throw new Error('error uploading image');
 		}
 
 		const { data: user, error: userError } = await supabase

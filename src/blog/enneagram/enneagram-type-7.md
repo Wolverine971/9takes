@@ -107,7 +107,6 @@ Type 7s are primarily motivated by a desire to experience joy, excitement, and f
 
 "The Enthusiast" is driven by a fear of missing out on worthwhile experiences and a constant pursuit of stimulation and novelty. They seek to avoid feelings of boredom, pain, or limitation by continuously exploring new ideas, activities, and adventures. This motivation stems from an underlying belief that life should be enjoyed to the fullest and that happiness can be found through the acquisition of diverse experiences and knowledge. Type 7s are also motivated by a need to maintain a sense of freedom and autonomy, as they fear being trapped or constrained by mundane responsibilities or negative emotions.
 
-
 </section>
 
 <section class="section-content">
@@ -128,7 +127,7 @@ Finally, Type 7s may also fear experiencing difficult or painful emotions. They 
 
 <h2 id="stress">🤯 Enneagram 7s Under Stress</h2>
 
-Under stress, the usually spontaneous and fun-loving Type 7 may become uncharacteristically rigid, critical, and perfectionistic. 
+Under stress, the usually spontaneous and fun-loving Type 7 may become uncharacteristically rigid, critical, and perfectionistic.
 
 Their stress number is Type 1. <a href="/blog/enneagram/enneagram-type-1">Type 1s</a> are normally principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking.
 

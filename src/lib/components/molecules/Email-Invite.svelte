@@ -1,11 +1,11 @@
 <script lang="ts">
-	// import { goto } from '$app/navigation';
 	import { notifications } from './notifications';
 	import Envelope from '$lib/components/icons/envelope.svelte';
 
 	export let cta: string = '';
 	let email: string = '';
 	let error: string = '';
+	console.log(cta);
 
 	const submit = async () => {
 		if (!/\S+@\S+\.\S+/.test(email)) {

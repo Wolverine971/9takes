@@ -148,7 +148,6 @@ Does viewing Dua Lipa through the lens of the Enneagram Type 3 give you a deeper
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
-
 <svelte:head>
 
 <script type="application/ld+json">

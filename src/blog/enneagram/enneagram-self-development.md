@@ -48,7 +48,7 @@ Here are a few ways the Enneagram can support you in your self development journ
 
 ### Starting Conversations and Connecting with Others
 
-The Enneagram is a fantastic icebreaker when meeting new people. 
+The Enneagram is a fantastic icebreaker when meeting new people.
 
 Imagine you're at a party and someone asks about your Enneagram type. You share that you're a Type 2, the Helper, and suddenly you're bonding over your shared desire to support others and make a difference in the world. You might even discover that you have similar struggles with setting boundaries and taking care of your own needs.
 
@@ -66,7 +66,7 @@ Have you ever had a lightbulb moment when reading about your Enneagram type? May
 
 ### Practical Applications for Decision-Making
 
-Let's say you're a Type 6, the Loyalist, and you're faced with a big decision about whether to take a new job. 
+Let's say you're a Type 6, the Loyalist, and you're faced with a big decision about whether to take a new job.
 
 Your Enneagram knowledge can help you navigate this choice by reminding you to trust your own intuition and seek support from your inner circle. You might also realize that your fear of change is holding you back, and that stepping outside your comfort zone could lead to great opportunities.
 
@@ -74,13 +74,11 @@ Your Enneagram knowledge can help you navigate this choice by reminding you to t
 
 ### Recognizing when you are stressed and doing well
 
-Picture this: you're a Type 1, the Reformer, and you've been working tirelessly on a project for weeks. 
+Picture this: you're a Type 1, the Reformer, and you've been working tirelessly on a project for weeks.
 
 Suddenly, you find yourself snapping at your colleagues and feeling overwhelmed by the smallest tasks. This could be a sign that you're in your <a href="enneagram-stress-number">stress number</a>, Type 4, and need to take a step back and practice self-care.
 
 **Tip**: Familiarize yourself with your type's stress and comfort numbers, and pay attention to the signs that you might be shifting into one of these modes. Develop a toolkit of self-care practices that can help you navigate these transitions with grace.
-
-
 
 ### Develop emotional awareness
 
@@ -93,7 +91,6 @@ As a Type 9, the Peacemaker, you might have a tendency to avoid conflict and sup
 Imagine you're a Type 3, the Achiever, and you've been working tirelessly to earn a promotion at work. When you finally receive the good news, you feel a sense of emptiness rather than joy. This could be a sign that your underlying goal of success and recognition is out of alignment with your authentic self.
 
 **Tip**: Take some time to reflect on your deepest goals and fears, and consider whether they are serving your highest good. Are you chasing after external validation or staying true to your own values and desires?
-
 
 ## Conclusion
 

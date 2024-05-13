@@ -54,7 +54,7 @@ The Loyalist's core emotion is fear. They are constantly on the lookout for pote
 
 <h2>Enneagram 6 Description</h2>
 
-Type 6's are often described as responsible, reliable, and hardworking. 
+Type 6's are often described as responsible, reliable, and hardworking.
 
 They are highly committed to their responsibilities and are driven to fulfill their obligations. They are also known for their ability to handle stress and adversity and their ability to think strategically. Type 6s are also known for their desire for stability and security in their personal and professional lives.
 
@@ -71,7 +71,7 @@ The Enneagram Type 6 personality has several core traits that define their world
 
 <h2 id="strengths">💪 Strengths of an Enneagram 6</h2>
 
-One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities. 
+One of the key strengths of the Type 6 is their ability to be loyal and dedicated to their responsibilities.
 
 They are highly committed to their obligations and are driven to fulfill them. Type 6s are also known for their ability to handle stress and adversity. They can think strategically and make difficult decisions in times of crisis. Additionally, Type 6s can often see multiple perspectives and think critically.
 
@@ -94,7 +94,6 @@ One of the primary weaknesses of Type 6s is their tendency to be overly anxious 
 They often anticipate the worst-case scenario and spend a significant amount of time worrying about potential dangers or threats, even when there may be no rational basis for their concerns. This constant state of anxiety can lead to indecisiveness, as they struggle to trust their own judgment and may seek excessive reassurance from others.
 
 Their skepticism and doubt can make it challenging for them to build trust in relationships, as they may question the motives and intentions of others.
-
 
 </section>
 

@@ -38,7 +38,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 
 > **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
 
-<p class="firstLetter">You've seen her eclectic outfits, heard her haunting voice, and most likely, you've felt the emotional depth in her music.</p> 
+<p class="firstLetter">You've seen her eclectic outfits, heard her haunting voice, and most likely, you've felt the emotional depth in her music.</p>
 
 Billie Eilish, the Grammy Award-winning artist, is an enigma wrapped in a riddle. Today, we traverse the landscape of her personality through the perspective of Enneagram Type 4 - The Individualist.
 
@@ -74,7 +74,7 @@ Billie's music often explores heartbreak, mental health, and the human experienc
 
 ## Billie's Inner World
 
-Billie has never shied away from expressing her emotions through her music or her advocacy for mental health. 
+Billie has never shied away from expressing her emotions through her music or her advocacy for mental health.
 
 This emotional honesty is a hallmark of Enneagram Type 4. They are known for their willingness to explore their emotions and share their findings, however dark or uncomfortable.
 
@@ -100,7 +100,7 @@ A characteristic of Enneagram Type 4 individuals is that they are comfortable ex
 
 ## She is not afraid to get sad
 
-Billie Eilish often explores sadness in her music too. 
+Billie Eilish often explores sadness in her music too.
 
 In her song, she sings, “I could lie, say I like it like that,” hinting that sometimes it's easier to pretend things are fine. This mirrors Enneagram Type 4 individuals who might hide their true feelings. Billie has faced depression, which she reflects in her songs. Her music allows her and her listeners to navigate these heavy feelings together. For instance, the somber tunes and honest lyrics in her song "When The Party's Over" allow listeners to enter her emotional world, showcasing how Billie turns her sadness into shared understanding through her music.
 
@@ -145,7 +145,7 @@ In her song, she sings, “I could lie, say I like it like that,” hinting that
 
 ## Wrapping Up
 
-Billie Eilish, through her music takes us on a journey through her feelings, both good and bad. 
+Billie Eilish, through her music takes us on a journey through her feelings, both good and bad.
 
 She has struggled with finding who she is, much like a Type 4 person often does. Her music, filled with raw emotions, lets us see into her heart, making her stand out in the crowd. Even in dark times, she finds a way to share her feelings through her songs. Billie’s story is like a lesson for all of us. It tells us it's okay to be different, to feel deeply, and to share our true selves with the world, just like she does.
 

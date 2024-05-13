@@ -49,10 +49,7 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/65Yh_nmoXbw?si=09VGH3i9u7O_gxfk&amp;start=281" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 <svelte:head>
 
@@ -63,7 +60,5 @@ tiktok: ''
 </svelte:head>
 
 <style lang="scss"></style>
-
-
 
 https://www.reddit.com/r/Enneagram/comments/t6qa7s/amy_poehler_discussing_enneagram_on_late_night/

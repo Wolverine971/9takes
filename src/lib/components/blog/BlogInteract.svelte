@@ -138,7 +138,7 @@
 		on:click={() => share()}
 	>
 		Share Blog
-		<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={''} />
+		<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'#444'} />
 	</button>
 </div>
 

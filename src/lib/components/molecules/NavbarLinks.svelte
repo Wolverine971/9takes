@@ -114,7 +114,7 @@
 		background: no-repeat;
 		border-radius: 5px;
 		border: var(--classic-border);
-		background-color: var(--color-paladin-1);
+		background-color: var(--base-white-outline);
 	}
 
 	.mobile-card {
@@ -182,7 +182,7 @@
 	.subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--color-paladin-1);
+		background-color: var(--base-white-outline);
 		flex-direction: column;
 		left: 100%;
 		z-index: 1234;
@@ -195,7 +195,7 @@
 	}
 
 	.subnav-content a:hover {
-		background-color: var(--color-paladin-1);
+		background-color: var(--base-white-outline);
 		color: var(--color-paladin-3);
 		z-index: 1234;
 	}
@@ -236,7 +236,7 @@
 	.main-subnav-content {
 		display: none;
 		position: absolute;
-		background-color: var(--color-paladin-1);
+		background-color: var(--base-white-outline);
 		flex-direction: column;
 		z-index: 1234;
 	}
@@ -248,7 +248,7 @@
 	}
 
 	.main-subnav-content a:hover {
-		background-color: var(--color-paladin-1);
+		background-color: var(--base-white-outline);
 		color: var(--color-paladin-3);
 		z-index: 1234;
 	}

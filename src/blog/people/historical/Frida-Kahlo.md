@@ -40,7 +40,6 @@ tiktok: ''
 
 <p class="firstLetter">Frida Kahlo, the Mexican artist, is known for her unique and powerful artistic style that reflected her innermost emotions and experiences. Her art was a reflection of her life, and her life was a reflection of her Enneagram Type 4 personality, the Individualist.</p>
 
-
 ## Emotional Depth
 
 Enneagram Type 4s are known for their emotional depth, sensitivity, and intensity. Frida Kahlo was no exception, and her art was a testament to her emotional range and complexity. Her paintings were deeply personal and often depicted her physical pain, emotional turmoil, and struggles with identity.

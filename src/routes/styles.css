@@ -40,6 +40,12 @@
 
 	color: var(--color-text);
 	font-family: var(--font-family);
+
+	--base-white-outline: #f0f5f9;
+
+	--base-grey-0: #d8d8d8;
+	--base-grey-1: #d4d4d4;
+	--base-grey-2: #cacaca;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -57,7 +63,7 @@
 
 body {
 	margin: 0;
-	background-color: var(--body-color);
+	background-color: var(--base-grey-0);
 
 	/* #d5b7a72e; */
 	/* #fff4ea; */
@@ -161,16 +167,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 details {
-	border-top: 2px solid var(--color-paladin-2);
 	border-top: 2px solid var(--color-theme-purple-v);
 	border-right: 2px solid transparent;
 	border-bottom: 2px solid transparent;
-	border-left: 2px solid var(--color-paladin-2);
 	border-left: 2px solid var(--color-theme-purple-v);
 }
 
 details:hover {
-	border: 2px solid var(--color-paladin-2);
 	border: 2px solid var(--color-theme-purple-v);
 }
 
@@ -199,9 +202,10 @@ figcaption {
 }
 
 .panel {
-	background-color: #f0f5f9;
-	background-color: var(--color-paladin-1, white);
-	padding: 18px;
+	background-color: var(--base-grey-0);
+	/* background-color: var(--base-white-outline, white); */
+	border-radius: 10px;
+	padding: 1rem;
 	overflow: hidden;
 }
 
@@ -224,7 +228,6 @@ article {
 }
 
 .accordion:hover {
-	background-color: var(--color-paladin-2);
 	background-color: var(--color-theme-purple-v);
 	color: #000;
 	color: var(--color-theme-purple);
@@ -352,9 +355,9 @@ textarea {
 	transition: 0.3s;
 	margin: 0 0 0.25rem 0.25rem;
 	outline: none;
-	border: 1px solid var(--color-paladin-1);
+	border: 1px solid var(--base-white-outline);
 	border-radius: 5px;
-	background-color: var(--color-paladin-1);
+	background-color: var(--base-white-outline);
 	cursor: pointer;
 	font-size: 0.75rem;
 }
@@ -381,6 +384,8 @@ textarea {
 	border-radius: 5px;
 	padding: 1rem;
 	width: 100%;
+	background-color: var(--base-grey-2);
+	border: 1px solid var(--base-white-outline) !important;
 }
 
 .shimmer-button {
@@ -467,7 +472,7 @@ textarea {
 }
 
 .noticia-text-regular {
-	font-family: "Noticia Text", serif !important;
+	font-family: 'Noticia Text', serif !important;
 	font-weight: 400;
 	font-style: normal;
-  }
+}

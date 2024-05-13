@@ -55,22 +55,20 @@
 {#if size === 'large'}
 	<button
 		type="button"
-		class="btn btn-primary sort-btn"
+		class="btn btn-primary sort-btn summary-display"
 		on:click={() => {
 			open = !open;
 			if (open) getModal('sorter').open();
 			else getModal('sorter').close();
 		}}
 	>
-		<div class="summary-display">
-			<SlidersIcon
-				iconStyle={'padding: 0.25rem; margin: .5rem'}
-				height={'1.5rem'}
-				fill={open ? '#5407d9' : ''}
-			/>
+		<SlidersIcon
+			iconStyle={'padding: 0.25rem; margin: .5rem'}
+			height={'1.5rem'}
+			fill={open ? '#5407d9' : '#444'}
+		/>
 
-			Filter Comments
-		</div>
+		Filter Comments
 	</button>
 {:else}
 	<button
@@ -85,7 +83,7 @@
 		<SlidersIcon
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
-			fill={open ? '#5407d9' : ''}
+			fill={open ? '#5407d9' : '#444'}
 		/>
 	</button>
 {/if}
@@ -140,32 +138,11 @@
 		margin: 0.5rem;
 		padding: 0 0.5rem;
 		border-radius: 5px;
+		border: 1px solid var(--base-white-outline);
 
 		&:hover {
-			background-color: var(--color-paladin-1);
+			background-color: var(--base-white-outline);
 		}
-	}
-
-	.sort-btn button {
-		background-color: var(--color-paladin-1);
-		// float: left;
-		border: 1px solid var(--color-theme-purple-v);
-		outline: none;
-		cursor: pointer;
-		padding: 0.5rem 2rem 0.5rem;
-		transition: 0.3s;
-		font-size: 0.75rem;
-		border-radius: 5px;
-		display: flex;
-		margin: 0 0 0.5rem 0.5rem;
-		justify-content: center;
-		align-items: center;
-	}
-
-	/* Change background color of buttons on hover */
-	.sort-btn button:hover {
-		// background-color: var(--color-paladin-1);
-		border-radius: 5px;
 	}
 
 	@media (max-width: 576px) {

@@ -155,27 +155,6 @@ cwebp "background3.png" -o "background3.webp"
 
 -->
 <style lang="scss">
-	.slide-name {
-		text-align: center;
-		position: absolute;
-		color: var(--color-paladin-1);
-		font-size: xx-large;
-		font-size: xxx-large;
-		z-index: 1345;
-		left: 0;
-		right: 0;
-		top: 90%;
-		bottom: 0;
-		margin: auto auto;
-	}
-
-	body {
-		align-items: center;
-		display: flex;
-		height: 100vh;
-		justify-content: center;
-	}
-
 	@mixin white-gradient {
 		background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
 	}

@@ -10,7 +10,7 @@
 	import QRCode from 'qrcode';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { toPng } from 'html-to-image'
+	import { toPng } from 'html-to-image';
 
 	let question: string = '';
 
@@ -46,7 +46,7 @@
 	const createQuestion = async () => {
 		try {
 			loading = true;
-			const questionNode = document.getElementById('question-pic')
+			const questionNode = document.getElementById('question-pic');
 			var body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 			body.append('author_id', data?.session?.user?.id.toString() || '');
@@ -54,8 +54,8 @@
 			body.append('url', url);
 
 			let png = await toPng(questionNode).then((dataUrl) => {
-				return dataUrl
-			})
+				return dataUrl;
+			});
 			body.append('img_url', png);
 			const resp = await fetch('?/createQuestion', {
 				method: 'POST',
@@ -180,7 +180,6 @@
 		padding: 0.5rem;
 		border: var(--classic-border);
 		border-radius: 5px;
-	
 	}
 	.disabled {
 		background-color: lightgray;

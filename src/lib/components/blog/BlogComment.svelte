@@ -109,7 +109,7 @@
 					fill={'#5407d9'}
 					type={'multiple'}
 				/>
-				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
+				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'#444'} />
 			{/if}
 		</button>
 	{/if}

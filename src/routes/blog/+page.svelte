@@ -37,23 +37,4 @@
 		margin: 0;
 		padding: 0;
 	}
-	.btn-container-right {
-		display: flex;
-		justify-content: flex-end;
-	}
-	.view-btn {
-		margin: 1rem 0 1rem 1rem;
-		cursor: pointer;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 3rem;
-		width: 3rem;
-		// margin-left: auto;
-		border: var(--classic-border);
-		border-radius: 5px;
-	}
-	.view-btn:hover {
-		background-color: var(--color-paladin-2);
-	}
 </style>

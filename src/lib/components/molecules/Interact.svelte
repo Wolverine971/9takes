@@ -143,7 +143,6 @@
 
 	let wrap = 1;
 
-	
 	onMount(() => {
 		let textAreas = document.getElementsByTagName('textarea');
 
@@ -163,7 +162,7 @@
 	<button
 		title="Comment"
 		class="corner-btn"
-		style="padding: 0.25rem; {parentType === 'question' ? 'width: 8rem;' : ''}"
+		style="margin-left: 0; padding: 0.25rem; {parentType === 'question' ? 'width: 8rem;' : ''}"
 		on:click={() => (commenting = !commenting)}
 	>
 		<MasterCommentIcon
@@ -175,7 +174,14 @@
 	</button>
 
 	{#if parentType === 'question'}
-		<button title="Subscribe" class="corner-btn" style={'padding: 0.25rem;'} on:click={subscribe}>
+		<button
+			title={subscriptions && user?.id && subscriptions.some((e) => e.user_id === user.id)
+				? 'Subscribed'
+				: 'Subscribe'}
+			class="corner-btn"
+			style={'padding: 0.25rem;'}
+			on:click={subscribe}
+		>
 			<BellIcon
 				iconStyle={'padding: 0.25rem;'}
 				height={'1.5rem'}
@@ -183,7 +189,7 @@
 					user?.id &&
 					subscriptions.some((e) => e.user_id === user.id) &&
 					'#5407d9') ||
-					''}
+					'#444'}
 			/>
 		</button>
 		<button title="Share" class="corner-btn" on:click={() => share()}>
@@ -320,7 +326,7 @@ interface QuestionObject {
 		padding: 0.25rem;
 
 		&:hover {
-			background-color: var(--color-paladin-2);
+			background-color: var(--base-white-outline);
 		}
 	}
 
@@ -345,6 +351,8 @@ interface QuestionObject {
 
 		/* Firefox shows scrollbar on growth, you can hide like this. */
 		overflow: hidden;
+
+		margin: 0.25rem 0;
 	}
 	.interact-text-container > textarea,
 	.interact-text-container::after {

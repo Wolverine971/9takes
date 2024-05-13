@@ -160,9 +160,9 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 
 <h2 id="relationships">👫 An Enneagram 4 in relationships</h2>
 
-Type 4 individuals have intense relationships. 
+Type 4 individuals have intense relationships.
 
-They seek deep emotional connection and authenticity with their partners.  They are often highly attuned to their emotions and may feel a strong need to express themselves in their relationships.
+They seek deep emotional connection and authenticity with their partners. They are often highly attuned to their emotions and may feel a strong need to express themselves in their relationships.
 
 Type 4s are known for their creativity and passion, which can make them deeply attractive to partners. They may use their artistic talents to woo and impress their loved ones or express their emotions through heartfelt gestures or poetry. However, they can also be prone to moodiness and may withdraw or become distant if they feel misunderstood or unappreciated.
 

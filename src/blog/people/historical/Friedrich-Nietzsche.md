@@ -40,7 +40,7 @@ tiktok: ''
 
 > **Disclaimer** This analysis of Friedrich Nietzsche's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Friedrich Nietzsche.
 
-<p class="firstLetter">"He who has a why to live can bear almost any how."</p> 
+<p class="firstLetter">"He who has a why to live can bear almost any how."</p>
 
 You've come across his quotes, skimmed his writings, or at least heard his name mentioned in philosophical circles. Friedrich Nietzsche, a towering figure in the world of philosophy, continues to shape our understanding of existence and morality centuries after his death. But what if we tell you there's another layer to Nietzsche that remains largely unexplored? An enigmatic enneagram Type 5.
 

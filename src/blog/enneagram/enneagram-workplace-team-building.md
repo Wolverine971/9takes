@@ -82,10 +82,9 @@ The Enneagram provides valuable insights into each type's ideal work environment
 
 In addition to the physical workspace, the emotional and interpersonal atmosphere is crucial for team success. The Enneagram helps leaders create a culture that brings out the best in each team member by catering to their individual needs and preferences.
 
-
 ## Ideal Work Environment for Each Enneagram Type
 
-Understanding the ideal work environment for each Enneagram type can help organizations create a more supportive and inclusive workplace culture. 
+Understanding the ideal work environment for each Enneagram type can help organizations create a more supportive and inclusive workplace culture.
 
 For example, an Enneagram Type 1 may thrive in a structured and organized environment, while an Enneagram Type 7 may prefer a more flexible and creative work environment. By tailoring the work environment to each employee's personality type, organizations can create a more engaged and motivated workforce.Here are some examples of the ideal work environment for each Enneagram type:
 

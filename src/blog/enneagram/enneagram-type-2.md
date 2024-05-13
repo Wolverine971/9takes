@@ -23,7 +23,7 @@ blog: true
 
 <p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
 
-Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls. 
+Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls.
 
 Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
 
@@ -72,7 +72,7 @@ Type 2s are warm, caring, and nurturing, often supporting their communities and 
 
 <h2 id="strengths">💪 Strengths of an Enneagram 2</h2>
 
-Type 2 individuals possess several strengths that make them valuable team or community members. 
+Type 2 individuals possess several strengths that make them valuable team or community members.
 
 These include:
 
@@ -95,7 +95,7 @@ These include:
 
 <h2 id="weaknesses">🤔 Weaknesses/ Challenges of an Enneagram 2</h2>
 
-While Type 2 individuals possess many strengths, they also face several challenges. 
+While Type 2 individuals possess many strengths, they also face several challenges.
 
 These include:
 
@@ -135,7 +135,7 @@ They seek to find their self-worth through the validation of others. The Helper 
 
 <h2 id="stress">🤯 Enneagram 2s Under Stress</h2>
 
-The usually caring and accommodating Type 2 under stress may become uncharacteristically aggressive, domineering, and confrontational. 
+The usually caring and accommodating Type 2 under stress may become uncharacteristically aggressive, domineering, and confrontational.
 
 Their stress number is Type 8. <a href="/blog/enneagram/enneagram-type-8">Type 8s</a> are normally powerful, assertive, and confrontational. When they're under stress, they become more aggressive and controlling, as well as overprotective and demanding of others.
 
@@ -172,7 +172,7 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 
 <h2 id="relationships">👫 An Enneagram 2 in relationships</h2>
 
-Type 2 personalities are highly social and enjoy connecting with others. 
+Type 2 personalities are highly social and enjoy connecting with others.
 
 They are warm and friendly, with a natural charisma that draws people to them. They have a gift for creating deep and meaningful connections and thrive in social settings.
 

@@ -49,7 +49,6 @@ tiktok: ''
 
 <p class="firstLetter">Meryl Streep has captivated audiences for decades.</p>
 
-
 But behind the iconic roles and accolades lies a complex personality driven by a deep sense of empathy and a desire to make a difference. Today, we'll explore Streep's inner world through the lens of the Enneagram, a powerful personality typing system.
 
 ## What is Meryl Streep's Personality Type?
@@ -60,7 +59,7 @@ Enneagram Type 2s, also known as "The Helper," are characterized by their empath
 
 ## Meryl Streep's Upbringing
 
-Born in 1949 in Summit, New Jersey, Streep grew up in a family that valued creativity and self-expression. 
+Born in 1949 in Summit, New Jersey, Streep grew up in a family that valued creativity and self-expression.
 
 Her mother, Mary Streep, was a commercial artist and art editor, while her father, Harry Streep Jr., was a pharmaceutical executive. Streep's early exposure to the arts and her supportive family environment likely contributed to her emotional intelligence and empathy.
 
@@ -68,7 +67,7 @@ Her mother, Mary Streep, was a commercial artist and art editor, while her fathe
 
 ## Rise to Fame
 
-Streep's big break came in 1978 with her role in "The Deer Hunter," for which she received her first Academy Award nomination. 
+Streep's big break came in 1978 with her role in "The Deer Hunter," for which she received her first Academy Award nomination.
 
 Her portrayal of a woman torn between two lovers showcased her ability to convey complex emotions and vulnerability. This role set the stage for a career defined by versatility and emotional depth.
 
@@ -94,10 +93,9 @@ Streep's performance showcases her range as an actress and her ability to bring 
 
 ### The Iron Lady (2011)
 
-In "The Iron Lady," Streep takes on the role of former British Prime Minister Margaret Thatcher. 
+In "The Iron Lady," Streep takes on the role of former British Prime Minister Margaret Thatcher.
 
 Thatcher was known for her steely determination and uncompromising leadership style. However, Streep's performance revealed the vulnerability and emotional depth beneath Thatcher's tough exterior. As a Type 2, Streep's ability to tap into Thatcher's emotional world is a testament to her empathy and understanding of human nature.
-
 
 ## Drama and Controversies
 
@@ -119,7 +117,7 @@ Today, Streep continues to use her platform to advocate for causes close to her 
 
 ## Conclusion
 
-Meryl Streep's journey from a young actress to a Hollywood icon is a testament to her talent, dedication, and empathetic spirit. 
+Meryl Streep's journey from a young actress to a Hollywood icon is a testament to her talent, dedication, and empathetic spirit.
 
 As an Enneagram Type 2, her ability to connect with others and bring emotional depth to her roles has made her one of the most beloved and respected actresses of our time. As she continues to use her platform for good, one can't help but wonder: what inspiring roles and activism will Meryl Streep take on next?
 

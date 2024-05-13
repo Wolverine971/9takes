@@ -23,7 +23,6 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 
 <!-- todo update -->
 
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -41,7 +40,7 @@ tiktok: 'https://www.tiktok.com/discover/Oprah-Winfrey'
 
 > **Disclaimer** This analysis of Oprah Winfrey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Oprah Winfrey.
 
-<p class="firstLetter">She's one of the most influential figures of our time.</p> 
+<p class="firstLetter">She's one of the most influential figures of our time.</p>
 
 Oprah Winfrey is a beacon of empathy, support, and heart-centered leadership and has crafted a legacy that transcends boundaries. Today, we're going to dig deep into the Enneagram personality framework to provide a fresh perspective on this global icon. The hypothesis? Oprah Winfrey is an embodiment of Enneagram Type 2 - The Helper.
 
@@ -53,7 +52,7 @@ Through her globally renowned talk show, Oprah cultivated an environment where p
 
 ## The Balance Between Desire and Impact
 
-Oprah's Type 2 tendencies also become apparent when you observe her philanthropic endeavors. 
+Oprah's Type 2 tendencies also become apparent when you observe her philanthropic endeavors.
 
 From the Oprah Winfrey Leadership Academy for Girls in South Africa to her numerous donations to causes close to her heart, the motivation behind her actions is fundamentally rooted in helping others and making a positive impact.
 

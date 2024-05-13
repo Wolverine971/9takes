@@ -235,11 +235,10 @@ export async function GET() {
 	</url>
 
 	  ${posts
-				.map(
-					(post) => {
-						if (post.loc.includes('famous-enneagram-types')) {
-							if (post.person && post.enneagram) {
-								return `		
+			.map((post) => {
+				if (post.loc.includes('famous-enneagram-types')) {
+					if (post.person && post.enneagram) {
+						return `		
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -249,22 +248,26 @@ export async function GET() {
 			<image:loc>https://9takes.com/types/${post.enneagram}s/${post.person}.webp</image:loc>
 		</image:image>
 	  </url>
-	  `
-							} else {
-								return `
+	  `;
+					} else {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
 	    <changefreq>${post.changefreq}</changefreq>
 	    <priority>0.7</priority>
 	  </url>
-	  `
-							}
-						}
+	  `;
+					}
+				}
 
-						if (post.loc.includes('enneagram') || post.loc.includes('guides') || post.loc.includes('community')) {
-							if (post.pic) {
-								return `
+				if (
+					post.loc.includes('enneagram') ||
+					post.loc.includes('guides') ||
+					post.loc.includes('community')
+				) {
+					if (post.pic) {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -274,30 +277,29 @@ export async function GET() {
 			<image:loc>https://9takes.com/blogs/${post.pic}.webp</image:loc>
 		</image:image>
 	  </url>
-	  `
-							} else {
-								return `
+	  `;
+					} else {
+						return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
 	    <changefreq>${post.changefreq}</changefreq>
 	    <priority>0.7</priority>
 	  </url>
-	  `
-							}
-						} else {
-							return `
+	  `;
+					}
+				} else {
+					return `
 							<url>
 							  <loc>${post.loc}</loc>
 							  <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
 							  <changefreq>${post.changefreq}</changefreq>
 							  <priority>0.7</priority>
 							</url>
-							`
-						}
-					}
-				)
-				.join('')}
+							`;
+				}
+			})
+			.join('')}
 
 	</urlset>`.trim(),
 		{

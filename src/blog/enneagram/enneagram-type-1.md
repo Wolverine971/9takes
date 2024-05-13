@@ -144,9 +144,9 @@ Here are some of the typical motivations of Type 1 personalities:
 
 <h2 id="stress">🤯 Enneagram 1s Under Stress</h2>
 
-Under stress, the typically rational and principled Type 1 may become uncharacteristically emotional, moody, and self-absorbed. 
+Under stress, the typically rational and principled Type 1 may become uncharacteristically emotional, moody, and self-absorbed.
 
-Their stress number is <a href="/blog/enneagram/enneagram-type-4">Type 4s</a>. Type 4s are normally creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions. 
+Their stress number is <a href="/blog/enneagram/enneagram-type-4">Type 4s</a>. Type 4s are normally creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions.
 
 They may feel a sense of despair and hopelessness, focusing on their own perceived flaws and shortcomings, which can lead to intense feelings of shame and worthlessness. The stressed Type 1 might become more withdrawn and introspective, dwelling on their negative emotions and struggling to find meaning or purpose in their lives. They may also become more critical of themselves and others, expressing their dissatisfaction through biting sarcasm or cynical remarks.
 
@@ -236,7 +236,7 @@ By embracing these strategies, Type 1 individuals can navigate their challenges 
 
 <h2 id="experience">🤝 Enneagram One's sharing their experience</h2>
 
-In this Enneagram panel moderated by Beatrice Chestnut, a group of experienced Type 1s discuss the unique patterns and challenges of their personality type. 
+In this Enneagram panel moderated by Beatrice Chestnut, a group of experienced Type 1s discuss the unique patterns and challenges of their personality type.
 
 Key insights include:
 

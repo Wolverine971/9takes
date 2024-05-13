@@ -5,7 +5,7 @@
 	import type { PageData } from './$types';
 	import QRCode from 'qrcode';
 	import { invalidateAll } from '$app/navigation';
-	
+
 	/** @type {import('./$types').PageData} */
 	export let data: PageData;
 
@@ -26,8 +26,8 @@
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: '#5407d9',
-			light: ''
+			dark: '',
+			light: '#c1c0c036'
 		}
 	};
 
@@ -107,22 +107,24 @@
 		}
 	};
 	let innerWidth = 0;
-	const title = `9takes | ${data.question.question_formatted || data.question.question}`
-	const description = `9takes Question | ${data.question.question_formatted || data.question.question}`
-	const slug = data.question.url
-	const url = `https://9takes.com/questions/${slug}`
-	const imgUrl = data.question?.img_url ? `https://9takes.s3.amazonaws.com/${data.question.img_url }` : `https://9takes.com/blogs/looking-at-questions.webp`
-	console.log(data.question)
+	const title = `9takes | ${data.question.question_formatted || data.question.question}`;
+	const description = `Get at least 9 different takes on a question`;
+	const slug = data.question.url;
+	const url = `https://9takes.com/questions/${slug}`;
+	const imgUrl = data.question?.img_url
+		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
+		: `https://9takes.com/blogs/looking-at-questions.webp`;
+	console.log(data.question);
 	const questionObject = {
-		"@context": "https://schema.org",
-		"@type": "QAPage",
-		"mainEntity": {
-		  "@type": "Question",
-		  "name": data.question.question_formatted,
-		  "answerCount": data.question.comment_count,
-		  "dateCreated": data.question.created_at,
+		'@context': 'https://schema.org',
+		'@type': 'QAPage',
+		mainEntity: {
+			'@type': 'Question',
+			name: data.question.question_formatted,
+			answerCount: data.question.comment_count,
+			dateCreated: data.question.created_at
 		}
-	}
+	};
 	const questionJsonLd = JSON.stringify(questionObject);
 </script>
 
@@ -151,70 +153,71 @@
 	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
+<!-- <img src="https://9takes.com/blogs/looking-at-questions.webp" alt=""> -->
 <div class="question-area-box">
-<!-- Question always renders -->
-<article itemscope itemtype="https://schema.org/Question" >
-	<!-- <section>
+	<!-- Question always renders -->
+	<article itemscope itemtype="https://schema.org/Question">
+		<!-- <section>
 		
 	</section> -->
-	<div>
-		<div style="display: flex; justify-content: center; align-items:center;">
-			<h1
-				class="question-box noticia-text-regular"
-				id="question-box"
-				style="overflow:hidden; font-size: {calcSize(data.question.question)}"
-				style:--tag={`h-question-${data.question.id}`}
-				itemprop="name"
-			>
-				{data.question.question_formatted || data.question.question}
-			</h1>
-			<img
-				id="qr-image"
-				src=""
-				alt="QR Code"
-				class="qr-image-border"
-				style="width: {innerWidth > 400 ? '20%' : '30%'};"
+		<div>
+			<div style="display: flex; justify-content: center; align-items:center;">
+				<h1
+					class="question-box noticia-text-regular"
+					id="question-box"
+					style="overflow:hidden; font-size: {calcSize(data.question.question)}"
+					style:--tag={`h-question-${data.question.id}`}
+					itemprop="name"
+				>
+					{data.question.question_formatted || data.question.question}
+				</h1>
+				<img
+					id="qr-image"
+					src=""
+					alt="QR Code"
+					class="qr-image-border"
+					style="width: {innerWidth > 400 ? '20%' : '30%'};"
+				/>
+			</div>
+
+			<!-- oninput="auto_grow(this)" -->
+			<!-- {data.question.question} -->
+			<Interact
+				{data}
+				questionId={data.question.id}
+				parentType={'question'}
+				on:commentAdded={({ detail }) => addComment(detail)}
+				user={data?.session?.user}
 			/>
 		</div>
-
-		<!-- oninput="auto_grow(this)" -->
-		<!-- {data.question.question} -->
-		<Interact
-			{data}
-			questionId={data.question.id}
-			parentType={'question'}
-			on:commentAdded={({ detail }) => addComment(detail)}
-			user={data?.session?.user}
-		/>
-	</div>
-</article>
-<aside class="aside-outline">
-	{#if data.questionTags}
-		{#if innerWidth > 1200}
-			<h3 class="tags-heading">Related question <br />categories</h3>
+	</article>
+	<aside class="aside-outline">
+		{#if data.questionTags}
+			{#if innerWidth > 1200}
+				<h3 class="tags-heading">Related question <br />categories</h3>
+			{/if}
+			{#each data.questionTags as tag}
+				<a
+					href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
+					class="tag"
+					style="text-decoration: none; color: hsl(222, 15%, 19%);"
+					rel="tag"
+				>
+					{tag.question_tag.tag_name}
+				</a>
+			{/each}
 		{/if}
-		{#each data.questionTags as tag}
-			<a
-				href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
-				class="tag"
-				style="text-decoration: none; color: hsl(222, 15%, 19%);"
-				rel="tag"
-			>
-				{tag.question_tag.tag_name}
-			</a>
-		{/each}
-	{/if}
-</aside>
+	</aside>
 
-{#if dataForChild}
-	<QuestionContent
-		data={dataForChild}
-		user={data?.session?.user}
-		on:commentAdded={({ detail }) => {
-			invalidateAll();
-		}}
-	/>
-{/if}
+	{#if dataForChild}
+		<QuestionContent
+			data={dataForChild}
+			user={data?.session?.user}
+			on:commentAdded={({ detail }) => {
+				invalidateAll();
+			}}
+		/>
+	{/if}
 </div>
 
 <style lang="scss">
@@ -222,13 +225,17 @@
 		border: var(--classic-border);
 		margin: 0.5rem;
 		border-radius: 5px;
+		padding: 0.2rem;
+		background-color: var(--base-grey-2);
+		background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
 	}
 	.question-box {
+		// remove update
 		width: -webkit-fill-available;
 		border-radius: 5px;
 		// height: 24px;
 		// padding: 0.5rem 1rem;
-		color: hsl(222, 15%, 19%);
+		color: var(--color-paladin-4);
 		font-size: 1.2rem;
 		// box-sizing: content-box;
 
@@ -256,7 +263,7 @@
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
-			background-color: var(--color-paladin-2);
+			background-color: var(--base-white-outline);
 		}
 	}
 	aside {
@@ -264,6 +271,7 @@
 		right: 0;
 		display: flex;
 		overflow: auto;
+		background-color: var(--base-grey-1);
 	}
 
 	@media (min-width: 1200px) {
