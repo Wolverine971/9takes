@@ -20,8 +20,7 @@
 	--grey-200-hex: 213, 215, 219;
 	--grey-100-hex: 232, 234, 237;
 	--color-p-light-rgb: #cf0000;
-	--color-paladin-1: #f0f5f9;
-	--color-paladin-2: #c9d6df;
+	--base-grey-2: #c9d6df;
 	--color-paladin-3: #52616b;
 	--color-paladin-4: #444;
 	--color-paladin-5: #1e2922;
@@ -31,7 +30,7 @@
 	--column-margin-top: 4rem;
 	--spacing-unit: 5px;
 	--font-size: 16px;
-	--hover-background-cover: var(--color-paladin-1);
+	--hover-background-cover: var(--base-white-outline);
 
 	--white: #30303030;
 	--black: #303030;
@@ -44,7 +43,7 @@
 	--base-white-outline: #f0f5f9;
 
 	--base-grey-0: #d8d8d8;
-	--base-grey-1: #d4d4d4;
+	--base-grey-1: #d4d4d4; 
 	--base-grey-2: #cacaca;
 }
 
@@ -150,11 +149,11 @@ body::-webkit-scrollbar-thumb {
 .txt-white {
 	text-shadow: 1px 1px 1px #000;
 	color: var(--white);
-	color: var(--color-paladin-1);
+	color: var(--base-white-outline);
 }
 
 .txt-dark {
-	text-shadow: 1px 1px 1px var(--color-paladin-2);
+	text-shadow: 1px 1px 1px var(--base-grey-2);
 	text-shadow: 1px 1px 1px var(--color-theme-purple-v);
 	color: #52616b;
 	color: var(--color-paladin-3);
@@ -364,9 +363,9 @@ textarea {
 
 /* Change background color of buttons on hover */
 .interaction-div-display button:hover {
-	border: 1px solid var(--color-paladin-2);
+	border: 1px solid var(--base-grey-2);
 	border-radius: 5px;
-	background-color: var(--color-paladin-2);
+	background-color: var(--base-grey-2);
 }
 
 .interact-text-container {

@@ -26,7 +26,7 @@
 		font-size: 3.25rem;
 		font-weight: 400;
 		margin: 1rem;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 		text-align: center;
 		text-transform: uppercase;
 	}

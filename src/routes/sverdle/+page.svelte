@@ -249,7 +249,7 @@
 	}
 
 	.grid.playing .row.current {
-		filter: drop-shadow(3px 3px 10px var(--color-paladin-1));
+		filter: drop-shadow(3px 3px 10px var(--base-white-outline));
 	}
 
 	.letter {
@@ -264,7 +264,7 @@
 		border: none;
 		font-size: calc(0.08 * var(--width));
 		border-radius: 2px;
-		background: var(--color-paladin-1, var(--white));
+		background: var(--base-white-outline, var(--white));
 		margin: 0;
 		color: rgba(0, 0, 0, 0.7);
 	}
@@ -276,7 +276,7 @@
 
 	.letter.exact {
 		background: var(--color-theme-pink);
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 
 	.letter.close {
@@ -323,7 +323,7 @@
 
 	.keyboard button.exact {
 		background: var(--color-theme-pink);
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 
 	.keyboard button.missing {
@@ -336,7 +336,7 @@
 
 	.keyboard button:focus {
 		background: var(--color-theme-dark-blue);
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 		outline: none;
 	}
 
@@ -374,7 +374,7 @@
 	.restart:focus,
 	.restart:hover {
 		background: var(--color-theme-dark-blue);
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 		outline: none;
 	}
 

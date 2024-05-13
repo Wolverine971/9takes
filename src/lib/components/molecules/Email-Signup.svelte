@@ -27,7 +27,6 @@
 		});
 
 		const data = deserialize(await resp.text());
-		console.log(data);
 
 		if (!data?.error) {
 			notifications.info('Email Submitted', 3000);

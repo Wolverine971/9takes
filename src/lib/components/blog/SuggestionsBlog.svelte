@@ -41,11 +41,7 @@
 	a::after {
 		display: none !important;
 	}
-	a:hover {
-		text-decoration: none;
-		filter: sepia(100%) hue-rotate(160deg);
-		border: 1px solid var(--color-theme-purple) !important;
-	}
+	
 	.blog-grid-container {
 		column-count: 3;
 		column-gap: 0.5rem;
@@ -90,5 +86,11 @@
 		gap: 1rem;
 		overflow: hidden;
 		text-overflow: clip;
+
+		&:hover {
+			text-decoration: none;
+			filter: sepia(100%) hue-rotate(160deg);
+			border: 1px solid var(--color-theme-purple) !important;
+		}
 	}
 </style>

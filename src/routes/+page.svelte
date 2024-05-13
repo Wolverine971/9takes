@@ -474,7 +474,7 @@
 		padding: 0.5rem;
 
 		&:hover {
-			background-color: var(--color-paladin-2);
+			background-color: var(--base-grey-2);
 			border-radius: 5px;
 		}
 	}

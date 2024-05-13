@@ -572,7 +572,7 @@
 					border-radius: 5px;
 					pointer-events: all;
 					border: 1px solid;
-					background-color: var(--color-paladin-2);
+					background-color: var(--base-grey-2);
 					font-size: 14px;
 
 					a {

@@ -196,27 +196,27 @@ url({`/types/${type}s/${person}.webp`}) -->
 	}
 	.cube-face-front .cell {
 		background-color: blue;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 	.cube-face-back .cell {
 		background-color: yellow;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 	.cube-face-left .cell {
 		background-color: green;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 	.cube-face-right .cell {
 		background-color: red;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 	.cube-face-top .cell {
 		background-color: orange;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 	.cube-face-bottom .cell {
 		background-color: grey;
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 
 	.cube-face-front {

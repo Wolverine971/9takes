@@ -114,7 +114,6 @@
 	const imgUrl = data.question?.img_url
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
-	console.log(data.question);
 	const questionObject = {
 		'@context': 'https://schema.org',
 		'@type': 'QAPage',

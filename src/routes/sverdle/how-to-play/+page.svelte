@@ -70,7 +70,7 @@
 
 	.exact {
 		background: var(--color-theme-pink);
-		color: var(--color-paladin-1, var(--white));
+		color: var(--base-white-outline, var(--white));
 	}
 
 	.example {

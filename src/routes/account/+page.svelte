@@ -62,7 +62,7 @@
 	};
 </script>
 
-<div class="">
+<div class="account-card">
 	<div class="neat-row" style="justify-content: space-between;">
 		<h1 style="margin: auto 1rem; padding:0">Hello {data?.session?.user?.email}</h1>
 
@@ -125,7 +125,7 @@
 		</div>
 	</div>
 
-	<div class="glass-card" style="margin: 1rem; padding: 1rem;">
+	<div class="glass-card" style="">
 		<h2>Question subscriptions</h2>
 		{#each data.subscriptions as subscription}
 			<div class="neat-row" style="justify-content: flex-start;">
@@ -142,16 +142,25 @@
 		background-color: lightgray;
 		color: grey;
 	}
-	.glass-card {
-		background-color: #d1cdcd; // var(--color-paladin-2);
+	.account-card {
+		background-color: var(--base-grey-1);
 		border-radius: 5px;
 		padding: 1rem;
 		margin: 1rem;
-		padding: 0.5rem;
+	}
+	.glass-card {
+		background-color: var(--base-grey-2);
+		border-radius: 5px;
+		// padding: 1rem;
+		// margin: 1rem;
+		// padding: 0.5rem;
+		margin: 1rem 0; 
+		padding: 1rem;
 	}
 
 	.neat-row {
 		display: flex;
+		width: 100%;
 		gap: 10px;
 		align-items: center;
 		justify-content: center;

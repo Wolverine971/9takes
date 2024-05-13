@@ -88,7 +88,7 @@
 		// background-color: var(--color-theme-purple-v);
 
 		// background-color: rgb(207, 198, 255, 0.5);
-		background-color: #cfcfcf; // var(--color-paladin-1);
+		background-color: #cfcfcf; // var(--base-white-outline);
 		// border: 0.1px solid var(--color-theme-purple-v);
 		box-shadow: 0 2px 0px -1px var(--color-theme-purple-v),
 			0 3px 3px 1px var(--color-theme-purple-v), 0 1px 5px 0 var(--color-theme-purple-v);

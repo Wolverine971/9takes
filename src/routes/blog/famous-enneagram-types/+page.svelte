@@ -119,11 +119,7 @@ politics, entertainment, and more.
 	a::after {
 		display: none !important;
 	}
-	a:hover {
-		text-decoration: none;
-		filter: sepia(100%) hue-rotate(160deg);
-		border: 1px solid var(--color-theme-purple) !important;
-	}
+	
 
 	.inline-it {
 		display: inline-block;
@@ -159,6 +155,12 @@ politics, entertainment, and more.
 		border-radius: 5px;
 		position: relative;
 		max-height: 220px;
+		&:hover {
+			text-decoration: none;
+			filter: sepia(100%) hue-rotate(160deg);
+			border: 1px solid var(--color-theme-purple) !important;
+		}
+		
 	}
 
 	@media (max-width: 550px) {

@@ -249,11 +249,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
- .panel {
-    padding: 18px;
-    background-color: var(--color-paladin-1, white);
-    overflow: hidden;
- }
+
  .section-content {
         /*border-right: 4px solid slategrey;*/
         margin: 1rem 0;

@@ -161,7 +161,7 @@
 		enneagramType
 			? 'tint'
 			: ''}"
-		style={showDescription && tint ? 'opacity: .1 !important;' : ''}
+		style={showDescription && enneagramType && tint ? 'opacity: .1 !important;' : ''}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
@@ -360,7 +360,7 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-icon {
-		color: var(--color-paladin-1);
+		color: var(--base-white-outline);
 		font-size: 4rem;
 		text-shadow: 0px 0px 0.5rem white;
 	}
@@ -378,7 +378,7 @@
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
 		font-family: var(--font-family);
-		color: var(--color-paladin-1);
+		color: var(--base-white-outline);
 		text-align: center;
 		text-transform: uppercase;
 	}

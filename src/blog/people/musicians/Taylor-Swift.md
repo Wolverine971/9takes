@@ -220,9 +220,5 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
 <style lang="scss">
 
-.panel {
-    padding: 18px;
-    background-color: white;
-    overflow: hidden;
- }
+
 </style>

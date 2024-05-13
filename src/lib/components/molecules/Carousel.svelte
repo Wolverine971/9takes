@@ -169,57 +169,5 @@ cwebp "background3.png" -o "background3.webp"
 		}
 	}
 
-	// Styling
-	.slider {
-		// box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-		height: var(--height);
-		margin: auto;
-		overflow: hidden;
-		position: relative;
-		width: 1000px;
-		// mix-blend-mode: color-burn;
-
-		&::before,
-		&::after {
-			// @include white-gradient;
-			content: '';
-			height: 100%;
-			position: absolute;
-			width: 200px;
-			z-index: 2;
-		}
-
-		&::after {
-			right: 0;
-			top: 0;
-			transform: rotateZ(180deg);
-		}
-
-		&::before {
-			left: 0;
-			top: 0;
-		}
-
-		.slide-track {
-			animation: scroll var(--animationSpeed) linear infinite;
-			display: flex;
-			animation-iteration-count: infinite;
-			animation-direction: alternate;
-			width: calc(var(--width) * (var(--num-images)));
-		}
-
-		.slide-track:hover {
-			animation-play-state: paused;
-		}
-
-		.slide {
-			height: var(--height);
-			width: var(--width);
-		}
-	}
-	@media all and (max-width: 576px) {
-		// .slide-track {
-		// 	// touch-action: none;
-		// }
-	}
+	
 </style>

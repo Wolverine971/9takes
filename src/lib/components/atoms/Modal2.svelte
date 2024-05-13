@@ -110,7 +110,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: var(--color-paladin-2) 8;
+		background-color: var(--base-grey-1) 8;
 		display: flex;
 		align-items: center;
 		z-index: 23425343;

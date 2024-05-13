@@ -197,7 +197,7 @@
 		img {
 			filter: none !important;
 		}
-		color: var(--color-paladin-1);
+		color: var(--base-white-outline);
 	}
 
 	.pop-card-user {
@@ -214,9 +214,9 @@
 		font-weight: 200;
 		margin: 1rem;
 		font-family: var(--font-family);
-		color: var(--color-paladin-1);
+		color: var(--base-white-outline);
 		text-shadow: 1px 1px 1px var(--black);
-		// color: var(--color-paladin-1);
+		// color: var(--base-white-outline);
 		text-align: center;
 		text-transform: uppercase;
 		z-index: 1;

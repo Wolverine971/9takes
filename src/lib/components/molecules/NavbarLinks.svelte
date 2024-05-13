@@ -131,7 +131,6 @@
 	}
 	.navbar-blogs {
 		overflow: hidden;
-		// background-color: var(--color-paladin-2);
 		border-radius: 5px;
 		display: flex;
 		justify-content: center;
@@ -175,7 +174,7 @@
 
 	.navbar-blogs a:hover,
 	.subnav:hover .subNavBtn {
-		background-color: var(--color-paladin-2);
+		background-color: var(--base-grey-2);
 		z-index: 1234;
 	}
 

@@ -117,7 +117,7 @@ a:hover {
 	flex-direction: column;
 	margin: 0 auto;
 	background-color: transparent;
-	padding: 2rem;
+	padding: 2rem 0;
 	width: 100%;
 }
 
@@ -371,7 +371,7 @@ section {
 
 @media (max-width: 800px) {
 	.main {
-		padding: 1rem;
+		padding: 1rem 0;
 	}
 
 	.flex-columns {
@@ -457,7 +457,7 @@ section {
 	display: flex;
 	align-items: center;
 	margin-left: 1.5rem;
-	border: 1px solid var(--color-paladin-2);
+	border: 1px solid var(--base-grey-2);
 	border-radius: 5px;
 	background-color: transparent;
 	cursor: pointer;
@@ -465,7 +465,7 @@ section {
 	text-align: start;
 
 	&:hover {
-		background-color: var(--color-paladin-2);
+		background-color: var(--base-grey-2);
 	}
 }
 

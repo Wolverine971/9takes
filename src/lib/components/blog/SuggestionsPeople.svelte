@@ -158,7 +158,7 @@
 	.go-arrow {
 		margin-top: -4px;
 		margin-right: -4px;
-		color: var(--color-paladin-1, white);
+		color: var(--base-white-outline, white);
 	}
 	.grid-item {
 		margin-bottom: 0.5rem;
@@ -179,7 +179,7 @@
 		width: 100%;
 		border-radius: 5px;
 		&:after {
-			background-color: var(--color-paladin-1, white);
+			background-color: var(--base-white-outline, white);
 		}
 
 		&:before {

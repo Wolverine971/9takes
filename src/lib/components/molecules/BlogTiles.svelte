@@ -313,11 +313,7 @@
 	a::after {
 		display: none !important;
 	}
-	a:hover {
-		text-decoration: none;
-		filter: sepia(100%) hue-rotate(160deg);
-		border: 1px solid var(--color-theme-purple) !important;
-	}
+	
 
 	.temp-three-row {
 		display: grid;
@@ -379,6 +375,12 @@
 		gap: 1rem;
 		overflow: hidden;
 		text-overflow: clip;
+
+		&:hover {
+			text-decoration: none;
+			filter: sepia(100%) hue-rotate(160deg);
+			border: 1px solid var(--color-theme-purple) !important;
+		}
 	}
 	.people-grid-container {
 		width: 100%;
