@@ -33,7 +33,7 @@
 
 	const addComment = async (newData: any) => {
 		setTimeout(async () => {
-			await fetch(`/comments/?type=question&parentId=${data?.question?.id}`)
+			await fetch(`/comments?type=question&parentId=${data?.question?.id}`)
 				.then((response) => response.json())
 				.then((commentData) => {
 					if (!commentData?.message) {

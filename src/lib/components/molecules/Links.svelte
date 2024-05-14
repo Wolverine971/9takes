@@ -29,7 +29,7 @@
 	const loadMore = async () => {
 		loading = true;
 		await fetch(
-			`/comments/?type=${parentType}&parentId=${
+			`/comments?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : _data.id
 			}&lastDate=${lastDate}&range=${data?.comments?.length || 0}`
 		)
@@ -49,7 +49,7 @@
 		dispatch('commentAdded');
 		loading = true;
 		await fetch(
-			`/comments/?type=${parentType}&parentId=${
+			`/comments?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : _data.id
 			}&lastDate=${lastDate}`
 		)

@@ -58,7 +58,7 @@
 		}
 		loadingComments = true;
 		await fetch(
-			`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}&range=${
+			`/comments?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}&range=${
 				comment?.comments?.length || 0
 			}`
 		)

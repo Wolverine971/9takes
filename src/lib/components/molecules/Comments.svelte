@@ -23,7 +23,7 @@
 	const loadMore = async () => {
 		loading = true;
 		await fetch(
-			`/comments/?type=${parentType}&parentId=${
+			`/comments?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : parentData.id
 			}&lastDate=${lastDate}&range=${comments?.length || 0}`
 		)
@@ -43,7 +43,7 @@
 		dispatch('commentAdded');
 		loading = true;
 		await fetch(
-			`/comments/?type=${parentType}&parentId=${
+			`/comments?type=${parentType}&parentId=${
 				parentType === 'question' ? questionId : parentData.id
 			}&lastDate=${lastDate}`
 		)
@@ -74,7 +74,7 @@
 					on:commentAdded={({ detail }) => refreshComments(detail)}
 				/>
 			{/each}
-		{#if comments?.length < comment_count}
+		{#if comments?.length < comment_count && parentData?.flags?.userHasAnswered}
 			<button class="btn btn-secondary" on:click={loadMore}>
 				{#if loading}
 					<div class="loader" />

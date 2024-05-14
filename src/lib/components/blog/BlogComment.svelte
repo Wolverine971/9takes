@@ -35,7 +35,7 @@
 			return;
 		}
 		loading = true;
-		await fetch(`/comments/?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
+		await fetch(`/comments?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
 			.then((response) => response.json())
 			.then((newcommentData) => {
 				if (!_commentComment.comments) {
