@@ -4,11 +4,11 @@ description: 'Part 2 of Navigating relationship conflicts. Resolve disagreements
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2'
-lastmod: '2024-01-26'
+lastmod: '2024-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-pic: 'pit-of-despair'
+pic: 'greek-statues-walking-past-a-pothole'
 ---
 
 <!-- conflict styles in relationships
@@ -20,25 +20,40 @@ internal and external conflict
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >⬅️ Part 1</a>
+<p class="firstLetter">This blog picks up where <a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off.</p>
 
 ## Common Questions
 
 ### What is Healthy Conflict in a Relationship?
 
-Healthy conflict is more than just a disagreement; it's an opportunity for growth and understanding. When approached constructively, conflict can serve as a catalyst for change and provide a chance for relationship enhancement. It's not about winning or losing but about understanding and learning. Through conflict, you can gain a deeper understanding of your partner and even yourself. It's a way to confront issues head-on, rather than sweeping them under the rug, which often leads to resentment.
+Conflict is growth trying to happen.
 
-**The Growth Perspective**
+This is biggest mental shift that separates people who grow closer from their conflict compared to those who grow to resent their partner.
 
-Conflict is growth trying to happen. It's an opportunity to better understand your partner's needs, desires, and expectations. When you can navigate through a conflict successfully, you come out on the other side stronger and more resilient as a couple.
+Conflict can serve as a catalyst for change when approached constructively. It's not about winning or losing but about understanding and learning. Through conflict, you have the opportunity to get closer to partner and even understand yourself better.
 
 ### How to Resolve Conflict When Both Feel Strongly
 
 When both parties feel strongly about a particular issue, it can be challenging to find common ground. However, the key to resolving such conflicts lies in your approach.
 
-**The Creative Headspace**
+#### The major blocker is the ability to access your creative headspace
 
-To find a solution that satisfies both parties, you need to be in a creative headspace. Emotional blockers like defensiveness, stress, anger, and fear can stifle creativity and prevent resolution. Take time to alleviate these emotional states before attempting to resolve the conflict. This will enable you to listen actively and think creatively, paving the way for a solution.
+You are not able to think creatively when you are stressed.
+
+In order to find a solution you need to be in a creative headspace. There are things called **emotional blockers** that stifle your creativity.
+
+They are:
+
+- defensiveness
+- stress
+- anger
+- resentment
+- insecurity
+- fear
+- anxiety
+- stress
+
+Take time to alleviate these emotional states before attempting to resolve the conflict. This will enable you to listen actively and think creatively, paving the way for a solution.
 
 ## Examples and Scenarios
 
@@ -67,7 +82,7 @@ Unhealthy conflict can manifest in various ways, such as talking maliciously abo
 	"
 >
 	<PopCard
-		image={`/blogs/pit-of-despair.webp`}
+		image={`/blogs/greek-statues-walking-past-a-pothole.webp`}
 		showIcon={false}
 		displayText=""
     altText="pit of despair"
@@ -79,27 +94,55 @@ Unhealthy conflict can manifest in various ways, such as talking maliciously abo
 
 ### Us vs. Them Mentality
 
-This mentality can be destructive. It's not you against your partner; it's both of you against the problem. Viewing conflict as a battle to be won only leads to losers, not solutions.
+Viewing your partner as an opponent can be highly destructive to your relationship.
+
+In a healthy relationship, both partners work together to solve problems. When you see your partner as an adversary, it creates a win-lose dynamic where one person must come out on top. This mentality fosters competition rather than cooperation, making it difficult to find mutually beneficial solutions. Instead of focusing on understanding each other's perspectives, couples with an "us vs. them" mindset often prioritize proving their own point.
+
+Adopting a collaborative approach is essential for resolving conflicts and strengthening your bond.
+
+Active listening is a key skill that can help couples move away from an adversarial stance.
 
 ### Not Listening
 
-Active listening is crucial in resolving conflict. If you're already thinking of your rebuttal while your partner is speaking, you're not really listening. This can lead to misunderstandings and can prolong the conflict.
+Are you truly hearing your partner, or are you just waiting for your turn to speak?
+
+Active listening involves giving your full attention to your partner when they are speaking. This means setting aside your own thoughts and focusing on understanding their perspective. If you find yourself mentally preparing a rebuttal while your partner is still talking, you're not fully present in the conversation. This can lead to misunderstandings and prolong the conflict, as you may miss important details or fail to grasp the emotional context behind their words.
+
+Practicing active listening can help you gain a deeper understanding of your partner's needs and feelings.
+
+Learning to communicate effectively often requires managing intense emotions, such as anger or frustration.
 
 ### Shouting
 
-Raising your voice won't help you win an argument. It will only escalate the conflict and can lead to hurt feelings and resentment.
+Raising your voice during an argument can do more harm than good.
+
+When tensions are high, it's tempting to shout to get your point across. However, this approach often backfires. Yelling can make your partner feel attacked, leading them to become defensive or shut down completely. It can also escalate the conflict, causing both parties to say things they later regret. Shouting creates an atmosphere of hostility and disrespect, making it difficult to have a productive conversation.
+
+Instead of raising your voice, try taking a deep breath and expressing yourself calmly and clearly.
+
+By avoiding these common pitfalls, couples can foster healthier communication and strengthen their relationship.
 
 ## Conflict Resolution Skills
 
-Conflict resolution boils down to both parties being able to listen and be heard. To facilitate this, the conflict needs to be de-escalated.
+Conflict resolution boils down to good communication.
 
-### Example of Listening
+The mistake most people make is that they don't know how to listen right. Often because of not listening well the conflict escalates instead of de-escalating.
 
-Don't think of your rebuttal when the other person is talking. Instead, try to understand their perspective. This is called empathy.
+### What not to do
+
+- Don't think of your rebuttal when the other person is talking.
+- Don't think that the conflict is purely a logical
+- Don't think that logic will solve the problem
+- Don't try to think of a good comeback
+- Don't interrupt your partner
+
+Instead, try to understand their perspective. This is called empathy.
 
 **The Power of Empathy**
 
-Empathy is the ability to understand and share the feelings of another. It's more than just hearing what the other person is saying; it's about understanding where they're coming from. This skill can be developed over time and is crucial for effective conflict resolution.
+Empathy is like emotional street smarts.
+
+It is the ability to understand and share the feelings of another. It's more than just hearing what the other person is saying; it's about understanding where they're coming from. Empathizing with someone else is a skill. And it can be developed over time.
 
 ## Conflict Resolution Exercises for Couples
 
@@ -163,7 +206,7 @@ conflict resolution exercises for couples -->
       "image":{
         "@type":"ImageObject",
         "height":900,
-        "url": "https://9takes.com/blogs/pit-of-despair.webp",
+        "url": "https://9takes.com/blogs/greek-statues-walking-past-a-pothole.webp",
         "width":900
       },
       "publisher": {

@@ -77,7 +77,7 @@
 		if (e?.key === 'Enter') close(e);
 	}}
 >
-	<div id="modal" role="dialog" aria-modal="true" aria-labelledby={name}>
+	<div id="modal" role="dialog" aria-modal="true" aria-labelledby={name} on:click|stopPropagation={() => {}}>
 		{#if !navTop}
 			<svg
 				id="close"

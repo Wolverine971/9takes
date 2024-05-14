@@ -8,7 +8,7 @@ lastmod: '2024-05-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-pic: ''
+pic: 'two-greek-statues-having-a-serious-conversation'
 ---
 
 <!-- todo -->
@@ -24,13 +24,13 @@ pic: ''
     margin: 1rem 0;
   "
 >
-  <!-- <PopCard
-    image={`/blogs/test.webp`}
+  <PopCard
+    image={`/blogs/two-greek-statues-having-a-serious-conversation.webp`}
     showIcon={false}
     displayText=""
-    altText="two Greek statues looking at each other."
+    altText="two Greek statues having a serious conversation"
     subtext=""
-  /> -->
+  />
 </div>
 
 <p class="firstLetter">Relationships thrive on open communication.</p>

@@ -9,7 +9,7 @@
 	export let data: any;
 
 	let innerWidth = 0;
-	let showAiComments = true;
+	export let showAiComments = true;
 </script>
 
 <svelte:window bind:innerWidth />

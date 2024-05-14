@@ -13,12 +13,14 @@
 
 	export let data: any;
 	export let size: string = 'large';
+	let sortLoading: boolean = false;
 
 	$: data, watchData();
 
 	const watchData = () => {};
 
 	const sort = async () => {
+		sortLoading = true;
 		if (!data?.flags?.userHasAnswered) {
 			notifications.info('Must answer question to sort comments', 3000);
 			return;
@@ -39,7 +41,9 @@
 			console.log(result.error);
 		} else if (result.data) {
 			dispatch('commentsSorted', result?.data);
+			getModal('sorter').close();
 		}
+		sortLoading = false;
 	};
 
 	let innerWidth: number = 0;
@@ -97,7 +101,7 @@
 					multiSelectOpen = !multiSelectOpen;
 				}}
 			>
-				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen} />
+				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen}/>
 			</div>
 		</Context>
 		<br />
@@ -114,7 +118,14 @@
 			value="Sort"
 			style="float: right;"
 			on:click={sort}
-			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''} btn btn-primary">Sort</button
+			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''} btn btn-primary">
+			{#if sortLoading}
+				<div class="loader" />
+			{:else}
+				Sort
+			{/if}
+			
+			</button
 		>
 	</div>
 </Modal2>

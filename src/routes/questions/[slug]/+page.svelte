@@ -107,7 +107,7 @@
 		}
 	};
 	let innerWidth = 0;
-	const title = `9takes | ${data.question.question_formatted || data.question.question}`;
+	const title = `9takes | ${data.question.question_formatted || data.question.question}`.slice(0, 60);
 	const description = `Get at least 9 different takes on a question`;
 	const slug = data.question.url;
 	const url = `https://9takes.com/questions/${slug}`;
@@ -276,7 +276,7 @@
 	@media (min-width: 1200px) {
 		aside {
 			position: fixed !important;
-			margin-left: 960px;
+			margin-left: 995px;
 			right: auto;
 			display: block;
 			margin-top: 0.5rem;
