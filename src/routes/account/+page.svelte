@@ -85,7 +85,7 @@
 		</div>
 	</div>
 
-	<div class="glass-card">
+	<div class="glass-card" style="z-index: 1;">
 		<h2>Profile</h2>
 		<div class="">
 			<!-- <label for="firstName">First Name</label> -->
@@ -125,7 +125,7 @@
 		</div>
 	</div>
 
-	<div class="glass-card" style="">
+	<div class="glass-card" style="z-index: 0">
 		<h2>Question subscriptions</h2>
 		{#each data.subscriptions as subscription}
 			<div class="neat-row" style="justify-content: flex-start;">
@@ -156,6 +156,7 @@
 		// padding: 0.5rem;
 		margin: 1rem 0; 
 		padding: 1rem;
+		overflow: visible;
 	}
 
 	.neat-row {

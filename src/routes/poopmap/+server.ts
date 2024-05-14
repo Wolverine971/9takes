@@ -319,6 +319,13 @@ export async function GET() {
 				})
 				.join('')}
 
+				<url>
+					<loc>https://9takes.com/questions</loc>
+					<lastmod>2024-05-14</lastmod>
+					<changefreq>weekly</changefreq>
+					<priority>0.7</priority>
+				</url>
+
 				${questions?.map((q) => {
 					return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>

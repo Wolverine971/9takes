@@ -49,6 +49,10 @@ export async function GET({ url, locals, cookies }) {
 			.order('created_at', { ascending: false })
 			.range(range, range + 10);
 
+		if (questionCommentsError || questionComments?.length === 0) {
+			throw new Error('Unable to retrieve comments');
+		}
+
 		if (parentType !== 'question') {
 			const questionCommentIds = questionComments?.map((q) => {
 				return q.id;
