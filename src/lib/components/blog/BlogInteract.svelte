@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { deserialize } from '$app/forms';
-	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
 	import { notifications } from '$lib/components/molecules/notifications';
@@ -131,15 +130,7 @@
 			/>
 		{/if}
 	</button>
-	<button
-		title="Share"
-		type="button"
-		class="btn btn-primary sub-comment share-btn"
-		on:click={() => share()}
-	>
-		Share Blog
-		<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'#444'} />
-	</button>
+	
 </div>
 
 <style lang="scss">

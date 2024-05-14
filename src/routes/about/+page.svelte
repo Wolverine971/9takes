@@ -21,7 +21,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="main-div">
+<div class="main-div about-area-box">
 	<h1>A place of Questions for the Enneagram obsessed</h1>
 	<p>And a place for people to explore their differences and find common ground.</p>
 

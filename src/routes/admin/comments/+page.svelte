@@ -58,7 +58,7 @@
 											class="btn btn-primary"
 											on:click={() => {
 												unflag(comment?.comments?.id);
-											}}>Clear Comment</button
+											}}>Green light comment 🟢</button
 										>
 										<button
 											class="btn btn-secondary"

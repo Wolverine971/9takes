@@ -394,6 +394,13 @@ section {
 		background-color: var(--base-grey-1);
 		border-radius: 5px;
 	}
+	.about-area-box {
+		margin-top: 0;
+		padding-top: 0;
+		padding: 2rem;
+		background-color: var(--base-grey-1);
+		border-radius: 5px;
+	}
 }
 
 @media all and (max-width: 576px) {
