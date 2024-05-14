@@ -126,7 +126,7 @@
 		body.append('question_id', questionId.toString());
 		body.append('fingerprint', fpval?.visitorId?.toString());
 
-		const resp = await fetch('?/createComment', {
+		const resp = await fetch('?/createCommentRando', {
 			method: 'POST',
 			body
 		});
@@ -139,7 +139,8 @@
 		} else {
 			notifications.info('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
-			comment = '';
+			newcomment = '';
+			commenting = false;
 		}
 		loading = false;
 	};
@@ -259,7 +260,7 @@
 
 					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
 				</p>
-				{#if _commentComment.comment.length > 136}
+				{#if _commentComment?.comment?.length > 136}
 					<span
 						role="button"
 						tabindex="0"
@@ -434,7 +435,7 @@
 			disabled={newcomment?.length < 1}
 		>
 			Submit
-			{#if loading}
+			{#if loading === true}
 				<div class="loader" />
 			{:else if newcomment?.length > 1}
 				<RightIcon
