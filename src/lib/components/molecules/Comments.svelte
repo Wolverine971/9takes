@@ -65,7 +65,6 @@
 {#if !browser || (comments?.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments?.length && parentType === 'comment')}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
-		<div>
 			{#each comments as comment}
 				<Comment
 					{questionId}
@@ -75,7 +74,6 @@
 					on:commentAdded={({ detail }) => refreshComments(detail)}
 				/>
 			{/each}
-		</div>
 		{#if comments?.length < comment_count}
 			<button class="btn btn-secondary" on:click={loadMore}>
 				{#if loading}

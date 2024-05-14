@@ -420,6 +420,7 @@
 <style lang="scss">
 	.comments-card {
 		border: none;
+		margin: .5rem
 	}
 	.vertical-display {
 		text-combine-upright: all;

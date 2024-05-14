@@ -50,7 +50,6 @@
 	let selected: string[] = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `unknown`, `rando`];
 	const typeOptions = [`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `unknown`, `rando`];
 
-	let open: boolean = false;
 	let sortBy: string = 'newest';
 	let multiSelectOpen: boolean = false;
 </script>
@@ -61,15 +60,13 @@
 		type="button"
 		class="btn btn-primary sort-btn summary-display"
 		on:click={() => {
-			open = !open;
-			if (open) getModal('sorter').open();
-			else getModal('sorter').close();
+			getModal('sorter').open();
 		}}
 	>
 		<SlidersIcon
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
-			fill={open ? '#5407d9' : '#444'}
+			fill={'#5407d9'}
 		/>
 
 		Filter Comments
@@ -79,15 +76,13 @@
 		type="button"
 		class="btn btn-primary"
 		on:click={() => {
-			open = !open;
-			if (open) getModal('sorter').open();
-			else getModal('sorter').close();
+			getModal('sorter').open();
 		}}
 	>
 		<SlidersIcon
 			iconStyle={'padding: 0.25rem; margin: .5rem'}
 			height={'1.5rem'}
-			fill={open ? '#5407d9' : '#444'}
+			fill={'#5407d9'}
 		/>
 	</button>
 {/if}

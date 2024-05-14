@@ -162,7 +162,7 @@
 		<div>
 			<div style="display: flex; justify-content: center; align-items:center;">
 				<h1
-					class="question-box noticia-text-regular"
+					class="question-box noticia-text-regular headline"
 					id="question-box"
 					style="overflow:hidden; font-size: {calcSize(data.question.question)}"
 					style:--tag={`h-question-${data.question.id}`}
@@ -175,7 +175,7 @@
 					src=""
 					alt="QR Code"
 					class="qr-image-border"
-					style="width: {innerWidth > 400 ? '20%' : '30%'};"
+					style="width: {innerWidth > 400 ? '15%' : '30%'};"
 				/>
 			</div>
 
@@ -258,7 +258,7 @@
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;
-		border: var(--classic-border);
+		border: 1px solid var(--base-white-outline);
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
@@ -285,8 +285,19 @@
 			border-radius: 5px;
 		}
 	}
+	.headline {
+		font-size: 3em;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 1rem 0;
+		width: 80%;
+		border: 1px solid var(--color-theme-purple-v);
+	}
+	@media (max-width: 700px) {
+		.headline {
+			border: none;
+		}
 
-	// @media (max-width: 700px) {
-
-	// }
+	}
 </style>

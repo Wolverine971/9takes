@@ -552,9 +552,13 @@
 	}
 
 	.read-more-btn {
-		background-color: #f1f1f1;
+		background-color: var(--base-grey-1);
 		padding: 5px 10px;
 		cursor: pointer;
+		border-left: 1px solid;
+		border-bottom: 1px solid;
+		border-bottom-left-radius: 5px;
+    	border-bottom-right-radius: 5px;
 	}
 
 	.profile-avatar {
