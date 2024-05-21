@@ -41,7 +41,9 @@ adjust title
 
 <p class="firstLetter"> Ever felt misunderstood?</p>
 
-Ever felt like did not understand someone else? People are different and there is a personality system called the Enneagram can help demystify others and yourself. The Enneagram offers a framework for understanding people's core fears and motivations.
+Have you ever felt like you did not understand someone else? 
+
+People are different, and a personality system called the Enneagram can help demystify others and yourself. The Enneagram offers a framework for understanding people's core fears and motivations.
 
 I remember how life was before I discovered my Enneagram type.
 
@@ -55,19 +57,19 @@ In this guide, I'll simplify the complex world of the Enneagram. I'll show you e
 
 ### What is an Enneagram?
 
-There is much to cover, but we will go over the broad strokes.
+There is much to cover, but we will cover the broad strokes.
 
-The Enneagram is a personality system. A personality is a grouping of characteristics that explain how people are similar and different. The Enneagram looks at thoughts, feelings, and actions and identifies "types" or archetypes. There are 9 core types, which is where you might have heard someone mention that they are an 8 or a 4.
+The Enneagram is a personality system. A personality is a grouping of characteristics that explain how people are similar and different. The Enneagram looks at thoughts, feelings, and actions and identifies "types" or archetypes. There are 9 core types, and you might have heard someone mention that they are an 8 or a 4.
 
 ### How your Enneagram Type is Formed
 
-It is said that your type/ personality is formed in childhood as a response to some kind of unmet need (e.g., a childhood wound). Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
+It is said that your type/ personality is formed in childhood as a response to some unmet need (e.g., a childhood wound). Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
 
 For example:
 
 - A child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough.
 - A child who grew up in a chaotic environment might cope by distracting themselves, always looking on the bright side, and avoiding uncomfortable or painful situations.
-- A child who was only shown love and affection when they achieved something might grow up to be a workaholic who believes they must win at everything, otherwise they are worthless.
+- A child who was only shown love and affection when they achieved something might grow up to be a workaholic who believes they must win at everything; otherwise, they are worthless.
 
 A childhood wound can develop in many ways. The important part is the negative emotion that stays with you. The three negative emotions are **fear**, **shame** and **anger**.
 
@@ -89,33 +91,35 @@ Another way to identify your core emotion would be to ask which emotion you have
 
 ### 2. Consider the Connection Between Emotions and Centers of Intelligence
 
-In the Enneagram, these core emotions relate to centers of intelligence. The negative emotion you feel forces you to develop coping mechanisms which help you survive. You develop a special "intelligence" to cope with that negative emotion.
+In the Enneagram, these core emotions relate to centers of intelligence.
+
+ The negative emotion you feel forces you to develop coping mechanisms that help you survive. You develop a special "intelligence" to cope with that negative emotion.
 
 - Fear relates to intellectual intelligence
 - Shame relates to emotional intelligence
 - Anger relates to instinctual intelligence.
 
-If you can always sense what other people are feeling, you might have high emotional intelligence, and your core emotion might be shame. If you are always in your head or have been told that you "over think" things, you might have intellectual intelligence that you developed in response to fear. If you go with your guy a lot to make decisions, you might have instinctual intelligence and wrestle with anger.
+If you can consistently sense what other people are feeling, you may have high emotional intelligence, and your core emotion may be shame. If you are always in your head or have been told that you "overthink" things, you might have intellectual intelligence that you developed in response to fear. If you go with your guy a lot to make decisions, you might have instinctual intelligence and wrestle with anger.
 
 The crazy thing to think about is that other people have different intelligences that may come off as superpowers.
 
-Conversely your own intelligence/ superpower might be a blind spot to you but not to other people.
+Conversely, your own intelligence/ superpower might be a blind spot to you but not to other people.
 
 ### 3. Consider How Your Core Emotion Shows Up
 
-When trying to identify your core emotion you need to consider how each type "uses" that emotion.
+When trying to identify your core emotion, you need to consider how each type "uses" that emotion.
 
-Each type handles their core emotion differently. There are three Enneagram types for each core emotion. The different ways of handling the emotion are the following:
+Each type handles its core emotion differently. There are three Enneagram types for each core emotion. The different ways of handling the emotion are the following:
 
 - Actively using the emotion as a form of empowerment or motivation
 - Actively suppressing the emotion in an attempt to escape the uncomfortable feeling
-- Unconsciously using that emotion, or having that emotion constantly in the background
+- Unconsciously using that emotion or having that emotion constantly in the background
 
-With that in mind you are now ready to determine your Enneagram type.
+With that in mind, you are now ready to determine your Enneagram type.
 
 ### 4. Find Your Type
 
-In addition to a core emotion, each type has a core motivation and fear. Look through the following to get a sense of what your type might be.
+Each type has a core emotion, core motivation, and core fear. Look through the following to get a sense of what your type might be.
 
 <section class="section-content">
 

@@ -109,6 +109,7 @@
 			// padding: 0.25rem;
 			margin: 0.25rem 0 0.25rem 0.5rem;
 			padding: 0 0.75rem;
+			min-height: 3rem;
 		}
 	}
 </style>

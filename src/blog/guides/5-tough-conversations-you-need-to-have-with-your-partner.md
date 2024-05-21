@@ -4,7 +4,7 @@ description: "Open Communication, avoiding pitfalls and understanding each other
 author: 'DJ Wayne'
 date: '2024-05-08'
 loc: 'https://9takes.com/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner'
-lastmod: '2024-05-13'
+lastmod: '2024-05-21'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -39,19 +39,19 @@ Yet so many couples struggle to have the crucial conversations that can make or 
 
 This blog post will draw on the relationship research from the Gottman Institute and insights from the Enneagram personality system. Here it will outline 5 essential conversations every couple needs to have or they are not going to make it.
 
-The Gottman Institute, founded by Drs. John and Julie Gottman, has conducted over 40 years of research on what makes relationships succeed or fail.
-
-And the Enneagram describes nine distinct personality types, each with its own core motivations, fears, and behavior patterns.
+- **The Gottman Institute**, was founded by Drs. John and Julie Gottman, has conducted over 40 years of research on what makes relationships succeed or fail.
+- **The Enneagram** describes nine distinct personality types, each with its own core motivations, fears, and behavior patterns.
 
 If you and your partner avoid these conversations, YNGMI - You're Nearing Grave Misery and Isolation. But by diving in and discussing these 5 key topics, you'll build the foundation for a relationship that can withstand life's toughest challenges.
 
 Let's explore these make or break conversations.
 
-## I. Understanding Your Partner's Core Emotions
+## I. Understanding Your Partner's Core Emotions 
+Do you know what makes your partner tick? 
 
-Do you know what really makes your partner tick? What childhood wounds still sting, triggering strong emotional reactions?
+Do you know what their childhood was like? Do you know if they have lingering wounds that still trigger strong emotions?
 
-Each Enneagram type has a core sensitivity to one of three emotion triads - anger, shame, or fear. Anger includes frustration, irritation, annoyance and hostility. Shame involves feelings of unworthiness, inadequacy, and humiliation. Fear spans from mild anxiety to sheer terror.
+According to the Enneagram, every personality type has a core sensitivity to one of three emotion - anger, shame, or fear. Anger includes frustration, irritation, annoyance and hostility. Shame involves feelings of unworthiness, inadequacy, and humiliation. Fear spans from mild anxiety to sheer terror.
 
 Here are the nine types and their core emotional vice or passion:
 
@@ -67,35 +67,38 @@ Here are the nine types and their core emotional vice or passion:
 
 By understanding your partner's core emotion and childhood wound, you can attune to their innermost needs and sensitivities with empathy and care. The Gottman Institute emphasizes the importance of "turning towards" your partner - recognizing and responding to their emotional bids for connection.
 
-When you identify your partner's emotional landscape, you gain a roadmap for how to love them well. You sidestep the landmines and unlock the gateways to their heart.
+When you identify your partner's emotional landscape, you gain a roadmap for how to love them.
 
 ## II. Discussing the Four Horsemen
 
-If the Three Musketeers had a darker counterpart, it would be the Four Horsemen of the Relationship Apocalypse. These communication demons - criticism, contempt, defensiveness, and stonewalling - can trample a relationship to its demise.
+You should know that there is a thing called the "Four Horsemen of the Relationship Apocalypse."
 
-The Gottman Institute has identified these Four Horsemen as harbingers of a relationship's end:
+The Four horsemen were identified by the Gottman Institute after they studied couples trying to identify what are the characteristics of a successful relationship. In that study they identified 4 behaviors that lead to couples breaking up or divorcing. 
 
-1. Criticism - Attacking your partner's character with blame and accusation.
+The four horsemen are
+
+1. Criticism - Attacking your partner's character with blame and accusation. 
 2. Contempt - Assuming a position of superiority and treating your partner with disrespect.
 3. Defensiveness - Denying responsibility, making excuses, and meeting one complaint with another.
 4. Stonewalling - Withdrawing and shutting down to avoid conflict.
 
-If you spot these Four Horsemen galloping through your conflicts, it's crucial to corral them before they can do more damage. Here are the antidotes:
-
+However there are antidotes to these four negative patterns. Assuming you have identified one of these negative patterns here are the antidotes:
 1. For criticism, use a gentle start-up focused on your feelings and needs.
 2. Replace contempt with a culture of appreciation and respect.
 3. Counter defensiveness by taking responsibility for your role.
 4. Prevent stonewalling by self-soothing and taking breaks to calm down.
 
-By learning to spot the Four Horsemen and applying their antidotes, you can stop a negative cycle from spiraling out of control. You create a climate of safety and respect, even in the midst of conflict.
+By learning to spot the Four Horsemen and applying their antidotes, you can stop a negative cycle from spiraling out of control. However this is hard because it means you may have to break old bad habits.
 
-Taming the Four Horsemen is an ongoing process, but it's one of the most important conversations you can have to protect your bond.
+But if you are able to break those bad habits, you can create a climate of safety and respect.
+
+The next thing you can do to grow your relationship is to get on the same page.
 
 ## III. Establishing a Shared Vision
 
-Imagine you're planning a vacation, but your partner thinks you're heading to the mountains while you've got your sights set on the beach. Without a shared vision, you'll end up pulling in different directions and arriving at Destination Disappointment.
+You need to have a conversation about each other's dreams. 
 
-The same principle applies to your life together. If you don't discuss your individual dreams and find a way to merge them, you'll be living separate lives under the same roof. But when you take the time to dive deep and discover what really matters to each of you, magic happens.
+If you don't discuss your individual dreams and find a way to merge them, you'll be living separate lives under the same roof. When you take the time to dive deep and discover what really matters to each of you, magic can happen. 
 
 Try asking questions like:
 
@@ -103,13 +106,17 @@ Try asking questions like:
 - "When you picture us 10 years from now, what does our life look like? What adventures have we had? What have we created together?"
 - "What's most important to you? What are your non-negotiables and where are you willing to compromise?"
 
-By exploring your individual visions and weaving them together, you create a shared roadmap for your future. Maybe it means living abroad for a year to satisfy your sense of wanderlust, while also pursuing a stable career path to meet your partner's need for security.
+You don't have to have a perfect plan. Just the awareness alone is enough to get the creative juices flowing so that both your lives can be headed in the  right direction. 
 
-When you know you're working towards the same big-picture goals, you'll find more motivation to support each other through the day-to-day challenges. A shared vision becomes the North Star that guides you through life's twists and turns.
+Maybe your shared roadmap means living abroad for a year to satisfy your sense of wanderlust, while also pursuing a stable career path to meet your partner's need for security.
+
+When you know you're working towards the same big-picture goals, you'll find more motivation to support each other through the day-to-day challenges.
 
 ## IV. Addressing Conflict Styles
 
-What's your fighting style - do you come out swinging or retreat into stony silence? How about your partner?
+Do you know what your fighting style is?
+
+Do you come out swinging or retreat into stony silence? How about your partner?
 
 The Enneagram outlines three conflict styles that correspond with the emotion triads:
 
@@ -132,19 +139,19 @@ When you approach conflicts as an opportunity to understand each other better, y
 
 ## V. Nurturing Intimacy and Connection
 
-Amidst the daily grind of work-kids-chores-repeat, it's all too easy to drift into roommate mode with your partner. But neglecting your intimate connection is like forgetting to water a houseplant - eventually, it will shrivel up and die.
+Its easy for the spark in your relationship to fade. 
 
-The Gottman Institute has found that the "Magic Six Hours" - a series of small, daily investments - can keep the spark alive:
+If you aren't already married pretend you are for a minute. With the daily grind of work-kids-chores-dinner-netflix-repeat-, it's all too easy to drift into roommate mode with your partner. But neglecting your intimate connection is like forgetting to water a houseplant - eventually, it will shrivel up and die.
 
-1. Partings: Take 2 minutes every morning to really connect before saying goodbye.
+The Gottmans found that the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/6-hours-a-week-to-a-better-relationship/">Magic Six Hours</a>" - a series of small, daily investments - can keep the spark alive:
+1. Partings: Take 2 minutes every morning to really connect before saying goodbye.  
 2. Reunions: Spend 20 minutes at the end of each day sharing highlights and struggles.
 3. Appreciation: Find ways to express genuine appreciation and admiration.
 4. Affection: Offer physical affection consistently, even outside the bedroom.
 5. Weekly dates: Carve out at least 2 hours per week for uninterrupted quality time.
 6. Hourly check-ins: Send a quick text or share a long hug - little moments of connection add up.
 
-Different Enneagram types have specific intimacy needs:
-
+In addition the Enneagram gives more insight into what different personalities need for intimacy:
 1. Ones need to feel respected and appreciated for their integrity.
 2. Twos need to feel cherished and central to their partner's life.
 3. Threes need their partner to see behind their successful image.
