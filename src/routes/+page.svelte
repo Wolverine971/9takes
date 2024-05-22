@@ -52,21 +52,22 @@
 				/>
 
 				<div class="main-description">
-					<h1
-						style="margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;"
+					<h1>Be the person who has considered all takes on a question.</h1>
+					<h2
+						style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 3rem; align-items: center;"
 					>
 						<span style="text-wrap: nowrap;"
 							><a href="/questions" class="no-arrow">Questions</a></span
 						>
-						<span style="margin: .5rem;">{'>'}</span>
+						<span style="margin: .2rem;">{'>'}</span>
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
 						>
-					</h1>
+					</h2>
 					<h2 style="font-size: x-large">
 						Got a question? <br />There are at least 9 personality types with different takes on
 						it...
 						<br />
-						at least
+						at least.
 					</h2>
 				</div>
 			</div>
@@ -450,7 +451,7 @@
 		font-size: 2.5rem;
 	}
 	h2 {
-		font-size: 2.2rem;
+		font-size: 1.8rem;
 		margin-top: 0;
 	}
 	h3 {

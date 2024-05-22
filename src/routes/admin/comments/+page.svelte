@@ -47,7 +47,7 @@
 						{#each data?.flaggedComments as comment}
 							<div class="comment-border">
 								<div>
-									<p>{comment?.comments?.comment}</p>
+									<p style="width: 100%;">{comment?.comments?.comment}</p>
 									<p style="padding-left: .5rem">
 										Reason: {comment.description} - From {comment?.profiles?.email}
 									</p>
@@ -83,7 +83,9 @@
 					<div class="scrollable-div">
 						{#each data?.comments as comment}
 							<div class="comment-border">
-								<p style="color: {comment.removed ? 'red' : ''}">{comment?.comment}</p>
+								<p style="color: {comment.removed ? 'red' : ''}; width: 100%;">
+									{comment?.comment}
+								</p>
 								<div class="column" style="align-items: end">
 									{#if comment?.parentQuestion}
 										<a href="/questions/{comment?.parentQuestion?.url}"

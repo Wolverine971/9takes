@@ -370,6 +370,9 @@
 		padding: 0.25rem;
 		border: var(--classic-border);
 		border-radius: 0 0 0 5px;
+		min-width: 4rem;
+		border-top: none;
+		border-right: none;
 	}
 	.bottom-right {
 		position: absolute;
@@ -379,6 +382,9 @@
 		border: var(--classic-border);
 		color: var(--color-theme-purple) !important;
 		border-radius: 5px 0 0 0;
+		min-width: 4rem;
+		border-bottom: none;
+		border-right: none;
 	}
 
 	.tags-div {
