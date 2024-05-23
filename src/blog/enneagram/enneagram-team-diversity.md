@@ -15,9 +15,13 @@ previewHtml: ''
 
 <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
 
-<p class="firstLetter">In today's rapidly evolving business landscape, the ability to create balanced and diverse teams has become increasingly crucial for success.</p>
+<p class="firstLetter">Creating diverse teams is a hard thing to do.</p>
 
-The Enneagram, a powerful personality typing system, offers valuable insights into understanding team dynamics and assembling the ideal mix of members. In this blog, we will explore the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations. By harnessing the power of the Enneagram, you can craft high-performing teams that excel in problem-solving, decision-making, and collaboration.
+Everyone is different but how do you put people together that will work well together and still bring that diversity of ideas and opinions that can be leveraged.
+
+The Enneagram can help. It is a powerful personality typing system, offers insight into team dynamics and assembling the ideal mix of members.
+
+In this blog, we will explore the significance of triad diversity, the impact of Enneagram dominance on team dynamics, strategies for achieving balance through diverse Enneagram types, and specific examples of effective type combinations. By harnessing the power of the Enneagram, you can craft high-performing teams that excel in problem-solving, decision-making, and collaboration.
 
 ## 1. Embracing Triad Diversity for Enhanced Team Dynamics
 

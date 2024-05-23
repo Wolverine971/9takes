@@ -37,7 +37,9 @@ pic: 'husband-and-wife'
     />
 </div>
 
-<p class="firstLetter">I have found that marriage is a forcing function for developing emotional intelligence.</p>
+<p class="firstLetter">Marriage is a forcing function for developing emotional intelligence.</p>
+
+At least it was for me.
 
 When I got married, my wife and I were in marital bliss! But that quickly wore off as reality set in that we were each married to flawed people who saw the world very differently. We seemed to be fighting more than what we thought was normal. And our attempts to resolve the conflict kept failing.
 

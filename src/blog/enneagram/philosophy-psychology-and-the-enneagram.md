@@ -24,7 +24,9 @@ Historical hints of the enneagram
 First principles
 Enneagram and Plato
 
-9 threads through the fabric of history -->
+9 threads through the fabric of history 
+
+update-->
 
 <div
   style="display: flex;
@@ -43,7 +45,9 @@ Enneagram and Plato
 
 <p class="firstLetter">Philosophy and Psychology, let's get poetic.</p>
 
-Understanding ourselves is a journey marked by fascinating waypoints in the intricate tapestry of human consciousness. One such is the Enneagram, a potent prism refracting the complexity of our behaviors and personal growth into understandable patterns. This voyage of self-discovery becomes even more profound when we trace the roots of the Enneagram back to its philosophical lineage. This article maps the fascinating intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul.
+Understanding ourselves is a hard thing to do. You are dealing with who you are a person and what it means to be consciousness.
+
+But there is a tool called the Enneagram, that brings a framework that morphs our behaviors, emotions and thoughts into understandable patterns. The Enneagram become more profound when we trace its roots back to its philosophical lineage. This article maps the intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul.
 
 Here, we dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into our minds' internal landscapes.
 

@@ -4,7 +4,7 @@ description: 'Where the study of Personality went wrong in the modern Psychologi
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2024-04-13'
+lastmod: '2024-05-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -33,33 +33,49 @@ pic: 'greek-mind'
     />
 </div>
 
-<p class="firstLetter">The mind can only be understood by experts who have the educational background. It is too complex.</p>
+<p class="firstLetter">There is a crucial mistake that academics make when talking about the mind.</p>
 
-Ya right.
+They talk in terms of hardware when they should be talking in terms of software.
 
-When people talk about the understanding of the mind they talk in terms of hardware. What is the biology of the brain. Where are the lobes and cortexes? What connects to what? What happens in the brain when a person sees a picture of a puppy?
+In high school, you learn about biology and the anatomy of the brain. You learn about the lobes and cortexes and what connects to what.
 
-But what happens when something goes wrong in the brain. In extreme cases one may undergo brain surgery, but more likely the person goes to a therapist or a psychologist to examine the software within the brain.
+But they don't talk about the software of the brain. They don't tell you what happens in the brain when people get stressed, angry, or ashamed. They might talk in terms of brain injury, where someone may need to undergo brain surgery. But when someone has depression... That is for the PHDs and licensed therapists to deal with. The brain's software is too complex to be understood by the uneducated.
+
+But that is not true.
 
 ## Understanding the Software in the Brain
 
-Exploring the human mind reveals a complex interplay between its physical structure and its intangible processes.
+Computer hardware is to computer software as the brain's lobes and cortices are to cognitive functions and processes.
 
-Much like a computer operates with both hardware and software, the human mind is formed of the brain's physical components and the immaterial elements like thoughts, emotions, and personality. Modern science has proficiently mapped the brain's anatomy, yet it struggles to decode the subtler aspects of how we think, feel, and engage with our surroundings. This exploration into the mind's "software" is crucial for a comprehensive understanding of human behavior.
+Much like a computer operates with hardware and software, the human mind is formed of the brain's physical components and the immaterial elements like thoughts, emotions, and personality. Modern science has proficiently mapped the brain's anatomy, yet it struggles to decode the subtler aspects of how we think, feel, and engage with our surroundings. The mind's "software" is not well understood by the layman.
 
-Grasping these intangible elements continues to be a formidable challenge, setting the stage for deeper inquiries into the psychological sciences.
+The brain's software is often only looked at when something goes wrong and someone needs a prescription.
+
+But other aspects of the brain's "software" hold insightful keys to what is happening behind our eyes.
 
 ### The Overlooked Gem: Personality Theory
 
-In the pursuit of empirical, tangible evidence, the subtle complexities of personality and emotion often get sidelined, dismissed as "pseudo-science" by those who favor measurable data. Yet, what if emotions are not just byproducts of biochemical processes but are central to shaping our identity and behavior?
+Personality Theory is often dismissed as "pseudo-science."
 
-### Emotions are often viewed as the problem
+Those who favor measurable data are often triggered when personality gets brought up. Yes, the different personality theory's floating around are imperfect however there is a paradox that the nay sayers must wrestle with.
 
-In our modern society, the default response to emotional struggles often involves quick pharmacological solutions rather than engaging discussions.
+**People are both similar and different.**
 
-The prevailing culture of immediate gratification pushes many to seek fast relief from discomfort, leading to a heavy reliance on medications as the first line of defense against emotional distress. This approach, while sometimes necessary, can overshadow the benefits of psychotherapy and personal reflection, which often provide more sustainable healing. By prioritizing prescriptions, we risk neglecting the deeper exploration of emotions that could unveil the root causes of psychological issues and foster long-term wellness.
+And all personality is is an attempt to explain the dimensions by which we are similar and different. And there is one personality system that does it better than the rest.
 
-Recognizing the value of conversations about emotions is essential for developing a more profound and comprehensive approach to mental health. Carl Jung understood the importance of emotions.
+And that personality system is the Enneagram.
+
+Why is the Enneagram so accurate? Because it creates personality types based off of emotions.
+
+### Emotions are viewed as the problem
+
+Many times the default response to emotional struggles often involves quick pharmacological solutions rather than engaging discussions.
+
+The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/blog/enneagram/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
+
+There is value in conversations about emotions. And it is essential for developing a comprehensive approach to mental health. 
+
+Carl Jung understood the importance of emotions.
 
 ### From Jung to Now: The Shift from software to hardware
 
@@ -147,7 +163,7 @@ https://a16z.com/author/vijay-pande/
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-13"
+        "@value": "2024-05-22"
       },
       "datePublished": {
         "@type": "Date",

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Communication Styles'
-description: 'Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.'
+title: 'Understanding the Unique Communication Styles of Each Enneagram Type'
+description: 'Explore the different communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.'
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2024-05-04'
+lastmod: '2024-05-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -35,22 +35,28 @@ pic: 'two-female-greek-statues-having-a-conversation'
 	/>
 </div>
 
-<p class="firstLetter">Want to be able to talk with anyone about anything?</p>
+<p class="firstLetter">Not everyone is speaking the same language.</p>
 
-The Enneagram can help. Below is a handy guide that shows us how different personality types talk and relate to one another. Each of the nine Enneagram types has a unique way of interacting.
+Some people are dialed into ideas and theories and prefer to talk about things in terms of data and facts.
+Some people are filled with energy and they aren't talking so much as they are getting energy out.
+Some people like to talk about the feelings evoked by all the interesting parts of life.
 
-Here we look at a slew of things related to communication:
+The Enneagram helps explain the communication styles of different people. Below is a guide that show how different personality types talk and relate to one another.
+
+Each of the nine Enneagram types has a unique way of interacting.
+
+Different:
 
 - body language
-- listening well
-- understanding feelings
-- being clear and brief
-- showing confidence
-- showing empathy
-- showing respect
-- giving feedback and adapting to changes.
+- ways of listening
+- understanding of feelings
+- ways of being clear
+- ways of showing confidence
+- ways of showing empathy
+- ways of showing respect
+- ways of giving feedback and adapting to changes.
 
-This blog will break down how these important parts work for each Enneagram type. It aims to make sense of these unique ways of communication, so you can better understand the people around you and improve your relationships.
+This blog aims to capture the unique ways of communication each Enneagram type prefers, so you can better understand the people around you and improve your relationships.
 
 <details open>
 <summary class="accordion">Table of Contents</summary>
@@ -627,7 +633,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-05-04"
+        "@value": "2024-05-22"
       },
       "datePublished": {
         "@type": "Date",
