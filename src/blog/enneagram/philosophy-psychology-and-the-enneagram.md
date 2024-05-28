@@ -24,7 +24,7 @@ Historical hints of the enneagram
 First principles
 Enneagram and Plato
 
-9 threads through the fabric of history 
+9 threads through the fabric of history
 
 update-->
 

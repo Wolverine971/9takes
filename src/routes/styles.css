@@ -43,7 +43,7 @@
 	--base-white-outline: #f0f5f9;
 
 	--base-grey-0: #d8d8d8;
-	--base-grey-1: #d4d4d4; 
+	--base-grey-1: #d4d4d4;
 	--base-grey-2: #cacaca;
 }
 
@@ -136,7 +136,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-	outline: 0.2rem solid var(--color-paladin-3);
+	outline: 1px solid var(--color-paladin-3);
 	border-radius: 5px;
 }
 
@@ -282,11 +282,13 @@ th {
 .scroll-table::-webkit-scrollbar-track {
 	border-radius: 5px;
 	box-shadow: 0 0 0.2rem var(--color-paladin-3);
+	border: 1px solid black;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
 	border-radius: 5px;
 	background-color: var(--color-paladin-3);
+	border: 1px solid black;
 }
 
 .scrollable-div {

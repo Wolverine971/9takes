@@ -13,7 +13,7 @@
 
 <svelte:window bind:innerWidth />
 
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: flex-start; align-items: center;">
 	<a
 		href="/questions/{questionData.url}"
 		class="question-card shimmer-button"
@@ -70,7 +70,7 @@
 		align-items: center;
 	}
 	.question-card {
-		width: 100%;
+		// width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -79,7 +79,7 @@
 		margin: 0.25rem 0 0.25rem 0;
 		padding: 0 1rem;
 		border-radius: 3px;
-		border: var(--classic-border);
+		// border: var(--classic-border);
 		// box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
 		// 	0 1px 5px 0 rgb(0 0 0 / 12%);
 	}

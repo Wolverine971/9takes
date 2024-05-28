@@ -376,16 +376,6 @@ Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course
       border: 1px solid grey;
     }
 
-   aside::-webkit-scrollbar {
-        width: 4px;
-    }
-   aside::-webkit-scrollbar-track {
-        box-shadow: 0 0 4px slategrey;
-    }
-   aside::-webkit-scrollbar-thumb {
-        background-color: slategrey;
-        /*outline: .5px solid slategrey;*/
-    }
    @media all and (max-width: 576px) {
        .section-content {
             /*border-right: 4px solid slategrey;*/

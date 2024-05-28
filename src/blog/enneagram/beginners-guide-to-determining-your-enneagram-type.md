@@ -41,7 +41,7 @@ adjust title
 
 <p class="firstLetter"> Ever felt misunderstood?</p>
 
-Have you ever felt like you did not understand someone else? 
+Have you ever felt like you did not understand someone else?
 
 People are different, and a personality system called the Enneagram can help demystify others and yourself. The Enneagram offers a framework for understanding people's core fears and motivations.
 
@@ -93,7 +93,7 @@ Another way to identify your core emotion would be to ask which emotion you have
 
 In the Enneagram, these core emotions relate to centers of intelligence.
 
- The negative emotion you feel forces you to develop coping mechanisms that help you survive. You develop a special "intelligence" to cope with that negative emotion.
+The negative emotion you feel forces you to develop coping mechanisms that help you survive. You develop a special "intelligence" to cope with that negative emotion.
 
 - Fear relates to intellectual intelligence
 - Shame relates to emotional intelligence
@@ -380,17 +380,6 @@ As Socrates said, “The more you know, the more you realize you don’t know, a
         transition: transform .7s ease-in-out;
         flex: 1;
         border: 1px solid grey;
-    }
-
-   aside::-webkit-scrollbar {
-        width: 4px;
-    }
-   aside::-webkit-scrollbar-track {
-        box-shadow: 0 0 4px slategrey;
-    }
-   aside::-webkit-scrollbar-thumb {
-        background-color: slategrey;
-        /*outline: .5px solid slategrey;*/
     }
    @media all and (max-width: 576px) {
        .section-content {

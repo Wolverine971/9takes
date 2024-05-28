@@ -52,7 +52,12 @@
 				/>
 
 				<div class="main-description">
-					<h1>Be the person who has considered all takes on a question.</h1>
+					<h1>Be the person who considered all takes on the question.</h1>
+					<h2 style="font-size: x-large">
+						There are at least 9 personality types with different takes on it...
+						<br />
+						at least.
+					</h2>
 					<h2
 						style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 3rem; align-items: center;"
 					>
@@ -62,12 +67,6 @@
 						<span style="margin: .2rem;">{'>'}</span>
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
 						>
-					</h2>
-					<h2 style="font-size: x-large">
-						Got a question? <br />There are at least 9 personality types with different takes on
-						it...
-						<br />
-						at least.
 					</h2>
 				</div>
 			</div>
@@ -87,7 +86,7 @@
 					<span class="purple-text">do</span>
 				</p>
 			</div>
-			<div style="width: 100%; padding: .5rem">
+			<div class="question-list" style="width: 100%; padding: .5rem">
 				{#each data?.top5Questions as questionData}
 					<QuestionItem {questionData} />
 				{/each}
@@ -501,6 +500,9 @@
 			font-size: 2.5rem;
 			line-height: 2.5rem;
 		}
+		.question-list {
+			display: flex;
+		}
 	}
 
 	@media (max-width: 1000px) {
@@ -509,6 +511,9 @@
 		}
 		.main-description {
 			min-width: 200px;
+			border-radius: 50px;
+			padding: 3rem 2rem;
+			border: 1px solid black;
 		}
 		.small-h4 {
 			font-size: 1.7rem;

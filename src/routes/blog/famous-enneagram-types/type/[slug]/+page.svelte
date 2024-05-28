@@ -86,7 +86,6 @@
 	a::after {
 		display: none !important;
 	}
-	
 
 	.inline-it {
 		display: inline-block;

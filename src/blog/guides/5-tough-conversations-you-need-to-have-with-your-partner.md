@@ -46,8 +46,9 @@ If you and your partner avoid these conversations, YNGMI - You're Nearing Grave 
 
 Let's explore these make or break conversations.
 
-## I. Understanding Your Partner's Core Emotions 
-Do you know what makes your partner tick? 
+## I. Understanding Your Partner's Core Emotions
+
+Do you know what makes your partner tick?
 
 Do you know what their childhood was like? Do you know if they have lingering wounds that still trigger strong emotions?
 
@@ -73,16 +74,17 @@ When you identify your partner's emotional landscape, you gain a roadmap for how
 
 You should know that there is a thing called the "Four Horsemen of the Relationship Apocalypse."
 
-The Four horsemen were identified by the Gottman Institute after they studied couples trying to identify what are the characteristics of a successful relationship. In that study they identified 4 behaviors that lead to couples breaking up or divorcing. 
+The Four horsemen were identified by the Gottman Institute after they studied couples trying to identify what are the characteristics of a successful relationship. In that study they identified 4 behaviors that lead to couples breaking up or divorcing.
 
 The four horsemen are
 
-1. Criticism - Attacking your partner's character with blame and accusation. 
+1. Criticism - Attacking your partner's character with blame and accusation.
 2. Contempt - Assuming a position of superiority and treating your partner with disrespect.
 3. Defensiveness - Denying responsibility, making excuses, and meeting one complaint with another.
 4. Stonewalling - Withdrawing and shutting down to avoid conflict.
 
 However there are antidotes to these four negative patterns. Assuming you have identified one of these negative patterns here are the antidotes:
+
 1. For criticism, use a gentle start-up focused on your feelings and needs.
 2. Replace contempt with a culture of appreciation and respect.
 3. Counter defensiveness by taking responsibility for your role.
@@ -96,9 +98,9 @@ The next thing you can do to grow your relationship is to get on the same page.
 
 ## III. Establishing a Shared Vision
 
-You need to have a conversation about each other's dreams. 
+You need to have a conversation about each other's dreams.
 
-If you don't discuss your individual dreams and find a way to merge them, you'll be living separate lives under the same roof. When you take the time to dive deep and discover what really matters to each of you, magic can happen. 
+If you don't discuss your individual dreams and find a way to merge them, you'll be living separate lives under the same roof. When you take the time to dive deep and discover what really matters to each of you, magic can happen.
 
 Try asking questions like:
 
@@ -106,7 +108,7 @@ Try asking questions like:
 - "When you picture us 10 years from now, what does our life look like? What adventures have we had? What have we created together?"
 - "What's most important to you? What are your non-negotiables and where are you willing to compromise?"
 
-You don't have to have a perfect plan. Just the awareness alone is enough to get the creative juices flowing so that both your lives can be headed in the  right direction. 
+You don't have to have a perfect plan. Just the awareness alone is enough to get the creative juices flowing so that both your lives can be headed in the right direction.
 
 Maybe your shared roadmap means living abroad for a year to satisfy your sense of wanderlust, while also pursuing a stable career path to meet your partner's need for security.
 
@@ -139,12 +141,13 @@ When you approach conflicts as an opportunity to understand each other better, y
 
 ## V. Nurturing Intimacy and Connection
 
-Its easy for the spark in your relationship to fade. 
+Its easy for the spark in your relationship to fade.
 
 If you aren't already married pretend you are for a minute. With the daily grind of work-kids-chores-dinner-netflix-repeat-, it's all too easy to drift into roommate mode with your partner. But neglecting your intimate connection is like forgetting to water a houseplant - eventually, it will shrivel up and die.
 
 The Gottmans found that the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/6-hours-a-week-to-a-better-relationship/">Magic Six Hours</a>" - a series of small, daily investments - can keep the spark alive:
-1. Partings: Take 2 minutes every morning to really connect before saying goodbye.  
+
+1. Partings: Take 2 minutes every morning to really connect before saying goodbye.
 2. Reunions: Spend 20 minutes at the end of each day sharing highlights and struggles.
 3. Appreciation: Find ways to express genuine appreciation and admiration.
 4. Affection: Offer physical affection consistently, even outside the bedroom.
@@ -152,6 +155,7 @@ The Gottmans found that the "<a class="external-link" target="_blank" rel="noope
 6. Hourly check-ins: Send a quick text or share a long hug - little moments of connection add up.
 
 In addition the Enneagram gives more insight into what different personalities need for intimacy:
+
 1. Ones need to feel respected and appreciated for their integrity.
 2. Twos need to feel cherished and central to their partner's life.
 3. Threes need their partner to see behind their successful image.

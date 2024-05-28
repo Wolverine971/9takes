@@ -199,7 +199,7 @@ Nines are peaceful, accommodating, and harmonious. They value unity, cooperation
 
 ## Wrapping Up
 
-By recognizing each Enneagram type's unique approach to communication, we can learn how to interact with people of different types effectively. 
+By recognizing each Enneagram type's unique approach to communication, we can learn how to interact with people of different types effectively.
 
 For a deeper dive check out our blogs on practical Enneagram <a style="font-weight: bold;" href="enneagram-communication-tips" >communication tips</a> and each Enneagram type's <a style="font-weight: bold;" href="enneagram-communication-styles" > communication style.</a> These resources can provide valuable insights and strategies for building empathy, understanding, and connection in all your relationships. As Suzanne Stabile writes in "The Path Between Us,"
 
@@ -285,18 +285,7 @@ Let's use the Enneagram to enhance our personal and professional lives through b
         border: 1px solid grey;
     }
 
-   aside::-webkit-scrollbar {
-        width: 4px;
-    }
-   aside::-webkit-scrollbar-track {
-        box-shadow: 0 0 4px slategrey;
-    }
-   aside::-webkit-scrollbar-thumb {
-        background-color: slategrey;
-        /*outline: .5px solid slategrey;*/
-    }
    @media all and (max-width: 576px) {
-        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

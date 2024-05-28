@@ -168,6 +168,4 @@ cwebp "background3.png" -o "background3.webp"
 			transform: translateX(calc(-1024px * (var(--num-images))));
 		}
 	}
-
-	
 </style>

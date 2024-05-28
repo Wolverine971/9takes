@@ -559,7 +559,7 @@
 		border-left: 1px solid;
 		border-bottom: 1px solid;
 		border-bottom-left-radius: 5px;
-    	border-bottom-right-radius: 5px;
+		border-bottom-right-radius: 5px;
 	}
 
 	.profile-avatar {

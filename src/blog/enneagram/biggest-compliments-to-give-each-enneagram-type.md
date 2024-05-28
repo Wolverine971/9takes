@@ -389,18 +389,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
         border: 1px solid grey;
     }
 
-   aside::-webkit-scrollbar {
-        width: 4px;
-    }
-   aside::-webkit-scrollbar-track {
-        box-shadow: 0 0 4px slategrey;
-    }
-   aside::-webkit-scrollbar-thumb {
-        background-color: slategrey;
-        /*outline: .5px solid slategrey;*/
-    }
    @media all and (max-width: 576px) {
-        
        .section-content {
             /*border-right: 4px solid slategrey;*/
             margin: 10px;

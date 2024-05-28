@@ -65,15 +65,15 @@
 {#if !browser || (comments?.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments?.length && parentType === 'comment')}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if comments?.length}
-			{#each comments as comment}
-				<Comment
-					{questionId}
-					{comment}
-					{user}
-					{parentData}
-					on:commentAdded={({ detail }) => refreshComments(detail)}
-				/>
-			{/each}
+		{#each comments as comment}
+			<Comment
+				{questionId}
+				{comment}
+				{user}
+				{parentData}
+				on:commentAdded={({ detail }) => refreshComments(detail)}
+			/>
+		{/each}
 		{#if comments?.length < comment_count && parentData?.flags?.userHasAnswered}
 			<button class="btn btn-secondary" on:click={loadMore}>
 				{#if loading}

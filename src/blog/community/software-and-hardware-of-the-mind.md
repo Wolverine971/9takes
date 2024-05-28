@@ -73,7 +73,7 @@ Many times the default response to emotional struggles often involves quick phar
 
 The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/blog/enneagram/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
 
-There is value in conversations about emotions. And it is essential for developing a comprehensive approach to mental health. 
+There is value in conversations about emotions. And it is essential for developing a comprehensive approach to mental health.
 
 Carl Jung understood the importance of emotions.
 

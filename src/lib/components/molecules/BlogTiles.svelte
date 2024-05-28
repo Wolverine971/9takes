@@ -313,7 +313,6 @@
 	a::after {
 		display: none !important;
 	}
-	
 
 	.temp-three-row {
 		display: grid;

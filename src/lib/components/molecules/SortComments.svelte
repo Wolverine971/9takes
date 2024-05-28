@@ -63,11 +63,7 @@
 			getModal('sorter').open();
 		}}
 	>
-		<SlidersIcon
-			iconStyle={'padding: 0.25rem; margin: .5rem'}
-			height={'1.5rem'}
-			fill={'#5407d9'}
-		/>
+		<SlidersIcon iconStyle={'padding: 0.25rem; margin: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 
 		Filter Comments
 	</button>
@@ -79,11 +75,7 @@
 			getModal('sorter').open();
 		}}
 	>
-		<SlidersIcon
-			iconStyle={'padding: 0.25rem; margin: .5rem'}
-			height={'1.5rem'}
-			fill={'#5407d9'}
-		/>
+		<SlidersIcon iconStyle={'padding: 0.25rem; margin: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
 	</button>
 {/if}
 
@@ -96,7 +88,7 @@
 					multiSelectOpen = !multiSelectOpen;
 				}}
 			>
-				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen}/>
+				<MultiSelect bind:selected options={typeOptions} open={multiSelectOpen} />
 			</div>
 		</Context>
 		<br />
@@ -113,15 +105,14 @@
 			value="Sort"
 			style="float: right;"
 			on:click={sort}
-			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''} btn btn-primary">
+			class="regular {!data?.flags?.userHasAnswered ? 'disabled' : ''} btn btn-primary"
+		>
 			{#if sortLoading}
 				<div class="loader" />
 			{:else}
 				Sort
 			{/if}
-			
-			</button
-		>
+		</button>
 	</div>
 </Modal2>
 

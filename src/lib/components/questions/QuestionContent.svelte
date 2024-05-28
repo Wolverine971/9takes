@@ -116,7 +116,7 @@
 	let commentContainerElement: HTMLElement | null;
 	let isFixed = false;
 	let isStop = false;
-	let showAiComments = true
+	let showAiComments = true;
 
 	const calculateHeightsAndSetClasses = () => {
 		if (commentScrollElement && commentContainerElement) {
@@ -321,8 +321,8 @@
 			<SortComments
 				{data}
 				on:commentsSorted={({ detail }) => {
-					sortComments(detail)
-					showAiComments = false
+					sortComments(detail);
+					showAiComments = false;
 				}}
 				size={'large'}
 			/>
@@ -354,7 +354,7 @@
 							: 'Must answer before seeing the comments'}
 					</span>
 				{/if}
-				<AIComments data={_data} parentType={'question'} {showAiComments}/>
+				<AIComments data={_data} parentType={'question'} {showAiComments} />
 				<Comments
 					questionId={_data.id}
 					comments={_data.comments}
@@ -420,7 +420,7 @@
 <style lang="scss">
 	.comments-card {
 		border: none;
-		margin: .5rem
+		margin: 0.5rem;
 	}
 	.vertical-display {
 		text-combine-upright: all;

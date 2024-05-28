@@ -73,6 +73,7 @@
 	.canned-resp-div {
 		border-radius: 5px;
 		padding: 0.5rem;
+		margin: 0.5rem;
 		border: var(--color-paladin-3) 1px solid;
 	}
 	.comment-text {

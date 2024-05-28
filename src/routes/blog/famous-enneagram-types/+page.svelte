@@ -119,7 +119,6 @@ politics, entertainment, and more.
 	a::after {
 		display: none !important;
 	}
-	
 
 	.inline-it {
 		display: inline-block;
@@ -160,7 +159,6 @@ politics, entertainment, and more.
 			filter: sepia(100%) hue-rotate(160deg);
 			border: 1px solid var(--color-theme-purple) !important;
 		}
-		
 	}
 
 	@media (max-width: 550px) {

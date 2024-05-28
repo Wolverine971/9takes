@@ -130,7 +130,6 @@
 			/>
 		{/if}
 	</button>
-	
 </div>
 
 <style lang="scss">

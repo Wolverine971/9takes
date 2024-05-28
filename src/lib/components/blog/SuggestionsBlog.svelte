@@ -41,7 +41,7 @@
 	a::after {
 		display: none !important;
 	}
-	
+
 	.blog-grid-container {
 		column-count: 3;
 		column-gap: 0.5rem;

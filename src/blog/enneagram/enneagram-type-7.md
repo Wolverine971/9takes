@@ -325,16 +325,6 @@ In this panel discussion, Enneagram expert Beatrice Chestnut sits down with a gr
         flex: 1;
     }
 
-   aside::-webkit-scrollbar {
-        width: 4px;
-    }
-   aside::-webkit-scrollbar-track {
-        box-shadow: 0 0 4px slategrey;
-    }
-   aside::-webkit-scrollbar-thumb {
-        background-color: slategrey;
-        /*outline: .5px solid slategrey;*/
-    }
    @media all and (max-width: 576px) {
        .section-content {
             /*border-right: 4px solid slategrey;*/
