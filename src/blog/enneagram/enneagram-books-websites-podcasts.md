@@ -16,7 +16,6 @@ pic: 'greek-statue-listening-to-a-podcast'
 
 <!-- todo go ham on this
 
-
 be the hub
 -->
 

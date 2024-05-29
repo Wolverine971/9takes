@@ -87,7 +87,7 @@ Here, we will describe each type's mental health risks and give examples of unhe
 
 Type 1s are susceptible to Obsessive-Compulsive Disorder, Depressive Personality Disorder, eating disorders, intense guilt, and self-destructive behaviors.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 1
 
 <!-- todo fill in examples, specific and tangible -->
 
@@ -95,7 +95,7 @@ Alex, a dedicated teacher and Type 1, starts fixating on flawlessness in lesson 
 
 Maria, a meticulous artist, becomes increasingly inflexible and self-righteous about her work. Her need for perfection evolves into obsessive-compulsive behaviors, alienating her from colleagues and leading to intense disillusionment.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 1
 
 Type 1s may rigidly adhere to their high standards, leading to a cycle of unrealistic expectations, self-criticism, and guilt. This pattern can amplify their predisposition to depressive and obsessive-compulsive behaviors.
 
@@ -103,13 +103,13 @@ Type 1s may rigidly adhere to their high standards, leading to a cycle of unreal
 
 Type 2s risk developing Histrionic Personality Disorder, hypochondriasis, and coercive behaviors like stalking.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 2
 
 Liam, a healthcare professional, deeply cares for his patients. He tries to emotionally bond with his patients but overtime resentment grows when patients don't follow his advice. He begins to find ways where he can assert himself so that he can have more and more control of his patients. He starts to blur the lines between patient care and manipulation. His behavior becomes increasingly coercive, leading to a distorted sense of entitlement and emotional turmoil.
 
-Emma, deeply invested in her friendship with Alice, gets jealous everytime Alice is with other friends. She tries to be a better friend to Alice than everyone else and she starts to obsess over Alice. Gradually this turns in to stalking Alice in an ongoing attempt to be the most important person in Alice's life.
+Emma, deeply invested in her friendship with Alice, gets jealous every time Alice is with other friends. She tries to be a better friend to Alice than everyone else and she starts to obsess over Alice. Gradually this turns in to stalking Alice in an ongoing attempt to be the most important person in Alice's life.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 2
 
 Type 2s' need for approval can drive them into manipulative behaviors, creating a vicious cycle of emotional dependency and self-deception, potentially leading to histrionic and coercive tendencies.
 
@@ -117,13 +117,13 @@ Type 2s' need for approval can drive them into manipulative behaviors, creating 
 
 Type 3s are prone to Narcissistic Personality Disorder, hypertension, depression, and narcissistic rage.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 3
 
 Jack, an ambitious executive, becomes consumed by his image of success. He enjoys climbing the corporate and social ladder and enjoys upgrading his lifestyle. This creates a vicious cycle where he has to work harder to keep up his lifestyle. This leads him to take shortcuts and play deceptive bureaucratic games at work in an attempt to get ahead.
 
 Sophia, a high-achieving student, wants to get into an Ivy League college. This causes her so much stress that she starts cheating on her tests. This makes her feel like an imposter, but she also justifies this, thinking she deserves what she wants. She starts to become hostile to anyone who challenges her intellectually, and she slowly starts becoming narcissistic as she develops unrealistic expectations for her life.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 3
 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
 
@@ -131,13 +131,13 @@ Type 3s might resort to dishonesty and a false self-image to maintain their faca
 
 Type 4s are at risk for severe depression, Narcissistic Personality Disorder, Avoidant Personality Disorder, and self-destructive behaviors.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 4
 
 Oliver, feeling disconnected from others, spirals into chronic long-term depression. His emotional volatility strains relationships, leading to self-sabotage and deepening his sense of alienation.
 
 Isabella, grappling with a sense of inadequacy, becomes obsessed with death and morbidity. Her unstable relationships and self-hatred culminate in acts of self-sabotage and rejection of positive influences.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 4
 
 Type 4s' intense emotional volatility can lead to a cycle of alienation, chronic depression, and self-sabotage, further exacerbating their predisposition to depressive and avoidant behaviors.
 
@@ -145,13 +145,13 @@ Type 4s' intense emotional volatility can lead to a cycle of alienation, chronic
 
 Type 5s face Schizoid, Schizotypal, Avoidant Personality Disorders, psychotic breaks, and suicidal tendencies.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 5
 
 Ethan, a researcher, increasingly isolates himself, neglecting his physical health. His eccentricity and refusal of help led to distorted perceptions and suicidal ideation.
 
 Ava, an introverted student, experiences severe insomnia and nightmares. Her growing isolation and hostility toward help result in a disconnection from reality and potential psychotic breaks.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 5
 
 Type 5s' tendency to isolate and neglect physical needs can spiral into severe mental health issues, including distorted perceptions and suicidal thoughts, further aggravated by their refusal to seek help.
 
@@ -159,13 +159,13 @@ Type 5s' tendency to isolate and neglect physical needs can spiral into severe m
 
 Type 6s are susceptible to Paranoid, Dependent, Borderline Personality Disorders, and intense anxiety attacks.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 6
 
 Noah, feeling insecure in his job, experiences intense anxiety and panic attacks. His fear of losing support leads to dependency and defiance, triggering a cycle of anxiety and depression.
 
 Mia, plagued by feelings of inferiority, becomes extraordinarily suspicious and paranoid. Her attachment to unhealthy relationships and impulsive defiance exacerbate her mental health challenges.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 6
 
 Type 6s' chronic fear and suspicion can create a feedback loop of anxiety and paranoia, leading to dependent and passive-aggressive behaviors that compound their Mental Health Risks.
 
@@ -173,13 +173,13 @@ Type 6s' chronic fear and suspicion can create a feedback loop of anxiety and pa
 
 Type 7s might develop Manic-Depressive Disorders, Histrionic Personality Disorder, and substance abuse issues.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 7
 
 Lucas, seeking to escape anxiety, falls into severe addictions. His impulsiveness and mood swings lead to periods of uncontrolled behavior and panic, indicating severe mental health issues.
 
 Charlotte, a vivacious socialite, experiences wild mood swings. Her attempts to avoid anxiety through compulsive activities result in debilitating addictions and manic-depressive behaviors.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 7
 
 Type 7s' escapism and pursuit of pleasure can lead to addictive behaviors and mood swings, exacerbating their risk for manic-depressive and substance abuse disorders.
 
@@ -187,13 +187,13 @@ Type 7s' escapism and pursuit of pleasure can lead to addictive behaviors and mo
 
 Type 8s are at risk for Antisocial Personality Disorder, sadistic behavior, and social isolation.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 8
 
 James, feeling betrayed, becomes increasingly isolated and bitter. His episodes of rage and violence reflect deepening mental health issues, leading to potential antisocial behaviors.
 
 Amelia, perceiving herself as an "outlaw," plots revenge against perceived enemies. Her lack of empathy and involvement in criminal behavior signify a descent into sadistic and antisocial tendencies.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 8
 
 Type 8s' strong sense of betrayal and need for control can lead to social isolation, rage, and violence, potentially exacerbating their predisposition to antisocial and sadistic behaviors.
 
@@ -201,13 +201,13 @@ Type 8s' strong sense of betrayal and need for control can lead to social isolat
 
 Type 9s face risks of Dissociative Disorders, Dependent and Schizoid Disorders, and severe depersonalization.
 
-### Unhealthy Spirals
+### Unhealthy Spirals for Type 9
 
 William, avoiding personal problems, falls into chronic depression and emotional flatness. His resistance to getting help and dependency on others signify a profound disconnection and mental health decline.
 
 Harper, feeling inadequate, experiences extreme dissociation. Her obstinacy against addressing issues leads to a state of confusion and profound disconnection, exacerbating her mental health issues.
 
-### Negative Coping Mechanisms
+### Negative Coping Mechanisms of Type 9
 
 Type 9s' denial of problems and tendency to yield to others can lead to severe long-term depersonalization and dissociation, compounding their risks for dissociative and dependent disorders.
 

@@ -32,7 +32,7 @@ pic: 'greek-statue-having-a-disagreement'
   />
 </div>
 
-<details open> 
+<details open>
 <summary class="accordion">Table of Contents</summary>
     <ul>
         <li><a href="#reframing">Reframing Conflict</a></li>

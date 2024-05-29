@@ -138,7 +138,7 @@ The mistake most people make is that they don't know how to listen right. Often 
 
 Instead, try to understand their perspective. This is called empathy.
 
-**The Power of Empathy**
+#### The Power of Empathy
 
 Empathy is like emotional street smarts.
 

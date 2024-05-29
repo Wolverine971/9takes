@@ -39,6 +39,6 @@ Tell me more.
 
 How to deal with someone threatening your identity- boz, lenny's podcast, facebook
 going out 4/19/2024
-https://youtu.be/_XqDB2Upr3s?si=nmJ3d6Hb2NFP5CiD&t=5230
+<!-- https://youtu.be/_XqDB2Upr3s?si=nmJ3d6Hb2NFP5CiD&t=5230 -->
 Identity threat- afraid of being wrong- react with curiosity
 omni vhora

@@ -45,7 +45,7 @@ We are going to look at the communication styles of each Enneagram type. It may 
 
 After you have learned your Enneagram Type its time to start thinking about the other possible Enneagram types of the people around you.
 
-### Ground Rules:
+### Ground Rules
 
 - Be patient and compassionate with yourself and others. Understanding and reflecting on who you are and who other people are takes time. And it takes time to get it right. Many people <a href="https://personalitypath.com/enneagram/mistypes/common-misidentifications/">mistype themselves and others</a> and the learning process is just that, a process. Don't try to rush it. There are many conversations that need to be had **trying to speed run self development doesn't work**.
 - Use conversations to discuss vulnerability so that you can uncover each other's preferred communication style.

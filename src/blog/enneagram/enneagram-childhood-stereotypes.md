@@ -172,7 +172,6 @@ If this resonates with you, we invite you to explore more articles like this one
   ]
 }
 
-
 </script>
 
 </svelte:head>

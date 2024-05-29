@@ -44,7 +44,6 @@ why do people hate Elon Musk
         Elon is ruthless when running his companies- hires and fires frequently
         crazy hard work ethic- sleep on factory floor- wasnt doing that out of stress but out of focus
 
-
     -->
 
 <script>

@@ -49,11 +49,11 @@ They approach their first date with clear expectations, perhaps even an ideal im
 
 Their preparation often includes thorough grooming, rehearsing conversation topics, and planning contingencies. They are careful with their appearance, striving to look presentable but not overly flashy. Their conversation topics might lean towards societal issues, morals, or personal achievements, as they love sharing their vision of a better world.
 
-### Red Flags
+### Red Flags for Type 1
 
 If a Perfectionist hears phrases like "I usually wing it" or "I don't care about rules," it can be a significant warning sign, implying a lack of organization and discipline. Type 1s value responsibility and might perceive such an attitude as careless.
 
-### Good Signals
+### Good Signals for Type 1
 
 On the other hand, statements like "I appreciate your attention to detail" or "I also strive to improve" can be heartening. These show respect for their principles and an alignment with their constant drive for self-improvement.
 
@@ -69,11 +69,11 @@ They are often in tune with others' needs and think extensively about making the
 
 The Helper's preparations might involve personal touches, like a small, thoughtful gift or choosing a location their date will surely enjoy. Their conversation may center on their date, showcasing their listening skills and genuine interest. From discussing their date's favorite hobbies to their loved ones, Type 2's approach fosters a warm, inviting atmosphere.
 
-### Red Flags
+### Red Flags for Type 2
 
 Phrases that suggest selfishness or lack of empathy, like "I don't care what others think," can alarm a Type 2. They value interpersonal relationships and a considerate nature.
 
-### Good Signals
+### Good Signals for Type 2
 
 Comments such as "Your kindness is touching" or "I love helping others too" indicate understanding and appreciation for the Helper's caring nature, which they would find reassuring.
 
@@ -88,11 +88,11 @@ The Achiever is goal-oriented and thrives on accomplishment. A first date, to th
 
 In preparation, they likely ensure they're well-groomed, dressed sharply, and arrive punctually. They might plan to steer conversations towards their achievements subtly, their passion projects, or future ambitions. However, they're also careful to engage with their date's interests and accomplishments, recognizing the importance of mutual respect in the budding relationship.
 
-### Red Flags
+### Red Flags for Type 3
 
 Hearing "Why bother trying so hard?" can be disheartening for the Achiever, as it undermines their ambitious nature. Type 3s are focused on their goals and can perceive such an attitude as complacency.
 
-### Good Signals
+### Good Signals for Type 3
 
 However, phrases like "Your drive is inspiring" or "I admire your achievements" can be encouraging. It shows an appreciation for their hard work and ambition.
 
@@ -108,11 +108,11 @@ They are introspective and might contemplate what they wish to share about thems
 
 Their preparations might involve choosing an unconventional date spot or wearing an outfit that stands out from the crowd. Conversation topics they favor often delve into art, culture, emotions, and personal experiences. For the Individualist, a first date is less about surface-level chit-chat and more about establishing an emotional connection.
 
-### Red Flags
+### Red Flags for Type 4
 
 Hearing "Why can't you be more like others?" can significantly deter Type 4s. They value their uniqueness, and any attempt to box them into societal norms can be off-putting.
 
-### Good Signals
+### Good Signals for Type 4
 
 On the positive side, remarks such as "I admire your creativity" or "Your unique perspective is fascinating" can deeply resonate with them. These affirmations validate their individuality and emotional depth.
 
@@ -130,11 +130,11 @@ Their thoughts likely involve understanding their date's character, potential co
 
 In preparation, they might read up on their date's interests or select a tranquil, low-key setting for the meeting. Their conversations might revolve around intellectual pursuits, theories, or fascinating trivia. For the Investigator, a successful first date involves engaging in conversations and mutual learning.
 
-### Red Flags
+### Red Flags for Type 5
 
 For the Investigator, statements like "I don't like reading" or "Who cares about details?" can be red flags. Type 5s value knowledge and curiosity, so a lack of intellectual engagement can be troubling.
 
-### Good Signals
+### Good Signals for Type 5
 
 In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which Type 5 finds appealing.
 
@@ -156,11 +156,11 @@ They might spend much time contemplating the possible outcomes, their date's int
 
 Their preparations often include a safety plan, ensuring they meet in a public place and someone knows where they're going. Their conversations might revolve around everyday topics like shared interests or mutual friends, which can help them feel more secure. For the Loyalist, a first date is about cautiously exploring the potential of a new relationship while ensuring they remain safe and comfortable.
 
-### Red Flags
+### Red Flags for Type 6
 
 Comments such as "I'm a free spirit, I don't make plans" or "Rules are meant to be broken" can unsettle a Loyalist. Type 6s value security and dependability, and such a cavalier attitude might imply unreliability.
 
-### Good Signals
+### Good Signals for Type 6
 
 Hearing phrases like "I believe in loyalty" or "I've planned a safe route for our hike" can be a good signal for Type 6. These show a commitment to safety and stability that the Loyalist appreciates.
 
@@ -178,11 +178,11 @@ Their thoughts are likely buzzing with the fun they'll have, the stories they'll
 
 Their preparations could involve planning a dynamic, fun-filled date with plenty of laughter and energy. Their conversation topics might range from their latest adventure to their next big plan, often sparking excitement and interest. For the Enthusiast, a first date is about sharing their zest for life and seeing if their date matches their high spirits.
 
-### Red Flags
+### Red Flags for Type 7
 
 If an Enthusiast hears phrases like "I prefer routine and stability" or "Let's not try something new," they might see them as red flags. Type 7s are enthusiastic and crave new experiences; a reluctance to explore could be concerning.
 
-### Good Signals
+### Good Signals for Type 7
 
 Comments such as "I love trying new things" or "I'm excited about our next adventure" will likely be welcomed, signaling a shared passion for adventure and exploration.
 
@@ -200,11 +200,11 @@ They're likely to think about their date's character and potential compatibility
 
 They prepare a date for open conversation, possibly at a relaxed restaurant or a quiet park. They will likely drive the conversation toward meaningful topics like ambitions, personal growth, or social issues. For the Challenger, a first date is about establishing mutual respect and seeing if their date can meet them at their level.
 
-### Red Flags
+### Red Flags for Type 8
 
 Hearing "I don't like confrontation" or "I prefer to follow the crowd" can be red flags for the Challenger. Type 8s value honesty and assertiveness, and a tendency to avoid conflict or conform may suggest incompatibility.
 
-### Good Signals
+### Good Signals for Type 8
 
 On the other hand, phrases like "I admire your courage" or "I value straightforwardness too" can be perceived as good signals, as they align with their candid nature and desire for justice.
 
@@ -222,11 +222,11 @@ They likely contemplate ensuring a smooth, pleasant experience for both parties.
 
 Their preparations involve selecting a serene, comfortable location for the date. They will likely focus conversations on shared interests and enjoyable topics, striving to maintain a calm and peaceful atmosphere. For the Peacemaker, a first date fosters mutual understanding and comfort, setting the groundwork for a harmonious connection.
 
-### Red Flags
+### Red Flags for Type 9
 
 Statements such as "I enjoy a good argument" or "I don't mind conflict" can be alarming for a Peacemaker. Type 9s seek harmony and can view such attitudes as disruptive.
 
-### Good Signals
+### Good Signals for Type 9
 
 Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfortable" are encouraging for them. These suggest a shared preference for calm and unity, integral to their nature.
 
@@ -239,7 +239,6 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 Hopefully it is clear by now how different our expectations can be.
 
 But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you liked this, check [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
-
 
 <svelte:head>
 
