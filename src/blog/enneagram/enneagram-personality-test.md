@@ -4,7 +4,7 @@ description: 'Identify your Enneagram type with this 9takes guide. Explore core 
 author: 'DJ Wayne'
 date: '2023-03-11'
 loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
-lastmod: '2024-04-12'
+lastmod: '2024-05-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -26,7 +26,7 @@ previewHtml: ''
 <p class="firstLetter"> Unlike other personality tests, the Enneagram gets at your core motivations
 and fears.</p>
 
-A individual's thinking, feeling, and behavior patterns can be synthesized, forming an archetype or a "type." There are several steps to determining your type but the first step is to understand what personality is.
+An individual's thinking, feeling, and behavior patterns can be synthesized, forming an archetype or a "type." Several steps are involved in determining one's type, but the first is to understand one's personality.
 
 ## Personality Demystified
 
@@ -34,14 +34,14 @@ A individual's thinking, feeling, and behavior patterns can be synthesized, form
 
 There are many definitions of personality.
 
-But personality is just an attempt to define the dimensions by which people are similar and different. For example, the Meyers-Briggs personality test (MBTI) separates people by:
+However, personality is just an attempt to define the dimensions by which people are similar and different. For example, the Meyers-Briggs personality test (MBTI) separates people by:
 
 - introverts and extroverts
 - intuitive or sensing
 - thinking and feeling
 - judging and perceiving
 
-The Enneagram categorizes individuals based on their core emotions, which are developed in response to childhood wounds. These wounds lead to the development of coping mechanisms and a heightened sensitivity to the negative emotions experienced during the formative event. As a result, each Enneagram type is characterized by a specific set of emotional patterns and reactions that stem from their unique childhood experiences.
+The Enneagram categorizes individuals based on their core emotions developed in response to childhood wounds. These wounds lead to the development of coping mechanisms and a heightened sensitivity to the negative emotions experienced during the formative event. As a result, each Enneagram type is characterized by a specific set of emotional patterns and reactions that stem from their unique childhood experiences.
 
 Something happened in your past that still affects you, and you are compensating for
 it somehow. It could be many things:
@@ -54,19 +54,25 @@ it somehow. It could be many things:
 
 There is a great article here that explains and gives excellent examples of the <a class="external-link" target="_blank" rel=" noopener noreferrer" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >Enneagram's childhood wounds</a>.
 
-You do not have to specifically identify your childhood wound to find your
-type. Still, whatever your childhood was, it caused you to be sensitive to a specific
-emotion. Identifying that core emotion that affects you is the first step.
+You do not have to identify your childhood wound to find your
+type. Whatever your childhood was, it caused you to be sensitive to a specific
+emotion.
 
-### Emotions Tangent
+The first step is to identify your core emotion.
 
-Identifying what core emotion affects you the most may seem overwhelming, but it might take more work than you think. Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>; otherwise, keep reading to help determine your type.
+### Sidebar on Emotions
+
+Identifying what core emotion affects you the most may seem overwhelming, but it might take less work than you think.
+
+That is because emotions are complex, but they are not numerous.
+
+Click here if you would like to do <a href="/blog/experiment" >a quick experiment with regards to emotions</a>; otherwise, keep reading to help determine your type.
 
 ## Identifying your dominant core emotion
 
-The three core emotions in the Enneagram are anger, fear, and shame, which we will
-explain later. We all feel these emotions occasionally and do what
-we can to deal with them. But ask yourself which of these emotions comes up for
+The three core emotions in the Enneagram are anger, fear, and shame.
+
+We all feel these emotions occasionally, and we deal with them in different ways. But ask yourself which of these emotions comes up for
 you the most in daily life? You either
 
 - Feel that emotion and use it to motivate you
@@ -91,17 +97,22 @@ developing a specific intelligence. The core emotions map to the centers of Inte
 
 ### The link between **fear** and **intellectual** intelligence
 
-If you think about it, fear is born out of possible situations that might go wrong.
-When you are feeling fear, you are stuck in your head. You feel insecure because you
+Fear is born out anticipating dangerous situations.
+
+When you are feeling fear, you are thinking about those situations and likely you are stuck in your head. You feel insecure because you
 need to know a little more so you don't fear and feel secure.
-So, over time, you develop sound reasoning and logical thinking abilities. It becomes
+Over time, you develop sound reasoning and logical thinking abilities. It becomes
 easy for you to logically think through complex situations.
 
 ### The link between **shame** and **emotional** intelligence
 
-If you are feeling shame, you can feel other people judging you. When you feel shame,
+If you are feeling shame, you can feel other people judging you.
+
+When you feel shame,
 you feel all the negative emotions wrapped up in someone not liking
-you. You feel insecure because you need to be seen in a positive light again so you don't feel shame but good about yourself. Overtime your emotional
+you. You feel insecure because you can sense the negative feelings
+
+need to be seen in a positive light again so you don't feel shame but good about yourself. Overtime your emotional
 Intelligence develops, and you can sense how people feel based on how you would feel in the same situation. It becomes easy for you to connect with others emotionally.
 
 ### The link between **anger** and **instinctual** intelligence
@@ -127,7 +138,7 @@ For now, read the types and determine which, if any, you identify with. More to 
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "The blog aims to guide readers in determining their Enneagram type by examining their core motivations and fears. It delves into 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types.",
+      "articleBody": "The blog aims to guide readers in determining their Enneagram type by examining their core motivations and fears. It delves into 'childhood wounds' and how they shape one's Enneagram type. The blog also discusses the three core emotions—anger, fear, and shame—and how they relate to different Enneagram types."
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -142,7 +153,7 @@ For now, read the types and determine which, if any, you identify with. More to 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-04-12"
+        "@value": "2024-05-16"
       },
       "datePublished": {
         "@type": "Date",

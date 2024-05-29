@@ -30,7 +30,6 @@ accept influence to give influence
 learn from the other side and really try to understand their perspective
 There is a word for this, it is called steelmanning the other side
 
-
 The news does not steelman the other side. They straw man the other side
 Explain straw manning
 
@@ -133,9 +132,7 @@ This is how you speed-run an argument towards progress. Once you open yourself t
 
 If the other side takes the time to try to understand your views, you are not having an argument anymore.
 
----
-
-I hope these tips help you experience what winning feels like.
+I hope this help you experience what winning feels like.
 
 <svelte:head>
 

@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['celebrity']
+type: ['musician']
 person: 'Lana-Del-Ray'
 wikipedia: ''
 twitter: ''
@@ -25,10 +25,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter"></p>
-
-> **Disclaimer** This analysis of Lana Del Ray's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lana Del Ray.
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -43,62 +39,9 @@ tiktok: ''
 	/>
 </div>
 
-<details>
-<summary class="accordion">TL;DR: Why Lana Del Ray is an Enneagram type 4 </summary>
-<div class="panel">
-<ul>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-<li>
-</li>
-</ul>
-  </div>
-</details>
+> **Disclaimer** This analysis of Lana Del Ray's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lana.
 
-## How Each Enneagram Type Perceives Lana Del Ray
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Lana Del Ray:
-
-<article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p></p>
-</article>
-<article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p></p>
-</article>
+<p class="firstLetter"></p>
 
 <svelte:head>
 
