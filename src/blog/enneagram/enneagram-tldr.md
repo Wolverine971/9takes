@@ -37,7 +37,7 @@ pic: 'greek-dude-reading-book'
 
 It is based on core motivations, fears, and childhood trauma. Each Enneagram type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
 
-The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads. The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame.
+**The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads.** The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame.
 
 The unique intelligences connected with the emotions are the following:
 
@@ -71,7 +71,7 @@ The following are the 9 Enneagram types.
 
 ## How to Determine Your Enneagram Type
 
-While online tests can provide a starting point for determining your Enneagram type, the most effective way to identify your type is through self-reflection and introspection. Here are some tips to help you determine your Enneagram type:
+While online tests can provide a starting point for determining your Enneagram type, **the most effective way to identify your type is through self-reflection and introspection.** Here are some tips to help you determine your Enneagram type:
 
 1. Consider your core motivations and fears: Each Enneagram type is motivated by a core desire and is driven by a core fear. Reflect on what drives you and what you are afraid of, and see which type aligns with your deepest motivations and fears.
 

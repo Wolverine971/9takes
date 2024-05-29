@@ -79,7 +79,7 @@ We would like to think that we are not capable of becoming mentally ill. But the
 
 Here we are going to use the Enneagram to look at the negative aspects of different personalities. We will examine how each personality type in an unhealthy state can go down a negative spiral toward mental illness. We draw insights from "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wisdom-Enneagram-Psychological-Spiritual-Personality/dp/0553378201?&_encoding=UTF8&tag=9takes00-20&linkCode=ur2&linkId=934a7202b7f300b1da70746ab59814ba&camp=1789&creative=9325">The Wisdom of the Enneagram</a>" by Don Richard Riso and Russ Hudson, which delves into the dark side of each Enneagram type.
 
-These dark sides are sometimes called the "shadow side," and it is central to this exploration. In examining these shadow sides we hope to better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
+These dark sides are sometimes called the **"shadow side,"** and it is central to this exploration. In examining these shadow sides we hope to better understand how each Enneagram type might navigate their complex mental landscapes and potentially spiral into unhealthy patterns illustrated through specific scenarios.
 
 Here, we will describe each type's mental health risks and give examples of unhealthy spirals and how each type might find themselves in these negative situations.
 

@@ -47,7 +47,7 @@ After you have learned your Enneagram Type its time to start thinking about the 
 
 ### Ground Rules:
 
-- Be patient and compassionate with yourself and others. Understanding and reflecting on who you are and who other people are takes time. And it takes time to get it right. Many people <a href="https://personalitypath.com/enneagram/mistypes/common-misidentifications/">mistype themselves and others</a> and the learning process is just that, a process. No need trying to rush it. There are many conversations that can be had so approach personality topics with patience.
+- Be patient and compassionate with yourself and others. Understanding and reflecting on who you are and who other people are takes time. And it takes time to get it right. Many people <a href="https://personalitypath.com/enneagram/mistypes/common-misidentifications/">mistype themselves and others</a> and the learning process is just that, a process. Don't try to rush it. There are many conversations that need to be had **trying to speed run self development doesn't work**.
 - Use conversations to discuss vulnerability so that you can uncover each other's preferred communication style.
 
 ### Steps
@@ -58,7 +58,9 @@ After you have learned your Enneagram Type its time to start thinking about the 
 
 ## Relationship Communication Playbook for Each Enneagram Type
 
-By understanding your type and the types of those around you, you can make deeper connections and build stronger relationships. Here, we will explore each type by looking at what they need from their partner, how they may affect their partner, what they like to talk about, and what they don't want to discuss. We'll also include an Imaginary scenario for typical conversations each type may have regularly.
+Now its time to explore each type by looking at what they need from their partner.
+
+We will also get into how each type affects their partner, what they like to talk about, and what they don't want to discuss. We'll also include scenarios that each type may regularly bump into.
 
 <section class="section-content">
 

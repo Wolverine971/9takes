@@ -46,7 +46,7 @@ The trick is knowing how to identify them. There are also almost an infinite amo
 
 <h2 id="understanding">Understanding Your Energizers and Drainers</h2>
 
-Many Enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue you into identifying your strengths and weaknesses. Keep in mind that what energizes one person may drain another. So, while some people love public speaking, others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
+Many Enneagram authors talk about energizers and drainers. Have you ever noticed how certain activities energize you while others drain you? This can clue you into identifying your strengths and weaknesses. Keep in mind that **what energizes one person may drain another person**. So, while some people love public speaking, others dread it. Some people thrive in social situations, while others fear turning into a pumpkin and are closely monitoring the clock.
 
 Let's look at common energizers and drainers for each Enneagram type and think about how to leverage our strengths and mitigate our weaknesses.
 

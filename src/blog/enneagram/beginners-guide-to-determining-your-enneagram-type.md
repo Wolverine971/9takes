@@ -47,7 +47,7 @@ People are different, and a personality system called the Enneagram can help dem
 
 I remember how life was before I discovered my Enneagram type.
 
-My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over the facts and trying to impose our versions of the truth on each other. We thought we already understood each other's perspectives, but we did not slow down and dive deep into where we were each coming from. The Enneagram helped us slow down. It was a tool and a lifeline for our relationship. The more we dove into the Enneagram and each other's type, the more we began to see into each other's inner world.
+My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over the facts and trying to impose our versions of the truth on each other. We thought we already understood each other's perspectives, but we did not slow down and dive deep into where we were each coming from. The Enneagram helped us slow down. It was a tool and a lifeline for our relationship. **The more we dove into the Enneagram and each other's type, the more we began to see into each other's inner world.**
 
 It helped us resolve our conflict then, and we continue to use it now.
 

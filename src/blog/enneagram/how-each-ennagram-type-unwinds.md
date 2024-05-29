@@ -145,7 +145,11 @@ Enneagram Type 9s, known as Peacemakers, excel in environments of harmony and ca
 
 ## Conclusion
 
-Now that you’ve discovered relaxation techniques tailored to your Enneagram type, it’s time to put this knowledge into practice. Each type has its unique pathway to recharge and find balance, so experiment with the suggestions that resonate with your personality. Remember, the goal isn’t just to unwind for the moment but to cultivate habits that sustain your mental and emotional well-being long-term. So, whether you’re diving into a new adventure, embracing tranquility, or connecting deeply with loved ones, embrace these strategies as part of your journey towards a more balanced and joyful life. Happy relaxing!
+Now that you’ve discovered relaxation techniques tailored to your Enneagram type, it’s time to put this knowledge into practice.
+
+Each type has its unique pathway to recharge and find balance, so experiment with the suggestions that resonate with your personality. Remember, the goal isn’t just to unwind for the moment but to cultivate habits that sustain your mental and emotional well-being long-term.
+
+So, whether you’re diving into a new adventure, embracing tranquility, or connecting deeply with loved ones, embrace these strategies as part of your journey towards a more balanced and joyful life. Happy relaxing!
 
 <svelte:head>
 

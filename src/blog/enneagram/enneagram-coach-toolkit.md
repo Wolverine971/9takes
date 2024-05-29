@@ -45,7 +45,7 @@ trends in conflict resolution
 
 You know so many things and can help many people, but there is a barrier. And that barrier is partly that people don't know about the Enneagram. At first glance, people can get intimidated by all the information coming at them when they attempt to learn the Enneagram.
 
-But to be an effective coach, you need only assign impactful homework while avoiding beginner explanation pitfalls.
+But to be an effective coach, you need to assign impactful homework. And avoid the avoidable explanation pitfalls.
 
 ## The Power of Well-Designed Homework
 

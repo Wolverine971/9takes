@@ -37,7 +37,7 @@ pic: 'greek-statue-babies'
 
 <p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
 
-Well, park your scroll thumb or mousey flicker for a moment, and let's take a walk down memory lane and revisit some trauma. JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know.
+Well, park your scroll thumb or mousey flicker for a moment, and take a walk down memory lane. **We are gonna try to revisit some trauma.** JK, we're diving deep into the realm of childhood through the lens of the Enneagram and looking at some stereotypes that may or may not apply to you or other people you know.
 
 ## Type 1: The Little Perfectionists
 

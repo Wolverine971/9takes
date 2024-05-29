@@ -34,11 +34,11 @@ pic: 'greek-statues-on-a-first-date'
    />
 </div>
 
-<p class="firstLetter">Ever get a little nervous before a first date?</p>
+<p class="firstLetter">Everyone gets a little nervous before a first date.</p>
 
-You're not alone. There is so much going on for a person before and during a first date. In this blog, we journey into each Enneagram type's mindset for a first date. We will examine how each type prepares, what they likely feel, and their unique takes on dating red flags and green signals.
+There is so much to think about and plan for and there are so many ways for the date to go sideways. In this blog, we explore each Enneagram type's mindset going into a first date. We examine how each type prepares, what they likely feel, and their unique preferences when it comes to red and green flags.
 
-This isn't a foolproof dating guide. It's a lens to better understand and empathize with your date - or even yourself. Dive in, and let's decode the dating dance, starting with Type 1, The Perfectionist...
+**There is no foolproof dating guide, but if there was one it would mention the ideas in this blog.** It's a lens to better understand and empathize with your date - or even yourself. Dive in, and let's decode the dating dance, starting with Type 1, The Perfectionist...
 
 <section class="section-content">
 <h2 style="padding: 0; margin-top: 1em">Enneagram Type 1: The Perfectionist</h2>
@@ -236,9 +236,10 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 ## Conclusion
 
-As we unravel the final threads in this exploration, it should be clear how different our expectations can be, particularly on something as personal as a first date. This is just the tip of the iceberg. The Enneagram holds deeper secrets waiting to be explored. Understanding the Enneagram means understanding yourself and those around you better. If you liked this, check [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
+Hopefully it is clear by now how different our expectations can be.
 
-Also, if you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you liked this, check [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
+
 
 <svelte:head>
 

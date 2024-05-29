@@ -13,7 +13,7 @@ blog: true
 previewHtml: ''
 pic: 'neoclassical-fortress2'
 ---
-
+<!-- todo update -->
 <script>
   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
 	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";

@@ -53,7 +53,7 @@ Alex is thinking about who to invite. Who will increase his clout? He is very aw
 
 Do you know someone like Alex who might approach planning a party this way? Is Alex similar to or different from you?
 
-It is essential to consider your motivations for throwing the party and then consider the attendees' motivations.
+Be sure to consider your motivations for throwing a party and then think about what your guests want out of this party.
 
 ### The Invite Strategy
 

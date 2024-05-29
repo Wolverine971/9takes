@@ -36,7 +36,7 @@ previewHtml: ''
 
 <p class="firstLetter">"Is the Enneagram a religious thing?"</p>
 
-Well, the answer is complex. The Enneagram is old. Some say it is ancient. One thing is clear: It is used within various religious and spiritual traditions for growth and self-understanding. But it is not inherently religious. There is no council or governing body. At its core, the Enneagram is a psychological tool—a system that can guide students toward a profound understanding of themselves and others.
+Well, the answer is complex. The Enneagram is old. Some say it is ancient. One thing is clear: It is used within various religious and spiritual traditions for growth and self-understanding. But it is not inherently religious. There is no council or governing body. At its core, the Enneagram is a psychological tool—a system that can guide students towards understanding themselves and others.
 
 With that, let's look at the Enneagram's various religious connections.
 
