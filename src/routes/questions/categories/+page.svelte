@@ -119,8 +119,8 @@
 																						>
 																						<span title="question count"
 																							>({scat?.question_count > 1
-																								? `${scat?.question_count} comments`
-																								: '1 comment'})</span
+																								? `${scat?.question_count} questions`
+																								: '1 question'})</span
 																						>
 																					</a>
 																				</li>
@@ -143,8 +143,8 @@
 															<!-- <span>{subSubCategory?.question_count}</span> -->
 															<span title="question count"
 																>({subSubCategory?.question_count > 1
-																	? `${subSubCategory?.question_count} comments`
-																	: '1 comment'})</span
+																	? `${subSubCategory?.question_count} questions`
+																	: '1 question'})</span
 															>
 														</a>
 													</li>
@@ -179,8 +179,8 @@
 
 																		<span title="question count"
 																			>({subSubCategory?.question_count > 1
-																				? `${subSubCategory?.question_count} comments`
-																				: '1 comment'})</span
+																				? `${subSubCategory?.question_count} questions`
+																				: '1 question'})</span
 																		>
 																	</a>
 																</li>
