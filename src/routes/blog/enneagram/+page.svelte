@@ -14,7 +14,8 @@
 <BlogPageHead
 	data={{
 		title: '9takes Enneagram Blogs',
-		description: 'List of blogs explaining different parts of the Enneagram'
+		description:
+			'Topics related to the Enneagram including the nine types, personal development, relationships, and more.'
 	}}
 	slug={'blog/enneagram'}
 />

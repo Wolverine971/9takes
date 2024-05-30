@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 6: The Loyalist'
-description: 'Understanding the Enneagram Type 6: The Loyalist'
+description: "Learn about the Loyalist or Skeptic's commitment to security and questioning nature. See how Sixes navigate trust and preparedness."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
-lastmod: '2024-05-07'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -284,7 +284,7 @@ Key Takeaways:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-07",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

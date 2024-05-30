@@ -4,7 +4,7 @@ description: 'Navigate relationship conflict with this guide. Learn to avoid com
 author: 'DJ Wayne'
 date: '2023-08-24'
 loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -203,143 +203,157 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
 <svelte:head>
 
 <script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "articleBody": "This guide aims to be your go-to resource for navigating relationship conflicts effectively. It delves into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-05-04"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-08-24"
-      },
-      "description": "Navigate the complexities of relationship conflict with this definitive guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.",
-      "headline": "The Definitive Guide to Dealing with Relationship Conflict Part 1",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1",
-        "@type": "WebPage"
-      },
-      "image":{
-        "@type":"ImageObject",
-        "height":900,
-        "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
-        "width":900
-      },
-      "about": [
+{
+    "@context": "http://schema.org",
+    "@graph": [
         {
-            "@type": "Thing",
-            "name": "Communication",
-            "description": "Communication is commonly defined as the transmission of information. Its precise definition is disputed and there are disagreements about whether unintentional or failed transmissions are included and whether communication not only transmits meaning but also creates it",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q11024",
-                "http://en.wikipedia.org/wiki/Communication",
-                "https://www.google.com/search?kgmid=/m/01lhf"
-            ]
+            "@type": "Article",
+            "articleBody": "This guide aims to be your go-to resource for navigating relationship conflicts effectively. It delves into expert advice, common pitfalls, and practical steps to turn disagreements into opportunities for growth.",
+            "creator": {
+                "@type": "Person",
+                "name": "DJ Wayne",
+                "sameAs": [
+                    "https://www.instagram.com/djwayne3/",
+                    "https://www.youtube.com/@djwayne3",
+                    "https://www.linkedin.com/in/davidtwayne/",
+                    "https://twitter.com/djwayne3"
+                ]
+            },
+            "author": {
+                "@type": "Person",
+                "name": "DJ Wayne",
+                "sameAs": [
+                    "https://www.instagram.com/djwayne3/",
+                    "https://www.youtube.com/@djwayne3",
+                    "https://www.linkedin.com/in/davidtwayne/",
+                    "https://twitter.com/djwayne3"
+                ]
+            },
+            "dateModified": {
+                "@type": "Date",
+                "@value": "2024-05-30"
+            },
+            "datePublished": {
+                "@type": "Date",
+                "@value": "2023-08-24"
+            },
+            "description": "Navigate the complexities of relationship conflict with this definitive guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.",
+            "headline": "The Definitive Guide to Dealing with Relationship Conflict Part 1",
+            "mainEntityOfPage": {
+                "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1",
+                "@type": "WebPage"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "height": 900,
+                "url": "https://9takes.com/blogs/greek-statue-having-a-disagreement.webp",
+                "width": 900
+            },
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Communication",
+                    "description": "Communication is commonly defined as the transmission of information. Its precise definition is disputed and there are disagreements about whether unintentional or failed transmissions are included and whether communication not only transmits meaning but also creates it",
+                    "SameAs": [
+                        "https://www.wikidata.org/wiki/Q11024",
+                        "http://en.wikipedia.org/wiki/Communication",
+                        "https://www.google.com/search?kgmid=/m/01lhf"
+                    ]
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Conflict resolution",
+                    "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group (e",
+                    "SameAs": [
+                        "https://www.wikidata.org/wiki/Q1194317",
+                        "http://en.wikipedia.org/wiki/Conflict_resolution",
+                        "https://www.google.com/search?kgmid=/m/0dl3gq"
+                    ]
+                },
+                {
+                    "@type": "Thing",
+                    "name": "John Gottman",
+                    "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
+                    "SameAs": [
+                        "https://www.wikidata.org/wiki/Q776341",
+                        "http://en.wikipedia.org/wiki/John_Gottman",
+                        "https://www.google.com/search?kgmid=/m/05y739y"
+                    ]
+                }
+            ],
+            "mentions": [
+                {
+                    "@type": "Thing",
+                    "name": "Conflict resolution",
+                    "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group",
+                    "SameAs": [
+                        "https://www.wikidata.org/wiki/Q1194317",
+                        "http://en.wikipedia.org/wiki/Conflict_resolution",
+                        "https://www.google.com/search?kgmid=/m/0dl3gq"
+                    ]
+                },
+                {
+                    "@type": "Thing",
+                    "name": "John Gottman",
+                    "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
+                    "SameAs": [
+                        "https://www.wikidata.org/wiki/Q776341",
+                        "http://en.wikipedia.org/wiki/John_Gottman",
+                        "https://www.google.com/search?kgmid=/m/05y739y"
+                    ]
+                },
+                {
+                    "@type": "Person",
+                    "name": "Tony Robbins",
+                    "sameAs": [
+                        "https://www.tonyrobbins.com/",
+                        "https://en.wikipedia.org/wiki/Tony_Robbins"
+                    ]
+                }
+            ],
+            "publisher": {
+                "@type": "Organization",
+                "sameAs": [
+                    "https://www.instagram.com/9takesdotcom/",
+                    "https://twitter.com/9takesdotcom"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://9takes.com/brand/darkRubix.png"
+                },
+                "name": "9takes"
+            }
         },
         {
-            "@type": "Thing",
-            "name": "Conflict resolution",
-            "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group (e",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q1194317",
-                "http://en.wikipedia.org/wiki/Conflict_resolution",
-                "https://www.google.com/search?kgmid=/m/0dl3gq"
-            ]
-        },
-        {
-            "@type": "Thing",
-            "name": "John Gottman",
-            "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
-            "SameAs": [
-                "https://www.wikidata.org/wiki/Q776341",
-                "http://en.wikipedia.org/wiki/John_Gottman",
-                "https://www.google.com/search?kgmid=/m/05y739y"
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage Conflict can make or break your relationship."
+                    },
+                    "name": "Why is conflict management crucial in relationships?"
+                },
+                {
+                    "@type": "Question",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Dr. John Gottman identifies four conflict styles that can hurt your relationship: criticism, contempt, defensiveness, and stonewalling. These styles can rip at the very fabric of your relationship if not addressed."
+                    },
+                    "name": "What are the Four Horsemen in relationship conflict?"
+                },
+                {
+                    "@type": "Question",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. The goal isn't to win the argument but to strengthen the relationship."
+                    },
+                    "name": "How can conflicts be resolved effectively?"
+                }
             ]
         }
-      ],
-      "mentions": [
-          {
-              "@type": "Thing",
-              "name": "Conflict resolution",
-              "description": "Conflict resolution is conceptualized as the methods and processes involved in facilitating the peaceful ending of conflict and retribution. Committed group members attempt to resolve group conflicts by actively communicating information about their conflicting motives or ideologies to the rest of group",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q1194317",
-                  "http://en.wikipedia.org/wiki/Conflict_resolution",
-                  "https://www.google.com/search?kgmid=/m/0dl3gq"
-              ]
-          },
-          {
-              "@type": "Thing",
-              "name": "John Gottman",
-              "description": "John Mordechai Gottman (born April 26 1942) is a Jewish American psychologist professor emeritus of psychology at the University of Washington. His work focuses on divorce prediction and marital stability through relationship analyses",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q776341",
-                  "http://en.wikipedia.org/wiki/John_Gottman",
-                  "https://www.google.com/search?kgmid=/m/05y739y"
-              ]
-          }
-      ]
-      {
-        "@type": "Person",
-        "name": "Tony Robbins",
-        "sameAs": ["https://www.tonyrobbins.com/", "https://en.wikipedia.org/wiki/Tony_Robbins"]
-      }],
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Conflict is not necessarily a bad thing. It can be an opportunity for growth and better understanding between partners. However, how you manage Conflict can make or break your relationship."
-          },
-          "name": "Why is conflict management crucial in relationships?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dr. John Gottman identifies four conflict styles that can hurt your relationship: criticism, contempt, defensiveness, and stonewalling. These styles can rip at the very fabric of your relationship if not addressed."
-          },
-          "name": "What are the Four Horsemen in relationship conflict?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "By understanding harmful conflict styles and adopting healthy communication strategies, you can turn disagreements into opportunities for growth. The goal isn't to win the argument but to strengthen the relationship."
-          },
-          "name": "How can conflicts be resolved effectively?"
-        }
-      ]
-    }
-  ]
+    ]
 }
 
 </script>

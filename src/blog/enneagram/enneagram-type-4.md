@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 4: The Individualist'
-description: 'Understanding the Enneagram Type 4: The Individualist'
+description: "Dive into the Individualist or Romantic's unique creativity and self-expression. Explore how Fours navigate deep emotions and desires."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
-lastmod: '2024-05-07'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -273,7 +273,7 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-07",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

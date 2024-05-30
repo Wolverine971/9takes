@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 1: The Perfectionist'
-description: 'Understanding the Enneagram Type 1: The Perfectionist'
+description: "Discover the Perfectionist or Reformer's traits, strengths, and challenges. Learn how Ones strive for integrity and excellence."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -290,7 +290,7 @@ Key insights include:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "description": "An in-depth overview of Enneagram Type 1, also known as the Perfectionist or the Reformer, covering characteristics, strengths, weaknesses, challenges, and growth strategies.",
       "headline": "Enneagram Type 1 Overview: Characteristics, Strengths, Weaknesses, and Growth",

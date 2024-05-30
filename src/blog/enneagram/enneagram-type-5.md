@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 5: The Observer'
-description: 'Understanding the Enneagram Type 5: The Observer'
+description: "Understand the Investigator or Observer's thirst for knowledge and need for privacy. Discover how Fives analyze the world and conserve energy."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
-lastmod: '2024-05-07'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -271,7 +271,7 @@ Key Takeaways:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-07",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 5",

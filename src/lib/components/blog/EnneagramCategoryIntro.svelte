@@ -458,7 +458,7 @@
 		data={{
 			title: `9takes- Enneagram Resources`,
 			description:
-				'Blogs that serve as various resources for those interested in the Enneagram and its applciations.',
+				'Various resources for those interested in the Enneagram and personality theory and its applications.',
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
@@ -552,7 +552,7 @@
 	<BlogPageHead
 		data={{
 			title: `9takes- Blogs for using the Enneagram in specific situations`,
-			description: 'Blogs that explore how each Enneagram type behaves in specific situations.',
+			description: 'Blogs and listicles that explore Enneagram types in specific situations.',
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',

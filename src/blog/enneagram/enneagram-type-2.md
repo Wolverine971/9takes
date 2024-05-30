@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 2: The Helper'
-description: 'Understanding the Enneagram Type 2: The Helper'
+description: "Explore the Helper or Giver's empathetic and caring nature. Understand how Twos prioritize others' needs and seek love."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
-lastmod: '2024-05-07'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -271,7 +271,7 @@ In this video, Beatrice Chestnut hosts a panel discussion with several individua
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-07",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "description": "A comprehensive overview of Enneagram Type 2 individuals, including their characteristics, strengths, weaknesses, motivations, fears, relationships, workplace behavior, potential pitfalls, growth, and development",
       "headline": "Enneagram Type 2 Overview: Characteristics, Strengths, Weaknesses, and Growth",

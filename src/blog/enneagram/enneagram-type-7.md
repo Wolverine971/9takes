@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 7: The Enthusiast'
-description: 'Understanding the Enneagram Type 7: The Enthusiast'
+description: "Uncover the Enthusiast or Epicure's lust for life and adventurous spirit. Explore how Sevens seek joy and avoid emotional pain."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -253,7 +253,7 @@ In this panel discussion, Enneagram expert Beatrice Chestnut sits down with a gr
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

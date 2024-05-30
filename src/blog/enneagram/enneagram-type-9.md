@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 9: The Peacemaker'
-description: 'Understanding the Enneagram Type 9: The Peacemaker'
+description: "Explore the Peacemaker or Mediator's desire for harmony and inner peace. Understand how Nines mediate conflicts and blend in with others."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -281,7 +281,7 @@ In this video, Beatrice Chestnut moderates a panel of Enneagram Type 9s who shar
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram Type 9",

@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 3: The Achiever'
-description: 'Understanding the Enneagram Type 3: The Achiever'
+description: "Uncover the Achiever or Performer's drive for success and recognition. Learn how Threes excel in goals and adapt to expectations."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -349,7 +349,7 @@ In this video, Beatrice Chestnut moderates a panel discussion with several Ennea
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",

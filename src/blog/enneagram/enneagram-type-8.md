@@ -1,10 +1,10 @@
 ---
 title: 'Enneagram Type 8: The Challenger'
-description: 'Understanding the Enneagram Type 8: The Challenger'
+description: "Discover the Challenger or Protector's self-confidence and assertive nature. Learn how Eights protect others and strive for control."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
-lastmod: '2024-05-04'
+lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -285,7 +285,7 @@ Key takeaways from the video include:
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-05-04",
+      "dateModified": "2024-05-30",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
