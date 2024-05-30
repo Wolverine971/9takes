@@ -65,6 +65,9 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="twitter:url" content={`https://9takes.com/${slug}`} />
 	<meta name="twitter:image" content={`https://9takes.com/blogs/${data?.pic}.webp`} />
+	{#if data?.pic}
+		<meta name="twitter:image:alt" content={data?.pic?.split('-').join(' ')} />
+	{/if}
 
 	{@html `<script type="application/ld+json">${jsonld}</script>`}
 </svelte:head>

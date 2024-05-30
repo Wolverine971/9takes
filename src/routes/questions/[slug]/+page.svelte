@@ -107,10 +107,14 @@
 		}
 	};
 	let innerWidth = 0;
-	const title = `9takes | ${data.question.question_formatted || data.question.question}`.slice(
-		0,
-		60
-	);
+	const bigTitle = `9takes | ${data.question.question_formatted || data.question.question}`;
+	let title = '';
+	if (bigTitle.length >= 57) {
+		title = `${bigTitle.slice(0, 57)}...`;
+	} else {
+		title = bigTitle;
+	}
+
 	const description = `🏛️ Give your take and get 9 different personalities' takes on this question.`;
 	const slug = data.question.url;
 	const url = `https://9takes.com/questions/${slug}`;

@@ -44,6 +44,9 @@
 		property="twitter:image"
 		content="https://9takes.com/types/{data.enneagram}s/{data.person}.webp"
 	/>
+	{#if data?.pic}
+		<meta name="twitter:image:alt" content={data?.person?.split('-').join(' ')} />
+	{/if}
 
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

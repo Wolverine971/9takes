@@ -55,7 +55,10 @@
 
 <svelte:head>
 	<title>9takes | Questions</title>
-	<meta name="description" content="User generated questions with comments sorted by personality" />
+	<meta
+		name="description"
+		content="User generated questions and answers, can sort by Enneagram personality type but cannot see comments until you comment 😉"
+	/>
 	<link rel="canonical" href="https://9takes.com/questions" />
 </svelte:head>
 
