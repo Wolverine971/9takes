@@ -39,7 +39,12 @@
 	<Modal2 id="mobile-nav">
 		<nav class="mobile-nav" aria-label="Main Navigation">
 			<ul class="menu">
-				<li><a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a></li>
+				<li>
+					<a
+						href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+						class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a
+					>
+				</li>
 				<li>
 					<a
 						href={'/questions'}

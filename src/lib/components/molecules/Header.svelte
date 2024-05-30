@@ -89,7 +89,11 @@
 			>
 				<MobileHam />
 
-				<a href="/" class="brand" aria-labelledby="nineTakesBrandLogo">
+				<a
+					href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+					class="brand"
+					aria-labelledby="nineTakesBrandLogo"
+				>
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 				</a>
 
@@ -128,7 +132,11 @@
 					'absolute-pos'}"
 				aria-label="Main Navigation"
 			>
-				<a href="/" class="brand left" aria-label="Home">
+				<a
+					href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+					class="brand left"
+					aria-label="Home"
+				>
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 					{#if innerWidth > 1000 && $page.url.pathname !== '/'}
 						<Scribble text={'9takes'} />
@@ -136,7 +144,10 @@
 				</a>
 
 				<div class="center menu {$page.url.pathname === '/' ? 'home-page' : ''} dope-nav-menu">
-					<a href="/" class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap">
+					<a
+						href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+						class="{$page.url.pathname === '/' ? 'active-link' : ''} a-wrap"
+					>
 						<div
 							class="nav-text nav-element nav-element1 {$page.url.pathname === '/'
 								? 'active-link'

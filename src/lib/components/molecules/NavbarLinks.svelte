@@ -17,7 +17,7 @@
 
 <div class="navbar-blogs ">
 	<a
-		href="/"
+		href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
 		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/' && 'active-link'}"
 		aria-current={$page.url.pathname === '/' ? 'page' : undefined}>Home</a
 	>

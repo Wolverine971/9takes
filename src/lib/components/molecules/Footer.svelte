@@ -7,7 +7,10 @@
 <footer class="footer">
 	<ul class="footer-links">
 		<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-			<a href="/" class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a>
+			<a
+				href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+				class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a
+			>
 		</li>
 		<li aria-current={$page.url.pathname.startsWith('/questions') ? 'page' : undefined}>
 			<a href="/questions" class={$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}
