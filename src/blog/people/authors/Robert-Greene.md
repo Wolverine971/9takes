@@ -26,6 +26,9 @@ tiktok: ''
 
     48 laws of power
 
+	https://www.youtube.com/shorts/Xm89eujMIpQ
+	inside his mind
+
 5
 
 https://youtube.com/shorts/hJiW0YoVh1o?si=O1H9VMC_eM0NnEys
