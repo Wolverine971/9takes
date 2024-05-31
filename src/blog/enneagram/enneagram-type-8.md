@@ -52,7 +52,7 @@ Therefore their chosen life strategy is to continually get stronger and gain pow
 
 <section class="section-content">
 
-<h2>Enneagram 8 Description</h2>
+<h2 id="description">Enneagram 8 Description</h2>
 
 Enneagram Type 8 personalities are marked by strength, protectiveness, and a straightforward approach to life.
 

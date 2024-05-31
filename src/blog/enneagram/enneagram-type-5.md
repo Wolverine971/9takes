@@ -45,7 +45,7 @@ These individuals often exhibit introverted tendencies, cherishing their time in
 
 <section class="section-content">
 
-<h2>Enneagram 5 Description</h2>
+<h2 id="description">Enneagram 5 Description</h2>
 
 Enneagram Type 5 personalities are known for their intense curiosity and innovative thinking. They seek to uncover the world's mysteries. They have an independent nature and like to explore a variety of subjects, often going deep down the rabbit hole of ideas and theories. To them the game of life is a quest for knowledge where you win when you have it all. **They prefer to think before acting and emotions are often thought of as a phenomenon to be observed rather than a feeling to be felt**.
 

@@ -52,7 +52,7 @@ The Loyalist's core emotion is fear. They are constantly on the lookout for pote
 
 <section class="section-content">
 
-<h2>Enneagram 6 Description</h2>
+<h2 id="description">Enneagram 6 Description</h2>
 
 Type 6's are often described as responsible, reliable, and hardworking.
 

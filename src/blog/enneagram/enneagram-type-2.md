@@ -47,7 +47,7 @@ Understanding these aspects is key to appreciating the unique qualities they bri
 
 <section class="section-content">
 
-<h2>Enneagram 2 Description</h2>
+<h2 id="description">Enneagram 2 Description</h2>
 
 Type 2s are recognized for their caring, empathetic nature and a strong desire to serve others.
 

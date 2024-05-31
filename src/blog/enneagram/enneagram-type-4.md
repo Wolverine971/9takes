@@ -45,7 +45,7 @@ Being in the Feeling Center or Heart Triad means that they make decisions based 
 
 <section class="section-content">
 
-<h2>Enneagram 4 Description</h2>
+<h2 id="description">Enneagram 4 Description</h2>
 
 Enneagram Type 4s are known for their strong sense of self and desire to express individuality.
 

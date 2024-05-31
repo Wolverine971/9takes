@@ -45,7 +45,7 @@ They are empathetic, optimistic, and strongly desire to create a peaceful and co
 
 <section class="section-content">
 
-<h2>Enneagram 9 Description</h2>
+<h2 id="description">Enneagram 9 Description</h2>
 
 Type 9's are often described as easy-going, peaceful, and level-headed.
 
@@ -143,7 +143,7 @@ Additionally, Enneagram Type 9 individuals may fear making the wrong decision or
 
 <section class="section-content">
 
-<h2>🤯Enneagram 9s Under Stress</h2>
+<h2 id="stress">🤯Enneagram 9s Under Stress</h2>
 
 Under stress, the usually calm and accommodating Type 9 may become uncharacteristically anxious, indecisive, and suspicious.
 

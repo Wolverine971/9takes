@@ -16,8 +16,8 @@ twitter: ''
 instagram:
 tiktok:
 ---
+<!-- 
 what did he say when his son died
-
 
 - Throughout his political career, Joe Biden has been a strong advocate for healthcare reform. He played a key role in passing the Affordable Care Act (ACA) in 2010, which has provided millions of Americans with access to affordable health insurance.
 - Biden has been a champion for cancer research, leading the "Cancer Moonshot" initiative during the Obama administration. This initiative aimed to accelerate progress in cancer prevention, detection, and treatment, and brought together researchers, oncologists, and patient advocates.
@@ -25,14 +25,11 @@ what did he say when his son died
 - Biden has consistently supported environmental protection and combating climate change. He played a role in securing the Paris Climate Agreement in 2015 and has proposed ambitious plans to reduce carbon emissions and invest in clean energy.
 - Throughout his career, Biden has been known for his empathy and ability to connect with people on a personal level. He has often shared his own experiences with loss and grief, and has been a source of comfort for many Americans during difficult times.
 
-
-
 - Biden had a stuttering problem as a child and young adult. He worked hard to overcome it by reciting poetry in front of a mirror and practicing speaking techniques.
 - He was first elected to the U.S. Senate at the age of 29, making him one of the youngest senators in history.
 - Biden has a deep love for classic cars and owns a 1967 Corvette Stingray.
 - He is the first president to have a female vice president, Kamala Harris, as his running mate.
-- Biden has a strong connection to his Irish heritage. He has often spoken about the influence of his Irish Catholic upbringing and has quoted Irish poets in his speeches.
-
+- Biden has a strong connection to his Irish heritage. He has often spoken about the influence of his Irish Catholic upbringing and has quoted Irish poets in his speeches. -->
 
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";

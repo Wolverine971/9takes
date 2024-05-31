@@ -45,7 +45,7 @@ Their ability to consistently find the silver lining and their eagerness for new
 
 <section class="section-content">
 
-<h2>Enneagram 7 Description</h2>
+<h2 id="description">Enneagram 7 Description</h2>
 
 Known as "The Enthusiast," Enneagram Type 7 personalities are a whirlwind of energy and optimism, constantly seeking new adventures and experiences. Their life is a quest for enjoyment and discovery, marked by an unquenchable curiosity and a desire to live life to its fullest.
 

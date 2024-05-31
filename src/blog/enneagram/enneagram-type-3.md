@@ -45,7 +45,7 @@ They are the most ambitious and success-driven personality types. They strongly 
 
 <section class="section-content">
 
-<h2>Enneagram 3 Description and Characteristics</h2>
+<h2 id="description">Enneagram 3 Description</h2>
 
 Type 3 personalities are distinguished by ambition, charisma, and a strong desire for success. The person who is low-key bragging at a party is likely a type 3. They want to feel good about themselves and are conscious of their image.
 
