@@ -409,11 +409,17 @@ textarea {
 	transition: background-position-x 1000ms;
 }
 
-.blog > h2,
-.blog > h3,
-.blog > h4 {
+.blog > h2 {
 	margin: 1.5rem 0 0 !important;
 	padding: 1.5rem 0 0 !important;
+}
+.blog > h3 {
+	margin: 1rem 0 0 !important;
+	padding: 1rem 0 0 !important;
+}
+.blog > h4 {
+	margin: 0.5rem 0 0 !important;
+	padding: 0.5rem 0 0 !important;
 }
 
 @media all and (width <=576px) {
@@ -465,10 +471,20 @@ textarea {
 		margin-bottom: 0.8rem;
 	}
 
-	.blog > h2,
-	.blog > h3,
+	.blog > h2 {
+		padding: 1.2rem 0 1rem 0 !important;
+		margin: 1.2rem 0 0 !important;
+
+		/* margin: 1.5rem 0 0 !important;
+	padding: 1.5rem 0 0 !important; */
+	}
+	.blog > h3 {
+		padding: 1rem 0 0.7rem 0 !important;
+		margin: 1rem 0 0 !important;
+	}
 	.blog > h4 {
-		padding: 1.5rem 0 1rem 0 !important;
+		padding: 0.7rem 0 0.5rem 0 !important;
+		margin: 0.5rem 0 0 !important;
 	}
 }
 
