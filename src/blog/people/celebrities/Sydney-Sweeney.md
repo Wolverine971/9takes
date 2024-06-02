@@ -83,7 +83,9 @@ She is driven by a powerful desire to succeed and be recognized for her accompli
 
 **Sweeney is also has unique adaptability.**
 
-She can read a room and has the uncanny ability to present herself in the best possible light. This is a hallmark of the Type 3 personality. She seamlessly navigates the demands of the entertainment industry, showcasing her versatility as an actress and her skill in managing her public image. However, like many Type 3s, Sweeney has also struggled with feelings of worthlessness and a fear of failure. 
+She can read a room and has the uncanny ability to present herself in the best possible light.
+
+This is a hallmark of the Type 3 personality. She seamlessly navigates the demands of the entertainment industry, showcasing her versatility as an actress and her skill in managing her public image. However, like many Type 3s, Sweeney has also struggled with feelings of worthlessness and a fear of failure.
 
 In an interview with Glamour, she admitted, **"I put a lot of pressure on myself. I have this constant fear that I'm not good enough, that I'm not doing enough."** This inner dialogue reflects the Type 3's core desire to be valued and admired for their achievements, as well as their underlying fear of being perceived as worthless or incompetent.
 
@@ -97,7 +99,7 @@ Born and raised in a small town in Washington state, Sydney Sweeney's childhood 
 
 ## Rise to Fame
 
-Sweeney's big break came when she landed the role of Eden in the HBO series "The Handmaid's Tale." 
+Sweeney's big break came when she landed the role of Eden in the HBO series "The Handmaid's Tale."
 
 Her powerful performance caught the attention of critics and audiences alike, showcasing her incredible range as an actress. Co-star Elisabeth Moss praised Sweeney's dedication, saying, "She's so prepared and so professional. She's wise beyond her years."
 
@@ -109,7 +111,7 @@ Her powerful performance caught the attention of critics and audiences alike, sh
 
 ### Challenging Roles and Intense Preparation
 
-Sweeney's commitment to her acting career is evident in the challenging roles she takes on and the intense preparation she puts into each character. 
+Sweeney's commitment to her acting career is evident in the challenging roles she takes on and the intense preparation she puts into each character.
 
 For her portrayal of Cassie in "Euphoria," Sweeney went above and beyond, creating a detailed character journal and backstory that allowed her to fully immerse herself in the role. She delved deep into Cassie's psyche, exploring her motivations, fears, and desires, which ultimately translated into a raw and authentic performance on screen. Sweeney's meticulous approach to character development showcases her unwavering dedication to her craft and her willingness to push herself to new heights.
 
@@ -163,7 +165,7 @@ Navigating the world of fame as an Enneagram Type 3 is no easy feat, but Sydney 
 
 ## Sydney Sweeney's Legacy and Current Work
 
-With a bright future ahead, Sydney Sweeney continues to take on new challenges and pursue her passions. She has expressed interest in potentially starting her own production company one day to create more opportunities for young actresses. 
+With a bright future ahead, Sydney Sweeney continues to take on new challenges and pursue her passions. She has expressed interest in potentially starting her own production company one day to create more opportunities for young actresses.
 
 Does this insight into Sweeney's Enneagram type change the way you view her as an actress and a public figure? Can understanding the motivations and fears behind her actions foster a greater sense of empathy and appreciation for the challenges she faces in the spotlight?
 
