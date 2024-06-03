@@ -98,7 +98,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Ian Cron Twitter" title="Ian Cron Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="ianmorgancron.com">ianmorgancron.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://ianmorgancron.com">ianmorgancron.com</a>
     </p>
 </article>
 
@@ -115,7 +115,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Beatrice Chestnut Twitter" title="Beatrice Chestnut Twitter" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="beatricechestnut.com">beatricechestnut.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://beatricechestnut.com">beatricechestnut.com</a>
     </p>
 </article>
 
@@ -147,7 +147,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Russ Hudson Twitter" title="Russ Hudson Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="russhudson.com">russhudson.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://russhudson.com">russhudson.com</a>
     </p>
 </article>
 
@@ -164,7 +164,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Suzanne Stabile Twitter" title="Suzanne Stabile Twitter" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="SuzanneStabile.com">SuzanneStabile.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://SuzanneStabile.com">SuzanneStabile.com</a>
     </p>
 </article>
 
@@ -180,7 +180,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Sean Palmer Twitter" title="Sean Palmer Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="seanisaacpalmer.com">seanisaacpalmer.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://seanisaacpalmer.com">seanisaacpalmer.com</a>
     </p>
 </article>
 
@@ -198,7 +198,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
         <img loading="lazy" src={twitter} alt="Christopher Heuertz Twitter" title="Christopher Heuertz Twitter"
             width="40" height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="chrisheuertz.com">chrisheuertz.com</a>
+    <a class="external-link" target="_blank" rel="noreferrer" href="https://chrisheuertz.com">chrisheuertz.com</a>
     </p>
 </article>
 

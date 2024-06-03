@@ -180,9 +180,12 @@ If you like diving into personality, explore our <a href="/questions" >questions
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Sydney Sweeney from the perspective of the Enneagram Type 3. Known for her dedication to her craft, advocacy for mental health awareness, and ability to navigate challenges, Sydney embodies many characteristics of Type 3 personalities. The article discusses various facets of Sydney's life and career that demonstrate her Type 3 characteristics, including her rise to fame, personal struggles, and passions.",
-      "creator": [
-        "DJ Wayne"
-      ],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

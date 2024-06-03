@@ -132,9 +132,16 @@ If you like diving into personality, explore our <a href="/questions" >questions
         {
             "@type": "Article",
             "articleBody": "This article delves into the personality and inner world of Meryl Streep, the legendary actress known for her versatility and emotional depth. Through the lens of the Enneagram personality typing system, the article explores Streep's characteristics as a Type 2, also known as 'The Helper.' It discusses her empathetic nature, her ability to bring depth to her roles, her activism, and how these traits relate to the core attributes of an Enneagram Type 2.",
-            "creator": [
-                "David Wayne"
-            ],
+            "creator": {
+                "@type": "Person",
+                "name": "David Wayne",
+                "sameAs": [
+                    "https://www.instagram.com/djwayne3/",
+                    "https://www.youtube.com/@djwayne3",
+                    "https://www.linkedin.com/in/davidtwayne/",
+                    "https://twitter.com/djwayne3"
+                ]
+            },
             "author": {
                 "@type": "Person",
                 "name": "David Wayne",
