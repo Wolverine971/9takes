@@ -160,8 +160,8 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 - **Childhood Stereotype**: Commonly nurtured in caring environments but felt that love was conditional on their helpfulness. They might have had a family member who needed extra care, placing the child in a caregiver role early on.
 - **Childhood Wound**: Developed a belief that their worth was tied to their ability to care for others, often neglecting their own needs and desires.
 - **Developmental Aspects**:
-  - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
-  - May have received praise and acknowledgment primarily when supporting or nurturing others.
+    - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
+    - May have received praise and acknowledgment primarily when supporting or nurturing others.
 - **Typical Behaviors**: Always ready to help, often putting others' needs before their own. May have taken on roles like mediator or caretaker within the family.
 - **Thoughts and Feelings**: Felt a sense of belonging and value when helping others but simultaneously a deep longing for unconditional love and acceptance for themselves.
 - **View on Childhood**: Often fondly remember moments of connection and care but may also feel a sense of loss for not being seen or valued for their individuality. They might wish they had been encouraged to prioritize their own needs and desires.

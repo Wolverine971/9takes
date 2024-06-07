@@ -3,8 +3,6 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	export let data: PageData;
 

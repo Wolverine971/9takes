@@ -26,11 +26,15 @@ blog: true
 
 <p class="firstLetter">Type 8s, are known as "The Challengers."</p>
 
-They embody assertiveness and self-confidence but they need control.
+They embody assertiveness and self-confidence and they need control.
 
-Their directness and tendency to control situations can be perceived as domineering, but this is their go-to coping mechanism (and it has served them well since childhood). At some point in an 8's childhood, they learned to not be weak or put themselves in a vulnerable situation.
+They are the quintessential rugged individuals.
 
-Therefore their chosen life strategy is to continually get stronger and gain power in all aspects of life so that they never have to be vulnerable again.
+They are direct and can be perceived as domineering. Their go-to coping mechanism is to control the situation (**and it has served them well since childhood**). At some point in an 8's childhood, they learned to never show weakness because when you do you will get crushed.
+
+8s learned to develop a shell. They learned that in order to survive they needed to be strong.
+
+Their chosen life strategy is to get stronger and gain power in every aspect of life so that they never have to feel vulnerable again.
 
 <details open>
 <summary class="accordion">Table of Contents</summary>
@@ -155,8 +159,8 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 - **Childhood Stereotype**: Raised in environments where they felt they had to be strong and assertive to protect themselves or others.
 - **Childhood Wound**: Encountered situations where they felt vulnerable or powerless, leading to a focus on building strength and control. Developed a protective shell to shield their vulnerability, often by asserting dominance or independence.
 - **Developmental Aspects**:
-  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
 - **Typical Behaviors**: Natural leaders often take charge in group settings and are unafraid to challenge authority.
 - **Thoughts and Feelings**: Strong sense of justice and protection, often masking a deep sensitivity and fear of being controlled or harmed.
 - **View on Childhood**: Often, it is a formative period where they learn to be self-reliant and strong but may regret not being able to show vulnerability or experience carefree dependence.

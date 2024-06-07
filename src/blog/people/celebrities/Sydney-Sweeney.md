@@ -30,7 +30,6 @@ Sweeney is dedicated to her craft and is known for her intense preparation for r
 
 She has spoken out against the objectification and sexualization of young actresses in Hollywood. Sweeney has advocated for more substantial and complex roles for women that go beyond superficial stereotypes.
 
-
 Sweeney grew up in a small town in Washington state and spent much of her childhood outdoors, fishing and riding dirt bikes. This upbringing instilled in her a love of nature and adventure.
 
 She is a trained MMA fighter and has incorporated her fighting skills into some of her acting roles. Sweeney enjoys the physical and mental challenge of martial arts.
@@ -40,7 +39,6 @@ Sweeney is an avid reader and has said that books were her escape growing up. So
 She is passionate about photography and often brings a film camera to set to document her experiences. Sweeney has said that photography allows her to express her creativity in a different way than acting.
 
 Sweeney has a business degree from the University of California, Los Angeles. She has expressed interest in potentially starting her own production company one day to create more opportunities for young actresses.
-
 
 -->
 <!-- // keywords:  -->
