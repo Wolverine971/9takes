@@ -258,22 +258,5 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 <style lang="scss">
 
-   .section-content {
-        margin: 1rem 0;
-        padding: 1rem;
-        transition: transform .7s ease-in-out;
-        flex: 1;
-        border: 1px solid grey;
-    }
-
-   @media all and (max-width: 576px) {
-       .section-content {
-            /*border-right: 4px solid slategrey;*/
-            margin: 10px;
-            padding: 10px;
-            /*transition: transform .7s ease-in-out;*/
-            /*flex: 1;*/
-        }
-
-   }
+   @import '../../routes/styles.css';
 </style>

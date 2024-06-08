@@ -94,12 +94,6 @@ politics, entertainment, and more.
 		margin: 1rem auto;
 	}
 
-	.section-content {
-		border-right: solid;
-		margin: 10px;
-		padding: 10px;
-	}
-
 	.section-meta {
 		margin: 10px;
 		padding: 10px;

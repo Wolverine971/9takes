@@ -234,13 +234,6 @@ article {
 	color: var(--color-theme-purple);
 }
 
-/* .section-content {
-	flex: 1;
-	transition: transform 0.7s ease-in-out;
-	margin: 10px;
-	padding: 10px;
-} */
-
 .section-content {
 	margin: 1rem 0;
 	padding: 1rem;
