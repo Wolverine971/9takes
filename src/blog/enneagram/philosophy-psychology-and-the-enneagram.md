@@ -4,7 +4,7 @@ description: "Dive into the Enneagram's roots in philosophy and psychology. Expl
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
-lastmod: '2024-04-07'
+lastmod: '2024-06-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -43,73 +43,100 @@ update-->
   />
 </div>
 
-<p class="firstLetter">Philosophy and Psychology, let's get poetic.</p>
+<p class="firstLetter">Philosophy and psychology crystalize when you start looking at the Enneagram.</p>
 
-Understanding ourselves is a hard thing to do. You are dealing with who you are a person and what it means to be consciousness.
+Understanding ourselves and others is a hard thing to do.
 
-But there is a tool called the Enneagram, that brings a framework that morphs our behaviors, emotions and thoughts into understandable patterns. The Enneagram become more profound when we trace its roots back to its philosophical lineage. This article maps the intersections between the Enneagram's intelligence centers, Freud's influential constructs of the psyche, and Plato's timeless blueprint of the human soul.
+Thinking about how the world works and how it should work is also hard.
 
-Here, we dive into how core emotions sculpt these intelligence centers, which will give us a glimpse into our minds' internal landscapes.
+You are dealing with who you are as a person and what it means to be conscious.
 
-## The Enneagram's Roots in Philosophy
+But there is a thing called the Enneagram (if you haven't already heard of it) that can shed light on much of this. The Enneagram can be thought of as a framework that describes our behaviors, emotions, and thoughts in understandable patterns. And the interesting part is that **both Plato and Sigmund Freud himself elude to the ideas in the Enneagram.**
 
-The Enneagram's philosophical lineage often gets overlooked.
+This article maps and connects the ideas of Plato Freud and the Enneagram.
 
-Yes, the Enneagram is a popular tool for understanding human behavior and growth, but many of its ideas resemble those of great thinkers of the past. In this article, we'll explore the connections between the Enneagram's intelligence centers, Freud's ideas on the human psyche, and Plato's concept of the human soul. By doing so, we'll better understand how our core emotions shape these intelligence centers.
+## Plato's idea of the soul
+<!-- Tripartite Soul and the Enneagram -->
 
-## Plato's Tripartite Soul and the Enneagram
+Plato divided the idea of the human soul into three parts (the Tripartite Soul).
 
-The Enneagram's intelligence centers align remarkably well with Plato's idea of the human soul. According to Plato, the soul consists of reason, spirit, and appetite. These three components correspond to the Enneagram's intellectual intelligence, emotional intelligence, and instinctual intelligence centers.
+According to Plato, the soul consists of **reason, spirit, and appetite**.
 
-**Reason (intellectual intelligence)**: Plato believed the soul's rational aspect guides our thinking and decision-making. This aligns with the Enneagram's intelligence center, which focuses on understanding the world around us.
-**Spirit (emotional intelligence)**: For Plato, the spirited part of the soul drives our emotions and desires. This connects to the Enneagram's emotional center, which manages our emotions and interpersonal relationships.
-**Appetite (instinctual intelligence)**: Plato's third component, appetite, governs our primal needs and drives. This mirrors the Enneagram's instinctual intelligence center, which concentrates on survival and self-preservation.
 
-## Freud's Model of the Psyche and the Enneagram
+- **Reason (logic)**: Plato believed the soul's rational aspect guides our thinking and decision-making. 
+- **Spirit (emotions)**: For Plato, the spirited part of the soul drives our feelings and desires. 
+- **Appetite (instincts)**: Plato's third component, appetite, governs our primal needs and drives. 
 
-Similarly, Freud's theory of the human psyche—comprising the id, ego, and superego—parallels the Enneagram's intelligence centers.
+This 3 part division appears again when you look at Freud's description of the Psyche.
 
-**Id (instinctual intelligence)**: The id represents our basic instincts and desires. It aligns with the Enneagram's instinctual intelligence center, governing our primal drives.
-**Ego (intellectual intelligence)**: The ego is our conscious mind, responsible for rational thought and decision-making. This corresponds to the Enneagram's intelligence center, which focuses on understanding our environment.
-**Superego (emotional intelligence)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships. This is akin to the Enneagram's emotional center, which manages our emotions and connections with others.
+## Freud's idea of the Psyche
 
-<div class="scroll-table">
+Freud had a model of the mind in which he described three distinct parts: the **id, ego, and superego**.
 
-| Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
-| --------- | -------- | -------------------------------- | ---------------------- |
-| id        | appetite | instinctual/ body                | anger                  |
-| ego       | reason   | intellectual/ head               | fear                   |
-| super ego | spirit   | emotional/ heart                 | shame                  |
+- **Id (instincts)**: The id represents our basic and subconscious instincts and desires.
+- **Ego (logic)**: The ego is our conscious mind, responsible for rational thought and decision-making. 
+- **Superego (emotions)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships, and it is partly in both our conscious and subconscious mind. 
+
+<div style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+<img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" style="max-width: 400px;" />
 
 </div>
 
-## Core Emotions: Fear, Shame, and Anger
+## The Enneagram framework
 
-Now that we've established the connections between the Enneagram, Plato, and Freud, let's delve into the core emotions behind the development of these intelligence centers: fear, shame, and anger.
+The Enneagram is a personality system that identifies personality types based on childhood wounds.
 
-## Fear and Intellectual Intelligence
+These childhood wounds form as a result of an underdeveloped response (or sensitivity) to one of 3 emotions. Those three emotions are **anger, fear, and shame**. But it is not all bad because, from those three emotions, people learn to develop coping mechanisms in response to those three emotions.
 
-Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to the development of a sophisticated understanding of the world around us.
+- **Fear**- People with an underdeveloped response to fear become very logical.
+- **Anger**- People with an underdeveloped response to anger become very attuned to their instincts.
+- **Shame**- People with an underdeveloped response to shame become very emotionally intelligent.
+
+Below is a further explanation.
+
+### Fear and Intellectual Intelligence
+
+Fear is the driving force behind intellectual intelligence. Humans are wired to predict and avoid dangerous situations, which helps keep us safe. To do this, we construct complex intellectual world models, considering hypothetical scenarios and potential outcomes. Over time, this process leads to developing a sophisticated understanding of the world around us.
 
 **Fear Example**: Imagine a person who fears losing their job. To prevent this, they might develop an elaborate mental model of their workplace dynamics, anticipating potential pitfalls and strategizing ways to ensure job security.
 
-## Shame and Emotional Intelligence
+### Shame and Emotional Intelligence
 
 Shame is the core emotion behind emotional intelligence. Our desire to be accepted and valued by others drives us to manage and navigate our emotions effectively. We learn to express our feelings in ways that foster connection and empathy while understanding and responding to the emotions of others.
 
 **Shame Example**: A child who experiences shame for not fitting in with their peers might learn to develop emotional intelligence to understand better and relate to others, ultimately finding a sense of belonging and acceptance.
 
-## Anger and Instinctual Intelligence
+### Anger and Instinctual Intelligence
 
 Anger is the fundamental emotion fueling the development of instinctual intelligence. Our innate need to protect ourselves and our resources can give rise to anger, which then propels us to take action. As we learn to channel and control our anger, we develop the capacity to respond effectively to threats and challenges, ultimately honing our instinctual intelligence.
 
 **Anger Example**: Consider someone who experiences anger when they feel their boundaries have been violated. Over time, they learn to assert their borders and protect their well-being, developing a keen sense of instinctual intelligence.
 
-## The Interplay of Emotions and Intelligence Centers
+## Putting it all together, Plato Freud and the Enneagram
 
-Understanding the connections between the Enneagram, Plato, and Freud, as well as the core emotions driving the development of these intelligence centers, helps us appreciate the Enneagram's depth and complexity. We can better understand our motivations and growth paths by recognizing how fear, shame, and anger shape our intellectual, emotional, and instinctual intelligence.
+It is as if Plato, Freud, and the Enneagram are all discussing the same ideas but from different perspectives.
 
-By exploring these connections, we can better appreciate the Enneagram as a tool for self-understanding and a means to foster personal growth and transformation.
+<div class="scroll-table">
+
+| Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
+| --------- | -------- | -------------------------------- | ---------------------- |
+| id        | appetite | instinctual/ body                | anger                  |
+| ego       | reason   | intellectual/ head               | fear                   |
+| super ego | spirit   | emotional/ heart                 | shame                  |
+
+</div>
+
+
+
+If Plato, Freud, and any Enneagram practitioner were in a room they would all be talking about the same ideas.
+
+They would talk about 3 parts of the mind, 3 parts of the soul, and 3 core emotions. Freud and Plato would see many of their ideas reflected in the Enneagram's systems and they would be eager to study it further. The three of them would be inspired and be able to dive deeper into their domains from this interaction.
+
+But alas this wont happen. 
+
+Because 2 of the 3 are dead. 😢
+
+I guess it is up to us to make the connections and dive deeper.
 
 <svelte:head>
 
@@ -146,7 +173,7 @@ By exploring these connections, we can better appreciate the Enneagram as a tool
   ],
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-04-07"
+    "@value": "2024-06-08"
   },
   "datePublished": {
     "@type": "Date",

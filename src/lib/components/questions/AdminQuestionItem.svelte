@@ -393,7 +393,7 @@
 		display: flex;
 		flex-direction: column;
 		max-height: 100px;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 
 	.big-tags {

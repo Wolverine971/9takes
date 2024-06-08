@@ -256,7 +256,11 @@ article {
 }
 
 .scroll-table {
-	overflow-x: scroll;
+	overflow-x: auto;
+}
+
+.scroll-table table {
+	width: 100%;
 }
 
 tr {
@@ -280,19 +284,21 @@ th {
 }
 
 .scroll-table::-webkit-scrollbar-track {
+	border: 1px solid black;
 	border-radius: 5px;
 	box-shadow: 0 0 0.2rem var(--color-paladin-3);
-	border: 1px solid black;
 }
 
 .scroll-table::-webkit-scrollbar-thumb {
+	border: 1px solid black;
 	border-radius: 5px;
 	background-color: var(--color-paladin-3);
-	border: 1px solid black;
 }
 
 .scrollable-div {
-	overflow-y: scroll;
+	padding: 0.5rem;
+	max-height: 100vh;
+	overflow-y: auto;
 	overscroll-behavior-y: contain;
 }
 

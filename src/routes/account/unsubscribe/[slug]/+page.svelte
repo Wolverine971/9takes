@@ -42,12 +42,6 @@
 		font-size: 1.5rem;
 	}
 
-	.scrollable-div {
-		max-height: 100vh;
-		overflow-y: scroll;
-		padding: 0.5rem;
-	}
-
 	td {
 		text-align: start;
 		margin: 0.2rem;

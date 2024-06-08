@@ -108,7 +108,7 @@ A potential reason why discussions often focus on the rational aspect of the psy
 
 In contrast, the unconscious aspects of the psyche are not immediately accessible. It is easier to critique someone's logic than it is their perceived morals or instincts.
 
-<div style="text-align: center; display: flex; flex-direction: column; margin: 2rem 0;">
+<div style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
 <img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" style="max-width: 400px;" />
 
 By <a class="external-link" target="_blank" rel="noreferrer" href="//commons.wikimedia.org/wiki/User:Historicair" title="User:Historicair">historicair</a> - <span style="border:1px dotted #FC0;padding:0 4px"><a href="https://commons.wikimedia.org/wiki/File:Structural-Iceberg.svg" class="extiw" title="en:File:Structural-Iceberg.svg">Structural-Iceberg.svg</a></span> by <a class="external-link extiw" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/User:Jordangordanier"  title="en:User:Jordangordanier">Jordangordanier</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php">Link</a>
