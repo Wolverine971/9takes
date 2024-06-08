@@ -4,7 +4,7 @@ description: "Discover Alex Cooper's vibrant Type 7 traits. See how her zest for
 author: 'DJ Wayne'
 date: '2023-08-29'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Alex-Cooper'
-lastmod: '2024-04-09'
+lastmod: '2024-06-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -72,37 +72,57 @@ Type 7 individuals are extroverted, optimistic, and spontaneous. They are the li
 
 ### A Life in the Spotlight
 
-Alex was born on August 21, 1994, in Newtown, Pennsylvania. Growing up, she was active in sports and even received a scholarship to Boston University for women's soccer. Her father, a former hockey player, might have influenced her competitive and adventurous spirit. But did you know that Alex's first media job was as an anchor for Dirty Water Media in 2016? She's always had a knack for grabbing attention.
+Alex was born on August 21, 1994, in Newtown, Pennsylvania. She was active in sports and even received a scholarship to Boston University for women's soccer. Her father was a former hockey player and he had a big influence on her competitive and adventurous spirit.
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/knPqBc2qJ8E?si=s6kNb31KBWMBUEVR&amp;start=172" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+Alex's first media job was as an anchor for Dirty Water Media in 2016. And there she started to learn the ins and out of media and how to grab attention.
 
 ### The Adventurous Podcaster: A Glimpse into Alex Cooper's World
 
-"Call Her Daddy," created by Alex Cooper and Sofia Franklyn in 2018, is more than just a podcast; its Alex's pet project where she lets loose.
+Alex was destined to start a podcast.
 
-Initially the podcast was focused on relationships and sex, but overtime the show has evolved to cover a broad spectrum of topics. These topics include everything from celebrity gossip to women's rights and mental health. Alex goes anywhere she pleases and has built a loyal following that will go with her no matter the platform.
+With Sofia Franklyn in 2018 she started "Call Her Daddy." This is when a big chunk of the world got exposed to Alex's personality.
 
-After securing a $60 million deal with Spotify and being labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, Alex took the podcast in a fresh direction. She aims to inspire her audience, especially women, by sharing personal stories and expert advice. Her willingness to explore diverse topics and adapt resonates strongly with the characteristics of Type 7, who is always looking for the next exciting venture.
+Initially the podcast was focused on relationships and sex, but overtime the show has evolved to cover a broad spectrum of topics. These topics include everything from celebrity gossip to women's rights and mental health. Alex went and continues to go anywhere she pleases and has built a loyal following. The "daddy gang" will go with her no matter the platform.
+
+After some ups and downs she secured a $60 million deal with Spotify.
+
+She was labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, and the label fit. Alex she split from her partner (more on that below) and started to fly solo. She still aims to inspire her audience by sharing personal stories and advice but her tone has matured. She isn't focused on sex anymore. She went from talking about the gluck gluck 9000 😉 to doing interviews with celebrities and exploring controversial topics of a different nature. 
+
+She is adapting and evolving, which also mirrors the characteristics of Type 7, who is always looking for the next exciting venture.
 
 Beyond the podcast, Alex has also launched <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/unwell/" >The Unwell Network</a>, collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
 
-In essence, "Call Her Daddy" mirrors Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities.
+<!-- In essence, "Call Her Daddy" mirrors Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities. -->
 
 ### Handling Controversies with Optimism
 
 Alex is no stranger to drama.
 
-Cooper has faced several controversies, most notably her public feud with former co-host Sofia Franklyn and disputes with Barstool Sports. A blend of transparency, strategic decision-making, and optimism has marked Cooper's approach to handling these controversies.
+Cooper has faced several controversies, most notably her public feud with former co-host Sofia Franklyn and disputes with Barstool Sports. Whatever happened behind the scenes was over shadowed by **Alex's blend of transparency, strategic decision-making, and optimism**.
 
-She took to her platform to openly discuss the issues, providing her side of the story to maintain a connection with her audience. This transparency helped her gain public support, turning potential setbacks into opportunities for growth. Cooper also made strategic moves, such as negotiating a new contract with Barstool Sports that gave her complete creative control, turning a contentious situation into a win-win outcome.
+She took to her platform to openly discuss the issues, providing her side of the story. She sought to maintain a connection with her audience. This transparency helped her gain public support, turning potential setbacks into opportunities for growth. Alex was also able to negotiate a new contract with Barstool Sports that gave her complete creative control, turning a contentious situation into a win.
 
-Her optimistic outlook has been a critical factor in navigating these challenges. Instead of dwelling on the negatives, Cooper focuses on the lessons learned and the opportunities that arise from difficult situations. This mindset has helped her maintain her brand's integrity and allowed her to grow both personally and professionally.
+She handled the situation with grace and in many people's eyes came out on top. 
+
+Her optimistic outlook has been a critical factor in navigating these challenges and that is a hallmark of the Enneagram 7 personality type.
 
 ### The Social Butterfly
 
-Alex is more than just a podcaster; she's a social butterfly who thrives who brings the energy.
+Alex is more than just a podcaster; she's a social butterfly who brings the energy 🦋.
 
-This aligns perfectly with her Enneagram Type 7 personality, known for being extroverted and enthusiastic. Her podcast episodes often delve into personal stories and controversial topics, showcasing her love for interviews and gossip.
+Enneagram Type 7 personalities are known for being extroverted and enthusiastic. Alex's podcast delves into personal stories, controversial topics, and gossip. And Alex eats it up and then some!
 
-Alex's social reach extends to friendships with celebrities like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a> and <a href="/blog/famous-enneagram-types/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, her relationship with sex, and her decision to tackle political issues. This conversation reflects her Type 7 traits, emphasizing the importance of having a voice and expressing herself openly.
+Her social reach extends to friendships with celebrities like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a> and <a href="/blog/famous-enneagram-types/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, her relationship with sex, and her decision to tackle political issues. Though she can be bubbly she can also go deep.
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QxWgwOwSDK8?si=-PP2zhmLnFOUB_sC&amp;start=731" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+This conversation reflects an Enneagram Type 7 going to 5 in comfort. When she is at her best she shows off her intellect.
 
 ## How Each Enneagram Type Perceives Alex Cooper
 
