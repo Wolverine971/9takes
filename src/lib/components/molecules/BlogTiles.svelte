@@ -330,7 +330,7 @@
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	/* cd */
@@ -367,7 +367,7 @@
 		background-position: center;
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		height: 100%;
 		width: 100%;
@@ -395,7 +395,7 @@
 		background-color: rgba(255, 255, 255, 0.5);
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		height: 100%;
 	}

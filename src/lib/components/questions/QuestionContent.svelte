@@ -490,7 +490,7 @@
 		padding: 0.5rem;
 		transition: 0.3s;
 		font-size: 1rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 
 		&:hover {
 			background-color: var(--base-white-outline);
@@ -553,7 +553,7 @@
 
 	.slides::-webkit-scrollbar-thumb {
 		background-color: var(--black);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	.slides > div {

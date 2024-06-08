@@ -117,7 +117,7 @@
 
 <style lang="scss">
 	.rounded {
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		width: 80%;
 	}
 
@@ -131,7 +131,7 @@
 		min-width: 3rem;
 		text-align: center;
 		aspect-ratio: 1/1;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		transition: all 0.5s;
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */

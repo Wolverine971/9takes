@@ -25,7 +25,7 @@
 	// 	inset -0.2rem -0.2rem 0.5rem var(--white);
 
 	.neumo-card {
-		// border-radius: 5px;
+		// border-radius: var(--base-border-radius);
 		// box-shadow: $shadow;
 
 		// justify-content: center;
@@ -38,7 +38,7 @@
 		// &:active {
 		// 	box-shadow: $inner-shadow;
 		// }
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		background: var(--color);
 		// Opacify any color with pure CSS
 		animation: 1s -0.3s 1 paused opacify;

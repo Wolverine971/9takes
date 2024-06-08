@@ -306,7 +306,7 @@
 	.twitter-link {
 		background: aliceblue;
 		padding: 0.5rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		margin: 0.2rem;
 		display: inline-flex;
 	}
@@ -321,7 +321,7 @@
 		text-align: center;
 		border: var(--classic-border);
 		padding: 2rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.profile-section {
 		display: flex;

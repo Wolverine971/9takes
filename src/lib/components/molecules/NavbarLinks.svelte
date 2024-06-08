@@ -112,17 +112,17 @@
 <style lang="scss">
 	.big-btn {
 		background: no-repeat;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
 		background-color: var(--base-white-outline);
 	}
 
 	.mobile-card {
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
 
 		.subnav-content {
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
 		}
 	}
@@ -131,7 +131,7 @@
 	}
 	.navbar-blogs {
 		overflow: hidden;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		display: flex;
 		justify-content: center;
 		align-items: center;

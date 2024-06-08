@@ -357,7 +357,7 @@
 		// border-radius: 0 0 0 5px;
 		text-decoration: none;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		word-break: keep-all;
 
 		padding: 0.3rem;
@@ -402,7 +402,7 @@
 		max-width: 900px;
 		padding: 0.5rem;
 		margin: 0.5rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
 	}
 
@@ -410,7 +410,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;

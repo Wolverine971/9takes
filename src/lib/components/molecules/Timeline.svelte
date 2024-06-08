@@ -134,7 +134,7 @@
 		display: inline;
 		background: rgb(248, 248, 248);
 		padding: 6px 10px;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 
 		font-weight: 600;
 		text-align: left;

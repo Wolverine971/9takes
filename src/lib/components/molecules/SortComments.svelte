@@ -134,7 +134,7 @@
 		cursor: pointer;
 		margin: 0.5rem;
 		padding: 0 0.5rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: 1px solid var(--base-white-outline);
 
 		&:hover {
@@ -146,13 +146,7 @@
 		.sort-btn {
 			margin: 0.2rem;
 			padding: 0.2rem;
-			border-radius: 5px;
-
 			border: 1px solid var(--color-theme-purple);
 		}
-	}
-	select {
-		border-radius: 5px;
-		border: var(--classic-border);
 	}
 </style>

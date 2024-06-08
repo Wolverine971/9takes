@@ -316,22 +316,5 @@ In this panel discussion, Enneagram expert Beatrice Chestnut sits down with a gr
 </svelte:head>
 
 <style lang="scss">
-
-   .section-content {
-        /*border-right: 4px solid slategrey;*/
-        margin: 10px;
-        padding: 10px;
-        transition: transform .7s ease-in-out;
-        flex: 1;
-    }
-
-   @media all and (max-width: 576px) {
-       .section-content {
-            /*border-right: 4px solid slategrey;*/
-            margin: 10px;
-            padding: 10px;
-            /*transition: transform .7s ease-in-out;*/
-            /*flex: 1;*/
-        }
-   }
+  @import '../../routes/styles.css';
 </style>

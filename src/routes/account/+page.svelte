@@ -144,13 +144,13 @@
 	}
 	.account-card {
 		background-color: var(--base-grey-1);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 1rem;
 		margin: 1rem;
 	}
 	.glass-card {
 		background-color: var(--base-grey-2);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		// padding: 1rem;
 		// margin: 1rem;
 		// padding: 0.5rem;

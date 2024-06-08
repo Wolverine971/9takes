@@ -53,7 +53,7 @@
 	}
 
 	.popover {
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 1rem;
 		background-color: #f4f4ef;
 		border: var(--classic-border);

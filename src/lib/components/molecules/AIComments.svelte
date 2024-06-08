@@ -71,7 +71,7 @@
 
 <style lang="scss">
 	.canned-resp-div {
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 0.5rem;
 		margin: 0.5rem;
 		border: var(--color-paladin-3) 1px solid;
@@ -95,7 +95,7 @@
 		min-width: 3rem;
 		text-align: center;
 		aspect-ratio: 1/1;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		transition: all 0.5s;
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */

@@ -93,7 +93,7 @@
 		background-position: center;
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		padding: 0.5rem;
 		height: 100%;

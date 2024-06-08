@@ -179,7 +179,7 @@
 		margin: 1rem 0;
 		padding: 0.5rem;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.disabled {
 		background-color: lightgray;
@@ -189,7 +189,7 @@
 		margin: 1rem 0;
 		padding: 0.5rem;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.modal-size {
 		height: 100%;
@@ -204,7 +204,7 @@
 	}
 	.warning {
 		border: 1px solid red;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		margin: 1rem;
 		padding: 0.5rem;
 	}

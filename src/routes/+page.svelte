@@ -299,7 +299,7 @@
 	}
 	.border-boy {
 		border: 1px solid;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.purple-text {
 		color: #260958;
@@ -359,7 +359,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	.grid-img:hover {
@@ -473,7 +473,7 @@
 
 		&:hover {
 			background-color: var(--base-grey-2);
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 		}
 	}
 	p {

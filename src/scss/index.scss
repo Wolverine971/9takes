@@ -186,7 +186,7 @@ button:hover:after {
 .btn {
 	transition: all 0.2s ease-in-out;
 	border: none;
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	cursor: pointer;
 	padding: 10px 20px;
 	color: var(--dark-300);
@@ -219,7 +219,7 @@ button:hover:after {
 input {
 	margin-bottom: 20px;
 	border: var(--gray) 1px solid;
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	padding: 10px 20px;
 	color: var(--dark-100);
 	font-size: 16px;
@@ -241,6 +241,8 @@ textarea {
 select {
 	color: hsl(222deg 15% 19%);
 	font-size: 16px;
+	border-radius: var(--base-border-radius);
+	border: var(--classic-border);
 
 	&:focus {
 		outline: var(--color-theme-purple) 1px solid;
@@ -281,7 +283,7 @@ select {
 
 		&::after {
 			display: inline-block;
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 			background-image: url('/icons/arrow.svg');
 			background-size: 1em 1em;
 			width: 1em;
@@ -296,7 +298,7 @@ select {
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	background-color: var(--glass-color);
 	width: 100%;
 	max-width: 1250px;
@@ -385,21 +387,21 @@ section {
 		padding-top: 0;
 		padding: 2rem;
 		background: var(--base-grey-1);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.question-area-box {
 		margin-top: 0;
 		padding-top: 0;
 		padding: 2rem;
 		background-color: var(--base-grey-1);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.about-area-box {
 		margin-top: 0;
 		padding-top: 0;
 		padding: 2rem;
 		background-color: var(--base-grey-1);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 }
 
@@ -465,7 +467,7 @@ section {
 	align-items: center;
 	margin-left: 1.5rem;
 	border: 1px solid var(--base-grey-2);
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	background-color: transparent;
 	cursor: pointer;
 	width: 100%;
@@ -478,7 +480,7 @@ section {
 
 .comment-box {
 	margin: 0.25rem;
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	padding: 0.5rem;
 	width: stretch;
 	max-height: 7em;
@@ -505,7 +507,7 @@ section {
 	justify-content: center;
 	transition: 0.3s;
 	border: none;
-	border-radius: 5px;
+	border-radius: var(--base-border-radius);
 	min-width: 35px;
 }
 

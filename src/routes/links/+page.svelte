@@ -90,7 +90,7 @@
 <style lang="scss">
 	.wording {
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 0 0.5rem 0;
 	}
 	fieldset {

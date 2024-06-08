@@ -47,7 +47,7 @@
 		// border-radius: 0 0 0 5px;
 		text-decoration: none;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		word-break: keep-all;
 
 		padding: 0.3rem;

@@ -26,7 +26,7 @@
 		font-size: 1.5rem;
 		text-decoration: none;
 		font-weight: bold;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 0.25rem;
 	}
 	li::marker {

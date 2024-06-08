@@ -71,7 +71,7 @@
 		text-align: center;
 		border: var(--classic-border);
 		padding: 2rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.invite-form {
 		display: flex;
@@ -84,13 +84,13 @@
 		max-width: 300px;
 		margin-bottom: 10px;
 		padding: 10px;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: var(--classic-border);
 	}
 	.invite-form button {
 		/* background-color: #007bff; */
 		padding: 10px 20px;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		border: none;
 		cursor: pointer;
 		color: var(--color-theme-purple);

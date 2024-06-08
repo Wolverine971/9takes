@@ -250,7 +250,7 @@ Harnessing the Power of Nine: 9takes in Today’s Polarized World
 		gap: 0.5rem;
 	}
 	.wave-sections {
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		margin: 2rem;
 		padding: 2rem;
 		/* text-align: center; */

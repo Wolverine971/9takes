@@ -102,7 +102,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	.grid-img:hover {
@@ -165,7 +165,7 @@
 		background-color: rgba(255, 255, 255, 0.5);
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		// padding: 0.5rem;
 
@@ -177,7 +177,7 @@
 		position: relative;
 		max-width: 262px;
 		width: 100%;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		&:after {
 			background-color: var(--base-white-outline, white);
 		}
@@ -266,7 +266,7 @@
 		background-color: rgba(255, 255, 255, 0.5);
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		max-height: 220px;
 	}

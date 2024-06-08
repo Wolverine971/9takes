@@ -34,7 +34,7 @@
 <style lang="scss">
 	.question-box {
 		width: -webkit-fill-available;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		// height: 24px;
 		// padding: 0.5rem 1rem;
 		color: var(--color-paladin-4);

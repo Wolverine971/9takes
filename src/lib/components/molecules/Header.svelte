@@ -518,7 +518,7 @@
 			min-height: 2rem;
 			// background-color: aliceblue;
 			background-color: rgb(240, 248, 255, 0.6);
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
 		}
 		.nav-bar {
@@ -580,7 +580,7 @@
 					transform: translateY(10px);
 					transition: all 0.4s ease;
 					padding: 0.5rem;
-					border-radius: 5px;
+					border-radius: var(--base-border-radius);
 					pointer-events: all;
 					border: 1px solid;
 					background-color: var(--base-grey-2);
@@ -679,7 +679,7 @@
 		.corner-icon {
 			cursor: pointer;
 			background: no-repeat;
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
 			background-color: var(--base-white-outline);
 		}
@@ -695,13 +695,13 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 		}
 		.big-navbar {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			border-radius: 5px;
+			border-radius: var(--base-border-radius);
 		}
 		.mobile-navbar {
 			background: var(--base-white-outline);

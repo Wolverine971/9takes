@@ -128,7 +128,7 @@ politics, entertainment, and more.
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	.people-grid-container {
@@ -151,7 +151,7 @@ politics, entertainment, and more.
 		background-color: rgba(255, 255, 255, 0.5);
 		text-align: center;
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		position: relative;
 		max-height: 220px;
 		&:hover {

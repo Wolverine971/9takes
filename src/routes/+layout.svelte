@@ -139,7 +139,7 @@
 
 	.column-width {
 		max-width: 64rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 
 	.pos-rel {

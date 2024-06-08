@@ -1582,8 +1582,8 @@
 		{:else}
 			<div
 				on:click={(submitBox = false)}
-				style="{`min-height: ${height}px; max-width: ${width}px;`} border-radius: 5px; border: 1px solid #5407d9; position: inherit; top: 0; left: 0; box-sizing: border-box;
-    padding: 0.3rem 0;"
+				class="emotion-div"
+				style={`min-height: ${height}px; max-width: ${width}px;`}
 			>
 				{#each formattedListOfEmotions as emotion, i}
 					<span style="margin: .3rem;" id={`${emotion}-${i}`}>{emotion}</span>
@@ -1715,9 +1715,18 @@ resentment temper violence -->
 
 	textarea {
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.column {
 		max-width: 100px;
+	}
+	.emotion-div {
+		border-radius: var(--base-border-radius);
+		border: 1px solid #5407d9;
+		position: inherit;
+		top: 0;
+		left: 0;
+		box-sizing: border-box;
+		padding: 0.3rem 0;
 	}
 </style>

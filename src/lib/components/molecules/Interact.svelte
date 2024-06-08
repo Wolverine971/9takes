@@ -322,7 +322,7 @@ interface QuestionObject {
 		align-items: center;
 		margin: 0.25rem;
 		padding: 0.1rem;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 0.25rem;
 
 		&:hover {

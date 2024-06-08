@@ -116,7 +116,7 @@
 		padding: 1rem;
 		// border: 1px solid var(--color-theme-purple-v);
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 	}
 	.tags-div {
 		margin: 0.5rem;
@@ -138,7 +138,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;

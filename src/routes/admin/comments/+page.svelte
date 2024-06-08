@@ -130,7 +130,7 @@
 <style lang="scss">
 	.comment-border {
 		border: var(--classic-border);
-		border-radius: 5px;
+		border-radius: var(--base-border-radius);
 		padding: 0.5rem;
 		margin: 0.2rem;
 		display: flex;
