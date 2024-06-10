@@ -19,7 +19,7 @@ previewHtml: ''
 - Key concepts and principles of the Enneagram
 - How the Enneagram can be used for personal growth and self-improvement
 
-## The Nine Enneagram Types
+## The Nine Enneagram types
 
 - Type 1: The Perfectionist
 - Type 2: The Helper
@@ -55,7 +55,7 @@ previewHtml: ''
 - Enneagram tests and assessments
 - Enneagram coaches and trainers
 
-Enneagram Types Overview
+Enneagram types Overview
 The History and Origins of Enneagram
 Enneagram and Personal Growth
 Enneagram and Relationships
@@ -86,6 +86,6 @@ Enneagram and Cognitive Bias
 Enneagram and Social Intelligence
 Enneagram and Life Purpose.
 
-We are looking for enneagram type 1, 2, 3, 5, 6, 7, 8, 9
+We are looking for Enneagram type 1, 2, 3, 5, 6, 7, 8, 9
 
-How each enneagram type dances
+How each Enneagram type dances

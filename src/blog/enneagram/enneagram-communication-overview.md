@@ -13,7 +13,7 @@ blog: true
 previewHtml: ''
 ---
 
-<!-- make this the hub for the other enneagram blogs
+<!-- make this the hub for the other Enneagram blogs
 
 Enneagram Communication
 Effective Communication Enneagram

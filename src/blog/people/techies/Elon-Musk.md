@@ -36,10 +36,10 @@ why do people hate Elon Musk
         a bit nerdy- bought car, playfulness
 
     // stressful moments in their life and how they handled them
-        enneagram 5s go to 7 when stressed and they go have fun, they escape, they distract,
+        Enneagram 5s go to 7 when stressed and they go have fun, they escape, they distract,
 
     // comfort
-        enneagram 5s go to 8 and they start to assert themselves they value strength and dominance
+        Enneagram 5s go to 8 and they start to assert themselves they value strength and dominance
         the get commandy and bossy
         Elon is ruthless when running his companies- hires and fires frequently
         crazy hard work ethic- sleep on factory floor- wasnt doing that out of stress but out of focus

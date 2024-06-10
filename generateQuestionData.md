@@ -1,9 +1,9 @@
 [TYPE] = 4
 [QUESTION] = 'What would you change about yourself if you could?'
 
-I need to generate data. The data will be comments on questions. And the comments will all be from an enneagram type [TYPE]. And the question is [QUESTION]
+I need to generate data. The data will be comments on questions. And the comments will all be from an Enneagram type [TYPE]. And the question is [QUESTION]
 
-Vary up the comments. Consider how an enneagram type [TYPE] would answer and approach the question. Consider varying responses depending on the different wings an [TYPE] would have. Also vary the responses considering the different instinctual subtypes, Self-Preservation, Social or One-to-One. You should also vary the responses by race and gender and age and social status, but do not overtly mention any of these factors.
+Vary up the comments. Consider how an Enneagram type [TYPE] would answer and approach the question. Consider varying responses depending on the different wings an [TYPE] would have. Also vary the responses considering the different instinctual subtypes, Self-Preservation, Social or One-to-One. You should also vary the responses by race and gender and age and social status, but do not overtly mention any of these factors.
 
 [QUESTIONID] = 16
 

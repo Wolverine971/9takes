@@ -1,5 +1,5 @@
 ---
-title: 'Jon Stewart: The Enneagram Type 7 Entertainer in Action'
+title: 'Jon Stewart: The Enneagram type 7 Entertainer in Action'
 description: 'Why Jon Stewart appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -42,13 +42,13 @@ tiktok:
 
 <p class="firstLetter">He's been your evening companion, your sarcastic voice of reason, and perhaps your loudest laugh of the day.</p>
 
-Jon Stewart, the former host of The Daily Show, has left an indelible mark on modern satire. Today, we will be exploring a fascinating dimension of Stewart's persona - the ever curious and effervescent Enneagram Type 7.
+Jon Stewart, the former host of The Daily Show, has left an indelible mark on modern satire. Today, we will be exploring a fascinating dimension of Stewart's persona - the ever curious and effervescent Enneagram type 7.
 
 <details>
 <summary class="accordion">TL;DR: Why Jon Stewart is an Enneagram type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The Playful Enthusiast:</b> Jon Stewart, famed for his tenure on The Daily Show, is a shining example of an Enneagram Type 7 personality. His contagious enthusiasm, sense of adventure, and ability to infuse humor even in the most solemn news stories align perfectly with a Type 7's zest for life and their ability to see the glass half full.
+<li><b>The Playful Enthusiast:</b> Jon Stewart, famed for his tenure on The Daily Show, is a shining example of an Enneagram type 7 personality. His contagious enthusiasm, sense of adventure, and ability to infuse humor even in the most solemn news stories align perfectly with a Type 7's zest for life and their ability to see the glass half full.
 </li>
 <li><b>Embracing the Uncertainty:</b> On a daily basis, Stewart has exhibited the classic Type 7's trait of reframing negativity. His comedy style, which often revolves around the uncertainties of life, acts as a buffer against adversity. His ability to present grave issues with a comedic twist signifies a typical Type 7 approach - embracing life's uncertainties with a jovial spirit.
 </li>
@@ -62,7 +62,7 @@ Jon Stewart, the former host of The Daily Show, has left an indelible mark on mo
 
 ## The Adventurer, The Enthusiast
 
-Enneagram Type 7s are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly.
+Enneagram type 7s are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly.
 
 He exemplifies the Type 7's playful energy and insatiable curiosity. Throughout his tenure on The Daily Show, his knack for exploring the lighter side of even the grimmest news stories was unparalleled.
 
@@ -84,7 +84,7 @@ The duration of Jon Stewart's tenure at <a class="external-link" target="_blank"
 
 Known for their desire for change, adventure, and a spectrum of experiences, one might question how a Type 7 like Stewart could commit to a single project for such an extended period. However, an integral part of this seeming paradox can be unraveled when considering the unique and dynamic nature of the show itself.
 
-Stewart's individual episodes of The Daily Show were anything but monotonous. Each one presented a fresh canvas for Stewart's humor, wit, and critical thinking, making the show a continually evolving journey of exploration. With every episode, Stewart breathed life into the day's topics, transforming them into engaging narratives that were both informative and entertaining. His ability to turn even the densest and most challenging subjects into palatable content illustrates how his Enneagram Type 7 personality traits were at play.
+Stewart's individual episodes of The Daily Show were anything but monotonous. Each one presented a fresh canvas for Stewart's humor, wit, and critical thinking, making the show a continually evolving journey of exploration. With every episode, Stewart breathed life into the day's topics, transforming them into engaging narratives that were both informative and entertaining. His ability to turn even the densest and most challenging subjects into palatable content illustrates how his Enneagram type 7 personality traits were at play.
 
 In this context, Stewart's long-term commitment to the show can be seen as a manifestation of his Type 7 restlessness and desire for varied experiences. Rather than seeking new adventures in different areas, Stewart found a way to bring novelty and excitement to his stable platform. His capacity to make each show engaging and fresh catered to his Type 7 spirit, quenching his thirst for new experiences within the framework of a consistent format.
 
@@ -92,9 +92,9 @@ However, even after these long 16 years, Stewart's wanderlust eventually led him
 
 ## Navigating the Type 7 Terrain
 
-Living as an Enneagram Type 7 isn't solely about humor and impromptu escapades. This personality type also grapples with drawbacks, specifically a propensity towards diversion and challenges with commitment, driven by a fear of missing out on the next exciting endeavor. A glimpse into Stewart's early career illuminates this struggle; his stint as a puppeteer for a children's television show, a contract writer for the '<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Carolines_on_Broadway" >Caroline's Comedy Hour</a>', and a stand-up comedian, all before landing his gig at 'The Daily Show', reflects the typical Type 7 pattern of hopping between projects in search of variety. This restlessness, while fueling Stewart's dynamic career, also reveals the pitfalls of a Type 7's yearning for constant stimulation.
+Living as an Enneagram type 7 isn't solely about humor and impromptu escapades. This personality type also grapples with drawbacks, specifically a propensity towards diversion and challenges with commitment, driven by a fear of missing out on the next exciting endeavor. A glimpse into Stewart's early career illuminates this struggle; his stint as a puppeteer for a children's television show, a contract writer for the '<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Carolines_on_Broadway" >Caroline's Comedy Hour</a>', and a stand-up comedian, all before landing his gig at 'The Daily Show', reflects the typical Type 7 pattern of hopping between projects in search of variety. This restlessness, while fueling Stewart's dynamic career, also reveals the pitfalls of a Type 7's yearning for constant stimulation.
 
-## How Each Enneagram Type Perceives Jon Stewart
+## How Each Enneagram type Perceives Jon Stewart
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jon Stewart:
 
@@ -110,11 +110,11 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## Final Thoughts
 
-Having journeyed through the life and career of Jon Stewart, we can see how the characteristics of an Enneagram Type 7 seem to emerge at every turn. His joyful approach to life, his ability to find humor in adversity, his continual quest for new experiences, and even his occasional struggle with focus and commitment all point towards a classic Type 7 personality.
+Having journeyed through the life and career of Jon Stewart, we can see how the characteristics of an Enneagram type 7 seem to emerge at every turn. His joyful approach to life, his ability to find humor in adversity, his continual quest for new experiences, and even his occasional struggle with focus and commitment all point towards a classic Type 7 personality.
 
 But, as with every individual, Stewart is more than just a type. He is a complex character who has shaped his persona with years of experience and growth. While the Enneagram provides a framework to understand his traits, it doesn't fully capture the depth and diversity of his character.
 
-Does seeing Stewart through the lens of the Enneagram Type 7 give you a deeper understanding of his motivations and actions? How does this perspective enhance your view of him as a comedian and social commentator?
+Does seeing Stewart through the lens of the Enneagram type 7 give you a deeper understanding of his motivations and actions? How does this perspective enhance your view of him as a comedian and social commentator?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
@@ -126,7 +126,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "The article presents an in-depth analysis of Jon Stewart's personality traits as perceived by the Enneagram Type 7, The Enthusiast. It delves into Stewart's public persona, inner world, a related controversy, and how these facets are connected to Type 7's core motivations. Moreover, it offers a listicle on how all nine enneagram types might perceive Jon Stewart.",
+      "articleBody": "The article presents an in-depth analysis of Jon Stewart's personality traits as perceived by the Enneagram type 7, The Enthusiast. It delves into Stewart's public persona, inner world, a related controversy, and how these facets are connected to Type 7's core motivations. Moreover, it offers a listicle on how all nine Enneagram types might perceive Jon Stewart.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -147,8 +147,8 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "@type": "Date",
         "@value": "2023-07-16"
       },
-      "description": "This article offers a comprehensive understanding of Jon Stewart from the perspective of the Enneagram Type 7. It explores his persona, daily life, a mild controversy, and how all these are indicative of his Type 7 traits. Additionally, it provides a listicle of how every enneagram type perceives Jon Stewart.",
-      "headline": "The Enthusiast's View: A Deep Dive into Jon Stewart's Enneagram Type 7 Personality",
+      "description": "This article offers a comprehensive understanding of Jon Stewart from the perspective of the Enneagram type 7. It explores his persona, daily life, a mild controversy, and how all these are indicative of his Type 7 traits. Additionally, it provides a listicle of how every Enneagram type perceives Jon Stewart.",
+      "headline": "The Enthusiast's View: A Deep Dive into Jon Stewart's Enneagram type 7 Personality",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -181,9 +181,9 @@ If you like diving into personality, explore our <a href="/questions" >questions
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jon Stewart is considered an Enneagram Type 7 due to his positive, curious, and adventurous personality traits. He embodies the Enneagram Type 7's core motivation to experience life to its fullest, avoid pain, and maintain a sense of personal freedom."
+            "text": "Jon Stewart is considered an Enneagram type 7 due to his positive, curious, and adventurous personality traits. He embodies the Enneagram type 7's core motivation to experience life to its fullest, avoid pain, and maintain a sense of personal freedom."
           },
-          "name": "Why is Jon Stewart considered an Enneagram Type 7?"
+          "name": "Why is Jon Stewart considered an Enneagram type 7?"
         },
         {
           "@type": "Question",
@@ -205,7 +205,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jon Stewart is often associated with the Enneagram Type 7, known as The Enthusiast. This type is characterized by a thirst for adventure, the desire for personal freedom, and an attempt to avoid pain. It should be noted that this is based on public data and not confirmed directly by Jon Stewart."
+            "text": "Jon Stewart is often associated with the Enneagram type 7, known as The Enthusiast. This type is characterized by a thirst for adventure, the desire for personal freedom, and an attempt to avoid pain. It should be noted that this is based on public data and not confirmed directly by Jon Stewart."
           },
           "name": "What is Jon Stewart's Enneagram type?"
         }

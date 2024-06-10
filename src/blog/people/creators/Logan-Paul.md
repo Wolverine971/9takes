@@ -53,7 +53,7 @@ Logan Paul, the charismatic and often polarizing social media sensation, has bee
 <li>In his inner world, Logan Paul's daily life revolves around his insatiable thirst for adventure, boundless energy, and relentless pursuit of novelty, which may not be immediately evident to the public.
 </li>
 <li>Despite controversies surrounding Logan Paul, such as his visit to the "Suicide Forest," we can view these incidents through the lens of a Type 7's childhood wound. His actions may stem from a deep fear of missing out and a desire to continuously seek out extraordinary experiences.</li>
-<li>Logan Paul's core motivation lies in his unyielding drive for excitement and the pursuit of new experiences. All his actions, from daring stunts to boundary-pushing challenges, can be traced back to his core enneagram motivation as a Type 7.</li>
+<li>Logan Paul's core motivation lies in his unyielding drive for excitement and the pursuit of new experiences. All his actions, from daring stunts to boundary-pushing challenges, can be traced back to his core Enneagram motivation as a Type 7.</li>
 </ul>
   </div>
 </details>

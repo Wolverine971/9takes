@@ -14,7 +14,7 @@ previewHtml: ''
 pic: ''
 ---
 
-<!-- how anxiety manifests itself in each enneagram type
+<!-- how anxiety manifests itself in each Enneagram type
 todo Finish this
 -->
 

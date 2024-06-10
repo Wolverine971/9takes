@@ -13,8 +13,8 @@ blog: true
 ---
 
 <!-- wings
-enneagram 6 wing 5
-enneagram 6 wing 7
+Enneagram 6 wing 5
+Enneagram 6 wing 7
  -->
 
 <script>

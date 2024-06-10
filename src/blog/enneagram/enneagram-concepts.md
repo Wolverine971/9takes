@@ -17,7 +17,7 @@ previewHtml: ''
 
 To start, the Enneagram is divided into nine distinct personality types, each with its own unique set of traits, strengths, and weaknesses. Each type has their own world view or take on life (hence 9takes).
 
-There are 3 triads or centers of intelligence which relate to 3 core emotions with 3 personality types within each triad. Each Enneagram type is connected to 2 other enneagram types which describe how the Enneagram type thinks feels and behaves when in stress and comfort.
+There are 3 triads or centers of intelligence which relate to 3 core emotions with 3 personality types within each triad. Each Enneagram type is connected to 2 other Enneagram types which describe how the Enneagram type thinks feels and behaves when in stress and comfort.
 
 ## The Nine Personality Types
 

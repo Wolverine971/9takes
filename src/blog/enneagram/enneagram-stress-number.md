@@ -77,7 +77,7 @@ Here, we are going to use the Enneagram to understand why these emotions come up
 
 <!-- The Enneagram describes stress in detail by differentiating how a person normally is (our personality type) compared to how they are when stressed. According to the Enneagram we take on the negative aspects of another personality type when we are stressed. -->
 
-<!-- Since there are 9 different enneagram personality types, the personality type that you go to when you aren't doing well (aka the path of disintegration) is called your stress number.
+<!-- Since there are 9 different Enneagram personality types, the personality type that you go to when you aren't doing well (aka the path of disintegration) is called your stress number.
 
 And that is what we will be exploring below- stress numbers. -->
 

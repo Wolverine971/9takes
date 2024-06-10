@@ -52,7 +52,7 @@ The Enneagram can be a fantastic icebreaker when meeting new people.
 
 Imagine you're at a party and someone asks about your Enneagram type. You share that you're a Type 2, the Helper, and suddenly you're explaining your desire to support others and make a difference in the world. You might even discover that you have similar struggles with setting boundaries and taking care of your own needs.
 
-**Tip**: When discussing the Enneagram with others, approach the conversation with curiosity and openness. Ask questions about their experiences and share your own insights without judgment. Check out this blog for specific <a href="enneagram-communication-tips">tips on communicating with different enneagram types.</a>
+**Tip**: When discussing the Enneagram with others, approach the conversation with curiosity and openness. Ask questions about their experiences and share your own insights without judgment. Check out this blog for specific <a href="enneagram-communication-tips">tips on communicating with different Enneagram types.</a>
 
 ### Making Sense of Yourself and Others
 

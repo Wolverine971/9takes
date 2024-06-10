@@ -59,7 +59,7 @@ Enneagram Criticisms (200 words)
 </details>
 
 <details>
-  <summary class="accordion">"Personality is not a science and the enneagram is not a science."</summary>
+  <summary class="accordion">"Personality is not a science and the Enneagram is not a science."</summary>
   <div class="panel" style="margin: 16px 0"><p>
     While it's true that personality and the Enneagram are not sciences in the traditional sense, this doesn't negate their value. The Enneagram, in particular, is not designed to be a scientifically empirical tool, but rather a framework for introspection and understanding human behavior. Its utility stems from its ability to offer insights into our motivations, fears, and desires, which can help facilitate self-discovery, personal growth, and improved relationships. As such, its efficacy is often measured in its pragmatic utility rather than scientific validity. </p><p>On top of that, the field of personality study is multifaceted and can't be fully captured by a purely empirical approach. For instance, "The Big 5 personality test," despite being widely studied and referenced in academic settings, has its origins in data analysis rather than theory. This suggests that its scope is limited to aspects of personality that can be measured and quantified, potentially overlooking facets of the human psyche that are less tangible and harder to measure. This is where 9takes, with its emphasis on the Enneagram, makes a significant contribution. The Enneagram stands at the intersection of philosophy and psychology, integrating theoretical understanding with observational data. It provides a more holistic framework that takes into account the philosophical dimensions of personality. So while the Enneagram might not be a 'science' in the conventional sense, its value lies in its potential to enrich our understanding of human personality beyond what empirical data alone can provide. </p><p>For example how much is understood about the psychology behind emotions? <a href="/blog/experiment">Test your own understanding with this 2 minute experiment.</a>
     </p>
@@ -72,7 +72,7 @@ Enneagram Criticisms (200 words)
 </details>
 <details>
   <summary class="accordion">"Identifying one's own Enneagram type can be quite subjective, which may lead to inaccurate or inconsistent results."</summary>
-  <div class="panel" style="margin: 16px 0"><p>Yes, self-typing is a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate. Over time your sense of self can become clearer as you uncover your core motivations and fears. Here is a <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">guide for determining your enneagram type.</a></p></div>
+  <div class="panel" style="margin: 16px 0"><p>Yes, self-typing is a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate. Over time your sense of self can become clearer as you uncover your core motivations and fears. Here is a <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">guide for determining your Enneagram type.</a></p></div>
   <!-- Perhaps, implementing a more comprehensive and guided questionnaire could help users accurately identify their Enneagram type. -->
 </details>
 <details>

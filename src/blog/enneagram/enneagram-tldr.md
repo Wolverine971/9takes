@@ -37,7 +37,7 @@ pic: 'greek-dude-reading-book'
 
 It is based on core motivations, fears, and childhood trauma. Each Enneagram type has distinct traits and tendencies, and understanding your Enneagram type can provide insight into your personality, behavior, and relationships.
 
-**The 9 enneagram types are divided up into 3 divisions in the Enneagram called triads.** The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame.
+**The 9 Enneagram types are divided up into 3 divisions in the Enneagram called triads.** The 3 triads each have a core emotion associated with them, which correlates to particular intelligence. The 3 emotions are anger, fear, and shame.
 
 The unique intelligences connected with the emotions are the following:
 
@@ -45,11 +45,11 @@ The unique intelligences connected with the emotions are the following:
 - Shame- Emotional intelligence
 - Anger- Instinctual intelligence
 
-Each enneagram type deals with or copes with their core emotion in different ways. Either they actively use that emotion to motivate them. Or they feel that emotion and try to suppress it. Or they are unaware of the impact of that emotion, and it lives in their subconscious.
+Each Enneagram type deals with or copes with their core emotion in different ways. Either they actively use that emotion to motivate them. Or they feel that emotion and try to suppress it. Or they are unaware of the impact of that emotion, and it lives in their subconscious.
 
 The following are the 9 Enneagram types.
 
-## The Nine Enneagram Types
+## The Nine Enneagram types
 
 **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Strives for perfection and is highly critical of themselves and others. They have a strong sense of right and wrong and are motivated by a desire to improve the world around them. <a href="/blog/enneagram/enneagram-type-1" > More about the 1 </a>
 
@@ -69,7 +69,7 @@ The following are the 9 Enneagram types.
 
 **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Mediating and easy-going, the Peacemaker is motivated by a need for harmony and tranquility. They can be passive and avoidant, and can struggle with asserting themselves. <a href="/blog/enneagram/enneagram-type-9" > More about the 9 </a>
 
-## How to Determine Your Enneagram Type
+## How to Determine Your Enneagram type
 
 While online tests can provide a starting point for determining your Enneagram type, **the most effective way to identify your type is through self-reflection and introspection.** Here are some tips to help you determine your Enneagram type:
 
@@ -81,7 +81,7 @@ While online tests can provide a starting point for determining your Enneagram t
 
 4. Seek outside opinions: Ask friends, family, and colleagues for their feedback on your personality traits and tendencies. They may offer insight into your Enneagram type that you may not have considered.
 
-For a more in-depth guide check out this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your enneagram type for a beginner</a>.
+For a more in-depth guide check out this blog on <a style="font-weight: bold;" href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >determining your Enneagram type for a beginner</a>.
 
 ## Wrap up
 

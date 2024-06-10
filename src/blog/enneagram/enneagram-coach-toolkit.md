@@ -67,7 +67,7 @@ An Enneagram 8 wants to improve conflict resolution with his wife. An example of
 
 **Tip 2**: Suggest a piece of homework for the person to notice in their own life.
 
-You can say that many enneagram type Xs struggle with Y, so be on the lookout for Z. For example:
+You can say that many Enneagram type Xs struggle with Y, so be on the lookout for Z. For example:
 
 Typical Enneagram 5s tend to hoard things and/ or information. Give the 5 the homework of trying to notice when they might be hoarding something. And ask them to share something instead.
 

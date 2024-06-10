@@ -1,5 +1,5 @@
 ---
-title: 'Ellen Degeneres Enneagram Type 6'
+title: 'Ellen Degeneres Enneagram type 6'
 description: 'Why Ellen Degeneres appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
@@ -41,7 +41,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 
 > **Disclaimer** This analysis of Ellen Degeneres's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ellen Degeneres.
 
-<p class="firstLetter">Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an enneagram type 6, also known as the Loyalist.</p>
+<p class="firstLetter">Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an Enneagram type 6, also known as the Loyalist.</p>
 
 ## Loyal to friends and causes
 
@@ -57,7 +57,7 @@ Ellen has spoken openly about her struggles with anxiety, which can be attribute
 
 ## Responsible and dependable
 
-Another characteristic of enneagram type 6 individuals is their sense of responsibility and dependability.
+Another characteristic of Enneagram type 6 individuals is their sense of responsibility and dependability.
 
 Ellen is known for her punctuality and professionalism, which has earned her respect in the entertainment industry. She is also responsible for launching the careers of several comedians through her talk show, demonstrating her desire to help others and be a dependable source of support.
 
@@ -65,4 +65,4 @@ Ellen is known for her punctuality and professionalism, which has earned her res
 
 Enneagram type 6 individuals often struggle with fear and anxiety about the unknown.
 
-Ellen has spoken about her fear of failure and rejection, which can be attributed to her enneagram type 6 personality. However, she has also demonstrated courage and resilience in the face of adversity, such as when she came out as gay on national television in 1997.
+Ellen has spoken about her fear of failure and rejection, which can be attributed to her Enneagram type 6 personality. However, she has also demonstrated courage and resilience in the face of adversity, such as when she came out as gay on national television in 1997.

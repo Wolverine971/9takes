@@ -29,7 +29,7 @@ However what if people were more complicated than simply being rational or irrat
 
 Given any issue or question what if the answers were not divided like a coin flip of being right or wrong, good or bad. What if answers were like an impossible three-sided die.
 
-The enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger, fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instinctive
+The Enneagram divides people by 3 things. Three emotions and three centers of intelligence. The three emotions are anger, fear and shame. And the three centers of intelligence are Thinking, Feeling, and Instinctive
 -->
 
 <!-- What is the consensus on human nature? It is TBD but there have been two main perspectives that keep coming up. The philosophers Plato and Aristotle had oposing view that mirror the phychologists Sigmund Freud view compared to modern psychologist Steven Pinker. Here we will explore these perspecives.

@@ -1,5 +1,5 @@
 ---
-title: 'toxic traits of each enneagram type'
+title: 'toxic traits of each Enneagram type'
 description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'
@@ -25,7 +25,7 @@ examples of toxic traits
 
 <!-- todo finish this -->
 
-**Blog Title:** Navigating the Shadows: Understanding the Toxic Traits of Each Enneagram Type
+**Blog Title:** Navigating the Shadows: Understanding the Toxic Traits of Each Enneagram type
 
 **Introduction**
 
@@ -38,7 +38,7 @@ examples of toxic traits
 - Quick explanation of the Enneagram's nine personality types.
 - Brief discussion on how each type has both growth and stress points, leading to potential toxic behaviors.
 
-**Toxic Traits of Each Enneagram Type**
+**Toxic Traits of Each Enneagram type**
 
 1. **Type One: The Perfectionist**
    - Toxic Trait: Over-Criticism

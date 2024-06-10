@@ -23,9 +23,13 @@ blog: true
 
 <p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
 
-Known as "The Helper," Type 2s crave affection and admiration from those around them, often to the point of self-sacrifice. In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals, as well as their growth paths and potential pitfalls.
+Known as "The Helper," Type 2s crave affection and are the most caring type in the Enneagram. They have high emotional intelligence which enables them to sense what other people are feeling and and wanting. Because of this Type 2s often take the initiative to help people and though they gain admiration they also can build up resentment if they have put their needs last for too long.
 
-Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community.
+<!-- They admiration from those around them and are more than willing to sacrifice their needs and wants. -->
+
+In this article, we will dive into the characteristics, motivations, and behaviors of Enneagram Type 2 individuals.
+
+<!-- Understanding these aspects is key to appreciating the unique qualities they bring to any relationship or community. -->
 
 <details open>
 <summary class="accordion">Table of Contents</summary>

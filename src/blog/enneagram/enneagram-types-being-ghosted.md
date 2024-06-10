@@ -60,7 +60,7 @@ It's important to recognize that not everyone responds the same way to ghosting 
   <!-- <aside class="section-meta">
   
    <a href="/blog/enneagram/enneagram-type-1" class="a-type">Type 1</a>
-   <p>The enneagram 1 is a put together creature</p>
+   <p>The Enneagram 1 is a put together creature</p>
  </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Two: The Helper</h3>
@@ -77,7 +77,7 @@ that they are worthy of love and respect.
  </section>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-2" class="a-type">Type 2</a>
-   <p>The enneagram 2 is a loving creature</p>
+   <p>The Enneagram 2 is a loving creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Three: The Achiever</h3>
@@ -98,7 +98,7 @@ of love and respect.
 </div>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>
-   <p>The enneagram 3 is a shiny creature</p>
+   <p>The Enneagram 3 is a shiny creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Four: The Individualist</h3>
@@ -131,7 +131,7 @@ that they are worthy of love and respect.
 </div>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
-   <p>The enneagram 4 is a complicated creature</p>
+   <p>The Enneagram 4 is a complicated creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Five: The Investigator</h3>
@@ -148,7 +148,7 @@ that they are worthy of love and respect.
  </section>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-5" class="a-type">Type 5</a>
-   <p>The enneagram 5 is a mysterious creature</p>
+   <p>The Enneagram 5 is a mysterious creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Six: The Loyalist</h3>
@@ -165,7 +165,7 @@ that they are worthy of love and respect.
  </section>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-6" class="a-type">Type 6</a>
-   <p>The enneagram 6 is a wary creature</p>
+   <p>The Enneagram 6 is a wary creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Seven: The Enthusiast</h3>
@@ -182,7 +182,7 @@ and self-care, reminding themselves that they are worthy of love and respect.
  </section>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-7" class="a-type">Type 7</a>
-   <p>The enneagram 7 is a joyful creature</p>
+   <p>The Enneagram 7 is a joyful creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Eight: The Challenger</h3>
@@ -215,7 +215,7 @@ of love and respect.
 </div>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
-   <p>The enneagram 8 is a strong creature</p>
+   <p>The Enneagram 8 is a strong creature</p>
   </aside> -->
  <section class="section-content">
    <h3 style="padding: 0; margin-top: 1em">Type Nine: The Peacemaker</h3>
@@ -227,7 +227,7 @@ Type Nines, known for their easy-going nature and desire for peace, may struggle
  </section>
  <!-- <aside class="section-meta">
    <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
-   <p>The enneagram 9 is a easy going creature</p>
+   <p>The Enneagram 9 is a easy going creature</p>
   </aside> -->
 
 It's important to acknowledge that everyone's experience with ghosting is unique, and the Enneagram is just one tool to understand it. Being ghosted can be painful, so if you're currently experiencing it, take a moment to check in with yourself. If it's affecting your mental health, reach out to a close friend or seek professional help and support. Remember, healing and moving forward are possible with time and self-compassion.

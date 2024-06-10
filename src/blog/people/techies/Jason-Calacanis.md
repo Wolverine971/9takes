@@ -1,5 +1,5 @@
 ---
-title: 'Jason Calacanis Enneagram Type 3'
+title: 'Jason Calacanis Enneagram type 3'
 description: 'Why Jason Calacanis appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-07-30'
@@ -108,7 +108,7 @@ Threes, in their pursuit of success, can become overly concerned with their imag
 
 Nevertheless, Calacanis' journey also provides a fascinating glimpse into the Achiever's path toward growth. As he embarks on new ventures and evolves his persona, he is inching closer to the integrated or healthy state of Type 3, marked by self-acceptance and authenticity.
 
-## How Jason's enneagram type can be seen influencing his work
+## How Jason's Enneagram type can be seen influencing his work
 
 Jason started as a reporter talking about the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry."</a>
 
@@ -118,7 +118,7 @@ Nowadays, he works on his popular podcast, "This Week in Startups," where Calaca
 
 ## Jason's impact on "The All in Podcast"
 
-Jason's influence on "The All In Podcast" is a testament to his Enneagram Type 3 personality traits. He is the moderator. The self-proclaimed "world's greatest moderator." He skillfully manages the ideological spectrum, facilitating dynamic discussions while maintaining harmony and camaraderie among the hosts.
+Jason's influence on "The All In Podcast" is a testament to his Enneagram type 3 personality traits. He is the moderator. The self-proclaimed "world's greatest moderator." He skillfully manages the ideological spectrum, facilitating dynamic discussions while maintaining harmony and camaraderie among the hosts.
 
 This underscores his Type 3's desire for achievement and recognition. He artfully directs the conversation, allowing each participant to express their views while always getting his 2 cents in.
 
@@ -126,7 +126,7 @@ The playful tension between Calacanis and David Sacks adds a unique dynamic to t
 
 Jason was jokingly accused of trying to take over the podcast once. There needed to be more clarity on where to take the podcast. Jason wanted to do things to grow the podcast and monetize it; however, the other podcast members wanted to keep the podcast authentic. Jason ended up focusing on the friendship between the podcasters rather than the show's success. This shows a healthy ability to manage this ambition.
 
-## How Each Enneagram Type Perceives Jason Calacanis
+## How Each Enneagram type Perceives Jason Calacanis
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jason Calacanis:
 
@@ -142,7 +142,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## The Call To Action
 
-Now that we have made the case for Jason Calacanis being an Enneagram Type 3, has there been any shift in your opinion of him? Personalities are multi-faceted, continually evolving constructs, and our views of others should be ready to shift and give way to empathy when we realize we all have different strengths and weaknesses. What other layers of Jason were missed?
+Now that we have made the case for Jason Calacanis being an Enneagram type 3, has there been any shift in your opinion of him? Personalities are multi-faceted, continually evolving constructs, and our views of others should be ready to shift and give way to empathy when we realize we all have different strengths and weaknesses. What other layers of Jason were missed?
 
 If you want to dive deeper into the world of the Enneagram, sign up below. We will let you know when we launch!
 
@@ -154,7 +154,7 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores the personality traits of Jason Calacanis, co-host of 'The All In Podcast,' through the lens of Enneagram Type 3. Known for his ambition, assertiveness, and role as the podcast's 'world's greatest moderator,' Jason embodies many characteristics of Type 3 personalities. The article discusses various facets of Jason's life and career that demonstrate his Type 3 characteristics, including his successful investments, controversies, and interactions with his co-hosts.",
+      "articleBody": "This article explores the personality traits of Jason Calacanis, co-host of 'The All In Podcast,' through the lens of Enneagram type 3. Known for his ambition, assertiveness, and role as the podcast's 'world's greatest moderator,' Jason embodies many characteristics of Type 3 personalities. The article discusses various facets of Jason's life and career that demonstrate his Type 3 characteristics, including his successful investments, controversies, and interactions with his co-hosts.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -175,8 +175,8 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
         "@type": "Date",
         "@value": "2023-07-29"
       },
-      "description": "This blog post examines why Jason Calacanis might be an Enneagram Type 3. It focuses on his personality traits, his motivations, controversies he's faced, and how these elements might be related to the core attributes of a Type 3.",
-      "headline": "Decoding Jason Calacanis: An Insight Into His Enneagram Type 3 Personality",
+      "description": "This blog post examines why Jason Calacanis might be an Enneagram type 3. It focuses on his personality traits, his motivations, controversies he's faced, and how these elements might be related to the core attributes of a Type 3.",
+      "headline": "Decoding Jason Calacanis: An Insight Into His Enneagram type 3 Personality",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis",
         "@type": "WebPage"
@@ -210,9 +210,9 @@ If you want to dive deeper into the world of the Enneagram, sign up below. We wi
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Jason Calacanis exhibits many characteristics associated with Enneagram Type 3 personalities. This includes his ambition, assertiveness, and moderating role in the 'All In Podcast.' These characteristics are deeply rooted in his desire to be successful and influential, a core motivation for Type 3 individuals."
+            "text": "Jason Calacanis exhibits many characteristics associated with Enneagram type 3 personalities. This includes his ambition, assertiveness, and moderating role in the 'All In Podcast.' These characteristics are deeply rooted in his desire to be successful and influential, a core motivation for Type 3 individuals."
           },
-          "name": "Why is Jason Calacanis considered an Enneagram Type 3?"
+          "name": "Why is Jason Calacanis considered an Enneagram type 3?"
         },
         {
           "@type": "Question",

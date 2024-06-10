@@ -43,7 +43,7 @@ We are going to look at the communication styles of each Enneagram type. It may 
 
 ## Steps for Using the Enneagram in Relationships
 
-After you have learned your Enneagram Type its time to start thinking about the other possible Enneagram types of the people around you.
+After you have learned your Enneagram type its time to start thinking about the other possible Enneagram types of the people around you.
 
 ### Ground Rules
 
@@ -53,10 +53,10 @@ After you have learned your Enneagram Type its time to start thinking about the 
 ### Steps
 
 1. Identify your type and the think through the likely types of those around you. This will help you identify your own <a href="enneagram-communication-styles" >communication style</a> and start to be attuned to the communication styles of those around you.
-2. Open up the conversation by asking your partner about their motivations and fears. Start the conversation by being vulnerable and sharing with your partner your own thoughts and feelings. Ask them if they can see these motivations and fears within you. Then ask your partner if they identify with one of the other enneagram types fears and motivations.
+2. Open up the conversation by asking your partner about their motivations and fears. Start the conversation by being vulnerable and sharing with your partner your own thoughts and feelings. Ask them if they can see these motivations and fears within you. Then ask your partner if they identify with one of the other Enneagram types fears and motivations.
 3. Focus on learning about the <a href="/blog/enneagram/enneagram-strengths-and-weaknesses" >strengths and weaknesses of each type</a>. This will help you and your partner get to a deeper layer of vulnerability where you can begin to understand how different people perceive the world. Ultimately this will lead to a conversation about you and your partner need in relationships.
 
-## Relationship Communication Playbook for Each Enneagram Type
+## Relationship Communication Playbook for Each Enneagram type
 
 Now its time to explore each type by looking at what they need from their partner.
 
@@ -290,7 +290,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 1: The Perfectionist need in a relationship?",
+          "name": "What do Enneagram type 1: The Perfectionist need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values."
@@ -298,7 +298,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 2: The Helper need in a relationship?",
+          "name": "What do Enneagram type 2: The Helper need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Twos need emotional connection, support, and nurturing. They appreciate partners who are attentive, caring, and show their love through actions."
@@ -306,7 +306,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 3: The Achiever need in a relationship?",
+          "name": "What do Enneagram type 3: The Achiever need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Threes need recognition, success, and achievement. They appreciate partners who are supportive of their goals and who are driven and ambitious themselves."
@@ -314,7 +314,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 4: The Individualist need in a relationship?",
+          "name": "What do Enneagram type 4: The Individualist need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Fours need emotional depth, authenticity, and uniqueness. They appreciate partners who are sensitive, creative, and who share their values and passions."
@@ -322,7 +322,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 5: The Investigator need in a relationship?",
+          "name": "What do Enneagram type 5: The Investigator need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Fives need knowledge, independence, and privacy. They appreciate partners who respect their need for alone time and intellectual pursuits."
@@ -330,7 +330,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 6: The Loyalist need in a relationship?",
+          "name": "What do Enneagram type 6: The Loyalist need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sixes need security, loyalty, and responsibility. They appreciate reliable, trustworthy partners who provide a sense of stability and safety."
@@ -338,7 +338,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 7: The Enthusiast needs in a relationship?",
+          "name": "What do Enneagram type 7: The Enthusiast needs in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Sevens need adventure, spontaneity, and variety. They appreciate partners who are fun-loving, open-minded, and who share their sense of excitement and curiosity."
@@ -346,7 +346,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 8: The Challenger need in a relationship?",
+          "name": "What do Enneagram type 8: The Challenger need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Eights need control, power, and strength. They appreciate independent, confident partners who can stand up to them when necessary."
@@ -354,7 +354,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         },
         {
           "@type": "Question",
-          "name": "What do Enneagram Type 9: The Peacemaker need in a relationship?",
+          "name": "What do Enneagram type 9: The Peacemaker need in a relationship?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Nines need harmony, peace, and balance. They appreciate partners who are calm, patient, and who can help them find a sense of tranquility in their lives."

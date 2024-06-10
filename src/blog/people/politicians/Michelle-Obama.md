@@ -1,5 +1,5 @@
 ---
-title: 'Michelle Obama Enneagram Type 1'
+title: 'Michelle Obama Enneagram type 1'
 description: 'Why Michelle Obama appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -50,7 +50,7 @@ Enneagram type 1 individuals have high standards for themselves and others. Mich
 
 ## Organized and disciplined
 
-Another characteristic of enneagram type 1 individuals is their organization and discipline. Michelle has demonstrated her organizational skills through her role as First Lady, overseeing events and initiatives with precision and attention to detail. She has also spoken about her daily routine, which includes early morning workouts and a structured schedule.
+Another characteristic of Enneagram type 1 individuals is their organization and discipline. Michelle has demonstrated her organizational skills through her role as First Lady, overseeing events and initiatives with precision and attention to detail. She has also spoken about her daily routine, which includes early morning workouts and a structured schedule.
 
 ## Perfectionist tendencies
 

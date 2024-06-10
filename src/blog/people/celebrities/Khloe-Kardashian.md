@@ -1,5 +1,5 @@
 ---
-title: 'Khloé Kardashian An Enneagram Type 6'
+title: 'Khloé Kardashian An Enneagram type 6'
 description: 'Why Khloé Kardashian appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-07-25'
@@ -23,7 +23,7 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram Type 6 - The Loyalist.</p>
+<p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.</p>
 
 <div
 	style="display: flex;
@@ -45,7 +45,7 @@ tiktok: ''
 <summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Navigating Fame and Personal Struggles:</b> Khloé Kardashian, a staple of the "Keeping Up with the Kardashians" reality show, is a noteworthy representation of an Enneagram Type 6, or Loyalist. Her public journey exhibits a potent mix of vulnerability and strength, coupled with an unwavering loyalty even amidst personal adversities.
+<li><b>Navigating Fame and Personal Struggles:</b> Khloé Kardashian, a staple of the "Keeping Up with the Kardashians" reality show, is a noteworthy representation of an Enneagram type 6, or Loyalist. Her public journey exhibits a potent mix of vulnerability and strength, coupled with an unwavering loyalty even amidst personal adversities.
 </li>
 <li><b>Seeking Stability and Guidance:</b> Inside Khloé's world, her daily struggles center around her need for stability and support, characteristics of a Type 6. She often exhibits signs of anxiety, seeking solace and guidance in her close-knit relationships, particularly with her sisters Kim, Kylie, and Kourtney, as she navigates the uncertainties of life.
 </li>
@@ -75,7 +75,7 @@ Khloé's personal life has been under the spotlight for years, with numerous con
 
 However, her persistent loyalty also serves as a testament to a Type 6's struggle with insecurity and anxiety. Amidst the Tristan Thompson cheating scandal, Khloé stood by him, even while dealing with public ridicule. Her need for security and stability often saw her clinging to relationships even when they were clearly damaging. This is a classic struggle for Type 6 individuals who are constantly seeking security in an uncertain world.
 
-## How Each Enneagram Type Perceives Khloé Kardashian
+## How Each Enneagram type Perceives Khloé Kardashian
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Khloé Kardashian:
 
@@ -91,7 +91,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## A Loyalist in the Limelight
 
-The complexity of Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram Type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
+The complexity of Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
 
 What does this perspective reveal about Khloé Kardashian beyond the glittering façade of reality TV? Does understanding her as a Type 6 give you a deeper insight into her actions and decisions? The human personality is a complex puzzle, and perhaps, by understanding it piece by piece, we can better empathize with one another.
 
@@ -105,7 +105,7 @@ Curious about the personalities of other famous individuals? Interested in seein
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram Type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine enneagram types.",
+      "articleBody": "This article delves into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine Enneagram types.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -126,8 +126,8 @@ Curious about the personalities of other famous individuals? Interested in seein
         "@type": "Date",
         "@value": "2023-07-25"
       },
-      "description": "This blog post explores Khloé Kardashian as an Enneagram Type 6. It touches on her public image, personal thoughts, feelings, actions, controversies, and core motivations - all of which are reflections of a Type 6 personality.",
-      "headline": "Unveiling Khloé Kardashian: A Deep Dive Into Her Enneagram Type 6 Personality",
+      "description": "This blog post explores Khloé Kardashian as an Enneagram type 6. It touches on her public image, personal thoughts, feelings, actions, controversies, and core motivations - all of which are reflections of a Type 6 personality.",
+      "headline": "Unveiling Khloé Kardashian: A Deep Dive Into Her Enneagram type 6 Personality",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -160,9 +160,9 @@ Curious about the personalities of other famous individuals? Interested in seein
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé Kardashian embodies many characteristics of Enneagram Type 6, including her loyalty, her struggles with insecurity, her search for support and guidance, and her resilience in the face of adversity."
+            "text": "Khloé Kardashian embodies many characteristics of Enneagram type 6, including her loyalty, her struggles with insecurity, her search for support and guidance, and her resilience in the face of adversity."
           },
-          "name": "Why is Khloé Kardashian considered an Enneagram Type 6?"
+          "name": "Why is Khloé Kardashian considered an Enneagram type 6?"
         },
         {
           "@type": "Question",
@@ -184,7 +184,7 @@ Curious about the personalities of other famous individuals? Interested in seein
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé Kardashian is an Enneagram Type 6, often referred to as The Loyalist. This type is known for being loyal, anxious, and seeking security. Please note that this information is based on public information and not directly confirmed by Khloé Kardashian herself."
+            "text": "Khloé Kardashian is an Enneagram type 6, often referred to as The Loyalist. This type is known for being loyal, anxious, and seeking security. Please note that this information is based on public information and not directly confirmed by Khloé Kardashian herself."
           },
           "name": "What is Khloé Kardashian's Enneagram type?"
         }

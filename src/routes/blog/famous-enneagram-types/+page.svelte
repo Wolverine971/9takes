@@ -10,7 +10,7 @@
 <BlogPageHead
 	data={{
 		title: '9takes Analysis of Famous People',
-		description: 'List famous people who have their enneagram type analyzed'
+		description: 'List famous people who have their Enneagram type analyzed'
 	}}
 	slug={'blog/famous-enneagram-types'}
 />

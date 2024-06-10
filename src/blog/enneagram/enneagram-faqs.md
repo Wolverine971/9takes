@@ -100,7 +100,7 @@ previewHtml: ''
 <summary class="accordion">Is Enneagram scientific?</summary>
  <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence
   and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
-  Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are
+  Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the Enneagram are
   eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche
   goes even further back and parallels Plato's description of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram" >see here</a>).
     </p>
@@ -255,7 +255,7 @@ previewHtml: ''
 			"name": "Is Enneagram scientific?",
 			"acceptedAnswer": {
 				"@type": "Answer",
-				"text": "The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the enneagram are eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche goes even further back and parallels Plato's description of the human soul."
+				"text": "The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the Enneagram are eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche goes even further back and parallels Plato's description of the human soul."
 			}
 		},
 		{

@@ -1,18 +1,18 @@
 # Recent suggestions
 
-enneagram childhood wound\*\*\*\*
+Enneagram childhood wound\*\*\*\*
 
-famous enneagram 3
-famous enneagram 8
-famous enneagram 5
+famous Enneagram 3
+famous Enneagram 8
+famous Enneagram 5
 
 the helper enneagram
 loyalist enneagram
-enneagram helper
+Enneagram helper
 
-enneagram childhood,
+Enneagram childhood,
 relationships,
-enneagram groups
+Enneagram groups
 can personality change
 can personality types change
 
@@ -24,7 +24,7 @@ personality zodiac signs
 personality disorder types
 personality traits list
 
-9 benefits of learning your enneagram type
+9 benefits of learning your Enneagram type
 
 # Keyword Strategy for "enneagram"
 
@@ -178,7 +178,7 @@ Discover the Enneagram personality types and how they can help you understand yo
 
 ## Meta Title
 
-Discover Your Enneagram Type: A Comprehensive Guide to Personality Typing
+Discover Your Enneagram type: A Comprehensive Guide to Personality Typing
 
 ## Meta Description
 
