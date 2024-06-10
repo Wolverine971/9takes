@@ -7,8 +7,8 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 
 	import { createEventDispatcher } from 'svelte';
-	import Modal2, { getModal } from '../atoms/Modal2.svelte';
-	import Context, { onClickOutside } from './Context.svelte';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let data: any;

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import Card from '../atoms/card.svelte';
-	import DownIcon from '../icons/downIcon.svelte';
-	import RightIcon from '../icons/rightIcon.svelte';
+	import Card from '$lib/components/atoms/card.svelte';
+	import DownIcon from '$lib/components/icons/downIcon.svelte';
+	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
 	export let parentType: string = 'comment';
 

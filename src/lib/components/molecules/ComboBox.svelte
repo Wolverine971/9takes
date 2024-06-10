@@ -1,5 +1,5 @@
 <script>
-	import { uid, onClickOutside } from './Context.svelte';
+	import { uid, onClickOutside } from '$lib/components/molecules/Context.svelte';
 	import { createEventDispatcher } from 'svelte';
 
 	const dispatch = createEventDispatcher();

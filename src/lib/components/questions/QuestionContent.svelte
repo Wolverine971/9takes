@@ -9,7 +9,7 @@
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import { createEventDispatcher } from 'svelte';
-	import Links from '../molecules/Links.svelte';
+	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	const dispatch = createEventDispatcher();
 
 	interface PassedPageData {
@@ -401,7 +401,7 @@
 		<div class="flexr {selectedTab === 'articles' && 'first'}" id="articles">
 			<h2>Articles</h2>
 			<Card>
-				<Links
+				<ArticleLinks
 					questionId={data.id}
 					data={_data}
 					parentType={'question'}

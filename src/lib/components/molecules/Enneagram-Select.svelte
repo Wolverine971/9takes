@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Enneagram from '$lib/components/icons/enneagram.svelte';
 	import { createEventDispatcher } from 'svelte';
-	import Context, { onClickOutside } from './Context.svelte';
+	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	const dispatch = createEventDispatcher();
 	export let selectedEnneagram: number | string | null = null;
 

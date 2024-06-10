@@ -11,9 +11,9 @@
 	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
 
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
-	import EditIcon from '../icons/editIcon.svelte';
-	import Modal2, { getModal } from '../atoms/Modal2.svelte';
-	import Popover from '../atoms/Popover.svelte';
+	import EditIcon from '$lib/components/icons/editIcon.svelte';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Popover from '$lib/components/atoms/Popover.svelte';
 	const dispatch = createEventDispatcher();
 
 	export let user: any;

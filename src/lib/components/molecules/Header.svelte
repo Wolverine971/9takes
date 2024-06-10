@@ -2,7 +2,7 @@
 	import account from '$lib/images/account-circle.svg';
 	import { onMount } from 'svelte';
 
-	import MobileHam from './mobile-ham.svelte';
+	import MobileHam from '$lib/components/molecules/mobile-ham.svelte';
 
 	// import NavbarLinks from './NavbarLinks.svelte';
 	import { afterUpdate } from 'svelte';
@@ -10,7 +10,7 @@
 	import { page } from '$app/stores';
 	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
-	import Context, { onClickOutside } from './Context.svelte';
+	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 
 	export let data: any;
 	let innerWidth: number;

@@ -5,7 +5,7 @@
 	import EditIcon from '$lib/components/icons/editIcon.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { deserialize } from '$app/forms';
-	import { notifications } from '../molecules/notifications';
+	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let questionData: any;
 
