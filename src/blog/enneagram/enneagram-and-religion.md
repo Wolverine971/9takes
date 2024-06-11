@@ -44,7 +44,7 @@ With that, let's look at the Enneagram's various religious connections.
 
 In Christianity, the Enneagram was and has been adopted as a tool for spiritual growth.
 
-Richard Rohr, a Franciscan friar, has championed the Enneagram within Christian circles, seeing it as a way to better understand oneself and others, thereby facilitating personal and spiritual development. His Center for Action and Contemplation offers various resources, including online courses, articles, and books on the Enneagram from a Christian perspective. Here is <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/the-enneagram-an-introduction/" >Rohr giving an into to the enneagram</a>.
+Richard Rohr, a Franciscan friar, has championed the Enneagram within Christian circles, seeing it as a way to better understand oneself and others, thereby facilitating personal and spiritual development. His Center for Action and Contemplation offers various resources, including online courses, articles, and books on the Enneagram from a Christian perspective. Here is <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/the-enneagram-an-introduction/" >Rohr giving an into to the Enneagram</a>.
 
 ### Sufism and the Enneagram's Origins
 

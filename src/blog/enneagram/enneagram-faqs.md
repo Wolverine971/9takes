@@ -28,7 +28,7 @@ previewHtml: ''
 </details>
 
 <details>
-<summary class="accordion">What is enneagram?</summary>
+<summary class="accordion">What is Enneagram?</summary>
 <div class="panel">
  <p>The term "Enneagram" comes from the Greek words "ennea" and "gramma".</p>
   <p>"Ennea" is the Greek word for nine, and "gramma" means something written or drawn. So, combined, "Enneagram" essentially translates to "nine-pointed diagram."</p>

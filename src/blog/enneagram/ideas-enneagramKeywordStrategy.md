@@ -6,8 +6,8 @@ famous Enneagram 3
 famous Enneagram 8
 famous Enneagram 5
 
-the helper enneagram
-loyalist enneagram
+the helper Enneagram
+loyalist Enneagram
 Enneagram helper
 
 Enneagram childhood,
