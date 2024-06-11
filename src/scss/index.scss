@@ -439,10 +439,10 @@ section {
 .iframe-container {
 	position: relative;
 	margin: 2rem 0;
-	padding-bottom: 56.25%;
+	// padding-bottom: 56.25%;
 	width: 100%;
 	border-radius: 10px;
-	border: 1px solid red;
+	border: 1px solid var(--color-theme-purple);
 	// height: 0;
 }
 
