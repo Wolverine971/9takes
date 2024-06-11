@@ -11,7 +11,7 @@
 	// emotions synonyms
 	// how to control your emotions
 	// first you need to name your emotion
-	import { tick } from 'svelte';
+	import { onMount, tick } from 'svelte';
 
 	// import { gsap } from 'gsap/dist/gsap';
 	// import { Flip } from 'gsap/dist/Flip';
@@ -19,6 +19,13 @@
 
 	// gsap.registerPlugin(Flip);
 	// anger shame fear
+	onMount(() => {
+		let textAreas = document.getElementsByTagName('textarea');
+
+		Array.prototype.forEach.call(textAreas, function (elem) {
+			elem.placeholder = elem.placeholder.replace(/\\n/g, '\n');
+		});
+	});
 
 	let formattedListOfEmotions: string[] = [];
 
@@ -1515,7 +1522,7 @@
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-02-01"
+        "@value": "2024-06-11"
       },
       "datePublished": {
         "@type": "Date",
@@ -1541,66 +1548,69 @@
 }
 
 	</script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
 
-<!-- <h1>EXPERIMENT</h1> -->
-<h1 style="margin-bottom: 0;">The one minute experiment for Emotions</h1>
-<h2 style="margin-top: 0; padding-top:0;">
-	Demystify emotions and understand what other people are feeling.
-</h2>
+<div class="background-area-box-tint">
+	<!-- <h1>EXPERIMENT</h1> -->
+	<h1 style="margin-bottom: 0;">The one minute experiment for Emotions</h1>
+	<h2 style="margin-top: 0; padding-top:0;">
+		Demystify emotions and understand what other people are feeling.
+	</h2>
 
-<!-- <h3>Instructions</h3> -->
+	<!-- <h3>Instructions</h3> -->
 
-<!-- <ol>
+	<!-- <ol>
 	<li> -->
-<div>
-	<h3>Instructions:</h3>
-	<p>
-		Take one minute and write down all the <span style="text-decoration: underline;"
-			>negative emotions</span
-		> that are one word that you can think of.
-	</p>
-	<ul>
-		<li>Time yourself for 1 minute</li>
-		<li>Write all the negative emotions</li>
-		<li>Only write emotions that are one word</li>
-		<li>Only use english</li>
-	</ul>
+	<div>
+		<h3 style="    padding: 1rem 0;">Instructions:</h3>
+		<p>
+			Take one minute and write down all the <span style="text-decoration: underline;"
+				>negative emotions</span
+			> that are one word that you can think of.
+		</p>
+		<ul>
+			<li>Time yourself for 1 minute</li>
+			<li>Write all the negative emotions</li>
+			<li>Only write emotions that are one word</li>
+			<li>Only use english</li>
+		</ul>
 
-	<!-- // anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased -->
-	<div style="position: relative;">
-		{#if !submitBox}
-			<textarea
-				bind:this={textArea}
-				align="center"
-				name="list emotions"
-				cols="30"
-				rows="10"
-				style="width: 100%;"
-				bind:value={emotionList}
-			/>
-		{:else}
-			<div
-				on:click={(submitBox = false)}
-				class="emotion-div"
-				style={`min-height: ${height}px; max-width: ${width}px;`}
-			>
-				{#each formattedListOfEmotions as emotion, i}
-					<span style="margin: .3rem;" id={`${emotion}-${i}`}>{emotion}</span>
-				{/each}
-			</div>
-		{/if}
-	</div>
-	<input
-		type="button"
-		name="Submit"
-		value="Submit"
-		on:click={submit}
-		disabled={emotionList.length ? false : true}
-		class:form-send={true}
-		class={emotionList.length ? 'regular' : 'disabled'}
-	/>
-	<!-- {#if data?.session?.user}
+		<!-- // anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased -->
+		<div style="position: relative;">
+			{#if !submitBox}
+				<textarea
+					bind:this={textArea}
+					align="center"
+					name="list emotions"
+					cols="30"
+					rows="10"
+					style="width: 100%;"
+					placeholder="emotion 1\nemotion 2\nemotion 3\n..."
+					bind:value={emotionList}
+				/>
+			{:else}
+				<div
+					on:click={(submitBox = false)}
+					class="emotion-div"
+					style={`min-height: ${height}px; max-width: ${width}px;`}
+				>
+					{#each formattedListOfEmotions as emotion, i}
+						<span style="margin: .3rem;" id={`${emotion}-${i}`}>{emotion}</span>
+					{/each}
+				</div>
+			{/if}
+		</div>
+		<input
+			type="button"
+			name="Submit"
+			value="Submit"
+			on:click={submit}
+			disabled={emotionList.length ? false : true}
+			class:form-send={true}
+			class={emotionList.length ? 'regular' : 'disabled'}
+		/>
+		<!-- {#if data?.session?.user}
 		<input
 			type="button"
 			name="Filter"
@@ -1610,12 +1620,12 @@
 			class={emotionList.length ? 'regular' : 'disabled'}
 		/>
 	{/if} -->
-</div>
-<!-- </li>
+	</div>
+	<!-- </li>
 </ol> -->
 
-{#if formattedListOfEmotions?.length}
-	<!-- <input
+	{#if formattedListOfEmotions?.length}
+		<!-- <input
 		type="button"
 		name="Swap"
 		value="Swap"
@@ -1623,8 +1633,8 @@
 		class:form-send={true}
 		class="regular"
 	/> -->
-	<div class="row">
-		<!-- <div class="column">
+		<div class="row">
+			<!-- <div class="column">
 			<h3>Listed Emotions</h3>
 			{#if !swap}
 				<div class="column" data-layout={layout}>
@@ -1634,83 +1644,123 @@
 				</div>
 			{/if}
 		</div> -->
-		<div>
-			<h3>Enneagram Core Emotions</h3>
-			{#if swap}
-				<div class="row">
-					{#each Object.keys(categories) as rootEmotion}
-						<div class="column">
-							<h4>{rootEmotion}</h4>
-							<div class="row">
-								<div>
-									{#each categories[rootEmotion] as categorizedEmotion}
-										<div
-											class="circle"
-											id={`${categorizedEmotion}-${formattedListOfEmotions.indexOf(
-												categorizedEmotion
-											)}`}
-										>
-											{categorizedEmotion}
-										</div>
-									{/each}
+			<div class="emotions-box">
+				<h3 style="text-align: center;">Enneagram Core Emotions</h3>
+				{#if swap}
+					<div class="row">
+						{#each Object.keys(categories) as rootEmotion}
+							<div class="column">
+								<h4>{rootEmotion}</h4>
+								<div class="row" style="align-items: baseline;">
+									<div>
+										{#each categories[rootEmotion] as categorizedEmotion}
+											<div
+												class="circle"
+												id={`${categorizedEmotion}-${formattedListOfEmotions.indexOf(
+													categorizedEmotion
+												)}`}
+											>
+												{categorizedEmotion}
+											</div>
+										{/each}
+									</div>
 								</div>
 							</div>
-						</div>
-					{/each}
-				</div>
-			{/if}
+						{/each}
+					</div>
+				{/if}
+			</div>
 		</div>
-	</div>
 
-	<br />
-	<p>
-		Most emotions can be grouped into three main buckets. These buckets are anger, fear, and shame.
-		If we can't classify the emotion, we put it into another category. Try to think of an emotion
-		that doesn't fall into one of these buckets.
-	</p>
-	<br />
-	<p>
-		Most positive emotions are derivatives of being happy. Being happy does not shape our
-		personality, everyone wants to be happy. It is how we pursue being happy and the pain and trauma
-		that we have been exposed to and that we are sensitive to that shape our personality.
-	</p>
-	<br />
-
-	<p>
-		Which of these core emotions do you experience the most regularly, or which one do you relate to
-		the most or is most familiar to you? While that emotion might be familiar, it might be foreign
-		to other personalities. It is important to recognize these emotions in yourself and others and
-		not overlook them. We experience a range of emotions from time to time and varying degrees.
-		However, there is usually a core emotion that we are most sensitive to and have developed coping
-		mechanisms around. Or, as the enneagram puts it, we develop certain intelligences around our
-		core emotions.
-	</p>
-
-	<h2>Next steps</h2>
-
-	For now, here is a good thread on how to regulate your emotions:
-
-	<blockquote class="twitter-tweet">
-		<p lang="en" dir="ltr">
-			How To (Actually) Regulate Your Emotions<br /><br />A STEP BY STEP GUIDE:
+		<p>
+			Most emotions can be grouped into three main buckets: anger, fear, and shame. If we can't
+			classify an emotion, we put it into another category.
 		</p>
-		&mdash; Dr. Nicole LePera (@Theholisticpsyc)<a
-			href="https://twitter.com/Theholisticpsyc/status/1717556727510634854?ref_src=twsrc%5Etfw"
-			>October 26, 2023</a
-		>
-	</blockquote>
-	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{/if}
+		<p><b>Try to think of an emotion that doesn't fall into one of these buckets.</b></p>
+		<hr />
+
+		<p>
+			Most positive emotions are derivatives of being happy. And being happy does not shape our
+			personality. Everyone wants to be happy. It is the pain and trauma that we have been exposed
+			to that shapes our personality.
+		</p>
+
+		<ul>
+			<li>Which of these core emotions do you experience the most regularly?</li>
+			<li>Which one do you relate to the most or is most familiar to you?</li>
+		</ul>
+
+		<p>Some emotions might be all too familiar while others might seem foreign.</p>
+
+		<p>
+			We experience a range of emotions from time to time and in varying degrees. However, there is
+			usually a core emotion that we are most sensitive to and have developed coping mechanisms
+			around. Or, as the Enneagram puts it, we develop certain intelligences around our core
+			emotions.
+		</p>
+
+		<p>
+			If you gravitate to one bucket of emotions that may be a clue in <a
+				href="/blog/enneagram/enneagram-personality-test">determining your personality</a
+			>.
+		</p>
+
+		<h2>Additional Reading</h2>
+
+		How to regulate your emotions 👇
+
+		<div class="tweet-div">
+			<blockquote class="twitter-tweet">
+				<p lang="en" dir="ltr">
+					Everyone gets stressed, but not everyone acts the same when stressed.<br /><br />How come?<br
+					/><br />Well its because everyone makes the same mistake.<br /><br />Its not the situation
+					that stressed you out. Its the emotions that come up because of that situation.<br /><br
+					/>Let me explain
+				</p>
+				&mdash; DJocrates (@9takesdotcom)<a
+					href="https://twitter.com/9takesdotcom/status/1788777882149425212?ref_src=twsrc%5Etfw"
+					>May 10, 2024</a
+				>
+			</blockquote>
+			<blockquote class="twitter-tweet">
+				<p lang="en" dir="ltr">
+					How To (Actually) Regulate Your Emotions<br /><br />A STEP BY STEP GUIDE:
+				</p>
+				&mdash; Dr. Nicole LePera (@Theholisticpsyc)<a
+					href="https://twitter.com/Theholisticpsyc/status/1717556727510634854?ref_src=twsrc%5Etfw"
+					>October 26, 2023</a
+				>
+			</blockquote>
+
+			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	{/if}
+</div>
 
 <!-- acrimony scandalized animosity contempt annoyance degraded antagonism dishonored displeasure
 discredited enmity disgusted exasperation guilt humiliation sus hatred mortified
 impatience put-down indignation remorseful stigmatized irritation sorrowful mad outrage rage
 resentment temper violence -->
 <style lang="scss">
+	.tweet-div {
+		display: flex;
+		gap: 1rem;
+	}
+
+	.twitter-tweet {
+		width: 50%;
+	}
+	.emotions-box {
+		border-radius: var(--base-border-radius);
+		border: var(--classic-border);
+		width: 100%;
+	}
 	.row {
 		display: flex;
 		justify-content: space-evenly;
-		margin: 1rem;
+		margin: 1rem 0;
+		align-items: baseline;
+		width: auto;
 	}
 
 	textarea {

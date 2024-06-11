@@ -62,7 +62,7 @@
 	<link rel="canonical" href="https://9takes.com/questions" />
 </svelte:head>
 
-<div>
+<div class="background-area-box-tint">
 	<h1 style="display: flex; justify-content: space-between; align-content: center">
 		<span>{data?.session?.user?.id ? 'Search or ask a question' : 'Search Questions'} </span>
 	</h1>
