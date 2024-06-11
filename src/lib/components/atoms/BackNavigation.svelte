@@ -82,14 +82,10 @@
 		z-index: 200;
 		width: 100%;
 		height: 2rem;
-		outline-offset: -1px;
-		object-fit: scale-down;
-		border-bottom: 3px solid var(--color-paladin-3);
+		border-bottom: 2px solid var(--color-paladin-3);
 		justify-content: flex-start;
-		max-width: 64rem;
 		align-items: center;
 		display: flex;
-		position: relative;
 		overflow: hidden;
 	}
 
@@ -120,6 +116,14 @@
 	@media (max-width: 500px) {
 		.marquee-text {
 			margin: 0.8rem;
+		}
+
+		.back-nav {
+			border-top: 1px solid var(--color-paladin-3);
+			border-bottom: 1px solid var(--color-paladin-3);
+			padding: 0.5rem;
+			margin: 1rem;
+			height: 3rem;
 		}
 	}
 </style>
