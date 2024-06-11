@@ -92,7 +92,7 @@
 											>{comment?.parentQuestion?.question_formatted?.slice(0, 30)}</a
 										>
 									{/if}
-									<a href="/users/{comment?.profiles?.id}">{comment?.profiles?.email}</a>
+									<a href="/users/{comment?.profiles?.external_id}">{comment?.profiles?.email}</a>
 									<p>{convertDateToReadable(comment.created_at)}</p>
 								</div>
 							</div>
