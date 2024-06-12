@@ -302,6 +302,11 @@
 			root: 'fear',
 			rootWord: 'despair'
 		},
+		desper: {
+			name: 'desperation',
+			root: 'fear',
+			rootWord: 'desper'
+		},
 		diabol: {
 			root: 'shame',
 			name: 'diabolical',
@@ -532,6 +537,11 @@
 			name: 'guilt',
 			rootWord: 'guilt'
 		},
+		greedi: {
+			root: 'fear',
+			name: 'greedy',
+			rootWord: 'greedi'
+		},
 		guilti: {
 			name: 'guiltiness',
 			root: 'shame',
@@ -557,6 +567,12 @@
 			name: 'hesitant',
 			rootWord: 'hesit'
 		},
+		hopeless: {
+			root: 'fear',
+			name: 'hopeless',
+			rootWord: 'hopeless'
+		},
+
 		horrifi: {
 			root: 'fear',
 			name: 'horrified',
@@ -701,6 +717,11 @@
 			root: 'shame',
 			name: 'lewd',
 			rootWord: 'lewd'
+		},
+		lone: {
+			root: 'shame',
+			name: 'lonely',
+			rootWord: 'lone'
 		},
 		mad: {
 			root: 'anger',
@@ -1046,6 +1067,11 @@
 			root: 'anger',
 			name: 'stew',
 			rootWord: 'stew'
+		},
+		stress: {
+			root: 'fear',
+			name: 'stress',
+			rootWord: 'stress'
 		},
 		stigma: {
 			root: 'shame',
