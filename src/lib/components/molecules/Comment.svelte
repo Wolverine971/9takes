@@ -258,7 +258,9 @@
 						</button>
 					{/if}
 
-					<span class="comment-text" itemprop="text">{_commentComment.comment} </span>
+					<span class="comment-text" itemprop="text" style="white-space: pre-line"
+						>{_commentComment.comment}
+					</span>
 				</p>
 				{#if _commentComment?.comment?.length > 136}
 					<span
