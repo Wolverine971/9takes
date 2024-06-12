@@ -4,7 +4,7 @@ description: 'Explore the Enneagram fast with our TL;DR guide, offering quick in
 author: 'DJ Wayne'
 date: '2023-02-10'
 loc: 'https://9takes.com/blog/enneagram/enneagram-tldr'
-lastmod: '2024-04-07'
+lastmod: '2024-06-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -75,9 +75,9 @@ While online tests can provide a starting point for determining your Enneagram t
 
 1. Consider your core motivations and fears: Each Enneagram type is motivated by a core desire and is driven by a core fear. Reflect on what drives you and what you are afraid of, and see which type aligns with your deepest motivations and fears.
 
-2. Identify your core traits: Each Enneagram type has a set of core traits that define their personality. Consider your strengths and weaknesses and see which type’s traits most closely match your own.
+2. Identify your core traits: Each Enneagram type has a set of core traits that define their personality. Consider your strengths and weaknesses and see which type’s traits most closely match your own. <a href="/blog/enneagram/enneagram-strengths-and-weaknesses">Checkout each type's strengths and weaknesses here</a>.
 
-3. Consider your childhood experiences: Our childhood experiences can shape our personality and behavior. Reflect on your upbringing and see how it may have influenced your Enneagram type.
+3. Consider your childhood experiences: Our childhood experiences can shape our personality and behavior. Reflect on your upbringing and see how it may have influenced your Enneagram type. Checkout <a href="/blog/enneagram/enneagram-childhood-stereotypes">how each type was in their childhood here</a>.
 
 4. Seek outside opinions: Ask friends, family, and colleagues for their feedback on your personality traits and tendencies. They may offer insight into your Enneagram type that you may not have considered.
 
