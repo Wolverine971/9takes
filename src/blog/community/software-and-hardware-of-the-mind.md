@@ -71,7 +71,9 @@ And that personality system is the Enneagram.
 
 Why is the Enneagram so accurate? Because it bases the personality types on emotions.
 
-### Emotions are not the problem; they are the key.
+The <a href="/blog/enneagram/enneagram-tldr">TL;DR on the Enneagram here</a>.
+
+### Emotions are not the problem; they are the key
 
 The default response of many to emotional struggles often involves quick pharmacological solutions rather than engaging in discussions.
 
