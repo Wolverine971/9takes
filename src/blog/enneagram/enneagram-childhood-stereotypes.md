@@ -41,25 +41,33 @@ Well, park your scroll thumb or mousey flicker for a moment, and take a walk dow
 
 ## Type 1: The Little Perfectionists
 
-Our Type 1 kids were the miniature rule-keepers and fairness advocates. They might have been the goodie's two shoes or the teacher's pet. Picture a child who felt like they had to be perfect. They might have had trouble considering the possibility that they were wrong. And they were constantly bothered by the little imperfections in the world around them. Somewhere, they learned that precision and correctness were the only options and that it was their responsibility to make things that way.
+Our Type 1 kids were the miniature rule-keepers and fairness advocates. 
+
+They might have been the goodie's two shoes or the teacher's pet. Picture a child who felt like they had to be perfect. They might have had trouble considering the possibility that they were wrong. And they were constantly bothered by the little imperfections in the world around them. Somewhere, they learned that precision and correctness were the only options and that it was their responsibility to make things that way.
 
 Imagine a child organizing their toys with meticulous care or being the self-appointed referee in games, ensuring every rule was followed to the T. This wasn't just a quirky habit; it was their way of creating order in a world they felt was chaotically imperfect.
 
 ## Type 2: The Young Caretakers
 
-Type 2 children were the heart and soul of empathy and care in their circles. These kids were sentimental and treasured the little things like a hug from a friend. However, these kids grew up believing that they needed to be kind to receive kindness; they needed to love well to obtain a morsel of love back. Their hearts stayed big as they nurtured and supported those around them, often at the cost of their own needs.
+Type 2 children were the heart and soul of empathy and care in their circles. 
+
+These kids were sentimental and treasured the little things like a hug from a friend. However, these kids grew up believing that they needed to be kind to receive kindness; they needed to love well to obtain a morsel of love back. Their hearts stayed big as they nurtured and supported those around them, often at the cost of their own needs.
 
 Think of the child who always shared their lunch, not just to be kind, but because they believed it was the only way to be loved and accepted. Their generosity was as much a search for affection as a genuine desire to help.
 
 ## Type 3: The Little Achievers
 
-The Type 3s were the star performers of their childhood, always chasing the next accolade. These kids were raised in environments where success and achievement were encouraged and seen as the ultimate measure of worth. They could often be seen bragging or hanging out with the older or cool kids. They always wanted to be the fastest, strongest, prettiest, or one who could sing the best.
+The Type 3s were the star performers of their childhood, always chasing the next accolade. 
+
+These kids were raised in environments where success and achievement were encouraged and seen as the ultimate measure of worth. They could often be seen bragging or hanging out with the older or cool kids. They always wanted to be the fastest, strongest, prettiest, or one who could sing the best.
 
 Think of the kid who was the sports star or had the highest grades. If they were a 3, they were racking up accomplishments to feel good about themselves and because they thought those accomplishments made them worth loving.
 
 ## Type 4: The Tortured Artists
 
-Type 4 children were unique souls, often feeling like misfits in their own worlds. They grew up with a sense of deep emotional intensity, feeling things more profoundly than their peers, which often led to feeling profoundly misunderstood. They could often be seen wearing something different from their peers. They were the ones who searched for the right way to express themselves.
+Type 4 children were unique souls, often feeling like misfits in their own worlds. 
+
+They grew up with a sense of deep emotional intensity, feeling things more profoundly than their peers, which often led to feeling profoundly misunderstood. They could often be seen wearing something different from their peers. They were the ones who searched for the right way to express themselves.
 
 The kid in class who wrote poetry or daydreamed, not just to escape boredom but to find a connection they deeply craved. Their creativity was a bridge to a world where they felt seen and understood.
 
@@ -69,39 +77,50 @@ The kid in class who wrote poetry or daydreamed, not just to escape boredom but 
 
 ## Type 5: The Young Investigators
 
-Remember that kid who always had their nose in a book or was tirelessly dismantling gadgets to see how they tick? They may have been a loner. That's our Type 5. Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. They built fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories.
+Remember that kid who always had their nose in a book or was tirelessly dismantling gadgets to see how they tick? They may have been a loner. That's our Type 5.
+
+Growing up, these mini Einsteins felt their personal space was a sacred temple, often invaded by the chaos of the adult world or loud peers. They built fortresses of solitude where they could escape and dive deep into whatever was on their mind. They created and explored many little hidden worlds of knowledge that will likely remain locked away deep in their memories.
 
 Their bedroom, cluttered with books, gadgets, and notes, is a testament to their quest for knowledge and a haven from the unpredictability of human interactions. It's here, in this self-created world of inquiry and discovery, that they feel most alive and most themselves.
 
 ## Type 6: The Loyal Protectors
 
-Ah, the loyalists. As children, they were the ones who could sense the slightest shift in the family's mood. They were alert. They might have been the kid who asked many questions to the point where it got annoying. They may have been a little clingy. Their childhoods were marred by unpredictability, turning them into little sentinels, ever-watchful, constantly looking for who they could and could not trust.
+Ah, the loyalists.
+
+As children, they were the ones who could sense the slightest shift in the family's mood. They were alert. They might have been the kid who asked many questions to the point where it got annoying. They may have been a little clingy. Their childhoods were marred by unpredictability, turning them into little sentinels, ever-watchful, constantly looking for who they could and could not trust.
 
 Picture the kid who always had an escape plan for every family outing. Maybe they were a bit pessimistic, always predicting the worst possible scenario. A bit dramatic? Maybe. But it was their way of finding stability and safety in an unstable and unsafe world.
 
 ## Type 7: The Mini Adventurers
 
-Enthusiast 7s were the childhood friends who turned every backyard into an exotic jungle that needed to be explored. These kids saw the world as a canvas for adventure. They would get bored easily, so they developed the ability to create fun and excitement in any situation. They were quick to change the subject or look on the bright side of any negative emotion because they were secretly scared of anything painful.
+Enthusiast 7s were the childhood friends who turned every backyard into an exotic jungle that needed to be explored. 
+
+These kids saw the world as a canvas for adventure. They would get bored easily, so they developed the ability to create fun and excitement in any situation. They were quick to change the subject or look on the bright side of any negative emotion because they were secretly scared of anything painful.
 
 The funny kid or the class clown might have been a 7. The classmate who organized the fun parties was likely a 7. They were seeking a joy that they felt was missing in their own life. They were so much fun to be around because they distracted themselves from a hidden pain.
 
 ## Type 8: The Young Warriors
 
-Even as kids, the Challengers had a presence that commanded the playground. They liked to yell and be physical. They relished a challenge and always wanted to raise the stakes. Somewhere, they learned that they must squash any vulnerability in or around them. It was not okay to be weak in any way. These children armored themselves with strength and assertiveness, often becoming both intimidating and but also the defenders of the underdogs or the vulnerable.
+Even as kids, the Challengers had a presence that commanded the playground. 
+
+They liked to yell and be physical. They relished a challenge and always wanted to raise the stakes. Somewhere, they learned that they must squash any vulnerability in or around them. It was not okay to be weak in any way. These children armored themselves with strength and assertiveness, often becoming both intimidating and but also the defenders of the underdogs or the vulnerable.
 
 That schoolyard hero who stood up to bullies was probably an 8. The kid with an anger problem and who was also a sweetie was likely an 8. They weren't just tough; they were subconsciously fighting against their own feelings of powerlessness.
 
 ## Type 9: The Peaceful Mediators
 
-Type 9s were the glue that held the childhood gang together. They were funny, good listeners, and easygoing. They grew up feeling like background characters in their own life story. This leads them to become masters of harmony and conflict avoidance. However, they may have had a rebellious streak in them because, after a while, they may not have liked conflict. They also did not like being told what to do.
+Type 9s were the glue that held the childhood gang together. 
+
+They were funny, good listeners, and easygoing. They grew up feeling like background characters in their own life story. This leads them to become masters of harmony and conflict avoidance. However, they may have had a rebellious streak in them because, after a while, they may not have liked conflict. They also did not like being told what to do.
 
 The friend everyone liked, got along with, and never caused a problem was a 9. The friend who always mediated fights over who got to be the leader in group games? They weren't just being nice; they were seeking peace within their own family dynamics.
 
 ## Wrap up
 
-Reading about these Enneagram's childhoods made you think about your early years. Which of these stories felt familiar? The people around us who we like and don't like probably have a childhood story similar to the examples above. A conversation may happen down the road where you are reminded of this blog. If that happens, we would appreciate a shout-out.
+Reading about these Enneagram's childhoods made you think about your early years. Which of these stories felt familiar? The people around us who we like and don't like probably have a childhood story similar to the examples above.
 
-If this resonates with you, we invite you to explore more articles like this one, delve deeper into the enigmatic world of Enneagram, and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+If you are reminded of this blog in a conversation down the road give us a shout-out 🙏.
+
 
 <svelte:head>
 
