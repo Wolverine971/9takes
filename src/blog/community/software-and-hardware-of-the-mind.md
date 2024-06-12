@@ -4,7 +4,7 @@ description: 'Where the study of Personality went wrong in the modern Psychologi
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
-lastmod: '2024-06-11'
+lastmod: '2024-06-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -45,37 +45,41 @@ But that is not true.
 
 ## Understanding the Software in the Brain
 
-Computer hardware is to computer software as the brain's lobes and cortices are to cognitive functions and processes.
+Computer hardware is to computer software as the brain’s lobes and cortices are to cognitive functions and processes.
 
-Much like a computer operates with hardware and software, the human mind is formed of the brain's physical components and the immaterial elements like thoughts, emotions, and personality. Modern science has proficiently mapped the brain's anatomy, yet it struggles to decode the subtler aspects of how we think, feel, and engage with our surroundings. The mind's "software" is not well understood by the layman.
+Much like a computer operates with hardware and software, the human mind has the brain’s physical components and the immaterial elements like thoughts, emotions, and personality. Modern science has mapped the brain’s anatomy in great detail, yet it struggles to decode the subtler aspects of how we think, feel, and engage with our surroundings.
 
-The brain's software is often only looked at when something goes wrong and someone needs a prescription.
+Because the mind’s “software” is poorly understood, we leave it to the experts.
 
-But other aspects of the brain's "software" hold insightful keys to what is happening behind our eyes.
+But “experts” do not have all the answers. To make matters worse, they are <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.quora.com/Do-psychiatrists-get-money-from-prescribing-patients-drugs">incentivized to give prescriptions</a>.
+
+The **brain’s “software” is often only examined when something goes wrong** and a prescription is needed. This means that much remains to be explored and understood.
+
+To make up the difference and understand what is going on in our brains, many people turn to personality tests. And that may be a good idea.
 
 ### The Overlooked Gem: Personality Theory
 
 Personality Theory is often dismissed as "pseudo-science."
 
-Those who favor measurable data are often triggered when personality gets brought up. Yes, the different personality theory's floating around are imperfect however there is a paradox that the nay sayers must wrestle with.
+Those who favor measurable data are often quick to point out the shortcomings of personality tests when they are mentioned. Yes, the different personality theories floating around are imperfect; however, there is a paradox that the naysayers must wrestle with.
 
 **People are both similar and different.**
 
-And all personality is is an attempt to explain the dimensions by which we are similar and different. And there is one personality system that does it better than the rest.
+All personality systems attempt to explain the dimensions by which we are similar and different. But one personality system does it better than the rest.
 
 And that personality system is the Enneagram.
 
-Why is the Enneagram so accurate? Because it creates personality types based off of emotions.
+Why is the Enneagram so accurate? Because it bases the personality types on emotions.
 
-### Emotions are viewed as the problem
+### Emotions are not the problem; they are the key.
 
-Many times the default response to emotional struggles often involves quick pharmacological solutions rather than engaging discussions.
+The default response of many to emotional struggles often involves quick pharmacological solutions rather than engaging in discussions.
 
 The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/blog/enneagram/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
 
->Counter argument acknowledgement: I do recognize pharmacological interventions can be life-saving for many individuals with severe mental health conditions. A balanced approach that incorporates both medication and therapy is often the most effective way to address mental health issues.
+>Counter argument acknowledgment: I do recognize pharmacological interventions can be life-saving for many individuals with severe mental health conditions. A balanced approach that incorporates both medication and therapy is often the most effective way to address mental health issues.
 
-There is value in conversations about emotions. And it is essential for developing a comprehensive approach to mental health.
+There is value in conversations about emotions. And these conversations are necessary for addressing mental health issues at the root.
 
 Carl Jung understood the importance of emotions.
 
@@ -85,23 +89,27 @@ Carl Jung, inspired by Freud, pioneered the exploration of psychological archety
 
 Through psychoanalysis he attempted to map out what was happening inside the mind. He sought to explore the difference between stated preferences and revealed preferences. He was trying to map out archetypes or personalities. Over time, however, his subjective methods of study fell out of favor. They were replaced by the objective, reproducible experiments of behaviorism—like Skinner's box and Pavlov's dogs.
 
-As we advanced into the realm of cognitive psychology and neuroimaging, the focus remained predominantly on the brain's hardware. We mapped out the brain and learned which parts activate during specific tasks.
+Science shifted into the realm of cognitive psychology and neuroimaging, the focus went to the brain's hardware. 
 
-These approaches are far from what Freud and Jung were trying to do.
+Freud and Jung's psychoanalysis fell out of favor.
 
-> Counter argument acknowledgement: I do acknowledge the significant contributions of cognitive psychology and neuroimaging in advancing our understanding of brain function and its relationship to behavior and mental processes. These approaches have yielded invaluable insights that complement, rather than replace, the exploration of the mind's "software."
+> Counter argument acknowledgment: I do acknowledge the significant contributions of cognitive psychology and neuroimaging in advancing our understanding of brain function and its relationship to behavior and mental processes. These approaches have yielded invaluable insights that complement, rather than replace, the exploration of the mind's "software."
 
-## Archetypes Reveal the Way
+But there was another group of people that did a form of psychoanalysis that goes further back.
+
+## The Greeks decoded the software of the mind through "Archetypes"
 
 The Greeks understood the importance of archetypes.
 
-The Greeks had gods that were flawed. But the gods weren't meant to be perfect. The gods were archetypes and their stories served as both inspiration and cautionary tales. These stories helped Greeks form a type of pattern recognition when it came to understanding people.
+The Greeks had flawed gods. The gods weren't meant to be perfect, and their emotions were on full display. Seeing how the gods acted helped the Greeks put into context their own emotions, thoughts, and behaviors and set up a culture where everyone was self-aware.
 
-This pattern recognition that came from observing archetypes gave the Greeks a form of self awareness.
+These archetypes served as cautionary tales, and they **helped Greeks form a type of pattern recognition to understand people.**
 
-Today, we lack a shared set of archetypes. This leaves a gap in our collective understanding of the underlying emotions, thought patterns, and behaviors that drive human actions. Many wait for research to be done so that the experts can tell us how to feel, think, and act.
+Today, we lack a shared set of archetypes. We have a gap in our collective understanding of emotions, thought patterns, and behaviors that drive our actions. We are waiting for the research and the experts to tell us how to feel, think, and act.
 
-Our absence of common archetypes also means we miss out on a level of self-awareness that was prevalent among the Greeks, who not only embraced these archetypes but also used them to forge foundational ideas in philosophy.
+This limits our self-awareness.
+
+But some see this problem and are trying to do something about it.
 
 ### Advocates of the Less Tangible Aspects of Psychology
 
