@@ -76,7 +76,7 @@ body {
 a {
 	transition: color 0.3s ease;
 	text-decoration: none;
-	color: var(--color-theme-purple) !important;
+	color: var(--color-theme-purple);
 }
 
 a:hover {
@@ -523,4 +523,18 @@ textarea {
 	font-family: 'Noticia Text', serif !important;
 	font-weight: 400;
 	font-style: normal;
+}
+
+.disabled {
+	background-color: lightgray;
+	color: grey;
+}
+
+.primary-btn {
+	border: 1px solid var(--color-theme-purple) !important;
+	color: var(--color-theme-purple);
+}
+.secondary-btn {
+	border: 1px solid var(--color-theme-purple-v) !important;
+	color: var(--color-theme-purple-v);
 }

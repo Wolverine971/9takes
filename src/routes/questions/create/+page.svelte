@@ -157,7 +157,7 @@
 
 				<h3 id="question-pic" class="noticia-text-regular">{question}</h3>
 
-				<img id="qr-image" src="" alt="QR Code" />
+				<img id="qr-image" src="" alt="9takes QR Code" />
 
 				<p style="overflow-wrap: anywhere;">
 					Url: <b> {`https://9takes.com/questions/${url}`} </b>
@@ -181,10 +181,7 @@
 		border: var(--classic-border);
 		border-radius: var(--base-border-radius);
 	}
-	.disabled {
-		background-color: lightgray;
-		color: grey;
-	}
+
 	.create-question-textarea {
 		margin: 1rem 0;
 		padding: 0.5rem;

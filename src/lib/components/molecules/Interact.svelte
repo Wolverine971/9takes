@@ -161,8 +161,8 @@
 <div class="interaction-div-display">
 	<button
 		title="Comment"
-		class="corner-btn"
-		style="margin-left: 0; padding: 0.25rem; {parentType === 'question' ? 'width: 8rem;' : ''}"
+		class="corner-btn primary-btn"
+		style="margin-left: 0; {parentType === 'question' ? 'width: 8rem;' : ''}"
 		on:click={() => (commenting = !commenting)}
 	>
 		<MasterCommentIcon
@@ -178,8 +178,7 @@
 			title={subscriptions && user?.id && subscriptions.some((e) => e.user_id === user.id)
 				? 'Subscribed'
 				: 'Subscribe'}
-			class="corner-btn"
-			style={'padding: 0.25rem;'}
+			class="corner-btn secondary-btn"
 			on:click={subscribe}
 		>
 			<BellIcon
@@ -189,10 +188,10 @@
 					user?.id &&
 					subscriptions.some((e) => e.user_id === user.id) &&
 					'#5407d9') ||
-					'#444'}
+					'#b3a6c9'}
 			/>
 		</button>
-		<button title="Share" class="corner-btn" on:click={() => share()}>
+		<button title="Share" class="corner-btn secondary-btn" on:click={() => share()}>
 			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'#5407d9'} />
 		</button>
 	{/if}
@@ -321,7 +320,6 @@ interface QuestionObject {
 		display: flex;
 		align-items: center;
 		margin: 0.25rem;
-		padding: 0.1rem;
 		border-radius: var(--base-border-radius);
 		padding: 0.25rem;
 

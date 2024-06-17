@@ -229,17 +229,15 @@
 					{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 						<a
 							title="View profile"
-							class="profile-avatar {_commentComment?.profiles?.external_id
-								? 'hoverable'
-								: 'disabled'}"
+							class="profile-avatar active"
 							href={_commentComment?.profiles?.external_id
 								? `/users/${_commentComment.profiles.external_id}`
 								: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-						>:
+						>
 					{:else}
 						<span class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}">
 							Rando
-						</span>:
+						</span>
 					{/if}
 					{#if user?.id === _commentComment?.author_id}
 						<button
@@ -565,23 +563,24 @@
 	}
 
 	.profile-avatar {
-		min-width: 30px;
+		display: inline-block;
+		min-width: 78px;
 		padding: 0.2rem;
-		align-self: center;
-		align-items: center;
-		border: 1px solid var(--color-paladin-3-v);
+		color: var(--color-theme-purple-v);
+		border: 1px solid var(--color-theme-purple-v);
 		font-weight: bolder;
-		min-width: 3rem;
 		text-align: center;
-		aspect-ratio: 1/1;
 		border-radius: var(--base-border-radius);
-		transition: all 0.5s;
 		-moz-transition: all 0.5s; /* Firefox 4 */
 		-webkit-transition: all 0.5s; /* Safari and Chrome */
 		-o-transition: all 0.5s; /* Opera */
 		word-break: keep-all;
 	}
-	.hoverable::hover {
-		border: 1px solid var(--color-paladin-3);
+	.active {
+		border: 1px solid var(--color-theme-purple-v);
+		color: var(--color-theme-purple);
+	}
+	.active:hover {
+		border: 1px solid var(--color-theme-purple);
 	}
 </style>

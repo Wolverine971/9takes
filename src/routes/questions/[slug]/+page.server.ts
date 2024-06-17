@@ -1,12 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { supabase } from '$lib/supabase';
 import { URL } from 'url';
+
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
 import { addESComment, addESCommentLike, addESSubscription } from '$lib/elasticSearch';
 import { decode } from 'base64-arraybuffer';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
+import { extractFirstURL } from '../../../utils/StringUtils';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
@@ -667,17 +669,4 @@ const parseUrls = async (comment: string, questionId: string) => {
 	}
 };
 
-function getDomain(inputUrl: string) {
-	const url = new URL(inputUrl);
-	return url.hostname;
-}
 
-const extractFirstURL = (comment: string) => {
-	const urlRegex = /(https?:\/\/[^\s]+)/g;
-	const matchedURLs = comment.match(urlRegex);
-	const url = matchedURLs ? matchedURLs[0] : null;
-	return {
-		url,
-		domain: url ? getDomain(url) : ''
-	};
-};

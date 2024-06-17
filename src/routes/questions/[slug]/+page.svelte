@@ -180,7 +180,7 @@
 				<img
 					id="qr-image"
 					src=""
-					alt="QR Code"
+					alt="9takes QR Code"
 					class="qr-image-border"
 					style="width: {innerWidth > 400 ? '15%' : '30%'};"
 				/>

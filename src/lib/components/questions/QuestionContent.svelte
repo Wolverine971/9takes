@@ -176,7 +176,7 @@
 		{#if innerWidth > 575}
 			<a
 				href="#comments"
-				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
+				class="tab-links {selectedTab === 'comments' && 'tab-active primary-btn'}"
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'comments';
@@ -195,7 +195,7 @@
 			{#if _data?.removedComments?.length > 0}
 				<a
 					href="#removedComments"
-					class="tab-links {selectedTab === 'removedComments' && 'tab-active'}"
+					class="tab-links {selectedTab === 'removedComments' && 'tab-active primary-btn'}"
 					on:click={(e) => {
 						e.preventDefault();
 						selectedTab = 'removedComments';
@@ -207,7 +207,7 @@
 			{/if}
 			<a
 				href="#visuals"
-				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
+				class="tab-links {selectedTab === 'visuals' && 'tab-active primary-btn'}"
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'visuals';
@@ -218,7 +218,7 @@
 			</a>
 			<a
 				href="#articles"
-				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
+				class="tab-links {selectedTab === 'articles' && 'tab-active primary-btn'}"
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'articles';
@@ -230,7 +230,7 @@
 		{:else}
 			<a
 				href="#comments"
-				class="tab-links {selectedTab === 'comments' && 'tab-active'}"
+				class="tab-links {selectedTab === 'comments' && 'tab-active primary-btn'}"
 				style="display: flex;
 				justify-content: center;
 				align-items: center;"
@@ -259,7 +259,7 @@
 			{#if _data?.removedComments?.length > 0}
 				<a
 					href="#removedComments"
-					class="tab-links {selectedTab === 'removedComments' && 'tab-active'}"
+					class="tab-links {selectedTab === 'removedComments' && 'tab-active primary-btn'}"
 					on:click={(e) => {
 						e.preventDefault();
 						selectedTab = 'removedComments';
@@ -275,7 +275,7 @@
 			{/if}
 			<a
 				href="#visuals"
-				class="tab-links {selectedTab === 'visuals' && 'tab-active'}"
+				class="tab-links {selectedTab === 'visuals' && 'tab-active primary-btn'}"
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'visuals';
@@ -293,7 +293,7 @@
 			</a>
 			<a
 				href="#articles"
-				class="tab-links {selectedTab === 'articles' && 'tab-active'}"
+				class="tab-links {selectedTab === 'articles' && 'tab-active primary-btn'}"
 				on:click={(e) => {
 					e.preventDefault();
 					selectedTab = 'articles';
@@ -452,15 +452,19 @@
 		justify-content: center;
 		align-items: center;
 		width: 20%;
+		color: var(--color-theme-purple-v);
+		border-radius: 5px 5px 0 0 !important;
 	}
 
 	.tab-active {
 		width: 50%;
 		// border: var(--classic-border) !important;
-		border: 1px solid #f0f5f9 !important;
+		border: 1px solid var(--color-theme-purple) !important;
 		border-bottom: none !important;
 		border-radius: 5px 5px 0 0 !important;
 		margin-bottom: 0;
+
+		color: var(--color-theme-purple);
 	}
 
 	.flexr {
@@ -484,13 +488,10 @@
 	.tabs a {
 		overflow: hidden;
 		background-color: inherit;
-		border: none;
 		outline: none;
-		cursor: pointer;
 		padding: 0.5rem;
 		transition: 0.3s;
 		font-size: 1rem;
-		border-radius: var(--base-border-radius);
 
 		&:hover {
 			background-color: var(--base-white-outline);

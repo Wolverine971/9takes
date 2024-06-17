@@ -82,7 +82,7 @@
 		z-index: 200;
 		width: 100%;
 		height: 2rem;
-		border-bottom: 2px solid var(--color-paladin-3);
+		border-bottom: 1px solid rgba(44, 45, 42, 0.25);
 		justify-content: flex-start;
 		align-items: center;
 		display: flex;
