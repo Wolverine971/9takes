@@ -35,60 +35,62 @@
 				: ''}"
 		>
 			<!-- role="img" -->
-			<div
-				class="profile-section"
-				on:click={() => (showLaser = !showLaser)}
-				on:mouseenter={() => (showLaser = true)}
-				on:mouseleave={() => (showLaser = false)}
-				on:keydown={(e) => {
-					if (e?.key === 'Enter') showLaser = !showLaser;
-				}}
-			>
-				<picture class="flex-center">
-					{#if showLaser}
-						<source
-							style="display: {showLaser ? 'block' : 'none'};"
-							srcset="/brand/dj-lazer-eyes.webp, /brand/s-dj-lazer-eyes.webp"
-							media="(orientation: portrait)"
+			 <div class="profile-section-wrapper">
+				<div
+					class="profile-section"
+					on:click={() => (showLaser = !showLaser)}
+					on:mouseenter={() => (showLaser = true)}
+					on:mouseleave={() => (showLaser = false)}
+					on:keydown={(e) => {
+						if (e?.key === 'Enter') showLaser = !showLaser;
+					}}
+				>
+					<picture class="flex-center">
+						{#if showLaser}
+							<source
+								style="display: {showLaser ? 'block' : 'none'};"
+								srcset="/brand/dj-lazer-eyes.webp, /brand/s-dj-lazer-eyes.webp"
+								media="(orientation: portrait)"
+							/>
+						{:else}
+							<source
+								style="display: {showLaser ? 'none' : 'block'};"
+								srcset="/brand/dj-profile-pic.webp, /brand/s-dj-profile-pic.webp"
+								media="(orientation: portrait)"
+							/>
+						{/if}
+						<img
+							style="display: {showLaser
+								? 'none'
+								: 'block'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
+							src="/brand/dj-lazer-eyes.webp"
+							alt="DJ Wayne fun profile picture"
 						/>
-					{:else}
-						<source
-							style="display: {showLaser ? 'none' : 'block'};"
-							srcset="/brand/dj-profile-pic.webp, /brand/s-dj-profile-pic.webp"
-							media="(orientation: portrait)"
+						<img
+							style=" display: {showLaser
+								? 'block'
+								: 'none'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
+							src="/brand/s-dj-profile-pic.webp"
+							alt="DJ Wayne serious profile picture"
 						/>
-					{/if}
-					<img
-						style="display: {showLaser
-							? 'none'
-							: 'block'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
-						src="/brand/dj-lazer-eyes.webp"
-						alt="DJ Wayne fun profile picture"
-					/>
-					<img
-						style=" display: {showLaser
-							? 'block'
-							: 'none'}; height: 250px; width: 250px; border-radius: 50%; object-fit: cover;"
-						src="/brand/s-dj-profile-pic.webp"
-						alt="DJ Wayne serious profile picture"
-					/>
-				</picture>
-				<div>
-					<p style="margin-bottom: 0;">
-						I am obsessed with the Enneagram and am tired of social media feeling fake. <br />
-						<br />I have a tech background and am building a platform where people can explore their
-						differences and find common ground.
-					</p>
-					<span>
-						<a
-							class="twitter-link"
-							target="_blank"
-							rel="noreferrer"
-							href="https://twitter.com/djwayne3"
-						>
-							<img loading="lazy" src={twitter} alt="djwayne3 Twitter" class="icon" />
-						</a>
-					</span>
+					</picture>
+					<div>
+						<p style="margin-bottom: 0;">
+							I am obsessed with the Enneagram and am tired of social media feeling fake. <br />
+							<br />I have a tech background and am building a platform where people can explore their
+							differences and find common ground.
+						</p>
+						<span>
+							<a
+								class="twitter-link"
+								target="_blank"
+								rel="noreferrer"
+								href="https://twitter.com/djwayne3"
+							>
+								<img loading="lazy" src={twitter} alt="djwayne3 Twitter" class="icon" />
+							</a>
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -304,7 +306,7 @@
 </div> -->
 <style lang="scss">
 	.twitter-link {
-		background: aliceblue;
+		background: var(--base-grey-1);
 		padding: 0.5rem;
 		border-radius: var(--base-border-radius);
 		margin: 0.2rem;
@@ -312,7 +314,7 @@
 	}
 
 	.twitter-link:hover {
-		background-color: #bc81ff;
+		background-color: var(--color-theme-purple-light);
 	}
 	.main-div {
 		margin: 20px;
@@ -323,20 +325,26 @@
 		padding: 2rem;
 		border-radius: var(--base-border-radius);
 	}
+	.profile-section-wrapper {
+		padding: 1rem;
+		position: relative;
+		background: linear-gradient(
+					to right,
+					var(--black),
+					var(--color-theme-purple) 200px,
+					var(--black) 800px
+				);
+		padding: 3px;
+		border-radius: 5px;
+	}
 	.profile-section {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.5rem;
-		background-image: linear-gradient(
-			to right,
-			var(--black),
-			var(--color-theme-purple) 200px,
-			var(--black) 800px
-		);
-		border-radius: 10px;
-		color: white;
+		background: var(--base-grey-1);
+		border-radius: 3px;
 		font-size: 1.3rem;
 
 		picture,
