@@ -436,8 +436,8 @@ textarea {
 }
 
 .blog > h2 {
-	margin: 1.5rem 0 0 !important;
-	padding: 1.5rem 0 0 !important;
+	margin: 1.2rem 0 0 !important;
+	padding: 1.2rem 0 0 !important;
 }
 .blog > h3 {
 	margin: 1rem 0 0 !important;
@@ -498,24 +498,24 @@ textarea {
 	}
 
 	.blog > h2 {
-		padding: 1.2rem 0 1rem 0 !important;
-		margin: 1.2rem 0 0 !important;
+		padding: 1rem 0 0.7rem 0 !important;
+		margin: 1rem 0 0 !important;
 
 		/* margin: 1.5rem 0 0 !important;
 	padding: 1.5rem 0 0 !important; */
 	}
 	.blog > h3 {
-		padding: 1rem 0 0.7rem 0 !important;
-		margin: 1rem 0 0 !important;
+		padding: 0.7rem 0 0.5rem 0 !important;
+		margin: 0.7rem 0 0 !important;
 	}
 	.blog > h4 {
-		padding: 0.7rem 0 0.5rem 0 !important;
-		margin: 0.5rem 0 0 !important;
+		padding: 0.5rem 0 0.5rem 0 !important;
+		margin: 0.2rem 0 0 !important;
 	}
 
 	.section-content {
-		margin: 10px;
-		padding: 10px;
+		margin: 0.5rem;
+		padding: 0.5rem;
 	}
 }
 

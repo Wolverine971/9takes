@@ -50,17 +50,26 @@
 				/>
 
 				<div class="main-description">
-					<h1>Be the person who considered all takes on the question.</h1>
+					<h1 style="margin: 0;">
+						Be the person who knows all takes on the <b class="purple-text">question</b>.
+					</h1>
 					<h2 style="font-size: x-large">
-						There are at least 9 personality types with different takes on it...
+						There are at least <b class="purple-text" style="font-size: xx-large; ">9</b>
+						personality types with different
+						<b class="purple-text" style="font-size: xx-large; ">takes</b>
+						on it...
 						<br />
 						at least.
 					</h2>
 					<h2
-						style="margin-bottom: 1rem; display: flex; justify-content: center; gap: 3rem; align-items: center;"
+						style="margin: 0; display: flex; justify-content: center; gap: 2rem; align-items: center;"
 					>
 						<span style="text-wrap: nowrap;"
-							><a href="/questions" class="no-arrow">Questions</a></span
+							><a
+								href="/questions"
+								class="no-arrow"
+								style="font-size: xxx-large; margin: 0; padding: 0">Questions</a
+							></span
 						>
 						<span style="margin: .2rem;">{'>'}</span>
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
@@ -508,9 +517,10 @@
 			flex-direction: column-reverse;
 		}
 		.main-description {
-			min-width: 200px;
-			border-radius: 50px;
-			padding: 3rem 2rem;
+			// min-width: 200px;
+			border-radius: 10px;
+			margin: 1rem;
+			padding: 2rem 1rem;
 			border: 1px solid black;
 		}
 		.small-h4 {
