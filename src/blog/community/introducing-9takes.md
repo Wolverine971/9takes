@@ -141,12 +141,12 @@ This is how you get original comments that are unbiased. It is a new habit that 
 
 <li>
 
-<span class="point-list"> 
-<span class="center-svg">
-<Rubix height={'1.5rem'} width={'1.5rem'} /> 
-</span>
-Leverage <span style="color: #5407d9">personality theory</span> (the Enneagram)
-</span>
+<span class="point-list" style=" flex-wrap: wrap"> 
+	<span class="center-svg">
+		<Rubix height={'1.5rem'} width={'1.5rem'} /> 
+	</span>
+	Leverage <b style="color: #5407d9; text-wrap: nowrap">personality theory</b> <span style=" text-wrap: nowrap">(the Enneagram)</span>
+	</span>
 <ul class="plain-list-w-margin">
 <!-- write blog on this:
 There are many different ways to divide people and most of them turn out to not be beneficial. -->
@@ -248,6 +248,9 @@ Harnessing the Power of Nine: 9takes in Today’s Polarized World
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+		/* flex-wrap: wrap; */
+		text-wrap: wrap;
+		/* flex-wrap: wrap; */
 	}
 	.wave-sections {
 		border-radius: var(--base-border-radius);

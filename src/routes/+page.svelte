@@ -435,6 +435,7 @@
 		grid-template-columns: 1fr;
 		column-gap: 1.25rem;
 		grid-gap: 10rem;
+		width: 100%;
 		// overflow: auto;
 	}
 	.big-points {
@@ -519,7 +520,7 @@
 		.main-description {
 			// min-width: 200px;
 			border-radius: 10px;
-			margin: 1rem;
+			// margin: 1rem;
 			padding: 2rem 1rem;
 			border: 1px solid black;
 		}
@@ -552,14 +553,16 @@
 		}
 		.img-preview {
 			overflow: hidden;
-			max-width: none;
+			width: 100%;
 		}
 		.main-description {
 			min-width: auto;
+			width: 100%;
 		}
 
 		.big-points {
 			min-width: 300px;
+			max-width: none;
 		}
 
 		h1 {
