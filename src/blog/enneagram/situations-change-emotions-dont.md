@@ -4,31 +4,45 @@ description: 'Discover how stress triggers differ, but emotional responses are u
 author: 'DJ Wayne'
 date: '2024-05-02'
 loc: 'https://9takes.com/blog/enneagram/situations-change-emotions-dont'
-lastmod: '2024-05-02'
+lastmod: '2024-06-25'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 type: ['development']
 blog: true
 previewHtml: ''
-pic: ''
+pic: 'greek-statues-who-are-stressed'
 ---
 
+<script>
+	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+</script>
 
 <!-- todo -->
-
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+  <PopCard
+    image={`/blogs/greek-statues-who-are-stressed.webp`}
+    showIcon={false}
+    displayText=""
+    altText="stressed out greek statues"
+    subtext=""
+  />
+</div>
 
 <p class="firstLetter">Stress affects everyone, but people react differently to it.</p>
 
 The reason behind this lies in understanding that stress triggers differ, but the emotional responses are universal.
 
-While stress is a shared human experience, individual reactions to stressful situations can vary greatly. The key to understanding yours and other people's stress lies in recognizing the emotion behind the stress. It's not the situation itself causing stress, but rather the emotions that arise in the person in response to the situation. 
+While stress is a shared human experience, individual reactions to stressful situations can vary greatly. The key to understanding yours and other people's stress lies in recognizing the emotion behind the stress. It's not the situation itself causing stress, but rather the emotions that arise in the person in response to the situation.
 
 For example, public speaking might evoke fear in some, while others feel excited by the challenge. To better manage stress, focus on identifying and addressing the underlying emotions, rather than fixating on the situation.
 
-
 Mastering your emotional responses is the key to mastering stress.
-
 
 ## The Role of Personality in Shaping Emotional Responses to Stress
 
@@ -58,7 +72,7 @@ The Enneagram personality typing system is based on anger, fear, and shame. It i
 
 Each Enneagram type is connected to two others:
 
-1. How they act when thriving 
+1. How they act when thriving
 2. How they behave when stressed
 
 To learn more about how each type thinks, feels, and acts under stress, check out this blog post on <a href="/blog/enneagram/enneagram-stress-number">each type's stress number</a>.
