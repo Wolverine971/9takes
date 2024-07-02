@@ -28,10 +28,10 @@
 
 	const checkIframeLoaded = () => {
 		const iframe = <HTMLIFrameElement>document.getElementById(`frame${link.id}`);
-		var iframeDoc = iframe.contentDocument; //|| iframe?.contentWindow?.document;
+		var iframeDoc = iframe?.contentDocument; //|| iframe?.contentWindow?.document;
 
 		// Check if loading is complete
-		if (iframeDoc?.readyState == 'complete') {
+		if (iframeDoc?.readyState === 'complete') {
 			if (iframeDoc.URL !== 'about:blank') {
 				hasContent = true;
 			}

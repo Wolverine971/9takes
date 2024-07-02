@@ -92,7 +92,9 @@
 				<a
 					href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
 					class="brand"
+					title="Home"
 					aria-labelledby="nineTakesBrandLogo"
+					aria-label="Home"
 				>
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 				</a>
@@ -136,6 +138,7 @@
 					href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
 					class="brand left"
 					aria-label="Home"
+					title="Home"
 				>
 					<Rubix height={50} width={50} svgStyle={'margin: 1rem'} />
 					{#if innerWidth > 1000 && $page.url.pathname !== '/'}
