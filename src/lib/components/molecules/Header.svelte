@@ -90,7 +90,7 @@
 				<MobileHam />
 
 				<a
-					href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
+					href={'/'}
 					class="brand"
 					title="Home"
 					aria-labelledby="nineTakesBrandLogo"

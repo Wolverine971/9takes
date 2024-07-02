@@ -65,11 +65,7 @@
 						style="margin: 0; display: flex; justify-content: center; gap: 2rem; align-items: center;"
 					>
 						<span style="text-wrap: nowrap;"
-							><a
-								href="/questions"
-								class="no-arrow"
-								style="font-size: xxx-large; margin: 0; padding: 0">Questions</a
-							></span
+							><a href="/questions" class="no-arrow question-link" style="">Questions</a></span
 						>
 						<span style="margin: .2rem;">{'>'}</span>
 						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
@@ -151,7 +147,7 @@
 
 		<div class="big-points flex-center" style="max-width: none;">
 			<h2 style="">What is 9takes?</h2>
-			<p style="">
+			<p style="margin-bottom: 3rem;">
 				An anonymous question and answering platform based on the Enneagram personality system.
 				<br />
 				Think
@@ -239,11 +235,10 @@
 
 		<div class="big-points flex-center">
 			<h2 style="margin-bottom: 0">
-				9takes is designed from the ground up to be the place to source unbiased opinions and takes
-				on every subject.
+				9takes is the place to find unbiased opinions and takes on every subject.
 			</h2>
-			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0">
-				In doing so you can find a few other things:
+			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0; width: 100%;}">
+				Plus a few more benefits:
 			</h3>
 			<ul>
 				<li>
@@ -301,6 +296,11 @@
 {/if}
 
 <style lang="scss">
+	.question-link {
+		font-size: xxx-large;
+		margin: 0;
+		padding: 0;
+	}
 	.no-arrow {
 		&::after {
 			content: none;
@@ -510,6 +510,7 @@
 		}
 		.question-list {
 			display: flex;
+			align-items: start;
 		}
 	}
 
@@ -517,12 +518,15 @@
 		.main-preview {
 			flex-direction: column-reverse;
 		}
+		.question-list {
+			flex-direction: column;
+			align-items: center;
+		}
 		.main-description {
 			// min-width: 200px;
 			border-radius: 10px;
 			// margin: 1rem;
 			padding: 2rem 1rem;
-			border: 1px solid black;
 		}
 		.small-h4 {
 			font-size: 1.7rem;
@@ -542,6 +546,9 @@
 	}
 
 	@media (max-width: 480px) {
+		.question-link {
+			font-size: 2rem;
+		}
 		.small-h4 {
 			font-size: 1.5rem;
 			line-height: 1.5rem;
