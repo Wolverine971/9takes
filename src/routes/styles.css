@@ -341,12 +341,17 @@ th {
 }
 
 .blog a {
-	display: inline-block;
+	display: contents;
 	flex-wrap: wrap;
 	max-width: 100%;
 	overflow: hidden;
 	vertical-align: middle;
 	color: #260958;
+}
+
+.blog a:hover {
+	text-decoration: underline;
+	color: #5407d9;
 }
 
 .blog a::after {
