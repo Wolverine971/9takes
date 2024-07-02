@@ -1,5 +1,5 @@
 :root {
-	--font-family: 'GFS Didot', serif;
+	--font-family: 'Noticia Text', serif !important;
 	/* 'Source Code Pro', monospace; */
 
 	--font-body: var(--font-family);

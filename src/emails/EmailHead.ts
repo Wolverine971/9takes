@@ -1,5 +1,5 @@
 export const EmailHead = (title: string) => {
-	return `<head>
+  return `<head>
        <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>${title}</title>
@@ -48,7 +48,7 @@ export const EmailHead = (title: string) => {
           height: 100% !important;
           padding: 0 !important;
           margin: 0 !important;
-          font-family: 'GFS Didot', serif,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif !important;
+          font-family: 'Noticia Text', serif,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif !important;
         }
        /**
          * Collapse table borders to avoid space between cells.
