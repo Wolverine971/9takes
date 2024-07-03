@@ -67,19 +67,17 @@
 {#if !browser || (links?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
 	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
 	{#if links?.length}
-		<div>
-			{#each links as link}
-				{#if link}
-					<Link
-						{questionId}
-						{link}
-						{user}
-						{data}
-						on:commentAdded={({ detail }) => refreshLinks(detail)}
-					/>
-				{/if}
-			{/each}
-		</div>
+		{#each links as link}
+			{#if link}
+				<Link
+					{questionId}
+					{link}
+					{user}
+					{data}
+					on:commentAdded={({ detail }) => refreshLinks(detail)}
+				/>
+			{/if}
+		{/each}
 		{#if links?.length < linksCount}
 			<button class="btn btn-secondary" on:click={loadMore}>
 				{#if loading}

@@ -104,7 +104,9 @@
 		</div>
 	{:else}
 		<div class="card">
-			<p>{link.summary}</p>
+			{#if link?.summary}
+				<p style="white-space: pre-line">{link.summary}</p>
+			{/if}
 			<a href={link.url} on:click={() => saveLinkClick(link)}>{link.url}</a>
 		</div>
 	{/if}
