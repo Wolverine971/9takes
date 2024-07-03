@@ -1,6 +1,6 @@
 ---
 title: 'Sydney Sweeney An Enneagram Type 3'
-description: "A Rising Star's Journey as an Enneagram Type 3"
+description: "A Dynamic and Rising Star's Journey as an Enneagram Type 3"
 author: 'DJ Wayne'
 date: '2024-06-01'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Sydney-Sweeney'

@@ -4,7 +4,7 @@ description: 'Discover the bold and controversial side of Joe Rogan as an Enneag
 author: 'DJ Wayne'
 date: '2023-07-26'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Joe-Rogan'
-lastmod: '2024-01-26'
+lastmod: '2024-07-03'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -70,21 +70,27 @@ Joe Rogan is hard to ignore. What enables him to garner such a significant influ
 
 ### Joe Rogan is an Enneagram Type 8
 
-Type 8s, known as The Challengers, are characterized by their desire to assert dominance and control their environment. They seek to protect themselves by gathering strength. This strength can be in the form of physical strength, wealth, power, or even wisdom. They do because somewhere in their childhood, they received the message that it was not ok to be weak. Often, 8s can remember a time when they were vulnerable and taken advantage of. So, the typical 8s coping mechanism is to armor up and remove any perceived vulnerabilities.
+Type 8s, known as The Challengers, are characterized by their desire to assert dominance and control their environment.
 
-They are natural leaders characterized by self-confidence, resilience, and a direct approach to life. 8s have been known to unintentionally intimidate others. They also tend to confront life head-on and are always up to a challenge. Fear is not a factor for 8s 😉.
+They seek to protect themselves by getting stronger. Their strength can take many forms, physical strength, wealth, power, or even wisdom. They do this because somewhere in their childhood, **they got the message that it was not ok to be weak**. Often, 8s can remember a time when they were vulnerable and taken advantage of.
 
-Rogan epitomizes this type. He has had multiple careers, from stand-up comedian to UFC commentator, Fear Factor host, and host of the most popular podcast in the world, the Joe Rogan Experience. Most people only attempt to do some of the things Joe has done. But Joe likes a challenge. Joe is an 8, and he knows that every challenge he faces only makes him stronger.
+So, the typical 8s coping mechanism is to armor up and remove any perceived vulnerabilities.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://youtube.com/embed/5i0jPUArFH8?si=MDOPEEVUdnu_NaOW" title="Joe Rogan being motivational" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+Enneagram Type 8s are natural leaders characterized by self-confidence, resilience, and a direct approach to life. 8s have been known to unintentionally intimidate others. They also tend to confront life head-on and are always up to a challenge. Fear is not a factor for 8s 😉.
+
+Rogan epitomizes this type. He has had multiple careers, from stand-up comedian to UFC commentator, Fear Factor host, and host of the most popular podcast in the world, the Joe Rogan Experience. Most people only attempt to do some of the things Joe has done. But Joe likes a challenge. Joe is an 8, and he knows that every challenge he faces only makes him stronger.
+
 ## Characteristics of Joe Rogan that align with Type 8
 
 ### Direct yet open
 
-Rogan is assertive and direct. When outsiders comment on Rogan's podcast, they marvel at how nonchalant and unrefined he is. Joe can talk this way because he is not hiding anything. Joe approaches life with a brash honesty that he uses to get to the root of the matter. It is both disarming and refreshing, and it makes the people he interviews feel like Joe is an open book, so they become an open book. For example, when he interviewed <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk</a>, he was so chill that Elon felt comfortable smoking a joint.
+When outsiders comment on Rogan's podcast, they marvel at how nonchalant and unrefined he is.
+
+Joe can talk this way because he is not hiding anything. Joe approaches life with a brash honesty that he uses to get to the root of the matter. It is both disarming and refreshing, and it makes the people he interviews feel like Joe is an open book, so they become an open book. For example, when he interviewed <a href="/blog/famous-enneagram-types/Elon-Musk" >Elon Musk</a>, he was so chill that Elon felt comfortable smoking a joint.
 
 Watch the clip here of <a style="font-weight: bold;" class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=8Nael8xcSus&t=6s">Joe Rogan and Elon smoking and joking.</a>
 
@@ -100,7 +106,9 @@ Watch the clip here of <a style="font-weight: bold;" class="external-link" targe
 
 ### Joe Rogan helps his friends
 
-One thing about 8s is that when they are doing good or are in "security," they act like Enneagram 2s, which are known as "the helpers." Many of Rogan's friends talk about Rogan being a good friend. They talk about him giving gifts and genuinely being happy when they succeed. Rogan is not a zero-sum kind of person. He genuinely cares about his friends.
+One thing about 8s is that when they are doing good or are in "security," they act like Enneagram 2s, which are known as "the helpers."
+
+Many of Rogan's friends talk about Rogan being a good friend. They talk about him giving gifts and genuinely being happy when they succeed. Rogan is not a zero-sum kind of person. He genuinely cares about his friends.
 
 <div class="iframe-container">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/en4EJ_ocOqk?si=1UkTEJmk1HU5W9bC&amp;start=225" title="Elon Musk and Joe Rogan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -110,7 +118,11 @@ Another name for Enneagram 8s is the "protector." Joe helping his friends can al
 
 ### Defying Conventions
 
-Type 8s often defy conventions; if that's not Joe, then I don't know what is. He invites guests from all backgrounds to his podcast. Politicians on both sides of the aisle, scientists who have different viewpoints, comedians, UFC fighters, gurus, and everyone in between. Rogan follows his curiosity and is not afraid to be controversial.
+Type 8s often defy conventions.
+
+They are contrarians. Which is why **Rogan loves to hear all sides of a story**. He invites guests from all backgrounds to his podcast. Politicians on both sides of the aisle, scientists who have different viewpoints, comedians, UFC fighters, gurus, and everyone in between.
+
+Rogan follows his curiosity and is not afraid to be controversial.
 
 ### Controversies: Indicators of a Type 8?
 
@@ -118,43 +130,43 @@ Rogan's life has not been without controversy. From stirring debates about COVID
 
 ## How Each Enneagram Type Perceives Joe Rogan
 
-There are many opinions of Rogan, but these would be the stereotypical views of each Enneagram type:
+If you are Joe Rogan here are the stereotypical views of each Enneagram type about you.
 
 <article>
-  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist</b></a>
-  <p>Type 1s may appreciate Rogan's commitment to his podcast and the high standards he sets for his interviews. However, they may also be critical of his controversial statements and perceive him as reckless or unprincipled.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist</b></a> Type 1s may appreciate Rogan's commitment to his podcast and the high standards he sets for his interviews. However, they may also be critical of his controversial statements and perceive him as reckless or unprincipled.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper</b></a>
-  <p>Type 2s, being relationship-oriented, could admire Rogan's ability to connect with a wide range of guests. They might feel discomfort with his assertive and challenging personality as it contrasts with their tendency to maintain harmony and peace.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper</b></a> Type 2s, being relationship-oriented, could admire Rogan's ability to connect with a wide range of guests. They might feel discomfort with his assertive and challenging personality as it contrasts with their tendency to maintain harmony and peace.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever</b></a>
-  <p>Rogan's success story resonates with Type 3s. His journey from comedian to podcast host to signing a massive deal with Spotify shows an achievement they can admire.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever</b></a> Rogan's success story resonates with Type 3s. His journey from comedian to podcast host to signing a massive deal with Spotify shows an achievement they can admire.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist</b></a>
-  <p>Type 4s may appreciate Rogan's unique stance in the media landscape, making his own path rather than following traditional routes. However, they might also find his outwardly confident persona somewhat overwhelming.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist</b></a> Type 4s may appreciate Rogan's unique stance in the media landscape, making his own path rather than following traditional routes. However, they might also find his outwardly confident persona somewhat overwhelming.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator</b></a>
-  <p>Rogan's ability to delve into various complex subjects on his podcast might intrigue Type 5s. However, they could be critical of his tendency to make bold, unchecked statements.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator</b></a> Rogan's ability to delve into various complex subjects on his podcast might intrigue Type 5s. However, they could be critical of his tendency to make bold, unchecked statements.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist</b></a>
-  <p>Type 6s might appreciate Rogan's dedication to his values and principles. On the other hand, they might find his provocative style unsettling, as they generally seek security and predictability.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist</b></a> Type 6s might appreciate Rogan's dedication to his values and principles. On the other hand, they might find his provocative style unsettling, as they generally seek security and predictability.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast</b></a>
-  <p>Type 7s would likely enjoy Rogan's energetic podcast discussions and various topics. They might also admire his ability to explore new territories, like his switch to Spotify.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast</b></a>Type 7s would likely enjoy Rogan's energetic podcast discussions and various topics. They might also admire his ability to explore new territories, like his switch to Spotify.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger</b></a>
-  <p>Being of the same type, Type 8s would probably relate strongly to Rogan's assertive nature, defiance of societal norms, and desire to maintain control over his destiny.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger</b></a>Being of the same type, Type 8s would probably relate strongly to Rogan's assertive nature, defiance of societal norms, and desire to maintain control over his destiny.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker</b></a>
-  <p>Rogan's assertiveness and tendency to stir controversy might discomfort Type 9s seeking peace and harmony. However, they might appreciate his ability to host dialogues on contentious issues, fostering understanding among different perspectives.</p>
+  
+  <p><a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker</b></a>Rogan's assertiveness and tendency to stir controversy might discomfort Type 9s seeking peace and harmony. However, they might appreciate his ability to host dialogues on contentious issues, fostering understanding among different perspectives.</p>
 </article>
 
 ## Wrapping Up: Joe Rogan, A Classic Type 8?
@@ -188,7 +200,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-01-26"
+        "@value": "2024-07-03"
       },
       "datePublished": {
         "@type": "Date",
@@ -264,4 +276,9 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
 </svelte:head>
 
-<style lang="scss"></style>
+<style lang="scss">
+  article {
+    margin: 0;
+    padding: 0;
+  }
+</style>
