@@ -65,7 +65,7 @@ Sweeney has a business degree from the University of California, Los Angeles. Sh
 
 <p class="firstLetter">You've seen her captivating performances, felt the depth of her emotions on screen, and likely been drawn into the complex characters she portrays.</p>
 
-But beneath the surface of this rising star lies a complex and driven personality that has shaped her journey to success. As fans, we've seen her shine on screen, but today, we delve deeper into the inner workings of Sydney Sweeney's mind and explore her Enneagram Type 3 personality.
+But beneath the surface of this rising star lies a complex and driven personality that has shaped her journey to success. As fans, we've seen her shine on screen, but today, we go deeper into the inner workings of Sydney Sweeney's mind and explore her Enneagram Type 3 personality.
 
 ## What is Sydney Sweeney's Personality Type?
 

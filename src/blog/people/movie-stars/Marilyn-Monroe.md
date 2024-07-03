@@ -61,13 +61,19 @@ Her work in cinema, often portraying vulnerable yet captivating characters, mirr
 
 ## Marilyn and JFK: A Controversy through a Type 6 Lens
 
-The rumored affair between Marilyn Monroe and <a href="/blog/famous-enneagram-types/John-F-Kennedy">John F. Kennedy</a> is a subject of enduring fascination and controversy. From the perspective of a Type 6 personality, this connection could be interpreted as Monroe's complex search for security and affirmation. Type 6s, often grappling with trust issues and a need for stable relationships, might engage in high-risk scenarios to find a sense of validation. For Monroe, an association with a figure as influential as JFK might have represented a paradoxical blend of safety and vulnerability - a powerful connection offering the allure of protection yet fraught with the dangers of public scrutiny and moral judgment. This controversial chapter in her life, viewed through the Enneagram Type 6 lens, underscores the interplay of her deep-seated insecurities and her bold pursuit of acknowledgment and love.
+The rumored affair between Marilyn Monroe and <a href="/blog/famous-enneagram-types/John-F-Kennedy">John F. Kennedy</a> is a subject of enduring fascination and controversy.
+
+From the perspective of a Type 6 personality, this connection could be interpreted as Monroe's complex search for security and affirmation. Type 6s, often grappling with trust issues and a need for stable relationships, might engage in high-risk scenarios to find a sense of validation. For Monroe, an association with a figure as influential as JFK might have represented a paradoxical blend of safety and vulnerability - a powerful connection offering the allure of protection yet fraught with the dangers of public scrutiny and moral judgment.
+
+This controversial chapter in her life underscores the interplay of her deep-seated insecurities and her bold pursuit of acknowledgment and love.
 
 ## Conclusion
 
 Marilyn Monroe's life was a tapestry of triumphs and challenges, reflecting the complexities of a possible Type 6 personality. Her story invites us to consider how our Enneagram type shapes our experiences and interactions. As we ponder Monroe's journey, we invite you to explore the Enneagram and human psychology further.
 
-Do you see Marilyn's life differently now? Understanding her possible Enneagram type, do her actions and choices make more sense? We're building a community at 9takes that values deep dives into personalities and perspectives. Join us in unraveling the layers of human emotion and behavior, one personality at a time. Sign up below ⬇️ and be part of our journey!
+Do you see Marilyn's life differently now? Understanding her possible Enneagram type, do her actions and choices make more sense? We're building a community at 9takes that values deep dives into personalities and perspectives. Join us in unraveling the layers of human emotion and behavior, one personality at a time.
+
+Sign up below ⬇️ and be part of our journey!
 
 <svelte:head>
 
