@@ -161,7 +161,7 @@
 		enneagramType
 			? 'tint'
 			: ''}"
-		style={showDescription && enneagramType && tint ? 'opacity: .1 !important;' : ''}
+		style={showDescription && enneagramType && tint ? 'background: #ffffff4a;' : ''}
 		alt={altText || displayText}
 		in:fly={{ y: 200, duration: 2000 }}
 	/>
@@ -180,10 +180,9 @@
 		<div class="pop-card-user flex-center">
 			{#if showDescription && enneagramType}
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
-					<p class="big-p">
-						<b>Type:</b>
+					<h2 class="big-p" style="margin-bottom: 0; padding: 0;">
 						{enneagramTypeCheatSheet[enneagramType - 1].EnneagramType}
-					</p>
+					</h2>
 					<p class="mid-p">
 						<b>Motivation:</b>
 						{enneagramTypeCheatSheet[enneagramType - 1].CoreMotivation}
@@ -205,7 +204,7 @@
 				</p>
 			{/if}
 			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" class="external-link" target="_blank">@Hyperplexed</a> -->
-			<p class="link">{subtext}</p>
+			{#if subtext} <p class="link">{subtext}</p>{/if}
 		</div>
 	</div>
 </div>
@@ -341,7 +340,11 @@
 	}
 
 	.tint {
-		opacity: 0.1;
+		// opacity: 0.1;
+		background: inherit;
+		box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.2);
+		// filter: blur(5px);
+		backdrop-filter: blur(10px);
 	}
 
 	.pop-card > .pop-card-content {
@@ -366,7 +369,6 @@
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user {
-		gap: 1rem;
 		position: relative;
 	}
 
@@ -378,16 +380,27 @@
 
 	.pop-card > .pop-card-content > .pop-card-user > :is(.name-pop, .link) {
 		font-family: var(--font-family);
-		color: var(--base-white-outline);
+		// color: var(--base-white-outline);
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.name-pop {
+		font-family: var(--font-family);
+		// color: var(--base-white-outline);
 		text-align: center;
 		text-transform: uppercase;
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user > .name-pop {
 		position: relative;
-		font-size: 3.25rem;
+		font-size: 2rem;
 		font-weight: 400;
 		margin: 1rem;
+		background: #ffffff4a;
+		backdrop-filter: blur(10px);
+		border-radius: 1rem;
+		padding: 0 0.5rem;
 	}
 
 	.pop-card > .pop-card-content > .pop-card-user > .link {
@@ -419,6 +432,11 @@
 		text-shadow: 0 0 black;
 		text-wrap: balance;
 		font-weight: bolder;
+		background: #ffffff4a;
+		backdrop-filter: blur(10px);
+		border-radius: 1rem;
+		padding: 0.5rem;
+		height: 100%;
 	}
 
 	.big-p {

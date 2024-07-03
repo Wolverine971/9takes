@@ -34,7 +34,6 @@ tiktok:
 		enneagramType=""
 		displayText="Casey Neistat"
 		subtext=""
-		text=""
 	/>
 </div>
 

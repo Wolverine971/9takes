@@ -40,7 +40,7 @@
 <section>
 	<div class="landing-column">
 		<div class="big-points center-align flex-center" style="">
-			<div class="main-preview" style="margin: 5rem 0;">
+			<div class="main-preview glass-area" style="margin: 5rem 0;">
 				<enhanced:img
 					src="/static/9takes-preview.webp?enhanced"
 					alt="9takes preview"
@@ -78,16 +78,17 @@
 			How we see the World -->
 		</div>
 
-		<div class="big-points center-align flex-center " style="">
-			<div class="" style="margin: 3rem 0;">
-				<p style="font-size: 1.5rem; font-weight: 700;">
-					<span class="purple-text">9takes</span> is a question and answering platform <br />where
-					you can find out what people
+		<div class="big-points center-align flex-center glass-area">
+			<div>
+				<h2 style="font-size: 1.5rem; font-weight: 700;">
+					<span class="purple-text">9takes</span>- a question and answering platform <br />where you
+					can find out what people
 					<br />
 					<span class="purple-text">think</span>,
 					<span class="purple-text">feel</span>, and
-					<span class="purple-text">do</span>
-				</p>
+					<span class="purple-text">do</span>...
+				</h2>
+				<p>for every scenario you can think of...</p>
 			</div>
 			<div class="question-list" style="width: 100%; padding: .5rem">
 				{#each data?.top5Questions as questionData}
@@ -109,7 +110,8 @@
 					style="text-align: center;"
 					itemprop="description"
 				>
-					Where can you find different viewpoints?
+					Where can you find unbiased and different viewpoints/ opinions/ answers/ feedback/ takes
+					on any situation you can think of?
 				</p>
 				<h2
 					class=" txt-white jumbo-name bold-shadow"
@@ -124,7 +126,7 @@
 
 		<!-- are we embracing different view points or are we fearful of different view point -->
 
-		<div class="big-points flex-center">
+		<div class="big-points flex-center glass-area">
 			<h2 style="margin-bottom: 0">It is hard to find open discussions online.</h2>
 			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0">
 				Conversation gets stifled for the following reasons:
@@ -146,12 +148,13 @@
 		</div>
 
 		<div class="big-points flex-center" style="max-width: none;">
-			<h2 style="">What is 9takes?</h2>
+			<h2 style="">Going deeper</h2>
 			<p style="margin-bottom: 3rem;">
-				An anonymous question and answering platform based on the Enneagram personality system.
+				9takes is an anonymous and based on the Enneagram personality system.
 				<br />
-				Think
+
 				<b style="font-size: 1.2rem;">
+					Think
 					<span style="text-shadow: .5px .5px #E0373C;">Reddit</span> based on personality.
 					<!-- <span style="text-shadow: .5px .5px #2f0479;" title="secret sauce">Enneagram</span>
 					Lens. -->
@@ -225,24 +228,46 @@
 							alt={'Sigmund Freud squaring off with Plato'}
 						/>
 						<h4 class="small-h4 txt-white link bold-shadow">
-							Why is the <span title="secret sauce">Enneagram</span>
-							the best?
+							How is the <span title="secret sauce">Enneagram</span>
+							different?
 						</h4>
 					</a>
 				</li>
 			</ul>
 		</div>
 
-		<div class="big-points flex-center">
-			<h2 style="margin-bottom: 0">
-				9takes is the place to find unbiased opinions and takes on every subject.
-			</h2>
+		<div class="big-points flex-center glass-area">
 			<h3 style="font-size: 1.5rem; margin-top: 0; padding-top: 0; width: 100%;}">
-				Plus a few more benefits:
+				A few benefits <sm style="font-size: 1rem;">(that you many have not thought of)</sm>
 			</h3>
 			<ul>
 				<li>
-					- <b>Find Your Tribe</b>: Connect with people think, feel and act like you.
+					- <b>Go into IRL situations with the awareness of other viewpoints.</b>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						height="1em"
+						style="display: inline;"
+						viewBox="0 0 640 512"
+						><path
+							d="M120 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 104 56a56 56 0 1 0 112 0zM100.9 128h-5l-2.2 4.5L8.8 308.5l-3.5 7.2 14.4 7 3.5-7.2L105.9 144H214.1l82.7 171.5 3.5 7.2 14.4-7-3.5-7.2-84.9-176-2.2-4.5h-5H100.9zM104 240H88v8V504v8h8 48 8v-8V352h16V504v8h8 48 8v-8V248v-8H216v8V496H184V344v-8h-8H144h-8v8V496H104V248v-8zM440 56a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zm96 0A56 56 0 1 0 424 56a56 56 0 1 0 112 0zM439.6 210.5l2.5-7.6-15.2-5.1-2.5 7.6-56 168L364.9 384H376h32V504v8h8 48 8v-8V384h16V504v8h8 48 8v-8V384h32 11.1l-3.5-10.5-56-168-2.5-7.6-15.2 5.1 2.5 7.6L572.9 368H552 536 504 488 472 456 424 408 387.1l52.5-157.5zM424 496V384h32V496H424zm80-112h32V496H504V384zM415.9 128l-2.2 4.5-84.9 176-3.5 7.2 14.4 7 3.5-7.2L425.9 144H534.1l82.7 171.5 3.5 7.2 14.4-7-3.5-7.2-84.9-176-2.2-4.5h-5H420.9h-5z"
+						/></svg
+					>
+				</li>
+				<li>
+					- <b
+						>Develop empathy for and get to know the other side. <svg
+							style="display: inline;"
+							xmlns="http://www.w3.org/2000/svg"
+							height="1em"
+							viewBox="0 0 512 512"
+							><path
+								d="M192 416c0-17.7-14.3-32-32-32H64c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H309.3c-6.9 0-13.7 2.2-19.2 6.4L192 464V416zM64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h64 32v32 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM192 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm128 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM155.9 252.1c-6.6 5.9-7.1 16-1.3 22.6C179.5 302.5 215.7 320 256 320s76.5-17.5 101.4-45.3c5.9-6.6 5.3-16.7-1.3-22.6s-16.7-5.3-22.6 1.3C314.5 274.6 286.8 288 256 288s-58.5-13.4-77.5-34.7c-5.9-6.6-16-7.1-22.6-1.3z"
+							/>
+						</svg></b
+					>
+				</li>
+				<li>
+					- <b>Find Your Tribe</b>: Connect with people who think, feel and act like you.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -254,8 +279,9 @@
 					</svg>
 				</li>
 				<li>
-					- <b>Find New Perspectives</b>: Uncover worldviews from different personality types by
-					searching through unique responses to various questions and topics.
+					- <b>Go down the rabbit hole on any scenario you can think of</b>: Uncover worldviews from
+					different personality types by searching through unique responses to various questions and
+					topics.
 					<svg
 						style="display: inline;"
 						xmlns="http://www.w3.org/2000/svg"
@@ -263,19 +289,6 @@
 						viewBox="0 0 512 512"
 						><path
 							d="M245.7 0c-24.4 0-45.1 17.9-48.5 42.1l-.7 4.9c-7.8 54.3 8.4 108.9 43.5 150.1v20.6c-66.8 20.7-119.8 73-141.4 139.4C90.3 353.8 81.4 352 72 352c-39.8 0-72 32.2-72 72s32.2 72 72 72c14.7 0 28.3-4.4 39.7-11.9C127.8 501.3 150.6 512 176 512h32l96 0c23.9 0 44.7-13.1 55.7-32.4l5.1 6.8c21.2 28.3 61.3 34 89.6 12.8s34-61.3 12.8-89.6L388 304c46.4-.1 84-37.8 84-84.3c0-25.3-11.4-49.3-31-65.3L404 124.3c-5.6-4.5-11.5-8.6-17.6-12c10.1-24.8 13.6-52.1 9.8-79.4l-.9-6C393.1 11.4 379.9 0 364.3 0c-8.2 0-16.2 3.3-22 9.1l-2 2c-5.8 5.7-11 11.9-15.7 18.3c14.7 21.5 25.1 45.4 30.7 70.4c-8.4-2.1-17-3.4-25.7-3.7c-8.2-29.3-23.8-56.6-46.2-78.8l-3.1-3.1L263.4 31.1l16.8-16.9C271 5.1 258.6 0 245.7 0zM88.7 406.7c-.4 5.7-.7 11.4-.7 17.3c0 5.6 .5 11.1 1.5 16.4C85.1 445.1 78.9 448 72 448c-13.3 0-24-10.7-24-24s10.7-24 24-24c6.5 0 12.4 2.6 16.7 6.7zm156-357.9c.1-.5 .5-.9 1-.9c.3 0 .5 .1 .7 .3l3.1 3.1 16.8-16.9L249.5 51.4c20.4 20.2 33.2 46.2 37.2 73.7c1 6.7 4.7 12.6 10.3 16.4s12.5 5 19 3.5c2.7-.6 5.5-1 8.5-1c17.9 0 35.3 6.2 49.3 17.5l36.9 30.1c8.4 6.9 13.4 17.2 13.4 28.1c0 20-16.2 36.3-36.3 36.3H352c-13.3 0-24 10.7-24 24v16c0 5.2 1.7 10.2 4.8 14.4l96 128c5.3 7.1 3.9 17.1-3.2 22.4s-17.1 3.9-22.4-3.2l-68.6-91.4c-4.2-5.6-10.6-9-17.5-9.5s-13.8 2.1-18.7 7L271 391c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8h16c8.8 0 16 7.2 16 16s-7.2 16-16 16l-96 0H176c-22.1 0-40-17.9-40-40c0-80.8 57-148.2 133-164.3c11.1-2.4 19-12.1 19-23.5V187.9c0-6.1-2.4-12.1-6.6-16.5C251.8 140.1 237.8 96.8 244 53.8l.7-4.9zM352 208a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"
-						/>
-					</svg>
-				</li>
-				<li>
-					- <b>Find and engage in Meaningful Conversations</b>: Reach out to users whose takes catch
-					your eye.
-					<svg
-						style="display: inline;"
-						xmlns="http://www.w3.org/2000/svg"
-						height="1em"
-						viewBox="0 0 512 512"
-						><path
-							d="M192 416c0-17.7-14.3-32-32-32H64c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32H448c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H309.3c-6.9 0-13.7 2.2-19.2 6.4L192 464V416zM64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h64 32v32 48c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM192 184a24 24 0 1 0 0-48 24 24 0 1 0 0 48zm128 0a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM155.9 252.1c-6.6 5.9-7.1 16-1.3 22.6C179.5 302.5 215.7 320 256 320s76.5-17.5 101.4-45.3c5.9-6.6 5.3-16.7-1.3-22.6s-16.7-5.3-22.6 1.3C314.5 274.6 286.8 288 256 288s-58.5-13.4-77.5-34.7c-5.9-6.6-16-7.1-22.6-1.3z"
 						/>
 					</svg>
 				</li>
@@ -296,6 +309,12 @@
 {/if}
 
 <style lang="scss">
+	.glass-area {
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		border-radius: 1rem;
+		padding: 1rem;
+	}
 	.question-link {
 		font-size: xxx-large;
 		margin: 0;
@@ -460,6 +479,7 @@
 	h2 {
 		font-size: 1.8rem;
 		margin-top: 0;
+		padding: 1rem 0;
 	}
 	h3 {
 		font-size: 2rem;
@@ -510,7 +530,7 @@
 		}
 		.question-list {
 			display: flex;
-			align-items: start;
+			align-items: flex-start;
 		}
 	}
 
