@@ -138,7 +138,7 @@ Suppose this exploration piqued your curiosity, and you yearn for more insightfu
   "@graph": [
     {
       "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article delves into the unique persona of Elton John, explored through the lens of Enneagram Type 4, known as The Individualist. It highlights Elton's quest for authenticity, his emotional depth reflected in his music, and the way his relationships and controversies mirror the core fears and desires of a Type 4 personality. The narrative journeys through Elton's iconic career, his confrontations with societal norms, and how his actions stem from the core Enneagram Type 4 motivation of preserving individuality and expressing authenticity.",
+      "http://schema.org/articleBody": "This article dives into the unique persona of Elton John, explored through the lens of Enneagram Type 4, known as The Individualist. It highlights Elton's quest for authenticity, his emotional depth reflected in his music, and the way his relationships and controversies mirror the core fears and desires of a Type 4 personality. The narrative journeys through Elton's iconic career, his confrontations with societal norms, and how his actions stem from the core Enneagram Type 4 motivation of preserving individuality and expressing authenticity.",
       "http://schema.org/author": {
         "@type": "http://schema.org/Person",
         "http://schema.org/name": "DJ Wayne",

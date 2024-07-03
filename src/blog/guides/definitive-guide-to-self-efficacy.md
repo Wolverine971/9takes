@@ -431,7 +431,7 @@ People are different and have different experiences. Thus it is natural that som
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
+      "articleBody": "This article goes into the concept of self-efficacy, its origins, and its practical applications. It explores the four sources of self-efficacy, provides examples, and discusses how to improve it. The article also touches upon the role of environment, psychological constructs related to self-efficacy, and future trends in research.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -208,7 +208,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the complex personality of Dave Portnoy through the lens of the Enneagram Type 8. It explores various facets of his life, including his entrepreneurial ventures, his individualistic approach, and his handling of controversies, all of which point to characteristics commonly found in Type 8 individuals.",
+      "articleBody": "This article dives into the complex personality of Dave Portnoy through the lens of the Enneagram Type 8. It explores various facets of his life, including his entrepreneurial ventures, his individualistic approach, and his handling of controversies, all of which point to characteristics commonly found in Type 8 individuals.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

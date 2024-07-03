@@ -123,7 +123,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
     "@graph": [
         {
             "@type": "Article",
-            "articleBody": "This article delves into the personality of Palmer Luckey, the founder of Oculus, through the lens of the Enneagram Type 7. Known for his adventurous spirit, boundless imagination, and appetite for new experiences, Palmer embodies many characteristics of Type 7 personalities. The article traces Palmer's journey from his unconventional upbringing to his meteoric rise in the tech world, highlighting how his Type 7 traits have influenced his decisions, successes, and challenges along the way.",
+            "articleBody": "Palmer Luckey, the founder of Oculus, examined through the lens of the Enneagram Type 7. Known for his adventurous spirit, boundless imagination, and appetite for new experiences, Palmer embodies many characteristics of Type 7 personalities. The article traces Palmer's journey from his unconventional upbringing to his meteoric rise in the tech world, highlighting how his Type 7 traits have influenced his decisions, successes, and challenges along the way.",
             "creator": {
                 "@type": "Person",
                 "name": "DJ Wayne",

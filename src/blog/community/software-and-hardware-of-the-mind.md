@@ -79,7 +79,7 @@ The default response of many to emotional struggles often involves quick pharmac
 
 The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/blog/enneagram/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
 
->Counter argument acknowledgment: I do recognize pharmacological interventions can be life-saving for many individuals with severe mental health conditions. A balanced approach that incorporates both medication and therapy is often the most effective way to address mental health issues.
+> Counter argument acknowledgment: I do recognize pharmacological interventions can be life-saving for many individuals with severe mental health conditions. A balanced approach that incorporates both medication and therapy is often the most effective way to address mental health issues.
 
 There is value in conversations about emotions. And these conversations are necessary for addressing mental health issues at the root.
 
@@ -91,7 +91,7 @@ Carl Jung, inspired by Freud, pioneered the exploration of psychological archety
 
 Through psychoanalysis he attempted to map out what was happening inside the mind. He sought to explore the difference between stated preferences and revealed preferences. He was trying to map out archetypes or personalities. Over time, however, his subjective methods of study fell out of favor. They were replaced by the objective, reproducible experiments of behaviorism—like Skinner's box and Pavlov's dogs.
 
-Science shifted into the realm of cognitive psychology and neuroimaging, the focus went to the brain's hardware. 
+Science shifted into the realm of cognitive psychology and neuroimaging, the focus went to the brain's hardware.
 
 Freud and Jung's psychoanalysis fell out of favor.
 
@@ -163,7 +163,7 @@ https://a16z.com/author/vijay-pande/
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the holistic approach to psychology, highlighting the integration of empirical research with exploring emotions, personal narratives, and psychological complexities. It features insights from thought leaders such as Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio, who champion the fusion of empirical methods with a deep understanding of human emotions and personality. The article emphasizes the need for a comprehensive understanding of the human psyche, combining the observable 'hardware' of behavior with the intricate 'software' of our inner lives.",
+      "articleBody": "This article goes into the holistic approach to psychology, highlighting the integration of empirical research with exploring emotions, personal narratives, and psychological complexities. It features insights from thought leaders such as Dr. Brené Brown, Esther Perel, Jordan Peterson, and Ray Dalio, who champion the fusion of empirical methods with a deep understanding of human emotions and personality. The article emphasizes the need for a comprehensive understanding of the human psyche, combining the observable 'hardware' of behavior with the intricate 'software' of our inner lives.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

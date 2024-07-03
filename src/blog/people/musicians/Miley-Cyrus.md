@@ -122,7 +122,7 @@ Remember, understanding people, much like understanding Miley, is never a one-si
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality of Miley Cyrus, showcasing her as a quintessential example of the Enneagram Type 4 - 'The Individualist.' Her journey from being Hannah Montana to a pop music sensation encapsulates Type 4's deep desire for individuality, emotional depth, and a continuous search for self-identity. It explores various phases of Miley's career and life, highlighting how they align with the characteristics of a Type 4 personality.",
+      "articleBody": "Miley Cyrus is quintessential example of the Enneagram Type 4 - 'The Individualist.' Her journey from being Hannah Montana to a pop music sensation encapsulates Type 4's deep desire for individuality, emotional depth, and a continuous search for self-identity. It explores various phases of Miley's career and life, highlighting how they align with the characteristics of a Type 4 personality.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

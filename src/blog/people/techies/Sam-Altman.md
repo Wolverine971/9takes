@@ -116,7 +116,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality of Sam Altman, exploring his traits from the perspective of the Enneagram Type 4. Known for his innovative mind and leadership in technology, particularly with OpenAI and Y Combinator, Sam embodies many characteristics of Type 4 personalities. The article discusses various aspects of Sam's life, career, and leadership style that demonstrate his Type 4 characteristics, including his intellectual curiosity, entrepreneurial spirit, and commitment to ethical AI development.",
+      "articleBody": "This article goes into the personality of Sam Altman, exploring his traits from the perspective of the Enneagram Type 4. Known for his innovative mind and leadership in technology, particularly with OpenAI and Y Combinator, Sam embodies many characteristics of Type 4 personalities. The article discusses various aspects of Sam's life, career, and leadership style that demonstrate his Type 4 characteristics, including his intellectual curiosity, entrepreneurial spirit, and commitment to ethical AI development.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

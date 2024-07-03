@@ -105,7 +105,7 @@ Curious about the personalities of other famous individuals? Interested in seein
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine Enneagram types.",
+      "articleBody": "This article explores into the enigmatic personality of Khloé Kardashian through the lens of the Enneagram type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine Enneagram types.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

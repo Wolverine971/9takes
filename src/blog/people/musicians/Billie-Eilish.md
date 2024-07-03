@@ -158,7 +158,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "http://schema.org/Article",
-      "http://schema.org/articleBody": "This article delves into the Enneagram Type 4 personality through the lens of Billie Eilish's life and artistry. It explores how her unique aesthetic, emotional depth and authentic self-expression resonate with the traits of Enneagram Type 4. Through various examples from her life and music, the article paints a vivid picture of how Billie embodies the quest for identity and emotional authenticity typical of Type 4 individuals.",
+      "http://schema.org/articleBody": "This article goes into the Enneagram Type 4 personality through the lens of Billie Eilish's life and artistry. It explores how her unique aesthetic, emotional depth and authentic self-expression resonate with the traits of Enneagram Type 4. Through various examples from her life and music, the article paints a vivid picture of how Billie embodies the quest for identity and emotional authenticity typical of Type 4 individuals.",
       "http://schema.org/author": {
         "@type": "http://schema.org/Person",
         "http://schema.org/name": "DJ Wayne",

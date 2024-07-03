@@ -121,7 +121,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality traits of Kylie Jenner as seen through the lens of the Enneagram type 9. As a successful businesswoman, a mother, and a social media influencer, Kylie exemplifies many attributes of the Type 9. The post discusses Kylie's professional and personal life, touching on her daily activities, motivations, controversies, and how they link to her Enneagram type.",
+      "articleBody": "This article goes into the personality traits of Kylie Jenner as seen through the lens of the Enneagram type 9. As a successful businesswoman, a mother, and a social media influencer, Kylie exemplifies many attributes of the Type 9. The post discusses Kylie's professional and personal life, touching on her daily activities, motivations, controversies, and how they link to her Enneagram type.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

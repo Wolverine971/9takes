@@ -300,7 +300,7 @@ To dive deeper and see how each Enneagram type behaves at a party checkout this 
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into how each Enneagram type experiences and contributes to the dynamics of a party. It provides insights into the motivations, inviting strategies, and ideal party setups for each type, ensuring every guest enjoys the event in a way that resonates with their personality. The article also explores the philosophical implications of these gatherings, likening them to a modern-day symposium of Greek philosophers.",
+      "articleBody": "This article goes into how each Enneagram type experiences and contributes to the dynamics of a party. It provides insights into the motivations, inviting strategies, and ideal party setups for each type, ensuring every guest enjoys the event in a way that resonates with their personality. The article also explores the philosophical implications of these gatherings, likening them to a modern-day symposium of Greek philosophers.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

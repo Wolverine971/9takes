@@ -123,7 +123,7 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality traits of Ariana Grande from the perspective of the Enneagram Type 3. Known for her high-octane performances, powerful vocals, and a vibrant personality, Ariana seems to embody the Type 3 traits. This analysis spans across her career progression, her response to personal tragedies, and how her resilience could be indicative of a Type 3 personality.",
+      "articleBody": "This article dives into the personality traits of Ariana Grande from the perspective of the Enneagram Type 3. Known for her high-octane performances, powerful vocals, and a vibrant personality, Ariana seems to embody the Type 3 traits. This analysis spans across her career progression, her response to personal tragedies, and how her resilience could be indicative of a Type 3 personality.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

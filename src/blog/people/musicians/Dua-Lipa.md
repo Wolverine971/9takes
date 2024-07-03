@@ -156,7 +156,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the personality and life of pop icon Dua Lipa through the lens of Enneagram Type 3. Recognized for her drive, determination, and capacity to maintain a successful image, Dua embodies the key traits of this Enneagram type. The piece explores facets of her life, music career, public controversies, and motivations, all pointing to her Enneagram Type 3 tendencies.",
+      "articleBody": "This article goes into the personality and life of pop icon Dua Lipa through the lens of Enneagram Type 3. Recognized for her drive, determination, and capacity to maintain a successful image, Dua embodies the key traits of this Enneagram type. The piece explores facets of her life, music career, public controversies, and motivations, all pointing to her Enneagram Type 3 tendencies.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

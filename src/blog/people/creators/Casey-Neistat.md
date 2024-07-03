@@ -208,7 +208,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
+      "articleBody": "This article goes into the Enneagram Type 4 personality traits of Casey Neistat. Noted for his unique storytelling, attention to detail, and readiness to expose vulnerabilities, Casey portrays the characteristics of a Type 4 individual. The article explores various elements of Casey's life and vlogging style, embodying his Type 4 personality, including his love for running, his iconic glasses, and how he manages the chaos of his life.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

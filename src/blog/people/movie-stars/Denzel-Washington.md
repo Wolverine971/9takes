@@ -165,7 +165,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves deep into the personality of Denzel Washington, speculating on his Enneagram Type 8 attributes. Through examining his career choices, his approach to roles, and even controversies, we gain insight into the possible core motivations that drive this acclaimed actor. The article draws connections between his Enneagram type and the projects he pursues, offering a holistic view of Denzel from a unique psychological perspective.",
+      "articleBody": "This article goes deep into the personality of Denzel Washington, speculating on his Enneagram Type 8 attributes. Through examining his career choices, his approach to roles, and even controversies, we gain insight into the possible core motivations that drive this acclaimed actor. The article draws connections between his Enneagram type and the projects he pursues, offering a holistic view of Denzel from a unique psychological perspective.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",

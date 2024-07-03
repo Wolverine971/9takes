@@ -185,7 +185,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article delves into Joe Rogan's personality traits through the lens of the Enneagram Type 8. It examines various facets of Joe's life, career, and perspectives that exemplify Type 8 traits. The key points discuss Joe's assertive and bold nature, his inner world, a prominent controversy, and his core motivations.",
+      "articleBody": "This article goes into Joe Rogan's personality traits through the lens of the Enneagram Type 8. It examines various facets of Joe's life, career, and perspectives that exemplify Type 8 traits. The key points discuss Joe's assertive and bold nature, his inner world, a prominent controversy, and his core motivations.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
