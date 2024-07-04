@@ -31,7 +31,6 @@
 	<li>historical figures</li>
 	<li>technologists</li>
 </ul>
-politics, entertainment, and more.
 
 <p>
 	We go beyond surface-level chatter, grounding our insights in psychological theories and real-life
@@ -42,7 +41,7 @@ politics, entertainment, and more.
 <div class="blog-list tile-display">
 	{#each Array.from(Array(10).keys()) as number}
 		{#if number !== 0}
-			<h3 class="position-center">Famous Enneagram type {number}</h3>
+			<h3 class="position-center">Enneagram Type {number}s</h3>
 			<div class="people-grid-container">
 				{#each data.people.filter((p) => p.enneagram === number) as person}
 					<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
