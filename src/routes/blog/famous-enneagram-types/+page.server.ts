@@ -94,7 +94,7 @@ const getAllPosts = async () => {
 	const posts = await Promise.all(body);
 
 	return posts.filter((p) => {
-		if (!p?.published && p?.loc) {
+		if (p?.published && p?.loc) {
 			return true;
 		}
 	});
