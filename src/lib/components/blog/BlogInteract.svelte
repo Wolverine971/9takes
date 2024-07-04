@@ -122,9 +122,9 @@
 		disabled={comment?.length < 1}
 	>
 		Submit Comment
-		{#if comment?.length > 1}
+		{#if comment?.length >= 1}
 			<RightIcon
-				iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
+				iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
 				height={'1.5rem'}
 				fill={'#5407d9'}
 			/>

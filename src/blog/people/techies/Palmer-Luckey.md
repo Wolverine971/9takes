@@ -1,5 +1,5 @@
 ---
-title: 'Palmer Luckey: An Enneagram 7, The Daring Dreamer'
+title: 'Palmer Luckey: An Enneagram 7- The Daring Dreamer'
 description: 'Explore the psychology of Palmer Luckey through the lens of Enneagram Type 7. Discover how his personality fuels his bold innovations in VR and AI.'
 author: 'DJ Wayne'
 date: '2024-05-07'

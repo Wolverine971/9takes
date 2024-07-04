@@ -68,7 +68,11 @@ The Enneagram Type 8 is often described as self-confident, decisive, and willful
 
 Dave Portnoy is in a league of his own regarding business IQ.
 
-He wheels and deals like an old-school mobster boss. His pride and joy, Barstool Sports, serves as a case study. Founded in 2003 as a print publication, Barstool transitioned into a digital platform under Portnoy's leadership, eventually becoming a cultural phenomenon. Portnoy pivoted multiple times to keep Barstool relevant while remaining true to its fans. This adaptability showcases his decisive nature, a defining trait of a Type 8 personality.
+His pride and joy, Barstool Sports, serves as a case study. Founded in 2003 as a print publication, Barstool transitioned from being an irreverent frat boy sports site into an irreverent cultural phenomenon. Portnoy pivoted multiple times to keep Barstool relevant while remaining true to its fans.
+
+Along with his adaptability Dave has a quiet and steady hustle that which explains why Barstool has lasted.
+
+And Dave is having fun with it. **He wheels and deals like an old-school mobster boss** one minute and the the next hops on a pod with his BFFs to talk tea.
 
 What truly sets Portnoy apart is what happened in 2020. He sold a majority stake in Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million. Barstool was the same with Portnoy at the helm, and in 2023, Portnoy bought it back- for $1. This was a power move that again showed Portnoy's savvy.
 

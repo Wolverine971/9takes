@@ -2,7 +2,7 @@
 title: 'Jake Paul Enneagram Type 3'
 description: 'Why Jake Paul appears to be a type 3'
 author: 'DJ Wayne'
-date: '2023-06-021'
+date: '2023-06-21'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jake-Paul'
 lastmod: '2024-04-07'
 changefreq: 'monthly'
