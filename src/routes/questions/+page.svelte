@@ -71,7 +71,7 @@
 
 	<div class="question-category-div">
 		<h2 style="margin-top: 0;">Question categories</h2>
-		<div class="big-tags">
+		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
 				{#if category}
 					<a

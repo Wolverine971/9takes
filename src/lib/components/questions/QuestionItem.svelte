@@ -16,7 +16,7 @@
 <div style="display: flex; justify-content: flex-start; align-items: center;">
 	<a
 		href="/questions/{questionData.url}"
-		class="question-card shimmer-button"
+		class="question-card {innerWidth > 1500 && 'shimmer-button'}"
 		data-sveltekit-preload-data="tap"
 	>
 		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>

@@ -40,7 +40,7 @@
 <section>
 	<div class="landing-column">
 		<div class="big-points center-align flex-center" style="">
-			<div class="main-preview glass-area" style="margin: 5rem 0;">
+			<div class="main-preview" style="margin: 5rem 0;">
 				<enhanced:img
 					src="/static/9takes-preview.webp?enhanced"
 					alt="9takes preview"
@@ -55,7 +55,7 @@
 					</h1>
 					<h2 style="font-size: x-large">
 						There are at least <b class="purple-text" style="font-size: xx-large; ">9</b>
-						personality types with different
+						personality types with <br /> different
 						<b class="purple-text" style="font-size: xx-large; ">takes</b>
 						on it...
 						<br />
