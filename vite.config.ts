@@ -1,8 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { join } from 'path';
 import { nodeLoaderPlugin } from '@vavite/node-loader/plugin';
 import injectSocketIO from './src/utils/socket';
-import { partytownVite } from '@builder.io/partytown/utils';
 import { enhancedImages } from '@sveltejs/enhanced-img';
 
 const dev = process.env.NODE_ENV === 'development';
@@ -25,10 +23,7 @@ const config = {
 		sveltekit(),
 		nodeLoaderPlugin(),
 		dev && webSocketServer,
-		partytownVite({
-			// `dest` specifies where files are copied to in production
-			dest: join(process.cwd(), 'static', '~partytown')
-		})
+
 	],
 
 	define: {

@@ -72,8 +72,11 @@
 			<p>
 				Understanding the fundamentals of the Enneagram system is essential for anyone looking to
 				use this tool for personal growth, improving relationships, or enhancing their professional
-				life. We encourage you to explore the articles in this subsection to gain a solid foundation
-				in Enneagram theory and its applications.
+				life.
+			</p>
+			<p>
+				We encourage you to explore the articles in this subsection to gain a solid foundation in
+				Enneagram theory and its applications.
 			</p>
 		</section>
 
@@ -154,9 +157,11 @@
 			<h2>Conclusion</h2>
 			<p>
 				Gaining a deep understanding of each Enneagram type is essential for personal growth,
-				improved communication, and building stronger relationships. We encourage you to explore the
-				articles in this subsection to learn more about the unique qualities, challenges, and growth
-				opportunities for each type.
+				improved communication, and building stronger relationships.
+			</p>
+			<p>
+				We encourage you to explore the articles in this subsection to learn more about the unique
+				qualities, challenges, and growth opportunities for each type.
 			</p>
 		</section>
 
@@ -207,9 +212,11 @@
 		<section id="introduction">
 			<p>
 				The Enneagram is not only a tool for understanding yourself and others but also a powerful
-				framework for personal growth and self-improvement. By exploring the unique challenges and
-				opportunities for development within each Enneagram type, you can create a tailored path to
-				reaching your full potential.
+				framework for personal growth and self-improvement.
+			</p>
+			<p>
+				By exploring the unique challenges and opportunities for development within each Enneagram
+				type, you can create a tailored path to reaching your full potential.
 			</p>
 		</section>
 
@@ -249,9 +256,12 @@
 			<h2>Conclusion</h2>
 			<p>
 				By using the Enneagram as a tool for personal development, you can gain valuable insights
-				into your unique challenges and opportunities for growth. We encourage you to explore the
-				articles in this subsection to find tailored strategies and guidance for your Enneagram
-				type, empowering you to create lasting positive change in your life.
+				into your unique challenges and opportunities for growth.
+			</p>
+			<p>
+				We encourage you to explore the articles in this subsection to find tailored strategies and
+				guidance for your Enneagram type, empowering you to create lasting positive change in your
+				life.
 			</p>
 		</section>
 
@@ -299,9 +309,11 @@
 		<section id="introduction">
 			<p>
 				The Enneagram offers a powerful framework for understanding relationship dynamics,
-				communication styles, and compatibility between different personality types. By exploring
-				how each Enneagram type approaches relationships, you can gain valuable insights into
-				creating more harmonious and fulfilling connections with others.
+				communication styles, and compatibility between different personality types.
+			</p>
+			<p>
+				By exploring how each Enneagram type approaches relationships, you can gain valuable
+				insights into creating more harmonious and fulfilling connections with others.
 			</p>
 		</section>
 
@@ -341,9 +353,11 @@
 			<h2>Conclusion</h2>
 			<p>
 				By applying the wisdom of the Enneagram to your relationships, you can cultivate deeper
-				understanding, compassion, and connection with your partner and loved ones. We invite you to
-				explore the articles in this subsection to discover valuable insights and strategies for
-				creating more fulfilling and harmonious relationships.
+				understanding, compassion, and connection with your partner and loved ones.
+			</p>
+			<p>
+				We invite you to explore the articles in this subsection to discover valuable insights and
+				strategies for creating more fulfilling and harmonious relationships.
 			</p>
 		</section>
 
@@ -392,10 +406,13 @@
 	<main>
 		<section id="introduction">
 			<p>
-				The Enneagram is a valuable tool for enhancing communication, teamwork, leadership, and
-				personal growth in the workplace. By understanding the unique strengths, challenges, and
-				motivations of each Enneagram type, you can create a more harmonious and productive work
-				environment and achieve greater professional success.
+				The Enneagram can be used to enhance communication, teamwork, leadership, and personal
+				growth in the workplace.
+			</p>
+			<p>
+				By understanding the unique strengths, challenges, and motivations of each Enneagram type,
+				you can create a more harmonious and productive work environment and achieve greater
+				professional success.
 			</p>
 		</section>
 
@@ -423,11 +440,13 @@
 		<section id="conclusion">
 			<h2>Conclusion</h2>
 			<p>
-				By applying the Enneagram framework to your professional life, you can gain valuable
-				insights into your own work style, communication preferences, and leadership potential, as
-				well as those of your colleagues. We encourage you to explore the articles in this
-				subsection to discover how the Enneagram can help you achieve greater success and
-				satisfaction in your career.
+				By applying the Enneagram framework to your professional life, you can gain insight into
+				your own work style, communication preferences, and leadership potential, as well as those
+				of your colleagues.
+			</p>
+			<p>
+				We encourage you to explore the articles in this subsection to discover how the Enneagram
+				can help you achieve greater success and satisfaction in your career.
 			</p>
 		</section>
 
@@ -478,9 +497,11 @@
 			<p>
 				Exploring the wealth of available Enneagram resources can help you deepen your understanding
 				of this powerful personality framework and its practical applications in various areas of
-				life. This subsection is dedicated to providing a curated list of high-quality Enneagram
-				books, courses, workshops, podcasts, and online communities to support your learning
-				journey.
+				life.
+			</p>
+			<p>
+				This subsection is dedicated to providing a curated list of high-quality Enneagram books,
+				courses, workshops, podcasts, and online communities to support your learning journey.
 			</p>
 		</section>
 
@@ -520,8 +541,11 @@
 			<p>
 				Whether you're new to the Enneagram or a seasoned practitioner, the resources featured in
 				this subsection can help you expand your knowledge, deepen your self-awareness, and apply
-				the Enneagram more effectively in your personal and professional life. We encourage you to
-				explore these resources and find the ones that resonate with your learning style and goals.
+				the Enneagram more effectively in your personal and professional life.
+			</p>
+			<p>
+				We encourage you to explore these resources and find the ones that resonate with your
+				learning style and goals.
 			</p>
 		</section>
 
@@ -569,11 +593,11 @@
 
 	<main>
 		<section id="introduction">
+			<p>Each Enneagram type behaves and reacts in situations differently.</p>
 			<p>
-				Understanding how each Enneagram type typically behaves and reacts in specific situations
-				can provide valuable insights into navigating challenging scenarios and improving
-				communication and collaboration. This subsection explores the unique ways in which each
-				Enneagram type approaches stress, conflict, decision-making, and other common situations.
+				Here we dive into navigating scenarios and give tips for improving communication and
+				collaboration. This subsection explores the unique ways in which each Enneagram type
+				approaches stress, conflict, decision-making, and other common situations.
 			</p>
 		</section>
 
@@ -613,9 +637,11 @@
 			<p>
 				By gaining a deeper understanding of how each Enneagram type navigates specific situations,
 				you can develop greater self-awareness, empathy, and adaptability in your personal and
-				professional life. We invite you to explore the articles in this subsection to learn more
-				about leveraging your Enneagram type's strengths and managing its challenges in a variety of
-				contexts.
+				professional life.
+			</p>
+			<p>
+				We invite you to explore the articles in this subsection to learn more about leveraging your
+				Enneagram type's strengths and managing its challenges in a variety of contexts.
 			</p>
 		</section>
 

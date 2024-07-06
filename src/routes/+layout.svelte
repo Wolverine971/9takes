@@ -7,7 +7,6 @@
 	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 	import { dev } from '$app/environment';
 	import { preparePageTransition } from '$lib/page-transition';
-	import { partytownSnippet } from '@builder.io/partytown/integration';
 
 	preparePageTransition();
 
@@ -53,53 +52,6 @@
 <svelte:head>
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 	<!-- Config options -->
-	<script>
-		// Forward the necessary functions to the web worker layer
-		partytown = {
-			forward: ['dataLayer.push', 'qab', 'posthog', 'posthog.capture']
-			// resolveUrl: (url) => {
-			// 	const siteUrl = `https://9takes.com`;
-
-			// 	if (url.hostname === 'www.googletagmanager.com') {
-			// 		const proxyUrl = new URL(`${siteUrl}/gtm`);
-
-			// 		const gtmId = new URL(url).searchParams.get('id');
-			// 		gtmId && proxyUrl.searchParams.append('id', gtmId);
-
-			// 		return proxyUrl;
-			// 	} else if (url.hostname === 'www.google-analytics.com') {
-			// 		const proxyUrl = new URL(`${siteUrl}/ga`);
-
-			// 		return proxyUrl;
-			// 	}
-
-			// 	return url;
-			// }
-		};
-	</script>
-	{@html '<script>' + partytownSnippet() + '</script>'}
-
-	{#if $page.url.hostname === '9takes.com'}
-		<script
-			type="text/partytown"
-			src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
-		></script>
-		<!-- type="text/javascript"> -->
-
-		<script
-			type="text/partytown"
-			src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
-		></script>
-		<script type="text/partytown">
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
-
-			gtag('config', 'G-1BKNXQPYKG');
-		</script>
-	{/if}
 </svelte:head>
 
 <svelte:window bind:innerWidth />

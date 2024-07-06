@@ -343,7 +343,7 @@
 		border-radius: var(--base-border-radius);
 		position: relative;
 		padding: 0.5rem;
-		height: 100%;
+		// height: 100%;
 		width: 100%;
 		gap: 1rem;
 		overflow: hidden;
