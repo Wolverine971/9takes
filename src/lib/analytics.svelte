@@ -1,24 +1,26 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
 	import { page } from '$app/stores';
-	import { env } from '$env/dynamic/public';
-	// import { PUBLIC_GOOGLE } from '$env/static/public';
+	import { onMount } from 'svelte';
 
 	let PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
-	$: {
-		if (typeof gtag !== 'undefined') {
-			gtag('config', 'MEASUREMENT_ID', {
-				page_title: document.title,
-				page_path: $page.url.pathname
-			});
-		}
-	}
-</script>
 
-<svelte:head>
-	<!-- Google tag (gtag.js) -->
-	{#if !dev}
-		<script type="text/javascript" defer>
+	function loadAnalytics() {
+		if (typeof window !== 'undefined' && !dev) {
+			// Load Google Analytics
+			const gaScript = document.createElement('script');
+			gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
+			gaScript.defer = true;
+			document.head.appendChild(gaScript);
+
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', PUBLIC_GOOGLE);
+
+			// Load Microsoft Clarity
 			if (document.URL.includes('9takes')) {
 				(function (c, l, a, r, i, t, y) {
 					c[a] =
@@ -33,68 +35,28 @@
 					y.parentNode.insertBefore(t, y);
 				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
 			}
-		</script>
-		<link
-			href="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"
-			rel="preload"
-			as="script"
-		/>
+		}
+	}
 
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BKNXQPYKG"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
+	onMount(() => {
+		// Lazy load analytics after main content has loaded
+		window.addEventListener('load', loadAnalytics);
+	});
 
-			gtag('config', 'G-1BKNXQPYKG');
-		</script>
-		<script>
-			!(function (t, e) {
-				var o, n, p, r;
-				e.__SV ||
-					((window.posthog = e),
-					(e._i = []),
-					(e.init = function (i, s, a) {
-						function g(t, e) {
-							var o = e.split('.');
-							2 == o.length && ((t = t[o[0]]), (e = o[1])),
-								(t[e] = function () {
-									t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-								});
-						}
-						((p = t.createElement('script')).type = 'text/javascript'),
-							(p.async = !0),
-							(p.src = s.api_host + '/static/array.js'),
-							(r = t.getElementsByTagName('script')[0]).parentNode.insertBefore(p, r);
-						var u = e;
-						for (
-							void 0 !== a ? (u = e[a] = []) : (a = 'posthog'),
-								u.people = u.people || [],
-								u.toString = function (t) {
-									var e = 'posthog';
-									return 'posthog' !== a && (e += '.' + a), t || (e += ' (stub)'), e;
-								},
-								u.people.toString = function () {
-									return u.toString(1) + '.people (stub)';
-								},
-								o =
-									'capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys'.split(
-										' '
-									),
-								n = 0;
-							n < o.length;
-							n++
-						)
-							g(u, o[n]);
-						e._i.push([i, s, a]);
-					}),
-					(e.__SV = 1));
-			})(document, window.posthog || []);
-			posthog.init('phc_osbO9KZwWV9XRGSD2pIzPF7yGbNO92SfjXkuGi6Vljf', {
-				api_host: 'https://app.posthog.com'
+	$: {
+		if (typeof gtag !== 'undefined') {
+			gtag('config', 'MEASUREMENT_ID', {
+				page_title: document.title,
+				page_path: $page.url.pathname
 			});
-		</script>
+		}
+	}
+</script>
+
+<svelte:head>
+	{#if !dev}
+		<link rel="preconnect" href="https://www.googletagmanager.com" />
+		<link rel="preconnect" href="https://www.clarity.ms" />
+		<link rel="preconnect" href="https://app.posthog.com" />
 	{/if}
 </svelte:head>
