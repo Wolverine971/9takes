@@ -91,11 +91,15 @@ Type 2s may sometimes find themselves entangled in situations where their genuin
 
 ### 2. The Burden of Expectations
 
-As a Type 2, Biden may experience the weight of expectations from both his supporters and critics. The Helper personality often grapples with a deep-rooted need for approval and validation, which can lead to feelings of pressure and the potential for emotional strain. Understanding this aspect of Biden's personality helps to paint a more nuanced picture of the man behind the political figure.
+As a Type 2, Biden may experience the weight of expectations from both his supporters and critics.
+
+The Helper personality often grapples with a deep-rooted need for approval and validation, which can lead to feelings of pressure and the potential for emotional strain. Understanding this aspect of Biden's personality helps to paint a more nuanced picture of the man behind the political figure.
 
 ## Conclusion
 
-Joe Biden's personality aligns with the Enneagram Type 2 - The Helper. His extensive career in public service, empathetic connections with others, and dedication to important causes exemplify his inclination to assist and uplift those in need. However, it is important to acknowledge the challenges that come with this personality type, such as setting boundaries and managing the burden of expectations. By understanding the Enneagram type of public figures like Joe Biden, we gain a deeper insight into their actions and decisions.
+Joe Biden's personality aligns with the Enneagram Type 2 - The Helper.
+
+His extensive career in public service, empathetic connections with others, and dedication to important causes exemplify his inclination to assist and uplift those in need. However, it is important to acknowledge the challenges that come with this personality type, such as setting boundaries and managing the burden of expectations. By understanding the Enneagram type of public figures like Joe Biden, we gain a deeper insight into their actions and decisions.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 

@@ -104,7 +104,9 @@ As a Type 4, Altman's reflective nature is evident in <a href="https://press.far
 
 ## Conclusion
 
-In summary, Sam Altman's life and career, viewed through the Enneagram Type 4 lens, provide a window into the mind of a leader who blends technological prowess with a deeply personal quest for identity and impact. His journey is a vivid illustration of how Type 4 navigates the complexities of innovation, ethics, and personal growth, offering insights into the inner workings of a visionary mind.
+Sam Altman is a leader who blends technological prowess with a deeply personal quest for identity and impact.
+
+His journey vividly illustrates how a Type 4 in tech can navigate the complexities of innovation, ethics, and personal growth. Also, note that the inner workings of a visionary's mind can look very different, but this one is a 4.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
