@@ -62,7 +62,9 @@ Elton John, the iconic Pinner, Middlesex musician, has enchanted audiences for d
 
 ### Enneagram Type 4: The Individualist
 
-The Enneagram Type 4, often recognized as The Individualist, is known for its intense emotional experience, a profound longing for uniqueness, and a continual search for meaning and authenticity. They thrive in their distinct individuality, often demonstrating an artistic and creative flair in their endeavors.
+Type 4s are often known for their intense emotional experience and a profound longing for uniqueness.
+
+They are on a continual search for meaning and authenticity. They thrive in their distinct individuality, often demonstrating an artistic and creative flair in their endeavors.
 
 Elton’s extensive and colorful musical career is a testament to these traits. The flamboyance he displays on and off stage is a loud proclamation of his unique identity in a world that often cherishes conformity. His lyrics, often steeped in personal and emotional narratives, allow others a peek into his inner world, making him an embodiment of Enneagram Type 4.
 

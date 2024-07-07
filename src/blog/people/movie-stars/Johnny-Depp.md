@@ -17,6 +17,7 @@ instagram: 'https://www.instagram.com/johnnydepp/'
 tiktok: 'https://www.tiktok.com/@johnnydepp'
 ---
 
+<!-- update redo -->
 <script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>

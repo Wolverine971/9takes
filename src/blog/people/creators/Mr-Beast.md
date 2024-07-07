@@ -65,7 +65,7 @@ A world of unexpected connections and intriguing parallels emerges when we look 
 
 One of the most striking aspects of Mr. Beast's persona is his ability to leverage his influence. His videos - bold, unpredictable, and brimming with philanthropy - have amassed billions of views and overwhelming followers. This isn't just luck; it's strategic, directly reflecting Type 8's assertive, confident, and robust nature.
 
-Let's take a look at his philanthropy. Beast's generosity ranges from providing free cars, houses, and cash to launching a campaign to plant 20 million trees worldwide. Why does he do it? He said, "I want to improve the world before I die." This passion for making a tangible impact aligns seamlessly with the Type 8's drive to influence their environment.
+Let's take a look at his philanthropy. Beast's generosity ranges from providing free cars, houses, and cash to launching a campaign to plant 20 million trees worldwide. Why does he do it? He said, "**I want to improve the world before I die**." This passion for making a tangible impact aligns seamlessly with the Type 8's drive to influence their environment.
 
 <!-- ## Mr Beast's Room
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/dSAJPNCZLp8?start=440" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->

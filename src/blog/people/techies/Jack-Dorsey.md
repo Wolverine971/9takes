@@ -56,29 +56,30 @@ But have you ever wondered about the driving force behind his persona? Let's del
 
 ## What is Jack Dorsey's personality type?
 
-You're not alone in this curiosity. The Enneagram system, a unique personality typing method, categorizes individuals into nine core types. Each type offers a lens into our deepest fears, desires, and motivations. For Dorsey, we hypothesize - he's a Type 5: The Investigator.
+### Enneagram Type 5 - The Investigator
 
-### Enneagram Type 5 - The Investigator, is characterized by
+Type 5s are characterized by a profound thirst for knowledge.
 
-A profound thirst for knowledge.
-A tendency to retreat into their inner world.
-An ability to concentrate and focus on developing complex ideas and skills.
-Being observant, innovative, and often visionary.
+They have a tendency to isolate themselves retreat into their inner world. They prefer to escape to the intellecutal realm often in solitude. And from an early age they develop an ability to concentrate and focus. They are commonly noted as being observant, innovative, and often visionary.
 Sounds familiar?
 
-## Why Jack Dorsey might be a Type 5
+## Here is why Jack Dorsey might be a Type 5
 
-1. Pioneering Innovations:
-   Remember when Twitter first came into our lives? It was unlike anything we'd seen. Its simplicity and focus were revolutionary. Jack didn't just follow trends; he set them. This innovative spirit aligns closely with the visionary trait of a Type 5.
+### Pioneering Innovations
 
-1. Depth of Knowledge:
-   Jack's ventures, especially Square, required deep understanding and expertise. It's not just about tech. It's about banking, economics, and user behavior. That profound thirst for knowledge? Classic Type 5.
+Remember when Twitter first came into our lives? It was unlike anything we'd seen. Its simplicity and focus were revolutionary. Jack didn't just follow trends; he set them. This innovative spirit aligns closely with the visionary trait of a Type 5.
 
-1. Introverted Leadership:
-   Unlike many other tech magnates who are always in the spotlight, Jack is known to be more reserved. This introspective nature is typical of Investigators who often retreat into their minds, seeking solace in their inner worlds.
+### Depth of Knowledge
 
-1. Handling Controversies:
-   With leadership comes controversy. Jack's approach? Thoughtful and measured, showing a balanced blend of emotion and logic. When Twitter faced backlash over its policies, Jack was steadfast yet open to feedback - demonstrating the calm, observant demeanor of a Type 5.
+Jack's ventures, especially Square, required deep understanding and expertise. It's not just about tech. It's about banking, economics, and user behavior. That profound thirst for knowledge? Classic Type 5.
+
+### Introverted Leadership
+
+Unlike many other tech magnates who are always in the spotlight, Jack is known to be more reserved. This introspective nature is typical of Investigators who often retreat into their minds, seeking solace in their inner worlds.
+
+### Handling Controversies:
+
+With leadership comes controversy. Jack's approach? Thoughtful and measured, showing a balanced blend of emotion and logic. When Twitter faced backlash over its policies, Jack was steadfast yet open to feedback - demonstrating the calm, observant demeanor of a Type 5.
 
 ## Addressing the Skeptics
 
@@ -88,14 +89,11 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 
 ## How Jack Dorsey's Personality Comes Out in his Work
 
-1. Pursuit of In-Depth Exploration:
-   One of the most evident parallels between Dorsey's professional life and Type 5 traits is his commitment to understanding topics deeply. Consider Square, for instance. Not only is it a mobile payment platform, but it delves deep into understanding commerce, entrepreneurship, and how small businesses operate. This commitment to comprehensive learning is quintessential Type 5.
+**Pursuit of In-Depth Exploration-** One of the most evident parallels between Dorsey's professional life and Type 5 traits is his commitment to understanding topics deeply. Consider Square, for instance. Not only is it a mobile payment platform, but it delves deep into understanding commerce, entrepreneurship, and how small businesses operate. This commitment to comprehensive learning is quintessential Type 5.
 
-2. Innovation Over Imitation:
-   Rather than following existing trends, Dorsey has a knack for breaking new ground. Twitter's 280-character limit was unheard of in a time when blogs and lengthy posts dominated. This propensity to challenge norms and seek novel solutions resonates with Type 5's innovative and visionary spirit.
+**Innovation Over Imitation-** Rather than following existing trends, Dorsey has a knack for breaking new ground. Twitter's 280-character limit was unheard of in a time when blogs and lengthy posts dominated. This propensity to challenge norms and seek novel solutions resonates with Type 5's innovative and visionary spirit.
 
-3. Values Rooted in Reflection and Observation:
-   Twitter's values emphasize empowering public conversation. Square values economic empowerment. These are not merely business objectives but deep reflections on societal dynamics. A Type 5, known for introspection and observation, would naturally gravitate towards such profound company values.
+**Values Rooted in Reflection and Observation-** Twitter's values emphasize empowering public conversation. Square values economic empowerment. These are not merely business objectives but deep reflections on societal dynamics. A Type 5, known for introspection and observation, would naturally gravitate towards such profound company values.
 
 ### Dorsey's Unique Approach – Through the Type 5 Lens
 

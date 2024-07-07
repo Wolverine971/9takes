@@ -17,7 +17,7 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- redo -->
+<!-- redo update-->
 <!-- // notes:  -->
 
 <script>

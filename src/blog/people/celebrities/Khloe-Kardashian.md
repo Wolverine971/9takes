@@ -23,8 +23,6 @@ tiktok: ''
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials. <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.</p>
-
 <div
 	style="display: flex;
     justify-content: center;
@@ -40,6 +38,10 @@ tiktok: ''
 </div>
 
 > **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
+
+<p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials.</p>
+
+<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.
 
 <details>
 <summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>
@@ -59,7 +61,9 @@ tiktok: ''
 
 ## Living in the Shadow of Uncertainty
 
-Type 6 individuals, or Loyalists, are characterized by their need for security, guidance, and support. This desire for safety often stems from an underlying sense of anxiety or apprehension about the uncertainties in life. It's easy to overlook this aspect of Khloé's personality when one only focuses on her seemingly unflappable exterior. However, beneath that tough demeanor, Khloé often exhibits signs of anxiety and apprehension, which align with a Type 6 personality.
+Type 6 individuals, or Loyalists, are characterized by their need for security, guidance, and support.
+
+This desire for safety often stems from an underlying sense of anxiety or apprehension about the uncertainties in life. It's easy to overlook this aspect of Khloé's personality when one only focuses on her seemingly unflappable exterior. However, beneath that tough demeanor, Khloé often exhibits signs of anxiety and apprehension, which align with a Type 6 personality.
 
 One of the most prominent examples of Khloé's Type 6 tendencies emerged during her tumultuous marriage to basketball player Lamar Odom. Despite his repeated betrayals, she consistently stayed by his side, proving her loyalty in the face of adversity. Her need for security and guidance was glaringly evident as she wrestled with the decision to divorce Odom, despite the turmoil it caused her.
 

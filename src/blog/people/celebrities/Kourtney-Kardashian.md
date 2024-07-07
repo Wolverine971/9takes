@@ -64,7 +64,9 @@ Kourtney's public life provides numerous examples of her embodying the defining 
 
 ## Her Quest for Perfection
 
-Firstly, Kourtney's pursuit of perfection is on display in her dedication to a healthy lifestyle. Her devotion to clean eating, natural products, and a rigid exercise regimen is well-documented. This commitment not only reflects her aspiration for physical perfection but also her belief in a 'right' way of living and the moral imperative to follow it.
+Kourtney's pursuit of perfection is on display when you look at her dedication to a healthy lifestyle.
+
+Her devotion to clean eating, natural products, and a rigid exercise regimen is well-documented. This commitment not only reflects her aspiration for physical perfection but also her belief in a 'right' way of living and the moral imperative to follow it.
 
 ## Assertive Moral Compass
 
@@ -76,7 +78,9 @@ Lastly, Kourtney's need for order and control, another typical Type 1 trait, is 
 
 ## How Kourtney Differs from Her Sisters
 
-The Type 1 personality traits further differentiate Kourtney from her sisters. While Kim, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
+The Type 1 personality traits further differentiate Kourtney from her sisters.
+
+While Kim, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
 
 ## The Downside: Dealing with Controversies and Criticism
 
@@ -84,7 +88,9 @@ Yet, Kourtney's Type 1 traits have also attracted criticism and controversy. Her
 
 ## A Type 1's Growth: Embracing Imperfection
 
-However, over the years, we've witnessed Kourtney's personal growth. A significant part of a Type 1's journey is learning to embrace imperfection, and Kourtney seems to be mastering it. Her acceptance of her body's changes post-pregnancy and her willingness to prioritize personal happiness over societal norms (as seen in her relationship with Travis Barker) indicate her strides towards finding balance.
+Over the years, Kourtney's has grown a lot.
+
+A significant part of a Type 1's journey is learning to embrace imperfection, and Kourtney seems to be mastering it. Her acceptance of her body's changes post-pregnancy and her willingness to prioritize personal happiness over societal norms (as seen in her relationship with Travis Barker) indicate her strides towards finding balance.
 
 ## How Each Enneagram Type Perceives Kourtney
 

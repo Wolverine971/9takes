@@ -87,7 +87,9 @@ Her constant engagement with her fans and unfiltered expression of her thoughts 
 
 ## The Shadow Side of Enthusiasm
 
-While Type 7 personalities are known for their buoyant outlook and boundless energy, they are susceptible to impulsiveness, bouts of boredom, and a tendency to evade unpleasant emotions. Grimes’ controversies have offered glimpses of this shadow side:
+While Type 7 personalities are known for their buoyant outlook and boundless energy, they are susceptible to impulsiveness, bouts of boredom, and a tendency to evade unpleasant emotions.
+
+Grimes’s controversies have offered glimpses of this shadow side:
 
 - Her past relationships with <a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a> have been characterized by public displays of affection and impulsiveness.
 - Some of her artistic expressions have been criticized for being provocative and lacking depth.

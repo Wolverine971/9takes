@@ -64,7 +64,9 @@ Margot Robbie, the versatile actress from Australia, is a force to be reckoned w
 
 ### Margot Robbie: A True Enneagram type 8
 
-In the realm of the Enneagram, Type 8 is known as The Challenger. This type is characterized by its inherent desire to protect themselves and those around them, assertive nature, and ability to make powerful impacts. They are natural leaders, bold, passionate, practical, and often have a formidable presence. They tend to exhibit an intense energy that commands attention and respect.
+Type 8 is known as The Challenger.
+
+This type is characterized by its inherent desire to protect themselves and those around them, assertive nature, and ability to make powerful impacts. They are natural leaders, bold, passionate, practical, and often have a formidable presence. They tend to exhibit an intense energy that commands attention and respect.
 
 #### Unraveling the Enneagram 8 in Margot Robbie
 
@@ -76,11 +78,15 @@ Type 8 personalities are not afraid to confront conflicts head-on, and neither i
 
 #### Commanding Presence and Intensity
 
-Robbie's commanding screen presence echoes the inherent intensity that Type 8s possess. Her performance in "Bombshell," where she played a journalist challenging a toxic workplace culture, underlines this aspect of her personality. Her fearless depiction of a woman standing up against systemic issues exuded an intense energy characteristic of Type 8.
+Robbie's commanding screen presence echoes the inherent intensity that Type 8s possess.
+
+Her performance in "Bombshell," where she played a journalist challenging a toxic workplace culture, underlines this aspect of her personality. Her fearless depiction of a woman standing up against systemic issues exuded an intense energy characteristic of Type 8.
 
 #### In Tune With Her Body
 
-Type 8s are known for having a solid connection with their body. Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her stunts.
+8s are known for having a solid connection with their body.
+
+Margot has shared in various interviews about her commitment to fitness, not just for roles but as part of her lifestyle. This understanding and ownership of her physicality mirror the Type 8's focus on self-reliance and personal strength. This can be seen further in how she gets excited to do her stunts.
 
 <div
  class="iframe-container"

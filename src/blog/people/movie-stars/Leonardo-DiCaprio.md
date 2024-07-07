@@ -17,7 +17,9 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  -->
+<!-- // notes:
+update redo
+-->
 
 <script>
   import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
@@ -59,7 +61,9 @@ tiktok: ''
 
 ## What is Leonardo DiCaprio's Personality Type?
 
-In short, we think Leo is an Enneagram type 7, also known as "The Enthusiast." Type 7s are characterized by their insatiable curiosity, zest for life, and fear of emotional pain. They are the adventurers, the seekers, and the eternal optimists. But it's not all sunshine; their avoidance of pain can lead them to escapism and superficiality.
+Leo is an Enneagram type 7, also known as "The Enthusiast."
+
+Type 7s are characterized by their insatiable curiosity, zest for life, and fear of emotional pain. They are the adventurers, the seekers, and the eternal optimists. But it's not all sunshine; their avoidance of pain can lead them to escapism and superficiality.
 
 ## Why Leonardo DiCaprio Could Be a Type 7
 
@@ -69,21 +73,31 @@ Let's explore some examples that suggest Leonardo DiCaprio could be a Type 7.
 
 #### A Creative and Challenging Environment
 
-Leonardo DiCaprio was born into a bohemian household in Los Angeles, where artistic pursuits were encouraged. This early exposure to creativity likely fueled his Type 7 traits of curiosity and a love for new experiences. However, the neighborhood he grew up in was far from idyllic, plagued by crime and violence. This challenging environment could have intensified his Type 7 fear of being trapped in painful situations, driving him to seek better opportunities.
+Leonardo DiCaprio was born into a bohemian household in Los Angeles, where artistic pursuits were encouraged.
+
+This early exposure to creativity likely fueled his Type 7 traits of curiosity and a love for new experiences. However, the neighborhood he grew up in was far from idyllic, plagued by crime and violence. This challenging environment could have intensified his Type 7 fear of being trapped in painful situations, driving him to seek better opportunities.
 
 #### Early Career and Family Support
 
-From a young age, DiCaprio intensely focused on his acting career, taking on various roles ranging from family dramas to romantic tragedies. This early versatility aligns with Type 7's need for variety and fear of confinement. His mother's constant support likely contributed to his optimistic outlook, another critical characteristic of Type 7s.
+From a young age, DiCaprio intensely focused on his acting career, taking on various roles ranging from family dramas to romantic tragedies.
+
+This early versatility aligns with Type 7's need for variety and fear of confinement. His mother's constant support likely contributed to his optimistic outlook, another critical characteristic of Type 7s.
 
 ### Versatility in Roles: A Type 7's Palette
 
 #### The Romantic to the Rebellious
 
-One of the most striking aspects of Leonardo DiCaprio's career is the sheer range of characters he has portrayed. Early in his career, he captured hearts as the romantic Jack Dawson in "Titanic," showcasing his ability to tap into emotional depths. Fast forward a few years, and we see him as the rebellious and complex Howard Hughes in "The Aviator," a character plagued by obsessive-compulsive disorder yet driven by a relentless ambition. This shift from a romantic lead to a complex, flawed individual exemplifies a Type 7's aversion to being pigeonholed.
+Leonardo DiCaprio's has amazing versatility, just look at the range of characters he has played.
+
+Early in his career, he captured hearts as the romantic Jack Dawson in "Titanic," showcasing his ability to tap into emotional depths. Fast forward a few years, and we see him as the rebellious and complex Howard Hughes in "The Aviator," a character plagued by obsessive-compulsive disorder yet driven by a relentless ambition.
+
+Leo likes mixing it up and jumping on new projects which is something 7s are know for.
 
 #### The Anti-Hero and the Dreamer
 
-DiCaprio's roles often explore the darker sides of human nature, as seen in his portrayal of Jordan Belfort in "The Wolf of Wall Street." Here, he delves into the psyche of a man addicted to success, power, and excess. Contrast this with his role in "Inception," where he plays Dom Cobb, a man navigating complex dreamscapes to reunite with his family. The ability to switch from playing an anti-hero to a dreamer who manipulates subconscious realms speaks volumes about his need for variety and complexity, traits commonly associated with Type 7s.
+DiCaprio's roles sometimes explore the darker sides of human nature which is not something you always see with 7s.
+
+In his portrayal of Jordan Belfort in "The Wolf of Wall Street," Leo dives into the psyche of a man addicted to success, power, and excess. Contrast this with his role in "Inception," where he plays Dom Cobb, a man navigating complex dreamscapes to reunite with his family. The ability to switch from playing an anti-hero to a dreamer who manipulates subconscious realms speaks volumes about his need for variety and complexity, traits commonly associated with Type 7s.
 
 #### The Social Crusader to the Frontiersman
 
@@ -91,7 +105,9 @@ In "Blood Diamond," DiCaprio takes on the role of a mercenary smuggler who under
 
 #### The Comedic Timing
 
-While not primarily known for comedy, DiCaprio has shown he can also hold his own in lighter roles. His performance in "Once Upon a Time in Hollywood" had comedic brilliance, proving that his acting range includes a good sense of timing and humor. This versatility further aligns with a Type 7's desire for a broad palette of experiences and emotional tones.
+While not primarily known for comedy, DiCaprio has shown he can also hold his own in lighter roles.
+
+His performance in "Once Upon a Time in Hollywood" had comedic brilliance, proving that his acting range includes a good sense of timing and humor. This versatility further aligns with a Type 7's desire for a broad palette of experiences and emotional tones.
 
 By diving into the diverse roles Leonardo DiCaprio has taken on, we see a clear pattern that aligns with the characteristics of an Enneagram Type 7. His choice of parts is far from monotonous; it's a kaleidoscope of human emotions, moral complexities, and intellectual challenges. This need for variety and depth in his professional choices suggests that DiCaprio could be a Type 7, always seeking the next intriguing experience.
 

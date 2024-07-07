@@ -66,11 +66,15 @@ They desire inner and outer peace and it drives them to avoid conflicts and embr
 
 ### Barack Obama: A Type 9 in the Spotlight
 
-Obama's presidential campaigns and his time in office were characterized by an overarching theme - "progress." He wanted to bring people together and push towards a better future while being unified. He made it his mission to champion inclusivity, emphasized the need for consensus-building rather than divisiveness. This bears a striking resemblance to the classic Type 9's aspiration for peace and understanding.
+Obama's presidential campaigns and his time in office were characterized by an overarching theme - "progress."
+
+He wanted to bring people together and push towards a better future while being unified. He made it his mission to champion inclusivity, emphasized the need for consensus-building rather than divisiveness. This bears a striking resemblance to the classic Type 9's aspiration for peace and understanding.
 
 <!-- todo: talk about him being passive agressive However his goal of progress and unity was going to be persued with or without his critics. -->
 
-Even under the most intense scrutiny and criticism, Obama's calm and controlled demeanor further suggests a Type 9 personality. He consistently portrayed a sense of composure and balance, often treating others with consideration and respect. His ability to remain unfazed in the face of chaos, an attribute often admired in Type 9 individuals, was a hallmark of his presidency.
+Even under the most intense scrutiny and criticism, Obama's calm and controlled demeanor further suggests a Type 9 personality.
+
+He consistently portrayed a sense of composure and balance, often treating others with consideration and respect. His ability to remain unfazed in the face of chaos, an attribute often admired in Type 9 individuals, was a hallmark of his presidency.
 
 ### Controversies and the Type 9 Perspective
 
