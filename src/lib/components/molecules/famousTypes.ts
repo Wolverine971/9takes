@@ -50,7 +50,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Demi-Lovato', link: true },
 		{ name: 'Johnny-Depp', link: true },
 		{ name: 'Charlie-Puth', link: true },
-		{ name: 'Bob-Dylan', link: false },
+		{ name: 'Bob-Dylan', link: true },
 		{ name: 'Frida-Kahlo', link: true },
 		{ name: 'Lady-Gaga', link: true },
 		{ name: 'Jackie-Kennedy', link: true },
@@ -89,7 +89,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Peter-Thiel', link: false },
 		{ name: 'Malcom-X', link: false },
 		{ name: 'Khloe-Kardashian', link: true },
-		{ name: 'Timothee-Chalamet', link: false },
+		{ name: 'Timothee-Chalamet', link: true },
 	],
 	7: [
 		{ name: 'Logan-Paul', link: true },
