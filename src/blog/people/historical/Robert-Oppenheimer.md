@@ -100,7 +100,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Likely admires Oppenheimer's drive and courage to lead a project of such magnitude, yet might be critical of handling the later controversies.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Could feel uneasy about the destructive outcome of Oppenheimer's work and empathize with his internal conflicts, wishing he had found a more harmonious path.
 
-## The Enigmatic Outsider
+## The Mysterious Outsider
 
 A sense of being an outsider marked Oppenheimer's life. Despite his crucial role in a project that ended World War II, he was treated with suspicion and endured a public trial during the height of the Red Scare. This sense of alienation resonates with the Type 4's feeling of being different from the world around them.
 

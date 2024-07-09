@@ -63,7 +63,7 @@ Pete Davidson jokes
 
 <p class="firstLetter">You know him, you've watched him, and there's a good chance he's made you laugh out loud.</p>
 
-Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in pop culture since his debut on the iconic sketch comedy show. Let's dive into the whirlwind life of Davidson and delve into the intriguing possibility of him being an exemplar of an Enneagram Type 9 personality - The Peacemaker.
+Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in pop culture since his debut on the iconic sketch comedy show. Let's dive into the whirlwind that is Pete Davidson's life and explore the possibility of him being an Enneagram Type 9 personality - The Peacemaker.
 
 <details>
 <summary class="accordion">TL;DR: Why Pete is an Enneagram 9</summary>

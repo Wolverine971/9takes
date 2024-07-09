@@ -79,7 +79,7 @@ Her inimitable voice and indomitable spirit are undeniable. However, let's delve
   </div>
 </details>
 
-## Dua Lipa: An Enigmatic Enneagram Type 3
+## Dua Lipa: An Enneagram Type 3
 
 Enneagram enthusiasts are likely familiar with Type 3, The Achiever, characterized by a potent mix of ambition, an insatiable quest for success, and the unique ability to adapt. When observing Dua Lipa's astounding ascent in the music realm, one can't help but notice a striking resonance with these Type 3 traits.
 

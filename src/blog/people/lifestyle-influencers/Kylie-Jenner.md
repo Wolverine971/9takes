@@ -54,7 +54,7 @@ Kylie Jenner is the youngest member of the Kardashian-Jenner clan and has establ
 </li>
 <li><b>The Self-Made Billionaire Controversy:</b> Kylie's "self-made billionaire" scandal highlights her struggle with her public image and her true self - a struggle common among Type 9s. Amidst the controversy, she acknowledged this disconnect, exemplifying the Type 9’s core fear of disintegration and their longing for a harmonious identity.
 </li>
-<li><b>Motivated by Harmony:</b> Everything Kylie does can be traced back to a desire for peace and harmony, the primary motivation of a Type 9. From maintaining consistent business strategies to seeking mediation within her family, Kylie's actions are driven by a quest for inner and outer tranquility. Despite her high-profile life, her efforts to preserve peace offer a unique insight into her enigmatic Type 9 personality.
+<li><b>Motivated by Harmony:</b> Everything Kylie does can be traced back to a desire for peace and harmony, the primary motivation of a Type 9. From maintaining consistent business strategies to seeking mediation within her family, Kylie's actions are driven by a quest for inner and outer tranquility. Despite her high-profile life, her efforts to preserve peace offer a unique insight into her mystifying Type 9 personality.
 </li>
 </ul>
   </div>

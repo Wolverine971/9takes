@@ -1,5 +1,5 @@
 ---
-title: 'Rooney Mara: Unraveling the Enigmatic Enneagram Type 5 Actress'
+title: 'Rooney Mara: Unravel the Mind of the Enneagram Type 5 Actress'
 description: 'Rooney Mara, the Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her persona.'
 author: 'DJ Wayne'
 date: '2024-05-06'
@@ -52,7 +52,7 @@ tiktok: ''
 
 <p class="firstLetter">You know her face, her captivating performances, and perhaps even her famous family.</p>
 
-But do you truly understand the enigmatic Rooney Mara? Today, we delve into the depths of Mara's personality, uncovering the intricacies of her Enneagram Type 5 - The Investigator.
+But do you understand the person behind the name? Today, we dive into the depths of Rooney Mara's personality, uncovering the intricacies of her Enneagram Type 5 - The Investigator.
 
 ## What is Rooney Mara's Personality Type?
 
@@ -140,8 +140,8 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "@type": "WebPage",
         "@id": "https://9takes.com/blog/famous-enneagram-types/Rooney-Mara"
       },
-      "headline": "Rooney Mara: Unraveling the Enigmatic Enneagram Type 5 Actress",
-      "description": "Dive into the world of Rooney Mara, the captivating Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her enigmatic persona.",
+      "headline": "Rooney Mara: Unraveling the Enneagram Type 5 Actress",
+      "description": "Dive into the world of Rooney Mara, the captivating Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her persona.",
       "image": [
         "https://9takes.com/types/5s/Rooney-Mara.webp"
       ],
@@ -168,7 +168,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "datePublished": "2024-05-06",
       "dateModified": "2024-05-06",
-      "articleBody": "Rooney Mara, known for her captivating performances and enigmatic persona, embodies the characteristics of an Enneagram Type 5. From her introspective childhood to her rise to fame through roles in films like 'The Girl with the Dragon Tattoo' and 'Carol,' Mara's journey reflects the depth and complexity of the Type 5 personality. This article goes into her upbringing, major accomplishments, and the way she navigates the challenges of fame, offering insights into the mind of this intriguing actress."
+      "articleBody": "Rooney Mara, known for her captivating performances and  persona, embodies the characteristics of an Enneagram Type 5. From her introspective childhood to her rise to fame through roles in films like 'The Girl with the Dragon Tattoo' and 'Carol,' Mara's journey reflects the depth and complexity of the Type 5 personality. This article goes into her upbringing, major accomplishments, and the way she navigates the challenges of fame, offering insights into the mind of this intriguing actress."
     },
     {
       "@type": "FAQPage",

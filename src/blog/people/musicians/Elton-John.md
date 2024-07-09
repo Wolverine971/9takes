@@ -169,7 +169,7 @@ Suppose this exploration piqued your curiosity, and you yearn for more insightfu
         "@value": "2023-03-09"
       },
       "http://schema.org/description": "This blog post examines the life and persona of Elton John from the perspective of Enneagram Type 4, discussing his quest for authenticity, the emotional narrative of his music, his confrontations with societal norms, and how all these elements are rooted in the core motivations of a Type 4 personality.",
-      "http://schema.org/headline": "Elton John’s Enigmatic Persona: A Journey Through Enneagram Type 4",
+      "http://schema.org/headline": "Elton John’s Persona: A Journey Through Enneagram Type 4",
       "http://schema.org/image": {
         "@type": "http://schema.org/ImageObject",
         "http://schema.org/height": 900,

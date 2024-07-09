@@ -183,7 +183,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 </article>
 <article>
   <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>"Elon is fascinating but also a bit enigmatic. He's not like any other CEO; he's got this unique blend of engineer and artist. I appreciate his originality but sometimes wonder if he feels authentic to himself amidst all his personas."</p>
+  <p>"Elon is fascinating but also a bit puzzling. He's not like any other CEO; he's got this unique blend of engineer and artist. I appreciate his originality but sometimes wonder if he feels authentic to himself amidst all his personas."</p>
 </article>
 <article>
   <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>

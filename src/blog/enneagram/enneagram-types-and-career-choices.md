@@ -143,7 +143,7 @@ Type 4s, with their appreciation for uniqueness and self-expression, find satisf
   <section class="section-content">
    <h3 id="type5" style="padding: 0; margin: 0">Type 5 - The Investigator: Analyzing Complex Problems in Specialized Fields</h3>
 
-Intrigued by knowledge and expertise, Type 5s are well-suited for careers that involve research, analysis, and innovation. They excel in fields like science, technology, engineering, or academia, where they can delve into complex problems and develop expertise. Their analytical nature also makes them great in data analysis or IT roles.
+Intrigued by knowledge and expertise, Type 5s are well-suited for careers that involve research, analysis, and innovation. They excel in fields like science, technology, engineering, or academia, where they can explore complex problems and develop expertise. Their analytical nature also makes them great in data analysis or IT roles.
 
 <h4>Potential Careers for the Enneagram type 5</h4>
 

@@ -50,7 +50,7 @@ tiktok:
 
 <p class="firstLetter">Youtuber, filmmaker, and entrepreneur, Casey Neistat is an enigma wrapped in a pair of Ray-Ban sunglasses (Rayban Folding Wayfarers RB4105 in Matte Black and Violet Mirror lenses to be precise).</p>
 
-A man of details intricacies and a storyteller of the every day, he is as iconic as he is idiosyncratic. He welcomes both the chaos and quiet of everyday life, embodying the raw complexity of an Enneagram 4. This post delves into the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.
+A man of details intricacies and a storyteller of the every day, he is as iconic as he is idiosyncratic. He welcomes both the chaos and quiet of everyday life, embodying the raw complexity of an Enneagram 4. This post explores the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.
 
 <details>
 <summary class="accordion">TL;DR: Why Casey Neistat is an Enneagram 4</summary>

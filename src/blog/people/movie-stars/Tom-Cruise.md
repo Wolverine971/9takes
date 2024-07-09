@@ -41,7 +41,7 @@ tiktok: ''
 
 <p class="firstLetter">Tom Cruise: Hollywood icon, action hero, and relentless achiever.</p>
 
-But what drives the man behind the million-dollar smile? Dive with us into the psyche of one of cinema's most enigmatic stars as we explore the personality type that fuels his unstoppable ambition. Buckle up because this journey into Tom's mind is as thrilling as any Mission: Impossible stunt.
+But what drives the man behind the million-dollar smile? Dive with us into the psyche of one of cinema's most beloved stars as we explore the personality type that fuels his unstoppable ambition. Buckle up because this journey into Tom's mind is as thrilling as any Mission: Impossible stunt.
 
 ## What is Tom Cruise's Personality Type?
 

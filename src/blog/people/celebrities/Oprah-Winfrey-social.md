@@ -19,7 +19,7 @@ In summary, Oprah Winfrey's Enneagram typing as a 2, the Helper, is illustrated 
 # twitter
 
 Tweet 1:
-"🧵 Ready to delve into the world of Enneagrams? We're taking a look at Oprah Winfrey and how she embodies characteristics of the Enneagram Type 2, The Helper. Stay tuned! #Enneagram #OprahWinfrey"
+"🧵 Ready to dive into the world of Enneagrams? We're taking a look at Oprah Winfrey and how she embodies characteristics of the Enneagram Type 2, The Helper. Stay tuned! #Enneagram #OprahWinfrey"
 
 Tweet 2:
 "The first thing that strikes us about Oprah? Her innate desire to help and connect with people. This generosity and ability to empathize is a strong trait of a Type 2 personality. #Enneagram2 #Connection"

@@ -38,7 +38,7 @@ tiktok: ''
 >
 	<!-- <PopCard
 		image={`/types/8s/${'Amy-Poehler'}.webp`}
-		enneagram{8}
+		enneagramType={8}
 		showIcon={false}
 		displayText="Amy Poehler"
 		subtext=""

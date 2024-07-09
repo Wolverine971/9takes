@@ -43,7 +43,7 @@ GLEE
 >
 	<!-- <PopCard
 		image={`/types/1s/${'Lea-Michele'}.webp`}
-		enneagram{1}
+		enneagramType={1}
 		showIcon={false}
 		displayText="Lea Michele"
 		subtext=""

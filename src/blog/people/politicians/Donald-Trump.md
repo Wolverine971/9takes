@@ -53,7 +53,7 @@ He has authored several books, including "The Art of the Deal" (1987), which was
 >
 	<!-- <PopCard
 		image={`/types/tiptypes/${'Donald-Trump'}.webp`}
-		enneagram{tiptype}
+		enneagramType={tiptype}
 		showIcon={false}
 		displayText="Donald Trump"
 		subtext=""

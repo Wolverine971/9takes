@@ -38,7 +38,7 @@ tiktok: ''
 >
 	<!-- <PopCard
 		image={`/types/9s/${'Abraham-Lincoln'}.webp`}
-		enneagram{9}
+		enneagramType={9}
 		showIcon={false}
 		displayText="Abraham Lincoln"
 		subtext=""

@@ -55,7 +55,7 @@ She is the youngest woman ever to serve in the United States Congress, taking of
 >
 	<!-- <PopCard
 		image={`/types/1s/${'boo-boo'}.webp`}
-		enneagram{1}
+		enneagramType={1}
 		showIcon={false}
 		displayText="Alexandria Ocasio Cortez"
 		subtext=""

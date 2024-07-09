@@ -38,7 +38,7 @@ tiktok: ''
 >
 	<!-- <PopCard
 		image={`/types/tiptypes/${'boo-boo'}.webp`}
-		enneagram{tiptype}
+		enneagramType={tiptype}
 		showIcon={false}
 		displayText="booboo"
 		subtext=""

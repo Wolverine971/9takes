@@ -1,5 +1,5 @@
 ---
-title: 'Bob Dylan: The Enigmatic Type 4 Who Shaped a Generation'
+title: 'Bob Dylan: The Enneagram Type 4 Who Shaped a Generation'
 description: "Explore Bob Dylan's complex psyche as an Enneagram Type 4. Uncover how his unique personality fueled his artistry and revolutionized music."
 author: 'DJ Wayne'
 date: '2024-07-09'

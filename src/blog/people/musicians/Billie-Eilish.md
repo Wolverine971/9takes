@@ -68,7 +68,7 @@ At the heart of Billie’s actions lies a core motivation to express her unique 
 
 Enneagram Type 4, known as The Individualist, is characterized by a deep desire to be unique and special.
 
-They are known for their emotional depth and expression. This enigmatic quality resonates through Billie's music and public persona.
+They are known for their emotional depth and expression. This quality resonates through Billie's music and public persona.
 
 Billie's music often explores heartbreak, mental health, and the human experience, reflecting the emotional depth and introspection typical of Type 4s. Her ability to express these emotions through music provides a window into her complex inner world.
 

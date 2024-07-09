@@ -38,7 +38,7 @@ tiktok: ''
 >
 	<!-- <PopCard
 		image={`/types/6s/${'Mark-Twain'}.webp`}
-		enneagram{6}
+		enneagramType={6}
 		showIcon={false}
 		displayText="Mark Twain"
 		subtext=""

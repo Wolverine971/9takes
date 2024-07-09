@@ -38,7 +38,7 @@ tiktok: ''
 >
 	<PopCard
 		image={`/types/2s/${'Meryl-Streep'}.webp`}
-		enneagram{2}
+		enneagramType={2}
 		showIcon={false}
 		displayText="Meryl Streep"
 		subtext=""
