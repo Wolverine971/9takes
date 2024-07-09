@@ -4,7 +4,7 @@ description: "The Enneagram's nine personalities, instincts, wings, and connecti
 author: 'DJ Wayne'
 date: '2023-02-27'
 loc: 'https://9takes.com/blog/enneagram/enneagram-concepts'
-lastmod: '2023-04-15'
+lastmod: '2024-07-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -34,6 +34,10 @@ The Enneagram identifies nine distinct personality types, each represented by a 
 9. <a href="/blog/enneagram/enneagram-type-9" >The Peacemaker</a>
 
 Each of these types has a distinct worldview and set of behaviors, which are shaped by their core fears, desires, and motivations. By understanding these core motivations, individuals can gain a deeper understanding of their own behavior and how it impacts others.
+
+<div class="iframe-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L_wKhSdhO78?si=u5Eo_00OWWfVASci&amp;start=191" title="Enneagram types explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## The Centers of Intelligence
 
@@ -116,7 +120,7 @@ Time for the obligatory reminder that the Enneagram should be used as a tool. He
       "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
       ]
     },
-  "dateModified": "2023-02-28",
+  "dateModified": "2024-07-08",
   "datePublished": "2023-02-28",
   "description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
   "headline": "Enneagram Concepts",

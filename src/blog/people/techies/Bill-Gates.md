@@ -29,7 +29,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 	<PopCard
 		image={`/types/5s/${'Bill-Gates'}.webp`}
 		showIcon={false}
-		enneagramType=""
+		enneagramType="5"
 		displayText="Bill Gates"
 		subtext=""
 	/>

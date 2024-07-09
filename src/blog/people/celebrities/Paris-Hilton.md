@@ -4,7 +4,7 @@ description: 'Understand the unexpected allure of Paris Hilton and her inner wor
 author: 'DJ Wayne'
 date: '2024-07-04'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Paris-Hilton'
-lastmod: '2024-07-04'
+lastmod: '2024-07-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -114,12 +114,11 @@ As you delve deeper into the world of the Enneagram, Paris Hilton's story serves
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-        },
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-04"
+        "@value": "2024-07-08"
       },
       "datePublished": {
         "@type": "Date",
@@ -130,11 +129,11 @@ As you delve deeper into the world of the Enneagram, Paris Hilton's story serves
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://example.com/paris-hilton.jpg",
+        "url": "https://9takes.com/types/3s/Paris-Hilton.webp",
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://example.com/blog/paris-hilton-enneagram-type-3",
+        "@id": "https://9takes.com/blog/famous-enneagram-types/Paris-Hilton",
         "@type": "WebPage"
       },
       "mentions": {
@@ -148,11 +147,12 @@ As you delve deeper into the world of the Enneagram, Paris Hilton's story serves
       },
       "publisher": {
         "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://example.com/logo.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
-        "name": "Example Blog"
+        "name": "9takes"
       }
     },
     {
