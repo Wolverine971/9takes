@@ -96,6 +96,7 @@
 		// 	0 3px 3px 1px var(--color-theme-purple-v), 0 1px 5px 0 var(--color-theme-purple-v);
 		border-bottom: 1px solid var(--color-theme-purple-v);
 		border-top: 1px solid var(--color-theme-purple-v);
+		// border-left: 1px solid var(--color-theme-purple-v);
 		text-decoration: none;
 		// box-shadow: inset 0.2em 0.2em 0.2em var(--color-theme-purple-v);
 	}

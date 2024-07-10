@@ -63,14 +63,12 @@
 </svelte:head>
 
 <div class="background-area-box-tint">
-	<h1 style="display: flex; justify-content: space-between; align-content: center">
-		<span>{data?.session?.user?.id ? 'Search or ask a question' : 'Search Questions'} </span>
-	</h1>
+	<h1 style="margin: 0 0 .5rem 0;">Questions</h1>
 
 	<SearchQuestion {data} />
 
 	<div class="question-category-div">
-		<h2 style="margin-top: 0;">Question categories</h2>
+		<h2 style="margin-top: 0;">Categories</h2>
 		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
 				{#if category}

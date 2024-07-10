@@ -3,7 +3,6 @@
 	import { goto } from '$app/navigation';
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
-	import { notifications } from '$lib/components/molecules/notifications';
 
 	export let data: any;
 
@@ -81,7 +80,7 @@
 			<ComboBox
 				label=""
 				name="question"
-				placeholder="Ask a question..."
+				placeholder={data?.session?.user?.id ? 'Search or ask a question' : 'Search questions...'}
 				on:inputChange={({ detail: { text } }) => debounce(text)}
 				on:selectQuestion={({ detail: { text } }) => goToCreateQuestionPage()}
 				{options}

@@ -4,7 +4,7 @@ description: 'Explore the world of Casey Neistat as a Type 4. Dive into his mind
 author: 'DJ Wayne'
 date: '2023-03-16'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Casey-Neistat'
-lastmod: '2024-07-03'
+lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -88,8 +88,6 @@ He excels in capturing small, often overlooked details, transforming them into k
 These details show that Casey has a deep awareness of his environment, a trait common in Enneagram Type 4s, emphasizing their desire for understanding and connection.
 
 More on the sunglasses 👇.
-
-## Why Casey Wears the Sunglasses
 
 <div class="iframe-container">
 <!-- https://youtu.be/xFbJoXJBIIA?t=409 -->
@@ -194,6 +192,20 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 - **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers would respect Casey's defiance of conventional norms, trailblazing filmmaking approach, and tenacity. However, they might not grasp his tendency to express vulnerabilities publicly.
 - **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers could appreciate Casey's storytelling, finding his narratives engaging and relatable. They might find his chaotic lifestyle draining, preferring more peace and tranquility.
 
+<div
+  style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  "
+>
+  <PopCard
+    image={`/blogs/s-caseys-things.webp`}
+    showIcon={false}
+    displayText="Casey things"
+    subtext=""
+  />
+</div>
+
 ## Closing thoughts
 
 So is Casey just a creative artist or is he a person in search of feeling something? Does viewing him through the Enneagram 4 lens provide a any insight into his motivations and actions?
@@ -223,7 +235,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-03"
+        "@value": "2024-07-10"
       },
       "datePublished": {
         "@type": "Date",
