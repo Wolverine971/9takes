@@ -15,7 +15,7 @@ pic: 'greek-statues-two-females-on-phones'
 ---
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- Take a free, ~5 min test here
@@ -63,7 +63,9 @@ The Enneagram is a personality system. A personality is a grouping of characteri
 
 ### How your Enneagram Type is Formed
 
-It is said that your type/ personality is formed in childhood as a response to some unmet need (e.g., a childhood wound). Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
+It is said that your type/ personality is formed in childhood as a response to some unmet need (e.g., a **childhood wound**).
+
+Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
 
 For example:
 
@@ -81,7 +83,9 @@ Now, let's dive deeper into how you can determine your type.
 
 The first step in identifying your Enneagram type is understanding the three core emotions that form your "type."
 
-Ask yourself, "Which of these emotions comes up for you the most in daily life?" You either:
+Ask yourself, "Which of these emotions comes up for you the most in daily life?"
+
+You either:
 
 - feel that emotion and use it to motivate you
 - feel that emotion and push it away
@@ -95,9 +99,9 @@ In the Enneagram, these core emotions relate to centers of intelligence.
 
 The negative emotion you feel forces you to develop coping mechanisms that help you survive. You develop a special "intelligence" to cope with that negative emotion.
 
-- Fear relates to intellectual intelligence
-- Shame relates to emotional intelligence
-- Anger relates to instinctual intelligence.
+- **Fear** relates to intellectual intelligence
+- **Shame** relates to emotional intelligence
+- **Anger** relates to instinctual intelligence.
 
 If you can consistently sense what other people are feeling, you may have high emotional intelligence, and your core emotion may be shame. If you are always in your head or have been told that you "overthink" things, you might have intellectual intelligence that you developed in response to fear. If you go with your guy a lot to make decisions, you might have instinctual intelligence and wrestle with anger.
 

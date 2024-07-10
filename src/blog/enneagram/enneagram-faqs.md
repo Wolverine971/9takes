@@ -70,7 +70,7 @@ previewHtml: ''
 <details>
 <summary class="accordion">How do I identify my Enneagram type?</summary>
   <p class="panel">There are various online tests and assessments that can help individuals identify their Enneagram type, but these
-    should be used as a starting point for self-reflection and exploration, rather than as a definitive answer. The
+    should be used as a starting point for self-reflection and exploration, rather than as a definitive answer. <br> <br>The
     Enneagram system is complex and nuanced, and it can take time and self-awareness to accurately identify one's type.
     Some individuals may find it helpful to read about each type and reflect on which one resonates most with their
     personality traits, tendencies, and motivations.</p>
@@ -80,7 +80,7 @@ previewHtml: ''
 <details>
 <summary class="accordion">Can your Enneagram type change over time?</summary>
   <p class="panel">While individuals may exhibit traits or tendencies from other Enneagram types throughout their lives, the core
-    motivations, fears, and desires that define each type typically remain relatively stable over time. However, the
+    motivations, fears, and desires that define each type typically remain relatively stable over time. <br> <br>However, the
     Enneagram system emphasizes personal growth and self-awareness, and individuals can work to become more balanced and
     integrated within their type, as well as to develop traits and qualities associated with other types.
  </p>
@@ -90,7 +90,7 @@ previewHtml: ''
 <summary class="accordion">How does Enneagram differ from other personality tests like Myers-Briggs or the Big
   Five?</summary>
   <p class="panel">The Enneagram differs from other personality tests in its focus on core motivations and fears, as well as its
-    emphasis on personal growth and self-awareness. While other tests may categorize individuals based on traits or
+    emphasis on personal growth and self-awareness. <br> <br> While other tests may categorize individuals based on traits or
     tendencies, the Enneagram seeks to uncover the underlying motivations and desires that drive behavior. Additionally,
     the Enneagram can be used as a tool for personal growth and self-awareness, while other tests may primarily be used
     for career or job placement.</p>
@@ -100,7 +100,7 @@ previewHtml: ''
 <details>
 <summary class="accordion">Is Enneagram scientific?</summary>
  <p class="panel">The Enneagram system is not based on scientific research or empirical data, but rather on anecdotal evidence
-  and personal observation. The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
+  and personal observation.<br> <br> The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
   Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the Enneagram are
   eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche
   goes even further back and parallels Plato's description of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram" >see here</a>).

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import ShareIcon from '$lib/components/icons/shareIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
@@ -124,19 +123,6 @@
 		}
 	};
 
-	const share = () => {
-		if (navigator?.share) {
-			const shareData = {
-				url: `https:9takes.com/questions/${data.question.url}`,
-				text: '9takes Question',
-				title: data.question.question
-			};
-			navigator.share(shareData);
-		} else {
-			alert('Copy the URL, it is shareable');
-		}
-	};
-
 	let innerWidth: number = 0;
 
 	let width = innerWidth > 768 ? 125 : 40;
@@ -190,9 +176,6 @@
 					'#5407d9') ||
 					'#b3a6c9'}
 			/>
-		</button>
-		<button title="Share" class="corner-btn secondary-btn" on:click={() => share()}>
-			<ShareIcon iconStyle={'padding: 0.25rem;'} height={'1.5rem'} fill={'#5407d9'} />
 		</button>
 	{/if}
 </div>

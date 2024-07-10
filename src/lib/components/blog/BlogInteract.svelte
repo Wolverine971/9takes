@@ -86,19 +86,6 @@
 		}
 	};
 
-	const share = () => {
-		if (navigator?.share) {
-			const shareData = {
-				url: data.metadata.loc,
-				text: data.metadata.description,
-				title: data.metadata.title
-			};
-			navigator.share(shareData);
-		} else {
-			alert('Copy the URL, it is shareable');
-		}
-	};
-
 	let innerWidth: number = 0;
 </script>
 
@@ -133,8 +120,4 @@
 </div>
 
 <style lang="scss">
-	.share-btn:hover {
-		color: #5407d9;
-		border: 1px solid #5407d9;
-	}
 </style>

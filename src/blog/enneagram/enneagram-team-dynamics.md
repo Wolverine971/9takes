@@ -13,6 +13,8 @@ blog: true
 previewHtml: ''
 ---
 
+<!-- redo -->
+
 <p class="firstLetter">Have you considered that the Enneagram could be the key to unlocking your team's full potential?</p>
 
 At first glance, the Enneagram is a simple tool for understanding personality types. Digging deeper, it offers unparalleled insights into the <a href="enneagram-strengths-and-weaknesses" >strengths and weaknesses</a> inherent within your team. For instance, Type 2s shine in supportive roles and encouraging, while Type 5s offer a critical, analytical edge. Recognizing and strategically deploying these diverse abilities can improve team efficiency and cohesion.
