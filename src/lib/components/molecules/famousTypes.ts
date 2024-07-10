@@ -41,8 +41,9 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Addison-Rae', link: false },
 		{ name: 'Kamala-Harris', link: true },
 		{ name: 'Paris-Hilton', link: true },
+		{ name: 'Amber-Heard', link: true },
 
-		// { name: 'Jordan-Belfort', link: false },
+		// { name: 'Jordan-Belfort ', link: false },
 		// { name: 'Matthew-Cox', link: false },
 	],
 	4: [
@@ -94,6 +95,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Malcom-X', link: false },
 		{ name: 'Khloe-Kardashian', link: true },
 		{ name: 'Timothee-Chalamet', link: true },
+		{ name: 'Alexandria-Ocasio-Cortez', link: true },
 	],
 	7: [
 		{ name: 'Logan-Paul', link: true },
