@@ -13,6 +13,7 @@
 		// cannot create question if you are not logged in
 		if (!data?.session?.user?.id) {
 			goto(`/register`, { invalidateAll: true });
+			return;
 		}
 		const val = question;
 		let url: string;
@@ -69,7 +70,7 @@
 				return 'Only 10 questions per day';
 			}
 		} else {
-			return 'Register to ask a question';
+			return 'Sign up to ask a question';
 		}
 	};
 </script>

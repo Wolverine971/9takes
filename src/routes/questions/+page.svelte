@@ -132,6 +132,7 @@
 		max-height: 150px;
 		overflow-y: auto;
 		overscroll-behavior-y: contain;
+		padding: 0.5rem 0;
 	}
 
 	.tag {

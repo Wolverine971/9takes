@@ -47,7 +47,7 @@ i want it i got it
 	/>
 </div>
 
-> **Disclaimer** This analysis of Ariana Grande's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ariana Grande.
+> **Disclaimer** This analysis of Ariana Grande's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ariana.
 
 <p class="firstLetter">You know her, you've listened to her, and there's no doubt you've formed an opinion about her.</p>
 

@@ -48,9 +48,9 @@ tiktok:
 
 > **Disclaimer** This analysis of Casey Neistat's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Casey Neistat.
 
-<p class="firstLetter">Youtuber, filmmaker, and entrepreneur, Casey Neistat is an enigma wrapped in a pair of Ray-Ban sunglasses (Rayban Folding Wayfarers RB4105 in Matte Black and Violet Mirror lenses to be precise).</p>
+<p class="firstLetter">Casey Neistat is New York's favorite Youtuber wrapped in a pair of Ray-Ban sunglasses (Rayban Folding Wayfarers RB4105 in Matte Black and Violet Mirror lenses to be precise).</p>
 
-A man of details intricacies and a storyteller of the every day, he is as iconic as he is idiosyncratic. He welcomes both the chaos and quiet of everyday life, embodying the raw complexity of an Enneagram 4. This post explores the mystery and the magic of Neistat, exploring his personality through the lens of the Enneagram.
+He is a storyteller seeing magic in everyday life. He has an ability to zoom in and out of the details and that is because he has the personality of the Enneagram type 4. Here we dive into the mystery that is Casey and explore his personality through the lens of the Enneagram.
 
 <details>
 <summary class="accordion">TL;DR: Why Casey Neistat is an Enneagram 4</summary>

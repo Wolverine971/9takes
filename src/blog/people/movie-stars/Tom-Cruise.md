@@ -61,7 +61,7 @@ Sound familiar? That's pure Tom Cruise energy right there.
 
 Born Thomas Cruise Mapother IV, our future superstar didn't have a silver-spoon upbringing.
 
-"**I had no really close friend**," Cruise once revealed about his childhood. "I was always the new kid with the wrong shoes, the wrong accent. I didn't have a friend to share things with and confide in."
+"**I had no really close friend**," Cruise once revealed about his childhood. "**I was always the new kid with the wrong shoes, the wrong accent. I didn't have a friend to share things with and confide in.**"
 
 This constant upheaval and feeling of not fitting in? Classic Type 3 origin story. It's the perfect recipe for developing that intense drive to prove oneself and seek external validation.
 
@@ -75,7 +75,7 @@ See that? Adapting, overcoming, excelling. The Achiever's playbook in action.
 
 Tom's breakout role in "Risky Business" wasn't just luck – it was the result of intense preparation and that signature Type 3 work ethic.
 
-Paul Brickman, the film's director, noted: "What struck me about Tom was his focus, and his intensity... He was like a laser."
+Paul Brickman, the film's director, noted: "**What struck me about Tom was his focus, and his intensity... He was like a laser.**"
 
 That laser focus? It's the Type 3's secret weapon. They don't just want to succeed; they need to succeed.
 
