@@ -1,5 +1,5 @@
 ---
-title: 'Taylor Swift An Enneagram Type 4'
+title: 'test Taylor Swift An Enneagram Type 4'
 description: 'Why Taylor Swift appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-09-24'

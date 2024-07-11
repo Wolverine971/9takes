@@ -16,10 +16,10 @@ export const load = async (): Promise<{
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 
@@ -31,10 +31,10 @@ export const load = async (): Promise<{
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 
@@ -45,16 +45,16 @@ export const load = async (): Promise<{
 	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 
 	const guidesPosts = (await Promise.all(guidesPromises)).filter((post) => post.published);
 
-	const peoplePosts = (await getAllPosts()).filter((post: App.BlogPost) => post.published);
+	const peoplePosts = (await getAllPeoplePosts()).filter((post: App.BlogPost) => post.published);
 
 	// const peoplePosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
@@ -68,7 +68,7 @@ export const load = async (): Promise<{
 	};
 };
 
-const getAllPosts = async (): Promise<App.BlogPost[]> => {
+const getAllPeoplePosts = async (): Promise<App.BlogPost[]> => {
 	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
 	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
 	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);

@@ -14,7 +14,7 @@ previewHtml: ''
 pic: 'greek-statue-arguing-online'
 ---
 
-<!-- todo
+<!--
 
 Part 1- To set the scene- no one really wins
 each side walks away and goes further into their biases
