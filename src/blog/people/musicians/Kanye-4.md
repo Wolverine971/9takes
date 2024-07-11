@@ -1,5 +1,5 @@
 ---
-title: 'Kanye Enneagram Type 4'
+title: 'test Kanye Enneagram Type 4'
 description: 'Why Kanye appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-06-17'

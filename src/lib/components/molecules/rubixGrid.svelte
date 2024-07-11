@@ -189,6 +189,9 @@
 		color: var(--color-theme-purple-v);
 		// margin: 1rem;
 	}
+	a::after {
+		display: none;
+	}
 
 	.pop-card:hover {
 		/* .profileFace {

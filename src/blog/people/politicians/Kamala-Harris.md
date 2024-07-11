@@ -20,7 +20,7 @@ tiktok: ''
 <!-- // notes:  -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div
@@ -38,7 +38,7 @@ tiktok: ''
     />
 </div>
 
-> **Disclaimer** This analysis of Kamala Harris's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kamala Harris.
+> **Disclaimer** This analysis of Kamala Harris's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kamala.
 
 <p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>
 
@@ -78,7 +78,7 @@ Her career as a prosecutor, district attorney, attorney general, and eventually 
 
 Type 3s are known for their ability to adapt their approach to suit the expectations of their audience, striving to present themselves in a manner that is most likely to secure success and approval. Kamala's political journey exhibits this skill.
 
-One notable instance is her performance during the Democratic primary debates in 2019. In a heated exchange with Joe Biden, Kamala showcased her capacity to adapt her narrative to resonate with the audience. She tactfully broached a personal story of being part of the second class to integrate at her public school as a child, connecting it to Biden's past opposition to school busing. This maneuver demonstrated her adeptness at utilizing personal anecdotes to underscore her stance. It highlighted her ability to adjust her narrative to create a compelling and emotionally resonant moment on stage.
+One notable instance is her performance during the Democratic primary debates in 2019. In a heated exchange with <a href="/blog/famous-enneagram-types/Joe Biden">Joe-Biden</a>, Kamala showcased her capacity to adapt her narrative to resonate with the audience. She tactfully broached a personal story of being part of the second class to integrate at her public school as a child, connecting it to Biden's past opposition to school busing. This maneuver demonstrated her adeptness at utilizing personal anecdotes to underscore her stance. It highlighted her ability to adjust her narrative to create a compelling and emotionally resonant moment on stage.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J1OvDB_wavI?si=RQN1pfIqXhKVG0Cm" title="Kamala playing off the audience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

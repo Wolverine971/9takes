@@ -13,9 +13,9 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
-    import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
-    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
+    import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
  <!-- have very high standards for themselves and others and they often mention that they have a little voice in the back of their heads criticizing their every move saying good is never good enough. Over time that has developed
