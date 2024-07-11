@@ -17,7 +17,9 @@ instagram: 'https://www.instagram.com/charlidamelio/'
 tiktok: 'https://www.tiktok.com/@charlidamelio'
 ---
 
-<!-- <script>
+<!-- https://x.com/thefernandocz/status/1811052969217192176 -->
+
+<script>
 	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
 </script>
 <div
@@ -33,7 +35,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 		displayText="Charli D'Amelio"
 		subtext=""
 	/>
-</div> -->
+</div>
 
 <p class="firstLetter"></p>
 

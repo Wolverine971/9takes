@@ -73,8 +73,6 @@ Marilyn Monroe's life was a tapestry of triumphs and challenges, reflecting the 
 
 Do you see Marilyn's life differently now? Understanding her possible Enneagram type, do her actions and choices make more sense? We're building a community at 9takes that values deep dives into personalities and perspectives. Join us in unraveling the layers of human emotion and behavior, one personality at a time.
 
-Sign up below ⬇️ and be part of our journey!
-
 <svelte:head>
 
 <script type="application/ld+json">
