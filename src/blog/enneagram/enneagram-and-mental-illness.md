@@ -155,6 +155,10 @@ Ava, an introverted student, experiences severe insomnia and nightmares. Her gro
 
 Type 5s' tendency to isolate and neglect physical needs can spiral into severe mental health issues, including distorted perceptions and suicidal thoughts, further aggravated by their refusal to seek help.
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+</div>
+
 ## Mental Health Risks of the Enneagram Type 6: The Loyalist
 
 Type 6s are susceptible to Paranoid, Dependent, Borderline Personality Disorders, and intense anxiety attacks.
