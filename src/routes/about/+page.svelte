@@ -326,15 +326,15 @@
 		border-radius: var(--base-border-radius);
 	}
 	.profile-section-wrapper {
-		padding: 1rem;
+		// padding: 1rem;
 		position: relative;
 		background: linear-gradient(
-			to right,
-			var(--black),
-			var(--color-theme-purple) 200px,
-			var(--black) 800px
-		);
-		padding: 3px;
+					to right,
+					var(--black),
+					var(--color-theme-purple) 200px,
+					var(--black) 800px
+				);
+		padding: 2px;
 		border-radius: 5px;
 	}
 	.profile-section {
