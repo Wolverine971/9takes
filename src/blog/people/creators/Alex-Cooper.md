@@ -90,7 +90,7 @@ Initially the podcast was focused on relationships and sex, but overtime the sho
 
 After some ups and downs she secured a $60 million deal with Spotify.
 
-She was labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, and the label fit. Alex she split from her partner (more on that below) and started to fly solo. She still aims to inspire her audience by sharing personal stories and advice but her tone has matured. She isn't focused on sex anymore. She went from talking about the gluck gluck 9000 😉 to doing interviews with celebrities and exploring controversial topics of a different nature. 
+She was labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, and the label fit. Alex she split from her partner (more on that below) and started to fly solo. She still aims to inspire her audience by sharing personal stories and advice but her tone has matured. She isn't focused on sex anymore. She went from talking about the gluck gluck 9000 😉 to doing interviews with celebrities and exploring controversial topics of a different nature.
 
 She is adapting and evolving, which also mirrors the characteristics of Type 7, who is always looking for the next exciting venture.
 
@@ -106,7 +106,7 @@ Cooper has faced several controversies, most notably her public feud with former
 
 She took to her platform to openly discuss the issues, providing her side of the story. She sought to maintain a connection with her audience. This transparency helped her gain public support, turning potential setbacks into opportunities for growth. Alex was also able to negotiate a new contract with Barstool Sports that gave her complete creative control, turning a contentious situation into a win.
 
-She handled the situation with grace and in many people's eyes came out on top. 
+She handled the situation with grace and in many people's eyes came out on top.
 
 Her optimistic outlook has been a critical factor in navigating these challenges and that is a hallmark of the Enneagram 7 personality type.
 

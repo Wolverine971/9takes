@@ -15,7 +15,7 @@ pic: 'giving-a-speech'
 ---
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

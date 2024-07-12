@@ -15,7 +15,7 @@ pic: 'two-greek-statues-having-a-serious-conversation'
 <!-- // notes:  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

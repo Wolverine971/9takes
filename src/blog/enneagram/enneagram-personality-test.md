@@ -15,8 +15,8 @@ previewHtml: ''
 
 <!-- Take a free, ~5 min test here -->
 <script>
-	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
-  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  Enneagram  from "$lib/components/icons/enneagram.svelte";
+  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p  style="text-align: center;">

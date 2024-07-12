@@ -1,8 +1,4 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-	// import { joinEmail, joinEmail2 } from '../../emails';
-	import { dev } from '$app/environment';
-	export let data: PageData;
 </script>
 
 {#if dev}

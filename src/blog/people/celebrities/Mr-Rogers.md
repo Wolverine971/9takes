@@ -55,13 +55,13 @@ Mr. Rogers dedicated his life to creating a safe and nurturing space for childre
 
 ## Empathetic and compassionate
 
-Another characteristic of Enneagram type 2 individuals is their empathy and compassion. 
+Another characteristic of Enneagram type 2 individuals is their empathy and compassion.
 
 Mr. Rogers was known for his ability to connect with children and understand their feelings. He often tackled difficult topics on his show, such as death and divorce, in a compassionate and sensitive manner.
 
 ## Personal warmth and kindness
 
-Enneagram type 2 individuals are known for their personal warmth and kindness. 
+Enneagram type 2 individuals are known for their personal warmth and kindness.
 
 Mr. Rogers embodied these traits both on and off screen. He often took the time to connect with his fans, answering letters and making personal appearances. He was also known for his daily routine of starting each day with a swim and taking time to pray and reflect.
 

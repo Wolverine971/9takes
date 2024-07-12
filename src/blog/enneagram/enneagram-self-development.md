@@ -19,8 +19,8 @@ self regulation examples
 -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
-  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <div

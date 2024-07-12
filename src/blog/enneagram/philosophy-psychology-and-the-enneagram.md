@@ -15,7 +15,7 @@ pic: 'freud-plato'
 ---
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- They almost got it, so close
@@ -56,16 +56,16 @@ But there is a thing called the Enneagram (if you haven't already heard of it) t
 This article maps and connects the ideas of Plato Freud and the Enneagram.
 
 ## Plato's idea of the soul
+
 <!-- Tripartite Soul and the Enneagram -->
 
 Plato divided the idea of the human soul into three parts (the Tripartite Soul).
 
 According to Plato, the soul consists of **reason, spirit, and appetite**.
 
-
-- **Reason (logic)**: Plato believed the soul's rational aspect guides our thinking and decision-making. 
-- **Spirit (emotions)**: For Plato, the spirited part of the soul drives our feelings and desires. 
-- **Appetite (instincts)**: Plato's third component, appetite, governs our primal needs and drives. 
+- **Reason (logic)**: Plato believed the soul's rational aspect guides our thinking and decision-making.
+- **Spirit (emotions)**: For Plato, the spirited part of the soul drives our feelings and desires.
+- **Appetite (instincts)**: Plato's third component, appetite, governs our primal needs and drives.
 
 This 3 part division appears again when you look at Freud's description of the Psyche.
 
@@ -74,8 +74,8 @@ This 3 part division appears again when you look at Freud's description of the P
 Freud had a model of the mind in which he described three distinct parts: the **id, ego, and superego**.
 
 - **Id (instincts)**: The id represents our basic and subconscious instincts and desires.
-- **Ego (logic)**: The ego is our conscious mind, responsible for rational thought and decision-making. 
-- **Superego (emotions)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships, and it is partly in both our conscious and subconscious mind. 
+- **Ego (logic)**: The ego is our conscious mind, responsible for rational thought and decision-making.
+- **Superego (emotions)**: The superego is our moral compass, guiding us through our emotions and interpersonal relationships, and it is partly in both our conscious and subconscious mind.
 
 <div style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
 <img loading="lazy" src="/blogs/structural-iceberg.svg" alt="Freud's conscious iceburg" title="Freud's conscious iceburg" style="max-width: 400px;" />
@@ -118,21 +118,19 @@ It is as if Plato, Freud, and the Enneagram are all discussing the same ideas bu
 
 <div class="scroll-table">
 
-| Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
-| --------- | -------- | -------------------------------- | ---------------------- |
-| id        | appetite | instinctual/ body                | anger                  |
-| ego       | reason   | intellectual/ head               | fear                   |
-| super ego | spirit   | emotional/ heart                 | shame                  |
+| Freud      | Plato     | Enneagram Center of Intelligence  | Enneagram Core Emotion  |
+| ---------- | --------- | --------------------------------- | ----------------------- |
+| id         | appetite  | instinctual/ body                 | anger                   |
+| ego        | reason    | intellectual/ head                | fear                    |
+| super ego  | spirit    | emotional/ heart                  | shame                   |
 
 </div>
-
-
 
 If Plato, Freud, and any Enneagram practitioner were in a room they would all be talking about the same ideas.
 
 They would talk about 3 parts of the mind, 3 parts of the soul, and 3 core emotions. Freud and Plato would see many of their ideas reflected in the Enneagram's systems and they would be eager to study it further. The three of them would be inspired and be able to dive deeper into their domains from this interaction.
 
-But alas this wont happen. 
+But alas this wont happen.
 
 Because 2 of the 3 are dead. 😢
 

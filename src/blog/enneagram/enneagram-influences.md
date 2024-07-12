@@ -15,8 +15,8 @@ pic: 'enneagram-inspiration-docs'
 ---
 
 <script>
-	import  Enneagram  from "../../lib/components/icons/enneagram.svelte";
-  import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  Enneagram  from "$lib/components/icons/enneagram.svelte";
+  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

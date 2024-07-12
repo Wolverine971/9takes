@@ -19,9 +19,9 @@ pic: 'greek-statue-introducing-9takes'
 </svelte:head>
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 
-	import Rubix from "../../lib/components/icons/rubix.svelte";
+	import Rubix from "$lib/components/icons/rubix.svelte";
 </script>
 
 <!-- big long panel of people experiencing anger fear and shame -->

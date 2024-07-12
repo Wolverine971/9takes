@@ -47,7 +47,7 @@ Tailored Communication
 -->
 
 <script>
-	import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Understanding the Enneagram gives us insight into our motivations, fears, and behaviors.</p>

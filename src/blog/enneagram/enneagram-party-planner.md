@@ -15,7 +15,7 @@ pic: 'greek-statues-partying'
 ---
 
 <script>
-    import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+    import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- 3 step plan for personal growth -->

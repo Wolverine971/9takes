@@ -18,7 +18,7 @@ internal and external conflict
  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">This is not for people with depression. This is for the person who wants to be there for their friend who has depression.</p>

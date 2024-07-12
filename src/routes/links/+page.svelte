@@ -43,7 +43,7 @@
 					{#each Array(3) as _, j}
 						<!-- {#if i === 1} -->
 						<div style="position: relative; margin: 2px;">
-							<img id="qr-image-{i}" src="" style="max-width: 90px;" />
+							<img id="qr-image-{i}" src="" style="max-width: 90px;" alt="link qr code" />
 							<!-- <fieldset style="top: -20px;	left: -11px;"><legend>9takes</legend></fieldset>
 						<fieldset style="right: -40px; 	top: 10px"><legend>9takes</legend></fieldset>
 						<fieldset style="bottom: -20px;	left: -11px;"><legend>9takes</legend></fieldset>

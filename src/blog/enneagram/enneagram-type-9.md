@@ -13,9 +13,9 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "../../lib/components/molecules/Carousel.svelte";
-    import FamousTypes from "../../lib/components/molecules/FamousTypes.svelte";
-    import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
+    import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <Carousel type={9}  gridDisplay={true}/>

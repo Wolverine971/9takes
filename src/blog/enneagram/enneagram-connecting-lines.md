@@ -17,7 +17,7 @@ pic: 'greek-statue-reading-a-book'
 <!-- Take a free, ~5 min test here -->
 <script>
   
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

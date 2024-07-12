@@ -15,7 +15,7 @@ pic: 'neoclassical-metropolis'
 ---
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">Ancient Greece was ahead of its time. They had the world's first Democracy. They came up with Philosophy. They built a working plumbing system and many of their buildings still remain standing today ~ 2000 years later.</p>

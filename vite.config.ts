@@ -18,13 +18,7 @@ if (dev) {
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [
-		enhancedImages(),
-		sveltekit(),
-		nodeLoaderPlugin(),
-		dev && webSocketServer,
-
-	],
+	plugins: [enhancedImages(), sveltekit(), nodeLoaderPlugin(), dev && webSocketServer],
 
 	define: {
 		'import.meta.env.VERCEL_ANALYTICS_ID': JSON.stringify(process.env.VERCEL_ANALYTICS_ID),

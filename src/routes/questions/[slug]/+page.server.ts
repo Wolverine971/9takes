@@ -33,9 +33,7 @@ export async function load(event) {
 			});
 		}
 		question = questionData;
-
 	} else {
-
 		const { data: questionData, error: findQuestionError } = await supabase
 			.from(demo_time === true ? 'questions_demo' : 'questions')
 			.select(
@@ -249,24 +247,24 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-						comment: comment,
-						parent_id: parentId,
-						author_id: author_id.toString(),
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId,
-						fingerprint
-					}
+							comment: comment,
+							parent_id: parentId,
+							author_id: author_id.toString(),
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId,
+							fingerprint
+					  }
 					: {
-						comment: comment,
-						parent_id: parentId,
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId,
-						fingerprint
-					};
+							comment: comment,
+							parent_id: parentId,
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId,
+							fingerprint
+					  };
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -349,25 +347,25 @@ export const actions: Actions = {
 			const cData =
 				author_id !== 'undefined'
 					? {
-						comment: comment,
-						parent_id: parentId,
-						author_id: author_id.toString(),
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId,
-						fingerprint
-					}
+							comment: comment,
+							parent_id: parentId,
+							author_id: author_id.toString(),
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId,
+							fingerprint
+					  }
 					: {
-						comment: comment,
-						parent_id: parentId,
-						author_id: null,
-						comment_count: 0,
-						ip,
-						parent_type: parent_type,
-						es_id: esId,
-						fingerprint
-					};
+							comment: comment,
+							parent_id: parentId,
+							author_id: null,
+							comment_count: 0,
+							ip,
+							parent_type: parent_type,
+							es_id: esId,
+							fingerprint
+					  };
 
 			const { data: record, error: addCommentError } = await supabase
 				.from(demo_time === true ? 'comments_demo' : 'comments')
@@ -668,5 +666,3 @@ const parseUrls = async (comment: string, questionId: string) => {
 		console.log('updated links');
 	}
 };
-
-

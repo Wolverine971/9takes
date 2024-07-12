@@ -15,7 +15,7 @@ pic: 'greeks-debating-human-nature'
 ---
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div style="display: flex; justify-content: center; margin: 2rem 0; text-align: center;">

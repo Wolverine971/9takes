@@ -14,7 +14,7 @@ pic: 'greek-statue-having-a-disagreement'
 <!-- // notes:  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

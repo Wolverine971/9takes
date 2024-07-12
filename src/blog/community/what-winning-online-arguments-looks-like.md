@@ -58,7 +58,7 @@ Bonus step- lay out your perception of the other person's argument and ask them 
  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

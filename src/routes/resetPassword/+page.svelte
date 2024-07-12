@@ -1,9 +1,4 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-	// import { enhance, type SubmitFunction } from '$app/forms';
-
-	export let data: PageData;
-
 	let password = '';
 </script>
 

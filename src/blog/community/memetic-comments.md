@@ -21,7 +21,7 @@ pic: 'greek-sculpture-on-a-laptop'
 </svelte:head>
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

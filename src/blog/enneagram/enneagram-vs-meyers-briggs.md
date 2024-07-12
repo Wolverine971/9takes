@@ -15,7 +15,7 @@ pic: 'enneagram-vs-meyers-briggs'
 
 <!-- // notes:  -->
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

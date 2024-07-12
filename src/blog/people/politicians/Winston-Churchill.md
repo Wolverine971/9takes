@@ -17,7 +17,6 @@ instagram:
 tiktok:
 ---
 
-
 <!-- growing up https://www.youtube.com/shorts/8Br82ygT0V4 -->
 
 <script>
@@ -39,7 +38,7 @@ margin: 1rem 0;"
 
 > **Disclaimer** This analysis of Winston Churchill's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Churchill.
 
-<p class="firstLetter">He was the British Bulldog, the defiant leader who stared down Hitler and inspired a nation through its darkest hour.</p> 
+<p class="firstLetter">He was the British Bulldog, the defiant leader who stared down Hitler and inspired a nation through its darkest hour.</p>
 
 Winston Churchill is an iconic figure whose legacy still looms large. But what made the man tick? What was going on behind those famous speeches and that gruff exterior? By examining Churchill through the lens of the Enneagram personality system, we can gain fascinating insights into his inner world. Buckle up as we get inside the mind of one of history's most famous Enneagram 8s.
 
@@ -47,16 +46,15 @@ Winston Churchill is an iconic figure whose legacy still looms large. But what m
 
 ### Churchill Was an Enneagram 8, The Challenger
 
-Enneagram 8s are known for being strong, decisive leaders. 
+Enneagram 8s are known for being strong, decisive leaders.
 
 They have a commanding presence and tremendous willpower. 8s are driven by a need to be in control, to project strength, and to stand up against injustice. They have big energy and often take charge in a bold, confrontational style.
 
 This fits Churchill to a tee. He was a lion of a man with an indomitable spirit. He refused to back down from a fight, whether on the battlefield in his younger days or later as he stood up to the Nazi threat. Churchill had the classic 8 traits of courage, determination, blunt honesty, and a refusal to show weakness.
 
-
 ## Churchill's Upbringing Shaped His 8 Personality
 
-To understand Churchill the man, we have to look at his childhood. 
+To understand Churchill the man, we have to look at his childhood.
 
 Young Winston had a difficult upbringing in many ways. His father, Lord Randolph, was a brilliant but unstable politician who largely ignored his son. His beautiful American mother Jennie was so caught up in her busy social life that she had little time for Winston.
 As biographer William Manchester wrote, Churchill "**always remembered the lonely and unhappy episodes of his childhood**." Like many 8s, he dealt with feelings of rejection and vulnerability by putting on armor and developing an independent, tough-as-nails persona.
@@ -83,7 +81,7 @@ This "never say die" tenacity and ability to inspire through sheer force of will
 
 ## Flaws and Challenges
 
-For all his strengths, Churchill also displayed the 8's characteristic flaws of being domineering, combative, and imperious. 
+For all his strengths, Churchill also displayed the 8's characteristic flaws of being domineering, combative, and imperious.
 
 He could be a tyrannical boss, as one secretary learned when he dictated to her while naked in the bath. "**He was without shame. I was aghast,**" she recalled. This shocking lack of boundaries showed the 8's sense of being above the rules.
 

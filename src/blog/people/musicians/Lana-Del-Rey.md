@@ -44,7 +44,7 @@ tiktok: ''
 
 <p class="firstLetter">Lana Del Rey, the sultry siren of nostalgia-tinged pop, has captivated audiences with her haunting melodies and cinematic lyrics.</p>
 
-But beneath the carefully crafted image of vintage glamour lies a complex artist whose inner world is as rich and layered as her music. Let's dive into the depths of Lana's psyche and explore the intricacies that make her a true embodiment of the Enneagram Type 4 personality.
+But beneath the image of vintage glamour lies a complex artist whose inner world is as rich and layered as her music. Let's dive into the depths of Lana's psyche and explore the intricacies that make her a true embodiment of the Enneagram Type 4 personality.
 
 ## What is Lana Del Rey's Personality Type?
 

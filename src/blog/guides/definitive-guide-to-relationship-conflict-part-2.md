@@ -17,7 +17,7 @@ internal and external conflict
  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">This blog picks up where <a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off.</p>

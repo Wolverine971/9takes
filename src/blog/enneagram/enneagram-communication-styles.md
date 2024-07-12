@@ -16,8 +16,8 @@ pic: 'two-female-greek-statues-having-a-conversation'
 
 <script>
   
-   import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

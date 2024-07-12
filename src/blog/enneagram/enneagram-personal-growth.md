@@ -21,7 +21,7 @@ fix this
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
 <script>
-    import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+    import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- <div

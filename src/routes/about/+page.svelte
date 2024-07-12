@@ -35,7 +35,7 @@
 				: ''}"
 		>
 			<!-- role="img" -->
-			 <div class="profile-section-wrapper">
+			<div class="profile-section-wrapper">
 				<div
 					class="profile-section"
 					on:click={() => (showLaser = !showLaser)}
@@ -77,8 +77,8 @@
 					<div>
 						<p style="margin-bottom: 0;">
 							I am obsessed with the Enneagram and am tired of social media feeling fake. <br />
-							<br />I have a tech background and am building a platform where people can explore their
-							differences and find common ground.
+							<br />I have a tech background and am building a platform where people can explore
+							their differences and find common ground.
 						</p>
 						<span>
 							<a
@@ -329,11 +329,11 @@
 		padding: 1rem;
 		position: relative;
 		background: linear-gradient(
-					to right,
-					var(--black),
-					var(--color-theme-purple) 200px,
-					var(--black) 800px
-				);
+			to right,
+			var(--black),
+			var(--color-theme-purple) 200px,
+			var(--black) 800px
+		);
 		padding: 3px;
 		border-radius: 5px;
 	}

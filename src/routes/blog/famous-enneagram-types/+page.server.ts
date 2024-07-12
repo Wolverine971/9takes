@@ -19,11 +19,6 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 	// const posts = await Promise.all(postPromises);
 	const publishedPosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
-
-
-
-
-
 	const uniqueTypes = Array.from(new Set(publishedPosts.map((obj) => obj?.enneagram)));
 
 	// Store objects of unique types
@@ -160,22 +155,17 @@ export const actions: Actions = {
 							instagram: post.instagram,
 							tiktok: post.tiktok,
 							path: post.path,
-							slug: post.slug,
-						}
-
+							slug: post.slug
+						};
 					})
 				)
-				.select()
+				.select();
 
 			if (famousPeopleError) {
 				console.log(famousPeopleError);
-
 			}
-
-
 		} catch (error) {
 			console.log(error);
 		}
-
 	}
 };

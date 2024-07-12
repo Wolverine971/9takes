@@ -20,7 +20,7 @@ https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknes
 -->
 
 <script>
-  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <p class="firstLetter">Everyone has different strengths and weaknesses.</p>

@@ -16,8 +16,8 @@ pic: 'neoclassical-fortress2'
 
 <!-- todo update -->
 <script>
-  import MarqueeHorizontal from "../../lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">Enneagram subtypes refer to the three different variations of each of the nine Enneagram types.</p>

@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 <!-- https://x.com/thefernandocz/status/1811052969217192176 -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;
@@ -29,7 +29,7 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 	"
 >
 	<PopCard
-		image={`/types/7s/${'Charli-D'Amelio'}.webp`}
+		image={`/types/7s/${"Charli-D'Amelio"}.webp`}
 		showIcon={false}
 		enneagramType=""
 		displayText="Charli D'Amelio"
@@ -38,20 +38,6 @@ tiktok: 'https://www.tiktok.com/@charlidamelio'
 </div>
 
 <p class="firstLetter"></p>
-
-## How Each Enneagram Type Perceives booboo
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
-
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -
-- **[Type 9- The Achiever](/blog/enneagram/enneagram-type-9)** -
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** -
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** -
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** -
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** -
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** -
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** -
 
 <svelte:head>
 

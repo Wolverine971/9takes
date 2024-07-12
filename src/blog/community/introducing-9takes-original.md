@@ -19,7 +19,7 @@ pic: 'greek-statue-introducing-9takes'
 </svelte:head>
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- big long panel of people experiencing anger fear and shame -->

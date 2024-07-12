@@ -17,7 +17,7 @@ pic: 'greek-statues-at-the-beach'
 <!-- // notes:  -->
 
 <script>
-	import  PopCard  from "../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

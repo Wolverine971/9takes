@@ -14,7 +14,7 @@ previewHtml: ''
 pic: ''
 ---
 
-<!-- 
+<!--
 Famous Figure: Beatrice Chestnut
 Core Concept: The 27 Enneagram Subtypes
 Headline: "Discover Your Unique Enneagram Subtype: The Key to Deeper Self-Understanding"
