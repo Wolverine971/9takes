@@ -18,25 +18,30 @@
 			// if (blog.stage === 0) {
 			data[key].forEach((blog) => {
 				if (!blog.published) {
-					blog.stage = 0;
+					if (blog.stageName === 'Prioritized') {
+						blog.stage = 1;
+						console.log('prioritized', blog);
+					} else {
+						blog.stage = 0;
+					}
 				}
 				if (blog.published) {
-					blog.stage = 1;
+					blog.stage = 2;
 
 					if (blog.stageName === 'Sent out for review') {
-						blog.stage = 2;
-					}
-					if (blog.stageName === 'Reviewed') {
 						blog.stage = 3;
 					}
-					if (blog.stageName === 'Socialized') {
+					if (blog.stageName === 'Reviewed') {
 						blog.stage = 4;
 					}
-					if (blog.stageName === 'Growing') {
+					if (blog.stageName === 'Socialized') {
 						blog.stage = 5;
 					}
-					if (blog.stageName === 'Needs Work') {
+					if (blog.stageName === 'Growing') {
 						blog.stage = 6;
+					}
+					if (blog.stageName === 'Needs Work') {
+						blog.stage = 7;
 					}
 				}
 			});
@@ -46,6 +51,7 @@
 	// Define the stages
 	const stages = [
 		'Not written',
+		'Prioritized',
 		'Written',
 		'Sent out for review',
 		'Reviewed',

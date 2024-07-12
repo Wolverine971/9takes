@@ -1,5 +1,5 @@
 ---
-title: 'The Consensus on Human Nature'
+title: '2d or 3d world'
 description: 'Do we even have a consensus?'
 author: 'DJ Wayne'
 date: '2023-05-13'
