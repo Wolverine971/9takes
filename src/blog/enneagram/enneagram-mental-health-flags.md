@@ -41,7 +41,7 @@ feeling overlooked -->
     "
 >
     <PopCard
-        image={`/blogs/greek-statue-of-athena-with-red.png`}
+        image={`/blogs/greek-statue-of-athena-with-red.webp`}
         showIcon={false}
         altText="Athena the goddess of wisdom surrounded by red"
         subtext=""
@@ -310,7 +310,7 @@ What red flags have you noticed in yourself or others? How has understanding per
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-of-athena-with-red.png",
+        "url": "https://9takes.com/blogs/greek-statue-of-athena-with-red.webp",
         "width": 900
       },
       "mainEntityOfPage": {

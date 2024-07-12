@@ -40,7 +40,7 @@ tiktok:
 
 <p class="firstLetter">You've heard of Jack Dorsey - co-founder of Twitter and Square, tech mogul, and beacon of Silicon Valley. </p>
 
-But have you ever wondered about the driving force behind his persona? Let's delve into the fascinating world of the Enneagram, speculating on Jack's personality type, and learn more about this profound system.
+But have you ever wondered about the driving force behind his persona? Let's dive into the fascinating world of the Enneagram, speculating on Jack's personality type, and learn more about this profound system.
 
 <details>
 <summary class="accordion">TL;DR: Why Jack Dorsey is an Enneagram 5</summary>

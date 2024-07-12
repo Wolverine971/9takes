@@ -17,7 +17,7 @@ pic: 'greek-statue-showing-cracks'
 <!-- todo -->
 
 <!-- the reader is experiencing pain and needs catharsis
-they need to be validated 
+they need to be validated
 
 toxic traits
 toxic traits list
@@ -39,7 +39,7 @@ examples of toxic traits
   "
 >
   <PopCard
-    image={`/blogs/greek-statue-showing-cracks.png`}
+    image={`/blogs/greek-statue-showing-cracks.webp`}
     showIcon={false}
     displayText=""
     altText="a greek statue showing some cracks"
@@ -297,7 +297,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/greek-statue-showing-cracks.png",
+        "url": "https://9takes.com/blogs/greek-statue-showing-cracks.webp",
         "width": 900
       },
       "mainEntityOfPage": {

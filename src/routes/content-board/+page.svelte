@@ -141,7 +141,7 @@
 </select>
 
 <h2>{activeSelection.toUpperCase()}</h2>
-<div class="trello-board">
+<div class="trello-board ">
 	{#each stages as stage, stageIndex}
 		<div
 			class="stage"

@@ -52,7 +52,7 @@ https://claude.ai/chat/f4188ad1-f53a-48bc-8c0d-6c17006ae68a
 
 <p class="firstLetter">You've seen Paul Graham's name splashed across tech headlines, read his influential essays, and marveled at the success of the startups that have emerged from Y Combinator. </p>
 
-But what lies beneath the surface of this renowned entrepreneur, programmer, and visionary? Prepare to delve into the rich inner workings of Paul Graham's Enneagram Type 7 personality.
+But what lies beneath the surface of the entrepreneur, programmer, and visionary? Prepare to dive into the rich inner workings of Paul Graham's Enneagram Type 7 personality.
 
 ## What is Paul Graham's Personality Type?
 
