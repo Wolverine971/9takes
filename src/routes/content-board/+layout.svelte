@@ -13,6 +13,9 @@
 		}
 	}
 
+	.column {
+		overflow: auto;
+	}
 	.jumbo-name {
 		position: relative;
 		font-size: 3.25rem;

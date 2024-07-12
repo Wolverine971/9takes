@@ -265,6 +265,8 @@
 		display: flex;
 		gap: 1rem;
 		padding: 1rem;
+		overflow: auto !important;
+		width: 100%;
 	}
 
 	.stage {
