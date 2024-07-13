@@ -1,10 +1,10 @@
 ---
-title: 'The Enneagram Stress Number Explained'
+title: "9 Kinds of Stress- The Enneagram 'Stress Number' Explained"
 description: 'Describing how people are when stressed so that you recognize the warning signs and can combat unhealthy patterns'
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-stress-number'
-lastmod: '2024-05-04'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

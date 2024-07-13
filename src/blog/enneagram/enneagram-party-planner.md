@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Party Planner: Customize Your Invites for All Types'
-description: 'The Enneagram dynamics in party planning, craft perfect invites for each personality type, ensuring unforgettable events.'
+title: 'Enneagram Party Planner: Customize Your Invites in 9 Ways'
+description: 'Learn the Enneagram dynamics in party planning, craft perfect invites for each personality type, ensuring unforgettable events.'
 author: 'DJ Wayne'
 date: '2023-12-09'
 loc: 'https://9takes.com/blog/enneagram/enneagram-party-planner'
-lastmod: '2024-04-04'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -323,7 +323,7 @@ To dive deeper and see how each Enneagram type behaves at a party checkout this 
         "@value": "2023-12-09"
       },
       "description": "This blog post explores the diverse emotional landscapes of the Enneagram types in the context of party planning. It discusses the unique needs and preferences of each type, offering tailored suggestions for invitations and party environments to ensure an engaging and inclusive experience for all.",
-      "headline": "The Enneagram Party Planner: Customize Your Invites for All Types",
+      "headline": "Enneagram Party Planner: Customize Your Invites in 9 Wayss",
       "image": {
         "@type": "ImageObject",
         "height": 900,

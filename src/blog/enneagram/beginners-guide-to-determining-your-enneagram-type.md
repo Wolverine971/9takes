@@ -1,10 +1,10 @@
 ---
-title: "The Beginner's Guide to Determining Your Enneagram Type"
+title: "The Beginner's Guide to Determining Your Enneagram Type in 4 Steps"
 description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself"
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2024-04-07'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -316,7 +316,7 @@ As Socrates said, “The more you know, the more you realize you don’t know, a
       "dateModified": "2024-04-07",
       "datePublished": "2023-07-11",
       "description": "Navigate the Enneagram easily using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
-      "headline": "The Beginner's Guide to Determining Your Enneagram Type",
+      "headline": "The Beginner's Guide to Determining Your Enneagram Type in 4 Steps",
       "mainEntityOfPage": {
         "@id": "https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-Enneagram-type",
         "@type": "WebPage"

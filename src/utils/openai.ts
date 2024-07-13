@@ -19,7 +19,6 @@ export const tagQuestions = async () => {
 		}
 
 		if (ableToRefreshQuestions) {
-			console.log(ableToRefreshQuestions[0]);
 			return;
 		}
 

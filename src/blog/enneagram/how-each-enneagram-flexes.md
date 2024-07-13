@@ -1,10 +1,10 @@
 ---
-title: 'How each Enneagram type flexes'
+title: 'How All 9 Enneagram Types flex'
 description: 'Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized'
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/how-each-enneagram-flexes'
-lastmod: '2024-04-08'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -211,7 +211,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
                 "@value": "2023-08-09"
             },
             "description": "Each type shows off in different ways, subtly showcasing their strengths, and desire to be seen or recognized",
-            "headline": "How each Enneagram type flexes",
+            "headline": "How All 9 Enneagram Types flex",
             "image": {
                 "@type": "ImageObject",
                 "height": 900,

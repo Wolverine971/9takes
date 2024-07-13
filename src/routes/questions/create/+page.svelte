@@ -63,7 +63,6 @@
 			});
 			// What are the problems of each political party
 			const result: any = deserialize(await resp.text());
-			console.log(result);
 
 			if (result?.error) {
 				notifications.danger(result.error.message, 3000);

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Types in Stress'
+title: 'Enneagram Types in Stress- Learn'
 description: 'Navigating Stress: How each Enneagram type responds to the uncomfortable'
 author: 'DJ Wayne'
 date: '2023-04-14'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
-lastmod: '2024-03-27'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

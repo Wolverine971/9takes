@@ -1,10 +1,10 @@
 ---
-title: 'What are the biggest compliments to give to each Enneagram type'
+title: 'The 9 Biggest Compliments to Give to Each Enneagram Type'
 description: 'Explore the ultimate compliments for each Enneagram type, delving into their core essence and unique strengths. Dive deep with 9takes!'
 author: 'DJ Wayne'
 date: '2023-08-09'
 loc: 'https://9takes.com/blog/enneagram/biggest-compliments-to-give-each-enneagram-type'
-lastmod: '2024-04-07'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -334,7 +334,7 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
             "@value":"2023-08-09"
          },
          "description":"A captivating and informative exploration of the biggest compliments one can give to each Enneagram type, crafted to offer insights and resonating deeply with each type's essence.",
-         "headline":"The Ultimate Compliments for Every Enneagram Type",
+         "headline":"The 9 Biggest Compliments to Give to Each Enneagram Type",
          "image":{
             "@type":"ImageObject",
             "height":900,

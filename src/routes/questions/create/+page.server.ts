@@ -124,7 +124,6 @@ export const actions: Actions = {
 		}
 
 		if (!user.admin && !user.canAskQuestion) {
-			console.log(user);
 			throw error(500, 'user not authorized to ask question');
 		}
 

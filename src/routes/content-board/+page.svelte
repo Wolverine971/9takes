@@ -20,7 +20,6 @@
 				if (!blog.published) {
 					if (blog.stageName === 'Prioritized') {
 						blog.stage = 1;
-						console.log('prioritized', blog);
 					} else {
 						blog.stage = 0;
 					}

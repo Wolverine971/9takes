@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Mental Health Flags: A Guide to Early Intervention'
+title: '9 Enneagram Mental Health Flags: A Guide to Early Intervention'
 description: 'If You See Something, Say Something: Mental Health Red Flags Through the Enneagram Lens'
 author: 'DJ Wayne'
 date: '2024-07-12'
@@ -306,7 +306,7 @@ What red flags have you noticed in yourself or others? How has understanding per
         "@value": "2024-07-12"
       },
       "description": "Learn how to identify mental health red flags for each Enneagram type and discover practical ways to offer support and encourage positive change.",
-      "headline": "Spotting Enneagram Mental Health Flags: A Guide to Early Intervention",
+      "headline": "9 Enneagram Mental Health Flags: A Guide to Early Intervention",
       "image": {
         "@type": "ImageObject",
         "height": 900,

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram Childhood Stereotypes'
+title: '9 Childhood Stereotypes Based on the Enneagram'
 description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time'
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes'
-lastmod: '2024-04-07'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -145,7 +145,7 @@ If you are reminded of this blog in a conversation down the road give us a shout
       "dateModified": "2024-04-07",
       "datePublished": "2023-12-16",
       "description": "An exploration of the Enneagram personality types through the lens of childhood, examining the early traits and behaviors that correspond to each of the nine types.",
-      "headline": "Enneagram Childhood Stereotypes",
+      "headline": "9 Childhood Stereotypes Based on the Enneagram",
       "image": {
         "@type": "ImageObject",
         "height": 900,

@@ -1,10 +1,10 @@
 ---
-title: 'Enneagram & Careers: Discover Your Path'
+title: 'Enneagram & Careers: Discover a Path all 9 types'
 description: 'Explore ideal careers for each Enneagram type and discover how personality traits can guide your professional path in this insightful article.'
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/blog/enneagram/enneagram-types-and-career-choices'
-lastmod: '2024-05-04'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -281,7 +281,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "@value": "2023-11-29"
       },
       "description": "This blog post explores the ideal career paths for each Enneagram type, providing insights into how personality influences career choices. It covers each Enneagram type and suggests professions that align with their unique strengths and preferences.",
-      "headline": "Enneagram & Careers: Discover Your Path",
+      "headline": "Enneagram & Careers: Discover a Path all 9 types",
       "image": {
         "@type": "ImageObject",
         "height": 450,

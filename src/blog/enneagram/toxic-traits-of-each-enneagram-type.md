@@ -1,5 +1,5 @@
 ---
-title: 'The Dark Side of Personality: Unveiling Toxic Traits in Each Enneagram Type'
+title: '9 Dark Sides of Personality: Unveiling Toxic Traits in Each Enneagram Type'
 description: 'Discover the hidden toxic traits of each Enneagram type. Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.'
 author: 'DJ Wayne'
 date: '2024-07-12'
@@ -293,7 +293,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
         "@value": "2024-07-12"
       },
       "description": "Discover the hidden toxic traits of each Enneagram type. Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.",
-      "headline": "The Dark Side of Personality: Unveiling Toxic Traits in Each Enneagram Type",
+      "headline": "9 Dark Sides of Personality: Unveiling Toxic Traits in Each Enneagram Type",
       "image": {
         "@type": "ImageObject",
         "height": 900,

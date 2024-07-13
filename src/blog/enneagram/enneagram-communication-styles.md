@@ -1,10 +1,10 @@
 ---
-title: 'Understanding the Unique Communication Styles of Each Enneagram Type'
+title: 'The 9 Unique Communication Styles of Each Enneagram Type'
 description: 'Explore the different communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.'
 author: 'DJ Wayne'
 date: '2023-03-26'
 loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
-lastmod: '2024-05-22'
+lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -640,7 +640,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
         "@value": "2023-03-26"
       },
       "description": "Explore the unique communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.",
-      "headline": "Enneagram Communication Styles",
+      "headline": "9 Enneagram Communication Styles",
       "image": {
         "@type": "ImageObject",
         "height": 900,
