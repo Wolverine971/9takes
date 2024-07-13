@@ -78,14 +78,14 @@ logan paul live
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'KSI'}.webp`}
 		showIcon={false}
 		enneagramType=""
-		displayText="booboo"
+		displayText="KSI"
 		subtext=""
 	/>
-</div>> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.<details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+</div>> **Disclaimer** This analysis of KSI's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of KSI.<details>
+<summary class="accordion">TL;DR: Why KSI is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -99,9 +99,9 @@ logan paul live
 </ul>
   </div>
 </details><p class="firstLetter"></p>
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives KSI
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:-
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive KSI:-
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

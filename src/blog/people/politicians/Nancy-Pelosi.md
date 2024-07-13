@@ -17,6 +17,9 @@ instagram:
 tiktok:
 ---
 
+<!-- update
+
+mention biden trump and obama and aoc -->
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>

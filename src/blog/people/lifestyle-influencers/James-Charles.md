@@ -29,18 +29,18 @@ tiktok: 'https://www.tiktok.com/@jamescharles'
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'James-Charles'}.webp`}
 		showIcon={false}
 		enneagramType=""
-		displayText="booboo"
+		displayText="James Charles"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of James Charles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of James Charles.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why James Charles is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -57,9 +57,9 @@ tiktok: 'https://www.tiktok.com/@jamescharles'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives James Charles
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive James Charles:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

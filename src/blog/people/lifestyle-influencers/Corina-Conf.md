@@ -29,18 +29,18 @@ tiktok: ''
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'Corina-Conf'}.webp`}
 		showIcon={false}
 		enneagramType=""
-		displayText="booboo"
+		displayText="Corina Conf"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Corina Conf's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Corina Conf.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Corina Conf is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -57,9 +57,9 @@ tiktok: ''
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives Corina Conf
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Corina Conf:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

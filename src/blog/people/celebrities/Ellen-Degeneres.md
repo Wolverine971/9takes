@@ -21,6 +21,8 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 
 </svelte:head>
 
+<!-- quitting hollywood after commedy tour -->
+
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>

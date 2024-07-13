@@ -3,14 +3,14 @@ title: 'Patrick Starrr Enneagram Type 3'
 description: 'Why Patrick Starrr appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Patrick-Starrr'
+loc: 'https://9takes.com/blog/famous-enneagram-types/Patrick-Starr'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
 type: ['lifestyleInfluencer']
-person: 'Patrick-Starrr'
+person: 'Patrick-Starr'
 wikipedia: 'https://en.wikipedia.org/wiki/Patrick_Starrr'
 twitter: 'https://twitter.com/patrickstarrr'
 instagram: 'https://www.instagram.com/patrickstarrr/'
@@ -29,18 +29,18 @@ tiktok: 'https://www.tiktok.com/@patrickstarrr'
 	"
 >
 	<PopCard
-		image={`/types/3s/${'boo-boo'}.webp`}
+		image={`/types/3s/${'Patrick-Starr'}.webp`}
 		showIcon={false}
 		enneagramType=""
-		displayText="booboo"
+		displayText="Patrick Starr"
 		subtext=""
 	/>
 </div>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Patrick Starr's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Patrick Starr.
 
 <details>
-<summary class="accordion">TL;DR: Why booboo is an Enneagram type</summary>
+<summary class="accordion">TL;DR: Why Patrick Starr is an Enneagram type</summary>
 <div class="panel">
 <ul>
 <li>
@@ -57,9 +57,9 @@ tiktok: 'https://www.tiktok.com/@patrickstarrr'
 
 <p class="firstLetter"></p>
 
-## How Each Enneagram Type Perceives booboo
+## How Each Enneagram Type Perceives Patrick Starr
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive booboo:
+To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Patrick Starr:
 
 - **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** -
 - **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** -

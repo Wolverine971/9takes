@@ -17,6 +17,15 @@ instagram: 'https://www.instagram.com/mrbeast/'
 tiktok: 'https://www.tiktok.com/discover/Mr-Beast'
 ---
 
+<!-- redo -->
+<!-- chris from mr beast
+mr beast girlfriend
+mr beast logo
+how tall is mr beast
+how old is mr beast
+featstables
+
+ -->
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
