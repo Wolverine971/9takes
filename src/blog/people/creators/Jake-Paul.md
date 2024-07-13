@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@jakepaul'
 <!-- Notes: boxing, can he actually fight, net worth, where is he from, close friends, tommy fury, nate diaz, anderson silva, andrew tate, ksi, disney channel, age, girlfriend, news, logan paul -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

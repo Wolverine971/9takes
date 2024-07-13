@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@ladygaga'
 <!-- notes: need to update -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

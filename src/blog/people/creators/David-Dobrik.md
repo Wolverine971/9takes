@@ -20,7 +20,7 @@ tiktok:
 <!-- notes: dating, come back to youtube, where he is from, when did he become famous, controversy with jeff wittek, David Dobrik and Taylor Hudson, girlfriend friends -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

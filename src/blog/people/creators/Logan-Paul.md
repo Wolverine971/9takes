@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@loganpaul'
 <!-- notes: dating, how Logan became famous, join wwe, where is Logan from, Jake, can logan fight, net worth, prime, is my hero, to ufc, can wrestle, mayweather, ksi, boxing, girlfriend -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

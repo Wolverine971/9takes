@@ -20,7 +20,7 @@ tiktok:
 <!-- growing up https://www.youtube.com/shorts/8Br82ygT0V4 -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;

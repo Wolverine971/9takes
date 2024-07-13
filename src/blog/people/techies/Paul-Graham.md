@@ -31,7 +31,7 @@ https://claude.ai/chat/f4188ad1-f53a-48bc-8c0d-6c17006ae68a
 -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;

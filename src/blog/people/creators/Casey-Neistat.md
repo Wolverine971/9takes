@@ -18,8 +18,8 @@ tiktok:
 ---
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
-	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import Timeline from "$lib/components/molecules/Timeline.svelte";
 </script>
 
 <!-- <div

@@ -45,7 +45,7 @@ new bella poarch
 only fans bella poarch
 vacation bella poarch -->
 <!-- <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;

@@ -22,7 +22,7 @@ update redo
 -->
 
 <script>
-  import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
   style="display: flex;

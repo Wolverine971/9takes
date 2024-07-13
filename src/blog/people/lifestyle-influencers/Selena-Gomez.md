@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@selenagomez'
 <!-- Notes: Not sure if she is a 3, was a child actor on Barney... -->
 
 <!-- <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;

@@ -20,7 +20,7 @@ tiktok: 'https://www.tiktok.com/@charlieputh'
 <!-- notes: can hear notes, without autotune, dating married, jimmy fallon, concert, shawn mendes,meghan trainor, sabrina carpenter, songs, girlfriend, age, attention -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

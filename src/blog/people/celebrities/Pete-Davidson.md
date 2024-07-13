@@ -41,7 +41,7 @@ Pete Davidson jokes
  <!-- ariana grande, kim kardashian, kanye -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

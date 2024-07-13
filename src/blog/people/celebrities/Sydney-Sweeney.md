@@ -44,7 +44,7 @@ Sweeney has a business degree from the University of California, Los Angeles. Sh
 <!-- // keywords:  -->
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

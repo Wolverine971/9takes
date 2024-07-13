@@ -23,7 +23,7 @@ tiktok: 'https://www.tiktok.com/@'
   <link rel="canonical" href="https://9takes.com/blog/famous-enneagram-types/Josh-Richards">
 </svelte:head>
 <!-- <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 <div
 	style="display: flex;

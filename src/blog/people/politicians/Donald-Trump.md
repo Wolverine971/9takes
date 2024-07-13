@@ -42,7 +42,7 @@ He has authored several books, including "The Art of the Deal" (1987), which was
 <!-- // keywords:  -->
 
 <script>
-	// import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	// import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

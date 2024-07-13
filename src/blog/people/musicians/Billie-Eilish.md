@@ -18,7 +18,7 @@ tiktok: 'https://www.tiktok.com/@billieeilish'
 ---
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <div

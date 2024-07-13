@@ -18,9 +18,9 @@ tiktok:
 ---
 
 <script>
-	import  PopCard  from "../../../lib/components/atoms/PopCard.svelte";
-	import Timeline from "../../../lib/components/molecules/Timeline.svelte";
-	// import caseyNeistatCareer from   "../../../lib/components/icons/caseyNeistatCareer.svelte"
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import Timeline from "$lib/components/molecules/Timeline.svelte";
+	// import caseyNeistatCareer from   "$lib/components/icons/caseyNeistatCareer.svelte"
 </script>
 <div
 	style="display: flex;
