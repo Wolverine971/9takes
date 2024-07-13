@@ -37,10 +37,10 @@ export const load = async (
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 
@@ -68,10 +68,10 @@ export const load = async (
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 
@@ -100,10 +100,10 @@ export const load = async (
 	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 

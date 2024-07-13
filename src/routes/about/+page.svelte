@@ -329,11 +329,11 @@
 		// padding: 1rem;
 		position: relative;
 		background: linear-gradient(
-					to right,
-					var(--black),
-					var(--color-theme-purple) 200px,
-					var(--black) 800px
-				);
+			to right,
+			var(--black),
+			var(--color-theme-purple) 200px,
+			var(--black) 800px
+		);
 		padding: 2px;
 		border-radius: 5px;
 	}
