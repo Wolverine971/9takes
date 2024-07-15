@@ -17,7 +17,9 @@ instagram: ''
 tiktok:
 ---
 
-<!-- tanacon
+<!--
+ready
+tanacon
 tana mojo
 tana mongeau twitter
 mongeau

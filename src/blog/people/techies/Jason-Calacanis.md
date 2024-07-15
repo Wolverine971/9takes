@@ -4,7 +4,7 @@ description: 'Why Jason Calacanis appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-07-30'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Jason-Calacanis'
-lastmod: '2023-12-20'
+lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -36,13 +36,13 @@ tiktok:
   />
 </div>
 
-> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason Calacanis's actual personality type. Please leave a comment at the end telling us if we hit or missed the mark.
+> **Disclaimer** This analysis of Jason Calacanis's Enneagram type is speculative, based on publicly available information, and may not reflect Jason's actual personality type.
 
 <p class="firstLetter">We are all the stars in our narratives. We are all driven to succeed, some more than others.</p>
 
-Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He is aching to make a mark and is willing to reinvent himself again and again to accomplish his goals. Jason is an Enneagram type 3, also known as "The Achiever."
+Jason Calcanis is one of those people who cannot stand to be anything but the epitome of success in everything he does. He wants to make a mark on the world and is willing to reinvent himself again and again to accomplish this.
 
-Here, we will explain what that looks like.
+Jason is an Enneagram type 3, also known as "The Achiever."
 
 <details>
 <summary class="accordion">TL;DR: Why Jason Calacanis is an Enneagram 3</summary>
