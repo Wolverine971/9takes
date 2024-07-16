@@ -4,7 +4,7 @@ description: 'If You See Something, Say Something: Mental Health Red Flags Throu
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/blog/enneagram/enneagram-mental-health-flags'
-lastmod: '2024-07-12'
+lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -81,6 +81,8 @@ Ones often struggle with intense self-criticism and a fear of making mistakes. T
 
 This approach acknowledges their efforts while gently challenging their perfectionism. You'll know you're being helpful if they agree to try the challenge. A positive sign is when they start using phrases like "It's not perfect, but it's good enough."
 
+<a href="/blog/enneagram/enneagram-type-1">More on Type One</a>
+
 ## Type 2: The Helper's Hidden Cry for Help
 
 Twos often struggle with setting boundaries and acknowledging their own needs. This can lead to resentment, burnout, and codependent behaviors.
@@ -102,6 +104,8 @@ Twos often struggle with setting boundaries and acknowledging their own needs. T
 **What to say:** "I've noticed you've canceled your gym time twice this week to help others. How about we go for a run together tomorrow? It'll be fun, and we both get some me-time."
 
 This suggestion shows that you value their company while encouraging self-care. You're being helpful if they agree to prioritize themselves. A positive sign is when they start expressing their needs without guilt.
+
+<a href="/blog/enneagram/enneagram-type-2">More on Type Two</a>
 
 ## Type 3: The Achiever's Authenticity Alarm
 
@@ -125,6 +129,8 @@ Threes often struggle with tying their self-worth to achievements. This can lead
 
 This suggestion acknowledges their work ethic while encouraging balance. You're being helpful if they agree to disconnect. A positive sign is when they start sharing personal feelings rather than just achievements.
 
+<a href="/blog/enneagram/enneagram-type-3">More on Type Three</a>
+
 ## Type 4: The Individualist's Emotional Tsunami Warning
 
 Fours often struggle with feelings of defectiveness and a tendency to romanticize suffering. This can lead to depression, identity issues, and self-sabotage.
@@ -145,6 +151,8 @@ For feelings of brokenness: Start a daily 'unique strength' sharing practice
 **What to say:** "I've noticed your recent posts have been pretty dark. Want to try a color challenge in your next piece? It might be interesting to explore a different emotional palette."
 
 This suggestion validates their emotional depth while gently encouraging variety. You're being helpful if they engage with the challenge. A positive sign is when they start expressing a wider range of emotions in their creative work.
+
+<a href="/blog/enneagram/enneagram-type-4">More on Type Four</a>
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
@@ -172,6 +180,8 @@ For hypothetical fixation: Propose small, low-risk real-world experiments
 
 This suggestion engages their intellectual interests while encouraging social interaction. You're being helpful if they agree to discuss a book. A positive sign is when they start relating book topics to personal experiences.
 
+<a href="/blog/enneagram/enneagram-type-5">More on Type Five</a>
+
 ## Type 6: The Loyalist's Anxiety Alarm System
 
 Sixes often struggle with anxiety and worst-case scenario thinking. This can lead to paranoia, indecisiveness, and seeking excessive reassurance.
@@ -193,6 +203,8 @@ For physical symptoms: Suggest a fidget toy or stress ball as a healthier altern
 **What to say:** "I've noticed you're asking about the project deadline a lot. Let's try something: on a scale of 1-10, how likely do you think it is we'll miss the deadline? Why?"
 
 This approach acknowledges their concern while introducing a tool for perspective. You're being helpful if they engage in probability assessment. A positive sign is when they start independently evaluating the likelihood of their worries.
+
+<a href="/blog/enneagram/enneagram-type-6">More on Type Six</a>
 
 ## Type 7: The Enthusiast's Escape Hatch Alert
 
@@ -216,6 +228,8 @@ For restlessness: Teach simple meditation techniques, starting with just 1 minut
 
 This suggestion channels their enthusiasm while encouraging follow-through. You're being helpful if they agree to focus on one trip. A positive sign is when they start finding joy in the planning process, not just the idea of the trip.
 
+<a href="/blog/enneagram/enneagram-type-7">More on Type Seven</a>
+
 ## Type 8: The Challenger's Vulnerability Fortress Alarm
 
 Eights often struggle with vulnerability and fear of being controlled. This can lead to aggression, power struggles, and difficulty in close relationships.
@@ -238,6 +252,8 @@ For risky behavior: Introduce controlled, challenging physical activities like r
 
 This challenge appeals to their competitive nature while encouraging softer communication. You're being helpful if they engage in the challenge. A positive sign is when they start expressing vulnerability without perceiving it as weakness.
 
+<a href="/blog/enneagram/enneagram-type-8">More on Type Eight</a>
+
 ## Type 9: The Peacemaker's Disappearing Act Alert
 
 Nines often struggle with numbing out and avoiding conflict. This can lead to depression, passive-aggressive behavior, and a loss of self.
@@ -259,6 +275,8 @@ For mimicry: Encourage exploration of new hobbies that are uniquely theirs
 **What to say:** "I've noticed you often say 'whatever you want' when we're deciding things. Today, let's try something new: you get to make three choices, big or small. What's your first one?"
 
 This approach gently encourages assertiveness. You're being helpful if they make a decision. A positive sign is when they start expressing preferences without prompting.
+
+<a href="/blog/enneagram/enneagram-type-9">More on Type Nine</a>
 
 ## Turning Observation into Action
 
@@ -299,7 +317,7 @@ What red flags have you noticed in yourself or others? How has understanding per
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-12"
+        "@value": "2024-07-15"
       },
       "datePublished": {
         "@type": "Date",
