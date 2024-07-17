@@ -51,25 +51,39 @@
 
 				<div class="main-description">
 					<h1 style="margin: 0;">
-						Stress test your <b class="purple-text">questions</b> to be in the know 😏.
+						<span style="text-wrap: nowrap;"
+							>Stress test your <b class="purple-text">questions</b>,</span
+						> not everyone sees the world you do.
 					</h1>
-					<h2 style="font-size: x-large">
+					<h2 style="font-size: x-large; line-height: 2rem;">
+						There are
 						<b class="purple-text" style="font-size: xx-large; ">9</b>
-						personality types have different <br />
+
+						personalities with different
+
+						{#if innerWidth > 480}<br />
+						{/if}
 						<b class="purple-text" style="font-size: xx-large; ">takes</b>
 						on your question...
 						<br />
-						at least.
+						Sift through them.
 					</h2>
 					<h2
 						style="margin: 0; display: flex; justify-content: center; gap: 2rem; align-items: center;"
 					>
-						<span style="text-wrap: nowrap;"
-							><a href="/questions" class="no-arrow question-link" style="">Questions</a></span
-						>
+						<div style="display: flex; flex-direction: column;">
+							<a href="/questions" class="no-arrow question-link" style="">Question</a>
+							<a href="/questions" class="no-arrow question-link" style="">Question</a>
+							<a href="/questions" class="no-arrow question-link" style="">Question</a>
+							<a href="/questions" class="no-arrow question-link" style="">Question</a>
+						</div>
 						<span style="margin: .2rem;">{'>'}</span>
-						<span style="text-align: start;">Answers <br /> Tweets <br /> Posts <br /> Threads</span
-						>
+						<div style="display: flex; flex-direction: column;">
+							<span style="font-size: xx-large;">Answers</span>
+							<span style="font-size: xx-large;">Tweets</span>
+							<span style="font-size: xx-large;">Posts</span>
+							<span style="font-size: xx-large;">Threads</span>
+						</div>
 					</h2>
 				</div>
 			</div>
@@ -81,14 +95,13 @@
 		<div class="big-points center-align flex-center glass-area">
 			<div>
 				<h2 style="font-size: 1.5rem; font-weight: 700;">
-					<span class="purple-text">9takes</span>- a question and answering platform <br />where you
-					can find out what people
+					Find out what people
 					<br />
 					<span class="purple-text">think</span>,
 					<span class="purple-text">feel</span>, and
 					<span class="purple-text">do</span>...
 				</h2>
-				<p>for every scenario you can think of...</p>
+				<p>in every scenario...</p>
 			</div>
 			<div class="question-list" style="width: 100%; padding: .5rem">
 				{#each data?.top5Questions as questionData}
@@ -316,7 +329,7 @@
 		padding: 1rem;
 	}
 	.question-link {
-		font-size: xxx-large;
+		font-size: xx-large;
 		margin: 0;
 		padding: 0;
 	}
@@ -593,10 +606,10 @@
 		}
 
 		h1 {
-			font-size: 2rem;
+			font-size: 1.7rem;
 		}
 		h2 {
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 		}
 		h3 {
 			font-size: 1.25rem;

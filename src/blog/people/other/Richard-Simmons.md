@@ -1,5 +1,4 @@
 ---
-
 title: 'Richard Simmons An Enneagram Type 2'
 description: 'Why Richard Simmons appears to be a type 2'
 author: 'DJ Wayne'
