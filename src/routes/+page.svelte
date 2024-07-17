@@ -92,7 +92,7 @@
 			</div>
 			<div class="question-list" style="width: 100%; padding: .5rem">
 				{#each data?.top5Questions as questionData}
-					<QuestionItem {questionData} />
+					<QuestionItem {questionData} showDetails={false} />
 				{/each}
 			</div>
 		</div>

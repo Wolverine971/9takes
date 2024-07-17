@@ -72,7 +72,6 @@
 			loading = false;
 			linkData = data ? true : false;
 		} catch (e) {
-			console.log(e);
 			loading = false;
 		}
 	};

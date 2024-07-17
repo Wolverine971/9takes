@@ -2,6 +2,7 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 
 	export let questionData: any;
+	export let showDetails = true;
 	let innerWidth = 0;
 
 	const dateObj = new Date(questionData?.created_at);
@@ -16,28 +17,31 @@
 <div style="display: flex; justify-content: flex-start; align-items: center;">
 	<a
 		href="/questions/{questionData.url}"
-		class="question-card {innerWidth > 1500 && 'shimmer-button'}"
+		class="question-card {innerWidth > 1500 && 'shimmer-button'} {showDetails &&
+			'question-card-details'}"
 		data-sveltekit-preload-data="tap"
 	>
 		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
 			{questionData.question_formatted || questionData.question}
 		</p>
-		<!-- <div class="small-div">
-			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
-				{#if questionData.comment_count}
-					{questionData.comment_count}
-				{/if}
-				<MasterCommentIcon
-					iconStyle={'margin-left: .5rem'}
-					height={'1.5rem'}
-					fill={questionData.comment_count ? '#5407d9' : ''}
-					type={questionData.comment_count ? 'multiple' : 'empty'}
-				/>
-			</span>
-			<span class="date-span">
-				{newDate}
-			</span>
-		</div> -->
+		{#if showDetails}
+			<div class="small-div">
+				<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
+					{#if questionData.comment_count}
+						{questionData.comment_count}
+					{/if}
+					<MasterCommentIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={questionData.comment_count ? '#5407d9' : ''}
+						type={questionData.comment_count ? 'multiple' : 'empty'}
+					/>
+				</span>
+				<span class="date-span">
+					{newDate}
+				</span>
+			</div>
+		{/if}
 	</a>
 </div>
 
@@ -61,8 +65,10 @@
 		border: var(--classic-border);
 		border-radius: var(--base-border-radius);
 		word-break: keep-all;
-
 		padding: 0.3rem;
+		min-width: 47px;
+		display: flex;
+		justify-content: center;
 	}
 	.small-div {
 		display: flex;
@@ -70,7 +76,6 @@
 		align-items: center;
 	}
 	.question-card {
-		// width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -85,6 +90,15 @@
 		// box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
 		// 	0 1px 5px 0 rgb(0 0 0 / 12%);
 	}
+	.question-card-details {
+		border: 1px solid white;
+		width: 100%;
+	}
+
+	.question-card-details:hover {
+		border: 1px solid var(--color-theme-purple-v);
+	}
+
 	.question-card:hover {
 		// background-color: rgba(255, 255, 255, 0.5);
 		// background-color: var(--color-theme-purple-v);
