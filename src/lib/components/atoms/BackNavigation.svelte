@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
+
 	let navSteps: { name: string; url: string }[] = [];
 	onMount(async () => {
 		if ($page.route.id) {

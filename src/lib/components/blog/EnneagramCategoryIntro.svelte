@@ -168,7 +168,9 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
+				<li>
+					<a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a>
+				</li>
 				<li>
 					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
 				</li>

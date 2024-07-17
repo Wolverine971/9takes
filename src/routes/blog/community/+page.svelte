@@ -35,7 +35,7 @@
 						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 				>
 					<div class={blog.pic ? 'txt-white' : 'txt-dark'}>
-						<h3>
+						<h3 style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
 							{blog.title}
 						</h3>
 						<p class="font-adjust-p">{blog.description}</p>
@@ -53,6 +53,7 @@
 				<a
 					href={`/blog/community/${blog.slug}`}
 					class="grid-item inline-it"
+					style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 					style={blog.pic &&
 						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 				>

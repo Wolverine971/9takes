@@ -55,7 +55,7 @@
 							/>
 						{/if}
 						<div class="fit-card txt-white">
-							<h3>
+							<h3 style:--tag={`h-blog-${person.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
 								{person.slug.split('-').join(' ')}
 							</h3>
 						</div>

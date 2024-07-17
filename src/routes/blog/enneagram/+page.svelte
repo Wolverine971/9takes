@@ -45,7 +45,7 @@
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
 				<div class={eBlog.pic ? 'txt-white' : 'txt-dark'}>
-					<h3>
+					<h3 style:--tag={`h-blog-${eBlog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
 						{eBlog.title}
 					</h3>
 					<p class="font-adjust-p">{eBlog.description}</p>
@@ -85,6 +85,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -106,6 +110,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -148,6 +156,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -191,6 +203,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -234,6 +250,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>
@@ -276,6 +296,10 @@
 			<a
 				href="/blog/enneagram/{eBlog.slug}"
 				class="grid-item inline-it"
+				style:--tag={`h-blog-${eBlog.title
+					.toLowerCase()
+
+					.replace(/[^a-zA-Z0-9]/g, '')}`}
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
 			>

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
-
 	export let data: PageData;
 </script>
 
@@ -29,7 +28,7 @@
 					`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
 			>
 				<div class={blog.pic ? 'txt-white' : 'txt-dark'}>
-					<h3>
+					<h3 style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}>
 						{blog.title}
 					</h3>
 					<p class="font-adjust-p">{blog.description}</p>
@@ -41,6 +40,9 @@
 	<p>WIP 🚧</p>
 </div>
 
+<!-- style="--tag: h-blog--tough-conversations-to-have-with-your-partner-or-yngmi;" -->
+
+<!-- style="--tag: h-blog--tough-conversations-to-have-with-your-partner-or-yngmi;" -->
 <style lang="scss">
 	h3 {
 		font-size: 1.5rem;
