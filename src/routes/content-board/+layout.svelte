@@ -7,12 +7,6 @@
 </main>
 
 <style lang="scss">
-	@media (prefers-reduced-motion: no-preference) {
-		[style*='--tag'] {
-			view-transition-name: var(--tag);
-		}
-	}
-
 	.column {
 		overflow: auto;
 	}

@@ -51,13 +51,13 @@
 
 				<div class="main-description">
 					<h1 style="margin: 0;">
-						Be the person who knows all takes on the <b class="purple-text">question</b>.
+						Stress test your <b class="purple-text">questions</b> to be in the know 😏.
 					</h1>
 					<h2 style="font-size: x-large">
-						There are at least <b class="purple-text" style="font-size: xx-large; ">9</b>
-						personality types with <br /> different
+						<b class="purple-text" style="font-size: xx-large; ">9</b>
+						personality types have different <br />
 						<b class="purple-text" style="font-size: xx-large; ">takes</b>
-						on it...
+						on your question...
 						<br />
 						at least.
 					</h2>

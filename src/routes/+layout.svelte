@@ -75,12 +75,6 @@
 </main>
 
 <style lang="scss">
-	@media (prefers-reduced-motion: no-preference) {
-		[style*='--tag'] {
-			view-transition-name: var(--tag);
-		}
-	}
-
 	.jumbo-name {
 		position: relative;
 		font-size: 3.25rem;
