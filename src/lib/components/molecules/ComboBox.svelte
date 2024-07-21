@@ -11,7 +11,7 @@
 	export let label = '';
 	export let loading = false;
 	export let name;
-	export let options = [];
+	export let options = []; // : {text:string value: any}[]
 	export let placeholder = undefined;
 	export let readonly = undefined;
 	export let required = undefined;
@@ -194,17 +194,12 @@
 	}
 
 	function selectOption(optionElement) {
-		value = optionElement.dataset.value;
+		const selection = options.find((o) => o.text === optionElement.dataset.text);
+		value = selection.value;
 
-		selectedOption = {
-			text: optionElement.dataset.text,
-			value: optionElement.dataset.value
-		};
-		const selection = options[optionElement.value]?.value;
-		// .find((o) => {
-		// 	o.text === selectedOption.text;
-		// });
-		dispatch('selection', selection);
+		selectedOption = selection;
+
+		dispatch('selection', value);
 	}
 </script>
 

@@ -35,15 +35,22 @@
 		return acc;
 	}, {});
 
-	const goToCreateQuestionPage = () => {
+	const goToCreateQuestionPage = ({ detail }: { detail: string }) => {
 		// cannot create question if you are not logged in
-		if (!data?.session?.user?.id) {
-			// notifications.warning('Must be logged in to ask a question', 3000);
-			goto(`/register`, { invalidateAll: true });
-		}
 
+		const question = detail;
+		if (!data?.session?.user?.id) {
+			goto(`/register`, { invalidateAll: true });
+			return;
+		}
+		let url: string;
+		if (typeof question === 'string') {
+			url = `/questions/create/?question=${question}`;
+		} else {
+			url = `/questions/create/`;
+		}
 		setTimeout(() => {
-			goto(`/questions/create/`, { invalidateAll: true });
+			goto(url, { invalidateAll: true });
 		}, 0);
 	};
 	// const findParent = (qTag) => {
@@ -65,7 +72,13 @@
 <div class="background-area-box-tint">
 	<h1 style="margin: 0 0 .5rem 0;">Questions</h1>
 
-	<SearchQuestion {data} />
+	<SearchQuestion
+		{data}
+		on:createQuestion={goToCreateQuestionPage}
+		on:questionSelected={({ detail }) => {
+			goto(`/questions/${detail.url}`, {});
+		}}
+	/>
 
 	<div class="question-category-div">
 		<h2 style="margin-top: 0;">Categories</h2>

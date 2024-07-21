@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { invalidateAll } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { QuestionItem } from '$lib/components';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 
@@ -19,7 +19,12 @@
 </svelte:head>
 
 <div>
-	<SearchQuestion {data} />
+	<SearchQuestion
+		{data}
+		on:questionSelected={({ detail }) => {
+			goto(`/questions/${detail.url}`, {});
+		}}
+	/>
 	<h1 class="question-box" id="question-box" itemprop="name">
 		{data?.questionTag?.tag_name}
 	</h1>
