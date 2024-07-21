@@ -33,7 +33,6 @@
 	const searchES = async (searchString: string) => {
 		let body = new FormData();
 		body.append('searchString', searchString);
-
 		await fetch('/questions?/typeahead', {
 			method: 'POST',
 			body
