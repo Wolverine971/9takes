@@ -6,10 +6,9 @@
 	export let imagePositions;
 	export let question;
 	export let question2;
-
 	export let question3;
 
-	import Frame from './Frame.svelte';
+	import Frame from './frame.svelte';
 	import Rubix from '../icons/rubix.svelte';
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';

@@ -2,7 +2,7 @@
 	import { createEventDispatcher } from 'svelte';
 	import type { Writable } from 'svelte/store';
 	import Rubix from '../icons/rubix.svelte';
-	import Frame from './Frame.svelte';
+	import Frame from './frame.svelte';
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';
 
