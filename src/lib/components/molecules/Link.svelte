@@ -83,7 +83,7 @@
 	{#if loading}
 		<div class="loader" />
 	{:else if linkData}
-		<a href={link.url} class="item">
+		<a href={link.url} class="link-item">
 			<img src={imageSrc} alt="" />
 			<h3>{title}</h3>
 			<p>{description}</p>
@@ -126,7 +126,7 @@
 		height: 100%;
 		object-fit: cover;
 	}
-	.item {
+	.link-item {
 		margin: 1rem 0;
 		width: 100%;
 		height: 300px;
@@ -142,5 +142,7 @@
 		transition: all 0.4s ease-in-out;
 		-webkit-transition: all 0.4s ease-in-out;
 		cursor: pointer;
+		padding: 1rem;
+		filter: brightness(0) invert(1);
 	}
 </style>

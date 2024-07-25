@@ -61,7 +61,7 @@
 </script>
 
 <svelte:head>
-	<title>9takes | Questions</title>
+	<title>Get different takes on any Questions</title>
 	<meta
 		name="description"
 		content="User generated questions and answers, can sort by Enneagram personality type but cannot see comments until you comment 😉"

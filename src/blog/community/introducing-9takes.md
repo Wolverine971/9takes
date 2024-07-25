@@ -4,7 +4,7 @@ description: 'A Q&A platform fostering diverse, built on anonymous perspectives 
 author: 'DJ Wayne'
 date: '2023-04-17'
 loc: 'https://9takes.com/blog/community/introducing-9takes'
-lastmod: '2024-03-28'
+lastmod: '2024-07-24'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -46,11 +46,11 @@ pic: 'greek-statue-introducing-9takes'
 
 <p class="firstLetter">Where are the good conversations happening online?<p>
 
-Is there any place left where you can get multiple perspectives?
+Where can you safely get multiple authentic and unbiased perspectives?
 
-Most of the forums have devolved into echo chambers. The platforms have chosen sides. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
+Forums like reddit and facebook threads, and even twitter over time have users cluster around different topics and echo chambers form. Even well meaning platforms cannot help but get this way and it is mostly due to users being able to read comments passively. We need to go back to the early days when conversations were unfiltered, real and where you could be happily surprised by what you stumbled upon online.
 
-9takes is fixing the problem of echo chambers.
+9takes is on a mission to fix echo chamber problem.
 
 ## Why Social Media isn't Social Anymore
 
