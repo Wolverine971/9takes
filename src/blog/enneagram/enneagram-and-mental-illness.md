@@ -4,7 +4,7 @@ description: "Explore each Enneagram type's mental health risks and shadow side 
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
-lastmod: '2024-05-02'
+lastmod: '2024-07-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -126,6 +126,37 @@ Sophia, a high-achieving student, wants to get into an Ivy League college. This 
 ### Negative Coping Mechanisms of Type 3
 
 Type 3s might resort to dishonesty and a false self-image to maintain their facade of success. This behavior can deepen their inner emptiness and escalate to narcissistic tendencies and depression.
+
+<!-- enneagram-mental-health-flags
+
+toxic-traits-of-each-enneagram-type
+
+
+ -->
+ <div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;"
+>
+    <a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-of-athena-with-red.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health Flags of Each Type"
+          scramble={false}
+      />
+     </a>
+    <a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-showing-cracks.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="The Toxic Traits of Each Type"
+          scramble={false}
+      />
+    </a>
+</div>
 
 ## Mental Health Risks of the Enneagram Type 4: The Individualist
 
@@ -252,7 +283,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-05-02"
+        "@value": "2024-07-28"
       },
       "datePublished": {
         "@type": "Date",
@@ -328,4 +359,8 @@ If you like diving into personality, explore our <a href="/questions" >questions
 </svelte:head>
 
 <style lang="scss">
+  .blog-link:after{
+    content: none;
+
+  }
 </style>

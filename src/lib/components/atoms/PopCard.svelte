@@ -12,6 +12,8 @@
 	export let altText: string = '';
 	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
 
+	export let scramble: boolean = true;
+
 	export let tint: boolean = true;
 
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -21,7 +23,9 @@
 		if (interval) {
 			clearInterval(interval);
 		}
-		scribbleScrabble();
+		if (scramble) {
+			scribbleScrabble();
+		}
 	}
 
 	let interval: string | number | NodeJS.Timeout | null | undefined = null;
@@ -135,9 +139,11 @@
 	role="button"
 	tabindex="0"
 	on:mouseover={() => {
-		scribbleScrabble();
-		if (!enneagramType) {
+		if (scramble) {
 			scribbleScrabble();
+			if (!enneagramType) {
+				scribbleScrabble();
+			}
 		}
 	}}
 	on:mouseenter={() => {
