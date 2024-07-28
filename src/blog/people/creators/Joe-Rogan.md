@@ -51,7 +51,7 @@ house
 Joe Rogan is hard to ignore. What enables him to garner such a significant influence across podcasting, comedy, and fighting? Today, we will examine his personality and explain why he might be an Enneagram Type 8 - The Challenger.
 
 <details>
-<summary class="accordion">TL;DR: Why Joe Rogan is an Enneagram type 8 </summary>
+<summary class="accordion">TL;DR: Why Joe Rogan is an Enneagram Type 8 </summary>
 <div class="panel">
 <ul>
 <li><b>Fearless Challenger -</b> Joe Rogan, known for his wildly popular podcast, The Joe Rogan Experience, exemplifies an Enneagram Type 8, the Challenger. His assertive communication style, willingness to confront complex issues, and daring choices, like his move to Spotify, showcase his desire to assert dominance and maintain control - classic traits of Type 8.
