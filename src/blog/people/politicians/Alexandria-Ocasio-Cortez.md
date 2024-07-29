@@ -83,7 +83,7 @@ Counterphobic Sixes, instead of retreating from their fears, charge headlong int
 
 ### Taking on Titans: AOC vs. Elon Musk
 
-A prime example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="blog/famous-enneagram-types/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
+A prime example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
 
 "**Lmao at a billionaire earnestly trying to sell people on the idea that 'free speech' is actually a $8/mo subscription plan,**" AOC tweeted, taking a direct jab at Musk's Twitter Blue subscription model.
 
