@@ -58,10 +58,6 @@
 		}, 750);
 	};
 
-	const goToPage = async (page: any) => {
-		goto(`/questions/${page.url}`, {});
-	};
-
 	const questionDisplay = () => {
 		if (data?.session?.user?.id) {
 			if (data?.canAskQuestion) {

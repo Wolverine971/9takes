@@ -89,6 +89,7 @@
 				flag = true;
 				break;
 			case 'Enter': {
+				loading = true;
 				dispatch('selectQuestion', {
 					text: event.target.value
 				});
@@ -194,6 +195,7 @@
 	}
 
 	function selectOption(optionElement) {
+		loading = true;
 		const selection = options.find((o) => o.text === optionElement.dataset.text);
 		value = selection.value;
 
@@ -226,7 +228,7 @@
 			on:keyup={onInputKeyup}
 			on:keydown={onInputKeydown}
 			on:mousedown={onInputClick}
-			class="combobox__input"
+			class="combobox__input "
 			{id}
 			{name}
 			type="text"
@@ -242,6 +244,11 @@
 			aria-controls="combobox__list"
 			aria-required={required ? 'true' : undefined}
 		/>
+		{#if loading}
+			<div class="icon-container">
+				<i class="loadering" />
+			</div>
+		{/if}
 
 		<ul
 			id="combobox__list"
@@ -346,6 +353,60 @@
 
 	.combobox:focus-within .combobox__input {
 		border-color: var(--accent-color);
+	}
+
+	.loading {
+		// background: url(http://www.xiconeditor.com/image/icons/loading.gif) no-repeat right center;
+		background-color: var(--base-grey-1);
+		background-image: url('http://loadinggif.com/images/image-selection/3.gif');
+		background-size: 25px 25px;
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+
+	.icon-container {
+		position: absolute;
+		right: 10px;
+		top: calc(50% - 10px);
+	}
+	.loadering {
+		position: relative;
+		height: 20px;
+		width: 20px;
+		display: inline-block;
+		animation: around 5.4s infinite;
+	}
+
+	@keyframes around {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	.loadering::after,
+	.loadering::before {
+		content: '';
+		background: transparent; // var(--base-grey-1);
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		border-width: 2px;
+		border-color: #333 #333 transparent transparent;
+		border-style: solid;
+		border-radius: 20px;
+		box-sizing: border-box;
+		top: 0;
+		left: 0;
+		animation: around 0.7s ease-in-out infinite;
+	}
+
+	.loadering::after {
+		animation: around 0.7s ease-in-out 0.1s infinite;
+		background: transparent;
 	}
 
 	.combobox__list {

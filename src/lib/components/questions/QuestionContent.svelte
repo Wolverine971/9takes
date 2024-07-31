@@ -521,7 +521,7 @@
 		}
 
 		.tab-links {
-			flex-direction: column;
+			// flex-direction: column;
 			align-items: center;
 			gap: 0.25rem;
 		}
