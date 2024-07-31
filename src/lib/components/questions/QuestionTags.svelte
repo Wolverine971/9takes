@@ -46,7 +46,7 @@
 		// right: -1px;
 		// border-radius: 0 0 0 5px;
 		text-decoration: none;
-		border: var(--classic-border);
+		border: 1px solid white;
 		border-radius: var(--base-border-radius);
 		word-break: keep-all;
 

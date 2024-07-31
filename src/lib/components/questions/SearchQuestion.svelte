@@ -120,4 +120,8 @@
 			flex-direction: column;
 		}
 	}
+	.disabled-btn {
+		color: grey;
+		border: 1px solid white;
+	}
 </style>

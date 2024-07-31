@@ -126,17 +126,10 @@
 		margin: 1rem 0;
 		padding: 1rem;
 		// border: 1px solid var(--color-theme-purple-v);
-		border: var(--classic-border);
+		border: 1px solid white;
 		border-radius: var(--base-border-radius);
 	}
-	.tags-div {
-		margin: 0.5rem;
-		padding: 0.5rem;
-		display: flex;
-		flex-direction: column;
-		max-height: 100px;
-		overflow-y: auto;
-	}
+
 	.big-tags {
 		display: flex;
 		flex-wrap: wrap;
@@ -154,7 +147,8 @@
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;
-		border: var(--classic-border);
+		background-color: var(--base-grey-2);
+		// border: var(--classic-border);
 		width: fit-content;
 		cursor: pointer;
 		&:hover {
