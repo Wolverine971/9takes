@@ -1,63 +1,35 @@
 <script lang="ts">
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
-
 	import type { PageData } from './$types';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import { notifications } from '$lib/components/molecules/notifications';
 	import { goto, invalidateAll } from '$app/navigation';
-	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-
-	// interface QuestionsData extends PageData {
-	// 	questions: any[];
-	// 	count: number;
-	// }
 
 	export let data: PageData;
 
-	const questionUrls: any = {};
-	const questionCategories: any = {};
-	let count = 20;
+	$: categories = processQuestionsAndTags(data.questionsAndTags);
 
-	const categories = data.questionsAndTags?.reduce((acc: any, curr: any) => {
-		if (!questionUrls[curr.url]) {
-			const key = curr.tag_name;
-			const subcategoryId = curr.subcategory_id;
-			questionCategories[subcategoryId] =
-				questionCategories[subcategoryId] && questionCategories[subcategoryId].length
-					? [...questionCategories[subcategoryId], curr]
-					: [curr];
+	function processQuestionsAndTags(questionsAndTags) {
+		const questionUrls = new Set();
+		return questionsAndTags.reduce((acc, curr) => {
+			if (!questionUrls.has(curr.url)) {
+				const key = curr.tag_name;
+				questionUrls.add(curr.url);
+				acc[key] = acc[key] || [];
+				acc[key].push(curr);
+			}
+			return acc;
+		}, {});
+	}
 
-			acc[key] = acc[key] || [];
-			acc[key].push(curr);
-			questionUrls[curr.url] = 1;
-		}
-
-		return acc;
-	}, {});
-
-	const goToCreateQuestionPage = ({ detail }: { detail: string }) => {
-		// cannot create question if you are not logged in
-
-		const question = detail;
+	function goToCreateQuestionPage({ detail }: { detail: string }) {
 		if (!data?.session?.user?.id) {
 			goto(`/register`, { invalidateAll: true });
 			return;
 		}
-		let url: string;
-		if (typeof question === 'string') {
-			url = `/questions/create/?question=${question}`;
-		} else {
-			url = `/questions/create/`;
-		}
-		setTimeout(() => {
-			goto(url, { invalidateAll: true });
-		}, 0);
-	};
-	// const findParent = (qTag) => {
-	// 	const subcategory = data.categories.find((c) => c.id === qTag.question_tag.subcategory_id);
-	// 	const parentSubcategory = data.categories.find((c) => c.id === subcategory.parent_id);
-	// 	return parentSubcategory.subcategory_name;
-	// };
+		const url =
+			typeof detail === 'string' ? `/questions/create/?question=${detail}` : '/questions/create/';
+		goto(url, { invalidateAll: true });
+	}
 </script>
 
 <svelte:head>
@@ -70,46 +42,43 @@
 </svelte:head>
 
 <div class="background-area-box-tint">
-	<h1 style="margin: 0 0 .5rem 0;">Questions</h1>
+	<h1>Questions</h1>
 
 	<SearchQuestion
 		{data}
 		on:createQuestion={goToCreateQuestionPage}
-		on:questionSelected={({ detail }) => {
-			goto(`/questions/${detail.url}`, {});
-		}}
+		on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`, {})}
 	/>
 
 	<div class="question-category-div">
-		<h2 style="margin-top: 0;">Categories</h2>
+		<h2>Categories</h2>
 		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
 				{#if category}
 					<a
-						href={`/questions/categories/${category?.tag_name.split(' ').join('-')}`}
+						href={`/questions/categories/${category.tag_name.split(' ').join('-')}`}
 						class="tag shimmer-button"
 						data-sveltekit-preload-data="tap"
-						>{category?.tag_name}
+					>
+						{category.tag_name}
 					</a>
 				{/if}
 			{/each}
 		</div>
 	</div>
 
-	{#if categories}
-		{#each data.subcategoryTags as category}
-			{#if categories[category.tag_name]?.length}
+	{#each data.subcategoryTags as category}
+		{#if categories[category.tag_name]?.length}
+			<div>
+				<h3 id={category.tag_name}>{category.tag_name}</h3>
 				<div>
-					<h3 id={category.tag_name} style="margin: 0.5rem 0 .25rem 0">{category.tag_name}</h3>
-					<div>
-						{#each categories[category.tag_name] as questionData}
-							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
-						{/each}
-					</div>
+					{#each categories[category.tag_name] as questionData}
+						<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
+					{/each}
 				</div>
-			{/if}
-		{/each}
-	{/if}
+			</div>
+		{/if}
+	{/each}
 </div>
 
 <style lang="scss">
@@ -120,12 +89,12 @@
 	h5,
 	h6 {
 		padding: 0;
+		margin: 0.5rem 0 0.25rem 0;
 	}
 
 	.question-category-div {
 		margin: 1rem 0;
 		padding: 1rem;
-		// border: 1px solid var(--color-theme-purple-v);
 		border: 1px solid white;
 		border-radius: var(--base-border-radius);
 	}
@@ -148,9 +117,9 @@
 		margin: 0.25rem;
 		padding: 0.25rem;
 		background-color: var(--base-grey-2);
-		// border: var(--classic-border);
 		width: fit-content;
 		cursor: pointer;
+
 		&:hover {
 			background-color: var(--base-white-outline);
 		}

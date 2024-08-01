@@ -1,12 +1,15 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
-	export let question: any;
+
+	export let question: { id: string; url: string; question: string; question_formatted?: string };
 	export let showDetails = true;
 	export let addQuestionMark = false;
-	let innerWidth = 0;
 
-	const opts = {
+	let innerWidth = 0;
+	let qrCodeUrl = '';
+
+	const QR_OPTS = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
 		quality: 0.7,
@@ -16,58 +19,60 @@
 			light: '#c1c0c036'
 		}
 	};
-	const calcSize = (text: string) => {
-		if (text.length < 45) {
-			return innerWidth > 400 ? '2.3rem' : '1.9rem';
-		} else if (text.length < 60) {
-			return innerWidth > 400 ? '2.2rem' : '1.8rem';
-		} else if (text.length < 80) {
-			return innerWidth > 400 ? '2.1rem' : '1.7rem';
-		} else if (text.length < 105) {
-			return innerWidth > 400 ? '2rem' : '1.6rem';
-		} else if (text.length < 115) {
-			return innerWidth > 400 ? '1.9rem' : '1.5rem';
-		} else if (text.length < 130) {
-			return innerWidth > 400 ? '1.8rem' : '1.4rem';
-		} else if (text.length < 150) {
-			return innerWidth > 400 ? '1.7rem' : '1.3rem';
-		} else if (text.length < 200) {
-			return innerWidth > 400 ? '1.6rem' : '1.2rem';
-		} else if (text.length < 220) {
-			return innerWidth > 400 ? '1.5rem' : '1.1rem';
-		} else if (text.length < 240) {
-			return innerWidth > 400 ? '1.4rem' : '1rem';
-		} else if (text.length < 290) {
-			return innerWidth > 400 ? '1.3rem' : '0.9rem';
-		} else if (text.length < 380) {
-			return innerWidth > 400 ? '0.75rem' : '0.8rem';
-		} else {
-			return innerWidth > 400 ? '0.5rem' : '0.7rem';
-		}
-	};
-	let num = Math.random();
-	let qrcodeid = `qr-image${num}`;
-	onMount(() => {
-		// autoGrow(document.getElementById('question-box'));
-		// window.addEventListener('resize', (event) => {
-		// 	autoGrow(document.getElementById('question-box'));
-		// });
-		QRCode.toDataURL(`https://9takes.com/questions/${question?.url}`, opts, function (err, url) {
-			if (err) throw err;
 
-			var img = document.getElementById(qrcodeid);
-			img.src = url;
-		});
+	$: fontSize = calcSize(question.question);
+	$: qrCodeSize = innerWidth > 400 ? '20%' : '30%';
+
+	function calcSize(text: string): string {
+		const lengths = [45, 60, 80, 105, 115, 130, 150, 200, 220, 240, 290, 380];
+		const sizes = [
+			'2.3rem',
+			'2.2rem',
+			'2.1rem',
+			'2rem',
+			'1.9rem',
+			'1.8rem',
+			'1.7rem',
+			'1.6rem',
+			'1.5rem',
+			'1.4rem',
+			'1.3rem',
+			'0.75rem',
+			'0.5rem'
+		];
+		const mobileSizes = [
+			'1.9rem',
+			'1.8rem',
+			'1.7rem',
+			'1.6rem',
+			'1.5rem',
+			'1.4rem',
+			'1.3rem',
+			'1.2rem',
+			'1.1rem',
+			'1rem',
+			'0.9rem',
+			'0.8rem',
+			'0.7rem'
+		];
+
+		const index = lengths.findIndex((length) => text.length < length);
+		return innerWidth > 400 ? sizes[index] : mobileSizes[index];
+	}
+
+	onMount(() => {
+		QRCode.toDataURL(`https://9takes.com/questions/${question.url}`, QR_OPTS)
+			.then((url) => (qrCodeUrl = url))
+			.catch((err) => console.error('QR Code generation failed:', err));
 	});
 </script>
 
 <svelte:window bind:innerWidth />
 
-<div style="display: flex; justify-content: center; align-items:center;">
+<div class="question-container">
 	<h1
 		class="question-box headline"
-		id="question-box"
-		style="overflow:hidden; font-size: {calcSize(question.question)}"
+		style="font-size: {fontSize}"
 		style:--tag={`h-question-${question.id}`}
 		itemprop="name"
 	>
@@ -76,16 +81,16 @@
 			? '?'
 			: ''}
 	</h1>
-	<img
-		id={qrcodeid}
-		src=""
-		alt="9takes QR Code"
-		class="qr-image-border"
-		style="width: {innerWidth > 400 ? '15%' : '30%'};"
-	/>
+	<img src={qrCodeUrl} alt="9takes QR Code" class="qr-image-border" style="width: {qrCodeSize};" />
 </div>
 
 <style lang="scss">
+	.question-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.qr-image-border {
 		border: var(--classic-border);
 		margin: 0.5rem;
@@ -94,21 +99,15 @@
 		background-color: var(--base-grey-2);
 		background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
 	}
+
 	.question-box {
-		// remove update
 		width: -webkit-fill-available;
 		border-radius: var(--base-border-radius);
-		// height: 24px;
-		// padding: 0.5rem 1rem;
 		color: var(--color-paladin-4);
-		font-size: 1.2rem;
-		// box-sizing: content-box;
-
 		margin: 0.25rem;
 	}
 
 	.headline {
-		font-size: 3em;
 		font-weight: bold;
 		text-transform: uppercase;
 		text-align: center;
@@ -116,9 +115,21 @@
 		width: 80%;
 		border: 1px solid var(--color-theme-purple-v);
 	}
+
 	@media (max-width: 700px) {
 		.headline {
 			border: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		article {
+			padding: 0;
+		}
+
+		.qr-image-border {
+			margin: 0;
+			padding: 0;
 		}
 	}
 </style>

@@ -1,15 +1,14 @@
 <script lang="ts">
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
-	import type { PageData } from './$types';
-
-	import { invalidateAll } from '$app/navigation';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
+	import type { PageData } from './$types';
+	import { invalidateAll } from '$app/navigation';
 
-	/** @type {import('./$types').PageData} */
 	export let data: PageData;
 
-	let dataForChild = Object.assign({}, data.question, {
+	$: dataForChild = {
+		...data.question,
 		removedComments: data.removedComments,
 		removed_comment_count: data.removed_comment_count,
 		comments: data.comments,
@@ -18,53 +17,38 @@
 		links: data.links,
 		links_count: data.links_count,
 		flags: data.flags
-	});
-
-	const addComment = async (newData: any) => {
-		setTimeout(async () => {
-			await fetch(`/comments?type=question&parentId=${data?.question?.id}`)
-				.then((response) => response.json())
-				.then((commentData) => {
-					if (!commentData?.message) {
-						dataForChild = Object.assign({}, data.question, {
-							removedComments: data.removedComments,
-							removed_comment_count: data.removed_comment_count,
-							comments: commentData,
-							comment_count: data.comment_count ? (data.comment_count += 1) : 1,
-							ai_comments: data.ai_comments,
-							links: data.links,
-							links_count: data.links_count,
-							flags: Object.assign({}, data.flags, { userHasAnswered: true })
-						});
-					}
-				});
-		}, 500);
-		invalidateAll();
 	};
 
-	const autoGrow = (element: HTMLElement | null) => {
-		if (element) {
-			element.style.height = '1rem';
-			element.style.height = element.scrollHeight + 'px';
+	async function addComment() {
+		await new Promise((resolve) => setTimeout(resolve, 500));
+		const response = await fetch(`/comments?type=question&parentId=${data?.question?.id}`);
+		const commentData = await response.json();
+		if (!commentData?.message) {
+			dataForChild = {
+				...dataForChild,
+				comments: commentData,
+				comment_count: (dataForChild.comment_count || 0) + 1,
+				flags: { ...dataForChild.flags, userHasAnswered: true }
+			};
 		}
-	};
+		invalidateAll();
+	}
 
 	let innerWidth = 0;
-	const bigTitle = `9takes | ${data.question.question_formatted || data.question.question}`;
-	let title = '';
-	if (bigTitle.length >= 57) {
-		title = `${bigTitle.slice(0, 57)}...`;
-	} else {
-		title = bigTitle;
+	$: title = computeTitle(data.question.question_formatted || data.question.question);
+
+	function computeTitle(questionText: string): string {
+		const fullTitle = `9takes | ${questionText}`;
+		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
 	}
 
 	const description = `🏛️ Give your take and get 9 different personalities' takes on this question.`;
-	const slug = data.question.url;
-	const url = `https://9takes.com/questions/${slug}`;
+	const url = `https://9takes.com/questions/${data.question.url}`;
 	const imgUrl = data.question?.img_url
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
-	const questionObject = {
+
+	const questionJsonLd = JSON.stringify({
 		'@context': 'https://schema.org',
 		'@type': 'QAPage',
 		mainEntity: {
@@ -73,26 +57,21 @@
 			answerCount: data.question.comment_count,
 			dateCreated: data.question.created_at
 		}
-	};
-	const questionJsonLd = JSON.stringify(questionObject);
+	});
 </script>
 
 <svelte:window bind:innerWidth />
 
 <svelte:head>
 	<title>{title}</title>
-
 	<link rel="canonical" href={url} />
 	<meta name="description" content={description} />
-	<meta name="viewport" content="width=device-width,initial-scale=1" />
-
 	<meta property="og:site_name" content="9takes" />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content={url} />
 	<meta property="og:image" content={imgUrl} />
-
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:card" content="summary" />
@@ -103,27 +82,20 @@
 	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 </svelte:head>
 
-<!-- <img src="https://9takes.com/blogs/looking-at-questions.webp" alt=""> -->
 <div class="question-area-box">
-	<!-- Question always renders -->
 	<article itemscope itemtype="https://schema.org/Question">
-		<!-- <section>
-		
-	</section> -->
 		<div>
 			<QuestionDisplay question={data.question} />
-
-			<!-- oninput="auto_grow(this)" -->
-			<!-- {data.question.question} -->
 			<Interact
 				{data}
 				questionId={data.question.id}
 				parentType={'question'}
-				on:commentAdded={({ detail }) => addComment(detail)}
+				on:commentAdded={addComment}
 				user={data?.session?.user}
 			/>
 		</div>
 	</article>
+
 	<aside class="aside-outline">
 		{#if data.questionTags}
 			{#if innerWidth > 1200}
@@ -133,7 +105,6 @@
 				<a
 					href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
 					class="tag"
-					style="text-decoration: none; color: hsl(222, 15%, 19%);"
 					rel="tag"
 				>
 					{tag.question_tag.tag_name}
@@ -146,33 +117,15 @@
 		<QuestionContent
 			data={dataForChild}
 			user={data?.session?.user}
-			on:commentAdded={({ detail }) => {
-				invalidateAll();
-			}}
+			on:commentAdded={() => invalidateAll()}
 		/>
 	{/if}
 </div>
 
 <style lang="scss">
-	.question-box {
-		// remove update
-		width: -webkit-fill-available;
-		border-radius: var(--base-border-radius);
-		// height: 24px;
-		// padding: 0.5rem 1rem;
-		color: var(--color-paladin-4);
-		font-size: 1.2rem;
-		// box-sizing: content-box;
-
-		margin: 0.25rem;
-	}
-
 	.tags-heading {
-		margin-left: 0.25rem;
-		margin-bottom: 0;
-		padding-bottom: 0;
-		margin-top: 0;
-		padding-top: 0;
+		margin: 0 0 0 0.25rem;
+		padding: 0;
 	}
 
 	.tag {
@@ -187,10 +140,14 @@
 		border: 1px solid var(--base-white-outline);
 		width: fit-content;
 		cursor: pointer;
+		text-decoration: none;
+		color: hsl(222, 15%, 19%);
+
 		&:hover {
 			background-color: var(--base-white-outline);
 		}
 	}
+
 	aside {
 		position: relative;
 		right: 0;
