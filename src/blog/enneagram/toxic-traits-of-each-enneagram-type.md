@@ -1,10 +1,10 @@
 ---
 title: '9 Dark Sides of Personality: The Toxic Traits in Each Enneagram Type'
-description: 'Discover the hidden toxic traits of each Enneagram type. Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.'
+description: 'Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.'
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/blog/enneagram/toxic-traits-of-each-enneagram-type'
-lastmod: '2024-07-15'
+lastmod: '2024-08-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -329,7 +329,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-15"
+        "@value": "2024-08-01"
       },
       "datePublished": {
         "@type": "Date",

@@ -101,7 +101,7 @@ As Timothée continues to take on challenging roles and expand his repertoire, w
 
 In true Type 6 fashion, Timothée seems to be constantly looking ahead, anticipating challenges, and working to overcome them. As he once said in an interview with The Guardian, "I want to attack life. I want to do everything I can while I'm still young."
 
-# Conclusion
+## Conclusion
 
 Timothée Chalamet's journey from a multicultural kid in New York to a Hollywood superstar is a fascinating study in how an Enneagram Type 6 navigates the world. His blend of anxiety and ambition, loyalty and skepticism, has shaped him into the complex, captivating actor we see today.
 

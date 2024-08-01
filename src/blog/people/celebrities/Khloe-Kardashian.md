@@ -95,7 +95,7 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 
 ## A Loyalist in the Limelight
 
-The complexity of Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
+Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
 
 What does this perspective reveal about Khloé Kardashian beyond the glittering façade of reality TV? Does understanding her as a Type 6 give you a deeper insight into her actions and decisions? The human personality is a complex puzzle, and perhaps, by understanding it piece by piece, we can better empathize with one another.
 

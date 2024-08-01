@@ -1,6 +1,6 @@
 ---
 title: 'Elon Musk: Inside the Mind of an Enneagram Type 5'
-description: 'Dive into the complex psyche of Elon Musk through the lens of Enneagram Type 5. Discover how his investigative nature shapes his world-changing ventures and quirky persona.'
+description: 'Dive into the psyche of Elon Musk. Discover how his investigative nature shapes his world-changing ventures and quirky persona.'
 author: 'DJ Wayne'
 date: '2023-09-03'
 loc: 'https://9takes.com/blog/famous-enneagram-types/Elon-Musk'

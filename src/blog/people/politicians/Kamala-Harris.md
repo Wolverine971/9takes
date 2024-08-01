@@ -1,5 +1,5 @@
 ---
-title: "Kamala Harris: The Achiever's Chameleon - An Enneagram Type 3 Deep Dive"
+title: 'Kamala Harris: The Chameleon Achiever and an Enneagram Type 3'
 description: 'Explore VP Kamala Harris through the lens of Enneagram Type 3. Discover how ambition and adaptability shape her political journey and leadership style.'
 author: 'DJ Wayne'
 date: '2023-06-21'

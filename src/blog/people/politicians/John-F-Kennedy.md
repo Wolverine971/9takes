@@ -105,7 +105,7 @@ Kennedy's tragic assassination cut short a presidency full of promise, but his i
 
 Interestingly, his nephew **Robert F. Kennedy Jr.** has followed in the family's political footsteps, though often taking controversial stances. While it's unclear if he shares his uncle's Enneagram type, the Kennedy drive for public engagement clearly runs in the family.
 
-# Conclusion: The Enduring Fascination of JFK
+## Conclusion: The Enduring Fascination of JFK
 
 John F. Kennedy's Type 7 personality – with its blend of charisma, optimism, and vision – helped shape one of the most memorable presidencies in American history. His life reminds us of the power of enthusiasm and the impact one individual can have on the world.
 

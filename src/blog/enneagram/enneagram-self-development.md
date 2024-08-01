@@ -60,10 +60,6 @@ Have you ever had a lightbulb moment when reading about your Enneagram type? May
 
 **Tip**: Take some time to reflect on your own patterns and motivations through the lens of your Enneagram type. Write down your insights in a journal and consider sharing them with a trusted friend or therapist.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
-</div>
-
 ### Practical Applications for Decision-Making
 
 Let's say you're a Type 6, the Loyalist, and you're faced with a big decision about whether to take a new job.
@@ -97,6 +93,82 @@ Imagine you're a Type 3, the Achiever, and you've been working tirelessly to ear
 In using the Enneagram as a tool for personal growth and self-improvement, it's important to remember that everyone's journey is unique. You should take what you need from the Enneagram and use it in a way that supports your own growth and wellbeing. Remember that this is a journey without a finish line.
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+
+<!--
+The Enneagram: Your Ultimate Guide to Self-Development
+Introduction
+
+Brief explanation of the Enneagram
+Personal anecdote about discovering the Enneagram
+Thesis: The Enneagram as a powerful tool for self-development
+
+1. Understanding the Enneagram: More Than Just Personality Types
+
+Overview of the nine types
+Explanation of childhood wounds and coping mechanisms
+The interconnected nature of the Enneagram
+
+2. The Transformative Power of Self-Awareness
+
+How the Enneagram reveals hidden patterns
+Case study: A personal breakthrough using the Enneagram
+Exercise: Identifying your core motivations and fears
+
+3. Practical Applications in Daily Life
+
+Decision-making through the lens of your type
+Improving relationships with Enneagram insights
+Career development and the Enneagram
+
+4. Navigating Stress and Growth
+
+Understanding stress and growth numbers
+Recognizing stress triggers for each type
+Strategies for leveraging your growth number
+
+5. Emotional Intelligence and the Enneagram
+
+Developing emotional awareness for each type
+Techniques for managing difficult emotions
+The role of the Enneagram in building empathy
+
+6. Breaking Free from Limiting Patterns
+
+Identifying and challenging core beliefs
+Strategies for personal growth for each type
+Exercise: Creating a personal development plan
+
+7. The Enneagram in Relationships
+
+Understanding compatibility between types
+Communication tips for each type combination
+Resolving conflicts using Enneagram insights
+
+8. Integrating the Enneagram with Other Self-Development Tools
+
+Combining the Enneagram with mindfulness practices
+The Enneagram and cognitive-behavioral techniques
+How the Enneagram complements other personality systems
+
+9. Advanced Enneagram Concepts
+
+Exploring subtypes and instinctual variants
+The role of wings in personality
+Understanding movement along the lines
+
+10. The Journey of Continuous Growth
+
+Setting realistic expectations for change
+Celebrating progress and embracing setbacks
+The lifelong nature of Enneagram work
+
+Conclusion
+
+Recap of key benefits
+Encouragement for readers to start their Enneagram journey
+Call-to-action: Join the 9takes community for more insights
+
+-->
 
 <svelte:head>
 

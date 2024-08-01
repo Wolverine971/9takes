@@ -96,7 +96,7 @@ Mara's portrayal of Therese was a testament to her ability to convey complex emo
 
 In "<a href="https://en.wikipedia.org/wiki/Una_(film)">Una</a>," Rooney Mara tackled one of the most challenging roles of her career, delivering a raw and unflinching performance that left audiences stunned.
 
-Mara played a woman confronting her childhood abuser, portrayed by Ben Mendelsohn, in a tense and emotionally charged drama. Her portrayal of Una was a tour de force, with Mara navigating the complex emotions of a survivor with remarkable authenticity and depth. Director Benedict Andrews praised Mara's ability to convey vulnerability and strength simultaneously, saying, "Rooney has this incredible capacity to be both incredibly vulnerable and incredibly strong at the same time."
+Mara played a woman confronting her childhood abuser, portrayed by Ben Mendelsohn, in a tense and emotionally charged drama. Her portrayal of Una was a tour de force, with Mara navigating the emotions of a survivor with remarkable authenticity and depth. Director Benedict Andrews praised Mara's ability to convey vulnerability and strength simultaneously, saying, "Rooney has this incredible capacity to be both incredibly vulnerable and incredibly strong at the same time."
 
 Mara's performance in "Una" was a testament to her fearlessness as an actress, as she tackled a subject matter that many would shy away from with honesty and grace.
 

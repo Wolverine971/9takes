@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Influences: Differing Traditions and Schools of Thought'
+title: 'Enneagram Influences: Exploring the Differing Traditions'
 description: 'Explore the different schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.'
 author: 'DJ Wayne'
 date: '2023-03-02'
