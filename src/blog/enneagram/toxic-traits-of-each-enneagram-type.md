@@ -1,5 +1,5 @@
 ---
-title: '9 Dark Sides of Personality: Unveiling Toxic Traits in Each Enneagram Type'
+title: '9 Dark Sides of Personality: The Toxic Traits in Each Enneagram Type'
 description: 'Discover the hidden toxic traits of each Enneagram type. Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.'
 author: 'DJ Wayne'
 date: '2024-07-12'
@@ -197,6 +197,31 @@ This constant testing often masks a deep fear of betrayal or abandonment. Type 6
 
 <a href="/blog/enneagram/enneagram-type-6">More on type Six</a>
 
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;"
+>
+    <a href="/blog/enneagram/how-each-ennagram-type-unwinds" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statues-at-the-beach.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health Flags of Each Type"
+          scramble={false}
+      />
+     </a>
+    <a href="/blog/enneagram/toxic-traits-relationships-warning-signs" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statues-in-a-tense-moment.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Toxic Traits Within a Relationship"
+          scramble={false}
+      />
+    </a>
+</div>
+
 ## Type 7: The Enthusiast's Escapist Tendencies
 
 ### Commitment Phobia
@@ -311,7 +336,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
         "@value": "2024-07-12"
       },
       "description": "Discover the hidden toxic traits of each Enneagram type. Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.",
-      "headline": "9 Dark Sides of Personality: Unveiling Toxic Traits in Each Enneagram Type",
+      "headline": "9 Dark Sides of Personality: The Toxic Traits in Each Enneagram Type",
       "image": {
         "@type": "ImageObject",
         "height": 900,

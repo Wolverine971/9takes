@@ -120,7 +120,7 @@ As we reflect on Dylan's legacy, we're left with a question: How might understan
       "dateModified": "2024-07-09",
       "datePublished": "2024-07-09",
       "description": "This blog post examines Bob Dylan's personality through the lens of the Enneagram Type 4, exploring his upbringing, rise to fame, major accomplishments, and how he has handled challenges and controversies.",
-      "headline": "The Individualist's Voice: Unveiling Bob Dylan's Enneagram Type 4 Personality",
+      "headline": "Bob Dylan: The Enneagram Type 4 Who Shaped a Generation",
       "image": {
         "@type": "ImageObject",
         "height": 900,

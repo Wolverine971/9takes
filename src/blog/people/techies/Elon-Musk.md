@@ -123,8 +123,6 @@ Elon's work ethic is legendary. He's been known to sleep on the factory floor du
 
 In interviews, Elon often speaks about visualizing complex systems in his head. This ability to create and manipulate mental models is a hallmark of the Type 5 mind, allowing them to see connections and possibilities that others might miss.
 
-Certainly. I'll add a section about Elon's relationships, focusing on his marriages and his relationship with Grimes, while also touching on how Type 5s behave in stress. Here's the new section:
-
 ## The Investigator in Love: Elon's Romantic Rollercoaster
 
 ### A Pattern of Intense, Short-Lived Connections

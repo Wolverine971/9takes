@@ -60,7 +60,7 @@ An innate desire for perfection and righteousness drives type 1 individuals. Rec
 - "You're the blueprint for doing things right."
 - "That 'stick to your morals' energy? Straight fire."
 
-[More on type 1s](/blog/enneagram/enneagram-type-1)
+[More on Type 1s](/blog/enneagram/enneagram-type-1)
 
 </article>
 
@@ -85,7 +85,7 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 - "You're the real MVP of making everyone feel seen."
 - "You drip kindness like it's the latest trend."
 
-[More on type 2s](/blog/enneagram/enneagram-type-2)
+[More on Type 2s](/blog/enneagram/enneagram-type-2)
 
 </article>
 
@@ -110,7 +110,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 - "Your achievements are the tea everyone's sipping."
 - "Your style? Always on point, just like your game plan."
 
-[More on type 3s](/blog/enneagram/enneagram-type-3)
+[More on Type 3s](/blog/enneagram/enneagram-type-3)
 
 <div
     style="display: flex;
@@ -151,7 +151,7 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 - "Your individuality is the main character energy we all need."
 - "Your style is the vibe check everyone fails next to."
 
-[More on type 4s](/blog/enneagram/enneagram-type-4)
+[More on Type 4s](/blog/enneagram/enneagram-type-4)
 
 </article>
 
@@ -176,7 +176,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 - "Your insights? Straight outta tomorrow."
 - "Every time you share knowledge, it's a whole vibe."
 
-[More on type 5s](/blog/enneagram/enneagram-type-5)
+[More on Type 5s](/blog/enneagram/enneagram-type-5)
 
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
@@ -205,7 +205,7 @@ Type 6 personalities value security and trust. Acknowledging their dedication an
 - "Your vibe is like a loyalty card with infinite rewards."
 - "Every crew needs a you. Period."
 
-[More on type 6s](/blog/enneagram/enneagram-type-6)
+[More on Type 6s](/blog/enneagram/enneagram-type-6)
 
 </article>
 
@@ -230,7 +230,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 - "You're the sprinkle of hype in every situation."
 - "If joy was a brand, you'd be its ambassador."
 
-[More on type 7s](/blog/enneagram/enneagram-type-7)
+[More on Type 7s](/blog/enneagram/enneagram-type-7)
 
 <div
     style="display: flex;
@@ -271,7 +271,7 @@ Type 8 personalities are natural leaders driven by a desire to control their env
 - "Your strength? It's the blueprint. Period."
 - "If power had a look, it'd be you stepping into a room."
 
-[More on type 8s](/blog/enneagram/enneagram-type-8)
+[More on Type 8s](/blog/enneagram/enneagram-type-8)
 
 </article>
 
@@ -296,7 +296,7 @@ Type 9 individuals are the peacekeepers. Celebrating their mediation skills and 
 - "In life's soundtrack, you're the soothing interlude."
 - "You're the vibe everyone needs on their 'chill' playlist."
 
-[More on type 9s](/blog/enneagram/enneagram-type-9)
+[More on Type 9s](/blog/enneagram/enneagram-type-9)
 
 </article>
 
