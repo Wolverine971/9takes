@@ -1,81 +1,83 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import { createEventDispatcher } from 'svelte';
+	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
+	import { debounce } from '../../utils/debounce'; // Implement this utility function
+
 	const dispatch = createEventDispatcher();
 
-	let loading = false;
-
-	// export let nested: boolean = false;
 	export let parentType: string = 'comment';
-
 	export let user: any;
 	export let questionId: number;
 	export let comments: any[];
 	export let comment_count: number;
 	export let parentData: any;
 
-	// Database['public']['Tables']['comments']['Row'][]
-	// let comments: any[] = parentData?.comments || [];
+	$: lastDate = comments.length ? comments[comments.length - 1]?.created_at || null : null;
 
-	const lastDate = comments?.length ? comments[comments?.length - 1]?.created_at || null : null;
+	let loading = false;
 
-	const loadMore = async () => {
+	const loadMore = debounce(async () => {
+		if (loading) return;
 		loading = true;
-		await fetch(
-			`/comments?type=${parentType}&parentId=${
-				parentType === 'question' ? questionId : parentData.id
-			}&lastDate=${lastDate}&range=${comments?.length || 0}`
-		)
-			.then((response) => response.json())
-			.then((commentData) => {
-				if (!commentData?.message) {
-					comments = [...comments, ...commentData];
-					loading = false;
-				}
-			});
-	};
+		try {
+			const response = await fetch(
+				`/comments?type=${parentType}&parentId=${
+					parentType === 'question' ? questionId : parentData.id
+				}&lastDate=${lastDate}&range=${comments.length || 0}`
+			);
+			const newComments = await response.json();
+			if (!newComments?.message) {
+				comments = [...comments, ...newComments];
+			}
+		} catch (error) {
+			console.error('Error loading comments:', error);
+		} finally {
+			loading = false;
+		}
+	}, 300);
 
 	const refreshComments = async (data: any) => {
-		if (parentType !== 'question') {
-			return;
-		}
+		if (parentType !== 'question') return;
 		dispatch('commentAdded');
 		loading = true;
-		await fetch(
-			`/comments?type=${parentType}&parentId=${
-				parentType === 'question' ? questionId : parentData.id
-			}&lastDate=${lastDate}`
-		)
-			.then((response) => response.json())
-			.then((commentData) => {
-				if (!commentData?.message) {
-					comments = [...commentData];
-					comment_count += 1;
-					loading = false;
-				}
-			});
+		try {
+			const response = await fetch(
+				`/comments?type=${parentType}&parentId=${questionId}&lastDate=${lastDate}`
+			);
+			const newComments = await response.json();
+			if (!newComments?.message) {
+				comments = newComments;
+				comment_count += 1;
+			}
+		} catch (error) {
+			console.error('Error refreshing comments:', error);
+		} finally {
+			loading = false;
+		}
 	};
 </script>
 
-{#if comment_count > 0 && comments?.length === 0 && parentType === 'question' && parentData?.flags?.userHasAnswered}
+{#if comment_count > 0 && comments.length === 0 && parentType === 'question' && parentData?.flags?.userHasAnswered}
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 
-{#if !browser || (comments?.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments?.length && parentType === 'comment')}
-	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
-	{#if comments?.length}
-		{#each comments as comment}
-			<Comment
-				{questionId}
-				{comment}
-				{user}
-				{parentData}
-				on:commentAdded={({ detail }) => refreshComments(detail)}
-			/>
+{#if !browser || (comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment')}
+	{#if comments.length}
+		{#each comments as comment (comment.id)}
+			<div transition:fade>
+				<Comment
+					{questionId}
+					{comment}
+					{user}
+					{parentData}
+					on:commentAdded={({ detail }) => refreshComments(detail)}
+				/>
+			</div>
 		{/each}
-		{#if comments?.length < comment_count && parentData?.flags?.userHasAnswered}
-			<button class="btn btn-secondary" on:click={loadMore}>
+		{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}
+			<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
 				{#if loading}
 					<div class="loader" />
 				{:else}
@@ -84,7 +86,7 @@
 			</button>
 		{/if}
 	{:else}
-		<p>nothing right now</p>
+		<p>No comments yet</p>
 	{/if}
 {/if}
 
