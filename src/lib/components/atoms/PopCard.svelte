@@ -1,74 +1,56 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
-	/* -- Glow effect -- */
 
-	export let image: string = 'cyber-campfire.webp';
-	export let showIcon: boolean = true;
-	export let aspectRatio: string = '';
-
-	export let displayText: string = '';
-	export let enneagramType: number = 0;
-	export let altText: string = '';
-	export let subtext: string = 'Ask questions, give your hot takes, talk to people';
-
-	export let scramble: boolean = true;
-
-	export let tint: boolean = true;
+	export let image = 'cyber-campfire.webp';
+	export let showIcon = true;
+	export let aspectRatio = '';
+	export let displayText = '';
+	export let enneagramType = 0;
+	export let altText = '';
+	export let subtext = 'Ask questions, give your hot takes, talk to people';
+	export let scramble = true;
+	export let tint = true;
 
 	const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	let doc: boolean = false;
+	let doc = false;
+	let interval: NodeJS.Timeout | null = null;
+	let showDescription = false;
+	let innerWidth = 0;
 
-	$: if (image && doc) {
-		if (interval) {
-			clearInterval(interval);
-		}
-		if (scramble) {
-			scribbleScrabble();
-		}
+	$: if (image && doc && scramble) {
+		clearInterval(interval);
+		scribbleScrabble();
 	}
 
-	let interval: string | number | NodeJS.Timeout | null | undefined = null;
 	onMount(() => {
 		doc = true;
-		if (!showIcon) {
-			return;
-		}
-
-		/* -- Text effect -- */
 	});
-	const scribbleScrabble = () => {
-		let name = document.querySelector('.name-pop');
+
+	function scribbleScrabble() {
+		const name = document.querySelector('.name-pop');
+		if (!name) return;
+
 		let iteration = 0;
+		clearInterval(interval);
 
-		if (interval) {
-			clearInterval(interval);
-		}
-		if (name) {
-			interval = setInterval(() => {
-				if (name) {
-					name.innerText = displayText
-						.split('')
-						.map((letter, index) => {
-							if (index < iteration) {
-								return name?.dataset?.value[index];
-							}
-
-							return letters[Math.floor(Math.random() * 26)];
-						})
-						.join('');
-
-					if (iteration && iteration >= name.dataset.value.length) {
-						clearInterval(interval);
+		interval = setInterval(() => {
+			name.textContent = displayText
+				.split('')
+				.map((letter, index) => {
+					if (index < iteration) {
+						return name.dataset.value[index];
 					}
-				}
+					return letters[Math.floor(Math.random() * 26)];
+				})
+				.join('');
 
-				iteration += 1 / 3;
-			}, 30);
-		}
-	};
-
-	let showDescription = false;
+			if (iteration >= name.dataset.value.length) {
+				clearInterval(interval);
+			}
+			iteration += 1 / 3;
+		}, 30);
+	}
 
 	let enneagramTypeCheatSheet = [
 		{
@@ -126,7 +108,6 @@
 			CommonStereotypes: 'Complacent, indecisive, disengaged.'
 		}
 	];
-	let innerWidth = 0;
 </script>
 
 <svelte:window bind:innerWidth />
@@ -138,28 +119,15 @@
 	aria-roledescription="card"
 	role="button"
 	tabindex="0"
-	on:mouseover={() => {
-		if (scramble) {
-			scribbleScrabble();
-			if (!enneagramType) {
-				scribbleScrabble();
-			}
-		}
-	}}
-	on:mouseenter={() => {
-		showDescription = true;
-	}}
-	on:focus={() => {
-		showDescription = true;
-	}}
-	on:mouseleave={() => {
-		showDescription = false;
-	}}
+	on:mouseover={() => scramble && scribbleScrabble()}
+	on:mouseenter={() => (showDescription = true)}
+	on:focus={() => (showDescription = true)}
+	on:mouseleave={() => (showDescription = false)}
 >
 	<img
-		srcset="
-		{`${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()} 218w,`}
-		{image} 560w"
+		srcset="{`${image.split('/').slice(0, -1).join('/')}/s-${image
+			.split('/')
+			.pop()} 218w,`} {image} 560w"
 		loading="lazy"
 		sizes="(max-width: 560px) 218px, 560px"
 		class="pop-card-image {showIcon ? 'home' : 'profileFace'} {tint &&
@@ -186,7 +154,7 @@
 		<div class="pop-card-user flex-center">
 			{#if showDescription && enneagramType}
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
-					<h2 class="big-p" style="margin-bottom: 0; padding: 0;">
+					<h2 class="big-p">
 						{enneagramTypeCheatSheet[enneagramType - 1].EnneagramType}
 					</h2>
 					<p class="mid-p">
@@ -202,15 +170,14 @@
 						{enneagramTypeCheatSheet[enneagramType - 1].CommonStereotypes}
 					</p>
 				</div>
-			{/if}
-
-			{#if !showDescription && displayText}
+			{:else if displayText}
 				<p class="name-pop" data-value={displayText} in:fly={{ y: -200, duration: 2000 }}>
 					{displayText}
 				</p>
 			{/if}
-			<!-- <a class="link" href="https://youtube.com/@Hyperplexed" class="external-link" target="_blank">@Hyperplexed</a> -->
-			{#if subtext} <p class="link">{subtext}</p>{/if}
+			{#if subtext}
+				<p class="link">{subtext}</p>
+			{/if}
 		</div>
 	</div>
 </div>
