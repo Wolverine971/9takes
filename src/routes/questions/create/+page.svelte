@@ -1,131 +1,87 @@
 <script lang="ts">
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-	import type { PageData } from './$types';
-	// import { toPng } from 'html-to-image';
-
+	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import QRCode from 'qrcode';
+	import { toPng } from 'html-to-image';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { toPng } from 'html-to-image';
-
-	let question: string = '';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 
-	let visible = false;
-
-	let url: string;
-	function makeVisible() {
-		visible = true;
-	}
-
-	const opts = {
-		errorCorrectionLevel: 'H',
-		type: '"image/png"',
-		quality: 0.3,
-		margin: 1,
-		color: {
-			dark: '#5407d9',
-			light: ''
-		}
-	};
+	let question = '';
+	let url = '';
 	let loading = false;
 
-	function closeModal(event: Event) {
-		visible = false;
-	}
+	$: isQuestionValid = question.trim().length > 0;
+
+	const QR_OPTS = {
+		errorCorrectionLevel: 'H',
+		type: 'image/png',
+		quality: 0.3,
+		margin: 1,
+		color: { dark: '#5407d9', light: '' }
+	};
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
 	});
 
-	const createQuestion = async () => {
+	async function getUrl() {
+		const body = new FormData();
+		body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
+
+		const response = await fetch('?/getUrl', { method: 'POST', body });
+		const data = await response.json();
+		url = JSON.parse(data?.data)?.[0];
+
+		QRCode.toDataURL(`https://9takes.com/questions/${url}`, QR_OPTS, (err, qrUrl) => {
+			if (err) throw err;
+			document.getElementById('qr-image').src = qrUrl;
+		});
+
+		getModal('question-create').open();
+	}
+
+	async function createQuestion() {
 		try {
 			loading = true;
 			const questionNode = document.getElementById('question-pic');
-			var body = new FormData();
+			const body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
-			body.append('author_id', data?.session?.user?.id.toString() || '');
+			body.append('author_id', data?.session?.user?.id?.toString() || '');
 			body.append('context', '');
 			body.append('url', url);
 
-			let png = await toPng(questionNode).then((dataUrl) => {
-				return dataUrl;
-			});
+			const png = await toPng(questionNode);
 			body.append('img_url', png);
-			const resp = await fetch('?/createQuestion', {
-				method: 'POST',
-				body
-			});
-			// What are the problems of each political party
-			const result: any = deserialize(await resp.text());
+
+			const resp = await fetch('?/createQuestion', { method: 'POST', body });
+			const result = deserialize(await resp.text());
 
 			if (result?.error) {
 				notifications.danger(result.error.message, 3000);
 				getModal('question-create').close();
 				return;
 			}
-			if (result) {
-				getModal('question-create').close();
-				goto(`/questions/${url}`, {});
 
-				// question image creation
-				// setTimeout(async () => {
-				// 	const newQ = document.getElementById('question-box');
-				// 	console.log(newQ);
-				// 	if (newQ) {
-				// 		const pngSrc = await toPng(newQ);
-
-				// 		let body = new FormData();
-				// 		body.append('img_url', pngSrc);
-				// 		body.append('url', url);
-
-				// 		fetch('?/updateQuestionImg', {
-				// 			method: 'POST',
-				// 			body
-				// 		});
-				// 	}
-				// 	console.log('end image creation');
-				// }, 3000);
-			}
-			loading = false;
+			getModal('question-create').close();
+			goto(`/questions/${url}`);
 		} catch (error) {
 			console.error(error);
+			notifications.danger('An error occurred while creating the question', 3000);
+		} finally {
 			loading = false;
 		}
-	};
-
-	const getUrl = async () => {
-		var body = new FormData();
-		body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
-
-		await fetch('?/getUrl', {
-			method: 'POST',
-			body
-		})
-			.then((response) => response.json())
-			.then((data) => {
-				url = JSON.parse(data?.data)?.[0];
-				QRCode.toDataURL(`https://9takes.com/questions/${url}`, opts, function (err, url) {
-					if (err) throw err;
-					var img = document.getElementById('qr-image');
-					img.src = url;
-				});
-
-				getModal('question-create').open();
-			});
-
-		visible = true;
-	};
+	}
 </script>
 
 <div class="flex-center">
-	<h1 style="text-align: center">Ask a question</h1>
-	<form action="?/getUrl" method="POST" class="auth-form" style="margin: 0">
+	<h1>Ask a question</h1>
+	<form class="auth-form">
 		<textarea
 			rows="3"
 			name="question"
@@ -134,39 +90,32 @@
 			bind:value={question}
 		/>
 		<button
-			disabled={!question.length}
-			class="btn btn-primary  {question.length === 0 && 'disabled'}"
-			style="align-self: end;"
-			type="button"
+			class="btn btn-primary"
+			class:disabled={!isQuestionValid}
+			disabled={!isQuestionValid}
 			on:click={getUrl}
+			type="button"
 		>
 			Submit
 		</button>
 	</form>
 
-	<Modal2 id="question-create" name={'create question'}>
-		<div class="modal-size">
-			<h1 style="margin: 0; padding-bottom: 1rem">Create Question</h1>
+	<Modal2 id="question-create" name="create question">
+		<div class="modal-content">
+			<h1>Create Question</h1>
 			<hr />
-			<!-- <p>Tag your question:</p> -->
-			<div class="flex-center" style="flex-wrap: wrap; overflow: hidden;">
-				<!-- <div class="warning">
-					<h3 style="margin: 0;">If your question gets 3 comments we will tag and keep it!</h3>
-				</div> -->
-
+			<div class="flex-center wrap">
 				<h3 id="question-pic" class="noticia-text-regular">{question}</h3>
-
-				<img id="qr-image" src="" alt="9takes QR Code" />
-
-				<p style="overflow-wrap: anywhere;">
-					Url: <b> {`https://9takes.com/questions/${url}`} </b>
+				<img id="qr-image" alt="9takes QR Code" />
+				<p class="url-display">
+					Url: <b>https://9takes.com/questions/{url}</b>
 				</p>
 			</div>
-			<button class="btn btn-primary create-btn" type="button" on:click={createQuestion}>
+			<button class="btn btn-primary create-btn" on:click={createQuestion}>
 				{#if loading}
 					<div class="loader" />
 				{:else}
-					Create <RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'#5407d9'} />
+					Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#5407d9" />
 				{/if}
 			</button>
 		</div>
@@ -174,6 +123,17 @@
 </div>
 
 <style lang="scss">
+	h1 {
+		text-align: center;
+		margin: 0;
+		padding-bottom: 1rem;
+	}
+
+	.auth-form {
+		margin: 0;
+	}
+
+	.create-question-textarea,
 	#question-pic {
 		margin: 1rem 0;
 		padding: 0.5rem;
@@ -181,15 +141,17 @@
 		border-radius: var(--base-border-radius);
 	}
 
-	.create-question-textarea {
-		margin: 1rem 0;
-		padding: 0.5rem;
-		border: var(--classic-border);
-		border-radius: var(--base-border-radius);
-	}
-	.modal-size {
+	.modal-content {
 		height: 100%;
-		// width: clamp(300px, 50vw, 50vw);
+	}
+
+	.wrap {
+		flex-wrap: wrap;
+		overflow: hidden;
+	}
+
+	.url-display {
+		overflow-wrap: anywhere;
 	}
 
 	.create-btn {
@@ -197,11 +159,5 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	}
-	.warning {
-		border: 1px solid red;
-		border-radius: var(--base-border-radius);
-		margin: 1rem;
-		padding: 0.5rem;
 	}
 </style>

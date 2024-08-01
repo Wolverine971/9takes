@@ -2,152 +2,143 @@
 	import { deserialize } from '$app/forms';
 	import { notifications } from './notifications';
 
-	let email: string = '';
-	let otherPerson: string = '';
+	let email = '';
+	let otherPerson = '';
+	let error = '';
+	let loading = false;
 
-	let error: string = '';
+	$: isEmailValid = /\S+@\S+\.\S+/.test(email);
 
-	let loading: boolean = false;
-
-	const submit = async () => {
-		if (!/\S+@\S+\.\S+/.test(email)) {
-			//!/.+@.+/.test(email) ||
-			error = 'must be a valid email';
+	async function submit() {
+		if (!isEmailValid) {
+			error = 'Must be a valid email';
 			return;
-		} else {
-			error = '';
 		}
+
+		error = '';
 		loading = true;
 
-		let body = new FormData();
+		const body = new FormData();
 		body.append('email', email);
 		body.append('suggestedPerson', otherPerson);
 
-		const resp = await fetch(`/email?/submitFamousPerson`, {
-			method: 'POST',
-			body
-		});
+		try {
+			const resp = await fetch(`/email?/submitFamousPerson`, { method: 'POST', body });
+			const data = deserialize(await resp.text());
 
-		const data = deserialize(await resp.text());
-
-		if (!data?.error) {
-			notifications.info('Thanks for the suggestion', 3000);
-
-			email = '';
-			otherPerson = '';
-		} else {
-			notifications.warning('Suggestion Failed ☹️', 3000);
+			if (!data?.error) {
+				notifications.info('Thanks for the suggestion', 3000);
+				email = '';
+				otherPerson = '';
+			} else {
+				notifications.warning('Suggestion Failed ☹️', 3000);
+			}
+		} catch (err) {
+			console.error('Error submitting suggestion:', err);
+			notifications.danger('An error occurred. Please try again.', 3000);
+		} finally {
+			loading = false;
 		}
-		loading = false;
-	};
+	}
 </script>
 
 <div class="waitlist-section">
-	<h2 style="margin-top: 0;">Who else should 9takes write about?</h2>
+	<h2>Who else should 9takes write about?</h2>
 
-	<form class="waitlist-form">
+	<form class="waitlist-form" on:submit|preventDefault={submit}>
 		<input
 			type="text"
-			id="email"
 			name="person"
-			placeholder="celebrity, musician, politician, youtuber,"
+			placeholder="Celebrity, musician, politician, YouTuber, etc."
 			bind:value={otherPerson}
 		/>
 
-		<input type="email" id="email" name="email" bind:value={email} placeholder="you@example.com" />
-		<button
-			type="button"
-			value="Send"
-			on:click={submit}
-			disabled={email.length ? false : true}
-			class:form-send={true}
-			class={email.length ? 'regular' : 'disabled'}
-		>
-			{#if loading}
-				<div class="loader" />
-			{:else}
-				Submit
-			{/if}
+		<input type="email" name="email" placeholder="you@example.com" bind:value={email} />
+
+		<button type="submit" disabled={!email.length} class:disabled={!email.length}>
+			{loading ? 'Submitting...' : 'Submit'}
 		</button>
 	</form>
+
 	{#if error}
 		<p class="error">{error}</p>
 	{/if}
 </div>
 
-<style>
+<style lang="scss">
 	.waitlist-section {
 		text-align: center;
 		border: var(--classic-border);
 		padding: 2rem;
 		border-radius: var(--base-border-radius);
+
+		h2 {
+			margin-top: 0;
+		}
 	}
+
 	.waitlist-form {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+
+		input,
+		button {
+			width: 100%;
+			max-width: 300px;
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: var(--base-border-radius);
+			border: var(--classic-border);
+		}
+
+		button {
+			padding: 10px 20px;
+			cursor: pointer;
+			color: var(--color-theme-purple);
+			border: 1px solid;
+			width: 155px;
+
+			&.disabled {
+				opacity: 0.5;
+				cursor: not-allowed;
+			}
+		}
 	}
 
-	.waitlist-form input {
-		width: 100%;
-		max-width: 300px;
-		margin-bottom: 10px;
-		padding: 10px;
-		border-radius: var(--base-border-radius);
-		border: var(--classic-border);
-	}
-	.waitlist-form button {
-		/* background-color: #007bff; */
-		padding: 10px 20px;
-		border-radius: var(--base-border-radius);
-		border: none;
-		cursor: pointer;
-		color: var(--color-theme-purple);
-		border: 1px solid;
-		width: 155px;
-	}
-	/* For tablets */
 	@media only screen and (min-width: 768px) {
 		.waitlist-form {
 			max-width: 500px;
 			margin: 0 auto;
-		}
-		.waitlist-form input {
-			max-width: 400px;
+
+			input {
+				max-width: 400px;
+			}
 		}
 	}
-	/* For desktops and wider screens */
+
 	@media only screen and (min-width: 992px) {
 		.waitlist-section {
 			display: flex;
 			justify-content: center;
 			flex-direction: column;
 		}
+
 		.waitlist-form {
 			max-width: 600px;
 			margin: 0 auto;
 			flex-direction: row;
 			align-items: center;
-		}
 
-		.waitlist-form input {
-			margin-right: 10px;
-			margin-bottom: 0;
+			input {
+				margin-right: 10px;
+				margin-bottom: 0;
+			}
 		}
 	}
+
 	::placeholder {
-		/* Chrome, Firefox, Opera, Safari 10.1+ */
 		color: var(--color-theme-purple);
-		opacity: 1; /* Firefox */
-	}
-
-	:-ms-input-placeholder {
-		/* Internet Explorer 10-11 */
-		color: var(--color-theme-purple);
-	}
-
-	::-ms-input-placeholder {
-		/* Microsoft Edge */
-		color: var(--color-theme-purple);
+		opacity: 1;
 	}
 </style>
