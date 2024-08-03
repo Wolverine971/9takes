@@ -3,20 +3,29 @@
 	import type { PageData } from './$types';
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
-
 	import ContentCard from '$lib/components/content/contentCard.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	/** @type {import('./$types').PageData} */
 	export let data: PageData;
-	let expandedBlogTitle: string | null = null;
 
+	let expandedBlogTitle: string | null = null;
 	let activeSelection = 'enneagram';
 
-	Object.keys(data).forEach((key) => {
-		if (['enneagram', 'community', 'guides', 'people'].includes(key)) {
-			// if (blog.stage === 0) {
-			data[key].forEach((blog) => {
+	const contentTypes = ['enneagram', 'community', 'guides', 'people'];
+	const stages = [
+		'Not written',
+		'Prioritized',
+		'Written',
+		'Sent out for review',
+		'Reviewed',
+		'Socialized',
+		'Growing',
+		'Needs Work'
+	];
+
+	$: {
+		contentTypes.forEach((type) => {
+			data[type].forEach((blog) => {
 				if (!blog.published) {
 					if (blog.stageName === 'Prioritized') {
 						blog.stage = 1;
@@ -44,62 +53,43 @@
 					}
 				}
 			});
-		}
-	});
+		});
+	}
 
-	// Define the stages
-	const stages = [
-		'Not written',
-		'Prioritized',
-		'Written',
-		'Sent out for review',
-		'Reviewed',
-		'Socialized',
-		'Growing',
-		'Needs Work'
-	];
-
-	const expand = (blog) => {
+	function expand(blog) {
 		expandedBlogTitle = expandedBlogTitle === blog.title ? null : blog.title;
-	};
-
-	// Function to handle drag start
-	function dragStart(event, blogTitle) {
-		event.dataTransfer.setData('text/plain', blogTitle);
 	}
 
-	// Function to handle drag over
-	function dragOver(event) {
+	function dragStart(event: DragEvent, blogTitle: string) {
+		event.dataTransfer?.setData('text/plain', blogTitle);
+	}
+
+	function dragOver(event: DragEvent) {
 		event.preventDefault();
 	}
 
-	// Function to handle drop
-	const drop = async (event, stageIndex: number, blogType: string) => {
+	async function drop(event: DragEvent, stageIndex: number, blogType: string) {
 		event.preventDefault();
-		const blogTitle = event.dataTransfer.getData('text/plain');
+		const blogTitle = event.dataTransfer?.getData('text/plain');
+		if (!blogTitle || !data[blogType]) return;
 
-		// Find the blog in the correct category
-		if (data[blogType]) {
-			const blogIndex = data[blogType].findIndex((b) => b.title === blogTitle);
-			if (blogIndex !== -1) {
-				// Update the blog's stage
-				if (data[blogType][blogIndex].stage !== stageIndex) {
-					data[blogType][blogIndex].stage = stageIndex;
+		const blogIndex = data[blogType].findIndex((b) => b.title === blogTitle);
+		if (blogIndex === -1 || data[blogType][blogIndex].stage === stageIndex) return;
 
-					// Update the blog's properties based on the new stage
-					const blog = data[blogType][blogIndex];
-					blog.stageName = stages[stageIndex];
+		const blog = data[blogType][blogIndex];
+		blog.stage = stageIndex;
+		blog.stageName = stages[stageIndex];
 
-					// Trigger reactivity
-					data[blogType] = [...data[blogType]];
-
-					await updateStage(blog, blogType);
-				}
-			}
+		if (!blog.published && blog.stageName !== 'Prioritized' && blog.stageName !== 'Not written') {
+			notifications.warning('Blog not published', 3000);
+			return;
 		}
-	};
 
-	const updateStage = async (blog: App.BlogPost, blogType: string) => {
+		data[blogType] = [...data[blogType]];
+		await updateStage(blog, blogType);
+	}
+
+	async function updateStage(blog: App.BlogPost, blogType: string) {
 		let body = new FormData();
 
 		body.append('content_type', blogType);
@@ -112,35 +102,25 @@
 		body.append('published', blog.published.toString());
 		body.append('type', blog?.type?.toString() || '');
 		body.append('stageName', blog.stageName);
+		const response = await fetch(`/content-board?/updateStage`, { method: 'POST', body });
+		const { data: responseData, error } = await response.json();
 
-		// Send the blog to the server
-		const { data, error: updateContentError } = await (
-			await fetch(`/content-board?/updateStage`, {
-				method: 'POST',
-				body
-			})
-		).json();
-
-		if (data) {
+		if (responseData) {
 			notifications.info('Content Updated', 3000);
 		} else {
-			if (updateContentError?.message) {
-				notifications.warning('Content Update error', 3000);
-			} else {
-				notifications.warning('Content Update error', 3000);
-			}
+			notifications.warning('Content Update error', 3000);
 		}
-	};
+	}
 </script>
 
 <select bind:value={activeSelection}>
-	{#each ['enneagram', 'community', 'guides', 'people'] as type}
-		<option value={type}>{type.toLocaleUpperCase()}</option>
+	{#each contentTypes as type}
+		<option value={type}>{type.toUpperCase()}</option>
 	{/each}
 </select>
 
 <h2>{activeSelection.toUpperCase()}</h2>
-<div class="trello-board ">
+<div class="trello-board">
 	{#each stages as stage, stageIndex}
 		<div
 			class="stage"
@@ -149,12 +129,13 @@
 			role="list"
 			aria-label={`${stage} stage`}
 		>
-			<h3 style="min-width: 200px; padding:0" id={`stage-${stageIndex}-heading`}>{stage}</h3>
+			<h3 id={`stage-${stageIndex}-heading`}>{stage}</h3>
 			{#if activeSelection && data[activeSelection]}
 				{#each data[activeSelection].filter((blog) => blog.stage === stageIndex) as blog, index}
 					{#if blog.title}
 						<div
-							class="card {expandedBlogTitle === blog.title ? 'expanded' : ''}"
+							class="card"
+							class:expanded={expandedBlogTitle === blog.title}
 							draggable={expandedBlogTitle !== blog.title}
 							on:dragstart={(event) => dragStart(event, blog.title)}
 							role="listitem"
@@ -166,15 +147,12 @@
 									<button
 										type="button"
 										class="btn btn-primary"
-										style="padding: 0.5rem; display: flex;"
 										on:click={() => expand(blog)}
 										aria-label={expandedBlogTitle === blog.title ? 'Collapse' : 'Expand'}
 									>
-										{#if expandedBlogTitle === blog.title}
-											<DownIcon />
-										{:else}
-											<RightIcon />
-										{/if}
+										<svelte:component
+											this={expandedBlogTitle === blog.title ? DownIcon : RightIcon}
+										/>
 									</button>
 								</h4>
 								{#if expandedBlogTitle === blog.title}
@@ -195,63 +173,6 @@
 	{/each}
 </div>
 
-<h2>People</h2>
-<!-- <div class="trello-board">
-	{#each stages as stage, stageIndex}
-		<div class="stage" on:dragover={dragOver} on:drop={(event) => drop(event, stageIndex)}>
-			<h3>{stage}</h3>
-			{#each data.people.filter((blog) => blog.stage === stageIndex) as blog (blog.id)}
-				<div
-					class="card"
-					draggable="true"
-					on:dragstart={(event) => dragStart(event, blog.id)}
-					on:click={() => openModal(blog)}
-				>
-					{blog.title}
-				</div>
-			{/each}
-		</div>
-	{/each}
-</div> -->
-
-<h2>Community</h2>
-<!-- <div class="trello-board">
-	{#each stages as stage, stageIndex}
-		<div class="stage" on:dragover={dragOver} on:drop={(event) => drop(event, stageIndex)}>
-			<h3>{stage}</h3>
-			{#each data.community.filter((blog) => blog.stage === stageIndex) as blog (blog.id)}
-				<div
-					class="card"
-					draggable="true"
-					on:dragstart={(event) => dragStart(event, blog.id)}
-					on:click={() => openModal(blog)}
-				>
-					{blog.title}
-				</div>
-			{/each}
-		</div>
-	{/each}
-</div> -->
-
-<h2>Guides</h2>
-
-<!-- <div class="trello-board">
-	{#each stages as stage, stageIndex}
-		<div class="stage" on:dragover={dragOver} on:drop={(event) => drop(event, stageIndex)}>
-			<h3>{stage}</h3>
-			{#each data.guides.filter((blog) => blog.stage === stageIndex) as blog (blog.id)}
-				<div
-					class="card"
-					draggable="true"
-					on:dragstart={(event) => dragStart(event, blog.id)}
-					on:click={() => openModal(blog)}
-				>
-					{blog.title}
-				</div>
-			{/each}
-		</div>
-	{/each}
-</div> -->
 <style lang="scss">
 	.card-title {
 		display: flex;
@@ -264,10 +185,9 @@
 		display: flex;
 		gap: 1rem;
 		padding: 1rem;
-		overflow: auto !important;
+		overflow: auto;
 		width: 100%;
 	}
-
 	.stage {
 		width: 100%;
 		display: flex;
@@ -276,8 +196,11 @@
 		background-color: #f4f5f7;
 		border-radius: 5px;
 		padding: 1rem;
+		h3 {
+			min-width: 200px;
+			padding: 0;
+		}
 	}
-
 	.card {
 		background-color: white;
 		border-radius: 3px;
@@ -286,33 +209,26 @@
 		width: 100%;
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 		transition: all 0.3s ease;
-	}
-	.card details {
-		padding: 0.5rem;
-	}
-
-	.card summary {
-		cursor: pointer;
-		font-weight: bold;
-	}
-
-	.card summary::-webkit-details-marker {
-		display: none;
-	}
-
-	.card .panel {
-		padding-top: 0.5rem;
-	}
-
-	.card details[open] {
-		background-color: #f9f9f9;
-	}
-
-	.card details[open] summary {
-		margin-bottom: 0.5rem;
-		border-bottom: 1px solid #ddd;
-	}
-	.panel {
-		background-color: #f4f5f7;
+		details {
+			padding: 0.5rem;
+			&[open] {
+				background-color: #f9f9f9;
+				summary {
+					margin-bottom: 0.5rem;
+					border-bottom: 1px solid #ddd;
+				}
+			}
+		}
+		summary {
+			cursor: pointer;
+			font-weight: bold;
+			&::-webkit-details-marker {
+				display: none;
+			}
+		}
+		.panel {
+			padding-top: 0.5rem;
+			background-color: #f4f5f7;
+		}
 	}
 </style>

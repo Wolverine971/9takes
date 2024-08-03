@@ -50,4 +50,16 @@
 		justify-content: space-between;
 		overflow: visible;
 	}
+
+	@media (min-width: 1200px) {
+		.column {
+			overflow: hidden;
+			width: 70vw;
+		}
+		.column-width {
+			width: 70vw;
+			max-width: 100%;
+			border-radius: var(--base-border-radius);
+		}
+	}
 </style>

@@ -47,6 +47,8 @@
 			.then((response) => response.text())
 			.catch((error) => console.log('error', error));
 	});
+
+	const maxWidthPages = ['/', '/content-board'];
 </script>
 
 <svelte:head>
@@ -64,10 +66,9 @@
 	<BackNavigation />
 {/if}
 <main
-	class="main flexrate {$page.url.pathname !== '/' ? 'column-width' : 'column'} {$page.url
-		.pathname !== '/signup'
-		? 'pos-rel'
-		: ''}"
+	class="main flexrate {!maxWidthPages.includes($page.url.pathname)
+		? 'column-width'
+		: 'column'} {$page.url.pathname !== '/signup' ? 'pos-rel' : ''}"
 >
 	<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
 	<slot />
