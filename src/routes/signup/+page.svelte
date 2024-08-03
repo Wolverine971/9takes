@@ -14,8 +14,8 @@
 	];
 
 	// --color-theme-purple: #5407d9; /*84, 7, 217 */
-	// --color-theme-purple-v: #d2cfd7; /* 210, 207, 215  */
-	// --color-theme-purple-light: #bc96fd;  /* 188, 150, 253  */
+	// --color-theme-purple-light: #d2cfd7; /* 210, 207, 215  */
+	// --color-theme-purple-lighter: #bc96fd;  /* 188, 150, 253  */
 	let PI_2 = 2 * Math.PI;
 	let w = 0;
 	let h = 0;

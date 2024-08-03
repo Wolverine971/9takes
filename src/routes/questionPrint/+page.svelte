@@ -67,8 +67,8 @@
             --base-border-radius: 5px;
             --color-theme-purple: #5407d9;
             --color-theme-purple-d: #2f0479;
-            --color-theme-purple-v: #b3a6c9;
-            --color-theme-purple-light: #bc96fd;
+            --color-theme-purple-light: #b3a6c9;
+            --color-theme-purple-lighter: #bc96fd;
             --base-white-outline: #f0f5f9;
             --base-grey-0: #d8d8d8;
             --base-grey-1: #d4d4d4;
@@ -176,7 +176,7 @@
 		text-align: center;
 		padding: 1rem 0;
 		width: 80%;
-		border: 1px solid var(--color-theme-purple-v);
+		border: 1px solid var(--color-theme-purple-light);
 	}
 	@media (max-width: 700px) {
 		.headline {

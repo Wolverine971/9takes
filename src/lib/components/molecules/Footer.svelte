@@ -90,7 +90,7 @@
 	@media (max-width: 480px) {
 		.footer {
 			width: 100%;
-			align-items: normal;
+			align-items: center;
 
 			&-links {
 				justify-content: space-around;

@@ -44,8 +44,8 @@
 		height: 3rem;
 		// outline-offset: -1px;
 		object-fit: scale-down;
-		border-top: 3px solid var(--color-theme-purple-v);
-		border-bottom: 3px solid var(--color-theme-purple-v);
+		border-top: 3px solid var(--color-theme-purple-light);
+		border-bottom: 3px solid var(--color-theme-purple-light);
 		outline: 2px solid #fdfdfb;
 		justify-content: center;
 		align-items: center;

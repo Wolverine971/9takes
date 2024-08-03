@@ -163,7 +163,7 @@
 		justify-content: center;
 		align-items: center;
 		width: 20%;
-		color: var(--color-theme-purple-v);
+		color: var(--color-theme-purple-light);
 		border-radius: 5px 5px 0 0;
 
 		&.tab-active {

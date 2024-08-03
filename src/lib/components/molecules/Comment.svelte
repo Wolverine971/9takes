@@ -566,8 +566,8 @@
 		display: inline-block;
 		min-width: 78px;
 		padding: 0.2rem;
-		color: var(--color-theme-purple-v);
-		border: 1px solid var(--color-theme-purple-v);
+		color: var(--color-theme-purple-light);
+		border: 1px solid var(--color-theme-purple-light);
 		font-weight: bolder;
 		text-align: center;
 		border-radius: var(--base-border-radius);
@@ -577,7 +577,7 @@
 		word-break: keep-all;
 	}
 	.active {
-		border: 1px solid var(--color-theme-purple-v);
+		border: 1px solid var(--color-theme-purple-light);
 		color: var(--color-theme-purple);
 	}
 	.active:hover {

@@ -33,7 +33,7 @@
 		// transition: 0.3s ease;
 
 		&:hover {
-			border: 1px solid var(--color-theme-purple-v);
+			border: 1px solid var(--color-theme-purple-light);
 		}
 		// &:active {
 		// 	box-shadow: $inner-shadow;

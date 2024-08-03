@@ -314,7 +314,7 @@
 	}
 
 	.twitter-link:hover {
-		background-color: var(--color-theme-purple-light);
+		background-color: var(--color-theme-purple-lighter);
 	}
 	.main-div {
 		margin: 20px;

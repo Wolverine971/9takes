@@ -87,7 +87,7 @@ The stress of striving for perfection was a constant companion throughout Jobs' 
 
 Despite the challenges, Jobs found immense satisfaction in creating products that people loved.
 
-"I want to put a ding in the universe," he once said, expressing his desire to leave a lasting impact and create something truly remarkable. This drive to create beauty and meaning is a hallmark of the Type 1 personality. For Jobs, the joy of seeing his vision come to life and the positive impact it had on people's lives made all the hard work and stress worthwhile.
+"**I want to put a ding in the universe,**" he once said, expressing his desire to leave a lasting impact and create something truly remarkable. This drive to create beauty and meaning is a hallmark of the Type 1 personality. For Jobs, the joy of seeing his vision come to life and the positive impact it had on people's lives made all the hard work and stress worthwhile.
 
 The joy of creating something beautiful was a powerful motivator for Jobs throughout his life.
 

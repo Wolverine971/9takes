@@ -301,6 +301,7 @@
 		display: inline-flex;
 		flex-direction: column;
 		flex-grow: 1;
+		height: 7em;
 		overflow: hidden;
 		position: relative;
 		width: 20%;
@@ -435,14 +436,18 @@
 		height: auto;
 	}
 
+	.signup-section {
+		margin-top: 3rem;
+	}
+
 	@media (min-width: 800px) {
 		.img-preview {
 			max-width: 600px;
 		}
 
 		.small-h4 {
-			font-size: 2.5rem;
-			line-height: 2.5rem;
+			font-size: 2rem;
+			line-height: 2.2rem;
 		}
 
 		.question-list {

@@ -113,7 +113,7 @@
 		text-align: center;
 		padding: 1rem 0;
 		width: 80%;
-		border: 1px solid var(--color-theme-purple-v);
+		border: 1px solid var(--color-theme-purple-light);
 	}
 
 	@media (max-width: 700px) {

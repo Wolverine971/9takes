@@ -186,7 +186,7 @@
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
-		color: var(--color-theme-purple-v);
+		color: var(--color-theme-purple-light);
 		// margin: 1rem;
 	}
 	a::after {
