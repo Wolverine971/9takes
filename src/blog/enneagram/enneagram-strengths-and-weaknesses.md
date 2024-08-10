@@ -23,6 +23,15 @@ https://nathanbransford.com/blog/2019/06/list-of-character-strengths-and-weaknes
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
+<!-- update
+
+The Enneagram does not focus on strenghts and weaknesses. It focuses on your motivations and fears and coping mechanisms.
+
+From that come personalities who have ways of living/ strategies for living. And over time different personalities get good at things.
+
+Here we will explore what each personality is commonly good at.
+-->
+
 <p class="firstLetter">Everyone has different strengths and weaknesses.</p>
 
 The trick is knowing how to identify them. There are also almost an infinite amount of dimensions by which we can slice and dice the things we are good at and bad at. Choosing where to start is difficult but the Enneagram can help.

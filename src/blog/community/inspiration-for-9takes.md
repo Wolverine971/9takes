@@ -138,6 +138,8 @@ Don't tell someone to go on a journey. Ask them questions that lead them on a jo
 
 I only started making progress when I started asking them questions.
 
+<!-- //here -->
+
 How are they similar or different from the other people in their lives? <a href="/blog/famous-enneagram-types" >What celebrity are they similar to?</a> If you start thinking about that, you can quickly get into discussions about personality. The responses usually fell into two broad categories:
 
 - "I am too unique, and no one is like me"

@@ -13,7 +13,16 @@ blog: true
 previewHtml: ''
 ---
 
-<!-- redo -->
+<!-- redo
+
+what happens when an enneagram 7 and 8 work on a project?
+
+the project is fast and exciting and they get so far down the road they sometimes have to go back and fix things
+
+what about a project involving a 1 and a 6?
+here the project is endlessly debated. Good for legislation or
+
+-->
 
 <p class="firstLetter">Have you considered that the Enneagram could be the key to unlocking your team's full potential?</p>
 
