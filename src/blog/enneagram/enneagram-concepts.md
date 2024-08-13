@@ -3,7 +3,7 @@ title: 'Enneagram Concepts: Your Personality, Unpacked and Decoded'
 description: "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth."
 author: 'DJ Wayne'
 date: '2024-08-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-concepts'
+loc: 'https://9takes.com/enneagram-corner/enneagram-concepts'
 lastmod: '2024-08-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -11,7 +11,9 @@ published: true
 type: ['overview']
 blog: true
 previewHtml: ''
+pic: 'enneagram-concepts'
 ---
+
 
 <!-- the enneagram describes your personality in a box
 it is not
@@ -37,7 +39,7 @@ Another way to say it is that the Enneagram identifies common patterns among peo
 
 The Enneagram isn't just another personality quiz you take when you're bored at work. It's a system that maps out nine distinct personality types, each with its own worldview, motivations, and quirks. Think of it as a GPS for your psyche.
 
-[Curious about where this system came from? Check out the Enneagram's intriguing origins.](https://9takes.com/blog/enneagram/enneagram-influences)
+[Curious about where this system came from? Check out the Enneagram's intriguing origins.](https://9takes.com/enneagram-corner/enneagram-influences)
 
 ## What the Enneagram Is Not
 
@@ -57,17 +59,17 @@ The Enneagram is all about:
 
 ## The Nine Types: A Quick Tour
 
-1. <a href="/blog/enneagram/enneagram-type-1" >The Perfectionist</a>: Striving for improvement
-2. <a href="/blog/enneagram/enneagram-type-2" >The Helper</a>: Seeking to be needed
-3. <a href="/blog/enneagram/enneagram-type-3" >The Achiever</a>: Chasing success
-4. <a href="/blog/enneagram/enneagram-type-4" >The Individualist</a>: Searching for identity
-5. <a href="/blog/enneagram/enneagram-type-5" >The Investigator</a>: Pursuing knowledge
-6. <a href="/blog/enneagram/enneagram-type-6" >The Loyalist</a>: Seeking security
-7. <a href="/blog/enneagram/enneagram-type-7" >The Enthusiast</a>: Avoiding pain
-8. <a href="/blog/enneagram/enneagram-type-8" >The Challenger</a>: Asserting strength
-9. <a href="/blog/enneagram/enneagram-type-9" >The Peacemaker</a>: Maintaining harmony
+1. <a href="/enneagram-corner/enneagram-type-1" >The Perfectionist</a>: Striving for improvement
+2. <a href="/enneagram-corner/enneagram-type-2" >The Helper</a>: Seeking to be needed
+3. <a href="/enneagram-corner/enneagram-type-3" >The Achiever</a>: Chasing success
+4. <a href="/enneagram-corner/enneagram-type-4" >The Individualist</a>: Searching for identity
+5. <a href="/enneagram-corner/enneagram-type-5" >The Investigator</a>: Pursuing knowledge
+6. <a href="/enneagram-corner/enneagram-type-6" >The Loyalist</a>: Seeking security
+7. <a href="/enneagram-corner/enneagram-type-7" >The Enthusiast</a>: Avoiding pain
+8. <a href="/enneagram-corner/enneagram-type-8" >The Challenger</a>: Asserting strength
+9. <a href="/enneagram-corner/enneagram-type-9" >The Peacemaker</a>: Maintaining harmony
 
-[Not sure which one you are? Start here to figure out your type.](https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type)
+[Not sure which one you are? Start here to figure out your type.](https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type)
 
 ## The Three Centers: Head, Heart, and Gut
 
@@ -89,7 +91,7 @@ Each type can operate at different levels of health. It's like a video game - yo
 
 Under stress or during growth, you may take on characteristics of other types. It's like your personality has secret tunnels to other rooms.
 
-[Dive deeper into how types change under stress.](https://9takes.com/blog/enneagram/enneagram-types-in-stress)
+[Dive deeper into how types change under stress.](https://9takes.com/enneagram-corner/enneagram-types-in-stress)
 
 ## Instinctual Subtypes: Your Survival Strategies
 
@@ -99,7 +101,7 @@ Each type has three subtypes based on basic human needs:
 2. Social: Prioritizing group dynamics
 3. Sexual (One-to-one): Emphasizing intense connections
 
-[Learn more about these subtypes and how they shape behavior.](https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes)
+[Learn more about these subtypes and how they shape behavior.](https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes)
 
 ## Advanced Concepts: For the Enneagram Nerds
 
@@ -107,7 +109,7 @@ Each type has three subtypes based on basic human needs:
 
 Triads are ways of categorizing the nine Enneagram types into groups of three, each offering a different perspective on how personalities operate:
 
-#### Hornevian Groups (Karen Horney):
+#### Hornevian Groups (Karen Horney)
 
 These groups, named after psychoanalyst Karen Horney, describe how types interact with others and the world:
 
@@ -115,7 +117,7 @@ These groups, named after psychoanalyst Karen Horney, describe how types interac
 - Compliant types adapt to meet perceived expectations (1, 2, 6).
 - Withdrawn types maintain distance for self-protection (4, 5, 9).
 
-#### Harmonic Groups:
+#### Harmonic Groups
 
 These groups reflect how types cope with difficulty:
 
@@ -123,7 +125,7 @@ These groups reflect how types cope with difficulty:
 - Reactive types express emotions readily and seek understanding (4, 6, 8).
 - Positive Outlook types maintain optimism and seek silver linings (2, 7, 9).
 
-#### Object Relations:
+#### Object Relations
 
 These groups, rooted in psychoanalytic theory, describe core relational issues:
 
@@ -133,7 +135,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 
 ### Holy Ideas and Virtues: The high points of each type
 
-#### Holy Ideas:
+#### Holy Ideas
 
 1. Perfection: The belief that reality is inherently perfect as it is.
 2. Freedom: The understanding that true freedom comes from within.
@@ -145,7 +147,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 8. Truth: The perception of reality as it truly is, without distortion.
 9. Love: The understanding that love is the underlying nature of existence.
 
-#### Virtues:
+#### Virtues
 
 1. Serenity: Inner peace and calm acceptance.
 2. Humility: Genuine modesty and lack of ego.
@@ -159,7 +161,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 
 ### Fixations and Passions: The low points of each type
 
-#### Fixations:
+#### Fixations
 
 1. Resentment: Persistent anger or bitterness.
 2. Flattery: Excessive or insincere praise.
@@ -171,7 +173,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 8. Vengeance: Desire for retribution or revenge.
 9. Indolence: Avoidance of effort or activity. Synonym: laziness.
 
-#### Passions:
+#### Passions
 
 1. Anger: Strong feeling of displeasure or hostility.
 2. Pride: Excessive self-esteem or conceit.
@@ -185,7 +187,7 @@ These groups, rooted in psychoanalytic theory, describe core relational issues:
 
 Understanding these concepts can provide deeper insights into type motivations and growth paths.
 
-[Explore how these concepts relate to personal development](https://9takes.com/blog/enneagram/enneagram-self-development)
+[Explore how these concepts relate to personal development](https://9takes.com/enneagram-corner/enneagram-self-development)
 
 <br>
 
@@ -212,37 +214,37 @@ Understanding these concepts can provide deeper insights into type motivations a
 
 Understanding your type can be like having a personal growth cheat sheet.
 
-[Discover how to use the Enneagram for self-improvement.](https://9takes.com/blog/enneagram/enneagram-personal-growth)
+[Discover how to use the Enneagram for self-improvement.](https://9takes.com/enneagram-corner/enneagram-personal-growth)
 
 ### Relationships
 
 The Enneagram can be your translator in the sometimes confusing language of relationships.
 
-[Learn how to communicate better with different types.](https://9takes.com/blog/enneagram/enneagram-communication-in-relationships)
+[Learn how to communicate better with different types.](https://9takes.com/enneagram-corner/enneagram-communication-in-relationships)
 
 ### Work Life
 
 Your Enneagram type might explain why you love (or hate) your job.
 
-[Explore how different types function in the workplace.](https://9takes.com/blog/enneagram/enneagram-workplace-team-building)
+[Explore how different types function in the workplace.](https://9takes.com/enneagram-corner/enneagram-workplace-team-building)
 
 ### Spiritual Growth
 
 For some, the Enneagram is a path to deeper spiritual understanding.
 
-[See how the Enneagram intersects with religion and spirituality.](https://9takes.com/blog/enneagram/enneagram-and-religion)
+[See how the Enneagram intersects with religion and spirituality.](https://9takes.com/enneagram-corner/enneagram-and-religion)
 
 ## The Fine Print: Criticisms and Limitations
 
 Like any system, the Enneagram has its critics. It's a tool, not a crystal ball.
 
-[Read about some common criticisms of the Enneagram.](https://9takes.com/blog/enneagram/enneagram-criticisms)
+[Read about some common criticisms of the Enneagram.](https://9takes.com/enneagram-corner/enneagram-criticisms)
 
 ## Wrapping It Up: Your Personality, Decoded
 
 The Enneagram offers a map of your inner landscape. It's not about putting yourself in a box, but about understanding the box you might already be in - and finding the way out.
 
-Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](https://9takes.com/blog/enneagram/enneagram-faqs) or explore [recommended Enneagram resources](https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts).
+Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](https://9takes.com/enneagram-corner/enneagram-faqs) or explore [recommended Enneagram resources](https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts).
 
 What's your take on the Enneagram? Does it resonate with you, or does it miss the mark? Share your thoughts and let's keep the conversation going!
 
@@ -280,8 +282,14 @@ Each of these types has a distinct worldview and set of behaviors, which are sha
   "datePublished": "2024-08-10",
   "description": "The Enneagram's nine personalities, instincts, wings, and connecting lines for self-discovery and personal growth.",
   "headline": "Key Concepts and Principles of the Enneagram",
+  "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/enneagram-concepts.webp",
+        "width": 900
+  },
   "mainEntityOfPage": {
-    "id": "https://9takes.com/blog/enneagram/enneagram-concepts",
+    "id": "https://9takes.com/enneagram-corner/enneagram-concepts",
     "@type": "WebPage"
   },
   "mentions": {

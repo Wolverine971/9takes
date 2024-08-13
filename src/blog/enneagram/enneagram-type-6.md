@@ -3,7 +3,7 @@ title: 'Enneagram Type 6: The Loyalist'
 description: "Learn about the Loyalist or Skeptic's commitment to security and questioning nature. See how Sixes navigate trust and preparedness."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-6'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-6'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -98,7 +98,7 @@ Their skepticism and doubt can make it challenging for them to build trust in re
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -131,11 +131,11 @@ Their skepticism and doubt can make it challenging for them to build trust in re
 
 Under stress, a Type 6 may become excessively focused on achievement and success, driven by a fear of failure and a need to prove their worth.
 
-Their stress number is Type 3. <a href="/blog/enneagram/enneagram-type-3">Type 3s</a> are normally ambitious, competitive, and driven. When they're under stress, they become more obsessed with success and achievement, as well as competitive and envious of others.
+Their stress number is Type 3. <a href="/enneagram-corner/enneagram-type-3">Type 3s</a> are normally ambitious, competitive, and driven. When they're under stress, they become more obsessed with success and achievement, as well as competitive and envious of others.
 
 Type 6s may start to prioritize their image and status, becoming more competitive and less collaborative in their pursuits. This shift in focus can lead to a disregard for their own values and ethics, as they may be tempted to cut corners or engage in manipulative behavior to get ahead.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -173,7 +173,7 @@ Read more about <a href="/blog/enneagram/enneagram-stress-number">other types un
 - Prone to Anxiety and Worry: Type 6s may be prone to anxiety and worry, which can impact their relationships. They may overthink or obsess about potential problems and struggle with trust or vulnerability.
 - Can be Defensive or Reactive: When their fears or insecurities are triggered, type 6s may become defensive or reactive. They may struggle with criticism or conflict and feel threatened by relationship changes or challenges.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -189,7 +189,7 @@ At the same time, Type 6s may struggle with self-doubt and anxiety in the workpl
 
 To get the best out of a Type 6 employee, it's essential to provide clear guidelines and expectations and to offer plenty of opportunities for feedback and support. Type 6s also respond well to recognition and appreciation, so it's a good idea to regularly acknowledge their contributions and efforts.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -309,7 +309,7 @@ Key Takeaways:
         "Self-development"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-6",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-6",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Echoes Online: The Power of Memetic Comments'
 description: 'Discover the impact of echo chambers and mimesis in online comments, analyzing how digital discourse shapes social perceptions.'
 author: 'DJ Wayne'
 date: '2023-12-21'
-loc: 'https://9takes.com/blog/community/memetic-comments'
+loc: 'https://9takes.com/community/memetic-comments'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -126,7 +126,7 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/community/memetic-comments",
+        "@id": "https://9takes.com/community/memetic-comments",
         "@type": "WebPage"
       },
       "publisher": {

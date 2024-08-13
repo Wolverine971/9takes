@@ -3,7 +3,7 @@ title: 'Sydney Sweeney An Enneagram Type 3'
 description: "A Dynamic and Rising Star's Journey as an Enneagram Type 3"
 author: 'DJ Wayne'
 date: '2024-06-01'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Sydney-Sweeney'
+loc: 'https://9takes.com/personality-analysis/Sydney-Sweeney'
 lastmod: '2024-06-01'
 changefreq: 'monthly'
 priority: '0.6'
@@ -211,7 +211,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Sydney-Sweeney",
+        "@id": "https://9takes.com/personality-analysis/Sydney-Sweeney",
         "@type": "WebPage"
       },
       "mentions": {

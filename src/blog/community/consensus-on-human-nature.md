@@ -3,7 +3,7 @@ title: 'The Consensus on Human Nature'
 description: 'Do we sway between being rational or irrational? Or is it more complicated?'
 author: 'DJ Wayne'
 date: '2023-05-13'
-loc: 'https://9takes.com/blog/community/consensus-on-human-nature'
+loc: 'https://9takes.com/community/consensus-on-human-nature'
 lastmod: '2024-04-05'
 changefreq: 'monthly'
 priority: '0.6'
@@ -76,9 +76,9 @@ Freud's theory of the mind like Plato describes three components: the id, the eg
 
 | Plato                                                                                                          | Emoji | Freud                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠    | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
-| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️    | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
-| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪    | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
+| **Reason-** rational, logical, and concerned with the most profound and abstract matters                       | 🧠     | **Ego-** operates on the reality principle, responsible for decision-making and problem-solving                          |
+| **Spirit-** associated with emotions, passions, and desires related to social standing and honor               | ❤️     | **Superego-** moral part of the psyche, internalizes societal rules, moral standards, and values                         |
+| **Appetite-** all the primal, fundamental drives such as hunger, thirst, sexual desire, and other bodily urges | 💪     | **Id-** instinctual part of the mind, operates on the pleasure principle, seeking immediate satisfaction of basic drives |
 
 </div>
 So who has built upon these theories? Where are we today?
@@ -136,7 +136,7 @@ Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Con
 
 ## Wrapping it up
 
-So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something check out the <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >Enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
+So did Aristotle and Pinker successfully simplify human nature? Or were Plato and Freud on to something? If you thought they were onto something check out the <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" >Enneagram</a>. It shares many similar concepts but it has no direct lineage to Plato or Freud. Perhaps the reoccurring 3 divisions that we keep stumbling upon form a better model for understanding "human nature." 9takes is on a quest to poke and prod at these divisions because we think there is still a lot to learn. And maybe, just maybe we can start to heal the human psyche and soul.
 
 <svelte:head>
 
@@ -174,7 +174,7 @@ So did Aristotle and Pinker successfully simplify human nature? Or were Plato an
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/community/consensus-on-human-nature",
+        "@id": "https://9takes.com/community/consensus-on-human-nature",
         "@type": "WebPage"
       },
       "about": [

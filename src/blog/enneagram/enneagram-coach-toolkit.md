@@ -3,7 +3,7 @@ title: "The Busy Enneagram Coach's Toolkit: Homework & Tips"
 description: 'Discover essential homework strategies for Enneagram coaches and learn to avoid common explanation mistakes in our latest blog.'
 author: 'DJ Wayne'
 date: '2024-04-19'
-loc: 'https://9takes.com/blog/enneagram/enneagram-coach-toolkit'
+loc: 'https://9takes.com/enneagram-corner/enneagram-coach-toolkit'
 lastmod: '2024-05-05'
 changefreq: 'monthly'
 priority: '0.6'
@@ -122,7 +122,7 @@ In addition to the above, there are <a class="external-link" target="_blank" hre
       "description": "Discover essential homework strategies for Enneagram coaches and learn to avoid common explanation mistakes in our latest blog.",
       "headline": "The Busy Enneagram Coach's Toolkit: Homework & Tips",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-coach-toolkit",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-coach-toolkit",
         "@type": "WebPage"
       },
       "image":{

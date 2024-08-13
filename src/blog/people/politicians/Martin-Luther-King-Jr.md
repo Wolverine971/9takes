@@ -3,7 +3,7 @@ title: 'Martin Luther King Jr- Enneagram Type 8'
 description: "An analysis of Martin Luther King Jr's personality revealing an Enneagram type 8: the challenger and the changemaker"
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Martin-Luther-King-Jr'
+loc: 'https://9takes.com/personality-analysis/Martin-Luther-King-Jr'
 lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -152,7 +152,7 @@ As we reflect on King's life and personality, we're left with a question: How ca
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Martin-Luther-King-Jr",
+        "@id": "https://9takes.com/personality-analysis/Martin-Luther-King-Jr",
         "@type": "WebPage"
       },
       "mentions": {

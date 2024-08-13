@@ -3,7 +3,7 @@ title: 'MrBeast: The Enneagram Type 8 YouTube Titan'
 description: "Dive into the psyche of YouTube's generous giant. Discover how MrBeast's Enneagram Type 8 personality fuels his epic videos, philanthropy, and relentless drive for impact."
 author: 'DJ Wayne'
 date: '2023-03-16'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Mr-Beast'
+loc: 'https://9takes.com/personality-analysis/Mr-Beast'
 lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
@@ -188,7 +188,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Mr-Beast",
+        "@id": "https://9takes.com/personality-analysis/Mr-Beast",
         "@type": "WebPage"
       },
       "mentions": {

@@ -3,7 +3,7 @@ title: 'positive self talk'
 description: "Explore each Enneagram type's mental health risks and shadow side in our guide on personality predispositions and coping mechanisms."
 author: 'DJ Wayne'
 date: '2023-12-08'
-loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
+loc: 'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
 lastmod: '2024-04-01'
 changefreq: 'monthly'
 priority: '0.6'

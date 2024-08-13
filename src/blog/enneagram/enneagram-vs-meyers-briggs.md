@@ -3,7 +3,7 @@ title: 'Enneagram vs Myers-Briggs: A Comprehensive Exploration'
 description: 'Describing the nuances of Enneagram and Myers-Briggs personality systems. Explore their unique traits, comparisons, and practical applications.'
 author: 'DJ Wayne'
 date: '2023-07-16'
-loc: 'https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs'
+loc: 'https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs'
 lastmod: '2024-04-07'
 changefreq: 'monthly'
 published: true
@@ -62,7 +62,7 @@ The Enneagram is an ancient personality system believed to have roots in several
 
 The Enneagram's origins are a subject of much debate.
 
-Various theories point to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/blog/enneagram/enneagram-influences)
+Various theories point to early Christianity, Sufism, and even more ancient roots in Babylonian or Pythagorean philosophies. Despite its elusive historical beginnings, the modern Enneagram of Personality owes much to the spiritual teacher G. I. Gurdjieff, psychiatrist Claudio Naranjo, and the author Oscar Ichazo. More on [the Enneagram origins here.](/enneagram-corner/enneagram-influences)
 
 ### Key Concepts and Structure of Enneagram
 
@@ -72,15 +72,15 @@ At the heart of the Enneagram system lies a nine-pointed geometric figure that m
 
 The nine types of Enneagram are:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**
 
 Each type offers a distinct lens through which individuals view the world and navigate their lives. The Enneagram further describes the direction of growth and stress, indicating that our behaviors can change based on our mental and emotional states.
 
@@ -174,7 +174,7 @@ The Enneagram and the Myers-Briggs Type Indicator, rich in history and insights,
             "width":1450
          },
          "mainEntityOfPage":{
-            "@id":"https://9takes.com/blog/enneagram/enneagram-vs-meyers-briggs",
+            "@id":"https://9takes.com/enneagram-corner/enneagram-vs-meyers-briggs",
             "@type":"WebPage"
          },
          "mentions":{

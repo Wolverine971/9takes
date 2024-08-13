@@ -3,7 +3,7 @@ title: 'Toxic Traits in Relationships: An Enneagram Guide to Early Warning Signs
 description: 'Uncover toxic relationship traits for each Enneagram type. Identify early warning signs, understand motivations, and build healthier partnerships.'
 author: 'DJ Wayne'
 date: '2024-07-31'
-loc: 'https://9takes.com/blog/enneagram/toxic-traits-relationships-warning-signs'
+loc: 'https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs'
 lastmod: '2024-07-31'
 changefreq: 'monthly'
 priority: '0.6'
@@ -85,7 +85,7 @@ The rigidity of Type 1s can lead to unrealistic and inflexible expectations in r
 
 Type 1s may position themselves as the moral authority in the relationship, leading to a sense of superiority over their partner. This can manifest in lecturing their partner about "right" and "wrong" ways of doing things, or expressing disappointment when their partner doesn't live up to their ethical standards. For instance, a Type 1 might shame their partner for occasionally enjoying reality TV, viewing it as a "waste of time" that doesn't align with their values of productive self-improvement.
 
-[More on Type 1s](/blog/enneagram/enneagram-type-1)
+[More on Type 1s](/enneagram-corner/enneagram-type-1)
 
 </article>
 
@@ -107,7 +107,7 @@ The Helper's desire to be indispensable can lead to severe boundary issues in re
 
 Type 2s often neglect their own needs in favor of their partner's, creating an unsustainable imbalance in the relationship. They might consistently put their partner's desires ahead of their own, leading to resentment and burnout. For instance, a Type 2 might always defer to their partner's choice of restaurant or vacation destination, never expressing their own preferences, until they eventually explode in frustration.
 
-[More on Type 2s](/blog/enneagram/enneagram-type-2)
+[More on Type 2s](/enneagram-corner/enneagram-type-2)
 
 </article>
 
@@ -129,12 +129,12 @@ The Achiever's competitive nature can turn relationships into a constant compari
 
 Type 3s often prioritize work and achievement over their relationship, leading to emotional neglect of their partner. They might consistently cancel date nights for work commitments or be mentally absent even when physically present. For instance, a Type 3 might spend an entire vacation answering work emails and taking calls, leaving their partner feeling lonely and unimportant.
 
-[More on Type 3s](/blog/enneagram/enneagram-type-3)
+[More on Type 3s](/enneagram-corner/enneagram-type-3)
 
 </article>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
  <article class="section-content">
@@ -155,7 +155,7 @@ The Individualist's quest for the ideal can lead to chronic dissatisfaction with
 
 Type 4s may glorify the painful aspects of their relationship, seeing suffering as a sign of depth and authenticity. They might create or exaggerate problems to feel a sense of emotional intensity. For instance, a Type 4 might pick fights with their partner before important events, believing that the ensuing drama and reconciliation will make the occasion more meaningful and memorable.
 
-[More on Type 4s](/blog/enneagram/enneagram-type-4)
+[More on Type 4s](/enneagram-corner/enneagram-type-4)
 
 </article>
 
@@ -177,7 +177,7 @@ The Investigator's need for personal space can become excessive in relationships
 
 Type 5s may use their knowledge as a defense mechanism in relationships, creating an imbalance of power. They might constantly correct their partner or engage in debates to assert intellectual superiority. For instance, a Type 5 might undermine their partner's opinions in social situations by presenting counterarguments or obscure facts, embarrassing their partner and damaging their confidence.
 
-[More on Type 5s](/blog/enneagram/enneagram-type-5)
+[More on Type 5s](/enneagram-corner/enneagram-type-5)
 
 </article>
 
@@ -199,7 +199,7 @@ The Loyalist's tendency to anticipate the worst can lead to excessive worry abou
 
 Type 6s may create scenarios to test their partner's commitment, often setting them up for failure. These tests can be exhausting and damaging to the relationship. For instance, a Type 6 might deliberately not respond to messages for hours, then become upset if their partner doesn't show enough concern about their whereabouts.
 
-[More on Type 6s](/blog/enneagram/enneagram-type-6)
+[More on Type 6s](/enneagram-corner/enneagram-type-6)
 
 </article>
 
@@ -208,7 +208,7 @@ Type 6s may create scenarios to test their partner's commitment, often setting t
     justify-content: center;
     margin: 1rem 0;"
 >
-    <a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link">
+    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link">
       <PopCard
           image={`/blogs/greek-statue-of-athena-with-red.webp`}
           showIcon={false}
@@ -217,7 +217,7 @@ Type 6s may create scenarios to test their partner's commitment, often setting t
           scramble={false}
       />
      </a>
-    <a href="/blog/enneagram/biggest-compliments-to-give-each-enneagram-type" class="blog-link">
+    <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="blog-link">
       <PopCard
           image={`/blogs/greek-statue-yeah-boi.webp`}
           showIcon={false}
@@ -246,7 +246,7 @@ The Enthusiast's need for constant stimulation can lead to a lack of focus on th
 
 Type 7s may avoid deep emotional intimacy, preferring to keep things light and fun. This can prevent the development of a truly close bond. For instance, a Type 7 might deflect serious discussions with jokes or change the subject when their partner tries to address relationship issues, leaving problems unresolved.
 
-[More on Type 7s](/blog/enneagram/enneagram-type-7)
+[More on Type 7s](/enneagram-corner/enneagram-type-7)
 
 </article>
 
@@ -268,7 +268,7 @@ The Challenger's quick temper can lead to frequent outbursts in the relationship
 
 Type 8s may struggle with showing softer emotions, maintaining a tough exterior even with their partner. This can prevent deep emotional intimacy from developing. For instance, a Type 8 might respond to their partner's expressions of love with sarcasm or deflection, leaving their partner feeling emotionally unfulfilled and disconnected.
 
-[More on Type 8s](/blog/enneagram/enneagram-type-8)
+[More on Type 8s](/enneagram-corner/enneagram-type-8)
 
 </article>
 
@@ -290,7 +290,7 @@ The Peacemaker's desire for internal harmony can lead to a suppression of their 
 
 Type 9s may lose themselves in their relationships, adapting to their partner's preferences and lifestyle at the expense of their own identity. This can lead to a loss of self and an unhealthy codependence. For instance, a Type 9 might completely abandon their own hobbies, friends, and even career aspirations to merge with their partner's life, ultimately leading to a sense of resentment and loss of self-esteem.
 
-[More on Type 9s](/blog/enneagram/enneagram-type-9)
+[More on Type 9s](/enneagram-corner/enneagram-type-9)
 
 </article>
 
@@ -328,7 +328,7 @@ What steps will you take to bring more awareness and compassion to your relation
 
 <!-- [Link to blog on relationship dynamics of each Enneagram type] -->
 
-Learn more about [communication in relationships here.](/blog/enneagram/enneagram-communication-in-relationships)
+Learn more about [communication in relationships here.](/enneagram-corner/enneagram-communication-in-relationships)
 
 <svelte:head>
 
@@ -376,7 +376,7 @@ Learn more about [communication in relationships here.](/blog/enneagram/enneagra
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/toxic-traits-relationships-warning-signs",
+        "@id": "https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs",
         "@type": "WebPage"
       },
       "publisher": {

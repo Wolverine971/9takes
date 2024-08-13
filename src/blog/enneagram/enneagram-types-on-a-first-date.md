@@ -3,7 +3,7 @@ title: 'Enneagram Types on a first date'
 description: 'What is each type thinking about and feeling. What do they do to prepare and what are red flags and good signals for each type.'
 author: 'DJ Wayne'
 date: '2023-07-30'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date'
 lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
@@ -57,7 +57,7 @@ If a Perfectionist hears phrases like "I usually wing it" or "I don't care about
 
 On the other hand, statements like "I appreciate your attention to detail" or "I also strive to improve" can be heartening. These show respect for their principles and an alignment with their constant drive for self-improvement.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 <section class="section-content">
@@ -77,7 +77,7 @@ Phrases that suggest selfishness or lack of empathy, like "I don't care what oth
 
 Comments such as "Your kindness is touching" or "I love helping others too" indicate understanding and appreciation for the Helper's caring nature, which they would find reassuring.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 <section class="section-content">
@@ -96,7 +96,7 @@ Hearing "Why bother trying so hard?" can be disheartening for the Achiever, as i
 
 However, phrases like "Your drive is inspiring" or "I admire your achievements" can be encouraging. It shows an appreciation for their hard work and ambition.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 <section class="section-content">
@@ -116,7 +116,7 @@ Hearing "Why can't you be more like others?" can significantly deter Type 4s. Th
 
 On the positive side, remarks such as "I admire your creativity" or "Your unique perspective is fascinating" can deeply resonate with them. These affirmations validate their individuality and emotional depth.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -138,12 +138,12 @@ For the Investigator, statements like "I don't like reading" or "Who cares about
 
 In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which Type 5 finds appealing.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -164,7 +164,7 @@ Comments such as "I'm a free spirit, I don't make plans" or "Rules are meant to 
 
 Hearing phrases like "I believe in loyalty" or "I've planned a safe route for our hike" can be a good signal for Type 6. These show a commitment to safety and stability that the Loyalist appreciates.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -186,7 +186,7 @@ If an Enthusiast hears phrases like "I prefer routine and stability" or "Let's n
 
 Comments such as "I love trying new things" or "I'm excited about our next adventure" will likely be welcomed, signaling a shared passion for adventure and exploration.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -208,7 +208,7 @@ Hearing "I don't like confrontation" or "I prefer to follow the crowd" can be re
 
 On the other hand, phrases like "I admire your courage" or "I value straightforwardness too" can be perceived as good signals, as they align with their candid nature and desire for justice.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -230,7 +230,7 @@ Statements such as "I enjoy a good argument" or "I don't mind conflict" can be a
 
 Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfortable" are encouraging for them. These suggest a shared preference for calm and unity, integral to their nature.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -238,7 +238,7 @@ Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfort
 
 Hopefully it is clear by now how different our expectations can be.
 
-But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you liked this, check [what each Enneagram type is like in a relationship](/blog/enneagram/enneagram-types-in-relationships)
+But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you liked this, check [what each Enneagram type is like in a relationship](/enneagram-corner/enneagram-types-in-relationships)
 
 <svelte:head>
 
@@ -248,7 +248,7 @@ But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you l
    "@type":"BlogPosting",
    "mainEntityOfPage":{
       "@type":"WebPage",
-      "@id":"https://9takes.com/blog/enneagram/enneagram-types-on-a-first-date"
+      "@id":"https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date"
    },
    "headline":"Enneagram Types on a first date",
    "description":"What is each type thinking about and feeling. What do they do to prepare, and what are red flags and good signals for each type.",

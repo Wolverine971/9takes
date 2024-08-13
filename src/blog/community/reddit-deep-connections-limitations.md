@@ -3,7 +3,7 @@ title: "5 Reasons Reddit Can't Help You Find Deep Connections"
 description: 'Discover why Reddit falls short in forging deep connections and learn how to find meaningful interactions online.'
 author: 'DJ Wayne'
 date: '2024-02-18'
-loc: 'https://9takes.com/blog/community/reddit-deep-connections-limitations'
+loc: 'https://9takes.com/community/reddit-deep-connections-limitations'
 lastmod: '2024-02-18'
 changefreq: 'monthly'
 priority: '0.6'
@@ -75,7 +75,7 @@ Even when you do connect with someone, the platform's design makes it hard to su
 
 The core issue is evident: continuity is necessary for there to be a deep connection.
 
-Recognize the limitations of Reddit in satisfying deep social needs, and <a href="/blog/community/introducing-9takes">seek out platforms</a> and spaces that prioritize personal interaction and sustained relationships. Your craving for connection deserves a setting where your thoughts, feelings, and experiences can be shared and valued deeply.
+Recognize the limitations of Reddit in satisfying deep social needs, and <a href="/community/introducing-9takes">seek out platforms</a> and spaces that prioritize personal interaction and sustained relationships. Your craving for connection deserves a setting where your thoughts, feelings, and experiences can be shared and valued deeply.
 
 <!-- ## Comparing Platforms: 9takes vs. Reddit
 

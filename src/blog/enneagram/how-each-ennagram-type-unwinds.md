@@ -3,7 +3,7 @@ title: 'How Each Enneagram Type Unwinds'
 description: 'Unwind and recharge the right way! See the ideal activities to relax and de-stress for each Enneagram type.'
 author: 'DJ Wayne'
 date: '2023-12-08'
-loc: 'https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds'
+loc: 'https://9takes.com/enneagram-corner/how-each-ennagram-type-unwinds'
 lastmod: '2024-04-24'
 changefreq: 'monthly'
 priority: '0.6'
@@ -183,7 +183,7 @@ So, whether you’re diving into a new adventure, embracing tranquility, or conn
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/how-each-ennagram-type-unwinds",
+        "@id": "https://9takes.com/enneagram-corner/how-each-ennagram-type-unwinds",
         "@type": "WebPage"
       },
       "publisher": {

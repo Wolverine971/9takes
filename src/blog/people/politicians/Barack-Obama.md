@@ -3,7 +3,7 @@ title: 'Barack Obama Enneagram Type 9'
 description: 'Why Barack Obama appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Barack-Obama'
+loc: 'https://9takes.com/personality-analysis/Barack-Obama'
 lastmod: '2023-08-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -117,45 +117,45 @@ In essence, Obama's political priorities and his potential Enneagram Type 9 pers
 Just as we speculated about Barack Obama's Enneagram type, it's interesting to consider how individuals of different Enneagram types might perceive him.
 
 <article>
-  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>They may admire Obama's measured, thoughtful approach to decision-making, appreciating his commitment to principles. However, they might criticize instances where they believe he compromised on ethical standards or failed to execute perfect solutions.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>These individuals might appreciate Obama's efforts to help the underprivileged, like through the Affordable Care Act. They may be drawn to his empathetic communication style while occasionally questioning whether he did enough for those in need.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>They could admire Obama's success in reaching the highest office in the land, especially as the first African-American President. They might, however, scrutinize his handling of economic issues and job creation, key measures of success.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>This type may resonate with Obama's narrative of a unique journey from a multiracial upbringing to becoming President. However, they might critique him for not embracing more unconventional solutions to societal problems.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>They may admire Obama's analytical, information-driven decision-making style. However, they might need to question whether he delved deeply enough into issues or relied too heavily on consensus rather than independent thought.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>They could appreciate Obama's steadiness and dependability. However, they might critique his handling of national security and foreign policy issues, probing whether he provided enough reassurance in the face of threats.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>They may be drawn to Obama's optimism and charisma, especially his focus on positive societal change. Yet, they might question whether his administration sufficiently addressed the desires for freedom and adventure inherent in the American spirit.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>They might respect Obama's ability to assert power and command respect globally. However, they could challenge his tendency towards diplomacy and compromise, preferring more assertive, confrontational strategies.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>This type could deeply resonate with Obama's inclination towards peace, unity, and consensus. They might appreciate his calm demeanor in the face of adversity, although they could critique him for not asserting his perspectives more forcefully.</p>
 </article>
 
 ## Conclusion
 
-Barack Obama's possible Type 9 personality has provided us with fresh insights into his leadership style, making us question and explore the role of personality in shaping our world. What other public figures could be Type 9s? Or what is <a href="/blog/famous-enneagram-types/Michelle-Obama">Michelle's Enneagram type</a>? If you are interested, check out this blog describing <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" >Michelle and Barack's relationship</a> from an Enneagram perspective.
+Barack Obama's possible Type 9 personality has provided us with fresh insights into his leadership style, making us question and explore the role of personality in shaping our world. What other public figures could be Type 9s? Or what is <a href="/personality-analysis/Michelle-Obama">Michelle's Enneagram type</a>? If you are interested, check out this blog describing <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple" >Michelle and Barack's relationship</a> from an Enneagram perspective.
 
 At 9takes, understanding the Enneagram opens doors to empathy and mutual respect. We can bridge divides and build a more compassionate society through meaningful discussions.
 
@@ -193,7 +193,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Barack-Obama",
+        "@id": "https://9takes.com/personality-analysis/Barack-Obama",
         "@type": "WebPage"
       },
       "mentions": {

@@ -3,7 +3,7 @@ title: "Handling Stress: Situations change but the Emotions don't"
 description: 'Discover how stress triggers differ, but emotional responses are universal. Learn to master your emotions and effectively navigate stressful situations.'
 author: 'DJ Wayne'
 date: '2024-05-02'
-loc: 'https://9takes.com/blog/enneagram/situations-change-emotions-dont'
+loc: 'https://9takes.com/enneagram-corner/situations-change-emotions-dont'
 lastmod: '2024-06-25'
 changefreq: 'monthly'
 priority: '0.6'
@@ -75,6 +75,6 @@ Each Enneagram type is connected to two others:
 1. How they act when thriving
 2. How they behave when stressed
 
-To learn more about how each type thinks, feels, and acts under stress, check out this blog post on <a href="/blog/enneagram/enneagram-stress-number">each type's stress number</a>.
+To learn more about how each type thinks, feels, and acts under stress, check out this blog post on <a href="/enneagram-corner/enneagram-stress-number">each type's stress number</a>.
 
 Recognizing the role of emotions and personality in stress responses provides valuable insights into your own patterns and those of others. This awareness is the first step in managing stress effectively.

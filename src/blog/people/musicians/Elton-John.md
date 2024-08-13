@@ -3,7 +3,7 @@ title: 'Elton John Enneagram Type 4'
 description: 'Why Elton John appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Elton-John'
+loc: 'https://9takes.com/personality-analysis/Elton-John'
 lastmod: '2023-10-18'
 changefreq: 'monthly'
 priority: '0.6'
@@ -89,39 +89,39 @@ His collaboration with Bernie Taupin, a partnership that thrived over decades, r
 ## How Each Enneagram Type Perceives Elton John
 
 <article>
-    <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>May admire Elton's musical mastery but could be critical of his flamboyant persona and past controversies, seeing them as deviations from moral or conventional norms.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+    <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>Likely to appreciate Elton’s philanthropic endeavors and openness about personal struggles, seeing him as someone using his platform for good.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+    <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>Admires Elton’s tremendous success and iconic status in the music industry, seeing him as a figure of accomplishment and aspiration.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>Resonates with Elton's quest for uniqueness and emotional expression through music, finding a kindred spirit in his artistic journey.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+    <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>Intrigued by the depth of emotions and the layers of meaning in Elton's lyrics, appreciating the intellectual engagement his music offers.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>Might appreciate Elton’s longstanding musical partnerships and loyalty to his authentic self, yet may also find his controversial aspects unsettling.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+    <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>Drawn to the glitz, vibrant performances, and the energetic persona that Elton displays on stage, finding his music a source of joy and exhilaration.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+    <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>Respects Elton’s boldness in self-expression and his ability to challenge societal norms, seeing him as a strong individual with a clear sense of identity.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+    <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>Might appreciate the harmony and beauty in Elton’s music, finding solace in his melodies while possibly wishing for less controversy in his public persona.</p>
 </article>
 
@@ -179,7 +179,7 @@ Suppose this exploration piqued your curiosity, and you yearn for more insightfu
         "http://schema.org/width": 900
       },
       "http://schema.org/mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Elton-John",
+        "@id": "https://9takes.com/personality-analysis/Elton-John",
         "@type": "http://schema.org/WebPage"
       },
       "http://schema.org/mentions": {

@@ -3,7 +3,7 @@ title: 'The Enneagram and Self-Development: A Comprehensive Guide to Personal Gr
 description: 'Discover how the Enneagram can transform your self-development journey. Learn practical tips for growth, better relationships, and deeper self-understanding.'
 author: 'DJ Wayne'
 date: '2024-08-10'
-loc: 'https://9takes.com/blog/guides/using-the-enneagram-for-self-development'
+loc: 'https://9takes.com/how-to-guides/using-the-enneagram-for-self-development'
 lastmod: '2024-08-10'
 changefreq: 'monthly'
 priority: '0.6'

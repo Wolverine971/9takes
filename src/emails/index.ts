@@ -2,7 +2,7 @@ import { EmailHead } from './EmailHead';
 
 const from = '9takes Admins';
 export const joinEmail = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -113,7 +113,7 @@ export const joinEmail = () => {
 };
 
 export const joinEmail2 = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Welcome to the 9takes Waitlist')}
       <body style="background-color: #f6f6f6;">
@@ -147,14 +147,14 @@ export const joinEmail2 = () => {
                     <table cellpadding="0" cellspacing="0" border="0" width="100%">
                       <tr align="center">
                         <td valign="top" width="50%">
-                          <a href="https://9takes.com/blog/enneagram/enneagram-types-at-party" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                          <a href="https://9takes.com/enneagram-corner/enneagram-types-at-party" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                             
                               <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
                                 src="https://9takes.com/blogs/greek-statues-party-vibes.webp">
                             </a>
                         </td>
                         <td valign="top" width="50%">
-                          <a href="https://9takes.com/blog/enneagram/enneagram-communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                          <a href="https://9takes.com/enneagram-corner/enneagram-communication-tips" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                         <img style="border:0;line-height:100%;outline:none;text-decoration:none;background:#d7d7d7;margin:10px; object-fit: cover; width: 230px; height: 230px; filter: sepia(100%) hue-rotate(160deg); border-radius: 5px;"
                           src="https://9takes.com/blogs/greek-statues-arguing.webp">
                       </a>
@@ -201,7 +201,7 @@ export const joinEmail2 = () => {
 };
 
 export const personSuggestionEmail = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Appreciate the suggestion')}
       <body style="background-color: #f6f6f6;">
@@ -218,7 +218,7 @@ export const personSuggestionEmail = () => {
                     <div value="15" style="padding-top:15px"> </div>
                     <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
                       <p>We will email you when we write the analysis.</p>
-                       <p>In the meantime read our <a class="external-link" target="_blank" href="https://9takes.com/blog/famous-enneagram-types">other blogs.</p>
+                       <p>In the meantime read our <a class="external-link" target="_blank" href="https://9takes.com/personality-analysis">other blogs.</p>
                     </div>
                     <div style="font-size:18px;font-weight:400;line-height:32px;color:#333">
                       <div value="15" style="padding-top:15px"> </div><b style="">
@@ -259,7 +259,7 @@ export const personSuggestionEmail = () => {
 };
 
 export const emailTemplate = (subject: string, header: string, body: string) => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead(subject)}
       <body style="background-color: #f6f6f6;">
@@ -320,7 +320,7 @@ export const emailTemplate = (subject: string, header: string, body: string) => 
 
 // this is in supabase
 export const signupEmail = () => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
     <html>
       ${EmailHead('Confirm your email to join 9takes')}
       <body style="background-color: #f6f6f6;">
@@ -351,7 +351,7 @@ export const signupEmail = () => {
 };
 
 export const forgotPass = (link: string) => {
-	return `<!DOCTYPE html>
+  return `<!DOCTYPE html>
       <html>
         <head>
         <meta charset="utf-8">

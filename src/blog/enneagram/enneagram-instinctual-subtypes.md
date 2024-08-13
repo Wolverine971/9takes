@@ -3,7 +3,7 @@ title: 'Enneagram Instinctual Subtypes'
 description: 'Discover the three Enneagram Instinctual Subtypes: self-preservation, social, and one-to-one. Learn how they influence your basic needs and relationships.'
 author: 'DJ Wayne'
 date: '2023-02-28'
-loc: 'https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes'
+loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
 lastmod: '2023-08-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -112,7 +112,7 @@ One-to-One Enneagram subtypes are characterized by a strong need for intimacy an
 9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 ## Wrapping Up
@@ -166,7 +166,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
     "width": 685
   },
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-instinctual-subtypes",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
     "@type": "WebPage"
   },
   "mentions": {

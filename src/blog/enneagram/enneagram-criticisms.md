@@ -3,7 +3,7 @@ title: 'Criticisms of the Enneagram: Evidence & Stereotypes'
 description: 'Explore common criticisms of the Enneagram. Understand the debates behind personality and the solutions within 9takes.'
 author: 'DJ Wayne'
 date: '2023-02-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-criticisms'
+loc: 'https://9takes.com/enneagram-corner/enneagram-criticisms'
 lastmod: '2024-01-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -72,7 +72,7 @@ Enneagram Criticisms (200 words)
 </details>
 <details>
   <summary class="accordion">"Identifying one's own Enneagram type can be quite subjective, which may lead to inaccurate or inconsistent results."</summary>
-  <div class="panel" style="margin: 16px 0"><p>Yes, self-typing is a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate. Over time your sense of self can become clearer as you uncover your core motivations and fears. Here is a <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">guide for determining your Enneagram type.</a></p></div>
+  <div class="panel" style="margin: 16px 0"><p>Yes, self-typing is a subjective process. However, this process can also offer an invaluable opportunity for self-reflection, introspection, and personal growth, even if the identified type isn't 100% accurate. Over time your sense of self can become clearer as you uncover your core motivations and fears. Here is a <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">guide for determining your Enneagram type.</a></p></div>
   <!-- Perhaps, implementing a more comprehensive and guided questionnaire could help users accurately identify their Enneagram type. -->
 </details>
 <details>
@@ -99,7 +99,7 @@ Enneagram Criticisms (200 words)
 </details>
 <details>
   <summary class="accordion">"9takes's focus on the Enneagram may limit its appeal to those unfamiliar with or skeptical of the system."</summary>
-  <div class="panel" style="margin: 16px 0"><p>Yes the focus on the Enneagram might while seem limiting. However the <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">Enneagram brings together psychology and philosophy</a> and its ideas continue to be touched in many areas in society. 9takes is betting that the Enneagram will one day be in the common vernacular.</p></div>
+  <div class="panel" style="margin: 16px 0"><p>Yes the focus on the Enneagram might while seem limiting. However the <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">Enneagram brings together psychology and philosophy</a> and its ideas continue to be touched in many areas in society. 9takes is betting that the Enneagram will one day be in the common vernacular.</p></div>
   <!-- To widen the appeal, the platform could create introductory content to attract users who are unfamiliar with the Enneagram, showcasing its potential for fostering understanding and empathy. -->
 </details>
 <details>
@@ -187,7 +187,7 @@ Enneagram Criticisms (200 words)
       "description": "The article presents common criticisms of the Enneagram and the 9takes platform. It discusses issues such as the lack of empirical validation, the risk of oversimplification, and the potential for creating echo chambers.",
       "headline": "Enneagram Criticisms",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-criticisms",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-criticisms",
         "@type": "WebPage"
       },
       "image": {

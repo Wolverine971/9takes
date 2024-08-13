@@ -3,7 +3,7 @@ title: 'Jake Paul Enneagram Type 3'
 description: 'Why Jake Paul appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Jake-Paul'
+loc: 'https://9takes.com/personality-analysis/Jake-Paul'
 lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -84,15 +84,15 @@ The Achiever often struggles with authenticity in relationships, mainly due to t
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jake:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - They may admire Jake's discipline and commitment to his boxing career, but may also be critical of his controversial actions and perceived lack of moral restraint. His bold public persona might seem needlessly extravagant to them.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - They could be sympathetic towards Jake's struggles, seeing his need for validation and success as a call for love and acceptance. Yet, they might also wish he would use his influence more positively.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Likely to resonate with Jake's drive and ambition, they might admire his success but could also identify with the pressure he faces to maintain his image, knowing all too well the pitfalls of such a lifestyle.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - They might feel alienated by Jake's mainstream success, viewing it as lacking depth and authenticity. His relentless ambition might seem superficial to them.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - They could find Jake's life intriguing, studying his career trajectory and personal life in an attempt to understand what drives him. However, they might also see his controversies as avoidable, unnecessary drama.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - They might appreciate Jake's loyalty to his career goals, yet his unpredictable actions could make them wary. His seeming lack of security and stability could be unsettling.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Likely to be entertained by Jake's vibrant public persona, they might admire his ability to turn even negative publicity into a form of success. However, they might not relate to his constant need for validation.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - They could resonate with Jake's assertiveness and his courage to challenge established fighters. Yet, they might question his handling of power and influence.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Likely to feel overwhelmed by Jake's aggressive approach to life, they might wish he'd seek harmony over conflict. His controversial actions might conflict with their desire for peace and stability.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They may admire Jake's discipline and commitment to his boxing career, but may also be critical of his controversial actions and perceived lack of moral restraint. His bold public persona might seem needlessly extravagant to them.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - They could be sympathetic towards Jake's struggles, seeing his need for validation and success as a call for love and acceptance. Yet, they might also wish he would use his influence more positively.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Likely to resonate with Jake's drive and ambition, they might admire his success but could also identify with the pressure he faces to maintain his image, knowing all too well the pitfalls of such a lifestyle.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - They might feel alienated by Jake's mainstream success, viewing it as lacking depth and authenticity. His relentless ambition might seem superficial to them.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - They could find Jake's life intriguing, studying his career trajectory and personal life in an attempt to understand what drives him. However, they might also see his controversies as avoidable, unnecessary drama.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - They might appreciate Jake's loyalty to his career goals, yet his unpredictable actions could make them wary. His seeming lack of security and stability could be unsettling.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Likely to be entertained by Jake's vibrant public persona, they might admire his ability to turn even negative publicity into a form of success. However, they might not relate to his constant need for validation.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - They could resonate with Jake's assertiveness and his courage to challenge established fighters. Yet, they might question his handling of power and influence.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Likely to feel overwhelmed by Jake's aggressive approach to life, they might wish he'd seek harmony over conflict. His controversial actions might conflict with their desire for peace and stability.
 
 ## Wrapping up
 
@@ -140,7 +140,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Jake-Paul",
+        "@id": "https://9takes.com/personality-analysis/Jake-Paul",
         "@type": "WebPage"
       },
       "mentions": {

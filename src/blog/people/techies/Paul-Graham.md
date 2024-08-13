@@ -3,7 +3,7 @@ title: 'Paul Graham Enneagram Type 7'
 description: "Understand where Paul's boundless energy and enthusiasm comes from and explore what is going behind his eyes"
 author: 'DJ Wayne'
 date: '2024-07-04'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Paul-Graham'
+loc: 'https://9takes.com/personality-analysis/Paul-Graham'
 lastmod: '2024-07-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -141,7 +141,7 @@ As the tech world continues to evolve, the vibrant and ever-curious spirit of Pa
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blog/famous-enneagram-types/Paul-Graham.png",
+        "url": "https://9takes.com/personality-analysis/Paul-Graham.png",
         "width": 900
       },
       "mainEntityOfPage": {

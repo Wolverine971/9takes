@@ -25,66 +25,66 @@
 		<button
 			class="main-subNavBtn {!isMobile && 'big-btn'} {!isMobile && 'subNavBtn'}"
 			style="background: {isMobile && 'white'}; border: {isMobile && 'none'};"
-			>Enneagram Blog<i class="fa fa-caret-down" /></button
+			>Enneagram Corner<i class="fa fa-caret-down" /></button
 		>
 		<div class="main-subnav-content {isMobile && 'mobile-card'}">
 			<div class="subnav">
 				<button class="subNavBtn">Overview<i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
 					<!-- <a href="#enneagram">Understanding the Enneagram</a> -->
-					<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram"
+					<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram"
 						>Philosophy and Psychology gave birth to the Enneagram</a
 					>
-					<a href="/blog/enneagram/enneagram-tldr">Enneagram TLDR</a>
-					<a href="/blog/enneagram/enneagram-concepts">Concepts and Principles</a>
-					<a href="/blog/enneagram/enneagram-influences">Enneagram Influences</a>
+					<a href="/enneagram-corner/enneagram-tldr">Enneagram TLDR</a>
+					<a href="/enneagram-corner/enneagram-concepts">Concepts and Principles</a>
+					<a href="/enneagram-corner/enneagram-influences">Enneagram Influences</a>
 				</div>
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">9 Types <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content ">
-					<a href="/blog/enneagram/enneagram-type-1">Type 1: The Perfectionist</a>
-					<a href="/blog/enneagram/enneagram-type-2">Type 2: The Helper</a>
-					<a href="/blog/enneagram/enneagram-type-3">Type 3: The Achiever</a>
-					<a href="/blog/enneagram/enneagram-type-4">Type 4: The Individualist</a>
-					<a href="/blog/enneagram/enneagram-type-5">Type 5: The Investigator</a>
-					<a href="/blog/enneagram/enneagram-type-6">Type 6: The Loyalist</a>
-					<a href="/blog/enneagram/enneagram-type-7">Type 7: The Enthusiast</a>
-					<a href="/blog/enneagram/enneagram-type-8">Type 8: The Challenger</a>
-					<a href="/blog/enneagram/enneagram-type-9">Type 9: The Peacemaker</a>
+					<a href="/enneagram-corner/enneagram-type-1">Type 1: The Perfectionist</a>
+					<a href="/enneagram-corner/enneagram-type-2">Type 2: The Helper</a>
+					<a href="/enneagram-corner/enneagram-type-3">Type 3: The Achiever</a>
+					<a href="/enneagram-corner/enneagram-type-4">Type 4: The Individualist</a>
+					<a href="/enneagram-corner/enneagram-type-5">Type 5: The Investigator</a>
+					<a href="/enneagram-corner/enneagram-type-6">Type 6: The Loyalist</a>
+					<a href="/enneagram-corner/enneagram-type-7">Type 7: The Enthusiast</a>
+					<a href="/enneagram-corner/enneagram-type-8">Type 8: The Challenger</a>
+					<a href="/enneagram-corner/enneagram-type-9">Type 9: The Peacemaker</a>
 				</div>
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">Personal Development <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/enneagram-personality-test">Determining your type</a>
-					<a href="/blog/enneagram/enneagram-self-development">Self development</a>
-					<a href="/blog/enneagram/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a>
-					<a href="/blog/enneagram/enneagram-personal-growth">Growth strategies</a>
+					<a href="/enneagram-corner/enneagram-personality-test">Determining your type</a>
+					<a href="/enneagram-corner/enneagram-self-development">Self development</a>
+					<a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a>
+					<a href="/enneagram-corner/enneagram-personal-growth">Growth strategies</a>
 				</div>
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">Relationships <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/enneagram-types-in-relationships">Types in relationships</a>
-					<a href="/blog/enneagram/enneagram-communication-tips">Communication tips</a>
-					<a href="/blog/enneagram/enneagram-communication-styles">Communication styles</a>
+					<a href="/enneagram-corner/enneagram-types-in-relationships">Types in relationships</a>
+					<a href="/enneagram-corner/enneagram-communication-tips">Communication tips</a>
+					<a href="/enneagram-corner/enneagram-communication-styles">Communication styles</a>
 				</div>
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">Workplace <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/enneagram-workplace-team-building">Team building</a>
-					<a href="/blog/enneagram/enneagram-types-working-in-teams">Working in teams</a>
-					<a href="/blog/enneagram/enneagram-team-dynamics">Team dynamics</a>
-					<a href="/blog/enneagram/enneagram-team-diversity">Team diversity</a>
+					<a href="/enneagram-corner/enneagram-workplace-team-building">Team building</a>
+					<a href="/enneagram-corner/enneagram-types-working-in-teams">Working in teams</a>
+					<a href="/enneagram-corner/enneagram-team-dynamics">Team dynamics</a>
+					<a href="/enneagram-corner/enneagram-team-diversity">Team diversity</a>
 				</div>
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">Resources <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/enneagram-faqs">FAQs</a>
-					<a href="/blog/enneagram/enneagram-books-websites-podcasts"
+					<a href="/enneagram-corner/enneagram-faqs">FAQs</a>
+					<a href="/enneagram-corner/enneagram-books-websites-podcasts"
 						>Books, websites, and podcasts</a
 					>
 					<!-- <a href="#tests">Tests and assessments</a>
@@ -94,10 +94,10 @@
 			<div class="subnav">
 				<button class="subNavBtn">Situational Topics <i class="fa fa-caret-down" /></button>
 				<div class="subnav-content">
-					<a href="/blog/enneagram/enneagram-types-at-party">Types at a party</a>
-					<a href="/blog/enneagram/enneagram-types-being-ghosted">Impact of ghosting</a>
-					<a href="/blog/enneagram/enneagram-types-in-stress">Navigating stress</a>
-					<a href="/blog/famous-enneagram-types">Analysis of famous people</a>
+					<a href="/enneagram-corner/enneagram-types-at-party">Types at a party</a>
+					<a href="/enneagram-corner/enneagram-types-being-ghosted">Impact of ghosting</a>
+					<a href="/enneagram-corner/enneagram-types-in-stress">Navigating stress</a>
+					<a href="/personality-analysis">Analysis of famous people</a>
 				</div>
 			</div>
 		</div>

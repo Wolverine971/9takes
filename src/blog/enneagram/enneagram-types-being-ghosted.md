@@ -3,7 +3,7 @@ title: 'Enneagram Types Being Ghosted'
 description: 'Explore the emotional impact of ghosting through the lens of the Enneagram. Understand how each type copes and find empowering strategies for healing'
 author: 'DJ Wayne'
 date: '2023-02-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-being-ghosted'
 lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
@@ -41,7 +41,7 @@ After school is done and work is over for the day, it can be hard to find friend
 
 Today we are going to look at the impact of ghosting on different Enneagram types.
 
-It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](/blog/enneagram/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
+It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
 
  <section class="section-content">
   <h3 style="padding: 0; margin-top: 1em">Type One: The Perfectionist</h3>
@@ -52,14 +52,14 @@ It's important to recognize that not everyone responds the same way to ghosting 
    and looking at the situation objectively. They may also want to focus on self-compassion and
    self-care, reminding themselves that they are not to blame for the other person's actions.
 
-[More on type 1s](/blog/enneagram/enneagram-type-1)
+[More on type 1s](/enneagram-corner/enneagram-type-1)
 
  </section>
 
 <!-- <hr class="border"/>  -->
   <!-- <aside class="section-meta">
   
-   <a href="/blog/enneagram/enneagram-type-1" class="a-type">Type 1</a>
+   <a href="/enneagram-corner/enneagram-type-1" class="a-type">Type 1</a>
    <p>The Enneagram 1 is a put together creature</p>
  </aside> -->
  <section class="section-content">
@@ -72,11 +72,11 @@ feelings, Twos may benefit from talking to a trusted friend or therapist about t
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 2s](/blog/enneagram/enneagram-type-2)
+[More on type 2s](/enneagram-corner/enneagram-type-2)
 
  </section>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-2" class="a-type">Type 2</a>
+   <a href="/enneagram-corner/enneagram-type-2" class="a-type">Type 2</a>
    <p>The Enneagram 2 is a loving creature</p>
   </aside> -->
  <section class="section-content">
@@ -89,15 +89,15 @@ feelings, Threes may benefit from focusing on their accomplishments and successe
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
 
-[More on type 3s](/blog/enneagram/enneagram-type-3)
+[More on type 3s](/enneagram-corner/enneagram-type-3)
 
  </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-3" class="a-type">Type 3</a>
+   <a href="/enneagram-corner/enneagram-type-3" class="a-type">Type 3</a>
    <p>The Enneagram 3 is a shiny creature</p>
   </aside> -->
  <section class="section-content">
@@ -110,7 +110,7 @@ feelings, Fours may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 4s](/blog/enneagram/enneagram-type-4)
+[More on type 4s](/enneagram-corner/enneagram-type-4)
 
  </section>
 
@@ -130,7 +130,7 @@ that they are worthy of love and respect.
 	/>
 </div>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-4" class="a-type">Type 4</a>
+   <a href="/enneagram-corner/enneagram-type-4" class="a-type">Type 4</a>
    <p>The Enneagram 4 is a complicated creature</p>
   </aside> -->
  <section class="section-content">
@@ -143,11 +143,11 @@ feelings, Fives may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 5s](/blog/enneagram/enneagram-type-5)
+[More on type 5s](/enneagram-corner/enneagram-type-5)
 
  </section>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-5" class="a-type">Type 5</a>
+   <a href="/enneagram-corner/enneagram-type-5" class="a-type">Type 5</a>
    <p>The Enneagram 5 is a mysterious creature</p>
   </aside> -->
  <section class="section-content">
@@ -160,11 +160,11 @@ feelings, Sixes may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 6s](/blog/enneagram/enneagram-type-6)
+[More on type 6s](/enneagram-corner/enneagram-type-6)
 
  </section>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-6" class="a-type">Type 6</a>
+   <a href="/enneagram-corner/enneagram-type-6" class="a-type">Type 6</a>
    <p>The Enneagram 6 is a wary creature</p>
   </aside> -->
  <section class="section-content">
@@ -177,11 +177,11 @@ could bring. To cope with these feelings, Sevens may benefit from finding new ho
 activities to fill their time and bring joy. They may also want to focus on self-compassion
 and self-care, reminding themselves that they are worthy of love and respect.
 
-[More on type 7s](/blog/enneagram/enneagram-type-7)
+[More on type 7s](/enneagram-corner/enneagram-type-7)
 
  </section>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-7" class="a-type">Type 7</a>
+   <a href="/enneagram-corner/enneagram-type-7" class="a-type">Type 7</a>
    <p>The Enneagram 7 is a joyful creature</p>
   </aside> -->
  <section class="section-content">
@@ -194,7 +194,7 @@ benefit from channeling their anger into healthy outlets such as exercise or wri
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
 
-[More on type 8s](/blog/enneagram/enneagram-type-8)
+[More on type 8s](/enneagram-corner/enneagram-type-8)
 
  </section>
 
@@ -214,7 +214,7 @@ of love and respect.
 	/>
 </div>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-8" class="a-type">Type 8</a>
+   <a href="/enneagram-corner/enneagram-type-8" class="a-type">Type 8</a>
    <p>The Enneagram 8 is a strong creature</p>
   </aside> -->
  <section class="section-content">
@@ -222,11 +222,11 @@ of love and respect.
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
 
-[More on type 9s](/blog/enneagram/enneagram-type-9)
+[More on type 9s](/enneagram-corner/enneagram-type-9)
 
  </section>
  <!-- <aside class="section-meta">
-   <a href="/blog/enneagram/enneagram-type-9" class="a-type">Type 9</a>
+   <a href="/enneagram-corner/enneagram-type-9" class="a-type">Type 9</a>
    <p>The Enneagram 9 is a easy going creature</p>
   </aside> -->
 
@@ -272,7 +272,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "description": "Explore the emotional impact of ghosting through the lens of the Enneagram. Understand how each type copes and find empowering strategies for healing",
   "headline": "Enneagram Types Being Ghosted",
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-types-being-ghosted",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-types-being-ghosted",
     "@type": "WebPage"
   },
   "mentions": {

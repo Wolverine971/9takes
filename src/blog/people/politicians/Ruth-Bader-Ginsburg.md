@@ -3,7 +3,7 @@ title: 'Ruth Bader Ginsburg Enneagram Type 1'
 description: 'Why Ruth Bader Ginsburg appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Ruth-Bader-Ginsburg'
+loc: 'https://9takes.com/personality-analysis/Ruth-Bader-Ginsburg'
 lastmod: '2023-07-16'
 changefreq: 'monthly'
 priority: '0.6'
@@ -115,7 +115,7 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Ruth-Bader-Ginsburg",
+        "@id": "https://9takes.com/personality-analysis/Ruth-Bader-Ginsburg",
         "@type": "WebPage"
       },
       "mentions": {

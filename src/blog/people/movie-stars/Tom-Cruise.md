@@ -3,7 +3,7 @@ title: 'Inside the Mind of Tom Cruise: The Enneagram 3 in Action'
 description: "Explore Tom Cruise's driven personality as an Enneagram Type 3. Discover how his ambition and charm shape his success in Hollywood and beyond."
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Tom-Cruise'
+loc: 'https://9takes.com/personality-analysis/Tom-Cruise'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -150,7 +150,7 @@ So, the next time you watch a Tom Cruise film, remember – you're not just seei
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Tom-Cruise",
+        "@id": "https://9takes.com/personality-analysis/Tom-Cruise",
         "@type": "WebPage"
       },
       "mentions": {

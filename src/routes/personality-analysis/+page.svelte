@@ -12,7 +12,7 @@
 		title: '9takes Analysis of Famous People',
 		description: 'List famous people who have their Enneagram type analyzed'
 	}}
-	slug={'blog/famous-enneagram-types'}
+	slug={'personality-analysis'}
 />
 
 <h1 style="text-align: center;">Person Analysis/ Character Studies</h1>
@@ -44,7 +44,7 @@
 			<h3 class="position-center">Enneagram Type {number}s</h3>
 			<div class="people-grid-container">
 				{#each data.people.filter((p) => p.enneagram === number) as person}
-					<a href="/blog/famous-enneagram-types/{person.slug}" class="grid-item">
+					<a href="/personality-analysis/{person.slug}" class="grid-item">
 						{#if person.enneagram}
 							<img
 								srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
@@ -61,7 +61,7 @@
 						</div>
 					</a>
 				{/each}
-				<a href="/blog/famous-enneagram-types/type/{number}" class="grid-item">
+				<a href="/personality-analysis/type/{number}" class="grid-item">
 					<div class="fit-card black-white">
 						<h3 style="">
 							<span>All {number}s </span>

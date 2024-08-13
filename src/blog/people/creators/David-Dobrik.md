@@ -3,7 +3,7 @@ title: 'David Dobrik Enneagram Type 7'
 description: 'Why David Dobrik appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/David-Dobrik'
+loc: 'https://9takes.com/personality-analysis/David-Dobrik'
 lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
@@ -94,15 +94,15 @@ As a Type 7, his appetite for new experiences will likely guide him back. As we'
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive David:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - They might admire Dobrik's work ethic but could also be critical of his impulsive behavior and the chaos in his videos. They would likely urge him to take more responsibility and plan his actions meticulously.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - They might appreciate Dobrik's warmth and ability to make people laugh. However, they could feel concerned about his lack of emotional depth, hoping for him to develop more profound and supportive relationships.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - They would admire Dobrik's success and ability to build a personal brand. However, they might wish for him to create more goal-oriented content, focusing on personal growth and self-improvement.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - They could resonate with Dobrik's unique style but may find his lack of emotional exploration off-putting. They would likely encourage him to delve into more profound and meaningful content.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - They might feel intrigued by Dobrik's adaptability but could be overwhelmed by his high-energy persona. They would appreciate more in-depth, analytical content from him.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - They could admire Dobrik's commitment to his friends but may feel anxious about his risk-taking and impulsive actions. They would likely prefer if he showed more caution and foresight in his endeavors.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - They would undoubtedly relate to Dobrik's desire for new experiences and avoidance of negative emotions. They might see him as an embodiment of their own aspirations and struggles.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - They would likely appreciate Dobrik's assertiveness and resilience. Still, they might wish him to channel his energy into tackling more serious issues or challenging the status quo.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - They might enjoy the light-heartedness of Dobrik's content but could feel uncomfortable with the chaos and unpredictability. They would likely wish for more harmony and less controversy in his approach.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They might admire Dobrik's work ethic but could also be critical of his impulsive behavior and the chaos in his videos. They would likely urge him to take more responsibility and plan his actions meticulously.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - They might appreciate Dobrik's warmth and ability to make people laugh. However, they could feel concerned about his lack of emotional depth, hoping for him to develop more profound and supportive relationships.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - They would admire Dobrik's success and ability to build a personal brand. However, they might wish for him to create more goal-oriented content, focusing on personal growth and self-improvement.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - They could resonate with Dobrik's unique style but may find his lack of emotional exploration off-putting. They would likely encourage him to delve into more profound and meaningful content.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - They might feel intrigued by Dobrik's adaptability but could be overwhelmed by his high-energy persona. They would appreciate more in-depth, analytical content from him.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - They could admire Dobrik's commitment to his friends but may feel anxious about his risk-taking and impulsive actions. They would likely prefer if he showed more caution and foresight in his endeavors.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - They would undoubtedly relate to Dobrik's desire for new experiences and avoidance of negative emotions. They might see him as an embodiment of their own aspirations and struggles.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - They would likely appreciate Dobrik's assertiveness and resilience. Still, they might wish him to channel his energy into tackling more serious issues or challenging the status quo.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - They might enjoy the light-heartedness of Dobrik's content but could feel uncomfortable with the chaos and unpredictability. They would likely wish for more harmony and less controversy in his approach.
 
 ## Wrapping Up
 
@@ -152,7 +152,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/David-Dobrik",
+        "@id": "https://9takes.com/personality-analysis/David-Dobrik",
         "@type": "WebPage"
       },
       "mentions": {

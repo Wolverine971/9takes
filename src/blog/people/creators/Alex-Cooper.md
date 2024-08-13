@@ -3,7 +3,7 @@ title: "Alex Cooper: Unveiling a Type 7 Enthusiast's World"
 description: "Discover Alex Cooper's vibrant Type 7 traits. See how her zest for life & humor shapes her persona in our insightful profile."
 author: 'DJ Wayne'
 date: '2023-08-29'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Alex-Cooper'
+loc: 'https://9takes.com/personality-analysis/Alex-Cooper'
 lastmod: '2024-06-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -90,7 +90,7 @@ Initially the podcast was focused on relationships and sex, but overtime the sho
 
 After some ups and downs she secured a $60 million deal with Spotify.
 
-She was labeled the female <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, and the label fit. Alex she split from her partner (more on that below) and started to fly solo. She still aims to inspire her audience by sharing personal stories and advice but her tone has matured. She isn't focused on sex anymore. She went from talking about the gluck gluck 9000 😉 to doing interviews with celebrities and exploring controversial topics of a different nature.
+She was labeled the female <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>, and the label fit. Alex she split from her partner (more on that below) and started to fly solo. She still aims to inspire her audience by sharing personal stories and advice but her tone has matured. She isn't focused on sex anymore. She went from talking about the gluck gluck 9000 😉 to doing interviews with celebrities and exploring controversial topics of a different nature.
 
 She is adapting and evolving, which also mirrors the characteristics of Type 7, who is always looking for the next exciting venture.
 
@@ -116,7 +116,7 @@ Alex is more than just a podcaster; she's a social butterfly who brings the ener
 
 Enneagram Type 7 personalities are known for being extroverted and enthusiastic. Alex's podcast delves into personal stories, controversial topics, and gossip. And Alex eats it up and then some!
 
-Her social reach extends to friendships with celebrities like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a> and <a href="/blog/famous-enneagram-types/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, her relationship with sex, and her decision to tackle political issues. Though she can be bubbly she can also go deep.
+Her social reach extends to friendships with celebrities like <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a> and <a href="/personality-analysis/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, her relationship with sex, and her decision to tackle political issues. Though she can be bubbly she can also go deep.
 
 <div class="iframe-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QxWgwOwSDK8?si=-PP2zhmLnFOUB_sC&amp;start=731" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -129,39 +129,39 @@ This conversation reflects an Enneagram Type 7 going to 5 in comfort. When she i
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Alex:
 
 <article>
-  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>The Perfectionist might have mixed feelings about Alex Cooper. On the one hand, they would admire her work ethic, dedication, and empire built around her podcast. However, they could also be critical of the controversial topics she often dives into on "Call Her Daddy." The thought might cross their mind: "She's successful, but must she be so edgy?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>The Helper would likely find Alex Cooper endearing for her openness and ability to discuss sensitive topics like relationships and mental health. They might think, "I love how she's helping people by talking openly about things often considered taboo. She's using her platform for good."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>The Achiever would be thoroughly impressed by Alex Cooper's career milestones, especially her lucrative Spotify deal. They would see her as a role model for turning passion into a profession. The common thought would be, "Wow, she turned a podcast into a multi-million dollar deal. That's the kind of success I aspire to!"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>The Individualist may have a love-hate relationship with Alex Cooper. They would resonate with her unique style and how she stands out in podcasting. However, they might also find her too mainstream or commercial, questioning her authenticity. They might ponder, "She's different, but is she authentic enough for my taste?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>The Investigator would be intrigued by Alex Cooper's wide range of topics and ability to engage her audience. However, they might question the depth of her discussions, wondering if she skims the surface rather than diving deep into issues. The thought could be, "She covers many topics, but how deep does she go? Is it all for a show?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>The Loyalist could be skeptical about Alex Cooper's quick rise to fame and her ever-changing list of topics and guests. They might appreciate her success but question her consistency and reliability. The common thought might be, "She's popular, but can she be trusted? What does she stand for?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>The Enthusiast would likely see a kindred spirit in Alex Cooper. They would admire her zest for life, adventurous spirit, and ability to entertain any topic. They might think, "She's living the dream—exploring new things, meeting new people, and having a blast. What's not to love?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>The Challenger would respect Alex Cooper's assertiveness and ability to control her career, especially during controversies. They would appreciate her no-nonsense approach to tackling issues head-on, whether renegotiating contracts or addressing public feuds. The thought might be, "She's got guts and isn't afraid to take charge. That's commendable."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>The Peacemaker might find Alex Cooper's energetic and sometimes controversial style overwhelming. However, they would likely appreciate her efforts to cover various topics and appeal to a broad audience. The common thought could be, "She's a bit much for me, but I can see why people like her. She brings different perspectives to the table."</p>
 </article>
 
@@ -209,7 +209,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Alex-Cooper",
+        "@id": "https://9takes.com/personality-analysis/Alex-Cooper",
         "@type": "WebPage"
       },
       "mentions": {

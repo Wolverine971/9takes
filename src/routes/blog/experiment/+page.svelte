@@ -1727,7 +1727,7 @@
 
 		<p>
 			If you gravitate to one bucket of emotions that may be a clue in <a
-				href="/blog/enneagram/enneagram-personality-test">determining your personality</a
+				href="/enneagram-corner/enneagram-personality-test">determining your personality</a
 			>.
 		</p>
 

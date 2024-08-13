@@ -3,7 +3,7 @@ title: 'Prince Harry Enneagram Type 6'
 description: 'Why Prince Harry appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Prince-Harry'
+loc: 'https://9takes.com/personality-analysis/Prince-Harry'
 lastmod: '2024-01-06'
 changefreq: 'monthly'
 priority: '0.6'
@@ -58,7 +58,7 @@ Type 6s are fiercely loyal, and Harry's dedication to his military comrades and 
 
 ## The Loyalist's Inner Circle
 
-A Six's environment is a fortress, populated with trusted allies. Prince Harry's close-knit circle, including his wife <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan</a> and a handful of lifelong friends, illustrates his careful selection of confidants. This inner sanctum is his bulwark against the unpredictable tides of royal life.
+A Six's environment is a fortress, populated with trusted allies. Prince Harry's close-knit circle, including his wife <a href="/personality-analysis/Meghan-Markle">Meghan</a> and a handful of lifelong friends, illustrates his careful selection of confidants. This inner sanctum is his bulwark against the unpredictable tides of royal life.
 
 ## Stressors That Shake the Royal Ground
 
@@ -86,8 +86,8 @@ So that is Prince Harry. Have these insights shifted your view of the prince? Ho
 
 In a world where judgment often precedes empathy, taking the time to understand the motivations behind someone's behavior can help you have empathy for the person, no matter who they are. If this exploration has piqued your interest, don't stop here. Sign up and join the 9takes community, where the deep dive into personalities and life perspectives continues.
 
-- Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Meghan-Markle">Meghan Markle.</a>
-- Check out this one for an analysis on his mother <a href="/blog/famous-enneagram-types/Queen-Elizabeth-II">Queen Elizabeth.</a>
+- Check out this blog for an analysis of <a href="/personality-analysis/Meghan-Markle">Meghan Markle.</a>
+- Check out this one for an analysis on his mother <a href="/personality-analysis/Queen-Elizabeth-II">Queen Elizabeth.</a>
 
 <!-- <div>
 

@@ -3,7 +3,7 @@ title: 'Keanu Reeves An Enneagram Type 9'
 description: "Dive into Keanu Reeves' speculated Enneagram Type 9 traits, exploring his calm demeanor and peace-seeking roles in this engaging analysis."
 author: 'DJ Wayne'
 date: '2023-08-11'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves'
+loc: 'https://9takes.com/personality-analysis/Keanu-Reeves'
 lastmod: '2024-01-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -146,39 +146,39 @@ During filming The Matrix, Keanu faced physical challenges due to a spinal surge
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Keanu:
 
 <article>
-  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>They might admire Keanu's commitment to his craft and strong ethical stance, especially in an industry riddled with complexities. His roles often reflected moral dilemmas that would resonate with their innate sense of right and wrong.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>Enchanted by Keanu's charitable efforts and his supportive nature towards co-stars and fans, they'd see him as someone who genuinely cares and nurtures, akin to their nurturing spirit.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>Recognizing his success in diverse roles and adaptability in the film industry, they'd respect his achievements and might even see him as a symbol of resilience and determination.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>Drawn to the depth of his characters and his ability to portray raw emotion, they might connect with the layers of Keanu's performances, seeing a reflection of their own complex feelings.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>Intrigued by the enigma that Keanu presents, they'd likely be interested in the method behind his acting, the preparation for his roles, and the philosophical nuances of his movies.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>They might appreciate Keanu's loyalty to his co-stars, directors, and projects. His consistent nature and the trust people in the industry place in him would resonate with their value for security and trustworthiness.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>Charmed by his adventurous roles, whether surfing in Point Break or dashing on a speeding bus in Speed, they'd celebrate the thrill and excitement Keanu brings to the screen, echoing their zest for life.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>Impressed by his assertive roles like John Wick, they might see Keanu as a figure of strength and control. His ability to command respect without being overly aggressive would align with their power dynamics.</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>Identifying deeply with his calm demeanor and search for harmony in many roles, they'd see a kindred spirit in Keanu. His nuanced performances reflecting peace amidst chaos might feel like a reflection of their own internal world.</p>
 </article>
 
@@ -242,7 +242,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Keanu-Reeves",
+        "@id": "https://9takes.com/personality-analysis/Keanu-Reeves",
         "@type": "WebPage"
       },
       "mentions": {

@@ -44,10 +44,10 @@
 	];
 
 	const blogItems = [
-		{ href: '/blog/community', label: '9takes Inspiration' },
-		{ href: '/blog/enneagram', label: 'Enneagram Blogs' },
-		{ href: '/blog/famous-enneagram-types', label: 'Famous Enneagram Types' },
-		{ href: '/blog/guides', label: 'Guides' }
+		{ href: '/community', label: 'The Takes of 9takes' },
+		{ href: '/enneagram-corner', label: 'Enneagram Corner' },
+		{ href: '/personality-analysis', label: 'Personality Analysis' },
+		{ href: '/how-to-guides', label: 'How to Guides' }
 	];
 </script>
 

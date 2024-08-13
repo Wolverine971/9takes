@@ -14,7 +14,7 @@
 
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
 	<div style="align-items: inherit;">
-		<BlogPageHead data={data.frontmatter} slug={`blog/guides/${data.slug}`} />
+		<BlogPageHead data={data.frontmatter} slug={`enneagram-corner/${data.slug}`} />
 		<ArticleTitle title={data.frontmatter.title} />
 		<!-- <ArticleDescription description={data.frontmatter.description} /> -->
 		<ArticleSubTitle metaData={data.frontmatter} />
@@ -25,14 +25,13 @@
 
 <hr style="margin: 5rem;" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'guides'} />
+<SuggestionsBlog posts={data?.posts} blogType={'enneagram'} />
 
-<div class="join">
-	{#if !data?.session?.user}
-		<EmailSignup cta={'We are making something 👷🔨 join the waitlist'} />
-	{/if}
-</div>
+{#if !data?.session?.user}
+	<div class="join">
+		<EmailSignup />
+	</div>
+{/if}
 
 <style lang="scss">
-	@import '../../../../scss/index.scss';
 </style>

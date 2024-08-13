@@ -3,7 +3,7 @@ title: "Joe Biden: The Helper's Journey to the White House"
 description: "Discover how Joe Biden's Enneagram Type 2 personality shaped his path from Scranton to the presidency. Explore the empathy and resilience behind America's 46th President."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Joe-Biden'
+loc: 'https://9takes.com/personality-analysis/Joe-Biden'
 lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -117,7 +117,7 @@ More recently, criticisms about his age (he's the oldest sitting U.S. president)
 
 As President, Biden continues to lean into his helper tendencies. His focus on unity and healing in the aftermath of the Trump presidency, his emphasis on empathy in foreign policy, and his efforts to address climate change all stem from his core desire to make a positive difference in people's lives.
 
-While his approach differs from the more combative style of his predecessor or the cool intellect of <a href="/blog/famous-enneagram-types/Barack-Obama">Obama</a>, Biden's warmth and genuine concern for others have become his political trademark.
+While his approach differs from the more combative style of his predecessor or the cool intellect of <a href="/personality-analysis/Barack-Obama">Obama</a>, Biden's warmth and genuine concern for others have become his political trademark.
 
 ## Conclusion
 
@@ -152,7 +152,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Joe-Biden",
+        "@id": "https://9takes.com/personality-analysis/Joe-Biden",
         "@type": "WebPage"
       },
       "mentions": {

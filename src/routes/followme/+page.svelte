@@ -21,10 +21,10 @@
 		<div style="margin:20px; padding: 20px;">
 			<div>
 				<p>
-					<a href="/blog/community/inspiration-for-9takes">The inspiration for 9takes</a>
+					<a href="/community/inspiration-for-9takes">The inspiration for 9takes</a>
 				</p>
 				<p>
-					<a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type"
+					<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
 						>Learn More About the Enneagram</a
 					>
 				</p>

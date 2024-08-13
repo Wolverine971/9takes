@@ -3,7 +3,7 @@ title: 'What Winning Online Arguments Looks Like'
 description: 'An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.'
 author: 'DJ Wayne'
 date: '2024-04-13'
-loc: 'https://9takes.com/blog/community/what-winning-online-arguments-looks-like'
+loc: 'https://9takes.com/community/what-winning-online-arguments-looks-like'
 lastmod: '2024-04-13'
 changefreq: 'monthly'
 priority: '0.6'
@@ -160,7 +160,7 @@ I hope this help you experience what winning feels like.
         "width": 800
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/community/what-winning-online-arguments-looks-like",
+        "@id": "https://9takes.com/community/what-winning-online-arguments-looks-like",
         "@type": "WebPage"
       },
       "publisher": {

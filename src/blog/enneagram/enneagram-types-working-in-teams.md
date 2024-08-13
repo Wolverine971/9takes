@@ -3,7 +3,7 @@ title: 'Enneagram Types Working in Teams'
 description: 'Unlock the power of Enneagram types in teamwork. Learn how each type communicates, collaborates, and contributes to team success'
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-working-in-teams'
 lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -92,7 +92,7 @@ As a subordinate, the Perfectionist will follow the rules and processes to the b
 
 When giving feedback to a Perfectionist, it is essential to provide clear, objective feedback on how their work met the standards and how it could be improved. Be specific about the areas they excelled in and where they could improve. Acknowledge their hard work and dedication to the team's goals, but also be honest about any shortcomings or areas for growth. Avoid personal criticism and focus on the work itself, providing constructive suggestions for improvement.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -125,7 +125,7 @@ As a subordinate, the Helper will be eager to help and support their superiors a
 
 When giving feedback to a Helper, it is important to recognize their efforts to help and support others. Acknowledge the value they bring to the team through their caring and collaborative nature. However, it is also crucial to provide constructive feedback on how they can improve their own work and set healthy boundaries. Encourage them to prioritize their own needs and goals alongside those of the team, and reassure them that it is okay to say no when necessary. Be gentle but firm in your feedback, focusing on specific behaviors and outcomes rather than personal characteristics.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -158,7 +158,7 @@ As a subordinate, the Achiever will be focused on achieving the best possible re
 
 When giving feedback to an Achiever, it is essential to recognize their achievements and provide clear, constructive feedback on how they can improve their work. Acknowledge their successes and the value they bring to the team, as they thrive on recognition and validation. However, also provide specific, actionable feedback on areas where they can develop further, focusing on how these improvements will contribute to their personal and professional growth. Be direct and honest in your feedback, as Achievers appreciate straightforward communication and the opportunity to learn and excel.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -192,7 +192,7 @@ As a subordinate, the Individualist will need opportunities to express their cre
 
 When giving feedback to an Individualist, it is important to recognize their unique perspective and creative contributions. Acknowledge the value they bring to the team through their originality and self-expression, and encourage them to continue sharing their ideas. However, also provide guidance on how to channel their creativity in a focused and productive way, ensuring that their efforts align with the team's goals. Be sensitive to their emotional needs and provide constructive criticism in a supportive and empathetic manner, focusing on specific behaviors and outcomes rather than personal characteristics.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -226,7 +226,7 @@ As a subordinate, the Investigator will be knowledgeable and independent, capabl
 
 When giving feedback to an Investigator, it is essential to recognize their expertise and provide clear, objective feedback on how they can improve their communication and collaboration skills. Acknowledge the value they bring to the team through their knowledge and analytical abilities, and encourage them to continue sharing their insights and ideas. However, also provide specific, actionable feedback on how they can better engage with their teammates and communicate their thoughts more effectively. Focus on the importance of teamwork and the benefits of exchanging ideas and perspectives with others. Be direct and logical in your feedback, as Investigators appreciate clarity and objectivity.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -260,7 +260,7 @@ As a subordinate, the Loyalist will seek guidance and support from their superio
 
 When giving feedback to a Loyalist, it is important to recognize their loyalty and dedication to the team. Acknowledge the value they bring through their commitment to security and preparation, and praise their efforts to ensure the team's success. However, also provide constructive feedback on how they can balance their concerns for security with flexibility and adaptability. Encourage them to be open to new ideas and approaches, and to trust in their own abilities and those of their teammates. Help them to see that taking calculated risks can lead to growth and innovation, while still maintaining a focus on the team's overall well-being. Be supportive and understanding in your feedback, as Loyalists can be sensitive to criticism and may need reassurance that their contributions are valued.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -294,7 +294,7 @@ As a subordinate, the Enthusiast will need opportunities to explore new possibil
 
 When giving feedback to an Enthusiast, it is important to recognize their enthusiasm and creativity. Acknowledge the value they bring to the team through their positive energy and innovative ideas, and encourage them to continue exploring new possibilities. However, also provide constructive feedback on how they can maintain focus and balance their exploratory nature with productivity and results. Help them to prioritize tasks and set realistic goals, while still allowing room for creativity and experimentation. Be specific in your feedback, focusing on behaviors and outcomes rather than personal traits. Enthusiasts can be sensitive to criticism, so deliver negative feedback in a supportive and encouraging manner, emphasizing the potential for growth and improvement.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -328,7 +328,7 @@ As a subordinate, the Challenger will be strong and independent, capable of taki
 
 When giving feedback to a Challenger, it is important to recognize their leadership and strength. Acknowledge the value they bring to the team through their decisiveness, accountability, and drive for results. However, also provide constructive feedback on how they can balance their assertiveness with collaboration and compromise. Encourage them to listen to and consider others' perspectives, and to build relationships based on trust and respect rather than power and control. Be direct and specific in your feedback, focusing on behaviors and outcomes rather than personal traits. Challengers can be resistant to criticism, so frame negative feedback as an opportunity for growth and improvement, emphasizing the benefits to both the individual and the team.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -362,7 +362,7 @@ As a subordinate, the Peacemaker will be cooperative and adaptable, seeking to s
 
 When giving feedback to a Peacemaker, it is important to recognize their ability to maintain harmony and cooperation within the team. Acknowledge the value they bring through their supportive and accommodating nature, and praise their efforts to foster collaboration and unity. However, also provide constructive feedback on how they can be more assertive and express their own needs and opinions while still maintaining a harmonious environment. Encourage them to find a balance between accommodating others and standing up for themselves, and to recognize that healthy conflict and disagreement can lead to growth and innovation. Be gentle and empathetic in your feedback, focusing on the benefits of personal growth and the importance of authentic self-expression. Peacemakers can be sensitive to criticism and may need reassurance that their contributions are valued, even when they assert themselves more.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -409,7 +409,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
    },
    "keywords":"Enneagram, personality types, team building, leadership development, communication, collaboration",
    "mainEntityOfPage":{
-      "@id":"https://9takes.com/blog/enneagram/enneagram-types-working-in-teams",
+      "@id":"https://9takes.com/enneagram-corner/enneagram-types-working-in-teams",
       "@type":"WebPage"
    },
    "mentions":{

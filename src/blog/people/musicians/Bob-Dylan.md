@@ -3,7 +3,7 @@ title: 'Bob Dylan: The Enneagram Type 4 Who Shaped a Generation'
 description: "Explore Bob Dylan's complex psyche as an Enneagram Type 4. Uncover how his unique personality fueled his artistry and revolutionized music."
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Bob-Dylan'
+loc: 'https://9takes.com/personality-analysis/Bob-Dylan'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -128,7 +128,7 @@ As we reflect on Dylan's legacy, we're left with a question: How might understan
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Bob-Dylan",
+        "@id": "https://9takes.com/personality-analysis/Bob-Dylan",
         "@type": "WebPage"
       },
       "mentions": {

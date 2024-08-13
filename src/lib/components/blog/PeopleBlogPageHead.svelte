@@ -3,7 +3,7 @@
 
 	let title: string = data?.title;
 	let description: string = data?.description;
-	let slug = `blog/famous-enneagram-types/${data.slug}`;
+	let slug = `personality-analysis/${data.slug}`;
 	const formattedTitle = title ? `${title}` : '9takes';
 
 	let jsonldString = {

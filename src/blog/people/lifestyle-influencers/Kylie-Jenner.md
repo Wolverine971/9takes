@@ -3,7 +3,7 @@ title: 'Kylie Jenner Enneagram type 9'
 description: 'Why Kylie Jenner appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-07-24'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner'
+loc: 'https://9takes.com/personality-analysis/Kylie-Jenner'
 lastmod: '2024-04-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -70,8 +70,8 @@ Underneath the surface of glamour lies a quiet strength and a desire for inner p
 
 One key aspect of Kylie's personality, often overshadowed by her glamorous lifestyle, is her pursuit of peace and harmony.
 
-This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and
-<a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>. She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
+This drive is evident in her role within her famous family. Despite the inevitable drama that accompanies their high-profile status, Kylie consistently seeks to maintain peace among her siblings, <a href="/personality-analysis/Kim-Kardashian">Kim</a> <a href="/personality-analysis/Khloe-Kardashian">Khloé</a>, and
+<a href="/personality-analysis/Kourtney-Kardashian">Kourtney</a>. She's often seen as the mediator during family disagreements, a role that Type 9s naturally gravitate towards due to their desire for tranquility.
 
 ## The Inertia of a Billionaire
 
@@ -93,15 +93,15 @@ Type 9s are often drawn to creating peaceful, comfortable environments, a tenden
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kylie
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - They might appreciate Kylie’s business acumen and the perfection she strives for in her brand's products. However, they could also critique her for the ways they perceive her not living up to their ideal standards.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Type 2s might admire Kylie’s familial relationships, her role as a mother, and her philanthropic endeavors. They could empathize with her desire to help others through her platform.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-9)** - They might look up to Kylie’s success and see her as a role model, admiring her entrepreneurial achievements and social media influence. Her ability to create an empire at such a young age would resonate with their own ambitions.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Type 4s might feel fascinated by Kylie’s unique personal style and the creative expression in her brand. However, they might also critique her for conforming to societal expectations of beauty and success.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - They might be interested in dissecting Kylie’s business strategies and the mechanics of her fame. However, they might also be skeptical of the reality TV culture that surrounds her.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Type 6s might resonate with Kylie’s loyalty to her family and friends. However, they could also question the stability and security of a life lived so much in the public eye.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - They might appreciate Kylie’s adventurous spirit, from her bold business decisions to her varied personal interests. They would also admire her ability to make the most out of her fame.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Type 8s might respect Kylie’s strength in facing public scrutiny and her assertiveness in business. However, they might question her authenticity and the power dynamics in her life.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Type 9s might identify with Kylie’s desire for inner and outer peace. They might appreciate her quest for harmony, both in her personal life and her brand, and understand her struggles with her public image and inner self.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They might appreciate Kylie’s business acumen and the perfection she strives for in her brand's products. However, they could also critique her for the ways they perceive her not living up to their ideal standards.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s might admire Kylie’s familial relationships, her role as a mother, and her philanthropic endeavors. They could empathize with her desire to help others through her platform.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-9)** - They might look up to Kylie’s success and see her as a role model, admiring her entrepreneurial achievements and social media influence. Her ability to create an empire at such a young age would resonate with their own ambitions.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Type 4s might feel fascinated by Kylie’s unique personal style and the creative expression in her brand. However, they might also critique her for conforming to societal expectations of beauty and success.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - They might be interested in dissecting Kylie’s business strategies and the mechanics of her fame. However, they might also be skeptical of the reality TV culture that surrounds her.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s might resonate with Kylie’s loyalty to her family and friends. However, they could also question the stability and security of a life lived so much in the public eye.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - They might appreciate Kylie’s adventurous spirit, from her bold business decisions to her varied personal interests. They would also admire her ability to make the most out of her fame.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s might respect Kylie’s strength in facing public scrutiny and her assertiveness in business. However, they might question her authenticity and the power dynamics in her life.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Type 9s might identify with Kylie’s desire for inner and outer peace. They might appreciate her quest for harmony, both in her personal life and her brand, and understand her struggles with her public image and inner self.
 
 ## Reflections and Takeaways
 
@@ -151,7 +151,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Kylie-Jenner",
+        "@id": "https://9takes.com/personality-analysis/Kylie-Jenner",
         "@type": "WebPage"
       },
       "mentions": {

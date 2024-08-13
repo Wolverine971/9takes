@@ -3,7 +3,7 @@ title: 'Queen Elizabeth II Enneagram Type 9'
 description: 'Why Queen Elizabeth II appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Queen-Elizabeth-II'
+loc: 'https://9takes.com/personality-analysis/Queen-Elizabeth-II'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -55,7 +55,7 @@ Another characteristic of type 9 is a desire for emotional stability and a fear 
 
 Type 9 individuals also tend to value tradition and history, and Queen Elizabeth II is no exception. Her commitment to upholding the traditions of the monarchy and the Commonwealth is a testament to her respect for the past and her desire to maintain stability and continuity. Her role in the Diamond Jubilee celebrations and the opening of the new session of Parliament are just two examples of her commitment to upholding the traditions of the monarchy and the nation.
 
-Check out this one for an analysis on her son <a href="/blog/famous-enneagram-types/Prince-Harry">Prince Harry.</a>
+Check out this one for an analysis on her son <a href="/personality-analysis/Prince-Harry">Prince Harry.</a>
 
 <svelte:head>
 

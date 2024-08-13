@@ -19,28 +19,28 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Philosophy and Psychology gave birth to the Enneagram',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
+								'@id': 'https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Enneagram TLDR',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-tldr'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-tldr'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Concepts and Principles',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-concepts'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-concepts'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Enneagram Influences',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-influences'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-influences'
 							}
 						}
 					],
@@ -53,63 +53,63 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Type 1: The Perfectionist',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-1'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-1'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 2: The Helper',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-2'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-2'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 3: The Achiever',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-3'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-3'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 4: The Individualist',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-4'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-4'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 5: The Investigator',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-5'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-5'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 6: The Loyalist',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-6'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-6'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 7: The Enthusiast',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-7'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-7'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 8: The Challenger',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-8'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-8'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Type 9: The Peacemaker',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-type-9'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-type-9'
 							}
 						}
 					],
@@ -122,28 +122,28 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Determining your type',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-personality-test'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-personality-test'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Self development',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-self-development'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-self-development'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'strengths 💪 and weaknesses',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Growth strategies',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-personal-growth'
 							}
 						}
 					],
@@ -156,21 +156,21 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Types in relationships',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-types-in-relationships'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Communication tips',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-communication-tips'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'communication styles 🙊',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-communication-styles'
 							}
 						}
 					],
@@ -183,28 +183,28 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Team building',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-workplace-team-building'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Working in teams',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-types-working-in-teams'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-types-working-in-teams'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Team dynamics',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-team-dynamics'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Team diversity',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-team-diversity'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-team-diversity'
 							}
 						}
 					],
@@ -217,14 +217,14 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'FAQs',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-faqs'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-faqs'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Books, websites, and podcasts',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts'
 							}
 						}
 					],
@@ -237,28 +237,28 @@ const jsonldString = {
 							'@type': 'WebPage',
 							name: 'Types at a party',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-types-at-party'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-types-at-party'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Impact of ghosting',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-types-being-ghosted'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-types-being-ghosted'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Navigating stress',
 							url: {
-								'@id': 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
+								'@id': 'https://9takes.com/enneagram-corner/enneagram-types-in-stress'
 							}
 						},
 						{
 							'@type': 'WebPage',
 							name: 'Analysis of famous people',
 							url: {
-								'@id': '/blog/famous-enneagram-types'
+								'@id': '/personality-analysis'
 							}
 						}
 					],

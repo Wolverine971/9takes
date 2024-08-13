@@ -33,7 +33,7 @@ const config = {
 		}
 		// Uncomment and adjust as needed:
 		// prerender: {
-		//   entries: ['/blog/enneagram/1', '/blog/enneagram/2']
+		//   entries: ['/enneagram-corner/1', '/enneagram-corner/2']
 		// },
 		// csp: {
 		//   directives: {

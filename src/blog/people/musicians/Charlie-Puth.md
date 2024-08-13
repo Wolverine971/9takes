@@ -3,7 +3,7 @@ title: 'Charlie Puth– An Enneagram Type 4'
 description: 'Why Charlie Puth appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Charlie-Puth'
+loc: 'https://9takes.com/personality-analysis/Charlie-Puth'
 lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
@@ -76,7 +76,7 @@ Puth's openness about his struggles with mental health 🧠💡 further illustra
 
 ## The Controversial Contours of Type 4
 
-Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with <a href="/blog/famous-enneagram-types/Justin-Bieber">Justin Bieber</a> 🥊🎤 grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
+Puth's career hasn't been without controversy, which also aligns with the Type 4 persona. His public feud with <a href="/personality-analysis/Justin-Bieber">Justin Bieber</a> 🥊🎤 grabbed headlines, highlighting Puth's intense desire for respect—a characteristic deeply ingrained in Type 4s. The public spat and Puth's subsequent retreat from social media also underscore the Type 4 tendency to withdraw when their self-image is threatened.
 
 ## Unfolding Puth: The Enigmatic Enneagram 4
 
@@ -88,15 +88,15 @@ While we’ve offered an interpretation of Puth as a Type 4, it’s essential to
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Charlie:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Type 1s, with their eye for detail and commitment to quality, might admire Puth's dedication to his craft. His attention to the minutiae in his music could resonate with them. However, they might also critique his emotional volatility, finding it a distraction from his artistic work.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Type 2s, empathetic and relationship-focused, could be drawn to Puth's emotional vulnerability in his songs. They might feel an urge to support him in his struggles. Yet, his desire for uniqueness might confuse them as they generally aim for connection and unity.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Type 3s, success-oriented and pragmatic, might respect Puth's achievements in the music industry. However, his tendency to dwell on negative emotions might seem inefficient or unnecessary to them, as 3s tend to focus on forward momentum.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Type 4s are likely to feel a deep connection with Puth, seeing themselves mirrored in his emotional depth and quest for authenticity. They might appreciate his artistic creativity and willingness to express complex emotions publicly. However, they might also empathize with his occasional bouts of melancholy.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Type 5s, analytical and private, might be fascinated by Puth's layered emotional complexity. They could delve into dissecting his lyrics and interviews. However, they might struggle to understand his desire to express these emotions so publicly, preferring to keep their feelings private.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Type 6s might appreciate Puth's commitment to his unique artistic vision, seeing it as a form of loyalty to himself. However, his emotional highs and lows might trigger their anxieties, as 6s tend to seek stability and predictability.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Type 7s, energetic and adventurous, might enjoy Puth's vibrant music and respect his individualism. Yet, his introspective and sometimes somber lyrics might seem too heavy for them, as 7s generally prefer to maintain a positive, upbeat outlook.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8s, assertive and protective, might respect Puth's courage to maintain his unique identity in the face of criticism. However, they might find his emotional sensitivity perplexing, as 8s typically avoid showing vulnerability.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9s, seeking harmony and peace, might find comfort in Puth's melodic tunes. They might be empathetic towards his emotional struggles, yet his intense focus on individuality might feel somewhat disruptive to their desire for tranquility and unity.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**: Type 1s, with their eye for detail and commitment to quality, might admire Puth's dedication to his craft. His attention to the minutiae in his music could resonate with them. However, they might also critique his emotional volatility, finding it a distraction from his artistic work.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**: Type 2s, empathetic and relationship-focused, could be drawn to Puth's emotional vulnerability in his songs. They might feel an urge to support him in his struggles. Yet, his desire for uniqueness might confuse them as they generally aim for connection and unity.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**: Type 3s, success-oriented and pragmatic, might respect Puth's achievements in the music industry. However, his tendency to dwell on negative emotions might seem inefficient or unnecessary to them, as 3s tend to focus on forward momentum.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**: Type 4s are likely to feel a deep connection with Puth, seeing themselves mirrored in his emotional depth and quest for authenticity. They might appreciate his artistic creativity and willingness to express complex emotions publicly. However, they might also empathize with his occasional bouts of melancholy.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**: Type 5s, analytical and private, might be fascinated by Puth's layered emotional complexity. They could delve into dissecting his lyrics and interviews. However, they might struggle to understand his desire to express these emotions so publicly, preferring to keep their feelings private.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**: Type 6s might appreciate Puth's commitment to his unique artistic vision, seeing it as a form of loyalty to himself. However, his emotional highs and lows might trigger their anxieties, as 6s tend to seek stability and predictability.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**: Type 7s, energetic and adventurous, might enjoy Puth's vibrant music and respect his individualism. Yet, his introspective and sometimes somber lyrics might seem too heavy for them, as 7s generally prefer to maintain a positive, upbeat outlook.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**: Type 8s, assertive and protective, might respect Puth's courage to maintain his unique identity in the face of criticism. However, they might find his emotional sensitivity perplexing, as 8s typically avoid showing vulnerability.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**: Type 9s, seeking harmony and peace, might find comfort in Puth's melodic tunes. They might be empathetic towards his emotional struggles, yet his intense focus on individuality might feel somewhat disruptive to their desire for tranquility and unity.
 
 ## Embracing the Enneagram: An Invitation
 
@@ -144,7 +144,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Charlie-Puth",
+        "@id": "https://9takes.com/personality-analysis/Charlie-Puth",
         "@type": "WebPage"
       },
       "mentions": {

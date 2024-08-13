@@ -3,7 +3,7 @@ title: "Kim Kardashian's Personality: An Enneagram Type 3"
 description: "What's behind the glamour of Kim Kardashian? An Enneagram Type 3 personality"
 author: 'DJ Wayne'
 date: '2023-06-20'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian'
+loc: 'https://9takes.com/personality-analysis/Kim-Kardashian'
 lastmod: '2023-09-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -96,11 +96,11 @@ What sets Kim apart from the stereotypical Type 3, absorbed solely in personal s
 
 Her love for her children is palpable. Whether posting candid photos of family life on social media or fiercely protecting their privacy, Kim juggles her roles as a businesswoman and mother with evident passion.
 
-Furthermore, her relationships with her sisters— <a href="/blog/famous-enneagram-types/Kourtney-Kardashian">Kourtney</a>, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a>, and Kendall—provide her a support network, a personal and professional advantage that she doesn't take for granted.
+Furthermore, her relationships with her sisters— <a href="/personality-analysis/Kourtney-Kardashian">Kourtney</a>, <a href="/personality-analysis/Khloe-Kardashian">Khloé</a>, <a href="/personality-analysis/Kylie-Jenner">Kylie</a>, and Kendall—provide her a support network, a personal and professional advantage that she doesn't take for granted.
 
 ## The Multi-Faceted Achiever: Kanye, Pete, and a Law Degree
 
-Kim's relationships have often been in the public eye, most notably her marriage to <a href="/blog/famous-enneagram-types/Kanye">Kanye West</a> and her current relationship with <a href="/blog/famous-enneagram-types/Pete-Davidson">Pete Davidson</a>.
+Kim's relationships have often been in the public eye, most notably her marriage to <a href="/personality-analysis/Kanye">Kanye West</a> and her current relationship with <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a>.
 
 These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, which many Type 3s strive for but often struggle to balance with their ambitious goals.
 
@@ -116,15 +116,15 @@ Kim has faced her share of controversies, ranging from cultural appropriation ac
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kim:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Type 1s, focusing on ethics, might have mixed feelings about Kim. They could admire her entrepreneurial spirit and success but question how she attained her fame and the materialistic values her brand often promotes.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Type 2s, being relationship-oriented, might appreciate Kim's close-knit family bonds seen on 'Keeping Up with the Kardashians.' They might also recognize her charitable work but could be critical of her public image's influence on young fans.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Type 3s will likely admire Kim's success, resilience, and ability to maintain a polished image. They might see her as a role model for achieving societal acclaim and personal ambition.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Type 4s, seekers of authenticity, might struggle to relate to Kim's heavily curated public persona. They might feel detached from her lifestyle but find her open talks on her struggles and vulnerable moments relatable.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Type 5s might be intrigued by Kim's business empire and interested in the strategy behind her brand. However, they could feel overwhelmed by her public image and constant media presence.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Type 6s might appreciate Kim's loyalty to her family and friends. Still, they could be skeptical of her intentions due to the controversies surrounding her and the nature of reality television.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Type 7s, with their love for fun and new experiences, might enjoy the excitement and drama Kim brings. They might admire her zest for life and her adventurous spirit in trying new business ventures.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8s, appreciating strength, might respect Kim's resilience in the face of controversy and her assertiveness in business. They might, however, question her influence and the societal standards her brand sets.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9s, seeking peace and harmony, might feel conflicted about Kim. They might appreciate her advocacy for criminal justice reform but feel uneasy about the drama and controversies surrounding her.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**: Type 1s, focusing on ethics, might have mixed feelings about Kim. They could admire her entrepreneurial spirit and success but question how she attained her fame and the materialistic values her brand often promotes.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**: Type 2s, being relationship-oriented, might appreciate Kim's close-knit family bonds seen on 'Keeping Up with the Kardashians.' They might also recognize her charitable work but could be critical of her public image's influence on young fans.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**: Type 3s will likely admire Kim's success, resilience, and ability to maintain a polished image. They might see her as a role model for achieving societal acclaim and personal ambition.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**: Type 4s, seekers of authenticity, might struggle to relate to Kim's heavily curated public persona. They might feel detached from her lifestyle but find her open talks on her struggles and vulnerable moments relatable.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**: Type 5s might be intrigued by Kim's business empire and interested in the strategy behind her brand. However, they could feel overwhelmed by her public image and constant media presence.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**: Type 6s might appreciate Kim's loyalty to her family and friends. Still, they could be skeptical of her intentions due to the controversies surrounding her and the nature of reality television.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**: Type 7s, with their love for fun and new experiences, might enjoy the excitement and drama Kim brings. They might admire her zest for life and her adventurous spirit in trying new business ventures.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**: Type 8s, appreciating strength, might respect Kim's resilience in the face of controversy and her assertiveness in business. They might, however, question her influence and the societal standards her brand sets.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**: Type 9s, seeking peace and harmony, might feel conflicted about Kim. They might appreciate her advocacy for criminal justice reform but feel uneasy about the drama and controversies surrounding her.
 
 ## Conclusion
 
@@ -172,7 +172,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Kim-Kardashian",
+        "@id": "https://9takes.com/personality-analysis/Kim-Kardashian",
         "@type": "WebPage"
       },
       "mentions": {

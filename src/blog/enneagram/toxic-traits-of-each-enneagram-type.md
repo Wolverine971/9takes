@@ -3,7 +3,7 @@ title: '9 Dark Sides of Personality: The Toxic Traits in Each Enneagram Type'
 description: 'Gain insight into personality flaws, understand their origins, and learn how to navigate relationships better.'
 author: 'DJ Wayne'
 date: '2024-07-12'
-loc: 'https://9takes.com/blog/enneagram/toxic-traits-of-each-enneagram-type'
+loc: 'https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type'
 lastmod: '2024-08-01'
 changefreq: 'monthly'
 priority: '0.6'
@@ -81,7 +81,7 @@ Type 1s can get so caught up in their own moral superiority that they forget to 
 
 This behavior often masks a deep-seated fear of being flawed. Their self-righteousness is a defense mechanism against their own perceived shortcomings. Understanding this can help us approach their behavior with more empathy.
 
-<a href="/blog/enneagram/enneagram-type-1">More on Type One</a>
+<a href="/enneagram-corner/enneagram-type-1">More on Type One</a>
 
 ## Type 2: The Helper's Hidden Agenda
 
@@ -103,7 +103,7 @@ These helpers aren't always as altruistic as they seem. They'll do you a "favor,
 
 The martyr complex in Type 2s often masks a deep need for recognition and appreciation. Their struggle to directly ask for what they need leads to this indirect method of seeking validation.
 
-<a href="/blog/enneagram/enneagram-type-2">More on Type Two</a>
+<a href="/enneagram-corner/enneagram-type-2">More on Type Two</a>
 
 ## Type 3: The Achiever's Ugly Ambition
 
@@ -125,7 +125,7 @@ These achievers will sacrifice everything on the altar of success – including 
 
 The workaholic nature of Type 3s often masks a fear of being seen as incompetent or unsuccessful. Their struggle to find worth outside of their achievements can lead to this unhealthy obsession with work and success.
 
-<a href="/blog/enneagram/enneagram-type-3">More on Type Three</a>
+<a href="/enneagram-corner/enneagram-type-3">More on Type Three</a>
 
 ## Type 4: The Individualist's Isolating Intensity
 
@@ -147,7 +147,7 @@ Type 4s are masters of the "grass is always greener" mentality. They'll covet wh
 
 This envious nature often comes from a place of feeling fundamentally lacking or deficient. Type 4s struggle with the belief that others possess some quality or experience that they're missing out on, fueling their envy and sense of alienation.
 
-<a href="/blog/enneagram/enneagram-type-4">More on Type Four</a>
+<a href="/enneagram-corner/enneagram-type-4">More on Type Four</a>
 
 ## Type 5: The Investigator's Icy Isolation
 
@@ -169,10 +169,10 @@ Type 5s guard their resources like dragons hoarding gold. This includes their ti
 
 This reluctance to commit often comes from a fear of being depleted or overwhelmed. Type 5s struggle with the belief that they have limited inner resources, leading them to be overly protective of their time and energy.
 
-<a href="/blog/enneagram/enneagram-type-5">More on Type Five</a>
+<a href="/enneagram-corner/enneagram-type-5">More on Type Five</a>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 ## Type 6: The Loyalist's Lurking Fears
@@ -195,14 +195,14 @@ Type 6s will put your friendship through more trials than Hercules. They'll crea
 
 This constant testing often masks a deep fear of betrayal or abandonment. Type 6s struggle with trusting others and their own judgment, leading to this exhausting cycle of loyalty tests and disappointment.
 
-<a href="/blog/enneagram/enneagram-type-6">More on type Six</a>
+<a href="/enneagram-corner/enneagram-type-6">More on type Six</a>
 
 <div
     style="display: flex;
     justify-content: center;
     margin: 1rem 0;"
 >
-    <a href="/blog/enneagram/how-each-ennagram-type-unwinds" class="blog-link">
+    <a href="/enneagram-corner/how-each-ennagram-type-unwinds" class="blog-link">
       <PopCard
           image={`/blogs/greek-statues-at-the-beach.webp`}
           showIcon={false}
@@ -211,7 +211,7 @@ This constant testing often masks a deep fear of betrayal or abandonment. Type 6
           scramble={false}
       />
      </a>
-    <a href="/blog/enneagram/toxic-traits-relationships-warning-signs" class="blog-link">
+    <a href="/enneagram-corner/toxic-traits-relationships-warning-signs" class="blog-link">
       <PopCard
           image={`/blogs/greek-statues-in-a-tense-moment.webp`}
           showIcon={false}
@@ -242,7 +242,7 @@ Type 7s can take optimism to unhealthy extremes. They'll slap a smiley face on e
 
 This relentless positivity often masks a deep fear of pain and negative emotions. Type 7s struggle with acknowledging and processing difficult feelings, leading them to gloss over serious issues with forced cheerfulness.
 
-<a href="/blog/enneagram/enneagram-type-7">More on Type Seven</a>
+<a href="/enneagram-corner/enneagram-type-7">More on Type Seven</a>
 
 ## Type 8: The Challenger's Confrontational Chaos
 
@@ -264,7 +264,7 @@ These folks need to be in charge like plants need sunlight. They'll micromanage 
 
 This need for control often comes from a place of trying to protect themselves and others. Type 8s struggle with trusting others to handle things, leading to this overbearing behavior.
 
-<a href="/blog/enneagram/enneagram-type-8">More on Type Eight</a>
+<a href="/enneagram-corner/enneagram-type-8">More on Type Eight</a>
 
 ## Type 9: The Peacemaker's Passive Problems
 
@@ -286,7 +286,7 @@ Type 9s can lose themselves in others' opinions faster than you can say "doormat
 
 This chameleon-like behavior often comes from a deep desire to maintain harmony at all costs. Type 9s struggle with asserting their own needs and opinions, fearing that doing so might lead to conflict or separation from others.
 
-<a href="/blog/enneagram/enneagram-type-9">More on Type Nine</a>
+<a href="/enneagram-corner/enneagram-type-9">More on Type Nine</a>
 
 ## Conclusion: Embracing Our Shadows
 
@@ -344,7 +344,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/toxic-traits-of-each-enneagram-type",
+        "@id": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
         "@type": "WebPage"
       },
       "publisher": {

@@ -39,7 +39,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'overview'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -54,7 +54,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/overview" class="grid-item">
+		<a href="/enneagram-corner/subtopic/overview" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All Enneagram topic blogs </span>
@@ -67,7 +67,7 @@
 </div>
 
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/overview" class="">
+	<a href="/enneagram-corner/subtopic/overview" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All Enneagram topic blogs </span>
@@ -83,7 +83,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'nine-types'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -108,7 +108,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'development'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -127,7 +127,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/development" class="grid-item">
+		<a href="/enneagram-corner/subtopic/development" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All personal development blogs </span>
@@ -139,7 +139,7 @@
 	{/if}
 </div>
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/development" class="">
+	<a href="/enneagram-corner/subtopic/development" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All personal development blogs </span>
@@ -154,7 +154,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'relationships'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -173,7 +173,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/relationships" class="grid-item">
+		<a href="/enneagram-corner/subtopic/relationships" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All relationship blogs </span>
@@ -186,7 +186,7 @@
 </div>
 
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/relationships" class="">
+	<a href="/enneagram-corner/subtopic/relationships" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All relationship blogs </span>
@@ -201,7 +201,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'workplace'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -220,7 +220,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/workplace" class="grid-item">
+		<a href="/enneagram-corner/subtopic/workplace" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All workplace blogs </span>
@@ -233,7 +233,7 @@
 </div>
 
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/workplace" class="">
+	<a href="/enneagram-corner/subtopic/workplace" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All workplace blogs </span>
@@ -248,7 +248,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'resources'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -267,7 +267,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/resources" class="grid-item">
+		<a href="/enneagram-corner/subtopic/resources" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All resource blogs </span>
@@ -279,7 +279,7 @@
 	{/if}
 </div>
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/resources" class="">
+	<a href="/enneagram-corner/subtopic/resources" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All resource blogs </span>
@@ -294,7 +294,7 @@
 	{#each data.enneagramBlogs as eBlog}
 		{#if eBlog.type[0] === 'situational'}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style:--tag={`h-blog-${eBlog.title
 					.toLowerCase()
@@ -313,7 +313,7 @@
 		{/if}
 	{/each}
 	{#if innerWidth > 550}
-		<a href="/blog/enneagram/subtopic/situational" class="grid-item">
+		<a href="/enneagram-corner/subtopic/situational" class="grid-item">
 			<div class="fit-card black-white">
 				<h3 style="">
 					<span>All situational blogs </span>
@@ -325,7 +325,7 @@
 	{/if}
 </div>
 {#if innerWidth <= 550}
-	<a href="/blog/enneagram/subtopic/situational" class="">
+	<a href="/enneagram-corner/subtopic/situational" class="">
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All situational blogs </span>

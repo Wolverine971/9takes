@@ -3,7 +3,7 @@ title: 'The Hardware and Software of the Mind'
 description: 'Where the study of Personality went wrong in the modern Psychological discourse'
 author: 'DJ Wayne'
 date: '2023-12-10'
-loc: 'https://9takes.com/blog/community/software-and-hardware-of-the-mind'
+loc: 'https://9takes.com/community/software-and-hardware-of-the-mind'
 lastmod: '2024-06-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -71,13 +71,13 @@ And that personality system is the Enneagram.
 
 Why is the Enneagram so accurate? Because it bases the personality types on emotions.
 
-The <a href="/blog/enneagram/enneagram-tldr">TL;DR on the Enneagram here</a>.
+The <a href="/enneagram-corner/enneagram-tldr">TL;DR on the Enneagram here</a>.
 
 ### Emotions are not the problem; they are the key
 
 The default response of many to emotional struggles often involves quick pharmacological solutions rather than engaging in discussions.
 
-The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/blog/enneagram/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
+The prevailing culture of immediate gratification pushes many to seek quick fixes whenever emotional distress appears. This approach, while sometimes necessary, can overshadow longer term solutions such as psychotherapy and personal reflection. The root causes of psychological issues are not commonly understood. But they are worth diving into (<a href="/enneagram-corner/enneagram-and-mental-illness" >different personality types are predisposed to certain mental health issues</a>).
 
 > Counter argument acknowledgment: I do recognize pharmacological interventions can be life-saving for many individuals with severe mental health conditions. A balanced approach that incorporates both medication and therapy is often the most effective way to address mental health issues.
 
@@ -192,7 +192,7 @@ https://a16z.com/author/vijay-pande/
         "width": 800
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/community/software-and-hardware-of-the-mind",
+        "@id": "https://9takes.com/community/software-and-hardware-of-the-mind",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Meghan Markle Enneagram Type 2'
 description: 'Why Meghan Markle appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Meghan-Markle'
+loc: 'https://9takes.com/personality-analysis/Meghan-Markle'
 lastmod: '2023-10-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -69,8 +69,8 @@ Meghan does have a warm smile and has the ability to make you feel like the best
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Lb_yl4rOEVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-- Check out this blog for more on <a href="/blog/enneagram/enneagram-type-2">Enneagram type 2s</a>
-- Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Prince-Harry">Prince Harry.</a>
+- Check out this blog for more on <a href="/enneagram-corner/enneagram-type-2">Enneagram type 2s</a>
+- Check out this blog for an analysis of <a href="/personality-analysis/Prince-Harry">Prince Harry.</a>
 
 <svelte:head>
 
@@ -110,7 +110,7 @@ Meghan does have a warm smile and has the ability to make you feel like the best
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Meghan-Markle",
+        "@id": "https://9takes.com/personality-analysis/Meghan-Markle",
         "@type": "WebPage"
       },
       "mentions": {

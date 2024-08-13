@@ -3,7 +3,7 @@ title: 'The Definitive Guide to Self Efficacy'
 description: 'Explore the comprehensive guide to understanding and improving self-efficacy. Learn its origins, key sources, and practical tips for enhancing your life'
 author: 'DJ Wayne'
 date: '2023-08-31'
-loc: 'https://9takes.com/blog/guides/definitive-guide-to-self-efficacy'
+loc: 'https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy'
 lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -421,7 +421,7 @@ Here is a list of current and past research having to do with self-efficacy.
 
 "All we have to decide is what to do with the time that is given us." This is the essence of self-efficacy. It's about making the most of our time and resources, believing in our ability to navigate life's challenges, and taking steps to improve.
 
-People are different and have different experiences. Thus it is natural that some of us have high self-efficacy and confidence, while others may struggle due to the learned behaviors developed in childhood. The <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">Enneagram</a> can serve as an additional tool to help you understand these nuances. By diving deeper into your Enneagram type, you can uncover layers of your psyche that may be holding you back and take targeted steps to improve not just your self-efficacy, but your overall well-being.
+People are different and have different experiences. Thus it is natural that some of us have high self-efficacy and confidence, while others may struggle due to the learned behaviors developed in childhood. The <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Enneagram</a> can serve as an additional tool to help you understand these nuances. By diving deeper into your Enneagram type, you can uncover layers of your psyche that may be holding you back and take targeted steps to improve not just your self-efficacy, but your overall well-being.
 
 <svelte:head>
 
@@ -461,7 +461,7 @@ People are different and have different experiences. Thus it is natural that som
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/guides/definitive-guide-to-self-efficacy",
+        "@id": "https://9takes.com/how-to-guides/definitive-guide-to-self-efficacy",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Kamala Harris: The Chameleon Achiever and an Enneagram Type 3'
 description: 'Explore VP Kamala Harris through the lens of Enneagram Type 3. Discover how ambition and adaptability shape her political journey and leadership style.'
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kamala-Harris'
+loc: 'https://9takes.com/personality-analysis/Kamala-Harris'
 lastmod: '2024-07-27'
 changefreq: 'monthly'
 priority: '0.6'
@@ -161,7 +161,7 @@ Harris's career trajectory is a testament to the power of ambition when coupled 
 
 How does a critic become a running mate?
 
-Harris's chameleon-like ability to adapt is quintessential Type 3. She seamlessly shifted from challenging <a href="/blog/famous-enneagram-types/Joe-Biden">Biden</a> to becoming his advocate. This flexibility allows her to navigate complex political landscapes, building broad coalitions crucial in today's polarized environment.
+Harris's chameleon-like ability to adapt is quintessential Type 3. She seamlessly shifted from challenging <a href="/personality-analysis/Joe-Biden">Biden</a> to becoming his advocate. This flexibility allows her to navigate complex political landscapes, building broad coalitions crucial in today's polarized environment.
 
 Her adaptability demonstrates the Type 3's skill in reading rooms and adjusting strategies to achieve their goals.
 
@@ -260,7 +260,7 @@ Remember, whether you're a high-achieving Type 3 like Harris or any other person
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Kamala-Harris",
+        "@id": "https://9takes.com/personality-analysis/Kamala-Harris",
         "@type": "WebPage"
       },
       "mentions": {

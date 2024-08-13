@@ -3,7 +3,7 @@ title: 'Timothée Chalamet An Enneagram Type 6'
 description: 'Understand the thoughtful, anxious, and conscientious Type 6'
 author: 'DJ Wayne'
 date: '2024-07-03'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Timothee-Chalamet'
+loc: 'https://9takes.com/personality-analysis/Timothee-Chalamet'
 lastmod: '2024-07-03'
 changefreq: 'monthly'
 priority: '0.6'
@@ -132,7 +132,7 @@ But what do you think? How might understanding Timothée's potential Enneagram t
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Timothee-Chalamet",
+        "@id": "https://9takes.com/personality-analysis/Timothee-Chalamet",
         "@type": "WebPage"
       },
       "mentions": {

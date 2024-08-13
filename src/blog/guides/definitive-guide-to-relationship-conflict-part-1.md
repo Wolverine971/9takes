@@ -3,7 +3,7 @@ title: 'The Definitive Guide to Relationship Conflict [Part 1]'
 description: 'Navigate relationship conflict with this guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.'
 author: 'DJ Wayne'
 date: '2023-08-24'
-loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1'
+loc: 'https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1'
 lastmod: '2024-05-30'
 changefreq: 'monthly'
 priority: '0.6'
@@ -191,7 +191,7 @@ By understanding harmful conflict styles and adopting healthy communication stra
 
 I hope this guide serves you well. Remember, the key to a strong relationship isn't avoiding Conflict.
 
-<a href="/blog/guides/definitive-guide-to-relationship-conflict-part-2" >Part 2 </a>
+<a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-2" >Part 2 </a>
 
 ### Footnotes/ References
 
@@ -240,7 +240,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
             "description": "Navigate the complexities of relationship conflict with this definitive guide. Learn to avoid common pitfalls and adopt effective strategies for a stronger bond.",
             "headline": "The Definitive Guide to Dealing with Relationship Conflict Part 1",
             "mainEntityOfPage": {
-                "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-1",
+                "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-1",
                 "@type": "WebPage"
             },
             "image": {

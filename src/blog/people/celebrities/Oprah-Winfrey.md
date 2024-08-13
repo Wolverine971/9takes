@@ -3,7 +3,7 @@ title: 'Oprah Winfrey Enneagram Type 2'
 description: 'Why Oprah Winfrey appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Oprah-Winfrey'
+loc: 'https://9takes.com/personality-analysis/Oprah-Winfrey'
 lastmod: '2023-06-19'
 changefreq: 'monthly'
 priority: '0.6'
@@ -74,15 +74,15 @@ Just as we've seen aspects of Oprah's life aligning with Type 2 characteristics,
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Oprah:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Perfectionists, being principled, might admire Oprah's commitment to her causes, such as education and empowerment. They may, however, scrutinize her work for any inconsistencies or deviations from their high standards.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Helpers, being caring and people-pleasing, would likely appreciate Oprah's empathetic nature and her philanthropic endeavors. They might, however, be critical if they perceive any action of hers as being inconsiderate or insensitive.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Achievers, being success-oriented and driven, would respect Oprah for her accomplishments in the media industry. They may, however, evaluate her based on the success of her initiatives and projects.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Individualists, being sensitive and expressive, would likely resonate with Oprah's emotional openness and authenticity. They might, however, feel disconnected if they perceive her as being too mainstream or not genuine in some way.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Investigators, being intense and innovative, would probably appreciate Oprah's thought-provoking interviews and insightful perspectives. They might, however, be critical if they find her content lacking in depth or novelty.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists, being committed and responsible, would likely respect Oprah's dedication to her work and audience. They might, however, be skeptical if they perceive her as being unreliable or inconsistent in any way.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Enthusiasts, being spontaneous and fun-loving, would probably enjoy Oprah's dynamic presence and her ability to engage audiences. They might, however, be disinterested if they find her work too serious or monotonous.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers, being powerful and decisive, would likely admire Oprah's assertiveness and leadership in her field. They might, however, question her decisions or confront her viewpoints if they disagree with them.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers, being receptive and agreeable, would likely resonate with Oprah's messages of peace and unity. They might, however, be upset if they perceive any of her actions as creating conflict or disharmony.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Perfectionists, being principled, might admire Oprah's commitment to her causes, such as education and empowerment. They may, however, scrutinize her work for any inconsistencies or deviations from their high standards.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Helpers, being caring and people-pleasing, would likely appreciate Oprah's empathetic nature and her philanthropic endeavors. They might, however, be critical if they perceive any action of hers as being inconsiderate or insensitive.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Achievers, being success-oriented and driven, would respect Oprah for her accomplishments in the media industry. They may, however, evaluate her based on the success of her initiatives and projects.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists, being sensitive and expressive, would likely resonate with Oprah's emotional openness and authenticity. They might, however, feel disconnected if they perceive her as being too mainstream or not genuine in some way.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators, being intense and innovative, would probably appreciate Oprah's thought-provoking interviews and insightful perspectives. They might, however, be critical if they find her content lacking in depth or novelty.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists, being committed and responsible, would likely respect Oprah's dedication to her work and audience. They might, however, be skeptical if they perceive her as being unreliable or inconsistent in any way.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts, being spontaneous and fun-loving, would probably enjoy Oprah's dynamic presence and her ability to engage audiences. They might, however, be disinterested if they find her work too serious or monotonous.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers, being powerful and decisive, would likely admire Oprah's assertiveness and leadership in her field. They might, however, question her decisions or confront her viewpoints if they disagree with them.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers, being receptive and agreeable, would likely resonate with Oprah's messages of peace and unity. They might, however, be upset if they perceive any of her actions as creating conflict or disharmony.
 
 ## Wrapping It Up
 
@@ -132,7 +132,7 @@ Better yet, why not become part of a community that values introspective explora
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Oprah-Winfrey",
+        "@id": "https://9takes.com/personality-analysis/Oprah-Winfrey",
         "@type": "WebPage"
       },
       "mentions": {

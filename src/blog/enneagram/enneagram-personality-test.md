@@ -3,7 +3,7 @@ title: 'The Enneagram Personality Test Simplified'
 description: 'Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type'
 author: 'DJ Wayne'
 date: '2023-03-11'
-loc: 'https://9takes.com/blog/enneagram/enneagram-personality-test'
+loc: 'https://9takes.com/enneagram-corner/enneagram-personality-test'
 lastmod: '2024-05-16'
 changefreq: 'monthly'
 priority: '0.6'
@@ -124,9 +124,9 @@ where you can be comfortable and at peace, free from anger.
 
 Once you have identified the emotion you interact with the most, the next part is to deduce which type you are. Each core emotion forms a triad where it has 3 types under it. Or said another way, each core emotion has 3 archetypes wherein there are different ways to cope with that emotion.
 
-- Anger, Types [8- The Challenger-](/blog/enneagram/enneagram-type-8), [9- The Peacemaker](/blog/enneagram/enneagram-type-9), [1- The Perfectionist](/blog/enneagram/enneagram-type-1)
-- Shame, Types [2- The Helper](/blog/enneagram/enneagram-type-2), [3- The Achiever](/blog/enneagram/enneagram-type-3), [4- The Individualist](/blog/enneagram/enneagram-type-4)
-- Fear, Types [5- The Investigator](/blog/enneagram/enneagram-type-5), [6- The Loyalist](/blog/enneagram/enneagram-type-6), [7- The Enthusiast](/blog/enneagram/enneagram-type-7)
+- Anger, Types [8- The Challenger-](/enneagram-corner/enneagram-type-8), [9- The Peacemaker](/enneagram-corner/enneagram-type-9), [1- The Perfectionist](/enneagram-corner/enneagram-type-1)
+- Shame, Types [2- The Helper](/enneagram-corner/enneagram-type-2), [3- The Achiever](/enneagram-corner/enneagram-type-3), [4- The Individualist](/enneagram-corner/enneagram-type-4)
+- Fear, Types [5- The Investigator](/enneagram-corner/enneagram-type-5), [6- The Loyalist](/enneagram-corner/enneagram-type-6), [7- The Enthusiast](/enneagram-corner/enneagram-type-7)
 
 For now, read the types and determine which, if any, you identify with. More to come!
 
@@ -161,7 +161,7 @@ For now, read the types and determine which, if any, you identify with. More to 
       "description": "Identify your Enneagram type with this 9takes guide. Explore core motivations and emotional patterns to narrow down your type",
       "headline": "The Enneagram Personality Test Simplified",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-personality-test",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-personality-test",
         "@type": "WebPage"
       },
       "publisher": {

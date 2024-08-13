@@ -3,7 +3,7 @@ title: 'Sam Altman Enneagram 4'
 description: 'Why Sam Altman appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-12-08'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Sam-Altman'
+loc: 'https://9takes.com/personality-analysis/Sam-Altman'
 lastmod: '2023-12-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -148,7 +148,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Sam-Altman",
+        "@id": "https://9takes.com/personality-analysis/Sam-Altman",
         "@type": "WebPage"
       },
       "mentions": {

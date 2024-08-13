@@ -3,7 +3,7 @@ title: 'Emily Ratajkowski Enneagram Type 8'
 description: 'Why Emily Ratajkowski appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski'
+loc: 'https://9takes.com/personality-analysis/Emily-Ratajkowski'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -82,7 +82,7 @@ Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resil
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/imazLCAMojQ?clip=UgkxKgXTXeh070ACyd5fRX2r_XbXeNJ8E0ok&amp;clipt=EM61BxiniQk" title="Emily is a peak 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-If you found this interesting, check out <a href="/blog/famous-enneagram-types/Alex-Cooper">Alex Cooper's personality analysis</a>.
+If you found this interesting, check out <a href="/personality-analysis/Alex-Cooper">Alex Cooper's personality analysis</a>.
 
 <svelte:head>
 
@@ -127,7 +127,7 @@ If you found this interesting, check out <a href="/blog/famous-enneagram-types/A
     "Challenger"
   ],
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Emily-Ratajkowski",
+    "@id": "https://9takes.com/personality-analysis/Emily-Ratajkowski",
     "@type": "WebPage"
   },
   "mentions": {

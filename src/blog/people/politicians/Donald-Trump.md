@@ -3,7 +3,7 @@ title: 'Donald Trump: The Unapologetic Enneagram Type 8'
 description: 'Dive into the psyche of Donald Trump through the lens of Enneagram Type 8. Explore how his personality shaped his rise to power and his controversial legacy.'
 author: 'DJ Wayne'
 date: '2024-07-15'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Donald-Trump'
+loc: 'https://9takes.com/personality-analysis/Donald-Trump'
 lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
@@ -173,7 +173,7 @@ So, next time you see Trump on TV or read one of his tweets, ask yourself: What 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Donald-Trump",
+        "@id": "https://9takes.com/personality-analysis/Donald-Trump",
         "@type": "WebPage"
       },
       "mentions": {

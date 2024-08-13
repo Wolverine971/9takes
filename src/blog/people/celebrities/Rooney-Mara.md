@@ -3,7 +3,7 @@ title: 'Rooney Mara: Unravel the Mind of the Enneagram Type 5 Actress'
 description: 'Rooney Mara, the Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her persona.'
 author: 'DJ Wayne'
 date: '2024-05-06'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Rooney-Mara'
+loc: 'https://9takes.com/personality-analysis/Rooney-Mara'
 lastmod: '2024-05-06'
 changefreq: 'monthly'
 priority: '0.6'
@@ -138,7 +138,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Rooney-Mara"
+        "@id": "https://9takes.com/personality-analysis/Rooney-Mara"
       },
       "headline": "Rooney Mara: Unraveling the Enneagram Type 5 Actress",
       "description": "Dive into the world of Rooney Mara, the captivating Enneagram Type 5 actress. Explore her childhood, rise to fame, and the roles that define her persona.",

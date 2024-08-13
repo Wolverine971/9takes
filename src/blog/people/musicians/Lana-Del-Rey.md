@@ -3,7 +3,7 @@ title: 'Lana Del Rey: The Enneagram Type 4 Poet of Americana'
 description: "Explore Lana Del Rey's personality through the lens of Enneagram Type 4. Discover her inner world of haunting melodies and vintage glamour."
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Lana-Del-Rey'
+loc: 'https://9takes.com/personality-analysis/Lana-Del-Rey'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -146,7 +146,7 @@ As we've explored Lana's inner world, what aspects of her personality do you rel
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Lana-Del-Rey",
+        "@id": "https://9takes.com/personality-analysis/Lana-Del-Rey",
         "@type": "WebPage"
       },
       "mentions": {

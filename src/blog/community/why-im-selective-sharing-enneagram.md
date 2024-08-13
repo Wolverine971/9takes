@@ -3,7 +3,7 @@ title: 'The Enneagram Changed My Life, But I am Careful Who I Tell'
 description: 'Discover why sharing the life-changing insights of the Enneagram requires thoughtful consideration and how to approach conversations wisely.'
 author: 'DJ Wayne'
 date: '2024-03-09'
-loc: 'https://9takes.com/blog/community/why-im-selective-sharing-enneagram'
+loc: 'https://9takes.com/community/why-im-selective-sharing-enneagram'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -41,7 +41,7 @@ I have found it helpful in my own life, but sharing its insights requires carefu
 
 Labeling or analyzing someone without their consent can feel invasive. When we excitedly share how the Enneagram has altered our perception, it's crucial to remember not everyone wants to be seen through that lens.
 
-Imagine mentioning to a friend that they seem like a <a href="/blog/enneagram/enneagram-type-2">Type 2</a> because they're always helping others, only for them to respond coldly. They might not appreciate being categorized, especially without understanding the depth of Enneagram. It's a reminder that personal growth journeys are deeply individual.
+Imagine mentioning to a friend that they seem like a <a href="/enneagram-corner/enneagram-type-2">Type 2</a> because they're always helping others, only for them to respond coldly. They might not appreciate being categorized, especially without understanding the depth of Enneagram. It's a reminder that personal growth journeys are deeply individual.
 
 **Tip**: Begin conversations by sharing your personal experience with the Enneagram in a way that focuses on your journey rather than attempting to analyze or label the listener. This approach invites curiosity without making the other person feel judged or categorized.
 

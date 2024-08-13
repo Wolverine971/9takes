@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<link rel="canonical" href="https://9takes.com/blog/community" />
+	<link rel="canonical" href="https://9takes.com/community" />
 </svelte:head>
 
 <BlogPageHead
@@ -29,7 +29,7 @@
 		{#each data.posts as blog}
 			{#if blog?.type?.[0] === 'inspiration'}
 				<a
-					href={`/blog/community/${blog.slug}`}
+					href={`/community/${blog.slug}`}
 					class="grid-item inline-it"
 					style={blog.pic &&
 						`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}
@@ -51,7 +51,7 @@
 		{#each data.posts as blog}
 			{#if blog?.type?.[0] === 'idea'}
 				<a
-					href={`/blog/community/${blog.slug}`}
+					href={`/community/${blog.slug}`}
 					class="grid-item inline-it"
 					style:--tag={`h-blog-${blog.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, '')}`}
 					style={blog.pic &&

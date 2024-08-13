@@ -3,7 +3,7 @@ title: "The Enneagram and Mental Illness: Understand Each Type's Predispositions
 description: "Explore each Enneagram type's mental health risks and shadow side in our guide on personality predispositions and coping mechanisms."
 author: 'DJ Wayne'
 date: '2023-12-08'
-loc: 'https://9takes.com/blog/enneagram/enneagram-and-mental-illness'
+loc: 'https://9takes.com/enneagram-corner/enneagram-and-mental-illness'
 lastmod: '2024-07-28'
 changefreq: 'monthly'
 priority: '0.6'
@@ -138,7 +138,7 @@ toxic-traits-of-each-enneagram-type
     justify-content: center;
     margin: 1rem 0;"
 >
-    <a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link">
+    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link">
       <PopCard
           image={`/blogs/greek-statue-of-athena-with-red.webp`}
           showIcon={false}
@@ -147,7 +147,7 @@ toxic-traits-of-each-enneagram-type
           scramble={false}
       />
      </a>
-    <a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link">
+    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link">
       <PopCard
           image={`/blogs/greek-statue-showing-cracks.webp`}
           showIcon={false}
@@ -187,7 +187,7 @@ Ava, an introverted student, experiences severe insomnia and nightmares. Her gro
 Type 5s' tendency to isolate and neglect physical needs can spiral into severe mental health issues, including distorted perceptions and suicidal thoughts, further aggravated by their refusal to seek help.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 ## Mental Health Risks of the Enneagram Type 6: The Loyalist
@@ -252,7 +252,7 @@ Type 9s' denial of problems and tendency to yield to others can lead to severe l
 
 Exploring the Enneagram types' predispositions to mental health challenges is a heavy but important task.
 
-By understanding the extremes of our personality, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. Go <a href="/blog/enneagram/enneagram-stress-number" >here to explore how stress leads to our shadow side</a>. With these Enneagram insights let us face our vulnerabilities, celebrate our strengths, and proactively transform our mental health.
+By understanding the extremes of our personality, we can proactively address these challenges, seek support, and develop healthier coping mechanisms. Go <a href="/enneagram-corner/enneagram-stress-number" >here to explore how stress leads to our shadow side</a>. With these Enneagram insights let us face our vulnerabilities, celebrate our strengths, and proactively transform our mental health.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
@@ -298,7 +298,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-and-mental-illness",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Enneagram Insights for Relationship Communication'
 description: "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy"
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/enneagram-communication-in-relationships'
+loc: 'https://9takes.com/enneagram-corner/enneagram-communication-in-relationships'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -39,7 +39,7 @@ pic: 'greek-statues-having-an-intimate-conversation'
 
 People don't think and feel like you, too, and yet you have likely found a way to get along with and talk to the many different people in your life. If every relationship in your life is thriving, skip this blog. But if some relationships are a struggle maybe its time to investigate different people's preferred communication styles.
 
-We are going to look at the communication styles of each Enneagram type. It may be hard to pick up on the nuances of communication, but once you are familiar with the Enneagram types, you can start to understand where each type is coming from and attempt to speak their language. But the first step is to <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">learn your Enneagram type</a>.
+We are going to look at the communication styles of each Enneagram type. It may be hard to pick up on the nuances of communication, but once you are familiar with the Enneagram types, you can start to understand where each type is coming from and attempt to speak their language. But the first step is to <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">learn your Enneagram type</a>.
 
 ## Steps for Using the Enneagram in Relationships
 
@@ -54,7 +54,7 @@ After you have learned your Enneagram type its time to start thinking about the 
 
 1. Identify your type and the think through the likely types of those around you. This will help you identify your own <a href="enneagram-communication-styles" >communication style</a> and start to be attuned to the communication styles of those around you.
 2. Open up the conversation by asking your partner about their motivations and fears. Start the conversation by being vulnerable and sharing with your partner your own thoughts and feelings. Ask them if they can see these motivations and fears within you. Then ask your partner if they identify with one of the other Enneagram types fears and motivations.
-3. Focus on learning about the <a href="/blog/enneagram/enneagram-strengths-and-weaknesses" >strengths and weaknesses of each type</a>. This will help you and your partner get to a deeper layer of vulnerability where you can begin to understand how different people perceive the world. Ultimately this will lead to a conversation about you and your partner need in relationships.
+3. Focus on learning about the <a href="/enneagram-corner/enneagram-strengths-and-weaknesses" >strengths and weaknesses of each type</a>. This will help you and your partner get to a deeper layer of vulnerability where you can begin to understand how different people perceive the world. Ultimately this will lead to a conversation about you and your partner need in relationships.
 
 ## Relationship Communication Playbook for Each Enneagram type
 
@@ -76,7 +76,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A One and their partner are discussing the current political climate. The One is passionate about a particular issue and becomes frustrated when their partner doesn't seem as engaged. The One struggles to express their emotions and may be critical of their partner's lack of interest.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -94,7 +94,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Two and their partner discuss a recent conflict with a friend. The Two may struggle to express their needs or feelings and become overly involved in trying to fix the situation.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -112,12 +112,12 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: Three and their partner are discussing their career goals. The Three may struggle with expressing their emotions or discussing their fears or insecurities, instead focusing on ways to improve their skills and succeed.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -134,7 +134,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Four and their partner are discussing their favorite books. The Four may become emotional or intense when discussing a book that resonated with them, struggling to express their emotions clearly or concisely.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -152,7 +152,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Five and their partner are discussing a new scientific discovery. The Five may become animated and engaged in the conversation, sharing their ideas and theories while respecting their partner's perspectives.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -170,7 +170,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Six and their partner are discussing plans for a future vacation. The Six may become anxious or stressed about the potential risks or challenges, seeking reassurance from their partner while considering practical solutions.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -188,7 +188,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Seven and their partner are discussing potential travel plans. The Seven may become excited about new possibilities and experiences but may need help to commit to a specific plan or itinerary.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -206,7 +206,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: An Eight and their partner are discussing a business opportunity. The Eight may become assertive and forceful in their opinions but also appreciate a partner who can challenge them and offer a different perspective.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -224,7 +224,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the peace and harmony it brings to their life.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -242,7 +242,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
       "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://9takes.com/blog/enneagram/enneagram-communication-in-relationships"
+        "@id": "https://9takes.com/enneagram-corner/enneagram-communication-in-relationships"
       },
       "headline": "Enneagram Insights for Relationship Communication",
       "description": "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy",

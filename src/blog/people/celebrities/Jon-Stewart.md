@@ -3,7 +3,7 @@ title: 'Jon Stewart: The Enneagram type 7 Entertainer in Action'
 description: 'Why Jon Stewart appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Jon-Stewart'
+loc: 'https://9takes.com/personality-analysis/Jon-Stewart'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -98,15 +98,15 @@ Living as an Enneagram type 7 isn't solely about humor and impromptu escapades. 
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jon Stewart:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Reformers might admire Stewart's adherence to his principles, his tireless work ethic, and his drive for social justice. However, they could also be critical of his casual demeanor and his comedic spin on serious issues, viewing it as undermining the seriousness of the topics at hand.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Helpers may appreciate Stewart's empathy and his efforts to bring awareness to marginalized issues and people. They might resonate with his humanitarian causes, but also might wish for a more direct, action-oriented approach to addressing societal problems.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Achievers could be impressed by Stewart's career accomplishments, his cultural impact, and his ability to rise to the top of his profession. Yet, they might not connect with his decision to leave The Daily Show at the peak of its success.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Individualists could appreciate Stewart's unique comedic style and his ability to stand out in the media industry. However, they might question his propensity to joke about serious matters, seeing it as a potential avoidance of dealing with the painful realities of life.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Investigators might be intrigued by Stewart's intellectual humor, his insightful political commentary, and his ability to articulate complex issues in a digestible format. On the flip side, they might find his emotional responses to issues too overwhelming or distracting.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists could value Stewart's dedication to his show and his steadfast commitment to his viewers. Nonetheless, his unpredictable humor and his propensity to challenge authority might cause them unease.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Enthusiasts would likely resonate with Stewart's energy, his love for life, and his ability to keep things light and interesting. They would likely admire his courage to move on to new ventures and his quest for continuous growth and exploration.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers might respect Stewart's fearless critique of power structures, his candidness, and his refusal to back down from conflict. However, they might desire a more assertive approach rather than his humor-infused commentary.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers might appreciate Stewart's attempts to bring disparate viewpoints to a common understanding through humor. But, his penchant for stirring up controversy and challenging the status quo might discomfort them.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Reformers might admire Stewart's adherence to his principles, his tireless work ethic, and his drive for social justice. However, they could also be critical of his casual demeanor and his comedic spin on serious issues, viewing it as undermining the seriousness of the topics at hand.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Helpers may appreciate Stewart's empathy and his efforts to bring awareness to marginalized issues and people. They might resonate with his humanitarian causes, but also might wish for a more direct, action-oriented approach to addressing societal problems.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Achievers could be impressed by Stewart's career accomplishments, his cultural impact, and his ability to rise to the top of his profession. Yet, they might not connect with his decision to leave The Daily Show at the peak of its success.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists could appreciate Stewart's unique comedic style and his ability to stand out in the media industry. However, they might question his propensity to joke about serious matters, seeing it as a potential avoidance of dealing with the painful realities of life.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators might be intrigued by Stewart's intellectual humor, his insightful political commentary, and his ability to articulate complex issues in a digestible format. On the flip side, they might find his emotional responses to issues too overwhelming or distracting.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists could value Stewart's dedication to his show and his steadfast commitment to his viewers. Nonetheless, his unpredictable humor and his propensity to challenge authority might cause them unease.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts would likely resonate with Stewart's energy, his love for life, and his ability to keep things light and interesting. They would likely admire his courage to move on to new ventures and his quest for continuous growth and exploration.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers might respect Stewart's fearless critique of power structures, his candidness, and his refusal to back down from conflict. However, they might desire a more assertive approach rather than his humor-infused commentary.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers might appreciate Stewart's attempts to bring disparate viewpoints to a common understanding through humor. But, his penchant for stirring up controversy and challenging the status quo might discomfort them.
 
 ## Final Thoughts
 
@@ -156,7 +156,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Jon-Stewart",
+        "@id": "https://9takes.com/personality-analysis/Jon-Stewart",
         "@type": "WebPage"
       },
       "mentions": {

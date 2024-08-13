@@ -3,7 +3,7 @@ title: 'Introducing 9takes: A Fresh Take on Online Conversations'
 description: 'A Q&A platform fostering diverse, built on anonymous perspectives inspired by the Enneagram.'
 author: 'DJ Wayne'
 date: '2023-04-17'
-loc: 'https://9takes.com/blog/community/introducing-9takes'
+loc: 'https://9takes.com/community/introducing-9takes'
 lastmod: '2024-07-24'
 changefreq: 'monthly'
 priority: '0.6'
@@ -171,7 +171,7 @@ There are many different ways to divide people and most of them turn out to not 
 
 <ul class="plain-list-w-margin">
 <li>
-If you know <a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type">your personality type</a> you can share it. It lets others have some context to where you are coming from when you answer questions. If you don't know your personality type, the hope is that you will learn it over time.
+If you know <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">your personality type</a> you can share it. It lets others have some context to where you are coming from when you answer questions. If you don't know your personality type, the hope is that you will learn it over time.
 </li>
 </ul>
 </li>

@@ -3,7 +3,7 @@ title: 'Ariana Grande An Enneagram Type 3'
 description: 'Why Ariana Grande appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-06-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Ariana-Grande'
+loc: 'https://9takes.com/personality-analysis/Ariana-Grande'
 lastmod: '2023-06-21'
 changefreq: 'monthly'
 priority: '0.6'
@@ -97,15 +97,15 @@ Ariana's is constantly pursuing success. Her ever-expanding discography, constan
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Ariana:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Type 1s might admire Ariana's dedication to her craft and continuous effort to improve. However, they may also be critical of the controversies she's been involved in, judging her based on their strong ethical compass.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Type 2s would likely empathize with Ariana's struggles and appreciate her vulnerability in sharing her journey. They may also be drawn to her charitable efforts and care for her fans, seeing these as signs of a caring nature.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Fellow Type 3s would undoubtedly recognize Ariana's ambition and relentless drive for success. They might view her as an embodiment of their own aspirations, admiring her ability to turn setbacks into victories.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Type 4s might connect with the unique and emotional elements in Ariana's music. They could find resonance in her personal struggles and the authenticity with which she expresses her feelings through her art.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Type 5s might be intrigued by the complexities of Ariana's character and her constant evolution as an artist. They might enjoy examining her musical progression and her psychological resilience in the face of adversity.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Type 6s may appreciate Ariana's loyalty to her fans and her unwavering commitment to her career. However, they might also be wary of the unpredictability associated with her public persona.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Type 7s would likely be drawn to Ariana's vibrant personality and energetic performances. They may admire her ability to bounce back from hardships and to continue to pursue new and exciting ventures.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Type 8s might respect Ariana's strength and ability to stand her ground amidst controversies. They may appreciate her assertiveness and her determination to protect her image and career.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Type 9s could potentially resonate with Ariana's desire for inner peace, as demonstrated through her music and public statements. They might also admire her attempts to create harmony and positivity through her public platform.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Type 1s might admire Ariana's dedication to her craft and continuous effort to improve. However, they may also be critical of the controversies she's been involved in, judging her based on their strong ethical compass.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s would likely empathize with Ariana's struggles and appreciate her vulnerability in sharing her journey. They may also be drawn to her charitable efforts and care for her fans, seeing these as signs of a caring nature.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Fellow Type 3s would undoubtedly recognize Ariana's ambition and relentless drive for success. They might view her as an embodiment of their own aspirations, admiring her ability to turn setbacks into victories.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Type 4s might connect with the unique and emotional elements in Ariana's music. They could find resonance in her personal struggles and the authenticity with which she expresses her feelings through her art.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Type 5s might be intrigued by the complexities of Ariana's character and her constant evolution as an artist. They might enjoy examining her musical progression and her psychological resilience in the face of adversity.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s may appreciate Ariana's loyalty to her fans and her unwavering commitment to her career. However, they might also be wary of the unpredictability associated with her public persona.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Type 7s would likely be drawn to Ariana's vibrant personality and energetic performances. They may admire her ability to bounce back from hardships and to continue to pursue new and exciting ventures.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s might respect Ariana's strength and ability to stand her ground amidst controversies. They may appreciate her assertiveness and her determination to protect her image and career.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Type 9s could potentially resonate with Ariana's desire for inner peace, as demonstrated through her music and public statements. They might also admire her attempts to create harmony and positivity through her public platform.
 
 ## Personal Struggles and Self-Identity
 
@@ -149,7 +149,7 @@ Ready for more? Intrigued to unravel the personalities of other celebrities or e
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Ariana-Grande",
+        "@id": "https://9takes.com/personality-analysis/Ariana-Grande",
         "@type": "WebPage"
       },
       "mentions": {

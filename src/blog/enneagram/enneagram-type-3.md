@@ -3,7 +3,7 @@ title: 'Enneagram Type 3: The Achiever'
 description: "Uncover the Achiever or Performer's drive for success and recognition. Learn how Threes excel in goals and adapt to expectations."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-3'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-3'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -80,7 +80,7 @@ Their strengths include
 
 <li><strong>Ambition with Direction</strong>: Fueled by a deep-seated desire to excel, Type 3s set audacious goals and relentlessly pursue them. They possess a clear vision for their path, navigating challenges with unwavering determination. Type 3 is the seasoned entrepreneur leading their startup to success and pushing the innovation boundary.</li>
 
-<li><strong>Chameleons of Success</strong>: Adaptability is their middle name. They seamlessly adjust their approach based on the situation, always aiming for optimal results. Picture a skilled salesperson closing deals in diverse settings. Or think of someone like <a style="font-weight: bold;" href="/blog/famous-enneagram-types/Jason-Calacanis">Jason Calcanis</a>, who has been successful in multiple careers and is usually the most charismatic person in the room. </li>
+<li><strong>Chameleons of Success</strong>: Adaptability is their middle name. They seamlessly adjust their approach based on the situation, always aiming for optimal results. Picture a skilled salesperson closing deals in diverse settings. Or think of someone like <a style="font-weight: bold;" href="/personality-analysis/Jason-Calacanis">Jason Calcanis</a>, who has been successful in multiple careers and is usually the most charismatic person in the room. </li>
 
 <li><strong>Confident Go-Getters</strong>: Self-assuredness radiates from them. They believe in themselves and their abilities, allowing them to take calculated risks and navigate complex situations with poise. An Enneagram type 3 is the CEO calmly talking to the board steely-eyed while turbulent waters are ahead. Think of the founder of WeWork, Adam Neumann. That man had a vision and could rally those around him to march in a direction.</li>
 
@@ -127,7 +127,7 @@ While Type 3 individuals are renowned for their drive and efficiency, they face 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -172,7 +172,7 @@ Type 3s are masters of self-motivation. They know how to tap into their inner dr
 
 <h2 id="stress">🤯 Enneagram 3s Under Stress</h2>
 
-Their stress number is Type 9. <a href="/blog/enneagram/enneagram-type-9">Type 9s</a> are normally peaceful, accommodating, and harmonious. They might become more withdrawn, passive, avoidant, and indecisive when stressed. They might also struggle with feeling unimportant in the eyes of others.
+Their stress number is Type 9. <a href="/enneagram-corner/enneagram-type-9">Type 9s</a> are normally peaceful, accommodating, and harmonious. They might become more withdrawn, passive, avoidant, and indecisive when stressed. They might also struggle with feeling unimportant in the eyes of others.
 
 <h3>More on Their Shift to Type 9 Under Stress</h3>
 
@@ -190,7 +190,7 @@ Their stress number is Type 9. <a href="/blog/enneagram/enneagram-type-9">Type 9
 - **Reconnect with Goals**: Reminding themselves of their goals and achievements can help Type 3s regain their confidence and direction.
 - **Mindfulness Practices**: Techniques like meditation or yoga can help Type 3s stay present and reduce tendencies towards avoidance and passivity.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -244,7 +244,7 @@ Enneagram Type 3s bring a dynamic and engaging energy to their relationships. Th
 - Balance Affection with Independence: Type 3s value both connection and independence. It's essential to support their ambitions while offering affection and emotional Support.
 - Create Shared Goals: Working together on shared goals can be a bonding experience and help align their ambition with the relationship's growth.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -262,7 +262,7 @@ Type 3s are often excellent at multitasking and can juggle multiple projects sim
 
 However, Type 3s may struggle with work-life balance, as they can sometimes prioritize their career goals over their personal lives. They may also struggle to delegate tasks to others, as they often feel they can do better themselves. Additionally, they may work with criticism and can be sensitive to feedback that they perceive as unfavorable.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -360,7 +360,7 @@ In this video, Beatrice Chestnut moderates a panel discussion with several Ennea
         "Stress"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-3",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-3",
         "@type": "WebPage"
       },
       "publisher": {

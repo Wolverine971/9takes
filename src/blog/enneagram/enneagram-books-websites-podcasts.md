@@ -3,7 +3,7 @@ title: 'Enneagram Books, Websites and Podcasts'
 description: 'Discover the best Enneagram books, websites, and podcasts for personal growth and understanding. Dive deeper into this powerful system today.'
 author: 'DJ Wayne'
 date: '2023-04-01'
-loc: 'https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts'
+loc: 'https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts'
 lastmod: '2024-06-01'
 changefreq: 'monthly'
 priority: '0.6'
@@ -297,7 +297,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     "description": "Learn about the Enneagram, a personality typing system that describes nine distinct types of individuals and how its concepts can be traced back to the work of Sigmund Freud and Plato.",
     "headline": "Books and Websites for Learning More About the Enneagram",
     "mainEntityOfPage": {
-      "id": "https://9takes.com/blog/enneagram/enneagram-books-websites-podcasts",
+      "id": "https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts",
       "@type": "WebPage"
     },
     "image": {

@@ -3,7 +3,7 @@ title: 'Enneagram FAQs'
 description: 'Get answers to all your Enneagram questions. Learn about the nine types, its scientific basis, applications in therapy and the workplace, and more'
 author: 'DJ Wayne'
 date: '2023-02-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-faqs'
+loc: 'https://9takes.com/enneagram-corner/enneagram-faqs'
 lastmod: '2023-08-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -24,7 +24,7 @@ previewHtml: ''
 <summary class="accordion">What is the Enneagram?</summary>
 <div class="panel">
   <p >The Enneagram is a personality framework that describes nine distinct personality types, each with its own unique motivations, fears, and core values. Each type is represented by a number, and individuals may identify with one or more of these types based on their personality traits and tendencies. The Enneagram system can be used as a tool for self-awareness and personal growth, as well as for understanding and improving relationships communication, and team dynamics in various settings.</p>
-  <a href="/blog/enneagram/enneagram-tldr" >TLDR </a>
+  <a href="/enneagram-corner/enneagram-tldr" >TLDR </a>
   </div>
 </details>
 
@@ -103,7 +103,7 @@ previewHtml: ''
   and personal observation.<br> <br> The official origins are somewhat convoluted but can be traced back to a Chilean psychiatrist Claudio
   Naranjo and further back to a Bolivian spiritual teacher named Oscar Ichazo. However, the general principles of the Enneagram are
   eerily similar to Sigmund Freud's works on the id, ego and superego. Furthermore this three part distinction of the human psyche
-  goes even further back and parallels Plato's description of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram" >see here</a>).
+  goes even further back and parallels Plato's description of the human soul (<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram" >see here</a>).
     </p>
 
 </details>
@@ -117,8 +117,8 @@ previewHtml: ''
 
 <details>
 <summary class="accordion">Can Enneagram be used in the workplace?</summary>
-  <p class="panel">Yes, the Enneagram can be used in the workplace to <a href="/blog/enneagram/enneagram-team-dynamics" >improve team dynamics</a>, communication, and conflict resolution.
-    Employers may use the Enneagram as a <a href="/blog/enneagram/enneagram-workplace-team-building">tool for leadership development</a>, <a href="/blog/enneagram/enneagram-team-diversity">talent management</a>, and <a href="/blog/enneagram/enneagram-types-working-in-teams">working-in-teams</a>.
+  <p class="panel">Yes, the Enneagram can be used in the workplace to <a href="/enneagram-corner/enneagram-team-dynamics" >improve team dynamics</a>, communication, and conflict resolution.
+    Employers may use the Enneagram as a <a href="/enneagram-corner/enneagram-workplace-team-building">tool for leadership development</a>, <a href="/enneagram-corner/enneagram-team-diversity">talent management</a>, and <a href="/enneagram-corner/enneagram-types-working-in-teams">working-in-teams</a>.
     Additionally, understanding individual Enneagram types can help employees better understand their own</p>
 
 </details>
@@ -126,7 +126,7 @@ previewHtml: ''
 <details>
 <summary class="accordion">What are the ideas behind the Enneagram?</summary>
   <p class="panel">At a high level the Enneagram delves into personality, motivations, and personal growth. As you get deeper into it you explore the
-  9 types, the centers of intelligence, connecting lines, instincts, and wings (<a href="/blog/enneagram/enneagram-concepts">see here</a>).</p>
+  9 types, the centers of intelligence, connecting lines, instincts, and wings (<a href="/enneagram-corner/enneagram-concepts">see here</a>).</p>
 </details>
 
 <details>
@@ -138,14 +138,14 @@ previewHtml: ''
 <details>
 <summary class="accordion">How does the Enneagram relate to psychology?</summary>
   <p class="panel">The Enneagram is a psychological and spiritual framework that shares similarities with other theories, such as Freud's
-  model of the human psyche and Plato's concept of the human soul (<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">see here</a>), offering
+  model of the human psyche and Plato's concept of the human soul (<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">see here</a>), offering
   insights into human behavior and growth.</p>
 </details>
 
 <details>
 <summary class="accordion">Who created the Enneagram?</summary>
   <p class="panel">The modern Enneagram system was developed by Oscar Ichazo and further refined by Claudio Naranjo, with roots in ancient
-  wisdom traditions, including the Desert Fathers, Kabbalah, and Sufi tradition (<a href="/blog/enneagram/enneagram-influences">see here</a>).</p>
+  wisdom traditions, including the Desert Fathers, Kabbalah, and Sufi tradition (<a href="/enneagram-corner/enneagram-influences">see here</a>).</p>
 </details>
 
 <details>

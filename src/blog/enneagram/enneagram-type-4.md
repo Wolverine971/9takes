@@ -3,7 +3,7 @@ title: 'Enneagram Type 4: The Individualist'
 description: "Dive into the Individualist or Romantic's unique creativity and self-expression. Explore how Fours navigate deep emotions and desires."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-4'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-4'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -94,7 +94,7 @@ Individualists can be moody and withdrawn, making forming and maintaining relati
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -140,11 +140,11 @@ At the same time, Type 4s may also struggle with a sense of self-doubt and may b
 
 <h2 id="stress">🤯 Enneagram 4s Under Stress</h2>
 
-Type 4s under stress go to 2. The <a href="/blog/enneagram/enneagram-type-2">type 2</a> is generous, caring, and nurturing. When the type 2 is under stress, they become more emotionally needy and dependent on others. They can also become manipulative and controlling in their relationships.
+Type 4s under stress go to 2. The <a href="/enneagram-corner/enneagram-type-2">type 2</a> is generous, caring, and nurturing. When the type 2 is under stress, they become more emotionally needy and dependent on others. They can also become manipulative and controlling in their relationships.
 
 Type 4s when stressed struggle with feeling unlovable or inadequate. In that state of negativity they can become clingy and seek constant reassurance and validation from others. They also might become a people pleaser to gain approval. If their motional needs are not being met they may resort to manipulative tactics, such as guilt-tripping or playing the victim, to gain sympathy and attention.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -168,7 +168,7 @@ Type 4s are known for their creativity and passion, which can make them deeply a
 
 In relationships, Type 4s may struggle with jealousy or insecurity, particularly if they perceive their partner as more successful or accomplished in certain areas. They may also tend to idealize their partners or romanticize their relationships, which can set them up for disappointment or disillusionment when reality fails to live up to their expectations.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -184,7 +184,7 @@ Type 4s are often drawn to work that allows them to express their individuality 
 
 In the workplace, Type 4s may struggle with boredom or restlessness, particularly if they feel their work lacks meaning or purpose. They may also be prone to moodiness or sensitivity to criticism and struggle to take feedback or direction from others. However, they can be deeply committed and loyal team members who bring a unique perspective and creative flair to their work.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -288,7 +288,7 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
         "Stress"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-4",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-4",
         "@type": "WebPage"
       },
       "publisher": {

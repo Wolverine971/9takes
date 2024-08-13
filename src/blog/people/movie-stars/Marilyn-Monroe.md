@@ -3,7 +3,7 @@ title: 'Marilyn Monroe Enneagram Type 6'
 description: 'Why Marilyn Monroe appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Marilyn-Monroe'
+loc: 'https://9takes.com/personality-analysis/Marilyn-Monroe'
 lastmod: '2023-12-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -61,7 +61,7 @@ Her work in cinema, often portraying vulnerable yet captivating characters, mirr
 
 ## Marilyn and JFK: A Controversy through a Type 6 Lens
 
-The rumored affair between Marilyn Monroe and <a href="/blog/famous-enneagram-types/John-F-Kennedy">John F. Kennedy</a> is a subject of enduring fascination and controversy.
+The rumored affair between Marilyn Monroe and <a href="/personality-analysis/John-F-Kennedy">John F. Kennedy</a> is a subject of enduring fascination and controversy.
 
 From the perspective of a Type 6 personality, this connection could be interpreted as Monroe's complex search for security and affirmation. Type 6s, often grappling with trust issues and a need for stable relationships, might engage in high-risk scenarios to find a sense of validation. For Monroe, an association with a figure as influential as JFK might have represented a paradoxical blend of safety and vulnerability - a powerful connection offering the allure of protection yet fraught with the dangers of public scrutiny and moral judgment.
 
@@ -115,7 +115,7 @@ Do you see Marilyn's life differently now? Understanding her possible Enneagram 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Marilyn-Monroe",
+        "@id": "https://9takes.com/personality-analysis/Marilyn-Monroe",
         "@type": "WebPage"
       },
       "mentions": {

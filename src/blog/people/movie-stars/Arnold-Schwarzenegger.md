@@ -3,7 +3,7 @@ title: 'Arnold Schwarzenegger Enneagram Type 3'
 description: 'Why Arnold Schwarzenegger appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Arnold-Schwarzenegger'
+loc: 'https://9takes.com/personality-analysis/Arnold-Schwarzenegger'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -79,7 +79,7 @@ Type 3s are highly competitive, and Arnold Schwarzenegger’s competitive nature
     "width": 1200
   },
   "mainEntityOfPage": {
-    "id": "https://9takes.com/blog/famous-enneagram-types/Arnold-Schwarzenegger",
+    "id": "https://9takes.com/personality-analysis/Arnold-Schwarzenegger",
     "@type": "WebPage"
   },
   "mentions": {

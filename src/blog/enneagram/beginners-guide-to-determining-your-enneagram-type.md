@@ -3,7 +3,7 @@ title: "The Beginner's Guide to Determining Your Enneagram Type in 4 Steps"
 description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself"
 author: 'DJ Wayne'
 date: '2023-07-11'
-loc: 'https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-enneagram-type'
+loc: 'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -134,7 +134,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent needing to be more focused, overly strict, or lenient. Ones made themselves their judges and critics, developing their strict code of ethics and rules to cope.
 
-<a href="/blog/enneagram/enneagram-type-1">More on type One</a>
+<a href="/enneagram-corner/enneagram-type-1">More on type One</a>
 
 </section>
 <section class="section-content">
@@ -146,7 +146,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Twos felt a lack of nurturing, guidance, or structure came from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their needs.
 
-<a href="/blog/enneagram/enneagram-type-2">More on type Two</a>
+<a href="/enneagram-corner/enneagram-type-2">More on type Two</a>
 
 </section>
 <section class="section-content">
@@ -158,7 +158,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for their achievements rather than who they were. They worked hard to gain approval through achievements.
 
-<a href="/blog/enneagram/enneagram-type-3">More on type Three</a>
+<a href="/enneagram-corner/enneagram-type-3">More on type Three</a>
 
 </section>
 <section class="section-content">
@@ -170,7 +170,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Fours felt disconnected from both parental figures. They felt their parents didn’t see them for who they were. They tried early on to accept what made them different.
 
-<a href="/blog/enneagram/enneagram-type-4">More on type Four</a>
+<a href="/enneagram-corner/enneagram-type-4">More on type Four</a>
 
 </section>
 <section class="section-content">
@@ -182,7 +182,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Fives felt ambivalent towards their parental figures. They felt like “odd ducks,” forever on the outside looking in. Fives retreated from the outside world to cope and focused on mastering a unique subject of interest.
 
-<a href="/blog/enneagram/enneagram-type-5">More on type Five</a>
+<a href="/enneagram-corner/enneagram-type-5">More on type Five</a>
 
 </section>
 <section class="section-content">
@@ -194,7 +194,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for security or guidance rather than trusting their inner voice.
 
-<a href="/blog/enneagram/enneagram-type-6">More on type Six</a>
+<a href="/enneagram-corner/enneagram-type-6">More on type Six</a>
 
 </section>
 <section class="section-content">
@@ -206,7 +206,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sevens felt disconnected from the nurturing figure in their home. To deal with this, Sevens learned to focus on “transitional objects” or toys and activities that would feed the emptiness inside.
 
-<a href="/blog/enneagram/enneagram-type-7">More on type Seven</a>
+<a href="/enneagram-corner/enneagram-type-7">More on type Seven</a>
 
 </section>
 <section class="section-content">
@@ -218,7 +218,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness,” they would be hurt, rejected, or betrayed.
 
-<a href="/blog/enneagram/enneagram-type-8">More on type Eight</a>
+<a href="/enneagram-corner/enneagram-type-8">More on type Eight</a>
 
 </section>
 <section class="section-content">
@@ -230,7 +230,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, deny their feelings, and stay in the background.
 
-<a href="/blog/enneagram/enneagram-type-9">More on type Nine</a>
+<a href="/enneagram-corner/enneagram-type-9">More on type Nine</a>
 
 </section>
 
@@ -269,7 +269,7 @@ Here's how it works for each type:
 <!-- Learn more about the connecting lines here...........
 Link here -->
 
-Examine how you feel when you are at your best and when you are at your worst and see if it aligns up with your connecting lines. To dive deeper into the connecting lines and see how each Enneagram type looks check out [this article](/blog/enneagram/enneagram-connecting-lines).
+Examine how you feel when you are at your best and when you are at your worst and see if it aligns up with your connecting lines. To dive deeper into the connecting lines and see how each Enneagram type looks check out [this article](/enneagram-corner/enneagram-connecting-lines).
 
 ### Avoid the Common Pitfall
 
@@ -318,7 +318,7 @@ As Socrates said, “The more you know, the more you realize you don’t know, a
       "description": "Navigate the Enneagram easily using our Beginner's Guide. Uncover your type and unlock a deeper understanding of yourself.",
       "headline": "The Beginner's Guide to Determining Your Enneagram Type in 4 Steps",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/beginners-guide-to-determining-your-Enneagram-type",
+        "@id": "https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-Enneagram-type",
         "@type": "WebPage"
       },
       "mentions": {

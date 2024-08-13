@@ -3,7 +3,7 @@ title: 'Exploring the Connections between the Enneagram and Religion'
 description: "Though not inherently religious, many spiritual traditions reference the Enneagram's ideas and use it as a tool for self-understanding"
 author: 'DJ Wayne'
 date: '2023-08-05'
-loc: 'https://9takes.com/blog/enneagram/enneagram-and-religion'
+loc: 'https://9takes.com/enneagram-corner/enneagram-and-religion'
 lastmod: '2024-04-13'
 changefreq: 'monthly'
 priority: '0.6'
@@ -112,7 +112,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-and-religion",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-and-religion",
         "@type": "WebPage"
       },
       "publisher": {

@@ -10,9 +10,9 @@
 		<a href="/questions" aria-disabled="true" class="disabled">Questions</a>
 	</li> -->
 	<li>
-		<a href="/blog/enneagram">Blogs about the Enneagram</a>
+		<a href="/enneagram-corner">Blogs about the Enneagram</a>
 	</li>
 	<li>
-		<a href="/blog/enneagram">Blogs examining famous people</a>
+		<a href="/personality-analysis">Blogs examining famous people</a>
 	</li>
 </ul>

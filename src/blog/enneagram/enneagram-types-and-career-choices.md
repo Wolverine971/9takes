@@ -3,7 +3,7 @@ title: 'Enneagram & Careers: Discover a Path all 9 types'
 description: 'Explore ideal careers for each Enneagram type and discover how personality traits can guide your professional path in this insightful article.'
 author: 'DJ Wayne'
 date: '2023-11-29'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-and-career-choices'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-and-career-choices'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -56,7 +56,7 @@ Don't do what you are passionate about.
 
 Just do it.
 
-Choosing a career path is a big task. Finding a happy medium between making money and not hating your life is hard. This is where understanding your Enneagram type can help (<a href="/blog/enneagram/beginners-guide-to-determining-your-enneagram-type" >beginner's guide here</a>).
+Choosing a career path is a big task. Finding a happy medium between making money and not hating your life is hard. This is where understanding your Enneagram type can help (<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" >beginner's guide here</a>).
 
 Each Enneagram type has things that will rub them the wrong way in a job. Each type wants different things and is drawn to certain things. Here, we will explore what each type values and how that translates to the types of jobs in which they would thrive.
 
@@ -73,7 +73,7 @@ For Type 1s, careers that offer a sense of order, integrity, and purpose are hig
 - Architect: Planning and designing sustainable buildings can fulfill their need for order and improvement.
 - Editor: Perfecting written work appeals to their keen eye for detail and desire for perfection.
 
-<a href="/blog/enneagram/enneagram-type-1">More on type 1</a>
+<a href="/enneagram-corner/enneagram-type-1">More on type 1</a>
 
 </section>
   <section class="section-content">
@@ -89,7 +89,7 @@ Type 2s are naturally drawn to careers that allow them to support and care for o
 - Human Resources Manager: Supporting employee well-being and resolving conflicts aligns with their interpersonal skills.
 - Kindergarten Teacher: Fostering young children’s growth and development caters to their caring and supportive qualities.
 
-<a href="/blog/enneagram/enneagram-type-2">More on type 2</a>
+<a href="/enneagram-corner/enneagram-type-2">More on type 2</a>
 
 </section>
   <section class="section-content">
@@ -105,7 +105,7 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
 - Investment Banker: Thriving in competitive, high-stakes environments matches their goal-oriented nature.
 - Marketing Manager: Strategizing and achieving market success leverages their creativity and desire to excel.
 
-<a href="/blog/enneagram/enneagram-type-3">More on type 3</a>
+<a href="/enneagram-corner/enneagram-type-3">More on type 3</a>
 
 </section>
 
@@ -137,7 +137,7 @@ Type 4s, with their appreciation for uniqueness and self-expression, find satisf
 - Art Therapist: Helping others through creative expression aligns with their empathy and depth.
 - Fashion Designer: Crafting unique and expressive clothing suits their individualistic and aesthetic sensibilities.
 
-<a href="/blog/enneagram/enneagram-type-4">More on type 4</a>
+<a href="/enneagram-corner/enneagram-type-4">More on type 4</a>
 
 </section>
   <section class="section-content">
@@ -153,12 +153,14 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 - Data Analyst: Interpreting data and trends aligns with their objective and investigative nature.
 - Archaeologist: Uncovering historical truths through research and exploration satisfies their curiosity and desire for knowledge.
 
-<a href="/blog/enneagram/enneagram-type-5">More on type 5</a>
+<a href="/enneagram-corner/enneagram-type-5">More on type 5</a>
 
 </section>
+
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
+
  <section class="section-content">
    <h3 id="type6" style="padding: 0; margin: 0">Type 6 - The Loyalist: Finding Security in Responsible Positions</h3>
 
@@ -172,7 +174,7 @@ Type 6s value security and stability, making them well-suited for administration
 - School Counselor: Supporting students’ emotional and educational needs fits their responsible and committed nature.
 - Emergency Room Nurse: Thriving in high-stress, supportive roles matches their reliability and teamwork abilities.
 
-<a href="/blog/enneagram/enneagram-type-6">More on type 6</a>
+<a href="/enneagram-corner/enneagram-type-6">More on type 6</a>
 
 </section>
   <section class="section-content">
@@ -188,7 +190,7 @@ Type 7s, with their versatile and adventurous nature, thrive in dynamic and vari
 - Outdoor Adventure Leader: Leading outdoor activities satisfies their desire for excitement and novelty.
 - Innovation Consultant: Generating and implementing innovative ideas that fit their visionary and energetic personality.
 
-<a href="/blog/enneagram/enneagram-type-7">More on type 7</a>
+<a href="/enneagram-corner/enneagram-type-7">More on type 7</a>
 
 </section>
 
@@ -220,7 +222,7 @@ Type 8s are natural leaders drawn to positions where they can exert influence an
 - Litigation Attorney: Advocating fiercely in the courtroom suits their confrontational and persuasive skills.
 - Construction Manager: Overseeing building projects fits their need to lead and have a straightforward approach.
 
-<a href="/blog/enneagram/enneagram-type-8">More on type 8</a>
+<a href="/enneagram-corner/enneagram-type-8">More on type 8</a>
 
 </section>
   <section class="section-content">
@@ -236,7 +238,7 @@ Type 9s, with their easygoing and inclusive nature, are well-suited for roles th
 - Yoga Instructor: Teaching and guiding others in finding balance and inner peace caters to their soothing presence and inclusive approach.
 - Non-Profit Organization Worker: Contributing to causes that promote peace and well-being aligns with their altruistic values.
 
-<a href="/blog/enneagram/enneagram-type-9">More on type 9</a>
+<a href="/enneagram-corner/enneagram-type-9">More on type 9</a>
 
 </section>
 
@@ -244,7 +246,7 @@ Type 9s, with their easygoing and inclusive nature, are well-suited for roles th
 
 The Enneagram can be a powerful tool in guiding your career choices. By understanding your intrinsic motivations and strengths, you can find a professional path that suits your personality and brings fulfillment and success. Remember, the Enneagram is just one piece of the puzzle - your experiences, skills, and passions also play a crucial role in your career journey. So, as you consider your next career move, don't limit yourself; consider your whole self and what you can bring to the table.
 
-For more check out <a style="font-weight: bold;" href="/blog/enneagram/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
+For more check out <a style="font-weight: bold;" href="/enneagram-corner/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
 
 If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
 
@@ -289,7 +291,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "width": 550
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-types-and-career-choices",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-types-and-career-choices",
         "@type": "WebPage"
       },
       "mentions": {

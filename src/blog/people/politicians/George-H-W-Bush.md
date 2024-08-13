@@ -3,7 +3,7 @@ title: 'George H. W. Bush Enneagram type 6'
 description: 'Why George H. W. Bush appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/George-H-W-Bush'
+loc: 'https://9takes.com/personality-analysis/George-H-W-Bush'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -62,7 +62,7 @@ Lastly, George H.W. Bush's devotion to his family showcases his Type 6 personali
 
 In conclusion, George H.W. Bush's Enneagram type 6 traits are evident in his collaborative approach to international relations, his prudent decision-making, his commitment to public service, and his strong family bonds. These aspects of his life and presidency exemplify the characteristics of a Loyalist, illustrating the influence of the Enneagram on individuals in positions of leadership.
 
-Check out this one for an analysis on his son <a href="/blog/famous-enneagram-types/George-W-Bush">George W. Bush.</a>
+Check out this one for an analysis on his son <a href="/personality-analysis/George-W-Bush">George W. Bush.</a>
 
 <svelte:head>
 
@@ -99,7 +99,7 @@ Check out this one for an analysis on his son <a href="/blog/famous-enneagram-ty
     "width": 1200
   },
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/George-H-W-Bush",
+    "@id": "https://9takes.com/personality-analysis/George-H-W-Bush",
     "@type": "WebPage"
   },
   "mentions": {

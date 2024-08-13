@@ -3,7 +3,7 @@ title: 'Kanye Enneagram Type 7'
 description: 'Why Kanye appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-06-17'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kanye'
+loc: 'https://9takes.com/personality-analysis/Kanye'
 lastmod: '2023-06-17'
 changefreq: 'monthly'
 priority: '0.6'
@@ -92,7 +92,7 @@ Consider Kanye West's new album, "Donda." Named after his late mother, it is a r
 
 Kanye's controversies, often broadcasted worldwide, also paint a picture of the Type 7's tendency to avoid negative feelings and seek happiness above all else.
 
-From interrupting <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift's</a> acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
+From interrupting <a href="/personality-analysis/Taylor-Swift">Taylor Swift's</a> acceptance speech at the 2009 MTV Video Music Awards to his infamous declaration of running for president in 2020, Kanye's impulsive actions reflect a Type 7's desire to stay in high spirits and shun negativity. This isn't to condemn or justify his actions, but to shed light on the possibility of their origin in his personality type.
 
 ## Mental Health: An Empathetic Lens into Kanye's Mind
 
@@ -104,21 +104,21 @@ In 2016, Kanye publicly revealed his diagnosis with bipolar disorder. The strugg
 
 Type 7 personalities thrive on their connections, seeking stimulation and novelty in their relationships. Look at Kanye's interaction with individuals like Jay-Z, Nas, and Kendrick Lamar. His collaborations, disputes, and reconciliations trace a pattern of seeking diverse and intense experiences, further reinforcing his Type 7 traits.
 
-In his personal life, too, Kanye's relationships mirror a Type 7's complexity. His marriage to <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim Kardashian</a>, subsequent divorce, and the apparent tension with <a href="/blog/famous-enneagram-types/Pete-Davidson">Pete Davidson</a> allude to the Type 7's struggle with commitment and confrontation, often preferring to escape painful emotions rather than face them.
+In his personal life, too, Kanye's relationships mirror a Type 7's complexity. His marriage to <a href="/personality-analysis/Kim-Kardashian">Kim Kardashian</a>, subsequent divorce, and the apparent tension with <a href="/personality-analysis/Pete-Davidson">Pete Davidson</a> allude to the Type 7's struggle with commitment and confrontation, often preferring to escape painful emotions rather than face them.
 
 ## How Each Enneagram Type Perceives Kanye West
 
 Here's a glimpse into how each Enneagram type might perceive Kanye:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Type 1s might appreciate Kanye's commitment to his creative vision and the meticulousness of his productions. However, they might also be critical of his controversial actions and his tendency to disrupt order and break rules.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Type 2s might empathize with Kanye's struggles and admire his contributions to the music industry. They might, however, also wish for Kanye to show more sensitivity towards others and exercise more restraint in his public actions.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Type 3s might resonate with Kanye's ambition and success. They may see his determination to excel in music, fashion, and even politics as an inspiring testament to the power of hard work and vision.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Type 4s might connect deeply with Kanye's music, finding his lyrics and melodies to express universal emotions in a unique way. Yet, they might also feel conflicted about Kanye's polarizing public persona.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Type 5s might admire Kanye's innovative spirit and his constant drive to break new ground. On the other hand, they might also be wary of his unpredictable behavior and his tendency to stir up controversy.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Type 6s might appreciate Kanye's loyalty to his creative vision but might be put off by his tendency towards disruption and unpredictability. They might desire more stability and consistency from him.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Type 7s, like Kanye himself, might feel a strong kinship with his restless creativity, his pursuit of new experiences, and his determination to avoid negativity. However, they might also understand better than anyone the risks associated with these tendencies.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8s might admire Kanye's assertiveness and his refusal to back down from challenges. They may appreciate his independent streak and his willingness to take control of his narrative. Yet, they might also wish he'd use his influence more responsibly
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9s might find themselves conflicted about Kanye. They might admire his ability to provoke discussion and stir up the status quo, but also find his controversies disruptive to the peace and stability they cherish.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**: Type 1s might appreciate Kanye's commitment to his creative vision and the meticulousness of his productions. However, they might also be critical of his controversial actions and his tendency to disrupt order and break rules.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**: Type 2s might empathize with Kanye's struggles and admire his contributions to the music industry. They might, however, also wish for Kanye to show more sensitivity towards others and exercise more restraint in his public actions.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**: Type 3s might resonate with Kanye's ambition and success. They may see his determination to excel in music, fashion, and even politics as an inspiring testament to the power of hard work and vision.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**: Type 4s might connect deeply with Kanye's music, finding his lyrics and melodies to express universal emotions in a unique way. Yet, they might also feel conflicted about Kanye's polarizing public persona.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**: Type 5s might admire Kanye's innovative spirit and his constant drive to break new ground. On the other hand, they might also be wary of his unpredictable behavior and his tendency to stir up controversy.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**: Type 6s might appreciate Kanye's loyalty to his creative vision but might be put off by his tendency towards disruption and unpredictability. They might desire more stability and consistency from him.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**: Type 7s, like Kanye himself, might feel a strong kinship with his restless creativity, his pursuit of new experiences, and his determination to avoid negativity. However, they might also understand better than anyone the risks associated with these tendencies.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**: Type 8s might admire Kanye's assertiveness and his refusal to back down from challenges. They may appreciate his independent streak and his willingness to take control of his narrative. Yet, they might also wish he'd use his influence more responsibly
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**: Type 9s might find themselves conflicted about Kanye. They might admire his ability to provoke discussion and stir up the status quo, but also find his controversies disruptive to the peace and stability they cherish.
 
 ## Enneagram Type 7: A Window into Kanye's Actions
 
@@ -168,7 +168,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/kanye-west",
+        "@id": "https://9takes.com/personality-analysis/kanye-west",
         "@type": "WebPage"
       },
       "mentions": {

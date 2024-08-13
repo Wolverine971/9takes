@@ -3,7 +3,7 @@ title: 'Logan Paul Enneagram Type 7'
 description: 'Why Logan Paul appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-06-20'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Logan-Paul'
+loc: 'https://9takes.com/personality-analysis/Logan-Paul'
 lastmod: '2023-06-20'
 changefreq: 'monthly'
 priority: '0.6'
@@ -88,15 +88,15 @@ His energy resonates with many of his followers. His insatiable appetite for adv
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Mr. Logan Paul:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)**: Type 1 individuals might view Logan Paul as reckless and lacking a sense of responsibility. They may criticize his controversial actions and question his moral compass.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)**: Type 2 individuals might perceive Logan Paul as attention-seeking and self-centered. They may question his intentions behind his philanthropic endeavors and wonder if they are driven by genuine compassion or a need for validation.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)**: Type 3 individuals might see Logan Paul as a fellow high achiever. They may admire his ability to captivate an audience, his entrepreneurial success, and his relentless pursuit of new ventures.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)**: Type 4 individuals might have a mixed perception of Logan Paul. They may find his audacity intriguing and appreciate his willingness to embrace his individuality, but they may also view his controversies as attention-seeking behavior.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)**: Type 5 individuals might analyze Logan Paul's every move, observing his actions from an objective standpoint. They may appreciate his ability to generate attention and question the impact of his influence on society.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)**: Type 6 individuals might have conflicting views on Logan Paul. Some might find his adventurous spirit inspiring and be drawn to his confidence, while others might perceive him as impulsive and unreliable.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)**: Type 7 individuals might resonate with Logan Paul's relentless pursuit of excitement and his desire for new experiences. They may admire his ability to live life to the fullest, even though they might not agree with all his choices.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)**: Type 8 individuals might appreciate Logan Paul's fearlessness and audacity. They may see him as someone who pushes boundaries and challenges the status quo, even if it comes with controversy.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)**: Type 9 individuals might have mixed feelings about Logan Paul. They may appreciate his ability to captivate and unite people through his content, but also be critical of his actions that disrupt harmony and create controversy.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)**: Type 1 individuals might view Logan Paul as reckless and lacking a sense of responsibility. They may criticize his controversial actions and question his moral compass.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)**: Type 2 individuals might perceive Logan Paul as attention-seeking and self-centered. They may question his intentions behind his philanthropic endeavors and wonder if they are driven by genuine compassion or a need for validation.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)**: Type 3 individuals might see Logan Paul as a fellow high achiever. They may admire his ability to captivate an audience, his entrepreneurial success, and his relentless pursuit of new ventures.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)**: Type 4 individuals might have a mixed perception of Logan Paul. They may find his audacity intriguing and appreciate his willingness to embrace his individuality, but they may also view his controversies as attention-seeking behavior.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)**: Type 5 individuals might analyze Logan Paul's every move, observing his actions from an objective standpoint. They may appreciate his ability to generate attention and question the impact of his influence on society.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)**: Type 6 individuals might have conflicting views on Logan Paul. Some might find his adventurous spirit inspiring and be drawn to his confidence, while others might perceive him as impulsive and unreliable.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)**: Type 7 individuals might resonate with Logan Paul's relentless pursuit of excitement and his desire for new experiences. They may admire his ability to live life to the fullest, even though they might not agree with all his choices.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)**: Type 8 individuals might appreciate Logan Paul's fearlessness and audacity. They may see him as someone who pushes boundaries and challenges the status quo, even if it comes with controversy.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)**: Type 9 individuals might have mixed feelings about Logan Paul. They may appreciate his ability to captivate and unite people through his content, but also be critical of his actions that disrupt harmony and create controversy.
 
 ## A Deeper Understanding and the Next Step
 
@@ -142,7 +142,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Logan-Paul",
+        "@id": "https://9takes.com/personality-analysis/Logan-Paul",
         "@type": "WebPage"
       },
       "mentions": {

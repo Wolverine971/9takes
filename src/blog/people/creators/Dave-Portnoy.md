@@ -3,7 +3,7 @@ title: "Dave Portnoy's Personality: Enneagram Type 8"
 description: 'The Man, The Myth, The Legend: Who is Dave Portnoy? But more importantly what is his personality type?'
 author: 'DJ Wayne'
 date: '2023-08-21'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Dave-Portnoy'
+loc: 'https://9takes.com/personality-analysis/Dave-Portnoy'
 lastmod: '2023-12-24'
 changefreq: 'monthly'
 priority: '0.6'
@@ -84,9 +84,9 @@ What truly sets Portnoy apart is what happened in 2020. He sold a majority stake
 
 Dave Portnoy's BFFs podcast with <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/JoshRichards">Josh Richards</a> and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://twitter.com/bchickenfry">Bri Chickenfry</a> isn't just another podcast; it vividly illustrates his non-conformist approach to life.
 
-Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/blog/famous-enneagram-types/Logan-Paul">Logan Paul</a> and <a href="/blog/famous-enneagram-types/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
+Whether it's his choice of co-hosts or his friendships with well-known figures like <a href="/personality-analysis/Logan-Paul">Logan Paul</a> and <a href="/personality-analysis/Jake-Paul">Jake Paul</a>, Portnoy defies societal norms and popular opinions at every turn.
 
-He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
+He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
 This disregard for societal expectations and his willingness to forge his path symbolizes a Type 8 personality—someone who values control over their own life and is unafraid to stand alone.
 
@@ -118,7 +118,7 @@ Revenge might sound like a strong word, but in the world of Type 8s, it's not ab
 
 This ritual aligns perfectly with the characteristics of Type 8, who often seeks to correct the record and root out injustice. Dave keeps his how scorecard and is willing to wait for his enemies to face the music. When that music finally plays, Dave is ready with a bottle of champagne.
 
-Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/blog/famous-enneagram-types/Kanye">Kanye's</a> drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
+Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/personality-analysis/Kanye">Kanye's</a> drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -151,47 +151,47 @@ It turns a personal ritual into a public display. This act serves a dual purpose
 Dave is polarizing. Both his supporters and haters see different things in Dave's personality. Let's examine how individuals of each Enneagram type might perceive him:
 
 <article>
-  <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p><b>Perception:</b> Might view Portnoy as reckless or lacking in moral integrity due to his controversies.</p>
   <p><b>Common Thought:</b> "He needs to be more responsible and ethical in his actions."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p><b>Perception:</b> Could admire Portnoy's leadership but may wish he used his influence for more altruistic purposes.</p>
   <p><b>Common Thought:</b> "He has the power to do good; why doesn't he use it more?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p><b>Perception:</b> Likely to admire Portnoy's entrepreneurial success and his ability to bounce back from setbacks.</p>
   <p><b>Common Thought:</b> "His business acumen is impressive; I could learn a thing or two from him."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p><b>Perception:</b> May appreciate Portnoy's unique approach to life but could find him too abrasive or aggressive.</p>
   <p><b>Common Thought:</b> "I like that he's different, but does he have to be so intense?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p><b>Perception:</b> Intrigued by Portnoy's strategic mind but may question the ethics behind some of his decisions.</p>
   <p><b>Common Thought:</b> "He's smart, but what's the deeper reasoning behind his actions?"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p><b>Perception:</b> Might find Portnoy's unpredictability unsettling but could admire his loyalty to his values.</p>
   <p><b>Common Thought:</b> "He's hard to pin down, but at least he's consistent in being himself."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p><b>Perception:</b> Likely to find Portnoy's diverse interests and ventures exciting and inspiring.</p>
   <p><b>Common Thought:</b> "He's living the dream—doing what he loves and making a fortune out of it!"</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p><b>Perception:</b> Would probably resonate with Portnoy's need for control and his confrontational nature.</p>
   <p><b>Common Thought:</b> "He's one of us; he takes charge of his life and isn't afraid of a fight."</p>
 </article>
 <article>
-  <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p><b>Perception:</b> Could be put off by Portnoy's confrontational style but may appreciate his authenticity.</p>
   <p><b>Common Thought:</b> "He's too intense for me, but I respect that he's true to himself."</p>
 </article>
@@ -242,7 +242,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Dave-Portnoy",
+        "@id": "https://9takes.com/personality-analysis/Dave-Portnoy",
         "@type": "WebPage"
       },
       "mentions": {

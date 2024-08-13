@@ -3,7 +3,7 @@ title: "JFK: The Charismatic Type 7 - Unveiling Kennedy's Mindset"
 description: "Explore John F. Kennedy's Enneagram Type 7 personality. Discover how his enthusiastic nature shaped his presidency, policies, and enduring legacy in American history."
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/John-F-Kennedy'
+loc: 'https://9takes.com/personality-analysis/John-F-Kennedy'
 lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -111,8 +111,8 @@ John F. Kennedy's Type 7 personality – with its blend of charisma, optimism, a
 
 As we reflect on JFK's legacy, we're left with an intriguing question: How might understanding our own Enneagram types help us tap into our unique strengths and make our own mark on the world?
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Jackie-Kennedy">Jackie Kennedy.</a>
-And check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Marilyn-Monroe">Marilyn-Monroe.👀</a>
+Check out this blog for an analysis of <a href="/personality-analysis/Jackie-Kennedy">Jackie Kennedy.</a>
+And check out this blog for an analysis of <a href="/personality-analysis/Marilyn-Monroe">Marilyn-Monroe.👀</a>
 
 <svelte:head>
 
@@ -139,7 +139,7 @@ And check out this blog for an analysis of <a href="/blog/famous-enneagram-types
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/John-F-Kennedy",
+        "@id": "https://9takes.com/personality-analysis/John-F-Kennedy",
         "@type": "WebPage"
       },
       "mentions": {

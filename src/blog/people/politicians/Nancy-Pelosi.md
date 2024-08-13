@@ -3,7 +3,7 @@ title: 'Nancy Pelosi Enneagram Type 3'
 description: 'Why Nancy Pelosi appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Nancy-Pelosi'
+loc: 'https://9takes.com/personality-analysis/Nancy-Pelosi'
 lastmod: '2023-09-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -100,7 +100,7 @@ These examples of political flexibility further solidify the connection between 
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Nancy-Pelosi"
+    "@id": "https://9takes.com/personality-analysis/Nancy-Pelosi"
   },
   "headline": "Nancy Pelosi: An Enneagram Type 3 Achiever",
   "image": {

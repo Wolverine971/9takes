@@ -3,7 +3,7 @@ title: '9 Childhood Stereotypes Based on the Enneagram'
 description: 'Rediscovering Your Childhood Through the Enneagram Lens: A Journey Back in Time'
 author: 'DJ Wayne'
 date: '2023-12-16'
-loc: 'https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes'
+loc: 'https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -72,7 +72,7 @@ They grew up with a sense of deep emotional intensity, feeling things more profo
 The kid in class who wrote poetry or daydreamed, not just to escape boredom but to find a connection they deeply craved. Their creativity was a bridge to a world where they felt seen and understood.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 ## Type 5: The Young Investigators
@@ -153,7 +153,7 @@ If you are reminded of this blog in a conversation down the road give us a shout
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-childhood-stereotypes",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes",
         "@type": "WebPage"
       },
       "publisher": {

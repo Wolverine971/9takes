@@ -3,7 +3,7 @@ title: 'Justin Bieber – An Enneagram Type 3'
 description: 'Why Justin Bieber appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-12-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Justin-Bieber'
+loc: 'https://9takes.com/personality-analysis/Justin-Bieber'
 lastmod: '2023-12-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -52,7 +52,7 @@ Type 3s are known for their charisma, ambition, and focus on accomplishment.
 
 ## Bieber's Rise: A Tale of Ambition and Charm
 
-Justin Bieber's meteoric rise to fame is a textbook example of Type 3 dynamics. Discovered at a young age, his journey from a small-town Canadian singer to an international superstar epitomizes the Type 3's drive. His early hits, collaborations with big names like <a href="/blog/famous-enneagram-types/Ariana-Grande">Ariana Grande</a>, and his high-profile relationships with stars like Selena Gomez and Hailey Bieber underscore his place in the limelight.
+Justin Bieber's meteoric rise to fame is a textbook example of Type 3 dynamics. Discovered at a young age, his journey from a small-town Canadian singer to an international superstar epitomizes the Type 3's drive. His early hits, collaborations with big names like <a href="/personality-analysis/Ariana-Grande">Ariana Grande</a>, and his high-profile relationships with stars like Selena Gomez and Hailey Bieber underscore his place in the limelight.
 
 ### Stressors and Pride: The Inner World of Bieber
 
@@ -90,7 +90,7 @@ His early experiences, characterized by a blend of raw talent, early exposure to
 
 ## The Lyrics of Life: How Bieber's Songs Reflect His Personality
 
-Justin Bieber's lyrics offer insights into his Enneagram Type 3 personality. His songs, like "Sorry" and "Love Yourself," showcase introspection and concern with self-image, typical of Type 3s. These tracks delve into personal growth and accountability, reflecting a journey toward self-improvement. His collaborations with artists like <a href="/blog/famous-enneagram-types/Taylor-Swift">Taylor Swift</a> underscore his drive for excellence and recognition in the competitive music industry, aligning with a Type 3's ambition and adaptability.
+Justin Bieber's lyrics offer insights into his Enneagram Type 3 personality. His songs, like "Sorry" and "Love Yourself," showcase introspection and concern with self-image, typical of Type 3s. These tracks delve into personal growth and accountability, reflecting a journey toward self-improvement. His collaborations with artists like <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> underscore his drive for excellence and recognition in the competitive music industry, aligning with a Type 3's ambition and adaptability.
 
 <div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/5tb-CMlT8jM?si=lWXM1_G7ArkWDCDr" title="Justin Bieber and Taylor Swift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -141,7 +141,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Justin-Bieber",
+        "@id": "https://9takes.com/personality-analysis/Justin-Bieber",
         "@type": "WebPage"
       },
       "mentions": {

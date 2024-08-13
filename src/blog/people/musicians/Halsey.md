@@ -3,7 +3,7 @@ title: 'Halsey– An Enneagram Type 8'
 description: 'Why Halsey appears to be a type 8'
 author: 'DJ Wayne'
 date: '2023-06-23'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Halsey'
+loc: 'https://9takes.com/personality-analysis/Halsey'
 lastmod: '2023-06-23'
 changefreq: 'monthly'
 priority: '0.6'
@@ -108,15 +108,15 @@ Just like a true Type 8, Halsey is passionate about justice and isn't afraid to 
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Halsey:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Perfectionists might admire Halsey's commitment to her ideals and advocacy work. However, they could find her controversial behavior and lyrics confronting, not fitting into their idea of what's 'perfect' or 'correct.'
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Helpers may be drawn to Halsey's open-hearted vulnerability in her lyrics, identifying with her expressive nature. Yet, her confrontational side may be hard for this empathetic type to digest.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Achievers will likely respect Halsey's accomplishments and her ability to constantly reinvent her musical style. They might see her public persona as a benchmark for success.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Individualists may feel a connection to Halsey's emotional depth and creativity. They might resonate with her feelings of alienation and the longing for understanding expressed in her songs.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Investigators could appreciate Halsey's raw and complex narratives. They might enjoy dissecting her lyrics for deeper meaning, while her candid approach may intrigue them.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists might find Halsey's tendency to challenge the status quo unsettling. On the other hand, they may admire her loyalty to her beliefs and causes, appreciating her commitment to social justice.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Enthusiasts would likely be drawn to Halsey's vibrancy and varied discography. Her concerts would appeal to them, promising a sensory feast and an escape from mundane life.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - As Challengers themselves, they'd resonate with Halsey's assertiveness, intensity, and her refusal to be controlled. They may admire her bravery in expressing her vulnerabilities and standing up for what she believes in.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers could find Halsey's music therapeutic, allowing them to tap into emotions they typically avoid. However, her confrontational approach might conflict with their desire for inner and outer peace.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Perfectionists might admire Halsey's commitment to her ideals and advocacy work. However, they could find her controversial behavior and lyrics confronting, not fitting into their idea of what's 'perfect' or 'correct.'
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Helpers may be drawn to Halsey's open-hearted vulnerability in her lyrics, identifying with her expressive nature. Yet, her confrontational side may be hard for this empathetic type to digest.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Achievers will likely respect Halsey's accomplishments and her ability to constantly reinvent her musical style. They might see her public persona as a benchmark for success.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists may feel a connection to Halsey's emotional depth and creativity. They might resonate with her feelings of alienation and the longing for understanding expressed in her songs.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators could appreciate Halsey's raw and complex narratives. They might enjoy dissecting her lyrics for deeper meaning, while her candid approach may intrigue them.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists might find Halsey's tendency to challenge the status quo unsettling. On the other hand, they may admire her loyalty to her beliefs and causes, appreciating her commitment to social justice.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts would likely be drawn to Halsey's vibrancy and varied discography. Her concerts would appeal to them, promising a sensory feast and an escape from mundane life.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - As Challengers themselves, they'd resonate with Halsey's assertiveness, intensity, and her refusal to be controlled. They may admire her bravery in expressing her vulnerabilities and standing up for what she believes in.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers could find Halsey's music therapeutic, allowing them to tap into emotions they typically avoid. However, her confrontational approach might conflict with their desire for inner and outer peace.
 
 ## Wrapping up
 
@@ -164,7 +164,7 @@ If you're intrigued and wish to explore more, delve into our other articles abou
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Halsey",
+        "@id": "https://9takes.com/personality-analysis/Halsey",
         "@type": "WebPage"
       },
       "mentions": {

@@ -3,7 +3,7 @@ title: "Charli D'Amelio Enneagram Type 9"
 description: "Why Charli D'Amelio appears to be a type 9"
 author: 'DJ Wayne'
 date: '2023-07-23'
-loc: "https://9takes.com/blog/famous-enneagram-types/Charli-D'Amelio"
+loc: "https://9takes.com/personality-analysis/Charli-D'Amelio"
 lastmod: '2023-09-23'
 changefreq: 'monthly'
 priority: '0.6'

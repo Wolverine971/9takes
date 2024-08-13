@@ -3,7 +3,7 @@ title: 'Psychology history'
 description: ''
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/psychology'
+loc: 'https://9takes.com/enneagram-corner/psychology'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -19,7 +19,7 @@ previewHtml: ''
 <svelte:head>
 
 <meta property="og:image" content="" />
-  <link rel="canonical" href="https://9takes.com/blog/enneagram/psychology">
+  <link rel="canonical" href="https://9takes.com/enneagram-corner/psychology">
 </svelte:head>
 
 <div class="scroll-table">

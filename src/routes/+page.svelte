@@ -13,25 +13,25 @@
 
 	const bentoItems = [
 		{
-			href: '/blog/community/introducing-9takes',
+			href: '/community/introducing-9takes',
 			img: 'greek-statue-introducing-9takes.webp',
 			alt: 'A scenic view of a person working on a computer in the jungle',
 			title: 'What makes 9takes different?'
 		},
 		{
-			href: '/blog/community/inspiration-for-9takes',
+			href: '/community/inspiration-for-9takes',
 			img: 'husband-and-wife.webp',
 			alt: 'husband and wife',
 			title: 'Why did I create 9takes?'
 		},
 		{
-			href: '/blog/enneagram/enneagram-tldr',
+			href: '/enneagram-corner/enneagram-tldr',
 			img: 'greek-dude-reading-book.webp',
 			alt: 'Greek dude reading book',
 			title: 'What is the Enneagram?'
 		},
 		{
-			href: '/blog/enneagram/philosophy-psychology-and-the-enneagram',
+			href: '/enneagram-corner/philosophy-psychology-and-the-enneagram',
 			img: 'freud-plato.webp',
 			alt: 'Sigmund Freud squaring off with Plato',
 			title: 'How is the Enneagram different?'

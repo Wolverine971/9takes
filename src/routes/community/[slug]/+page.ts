@@ -5,7 +5,7 @@ import { error } from '@sveltejs/kit';
 const MAX_POSTS = 6;
 
 export const load: PageLoad = async ({ params }) => {
-	const modules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(modules)) {
@@ -20,16 +20,22 @@ export const load: PageLoad = async ({ params }) => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					slug: slugFromPath(path),
-					...(post as unknown as App.MdsvexFile).metadata
-				} as App.BlogPost)
+			({
+				slug: slugFromPath(path),
+				...(post as unknown as App.MdsvexFile).metadata
+			} as App.BlogPost)
 		)
 	);
 
 	const posts = await Promise.all(postPromises);
 	const publishedPosts = posts
 		.filter((p) => p.published)
+		.filter(
+			(p) =>
+				(post?.metadata.enneagram &&
+					p?.enneagram === parseInt(post?.metadata.enneagram as string)) ||
+				(post?.metadata?.type[0] && p.type?.includes(post?.metadata.type[0]))
+		)
 		.filter((p) => params.slug !== p.slug)
 		.slice(0, MAX_POSTS);
 

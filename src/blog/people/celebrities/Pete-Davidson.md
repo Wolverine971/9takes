@@ -3,7 +3,7 @@ title: 'Pete Davidson Enneagram Type 9'
 description: 'Why Pete Davidson appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-06-20'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Pete-Davidson'
+loc: 'https://9takes.com/personality-analysis/Pete-Davidson'
 lastmod: '2023-06-20'
 changefreq: 'monthly'
 priority: '0.6'
@@ -80,7 +80,7 @@ Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in p
 
 ## The Nine's Humor: A Tool for Inner Peace
 
-One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/blog/famous-enneagram-types/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
+One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/personality-analysis/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
 
 Where is Pete Davidson from, you ask? Staten Island, New York. The loss of his firefighter father in the 9/11 attacks is a topic he's broached repeatedly in his stand-up routines, drawing on dark humor to help himself and others cope with the tragedy.
 
@@ -106,15 +106,15 @@ An analysis of Pete Davidson's net worth, boosted by movies, TV shows, and comed
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Pete:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Type 1s might find Davidson's casual and laid-back demeanor off-putting, interpreting it as a lack of discipline. However, they could also appreciate his dedication to his craft and his attempts at self-improvement, especially concerning his mental health.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Drawn to Davidson's vulnerability and openness about his struggles, Type 2s might feel an empathetic connection. They might see his use of humor as a coping mechanism and admire his resilience.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Type 3s could perceive Davidson's successful career as inspiring, appreciating his rise in the competitive field of comedy. However, they might question his coping strategies and frequent self-deprecation.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Resonating with Davidson's bouts of introspection and emotional intensity, Type 4s might appreciate his authenticity. They may connect with his raw, unfiltered humor that often draws from personal experiences.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Type 5s could find Davidson's candidness about his personal life intriguing. They might enjoy examining the deeper meaning behind his jokes, uncovering insights about his psyche and motivations.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Type 6s could find comfort in Davidson's loyalty and commitment in relationships. However, they may also worry about his impulsivity and apparent disregard for societal norms.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Sharing a love for humor, Type 7s might thoroughly enjoy Davidson's comedic style. They could also empathize with his battle against negative emotions and his pursuit of happiness.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Type 8s might admire Davidson's rebellious streak and his ability to push boundaries through comedy. However, they could question his approach to resolving conflict, which often involves suppressing anger.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Being of the same type, other Type 9s might deeply connect with Davidson. They could recognize his quest for inner peace, empathize with his suppressed anger, and appreciate his ability to merge with different personalities in his relationships.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Type 1s might find Davidson's casual and laid-back demeanor off-putting, interpreting it as a lack of discipline. However, they could also appreciate his dedication to his craft and his attempts at self-improvement, especially concerning his mental health.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Drawn to Davidson's vulnerability and openness about his struggles, Type 2s might feel an empathetic connection. They might see his use of humor as a coping mechanism and admire his resilience.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Type 3s could perceive Davidson's successful career as inspiring, appreciating his rise in the competitive field of comedy. However, they might question his coping strategies and frequent self-deprecation.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Resonating with Davidson's bouts of introspection and emotional intensity, Type 4s might appreciate his authenticity. They may connect with his raw, unfiltered humor that often draws from personal experiences.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Type 5s could find Davidson's candidness about his personal life intriguing. They might enjoy examining the deeper meaning behind his jokes, uncovering insights about his psyche and motivations.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s could find comfort in Davidson's loyalty and commitment in relationships. However, they may also worry about his impulsivity and apparent disregard for societal norms.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Sharing a love for humor, Type 7s might thoroughly enjoy Davidson's comedic style. They could also empathize with his battle against negative emotions and his pursuit of happiness.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s might admire Davidson's rebellious streak and his ability to push boundaries through comedy. However, they could question his approach to resolving conflict, which often involves suppressing anger.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Being of the same type, other Type 9s might deeply connect with Davidson. They could recognize his quest for inner peace, empathize with his suppressed anger, and appreciate his ability to merge with different personalities in his relationships.
 
 ## The Enneagram Lens: Seeing Pete Davidson Afresh
 
@@ -162,7 +162,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Pete-Davidson",
+        "@id": "https://9takes.com/personality-analysis/Pete-Davidson",
         "@type": "WebPage"
       },
       "mentions": {

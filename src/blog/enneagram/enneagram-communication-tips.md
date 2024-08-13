@@ -3,7 +3,7 @@ title: 'Tips for Communicating with Each Enneagram Type'
 description: 'Different personalities have subtle quirks in how they communicate, and in order to optimize your communication with them'
 author: 'DJ Wayne'
 date: '2023-02-27'
-loc: 'https://9takes.com/blog/enneagram/enneagram-communication-tips'
+loc: 'https://9takes.com/enneagram-corner/enneagram-communication-tips'
 lastmod: '2024-05-22'
 changefreq: 'monthly'
 priority: '0.6'
@@ -75,7 +75,7 @@ Type 1s are principled, ethical, and perfectionistic. They have a strong sense o
 - Avoid being overly critical or nitpicky.
 - Encourage them to relax and have fun.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -95,7 +95,7 @@ Type 2s are generous, caring, and nurturing. They have a strong desire to help o
 - Avoid being too critical or dismissive of their emotions.
 - Encourage them to take care of themselves and set boundaries.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -115,7 +115,7 @@ Type 3s are ambitious, competitive, and driven. They have a strong desire to suc
 - Avoid micromanaging or overly controlling them.
 - Encourage them to take breaks and rest.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -135,7 +135,7 @@ Type 4s are creative, emotional, and intuitive. They have a strong sense of indi
 - Validate their unique perspective and individuality.
 - Help them see the positive aspects of a situation.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -155,12 +155,12 @@ Type 5s are analytical, introspective, and independent. They have a strong desir
 - Emphasize the practical implications of a situation.
 - Encourage them to share their knowledge and expertise.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -179,7 +179,7 @@ Type 6s are loyal, responsible, and anxious. They have a strong desire for secur
 - Help them see the positive aspects of a situation.
 - Encourage them to make decisions and take action.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -199,7 +199,7 @@ Type 7s are enthusiastic, adventurous, and spontaneous. They have a strong desir
 - Avoid being too critical or negative.
 - Help them balance their desire for adventure with their responsibilities.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -219,7 +219,7 @@ Type 8s are powerful, assertive, and decisive. They have a strong desire for con
 - Encourage them to see different perspectives and be open to feedback.
 - Help them understand the impact of their actions on others.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -239,7 +239,7 @@ Type 9s are peaceful, easy-going, and accommodating. They have a strong desire f
 - Encourage them to speak up and assert themselves.
 - Help them make decisions and set boundaries.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -261,7 +261,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://9takes.com/blog/enneagram/enneagram-communication-tips"
+    "@id": "https://9takes.com/enneagram-corner/enneagram-communication-tips"
   },
   "headline": "Enneagram Practical Communication Tips",
   "image": {

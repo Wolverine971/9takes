@@ -3,7 +3,7 @@ title: 'Casey Neistat the endlessly creative Enneagram Type 4'
 description: 'Explore the world of Casey Neistat as a Type 4. Dive into his mind and inner chaos and stillness.'
 author: 'DJ Wayne'
 date: '2023-03-16'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Casey-Neistat'
+loc: 'https://9takes.com/personality-analysis/Casey-Neistat'
 lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -182,15 +182,15 @@ He enjoys ping ponging back and forth between the chaos and the quiet. This para
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Casey:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Perfectionists might appreciate Casey's attention to detail and meticulous work. However, they may need help with his seemingly chaotic lifestyle, not understanding his apparent lack of structure and routine.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Helpers might feel drawn to Casey's willingness to share personal experiences and vulnerabilities. They would be interested in his passions and motivations but may wish for him to be more community-oriented.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Achievers would resonate with Casey's entrepreneurial spirit, admiring his go-getter attitude. However, they may question his frequent distractions and need help understanding his need for introspection.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Individualists would feel deeply connected to Casey, understanding his quest for uniqueness, his love for chaos and solitude, and his desire for authentic self-expression. They'd see a bit of themselves in him.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Investigators would admire Casey's curiosity, a knack for exploring details, and insights. But, they might find his constant public exposure overwhelming, preferring a more private life.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists could appreciate Casey's dedication to his craft and loyal fanbase. Still, his unpredictable lifestyle could cause them unease due to their preference for predictability and security.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Enthusiasts would enjoy Casey's adventurous spirit and eclectic interests. They might envy his lifestyle, though they struggle to understand his frequent periods of introspection and solitude.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers would respect Casey's defiance of conventional norms, trailblazing filmmaking approach, and tenacity. However, they might not grasp his tendency to express vulnerabilities publicly.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers could appreciate Casey's storytelling, finding his narratives engaging and relatable. They might find his chaotic lifestyle draining, preferring more peace and tranquility.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Perfectionists might appreciate Casey's attention to detail and meticulous work. However, they may need help with his seemingly chaotic lifestyle, not understanding his apparent lack of structure and routine.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Helpers might feel drawn to Casey's willingness to share personal experiences and vulnerabilities. They would be interested in his passions and motivations but may wish for him to be more community-oriented.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Achievers would resonate with Casey's entrepreneurial spirit, admiring his go-getter attitude. However, they may question his frequent distractions and need help understanding his need for introspection.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists would feel deeply connected to Casey, understanding his quest for uniqueness, his love for chaos and solitude, and his desire for authentic self-expression. They'd see a bit of themselves in him.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators would admire Casey's curiosity, a knack for exploring details, and insights. But, they might find his constant public exposure overwhelming, preferring a more private life.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists could appreciate Casey's dedication to his craft and loyal fanbase. Still, his unpredictable lifestyle could cause them unease due to their preference for predictability and security.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Enthusiasts would enjoy Casey's adventurous spirit and eclectic interests. They might envy his lifestyle, though they struggle to understand his frequent periods of introspection and solitude.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers would respect Casey's defiance of conventional norms, trailblazing filmmaking approach, and tenacity. However, they might not grasp his tendency to express vulnerabilities publicly.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers could appreciate Casey's storytelling, finding his narratives engaging and relatable. They might find his chaotic lifestyle draining, preferring more peace and tranquility.
 
 <div
   style="display: flex;
@@ -250,7 +250,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Casey-Neistat",
+        "@id": "https://9takes.com/personality-analysis/Casey-Neistat",
         "@type": "WebPage"
       },
       "mentions": {

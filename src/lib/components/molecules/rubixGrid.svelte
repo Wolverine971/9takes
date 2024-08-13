@@ -136,7 +136,7 @@
 	{#each firstGroup as person, i}
 		<a
 			class="face front grid-item"
-			href={person.link ? `/blog/famous-enneagram-types/${person.name}` : '#'}
+			href={person.link ? `/personality-analysis/${person.name}` : '#'}
 		>
 			<div class="pop-card" title="">
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->

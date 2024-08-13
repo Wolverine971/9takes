@@ -3,7 +3,7 @@ title: 'Enneagram Type 8: The Challenger'
 description: "Discover the Challenger or Protector's self-confidence and assertive nature. Learn how Eights protect others and strive for control."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-8'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-8'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -105,7 +105,7 @@ They can also be stubborn and unwilling to compromise. Additionally, Type 8's ca
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -136,11 +136,11 @@ This looks like an 8 working out really hard so that someone cannot physically o
 
 Under duress, the normally assertive and action-oriented Type 8 may become uncharacteristically withdrawn, isolated, and detached.
 
-A type 8's stress number is 5. <a href="/blog/enneagram/enneagram-type-5">Type 5s</a> are analytical, independent, and private. When an 8 is stressed, they become more withdrawn and self-isolated from others. They may become cold and distant in their relationships. They might also struggle to say exactly what they feel, fearing their vulnerability not being well received.
+A type 8's stress number is 5. <a href="/enneagram-corner/enneagram-type-5">Type 5s</a> are analytical, independent, and private. When an 8 is stressed, they become more withdrawn and self-isolated from others. They may become cold and distant in their relationships. They might also struggle to say exactly what they feel, fearing their vulnerability not being well received.
 
 They may retreat into a world of intellectualization and analysis, becoming excessively preoccupied with their thoughts and ideas as a means of coping with stress. The stressed Type 8 might become more secretive and withholding, hoarding information and resources as a way to maintain a sense of control and power. They may also become more cynical and mistrustful, viewing others as potential threats to their autonomy and independence.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -187,7 +187,7 @@ To have a successful relationship with an Enneagram Type 8, it is essential to c
 
 If an Enneagram 8's partner can get at the 8's soft underbelly, it will be an excellent place for cuddles and warm feelings to come out.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -203,7 +203,7 @@ Enneagram Type 8 individuals in the workplace may struggle with authority figure
 
 To work successfully with an Enneagram Type 8 individual, it is essential to communicate clearly while respecting their need for autonomy and independence. Challenge them to tackle a tricky part of the business. The 8 will love the challenge. Establishing clear boundaries and expectations early on in the working relationship can also be helpful. This will help later when it comes time to collaborate and compromise. Additionally, it may be essential to provide Type 8 with opportunities to take on leadership roles and give them the freedom to exercise their problem-solving skills.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -310,7 +310,7 @@ Key takeaways from the video include:
         "Empathy"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-8",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-8",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Amber Heard: The Ambitious Type 3 Behind the Headlines'
 description: "Explore Amber Heard's Type 3 personality. Uncover how her drive, childhood, and inner world shape the actress beyond the controversy"
 author: 'DJ Wayne'
 date: '2024-07-10'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Amber-Heard'
+loc: 'https://9takes.com/personality-analysis/Amber-Heard'
 lastmod: '2024-07-10'
 changefreq: 'monthly'
 priority: '0.6'
@@ -151,7 +151,7 @@ What aspects of your own personality do you see reflected in Amber's story? And 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Amber-Heard",
+        "@id": "https://9takes.com/personality-analysis/Amber-Heard",
         "@type": "WebPage"
       },
       "mentions": {

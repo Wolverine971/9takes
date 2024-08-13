@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<link rel="canonical" href="https://9takes.com/blog/guides" />
+	<link rel="canonical" href="https://9takes.com/how-to-guides" />
 </svelte:head>
 
 <BlogPageHead
@@ -13,7 +13,7 @@
 		title: '9takes Guides',
 		description: 'Guides to various topics'
 	}}
-	slug={`blog/guides`}
+	slug={`how-to-guides`}
 />
 
 <div style="width: 100%;">
@@ -22,7 +22,7 @@
 	<div class="blog-grid-container temp-three-row">
 		{#each data.posts as blog}
 			<a
-				href={`/blog/guides/${blog.slug}`}
+				href={`/how-to-guides/${blog.slug}`}
 				class="grid-item inline-it"
 				style={blog.pic &&
 					`background-image: url(${`/blogs/s-${blog.pic}.webp`}); background-size: cover;`}

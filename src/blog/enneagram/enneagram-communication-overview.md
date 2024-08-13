@@ -3,7 +3,7 @@ title: 'Enneagram Communication Overview'
 description: 'How to communicate and interact effectively with different Enneagram types'
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/enneagram-communication-overview'
+loc: 'https://9takes.com/enneagram-corner/enneagram-communication-overview'
 lastmod: '2024-02-03'
 changefreq: 'monthly'
 priority: '0.6'
@@ -69,7 +69,7 @@ Ones are principled, ethical, and perfectionistic. They value order, structure, 
 - **Communication Style:** Precise, values-driven, sometimes critical.
 - **Empathy Pointer:** Appreciate their desire for improvement and order.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -84,7 +84,7 @@ Twos are caring, generous, and empathetic. They value relationships and are driv
 - **Communication Style:** Warm, supportive, can struggle with directness.
 - **Empathy Pointer:** Acknowledge their contributions and need for appreciation.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -99,7 +99,7 @@ Threes are ambitious, competitive, and driven. They value success, recognition, 
 - **Communication Style:** Efficient, goal-focused, sometimes image-conscious.
 - **Empathy Pointer:** Recognize their achievements and authenticity.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -114,12 +114,12 @@ Fours are creative, expressive, and introspective. They value authenticity, orig
 - **Communication Style:** Emotional, expressive, seeks depth.
 - **Empathy Pointer:** Validate their feelings and uniqueness.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -133,7 +133,7 @@ Fives are analytical, independent, and private. They value knowledge, expertise,
 - **Communication Style:** Analytical, reserved, curious.
 - **Empathy Pointer:** Respect their need for independence and thought.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -148,7 +148,7 @@ Sixes are loyal, responsible, and anxious. They value security, stability, and s
 - **Communication Style:** Loyal, questioning, can be anxious.
 - **Empathy Pointer:** Build trust and offer reassurance.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -163,7 +163,7 @@ Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, varie
 - **Communication Style:** Optimistic, scattered, enthusiastic.
 - **Empathy Pointer:** Engage their ideas and zest for life.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -178,7 +178,7 @@ Eights are powerful, assertive, and confrontational. They value strength, contro
 - **Communication Style:** Direct, confrontational, protective.
 - **Empathy Pointer:** Acknowledge their strength and vulnerability.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -193,7 +193,7 @@ Nines are peaceful, accommodating, and harmonious. They value unity, cooperation
 - **Communication Style:** Agreeable, passive, sometimes indirect.
 - **Empathy Pointer:** Encourage self-expression and personal stance.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -240,7 +240,7 @@ Let's use the Enneagram to enhance our personal and professional lives through b
       "headline": "How to communicate and interact effectively with different Enneagram types",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "url": "https://9takes.com/blog/enneagram/communication-overview"
+        "url": "https://9takes.com/enneagram-corner/communication-overview"
       },
       "mentions": {
               "@type": "Thing",

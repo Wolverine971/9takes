@@ -3,7 +3,7 @@ title: 'Lex Fridman: Unraveling the Enneagram Type 5 Mind'
 description: 'Dive into the curious world of Lex Fridman, exploring how his Enneagram Type 5 personality shapes his podcast, research, and unique approach to life and learning.'
 author: 'DJ Wayne'
 date: '2023-07-23'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Lex-Fridman'
+loc: 'https://9takes.com/personality-analysis/Lex-Fridman'
 lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
@@ -66,7 +66,7 @@ Lex's journey to becoming a household name in the tech and AI world wasn't overn
 
 His work at MIT on human-robot interaction laid the groundwork for his future success. But it was his podcast that truly catapulted him into the spotlight.
 
-<a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, a frequent guest and friend, once said of Lex:
+<a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>, a frequent guest and friend, once said of Lex:
 
 "**He's one of the smartest guys I know. He has this unique ability to make complex topics accessible and interesting.**"
 
@@ -112,7 +112,7 @@ Lex's accomplishments are numerous, but let's focus on a couple that really high
 
 Lex's podcast isn't just popular – it's a cultural phenomenon. With guests ranging from tech titans to philosophers, it's a testament to his broad interests and ability to connect with diverse minds.
 
-<a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a>, who is a recurring guest, once said:
+<a href="/personality-analysis/Elon-Musk">Elon Musk</a>, who is a recurring guest, once said:
 
 "Talking with Lex is always enlightening. He has a way of getting to the heart of complex issues."
 
@@ -199,7 +199,7 @@ As we've peeled back the layers of Lex's personality, one question remains: How 
     "Observer personality"
   ],
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman",
+    "@id": "https://9takes.com/personality-analysis/Lex-Fridman",
     "@type": "WebPage"
   },
   "mentions": {
@@ -218,7 +218,7 @@ As we've peeled back the layers of Lex's personality, one question remains: How 
         },
         "name": "9takes"
       },
-  "url": "https://9takes.com/blog/famous-enneagram-types/Lex-Fridman"
+  "url": "https://9takes.com/personality-analysis/Lex-Fridman"
 }
 </script>
 

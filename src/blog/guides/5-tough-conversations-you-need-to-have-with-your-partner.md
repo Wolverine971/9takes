@@ -3,7 +3,7 @@ title: '5 Tough Conversations to Have With Your Partner or YNGMI'
 description: "Open Communication, avoiding pitfalls and understanding each other's emotions are baseline requirements for any relationship"
 author: 'DJ Wayne'
 date: '2024-05-08'
-loc: 'https://9takes.com/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner'
+loc: 'https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner'
 lastmod: '2024-05-21'
 changefreq: 'monthly'
 priority: '0.6'

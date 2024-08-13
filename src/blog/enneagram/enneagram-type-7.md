@@ -3,7 +3,7 @@ title: 'Enneagram Type 7: The Enthusiast'
 description: "Uncover the Enthusiast or Epicure's lust for life and adventurous spirit. Explore how Sevens seek joy and avoid emotional pain."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-7'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-7'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -96,7 +96,7 @@ Type 7 individuals possess several strengths that make them valuable team or com
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -129,11 +129,11 @@ Finally, Type 7s may also fear experiencing difficult or painful emotions. They 
 
 Under stress, the usually spontaneous and fun-loving Type 7 may become uncharacteristically rigid, critical, and perfectionistic.
 
-Their stress number is Type 1. <a href="/blog/enneagram/enneagram-type-1">Type 1s</a> are normally principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking.
+Their stress number is Type 1. <a href="/enneagram-corner/enneagram-type-1">Type 1s</a> are normally principled, ethical, and perfectionistic. When they're under stress, they might become more critical and judgmental of themselves and others and rigid and inflexible in their thinking.
 
 They may feel a strong need to control their environment and the people around them, driven by a fear of things spiraling out of control. The stressed Type 7 might become overly serious and judgmental, setting unrealistically high standards for themselves and others. They may also become more self-critical, focusing on their own perceived shortcomings and failures, which can lead to feelings of frustration, anger, and resentment.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -170,7 +170,7 @@ However, Type 7s can also struggle with staying committed to long-term relations
 
 To help Type 7s thrive in relationships, they need a partner who shares their sense of adventure and is willing to explore new things. It is also helpful for their partner to be patient and understanding when they become restless or distracted. It can be beneficial for Type 7s to learn to embrace difficult emotions and work on developing deeper connections with their partner rather than just seeking out new experiences.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -184,7 +184,7 @@ However, Type 7s sometimes need help following through on commitments and stayin
 
 To help Type 7s thrive in the workplace, providing them with various tasks and opportunities to learn new things can be helpful. It can also be beneficial to provide regular check-ins to help them stay on track with their goals and commitments. Additionally, it can encourage them to take breaks and engage in activities that promote creativity and imagination.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -263,7 +263,7 @@ In this panel discussion, Enneagram expert Beatrice Chestnut sits down with a gr
         "Personality"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-7",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-7",
         "@type": "WebPage"
       },
       "publisher": {

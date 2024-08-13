@@ -3,7 +3,7 @@ title: 'Enneagram Party Planner: Customize Your Invites in 9 Ways'
 description: 'Learn the Enneagram dynamics in party planning, craft perfect invites for each personality type, ensuring unforgettable events.'
 author: 'DJ Wayne'
 date: '2023-12-09'
-loc: 'https://9takes.com/blog/enneagram/enneagram-party-planner'
+loc: 'https://9takes.com/enneagram-corner/enneagram-party-planner'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -290,7 +290,7 @@ Now that we have the invites down, lets look what the ideal party looks like for
 
 Hopefully this helps you throw a great party!
 
-Go here to dive deeper and see [how each Enneagram type behaves at a party](/blog/enneagram/enneagram-types-at-party).
+Go here to dive deeper and see [how each Enneagram type behaves at a party](/enneagram-corner/enneagram-types-at-party).
 
 <svelte:head>
 
@@ -331,7 +331,7 @@ Go here to dive deeper and see [how each Enneagram type behaves at a party](/blo
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-party-planner",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-party-planner",
         "@type": "WebPage"
       },
       "publisher": {

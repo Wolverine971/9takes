@@ -3,7 +3,7 @@ title: 'Khloé Kardashian An Enneagram type 6'
 description: 'Why Khloé Kardashian appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-07-25'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Khloe-Kardashian'
+loc: 'https://9takes.com/personality-analysis/Khloe-Kardashian'
 lastmod: '2023-07-25'
 changefreq: 'monthly'
 priority: '0.6'
@@ -69,9 +69,9 @@ One of the most prominent examples of Khloé's Type 6 tendencies emerged during 
 
 ## Seeking Guidance in Relationships
 
-One of the defining traits of Type 6 individuals is their tendency to seek guidance and support from others. This often manifests in their relationships. For Khloé, her relationships, particularly with her sisters Kim, <a href="/blog/famous-enneagram-types/Kylie-Jenner" >Kylie</a>, and <a href="/blog/famous-enneagram-types/Kourtney-Kardashian" >Kourtney</a>, play a pivotal role in her life. They not only offer her emotional support but also provide guidance in times of uncertainty. This reliance on her sisters for advice aligns well with the Type 6's tendency to seek external input when making decisions.
+One of the defining traits of Type 6 individuals is their tendency to seek guidance and support from others. This often manifests in their relationships. For Khloé, her relationships, particularly with her sisters Kim, <a href="/personality-analysis/Kylie-Jenner" >Kylie</a>, and <a href="/personality-analysis/Kourtney-Kardashian" >Kourtney</a>, play a pivotal role in her life. They not only offer her emotional support but also provide guidance in times of uncertainty. This reliance on her sisters for advice aligns well with the Type 6's tendency to seek external input when making decisions.
 
-Consider her relationship with sister <a href="/blog/famous-enneagram-types/Kim-Kardashian" >Kim Kardashian</a>, who Khloé often turns to for advice and support, especially during difficult periods. Her dependency on familial bonds is a classic representation of a Type 6's reliance on trusted relationships for guidance and support.
+Consider her relationship with sister <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a>, who Khloé often turns to for advice and support, especially during difficult periods. Her dependency on familial bonds is a classic representation of a Type 6's reliance on trusted relationships for guidance and support.
 
 ## Controversies and Drama: A Test of Loyalty
 
@@ -83,15 +83,15 @@ However, her persistent loyalty also serves as a testament to a Type 6's struggl
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Khloé Kardashian:
 
-- **[Type 6- The Perfectionist](/blog/enneagram/enneagram-type-6)** - The Perfectionist might admire Khloé's tenacity in the face of adversity. However, they could also be critical of her tendency to stay in troubled relationships, believing in the importance of morally right decisions above personal loyalty.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - The Helper may resonate with Khloé's loyalty and her unwavering support for her family. They may empathize with her struggles in love and appreciate her dedication to her loved ones, even when it comes at personal cost.
-- **[Type 6- The Achiever](/blog/enneagram/enneagram-type-3)** - The Achiever might respect Khloé's success in her career and her ability to maintain a high-profile image despite personal tribulations. They might see her as an example of turning hardship into triumph.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - The Individualist may identify with Khloé's emotional depth and her public display of vulnerabilities. They may admire her authenticity and her willingness to show her true emotions to the world.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - The Investigator might be intrigued by Khloé's complex personality and the dichotomy between her public persona and private life. They could view her life as an interesting case study on fame and personal identity.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Fellow Loyalists may deeply resonate with Khloé's journey. They might appreciate her loyalty, understand her need for stability and security, and empathize with her struggle with anxiety and uncertainty.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - The Enthusiast might be drawn to Khloé's charismatic persona and her ability to keep a positive attitude despite adversity. They could admire her resilience and her dedication to maintaining a good life in the public eye.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - The Challenger might respect Khloé's strength and determination, admiring her willingness to confront difficult situations head-on. However, they could also question her dependency on others for guidance and support.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - The Peacemaker may empathize with Khloé's desire for harmony in her relationships. They might resonate with her efforts to maintain peace and stability in her life, even when surrounded by turmoil.
+- **[Type 6- The Perfectionist](/enneagram-corner/enneagram-type-6)** - The Perfectionist might admire Khloé's tenacity in the face of adversity. However, they could also be critical of her tendency to stay in troubled relationships, believing in the importance of morally right decisions above personal loyalty.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - The Helper may resonate with Khloé's loyalty and her unwavering support for her family. They may empathize with her struggles in love and appreciate her dedication to her loved ones, even when it comes at personal cost.
+- **[Type 6- The Achiever](/enneagram-corner/enneagram-type-3)** - The Achiever might respect Khloé's success in her career and her ability to maintain a high-profile image despite personal tribulations. They might see her as an example of turning hardship into triumph.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - The Individualist may identify with Khloé's emotional depth and her public display of vulnerabilities. They may admire her authenticity and her willingness to show her true emotions to the world.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - The Investigator might be intrigued by Khloé's complex personality and the dichotomy between her public persona and private life. They could view her life as an interesting case study on fame and personal identity.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Fellow Loyalists may deeply resonate with Khloé's journey. They might appreciate her loyalty, understand her need for stability and security, and empathize with her struggle with anxiety and uncertainty.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - The Enthusiast might be drawn to Khloé's charismatic persona and her ability to keep a positive attitude despite adversity. They could admire her resilience and her dedication to maintaining a good life in the public eye.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - The Challenger might respect Khloé's strength and determination, admiring her willingness to confront difficult situations head-on. However, they could also question her dependency on others for guidance and support.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - The Peacemaker may empathize with Khloé's desire for harmony in her relationships. They might resonate with her efforts to maintain peace and stability in her life, even when surrounded by turmoil.
 
 ## A Loyalist in the Limelight
 
@@ -139,7 +139,7 @@ Curious about the personalities of other famous individuals? Interested in seein
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Khloe-Kardashian",
+        "@id": "https://9takes.com/personality-analysis/Khloe-Kardashian",
         "@type": "WebPage"
       },
       "mentions": {

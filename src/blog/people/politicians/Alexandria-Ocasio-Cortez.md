@@ -3,7 +3,7 @@ title: 'Alexandria Ocasio-Cortez: The Fearless Type 6 Congresswoman'
 description: "Uncover how AOC's Enneagram Type 6 personality fuels her bold politics. From Bronx bartender to Congress, explore the mind behind the movement."
 author: 'DJ Wayne'
 date: '2024-05-06'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Alexandria-Ocasio-Cortez'
+loc: 'https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez'
 lastmod: '2024-05-06'
 changefreq: 'monthly'
 priority: '0.6'
@@ -83,7 +83,7 @@ Counterphobic Sixes, instead of retreating from their fears, charge headlong int
 
 ### Taking on Titans: AOC vs. Elon Musk
 
-A prime example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
+A prime example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="/personality-analysis/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
 
 "**Lmao at a billionaire earnestly trying to sell people on the idea that 'free speech' is actually a $8/mo subscription plan,**" AOC tweeted, taking a direct jab at Musk's Twitter Blue subscription model.
 
@@ -186,7 +186,7 @@ As we've seen, understanding AOC through the lens of the Enneagram offers fascin
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Alexandria-Ocasio-Cortez",
+        "@id": "https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez",
         "@type": "WebPage"
       },
       "mentions": {

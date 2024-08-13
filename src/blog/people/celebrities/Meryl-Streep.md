@@ -3,7 +3,7 @@ title: 'Meryl Streep: An Empathetic Enneagram Type 2'
 description: 'Discover the inner world of Meryl Streep, the iconic actress and Enneagram Type 2. Explore her empathetic nature, versatility, and activism behind her roles.'
 author: 'DJ Wayne'
 date: '2024-05-07'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Meryl-Streep'
+loc: 'https://9takes.com/personality-analysis/Meryl-Streep'
 lastmod: '2024-05-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -169,7 +169,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
                 "width": 900
             },
             "mainEntityOfPage": {
-                "@id": "https://9takes.com/blog/famous-enneagram-types/Meryl-Streep",
+                "@id": "https://9takes.com/personality-analysis/Meryl-Streep",
                 "@type": "WebPage"
             },
             "mentions": {

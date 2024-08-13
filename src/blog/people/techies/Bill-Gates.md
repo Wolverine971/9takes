@@ -3,7 +3,7 @@ title: 'Bill Gates Enneagram Type 5'
 description: 'Why Bill Gates appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Bill-Gates'
+loc: 'https://9takes.com/personality-analysis/Bill-Gates'
 lastmod: '2023-04-19'
 changefreq: 'monthly'
 priority: '0.6'
@@ -127,7 +127,7 @@ But what about you? How does understanding Gates through the lens of the Enneagr
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Bill-Gates",
+        "@id": "https://9takes.com/personality-analysis/Bill-Gates",
         "@type": "WebPage"
       },
       "mentions": {

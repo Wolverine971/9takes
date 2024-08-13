@@ -3,7 +3,7 @@ title: 'Jack Dorsey Enneagram Type 5'
 description: 'Why Jack Dorsey appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-08-11'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey'
+loc: 'https://9takes.com/personality-analysis/Jack-Dorsey'
 lastmod: '2023-08-11'
 changefreq: 'monthly'
 priority: '0.6'
@@ -117,39 +117,39 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jack:
 
 <article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>They might see Dorsey as someone who has reshaped communication norms with Twitter, appreciating his innovative approach. However, they might critique him for not adhering to stricter content guidelines on the platform.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+	<a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>Type 2s could admire Dorsey's efforts in building tools (like Square) to aid small businesses. They might see him as someone helping to democratize communication and commerce.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+	<a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>They could view Dorsey as a role model for achieving groundbreaking success in the tech world, establishing not one but two iconic brands. His work ethic and innovation might inspire them.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>Type 4s might resonate with the individuality and uniqueness of Dorsey's platforms. They might appreciate Twitter as a medium that gives a voice to individual emotions and narratives.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+	<a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>They'd likely identify with Dorsey's introspective nature and his deep dives into understanding complex systems before creating solutions. They might view him as a fellow seeker of knowledge.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>Loyalists might have mixed feelings. While they'd appreciate Dorsey's loyalty to his brands, they might also be wary of the unpredictability of platforms like Twitter and its influence on public sentiment.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+	<a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>Type 7s would likely celebrate the dynamism and ever-evolving nature of Twitter, embracing its pace and diversity. They'd see Dorsey as someone who's brought excitement to digital communication.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+	<a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>Challengers might admire Dorsey for his audacity to challenge communication norms and create platforms that wield significant power. They'd respect his leadership and influence.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+	<a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>Type 9s might appreciate Twitter as a space for diverse voices and perspectives. However, they might also wish for more harmonious interactions on the platform and would hope Dorsey pushes for that direction.</p>
 </article>
 
@@ -197,7 +197,7 @@ And now, a question for you: What drives the personalities behind your favorite 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Jack-Dorsey",
+        "@id": "https://9takes.com/personality-analysis/Jack-Dorsey",
         "@type": "WebPage"
       },
       "about": [

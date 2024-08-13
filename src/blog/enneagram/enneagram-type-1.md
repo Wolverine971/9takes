@@ -3,7 +3,7 @@ title: 'Enneagram Type 1: The Perfectionist'
 description: "Discover the Perfectionist or Reformer's traits, strengths, and challenges. Learn how Ones strive for integrity and excellence."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-1'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-1'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -109,7 +109,7 @@ Here are some other things Type 1s struggle with:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -146,11 +146,11 @@ Here are some of the typical motivations of Type 1 personalities:
 
 Under stress, the typically rational and principled Type 1 may become uncharacteristically emotional, moody, and self-absorbed.
 
-Their stress number is <a href="/blog/enneagram/enneagram-type-4">Type 4s</a>. Type 4s are normally creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions.
+Their stress number is <a href="/enneagram-corner/enneagram-type-4">Type 4s</a>. Type 4s are normally creative, emotional, and intuitive. When they're under stress, they might become moody and depressed and isolate themselves from others. They might also become more self-critical and judgmental and have difficulty accepting and expressing their emotions.
 
 They may feel a sense of despair and hopelessness, focusing on their own perceived flaws and shortcomings, which can lead to intense feelings of shame and worthlessness. The stressed Type 1 might become more withdrawn and introspective, dwelling on their negative emotions and struggling to find meaning or purpose in their lives. They may also become more critical of themselves and others, expressing their dissatisfaction through biting sarcasm or cynical remarks.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -190,7 +190,7 @@ They strive for perfection in all areas of their lives, including relationships.
 - They may struggle with expressing vulnerability and emotions
 - They can be critical of their partners if they feel they are not meeting their high standards
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -207,7 +207,7 @@ They make excellent leaders and are often respected for their work ethic and com
 - They have a strong sense of ethics and are known for making ethical decisions
 - They are detail-oriented and excel in roles that require attention to detail
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -306,7 +306,7 @@ Key insights include:
         "development"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-1",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-1",
         "@type": "WebPage"
       },
       "publisher": {

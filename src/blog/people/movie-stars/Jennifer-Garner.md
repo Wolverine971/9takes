@@ -3,7 +3,7 @@ title: 'Jennifer Garner Enneagram Type 3'
 description: 'Why Jennifer Garner appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-12-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Jennifer-Garner'
+loc: 'https://9takes.com/personality-analysis/Jennifer-Garner'
 lastmod: '2023-12-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -125,7 +125,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Jennifer-Garner",
+        "@id": "https://9takes.com/personality-analysis/Jennifer-Garner",
         "@type": "WebPage"
       },
       "mentions": {

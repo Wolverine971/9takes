@@ -3,7 +3,7 @@ title: 'The Definitive Guide to Relationship Conflict [Part 2]'
 description: 'Part 2 of Navigating relationship conflicts. Resolve disagreements, avoid pitfalls, and gain skills for better conflict resolution.'
 author: 'DJ Wayne'
 date: '2023-08-24'
-loc: 'https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2'
+loc: 'https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2'
 lastmod: '2024-05-13'
 changefreq: 'monthly'
 priority: '0.6'
@@ -20,7 +20,7 @@ internal and external conflict
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">This blog picks up where <a href="/blog/guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off.</p>
+<p class="firstLetter">This blog picks up where <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1" >Part 1</a> left off.</p>
 
 ## Common Questions
 
@@ -200,7 +200,7 @@ conflict resolution exercises for couples -->
       "description": "Discover how to navigate relationship conflicts effectively. Learn what healthy conflict is, how to resolve disagreements when both parties feel strongly, and practical exercises to improve your conflict resolution skills.",
       "headline": "The Definitive Guide to Dealing with Relationship Conflict: Part 2",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/guides/definitive-guide-to-relationship-conflict-part-2",
+        "@id": "https://9takes.com/how-to-guides/definitive-guide-to-relationship-conflict-part-2",
         "@type": "WebPage"
       },
       "image":{

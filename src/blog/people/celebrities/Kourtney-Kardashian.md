@@ -3,7 +3,7 @@ title: 'Kourtney Kardashian An Enneagram Type 1'
 description: 'Why Kourtney Kardashian appears to be a type 1'
 author: 'DJ Wayne'
 date: '2023-07-24'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian'
+loc: 'https://9takes.com/personality-analysis/Kourtney-Kardashian'
 lastmod: '2023-07-24'
 changefreq: 'monthly'
 priority: '0.6'
@@ -70,7 +70,7 @@ Her devotion to clean eating, natural products, and a rigid exercise regimen is 
 
 ## Assertive Moral Compass
 
-Moreover, Kourtney's assertive moral compass comes to light during moments of family controversies. When her sister <a href="/blog/famous-enneagram-types/Kim-Kardashian">Kim</a> lost her diamond earring in the ocean, Kourtney's response was not of sympathy, but rather a stern reminder of their privileged life - "Kim, there's people that are dying." This incidence mirrors the rationality and ethical sense of a Type 1, who can't ignore the bigger picture for petty grievances.
+Moreover, Kourtney's assertive moral compass comes to light during moments of family controversies. When her sister <a href="/personality-analysis/Kim-Kardashian">Kim</a> lost her diamond earring in the ocean, Kourtney's response was not of sympathy, but rather a stern reminder of their privileged life - "Kim, there's people that are dying." This incidence mirrors the rationality and ethical sense of a Type 1, who can't ignore the bigger picture for petty grievances.
 
 ## Need for Order and Control
 
@@ -80,7 +80,7 @@ Lastly, Kourtney's need for order and control, another typical Type 1 trait, is 
 
 The Type 1 personality traits further differentiate Kourtney from her sisters.
 
-While Kim, <a href="/blog/famous-enneagram-types/Khloe-Kardashian">Khloé</a>, and <a href="/blog/famous-enneagram-types/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
+While Kim, <a href="/personality-analysis/Khloe-Kardashian">Khloé</a>, and <a href="/personality-analysis/Kylie-Jenner">Kylie</a> may be more flamboyant and spontaneous, Kourtney's more reserved, orderly approach contrasts sharply. This difference has often been a source of drama and conflict, as seen in their reality show, "Keeping Up with the Kardashians."
 
 ## The Downside: Dealing with Controversies and Criticism
 
@@ -96,15 +96,15 @@ A significant part of a Type 1's journey is learning to embrace imperfection, an
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kourtney Kardashian:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Fellow perfectionists might admire Kourtney's discipline and dedication to a 'right' way of living. Her passion for health, order, and ethical living resonates with their own pursuit of perfection.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Type 2s might appreciate Kourtney's nurturing side as a mother, yet they may also wish she expressed more empathy and warmth in her interactions with others.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - As achievers, they would respect Kourtney's success in her business ventures and personal branding. However, they might view her rigidity as a hindrance to flexibility and adaptability.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Individualists might connect with Kourtney's non-conformist approach to life and admire her commitment to authenticity. They might also empathize with her struggle for self-improvement.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Investigators, being private and cerebral, might appreciate Kourtney's introspective moments and her inclination towards privacy, compared to her more public siblings.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists may admire Kourtney's dedication to her family and values. However, they might also worry about her potential for conflict due to her rigid adherence to principles.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - As enthusiasts, they might find Kourtney's lifestyle inspiring and exciting. However, her seriousness and focus on perfection could come off as restrictive to their carefree nature.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers might respect Kourtney's assertive stance in personal matters and conflicts. However, they might wish for more flexibility and willingness to compromise from her.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Peacemakers might feel uncomfortable with Kourtney's strict adherence to principles, which sometimes leads to conflicts. They may wish for more harmony and peace in her interactions.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Fellow perfectionists might admire Kourtney's discipline and dedication to a 'right' way of living. Her passion for health, order, and ethical living resonates with their own pursuit of perfection.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s might appreciate Kourtney's nurturing side as a mother, yet they may also wish she expressed more empathy and warmth in her interactions with others.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - As achievers, they would respect Kourtney's success in her business ventures and personal branding. However, they might view her rigidity as a hindrance to flexibility and adaptability.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Individualists might connect with Kourtney's non-conformist approach to life and admire her commitment to authenticity. They might also empathize with her struggle for self-improvement.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Investigators, being private and cerebral, might appreciate Kourtney's introspective moments and her inclination towards privacy, compared to her more public siblings.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists may admire Kourtney's dedication to her family and values. However, they might also worry about her potential for conflict due to her rigid adherence to principles.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - As enthusiasts, they might find Kourtney's lifestyle inspiring and exciting. However, her seriousness and focus on perfection could come off as restrictive to their carefree nature.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers might respect Kourtney's assertive stance in personal matters and conflicts. However, they might wish for more flexibility and willingness to compromise from her.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Peacemakers might feel uncomfortable with Kourtney's strict adherence to principles, which sometimes leads to conflicts. They may wish for more harmony and peace in her interactions.
 
 ## Wrapping up Kourtney as a Type 1
 
@@ -152,7 +152,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Kourtney-Kardashian",
+        "@id": "https://9takes.com/personality-analysis/Kourtney-Kardashian",
         "@type": "WebPage"
       },
       "mentions": {

@@ -3,7 +3,7 @@ title: 'Ronald Reagan Enneagram Type 9'
 description: 'Why Ronald Reagan appears to be a type 9'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Ronald-Reagan'
+loc: 'https://9takes.com/personality-analysis/Ronald-Reagan'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -55,7 +55,7 @@ Type 9s are known for their calm demeanor and ability to remain composed under p
 
 Enneagram Type 9s place a high value on unity and often seek to create a sense of oneness among people. Reagan's "Morning in America" campaign was a prime example of this. He emphasized the idea of Americans working together towards a common goal and painted a positive vision for the future.
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Nancy-Reagan">Nancy Reagan.</a>
+Check out this blog for an analysis of <a href="/personality-analysis/Nancy-Reagan">Nancy Reagan.</a>
 
 <svelte:head>
 

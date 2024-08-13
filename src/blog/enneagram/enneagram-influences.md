@@ -3,7 +3,7 @@ title: 'Enneagram Influences: Exploring the Differing Traditions'
 description: 'Explore the different schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.'
 author: 'DJ Wayne'
 date: '2023-03-02'
-loc: 'https://9takes.com/blog/enneagram/enneagram-influences'
+loc: 'https://9takes.com/enneagram-corner/enneagram-influences'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -72,7 +72,7 @@ The idea of dividing the human psyche into categories or "types" can be traced b
 
 The concept of personality types also has roots in early psychology, such as <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.simplypsychology.org/psyche.html" title="Explaining Freud's theory from simplypsychology.org">Freud's theories of the id, ego, and superego</a>. Freud’s id represents the primitive and instinctual desires of an individual, which can be likened to the Enneagram’s concept of instincts. The ego, on the other hand, is the rational and decision-making aspect of the psyche, which corresponds to the Enneagram’s idea of the head. Finally, the superego represents the moral and ethical aspect of the psyche, which aligns with the Enneagram’s concept of the heart. Additionally, the Enneagram's centers of intelligence can be linked to Carl Jung's ideas of thinking, feeling, and sensing types.
 
-<a href="/blog/enneagram/philosophy-psychology-and-the-enneagram" title="How philosophy and psychology gave birth to the Enneagram">More about Freud and Plato here</a>
+<a href="/enneagram-corner/philosophy-psychology-and-the-enneagram" title="How philosophy and psychology gave birth to the Enneagram">More about Freud and Plato here</a>
 
 Why did early psychology develop these ideas further? 🤷
 
@@ -114,7 +114,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course you a
       "description": "Explore the different traditions and schools of thought that have influenced the development of the Enneagram, a tool for self-discovery and spiritual growth.",
       "headline": "Enneagram Influences: Differing Traditions and Schools of Thought",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-influences",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-influences",
         "@type": "WebPage"
       },
       "mentions": [

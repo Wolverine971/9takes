@@ -3,7 +3,7 @@ title: "Ray Dalio's Principles Part 2 Section 4: How People are Wired Differentl
 description: ''
 author: 'DJ Wayne'
 date: '2023-05-04'
-loc: 'https://9takes.com/blog/community/Dalio-Principles'
+loc: 'https://9takes.com/community/Dalio-Principles'
 lastmod: '2023-04-23'
 changefreq: 'monthly'
 priority: '0.6'

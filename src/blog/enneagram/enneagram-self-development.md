@@ -3,7 +3,7 @@ title: 'Enneagram Self Development'
 description: 'How the Enneagram can be used for personal growth and self-improvement'
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/enneagram-self-development'
+loc: 'https://9takes.com/enneagram-corner/enneagram-self-development'
 lastmod: '2024-05-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -207,7 +207,7 @@ Call-to-action: Join the 9takes community for more insights
   },
   "keywords": "Enneagram, personal growth, self-improvement, decision-making, emotional awareness, goals, fears, self-awareness, compassion, empathy, relationships",
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-self-development",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-self-development",
     "@type": "WebPage"
   },
   "mentions": {

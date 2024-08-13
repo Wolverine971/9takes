@@ -3,7 +3,7 @@ title: 'Enneagram Strengths and Weaknesses'
 description: "Uncover each Enneagram type's strengths and weaknesses. Learn about energizers, drainers, and how to leverage your unique traits."
 author: 'DJ Wayne'
 date: '2023-05-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses'
+loc: 'https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses'
 lastmod: '2024-05-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -73,7 +73,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 1 may excel in a job that requires precision, such as accounting or engineering. However, their perfectionism can cause them to become overly critical of themselves and others, leading to strained relationships and burnout.
 
-[More on type 1](/blog/enneagram/enneagram-type-1)
+[More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -91,7 +91,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 2 may thrive in a career that involves helping others, such as counseling or social work. However, their desire to be needed may cause them to neglect their needs, leading to resentment and burnout.
 
-[More on type 2](/blog/enneagram/enneagram-type-2)
+[More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -109,7 +109,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 3 may excel in a competitive career, such as sales or entrepreneurship. However, their focus on success and achievement can cause them to neglect their relationships and well-being, leading to feelings of isolation and burnout.
 
-[More on type 3](/blog/enneagram/enneagram-type-3)
+[More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -127,12 +127,12 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 4 may excel in a career that allows them to express their creativity, such as writing or art. However, their focus on their emotions can cause them to become overly self-absorbed, leading to loneliness and disconnection from others.
 
-[More on type 4](/blog/enneagram/enneagram-type-4)
+[More on type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -149,7 +149,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 5 may excel in a career that requires deep thinking and analysis, such as research or academia. However, their desire for privacy and independence can cause them to withdraw from social interactions, leading to isolation and loneliness.
 
-[More on type 5](/blog/enneagram/enneagram-type-5)
+[More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -167,7 +167,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 6 may excel in a career that requires a strong sense of responsibility and commitment, such as law enforcement or military service. However, their tendency towards anxiety and fear can cause them to become overly cautious and hesitant, leading to missed opportunities and indecisiveness.
 
-[More on type 6](/blog/enneagram/enneagram-type-6)
+[More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -185,7 +185,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 7 may excel in a career that allows them to explore new ideas and experiences, such as travel or entrepreneurship. However, their tendency towards distraction and lack of focus can cause them to neglect important tasks and responsibilities, leading to a lack of success and achievement.
 
-[More on type 7](/blog/enneagram/enneagram-type-7)
+[More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -203,7 +203,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 8 may excel in a career that requires assertiveness and confidence, such as politics or business. However, their tendency towards aggression and control can cause them to become overly dominant and intimidating, leading to conflicts and power struggles.
 
-[More on type 8](/blog/enneagram/enneagram-type-8)
+[More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -221,13 +221,13 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 9 may excel in a career that requires mediation and conflict resolution, such as counseling or diplomacy. However, their tendency towards indecisiveness and lack of assertiveness can cause them to neglect their needs and desires, leading to dissatisfaction and unhappiness.
 
-[More on type 9](/blog/enneagram/enneagram-type-9)
+[More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
 <h2 id="conclusion">Conclusion</h2>
 
-Hopefully this was insightful. Check this out for more on <a style="font-weight: bold;" href="/blog/enneagram/enneagram-self-development" > self-development and personal growth</a>.
+Hopefully this was insightful. Check this out for more on <a style="font-weight: bold;" href="/enneagram-corner/enneagram-self-development" > self-development and personal growth</a>.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
 
@@ -269,7 +269,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
     "personal growth"
   ],
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses",
     "@type": "WebPage"
   },
   "mentions": {
@@ -287,7 +287,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
     "name": "9takes",
     "url": "https://9takes.com"
   },
-  "url": "https://9takes.com/blog/enneagram/enneagram-strengths-and-weaknesses"
+  "url": "https://9takes.com/enneagram-corner/enneagram-strengths-and-weaknesses"
   },
   {
       "@type": "FAQPage",

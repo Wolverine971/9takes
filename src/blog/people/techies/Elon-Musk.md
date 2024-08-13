@@ -3,7 +3,7 @@ title: 'Elon Musk: Inside the Mind of an Enneagram Type 5'
 description: 'Dive into the psyche of Elon Musk. Discover how his investigative nature shapes his world-changing ventures and quirky persona.'
 author: 'DJ Wayne'
 date: '2023-09-03'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Elon-Musk'
+loc: 'https://9takes.com/personality-analysis/Elon-Musk'
 lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
@@ -113,7 +113,7 @@ Peter Thiel, who worked with Elon at PayPal, observed: "**He's the most risk-ave
 
 ### Insatiable Curiosity
 
-Elon's curiosity knows no bounds. In a podcast with <a href="/blog/famous-enneagram-types/Lex-Fridman">Lex Fridman</a>, he mused, "I think it's important to reason from first principles rather than by analogy... It takes a lot more mental energy." This approach is quintessential Type 5 – always digging deeper, never satisfied with surface-level understanding.
+Elon's curiosity knows no bounds. In a podcast with <a href="/personality-analysis/Lex-Fridman">Lex Fridman</a>, he mused, "I think it's important to reason from first principles rather than by analogy... It takes a lot more mental energy." This approach is quintessential Type 5 – always digging deeper, never satisfied with surface-level understanding.
 
 ### Workaholic Tendencies
 
@@ -133,7 +133,7 @@ Talulah Riley, Elon's second (and third) wife, once said, "I remember him saying
 
 ### Grimes: A Creative Collision
 
-Elon's relationship with musician <a href="/blog/famous-enneagram-types/Grimes">Grimes</a> seemed to break the mold. Their shared interest in AI, space, and futurism appeared to create a meeting of minds that went beyond his previous partnerships.
+Elon's relationship with musician <a href="/personality-analysis/Grimes">Grimes</a> seemed to break the mold. Their shared interest in AI, space, and futurism appeared to create a meeting of minds that went beyond his previous partnerships.
 
 Grimes once described their connection: "We've had this amazing debate about AI and computing... It's not like a celebrity thing where you're just writing about what they're eating." This intellectual stimulation is precisely what draws a Type 5 into a relationship.
 
@@ -173,7 +173,7 @@ This struggle between deep competence in some areas and potential blind spots in
 
 Recently, Elon has been focused on Neuralink, his brain-computer interface company, and the development of AI. These projects align perfectly with the Type 5's desire to expand the boundaries of human knowledge and capability.
 
-In a conversation with <a href="/blog/famous-enneagram-types/Joe-Rogan">Joe Rogan</a>, Elon said, "I think we should be very careful about artificial intelligence. If I had to guess at what our biggest existential threat is, it's probably that." This cautious approach to potentially world-changing technology is classic Type 5 – always considering the long-term consequences of actions.
+In a conversation with <a href="/personality-analysis/Joe-Rogan">Joe Rogan</a>, Elon said, "I think we should be very careful about artificial intelligence. If I had to guess at what our biggest existential threat is, it's probably that." This cautious approach to potentially world-changing technology is classic Type 5 – always considering the long-term consequences of actions.
 
 ## Conclusion
 
@@ -219,7 +219,7 @@ As we watch Elon's continued efforts to push the boundaries of human achievement
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Elon-Musk",
+        "@id": "https://9takes.com/personality-analysis/Elon-Musk",
         "@type": "WebPage"
       },
       "mentions": {

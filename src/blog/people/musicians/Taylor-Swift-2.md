@@ -3,7 +3,7 @@ title: 'test Taylor Swift An Enneagram Type 4'
 description: 'Why Taylor Swift appears to be a type 4'
 author: 'DJ Wayne'
 date: '2023-09-24'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Taylor-Swift-2'
+loc: 'https://9takes.com/personality-analysis/Taylor-Swift-2'
 lastmod: '2023-09-24'
 changefreq: 'monthly'
 priority: '0.6'
@@ -114,15 +114,15 @@ Songs like "The Archer" or "Delicate" showcase Swift's vulnerability. She's unaf
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Taylor Swift:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - They might appreciate Swift's attention to detail in her music while also being critical of her public controversies, viewing them as a deviation from an ideal, "perfect" image.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Likely empathizing with Swift's emotional lyrics, they may admire her philanthropic work but feel concerned for her well-being amidst public feuds and media scrutiny.
-- **[Type 4- The Achiever](/blog/enneagram/enneagram-type-3)** - As fellow Achievers, they would resonate with Swift's drive for success and her resilience in overcoming adversity. They'd likely admire her for turning challenges into opportunities.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Drawn to the authenticity and depth in Swift's lyrics, they might also identify with her moments of feeling misunderstood or different, often themes in her music.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Intrigued by the clever storytelling in Swift's music, they'd appreciate the layers and nuances in her songs. But, they may maintain a distance from her public image and controversies.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - They could feel connected with Swift's loyalty to her fans and her determination in the face of adversity. Yet, they might also worry about her well-being amidst the highs and lows of her career.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Drawn to Swift's upbeat, catchy tunes and the variety in her music, they'd likely admire her for her ability to reinvent herself with each album.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Impressed by Swift's assertiveness in protecting her work and standing her ground in controversies, they might view her as an influential figure who's not afraid to take control.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - While the harmony in Swift's melodies might soothe them, they could feel uncomfortable with the conflicts surrounding her, wishing for more peace and unity in her narrative.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They might appreciate Swift's attention to detail in her music while also being critical of her public controversies, viewing them as a deviation from an ideal, "perfect" image.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Likely empathizing with Swift's emotional lyrics, they may admire her philanthropic work but feel concerned for her well-being amidst public feuds and media scrutiny.
+- **[Type 4- The Achiever](/enneagram-corner/enneagram-type-3)** - As fellow Achievers, they would resonate with Swift's drive for success and her resilience in overcoming adversity. They'd likely admire her for turning challenges into opportunities.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Drawn to the authenticity and depth in Swift's lyrics, they might also identify with her moments of feeling misunderstood or different, often themes in her music.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Intrigued by the clever storytelling in Swift's music, they'd appreciate the layers and nuances in her songs. But, they may maintain a distance from her public image and controversies.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - They could feel connected with Swift's loyalty to her fans and her determination in the face of adversity. Yet, they might also worry about her well-being amidst the highs and lows of her career.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Drawn to Swift's upbeat, catchy tunes and the variety in her music, they'd likely admire her for her ability to reinvent herself with each album.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Impressed by Swift's assertiveness in protecting her work and standing her ground in controversies, they might view her as an influential figure who's not afraid to take control.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - While the harmony in Swift's melodies might soothe them, they could feel uncomfortable with the conflicts surrounding her, wishing for more peace and unity in her narrative.
 
 ## Wrap up
 
@@ -170,7 +170,7 @@ Join us at 9takes - a community that values the exploration of personalities and
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Taylor-Swift",
+        "@id": "https://9takes.com/personality-analysis/Taylor-Swift",
         "@type": "WebPage"
       },
       "mentions": {

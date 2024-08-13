@@ -72,9 +72,9 @@
 
 					<ul class="dropdown {dropdownActive ? 'is-active' : ''}">
 						<li style="display: inline-flex;">
-							<a href="/blog/community" class="a-wrap">
+							<a href="/community" class="a-wrap">
 								<div
-									class={$page.url.pathname === '/blog/community' ? 'active-link' : ''}
+									class={$page.url.pathname === '/community' ? 'active-link' : ''}
 									style="text-align: start"
 								>
 									9takes Inspiration
@@ -82,9 +82,9 @@
 							</a>
 						</li>
 						<li style="display: inline-flex;">
-							<a href="/blog/enneagram" class="a-wrap">
+							<a href="/enneagram-corner" class="a-wrap">
 								<div
-									class={$page.url.pathname === '/blog/enneagram' ? 'active-link' : ''}
+									class={$page.url.pathname === '/enneagram-corner' ? 'active-link' : ''}
 									style="text-align: start;"
 								>
 									Enneagram Blogs
@@ -92,9 +92,9 @@
 							</a>
 						</li>
 						<li style="display: inline-flex;">
-							<a href="/blog/famous-enneagram-types" class="a-wrap">
+							<a href="/personality-analysis" class="a-wrap">
 								<div
-									class={$page.url.pathname === '/blog/famous-enneagram-types' ? 'active-link' : ''}
+									class={$page.url.pathname === '/personality-analysis' ? 'active-link' : ''}
 									style="text-align: start"
 								>
 									Famous Enneagram Types
@@ -103,9 +103,9 @@
 						</li>
 
 						<li style="display: inline-flex;">
-							<a href="/blog/guides" class="a-wrap">
+							<a href="/how-to-guides" class="a-wrap">
 								<div
-									class={$page.url.pathname === '/blog/guides' ? 'active-link' : ''}
+									class={$page.url.pathname === '/how-to-guides' ? 'active-link' : ''}
 									style="text-align: start;"
 								>
 									Guides

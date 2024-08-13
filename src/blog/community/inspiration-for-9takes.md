@@ -3,7 +3,7 @@ title: 'What Was The Inspiration For 9takes?'
 description: 'TLDR: My wife and I were fighting, and we went to a counselor which led to personality tests (Enneagram)'
 author: 'DJ Wayne'
 date: '2023-06-17'
-loc: 'https://9takes.com/blog/community/inspiration-for-9takes'
+loc: 'https://9takes.com/community/inspiration-for-9takes'
 lastmod: '2024-04-18'
 changefreq: 'monthly'
 priority: '0.6'
@@ -11,7 +11,7 @@ published: true
 type: ['inspiration']
 blog: true
 previewHtml: ''
-pic: 'husband-and-wife'
+pic: 'husband-and-wife-arguing'
 ---
 
 <svelte:head>
@@ -28,7 +28,7 @@ pic: 'husband-and-wife'
     margin: 1rem 0;"
 >
  <PopCard
-        image={`/blogs/husband-and-wife.webp`}
+        image={`/blogs/husband-and-wife-arguing.webp`}
         showIcon={false}
         tint={false}
         displayText=""
@@ -53,7 +53,7 @@ At the time, many topics of conversation would quickly lead to yelling and/or te
 
 We were being triggered and rushing to conclusions.
 
-Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison](/blog/enneagram/enneagram-vs-meyers-briggs)).
+Over time, we zeroed in on our differences by taking personality tests. Intellectually, we knew we were different, but we would get surprised every time the other person didn't see things our way. The personality tests started to give us language around our thoughts and feelings. We started with the MBTI and then moved on to the Enneagram because it went deeper, uncovering our emotional baggage ([MBTI and Enneagram comparison](/enneagram-corner/enneagram-vs-meyers-briggs)).
 
 As we started diving deep into all these personality layers, listening became the most important skill that we were developing.
 
@@ -140,7 +140,7 @@ I only started making progress when I started asking them questions.
 
 <!-- //here -->
 
-How are they similar or different from the other people in their lives? <a href="/blog/famous-enneagram-types" >What celebrity are they similar to?</a> If you start thinking about that, you can quickly get into discussions about personality. The responses usually fell into two broad categories:
+How are they similar or different from the other people in their lives? <a href="/personality-analysis" >What celebrity are they similar to?</a> If you start thinking about that, you can quickly get into discussions about personality. The responses usually fell into two broad categories:
 
 - "I am too unique, and no one is like me"
 - "I am like everyone else, everyone is the same"
@@ -160,7 +160,7 @@ I checked out Reddit and Discord and scoured every internet community I could fi
 
 I felt like I had to build the thing I wanted.
 
-I wanted to explore personality, specifically the <a href="/blog/enneagram/enneagram-tldr">Enneagram</a>. I wanted to create a space where people could share their fears and motivations. I wanted to help people understand each other. I wanted to help other people who were fighting, like my wife and I. I wanted to create a place where people could openly share their opinions or **takes**.
+I wanted to explore personality, specifically the <a href="/enneagram-corner/enneagram-tldr">Enneagram</a>. I wanted to create a space where people could share their fears and motivations. I wanted to help people understand each other. I wanted to help other people who were fighting, like my wife and I. I wanted to create a place where people could openly share their opinions or **takes**.
 
 The Enneagram has nine core personality types, which inspired me to use the name 9 takes, **9takes**. For every question that is asked, you can get at least 9 takes.
 

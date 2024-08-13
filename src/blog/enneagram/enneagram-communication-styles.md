@@ -3,7 +3,7 @@ title: 'The 9 Unique Communication Styles of Each Enneagram Type'
 description: 'Explore the different communication styles of Enneagram types 1-9. Enhance your interactions and interpersonal connections through understanding.'
 author: 'DJ Wayne'
 date: '2023-03-26'
-loc: 'https://9takes.com/blog/enneagram/enneagram-communication-styles'
+loc: 'https://9takes.com/enneagram-corner/enneagram-communication-styles'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -252,7 +252,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
  <article class="section-content">
@@ -648,7 +648,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-communication-styles",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-communication-styles",
         "@type": "WebPage"
       },
       "mentions": {

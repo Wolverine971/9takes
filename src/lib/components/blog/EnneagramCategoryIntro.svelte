@@ -15,7 +15,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/overview',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/overview',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: ''
@@ -41,7 +41,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -83,12 +83,12 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 
@@ -111,7 +111,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/nine-types',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/nine-types',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 's-greek-statues-working-in-teams'
@@ -137,7 +137,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -169,13 +169,13 @@
 			<h2>Related Subsections</h2>
 			<ul>
 				<li>
-					<a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a>
+					<a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a>
 				</li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 
@@ -199,7 +199,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/development',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/development',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 'Self-awareness-and-Self-understanding'
@@ -227,7 +227,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -270,10 +270,10 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 
@@ -296,7 +296,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/relationships',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/relationships',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 'greek-statues-having-an-intimate-conversation'
@@ -324,7 +324,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -366,12 +366,12 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 
@@ -394,7 +394,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/workplace',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/workplace',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 'greek-statues-disagreeing'
@@ -423,7 +423,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -455,12 +455,12 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
 			</ul>
 		</section>
 
@@ -483,7 +483,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/resources',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/resources',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 'greek-dude-reading-book'
@@ -512,7 +512,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -527,14 +527,14 @@
 				{/each}
 			</div>
 			<!-- <ul>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Books</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Courses and Workshops</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Podcasts</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Online Communities and Forums</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Assessment Tools</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Coaching and Therapy Resources</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Apps and Software</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Research and Academic Resources</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Books</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Courses and Workshops</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Podcasts</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Online Communities and Forums</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Assessment Tools</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Coaching and Therapy Resources</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Apps and Software</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Research and Academic Resources</a></li>
             </ul> -->
 		</section>
 
@@ -554,13 +554,13 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 
@@ -582,7 +582,7 @@
 			slug: slug,
 			author: 'DJ Wayne',
 			date: '2024-05-09',
-			loc: 'https://9takes.com/blog/enneagram/subtopic/situational',
+			loc: 'https://9takes.com/enneagram-corner/subtopic/situational',
 			lastmod: '2024-05-09',
 			blog: true,
 			pic: 'greek-statue-flex'
@@ -608,7 +608,7 @@
 			<div class="blog-grid-container temp-three-row">
 				{#each blogs as eBlog}
 					<a
-						href="/blog/enneagram/{eBlog.slug}"
+						href="/enneagram-corner/{eBlog.slug}"
 						class="grid-item inline-it"
 						style={eBlog.pic &&
 							`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -623,14 +623,14 @@
 				{/each}
 			</div>
 			<!-- <ul>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types Under Stress</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types in Conflict</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types and Decision-Making</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types and Problem-Solving</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types in Leadership Roles</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types in Romantic Relationships</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types as Parents</a></li>
-                <li><a href="/blog/enneagram/subtopic">Enneagram Types in Times of Change and Uncertainty</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types Under Stress</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Conflict</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types and Decision-Making</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types and Problem-Solving</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Leadership Roles</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Romantic Relationships</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types as Parents</a></li>
+                <li><a href="/enneagram-corner/subtopic">Enneagram Types in Times of Change and Uncertainty</a></li>
             </ul> -->
 		</section>
 
@@ -650,13 +650,13 @@
 		<section id="related-subsections">
 			<h2>Related Subsections</h2>
 			<ul>
-				<li><a href="/blog/enneagram/subtopic/overview">Understanding the Enneagram</a></li>
-				<li><a href="/blog/enneagram/subtopic/nine-types">The Nine Enneagram Types</a></li>
+				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
+				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/blog/enneagram/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
 				</li>
-				<li><a href="/blog/enneagram/subtopic/relationships">The Enneagram in Relationships</a></li>
-				<li><a href="/blog/enneagram/subtopic/workplace">The Enneagram in the Workplace</a></li>
+				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
 

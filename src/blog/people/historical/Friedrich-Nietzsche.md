@@ -3,7 +3,7 @@ title: 'Friedrich Nietzsche An Enneagram type 5'
 description: 'Why Friedrich Nietzsche appears to be a type 5'
 author: 'DJ Wayne'
 date: '2023-07-25'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Friedrich-Nietzsche'
+loc: 'https://9takes.com/personality-analysis/Friedrich-Nietzsche'
 lastmod: '2023-07-25'
 changefreq: 'monthly'
 priority: '0.6'
@@ -94,15 +94,15 @@ Nietzsche’s philosophical writings often betray a detached, aloof emotional st
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Friedrich Nietzsche:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - Type 1s, drawn to moral integrity, might find Nietzsche's moral relativism unsettling. Yet, they might also appreciate his critical exploration of morality and ethics.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - Type 2s could be intrigued by Nietzsche's deep thought and introspection but find his lack of emotional expression hard to connect with.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - Nietzsche's independent thinking and intellectual accomplishments might be admired by Type 3s, though they may struggle to understand his disinterest in societal recognition.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Type 4s might identify with Nietzsche's sense of individuality and introspective nature. They could be drawn to his deep explorations of human existence.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - As fellow investigators, Type 5s would likely resonate with Nietzsche's insatiable curiosity, intellectual autonomy, and love for solitude
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Type 6s may find Nietzsche's radical ideas challenging, given their desire for security and skepticism towards new ideas. However, they might admire his courage to challenge societal norms.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - Type 7s, drawn to new experiences, might appreciate Nietzsche's innovative philosophical ideas, but struggle with his somber, introspective demeanor.
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Type 8s would likely admire Nietzsche's courage to confront societal norms. They may resonate with his fierce intellectual independence.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - Type 9s could find Nietzsche's controversial ideas disruptive to their desire for harmony. Nonetheless, they may appreciate his exploration of human experience, which could deepen their understanding of different perspectives.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Type 1s, drawn to moral integrity, might find Nietzsche's moral relativism unsettling. Yet, they might also appreciate his critical exploration of morality and ethics.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s could be intrigued by Nietzsche's deep thought and introspection but find his lack of emotional expression hard to connect with.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Nietzsche's independent thinking and intellectual accomplishments might be admired by Type 3s, though they may struggle to understand his disinterest in societal recognition.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Type 4s might identify with Nietzsche's sense of individuality and introspective nature. They could be drawn to his deep explorations of human existence.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - As fellow investigators, Type 5s would likely resonate with Nietzsche's insatiable curiosity, intellectual autonomy, and love for solitude
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s may find Nietzsche's radical ideas challenging, given their desire for security and skepticism towards new ideas. However, they might admire his courage to challenge societal norms.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Type 7s, drawn to new experiences, might appreciate Nietzsche's innovative philosophical ideas, but struggle with his somber, introspective demeanor.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s would likely admire Nietzsche's courage to confront societal norms. They may resonate with his fierce intellectual independence.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Type 9s could find Nietzsche's controversial ideas disruptive to their desire for harmony. Nonetheless, they may appreciate his exploration of human experience, which could deepen their understanding of different perspectives.
 
 ## In Closing
 
@@ -150,7 +150,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Friedrich-Nietzsche",
+        "@id": "https://9takes.com/personality-analysis/Friedrich-Nietzsche",
         "@type": "WebPage"
       },
       "mentions": {

@@ -158,7 +158,7 @@
 			I got married during a stressful time when I was leaving the military. My wife and I were
 			fighting, and it got to a point where we felt helpless in resolving our conflict. We loved
 			each other, but we could not understand each other. Long story short,
-			<a href="/blog/community/inspiration-for-9takes" style="font-size: 1.1rem;">
+			<a href="/community/inspiration-for-9takes" style="font-size: 1.1rem;">
 				my wife convinced me to take a personality test</a
 			>.
 		</p>
@@ -242,7 +242,7 @@
 	<h3 style="margin: .5rem 0; padding: .2rem 0;">Why the Enneagram?</h3>
 	<p>
 		Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
-		and philosophy. <a href="/blog/enneagram/philosophy-psychology-and-the-enneagram">
+		and philosophy. <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">
 			Plato and Freud would have been fans of the Enneagram.
 		</a>
 		It is used by niche life coaches and as a tool for certain psychologists and therapists. But it is

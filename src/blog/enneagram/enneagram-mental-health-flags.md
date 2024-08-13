@@ -3,7 +3,7 @@ title: '9 Enneagram Mental Health Flags: A Guide to Early Intervention'
 description: 'If You See Something, Say Something: Mental Health Red Flags Through the Enneagram Lens'
 author: 'DJ Wayne'
 date: '2024-07-12'
-loc: 'https://9takes.com/blog/enneagram/enneagram-mental-health-flags'
+loc: 'https://9takes.com/enneagram-corner/enneagram-mental-health-flags'
 lastmod: '2024-07-15'
 changefreq: 'monthly'
 priority: '0.6'
@@ -81,7 +81,7 @@ Ones often struggle with intense self-criticism and a fear of making mistakes. T
 
 This approach acknowledges their efforts while gently challenging their perfectionism. You'll know you're being helpful if they agree to try the challenge. A positive sign is when they start using phrases like "It's not perfect, but it's good enough."
 
-<a href="/blog/enneagram/enneagram-type-1">More on Type One</a>
+<a href="/enneagram-corner/enneagram-type-1">More on Type One</a>
 
 ## Type 2: The Helper's Hidden Cry for Help
 
@@ -105,7 +105,7 @@ Twos often struggle with setting boundaries and acknowledging their own needs. T
 
 This suggestion shows that you value their company while encouraging self-care. You're being helpful if they agree to prioritize themselves. A positive sign is when they start expressing their needs without guilt.
 
-<a href="/blog/enneagram/enneagram-type-2">More on Type Two</a>
+<a href="/enneagram-corner/enneagram-type-2">More on Type Two</a>
 
 ## Type 3: The Achiever's Authenticity Alarm
 
@@ -129,7 +129,7 @@ Threes often struggle with tying their self-worth to achievements. This can lead
 
 This suggestion acknowledges their work ethic while encouraging balance. You're being helpful if they agree to disconnect. A positive sign is when they start sharing personal feelings rather than just achievements.
 
-<a href="/blog/enneagram/enneagram-type-3">More on Type Three</a>
+<a href="/enneagram-corner/enneagram-type-3">More on Type Three</a>
 
 ## Type 4: The Individualist's Emotional Tsunami Warning
 
@@ -152,10 +152,10 @@ For feelings of brokenness: Start a daily 'unique strength' sharing practice
 
 This suggestion validates their emotional depth while gently encouraging variety. You're being helpful if they engage with the challenge. A positive sign is when they start expressing a wider range of emotions in their creative work.
 
-<a href="/blog/enneagram/enneagram-type-4">More on Type Four</a>
+<a href="/enneagram-corner/enneagram-type-4">More on Type Four</a>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 ## Type 5: The Investigator's Information Overload Alert
@@ -180,7 +180,7 @@ For hypothetical fixation: Propose small, low-risk real-world experiments
 
 This suggestion engages their intellectual interests while encouraging social interaction. You're being helpful if they agree to discuss a book. A positive sign is when they start relating book topics to personal experiences.
 
-<a href="/blog/enneagram/enneagram-type-5">More on Type Five</a>
+<a href="/enneagram-corner/enneagram-type-5">More on Type Five</a>
 
 ## Type 6: The Loyalist's Anxiety Alarm System
 
@@ -204,7 +204,7 @@ For physical symptoms: Suggest a fidget toy or stress ball as a healthier altern
 
 This approach acknowledges their concern while introducing a tool for perspective. You're being helpful if they engage in probability assessment. A positive sign is when they start independently evaluating the likelihood of their worries.
 
-<a href="/blog/enneagram/enneagram-type-6">More on Type Six</a>
+<a href="/enneagram-corner/enneagram-type-6">More on Type Six</a>
 
 ## Type 7: The Enthusiast's Escape Hatch Alert
 
@@ -228,7 +228,7 @@ For restlessness: Teach simple meditation techniques, starting with just 1 minut
 
 This suggestion channels their enthusiasm while encouraging follow-through. You're being helpful if they agree to focus on one trip. A positive sign is when they start finding joy in the planning process, not just the idea of the trip.
 
-<a href="/blog/enneagram/enneagram-type-7">More on Type Seven</a>
+<a href="/enneagram-corner/enneagram-type-7">More on Type Seven</a>
 
 ## Type 8: The Challenger's Vulnerability Fortress Alarm
 
@@ -252,7 +252,7 @@ For risky behavior: Introduce controlled, challenging physical activities like r
 
 This challenge appeals to their competitive nature while encouraging softer communication. You're being helpful if they engage in the challenge. A positive sign is when they start expressing vulnerability without perceiving it as weakness.
 
-<a href="/blog/enneagram/enneagram-type-8">More on Type Eight</a>
+<a href="/enneagram-corner/enneagram-type-8">More on Type Eight</a>
 
 ## Type 9: The Peacemaker's Disappearing Act Alert
 
@@ -276,7 +276,7 @@ For mimicry: Encourage exploration of new hobbies that are uniquely theirs
 
 This approach gently encourages assertiveness. You're being helpful if they make a decision. A positive sign is when they start expressing preferences without prompting.
 
-<a href="/blog/enneagram/enneagram-type-9">More on Type Nine</a>
+<a href="/enneagram-corner/enneagram-type-9">More on Type Nine</a>
 
 ## Turning Observation into Action
 
@@ -332,7 +332,7 @@ What red flags have you noticed in yourself or others? How has understanding per
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-mental-health-flags",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-mental-health-flags",
         "@type": "WebPage"
       },
       "publisher": {

@@ -3,7 +3,7 @@ title: 'Enneagram Type 2: The Helper'
 description: "Explore the Helper or Giver's empathetic and caring nature. Understand how Twos prioritize others' needs and seek love."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-2'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-2'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -110,7 +110,7 @@ These include:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -141,11 +141,11 @@ They seek to find their self-worth through the validation of others. The Helper 
 
 The usually caring and accommodating Type 2 under stress may become uncharacteristically aggressive, domineering, and confrontational.
 
-Their stress number is Type 8. <a href="/blog/enneagram/enneagram-type-8">Type 8s</a> are normally powerful, assertive, and confrontational. When they're under stress, they become more aggressive and controlling, as well as overprotective and demanding of others.
+Their stress number is Type 8. <a href="/enneagram-corner/enneagram-type-8">Type 8s</a> are normally powerful, assertive, and confrontational. When they're under stress, they become more aggressive and controlling, as well as overprotective and demanding of others.
 
 Type 2s may feel a need to take control of situations and people, driven by a fear of being vulnerable or taken advantage of. The stressed Type 2 might become excessively blunt and direct in their communication, disregarding others' feelings and coming across as insensitive or even ruthless. They may also have a short temper and become easily irritated, lashing out at others when they feel threatened or unsupported.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -182,7 +182,7 @@ They are warm and friendly, with a natural charisma that draws people to them. T
 
 However, their desire to be needed can also lead to unhealthy relationship dynamics. Type 2 personalities may struggle to express their needs and emotions, leading to resentment and unmet needs. They may also become overly dependent on their relationships, leading to codependency and an inability to function independently.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -192,7 +192,7 @@ Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">othe
 
 Type 2 personalities are highly attuned to the emotions and needs of their colleagues and may go out of their way to help others. They are empathetic, nurturing, and have a natural gift for emotional support and practical assistance. However, their desire to be needed can also lead to a tendency to neglect their own needs, leading to burnout and resentment. Type 2 personalities can benefit from focusing on self-care and setting healthy boundaries to avoid becoming overwhelmed and ensure their own needs are met.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -293,7 +293,7 @@ In this video, Beatrice Chestnut hosts a panel discussion with several individua
         "Development"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-2",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-2",
         "@type": "WebPage"
       },
       "publisher": {

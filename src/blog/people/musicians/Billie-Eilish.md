@@ -3,7 +3,7 @@ title: 'Billie Eilish Enneagram Type 4'
 description: "Explore Billie's inner world and how her ease with darkness and melancholy, reflect the traits of an Enneagram Type 4 personality."
 author: 'DJ Wayne'
 date: '2023-06-17'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Billie-Eilish'
+loc: 'https://9takes.com/personality-analysis/Billie-Eilish'
 lastmod: '2023-10-17'
 changefreq: 'monthly'
 priority: '0.6'
@@ -90,7 +90,7 @@ Billie Eilish has talked about her having an identity crisis. Her choice of bagg
 
 <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Enneagram/comments/bkyew7/billie_eilish_embodying_type_4_for_11_minutes/">Reddit</a> went off on Billie talking about how this video personified Billie being a 4.
 
-But Billie's music is a gateway to her inner world. She channels her emotional complexities into her songs. Her raw, personal musical narratives offer a glimpse into the Enneagram Type 4's desire for authentic self-expression. She has received praises from the other Enneagram 4s, such as <a href="/blog/famous-enneagram-types/Elton-John" >Elton John</a>, who likely sees himself in her. He senses a genuine emotional articulation for which 4s are on an endless quest.
+But Billie's music is a gateway to her inner world. She channels her emotional complexities into her songs. Her raw, personal musical narratives offer a glimpse into the Enneagram Type 4's desire for authentic self-expression. She has received praises from the other Enneagram 4s, such as <a href="/personality-analysis/Elton-John" >Elton John</a>, who likely sees himself in her. He senses a genuine emotional articulation for which 4s are on an endless quest.
 
 ## She is not afraid to go dark
 
@@ -107,39 +107,39 @@ In her song, she sings, “I could lie, say I like it like that,” hinting that
 ## How Each Enneagram Type Perceives Billie Eilish
 
 <article>
-    <a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>May admire Billie's dedication to authenticity yet find her edgy style and provocative imagery could be more coherent and unrestrained.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+    <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>Likely to empathize with Billie's emotional expressions in her music and appreciate her vulnerability, wanting to offer support.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+    <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>Could be impressed by Billie's early success and unique brand, seeing her as a young achiever who carved out her niche in the music industry.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>May deeply resonate with Billie’s exploration of emotions and authentic self-expression, finding a kindred spirit in her creative work.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+    <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>Might be intrigued by the depth and complexity of Billie’s lyrics, appreciating the thoughtfulness behind her music.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+    <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>Could find comfort in the community of Billie fans who share similar emotional experiences, appreciating her honesty in addressing fears and anxieties in her music.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+    <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>Might be drawn to Billie’s energetic performances and innovative music videos, enjoying the creativity and excitement she brings to the pop scene.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+    <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>May respect Billie's boldness in expressing her individuality and challenging industry norms, appreciating her strength in standing up for what she believes in.</p>
 </article>
 <article>
-    <a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+    <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>Likely to appreciate Billie’s softer ballads that promote introspection and self-reflection, finding solace in her more tranquil tunes.</p>
 </article>
 
@@ -197,7 +197,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "http://schema.org/width": 900
       },
       "http://schema.org/mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Billie-Eilish",
+        "@id": "https://9takes.com/personality-analysis/Billie-Eilish",
         "@type": "http://schema.org/WebPage"
       },
       "http://schema.org/mentions": {

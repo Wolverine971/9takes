@@ -123,121 +123,121 @@ export async function GET() {
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram</loc>
+	    <loc>https://9takes.com/enneagram-corner</loc>
 	    <lastmod>2024-07-14</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/overview</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/overview</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/nine-types</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/nine-types</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/development</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/development</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/relationships</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/workplace</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/workplace</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/resources</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/resources</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/enneagram/subtopic/situational</loc>
+	    <loc>https://9takes.com/enneagram-corner/subtopic/situational</loc>
 	    <lastmod>2024-05-04</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/guides</loc>
+	    <loc>https://9takes.com/how-to-guides</loc>
 	    <lastmod>2024-04-07</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/community</loc>
+	    <loc>https://9takes.com/community</loc>
 	    <lastmod>2024-04-13</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types</loc>
+	    <loc>https://9takes.com/personality-analysis</loc>
 	    <lastmod>2024-07-15</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/1</loc>
+	    <loc>https://9takes.com/personality-analysis/type/1</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/2</loc>
+	    <loc>https://9takes.com/personality-analysis/type/2</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/3</loc>
+	    <loc>https://9takes.com/personality-analysis/type/3</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/4</loc>
+	    <loc>https://9takes.com/personality-analysis/type/4</loc>
 	    <lastmod>2024-07-15</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/5</loc>
+	    <loc>https://9takes.com/personality-analysis/type/5</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/6</loc>
+	    <loc>https://9takes.com/personality-analysis/type/6</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/7</loc>
+	    <loc>https://9takes.com/personality-analysis/type/7</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/8</loc>
+	    <loc>https://9takes.com/personality-analysis/type/8</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
-	    <loc>https://9takes.com/blog/famous-enneagram-types/type/9</loc>
+	    <loc>https://9takes.com/personality-analysis/type/9</loc>
 	    <lastmod>2024-05-05</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
@@ -250,10 +250,10 @@ export async function GET() {
 	</url>
 
 	  ${posts
-			.map((post) => {
-				if (post.loc.includes('famous-enneagram-types')) {
-					if (post.person && post.enneagram) {
-						return `		
+				.map((post) => {
+					if (post.loc.includes('personality-analysis')) {
+						if (post.person && post.enneagram) {
+							return `		
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -264,8 +264,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-					} else {
-						return `
+						} else {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -273,16 +273,16 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
+						}
 					}
-				}
 
-				if (
-					post.loc.includes('enneagram') ||
-					post.loc.includes('guides') ||
-					post.loc.includes('community')
-				) {
-					if (post.pic) {
-						return `
+					if (
+						post.loc.includes('enneagram') ||
+						post.loc.includes('guides') ||
+						post.loc.includes('community')
+					) {
+						if (post.pic) {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -293,8 +293,8 @@ export async function GET() {
 		</image:image>
 	  </url>
 	  `;
-					} else {
-						return `
+						} else {
+							return `
 	  <url>
 	    <loc>${post.loc}</loc>
 	    <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -302,9 +302,9 @@ export async function GET() {
 	    <priority>0.7</priority>
 	  </url>
 	  `;
-					}
-				} else {
-					return `
+						}
+					} else {
+						return `
 							<url>
 							  <loc>${post.loc}</loc>
 							  <lastmod>${post.lastmod && new Date(post.lastmod).toISOString()}</lastmod>
@@ -312,9 +312,9 @@ export async function GET() {
 							  <priority>0.7</priority>
 							</url>
 							`;
-				}
-			})
-			.join('')}
+					}
+				})
+				.join('')}
 
 				<url>
 					<loc>https://9takes.com/questions</loc>
@@ -324,15 +324,15 @@ export async function GET() {
 				</url>
 
 				${questions
-					?.map((q) => {
-						return `<url>
+				?.map((q) => {
+					return `<url>
 	    <loc>https://9takes.com/questions/${q.url}</loc>
 	    <lastmod>${new Date(q.created_at).toISOString()}</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	  </url>`;
-					})
-					.join('')}
+				})
+				.join('')}
 			
 
 	</urlset>`.trim(),

@@ -4,7 +4,7 @@ title: 'Enneagram Personal Growth'
 description: 'Unlock transformative personal growth with the Enneagram. Learn tailored strategies, ideal environments, and empowering self-talk for each Enneagram type.'
 author: 'DJ Wayne'
 date: '2023-03-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-personal-growth'
+loc: 'https://9takes.com/enneagram-corner/enneagram-personal-growth'
 lastmod: '2024-04-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -214,7 +214,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-personal-growth",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-personal-growth",
         "@type": "WebPage"
       },
       "publisher": {

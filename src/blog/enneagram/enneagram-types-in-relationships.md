@@ -3,7 +3,7 @@ title: 'Understanding Enneagram Types in Relationships'
 description: 'What each type is like in a relationship'
 author: 'DJ Wayne'
 date: '2023-03-10'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-relationships'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-in-relationships'
 lastmod: '2024-04-04'
 changefreq: 'monthly'
 priority: '0.6'
@@ -130,7 +130,7 @@ In a romantic relationship, type 1s may struggle to accept their partner's flaws
 
 Type 1s value honesty, communication, and respect in relationships. They appreciate partners who are dependable and responsible and who share their desire for growth and self-improvement. They may struggle with vulnerability and expressing their emotions, but they have a deep sense of loyalty and dedication to their loved ones.
 
-Partners of type 1s must understand and appreciate their strong sense of morality and desire for order and structure. They may also need reassurance that they are appreciated for who they are, even if they only sometimes meet their high standards. Type 1s can form strong, committed, and fulfilling relationships with patience and understanding. [More on type 1](/blog/enneagram/enneagram-type-1)
+Partners of type 1s must understand and appreciate their strong sense of morality and desire for order and structure. They may also need reassurance that they are appreciated for who they are, even if they only sometimes meet their high standards. Type 1s can form strong, committed, and fulfilling relationships with patience and understanding. [More on type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -144,7 +144,7 @@ However, their desire to please others can sometimes lead to neglecting their ne
 
 Type 2s may also struggle with jealousy and possessiveness, particularly if they feel their partner is not reciprocating their love and affection. They may become overly involved in their partner's life, making decisions for them or trying to solve their problems without being asked. This can make their partner feel smothered or controlled, causing strain in the relationship.
 
-Type 2s need to learn to balance their desire to help others with taking care of their own emotional needs. Communicating openly and honestly with their partner and setting clear boundaries can help prevent resentment from building up over time. It's also important for them to recognize that their partner is their person and to respect their autonomy rather than trying to control or fix everything. [More on type 2](/blog/enneagram/enneagram-type-2)
+Type 2s need to learn to balance their desire to help others with taking care of their own emotional needs. Communicating openly and honestly with their partner and setting clear boundaries can help prevent resentment from building up over time. It's also important for them to recognize that their partner is their person and to respect their autonomy rather than trying to control or fix everything. [More on type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -158,7 +158,7 @@ Type 3 individuals are often charming and sociable, making them skilled at creat
 
 In a romantic relationship, a type 3 individual may prioritize their success and achievement over their partner's needs. They may struggle with expressing vulnerability or admitting they are wrong, as they fear it could damage their image of success and competence. Type 3s also tend to avoid conflict and may struggle with addressing issues in the relationship head-on.
 
-To have a successful relationship, type 3 individuals must learn to balance their drive for success with their commitment to their partner. They need to prioritize emotional connection and vulnerability over success and recognition and learn how to communicate effectively and address conflicts in the relationship. Additionally, they need to recognize the value of their partner's needs and goals and work to support and encourage them. [More on type 3](/blog/enneagram/enneagram-type-3)
+To have a successful relationship, type 3 individuals must learn to balance their drive for success with their commitment to their partner. They need to prioritize emotional connection and vulnerability over success and recognition and learn how to communicate effectively and address conflicts in the relationship. Additionally, they need to recognize the value of their partner's needs and goals and work to support and encourage them. [More on type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -172,12 +172,12 @@ When in a romantic relationship, Type 4s tend to be very emotionally expressive 
 
 One potential challenge for Type 4s in relationships is their tendency towards emotional intensity and mood swings. They may become overwhelmed by their own emotions or those of their partner, leading to conflict or difficulty managing their feelings. Additionally, they may struggle with jealousy or envy towards their partner, particularly if they perceive their partner as having qualities or experiences they lack.
 
-To have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be self-critical and hard on themselves. Finally, cultivating gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/blog/enneagram/enneagram-type-5)
+To have a successful relationship, Type 4s may need to work on managing their emotions and communicating their needs and feelings clearly to their partner. They may also benefit from developing a sense of self-acceptance and self-love, as they can be self-critical and hard on themselves. Finally, cultivating gratitude for what they have and practicing mindfulness can help Type 4s stay grounded and present in their relationships. [More on type 4](/enneagram-corner/enneagram-type-5)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -192,7 +192,7 @@ Type 5s can also be prone to overthinking and analysis paralysis, leading to ind
 
 However, when type 5s feel comfortable and secure in a relationship, they can be incredibly loyal and committed partners. They are often excellent listeners and can offer valuable insights and perspectives to their partners. They also tend to be open-minded and non-judgmental, which can create a safe and accepting space for their partner to share their thoughts and feelings.
 
-Relationships with type 5s can be rewarding and intellectually stimulating but may require patience, understanding, and a willingness to give them the space they need to recharge and pursue their interests. [More on type 5](/blog/enneagram/enneagram-type-5)
+Relationships with type 5s can be rewarding and intellectually stimulating but may require patience, understanding, and a willingness to give them the space they need to recharge and pursue their interests. [More on type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -206,7 +206,7 @@ Type Sixes are often very attuned to the needs of others and can be excellent at
 
 In romantic relationships, Type Sixes often seek a sense of security and stability. They may be drawn to partners who are dependable, loyal, and trustworthy. They are also attracted to supportive and nurturing partners, as they appreciate being cared for and protected. Type Sixes may struggle with jealousy and possessiveness in their relationships as they fear losing their partner to someone else. They may also hesitate to take risks in their relationships, as they prefer avoiding potential conflict or disappointment.
 
-Type Sixes can be very supportive partners, offering stability and security to their loved ones. However, they may also struggle with anxiety and fear, which can impact their relationships. They benefit from patient, understanding, and reassuring partners, helping them feel more secure in their relationships. With the right partner, Type Sixes can build lasting, meaningful relationships based on trust and mutual support. [More on type 6](/blog/enneagram/enneagram-type-6)
+Type Sixes can be very supportive partners, offering stability and security to their loved ones. However, they may also struggle with anxiety and fear, which can impact their relationships. They benefit from patient, understanding, and reassuring partners, helping them feel more secure in their relationships. With the right partner, Type Sixes can build lasting, meaningful relationships based on trust and mutual support. [More on type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -222,7 +222,7 @@ However, Enneagram sevens' love of novelty can sometimes lead to a lack of relat
 
 Additionally, sevens can struggle with being present in the moment and may sometimes avoid dealing with difficult emotions or situations. This can lead to a lack of emotional depth in relationships, as sevens may find it challenging to address and work through their partner's emotions or conflicts.
 
-Despite these potential challenges, Enneagram sevens are typically warm, enthusiastic, and engaging partners who bring joy and excitement to their relationships. They are optimistic, playful, and spontaneous and love making their partners feel loved and appreciated. Sevens are also skilled at diffusing tension and making light of difficult situations, which can be a valuable asset in any relationship. [More on type 7](/blog/enneagram/enneagram-type-7)
+Despite these potential challenges, Enneagram sevens are typically warm, enthusiastic, and engaging partners who bring joy and excitement to their relationships. They are optimistic, playful, and spontaneous and love making their partners feel loved and appreciated. Sevens are also skilled at diffusing tension and making light of difficult situations, which can be a valuable asset in any relationship. [More on type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -236,7 +236,7 @@ Type 8s tend to take charge in a relationship and may appear dominant. They want
 
 For a relationship with a type 8 to thrive, their partner must be willing to meet their need for honesty, loyalty, and respect. Type 8s also appreciate a partner willing to stand up for themselves and speak their mind rather than being passive or submissive. Type 8s must recognize their strong personality's impact on their partner and strive for balance and compromise in their relationship.
 
-Type 8s may struggle with vulnerability and may need to work on expressing their emotions and allowing themselves to be vulnerable with their partner. They may also need to work on recognizing and respecting their partner's emotions and perspective rather than dismissing them in favor of their own. A relationship with a type 8 can be deeply fulfilling and loving with effort and communication. [More on type 8](/blog/enneagram/enneagram-type-8)
+Type 8s may struggle with vulnerability and may need to work on expressing their emotions and allowing themselves to be vulnerable with their partner. They may also need to work on recognizing and respecting their partner's emotions and perspective rather than dismissing them in favor of their own. A relationship with a type 8 can be deeply fulfilling and loving with effort and communication. [More on type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -250,7 +250,7 @@ In a relationship, Nines tend to prioritize the needs and feelings of their part
 
 Nines are also known for remaining calm and composed even amid conflict. They avoid confrontation and tend to retreat or withdraw from situations that feel too emotionally charged. While this can be a positive trait in some situations, it can also lead to problems in a relationship if the Nine avoids discussing essential issues or expressing their true feelings.
 
-One potential challenge for Nines in relationships is their tendency to prioritize harmony over their needs. This can lead to a lack of assertiveness and difficulty setting boundaries, which can be problematic if their partner takes advantage of their accommodating nature. Nines may also need help making decisions, as they often see multiple sides to every situation and may be hesitant to take a definitive stance. [More on type 9](/blog/enneagram/enneagram-type-9)
+One potential challenge for Nines in relationships is their tendency to prioritize harmony over their needs. This can lead to a lack of assertiveness and difficulty setting boundaries, which can be problematic if their partner takes advantage of their accommodating nature. Nines may also need help making decisions, as they often see multiple sides to every situation and may be hesitant to take a definitive stance. [More on type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -258,7 +258,7 @@ One potential challenge for Nines in relationships is their tendency to prioriti
 
 There are near-infinite possibilities for how a person can think, feel, and behave in a relationship; therefore, this is all to be taken with a grain of salt. It is, however, helpful to be aware of common tendencies that the types display. Hopefully you found this helpful. ❤️
 
-If you liked this, check [how each Enneagram type approaches a first date](/blog/enneagram/enneagram-types-on-a-first-date)
+If you liked this, check [how each Enneagram type approaches a first date](/enneagram-corner/enneagram-types-on-a-first-date)
 
 <svelte:head>
 
@@ -298,7 +298,7 @@ If you liked this, check [how each Enneagram type approaches a first date](/blog
          "description":"This blog post examines the dynamics of relationships between different Enneagram types. It provides an overview of how each type interacts in relationships, their strengths, challenges, and how they can improve their relationships.",
          "headline":"Enneagram Types in Relationships: An Overview",
          "mainEntityOfPage":{
-            "@id":"https://9takes.com/blog/enneagram/enneagram-types-in-relationships",
+            "@id":"https://9takes.com/enneagram-corner/enneagram-types-in-relationships",
             "@type":"WebPage"
          },
          "mentions":{

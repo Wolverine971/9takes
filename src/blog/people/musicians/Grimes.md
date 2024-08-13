@@ -3,7 +3,7 @@ title: 'Grimes An Enneagram Type 7'
 description: 'Why Grimes appears to be a type 7'
 author: 'DJ Wayne'
 date: '2023-12-07'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Grimes'
+loc: 'https://9takes.com/personality-analysis/Grimes'
 lastmod: '2023-12-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -74,7 +74,7 @@ Her musical odyssey mirrors her unquenchable curiosity and thirst for new sonic 
 Examples include:
 
 - Her album "Art Angels" is a kaleidoscope of genres, showcasing her versatility and willingness to experiment with different musical styles.
-- Her collaborations with artists like Janelle Monae and <a href="/blog/famous-enneagram-types/Ariana-Grande">Ariana Grande</a> demonstrate her openness to diverse creative influences.
+- Her collaborations with artists like Janelle Monae and <a href="/personality-analysis/Ariana-Grande">Ariana Grande</a> demonstrate her openness to diverse creative influences.
 
 ## An Enthusiasm for Life
 
@@ -91,7 +91,7 @@ While Type 7 personalities are known for their buoyant outlook and boundless ene
 
 Grimes’s controversies have offered glimpses of this shadow side:
 
-- Her past relationships with <a href="/blog/famous-enneagram-types/Elon-Musk">Elon Musk</a> have been characterized by public displays of affection and impulsiveness.
+- Her past relationships with <a href="/personality-analysis/Elon-Musk">Elon Musk</a> have been characterized by public displays of affection and impulsiveness.
 - Some of her artistic expressions have been criticized for being provocative and lacking depth.
 
 However, it's essential to remember that the Enneagram is not a static label, but a tool for understanding our strengths and weaknesses. Grimes' journey highlights the potential for Type 7s to harness their enthusiasm and creativity to make a positive impact on the world, while also acknowledging the challenges they may face in managing their emotions and staying grounded.
@@ -101,39 +101,39 @@ However, it's essential to remember that the Enneagram is not a static label, bu
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Grimes:
 
 <article>
-	<a href="/blog/enneagram/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
   <p>They might admire Grimes' commitment to innovation and pushing boundaries, but might also find her impulsiveness and unconventional lifestyle unsettling.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-2"><b>Type 2- The Helper:</b></a>
+	<a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
   <p>They might be drawn to Grimes' authenticity and vulnerability, and might appreciate her desire to connect with others through her music.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
+	<a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
   <p>They might be impressed by Grimes' success and achievements, but might also feel threatened by her unconventionality and disregard for traditional measures of success.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
   <p>They might be captivated by Grimes' unique style and perspective, and might appreciate her willingness to express her emotions openly.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
+	<a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
   <p>They might be intrigued by Grimes' intellectual curiosity and her interest in complex subjects like neuroscience.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
+	<a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
   <p>They might find comfort in Grimes' strong sense of individuality and her unwavering commitment to her own values.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
+	<a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
   <p>They might resonate with Grimes' zest for life and her desire to seek out new experiences and adventures.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
+	<a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
   <p>They might admire Grimes' courage and independence, but might also find her impulsiveness and lack of discipline frustrating.</p>
 </article>
 <article>
-	<a href="/blog/enneagram/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
+	<a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
   <p>They might appreciate Grimes' creativity and artistic expression, but might be uncomfortable with her outspokenness and tendency to stir up controversy.</p>
 </article>
 
@@ -185,7 +185,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Grimes",
+        "@id": "https://9takes.com/personality-analysis/Grimes",
         "@type": "WebPage"
       },
       "mentions": {

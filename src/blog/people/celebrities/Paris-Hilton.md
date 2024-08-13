@@ -3,7 +3,7 @@ title: 'Paris Hilton An Enneagram Type 3'
 description: 'Understand the unexpected allure of Paris Hilton and her inner world'
 author: 'DJ Wayne'
 date: '2024-07-04'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Paris-Hilton'
+loc: 'https://9takes.com/personality-analysis/Paris-Hilton'
 lastmod: '2024-07-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -133,7 +133,7 @@ As you explore the world of the Enneagram, Paris Hilton's story serves as a comp
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Paris-Hilton",
+        "@id": "https://9takes.com/personality-analysis/Paris-Hilton",
         "@type": "WebPage"
       },
       "mentions": {

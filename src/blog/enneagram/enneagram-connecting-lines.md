@@ -3,7 +3,7 @@ title: 'Enneagram Connecting lines: The Dynamics of Growth and Stress'
 description: "Explore the Enneagram's connecting lines and learn how each type transforms under stress and growth"
 author: 'DJ Wayne'
 date: '2023-07-23'
-loc: 'https://9takes.com/blog/enneagram/enneagram-connecting-lines'
+loc: 'https://9takes.com/enneagram-corner/enneagram-connecting-lines'
 lastmod: '2024-04-03'
 changefreq: 'monthly'
 priority: '0.6'
@@ -57,7 +57,7 @@ Growth/ Integration **(Moving to Type Seven)**: When healthily challenged, Ones 
 
 Stress/ Disintegration **(Moving to Type Four)**: However, when stress mounts, Ones can mirror Fours' melancholy, becoming emotionally turbulent and overly self-critical, almost as if their inner critic is on steroids.
 
-<a href="/blog/enneagram/enneagram-type-1">More on type 1</a>
+<a href="/enneagram-corner/enneagram-type-1">More on type 1</a>
 
 </section>
 
@@ -69,7 +69,7 @@ Growth/ Integration **(Moving to Type Four)**: When Helpers integrate, they embr
 
 Stress/ Disintegration **(Moving to Type Eight**): Under pressure, Twos might exhibit the controlling nature of Eights. They become demanding and possessive, insisting that they know what's best for others.
 
-<a href="/blog/enneagram/enneagram-type-2">More on type 2</a>
+<a href="/enneagram-corner/enneagram-type-2">More on type 2</a>
 
 </section>
 
@@ -81,7 +81,7 @@ Growth/ Integration **(Moving to Type Six)**: As Threes integrate, they adopt th
 
 Stress/ Disintegration **(Moving to Type Nine)**: Stressed Threes, however, can mirror Nines' complacency. They become disengaged, tuning out reality to avoid their fears of failure.
 
-<a href="/blog/enneagram/enneagram-type-3">More on type 3</a>
+<a href="/enneagram-corner/enneagram-type-3">More on type 3</a>
 
 </section>
 
@@ -93,7 +93,7 @@ Growth/ Integration **(Moving to Type 1)**: When Fours are growing, they become 
 
 Stress/ Disintegration **(Moving to Type Two)**: But under stress, Fours can turn into over-involved and intrusive helpers like Twos, seeking validation and identity in relationships.
 
-<a href="/blog/enneagram/enneagram-type-4">More on type 4</a>
+<a href="/enneagram-corner/enneagram-type-4">More on type 4</a>
 
 </section>
 
@@ -105,7 +105,7 @@ Growth/ Integration **(Moving to Type Eight)**: Fives, when integrated, exhibit 
 
 Stress/ Disintegration **(Moving to Type Seven)**: However, during disintegration, Fives can become scattered and frenetic like Sevens, escaping into mental fantasies to avoid their fear of being useless.
 
-<a href="/blog/enneagram/enneagram-type-5">More on type 5</a>
+<a href="/enneagram-corner/enneagram-type-5">More on type 5</a>
 
 </section>
 
@@ -117,7 +117,7 @@ Growth/ Integration **(Moving to Type Nine)**: Healthy Sixes become serene and a
 
 Stress/ Disintegration **(Moving to Type Three)**: Under stress, Sixes can adopt the deceptive traits of Threes, becoming competitive and image-conscious, masking their insecurities with a facade of confidence.
 
-<a href="/blog/enneagram/enneagram-type-6">More on type 6</a>
+<a href="/enneagram-corner/enneagram-type-6">More on type 6</a>
 
 </section>
 
@@ -129,7 +129,7 @@ Growth/ Integration **(Moving to Type Five)**: Sevens, when they integrate, mirr
 
 Stress/ Disintegration **(Moving to Type One)**: But when under stress, Sevens can become critical and impatient like Ones, trying to control their environment to escape their fear of pain.
 
-<a href="/blog/enneagram/enneagram-type-7">More on type 7</a>
+<a href="/enneagram-corner/enneagram-type-7">More on type 7</a>
 
 </section>
 
@@ -141,7 +141,7 @@ Growth/ Integration **(Moving to Type Two)**: Healthy Eights adopt the nurturing
 
 Stress/ Disintegration **(Moving to Type Five)**: When stressed, Eights may retreat into the detached world of Fives, becoming secretive and withholding to shield their vulnerability.
 
-<a href="/blog/enneagram/enneagram-type-8">More on type 8</a>
+<a href="/enneagram-corner/enneagram-type-8">More on type 8</a>
 
 </section>
 
@@ -153,13 +153,13 @@ Growth/ Integration **(Moving to Type Three)**: When integrating, Nines exhibit 
 
 Stress/ Disintegration **(Moving to Type Six)**: Under stress, Nines can resemble anxious Sixes, becoming worry-prone and doubting their decisions, trying to maintain their peace at all costs.
 
-<a href="/blog/enneagram/enneagram-type-9">More on type 9</a>
+<a href="/enneagram-corner/enneagram-type-9">More on type 9</a>
 
 </section>
 
 ## Wrapping up
 
-Understanding the dynamics of the Enneagram can provide valuable insights into our behaviors and how they change under different circumstances. It can help us navigate our paths of growth and manage our stress responses more effectively. To dive deeper into how each Enneagram type responds to stress [look here](/blog/enneagram/enneagram-types-in-stress).
+Understanding the dynamics of the Enneagram can provide valuable insights into our behaviors and how they change under different circumstances. It can help us navigate our paths of growth and manage our stress responses more effectively. To dive deeper into how each Enneagram type responds to stress [look here](/enneagram-corner/enneagram-types-in-stress).
 
 <svelte:head>
 
@@ -193,7 +193,7 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
       "description": "Discover the integrating and disintegrating lines in the Enneagram. The blog post explains how each type behaves when they are blossoming (integration) or stressed (disintegration).",
       "headline": "Enneagram Connecting lines: The Dynamics of Growth and Stress",
       "mainEntityOfPage": {
-        "@id": "https://your-website-url.com/blog/enneagram-integrating-disintegrating-lines",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-connecting-lines",
         "@type": "WebPage"
       },
       "image": {

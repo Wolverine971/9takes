@@ -3,7 +3,7 @@ title: 'Dwayne "The Rock" Johnson: an Enneagram Type 3'
 description: "Inside The Rock's Mind: The Driving Force Behind Dwayne Johnson's Success"
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Dwayne-Johnson'
+loc: 'https://9takes.com/personality-analysis/Dwayne-Johnson'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -154,7 +154,7 @@ His relentless drive, adaptability, and charm have propelled him to heights few 
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Dwayne-Johnson",
+        "@id": "https://9takes.com/personality-analysis/Dwayne-Johnson",
         "@type": "WebPage"
       },
       "mentions": {

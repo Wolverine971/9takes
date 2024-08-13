@@ -3,7 +3,7 @@ title: 'Enneagram Team Dynamics: Unlocking Full Potential'
 description: 'Discover how Enneagram Team Dynamics unlock full potential, enhancing team efficiency, communication, and innovation for unparalleled success'
 author: 'DJ Wayne'
 date: '2023-04-01'
-loc: 'https://9takes.com/blog/enneagram/enneagram-team-dynamics'
+loc: 'https://9takes.com/enneagram-corner/enneagram-team-dynamics'
 lastmod: '2024-03-28'
 changefreq: 'monthly'
 priority: '0.6'
@@ -78,7 +78,7 @@ Embracing the Enneagram could be your team's catalyst to transform potential int
       "description": "Discover how Enneagram Team Dynamics unlock full potential, enhancing team efficiency, communication, and innovation for unparalleled success",
       "headline": "Enneagram Team Dynamics: Unlocking Full Potential",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-team-dynamics",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-team-dynamics",
         "@type": "WebPage"
       },
       "mentions": {

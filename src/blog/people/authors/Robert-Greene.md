@@ -3,7 +3,7 @@ title: 'Robert Greene: Unveiling The Enneagram Type 5 Mind Behind the Power'
 description: "Dive into Robert Greene's Enneagram Type 5 mind. Uncover how this master strategist's analytical nature shapes his influential works on power"
 author: 'DJ Wayne'
 date: '2024-07-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Robert-Greene'
+loc: 'https://9takes.com/personality-analysis/Robert-Greene'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -163,7 +163,7 @@ Robert Greene's journey from job-hopping observer to literary powerhouse is a te
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Robert-Greene",
+        "@id": "https://9takes.com/personality-analysis/Robert-Greene",
         "@type": "WebPage"
       },
       "mentions": {

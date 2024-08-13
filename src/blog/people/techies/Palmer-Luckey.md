@@ -3,7 +3,7 @@ title: 'Palmer Luckey: An Enneagram 7- The Daring Dreamer'
 description: 'Explore the psychology of Palmer Luckey through the lens of Enneagram Type 7. Discover how his personality fuels his bold innovations in VR and AI.'
 author: 'DJ Wayne'
 date: '2024-05-07'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Palmer-Luckey'
+loc: 'https://9takes.com/personality-analysis/Palmer-Luckey'
 lastmod: '2024-05-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -157,7 +157,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
                 "width": 900
             },
             "mainEntityOfPage": {
-                "@id": "https://9takes.com/blog/famous-enneagram-types/Palmer-Luckey",
+                "@id": "https://9takes.com/personality-analysis/Palmer-Luckey",
                 "@type": "WebPage"
             },
             "mentions": {

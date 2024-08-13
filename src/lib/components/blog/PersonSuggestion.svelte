@@ -7,7 +7,7 @@
 	<h4 class="section-title">{title}</h4>
 	<div class="people-grid-container">
 		{#each posts as { slug, enneagram }}
-			<a href="/blog/famous-enneagram-types/{slug}" class="grid-item">
+			<a href="/personality-analysis/{slug}" class="grid-item">
 				{#if enneagram}
 					<img
 						loading="lazy"

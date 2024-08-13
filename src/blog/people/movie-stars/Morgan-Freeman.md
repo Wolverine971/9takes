@@ -3,7 +3,7 @@ title: 'Morgan Freeman An Enneagram Type 1'
 description: 'Why Morgan Freeman appears to be a type 1'
 author: 'DJ Wayne'
 date: '2024-07-08'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Morgan-Freeman'
+loc: 'https://9takes.com/personality-analysis/Morgan-Freeman'
 lastmod: '2024-07-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -150,7 +150,7 @@ Here's the thing - we're all complex individuals, and no single framework can fu
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Morgan-Freeman",
+        "@id": "https://9takes.com/personality-analysis/Morgan-Freeman",
         "@type": "WebPage"
       },
       "mentions": {

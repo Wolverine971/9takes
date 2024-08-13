@@ -3,7 +3,7 @@ title: 'Enneagram Types in Stress- Learn'
 description: 'Navigating Stress: How each Enneagram type responds to the uncomfortable'
 author: 'DJ Wayne'
 date: '2023-04-14'
-loc: 'https://9takes.com/blog/enneagram/enneagram-types-in-stress'
+loc: 'https://9takes.com/enneagram-corner/enneagram-types-in-stress'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
@@ -148,7 +148,7 @@ Stressed Type 2s may try to become more involved in others' lives, offering unso
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'career choices 💼💰📈', link: '/blog/enneagram/enneagram-types-and-career-choices'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'career choices 💼💰📈', link: '/enneagram-corner/enneagram-types-and-career-choices'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -543,7 +543,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   },
   "dateModified": "2024-03-27",
   "datePublished": "2023-04-14",
-  "url": "https://9takes.com/blog/enneagram/enneagram-types-in-stress",
+  "url": "https://9takes.com/enneagram-corner/enneagram-types-in-stress",
   "mentions": {
         "@type": "Thing",
         "name": "Enneagram of Personality",

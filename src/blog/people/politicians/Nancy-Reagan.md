@@ -3,7 +3,7 @@ title: 'Nancy Reagan Enneagram Type 2'
 description: 'Why Nancy Reagan appears to be a type 2'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Nancy-Reagan'
+loc: 'https://9takes.com/personality-analysis/Nancy-Reagan'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -55,7 +55,7 @@ Type 2s are often described as warm and welcoming, and this was certainly true o
 
 Enneagram Type 2s are often motivated by a strong sense of duty and responsibility towards others. Nancy Reagan was no exception. She saw her role as First Lady as an opportunity to serve others, particularly in her advocacy work. She also felt a strong sense of responsibility towards her husband, particularly as his health began to decline in his later years. Her dedication to her husband and her advocacy work are both examples of this sense of duty and responsibility.
 
-Check out this blog for an analysis of <a href="/blog/famous-enneagram-types/Ronald-Reagan">Ronald Reagan.</a>
+Check out this blog for an analysis of <a href="/personality-analysis/Ronald-Reagan">Ronald Reagan.</a>
 
 <svelte:head>
 

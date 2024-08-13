@@ -3,7 +3,7 @@ title: 'Boosting Team Dynamics with Enneagram Insights'
 description: 'Enhance team collaboration and productivity in the workplace using Enneagram insights. Learn effective strategies for team building'
 author: 'DJ Wayne'
 date: '2023-03-27'
-loc: 'https://9takes.com/blog/enneagram/enneagram-workplace-team-building'
+loc: 'https://9takes.com/enneagram-corner/enneagram-workplace-team-building'
 lastmod: '2024-05-07'
 changefreq: 'monthly'
 priority: '0.6'
@@ -96,7 +96,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A structured and organized environment that values attention to detail and accuracy. A clear set of rules and expectations can help the Type 1 thrive and feel secure.
 
-[More on type 1s](/blog/enneagram/enneagram-type-1)
+[More on type 1s](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -108,7 +108,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A supportive and collaborative environment that values teamwork and relationships. The Type 2 thrives in a work environment that values their nurturing and empathetic qualities.
 
-[More on type 2s](/blog/enneagram/enneagram-type-2)
+[More on type 2s](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -120,7 +120,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A fast-paced and competitive environment that values goal-setting and achievement. The Type 3 thrives in an environment that values their ambition and results-driven attitude.
 
-[More on type 3s](/blog/enneagram/enneagram-type-3)
+[More on type 3s](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -132,7 +132,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A creative and innovative environment that values self-expression and originality. The Type 4 thrives in an environment that allows them to explore their unique perspective and creativity.
 
-[More on type 4s](/blog/enneagram/enneagram-type-4)
+[More on type 4s](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -144,12 +144,12 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A quiet and contemplative environment that values intellectual curiosity and expertise. The Type 5 thrives in an environment that allows them to explore and learn on their own terms.
 
-[More on type 5s](/blog/enneagram/enneagram-type-5)
+[More on type 5s](/enneagram-corner/enneagram-type-5)
 
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/blog/enneagram/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -160,7 +160,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A supportive and secure environment that values loyalty and dependability. The Type 6 thrives in a work environment that provides clear guidance and structure.
 
-[More on type 6s](/blog/enneagram/enneagram-type-6)
+[More on type 6s](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -172,7 +172,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A dynamic and exciting environment that values exploration and variety. The Type 7 thrives in a work environment that allows them to pursue their interests and passions.
 
-[More on type 7s](/blog/enneagram/enneagram-type-7)
+[More on type 7s](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -184,7 +184,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A challenging and competitive environment that values assertiveness and leadership. The Type 8 thrives in an environment that allows them to take charge and make decisions.
 
-[More on type 8s](/blog/enneagram/enneagram-type-8)
+[More on type 8s](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -196,7 +196,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A harmonious and peaceful environment that values balance and collaboration. The Type 9 thrives in an environment that promotes a sense of unity and cooperation.
 
-[More on type 9s](/blog/enneagram/enneagram-type-9)
+[More on type 9s](/enneagram-corner/enneagram-type-9)
 
 </section>
 
@@ -247,7 +247,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       "description": "Enhance team collaboration and productivity in the workplace using Enneagram insights. Learn effective strategies for team building",
       "headline": "Boosting Team Dynamics with Enneagram Insights",
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-workplace-team-building",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-workplace-team-building",
         "@type": "WebPage"
       },
       "image":{

@@ -3,7 +3,7 @@ title: 'Lady Gaga: An Enneagram 4 Behind the Poker Face'
 description: "Unveil the complex personality behind Lady Gaga's iconic persona. Explore how her Enneagram Type 4 traits shape her art, activism, and authenticity."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Lady-Gaga'
+loc: 'https://9takes.com/personality-analysis/Lady-Gaga'
 lastmod: '2024-07-09'
 changefreq: 'monthly'
 priority: '0.6'
@@ -139,7 +139,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Lady-Gaga",
+        "@id": "https://9takes.com/personality-analysis/Lady-Gaga",
         "@type": "WebPage"
       },
       "mentions": {

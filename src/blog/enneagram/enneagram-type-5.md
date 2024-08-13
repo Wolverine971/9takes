@@ -3,7 +3,7 @@ title: 'Enneagram Type 5: The Observer'
 description: "Understand the Investigator or Observer's thirst for knowledge and need for privacy. Discover how Fives analyze the world and conserve energy."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-5'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-5'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -99,7 +99,7 @@ While Type 5 individuals possess many strengths, they also face several challeng
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -136,9 +136,9 @@ Typical fears of Enneagram Type 5s may include:
 
 <h2 id="stress">🤯 Enneagram 5s Under Stress</h2>
 
-When stressed the Enneagram type 5 goes to 7. This means they take on the negative aspects of the type 7. <a href="/blog/enneagram/enneagram-type-7">Type 7s</a> are known for being enthusiastic, spontaneous, and adventurous. However when they're under stress, they become more impulsive and distractible and struggle with feeling overwhelmed and out of control. Type 5s when feeling stressed will distract themselves with pleasurable and fun activities. They abandon their analytical thinking and become spontaneous as a way to escape their stress.
+When stressed the Enneagram type 5 goes to 7. This means they take on the negative aspects of the type 7. <a href="/enneagram-corner/enneagram-type-7">Type 7s</a> are known for being enthusiastic, spontaneous, and adventurous. However when they're under stress, they become more impulsive and distractible and struggle with feeling overwhelmed and out of control. Type 5s when feeling stressed will distract themselves with pleasurable and fun activities. They abandon their analytical thinking and become spontaneous as a way to escape their stress.
 
-When stressed type 5s need help to focus on one thing at a time and make decisions. Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+When stressed type 5s need help to focus on one thing at a time and make decisions. Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -175,7 +175,7 @@ However, with patience, understanding, and communication, Type 5s can learn to d
 
 **Relationship Tip**- Don't surprise a type 5 with a big emotional situation. Prep them. Tell them that you want to talk about something emotional and want them to engage. This will give the type 5 time to gather his thoughts and be ready to connect emotionally during the conversation. Type 5s are emotional, its just that they think first and feel later. Also keep in mind that they are not always public with their emotions.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -191,7 +191,7 @@ Type 5s also value autonomy and may prefer working independently or in small gro
 
 While they are often highly skilled and knowledgeable in their areas of expertise, Type 5s may need help sharing their insights and ideas with others. They may need to be encouraged to communicate their knowledge and expertise with colleagues and may require additional support to develop their interpersonal skills.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -284,7 +284,7 @@ Key Takeaways:
         "Independent"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-5",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-5",
         "@type": "WebPage"
       },
       "publisher": {

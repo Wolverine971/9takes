@@ -3,7 +3,7 @@ title: 'Enneagram Type 9: The Peacemaker'
 description: "Explore the Peacemaker or Mediator's desire for harmony and inner peace. Understand how Nines mediate conflicts and blend in with others."
 author: 'DJ Wayne'
 date: '2023-02-18'
-loc: 'https://9takes.com/blog/enneagram/enneagram-type-9'
+loc: 'https://9takes.com/enneagram-corner/enneagram-type-9'
 lastmod: '2024-05-30'
 changefreq: 'weekly'
 priority: '0.6'
@@ -110,7 +110,7 @@ Some of the critical weaknesses of the Enneagram Type 9 personality include:
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/blog/enneagram/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/blog/enneagram/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/blog/enneagram/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/blog/enneagram/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/blog/enneagram/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
 <section class="section-content">
@@ -147,11 +147,11 @@ Additionally, Enneagram Type 9 individuals may fear making the wrong decision or
 
 Under stress, the usually calm and accommodating Type 9 may become uncharacteristically anxious, indecisive, and suspicious.
 
-Their stress number is Type 6. <a href="/blog/enneagram/enneagram-type-6">Type 6s</a> are normally loyal, responsible, and anxious. They might become more fearful, paranoid, indecisive, and hesitant when they're under stress. They might also struggle with feeling uncertain and insecure about the future.
+Their stress number is Type 6. <a href="/enneagram-corner/enneagram-type-6">Type 6s</a> are normally loyal, responsible, and anxious. They might become more fearful, paranoid, indecisive, and hesitant when they're under stress. They might also struggle with feeling uncertain and insecure about the future.
 
 They may start to question their own judgment and seek constant reassurance from others, driven by a fear of making the wrong decision or losing the support of loved ones. The stressed Type 9 might become more reactive and defensive, anticipating worst-case scenarios and preparing for potential threats, both real and imagined. They may also become more prone to self-doubt and second-guessing, which can lead to procrastination and a feeling of being stuck or paralyzed by their own thoughts.
 
-Read more about <a href="/blog/enneagram/enneagram-stress-number">other types under stress </a>
+Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress </a>
 
 </section>
 
@@ -190,7 +190,7 @@ However, Enneagram Type 9 individuals may struggle to express their needs and em
 
 Enneagram Type 9 individuals may also be hesitant to make decisions or take action in their relationships, fearing that doing so could upset the harmony they have worked hard to maintain. They may need reassurance from their partner and may benefit from a more assertive partner who can help them navigate decision-making.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-in-relationships">other types in relationships</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a>
 
 </section>
 
@@ -208,7 +208,7 @@ However, Enneagram Type 9 individuals may struggle with assertiveness and find i
 
 Enneagram Type 9 individuals may excel in roles that require a calm and supportive presence, such as counseling, social work, or customer service. They may also thrive in positions that allow them to work with a team to achieve a shared goal, such as project management or collaborative creative work.
 
-Learn more about <a href="/blog/enneagram/enneagram-types-working-in-teams">other types in the workplace</a>
+Learn more about <a href="/enneagram-corner/enneagram-types-working-in-teams">other types in the workplace</a>
 
 </section>
 
@@ -298,7 +298,7 @@ In this video, Beatrice Chestnut moderates a panel of Enneagram Type 9s who shar
         "Workplace Traits"
       ],
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/enneagram/enneagram-type-9",
+        "@id": "https://9takes.com/enneagram-corner/enneagram-type-9",
         "@type": "WebPage"
       },
       "publisher": {

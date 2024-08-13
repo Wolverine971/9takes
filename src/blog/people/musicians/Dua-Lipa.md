@@ -3,7 +3,7 @@ title: 'Dua Lipa– An Enneagram Type 3'
 description: 'Why Dua Lipa appears to be a type 3'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/Dua-Lipa'
+loc: 'https://9takes.com/personality-analysis/Dua-Lipa'
 lastmod: '2023-06-17'
 changefreq: 'monthly'
 priority: '0.6'
@@ -97,7 +97,7 @@ Every path to the summit is strewn with hurdles, and Dua's journey ⛰️ is no 
 
 ## Confronting Controversies with Adaptive Resilience
 
-Dua Lipa's career has not been without controversies. Her high-profile relationship with Anwar Hadid and collaborations with fellow artists like <a href="/blog/famous-enneagram-types/Miley-Cyrus">Miley Cyrus</a>, The Weeknd, and Calvin Harris have often been tabloid fodder. However, it's in these moments that Dua's Type 3 resilience truly shines, as she adeptly navigates these situations to keep her career trajectory on an upward trend.
+Dua Lipa's career has not been without controversies. Her high-profile relationship with Anwar Hadid and collaborations with fellow artists like <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a>, The Weeknd, and Calvin Harris have often been tabloid fodder. However, it's in these moments that Dua's Type 3 resilience truly shines, as she adeptly navigates these situations to keep her career trajectory on an upward trend.
 
 ## Unraveling the Forces that Drive Dua Lipa
 
@@ -127,16 +127,16 @@ Her willingness to experiment and reinvent her music, her hands-on involvement i
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Dua Lipa:
 
-- **[Type 1- The Perfectionist](/blog/enneagram/enneagram-type-1)** - A Type 1 might appreciate Dua's commitment to her craft, seeing her meticulous attention to detail in songwriting and performing as an admirable strive towards perfection. However, they might also critique her for controversies she's been involved in.
-- **[Type 2- The Helper](/blog/enneagram/enneagram-type-2)** - As nurturing and people-pleasing individuals, Type 2s might admire Dua's ability to connect with her fans through her music. Yet, they might also desire to see more of her humanitarian efforts, given her influential platform.
-- **[Type 3- The Achiever](/blog/enneagram/enneagram-type-3)** - As a fellow Type 3, Achievers would likely resonate with Dua's ambition and drive. They'd admire her journey ⛰️, acknowledging the resilience and adaptability she displays to maintain her successful image.
-- **[Type 4- The Individualist](/blog/enneagram/enneagram-type-4)** - Type 4s, driven by a need for uniqueness, might feel drawn to Dua's distinctive style and authenticity in her music. However, they might also yearn for deeper emotional exploration in her songs.
-- **[Type 5- The Investigator](/blog/enneagram/enneagram-type-5)** - Analytical and curious, Type 5s might appreciate the strategic thinking behind Dua's career choices. However, they might crave more intellectual depth in her lyrics and public persona.
-- **[Type 6- The Loyalist](/blog/enneagram/enneagram-type-6)** - Loyalists, who value security and dependability, might be drawn to the consistency in Dua's music. However, they might feel skeptical about her rapid rise to fame and the controversies surrounding her.
-- **[Type 7- The Enthusiast](/blog/enneagram/enneagram-type-7)** - As lovers of fun and new experiences, Enthusiasts would likely enjoy Dua's energetic performances and upbeat tracks. They might, however, feel averse to the more serious and dramatic aspects of her public life.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - A Type 1 might appreciate Dua's commitment to her craft, seeing her meticulous attention to detail in songwriting and performing as an admirable strive towards perfection. However, they might also critique her for controversies she's been involved in.
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - As nurturing and people-pleasing individuals, Type 2s might admire Dua's ability to connect with her fans through her music. Yet, they might also desire to see more of her humanitarian efforts, given her influential platform.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - As a fellow Type 3, Achievers would likely resonate with Dua's ambition and drive. They'd admire her journey ⛰️, acknowledging the resilience and adaptability she displays to maintain her successful image.
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Type 4s, driven by a need for uniqueness, might feel drawn to Dua's distinctive style and authenticity in her music. However, they might also yearn for deeper emotional exploration in her songs.
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Analytical and curious, Type 5s might appreciate the strategic thinking behind Dua's career choices. However, they might crave more intellectual depth in her lyrics and public persona.
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Loyalists, who value security and dependability, might be drawn to the consistency in Dua's music. However, they might feel skeptical about her rapid rise to fame and the controversies surrounding her.
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - As lovers of fun and new experiences, Enthusiasts would likely enjoy Dua's energetic performances and upbeat tracks. They might, however, feel averse to the more serious and dramatic aspects of her public life.
 
-- **[Type 8- The Challenger](/blog/enneagram/enneagram-type-8)** - Challengers might respect Dua's assertiveness and control over her career. They could, however, feel critical about perceived power dynamics in her collaborations with other artists.
-- **[Type 9- The Peacemaker](/blog/enneagram/enneagram-type-9)** - As peace-loving individuals, Type 9s would likely enjoy Dua's harmonious melodies and her avoidance of overt conflict. However, they might wish for more peaceful resolutions to her public controversies.
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Challengers might respect Dua's assertiveness and control over her career. They could, however, feel critical about perceived power dynamics in her collaborations with other artists.
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - As peace-loving individuals, Type 9s would likely enjoy Dua's harmonious melodies and her avoidance of overt conflict. However, they might wish for more peaceful resolutions to her public controversies.
 
 ## Closing thoughts
 
@@ -186,7 +186,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "width": 900
       },
       "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/famous-enneagram-types/Dua-Lipa",
+        "@id": "https://9takes.com/personality-analysis/Dua-Lipa",
         "@type": "WebPage"
       },
       "mentions": {

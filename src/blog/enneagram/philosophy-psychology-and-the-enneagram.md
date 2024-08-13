@@ -3,7 +3,7 @@ title: 'Philosophy and Psychology Gave Birth to the Enneagram'
 description: "Dive into the Enneagram's roots in philosophy and psychology. Explore how Plato and Freud's theories align with the Enneagram's intelligence centers."
 author: 'DJ Wayne'
 date: '2023-07-11'
-loc: 'https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram'
+loc: 'https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram'
 lastmod: '2024-06-08'
 changefreq: 'monthly'
 priority: '0.6'
@@ -118,11 +118,11 @@ It is as if Plato, Freud, and the Enneagram are all discussing the same ideas bu
 
 <div class="scroll-table">
 
-| Freud      | Plato     | Enneagram Center of Intelligence  | Enneagram Core Emotion  |
-| ---------- | --------- | --------------------------------- | ----------------------- |
-| id         | appetite  | instinctual/ body                 | anger                   |
-| ego        | reason    | intellectual/ head                | fear                    |
-| super ego  | spirit    | emotional/ heart                  | shame                   |
+| Freud     | Plato    | Enneagram Center of Intelligence | Enneagram Core Emotion |
+| --------- | -------- | -------------------------------- | ---------------------- |
+| id        | appetite | instinctual/ body                | anger                  |
+| ego       | reason   | intellectual/ head               | fear                   |
+| super ego | spirit   | emotional/ heart                 | shame                  |
 
 </div>
 
@@ -201,7 +201,7 @@ I guess it is up to us to make the connections and dive deeper.
     "human soul"
   ],
   "mainEntityOfPage": {
-    "@id": "https://9takes.com/blog/enneagram/philosophy-psychology-and-the-enneagram",
+    "@id": "https://9takes.com/enneagram-corner/philosophy-psychology-and-the-enneagram",
     "@type": "WebPage"
   },
   "about": [

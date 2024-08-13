@@ -11,9 +11,9 @@
 	<summary class="accordion">Table of Contents</summary>
 	<ul>
 		<li><a href="#ideas">Ideas behind 9takes</a></li>
-		<li><a href="#guides">Guides</a></li>
-		<li><a href="#enneagram">The Enneagram explained</a></li>
-		<li><a href="#people">Personality Analysis</a></li>
+		<li><a href="#guides">How to guides</a></li>
+		<li><a href="#enneagram">Enneagram Corner</a></li>
+		<li><a href="#people">Personality Analysis Corner</a></li>
 
 		<ul>
 			<li><a href="#musicians">Musicians/ Artists</a></li>
@@ -28,11 +28,11 @@
 </details>
 
 <div style="width: 100%;">
-	<h2 id="ideas">Ideas behind 9takes</h2>
-	<div class="blog-grid-container">
+	<h2 id="ideas">9takes Takes</h2>
+	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.community as cBlog}
 			<a
-				href="/blog/community/{cBlog.slug}"
+				href="/community/{cBlog.slug}"
 				class="grid-item inline-it"
 				style={cBlog.pic &&
 					`background-image: url(${`/blogs/s-${cBlog.pic}.webp`}); background-size: cover;`}
@@ -50,11 +50,11 @@
 </div>
 
 <div style="width: 100%;">
-	<h2 id="guides">Guides</h2>
+	<h2 id="guides">How to Guides</h2>
 	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.guides as eBlog}
 			<a
-				href="/blog/guides/{eBlog.slug}"
+				href="/how-to-guides/{eBlog.slug}"
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -72,11 +72,11 @@
 </div>
 
 <div style="width: 100%;">
-	<h2 id="enneagram">Enneagram explained</h2>
-	<div class="blog-grid-container">
+	<h2 id="enneagram">Enneagram Corner</h2>
+	<div class="blog-grid-container temp-three-row">
 		{#each blogs?.enneagram as eBlog}
 			<a
-				href="/blog/enneagram/{eBlog.slug}"
+				href="/enneagram-corner/{eBlog.slug}"
 				class="grid-item inline-it"
 				style={eBlog.pic &&
 					`background-image: url(${`/blogs/s-${eBlog.pic}.webp`}); background-size: cover;`}
@@ -96,13 +96,10 @@
 <div style="width: 100%;">
 	<h2 id="people">Personality Analysis</h2>
 
-	<h3 id="musicians" class="position-center">Musicians/ Artists</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('musician');
-		}) as person}
+	<div class="blog-grid-container temp-three-row">
+		{#each blogs?.people as person}
 			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
+				href="/personality-analysis/{person.slug}"
 				class="grid-item max-high"
 				data-sveltekit-preload-data="tap"
 			>
@@ -125,179 +122,7 @@
 		{/each}
 	</div>
 
-	<h3 id="celebrities" class="position-center">Celebrities</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('celebrity');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 id="creators" class="position-center">Creators</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('creator');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 id="politicians" class="position-center">Politicians</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('politician');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 id="movie-stars" class="position-center">Movie Stars</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('movieStar');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 id="historical-figures" class="position-center">Historical Figures</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('historical');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						loading="lazy"
-						class="grid-img"
-						srcset={`/types/${person.enneagram}s/s-${person.slug}.webp 218w`}
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
-
-	<h3 id="Techies" class="position-center">Techies</h3>
-	<div class="people-grid-container">
-		{#each blogs?.people.filter((person) => {
-			return person.type?.includes('techie');
-		}) as person}
-			<a
-				href="/blog/famous-enneagram-types/{person.slug}"
-				class="grid-item max-high"
-				data-sveltekit-preload-data="tap"
-			>
-				{#if person.enneagram}
-					<img
-						fetchPriority="low"
-						srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-						loading="lazy"
-						class="grid-img"
-						src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-						alt={person.slug.split('-').join(' ')}
-					/>
-				{/if}
-				<div class="fit-card txt-white">
-					<h3>
-						{person.slug.split('-').join(' ')}
-					</h3>
-				</div>
-			</a>
-		{/each}
-	</div>
+	
 </div>
 
 <style class="scss">

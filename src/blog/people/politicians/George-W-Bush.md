@@ -3,7 +3,7 @@ title: 'George W. Bush Enneagram Type 6'
 description: 'Why George W. Bush appears to be a type 6'
 author: 'DJ Wayne'
 date: '2023-03-09'
-loc: 'https://9takes.com/blog/famous-enneagram-types/George-W-Bush'
+loc: 'https://9takes.com/personality-analysis/George-W-Bush'
 lastmod: '2023-03-26'
 changefreq: 'monthly'
 priority: '0.6'
@@ -57,7 +57,7 @@ In conclusion, George W. Bush's Enneagram Type 6 tendencies are evident in his r
 
 <!-- For a more extensive writeup, <a class="external-link" target="_blank" href="https://www.9types.com/writeup/enneagram_bush.html">check this out</a> -->
 
-Check out this one for an <a href="/blog/famous-enneagram-types/George-H-W-Bush">analysis on his father the George H. W. Bush.</a>
+Check out this one for an <a href="/personality-analysis/George-H-W-Bush">analysis on his father the George H. W. Bush.</a>
 
 <svelte:head>
 
