@@ -3,6 +3,7 @@
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
+	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
 
 	export let data: PageData;
 </script>
@@ -39,8 +40,11 @@
 			</a>
 		{/each}
 	</div>
+</div>
 
-	<br />
+<EnneagramTypeBottom type={data.slug} />
+
+<br />
 	<hr />
 	<br />
 	<p class="position-center">🚧 More to come</p>
@@ -49,7 +53,6 @@
 			<EmailSignup />
 		</div>
 	{/if}
-</div>
 
 <style lang="scss">
 	h3 {

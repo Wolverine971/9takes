@@ -50,7 +50,7 @@
 <details open>
     <summary class="accordion">Table of Contents</summary>
     <ul>
-        <li><a href="#understanding">Understanding the Enneagram</a></li>
+        <li><a href="#understanding">Learning the Enneagram</a></li>
         <li><a href="#9types">The Nine Enneagram Types</a></li>
         {#each blogSections.slice(1) as section}
             <li><a href="#{section.id}">{section.title}</a></li>
@@ -59,7 +59,7 @@
 </details>
 
 <!-- Understanding the Enneagram Section -->
-<h2 id="understanding">Understanding the Enneagram</h2>
+<h2 id="understanding">Learning the Enneagram</h2>
 <div class="blog-grid-container">
     {#each data.enneagramBlogs.filter(blog => blog.type[0] === 'overview') as blog}
         <a href="/enneagram-corner/{blog.slug}" class="grid-item" style:--tag={`h-blog-${formatBlogSlug(blog.title)}`}>
