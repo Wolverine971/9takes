@@ -4,7 +4,7 @@
 	export let subsection: string;
 	export let blogs: any;
 
-	const slug = `blog/enneagram/subtopic/${subsection}`;
+	const slug = `enneagram-corner/subtopic/${subsection}`;
 </script>
 
 {#if subsection === 'overview'}
@@ -85,9 +85,12 @@
 			<ul>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
@@ -172,9 +175,12 @@
 					<a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a>
 				</li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
@@ -272,7 +278,9 @@
 			<ul>
 				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
@@ -369,7 +377,8 @@
 				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
@@ -458,9 +467,12 @@
 				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 			</ul>
 		</section>
 
@@ -557,9 +569,12 @@
 				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>
@@ -653,9 +668,12 @@
 				<li><a href="/enneagram-corner/subtopic/overview">Understanding the Enneagram</a></li>
 				<li><a href="/enneagram-corner/subtopic/nine-types">The Nine Enneagram Types</a></li>
 				<li>
-					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a>
+					<a href="/enneagram-corner/subtopic/development">The Enneagram for Personal Development</a
+					>
 				</li>
-				<li><a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a></li>
+				<li>
+					<a href="/enneagram-corner/subtopic/relationships">The Enneagram in Relationships</a>
+				</li>
 				<li><a href="/enneagram-corner/subtopic/workplace">The Enneagram in the Workplace</a></li>
 			</ul>
 		</section>

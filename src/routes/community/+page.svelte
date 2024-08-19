@@ -17,7 +17,7 @@
 		title: '9takes Community Blogs',
 		description: 'List blogs outlining the ideas behind 9takes.'
 	}}
-	slug={`blog/community`}
+	slug={`community`}
 />
 
 <div style="width: 100%;">
