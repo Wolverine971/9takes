@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { supabase } from '$lib/supabase';
-import { URL } from 'url';
 
 import type { Actions } from './$types';
 import { error } from '@sveltejs/kit';
@@ -10,659 +9,526 @@ import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
 
+import axios from 'axios';
+import { load as cheerioLoad } from 'cheerio';
+
 /** @type {import('./$types').PageLoad} */
-export async function load(event) {
+export const load: PageLoad = async (event) => {
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 
-	let question = null;
-	if (Number.isInteger(parseInt(event.params.slug))) {
-		const { data: questionData, error: findQuestionError } = await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.select(
-				`*,
-			${demo_time === true ? 'subscriptions_demo' : 'subscriptions'} ( id, question_id, user_id )`
-			)
-			.eq('id', event.params.slug)
-			.single();
-
-		if (!questionData || findQuestionError) {
-			throw error(400, {
-				message: 'No question found'
-			});
-		}
-		question = questionData;
-	} else {
-		const { data: questionData, error: findQuestionError } = await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.select(
-				`*,
-			${demo_time === true ? 'subscriptions_demo' : 'subscriptions'} ( id, question_id, user_id )`
-			)
-			.eq('url', event.params.slug)
-			.single();
-
-		if (!questionData || findQuestionError) {
-			throw error(400, {
-				message: 'No question found'
-			});
-		}
-		question = questionData;
+	const question = await getQuestion(event.params.slug, demo_time);
+	if (!question) {
+		throw error(400, { message: 'No question found' });
 	}
 
-	const { data: userHasAnswered } = await supabase.rpc('can_see_comments_3', {
-		userfingerprint: cookie,
-		questionid: question?.id,
-		userid: session?.user?.id || null
-	});
-
-	const { data: questionTags, error: questionTagsError } = await supabase
-		.from('question_tags')
-		.select(`*, question_tag(*)`, { count: 'exact' })
-		.eq('question_id', question?.id);
-
-	if (questionTagsError) {
-		console.log('No question tags for question', questionTagsError);
-	}
+	const [userHasAnswered, questionTags] = await Promise.all([
+		checkUserAnswered(cookie, question.id, session?.user?.id),
+		getQuestionTags(question.id)
+	]);
 
 	if (!userHasAnswered) {
-		const { count: commentCount } = await supabase
-			.from(demo_time === true ? 'comments_demo' : 'comments')
-			.select('*', { count: 'exact' })
-			.eq('parent_type', 'question')
-			.eq('parent_id', question?.id)
-			.eq('removed', false);
-
-		return {
-			question,
-			comments: [],
-			removedComments: [],
-			comment_count: commentCount,
-			removed_comment_count: 0,
-			questionTags,
-			session,
-			flags: {
-				userHasAnswered: userHasAnswered,
-				userSignedIn: event?.locals?.session?.user?.aud
-			}
-		};
+		const commentCount = await getCommentCount(question.id, demo_time);
+		return createBaseResponse(question, [], commentCount, 0, questionTags, session, userHasAnswered, event);
 	}
 
-	const {
-		data: questionComments,
-		count: questionCommentCount,
-		error: questionCommentsError
-	} = await supabase
-		.from(demo_time === true ? 'comments_demo' : 'comments')
-		.select(
-			`*
-			, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-			, ${demo_time === true ? 'comment_like_demo' : 'comment_like'} ( id, comment_id, user_id )`,
+	const [comments, removedComments, links, aiComments] = await Promise.all([
+		getComments(question.id, demo_time, false),
+		getComments(question.id, demo_time, true),
+		getQuestionLinks(question.id),
+		demo_time ? null : getAIComments(question.id)
+	]);
 
-			{ count: 'exact' }
-		)
-		.eq('parent_id', question?.id)
-		.eq('parent_type', 'question')
-		.eq('removed', false)
-		.limit(10)
-		.order('created_at', { ascending: false });
-
-	if (questionCommentsError) {
-		console.log('No comments for question', questionCommentsError);
-	}
-
-	const {
-		data: questionRemovedComments,
-		count: questionRemovedCommentCount,
-		error: questionRemovedCommentsError
-	} = await supabase
-		.from(demo_time === true ? 'comments_demo' : 'comments')
-		.select(
-			`*
-			, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)
-			, ${demo_time === true ? 'comment_like_demo' : 'comment_like'} ( id, comment_id, user_id )`,
-
-			{ count: 'exact' }
-		)
-		.eq('parent_id', question?.id)
-		.eq('parent_type', 'question')
-		.eq('removed', true)
-		.limit(10)
-		.order('created_at', { ascending: false });
-
-	if (questionRemovedCommentsError) {
-		console.log('No removed comments for question', questionRemovedCommentsError);
-	}
-
-	const {
-		data: questionLinks,
-		count: questionLinksCount,
-		error: questionLinksError
-	} = await supabase
-		.from('links')
-		.select(
-			`*`,
-
-			{ count: 'exact' }
-		)
-		.eq('question_id', question?.id)
-		.limit(10);
-
-	if (questionLinksError) {
-		console.log('No links for question', questionLinksError);
-	}
-
-	if (demo_time === true) {
-		return {
-			question: { ...question, ...{ subscriptions: question?.subscriptions_demo } },
-			comments: questionComments?.map((q) => {
-				q.profiles = q.profiles_demo;
-				q.comment_like = q.comment_like_demo;
-				return q;
-			}),
-			removedComments: questionRemovedComments?.map((q) => {
-				q.profiles = q.profiles_demo;
-				q.comment_like = q.comment_like_demo;
-				return q;
-			}),
-			removed_comment_count: questionRemovedCommentCount,
-			comment_count: questionCommentCount,
-			links: questionLinks,
-			links_count: questionLinksCount,
-			questionTags,
-			session,
-			flags: {
-				userHasAnswered: userHasAnswered,
-				userSignedIn: event?.locals?.session?.user?.aud
-			}
-		};
-	}
-
-	const { data: aiComments, error: aiCommentsError } = await supabase
-		.from('comments_ai')
-		.select('*')
-		.eq('question_id', question?.id);
-
-	if (aiCommentsError) {
-		console.log('No ai comments for question', aiCommentsError);
-	}
-
-	return {
+	return createFullResponse(
 		question,
-		comments: questionComments,
-		comment_count: questionCommentCount,
-		removedComments: questionRemovedComments?.map((q) => {
-			q.profiles = q.profiles_demo;
-			q.comment_like = q.comment_like_demo;
-			return q;
-		}),
-		removed_comment_count: questionRemovedCommentCount,
-		ai_comments: aiComments,
-		links: questionLinks,
-		links_count: questionLinksCount,
+		comments.data,
+		comments.count,
+		removedComments.data,
+		removedComments.count,
+		links.data,
+		links.count,
 		questionTags,
 		session,
-		flags: {
-			userHasAnswered: userHasAnswered,
-			userSignedIn: event?.locals?.session?.user?.aud
-		}
-	};
-}
+		userHasAnswered,
+		event,
+		aiComments,
+		demo_time
+	);
+};
 
 export const actions: Actions = {
 	createComment: async ({ request, getClientAddress }) => {
-		try {
-			const demo_time = await checkDemoTime();
-
-			const body = Object.fromEntries(await request.formData());
-
-			const questionId = body.question_id as string;
-			const comment = body.comment as string;
-			const parent_id = body.parent_id as string;
-			const author_id = body.author_id;
-			const parent_type = body.parent_type as string;
-			const es_id = body.es_id as string;
-			const parentId = parseInt(parent_id);
-			const ip = getClientAddress();
-			const fingerprint = body.fingerprint as string;
-
-			parseUrls(comment, questionId);
-
-			let esId = null;
-			if (demo_time === false) {
-				const resp: any = await addESComment({
-					index: parent_type,
-					parentId: es_id,
-					enneaType: '',
-					authorId: author_id.toString(),
-					comment,
-					ip
-				});
-				if (resp._id) {
-					esId = resp._id;
-				}
-			}
-
-			const cData =
-				author_id !== 'undefined'
-					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
-					: {
-							comment: comment,
-							parent_id: parentId,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
-
-			const { data: record, error: addCommentError } = await supabase
-				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.insert(cData)
-				.select()
-				.single();
-			if (!addCommentError) {
-				if (parent_type === 'comment' && demo_time === false) {
-					if (demo_time === false) {
-						// need to increment the demo commentcount
-						const { error: incrementError } = await supabase.rpc('increment_comment_count', {
-							comment_parent_id: parentId
-						});
-
-						if (!incrementError) {
-							return record;
-						}
-					} else {
-						return record;
-					}
-				} else {
-					return record;
-				}
-			} else {
-				console.log(addCommentError);
-			}
-
-			throw error(404, {
-				message: `Add comment error`
-			});
-		} catch (e) {
-			throw error(400, {
-				message: `error creating comment ${JSON.stringify(e)}`
-			});
-		}
+		const { body, demo_time } = await getRequestData(request);
+		const commentData = await createCommentData(body, getClientAddress(), demo_time);
+		return handleCommentCreation(commentData, body.parent_type as string, demo_time);
 	},
 
 	createCommentRando: async ({ request, getClientAddress }) => {
-		try {
-			const demo_time = await checkDemoTime();
-			//refresh the comments
-			const body = Object.fromEntries(await request.formData());
-
-			const questionId = body.question_id as string;
-			const comment = body.comment as string;
-			const parent_id = body.parent_id as string;
-			const author_id = body.author_id;
-			const parent_type = body.parent_type as string;
-			const es_id = body.es_id as string;
-			const parentId = parseInt(parent_id);
-			const ip = getClientAddress();
-			const fingerprint = body.fingerprint as string;
-
-			if (typeof comment !== 'string') {
-				throw error(404, {
-					message: `Bad comment`
-				});
-			}
-			parseUrls(comment, questionId);
-
-			let esId = null;
-			if (demo_time === false) {
-				try {
-					const resp: any = await addESComment({
-						index: parent_type,
-						parentId: es_id,
-						enneaType: '',
-						authorId: author_id.toString(),
-						comment,
-						ip
-					});
-					if (resp._id) {
-						esId = resp._id;
-					}
-				} catch (error) {
-					console.log('error creating ES comment', error);
-				}
-			}
-
-			const cData =
-				author_id !== 'undefined'
-					? {
-							comment: comment,
-							parent_id: parentId,
-							author_id: author_id.toString(),
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  }
-					: {
-							comment: comment,
-							parent_id: parentId,
-							author_id: null,
-							comment_count: 0,
-							ip,
-							parent_type: parent_type,
-							es_id: esId,
-							fingerprint
-					  };
-
-			const { data: record, error: addCommentError } = await supabase
-				.from(demo_time === true ? 'comments_demo' : 'comments')
-				.insert(cData)
-				.select()
-				.single();
-			if (!addCommentError) {
-				if (parent_type === 'comment' && demo_time === false) {
-					const { error: incrementError } = await supabase.rpc('increment_comment_count', {
-						comment_parent_id: parentId
-					});
-
-					if (!incrementError) {
-						return mapDemoValues(record);
-					}
-				} else {
-					return mapDemoValues(record);
-				}
-			} else {
-				console.log(addCommentError);
-			}
-
-			throw error(404, {
-				message: `Add comment error`
-			});
-		} catch (e) {
-			console.log(e);
+		const { body, demo_time } = await getRequestData(request);
+		if (typeof body.comment !== 'string') {
+			throw error(404, { message: 'Bad comment' });
 		}
+		const commentData = await createCommentData(body, getClientAddress(), demo_time);
+		const record = await handleCommentCreation(commentData, body.parent_type as string, demo_time);
+		return mapDemoValues(record);
 	},
 
 	likeComment: async ({ request, locals }) => {
-		try {
-			const session = locals.session;
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
+		const { body, demo_time } = await getRequestData(request);
+		const { parent_id, user_id, operation, es_id } = body;
 
-			const demo_time = await checkDemoTime();
+		await addESCommentLike({ commentId: es_id as string, operation: operation as string });
 
-			const body = Object.fromEntries(await request.formData());
-
-			const parent_id = body.parent_id as string;
-			// const id = body.id as string
-			const user_id = body.user_id as string;
-			const operation = body.operation as string;
-			const es_id = body.es_id as string;
-			const parentId = parseInt(parent_id);
-			const likeData = {
-				comment_id: parentId,
-				user_id
-			};
-			const resp: any = await addESCommentLike({
-				commentId: es_id,
-				operation: operation
-			});
-			if (resp._id) {
-				if (operation === 'add') {
-					const { data: record, error: addLikeError } = await supabase
-						.from('comment_like')
-						.insert(likeData)
-						.select()
-						.single();
-					if (!addLikeError) {
-						await supabase.rpc('increment_like_count', {
-							comment_id: parent_id
-						});
-						return record;
-					} else {
-						console.log(addLikeError);
-					}
-				} else {
-					const { error: removeLikeError } = await supabase
-						.from(demo_time === true ? 'comment_like_demo' : 'comment_like')
-						.delete()
-						.eq('user_id', user_id)
-						.eq('comment_id', parent_id);
-
-					if (!removeLikeError) {
-						await supabase.rpc('decrement_like_count', {
-							comment_id: parent_id
-						});
-						return null;
-					} else {
-						console.log(removeLikeError);
-					}
-				}
-			}
-
-			throw error(404, {
-				message: `Add like error`
-			});
-		} catch (e) {
-			throw error(400, {
-				message: `error creating like ${JSON.stringify(e)}`
-			});
+		if (operation === 'add') {
+			return await addLike(parent_id as string, user_id as string);
+		} else {
+			return await removeLike(parent_id as string, user_id as string, demo_time);
 		}
 	},
 
 	subscribe: async ({ request, locals }) => {
-		try {
-			const session = locals.session;
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
+		}
 
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
+		const { body, demo_time } = await getRequestData(request);
+		const { parent_id, user_id, es_id, operation } = body;
 
-			const demo_time = await checkDemoTime();
+		await addESSubscription({ questionId: es_id as string, operation: operation as string });
 
-			const body = Object.fromEntries(await request.formData());
-
-			const parent_id = body.parent_id as string;
-			const user_id = body.user_id as string;
-			const es_id = body.es_id as string;
-			const operation = body.operation as string;
-			const parentId = parseInt(parent_id);
-			const subscriptionData = {
-				question_id: parentId,
-				user_id
-			};
-			const resp: any = await addESSubscription({
-				questionId: es_id,
-				operation: operation
-			});
-			if (resp._id) {
-				if (operation === 'add') {
-					const { data: subscriptionRecord, error: addSubscriptionError } = await supabase
-						.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
-						.insert(subscriptionData)
-						.select()
-						.single();
-					if (!addSubscriptionError) {
-						// await supabase.rpc('increment_like_count', {
-						// 	comment_id: parent_id
-						// });
-						return subscriptionRecord;
-					} else {
-						console.log(addSubscriptionError);
-					}
-				} else {
-					const { error: removeSubscriptionError } = await supabase
-						.from(demo_time === true ? 'subscriptions_demo' : 'subscriptions')
-						.delete()
-						.eq('user_id', user_id)
-						.eq('question_id', parent_id);
-
-					if (!removeSubscriptionError) {
-						// await supabase.rpc('decrement_like_count', {
-						// 	comment_id: parent_id
-						// });
-						return null;
-					} else {
-						console.log(removeSubscriptionError);
-					}
-				}
-			}
-
-			throw error(404, {
-				message: `Add like error`
-			});
-		} catch (e) {
-			throw error(400, {
-				message: `error creating like ${JSON.stringify(e)}`
-			});
+		if (operation === 'add') {
+			return await addSubscription(parent_id as string, user_id as string, demo_time);
+		} else {
+			return await removeSubscription(parent_id as string, user_id as string, demo_time);
 		}
 	},
 
 	saveLinkClick: async ({ request }) => {
-		try {
-			const body = Object.fromEntries(await request.formData());
-			const linkId = body.linkId as string;
-
-			const { error: incrementError } = await supabase.rpc('increment_clicks', {
-				link_id: parseInt(linkId)
-			});
-			if (incrementError) {
-				throw error(404, {
-					message: `Add comment error`
-				});
-			}
-			return true;
-		} catch (e) {
-			throw error(400, {
-				message: `error creating comment ${JSON.stringify(e)}`
-			});
-		}
+		const { linkId } = Object.fromEntries(await request.formData());
+		await incrementLinkClicks(linkId as string);
+		return true;
 	},
 
 	flagComment: async ({ request, locals }) => {
-		try {
-			const session = locals.session;
-
-			if (!session?.user?.id) {
-				throw error(400, 'unauthorized');
-			}
-
-			const body = Object.fromEntries(await request.formData());
-			const comment_id = body.comment_id as string;
-			// const reason_id = body.reason_id as string;
-			const description = body.description as string;
-
-			const { error: flagCommentError } = await supabase
-				.from('flagged_comments')
-				.insert({ flagged_by: session?.user?.id, comment_id, description });
-
-			if (flagCommentError) {
-				throw error(404, {
-					message: `Flag comment error`
-				});
-			}
-		} catch (e) {
-			console.log(e);
-			throw error(400, {
-				message: `error flagging comment ${JSON.stringify(e)}`
-			});
+		const session = locals.session;
+		if (!session?.user?.id) {
+			throw error(400, 'unauthorized');
 		}
+
+		const { comment_id, description } = Object.fromEntries(await request.formData());
+		await flagComment(session.user.id, comment_id as string, description as string);
 	},
 
-	updateQuestionImg: async (event) => {
-		const { request } = event;
-		const body = Object.fromEntries(await request.formData());
-
-		const img_url = body.img_url as string;
-		const url = body.url as string;
-
-		const base64 = img_url.split('base64,')[1];
-
-		const buffer = decode(base64);
-		const imgPath = `public/${url}.png`;
-		const { data: imgUploadData, error: uploadError } = await supabase.storage
-			.from('questions')
-			.upload(
-				imgPath,
-				buffer,
-				{ upsert: true, contentType: 'image/png' }
-				// { upsert: true, contentType: 'image/png'}
-			);
-
-		if (uploadError) {
-			throw error(400, 'question not updated');
-		}
-		if (imgUploadData) {
-			const { error: uploadError } = await supabase
-				.from('questions')
-				.update({ img_url: imgPath })
-				.eq('url', url);
-			if (uploadError) {
-				console.log(uploadError);
-			}
-		}
-
-		// // get image here https://www.youtube.com/watch?v=HvOvdD2nX1k
-
+	updateQuestionImg: async ({ request }) => {
+		const { img_url, url } = Object.fromEntries(await request.formData());
+		const imgPath = await uploadImage(img_url as string, url as string);
+		await updateQuestionImageUrl(url as string, imgPath);
 		return true;
 	}
 };
 
-const parseUrls = async (comment: string, questionId: string) => {
+async function getRequestData(request: Request) {
+	const body = Object.fromEntries(await request.formData());
+	const demo_time = await checkDemoTime();
+	return { body, demo_time };
+}
+
+async function createCommentData(body: any, ip: string, demo_time: boolean) {
+	const { question_id, comment, parent_id, author_id, parent_type, es_id, fingerprint } = body;
+	await parseUrls(comment, question_id);
+
+	let esId = null;
+	if (!demo_time) {
+		esId = await createESComment(parent_type, es_id, author_id, comment, ip);
+	}
+
+	return {
+		comment,
+		parent_id: parseInt(parent_id),
+		author_id: author_id !== 'undefined' ? author_id.toString() : null,
+		comment_count: 0,
+		ip,
+		parent_type,
+		es_id: esId,
+		fingerprint
+	};
+}
+
+async function createESComment(parent_type: string, es_id: string, author_id: string, comment: string, ip: string) {
+	try {
+		const resp: any = await addESComment({
+			index: parent_type,
+			parentId: es_id,
+			enneaType: '',
+			authorId: author_id.toString(),
+			comment,
+			ip
+		});
+		return resp._id;
+	} catch (error) {
+		console.error('Error creating ES comment:', error);
+		return null;
+	}
+}
+
+async function handleCommentCreation(commentData: any, parent_type: string, demo_time: boolean) {
+	const { data: record, error: addCommentError } = await supabase
+		.from(demo_time ? 'comments_demo' : 'comments')
+		.insert(commentData)
+		.select()
+		.single();
+
+	if (addCommentError) {
+		console.error(addCommentError);
+		throw error(404, { message: 'Add comment error' });
+	}
+
+	if (parent_type === 'comment' && !demo_time) {
+		await incrementCommentCount(commentData.parent_id);
+	}
+
+	return record;
+}
+
+async function incrementCommentCount(parentId: number) {
+	const { error: incrementError } = await supabase.rpc('increment_comment_count', {
+		comment_parent_id: parentId
+	});
+
+	if (incrementError) {
+		console.error('Error incrementing comment count:', incrementError);
+	}
+}
+
+async function addLike(parent_id: string, user_id: string) {
+	const { data: record, error: addLikeError } = await supabase
+		.from('comment_like')
+		.insert({ comment_id: parseInt(parent_id), user_id })
+		.select()
+		.single();
+
+	if (addLikeError) {
+		console.error(addLikeError);
+		throw error(404, { message: 'Add like error' });
+	}
+
+	await supabase.rpc('increment_like_count', { comment_id: parent_id });
+	return record;
+}
+
+async function removeLike(parent_id: string, user_id: string, demo_time: boolean) {
+	const { error: removeLikeError } = await supabase
+		.from(demo_time ? 'comment_like_demo' : 'comment_like')
+		.delete()
+		.eq('user_id', user_id)
+		.eq('comment_id', parent_id);
+
+	if (removeLikeError) {
+		console.error(removeLikeError);
+		throw error(404, { message: 'Remove like error' });
+	}
+
+	await supabase.rpc('decrement_like_count', { comment_id: parent_id });
+	return null;
+}
+
+async function addSubscription(parent_id: string, user_id: string, demo_time: boolean) {
+	const { data: subscriptionRecord, error: addSubscriptionError } = await supabase
+		.from(demo_time ? 'subscriptions_demo' : 'subscriptions')
+		.insert({ question_id: parseInt(parent_id), user_id })
+		.select()
+		.single();
+
+	if (addSubscriptionError) {
+		console.error(addSubscriptionError);
+		throw error(404, { message: 'Add subscription error' });
+	}
+
+	return subscriptionRecord;
+}
+
+async function removeSubscription(parent_id: string, user_id: string, demo_time: boolean) {
+	const { error: removeSubscriptionError } = await supabase
+		.from(demo_time ? 'subscriptions_demo' : 'subscriptions')
+		.delete()
+		.eq('user_id', user_id)
+		.eq('question_id', parent_id);
+
+	if (removeSubscriptionError) {
+		console.error(removeSubscriptionError);
+		throw error(404, { message: 'Remove subscription error' });
+	}
+
+	return null;
+}
+
+async function incrementLinkClicks(linkId: string) {
+	const { error: incrementError } = await supabase.rpc('increment_clicks', {
+		link_id: parseInt(linkId)
+	});
+
+	if (incrementError) {
+		throw error(404, { message: 'Increment link clicks error' });
+	}
+}
+
+async function flagComment(userId: string, commentId: string, description: string) {
+	const { error: flagCommentError } = await supabase
+		.from('flagged_comments')
+		.insert({ flagged_by: userId, comment_id: commentId, description });
+
+	if (flagCommentError) {
+		throw error(404, { message: 'Flag comment error' });
+	}
+}
+
+async function uploadImage(imgUrl: string, url: string) {
+	const base64 = imgUrl.split('base64,')[1];
+	const buffer = decode(base64);
+	const imgPath = `public/${url}.png`;
+
+	const { data: imgUploadData, error: uploadError } = await supabase.storage
+		.from('questions')
+		.upload(imgPath, buffer, { upsert: true, contentType: 'image/png' });
+
+	if (uploadError) {
+		throw error(400, 'Question image upload failed');
+	}
+
+	return imgPath;
+}
+
+async function updateQuestionImageUrl(url: string, imgPath: string) {
+	const { error: updateError } = await supabase
+		.from('questions')
+		.update({ img_url: imgPath })
+		.eq('url', url);
+
+	if (updateError) {
+		console.error('Error updating question image URL:', updateError);
+	}
+}
+
+
+interface OGData {
+	title?: string;
+	description?: string;
+	image?: string;
+	url?: string;
+}
+
+async function fetchOGData(url: string): Promise<OGData> {
+	try {
+		const response = await axios.get(url);
+		const $ = cheerioLoad(response.data);
+
+		const ogData: OGData = {};
+		$('meta[property^="og:"]').each((_, element) => {
+			const property = $(element).attr('property')?.slice(3);
+			const content = $(element).attr('content');
+			if (property && content) {
+				ogData[property as keyof OGData] = content;
+			}
+		});
+
+		return ogData;
+	} catch (error) {
+		console.error(`Error fetching OG data: ${error.message}`);
+		return {};
+	}
+}
+
+async function parseUrls(comment: string, questionId: string): Promise<void> {
 	const { url, domain } = extractFirstURL(comment);
-	let domainId = null;
-	if (!domain) {
-		return;
+	if (!domain) return;
+
+	try {
+		const ogData = await fetchOGData(url);
+		const domainId = await upsertDomain(domain);
+		await upsertLink(url, domainId, questionId, ogData);
+	} catch (error) {
+		console.error('Error parsing URLs:', error);
+		// Consider how you want to handle errors here
 	}
-	const { data: linkDomainUpdateSuccess, error: linkDomainUpdateError } = await supabase
+}
+
+async function upsertDomain(domain: string): Promise<number> {
+	const { data, error } = await supabase
 		.from('link_domains')
-		.update({
-			domain,
-			updated_at: new Date()
-		})
-		.eq('domain', domain)
-		// .upsert({ domain }, { domain, updated_at: new Date() })
-		// .insert([{ some_column: 'someValue', other_column: 'otherValue' }])
-		.select();
-	if (linkDomainUpdateError) {
-		throw new Error('failed to upload domain');
-	} else if (linkDomainUpdateSuccess.length === 0) {
-		const { data: linkDomainInsertSuccess, error: linkInsertDomainError } = await supabase
-			.from('link_domains')
-			.insert([{ domain, updated_at: new Date() }])
-			.select();
-		if (linkInsertDomainError) {
-			throw new Error('failed to upload domain');
-		}
-		domainId = linkDomainInsertSuccess[0].id;
-	} else {
-		domainId = linkDomainUpdateSuccess[0].id;
-	}
-	const { error: linkError } = await supabase
+		.upsert({ domain, updated_at: new Date() })
+		.select('id')
+		.single();
+
+	if (error) throw new Error(`Failed to upsert domain: ${error.message}`);
+	if (!data) throw new Error('No data returned from domain upsert');
+
+	return data.id;
+}
+
+async function upsertLink(url: string, domainId: number, questionId: string, ogData: OGData): Promise<void> {
+	const { error } = await supabase
 		.from('links')
 		.upsert({
 			url,
 			domain_id: domainId,
 			updated_at: new Date(),
-			question_id: questionId
-		})
-		.select();
-	if (!linkError) {
-		console.log('updated links');
+			question_id: questionId,
+			meta_title: ogData.title,
+			meta_description: ogData.description,
+			meta_image: ogData.image,
+		});
+
+	if (error) throw new Error(`Failed to upsert link: ${error.message}`);
+}
+
+
+async function getQuestion(slug: string, demo_time: boolean) {
+	const table = demo_time ? 'questions_demo' : 'questions';
+	const subscriptions = demo_time ? 'subscriptions_demo' : 'subscriptions';
+	const query = supabase
+		.from(table)
+		.select(`*, ${subscriptions} (id, question_id, user_id)`)
+		.single();
+
+	const { data, error: findQuestionError } = await (Number.isInteger(parseInt(slug))
+		? query.eq('id', slug)
+		: query.eq('url', slug));
+
+	if (!data || findQuestionError) {
+		return null;
 	}
-};
+	return data;
+}
+
+async function checkUserAnswered(cookie: string | undefined, questionId: number, userId: string | undefined) {
+	const { data } = await supabase.rpc('can_see_comments_3', {
+		userfingerprint: cookie,
+		questionid: questionId,
+		userid: userId || null
+	});
+	return data;
+}
+
+async function getQuestionTags(questionId: number) {
+	const { data, error } = await supabase
+		.from('question_tags')
+		.select(`*, question_tag(*)`, { count: 'exact' })
+		.eq('question_id', questionId);
+
+	if (error) {
+		console.log('No question tags for question', error);
+	}
+	return data;
+}
+
+async function getCommentCount(questionId: number, demo_time: boolean) {
+	const { count } = await supabase
+		.from(demo_time ? 'comments_demo' : 'comments')
+		.select('*', { count: 'exact' })
+		.eq('parent_type', 'question')
+		.eq('parent_id', questionId)
+		.eq('removed', false);
+	return count;
+}
+
+async function getComments(questionId: number, demo_time: boolean, removed: boolean) {
+	const table = demo_time ? 'comments_demo' : 'comments';
+	const profiles = demo_time ? 'profiles_demo' : 'profiles';
+	const commentLike = demo_time ? 'comment_like_demo' : 'comment_like';
+
+	const { data, count, error } = await supabase
+		.from(table)
+		.select(
+			`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
+			{ count: 'exact' }
+		)
+		.eq('parent_id', questionId)
+		.eq('parent_type', 'question')
+		.eq('removed', removed)
+		.limit(10)
+		.order('created_at', { ascending: false });
+
+	if (error) {
+		console.log(`No ${removed ? 'removed ' : ''}comments for question`, error);
+	}
+	return { data, count };
+}
+
+async function getQuestionLinks(questionId: number) {
+	const { data, count, error } = await supabase
+		.from('links')
+		.select(`*`, { count: 'exact' })
+		.eq('question_id', questionId)
+		.limit(10);
+
+	if (error) {
+		console.log('No links for question', error);
+	}
+	return { data, count };
+}
+
+async function getAIComments(questionId: number) {
+	const { data, error } = await supabase
+		.from('comments_ai')
+		.select('*')
+		.eq('question_id', questionId);
+
+	if (error) {
+		console.log('No AI comments for question', error);
+	}
+	return data;
+}
+
+function createBaseResponse(question: any, comments: any[], commentCount: number, removedCommentCount: number, questionTags: any, session: any, userHasAnswered: boolean, event: any) {
+	return {
+		question,
+		comments,
+		removedComments: [],
+		comment_count: commentCount,
+		removed_comment_count: removedCommentCount,
+		questionTags,
+		session,
+		flags: {
+			userHasAnswered,
+			userSignedIn: event?.locals?.session?.user?.aud
+		}
+	};
+}
+
+function createFullResponse(question: any, comments: any[], commentCount: number, removedComments: any[], removedCommentCount: number, links: any, linksCount: number, questionTags: any, session: any, userHasAnswered: boolean, event: any, aiComments: any, demo_time: boolean) {
+	const baseResponse = createBaseResponse(question, comments, commentCount, removedCommentCount, questionTags, session, userHasAnswered, event);
+
+	if (demo_time) {
+		return {
+			...baseResponse,
+			question: { ...question, subscriptions: question?.subscriptions_demo },
+			comments: comments?.map(mapDemoComment),
+			removedComments: removedComments?.map(mapDemoComment),
+			links,
+			links_count: linksCount
+		};
+	}
+
+	return {
+		...baseResponse,
+		removedComments: removedComments?.map(mapDemoComment),
+		ai_comments: aiComments,
+		links,
+		links_count: linksCount
+	};
+}
+
+function mapDemoComment(comment: any) {
+	return {
+		...comment,
+		profiles: comment.profiles_demo,
+		comment_like: comment.comment_like_demo
+	};
+}

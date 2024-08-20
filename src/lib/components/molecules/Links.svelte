@@ -1,96 +1,114 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onMount } from 'svelte';
 	import Link from './Link.svelte';
+
 	const dispatch = createEventDispatcher();
 
-	export let parentType: string = 'comment';
+	export let parentType: 'comment' | 'question' = 'comment';
 	export let data: any;
 	export let user: any;
 	export let questionId: number;
 
 	let loading = false;
-	let _data: any;
-	let links: any[] = _data?.links || [];
-	let linksCount: number = _data?.links_count || 0;
+	let links: any[] = [];
+	let linksCount = 0;
 
-	$: data, matchData();
+	$: if (data) {
+		updateLinksData();
+	}
 
-	const matchData = () => {
-		_data = Object.assign({}, data);
-		links = _data?.links?.length ? [..._data?.links] : [];
-		linksCount = _data?.links_count;
-	};
+	onMount(() => {
+		updateLinksData();
+	});
+
+	function updateLinksData() {
+		links = data.links?.length ? [...data.links] : [];
+		linksCount = data.links_count || 0;
+	}
 
 	const lastDate = data.comments?.length
-		? data.comments[data.comments?.length - 1]?.created_at || null
+		? data.comments[data.comments.length - 1]?.created_at
 		: null;
 
-	const loadMore = async () => {
+	async function loadMore() {
+		if (loading) return;
 		loading = true;
-		await fetch(
-			`/comments?type=${parentType}&parentId=${
-				parentType === 'question' ? questionId : _data.id
-			}&lastDate=${lastDate}&range=${data?.comments?.length || 0}`
-		)
-			.then((response) => response.json())
-			.then((commentData) => {
-				if (!commentData?.message) {
-					links = [...links, ...commentData];
-					loading = false;
-				}
-			});
-	};
 
-	const refreshLinks = async (data: any) => {
-		if (parentType !== 'question') {
-			return;
+		try {
+			const response = await fetch(
+				`/comments?type=${parentType}&parentId=${getParentId()}&lastDate=${lastDate}&range=${
+					links.length
+				}`
+			);
+			const commentData = await response.json();
+
+			if (!commentData?.message) {
+				links = [...links, ...commentData];
+				linksCount += commentData.length;
+			}
+		} catch (error) {
+			console.error('Error loading more comments:', error);
+		} finally {
+			loading = false;
 		}
+	}
+
+	async function refreshLinks() {
+		if (parentType !== 'question') return;
+
 		dispatch('commentAdded');
 		loading = true;
-		await fetch(
-			`/comments?type=${parentType}&parentId=${
-				parentType === 'question' ? questionId : _data.id
-			}&lastDate=${lastDate}`
-		)
-			.then((response) => response.json())
-			.then((commentData) => {
-				if (!commentData?.message) {
-					links = [...commentData];
-					linksCount += 1;
-					loading = false;
-				}
-			});
-	};
+
+		try {
+			const response = await fetch(
+				`/comments?type=${parentType}&parentId=${getParentId()}&lastDate=${lastDate}`
+			);
+			const commentData = await response.json();
+
+			if (!commentData?.message) {
+				links = commentData;
+				linksCount = commentData.length;
+			}
+		} catch (error) {
+			console.error('Error refreshing links:', error);
+		} finally {
+			loading = false;
+		}
+	}
+
+	function getParentId(): number {
+		return parentType === 'question' ? questionId : data.id;
+	}
 </script>
 
-{#if !browser || (links?.length && parentType === 'question' && _data?.flags?.userHasAnswered)}
-	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
-	{#if links?.length}
-		{#each links as link}
+{#if browser && links.length && parentType === 'question' && data?.flags?.userHasAnswered}
+	<div class="flex-down">
+		{#each links as link (link.id)}
 			{#if link}
-				<Link
-					{questionId}
-					{link}
-					{user}
-					{data}
-					on:commentAdded={({ detail }) => refreshLinks(detail)}
-				/>
+				<Link {questionId} {link} {user} {data} on:commentAdded={refreshLinks} />
 			{/if}
 		{/each}
-		{#if links?.length < linksCount}
-			<button class="btn btn-secondary" on:click={loadMore}>
-				{#if loading}
-					<div class="loader" />
-				{:else}
-					Load More
-				{/if}
-			</button>
-		{/if}
-	{:else}
-		<p>nothing right now</p>
+	</div>
+
+	{#if links.length < linksCount}
+		<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				Load More
+			{/if}
+		</button>
 	{/if}
+{:else if !links.length}
+	<p>Nothing right now</p>
 {/if}
 
 <style lang="scss">
+	flex-down {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
 </style>

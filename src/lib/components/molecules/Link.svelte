@@ -2,147 +2,132 @@
 	import { onMount } from 'svelte';
 	import Card from '$lib/components/atoms/card.svelte';
 
-	// export let data: any;
-	export let link: any;
-	let linkData: any = false;
+	interface LinkData {
+		id: string;
+		url: string;
+		meta_title?: string;
+		meta_description?: string;
+		meta_image?: string;
+		summary?: string;
+	}
 
-	let innerWidth: number = 0;
-	let loading: boolean = false;
+	export let link: LinkData;
 
-	const uuid = crypto.randomUUID();
+	let loading = true;
+	let hasMetaData = false;
 
-	const saveLinkClick = async (link: any) => {
-		let body = new FormData();
-		body.append('linkId', link.id);
-
-		const resp = await fetch('?/saveLinkClick', {
-			method: 'POST',
-			body
-		});
+	const saveLinkClick = async (linkId: string) => {
+		const body = new FormData();
+		body.append('linkId', linkId);
+		await fetch('?/saveLinkClick', { method: 'POST', body });
 	};
-	let hasContent = false;
-	onMount(async () => {
-		await fetchLink();
-		await checkIframeLoaded();
+
+	function truncateUrl(url: string, maxLength: number = 50): string {
+		return url.length > maxLength ? url.substring(0, maxLength - 3) + '...' : url;
+	}
+
+	onMount(() => {
+		hasMetaData = !!(link.meta_title || link.meta_description || link.meta_image);
+		loading = false;
 	});
-
-	const checkIframeLoaded = () => {
-		const iframe = <HTMLIFrameElement>document.getElementById(`frame${link.id}`);
-		var iframeDoc = iframe?.contentDocument; //|| iframe?.contentWindow?.document;
-
-		// Check if loading is complete
-		if (iframeDoc?.readyState === 'complete') {
-			if (iframeDoc.URL !== 'about:blank') {
-				hasContent = true;
-			}
-
-			return;
-		}
-
-		// If we are here, it is not loaded. Set things up so we check   the status again in 100 milliseconds
-		window.setTimeout(checkIframeLoaded, 100);
-	};
-
-	let title = '';
-	let description = '';
-	let imageSrc = '';
-
-	const fetchLink = async () => {
-		try {
-			loading = true;
-
-			const resp = await fetch(link.url);
-			const data = await resp.text();
-
-			if (data) {
-				// Initialize the DOM parser
-				var parser = new DOMParser();
-				// Parse the text
-				var doc = parser.parseFromString(data, 'text/html');
-
-				const parsedTitle = doc.querySelector('title')?.textContent;
-				const parsedDescription = doc.querySelector('meta[name="description"]')?.content;
-				const parsedImage = doc.querySelector('meta[property="og:image"]')?.content;
-
-				title = parsedTitle ? parsedTitle : '';
-				description = parsedDescription ? parsedDescription.slice(0, 70) : '';
-				imageSrc = parsedImage ? parsedImage : '';
-			}
-
-			loading = false;
-			linkData = data ? true : false;
-		} catch (e) {
-			loading = false;
-		}
-	};
 </script>
-
-<svelte:window bind:innerWidth />
 
 <Card>
 	{#if loading}
 		<div class="loader" />
-	{:else if linkData}
-		<a href={link.url} class="link-item">
-			<img src={imageSrc} alt="" />
-			<h3>{title}</h3>
-			<p>{description}</p>
-		</a>
-	{:else if hasContent}
-		<div class="card">
-			<a href={link.url} on:click={() => saveLinkClick(link)}>
-				{link.url}
-				<iframe
-					id={`frame${link.id}`}
-					src={link.url}
-					title="External Page"
-					width="100%"
-					height="300px"
-				/>
-			</a>
-		</div>
 	{:else}
-		<div class="card">
-			{#if link?.summary}
-				<p style="white-space: pre-line">{link.summary}</p>
+		<a href={link.url} class="link-item" on:click={() => saveLinkClick(link.id)}>
+			{#if hasMetaData}
+				{#if link.meta_image}
+					<img src={link.meta_image} alt="" class="meta-image" />
+				{/if}
+				<div class="content meta-content">
+					<h3>{link.meta_title || 'No Title'}</h3>
+					<p>{link.meta_description || 'No Description'}</p>
+				</div>
+			{:else}
+				<div class="content fallback-content">
+					<h3>{truncateUrl(link.url)}</h3>
+					{#if link.summary}
+						<p>{link.summary}</p>
+					{/if}
+				</div>
 			{/if}
-			<a href={link.url} on:click={() => saveLinkClick(link)}>{link.url}</a>
-		</div>
+		</a>
 	{/if}
 </Card>
 
 <style lang="scss">
-	h3,
-	p {
-		margin: 0.5rem 0;
-		padding: 0.5rem 0;
-		// color: white;
-		z-index: 1234;
-	}
-	img {
-		position: absolute;
-		inset: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
 	.link-item {
-		margin: 1rem 0;
-		width: 100%;
-		height: 300px;
 		display: flex;
-		display: -webkit-flex;
 		flex-direction: column;
-		align-items: flex-end;
 		justify-content: flex-end;
-		-webkit-align-items: flex-end;
+		position: relative;
+		height: 300px;
+		padding: 1rem;
 		border-radius: 10px;
 		overflow: hidden;
-		position: relative;
-		transition: all 0.4s ease-in-out;
-		-webkit-transition: all 0.4s ease-in-out;
 		cursor: pointer;
-		padding: 1rem;
-		filter: brightness(0) invert(1);
+		transition: all 0.4s ease-in-out;
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			opacity: 0.9;
+		}
+
+		.meta-image {
+			position: absolute;
+			inset: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.content {
+			z-index: 1;
+			background-color: rgba(0, 0, 0, 0.7);
+			padding: 1rem;
+			border-radius: 5px;
+			color: white;
+		}
+
+		.meta-content {
+			text-align: right;
+		}
+
+		.fallback-content {
+			text-align: left;
+		}
+
+		h3,
+		p {
+			margin: 0.5rem 0;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 0.9rem;
+			white-space: pre-line;
+		}
+	}
+
+	.loader {
+		width: 24px;
+		height: 24px;
+		border: 2px solid rgba(0, 0, 0, 0.1);
+		border-left-color: #3498db;
+		border-radius: 50%;
+		animation: spin 1s linear infinite;
+	}
+
+	@keyframes spin {
+		to {
+			transform: rotate(360deg);
+		}
 	}
 </style>
