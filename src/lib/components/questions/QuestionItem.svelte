@@ -1,134 +1,131 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 
-	export let questionData: any;
+	export let questionData: {
+		id: string;
+		url: string;
+		question_formatted: string;
+		question: string;
+		comment_count: number;
+		created_at: string;
+	};
 	export let showDetails = true;
-	let innerWidth = 0;
 
-	const dateObj = new Date(questionData?.created_at);
-	const month = dateObj.getUTCMonth() + 1; //months from 1-12
-	const day = dateObj.getUTCDate();
-	const year = dateObj.getUTCFullYear();
-	const newDate = `${month}/${day}${innerWidth > 400 ? '/' + year : ''}`;
+	let innerWidth: number;
+	let formattedDate: string;
+
+	$: formattedDate = formatDate(questionData.created_at, innerWidth);
+
+	function formatDate(dateString: string, width: number): string {
+		const date = new Date(dateString);
+		const month = date.getUTCMonth() + 1;
+		const day = date.getUTCDate();
+		const year = date.getUTCFullYear();
+		return `${month}/${day}${width > 400 ? '/' + year : ''}`;
+	}
+
+	onMount(() => {
+		const updateWidth = () => (innerWidth = window.innerWidth);
+		window.addEventListener('resize', updateWidth);
+		updateWidth();
+		return () => window.removeEventListener('resize', updateWidth);
+	});
 </script>
 
-<svelte:window bind:innerWidth />
-
-<div style="display: flex; justify-content: flex-start; align-items: center;">
-	<a
-		href="/questions/{questionData.url}"
-		class="question-card {innerWidth > 1500 && 'shimmer-button'} {showDetails &&
-			'question-card-details'}"
-		data-sveltekit-preload-data="tap"
-	>
-		<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
-			{questionData.question_formatted || questionData.question}
-		</p>
-		{#if showDetails}
-			<div class="small-div">
-				<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
-					{#if questionData.comment_count}
-						{questionData.comment_count}
-					{/if}
-					<MasterCommentIcon
-						iconStyle={'margin-left: .5rem'}
-						height={'1.5rem'}
-						fill={questionData.comment_count ? '#5407d9' : ''}
-						type={questionData.comment_count ? 'multiple' : 'empty'}
-					/>
-				</span>
-				<span class="date-span">
-					{newDate}
-				</span>
-			</div>
-		{/if}
-	</a>
-</div>
+<a
+	href="/questions/{questionData.url}"
+	class="question-card"
+	class:shimmer-button={innerWidth > 1500}
+	class:question-card-details={showDetails}
+	data-sveltekit-preload-data="tap"
+>
+	<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+		{questionData.question_formatted || questionData.question}
+	</p>
+	{#if showDetails}
+		<div class="meta-info">
+			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
+				{questionData.comment_count || ''}
+				<MasterCommentIcon
+					iconStyle="margin-left: .5rem"
+					height="1.5rem"
+					fill={questionData.comment_count ? 'var(--color-theme-purple)' : ''}
+					type={questionData.comment_count ? 'multiple' : 'empty'}
+				/>
+			</span>
+			<span class="date-span">
+				{formattedDate}
+			</span>
+		</div>
+	{/if}
+</a>
 
 <style lang="scss">
-	.comment-span-display {
+	.question-card {
 		display: flex;
 		justify-content: space-between;
-		font-weight: bold;
-		color: var(--color-p-dark); //var(--color-theme-purple);
+		align-items: center;
+		padding: 0.5rem 1rem;
+		margin: 0.25rem 0;
+		border-radius: 3px;
+		border: 1px solid transparent;
+		transition: all 0.3s ease;
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			background-color: var(--base-white-outline, #cfcfcf);
+			border-color: var(--color-theme-purple-light);
+		}
+
+		&.question-card-details {
+			border-color: white;
+			width: 100%;
+
+			&:hover {
+				border-color: var(--color-theme-purple-light);
+			}
+		}
 	}
 
 	.question-display {
 		word-break: break-word;
+		margin: 0;
 	}
+
+	.meta-info {
+		display: flex;
+		gap: 10px;
+		align-items: center;
+	}
+
+	.comment-span-display {
+		display: flex;
+		align-items: center;
+		font-weight: bold;
+		color: var(--color-p-dark, #333);
+	}
+
 	.date-span {
-		// position: absolute;
-		// top: -1px;
-		// right: -1px;
-		// border-radius: 0 0 0 5px;
-		text-decoration: none;
 		border: 1px solid white;
-		border-radius: var(--base-border-radius);
-		word-break: keep-all;
+		border-radius: var(--base-border-radius, 3px);
 		padding: 0.3rem;
 		min-width: 47px;
 		display: flex;
 		justify-content: center;
 	}
-	.small-div {
-		display: flex;
-		gap: 10px;
-		align-items: center;
-	}
-	.question-card {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		overflow: hidden;
-		position: relative;
-		margin: 0.25rem 0 0.25rem 0;
-		padding: 0 1rem;
-		border-top: 1px solid transparent;
-		border-bottom: 1px solid transparent;
-		border-radius: 3px;
-		// border: var(--classic-border);
-		// box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
-		// 	0 1px 5px 0 rgb(0 0 0 / 12%);
-	}
-	.question-card-details {
-		border: 1px solid white;
-		width: 100%;
-	}
 
-	.question-card-details:hover {
-		border: 1px solid var(--color-theme-purple-light);
-	}
-
-	.question-card:hover {
-		// background-color: rgba(255, 255, 255, 0.5);
-		// background-color: var(--color-theme-purple-light);
-
-		// background-color: rgb(207, 198, 255, 0.5);
-		background-color: #cfcfcf; // var(--base-white-outline);
-		// border: 0.1px solid var(--color-theme-purple-light);
-		// box-shadow: 0 2px 0px -1px var(--color-theme-purple-light),
-		// 	0 3px 3px 1px var(--color-theme-purple-light), 0 1px 5px 0 var(--color-theme-purple-light);
-		border-bottom: 1px solid var(--color-theme-purple-light);
-		border-top: 1px solid var(--color-theme-purple-light);
-		// border-left: 1px solid var(--color-theme-purple-light);
-		text-decoration: none;
-		// box-shadow: inset 0.2em 0.2em 0.2em var(--color-theme-purple-light);
-	}
-
-	@media all and (max-width: 576px) {
-		.small-div {
-			flex-direction: column;
-			margin: 0.5rem 0;
-		}
-		.question-display {
-			margin: 0;
-		}
+	@media (max-width: 576px) {
 		.question-card {
-			// margin: 0.25rem;
-			// padding: 0.25rem;
+			padding: 0.5rem 0.75rem;
 			margin: 0.25rem 0 0.25rem 0.5rem;
-			padding: 0 0.75rem;
 			min-height: 3rem;
+		}
+
+		.meta-info {
+			flex-direction: column;
+			align-items: flex-end;
 		}
 	}
 </style>

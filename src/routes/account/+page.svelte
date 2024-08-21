@@ -1,186 +1,265 @@
 <script lang="ts">
 	import { supabase } from '$lib/supabase';
 	import type { PageData } from './$types';
-
-	import { deserialize, enhance } from '$app/forms';
+	import { enhance } from '$app/forms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EnneagramSelect from '$lib/components/molecules/Enneagram-Select.svelte';
-	let firstName: string;
-	let lastName: string;
-	let enneagram: string;
-	let formChanged: boolean = false;
 
-	$: (firstName, lastName, enneagram), doSomething();
-
-	const doSomething = () => {
-		if (
-			firstName !== data?.user?.first_name ||
-			lastName !== data?.user?.last_name ||
-			enneagram !== data?.user?.enneagram
-		) {
-			formChanged = true;
-		} else {
-			formChanged = false;
-		}
-	};
 	interface AccountData extends PageData {
-		user: any;
-		subscriptions: any;
+		user: {
+			first_name: string;
+			last_name: string;
+			enneagram: string;
+			email: string;
+			admin: boolean;
+		};
+		subscriptions: Array<{
+			questions: {
+				url: string;
+				question_formatted: string;
+				question: string;
+			};
+		}>;
+		session: {
+			user: {
+				email: string;
+			};
+		};
 	}
 
 	export let data: AccountData;
-	firstName = data?.user?.first_name;
-	lastName = data?.user?.last_name;
-	enneagram = data?.user?.enneagram;
 
-	const submitLogout = async ({ cancel }: { cancel: Function }) => {
+	let firstName = data.user.first_name;
+	let lastName = data.user.last_name;
+	let enneagram = data.user.enneagram;
+	let formChanged = false;
+
+	$: formChanged =
+		firstName !== data.user.first_name ||
+		lastName !== data.user.last_name ||
+		enneagram !== data.user.enneagram;
+
+	async function submitLogout({ cancel }: { cancel: Function }) {
 		const { error: signOutError } = await supabase.auth.signOut();
 		if (signOutError) {
-			console.log(signOutError);
+			console.error(signOutError);
 			cancel();
 		}
-		// else {
-		// 	cancel();
-		// }
-	};
+	}
 
-	export const save = async () => {
-		var body = new FormData();
-
+	async function save() {
+		const body = new FormData();
 		body.append('firstName', firstName);
 		body.append('lastName', lastName);
 		body.append('enneagram', enneagram);
-		// website
-		body.append('email', data?.user.email);
+		body.append('email', data.user.email);
 
-		const resp = await fetch('?/updateAccount', {
-			method: 'POST',
-			body
-		}).then(async () => {
+		try {
+			await fetch('?/updateAccount', { method: 'POST', body });
 			notifications.info('Account updated', 3000);
-		});
-	};
+		} catch (error) {
+			console.error('Error updating account:', error);
+			notifications.danger('Failed to update account', 3000);
+		}
+	}
 </script>
 
 <div class="account-card">
-	<div class="neat-row" style="justify-content: space-between;">
-		<h1 style="margin: auto 1rem; padding:0">Hello {data?.session?.user?.email}</h1>
-
-		<!-- <button type="button" class="btn btn-primary" on:click={submitLogout}>Logout</button> -->
-		<!-- use:enhance={() => {
-					return async ({ result }) => {
-						invalidateAll();
-						await applyAction(result);
-					};
-				}} -->
-		<div>
-			<form action="/logout" method="POST" use:enhance={submitLogout} class="logout-btn">
+	<header class="header">
+		<h1>Hello {data.session.user.email}</h1>
+		<div class="header-actions">
+			<form action="/logout" method="POST" use:enhance={submitLogout}>
 				<button type="submit" class="btn btn-secondary">Logout</button>
 			</form>
-			{#if data?.user?.admin}
-				<a href="/admin">
-					<button type="button" class="btn btn-primary" style="margin-top: 0.5rem">Admin</button>
-				</a>
+			{#if data.user.admin}
+				<a href="/admin" class="btn btn-primary">Admin</a>
 			{/if}
 		</div>
-	</div>
+	</header>
 
-	<div class="glass-card" style="z-index: 1;">
+	<section class="profile-section">
 		<h2>Profile</h2>
-		<div class="">
-			<!-- <label for="firstName">First Name</label> -->
-			<input
-				type="text"
-				name="firstName"
-				id="firstName"
-				bind:value={firstName}
-				placeholder="First Name"
-			/>
-
-			<!-- <label for="lastName">Last Name</label> -->
-			<input
-				type="text"
-				name="lastName"
-				id="lastName"
-				bind:value={lastName}
-				placeholder="Last Name"
-			/>
+		<div class="input-group">
+			<input type="text" id="firstName" bind:value={firstName} placeholder="First Name" />
+			<input type="text" id="lastName" bind:value={lastName} placeholder="Last Name" />
 		</div>
-		<div class="neat-row" style="justify-content: start">
-			<span style="text-align: center;"> Enneagram <br />Type </span>
+		<div class="enneagram-select">
+			<span>Enneagram Type</span>
 			<EnneagramSelect
 				selectedEnneagram={enneagram}
-				on:enneagramSelected={({ detail }) => {
-					enneagram = detail;
-				}}
+				on:enneagramSelected={({ detail }) => (enneagram = detail)}
 			/>
 		</div>
-		<div class="neat-row" style="justify-content: flex-end;">
-			<button
-				type="button"
-				disabled={!formChanged}
-				class="btn btn-primary save-btn {formChanged === false && 'disabled'}"
-				on:click={save}>Save</button
-			>
-		</div>
-	</div>
+		<button
+			type="button"
+			disabled={!formChanged}
+			class="btn btn-primary save-btn"
+			class:disabled={!formChanged}
+			on:click={save}
+		>
+			Save
+		</button>
+	</section>
 
-	<div class="glass-card" style="z-index: 0">
+	<section class="subscriptions-section">
 		<h2>Question subscriptions</h2>
-		{#each data.subscriptions as subscription}
-			<div class="neat-row" style="justify-content: flex-start;">
-				<a href="/questions/{subscription.questions.url}"
-					>{subscription.questions.question_formatted || subscription.questions.question}</a
-				>
-			</div>
-		{/each}
-	</div>
+		<div class="subscription-list">
+			{#each data.subscriptions as subscription}
+				<a href="/questions/{subscription.questions.url}" class="subscription-link">
+					{subscription.questions.question_formatted || subscription.questions.question}
+				</a>
+			{/each}
+		</div>
+	</section>
 </div>
 
 <style lang="scss">
-	.disabled {
-		background-color: lightgray;
-		color: grey;
-	}
 	.account-card {
 		background-color: var(--base-grey-1);
 		border-radius: var(--base-border-radius);
-		padding: 1rem;
-		margin: 1rem;
+		padding: 1.5rem;
+		margin: 1rem auto;
+		max-width: 800px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	}
-	.glass-card {
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		margin-bottom: 1.5rem;
+
+		h1 {
+			font-size: 1.2rem;
+			margin: 0;
+			word-break: break-all;
+		}
+
+		&-actions {
+			display: flex;
+			gap: 0.5rem;
+			flex-wrap: wrap;
+		}
+	}
+
+	.profile-section,
+	.subscriptions-section {
 		background-color: var(--base-grey-2);
 		border-radius: var(--base-border-radius);
-		// padding: 1rem;
-		// margin: 1rem;
-		// padding: 0.5rem;
-		margin: 1rem 0;
 		padding: 1rem;
-		overflow: visible;
-	}
-
-	.neat-row {
-		display: flex;
-		width: 100%;
-		gap: 10px;
-		align-items: center;
-		justify-content: center;
-	}
-
-	h1 {
-		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
 	}
 
 	h2 {
-		padding: 0.5rem 0;
-		margin: 0.5rem 0;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		font-size: 1.1rem;
 	}
 
-	.logout-btn {
-		align-self: end;
-		margin: auto 0;
+	.input-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+
+		input {
+			width: 100%;
+			padding: 0.5rem;
+			border: 1px solid var(--base-grey-3);
+			border-radius: var(--base-border-radius);
+		}
 	}
+
+	.enneagram-select {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		margin-bottom: 1rem;
+	}
+
 	.save-btn {
-		align-self: end;
+		width: 100%;
+		margin-top: 1rem;
+		transition: opacity 0.3s ease;
+
+		&.disabled {
+			opacity: 0.5;
+			cursor: not-allowed;
+		}
+	}
+
+	.subscription-list {
+		max-height: 200px;
+		overflow-y: auto;
+	}
+
+	.subscription-link {
+		display: block;
+		padding: 0.5rem 0;
+		color: var(--color-theme-purple);
+		text-decoration: none;
+		transition: color 0.3s ease;
+		word-break: break-word;
+
+		&:hover {
+			color: var(--color-theme-purple-light);
+		}
+	}
+
+	.btn {
+		padding: 0.5rem 1rem;
+		border: none;
+		border-radius: var(--base-border-radius);
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+		font-size: 0.9rem;
+
+		&-primary {
+			background-color: var(--color-theme-purple);
+			color: white;
+
+			&:hover {
+				background-color: var(--color-theme-purple-light);
+			}
+		}
+
+		&-secondary {
+			background-color: var(--base-grey-3);
+			color: var(--color-p-dark);
+
+			&:hover {
+				background-color: var(--base-grey-4);
+			}
+		}
+	}
+
+	@media (min-width: 600px) {
+		.account-card {
+			padding: 2rem;
+		}
+
+		.header {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+
+		.input-group {
+			flex-direction: row;
+		}
+
+		.enneagram-select {
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.save-btn {
+			width: auto;
+			align-self: flex-end;
+		}
 	}
 </style>

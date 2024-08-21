@@ -15,6 +15,7 @@
 	let question = '';
 	let url = '';
 	let loading = false;
+	let qrImageSrc = '';
 
 	$: isQuestionValid = question.trim().length > 0;
 
@@ -23,7 +24,7 @@
 		type: 'image/png',
 		quality: 0.3,
 		margin: 1,
-		color: { dark: '#5407d9', light: '' }
+		color: { dark: '#5407d9', light: '#ffffff' }
 	};
 
 	onMount(() => {
@@ -31,19 +32,21 @@
 	});
 
 	async function getUrl() {
+		const sanitizedQuestion = question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ');
 		const body = new FormData();
-		body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
+		body.append('question', sanitizedQuestion);
 
-		const response = await fetch('?/getUrl', { method: 'POST', body });
-		const data = await response.json();
-		url = JSON.parse(data?.data)?.[0];
+		try {
+			const response = await fetch('?/getUrl', { method: 'POST', body });
+			const data = await response.json();
+			url = JSON.parse(data?.data)?.[0];
 
-		QRCode.toDataURL(`https://9takes.com/questions/${url}`, QR_OPTS, (err, qrUrl) => {
-			if (err) throw err;
-			document.getElementById('qr-image').src = qrUrl;
-		});
-
-		getModal('question-create').open();
+			qrImageSrc = await QRCode.toDataURL(`https://9takes.com/questions/${url}`, QR_OPTS);
+			getModal('question-create').open();
+		} catch (error) {
+			console.error('Error generating URL or QR code:', error);
+			notifications.danger('An error occurred while preparing the question', 3000);
+		}
 	}
 
 	async function createQuestion() {
@@ -71,7 +74,7 @@
 			getModal('question-create').close();
 			goto(`/questions/${url}`);
 		} catch (error) {
-			console.error(error);
+			console.error('Error creating question:', error);
 			notifications.danger('An error occurred while creating the question', 3000);
 		} finally {
 			loading = false;
@@ -79,18 +82,18 @@
 	}
 </script>
 
-<div class="flex-center">
+<div class="question-container">
 	<h1>Ask a question</h1>
-	<form class="auth-form">
+	<form class=" auth-form question-form">
 		<textarea
 			rows="3"
 			name="question"
-			placeholder="Question"
-			class="create-question-textarea noticia-text-regular"
+			placeholder="Enter your question here..."
+			class="question-textarea noticia-text-regular"
 			bind:value={question}
 		/>
 		<button
-			class="btn btn-primary"
+			class="btn btn-primary submit-btn"
 			class:disabled={!isQuestionValid}
 			disabled={!isQuestionValid}
 			on:click={getUrl}
@@ -102,20 +105,20 @@
 
 	<Modal2 id="question-create" name="create question">
 		<div class="modal-content">
-			<h1>Create Question</h1>
+			<h2>Create Question</h2>
 			<hr />
-			<div class="flex-center wrap">
-				<h3 id="question-pic" class="noticia-text-regular">{question}</h3>
-				<img id="qr-image" alt="9takes QR Code" />
+			<div class="question-preview">
+				<h3 id="question-pic noticia-text-regular" class="question-text">{question}</h3>
+				<img src={qrImageSrc} alt="9takes QR Code" class="qr-code" />
 				<p class="url-display">
-					Url: <b>https://9takes.com/questions/{url}</b>
+					URL: <strong>https://9takes.com/questions/{url}</strong>
 				</p>
 			</div>
 			<button class="btn btn-primary create-btn" on:click={createQuestion}>
 				{#if loading}
 					<div class="loader" />
 				{:else}
-					Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#5407d9" />
+					Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
 				{/if}
 			</button>
 		</div>
@@ -123,41 +126,129 @@
 </div>
 
 <style lang="scss">
-	h1 {
+	.question-container {
+		// max-width: 600px;
+		// margin: 2rem auto;
+		padding: 1rem;
+	}
+
+	h1,
+	h2 {
 		text-align: center;
-		margin: 0;
-		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+		color: var(--color-theme-purple);
 	}
 
-	.auth-form {
-		margin: 0;
+	.question-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
-	.create-question-textarea,
-	#question-pic {
-		margin: 1rem 0;
-		padding: 0.5rem;
-		border: var(--classic-border);
+	.question-textarea {
+		width: 100%;
+		padding: 0.75rem;
+		border: 2px solid var(--color-theme-purple-light);
 		border-radius: var(--base-border-radius);
+		font-family: 'Noticia Text', serif;
+		font-size: 1rem;
+		resize: vertical;
+		transition: border-color 0.3s ease;
+
+		&:focus {
+			outline: none;
+			border-color: var(--color-theme-purple);
+		}
+	}
+
+	.btn {
+		padding: 0.75rem 1.5rem;
+		border: none;
+		border-radius: var(--base-border-radius);
+		font-size: 1rem;
+		cursor: pointer;
+		transition: background-color 0.3s ease, opacity 0.3s ease;
+
+		&.btn-primary {
+			background-color: var(--color-theme-purple);
+			color: white;
+
+			&:hover:not(.disabled) {
+				background-color: var(--color-theme-purple-light);
+			}
+
+			&.disabled {
+				opacity: 0.6;
+				cursor: not-allowed;
+			}
+		}
+	}
+
+	.submit-btn {
+		align-self: flex-end;
 	}
 
 	.modal-content {
-		height: 100%;
+		padding: 1.5rem;
 	}
 
-	.wrap {
-		flex-wrap: wrap;
-		overflow: hidden;
+	.question-preview {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+		margin: 1.5rem 0;
+	}
+
+	.question-text {
+		font-family: 'Noticia Text', serif;
+		text-align: center;
+		margin: 0;
+	}
+
+	.qr-code {
+		max-width: 200px;
+		height: auto;
 	}
 
 	.url-display {
-		overflow-wrap: anywhere;
+		word-break: break-all;
+		text-align: center;
 	}
 
 	.create-btn {
-		float: right;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		margin-left: auto;
+	}
+
+	.loader {
+		width: 20px;
+		height: 20px;
+		border: 2px solid #ffffff;
+		border-top: 2px solid transparent;
+		border-radius: 50%;
+		animation: spin 1s linear infinite;
+	}
+
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	@media (max-width: 480px) {
+		.question-container {
+			padding: 0.5rem;
+		}
+
+		.submit-btn,
+		.create-btn {
+			width: 100%;
+		}
 	}
 </style>
