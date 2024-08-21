@@ -105,7 +105,7 @@
 {/if}
 
 <style lang="scss">
-	flex-down {
+	.flex-down {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
