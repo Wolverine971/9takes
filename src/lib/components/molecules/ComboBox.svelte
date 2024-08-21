@@ -89,6 +89,7 @@
 				flag = true;
 				break;
 			case 'Enter': {
+				event.preventDefault();
 				loading = true;
 				dispatch('selectQuestion', {
 					text: event.target.value
