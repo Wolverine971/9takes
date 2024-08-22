@@ -39,8 +39,7 @@
 
 	const navItems = [
 		{ href: '/', label: 'HOME' },
-		{ href: '/questions', label: 'QUESTIONS' },
-		{ href: '/about', label: 'ABOUT' }
+		{ href: '/questions', label: 'QUESTIONS' }
 	];
 
 	const blogItems = [
@@ -165,6 +164,10 @@
 							</ul>
 						</Context>
 					</div>
+					<a href="/about" class="a-wrap" class:active-link={$page.url.pathname === '/about'}>
+						<div class="nav-element nav-element1">{'ABOUT'}</div>
+						<div class="nav-element nav-element2">{'ABOUT'}</div>
+					</a>
 				</div>
 
 				{#if data?.session?.user}

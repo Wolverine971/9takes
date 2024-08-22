@@ -25,7 +25,6 @@
 	import Analytics from '$lib/analytics.svelte';
 	import { page } from '$app/stores';
 	import Footer from '$lib/components/molecules/Footer.svelte';
-	// import Jumbotron from '$lib/components/atoms/jumbotron.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import { onMount } from 'svelte';
@@ -34,7 +33,6 @@
 	export let data: PageData;
 	let innerWidth = 0;
 	onMount(async () => {
-		// if (dev) return;
 		const fp = await FingerprintJS.load();
 		const fpval = await fp.get();
 		const formdata = new FormData();
@@ -53,7 +51,7 @@
 
 <svelte:head>
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
-	<!-- Config options -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -66,54 +64,65 @@
 	<BackNavigation />
 {/if}
 <main
-	class="main flexrate {!maxWidthPages.includes($page.url.pathname)
-		? 'column-width'
-		: 'column'} {$page.url.pathname !== '/signup' ? 'pos-rel' : ''}"
+	class="main {!maxWidthPages.includes($page.url.pathname) ? 'column-width' : 'column'} {$page.url
+		.pathname !== '/signup'
+		? 'pos-rel'
+		: ''}"
 >
-	<!-- style={innerWidth > 760 && $page.url.pathname === '/' ? 'margin-top: 85px;' : ''} -->
 	<slot />
-	<Footer />
 </main>
+<Footer />
 
 <style lang="scss">
-	.jumbo-name {
-		position: relative;
-		font-size: 3.25rem;
-		margin: 1rem;
-		text-align: center;
-		text-transform: uppercase;
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: calc(100vh - 60px); // Adjust based on your header height
+		padding: 1rem;
+		overflow: visible;
 	}
 
 	.column-width {
 		max-width: 64rem;
-		border-radius: var(--base-border-radius);
+		margin: 0 auto;
+		width: 100%;
 	}
 
 	.pos-rel {
 		position: relative;
-		// overflow: hidden;
+	}
+
+	@media (max-width: 768px) {
+		.main {
+			padding: 0.5rem;
+		}
+
+		.column-width {
+			max-width: 100%;
+		}
 	}
 
 	main > a {
-		display: inline-block;
+		display: inline-flex;
 		align-items: center;
 		color: #260958;
+		text-decoration: none;
+
 		&::after {
 			content: '';
 			background-image: url(/icons/arrow.svg);
 			display: inline-block;
-			vertical-align: middle;
-			align-items: center;
 			width: 1em;
 			height: 1em;
 			background-size: 1em 1em;
+			margin-left: 0.5em;
 		}
-	}
-
-	.flexrate {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		overflow: visible;
 	}
 </style>
