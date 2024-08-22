@@ -172,13 +172,17 @@
 
 				{#if data?.session?.user}
 					<div class="corner-right-big right">
-						<button type="button" on:click={() => goto('/account')} class="corner-icon">
-							<img src={account} alt="Account" title="Account" width="30" height="30" />
-						</button>
+						<a href="/account">
+							<button type="button" class="corner-icon">
+								<img src={account} alt="Account" title="Account" width="30" height="30" />
+							</button>
+						</a>
 					</div>
-				{:else if !isHomePage}
+				{:else}
 					<div class="right login">
-						<button on:click={() => goto('/login')} class="corner-icon">Sign Up/ In</button>
+						<a href="/login">
+							<button class="corner-icon">Login/ Register</button>
+						</a>
 					</div>
 				{/if}
 			</nav>

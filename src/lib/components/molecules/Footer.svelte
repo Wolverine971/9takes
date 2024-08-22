@@ -6,8 +6,8 @@
 	const links = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Questions' },
-		{ href: '/about', label: 'About' },
-		{ href: '/blog', label: 'Blog' }
+		{ href: '/blog', label: 'Blog' },
+		{ href: '/about', label: 'About' }
 	];
 
 	const socialLinks = [

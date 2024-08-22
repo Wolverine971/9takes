@@ -141,9 +141,9 @@
 		border-radius: var(--base-border-radius);
 		border: 1px solid var(--base-white-outline);
 
-		&:hover {
-			background-color: var(--base-white-outline);
-		}
+		// &:hover {
+		// 	background-color: var(--base-white-outline);
+		// }
 	}
 
 	@media (max-width: 576px) {
