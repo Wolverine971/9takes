@@ -3,9 +3,9 @@
 	--font-mono: 'Fira Mono', monospace;
 	--color-theme-dark-blue: #191970;
 	--color-theme-pink: #f72585;
-	--color-theme-purple: #5407d9;
+	--color-theme-purple: var(--primary);
 	--color-theme-purple-dark: #2f0479;
-	--color-theme-purple-light: #b3a6c9;
+	--color-theme-purple-light: var(--accent);
 	--color-theme-purple-lighter: #bc96fd;
 	--color-paladin-3: #52616b;
 	--color-paladin-4: #444;
@@ -41,7 +41,7 @@ body {
 }
 
 a {
-	color: var(--color-theme-purple);
+	color: var(--primary);
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
@@ -117,7 +117,7 @@ body::-webkit-scrollbar-thumb,
 
 /* Text styles */
 .firstLetter::first-letter {
-	color: var(--color-theme-purple);
+	color: var(--primary);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb,
 }
 
 .bold-shadow {
-	text-shadow: -1px -1px 0 var(--color-theme-purple), 1px -1px 0 var(--color-theme-purple),
+	text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary),
 		-1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -195,7 +195,7 @@ article {
 
 .accordion:hover {
 	background-color: var(--color-theme-purple-light);
-	color: var(--color-theme-purple);
+	color: var(--primary);
 }
 
 .section-content {
@@ -268,7 +268,7 @@ th {
 
 .main a,
 .blog a {
-	color: #260958;
+	color: var(--primary-dark);
 }
 
 .blog a {
@@ -281,7 +281,7 @@ th {
 
 .blog a:hover {
 	text-decoration: underline;
-	color: #5407d9;
+	color: var(--primary);
 }
 
 .blog a::after {
@@ -323,8 +323,8 @@ textarea {
 }
 
 .interaction-div-display button:hover {
-	border-color: var(--base-grey-2);
-	background-color: var(--base-grey-2);
+	border-color: var(--accent);
+	background-color: var(--accent);
 }
 
 .interact-text-container {
@@ -392,8 +392,8 @@ textarea {
 }
 
 .primary-btn {
-	border: 1px solid var(--color-theme-purple) !important;
-	color: var(--color-theme-purple);
+	border: 1px solid var(--primary) !important;
+	color: var(--primary);
 }
 
 .secondary-btn {

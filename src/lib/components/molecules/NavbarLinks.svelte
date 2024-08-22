@@ -127,7 +127,7 @@
 		}
 	}
 	.arrow {
-		fill: var(--color-theme-purple);
+		fill: var(--primary);
 	}
 	.navbar-blogs {
 		overflow: hidden;
@@ -144,7 +144,7 @@
 	.navbar-blogs a {
 		float: left;
 		font-size: 16px;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		text-align: center;
 		padding: 14px 16px;
 		// text-decoration: none;
@@ -162,7 +162,7 @@
 		font-size: 16px;
 		border: none;
 		outline: none;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		padding: 14px 16px;
 		background-color: inherit;
 		font-family: inherit;
@@ -174,7 +174,7 @@
 
 	.navbar-blogs a:hover,
 	.subnav:hover .subNavBtn {
-		background-color: var(--base-grey-2);
+		background-color: var(--accent);
 		z-index: 1234;
 	}
 
@@ -189,7 +189,7 @@
 
 	.subnav-content a {
 		float: left;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		z-index: 1234;
 	}
 
@@ -215,12 +215,12 @@
 		align-items: center;
 		outline: none;
 		box-sizing: border-box;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 
 		z-index: 1234;
 		// float: left;
 		font-size: 16px;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		text-align: center;
 		padding: 14px 16px;
 		// text-decoration: none;
@@ -242,7 +242,7 @@
 
 	.main-subnav-content a {
 		float: left;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		z-index: 1234;
 	}
 

@@ -29,7 +29,7 @@
 <div>
 	<h1 style="text-align: center; margin: 1rem;">
 		<a href="/login" class="unselected">Login</a> /
-		<span style="text-decoration: underline; color: #5407d9;">Register</span>
+		<span style="text-decoration: underline; color: var(--primary);">Register</span>
 	</h1>
 	<form class="auth-form" on:submit|preventDefault={handleSubmit}>
 		<label for="email"> Email </label>

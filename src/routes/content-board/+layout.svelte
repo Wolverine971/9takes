@@ -31,7 +31,7 @@
 	main > a {
 		display: inline-block;
 		align-items: center;
-		color: #260958;
+		color: var(--primary-dark);
 		&::after {
 			content: '';
 			background-image: url(/icons/arrow.svg);

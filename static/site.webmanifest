@@ -13,7 +13,7 @@
 	],
 	"display": "standalone",
 	"theme_color": "#000000",
-	"background_color": "#5407d9",
+	"background_color": "var(--primary)",
 	"scope": "/",
 	"start_url": "/",
 	"name": "9takes",

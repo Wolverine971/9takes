@@ -112,7 +112,7 @@
 	main > a {
 		display: inline-flex;
 		align-items: center;
-		color: #260958;
+		color: var(--primary-dark);
 		text-decoration: none;
 
 		&::after {

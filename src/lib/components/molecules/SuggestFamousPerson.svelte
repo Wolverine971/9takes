@@ -95,7 +95,7 @@
 		button {
 			padding: 10px 20px;
 			cursor: pointer;
-			color: var(--color-theme-purple);
+			color: var(--primary);
 			border: 1px solid;
 			width: 155px;
 
@@ -138,7 +138,7 @@
 	}
 
 	::placeholder {
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		opacity: 1;
 	}
 </style>

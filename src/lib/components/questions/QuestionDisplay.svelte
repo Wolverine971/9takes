@@ -96,7 +96,7 @@
 		margin: 0.5rem;
 		border-radius: var(--base-border-radius);
 		padding: 0.2rem;
-		background-color: var(--base-grey-2);
+		background-color: var(--accent);
 		background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
 	}
 

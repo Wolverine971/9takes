@@ -59,7 +59,7 @@
 				<h3 style="">
 					<span>All Enneagram topic blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -72,7 +72,7 @@
 			<h3 style="display: flex; align-items: center;">
 				<span>All Enneagram topic blogs </span>
 
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -132,7 +132,7 @@
 				<h3 style="">
 					<span>All personal development blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -143,7 +143,7 @@
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All personal development blogs </span>
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -178,7 +178,7 @@
 				<h3 style="">
 					<span>All relationship blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -190,7 +190,7 @@
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All relationship blogs </span>
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -225,7 +225,7 @@
 				<h3 style="">
 					<span>All workplace blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -237,7 +237,7 @@
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All workplace blogs </span>
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -272,7 +272,7 @@
 				<h3 style="">
 					<span>All resource blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -283,7 +283,7 @@
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All resource blogs </span>
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -318,7 +318,7 @@
 				<h3 style="">
 					<span>All situational blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 				</h3>
 			</div>
 		</a>
@@ -329,7 +329,7 @@
 		<div class="black-white">
 			<h3 style="display: flex; align-items: center;">
 				<span>All situational blogs </span>
-				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+				<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 			</h3>
 		</div>
 	</a>
@@ -348,7 +348,7 @@
 	// a:hover {
 	// 	text-decoration: none;
 	// 	filter: sepia(100%) hue-rotate(160deg);
-	// 	border: 1px solid var(--color-theme-purple) !important;
+	// 	border: 1px solid var(--primary) !important;
 	// }
 	.blog-grid-container {
 		column-count: 3;
@@ -375,7 +375,7 @@
 		&:hover {
 			text-decoration: none;
 			filter: sepia(100%) hue-rotate(160deg);
-			border: 1px solid var(--color-theme-purple) !important;
+			border: 1px solid var(--primary) !important;
 		}
 	}
 

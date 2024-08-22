@@ -140,7 +140,7 @@
 		<MasterCommentIcon
 			iconStyle={'padding: 0.25rem;'}
 			height={'1.5rem'}
-			fill={'#5407d9'}
+			fill={'var(--accent)'}
 			type={comment?.length ? 'full' : 'empty'}
 		/>
 	</button>
@@ -154,7 +154,7 @@
 			<BellIcon
 				iconStyle={'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={subscriptions.some((e) => e.user_id === user?.id) ? '#5407d9' : '#b3a6c9'}
+				fill={subscriptions.some((e) => e.user_id === user?.id) ? 'var(--primary)' : 'var(--accent)'}
 			/>
 		</button>
 	{/if}
@@ -185,7 +185,7 @@
 		{#if loading}
 			<div class="loader" />
 		{:else if comment?.length >= 1}
-			<RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'#5407d9'} />
+			<RightIcon iconStyle={'margin-left: .5rem;'} height={'1.5rem'} fill={'var(--accent)'} />
 		{/if}
 	</button>
 {/if}

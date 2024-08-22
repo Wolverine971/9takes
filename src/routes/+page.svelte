@@ -337,7 +337,7 @@
 	}
 
 	.highlight {
-		color: #260958;
+		color: var(--primary-dark);
 		font-weight: 700;
 	}
 
@@ -394,7 +394,7 @@
 
 	.question-link {
 		font-size: 1.5rem;
-		color: #260958;
+		color: var(--primary-dark);
 		text-decoration: none;
 
 		&:hover {
@@ -404,7 +404,7 @@
 
 	.arrow {
 		font-size: 2rem;
-		color: #260958;
+		color: var(--primary-dark);
 	}
 
 	// Find Out Section
@@ -479,7 +479,7 @@
 				width: 1.5em;
 				height: 1.5em;
 				margin-right: 1rem;
-				fill: #260958;
+				fill: var(--primary-dark);
 			}
 		}
 	}

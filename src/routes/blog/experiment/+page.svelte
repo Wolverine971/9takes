@@ -1467,7 +1467,7 @@
 				const id = `${elem.emotion}-${i}`;
 				const emotion = document.getElementById(id);
 				const animate = emotion.animate(
-					[{ translate: `${invertx}px ${inverty}px` }, { translate: '0px', color: '#5407d9' }],
+					[{ translate: `${invertx}px ${inverty}px` }, { translate: '0px', color: 'var(--primary)' }],
 					{
 						duration: 3000,
 						fill: 'forwards',
@@ -1798,7 +1798,7 @@ resentment temper violence -->
 	}
 	.emotion-div {
 		border-radius: var(--base-border-radius);
-		border: 1px solid #5407d9;
+		border: 1px solid var(--primary);
 		position: inherit;
 		top: 0;
 		left: 0;

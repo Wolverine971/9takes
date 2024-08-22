@@ -106,7 +106,7 @@
 				<MasterCommentIcon
 					iconStyle={'padding: 0.25rem;'}
 					height={'1rem'}
-					fill={'#5407d9'}
+					fill={'var(--accent)'}
 					type={'multiple'}
 				/>
 				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'#444'} />

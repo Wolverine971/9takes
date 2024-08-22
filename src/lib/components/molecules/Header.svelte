@@ -70,7 +70,7 @@
 			role="img"
 		>
 			<path
-				fill="#5407d9"
+				fill="var(--primary)"
 				d="M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z"
 			>
 				<animateTransform
@@ -192,7 +192,7 @@
 
 <style lang="scss">
 	.question-blink {
-		$shadow-color: var(--color-theme-purple);
+		$shadow-color: var(--primary);
 		box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px $shadow-color, 0 0 30px $shadow-color,
 			0 0 40px $shadow-color, 0 0 50px $shadow-color;
 		animation: blink 0.7s infinite alternate;
@@ -200,8 +200,8 @@
 
 	@keyframes blink {
 		to {
-			box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px var(--color-theme-purple),
-				0 0 70px var(--color-theme-purple), 0 0 80px var(--color-theme-purple);
+			box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px var(--primary),
+				0 0 70px var(--primary), 0 0 80px var(--primary);
 		}
 	}
 
@@ -324,7 +324,7 @@
 					padding: 0.75rem;
 
 					&:hover {
-						color: var(--color-theme-purple);
+						color: var(--primary);
 					}
 				}
 
@@ -344,7 +344,7 @@
 						padding: 0.5rem;
 						border-radius: var(--base-border-radius);
 						border: 1px solid;
-						background-color: var(--base-grey-2);
+						background-color: var(--accent);
 						font-size: 14px;
 
 						&.open {
@@ -373,7 +373,7 @@
 						height: 100%;
 
 						&:hover {
-							color: var(--color-theme-purple);
+							color: var(--primary);
 						}
 						&:after {
 							transition: none;
@@ -397,7 +397,7 @@
 			align-items: center;
 			outline: none;
 			box-sizing: border-box;
-			color: var(--color-theme-purple);
+			color: var(--primary);
 			margin: 1rem;
 			font-size: 16px;
 			text-align: center;
@@ -527,8 +527,8 @@
 		0%,
 		100% {
 			color: #fff;
-			text-shadow: 0 0 10px var(--color-theme-purple), 0 0 50px var(--color-theme-purple),
-				0 0 100px var(--color-theme-purple);
+			text-shadow: 0 0 10px var(--primary), 0 0 50px var(--primary),
+				0 0 100px var(--primary);
 		}
 		10%,
 		90% {

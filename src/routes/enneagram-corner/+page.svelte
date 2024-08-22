@@ -76,7 +76,7 @@
             <div class="text-overlay">
                 <h3>
                     All Enneagram topics
-                    <ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+                    <ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
                 </h3>
             </div>
         </div>
@@ -117,7 +117,7 @@
                 <div class="text-overlay">
                     <h3>
                         All {section.linkTitle.toLowerCase().replace('enneagram', 'Enneagram')} blogs
-                        <ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+                        <ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
                     </h3>
                 </div>
             </div>
@@ -170,7 +170,7 @@
         right: 0;
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.6);
-        color: white;
+        color: var(--accent);
         padding: 1rem;
         display: flex;
         flex-direction: column;

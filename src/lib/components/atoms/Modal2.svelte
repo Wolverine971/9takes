@@ -110,7 +110,7 @@
 	#modal {
 		position: relative;
 		border-radius: 6px;
-		background-color: white;
+		background-color: var(--accent);
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;
@@ -125,7 +125,7 @@
 		width: 24px;
 		height: 24px;
 		cursor: pointer;
-		fill: var(--color-theme-purple);
+		fill: var(--primary);
 		transition: transform 0.3s;
 		&:hover {
 			transform: scale(2);

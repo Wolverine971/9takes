@@ -193,7 +193,7 @@
 		flex-basis: calc(50% - 20px);
 		margin-bottom: 20px;
 		padding: 10px;
-		background-color: var(--base-grey-2);
+		background-color: var(--accent);
 		border: var(--classic-border);
 		box-sizing: border-box;
 		border-radius: 0.25rem;

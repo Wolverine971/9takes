@@ -46,7 +46,7 @@
 		font-weight: bold;
 		&:hover,
 		&.active-link {
-			color: var(--color-theme-purple);
+			color: var(--primary);
 		}
 	}
 

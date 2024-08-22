@@ -120,7 +120,7 @@
 		border-radius: var(--base-border-radius);
 		border: none;
 		cursor: pointer;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		border: 1px solid;
 		width: 155px;
 	}
@@ -155,17 +155,17 @@
 	}
 	::placeholder {
 		/* Chrome, Firefox, Opera, Safari 10.1+ */
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		opacity: 1; /* Firefox */
 	}
 
 	:-ms-input-placeholder {
 		/* Internet Explorer 10-11 */
-		color: var(--color-theme-purple);
+		color: var(--primary);
 	}
 
 	::-ms-input-placeholder {
 		/* Microsoft Edge */
-		color: var(--color-theme-purple);
+		color: var(--primary);
 	}
 </style>

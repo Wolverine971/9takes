@@ -251,11 +251,11 @@
 	h1,
 	h2,
 	h3 {
-		color: #260958;
+		color: var(--primary-dark);
 	}
 
 	.profile-card {
-		background: linear-gradient(to right, #000, #5407d9, #000);
+		background: linear-gradient(to right, #000, var(--primary), #000);
 		border-radius: 10px;
 		padding: 2px;
 		cursor: pointer;
@@ -320,7 +320,7 @@
 
 	.highlight {
 		font-size: 1.5rem;
-		color: #5407d9;
+		color: var(--primary);
 		font-weight: bold;
 		margin: 20px 0;
 		text-align: center;
@@ -355,8 +355,8 @@
 	}
 
 	.btn {
-		background-color: #5407d9;
-		color: white;
+		background-color: var(--primary);
+		color: var(--accent);
 		border: none;
 		padding: 10px 20px;
 		border-radius: 5px;
@@ -369,7 +369,7 @@
 	}
 
 	a {
-		color: #260958;
+		color: var(--primary-dark);
 		text-decoration: none;
 		position: relative;
 

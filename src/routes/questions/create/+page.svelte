@@ -24,7 +24,7 @@
 		type: 'image/png',
 		quality: 0.3,
 		margin: 1,
-		color: { dark: '#5407d9', light: '#ffffff' }
+		color: { dark: 'var(--primary)', light: '#ffffff' }
 	};
 
 	onMount(() => {
@@ -136,7 +136,7 @@
 	h2 {
 		text-align: center;
 		margin-bottom: 1rem;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 	}
 
 	.question-form {
@@ -157,7 +157,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--color-theme-purple);
+			border-color: var(--primary);
 		}
 	}
 
@@ -170,8 +170,8 @@
 		transition: background-color 0.3s ease, opacity 0.3s ease;
 
 		&.btn-primary {
-			background-color: var(--color-theme-purple);
-			color: white;
+			background-color: var(--primary);
+			color: var(--accent);
 
 			&:hover:not(.disabled) {
 				background-color: var(--color-theme-purple-light);

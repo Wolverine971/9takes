@@ -293,7 +293,7 @@
 		justify-content: center;
 		font-size: 2rem;
 		line-height: 1.5;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		height: auto;
 		border: none;
 		// transition: all 1.2s ease-in-out;

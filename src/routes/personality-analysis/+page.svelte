@@ -66,7 +66,7 @@
 						<h3 style="">
 							<span>All {number}s </span>
 							<br />
-							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#5407d9'} />
+							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 						</h3>
 					</div>
 				</a>
@@ -150,7 +150,7 @@
 		&:hover {
 			text-decoration: none;
 			filter: sepia(100%) hue-rotate(160deg);
-			border: 1px solid var(--color-theme-purple) !important;
+			border: 1px solid var(--primary) !important;
 		}
 	}
 

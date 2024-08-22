@@ -1,16 +1,19 @@
 :root {
 	// Colors
-	--primary: #5407d9;
-	--primary-dark: #2f0479;
-	--accent: #121212;
-	--accent-dark: #221717;
-	--secondary: #f72585;
-	--secondary-dark: #91174e;
+	--primary: #000000;
+	--primary-dark: #1a1a1a;
+	--accent: #b3a6c9;
+	--accent-dark: #bc96fd;
+	--secondary: #c0c0c0;
+	--secondary-dark: #a0a0a0;
 	--success: #4caf50;
-	--info: #d4d4d4;
-	--warning: #fb8c00;
-	--error: #ff5252;
+	--info: #f0f0f0;
+	--warning: #ff8c00;
+	--error: #dc143c;
 
+
+	// --color-theme-purple-light: #b3a6c9;
+	// --color-theme-purple-lighter: #bc96fd;
 	// Theme colors
 	--dark-200: hsl(222, 15%, 13%);
 	--dark-100: hsl(222, 15%, 19%);
@@ -38,7 +41,7 @@
 	--font-family: 'Noticia Text', serif;
 
 	// Misc
-	--glass-color: rgba(90, 91, 95, 0.4);
+	--glass-color: rgba(90, 91, 95, 0.1);
 	--classic-border: 1px solid var(--gray);
 	--card-padding: 0.8rem 1rem;
 	--card-margin: 1rem;
@@ -137,7 +140,7 @@ a {
 	}
 
 	a {
-		color: #260958;
+		color: var(--accent);
 
 		&::after {
 			content: '';
@@ -181,7 +184,7 @@ a {
 
 	&-primary {
 		background-color: var(--primary);
-		color: white;
+		color: var(--accent);
 		border: var(--classic-border);
 
 		&:hover {
@@ -191,7 +194,7 @@ a {
 
 	&-secondary {
 		background-color: var(--secondary);
-		color: white;
+		color: var(--accent);
 
 		&:hover {
 			background-color: var(--secondary-dark);
@@ -219,7 +222,7 @@ a {
 }
 
 .card {
-	background-color: white;
+	background-color: var(--accent);
 	border-radius: var(--border-radius);
 	box-shadow: var(--card-box-shadow);
 	padding: var(--card-padding);
@@ -331,7 +334,7 @@ section {
 		max-width: 100%;
 		overflow: hidden;
 		vertical-align: middle;
-		color: #260958;
+		color: var(--primary-dark);
 
 		&::after {
 			display: inline-block;
@@ -414,6 +417,7 @@ section {
 	margin: 0.25rem 0;
 	padding: 5px 10px;
 	border-radius: var(--border-radius);
+	color: var(--accent);
 
 	&:disabled {
 		opacity: 0.6;

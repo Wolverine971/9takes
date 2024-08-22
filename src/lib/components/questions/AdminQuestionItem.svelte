@@ -115,7 +115,7 @@
 				<MasterCommentIcon
 					iconStyle="margin-left: .5rem"
 					height="1.5rem"
-					fill={questionData.comment_count ? 'var(--color-theme-purple)' : ''}
+					fill={questionData.comment_count ? 'var(--primary)' : ''}
 					type={questionData.comment_count ? 'multiple' : 'empty'}
 				/>
 			</span>

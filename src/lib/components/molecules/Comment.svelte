@@ -252,7 +252,7 @@
 								if (e?.key === 'Enter') getModal(`edit-modal-${_commentComment.id}`).open();
 							}}
 						>
-							<EditIcon height={'1rem'} fill={'#5407d9'} />
+							<EditIcon height={'1rem'} fill={'var(--accent)'} />
 						</button>
 					{/if}
 
@@ -285,7 +285,7 @@
 							<MasterCommentIcon
 								iconStyle={'padding: 0.25rem;'}
 								height={'1.5rem'}
-								fill={'#5407d9'}
+								fill={'var(--accent)'}
 								type={comment.length ? 'full' : 'empty'}
 							/>
 						</button>
@@ -295,7 +295,7 @@
 							style="{'padding: 0.25rem; height: 45px;'} color: {likes &&
 								user?.id &&
 								likes.some((e) => e.user_id === user?.id) &&
-								'#5407d9'}"
+								'var(--primary)'}"
 							on:click={likeComment}
 						>
 							{#if likes.length}
@@ -309,7 +309,7 @@
 								fill={(likes &&
 									user?.id &&
 									likes.some((e) => e.user_id === user?.id) &&
-									'#5407d9') ||
+									'var(--primary)') ||
 									'#444'}
 							/>
 						</button>
@@ -319,7 +319,7 @@
 							slot="icon"
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
-							fill={'#5407d9'}
+							fill={'var(--accent)'}
 						/>
 
 						<div slot="popoverValue">
@@ -327,7 +327,7 @@
 								<div class="comment-meta">
 									<span style="min-width:30px; display:flex; gap: .5rem; padding: .5rem">
 										{#if _commentComment.modified_at}
-											<span style="color: #5407d9" title="modified">M</span>
+											<span style="color: var(--primary)" title="modified">M</span>
 										{/if}
 										<time itemprop="dateCreated" datetime={createdOrModifiedAt}
 											>{createdOrModifiedAt}</time
@@ -364,7 +364,7 @@
 						<MasterCommentIcon
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
-							fill={'#5407d9'}
+							fill={'var(--accent)'}
 							type={comment.length ? 'full' : 'empty'}
 						/>
 					</button>
@@ -374,7 +374,7 @@
 						style="{'padding: 0.25rem;'} color: {likes &&
 						user?.id &&
 						likes.some((e) => e.user_id === user?.id)
-							? '#5407d9'
+							? 'var(--primary)'
 							: '#444'}"
 						on:click={likeComment}
 					>
@@ -387,7 +387,7 @@
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
 							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id)
-								? '#5407d9'
+								? 'var(--primary)'
 								: '#444') || ''}
 						/>
 					</button>
@@ -396,14 +396,14 @@
 							slot="icon"
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
-							fill={'#5407d9'}
+							fill={'var(--accent)'}
 						/>
 
 						<div slot="popoverValue">
 							<div style="display: flex; flex-direction: column">
 								<span style="min-width:30px; display:flex; gap: .5rem">
 									{#if _commentComment.modified_at}
-										<span style="color: #5407d9" title="modified">M</span>
+										<span style="color: var(--primary)" title="modified">M</span>
 									{/if}
 									<time itemprop="dateCreated" datetime={createdOrModifiedAt}
 										>{createdOrModifiedAt}</time
@@ -441,7 +441,7 @@
 				<RightIcon
 					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
 					height={'1.5rem'}
-					fill={'#5407d9'}
+					fill={'var(--accent)'}
 				/>
 			{/if}
 		</button>
@@ -468,7 +468,7 @@
 				<MasterCommentIcon
 					iconStyle={'padding: 0.25rem;'}
 					height={'1rem'}
-					fill={'#5407d9'}
+					fill={'var(--accent)'}
 					type={'multiple'}
 				/>
 				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
@@ -578,9 +578,9 @@
 	}
 	.active {
 		border: 1px solid var(--color-theme-purple-light);
-		color: var(--color-theme-purple);
+		color: var(--primary);
 	}
 	.active:hover {
-		border: 1px solid var(--color-theme-purple);
+		border: 1px solid var(--primary);
 	}
 </style>

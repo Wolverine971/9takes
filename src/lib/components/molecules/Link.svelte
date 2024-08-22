@@ -89,7 +89,7 @@
 			background-color: rgba(0, 0, 0, 0.7);
 			padding: 1rem;
 			border-radius: 5px;
-			color: white;
+			color: var(--accent);
 		}
 
 		.meta-content {

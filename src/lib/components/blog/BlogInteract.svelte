@@ -103,7 +103,7 @@
 	<button
 		class="btn btn-primary sub-comment"
 		type="button"
-		style={comment?.length > 1 ? 'color: #5407d9; border: 1px solid #5407d9;' : ''}
+		style={comment?.length > 1 ? 'color: var(--primary); border: 1px solid var(--primary);' : ''}
 		title="You only YOLO once"
 		on:click={createComment}
 		disabled={comment?.length < 1}
@@ -113,7 +113,7 @@
 			<RightIcon
 				iconStyle={'margin-left: .5rem; padding: 0 0.25rem;'}
 				height={'1.5rem'}
-				fill={'#5407d9'}
+				fill={'var(--accent)'}
 			/>
 		{/if}
 	</button>

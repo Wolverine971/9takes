@@ -65,9 +65,9 @@
             --color-paladin-3: #52616b;
             --classic-border: 1px solid var(--color-paladin-3);
             --base-border-radius: 5px;
-            --color-theme-purple: #5407d9;
+            --color-theme-purple: var(--primary);
             --color-theme-purple-d: #2f0479;
-            --color-theme-purple-light: #b3a6c9;
+            --color-theme-purple-light: var(--accent);
             --color-theme-purple-lighter: #bc96fd;
             --base-white-outline: #f0f5f9;
             --base-grey-0: #d8d8d8;
@@ -127,7 +127,7 @@
             font-weight: 400;
             margin: 1rem;
             display: flex;
-            text-shadow: -1px -1px 0 #5407d9, 1px -1px 0 #5407d9, -1px 1px 0 #000, 1px 1px 0 #000;
+            text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary), -1px 1px 0 #000, 1px 1px 0 #000;
             color: #fff !important;
         }
         .brand {
@@ -153,7 +153,7 @@
             margin: 0.5rem;
             border-radius: var(--base-border-radius);
             padding: 0.2rem;
-            background-color: var(--base-grey-2);
+            background-color: var(--accent);
             background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
         }
 	.question-box {

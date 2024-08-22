@@ -69,7 +69,7 @@ Over time, the internet has become increasingly fragmented. The once vibrant pla
 		</ul>
 		We are now more divided than ever, and depression is on the rise.
 	</section>
-	<section class="wave-sections" style="border: 1px solid #5407d9;">
+	<section class="wave-sections" style="border: 1px solid var(--primary);">
 		<h4 style="margin-top: 0; padding-top: 0;">🎭 New wave ❓</h4>
 		<p><b>The new social media</b> is about self-expression and finding friends.</p>
 		<ul>
@@ -117,7 +117,7 @@ There are a few problems with just asking a question online. You are not guarant
 
 ### How 9takes Gets the Best Answers
 
-<!-- 9takes is leveraging <span style="color: #5407d9">personality theory</span> to create an a different community. -->
+<!-- 9takes is leveraging <span style="color: var(--primary)">personality theory</span> to create an a different community. -->
 
 <ul class="plain-list">
 <li>
@@ -145,7 +145,7 @@ This is how you get original comments that are unbiased. It is a new habit that 
 	<span class="center-svg">
 		<Rubix height={'1.5rem'} width={'1.5rem'} /> 
 	</span>
-	Leverage <b style="color: #5407d9; text-wrap: nowrap">personality theory</b> <span style=" text-wrap: nowrap">(the Enneagram)</span>
+	Leverage <b style="color: var(--primary); text-wrap: nowrap">personality theory</b> <span style=" text-wrap: nowrap">(the Enneagram)</span>
 	</span>
 <ul class="plain-list-w-margin">
 <!-- write blog on this:

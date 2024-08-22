@@ -116,7 +116,7 @@
 		font-size: 0.8rem;
 		margin: 0.25rem;
 		padding: 0.25rem;
-		background-color: var(--base-grey-2);
+		background-color: var(--accent);
 		width: fit-content;
 		cursor: pointer;
 

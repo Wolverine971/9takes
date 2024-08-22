@@ -19,7 +19,7 @@
 			<MasterCommentIcon
 				iconStyle={'margin-left: .5rem'}
 				height={'1.5rem'}
-				fill={questionData.comment_count ? '#5407d9' : ''}
+				fill={questionData.comment_count ? 'var(--primary)' : ''}
 				type={questionData.comment_count ? 'multiple' : 'empty'}
 			/>
 		</span>
@@ -34,7 +34,7 @@
 		display: flex;
 		justify-content: space-between;
 		font-weight: bold;
-		color: var(--color-p-dark); //var(--color-theme-purple);
+		color: var(--color-p-dark); //var(--primary);
 	}
 
 	.question-display {

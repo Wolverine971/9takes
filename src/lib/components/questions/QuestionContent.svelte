@@ -91,7 +91,7 @@
 						this={iconComponents[tab]}
 						iconStyle={''}
 						height={'1.5rem'}
-						fill={selectedTab === tab ? 'var(--color-theme-purple)' : ''}
+						fill={selectedTab === tab ? 'var(--primary)' : ''}
 						type={tab === 'Comments' ? 'multiple' : undefined}
 					/>
 				{/if}
@@ -182,8 +182,8 @@
 		}
 
 		&.active {
-			color: var(--color-theme-purple);
-			border-bottom: 2px solid var(--color-theme-purple);
+			color: var(--primary);
+			border-bottom: 2px solid var(--primary);
 		}
 	}
 

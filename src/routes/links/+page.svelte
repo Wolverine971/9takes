@@ -13,7 +13,7 @@
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: '#5407d9',
+			dark: 'var(--primary)',
 			light: ''
 		}
 	};

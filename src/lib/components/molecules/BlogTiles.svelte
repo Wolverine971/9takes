@@ -203,7 +203,7 @@
 		&:hover {
 			text-decoration: none;
 			filter: sepia(100%) hue-rotate(160deg);
-			border: 1px solid var(--color-theme-purple) !important;
+			border: 1px solid var(--primary) !important;
 		}
 	}
 	.people-grid-container {

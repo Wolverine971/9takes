@@ -144,7 +144,7 @@
 
 	.profile-section,
 	.subscriptions-section {
-		background-color: var(--base-grey-2);
+		background-color: var(--accent);
 		border-radius: var(--base-border-radius);
 		padding: 1rem;
 		margin-bottom: 1.5rem;
@@ -196,7 +196,7 @@
 	.subscription-link {
 		display: block;
 		padding: 0.5rem 0;
-		color: var(--color-theme-purple);
+		color: var(--primary);
 		text-decoration: none;
 		transition: color 0.3s ease;
 		word-break: break-word;
@@ -215,8 +215,8 @@
 		font-size: 0.9rem;
 
 		&-primary {
-			background-color: var(--color-theme-purple);
-			color: white;
+			background-color: var(--primary);
+			color: var(--accent);
 
 			&:hover {
 				background-color: var(--color-theme-purple-light);

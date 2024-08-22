@@ -66,7 +66,7 @@
 		<SlidersIcon
 			iconStyle={'padding-right: 0.5rem; margin: .5rem 0'}
 			height={'1.5rem'}
-			fill={'#b3a6c9'}
+			fill={'var(--accent)'}
 		/>
 
 		Filter Comments
@@ -79,7 +79,7 @@
 			getModal('sorter').open();
 		}}
 	>
-		<SlidersIcon iconStyle={'padding: 0.25rem; margin: .5rem'} height={'1.5rem'} fill={'#b3a6c9'} />
+		<SlidersIcon iconStyle={'padding: 0.25rem; margin: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
 	</button>
 {/if}
 
@@ -150,7 +150,7 @@
 		.sort-btn {
 			margin: 0.2rem;
 			padding: 0.2rem;
-			border: 1px solid var(--color-theme-purple);
+			border: 1px solid var(--primary);
 		}
 	}
 </style>
