@@ -220,5 +220,4 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
 <style lang="scss">
 
-
 </style>

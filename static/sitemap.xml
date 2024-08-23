@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://9takes.com</loc>
 <lastmod>2024-07-03</lastmod>
@@ -96,7 +99,7 @@
 </url>
 <url>
 <loc>https://9takes.com/personality-analysis/type/3</loc>
-<lastmod>2024-08-16</lastmod>
+<lastmod>2024-08-23</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -1190,6 +1193,15 @@
 <priority>0.7</priority>
 <image:image>
 <image:loc>https://9takes.com/types/4s/Miley-Cyrus.webp</image:loc>
+</image:image>
+</url>
+<url>
+<loc>https://9takes.com/personality-analysis/Sabrina-Carpenter</loc>
+<lastmod>2024-08-23T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<image:image>
+<image:loc>https://9takes.com/types/3s/Sabrina-Carpenter.webp</image:loc>
 </image:image>
 </url>
 <url>
