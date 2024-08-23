@@ -3,7 +3,7 @@
 	import { createEventDispatcher } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
-	import { debounce } from '../../utils/debounce'; // Implement this utility function
+	import { debounce } from '../../utils/debounce';
 
 	const dispatch = createEventDispatcher();
 
@@ -28,7 +28,7 @@
 				}&lastDate=${lastDate}&range=${comments.length || 0}`
 			);
 			const newComments = await response.json();
-			if (!newComments?.message) {
+			if (Array.isArray(newComments) && newComments.length) {
 				comments = [...comments, ...newComments];
 			}
 		} catch (error) {
@@ -38,7 +38,7 @@
 		}
 	}, 300);
 
-	const refreshComments = async (data: any) => {
+	const refreshComments = async () => {
 		if (parentType !== 'question') return;
 		dispatch('commentAdded');
 		loading = true;
@@ -47,7 +47,7 @@
 				`/comments?type=${parentType}&parentId=${questionId}&lastDate=${lastDate}`
 			);
 			const newComments = await response.json();
-			if (!newComments?.message) {
+			if (Array.isArray(newComments) && newComments.length) {
 				comments = newComments;
 				comment_count += 1;
 			}
@@ -63,32 +63,32 @@
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 
-{#if !browser || (comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment')}
-	{#if comments.length}
-		{#each comments as comment (comment.id)}
-			<div transition:fade>
-				<Comment
-					{questionId}
-					{comment}
-					{user}
-					{parentData}
-					on:commentAdded={({ detail }) => refreshComments(detail)}
-				/>
-			</div>
-		{/each}
-		{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}
-			<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
-				{#if loading}
-					<div class="loader" />
-				{:else}
-					Load More
-				{/if}
-			</button>
-		{/if}
-	{:else}
-		<p>No comments yet</p>
+{#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
+	{#each comments as comment (comment.id)}
+		<div transition:fade>
+			<Comment
+				{questionId}
+				{comment}
+				{user}
+				{parentData}
+				on:commentAdded={refreshComments}
+			/>
+		</div>
+	{/each}
+	{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}
+		<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
+			{loading ? 'Loading...' : 'Load More'}
+		</button>
 	{/if}
+{:else if comments.length === 0}
+	<p>No comments yet</p>
 {/if}
 
 <style lang="scss">
+	.btn {
+		/* Add your button styles here */
+	}
+	.loader {
+		/* Add your loader styles here */
+	}
 </style>

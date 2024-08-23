@@ -340,8 +340,14 @@ textarea {
 	padding: 1rem;
 	width: 100%;
 	background-color: var(--base-grey-2);
+	/* background-color: #d7d7d7; */
 	border: 1px solid var(--base-white-outline) !important;
 }
+
+.interact-textbox:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px var(--accent);
+  }
 
 .shimmer-button {
 	background-image: linear-gradient(

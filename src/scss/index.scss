@@ -258,7 +258,7 @@ a {
 
 	&:focus {
 		outline: 1px solid var(--primary);
-		box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+		box-shadow: 0 0 0 0.2rem var(--primary-dark);
 	}
 }
 
@@ -373,6 +373,7 @@ section {
 	max-height: 7em;
 	overflow: hidden;
 	transition: max-height 0.3s ease;
+	// background-color: darken(#f0f0f0, 5%);
 
 	&.expanded {
 		max-height: none;

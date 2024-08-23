@@ -1,19 +1,19 @@
 <script lang="ts">
+	import { createEventDispatcher, onMount } from 'svelte';
+	import { deserialize } from '$app/forms';
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
+	import { notifications } from '$lib/components/molecules/notifications';
 	import Card from '$lib/components/atoms/card.svelte';
 	import Comments from '$lib/components/molecules//Comments.svelte';
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import Popover from '$lib/components/atoms/Popover.svelte';
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
-	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import { createEventDispatcher } from 'svelte';
-	import { deserialize } from '$app/forms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
 	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
-
-	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import EditIcon from '$lib/components/icons/editIcon.svelte';
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-	import Popover from '$lib/components/atoms/Popover.svelte';
+
 	const dispatch = createEventDispatcher();
 
 	export let user: any;
@@ -21,78 +21,83 @@
 	export let parentData: any;
 	export let questionId: number;
 
-	$: comment, matchData();
-
-	let likes: any[] = comment?.comment_like ? [...comment.comment_like] : [];
-	let loadingComments: boolean = false;
-	let loading: boolean = false;
+	let likes: any[] = [];
+	let loadingComments = false;
+	let loading = false;
 	let innerWidth = 0;
-	let newcomment: string = '';
+	let newcomment = '';
 	let _commentComment: any = null;
-	let commenting: boolean = false;
-	let anonymousComment: boolean = false;
-	let commentEdit: string = comment.comment;
-	let flaggingReasonDescription: string = '';
-	let flaggingReasonId: string = '';
+	let commenting = false;
+	let anonymousComment = false;
+	let commentEdit = '';
+	let flaggingReasonDescription = '';
+	let flaggingReasonId = '';
 
-	const lastDate = comment?.comments?.length
-		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
+	$: lastDate = comment?.comments?.length
+		? comment.comments[comment.comments.length - 1]?.created_at || null
 		: null;
 
-	if (comment?.id) {
-		_commentComment = Object.assign({}, comment);
-	}
-	const createdOrModifiedAt = new Date(
-		_commentComment.modified_at || _commentComment.created_at
+	$: createdOrModifiedAt = new Date(
+		comment.modified_at || comment.created_at
 	).toLocaleDateString('en-US');
 
-	const matchData = () => {
-		_commentComment = Object.assign({}, comment);
-		likes = comment?.comment_like ? [...comment.comment_like] : [];
-	};
+	onMount(() => {
+		updateCommentData();
+	});
 
-	const loadMore = async () => {
+	$: if (comment) {
+		updateCommentData();
+	}
+
+	function updateCommentData() {
+		_commentComment = { ...comment };
+		likes = comment?.comment_like ? [...comment.comment_like] : [];
+		commentEdit = comment.comment;
+	}
+
+	async function loadMore() {
 		if (!user) {
 			notifications.info('Must register or login to see nested comments', 3000);
 			return;
 		}
 		loadingComments = true;
-		await fetch(
-			`/comments?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}&range=${
-				comment?.comments?.length || 0
-			}`
-		)
-			.then((response) => response.json())
-			.then((newcommentData) => {
-				if (!_commentComment.comments) {
-					_commentComment.comments = [];
-				}
-				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
-			});
-		loadingComments = false;
-	};
+		try {
+			const response = await fetch(
+				`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}&range=${
+					comment?.comments?.length || 0
+				}`
+			);
+			const newcommentData = await response.json();
+			if (!_commentComment.comments) {
+				_commentComment.comments = [];
+			}
+			_commentComment.comments = [..._commentComment.comments, ...newcommentData];
+		} catch (error) {
+			console.error('Error loading comments:', error);
+			notifications.danger('Error loading comments', 3000);
+		} finally {
+			loadingComments = false;
+		}
+	}
 
-	const likeComment = async () => {
+	async function likeComment() {
 		if (!user) {
 			notifications.info('Must register or login to like comments', 3000);
 			return;
 		}
 		const operation = likes && likes.some((e) => e.user_id === user.id) ? 'remove' : 'add';
-		let body = new FormData();
+		const body = new FormData();
 		body.append('parent_id', comment.id);
 		body.append('user_id', user.id);
 		body.append('es_id', comment.es_id);
 		body.append('operation', operation);
 
-		const resp = await fetch('?/likeComment', {
-			method: 'POST',
-			body
-		});
+		try {
+			const resp = await fetch('?/likeComment', { method: 'POST', body });
+			const result: any = deserialize(await resp.text());
 
-		const result: any = deserialize(await resp.text());
-
-		notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
-		const newLike = result?.data;
+			notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
+			const newLike = result?.data;
 		if (newLike) {
 			likes = [newLike, ...likes];
 		} else {
@@ -100,114 +105,123 @@
 				c.user_id !== user.id;
 			});
 		}
-	};
-
-	const createComment = async () => {
-		if (!parentData?.flags?.userSignedIn && !user?.id) {
-			if (parentData?.flags?.userHasAnswered || anonymousComment) {
-				notifications.info('Must register or login to comment multiple times', 3000);
-				return;
-			} else {
-				notifications.info('Must register or login to comment on other comments', 3000);
-				return;
-			}
+		} catch (error) {
+			console.error('Error liking comment:', error);
+			notifications.danger('Error processing like', 3000);
 		}
+	}
+
+	async function createComment() {
+		if (!canComment()) return;
 		loading = true;
 
-		const fp = await FingerprintJS.load();
-		const fpval = await fp.get();
+		try {
+			const fp = await FingerprintJS.load();
+			const fpval = await fp.get();
 
-		let body = new FormData();
-		body.append('comment', newcomment);
-		body.append('parent_id', comment.id);
-		body.append('author_id', user.id);
-		body.append('parent_type', 'comment');
-		body.append('es_id', comment.es_id);
-		body.append('question_id', questionId.toString());
-		body.append('fingerprint', fpval?.visitorId?.toString());
+			const body = new FormData();
+			body.append('comment', newcomment);
+			body.append('parent_id', comment.id);
+			body.append('author_id', user.id);
+			body.append('parent_type', 'comment');
+			body.append('es_id', comment.es_id);
+			body.append('question_id', questionId.toString());
+			body.append('fingerprint', fpval?.visitorId?.toString());
 
-		const resp = await fetch('?/createCommentRando', {
-			method: 'POST',
-			body
-		});
+			const resp = await fetch('?/createCommentRando', { method: 'POST', body });
+			const result: any = deserialize(await resp.text());
 
-		const result: any = deserialize(await resp.text());
+			if (result.error) {
+				throw new Error(result.error);
+			}
 
-		if (result.error) {
-			notifications.danger('Error adding comment', 3000);
-			console.log(result.error);
-		} else {
 			notifications.info('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
 			newcomment = '';
 			commenting = false;
+		} catch (error) {
+			console.error('Error adding comment:', error);
+			notifications.danger('Error adding comment', 3000);
+		} finally {
+			loading = false;
 		}
-		loading = false;
-	};
+	}
 
-	const expandText = () => {
-		const container: any = document.querySelector(`#comment-box${comment.id}`);
-		if (container) {
+	function canComment() {
+		if (!parentData?.flags?.userSignedIn && !user?.id) {
+			if (parentData?.flags?.userHasAnswered || anonymousComment) {
+				notifications.info('Must register or login to comment multiple times', 3000);
+				return false;
+			} else {
+				notifications.info('Must register or login to comment on other comments', 3000);
+				return false;
+			}
+		}
+		return true;
+	}
+
+	function expandText() {
+		const container = document.querySelector(`#comment-box${comment.id}`);
+		const readMore = document.querySelector(`#read-more-btn${comment.id}`);
+		if (container instanceof HTMLElement) {
 			container.classList.add('expanded');
 			container.style.maxHeight = 'none';
 		}
-
-		const readMore: any = document.querySelector(`#read-more-btn${comment.id}`);
-		if (readMore) {
+		if (readMore instanceof HTMLElement) {
 			readMore.style.display = 'none';
 		}
-	};
+	}
 
-	const save = async () => {
+	async function save() {
 		loading = true;
-
-		let body = new FormData();
+		const body = new FormData();
 		body.append('comment', commentEdit);
 		body.append('comment_id', _commentComment.id);
 
-		const resp = await fetch('/comments', {
-			method: 'POST',
-			body
-		});
+		try {
+			const resp = await fetch('/comments', { method: 'POST', body });
+			const result: any = deserialize(await resp.text());
 
-		const result: any = deserialize(await resp.text());
-
-		if (result?.success) {
-			notifications.info('Comment Updated', 3000);
-			_commentComment.comment = commentEdit;
-			getModal(`edit-modal-${_commentComment.id}`).close();
-		} else {
+			if (result?.success) {
+				notifications.info('Comment Updated', 3000);
+				_commentComment.comment = commentEdit;
+				getModal(`edit-modal-${_commentComment.id}`).close();
+			} else {
+				throw new Error(result.error);
+			}
+		} catch (error) {
+			console.error('Error updating comment:', error);
 			notifications.danger('Error updating comment', 3000);
-			console.log(result.error);
+		} finally {
+			loading = false;
 		}
-		loading = false;
-	};
+	}
 
-	const submitFlag = async () => {
+	async function submitFlag() {
 		loading = true;
-
-		let body = new FormData();
+		const body = new FormData();
 		body.append('description', flaggingReasonDescription);
 		body.append('comment_id', _commentComment.id);
 		body.append('reason_id', flaggingReasonId);
 
-		const resp = await fetch('?/flagComment', {
-			method: 'POST',
-			body
-		});
+		try {
+			const resp = await fetch('?/flagComment', { method: 'POST', body });
+			const result: any = deserialize(await resp.text());
 
-		const result: any = deserialize(await resp.text());
-
-		if (result?.type === 'success') {
-			notifications.info('Comment Flagged', 3000);
-			flaggingReasonDescription = '';
-		} else {
+			if (result?.type === 'success') {
+				notifications.info('Comment Flagged', 3000);
+				flaggingReasonDescription = '';
+				getModal(`flag-comment-modal-${_commentComment.id}`).close();
+			} else {
+				throw new Error(result.error);
+			}
+		} catch (error) {
+			console.error('Error flagging comment:', error);
 			notifications.danger('Error flagging comment', 3000);
-			console.log(result.error);
+		} finally {
+			loading = false;
 		}
-		loading = false;
-		getModal(`flag-comment-modal-${_commentComment.id}`).close();
-	};
+	}
 </script>
 
 <svelte:window bind:innerWidth />
@@ -219,12 +233,8 @@
 		itemscope
 		itemtype="https://schema.org/Answer"
 	>
-		<div
-			style="display: flex; {innerWidth > 500
-				? 'width: 95%;'
-				: 'flex-direction: column; width: 100%;'}"
-		>
-			<div style="display: flex; flex-direction: column; width: 100%}">
+		<div style="display: flex; {innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}">
+			<div style="display: flex; flex-direction: column; width: 100%">
 				<p class="comment-box" id="comment-box{comment.id}">
 					{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 						<a
@@ -232,8 +242,10 @@
 							class="profile-avatar active"
 							href={_commentComment?.profiles?.external_id
 								? `/users/${_commentComment.profiles.external_id}`
-								: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
+								: ''}
 						>
+							{_commentComment?.profiles?.enneagram || 'Rando'}
+						</a>
 					{:else}
 						<span class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}">
 							Rando
@@ -245,19 +257,13 @@
 							class="comment-edit"
 							itemprop="text"
 							title="Edit"
-							on:click={async () => {
-								getModal(`edit-modal-${_commentComment.id}`).open();
-							}}
-							on:keydown={(e) => {
-								if (e?.key === 'Enter') getModal(`edit-modal-${_commentComment.id}`).open();
-							}}
+							on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
 						>
 							<EditIcon height={'1rem'} fill={'var(--accent)'} />
 						</button>
 					{/if}
-
-					<span class="comment-text" itemprop="text" style="white-space: pre-line"
-						>{_commentComment.comment}
+					<span class="comment-text" itemprop="text" style="white-space: pre-line">
+						{_commentComment.comment}
 					</span>
 				</p>
 				{#if _commentComment?.comment?.length > 136}
@@ -266,95 +272,15 @@
 						tabindex="0"
 						id="read-more-btn{comment.id}"
 						class="read-more-btn"
-						on:click={() => expandText()}
-						on:keydown={(e) => {
-							if (e?.key === 'Enter') expandText();
-						}}>Read More</span
+						on:click={expandText}
+						on:keydown={(e) => e.key === 'Enter' && expandText()}
 					>
+						Read More
+					</span>
 				{/if}
 			</div>
-			{#if innerWidth < 500}
-				<div style="display: flex; justify-content: space-between; align-items: center;">
-					<div style="display: flex; align-items: center; gap: 0.5rem;">
-						<button
-							title="Comment"
-							class=""
-							style="padding: 0.25rem; height: 45px;"
-							on:click={() => (commenting = !commenting)}
-						>
-							<MasterCommentIcon
-								iconStyle={'padding: 0.25rem;'}
-								height={'1.5rem'}
-								fill={'var(--accent)'}
-								type={comment.length ? 'full' : 'empty'}
-							/>
-						</button>
-						<button
-							title="Like"
-							class=""
-							style="{'padding: 0.25rem; height: 45px;'} color: {likes &&
-								user?.id &&
-								likes.some((e) => e.user_id === user?.id) &&
-								'var(--primary)'}"
-							on:click={likeComment}
-						>
-							{#if likes.length}
-								<span itemprop="upvoteCount">
-									{likes.length}
-								</span>
-							{/if}
-							<ThumbsUpIcon
-								iconStyle={'padding: 0.25rem;'}
-								height={'1.5rem'}
-								fill={(likes &&
-									user?.id &&
-									likes.some((e) => e.user_id === user?.id) &&
-									'var(--primary)') ||
-									'#444'}
-							/>
-						</button>
-					</div>
-					<Popover>
-						<SettingsIcon
-							slot="icon"
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={'var(--accent)'}
-						/>
-
-						<div slot="popoverValue">
-							<div style="display: flex; flex-direction: column">
-								<div class="comment-meta">
-									<span style="min-width:30px; display:flex; gap: .5rem; padding: .5rem">
-										{#if _commentComment.modified_at}
-											<span style="color: var(--primary)" title="modified">M</span>
-										{/if}
-										<time itemprop="dateCreated" datetime={createdOrModifiedAt}
-											>{createdOrModifiedAt}</time
-										>
-									</span>
-								</div>
-								<button
-									title="settings"
-									class="btn btn-primary"
-									style="padding: 0.25rem; height: 45px;"
-									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
-								>
-									Flag Comment
-								</button>
-							</div>
-						</div>
-					</Popover>
-				</div>
-			{/if}
-		</div>
-
-		{#if innerWidth >= 500}
-			<div
-				style="display: flex;
-			flex-direction: column; justify-content: center; align-items: flex-end;"
-			>
-				<div style="display: flex; align-items: center;">
+			<div class:mobile={innerWidth < 500} style="display: flex; justify-content: space-between; align-items: center;">
+				<div style="display: flex; align-items: center; gap: 0.5rem;">
 					<button
 						title="Comment"
 						class="btn"
@@ -365,13 +291,13 @@
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
 							fill={'var(--accent)'}
-							type={comment.length ? 'full' : 'empty'}
+							type={_commentComment.comments?.length ? 'full' : 'empty'}
 						/>
 					</button>
 					<button
 						title="Like"
 						class="btn"
-						style="{'padding: 0.25rem;'} color: {likes &&
+						style="padding: 0.25rem; color: {likes &&
 						user?.id &&
 						likes.some((e) => e.user_id === user?.id)
 							? 'var(--primary)'
@@ -386,43 +312,42 @@
 						<ThumbsUpIcon
 							iconStyle={'padding: 0.25rem;'}
 							height={'1.5rem'}
-							fill={(likes && user?.id && likes.some((e) => e.user_id === user.id)
+							fill={likes && user?.id && likes.some((e) => e.user_id === user?.id)
 								? 'var(--primary)'
-								: '#444') || ''}
+								: '#444'}
 						/>
 					</button>
-					<Popover>
-						<SettingsIcon
-							slot="icon"
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={'var(--accent)'}
-						/>
-
-						<div slot="popoverValue">
-							<div style="display: flex; flex-direction: column">
-								<span style="min-width:30px; display:flex; gap: .5rem">
-									{#if _commentComment.modified_at}
-										<span style="color: var(--primary)" title="modified">M</span>
-									{/if}
-									<time itemprop="dateCreated" datetime={createdOrModifiedAt}
-										>{createdOrModifiedAt}</time
-									>
-								</span>
-								<button
-									title="settings"
-									class="btn btn-primary"
-									style="padding: 0.25rem; height: 45px;"
-									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
-								>
-									Flag Comment
-								</button>
-							</div>
-						</div>
-					</Popover>
 				</div>
+				<Popover>
+					<SettingsIcon
+						slot="icon"
+						iconStyle={'padding: 0.25rem;'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
+					<div slot="popoverValue">
+						<div style="display: flex; flex-direction: column">
+							<span style="min-width:30px; display:flex; gap: .5rem">
+								{#if _commentComment.modified_at}
+									<span style="color: var(--primary)" title="modified">M</span>
+								{/if}
+								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
+									{createdOrModifiedAt}
+								</time>
+							</span>
+							<button
+								title="settings"
+								class="btn btn-primary"
+								style="padding: 0.25rem; height: 45px;"
+								on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
+							>
+								Flag Comment
+							</button>
+						</div>
+					</div>
+				</Popover>
 			</div>
-		{/if}
+		</div>
 	</div>
 	{#if commenting}
 		<div class="interact-text-container">
@@ -435,7 +360,7 @@
 			disabled={newcomment?.length < 1}
 		>
 			Submit
-			{#if loading === true}
+			{#if loading}
 				<div class="loader" />
 			{:else if newcomment?.length > 1}
 				<RightIcon
@@ -481,15 +406,12 @@
 	<div style="max-height: 500px; min-width: 350px">
 		<h1>Edit Comment</h1>
 		<textarea rows="5" bind:value={commentEdit} />
-
 		<button
 			class="btn btn-primary save-btn"
 			type="button"
 			style="padding: 0.25rem; display: flex;"
-			on:click={async () => {
-				await save();
-			}}
-		>
+			on:click={save}
+			>
 			Save
 		</button>
 	</div>
@@ -498,29 +420,21 @@
 <Modal2 id={`flag-comment-modal-${_commentComment.id}`}>
 	<div style="max-height: 500px; min-width: 350px">
 		<h1>Flag Comment</h1>
-		{#if parentData?.flagReasons?.length < 1}
+		{#if parentData?.flagReasons?.length > 0}
 			<p>Reason</p>
-
 			<select bind:value={flaggingReasonId}>
-				{#each parentData?.flagReasons as reason}
-					<option value={reason?.id}>{reason?.reason}</option>
+				{#each parentData.flagReasons as reason}
+					<option value={reason.id}>{reason.reason}</option>
 				{/each}
-				<!-- <option value="newest">Newest</option>
-			<option value="oldest">Oldest</option>
-			<option value="likes">Likes</option> -->
 			</select>
 		{/if}
-
 		<p>Description</p>
 		<textarea rows="5" bind:value={flaggingReasonDescription} />
-
 		<button
 			class="btn btn-primary save-btn"
 			type="button"
 			style="padding: 0.25rem; display: flex;"
-			on:click={async () => {
-				await submitFlag();
-			}}
+			on:click={submitFlag}
 		>
 			Send
 		</button>

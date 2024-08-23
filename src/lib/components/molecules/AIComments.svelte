@@ -20,9 +20,9 @@
 		<div class="canned-resp-div">
 			<div style="display: flex; justify-content: space-between; align-items: center;">
 				<div>
-					<h2 style="padding: 0; margin:0;">Generic responses</h2>
+					<h2 style="padding: 0; margin:0;">Stereotypical responses</h2>
 					<p style="margin: .5rem 0 0 0;">
-						Steriotypical responses based on Enneagram types. Don't be basic! 😉
+						 Based on Enneagram types.
 					</p>
 				</div>
 				<button

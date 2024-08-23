@@ -1,482 +1,418 @@
 <script>
-	import { uid, onClickOutside } from '$lib/components/molecules/Context.svelte';
 	import { createEventDispatcher } from 'svelte';
-
+	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
+  
 	const dispatch = createEventDispatcher();
-
-	export let disabled = undefined;
+  
+	export let disabled = false;
 	export let error = undefined;
-	// export let expand = true;
-	export let id = uid();
+	export let id = crypto.randomUUID();
 	export let label = '';
 	export let loading = false;
 	export let name;
-	export let options = []; // : {text:string value: any}[]
+	export let options = [];
 	export let placeholder = undefined;
-	export let readonly = undefined;
-	export let required = undefined;
+	export let readonly = false;
+	export let required = false;
 	export let value = '';
-
-	$: if (options?.length) {
-		const val = document.getElementById(id)?.value;
-		showList(val);
-	}
-
+  
 	export let filter = (text) => {
-		if (!text) return options;
-		const sanitized = text.trim().toLowerCase();
-
-		return options.reduce((a, o) => {
-			let match;
-
-			if (o.options) {
-				const options = o.options.filter((o) => o.text.toLowerCase().includes(sanitized));
-
-				if (options.length) {
-					match = { ...o, options };
-				}
-			} else if (o.text.toLowerCase().includes(sanitized)) {
-				match = o;
-			}
-
-			match && a.push(match);
-
-			return a;
-		}, []);
+	  if (!text) return options;
+	  const sanitized = text.trim().toLowerCase();
+	  return options.reduce((acc, option) => {
+		if (option.options) {
+		  const filteredOptions = option.options.filter(o => o.text.toLowerCase().includes(sanitized));
+		  if (filteredOptions.length) acc.push({ ...option, options: filteredOptions });
+		} else if (option.text.toLowerCase().includes(sanitized)) {
+		  acc.push(option);
+		}
+		return acc;
+	  }, []);
 	};
-
+  
 	let listElement;
 	let inputElement;
 	let list = [];
 	let isListOpen = false;
 	let selectedOption;
-
-	async function onInputKeyup(event) {
-		switch (event.key) {
-			case 'Escape':
-			case 'ArrowUp':
-			case 'ArrowLeft':
-			case 'ArrowRight':
-			case 'Enter':
-			// dispatch('inputChange', {
-			// 	text: event.target.value
-			// });
-			case 'Tab':
-			case 'Shift':
-				break;
-			case 'ArrowDown':
-				await showList(event.target.value);
-				listElement.querySelector(`[role="option"]:not([aria-disabled="true"])`)?.focus();
-
-				event.preventDefault();
-				event.stopPropagation();
-				break;
-
-			default:
-				dispatch('inputChange', {
-					text: event.target.value
-				});
-				await showList(event.target.value);
-		}
+  
+	$: if (options?.length) {
+	  const val = inputElement?.value;
+	  showList(val);
 	}
-
-	function onInputKeydown(event) {
-		let flag = false;
-
-		switch (event.key) {
-			case 'Escape':
-				hideList();
-				flag = true;
-				break;
-			case 'Enter': {
-				event.preventDefault();
-				loading = true;
-				dispatch('selectQuestion', {
-					text: event.target.value
-				});
-				break;
-			}
-
-			case 'Tab':
-				hideList();
-				break;
+  
+	async function handleInputEvent(event) {
+	  const { type, key } = event;
+	  if (type === 'keyup') {
+		if (['Escape', 'ArrowUp', 'ArrowLeft', 'ArrowRight', 'Enter', 'Tab', 'Shift'].includes(key)) return;
+		if (key === 'ArrowDown') {
+		  event.preventDefault();
+		  await showList(event.target.value);
+		  listElement.querySelector(`[role="option"]:not([aria-disabled="true"])`)?.focus();
+		  return;
 		}
-
-		if (flag) {
-			event.preventDefault();
-			event.stopPropagation();
-		}
-	}
-
-	async function onInputClick(event) {
+		dispatch('inputChange', { text: event.target.value });
 		await showList(event.target.value);
-		// Scroll selected option into view.
-		listElement.querySelector(`[role="option"][data-value="${value}"]`)?.scrollIntoView();
+	  } else if (type === 'keydown') {
+		if (key === 'Escape') hideList();
+		else if (key === 'Enter') {
+		  event.preventDefault();
+		  loading = true;
+		  dispatch('selectQuestion', { text: event.target.value });
+		} else if (key === 'Tab') hideList();
+	  }
 	}
-
-	function onOptionClick(event) {
-		if (!event.target.matches(`[role="option"]:not([aria-disabled="true"])`)) return;
-
-		selectOption(event.target);
+  
+	function handleOptionClick(event) {
+	  if (!event.target.matches(`[role="option"]:not([aria-disabled="true"])`)) return;
+	  selectOption(event.target);
+	  hideList();
+	}
+  
+	function handleListKeyDown(event) {
+	  const { key, target } = event;
+	  if (key === 'ArrowUp' || key === 'ArrowDown') {
+		event.preventDefault();
+		const direction = key === 'ArrowUp' ? 'previousElementSibling' : 'nextElementSibling';
+		let nextOption = target[direction];
+		while (nextOption) {
+		  if (nextOption.matches(`[role="option"]:not([aria-disabled="true"])`)) {
+			nextOption.focus();
+			break;
+		  }
+		  nextOption = nextOption[direction];
+		}
+	  } else if (key === 'Enter') {
+		event.preventDefault();
+		selectOption(target);
 		hideList();
-	}
-
-	function onListKeyDown(event) {
-		let flag = false;
-
-		switch (event.key) {
-			case 'ArrowUp':
-				let prevOptionElement = event.target.previousElementSibling;
-
-				while (prevOptionElement) {
-					if (prevOptionElement.matches(`[role="option"]:not([aria-disabled="true"])`)) break;
-					prevOptionElement = prevOptionElement.previousElementSibling;
-				}
-
-				prevOptionElement?.focus();
-				flag = true;
-				break;
-
-			case 'ArrowDown':
-				let nextOptionElement = event.target.nextElementSibling;
-
-				while (nextOptionElement) {
-					if (nextOptionElement.matches(`[role="option"]:not([aria-disabled="true"])`)) break;
-					nextOptionElement = nextOptionElement.nextElementSibling;
-				}
-
-				nextOptionElement?.focus();
-				flag = true;
-				break;
-
-			case 'Enter':
-				selectOption(event.target);
-				hideList();
-				flag = true;
-				break;
-
-			case 'Escape':
-				hideList();
-				flag = true;
-				break;
-
-			case 'Tab':
-				hideList();
-				break;
-
-			default:
-				inputElement.focus();
-		}
-
-		if (flag) {
-			event.preventDefault();
-			event.stopPropagation();
-		}
-	}
-
-	async function showList(inputValue) {
-		// do not need exact match
-		// const isExactMatch = options.some((o) =>
-		// 	o.options ? o.options.some((o) => o.text === inputValue) : o.text === inputValue
-		// );
-
-		list = inputValue === '' ? options : await filter(inputValue);
-		isListOpen = true;
-	}
-
-	function hideList() {
-		if (!isListOpen) return;
-
-		if (selectedOption) {
-			inputElement.value = selectedOption.text;
-		}
-
-		isListOpen = false;
+	  } else if (key === 'Escape') {
+		event.preventDefault();
+		hideList();
+	  } else if (key === 'Tab') {
+		hideList();
+	  } else {
 		inputElement.focus();
+	  }
 	}
-
+  
+	async function showList(inputValue) {
+	  list = inputValue === '' ? options : await filter(inputValue);
+	  isListOpen = true;
+	}
+  
+	function hideList() {
+	  if (!isListOpen) return;
+	  if (selectedOption) {
+		inputElement.value = selectedOption.text;
+	  }
+	  isListOpen = false;
+	  inputElement.focus();
+	}
+  
 	function selectOption(optionElement) {
-		loading = true;
-		const selection = options.find((o) => o.text === optionElement.dataset.text);
-		value = selection.value;
-
-		selectedOption = selection;
-
-		dispatch('selection', value);
+	  loading = true;
+	  const selection = options.find(o => o.text === optionElement.dataset.text);
+	  value = selection.value;
+	  selectedOption = selection;
+	  dispatch('selection', value);
 	}
-</script>
-
-<div class="combobox">
+  </script>
+  
+  <div class="combobox" class:error>
 	{#if label}
-		<label class="combobox__label label" for={id}>
-			{label}
-			{#if error}
-				<span class="form-validation-error">
-					{error}
-				</span>
-			{/if}
-		</label>
-	{/if}
-
-	<div class="input-container" use:onClickOutside={hideList}>
-		<slot name="icon-start" />
-
-		<input
-			bind:this={inputElement}
-			on:focus
-			on:blur
-			on:input
-			on:keyup={onInputKeyup}
-			on:keydown={onInputKeydown}
-			on:mousedown={onInputClick}
-			class="combobox__input "
-			{id}
-			{name}
-			type="text"
-			{disabled}
-			autocapitalize="none"
-			autocomplete="off"
-			{readonly}
-			{placeholder}
-			spellcheck="false"
-			role="combobox"
-			aria-autocomplete="list"
-			aria-expanded={isListOpen}
-			aria-controls="combobox__list"
-			aria-required={required ? 'true' : undefined}
-		/>
-		{#if loading}
-			<div class="icon-container">
-				<i class="loadering" />
-			</div>
+	  <label class="combobox__label" for={id}>
+		{label}
+		{#if error}
+		  <span class="combobox__error">{error}</span>
 		{/if}
-
+	  </label>
+	{/if}
+  
+	<div class="combobox__input-container" use:onClickOutside={hideList}>
+	  <slot name="icon-start" />
+  
+	  <input
+		bind:this={inputElement}
+		on:focus
+		on:blur
+		on:input
+		on:keyup={handleInputEvent}
+		on:keydown={handleInputEvent}
+		on:mousedown={() => showList(inputElement.value)}
+		class="combobox__input"
+		class:loading
+		{id}
+		{name}
+		type="text"
+		{disabled}
+		{readonly}
+		{placeholder}
+		{required}
+		autocapitalize="none"
+		autocomplete="off"
+		spellcheck="false"
+		role="combobox"
+		aria-autocomplete="list"
+		aria-expanded={isListOpen}
+		aria-controls="combobox__list"
+	  />
+	  {#if loading}
+		<div class="combobox__loading-indicator"></div>
+	  {/if}
+  
+	  {#if isListOpen}
 		<ul
-			id="combobox__list"
-			class="combobox__list"
-			role="listbox"
-			aria-label={label}
-			hidden={!isListOpen}
-			on:click={onOptionClick}
-			on:keydown={onListKeyDown}
-			bind:this={listElement}
+		  id="combobox__list"
+		  class="combobox__list"
+		  role="listbox"
+		  aria-label={label}
+		  on:click={handleOptionClick}
+		  on:keydown={handleListKeyDown}
+		  bind:this={listElement}
 		>
-			{#each list as option (option)}
-				{#if option.options}
-					<li class="list__option-heading">
-						<slot name="group" group={option}>
-							{option.text}
-						</slot>
-					</li>
-					{#each option.options as option (option)}
-						<li
-							class="list__option"
-							class:--disabled={option.disabled}
-							role="option"
-							tabindex={option.disabled ? undefined : '-1'}
-							data-text={option.text}
-							data-value={option.value}
-							aria-selected={value === option.value}
-							aria-disabled={option.disabled}
-						>
-							<slot name="option" {option}>
-								{option.text}
-							</slot>
-							{#if option.value === value}
-								<svg viewBox="0 0 24 24" class="icon">
-									<polyline points="20 6 9 17 4 12" />
-								</svg>
-							{/if}
-						</li>
-					{/each}
-				{:else}
-					<li
-						class="list__option"
-						class:--disabled={option.disabled}
-						role="option"
-						tabindex={option.disabled === true ? undefined : '-1'}
-						data-text={option.text}
-						data-value={option.value}
-						aria-selected={value === option.value}
-						aria-disabled={option.disabled}
-					>
-						<slot name="option" {option}>
-							{option.text}
-						</slot>
-						{#if option.value === value}
-							<svg viewBox="0 0 24 24" class="icon">
-								<polyline points="20 6 9 17 4 12" />
-							</svg>
-						{/if}
-					</li>
-				{/if}
+		  {#each list as option (option)}
+			{#if option.options}
+			  <li class="combobox__group-heading">
+				<slot name="group" {option}>
+				  {option.text}
+				</slot>
+			  </li>
+			  {#each option.options as subOption (subOption)}
+				<li
+				  class="combobox__option"
+				  class:disabled={subOption.disabled}
+				  class:selected={value === subOption.value}
+				  role="option"
+				  tabindex={subOption.disabled ? undefined : '-1'}
+				  data-text={subOption.text}
+				  data-value={subOption.value}
+				  aria-selected={value === subOption.value}
+				  aria-disabled={subOption.disabled}
+				>
+				  <slot name="option" option={subOption}>
+					{subOption.text}
+				  </slot>
+				  {#if subOption.value === value}
+					<svg class="combobox__check-icon" viewBox="0 0 24 24" aria-hidden="true">
+					  <polyline points="20 6 9 17 4 12" />
+					</svg>
+				  {/if}
+				</li>
+			  {/each}
 			{:else}
-				<li class="list__no-results">No results available</li>
-			{/each}
+			  <li
+				class="combobox__option"
+				class:disabled={option.disabled}
+				class:selected={value === option.value}
+				role="option"
+				tabindex={option.disabled ? undefined : '-1'}
+				data-text={option.text}
+				data-value={option.value}
+				aria-selected={value === option.value}
+				aria-disabled={option.disabled}
+			  >
+				<slot name="option" {option}>
+				  {option.text}
+				</slot>
+				{#if option.value === value}
+				  <svg class="combobox__check-icon" viewBox="0 0 24 24" aria-hidden="true">
+					<polyline points="20 6 9 17 4 12" />
+				  </svg>
+				{/if}
+			  </li>
+			{/if}
+		  {:else}
+			<li class="combobox__no-results">No results available</li>
+		  {/each}
 		</ul>
-
-		<div class="visually-hidden" role="status" aria-live="polite">
-			{list.length} results available.
-		</div>
+	  {/if}
+  
+	  <div class="visually-hidden" role="status" aria-live="polite">
+		{list.length} results available.
+	  </div>
 	</div>
-</div>
-
-<style lang="scss">
+  </div>
+  
+  <style lang="scss">
+	
+	// --info: #f0f0f0
+  
+	$text-color: var(primary);
+	$background-color: darken(#f0f0f0, 5%);;
+	$border-color: var(--secondary);
+	$hover-color: darken(#f0f0f0, 10%);;
+	$selected-color: var(--accent);
+	$disabled-color: var(--secondary-dark);
+	$error-color: #ff6b6b;
+	$transition-duration: 0.2s;
+  
 	.combobox {
-		--accent-color: #06113c;
-		--background-color: var(--base-white-outline, var(--white));
-		--border-radius: 1em;
-
-		--option-border: ;
-		--option-padding: ;
-
-		display: flex;
-		flex-direction: column;
-		gap: 0.5em;
-	}
-
-	.input-container {
+	  display: flex;
+	  flex-direction: column;
+	  gap: 0.5rem;
+	  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	  color: $text-color;
+  
+	  &__label {
+		font-weight: 500;
+		font-size: 0.875rem;
+		margin-bottom: 0.25rem;
+	  }
+  
+	  &__error {
+		color: $error-color;
+		font-size: 0.75rem;
+		margin-left: 0.5rem;
+	  }
+  
+	  &__input-container {
 		position: relative;
-	}
-
-	.combobox__input {
-		margin: 0;
+	  }
+  
+	  &__input {
 		width: 100%;
-		padding: 0.8rem 1rem;
-		// border: 0.1rem solid var(--color-paladin-3);
-		border: var(--classic-border);
-		border-radius: 0.3rem;
-	}
-
-	.combobox__input:focus {
-		outline: none;
-	}
-
-	.combobox:focus-within .combobox__input {
-		border-color: var(--accent-color);
-	}
-
-	.loading {
-		// background: url(http://www.xiconeditor.com/image/icons/loading.gif) no-repeat right center;
-		background-color: var(--base-grey-1);
-		background-image: url('http://loadinggif.com/images/image-selection/3.gif');
-		background-size: 25px 25px;
-		background-position: right center;
-		background-repeat: no-repeat;
-	}
-
-	.icon-container {
-		position: absolute;
-		right: 10px;
-		top: calc(50% - 10px);
-	}
-	.loadering {
-		position: relative;
-		height: 20px;
-		width: 20px;
-		display: inline-block;
-		animation: around 5.4s infinite;
-	}
-
-	@keyframes around {
-		0% {
-			transform: rotate(0deg);
+		padding: 0.625rem 1rem;
+		font-size: 1rem;
+		line-height: 1.5;
+		color: $text-color;
+		background-color: $background-color;
+		border: 1px solid $border-color;
+		border-radius: 0.375rem;
+		transition: border-color $transition-duration ease-in-out, box-shadow $transition-duration ease-in-out;
+  
+		&:focus {
+		  outline: none;
+		  border-color: var(--accent);
+		  box-shadow: 0 0 0 3px rgba(var(--accent), 0.1);
 		}
-		100% {
-			transform: rotate(360deg);
+  
+		&:disabled {
+		  background-color: var(--primary);
+		  cursor: not-allowed;
 		}
-	}
-
-	.loadering::after,
-	.loadering::before {
-		content: '';
-		background: transparent; // var(--base-grey-1);
+  
+		&::placeholder {
+		  color: $disabled-color;
+		}
+	  }
+  
+	  &__loading-indicator {
 		position: absolute;
-		display: inline-block;
+		right: 0.75rem;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 1.25rem;
+		height: 1.25rem;
+		border: 2px solid var(--accent);
+		border-top-color: transparent;
+		border-radius: 50%;
+		animation: spin 0.8s linear infinite;
+	  }
+  
+	  &__list {
+		position: absolute;
+		z-index: 10;
 		width: 100%;
-		height: 100%;
-		border-width: 2px;
-		border-color: #333 #333 transparent transparent;
-		border-style: solid;
-		border-radius: 20px;
-		box-sizing: border-box;
-		top: 0;
-		left: 0;
-		animation: around 0.7s ease-in-out infinite;
-	}
-
-	.loadering::after {
-		animation: around 0.7s ease-in-out 0.1s infinite;
-		background: transparent;
-	}
-
-	.combobox__list {
-		/* Reset */
+		margin-top: 0.25rem;
+		padding: 0.5rem 0;
 		list-style: none;
-		margin: 0;
-		padding: 0.3rem;
-		/* Position and Size */
-		position: absolute;
-		inset-inline-start: 0;
-		inset-block-start: calc(100% + 0.3rem);
-		min-width: 100%;
-		max-height: 40vh;
+		background-color: $background-color;
+		border: 1px solid $border-color;
+		border-radius: 0.375rem;
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+		max-height: 15rem;
 		overflow-y: auto;
-		-webkit-overflow-scrolling: touch;
-		z-index: 100;
-
-		background-color: var(--background-color);
-		border-radius: 0.3em;
-		// border: 0.175rem solid var(--accent-color);
-		border: var(--classic-border);
-		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-	}
-
-	.list__option-heading {
-		font-size: 0.9em;
-		padding-inline: 1rem;
-		padding-block-start: 0.4rem;
-		color: gray;
-	}
-
-	.list__no-results {
-		padding: 0.8rem 1rem;
-	}
-
-	.list__option {
+	  }
+  
+	  &__group-heading {
+		padding: 0.5rem 1rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: var(--accent);
+		text-transform: uppercase;
+	  }
+  
+	  &__option {
+		padding: 0.5rem 1rem;
+		cursor: pointer;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 0.8rem 1rem;
-		border: 0.2rem solid transparent;
-		border-radius: 0.3rem;
+		transition: background-color $transition-duration ease-in-out;
+  
+		&:hover:not(.disabled),
+		&:focus:not(.disabled) {
+		  background-color: $hover-color;
+		  outline: none;
+		}
+  
+		&.selected {
+		  background-color: var(--accent);
+		  color: var(--primary);
+		  font-weight: 500;
+		}
+  
+		&.disabled {
+		  opacity: 0.5;
+		  cursor: not-allowed;
+		}
+	  }
+  
+	  &__check-icon {
+		width: 1.25rem;
+		height: 1.25rem;
+		stroke: var(--primary);
+		stroke-width: 2;
+		fill: none;
+	  }
+  
+	  &__no-results {
+		padding: 0.5rem 1rem;
+		color: $disabled-color;
+		font-style: italic;
+	  }
 	}
-
-	.list__option > :global(*) {
-		pointer-events: none;
+  
+	.combobox.error {
+	  .combobox__input {
+		border-color: $error-color;
+  
+		&:focus {
+		  box-shadow: 0 0 0 3px rgba($error-color, 0.1);
+		}
+	  }
 	}
-
-	.list__option.--disabled {
-		pointer-events: none;
-		opacity: 0.4;
+  
+	@keyframes spin {
+	  0% { transform: translateY(-50%) rotate(0deg); }
+	  100% { transform: translateY(-50%) rotate(360deg); }
 	}
-
-	.list__option:focus,
-	.list__option:not([aria-disabled='true']):hover {
-		outline: none;
-		cursor: pointer;
-		background-color: rgba(0, 0, 0, 0.1);
+  
+	.visually-hidden {
+	  position: absolute;
+	  width: 1px;
+	  height: 1px;
+	  margin: -1px;
+	  padding: 0;
+	  overflow: hidden;
+	  clip: rect(0, 0, 0, 0);
+	  white-space: nowrap;
+	  border-width: 0;
 	}
-
-	.list__option:active {
-		cursor: pointer;
-		outline: none;
-		color: var(--base-white-outline, var(--white));
-		background-color: var(--accent-color) !important;
+  
+	// Custom scrollbar styles for webkit browsers
+	.combobox__list::-webkit-scrollbar {
+	  width: 8px;
 	}
-
-	.list__option:focus :global(svg),
-	.list__option:hover :global(svg) {
-		--icon-color: var(--base-white-outline, var(--white)) !important;
+  
+	.combobox__list::-webkit-scrollbar-track {
+	  background: var(--primary-dark);
 	}
-</style>
+  
+	.combobox__list::-webkit-scrollbar-thumb {
+	  background-color: var(--accent);
+	  border-radius: 4px;
+	  border: 2px solid var(--primary-dark);
+	}
+  </style>

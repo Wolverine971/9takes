@@ -77,7 +77,7 @@
 			<ComboBox
 				label=""
 				name="question"
-				placeholder={data?.session?.user?.id ? 'Search or ask a question' : 'Search questions...'}
+				placeholder={data?.session?.user?.id ? 'Put question here' : 'Search questions...'}
 				on:inputChange={({ detail: { text } }) => debounce(text)}
 				on:selectQuestion={() => {
 					dispatch('createQuestion', question);
