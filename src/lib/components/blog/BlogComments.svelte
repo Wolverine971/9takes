@@ -8,55 +8,54 @@
 	export let parentType: string;
 	export let userHasAnswered: boolean;
 
-	let comment_count: number;
+	$: comment_count = comments.length;
 	let loading = false;
 
-	$: comments, matchData();
-
-	const matchData = () => {
-		comment_count = comments.length;
+	const refreshComments = async (data: any) => {
+		// Implement refresh logic here if needed
 	};
-	// export let comments: any[];
-	// Database['public']['Tables']['comments']['Row'][]
-
-	const refreshComments = async (data: any) => {};
 </script>
 
-{#if comment_count > 0 && !userHasAnswered}
-	<p>Must answer question first</p>
-{/if}
-{#if loading}
-	<div>Loading comments...</div>
-{:else if !browser || (comments?.length && userHasAnswered)}
-	<!-- <h3>Renders for SEO, removed if not answered</h3> -->
-	{#if comments?.length}
-		<div>
-			{#each comments as comment}
-				<BlogComment
-					{comment}
-					{slug}
-					{session}
-					{userHasAnswered}
-					on:commentAdded={({ detail }) => refreshComments(detail)}
-				/>
-			{/each}
-		</div>
-	{:else}
-		<p>nothing right now</p>
+<div class="blog-comments">
+	{#if comment_count > 0 && !userHasAnswered}
+		<p class="comment-info">Must answer question first</p>
+	{:else if loading}
+		<div class="comment-info">Loading comments...</div>
+	{:else if !browser || (comments?.length && userHasAnswered) || (comments?.length && parentType === 'comment')}
+		{#if comments?.length}
+			<div class="comment-list">
+				{#each comments as comment (comment.id)}
+					<BlogComment
+						{comment}
+						{slug}
+						{session}
+						{userHasAnswered}
+						on:commentAdded={({ detail }) => refreshComments(detail)}
+					/>
+				{/each}
+			</div>
+		{:else}
+			<p class="comment-info">No comments yet</p>
+		{/if}
 	{/if}
-{:else if !browser || (comments?.length && parentType === 'comment')}
-	<div>
-		{#each comments as comment}
-			<BlogComment
-				{comment}
-				{slug}
-				{session}
-				{userHasAnswered}
-				on:commentAdded={({ detail }) => refreshComments(detail)}
-			/>
-		{/each}
-	</div>
-{/if}
+</div>
 
 <style lang="scss">
+	@import '../molecules/comment.scss';
+
+	.blog-comments {
+		margin-top: var(--comment-margin);
+	}
+
+	.comment-info {
+		padding: var(--comment-padding);
+		color: var(--color-text);
+		font-style: italic;
+	}
+
+	.comment-list {
+		display: flex;
+		flex-direction: column;
+		gap: var(--comment-margin);
+	}
 </style>

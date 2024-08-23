@@ -65,8 +65,11 @@
 	class:visible
 	bind:this={topDiv}
 	use:portal
-	on:click={close}
 	on:keydown={(e) => e.key === 'Enter' && close(e)}
+	role="dialog"
+	aria-modal="true"
+	aria-labelledby={name}
+	on:click|stopPropagation={() => {close()}}
 >
 	<div
 		id="modal"

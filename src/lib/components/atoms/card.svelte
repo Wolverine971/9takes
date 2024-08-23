@@ -44,6 +44,7 @@
 		animation: 1s -0.3s 1 paused opacify;
 		backdrop-filter: blur(1.5rem);
 		border: 1px solid transparent;
+		padding: .5rem 0;
 		// box-shadow: -0.25rem -0.25rem 0.5rem rgba(#fff, 0.07), 0.25rem 0.25rem 0.5rem rgba(#000, 0.12),
 		// 	-0.75rem -0.75rem 1.75rem rgba(#fff, 0.07), 0.75rem 0.75rem 1.75rem rgba(#000, 0.12),
 		// 	inset 8rem 8rem 8rem rgba(#fff, 0.05), inset -8rem -8rem 8rem rgba(#fff, 0.05);

@@ -83,7 +83,7 @@ export const actions: Actions = {
 			const comment = body.comment as string;
 			const author_id = body.author_id === 'undefined' ? null : body.author_id;
 			const blog_link = body.blog_link;
-			const blog_type = 'famous-enneagram-types';
+			const blog_type = 'personality-analysis';
 			const ip = getClientAddress();
 			const fingerprint = body.fingerprint as string;
 

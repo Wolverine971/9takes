@@ -226,16 +226,16 @@
 
 <svelte:window bind:innerWidth />
 
-<Card style="margin: .3rem 0; padding: .2rem" className="neumo-card">
+<Card className="neumo-card comment-card">
 	<div
 		class="user-comment"
 		itemprop="suggestedAnswer acceptedAnswer"
 		itemscope
 		itemtype="https://schema.org/Answer"
 	>
-		<div style="display: flex; {innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}">
-			<div style="display: flex; flex-direction: column; width: 100%">
-				<p class="comment-box" id="comment-box{comment.id}">
+		<div class="comment-content">
+			<div class="comment-box" id="comment-box{comment.id}">
+				<div class="comment-main">
 					{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 						<a
 							title="View profile"
@@ -251,101 +251,71 @@
 							Rando
 						</span>
 					{/if}
-					{#if user?.id === _commentComment?.author_id}
-						<button
-							type="button"
-							class="comment-edit"
-							itemprop="text"
-							title="Edit"
-							on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
-						>
-							<EditIcon height={'1rem'} fill={'var(--accent)'} />
-						</button>
-					{/if}
-					<span class="comment-text" itemprop="text" style="white-space: pre-line">
-						{_commentComment.comment}
-					</span>
-				</p>
-				{#if _commentComment?.comment?.length > 136}
-					<span
-						role="button"
-						tabindex="0"
-						id="read-more-btn{comment.id}"
-						class="read-more-btn"
-						on:click={expandText}
-						on:keydown={(e) => e.key === 'Enter' && expandText()}
-					>
-						Read More
-					</span>
-				{/if}
-			</div>
-			<div class:mobile={innerWidth < 500} style="display: flex; justify-content: space-between; align-items: center;">
-				<div style="display: flex; align-items: center; gap: 0.5rem;">
-					<button
-						title="Comment"
-						class="btn"
-						style="padding: 0.25rem;"
-						on:click={() => (commenting = !commenting)}
-					>
-						<MasterCommentIcon
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={'var(--accent)'}
-							type={_commentComment.comments?.length ? 'full' : 'empty'}
-						/>
-					</button>
-					<button
-						title="Like"
-						class="btn"
-						style="padding: 0.25rem; color: {likes &&
-						user?.id &&
-						likes.some((e) => e.user_id === user?.id)
-							? 'var(--primary)'
-							: '#444'}"
-						on:click={likeComment}
-					>
-						{#if likes.length}
-							<span itemprop="upvoteCount">
-								{likes.length}
+					<div class="comment-text-wrapper">
+						<span class="comment-text" itemprop="text">
+							{_commentComment.comment}
+						</span>
+						{#if _commentComment?.comment?.length > 136}
+							<span
+								role="button"
+								tabindex="0"
+								id="read-more-btn{comment.id}"
+								class="read-more-btn"
+								on:click={expandText}
+								on:keydown={(e) => e.key === 'Enter' && expandText()}
+							>
+								Read More
 							</span>
 						{/if}
-						<ThumbsUpIcon
-							iconStyle={'padding: 0.25rem;'}
-							height={'1.5rem'}
-							fill={likes && user?.id && likes.some((e) => e.user_id === user?.id)
-								? 'var(--primary)'
-								: '#444'}
-						/>
-					</button>
-				</div>
-				<Popover>
-					<SettingsIcon
-						slot="icon"
-						iconStyle={'padding: 0.25rem;'}
-						height={'1.5rem'}
-						fill={'var(--accent)'}
-					/>
-					<div slot="popoverValue">
-						<div style="display: flex; flex-direction: column">
-							<span style="min-width:30px; display:flex; gap: .5rem">
-								{#if _commentComment.modified_at}
-									<span style="color: var(--primary)" title="modified">M</span>
-								{/if}
-								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
-									{createdOrModifiedAt}
-								</time>
-							</span>
-							<button
-								title="settings"
-								class="btn btn-primary"
-								style="padding: 0.25rem; height: 45px;"
-								on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
-							>
-								Flag Comment
-							</button>
-						</div>
 					</div>
-				</Popover>
+				</div>
+				<div class="comment-actions">
+					<div class="action-buttons">
+						<button
+							title="Comment"
+							class="btn action-btn"
+							on:click={() => (commenting = !commenting)}
+						>
+							<MasterCommentIcon
+								class="action-icon"
+								type={_commentComment.comments?.length ? 'full' : 'empty'}
+							/>
+						</button>
+						<button
+							title="Like"
+							class="btn action-btn"
+							class:liked={likes && user?.id && likes.some((e) => e.user_id === user?.id)}
+							on:click={likeComment}
+						>
+							{#if likes.length}
+								<span itemprop="upvoteCount" class="like-count">
+									{likes.length}
+								</span>
+							{/if}
+							<ThumbsUpIcon class="action-icon" />
+						</button>
+						<Popover>
+							<SettingsIcon slot="icon" class="action-icon" />
+							<div slot="popoverValue" class="popover-content">
+								<span class="comment-date">
+									{#if _commentComment.modified_at}
+										<span class="modified-indicator" title="modified">M</span>
+									{/if}
+									<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
+										{createdOrModifiedAt}
+									</time>
+								</span>
+								<button
+									title="Flag Comment"
+									class="btn btn-primary flag-btn"
+									on:click={() => getModal(`flag-comment-modal-${_commentComment.id}`).open()}
+								>
+									Flag Comment
+								</button>
+							</div>
+						</Popover>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -363,17 +333,13 @@
 			{#if loading}
 				<div class="loader" />
 			{:else if newcomment?.length > 1}
-				<RightIcon
-					iconStyle={'margin-left: .5rem; padding: 0.25rem;'}
-					height={'1.5rem'}
-					fill={'var(--accent)'}
-				/>
+				<RightIcon class="submit-icon" />
 			{/if}
 		</button>
 	{/if}
 
 	{#if _commentComment?.comments?.length}
-		<div style="margin-left:10px;">
+		<div class="nested-comments">
 			<Comments
 				{questionId}
 				comments={_commentComment.comments}
@@ -385,40 +351,34 @@
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
-		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments">
+		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments" style="width: 93%;">
 			{comment.comment_count}
 			{#if loadingComments}
 				<div class="loader" />
 			{:else}
-				<MasterCommentIcon
-					iconStyle={'padding: 0.25rem;'}
-					height={'1rem'}
-					fill={'var(--accent)'}
-					type={'multiple'}
-				/>
-				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={''} />
+				<MasterCommentIcon class="action-icon" type={'multiple'} />
+				<DownIcon class="action-icon" />
 			{/if}
 		</button>
 	{/if}
 </Card>
 
 <Modal2 id={`edit-modal-${_commentComment.id}`}>
-	<div style="max-height: 500px; min-width: 350px">
+	<div class="modal-content">
 		<h1>Edit Comment</h1>
 		<textarea rows="5" bind:value={commentEdit} />
 		<button
 			class="btn btn-primary save-btn"
 			type="button"
-			style="padding: 0.25rem; display: flex;"
 			on:click={save}
-			>
+		>
 			Save
 		</button>
 	</div>
 </Modal2>
 
 <Modal2 id={`flag-comment-modal-${_commentComment.id}`}>
-	<div style="max-height: 500px; min-width: 350px">
+	<div class="modal-content">
 		<h1>Flag Comment</h1>
 		{#if parentData?.flagReasons?.length > 0}
 			<p>Reason</p>
@@ -433,7 +393,6 @@
 		<button
 			class="btn btn-primary save-btn"
 			type="button"
-			style="padding: 0.25rem; display: flex;"
 			on:click={submitFlag}
 		>
 			Send
@@ -442,59 +401,6 @@
 </Modal2>
 
 <style lang="scss">
-	.rounded {
-		border-radius: var(--base-border-radius);
-		width: 80%;
-	}
+	@import './comment.scss';
 
-	.comment-text {
-		max-height: 3em;
-		overflow: hidden;
-	}
-
-	.expanded .comment-text {
-		max-height: none;
-	}
-	.comment-edit {
-		display: inline !important;
-		cursor: pointer;
-		display: inline;
-		transition: 0.3s;
-		border: none;
-		border-radius: 0;
-		min-width: 0 !important;
-		padding: 0 !important;
-	}
-
-	.read-more-btn {
-		background-color: var(--base-grey-1);
-		padding: 5px 10px;
-		cursor: pointer;
-		border-left: 1px solid;
-		border-bottom: 1px solid;
-		border-bottom-left-radius: 5px;
-		border-bottom-right-radius: 5px;
-	}
-
-	.profile-avatar {
-		display: inline-block;
-		min-width: 78px;
-		padding: 0.2rem;
-		color: var(--color-theme-purple-light);
-		border: 1px solid var(--color-theme-purple-light);
-		font-weight: bolder;
-		text-align: center;
-		border-radius: var(--base-border-radius);
-		-moz-transition: all 0.5s; /* Firefox 4 */
-		-webkit-transition: all 0.5s; /* Safari and Chrome */
-		-o-transition: all 0.5s; /* Opera */
-		word-break: keep-all;
-	}
-	.active {
-		border: 1px solid var(--color-theme-purple-light);
-		color: var(--primary);
-	}
-	.active:hover {
-		border: 1px solid var(--primary);
-	}
 </style>

@@ -359,71 +359,13 @@ section {
 	width: 100%;
 	text-align: start;
 	padding: 10px;
+	gap: .25rem;
 
 	&:hover {
 		background-color: var(--info);
 	}
 }
 
-// Comment styles
-.comment-box {
-	margin: 0.25rem;
-	border-radius: var(--border-radius);
-	padding: 0.5rem;
-	max-height: 7em;
-	overflow: hidden;
-	transition: max-height 0.3s ease;
-	// background-color: darken(#f0f0f0, 5%);
-
-	&.expanded {
-		max-height: none;
-
-		.read-more-btn {
-			display: none;
-		}
-	}
-}
-
-.user-comment {
-	display: flex;
-	position: relative;
-	padding: 0.25rem;
-
-	button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transition: 0.3s;
-		border: none;
-		border-radius: var(--border-radius);
-		min-width: 35px;
-	}
-}
-
-.comment-meta {
-	display: flex;
-	gap: 1rem;
-	justify-content: flex-end;
-	z-index: 1;
-	margin: 0.5rem auto;
-}
-
-.sub-comment {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	border: 1px solid var(--primary);
-	margin: 0.25rem 0;
-	padding: 5px 10px;
-	border-radius: var(--border-radius);
-	color: var(--accent);
-
-	&:disabled {
-		opacity: 0.6;
-		cursor: not-allowed;
-	}
-}
 
 // Iframe container
 .iframe-container {

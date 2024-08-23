@@ -39,12 +39,12 @@
 		slug={data.slug}
 		{comments}
 		session={data.session}
-		parentType={'famous-enneagram-types'}
+		parentType={'personality-analysis'}
 		{userHasAnswered}
 	/>
 	<BlogInteract
 		{data}
-		parentType={'famous-enneagram-types'}
+		parentType={'personality-analysis'}
 		on:commentAdded={({ detail }) => commentAdded(detail)}
 		user={data?.session?.user}
 	/>

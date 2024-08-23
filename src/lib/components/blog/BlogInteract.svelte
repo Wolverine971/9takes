@@ -69,7 +69,7 @@
 		body.append('blog_link', data.slug);
 		body.append('fingerprint', fpval?.visitorId?.toString());
 
-		const resp = await fetch(`/blog/${parentType}?/createComment`, {
+		const resp = await fetch(`/${parentType}?/createComment`, {
 			method: 'POST',
 			body
 		});
@@ -103,7 +103,7 @@
 	<button
 		class="btn btn-primary sub-comment"
 		type="button"
-		style={comment?.length > 1 ? 'color: var(--primary); border: 1px solid var(--primary);' : ''}
+		style={comment?.length > 1 ? 'color: var(--accent); border: 1px solid var(--accent);' : ''}
 		title="You only YOLO once"
 		on:click={createComment}
 		disabled={comment?.length < 1}

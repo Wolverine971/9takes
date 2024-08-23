@@ -8,26 +8,19 @@
 	export let comment: any;
 	export let slug: string;
 	export let session: any;
-
 	export let userHasAnswered: any;
 
-	let _commentComment: any = null;
-	if (comment?.id) {
-		_commentComment = Object.assign({}, comment);
-	}
-
-	$: comment, matchData();
-
-	const matchData = () => {
-		_commentComment = Object.assign({}, comment);
-	};
-
-	let loading: boolean = false;
+	let _commentComment = comment?.id ? { ...comment } : null;
+	let loading = false;
 	let innerWidth = 0;
 
-	const lastDate = comment?.comments?.length
-		? comment?.comments[comment?.comments?.length - 1]?.created_at || null
+	$: lastDate = _commentComment?.comments?.length
+		? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
 		: null;
+
+	$: if (comment) {
+		_commentComment = { ...comment };
+	}
 
 	const loadMore = async () => {
 		if (!session?.user?.id) {
@@ -35,62 +28,63 @@
 			return;
 		}
 		loading = true;
-		await fetch(`/comments?type=${'comment'}&parentId=${comment.id}&lastDate=${lastDate}`)
-			.then((response) => response.json())
-			.then((newcommentData) => {
-				if (!_commentComment.comments) {
-					_commentComment.comments = [];
-				}
-				_commentComment.comments = [..._commentComment.comments, ...newcommentData];
-				loading = false;
-			});
+		try {
+			const response = await fetch(`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}`);
+			const newcommentData = await response.json();
+			if (!_commentComment.comments) {
+				_commentComment.comments = [];
+			}
+			_commentComment.comments = [..._commentComment.comments, ...newcommentData];
+		} catch (error) {
+			console.error('Error loading comments:', error);
+		} finally {
+			loading = false;
+		}
 	};
 </script>
 
 <svelte:window bind:innerWidth />
 
-<Card style="margin: .5rem 0; padding: .5rem;">
-	{#if innerWidth > 500}
-		<div class="comment-meta">
-			<span style="min-width:30px"
-				>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
-			</span>
-		</div>
-	{/if}
-	<div class="user-comment">
-		<div style={innerWidth > 500 ? 'width: 95%;' : 'flex-direction: column; width: 100%;'}>
-			<p class="comment-box">
-				{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
-					<a
-						class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}"
-						href={_commentComment?.profiles?.external_id
-							? `/users/${_commentComment.profiles.external_id}`
-							: ''}>{_commentComment?.profiles?.enneagram || 'Rando'}</a
-					>
-				{:else}
-					<span class="profile-avatar {_commentComment?.profiles?.external_id ? '' : 'disabled'}">
-						Rando
-					</span>
-				{/if}: {_commentComment.comment}
-			</p>
-			{#if innerWidth < 500}
-				<hr class="rounded" />
-				<div style="display: flex; align-items: center; gap: 0.5rem;">
+<Card class="comment-card">
+	<div class="user-comment" itemscope itemtype="https://schema.org/Comment">
+		<div class="comment-content">
+			<div class="comment-header">
+				{#if innerWidth > 500}
 					<div class="comment-meta">
-						<span style="min-width:30px"
-							>{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
-						</span>
+						<time itemprop="dateCreated" datetime={_commentComment.created_at}>
+							{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
+						</time>
 					</div>
-				</div>
-			{/if}
+				{/if}
+				<p class="comment-box">
+					<span class="profile-avatar" class:active={_commentComment?.profiles?.external_id}>
+						{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
+							<a href={`/users/${_commentComment.profiles.external_id}`}>
+								{_commentComment?.profiles?.enneagram || 'Rando'}
+							</a>
+						{:else}
+							Rando
+						{/if}
+					</span>
+					<span class="comment-text" itemprop="text">{_commentComment.comment}</span>
+				</p>
+				{#if innerWidth < 500}
+					<hr class="comment-divider" />
+					<div class="comment-meta">
+						<time itemprop="dateCreated" datetime={_commentComment.created_at}>
+							{new Date(_commentComment.created_at).toLocaleDateString('en-US')}
+						</time>
+					</div>
+				{/if}
+			</div>
 		</div>
 	</div>
 
 	{#if _commentComment?.comments?.length}
-		<div style="margin-left:10px;">
+		<div class="nested-comments">
 			<BlogComments
 				{slug}
-				comments={comment.comments}
+				comments={_commentComment.comments}
 				{session}
 				parentType={'comment'}
 				{userHasAnswered}
@@ -98,48 +92,56 @@
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
-		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments">
-			{comment.comment_count}
+		<button type="button" class="load-more-btn" on:click={loadMore}>
+			{_commentComment.comment_count}
 			{#if loading}
 				<div class="loader" />
 			{:else}
-				<MasterCommentIcon
-					iconStyle={'padding: 0.25rem;'}
-					height={'1rem'}
-					fill={'var(--accent)'}
-					type={'multiple'}
-				/>
-				<DownIcon iconStyle={'padding: 0.25rem;'} height={'1rem'} fill={'#444'} />
+				<MasterCommentIcon class="icon" type={'multiple'} />
+				<DownIcon class="icon" />
 			{/if}
 		</button>
 	{/if}
 </Card>
 
 <style lang="scss">
-	.rounded {
-		border-radius: var(--base-border-radius);
-		width: 80%;
+	
+	@import '../molecules/comment.scss';
+
+	.comment-card {
+		margin: var(--comment-margin);
+		padding: var(--comment-padding);
 	}
 
-	.profile-avatar {
-		min-width: 30px;
-		padding: 0.2rem;
-		align-self: center;
-		align-items: center;
-		border: 1px solid var(--color-p-origin-v);
-		font-weight: bolder;
-		min-width: 3rem;
-		text-align: center;
-		aspect-ratio: 1/1;
-		border-radius: var(--base-border-radius);
-		transition: all 0.5s;
-		-moz-transition: all 0.5s; /* Firefox 4 */
-		-webkit-transition: all 0.5s; /* Safari and Chrome */
-		-o-transition: all 0.5s; /* Opera */
-		word-break: keep-all;
+	.comment-divider {
+		width: 80%;
+		margin: var(--comment-margin) auto;
+		border: none;
+		border-top: 1px solid var(--color-border);
+	}
 
-		&:hover {
-			border: 1px solid var(--color-p-origin);
+	.nested-comments {
+		margin-left: calc(var(--comment-padding) * 2);
+		margin-top: var(--comment-margin);
+	}
+
+	.load-more-btn {
+		margin-top: var(--comment-margin);
+	}
+
+	.icon {
+		width: var(--icon-size);
+		height: var(--icon-size);
+		fill: var(--color-icon);
+	}
+
+	@media (max-width: 500px) {
+		.comment-content {
+			flex-direction: column;
+		}
+
+		.comment-meta {
+			margin-top: var(--comment-margin);
 		}
 	}
 </style>

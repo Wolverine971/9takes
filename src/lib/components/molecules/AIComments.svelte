@@ -27,7 +27,7 @@
 				</div>
 				<button
 					on:click={() => (showAiComments = !showAiComments)}
-					class="btn btn-primary"
+					class="btn btn-secondary"
 					title="Show/Hide AI Comments"
 					style="display: flex;"
 				>
@@ -70,6 +70,8 @@
 {/if}
 
 <style lang="scss">
+	@import '../molecules/comment.scss';
+
 	.canned-resp-div {
 		border-radius: var(--base-border-radius);
 		padding: 0.5rem;

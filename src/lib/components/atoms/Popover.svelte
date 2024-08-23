@@ -58,7 +58,7 @@
 		background-color: #f4f4ef;
 		border: var(--classic-border);
 		width: min-content;
-		position: absolute;
+		position: fixed;
 		top: -40px;
 		right: 0;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
