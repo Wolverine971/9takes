@@ -3,6 +3,7 @@ import { fail, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 
 import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
+import { notifications } from '$lib/components/molecules/notifications';
 
 export const load: PageServerLoad = async (event) => {
 	// redirect user if logged in
@@ -24,10 +25,14 @@ export const actions: Actions = {
 		if (err) {
 			console.log(err);
 			if (err instanceof AuthApiError && err.status === 400) {
+
+				// notifications.danger('Invalid credentials', 3000);
 				return fail(400, {
 					error: 'Invalid credentials'
 				});
 			}
+
+			// notifications.danger('Server error. Try again later.', 3000);
 			return fail(500, {
 				message: 'Server error. Try again later.'
 			});
