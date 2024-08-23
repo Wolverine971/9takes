@@ -191,7 +191,7 @@ This partnership allows Harris to pursue her goals while also having a safe spac
 
 ### The Biden-Harris Dynamic
 
-The relationship between Harris and President Biden offers another interesting glimpse into how Type 3s navigate professional partnerships. Initially competitors during the Democratic primaries, their transition to running mates and now to President and VP showcases the Type 3's ability to adapt and align themselves with paths to success.
+The relationship between Harris and <a href="/personality-analysis/Joe-Biden">President Joe Biden</a> offers another interesting glimpse into how Type 3s navigate professional partnerships. Initially competitors during the Democratic primaries, their transition to running mates and now to President and VP showcases the Type 3's ability to adapt and align themselves with paths to success.
 
 Their partnership, while not without its challenges, demonstrates Harris's skill at playing a supporting role when necessary - a sometimes difficult task for achievement-oriented Type 3s who are used to being in the spotlight.
 
