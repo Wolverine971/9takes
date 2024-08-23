@@ -59,7 +59,8 @@
 				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-personality-test">Determining your type</a>
 					<a href="/enneagram-corner/enneagram-self-development">Self development</a>
-					<a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a>
+					<a href="/enneagram-corner/enneagram-strengths-and-weaknesses">Strengths and weaknesses</a
+					>
 					<a href="/enneagram-corner/enneagram-personal-growth">Growth strategies</a>
 				</div>
 			</div>

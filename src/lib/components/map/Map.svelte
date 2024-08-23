@@ -103,6 +103,8 @@
 	on:zoomend
 	on:drag
 	on:keydown
+	role="button"
+	tabindex="0"
 >
 	{#if map}
 		<slot />

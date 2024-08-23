@@ -121,8 +121,6 @@
 			</a>
 		{/each}
 	</div>
-
-	
 </div>
 
 <style class="scss">

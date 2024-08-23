@@ -59,7 +59,11 @@
 				<h3 style="">
 					<span>All Enneagram topic blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>
@@ -132,7 +136,11 @@
 				<h3 style="">
 					<span>All personal development blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>
@@ -178,7 +186,11 @@
 				<h3 style="">
 					<span>All relationship blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>
@@ -225,7 +237,11 @@
 				<h3 style="">
 					<span>All workplace blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>
@@ -272,7 +288,11 @@
 				<h3 style="">
 					<span>All resource blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>
@@ -318,7 +338,11 @@
 				<h3 style="">
 					<span>All situational blogs </span>
 					<br />
-					<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+					<ArrowRightIcon
+						iconStyle={'margin-left: .5rem'}
+						height={'1.5rem'}
+						fill={'var(--accent)'}
+					/>
 				</h3>
 			</div>
 		</a>

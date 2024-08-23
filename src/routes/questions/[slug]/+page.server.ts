@@ -30,7 +30,16 @@ export const load: PageLoad = async (event) => {
 
 	if (!userHasAnswered) {
 		const commentCount = await getCommentCount(question.id, demo_time);
-		return createBaseResponse(question, [], commentCount, 0, questionTags, session, userHasAnswered, event);
+		return createBaseResponse(
+			question,
+			[],
+			commentCount,
+			0,
+			questionTags,
+			session,
+			userHasAnswered,
+			event
+		);
 	}
 
 	const [comments, removedComments, links, aiComments] = await Promise.all([
@@ -161,7 +170,13 @@ async function createCommentData(body: any, ip: string, demo_time: boolean) {
 	};
 }
 
-async function createESComment(parent_type: string, es_id: string, author_id: string, comment: string, ip: string) {
+async function createESComment(
+	parent_type: string,
+	es_id: string,
+	author_id: string,
+	comment: string,
+	ip: string
+) {
 	try {
 		const resp: any = await addESComment({
 			index: parent_type,
@@ -316,7 +331,6 @@ async function updateQuestionImageUrl(url: string, imgPath: string) {
 	}
 }
 
-
 interface OGData {
 	title?: string;
 	description?: string;
@@ -372,22 +386,24 @@ async function upsertDomain(domain: string): Promise<number> {
 	return data.id;
 }
 
-async function upsertLink(url: string, domainId: number, questionId: string, ogData: OGData): Promise<void> {
-	const { error } = await supabase
-		.from('links')
-		.upsert({
-			url,
-			domain_id: domainId,
-			updated_at: new Date(),
-			question_id: questionId,
-			meta_title: ogData.title,
-			meta_description: ogData.description,
-			meta_image: ogData.image,
-		});
+async function upsertLink(
+	url: string,
+	domainId: number,
+	questionId: string,
+	ogData: OGData
+): Promise<void> {
+	const { error } = await supabase.from('links').upsert({
+		url,
+		domain_id: domainId,
+		updated_at: new Date(),
+		question_id: questionId,
+		meta_title: ogData.title,
+		meta_description: ogData.description,
+		meta_image: ogData.image
+	});
 
 	if (error) throw new Error(`Failed to upsert link: ${error.message}`);
 }
-
 
 async function getQuestion(slug: string, demo_time: boolean) {
 	const table = demo_time ? 'questions_demo' : 'questions';
@@ -407,7 +423,11 @@ async function getQuestion(slug: string, demo_time: boolean) {
 	return data;
 }
 
-async function checkUserAnswered(cookie: string | undefined, questionId: number, userId: string | undefined) {
+async function checkUserAnswered(
+	cookie: string | undefined,
+	questionId: number,
+	userId: string | undefined
+) {
 	const { data } = await supabase.rpc('can_see_comments_3', {
 		userfingerprint: cookie,
 		questionid: questionId,
@@ -445,10 +465,9 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 
 	const { data, count, error } = await supabase
 		.from(table)
-		.select(
-			`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
-			{ count: 'exact' }
-		)
+		.select(`*, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`, {
+			count: 'exact'
+		})
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')
 		.eq('removed', removed)
@@ -486,7 +505,16 @@ async function getAIComments(questionId: number) {
 	return data;
 }
 
-function createBaseResponse(question: any, comments: any[], commentCount: number, removedCommentCount: number, questionTags: any, session: any, userHasAnswered: boolean, event: any) {
+function createBaseResponse(
+	question: any,
+	comments: any[],
+	commentCount: number,
+	removedCommentCount: number,
+	questionTags: any,
+	session: any,
+	userHasAnswered: boolean,
+	event: any
+) {
 	return {
 		question,
 		comments,
@@ -502,8 +530,31 @@ function createBaseResponse(question: any, comments: any[], commentCount: number
 	};
 }
 
-function createFullResponse(question: any, comments: any[], commentCount: number, removedComments: any[], removedCommentCount: number, links: any, linksCount: number, questionTags: any, session: any, userHasAnswered: boolean, event: any, aiComments: any, demo_time: boolean) {
-	const baseResponse = createBaseResponse(question, comments, commentCount, removedCommentCount, questionTags, session, userHasAnswered, event);
+function createFullResponse(
+	question: any,
+	comments: any[],
+	commentCount: number,
+	removedComments: any[],
+	removedCommentCount: number,
+	links: any,
+	linksCount: number,
+	questionTags: any,
+	session: any,
+	userHasAnswered: boolean,
+	event: any,
+	aiComments: any,
+	demo_time: boolean
+) {
+	const baseResponse = createBaseResponse(
+		question,
+		comments,
+		commentCount,
+		removedCommentCount,
+		questionTags,
+		session,
+		userHasAnswered,
+		event
+	);
 
 	if (demo_time) {
 		return {

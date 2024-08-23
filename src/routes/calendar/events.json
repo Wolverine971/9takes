@@ -6,10 +6,7 @@
 				"https://9takes.com/personality-analysis/Kim-Kardashian",
 				"https://9takes.com/personality-analysis/Logan-Paul"
 			],
-			"people": [
-				"Kim Kardashian",
-				"Logan Paul"
-			]
+			"people": ["Kim Kardashian", "Logan Paul"]
 		},
 		"2023-06-22": {
 			"category": "Musician",
@@ -17,10 +14,7 @@
 				"https://9takes.com/personality-analysis/Ariana-Grande",
 				"https://9takes.com/personality-analysis/Charlie-Puth"
 			],
-			"people": [
-				"Ariana Grande",
-				"Charlie Puth"
-			]
+			"people": ["Ariana Grande", "Charlie Puth"]
 		},
 		"2023-06-23": {
 			"category": "Musician",
@@ -28,10 +22,7 @@
 				"https://9takes.com/personality-analysis/Demi-Lovato",
 				"https://9takes.com/personality-analysis/Dua-Lipa"
 			],
-			"people": [
-				"Demi Lovato",
-				"Dua Lipa"
-			]
+			"people": ["Demi Lovato", "Dua Lipa"]
 		},
 		"2023-06-24": {
 			"category": "Musician",
@@ -39,10 +30,7 @@
 				"https://9takes.com/personality-analysis/Halsey",
 				"https://9takes.com/personality-analysis/Justin-Bieber"
 			],
-			"people": [
-				"Halsey",
-				"Justin Bieber"
-			]
+			"people": ["Halsey", "Justin Bieber"]
 		},
 		"2023-06-25": {
 			"category": "Musician",
@@ -50,10 +38,7 @@
 				"https://9takes.com/personality-analysis/Kanye",
 				"https://9takes.com/personality-analysis/Shawn-Mendes"
 			],
-			"people": [
-				"Kanye",
-				"Shawn Mendes"
-			]
+			"people": ["Kanye", "Shawn Mendes"]
 		},
 		"2023-06-26": {
 			"category": "Creator",
@@ -61,10 +46,7 @@
 				"https://9takes.com/personality-analysis/Casey-Neistat",
 				"https://9takes.com/personality-analysis/David-Dobrik"
 			],
-			"people": [
-				"Casey Neistat",
-				"David Dobrik"
-			]
+			"people": ["Casey Neistat", "David Dobrik"]
 		},
 		"2023-06-27": {
 			"category": "Creator",
@@ -72,10 +54,7 @@
 				"https://9takes.com/personality-analysis/Jenna-Marbles",
 				"https://9takes.com/personality-analysis/Lisa-Koshy"
 			],
-			"people": [
-				"Jenna Marbles",
-				"Lisa Koshy"
-			]
+			"people": ["Jenna Marbles", "Lisa Koshy"]
 		},
 		"2023-06-28": {
 			"category": "Creator",
@@ -83,10 +62,7 @@
 				"https://9takes.com/personality-analysis/Mr-Beast",
 				"https://9takes.com/personality-analysis/Tana-Mongeau"
 			],
-			"people": [
-				"Mr. Beast",
-				"Tana Mongeau"
-			]
+			"people": ["Mr. Beast", "Tana Mongeau"]
 		},
 		"2023-06-29": {
 			"category": "Techie",
@@ -94,10 +70,7 @@
 				"https://9takes.com/personality-analysis/Chamath-Palihapitiya",
 				"https://9takes.com/personality-analysis/Dalton-Cadwell"
 			],
-			"people": [
-				"Chamath Palihapitiya",
-				"Dalton Cadwell"
-			]
+			"people": ["Chamath Palihapitiya", "Dalton Cadwell"]
 		},
 		"2023-06-30": {
 			"category": "Techie",
@@ -105,10 +78,7 @@
 				"https://9takes.com/personality-analysis/David-Friedberg",
 				"https://9takes.com/personality-analysis/David-Sacks"
 			],
-			"people": [
-				"David Friedberg",
-				"David Sacks"
-			]
+			"people": ["David Friedberg", "David Sacks"]
 		},
 		"2023-07-01": {
 			"category": "Techie",
@@ -116,10 +86,7 @@
 				"https://9takes.com/personality-analysis/Elon-Musk",
 				"https://9takes.com/personality-analysis/Jack-Dorsey"
 			],
-			"people": [
-				"Elon Musk",
-				"Jack Dorsey"
-			]
+			"people": ["Elon Musk", "Jack Dorsey"]
 		},
 		"2023-07-02": {
 			"category": "Techie",
@@ -127,10 +94,7 @@
 				"https://9takes.com/personality-analysis/Jason-Calacanis",
 				"https://9takes.com/personality-analysis/Michael-Seibel"
 			],
-			"people": [
-				"Jason Calacanis",
-				"Michael Seibel"
-			]
+			"people": ["Jason Calacanis", "Michael Seibel"]
 		},
 		"2023-07-03": {
 			"category": "Celebrity",
@@ -138,10 +102,7 @@
 				"https://9takes.com/personality-analysis/Chelsea-Handler",
 				"https://9takes.com/personality-analysis/Jimmy-Fallon"
 			],
-			"people": [
-				"Chelsea Handler",
-				"Jimmy Fallon"
-			]
+			"people": ["Chelsea Handler", "Jimmy Fallon"]
 		},
 		"2023-07-04": {
 			"category": "Celebrity",
@@ -149,10 +110,7 @@
 				"https://9takes.com/personality-analysis/Jon-Stewart",
 				"https://9takes.com/personality-analysis/Julia-Roberts"
 			],
-			"people": [
-				"Jon Stewart",
-				"Julia Roberts"
-			]
+			"people": ["Jon Stewart", "Julia Roberts"]
 		},
 		"2023-07-05": {
 			"category": "TikToker",
@@ -160,10 +118,7 @@
 				"https://9takes.com/personality-analysis/Addison-Rae",
 				"https://9takes.com/personality-analysis/Bella-Poarch"
 			],
-			"people": [
-				"Addison Rae",
-				"Bella Poarch"
-			]
+			"people": ["Addison Rae", "Bella Poarch"]
 		},
 		"2023-07-06": {
 			"category": "TikToker",
@@ -171,10 +126,7 @@
 				"https://9takes.com/personality-analysis/Bryce-Hall",
 				"https://9takes.com/personality-analysis/Josh-Richards"
 			],
-			"people": [
-				"Bryce Hall",
-				"Josh Richards"
-			]
+			"people": ["Bryce Hall", "Josh Richards"]
 		},
 		"2023-07-07": {
 			"category": "Lifestyle Influencer",
@@ -182,10 +134,7 @@
 				"https://9takes.com/personality-analysis/Corina-Conf",
 				"https://9takes.com/personality-analysis/Emma-Chamberlain"
 			],
-			"people": [
-				"Corina Conf",
-				"Emma Chamberlain"
-			]
+			"people": ["Corina Conf", "Emma Chamberlain"]
 		},
 		"2023-07-08": {
 			"category": "Lifestyle Influencer",
@@ -193,10 +142,7 @@
 				"https://9takes.com/personality-analysis/Gigi-Hadid",
 				"https://9takes.com/personality-analysis/James-Charles"
 			],
-			"people": [
-				"Gigi Hadid",
-				"James Charles"
-			]
+			"people": ["Gigi Hadid", "James Charles"]
 		},
 		"2023-07-09": {
 			"category": "Lifestyle Influencer",
@@ -204,10 +150,7 @@
 				"https://9takes.com/personality-analysis/Kylie-Jenner",
 				"https://9takes.com/personality-analysis/Madison-Beer"
 			],
-			"people": [
-				"Kylie Jenner",
-				"Madison Beer"
-			]
+			"people": ["Kylie Jenner", "Madison Beer"]
 		},
 		"2023-07-10": {
 			"category": "Lifestyle Influencer",
@@ -215,10 +158,7 @@
 				"https://9takes.com/personality-analysis/Patrick-Starrr",
 				"https://9takes.com/personality-analysis/Selena-Gomez"
 			],
-			"people": [
-				"Patrick Starrr",
-				"Selena Gomez"
-			]
+			"people": ["Patrick Starrr", "Selena Gomez"]
 		},
 		"2023-07-11": {
 			"category": "Movie Star",
@@ -226,10 +166,7 @@
 				"https://9takes.com/personality-analysis/Denzel-Washington",
 				"https://9takes.com/personality-analysis/Jennifer-Garner"
 			],
-			"people": [
-				"Denzel Washington",
-				"Jennifer Garner"
-			]
+			"people": ["Denzel Washington", "Jennifer Garner"]
 		},
 		"2023-07-12": {
 			"category": "Movie Star",
@@ -237,10 +174,7 @@
 				"https://9takes.com/personality-analysis/Kevin-Hart",
 				"https://9takes.com/personality-analysis/Leonardo-DiCaprio"
 			],
-			"people": [
-				"Kevin Hart",
-				"Leonardo DiCaprio"
-			]
+			"people": ["Kevin Hart", "Leonardo DiCaprio"]
 		},
 		"2023-07-13": {
 			"category": "Movie Star",
@@ -248,10 +182,7 @@
 				"https://9takes.com/personality-analysis/Robert-Downey-Jr",
 				"https://9takes.com/personality-analysis/The-Rock"
 			],
-			"people": [
-				"Robert Downey Jr",
-				"The Rock"
-			]
+			"people": ["Robert Downey Jr", "The Rock"]
 		},
 		"2023-07-14": {
 			"category": "Politician",
@@ -259,10 +190,7 @@
 				"https://9takes.com/personality-analysis/Robert-Kennedy-Jr",
 				"https://9takes.com/personality-analysis/Ron-DeSantis"
 			],
-			"people": [
-				"Robert Kennedy Jr",
-				"Ron DeSantis"
-			]
+			"people": ["Robert Kennedy Jr", "Ron DeSantis"]
 		},
 		"2023-07-15": {
 			"category": "Techie",
@@ -270,10 +198,7 @@
 				"https://9takes.com/personality-analysis/Chamath-Palihapitiya",
 				"https://9takes.com/personality-analysis/Dalton-Cadwell"
 			],
-			"people": [
-				"Chamath Palihapitiya",
-				"Dalton Cadwell"
-			]
+			"people": ["Chamath Palihapitiya", "Dalton Cadwell"]
 		},
 		"2023-07-16": {
 			"category": "Techie",
@@ -281,10 +206,7 @@
 				"https://9takes.com/personality-analysis/David-Friedberg",
 				"https://9takes.com/personality-analysis/David-Sacks"
 			],
-			"people": [
-				"David Friedberg",
-				"David Sacks"
-			]
+			"people": ["David Friedberg", "David Sacks"]
 		},
 		"2023-07-17": {
 			"category": "Techie",
@@ -292,10 +214,7 @@
 				"https://9takes.com/personality-analysis/Elon-Musk",
 				"https://9takes.com/personality-analysis/Jack-Dorsey"
 			],
-			"people": [
-				"Elon Musk",
-				"Jack Dorsey"
-			]
+			"people": ["Elon Musk", "Jack Dorsey"]
 		},
 		"2023-07-18": {
 			"category": "Techie",
@@ -303,10 +222,7 @@
 				"https://9takes.com/personality-analysis/Jason-Calacanis",
 				"https://9takes.com/personality-analysis/Michael-Seibel"
 			],
-			"people": [
-				"Jason Calacanis",
-				"Michael Seibel"
-			]
+			"people": ["Jason Calacanis", "Michael Seibel"]
 		},
 		"2023-07-19": {
 			"category": "Celebrity",
@@ -314,10 +230,7 @@
 				"https://9takes.com/personality-analysis/Chelsea-Handler",
 				"https://9takes.com/personality-analysis/Jimmy-Fallon"
 			],
-			"people": [
-				"Chelsea Handler",
-				"Jimmy Fallon"
-			]
+			"people": ["Chelsea Handler", "Jimmy Fallon"]
 		},
 		"2023-07-20": {
 			"category": "Celebrity",
@@ -325,10 +238,7 @@
 				"https://9takes.com/personality-analysis/Jon-Stewart",
 				"https://9takes.com/personality-analysis/Julia-Roberts"
 			],
-			"people": [
-				"Jon Stewart",
-				"Julia Roberts"
-			]
+			"people": ["Jon Stewart", "Julia Roberts"]
 		},
 		"2023-07-21": {
 			"category": "TikToker",
@@ -336,10 +246,7 @@
 				"https://9takes.com/personality-analysis/Addison-Rae",
 				"https://9takes.com/personality-analysis/Bella-Poarch"
 			],
-			"people": [
-				"Addison Rae",
-				"Bella Poarch"
-			]
+			"people": ["Addison Rae", "Bella Poarch"]
 		},
 		"2023-07-22": {
 			"category": "TikToker",
@@ -347,10 +254,7 @@
 				"https://9takes.com/personality-analysis/Bryce-Hall",
 				"https://9takes.com/personality-analysis/Josh-Richards"
 			],
-			"people": [
-				"Bryce Hall",
-				"Josh Richards"
-			]
+			"people": ["Bryce Hall", "Josh Richards"]
 		}
 	}
 }

@@ -41,8 +41,6 @@
 </div>
 
 <!-- style="--tag: h-blog--tough-conversations-to-have-with-your-partner-or-yngmi;" -->
-
-<!-- style="--tag: h-blog--tough-conversations-to-have-with-your-partner-or-yngmi;" -->
 <style lang="scss">
 	h3 {
 		font-size: 1.5rem;

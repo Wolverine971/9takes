@@ -1,5 +1,4 @@
-
-import { redirect } from "@sveltejs/kit";
+import { redirect } from '@sveltejs/kit';
 // import { PageServerLoad } from "./$types";
 
 export const load = async () => {

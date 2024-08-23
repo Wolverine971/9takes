@@ -11,7 +11,7 @@
 </script>
 
 <!-- {250 * displayList.length}px; -->
-<div class="marquee-horizontal" style="width: {928 * 2}px">
+<div class="marquee-horizontal" style="width: {928 * 2}px" role="marquee">
 	<div class="track-horizontal-alt" style="{noMove ? 'animation: none;' : ''} ">
 		<span style="width:50%; flex: 1">
 			{#each displayList as item}

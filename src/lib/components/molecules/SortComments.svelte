@@ -79,7 +79,11 @@
 			getModal('sorter').open();
 		}}
 	>
-		<SlidersIcon iconStyle={'padding: 0.25rem; margin: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+		<SlidersIcon
+			iconStyle={'padding: 0.25rem; margin: .5rem'}
+			height={'1.5rem'}
+			fill={'var(--accent)'}
+		/>
 	</button>
 {/if}
 

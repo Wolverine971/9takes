@@ -33,7 +33,8 @@
 			on:click={toggleLaser}
 			on:keydown={(e) => e.key === 'Enter' && toggleLaser()}
 			tabindex="0"
-			role="button" aria-pressed="false"
+			role="button"
+			aria-pressed="false"
 		>
 			<div class="main">
 				<div class="profile-image">

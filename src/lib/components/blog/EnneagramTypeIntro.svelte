@@ -28,20 +28,22 @@
 	</ul>
 
 	<h2>The Perfectionist's Worldview</h2>
-	
-	<p>Type 1 individuals view the world through a lens of idealism and moral clarity. They often see:</p>
-		<ul>
-			<li>A clear distinction between right and wrong</li>
-			<li>Potential for improvement in themselves and their surroundings</li>
-			<li>Responsibility to uphold high standards and principles</li>
-			<li>Importance of order, structure, and rules in society</li>
-			<li>Opportunities to reform and perfect systems and processes</li>
-		</ul>
 
-	<p>This perspective drives their relentless pursuit of excellence and their desire to make the world a better place.</p>
+	<p>
+		Type 1 individuals view the world through a lens of idealism and moral clarity. They often see:
+	</p>
+	<ul>
+		<li>A clear distinction between right and wrong</li>
+		<li>Potential for improvement in themselves and their surroundings</li>
+		<li>Responsibility to uphold high standards and principles</li>
+		<li>Importance of order, structure, and rules in society</li>
+		<li>Opportunities to reform and perfect systems and processes</li>
+	</ul>
 
-
-	
+	<p>
+		This perspective drives their relentless pursuit of excellence and their desire to make the
+		world a better place.
+	</p>
 {/if}
 
 {#if type === '2'}
@@ -70,17 +72,22 @@
 	</ul>
 
 	<h2>The Helper's Worldview</h2>
-    
-    <p>Type 2 individuals view the world through a lens of interpersonal connections and emotional needs. They often see:</p>
-    <ul>
-        <li>Opportunities to offer support and care to others</li>
-        <li>The importance of relationships and emotional bonds</li>
-        <li>A world where love and appreciation are earned through service</li>
-        <li>The potential for healing and nurturing in every interaction</li>
-        <li>Their own value reflected in their ability to help and be needed</li>
-    </ul>
-    <p>This perspective drives their desire to connect with others and their tendency to prioritize others' needs over their own.</p>
 
+	<p>
+		Type 2 individuals view the world through a lens of interpersonal connections and emotional
+		needs. They often see:
+	</p>
+	<ul>
+		<li>Opportunities to offer support and care to others</li>
+		<li>The importance of relationships and emotional bonds</li>
+		<li>A world where love and appreciation are earned through service</li>
+		<li>The potential for healing and nurturing in every interaction</li>
+		<li>Their own value reflected in their ability to help and be needed</li>
+	</ul>
+	<p>
+		This perspective drives their desire to connect with others and their tendency to prioritize
+		others' needs over their own.
+	</p>
 {/if}
 {#if type === '3'}
 	<h1>Enneagram Type 3: The Achiever</h1>
@@ -107,17 +114,22 @@
 	</ul>
 
 	<h2>The Achiever's Worldview</h2>
-    
-    <p>Type 3 individuals view the world through a lens of accomplishment and recognition. They often see:</p>
-    <ul>
-        <li>Life as a series of challenges to be conquered</li>
-        <li>Success and achievement as the primary measures of personal worth</li>
-        <li>Opportunities for advancement and recognition in various situations</li>
-        <li>The importance of image and reputation in achieving goals</li>
-        <li>Competition as a natural and necessary part of life</li>
-    </ul>
-    <p>This perspective drives their relentless pursuit of success and their ability to adapt to different environments to achieve their goals.</p>
 
+	<p>
+		Type 3 individuals view the world through a lens of accomplishment and recognition. They often
+		see:
+	</p>
+	<ul>
+		<li>Life as a series of challenges to be conquered</li>
+		<li>Success and achievement as the primary measures of personal worth</li>
+		<li>Opportunities for advancement and recognition in various situations</li>
+		<li>The importance of image and reputation in achieving goals</li>
+		<li>Competition as a natural and necessary part of life</li>
+	</ul>
+	<p>
+		This perspective drives their relentless pursuit of success and their ability to adapt to
+		different environments to achieve their goals.
+	</p>
 {/if}
 {#if type === '4'}
 	<h1>Enneagram Type 4: The Individualist</h1>
@@ -143,17 +155,22 @@
 	</ul>
 
 	<h2>The Individualist's Worldview</h2>
-    
-    <p>Type 4 individuals view the world through a lens of personal significance and emotional depth. They often see:</p>
-    <ul>
-        <li>Beauty and meaning in the melancholy and bittersweet aspects of life</li>
-        <li>The world as a canvas for self-expression and authenticity</li>
-        <li>A fundamental difference between themselves and others</li>
-        <li>The importance of understanding and exploring one's emotions</li>
-        <li>Life as a quest for personal significance and unique identity</li>
-    </ul>
-    <p>This perspective drives their pursuit of authenticity and their tendency to seek depth in their experiences and relationships.</p>
 
+	<p>
+		Type 4 individuals view the world through a lens of personal significance and emotional depth.
+		They often see:
+	</p>
+	<ul>
+		<li>Beauty and meaning in the melancholy and bittersweet aspects of life</li>
+		<li>The world as a canvas for self-expression and authenticity</li>
+		<li>A fundamental difference between themselves and others</li>
+		<li>The importance of understanding and exploring one's emotions</li>
+		<li>Life as a quest for personal significance and unique identity</li>
+	</ul>
+	<p>
+		This perspective drives their pursuit of authenticity and their tendency to seek depth in their
+		experiences and relationships.
+	</p>
 {/if}
 {#if type === '5'}
 	<h1>Enneagram Type 5: The Investigator</h1>
@@ -183,18 +200,22 @@
 	</ul>
 
 	<h2>The Investigator's Worldview</h2>
-    
-    <p>Type 5 individuals view the world through a lens of intellectual curiosity and the need for understanding. They often see:</p>
-    <ul>
-        <li>The world as a complex system to be analyzed and understood</li>
-        <li>Knowledge and competence as essential for navigating life</li>
-        <li>The importance of conserving energy and resources</li>
-        <li>A need for personal space and boundaries</li>
-        <li>Value in detachment and objective observation</li>
-    </ul>
-    <p>This perspective drives their pursuit of knowledge and their tendency to maintain emotional and physical distance from others.</p>
 
-
+	<p>
+		Type 5 individuals view the world through a lens of intellectual curiosity and the need for
+		understanding. They often see:
+	</p>
+	<ul>
+		<li>The world as a complex system to be analyzed and understood</li>
+		<li>Knowledge and competence as essential for navigating life</li>
+		<li>The importance of conserving energy and resources</li>
+		<li>A need for personal space and boundaries</li>
+		<li>Value in detachment and objective observation</li>
+	</ul>
+	<p>
+		This perspective drives their pursuit of knowledge and their tendency to maintain emotional and
+		physical distance from others.
+	</p>
 {/if}
 {#if type === '6'}
 	<h1>Enneagram Type 6: The Loyalist</h1>
@@ -220,19 +241,22 @@
 	</ul>
 
 	<h2>The Loyalist's Worldview</h2>
-    
-    <p>Type 6 individuals view the world through a lens of security and potential threats. They often see:</p>
-    <ul>
-        <li>The world as an unpredictable and potentially dangerous place</li>
-        <li>The importance of being prepared for various scenarios</li>
-        <li>Value in questioning and testing the reliability of people and systems</li>
-        <li>The need for trustworthy allies and support systems</li>
-        <li>Duty and responsibility as key elements of security and belonging</li>
-    </ul>
-    <p>This perspective drives their vigilant nature and their commitment to creating safety for themselves and their loved ones.</p>
 
-
-	
+	<p>
+		Type 6 individuals view the world through a lens of security and potential threats. They often
+		see:
+	</p>
+	<ul>
+		<li>The world as an unpredictable and potentially dangerous place</li>
+		<li>The importance of being prepared for various scenarios</li>
+		<li>Value in questioning and testing the reliability of people and systems</li>
+		<li>The need for trustworthy allies and support systems</li>
+		<li>Duty and responsibility as key elements of security and belonging</li>
+	</ul>
+	<p>
+		This perspective drives their vigilant nature and their commitment to creating safety for
+		themselves and their loved ones.
+	</p>
 {/if}
 
 {#if type === '7'}
@@ -265,17 +289,21 @@
 	</ul>
 
 	<h2>The Enthusiast's Worldview</h2>
-    
-    <p>Type 7 individuals view the world through a lens of possibility and excitement. They often see:</p>
-    <ul>
-        <li>Life as a grand adventure full of opportunities to explore</li>
-        <li>The potential for joy and pleasure in every situation</li>
-        <li>Limitations as challenges to be overcome creatively</li>
-        <li>The future as bright and full of potential</li>
-        <li>Variety and novelty as essential to a fulfilling life</li>
-    </ul>
-    <p>This perspective drives their enthusiastic approach to life and their constant pursuit of new experiences and ideas.</p>
 
+	<p>
+		Type 7 individuals view the world through a lens of possibility and excitement. They often see:
+	</p>
+	<ul>
+		<li>Life as a grand adventure full of opportunities to explore</li>
+		<li>The potential for joy and pleasure in every situation</li>
+		<li>Limitations as challenges to be overcome creatively</li>
+		<li>The future as bright and full of potential</li>
+		<li>Variety and novelty as essential to a fulfilling life</li>
+	</ul>
+	<p>
+		This perspective drives their enthusiastic approach to life and their constant pursuit of new
+		experiences and ideas.
+	</p>
 {/if}
 {#if type === '8'}
 	<h1>Enneagram Type 8: The Challenger</h1>
@@ -305,17 +333,23 @@
 	</ul>
 
 	<h2>The Challenger's Worldview</h2>
-    
-    <p>Type 8 individuals view the world through a lens of power dynamics and justice. They often see:</p>
-    <ul>
-        <li>The world as a place where the strong survive and the weak are vulnerable</li>
-        <li>Injustice and unfairness that needs to be confronted</li>
-        <li>The importance of personal strength and independence</li>
-        <li>Challenges as opportunities to prove their strength and resilience</li>
-        <li>The need to protect themselves and those they care about from potential harm or exploitation</li>
-    </ul>
-    <p>This perspective drives their assertive approach to life and their desire to stand up for themselves and others.</p>
 
+	<p>
+		Type 8 individuals view the world through a lens of power dynamics and justice. They often see:
+	</p>
+	<ul>
+		<li>The world as a place where the strong survive and the weak are vulnerable</li>
+		<li>Injustice and unfairness that needs to be confronted</li>
+		<li>The importance of personal strength and independence</li>
+		<li>Challenges as opportunities to prove their strength and resilience</li>
+		<li>
+			The need to protect themselves and those they care about from potential harm or exploitation
+		</li>
+	</ul>
+	<p>
+		This perspective drives their assertive approach to life and their desire to stand up for
+		themselves and others.
+	</p>
 {/if}
 {#if type === '9'}
 	<h1>Enneagram Type 9: The Peacemaker</h1>
@@ -343,18 +377,22 @@
 	</ul>
 
 	<h2>The Peacemaker's Worldview</h2>
-    
-    <p>Type 9 individuals view the world through a lens of harmony and interconnectedness. They often see:</p>
-    <ul>
-        <li>The inherent value and goodness in all people and perspectives</li>
-        <li>Conflict as unnecessary and potentially destructive</li>
-        <li>The importance of maintaining balance and stability</li>
-        <li>The interconnectedness of all things and people</li>
-        <li>The world as a place where everyone can coexist peacefully if given the chance</li>
-    </ul>
-    <p>This perspective drives their desire for harmony and their ability to see and validate multiple viewpoints.</p>
 
-	
+	<p>
+		Type 9 individuals view the world through a lens of harmony and interconnectedness. They often
+		see:
+	</p>
+	<ul>
+		<li>The inherent value and goodness in all people and perspectives</li>
+		<li>Conflict as unnecessary and potentially destructive</li>
+		<li>The importance of maintaining balance and stability</li>
+		<li>The interconnectedness of all things and people</li>
+		<li>The world as a place where everyone can coexist peacefully if given the chance</li>
+	</ul>
+	<p>
+		This perspective drives their desire for harmony and their ability to see and validate multiple
+		viewpoints.
+	</p>
 {/if}
 
 <style>

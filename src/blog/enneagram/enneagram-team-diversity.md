@@ -12,7 +12,6 @@ type: ['workplace']
 blog: true
 previewHtml: ''
 pic: 'people-from-diverse-backgrounds'
-
 ---
 
 <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->

@@ -527,8 +527,7 @@
 		0%,
 		100% {
 			color: #fff;
-			text-shadow: 0 0 10px var(--primary), 0 0 50px var(--primary),
-				0 0 100px var(--primary);
+			text-shadow: 0 0 10px var(--primary), 0 0 50px var(--primary), 0 0 100px var(--primary);
 		}
 		10%,
 		90% {

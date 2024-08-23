@@ -6,7 +6,7 @@
 
 	export let disabled = undefined;
 	export let error = undefined;
-	export let expand = true;
+	// export let expand = true;
 	export let id = uid();
 	export let label = '';
 	export let loading = false;

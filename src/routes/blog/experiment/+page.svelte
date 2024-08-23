@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { PageData } from './$types';
-	export let data: PageData;
+	// export let data: PageData;
 	import { stemmer } from 'stemmer';
 	import { supabase } from '$lib/supabase';
 	// https://www.youtube.com/watch?v=ngekIXiFN3s
@@ -1467,7 +1467,10 @@
 				const id = `${elem.emotion}-${i}`;
 				const emotion = document.getElementById(id);
 				const animate = emotion.animate(
-					[{ translate: `${invertx}px ${inverty}px` }, { translate: '0px', color: 'var(--primary)' }],
+					[
+						{ translate: `${invertx}px ${inverty}px` },
+						{ translate: '0px', color: 'var(--primary)' }
+					],
 					{
 						duration: 3000,
 						fill: 'forwards',
@@ -1617,7 +1620,10 @@
 				/>
 			{:else}
 				<div
-					on:click={(submitBox = false)}
+					on:click={() => (submitBox = false)}
+					role="button"
+					tabindex="0"
+					on:keydown={(e) => e.key === 'Enter' && (submitBox = false)}
 					class="emotion-div"
 					style={`min-height: ${height}px; max-width: ${width}px;`}
 				>

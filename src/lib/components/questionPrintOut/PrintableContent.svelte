@@ -44,7 +44,7 @@
 					{#if position && !position.isBackground}
 						<img
 							src={image}
-							alt="User uploaded image"
+							alt="User uploaded pic"
 							class={position.isBackground ? 'background-image' : 'foreground-image'}
 							style="left: {position.x}px; top: {position.y}px;"
 						/>

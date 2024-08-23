@@ -3,7 +3,7 @@
 	import QRCode from 'qrcode';
 
 	export let question: { id: string; url: string; question: string; question_formatted?: string };
-	export let showDetails = true;
+	// export let showDetails = true;
 	export let addQuestionMark = false;
 
 	let innerWidth = 0;

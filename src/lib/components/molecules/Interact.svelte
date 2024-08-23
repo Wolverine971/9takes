@@ -154,7 +154,9 @@
 			<BellIcon
 				iconStyle={'padding: 0.25rem;'}
 				height={'1.5rem'}
-				fill={subscriptions.some((e) => e.user_id === user?.id) ? 'var(--primary)' : 'var(--accent)'}
+				fill={subscriptions.some((e) => e.user_id === user?.id)
+					? 'var(--primary)'
+					: 'var(--accent)'}
 			/>
 		</button>
 	{/if}

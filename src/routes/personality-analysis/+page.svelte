@@ -66,7 +66,11 @@
 						<h3 style="">
 							<span>All {number}s </span>
 							<br />
-							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'var(--accent)'} />
+							<ArrowRightIcon
+								iconStyle={'margin-left: .5rem'}
+								height={'1.5rem'}
+								fill={'var(--accent)'}
+							/>
 						</h3>
 					</div>
 				</a>

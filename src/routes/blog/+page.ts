@@ -16,14 +16,17 @@ export const load = async (): Promise<{
 	const enneagramPromises = Object.entries(enneagramModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 
-	const enneagramPosts = (await Promise.all(enneagramPromises)).filter((post) => post.published).sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1)).slice(0, MAX_POSTS);
+	const enneagramPosts = (await Promise.all(enneagramPromises))
+		.filter((post) => post.published)
+		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
+		.slice(0, MAX_POSTS);
 	// const publishedPosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 
 	const communityModules = import.meta.glob(`/src/blog/community/*.{md,svx,svelte.md}`);
@@ -31,30 +34,39 @@ export const load = async (): Promise<{
 	const communityPromises = Object.entries(communityModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 
-	const communityPosts = (await Promise.all(communityPromises)).filter((post) => post.published).sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1)).slice(0, MAX_POSTS);
+	const communityPosts = (await Promise.all(communityPromises))
+		.filter((post) => post.published)
+		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
+		.slice(0, MAX_POSTS);
 
 	const guidesModules = import.meta.glob(`/src/blog/guides/*.{md,svx,svelte.md}`);
 
 	const guidesPromises = Object.entries(guidesModules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				} as App.BlogPost)
 		)
 	);
 
-	const guidesPosts = (await Promise.all(guidesPromises)).filter((post) => post.published).sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1)).slice(0, MAX_POSTS);
+	const guidesPosts = (await Promise.all(guidesPromises))
+		.filter((post) => post.published)
+		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
+		.slice(0, MAX_POSTS);
 
-	const peoplePosts = (await getAllPeoplePosts()).filter((post: App.BlogPost) => post.published).sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1)).slice(0, MAX_POSTS);
+	const peoplePosts = (await getAllPeoplePosts())
+		.filter((post: App.BlogPost) => post.published)
+		.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1))
+		.slice(0, MAX_POSTS);
 
 	// const peoplePosts = posts.filter((post) => post.published); //.slice(0, MAX_POSTS);
 

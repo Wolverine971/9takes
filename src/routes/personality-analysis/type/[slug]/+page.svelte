@@ -45,14 +45,14 @@
 <EnneagramTypeBottom type={data.slug} />
 
 <br />
-	<hr />
-	<br />
-	<p class="position-center">🚧 More to come</p>
-	{#if !data?.session?.user}
-		<div class="join position-center">
-			<EmailSignup />
-		</div>
-	{/if}
+<hr />
+<br />
+<p class="position-center">🚧 More to come</p>
+{#if !data?.session?.user}
+	<div class="join position-center">
+		<EmailSignup />
+	</div>
+{/if}
 
 <style lang="scss">
 	h3 {

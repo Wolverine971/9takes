@@ -11,7 +11,9 @@
 			</li>
 			<li><a href="/enneagram-corner/enneagram-tldr"> Enneagram TLDR </a></li>
 			<li>
-				<a href="/enneagram-corner/enneagram-concepts"> Concepts and principles of the Enneagram </a>
+				<a href="/enneagram-corner/enneagram-concepts">
+					Concepts and principles of the Enneagram
+				</a>
 			</li>
 			<li>
 				<a href="/enneagram-corner/enneagram-influences">

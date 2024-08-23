@@ -14,7 +14,6 @@ previewHtml: ''
 pic: 'enneagram-concepts'
 ---
 
-
 <!-- the enneagram describes your personality in a box
 it is not
 

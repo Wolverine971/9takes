@@ -71,8 +71,8 @@
 		text-shadow: 2px 2px rgb(190, 38, 215) !important; */
 		color: var(--accent) !important;
 		display: flex;
-		text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary),
-			-1px 1px 0 #000, 1px 1px 0 #000;
+		text-shadow: -1px -1px 0 var(--primary), 1px -1px 0 var(--primary), -1px 1px 0 #000,
+			1px 1px 0 #000;
 	}
 
 	.visually-hidden {
