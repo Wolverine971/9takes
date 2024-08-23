@@ -66,13 +66,7 @@
 {#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
 	{#each comments as comment (comment.id)}
 		<div transition:fade>
-			<Comment
-				{questionId}
-				{comment}
-				{user}
-				{parentData}
-				on:commentAdded={refreshComments}
-			/>
+			<Comment {questionId} {comment} {user} {parentData} on:commentAdded={refreshComments} />
 		</div>
 	{/each}
 	{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}

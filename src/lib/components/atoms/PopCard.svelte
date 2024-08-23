@@ -76,13 +76,15 @@
 		}
 	];
 
+	let namePopId = Math.random().toString(36).substring(2);
+
 	onMount(() => {
 		if (scramble) scribbleScrabble();
 		return () => clearInterval(interval);
 	});
 
 	function scribbleScrabble() {
-		const name = document.querySelector('.name-pop');
+		const name = document.querySelector(`.name-pop-${namePopId}`);
 		if (!name) return;
 
 		let iteration = 0;
@@ -91,7 +93,9 @@
 		interval = setInterval(() => {
 			name.textContent = displayText
 				.split('')
-				.map((letter, index) => index < iteration ? displayText[index] : LETTERS[Math.floor(Math.random() * 26)])
+				.map((letter, index) =>
+					index < iteration ? displayText[index] : LETTERS[Math.floor(Math.random() * 26)]
+				)
 				.join('');
 
 			if (iteration >= displayText.length) {
@@ -137,12 +141,20 @@
 			{#if showDescription && enneagramType}
 				<div class="type-description" in:fly={{ y: 200, duration: 2000 }}>
 					<h2 class="big-p">{enneagramTypeCheatSheet[enneagramType - 1].EnneagramType}</h2>
-					<p class="mid-p"><b>Motivation:</b> {enneagramTypeCheatSheet[enneagramType - 1].CoreMotivation}</p>
+					<p class="mid-p">
+						<b>Motivation:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].CoreMotivation}
+					</p>
 					<p class="mid-p"><b>Fear:</b> {enneagramTypeCheatSheet[enneagramType - 1].CoreFear}</p>
-					<p class="mid-p"><b>Stereotypes:</b> {enneagramTypeCheatSheet[enneagramType - 1].CommonStereotypes}</p>
+					<p class="mid-p">
+						<b>Stereotypes:</b>
+						{enneagramTypeCheatSheet[enneagramType - 1].CommonStereotypes}
+					</p>
 				</div>
 			{:else if displayText}
-				<p class="name-pop" data-value={displayText} in:fly={{ y: -200, duration: 2000 }}>{displayText}</p>
+				<p class={`name-pop-${namePopId} name-pop`} data-value={displayText} in:fly={{ y: -200, duration: 2000 }}>
+					{displayText}
+				</p>
 			{/if}
 			{#if subtext}
 				<p class="link">{subtext}</p>
@@ -191,7 +203,7 @@
 			left: 0;
 			top: 0;
 			background-size: 300%;
-		background-position: 0% 0%;
+			background-position: 0% 0%;
 			object-fit: cover;
 			transition: filter 0.3s ease-in-out;
 
@@ -235,7 +247,8 @@
 			position: relative;
 			text-align: center;
 
-			.name-pop, .link {
+			.name-pop,
+			.link {
 				font-family: var(--font-family);
 				text-transform: uppercase;
 				color: $base-white-outline;
@@ -284,16 +297,30 @@
 	}
 
 	@keyframes pan-overlay {
-		from { background-position: 0 0; }
-		to { background-position: 0 -100%; }
+		from {
+			background-position: 0 0;
+		}
+		to {
+			background-position: 0 -100%;
+		}
 	}
 
 	@keyframes pan-image {
-		0% { transform: scale(1) translate(0, 0); }
-		25% { transform: scale(1.05) translate(2%, 2%); }
-		50% { transform: scale(1.1) translate(-2%, 2%); }
-		75% { transform: scale(1.05) translate(-2%, -2%); }
-		100% { transform: scale(1) translate(0, 0); }
+		0% {
+			transform: scale(1) translate(0, 0);
+		}
+		25% {
+			transform: scale(1.05) translate(2%, 2%);
+		}
+		50% {
+			transform: scale(1.1) translate(-2%, 2%);
+		}
+		75% {
+			transform: scale(1.05) translate(-2%, -2%);
+		}
+		100% {
+			transform: scale(1) translate(0, 0);
+		}
 	}
 
 	@media (max-width: 700px) {
@@ -312,8 +339,12 @@
 		}
 
 		.type-description {
-			.big-p { font-size: 1.7rem; }
-			.mid-p { font-size: 1.5rem; }
+			.big-p {
+				font-size: 1.7rem;
+			}
+			.mid-p {
+				font-size: 1.5rem;
+			}
 		}
 	}
 
@@ -326,8 +357,12 @@
 
 	@media (max-width: 400px) {
 		.pop-card-user {
-			.big-p { font-size: 1.4rem; }
-			.mid-p { font-size: 1.1rem; }
+			.big-p {
+				font-size: 1.4rem;
+			}
+			.mid-p {
+				font-size: 1.1rem;
+			}
 		}
 	}
 </style>

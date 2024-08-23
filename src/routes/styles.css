@@ -345,9 +345,9 @@ textarea {
 }
 
 .interact-textbox:focus {
-    outline: none !important;
-    box-shadow: 0 0 10px var(--accent);
-  }
+	outline: none !important;
+	box-shadow: 0 0 10px var(--accent);
+}
 
 .shimmer-button {
 	background-image: linear-gradient(

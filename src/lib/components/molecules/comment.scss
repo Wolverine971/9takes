@@ -1,201 +1,197 @@
 :root {
-    --comment-padding: 0.5rem;
-    --comment-margin: 0.3rem 0;
-    --avatar-size: 2.5rem;
-    --icon-size: 1.5rem;
-    --border-radius: var(--base-border-radius, 5px);
+	--comment-padding: 0.5rem;
+	--comment-margin: 0.3rem 0;
+	--avatar-size: 2.5rem;
+	--icon-size: 1.5rem;
+	--border-radius: var(--base-border-radius, 5px);
 }
 
 .comment-card {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
+	display: flex;
+	flex-direction: column;
+	background-color: aqua;
 
-    margin: var(--comment-margin);
-    padding: var(--comment-padding);
+	margin: var(--comment-margin);
+	padding: var(--comment-padding);
 }
 
 .user-comment {
-    display: flex;
-    flex-direction: column;
-    padding: var(--comment-padding);
+	display: flex;
+	flex-direction: column;
+	padding: var(--comment-padding);
 }
 
 .comment-content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 
 .comment-box {
-    margin: 0.25rem;
-    padding: var(--comment-padding);
-    border-radius: var(--border-radius);
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+	margin: 0.25rem;
+	padding: var(--comment-padding);
+	border-radius: var(--border-radius);
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .comment-main {
-    flex: 1;
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
 }
 
 .profile-avatar {
-    
+	display: inline-block;
+	min-width: 78px;
+	padding: 0.2rem;
+	color: var(--color-theme-purple-light);
+	border: 1px solid var(--color-theme-purple-light);
+	font-weight: bolder;
+	text-align: center;
+	border-radius: var(--base-border-radius);
+	transition: all 0.3s ease;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	word-break: keep-all;
 
-    display: inline-block;
-    min-width: 78px;
-    padding: .2rem;
-    color: var(--color-theme-purple-light);
-    border: 1px solid var(--color-theme-purple-light);
-    font-weight: bolder;
-    text-align: center;
-    border-radius: var(--base-border-radius);
-    transition: all 0.3s ease;
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    word-break: keep-all;
+	&.active {
+		color: var(--primary);
 
-    
+		&:hover {
+			border-color: var(--primary);
+		}
+	}
 
-    &.active {
-        color: var(--primary);
-
-        &:hover {
-            border-color: var(--primary);
-        }
-    }
-
-    &.disabled {
-        opacity: 0.6;
-        cursor: not-allowed;
-    }
+	&.disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
 }
 
 .comment-text-wrapper {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
 }
 
 .comment-text {
-    max-height: 3em;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-    white-space: pre-line;
+	max-height: 3em;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+	white-space: pre-line;
 }
 
 .expanded .comment-text {
-    max-height: none;
+	max-height: none;
 }
 
 .read-more-btn {
-    align-self: flex-start;
-    background-color: var(--base-grey-1);
-    padding: 5px 10px;
-    cursor: pointer;
-    border-left: 1px solid;
-    border-bottom: 1px solid;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
+	align-self: flex-start;
+	background-color: var(--base-grey-1);
+	padding: 5px 10px;
+	cursor: pointer;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top: 0.5rem;
+	font-size: 0.8rem;
 }
 
 .comment-actions {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-left: 1rem;
 }
 
 .action-buttons {
-    display: flex;
-    gap: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
 }
 
 .action-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0.25rem;
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0.25rem;
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
 
-    &.liked {
-        color: var(--primary);
-    }
+	&.liked {
+		color: var(--primary);
+	}
 }
 
 .action-icon {
-    width: var(--icon-size);
-    height: var(--icon-size);
-    fill: var(--accent);
+	width: var(--icon-size);
+	height: var(--icon-size);
+	fill: var(--accent);
 }
 
 .like-count {
-    font-size: 0.875rem;
+	font-size: 0.875rem;
 }
 
 .popover-content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
 .comment-date {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    font-size: 0.875rem;
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	font-size: 0.875rem;
 }
 
 .modified-indicator {
-    color: var(--primary);
-    font-weight: bold;
+	color: var(--primary);
+	font-weight: bold;
 }
 
 .flag-btn {
-    width: 100%;
+	width: 100%;
 }
 
 @media (max-width: 576px) {
-    .comment-box {
-        flex-direction: column;
-    }
+	.comment-box {
+		flex-direction: column;
+	}
 
-    .comment-main {
-        width: 100%;
-    }
+	.comment-main {
+		width: 100%;
+	}
 
-    .comment-actions {
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-left: 0;
-        margin-top: 0.5rem;
-        width: 100%;
-    }
+	.comment-actions {
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-left: 0;
+		margin-top: 0.5rem;
+		width: 100%;
+	}
 
-    .action-buttons {
-        flex-wrap: wrap;
-    }
+	.action-buttons {
+		flex-wrap: wrap;
+	}
 
-    .popover-content {
-        width: 100%;
-    }
+	.popover-content {
+		width: 100%;
+	}
 
-    .flag-btn {
-        margin-top: var(--comment-padding);
-    }
+	.flag-btn {
+		margin-top: var(--comment-padding);
+	}
 }
 
 .nested-comments {
-    margin: 0 var(--comment-padding);
-    // width: 93%;
+	margin: 0 var(--comment-padding);
+	// width: 93%;
 }

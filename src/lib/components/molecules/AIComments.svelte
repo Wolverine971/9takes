@@ -21,9 +21,7 @@
 			<div style="display: flex; justify-content: space-between; align-items: center;">
 				<div>
 					<h2 style="padding: 0; margin:0;">Stereotypical responses</h2>
-					<p style="margin: .5rem 0 0 0;">
-						 Based on Enneagram types.
-					</p>
+					<p style="margin: .5rem 0 0 0;">Based on Enneagram types.</p>
 				</div>
 				<button
 					on:click={() => (showAiComments = !showAiComments)}

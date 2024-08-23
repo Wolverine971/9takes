@@ -29,7 +29,9 @@
 		}
 		loading = true;
 		try {
-			const response = await fetch(`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}`);
+			const response = await fetch(
+				`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}`
+			);
 			const newcommentData = await response.json();
 			if (!_commentComment.comments) {
 				_commentComment.comments = [];
@@ -105,7 +107,6 @@
 </Card>
 
 <style lang="scss">
-	
 	@import '../molecules/comment.scss';
 
 	.comment-card {

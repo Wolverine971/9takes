@@ -69,7 +69,9 @@
 	role="dialog"
 	aria-modal="true"
 	aria-labelledby={name}
-	on:click|stopPropagation={() => {close()}}
+	on:click|stopPropagation={(event) => {
+		close(event);
+	}}
 >
 	<div
 		id="modal"

@@ -37,9 +37,9 @@
 		? comment.comments[comment.comments.length - 1]?.created_at || null
 		: null;
 
-	$: createdOrModifiedAt = new Date(
-		comment.modified_at || comment.created_at
-	).toLocaleDateString('en-US');
+	$: createdOrModifiedAt = new Date(comment.modified_at || comment.created_at).toLocaleDateString(
+		'en-US'
+	);
 
 	onMount(() => {
 		updateCommentData();
@@ -98,13 +98,13 @@
 
 			notifications.info(operation === 'add' ? 'Like Added' : 'Like Removed', 3000);
 			const newLike = result?.data;
-		if (newLike) {
-			likes = [newLike, ...likes];
-		} else {
-			likes = likes.filter((c) => {
-				c.user_id !== user.id;
-			});
-		}
+			if (newLike) {
+				likes = [newLike, ...likes];
+			} else {
+				likes = likes.filter((c) => {
+					c.user_id !== user.id;
+				});
+			}
 		} catch (error) {
 			console.error('Error liking comment:', error);
 			notifications.danger('Error processing like', 3000);
@@ -351,7 +351,13 @@
 		</div>
 	{/if}
 	{#if _commentComment.comment_count && !_commentComment?.comments?.length}
-		<button type="button" class="drop-down" on:click={loadMore} title="Load more comments" style="width: 93%;">
+		<button
+			type="button"
+			class="drop-down"
+			on:click={loadMore}
+			title="Load more comments"
+			style="width: 93%;"
+		>
 			{comment.comment_count}
 			{#if loadingComments}
 				<div class="loader" />
@@ -367,13 +373,7 @@
 	<div class="modal-content">
 		<h1>Edit Comment</h1>
 		<textarea rows="5" bind:value={commentEdit} />
-		<button
-			class="btn btn-primary save-btn"
-			type="button"
-			on:click={save}
-		>
-			Save
-		</button>
+		<button class="btn btn-primary save-btn" type="button" on:click={save}> Save </button>
 	</div>
 </Modal2>
 
@@ -390,17 +390,10 @@
 		{/if}
 		<p>Description</p>
 		<textarea rows="5" bind:value={flaggingReasonDescription} />
-		<button
-			class="btn btn-primary save-btn"
-			type="button"
-			on:click={submitFlag}
-		>
-			Send
-		</button>
+		<button class="btn btn-primary save-btn" type="button" on:click={submitFlag}> Send </button>
 	</div>
 </Modal2>
 
 <style lang="scss">
 	@import './comment.scss';
-
 </style>

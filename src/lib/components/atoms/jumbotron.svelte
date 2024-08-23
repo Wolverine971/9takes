@@ -160,21 +160,55 @@
 	}
 
 	@keyframes pan-overlay {
-		from { background-position: 0 0; }
-		to { background-position: 0 -100%; }
+		from {
+			background-position: 0 0;
+		}
+		to {
+			background-position: 0 -100%;
+		}
 	}
 
 	@keyframes pan-image {
-		0% { background-position: 36% 42%; background-size: 200%; }
-		20% { background-position: 30% 35%; background-size: 200%; }
-		20.0001% { background-position: 60% 85%; background-size: 500%; }
-		40% { background-position: 49% 81%; background-size: 500%; }
-		40.0001% { background-position: 80% 42%; background-size: 300%; }
-		60% { background-position: 84% 33%; background-size: 300%; }
-		60.0001% { background-position: 0 0; background-size: 300%; }
-		80% { background-position: 15% 4%; background-size: 300%; }
-		80.0001% { background-position: 80% 10%; background-size: 300%; }
-		100% { background-position: 72% 14%; background-size: 300%; }
+		0% {
+			background-position: 36% 42%;
+			background-size: 200%;
+		}
+		20% {
+			background-position: 30% 35%;
+			background-size: 200%;
+		}
+		20.0001% {
+			background-position: 60% 85%;
+			background-size: 500%;
+		}
+		40% {
+			background-position: 49% 81%;
+			background-size: 500%;
+		}
+		40.0001% {
+			background-position: 80% 42%;
+			background-size: 300%;
+		}
+		60% {
+			background-position: 84% 33%;
+			background-size: 300%;
+		}
+		60.0001% {
+			background-position: 0 0;
+			background-size: 300%;
+		}
+		80% {
+			background-position: 15% 4%;
+			background-size: 300%;
+		}
+		80.0001% {
+			background-position: 80% 10%;
+			background-size: 300%;
+		}
+		100% {
+			background-position: 72% 14%;
+			background-size: 300%;
+		}
 	}
 
 	@media (max-width: 700px) {
