@@ -1,6 +1,6 @@
 ---
-title: "Astrology Meets Enneagram: Cosmic Personality Insights"
-description: "Explore the intersection of Astrology and the Enneagram. Discover how these two systems combine to offer unique perspectives on personality and growth."
+title: 'Astrology Meets Enneagram: Cosmic Personality Insights'
+description: 'Explore the intersection of Astrology and the Enneagram. Discover how these two systems combine to offer unique perspectives on personality and growth.'
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/enneagram-corner/astrology-and-the-enneagram'
@@ -13,8 +13,6 @@ blog: true
 previewHtml: ''
 pic: 'looking-up-at-the-night-sky'
 ---
-
-
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
@@ -108,58 +106,75 @@ For instance:
 ### Enneagram Wings and Astrological Aspects: Examples for Each Combination
 
 - **Type 1w9 and Sun-Saturn trine**:
-    - The perfectionism of Type 1 (Saturn) is softened by the peaceful acceptance of Type 9 (Jupiter/Venus trine).
+
+  - The perfectionism of Type 1 (Saturn) is softened by the peaceful acceptance of Type 9 (Jupiter/Venus trine).
 
 - **Type 1w2 and Saturn-Moon conjunction**:
-    - The structured idealism of Type 1 (Saturn) is warmed by the nurturing energy of Type 2 (Moon).
+
+  - The structured idealism of Type 1 (Saturn) is warmed by the nurturing energy of Type 2 (Moon).
 
 - **Type 2w1 and Venus-Saturn sextile**:
-    - The helping nature of Type 2 (Venus) is given structure by the orderliness of Type 1 (Saturn).
+
+  - The helping nature of Type 2 (Venus) is given structure by the orderliness of Type 1 (Saturn).
 
 - **Type 2w3 and Venus-Sun conjunction**:
-    - The supportive Type 2 (Venus) gains a spotlight-seeking quality from Type 3 (Sun).
+
+  - The supportive Type 2 (Venus) gains a spotlight-seeking quality from Type 3 (Sun).
 
 - **Type 3w2 and Sun-Venus conjunction**:
-    - The achievement-oriented Type 3 (Sun) is softened by the relationally-focused Type 2 (Venus).
+
+  - The achievement-oriented Type 3 (Sun) is softened by the relationally-focused Type 2 (Venus).
 
 - **Type 3w4 and Sun-Neptune aspect**:
-    - The success-driven Type 3 (Sun) is colored by the creative, introspective Type 4 (Neptune).
+
+  - The success-driven Type 3 (Sun) is colored by the creative, introspective Type 4 (Neptune).
 
 - **Type 4w3 and Neptune-Sun aspect**:
-    - The individualistic Type 4 (Neptune) gains drive from the ambitious Type 3 (Sun).
+
+  - The individualistic Type 4 (Neptune) gains drive from the ambitious Type 3 (Sun).
 
 - **Type 4w5 and Neptune-Mercury conjunction**:
-    - The emotional depth of Type 4 (Neptune) is intellectualized by the analytical Type 5 (Mercury).
+
+  - The emotional depth of Type 4 (Neptune) is intellectualized by the analytical Type 5 (Mercury).
 
 - **Type 5w4 and Mercury-Neptune aspect**:
-    - The scholarly Type 5 (Mercury) is infused with the creativity of Type 4 (Neptune).
+
+  - The scholarly Type 5 (Mercury) is infused with the creativity of Type 4 (Neptune).
 
 - **Type 5w6 and Mercury-Saturn sextile**:
-    - The investigative Type 5 (Mercury) gains caution from the security-seeking Type 6 (Saturn).
+
+  - The investigative Type 5 (Mercury) gains caution from the security-seeking Type 6 (Saturn).
 
 - **Type 6w5 and Saturn-Mercury aspect**:
-    - The loyal Type 6 (Saturn) is sharpened by the intellectual Type 5 (Mercury).
+
+  - The loyal Type 6 (Saturn) is sharpened by the intellectual Type 5 (Mercury).
 
 - **Type 6w7 and Saturn-Jupiter aspect**:
-    - The cautious Type 6 (Saturn) is balanced by the optimistic Type 7 (Jupiter).
+
+  - The cautious Type 6 (Saturn) is balanced by the optimistic Type 7 (Jupiter).
 
 - **Type 7w6 and Jupiter-Saturn aspect**:
-    - The adventurous Type 7 (Jupiter) gains groundedness from the responsible Type 6 (Saturn).
+
+  - The adventurous Type 7 (Jupiter) gains groundedness from the responsible Type 6 (Saturn).
 
 - **Type 7w8 and Jupiter-Mars trine**:
-    - The enthusiastic Type 7 (Jupiter) is energized by the assertive Type 8 (Mars).
+
+  - The enthusiastic Type 7 (Jupiter) is energized by the assertive Type 8 (Mars).
 
 - **Type 8w7 and Mars-Jupiter aspect**:
-    - The powerful Type 8 (Mars) is expanded by the visionary Type 7 (Jupiter).
+
+  - The powerful Type 8 (Mars) is expanded by the visionary Type 7 (Jupiter).
 
 - **Type 8w9 and Mars-Venus trine**:
-    - The assertive Type 8 (Mars) is softened by the harmonizing Type 9 (Venus).
+
+  - The assertive Type 8 (Mars) is softened by the harmonizing Type 9 (Venus).
 
 - **Type 9w8 and Venus-Mars aspect**:
-    - The peace-seeking Type 9 (Venus) gains assertiveness from the strong-willed Type 8 (Mars).
+
+  - The peace-seeking Type 9 (Venus) gains assertiveness from the strong-willed Type 8 (Mars).
 
 - **Type 9w1 and Venus-Saturn sextile**:
-    - The easygoing Type 9 (Venus) is given structure by the orderly Type 1 (Saturn).
+  - The easygoing Type 9 (Venus) is given structure by the orderly Type 1 (Saturn).
 
 Remember, these comparisons are interpretative and not scientifically validated. They serve as a creative way to understand the nuances of personality through the lenses of both the Enneagram and astrology.
 

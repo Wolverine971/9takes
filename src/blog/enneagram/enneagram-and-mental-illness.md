@@ -236,6 +236,7 @@ Type 3s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. Jack, an ambitious executive, becomes consumed by his image of success:
+
    - He enjoys climbing the corporate and social ladder, upgrading his lifestyle
    - This creates a cycle where he has to work harder to maintain his image and lifestyle
    - He begins taking shortcuts and playing deceptive bureaucratic games at work
@@ -327,6 +328,7 @@ Type 4s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. Oliver, feeling disconnected from others, spirals into chronic depression:
+
    - His emotional volatility creates a cycle of strained relationships
    - He begins to self-sabotage by pushing away those who try to help
    - This deepens his sense of alienation and reinforces his depressive state
@@ -387,6 +389,7 @@ Type 5s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. Ethan, a researcher, increasingly isolates himself, neglecting his physical health:
+
    - He becomes consumed by his intellectual pursuits, ignoring basic self-care
    - His eccentricity grows, and he begins to refuse help from others
    - As isolation deepens, his perceptions become distorted, leading to suicidal thoughts
@@ -452,6 +455,7 @@ Type 6s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. Noah, feeling insecure in his job, experiences intense anxiety and panic attacks:
+
    - His fear of losing support from colleagues and superiors exacerbates his anxiety
    - He begins to rely heavily on others for reassurance, creating a dependency
    - As his anxiety grows, he becomes more defiant, leading to conflicts at work
@@ -511,6 +515,7 @@ Type 7s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. Lucas, seeking to escape anxiety, falls into severe addictions:
+
    - His impulsive nature leads him to experiment with substances as a means of relief
    - Over time, this experimentation turns into severe addiction, with periods of uncontrolled behavior
    - His mood swings become more extreme, leading to panic attacks and severe mental health challenges
@@ -570,6 +575,7 @@ Type 8s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. James, feeling betrayed, becomes increasingly isolated and bitter:
+
    - His sense of betrayal leads him to withdraw from others, fostering bitterness
    - He begins to experience episodes of intense rage and aggression
    - These violent outbursts reflect deepening mental health issues, potentially leading to antisocial behavior
@@ -629,6 +635,7 @@ Type 9s are susceptible to a range of mental health challenges, including:
 <h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
 
 1. William, avoiding personal problems, falls into chronic depression and emotional flatness:
+
    - His avoidance of conflict and personal issues leads to a persistent state of emotional numbness
    - He begins to rely heavily on others, becoming increasingly dependent
    - His refusal to seek help or address his problems results in a deepening disconnection from his own emotions and reality

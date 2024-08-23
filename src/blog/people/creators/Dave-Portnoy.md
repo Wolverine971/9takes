@@ -4,7 +4,7 @@ description: 'The Man, The Myth, The Legend: Who is Dave Portnoy? But more impor
 author: 'DJ Wayne'
 date: '2023-08-21'
 loc: 'https://9takes.com/personality-analysis/Dave-Portnoy'
-lastmod: '2023-12-24'
+lastmod: '2024-08-23'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -89,6 +89,102 @@ Whether it's his choice of co-hosts or his friendships with well-known figures l
 He's friends with the Gen Z TikTokers, and he's also unapologetically a stan of both <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a>and Dixie D'Amelio. Public figures often stick to their lanes, but Portnoy makes and sets his lanes. He does what he finds interesting and will be friends with whomever he chooses, regardless of what others might think.
 
 This disregard for societal expectations and his willingness to forge his path symbolizes a Type 8 personality—someone who values control over their own life and is unafraid to stand alone.
+
+## Growth and Stress: Portnoy's Journey to Type 2 and Type 5
+
+### Moving to Growth: The Generous Side of El Presidente
+
+When Type 8s like Dave Portnoy move towards their growth point (Type 2), they become more caring and supportive. We've seen glimpses of this side of Portnoy, particularly during the COVID-19 pandemic:
+
+1. **The Barstool Fund**: In December 2020, Portnoy launched the Barstool Fund to help small businesses struggling due to COVID-19 lockdowns. He kicked it off with $500,000 of his own money and rallied his followers to contribute. The fund raised over $41 million and helped over 400 small businesses.
+
+   "These people aren't going out of business because they're not successful or not making money, it's because they have no other choice," Portnoy said in an emotional video. "They've been dealt a hand that nobody could play."
+
+2. **Personal Touch**: Portnoy personally called many business owners to tell them they'd receive help from the Barstool Fund. Videos of these calls show a softer side of Portnoy, genuinely moved by the struggles and gratitude of these business owners.
+
+   In one call to the owner of Borelli's restaurant, Portnoy's voice cracked as he said, "We're going to help you guys out... We're going to make sure you stay in business until this thing's over."
+
+These actions showcase Portnoy tapping into the caring, supportive traits of Type 2, using his influence and resources to help others in need.
+
+### Under Stress: The Withdrawn Pizza Reviewer
+
+When Type 8s move to their stress point (Type 5), they can become more withdrawn, cerebral, and focused on gathering information. We can see this in Portnoy's behavior during times of controversy:
+
+1. **The Stock Trading Controversy**: In February 2021, Portnoy faced backlash for promoting a "pump and dump" scheme with a penny stock. Instead of his usual bombastic response, Portnoy retreated. He spent time researching and gathering information, later emerging with a detailed video explanation of his actions.
+
+   "I'm not a financial advisor. I'm a fucking idiot," Portnoy said in the video, displaying a more thoughtful, self-reflective side. "As I do with stocks, I got in and out of it."
+
+2. **The Penn Gaming Dip**: When Penn Gaming (which owned a stake in Barstool) saw its stock price plummet in November 2021 following sexual misconduct allegations against Portnoy, he again retreated from the public eye. He reemerged days later with a 12-minute video meticulously breaking down the allegations point by point.
+
+   "I've never done anything weird with a girl, ever. Never anything remotely nonconsensual," Portnoy said in the video, which was noticeably more subdued and detail-oriented than his usual content.
+
+In these instances, we see Portnoy moving away from his typical confrontational style, instead becoming more withdrawn and analytical - hallmarks of Type 5 behavior.
+
+These examples show how Portnoy, while predominantly exhibiting Type 8 traits, can access the characteristics of both Type 2 and Type 5 in different circumstances. This flexibility in behavior, depending on whether he's in a growth or stress state, adds depth to our understanding of Portnoy's complex personality.
+
+## Portnoy and relationships: Tough Exterior, Soft Heart
+
+Dave Portnoy, the face of Barstool Sports, embodies the classic Enneagram Type 8 paradox: a tough, confrontational exterior protecting a vulnerable, caring heart. This dynamic plays out in both his professional and personal relationships, shaping his interactions and leaving a lasting impact on those around him.
+
+### Professional Relationships: The Barstool Brotherhood
+
+At Barstool Sports, Portnoy's leadership style is quintessentially Type 8: direct, confrontational, and unapologetic. He's known for his blunt critiques and high expectations, which can be intimidating to newcomers. However, beneath this tough exterior lies a fierce loyalty and protectiveness towards his employees.
+
+#### Loyalty to the OGs
+
+Portnoy's relationships with long-time employees like Big Cat and KFC demonstrate his capacity for deep, lasting bonds. Despite public disagreements, Portnoy has consistently stood by these "original Stoolies," showcasing the Type 8's unwavering loyalty to their inner circle.
+
+#### Mentorship with an Edge
+
+Portnoy's mentorship style, as seen with <a href="/personality-analysis/Alex-Cooper">Alex Cooper</a> of "Call Her Daddy," is a mix of tough love and empowerment. He pushes talents hard but also gives them unprecedented freedom. Cooper once said, "Dave saw something in us that we didn't even see in ourselves."
+
+#### Decisive Action and Reflection
+
+The firing of Francis Ellis over an insensitive blog post showcases Portnoy's decisive nature.
+
+While the decision was swift and public, Portnoy later expressed regret, revealing a softer side: "**I like Francis. I think he's talented... It sucked.**"
+
+#### Empowering the Empire
+
+Portnoy's approach to talent is to let them build their own brands within Barstool. This aligns with the Type 8's respect for strength and authenticity in others. As he often says, "We're not gonna make you a star, we're gonna let you make yourself a star."
+
+### Romantic Relationships: The Struggle for Vulnerability
+
+Portnoy's romantic life reflects the Type 8's struggle with vulnerability and emotional intimacy. His relationships, particularly his recent breakup with Silvana Mojica, provide insight into this complex dynamic.
+
+#### The Silvana Chapter
+
+Portnoy's relationship with Silvana Mojica, which lasted from March 2021 to November 2023, showed a more public side of his romantic life. The breakup, occurring just before Thanksgiving 2023, revealed both Portnoy's difficulty with emotional intimacy and his caring nature.
+
+#### Reasons for the Split
+
+On his "BFFs" podcast, Portnoy explained, "**We were dating for three years and I guess you get to a point where you think maybe there's a difference in what somebody wants and what the other person wants.**" He added, "Without going into too much detail, I just didn't think I could give Silvana kind of what she deserves." This statement aligns with the Type 8's fear of vulnerability and potential feelings of inadequacy in intimate relationships.
+
+#### Post-Breakup Dynamics
+
+Despite the breakup, Portnoy has shown a softer side. In July 2024, he confirmed that Mojica was staying at his Montauk house, saying, "I'm glad to have her use it." This gesture demonstrates the Type 8's loyalty and care for those in their inner circle, even after a relationship has ended.
+
+#### Emotional Impact
+
+The breakup affected both parties deeply. Mojica shared on social media that she experienced crying spells and panic attacks, while Portnoy stated, "**I lost my best friend as well**," and expressed concern for her well-being. This mutual emotional response hints at the depth of connection possible for Type 8s, despite their tough exterior.
+
+#### Moving Forward
+
+As of July 2024, Portnoy has been linked to 25-year-old Camryn D'Aloia, suggesting a pattern of dating younger women. This could be interpreted as a Type 8 trait of seeking control or avoiding deeper vulnerability by maintaining a perceived power dynamic.
+
+### The Enneagram 8 in Relationships: Control, Protection, and Authenticity
+
+Portnoy's relationships, both professional and personal, showcase key Type 8 characteristics:
+
+- **Control and Freedom**: Portnoy's need for both control and autonomy is evident in his famous quote, "I'd rather be dead than employed by someone else." This desire for independence extends to his personal relationships.
+
+- **Protective Instincts**: Despite his tough exterior, Portnoy's protective nature shines through in moments of crisis. During the COVID-19 pandemic, he launched the Barstool Fund to help small businesses, showing the warm heart beneath the brash persona.
+
+- **Valuing Authenticity**: Portnoy's talent recruitment often focuses on authenticity. He once said, "I don't care if you're polished. I care if you're real."
+
+- **Conflict and Communication**: Barstool Live often showcases Portnoy's direct communication style, which can lead to conflict. Employees have mentioned the stress of potentially getting on "Dave's bad side," highlighting the intense, sometimes intimidating energy of a Type 8 leader.
+
+In essence, Dave Portnoy's relationships reveal the complex nature of an Enneagram Type 8. His tough exterior and difficulty with vulnerability serve as a protective mechanism, but underneath lies a loyal, caring individual capable of deep connections and fierce protection of those in his inner circle. As with many Type 8s, the journey for Portnoy is learning to balance his strength with softness, his independence with intimacy, creating richer, more fulfilling relationships both professionally and personally.
 
 ### The Controversies
 
@@ -227,7 +323,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-24"
+        "@value": "2024-08-23"
       },
       "datePublished": {
         "@type": "Date",

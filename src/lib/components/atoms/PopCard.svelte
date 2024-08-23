@@ -152,7 +152,11 @@
 					</p>
 				</div>
 			{:else if displayText}
-				<p class={`name-pop-${namePopId} name-pop`} data-value={displayText} in:fly={{ y: -200, duration: 2000 }}>
+				<p
+					class={`name-pop-${namePopId} name-pop`}
+					data-value={displayText}
+					in:fly={{ y: -200, duration: 2000 }}
+				>
 					{displayText}
 				</p>
 			{/if}
