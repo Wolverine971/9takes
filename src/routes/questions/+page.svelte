@@ -118,9 +118,10 @@
 		justify-content: center;
 		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
+		font-weight: bolder;
 		margin: 0.25rem;
 		padding: 0.5rem 1rem;
-		background-color: var(--color-accent);
+		background-color: var(--accent);
 		color: var(--color-text-inverse);
 		transition: all 0.3s ease;
 

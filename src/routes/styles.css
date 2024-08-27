@@ -261,7 +261,6 @@ th {
 }
 
 .scrollable-div {
-	padding: 0.5rem;
 	max-height: 100vh;
 	overflow-y: auto;
 	overscroll-behavior-y: contain;

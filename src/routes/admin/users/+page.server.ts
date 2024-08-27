@@ -22,10 +22,10 @@ export const load: PageServerLoad = async (event) => {
 	if (!user?.admin) {
 		throw redirect(307, '/questions');
 	}
+
+
 	const { data: profiles, error: profilesError } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*')
-		.order('created_at', { ascending: false });
+		.rpc('get_all_users')
 
 	if (profilesError) {
 		console.log(profilesError);
