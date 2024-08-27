@@ -7,8 +7,6 @@
 
 	export let data: PageData;
 
-	console.log(data);
-
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
 				return { ...s, createdAt: convertDateToReadable(s.created_at) };
