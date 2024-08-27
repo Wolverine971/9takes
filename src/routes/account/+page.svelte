@@ -103,13 +103,18 @@
 
 	<section class="subscriptions-section">
 		<h2>Question subscriptions</h2>
-		<div class="subscription-list">
-			{#each data.subscriptions as subscription}
-				<a href="/questions/{subscription.questions.url}" class="subscription-link">
-					{subscription.questions.question_formatted || subscription.questions.question}
-				</a>
-			{/each}
-		</div>
+		{#if data.subscriptions.length === 0}
+			<p>You are not subscribed to any questions</p>
+			<a href="/questions">Checkout some questions</a>
+		{:else}
+			<div class="subscription-list">
+				{#each data.subscriptions as subscription}
+					<a href="/questions/{subscription.questions.url}" class="subscription-link">
+						{subscription.questions.question_formatted || subscription.questions.question}
+					</a>
+				{/each}
+			</div>
+		{/if}
 	</section>
 </div>
 

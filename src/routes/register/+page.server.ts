@@ -5,7 +5,6 @@ import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
 	const session = await getServerSession(event);
-	// redirect user if logged in
 	if (session?.user?.id) {
 		throw redirect(302, '/');
 	}
@@ -21,7 +20,6 @@ export const actions: Actions = {
 			options: {
 				emailRedirectTo: 'https://9takes.com/login'
 			}
-			// ConfirmationURL: '9takes.com/login'
 		});
 
 		if (err) {
@@ -32,6 +30,6 @@ export const actions: Actions = {
 				error: 'Server error. Please try again later.'
 			});
 		}
-		return { data: true };
+		return { success: true };
 	}
 };

@@ -1,38 +1,40 @@
 <script lang="ts">
-	import { deserialize } from '$app/forms';
-	import { goto } from '$app/navigation';
+	import { enhance } from '$app/forms';
+	import { goto, invalidateAll } from '$app/navigation';
+	import { fade, fly } from 'svelte/transition';
 	import { notifications } from '$lib/components/molecules/notifications';
 
-	let email: string = '';
-	let password: string = '';
+	let email = '';
+	let password = '';
+	let loading = false;
 
-	const handleSubmit = async () => {
-		let body = new FormData();
-		body.append('email', email);
-		body.append('password', password);
-
-		const resp = await fetch('?/register', {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		if (result.error) {
-			console.log(result.error);
-		} else if (result.data) {
-			goto('/login');
-			notifications.info('Check your email', 3000);
-		}
-	};
+	function handleSubmit() {
+		loading = true;
+		return async ({ result }) => {
+			loading = false;
+			if (result.type === 'success') {
+				notifications.success('Registration successful! Please check your email.', 6000);
+				goto('/login');
+				invalidateAll();
+			} else if (result.type === 'failure') {
+				notifications.danger(result.data?.error || 'An error occurred', 3000);
+			}
+		};
+	}
 </script>
 
-<div class="container">
-	<h1 class="title">
+<div class="container" in:fade={{ duration: 300 }}>
+	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
 		<a href="/login" class="inactive">Login</a> /
 		<span class="active">Register</span>
 	</h1>
-	<form class="auth-form" on:submit|preventDefault={handleSubmit}>
+	<form
+		action="?/register"
+		method="POST"
+		class="auth-form"
+		use:enhance={handleSubmit}
+		in:fly={{ y: 20, duration: 300, delay: 300 }}
+	>
 		<div class="form-group">
 			<label for="email">Email</label>
 			<input type="email" id="email" name="email" bind:value={email} required />
@@ -41,9 +43,15 @@
 			<label for="password">Password</label>
 			<input type="password" id="password" name="password" bind:value={password} required />
 		</div>
-		<button type="submit" class="btn btn-primary">Register</button>
+		<button type="submit" class="btn btn-primary" disabled={loading}>
+			{#if loading}
+				<span class="loader" />
+			{:else}
+				Register
+			{/if}
+		</button>
 	</form>
-	<div class="forgot-password">
+	<div class="forgot-password" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<a href="/forgotPassword">Forgot Password?</a>
 	</div>
 </div>
@@ -51,30 +59,42 @@
 <style lang="scss">
 	.container {
 		max-width: 400px;
-		margin: 2rem auto;
-		padding: 1rem;
+		margin: 3rem auto;
+		padding: 2rem;
+		background-color: var(--input-background);
+		border-radius: 8px;
+		box-shadow: var(--box-shadow);
+		min-height: auto;
 	}
 
 	.title {
 		text-align: center;
 		margin-bottom: 2rem;
-		font-size: 1.5rem;
+		font-size: 1.8rem;
+		font-weight: bold;
 
 		.active {
-			text-decoration: underline;
 			color: var(--primary);
+			border-bottom: 2px solid var(--primary);
+			padding-bottom: 4px;
 		}
 
 		.inactive {
 			color: var(--color-paladin-3);
 			text-decoration: none;
+			opacity: 0.7;
+			transition: opacity 0.3s ease;
+
+			&:hover {
+				opacity: 1;
+			}
 		}
 	}
 
 	.auth-form {
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
+		gap: 1.5rem;
 	}
 
 	.form-group {
@@ -85,21 +105,32 @@
 
 	label {
 		font-weight: bold;
+		font-size: 0.9rem;
+		color: var(--color-paladin-3);
 	}
 
 	input {
-		padding: 0.5rem;
+		padding: 0.75rem;
 		border: 1px solid var(--accent);
 		border-radius: 4px;
+		font-size: 1rem;
+		transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+		&:focus {
+			outline: none;
+			border-color: var(--primary);
+			box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+		}
 	}
 
 	.btn {
-		padding: 0.5rem 1rem;
+		padding: 0.75rem 1rem;
 		border: none;
 		border-radius: 4px;
 		cursor: pointer;
 		font-size: 1rem;
-		transition: background-color 0.2s;
+		font-weight: bold;
+		transition: background-color 0.3s ease, transform 0.1s ease;
 
 		&.btn-primary {
 			background-color: var(--primary);
@@ -108,18 +139,50 @@
 			&:hover {
 				background-color: darken(#000000, 10%);
 			}
+
+			&:active {
+				transform: translateY(1px);
+			}
+
+			&:disabled {
+				opacity: 0.7;
+				cursor: not-allowed;
+			}
+		}
+	}
+
+	.loader {
+		width: 20px;
+		height: 20px;
+		border: 2px solid #ffffff;
+		border-bottom-color: transparent;
+		border-radius: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+		animation: rotation 1s linear infinite;
+	}
+
+	@keyframes rotation {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
 		}
 	}
 
 	.forgot-password {
 		text-align: center;
-		margin-top: 1rem;
+		margin-top: 1.5rem;
 
 		a {
 			color: var(--primary);
 			text-decoration: none;
+			font-size: 0.9rem;
+			transition: color 0.3s ease;
 
 			&:hover {
+				color: darken(#000000, 10%);
 				text-decoration: underline;
 			}
 		}
@@ -127,15 +190,17 @@
 
 	@media (max-width: 480px) {
 		.container {
-			padding: 1rem 0.5rem;
+			margin: 1rem auto;
+			padding: 1.5rem;
 		}
 
 		.title {
-			font-size: 1.2rem;
+			font-size: 1.5rem;
 		}
 
+		input,
 		.btn {
-			width: 100%;
+			font-size: 0.9rem;
 		}
 	}
 </style>

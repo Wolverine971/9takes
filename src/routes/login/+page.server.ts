@@ -3,14 +3,14 @@ import { fail, redirect } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 
 import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
-import { notifications } from '$lib/components/molecules/notifications';
+import { getServerSession } from '@supabase/auth-helpers-sveltekit';
 
 export const load: PageServerLoad = async (event) => {
 	// redirect user if logged in
-	// const session = await getServerSession(event);
-	// if (session?.user?.id) {
-	// 	throw redirect(302, '/');
-	// }
+	const session = await getServerSession(event);
+	if (session?.user?.id) {
+		throw redirect(302, '/');
+	}
 };
 
 export const actions: Actions = {
@@ -25,15 +25,13 @@ export const actions: Actions = {
 		if (err) {
 			console.log(err);
 			if (err instanceof AuthApiError && err.status === 400) {
-				// notifications.danger('Invalid credentials', 3000);
 				return fail(400, {
 					error: 'Invalid credentials'
 				});
 			}
 
-			// notifications.danger('Server error. Try again later.', 3000);
 			return fail(500, {
-				message: 'Server error. Try again later.'
+				error: 'Server error. Try again later.'
 			});
 		}
 
