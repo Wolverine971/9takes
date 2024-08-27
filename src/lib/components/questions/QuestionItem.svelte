@@ -63,6 +63,7 @@
 
 <style lang="scss">
 	.question-card {
+		cursor: pointer;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;

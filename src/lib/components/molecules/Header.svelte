@@ -178,7 +178,7 @@
 							</button>
 						</a>
 					</div>
-				{:else if !($page.url.pathname !== 'login' && $page.url.pathname !== 'register')}
+				{:else if !($page.url.pathname === 'login' || $page.url.pathname === 'register')}
 					<div class="right login">
 						<a href="/login">
 							<button class="corner-icon">Login/ Register</button>
