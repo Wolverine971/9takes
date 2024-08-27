@@ -24,7 +24,8 @@ export const load: PageServerLoad = async (event) => {
 	}
 	const { data: profiles, error: profilesError } = await supabase
 		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('*');
+		.select('*')
+		.order('created_at', { ascending: false });
 
 	if (profilesError) {
 		console.log(profilesError);
