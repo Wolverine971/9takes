@@ -42,7 +42,7 @@
 		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
 	}
 
-	const description = `🏛️ Give your takey take 🤲 and see others unbiased answers... and their personalities`;
+	const description = `🏛️ Give your takey take 🤲 then see everyone else's unbiased answers...`;
 	const url = `https://9takes.com/questions/${data.question.url}`;
 	const imgUrl = data.question?.img_url
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`

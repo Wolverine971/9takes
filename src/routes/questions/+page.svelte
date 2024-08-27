@@ -1,8 +1,9 @@
 <script lang="ts">
+	import { fade, fly } from 'svelte/transition';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
-	import type { PageData } from './$types';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { goto, invalidateAll } from '$app/navigation';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 
@@ -41,16 +42,18 @@
 	<link rel="canonical" href="https://9takes.com/questions" />
 </svelte:head>
 
-<div class="background-area-box-tint">
-	<h1>Questions</h1>
+<div class="background-area-box-tint" in:fade={{ duration: 300 }}>
+	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }}>Questions</h1>
 
-	<SearchQuestion
-		{data}
-		on:createQuestion={goToCreateQuestionPage}
-		on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`, {})}
-	/>
+	<div in:fly={{ y: 20, duration: 300, delay: 300 }}>
+		<SearchQuestion
+			{data}
+			on:createQuestion={goToCreateQuestionPage}
+			on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`, {})}
+		/>
+	</div>
 
-	<div class="question-category-div">
+	<div class="question-category-div" in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<h2>Categories</h2>
 		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
@@ -69,7 +72,7 @@
 
 	{#each data.subcategoryTags as category}
 		{#if categories[category.tag_name]?.length}
-			<div>
+			<div in:fly={{ y: 20, duration: 300, delay: 600 }}>
 				<h3 id={category.tag_name}>{category.tag_name}</h3>
 				<div>
 					{#each categories[category.tag_name] as questionData}
@@ -95,8 +98,9 @@
 	.question-category-div {
 		margin: 1rem 0;
 		padding: 1rem;
-		border: 1px solid white;
+		border: 1px solid var(--color-border);
 		border-radius: var(--base-border-radius);
+		background-color: var(--color-background-secondary);
 	}
 
 	.big-tags {
@@ -109,19 +113,21 @@
 	}
 
 	.tag {
-		display: flex;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
 		margin: 0.25rem;
-		padding: 0.25rem;
-		background-color: var(--accent);
-		width: fit-content;
-		cursor: pointer;
+		padding: 0.5rem 1rem;
+		background-color: var(--color-accent);
+		color: var(--color-text-inverse);
+		transition: all 0.3s ease;
 
 		&:hover {
-			background-color: var(--base-white-outline);
+			background-color: var(--color-accent-hover);
+			transform: translateY(-2px);
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
 	}
 </style>

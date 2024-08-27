@@ -344,7 +344,8 @@
 						padding: 0.5rem;
 						border-radius: var(--base-border-radius);
 						border: 1px solid;
-						background-color: var(--accent);
+						background-color: var(--base-grey-1);
+						// here
 						font-size: 14px;
 
 						&.open {

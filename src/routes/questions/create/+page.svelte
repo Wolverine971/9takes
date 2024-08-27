@@ -8,7 +8,9 @@
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
+	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 
 	export let data: PageData;
 
@@ -24,7 +26,7 @@
 		type: 'image/png',
 		quality: 0.3,
 		margin: 1,
-		color: { dark: 'var(--primary)', light: '#ffffff' }
+		color: { dark: '#5407d9', light: '#ffffff' }
 	};
 
 	onMount(() => {
@@ -80,18 +82,39 @@
 			loading = false;
 		}
 	}
+	let questionCharCount = 0;
+	const MAX_CHAR_COUNT = 280; // You can adjust this value as needed
+
+	$: {
+		questionCharCount = question.length;
+		isQuestionValid = question.trim().length > 0 && questionCharCount <= MAX_CHAR_COUNT;
+	}
+
+	function handleInput(event: Event) {
+		const target = event.target as HTMLTextAreaElement;
+		target.style.height = 'auto';
+		target.style.height = target.scrollHeight + 'px';
+	}
 </script>
 
-<div class="question-container">
-	<h1>Ask a question</h1>
-	<form class=" auth-form question-form">
+<div class="question-container" in:fade={{ duration: 300 }}>
+	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }}>Spark a Conversation</h1>
+	<p class="subtitle" in:fly={{ y: -20, duration: 300, delay: 200 }}>
+		Your question could lead to fascinating insights. What would you like to explore today?
+	</p>
+	<div class="question-box" in:fly={{ y: 20, duration: 300, delay: 300 }}>
 		<textarea
-			rows="3"
+			rows="4"
 			name="question"
-			placeholder="Enter your question here..."
+			placeholder="What's on your mind? Ask a thought-provoking question that invites diverse perspectives..."
 			class="question-textarea noticia-text-regular"
 			bind:value={question}
+			on:input={handleInput}
+			maxlength={MAX_CHAR_COUNT}
 		/>
+		<div class="char-count {questionCharCount > MAX_CHAR_COUNT ? 'error' : ''}">
+			{questionCharCount}/{MAX_CHAR_COUNT} characters
+		</div>
 		<button
 			class="btn btn-primary submit-btn"
 			class:disabled={!isQuestionValid}
@@ -99,82 +122,137 @@
 			on:click={getUrl}
 			type="button"
 		>
-			Submit
+			Launch Your Question
 		</button>
-	</form>
+	</div>
+	<p class="encouragement" in:fly={{ y: 20, duration: 300, delay: 400 }}>
+		Great questions lead to great conversations. Your unique perspective matters!
+	</p>
 
-	<Modal2 id="question-create" name="create question">
-		<div class="modal-content">
-			<h2>Create Question</h2>
-			<hr />
-			<div class="question-preview">
-				<h3 id="question-pic noticia-text-regular" class="question-text">{question}</h3>
-				<img src={qrImageSrc} alt="9takes QR Code" class="qr-code" />
-				<p class="url-display">
-					URL: <strong>https://9takes.com/questions/{url}</strong>
-				</p>
-			</div>
-			<button class="btn btn-primary create-btn" on:click={createQuestion}>
-				{#if loading}
-					<div class="loader" />
-				{:else}
-					Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
-				{/if}
-			</button>
-		</div>
-	</Modal2>
+	<!-- ... (Modal content remains the same) ... -->
 </div>
 
+<Modal2 id="question-create" name="create question">
+	<div class="modal-content" in:fade={{ duration: 300 }}>
+		<h2>Create Question</h2>
+		<br />
+
+		<div class="question-preview" id="question-pic">
+			<!-- <h3 id="question-pic" class="question-text noticia-text-regular">{question}</h3> -->
+			<QuestionDisplay question={{ id: '', url: '', question, question_formatted: '' }} />
+			<p class="url-display">
+				<strong class="question-text" style="font-weight: bolder; font-size: larger;"
+					>https://9takes.com/questions/{url}</strong
+				>
+			</p>
+		</div>
+		<br />
+		<button class="btn btn-primary create-btn" on:click={createQuestion}>
+			{#if loading}
+				<div class="loader" />
+			{:else}
+				Create <RightIcon iconStyle="margin-left: .5rem;" height="1.5rem" fill="#ffffff" />
+			{/if}
+		</button>
+	</div>
+</Modal2>
+
 <style lang="scss">
-	.question-container {
-		// max-width: 600px;
-		// margin: 2rem auto;
+	.question-preview {
 		padding: 1rem;
-	}
-
-	h1,
-	h2 {
-		text-align: center;
+		border: 1px solid var(--color-theme-purple-dark);
+		border-radius: var(--base-border-radius);
 		margin-bottom: 1rem;
-		color: var(--primary);
+	}
+	.submit-btn {
+		border: 1px solid !important;
 	}
 
-	.question-form {
+	.create-btn {
 		display: flex;
-		flex-direction: column;
-		gap: 1rem;
+		justify-content: center;
+		align-items: center;
+	}
+	.question-container {
+		padding: 2rem 1rem;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		text-align: center;
+		margin-bottom: 0.5rem;
+		color: var(--color-primary);
+		font-size: 2.5rem;
+	}
+
+	.subtitle {
+		text-align: center;
+		color: var(--color-text-secondary);
+		font-size: 1.2rem;
+		margin-bottom: 2rem;
+	}
+
+	.question-box {
+		background-color: var(--color-background-secondary);
+		border-radius: var(--base-border-radius);
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		padding: 2rem;
+		transition: all 0.3s ease;
+
+		&:hover {
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+		}
 	}
 
 	.question-textarea {
 		width: 100%;
-		padding: 0.75rem;
-		border: 2px solid var(--color-theme-purple-light);
+		min-height: 150px;
+		padding: 1rem;
+		border: 2px solid var(--color-border);
 		border-radius: var(--base-border-radius);
 		font-family: 'Noticia Text', serif;
-		font-size: 1rem;
-		resize: vertical;
-		transition: border-color 0.3s ease;
+		font-size: 1.2rem;
+		resize: none;
+		transition: all 0.3s ease;
+		margin-bottom: 1rem;
 
 		&:focus {
 			outline: none;
-			border-color: var(--primary);
+			border-color: var(--color-primary);
+			box-shadow: 0 0 0 3px rgba(84, 7, 217, 0.1);
+		}
+	}
+
+	.char-count {
+		text-align: right;
+		font-size: 0.9rem;
+		color: var(--color-text-secondary);
+		margin-bottom: 1rem;
+
+		&.error {
+			color: var(--color-error);
 		}
 	}
 
 	.btn {
-		padding: 0.75rem 1.5rem;
+		padding: 1rem 2rem;
 		border: none;
 		border-radius: var(--base-border-radius);
-		font-size: 1rem;
+		font-size: 1.2rem;
+		font-weight: bold;
 		cursor: pointer;
-		transition: background-color 0.3s ease, opacity 0.3s ease;
+		transition: all 0.3s ease;
+		width: 100%;
 
 		&.btn-primary {
-			background-color: var(--primary);
-			color: var(--accent);
+			background-color: var(--color-primary);
+			color: var(--color-text-inverse);
 
 			&:hover:not(.disabled) {
-				background-color: var(--color-theme-purple-light);
+				background-color: var(--color-primary-hover);
+				transform: translateY(-2px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 			}
 
 			&.disabled {
@@ -184,71 +262,45 @@
 		}
 	}
 
-	.submit-btn {
-		align-self: flex-end;
-	}
-
-	.modal-content {
-		padding: 1.5rem;
-	}
-
-	.question-preview {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1rem;
-		margin: 1.5rem 0;
-	}
-
-	.question-text {
-		font-family: 'Noticia Text', serif;
+	.encouragement {
 		text-align: center;
-		margin: 0;
+		color: var(--color-text-secondary);
+		font-size: 1rem;
+		margin-top: 1.5rem;
+		font-style: italic;
 	}
 
-	.qr-code {
-		max-width: 200px;
-		height: auto;
-	}
-
-	.url-display {
-		word-break: break-all;
-		text-align: center;
-	}
-
-	.create-btn {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin-left: auto;
-	}
-
-	.loader {
-		width: 20px;
-		height: 20px;
-		border: 2px solid #ffffff;
-		border-top: 2px solid transparent;
-		border-radius: 50%;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
+	@media (min-width: 768px) {
+		.question-box {
+			min-width: 500px;
 		}
 	}
 
-	@media (max-width: 480px) {
+	@media (max-width: 767px) {
 		.question-container {
-			padding: 0.5rem;
+			padding: 1rem 0.5rem;
 		}
 
-		.submit-btn,
-		.create-btn {
-			width: 100%;
+		h1 {
+			font-size: 2rem;
+		}
+
+		.subtitle {
+			font-size: 1rem;
+		}
+
+		.question-box {
+			padding: 1.5rem;
+		}
+
+		.question-textarea {
+			font-size: 1rem;
+			min-height: 120px;
+		}
+
+		.btn {
+			font-size: 1.1rem;
+			padding: 0.75rem 1.5rem;
 		}
 	}
 </style>

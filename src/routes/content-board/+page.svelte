@@ -202,7 +202,6 @@
 		}
 	}
 	.card {
-		background-color: var(--accent);
 		border-radius: 3px;
 		padding: 0.5rem;
 		margin-bottom: 0.5rem;

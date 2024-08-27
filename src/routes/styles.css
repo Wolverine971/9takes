@@ -15,6 +15,7 @@
 	--black: #303030;
 	--body-color: rgba(48, 48, 48, 0.188);
 	--base-white-outline: #f0f5f9;
+	--verygrey: #e3e3e3;
 	--base-grey-0: #d8d8d8;
 	--base-grey-1: #d4d4d4;
 	--base-grey-2: #cacaca;
@@ -170,7 +171,7 @@ figcaption {
 }
 
 .panel {
-	background-color: var(--base-grey-0);
+	background-color: var(--verygrey);
 	border-radius: 10px;
 	padding: 1rem;
 	overflow: hidden;
@@ -339,7 +340,7 @@ textarea {
 	border-radius: var(--base-border-radius);
 	padding: 1rem;
 	width: 100%;
-	background-color: var(--base-grey-2);
+	background-color: var(--verygrey);
 	/* background-color: #d7d7d7; */
 	border: 1px solid var(--base-white-outline) !important;
 }

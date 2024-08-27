@@ -115,7 +115,7 @@
 	#modal {
 		position: relative;
 		border-radius: 6px;
-		background-color: var(--accent);
+		background-color: var(--base-grey-1);
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;

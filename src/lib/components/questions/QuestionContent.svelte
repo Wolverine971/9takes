@@ -105,11 +105,13 @@
 				<h2>{section}</h2>
 				<Card class="comments-card">
 					{#if section === 'Comments'}
-						<SortComments
-							{data}
-							on:commentsSorted={({ detail }) => sortComments(detail)}
-							size={'large'}
-						/>
+						{#if _data.comment_count !== 0}
+							<SortComments
+								{data}
+								on:commentsSorted={({ detail }) => sortComments(detail)}
+								size={'large'}
+							/>
+						{/if}
 						{#if !data?.flags?.userHasAnswered}
 							<p class="helper-suggestion" transition:fade>
 								{_data.comment_count === 0
