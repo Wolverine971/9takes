@@ -273,7 +273,7 @@ a {
 
 .active-link {
 	text-decoration: underline;
-	color: var(--primary);
+	color: var(--primary) !important;
 }
 
 .flex-columns {

@@ -39,7 +39,7 @@
 
 	const navItems = [
 		{ href: '/', label: 'HOME' },
-		{ href: '/questions', label: 'QUESTIONS' }
+		{ href: '/questions', label: 'QUESTION LIST' }
 	];
 
 	const blogItems = [
@@ -215,7 +215,7 @@
 			max-width: 100%;
 			height: 100%;
 			overflow: hidden;
-			text-decoration: none;
+			// text-decoration: none;
 			display: flex;
 			align-items: center;
 			justify-content: center;

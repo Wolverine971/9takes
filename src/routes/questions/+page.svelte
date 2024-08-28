@@ -34,16 +34,16 @@
 </script>
 
 <svelte:head>
-	<title>Get different takes on any Questions</title>
+	<title>Question List</title>
 	<meta
 		name="description"
-		content="User generated questions and answers, can sort by Enneagram personality type but cannot see comments until you comment 😉"
+		content="Questions on every topic with unbiased answers- sort comments by Enneagram personality type 😉"
 	/>
 	<link rel="canonical" href="https://9takes.com/questions" />
 </svelte:head>
 
 <div class="background-area-box-tint" in:fade={{ duration: 300 }}>
-	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }}>Questions</h1>
+	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }}>Question List</h1>
 
 	<div in:fly={{ y: 20, duration: 300, delay: 300 }}>
 		<SearchQuestion

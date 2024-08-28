@@ -5,7 +5,7 @@
 
 	const links = [
 		{ href: '/', label: 'Home' },
-		{ href: '/questions', label: 'Questions' },
+		{ href: '/questions', label: 'Question List' },
 		{ href: '/blog', label: 'Blog' },
 		{ href: '/about', label: 'About' }
 	];
@@ -27,7 +27,9 @@
 	<ul class="footer-links">
 		{#each links as { href, label }}
 			<li aria-current={isActive(href) ? 'page' : undefined}>
-				<a href={href === '/' ? homeUrl : href} class:active-link={isActive(href)}>{label}</a>
+				<a href={href === '/' ? homeUrl : href} class:active-link={$page.url.pathname === href}
+					>{label}</a
+				>
 			</li>
 		{/each}
 	</ul>

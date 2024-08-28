@@ -48,7 +48,8 @@
 				<li>
 					<a
 						href={'/questions'}
-						class={$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}>Questions</a
+						class={$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}
+						>Question List</a
 					>
 				</li>
 				<li>
