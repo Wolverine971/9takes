@@ -7,7 +7,7 @@
 		sameEnneagram: { type: string; posts: App.BlogPost[] };
 	};
 
-	let innerWidth = 0;
+	let innerWidth: number;
 
 	$: capitalizedPluralNiche = formatNiche(suggestions.niche.type);
 
@@ -23,52 +23,55 @@
 	}
 
 	function slicePosts(posts: App.BlogPost[]): App.BlogPost[] {
-		return posts.slice(0, innerWidth > 920 ? 5 : 3);
+		return posts.slice(0, innerWidth > 920 ? 6 : innerWidth > 576 ? 6 : 4);
 	}
 </script>
 
 <svelte:window bind:innerWidth />
 
 {#if suggestions.niche.posts.length || suggestions.sameEnneagram.posts.length}
-	<div class="suggestions-container">
-		<h3 class="suggestions-title">Further Analysis</h3>
-		<div class="blog-previews stack">
+	<section class="suggestions-container" aria-labelledby="suggestions-title">
+		<h2 id="suggestions-title" class="suggestions-title">Further Analysis</h2>
+		<div class="blog-previews" role="list">
 			{#if suggestions.niche.posts.length}
 				<PersonSuggestion
 					title="More {capitalizedPluralNiche}"
 					posts={slicePosts(suggestions.niche.posts)}
+					sectionId="niche-suggestions"
 				/>
 			{/if}
 			{#if suggestions.sameEnneagram.posts.length}
 				<PersonSuggestion
 					title="Other Enneagram {suggestions.sameEnneagram.type}s"
 					posts={slicePosts(suggestions.sameEnneagram.posts)}
+					sectionId="enneagram-suggestions"
 				/>
 			{/if}
 		</div>
-	</div>
+	</section>
 {/if}
 
 <style lang="scss">
 	.suggestions-container {
-		margin-bottom: 5rem;
+		margin: 3rem 0 5rem;
+		padding: 0 1rem;
 	}
 
 	.suggestions-title {
 		text-align: center;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
+		font-size: 2rem;
+		color: var(--text-color);
 	}
 
 	.blog-previews {
 		display: flex;
-		justify-content: space-evenly;
-	}
+		flex-direction: column;
+		gap: 3rem;
 
-	@media all and (max-width: 576px) {
-		.stack {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+		@media (min-width: 768px) {
+			flex-direction: row;
+			justify-content: space-between;
 		}
 	}
 </style>

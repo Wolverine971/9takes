@@ -17,7 +17,11 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  -->
+<!-- // notes:
+https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationship_history_mbti/?sort=new
+
+
+ -->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
