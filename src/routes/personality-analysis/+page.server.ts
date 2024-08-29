@@ -33,7 +33,7 @@ export const load: PageServerLoad = async ({ url }): Promise<{ people: App.BlogP
 		objectsWithType.sort((a, b) => new Date(b.lastmod) - new Date(a.lastmod));
 
 		// Push first 3 objects to uniqueObjects
-		uniqueObjects.push(...objectsWithType.slice(0, 3));
+		uniqueObjects.push(...objectsWithType.slice(0, 4));
 	});
 
 	return { people: uniqueObjects };
