@@ -4,7 +4,7 @@ description: 'Gain insight into personality flaws, understand their origins, and
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type'
-lastmod: '2024-08-01'
+lastmod: '2024-08-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,24 +14,11 @@ previewHtml: ''
 pic: 'greek-statue-showing-cracks'
 ---
 
-<!-- todo -->
-
-<!-- the reader is experiencing pain and needs catharsis
-they need to be validated
-
-toxic traits
-toxic traits list
-examples of toxic traits
--->
-
-<!-- todo finish this -->
-
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<!-- todo -->
 <div
   style="display: flex;
     justify-content: center;
@@ -47,19 +34,25 @@ examples of toxic traits
   />
 </div>
 
-<p class="firstLetter">Ever wonder why some people drive you up the wall? It's time to peek behind the curtain of human behavior and explore the shadowy corners of our personalities.</p>
+<p class="firstLetter">Ever wonder why some people drive you up the wall?</p>
 
-Buckle up, buttercup – we're about to take a wild ride through the toxic traits of each Enneagram type!
+Piss you off?
+
+Make you anxious?
+
+Give off bad vibes?
+
+Well, they probably have a toxic trait buried deep in a shadowy corner of our personality.
+
+Here we will explore the toxic traits of each Enneagram type!
 
 ## Why Explore Toxic Traits?
 
-We're all a mix of strengths and weaknesses.
+We are a mix of strengths and weaknesses.
 
-It's easy to spot others' annoying quirks, but how often do we examine our own? Understanding these darker aspects of personality isn't about judgment – it's a path to self-awareness and better relationships.
+It's easy to spot others' annoying quirks, but do we notice our own? Understanding these quirks or darker aspects of personality paves the way to self-awareness and ultimately better relationships.
 
-In this blog, we'll explore each Enneagram type's potential pitfalls. We'll uncover not just what these toxic traits look like, but where they come from. You might recognize these in others or even in yourself.
-
-Remember, this isn't about finger-pointing. It's about understanding the fears, desires, and coping mechanisms driving our behavior. By shedding light on these shadowy aspects, we open doors to empathy and growth. It might get uncomfortable, but the insights gained are invaluable for personal development and improving our interactions with others.
+Each Enneagram type has potential pitfalls. We'll will explore what these toxic traits look like and where they come from. Many should seem familiar and some might surprise you.
 
 ## Type 1: The Perfectionist's Poison
 
@@ -329,7 +322,7 @@ And hey, while you're at it, why not take a good, hard look at your own toxic tr
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-08-01"
+        "@value": "2024-08-30"
       },
       "datePublished": {
         "@type": "Date",

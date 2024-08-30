@@ -17,8 +17,6 @@ instagram: 'https://www.instagram.com/ladygaga'
 tiktok: 'https://www.tiktok.com/@ladygaga'
 ---
 
-<!-- notes: need to update -->
-
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>

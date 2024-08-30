@@ -17,9 +17,6 @@ instagram: ''
 tiktok: ''
 ---
 
-<!-- // notes:  todo
-in the spotlight -->
-
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>

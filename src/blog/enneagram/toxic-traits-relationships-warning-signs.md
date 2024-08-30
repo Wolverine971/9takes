@@ -4,7 +4,7 @@ description: 'Uncover toxic relationship traits for each Enneagram type. Identif
 author: 'DJ Wayne'
 date: '2024-07-31'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs'
-lastmod: '2024-07-31'
+lastmod: '2024-08-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -47,9 +47,11 @@ examples of toxic traits
   />
 </div>
 
-<p class="firstLetter">Toxic traits in relationships often start as survival strategies.</p>
+<p class="firstLetter">When a relationship is in stress survival strategies can look like toxic traits.</p>
 
-These behaviors develop as coping mechanisms, helping individuals navigate their world based on their core fears and desires. **Sometimes these traits may seem protective or even attractive initially**, they ultimately harm both partners and the relationship itself. Understanding these patterns through the lens of the Enneagram can offer insight into why certain behaviors emerge and how they impact relationships.
+Many behaviors develop as coping mechanisms that help individuals navigate their world. These coping mechanisms stem from core fears or unmet needs. When it comes to relationships these coping mechanisms get some feedback.
+
+The "feedback" isn't always negative. **Sometimes these coping mechanisms or personality traits can be initially attractive.** After all they are developed as a way to keep us safe and meet our needs. But they can harm both partners and the relationship itself. Understanding these patterns through the lens of the Enneagram can offer insight into why certain behaviors emerge and how they impact relationships.
 
 But why do some people find these toxic traits alluring at first?
 
@@ -59,7 +61,7 @@ Sometimes, what draws us to a person can be the very thing that later drives us 
 
 Toxic traits can appear attractive because they often represent qualities we feel we lack. A person who struggles with assertiveness might admire a partner's domineering behavior, mistaking it for strength. Someone who fears abandonment might interpret possessiveness as a sign of deep love.
 
-hese initial attractions, however, often mask deeper issues that can lead to relationship problems down the line.
+These initial attractions, however, often mask deeper issues that can lead to relationship problems down the line.
 
 So how do these traits manifest in different personality types?
 
@@ -361,7 +363,7 @@ Learn more about [communication in relationships here.](/enneagram-corner/enneag
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-31"
+        "@value": "2024-08-30"
       },
       "datePublished": {
         "@type": "Date",
