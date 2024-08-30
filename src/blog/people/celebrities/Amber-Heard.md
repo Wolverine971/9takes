@@ -54,7 +54,7 @@ amber heard personality disorder
 
 > **Disclaimer** This analysis of Amber Heard's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Amber Heard.
 
-<p class="firstLetter">Amber Heard's name has become synonymous with controversy, her public trial with Johnny Depp casting a long shadow over her career and personal life.</p>
+<p class="firstLetter">Amber Heard's name has become synonymous with controversy, her public trial with <a href="/personality-analysis/Johnny-Depp">Johnny Depp</a> casting a long shadow over her career and personal life.</p>
 
 But beyond the headlines and courtroom drama lies a complex individual shaped by her experiences, ambitions, and inner world. Let's peel back the layers and explore the psyche of this enigmatic actress through the lens of the Enneagram.
 
