@@ -19,6 +19,8 @@ tiktok: 'https://www.tiktok.com/@joeroganpodcast'
 
 <!-- notes: bring up wife, podcast, net worth, height, age, spotify, fear factor, ufc, dana white, "joe rogan with family"
 
+fix meta description
+
 new notes:
 family
 house

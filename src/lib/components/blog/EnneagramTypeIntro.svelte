@@ -11,19 +11,21 @@
 		for themselves and others.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: Highly critical, inflexible, detail-oriented perfectionists</li>
-		<li><b>Archetypes</b>: The Reformer, The Judge, The Strict Teacher, The Crusader</li>
 		<li>
-			<b>Struggles</b>: Difficulty relaxing, being overly self-critical, struggling with unrealistic
-			expectations
+			<strong>Stereotypes</strong>: Highly critical, inflexible, detail-oriented perfectionists
+		</li>
+		<li><strong>Archetypes</strong>: The Reformer, The Judge, The Strict Teacher, The Crusader</li>
+		<li>
+			<strong>Struggles</strong>: Difficulty relaxing, being overly self-critical, struggling with
+			unrealistic expectations
 		</li>
 		<li>
-			<b>Gifts</b>: Strong moral compass, dedication to self-improvement, ability to create order
-			from chaos
+			<strong>Gifts</strong>: Strong moral compass, dedication to self-improvement, ability to
+			create order from chaos
 		</li>
 		<li>
-			<b>Recognized by</b>: Adherence to rules, meticulous attention to detail, striving for
-			perfection in their work
+			<strong>Recognized by</strong>: Adherence to rules, meticulous attention to detail, striving
+			for perfection in their work
 		</li>
 	</ul>
 
@@ -55,19 +57,19 @@
 		nurturing.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: People-pleasers, overly accommodating, emotionally needy</li>
-		<li><b>Archetypes</b>: The Caregiver, The Nurturer, The Servant, The Confidant</li>
+		<li><strong>Stereotypes</strong>: People-pleasers, overly accommodating, emotionally needy</li>
+		<li><strong>Archetypes</strong>: The Caregiver, The Nurturer, The Servant, The Confidant</li>
 		<li>
-			<b>Struggles</b>: Difficulty setting boundaries, neglecting own needs, seeking validation
-			through helping
+			<strong>Struggles</strong>: Difficulty setting boundaries, neglecting own needs, seeking
+			validation through helping
 		</li>
 		<li>
-			<b>Gifts</b>: Highly attuned to others' emotions, natural empathy, ability to make people feel
-			loved
+			<strong>Gifts</strong>: Highly attuned to others' emotions, natural empathy, ability to make
+			people feel loved
 		</li>
 		<li>
-			<b>Recognized by</b>: Warm and approachable demeanor, always ready to lend a helping hand,
-			puts others first
+			<strong>Recognized by</strong>: Warm and approachable demeanor, always ready to lend a helping
+			hand, puts others first
 		</li>
 	</ul>
 
@@ -97,19 +99,23 @@
 		fields.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: Status-seeking, overly competitive, image-conscious workaholics</li>
-		<li><b>Archetypes</b>: The Performer, The Entrepreneur, The politician, The Role Model</li>
 		<li>
-			<b>Struggles</b>: Difficulty being authentic, tying self-worth to achievements, fear of
-			failure and rejection
+			<strong>Stereotypes</strong>: Status-seeking, overly competitive, image-conscious workaholics
 		</li>
 		<li>
-			<b>Gifts</b>: Goal-oriented mindset, ability to inspire and motivate others, adaptable to
-			changing circumstances
+			<strong>Archetypes</strong>: The Performer, The Entrepreneur, The politician, The Role Model
 		</li>
 		<li>
-			<b>Recognized by</b>: Polished appearance, confident demeanor, driven to succeed in their
-			endeavors
+			<strong>Struggles</strong>: Difficulty being authentic, tying self-worth to achievements, fear
+			of failure and rejection
+		</li>
+		<li>
+			<strong>Gifts</strong>: Goal-oriented mindset, ability to inspire and motivate others,
+			adaptable to changing circumstances
+		</li>
+		<li>
+			<strong>Recognized by</strong>: Polished appearance, confident demeanor, driven to succeed in
+			their endeavors
 		</li>
 	</ul>
 
@@ -138,19 +144,24 @@
 		authenticity and meaning, often feeling like they are fundamentally different from others.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: Moody artists, self-absorbed dreamers, overly sensitive individuals</li>
-		<li><b>Archetypes</b>: The Romantic, The Individualist, The Bohemian, The Aesthete</li>
 		<li>
-			<b>Struggles</b>: Prone to melancholy and envy, difficulty accepting reality, feeling
-			misunderstood by others
+			<strong>Stereotypes</strong>: Moody artists, self-absorbed dreamers, overly sensitive
+			individuals
 		</li>
 		<li>
-			<b>Gifts</b>: Deeply creative and expressive, ability to transform pain into art, empathetic
-			and compassionate
+			<strong>Archetypes</strong>: The Romantic, The Individualist, The Bohemian, The Aesthete
 		</li>
 		<li>
-			<b>Recognized by</b>: Unique personal style, introspective nature, drawn to the arts and
-			self-expression
+			<strong>Struggles</strong>: Prone to melancholy and envy, difficulty accepting reality,
+			feeling misunderstood by others
+		</li>
+		<li>
+			<strong>Gifts</strong>: Deeply creative and expressive, ability to transform pain into art,
+			empathetic and compassionate
+		</li>
+		<li>
+			<strong>Recognized by</strong>: Unique personal style, introspective nature, drawn to the arts
+			and self-expression
 		</li>
 	</ul>
 
@@ -182,20 +193,21 @@
 	</p>
 	<ul>
 		<li>
-			<b>Stereotypes</b>: Detached observers, socially awkward intellectuals, eccentric loners
+			<strong>Stereotypes</strong>: Detached observers, socially awkward intellectuals, eccentric
+			loners
 		</li>
-		<li><b>Archetypes</b>: The Researcher, The Philosopher, The Scientist, The Expert</li>
+		<li><strong>Archetypes</strong>: The Researcher, The Philosopher, The Scientist, The Expert</li>
 		<li>
-			<b>Struggles</b>: Difficulty connecting emotionally, tendency to withdraw, fear of being
-			overwhelmed or incompetent
+			<strong>Struggles</strong>: Difficulty connecting emotionally, tendency to withdraw, fear of
+			being overwhelmed or incompetent
 		</li>
 		<li>
-			<b>Gifts</b>: Highly analytical and objective, ability to think deeply and innovate,
+			<strong>Gifts</strong>: Highly analytical and objective, ability to think deeply and innovate,
 			self-sufficient and resourceful
 		</li>
 		<li>
-			<b>Recognized by</b>: Intellectual curiosity, preference for solitude, ability to detach and
-			observe objectively
+			<strong>Recognized by</strong>: Intellectual curiosity, preference for solitude, ability to
+			detach and observe objectively
 		</li>
 	</ul>
 
@@ -224,19 +236,23 @@
 		loyal to their beliefs and those they trust, often serving as the backbone of their communities.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: Anxious worriers, overly suspicious, blindly loyal followers</li>
-		<li><b>Archetypes</b>: The Skeptic, The Guardian, The Trooper, The Devil's Advocate</li>
 		<li>
-			<b>Struggles</b>: Prone to anxiety and self-doubt, difficulty trusting others, prone to
-			worst-case scenario thinking
+			<strong>Stereotypes</strong>: Anxious worriers, overly suspicious, blindly loyal followers
 		</li>
 		<li>
-			<b>Gifts</b>: Highly attuned to potential risks, ability to create stability and security,
-			loyal and supportive
+			<strong>Archetypes</strong>: The Skeptic, The Guardian, The Trooper, The Devil's Advocate
 		</li>
 		<li>
-			<b>Recognized by</b>: Preparedness for challenges, questioning nature, strong sense of duty
-			and responsibility
+			<strong>Struggles</strong>: Prone to anxiety and self-doubt, difficulty trusting others, prone
+			to worst-case scenario thinking
+		</li>
+		<li>
+			<strong>Gifts</strong>: Highly attuned to potential risks, ability to create stability and
+			security, loyal and supportive
+		</li>
+		<li>
+			<strong>Recognized by</strong>: Preparedness for challenges, questioning nature, strong sense
+			of duty and responsibility
 		</li>
 	</ul>
 
@@ -269,22 +285,24 @@
 	</p>
 	<ul>
 		<li>
-			<b>Stereotypes</b>: Impulsive thrill-seekers, commitment-phobic, scattered and unfocused
+			<strong>Stereotypes</strong>: Impulsive thrill-seekers, commitment-phobic, scattered and
+			unfocused
 		</li>
 		<li>
-			<b>Archetypes</b>: The Adventurer, The Entertainer, The Visionary, The Renaissance Person
+			<strong>Archetypes</strong>: The Adventurer, The Entertainer, The Visionary, The Renaissance
+			Person
 		</li>
 		<li>
-			<b>Struggles</b>: Difficulty dealing with painful emotions, prone to overextending themselves,
-			fear of missing out
+			<strong>Struggles</strong>: Difficulty dealing with painful emotions, prone to overextending
+			themselves, fear of missing out
 		</li>
 		<li>
-			<b>Gifts</b>: Ability to find joy in any situation, highly adaptable and resilient, natural
-			storytellers and entertainers
+			<strong>Gifts</strong>: Ability to find joy in any situation, highly adaptable and resilient,
+			natural storytellers and entertainers
 		</li>
 		<li>
-			<b>Recognized by</b>: Energetic and engaging presence, always seeking new experiences, ability
-			to reframe negatives
+			<strong>Recognized by</strong>: Energetic and engaging presence, always seeking new
+			experiences, ability to reframe negatives
 		</li>
 	</ul>
 
@@ -315,20 +333,21 @@
 	</p>
 	<ul>
 		<li>
-			<b>Stereotypes</b>: Angry and confrontational, domineering bullies, ruthless and insensitive
+			<strong>Stereotypes</strong>: Angry and confrontational, domineering bullies, ruthless and
+			insensitive
 		</li>
-		<li><b>Archetypes</b>: The Boss, The Protector, The Maverick, The Warrior</li>
+		<li><strong>Archetypes</strong>: The Boss, The Protector, The Maverick, The Warrior</li>
 		<li>
-			<b>Struggles</b>: Difficulty being vulnerable, tendency to dominate others, struggle to accept
-			help or direction
-		</li>
-		<li>
-			<b>Gifts</b>: Natural leadership abilities, courage to stand up for beliefs, ability to
-			overcome adversity
+			<strong>Struggles</strong>: Difficulty being vulnerable, tendency to dominate others, struggle
+			to accept help or direction
 		</li>
 		<li>
-			<b>Recognized by</b>: Commanding presence, direct communication style, ability to take charge
-			in a crisis
+			<strong>Gifts</strong>: Natural leadership abilities, courage to stand up for beliefs, ability
+			to overcome adversity
+		</li>
+		<li>
+			<strong>Recognized by</strong>: Commanding presence, direct communication style, ability to
+			take charge in a crisis
 		</li>
 	</ul>
 
@@ -360,19 +379,21 @@
 		mediators and peacemakers.
 	</p>
 	<ul>
-		<li><b>Stereotypes</b>: Passive pushovers, conflict-avoidant, lazy and unmotivated</li>
-		<li><b>Archetypes</b>: The Mediator, The Diplomat, The Dreamer, The Healer</li>
 		<li>
-			<b>Struggles</b>: Difficulty asserting own needs and opinions, prone to passivity and
-			procrastination, struggle to embrace change
+			<strong>Stereotypes</strong>: Passive pushovers, conflict-avoidant, lazy and unmotivated
+		</li>
+		<li><strong>Archetypes</strong>: The Mediator, The Diplomat, The Dreamer, The Healer</li>
+		<li>
+			<strong>Struggles</strong>: Difficulty asserting own needs and opinions, prone to passivity
+			and procrastination, struggle to embrace change
 		</li>
 		<li>
-			<b>Gifts</b>: Highly empathetic and accepting, ability to see and unify multiple perspectives,
-			natural peacemakers and healers
+			<strong>Gifts</strong>: Highly empathetic and accepting, ability to see and unify multiple
+			perspectives, natural peacemakers and healers
 		</li>
 		<li>
-			<b>Recognized by</b>: Calming and reassuring presence, ability to go with the flow, skill at
-			creating harmony and stability
+			<strong>Recognized by</strong>: Calming and reassuring presence, ability to go with the flow,
+			skill at creating harmony and stability
 		</li>
 	</ul>
 
@@ -395,11 +416,51 @@
 	</p>
 {/if}
 
-<style>
-	p {
-		margin: 0.4rem;
+<style lang="scss">
+	.enneagram-type-intro {
+		margin-bottom: 2rem;
 	}
-	ul {
-		margin: 0.2rem 0;
+
+	h1 {
+		font-size: 2.5rem;
+		color: var(--text-color);
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	h2 {
+		font-size: 1.8rem;
+		color: var(--text-color);
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.type-description {
+		font-size: 1.2rem;
+		text-align: center;
+		margin-bottom: 1.5rem;
+	}
+
+	.type-details ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.type-details li {
+		margin-bottom: 0.5rem;
+	}
+
+	@media (max-width: 768px) {
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		.type-description {
+			font-size: 1rem;
+		}
 	}
 </style>

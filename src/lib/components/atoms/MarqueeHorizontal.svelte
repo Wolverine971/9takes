@@ -6,77 +6,144 @@
 		link: string;
 	}[] = [];
 	export let noMove: boolean = false;
+	export let speed: number = 30; // seconds for one full rotation
 
-	onMount(() => {});
+	let marqueeWidth: number;
+
+	onMount(() => {
+		marqueeWidth = displayList.length * 250; // Adjust based on your content
+	});
+
+	$: jsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'WebPageElement',
+		isPartOf: {
+			'@type': 'WebPage',
+			'@id': 'https://9takes.com'
+		},
+		name: '9takes Enneagram Types Marquee',
+		description: 'A scrolling marquee displaying Enneagram personality types and related content',
+		cssSelector: '.marquee-container',
+		hasPart: [
+			{
+				'@type': 'ItemList',
+				itemListElement: displayList.map((item, index) => ({
+					'@type': 'ListItem',
+					position: index + 1,
+					item: {
+						'@type': 'Thing',
+						name: item.name,
+						url: `https://9takes.com${item.link}`
+					}
+				}))
+			}
+		]
+	};
 </script>
 
-<!-- {250 * displayList.length}px; -->
-<div class="marquee-horizontal" style="width: {928 * 2}px" role="marquee">
-	<div class="track-horizontal-alt" style="{noMove ? 'animation: none;' : ''} ">
-		<span style="width:50%; flex: 1">
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+</svelte:head>
+
+<div
+	class="marquee-container"
+	style="--marquee-width: {marqueeWidth}px; --marquee-speed: {speed}s;"
+>
+	<div class="marquee" class:paused={noMove} role="marquee">
+		<div class="marquee-content">
 			{#each displayList as item}
-				<a href={item.link} class="marquee-text">{item.name}</a>
+				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
-		</span>
-		<span style="width:50%; flex: 1">
+		</div>
+		<div class="marquee-content" aria-hidden="true">
 			{#each displayList as item}
-				<a href={item.link} class="marquee-text">{item.name}</a>
+				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
-		</span>
+		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.marquee-text {
-		text-transform: uppercase;
-		flex: none;
-		font-size: 1.2rem;
-		margin: 2rem;
-	}
+	.marquee-container {
+		--marquee-bg: var(--color-theme-purple-light);
+		--marquee-color: var(--text-color);
+		--marquee-border-color: #fdfdfb;
 
-	a::after {
-		margin: 0 0.2rem;
-	}
-
-	.marquee-horizontal {
-		z-index: 200;
 		width: 100%;
-		height: 3rem;
-		// outline-offset: -1px;
-		object-fit: scale-down;
-		border-top: 3px solid var(--color-theme-purple-light);
-		border-bottom: 3px solid var(--color-theme-purple-light);
-		outline: 2px solid #fdfdfb;
-		justify-content: center;
-		align-items: center;
-		display: flex;
+		overflow: hidden;
+		background: var(--marquee-bg);
 		position: relative;
-		overflow: hidden;
 	}
 
-	.track-horizontal-alt {
-		width: 200%;
-		// border-top: 1px solid grey;
-		// border-bottom: 1px solid grey;
+	.marquee-container::before,
+	.marquee-container::after {
+		content: '';
 		position: absolute;
-		white-space: nowrap;
-		will-change: transform;
-		animation: marquee-horizontal-alt 15s linear infinite;
-		/* manipulate the speed of the marquee by changing "40s" line above*/
-		display: inline-flex;
-		justify-content: center;
-		gap: 3rem;
-		align-items: center;
-		overflow: hidden;
+		top: 0;
+		width: 10rem;
+		height: 100%;
+		z-index: 1;
 	}
 
-	@keyframes marquee-horizontal-alt {
-		from {
-			transform: translateX(-50%);
-		}
+	.marquee-container::before {
+		left: 0;
+		background: linear-gradient(to right, var(--marquee-bg), transparent);
+	}
 
-		to {
-			transform: translateX(0%);
+	.marquee-container::after {
+		right: 0;
+		background: linear-gradient(to left, var(--marquee-bg), transparent);
+	}
+
+	.marquee {
+		display: flex;
+		width: calc(var(--marquee-width) * 2);
+		animation: scroll var(--marquee-speed) linear infinite;
+
+		&.paused {
+			animation-play-state: paused;
+		}
+	}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-1 * var(--marquee-width)));
+		}
+	}
+
+	.marquee-content {
+		display: flex;
+		align-items: center;
+		flex: 0 0 var(--marquee-width);
+		white-space: nowrap;
+	}
+
+	.marquee-item {
+		display: inline-flex;
+		align-items: center;
+		padding: 1rem 2rem;
+		color: var(--marquee-color);
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-weight: bold;
+		text-decoration: none;
+		transition: all 0.3s ease;
+
+		&:hover {
+			color: var(--marquee-border-color);
+			transform: scale(1.1);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.marquee {
+			animation: none;
+		}
+		.marquee-item {
+			transition: none;
 		}
 	}
 </style>
