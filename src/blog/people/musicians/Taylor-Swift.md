@@ -44,9 +44,11 @@ https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationshi
 
 > **Disclaimer** It's important to note that this analysis of Taylor Swift’s Enneagram type is speculative, relying on publicly available information, and may not definitively reflect her true personality type.
 
-<p class="firstLetter">Taylor Swift has been and will continue to be an enduring figure in the cultural landscape.</p>
+<p class="firstLetter">Taylor Swift has been and will continue to be an icon.</p>
 
-From 2023 onward, she has taken the world by storm through her Eras tour. But for Swifties, this icon has been iconic since she started. She is her. Here, we dive into the uncharted territory of Taylor's personality, proposing that she embodies the traits of an Enneagram Type 3 - The Achiever.
+She has taken the world by storm with her Eras tour but has been building her following since 2006. For Swifties, She is her.
+
+Here, we dive explore Taylor's personality, and propose that she the ambitious and popular Enneagram Type 3.
 
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 

@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
+	import { goto, invalidateAll } from '$app/navigation';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
-	import { goto, invalidateAll } from '$app/navigation';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -15,20 +15,21 @@
 			if (!questionUrls.has(curr.url)) {
 				const key = curr.tag_name;
 				questionUrls.add(curr.url);
-				acc[key] = acc[key] || [];
+				if (!acc[key]) acc[key] = [];
 				acc[key].push(curr);
 			}
 			return acc;
 		}, {});
 	}
 
-	function goToCreateQuestionPage({ detail }: { detail: string }) {
+	function goToCreateQuestionPage(detail: string) {
 		if (!data?.session?.user?.id) {
-			goto(`/register`, { invalidateAll: true });
+			goto('/register', { invalidateAll: true });
 			return;
 		}
-		const url =
-			typeof detail === 'string' ? `/questions/create/?question=${detail}` : '/questions/create/';
+		const url = detail
+			? `/questions/create/?question=${encodeURIComponent(detail)}`
+			: '/questions/create/';
 		goto(url, { invalidateAll: true });
 	}
 </script>
@@ -37,7 +38,7 @@
 	<title>Question List</title>
 	<meta
 		name="description"
-		content="Questions on every topic with unbiased answers- sort comments by Enneagram personality type 😉"
+		content="Questions on every topic with unbiased answers – sort comments by Enneagram personality type 😉"
 	/>
 	<link rel="canonical" href="https://9takes.com/questions" />
 </svelte:head>
@@ -48,8 +49,8 @@
 	<div in:fly={{ y: 20, duration: 300, delay: 300 }}>
 		<SearchQuestion
 			{data}
-			on:createQuestion={goToCreateQuestionPage}
-			on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`, {})}
+			on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
+			on:questionSelected={({ detail }) => goto(`/questions/${detail.url}`)}
 		/>
 	</div>
 
@@ -85,19 +86,33 @@
 </div>
 
 <style lang="scss">
+	$base-margin: 0.5rem;
+	$base-padding: 1rem;
+	$transition-duration: 0.3s;
+
+	%reset-spacing {
+		padding: 0;
+		margin: $base-margin 0 $base-margin / 2 0;
+	}
+
+	%flex-center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
 	h1,
 	h2,
 	h3,
 	h4,
 	h5,
 	h6 {
-		padding: 0;
-		margin: 0.5rem 0 0.25rem 0;
+		@extend %reset-spacing;
 	}
 
 	.question-category-div {
-		margin: 1rem 0;
-		padding: 1rem;
+		margin: $base-margin 0;
+		padding: $base-padding;
 		border: 1px solid var(--color-border);
 		border-radius: var(--base-border-radius);
 		background-color: var(--color-background-secondary);
@@ -109,21 +124,19 @@
 		max-height: 150px;
 		overflow-y: auto;
 		overscroll-behavior-y: contain;
-		padding: 0.5rem 0;
+		padding: $base-padding / 2 0;
 	}
 
 	.tag {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
+		@extend %flex-center;
 		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
 		font-weight: bolder;
-		margin: 0.25rem;
-		padding: 0.5rem 1rem;
+		margin: $base-margin / 2;
+		padding: $base-padding / 2 $base-padding;
 		background-color: var(--accent);
 		color: var(--color-text-inverse);
-		transition: all 0.3s ease;
+		transition: all $transition-duration ease;
 
 		&:hover {
 			background-color: var(--color-accent-hover);

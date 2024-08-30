@@ -59,7 +59,7 @@
 
 <style lang="scss">
 	:root {
-		--primary-dark: #2980b9;
+		--primary-dark: var(--color-theme-purple-dark);
 		--text-color: #333;
 		--background-color: #f5f5f5;
 		--input-background: #fff;
