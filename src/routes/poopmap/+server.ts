@@ -190,55 +190,55 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/1</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/2</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/3</loc>
-	    <lastmod>2024-08-23</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/4</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/5</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/6</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/7</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/8</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
 	<url>
 	    <loc>https://9takes.com/personality-analysis/type/9</loc>
-	    <lastmod>2024-08-16</lastmod>
+	    <lastmod>2024-08-29</lastmod>
 	    <changefreq>weekly</changefreq>
 	    <priority>0.7</priority>
 	</url>
