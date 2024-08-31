@@ -1,5 +1,5 @@
 ---
-title: 'Billie Eilish Enneagram Type 4'
+title: 'Billie Eilish: The Whisper That Roars - Unmasking the Type 4'
 description: "Explore Billie's inner world and how her ease with darkness and melancholy, reflect the traits of an Enneagram Type 4 personality."
 author: 'DJ Wayne'
 date: '2023-06-17'
