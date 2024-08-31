@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 	import DownIcon from '$lib/components/icons/downIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
@@ -8,6 +8,7 @@
 
 	export let data: PageData;
 
+	console.log(data);
 	let expandedBlogTitle: string | null = null;
 	let activeSelection = 'enneagram';
 
@@ -16,6 +17,7 @@
 		'Not written',
 		'Prioritized',
 		'Written',
+		'Proof read',
 		'Sent out for review',
 		'Reviewed',
 		'Socialized',
@@ -36,20 +38,24 @@
 				if (blog.published) {
 					blog.stage = 2;
 
-					if (blog.stageName === 'Sent out for review') {
+					if (blog.stageName === 'Proof read') {
 						blog.stage = 3;
 					}
-					if (blog.stageName === 'Reviewed') {
+
+					if (blog.stageName === 'Sent out for review') {
 						blog.stage = 4;
 					}
-					if (blog.stageName === 'Socialized') {
+					if (blog.stageName === 'Reviewed') {
 						blog.stage = 5;
 					}
-					if (blog.stageName === 'Growing') {
+					if (blog.stageName === 'Socialized') {
 						blog.stage = 6;
 					}
-					if (blog.stageName === 'Needs Work') {
+					if (blog.stageName === 'Growing') {
 						blog.stage = 7;
+					}
+					if (blog.stageName === 'Needs Work') {
+						blog.stage = 8;
 					}
 				}
 			});
@@ -131,7 +137,13 @@
 		>
 			<h3 id={`stage-${stageIndex}-heading`}>{stage}</h3>
 			{#if activeSelection && data[activeSelection]}
-				{#each data[activeSelection].filter((blog) => blog.stage === stageIndex) as blog, index}
+				{#each data[activeSelection]
+					.filter((blog) => blog.stage === stageIndex)
+					.sort((a, b) => {
+						// Turn your strings into dates, and then subtract them
+						// to get a value that is either negative, positive, or zero.
+						return new Date(b.lastmod) - new Date(a.lastmod);
+					}) as blog, index}
 					{#if blog.title}
 						<div
 							class="card"

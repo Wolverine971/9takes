@@ -1071,7 +1071,7 @@
 </url>
 <url>
 <loc>https://9takes.com/personality-analysis/Billie-Eilish</loc>
-<lastmod>2023-10-17T00:00:00.000Z</lastmod>
+<lastmod>2024-08-31T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -1296,7 +1296,7 @@
 </url>
 <url>
 <loc>https://9takes.com/personality-analysis/Kamala-Harris</loc>
-<lastmod>2024-07-27T00:00:00.000Z</lastmod>
+<lastmod>2024-08-31T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -1631,12 +1631,6 @@
 <priority>0.7</priority>
 </url>
 <url>
-<loc>https://9takes.com/questions/who-are-you-voting-for-next-election</loc>
-<lastmod>2023-09-24T01:29:38.795Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
 <loc>https://9takes.com/questions/valueable-when-searching-community</loc>
 <lastmod>2024-05-05T01:17:40.571Z</lastmod>
 <changefreq>weekly</changefreq>
@@ -1669,6 +1663,12 @@
 <url>
 <loc>https://9takes.com/questions/what-are-you-thinking-about-these-days</loc>
 <lastmod>2023-09-22T05:23:03.858Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/questions/who-are-you-voting-for-next-election</loc>
+<lastmod>2023-09-24T01:29:38.795Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>

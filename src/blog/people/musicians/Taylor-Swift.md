@@ -136,24 +136,16 @@ If you like diving into personality, explore our <a href="/questions" >questions
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-05-04"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2023-07-29"
-      },
-      "description": "This blog post examines why Taylor Swift might be an Enneagram Type 3. It focuses on her personality traits, her motivations, her inner world, controversies she's faced, and how these elements might be related to the core attributes of a Type 3.",
+      "dateModified": "2024-05-04",
+      "datePublished": "2023-07-29",
+      "description": "Explore Taylor Swift's personality as an Enneagram Type 3, revealing her drive, resilience, and charisma in this insightful analysis",
       "headline": "Taylor Swift An Enneagram Type 3",
       "image": {
         "@type": "ImageObject",
@@ -168,7 +160,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       "mentions": {
         "@type": "Person",
         "name": "Taylor Swift",
-        "sameAs": [ "https://en.wikipedia.org/wiki/Taylor_Swift", "https://www.taylorswift.com/", "https://twitter.com/taylorswift13", "https://www.instagram.com/taylorswift/", "https://www.tiktok.com/@taylorswift"]
+        "sameAs": ["https://en.wikipedia.org/wiki/Taylor_Swift", "https://www.taylorswift.com/", "https://twitter.com/taylorswift13", "https://www.instagram.com/taylorswift/", "https://www.tiktok.com/@taylorswift"]
       },
       "publisher": {
         "@type": "Organization",
@@ -178,6 +170,27 @@ If you like diving into personality, explore our <a href="/questions" >questions
           "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
+      },
+      "keywords": ["Taylor Swift", "Enneagram Type 3", "personality analysis", "music industry", "ambition", "resilience", "charisma", "songwriting", "public image", "celebrity"],
+      "wordCount": 1667,
+      "articleSection": "Personality Analysis",
+      "inLanguage": "en-US",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Enneagram",
+          "sameAs": "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pop music",
+          "sameAs": "https://en.wikipedia.org/wiki/Pop_music"
+        }
+      ],
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "9takes",
+        "url": "https://9takes.com"
       }
     },
     {
@@ -199,7 +212,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
           },
           "name": "What are some examples of Taylor Swift's Type 3 characteristics?"
         },
-    {
+        {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -207,13 +220,21 @@ If you like diving into personality, explore our <a href="/questions" >questions
           },
           "name": "What is Taylor Swift's personality?"
         },
-    {
+        {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Taylor Swift is an Enneagram type 3, also known as The Achiever. This Enneagram type is ambitious, adaptable, and driven, often motivated by a desire to be successful and admired. Please note that this information is based on public information and not confirmed by Taylor Swift herself."
           },
           "name": "What is Taylor Swift's Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Taylor Swift's journey in the music industry reflects her Type 3 characteristics. From her early relocation to Nashville to pursue her music career, to her ability to reinvent her musical style across genres, Swift demonstrates the ambition and adaptability typical of Type 3 individuals. Her response to public controversies, often channeling these experiences into her music, also showcases the resilience and image-consciousness associated with this personality type."
+          },
+          "name": "How does Taylor Swift's career reflect her Enneagram Type 3 personality?"
         }
       ]
     }

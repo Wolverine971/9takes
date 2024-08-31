@@ -128,7 +128,131 @@ As we've peeled back the layers of Chappell's personality, one question remains:
 <svelte:head>
 
 <script type="application/ld+json">
-
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "articleBody": "Chappell Roan, the glitter-pop sensation who burst onto the scene with her kaleidoscopic visuals and infectious melodies, is more than just a dazzling performer. She's a small-town girl with big dreams, an advocate for self-expression, and a beacon of authenticity in the music industry. This article explores Chappell Roan's personality through the lens of Enneagram Type 7 - The Enthusiast, delving into her journey from small-town roots to pop stardom, her unique artistic vision, and how her Type 7 traits shape her music and public persona.",
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
+      },
+      "dateModified": "2024-08-16",
+      "datePublished": "2024-08-16",
+      "dateCreated": "2024-08-16",
+      "description": "Explore Chappell Roan's journey from small-town dreamer to pop icon. Discover how her Enneagram Type 7 personality shapes her vibrant music and authentic artistry.",
+      "headline": "Chappell Roan: The Glitter Pop Enthusiast's Inner World",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/types/7s/Chappell-Roan.webp",
+        "width": 900
+      },
+      "mainEntityOfPage": {
+        "@id": "https://9takes.com/personality-analysis/Chappell-Roan",
+        "@type": "WebPage"
+      },
+      "mentions": {
+        "@type": "Person",
+        "name": "Chappell Roan",
+        "sameAs": [
+          "https://www.instagram.com/chappellroan/",
+          "https://twitter.com/ChappellRoan"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      },
+      "keywords": ["Chappell Roan", "Enneagram Type 7", "glitter-pop", "personality analysis", "music industry", "small-town roots", "Pink Pony Club", "synesthesia", "DIY ethic", "authenticity"],
+      "wordCount": 1304,
+      "articleSection": "Personality Analysis",
+      "inLanguage": "en-US",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": "https://9takes.com/personality-analysis/Chappell-Roan"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Enneagram",
+          "sameAs": "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pop music",
+          "sameAs": "https://en.wikipedia.org/wiki/Pop_music"
+        }
+      ],
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "9takes",
+        "url": "https://9takes.com"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Chappell Roan's Enneagram type?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chappell Roan embodies the characteristics of an Enneagram Type 7, also known as The Enthusiast. Type 7s are known for their insatiable curiosity, boundless energy, and ability to find joy in every aspect of life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How did Chappell Roan's upbringing influence her music career?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Growing up in Willard, Missouri, a small town with a population of just over 5,000, Chappell (born Kayleigh Rose Amstutz) felt like 'an alien' in her hometown. This feeling of being different and yearning for more is typical of Type 7s who grow up in environments that feel limiting. For Chappell, music became her escape and means of self-expression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What inspired Chappell Roan's stage name?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chappell Roan's stage name reflects her Type 7 creativity. 'Chappell' was inspired by the Chappell Music Company, while 'Roan' comes from Roan Mountain in Tennessee. This combination reflects her love for music and nature, two passions that fuel her artistry."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Chappell Roan's synesthesia influence her music?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chappell Roan has synesthesia, a neurological condition where she perceives music as colors. This unique perspective influences her creative process and the visual aspects of her performances. She describes it as 'painting with sound,' allowing her to create music that's not just heard, but felt and seen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Chappell Roan's Enneagram Type 7 personality shape her approach to challenges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As a Type 7, Chappell Roan tends to transform pain into joy. For example, when feeling down about her career, she channeled that energy into creating 'Pink Pony Club,' a euphoric celebration of identity and belonging. This ability to alchemize disappointment into inspiration is quintessentially Type 7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Chappell Roan's approach to creating her music and performances?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chappell Roan maintains a hands-on, DIY approach to her art. She has created her own merchandise, designed album artwork, and even directed music videos. This DIY ethic isn't just about saving money - it's about maintaining creative control and ensuring that every aspect of her art aligns with her vision, reflecting her Type 7 need for freedom and self-expression."
+          }
+        }
+      ]
+    }
+  ]
+}
 </script>
 
 </svelte:head>
