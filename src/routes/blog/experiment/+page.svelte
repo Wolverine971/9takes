@@ -1,24 +1,14 @@
 <script lang="ts">
-	import type { PageData } from './$types';
-	// export let data: PageData;
 	import { stemmer } from 'stemmer';
 	import { supabase } from '$lib/supabase';
 	// https://www.youtube.com/watch?v=ngekIXiFN3s
 
 	let emotionList: string = '';
-	// let finalEmotionList: string[] = [];
-
 	// emotions synonyms
 	// how to control your emotions
 	// first you need to name your emotion
 	import { onMount, tick } from 'svelte';
 
-	// import { gsap } from 'gsap/dist/gsap';
-	// import { Flip } from 'gsap/dist/Flip';
-	// // import Layout from '$lib/components/blog/layout.svelte';
-
-	// gsap.registerPlugin(Flip);
-	// anger shame fear
 	onMount(() => {
 		let textAreas = document.getElementsByTagName('textarea');
 
@@ -1272,6 +1262,253 @@
 			root: 'anger',
 			name: 'wrathful',
 			rootWord: 'wrath'
+		},
+
+		///////
+
+		disguest: {
+			root: 'shame',
+			name: 'disguest',
+			rootWord: 'disguest'
+		},
+		nger: {
+			root: 'anger',
+			name: 'nger',
+			rootWord: 'nger'
+		},
+		exasperati: {
+			root: 'anger',
+			name: 'exasperati',
+			rootWord: 'exasperati'
+		},
+		jealou: {
+			root: 'anger',
+			name: 'jealous',
+			rootWord: 'jealou'
+		},
+		envi: {
+			root: 'anger',
+			name: 'envy',
+			rootWord: 'envi'
+		},
+
+		covet: {
+			root: 'shame',
+			name: 'covetous',
+			rootWord: 'covet'
+		},
+		helpless: {
+			root: 'fear',
+			name: 'helpless',
+			rootWord: 'helpless'
+		},
+		alon: {
+			root: 'fear',
+			name: 'alone',
+			rootWord: 'alon'
+		},
+
+		grumpi: {
+			root: 'anger',
+			name: 'grumpy',
+			rootWord: 'grumpi'
+		},
+		moodi: {
+			root: 'anger',
+			name: 'moody',
+			rootWord: 'moodi'
+		},
+		peur: {
+			root: 'fear',
+			name: 'peur',
+			rootWord: 'peur'
+		},
+		anxi: {
+			root: 'fear',
+			name: 'anxi',
+			rootWord: 'anxi'
+		},
+		dout: {
+			root: 'fear',
+			name: 'doute',
+			rootWord: 'dout'
+		},
+		tristess: {
+			root: 'shame',
+			name: 'tristesse',
+			rootWord: 'tristess'
+		},
+		jalousi: {
+			root: 'shame',
+			name: 'jalousie',
+			rootWord: 'jalousi'
+		},
+		hain: {
+			root: 'anger',
+			name: 'haine',
+			rootWord: 'hain'
+		},
+		culpabilit: {
+			root: 'shame',
+			name: 'culpabilit',
+			rootWord: 'culpabilit'
+		},
+		hont: {
+			root: 'shame',
+			name: 'honte',
+			rootWord: 'hont'
+		},
+		discomfort: {
+			root: 'fear',
+			name: 'discomfort',
+			rootWord: 'discomfort'
+		},
+		pain: {
+			root: 'fear',
+			name: 'pain',
+			rootWord: 'pain'
+		},
+		melencholi: {
+			root: 'shame',
+			name: 'melencholy',
+			rootWord: 'melencholi'
+		},
+		sad: {
+			root: 'shame',
+			name: 'sadness',
+			rootWord: 'sad'
+		},
+
+		desol: {
+			root: 'shame',
+			name: 'desolation',
+			rootWord: 'desol'
+		},
+		hollow: {
+			root: 'shame',
+			name: 'hollowness',
+			rootWord: 'hollow'
+		},
+
+		grief: {
+			root: 'shame',
+			name: 'grief',
+			rootWord: 'grief'
+		},
+		depress: {
+			root: 'shame',
+			name: 'depressed',
+			rootWord: 'depress'
+		},
+		ira: {
+			root: 'anger',
+			name: 'ira',
+			rootWord: 'ira'
+		},
+		ansiedad: {
+			root: 'fear',
+			name: 'ansiedad',
+			rootWord: 'ansiedad'
+		},
+		aburrimiento: {
+			root: 'shame',
+			name: 'aburrimiento',
+			rootWord: 'aburrimiento'
+		},
+		desesperaci: {
+			root: 'fear',
+			name: 'desesperaci',
+			rootWord: 'desesperaci'
+		},
+		tristeza: {
+			root: 'shame',
+			name: 'tristeza',
+			rootWord: 'tristeza'
+		},
+		depresi: {
+			root: 'shame',
+			name: 'depresi',
+			rootWord: 'depresi'
+		},
+		negatividad: {
+			root: 'shame',
+			name: 'negatividad',
+			rootWord: 'negatividad'
+		},
+		nico: {
+			root: 'fear',
+			name: 'nico',
+			rootWord: 'nico'
+		},
+		ataqu: {
+			root: 'fear',
+			name: 'ataques',
+			rootWord: 'ataqu'
+		},
+		entumecimiento: {
+			root: 'fear',
+			name: 'entumecimiento',
+			rootWord: 'entumecimiento'
+		},
+		myseri: {
+			root: 'shame',
+			name: 'mysery',
+			rootWord: 'myseri'
+		},
+		feisti: {
+			root: 'anger',
+			name: 'feisty',
+			rootWord: 'feisti'
+		},
+		disappoint: {
+			root: 'shame',
+			name: 'disappointment',
+			rootWord: 'disappoint'
+		},
+		fool: {
+			root: 'shame',
+			name: 'fooled',
+			rootWord: 'fool'
+		},
+		belittl: {
+			root: 'shame',
+			name: 'belittle',
+			rootWord: 'belittl'
+		},
+		reject: {
+			root: 'shame',
+			name: 'rejection',
+			rootWord: 'reject'
+		},
+		critic: {
+			root: 'shame',
+			name: 'criticism',
+			rootWord: 'critic'
+		},
+		empti: {
+			root: 'shame',
+			name: 'emptiness',
+			rootWord: 'empti'
+		},
+		numb: {
+			root: 'fear',
+			name: 'numbness',
+			rootWord: 'numb'
+		},
+		overwhelm: {
+			root: 'fear',
+			name: 'overwhelm',
+			rootWord: 'overwhelm'
+		},
+		jealousi: {
+			root: 'anger',
+			name: 'jealousy',
+			rootWord: 'jealousi'
+		},
+		lust: {
+			root: 'anger',
+			name: 'lust',
+			rootWord: 'lust'
 		}
 	};
 
@@ -1358,12 +1595,6 @@
 					name: e,
 					rootWord: rootWord
 				};
-				// emotions.push({
-				// 	root: '',
-				// 	name: e,
-				// 	rootWord
-				// });
-				// newemotionsMap[e.rootWord] = e;
 			}
 		});
 		let newEmotionsMap: any = {};
@@ -1392,15 +1623,6 @@
 		const map = {};
 		finalEmotionList.forEach((e) => {
 			if (map[e]) {
-				// const duplicate = emotionList.lastIndexOf(e);
-				// const parts = emotionList.split(e);
-				// let newParts = [];
-				// for (let i = 0; i <= parts.length - 2; i++) {
-				// 	newParts.push(parts[i]);
-				// 	newParts.push(e);
-				// }
-				// newParts.push(parts[parts.length - 1]);
-				// const newString = newParts.join(' ');
 				emotionList = emotionList.replace(e, '');
 			} else {
 				map[e] = 1;
@@ -1495,27 +1717,6 @@
 			});
 		}
 	};
-	// const flipElement = async (el) => {
-	// 	const first = el.getBoundingClientRect();
-
-	// 	swap = !swap;
-	// 	// submitBox = false;
-
-	// 	await tick();
-
-	// 	const last = el.getBoundingClientRect();
-
-	// 	const invert = first.left - last.left;
-
-	// 	const animate = listEl.animate(
-	// 		[{ translate: `${invert}.px` }, { translate: '0px', background: 'yellow' }],
-	// 		{
-	// 			duration: 2000,
-	// 			fill: 'forwards',
-	// 			easing: 'ease-out'
-	// 		}
-	// 	);
-	// };
 
 	let swap = false;
 	let submitBox = false;
