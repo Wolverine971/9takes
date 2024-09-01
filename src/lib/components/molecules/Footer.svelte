@@ -57,7 +57,7 @@
 		flex-direction: column;
 		align-items: center;
 		padding: 12px;
-		margin: 0 1rem;
+		// margin: 0 1rem;
 
 		&-links {
 			display: flex;
