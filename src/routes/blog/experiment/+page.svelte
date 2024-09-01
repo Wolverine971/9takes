@@ -1491,7 +1491,7 @@
 			rootWord: 'empti'
 		},
 		numb: {
-			root: 'fear',
+			root: 'shame',
 			name: 'numbness',
 			rootWord: 'numb'
 		},
@@ -1514,6 +1514,11 @@
 			root: 'shame',
 			name: 'isolation',
 			rootWord: 'isol'
+		},
+		betray: {
+			root: 'anger',
+			name: 'betrayal',
+			rootWord: 'betray'
 		}
 	};
 
@@ -1840,7 +1845,7 @@
 	<!-- <ol>
 	<li> -->
 	<div>
-		<h3>Instructions:</h3>
+		<h3 style="padding: 1rem 0;">Instructions:</h3>
 		<p>
 			Take one minute and write down all the <span class="underline">negative emotions</span>
 			that are one word that you can think of.
@@ -1887,7 +1892,8 @@
 			on:click={submit}
 			disabled={emotionList.length ? false : true}
 			class:form-send={true}
-			class={emotionList.length ? 'regular' : 'disabled'}
+			class="{emotionList.length ? 'regular' : 'disabled'} btn btn-primary"
+			style="float:inline-end"
 		/>
 		<!-- {#if data?.session?.user}
 		<input
