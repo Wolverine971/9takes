@@ -78,7 +78,7 @@
 									class={$page.url.pathname === '/community' ? 'active-link' : ''}
 									style="text-align: start"
 								>
-									9takes Inspiration
+									THe Takes of 9takes
 								</div>
 							</a>
 						</li>
@@ -88,7 +88,7 @@
 									class={$page.url.pathname === '/enneagram-corner' ? 'active-link' : ''}
 									style="text-align: start;"
 								>
-									Enneagram Blogs
+									Enneagram Corner
 								</div>
 							</a>
 						</li>
@@ -98,7 +98,7 @@
 									class={$page.url.pathname === '/personality-analysis' ? 'active-link' : ''}
 									style="text-align: start"
 								>
-									Famous Enneagram Types
+									Personality Analysis
 								</div>
 							</a>
 						</li>
@@ -109,7 +109,7 @@
 									class={$page.url.pathname === '/how-to-guides' ? 'active-link' : ''}
 									style="text-align: start;"
 								>
-									Guides
+									How to Guides
 								</div>
 							</a>
 						</li>
