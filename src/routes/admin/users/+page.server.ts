@@ -23,9 +23,7 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(307, '/questions');
 	}
 
-
-	const { data: profiles, error: profilesError } = await supabase
-		.rpc('get_all_users')
+	const { data: profiles, error: profilesError } = await supabase.rpc('get_all_users');
 
 	if (profilesError) {
 		console.log(profilesError);

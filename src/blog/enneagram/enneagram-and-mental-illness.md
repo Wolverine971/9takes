@@ -141,7 +141,8 @@ Type 1s may engage in various unhealthy coping strategies:
 - Developing rigid routines to maintain a sense of control
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type2">Mental Health Risks of the Enneagram Type 2: The Helper</h2>
 
@@ -200,7 +201,8 @@ Type 2s may engage in various unhealthy coping strategies:
 - Using emotional outbursts or dramatics to regain attention or control
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type3">Mental Health Risks of the Enneagram Type 3: The Achiever</h2>
 
@@ -267,29 +269,28 @@ toxic-traits-of-each-enneagram-type
  -->
 
 <div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;"
-
-> <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link">
->       <PopCard
->           image={`/blogs/greek-statue-of-athena-with-red.webp`}
->           showIcon={false}
->           subtext=""
->           displayText="Mental Health Flags of Each Type"
->           scramble={false}
-> />
->      </a>
->     <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link">
->       <PopCard
->           image={`/blogs/greek-statue-showing-cracks.webp`}
->           showIcon={false}
->           subtext=""
->           displayText="The Toxic Traits of Each Type"
->           scramble={false}
-> />
->     </a>
-
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;"
+>
+    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-of-athena-with-red.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="Mental Health Flags of Each Type"
+          scramble={false}
+      />
+     </a>
+    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-showing-cracks.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="The Toxic Traits of Each Type"
+          scramble={false}
+      />
+    </a>
 </div>
 
 <article class="section-content">
@@ -351,7 +352,8 @@ Type 4s may engage in various unhealthy coping strategies:
 - Engaging in obsessive thoughts about death or loss, which exacerbates depressive symptoms
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type5">Mental Health Risks of the Enneagram Type 5: The Investigator</h2>
 
@@ -474,7 +476,8 @@ Type 6s may engage in various unhealthy coping strategies:
 - Allowing chronic fear and suspicion to dominate their thoughts, exacerbating anxiety and mental distress
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type7">Mental Health Risks of the Enneagram Type 7: The Enthusiast</h2>
 
@@ -532,7 +535,8 @@ Type 7s may engage in various unhealthy coping strategies:
 - Developing dramatic or histrionic behaviors to capture attention and distract from underlying anxiety
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type8">Mental Health Risks of the Enneagram Type 8: The Challenger</h2>
 
@@ -590,7 +594,8 @@ Type 8s may engage in various unhealthy coping strategies:
 - Developing antisocial tendencies, such as a lack of empathy and disregard for social norms, which further isolates them from society
 
 </article>
- <article class="section-content">
+
+<article class="section-content">
 
 <h2 style="padding: 0; margin: 0" id="type9">Mental Health Risks of the Enneagram Type 9: The Peacemaker</h2>
 

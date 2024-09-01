@@ -44,7 +44,6 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Amber-Heard', link: true },
 		{ name: 'Sabrina-Carpenter', link: true }
 
-
 		// { name: 'Jordan-Belfort ', link: false },
 		// { name: 'Matthew-Cox', link: false },
 	],
