@@ -1525,57 +1525,99 @@
 </script>
 
 <svelte:head>
-	<title>9takes Emotions Experiment</title>
+	<title>One Minute Emotions Experiment | Understand Your Feelings | 9takes</title>
 	<meta
 		name="description"
-		content="Emotion Analyzer: List your feelings, see them neatly organized- a user-friendly tool for easy emotion understanding"
+		content="Discover your emotional landscape with our 1-minute Emotions Experiment. List, categorize, and understand your feelings using our interactive Emotion Analyzer tool."
 	/>
+	<meta
+		name="keywords"
+		content="emotions experiment, emotion analyzer, feelings list, emotional intelligence, personality test, enneagram, 9takes"
+	/>
+	<meta name="author" content="DJ Wayne" />
+	<meta property="og:title" content="One Minute Emotions Experiment | 9takes" />
+	<meta
+		property="og:description"
+		content="Uncover your emotional patterns in just one minute. Try our interactive Emotion Analyzer and gain insights into your personality."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://9takes.com/blog/experiment" />
+	<meta property="og:image" content="https://9takes.com/brand/darkRubix.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@9takesdotcom" />
+	<meta name="twitter:title" content="One Minute Emotions Experiment | 9takes" />
+	<meta
+		name="twitter:description"
+		content="Explore your emotions in just 60 seconds. Use our Emotion Analyzer to understand your feelings and personality better."
+	/>
+	<meta name="twitter:image" content="https://9takes.com/brand/darkRubix.png" />
 	<link rel="canonical" href="https://9takes.com/blog/experiment" />
 	<script type="application/ld+json">
-  {
-  "@context": "http://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-      "dateModified": {
-        "@type": "Date",
-        "@value": "2024-06-11"
-      },
-      "datePublished": {
-        "@type": "Date",
-        "@value": "2024-02-01"
-      },
-      "description": "Emotion Analyzer: List your feelings, see them neatly organized - a user-friendly tool for easy emotion understanding",
-      "headline": "One minute Emotions experiment",
-      "mainEntityOfPage": {
-        "@id": "https://9takes.com/blog/experiment",
-        "@type": "WebPage"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
-        },
-        "name": "9takes"
-      }
-    }
-	]
-}
-
+	{
+		"@context": "http://schema.org",
+		"@graph": [
+			{
+				"@type": "WebPage",
+				"@id": "https://9takes.com/blog/experiment",
+				"url": "https://9takes.com/blog/experiment",
+				"name": "One Minute Emotions Experiment | Understand Your Feelings | 9takes",
+				"description": "Discover your emotional landscape with our 1-minute Emotions Experiment. List, categorize, and understand your feelings using our interactive Emotion Analyzer tool.",
+				"inLanguage": "en-US",
+				"isPartOf": {
+					"@type": "WebSite",
+					"@id": "https://9takes.com/#website",
+					"name": "9takes",
+					"description": "Personality Insights and Emotional Intelligence",
+					"url": "https://9takes.com/"
+				},
+				"creator": {
+					"@type": "Person",
+					"name": "DJ Wayne",
+					"sameAs": [
+						"https://www.instagram.com/djwayne3/",
+						"https://www.youtube.com/@djwayne3",
+						"https://www.linkedin.com/in/davidtwayne/",
+						"https://twitter.com/djwayne3"
+					]
+				},
+				"author": {
+					"@type": "Person",
+					"name": "DJ Wayne",
+					"sameAs": [
+						"https://www.instagram.com/djwayne3/",
+						"https://www.youtube.com/@djwayne3",
+						"https://www.linkedin.com/in/davidtwayne/",
+						"https://twitter.com/djwayne3"
+					]
+				},
+				"dateModified": {
+					"@type": "Date",
+					"@value": "2024-06-11"
+				},
+				"datePublished": {
+					"@type": "Date",
+					"@value": "2024-02-01"
+				},
+				"headline": "One Minute Emotions Experiment: Analyze and Understand Your Feelings",
+				"mainEntityOfPage": {
+					"@id": "https://9takes.com/blog/experiment",
+					"@type": "WebPage"
+				},
+				"publisher": {
+					"@type": "Organization",
+					"name": "9takes",
+					"sameAs": [
+						"https://www.instagram.com/9takesdotcom/",
+						"https://twitter.com/9takesdotcom"
+					],
+					"logo": {
+						"@type": "ImageObject",
+						"url": "https://9takes.com/brand/darkRubix.png"
+					}
+				}
+			}
+		]
+	}
 	</script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>
@@ -1592,17 +1634,16 @@
 	<!-- <ol>
 	<li> -->
 	<div>
-		<h3 style="    padding: 1rem 0;">Instructions:</h3>
+		<h3>Instructions:</h3>
 		<p>
-			Take one minute and write down all the <span style="text-decoration: underline;"
-				>negative emotions</span
-			> that are one word that you can think of.
+			Take one minute and write down all the <span class="underline">negative emotions</span>
+			that are one word that you can think of.
 		</p>
 		<ul>
 			<li>Time yourself for 1 minute</li>
 			<li>Write all the negative emotions</li>
 			<li>Only write emotions that are one word</li>
-			<li>Only use english</li>
+			<li>Only use English</li>
 		</ul>
 
 		<!-- // anger shame fear panic outrage incensed disgust, fidgety exasperation dread dismay derision debased -->
@@ -1774,6 +1815,10 @@ discredited enmity disgusted exasperation guilt humiliation sus hatred mortified
 impatience put-down indignation remorseful stigmatized irritation sorrowful mad outrage rage
 resentment temper violence -->
 <style lang="scss">
+	.underline {
+		text-decoration: underline;
+	}
+
 	.tweet-div {
 		display: flex;
 		gap: 1rem;
