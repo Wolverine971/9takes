@@ -1509,6 +1509,11 @@
 			root: 'anger',
 			name: 'lust',
 			rootWord: 'lust'
+		},
+		isol: {
+			root: 'shame',
+			name: 'isolation',
+			rootWord: 'isol'
 		}
 	};
 
