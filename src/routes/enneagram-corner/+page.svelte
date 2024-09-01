@@ -177,8 +177,8 @@
 								style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 							>
 								<div class="text-overlay">
-									<h3>{blog.title}</h3>
-									<p>{blog.description}</p>
+									<h3 style="padding: 2rem 0 0rem;">{blog.title}</h3>
+									<p style="margin-top: .3rem;">{blog.description}</p>
 								</div>
 							</div>
 						</a>
