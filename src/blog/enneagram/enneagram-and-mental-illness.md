@@ -120,15 +120,16 @@ Type 1s are susceptible to a range of mental health challenges, including:
 1. Alex, a dedicated teacher, starts fixating on flawlessness in lesson plans. This obsession leads to:
 
 - Spending excessive hours revising materials
-     - Experiencing anxiety attacks before classes
-     - Developing insomnia due to worry about potential mistakes
-     - Eventual burnout and consideration of leaving the profession
+- Experiencing anxiety attacks before classes
+- Developing insomnia due to worry about potential mistakes
+- Eventual burnout and consideration of leaving the profession
 
 2. Maria, a meticulous artist, becomes increasingly inflexible about her work:
-      - Refusing to show "imperfect" pieces, leading to missed opportunities
-      - Developing ritualistic behaviors around her creative process
-      - Experiencing intense anger and shame when receiving constructive criticism
-      - Isolating herself from the art community, exacerbating feelings of loneliness and depression
+
+- Refusing to show "imperfect" pieces, leading to missed opportunities
+- Developing ritualistic behaviors around her creative process
+- Experiencing intense anger and shame when receiving constructive criticism
+- Isolating herself from the art community, exacerbating feelings of loneliness and depression
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -180,15 +181,16 @@ Type 2s are susceptible to a range of mental health challenges, including:
 1. Liam, a healthcare professional, starts emotionally bonding with his patients:
 
 - Initially, he offers more help than necessary, hoping to be appreciated
-     - Resentment grows when patients don't follow his advice
-     - He begins to exert more control, blurring the lines between care and manipulation
-     - His behavior becomes increasingly coercive, leading to emotional turmoil and professional conflicts
+- Resentment grows when patients don't follow his advice
+- He begins to exert more control, blurring the lines between care and manipulation
+- His behavior becomes increasingly coercive, leading to emotional turmoil and professional conflicts
 
 2. Emma, deeply invested in her friendship with Alice, becomes jealous:
-      - She tries to outdo other friends to secure her place as Alice’s "best" friend
-      - Her behavior escalates into obsessing over Alice’s interactions with others
-      - This obsession eventually turns into stalking, as Emma tries to maintain her perceived importance in Alice's life
-      - The relationship deteriorates, leading to isolation and intense emotional distress
+
+- She tries to outdo other friends to secure her place as Alice’s "best" friend
+- Her behavior escalates into obsessing over Alice’s interactions with others
+- This obsession eventually turns into stalking, as Emma tries to maintain her perceived importance in Alice's life
+- The relationship deteriorates, leading to isolation and intense emotional distress
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -240,15 +242,16 @@ Type 3s are susceptible to a range of mental health challenges, including:
 1. Jack, an ambitious executive, becomes consumed by his image of success:
 
 - He enjoys climbing the corporate and social ladder, upgrading his lifestyle
-     - This creates a cycle where he has to work harder to maintain his image and lifestyle
-     - He begins taking shortcuts and playing deceptive bureaucratic games at work
-     - His behavior leads to increasing stress, ethical compromises, and potential burnout
+- This creates a cycle where he has to work harder to maintain his image and lifestyle
+- He begins taking shortcuts and playing deceptive bureaucratic games at work
+- His behavior leads to increasing stress, ethical compromises, and potential burnout
 
 2. Sophia, a high-achieving student, is driven by her desire to get into an Ivy League college:
-      - The stress of maintaining top grades leads her to cheat on tests
-      - This creates a sense of imposter syndrome, yet she justifies it by believing she deserves her success
-      - She becomes increasingly hostile towards anyone who challenges her intellect
-      - Over time, she develops narcissistic traits and unrealistic expectations for her life, leading to social isolation and inner turmoil
+
+- The stress of maintaining top grades leads her to cheat on tests
+- This creates a sense of imposter syndrome, yet she justifies it by believing she deserves her success
+- She becomes increasingly hostile towards anyone who challenges her intellect
+- Over time, she develops narcissistic traits and unrealistic expectations for her life, leading to social isolation and inner turmoil
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -331,15 +334,16 @@ Type 4s are susceptible to a range of mental health challenges, including:
 1. Oliver, feeling disconnected from others, spirals into chronic depression:
 
 - His emotional volatility creates a cycle of strained relationships
-     - He begins to self-sabotage by pushing away those who try to help
-     - This deepens his sense of alienation and reinforces his depressive state
-     - Over time, his depression becomes more severe, leading to a sense of hopelessness and despair
+- He begins to self-sabotage by pushing away those who try to help
+- This deepens his sense of alienation and reinforces his depressive state
+- Over time, his depression becomes more severe, leading to a sense of hopelessness and despair
 
 2. Isabella, grappling with a sense of inadequacy, becomes obsessed with death and morbidity:
-      - She fixates on themes of loss and tragedy, allowing them to dominate her thoughts
-      - Her relationships become unstable as she oscillates between intense attachment and rejection
-      - Acts of self-sabotage emerge, such as deliberately distancing herself from positive influences
-      - Her self-hatred grows, further isolating her from others and deepening her emotional turmoil
+
+- She fixates on themes of loss and tragedy, allowing them to dominate her thoughts
+- Her relationships become unstable as she oscillates between intense attachment and rejection
+- Acts of self-sabotage emerge, such as deliberately distancing herself from positive influences
+- Her self-hatred grows, further isolating her from others and deepening her emotional turmoil
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -391,15 +395,16 @@ Type 5s are susceptible to a range of mental health challenges, including:
 1. Ethan, a researcher, increasingly isolates himself, neglecting his physical health:
 
 - He becomes consumed by his intellectual pursuits, ignoring basic self-care
-     - His eccentricity grows, and he begins to refuse help from others
-     - As isolation deepens, his perceptions become distorted, leading to suicidal thoughts
-     - His mental health deteriorates rapidly, culminating in a severe crisis
+- His eccentricity grows, and he begins to refuse help from others
+- As isolation deepens, his perceptions become distorted, leading to suicidal thoughts
+- His mental health deteriorates rapidly, culminating in a severe crisis
 
 2. Ava, an introverted student, experiences severe insomnia and nightmares:
-      - Her growing isolation leads to a detachment from reality and intense fear
-      - She becomes increasingly hostile toward anyone offering help
-      - Her insomnia and nightmares exacerbate her sense of disconnection from reality
-      - The combination of sleep deprivation and isolation leads to potential psychotic breaks
+
+- Her growing isolation leads to a detachment from reality and intense fear
+- She becomes increasingly hostile toward anyone offering help
+- Her insomnia and nightmares exacerbate her sense of disconnection from reality
+- The combination of sleep deprivation and isolation leads to potential psychotic breaks
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -455,15 +460,16 @@ Type 6s are susceptible to a range of mental health challenges, including:
 1. Noah, feeling insecure in his job, experiences intense anxiety and panic attacks:
 
 - His fear of losing support from colleagues and superiors exacerbates his anxiety
-     - He begins to rely heavily on others for reassurance, creating a dependency
-     - As his anxiety grows, he becomes more defiant, leading to conflicts at work
-     - This cycle of anxiety and defiance deepens his feelings of insecurity and leads to depressive symptoms
+- He begins to rely heavily on others for reassurance, creating a dependency
+- As his anxiety grows, he becomes more defiant, leading to conflicts at work
+- This cycle of anxiety and defiance deepens his feelings of insecurity and leads to depressive symptoms
 
 2. Mia, plagued by feelings of inferiority, becomes extraordinarily suspicious and paranoid:
-      - She starts to distrust those around her, believing they may betray or harm her
-      - Her attachment to unhealthy relationships exacerbates her mental health challenges
-      - Impulsive acts of defiance and aggression further isolate her from others
-      - Her paranoia and emotional instability lead to a breakdown in both personal and professional relationships
+
+- She starts to distrust those around her, believing they may betray or harm her
+- Her attachment to unhealthy relationships exacerbates her mental health challenges
+- Impulsive acts of defiance and aggression further isolate her from others
+- Her paranoia and emotional instability lead to a breakdown in both personal and professional relationships
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -514,15 +520,16 @@ Type 7s are susceptible to a range of mental health challenges, including:
 1. Lucas, seeking to escape anxiety, falls into severe addictions:
 
 - His impulsive nature leads him to experiment with substances as a means of relief
-     - Over time, this experimentation turns into severe addiction, with periods of uncontrolled behavior
-     - His mood swings become more extreme, leading to panic attacks and severe mental health challenges
-     - Lucas's life becomes a cycle of highs and lows, with his addiction driving his behavior
+- Over time, this experimentation turns into severe addiction, with periods of uncontrolled behavior
+- His mood swings become more extreme, leading to panic attacks and severe mental health challenges
+- Lucas's life becomes a cycle of highs and lows, with his addiction driving his behavior
 
 2. Charlotte, a vivacious socialite, experiences wild mood swings:
-      - To avoid anxiety, she engages in compulsive activities like shopping, partying, and socializing
-      - Her mood swings become more pronounced, oscillating between manic highs and depressive lows
-      - As her compulsive behaviors escalate, she develops debilitating addictions
-      - Charlotte's attempts to maintain her high-energy lifestyle result in manic-depressive behaviors and significant personal and social consequences
+
+- To avoid anxiety, she engages in compulsive activities like shopping, partying, and socializing
+- Her mood swings become more pronounced, oscillating between manic highs and depressive lows
+- As her compulsive behaviors escalate, she develops debilitating addictions
+- Charlotte's attempts to maintain her high-energy lifestyle result in manic-depressive behaviors and significant personal and social consequences
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -573,15 +580,16 @@ Type 8s are susceptible to a range of mental health challenges, including:
 1. James, feeling betrayed, becomes increasingly isolated and bitter:
 
 - His sense of betrayal leads him to withdraw from others, fostering bitterness
-     - He begins to experience episodes of intense rage and aggression
-     - These violent outbursts reflect deepening mental health issues, potentially leading to antisocial behavior
-     - James's growing isolation and distrust exacerbate his mental health decline, resulting in a vicious cycle of anger and alienation
+- He begins to experience episodes of intense rage and aggression
+- These violent outbursts reflect deepening mental health issues, potentially leading to antisocial behavior
+- James's growing isolation and distrust exacerbate his mental health decline, resulting in a vicious cycle of anger and alienation
 
 2. Amelia, perceiving herself as an "outlaw," plots revenge against perceived enemies:
-      - Her lack of empathy leads her to justify harmful actions towards others
-      - She begins to engage in criminal or violent behavior, seeing it as a way to assert power
-      - Her involvement in these activities reflects a descent into sadistic and antisocial tendencies
-      - Amelia's actions isolate her further, deepening her sense of detachment from society and increasing her risk of severe mental health challenges
+
+- Her lack of empathy leads her to justify harmful actions towards others
+- She begins to engage in criminal or violent behavior, seeing it as a way to assert power
+- Her involvement in these activities reflects a descent into sadistic and antisocial tendencies
+- Amelia's actions isolate her further, deepening her sense of detachment from society and increasing her risk of severe mental health challenges
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
@@ -632,15 +640,16 @@ Type 9s are susceptible to a range of mental health challenges, including:
 1. William, avoiding personal problems, falls into chronic depression and emotional flatness:
 
 - His avoidance of conflict and personal issues leads to a persistent state of emotional numbness
-     - He begins to rely heavily on others, becoming increasingly dependent
-     - His refusal to seek help or address his problems results in a deepening disconnection from his own emotions and reality
-     - Over time, this disconnection exacerbates his mental health issues, leading to severe depression and a profound sense of alienation
+- He begins to rely heavily on others, becoming increasingly dependent
+- His refusal to seek help or address his problems results in a deepening disconnection from his own emotions and reality
+- Over time, this disconnection exacerbates his mental health issues, leading to severe depression and a profound sense of alienation
 
 2. Harper, feeling inadequate, experiences extreme dissociation:
-      - She becomes increasingly obstinate in her refusal to address personal or emotional issues
-      - This leads to episodes of severe dissociation, where she feels detached from her own body and reality
-      - Her confusion and disconnection from her surroundings worsen as she continues to avoid confronting her problems
-      - Harper's mental health deteriorates as her dissociative episodes become more frequent and intense, leading to a profound sense of disorientation and helplessness
+
+- She becomes increasingly obstinate in her refusal to address personal or emotional issues
+- This leads to episodes of severe dissociation, where she feels detached from her own body and reality
+- Her confusion and disconnection from her surroundings worsen as she continues to avoid confronting her problems
+- Harper's mental health deteriorates as her dissociative episodes become more frequent and intense, leading to a profound sense of disorientation and helplessness
 
 <h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
 
