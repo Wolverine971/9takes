@@ -72,6 +72,7 @@
 		display: flex;
 		gap: 1rem;
 		margin-bottom: 1rem;
+		align-items: center;
 	}
 
 	.search-container {
@@ -82,6 +83,7 @@
 		padding: 0.75rem 1.5rem;
 		border: none;
 		border-radius: var(--base-border-radius);
+		border: 1px solid var(--primary);
 		font-size: 1rem;
 		font-weight: bold;
 		cursor: pointer;

@@ -240,7 +240,7 @@
 <style lang="scss">
 	// --info: #f0f0f0
 
-	$text-color: var(primary);
+	$text-color: var(--primary);
 	$background-color: darken(#f0f0f0, 5%);
 	$border-color: var(--secondary);
 	$hover-color: darken(#f0f0f0, 10%);
@@ -275,7 +275,7 @@
 
 		&__input {
 			width: 100%;
-			padding: 0.625rem 1rem;
+			padding: 0.75rem 1rem;
 			font-size: 1rem;
 			line-height: 1.5;
 			color: $text-color;
