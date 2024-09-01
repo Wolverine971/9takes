@@ -42,13 +42,6 @@
 			.flat()
 			.reduce((sum, q) => sum + q?.comment_count, 0);
 	}
-
-	// if (categories) {
-	// 	totalQuestions = Object.values(categories).flat().length;
-	// 	totalAnswers = Object.values(categories)
-	// 		.flat()
-	// 		.reduce((sum, q) => sum + q?.answer_count, 0);
-	// }
 </script>
 
 <svelte:head>
@@ -80,21 +73,28 @@
 </svelte:head>
 
 <div class="background-area-box-tint" in:fade={{ duration: 300 }}>
-	<h1 in:fly={{ y: -20, duration: 300, delay: 150 }} style="text-align: center; margin-top: 1rem;">
-		Ask Questions Anonymously & Get Answers
-	</h1>
+	{#if data?.session?.user?.id}
+		<h1 in:fly={{ y: -20, duration: 300, delay: 150 }} style="margin-top: 1rem;">Question List</h1>
+	{:else}
+		<h1
+			in:fly={{ y: -20, duration: 300, delay: 150 }}
+			style="text-align: center; margin-top: 1rem;"
+		>
+			Ask Questions Anonymously & Get Answers
+		</h1>
 
-	<div class="intro" in:fly={{ y: 20, duration: 300, delay: 300 }}>
-		<p>
-			Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
-			diverse perspectives. Our unique platform allows you to explore life's questions through the
-			lens of personality types, ensuring a rich and varied discussion.
-		</p>
-		<div class="stats">
-			<p><strong>{totalQuestions}</strong> questions asked</p>
-			<p><strong>{totalAnswers}</strong> answers shared</p>
+		<div class="intro" in:fly={{ y: 20, duration: 300, delay: 300 }}>
+			<p>
+				Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
+				diverse perspectives. Our unique platform allows you to explore life's questions through the
+				lens of personality types, ensuring a rich and varied discussion.
+			</p>
+			<div class="stats">
+				<p><strong>{totalQuestions}</strong> questions asked</p>
+				<p><strong>{totalAnswers}</strong> answers shared</p>
+			</div>
 		</div>
-	</div>
+	{/if}
 
 	<div in:fly={{ y: 20, duration: 300, delay: 450 }}>
 		<SearchQuestion
@@ -137,18 +137,20 @@
 		{/each}
 	</div>
 
-	<div class="how-it-works" in:fly={{ y: 20, duration: 300, delay: 900 }}>
-		<h2>How It Works</h2>
-		<ol>
-			<li>Anonymously answer questions to see other answers</li>
-			<li><strong>Sign up to ask your questions anonymously</strong></li>
-			<li>Receive answers from diverse perspectives</li>
-			<li>Sort comments by personality type and learn yours</li>
-		</ol>
-		<button class="cta-button" on:click={() => goToCreateQuestionPage('')}
-			>Ask Your Question Now</button
-		>
-	</div>
+	{#if !data?.session?.user?.id}
+		<div class="how-it-works" in:fly={{ y: 20, duration: 300, delay: 900 }}>
+			<h2>How It Works</h2>
+			<ol>
+				<li>Anonymously answer questions to see other answers</li>
+				<li><strong>Sign up to ask your questions anonymously</strong></li>
+				<li>Receive answers from diverse perspectives</li>
+				<li>Sort comments by personality type and learn yours</li>
+			</ol>
+			<button class="cta-button" on:click={() => goToCreateQuestionPage('')}
+				>Ask Your Question Now</button
+			>
+		</div>
+	{/if}
 
 	<!-- <div class="testimonials" in:fly={{ y: 20, duration: 300, delay: 1050 }}>
 		<h2>What Our Users Say</h2>
