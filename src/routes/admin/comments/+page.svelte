@@ -109,7 +109,7 @@
 							<div class="comment-border">
 								<p>{blogComment?.comment}</p>
 								<div class="column" style="align-items: end">
-									<a href="/blog/{blogComment.blog_type}/{blogComment?.blog_link}"
+									<a href="/{blogComment.blog_type}/{blogComment?.blog_link}"
 										>{blogComment?.blog_link.replace('-', ' ')}</a
 									>
 									<p>{convertDateToReadable(blogComment.created_at)}</p>
