@@ -11,6 +11,8 @@
 	});
 	// $: if ($afterNavigate) displayRoute();
 
+	// breadcrumbs jsonld
+
 	afterNavigate(() => {
 		displayRoute();
 	});
@@ -50,7 +52,24 @@
 		const newPath = steps.slice(0, index).join('/');
 		return '/' + newPath;
 	};
+
+	$: jsonLd = {
+		'@context': 'https://schema.org',
+		'@type': 'BreadcrumbList',
+		itemListElement: [
+			...navSteps.map((step, index) => ({
+				'@type': 'ListItem',
+				position: index + 1,
+				name: step.name,
+				item: `https://9takes.com${step.url}`
+			}))
+		]
+	};
 </script>
+
+<svelte:head>
+	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+</svelte:head>
 
 {#if navSteps.length}
 	<div style="max-width: 64rem; margin: auto;">
