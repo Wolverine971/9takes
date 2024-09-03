@@ -85,7 +85,7 @@ These lesser-known facets of Depp's life highlight the Type 4's need for diverse
 
 ## The Court of Public Opinion: Depp's Legal Battles
 
-The highly publicized court case with ex-wife [Amber Heard](personality-analysis/Amber-Heard) brought Depp's personal life into the spotlight in an unprecedented way. While the details of the case are complex, it's worth noting how Depp's response aligns with Type 4 characteristics.
+The highly publicized court case with ex-wife [Amber Heard](/personality-analysis/Amber-Heard) brought Depp's personal life into the spotlight in an unprecedented way. While the details of the case are complex, it's worth noting how Depp's response aligns with Type 4 characteristics.
 
 Throughout the ordeal, Depp maintained a stance of emotional honesty, even when it didn't paint him in the best light. This willingness to be vulnerable, even in the face of public scrutiny, is very much in line with the Type 4 personality.
 
