@@ -24,7 +24,7 @@
 
 <hr style="margin: 5rem;" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'topical'} />
+<SuggestionsBlog posts={data?.posts} blogType={'Topical'} slugPrefix={'topical'} />
 
 <div class="join">
 	{#if !data?.session?.user}

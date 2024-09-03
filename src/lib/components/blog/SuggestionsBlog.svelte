@@ -1,6 +1,7 @@
 <script lang="ts">
 	export let posts: App.BlogPost[];
 	export let blogType: string;
+	export let slugPrefix: string;
 	let innerWidth: number;
 
 	$: visiblePosts = posts.slice(0, innerWidth > 920 ? 10 : 6);
@@ -14,7 +15,7 @@
 		{#each visiblePosts as blog (blog.slug)}
 			<li class="grid-item">
 				<a
-					href="/blog/{blogType}/{blog.slug}"
+					href="/{slugPrefix}/{blog.slug}"
 					class="blog-link"
 					style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 					data-sveltekit-preload-data="tap"

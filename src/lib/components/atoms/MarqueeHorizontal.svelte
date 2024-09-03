@@ -24,20 +24,14 @@
 		name: '9takes Enneagram Types Marquee',
 		description: 'A scrolling marquee displaying Enneagram personality types and related content',
 		cssSelector: '.marquee-container',
-		hasPart: [
-			{
-				'@type': 'ItemList',
-				itemListElement: displayList.map((item, index) => ({
-					'@type': 'ListItem',
-					position: index + 1,
-					item: {
-						'@type': 'Thing',
-						name: item.name,
-						url: `https://9takes.com${item.link}`
-					}
-				}))
-			}
-		]
+		hasPart: displayList.map((item, index) => {
+			return {
+				'@type': 'WebPageElement',
+				name: item.name,
+				url: `https://9takes.com${item.link}`,
+				description: `A blog on Enneagram types ${item.name}`
+			};
+		})
 	};
 </script>
 

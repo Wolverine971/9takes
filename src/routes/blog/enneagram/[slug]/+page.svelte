@@ -25,7 +25,7 @@
 
 <hr style="margin: 5rem;" />
 
-<SuggestionsBlog posts={data?.posts} blogType={'enneagram'} />
+<SuggestionsBlog posts={data?.posts} blogType={'Enneagram'} slugPrefix={'enneagram-corner'} />
 
 {#if !data?.session?.user}
 	<div class="join">
