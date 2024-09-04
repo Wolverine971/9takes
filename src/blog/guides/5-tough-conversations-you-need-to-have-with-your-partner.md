@@ -177,7 +177,101 @@ When you learn to dive deep together - bringing your whole, imperfect selves and
 <svelte:head>
 
 <script type="application/ld+json">
-
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://9takes.com/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner"
+      },
+      "headline": "5 Tough Conversations to Have With Your Partner or YNGMI",
+      "description": "Open Communication, avoiding pitfalls and understanding each other's emotions are baseline requirements for any relationship",
+      "image": {
+        "@type": "ImageObject",
+        "height": 900,
+        "url": "https://9takes.com/blogs/two-greek-statues-having-a-serious-conversation.webp",
+        "width": 900
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "author": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": [
+          "https://www.instagram.com/djwayne3/",
+          "https://www.youtube.com/@djwayne3",
+          "https://www.linkedin.com/in/davidtwayne/",
+          "https://twitter.com/djwayne3"
+        ]
+      },
+      "mentions": {
+        "@type": "Thing",
+        "name": "Enneagram of Personality",
+        "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types.",
+        "SameAs": [
+          "https://www.wikidata.org/wiki/Q273047",
+          "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "sameAs": [
+          "https://www.instagram.com/9takesdotcom/",
+          "https://twitter.com/9takesdotcom"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://9takes.com/brand/darkRubix.png"
+        },
+        "name": "9takes"
+      },
+      "datePublished": "2024-05-08",
+      "dateModified": "2024-05-21"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to Have 5 Tough Conversations With Your Partner",
+      "description": "Guide to having essential conversations for a strong relationship",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Understand Your Partner's Core Emotions",
+          "text": "Discuss childhood experiences and identify core emotional sensitivities based on the Enneagram personality system."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Address the Four Horsemen",
+          "text": "Identify and discuss the Four Horsemen of relationship breakdown: criticism, contempt, defensiveness, and stonewalling. Learn and apply their antidotes."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Establish a Shared Vision",
+          "text": "Discuss individual dreams and create a merged vision for your future together."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Address Conflict Styles",
+          "text": "Identify your conflict styles based on the Enneagram triads and develop strategies to navigate disagreements effectively."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Nurture Intimacy and Connection",
+          "text": "Implement the 'Magic Six Hours' concept from the Gottman Institute and understand each other's intimacy needs based on Enneagram types."
+        }
+      ]
+    }
+  ]
+}
 </script>
 
 </svelte:head>
