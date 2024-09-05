@@ -62,21 +62,26 @@ He has authored several books, including "The Art of the Deal" (19Tim Robinson7)
 
 > **Disclaimer** This analysis of Donald Trump's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Donald Trump.
 
-<p class="firstLetter">Love him or hate him, there's no denying that Donald Trump is a force to be reckoned with.</p>
+<p class="firstLetter">"You're fired!"</p>
 
 <!-- # The Unapologetic Force of Nature: Donald Trump's Enneagram Type 8 Personality -->
+<!-- # Donald Trump: The Challenger's Playbook - An Enneagram Type 8 Analysis -->
 
-From real estate mogul to reality TV star to President of the United States, Trump has always commanded attention. But what makes him tick? What drives the man behind the famous hair and even more famous tweets? Let's dive into the psyche of The Donald and explore how his Enneagram Type 8 personality shapes his world.
+The phrase that catapulted Donald Trump from real estate mogul to reality TV star captures the essence of his bold, direct personality.
 
-## What is Donald Trump's Personality Type?
+But what lies beneath this brash exterior? Get ready to peek behind the golden curtain and explore the inner workings of one of America's most polarizing figures through the lens of the Enneagram.
 
-### Trump: The Quintessential Challenger
+## What is Donald Trump's Enneagram Type?
 
-Donald Trump embodies the Enneagram Type 8, known as "The Challenger." Type 8s are strong-willed, decisive, and protective individuals who exude confidence and seek control over their environment. They're natural-born leaders who aren't afraid to ruffle a few feathers to get things done.
+### Donald Trump: The Type 8 Challenger
 
-Think of Type 8s as the heavyweight champions of the personality world. They enter every room ready to take on all comers, whether that's in business, politics, or a heated Twitter exchange. For Trump, this manifests in his infamous "You're fired!" catchphrase and his take-no-prisoners approach to, well, everything.
+Donald Trump embodies the archetype of the [Enneagram Type 8](/enneagram-corner/enneagram-type-8), known as "The Challenger." Type 8s are often described as powerful, dominating, self-confident, and confrontational. Sound familiar?
 
-## The Making of a Mogul: Trump's Upbringing
+Trump's larger-than-life persona perfectly aligns with these traits. His need to assert control is evident in his business dealings, his political career, and even his personal relationships. As he once famously said, "I like thinking big. If you're going to be thinking anything, you might as well think big."
+
+But there's more to Trump than meets the eye. Let's dive deeper into the makings of this quintessential Type 8.
+
+## The Making of a Challenger: Trump's Upbringing
 
 Donald Trump wasn't born with a silver spoon in his mouth – it was more like a golden shovel. Growing up in Queens, New York, young Donald was surrounded by the hustle and ambition of his father, Fred Trump, a successful real estate developer.
 
@@ -84,69 +89,108 @@ Trump's childhood was marked by his father's high expectations and a competitive
 
 > "My father would always tell me, 'You are a king,' and that I should keep that in mind. But he also taught me that kings have to work harder than anyone else to prove themselves worthy of the throne."
 
-This early conditioning likely contributed to Trump's Type 8 tendencies – the need to appear strong, invulnerable, and in control at all times.
+This environment likely fostered Trump's core Type 8 fear: the fear of being controlled or harmed by others. To protect himself, Trump learned to project strength and invulnerability. As he puts it, "In this life, you have to be a little bit crazy."
 
-## The Art of the Deal: Trump's Rise to Fame
+This attitude manifested early on in his entrepreneurial endeavors. At age 6, Trump started collecting and selling soda bottles for profit with his brother. This childhood experience of having to be self-sufficient and assertive in business dealings shaped Trump's worldview. It's a classic Type 8 response: if you can't be vulnerable, be powerful.
 
-Trump's big break came when he took over his father's real estate company and set his sights on Manhattan. With the bravado typical of Type 8s, he didn't just want to succeed – he wanted to dominate.
+<!-- ## Core Personality Traits: The Trump Blueprint
 
-His acquisition and renovation of the Grand Hyatt Hotel put him on the map, but it was the construction of Trump Tower that truly cemented his status as a New York icon. As Trump himself put it:
+Trump's personality is a fascinating study in Type 8 dynamics. In times of security, Type 8s can resemble Type 2, "The Helper." We see this in Trump's loyalty to friends and family, and his desire to "make America great again."
 
-> "I wasn't satisfied just to earn a good living. I was looking to make a statement."
+However, when stressed, Type 8s can retreat to Type 5 behaviors, becoming detached and distant. This might explain Trump's sometimes aloof responses to criticism or his tendency to double down on controversial statements.
 
-This drive to make an impact is classic Type 8 behavior. They're not content with just participating – they want to leave their mark on the world, preferably in 24-karat gold letters.
+Trump's behavior during the COVID-19 pandemic illustrated both these tendencies. He showed Type 2 traits by pushing for rapid vaccine development, but also displayed Type 5 detachment in his initial downplaying of the virus's severity. -->
 
-## The Trump Personality: Quirks, Habits, and Mindset
+## The Art of the Deal: Trump's Problem-Solving Approach
 
-### The Art of the Insult
+Trump's approach to problem-solving is quintessential Type 8. In his book "The Art of the Deal," he reveals insights that go beyond simple negotiation tactics. For instance, he writes, "I never get too attached to one deal or one approach...I keep a lot of balls in the air, because most deals fall out, no matter how promising they seem at first."
 
-Trump's penchant for colorful nicknames and scathing put-downs is well-documented. From "Crooked Hillary" to "Sleepy Joe Biden," he's never shy about taking jabs at his opponents. This combative style is typical of Type 8s, who often use aggression as a form of self-protection.
+This flexibility and willingness to pivot is a hallmark of Type 8 problem-solving. Former Secretary of State Rex Tillerson once said of negotiating with Trump, "He would often say, 'Here's what I want to do and here's how I want to do it.' And I would have to say to him, 'Mr. President, I understand what you want to do, but you can't do it that way. It violates the law.'"
 
-### The Early Bird Gets the Worm (and Tweets)
+Trump's resilience in the face of setbacks is another Type 8 trait. After facing several bankruptcies in the 1990s, Trump managed to rebuild his brand and business empire. He famously said, "I've used my bankruptcy laws to my own advantage. I've made great deals before and after."
 
-Trump is known for his early morning Twitter storms, often firing off tweets before the sun rises. This habit speaks to the Type 8's need for control and their desire to set the narrative. As Trump once tweeted:
+Scott Adams, in his book "Win Bigly," describes Trump as a "master persuader," highlighting the Type 8's ability to influence and control their environment.
+
+## "I Alone Can Fix It": Trump's Communication Style
+
+Trump's communication style is unmistakably Type 8: direct, assertive, and often controversial. His use of Twitter (now X) as a communication tool exemplifies this. Trump is known for his early morning Twitter storms, often firing off tweets before the sun rises. This habit speaks to the Type 8's need for control and their desire to set the narrative. As Trump once tweeted:
 
 > "My use of social media is not Presidential - it's MODERN DAY PRESIDENTIAL."
 
-### The Power of Positive Thinking
+Remember his tweet about North Korea? "North Korean Leader Kim Jong Un just stated that the 'Nuclear Button is on his desk at all times.' Will someone from his depleted and food starved regime please inform him that I too have a Nuclear Button, but it is a much bigger & more powerful one than his, and my Button works!"
 
-Despite his often confrontational demeanor, Trump maintains an unwavering belief in his ability to succeed. This optimism is a hallmark of Type 8s, who view challenges as opportunities to prove their strength. As Trump famously said:
+This brash style alienates some but attracts others who appreciate his straightforwardness. Trump's quick wit, honed through years of high-stakes negotiations, often catches opponents off guard. Remember his exchange with Rosie O'Donnell? When she criticized his business practices, he fired back, calling her "a real loser" and "a woman out of control."
 
-> "As long as you're going to be thinking anyway, think big."
+Love it or hate it, Trump's communication style is undeniably effective in commanding attention and setting the agenda.
 
-## Making America Great Again: Trump's Major Accomplishments
+## The Trump Brand: Values and Beliefs
 
-### The Economy: Trump's Trump Card
+Trump's core values align closely with Type 8 traits: strength, loyalty, and control. He frequently emphasizes the importance of strength, saying things like, "When you open your heart to patriotism, there is no room for prejudice."
 
-One of Trump's proudest achievements was the state of the economy during his presidency. Under his administration, unemployment rates hit record lows, and the stock market soared. This focus on tangible results is typical of Type 8s, who value concrete achievements over abstract ideas.
+His fear of betrayal and high value on loyalty are typical of Type 8s. He once said, "I value loyalty above everything else—more than brains, more than drive and more than energy."
 
-### Middle East Peace Deals: The Art of the Impossible
+## Relationships and Loyalty: Trump's Inner Circle
 
-Trump's administration brokered several normalization agreements between Israel and Arab states, a feat many thought impossible. This willingness to tackle seemingly insurmountable challenges is classic Type 8 behavior – they thrive on proving doubters wrong.
+Trump's approach to relationships is characteristically Type 8. He forms strong bonds with those he trusts but can be quick to cut ties with perceived opponents. Longtime associate Roger Stone once said, "Loyalty is a two-way street with Donald."
 
-## Controversy and Criticism: The Trump Way
+Family plays a central role in Trump's life and business. His children have been key players in both his business empire and his political career. As he puts it, "I have a lot of good relationships. I'm involved in them every minute of every day."
 
-Trump's presidency was marked by near-constant controversy, from the Mueller investigation to two impeachment trials. Critics accused him of divisiveness and erratic behavior, while supporters praised his willingness to challenge the status quo.
+## Emotional Intelligence: The Thin Line Between Lashing Out and Being Calculated
 
-During these tumultuous times, Trump's inner dialogue might have sounded something like this:
+While Trump is often perceived as emotionally volatile, there's more nuance to his emotional intelligence. Those close to him describe his ability to read a room and understand people's motivations. Kellyanne Conway once noted, "He has a perfect pitch when it comes to the voter."
+
+However, Trump's struggle to control his emotional responses, particularly when feeling attacked, is evident. His tendency to go on the offensive when criticized is a classic Type 8 defense mechanism.
+
+There's a fine line between Trump's calculated moves and his reactive outbursts. Sometimes, what seems like an emotional tirade is actually a strategic diversion. Other times, it's simply an 8's instinctive response to a perceived threat. During tumultuous times, Trump's inner dialogue might have sounded something like this:
 
 > "They're all against me, but I'll show them. I'm stronger than they think, and I won't back down. I'll fight harder and prove them all wrong."
 
-This siege mentality is common among Type 8s, who often view the world in terms of allies and enemies. While other Type 8s might have sought to build bridges, Trump seemed to relish the conflict, viewing it as a testament to his strength and resilience.
+## Adaptability and Resilience: Weathering the Storms
 
-## Trump's Legacy and Future Ambitions
+Trump's response to setbacks reveals the resilience typical of Type 8s. He rarely apologizes, instead choosing to double down or redirect. His coining of the term "fake news" is a prime example of this strategy.
 
-Since leaving office, Trump has maintained a high profile, hinting at another presidential run in 2024. This refusal to fade into the background is quintessential Type 8 behavior – they're always looking for the next mountain to conquer.
+"I don't like to analyze myself because I might not like what I see," Trump once said, illustrating the Type 8's resistance to introspection and vulnerability.
 
-Trump's relationship with the Republican party remains complex. While some, like Dana White of the UFC, remain staunch supporters, others have distanced themselves. Trump's influence on the party, however, is undeniable.
+## The Trump Leadership Style: Command and Conquer
 
-As for his critics, including former rivals like Barack Obama and Hillary Clinton, Trump shows no signs of backing down. In true Type 8 fashion, he seems to thrive on the opposition, using it as fuel for his next moves.
+Trump's leadership style is unmistakably Type 8: commanding, decisive, and often unconventional. Despite his reputation for being headstrong, those who've worked closely with him describe a leader who's open to input.
 
-## Conclusion: Understanding the Trump Phenomenon
+Ivanka Trump once shared, "My father has always said, 'If you're going to be thinking anyway, you might as well think big.' But he's also always stressed the importance of getting the perspective of people on the ground."
 
-Love him or loathe him, Donald Trump is a fascinating study in the power of personality. His Type 8 traits – the confidence, the combativeness, the unyielding drive – have shaped not just his career, but American politics as a whole.
+This openness to different viewpoints, combined with a decisive nature, is characteristic of healthy Type 8 leadership. For instance, during his presidency, Trump initially encouraged chants of "Lock her up!" regarding Hillary Clinton. However, after winning the election, he chose not to pursue legal action against his former rival, demonstrating a capacity for strategic flexibility.
 
-So, next time you see Trump on TV or read one of his tweets, ask yourself: What would it be like to see the world through his eyes? How might understanding his personality type help us bridge the divides in our society? After all, isn't curiosity about others the first step towards real connection?
+## Cultural Influences: The New York Real Estate Tycoon
+
+Trump's personality was undoubtedly shaped by the high-stakes world of New York real estate. The competitive, fast-paced environment of 1980s Manhattan reinforced his Type 8 tendencies toward assertiveness and risk-taking.
+
+His mentor, Roy Cohn, famous for his aggressive legal tactics, likely influenced Trump's confrontational style. As Trump once said, "Roy was brutal, but he was a very loyal guy."
+
+Trump's big break came when he took over his father's real estate company and set his sights on Manhattan. With the bravado typical of Type 8s, he didn't just want to succeed – he wanted to dominate. His acquisition and renovation of the Grand Hyatt Hotel put him on the map, but it was the construction of Trump Tower that truly cemented his status as a New York icon. As Trump himself put it:
+
+> "I wasn't satisfied just to earn a good living. I was looking to make a statement."
+
+## Beyond the Boardroom: Unexpected Quick Facts of Trump
+
+- Wrestling enthusiast: Trump has been involved with WWE, even appearing in wrestling events.
+- UFC fan: Trump has a friendship with UFC President Dana White and has attended several UFC events.
+- Teetotaler: He abstains from alcohol, influenced by his brother's struggle with alcoholism.
+- Golf aficionado: He's played rounds with celebrities and world leaders alike.
+- Former athlete: In high school, Trump was captain of the baseball team and scouted by pro teams.
+- Philanthropist: In the 1980s, Trump completed the renovation of Central Park's Wollman Rink under budget and ahead of schedule.
+- Compassionate gesture: He once provided his private jet to transport a critically ill child for medical treatment.
+
+## The Legacy of a Challenger
+
+Trump's long-term aspirations have evolved over time, but his core motivations remain rooted in Type 8 characteristics. Initially, he stated, "I'm running for office in a country that's essentially bankrupt, and it needs a successful businessman."
+
+While his vision has adapted to political realities, his drive to make an impact and leave a lasting legacy remains constant. As he looks to the future, Trump continues to embody the Type 8's desire to shape the world according to their vision.
+
+## Conclusion
+
+Donald Trump, love him or loathe him, is a fascinating case study of the Enneagram Type 8 personality. His journey from real estate mogul to reality TV star to President of the United States showcases both the strengths and challenges of this personality type.
+
+<!-- better conclusion -->
+As we reflect on Trump's impact, it raises an intriguing question: In times of crisis or change, do we inherently gravitate towards Type 8 personalities in leadership roles? And if so, what does this say about our collective psyche and our societal needs?
 
 <svelte:head>
 
