@@ -206,6 +206,11 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 						}
 					}
 				}
+				if (chatResp.seo_keywords) {
+					await supabase
+						.from('question_keywords')
+						.insert({ keywords: chatResp.seo_keywords, question_id: questionId });
+				}
 			});
 
 		return;
@@ -228,11 +233,12 @@ For example: [
  Only tag from these predefined tags:
  `;
 
-const classifyOneQuestionPrompt = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 3 tasks and return a formatted json response. 
+const classifyOneQuestionPrompt = `You are an Enneagram expert and can easily get inside the mindset of different personality types. You are going to be given a question or a statement. Your job is to do 4 tasks and return a formatted json response. 
 1st, use the Enneagram system of personality to respond to the question or statement in each of the voices of the 9 different Enneagram types. You should consider the premise of the question and how each enneagram type would approach and answer the question.
 Your response should be conversational and should go into detail depending on how the Enneagram type would likely respond.
 2nd, classify the question or statement and tag it with the applicable predefined tags. A question or statement can have more than one tag. Return the results in json form with the tags in an array of strings.
 3rd, format the question and add punctuation.
+4th, create between 3-5 SEO keywords or phrases that would be relevant to the question or statement.
  
  Format the Response in VALID JSON like the following example:
  [
@@ -249,6 +255,7 @@ Your response should be conversational and should go into detail depending on ho
 		  ...
 		},
 	  ],
+	  seo_keywords: ["date ideas", "romantic date ideas", "fun date ideas"]
 	},
   ]
 

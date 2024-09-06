@@ -89,3 +89,36 @@ Enneagram and Life Purpose.
 We are looking for Enneagram type 1, 2, 3, 5, 6, 7, 8, 9
 
 How each Enneagram type dances
+
+## keywords
+
+Personality-Related Keywords
+"How to understand my Enneagram type"
+"Differences between MBTI and Enneagram"
+"Best personality test for self-awareness"
+"How personality types affect relationships"
+Self-Discovery Keywords
+"Ways to improve self-awareness through personality tests"
+"Benefits of knowing your personality type"
+"How to use personality insights for personal growth"
+"Understanding cognitive functions in daily life"
+Relationship-Focused Keywords
+"Compatibility between Enneagram types in relationships"
+"How to communicate better based on personality type"
+"Resolving conflicts with different personality types"
+"Building stronger teams using personality insights"
+Career-Related Keywords
+"Choosing a career path based on personality type"
+"How to use Enneagram in professional development"
+"Personality traits of successful entrepreneurs"
+"Improving workplace dynamics with personality typing"
+Specific Personality Type Keywords
+"Characteristics of Enneagram Type 4 wing 5"
+"INFJ strengths and weaknesses in relationships"
+"How to recognize an Enneagram Type 8 at work"
+"ENFP personal growth strategies"
+Content-Specific Keywords
+"In-depth personality type analysis examples"
+"Personality quiz with detailed explanations"
+"Expert insights on Enneagram and MBTI"
+"Real-life applications of personality theory"

@@ -45,7 +45,8 @@ pic: 'female-greek-statues-of-different-professions'
         <li><a href="#conclusion">Conclusion</a></li>
     </ul>
 </details>
-
+<!-- what is a good question to ask yourself when choosing a career path -->
+<!-- what question to ask in an interview -->
 <p class="firstLetter">Follow your heart.</p>
 
 Don't follow your heart.
@@ -73,7 +74,7 @@ For Type 1s, careers that offer a sense of order, integrity, and purpose are hig
 - Architect: Planning and designing sustainable buildings can fulfill their need for order and improvement.
 - Editor: Perfecting written work appeals to their keen eye for detail and desire for perfection.
 
-<a href="/enneagram-corner/enneagram-type-1">More on type 1</a>
+<a href="/enneagram-corner/enneagram-type-1">More on Type 1</a>
 
 </section>
   <section class="section-content">
@@ -89,7 +90,7 @@ Type 2s are naturally drawn to careers that allow them to support and care for o
 - Human Resources Manager: Supporting employee well-being and resolving conflicts aligns with their interpersonal skills.
 - Kindergarten Teacher: Fostering young children’s growth and development caters to their caring and supportive qualities.
 
-<a href="/enneagram-corner/enneagram-type-2">More on type 2</a>
+<a href="/enneagram-corner/enneagram-type-2">More on Type 2</a>
 
 </section>
   <section class="section-content">
@@ -105,7 +106,7 @@ Ambitious and goal-oriented, Type 3s excel in careers that offer opportunities f
 - Investment Banker: Thriving in competitive, high-stakes environments matches their goal-oriented nature.
 - Marketing Manager: Strategizing and achieving market success leverages their creativity and desire to excel.
 
-<a href="/enneagram-corner/enneagram-type-3">More on type 3</a>
+<a href="/enneagram-corner/enneagram-type-3">More on Type 3</a>
 
 </section>
 
@@ -137,7 +138,7 @@ Type 4s, with their appreciation for uniqueness and self-expression, find satisf
 - Art Therapist: Helping others through creative expression aligns with their empathy and depth.
 - Fashion Designer: Crafting unique and expressive clothing suits their individualistic and aesthetic sensibilities.
 
-<a href="/enneagram-corner/enneagram-type-4">More on type 4</a>
+<a href="/enneagram-corner/enneagram-type-4">More on Type 4</a>
 
 </section>
   <section class="section-content">
@@ -153,7 +154,7 @@ Intrigued by knowledge and expertise, Type 5s are well-suited for careers that i
 - Data Analyst: Interpreting data and trends aligns with their objective and investigative nature.
 - Archaeologist: Uncovering historical truths through research and exploration satisfies their curiosity and desire for knowledge.
 
-<a href="/enneagram-corner/enneagram-type-5">More on type 5</a>
+<a href="/enneagram-corner/enneagram-type-5">More on Type 5</a>
 
 </section>
 
@@ -174,7 +175,7 @@ Type 6s value security and stability, making them well-suited for administration
 - School Counselor: Supporting students’ emotional and educational needs fits their responsible and committed nature.
 - Emergency Room Nurse: Thriving in high-stress, supportive roles matches their reliability and teamwork abilities.
 
-<a href="/enneagram-corner/enneagram-type-6">More on type 6</a>
+<a href="/enneagram-corner/enneagram-type-6">More on Type 6</a>
 
 </section>
   <section class="section-content">
@@ -190,7 +191,7 @@ Type 7s, with their versatile and adventurous nature, thrive in dynamic and vari
 - Outdoor Adventure Leader: Leading outdoor activities satisfies their desire for excitement and novelty.
 - Innovation Consultant: Generating and implementing innovative ideas that fit their visionary and energetic personality.
 
-<a href="/enneagram-corner/enneagram-type-7">More on type 7</a>
+<a href="/enneagram-corner/enneagram-type-7">More on Type 7</a>
 
 </section>
 
@@ -222,7 +223,7 @@ Type 8s are natural leaders drawn to positions where they can exert influence an
 - Litigation Attorney: Advocating fiercely in the courtroom suits their confrontational and persuasive skills.
 - Construction Manager: Overseeing building projects fits their need to lead and have a straightforward approach.
 
-<a href="/enneagram-corner/enneagram-type-8">More on type 8</a>
+<a href="/enneagram-corner/enneagram-type-8">More on Type 8</a>
 
 </section>
   <section class="section-content">
@@ -238,7 +239,7 @@ Type 9s, with their easygoing and inclusive nature, are well-suited for roles th
 - Yoga Instructor: Teaching and guiding others in finding balance and inner peace caters to their soothing presence and inclusive approach.
 - Non-Profit Organization Worker: Contributing to causes that promote peace and well-being aligns with their altruistic values.
 
-<a href="/enneagram-corner/enneagram-type-9">More on type 9</a>
+<a href="/enneagram-corner/enneagram-type-9">More on Type 9</a>
 
 </section>
 
