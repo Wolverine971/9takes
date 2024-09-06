@@ -48,16 +48,43 @@
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
-	const questionJsonLd = JSON.stringify({
-		'@context': 'https://schema.org',
-		'@type': 'QAPage',
-		mainEntity: {
-			'@type': 'Question',
-			name: data.question.question_formatted,
-			answerCount: data.question.comment_count,
-			dateCreated: data.question.created_at
-		}
+	console.log(data);
+
+	const formattedAIComments = data?.ai_comments.map((comment) => {
+		return JSON.stringify({
+			'@type': 'Answer',
+			text: comment.comment,
+			dateCreated: comment.created_at,
+			upvoteCount: 0,
+			author: {
+				'@type': 'Person',
+				name: `Enneagram Type ${comment.enneagram_type}`
+			}
+		});
 	});
+
+	const questionJsonLd = formattedAIComments.length
+		? JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'QAPage',
+				mainEntity: {
+					'@type': 'Question',
+					name: data.question.question_formatted,
+					answerCount: data.question.comment_count || 0,
+					dateCreated: data.question.created_at,
+					suggestedAnswer: formattedAIComments
+				}
+		  })
+		: JSON.stringify({
+				'@context': 'https://schema.org',
+				'@type': 'QAPage',
+				mainEntity: {
+					'@type': 'Question',
+					name: data.question.question_formatted,
+					answerCount: data.question.comment_count || 0,
+					dateCreated: data.question.created_at
+				}
+		  });
 </script>
 
 <svelte:window bind:innerWidth />
