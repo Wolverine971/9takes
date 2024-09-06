@@ -127,7 +127,9 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Denzel-Washington', link: true },
 		{ name: 'Joe-Rogan', link: true },
 		{ name: 'Dave-Portnoy', link: true },
-		{ name: 'Emily-Ratajkowski', link: true }
+		{ name: 'Emily-Ratajkowski', link: true },
+		{ name: 'Donald-Trump', link: true }
+
 	],
 	9: [
 		{ name: 'Abraham-Lincoln', link: false },
