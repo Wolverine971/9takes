@@ -102,16 +102,18 @@
 	<div class="tab-content">
 		{#each tabs as section}
 			<section class="tab-section" class:active={selectedTab === section} id={section}>
-				<h2>{section}</h2>
+				<h2 style="display: flex; gap: 1rem; align-items: center; margin: 0; padding: 0;">
+					<!-- {section} -->
+					{#if _data.comment_count !== 0 && section === 'Comments'}
+						<SortComments
+							{data}
+							on:commentsSorted={({ detail }) => sortComments(detail)}
+							size={'large'}
+						/>
+					{/if}
+				</h2>
 				<Card class="comments-card">
 					{#if section === 'Comments'}
-						{#if _data.comment_count !== 0}
-							<SortComments
-								{data}
-								on:commentsSorted={({ detail }) => sortComments(detail)}
-								size={'large'}
-							/>
-						{/if}
 						{#if !data?.flags?.userHasAnswered}
 							<p class="helper-suggestion" transition:fade>
 								{_data.comment_count === 0

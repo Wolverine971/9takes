@@ -140,7 +140,6 @@
 	}
 	.sort-btn {
 		cursor: pointer;
-		margin: 0.5rem;
 		padding: 0 0.5rem;
 		border-radius: var(--base-border-radius);
 		border: 1px solid var(--base-white-outline);
@@ -152,7 +151,6 @@
 
 	@media (max-width: 576px) {
 		.sort-btn {
-			margin: 0.2rem;
 			padding: 0.2rem;
 			border: 1px solid var(--primary);
 		}

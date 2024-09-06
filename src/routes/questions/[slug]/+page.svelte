@@ -48,8 +48,6 @@
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
-	console.log(data);
-
 	const formattedAIComments = data?.ai_comments.map((comment) => {
 		return JSON.stringify({
 			'@type': 'Answer',

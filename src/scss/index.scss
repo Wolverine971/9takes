@@ -11,19 +11,6 @@
 	--warning: #ff8c00;
 	--error: #dc143c;
 
-	// --color-theme-purple-light: #b3a6c9;
-	// --color-theme-purple-lighter: #bc96fd;
-	// Theme colors
-	--dark-200: hsl(222, 15%, 13%);
-	--dark-100: hsl(222, 15%, 19%);
-	--primary-300: hsl(149, 77%, 46%);
-	--primary-200: hsl(149, 77%, 56%);
-	--primary-100: hsl(149, 77%, 66%);
-	--secondary-300: hsl(289, 90%, 53%);
-	--secondary-200: hsl(289, 90%, 63%);
-	--secondary-100: hsl(289, 90%, 73%);
-	--gray: hsl(212, 15%, 48%);
-
 	// Layout
 	--block-spacing-vertical: 2rem;
 	--block-spacing-horizontal: 2rem;
@@ -209,6 +196,10 @@ a {
 			color: #f8f8ff !important;
 		}
 	}
+}
+
+.sub-comment {
+	display: flex;
 }
 
 // Components
