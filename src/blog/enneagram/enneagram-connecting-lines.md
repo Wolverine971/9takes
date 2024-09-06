@@ -57,7 +57,7 @@ Growth/ Integration **(Moving to Type Seven)**: When healthily challenged, Ones 
 
 Stress/ Disintegration **(Moving to Type Four)**: However, when stress mounts, Ones can mirror Fours' melancholy, becoming emotionally turbulent and overly self-critical, almost as if their inner critic is on steroids.
 
-<a href="/enneagram-corner/enneagram-type-1">More on type 1</a>
+<a href="/enneagram-corner/enneagram-type-1">More on Type 1</a>
 
 </section>
 
@@ -69,7 +69,7 @@ Growth/ Integration **(Moving to Type Four)**: When Helpers integrate, they embr
 
 Stress/ Disintegration **(Moving to Type Eight**): Under pressure, Twos might exhibit the controlling nature of Eights. They become demanding and possessive, insisting that they know what's best for others.
 
-<a href="/enneagram-corner/enneagram-type-2">More on type 2</a>
+<a href="/enneagram-corner/enneagram-type-2">More on Type 2</a>
 
 </section>
 
@@ -81,7 +81,7 @@ Growth/ Integration **(Moving to Type Six)**: As Threes integrate, they adopt th
 
 Stress/ Disintegration **(Moving to Type Nine)**: Stressed Threes, however, can mirror Nines' complacency. They become disengaged, tuning out reality to avoid their fears of failure.
 
-<a href="/enneagram-corner/enneagram-type-3">More on type 3</a>
+<a href="/enneagram-corner/enneagram-type-3">More on Type 3</a>
 
 </section>
 
@@ -93,7 +93,7 @@ Growth/ Integration **(Moving to Type 1)**: When Fours are growing, they become 
 
 Stress/ Disintegration **(Moving to Type Two)**: But under stress, Fours can turn into over-involved and intrusive helpers like Twos, seeking validation and identity in relationships.
 
-<a href="/enneagram-corner/enneagram-type-4">More on type 4</a>
+<a href="/enneagram-corner/enneagram-type-4">More on Type 4</a>
 
 </section>
 
@@ -105,7 +105,7 @@ Growth/ Integration **(Moving to Type Eight)**: Fives, when integrated, exhibit 
 
 Stress/ Disintegration **(Moving to Type Seven)**: However, during disintegration, Fives can become scattered and frenetic like Sevens, escaping into mental fantasies to avoid their fear of being useless.
 
-<a href="/enneagram-corner/enneagram-type-5">More on type 5</a>
+<a href="/enneagram-corner/enneagram-type-5">More on Type 5</a>
 
 </section>
 
@@ -117,7 +117,7 @@ Growth/ Integration **(Moving to Type Nine)**: Healthy Sixes become serene and a
 
 Stress/ Disintegration **(Moving to Type Three)**: Under stress, Sixes can adopt the deceptive traits of Threes, becoming competitive and image-conscious, masking their insecurities with a facade of confidence.
 
-<a href="/enneagram-corner/enneagram-type-6">More on type 6</a>
+<a href="/enneagram-corner/enneagram-type-6">More on Type 6</a>
 
 </section>
 
@@ -129,7 +129,7 @@ Growth/ Integration **(Moving to Type Five)**: Sevens, when they integrate, mirr
 
 Stress/ Disintegration **(Moving to Type One)**: But when under stress, Sevens can become critical and impatient like Ones, trying to control their environment to escape their fear of pain.
 
-<a href="/enneagram-corner/enneagram-type-7">More on type 7</a>
+<a href="/enneagram-corner/enneagram-type-7">More on Type 7</a>
 
 </section>
 
@@ -141,7 +141,7 @@ Growth/ Integration **(Moving to Type Two)**: Healthy Eights adopt the nurturing
 
 Stress/ Disintegration **(Moving to Type Five)**: When stressed, Eights may retreat into the detached world of Fives, becoming secretive and withholding to shield their vulnerability.
 
-<a href="/enneagram-corner/enneagram-type-8">More on type 8</a>
+<a href="/enneagram-corner/enneagram-type-8">More on Type 8</a>
 
 </section>
 
@@ -153,7 +153,7 @@ Growth/ Integration **(Moving to Type Three)**: When integrating, Nines exhibit 
 
 Stress/ Disintegration **(Moving to Type Six)**: Under stress, Nines can resemble anxious Sixes, becoming worry-prone and doubting their decisions, trying to maintain their peace at all costs.
 
-<a href="/enneagram-corner/enneagram-type-9">More on type 9</a>
+<a href="/enneagram-corner/enneagram-type-9">More on Type 9</a>
 
 </section>
 

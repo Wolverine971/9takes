@@ -52,7 +52,7 @@ It's important to recognize that not everyone responds the same way to ghosting 
    and looking at the situation objectively. They may also want to focus on self-compassion and
    self-care, reminding themselves that they are not to blame for the other person's actions.
 
-[More on type 1s](/enneagram-corner/enneagram-type-1)
+[More on Type 1s](/enneagram-corner/enneagram-type-1)
 
  </section>
 
@@ -72,7 +72,7 @@ feelings, Twos may benefit from talking to a trusted friend or therapist about t
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 2s](/enneagram-corner/enneagram-type-2)
+[More on Type 2s](/enneagram-corner/enneagram-type-2)
 
  </section>
  <!-- <aside class="section-meta">
@@ -89,7 +89,7 @@ feelings, Threes may benefit from focusing on their accomplishments and successe
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
 
-[More on type 3s](/enneagram-corner/enneagram-type-3)
+[More on Type 3s](/enneagram-corner/enneagram-type-3)
 
  </section>
 
@@ -110,7 +110,7 @@ feelings, Fours may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 4s](/enneagram-corner/enneagram-type-4)
+[More on Type 4s](/enneagram-corner/enneagram-type-4)
 
  </section>
 
@@ -143,7 +143,7 @@ feelings, Fives may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 5s](/enneagram-corner/enneagram-type-5)
+[More on Type 5s](/enneagram-corner/enneagram-type-5)
 
  </section>
  <!-- <aside class="section-meta">
@@ -160,7 +160,7 @@ feelings, Sixes may benefit from talking to a trusted friend or therapist about 
 experience. They may also want to focus on self-compassion and self-care, reminding themselves
 that they are worthy of love and respect.
 
-[More on type 6s](/enneagram-corner/enneagram-type-6)
+[More on Type 6s](/enneagram-corner/enneagram-type-6)
 
  </section>
  <!-- <aside class="section-meta">
@@ -177,7 +177,7 @@ could bring. To cope with these feelings, Sevens may benefit from finding new ho
 activities to fill their time and bring joy. They may also want to focus on self-compassion
 and self-care, reminding themselves that they are worthy of love and respect.
 
-[More on type 7s](/enneagram-corner/enneagram-type-7)
+[More on Type 7s](/enneagram-corner/enneagram-type-7)
 
  </section>
  <!-- <aside class="section-meta">
@@ -194,7 +194,7 @@ benefit from channeling their anger into healthy outlets such as exercise or wri
 also want to focus on self-compassion and self-care, reminding themselves that they are worthy
 of love and respect.
 
-[More on type 8s](/enneagram-corner/enneagram-type-8)
+[More on Type 8s](/enneagram-corner/enneagram-type-8)
 
  </section>
 
@@ -222,7 +222,7 @@ of love and respect.
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
 
-[More on type 9s](/enneagram-corner/enneagram-type-9)
+[More on Type 9s](/enneagram-corner/enneagram-type-9)
 
  </section>
  <!-- <aside class="section-meta">

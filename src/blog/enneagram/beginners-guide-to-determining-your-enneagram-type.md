@@ -134,7 +134,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Ones often felt disconnected from the protective figure in their life. This could have been due to the parent needing to be more focused, overly strict, or lenient. Ones made themselves their judges and critics, developing their strict code of ethics and rules to cope.
 
-<a href="/enneagram-corner/enneagram-type-1">More on type One</a>
+<a href="/enneagram-corner/enneagram-type-1">More on Type One</a>
 
 </section>
 <section class="section-content">
@@ -146,7 +146,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Twos felt a lack of nurturing, guidance, or structure came from the protective figure. They developed the underlying feeling that they could only earn love through selflessness, goodness, and repression of their needs.
 
-<a href="/enneagram-corner/enneagram-type-2">More on type Two</a>
+<a href="/enneagram-corner/enneagram-type-2">More on Type Two</a>
 
 </section>
 <section class="section-content">
@@ -158,7 +158,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Threes felt deeply connected to the nurturing figure in their life but sensed that they were loved or valued for their achievements rather than who they were. They worked hard to gain approval through achievements.
 
-<a href="/enneagram-corner/enneagram-type-3">More on type Three</a>
+<a href="/enneagram-corner/enneagram-type-3">More on Type Three</a>
 
 </section>
 <section class="section-content">
@@ -170,7 +170,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Shame
 - **Childhood Wound:** Fours felt disconnected from both parental figures. They felt their parents didn’t see them for who they were. They tried early on to accept what made them different.
 
-<a href="/enneagram-corner/enneagram-type-4">More on type Four</a>
+<a href="/enneagram-corner/enneagram-type-4">More on Type Four</a>
 
 </section>
 <section class="section-content">
@@ -182,7 +182,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Fives felt ambivalent towards their parental figures. They felt like “odd ducks,” forever on the outside looking in. Fives retreated from the outside world to cope and focused on mastering a unique subject of interest.
 
-<a href="/enneagram-corner/enneagram-type-5">More on type Five</a>
+<a href="/enneagram-corner/enneagram-type-5">More on Type Five</a>
 
 </section>
 <section class="section-content">
@@ -194,7 +194,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sixes felt connected to the protective figure in their home but internalized their relationship with this figure and learned to depend on them for security or guidance rather than trusting their inner voice.
 
-<a href="/enneagram-corner/enneagram-type-6">More on type Six</a>
+<a href="/enneagram-corner/enneagram-type-6">More on Type Six</a>
 
 </section>
 <section class="section-content">
@@ -206,7 +206,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Fear
 - **Childhood Wound:** Sevens felt disconnected from the nurturing figure in their home. To deal with this, Sevens learned to focus on “transitional objects” or toys and activities that would feed the emptiness inside.
 
-<a href="/enneagram-corner/enneagram-type-7">More on type Seven</a>
+<a href="/enneagram-corner/enneagram-type-7">More on Type Seven</a>
 
 </section>
 <section class="section-content">
@@ -218,7 +218,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Eights felt ambivalent towards the nurturing figure in their home. They decided to grow up quickly because they felt that by showing vulnerability or “softness,” they would be hurt, rejected, or betrayed.
 
-<a href="/enneagram-corner/enneagram-type-8">More on type Eight</a>
+<a href="/enneagram-corner/enneagram-type-8">More on Type Eight</a>
 
 </section>
 <section class="section-content">
@@ -230,7 +230,7 @@ Each type has a core emotion, core motivation, and core fear. Look through the f
 - **Core Emotion:** Anger
 - **Childhood Wound:** Nines felt connected to both parents but learned to “tune out” the problems and try to numb themselves to the conflict inside. They learned to numb themselves to pain, deny their feelings, and stay in the background.
 
-<a href="/enneagram-corner/enneagram-type-9">More on type Nine</a>
+<a href="/enneagram-corner/enneagram-type-9">More on Type Nine</a>
 
 </section>
 

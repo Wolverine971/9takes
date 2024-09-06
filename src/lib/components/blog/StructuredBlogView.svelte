@@ -76,7 +76,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="/enneagram-corner/enneagram-communication-overview">
+				<a href="/enneagram-corner/enneagram-communication-guide">
 					How to communicate and interact effectively with different Enneagram types
 				</a>
 			</li>

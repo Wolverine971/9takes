@@ -73,7 +73,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 1 may excel in a job that requires precision, such as accounting or engineering. However, their perfectionism can cause them to become overly critical of themselves and others, leading to strained relationships and burnout.
 
-[More on type 1](/enneagram-corner/enneagram-type-1)
+[More on Type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -91,7 +91,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 2 may thrive in a career that involves helping others, such as counseling or social work. However, their desire to be needed may cause them to neglect their needs, leading to resentment and burnout.
 
-[More on type 2](/enneagram-corner/enneagram-type-2)
+[More on Type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -109,7 +109,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 3 may excel in a competitive career, such as sales or entrepreneurship. However, their focus on success and achievement can cause them to neglect their relationships and well-being, leading to feelings of isolation and burnout.
 
-[More on type 3](/enneagram-corner/enneagram-type-3)
+[More on Type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -127,7 +127,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 4 may excel in a career that allows them to express their creativity, such as writing or art. However, their focus on their emotions can cause them to become overly self-absorbed, leading to loneliness and disconnection from others.
 
-[More on type 4](/enneagram-corner/enneagram-type-4)
+[More on Type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -149,7 +149,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 5 may excel in a career that requires deep thinking and analysis, such as research or academia. However, their desire for privacy and independence can cause them to withdraw from social interactions, leading to isolation and loneliness.
 
-[More on type 5](/enneagram-corner/enneagram-type-5)
+[More on Type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -167,7 +167,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 6 may excel in a career that requires a strong sense of responsibility and commitment, such as law enforcement or military service. However, their tendency towards anxiety and fear can cause them to become overly cautious and hesitant, leading to missed opportunities and indecisiveness.
 
-[More on type 6](/enneagram-corner/enneagram-type-6)
+[More on Type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -185,7 +185,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 7 may excel in a career that allows them to explore new ideas and experiences, such as travel or entrepreneurship. However, their tendency towards distraction and lack of focus can cause them to neglect important tasks and responsibilities, leading to a lack of success and achievement.
 
-[More on type 7](/enneagram-corner/enneagram-type-7)
+[More on Type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -203,7 +203,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 8 may excel in a career that requires assertiveness and confidence, such as politics or business. However, their tendency towards aggression and control can cause them to become overly dominant and intimidating, leading to conflicts and power struggles.
 
-[More on type 8](/enneagram-corner/enneagram-type-8)
+[More on Type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -221,7 +221,7 @@ Let's look at common energizers and drainers for each Enneagram type and think a
 
 **Example career situation:** A Type 9 may excel in a career that requires mediation and conflict resolution, such as counseling or diplomacy. However, their tendency towards indecisiveness and lack of assertiveness can cause them to neglect their needs and desires, leading to dissatisfaction and unhappiness.
 
-[More on type 9](/enneagram-corner/enneagram-type-9)
+[More on Type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 

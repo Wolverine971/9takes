@@ -58,6 +58,9 @@
 </div>
 
 <style lang="scss">
+	a::after {
+		display: none !important;
+	}
 	.marquee-container {
 		--marquee-bg: var(--color-theme-purple-light);
 		--marquee-color: var(--text-color);

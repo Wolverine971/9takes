@@ -96,7 +96,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A structured and organized environment that values attention to detail and accuracy. A clear set of rules and expectations can help the Type 1 thrive and feel secure.
 
-[More on type 1s](/enneagram-corner/enneagram-type-1)
+[More on Type 1s](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -108,7 +108,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A supportive and collaborative environment that values teamwork and relationships. The Type 2 thrives in a work environment that values their nurturing and empathetic qualities.
 
-[More on type 2s](/enneagram-corner/enneagram-type-2)
+[More on Type 2s](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -120,7 +120,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A fast-paced and competitive environment that values goal-setting and achievement. The Type 3 thrives in an environment that values their ambition and results-driven attitude.
 
-[More on type 3s](/enneagram-corner/enneagram-type-3)
+[More on Type 3s](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -132,7 +132,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A creative and innovative environment that values self-expression and originality. The Type 4 thrives in an environment that allows them to explore their unique perspective and creativity.
 
-[More on type 4s](/enneagram-corner/enneagram-type-4)
+[More on Type 4s](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -144,7 +144,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A quiet and contemplative environment that values intellectual curiosity and expertise. The Type 5 thrives in an environment that allows them to explore and learn on their own terms.
 
-[More on type 5s](/enneagram-corner/enneagram-type-5)
+[More on Type 5s](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -160,7 +160,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A supportive and secure environment that values loyalty and dependability. The Type 6 thrives in a work environment that provides clear guidance and structure.
 
-[More on type 6s](/enneagram-corner/enneagram-type-6)
+[More on Type 6s](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -172,7 +172,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A dynamic and exciting environment that values exploration and variety. The Type 7 thrives in a work environment that allows them to pursue their interests and passions.
 
-[More on type 7s](/enneagram-corner/enneagram-type-7)
+[More on Type 7s](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -184,7 +184,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A challenging and competitive environment that values assertiveness and leadership. The Type 8 thrives in an environment that allows them to take charge and make decisions.
 
-[More on type 8s](/enneagram-corner/enneagram-type-8)
+[More on Type 8s](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -196,7 +196,7 @@ For example, an Enneagram Type 1 may thrive in a structured and organized enviro
 
 **Ideal Work Environment:** A harmonious and peaceful environment that values balance and collaboration. The Type 9 thrives in an environment that promotes a sense of unity and cooperation.
 
-[More on type 9s](/enneagram-corner/enneagram-type-9)
+[More on Type 9s](/enneagram-corner/enneagram-type-9)
 
 </section>
 

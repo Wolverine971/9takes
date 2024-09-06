@@ -187,7 +187,7 @@ Seek support from loved ones or professionals:
 - Join a support group or seek therapy to gain new perspectives and coping strategies.
 - Learn to delegate tasks and ask for help when feeling overwhelmed.
 
-[More on type 1](/enneagram-corner/enneagram-type-1)
+[More on Type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -232,7 +232,7 @@ When Type 2s find themselves slipping into unhealthy Type 8 patterns, it's cruci
   - Practice self-forgiveness for imperfections.
   - Engage in positive self-talk and affirmations.
 
-[More on type 2](/enneagram-corner/enneagram-type-2)
+[More on Type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -277,7 +277,7 @@ When Type 3s find themselves slipping into unhealthy Type 9 patterns, it's essen
   - Engage in activities that foster a sense of community.
   - Practice vulnerability and emotional authenticity.
 
-[More on type 3](/enneagram-corner/enneagram-type-3)
+[More on Type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -322,7 +322,7 @@ When Type 4s find themselves slipping into unhealthy Type 2 patterns, it's cruci
   - Practice journaling or meditation.
   - Seek therapy or counseling for deeper insights.
 
-[More on type 4](/enneagram-corner/enneagram-type-4)
+[More on Type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -371,7 +371,7 @@ When Type 5s find themselves slipping into unhealthy Type 7 patterns, it's essen
   - Engage in calming hobbies or relaxation techniques.
   - Maintain a healthy sleep and self-care routine.
 
-[More on type 5](/enneagram-corner/enneagram-type-5)
+[More on Type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -416,7 +416,7 @@ When Type 6s find themselves slipping into unhealthy Type 3 patterns, it's cruci
   - Practice transparency and honesty in interactions.
   - Regularly reassess goals and motivations.
 
-[More on type 6](/enneagram-corner/enneagram-type-6)
+[More on Type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -461,7 +461,7 @@ When Type 7s find themselves slipping into unhealthy Type 1 patterns, it's essen
   - Embrace new experiences and perspectives.
   - Regularly reassess priorities and adjust accordingly.
 
-[More on type 7](/enneagram-corner/enneagram-type-7)
+[More on Type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -506,7 +506,7 @@ When Type 8s find themselves slipping into unhealthy Type 5 patterns, it's cruci
   - Seek out opportunities for leadership and making a positive impact.
   - Regularly reassess goals and adjust strategies accordingly.
 
-[More on type 8](/enneagram-corner/enneagram-type-8)
+[More on Type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -551,7 +551,7 @@ When Type 9s find themselves slipping into unhealthy Type 6 patterns, it's essen
   - Focus on positive aspects of situations and relationships.
   - Develop a sense of faith and trust in oneself and others.
 
-[More on type 9](/enneagram-corner/enneagram-type-9)
+[More on Type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 

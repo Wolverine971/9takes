@@ -1,10 +1,19 @@
 import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 
 const MAX_POSTS = 6;
 
+const redirectMap = {
+	'enneagram-communication-overview': 'enneagram-communication-guide',
+}
+
 export const load: PageLoad = async ({ params }) => {
+
+	if (redirectMap[params.slug]) {
+		// throw error(301, redirectMap[params.slug]);
+		throw redirect(302, redirectMap[params.slug]);
+	}
 	const modules = import.meta.glob(`/src/blog/enneagram/*.{md,svx,svelte.md}`);
 
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
@@ -20,10 +29,10 @@ export const load: PageLoad = async ({ params }) => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-				({
-					...(post as unknown as App.MdsvexFile).metadata,
-					slug: slugFromPath(path)
-				} as App.BlogPost)
+			({
+				...(post as unknown as App.MdsvexFile).metadata,
+				slug: slugFromPath(path)
+			} as App.BlogPost)
 		)
 	);
 

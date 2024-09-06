@@ -76,7 +76,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A One and their partner are discussing the current political climate. The One is passionate about a particular issue and becomes frustrated when their partner doesn't seem as engaged. The One struggles to express their emotions and may be critical of their partner's lack of interest.
 
-[More on type 1](/enneagram-corner/enneagram-type-1)
+[More on Type 1](/enneagram-corner/enneagram-type-1)
 
 </section>
 
@@ -94,7 +94,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Two and their partner discuss a recent conflict with a friend. The Two may struggle to express their needs or feelings and become overly involved in trying to fix the situation.
 
-[More on type 2](/enneagram-corner/enneagram-type-2)
+[More on Type 2](/enneagram-corner/enneagram-type-2)
 
 </section>
 
@@ -112,7 +112,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: Three and their partner are discussing their career goals. The Three may struggle with expressing their emotions or discussing their fears or insecurities, instead focusing on ways to improve their skills and succeed.
 
-[More on type 3](/enneagram-corner/enneagram-type-3)
+[More on Type 3](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -134,7 +134,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Four and their partner are discussing their favorite books. The Four may become emotional or intense when discussing a book that resonated with them, struggling to express their emotions clearly or concisely.
 
-[More on type 4](/enneagram-corner/enneagram-type-4)
+[More on Type 4](/enneagram-corner/enneagram-type-4)
 
 </section>
 
@@ -152,7 +152,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Five and their partner are discussing a new scientific discovery. The Five may become animated and engaged in the conversation, sharing their ideas and theories while respecting their partner's perspectives.
 
-[More on type 5](/enneagram-corner/enneagram-type-5)
+[More on Type 5](/enneagram-corner/enneagram-type-5)
 
 </section>
 
@@ -170,7 +170,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Six and their partner are discussing plans for a future vacation. The Six may become anxious or stressed about the potential risks or challenges, seeking reassurance from their partner while considering practical solutions.
 
-[More on type 6](/enneagram-corner/enneagram-type-6)
+[More on Type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
 
@@ -188,7 +188,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Seven and their partner are discussing potential travel plans. The Seven may become excited about new possibilities and experiences but may need help to commit to a specific plan or itinerary.
 
-[More on type 7](/enneagram-corner/enneagram-type-7)
+[More on Type 7](/enneagram-corner/enneagram-type-7)
 
 </section>
 
@@ -206,7 +206,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: An Eight and their partner are discussing a business opportunity. The Eight may become assertive and forceful in their opinions but also appreciate a partner who can challenge them and offer a different perspective.
 
-[More on type 8](/enneagram-corner/enneagram-type-8)
+[More on Type 8](/enneagram-corner/enneagram-type-8)
 
 </section>
 
@@ -224,7 +224,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 **Imaginary scenario**: A Nine and their partner are discussing their favorite relaxing activities. The Nine may become calm and centered while discussing the topic, appreciating the peace and harmony it brings to their life.
 
-[More on type 9](/enneagram-corner/enneagram-type-9)
+[More on Type 9](/enneagram-corner/enneagram-type-9)
 
 </section>
 
