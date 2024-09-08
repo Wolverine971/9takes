@@ -68,7 +68,9 @@
 </script>
 
 <svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+	{#if navSteps.length}
+		{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+	{/if}
 </svelte:head>
 
 {#if navSteps.length}
