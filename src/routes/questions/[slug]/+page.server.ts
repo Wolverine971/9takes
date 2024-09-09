@@ -30,6 +30,7 @@ export const load: PageLoad = async (event) => {
 
 	if (!userHasAnswered) {
 		const commentCount = await getCommentCount(question.id, demo_time);
+		const aiComments = demo_time ? null : await getAIComments(question.id);
 		return createBaseResponse(
 			question,
 			[],
@@ -38,7 +39,8 @@ export const load: PageLoad = async (event) => {
 			questionTags,
 			session,
 			userHasAnswered,
-			event
+			event,
+			aiComments,
 		);
 	}
 
@@ -513,7 +515,8 @@ function createBaseResponse(
 	questionTags: any,
 	session: any,
 	userHasAnswered: boolean,
-	event: any
+	event: any,
+	aiComments: any
 ) {
 	return {
 		question,
@@ -526,7 +529,8 @@ function createBaseResponse(
 		flags: {
 			userHasAnswered,
 			userSignedIn: event?.locals?.session?.user?.aud
-		}
+		},
+		aiComments
 	};
 }
 
@@ -553,7 +557,8 @@ function createFullResponse(
 		questionTags,
 		session,
 		userHasAnswered,
-		event
+		event,
+		aiComments
 	);
 
 	if (demo_time) {

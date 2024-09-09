@@ -48,7 +48,7 @@
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
-	const formattedAIComments = data?.ai_comments.map((comment) => {
+	const formattedAIComments = data?.aiComments?.map((comment) => {
 		return JSON.stringify({
 			'@type': 'Answer',
 			text: comment.comment,
@@ -60,8 +60,9 @@
 			}
 		});
 	});
+	console.log(data);
 
-	const questionJsonLd = formattedAIComments.length
+	const questionJsonLd = formattedAIComments?.length
 		? JSON.stringify({
 				'@context': 'https://schema.org',
 				'@type': 'QAPage',
@@ -104,7 +105,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="twitter:url" content={url} />
 	<meta name="twitter:image" content={imgUrl} />
-	{#if formattedAIComments.length}
+	{#if formattedAIComments?.length}
 		{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
 	{/if}
 </svelte:head>
