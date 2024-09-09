@@ -161,7 +161,7 @@
 	}
 
 	function expandText() {
-		const container = document.querySelector(`#comment-box${comment.id}`);
+		const container = document.querySelector(`#comment-text${comment.id}`);
 		const readMore = document.querySelector(`#read-more-btn${comment.id}`);
 		if (container instanceof HTMLElement) {
 			container.classList.add('expanded');
@@ -252,10 +252,10 @@
 						</span>
 					{/if}
 					<div class="comment-text-wrapper">
-						<span class="comment-text" itemprop="text">
+						<span class="comment-text" itemprop="text" id="comment-text{comment.id}">
 							{_commentComment.comment}
 						</span>
-						{#if _commentComment?.comment?.length > 136}
+						{#if _commentComment?.comment?.length > 136 || _commentComment?.comment?.includes('\n')}
 							<span
 								role="button"
 								tabindex="0"

@@ -12,7 +12,6 @@
 	export let data: any;
 	export let showAiComments = true;
 
-	let innerWidth = 0;
 	let active = 0;
 	let direction: 'left' | 'right' = 'right';
 	let transitioning = false;
@@ -33,195 +32,183 @@
 		setTimeout(() => (transitioning = false), 300);
 	}
 
-	let intervalId: number;
-
 	onMount(() => {
-		// Auto-rotation logic (commented out as in your original code)
-		// if (browser && showAiComments && data?.ai_comments?.length > 1) {
-		// 	intervalId = setInterval(moveRight, 5000);
-		// }
-		// return () => {
-		// 	if (intervalId) clearInterval(intervalId);
-		// };
+		// Auto-rotation logic can be added here if needed
 	});
-
-	// $: if (showAiComments && data?.ai_comments?.length > 1) {
-	// 	if (intervalId) clearInterval(intervalId);
-	// 	intervalId = setInterval(moveRight, 5000);
-	// } else {
-	// 	if (intervalId) clearInterval(intervalId);
-	// }
 </script>
 
-<svelte:window bind:innerWidth />
-
-{#if !browser || (data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered)}
-	{#if data?.ai_comments?.length}
-		<h2 style="padding: 1rem 0; margin: .5rem 0;">Typical Enneagram Perspectives</h2>
-		<div class="canned-resp-div">
-			<div style="display: flex; justify-content: space-between; align-items: center;">
-				<div />
-			</div>
-			{#if showAiComments}
-				<div class="carousel-container">
-					<button class="arrow arrow-left" on:click={moveLeft}>
-						<LeftIcon />
-					</button>
-					<div class="carousel-content">
-						{#each [data.ai_comments[active]] as comment (active)}
-							<div
-								class="carousel-item"
-								in:fly={{
-									x: direction === 'right' ? 300 : -300,
-									duration: 300,
-									easing: cubicInOut
-								}}
-								out:fly={{
-									x: direction === 'right' ? -300 : 300,
-									duration: 300,
-									easing: cubicInOut
-								}}
-							>
-								<Card style="margin: 0 1rem;">
-									<div
-										class="user-comment"
-										itemprop="suggestedAnswer acceptedAnswer"
-										itemscope
-										itemtype="https://schema.org/Answer"
-									>
-										<div class="comment-content" style={'width: 100%;'}>
-											<span class="comment-text" itemprop="text">{comment.comment}</span>
-										</div>
-										<span class="profile-avatar">Type {comment.enneagram_type}</span>
+{#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered}
+	<section class="enneagram-perspectives">
+		<h2 style="padding: .5rem 0;">Typical Enneagram Perspectives</h2>
+		{#if showAiComments}
+			<div class="carousel">
+				<button
+					class="carousel__arrow carousel__arrow--left"
+					on:click={moveLeft}
+					aria-label="Previous perspective"
+				>
+					<LeftIcon />
+				</button>
+				<div class="carousel__content">
+					<div class="carousel__track" style="transform: translateX(-{active * 100}%)">
+						{#each data.ai_comments as comment, index}
+							<div class="carousel__item" class:active={index === active}>
+								<Card>
+									<div class="comment" itemscope itemtype="https://schema.org/Answer">
+										<p class="comment__text" itemprop="text">{comment.comment}</p>
+										<span class="comment__type">Type {comment.enneagram_type}</span>
 									</div>
 								</Card>
 							</div>
 						{/each}
-						<div class="carousel-indicator">
-							{#each data.ai_comments as _, index}
-								<span class={active === index ? 'active' : ''} />
-							{/each}
-						</div>
 					</div>
-					<button class="arrow arrow-right" on:click={moveRight}>
-						<RightIcon />
-					</button>
 				</div>
-			{/if}
-		</div>
-	{/if}
+				<button
+					class="carousel__arrow carousel__arrow--right"
+					on:click={moveRight}
+					aria-label="Next perspective"
+				>
+					<RightIcon />
+				</button>
+			</div>
+			<div class="carousel__indicator">
+				{#each data.ai_comments as _, index}
+					<span class={active === index ? 'active' : ''} />
+				{/each}
+			</div>
+		{/if}
+	</section>
 {/if}
 
 <style lang="scss">
-	@import '../molecules/comment.scss';
+	.enneagram-perspectives {
+		margin-bottom: 2rem;
 
-	.canned-resp-div {
-		border-radius: var(--base-border-radius);
-		padding: 0.5rem;
-		margin-bottom: 0.5rem;
-		border: 1px solid var(--base-grey-1);
-	}
-	.comment-text {
-		max-height: none;
-		overflow: visible;
+		h2 {
+			margin-bottom: 1rem;
+			font-size: 1.5rem;
+			font-weight: 600;
+		}
 	}
 
-	.profile-avatar {
-		min-width: 30px;
-		padding: 0.2rem;
-		align-self: center;
-		align-items: center;
-		border: 1px solid var(--color-paladin-3-v);
-		font-weight: bolder;
-		min-width: 3rem;
-		text-align: center;
-		aspect-ratio: 1/1;
-		border-radius: var(--base-border-radius);
-		transition: all 0.5s;
-		word-break: keep-all;
-	}
-
-	.carousel-container {
+	.carousel {
 		position: relative;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		text-overflow: ellipsis;
-		height: 120px; // Adjust this value based on your content
-	}
-
-	.carousel-content {
-		position: relative;
-		width: 100%;
-		height: 100%;
 		overflow: hidden;
-	}
+		border: 1px solid;
+		border-radius: 5px;
 
-	.carousel-item {
-		margin: auto;
-		height: 80%;
-		width: 80%;
-	}
-
-	.arrow {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		background: none;
-		border: none;
-		cursor: pointer;
-		z-index: 10;
-		color: var(--color-paladin-3);
-		transition: color 0.3s ease;
-
-		&:hover {
-			color: var(--color-paladin-4);
+		&__content {
+			flex: 1;
+			overflow: hidden;
 		}
 
-		&.arrow-left {
-			left: 10px;
+		&__track {
+			display: flex;
+			transition: transform 0.3s ease;
 		}
 
-		&.arrow-right {
-			right: 10px;
-		}
-	}
-
-	.comment-content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		gap: 1rem;
-	}
-
-	.carousel-indicator {
-		display: flex;
-		justify-content: center;
-		margin-top: 1rem;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		left: 0;
-
-		span {
-			width: 8px;
-			height: 8px;
-			border-radius: 50%;
-			background-color: var(--color-paladin-3);
-			margin: 0 5px;
-			opacity: 0.5;
+		&__item {
+			flex: 0 0 100%;
+			padding: 0 1rem;
+			box-sizing: border-box;
+			opacity: 0.3;
 			transition: opacity 0.3s ease;
 
 			&.active {
 				opacity: 1;
 			}
 		}
+
+		&__arrow {
+			background: none;
+			border: none;
+			cursor: pointer;
+			color: var(--color-paladin-3);
+			transition: color 0.3s ease;
+			padding: 0.5rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 1;
+
+			&:hover {
+				color: var(--color-paladin-4);
+			}
+
+			&--left {
+				margin-right: 0.5rem;
+			}
+
+			&--right {
+				margin-left: 0.5rem;
+			}
+		}
+
+		&__indicator {
+			display: flex;
+			justify-content: center;
+			margin-top: 1rem;
+
+			span {
+				width: 8px;
+				height: 8px;
+				border-radius: 50%;
+				background-color: var(--color-paladin-3);
+				margin: 0 5px;
+				opacity: 0.5;
+				transition: opacity 0.3s ease;
+
+				&.active {
+					opacity: 1;
+				}
+			}
+		}
 	}
 
-	@media (max-width: 500px) {
-		.comment-content {
-			width: 100%;
+	.comment {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 1rem;
+		padding: 1rem;
+
+		&__text {
+			margin: 0;
+			line-height: 1.6;
+		}
+
+		&__type {
+			padding: 0.2rem 0.5rem;
+			border: 1px solid var(--color-paladin-3-v);
+			font-weight: 600;
+			border-radius: var(--base-border-radius);
+			transition: all 0.5s;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.carousel {
+			&__arrow {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+
+				&--left {
+					left: 0;
+				}
+
+				&--right {
+					right: 0;
+				}
+			}
+
+			&__item {
+				padding: 0 2rem;
+			}
 		}
 	}
 </style>

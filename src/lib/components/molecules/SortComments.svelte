@@ -137,6 +137,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		background-color: var(--base-grey-0);
 	}
 	.sort-btn {
 		cursor: pointer;
