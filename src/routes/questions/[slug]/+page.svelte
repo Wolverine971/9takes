@@ -104,7 +104,9 @@
 	<meta name="twitter:title" content={title} />
 	<meta property="twitter:url" content={url} />
 	<meta name="twitter:image" content={imgUrl} />
-	{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
+	{#if formattedAIComments.length}
+		{@html `<script type="application/ld+json">${questionJsonLd}</script>`}
+	{/if}
 </svelte:head>
 
 <div class="question-area-box">

@@ -103,7 +103,6 @@
 <svelte:window bind:innerWidth />
 
 <div class="question-card">
-	<a href="/questions/{questionData.url}" class="btn btn-primary top-right">Go to</a>
 	<div class="question-content">
 		<p class="question-display"><b>Original:</b> {questionData.question}</p>
 		<p class="question-display"><b>Formatted:</b> {questionData.question_formatted}</p>
@@ -120,21 +119,25 @@
 				/>
 			</span>
 			<span class="date-span">{formattedDate}</span>
+			<span style="color: {questionData.flagged ? 'red' : ''}">Flagged: {questionData.flagged}</span
+			>
+			<span style="color: {questionData.removed ? 'red' : ''}">Removed: {questionData.removed}</span
+			>
 		</div>
 		<div class="meta-item">
-			<span>Flagged: {questionData.flagged}</span>
-			<span>Removed: {questionData.removed}</span>
+			<span style="min-width: 80px;">Keywords:</span>
+			{#if questionData.keywords?.length}
+				<div class="tags-div">
+					{#each questionData.keywords as keyword}
+						<span class="tag">{keyword}</span>
+					{/each}
+				</div>
+			{:else}
+				<span>No tags</span>
+			{/if}
 		</div>
 		<div class="meta-item">
-			<div class="flex-center">
-				Tags
-				<button
-					class="btn btn-primary"
-					on:click={() => getModal(`tag-question-${questionData.id}`).open()}
-				>
-					AI Tag
-				</button>
-			</div>
+			<span style="min-width: 80px;">Tags:</span>
 			{#if selectedTags.length}
 				<div class="tags-div">
 					{#each selectedTags as tag}
@@ -146,15 +149,24 @@
 			{/if}
 		</div>
 	</div>
-	<button
-		class="btn btn-primary bottom-right"
-		on:click={() => {
-			editing = !editing;
-			getModal(`edit-modal-${questionData.id}`).open();
-		}}
-	>
-		{editing ? 'Editing' : 'Edit'}
-	</button>
+	<div class="">
+		<button
+			class="btn btn-primary"
+			on:click={() => getModal(`tag-question-${questionData.id}`).open()}
+		>
+			AI Tag
+		</button>
+		<button
+			class="btn btn-primary "
+			on:click={() => {
+				editing = !editing;
+				getModal(`edit-modal-${questionData.id}`).open();
+			}}
+		>
+			{editing ? 'Editing' : 'Edit'}
+		</button>
+		<a href="/questions/{questionData.url}"><button class="btn btn-primary"> Go to </button></a>
+	</div>
 </div>
 
 <Modal2 id={`tag-question-${questionData.id}`}>
@@ -241,7 +253,7 @@
 	.question-meta {
 		display: flex;
 		flex-direction: column;
-		gap: 0.5rem;
+		// gap: 0.5rem;
 	}
 
 	.question-display {
@@ -250,6 +262,7 @@
 		align-items: center;
 		text-wrap: balance;
 		gap: 0.5rem;
+		margin: 0 0.5rem;
 	}
 
 	.meta-item {
