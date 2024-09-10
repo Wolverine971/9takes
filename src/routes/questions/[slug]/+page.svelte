@@ -49,7 +49,7 @@
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
 	const formattedAIComments = data?.aiComments?.map((comment) => {
-		return JSON.stringify({
+		return {
 			'@type': 'Answer',
 			text: comment.comment,
 			dateCreated: comment.created_at,
@@ -58,7 +58,7 @@
 				'@type': 'Person',
 				name: `Enneagram Type ${comment.enneagram_type}`
 			}
-		});
+		};
 	});
 	console.log(data);
 
