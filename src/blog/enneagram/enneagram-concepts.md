@@ -205,7 +205,7 @@ Understanding these concepts can provide deeper insights into type motivations a
 | 9    | Peacemaker, Mediator    | [Indolence](https://en.wikipedia.org/wiki/Laziness)              | Love                      | Seeker       | Loss, fragmentation, separation          | Wholeness, peace of mind                 | Avoiding conflicts, avoiding self-assertion                                                                          | [Sloth](<https://en.wikipedia.org/wiki/Sloth_(deadly_sin)>) | [Action](https://en.wikipedia.org/wiki/Proactivity)                        | 6                      | 3                     |
 
 </div>
-<cite><a class="external-link" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
+<cite><a class="external-link" target="_blank" rel="" href="https://en.wikipedia.org/wiki/Enneagram_of_Personality">From Wikipedia</a></cite>
 
 ## Putting It All Together: The Enneagram in Real Life
 

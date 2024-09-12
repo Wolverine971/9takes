@@ -47,7 +47,7 @@ Here we explore the depths of Luckey's psyche through the lens of the Enneagram.
 
 ### Palmer Luckey is an Enneagram Type 7: "The Enthusiast"
 
-Is Palmer Luckey the poster child for the Enneagram Type 7 personality?
+Palmer is the poster child for the [Enneagram Type 7 personality.](/enneagram-corner/enneagram-type-7)
 
 Known for their adventurous spirit, boundless imagination, and hunger for novelty, Type 7s are propelled by infectious enthusiasm to constantly seek out new experiences. Luckey's meteoric rise in tech, marked by audacious leaps into uncharted territories like VR and defense AI, fits the Type 7 profile perfectly.
 

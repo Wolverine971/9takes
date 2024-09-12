@@ -80,7 +80,7 @@ Type 7 personalities tend to avoid pain and unpleasantness, preferring to stay i
 
 ## Surprising Stability and Enthusiastic Engagement
 
-The duration of Jon Stewart's tenure at <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/The_Daily_Show" >The Daily Show</a>, which spanned an impressive 16 years, may initially seem at odds with a Type 7 personality.
+The duration of Jon Stewart's tenure at <a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/The_Daily_Show" >The Daily Show</a>, which spanned an impressive 16 years, may initially seem at odds with a Type 7 personality.
 
 Known for their desire for change, adventure, and a spectrum of experiences, one might question how a Type 7 like Stewart could commit to a single project for such an extended period. However, an integral part of this seeming paradox can be unraveled when considering the unique and dynamic nature of the show itself.
 

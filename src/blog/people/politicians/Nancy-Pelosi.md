@@ -42,7 +42,7 @@ tiktok:
 
 She has significantly impacted the American political landscape as the first female Speaker of the House of Representatives. Pelosi's political career and her commitment to her family demonstrate a remarkable capacity to balance various aspects of her life.
 
-In this analysis, we will explore the correlation between Pelosi's personality traits and the Enneagram Type 3 – the Achiever.
+In this analysis, we will explore the correlation between Pelosi's personality traits and the [Enneagram Type 3 – the Achiever.](/enneagram-corner/enneagram-type-3)
 
 ## Formative Years: The Foundations of an Achiever
 

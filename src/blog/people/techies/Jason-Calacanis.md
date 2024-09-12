@@ -60,7 +60,7 @@ Jason is an Enneagram type 3, also known as "[The Achiever."](/enneagram-corner/
 
 ### The Many Hats of Jason
 
-Jason is an angel investor and the host of two prominent podcasts: "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/thisweekin">This Week in Startups</a>" and "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://allin.com/">All In</a>". He also runs a startup accelerator called "Founder University". To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
+Jason is an angel investor and the host of two prominent podcasts: "<a class="external-link" target="_blank" rel="noopener" href="https://www.youtube.com/c/thisweekin">This Week in Startups</a>" and "<a class="external-link" target="_blank" rel="noopener" href="https://allin.com/">All In</a>". He also runs a startup accelerator called "Founder University". To say Jason is busy would be an understatement. He prides himself on his hard work and encourages the founders he mentors to work just as hard.
 
 ### The Drive Behind the Success
 
@@ -76,7 +76,7 @@ When they are not achieving or are very stressed, type 3s may become disengaged 
 
 ### From Humble Beginnings to Tech Mogul
 
-Jason's journey is a testament to the Achiever's relentless pursuit of success. He started as a reporter covering the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry"</a> during the dot-com boom. When the bubble burst, many would have been discouraged, but not Jason. Instead, he saw an opportunity to reinvent himself and climb the ladder of success.
+Jason's journey is a testament to the Achiever's relentless pursuit of success. He started as a reporter covering the <a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Jason_Calacanis">"internet industry"</a> during the dot-com boom. When the bubble burst, many would have been discouraged, but not Jason. Instead, he saw an opportunity to reinvent himself and climb the ladder of success.
 
 ### Rising from the Dot-Com Ashes
 

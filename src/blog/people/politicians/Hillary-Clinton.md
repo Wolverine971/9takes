@@ -49,7 +49,7 @@ tiktok: ''
 
 <p class="firstLetter">Hillary Clinton: a name that evokes strong reactions across the political spectrum.</p>
 
-But beyond the headlines and policy debates lies a complex personality driven by a profound sense of right and wrong. Let's dive into the psyche of this influential figure through the lens of the Enneagram, exploring how her Type 1 personality has shaped her life, career, and the American political landscape.
+But beyond the headlines and policy debates lies a complex personality driven by a profound sense of right and wrong. Let's dive into the psyche of this influential figure through the lens of the Enneagram, exploring how her [Type 1 personality](/enneagram-corner/enneagram-type-1) has shaped her life, career, and the American political landscape.
 
 ## The Essence of Enneagram Type 1: The Reformer
 
@@ -115,7 +115,7 @@ Hillary Clinton has been a pivotal figure in shaping the modern Democratic Party
 
 ### The Obama Partnership
 
-Hillary's relationship with [Barack Obama](personality-analysis/Barack-Obama) evolved from rivalry to partnership, showcasing her ability to put aside personal feelings for what she perceived as the greater good – a typical Type 1 trait.
+Hillary's relationship with [Barack Obama](/personality-analysis/Barack-Obama) evolved from rivalry to partnership, showcasing her ability to put aside personal feelings for what she perceived as the greater good – a typical Type 1 trait.
 
 After their hard-fought primary battle in 2008, Hillary said of joining Obama's cabinet: "**I want to be sure that we don't lose the lessons, the experience, the relationships that we've built around the world.**" This demonstrates her Type 1 focus on continuity and doing what she believes is right.
 
@@ -131,13 +131,13 @@ During the 2016 campaign, she famously said, "A man you can bait with a tweet is
 
 Under stress, Type 1s can take on negative traits of Type 4, becoming moody and irrational. We've seen glimpses of this in Hillary's occasional outbursts or moments of frustration during intense campaigns.
 
-For instance, her infamous "basket of deplorables" comment during the 2016 campaign could be seen as a stress-induced moment of emotional reactivity. She later expressed regret, saying, "I regret saying 'half' — that was wrong," showcasing the Type 1's tendency to self-correct and strive for accuracy.
+For instance, her infamous "basket of deplorables" comment during the 2016 campaign could be seen as a stress-induced moment of emotional reactivity. She later expressed regret, saying, "**I regret saying 'half' — that was wrong,**" showcasing the Type 1's tendency to self-correct and strive for accuracy.
 
 ### In Security: Moments of Joy
 
 Conversely, when secure, Type 1s move towards Type 7, becoming more spontaneous and joyful. Hillary's close friends often speak of her warmth and unexpected sense of humor – traits that rarely make it to the public eye.
 
-Her former aide, Huma Abedin, once shared, "Contrary to popular belief, Hillary Clinton is one of the most fun people to be around. She has a great sense of humor, and she's very curious about people." This side of Hillary aligns with the Type 1 in a state of security, able to relax their usual self-control.
+Her former aide, Huma Abedin, once shared, "**Contrary to popular belief, Hillary Clinton is one of the most fun people to be around. She has a great sense of humor, and she's very curious about people.**" This side of Hillary aligns with the Type 1 in a state of security, able to relax their usual self-control.
 
 ## The Reformer's Legacy
 

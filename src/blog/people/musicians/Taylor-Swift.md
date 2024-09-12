@@ -72,7 +72,7 @@ Here, we dive explore Taylor's personality, and propose that she the ambitious a
 
 ### Taylor Swift: A Classic Type 3
 
-At the heart of Taylor Swift’s persona lies a resolute Enneagram Type 3, the Achiever. This personality type is marked by ambition, efficiency, and charm, with individuals driven to excel and be perceived as successful. Swift, with her diligent work ethic and charisma, seamlessly embodies these traits.
+At the heart of Taylor Swift’s persona lies a resolute [Enneagram Type 3, the Achiever.](/enneagram-corner/enneagram-type-3) This personality type is marked by ambition, efficiency, and charm, with individuals driven to excel and be perceived as successful. Swift, with her diligent work ethic and charisma, seamlessly embodies these traits.
 
 #### Taylor’s Rise to Stardom
 

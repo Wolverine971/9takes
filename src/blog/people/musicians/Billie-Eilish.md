@@ -101,7 +101,7 @@ But here's where it gets interesting. Over the years, we've seen Billie evolve r
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Cm0MGnuRnH0?si=0CbxlSSqt8TD75ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-It's like watching a Type 4 in action, isn't it? The introspection, the self-awareness, the gradual building of confidence. It's no wonder <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Enneagram/comments/bkyew7/billie_eilish_embodying_type_4_for_11_minutes/">Reddit went wild</a>, calling this video the perfect embodiment of a Type 4.
+It's like watching a Type 4 in action, isn't it? The introspection, the self-awareness, the gradual building of confidence. It's no wonder <a class="external-link" target="_blank" rel="noopener" href="https://www.reddit.com/r/Enneagram/comments/bkyew7/billie_eilish_embodying_type_4_for_11_minutes/">Reddit went wild</a>, calling this video the perfect embodiment of a Type 4.
 
 ## The Emotional Alchemist
 

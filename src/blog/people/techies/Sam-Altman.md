@@ -58,7 +58,7 @@ His journey from the early days of Y Combinator to his current role at OpenAI is
 
 ### Sam Altman as an Enneagram Type 4
 
-Enneagram Type 4s, known as The Individualists, are defined by their uniqueness, emotional depth, and a constant quest for identity.
+[Enneagram Type 4s, known as The Individualists,](/enneagram-corner/enneagram-type-4) are defined by their uniqueness, emotional depth, and a constant quest for identity.
 
 They are the architects of innovation, driven by a profound sense of authenticity and a desire to make a mark in the world. And who better exemplifies this than Sam Altman? A visionary in the realm of technology, Altman's path from a curious innovator to a key player in AI development is a testament to the distinctive traits of Type 4.
 

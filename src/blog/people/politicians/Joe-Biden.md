@@ -61,7 +61,7 @@ He's a man driven by an innate desire to help others, a trait that has defined h
 
 ### Joe Biden is an Enneagram Type 2: The Helper
 
-Joe Biden embodies the Enneagram Type 2, often called "The Helper." These individuals are known for their warmth, empathy, and an almost compulsive need to be needed. They're the friends who always show up, the colleagues who remember everyone's birthdays, and in Joe's case, the politician who genuinely wants to make a difference in people's lives.
+Joe Biden embodies the [Enneagram Type 2, often called "The Helper."](/enneagram-corner/enneagram-type-2) These individuals are known for their warmth, empathy, and an almost compulsive need to be needed. They're the friends who always show up, the colleagues who remember everyone's birthdays, and in Joe's case, the politician who genuinely wants to make a difference in people's lives.
 
 Type 2s are motivated by a deep-seated desire to be loved and appreciated. They often put others' needs before their own, sometimes to a fault. Sound familiar? That's our Joe.
 

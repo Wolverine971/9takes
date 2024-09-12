@@ -63,9 +63,9 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 If you prefer online resources, these websites offer valuable information, interactive tools, and engaging content related to the Enneagram:
 
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.enneagraminstitute.com/">The Enneagram Institute</a> (enneagraminstitute.com): This website offers a wealth of information, including detailed type descriptions, personal growth recommendations, and the popular Riso-Hudson Enneagram Type Indicator (RHETI) test.
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.narrativeenneagram.org/">The Narrative Enneagram</a> (enneagramworldwide.com): This organization's website features a variety of resources, including articles, workshops, and training programs focused on the Enneagram and its applications in personal and professional settings.
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://enneagramuserguide.com/">Enneagram User Guide</a> (enneagramuserguide.com): This user-friendly website provides concise type descriptions, FAQs, and an interactive Enneagram test to help users identify their type and learn more about the system.
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.enneagraminstitute.com/">The Enneagram Institute</a> (enneagraminstitute.com): This website offers a wealth of information, including detailed type descriptions, personal growth recommendations, and the popular Riso-Hudson Enneagram Type Indicator (RHETI) test.
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.narrativeenneagram.org/">The Narrative Enneagram</a> (enneagramworldwide.com): This organization's website features a variety of resources, including articles, workshops, and training programs focused on the Enneagram and its applications in personal and professional settings.
+- <a class="external-link" target="_blank" rel="noopener" href="https://enneagramuserguide.com/">Enneagram User Guide</a> (enneagramuserguide.com): This user-friendly website provides concise type descriptions, FAQs, and an interactive Enneagram test to help users identify their type and learn more about the system.
 
 </article>
 
@@ -90,15 +90,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     is known for his book "The Road Back to You: An Enneagram Journey to Self-Discovery" which he co-authored with
     Suzanne Stabile.
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/ianmorgancron/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/ianmorgancron/">
         <img loading="lazy" src={instagram} alt="Ian Cron Instagram" title="Ian Cron Instagram" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/ianmorgancron">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/ianmorgancron">
         <img loading="lazy" src={twitter} alt="Ian Cron Twitter" title="Ian Cron Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://ianmorgancron.com">ianmorgancron.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://ianmorgancron.com">ianmorgancron.com</a>
     </p>
 </article>
 
@@ -107,15 +107,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Beatrice Chestnut is a licensed psychotherapist, coach, and business consultant based in San Francisco. She is
     author of the books "The Complete Enneagram" and "The 9 Types of Leadership".
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/beatrice.chestnut/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/beatrice.chestnut/">
         <img loading="lazy" src={instagram} alt="Beatrice Chestnut Instagram" title="Beatrice Chestnut Instagram"
             width="40" height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/beatricemc2">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/beatricemc2">
         <img loading="lazy" src={twitter} alt="Beatrice Chestnut Twitter" title="Beatrice Chestnut Twitter" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://beatricechestnut.com">beatricechestnut.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://beatricechestnut.com">beatricechestnut.com</a>
     </p>
 </article>
 
@@ -139,15 +139,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Russ Hudson is one of the leading scholars and innovative thinkers in the Enneagram world today. He is the
     co-founder of The Enneagram Institute and has co-authored several bestselling Enneagram books with Don Richard Riso.
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/hudson_russ/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/hudson_russ/">
         <img loading="lazy" src={instagram} alt="Russ Hudson Instagram" title="Russ Hudson Instagram" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/russ_hudson54">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/russ_hudson54">
         <img loading="lazy" src={twitter} alt="Russ Hudson Twitter" title="Russ Hudson Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://russhudson.com">russhudson.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://russhudson.com">russhudson.com</a>
     </p>
 </article>
 
@@ -156,15 +156,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Suzanne Stabile is a highly respected Enneagram master, author, and teacher. She co-authored "The Road Back to You"
     with Ian Cron and teaches popular Enneagram workshops.
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/suzannestabile/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/suzannestabile/">
         <img loading="lazy" src={instagram} alt="Suzanne Stabile Instagram" title="Suzanne Stabile Instagram" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/SuzanneStabile">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/SuzanneStabile">
         <img loading="lazy" src={twitter} alt="Suzanne Stabile Twitter" title="Suzanne Stabile Twitter" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://SuzanneStabile.com">SuzanneStabile.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://SuzanneStabile.com">SuzanneStabile.com</a>
     </p>
 </article>
 
@@ -172,15 +172,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em"> Sean Palmer</h3>
     Sean Palmer is an podcaster, and Enneagram coach. He is the author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a>: Enneagram Wisdom for Teachers, Pastors, and Communicators.
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/seanisaacpalmer/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/seanisaacpalmer/">
         <img loading="lazy" src={instagram} alt="Sean Palmer Instagram" title="Sean Palmer Instagram" width="40"
             height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/seanpalmer">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/seanpalmer">
         <img loading="lazy" src={twitter} alt="Sean Palmer Twitter" title="Sean Palmer Twitter" width="40" height="40"
             class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://seanisaacpalmer.com">seanisaacpalmer.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://seanisaacpalmer.com">seanisaacpalmer.com</a>
     </p>
 </article>
 
@@ -190,15 +190,15 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Contemplative Activism. He has authored the bestselling books "The Sacred Enneagram" and "The Enneagram of
     Belonging".
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/chrisheuertz/">
+    <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/chrisheuertz/">
         <img loading="lazy" src={instagram} alt="Christopher Heuertz Instagram" title="Christopher Heuertz Instagram"
             width="40" height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/ChrisHeuertz">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/ChrisHeuertz">
         <img loading="lazy" src={twitter} alt="Christopher Heuertz Twitter" title="Christopher Heuertz Twitter"
             width="40" height="40" class="icon" />
     </a>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://chrisheuertz.com">chrisheuertz.com</a>
+    <a class="external-link" target="_blank" rel="" href="https://chrisheuertz.com">chrisheuertz.com</a>
     </p>
 </article>
 
@@ -243,7 +243,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Enneagram teacher, coach, and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Modern-Enneagram-Discover-Who-You/dp/1939754070">"The Modern
     Enneagram"</a> Discover Who You Are and Who You Can Be.
     <p>
-    <a class="external-link" target="_blank" rel="noreferrer" href="https://twitter.com/InspireEnvision">
+    <a class="external-link" target="_blank" rel="" href="https://twitter.com/InspireEnvision">
         <img loading="lazy" src={twitter} alt="Melanie Bell Twitter" title="Melanie Bell Twitter" width="40" height="40"
             class="icon" />
     </a>

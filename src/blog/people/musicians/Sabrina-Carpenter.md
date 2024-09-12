@@ -103,7 +103,7 @@ At 25 years old and standing at a petite 5'1", this multifaceted artist has capt
 
 ## Understanding the Enneagram Type 3: The Achiever
 
-Enneagram Type 3, known as "The Achiever," is characterized by a core motivation to be valuable, successful, and admired. Their deepest fear is of being worthless or failing to achieve their goals. This drive often manifests as an intense work ethic, adaptability, and a keen awareness of image and presentation.
+Enneagram Type 3, known as ["The Achiever,"](/enneagram-corner/enneagram-type-3) is characterized by a core motivation to be valuable, successful, and admired. Their deepest fear is of being worthless or failing to achieve their goals. This drive often manifests as an intense work ethic, adaptability, and a keen awareness of image and presentation.
 
 Sabrina Carpenter's career trajectory and public persona offer compelling glimpses into these Type 3 traits. Her relentless pursuit of success across multiple entertainment domains - acting, singing, and Broadway - speaks to the Achiever's need to excel and be recognized. In interviews, Carpenter often emphasizes her work ethic and ambition, reflecting the Type 3's core motivation to be seen as valuable and successful.
 

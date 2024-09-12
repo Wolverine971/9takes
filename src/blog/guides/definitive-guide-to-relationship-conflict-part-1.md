@@ -76,13 +76,13 @@ Conflict can be a good thing.
 
 My therapist once told me "conflict is growth trying to happen." Consider that for a moment. The reason you are fighting is because something important is at stake. The conflict arises out of the struggle to understand the needs, wants, views and beliefs of another person.
 
-People and especially couples develop patterns when conflict arises. These patterns are usually bad and have the potential to break your relationship over time. According to <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, a revered expert when it comes to relationship conflict, he says that these patterns are either woring to erode trust or to build a stronger bond.
+People and especially couples develop patterns when conflict arises. These patterns are usually bad and have the potential to break your relationship over time. According to <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/about/john-julie-gottman/" >Dr. John Gottman</a>, a revered expert when it comes to relationship conflict, he says that these patterns are either woring to erode trust or to build a stronger bond.
 
 Gotman has written about "The Four Horsemen" bad conflict.
 
 <h2 id="fourhorsemen">What are the Four Horsemen?</h2>
 
-The Four Horsemen are the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a> that have been identified through relationship research. These four pitfalls lead to the end of relationships. The four horsemen are criticism, contempt, defensiveness, and stonewalling.
+The Four Horsemen are the <a class="external-link" target="_blank" rel="noopener " href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >four common relationship pitfalls</a> that have been identified through relationship research. These four pitfalls lead to the end of relationships. The four horsemen are criticism, contempt, defensiveness, and stonewalling.
 
 Here we will explain the patterns behind each of the pitfalls.
 
@@ -115,7 +115,7 @@ Stonewalling involves shutting down and refusing to engage with your partner. Th
   <figcaption>
   <cite>
   the antidotes for the Four Horsemen
-  <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/the-four-horsemen-the-antidotes/" > from the Gottman Institute
+  <a class="external-link" target="_blank" rel="noopener " href="https://www.gottman.com/blog/the-four-horsemen-the-antidotes/" > from the Gottman Institute
   </a>
   </cite>
   </figcaption>
@@ -132,7 +132,7 @@ The issue is not your partner or the person you are fighting.
 The problem is how the situation is being handled and the patterns you are falling into. You and the person you are fighting with have a lot in common. Find the common ground and cast a vision for how both can be done.
 If the situation were handled differently, you would not be fighting.
 
-Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
+Tony Robbins talks about the importance of focusing on <a class="external-link" target="_blank" rel="noopener" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >resolving the issue rather than defending yourself</a>. Where focus goes, energy flows. If you focus on where you don't want your relationship to end up, you'll find yourself there.
 
 <h3 id="effectivecomm">Effective Communication</h3>
 
@@ -178,7 +178,7 @@ Put yourself in your partner's shoes. Try to understand their feelings, needs, a
 
 <h3 id="commonground">Step 4: Find Common Ground</h3>
 
-Identify shared goals and values. This common ground will serve as the <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/">foundation for resolving the conflict</a>.
+Identify shared goals and values. This common ground will serve as the <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/">foundation for resolving the conflict</a>.
 
 <!-- >Looking for more practical steps?
 >Check out our blog on 5 Steps to Fight Better in Relationships. -->
@@ -195,10 +195,10 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
 
 ### Footnotes/ References
 
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/5-steps-to-fight-better-if-your-relationship-is-worth-fighting-for/" >5 Steps to Fight Better if Your Relationship is Worth Fighting For</a>
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >4 Conflict Styles That Hurt Your Relationship</a>
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >How to Resolve Conflict and Save Your Relationship</a>
-- <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/" >Managing vs. Resolving Conflict in Relationships: Blueprints for Success</a>
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/5-steps-to-fight-better-if-your-relationship-is-worth-fighting-for/" >5 Steps to Fight Better if Your Relationship is Worth Fighting For</a>
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/4-conflict-styles-that-hurt-your-relationship/" >4 Conflict Styles That Hurt Your Relationship</a>
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.tonyrobbins.com/ultimate-relationship-guide/resolve-conflict-save-relationship/" >How to Resolve Conflict and Save Your Relationship</a>
+- <a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-blueprints-success/" >Managing vs. Resolving Conflict in Relationships: Blueprints for Success</a>
 
 <svelte:head>
 

@@ -45,7 +45,7 @@ But have you ever wondered what drove this extraordinary man? What inner fire fu
 
 ### MLK: The Challenger with a Dream
 
-Martin Luther King Jr. embodied the essence of an Enneagram Type 8, known as "The Challenger."
+Martin Luther King Jr. embodied the essence of an [Enneagram Type 8, known as "The Challenger."](/enneagram-corner/enneagram-type-8)
 
 Type 8s are natural-born leaders, characterized by their strength, assertiveness, and protective nature. They have an innate desire to defend the vulnerable and fight against injustice - traits that defined MLK's life and legacy.
 

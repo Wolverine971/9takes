@@ -94,7 +94,7 @@ She was labeled the female <a href="/personality-analysis/Joe-Rogan">Joe Rogan</
 
 She is adapting and evolving, which also mirrors the characteristics of Type 7, who is always looking for the next exciting venture.
 
-Beyond the podcast, Alex has also launched <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/unwell/" >The Unwell Network</a>, collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
+Beyond the podcast, Alex has also launched <a class="external-link" target="_blank" rel="noopener" href="https://www.instagram.com/unwell/" >The Unwell Network</a>, collaborating with content creators across various mediums like pop-culture and fashion. This initiative further underscores her adventurous spirit.
 
 <!-- In essence, "Call Her Daddy" mirrors Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities. -->
 

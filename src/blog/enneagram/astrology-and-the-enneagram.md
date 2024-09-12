@@ -195,7 +195,7 @@ Many New Age practitioners offer workshops or personal readings that combine Enn
 
 - These might include analyzing one's Enneagram type in the context of their birth chart.
 - Some offer guidance on personal growth by integrating insights from both systems.
-- Relationship compatibility might be explored using both Enneagram dynamics and <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://astro-charts.com/tools/new/synastry/">synastry (astrological compatibility)</a>.
+- Relationship compatibility might be explored using both Enneagram dynamics and <a class="external-link" target="_blank" rel="noopener" href="https://astro-charts.com/tools/new/synastry/">synastry (astrological compatibility)</a>.
 
 ## Books and Resources
 

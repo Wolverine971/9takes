@@ -404,7 +404,7 @@ Here is a list of current and past research having to do with self-efficacy.
 <p class="panel">
 <b>Focus</b>: Future studies could explore how self-efficacy influences academic productivity and research interest.
 <br/>
-<b>Source</b>: <a href="https://psycnet.apa.org/record/2014-35856-001" class="external-link" target="_blank" rel="noopener noreferrer">The advisory working alliance and research training</a>: test of a relational efficacy model by M. A. Morrison & R. Lent, 2014</p>
+<b>Source</b>: <a href="https://psycnet.apa.org/record/2014-35856-001" class="external-link" target="_blank" rel="noopener ">The advisory working alliance and research training</a>: test of a relational efficacy model by M. A. Morrison & R. Lent, 2014</p>
 </details>
 
 <details>

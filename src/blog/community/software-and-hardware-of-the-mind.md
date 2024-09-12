@@ -51,7 +51,7 @@ Much like a computer operates with hardware and software, the human mind has the
 
 Because the mind’s “software” is poorly understood, we leave it to the experts.
 
-But “experts” do not have all the answers. To make matters worse, they are <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.quora.com/Do-psychiatrists-get-money-from-prescribing-patients-drugs">incentivized to give prescriptions</a>.
+But “experts” do not have all the answers. To make matters worse, they are <a class="external-link" target="_blank" rel="noopener " href="https://www.quora.com/Do-psychiatrists-get-money-from-prescribing-patients-drugs">incentivized to give prescriptions</a>.
 
 The **brain’s “software” is often only examined when something goes wrong** and a prescription is needed. This means that much remains to be explored and understood.
 

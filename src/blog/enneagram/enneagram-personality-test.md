@@ -52,7 +52,7 @@ it somehow. It could be many things:
 - A sibling or friend treated you a certain way
 - You were constantly told a specific message
 
-There is a great article here that explains and gives excellent examples of the <a class="external-link" target="_blank" rel=" noopener noreferrer" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >Enneagram's childhood wounds</a>.
+There is a great article here that explains and gives excellent examples of the <a class="external-link" target="_blank" rel=" noopener" href="https://www.psychologyjunkie.com/the-childhood-wounds-of-every-enneagram-type/" >Enneagram's childhood wounds</a>.
 
 You do not have to identify your childhood wound to find your
 type. Whatever your childhood was, it caused you to be sensitive to a specific

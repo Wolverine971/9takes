@@ -41,7 +41,7 @@ tiktok: ''
 
 <p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials.</p>
 
-<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.
+<a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.
 
 <details>
 <summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>

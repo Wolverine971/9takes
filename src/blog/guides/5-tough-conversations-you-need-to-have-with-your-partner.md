@@ -145,7 +145,7 @@ Its easy for the spark in your relationship to fade.
 
 If you aren't already married pretend you are for a minute. With the daily grind of work-kids-chores-dinner-netflix-repeat-, it's all too easy to drift into roommate mode with your partner. But neglecting your intimate connection is like forgetting to water a houseplant - eventually, it will shrivel up and die.
 
-The Gottmans found that the "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.gottman.com/blog/6-hours-a-week-to-a-better-relationship/">Magic Six Hours</a>" - a series of small, daily investments - can keep the spark alive:
+The Gottmans found that the "<a class="external-link" target="_blank" rel="noopener" href="https://www.gottman.com/blog/6-hours-a-week-to-a-better-relationship/">Magic Six Hours</a>" - a series of small, daily investments - can keep the spark alive:
 
 1. Partings: Take 2 minutes every morning to really connect before saying goodbye.
 2. Reunions: Spend 20 minutes at the end of each day sharing highlights and struggles.
