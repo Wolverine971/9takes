@@ -57,7 +57,7 @@ tiktok: ''
 
 <p class="firstLetter">You've witnessed her charisma, heard her speeches, and seen her navigate the challenging terrain of American politics.</p>
 
-Kamala Harris, the first woman and person of color to become Vice President of the United States, embodies the drive and adaptability characteristic of an Enneagram Type 3. Known as "The Achiever," Type 3s are goal-oriented, image-conscious individuals who thrive on success and recognition. But there's more to Harris than meets the eye.
+Kamala Harris, the first woman and person of color to become Vice President of the United States, embodies the drive and adaptability characteristic of an Enneagram Type 3. Known as ["The Achiever,"](/enneagram-corner/enneagram-type-3) Type 3s are goal-oriented, image-conscious individuals who thrive on success and recognition. But there's more to Harris than meets the eye.
 
 Did you know she's an avid cook who enjoys preparing Sunday family dinners?
 

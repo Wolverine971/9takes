@@ -4,7 +4,7 @@ description: "Uncover how AOC's Enneagram Type 6 personality fuels her bold poli
 author: 'DJ Wayne'
 date: '2024-05-06'
 loc: 'https://9takes.com/personality-analysis/Alexandria-Ocasio-Cortez'
-lastmod: '2024-05-06'
+lastmod: '2024-09-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -71,19 +71,19 @@ But what drives this firebrand congresswoman from the Bronx? Let's peel back the
 
 ### AOC: The Loyal Skeptic
 
-AOC embodies the essence of Enneagram Type 6, often called "The Loyal Skeptic." Type 6 individuals are known for their unwavering commitment to their beliefs, their ability to anticipate potential problems, and their fierce loyalty to their chosen causes and communities.
+AOC embodies the essence of Enneagram Type 6, often called ["The Loyal Skeptic."](/enneagram-corner/enneagram-type-6) Type 6 individuals are known for their unwavering commitment to their beliefs, their ability to anticipate potential problems, and their fierce loyalty to their chosen causes and communities.
 
 Type 6s are often driven by a core fear of being without support or guidance. This fear can manifest as a deep-seated desire to create security and stability, not just for themselves, but for those around them. Sound familiar? It's precisely this drive that fuels AOC's passionate advocacy for progressive policies aimed at creating a more equitable society.
 
 ## The Counterphobic Six: AOC's Fearless Stance
 
-One fascinating aspect of Enneagram Type 6 is the distinction between phobic and counterphobic reactions to fear. AOC demonstrates strong counterphobic tendencies, which explains her bold and confrontational approach to politics.
+One aspect of Enneagram Type 6 is the distinction between phobic and counterphobic reactions to fear. AOC demonstrates strong counterphobic tendencies, which explains her bold and confrontational approach to politics.
 
 Counterphobic Sixes, instead of retreating from their fears, charge headlong into them. This tendency manifests in AOC's fearless challenges to powerful figures and institutions, her willingness to speak truth to power, and her passionate advocacy for causes she believes in.
 
 ### Taking on Titans: AOC vs. Elon Musk
 
-A prime example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="/personality-analysis/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
+A example of AOC's counterphobic nature is her high-profile Twitter spats with tech billionaire <a href="/personality-analysis/Elon-Musk">Elon Musk</a>. When Musk took over Twitter and implemented controversial changes, AOC didn't hesitate to voice her criticisms.
 
 "**Lmao at a billionaire earnestly trying to sell people on the idea that 'free speech' is actually a $8/mo subscription plan,**" AOC tweeted, taking a direct jab at Musk's Twitter Blue subscription model.
 
@@ -95,7 +95,7 @@ This exchange showcases AOC's willingness to confront powerful figures head-on, 
 
 Born to working-class parents in the Bronx, AOC's childhood was shaped by the realities of economic struggle. Her father, a small business owner, and her mother, who often worked as a housekeeper, instilled in her a strong work ethic and a deep understanding of the challenges faced by everyday Americans.
 
-"**I grew up in a place where your zip code determined your destiny,**" AOC once said, highlighting how her upbringing influenced her worldview and political aspirations.
+"**I grew up in a place where your zip code determined your destiny,**" AOC once said.
 
 This childhood experience of economic uncertainty likely contributed to her Type 6 tendency to seek security and stability, not just for herself, but for her community at large.
 
@@ -111,7 +111,7 @@ Her grassroots campaign, fueled by small donations and an army of volunteers, sh
 
 ### Unfiltered Authenticity
 
-One of AOC's most striking qualities is her unfiltered authenticity – a trait that resonates with her Type 6 personality. She's not afraid to speak her mind, even when it goes against the grain of established political norms.
+One of AOC's most striking qualities is her unfiltered authenticity. She's not afraid to speak her mind, even when it goes against the grain of established political norms.
 
 "**I'm not a superhero. I'm not a villain. I'm just a person trying to do the right thing,**" AOC once said, reflecting the Type 6's tendency for self-doubt coupled with a strong moral compass.
 
@@ -119,11 +119,11 @@ One of AOC's most striking qualities is her unfiltered authenticity – a trait 
 
 AOC's mastery of social media is legendary. From Instagram Live cooking sessions to Twitter clapbacks, she uses these platforms to connect directly with her constituents and supporters.
 
-This digital savvy isn't just about being trendy – it's a manifestation of the Type 6's desire to build community and share information. By demystifying the political process, AOC creates the transparency and accountability that Type 6s crave.
+This digital savvy isn't just about being trendy – it's about building community and building allies. By demystifying the political process and sharing information, AOC creates the both the transparency that Type 6s crave and the friends and support that they need.
 
 ### Preparation and Persistence
 
-True to her Type 6 nature, AOC is known for her meticulous preparation and persistence. Whether it's grilling witnesses in congressional hearings or crafting legislation, she leaves no stone unturned.
+AOC is known for her meticulous preparation and persistence. Whether it's grilling witnesses in congressional hearings or crafting legislation, she leaves no stone unturned.
 
 "**I prepare and prepare and prepare, and then I get up there and just let it rip,**" AOC has said about her approach to congressional hearings, showcasing the Type 6's commitment to being prepared for any eventuality.
 
@@ -135,7 +135,7 @@ AOC's introduction of the Green New Deal resolution in 2019 sent shockwaves thro
 
 ### Shifting the Overton Window
 
-Perhaps AOC's most significant accomplishment has been her role in shifting the Overton window of political discourse. By fearlessly advocating for progressive policies once considered too radical, she's expanded the realm of what's politically possible.
+Perhaps AOC's most significant accomplishment has been her role in shifting the Overton window of political discourse. By advocating for progressive policies once considered too radical, she's expanded the realm of what's politically possible.
 
 This willingness to challenge the status quo is quintessential Type 6 behavior – questioning authority and pushing for change in the face of opposition.
 
@@ -175,8 +175,8 @@ As we've seen, understanding AOC through the lens of the Enneagram offers fascin
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-07-10",
-      "datePublished": "2024-07-10",
+      "dateModified": "2024-09-11",
+      "datePublished": "2024-05-06",
       "description": "Uncover how AOC's Enneagram Type 6 personality fuels her bold politics. From Bronx bartender to Congress, explore the mind behind the movement.",
       "headline": "AOC Decoded: The Fearless Type 6 Congresswoman",
       "image": {
