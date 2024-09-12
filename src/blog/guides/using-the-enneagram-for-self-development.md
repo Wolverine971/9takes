@@ -1,5 +1,5 @@
 ---
-title: 'The Enneagram and Self-Development: A Comprehensive Guide to Personal Growth'
+title: 'The Enneagram and Self-Development: A Guide to Personal Growth'
 description: 'Discover how the Enneagram can transform your self-development journey. Learn practical tips for growth, better relationships, and deeper self-understanding.'
 author: 'DJ Wayne'
 date: '2024-08-10'

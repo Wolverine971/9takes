@@ -1,5 +1,5 @@
 ---
-title: 'Toxic Traits in Relationships: An Enneagram Guide to Early Warning Signs'
+title: 'Toxic Traits in Relationships: An Enneagram Guide to the Warning Signs'
 description: 'Uncover toxic relationship traits for each Enneagram type. Identify early warning signs, understand motivations, and build healthier partnerships.'
 author: 'DJ Wayne'
 date: '2024-07-31'

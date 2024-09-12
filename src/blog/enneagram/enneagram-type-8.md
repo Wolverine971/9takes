@@ -24,8 +24,6 @@ blog: true
 <Carousel type={8} gridDisplay={true}/>
 <br>
 
-# Enneagram Type 8: The Challenger
-
 <p class="firstLetter">Type 8s, known as "The Challengers," embody assertiveness and self-confidence with a profound need for control.</p>
 
 They are the quintessential rugged individuals, direct in their approach and often perceived as domineering. Their go-to coping mechanism is to control the situation, a strategy that has served them well since childhood.

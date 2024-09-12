@@ -74,7 +74,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </details>
 
  <article class="section-content">
-<h2 id="type1">Enneagram Type 1 - The Perfectionist: Communicating with Precision and Purpose</h2>
+<h2 id="type1">Enneagram Type 1 - The Perfectionist: Communicating with Precision</h2>
 
 <p>Ones value order, organization, and structure. They strive to live according to their principles and beliefs and can be critical of themselves and others when they fall short.</p>
 
@@ -134,7 +134,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
-<h2 id="type2">Enneagram Type 2 - The Helper: Empathetic Communication for Strong Connections</h2>
+<h2 id="type2">Enneagram Type 2 - The Helper: Empathetic Communication</h2>
 
 <p>Twos value relationships and are generous, caring, and nurturing. They have a strong desire to be needed and appreciated by others.</p>
 
