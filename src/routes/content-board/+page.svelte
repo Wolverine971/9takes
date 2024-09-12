@@ -119,70 +119,79 @@
 	}
 </script>
 
-<select bind:value={activeSelection}>
-	{#each contentTypes as type}
-		<option value={type}>{type.toUpperCase()}</option>
-	{/each}
-</select>
+<div class="glass-card" style="max-width: max-content;">
+	<div class="row">
+		<a href="/admin/users">Users</a> |
+		<a href="/admin/questions">Questions</a> |
+		<a href="/admin/comments" class="active-link">Comments</a> |
+		<a href="/content-board">Content Board</a>|
+		<a href="/admin/messages">Messages</a>
+	</div>
+	<select bind:value={activeSelection} style="margin: auto;">
+		{#each contentTypes as type}
+			<option value={type}>{type.toUpperCase()}</option>
+		{/each}
+	</select>
 
-<h2>{activeSelection.toUpperCase()}</h2>
-<div class="trello-board">
-	{#each stages as stage, stageIndex}
-		<div
-			class="stage"
-			on:dragover={dragOver}
-			on:drop={async (event) => await drop(event, stageIndex, activeSelection)}
-			role="list"
-			aria-label={`${stage} stage`}
-		>
-			<h3 id={`stage-${stageIndex}-heading`}>{stage}</h3>
-			{#if activeSelection && data[activeSelection]}
-				{#each data[activeSelection]
-					.filter((blog) => blog.stage === stageIndex)
-					.sort((a, b) => {
-						// Turn your strings into dates, and then subtract them
-						// to get a value that is either negative, positive, or zero.
-						return new Date(b.lastmod) - new Date(a.lastmod);
-					}) as blog, index}
-					{#if blog.title}
-						<div
-							class="card"
-							class:expanded={expandedBlogTitle === blog.title}
-							draggable={expandedBlogTitle !== blog.title}
-							on:dragstart={(event) => dragStart(event, blog.title)}
-							role="listitem"
-							aria-labelledby={`blog-title-${stageIndex}-${index}`}
-						>
-							<div role="region" aria-labelledby={`blog-title-${stageIndex}-${index}`}>
-								<h4 id={`blog-title-${stageIndex}-${index}`} class="card-title">
-									{blog.title}
-									<button
-										type="button"
-										class="btn btn-primary"
-										on:click={() => expand(blog)}
-										aria-label={expandedBlogTitle === blog.title ? 'Collapse' : 'Expand'}
-									>
-										<svelte:component
-											this={expandedBlogTitle === blog.title ? DownIcon : RightIcon}
-										/>
-									</button>
-								</h4>
-								{#if expandedBlogTitle === blog.title}
-									<div
-										id={`blog-content-${stageIndex}-${index}`}
-										role="region"
-										aria-labelledby={`blog-title-${stageIndex}-${index}`}
-									>
-										<ContentCard blogContent={blog} />
-									</div>
-								{/if}
+	<h2>{activeSelection.toUpperCase()}</h2>
+	<div class="trello-board">
+		{#each stages as stage, stageIndex}
+			<div
+				class="stage"
+				on:dragover={dragOver}
+				on:drop={async (event) => await drop(event, stageIndex, activeSelection)}
+				role="list"
+				aria-label={`${stage} stage`}
+			>
+				<h3 id={`stage-${stageIndex}-heading`}>{stage}</h3>
+				{#if activeSelection && data[activeSelection]}
+					{#each data[activeSelection]
+						.filter((blog) => blog.stage === stageIndex)
+						.sort((a, b) => {
+							// Turn your strings into dates, and then subtract them
+							// to get a value that is either negative, positive, or zero.
+							return new Date(b.lastmod) - new Date(a.lastmod);
+						}) as blog, index}
+						{#if blog.title}
+							<div
+								class="card"
+								class:expanded={expandedBlogTitle === blog.title}
+								draggable={expandedBlogTitle !== blog.title}
+								on:dragstart={(event) => dragStart(event, blog.title)}
+								role="listitem"
+								aria-labelledby={`blog-title-${stageIndex}-${index}`}
+							>
+								<div role="region" aria-labelledby={`blog-title-${stageIndex}-${index}`}>
+									<h4 id={`blog-title-${stageIndex}-${index}`} class="card-title">
+										{blog.title}
+										<button
+											type="button"
+											class="btn btn-primary"
+											on:click={() => expand(blog)}
+											aria-label={expandedBlogTitle === blog.title ? 'Collapse' : 'Expand'}
+										>
+											<svelte:component
+												this={expandedBlogTitle === blog.title ? DownIcon : RightIcon}
+											/>
+										</button>
+									</h4>
+									{#if expandedBlogTitle === blog.title}
+										<div
+											id={`blog-content-${stageIndex}-${index}`}
+											role="region"
+											aria-labelledby={`blog-title-${stageIndex}-${index}`}
+										>
+											<ContentCard blogContent={blog} />
+										</div>
+									{/if}
+								</div>
 							</div>
-						</div>
-					{/if}
-				{/each}
-			{/if}
-		</div>
-	{/each}
+						{/if}
+					{/each}
+				{/if}
+			</div>
+		{/each}
+	</div>
 </div>
 
 <style lang="scss">

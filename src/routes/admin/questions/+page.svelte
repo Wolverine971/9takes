@@ -14,13 +14,20 @@
 </script>
 
 {#if data.user?.admin}
-	<div class="admin-panel">
-		<div class="row">
+	<div class="glass-card">
+		<!-- <div class="row">
 			{#each navItems as item}
 				<a href={item.href} class="nav-item" class:active-link={item.href === '/admin/questions'}>
 					{item.label}
 				</a>
 			{/each}
+		</div> -->
+		<div class="row">
+			<a href="/admin/users">Users</a> |
+			<a href="/admin/questions" class="active-link">Questions</a> |
+			<a href="/admin/comments">Comments</a> |
+			<a href="/content-board">Content Board</a>|
+			<a href="/admin/messages">Messages</a>
 		</div>
 
 		<h1>Questions Page</h1>

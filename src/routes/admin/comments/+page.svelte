@@ -35,6 +35,7 @@
 			<a href="/admin/users">Users</a> |
 			<a href="/admin/questions">Questions</a> |
 			<a href="/admin/comments" class="active-link">Comments</a> |
+			<a href="/content-board">Content Board</a>|
 			<a href="/admin/messages">Messages</a>
 		</div>
 		<div>
