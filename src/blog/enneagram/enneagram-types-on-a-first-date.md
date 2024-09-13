@@ -8,11 +8,21 @@ lastmod: '2023-08-27'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['situational']
+type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-on-a-first-date'
 ---
+
+<!--
+
+todo update
+cute date ideas
+follow up to this blog- dating guide for each enneagram type
+
+second date ideas
+
+-->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";

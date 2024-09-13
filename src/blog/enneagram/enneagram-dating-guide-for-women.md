@@ -8,7 +8,7 @@ lastmod: '2024-09-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-type: ['situational']
+type: ['relationships']
 blog: true
 previewHtml: ''
 pic: 'greek-statues-on-a-first-date'
