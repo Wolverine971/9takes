@@ -244,7 +244,7 @@ export async function GET() {
 	</url>
 	<url>
 	    <loc>https://9takes.com/blog/experiment</loc>
-	    <lastmod>2024-02-01</lastmod>
+	    <lastmod>2024-09-13</lastmod>
 	    <changefreq>yearly</changefreq>
 	    <priority>0.5</priority>
 	</url>

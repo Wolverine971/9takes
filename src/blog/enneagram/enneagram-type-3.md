@@ -123,7 +123,7 @@ Recognizing these challenges is the first step towards personal growth and achie
 
 <section class="section-content">
 
-<h2 id="motivations">🧭 Motivations of Enneagram Type 3s</h2>
+<h2 id="motivations">🧭 Motivations of an Enneagram Type 3</h2>
 
 Enneagram Type 3 individuals, "The Achievers," are driven by a complex web of motivations that fuel their relentless pursuit of success:
 

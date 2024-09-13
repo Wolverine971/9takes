@@ -1753,7 +1753,7 @@
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://9takes.com/blog/experiment" />
-	<meta property="og:image" content="https://9takes.com/brand/darkRubix.png" />
+	<meta property="og:image" content="https://9takes.com/blogs/experiment.webp" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@9takesdotcom" />
 	<meta name="twitter:title" content="One Minute Emotions Experiment | 9takes" />
@@ -1761,7 +1761,7 @@
 		name="twitter:description"
 		content="Explore your emotions in just 60 seconds. Use our Emotion Analyzer to understand your feelings and personality better."
 	/>
-	<meta name="twitter:image" content="https://9takes.com/brand/darkRubix.png" />
+	<meta name="twitter:image" content="https://9takes.com/blogs/s-experiment.webp" />
 	<link rel="canonical" href="https://9takes.com/blog/experiment" />
 	<script type="application/ld+json">
 	{
@@ -1776,7 +1776,7 @@
 				"inLanguage": "en-US",
 				"isPartOf": {
 					"@type": "WebSite",
-					"@id": "https://9takes.com/#website",
+					"@id": "https://9takes.com",
 					"name": "9takes",
 					"description": "Personality Insights and Emotional Intelligence",
 					"url": "https://9takes.com/"
@@ -1808,6 +1808,12 @@
 				"datePublished": {
 					"@type": "Date",
 					"@value": "2024-02-01"
+				},
+				"image": {
+					"@type": "ImageObject",
+					"height": 900,
+					"url": "https://9takes.com/blogs/s-experiment.webp",
+					"width": 900
 				},
 				"headline": "One Minute Emotions Experiment: Analyze and Understand Your Feelings",
 				"mainEntityOfPage": {

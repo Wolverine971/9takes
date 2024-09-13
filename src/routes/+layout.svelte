@@ -7,6 +7,7 @@
 	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 	import { dev } from '$app/environment';
 	import { preparePageTransition } from '$lib/page-transition';
+	// import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 
 	preparePageTransition();
 
@@ -16,6 +17,7 @@
 			params: $page.params,
 			analyticsId
 		});
+		// injectSpeedInsights();
 	}
 	import { inject } from '@vercel/analytics';
 

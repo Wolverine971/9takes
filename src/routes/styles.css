@@ -226,6 +226,10 @@ article {
 	padding: 0.2rem 0;
 }
 
+.section-content h4 {
+	padding: 0.2rem 0 !important;
+}
+
 .section-meta {
 	display: flex;
 	flex-direction: column;

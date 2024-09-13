@@ -11,7 +11,9 @@ published: true
 pic: 'two-greek-statues-having-a-serious-conversation'
 ---
 
-<!-- todo -->
+<!-- todo
+
+get more niche-->
 <!-- // notes:  -->
 
 <script>
