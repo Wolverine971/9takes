@@ -102,7 +102,7 @@ Remember the Disney days of Demi Lovato? The Camp Rock era might seem like a dis
 Too many "withs" in sentence startin gwith "The constant scrutiny" -->
 <!-- Emojis used for overdose is offensive considering subject matter -->
 
-The struggle amplified with her rapid ascent to fame. The constant scrutiny, combined with personal battles with mental health, led to a well-documented episode of overdose and subsequent rehab stint 💊🚑. Here, we witness the quintessential Type 4 struggle: the battle against feelings of inadequacy and the desire to define one's unique identity.
+The struggle amplified with her rapid ascent to fame. The constant scrutiny, combined with personal battles with mental health, led to a well-documented episode of overdose and subsequent rehab stint 💊🚑. Here, we witness the classic Type 4 struggle: the battle against feelings of inadequacy and the desire to define one's unique identity.
 
 <!-- "The Individualist" and " From Camp Rock to Rehab" Sections are way too similar and end with the same idea-- combine them -->
 

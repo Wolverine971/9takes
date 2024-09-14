@@ -48,7 +48,7 @@ The founding father, Alex Cooper of the "Call Her Daddy" podcast is a force to b
 <summary class="accordion">TL;DR: Why Alex Cooper is an Enneagram type 7</summary>
 <div class="panel">
 <ul>
-<li><b>The Adventurous Podcaster</b>: When you think of Alex Cooper, her podcast "Call Her Daddy" probably comes to mind. The show's eclectic mix of topics and her zest for exploring new experiences make her a quintessential Type 7. This type is known for its love of adventure and variety, which Alex embodies through her ever-evolving podcast.
+<li><b>The Adventurous Podcaster</b>: When you think of Alex Cooper, her podcast "Call Her Daddy" probably comes to mind. The show's eclectic mix of topics and her zest for exploring new experiences make her a classic Type 7. This type is known for its love of adventure and variety, which Alex embodies through her ever-evolving podcast.
 </li>
 <li><b>The Inner World of Alex Cooper</b>: While Alex is known for her extroverted personality, what many may not see is her constant search for fulfillment and avoidance of pain, typical of a Type 7. She likely spends her days working and seeking new opportunities and experiences that promise emotional satisfaction, whether it's a new podcast topic or a social event.
 </li>

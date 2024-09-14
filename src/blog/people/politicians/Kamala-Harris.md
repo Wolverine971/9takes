@@ -155,7 +155,7 @@ Harris's career trajectory is a testament to the power of ambition when coupled 
 
 How does a critic become a running mate?
 
-Harris's chameleon-like ability to adapt is quintessential Type 3. She seamlessly shifted from challenging <a href="/personality-analysis/Joe-Biden">Biden</a> to becoming his advocate. This flexibility allows her to navigate complex political landscapes, building broad coalitions crucial in today's polarized environment.
+Harris's chameleon-like ability to adapt is classic Type 3. She seamlessly shifted from challenging <a href="/personality-analysis/Joe-Biden">Biden</a> to becoming his advocate. This flexibility allows her to navigate complex political landscapes, building broad coalitions crucial in today's polarized environment.
 
 Her adaptability demonstrates the Type 3's skill in reading rooms and adjusting strategies to achieve their goals.
 

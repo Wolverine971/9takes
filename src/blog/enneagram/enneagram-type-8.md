@@ -26,7 +26,7 @@ blog: true
 
 <p class="firstLetter">Type 8s, known as "The Challengers," embody assertiveness and self-confidence with a profound need for control.</p>
 
-They are the quintessential rugged individuals, direct in their approach and often perceived as domineering. Their go-to coping mechanism is to control the situation, a strategy that has served them well since childhood.
+They are the archetypal rugged individuals, direct in their approach and often perceived as domineering. Their go-to coping mechanism is to control the situation, a strategy that has served them well since childhood.
 
 At some point in an 8's early life, they learned that showing weakness could lead to being crushed. This realization led them to develop a protective shell, learning that survival depended on strength. Their chosen life strategy is to gain power in every aspect of life, ensuring they never have to feel vulnerable again.
 

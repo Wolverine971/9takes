@@ -43,7 +43,7 @@ tiktok: ''
 
 ### Type 1: The Perfectionist
 
-Enneagram Type 1, often labeled as 'The Perfectionist,' is characterized by a strong sense of right and wrong, a deep commitment to improvement, and an underlying drive for integrity and balance. These individuals are often detail-oriented, conscientious, and hold themselves to high standards. But what makes Jennifer Garner a quintessential Type 1?
+Enneagram Type 1, often labeled as 'The Perfectionist,' is characterized by a strong sense of right and wrong, a deep commitment to improvement, and an underlying drive for integrity and balance. These individuals are often detail-oriented, conscientious, and hold themselves to high standards. But what makes Jennifer Garner a classic Type 1?
 
 ## Garner's Drive for Perfection and Integrity
 

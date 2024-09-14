@@ -43,7 +43,7 @@ But what drove this captivating leader? Let's peel back the layers of JFK's pers
 
 ## What Was John F. Kennedy's Personality Type?
 
-### JFK: The Quintessential Enneagram 7
+### JFK: The Archetypal Enneagram 7
 
 John F. Kennedy embodied the essence of an Enneagram Type 7 – the Enthusiast. Known for their zest for life, adventurous spirit, and ability to inspire others, Type 7s are the eternal optimists of the Enneagram world.
 

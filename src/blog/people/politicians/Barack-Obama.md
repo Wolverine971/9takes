@@ -52,7 +52,7 @@ In personality psychology, few tools can rival the insight and understanding the
 </li>
 <li><b>Controversial 'Inaction':</b> Critics have often targeted Obama's perceived lack of aggressive engagement, framing it as inaction. Seen through the lens of Type 9, however, this could be his way of avoiding conflict and disruption to maintain peace. This approach aligns with Type 9's core fear of disconnection and their childhood wound of neglect or dismissal of their preferences, warranting our empathy.
 </li>
-<li><b>Motivated by Harmony:</b> Every action of Obama can arguably be traced back to a motivation to create unity and harmony, the quintessential Type 9's drive. His 'soft power' diplomatic and global approach and his famous emphasis on an undivided America all point towards the Type 9's core motivation - a desire for internal and external peace.
+<li><b>Motivated by Harmony:</b> Every action of Obama can arguably be traced back to a motivation to create unity and harmony, which is the Type 9's internal drive. His 'soft power' diplomatic and global approach and his famous emphasis on an undivided America all point towards the Type 9's core motivation - a desire for internal and external peace.
 </li>
 </ul>
   </div>
@@ -86,7 +86,7 @@ Obama's criticisms revolved around his perceived inaction or unwillingness to en
 
 All these accounts show a lack of willingness to get involved.
 
-However, through the lens of Type 9, this could be interpreted as a deep-seated desire to maintain peace, adopting a "soft power" approach rather than confrontation - a quintessential Type 9 strategy.
+However, through the lens of Type 9, this could be interpreted as a deep-seated desire to maintain peace, adopting a "soft power" approach rather than confrontation - a classic Type 9 strategy.
 
 ### Obama's Desire for Unity and Harmony
 

@@ -86,7 +86,7 @@ This ability to tap into deep emotions and translate them into art is a hallmark
 
 ### Chromatica
 
-Gaga's 2020 album "Chromatica" was a journey through her mental health struggles. She shared, "I think it really freed me to be able to experience my emotions fully." This willingness to explore and express even the darkest emotions is quintessential Type 4.
+Gaga's 2020 album "Chromatica" was a journey through her mental health struggles. She shared, "I think it really freed me to be able to experience my emotions fully." This willingness to explore and express even the darkest emotions is classic Type 4.
 
 ## Drama and Controversies: The Price of Authenticity
 

@@ -80,7 +80,7 @@ Amber's journey to stardom is a classic Type 3 narrative. At 17, she dropped out
 
 Her breakout role in "Pineapple Express" showcased not just her acting chops, but her ability to captivate an audience. Director David Gordon Green praised her, saying, "Amber has this unique quality of being able to be tough and vulnerable at the same time."
 
-This duality is quintessential Type 3 - the ability to read a room and become what others want to see.
+This duality is typical of Type 3, they have the ability to read a room and become what others want to see.
 
 ## The Inner World of Amber Heard
 

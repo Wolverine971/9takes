@@ -97,7 +97,7 @@ She performed at the "We Can Survive" benefit concert, donating proceeds to clim
 
 Perhaps most importantly, Lana has been open about her struggles with mental health, helping to destigmatize these issues for her fans.
 
-"**I've been through periods of darkness,**" she shared with NME. "**But I think it's important to talk about it, to help others feel less alone.**" This vulnerability and desire to connect through shared pain is quintessential Type 4 behavior.
+"**I've been through periods of darkness,**" she shared with NME. "**But I think it's important to talk about it, to help others feel less alone.**" This vulnerability and desire to connect through shared pain is classic Type 4 behavior.
 
 ## Drama and Controversies: Navigating the Spotlight
 

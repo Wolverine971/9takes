@@ -137,7 +137,7 @@ AOC's introduction of the Green New Deal resolution in 2019 sent shockwaves thro
 
 Perhaps AOC's most significant accomplishment has been her role in shifting the Overton window of political discourse. By advocating for progressive policies once considered too radical, she's expanded the realm of what's politically possible.
 
-This willingness to challenge the status quo is quintessential Type 6 behavior – questioning authority and pushing for change in the face of opposition.
+This willingness to challenge the status quo is classic Type 6 behavior – questioning authority and pushing for change in the face of opposition.
 
 ### Championing Working-Class Issues
 

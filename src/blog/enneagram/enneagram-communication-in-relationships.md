@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Insights for Relationship Communication'
+title: 'Relationship Communication Insights from the Enneagram'
 description: "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy"
 author: 'DJ Wayne'
 date: '2023-03-26'
@@ -244,7 +244,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         "@type": "WebPage",
         "@id": "https://9takes.com/enneagram-corner/enneagram-communication-in-relationships"
       },
-      "headline": "Enneagram Insights for Relationship Communication",
+      "headline": "Relationship Communication Insights from the Enneagram",
       "description": "Improving Relationships through the Enneagram: Understanding Your Partner's Type for Better Communication and Intimacy",
       "image": {
         "@type": "ImageObject",

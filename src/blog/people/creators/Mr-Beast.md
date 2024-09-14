@@ -70,7 +70,7 @@ But what drives the man behind the extravagant videos and philanthropic gestures
 
 ## What is MrBeast's Personality Type?
 
-### MrBeast: The Quintessential Enneagram Type 8
+### MrBeast: The Classic Enneagram Type 8
 
 MrBeast embodies the essence of an Enneagram Type 8, often called "The Challenger." Type 8s are known for their strength, assertiveness, and desire to make a big impact on the world around them. They're natural leaders who aren't afraid to take risks and push boundaries.
 

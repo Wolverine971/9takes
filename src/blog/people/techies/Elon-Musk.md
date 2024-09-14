@@ -91,7 +91,7 @@ What is behind the larger-than-life persona besides a complex mind, an insatiabl
 
 ## What is Elon Musk's Personality Type?
 
-### Elon Musk: The Quintessential Type 5
+### Elon Musk: The Consummate Type 5
 
 Elon Musk embodies the essence of an Enneagram Type 5, often called "The Investigator." Type 5s are known for their intense curiosity, analytical minds, and desire to understand how things work. They're the ones who stay up all night reading obscure research papers, just because they can't stop wondering "what if?"
 

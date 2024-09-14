@@ -105,7 +105,7 @@ Beneath the glitz and glamour lies an individual propelled by a potent blend of 
 
 ### The Real Measure of Success
 
-Dua Lipa's impressive net worth, estimated to be in the tens of millions, certainly signifies her commercial success. Yet, the true measure of Dua's wealth lies in her relentless pursuit of her dreams. This trait became apparent in her collaboration with Coldplay 🎤🤝, where she exhibited a desire to push boundaries and aim for new zeniths - a quintessential characteristic of an Enneagram Type 3.
+Dua Lipa's impressive net worth, estimated to be in the tens of millions, certainly signifies her commercial success. Yet, the true measure of Dua's wealth lies in her relentless pursuit of her dreams. This trait became apparent in her collaboration with Coldplay 🎤🤝, where she exhibited a desire to push boundaries and aim for new zeniths - a classic characteristic of an Enneagram Type 3.
 
 ## The Fuel of her Unrelenting Ambition
 

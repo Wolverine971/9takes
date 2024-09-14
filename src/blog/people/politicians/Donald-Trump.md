@@ -79,7 +79,7 @@ Donald Trump embodies the archetype of the [Enneagram Type 8](/enneagram-corner/
 
 Trump's larger-than-life persona perfectly aligns with these traits. His need to assert control is evident in his business dealings, his political career, and even his personal relationships. As he once famously said, "I like thinking big. If you're going to be thinking anything, you might as well think big."
 
-But there's more to Trump than meets the eye. Let's dive deeper into the makings of this quintessential Type 8.
+But there's more to Trump than meets the eye. Let's dive deeper into the makings of this archetypal Type 8.
 
 ## The Making of a Challenger: Trump's Upbringing
 

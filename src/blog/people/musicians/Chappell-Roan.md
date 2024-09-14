@@ -238,7 +238,7 @@ As we've peeled back the layers of Chappell's personality, one question remains:
           "name": "How does Chappell Roan's Enneagram Type 7 personality shape her approach to challenges?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As a Type 7, Chappell Roan tends to transform pain into joy. For example, when feeling down about her career, she channeled that energy into creating 'Pink Pony Club,' a euphoric celebration of identity and belonging. This ability to alchemize disappointment into inspiration is quintessentially Type 7."
+            "text": "As a Type 7, Chappell Roan tends to transform pain into joy. For example, when feeling down about her career, she channeled that energy into creating 'Pink Pony Club,' a euphoric celebration of identity and belonging. This ability to alchemize disappointment into inspiration is classically Type 7."
           }
         },
         {
