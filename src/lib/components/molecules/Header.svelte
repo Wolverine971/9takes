@@ -92,7 +92,7 @@
 			<div class="mobile-ham" class:absolute-pos={isHomePage}>
 				<MobileHam />
 				<a href="/" class="brand" aria-label="Home">
-					<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+					<img src="/brand/aero.png" alt="" height={60} width={60} />
 				</a>
 				{#if data?.session?.user}
 					<div class="corner">
@@ -103,7 +103,7 @@
 							class="corner-icon"
 							aria-label="Go to account"
 						>
-							<img src={account} alt="Account" width="30" height="30" />
+							<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
 						</button>
 					</div>
 				{/if}
@@ -111,7 +111,10 @@
 		{:else}
 			<nav class="nav-bar" class:absolute-pos={isHomePage}>
 				<a href="/" class="brand left" aria-label="Home">
-					<Rubix height={50} width={50} svgStyle="margin: 1rem" />
+					<!-- <Rubix height={50} width={50} svgStyle="margin: 1rem" /> -->
+					<div class="app-icon">
+						<img src="/brand/aero.png" alt="" height={60} width={60} />
+					</div>
 					{#if !isHomePage}
 						<Scribble text="9takes" />
 					{/if}
@@ -174,7 +177,13 @@
 					<div class="corner-right-big right">
 						<a href="/account">
 							<button type="button" class="corner-icon">
-								<img src={account} alt="Account" title="Account" width="30" height="30" />
+								<img
+									src="/brand/account-icon2.png"
+									alt="Account"
+									title="Account"
+									width="30"
+									height="30"
+								/>
 							</button>
 						</a>
 					</div>
@@ -191,6 +200,20 @@
 {/if}
 
 <style lang="scss">
+	.app-icon {
+		display: inline-block;
+		position: relative;
+		transition: transform 0.3s ease-in-out;
+
+		img {
+			transition: box-shadow 0.3s ease-in-out;
+		}
+
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+
 	.question-blink {
 		$shadow-color: var(--primary);
 		box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px $shadow-color, 0 0 30px $shadow-color,
@@ -447,7 +470,12 @@
 			background: no-repeat;
 			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
-			background-color: var(--base-white-outline);
+
+			transition: transform 0.3s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+				border: var(--classic-border);
+			}
 		}
 
 		.mobile-ham {
