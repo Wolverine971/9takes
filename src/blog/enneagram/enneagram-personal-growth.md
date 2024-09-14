@@ -21,7 +21,7 @@ fix this
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
 
 <script>
-    import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+  import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <!-- <div
@@ -84,6 +84,10 @@ Ideal Environment: A goal-oriented and merit-based setting that values genuine c
 Growth Indicators: Greater authenticity, vulnerability, and healthier work-life balance.
 
 In 5 Years, They will find greater satisfaction in authentic relationships and derive self-worth beyond their accomplishments. They will think, feel, and behave with more vulnerability and openness.
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
 
 ### Type 4: The Individualist - Cultivating Resilience
 

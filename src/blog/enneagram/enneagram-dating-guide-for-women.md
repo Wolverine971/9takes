@@ -317,6 +317,11 @@ Congratulations on securing a second date! You might be feeling a surge of emoti
 Remember, Type 4, your depth and uniqueness are gifts, but connection also flourishes in shared simple moments. By expressing your authentic self while also appreciating the ordinary aspects of life and relationships, you open yourself to a love that is both profound and sustainable. Your uniqueness is inherent; you don't need to constantly prove it. Embrace your depth while also finding beauty in the everyday – that's the key to attracting a relationship that truly sees and values all of you, both in your extraordinary moments and in the quiet, simple times.
 
 </section>
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
 <section class="section-content">
 
 <h2 id="type5">Type 5: The Investigator - Bridging the Mind-Heart Gap</h2>
@@ -653,7 +658,7 @@ Remember, Type 9, your ability to create harmony and see multiple perspectives i
 
 </section>
 
-<h2 id="conclusion">Conclusion: Embracing Your Type in the Journey of Love<h2>
+<h2 id="conclusion">Conclusion: Embracing Your Type in the Journey of Love</h2>
 
 Ladies, as we wrap up this guide, remember that your Enneagram type is not a box to confine you, but a springboard for growth and self-awareness in your dating journey. Each type brings unique strengths and challenges to relationships, and understanding these can be a powerful tool in creating authentic connections and embodying the essence of a truly high-value woman.
 

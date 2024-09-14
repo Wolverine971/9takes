@@ -16,6 +16,7 @@ pic: 'greek-statues-partying'
 
 <script>
     import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <!-- 3 step plan for personal growth -->
@@ -215,6 +216,10 @@ Lets dive into how you would entice each Enneagram type to attend your party.
 - Offer an event that emphasizes inclusively and harmonizes diverse groups.
 
 </details>
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
 
 ## The Idea Environment
 
