@@ -94,6 +94,8 @@ Ariana's is constantly pursuing success. Her ever-expanding discography, constan
 
 <!-- update -->
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Ariana Grande
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Ariana:

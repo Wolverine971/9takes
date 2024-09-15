@@ -87,6 +87,8 @@ The companions Elton chose, both personally and professionally, often mirror his
 
 His collaboration with Bernie Taupin, a partnership that thrived over decades, reflects a harmonious blend of mutual respect and creative freedom, essential for a Type 4 individual.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Elton John
 
 <article>

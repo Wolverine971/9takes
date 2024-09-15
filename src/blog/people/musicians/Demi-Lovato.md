@@ -132,6 +132,8 @@ Type 4s have a knack for intensity in relationships, and Lovato's publicized rom
 
 The controversies surrounding Lovato, from their stance on diet culture 🍽️🚫 to the feud with Selena Gomez 🥊🎤, can also be interpreted through the Type 4 lens. The constant quest for authenticity often leads to polarizing opinions, a trait characteristic of a Type 4. Such incidences reveal Lovato's uncompromising stance on authenticity and individuality, which although causes contention, affirms their alignment with Type 4.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Demi Lovato
 
 <!-- Put arrow toggle (like in Notion) to hide all text unless reader wants to see more) -->

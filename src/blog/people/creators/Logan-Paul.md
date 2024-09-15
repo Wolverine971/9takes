@@ -85,6 +85,8 @@ Logan relentlessly pursues new experiences and has unabashed enthusiasm.
 
 His energy resonates with many of his followers. His insatiable appetite for adventure, his boundless energy, and his ability to bounce back from controversies showcase the unmistakable characteristics of the Enneagram 7.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Logan
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Mr. Logan Paul:

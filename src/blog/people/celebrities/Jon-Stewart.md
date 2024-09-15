@@ -95,7 +95,9 @@ However, even after these long 16 years, Stewart's wanderlust eventually led him
 
 Living as an Enneagram type 7 isn't solely about humor and impromptu escapades. This personality type also grapples with drawbacks, specifically a propensity towards diversion and challenges with commitment, driven by a fear of missing out on the next exciting endeavor. A glimpse into Stewart's early career illuminates this struggle; his stint as a puppeteer for a children's television show, a contract writer for the '<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Carolines_on_Broadway" >Caroline's Comedy Hour</a>', and a stand-up comedian, all before landing his gig at 'The Daily Show', reflects the typical Type 7 pattern of hopping between projects in search of variety. This restlessness, while fueling Stewart's dynamic career, also reveals the pitfalls of a Type 7's yearning for constant stimulation.
 
-## How Each Enneagram type Perceives Jon Stewart
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Jon Stewart
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jon Stewart:
 

@@ -59,6 +59,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter"></p>
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Lisa Koshy
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Lisa Koshy:

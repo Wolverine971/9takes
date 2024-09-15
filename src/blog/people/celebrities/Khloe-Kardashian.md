@@ -80,7 +80,9 @@ Khloé's personal life has been under the spotlight for years, with numerous con
 
 However, her persistent loyalty also serves as a testament to a Type 6's struggle with insecurity and anxiety. Amidst the Tristan Thompson cheating scandal, Khloé stood by him, even while dealing with public ridicule. Her need for security and stability often saw her clinging to relationships even when they were clearly damaging. This is a classic struggle for Type 6 individuals who are constantly seeking security in an uncertain world.
 
-## How Each Enneagram type Perceives Khloé Kardashian
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Khloé Kardashian
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Khloé Kardashian:
 

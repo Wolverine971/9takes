@@ -99,6 +99,8 @@ Margot has shared in various interviews about her commitment to fitness, not jus
 
 Margot Robbie's journey from an Australian soap opera to the heights of Hollywood encapsulates the determination and resilience of an Enneagram type 8. She has successfully navigated the challenges of the film industry, asserting her talent and ambition in the face of adversity – traits synonymous with a Type 8 personality.
 
+<BlogPurpose/>
+
 ## How Margot's personality comes out in her work
 
 Margot Robbie's Enneagram type 8 personality is unmistakably mirrored in her professional work. Her carefully chosen roles testify to her inherent attributes, as they often align with her natural assertiveness, tenacity, and will to protect what she holds dear. Distinct examples include her roles in “The Wolf of Wall Street,” “I, Tonya,” and the “Suicide Squad” franchise.

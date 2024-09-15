@@ -243,6 +243,8 @@ It turns a personal ritual into a public display. This act serves a dual purpose
   />
 </div>
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Dave Portnoy
 
 Dave is polarizing. Both his supporters and haters see different things in Dave's personality. Let's examine how individuals of each Enneagram type might perceive him:

@@ -103,6 +103,8 @@ Viewed through this lens, his multitude of tattoos, often a subject of public fa
 
 An analysis of Pete Davidson's net worth, boosted by movies, TV shows, and comedy tours, reveals a successful career driven by his knack for making people laugh. His laid-back demeanor, often a point of focus in his interviews, resonates with fans and makes his comedy relatable - another attribute commonly associated with Type 9 individuals. As such, Davidson's success can be viewed as a testament to his ability to leverage his possible Type 9 characteristics to connect with audiences on a profound level.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Pete Davidson
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Pete:

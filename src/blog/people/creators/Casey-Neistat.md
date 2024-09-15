@@ -179,6 +179,8 @@ He enjoys ping ponging back and forth between the chaos and the quiet. This para
 />
 </div>
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Casey Neistat
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Casey:

@@ -3,7 +3,6 @@
     export let newToEnneagramUrl = "/enneagram-corner/beginners-guide-to-determining-your-enneagram-type";
     export let joinCommunityUrl = "/register";
     $: slug = $page.params.slug;
-    console.log(slug);
 
     
   </script>

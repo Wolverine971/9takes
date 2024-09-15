@@ -41,7 +41,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 <!--
 	upbringing/ childhood
 
-
  -->
 
 > **Disclaimer** This analysis of Peter Thiel's Enneagram type is speculative, based on publicly available information, and may not reflect Peter's actual personality type.

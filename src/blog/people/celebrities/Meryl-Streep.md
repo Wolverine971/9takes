@@ -98,6 +98,8 @@ In "The Iron Lady," Streep takes on the role of former British Prime Minister Ma
 
 Thatcher was known for her steely determination and uncompromising leadership style. However, Streep's performance revealed the vulnerability and emotional depth beneath Thatcher's tough exterior. As a Type 2, Streep's ability to tap into Thatcher's emotional world is a testament to her empathy and understanding of human nature.
 
+<BlogPurpose/>
+
 ## Drama and Controversies
 
 Despite her success, Streep has faced her share of challenges and controversies. In 2017, she drew criticism for her comments about the lack of diversity in the film industry during a press conference at the Berlin International Film Festival.

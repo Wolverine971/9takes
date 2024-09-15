@@ -113,6 +113,8 @@ From healthcare reform to climate change and racial equality to international di
 
 In essence, Obama's political priorities and his potential Enneagram Type 9 personality share a common thread of seeking peace, harmony, and unity. His commitment to resolving conflicts, whether societal, environmental, or international and creating a more inclusive world reflect the innate characteristics of a Type 9 personality.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Barack Obama
 
 Just as we speculated about Barack Obama's Enneagram type, it's interesting to consider how individuals of different Enneagram types might perceive him.

@@ -99,8 +99,6 @@ Beyond the podcast, Alex has also launched <a class="external-link" target="_bla
 
 <!-- In essence, "Call Her Daddy" mirrors Alex's personality—adventurous, open, and ever-evolving. It's not just a podcast; it's a journey into the world of an Enneagram Type 7, a world filled with endless possibilities. -->
 
-<BlogPurpose/>
-
 ### Handling Controversies with Optimism
 
 Alex is no stranger to drama.
@@ -126,6 +124,8 @@ Her social reach extends to friendships with celebrities like <a href="/personal
 </div>
 
 This conversation reflects an Enneagram Type 7 going to 5 in comfort. When she is at her best she shows off her intellect.
+
+<BlogPurpose/>
 
 ## How Each Enneagram Type Perceives Alex Cooper
 

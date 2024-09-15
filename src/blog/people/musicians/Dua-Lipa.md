@@ -124,6 +124,8 @@ The album already has a name and vision, demonstrating her strategic approach to
 
 Her willingness to experiment and reinvent her music, her hands-on involvement in the creative process, and her strategic and patient approach to her career mirror the traits of the Enneagram Type 3. As we anticipate her new album, we eagerly await how these traits will further shape her career.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Dua Lipa
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Dua Lipa:

@@ -109,6 +109,8 @@ In preparing for his roles, Denzel is known to immerse himself deeply, researchi
 
 Colleagues from various projects often talk about Denzel's protective nature on set, especially towards younger actors. Ethan Hawke, his Training Day co-star, shared in interviews how Denzel took him under his wing. This behavior is classic Type 8, showcasing their desire to guard and guide those they perceive as 'their people'.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Denzel Washington
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Denzel Washington:

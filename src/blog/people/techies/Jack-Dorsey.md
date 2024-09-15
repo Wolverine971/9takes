@@ -113,6 +113,8 @@ True, Dorsey has entrepreneurial traits. But the Enneagram isn't just about surf
 
 **Twitter's Policy Changes:** When Twitter faced heavy criticism for its content policies, Dorsey didn't just jump to make impulsive changes. He initiated conversations, sought public feedback, and reflected on the platform's broader societal role. This contemplative, inclusive approach to problem-solving echoes Type 5's introspective nature.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Jack Dorsey
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jack:

@@ -60,6 +60,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 https://www.youtube.com/watch?v=3NWKgNv8fQY
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Peter Attia
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Peter Attia:

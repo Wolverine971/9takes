@@ -136,6 +136,8 @@ By examining how Leonardo DiCaprio handles controversies, we see a pattern stron
 
 So, what does all this mean for understanding Leonardo DiCaprio? It suggests a man driven by curiosity, a love for new experiences, and an optimistic outlook on life. Yet, like any Type 7, he has his complexities and contradictions. His avoidance of emotional pain can sometimes lead to controversies, but his constructive actions show a mature approach to life's challenges.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Leonardo DiCaprio
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Leo:

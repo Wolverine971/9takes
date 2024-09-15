@@ -69,6 +69,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   </div>
 </details>
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Trevor Noah
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Trevor Noah:

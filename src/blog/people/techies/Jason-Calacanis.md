@@ -142,7 +142,9 @@ Jason's influence on "The All In Podcast" is a testament to his Enneagram type 3
 
 The playful tension between Calacanis and David Sacks adds a unique dynamic to the podcast. Jason showcases his ability to shift from serious debates to laughter, highlighting his flexibility. Though he and Sacks don't always agree, Jason's loyalty to his friend demonstrates a healthy balance of ambition and relationship-building.
 
-## How Each Enneagram type Perceives Jason Calacanis
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Jason Calacanis
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jason Calacanis:
 

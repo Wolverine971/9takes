@@ -78,6 +78,8 @@ Despite his tumultuous public life, Depp's relationship with his children, Lily-
 
 This deep connection with his children showcases the intense emotional bonds that Type 4 individuals are capable of forming. For Depp, his role as a father has been a grounding force in an otherwise chaotic life.
 
+<BlogPurpose/>
+
 ## The Artist's Palette: Depp's Lesser-Known Passions
 
 While most know Depp for his acting, few are aware of his other artistic pursuits. He's an accomplished painter and has had his work exhibited in galleries. He's also a skilled guitarist, having performed with bands like Oasis and Marilyn Manson.

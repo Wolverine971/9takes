@@ -91,7 +91,9 @@ Nietzsche embraced solitude, using it as a sanctuary for thought. In his own wor
 
 Nietzsche’s philosophical writings often betray a detached, aloof emotional state. He valued intellectual autonomy over emotional involvement, as seen in his perspective on suffering, where he saw it as an opportunity for growth rather than an experience to be avoided.
 
-## How Each Enneagram type Perceives Friedrich Nietzsche
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Friedrich Nietzsche
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Friedrich Nietzsche:
 

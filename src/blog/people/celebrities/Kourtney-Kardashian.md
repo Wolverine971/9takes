@@ -93,6 +93,8 @@ Over the years, Kourtney's has grown a lot.
 
 A significant part of a Type 1's journey is learning to embrace imperfection, and Kourtney seems to be mastering it. Her acceptance of her body's changes post-pregnancy and her willingness to prioritize personal happiness over societal norms (as seen in her relationship with Travis Barker) indicate her strides towards finding balance.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Kourtney
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kourtney Kardashian:

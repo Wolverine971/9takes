@@ -117,6 +117,8 @@ Rogan's life has not been without controversy. From stirring debates about COVID
 
 These controversies, while often polarizing, demonstrate Rogan's commitment to open dialogue and his refusal to be constrained by societal expectations. They stem from the Type 8's core fear of being controlled or harmed by others, driving them to challenge authority and question established norms.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Joe Rogan
 
 Understanding how different Enneagram types might view Joe Rogan offers valuable insights into both Rogan's personality and the diverse perspectives people bring to public figures. If you are Joe Rogan, here are the stereotypical views each Enneagram type might have about you:

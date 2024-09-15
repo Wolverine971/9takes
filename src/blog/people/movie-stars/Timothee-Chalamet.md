@@ -96,6 +96,8 @@ When faced with controversy, such as his decision to donate his entire salary fr
 
 In a statement, he said, "I don't want to profit from my work on the film, and to that end, I am going to donate my entire salary." This decision showcases the Type 6's strong sense of ethics and their desire to do what they believe is right, even in the face of potential backlash.
 
+<BlogPurpose/>
+
 ## Timothée's Legacy and Current Work: A Type 6 Looking Forward
 
 As Timothée continues to take on challenging roles and expand his repertoire, we see the Type 6's desire for growth and security playing out in real-time. His choice of diverse, complex characters - from a drug-addicted teen in "Beautiful Boy" to the iconic Paul Atreides in "Dune" - demonstrates his willingness to push himself out of his comfort zone while still preparing meticulously for each role.

@@ -60,6 +60,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter"></p>
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Mindy Kaling
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Mindy Kaling:

@@ -78,6 +78,8 @@ Delving into Jennifer Garner's Enneagram Type 1 personality offers more than jus
 
 In an industry often criticized for its superficiality, Garner stands out as an individual deeply committed to her principles. Her journey, marked by challenges and triumphs, resonates with the core aspects of a Type 1 personality—integrity, perfection, and a continuous quest for improvement.
 
+<BlogPurpose/>
+
 ## Conclusion: Garner's Enneagram Type and Its Universal Appeal
 
 Now that we've explored Jennifer Garner's world through an Enneagram Type 1 lens, does it change your view of her? Understanding her drive for perfection, her response to stress, and her intrinsic need for moral alignment offers a new perspective on her public persona and artistic choices.

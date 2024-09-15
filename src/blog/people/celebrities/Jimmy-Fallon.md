@@ -78,7 +78,9 @@ One such controversy arose during the 2016 United States presidential campaign w
 
 Additionally, some critics argue that Fallon's desire to please everyone and maintain a jovial atmosphere may occasionally overshadow opportunities for deeper conversations or more critical commentary on his show. While this trait might be seen as a weakness in some contexts, it aligns with the Enthusiast's underlying fear of missing out and a tendency to avoid discomfort or conflict.
 
-## How Each Enneagram type Perceives Jimmy Fallon
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Jimmy Fallon
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Jimmy Fallon:
 

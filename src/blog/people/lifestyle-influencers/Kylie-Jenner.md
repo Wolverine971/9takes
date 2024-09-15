@@ -90,7 +90,9 @@ She has been open about her struggle to reconcile her public persona with her tr
 
 Type 9s are often drawn to creating peaceful, comfortable environments, a tendency Kylie often exhibits. Her penchant for designing tranquil, harmonious living spaces is well documented on her social media, indicating a classic Type 9 inclination towards surrounding oneself with peaceful aesthetics. Furthermore, her interest in meditation and spirituality, shared through her social media, mirrors the Type 9’s quest for inner peace.
 
-## How Each Enneagram type Perceives Kylie Jenner
+<BlogPurpose/>
+
+## How Each Enneagram Type Perceives Kylie Jenner
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Kylie
 

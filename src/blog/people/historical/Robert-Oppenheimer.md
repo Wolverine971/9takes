@@ -87,6 +87,8 @@ One of the critical facets of the Enneagram Type 4 is its capacity for intense e
 
 Throughout his life, Oppenheimer experienced significant mood swings and depressive episodes, reflective of this trait. His conflicted feelings about his involvement in the Manhattan Project and its catastrophic aftermath, coupled with the drama of being accused of disloyalty during the McCarthy era, cast long shadows over his life, illuminating the intense internal struggle characteristic of Type 4.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Robert Oppenheimer
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Oppenheimer:

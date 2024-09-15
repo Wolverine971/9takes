@@ -111,6 +111,8 @@ Swift's approach to controversies, be it her feud with Kanye West or her stance 
 
 Songs like "The Archer" or "Delicate" showcase Swift's vulnerability. She's unafraid to delve into her insecurities, hopes, and dreams, laying them bare for the world. This emotional authenticity is a hallmark of Type 4s, who often feel most alive when expressing their deepest emotions.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Taylor Swift
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Taylor Swift:

@@ -101,6 +101,8 @@ Nikola Tesla remained a dreamer in his later years, even as public perception sh
 
 Reflecting on his life, Tesla may have felt a blend of pride and unfulfilled dreams. While not all his visions materialized, his impact was undeniable. His emotional depth and creativity left an indelible mark on the world, ensuring his legacy would endure.
 
+<BlogPurpose/>
+
 ## How Each Enneagram Type Perceives Nikola Tesla
 
 To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Tesla:
