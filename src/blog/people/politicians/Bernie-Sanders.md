@@ -59,6 +59,8 @@ This has been evident throughout Sanders' career. For instance, his fight agains
 
 The acceptance and easy-going nature that is characteristic of Type 9s are equally visible. Consider his 2016 Democratic primary race. Despite a hard-fought campaign, he gracefully accepted the results, endorsing Hillary Clinton, his former rival. This magnanimity in defeat speaks to his accepting nature, a clear trait of the Type 9.
 
+<BlogPurpose/>
+
 ## Reflecting on Sanders as an Enneagram Type 9
 
 Now that we’ve explored the evidence, it seems quite plausible that Sanders does indeed align with the traits of a Type 9. His steadfast commitment to his beliefs, his demeanor, and his efforts towards societal harmony seem to present a convincing case.

@@ -114,6 +114,8 @@ Like any public figure, Biden has faced his share of controversies. His handling
 
 More recently, criticisms about his age (he's the oldest sitting U.S. president) have been met with self-deprecating humor and a determination to prove his capability - a typical Type 2 response to feeling undervalued or doubted.
 
+<BlogPurpose/>
+
 ## Biden's Legacy: A Helper's Impact
 
 As President, Biden continues to lean into his helper tendencies. His focus on unity and healing in the aftermath of the Trump presidency, his emphasis on empathy in foreign policy, and his efforts to address climate change all stem from his core desire to make a positive difference in people's lives.

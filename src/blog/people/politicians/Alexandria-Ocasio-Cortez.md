@@ -150,6 +150,8 @@ As a high-profile progressive figure, AOC has faced her fair share of controvers
 
 In true Type 6 fashion, AOC responds to these challenges with a combination of skepticism towards her critics and unwavering loyalty to her principles. "**I've gotten a lot of heat, but I'm going to stand by the things I believe in,**" she once said, embodying the Type 6's resilience in the face of adversity.
 
+<BlogPurpose/>
+
 ## AOC's Legacy and Current Work: Building a Movement
 
 Today, AOC continues to be a powerful voice for progressive causes in Congress. She's building a movement that extends beyond her district, inspiring a new generation of politically engaged citizens.

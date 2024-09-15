@@ -101,6 +101,8 @@ While Graham's boundless energy and enthusiasm have undoubtedly been a boon, his
 
 To counteract this tendency, Graham has developed various strategies to maintain balance and clarity, such as regular exercise, meditation, and intentional periods of deep focus and reflection.
 
+<BlogPurpose/>
+
 ## The Legacy of a Tech Trailblazer
 
 ### Inspiring a New Generation of Innovators

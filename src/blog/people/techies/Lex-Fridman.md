@@ -129,6 +129,8 @@ A colleague at MIT noted:
 
 This interdisciplinary approach is typical of Type 5s, who often excel at connecting disparate ideas.
 
+<BlogPurpose/>
+
 ## Controversies and Criticisms: Navigating the Public Eye
 
 Even someone as generally well-liked as Lex isn't immune to controversy. His approach to handling criticism offers insights into his personality.

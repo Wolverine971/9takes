@@ -121,6 +121,8 @@ In recent years, Mara has taken on more producing roles, allowing her to have gr
 
 Mara's personal life has also been a source of fascination for fans. In 2016, she began dating actor Joaquin Phoenix, whom she met on the set of "Her" in 2012. The couple, both known for their intense and private personalities, have kept their relationship largely out of the public eye.
 
+<BlogPurpose/>
+
 ## Conclusion
 
 Rooney Mara's journey from introspective child to acclaimed actress is a testament to the power of the Enneagram Type 5. Her ability to bring depth and nuance to complex characters has made her one of the most sought-after actresses of her generation. As she continues to take on new challenges both on and off the screen, one thing is certain: Rooney Mara will always remain an enigma.

@@ -180,7 +180,9 @@ Trump's big break came when he took over his father's real estate company and se
 - Philanthropist: In the 1980s, Trump completed the renovation of Central Park's Wollman Rink under budget and ahead of schedule.
 - Compassionate gesture: He once provided his private jet to transport a critically ill child for medical treatment.
 
-## The Legacy of a Challenger
+<BlogPurpose/>
+
+## The Legacy of a Donald Trump the Challenger
 
 Trump's long-term aspirations have evolved over time, but his core motivations remain rooted in Type 8 characteristics. Initially, he stated, "**I'm running for office in a country that's essentially bankrupt, and it needs a successful businessman.**"
 

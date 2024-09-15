@@ -194,6 +194,8 @@ Interestingly, Biden is often considered an Enneagram Type 2, known as "The Help
 
 In public appearances, we often see this dynamic play out. Biden frequently praises Harris's accomplishments and capabilities, feeding into her Type 3 need for recognition. Meanwhile, Harris adapts her role to support Biden's agenda, showcasing her Type 3 flexibility. This interplay of personalities contributes to their effectiveness as a leadership team, despite occasional reported tensions.
 
+<BlogPurpose/>
+
 <h2 id="controversy">Controversy and Growth: The Evolution of Kamala Harris</h2>
 
 Harris's journey hasn't been without its challenges. Her record as a tough prosecutor has faced scrutiny, particularly her stance on truancy and drug offenses. This tenacity in pursuing justice (and success) is characteristic of Type 3s, who often believe that the ends justify the means when it comes to achieving their goals.

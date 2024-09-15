@@ -110,6 +110,8 @@ When accused of glamorizing abuse in her lyrics, Lana penned a lengthy Instagram
 
 This passionate defense of her artistic vision, coupled with a desire to be understood on her own terms, is classic Type 4 behavior. They often feel misunderstood and yearn for others to see their true selves.
 
+<BlogPurpose/>
+
 ## Lana's Legacy and Current Work
 
 Today, Lana continues to evolve as an artist, pushing boundaries and exploring new themes in her music. Her recent album "Did You Know That There's a Tunnel Under Ocean Blvd" showcases a more introspective and mature sound.

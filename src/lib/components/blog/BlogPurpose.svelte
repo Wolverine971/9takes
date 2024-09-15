@@ -37,7 +37,7 @@
     
     <div class="button-container">
       <a href={newToEnneagramUrl} class="button explore">
-        &#8592; I'm Want to Learn About the Enneagram
+        &#8592; Learn More About the Enneagram
       </a>
       <a href={joinCommunityUrl} class="button join">
                 I'm Ready to Join the Community &#8594;

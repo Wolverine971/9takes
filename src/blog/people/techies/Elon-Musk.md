@@ -160,6 +160,8 @@ Gwynne Shotwell, SpaceX's COO, said of Elon: "**When Elon says something, you ha
 
 Tesla's success in making electric cars cool and desirable is a testament to Elon's ability to not just innovate technically, but to understand and reshape market perceptions. It's an unusually practical application of the Type 5's theoretical knowledge.
 
+<BlogPurpose/>
+
 ## Controversies and Criticisms: The Dark Side of Brilliance
 
 Elon's Twitter presence has been a source of both admiration and frustration. His impulsive tweets have landed him in hot water more than once, most notably with the SEC.

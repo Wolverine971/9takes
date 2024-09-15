@@ -77,7 +77,7 @@ This approach aligns perfectly with Thiel's later assertion that "<a class="exte
 
 Thiel's deep interest in René Girard's Mimetic Theory aligns perfectly with the Type 6's worldview. This theory, which posits that human desire is mimetic (imitative) and leads to conflict, resonates with the Type 6's inherent wariness of others' intentions.
 
-In a Type 6 mindset, Thiel might think, "**If everyone is prone to mimetic desire, how can I stay ahead of the curve and protect myself from being copied or overtaken?**" This paranoia-tinged perspective drives his innovative thinking and contrarian approaches.
+In a Type 6 mindset, Thiel might think, **"If everyone is prone to mimetic desire, how can I stay ahead of the curve and protect myself from being copied or overtaken?"** This paranoia-tinged perspective drives his innovative thinking and contrarian approaches.
 
 This mindset explains Thiel's emphasis on finding "secrets" - truths that are not yet widely known or accepted. It's a defensive strategy, born from the Type 6's need for security, but it's also the source of his most brilliant insights. By constantly questioning the status quo and looking for hidden truths, Thiel has positioned himself as a visionary in the tech world.
 
@@ -109,7 +109,9 @@ Peter Thiel's relationships offer a fascinating glimpse into his complex persona
 
 This ability to maintain relationships across ideological divides is a testament to the Type 6's capacity for nuanced thinking. It also reflects their desire to understand different perspectives, perhaps as a way of staying informed and secure in a complex world.
 
-## The Loyalist's Legacy
+<BlogPurpose/>
+
+## Peter as the Loyalist's Legacy
 
 Peter Thiel's life and career embody the Type 6's mission to create security through innovation and contrarian thinking. From his early days co-founding PayPal to his current role as an influential venture capitalist and political thinker, his actions have been driven by a deep-seated need to build a more secure future.
 
