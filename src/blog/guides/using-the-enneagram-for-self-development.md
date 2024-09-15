@@ -8,7 +8,7 @@ lastmod: '2024-09-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
-pic: 'female-greek-staue-reading-about-self-development'
+pic: 'female-greek-statue-reading-about-self-development'
 ---
 
 <!-- todo
@@ -28,7 +28,7 @@ get more niche-->
   "
 >
   <PopCard
-    image={`/blogs/female-greek-staue-reading-about-self-development.webp`}
+    image={`/blogs/female-greek-statue-reading-about-self-development.webp`}
     showIcon={false}
     displayText=""
     altText="a female Greek statue reading a book about self development"
@@ -278,7 +278,7 @@ Your journey with the Enneagram is uniquely yours. Embrace it with curiosity, co
       "image": {
         "@type": "ImageObject",
         "height": 900,
-        "url": "https://9takes.com/blogs/female-greek-staue-reading-about-self-development.webp",
+        "url": "https://9takes.com/blogs/female-greek-statue-reading-about-self-development.webp",
         "width": 900
       },
       "about": [
