@@ -46,6 +46,7 @@ only fans bella poarch
 vacation bella poarch -->
 <!-- <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;

@@ -19,6 +19,7 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;
@@ -77,6 +78,8 @@ These facts underscore the Type 5's attention to detail and desire for mastery i
 While many know about the foundation's work, few realize the extent of Gates' hands-on involvement. True to his Type 5 nature, Gates approaches philanthropy with the same analytical rigor he applied to software development.
 
 He's known for poring over data, asking probing questions, and seeking expert opinions before making decisions. As one foundation employee put it, "Bill's not just writing checks. He's driving the strategy and deeply engaged in the details."
+
+<BlogPurpose/>
 
 ## Navigating Controversies: The Type 5 Approach
 

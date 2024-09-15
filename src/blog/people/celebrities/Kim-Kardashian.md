@@ -39,6 +39,7 @@ Kendal Jenner - 4??? -->
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -105,6 +106,8 @@ Kim's relationships have often been in the public eye, most notably her marriage
 These relationships reveal more layers of her personality, showcasing her desire for a deep emotional connection, which many Type 3s strive for but often struggle to balance with their ambitious goals.
 
 Another thing to touch on is Kim's pursuit of a law degree. Many were surprised when she announced her intention to become a lawyer. But think about it: this move is quintessentially Type 3. It’s not just about adding another achievement to her roster; it’s about meaningful success. Kim's advocacy work on criminal justice reform indicates a desire to merge her social influence with social impact, another hallmark of a well-integrated Type 3.
+
+<BlogPurpose/>
 
 ## Addressing Controversies: The Flip Side of the Coin
 

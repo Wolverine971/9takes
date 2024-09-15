@@ -45,6 +45,7 @@ Sweeney has a business degree from the University of California, Los Angeles. Sh
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -140,6 +141,8 @@ What drives Sydney Sweeney beyond the bright lights of Hollywood?
 As a trained MMA fighter, Sweeney embraces the discipline and mental resilience required by the sport. "Martial arts has taught me so much about myself and what I'm capable of," she shared. This dedication to pushing her limits is a hallmark of the Type 3 personality. Sweeney is also a passionate photographer, using her film camera to capture moments and tell stories from behind the lens. "Photography allows me to express my creativity in a different way than acting," she explained.
 
 These diverse pursuits reflect the multifaceted nature of the Enneagram Type 3, as Sweeney refuses to be defined by a single pursuit.
+
+<BlogPurpose/>
 
 ## Drama and Controversies
 

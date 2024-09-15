@@ -25,6 +25,7 @@ https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationshi
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div

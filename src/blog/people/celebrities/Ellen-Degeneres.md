@@ -25,6 +25,7 @@ tiktok: 'https://www.tiktok.com/@ellendegeneres'
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;

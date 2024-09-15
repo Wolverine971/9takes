@@ -21,6 +21,7 @@ tiktok: ''
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <p class="firstLetter">In the vast world of music, few names resonate as deeply as Taylor Swift. A powerhouse of talent, she's not just a singer but a storyteller, weaving intricate tales with her lyrics. But have you ever wondered what drives this global sensation? What lies beneath those soulful eyes and poignant songs? Let's embark on a journey into Taylor's psyche, exploring the possibility of her being an Enneagram Type 4.</p>

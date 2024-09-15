@@ -41,6 +41,7 @@ rhobh yolanda -->
 <!-- Notes: Gigi is most likely not a 1,3 or an 8. She is pretty meek and mild-- almost shy. Her mother pushed her to be a model and have a specific body type. There was also the fight between Zayn and her mom-- where she took her mother's side. I could see her as a 6-- although this is just based off the little I know. -->
 <!-- <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 <div
 	style="display: flex;

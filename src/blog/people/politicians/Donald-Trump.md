@@ -43,6 +43,7 @@ He has authored several books, including "The Art of the Deal" (19Tim Robinson7)
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div

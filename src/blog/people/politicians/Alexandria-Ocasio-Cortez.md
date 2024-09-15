@@ -44,6 +44,7 @@ She is the youngest woman ever to serve in the United States Congress, taking of
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div

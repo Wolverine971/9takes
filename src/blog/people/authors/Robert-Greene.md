@@ -38,6 +38,7 @@ https://youtube.com/shorts/hJiW0YoVh1o?si=O1H9VMC_eM0NnEys
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
