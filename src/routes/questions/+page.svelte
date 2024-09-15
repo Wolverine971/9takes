@@ -277,7 +277,7 @@
 		.how-it-works,
 		.testimonials {
 			margin: $base-margin * 1 0;
-			padding: 0;
+			padding: 0 0.5rem;
 		}
 	}
 </style>
