@@ -11,7 +11,7 @@ published: true
 type: ['relationships']
 blog: true
 previewHtml: ''
-pic: 'greek-statues-on-a-first-date'
+pic: 'male-greek-statue-on-a-date'
 ---
 
 <script>
@@ -25,10 +25,10 @@ pic: 'greek-statues-on-a-first-date'
    "
 >
   <PopCard
-      image={`/blogs/greek-statues-on-a-first-date.webp`}
+      image={`/blogs/male-greek-statue-on-a-date.webp`}
       showIcon={false}
       displayText=""
-    altText="Greek statues on a first date"
+    altText="male Greek statue on a first date"
     tint={false}
       subtext=""
    />
