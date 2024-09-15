@@ -270,4 +270,14 @@
 		padding-left: $base-padding;
 		border-left: 3px solid var(--accent);
 	}
+
+	@media (max-width: 768px) {
+		.question-category-div,
+		.recent-questions,
+		.how-it-works,
+		.testimonials {
+			margin: $base-margin * 1 0;
+			padding: 0;
+		}
+	}
 </style>
