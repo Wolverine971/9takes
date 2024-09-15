@@ -243,7 +243,7 @@ Like any system, the Enneagram has its critics. It's a tool, not a crystal ball.
 
 The Enneagram offers a map of your inner landscape. It's not about putting yourself in a box, but about understanding the box you might already be in - and finding the way out.
 
-Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](https://9takes.com/enneagram-corner/enneagram-faqs) or explore [recommended Enneagram resources](https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts).
+Ready to dive deeper? Check out our [comprehensive Enneagram FAQ](https://9takes.com/enneagram-corner/enneagram-faqs) or explore recommended [Enneagram resources](https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts).
 
 What's your take on the Enneagram? Does it resonate with you, or does it miss the mark? Share your thoughts and let's keep the conversation going!
 

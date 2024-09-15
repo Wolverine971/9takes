@@ -74,8 +74,7 @@
 			{loading ? 'Loading...' : 'Load More'}
 		</button>
 	{/if}
-{:else if comments.length === 0}
-	<p>No comments yet</p>
+
 {/if}
 
 <style lang="scss">

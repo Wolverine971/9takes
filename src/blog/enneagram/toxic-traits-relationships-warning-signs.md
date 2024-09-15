@@ -313,7 +313,7 @@ The key is to approach these conversations with curiosity and compassion, not ju
 Questions can reveal more about a person than any self-description. Here are some examples:
 
 1. "What's a mistake you've made that taught you an important lesson?"
-2. "How do you typically handle disagreements with close friends or family?"
+2. ["How do you typically handle disagreements with close friends or family?"](/questions/typically-handle-disagreements-close-friends-family)
 3. "What's something you're working on improving about yourself?"
 4. "Can you tell me about a time when you had to admit you were wrong?"
 5. "How do you balance your own needs with those of others in your life?"
@@ -439,4 +439,9 @@ Learn more about [communication in relationships here.](/enneagram-corner/enneag
 
 <style lang="scss">
    @import '../../routes/styles.css';
+
+    .blog-link:after{
+    content: none;
+
+  }
 </style>

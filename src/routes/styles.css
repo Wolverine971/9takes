@@ -281,11 +281,12 @@ th {
 	max-width: 100%;
 	overflow: hidden;
 	vertical-align: middle;
+	color: var(--accent-darker) !important;
 }
 
 .blog a:hover {
 	text-decoration: underline;
-	color: var(--primary);
+	color: var(--accent-dark);
 }
 
 .blog a::after {
@@ -293,6 +294,7 @@ th {
 	display: inline-block;
 	width: 1em;
 	height: 1em;
+	color: var(--accent-dark) !important;
 	vertical-align: middle;
 	background: url('/icons/arrow.svg') no-repeat center/contain;
 	border-radius: var(--base-border-radius);

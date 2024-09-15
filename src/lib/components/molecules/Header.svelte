@@ -525,13 +525,13 @@
 				transition: fill 0.2s ease-in-out;
 			}
 			&:hover path {
-				fill: red;
+				fill: var(--accent-dark);
 			}
 		}
 
 		a:hover,
 		img:hover {
-			color: var(--color-theme-pink);
+			color: var(--accent-dark);
 		}
 	}
 

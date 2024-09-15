@@ -35,8 +35,6 @@ tiktok: 'https://www.tiktok.com/discover/bill-gates'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bill Gates's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bill Gates.
-
 <p class="firstLetter">You've seen him revolutionize personal computing, transform global philanthropy, and predict pandemics.</p>
 
 But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Here, we dive into the psyche of this tech titan and explore the fascinating inner workings of his mind through the lens of the Enneagram.

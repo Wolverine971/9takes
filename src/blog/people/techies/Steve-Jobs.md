@@ -69,7 +69,7 @@ The impact of Jobs' early life on his personality cannot be overstated.
 
 ## The Inner World of a Perfectionist
 
-"We're here to put a dent in the universe," Jobs once said, encapsulating the Type 1's drive to make a meaningful impact.
+**"We're here to put a dent in the universe,"** Jobs once said, encapsulating the Type 1's drive to make a meaningful impact.
 
 For Jobs, this meant creating products that were not only functional but also beautiful and user-friendly. He was known for his meticulous attention to detail and his willingness to push his team to the limits to achieve his vision. Jobs' perfectionism was a double-edged sword, driving him to create groundbreaking products but also leading to intense stress and interpersonal conflicts.
 
@@ -79,7 +79,7 @@ The inner world of a perfectionist like Jobs is a complex and often challenging 
 
 Jobs' perfectionism was both his greatest strength and his greatest weakness.
 
-While his drive for excellence led to the creation of revolutionary products, it also resulted in intense stress and interpersonal conflicts. Jobs was known for his temper and his tendency to micromanage, often pushing his employees to the brink of burnout. "My job is not to be easy on people," he once said. "My job is to take these great people we have and to push them and make them even better."
+While his drive for excellence led to the creation of revolutionary products, it also resulted in intense stress and interpersonal conflicts. Jobs was known for his temper and his tendency to micromanage, often pushing his employees to the brink of burnout. **"My job is not to be easy on people,"** he once said. **"My job is to take these great people we have and to push them and make them even better."**
 
 The stress of striving for perfection was a constant companion throughout Jobs' career.
 
@@ -87,7 +87,7 @@ The stress of striving for perfection was a constant companion throughout Jobs' 
 
 Despite the challenges, Jobs found immense satisfaction in creating products that people loved.
 
-"**I want to put a ding in the universe,**" he once said, expressing his desire to leave a lasting impact and create something truly remarkable. This drive to create beauty and meaning is a hallmark of the Type 1 personality. For Jobs, the joy of seeing his vision come to life and the positive impact it had on people's lives made all the hard work and stress worthwhile.
+**"I want to put a ding in the universe,"** he once said, expressing his desire to leave a lasting impact and create something truly remarkable. This drive to create beauty and meaning is a hallmark of the Type 1 personality. For Jobs, the joy of seeing his vision come to life and the positive impact it had on people's lives made all the hard work and stress worthwhile.
 
 The joy of creating something beautiful was a powerful motivator for Jobs throughout his life.
 

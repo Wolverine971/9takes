@@ -4,6 +4,7 @@
 	--primary-dark: #1a1a1a;
 	--accent: #b3a6c9;
 	--accent-dark: #bc96fd;
+	--accent-darker: #833bff;
 	--secondary: #c0c0c0;
 	--secondary-dark: #a0a0a0;
 	--success: #4caf50;
@@ -89,9 +90,13 @@ a {
 	text-decoration: none;
 	transition: color 0.3s ease;
 
+	color: var(--accent-darker);
+
 	&:hover {
 		color: var(--primary-dark);
 		text-decoration: underline;
+
+	color: var(--accent-dark);
 	}
 
 	&.disabled {
@@ -324,7 +329,7 @@ section {
 		max-width: 100%;
 		overflow: hidden;
 		vertical-align: middle;
-		color: var(--primary-dark);
+		color: var(--accent-darker);
 
 		&::after {
 			display: inline-block;
@@ -332,6 +337,7 @@ section {
 			background: url('/icons/arrow.svg') no-repeat center/contain;
 			width: 1em;
 			height: 1em;
+			color: var(--accent-darker);
 			vertical-align: middle;
 			content: '';
 		}
