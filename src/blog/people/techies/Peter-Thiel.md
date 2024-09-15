@@ -45,15 +45,29 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Peter Thiel's Enneagram type is speculative, based on publicly available information, and may not reflect Peter's actual personality type.
 
- <p class="firstLetter">Peter Thiel, a name synonymous with innovation, contrarian thinking, and tech entrepreneurship.</p>
+ <p class="firstLetter">Peter Thiel, a name synonymous with contrarian thinking, innovation, and tech entrepreneurship.</p>
 
-Beneath the headlines and billion-dollar investments lies a complex personality driven by a profound need for security and a wariness of who to trust. Let's dive into the psyche of this influential figure through the lens of the Enneagram, exploring how his Type 6 personality has shaped his life, career, and worldview.
+Beneath the headlines and billion-dollar investments lies a complex man driven by a profound need for security and a wariness of who to trust. Here we dive into the psyche of this influential figure through the lens of the Enneagram, exploring how his [Type 6 personality](/enneagram-corner/enneagram-type-6) has shaped his life, career, and worldview.
 
 ## The Essence of Enneagram Type 6: The Loyalist
 
-At the core of every Type 6 is a deep-seated need for security and a constant vigilance against potential threats. Their primary motivation is to feel safe and supported, while their core fear revolves around being without guidance, support, or security.
+At the core of every Type 6 is a deep-seated need for security and a constant vigilance against potential threats.
 
-Peter Thiel embodies these Type 6 traits in his relentless pursuit of innovative ideas that challenge the status quo, always seeking a safer, more secure future. His famous interview question, "**Tell me something that's true, that almost nobody agrees with you on**" encapsulates his Type 6 tendency to question conventional wisdom and seek hidden truths.
+Sometime in their childhood 6s learned that they need to be careful about who to trust. Perhaps they were betrayed or maybe they needed help and were let down, whatever the case 6s learned the lesson that they need to be wary of others. From that seed they have grown to be question everything and everyone in an attempt to find the security and safety they long for.
+
+Peter was born in Germany and his family emigrated to the US and lived in Cleveland Ohio when he was 1. They then moved to South Africa and South West Africa where in Peter change schools 7 times.
+
+> He attended a school in Swakopmund that required students to wear uniforms and utilized corporal punishment, such as striking students' hands with a ruler. He said this experience instilled a distaste for uniformity and regimentation later reflected in his support for individualism and libertarianism.
+>
+> -Wikipedia
+
+Maybe here is where Peter got his first taste of being let down by those who he was supposed to trust. But his penchant for second guessing others and reading between the lines certainly grew as he grew.
+
+Peter did great in school and made it to Stanford University then to Stanford Law School. He started to clerk for the US Court of Appeals for the 11th Circut but he left because he saw the career path laid before him and wanted to choose another path.
+
+He then moved to the Bay Area and at 30 years old in 1996 old he raised $1 million to establish Thiel Capital Management. Peter the VC was born and now he was free to put his contrarian thinking to work with his money on the line.
+
+His famous interview question, **"Tell me something that's true, that almost nobody agrees with you on"** encapsulates his VC strategy and his Type 6 tendency to question conventional wisdom and seek that which is hidden.
 
 ## The Contrarian Investor: Security Through Innovation
 
@@ -63,7 +77,7 @@ He excels at holding seemingly contradictory views, a typical Enneagram Type 6 b
 
 Thiel's approach to venture capitalism is a perfect manifestation of his Type 6 personality. He seeks the sweet spot between security and innovation, investing in companies that are both potentially revolutionary and grounded in solid fundamentals.
 
-"**The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won't make a search engine. If you are copying these guys, you aren't learning from them,**" Thiel has said. This statement reflects his Type 6 tendency to look beyond the obvious, always searching for the next paradigm shift that others might miss.
+**"The next Bill Gates will not build an operating system. The next Larry Page or Sergey Brin won't make a search engine. If you are copying these guys, you aren't learning from them,"** Thiel has said. This statement reflects his Type 6 tendency to look beyond the obvious, always searching for the next paradigm shift that others might miss.
 
 ## The Paypal Mafia: Building a Fortress of Trust
 
