@@ -665,7 +665,7 @@ If you found this helpful sign up and join 9takes below ⬇️. Of course, you a
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

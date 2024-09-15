@@ -219,7 +219,7 @@ The Enneagram offers a fascinating window into the human psyche. Whether you're 
             ],
             "logo":{
                "@type":"ImageObject",
-               "url":"https://9takes.com/brand/darkRubix.png"
+               "url":"https://9takes.com/brand/aero.png"
             },
             "name":"9takes"
          }

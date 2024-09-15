@@ -124,7 +124,7 @@ Meghan does have a warm smile and has the ability to make you feel like the best
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

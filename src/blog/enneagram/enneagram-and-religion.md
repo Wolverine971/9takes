@@ -483,7 +483,7 @@ In conclusion, the Enneagram is versatile, offering a rich field of exploration 
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

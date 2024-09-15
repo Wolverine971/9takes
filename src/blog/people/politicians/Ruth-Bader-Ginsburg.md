@@ -129,7 +129,7 @@ In a world yearning for unity amidst diversity, perhaps there is merit in compre
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png",
+          "url": "https://9takes.com/brand/aero.png",
           "width": 600,
           "height": 60
         }

@@ -191,7 +191,7 @@ The Eightfold Fence is presented as a tool for maintaining sanity and composure 
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

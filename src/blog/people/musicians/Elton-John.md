@@ -205,7 +205,7 @@ Suppose this exploration piqued your curiosity, and you yearn for more insightfu
         "http://schema.org/logo": {
           "@type": "http://schema.org/ImageObject",
           "http://schema.org/url": {
-            "@id": "https://9takes.com/brand/darkRubix.png"
+            "@id": "https://9takes.com/brand/aero.png"
           }
         },
         "http://schema.org/name": "9takes",

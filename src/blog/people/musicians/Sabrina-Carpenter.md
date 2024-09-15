@@ -246,7 +246,7 @@ To learn more about the Enneagram and discover your own type, sign up for our ne
             ],
             "logo":{
                "@type":"ImageObject",
-               "url":"https://9takes.com/brand/darkRubix.png"
+               "url":"https://9takes.com/brand/aero.png"
             },
             "name":"9takes"
          }

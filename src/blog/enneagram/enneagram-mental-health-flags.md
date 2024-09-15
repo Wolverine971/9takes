@@ -340,7 +340,7 @@ What red flags have you noticed in yourself or others? How has understanding per
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

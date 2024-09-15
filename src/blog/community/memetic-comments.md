@@ -137,7 +137,7 @@ The negative effects of mimetics can be stopped. And that is what 9takes is here
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       },

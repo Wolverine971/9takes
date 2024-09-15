@@ -341,7 +341,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

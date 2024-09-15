@@ -1829,7 +1829,7 @@
 					],
 					"logo": {
 						"@type": "ImageObject",
-						"url": "https://9takes.com/brand/darkRubix.png"
+						"url": "https://9takes.com/brand/aero.png"
 					}
 				}
 			}

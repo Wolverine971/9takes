@@ -319,7 +319,7 @@ I hope this guide serves you well. Remember, the key to a strong relationship is
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

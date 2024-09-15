@@ -166,7 +166,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
         "logo": {
           "@type": "ImageObject",
           "height": 60,
-          "url": "https://9takes.com/brand/darkRubix.png",
+          "url": "https://9takes.com/brand/aero.png",
           "width": 600
         },
         "name": "9takes"

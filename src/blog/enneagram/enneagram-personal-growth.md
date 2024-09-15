@@ -227,7 +227,7 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

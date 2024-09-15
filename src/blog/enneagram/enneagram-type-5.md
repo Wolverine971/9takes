@@ -701,7 +701,7 @@ This panel discussion offers valuable insights for Type 5s on their journey of s
         "name": "9takes",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "sameAs": [
           "https://www.instagram.com/9takesdotcom/",

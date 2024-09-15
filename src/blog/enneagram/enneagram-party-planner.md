@@ -345,7 +345,7 @@ Go here to dive deeper and see [how each Enneagram type behaves at a party](/enn
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

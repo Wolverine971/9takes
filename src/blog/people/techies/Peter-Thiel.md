@@ -188,7 +188,7 @@ Please comment below if this gave you insight into Peter's mind what it might re
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

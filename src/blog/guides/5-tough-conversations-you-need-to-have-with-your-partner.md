@@ -231,7 +231,7 @@ When you learn to dive deep together - bringing your whole, imperfect selves and
         ],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       },
