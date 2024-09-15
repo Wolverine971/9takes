@@ -25,7 +25,7 @@ https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationshi
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -102,6 +102,8 @@ Swift's ability to connect with fans and utilize her influence positively unders
 Swift’s personality is vividly manifested in her lyrics, illustrating her acute awareness of her public image and her mastery in shaping her narrative. Her song “Blank Space” embraces the media's portrayal of her as a serial dater, showcasing her adeptness at transforming negative portrayals into catchy, self-aware songs. Similarly, her hit “Shake it Off” acknowledges criticism and reshapes it into a testament to resilience.
 
 Swift’s entire “Reputation” album revolves around her public image. Through this work, she channels the experiences of her feuds with West and Kardashian into a narrative where she is cast in a role rather than accepting blame. Swift, akin to a true Enneagram Type 3, plays an active role in crafting her reputation and success narrative through her music.
+
+<BlogPurpose />
 
 ## How Different Enneagram Types Perceive Taylor Swift
 

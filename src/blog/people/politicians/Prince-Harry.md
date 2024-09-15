@@ -81,6 +81,8 @@ Within the walls of his mind, a Type 6 like Prince Harry is likely strategizing,
 
 Routine is a Six's ally, and despite the seeming chaos of royal life, Prince Harry has shown a penchant for structure. His dedication to fitness, regimented military life, and disciplined approach to philanthropy all point to a Six's reliance on habit to navigate an uncertain world.
 
+<BlogPurpose />
+
 ## Conclusion
 
 So that is Prince Harry. Have these insights shifted your view of the prince? How might understanding his search for security and loyalty offer a new lens through which to see his actions and choices? Who else in your life might have the strengths and weaknesses of Prince Harry?
