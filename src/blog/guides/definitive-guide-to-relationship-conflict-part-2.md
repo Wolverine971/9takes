@@ -172,7 +172,13 @@ thinking of a rebuttal
 
 conflict resolution skills
 
-conflict resolution exercises for couples -->
+conflict resolution exercises for couples
+
+keywords
+parasocial relationships
+self-sabotaging relationships
+anecdotal
+-->
 
 <svelte:head>
 
