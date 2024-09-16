@@ -56,7 +56,7 @@ Behind those soulful eyes and that tousled hair lies a complex personality - one
 
 ### Timothée Chalamet: The Loyal Skeptic (Enneagram Type 6)
 
-Enneagram Type 6, also known as "The Loyalist" or "The Skeptic," is characterized by a constant inner dialogue of doubt and reassurance. These individuals are known for their loyalty, responsibility, and ability to troubleshoot potential problems. They're often driven by a deep-seated need for security and support, which can manifest as both anxiety and courage in the face of challenges.
+Enneagram Type 6, also known as ["The Loyalist" or "The Skeptic,"](/enneagram-corner/enneagram-type-6) is characterized by a constant inner dialogue of doubt and reassurance. These individuals are known for their loyalty, responsibility, and ability to troubleshoot potential problems. They're often driven by a deep-seated need for security and support, which can manifest as both anxiety and courage in the face of challenges.
 
 For Timothée, this personality type likely fuels his dedication to his craft and his ability to portray complex, conflicted characters with such nuance. But it also means he's probably grappling with self-doubt even as he's dazzling audiences on the red carpet.
 
@@ -94,7 +94,7 @@ Despite his early success in Hollywood, Timothée values education and even atte
 
 When faced with controversy, such as his decision to donate his entire salary from the Woody Allen film "A Rainy Day in New York" to charity, Timothée's response was typical of a healthy Type 6. He took decisive action based on his values, demonstrating the courage that Type 6 individuals can display when they align with their beliefs.
 
-In a statement, he said, "I don't want to profit from my work on the film, and to that end, I am going to donate my entire salary." This decision showcases the Type 6's strong sense of ethics and their desire to do what they believe is right, even in the face of potential backlash.
+In a statement, he said, **"I don't want to profit from my work on the film, and to that end, I am going to donate my entire salary."** This decision showcases the Type 6's strong sense of ethics and their desire to do what they believe is right, even in the face of potential backlash.
 
 <BlogPurpose/>
 

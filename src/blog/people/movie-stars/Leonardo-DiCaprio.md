@@ -62,7 +62,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 ## What is Leonardo DiCaprio's Personality Type?
 
-Leo is an Enneagram type 7, also known as "The Enthusiast."
+Leo is an Enneagram type 7, also known as []"The Enthusiast."](/enneagram-corner/enneagram-type-7)
 
 Type 7s are characterized by their insatiable curiosity, zest for life, and fear of emotional pain. They are the adventurers, the seekers, and the eternal optimists. But it's not all sunshine; their avoidance of pain can lead them to escapism and superficiality.
 

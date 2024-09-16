@@ -40,7 +40,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 > **Disclaimer** This analysis of Billie Eilish's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Billie Eilish.
 
 <details>
-<summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram type 4</summary>
+<summary class="accordion">TL;DR: Why Billie Eilish is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
 <li><b>Artistic Individuality</b>:
@@ -60,13 +60,17 @@ At the heart of Billie’s actions lies a core motivation to express her unique 
 </details>
 
 <p class="firstLetter">
-You've seen her neon-green roots, heard her whisper-soft vocals, and felt the gut punch of her lyrics. But did you know that Billie Eilish Pirate Baird O'Connell (yes, that's her full name) is a walking testament to individuality, right down to her unique moniker?</p>
+You've seen her ocean eyes, heard her whisper-soft vocals, and felt the punch in her lyrics.</p>
+
+But did you know that the reason Billie Eilish Pirate Baird O'Connell is a walking testament to individuality is because that is her personality? An Enneagram Type 4 is known as the "Individualist", and Billy oozes Type 4 vibes.
+
+Lets begin the Billie deep dive by looking at her name.
 
 ## The Name Game
 
-Let's start with that name. Billie, after her grandfather William. Eilish, inspired by a conjoined twin her parents saw in a documentary. And Pirate? Well, that was her brother Finneas's choice. Talk about a family collaboration!
+Billie comes from her grandfather William. Eilish was inspired by a conjoined twin her parents saw in a documentary. And Pirate? Well, that was her brother Finneas's choice. Talk about a family collaboration, her identity has been meticulously looked over from the start.
 
-This isn't just a quirky naming story. It's a perfect example of how Type 4s, like Billie, often have origin stories that set them apart from the crowd.
+This isn't just a quirky naming story. It's a perfect example of how [Type 4s,](/enneagram-corner/enneagram-type-4) like Billie, often have origin stories that set them apart from the crowd.
 
 ## The Whisper that Roars
 
@@ -74,11 +78,11 @@ Picture this: A packed arena, thousands of fans screaming, and then... silence. 
 
 "**I've never been a fan of yelling,**" Billie once said in an interview. "**Why shout when you can make people lean in to listen?**"
 
-That's classic Type 4 behavior right there. They don't need to be the loudest to be heard; they just need to be the most authentic.
+That's a Type 4 mindset right there. They don't need to be the loudest to be heard; they just need to be the most authentic.
 
 ## The Fashion Rebel Turned Model
 
-Remember when Billie rocked up to the Grammys in that oversized Gucci suit? The internet went wild. But for Billie, it wasn't about making a statement – it was about being comfortable in her own skin.
+When Billie rocked up to the Grammys in that oversized Gucci suit- the internet went wild. But for Billie, it wasn't about making a statement – it was about being comfortable in her own skin.
 
 "**I never want the world to know everything about me,**" she explained. "**That's why I wear big, baggy clothes. Nobody can have an opinion because they haven't seen what's underneath.**"
 

@@ -46,7 +46,7 @@ But what drove this captivating leader? Let's peel back the layers of JFK's pers
 
 ### JFK: The Archetypal Enneagram 7
 
-John F. Kennedy embodied the essence of an Enneagram Type 7 – the Enthusiast. Known for their zest for life, adventurous spirit, and ability to inspire others, Type 7s are the eternal optimists of the Enneagram world.
+John F. Kennedy embodied the essence of an [Enneagram Type 7 – the Enthusiast.](/enneagram-corner/enneagram-type-7) Known for their zest for life, adventurous spirit, and ability to inspire others, Type 7s are the eternal optimists of the Enneagram world.
 
 Type 7s are driven by a core desire to experience life to the fullest, always seeking new adventures and opportunities. They fear being deprived or trapped in pain, which often propels them towards constant activity and stimulation.
 
@@ -56,7 +56,7 @@ JFK's childhood, marked by privilege but also health challenges, likely shaped h
 
 Born into the prominent Kennedy family, young Jack was surrounded by high expectations and fierce competition. His father, Joseph Kennedy Sr., instilled in his children a drive for excellence and public service.
 
-Despite battling chronic health issues, JFK's resilience shone through. His sister Eunice once remarked, "Jack had a way of taking his illnesses in stride. He never let them get him down."
+Despite battling chronic health issues, JFK's resilience shone through. His sister Eunice once remarked, **"Jack had a way of taking his illnesses in stride. He never let them get him down."**
 
 This early struggle may have intensified his Type 7 desire to squeeze every drop of joy and excitement from life, propelling him towards a future in the spotlight.
 
@@ -64,7 +64,7 @@ This early struggle may have intensified his Type 7 desire to squeeze every drop
 
 Kennedy's charisma and quick wit catapulted him into the national spotlight. His famous televised debates with Richard Nixon in 1960 showcased his natural charm and ability to connect with audiences – classic Type 7 traits.
 
-Theodore Sorensen, JFK's speechwriter and close advisor, observed, "He had an extraordinary capacity to absorb information quickly and to translate complex issues into simple, clear language." This ability to synthesize information rapidly and communicate effectively is a hallmark of the Type 7 personality.
+Theodore Sorensen, JFK's speechwriter and close advisor, observed, **"He had an extraordinary capacity to absorb information quickly and to translate complex issues into simple, clear language."** This ability to synthesize information rapidly and communicate effectively is a hallmark of the Type 7 personality.
 
 ## Personality Quirks and Habits: The JFK Charm Offensive
 
@@ -88,7 +88,7 @@ Kennedy's creation of the Peace Corps in 1961 reflected his Type 7 idealism and 
 
 ### Navigating the Cuban Missile Crisis
 
-During this tense standoff, Kennedy's ability to think on his feet and consider multiple options – characteristic of Type 7s – likely helped prevent nuclear war. His brother Robert later said, "Jack's combination of toughness and restraint... saved the peace."
+During this tense standoff, Kennedy's ability to think on his feet and consider multiple options – characteristic of Type 7s – likely helped prevent nuclear war. His brother Robert later said, **"Jack's combination of toughness and restraint... saved the peace."**
 
 ### Championing Civil Rights
 
@@ -98,7 +98,7 @@ Though initially cautious, Kennedy's growing commitment to civil rights demonstr
 
 Kennedy's presidency wasn't without its controversies, from the Bay of Pigs fiasco to rumors of extramarital affairs. His Type 7 tendency to seek excitement and new experiences may have played a role in some of these situations.
 
-However, his ability to bounce back from setbacks and maintain public support showcased the resilience and optimism typical of healthy Type 7s. After the Bay of Pigs, he famously took full responsibility, stating, "Victory has a hundred fathers and defeat is an orphan."
+However, his ability to bounce back from setbacks and maintain public support showcased the resilience and optimism typical of healthy Type 7s. After the Bay of Pigs, he famously took full responsibility, stating, **"Victory has a hundred fathers and defeat is an orphan."**
 
 ## JFK's Legacy and Lasting Impact
 
