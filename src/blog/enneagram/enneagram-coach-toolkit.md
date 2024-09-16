@@ -51,7 +51,7 @@ But to be an effective coach, you need to assign impactful homework. And avoid t
 
 Assigning homework between sessions is not just a filler; it's a cornerstone of effective coaching.
 
-Effective homework for Enneagram clients should be clearly tailored to individual needs and objectives. For example, asking a Type 2 (The Helper) to journal instances where they prioritize others' needs over their own can spark significant self-realizations before the next meeting. Such tasks encourage continuous engagement and reflection, which is crucial for deeper self-understanding and growth.
+Effective homework for Enneagram clients should be clearly tailored to individual needs and objectives. For example, asking a [Type 2 (The Helper)](/enneagram-corner/enneagram-type-2) to journal instances where they prioritize others' needs over their own can spark significant self-realizations before the next meeting. Such tasks encourage continuous engagement and reflection, which is crucial for deeper self-understanding and growth.
 
 ### Observational Tasks to Enhance Awareness
 

@@ -63,7 +63,7 @@ The founding father, Alex Cooper of the "Call Her Daddy" podcast is a force to b
 
 ## What is Alex Cooper's Personality Type?
 
-With her zest for life and insatiable curiosity, Alex seems to give off Enneagram Type 7 energy, known as "The Enthusiast."
+With her zest for life and insatiable curiosity, Alex seems to give off Enneagram Type 7 energy, known as ["The Enthusiast."](/enneagram-corner/enneagram-type-7)
 
 ### Characteristics of Enneagram Type 7
 

@@ -44,7 +44,7 @@ Before that she was hustling and stared on the TV show "Suits". She has been sub
 
 ## The Desire to be Needed
 
-A defining trait of Enneagram Type 2's is their inherent need to be indispensable.
+A defining trait of [Enneagram Type 2's](/enneagram-corner/enneagram-type-2) is their inherent need to be indispensable.
 
 This drive often fuels their philanthropic endeavors and their engagement in societal change. When people need help, twos are ready to jump in and Meghan's career trajectory and advocacy work seem to reflect this pattern. For instance, her involvement in women's rights and other charitable causes, including her role as a Global Ambassador for World Vision Canada, suggest an intrinsic need to be helpful and to make a tangible difference.
 

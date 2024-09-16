@@ -78,7 +78,7 @@ Type 4s are typically recognized by their deep emotions, and artistic tendencies
 
 <a href="https://www.enneagraminstitute.com/type-4">The Enneagram Institute</a> describes them as self-aware, sensitive, and reserved. They exhibit a dynamic mix of creativity and melancholy.
 
-Casey Neistat, with his unique video blogging style, embodies these Type 4 characteristics. His blend of personal narrative and professional filmmaking highlights Type 4's creative flair, while his open discussions about life's challenges showcase their introspective and emotionally rich nature.
+Casey Neistat, with his unique video blogging style, embodies these [Type 4 characteristics.](/enneagram-corner/enneagram-type-4) His blend of personal narrative and professional filmmaking highlights Type 4's creative flair, while his open discussions about life's challenges showcase their introspective and emotionally rich nature.
 
 ## Seeing the Unseen
 

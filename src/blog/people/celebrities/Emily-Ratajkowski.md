@@ -45,7 +45,9 @@ For those who are paying attention, they know that she pushes boundaries and is 
 
 ## Owning and Embracing Her Sexuality
 
-A defining characteristic of Type 8 individuals is their boldness and willingness to assert themselves. Ratajkowski embodies this trait by confidently owning her sexuality and embracing her body. From her breakout role in the "Blurred Lines" music video to her modeling work and advocacy for body positivity, she has consistently defied expectations and championed a more inclusive and empowering approach to women's bodies. She has also flat-out said multiple times that she likes sex.
+A defining characteristic of [Type 8 individuals](/enneagram-corner/enneagram-type-8) is their boldness and willingness to assert themselves.
+
+Ratajkowski embodies this trait by confidently owning her sexuality and embracing her body. From her breakout role in the "Blurred Lines" music video to her modeling work and advocacy for body positivity, she has consistently defied expectations and championed a more inclusive and empowering approach to women's bodies. She has also flat-out said multiple times that she likes sex.
 
 ## Navigating Emasculation
 

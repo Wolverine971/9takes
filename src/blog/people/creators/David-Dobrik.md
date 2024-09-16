@@ -61,7 +61,7 @@ David Dobrik, the captivating YouTube sensation, has managed to capture the hear
 
 David Dobrik is not someone to rest on his laurels.
 
-He's always on the lookout for new adventures and exciting experiences. If you've ever wondered about the origins of David Dobrik's fame, it's easy to trace. His hunger for novelty and excitement, a common characteristic of Type 7s, propelled him to the heights of YouTube's popularity. His distinctive flair for impromptu comedy and audacious stunts resonates with the natural spontaneity and adaptability of Type 7.
+He's always on the lookout for new adventures and exciting experiences. If you've ever wondered about the origins of David Dobrik's fame, it's easy to trace. His hunger for novelty and excitement, a common characteristic of [Type 7s,](/enneagram-corner/enneagram-type-7) propelled him to the heights of YouTube's popularity. His distinctive flair for impromptu comedy and audacious stunts resonates with the natural spontaneity and adaptability of Type 7.
 
 ## Relationships and Dynamics
 

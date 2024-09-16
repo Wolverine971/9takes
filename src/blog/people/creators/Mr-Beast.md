@@ -73,7 +73,7 @@ But what drives the man behind the extravagant videos and philanthropic gestures
 
 ### MrBeast: The Classic Enneagram Type 8
 
-MrBeast embodies the essence of an Enneagram Type 8, often called "The Challenger." Type 8s are known for their strength, assertiveness, and desire to make a big impact on the world around them. They're natural leaders who aren't afraid to take risks and push boundaries.
+MrBeast embodies the essence of an Enneagram Type 8, often called []"The Challenger."](/enneagram-corner/enneagram-type-8) Type 8s are known for their strength, assertiveness, and desire to make a big impact on the world around them. They're natural leaders who aren't afraid to take risks and push boundaries.
 
 Type 8s are driven by a core desire to be in control of their own destiny and to protect themselves and others. This often stems from childhood experiences where they felt vulnerable or powerless. As a result, they develop a tough exterior and a strong will to overcome obstacles.
 

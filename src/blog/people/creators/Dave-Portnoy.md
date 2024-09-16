@@ -61,7 +61,7 @@ But have you ever wondered what makes Dave Portnoy tick? What's the driving forc
 
 ## What is Dave Portnoy's Personality Type?
 
-The Enneagram Type 8 is often described as self-confident, decisive, and willful. They are natural leaders who are not afraid to stand alone and often fear being controlled by others. Does that sound like someone we know? Yes, it's Dave Portnoy.
+The Enneagram [Type 8](/enneagram-corner/enneagram-type-8) is often described as self-confident, decisive, and willful. They are natural leaders who are not afraid to stand alone and often fear being controlled by others. Does that sound like someone we know? Yes, it's Dave Portnoy.
 
 ## Why Dave Portnoy Could Be a Type 8
 

@@ -98,7 +98,7 @@ At a party, Type 5s are likely to be found observing, analyzing, and taking ever
 
 </article>
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
  <article class="section-content">
    <h3 style="padding: 0; margin: 0">Type 6 - The Loyalist</h3>

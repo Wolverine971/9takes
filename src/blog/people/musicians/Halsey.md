@@ -83,7 +83,7 @@ Halsey, an influential figure in the music industry, is a fascinating study of r
 
 ## The Voice of a Challenger
 
-From her early career with 'Room 93' to her recent album 'If I Can't Have Love, I Want Power', Halsey's lyrics have always been a testament to her unyielding strength and a refusal to be boxed in. A common thread that could hint at her Type 8 personality.
+From her early career with 'Room 93' to her recent album 'If I Can't Have Love, I Want Power', Halsey's lyrics have always been a testament to her unyielding strength and a refusal to be boxed in. A common thread that could hint at her [Type 8 personality.](/enneagram-corner/enneagram-type-8)
 
 ## Against the Grain: Defiance and Power
 

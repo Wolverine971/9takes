@@ -48,7 +48,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 ## Loyal to friends and causes
 
-Enneagram type 6 individuals are known for their loyalty to their loved ones and the causes they believe in.
+[Enneagram type 6 individuals](/enneagram-corner/enneagram-type-6) are known for their loyalty to their loved ones and the causes they believe in.
 
 Ellen has been a loyal advocate for the LGBTQ+ community throughout her career. She has used her platform to raise awareness and funds for various LGBTQ+ organizations, demonstrating her commitment to this cause.
 

@@ -59,7 +59,7 @@ Joe Rogan is a force to be reckoned with in the world of media and entertainment
 
 ### Joe Rogan is an Enneagram Type 8
 
-Type 8s, known as The Challengers, are characterized by their desire to assert dominance and control their environment.
+Type 8s, known as ["The Challengers,"](/enneagram-corner/enneagram-type-8) are characterized by their desire to assert dominance and control their environment.
 
 They seek to protect themselves by getting stronger. Their strength can take many forms, physical strength, wealth, power, or even wisdom. They do this because somewhere in their childhood, **they got the message that it was not ok to be weak**. Often, 8s can remember a time when they were vulnerable and taken advantage of.
 
