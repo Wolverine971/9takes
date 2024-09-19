@@ -151,9 +151,9 @@ Type 9s are often the most laid-back and easy-going people at the party, going w
 
 ## Wrap up
 
-Each type has its unique characteristics and motivations for attending the party. Understanding the Enneagram types can help us connect with others and appreciate their unique perspectives. If you want to see <a style="font-weight: bold;" href="/enneagram-corner/how-each-enneagram-flexes" >how each Enneagram type flexes</a> check the link out. Whether you're a Type 1, Type 9, or anything in between, there's something for everyone at a party. So go out there and enjoy yourself, and remember to appreciate the different perspectives and personalities of those around you.
+Each type has its unique characteristics and motivations for attending the party. Understanding the Enneagram types can help us connect with others and appreciate their unique perspectives. Whether you're a Type 1, Type 9, or anything in between, there's something for everyone at a party. So go out there and enjoy yourself, and remember to appreciate the different perspectives and personalities of those around you.
 
-If you found this helpful, sign up and join 9takes below ⬇️. Of course, you are free to decline, but there is much more to explore. 🚀
+Go here to see <a style="font-weight: bold;" href="/enneagram-corner/how-each-enneagram-flexes" >how each Enneagram type shows off.</a>
 
 <svelte:head>
 

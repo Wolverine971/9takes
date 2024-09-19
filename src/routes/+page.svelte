@@ -127,28 +127,18 @@
 					</div>
 					<div class="hero-text">
 						<h1>
-							Stress test your <span class="highlight">questions</span>,
+							Ask a <span class="highlight">question</span> to find out what others are thinking,
+							feeling, and doing.
 							<br class="hide-mobile" />
-							not everyone sees the world you do.
 						</h1>
 						<h2>
-							There are <span class="highlight large-text">9</span> personalities with different
+							Everyone sees the world differently, <br />but some see it like you do, <br />find
+							them on
+							<span class="highlight large-text">9takes</span>.
+							<!-- There are <span class="highlight large-text">9</span> personalities with different
 							<span class="highlight large-text">takes</span> on your question...
-							<br />Sift through them.
+							<br />Sift through them. -->
 						</h2>
-						<div class="question-answer-links">
-							<div class="question-links">
-								{#each Array(4) as _}
-									<a href="/questions" class="question-link">Question</a>
-								{/each}
-							</div>
-							<span class="arrow">{'>'}</span>
-							<div class="answer-types">
-								{#each ['Answers', 'Tweets', 'Posts', 'Threads'] as type}
-									<span class="large-text">{type}</span>
-								{/each}
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
@@ -169,7 +159,7 @@
 					<p>in every scenario...</p>
 				</div>
 				<div class="question-list">
-					{#each data?.top5Questions as questionData}
+					{#each data?.top8Questions as questionData}
 						<QuestionItem {questionData} showDetails={false} />
 					{/each}
 				</div>
@@ -202,6 +192,26 @@
 				</div>
 			</Jumbotron>
 		{/if}
+	</div>
+
+	<hr />
+
+	<div class="section-wrapper" style="margin: 10rem;">
+		<hr />
+		<div class="question-answer-links">
+			<div class="question-links">
+				{#each Array(4) as _}
+					<a href="/questions" class="question-link">Question</a>
+				{/each}
+			</div>
+			<span class="arrow">{'>'}</span>
+			<div class="answer-types">
+				{#each ['Answers', 'Tweets', 'Posts', 'Threads'] as type}
+					<span class="large-text">{type}</span>
+				{/each}
+			</div>
+		</div>
+		<hr />
 	</div>
 
 	<div class="section-wrapper">
@@ -382,7 +392,7 @@
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		margin-top: 2.5rem;
+		margin: 2.5rem 0;
 	}
 
 	.question-links,
