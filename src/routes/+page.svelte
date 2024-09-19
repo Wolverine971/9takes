@@ -133,7 +133,7 @@
 						</h1>
 						<h2>
 							Everyone sees the world differently, <br />but some see it like you do, <br />find
-							them on
+							them here on <br />
 							<span class="highlight large-text">9takes</span>.
 							<!-- There are <span class="highlight large-text">9</span> personalities with different
 							<span class="highlight large-text">takes</span> on your question...
@@ -150,13 +150,9 @@
 			<section class="find-out glass-area" in:fly={getTransition(1)}>
 				<div class="find-out-content">
 					<h2 class="subheading">
-						Find out what people
-						<br class="hide-mobile" />
-						<span class="highlight">think</span>,
-						<span class="highlight">feel</span>, and
-						<span class="highlight">do</span>...
+						Get <span class="highlight">unbiased</span> answers
 					</h2>
-					<p>in every scenario...</p>
+					<p>you cannot see comments until you comment...</p>
 				</div>
 				<div class="question-list">
 					{#each data?.top8Questions as questionData}
