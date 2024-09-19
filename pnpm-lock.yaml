@@ -35,9 +35,6 @@ dependencies:
   '@vercel/analytics':
     specifier: ^0.1.11
     version: 0.1.11(react@18.3.1)
-  '@vercel/speed-insights':
-    specifier: ^1.0.12
-    version: 1.0.12(@sveltejs/kit@1.24.0)(react@18.3.1)(svelte@4.2.0)
   aws-sdk:
     specifier: ^2.1618.0
     version: 2.1618.0
@@ -2090,35 +2087,6 @@ packages:
       - encoding
       - supports-color
     dev: true
-
-  /@vercel/speed-insights@1.0.12(@sveltejs/kit@1.24.0)(react@18.3.1)(svelte@4.2.0):
-    resolution: {integrity: sha512-ZGQ+a7bcfWJD2VYEp2R1LHvRAMyyaFBYytZXsfnbOMkeOvzGNVxUL7aVUvisIrTZjXTSsxG45DKX7yiw6nq2Jw==}
-    requiresBuild: true
-    peerDependencies:
-      '@sveltejs/kit': ^1 || ^2
-      next: '>= 13'
-      react: ^18 || ^19
-      svelte: ^4
-      vue: ^3
-      vue-router: ^4
-    peerDependenciesMeta:
-      '@sveltejs/kit':
-        optional: true
-      next:
-        optional: true
-      react:
-        optional: true
-      svelte:
-        optional: true
-      vue:
-        optional: true
-      vue-router:
-        optional: true
-    dependencies:
-      '@sveltejs/kit': 1.24.0(svelte@4.2.0)(vite@4.3.5)
-      react: 18.3.1
-      svelte: 4.2.0
-    dev: false
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
