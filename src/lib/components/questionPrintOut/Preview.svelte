@@ -42,6 +42,7 @@
 	style:font-size={style.fontSize}
 	on:dragover={handleDragOver}
 	on:drop={handleDrop}
+	role="region"
 >
 	<div
 		class="content"
