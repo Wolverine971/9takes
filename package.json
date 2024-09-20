@@ -81,7 +81,6 @@
 		"@types/gsap": "^3.0.0",
 		"@types/node-schedule": "^2.1.7",
 		"@vavite/node-loader": "^1.8.3",
-		"@vercel/analytics": "^0.1.11",
 		"aws-sdk": "^2.1691.0",
 		"base64-arraybuffer": "^1.0.2",
 		"cheerio": "^1.0.0",

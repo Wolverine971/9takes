@@ -19,9 +19,6 @@
 		});
 		// injectSpeedInsights();
 	}
-	import { inject } from '@vercel/analytics';
-
-	inject({ mode: dev ? 'development' : 'production' });
 
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Analytics from '$lib/analytics.svelte';
