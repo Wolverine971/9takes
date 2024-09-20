@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/kit/vite';
-import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 
@@ -9,13 +8,14 @@ const config = {
 	preprocess: [
 		vitePreprocess(),
 		mdsvex(mdsvexConfig),
-		preprocess({
+		{
 			postcss: true,
 			preserve: ['ld+json'],
 			scss: {
 				prependData: `@import './src/scss/index.scss';`
-			}
-		})
+			},
+			typescript: true
+		}
 	],
 
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
@@ -31,15 +31,6 @@ const config = {
 		csrf: {
 			checkOrigin: false
 		}
-		// Uncomment and adjust as needed:
-		// prerender: {
-		//   entries: ['/enneagram-corner/1', '/enneagram-corner/2']
-		// },
-		// csp: {
-		//   directives: {
-		//     'script-src': ['self']
-		//   }
-		// }
 	}
 };
 

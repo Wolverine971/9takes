@@ -1,13 +1,19 @@
 <script lang="ts">
+	import { browser, dev } from '$app/environment';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import type { PageData } from './$types';
 	import { webVitals } from '$lib/vitals';
-	import { browser } from '$app/environment';
-	import Header from '$lib/components/molecules/Header.svelte';
-	import './styles.css';
-	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
-	import { dev } from '$app/environment';
 	import { preparePageTransition } from '$lib/page-transition';
-	// import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { setCookie } from '../utils/cookies';
+	import Header from '$lib/components/molecules/Header.svelte';
+	import Toast from '$lib/components/molecules/Toast.svelte';
+	import Footer from '$lib/components/molecules/Footer.svelte';
+	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
+	import Analytics from '$lib/analytics.svelte';
+	let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
+	import './styles.css';
 
 	preparePageTransition();
 
@@ -20,29 +26,25 @@
 		// injectSpeedInsights();
 	}
 
-	import Toast from '$lib/components/molecules/Toast.svelte';
-	import Analytics from '$lib/analytics.svelte';
-	import { page } from '$app/stores';
-	import Footer from '$lib/components/molecules/Footer.svelte';
-	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
-	import FingerprintJS from '@fingerprintjs/fingerprintjs';
-	import { onMount } from 'svelte';
-	import { setCookie } from '../utils/cookies';
-
 	export let data: PageData;
 	let innerWidth = 0;
 	onMount(async () => {
-		const fp = await FingerprintJS.load();
-		const fpval = await fp.get();
-		const formdata = new FormData();
-		formdata.append('fp', fpval?.visitorId?.toString());
-		setCookie('9tfingerprint', fpval?.visitorId?.toString(), 365);
-		fetch(`/api/adder`, {
-			method: 'POST',
-			body: formdata
-		})
-			.then((response) => response.text())
-			.catch((error) => console.log('error', error));
+		try {
+			const fp = await FingerprintJS.load();
+			const fpval = await fp.get();
+			const visitorId = fpval?.visitorId?.toString();
+			if (visitorId) {
+				const formdata = new FormData();
+				formdata.append('fp', visitorId);
+				setCookie('9tfingerprint', visitorId, 365);
+				await fetch(`/api/adder`, {
+					method: 'POST',
+					body: formdata
+				});
+			}
+		} catch (error) {
+			console.error('Error in fingerprint processing:', error);
+		}
 	});
 
 	const maxWidthPages = ['/', '/content-board'];

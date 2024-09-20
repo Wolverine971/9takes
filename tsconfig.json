@@ -8,10 +8,13 @@
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
-		"strict": true
+		"strict": true,
+		"verbatimModuleSyntax": true
 	},
 	"paths": {
-		"crypto": ["node_modules/crypto-js"]
+		"crypto": [
+			"node_modules/crypto-js"
+		]
 	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
