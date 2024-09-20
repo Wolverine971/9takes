@@ -93,20 +93,21 @@
 </script>
 
 <svelte:head>
-	<title>9takes</title>
+	<title>9takes - Anonymous Questions and Answers Based on Personality</title>
 	<meta name="description" content={metaDescription} />
 	<link rel="canonical" href="https://9takes.com" />
 	<meta property="og:site_name" content="9takes" />
-	<meta property="og:title" content="9takes home of the questioners" />
+	<meta property="og:title" content="9takes - Home of the Questioners" />
 	<meta property="og:description" content={metaDescription} />
 	<meta property="og:url" content="https://9takes.com" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={ogImage} />
 	<meta property="og:image:type" content="image/png" />
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@djwayne3" />
-	<meta property="twitter:title" content="9takes" />
-	<meta property="twitter:url" content="https://9takes.com" />
+	<meta property="twitter:title" content="9takes - Anonymous Questions and Answers" />
+	<meta property="twitter:description" content={metaDescription} />
+	<meta property="twitter:image" content={ogImage} />
 </svelte:head>
 
 <svelte:window bind:innerWidth />
@@ -119,26 +120,22 @@
 					<div class="hero-image">
 						<enhanced:img
 							src="/static/9takes-preview.webp?enhanced"
-							alt="9takes preview"
+							alt="9takes preview showing question and answer interface"
 							class="img-preview"
 							fetchPriority="high"
 							loading="eager"
 						/>
 					</div>
 					<div class="hero-text">
-						<h1>
-							Ask a <span class="highlight">question</span> to find out what others are thinking,
-							feeling, and doing.
-							<br class="hide-mobile" />
-						</h1>
-						<h2>
-							Everyone sees the world differently, <br />but some see it like you do, <br />find
-							them here on <br />
-							<span class="highlight large-text">9takes</span>.
-							<!-- There are <span class="highlight large-text">9</span> personalities with different
-							<span class="highlight large-text">takes</span> on your question...
-							<br />Sift through them. -->
-						</h2>
+						<h1>9takes: Anonymous Questions and Answers Based on Personality</h1>
+						<p class="hero-subtitle">
+							Ask a <span class="highlight">question</span> to find out what others are thinking, feeling,
+							and doing.
+						</p>
+						<p class="hero-description">
+							Everyone sees the world differently, <br />but some see it like you do. <br />Find
+							them here.
+						</p>
 					</div>
 				</div>
 			</section>
@@ -148,12 +145,8 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[1]}
 			<section class="find-out glass-area" in:fly={getTransition(1)}>
-				<div class="find-out-content">
-					<h2 class="subheading">
-						Get <span class="highlight">unbiased</span> answers
-					</h2>
-					<p>you cannot see comments until you comment...</p>
-				</div>
+				<h2 class="subheading">Get <span class="highlight">Unbiased</span> Answers</h2>
+				<p>You cannot see comments until you comment...</p>
 				<div class="question-list">
 					{#each data?.top8Questions as questionData}
 						<QuestionItem {questionData} showDetails={false} />
@@ -173,8 +166,9 @@
 				panBackground={false}
 			>
 				<div class="content-display" in:fly={getTransition(2)}>
-					<p class="txt-white link bold-shadow main-p" itemprop="description">
+					<p class="txt-white link bold-shadow" style="text-align: center;">
 						Where can you find unbiased and different viewpoints/ opinions/ answers/ feedback/ takes
+						<br class="hide-mobile" />
 						on any situation you can think of?
 					</p>
 					<h2
@@ -190,29 +184,27 @@
 		{/if}
 	</div>
 
-	<hr />
-
-	<div class="section-wrapper" style="margin: 10rem;">
-		<hr />
-		<div class="question-answer-links">
-			<div class="question-links">
-				{#each Array(4) as _}
-					<a href="/questions" class="question-link">Question</a>
-				{/each}
+	<div class="section-wrapper">
+		<section class="question-answer-section">
+			<div class="question-answer-links">
+				<div class="question-links">
+					{#each Array(4) as _}
+						<a href="/questions" class="question-link">Question</a>
+					{/each}
+				</div>
+				<span class="arrow">{'>'}</span>
+				<div class="answer-types">
+					{#each ['Answers', 'Tweets', 'Posts', 'Threads'] as type}
+						<span class="large-text">{type}</span>
+					{/each}
+				</div>
 			</div>
-			<span class="arrow">{'>'}</span>
-			<div class="answer-types">
-				{#each ['Answers', 'Tweets', 'Posts', 'Threads'] as type}
-					<span class="large-text">{type}</span>
-				{/each}
-			</div>
-		</div>
-		<hr />
+		</section>
 	</div>
 
 	<div class="section-wrapper">
 		{#if sectionsVisible[3]}
-			<section class="challenges glass-area" in:fly={getTransition(3)} style="margin:5rem 0;">
+			<section class="challenges glass-area" in:fly={getTransition(3)}>
 				<h2>It is hard to find open discussions online.</h2>
 				<h3>Conversation gets stifled for the following reasons:</h3>
 				<ul>
@@ -236,9 +228,9 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[4]}
 			<section class="deeper" in:fly={getTransition(4)}>
-				<h2>Going deeper</h2>
+				<h2>Bringing online conversations a layer deeper</h2>
 				<p class="description">
-					9takes is anonymous and based on the Enneagram personality system.<br />
+					9takes is anonymous and influenced by the Enneagram personality system.<br />
 					<strong class="large-text"
 						>Think <span class="reddit-text">Reddit</span> based on personality.</strong
 					>
@@ -247,8 +239,8 @@
 					{#each bentoItems as { href, img, alt, title }}
 						<li class="bento">
 							<a {href} class="bento-a">
-								<img src={`/blogs/${img}`} {alt} loading="lazy" />
-								<h4>{title}</h4>
+								<img src={`/blogs/${img}`} {alt} loading="lazy" width="200" height="200" />
+								<h3>{title}</h3>
 							</a>
 						</li>
 					{/each}
@@ -260,7 +252,7 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[5]}
 			<section class="benefits glass-area" in:fly={getTransition(5)}>
-				<h3>A few benefits <small>(that you may not have thought of)</small></h3>
+				<h2>Benefits of 9takes</h2>
 				<ul>
 					{#each benefits as { text, icon }, index}
 						<li>
@@ -268,7 +260,7 @@
 								xmlns="http://www.w3.org/2000/svg"
 								height="1em"
 								viewBox="0 0 512 512"
-								style="display: inline;"
+								aria-hidden="true"
 							>
 								<path d={icon} />
 							</svg>
@@ -276,11 +268,10 @@
 						</li>
 					{/each}
 				</ul>
-
-				<span>
+				<p>
 					Explore the worldviews of different personality types by sifting through their answers to
 					questions.
-				</span>
+				</p>
 			</section>
 		{/if}
 	</div>
@@ -289,7 +280,8 @@
 		<div class="section-wrapper">
 			{#if sectionsVisible[6]}
 				<section class="signup" in:fly={getTransition(6)}>
-					<EmailSignup cta={'Signup and start asking questions'} />
+					<h2>Join 9takes Today</h2>
+					<EmailSignup cta={'Sign up and start asking questions'} />
 				</section>
 			{/if}
 		</div>
@@ -297,36 +289,32 @@
 </main>
 
 <style lang="scss">
+	:root {
+		--background-color: #f5f5f7;
+		--card-background: #ffffff;
+		--shadow-color: rgba(0, 0, 0, 0.1);
+	}
+
 	main {
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 2rem;
 	}
 
-	section {
-		margin-bottom: 5rem;
+	.section-wrapper {
+		margin-bottom: 4rem;
 	}
 
-	.glass-area {
-		background: rgba(255, 255, 255, 0.2);
-		backdrop-filter: blur(10px);
-		border-radius: 1rem;
-		padding: 2rem;
-		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	}
-
-	// Typography
 	h1,
 	h2,
 	h3,
 	h4 {
 		margin-bottom: 1rem;
-		font-weight: 700;
+		line-height: 1.2;
 	}
 
 	h1 {
 		font-size: 2.5rem;
-		line-height: 1.2;
 	}
 
 	h2 {
@@ -339,6 +327,7 @@
 
 	p {
 		font-size: 1.1rem;
+		line-height: 1.6;
 		margin-bottom: 1rem;
 	}
 
@@ -351,22 +340,30 @@
 		font-size: 1.2em;
 	}
 
+	.glass-area {
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		border-radius: 1rem;
+		padding: 2rem;
+		box-shadow: 0 4px 6px var(--shadow-color);
+	}
+
 	// Hero Section
 	.hero {
+		display: flex;
+		align-items: center;
+		gap: 4rem;
 		margin: 4rem 0;
-		padding: 2rem 0;
 
 		&-content {
 			display: flex;
 			align-items: center;
 			gap: 4rem;
-			max-width: 1200px;
-			margin: 0 auto;
 		}
 
 		&-image {
-			flex: 0 0 40%;
-			max-width: 40%;
+			flex: 0 0 50%;
+			max-width: 50%;
 		}
 
 		&-text {
@@ -380,15 +377,21 @@
 		max-height: 70vh;
 		object-fit: contain;
 		border-radius: 1rem;
+		// box-shadow: 0 4px 6px var(--shadow-color);
 	}
 
 	// Question-Answer Links
+	.question-answer-section {
+		text-align: center;
+		margin: 200px 0;
+	}
+
 	.question-answer-links {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		margin: 2.5rem 0;
+		margin-top: 2rem;
 	}
 
 	.question-links,
@@ -399,9 +402,10 @@
 	}
 
 	.question-link {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		color: var(--primary-dark);
 		text-decoration: none;
+		transition: color 0.3s ease;
 
 		&:hover {
 			text-decoration: underline;
@@ -414,21 +418,15 @@
 	}
 
 	// Find Out Section
-	.find-out-content {
+	.find-out {
 		text-align: center;
-		margin-bottom: 2rem;
 	}
 
-	.subheading {
-		font-size: 2rem;
-		margin-bottom: 1rem;
-	}
-
-	// Question List
 	.question-list {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		gap: 1rem;
+		margin-top: 2rem;
 	}
 
 	// Bento List
@@ -445,6 +443,7 @@
 		overflow: hidden;
 		border-radius: 1rem;
 		transition: transform 0.3s ease;
+		box-shadow: 0 4px 6px var(--shadow-color);
 
 		&:hover {
 			transform: translateY(-5px);
@@ -456,7 +455,7 @@
 			object-fit: cover;
 		}
 
-		h4 {
+		h3 {
 			position: absolute;
 			bottom: 0;
 			left: 0;
@@ -490,54 +489,34 @@
 		}
 	}
 
-	// Media Queries
-	@media (max-width: 1200px) {
-		.hero-content {
-			padding: 0 2rem;
-		}
+	// Signup Section
+	.signup {
+		text-align: center;
+		// background-color: var(--card-background);
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px var(--shadow-color);
 	}
 
-	@media (max-width: 992px) {
-		.hero-image {
-			flex: 0 0 45%;
-			max-width: 45%;
+	// Responsive Design
+	@media (max-width: 1200px) {
+		main {
+			padding: 1rem;
 		}
 
-		h1 {
-			font-size: 2.2rem;
+		.hero-content {
+			flex-direction: column-reverse;
+			gap: 2rem;
 		}
 
-		h2 {
-			font-size: 1.8rem;
+		.hero-image,
+		.hero-text {
+			flex: 0 0 100%;
+			max-width: 100%;
 		}
 	}
 
 	@media (max-width: 768px) {
-		section {
-			margin-bottom: 4rem;
-		}
-
-		.hero {
-			margin: 2rem 0;
-			padding: 1rem 0;
-
-			&-content {
-				flex-direction: column-reverse;
-				gap: 2rem;
-			}
-
-			&-image,
-			&-text {
-				flex: 0 0 100%;
-				max-width: 100%;
-				text-align: center;
-			}
-		}
-
-		.img-preview {
-			max-height: 50vh;
-		}
-
 		h1 {
 			font-size: 2rem;
 		}
@@ -550,39 +529,24 @@
 			font-size: 1.5rem;
 		}
 
-		.question-answer-links {
-			// flex-direction: column;
-			// align-items: flex-start;
-			justify-content: center;
-			gap: 1rem;
-		}
-
-		.arrow {
-			// display: none;
-		}
-
-		.question-links,
-		.answer-types {
-			// flex-direction: row;
-			// flex-wrap: wrap;
-			gap: 0.5rem;
-		}
-
-		.question-link,
-		.answer-types span {
-			font-size: 1.2rem;
+		.hero {
+			margin: 2rem 0;
 		}
 
 		.hide-mobile {
 			display: none;
 		}
 
-		.subheading {
-			font-size: 1.75rem;
+		.question-answer-links {
+			flex-direction: column;
+			align-items: center;
 		}
 
-		.question-list {
-			grid-template-columns: 1fr;
+		.question-links,
+		.answer-types {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
 		}
 
 		.bento-list {
@@ -591,10 +555,6 @@
 	}
 
 	@media (max-width: 480px) {
-		.hero {
-			margin: 1rem 0;
-		}
-
 		h1 {
 			font-size: 1.75rem;
 		}
@@ -607,31 +567,32 @@
 			font-size: 1.25rem;
 		}
 
-		.subheading {
-			font-size: 1.5rem;
+		p {
+			font-size: 1rem;
 		}
 
-		.question-link,
-		.answer-types span {
-			font-size: 1rem;
+		.hero {
+			margin: 1rem 0;
+		}
+
+		.glass-area {
+			padding: 1rem;
 		}
 
 		.bento-list {
 			grid-template-columns: 1fr;
 		}
 	}
+
+	// Animation
 	.animate-on-scroll {
 		opacity: 0;
 		transform: translateY(20px);
 		transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-	}
 
-	.animate-on-scroll.in-view {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	.section-wrapper {
-		min-height: 100px; // Adjust this value as needed
+		&.in-view {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 </style>

@@ -1,151 +1,105 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { afterNavigate } from '$app/navigation';
-	import { page } from '$app/stores';
+import { afterNavigate } from '$app/navigation';
+import { page } from '$app/stores';
 
-	let navSteps: { name: string; url: string }[] = [];
-	onMount(async () => {
-		if ($page.route.id) {
-			await displayRoute();
-		}
-	});
-	// $: if ($afterNavigate) displayRoute();
+interface NavStep {
+    name: string;
+    url: string;
+}
 
-	// breadcrumbs jsonld
+let navSteps: NavStep[] = [];
 
-	afterNavigate(() => {
-		displayRoute();
-	});
+$: jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: navSteps.map((step, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: step.name,
+        item: `https://9takes.com${step.url}`
+    }))
+};
 
-	const displayRoute = async () => {
-		if ($page.route.id) {
-			const tempSteps = $page.route.id.split('/').filter((x) => {
-				if (!!x) {
-					if (x === 'users' || x === 'unsubscribe' || x === 'type' || x === 'subtopic') {
-						if ($page.route.id?.includes('/admin')) {
-							return true;
-						}
-						return false;
-					}
-					return true;
-				}
-				return false;
-			});
+function getHref(index: number, steps: string[]): string {
+    return '/' + steps.slice(0, index).join('/');
+}
 
-			if (tempSteps) {
-				const tempNavSteps = tempSteps.map((step, i) => {
-					let url = getHref(i + 1, tempSteps);
-					return {
-						name: step.split('-').join(' '),
-						url
-					};
-				});
+function displayRoute(): void {
+    if ($page.route.id) {
+        const tempSteps = $page.route.id.split('/').filter(x => {
+            if (!x) return false;
+            if (['users', 'unsubscribe', 'type', 'subtopic'].includes(x)) {
+                return $page.route.id?.includes('/admin');
+            }
+            return true;
+        });
 
-				// tempNavSteps.shift();
-				tempNavSteps.pop();
-				navSteps = tempNavSteps;
-			}
-		}
-	};
+        navSteps = tempSteps.slice(0, -1).map((step, i) => ({
+            name: step.replace(/-/g, ' '),
+            url: getHref(i + 1, tempSteps)
+        }));
+    }
+}
 
-	const getHref = (index: number, steps: string[]) => {
-		const newPath = steps.slice(0, index).join('/');
-		return '/' + newPath;
-	};
-
-	$: jsonLd = {
-		'@context': 'https://schema.org',
-		'@type': 'BreadcrumbList',
-		itemListElement: [
-			...navSteps.map((step, index) => ({
-				'@type': 'ListItem',
-				position: index + 1,
-				name: step.name,
-				item: `https://9takes.com${step.url}`
-			}))
-		]
-	};
+afterNavigate(displayRoute);
 </script>
 
 <svelte:head>
-	{#if navSteps.length}
-		{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
-	{/if}
+    {#if navSteps.length}
+        {@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+    {/if}
 </svelte:head>
 
 {#if navSteps.length}
-	<div style="max-width: 64rem; margin: auto;">
-		<div class="back-nav" style="width: 100%">
-			{#each navSteps as step}
-				<a href={step.url} class="marquee-text">{step.name}</a>
-				<span class="marquee-text">></span>
-			{/each}
-			<!-- <div class="track-horizontal-alt" style="">
-		<span style="width:50%; flex: 1">
-			
-		</span>
-	</div> -->
-		</div>
-	</div>
+    <div class="breadcrumb-container">
+        <div class="back-nav">
+            {#each navSteps as step, index}
+                <a href={step.url} class="marquee-text">{step.name}</a>
+                {#if index < navSteps.length - 1}
+                    <span class="marquee-text separator">></span>
+                {/if}
+            {/each}
+        </div>
+    </div>
 {/if}
 
 <style lang="scss">
-	.marquee-text {
-		color: var(--color-paladin-3) !important;
-		text-transform: uppercase;
-		flex: none;
-		font-size: 1.2rem;
-		margin: 2rem;
-	}
-	a::after {
-		margin: 0 0.2rem;
-	}
-	.back-nav {
-		z-index: 200;
-		width: 100%;
-		height: 2rem;
-		border-bottom: 1px solid rgba(44, 45, 42, 0.25);
-		justify-content: flex-start;
-		align-items: center;
-		display: flex;
-		overflow: hidden;
-	}
+    .breadcrumb-container {
+        max-width: 64rem;
+        margin: auto;
+    }
 
-	.track-horizontal-alt {
-		// border-top: 1px solid grey;
-		// border-bottom: 1px solid grey;
-		// position: absolute;
-		white-space: nowrap;
-		will-change: transform;
-		// animation: back-nav-alt 15s linear infinite;
-		/* manipulate the speed of the marquee by changing "40s" line above*/
-		display: inline-flex;
-		justify-content: center;
-		gap: 3rem;
-		align-items: center;
-		overflow: hidden;
-	}
+    .back-nav {
+        width: 100%;
+        height: 2rem;
+        border-bottom: 1px solid rgba(44, 45, 42, 0.25);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
 
-	@keyframes back-nav-alt {
-		from {
-			transform: translateX(-50%);
-		}
-		to {
-			transform: translateX(0%);
-		}
-	}
+    .marquee-text {
+        color: var(--color-paladin-3);
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
 
-	@media (max-width: 500px) {
-		.marquee-text {
-			margin: 0.8rem;
-		}
+        &.separator {
+            margin: 0 0.2rem;
+        }
+    }
 
-		.back-nav {
-			border-top: 1px solid var(--color-paladin-3);
-			border-bottom: 1px solid var(--color-paladin-3);
-			padding: 0.5rem;
-			margin: 1rem;
-			height: 3rem;
-		}
-	}
+    @media (max-width: 500px) {
+        .back-nav {
+            border-top: 1px solid var(--color-paladin-3);
+            border-bottom: 1px solid var(--color-paladin-3);
+            padding: 0.5rem;
+            margin: 1rem;
+            height: 3rem;
+        }
+
+        .marquee-text {
+            margin: 0 0.4rem;
+        }
+    }
 </style>

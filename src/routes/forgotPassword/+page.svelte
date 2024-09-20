@@ -24,6 +24,10 @@
 </div>
 
 <style lang="scss">
+	:root {
+		--primary-dark: color-mix(in srgb, var(--primary) 90%, black);
+	}
+
 	.container {
 		max-width: 400px;
 		margin: 2rem auto;
@@ -72,7 +76,7 @@
 			color: white;
 
 			&:hover {
-				background-color: darken(#000000, 10%);
+				background-color: var(--primary-dark);
 			}
 		}
 	}

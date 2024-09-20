@@ -1,8 +1,12 @@
-const ClickOutsideManager = {
-	registeredListeners: new Set<[CallableFunction, HTMLElement]>(),
-	boundFunction: undefined,
+type Listener = [CallableFunction, HTMLElement];
 
-	handleOnClick: function (event: PointerEvent) {
+const ClickOutsideManager = {
+	registeredListeners: new Set<Listener>(),
+	boundFunction: undefined as ((event: MouseEvent) => void) | undefined,
+
+	handleOnClick(event: MouseEvent): void {
+		if (!(event.target instanceof Node)) return;
+
 		this.registeredListeners.forEach(([func, el]) => {
 			if (el && !el.contains(event.target) && !event.defaultPrevented) {
 				func();
@@ -10,20 +14,21 @@ const ClickOutsideManager = {
 		});
 	},
 
-	addListener: function (func: CallableFunction, el: HTMLElement) {
+	addListener(func: CallableFunction, el: HTMLElement): () => void {
 		if (this.registeredListeners.size === 0) {
 			// Start listening to document clicks
 			this.boundFunction = this.handleOnClick.bind(this);
 			document.addEventListener('click', this.boundFunction);
 		}
-		const val = [func, el];
-		this.registeredListeners.add(val);
+		const listener: Listener = [func, el];
+		this.registeredListeners.add(listener);
 
 		return () => {
-			this.registeredListeners.delete(val);
-			if (this.registeredListeners.size === 0) {
+			this.registeredListeners.delete(listener);
+			if (this.registeredListeners.size === 0 && this.boundFunction) {
 				// Stop listening to document clicks
 				document.removeEventListener('click', this.boundFunction);
+				this.boundFunction = undefined;
 			}
 		};
 	}
@@ -31,7 +36,9 @@ const ClickOutsideManager = {
 
 export const clickOutside = (
 	node: HTMLElement,
-	{ callback }: { callback: CallableFunction }
-): { destroy: () => void } => ({
-	destroy: ClickOutsideManager.addListener(callback, node)
-});
+	params: { callback: () => void }
+): { destroy: () => void } => {
+	return {
+		destroy: ClickOutsideManager.addListener(params.callback, node)
+	};
+}

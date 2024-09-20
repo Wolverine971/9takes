@@ -57,6 +57,11 @@
 </div>
 
 <style lang="scss">
+	:root {
+		--primary-dark: color-mix(in srgb, var(--primary) 90%, black);
+		--primary-rgba-light: color-mix(in srgb, var(--primary) 20%, transparent);
+	}
+
 	.container {
 		max-width: 400px;
 		margin: 3rem auto;
@@ -119,7 +124,7 @@
 		&:focus {
 			outline: none;
 			border-color: var(--primary);
-			box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+			box-shadow: 0 0 0 2px var(--primary-rgba-light);
 		}
 	}
 
@@ -137,7 +142,7 @@
 			color: white;
 
 			&:hover {
-				background-color: darken(#000000, 10%);
+				background-color: var(--primary-dark);
 			}
 
 			&:active {
@@ -182,7 +187,7 @@
 			transition: color 0.3s ease;
 
 			&:hover {
-				color: darken(#000000, 10%);
+				color: var(--primary-dark);
 				text-decoration: underline;
 			}
 		}

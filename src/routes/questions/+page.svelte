@@ -166,13 +166,15 @@
 </div>
 
 <style lang="scss">
+	@use 'sass:math';
+
 	$base-margin: 0.5rem;
 	$base-padding: 1rem;
 	$transition-duration: 0.3s;
 
 	%reset-spacing {
 		padding: 0;
-		margin: $base-margin 0 $base-margin / 2 0;
+		margin: $base-margin 0 math.div($base-margin, 2) 0;
 	}
 
 	%flex-center {
@@ -239,7 +241,7 @@
 		max-height: 150px;
 		overflow-y: auto;
 		overscroll-behavior-y: contain;
-		padding: $base-padding / 2 0;
+		padding: math.div($base-padding, 2) 0;
 	}
 
 	.tag {
@@ -247,8 +249,8 @@
 		border-radius: var(--base-border-radius);
 		font-size: 0.8rem;
 		font-weight: bolder;
-		margin: $base-margin / 2;
-		padding: $base-padding / 2 $base-padding;
+		margin: math.div($base-margin, 2);
+		padding: math.div($base-padding, 2) $base-padding;
 		background-color: var(--accent);
 		color: var(--color-text-inverse);
 		transition: all $transition-duration ease;
@@ -276,7 +278,7 @@
 		.recent-questions,
 		.how-it-works,
 		.testimonials {
-			margin: $base-margin * 1 0;
+			margin: $base-margin 0;
 			padding: 0 0.5rem;
 		}
 	}

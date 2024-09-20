@@ -238,12 +238,17 @@
 </div>
 
 <style lang="scss">
-	// --info: #f0f0f0
+	// Define CSS custom properties for colors
+	:root {
+		--info: #f0f0f0;
+		--background-light: color-mix(in srgb, var(--info) 95%, black);
+		--background-dark: color-mix(in srgb, var(--info) 90%, black);
+	}
 
 	$text-color: var(--primary);
-	$background-color: darken(#f0f0f0, 5%);
+	$background-color: var(--background-light);
 	$border-color: var(--secondary);
-	$hover-color: darken(#f0f0f0, 10%);
+	$hover-color: var(--background-dark);
 	$selected-color: var(--accent);
 	$disabled-color: var(--secondary-dark);
 	$error-color: #ff6b6b;
@@ -288,7 +293,7 @@
 			&:focus {
 				outline: none;
 				border-color: var(--accent);
-				box-shadow: 0 0 0 3px rgba(var(--accent), 0.1);
+				box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 10%, transparent);
 			}
 
 			&:disabled {
@@ -383,7 +388,7 @@
 			border-color: $error-color;
 
 			&:focus {
-				box-shadow: 0 0 0 3px rgba($error-color, 0.1);
+				box-shadow: 0 0 0 3px color-mix(in srgb, $error-color 10%, transparent);
 			}
 		}
 	}
