@@ -124,8 +124,6 @@
 							class="img-preview"
 							fetchPriority="high"
 							loading="eager"
-							width="600"
-							height="400"
 						/>
 					</div>
 					<div class="hero-text">
