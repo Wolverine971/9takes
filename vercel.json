@@ -10,5 +10,12 @@
 			"source": "/proxytown/ga",
 			"destination": "https://www.google-analytics.com/analytics.js"
 		}
+	],
+	"builds": [
+		{
+			"src": "package.json",
+			"use": "@vercel/node",
+			"config": { "maxLambdaSize": "50mb" }
+		}
 	]
 }
