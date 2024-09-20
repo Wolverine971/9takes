@@ -1,9 +1,9 @@
 import { defineMDSveXConfig as defineConfig } from 'mdsvex';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import rehypeSlug from 'rehype-slug';
 import remarkAbbr from 'remark-abbr';
 import remarkGithub from 'remark-github';
-import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

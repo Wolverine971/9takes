@@ -9,13 +9,13 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
-		"verbatimModuleSyntax": true
+		"verbatimModuleSyntax": true,
+		"paths": {
+			"crypto": [
+				"node_modules/crypto-js"
+			]
+		}
 	},
-	"paths": {
-		"crypto": [
-			"node_modules/crypto-js"
-		]
-	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
