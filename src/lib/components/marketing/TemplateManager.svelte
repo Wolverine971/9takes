@@ -57,8 +57,8 @@
 					</form>
 				{:else}
 					<h4 class="font-bold">{template.type}</h4>
-					<p>{template.content_text}</p>
-					<p>Purpose: {template.purpose_description}</p>
+					<Textarea  bind:value={template.content_text}>{template.content_text}</Textarea>
+					<Textarea  bind:value={template.purpose_description}>Purpose: {template.purpose_description}</Textarea>
 					<Button on:click={() => startEditing(template)}>Edit</Button>
 					<form action="?/deleteTemplate" method="POST" use:enhance>
 						<input type="hidden" name="id" value={template.id} />
