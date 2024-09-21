@@ -5,20 +5,19 @@ import { enhancedImages } from '@sveltejs/enhanced-img';
 
 const dev = process.env.NODE_ENV === 'development';
 
-let webSocketServer;
-if (dev) {
-	webSocketServer = {
-		name: 'webSocketServer',
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		configureServer(server: any) {
-			injectSocketIO(server.httpServer);
-		}
-	};
-}
-
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [enhancedImages(), sveltekit(), nodeLoaderPlugin(), dev && webSocketServer],
+	plugins: [
+		enhancedImages(),
+		sveltekit(),
+		nodeLoaderPlugin(),
+		dev && {
+			name: 'webSocketServer',
+			configureServer(server) {
+				injectSocketIO(server.httpServer);
+			}
+		}
+	],
 
 	define: {
 		// Public variables (accessible in client-side code)
@@ -44,6 +43,13 @@ const config = {
 			'src/**/**/*.{test,spec}.{js,ts}',
 			'src/**/**/**/*.{test,spec}.{js,ts}'
 		]
+	},
+	css: {
+		preprocessorOptions: {
+			scss: {
+				javascriptEnabled: true
+			}
+		}
 	}
 };
 
