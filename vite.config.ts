@@ -47,7 +47,9 @@ const config = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				javascriptEnabled: true
+				javascriptEnabled: true,
+				// silenceDeprecations: ['legacy-js-api']
+				api: 'modern-compiler',
 			}
 		}
 	}

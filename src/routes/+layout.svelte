@@ -1,4 +1,5 @@
 <script lang="ts">
+import "../app.css";
 import { browser, dev } from '$app/environment';
 import { page } from '$app/stores';
 import { onMount } from 'svelte';
