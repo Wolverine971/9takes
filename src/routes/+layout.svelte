@@ -150,20 +150,4 @@ $: if (browser && !dev && typeof gtag !== 'undefined') {
         }
     }
 
-    main > a {
-        display: inline-flex;
-        align-items: center;
-        color: var(--primary-dark);
-        text-decoration: none;
-
-        &::after {
-            content: '';
-            background-image: url(/icons/arrow.svg);
-            display: inline-block;
-            width: 1em;
-            height: 1em;
-            background-size: 1em 1em;
-            margin-left: 0.5em;
-        }
-    }
 </style>

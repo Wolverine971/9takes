@@ -158,15 +158,7 @@ a.disabled {
 	color: var(--accent);
 }
 
-.main a::after {
-	content: '';
-	display: inline-block;
-	width: 1em;
-	height: 1em;
-	background: url('/icons/arrow.svg') no-repeat center/contain;
-	vertical-align: middle;
-	margin-left: 0.25em;
-}
+
 
 /* Buttons */
 .btn {
