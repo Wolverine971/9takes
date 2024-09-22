@@ -218,5 +218,5 @@ Go here to see <a style="font-weight: bold;" href="/enneagram-corner/how-each-en
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

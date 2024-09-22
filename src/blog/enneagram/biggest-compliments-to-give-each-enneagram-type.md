@@ -380,5 +380,4 @@ To delve deeper into the world of Enneagram, sign up and join 9takes below â¬‡ï¸
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
 </style>

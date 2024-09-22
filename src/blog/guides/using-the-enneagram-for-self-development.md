@@ -416,5 +416,5 @@ Your journey with the Enneagram is uniquely yours. Embrace it with curiosity, co
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

@@ -7,6 +7,7 @@
 	import ContentManager from '$lib/components/marketing/ContentManager.svelte';
 	import TemplateManager from '$lib/components/marketing/TemplateManager.svelte';
 	import { Tabs, TabItem } from 'flowbite-svelte';
+	import '../../app.scss';
 
 	let activeTab: 'calendar' | 'campaigns' | 'content' | 'templates' = 'calendar';
 

@@ -792,5 +792,5 @@ This panel discussion offers valuable insights for Type 7s on their journey of s
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

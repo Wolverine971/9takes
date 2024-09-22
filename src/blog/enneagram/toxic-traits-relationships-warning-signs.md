@@ -438,7 +438,7 @@ Learn more about [communication in relationships here.](/enneagram-corner/enneag
 </svelte:head>
 
 <style lang="scss">
-   @import '../../routes/styles.css';
+   
 
     .blog-link:after{
     content: none;

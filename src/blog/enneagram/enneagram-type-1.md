@@ -386,5 +386,4 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
 </style>

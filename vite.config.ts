@@ -49,6 +49,7 @@ const config = {
 			scss: {
 				javascriptEnabled: true,
 				// silenceDeprecations: ['legacy-js-api']
+				// additionalData: '@use "src/variables.scss" as *;',
 				api: 'modern-compiler',
 			}
 		}

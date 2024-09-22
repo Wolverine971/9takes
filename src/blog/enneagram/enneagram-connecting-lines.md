@@ -258,5 +258,5 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 <style lang="scss">
 
-   @import '../../routes/styles.css';
+   
 </style>

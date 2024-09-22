@@ -30,8 +30,8 @@
 		padding: 0.25rem;
 	}
 	li::marker {
-		display: none;
-		content: '';
+		// display: none;
+		// content: '';
 	}
 	ul {
 		margin: 0;

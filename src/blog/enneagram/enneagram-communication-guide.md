@@ -380,6 +380,4 @@ Remember that every interaction is an opportunity to practice empathy, understan
 </svelte:head>
 
 <style lang="scss">
-
-   @import '../../routes/styles.css';
 </style>

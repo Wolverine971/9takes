@@ -2,7 +2,6 @@
 	import { invalidateAll } from '$app/navigation';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
-	// import './styles.css';
 
 	onMount(() => {
 		const {

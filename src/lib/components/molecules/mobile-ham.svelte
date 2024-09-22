@@ -161,11 +161,11 @@
 		transition: background-color 0.3s ease;
 	}
 
-	.menu {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
+	// .menu {
+	// 	list-style: none;
+	// 	margin: 0;
+	// 	padding: 0;
+	// }
 
 	.menu li {
 		margin-bottom: 10px;

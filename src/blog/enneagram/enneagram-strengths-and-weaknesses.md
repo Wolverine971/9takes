@@ -326,5 +326,5 @@ If you like diving into personality, explore our <a href="/questions" >questions
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

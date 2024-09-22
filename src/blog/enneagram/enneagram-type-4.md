@@ -760,5 +760,5 @@ Growth involves self-awareness, gratitude, self-compassion, goal-setting, and ba
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

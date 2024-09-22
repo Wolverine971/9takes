@@ -343,5 +343,5 @@ If you liked this, check [how each Enneagram type approaches a first date](/enne
 </svelte:head>
 
 <style lang="scss">
-   @import '../../routes/styles.css';
+   
 </style>

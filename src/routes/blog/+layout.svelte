@@ -1,4 +1,6 @@
 <script lang="ts">
+	import '../../app.scss';
+	
 </script>
 
 <!-- <Layout> -->
@@ -20,7 +22,7 @@
 <!-- </div> -->
 
 <!-- </Layout> -->
-<style>
+<style lang="scss">
 	.jumbo-name {
 		position: relative;
 		font-size: 3.25rem;

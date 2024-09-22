@@ -378,5 +378,5 @@ But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you l
 </svelte:head>
 
 <style lang="scss">
-   @import '../../routes/styles.css';
+   
 </style>

@@ -440,5 +440,4 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
 </style>

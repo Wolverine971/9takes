@@ -377,5 +377,5 @@ As Socrates said, “The more you know, the more you realize you don’t know, a
 </svelte:head>
 
 <style lang="scss">
-@import '../../routes/styles.css';
+
 </style>

@@ -679,5 +679,5 @@ Now go forth, be yourself, and may your dating journey be filled with growth, la
 </svelte:head>
 
 <style lang="scss">
-  @import '../../routes/styles.css';
+  
 </style>

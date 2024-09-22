@@ -1,5 +1,5 @@
 <script lang="ts">
-import "../app.css";
+import "../app.scss";
 import { browser, dev } from '$app/environment';
 import { page } from '$app/stores';
 import { onMount } from 'svelte';
@@ -12,7 +12,6 @@ import Header from '$lib/components/molecules/Header.svelte';
 import Toast from '$lib/components/molecules/Toast.svelte';
 import Footer from '$lib/components/molecules/Footer.svelte';
 import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
-import './styles.css';
 
 export let data: PageData;
 
@@ -114,6 +113,8 @@ $: if (browser && !dev && typeof gtag !== 'undefined') {
 <Footer />
 
 <style lang="scss">
+
+
     :global(body) {
         margin: 0;
         padding: 0;
