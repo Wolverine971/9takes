@@ -3,7 +3,7 @@ export let style = '';
 export let className = '';
 </script>
 
-<section class="neumo-card {className}" {style}>
+<section class=" {className}" {style}>
     <slot />
 </section>
 

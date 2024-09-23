@@ -4,6 +4,7 @@
 	import ArrowRightIcon from '$lib/components/icons/arrowRightIcon.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 
+	import { onMount } from 'svelte';
 	export let data: PageData;
 
 	const categories = [
@@ -14,7 +15,13 @@
 		'historical figures',
 		'technologists'
 	];
+$:innerWidth = 0;
+
+
+
 </script>
+
+<svelte:window bind:innerWidth />
 
 <svelte:head>
 	<script type="application/ld+json">
@@ -143,7 +150,7 @@
 		<div class="enneagram-type">
 			<h2 id="type-{number}">Enneagram Type {number}s</h2>
 			<div class="people-grid-container">
-				{#each data.people.filter((p) => p.enneagram === number).slice(0, 4) as person}
+				{#each data.people.filter((p) => p.enneagram === number).slice(0, innerWidth > 960 ? 4 : 5) as person}
 					<a
 						href="/personality-analysis/{person.slug}"
 						class="grid-item"
@@ -175,7 +182,7 @@
 						<ArrowRightIcon
 							iconStyle={'margin-left: .5rem'}
 							height={'1.5rem'}
-							fill={'var(--accent)'}
+							fill={'#833bff'}
 						/>
 					</div>
 				</a>
@@ -292,7 +299,7 @@
 
 	@media (max-width: 1024px) {
 		.people-grid-container {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(5, 1fr);
 		}
 
 		.view-all {
@@ -316,7 +323,7 @@
 		}
 
 		.people-grid-container {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(5, 1fr);
 			gap: 0.75rem;
 		}
 
@@ -369,7 +376,7 @@
 		}
 
 		.people-grid-container {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(3, 1fr);
 			gap: 0.5rem;
 		}
 

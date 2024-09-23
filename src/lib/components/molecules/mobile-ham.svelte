@@ -78,7 +78,7 @@
 									class={$page.url.pathname === '/community' ? 'active-link' : ''}
 									style="text-align: start"
 								>
-									THe Takes of 9takes
+									The Takes of 9takes
 								</div>
 							</a>
 						</li>

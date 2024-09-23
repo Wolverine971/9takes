@@ -232,4 +232,8 @@
 			overflow-y: auto;
 		}
 	}
+	.sub-comment {
+		display: flex;
+		gap: 0.5rem;
+	}
 </style>
