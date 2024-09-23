@@ -60,7 +60,7 @@
 					<Textarea  bind:value={template.content_text}>{template.content_text}</Textarea>
 					<Textarea  bind:value={template.purpose_description}>Purpose: {template.purpose_description}</Textarea>
 					<Button on:click={() => startEditing(template)}>Edit</Button>
-					<form action="?/deleteTemplate" method="POST" use:enhance>
+					<form action="?/deleteTemplate" method="POST" use:enhance style="margin-top: .5rem;">
 						<input type="hidden" name="id" value={template.id} />
 						<Button type="submit" color="red">Delete</Button>
 					</form>
