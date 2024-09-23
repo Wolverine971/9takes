@@ -26,7 +26,8 @@
 			<a href="/admin/users">Users</a> |
 			<a href="/admin/questions" class="active-link">Questions</a> |
 			<a href="/admin/comments">Comments</a> |
-			<a href="/content-board">Content Board</a>|
+			<a href="/content-board">Content Board</a> |
+			<a href="/links">Links</a> |
 			<a href="/admin/messages">Messages</a>
 		</div>
 

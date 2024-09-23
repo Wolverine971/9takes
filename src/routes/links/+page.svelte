@@ -13,7 +13,7 @@
 		quality: 0.7,
 		margin: 1,
 		color: {
-			dark: 'var(--primary)',
+			dark: '#000000',
 			light: ''
 		}
 	};
@@ -33,6 +33,15 @@
 		}
 	});
 </script>
+
+<div class="row">
+			<a href="/admin/users">Users</a> |
+			<a href="/admin/questions">Questions</a> |
+			<a href="/admin/comments" >Comments</a> |
+			<a href="/content-board">Content Board</a> |
+			<a href="/links" class="active-link">Links</a> |
+			<a href="/admin/messages">Messages</a>
+		</div>
 
 <div>
 	<h1>Link Drops</h1>
