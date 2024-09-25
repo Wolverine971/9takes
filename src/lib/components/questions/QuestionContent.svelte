@@ -102,7 +102,7 @@
 	<div class="tab-content">
 		{#each tabs as section}
 			<section class="tab-section" class:active={selectedTab === section} id={section}>
-				<h2 style="display: flex; gap: 1rem; align-items: center; margin: 0; padding: 0;">
+				<h2 style="display: flex; gap: 1rem; align-items: center; margin: 0 0 .5rem 0; padding: 0;">
 					<!-- {section} -->
 					{#if _data.comment_count !== 0 && section === 'Comments'}
 						<SortComments
@@ -112,7 +112,7 @@
 						/>
 					{/if}
 				</h2>
-				<Card class="comments-card">
+				<Card className="comments-card">
 					{#if section === 'Comments'}
 						{#if !data?.flags?.userHasAnswered}
 							<p class="helper-suggestion" transition:fade>
@@ -223,6 +223,9 @@
 		.helper-suggestion {
 			font-size: 1.75rem;
 		}
+		.tab-section {
+			padding: 0.5rem;
+		}
 	}
 
 	@media (max-width: 576px) {
@@ -233,6 +236,9 @@
 		.tab-link {
 			flex-direction: column;
 			padding: 0.5rem;
+		}
+		.tab-section {
+			padding: 0;
 		}
 
 		.helper-suggestion {

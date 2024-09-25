@@ -292,10 +292,10 @@
 									{likes.length}
 								</span>
 							{/if}
-							<ThumbsUpIcon class="action-icon" />
+							<ThumbsUpIcon className="action-icon" />
 						</button>
 						<Popover>
-							<SettingsIcon slot="icon" class="action-icon" />
+							<SettingsIcon slot="icon" className="action-icon" />
 							<div slot="popoverValue" class="popover-content">
 								<span class="comment-date">
 									{#if _commentComment.modified_at}
@@ -329,11 +329,12 @@
 			on:click={createComment}
 			disabled={newcomment?.length < 1}
 		>
+			<!-- here -->
 			Submit
 			{#if loading}
 				<div class="loader" />
 			{:else if newcomment?.length > 1}
-				<RightIcon class="submit-icon" />
+				<RightIcon className="submit-icon" />
 			{/if}
 		</button>
 	{/if}
@@ -362,8 +363,8 @@
 			{#if loadingComments}
 				<div class="loader" />
 			{:else}
-				<MasterCommentIcon class="action-icon" type={'multiple'} />
-				<DownIcon class="action-icon" />
+				<MasterCommentIcon className="action-icon" type={'multiple'} />
+				<DownIcon className="action-icon" />
 			{/if}
 		</button>
 	{/if}

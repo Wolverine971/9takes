@@ -47,7 +47,7 @@
 
 <svelte:window bind:innerWidth />
 
-<Card class="comment-card">
+<Card className="comment-card">
 	<div class="user-comment" itemscope itemtype="https://schema.org/Comment">
 		<div class="comment-content">
 			<div class="comment-header">
@@ -99,8 +99,8 @@
 			{#if loading}
 				<div class="loader" />
 			{:else}
-				<MasterCommentIcon class="icon" type={'multiple'} />
-				<DownIcon class="icon" />
+				<MasterCommentIcon className="icon" type={'multiple'} />
+				<DownIcon className="icon" />
 			{/if}
 		</button>
 	{/if}

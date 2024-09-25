@@ -6,25 +6,32 @@
 	--border-radius: var(--base-border-radius, 5px);
 }
 
-.comment-card {
-	display: flex;
-	flex-direction: column;
-	background-color: aqua;
+// .comment-card {
+// 	display: flex;
+// 	flex-direction: column;
+// 	background-color: aqua;
 
-	margin: var(--comment-margin);
-	padding: var(--comment-padding);
-}
+// 	margin: var(--comment-margin);
+// 	padding: var(--comment-padding);
+// }
 
 .user-comment {
 	display: flex;
 	flex-direction: column;
-	padding: var(--comment-padding);
+	// padding: var(--comment-padding);
 }
 
 .comment-content {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+}
+
+.sub-comment {
+	display: flex;
+	gap: 0.5rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .comment-box {
@@ -179,6 +186,8 @@
 
 	.action-buttons {
 		flex-wrap: wrap;
+		border: 0.5px solid black;
+		border-radius: 5px;
 	}
 
 	.popover-content {
