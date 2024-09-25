@@ -3,6 +3,7 @@
 	import { Button, Input, Label, Textarea, Select } from 'flowbite-svelte';
 	import type { Campaign, Template } from '$lib/types/marketing';
 	import { createEventDispatcher } from 'svelte';
+	import { invalidateAll } from '$app/navigation';
 
 	export let campaigns: Campaign[];
 	export let templates: Template[];
@@ -56,6 +57,7 @@
 			if (result.type === 'success') {
 				dispatch('contentCreated', result.data);
 				resetForm();
+				invalidateAll();
 			}
 		};
 	}}

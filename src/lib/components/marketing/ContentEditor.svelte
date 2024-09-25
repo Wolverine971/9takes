@@ -48,7 +48,7 @@
 			}
 		};
 	}}
-	class="space-y-4"
+	class="max-w-[600px] space-y-4"
 >
 	{#if contentItem}
 		<input type="hidden" name="id" value={contentItem.id} />

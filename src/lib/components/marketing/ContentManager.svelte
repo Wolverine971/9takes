@@ -56,7 +56,7 @@
 </Button>
 
 {#if showNewContentForm}
-	<Card class="mt-4 max-w-xl">
+	<Card class="mt-4 max-w-[600px]">
 		<h3 class="mb-2 text-xl font-bold">Create New Content</h3>
 		<CreateContent {campaigns} {templates} />
 	</Card>
@@ -64,7 +64,7 @@
 
 <h2 class="my-4 text-2xl font-bold">Existing Content</h2>
 {#each filteredContent as item}
-	<Card class="mb-4 max-w-xl">
+	<Card class="mb-4 max-w-[600px]">
 		{#if editingContent && editingContent.id === item.id}
 			<ContentEditor
 				contentItem={item}

@@ -10,13 +10,13 @@
 	const formattedSignups: any[] = data?.signups?.length
 		? data?.signups?.map((s) => {
 				return { ...s, createdAt: convertDateToReadable(s.created_at) };
-		  })
+			})
 		: [];
 
 	let formattedProfiles: any[] = data?.profiles?.length
 		? data?.profiles?.map((p) => {
 				return { ...p, createdAt: convertDateToReadable(p.created_at) };
-		  })
+			})
 		: [];
 	let active: any = null;
 	let activeAdmin: boolean = false;
@@ -78,6 +78,9 @@
 			<a href="/admin/users" class="active-link">Users</a> |
 			<a href="/admin/questions">Questions</a> |
 			<a href="/admin/comments">Comments</a> |
+			<a href="/content-board">Content Board</a> |
+			<a href="/marketing">Marketing</a> |
+			<a href="/links">Links</a> |
 			<a href="/admin/messages">Messages</a>
 		</div>
 		<div class="row">

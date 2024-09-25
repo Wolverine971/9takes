@@ -121,13 +121,14 @@
 
 <div class="glass-card" style="max-width: max-content;">
 	<div class="row">
-			<a href="/admin/users">Users</a> |
-			<a href="/admin/questions">Questions</a> |
-			<a href="/admin/comments" >Comments</a> |
-			<a href="/content-board" class="active-link">Content Board</a> |
-			<a href="/links" >Links</a> |
-			<a href="/admin/messages">Messages</a>
-		</div>
+		<a href="/admin/users">Users</a> |
+		<a href="/admin/questions">Questions</a> |
+		<a href="/admin/comments">Comments</a> |
+		<a href="/content-board" class="active-link">Content Board</a> |
+		<a href="/marketing">Marketing</a> |
+		<a href="/links">Links</a> |
+		<a href="/admin/messages">Messages</a>
+	</div>
 	<select bind:value={activeSelection} style="margin: auto;">
 		{#each contentTypes as type}
 			<option value={type}>{type.toUpperCase()}</option>
@@ -228,7 +229,9 @@
 		padding: 0.5rem;
 		margin-bottom: 0.5rem;
 		width: 100%;
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		box-shadow:
+			0 1px 3px rgba(0, 0, 0, 0.12),
+			0 1px 2px rgba(0, 0, 0, 0.24);
 		transition: all 0.3s ease;
 		details {
 			padding: 0.5rem;

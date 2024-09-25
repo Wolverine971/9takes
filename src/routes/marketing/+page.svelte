@@ -18,9 +18,19 @@
 </script>
 
 <main class="container mx-auto mt-4 p-4">
+	<div class="row">
+		<a href="/admin/users">Users</a> |
+		<a href="/admin/questions">Questions</a> |
+		<a href="/admin/comments">Comments</a> |
+		<a href="/content-board">Content Board</a> |
+		<a href="/marketing" class="active-link">Marketing</a> |
+		<a href="/links">Links</a> |
+		<a href="/admin/messages">Messages</a>
+	</div>
+
 	<h1>Social Media Scheduler</h1>
 
-	<Tabs tabStyle="underline" contentClass="py-4 bg-transparent">
+	<Tabs tabStyle="underline" contentClass="py-4 bg-transparent max-w-[600px]">
 		<TabItem open title="Calendar" on:click={() => setActiveTab('calendar')}>
 			<Calendar
 				contentItems={data.content}

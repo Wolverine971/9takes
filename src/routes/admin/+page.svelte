@@ -38,6 +38,7 @@
 			<a href="/admin/questions">Questions</a> |
 			<a href="/admin/comments">Comments</a> |
 			<a href="/content-board">Content Board</a> |
+			<a href="/marketing">Marketing</a> |
 			<a href="/links">Links</a> |
 			<a href="/admin/messages">Messages</a>
 		</div>
