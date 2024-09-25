@@ -2,17 +2,17 @@ import type { PageServerLoad } from './$types';
 import { supabase } from '$lib/supabase';
 
 export const load: PageServerLoad = async () => {
-	const { data: top8Questions, error: top8QuestionsError } = await supabase
+	const { data: top9Questions, error: top9QuestionsError } = await supabase
 		.from('questions')
 		.select('*')
 		.order('comment_count', { ascending: false })
-		.limit(8);
+		.limit(9);
 
-	if (top8QuestionsError) {
-		console.log(top8QuestionsError);
+	if (top9QuestionsError) {
+		console.log(top9QuestionsError);
 	}
 
 	return {
-		top8Questions
+		top9Questions
 	};
 };

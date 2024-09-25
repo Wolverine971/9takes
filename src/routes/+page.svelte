@@ -117,40 +117,24 @@
 		{#if sectionsVisible[0]}
 			<section class="hero" in:fly={getTransition(0)}>
 				<div class="hero-content">
-					<div class="hero-image">
-						<enhanced:img
-							src="/static/9takes-preview.webp?enhanced"
-							alt="9takes preview showing question and answer interface"
-							class="img-preview"
-							fetchPriority="high"
-							loading="eager"
-						/>
+					<div class="hero-image glass-area">
+						<div class="question-list">
+							{#each data?.top9Questions as questionData}
+								<QuestionItem {questionData} showDetails={true} />
+							{/each}
+						</div>
 					</div>
 					<div class="hero-text">
 						<h1>9takes: Anonymous Questions and Answers Based on Personality</h1>
 						<p class="hero-subtitle">
-							Ask a <span class="highlight">question</span> to find out what others are thinking, feeling,
-							and doing.
+							Ask a question to find out what others are <span class="highlight">thinking</span>,
+							<span class="highlight">feeling</span>, and <span class="highlight">doing</span>.
 						</p>
 						<p class="hero-description">
 							Everyone sees the world differently, <br />but some see it like you do. <br />Find
 							them here.
 						</p>
 					</div>
-				</div>
-			</section>
-		{/if}
-	</div>
-
-	<div class="section-wrapper">
-		{#if sectionsVisible[1]}
-			<section class="find-out glass-area" in:fly={getTransition(1)}>
-				<h2 class="subheading">Get <span class="highlight">Unbiased</span> Answers</h2>
-				<p>You cannot see comments until you comment...</p>
-				<div class="question-list">
-					{#each data?.top8Questions as questionData}
-						<QuestionItem {questionData} showDetails={false} />
-					{/each}
 				</div>
 			</section>
 		{/if}
@@ -354,30 +338,24 @@
 		align-items: center;
 		gap: 4rem;
 		margin: 4rem 0;
+		height: 90vh;
 
 		&-content {
 			display: flex;
 			align-items: center;
-			gap: 4rem;
+			gap: 3rem;
 		}
 
 		&-image {
-			flex: 0 0 50%;
-			max-width: 50%;
+			flex: 1;
+			// flex: 0 0 50%;
+			// max-width: 50%;
 		}
 
 		&-text {
-			flex: 1;
+			// flex: 1;
+			max-width: 440px;
 		}
-	}
-
-	.img-preview {
-		width: 100%;
-		height: auto;
-		max-height: 70vh;
-		object-fit: contain;
-		border-radius: 1rem;
-		// box-shadow: 0 4px 6px var(--shadow-color);
 	}
 
 	// Question-Answer Links
@@ -423,10 +401,11 @@
 	}
 
 	.question-list {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		gap: 1rem;
-		margin-top: 2rem;
+		display: flex;
+		flex-direction: column;
+		// grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		// gap: .5rem;
+		// margin-top: 2rem;
 	}
 
 	// Bento List
@@ -588,7 +567,9 @@
 	.animate-on-scroll {
 		opacity: 0;
 		transform: translateY(20px);
-		transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+		transition:
+			opacity 0.6s ease-out,
+			transform 0.6s ease-out;
 
 		&.in-view {
 			opacity: 1;

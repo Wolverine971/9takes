@@ -48,7 +48,7 @@
 			<span class="comment-span-display" style:--tag={`a-comment${questionData.id}`}>
 				{questionData.comment_count || ''}
 				<MasterCommentIcon
-					iconStyle="margin-left: .5rem"
+					iconStyle="margin-left: .3rem; min-width: 1.5rem; min-height: 1.5rem;"
 					height="1.5rem"
 					fill={questionData.comment_count ? 'var(--primary)' : ''}
 					type={questionData.comment_count ? 'multiple' : 'empty'}
@@ -74,6 +74,7 @@
 		transition: all 0.3s ease;
 		text-decoration: none;
 		color: inherit;
+		gap: 0.5rem;
 
 		&:hover {
 			background-color: var(--base-white-outline, #cfcfcf);
@@ -97,7 +98,7 @@
 
 	.meta-info {
 		display: flex;
-		gap: 10px;
+		gap: 0.5rem;
 		align-items: center;
 	}
 
@@ -106,13 +107,14 @@
 		align-items: center;
 		font-weight: bold;
 		color: var(--color-p-dark, #333);
+		min-width: 50px;
 	}
 
 	.date-span {
 		border: 1px solid white;
 		border-radius: var(--base-border-radius, 3px);
-		padding: 0.3rem;
-		min-width: 47px;
+		padding: 0.2rem;
+		min-width: 90px;
 		display: flex;
 		justify-content: center;
 	}

@@ -277,10 +277,7 @@ Harnessing the Power of Nine: 9takes in Today’s Polarized World
 			height: auto;
 			margin: 0.25rem;
 		}
-		.img-preview {
-			overflow: hidden;
-			max-width: none;
-		}
+		
 		.main-description {
 			min-width: auto;
 		}

@@ -61,7 +61,7 @@ Peter was born in Germany and his family emigrated to the US and lived in Clevel
 >
 > -Wikipedia
 
-Maybe here is where Peter got his first taste of being let down by those who he was supposed to trust. But his penchant for second guessing others and reading between the lines certainly grew as he grew.
+**Maybe here is where Peter got his first taste of being let down by those who he was supposed to trust.** But his penchant for second guessing others and reading between the lines certainly grew as he grew.
 
 Peter did great in school and made it to Stanford University then to Stanford Law School. He started to clerk for the US Court of Appeals for the 11th Circut but he left because he saw the career path laid before him and wanted to choose another path.
 
