@@ -96,6 +96,7 @@
 			padding: 0.5rem;
 			margin: 1rem;
 			height: 3rem;
+			width: 90%;
 		}
 
 		.marquee-text {
