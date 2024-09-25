@@ -74,7 +74,7 @@
 				on:cancel={() => (editingContent = null)}
 			/>
 		{:else}
-			<h3 class="font-bold">{item.content_text.substring(0, 50)}...</h3>
+			<h3 class="m-0 p-0 font-bold">{item.content_text.substring(0, 50)}...</h3>
 			<p>Scheduled for: {new Date(item.scheduled_date).toLocaleString()}</p>
 			<p>Platform: {item.platform}</p>
 			<p>Campaign: {campaigns.find((c) => c.id === item.campaign_id)?.name || 'No Campaign'}</p>

@@ -30,7 +30,11 @@
 
 	<h1>Social Media Scheduler</h1>
 
-	<Tabs tabStyle="underline" contentClass="py-4 bg-transparent max-w-[600px]">
+	<Tabs
+		tabStyle="underline"
+		contentClass="py-4 bg-transparent max-w-[600px] "
+		defaultClass="list-none flex"
+	>
 		<TabItem open title="Calendar" on:click={() => setActiveTab('calendar')}>
 			<Calendar
 				contentItems={data.content}

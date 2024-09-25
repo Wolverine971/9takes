@@ -180,7 +180,7 @@
 	</div>
 
 	<div>
-		<h3 class="mb-2 text-xl font-bold">Existing Campaigns</h3>
+		<h3 class="m-0 mb-2 p-0 text-xl font-bold">Existing Campaigns</h3>
 		{#each campaigns as campaign}
 			<Card class="mb-2">
 				{#if editingCampaign && editingCampaign.id === campaign.id}
@@ -251,7 +251,7 @@
 						<Button on:click={cancelEditing}>Cancel</Button>
 					</form>
 				{:else}
-					<h4 class="font-bold">{campaign.name}</h4>
+					<h4 class="m-0 p-0 font-bold">{campaign.name}</h4>
 					<p>{campaign.description}</p>
 					<p>
 						From {new Date(campaign.start_date).toLocaleDateString()} to {new Date(

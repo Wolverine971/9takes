@@ -19,7 +19,7 @@ previewHtml: ''
   import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
-<p  style="text-align: center;">
+<p  style="text-align: center; display: flex; justify-content: center;">
 <Enneagram height={'10rem'} fill={'#1e2922'}/>
 </p>
 
