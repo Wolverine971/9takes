@@ -23,4 +23,10 @@
 	.comment-card {
 		padding: 0.5rem;
 	}
+
+	@media (max-width: 576px) {
+		.neumo-card {
+			padding: 0.25rem 0;
+		}
+	}
 </style>
