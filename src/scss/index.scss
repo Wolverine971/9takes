@@ -956,11 +956,11 @@ main {
 	.question-area-box,
 	.about-area-box,
 	.background-area-box-tint {
-		margin-top: 0;
-		padding: 2rem;
-		padding-top: 0;
-		background: var(--info);
-		border-radius: var(--border-radius);
+		margin-top: 0 !important;
+		padding: 2rem !important;
+		padding-top: 0 !important;
+		background: var(--info) !important;
+		border-radius: var(--border-radius) !important;
 	}
 }
 
