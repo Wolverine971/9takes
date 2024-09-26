@@ -123,58 +123,91 @@
 
 <svelte:window on:contentUpdated={handleContentUpdate} />
 
-<div class="mb-4 flex items-center justify-between">
-	<div>
-		<Button on:click={previousMonth}>Previous</Button>
-		<span class="mx-4 text-lg font-bold">
-			{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
-		</span>
-		<Button on:click={nextMonth}>Next</Button>
-	</div>
-	<div class="w-64">
-		<Select on:change={handleCampaignSelection} value={selectedCampaignId}>
-			<option value="all">All Campaigns</option>
-			<option value="no-campaign">No Campaign</option>
-			{#each campaigns as campaign}
-				<option value={campaign.id}>{campaign.name}</option>
-			{/each}
-		</Select>
-	</div>
-</div>
-
-<div class="grid grid-cols-7 gap-1">
-	{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
-		<div class="p-2 text-center font-bold">{day}</div>
-	{/each}
-
-	{#each calendarDays as day}
-		<div class="h-32 overflow-hidden border p-1" on:click={() => day && openCreateModal(day)}>
-			{#if day}
-				<div class="mb-1 text-sm font-bold">{day.getDate()}</div>
-				{@const dayContent = filteredContentItems
-					.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
-					.sort(sortContentByDateTime)}
-				{#each dayContent.slice(0, 3) as item (item.id)}
-					<div
-						class="item-color mb-1 cursor-pointer truncate rounded p-1 text-xs hover:opacity-80"
-						style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
-							'#e2e8f0'}"
-						on:click|stopPropagation={() => openContentEditor(item)}
-					>
-						{item.content_text}
-					</div>
+<div class="container mx-auto px-4 py-8">
+	<div class="mb-6 flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0">
+		<div class="flex items-center space-x-4">
+			<Button on:click={previousMonth} class="px-3 py-2">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					viewBox="0 0 20 20"
+					fill="currentColor"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+			</Button>
+			<span class="text-xl font-bold">
+				{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
+			</span>
+			<Button on:click={nextMonth} class="px-3 py-2">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					viewBox="0 0 20 20"
+					fill="currentColor"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+			</Button>
+		</div>
+		<div class="w-full sm:w-64">
+			<Select on:change={handleCampaignSelection} value={selectedCampaignId} class="w-full">
+				<option value="all">All Campaigns</option>
+				<option value="no-campaign">No Campaign</option>
+				{#each campaigns as campaign}
+					<option value={campaign.id}>{campaign.name}</option>
 				{/each}
-				{#if dayContent.length > 3}
-					<div
-						class="cursor-pointer text-xs text-blue-600 hover:underline"
-						on:click|stopPropagation={() => openAllContentModal(dayContent)}
-					>
-						+{dayContent.length - 3} more
+			</Select>
+		</div>
+	</div>
+
+	<div class="grid grid-cols-7 gap-1 sm:gap-2">
+		{#each ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'] as day}
+			<div class="p-1 text-center text-xs font-bold sm:text-sm md:text-base">{day}</div>
+		{/each}
+
+		{#each calendarDays as day}
+			<div
+				class="h-24 overflow-hidden rounded-lg border p-1 sm:h-32 sm:p-2 md:h-32"
+				on:click={() => day && openCreateModal(day)}
+			>
+				{#if day}
+					<div class="mb-1 text-xs font-bold sm:text-sm">{day.getDate()}</div>
+					{@const dayContent = filteredContentItems
+						.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
+						.sort(sortContentByDateTime)}
+					<div class="space-y-1">
+						{#each dayContent.slice(0, 2) as item (item.id)}
+							<div
+								class="item-color cursor-pointer truncate rounded p-1 text-xs hover:opacity-80"
+								style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
+									'#e2e8f0'}"
+								on:click|stopPropagation={() => openContentEditor(item)}
+							>
+								{item.content_text}
+							</div>
+						{/each}
+						{#if dayContent.length > 2}
+							<div
+								class="cursor-pointer text-xs text-blue-600 hover:underline"
+								on:click|stopPropagation={() => openAllContentModal(dayContent)}
+							>
+								+{dayContent.length - 2} more
+							</div>
+						{/if}
 					</div>
 				{/if}
-			{/if}
-		</div>
-	{/each}
+			</div>
+		{/each}
+	</div>
 </div>
 
 <Modal bind:open={showEditModal} size="xl" autoclose={false} class="w-full">

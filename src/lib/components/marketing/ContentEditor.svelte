@@ -72,6 +72,7 @@
 			value={editingContent.content_text || ''}
 			on:input={(e) => updateEditingContent('content_text', e.currentTarget.value)}
 			required
+			rows="4"
 		/>
 	</Label>
 	<Label>

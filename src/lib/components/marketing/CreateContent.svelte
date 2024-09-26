@@ -75,7 +75,7 @@
 
 	<Label>
 		Content Text
-		<Textarea name="content_text" bind:value={content_text} required />
+		<Textarea name="content_text" bind:value={content_text} required rows="4" />
 	</Label>
 
 	<Label>

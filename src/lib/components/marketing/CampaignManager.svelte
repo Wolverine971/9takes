@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { deserialize, enhance } from '$app/forms';
-	import { Button, Card, Input, Label, Textarea, Select } from 'flowbite-svelte';
+	import { Button, Card, Input, Label, Textarea, AccordionItem, Accordion } from 'flowbite-svelte';
 	import type { Campaign } from '$lib/types/marketing';
 	import { createEventDispatcher } from 'svelte';
 
@@ -129,144 +129,194 @@
 	}
 </script>
 
-<h2 class="mb-4 text-2xl font-bold">Campaigns</h2>
+<div class="container mx-auto px-4 py-2">
+	<h2 class="my-1 mb-2 py-1 text-center text-3xl font-bold">Campaign Management</h2>
 
-<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-	<div>
-		<h3 class="mb-2 text-xl font-bold">Create New Campaign</h3>
-		<form on:submit={handleCampaignCreate} class="space-y-4">
-			<Label>
-				Name
-				<Input type="text" name="name" required />
-			</Label>
-			<Label>
-				Description
-				<Textarea name="description" />
-			</Label>
-			<Label>
-				Start Date
-				<Input type="date" name="start_date" required />
-			</Label>
-			<Label>
-				End Date
-				<Input type="date" name="end_date" required />
-			</Label>
-			<Label>
-				Color
-				<Input type="color" name="color" required />
-			</Label>
-			<Label>
-				Target Audience
-				<Textarea name="target_audience" />
-			</Label>
-			<Label>
-				Themes and Topics
-				<Textarea name="themes_and_topics" />
-			</Label>
-			<Label>
-				Target Hashtags
-				<Input type="text" name="target_hashtags" />
-			</Label>
-			<Label>
-				Campaign Hashtags
-				<Input type="text" name="campaign_hashtags" />
-			</Label>
-			<Label>
-				Campaign Promotion Accounts
-				<Input type="text" name="campaign_promotion_accounts" />
-			</Label>
-			<Button type="submit">Create Campaign</Button>
-		</form>
-	</div>
+	<div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+		<div class="bg-grey rounded-lg p-6 shadow-md">
+			<h3 class="mb-2 text-xl font-bold">Create New Campaign</h3>
+			<form on:submit={handleCampaignCreate} class="space-y-4">
+				<Label class="space-y-2">
+					<span>Name</span>
+					<Input type="text" name="name" required class="w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Description</span>
+					<Textarea name="description" class="w-full" />
+				</Label>
+				<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+					<Label class="space-y-2">
+						<span>Start Date</span>
+						<Input type="date" name="start_date" required class="w-full" />
+					</Label>
+					<Label class="space-y-2">
+						<span>End Date</span>
+						<Input type="date" name="end_date" required class="w-full" />
+					</Label>
+				</div>
+				<Label class="space-y-2">
+					<span>Color</span>
+					<Input type="color" name="color" required class="h-10 w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Target Audience</span>
+					<Textarea name="target_audience" class="w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Themes and Topics</span>
+					<Textarea name="themes_and_topics" class="w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Target Hashtags</span>
+					<Input type="text" name="target_hashtags" class="w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Campaign Hashtags</span>
+					<Input type="text" name="campaign_hashtags" class="w-full" />
+				</Label>
+				<Label class="space-y-2">
+					<span>Campaign Promotion Accounts</span>
+					<Input type="text" name="campaign_promotion_accounts" class="w-full" />
+				</Label>
+				<Button type="submit" class="w-full">Create Campaign</Button>
+			</form>
+		</div>
 
-	<div>
-		<h3 class="m-0 mb-2 p-0 text-xl font-bold">Existing Campaigns</h3>
-		{#each campaigns as campaign}
-			<Card class="mb-2">
+		<div class="bg-grey rounded-lg p-6 shadow-md">
+			<h3 class="m-0 mb-2 p-0 text-xl font-bold">Existing Campaigns</h3>
+			{#each campaigns as campaign}
 				{#if editingCampaign && editingCampaign.id === campaign.id}
-					<form on:submit={handleCampaignUpdate} class="space-y-2">
-						<input type="hidden" name="id" value={campaign.id} />
-						<Input
-							type="text"
-							placeholder="Name"
-							name="name"
-							bind:value={editingCampaign.name}
-							required
-						/>
-						<Textarea
-							name="description"
-							placeholder="Description"
-							bind:value={editingCampaign.description}
-						/>
-						<Input
-							type="date"
-							placeholder="Start Date"
-							name="start_date"
-							bind:value={editingCampaign.start_date}
-							required
-						/>
-						<Input
-							type="date"
-							placeholder="End Date"
-							name="end_date"
-							bind:value={editingCampaign.end_date}
-							required
-						/>
-						<Input
-							type="color"
-							placeholder="Color"
-							name="color"
-							bind:value={editingCampaign.color}
-							required
-						/>
-						<Textarea
-							name="target_audience"
-							placeholder="Target Audience"
-							bind:value={editingCampaign.target_audience}
-						/>
-						<Textarea
-							name="themes_and_topics"
-							placeholder="Themes and Topics"
-							bind:value={editingCampaign.themes_and_topics}
-						/>
-						<Input
-							type="text"
-							placeholder="Target Hashtags"
-							name="target_hashtags"
-							bind:value={editingCampaign.target_hashtags}
-						/>
-						<Input
-							type="text"
-							placeholder="Campaign Hashtags"
-							name="campaign_hashtags"
-							bind:value={editingCampaign.campaign_hashtags}
-						/>
-						<Input
-							type="text"
-							placeholder="Campaign Promotion Accounts"
-							name="campaign_promotion_accounts"
-							bind:value={editingCampaign.campaign_promotion_accounts}
-						/>
-						<Button type="submit">Save</Button>
-						<Button on:click={cancelEditing}>Cancel</Button>
-					</form>
+					<Accordion class="">
+						<AccordionItem tag="h4" paddingDefault="p-1">
+							<span slot="header" class="text-xl font-semibold">{editingCampaign.name}</span>
+							<Card class="mb-2">
+								<form on:submit={handleCampaignUpdate} class="space-y-4">
+									<input type="hidden" name="id" value={campaign.id} />
+									<Input
+										type="text"
+										placeholder="Name"
+										name="name"
+										bind:value={editingCampaign.name}
+										required
+										class="w-full"
+									/>
+									<Textarea
+										name="description"
+										placeholder="Description"
+										bind:value={editingCampaign.description}
+										class="w-full"
+									/>
+									<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+										<Input
+											type="date"
+											placeholder="Start Date"
+											name="start_date"
+											bind:value={editingCampaign.start_date}
+											required
+											class="w-full"
+										/>
+										<Input
+											type="date"
+											placeholder="End Date"
+											name="end_date"
+											bind:value={editingCampaign.end_date}
+											required
+											class="w-full"
+										/>
+									</div>
+									<Input
+										type="color"
+										placeholder="Color"
+										name="color"
+										bind:value={editingCampaign.color}
+										required
+										class="h-10 w-full"
+									/>
+									<Textarea
+										name="target_audience"
+										placeholder="Target Audience"
+										bind:value={editingCampaign.target_audience}
+										class="w-full"
+									/>
+									<Textarea
+										name="themes_and_topics"
+										placeholder="Themes and Topics"
+										bind:value={editingCampaign.themes_and_topics}
+										class="w-full"
+									/>
+									<Input
+										type="text"
+										placeholder="Target Hashtags"
+										name="target_hashtags"
+										bind:value={editingCampaign.target_hashtags}
+										class="w-full"
+									/>
+									<Input
+										type="text"
+										placeholder="Campaign Hashtags"
+										name="campaign_hashtags"
+										bind:value={editingCampaign.campaign_hashtags}
+										class="w-full"
+									/>
+									<Input
+										type="text"
+										placeholder="Campaign Promotion Accounts"
+										name="campaign_promotion_accounts"
+										bind:value={editingCampaign.campaign_promotion_accounts}
+										class="w-full"
+									/>
+									<div class="flex space-x-4">
+										<Button type="submit" class="flex-1">Save</Button>
+										<Button on:click={cancelEditing} class="flex-1" color="red">Cancel</Button>
+									</div>
+								</form>
+							</Card>
+						</AccordionItem>
+					</Accordion>
 				{:else}
-					<h4 class="m-0 p-0 font-bold">{campaign.name}</h4>
-					<p>{campaign.description}</p>
-					<p>
-						From {new Date(campaign.start_date).toLocaleDateString()} to {new Date(
-							campaign.end_date
-						).toLocaleDateString()}
-					</p>
-					<div class="h-6 w-6 rounded" style="background-color: {campaign.color}"></div>
-					<p><strong>Target Audience:</strong> {campaign.target_audience}</p>
-					<p><strong>Themes and Topics:</strong> {campaign.themes_and_topics}</p>
-					<p><strong>Target Hashtags:</strong> {campaign.target_hashtags}</p>
-					<p><strong>Campaign Hashtags:</strong> {campaign.campaign_hashtags}</p>
-					<p><strong>Promotion Accounts:</strong> {campaign.campaign_promotion_accounts}</p>
-					<Button on:click={() => startEditing(campaign)}>Edit</Button>
+					<Accordion class="">
+						<AccordionItem tag="h4" paddingDefault="p-1">
+							<span slot="header" class="font-semibold">{campaign.name}</span>
+							<Card class="mb-2">
+								<h5 class="!m-0 !p-0 font-bold">{campaign.name}</h5>
+								<p>{campaign.description}</p>
+								<p>
+									From {new Date(campaign.start_date).toLocaleDateString()} to {new Date(
+										campaign.end_date
+									).toLocaleDateString()}
+								</p>
+								<div class="mb-2 flex items-center">
+									<span class="mr-2">Color:</span>
+									<div class="h-6 w-6 rounded" style="background-color: {campaign.color}"></div>
+								</div>
+								<p><strong>Target Audience:</strong> {campaign.target_audience}</p>
+								<p><strong>Themes and Topics:</strong> {campaign.themes_and_topics}</p>
+								<p><strong>Target Hashtags:</strong> {campaign.target_hashtags}</p>
+								<p><strong>Campaign Hashtags:</strong> {campaign.campaign_hashtags}</p>
+								<p>
+									<strong>Promotion Accounts:</strong>
+									{campaign.campaign_promotion_accounts}
+								</p>
+								<Button on:click={() => startEditing(campaign)} class="w-full">Edit</Button>
+							</Card>
+						</AccordionItem>
+					</Accordion>
 				{/if}
-			</Card>
-		{/each}
+			{/each}
+		</div>
 	</div>
 </div>
+
+<style lang="scss">
+	.group {
+		padding: 0;
+	}
+	.accordheader {
+		padding: 0;
+		font-size: 1rem;
+	}
+	/* h2 {
+		margin: 0;
+		padding: 0;
+	} */
+</style>

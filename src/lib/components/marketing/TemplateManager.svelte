@@ -24,7 +24,7 @@
 		<form action="?/createTemplate" method="POST" use:enhance class="space-y-4">
 			<Label>
 				Content Text
-				<Textarea name="content_text" required />
+				<Textarea name="content_text" required rows="4" />
 			</Label>
 			<Label>
 				Type
@@ -57,8 +57,10 @@
 					</form>
 				{:else}
 					<h4 class="font-bold">{template.type}</h4>
-					<Textarea  bind:value={template.content_text}>{template.content_text}</Textarea>
-					<Textarea  bind:value={template.purpose_description}>Purpose: {template.purpose_description}</Textarea>
+					<Textarea bind:value={template.content_text}>{template.content_text}</Textarea>
+					<Textarea bind:value={template.purpose_description}
+						>Purpose: {template.purpose_description}</Textarea
+					>
 					<Button on:click={() => startEditing(template)}>Edit</Button>
 					<form action="?/deleteTemplate" method="POST" use:enhance style="margin-top: .5rem;">
 						<input type="hidden" name="id" value={template.id} />
