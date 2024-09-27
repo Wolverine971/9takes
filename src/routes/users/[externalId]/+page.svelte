@@ -22,7 +22,7 @@
 	<h1 style="">User: Enneagram {data?.user.enneagram}</h1>
 
 	{#if data.subscriptions?.length}
-		<h2>User's Answered Question</h2>
+		<h2>Question Subscriptions</h2>
 
 		{#each data.subscriptions as subscription}
 			<div class="row" style="justify-content: flex-start;">
@@ -34,7 +34,7 @@
 	{/if}
 
 	{#if data.comments?.length}
-		<h2>User's Comments</h2>
+		<h2>Comments</h2>
 
 		{#each data.comments as comment}
 			<div class="row" style="justify-content: flex-start;">
