@@ -130,6 +130,10 @@ On the positive side, remarks such as "I admire your creativity" or "Your unique
 
 </section>
 
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
+
 <section class="section-content">
 
 <h2 style="padding: 0; margin-top: 1em">Enneagram Type 5: The Investigator</h2>
@@ -152,10 +156,6 @@ In contrast, phrases like "I enjoy learning new things" or "Tell me more about t
 
 </section>
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
-
 <section class="section-content">
 
 <h2 style="padding: 0; margin-top: 1em">Enneagram Type 6: The Loyalist</h2>
@@ -177,6 +177,31 @@ Hearing phrases like "I believe in loyalty" or "I've planned a safe route for ou
 [More on Type 6](/enneagram-corner/enneagram-type-6)
 
 </section>
+
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;"
+>
+    <a href="/enneagram-corner/how-to-navigate-early-relationship-stages" class="blog-link">
+      <PopCard
+          image={`/blogs/young-couple-on-a-date.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="How to navigate early relationship stages"
+          scramble={false}
+      />
+     </a>
+    <a href="/enneagram-corner/enneagram-types-in-relationships" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statues-on-a-date.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="What each Type wants out of a relationship"
+          scramble={false}
+      />
+    </a>
+</div>
 
 <section class="section-content">
 
@@ -378,5 +403,8 @@ But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you l
 </svelte:head>
 
 <style lang="scss">
-   
+  .blog-link:after{
+    content: none;
+
+  }
 </style>

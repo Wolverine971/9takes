@@ -330,7 +330,7 @@ What steps will you take to bring more awareness and compassion to your relation
 
 <!-- [Link to blog on relationship dynamics of each Enneagram type] -->
 
-Learn more about [communication in relationships here.](/enneagram-corner/enneagram-communication-in-relationships)
+Learn more about [communication in relationships here.](/enneagram-corner/relationship-communication-guide)
 
 <svelte:head>
 

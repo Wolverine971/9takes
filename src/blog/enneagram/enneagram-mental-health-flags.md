@@ -206,6 +206,31 @@ This approach acknowledges their concern while introducing a tool for perspectiv
 
 <a href="/enneagram-corner/enneagram-type-6">More on Type Six</a>
 
+<div
+    style="display: flex;
+    justify-content: center;
+    margin: 1rem 0;"
+>
+    <a href="/enneagram-corner/enneagram-and-mental-illness" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-2-sided-mask.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="a face with 2 sides"
+          scramble={false}
+      />
+     </a>
+    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link">
+      <PopCard
+          image={`/blogs/greek-statue-showing-cracks.webp`}
+          showIcon={false}
+          subtext=""
+          displayText="The Toxic Traits of Each Type"
+          scramble={false}
+      />
+    </a>
+</div>
+
 ## Type 7: The Enthusiast's Escape Hatch Alert
 
 Sevens often struggle with avoiding pain and negative emotions. This can lead to addiction, commitment issues, and a scattered approach to life.
@@ -392,4 +417,8 @@ What red flags have you noticed in yourself or others? How has understanding per
 </svelte:head>
 
 <style lang="scss">
+  .blog-link:after{
+    content: none;
+
+  }
 </style>

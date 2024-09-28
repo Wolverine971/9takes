@@ -89,8 +89,8 @@
 				</a>
 			</li>
 			<li>
-				<a href="/enneagram-corner/enneagram-communication-in-relationships">
-					Enneagram communication in relationships
+				<a href="/enneagram-corner/relationship-communication-guide">
+					Relationship communication guide
 				</a>
 			</li>
 		</ul>

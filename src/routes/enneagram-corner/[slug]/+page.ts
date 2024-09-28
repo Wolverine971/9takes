@@ -6,6 +6,7 @@ const MAX_POSTS = 6;
 
 const redirectMap = {
 	'enneagram-communication-overview': 'enneagram-communication-guide',
+	'enneagram-communication-in-relationships': 'relationship-communication-guide',
 }
 
 export const load: PageLoad = async ({ params }) => {

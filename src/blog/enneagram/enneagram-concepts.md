@@ -219,7 +219,7 @@ Understanding your type can be like having a personal growth cheat sheet.
 
 The Enneagram can be your translator in the sometimes confusing language of relationships.
 
-[Learn how to communicate better with different types.](https://9takes.com/enneagram-corner/enneagram-communication-in-relationships)
+[Learn how to communicate better with different types.](https://9takes.com/enneagram-corner/relationship-communication-guides)
 
 ### Work Life
 
