@@ -59,6 +59,8 @@ Enneagram Type 4s have a deep desire to be authentic and to search for meaning i
 
 One example of her search for authenticity is her painting "Self-Portrait with Thorn Necklace and Hummingbird," which depicts her wearing a traditional Mexican outfit and a necklace of thorns. The painting is a reflection of her struggle to find her true self, and a testament to her desire for authenticity and truth.
 
+<BlogPurpose/>
+
 ## Intensity and Passion
 
 Finally, Enneagram Type 4s are known for their intensity and passion. Frida Kahlo was a passionate and intense artist who poured her heart and soul into her art. Her paintings were a reflection of her emotional intensity, and she used her art as a means of expressing her deepest emotions and experiences.

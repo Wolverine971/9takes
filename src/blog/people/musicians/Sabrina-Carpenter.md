@@ -171,7 +171,6 @@ In interviews, she consistently redirects focus to her work, demonstrating anoth
 
 Another example of her skillful redirection occurred during the promotion of her Broadway debut in "Mean Girls." When asked about the challenges of transitioning to stage work, Carpenter highlighted her lifelong passion for theater and the intense preparation she undertook, effectively turning a potential criticism (her lack of Broadway experience) into a narrative of dedication and versatility.
 
-
 ## Conclusion: The Evolving Achiever
 
 Sabrina Carpenter's journey as a Type 3 in the spotlight offers insights into the Achiever's path. Her ongoing efforts to balance ambition with authenticity, her strategic networking, and her resilience in the face of challenges all exemplify the growth potential within this personality type.
@@ -180,7 +179,7 @@ For fans and fellow Type 3s alike, Carpenter's story serves as an inspiring exam
 
 What aspects of Sabrina's journey resonate with you? How do you see the interplay of ambition and authenticity in your own life? Share your thoughts in the comments below!
 
-To learn more about the Enneagram and discover your own type, sign up for our newsletter. We'll keep you updated on the latest insights and resources to support your personal growth journey.
+To learn more about the Enneagram and discover your own type, sign up on 9takes.
 
 <svelte:head>
 

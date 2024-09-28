@@ -77,6 +77,8 @@ In addition to their assertive nature, Type 8 individuals are often driven by a 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/YzHbK0tbMr0?clip=UgkxRv5kVF_HC7P0Din42aIrKdAUefVnxID8&amp;clipt=EPrHEBi72hM" title="Emily Ratajkowski talking about how men are not doing well" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+<BlogPurpose/>
+
 ## Wrapping Up
 
 Emily Ratajkowski's embrace of her sexuality, awareness of power dynamics, resilience in emasculation, and support for underdogs and outcasts paints a vivid picture of a self-assured and empowered Enneagram Type 8. While it is important to remember that determining someone's Enneagram type is best done through self-assessment and introspection, Ratajkowski's actions and beliefs align strongly with the characteristics of The Challenger. By living her life confidently and advocating for change, she is a powerful example of a Type 8 in action.

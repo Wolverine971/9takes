@@ -64,6 +64,8 @@ Another characteristic of Enneagram type 6 individuals is their sense of respons
 
 Ellen is known for her punctuality and professionalism, which has earned her respect in the entertainment industry. She is also responsible for launching the careers of several comedians through her talk show, demonstrating her desire to help others and be a dependable source of support.
 
+<BlogPurpose/>
+
 ## Fearful of uncertainty
 
 Enneagram type 6 individuals often struggle with fear and anxiety about the unknown.

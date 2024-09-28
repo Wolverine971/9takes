@@ -2,9 +2,9 @@
 title: 'Astrology Meets Enneagram: Cosmic Personality Insights'
 description: 'Explore the intersection of Astrology and the Enneagram. Discover how these two systems combine to offer unique perspectives on personality and growth.'
 author: 'DJ Wayne'
-date: '2023-12-08'
+date: '2024-08-23'
 loc: 'https://9takes.com/enneagram-corner/astrology-and-the-enneagram'
-lastmod: '2024-08-23'
+lastmod: '2024-09-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -33,27 +33,84 @@ pic: 'looking-up-at-the-night-sky'
     />
 </div>
 
-<p class="firstLetter">Here we are going to explore the connection between astrology and the Enneagram.</p>
+<p class="firstLetter">There is a connection between astrology and the Enneagram.</p>
 
-While each has its own rich history and methodology, many practitioners, especially in New Age circles, have found intriguing connections between these two systems. This synthesis offers a unique lens through which to view human personality and behavior.
+While each system has its own history and methodology, many practitioners, especially in New Age circles, have found connections between these two systems. This synthesis offers a unique lens through which to view human personality and behavior.
 
-## Introduction
+- **Astrology**, with its roots in ancient civilizations, looks to the stars and planets for insights into human character and destiny.
+- **The Enneagram**, a more modern system with disputed ancient origins, presents nine distinct personality types based on core motivations and fears.
 
-Astrology, with its roots in ancient civilizations, looks to the stars and planets for insights into human character and destiny. The Enneagram, a more modern system with disputed ancient origins, presents nine distinct personality types based on core motivations and fears. At first glance, these systems might seem unrelated. However, many enthusiasts and practitioners have found fascinating parallels and complementary insights when combining them.
+At first glance, these systems might seem unrelated. However, many enthusiasts and practitioners have found fascinating parallels and complementary insights when combining them.
 
 ## Mapping Enneagram Types to Astrological Signs
 
 One of the most common ways practitioners blend these systems is by associating each Enneagram type with a zodiac sign. While these associations can vary, here's a commonly proposed mapping:
 
-1. Type 1 (The Perfectionist) - Virgo: Both are known for their attention to detail and desire for improvement.
-2. Type 2 (The Helper) - Cancer: These share a nurturing nature and emotional sensitivity.
-3. Type 3 (The Achiever) - Leo: Both are associated with a drive for success and recognition.
-4. Type 4 (The Individualist) - Pisces: These types are often seen as deeply emotional and creative.
-5. Type 5 (The Investigator) - Aquarius: Both are associated with intellectual pursuits and unique perspectives.
-6. Type 6 (The Loyalist) - Capricorn: These share a concern for security and a tendency towards caution.
-7. Type 7 (The Enthusiast) - Sagittarius: Both are known for their love of freedom and new experiences.
-8. Type 8 (The Challenger) - Aries: These types are often seen as assertive and powerful.
-9. Type 9 (The Peacemaker) - Taurus: Both are associated with a desire for harmony and stability.
+### Type 1 (The Perfectionist)
+
+- **Zodiac:** Virgo
+- **Planet:** Mercury
+- **Alternative Zodiac:** Gemini
+
+Both Virgo and Type 1 are known for their attention to detail and desire for improvement. The association with Mercury, which rules both Virgo and Gemini, highlights the analytical and communicative aspects of this type.
+
+### Type 2 (The Helper)
+
+- **Zodiac:** Cancer
+- **Planet:** Moon
+
+Cancer and Type 2 share a nurturing nature and emotional sensitivity. The Moon's influence emphasizes their intuitive and caregiving tendencies.
+
+### Type 3 (The Achiever)
+
+- **Zodiac:** Leo
+- **Planet:** Sun
+
+Leo and Type 3 are associated with a drive for success and recognition. The Sun's energy reflects their natural leadership and desire to shine.
+
+### Type 4 (The Individualist)
+
+- **Zodiac:** Pisces
+- **Planet:** Neptune
+
+Pisces and Type 4 are often seen as deeply emotional and creative. Neptune's influence adds a layer of spirituality and imagination to this type.
+
+### Type 5 (The Investigator)
+
+- **Zodiac:** Aquarius
+- **Planet:** Uranus
+
+Aquarius and Type 5 are associated with intellectual pursuits and unique perspectives. Uranus represents their innovative and sometimes unconventional thinking.
+
+### Type 6 (The Loyalist)
+
+- **Zodiac:** Capricorn
+- **Planet:** Saturn
+
+Capricorn and Type 6 share a concern for security and a tendency towards caution. Saturn's influence emphasizes their sense of responsibility and structure.
+
+### Type 7 (The Enthusiast)
+
+- **Zodiac:** Sagittarius
+- **Planet:** Jupiter
+
+Sagittarius and Type 7 are known for their love of freedom and new experiences. Jupiter's expansive energy mirrors their optimism and desire for growth.
+
+### Type 8 (The Challenger)
+
+- **Zodiac:** Aries
+- **Planet:** Mars
+- **Alternative Zodiac:** Scorpio
+
+Aries and Type 8 are often seen as assertive and powerful. The association with Mars, which rules both Aries and Scorpio, highlights their passionate and sometimes confrontational nature.
+
+### Type 9 (The Peacemaker)
+
+- **Zodiac:** Taurus
+- **Planet:** Venus
+- **Alternative Zodiac:** Libra
+
+Taurus and Type 9 are associated with a desire for harmony and stability. Venus, ruling both Taurus and Libra, emphasizes their diplomatic and pleasure-seeking tendencies.
 
 It's crucial to note that these associations are not fixed and can vary among different practitioners.
 
@@ -102,6 +159,10 @@ Some practitioners draw parallels between Enneagram wings and astrological aspec
 The influence of wing types in the Enneagram might be compared to the effects of planetary aspects in a natal chart.
 
 For instance:
+
+<div style="overflow: hidden;">
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+</div>
 
 ### Enneagram Wings and Astrological Aspects: Examples for Each Combination
 
@@ -185,10 +246,6 @@ The Enneagram's arrows of integration and disintegration are sometimes related t
 - A challenging transit (like a Saturn square) might correspond to movement towards an Enneagram type's stress point.
 - A supportive transit (like a Jupiter trine) could be seen as facilitating growth towards the integration point.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
-
 ## Practical Applications
 
 Many New Age practitioners offer workshops or personal readings that combine Enneagram and astrological insights:
@@ -197,13 +254,7 @@ Many New Age practitioners offer workshops or personal readings that combine Enn
 - Some offer guidance on personal growth by integrating insights from both systems.
 - Relationship compatibility might be explored using both Enneagram dynamics and <a class="external-link" target="_blank" rel="noopener" href="https://astro-charts.com/tools/new/synastry/">synastry (astrological compatibility)</a>.
 
-## Books and Resources
-
-For those interested in exploring this intersection further, several authors have written on the subject:
-
-- "Astrology and the Enneagram" by Liz Greene and Karen Stefano
-- "The Enneagram of Astrology" by Elizabeth Spring
-- "The Nine Faces of the Soul: An Exploration of the Enneagram and Astrology" by Sandra Valabregue
+For those interested in exploring this intersection further read this blog by Ophira and Tali Edut titled [Enneagram Astrology: How the 9 Types Match with the Planets and Zodiac Signs](https://astrostyle.com/enneagram-astrology/).
 
 ## Criticisms and Considerations
 
@@ -250,7 +301,7 @@ Whether you're a seasoned astrologer, an Enneagram enthusiast, or simply curious
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-08-23"
+        "@value": "2024-09-28"
       },
       "datePublished": {
         "@type": "Date",

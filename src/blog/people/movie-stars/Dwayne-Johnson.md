@@ -105,6 +105,8 @@ Johnson's Make-A-Wish work and Dwayne Johnson Rock Foundation reveal his commitm
 
 He's granted over 100 wishes and focuses on helping children with illnesses and disabilities. This aligns with the Type 3's need for positive recognition and desire to be seen as more than just professionally successful, showcasing a deeper aspect of Johnson's character.
 
+<BlogPurpose/>
+
 ## Handling Setbacks: The Rock's Type 3 Resilience
 
 Even The Rock faces challenges. His openness about battling depression in his early 20s shows a vulnerability that many Type 3s struggle to display.
