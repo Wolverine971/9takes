@@ -91,6 +91,8 @@ Churchill's 8ish need for control and vengefulness came out in the way he harshl
 
 Like many 8s, he struggled to show vulnerability or admit when he was wrong. After badly bungling the Gallipoli campaign as a young official, he was haunted for decades by "a deep, searing, painful, ineradicable conviction of my inadequacy for my task," according to Manchester. But outwardly he remained defiant, telling Parliament: "I am not going to be the first lord of the admiralty during the war who beats his breast and says he is sorry...I am not going to do that now, nor in the future."
 
+<BlogPurpose/>
+
 ## A Towering Legacy
 
 In the end, Churchill's battered England prevailed, in large part due to his 8 qualities of resilience, bravery and refusal to quit. The brilliant historian and loyal friend was also a devoted husband and father behind the scenes. Asked late in life if he was happy, he replied simply: "**I have had a very full life.**"

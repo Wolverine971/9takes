@@ -89,6 +89,8 @@ Paris was one of the first celebrities to embrace the reality TV craze, starring
 
 Despite her public persona as a glamorous party girl, Paris has also dedicated time and resources to various charitable causes, including animal welfare and disaster relief efforts. "I want to use my platform to make a difference," she's said.
 
+<BlogPurpose/>
+
 ## Drama, Controversies, and the Resilient Type 3
 
 As with any high-profile figure, Paris Hilton has had her fair share of drama and controversies. From her infamous run-ins with the law to the constant scrutiny of her personal life, Paris has weathered many storms.

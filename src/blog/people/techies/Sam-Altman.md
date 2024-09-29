@@ -92,6 +92,8 @@ For a Type 4 like Sam Altman, leading an organization like OpenAI comes with uni
 
 Altman's pride in his work at OpenAI is likely tied to his ambition to use AI for positive societal change. This ambition, characteristic of Type 4, drives him to strive for a future where AI benefits humanity. His focus on AI safety and ethics at OpenAI reflects a deep-seated commitment to impactful and significant contributions.
 
+<BlogPurpose/>
+
 ### Intellectual Curiosity: Exploring New Frontiers
 
 Altman's diverse interests, from AI to biotechnology, mirror a Type 4's pursuit of depth and authenticity. His conversational topics likely span a range of subjects, reflecting a desire to explore complex ideas and understand the broader implications of technology on society.

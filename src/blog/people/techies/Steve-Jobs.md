@@ -101,6 +101,8 @@ He was proud of his accomplishments and the impact his products had on the world
 
 The pride and shame of a visionary like Jobs are two sides of the same coin, driving him to strive for greatness.
 
+<BlogPurpose/>
+
 ## The Habits of a Type 1 Leader
 
 Jobs' Type 1 personality shaped his leadership style and the habits he cultivated.

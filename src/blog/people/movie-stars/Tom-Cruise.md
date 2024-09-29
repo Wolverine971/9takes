@@ -115,6 +115,8 @@ During his infamous couch-jumping incident on Oprah, we saw a rare glimpse of un
 
 This reveals the Type 3's deep-seated need for approval and positive reception, even in their most vulnerable moments.
 
+<BlogPurpose/>
+
 ## The Cruise Legacy: What's Next for Tom?
 
 Tom shows no signs of slowing down. His recent "Top Gun: Maverick" success proves he's still at the top of his game.

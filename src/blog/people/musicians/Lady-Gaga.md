@@ -98,7 +98,7 @@ But true to her Type 4 nature, Gaga doesn't shy away from conflict when it comes
 
 This fierce defense of her unique identity is classic Type 4 behavior. They resist being pigeonholed or compared to others, always striving to assert their individuality.
 
-<BlogPurpose />
+<BlogPurpose/>
 
 ## Gaga's Legacy and Current Work: The Evolution of an Artist
 

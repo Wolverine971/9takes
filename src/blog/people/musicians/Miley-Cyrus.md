@@ -117,6 +117,8 @@ Type 4s often struggle with criticism and stress, feeling things deeply and some
 
 By understanding Miley's personality through the lens of Enneagram Type 4, we gain insight not just into her behavior and career choices, but also into the internal motivations and fears that drive her. Her journey of self-discovery, artistic expression, and coping mechanisms offers a vivid illustration of Type 4 characteristics in action.
 
+<BlogPurpose/>
+
 ## Facing Loss and Resilience: A Type 4's Response to Tragedy
 
 One of the most poignant examples of Miley's Type 4 personality shining through adversity came in 2018 when she faced a significant personal loss.

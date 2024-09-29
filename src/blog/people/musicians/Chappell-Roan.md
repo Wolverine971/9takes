@@ -113,7 +113,7 @@ Like many Type 7s, Chappell's exuberant exterior masks deeper emotional complexi
 
 This vulnerability, combined with her infectious energy, creates a powerful connection with her fans. It's a reminder that behind every glittery facade is a human being with real struggles and triumphs.
 
-<BlogPurpose />
+<BlogPurpose/>
 
 ## The Future is Bright (and Glittery)
 

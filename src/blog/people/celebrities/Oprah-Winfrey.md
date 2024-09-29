@@ -96,7 +96,9 @@ When Oprah is at her best, she embodies all the positive aspects of Type 2. Her 
 
 "My philosophy is that not only are you responsible for your life, but doing the best at this moment puts you in the best place for the next moment," Oprah once said. This forward-thinking positivity is the hallmark of a Two in flow.
 
-## The Enneagram: A Window into Oprah's Soul
+<BlogPurpose/>
+
+## A Window into Oprah's Soul Through the Enneagram
 
 Understanding Oprah through the lens of the Enneagram offers us a unique perspective on this larger-than-life figure. It helps us see the motivations behind her actions, the fears that drive her, and the desires that shape her decisions.
 

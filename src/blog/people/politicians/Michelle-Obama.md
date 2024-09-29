@@ -54,6 +54,8 @@ Enneagram type 1 individuals have high standards for themselves and others. Mich
 
 Another characteristic of Enneagram type 1 individuals is their organization and discipline. Michelle has demonstrated her organizational skills through her role as First Lady, overseeing events and initiatives with precision and attention to detail. She has also spoken about her daily routine, which includes early morning workouts and a structured schedule.
 
+<BlogPurpose/>
+
 ## Perfectionist tendencies
 
 Enneagram type 1 individuals often struggle with perfectionist tendencies and a fear of making mistakes. Michelle has spoken about the pressure she felt as a public figure and the constant scrutiny she faced. However, she has also acknowledged the importance of resilience and learning from failures.

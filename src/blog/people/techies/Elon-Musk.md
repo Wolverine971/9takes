@@ -174,6 +174,8 @@ Elon's work ethic is legendary. He's been known to sleep on the factory floor du
 
 In interviews, Elon often speaks about visualizing complex systems in his head. This ability to create and manipulate mental models is a hallmark of the Type 5 mind, allowing them to see connections and possibilities that others might miss.
 
+<BlogPurpose/>
+
 ## The Investigator in Love: Elon's Romantic Rollercoaster
 
 ### A Pattern of Intense, Short-Lived Connections
@@ -196,7 +198,7 @@ When under extreme stress, Type 5s can shift to exhibit characteristics of an un
 
 Elon once tweeted, **"I'm looking for a long-term relationship. I'm not looking for a one-night stand. I'm looking for a serious companion or soulmate."** This longing for deep connection, coupled with difficulty maintaining it, showcases the internal struggle many Type 5s face in their personal lives.
 
-<BlogPurpose />
+<BlogPurpose/>
 
 ## Elon's Relationships: A Window into Type 5 Dynamics
 

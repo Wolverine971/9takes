@@ -90,6 +90,8 @@ In these formative years, he demonstrated a deep commitment to his craft, workin
 
 His early experiences, characterized by a blend of raw talent, early exposure to the rigors of the music industry, and a persistent drive, played a significant role in developing his Type 3 personality traits. These influences, combined with his personal experiences and challenges, have profoundly impacted his artistic expression, as seen in his music and public persona.
 
+<BlogPurpose/>
+
 ## The Lyrics of Life: How Bieber's Songs Reflect His Personality
 
 Justin Bieber's lyrics offer insights into his Enneagram Type 3 personality. His songs, like "Sorry" and "Love Yourself," showcase introspection and concern with self-image, typical of Type 3s. These tracks delve into personal growth and accountability, reflecting a journey toward self-improvement. His collaborations with artists like <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> underscore his drive for excellence and recognition in the competitive music industry, aligning with a Type 3's ambition and adaptability.

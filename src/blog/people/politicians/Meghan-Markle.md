@@ -51,6 +51,8 @@ This drive often fuels their philanthropic endeavors and their engagement in soc
 
 This also helps explain the motivation to leave the Royal Family. The Royal Family did not need Meghan which probably rubbed her the wrong way which encouraged her to go someplace where she was needed.
 
+<BlogPurpose/>
+
 ## Keeping Up Appearances
 
 Type 2's have a deep desire to feel love and are willing to twist narratives and details to make themselves appear worthy of sympathy and love.

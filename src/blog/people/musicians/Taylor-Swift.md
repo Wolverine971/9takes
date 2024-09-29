@@ -104,7 +104,7 @@ Swift’s personality is vividly manifested in her lyrics, illustrating her acut
 
 Swift’s entire “Reputation” album revolves around her public image. Through this work, she channels the experiences of her feuds with West and Kardashian into a narrative where she is cast in a role rather than accepting blame. Swift, akin to a true Enneagram Type 3, plays an active role in crafting her reputation and success narrative through her music.
 
-<BlogPurpose />
+<BlogPurpose/>
 
 ## How Different Enneagram Types Perceive Taylor Swift
 

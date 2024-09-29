@@ -103,6 +103,8 @@ By wedding his signature Enthusiast ingenuity with a 5-ish penchant for incisive
 
 Of course, the ever-restless 7 is rarely content to stay in one mode for long. As Luckey looks ahead to his next act, expect his mercurial mind to leap into uncharted territories once again - with a bit more 5-style focus this time around.
 
+<BlogPurpose/>
+
 ## Charging Ahead into New Ventures
 
 True to Type 7 form, Luckey rebounded from Oculus drama to found defense startup Anduril - a classic display of Enthusiast resilience.

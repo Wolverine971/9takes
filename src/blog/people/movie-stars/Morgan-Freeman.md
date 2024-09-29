@@ -106,6 +106,8 @@ When faced with allegations of inappropriate behavior in 2018, Freeman's initial
 
 This response reflects the Type 1's struggle when their self-image as a moral, upright person is challenged. It also shows the capacity for reflection and the desire to understand and correct perceived mistakes - hallmarks of the Perfectionist personality.
 
+<BlogPurpose/>
+
 ## The Ongoing Quest for Improvement: Freeman's Legacy and Current Work
 
 Even in his 80s, Morgan Freeman continues to work and seek new challenges.

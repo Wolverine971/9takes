@@ -121,6 +121,8 @@ When criticized for his stance against the Vietnam War, King responded:
 
 This quote embodies the Challenger's willingness to stand firm in their convictions, even when faced with opposition.
 
+<BlogPurpose/>
+
 ## MLK's Legacy: The Enduring Impact of a Type 8 Visionary
 
 Martin Luther King Jr.'s legacy continues to inspire and challenge us today. His life exemplifies the power of the Enneagram Type 8 personality when channeled towards justice and compassion.

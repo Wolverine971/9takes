@@ -71,6 +71,8 @@ Ginsburg's demeanor, from her law school days to her Supreme Court tenure, was c
 
 Ginsburg's extraordinary self-restraint is evident in her approach to her cancer treatments. Despite her advancing age and multiple health challenges, she resisted relinquishing her role in the Court or reducing her workload. She continued to work relentlessly, even while undergoing chemotherapy and radiation therapy. Her self-discipline and determination served as an inspiring beacon for many.
 
+<BlogPurpose/>
+
 ## Wrap Up
 
 Ginsburg's relentless pursuit of excellence, uncompromising idealism, devotion to duty, and exemplary self-restraint, all serve as a testament to her being an Enneagram Type 1.
