@@ -98,7 +98,9 @@
 		position: relative;
 		border-radius: var(--base-border-radius);
 		overflow: hidden;
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);

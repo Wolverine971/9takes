@@ -74,7 +74,6 @@
 			{loading ? 'Loading...' : 'Load More'}
 		</button>
 	{/if}
-
 {/if}
 
 <style lang="scss">

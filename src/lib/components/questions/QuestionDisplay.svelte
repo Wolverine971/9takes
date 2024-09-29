@@ -21,7 +21,7 @@
 	};
 
 	$: fontSize = calcSize(question.question);
-	$: qrCodeSize = innerWidth > 400 ? '20%' : '30%';
+	$: qrCodeSize = innerWidth > 400 ? '10%' : '20%';
 
 	function calcSize(text: string): string {
 		const lengths = [45, 60, 80, 105, 115, 130, 150, 200, 220, 240, 290, 380];

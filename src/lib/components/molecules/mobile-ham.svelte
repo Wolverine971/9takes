@@ -23,7 +23,7 @@
 		</button>
 	{:else}
 		<button
-			class="hamburger flex-center close-trigger "
+			class="hamburger flex-center close-trigger"
 			aria-label="Toggle navigation"
 			on:click={() => {
 				getModal('mobile-nav').close();

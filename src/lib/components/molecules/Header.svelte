@@ -216,15 +216,25 @@
 
 	.question-blink {
 		$shadow-color: var(--primary);
-		box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px $shadow-color, 0 0 30px $shadow-color,
-			0 0 40px $shadow-color, 0 0 50px $shadow-color;
+		box-shadow:
+			0 0 2px #fff,
+			0 0 10px #fff,
+			0 0 20px $shadow-color,
+			0 0 30px $shadow-color,
+			0 0 40px $shadow-color,
+			0 0 50px $shadow-color;
 		animation: blink 0.7s infinite alternate;
 	}
 
 	@keyframes blink {
 		to {
-			box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px var(--primary),
-				0 0 70px var(--primary), 0 0 80px var(--primary);
+			box-shadow:
+				0 0 3px #fff,
+				0 0 10px #fff,
+				0 0 20px #fff,
+				0 0 40px var(--primary),
+				0 0 70px var(--primary),
+				0 0 80px var(--primary);
 		}
 	}
 
@@ -556,7 +566,10 @@
 		0%,
 		100% {
 			color: #fff;
-			text-shadow: 0 0 10px var(--primary), 0 0 50px var(--primary), 0 0 100px var(--primary);
+			text-shadow:
+				0 0 10px var(--primary),
+				0 0 50px var(--primary),
+				0 0 100px var(--primary);
 		}
 		10%,
 		90% {

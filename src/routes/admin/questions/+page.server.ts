@@ -26,7 +26,8 @@ export const load: PageServerLoad = async (event) => {
 	const { data: questions, error: questionsError } = await supabase
 		.from(demo_time === true ? 'questions_demo' : 'questions')
 		.select(
-			`*, question_tag(*), ${demo_time === true ? 'profiles_demo' : 'profiles'
+			`*, question_tag(*), ${
+				demo_time === true ? 'profiles_demo' : 'profiles'
 			} ( external_id, enneagram)`
 		)
 		.order('created_at', { ascending: false })
@@ -44,7 +45,6 @@ export const load: PageServerLoad = async (event) => {
 		console.log(questionsError);
 	}
 
-
 	const { data: questionKeywords, error: questionKeywordsError } = await supabase
 		.from(`question_keywords`)
 		.select('*');
@@ -59,15 +59,13 @@ export const load: PageServerLoad = async (event) => {
 	});
 
 	const questionsAndKeywords = questions.map((question) => {
-
 		if (questionKeywordsMap[question.id]) {
 			const newQuestion = question;
 			newQuestion.keywords = questionKeywordsMap[question.id].keywords.split(',');
-			return newQuestion
+			return newQuestion;
 		}
 		return question;
-
-	})
+	});
 
 	if (!findUserError) {
 		return {

@@ -7,7 +7,7 @@
 		const {
 			data: { subscription }
 		} = supabase.auth.onAuthStateChange((event, state, session) => {
-			if(session){
+			if (session) {
 				if (state == 'SIGNED_IN') {
 					session.user.set(session.user);
 				} else {

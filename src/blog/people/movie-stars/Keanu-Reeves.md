@@ -143,7 +143,6 @@ While reminiscing about their time on the set of Speed, Sandra Bullock recalled 
 
 During filming The Matrix, Keanu faced physical challenges due to a spinal surgery. Yet, colleagues reported his determined yet non-aggressive approach to rehabilitation and training – a balance a Type 9 might naturally strike.
 
-
 <BlogPurpose/>
 
 ## How Each Enneagram Type Perceives Keanu Reeves

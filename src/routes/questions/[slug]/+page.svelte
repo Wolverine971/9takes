@@ -73,7 +73,7 @@
 					dateCreated: data.question.created_at,
 					suggestedAnswer: formattedAIComments
 				}
-		  })
+			})
 		: JSON.stringify({
 				'@context': 'https://schema.org',
 				'@type': 'QAPage',
@@ -83,7 +83,7 @@
 					answerCount: data.question.comment_count || 0,
 					dateCreated: data.question.created_at
 				}
-		  });
+			});
 </script>
 
 <svelte:window bind:innerWidth />

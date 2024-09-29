@@ -70,7 +70,9 @@
 		overflow: hidden;
 		border-radius: var(--base-border-radius);
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);

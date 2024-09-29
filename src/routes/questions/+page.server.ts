@@ -211,8 +211,8 @@ export const actions: Actions = {
 				.select(
 					`*, 
 				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-						!enneagramTypes.includes('rando') ? '!inner' : ''
-					} (enneagram, id)
+					!enneagramTypes.includes('rando') ? '!inner' : ''
+				} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
 						count: 'exact'

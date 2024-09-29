@@ -9,7 +9,7 @@
 		? data?.signups?.map((s) => {
 				const newdate = convertDateToReadable(s.created_at);
 				return { ...s, createdAt: newdate };
-		  })
+			})
 		: [];
 	let active: any = null;
 	let activeAdmin: boolean = false;

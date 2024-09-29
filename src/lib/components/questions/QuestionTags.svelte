@@ -66,13 +66,17 @@
 		position: relative;
 		margin: var(--card-margin);
 		padding: var(--card-padding);
-		box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%),
+		box-shadow:
+			0 3px 1px -2px rgb(0 0 0 / 20%),
+			0 2px 2px 0 rgb(0 0 0 / 14%),
 			0 1px 5px 0 rgb(0 0 0 / 12%);
 	}
 	.question-card:hover {
 		background-color: #cfcfcf; // var(--base-white-outline);
-		box-shadow: 0 2px 0px -1px var(--color-theme-purple-light),
-			0 3px 3px 1px var(--color-theme-purple-light), 0 1px 5px 0 var(--color-theme-purple-light);
+		box-shadow:
+			0 2px 0px -1px var(--color-theme-purple-light),
+			0 3px 3px 1px var(--color-theme-purple-light),
+			0 1px 5px 0 var(--color-theme-purple-light);
 		text-decoration: none;
 	}
 

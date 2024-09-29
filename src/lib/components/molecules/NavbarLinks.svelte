@@ -15,7 +15,7 @@
 	});
 </script>
 
-<div class="navbar-blogs ">
+<div class="navbar-blogs">
 	<a
 		href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
 		class="{!isMobile && 'big-btn'} {$page.url.pathname === '/' && 'active-link'}"
@@ -42,7 +42,7 @@
 			</div>
 			<div class="subnav">
 				<button class="subNavBtn">9 Types <i class="fa fa-caret-down" /></button>
-				<div class="subnav-content ">
+				<div class="subnav-content">
 					<a href="/enneagram-corner/enneagram-type-1">Type 1: The Perfectionist</a>
 					<a href="/enneagram-corner/enneagram-type-2">Type 2: The Helper</a>
 					<a href="/enneagram-corner/enneagram-type-3">Type 3: The Achiever</a>

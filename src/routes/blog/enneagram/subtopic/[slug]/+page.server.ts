@@ -15,7 +15,7 @@ export const load: PageServerLoad = async ({
 				({
 					...(post as unknown as App.MdsvexFile).metadata,
 					slug: slugFromPath(path)
-				} as App.BlogPost)
+				}) as App.BlogPost
 		)
 	);
 
