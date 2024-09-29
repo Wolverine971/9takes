@@ -1,6 +1,6 @@
 ---
-title: 'Mr. Rogers Enneagram type 2'
-description: 'Why Mr. Rogers appears to be a type 2'
+title: 'Mr. Rogers: Beautiful Day in a Type 2 Psyche'
+description: "Step into Mr. Rogers' Neighborhood of the mind. Explore how his Type 2 personality created a legacy of kindness and education."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/personality-analysis/Mr-Rogers'
@@ -42,7 +42,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Mr. Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Rogers.
 
-<p class="firstLetter">Mr. Rogers, aka Fred Rogers, was a beloved children's television host and advocate for kindness and compassion. His personality traits are indicative of an Enneagram type 2, also known as the Helper. Here are four reasons why Mr. Rogers fits the characteristics of an Enneagram type 2:</p>
+<p class="firstLetter">Mr. Fred Rogers was a beloved children's television host and advocate for kindness and compassion. His personality traits are indicative of an Enneagram type 2, also known as the Helper. Here are four reasons why Mr. Rogers fits the characteristics of an Enneagram type 2:</p>
 
 ## Desire to help and serve others
 

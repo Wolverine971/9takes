@@ -1,10 +1,10 @@
 ---
-title: 'Elton John Enneagram Type 4'
-description: 'Why Elton John appears to be a type 4'
+title: "Elton John: Rocketman's Type 4 Melodic Mindset"
+description: "Journey through Elton John's Type 4 world. From Crocodile Rock to Lion King, see how his personality harmonizes with his music."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Elton-John'
-lastmod: '2023-10-18'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -165,7 +165,7 @@ Suppose this exploration piqued your curiosity, and you yearn for more insightfu
       "http://schema.org/creator": "DJ Wayne",
       "http://schema.org/dateModified": {
         "@type": "http://schema.org/Date",
-        "@value": "2023-10-18"
+        "@value": "2024-09-29"
       },
       "http://schema.org/datePublished": {
         "@type": "http://schema.org/Date",

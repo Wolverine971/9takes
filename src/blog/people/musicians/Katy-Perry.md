@@ -1,6 +1,6 @@
 ---
-title: 'Katy Perry An Enneagram Type tiptype'
-description: 'Why Katy Perry appears to be a type tiptype'
+title: 'Katy Perry An Enneagram Type 7'
+description: 'Why Katy Perry appears to be a type 7'
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/Katy-Perry'
@@ -8,7 +8,7 @@ lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: tiptype
+enneagram: 7
 type: ['celebrity']
 person: 'Katy-Perry'
 wikipedia: ''
@@ -38,8 +38,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'Katy-Perry'}.webp`}
-		enneagramType={tiptype}
+		image={`/types/7s/${'Katy-Perry'}.webp`}
+		enneagramType={7}
 		showIcon={false}
 		displayText="Katy Perry"
 		subtext=""

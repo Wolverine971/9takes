@@ -1,6 +1,6 @@
 ---
-title: 'Kylie Jenner Enneagram type 9'
-description: 'Why Kylie Jenner appears to be a type 9'
+title: 'Kylie Jenner: Lip Kit Empire of a Type 9 Mogul'
+description: "From reality TV to billionaire status: Analyze how Kylie Jenner's Type 9 traits built a beauty empire and social media dominance."
 author: 'DJ Wayne'
 date: '2023-07-24'
 loc: 'https://9takes.com/personality-analysis/Kylie-Jenner'

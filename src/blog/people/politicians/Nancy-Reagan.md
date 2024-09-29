@@ -1,8 +1,8 @@
 ---
-title: 'Nancy Reagan Enneagram Type 2'
-description: 'Why Nancy Reagan appears to be a type 2'
+title: 'Nancy Reagan: Just Say Yes to Type 2 Analysis'
+description: "Beyond 'Just Say No': Examine Nancy Reagan's influence as First Lady. How did her Type 2 personality shape her advocacy and legacy?"
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2024-09-29'
 loc: 'https://9takes.com/personality-analysis/Nancy-Reagan'
 lastmod: '2023-03-26'
 changefreq: 'monthly'

@@ -22,7 +22,21 @@
 			applyAction(result);
 		};
 	}
+	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
+
+<svelte:head>
+	<title>9takes Login</title>
+	<meta name="description" content="Login for a good time" />
+	<link rel="canonical" href="https://9takes.com/login" />
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content="9takes - Login" />
+	<meta property="og:description" content="Login for a good time" />
+	<meta property="og:url" content="https://9takes.com/login" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:type" content="image/png" />
+</svelte:head>
 
 <div class="container" in:fade={{ duration: 300 }}>
 	<h1 class="title" in:fly={{ y: -20, duration: 300, delay: 150 }}>
@@ -124,7 +138,9 @@
 		border: 1px solid var(--input-border);
 		border-radius: 4px;
 		font-size: 1rem;
-		transition: border-color 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			border-color 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:focus {
 			outline: none;
@@ -140,7 +156,9 @@
 		cursor: pointer;
 		font-size: 1rem;
 		font-weight: bold;
-		transition: background-color 0.3s ease, transform 0.1s ease;
+		transition:
+			background-color 0.3s ease,
+			transform 0.1s ease;
 
 		&.btn-primary {
 			background-color: var(--primary);

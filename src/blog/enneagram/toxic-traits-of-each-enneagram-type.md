@@ -200,7 +200,7 @@ This constant testing often masks a deep fear of betrayal or abandonment. Type 6
           image={`/blogs/greek-statues-at-the-beach.webp`}
           showIcon={false}
           subtext=""
-          displayText="Mental Health Flags of Each Type"
+          displayText="How each enneagram type unwinds"
           scramble={false}
       />
      </a>
@@ -209,7 +209,7 @@ This constant testing often masks a deep fear of betrayal or abandonment. Type 6
           image={`/blogs/greek-statues-in-a-tense-moment.webp`}
           showIcon={false}
           subtext=""
-          displayText="Toxic Traits Within a Relationship"
+          displayText="Know the warning signs in a relationship"
           scramble={false}
       />
     </a>

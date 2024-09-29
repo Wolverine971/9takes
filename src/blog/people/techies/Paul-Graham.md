@@ -1,10 +1,10 @@
 ---
-title: 'Paul Graham Enneagram Type 7'
-description: "Understand where Paul's boundless energy and enthusiasm comes from and explore what is going behind his eyes"
+title: "Paul Graham: Essays on a Type 7 Hacker's Mind"
+description: "From Lisp to Y Combinator: Explore how Paul Graham's Type 7 mindset revolutionized tech startups and hacker culture."
 author: 'DJ Wayne'
 date: '2024-07-04'
 loc: 'https://9takes.com/personality-analysis/Paul-Graham'
-lastmod: '2024-07-04'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -133,7 +133,7 @@ As the tech world continues to evolve, the vibrant and ever-curious spirit of Pa
         },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-07-04"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",

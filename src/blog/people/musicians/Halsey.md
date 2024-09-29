@@ -1,10 +1,10 @@
 ---
-title: 'Halsey– An Enneagram Type 8'
-description: 'Why Halsey appears to be a type 8'
+title: 'Halsey: Badlands to Manic - Type 8 Metamorphosis'
+description: "Track Halsey's evolution through her music. See how her Type 8 personality influences her bold lyrics, activism, and artistic choices."
 author: 'DJ Wayne'
 date: '2023-06-23'
 loc: 'https://9takes.com/personality-analysis/Halsey'
-lastmod: '2023-06-23'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

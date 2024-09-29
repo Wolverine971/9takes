@@ -1,10 +1,10 @@
 ---
-title: 'Sydney Sweeney An Enneagram Type 3'
-description: "A Dynamic and Rising Star's Journey as an Enneagram Type 3"
+title: 'Sydney Sweeney: Euphoric Echoes in a Type 3 Psyche'
+description: "From The White Lotus to internal dialogues. Decode Sydney's Type 3 mental script - ambition, authenticity, and the psychology of performance."
 author: 'DJ Wayne'
 date: '2024-06-01'
 loc: 'https://9takes.com/personality-analysis/Sydney-Sweeney'
-lastmod: '2024-06-01'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -199,7 +199,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-06-01"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",

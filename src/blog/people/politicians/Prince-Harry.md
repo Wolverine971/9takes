@@ -1,8 +1,8 @@
 ---
-title: 'Prince Harry Enneagram Type 6'
-description: 'Why Prince Harry appears to be a type 6'
+title: "Prince Harry: The Spare's Crown of Thorns - Type 6"
+description: "Beyond the Palace walls: Untangle Harry's Type 6 mental tug-of-war between duty and autonomy, from Invictus to California."
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2024-09-29'
 loc: 'https://9takes.com/personality-analysis/Prince-Harry'
 lastmod: '2024-01-06'
 changefreq: 'monthly'

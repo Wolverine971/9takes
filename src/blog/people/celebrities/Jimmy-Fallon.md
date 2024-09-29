@@ -1,6 +1,6 @@
 ---
-title: 'Jimmy Fallon Enneagram type 7'
-description: 'Why Jimmy Fallon appears to be a type 7'
+title: 'Jimmy Fallon: Thank You Notes from a Type 7 Mind'
+description: "Laugh along as we dissect Jimmy Fallon's Type 7 energy. From SNL to The Tonight Show, explore the psychology behind his contagious humor."
 author: 'DJ Wayne'
 date: '2024-05-07'
 loc: 'https://9takes.com/personality-analysis/Jimmy-Fallon'

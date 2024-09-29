@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>About 9takes</title>
+	<title>9takes- About Page</title>
 	<meta
 		name="description"
 		content="Answering what is the purpose, inspiration, and who is behind 9takes"

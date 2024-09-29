@@ -7,7 +7,21 @@
 		console.log('Submitting email:', email);
 		// You might want to add error handling and success messaging here
 	};
+	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
+
+<svelte:head>
+	<title>9takes Forgot Password Page</title>
+	<meta name="description" content="Remember your password for a good time" />
+	<link rel="canonical" href="https://9takes.com/forgotPassword" />
+	<meta property="og:site_name" content="9takes" />
+	<meta property="og:title" content="9takes - Forgot Password Page" />
+	<meta property="og:description" content="Remember your password for a good time" />
+	<meta property="og:url" content="https://9takes.com/forgotPassword" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content={ogImage} />
+	<meta property="og:image:type" content="image/png" />
+</svelte:head>
 
 <div class="container">
 	<h1 class="title">Forgot Password</h1>

@@ -1,10 +1,10 @@
 ---
-title: 'Bill Gates Enneagram Type 5'
-description: 'Why Bill Gates appears to be a type 5'
+title: 'Bill Gates: Coding the Type 5 Microsoft Mindset'
+description: "Uncover how Bill Gates' Enneagram Type 5 traits fueled Microsoft's rise. From DOS to philanthropy, explore the mind behind the tech revolution."
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Bill-Gates'
-lastmod: '2023-04-19'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -117,7 +117,7 @@ But what about you? How does understanding Gates through the lens of the Enneagr
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-07-09",
+      "dateModified": "2024-09-29",
       "datePublished": "2024-07-09",
       "description": "This blog post examines Bill Gates' personality through the lens of the Enneagram Type 5, exploring his upbringing, rise to fame, major accomplishments, and how he has handled challenges and controversies.",
       "headline": "The Mind Behind Microsoft: Unveiling Bill Gates' Enneagram Type 5 Personality",

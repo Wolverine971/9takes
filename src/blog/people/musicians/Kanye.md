@@ -1,10 +1,10 @@
 ---
-title: 'Kanye Enneagram Type 7'
-description: 'Why Kanye appears to be a type 7'
+title: 'Kanye West: Yeezus Complex Through 7 Eras'
+description: "Dive into Kanye's mind: from College Dropout to Donda. Explore how his Type 7 personality shapes his music, fashion, and controversies."
 author: 'DJ Wayne'
 date: '2023-06-17'
 loc: 'https://9takes.com/personality-analysis/Kanye'
-lastmod: '2023-06-17'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

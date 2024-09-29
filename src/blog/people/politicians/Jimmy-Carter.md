@@ -1,10 +1,10 @@
 ---
-title: 'Jimmy Carter Enneagram Type 2'
-description: 'Why Jimmy Carter appears to be a type 2'
+title: 'Jimmy Carter: Peanut Fields to Psyche of Peace'
+description: "Habitat for a Type 2 mind. Unearth Carter's inner blueprint, from Plains, Georgia to global humanitarian architecting."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Jimmy-Carter'
-lastmod: '2023-03-26'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

@@ -52,92 +52,92 @@
 
 <svelte:head>
 	<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Understanding the Enneagram",
-        "description": "Explore the basics and fundamentals of the Enneagram system",
-        "url": "https://9takes.com/enneagram-corner#understanding"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "The Nine Enneagram Types",
-        "description": "Detailed information about each of the nine Enneagram personality types",
-        "url": "https://9takes.com/enneagram-corner#nine-types"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Using the Enneagram for Personal Development",
-        "description": "Learn how to apply Enneagram insights for personal growth and self-improvement",
-        "url": "https://9takes.com/enneagram-corner#personal-development"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Enneagram in Relationships",
-        "description": "Understand how Enneagram types interact in various relationships",
-        "url": "https://9takes.com/enneagram-corner#relationships"
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Enneagram in the Workplace",
-        "description": "Discover how Enneagram knowledge can improve workplace dynamics and productivity",
-        "url": "https://9takes.com/enneagram-corner#workplace"
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "name": "Enneagram Resources",
-        "description": "Curated collection of Enneagram books, tools, and other resources",
-        "url": "https://9takes.com/enneagram-corner#resources"
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Enneagram Situational Topics",
-        "description": "Explore how Enneagram types respond in various life situations",
-        "url": "https://9takes.com/enneagram-corner#situations"
-      }
-    ]
-  },
-  "name": "Enneagram Corner: Your Guide to Personal Growth and Understanding",
-  "description": "Dive into the Enneagram with 9takes. Explore the nine types, personal development, relationships, workplace dynamics, and more. Your comprehensive guide to understanding and applying the Enneagram.",
-  "url": "https://9takes.com/enneagram-corner",
-  "author": {
-    "@type": "Organization",
-    "name": "9takes",
-    "url": "https://9takes.com"
-  },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://9takes.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Enneagram Corner",
-        "item": "https://9takes.com/enneagram-corner"
-      }
-    ]
-  }
-}
+		{
+			"@context": "https://schema.org",
+			"@type": "CollectionPage",
+			"mainEntity": {
+				"@type": "ItemList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Understanding the Enneagram",
+						"description": "Explore the basics and fundamentals of the Enneagram system",
+						"url": "https://9takes.com/enneagram-corner#understanding"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "The Nine Enneagram Types",
+						"description": "Detailed information about each of the nine Enneagram personality types",
+						"url": "https://9takes.com/enneagram-corner#nine-types"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Using the Enneagram for Personal Development",
+						"description": "Learn how to apply Enneagram insights for personal growth and self-improvement",
+						"url": "https://9takes.com/enneagram-corner#personal-development"
+					},
+					{
+						"@type": "ListItem",
+						"position": 4,
+						"name": "Enneagram in Relationships",
+						"description": "Understand how Enneagram types interact in various relationships",
+						"url": "https://9takes.com/enneagram-corner#relationships"
+					},
+					{
+						"@type": "ListItem",
+						"position": 5,
+						"name": "Enneagram in the Workplace",
+						"description": "Discover how Enneagram knowledge can improve workplace dynamics and productivity",
+						"url": "https://9takes.com/enneagram-corner#workplace"
+					},
+					{
+						"@type": "ListItem",
+						"position": 6,
+						"name": "Enneagram Resources",
+						"description": "Curated collection of Enneagram books, tools, and other resources",
+						"url": "https://9takes.com/enneagram-corner#resources"
+					},
+					{
+						"@type": "ListItem",
+						"position": 7,
+						"name": "Enneagram Situational Topics",
+						"description": "Explore how Enneagram types respond in various life situations",
+						"url": "https://9takes.com/enneagram-corner#situations"
+					}
+				]
+			},
+			"name": "Enneagram Corner: Your Guide to Personal Growth and Understanding",
+			"description": "Dive into the Enneagram with 9takes. Explore the nine types, personal development, relationships, workplace dynamics, and more. Your comprehensive guide to understanding and applying the Enneagram.",
+			"url": "https://9takes.com/enneagram-corner",
+			"author": {
+				"@type": "Organization",
+				"name": "9takes",
+				"url": "https://9takes.com"
+			},
+			"breadcrumb": {
+				"@type": "BreadcrumbList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Home",
+						"item": "https://9takes.com"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Enneagram Corner",
+						"item": "https://9takes.com/enneagram-corner"
+					}
+				]
+			}
+		}
 	</script>
 </svelte:head>
-
+<!-- here -->
 <BlogPageHead
 	data={{
 		title: '9takes Enneagram Corner - Explore All Enneagram Topics',
@@ -274,7 +274,9 @@
 		aspect-ratio: 1 / 1;
 		padding: 0;
 		overflow: hidden;
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);

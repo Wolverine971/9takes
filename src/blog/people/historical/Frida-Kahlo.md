@@ -1,10 +1,10 @@
 ---
-title: 'Frida Kahlo Enneagram Type 4'
-description: 'Why Frida Kahlo appears to be a type 4'
+title: 'Frida Kahlo: Self-Portraits of a Type 4 Essence'
+description: "Brush strokes of individuality: Explore how Frida Kahlo's Type 4 personality colored her art, life, and enduring cultural impact."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Frida-Kahlo'
-lastmod: '2023-03-26'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true

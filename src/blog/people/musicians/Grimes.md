@@ -1,10 +1,10 @@
 ---
-title: 'Grimes An Enneagram Type 7'
-description: 'Why Grimes appears to be a type 7'
+title: "Grimes: c's Cyberpunk Mindscape of a Type 7"
+description: "Decrypt the WarNymph within. Journey through Grimes' Type 7 neural pathways, from Anthropocene to AI lullabies."
 author: 'DJ Wayne'
 date: '2023-12-07'
 loc: 'https://9takes.com/personality-analysis/Grimes'
-lastmod: '2023-12-07'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -41,7 +41,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
 
-<p class="firstLetter">Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona.</p>
+<p class="firstLetter">Claire Boucher aka Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona.</p>
 
 Beyond the outlandish outfits and ethereal vocals, however, lies a complex inner world that the Enneagram, a personality typing system, helps us understand.
 
@@ -76,7 +76,7 @@ Examples include:
 
 - Her album "Art Angels" is a kaleidoscope of genres, showcasing her versatility and willingness to experiment with different musical styles.
 - Her collaborations with artists like Janelle Monae and <a href="/personality-analysis/Ariana-Grande">Ariana Grande</a> demonstrate her openness to diverse creative influences.
-<BlogPurpose/>
+  <BlogPurpose/>
 
 ## An Enthusiasm for Life
 

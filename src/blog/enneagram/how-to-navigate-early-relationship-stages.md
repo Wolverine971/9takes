@@ -94,8 +94,6 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 </section>
 
-Certainly. Here's a more condensed version for Enneagram Type 2:
-
 <section class="section-content">
 
 <h2 id="type2">Type 2: The Helper - Nurturing Balance in Relationships</h2>

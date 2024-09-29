@@ -1,10 +1,10 @@
 ---
-title: 'Emily Ratajkowski Enneagram Type 8'
-description: 'Why Emily Ratajkowski appears to be a type 8'
+title: 'EmRata: High Low Labyrinth of a Type 8 Mind'
+description: "Blurred lines of intellect and beauty. Navigate EmRata's Type 8 mental landscape, where power meets vulnerability in her multifaceted pursuits."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Emily-Ratajkowski'
-lastmod: '2024-04-08'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -111,7 +111,7 @@ If you found this interesting, check out <a href="/personality-analysis/Alex-Coo
   },
   "dateModified": {
     "@type": "Date",
-    "@value": "2024-04-08"
+    "@value": "2024-09-29"
   },
   "datePublished": {
     "@type": "Date",

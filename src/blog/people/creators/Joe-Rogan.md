@@ -1,10 +1,10 @@
 ---
-title: 'Joe Rogan Enneagram Type 8'
-description: "Explore Joe Rogan's Enneagram Type 8 personality: his assertive nature, diverse career, and controversial moments. Discover how the Challenger archetype shapes his influential podcast and public persona."
+title: "Joe Rogan: DMT-Fueled Odyssey of an 8's Psyche"
+description: "From sensory deprivation to UFC octagon psychology. Explore the inner workings of Rogan's Type 8 mind and its influence on his diverse pursuits."
 author: 'DJ Wayne'
 date: '2023-07-26'
 loc: 'https://9takes.com/personality-analysis/Joe-Rogan'
-lastmod: '2024-08-30'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -203,14 +203,14 @@ If you're intrigued by this exploration of personality and want to dive deeper, 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-08-30"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",
         "@value": "2023-07-26"
       },
       "description": "This blog post explores why Joe Rogan might be an Enneagram Type 8. It discusses his personality traits, his daily routine, significant controversies, and how all these aspects connect to the core attributes of a Type 8.",
-      "headline": "Understanding Joe Rogan: A Deep Dive Into His Enneagram Type 8 Personality",
+      "headline": "Joe Rogan: DMT-Fueled Odyssey of an 8's Psyche",
       "image": {
         "@type": "ImageObject",
         "height": 900,

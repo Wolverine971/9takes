@@ -592,7 +592,7 @@
 {#if subsection === 'situational'}
 	<BlogPageHead
 		data={{
-			title: `9takes- Blogs for using the Enneagram in specific situations`,
+			title: `9takes- Using the Enneagram in specific situations and scenarios`,
 			description: 'Blogs and listicles that explore Enneagram types in specific situations.',
 			slug: slug,
 			author: 'DJ Wayne',
