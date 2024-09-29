@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Sydney-Sweeney'
+suggestions: ['Margot Robbie', 'Emily Ratajkowski']
 wikipedia: ''
 twitter: ''
 instagram: ''

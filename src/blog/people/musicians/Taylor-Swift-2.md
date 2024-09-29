@@ -11,6 +11,7 @@ published: false
 enneagram: 4
 type: ['musician']
 person: 'Taylor-Swift'
+suggestions: ['Ariana Grande', 'Beyonce', 'Kanye', 'Lady Gaga', 'Billie Eilish']
 wikipedia: ''
 twitter: ''
 instagram: ''

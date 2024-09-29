@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['musician']
 person: 'Beyonce-Knowles'
+suggestions: ['Lady Gaga', 'Taylor Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Beyonc%C3%A9'
 twitter: 'https://twitter.com/Beyonce'
 instagram: 'https://www.instagram.com/beyonce/'

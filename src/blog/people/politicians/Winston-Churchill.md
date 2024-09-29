@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Winston-Churchill'
+suggestions: ['Martin Luther King Jr.']
 wikipedia: 'https://en.wikipedia.org/wiki/Winston_Churchill'
 twitter:
 instagram:

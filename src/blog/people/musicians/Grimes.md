@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['musician']
 person: 'Grimes'
+suggestions: ['Lady Gaga', 'Kanye']
 wikipedia: ''
 twitter: ''
 instagram: ''

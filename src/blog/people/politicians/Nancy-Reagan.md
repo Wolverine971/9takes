@@ -11,6 +11,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Nancy-Reagan'
+suggestions: ['Ronald Reagan']
 wikipedia: ''
 twitter: ''
 instagram:

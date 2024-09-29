@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'Lex-Fridman'
+suggestions: ['Joe Rogan', 'Elon Musk', 'Sam Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Lex_Fridman'
 twitter: 'https://twitter.com/lexfridman'
 instagram: 'https://www.instagram.com/lexfridman'

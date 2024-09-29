@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['historical']
 person: 'Friedrich-Nietzsche'
+suggestions: ['Robert Oppenheimer']
 wikipedia: ''
 twitter: ''
 instagram: ''

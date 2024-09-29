@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['politician']
 person: 'Queen-Elizabeth-II'
+suggestions: ['Prince Harry', 'Meghan Markle']
 wikipedia: ''
 twitter: ''
 instagram:

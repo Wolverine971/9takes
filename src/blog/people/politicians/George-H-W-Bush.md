@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['politician']
 person: 'George-H-W-Bush'
+suggestions: ['Ronald Reagan', 'George W. Bush']
 wikipedia: 'https://en.wikipedia.org/wiki/George_H._W._Bush'
 twitter: 'https://twitter.com/georgehwbush'
 instagram:

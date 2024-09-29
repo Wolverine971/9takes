@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'Jack-Dorsey'
+suggestions: ['Elon Musk', 'Mark Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Dorsey'
 twitter:
 instagram:

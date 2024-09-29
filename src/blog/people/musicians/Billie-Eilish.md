@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Billie-Eilish'
+suggestions: ['Ariana Grande', 'Taylor Swift', 'Lana Del Rey']
 wikipedia: 'https://en.wikipedia.org/wiki/Billie_Eilish'
 twitter: 'https://twitter.com/billieeilish'
 instagram: 'https://www.instagram.com/billieeilish'

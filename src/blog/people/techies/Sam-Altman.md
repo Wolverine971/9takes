@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['techie']
 person: 'Sam-Altman'
+suggestions: ['Paul Graham', 'Elon Musk', 'Peter Thiel', 'Jason Calacanis']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter:
 instagram:

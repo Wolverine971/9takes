@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['celebrity']
 person: 'Rooney-Mara'
+suggestions: ['Timothee Chalamet', 'Johnny Depp']
 wikipedia: ''
 twitter: ''
 instagram: ''

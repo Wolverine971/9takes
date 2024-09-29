@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['creator']
 person: 'Joe-Rogan'
+suggestions: ['Dave Portnoy', 'Alex Cooper', 'Lex Fridman', 'Jimmy Fallon', 'Jon Stewart']
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Rogan'
 twitter: 'https://twitter.com/joerogan'
 instagram: 'https://www.instagram.com/joerogan'

@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['creator']
 person: 'Alex-Cooper'
+suggestions: ['Joe Rogan', 'Logan Paul', 'Dave Portnoy']
 wikipedia: ''
 twitter: ''
 instagram: ''

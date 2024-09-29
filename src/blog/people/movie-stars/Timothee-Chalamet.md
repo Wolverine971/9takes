@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['movieStar']
 person: 'Timothee-Chalamet'
+suggestions: ['Rooney Mara']
 wikipedia: ''
 twitter: ''
 instagram: ''

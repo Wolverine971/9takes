@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Paris-Hilton'
+suggestions: ['Kim Kardashian', 'Kylie Jenner']
 wikipedia: ''
 twitter: ''
 instagram: ''

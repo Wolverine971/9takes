@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Lady-Gaga'
+suggestions: ['Beyonce', 'Taylor Swift', 'Elton John']
 wikipedia: 'https://en.wikipedia.org/wiki/Lady_Gaga'
 twitter: 'https://twitter.com/ladygaga'
 instagram: 'https://www.instagram.com/ladygaga'

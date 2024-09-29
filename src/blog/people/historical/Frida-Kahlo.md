@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['historical']
 person: 'Frida-Kahlo'
+suggestions: ['Bob Dylan']
 wikipedia: 'https://en.wikipedia.org/wiki/Frida_Kahlo'
 twitter: 'https://twitter.com/FridaKahlo'
 instagram: 'https://www.instagram.com/fridakahlo'

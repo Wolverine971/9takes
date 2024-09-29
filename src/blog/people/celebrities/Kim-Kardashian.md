@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Kim-Kardashian'
+suggestions: ['Kylie Jenner', 'Paris Hilton', 'Khloe Kardashian', 'Kourtney Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Kim_Kardashian'
 twitter: 'https://twitter.com/KimKardashian'
 instagram: 'https://www.instagram.com/kimkardashian'

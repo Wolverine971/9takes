@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['techie']
 person: 'Peter-Thiel'
+suggestions: ['Elon Musk', 'Paul Graham', 'Sam Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter:
 instagram:

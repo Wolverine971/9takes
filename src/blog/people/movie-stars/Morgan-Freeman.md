@@ -11,6 +11,7 @@ published: true
 enneagram: 1
 type: ['movieStar']
 person: 'Morgan-Freeman'
+suggestions: ['Denzel Washington']
 wikipedia: ''
 twitter: ''
 instagram: ''

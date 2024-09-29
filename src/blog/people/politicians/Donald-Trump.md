@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Donald-Trump'
+suggestions: ['Joe Biden', 'Hillary Clinton', 'Barack Obama']
 wikipedia: ''
 twitter: ''
 instagram: ''

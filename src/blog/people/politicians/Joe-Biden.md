@@ -11,6 +11,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Joe-Biden'
+suggestions: ['Donald Trump', 'Barack Obama', 'Kamala Harris']
 wikipedia: ''
 twitter: ''
 instagram:

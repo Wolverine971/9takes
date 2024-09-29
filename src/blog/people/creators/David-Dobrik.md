@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['creator']
 person: 'David-Dobrik'
+suggestions: ['Mr Beast', 'Logan Paul', 'Jake Paul']
 wikipedia: ''
 twitter: ''
 instagram: ''

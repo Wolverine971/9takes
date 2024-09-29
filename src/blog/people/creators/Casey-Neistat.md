@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['creator']
 person: 'Casey-Neistat'
+suggestions: ['Mr Beast', 'Logan Paul', 'David Dobrik']
 wikipedia: ''
 twitter: ''
 instagram: ''

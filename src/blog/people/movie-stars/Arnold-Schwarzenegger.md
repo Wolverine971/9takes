@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['movieStar']
 person: 'Arnold-Schwarzenegger'
+suggestions: ['Dwayne Johnson', 'Donald Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Arnold_Schwarzenegger'
 twitter: 'https://twitter.com/Schwarzenegger'
 instagram: 'https://www.instagram.com/schwarzenegger'

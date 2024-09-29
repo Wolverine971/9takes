@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['movieStar']
 person: 'Tom-Cruise'
+suggestions: ['Dwayne Johnson', 'Leonardo DiCaprio', 'Keanu Reeves']
 wikipedia: ''
 twitter: ''
 instagram: ''

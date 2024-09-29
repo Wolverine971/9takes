@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Lana-Del-Rey'
+suggestions: ['Taylor Swift', 'Billie Eilish']
 wikipedia: ''
 twitter: ''
 instagram: ''

@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Miley-Cyrus'
+suggestions: ['Demi Lovato', 'Ariana Grande']
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
 twitter: 'https://twitter.com/MileyCyrus'
 instagram: 'https://www.instagram.com/mileycyrus/'

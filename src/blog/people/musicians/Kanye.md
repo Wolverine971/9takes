@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['musician']
 person: 'Kanye'
+suggestions: ['Taylor Swift', 'Beyonce', 'Grimes']
 wikipedia: ''
 twitter: ''
 instagram:

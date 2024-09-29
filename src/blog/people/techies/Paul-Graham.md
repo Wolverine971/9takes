@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['techie']
 person: 'Paul-Graham'
+suggestions: ['Peter Thiel', 'Sam Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Graham_(programmer)'
 twitter:
 instagram:

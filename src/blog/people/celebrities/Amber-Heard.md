@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Amber-Heard'
+suggestions: ['Johnny Depp']
 wikipedia: ''
 twitter: ''
 instagram: ''

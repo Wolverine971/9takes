@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['movieStar']
 person: 'Keanu-Reeves'
+suggestions: ['Tom Cruise', 'Leonardo DiCaprio']
 wikipedia: ''
 twitter: ''
 instagram: ''

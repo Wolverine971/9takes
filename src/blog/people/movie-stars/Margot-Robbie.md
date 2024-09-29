@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['movieStar']
 person: 'Margot-Robbie'
+suggestions: ['Emily Ratajkowski', 'Sydney Sweeney']
 wikipedia: ''
 twitter: ''
 instagram: ''

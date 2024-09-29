@@ -11,6 +11,7 @@ published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Meryl-Streep'
+suggestions: ['Oprah Winfrey', 'Leonardo DiCaprio']
 wikipedia: ''
 twitter: ''
 instagram: ''

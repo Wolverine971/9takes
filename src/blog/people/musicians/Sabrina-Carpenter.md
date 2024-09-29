@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Sabrina-Carpenter'
+suggestions: ['Billie Eilish']
 wikipedia: ''
 twitter: ''
 instagram: ''

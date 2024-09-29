@@ -11,6 +11,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Jimmy-Carter'
+suggestions: ['Ronald Reagan', 'Joe Biden']
 wikipedia: ''
 twitter: ''
 instagram:

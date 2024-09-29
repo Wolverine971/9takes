@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['musician']
 person: 'Chappell-Roan'
+suggestions: ['Billie Eilish', 'Halsey']
 wikipedia: ''
 twitter: ''
 instagram: ''

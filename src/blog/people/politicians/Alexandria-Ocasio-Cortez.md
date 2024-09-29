@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['politician']
 person: 'Alexandria-Ocasio-Cortez'
+suggestions: ['Bernie Sanders', 'Kamala Harris']
 wikipedia: ''
 twitter: ''
 instagram: ''

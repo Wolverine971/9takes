@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['politician']
 person: 'Kamala-Harris'
+suggestions: ['Joe Biden', 'Alexandria Ocasio-Cortez']
 wikipedia: ''
 twitter: ''
 instagram: ''

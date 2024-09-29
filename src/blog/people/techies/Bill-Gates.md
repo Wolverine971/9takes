@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'Bill-Gates'
+suggestions: ['Steve Jobs', 'Elon Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Bill_Gates'
 twitter: 'https://twitter.com/BillGates'
 instagram: 'https://www.instagram.com/thisisbillgates'

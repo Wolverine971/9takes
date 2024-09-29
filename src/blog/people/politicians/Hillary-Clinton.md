@@ -11,6 +11,7 @@ published: true
 enneagram: 1
 type: ['politician']
 person: 'Hillary-Clinton'
+suggestions: ['Donald Trump', 'Barack Obama', 'Joe Biden']
 wikipedia: ''
 twitter: ''
 instagram: ''

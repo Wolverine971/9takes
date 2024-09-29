@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['historical']
 person: 'Robert-Oppenheimer'
+suggestions: ['Nikola Tesla', 'Friedrich Nietzsche']
 wikipedia: ''
 twitter: ''
 instagram: ''

@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Elton-John'
+suggestions: ['Lady Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Elton_John'
 twitter: 'https://twitter.com/eltonofficial'
 instagram: 'https://www.instagram.com/eltonjohn'

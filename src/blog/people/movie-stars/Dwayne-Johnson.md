@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['movieStar']
 person: 'Dwayne-Johnson'
+suggestions: ['Arnold Schwarzenegger', 'Tom Cruise']
 wikipedia: ''
 twitter: ''
 instagram: ''

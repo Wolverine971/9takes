@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['politician']
 person: 'John-F-Kennedy'
+suggestions: ['Jackie Kennedy', 'Ronald Reagan']
 wikipedia: ''
 twitter: ''
 instagram:

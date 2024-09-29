@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['creator']
 person: 'Dave-Portnoy'
+suggestions: ['Joe Rogan', 'Alex Cooper']
 wikipedia: ''
 twitter: ''
 instagram: ''

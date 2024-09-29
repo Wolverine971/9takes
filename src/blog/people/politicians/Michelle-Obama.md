@@ -11,6 +11,7 @@ published: true
 enneagram: 1
 type: ['politician']
 person: 'Michelle-Obama'
+suggestions: ['Barack Obama', 'Hillary Clinton', 'Oprah Winfrey']
 wikipedia: ''
 twitter: ''
 instagram:

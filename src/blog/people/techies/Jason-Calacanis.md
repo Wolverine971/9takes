@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['techie']
 person: 'Jason-Calacanis'
+suggestions: ['Elon Musk', 'Sam Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jason_Calacanis'
 twitter:
 instagram:

@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['politician']
 person: 'Bernie-Sanders'
+suggestions: ['Alexandria Ocasio-Cortez', 'Joe Biden']
 wikipedia: 'https://en.wikipedia.org/wiki/Bernie_Sanders'
 twitter: 'https://twitter.com/BernieSanders'
 instagram: 'https://www.instagram.com/sensanders'

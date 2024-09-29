@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['politician']
 person: 'Martin-Luther-King-Jr'
+suggestions: ['Barack Obama', 'John F. Kennedy']
 wikipedia: ''
 twitter: ''
 instagram:

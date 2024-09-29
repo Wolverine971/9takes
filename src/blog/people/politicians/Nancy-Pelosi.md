@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['politician']
 person: 'Nancy-Pelosi'
+suggestions: ['Joe Biden', 'Kamala Harris']
 wikipedia: ''
 twitter: ''
 instagram:

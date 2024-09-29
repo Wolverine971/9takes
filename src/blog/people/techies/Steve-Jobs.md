@@ -11,6 +11,7 @@ published: true
 enneagram: 1
 type: ['techie']
 person: 'Steve-Jobs'
+suggestions: ['Bill Gates', 'Elon Musk']
 wikipedia: ''
 twitter: ''
 instagram: ''

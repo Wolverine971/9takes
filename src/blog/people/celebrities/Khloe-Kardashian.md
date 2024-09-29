@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['celebrity']
 person: 'Khloe-Kardashian'
+suggestions: ['Kim Kardashian', 'Kylie Jenner', 'Kourtney Kardashian']
 wikipedia: ''
 twitter: ''
 instagram: ''

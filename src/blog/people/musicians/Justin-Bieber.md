@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Justin-Bieber'
+suggestions: ['Charlie Puth', 'Ariana Grande']
 wikipedia: ''
 twitter: ''
 instagram: ''

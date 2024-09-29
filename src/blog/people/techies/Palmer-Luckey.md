@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['techie']
 person: 'Palmer-Luckey'
+suggestions: ['Mark Zuckerberg', 'Elon Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Palmer_Luckey'
 twitter:
 instagram:

@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['celebrity']
 person: 'Pete-Davidson'
+suggestions: ['Ariana Grande', 'Kim Kardashian']
 wikipedia: ''
 twitter: ''
 instagram: ''

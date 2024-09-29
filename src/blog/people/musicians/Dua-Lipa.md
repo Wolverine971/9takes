@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Dua-Lipa'
+suggestions: ['Ariana Grande', 'Taylor Swift']
 wikipedia: ''
 twitter: ''
 instagram: ''

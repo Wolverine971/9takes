@@ -11,6 +11,7 @@ published: true
 enneagram: 7
 type: ['celebrity']
 person: 'Jon-Stewart'
+suggestions: ['Jimmy Fallon', 'Joe Rogan']
 wikipedia: ''
 twitter: ''
 instagram:

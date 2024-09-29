@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['movieStar']
 person: 'Johnny-Depp'
+suggestions: ['Amber Heard', 'Leonardo DiCaprio']
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'
 twitter:
 instagram: 'https://www.instagram.com/johnnydepp/'

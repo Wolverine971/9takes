@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['celebrity']
 person: 'Emily-Ratajkowski'
+suggestions: ['Kim Kardashian', 'Margot Robbie', 'Sydney Sweeney']
 wikipedia: 'https://en.wikipedia.org/wiki/Emily_Ratajkowski'
 twitter: 'https://twitter.com/emrata'
 instagram: 'https://www.instagram.com/emrata'

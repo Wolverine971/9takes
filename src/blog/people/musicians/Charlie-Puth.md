@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Charlie-Puth'
+suggestions: ['Justin Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Charlie_Puth'
 twitter: 'https://twitter.com/charlieputh'
 instagram: 'https://www.instagram.com/charlieputh/'

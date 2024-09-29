@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['politician']
 person: 'Jackie-Kennedy'
+suggestions: ['John F. Kennedy', 'Marilyn Monroe']
 wikipedia: 'https://en.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis'
 twitter:
 instagram:

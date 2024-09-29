@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['creator']
 person: 'Mr-Beast'
+suggestions: ['Logan Paul', 'David Dobrik', 'Casey Neistat']
 wikipedia: 'https://en.wikipedia.org/wiki/MrBeast'
 twitter: 'https://twitter.com/MrBeast'
 instagram: 'https://www.instagram.com/mrbeast/'

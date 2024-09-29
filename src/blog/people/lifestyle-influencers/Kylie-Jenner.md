@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['lifestyleInfluencer']
 person: 'Kylie-Jenner'
+suggestions: ['Kim Kardashian', 'Kendall Jenner', 'Khloe Kardashian', 'Kourtney Kardashian']
 wikipedia: 'https://en.wikipedia.org/wiki/Kylie_Jenner'
 twitter: 'https://twitter.com/KylieJenner'
 instagram: 'https://www.instagram.com/kyliejenner'

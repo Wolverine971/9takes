@@ -11,6 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Bob-Dylan'
+suggestions: ['Frida Kahlo']
 wikipedia: ''
 twitter: ''
 instagram: ''

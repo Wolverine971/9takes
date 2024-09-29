@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['musician']
 person: 'Halsey'
+suggestions: ['Billie Eilish', 'Chappell Roan']
 wikipedia: ''
 twitter: ''
 instagram: ''

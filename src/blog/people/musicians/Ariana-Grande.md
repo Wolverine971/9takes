@@ -11,6 +11,7 @@ published: true
 enneagram: 3
 type: ['musician']
 person: 'Ariana-Grande'
+suggestions: ['Taylor Swift', 'Billie Eilish', 'Pete Davidson']
 wikipedia: 'https://en.wikipedia.org/wiki/Ariana_Grande'
 twitter: ''
 instagram: 'https://www.instagram.com/arianagrande/'

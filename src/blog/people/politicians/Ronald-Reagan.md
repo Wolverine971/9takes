@@ -11,6 +11,7 @@ published: true
 enneagram: 9
 type: ['politician']
 person: 'Ronald-Reagan'
+suggestions: ['George H. W. Bush', 'Jimmy Carter', 'Nancy Reagan']
 wikipedia: ''
 twitter: ''
 instagram:

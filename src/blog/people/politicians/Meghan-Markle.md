@@ -11,6 +11,7 @@ published: true
 enneagram: 2
 type: ['politician']
 person: 'Meghan-Markle'
+suggestions: ['Prince Harry', 'Queen Elizabeth II']
 wikipedia: ''
 twitter: ''
 instagram:

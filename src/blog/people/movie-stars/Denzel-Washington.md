@@ -11,6 +11,7 @@ published: true
 enneagram: 8
 type: ['movieStar']
 person: 'Denzel-Washington'
+suggestions: ['Morgan Freeman', 'Leonardo DiCaprio']
 wikipedia: ''
 twitter: ''
 instagram: ''
