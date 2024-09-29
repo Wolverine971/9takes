@@ -6,6 +6,8 @@
 	import BlogComments from '$lib/components/blog/BlogComments.svelte';
 	import PeopleSuggestions from '$lib/components/blog/SuggestionsPeople.svelte';
 
+	import FloatingSidebar from '$lib/components/blog/FloatingSidebar.svelte';
+
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
@@ -22,7 +24,10 @@
 		comments = [...detail, ...comments];
 		userHasAnswered = true;
 	};
+	let innerWidth: number = 0;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
 	<div style="align-items: inherit;">
@@ -32,7 +37,11 @@
 		<ArticleSubTitle metaData={data.metadata} />
 	</div>
 	<svelte:component this={component} />
+	{#if innerWidth > 1500 && data.metadata.suggestions}
+		<FloatingSidebar links={data.metadata.suggestions} />
+	{/if}
 </article>
+
 <h3 title="additional comments">What would you add?</h3>
 <div>
 	<BlogComments

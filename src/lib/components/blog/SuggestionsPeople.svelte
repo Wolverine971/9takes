@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Pluralize from 'pluralize';
 	export let suggestions: {
-		niche: { posts: App.BlogPost[] },
-		sameEnneagram: { posts: App.BlogPost[], type: string }
+		niche: { posts: App.BlogPost[] };
+		sameEnneagram: { posts: App.BlogPost[]; type: string };
 	};
 	let innerWidth: number;
 	$: capitalizedPluralNiche = formatNiche(suggestions.niche.type);
@@ -19,13 +19,12 @@
 	}
 
 	function slicePosts(posts: App.BlogPost[]) {
-		console.log(innerWidth);
 		let nunbos = posts.slice(0, innerWidth > 920 ? 6 : innerWidth > 576 ? 6 : 4);
-		console.log(nunbos);
+
 		return nunbos;
-	
 	}
 </script>
+
 <svelte:window bind:innerWidth />
 
 {#if suggestions.niche.posts.length || suggestions.sameEnneagram.posts.length}
@@ -62,7 +61,9 @@
 			{/if}
 			{#if suggestions.sameEnneagram.posts.length}
 				<div class="suggestion-section" aria-labelledby="enneagram-suggestions">
-					<h3 id="enneagram-suggestions" class="section-title">Other Enneagram {suggestions.sameEnneagram.type}s</h3>
+					<h3 id="enneagram-suggestions" class="section-title">
+						Other Enneagram {suggestions.sameEnneagram.type}s
+					</h3>
 					<ul class="people-grid" role="list">
 						{#each slicePosts(suggestions.sameEnneagram.posts) as post}
 							<li class="grid-item">
@@ -114,7 +115,7 @@
 	.suggestions-grid {
 		display: grid;
 		gap: 3rem;
-		
+
 		@media (min-width: 768px) {
 			grid-template-columns: repeat(2, 1fr);
 		}
@@ -145,7 +146,9 @@
 		overflow: hidden;
 		border-radius: var(--base-border-radius);
 		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);

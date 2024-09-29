@@ -64,6 +64,7 @@ declare global {
 			published: boolean;
 			enneagram?: number;
 			type?: string[];
+			suggestions?: string[];
 			person?: string;
 			wikipedia?: string;
 			twitter?: string;

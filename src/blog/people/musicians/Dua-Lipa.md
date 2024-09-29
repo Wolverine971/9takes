@@ -1,6 +1,6 @@
 ---
-title: 'Dua Lipa– An Enneagram Type 3'
-description: 'Why Dua Lipa appears to be a type 3'
+title: 'Dua Lipa: Future Nostalgia of a Type 3 Psyche'
+description: "Levitating through Dua's Type 3 inner world. Explore how her drive for excellence shapes her music, style, and evolution as a pop powerhouse."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Dua-Lipa'

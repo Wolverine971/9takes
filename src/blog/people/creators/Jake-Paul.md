@@ -1,6 +1,6 @@
 ---
-title: 'Jake Paul Enneagram Type 3'
-description: 'Why Jake Paul appears to be a type 3'
+title: "Jake Paul: Problem Child's Type 3 Mental Arena"
+description: "From Team 10 to boxing rings: Decode Jake's Type 3 mindset. How does his need for success fuel controversy, clout, and calculated chaos?"
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/personality-analysis/Jake-Paul'

@@ -11,6 +11,7 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'Elon-Musk'
+suggestions: ['Bill Gates', 'Steve Jobs', 'Jack Dorsey', 'Sam Altman']
 wikipedia: 'https://en.wikipedia.org/wiki/Elon_Musk'
 twitter: 'https://twitter.com/elonmusk'
 instagram: 'https://www.instagram.com/elonmusk'
