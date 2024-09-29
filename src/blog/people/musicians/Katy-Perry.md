@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 7
-type: ['celebrity']
+type: ['musician']
 person: 'Katy-Perry'
 wikipedia: ''
 twitter: ''

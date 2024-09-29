@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 6
-type: ['celebrity']
+type: ['historical']
 person: 'Mark-Twain'
 wikipedia: ''
 twitter: ''

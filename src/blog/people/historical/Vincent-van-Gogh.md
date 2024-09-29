@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 4
-type: ['celebrity']
+type: ['historical']
 person: 'Vincent-van-Gogh'
 wikipedia: ''
 twitter: ''

@@ -92,6 +92,3 @@ Robert F. Kennedy Jr.'s journey from environmental lawyer to controversial publi
 Understanding RFK Jr. through the lens of the Enneagram Type 1 offers insight into his motivations and actions. It reveals a person driven by a deep-seated need to improve the world according to his moral standards, even in the face of widespread opposition and criticism.
 
 As RFK Jr. continues his advocacy work, his Type 1 traits will likely continue to shape his approach and message. His journey serves as a compelling example of how the Reformer navigates complex social and political landscapes, always seeking to uphold their principles and effect change while grappling with the challenges of maintaining such unwavering convictions in a nuanced world.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/16514151/e4ae7bb7-8682-4484-b396-7169f18a90b3/paste.txt

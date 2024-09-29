@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 5
-type: ['celebrity']
+type: ['musician']
 person: 'John-Lennon'
 wikipedia: ''
 twitter: ''

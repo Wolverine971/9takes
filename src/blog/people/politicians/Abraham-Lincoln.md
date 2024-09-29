@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['celebrity']
+type: ['politician']
 person: 'Abraham-Lincoln'
 wikipedia: ''
 twitter: ''

@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 9
-type: ['celebrity']
+type: ['musician']
 person: 'Travis-Scott'
 wikipedia: ''
 twitter: ''

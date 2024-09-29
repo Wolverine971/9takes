@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 2
-type: ['celebrity']
+type: ['musician']
 person: 'Olivia-Rodrigo'
 wikipedia: ''
 twitter: ''

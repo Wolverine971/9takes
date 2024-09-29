@@ -1,6 +1,6 @@
 ---
-title: 'Tana Mongeau Enneagram Type 8'
-description: 'Why Tana Mongeau appears to be a type 8'
+title: 'Tana Mongeau Enneagram Type 7'
+description: 'Why Tana Mongeau appears to be a Type 7'
 author: 'DJ Wayne'
 date: '2023-03-16'
 loc: 'https://9takes.com/personality-analysis/Tana-Mongeau'
@@ -8,7 +8,7 @@ lastmod: '2023-06-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: 8
+enneagram: 7
 type: ['creator']
 person: 'Tana-Mongeau'
 wikipedia: ''
@@ -49,7 +49,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<PopCard
-		image={`/types/3s/${'Tana-Mongeau'}.webp`}
+		image={`/types/7s/${'Tana-Mongeau'}.webp`}
 		showIcon={false}
 		enneagramType=""
 		displayText="Tana Mongeau"

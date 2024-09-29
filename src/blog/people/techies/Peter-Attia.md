@@ -9,7 +9,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 1
-type: ['celebrity']
+type: ['techie']
 person: 'Peter-Attia'
 wikipedia: ''
 twitter: ''
