@@ -10,6 +10,8 @@
 
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
+
+	import { onMount } from 'svelte';
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
@@ -25,6 +27,10 @@
 		userHasAnswered = true;
 	};
 	let innerWidth: number = 0;
+
+	onMount(() => {
+		innerWidth = window.innerWidth;
+	});
 </script>
 
 <svelte:window bind:innerWidth />
