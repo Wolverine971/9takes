@@ -1,10 +1,10 @@
 ---
-title: 'Jack Dorsey Enneagram Type 5'
-description: 'Why Jack Dorsey appears to be a type 5'
+title: 'Jack Dorsey: #Hashtagging the Type 5 Mindscape'
+description: "From 140 characters to Bitcoin revolution. Decode Dorsey's Type 5 mental architecture and its influence on tech minimalism and digital disruption."
 author: 'DJ Wayne'
 date: '2023-08-11'
 loc: 'https://9takes.com/personality-analysis/Jack-Dorsey'
-lastmod: '2023-08-11'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -185,7 +185,7 @@ And now, a question for you: What drives the personalities behind your favorite 
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-11"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",

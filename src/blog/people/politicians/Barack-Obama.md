@@ -1,10 +1,10 @@
 ---
-title: 'Barack Obama Enneagram Type 9'
-description: 'Why Barack Obama appears to be a type 9'
+title: 'Barack Obama: The Audacity of Type 9 Harmony'
+description: "From Dreams of My Father to presidential pragmatism. Unpack Obama's Type 9 psyche and how it shaped his leadership, rhetoric, and legacy of hope."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Barack-Obama'
-lastmod: '2023-08-07'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -181,7 +181,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
     },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-08-07"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",

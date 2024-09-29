@@ -1,10 +1,10 @@
 ---
-title: 'Sam Altman Enneagram 4'
-description: 'Why Sam Altman appears to be a type 4'
+title: "Sam Altman: OpenAI's Type 4 Visionary Psyche"
+description: "Explore Altman's Type 4 inner world. How does his unique perspective fuel AI ethics and startup ecosystems?"
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/personality-analysis/Sam-Altman'
-lastmod: '2023-12-08'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -134,7 +134,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-12-08"
+        "@value": "2024-09-29"
       },
       "datePublished": {
         "@type": "Date",
