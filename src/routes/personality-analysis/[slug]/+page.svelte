@@ -6,7 +6,7 @@
 	import BlogComments from '$lib/components/blog/BlogComments.svelte';
 	import PeopleSuggestions from '$lib/components/blog/SuggestionsPeople.svelte';
 
-	import FloatingSidebar from '$lib/components/blog/FloatingSidebar.svelte';
+	import FloatingSidebar from '$lib/components/blog/FloatingSideBar.svelte';
 
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
