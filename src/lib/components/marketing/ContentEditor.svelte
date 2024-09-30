@@ -19,19 +19,19 @@
 	let contentTextWithoutSeparators: string = removeSeparators(contentTextWithSeparators);
 
 	const dispatch = createEventDispatcher();
-	const SEPARATOR = "-------sep sep sep-------";
+	const SEPARATOR = '-------sep sep sep-------';
 	const MAX_CHARS = 280;
 
 	function splitIntoThreads(text: string): string[] {
 		if (text.includes(SEPARATOR)) {
-			return text.split(SEPARATOR).filter(block => block.trim() !== '');
+			return text.split(SEPARATOR).filter((block) => block.trim() !== '');
 		}
 		const blocks: string[] = [];
 		const lines = text.split('\n');
 		let currentBlock = '';
-		
+
 		for (const line of lines) {
-			if ((currentBlock.length + line.length + 1) <= MAX_CHARS) {
+			if (currentBlock.length + line.length + 1 <= MAX_CHARS) {
 				currentBlock += (currentBlock ? '\n' : '') + line;
 			} else {
 				if (currentBlock) blocks.push(currentBlock);
@@ -43,7 +43,7 @@
 	}
 
 	function removeSeparators(text: string): string {
-		return text.split(SEPARATOR).join('\n\n')
+		return text.split(SEPARATOR).join('\n\n');
 	}
 
 	function updateEditingContent(field: keyof ContentItem, value: string) {
@@ -148,16 +148,12 @@
 	$: scheduledDateValue = formatDateForInput(editingContent.scheduled_date);
 </script>
 
-<form
-	on:submit={handleSubmit}
-	method="POST"
-	class="w-full max-w-4xl mx-auto p-4 space-y-6"
->
+<form on:submit={handleSubmit} method="POST" class="mx-auto w-full max-w-4xl space-y-6 p-4">
 	{#if contentItem}
 		<input type="hidden" name="id" value={contentItem.id} />
 	{/if}
 
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 		<div class="space-y-4">
 			{#if !contentItem}
 				<Label class="space-y-2">
@@ -233,7 +229,8 @@
 					type="text"
 					name="content_promotion_accounts"
 					value={editingContent.content_promotion_accounts || ''}
-					on:input={(e) => updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
+					on:input={(e) =>
+						updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
 					class="w-full"
 				/>
 			</Label>
@@ -260,10 +257,12 @@
 		</div>
 	</div>
 
-	<div class="space-y-2 max-w-[700px] mx-auto">
-		<div class="flex justify-between items-center">
+	<div class="mx-auto max-w-[700px] space-y-2">
+		<div class="flex items-center justify-between">
 			<span class="text-sm font-medium text-gray-700">Content Text</span>
-			<Toggle bind:checked={isThreadView} on:change={toggleThreadView} class="mr-2">Thread View</Toggle>
+			<Toggle bind:checked={isThreadView} on:change={toggleThreadView} class="mr-2"
+				>Thread View</Toggle
+			>
 		</div>
 		{#if isThreadView}
 			{#each threadBlocks as block, index}
@@ -274,9 +273,18 @@
 						rows="6"
 						class=" w-full resize-y {block.length > MAX_CHARS ? 'border-red-500' : ''}"
 					/>
-					<div class="absolute bottom-2 left-2 text-sm  {block.length > MAX_CHARS ? 'text-red-500' : 'text-gray-500'}">
+					<div
+						class="absolute bottom-2 left-2 text-sm {block.length > MAX_CHARS
+							? 'text-red-500'
+							: 'text-gray-500'}"
+					>
 						{block.length}/{MAX_CHARS}
-						<button type="button" color="red" class="mx-1 hover:text-red-500" on:click={() => confirmDeleteBlock(index)}>Delete</button>
+						<button
+							type="button"
+							color="red"
+							class="mx-1 hover:text-red-500"
+							on:click={() => confirmDeleteBlock(index)}>Delete</button
+						>
 					</div>
 				</div>
 			{/each}
@@ -305,10 +313,8 @@
 			Are you sure you want to delete this tweet?
 		</h3>
 		<div class="flex justify-center gap-4">
-			<Button color="red" on:click={() => deleteThreadBlock(blockToDelete)}>
-				Yes, I'm sure
-			</Button>
-			<Button color="alternative" on:click={() => showDeleteConfirmation = false}>
+			<Button color="red" on:click={() => deleteThreadBlock(blockToDelete)}>Yes, I'm sure</Button>
+			<Button color="alternative" on:click={() => (showDeleteConfirmation = false)}>
 				No, cancel
 			</Button>
 		</div>

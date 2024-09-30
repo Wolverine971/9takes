@@ -61,12 +61,12 @@
 			}
 		};
 	}}
-	class="max-w-4xl mx-auto p-4 space-y-6"
+	class="mx-auto max-w-4xl space-y-6 p-4"
 >
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 		<div class="space-y-4">
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Select Template</span>
+				<span class="mb-1 text-sm font-medium text-gray-700">Select Template</span>
 				<Select on:change={handleTemplateSelection} class="w-full">
 					<option value="">No Template</option>
 					{#each templates as template}
@@ -76,12 +76,18 @@
 			</Label>
 
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Scheduled Date</span>
-				<Input type="datetime-local" name="scheduled_date" bind:value={scheduled_date} required class="w-full" />
+				<span class="mb-1 text-sm font-medium text-gray-700">Scheduled Date</span>
+				<Input
+					type="datetime-local"
+					name="scheduled_date"
+					bind:value={scheduled_date}
+					required
+					class="w-full"
+				/>
 			</Label>
 
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Platform</span>
+				<span class="mb-1 text-sm font-medium text-gray-700">Platform</span>
 				<Select name="platform" bind:value={platform} required class="w-full">
 					<option value="twitter">Twitter</option>
 					<option value="instagram">Instagram</option>
@@ -90,7 +96,7 @@
 			</Label>
 
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Campaign</span>
+				<span class="mb-1 text-sm font-medium text-gray-700">Campaign</span>
 				<Select name="campaign_id" bind:value={campaign_id} class="w-full">
 					<option value="">No Campaign</option>
 					{#each campaigns as campaign}
@@ -102,25 +108,36 @@
 
 		<div class="space-y-4">
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Content Promotion Accounts</span>
-				<Input type="text" name="content_promotion_accounts" bind:value={content_promotion_accounts} class="w-full" />
+				<span class="mb-1 text-sm font-medium text-gray-700">Content Promotion Accounts</span>
+				<Input
+					type="text"
+					name="content_promotion_accounts"
+					bind:value={content_promotion_accounts}
+					class="w-full"
+				/>
 			</Label>
 
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Content Hashtags</span>
+				<span class="mb-1 text-sm font-medium text-gray-700">Content Hashtags</span>
 				<Input type="text" name="content_hashtags" bind:value={content_hashtags} class="w-full" />
 			</Label>
 
 			<Label class="block">
-				<span class="text-sm font-medium text-gray-700 mb-1">Content Themes</span>
+				<span class="mb-1 text-sm font-medium text-gray-700">Content Themes</span>
 				<Input type="text" name="content_themes" bind:value={content_themes} class="w-full" />
 			</Label>
 		</div>
 	</div>
 
 	<Label class="block">
-		<span class="text-sm font-medium text-gray-700 mb-1">Content Text</span>
-		<Textarea name="content_text" bind:value={content_text} required rows="8" class="w-full resize-y" />
+		<span class="mb-1 text-sm font-medium text-gray-700">Content Text</span>
+		<Textarea
+			name="content_text"
+			bind:value={content_text}
+			required
+			rows="8"
+			class="w-full resize-y"
+		/>
 	</Label>
 
 	<div class="flex justify-end space-x-4">

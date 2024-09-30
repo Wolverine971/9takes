@@ -42,7 +42,7 @@
 			if (result.type === 'success') {
 				closeEditModal();
 				// Update the template in the list
-				const index = templates.findIndex(t => t.id === result.data.template.id);
+				const index = templates.findIndex((t) => t.id === result.data.template.id);
 				if (index !== -1) {
 					templates[index] = result.data.template;
 					templates = [...templates];
@@ -52,7 +52,7 @@
 	}
 
 	function handleDeleteTemplate(deletedTemplateId: string) {
-		templates = templates.filter(template => template.id !== deletedTemplateId);
+		templates = templates.filter((template) => template.id !== deletedTemplateId);
 	}
 </script>
 
@@ -71,7 +71,16 @@
 				<p class="mb-4"><strong>Purpose:</strong> {template.purpose_description}</p>
 				<div class="flex space-x-2">
 					<Button on:click={() => openEditModal(template)} class="flex-1">Edit</Button>
-					<form action="?/deleteTemplate" method="POST" use:enhance={() => { return ({ result }) => { if (result.type === 'success') handleDeleteTemplate(template.id); } }} class="flex-1">
+					<form
+						action="?/deleteTemplate"
+						method="POST"
+						use:enhance={() => {
+							return ({ result }) => {
+								if (result.type === 'success') handleDeleteTemplate(template.id);
+							};
+						}}
+						class="flex-1"
+					>
 						<input type="hidden" name="id" value={template.id} />
 						<Button type="submit" color="red" class="w-full">Delete</Button>
 					</form>
@@ -83,7 +92,12 @@
 
 <Modal bind:open={showCreateModal} size="lg" autoclose={false} class="w-full">
 	<h3 class="mb-4 text-xl font-bold">Create New Template</h3>
-	<form action="?/createTemplate" method="POST" use:enhance={handleCreateTemplate} class="space-y-4">
+	<form
+		action="?/createTemplate"
+		method="POST"
+		use:enhance={handleCreateTemplate}
+		class="space-y-4"
+	>
 		<Label class="space-y-2">
 			<span>Content Text</span>
 			<Textarea name="content_text" required rows="4" class="w-full" />
@@ -106,11 +120,22 @@
 <Modal bind:open={showEditModal} size="lg" autoclose={false} class="w-full">
 	<h3 class="mb-4 text-xl font-bold">Edit Template</h3>
 	{#if editingTemplate}
-		<form action="?/updateTemplate" method="POST" use:enhance={handleUpdateTemplate} class="space-y-4">
+		<form
+			action="?/updateTemplate"
+			method="POST"
+			use:enhance={handleUpdateTemplate}
+			class="space-y-4"
+		>
 			<input type="hidden" name="id" value={editingTemplate.id} />
 			<Label class="space-y-2">
 				<span>Content Text</span>
-				<Textarea name="content_text" bind:value={editingTemplate.content_text} required rows="4" class="w-full" />
+				<Textarea
+					name="content_text"
+					bind:value={editingTemplate.content_text}
+					required
+					rows="4"
+					class="w-full"
+				/>
 			</Label>
 			<Label class="space-y-2">
 				<span>Type</span>
@@ -118,7 +143,13 @@
 			</Label>
 			<Label class="space-y-2">
 				<span>Purpose Description</span>
-				<Textarea name="purpose_description" bind:value={editingTemplate.purpose_description} required rows="3" class="w-full" />
+				<Textarea
+					name="purpose_description"
+					bind:value={editingTemplate.purpose_description}
+					required
+					rows="3"
+					class="w-full"
+				/>
 			</Label>
 			<div class="flex space-x-2">
 				<Button type="submit" class="flex-1">Save Changes</Button>

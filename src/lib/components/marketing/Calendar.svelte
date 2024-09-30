@@ -131,19 +131,39 @@
 </script>
 
 <div class="container mx-auto px-4 py-8">
-	<div class="mb-6 flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0 gap-2">
+	<div
+		class="mb-6 flex flex-col items-center justify-between gap-2 space-y-4 sm:flex-row sm:space-y-0"
+	>
 		<div class="flex items-center space-x-4">
 			<Button on:click={previousMonth} class="px-3 py-2">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-					<path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					viewBox="0 0 20 20"
+					fill="currentColor"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+						clip-rule="evenodd"
+					/>
 				</svg>
 			</Button>
 			<span class="text-xl font-bold">
 				{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
 			</span>
 			<Button on:click={nextMonth} class="px-3 py-2">
-				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-					<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="h-5 w-5"
+					viewBox="0 0 20 20"
+					fill="currentColor"
+				>
+					<path
+						fill-rule="evenodd"
+						d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+						clip-rule="evenodd"
+					/>
 				</svg>
 			</Button>
 		</div>
@@ -177,7 +197,8 @@
 						{#each dayContent.slice(0, 2) as item (item.id)}
 							<div
 								class="item-color cursor-pointer truncate rounded p-1 text-xs hover:opacity-80"
-								style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color || '#e2e8f0'}"
+								style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
+									'#e2e8f0'}"
 								on:click|stopPropagation={() => openContentEditor(item)}
 							>
 								{item.content_text}
@@ -232,7 +253,8 @@
 		{#each selectedDayContent as item (item.id)}
 			<div
 				class="item-color cursor-pointer rounded p-2 text-sm hover:opacity-80"
-				style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color || '#e2e8f0'}"
+				style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
+					'#e2e8f0'}"
 				on:click={() => {
 					openContentEditor(item);
 					showAllContentModal = false;

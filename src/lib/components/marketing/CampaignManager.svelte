@@ -176,18 +176,76 @@
 							{#if editingCampaign && editingCampaign.id === campaign.id}
 								<form on:submit={handleCampaignUpdate} class="space-y-4">
 									<input type="hidden" name="id" value={campaign.id} />
-									<Input type="text" name="name" bind:value={editingCampaign.name} required class="w-full" placeholder="Name" />
-									<Textarea name="description" bind:value={editingCampaign.description} class="w-full" placeholder="Description" />
+									<Input
+										type="text"
+										name="name"
+										bind:value={editingCampaign.name}
+										required
+										class="w-full"
+										placeholder="Name"
+									/>
+									<Textarea
+										name="description"
+										bind:value={editingCampaign.description}
+										class="w-full"
+										placeholder="Description"
+									/>
 									<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-										<Input type="date" name="start_date" bind:value={editingCampaign.start_date} required class="w-full" />
-										<Input type="date" name="end_date" bind:value={editingCampaign.end_date} required class="w-full" />
+										<Input
+											type="date"
+											name="start_date"
+											bind:value={editingCampaign.start_date}
+											required
+											class="w-full"
+										/>
+										<Input
+											type="date"
+											name="end_date"
+											bind:value={editingCampaign.end_date}
+											required
+											class="w-full"
+										/>
 									</div>
-									<Input type="color" name="color" bind:value={editingCampaign.color} required class="h-10 w-full" />
-									<Textarea name="target_audience" bind:value={editingCampaign.target_audience} class="w-full" placeholder="Target Audience" />
-									<Textarea name="themes_and_topics" bind:value={editingCampaign.themes_and_topics} class="w-full" placeholder="Themes and Topics" />
-									<Input type="text" name="target_hashtags" bind:value={editingCampaign.target_hashtags} class="w-full" placeholder="Target Hashtags" />
-									<Input type="text" name="campaign_hashtags" bind:value={editingCampaign.campaign_hashtags} class="w-full" placeholder="Campaign Hashtags" />
-									<Input type="text" name="campaign_promotion_accounts" bind:value={editingCampaign.campaign_promotion_accounts} class="w-full" placeholder="Campaign Promotion Accounts" />
+									<Input
+										type="color"
+										name="color"
+										bind:value={editingCampaign.color}
+										required
+										class="h-10 w-full"
+									/>
+									<Textarea
+										name="target_audience"
+										bind:value={editingCampaign.target_audience}
+										class="w-full"
+										placeholder="Target Audience"
+									/>
+									<Textarea
+										name="themes_and_topics"
+										bind:value={editingCampaign.themes_and_topics}
+										class="w-full"
+										placeholder="Themes and Topics"
+									/>
+									<Input
+										type="text"
+										name="target_hashtags"
+										bind:value={editingCampaign.target_hashtags}
+										class="w-full"
+										placeholder="Target Hashtags"
+									/>
+									<Input
+										type="text"
+										name="campaign_hashtags"
+										bind:value={editingCampaign.campaign_hashtags}
+										class="w-full"
+										placeholder="Campaign Hashtags"
+									/>
+									<Input
+										type="text"
+										name="campaign_promotion_accounts"
+										bind:value={editingCampaign.campaign_promotion_accounts}
+										class="w-full"
+										placeholder="Campaign Promotion Accounts"
+									/>
 									<div class="flex space-x-4">
 										<Button type="submit" class="flex-1">Save</Button>
 										<Button on:click={cancelEditing} class="flex-1" color="red">Cancel</Button>
