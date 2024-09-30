@@ -11,7 +11,7 @@ published: true
 enneagram: 2
 type: ['celebrity']
 person: 'Oprah-Winfrey'
-suggestions: ['Ellen DeGeneres', 'Michelle Obama', 'Meryl Streep']
+suggestions: ['Ellen Degeneres', 'Michelle Obama', 'Meryl Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Oprah_Winfrey'
 twitter: 'https://twitter.com/Oprah'
 instagram: 'https://www.instagram.com/oprah/'

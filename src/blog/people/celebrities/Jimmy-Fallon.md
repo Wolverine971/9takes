@@ -11,7 +11,7 @@ published: true
 enneagram: 7
 type: ['celebrity']
 person: 'Jimmy-Fallon'
-suggestions: ['Ellen DeGeneres', 'Jon Stewart', 'Joe Rogan']
+suggestions: ['Ellen Degeneres', 'Jon Stewart', 'Joe Rogan']
 wikipedia: ''
 twitter: ''
 instagram:
