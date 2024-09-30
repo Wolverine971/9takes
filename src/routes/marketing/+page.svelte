@@ -30,7 +30,7 @@
 
 	<Tabs
 		tabStyle="underline"
-		contentClass="py-4 bg-transparent max-w-[700px] "
+		contentClass="py-4 bg-transparent max-w-[700px]"
 		defaultClass="list-none flex"
 	>
 		<TabItem open title="Calendar" on:click={() => setActiveTab('calendar')}>
