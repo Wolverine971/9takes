@@ -4,7 +4,7 @@ description: 'Discover the best Enneagram books, websites, and podcasts for pers
 author: 'DJ Wayne'
 date: '2023-04-01'
 loc: 'https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts'
-lastmod: '2024-06-01'
+lastmod: '2024-09-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -46,7 +46,7 @@ Here we try to lay out our favorites ❤️
 
 <article class="section-content">
 
-## 📚 Essential Enneagram Books 📖
+## 📚 Enneagram Books 📖
 
 If you're looking to dive deeper into the world of the Enneagram, these books offer comprehensive insights and practical advice for personal growth and understanding:
 
@@ -59,7 +59,7 @@ If you're looking to dive deeper into the world of the Enneagram, these books of
 
 <article class="section-content">
 
-## 🌐Informative Websites for Enneagram Enthusiasts 💻
+## 🌐 Websites for Enneagram Enthusiasts 💻
 
 If you prefer online resources, these websites offer valuable information, interactive tools, and engaging content related to the Enneagram:
 
@@ -71,7 +71,7 @@ If you prefer online resources, these websites offer valuable information, inter
 
 <article class="section-content">
 
-## 🎧 Podcasts for Enneagram Insight and Inspiration 🔊
+## 🎧 Podcasts for the Enneagram 🔊
 
 For those who prefer listening to learning, these podcasts offer engaging conversations and valuable insights into the Enneagram:
 
@@ -89,7 +89,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Ian Cron is a bestselling author, psychotherapist, Enneagram teacher, and host of the popular podcast Typology. He
     is known for his book "The Road Back to You: An Enneagram Journey to Self-Discovery" which he co-authored with
     Suzanne Stabile.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/ianmorgancron/">
         <img loading="lazy" src={instagram} alt="Ian Cron Instagram" title="Ian Cron Instagram" width="40" height="40"
             class="icon" />
@@ -106,7 +106,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em"> Beatrice Chestnut</h3>
     Beatrice Chestnut is a licensed psychotherapist, coach, and business consultant based in San Francisco. She is
     author of the books "The Complete Enneagram" and "The 9 Types of Leadership".
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/beatrice.chestnut/">
         <img loading="lazy" src={instagram} alt="Beatrice Chestnut Instagram" title="Beatrice Chestnut Instagram"
             width="40" height="40" class="icon" />
@@ -122,7 +122,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <article class="section-content">
     <h3 style="padding: 0; margin-top: 1em">SaraJane Case</h3>
     Enneagram coach and educator, co-host of the <a class="external-link" target="_blank" rel="noreferrer" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">Enneagram & Coffee podcast</a>. She also wrote the <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Honest-Enneagram-Sarajane-Case/dp/1524854026">Honest Enneagram</a>.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/sarajanecase/">
         <img loading="lazy" src={instagram} alt="SaraJane Case Instagram" title="SaraJane Case Instagram" width="40"
             height="40" class="icon" />
@@ -138,7 +138,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em"> Russ Hudson</h3>
     Russ Hudson is one of the leading scholars and innovative thinkers in the Enneagram world today. He is the
     co-founder of The Enneagram Institute and has co-authored several bestselling Enneagram books with Don Richard Riso.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/hudson_russ/">
         <img loading="lazy" src={instagram} alt="Russ Hudson Instagram" title="Russ Hudson Instagram" width="40"
             height="40" class="icon" />
@@ -155,7 +155,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em"> Suzanne Stabile</h3>
     Suzanne Stabile is a highly respected Enneagram master, author, and teacher. She co-authored "The Road Back to You"
     with Ian Cron and teaches popular Enneagram workshops.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/suzannestabile/">
         <img loading="lazy" src={instagram} alt="Suzanne Stabile Instagram" title="Suzanne Stabile Instagram" width="40"
             height="40" class="icon" />
@@ -171,7 +171,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <article class="section-content">
     <h3 style="padding: 0; margin-top: 1em"> Sean Palmer</h3>
     Sean Palmer is an podcaster, and Enneagram coach. He is the author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a>: Enneagram Wisdom for Teachers, Pastors, and Communicators.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/seanisaacpalmer/">
         <img loading="lazy" src={instagram} alt="Sean Palmer Instagram" title="Sean Palmer Instagram" width="40"
             height="40" class="icon" />
@@ -189,7 +189,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     Christopher L. Heuertz is an author, speaker, Enneagram coach and founding partner of Gravity, a Center for
     Contemplative Activism. He has authored the bestselling books "The Sacred Enneagram" and "The Enneagram of
     Belonging".
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/chrisheuertz/">
         <img loading="lazy" src={instagram} alt="Christopher Heuertz Instagram" title="Christopher Heuertz Instagram"
             width="40" height="40" class="icon" />
@@ -242,7 +242,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em">Melanie Bells</h3>
     Enneagram teacher, coach, and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Modern-Enneagram-Discover-Who-You/dp/1939754070">"The Modern
     Enneagram"</a> Discover Who You Are and Who You Can Be.
-    <p>
+    <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://twitter.com/InspireEnvision">
         <img loading="lazy" src={twitter} alt="Melanie Bell Twitter" title="Melanie Bell Twitter" width="40" height="40"
             class="icon" />
@@ -261,6 +261,18 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     <h3 style="padding: 0; margin-top: 1em">Herb Pearce</h3>
     Enneagram teacher and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Complete-Idiots-Guide-Power-Enneagram/dp/159257694X">"The Complete Idiot's Guide to the Power of the Enneagram."</a> Written with Karen K.
     Brees.
+</article>
+
+<article class="section-content">
+    <h3 style="padding: 0; margin-top: 1em">Susan Piver</h3>
+    A meditation teacher who integrates Buddhist wisdom with Enneagram insights.
+    <a class="external-link" target="_blank" rel="" href="https://openheartproject.com/">
+        Open Heart Project
+    </a>
+    <a class="external-link" target="_blank" rel="" href="https://medium.com/@spiver">
+        Susan's Medium Articles
+    </a>
+
 </article>
 
 <svelte:head>
