@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { deserialize, enhance } from '$app/forms';
+	import { deserialize } from '$app/forms';
 	import { Button, Card, Input, Label, Textarea, AccordionItem, Accordion } from 'flowbite-svelte';
 	import type { Campaign } from '$lib/types/marketing';
 	import { createEventDispatcher } from 'svelte';
@@ -21,27 +21,16 @@
 		originalStartDate = null;
 	}
 
-	function updateEditingCampaign(field: keyof Campaign, value: string) {
-		if (editingCampaign) {
-			editingCampaign = { ...editingCampaign, [field]: value };
-		}
-	}
-
 	async function handleCampaignCreate(event: SubmitEvent) {
 		event.preventDefault();
 		const form = event.target as HTMLFormElement;
 		const formData = new FormData(form);
 
-		const response = await fetch('?/createCampaign', {
-			method: 'POST',
-			body: formData
-		});
-
-		const result = deserialize(await response.text());
+		const result = await submitForm('?/createCampaign', formData);
 
 		if (result.type === 'success') {
-			campaigns = [...campaigns, result?.data?.campaign];
-			createPrimerContent(result?.data.campaign);
+			campaigns = [...campaigns, result.data.campaign];
+			await createPrimerContent(result.data.campaign);
 			form.reset();
 		}
 	}
@@ -51,17 +40,10 @@
 		const form = event.target as HTMLFormElement;
 		const formData = new FormData(form);
 
-		const response = await fetch('?/updateCampaign', {
-			method: 'POST',
-			body: formData
-		});
-
-		const result = deserialize(await response.text());
-
-		console.log(result);
+		const result = await submitForm('?/updateCampaign', formData);
 
 		if (result.type === 'success') {
-			const updatedCampaign = result?.data?.campaign;
+			const updatedCampaign = result.data.campaign;
 			const index = campaigns.findIndex((c) => c.id === updatedCampaign.id);
 			if (index !== -1) {
 				campaigns[index] = updatedCampaign;
@@ -81,29 +63,23 @@
 	}
 
 	async function createPrimerContent(campaign: Campaign) {
-		const form = new FormData();
-		form.append('campaign_id', campaign.id);
-		form.append(
+		const formData = new FormData();
+		formData.append('campaign_id', campaign.id);
+		formData.append(
 			'content_text',
 			`PRIME the audience! What do they need to do? We're launching our ${campaign.name} campaign. Be on the lookout over the next few weeks. #${campaign.name.replace(/\s+/g, '')}`
 		);
-		form.append('scheduled_date', campaign.start_date);
-		form.append('platform', 'twitter'); // You can adjust this or make it selectable);
-		form.append('status', 'scheduled');
-		form.append('content_promotion_accounts', '');
-		form.append('content_hashtags', `#${campaign.name.replace(/\s+/g, '')}`);
-		form.append('content_themes', campaign.themes_and_topics);
+		formData.append('scheduled_date', campaign.start_date);
+		formData.append('platform', 'twitter');
+		formData.append('status', 'scheduled');
+		formData.append('content_promotion_accounts', '');
+		formData.append('content_hashtags', `#${campaign.name.replace(/\s+/g, '')}`);
+		formData.append('content_themes', campaign.themes_and_topics);
 
-		const response = await fetch('?/createContent', {
-			method: 'POST',
-
-			body: form
-		});
-
-		const result = deserialize(await response.text());
+		const result = await submitForm('?/createContent', formData);
 
 		if (result.type === 'success') {
-			dispatch('contentCreated', result?.data?.content);
+			dispatch('contentCreated', result.data.content);
 		}
 	}
 
@@ -112,20 +88,28 @@
 		oldStartDate: string,
 		newStartDate: string
 	) {
-		const form = new FormData();
-		form.append('campaignId', campaignId);
-		form.append('oldStartDate', oldStartDate);
-		form.append('newStartDate', newStartDate);
-		const response = await fetch('?/updateCampaignContent', {
-			method: 'POST',
-			body: form
-		});
+		const formData = new FormData();
+		formData.append('campaignId', campaignId);
+		formData.append('oldStartDate', oldStartDate);
+		formData.append('newStartDate', newStartDate);
 
-		const result = deserialize(await response.text());
+		const result = await submitForm('?/updateCampaignContent', formData);
 
 		if (result.type === 'success') {
-			dispatch('contentUpdated', result?.data?.updatedContent);
+			dispatch('contentUpdated', result.data.updatedContent);
 		}
+	}
+
+	async function submitForm(url: string, formData: FormData) {
+		const response = await fetch(url, {
+			method: 'POST',
+			body: formData
+		});
+		return deserialize(await response.text());
+	}
+
+	function formatDate(dateString: string): string {
+		return new Date(dateString).toLocaleDateString();
 	}
 </script>
 
@@ -184,32 +168,31 @@
 
 		<div class="bg-grey rounded-lg p-6 shadow-md">
 			<h3 class="m-0 mb-2 p-0 text-xl font-bold">Existing Campaigns</h3>
-			{#each campaigns as campaign}
-				{#if editingCampaign && editingCampaign.id === campaign.id}
-					<Accordion class="">
-						<AccordionItem tag="h4" paddingDefault="p-1">
-							<span slot="header" class="text-xl font-semibold">{editingCampaign.name}</span>
-							<Card class="mb-2">
+			<Accordion class="space-y-2">
+				{#each campaigns as campaign (campaign.id)}
+					<AccordionItem tag="h4" paddingDefault="p-1">
+						<span slot="header" class="font-semibold">{campaign.name}</span>
+						<Card class="mb-2">
+							{#if editingCampaign && editingCampaign.id === campaign.id}
 								<form on:submit={handleCampaignUpdate} class="space-y-4">
 									<input type="hidden" name="id" value={campaign.id} />
 									<Input
 										type="text"
-										placeholder="Name"
 										name="name"
 										bind:value={editingCampaign.name}
 										required
 										class="w-full"
+										placeholder="Name"
 									/>
 									<Textarea
 										name="description"
-										placeholder="Description"
 										bind:value={editingCampaign.description}
 										class="w-full"
+										placeholder="Description"
 									/>
 									<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
 										<Input
 											type="date"
-											placeholder="Start Date"
 											name="start_date"
 											bind:value={editingCampaign.start_date}
 											required
@@ -217,7 +200,6 @@
 										/>
 										<Input
 											type="date"
-											placeholder="End Date"
 											name="end_date"
 											bind:value={editingCampaign.end_date}
 											required
@@ -226,7 +208,6 @@
 									</div>
 									<Input
 										type="color"
-										placeholder="Color"
 										name="color"
 										bind:value={editingCampaign.color}
 										required
@@ -234,57 +215,46 @@
 									/>
 									<Textarea
 										name="target_audience"
-										placeholder="Target Audience"
 										bind:value={editingCampaign.target_audience}
 										class="w-full"
+										placeholder="Target Audience"
 									/>
 									<Textarea
 										name="themes_and_topics"
-										placeholder="Themes and Topics"
 										bind:value={editingCampaign.themes_and_topics}
 										class="w-full"
+										placeholder="Themes and Topics"
 									/>
 									<Input
 										type="text"
-										placeholder="Target Hashtags"
 										name="target_hashtags"
 										bind:value={editingCampaign.target_hashtags}
 										class="w-full"
+										placeholder="Target Hashtags"
 									/>
 									<Input
 										type="text"
-										placeholder="Campaign Hashtags"
 										name="campaign_hashtags"
 										bind:value={editingCampaign.campaign_hashtags}
 										class="w-full"
+										placeholder="Campaign Hashtags"
 									/>
 									<Input
 										type="text"
-										placeholder="Campaign Promotion Accounts"
 										name="campaign_promotion_accounts"
 										bind:value={editingCampaign.campaign_promotion_accounts}
 										class="w-full"
+										placeholder="Campaign Promotion Accounts"
 									/>
 									<div class="flex space-x-4">
 										<Button type="submit" class="flex-1">Save</Button>
 										<Button on:click={cancelEditing} class="flex-1" color="red">Cancel</Button>
 									</div>
 								</form>
-							</Card>
-						</AccordionItem>
-					</Accordion>
-				{:else}
-					<Accordion class="">
-						<AccordionItem tag="h4" paddingDefault="p-1">
-							<span slot="header" class="font-semibold">{campaign.name}</span>
-							<Card class="mb-2">
+							{:else}
 								<h5 class="!m-0 !p-0 font-bold">{campaign.name}</h5>
 								<p>{campaign.description}</p>
-								<p>
-									From {new Date(campaign.start_date).toLocaleDateString()} to {new Date(
-										campaign.end_date
-									).toLocaleDateString()}
-								</p>
+								<p>From {formatDate(campaign.start_date)} to {formatDate(campaign.end_date)}</p>
 								<div class="mb-2 flex items-center">
 									<span class="mr-2">Color:</span>
 									<div class="h-6 w-6 rounded" style="background-color: {campaign.color}"></div>
@@ -293,30 +263,23 @@
 								<p><strong>Themes and Topics:</strong> {campaign.themes_and_topics}</p>
 								<p><strong>Target Hashtags:</strong> {campaign.target_hashtags}</p>
 								<p><strong>Campaign Hashtags:</strong> {campaign.campaign_hashtags}</p>
-								<p>
-									<strong>Promotion Accounts:</strong>
-									{campaign.campaign_promotion_accounts}
-								</p>
+								<p><strong>Promotion Accounts:</strong> {campaign.campaign_promotion_accounts}</p>
 								<Button on:click={() => startEditing(campaign)} class="w-full">Edit</Button>
-							</Card>
-						</AccordionItem>
-					</Accordion>
-				{/if}
-			{/each}
+							{/if}
+						</Card>
+					</AccordionItem>
+				{/each}
+			</Accordion>
 		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.group {
+	:global(.group) {
 		padding: 0;
 	}
-	.accordheader {
+	:global(.accordheader) {
 		padding: 0;
 		font-size: 1rem;
 	}
-	/* h2 {
-		margin: 0;
-		padding: 0;
-	} */
 </style>

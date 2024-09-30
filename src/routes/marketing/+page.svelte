@@ -17,7 +17,7 @@
 	export let data;
 </script>
 
-<main class="container mx-auto mt-4 p-4">
+<main class="container mx-auto p-4">
 	<div class="row">
 		<a href="/admin/users">Users</a> |
 		<a href="/admin/questions">Questions</a> |
@@ -30,7 +30,7 @@
 
 	<Tabs
 		tabStyle="underline"
-		contentClass="py-4 bg-transparent max-w-[600px] "
+		contentClass="py-4 bg-transparent max-w-[700px]"
 		defaultClass="list-none flex"
 	>
 		<TabItem open title="Calendar" on:click={() => setActiveTab('calendar')}>
