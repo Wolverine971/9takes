@@ -4,7 +4,7 @@ description: 'Discover the three Enneagram Instinctual Subtypes: self-preservati
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
-lastmod: '2023-08-26'
+lastmod: '2024-09-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -20,104 +20,275 @@ pic: 'neoclassical-fortress2'
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Enneagram subtypes refer to the three different variations of each of the nine Enneagram types.</p>
+<p class="firstLetter">Enneagram subtypes, also known as instinctual variants, add depth to the nine core Enneagram types. These subtypes reflect our basic human needs and drive our behaviors in specific areas of life.</p>
 
-These subtypes are commonly known as instinctual variants and include self-preservation, social, and one-to-one. The Enneagram subtypes are based on our most basic human needs, such as survival, socialization, and intimacy.
+## The Three Subtypes
 
-## Self-Preservation Enneagram Subtypes
+1. Self-Preservation (SP): This subtype focuses on physical safety, comfort, and well-being. People with a dominant self-preservation instinct are often concerned with health, financial security, and creating a stable environment.
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/neoclassical-fortress2.webp`}
-		showIcon={false}
-		displayText=""
-		altText="neoclassical fortress, a symbol of self preservation"
-		subtext=""
-	/>
-</div>
+2. Social (SO): The social subtype is attuned to group dynamics, community, and belonging. Those with a dominant social instinct are often concerned with their role in groups, social status, and contributing to their community.
 
-Self-preservation Enneagram subtypes are characterized by an intense focus on physical survival and well-being. These individuals are typically concerned with their own needs and can sometimes appear selfish or self-absorbed. There are three self-preservation Enneagram subtypes:
+3. One-to-One (SX): Also known as the sexual subtype, this variant focuses on intense personal connections and experiences. People with a dominant one-to-one instinct often seek deep, passionate relationships and are drawn to intense experiences in various areas of life.
 
-1. Self-Preservation Ones: Ones with this subtype prioritize their physical health and well-being, often adhering to strict routines and habits to maintain a sense of order and control.
-2. Self-Preservation Twos: Twos with this subtype strive to ensure their own basic needs are met, often through practical planning and organizing related to food, shelter, and personal safety.
-3. Self-Preservation Threes: Threes with this subtype are driven to secure their own success and achievements. They may focus on career advancement and financial stability to ensure their survival and comfort.
-4. Self-Preservation Fours: Fours with this subtype are focused on maintaining their individuality and personal identity. They might find comfort in specific routines or unique personal possessions that enhance their sense of self.
-5. Self-Preservation Fives: Fives with this subtype are preoccupied with conserving their energy and resources. They value knowledge and may spend considerable time researching or learning to feel secure and prepared.
-6. Self-Preservation Sixes: Sixes with this subtype are concerned about safety and security. They tend to be vigilant, cautious, and may worry about meeting their basic needs.
-7. Self-Preservation Sevens: Sevens with this subtype seek satisfaction of their needs and often have a zest for physical experiences, whether it's related to food, travel, or any exciting activities.
-8. Self-Preservation Eights: Eights with this subtype are focused on protecting themselves and maintaining control over their environment. They tend to be resourceful, resilient, and often self-reliant.
-9. Self-Preservation Nines: Nines with this subtype seek peace and comfort in their physical surroundings. They tend to maintain a calm and stable environment to avoid disruptions.
+Each Enneagram type expresses these subtypes differently, creating nuanced variations within each type. Let's explore how these subtypes manifest in each of the nine Enneagram types.
 
-## Social Enneagram Subtypes
+## Detailed Breakdown of Each Enneagram Type and Subtype
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/enneagram-social-symbol.webp`}
-		showIcon={false}
-		displayText=""
-		altText="people gathered in a basement talking"
-		subtext=""
-	/>
-</div>
+### 1. The Perfectionist
 
-Social Enneagram subtypes are characterized by a strong need for social connection and belonging. These individuals are often involved in their communities and are concerned with social issues. There are three social Enneagram subtypes:
+#### Self-Preservation One
 
-1. Social Ones: Ones with this subtype are often driven by the desire to improve society. They may engage in community service or activism, working for a future they perceive as better and more just.
-2. Social Twos: Twos with this subtype are community-oriented, seeking to forge strong relationships and support others around them. They often use their natural ability to understand and meet others' needs as a way of enhancing community wellbeing.
-3. Social Threes: Threes with this subtype are concerned with their public image and often work hard to gain recognition and approval from their social networks. They may strive to become a person of influence or status within their communities.
-4. Social Fours: Social Fours are concerned about their place within the community or society, often feeling unique or different from others. They may channel their emotions into social causes or creative pursuits.
-5. Social Fives: Social Fives engage with their community by sharing knowledge or expertise. They may feel a sense of obligation to contribute intellectually.
-6. Social Sixes: Social Sixes are committed to their communities and may uphold traditions or systems. They often seek safety and security within their social structures.
-7. Social Sevens: Social Sevens thrive in social gatherings and group activities. They enjoy the stimulation of social engagement and often become the life of the party.
-8. Social Eights: Social Eights often take on leadership roles within their communities. They are protective of their social groups and may fight for justice or fairness.
-9. Social Nines: Social Nines value harmony within their communities. They often go along with group consensus to maintain peace and avoid conflict.
+- Focuses on personal health and cleanliness
+- May have strict dietary habits or exercise routines
+- Example: Marie Kondo, known for her meticulous organization methods
 
-## One-to-One/ Sexual Enneagram Subtypes
+Recognize them: They're the ones with the spotless home and impeccable personal habits.
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/enneagram-one-to-one-symbol.webp`}
-		showIcon={false}
-		displayText=""
-		altText="two people facing the unknown together"
-		subtext=""
-	/>
-</div>
+#### Social One
 
-One-to-One Enneagram subtypes are characterized by a strong need for intimacy and connection with others. These individuals often prioritize their relationships above all else and are highly attuned to their own emotions and those of others. There are three one-to-one Enneagram subtypes:
+- Strives to improve society and uphold moral standards
+- Often involved in activism or community reform
+- Example: Mahatma Gandhi, who led non-violent resistance for social change
 
-1. One-to-One Ones: Ones with this subtype place great importance on their personal relationships. They often seek deep, meaningful connections and may invest a lot of time and energy into maintaining their close relationships, especially romantic ones.
-2. One-to-One Twos: Twos with this subtype are highly empathetic and often prioritize their loved ones' needs over their own. They seek to nurture their close relationships, providing care and support to those they hold dear.
-3. One-to-One Threes: Threes with this subtype view their personal relationships as integral to their self-image. They often work hard to maintain a strong personal brand and may view their relationships as an extension of this image.
-4. One-to-One Fours: One-to-One Fours seek deep emotional connections and authenticity in their relationships. They may have intense feelings and value the emotional exchange in their personal relationships.
-5. One-to-One Fives: One-to-One Fives seek intellectual intimacy with others. They might share their inner thoughts and ideas with a select few, aiming for deep understanding.
-6. One-to-One Sixes: One-to-One Sixes value loyalty and consistency in their relationships. They may express their anxiety or concerns through their personal relationships.
-7. One-to-One Sevens: One-to-One Sevens seek stimulating and exciting personal relationships. They might seek a partner who can share in their adventurous spirit.
-8. One-to-One Eights: One-to-One Eights seek intensity and honesty in their relationships. They value directness and may express their care through protecting their loved ones.
-9. One-to-One Nines: One-to-One Nines seek peace and harmony in their personal relationships. They might avoid conflict and strive for a relaxed and comfortable connection with their partners.
+Recognize them: They're vocal about societal issues and often lead community improvement initiatives.
 
-<div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
-</div>
+#### One-to-One One
 
-## Wrapping Up
+- Seeks to perfect their close relationships
+- May be critical of partners or friends in an attempt to help them improve
+- Example: Michelle Obama, known for her strong partnership with Barack Obama
 
-Enneagram subtypes are an essential component of the Enneagram system, providing a deeper understanding of personality types and behavior. By recognizing our own Enneagram subtype and that of others, we can better understand our motivations and behaviors, leading to improved relationships and personal growth. We hope this guide has been informative and helpful in your Enneagram journey.
+Recognize them: They often give unsolicited advice to loved ones, always with good intentions.
+
+### 2. The Helper
+
+#### Self-Preservation Two
+
+- Focuses on meeting their own needs through helping others
+- May use nurturing as a way to ensure their own security
+- Example: Martha Stewart, who built an empire around homemaking and hospitality
+
+Recognize them: They're always offering food or comfort items to others.
+
+#### Social Two
+
+- Thrives on being needed by their community or social group
+- Often takes on multiple roles or responsibilities in groups
+- Example: Oprah Winfrey, known for her philanthropy and desire to help masses of people
+
+Recognize them: They're the ones volunteering for every committee at work or in community organizations.
+
+#### One-to-One Two
+
+- Intensely focused on one or a few key relationships
+- May be possessive or jealous in romantic partnerships
+- Example: Taylor Swift, known for her intense focus on friendships and romantic relationships in her music
+
+Recognize them: They're deeply invested in their close relationships and may struggle with boundaries.
+
+### 3. The Achiever
+
+#### Self-Preservation Three
+
+- Focuses on personal success and financial security
+- May equate self-worth with material achievements
+- Example: Elon Musk, known for his relentless pursuit of business success
+
+Recognize them: They're often talking about their latest accomplishments or acquisitions.
+
+#### Social Three
+
+- Strives for status and recognition within their community
+- May change persona to fit in with different social groups
+- Example: Bill Clinton, known for his charisma and ability to connect with various audiences
+
+Recognize them: They're the social chameleons, adapting their behavior to win approval in different settings.
+
+#### One-to-One Three
+
+- Seeks to be the "best" in their personal relationships
+- May view relationships as a competition
+- Example: Tom Cruise, known for his intense on-screen performances and high-profile relationships
+
+Recognize them: They often compare their relationships to others and strive to be the "perfect" partner.
+
+### 4. The Individualist
+
+#### Self-Preservation Four
+
+- Focuses on creating a unique, comfortable environment
+- May use material possessions to express individuality
+- Example: Wes Anderson, known for his distinctive visual style in filmmaking
+
+Recognize them: Their living space is often a carefully curated expression of their personality.
+
+#### Social Four
+
+- Expresses uniqueness through social causes or artistic movements
+- May feel like an outsider in groups
+- Example: Lady Gaga, known for her advocacy and unique public persona
+
+Recognize them: They often align themselves with unconventional social groups or causes.
+
+#### One-to-One Four
+
+- Seeks intense, romantic connections
+- May idealize partners and relationships
+- Example: William Shakespeare, whose sonnets and plays often focus on idealized love
+
+Recognize them: They're drawn to dramatic, passionate relationships and may have a "soulmate" mindset.
+
+### 5. The Investigator
+
+#### Self-Preservation Five
+
+- Hoards knowledge and resources for security
+- May have extensive emergency preparations
+- Example: Henry David Thoreau, known for his self-reliant lifestyle at Walden Pond
+
+Recognize them: They often have stockpiles of supplies and extensive contingency plans.
+
+#### Social Five
+
+- Uses knowledge to secure a place in social groups
+- May take on the role of expert or teacher
+- Example: Neil deGrasse Tyson, known for making complex scientific concepts accessible to the public
+
+Recognize them: They're often sharing interesting facts or explaining complex topics to others.
+
+#### One-to-One Five
+
+- Seeks deep, intellectual connections with select individuals
+- May use knowledge to attract romantic partners
+- Example: Albert Einstein, known for his intense scientific partnerships and correspondence
+
+Recognize them: They form deep bonds over shared intellectual interests.
+
+### 6. The Loyalist
+
+#### Self-Preservation Six
+
+- Focuses on creating a safe, stable environment
+- May be drawn to jobs with security and benefits
+- Example: Warren Buffett, known for his conservative investment strategies
+
+Recognize them: They often ask "what if" questions and plan for worst-case scenarios.
+
+#### Social Six
+
+- Seeks safety in group membership and loyalty
+- May be drawn to traditions and institutions
+- Example: Queen Elizabeth II, known for her dedication to royal traditions and duty
+
+Recognize them: They're often the most committed members of organizations or social groups.
+
+#### One-to-One Six
+
+- Seeks security through close relationships
+- May test loved ones' loyalty
+- Example: John Lennon, known for his intense relationship with Yoko Ono
+
+Recognize them: They value trust above all else in their close relationships.
+
+### 7. The Enthusiast
+
+#### Self-Preservation Seven
+
+- Seeks variety in experiences, especially sensory ones
+- May have trouble with delayed gratification
+- Example: Anthony Bourdain, known for his adventurous culinary explorations
+
+Recognize them: They're always planning their next adventure or trying the latest trend.
+
+#### Social Seven
+
+- Enjoys being the "life of the party"
+- May take on the role of entertainer in groups
+- Example: Robin Williams, known for his energetic performances and ability to connect with audiences
+
+Recognize them: They're often at the center of social gatherings, keeping everyone entertained.
+
+#### One-to-One Seven
+
+- Seeks intense experiences through relationships
+- May idealize partners and struggle with commitment
+- Example: Marilyn Monroe, known for her charismatic screen presence and tumultuous personal life
+
+Recognize them: They're drawn to whirlwind romances and may have a "grass is greener" mentality in relationships.
+
+### 8. The Challenger
+
+#### Self-Preservation Eight
+
+- Focuses on accumulating resources and power
+- May have a "survival of the fittest" mentality
+- Example: Donald Trump, known for his business empire and forceful personality
+
+Recognize them: They often talk about "winning" and may have an aggressive approach to business.
+
+#### Social Eight
+
+- Uses strength to protect and lead their community
+- May take on the role of champion for the underdog
+- Example: Martin Luther King Jr., known for his powerful leadership in the civil rights movement
+
+Recognize them: They're often standing up for others and challenging authority.
+
+#### One-to-One Eight
+
+- Seeks intense, passionate relationships
+- May be possessive or jealous in partnerships
+- Example: Elizabeth Taylor, known for her passionate relationships and marriages
+
+Recognize them: They have a "ride or die" mentality in their close relationships.
+
+### 9. The Peacemaker
+
+#### Self-Preservation Nine
+
+- Focuses on creating a comfortable, peaceful environment
+- May use food, sleep, or other comforts to self-soothe
+- Example: Bob Ross, known for his soothing presence and peaceful landscapes
+
+Recognize them: Their home is often a cozy retreat, and they prioritize comfort and routine.
+
+#### Social Nine
+
+- Seeks harmony in groups and may mediate conflicts
+- May blend into different social situations
+- Example: Dalai Lama, known for his message of peace and compassion
+
+Recognize them: They're often the peacemakers in group settings, smoothing over conflicts.
+
+#### One-to-One Nine
+
+- Merges with partner's interests and desires
+- May struggle with asserting their own needs in relationships
+- Example: Mr. Rogers, known for his gentle, empathetic approach to others
+
+Recognize them: They often adopt their partner's hobbies and may struggle to make decisions in relationships.
+
+## Subtype Stacking
+
+Subtype stacking refers to the order of preference for the three instinctual drives in an individual. Everyone has all three instincts, but they're usually prioritized in a specific order.
+
+### The Concept of Stacking
+
+1. Dominant instinct: The primary focus and strongest drive
+2. Secondary instinct: Supports the dominant instinct, used situationally
+3. Blind spot: The least developed instinct, often neglected
+
+For example, a stacking might be sp/so/sx (self-preservation first, social second, one-to-one third).
+
+### How Stacking Affects Personality and Behavior
+
+- The dominant instinct colors most of a person's behavior and concerns
+- The secondary instinct supports the dominant one and comes into play in specific situations
+- The blind spot instinct is often underdeveloped and may cause difficulties in related areas of life
+
+Example: An Eight with a sp/sx/so stacking will focus primarily on resource accumulation and control (sp), seek intense personal relationships (sx), but may struggle with broader social dynamics and group politics (so).
+
+Understanding subtype stacking provides a more nuanced view of personality, explaining why two people of the same Enneagram type and dominant instinct might still behave quite differently.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
 
