@@ -40,7 +40,7 @@ export const load: PageLoad = async (event) => {
 			session,
 			userHasAnswered,
 			event,
-			aiComments,
+			aiComments
 		);
 	}
 

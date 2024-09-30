@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../../app.scss';
-	
 </script>
 
 <!-- <Layout> -->
@@ -19,6 +18,7 @@
 	</Jumbotron>
 {/if} -->
 <slot />
+
 <!-- </div> -->
 
 <!-- </Layout> -->

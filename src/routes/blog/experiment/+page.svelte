@@ -1764,77 +1764,77 @@
 	<meta name="twitter:image" content="https://9takes.com/blogs/s-experiment.webp" />
 	<link rel="canonical" href="https://9takes.com/blog/experiment" />
 	<script type="application/ld+json">
-	{
-		"@context": "http://schema.org",
-		"@graph": [
-			{
-				"@type": "WebPage",
-				"@id": "https://9takes.com/blog/experiment",
-				"url": "https://9takes.com/blog/experiment",
-				"name": "One Minute Emotions Experiment | Understand Your Feelings | 9takes",
-				"description": "Discover your emotional landscape with our 1-minute Emotions Experiment. List, categorize, and understand your feelings using our interactive Emotion Analyzer tool.",
-				"inLanguage": "en-US",
-				"isPartOf": {
-					"@type": "WebSite",
-					"@id": "https://9takes.com",
-					"name": "9takes",
-					"description": "Personality Insights and Emotional Intelligence",
-					"url": "https://9takes.com/"
-				},
-				"creator": {
-					"@type": "Person",
-					"name": "DJ Wayne",
-					"sameAs": [
-						"https://www.instagram.com/djwayne3/",
-						"https://www.youtube.com/@djwayne3",
-						"https://www.linkedin.com/in/davidtwayne/",
-						"https://twitter.com/djwayne3"
-					]
-				},
-				"author": {
-					"@type": "Person",
-					"name": "DJ Wayne",
-					"sameAs": [
-						"https://www.instagram.com/djwayne3/",
-						"https://www.youtube.com/@djwayne3",
-						"https://www.linkedin.com/in/davidtwayne/",
-						"https://twitter.com/djwayne3"
-					]
-				},
-				"dateModified": {
-					"@type": "Date",
-					"@value": "2024-06-11"
-				},
-				"datePublished": {
-					"@type": "Date",
-					"@value": "2024-02-01"
-				},
-				"image": {
-					"@type": "ImageObject",
-					"height": 900,
-					"url": "https://9takes.com/blogs/s-experiment.webp",
-					"width": 900
-				},
-				"headline": "One Minute Emotions Experiment: Analyze and Understand Your Feelings",
-				"mainEntityOfPage": {
+		{
+			"@context": "http://schema.org",
+			"@graph": [
+				{
+					"@type": "WebPage",
 					"@id": "https://9takes.com/blog/experiment",
-					"@type": "WebPage"
-				},
-				"publisher": {
-					"@type": "Organization",
-					"name": "9takes",
-					"sameAs": [
-						"https://www.instagram.com/9takesdotcom/",
-						"https://twitter.com/9takesdotcom"
-					],
-					"logo": {
+					"url": "https://9takes.com/blog/experiment",
+					"name": "One Minute Emotions Experiment | Understand Your Feelings | 9takes",
+					"description": "Discover your emotional landscape with our 1-minute Emotions Experiment. List, categorize, and understand your feelings using our interactive Emotion Analyzer tool.",
+					"inLanguage": "en-US",
+					"isPartOf": {
+						"@type": "WebSite",
+						"@id": "https://9takes.com",
+						"name": "9takes",
+						"description": "Personality Insights and Emotional Intelligence",
+						"url": "https://9takes.com/"
+					},
+					"creator": {
+						"@type": "Person",
+						"name": "DJ Wayne",
+						"sameAs": [
+							"https://www.instagram.com/djwayne3/",
+							"https://www.youtube.com/@djwayne3",
+							"https://www.linkedin.com/in/davidtwayne/",
+							"https://twitter.com/djwayne3"
+						]
+					},
+					"author": {
+						"@type": "Person",
+						"name": "DJ Wayne",
+						"sameAs": [
+							"https://www.instagram.com/djwayne3/",
+							"https://www.youtube.com/@djwayne3",
+							"https://www.linkedin.com/in/davidtwayne/",
+							"https://twitter.com/djwayne3"
+						]
+					},
+					"dateModified": {
+						"@type": "Date",
+						"@value": "2024-06-11"
+					},
+					"datePublished": {
+						"@type": "Date",
+						"@value": "2024-02-01"
+					},
+					"image": {
 						"@type": "ImageObject",
-						"url": "https://9takes.com/brand/aero.png"
+						"height": 900,
+						"url": "https://9takes.com/blogs/s-experiment.webp",
+						"width": 900
+					},
+					"headline": "One Minute Emotions Experiment: Analyze and Understand Your Feelings",
+					"mainEntityOfPage": {
+						"@id": "https://9takes.com/blog/experiment",
+						"@type": "WebPage"
+					},
+					"publisher": {
+						"@type": "Organization",
+						"name": "9takes",
+						"sameAs": [
+							"https://www.instagram.com/9takesdotcom/",
+							"https://twitter.com/9takesdotcom"
+						],
+						"logo": {
+							"@type": "ImageObject",
+							"url": "https://9takes.com/brand/aero.png"
+						}
 					}
 				}
-			}
-		]
-	}
+			]
+		}
 	</script>
 	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </svelte:head>

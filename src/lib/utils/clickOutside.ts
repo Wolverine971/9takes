@@ -41,4 +41,4 @@ export const clickOutside = (
 	return {
 		destroy: ClickOutsideManager.addListener(params.callback, node)
 	};
-}
+};

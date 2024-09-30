@@ -733,7 +733,9 @@
 		height: 15px;
 		background-color: #f96057;
 		border-radius: 50%;
-		box-shadow: 24px 0 0 0 #f8ce52, 48px 0 0 0 #5fcf65;
+		box-shadow:
+			24px 0 0 0 #f8ce52,
+			48px 0 0 0 #5fcf65;
 		margin-right: 195px;
 		flex-shrink: 0;
 		@media screen and (max-width: 945px) {
@@ -1149,7 +1151,9 @@
 		height: 5px;
 		background-color: var(--button-inactive);
 		border-radius: 50%;
-		box-shadow: 7px 0 0 0 var(--button-inactive), 14px 0 0 0 var(--button-inactive);
+		box-shadow:
+			7px 0 0 0 var(--button-inactive),
+			14px 0 0 0 var(--button-inactive);
 		margin: 0 12px;
 	}
 

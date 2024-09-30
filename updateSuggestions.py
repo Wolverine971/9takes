@@ -30,7 +30,7 @@ people_suggestions = {
     'Arnold-Schwarzenegger': ['Dwayne Johnson', 'Donald Trump'],
     'Denzel-Washington': ['Morgan Freeman', 'Leonardo DiCaprio'],
     'Dwayne-Johnson': ['Arnold Schwarzenegger', 'Tom Cruise'],
-    'Jennifer-Garner': ['Jennifer Aniston', 'Reese Witherspoon'],
+    'Jennifer-Garner': [],
     'Johnny-Depp': ['Amber Heard', 'Leonardo DiCaprio'],
     'Keanu-Reeves': ['Tom Cruise', 'Leonardo DiCaprio'],
     'Leonardo-DiCaprio': ['Johnny Depp', 'Meryl Streep', 'Tom Cruise'],

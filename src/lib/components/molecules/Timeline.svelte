@@ -141,15 +141,27 @@
 	}
 
 	.direction-l .flag {
-		-webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-		-moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-		box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow:
+			-1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow:
+			-1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
+		box-shadow:
+			-1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
 	}
 
 	.direction-r .flag {
-		-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-		-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow:
+			1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow:
+			1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
+		box-shadow:
+			1px 1px 1px rgba(0, 0, 0, 0.15),
+			0 0 1px rgba(0, 0, 0, 0.15);
 	}
 
 	// .direction-l .flag:before,

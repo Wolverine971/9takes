@@ -16,8 +16,8 @@
 	$: positions = Array.isArray(imagePositions)
 		? imagePositions
 		: imagePositions?.subscribe
-		? get(imagePositions)
-		: [];
+			? get(imagePositions)
+			: [];
 
 	const cornerSize = 10;
 	const backgroundIndex = positions?.length ? positions.findIndex((pos) => pos?.isBackground) : 0;

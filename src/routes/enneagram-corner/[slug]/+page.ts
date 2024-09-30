@@ -6,11 +6,10 @@ const MAX_POSTS = 6;
 
 const redirectMap = {
 	'enneagram-communication-overview': 'enneagram-communication-guide',
-	'enneagram-communication-in-relationships': 'relationship-communication-guide',
-}
+	'enneagram-communication-in-relationships': 'relationship-communication-guide'
+};
 
 export const load: PageLoad = async ({ params }) => {
-
 	if (redirectMap[params.slug]) {
 		// throw error(301, redirectMap[params.slug]);
 		throw redirect(302, redirectMap[params.slug]);
@@ -30,10 +29,10 @@ export const load: PageLoad = async ({ params }) => {
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
 			(post) =>
-			({
-				...(post as unknown as App.MdsvexFile).metadata,
-				slug: slugFromPath(path)
-			} as App.BlogPost)
+				({
+					...(post as unknown as App.MdsvexFile).metadata,
+					slug: slugFromPath(path)
+				}) as App.BlogPost
 		)
 	);
 

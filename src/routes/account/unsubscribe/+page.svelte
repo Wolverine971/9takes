@@ -13,7 +13,7 @@
 					createdAt: convertDateToReadable(s.created_at),
 					unsubscribed_date: s.unsubscribed_date ? convertDateToReadable(s.unsubscribed_date) : null
 				};
-		  })
+			})
 		: [];
 
 	let email: string = '';

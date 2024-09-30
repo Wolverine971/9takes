@@ -19,7 +19,7 @@ export const load = async (): Promise<{
 				({
 					...(post as unknown as App.MdsvexFile).metadata,
 					slug: slugFromPath(path)
-				} as App.BlogPost)
+				}) as App.BlogPost
 		)
 	);
 
@@ -37,7 +37,7 @@ export const load = async (): Promise<{
 				({
 					...(post as unknown as App.MdsvexFile).metadata,
 					slug: slugFromPath(path)
-				} as App.BlogPost)
+				}) as App.BlogPost
 		)
 	);
 
@@ -54,7 +54,7 @@ export const load = async (): Promise<{
 				({
 					...(post as unknown as App.MdsvexFile).metadata,
 					slug: slugFromPath(path)
-				} as App.BlogPost)
+				}) as App.BlogPost
 		)
 	);
 

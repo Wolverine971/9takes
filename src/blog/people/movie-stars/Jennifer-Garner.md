@@ -11,7 +11,7 @@ published: true
 enneagram: 1
 type: ['movieStar']
 person: 'Jennifer-Garner'
-suggestions: ['Jennifer Aniston', 'Reese Witherspoon']
+suggestions: []
 wikipedia: ''
 twitter: ''
 instagram: ''

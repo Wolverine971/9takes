@@ -15,103 +15,107 @@
 		'historical figures',
 		'technologists'
 	];
-$:innerWidth = 0;
-
-
-
+	$: innerWidth = 0;
 </script>
 
 <svelte:window bind:innerWidth />
 
 <svelte:head>
 	<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "mainEntity": {
-    "@type": "ItemList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Enneagram Type 1s",
-        "description": "Analysis of famous people identified as Enneagram Type 1",
-        "url": "https://9takes.com/personality-analysis/type/1"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Enneagram Type 2s",
-        "description": "Analysis of famous people identified as Enneagram Type 2",
-        "url": "https://9takes.com/personality-analysis/type/2"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Enneagram Type 3s",
-        "description": "Analysis of famous people identified as Enneagram Type 3",
-        "url": "https://9takes.com/personality-analysis/type/3"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Enneagram Type 4s",
-        "description": "Analysis of famous people identified as Enneagram Type 4",
-        "url": "https://9takes.com/personality-analysis/type/4"
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Enneagram Type 5s",
-        "description": "Analysis of famous people identified as Enneagram Type 5",
-        "url": "https://9takes.com/personality-analysis/type/5"
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "name": "Enneagram Type 6s",
-        "description": "Analysis of famous people identified as Enneagram Type 6",
-        "url": "https://9takes.com/personality-analysis/type/6"
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "name": "Enneagram Type 7s",
-        "description": "Analysis of famous people identified as Enneagram Type 7",
-        "url": "https://9takes.com/personality-analysis/type/7"
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "name": "Enneagram Type 8s",
-        "description": "Analysis of famous people identified as Enneagram Type 8",
-        "url": "https://9takes.com/personality-analysis/type/8"
-      },
-      {
-        "@type": "ListItem",
-        "position": 9,
-        "name": "Enneagram Type 9s",
-        "description": "Analysis of famous people identified as Enneagram Type 9",
-        "url": "https://9takes.com/personality-analysis/type/9"
-      }
-    ]
-  },
-  "name": "Person Analysis / Character Studies",
-  "description": "Explore in-depth Enneagram-based personality analyses of influential figures across various domains including musicians, creators, movie stars, politicians, historical figures, and technologists.",
-  "url": "https://9takes.com/personality-analysis",
-  "author": {
-    "@type": "Organization",
-    "name": "9takes",
-    "url": "https://9takes.com"
-  },
-  "additionalProperty": [
-    {
-      "@type": "PropertyValue",
-      "name": "Categories",
-      "value": ["musicians", "creators", "movie stars", "politicians", "historical figures", "technologists"]
-    }
-  ]
-}
+		{
+			"@context": "https://schema.org",
+			"@type": "CollectionPage",
+			"mainEntity": {
+				"@type": "ItemList",
+				"itemListElement": [
+					{
+						"@type": "ListItem",
+						"position": 1,
+						"name": "Enneagram Type 1s",
+						"description": "Analysis of famous people identified as Enneagram Type 1",
+						"url": "https://9takes.com/personality-analysis/type/1"
+					},
+					{
+						"@type": "ListItem",
+						"position": 2,
+						"name": "Enneagram Type 2s",
+						"description": "Analysis of famous people identified as Enneagram Type 2",
+						"url": "https://9takes.com/personality-analysis/type/2"
+					},
+					{
+						"@type": "ListItem",
+						"position": 3,
+						"name": "Enneagram Type 3s",
+						"description": "Analysis of famous people identified as Enneagram Type 3",
+						"url": "https://9takes.com/personality-analysis/type/3"
+					},
+					{
+						"@type": "ListItem",
+						"position": 4,
+						"name": "Enneagram Type 4s",
+						"description": "Analysis of famous people identified as Enneagram Type 4",
+						"url": "https://9takes.com/personality-analysis/type/4"
+					},
+					{
+						"@type": "ListItem",
+						"position": 5,
+						"name": "Enneagram Type 5s",
+						"description": "Analysis of famous people identified as Enneagram Type 5",
+						"url": "https://9takes.com/personality-analysis/type/5"
+					},
+					{
+						"@type": "ListItem",
+						"position": 6,
+						"name": "Enneagram Type 6s",
+						"description": "Analysis of famous people identified as Enneagram Type 6",
+						"url": "https://9takes.com/personality-analysis/type/6"
+					},
+					{
+						"@type": "ListItem",
+						"position": 7,
+						"name": "Enneagram Type 7s",
+						"description": "Analysis of famous people identified as Enneagram Type 7",
+						"url": "https://9takes.com/personality-analysis/type/7"
+					},
+					{
+						"@type": "ListItem",
+						"position": 8,
+						"name": "Enneagram Type 8s",
+						"description": "Analysis of famous people identified as Enneagram Type 8",
+						"url": "https://9takes.com/personality-analysis/type/8"
+					},
+					{
+						"@type": "ListItem",
+						"position": 9,
+						"name": "Enneagram Type 9s",
+						"description": "Analysis of famous people identified as Enneagram Type 9",
+						"url": "https://9takes.com/personality-analysis/type/9"
+					}
+				]
+			},
+			"name": "Person Analysis / Character Studies",
+			"description": "Explore in-depth Enneagram-based personality analyses of influential figures across various domains including musicians, creators, movie stars, politicians, historical figures, and technologists.",
+			"url": "https://9takes.com/personality-analysis",
+			"author": {
+				"@type": "Organization",
+				"name": "9takes",
+				"url": "https://9takes.com"
+			},
+			"additionalProperty": [
+				{
+					"@type": "PropertyValue",
+					"name": "Categories",
+					"value": [
+						"musicians",
+						"creators",
+						"movie stars",
+						"politicians",
+						"historical figures",
+						"technologists"
+					]
+				}
+			]
+		}
 	</script>
 </svelte:head>
 
@@ -150,7 +154,9 @@ $:innerWidth = 0;
 		<div class="enneagram-type">
 			<h2 id="type-{number}">Enneagram Type {number}s</h2>
 			<div class="people-grid-container">
-				{#each data.people.filter((p) => p.enneagram === number).slice(0, innerWidth > 960 ? 4 : 5) as person}
+				{#each data.people
+					.filter((p) => p.enneagram === number)
+					.slice(0, innerWidth > 960 ? 4 : 5) as person}
 					<a
 						href="/personality-analysis/{person.slug}"
 						class="grid-item"
@@ -179,11 +185,7 @@ $:innerWidth = 0;
 				>
 					<div class="view-all-content">
 						<span>All {number}s</span>
-						<ArrowRightIcon
-							iconStyle={'margin-left: .5rem'}
-							height={'1.5rem'}
-							fill={'#833bff'}
-						/>
+						<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#833bff'} />
 					</div>
 				</a>
 			</div>
@@ -251,7 +253,9 @@ $:innerWidth = 0;
 		aspect-ratio: 1 / 1;
 		overflow: hidden;
 		border-radius: var(--base-border-radius);
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
 
 		&:hover {
 			transform: translateY(-5px);

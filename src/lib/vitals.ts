@@ -7,7 +7,7 @@ function getConnectionSpeed() {
 		navigator['connection'] &&
 		'effectiveType' in navigator['connection']
 		? // @ts-ignore
-		  navigator['connection']['effectiveType']
+			navigator['connection']['effectiveType']
 		: '';
 }
 

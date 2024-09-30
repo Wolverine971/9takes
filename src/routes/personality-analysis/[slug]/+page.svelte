@@ -6,7 +6,9 @@
 	import BlogComments from '$lib/components/blog/BlogComments.svelte';
 	import PeopleSuggestions from '$lib/components/blog/SuggestionsPeople.svelte';
 
-	import FloatingSidebar from '$lib/components/blog/FloatingSidebar.svelte';
+	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
+
+	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
 
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
@@ -43,8 +45,14 @@
 		<ArticleSubTitle metaData={data.metadata} />
 	</div>
 	<svelte:component this={component} />
-	{#if innerWidth > 1500 && data.metadata.suggestions}
-		<FloatingSidebar links={data.metadata.suggestions} />
+	{#if innerWidth > 1500}
+		{#if data.metadata.suggestions?.length}
+			<PeopleSuggestionsSideBar links={data.metadata.suggestions} />
+		{/if}
+
+		{#if !data?.user}
+			<!-- <EnneagramCTASidebar /> -->
+		{/if}
 	{/if}
 </article>
 

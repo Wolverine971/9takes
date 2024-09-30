@@ -157,7 +157,7 @@
 			AI Tag
 		</button>
 		<button
-			class="btn btn-primary "
+			class="btn btn-primary"
 			on:click={() => {
 				editing = !editing;
 				getModal(`edit-modal-${questionData.id}`).open();
@@ -238,14 +238,20 @@
 		position: relative;
 		margin: var(--card-margin);
 		padding: var(--card-padding);
-		box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+		box-shadow:
+			0 3px 1px -2px rgba(0, 0, 0, 0.2),
+			0 2px 2px 0 rgba(0, 0, 0, 0.14),
 			0 1px 5px 0 rgba(0, 0, 0, 0.12);
-		transition: background-color 0.3s, box-shadow 0.3s;
+		transition:
+			background-color 0.3s,
+			box-shadow 0.3s;
 
 		&:hover {
 			background-color: var(--base-white-outline);
-			box-shadow: 0 2px 0px -1px var(--color-theme-purple-light),
-				0 3px 3px 1px var(--color-theme-purple-light), 0 1px 5px 0 var(--color-theme-purple-light);
+			box-shadow:
+				0 2px 0px -1px var(--color-theme-purple-light),
+				0 3px 3px 1px var(--color-theme-purple-light),
+				0 1px 5px 0 var(--color-theme-purple-light);
 		}
 	}
 
