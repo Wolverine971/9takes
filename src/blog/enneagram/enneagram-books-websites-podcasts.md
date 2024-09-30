@@ -266,12 +266,16 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 <article class="section-content">
     <h3 style="padding: 0; margin-top: 1em">Susan Piver</h3>
     A meditation teacher who integrates Buddhist wisdom with Enneagram insights.
+    <p>
     <a class="external-link" target="_blank" rel="" href="https://openheartproject.com/">
         Open Heart Project
     </a>
+    </p>
+    <p>
     <a class="external-link" target="_blank" rel="" href="https://medium.com/@spiver">
         Susan's Medium Articles
     </a>
+    </p>
 
 </article>
 
