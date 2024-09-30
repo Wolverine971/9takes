@@ -61,64 +61,70 @@
 			}
 		};
 	}}
-	class="space-y-4"
+	class="max-w-4xl mx-auto p-4 space-y-6"
 >
-	<Label>
-		Select Template
-		<Select on:change={handleTemplateSelection}>
-			<option value="">No Template</option>
-			{#each templates as template}
-				<option value={template.id}>{template.type} - {template.purpose_description}</option>
-			{/each}
-		</Select>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+		<div class="space-y-4">
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Select Template</span>
+				<Select on:change={handleTemplateSelection} class="w-full">
+					<option value="">No Template</option>
+					{#each templates as template}
+						<option value={template.id}>{template.type} - {template.purpose_description}</option>
+					{/each}
+				</Select>
+			</Label>
+
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Scheduled Date</span>
+				<Input type="datetime-local" name="scheduled_date" bind:value={scheduled_date} required class="w-full" />
+			</Label>
+
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Platform</span>
+				<Select name="platform" bind:value={platform} required class="w-full">
+					<option value="twitter">Twitter</option>
+					<option value="instagram">Instagram</option>
+					<option value="linkedin">LinkedIn</option>
+				</Select>
+			</Label>
+
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Campaign</span>
+				<Select name="campaign_id" bind:value={campaign_id} class="w-full">
+					<option value="">No Campaign</option>
+					{#each campaigns as campaign}
+						<option value={campaign.id}>{campaign.name}</option>
+					{/each}
+				</Select>
+			</Label>
+		</div>
+
+		<div class="space-y-4">
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Content Promotion Accounts</span>
+				<Input type="text" name="content_promotion_accounts" bind:value={content_promotion_accounts} class="w-full" />
+			</Label>
+
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Content Hashtags</span>
+				<Input type="text" name="content_hashtags" bind:value={content_hashtags} class="w-full" />
+			</Label>
+
+			<Label class="block">
+				<span class="text-sm font-medium text-gray-700 mb-1">Content Themes</span>
+				<Input type="text" name="content_themes" bind:value={content_themes} class="w-full" />
+			</Label>
+		</div>
+	</div>
+
+	<Label class="block">
+		<span class="text-sm font-medium text-gray-700 mb-1">Content Text</span>
+		<Textarea name="content_text" bind:value={content_text} required rows="8" class="w-full resize-y" />
 	</Label>
 
-	<Label>
-		Content Text
-		<Textarea name="content_text" bind:value={content_text} required rows="4" />
-	</Label>
-
-	<Label>
-		Scheduled Date
-		<Input type="datetime-local" name="scheduled_date" bind:value={scheduled_date} required />
-	</Label>
-
-	<Label>
-		Platform
-		<Select name="platform" bind:value={platform} required>
-			<option value="twitter">Twitter</option>
-			<option value="instagram">Instagram</option>
-			<option value="linkedin">LinkedIn</option>
-		</Select>
-	</Label>
-
-	<Label>
-		Campaign
-		<Select name="campaign_id" bind:value={campaign_id}>
-			<option value="">No Campaign</option>
-			{#each campaigns as campaign}
-				<option value={campaign.id}>{campaign.name}</option>
-			{/each}
-		</Select>
-	</Label>
-
-	<Label>
-		Content Promotion Accounts
-		<Input type="text" name="content_promotion_accounts" bind:value={content_promotion_accounts} />
-	</Label>
-
-	<Label>
-		Content Hashtags
-		<Input type="text" name="content_hashtags" bind:value={content_hashtags} />
-	</Label>
-
-	<Label>
-		Content Themes
-		<Input type="text" name="content_themes" bind:value={content_themes} />
-	</Label>
-
-	<div class="flex justify-end space-x-2">
-		<Button type="submit">Create Content</Button>
-		<Button color="alternative" on:click={handleCancel}>Cancel</Button>
+	<div class="flex justify-end space-x-4">
+		<Button type="submit" class="px-6 py-2">Create Content</Button>
+		<Button color="alternative" on:click={handleCancel} class="px-6 py-2">Cancel</Button>
 	</div>
 </form>

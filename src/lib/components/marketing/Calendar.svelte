@@ -4,6 +4,8 @@
 	import CreateContent from './CreateContent.svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
 	import { createEventDispatcher } from 'svelte';
+	import { onMount } from 'svelte';
+
 	const dispatch = createEventDispatcher();
 
 	export let contentItems: ContentItem[];
@@ -18,9 +20,27 @@
 	let showAllContentModal = false;
 	let selectedDayContent: ContentItem[] = [];
 	let selectedDate: Date | null = null;
+	let calendarDays: (Date | null)[] = [];
 
-	function generateCalendarDays(date: Date): Date[] {
-		const days: Date[] = [];
+	$: filteredContentItems = contentItems.filter((item) => {
+		const itemDate = new Date(item.scheduled_date);
+		const isInCurrentMonth =
+			itemDate.getFullYear() === currentDate.getFullYear() &&
+			itemDate.getMonth() === currentDate.getMonth();
+		const matchesCampaign =
+			selectedCampaignId === 'all' ||
+			(selectedCampaignId === 'no-campaign' && !item.campaign_id) ||
+			item.campaign_id === selectedCampaignId;
+		return isInCurrentMonth && matchesCampaign;
+	});
+
+	$: {
+		currentDate;
+		calendarDays = generateCalendarDays(currentDate);
+	}
+
+	function generateCalendarDays(date: Date): (Date | null)[] {
+		const days: (Date | null)[] = [];
 		const firstDay = new Date(date.getFullYear(), date.getMonth(), 1);
 		const lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
 
@@ -34,8 +54,6 @@
 
 		return days;
 	}
-
-	$: calendarDays = generateCalendarDays(currentDate);
 
 	function previousMonth() {
 		currentDate = new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, 1);
@@ -68,24 +86,20 @@
 	function handleContentUpdate(event: CustomEvent) {
 		const updatedContents = event.detail;
 		if (Array.isArray(updatedContents)) {
-			// Handle multiple content updates (from campaign date change)
-			updatedContents.forEach((updatedContent) => {
-				const index = contentItems.findIndex((item) => item.id === updatedContent.id);
-				if (index !== -1) {
-					contentItems[index] = updatedContent;
-				}
-			});
+			updatedContents.forEach(updateContentItem);
 		} else {
-			// Handle single content update
-			const updatedContent = event.detail;
-			const index = contentItems.findIndex((item) => item.id === updatedContent.id);
-			if (index !== -1) {
-				contentItems[index] = updatedContent;
-			}
+			updateContentItem(updatedContents);
 		}
-		contentItems = [...contentItems]; // Trigger reactivity
+		contentItems = [...contentItems];
 		closeEditModal();
 		dispatch('calendarUpdated');
+	}
+
+	function updateContentItem(updatedContent: ContentItem) {
+		const index = contentItems.findIndex((item) => item.id === updatedContent.id);
+		if (index !== -1) {
+			contentItems[index] = updatedContent;
+		}
 	}
 
 	function handleContentCreate(event: CustomEvent) {
@@ -104,57 +118,32 @@
 		showAllContentModal = true;
 	}
 
-	$: filteredContentItems = contentItems.filter((item) => {
-		const itemDate = new Date(item.scheduled_date);
-		const isInCurrentMonth =
-			itemDate.getFullYear() === currentDate.getFullYear() &&
-			itemDate.getMonth() === currentDate.getMonth();
-		const matchesCampaign =
-			selectedCampaignId === 'all' ||
-			(selectedCampaignId === 'no-campaign' && !item.campaign_id) ||
-			item.campaign_id === selectedCampaignId;
-		return isInCurrentMonth && matchesCampaign;
-	});
-
 	function sortContentByDateTime(a: ContentItem, b: ContentItem) {
 		return new Date(a.scheduled_date).getTime() - new Date(b.scheduled_date).getTime();
 	}
+
+	onMount(() => {
+		window.addEventListener('contentUpdated', handleContentUpdate);
+		return () => {
+			window.removeEventListener('contentUpdated', handleContentUpdate);
+		};
+	});
 </script>
 
-<svelte:window on:contentUpdated={handleContentUpdate} />
-
 <div class="container mx-auto px-4 py-8">
-	<div class="mb-6 flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0">
+	<div class="mb-6 flex flex-col items-center justify-between space-y-4 sm:flex-row sm:space-y-0 gap-2">
 		<div class="flex items-center space-x-4">
 			<Button on:click={previousMonth} class="px-3 py-2">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-						clip-rule="evenodd"
-					/>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
 				</svg>
 			</Button>
 			<span class="text-xl font-bold">
 				{currentDate.toLocaleString('default', { month: 'long', year: 'numeric' })}
 			</span>
 			<Button on:click={nextMonth} class="px-3 py-2">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
-					viewBox="0 0 20 20"
-					fill="currentColor"
-				>
-					<path
-						fill-rule="evenodd"
-						d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-						clip-rule="evenodd"
-					/>
+				<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+					<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
 				</svg>
 			</Button>
 		</div>
@@ -188,8 +177,7 @@
 						{#each dayContent.slice(0, 2) as item (item.id)}
 							<div
 								class="item-color cursor-pointer truncate rounded p-1 text-xs hover:opacity-80"
-								style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
-									'#e2e8f0'}"
+								style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color || '#e2e8f0'}"
 								on:click|stopPropagation={() => openContentEditor(item)}
 							>
 								{item.content_text}
@@ -244,8 +232,7 @@
 		{#each selectedDayContent as item (item.id)}
 			<div
 				class="item-color cursor-pointer rounded p-2 text-sm hover:opacity-80"
-				style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
-					'#e2e8f0'}"
+				style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color || '#e2e8f0'}"
 				on:click={() => {
 					openContentEditor(item);
 					showAllContentModal = false;
