@@ -166,7 +166,7 @@
 		font-size: 1.2rem;
 		// box-sizing: content-box;
 
-		margin: 0.25rem;
+		margin: 0.25rem 0;
 	}
 
 	.headline {
@@ -175,7 +175,8 @@
 		text-transform: uppercase;
 		text-align: center;
 		padding: 1rem 0;
-		width: 80%;
+		width: 90%;
+		min-height: 90px;
 		border: 1px solid var(--color-theme-purple-light);
 	}
 	@media (max-width: 700px) {

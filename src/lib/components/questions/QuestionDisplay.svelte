@@ -21,7 +21,7 @@
 	};
 
 	$: fontSize = calcSize(question.question);
-	$: qrCodeSize = innerWidth > 400 ? '10%' : '20%';
+	$: qrCodeSize = innerWidth > 500 ? '10%' : '20%';
 
 	function calcSize(text: string): string {
 		const lengths = [45, 60, 80, 105, 115, 130, 150, 200, 220, 240, 290, 380];
@@ -57,10 +57,11 @@
 		];
 
 		const index = lengths.findIndex((length) => text.length < length);
-		return innerWidth > 400 ? sizes[index] : mobileSizes[index];
+		return innerWidth > 500 ? sizes[index] : mobileSizes[index];
 	}
 
 	onMount(() => {
+		innerWidth = window.innerWidth;
 		QRCode.toDataURL(`https://9takes.com/questions/${question.url}`, QR_OPTS)
 			.then((url) => (qrCodeUrl = url))
 			.catch((err) => console.error('QR Code generation failed:', err));
@@ -104,7 +105,7 @@
 		width: -webkit-fill-available;
 		border-radius: var(--base-border-radius);
 		color: var(--color-paladin-4);
-		margin: 0.25rem;
+		margin: 0.25rem 0;
 	}
 
 	.headline {
@@ -112,7 +113,8 @@
 		text-transform: uppercase;
 		text-align: center;
 		padding: 1rem 0;
-		width: 80%;
+		width: 90%;
+		min-height: 90px;
 		border: 1px solid var(--color-theme-purple-light);
 	}
 

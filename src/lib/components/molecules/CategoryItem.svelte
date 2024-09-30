@@ -96,7 +96,7 @@
 
 	.subcategory-list {
 		margin-left: 1rem;
-		border-left: 2px solid var(--accent-color, #007bff);
+		border-left: 2px solid var(--accent-color, black);
 		padding-left: 1rem;
 	}
 
