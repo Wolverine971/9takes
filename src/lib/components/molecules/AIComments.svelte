@@ -39,7 +39,7 @@
 
 {#if browser && data?.ai_comments?.length && parentType === 'question' && data?.flags?.userHasAnswered}
 	<section class="enneagram-perspectives">
-		<h2 style="padding: .5rem 0;">Typical Enneagram Perspectives</h2>
+		<h2 style="padding: .5rem 0;">Enneagram Takes (stereotypes)</h2>
 		{#if showAiComments}
 			<div class="carousel">
 				<button
