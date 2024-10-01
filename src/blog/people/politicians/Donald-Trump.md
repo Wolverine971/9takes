@@ -171,6 +171,10 @@ Trump's big break came when he took over his father's real estate company and se
 
 > "**I wasn't satisfied just to earn a good living. I was looking to make a statement.**"
 
+<div class="iframe-container" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_7THZ41QUOY?si=_AUJcmGTLo75HPQh" title="Trump as an Enneagram 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## Beyond the Boardroom: Unexpected Quick Facts of Trump
 
 - Wrestling enthusiast: Trump has been involved with WWE, even appearing in wrestling events.

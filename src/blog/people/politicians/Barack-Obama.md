@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
+> "I tend not to be a mean person, you know, if I get lazy, then I get mad at myself"
 
 <p class="firstLetter">Barack Obama, the 44th president of the United States, is an Enneagram Type 9, "The Peacemaker"</p>
 
@@ -97,6 +97,10 @@ One of the most compelling arguments for Obama being a Type 9 is his pursuit of 
 He consistently emphasized bridging gaps and mending fences. His diplomacy-first approach resonates strongly with the Type 9's preference for negotiation over conflict.
 
 His famous quote, "There is not a liberal America and a conservative America - there is the United States of America," embodies the essence of Type 9, where unification and acceptance reign supreme. Such a statement reflects a deep understanding of the interconnectedness of all things, a characteristic often associated with Type 9.
+
+<div class="iframe-container" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w4BhRx5EQyg?si=D4NtPFWeGemUMuo5" title="Obama as an Enneagram 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Obama's Enneagram and His Political Priorities
 
@@ -164,6 +168,8 @@ Barack Obama's possible Type 9 personality has provided us with fresh insights i
 At 9takes, understanding the Enneagram opens doors to empathy and mutual respect. We can bridge divides and build a more compassionate society through meaningful discussions.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Barack Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Barack Obama.
 
 <svelte:head>
 

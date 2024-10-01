@@ -107,6 +107,10 @@ As Secretary of State, Hillary had to navigate complex international issues, oft
 
 She stated, "**We believe that the decisions about the internal affairs of Egypt should be made by Egyptians.**" This showed both a principled stance on democracy and a pragmatic recognition of the limits of American influence.
 
+<div class="iframe-container" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4pki_tswWC8?si=S3q0BSD5rMG2t_iY" title="Hillary Clinton as an Enneagram 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ## Shaping the Democratic Party
 
 Hillary Clinton has been a pivotal figure in shaping the modern Democratic Party. Her outspoken advocacy on issues like women's rights, healthcare, and gun control has pushed the party to take stronger stances on these topics.

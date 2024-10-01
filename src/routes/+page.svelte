@@ -125,14 +125,17 @@
 						</div>
 					</div>
 					<div class="hero-text">
-						<h1>9takes: Anonymous Questions and Answers Based on Personality</h1>
+						<h1 style="padding-bottom: 0; margin-bottom: 0;">Anonymous Questions and Answers</h1>
+						<h2 style="margin: 1rem 0; padding: 0;">Filter by Personality</h2>
 						<p class="hero-subtitle">
-							Ask a question to find out what others are <span class="highlight">thinking</span>,
+							Find out what others are <span class="highlight">thinking</span>,
 							<span class="highlight">feeling</span>, and <span class="highlight">doing</span>.
 						</p>
 						<p class="hero-description">
-							Everyone sees the world differently, <br />but some see it like you do. <br />Find
-							them here.
+							People see the world differently <br />and some see it like you do. <br />Find them
+							here
+							<br />
+							on 9takes.
 						</p>
 					</div>
 				</div>
