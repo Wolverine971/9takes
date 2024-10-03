@@ -31,6 +31,7 @@
 		updateWidth();
 		return () => window.removeEventListener('resize', updateWidth);
 	});
+	let commentColor = '#B3A6C9';
 </script>
 
 <a
@@ -39,8 +40,13 @@
 	class:shimmer-button={innerWidth > 1500}
 	class:question-card-details={showDetails}
 	data-sveltekit-preload-data="tap"
+	on:mouseenter={() => (commentColor = '#833BFF')}
 >
-	<p class="question-display" style:--tag={`h-question-${questionData.id}`}>
+	<p
+		class="question-display"
+		style:--tag={`h-question-${questionData.id}`}
+		style={`color: ${commentColor};`}
+	>
 		{questionData.question_formatted || questionData.question}
 	</p>
 	{#if showDetails}
@@ -50,7 +56,7 @@
 				<MasterCommentIcon
 					iconStyle="margin-left: .3rem; min-width: 1.5rem; min-height: 1.5rem;"
 					height="1.5rem"
-					fill={questionData.comment_count ? 'var(--primary)' : ''}
+					fill={commentColor}
 					type={questionData.comment_count ? 'multiple' : 'empty'}
 				/>
 			</span>

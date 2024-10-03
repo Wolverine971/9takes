@@ -425,6 +425,37 @@ section {
 	background-position-x: -150%;
 }
 
+.shimmer-button-black {
+	background-color: transparent;
+	color: initial;
+	background-image: linear-gradient(
+		-60deg,
+		transparent 0%,
+		transparent 40%,
+		rgba(168, 158, 158, 0.12) 40%,
+		rgba(168, 158, 158, 0.12) 60%,
+		transparent 60%,
+		transparent 100%
+	);
+	background-size: 200% 100%;
+	background-repeat: no-repeat;
+	background-position-x: 150%;
+	transition:
+		background-position-x 1000ms,
+		background-color 300ms,
+		color 300ms;
+}
+
+.shimmer-button-black:hover {
+	transition:
+		background-position-x 1000ms,
+		background-color 300ms,
+		color 300ms !important;
+	color: var(--base-white-outline) !important;
+	background: black;
+	background-position-x: -150%;
+}
+
 /* Animations */
 @keyframes spin {
 	100% {

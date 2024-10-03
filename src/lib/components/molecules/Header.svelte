@@ -100,7 +100,7 @@
 							title="go to account"
 							type="button"
 							on:click={() => goto('/account')}
-							class="corner-icon"
+							class="corner-icon-profile"
 							aria-label="Go to account"
 						>
 							<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
@@ -176,7 +176,7 @@
 				{#if data?.session?.user}
 					<div class="corner-right-big right">
 						<a href="/account">
-							<button type="button" class="corner-icon">
+							<button type="button" class="corner-icon-profile">
 								<img
 									src="/brand/account-icon2.png"
 									alt="Account"
@@ -189,8 +189,8 @@
 					</div>
 				{:else if !($page.url.pathname === 'login' || $page.url.pathname === 'register')}
 					<div class="right login">
-						<a href="/login">
-							<button class="corner-icon">Login/ Register</button>
+						<a href="/login" class="shimmer-button-black">
+							<button class="corner-icon-login shimmer-button-black">Login/ Register</button>
 						</a>
 					</div>
 				{/if}
@@ -475,9 +475,10 @@
 			text-align: center;
 		}
 
-		.corner-icon {
+		.corner-icon-profile {
 			cursor: pointer;
 			background: no-repeat;
+			color: var(--primary);
 			border-radius: var(--base-border-radius);
 			border: var(--classic-border);
 
@@ -486,6 +487,13 @@
 				transform: scale(1.1);
 				border: var(--classic-border);
 			}
+		}
+
+		.corner-icon-login {
+			cursor: pointer;
+			color: var(--primary);
+			border-radius: var(--base-border-radius);
+			border: var(--classic-border);
 		}
 
 		.mobile-ham {
