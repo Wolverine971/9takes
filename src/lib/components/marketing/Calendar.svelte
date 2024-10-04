@@ -220,7 +220,7 @@
 </div>
 
 <Modal bind:open={showEditModal} size="xl" autoclose={false} class="w-full">
-	<h2 class="mb-4 text-2xl font-bold">Edit Content</h2>
+	<h2 class="mb-4 mt-0 pb-0 pt-0 text-2xl font-bold">Edit Content</h2>
 	{#if selectedContent}
 		<ContentEditor
 			contentItem={selectedContent}

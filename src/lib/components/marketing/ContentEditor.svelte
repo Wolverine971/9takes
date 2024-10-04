@@ -1,8 +1,18 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { Button, Input, Label, Textarea, Select, Toggle, Modal } from 'flowbite-svelte';
+	import {
+		Button,
+		Input,
+		Label,
+		Textarea,
+		Select,
+		Toggle,
+		Modal,
+		AccordionItem,
+		Accordion
+	} from 'flowbite-svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onMount } from 'svelte';
 
 	export let contentItem: ContentItem | null = null;
 	export let campaigns: Campaign[] = [];
@@ -24,7 +34,7 @@
 
 	function splitIntoThreads(text: string): string[] {
 		if (text.includes(SEPARATOR)) {
-			return text.split(SEPARATOR).filter((block) => block.trim() !== '');
+			return text.split(SEPARATOR);
 		}
 		const blocks: string[] = [];
 		const lines = text.split('\n');
@@ -51,6 +61,7 @@
 		if (field === 'content_text') {
 			contentTextWithSeparators = value;
 			contentTextWithoutSeparators = removeSeparators(value);
+			threadBlocks = splitIntoThreads(value);
 		}
 	}
 
@@ -59,9 +70,6 @@
 		selectedTemplate = templates.find((t) => t.id === templateId) || null;
 		if (selectedTemplate) {
 			updateEditingContent('content_text', selectedTemplate.content_text);
-			if (isThreadView) {
-				threadBlocks = splitIntoThreads(selectedTemplate.content_text);
-			}
 		}
 	}
 
@@ -76,14 +84,12 @@
 	}
 
 	function toggleThreadView() {
-		// isThreadView = !isThreadView;
 		if (isThreadView) {
 			threadBlocks = splitIntoThreads(contentTextWithSeparators);
 		} else {
 			contentTextWithSeparators = threadBlocks.join(SEPARATOR);
 			contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		}
-		updateEditingContent('content_text', contentTextWithSeparators);
 	}
 
 	function updateThreadBlock(index: number, value: string) {
@@ -122,7 +128,7 @@
 	function handleContentTextInput(event: Event) {
 		const value = (event.target as HTMLTextAreaElement).value;
 		contentTextWithoutSeparators = value;
-		contentTextWithSeparators = splitIntoThreads(value).join(SEPARATOR);
+		contentTextWithSeparators = value;
 		updateEditingContent('content_text', contentTextWithSeparators);
 	}
 
@@ -131,7 +137,6 @@
 		const form = event.target as HTMLFormElement;
 		const formData = new FormData(form);
 
-		// Ensure we're always sending the content with separators
 		formData.set('content_text', contentTextWithSeparators);
 
 		fetch(contentItem ? '?/updateContent' : '?/createContent', {
@@ -144,118 +149,131 @@
 			}
 		});
 	}
-
 	$: scheduledDateValue = formatDateForInput(editingContent.scheduled_date);
 </script>
 
-<form on:submit={handleSubmit} method="POST" class="mx-auto w-full max-w-4xl space-y-6 p-4">
+<form on:submit={handleSubmit} method="POST" class="!my-0 mx-auto w-full max-w-4xl space-y-6 !pt-0">
 	{#if contentItem}
 		<input type="hidden" name="id" value={contentItem.id} />
 	{/if}
 
-	<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
-		<div class="space-y-4">
-			{#if !contentItem}
-				<Label class="space-y-2">
-					<span class="text-sm font-medium text-gray-700">Select Template</span>
-					<Select on:change={handleTemplateSelection} class="w-full">
-						<option value="">No Template</option>
-						{#each templates as template}
-							<option value={template.id}>{template.type} - {template.purpose_description}</option>
-						{/each}
-					</Select>
-				</Label>
-			{/if}
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Scheduled Date</span>
-				<Input
-					type="datetime-local"
-					name="scheduled_date"
-					value={scheduledDateValue}
-					on:input={(e) => updateEditingContent('scheduled_date', e.currentTarget.value)}
-					required
-					class="w-full"
-				/>
-			</Label>
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Platform</span>
-				<Select
-					name="platform"
-					value={editingContent.platform || ''}
-					on:change={(e) => updateEditingContent('platform', e.currentTarget.value)}
-					required
-					class="w-full"
-				>
-					<option value="twitter">Twitter</option>
-					<option value="instagram">Instagram</option>
-					<option value="linkedin">LinkedIn</option>
-				</Select>
-			</Label>
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Campaign</span>
-				<Select
-					name="campaign_id"
-					value={editingContent.campaign_id || ''}
-					on:change={(e) => updateEditingContent('campaign_id', e.currentTarget.value)}
-					class="w-full"
-				>
-					<option value="">No Campaign</option>
-					{#each campaigns as campaign}
-						<option value={campaign.id}>{campaign.name}</option>
-					{/each}
-				</Select>
-			</Label>
-			{#if contentItem}
-				<Label class="space-y-2">
-					<span class="text-sm font-medium text-gray-700">Status</span>
-					<Select
-						name="status"
-						value={editingContent.status || ''}
-						on:change={(e) => updateEditingContent('status', e.currentTarget.value)}
-						required
-						class="w-full"
-					>
-						<option value="scheduled">Scheduled</option>
-						<option value="posted">Posted</option>
-						<option value="cancelled">Cancelled</option>
-					</Select>
-				</Label>
-			{/if}
-		</div>
-		<div class="space-y-4">
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Content Promotion Accounts</span>
-				<Input
-					type="text"
-					name="content_promotion_accounts"
-					value={editingContent.content_promotion_accounts || ''}
-					on:input={(e) =>
-						updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
-					class="w-full"
-				/>
-			</Label>
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Content Hashtags</span>
-				<Input
-					type="text"
-					name="content_hashtags"
-					value={editingContent.content_hashtags || ''}
-					on:input={(e) => updateEditingContent('content_hashtags', e.currentTarget.value)}
-					class="w-full"
-				/>
-			</Label>
-			<Label class="space-y-2">
-				<span class="text-sm font-medium text-gray-700">Content Themes</span>
-				<Input
-					type="text"
-					name="content_themes"
-					value={editingContent.content_themes || ''}
-					on:input={(e) => updateEditingContent('content_themes', e.currentTarget.value)}
-					class="w-full"
-				/>
-			</Label>
-		</div>
-	</div>
+	<Accordion flush class="!mt-0 pt-0">
+		<AccordionItem class="!mt-0 pt-0">
+			<span slot="header" class="!mt-0 pt-0"
+				>{campaigns.find((c) => c.id === editingContent.campaign_id)?.name || 'No Campaign'}- {new Date(
+					scheduledDateValue
+				)
+					.toISOString()
+					.split('T')[0]}</span
+			>
+			<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+				<div class="space-y-4">
+					{#if !contentItem}
+						<Label class="space-y-2">
+							<span class="text-sm font-medium text-gray-700">Select Template</span>
+							<Select on:change={handleTemplateSelection} class="w-full">
+								<option value="">No Template</option>
+								{#each templates as template}
+									<option value={template.id}
+										>{template.type} - {template.purpose_description}</option
+									>
+								{/each}
+							</Select>
+						</Label>
+					{/if}
+
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Scheduled Date</span>
+						<Input
+							type="datetime-local"
+							name="scheduled_date"
+							value={scheduledDateValue}
+							on:input={(e) => updateEditingContent('scheduled_date', e.currentTarget.value)}
+							required
+							class="w-full"
+						/>
+					</Label>
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Platform</span>
+						<Select
+							name="platform"
+							value={editingContent.platform || ''}
+							on:change={(e) => updateEditingContent('platform', e.currentTarget.value)}
+							required
+							class="w-full"
+						>
+							<option value="twitter">Twitter</option>
+							<option value="instagram">Instagram</option>
+							<option value="linkedin">LinkedIn</option>
+						</Select>
+					</Label>
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Campaign</span>
+						<Select
+							name="campaign_id"
+							value={editingContent.campaign_id || ''}
+							on:change={(e) => updateEditingContent('campaign_id', e.currentTarget.value)}
+							class="w-full"
+						>
+							<option value="">No Campaign</option>
+							{#each campaigns as campaign}
+								<option value={campaign.id}>{campaign.name}</option>
+							{/each}
+						</Select>
+					</Label>
+					{#if contentItem}
+						<Label class="space-y-2">
+							<span class="text-sm font-medium text-gray-700">Status</span>
+							<Select
+								name="status"
+								value={editingContent.status || ''}
+								on:change={(e) => updateEditingContent('status', e.currentTarget.value)}
+								required
+								class="w-full"
+							>
+								<option value="scheduled">Scheduled</option>
+								<option value="posted">Posted</option>
+								<option value="cancelled">Cancelled</option>
+							</Select>
+						</Label>
+					{/if}
+				</div>
+				<div class="space-y-4">
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Content Promotion Accounts</span>
+						<Input
+							type="text"
+							name="content_promotion_accounts"
+							value={editingContent.content_promotion_accounts || ''}
+							on:input={(e) =>
+								updateEditingContent('content_promotion_accounts', e.currentTarget.value)}
+							class="w-full"
+						/>
+					</Label>
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Content Hashtags</span>
+						<Input
+							type="text"
+							name="content_hashtags"
+							value={editingContent.content_hashtags || ''}
+							on:input={(e) => updateEditingContent('content_hashtags', e.currentTarget.value)}
+							class="w-full"
+						/>
+					</Label>
+					<Label class="space-y-2">
+						<span class="text-sm font-medium text-gray-700">Content Themes</span>
+						<Input
+							type="text"
+							name="content_themes"
+							value={editingContent.content_themes || ''}
+							on:input={(e) => updateEditingContent('content_themes', e.currentTarget.value)}
+							class="w-full"
+						/>
+					</Label>
+				</div>
+			</div>
+		</AccordionItem>
+	</Accordion>
 
 	<div class="mx-auto max-w-[700px] space-y-2">
 		<div class="flex items-center justify-between">
@@ -271,7 +289,7 @@
 						value={block}
 						on:input={(e) => updateThreadBlock(index, e.currentTarget.value)}
 						rows="6"
-						class=" w-full resize-y {block.length > MAX_CHARS ? 'border-red-500' : ''}"
+						class="w-full resize-y {block.length > MAX_CHARS ? 'border-red-500' : ''}"
 					/>
 					<div
 						class="absolute bottom-2 left-2 text-sm {block.length > MAX_CHARS
