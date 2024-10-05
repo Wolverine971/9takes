@@ -89,7 +89,7 @@
 {:else}
 	<header class="the-header">
 		{#if isMobile}
-			<div class="mobile-ham" class:absolute-pos={isHomePage}>
+			<div class="mobile-ham">
 				<MobileHam />
 				<a href="/" class="brand" aria-label="Home">
 					<img src="/brand/aero.png" alt="" height={60} width={60} />
@@ -109,7 +109,7 @@
 				{/if}
 			</div>
 		{:else}
-			<nav class="nav-bar" class:absolute-pos={isHomePage}>
+			<nav class="nav-bar">
 				<a href="/" class="brand left" aria-label="Home">
 					<!-- <Rubix height={50} width={50} svgStyle="margin: 1rem" /> -->
 					<div class="app-icon">

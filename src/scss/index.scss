@@ -154,17 +154,17 @@ a.disabled {
 	overflow: hidden;
 }
 
-.main::before {
-	content: '';
-	position: fixed;
-	top: -150vh;
-	left: -150vw;
-	width: 400vw;
-	height: 400vw;
-	background-image: url('data:image/svg+xml,...'); /* Your SVG data */
-	z-index: -1;
-	animation: spin 300s linear infinite;
-}
+// .main::before {
+// 	content: '';
+// 	position: fixed;
+// 	top: -150vh;
+// 	left: -150vw;
+// 	width: 400vw;
+// 	height: 400vw;
+// 	background-image: url('data:image/svg+xml,...'); /* Your SVG data */
+// 	z-index: -1;
+// 	animation: spin 300s linear infinite;
+// }
 
 .main a {
 	color: var(--accent);
