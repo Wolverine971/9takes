@@ -112,31 +112,31 @@
 
 <svelte:window bind:innerWidth />
 
-<main>
+<main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 	<div class="section-wrapper">
 		{#if sectionsVisible[0]}
-			<section class="hero" in:fly={getTransition(0)}>
-				<div class="hero-content">
-					<div class="hero-image glass-area">
-						<div class="question-list">
-							{#each data?.top9Questions as questionData}
-								<QuestionItem {questionData} showDetails={true} />
-							{/each}
-						</div>
-					</div>
-					<div class="hero-text">
-						<h1 style="padding-bottom: 0; margin-bottom: 0;">Anonymous Questions and Answers</h1>
-						<h2 style="margin: 1rem 0; padding: 0;">Filter by Personality</h2>
-						<p class="hero-subtitle">
+			<section class="hero py-12 md:py-24" in:fly={getTransition(0)}>
+				<div class="hero-content flex flex-col items-center justify-between gap-8 md:flex-row">
+					<div class="hero-text max-w-lg">
+						<h1 class="mb-4 text-4xl font-bold md:text-5xl">Anonymous Questions and Answers</h1>
+						<h2 class="mb-4 text-2xl font-semibold md:text-3xl">Filter by Personality</h2>
+						<p class="hero-subtitle mb-4 text-xl">
 							Find out what others are <span class="highlight">thinking</span>,
 							<span class="highlight">feeling</span>, and <span class="highlight">doing</span>.
 						</p>
-						<p class="hero-description">
+						<p class="hero-description text-lg">
 							People see the world differently <br />and some see it like you do. <br />Find them
 							here
 							<br />
 							on 9takes.
 						</p>
+					</div>
+					<div class="hero-image glass-area w-full md:w-1/2">
+						<div class="question-list">
+							{#each data?.top9Questions as questionData}
+								<QuestionItem {questionData} showDetails={true} />
+							{/each}
+						</div>
 					</div>
 				</div>
 			</section>
@@ -153,16 +153,15 @@
 				panBackground={false}
 			>
 				<div class="content-display" in:fly={getTransition(2)}>
-					<p class="txt-white link bold-shadow" style="text-align: center;">
+					<p class="text-shadow mb-4 text-center font-bold text-white">
 						Where can you find unbiased and different viewpoints/ opinions/ answers/ feedback/ takes
-						<br class="hide-mobile" />
+						<br class="hidden md:inline" />
 						on any situation you can think of?
 					</p>
 					<h2
-						class="txt-white jumbo-name bold-shadow"
+						class="text-shadow text-center text-4xl font-bold text-white md:text-5xl"
 						data-value={'9takes'}
 						itemprop="name"
-						style="text-align: center;"
 					>
 						{'9takes'}
 					</h2>
@@ -172,17 +171,19 @@
 	</div>
 
 	<div class="section-wrapper">
-		<section class="question-answer-section">
-			<div class="question-answer-links">
-				<div class="question-links">
+		<section class="question-answer-section py-24">
+			<div
+				class="question-answer-links flex flex-col items-center justify-center gap-6 md:flex-row"
+			>
+				<div class="question-links flex flex-col gap-4 md:flex-row">
 					{#each Array(4) as _}
-						<a href="/questions" class="question-link">Question</a>
+						<a href="/questions" class="question-link text-xl hover:underline">Question</a>
 					{/each}
 				</div>
-				<span class="arrow">{'>'}</span>
-				<div class="answer-types">
+				<span class="arrow text-4xl">{'>'}</span>
+				<div class="answer-types flex flex-col gap-4 md:flex-row">
 					{#each ['Answers', 'Tweets', 'Posts', 'Threads'] as type}
-						<span class="large-text">{type}</span>
+						<span class="text-xl">{type}</span>
 					{/each}
 				</div>
 			</div>
@@ -191,10 +192,12 @@
 
 	<div class="section-wrapper">
 		{#if sectionsVisible[3]}
-			<section class="challenges glass-area" in:fly={getTransition(3)}>
-				<h2>It is hard to find open discussions online.</h2>
-				<h3>Conversation gets stifled for the following reasons:</h3>
-				<ul>
+			<section class="challenges glass-area p-8" in:fly={getTransition(3)}>
+				<h2 class="mb-4 text-3xl font-bold">It is hard to find open discussions online.</h2>
+				<h3 class="mb-4 text-2xl font-semibold">
+					Conversation gets stifled for the following reasons:
+				</h3>
+				<ul class="list-disc space-y-4 pl-6">
 					<li>
 						<strong>People post into the void instead of asking questions.</strong> Rhetorical statements
 						turn people away in conversations while questions invite collaboration.
@@ -214,20 +217,26 @@
 
 	<div class="section-wrapper">
 		{#if sectionsVisible[4]}
-			<section class="deeper" in:fly={getTransition(4)}>
-				<h2>Bringing online conversations a layer deeper</h2>
-				<p class="description">
+			<section class="deeper py-12" in:fly={getTransition(4)}>
+				<h2 class="mb-4 text-3xl font-bold">Bringing online conversations a layer deeper</h2>
+				<p class="description mb-8 text-xl">
 					9takes is anonymous and influenced by the Enneagram personality system.<br />
-					<strong class="large-text"
+					<strong class="text-2xl"
 						>Think <span class="reddit-text">Reddit</span> based on personality.</strong
 					>
 				</p>
-				<ul class="bento-list">
+				<ul class="bento-list grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
 					{#each bentoItems as { href, img, alt, title }}
-						<li class="bento">
-							<a {href} class="bento-a">
-								<img src={`/blogs/${img}`} {alt} loading="lazy" width="200" height="200" />
-								<h3>{title}</h3>
+						<li
+							class="bento relative overflow-hidden rounded-lg shadow-md transition-transform hover:-translate-y-1"
+						>
+							<a {href} class="block">
+								<img src={`/blogs/${img}`} {alt} loading="lazy" class="h-48 w-full object-cover" />
+								<h3
+									class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 p-4 text-lg text-white"
+								>
+									{title}
+								</h3>
 							</a>
 						</li>
 					{/each}
@@ -238,24 +247,24 @@
 
 	<div class="section-wrapper">
 		{#if sectionsVisible[5]}
-			<section class="benefits glass-area" in:fly={getTransition(5)}>
-				<h2>Benefits of 9takes</h2>
-				<ul>
+			<section class="benefits glass-area p-8" in:fly={getTransition(5)}>
+				<h2 class="mb-6 text-3xl font-bold">Benefits of 9takes</h2>
+				<ul class="space-y-4">
 					{#each benefits as { text, icon }, index}
-						<li>
+						<li class="flex items-center">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								height="1em"
+								class="text-primary-dark mr-4 h-6 w-6"
 								viewBox="0 0 512 512"
 								aria-hidden="true"
 							>
 								<path d={icon} />
 							</svg>
-							<span>{text}</span>
+							<span class="text-lg">{text}</span>
 						</li>
 					{/each}
 				</ul>
-				<p>
+				<p class="mt-6 text-xl">
 					Explore the worldviews of different personality types by sifting through their answers to
 					questions.
 				</p>
@@ -266,8 +275,11 @@
 	{#if !data?.session?.user}
 		<div class="section-wrapper">
 			{#if sectionsVisible[6]}
-				<section class="signup" in:fly={getTransition(6)}>
-					<h2>Join 9takes Today</h2>
+				<section
+					class="signup rounded-lg bg-white p-8 text-center shadow-md"
+					in:fly={getTransition(6)}
+				>
+					<h2 class="mb-6 text-3xl font-bold">Join 9takes Today</h2>
 					<EmailSignup cta={'Sign up and start asking questions'} />
 				</section>
 			{/if}
@@ -280,42 +292,7 @@
 		--background-color: #f5f5f7;
 		--card-background: #ffffff;
 		--shadow-color: rgba(0, 0, 0, 0.1);
-	}
-
-	main {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
-
-	.section-wrapper {
-		margin-bottom: 4rem;
-	}
-
-	h1,
-	h2,
-	h3,
-	h4 {
-		margin-bottom: 1rem;
-		line-height: 1.2;
-	}
-
-	h1 {
-		font-size: 2.5rem;
-	}
-
-	h2 {
-		font-size: 2rem;
-	}
-
-	h3 {
-		font-size: 1.5rem;
-	}
-
-	p {
-		font-size: 1.1rem;
-		line-height: 1.6;
-		margin-bottom: 1rem;
+		--primary-dark: #1a202c;
 	}
 
 	.highlight {
@@ -323,182 +300,22 @@
 		font-weight: 700;
 	}
 
-	.large-text {
-		font-size: 1.2em;
-	}
-
 	.glass-area {
 		background: rgba(255, 255, 255, 0.2);
 		backdrop-filter: blur(10px);
 		border-radius: 1rem;
-		padding: 2rem;
 		box-shadow: 0 4px 6px var(--shadow-color);
 	}
 
-	// Hero Section
-	.hero {
-		display: flex;
-		align-items: center;
-		gap: 4rem;
-		margin: 4rem 0;
-		height: 90vh;
-
-		&-content {
-			display: flex;
-			align-items: center;
-			gap: 3rem;
-		}
-
-		&-image {
-			flex: 1;
-			// flex: 0 0 50%;
-			// max-width: 50%;
-		}
-
-		&-text {
-			// flex: 1;
-			max-width: 440px;
-		}
+	.text-shadow {
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 	}
 
-	// Question-Answer Links
-	.question-answer-section {
-		text-align: center;
-		margin: 200px 0;
+	.reddit-text {
+		color: #ff4500;
 	}
 
-	.question-answer-links {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 1.5rem;
-		margin-top: 2rem;
-	}
-
-	.question-links,
-	.answer-types {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.question-link {
-		font-size: 1.2rem;
-		color: var(--primary-dark);
-		text-decoration: none;
-		transition: color 0.3s ease;
-
-		&:hover {
-			text-decoration: underline;
-		}
-	}
-
-	.arrow {
-		font-size: 2rem;
-		color: var(--primary-dark);
-	}
-
-	// Find Out Section
-	.find-out {
-		text-align: center;
-	}
-
-	.question-list {
-		display: flex;
-		flex-direction: column;
-		// grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-		// gap: .5rem;
-		// margin-top: 2rem;
-	}
-
-	// Bento List
-	.bento-list {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-		gap: 1rem;
-		padding: 0;
-		list-style-type: none;
-	}
-
-	.bento {
-		position: relative;
-		overflow: hidden;
-		border-radius: 1rem;
-		transition: transform 0.3s ease;
-		box-shadow: 0 4px 6px var(--shadow-color);
-
-		&:hover {
-			transform: translateY(-5px);
-		}
-
-		img {
-			width: 100%;
-			height: 200px;
-			object-fit: cover;
-		}
-
-		h3 {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			margin: 0;
-			padding: 1rem;
-			background: rgba(0, 0, 0, 0.7);
-			color: #fff;
-			font-size: 1rem;
-		}
-	}
-
-	// Benefits Section
-	.benefits {
-		ul {
-			list-style-type: none;
-			padding: 0;
-		}
-
-		li {
-			display: flex;
-			align-items: center;
-			margin-bottom: 1rem;
-
-			svg {
-				width: 1.5em;
-				height: 1.5em;
-				margin-right: 1rem;
-				fill: var(--primary-dark);
-			}
-		}
-	}
-
-	// Signup Section
-	.signup {
-		text-align: center;
-		// background-color: var(--card-background);
-		padding: 2rem;
-		border-radius: 1rem;
-		box-shadow: 0 4px 6px var(--shadow-color);
-	}
-
-	// Responsive Design
-	@media (max-width: 1200px) {
-		main {
-			padding: 1rem;
-		}
-
-		.hero-content {
-			flex-direction: column-reverse;
-			gap: 2rem;
-		}
-
-		.hero-image,
-		.hero-text {
-			flex: 0 0 100%;
-			max-width: 100%;
-		}
-	}
-
-	@media (max-width: 768px) {
+	@media (max-width: 640px) {
 		h1 {
 			font-size: 2rem;
 		}
@@ -511,54 +328,16 @@
 			font-size: 1.5rem;
 		}
 
-		.hero {
-			margin: 2rem 0;
-		}
-
-		.hide-mobile {
-			display: none;
-		}
-
-		.question-answer-links {
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.question-links,
-		.answer-types {
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: center;
-		}
-
-		.bento-list {
-			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-		}
-	}
-
-	@media (max-width: 480px) {
-		h1 {
-			font-size: 1.75rem;
-		}
-
-		h2 {
-			font-size: 1.5rem;
-		}
-
-		h3 {
-			font-size: 1.25rem;
-		}
-
 		p {
 			font-size: 1rem;
 		}
 
-		.hero {
-			margin: 1rem 0;
+		.hero-content {
+			text-align: center;
 		}
 
-		.glass-area {
-			padding: 1rem;
+		.question-answer-links {
+			flex-direction: column;
 		}
 
 		.bento-list {
@@ -566,7 +345,6 @@
 		}
 	}
 
-	// Animation
 	.animate-on-scroll {
 		opacity: 0;
 		transform: translateY(20px);
