@@ -117,7 +117,9 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[0]}
 			<section class="hero py-12 md:py-24" in:fly={getTransition(0)}>
-				<div class="hero-content flex flex-col items-center justify-between gap-8 md:flex-row">
+				<div
+					class="hero-content flex flex-col-reverse items-center justify-between gap-8 md:flex-row"
+				>
 					<div class="hero-text max-w-lg">
 						<h1 class="mb-4 text-4xl font-bold md:text-5xl">Anonymous Questions and Answers</h1>
 						<!-- <h2 class="mb-4 text-2xl font-semibold md:text-3xl">Filter by Personality</h2> -->
@@ -159,24 +161,8 @@
 		{/if}
 	</div>
 
-	<!-- <div class="section-wrapper">
-		{#if sectionsVisible[2]}
-			<section
-				class="hero !p-2 py-12 md:py-24"
-				in:fly={getTransition(0)}
-				style="background-color: black; color: white; border-radius: 8px;"
-			>
-				<h2 class="mb-4 !p-2 !m-0 text-2xl font-semibold md:text-3xl" data-value={'9takes'} itemprop="name" style="background-color: black; color: white; border-radius: 8px;">
-					Comment before seeing other people's comments. <br />
-					<span>No more lurking</span> <br />
-					<span>+ you get unbiased takes</span>
-				</h2>
-			</section>
-		{/if}
-	</div> -->
-
 	<div class="section-wrapper">
-		{#if sectionsVisible[3]}
+		{#if sectionsVisible[2]}
 			<Jumbotron
 				image={'greek_pantheon.webp'}
 				showIcon={innerWidth > 760}
@@ -223,11 +209,11 @@
 	</div>
 
 	<div class="section-wrapper">
-		{#if sectionsVisible[4]}
+		{#if sectionsVisible[3]}
 			<section class="challenges glass-area p-8" in:fly={getTransition(3)}>
-				<h2 class="mb-4 text-3xl font-bold">It is hard to find open discussions online.</h2>
+				<h2 class="mb-4 text-3xl font-bold">It is hard to find real discussions online.</h2>
 				<h3 class="mb-4 text-2xl font-semibold">
-					Conversation gets stifled for the following reasons:
+					The conversation is always getting stifled. Here's why:
 				</h3>
 				<ul class="list-disc space-y-4 pl-6">
 					<li>
@@ -248,7 +234,7 @@
 	</div>
 
 	<div class="section-wrapper">
-		{#if sectionsVisible[5]}
+		{#if sectionsVisible[4]}
 			<section class="deeper py-12" in:fly={getTransition(4)}>
 				<h2 class="mb-4 text-3xl font-bold">Bringing online conversations a layer deeper</h2>
 				<p class="description mb-8 text-xl">
@@ -278,7 +264,7 @@
 	</div>
 
 	<div class="section-wrapper">
-		{#if sectionsVisible[6]}
+		{#if sectionsVisible[5]}
 			<section class="benefits glass-area p-8" in:fly={getTransition(5)}>
 				<h2 class="mb-6 text-3xl font-bold">Benefits of 9takes</h2>
 				<ul class="space-y-4">
@@ -306,7 +292,7 @@
 
 	{#if !data?.session?.user}
 		<div class="section-wrapper">
-			{#if sectionsVisible[7]}
+			{#if sectionsVisible[6]}
 				<section
 					class="signup rounded-lg bg-white p-8 text-center shadow-md"
 					in:fly={getTransition(6)}
