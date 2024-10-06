@@ -164,7 +164,7 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[2]}
 			<Jumbotron
-				image={'greek_pantheon.webp'}
+				image={'philosopher-gathering.webp'}
 				showIcon={innerWidth > 760}
 				text={'9takes'}
 				subtext={''}
@@ -172,9 +172,15 @@
 			>
 				<div class="content-display" in:fly={getTransition(2)}>
 					<p class="text-shadow mb-4 text-center font-bold text-white">
-						Where can you find unbiased and different viewpoints/ opinions/ answers/ feedback/ takes
-						<br class="hidden md:inline" />
-						on any situation you can think of?
+						Like the ancient Greek philosophers of old, we need modern day thinkers asking detailed
+						questions <br />
+						to understand the world around us.
+
+						<!-- After all, when you run out of questions you not only run out of answers, you run out of
+						hope.
+						Where can you find unbiased and different viewpoints/ opinions/ answers/ feedback/ takes -->
+						<!-- <br class="hidden md:inline" /> -->
+						<!-- on any situation you can think of? -->
 					</p>
 					<h2
 						class="text-shadow text-center text-4xl font-bold text-white md:text-5xl"
@@ -236,12 +242,14 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[4]}
 			<section class="deeper py-12" in:fly={getTransition(4)}>
-				<h2 class="mb-4 text-3xl font-bold">Bringing online conversations a layer deeper</h2>
+				<h2 class="mb-4 text-3xl font-bold">Bring online conversations a layer deeper</h2>
 				<p class="description mb-8 text-xl">
-					9takes is anonymous and influenced by the Enneagram personality system.<br />
+					9takes is influenced by the Enneagram personality system.<br />
 					<strong class="text-2xl"
-						>Think <span class="reddit-text">Reddit</span> based on personality.</strong
+						>Think <span class="reddit-text">Reddit</span> based on Personality.</strong
 					>
+					<br />
+					Filter comments by Personality (it's ok if you do not know yours).
 				</p>
 				<ul class="bento-list grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
 					{#each bentoItems as { href, img, alt, title }}
@@ -330,7 +338,12 @@
 	}
 
 	.reddit-text {
-		color: #ff4500;
+		/* color: #ff4500; */
+		text-decoration: underline;
+		text-decoration-color: #ff4500;
+		text-decoration-style: dotted;
+		text-decoration-thickness: 0.125rem;
+		text-underline-offset: 0.125rem;
 	}
 
 	@media (max-width: 640px) {
