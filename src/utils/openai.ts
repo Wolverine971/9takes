@@ -37,7 +37,7 @@ export const tagQuestions = async () => {
 
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_categories')
-			.select('tag_id, category_name');
+			.select('id, category_name');
 		if (tagsError || questionsError) {
 			return;
 		}
@@ -70,7 +70,7 @@ export const tagQuestions = async () => {
 			const newTags = tag.tags;
 			const newTagz = tags.filter((e) => newTags.includes(e.category_name));
 
-			const newTagIds = newTagz.map((e) => e.tag_id);
+			const newTagIds = newTagz.map((e) => e.id);
 			const questionId = questions?.find((e) =>
 				e.question.includes(tag.question.slice(1, tag.question.length - 2))
 			)?.id;
@@ -114,7 +114,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		const demo_time = await checkDemoTime();
 		const { data: tags, error: tagsError } = await supabase
 			.from('question_categories')
-			.select('tag_id, category_name')
+			.select('id, category_name')
 			.eq('level', 3);
 		if (tagsError) {
 			return;
@@ -182,9 +182,9 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 				const newTags = chatResp.tags;
 				const newTagz = tags.filter((e) => newTags.includes(e.category_name));
 
-				const newTagIds = newTagz.map((e) => e.tag_id);
+				const newTagIds = newTagz.map((e) => e.id);
 
-				if (!newTagz.length) {
+				if (!newTagz?.length) {
 					await supabase
 						.from(demo_time === true ? 'questions_demo' : 'questions')
 						.update({ flagged: true, updated_at: new Date() })

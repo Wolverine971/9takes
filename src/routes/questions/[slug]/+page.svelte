@@ -60,7 +60,6 @@
 			}
 		};
 	});
-	console.log(data);
 
 	const questionJsonLd = formattedAIComments?.length
 		? JSON.stringify({
