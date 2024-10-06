@@ -43,6 +43,11 @@
 	// };
 
 	let jsonld = JSON.stringify(jsonldString);
+
+	const isHowToGuide = slug.includes('how-to');
+	const tags = isHowToGuide
+		? ['How to', 'Guide']
+		: ['Personality', 'Enneagram', 'Psychology', data.person?.split('-').join(' ')];
 </script>
 
 <svelte:head>
@@ -68,6 +73,12 @@
 	{#if data?.pic}
 		<meta name="twitter:image:alt" content={data?.pic?.split('-').join(' ')} />
 	{/if}
+	<meta property="article:author" content="DJ Wayne" />
+
+	<meta property="article:published_time" content={data.date} />
+	<meta property="article:modified_time" content={data.lastmod} />
+	<meta property="article:section" content={isHowToGuide ? 'How-To-Guides' : 'Enneagram-Corner'} />
+	<meta property="article:tag" content={tags.join(', ')} />
 
 	{@html `<script type="application/ld+json">${jsonld}</script>`}
 </svelte:head>
