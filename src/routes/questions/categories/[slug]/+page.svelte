@@ -81,7 +81,7 @@
 			{data?.questionTag?.category_name}
 		</h1>
 		{#each hierarchicalData as category (category.id)}
-			<div class="mb-1 rounded-lg border border-gray-200 p-4 shadow-sm">
+			<div class="mb-1 rounded-lg border border-gray-200 p-2 shadow-sm">
 				<h2 class="!my-1 flex items-center !py-0 text-lg font-medium text-gray-900">
 					<A
 						href={formatUrl(category.category_name)}
@@ -114,14 +114,10 @@
 											</li>
 										{/each}
 									</ul>
-								{:else}
-									<p class="mt-1 text-xs italic text-gray-500">No subcategories</p>
 								{/if}
 							</div>
 						{/each}
 					</div>
-				{:else}
-					<p class="text-sm italic text-gray-500">No subcategories</p>
 				{/if}
 			</div>
 		{/each}
