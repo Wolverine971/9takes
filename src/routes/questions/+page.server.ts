@@ -31,15 +31,15 @@ export const load: PageServerLoad = async (event) => {
 			}
 		}
 
-		const { data: uniquetags, error: tagsError } = await supabase
-			.from(demo_time === true ? 'distinct_question_tags_demo' : 'distinct_question_tags')
+		const { data: uniqueQuestionTags, error: tagsError } = await supabase
+			.from('distinct_question_categories')
 			.select();
 
 		if (tagsError) {
 			console.log(tagsError);
 		}
 
-		const tags = uniquetags?.map((t) => {
+		const tags = uniqueQuestionTags?.map((t) => {
 			return t.tag_id;
 		});
 		if (!tags) {
@@ -53,9 +53,9 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		const { data: subcategoryTags, error: subcategoryTagsError } = await supabase
-			.from('question_tag')
-			.select(`*, question_subcategories(*, question_subcategories(*))`)
-			.in('tag_id', tags);
+			.from('question_categories')
+			.select(`*, question_category_tags(*)`)
+			.in('id', tags);
 
 		if (subcategoryTagsError) {
 			throw error(500, {
@@ -63,6 +63,7 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
+		// all comments
 		const { data: questionsAndTags, error: findQuestionsError } = await supabase.rpc(
 			'get_10_question_tags',
 			{}
@@ -73,16 +74,16 @@ export const load: PageServerLoad = async (event) => {
 		}
 
 		const { data: allTags, error: allTagsError } = await supabase
-			.from('question_tag')
-			.select(`*, question_subcategories(*, question_subcategories(*))`);
+			.from('question_categories')
+			.select(`*`)
 
 		if (allTagsError) {
 			console.log(allTagsError);
 		}
 
 		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
-			.from('question_subcategories')
-			.select(`*, question_subcategories(*, question_subcategories(*))`);
+			.from('question_category_tags')
+			.select(`*`)
 
 		if (questionSubcategoriesError) {
 			console.log(questionSubcategoriesError);
@@ -210,9 +211,8 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
-					!enneagramTypes.includes('rando') ? '!inner' : ''
-				} (enneagram, id)
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
+					} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
 						count: 'exact'

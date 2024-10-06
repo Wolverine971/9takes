@@ -424,7 +424,6 @@
 	h1 {
 		font-size: 2.5rem;
 		color: var(--text-color);
-		text-align: center;
 		margin-bottom: 1rem;
 	}
 

@@ -206,7 +206,7 @@
 						{/each}
 						{#if dayContent.length > 2}
 							<div
-								class="cursor-pointer text-xs text-blue-600 hover:underline"
+								class="cursor-pointer text-xs text-primary-600 hover:underline"
 								on:click|stopPropagation={() => openAllContentModal(dayContent)}
 							>
 								+{dayContent.length - 2} more

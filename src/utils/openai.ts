@@ -36,13 +36,13 @@ export const tagQuestions = async () => {
 		}
 
 		const { data: tags, error: tagsError } = await supabase
-			.from('question_tag')
-			.select('tag_id, tag_name');
+			.from('question_categories')
+			.select('tag_id, category_name');
 		if (tagsError || questionsError) {
 			return;
 		}
 
-		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.tag_name).join(', '));
+		const prompt = getMultiQuestionsPrompt(tags.map((e) => e.category_name).join(', '));
 		const questionsToClassify = getTheQuestionsToClassify(questions.map((e) => e.question));
 
 		const openai = new OpenAI({
@@ -68,7 +68,7 @@ export const tagQuestions = async () => {
 
 		for await (const tag of cleanedTags) {
 			const newTags = tag.tags;
-			const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+			const newTagz = tags.filter((e) => newTags.includes(e.category_name));
 
 			const newTagIds = newTagz.map((e) => e.tag_id);
 			const questionId = questions?.find((e) =>
@@ -87,7 +87,7 @@ export const tagQuestions = async () => {
 			}
 
 			newTagIds.forEach(async (tagId) => {
-				await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+				await supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId });
 			});
 			await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
@@ -113,8 +113,9 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 	try {
 		const demo_time = await checkDemoTime();
 		const { data: tags, error: tagsError } = await supabase
-			.from('question_tag')
-			.select('tag_id, tag_name');
+			.from('question_categories')
+			.select('tag_id, category_name')
+			.eq('level', 3);
 		if (tagsError) {
 			return;
 		}
@@ -126,7 +127,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 		const completion = await openai.chat.completions.create({
 			model: 'gpt-3.5-turbo-1106',
 			messages: [
-				{ role: 'system', content: getPrompt(tags.map((e) => e.tag_name)) },
+				{ role: 'system', content: getPrompt(tags.map((e) => e.category_name)) },
 				{ role: 'user', content: questionText }
 			],
 			response_format: { type: 'json_object' }
@@ -179,7 +180,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 			.eq('id', questionId)
 			.then(async () => {
 				const newTags = chatResp.tags;
-				const newTagz = tags.filter((e) => newTags.includes(e.tag_name));
+				const newTagz = tags.filter((e) => newTags.includes(e.category_name));
 
 				const newTagIds = newTagz.map((e) => e.tag_id);
 
@@ -190,7 +191,7 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 						.eq('id', questionId);
 				} else {
 					newTagIds.forEach(async (tagId) => {
-						await supabase.from('question_tags').insert({ question_id: questionId, tag_id: tagId });
+						await supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId });
 					});
 				}
 

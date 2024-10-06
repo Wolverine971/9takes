@@ -12,6 +12,7 @@
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Footer from '$lib/components/molecules/Footer.svelte';
 	import BackNavigation from '$lib/components/atoms/BackNavigation.svelte';
+	import CategoryNavigation from '$lib/components/atoms/CategoryNavigation.svelte';
 
 	export let data: PageData;
 
@@ -92,6 +93,7 @@
 			page_path: $page.url.pathname
 		});
 	}
+	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
 </script>
 
 <svelte:head>
@@ -109,8 +111,11 @@
 <Header {data} />
 
 <Toast />
-{#if $page.url.pathname !== '/'}
+{#if $page.url.pathname !== '/' && !$page.url.pathname.includes('/categories')}
 	<BackNavigation />
+{/if}
+{#if $page.url.pathname.includes('/categories')}
+	<CategoryNavigation categoryStructure={parents} />
 {/if}
 <main
 	class="main {!maxWidthPages.includes($page.url.pathname) ? 'column-width' : 'column'} {$page.url
