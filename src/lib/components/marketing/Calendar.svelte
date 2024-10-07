@@ -13,6 +13,7 @@
 	export let templates: Template[];
 
 	let currentDate = new Date();
+	let todayDate = new Date();
 	let selectedContent: ContentItem | null = null;
 	let showEditModal = false;
 	let showCreateModal = false;
@@ -185,11 +186,21 @@
 
 		{#each calendarDays as day}
 			<div
-				class="h-24 overflow-hidden rounded-lg border p-1 sm:h-32 sm:p-2 md:h-32"
+				class="h-24 overflow-hidden rounded-lg border p-1 sm:h-32 sm:p-2 md:h-32 {day &&
+				day.toDateString() === todayDate.toDateString()
+					? 'bg-blue-100 dark:bg-blue-900'
+					: ''}"
 				on:click={() => day && openCreateModal(day)}
 			>
 				{#if day}
-					<div class="mb-1 text-xs font-bold sm:text-sm">{day.getDate()}</div>
+					<div
+						class="mb-1 text-xs font-bold sm:text-sm {day.toDateString() ===
+						todayDate.toDateString()
+							? 'text-blue-600 dark:text-blue-300'
+							: ''}"
+					>
+						{day.getDate()}
+					</div>
 					{@const dayContent = filteredContentItems
 						.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
 						.sort(sortContentByDateTime)}
