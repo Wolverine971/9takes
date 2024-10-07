@@ -4,7 +4,6 @@ import { error } from '@sveltejs/kit';
 
 /** @type {import('./$types').PageLoad} */
 export async function load(event) {
-
 	const slug = event.params.slug ? event.params.slug.split('-').join(' ') : '';
 	const { demo_time } = await event.parent();
 	const session = event.locals.session;
@@ -37,15 +36,19 @@ export async function load(event) {
 		throw error(500, "couldn't find questions");
 	}
 
-	const { data: parents, error: parentsError } = await supabase
-		.rpc('get_category_parent_structure', { input_category_name: slug })
+	const { data: parents, error: parentsError } = await supabase.rpc(
+		'get_category_parent_structure',
+		{ input_category_name: slug }
+	);
 
-	if (parentsError) console.error(parentsError)
+	if (parentsError) console.error(parentsError);
 
-	const { data: children, error: childrenError } = await supabase
-		.rpc('get_category_children_structure', { input_category_name: slug })
+	const { data: children, error: childrenError } = await supabase.rpc(
+		'get_category_children_structure',
+		{ input_category_name: slug }
+	);
 
-	if (childrenError) console.error(childrenError)
+	if (childrenError) console.error(childrenError);
 
 	const { data: questionTag, error: questionTagError } = await supabase
 		.from('question_categories')
@@ -65,7 +68,6 @@ export async function load(event) {
 		canAskQuestion
 	};
 }
-
 
 // // category tree balancing
 

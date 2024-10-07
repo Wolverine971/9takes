@@ -75,7 +75,7 @@ export const load: PageServerLoad = async (event) => {
 
 		const { data: allTags, error: allTagsError } = await supabase
 			.from('question_categories')
-			.select(`*`)
+			.select(`*`);
 
 		if (allTagsError) {
 			console.log(allTagsError);
@@ -83,7 +83,7 @@ export const load: PageServerLoad = async (event) => {
 
 		const { data: questionSubcategories, error: questionSubcategoriesError } = await supabase
 			.from('question_category_tags')
-			.select(`*`)
+			.select(`*`);
 
 		if (questionSubcategoriesError) {
 			console.log(questionSubcategoriesError);
@@ -211,8 +211,9 @@ export const actions: Actions = {
 				.from(demo_time === true ? 'comments_demo' : 'comments')
 				.select(
 					`*, 
-				${demo_time === true ? 'profiles_demo' : 'profiles'} ${!enneagramTypes.includes('rando') ? '!inner' : ''
-					} (enneagram, id)
+				${demo_time === true ? 'profiles_demo' : 'profiles'} ${
+					!enneagramTypes.includes('rando') ? '!inner' : ''
+				} (enneagram, id)
 				 ${demo_time === true ? 'comment_like_demo' : 'comment_like'} (id, comment_id, user_id)`,
 					{
 						count: 'exact'

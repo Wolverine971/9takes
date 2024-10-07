@@ -54,7 +54,10 @@ export const load: PageServerLoad = async (event) => {
 			};
 		}
 
-		const { data: categories, error: categoriesError } = await supabase.rpc('get_category_hierarchy', {});
+		const { data: categories, error: categoriesError } = await supabase.rpc(
+			'get_category_hierarchy',
+			{}
+		);
 		if (categoriesError) console.error('Error fetching categories:', categoriesError);
 
 		return {

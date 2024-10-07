@@ -87,7 +87,9 @@ export const tagQuestions = async () => {
 			}
 
 			newTagIds.forEach(async (tagId) => {
-				await supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId });
+				await supabase
+					.from('question_category_tags')
+					.insert({ question_id: questionId, tag_id: tagId });
 			});
 			await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
@@ -191,7 +193,9 @@ export const tagQuestion = async (questionText: string, questionId: number) => {
 						.eq('id', questionId);
 				} else {
 					newTagIds.forEach(async (tagId) => {
-						await supabase.from('question_category_tags').insert({ question_id: questionId, tag_id: tagId });
+						await supabase
+							.from('question_category_tags')
+							.insert({ question_id: questionId, tag_id: tagId });
 					});
 				}
 

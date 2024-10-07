@@ -14,11 +14,13 @@ export const load: LayoutServerLoad = async (event) => {
 	if (event.url.pathname.includes('/categories')) {
 		const slug = event.url.pathname.split('/').pop();
 
-		const { data: parentsCats, error: parentsError } = await supabase
-			.rpc('get_category_parent_structure', { input_category_name: slug?.split('-').join(' ') })
+		const { data: parentsCats, error: parentsError } = await supabase.rpc(
+			'get_category_parent_structure',
+			{ input_category_name: slug?.split('-').join(' ') }
+		);
 
-		if (parentsError) console.error(parentsError)
-		parents = parentsCats
+		if (parentsError) console.error(parentsError);
+		parents = parentsCats;
 	}
 
 	const demo_time = adminSettings?.filter((setting) => setting.type === 'demo_time')[0]?.value;
