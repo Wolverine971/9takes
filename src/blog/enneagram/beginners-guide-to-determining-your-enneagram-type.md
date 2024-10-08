@@ -4,7 +4,7 @@ description: "Navigate the Enneagram with ease using our Beginner's Guide. Uncov
 author: 'DJ Wayne'
 date: '2023-07-11'
 loc: 'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
-lastmod: '2024-07-12'
+lastmod: '2024-10-08'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -41,13 +41,19 @@ adjust title
 
 <p class="firstLetter"> Ever felt misunderstood?</p>
 
-Have you ever felt like you did not understand someone else?
+Have you ever felt like you did not understand someone else? Maybe neurodivergent?
 
-People are different, and a personality system called the Enneagram can help demystify others and yourself. The Enneagram offers a framework for understanding people's core fears and motivations.
+Well, you are different, and that is why so many are obsessed with personality. And there is one personality system called the Enneagram, which can help demystify yourself and others. The Enneagram is a framework for understanding people's core fears and motivations.
 
-I remember how life was before I discovered my Enneagram type.
+**How I discovered my Enneagram type:**
 
-My wife and I often had disagreements we couldn't resolve. We would argue about who was right, disagreeing over the facts and trying to impose our versions of the truth on each other. We thought we already understood each other's perspectives, but we did not slow down and dive deep into where we were each coming from. The Enneagram helped us slow down. It was a tool and a lifeline for our relationship. **The more we dove into the Enneagram and each other's type, the more we began to see into each other's inner world.**
+My wife and I, being newly married, couldn't resolve our disagreements. We felt like we tried everything. Our fights would escalate as we tried to force our viewpoints on each other when, in reality, we both were demanding to be understood (later in therapy, we learned to slow down and take turns mirroring each other).
+
+I felt we were out of options, and my wife suggested I take a personality test. I was skeptical but was also willing to give it a shot because what I was doing clearly wasn't working. So I took the test and had my mind blown 🤯.
+
+Before the personality test, we thought we already understood each other's perspectives, but little did we know how the surface level was our understanding of each other's worlds. **The Enneagram helped us slow down and gave us a partial map of each other's inner world.**
+
+We got in it, loved it, and became obsessed with it.
 
 It helped us resolve our conflict then, and we continue to use it now.
 
@@ -57,17 +63,17 @@ In this guide, I'll simplify the complex world of the Enneagram. I'll show you e
 
 ### What is an Enneagram?
 
-There is much to cover, but we will cover the broad strokes.
+The Enneagram goes deep, but we will cover the broad strokes in 4 steps.
 
-The Enneagram is a personality system. A personality is a grouping of characteristics that explain how people are similar and different. The Enneagram looks at thoughts, feelings, and actions and identifies "types" or archetypes. There are 9 core types, and you might have heard someone mention that they are an 8 or a 4.
+But first, let's demystify personality. "Personality" is a grouping of characteristics that explain how people are similar and different. The Enneagram looks at thoughts, feelings, and actions and identifies "types" or archetypes. There are 9 core types, which is what people mean when they say, "I am a type 8 or a type 4," etc.
 
-### How your Enneagram Type is Formed
+### How your Enneagram Type is Formed (nature vrs nurture?)
 
-It is said that your type/ personality is formed in childhood as a response to some unmet need (e.g., a **childhood wound**).
+It is said that your type/ personality is formed in childhood as a response to an unmet need or a childhood trauma ( aka**childhood wound**).
 
-Your type can be thought of as a coping mechanism or a survival strategy that you developed and still use today. Parts of your personality help you survive, and parts hold you back.
+Your type can be thought of as a coping mechanism or a survival strategy that you developed in childhood but still use today. Parts of your personality help you survive, and parts hold you back.
 
-For example:
+#### Examples of childhood trauma patterns:
 
 - A child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough.
 - A child who grew up in a chaotic environment might cope by distracting themselves, always looking on the bright side, and avoiding uncomfortable or painful situations.
@@ -123,7 +129,11 @@ With that in mind, you are now ready to determine your Enneagram type.
 
 ### 4. Find Your Type
 
-Each type has a core emotion, core motivation, and core fear. Look through the following to get a sense of what your type might be.
+Look through the following list and try to deduce your type.
+
+Once you have identified a type that you think you might be ask a friend about it. Maybe even look through the following list with a friend. Each type has a core emotion, core motivation, and core fear. Look through the following to get a sense of what your type might be.
+
+If you have identified your core emotion look for a type that has that core emotion.
 
 <section class="section-content">
 
