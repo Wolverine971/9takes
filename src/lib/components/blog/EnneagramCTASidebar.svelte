@@ -59,12 +59,12 @@
 					bind:value={email}
 					placeholder="Enter your email"
 					required
-					class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+					class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500"
 				/>
 			</div>
 			<button
 				type="submit"
-				class="w-full rounded-md bg-blue-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-blue-700"
+				class="w-full rounded-md bg-primary-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-primary-700"
 			>
 				Get Free Guide
 			</button>

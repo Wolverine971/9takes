@@ -48,7 +48,7 @@
 					<li>
 						<a
 							href={`/personality-analysis/${link.split(' ').join('-')}`}
-							class="text-blue-600 transition-colors duration-200 hover:text-blue-800"
+							class="text-primary-600 transition-colors duration-200 hover:text-primary-800"
 						>
 							{`${link}`}
 						</a>

@@ -59,7 +59,7 @@
 	};
 </script>
 
-{#if comment_count > 0 && comments.length === 0 && parentType === 'question' && parentData?.flags?.userHasAnswered}
+{#if comment_count > 0 && comments?.length && parentType === 'question' && parentData?.flags?.userHasAnswered}
 	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
 {/if}
 

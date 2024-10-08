@@ -5,27 +5,24 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+	import { Button, Badge } from 'flowbite-svelte';
 
 	export let questionData: any;
 	export let tags: any[];
 
 	const dispatch = createEventDispatcher();
 
-	let innerWidth = 0;
 	let selectedTags = questionData.question_tag;
 	let editing = false;
 	let taggingLoading = false;
 	let questionEditsSaving = false;
 
-	$: formattedDate = formatDate(questionData?.created_at, innerWidth);
+	$: formattedDate = formatDate(questionData?.created_at);
 	$: availableTags = tags.filter((t) => !selectedTags.some((st) => st.tag_id === t.tag_id));
 
-	function formatDate(dateString: string, width: number): string {
+	function formatDate(dateString: string): string {
 		const date = new Date(dateString);
-		const month = date.getUTCMonth() + 1;
-		const day = date.getUTCDate();
-		const year = date.getUTCFullYear();
-		return `${month}/${day}${width > 400 ? '/' + year : ''}`;
+		return date.toLocaleDateString();
 	}
 
 	async function remove() {
@@ -63,7 +60,6 @@
 
 			if (result?.success) {
 				notifications.info('Tagged question', 3000);
-				getModal(`tag-question-${questionData.id}`).close();
 				editing = false;
 			} else {
 				notifications.danger('Error tagging question', 3000);
@@ -100,72 +96,71 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth />
+<div class="question-card mb-4 rounded-lg bg-white p-4 shadow-md dark:bg-gray-800">
+	<div class="mb-4">
+		<p class="text-sm text-gray-600 dark:text-gray-400"><b>Original:</b> {questionData.question}</p>
+		<p class="text-sm text-gray-600 dark:text-gray-400">
+			<b>Formatted:</b>
+			{questionData.question_formatted}
+		</p>
+	</div>
 
-<div class="question-card">
-	<div class="question-content">
-		<p class="question-display"><b>Original:</b> {questionData.question}</p>
-		<p class="question-display"><b>Formatted:</b> {questionData.question_formatted}</p>
+	<div class="mb-4 flex flex-wrap gap-2">
+		<Badge color={questionData.flagged ? 'red' : 'gray'}>Flagged: {questionData.flagged}</Badge>
+		<Badge color={questionData.removed ? 'red' : 'gray'}>Removed: {questionData.removed}</Badge>
+		<Badge color="blue">{formattedDate}</Badge>
+		<Badge color="purple">
+			{questionData.comment_count || '0'}
+			<MasterCommentIcon
+				iconStyle="margin-left: .5rem"
+				height="1rem"
+				fill={questionData.comment_count ? 'currentColor' : ''}
+				type={questionData.comment_count ? 'multiple' : 'empty'}
+			/>
+		</Badge>
 	</div>
-	<div class="question-meta">
-		<div class="meta-item">
-			<span class="comment-span-display">
-				{questionData.comment_count || ''}
-				<MasterCommentIcon
-					iconStyle="margin-left: .5rem"
-					height="1.5rem"
-					fill={questionData.comment_count ? 'var(--primary)' : ''}
-					type={questionData.comment_count ? 'multiple' : 'empty'}
-				/>
-			</span>
-			<span class="date-span">{formattedDate}</span>
-			<span style="color: {questionData.flagged ? 'red' : ''}">Flagged: {questionData.flagged}</span
-			>
-			<span style="color: {questionData.removed ? 'red' : ''}">Removed: {questionData.removed}</span
-			>
-		</div>
-		<div class="meta-item">
-			<span style="min-width: 80px;">Keywords:</span>
+
+	<div class="mb-4">
+		<h3 class="mb-2 text-sm font-semibold">Keywords:</h3>
+		<div class="flex flex-wrap gap-2">
 			{#if questionData.keywords?.length}
-				<div class="tags-div">
-					{#each questionData.keywords as keyword}
-						<span class="tag">{keyword}</span>
-					{/each}
-				</div>
+				{#each questionData.keywords as keyword}
+					<Badge color="green">{keyword}</Badge>
+				{/each}
 			{:else}
-				<span>No tags</span>
-			{/if}
-		</div>
-		<div class="meta-item">
-			<span style="min-width: 80px;">Tags:</span>
-			{#if selectedTags.length}
-				<div class="tags-div">
-					{#each selectedTags as tag}
-						<span class="tag">{tag.tag_name}</span>
-					{/each}
-				</div>
-			{:else}
-				<span>No tags</span>
+				<span class="text-sm text-gray-500">No keywords</span>
 			{/if}
 		</div>
 	</div>
-	<div class="">
-		<button
-			class="btn btn-primary"
-			on:click={() => getModal(`tag-question-${questionData.id}`).open()}
-		>
-			AI Tag
-		</button>
-		<button
-			class="btn btn-primary"
+
+	<div class="mb-4">
+		<h3 class="mb-2 text-sm font-semibold">Tags:</h3>
+		<div class="flex flex-wrap gap-2">
+			{#if selectedTags.length}
+				{#each selectedTags as tag}
+					<Badge color="indigo">{tag.tag_name}</Badge>
+				{/each}
+			{:else}
+				<span class="text-sm text-gray-500">No tags</span>
+			{/if}
+		</div>
+	</div>
+
+	<div class="flex flex-wrap gap-2">
+		<Button
+			size="sm"
 			on:click={() => {
-				editing = !editing;
-				getModal(`edit-modal-${questionData.id}`).open();
-			}}
+				getModal(`tag-question-${questionData.id}`).open();
+			}}>AI Tag</Button
 		>
-			{editing ? 'Editing' : 'Edit'}
-		</button>
-		<a href="/questions/{questionData.url}"><button class="btn btn-primary"> Go to </button></a>
+		<Button
+			size="sm"
+			on:click={() => {
+				editing = true;
+				getModal(`edit-modal-${questionData.id}`).open();
+			}}>Edit</Button
+		>
+		<Button size="sm" href="/questions/{questionData.url}">Go to</Button>
 	</div>
 </div>
 
@@ -178,66 +173,75 @@
 </Modal2>
 
 <Modal2 id={`edit-modal-${questionData.id}`}>
-	<div class="edit-modal-content">
-		<div class="question-edit">
-			<p><b>Original:</b> {questionData.question}</p>
-			<p><b>Formatted:</b></p>
-			<textarea bind:value={questionData.question_formatted} />
+	<div class="edit-modal-content p-4">
+		<h2 class="mb-4 text-xl font-bold">Edit Question</h2>
+		<div class="mb-4">
+			<p class="mb-2"><b>Original:</b> {questionData.question}</p>
+			<label
+				for="formatted-question"
+				class="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">Formatted:</label
+			>
+			<textarea
+				id="formatted-question"
+				bind:value={questionData.question_formatted}
+				class="w-full rounded-md border p-2"
+				rows="3"
+			></textarea>
 		</div>
-		<div class="meta-edit">
-			<div class="flex-between">
-				<span
-					>Flagged: <button on:click={() => (questionData.flagged = !questionData.flagged)}
-						>{questionData.flagged}</button
-					></span
-				>
-				<span
-					>Removed: <button on:click={() => (questionData.removed = !questionData.removed)}
-						>{questionData.removed}</button
-					></span
-				>
-			</div>
-			<div>
-				<h2>Selected Tags</h2>
-				<div class="tags-container">
-					{#each selectedTags as tag}
-						<span class="tag">
-							{tag.tag_name}
-							<button class="remove-tag-btn" on:click={() => removeTag(tag)}>
-								<XmarkIcon iconStyle="" height="1rem" fill="red" />
-							</button>
-						</span>
-					{/each}
-				</div>
-			</div>
-			<div>
-				<h2>Add Tags</h2>
-				<div class="big-tags">
-					{#each availableTags as tag}
-						<button class="tag" on:click={() => addTag(tag)}>{tag.tag_name}</button>
-					{/each}
-				</div>
+
+		<div class="mb-4 flex justify-between">
+			<Button
+				size="sm"
+				color={questionData.flagged ? 'red' : 'gray'}
+				on:click={() => (questionData.flagged = !questionData.flagged)}
+			>
+				Flagged: {questionData.flagged}
+			</Button>
+			<Button
+				size="sm"
+				color={questionData.removed ? 'red' : 'gray'}
+				on:click={() => (questionData.removed = !questionData.removed)}
+			>
+				Removed: {questionData.removed}
+			</Button>
+		</div>
+
+		<div class="mb-4">
+			<h3 class="mb-2 text-lg font-semibold">Selected Tags</h3>
+			<div class="flex flex-wrap gap-2">
+				{#each selectedTags as tag}
+					<Badge color="indigo">
+						{tag.tag_name}
+						<button class="ml-1 text-xs" on:click={() => removeTag(tag)}>
+							<XmarkIcon iconStyle="" height="0.75rem" fill="currentColor" />
+						</button>
+					</Badge>
+				{/each}
 			</div>
 		</div>
-		<button
-			class="btn btn-primary save-btn"
-			disabled={questionEditsSaving}
-			on:click={saveQuestionEdits}
-		>
-			{questionEditsSaving ? 'Saving...' : 'Save'}
-		</button>
+
+		<div class="mb-4">
+			<h3 class="mb-2 text-lg font-semibold">Add Tags</h3>
+			<div class="flex max-h-40 flex-wrap gap-2 overflow-y-auto rounded-md border p-2">
+				{#each availableTags as tag}
+					<Button size="xs" on:click={() => addTag(tag)}>{tag.tag_name}</Button>
+				{/each}
+			</div>
+		</div>
+
+		<div class="flex justify-end gap-2">
+			<Button color="gray" on:click={() => (editing = false)}>Cancel</Button>
+			<Button disabled={questionEditsSaving} on:click={saveQuestionEdits}>
+				{questionEditsSaving ? 'Saving...' : 'Save'}
+			</Button>
+		</div>
 	</div>
 </Modal2>
 
 <style lang="scss">
 	.question-card {
 		width: 100%;
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
 		position: relative;
-		margin: var(--card-margin);
-		padding: var(--card-padding);
 		box-shadow:
 			0 3px 1px -2px rgba(0, 0, 0, 0.2),
 			0 2px 2px 0 rgba(0, 0, 0, 0.14),
@@ -254,120 +258,9 @@
 				0 1px 5px 0 var(--color-theme-purple-light);
 		}
 	}
-
-	.question-content,
-	.question-meta {
-		display: flex;
-		flex-direction: column;
-		// gap: 0.5rem;
-	}
-
-	.question-display {
-		word-break: normal;
-		display: flex;
-		align-items: center;
-		text-wrap: balance;
-		gap: 0.5rem;
-		margin: 0 0.5rem;
-	}
-
-	.meta-item {
-		display: flex;
-		gap: 1rem;
-		align-items: center;
-	}
-
-	.comment-span-display {
-		display: flex;
-		justify-content: space-between;
-		font-weight: bold;
-		color: var(--color-p-dark);
-	}
-
-	.date-span,
-	.tag {
-		border: var(--classic-border);
-		border-radius: var(--base-border-radius);
-		padding: 0.3rem;
-	}
-
-	.top-right,
-	.bottom-right {
-		position: absolute;
-		padding: 0.25rem;
-		min-width: 4rem;
-	}
-
-	.top-right {
-		top: 0;
-		right: 0;
-		border-radius: 0 0 0 5px;
-		border-top: none;
-		border-right: none;
-	}
-
-	.bottom-right {
-		bottom: 0;
-		right: 0;
-		border-radius: 5px 0 0 0;
-		border-bottom: none;
-		border-right: none;
-	}
-
-	.tags-div,
-	.big-tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-		max-height: 100px;
-		overflow-y: auto;
-	}
-
-	.big-tags {
-		max-width: 900px;
-		border: var(--classic-border);
-		border-radius: var(--base-border-radius);
-		padding: 0.5rem;
-	}
-
-	.tag {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		font-size: 0.8rem;
-		cursor: pointer;
-
-		&:hover {
-			background-color: var(--base-white-outline);
-		}
-	}
-
-	.save-btn {
-		align-self: flex-end;
-	}
-
 	.edit-modal-content {
 		max-height: 500px;
+		max-width: 600px;
 		overflow-y: auto;
-	}
-
-	@media (max-width: 576px) {
-		.question-card {
-			margin: 0.5rem;
-			padding: 0.5rem;
-		}
-
-		.question-display {
-			width: 90%;
-			margin: 0;
-			word-break: break-word;
-			display: block;
-		}
-
-		.meta-item {
-			flex-direction: column;
-			margin: 0.5rem;
-			width: 100%;
-		}
 	}
 </style>

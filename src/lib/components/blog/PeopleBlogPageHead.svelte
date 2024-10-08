@@ -48,5 +48,14 @@
 		<meta name="twitter:image:alt" content={data?.person?.split('-').join(' ')} />
 	{/if}
 
+	<meta property="article:author" content="DJ Wayne" />
+	<meta property="article:published_time" content={data.date} />
+	<meta property="article:modified_time" content={data.lastmod} />
+	<meta property="article:section" content="Personality-Analysis" />
+	<meta
+		property="article:tag"
+		content="Personality, Enneagram, Psychology, {data.person?.split('-').join(' ')}"
+	/>
+
 	<!-- {@html `<script type="application/ld+json">${jsonld}</script>`} -->
 </svelte:head>

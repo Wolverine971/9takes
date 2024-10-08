@@ -4,7 +4,6 @@
 	const handleSubmit = async (event: Event) => {
 		event.preventDefault();
 		// Add your form submission logic here
-		console.log('Submitting email:', email);
 		// You might want to add error handling and success messaging here
 	};
 	const ogImage = 'https://9takes.com/greek_pantheon.png';

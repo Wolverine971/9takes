@@ -10,7 +10,7 @@
 	<h3 style="margin: .5rem 0; padding: .7rem 0; margin-top: 0; padding-top: 0;">
 		This blog is written for
 		<span style="color: var(--accent-dark)">you</span> to learn about yourself, not just about
-		<span style="color: var(--accent-dark)">{slug.split('-').join(' ')}</span>
+		<span style="color: var(--accent-dark)">{slug.split('-').join(' ')}.</span>
 	</h3>
 
 	<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 1rem;display: inline;">
@@ -18,8 +18,8 @@
 
 	<div class="text-sections">
 		<div class="enneagram-familiar">
-			<h4 style="margin: 0; padding: .5rem 0;">If you are already deep into the Enneagram</h4>
-			<p style="margin-top: .5rem;">
+			<h4 style="margin: 0; padding: .5rem 0;">If you are already deep into the Enneagram:</h4>
+			<p style="margin-top: .5rem; padding-left: .25rem">
 				Join our growing community of individuals who are exploring their inner worlds and learning
 				from each other. Share your insights and discover new perspectives here on 9takes.
 			</p>
@@ -28,7 +28,7 @@
 			<h4 style="margin: 0px; padding: .5rem 0;">
 				Hearing about the Enneagram for the first time?
 			</h4>
-			<p style="margin-top: .5rem;">
+			<p style="margin-top: .5rem; padding-left: .25rem">
 				Learn more. The Enneagram is a powerful tool for self-discovery and understanding others. It
 				offers unique insights into your personality and gets at your core fears and motivations.
 				With it you can better understand yourself and those around you.

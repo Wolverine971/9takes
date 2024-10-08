@@ -110,11 +110,11 @@
 			{#each data.subcategoryTags as category}
 				{#if category}
 					<a
-						href={`/questions/categories/${category.tag_name.split(' ').join('-')}`}
+						href={`/questions/categories/${category.category_name.split(' ').join('-')}`}
 						class="tag shimmer-button"
 						data-sveltekit-preload-data="tap"
 					>
-						{category.tag_name}
+						{category.category_name}
 					</a>
 				{/if}
 			{/each}
@@ -124,11 +124,11 @@
 	<div class="recent-questions" in:fly={{ y: 20, duration: 300, delay: 750 }}>
 		<h2>Recent Questions</h2>
 		{#each data.subcategoryTags as category}
-			{#if categories[category.tag_name]?.length}
+			{#if categories[category.category_name]?.length}
 				<div in:fly={{ y: 20, duration: 300, delay: 600 }}>
-					<h3 id={category.tag_name}>{category.tag_name}</h3>
+					<h3 id={category.category_name}>{category.category_name}</h3>
 					<div>
-						{#each categories[category.tag_name] as questionData}
+						{#each categories[category.category_name] as questionData}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
 					</div>

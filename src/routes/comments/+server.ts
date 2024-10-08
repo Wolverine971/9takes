@@ -49,7 +49,7 @@ export async function GET({ url, locals, cookies }) {
 			.order('created_at', { ascending: false })
 			.range(range, range + 10);
 
-		if (questionCommentsError || questionComments?.length === 0) {
+		if (questionCommentsError || questionComments?.length) {
 			throw new Error('Unable to retrieve comments');
 		}
 

@@ -3,7 +3,15 @@
 
 	// import twitter from '$lib/images/twitter.svg';
 
-	const formattedDate = new Date(metaData.date).toDateString();
+	const createdDate = new Date(metaData.date);
+	$: year = createdDate.getFullYear();
+	$: month = createdDate.getMonth() + 1;
+	$: day = createdDate.getDate();
+
+	const lastUpdated = new Date(metaData.lastmod);
+	$: lastUpdatedYear = lastUpdated.getFullYear();
+	$: lastUpdatedMonth = lastUpdated.getMonth() + 1;
+	$: lastUpdatedDay = lastUpdated.getDate();
 </script>
 
 <p>
@@ -33,7 +41,12 @@
 			/> -->
 		</a>
 	</span>
-	<span class="date">{formattedDate}</span>
+	{#if createdDate.toDateString() !== lastUpdated.toDateString()}
+		<span class="date">{`(Updated: ${lastUpdatedMonth}/${lastUpdatedDay}/${lastUpdatedYear})`}</span
+		>
+	{:else}
+		<span class="date">{`${month}/${day}/${year}`}</span>
+	{/if}
 </p>
 
 <style>

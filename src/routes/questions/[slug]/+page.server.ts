@@ -440,8 +440,8 @@ async function checkUserAnswered(
 
 async function getQuestionTags(questionId: number) {
 	const { data, error } = await supabase
-		.from('question_tags')
-		.select(`*, question_tag(*)`, { count: 'exact' })
+		.from('question_category_tags')
+		.select(`*, question_categories(*)`, { count: 'exact' })
 		.eq('question_id', questionId);
 
 	if (error) {

@@ -13,6 +13,7 @@
 	export let templates: Template[];
 
 	let currentDate = new Date();
+	let todayDate = new Date();
 	let selectedContent: ContentItem | null = null;
 	let showEditModal = false;
 	let showCreateModal = false;
@@ -185,11 +186,21 @@
 
 		{#each calendarDays as day}
 			<div
-				class="h-24 overflow-hidden rounded-lg border p-1 sm:h-32 sm:p-2 md:h-32"
+				class="h-24 overflow-hidden rounded-lg border p-1 sm:h-32 sm:p-2 md:h-32 {day &&
+				day.toDateString() === todayDate.toDateString()
+					? 'bg-blue-100 dark:bg-blue-900'
+					: ''}"
 				on:click={() => day && openCreateModal(day)}
 			>
 				{#if day}
-					<div class="mb-1 text-xs font-bold sm:text-sm">{day.getDate()}</div>
+					<div
+						class="mb-1 text-xs font-bold sm:text-sm {day.toDateString() ===
+						todayDate.toDateString()
+							? 'text-blue-600 dark:text-blue-300'
+							: ''}"
+					>
+						{day.getDate()}
+					</div>
 					{@const dayContent = filteredContentItems
 						.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
 						.sort(sortContentByDateTime)}
@@ -206,7 +217,7 @@
 						{/each}
 						{#if dayContent.length > 2}
 							<div
-								class="cursor-pointer text-xs text-blue-600 hover:underline"
+								class="cursor-pointer text-xs text-primary-600 hover:underline"
 								on:click|stopPropagation={() => openAllContentModal(dayContent)}
 							>
 								+{dayContent.length - 2} more
@@ -220,7 +231,7 @@
 </div>
 
 <Modal bind:open={showEditModal} size="xl" autoclose={false} class="w-full">
-	<h2 class="mb-4 text-2xl font-bold">Edit Content</h2>
+	<h2 class="mb-4 mt-0 pb-0 pt-0 text-2xl font-bold">Edit Content</h2>
 	{#if selectedContent}
 		<ContentEditor
 			contentItem={selectedContent}

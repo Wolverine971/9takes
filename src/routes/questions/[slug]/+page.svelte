@@ -60,7 +60,6 @@
 			}
 		};
 	});
-	console.log(data);
 
 	const questionJsonLd = formattedAIComments?.length
 		? JSON.stringify({
@@ -131,11 +130,11 @@
 			{/if}
 			{#each data.questionTags as tag}
 				<a
-					href={`/questions/categories/${tag.question_tag.tag_name.split(' ').join('-')}`}
+					href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
 					class="tag"
 					rel="tag"
 				>
-					{tag.question_tag.tag_name}
+					{tag.question_categories.category_name}
 				</a>
 			{/each}
 		{/if}

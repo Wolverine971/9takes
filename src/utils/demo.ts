@@ -4,7 +4,7 @@ export const mapDemoValues = (values: { [x: string]: any }[] | { [x: string]: an
 		return null;
 	}
 	if (Array.isArray(values)) {
-		if (values.length === 0) {
+		if (!values?.length) {
 			return [];
 		}
 		return values.map((value) => {

@@ -73,7 +73,7 @@
 	.enneagram-type-page {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 2rem 1rem;
+		padding: 0 1rem;
 	}
 
 	h2 {

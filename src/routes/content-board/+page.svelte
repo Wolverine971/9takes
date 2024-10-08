@@ -8,7 +8,6 @@
 
 	export let data: PageData;
 
-	console.log(data);
 	let expandedBlogTitle: string | null = null;
 	let activeSelection = 'enneagram';
 
