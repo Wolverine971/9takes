@@ -4,7 +4,7 @@ description: 'Level up your dating game with Enneagram insights. Discover type-s
 author: 'DJ Wayne'
 date: '2024-09-13'
 loc: 'https://9takes.com/enneagram-corner/enneagram-dating-guide-for-men'
-lastmod: '2024-09-28'
+lastmod: '2024-10-11'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -51,9 +51,13 @@ pic: 'male-greek-statue-on-a-date'
     </ul>
 </details>
 
-<p class="firstLetter">Hey guys, sick of the same old dating advice that just doesn't click? Let's face it, most tips out there are about as useful as a screen door on a submarine. But here's the deal: to really up your game, you need to know yourself first. And not just surface-level stuff – we're talking deep-dive, soul-searching kinda knowledge.</p>
+<p class="firstLetter">Tired of useless dating advice? Forget "alpha male" nonsense. Real dating success starts with understanding yourself.</p>
 
-<p>Enter the Enneagram – your secret weapon in the dating world. It's not about becoming some alpha male stereotype; it's about being the most authentic, self-aware version of you. Why? Because that's what high-value, self-aware women are looking for. They've done their homework on themselves, and they're looking for a guy who's done the same.</p>
+<p>Enter the Enneagram.</p>
+
+<p>If the Socrates and Plato were alive today they would be singing the praises of the Enneagram because it is the ultimate tool for self-awareness (and they might use it to pick up chicks 😏 jk jk). To level up your dating game you need to understand yourself.</p>
+
+<p>It is not about changing who you are, it's about understanding your mental landscape and leveraging it to display your authentic self to connect with quality women.</p>
 
 <p>This guide isn't about teaching you to be a "high-value man" (whatever that means). It's about leveraging your unique personality to naturally attract the kind of women you actually want to be with. Ready to dive in? Let's go.</p>
 
@@ -88,7 +92,7 @@ pic: 'male-greek-statue-on-a-date'
   <li>Type 9: The Peacemaker - Seeks harmony and comfort</li>
 </ol>
 
-<p>Not sure which one you are? Take a reliable Enneagram test [INSERT LINK HERE]. Be honest with yourself – this isn't about picking the type you want to be, but recognizing who you really are.</p>
+<p>Not sure which one you are? <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Learn your Enneagram type here</a>. Be honest with yourself – this isn't about picking the type you want to be, but recognizing who you really are.</p>
 
 <h2>Enneagram Dating Strategies: Your Personality, Your Playbook</h2>
 
