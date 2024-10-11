@@ -1,6 +1,6 @@
 ---
 title: 'Enneagram Type 1: The Perfectionist'
-description: "Discover the Perfectionist or Reformer's traits, strengths, and challenges. Learn how Ones strive for integrity and excellence."
+description: "The Perfectionist or Reformer's traits, strengths, and challenges. Learn how Ones strive for integrity and excellence."
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-1'
