@@ -19,24 +19,8 @@ self regulation examples
 -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/greek-statue-reading.webp`}
-		showIcon={false}
-		displayText=""
-		altText="greek statue reading 🤓"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">You are not a self-help and personal development junkie if you haven't explored the Enneagram.</p>
 

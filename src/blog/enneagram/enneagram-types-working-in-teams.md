@@ -15,23 +15,7 @@ pic: 'greek-statues-building-a-boat'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/greek-statues-building-a-boat.webp`}
-		showIcon={false}
-		displayText=""
-		altText="greek statues building a boat"
-		subtext=""
-	/>
-</div>
 
 <!-- here -->
 
@@ -431,9 +415,9 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
-   
+
    h4 {
-      padding: 0; 
+      padding: 0;
       margin: 0
 
    }

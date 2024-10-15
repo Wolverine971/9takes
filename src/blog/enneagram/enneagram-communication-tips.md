@@ -17,25 +17,7 @@ pic: 'greek-statues-arguing'
 <script>
   
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-    <PopCard
-    	image={`/blogs/greek-statues-arguing.webp`}
-    	showIcon={false}
-    	altText="greek statues arguing"
-      displayText="try not to yell"
-    	tint={false}
-      aspectRatio={'1'}
-    	subtext=""
-    />
-</div>
 
 <p class="firstLetter">Want to be able to talk with anyone about anything?</p>
 

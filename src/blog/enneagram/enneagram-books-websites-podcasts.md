@@ -20,25 +20,9 @@ be the hub
 -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
 </script>
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-  <PopCard
-		image={`/blogs/greek-statue-listening-to-a-podcast.webp`}
-		showIcon={false}
-		displayText=""
-    altText="a greek statue listening to a podcast"
-    tint={false}
-		subtext=""
-	/>
-</div>
 
 There are many resources when it comes to the Enneagram.
 

@@ -15,19 +15,7 @@ pic: 'greek-statue-flex'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div style="display: flex;
-    justify-content: center;">
-<PopCard
-		image={`/blogs/greek-statue-flex.webp`}
-		showIcon={false}
-		displayText=""
-		altText="greek status taking a selfie"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">Every Enneagram type wants to be seen in a certain light.</p>
 
@@ -249,5 +237,5 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
- 
+
 </style>

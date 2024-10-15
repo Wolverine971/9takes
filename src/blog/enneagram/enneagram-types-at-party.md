@@ -19,22 +19,6 @@ pic: 'greek-statues-party-vibes'
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/greek-statues-party-vibes.webp`}
-    showIcon={false}
-    displayText=""
-    altText="party in the street"
-    tint={false}
-    subtext=""
-  />
-</div>
-
 <p class="firstLetter">People like to party differently.</p>
 
 Each Enneagram type is looking for something different that relates to their individual motivations and characteristics. In this article, we'll explore what each Enneagram type thinks, feels, and does at a party. We will also explore what they're looking forward to, and why they're attending the party in the first place.

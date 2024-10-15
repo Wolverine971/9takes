@@ -15,23 +15,8 @@ pic: 'looking-up-at-the-night-sky'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/looking-up-at-the-night-sky.webp`}
-        showIcon={false}
-        altText="Greek statue looking up at the night sky"
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">There is a connection between astrology and the Enneagram.</p>
 

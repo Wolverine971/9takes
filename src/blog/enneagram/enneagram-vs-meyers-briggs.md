@@ -15,24 +15,7 @@ pic: 'enneagram-vs-meyers-briggs'
 
 <!-- // notes:  -->
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/${'enneagram-vs-meyers-briggs'}.webp`}
-		showIcon={false}
-		displayText=""
-    altText="people walking in opposite directions"
-    aspectRatio={'3/2'}
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">People are both similar and different.</p>
 

@@ -22,24 +22,7 @@ trends in conflict resolution
  pantheon temple of the gods -->
 
  <script>
-  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-  <PopCard
-        image={`/blogs/greek-statue-giving-a-speech.webp`}
-        showIcon={false}
-        displayText=""
-        altText="a greek statue giving a speech"
-        tint={false}
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">It is hard out there being an Enneagram coach.</p>
 

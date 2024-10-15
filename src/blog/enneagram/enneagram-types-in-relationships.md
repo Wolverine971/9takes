@@ -15,25 +15,8 @@ pic: 'greek-statues-on-a-date'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-  <PopCard
-		image={`/blogs/greek-statues-on-a-date.webp`}
-		showIcon={false}
-		displayText=""
-      altText="greek statues on a date"
-      tint={false}
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">There is no one right way to approach a relationship.</p>
 
@@ -343,5 +326,5 @@ If you liked this, check [how each Enneagram type approaches a first date](/enne
 </svelte:head>
 
 <style lang="scss">
-   
+
 </style>

@@ -15,28 +15,12 @@ pic: 'greek-statues-partying'
 ---
 
 <script>
-    import  PopCard  from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <!-- 3 step plan for personal growth -->
 
 <!-- A Fresh Approach: Enneagram and Personal Growth -->
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statues-partying.webp`}
-        showIcon={false}
-        displayText=""
-        altText="Greek statues partying 🎉"
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">Trying to plan a great event? Have you considered the personality types that you might be attending?</p>
 

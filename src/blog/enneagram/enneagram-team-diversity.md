@@ -17,24 +17,8 @@ pic: 'people-from-diverse-backgrounds'
 <!-- Discover how to create high-performing teams by harnessing the Enneagram's insights into personality types and triads. Learn strategies for achieving balance, embracing diversity, and optimizing team dynamics for success. -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/people-from-diverse-backgrounds.webp`}
-		showIcon={false}
-		displayText=""
-		altText="people from diverse backgrounds"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">People say they want diversity but do not realize how hard it is to get it because that most teams by their nature are not diverse.</p>
 

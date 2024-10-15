@@ -59,20 +59,6 @@ I hope these suggestions are helpful!
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statue-2-sided-mask.webp`}
-        showIcon={false}
-        altText="Greek statue with two faces"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">Mental illness is something everyone is scared of.</p>
 
 We want to think that we are not capable of becoming mentally ill. But the end result of a downward spiral started somewhere.

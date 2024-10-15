@@ -14,21 +14,10 @@ previewHtml: ''
 pic: 'female-greek-statues-of-different-professions'
 ---
 
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/female-greek-statues-of-different-professions.webp`}
-    showIcon={false}
-    displayText=""
-    altText="Two female Greek statues of a doctor and a rapper meeting"
-    tint={false}
-    subtext=""
-  />
-</div>
+<script>
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+</script>
 
 <details>
 <summary class="accordion">Table of Contents</summary>
@@ -397,11 +386,6 @@ Next Steps:
 Your career is a journey of self-discovery and growth. Embrace the process, and let your Enneagram type guide you toward a fulfilling and meaningful career!
 
 For more check out <a style="font-weight: bold;" href="/enneagram-corner/enneagram-types-working-in-teams">how each Enneagram type works in a team.</a>
-
-<script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-</script>
 
  <script type="application/ld+json">
 {

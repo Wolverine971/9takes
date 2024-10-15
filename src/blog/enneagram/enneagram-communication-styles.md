@@ -17,23 +17,7 @@ pic: 'two-female-greek-statues-having-a-conversation'
 <script>
   
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/two-female-greek-statues-having-a-conversation.webp`}
-		showIcon={false}
-		displayText=""
-		altText="two people enjoying each others company"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">Not everyone is speaking the same language.</p>
 

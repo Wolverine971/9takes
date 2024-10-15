@@ -16,24 +16,7 @@ pic: 'greek-statues-having-an-intimate-conversation'
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-  <PopCard
-        image={`/blogs/greek-statues-having-an-intimate-conversation.webp`}
-        showIcon={false}
-        displayText=""
-        altText="two Greeks statues having an intimate conversation"
-        tint={false}
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">People don't talk like you.</p>
 
@@ -369,5 +352,5 @@ If you found this helpful, sign up and join 9takes below ⬇️. Of course, you 
 </svelte:head>
 
 <style lang="scss">
-   
+
 </style>

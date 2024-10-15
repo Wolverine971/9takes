@@ -24,21 +24,6 @@ fix this
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<!-- <div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statues-partying.webp`}
-        showIcon={false}
-        displayText=""
-        altText="Greek statues partying 🎉"
-        subtext=""
-    />
-</div> -->
-
 <p class="firstLetter">Self-help books offer a one-size-fits-all approach to personal growth but the Enneagram does not.</p>
 
 The Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and the types of others, we can identify our strengths and weaknesses and develop customized growth strategies.

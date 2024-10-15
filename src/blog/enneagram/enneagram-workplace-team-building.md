@@ -22,19 +22,7 @@ team building questions
 <script>
   
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div style="display: flex;
-    justify-content: center;">
-<PopCard
-		image={`/blogs/greek-statues-working-in-teams.webp`}
-		showIcon={false}
-		displayText=""
-		altText="Greek statues working in teams"
-		subtext=""
-	/>
-</div>
 
 Is everyone speaking the same language?
 

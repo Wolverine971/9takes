@@ -15,24 +15,8 @@ pic: 'male-greek-statue-on-a-date'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-<div
-   style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-   "
->
-  <PopCard
-      image={`/blogs/male-greek-statue-on-a-date.webp`}
-      showIcon={false}
-      displayText=""
-    altText="male Greek statue on a first date"
-    tint={false}
-      subtext=""
-   />
-</div>
 
 <!-- # Enneagram Dating Guide for Men: Strategies for Authentic Connections -->
 

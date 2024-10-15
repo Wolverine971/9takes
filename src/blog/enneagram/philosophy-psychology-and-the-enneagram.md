@@ -15,7 +15,6 @@ pic: 'freud-plato'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- They almost got it, so close
@@ -27,21 +26,6 @@ Enneagram and Plato
 9 threads through the fabric of history
 
 update-->
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/freud-plato.webp`}
-    showIcon={false}
-    displayText=""
-    altText="Sigmund Freud squaring off with Plato"
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter">Philosophy and psychology crystalize when you start looking at the Enneagram.</p>
 

@@ -15,23 +15,7 @@ pic: 'greek-dude-reading-book'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/greek-dude-reading-book.webp`}
-		showIcon={false}
-		displayText=""
-		altText="greek statue reading and focused 🤓"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">The Enneagram is a personality typing system that categorizes people into nine types.</p>
 

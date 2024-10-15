@@ -15,25 +15,8 @@ pic: 'feeling-stressed'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/feeling-stressed.webp`}
-    showIcon={false}
-    displayText=""
-    altText="two people feeling stressed"
-    tint={false}
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter">Stress affects people in different ways </p>
 

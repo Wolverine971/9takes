@@ -15,24 +15,8 @@ pic: 'young-couple-on-a-date'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-<div
-   style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-   "
->
-  <PopCard
-      image={`/blogs/young-couple-on-a-date.webp`}
-      showIcon={false}
-      displayText=""
-    altText="young couple on a date"
-    tint={false}
-      subtext=""
-   />
-</div>
 
 <p class="firstLetter">Have you ever wondered why you behave the way you do in new relationships?</p>
 

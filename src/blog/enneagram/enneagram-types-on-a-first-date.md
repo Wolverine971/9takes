@@ -28,21 +28,6 @@ second date ideas
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-<div
-   style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-   "
->
-  <PopCard
-      image={`/blogs/greek-statues-on-a-first-date.webp`}
-      showIcon={false}
-      displayText=""
-    altText="Greek statues on a first date"
-    tint={false}
-      subtext=""
-   />
-</div>
 
 <p class="firstLetter">Everyone gets a little nervous before a first date.</p>
 

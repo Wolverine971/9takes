@@ -49,24 +49,7 @@ Tailored Communication
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/communication-example.webp`}
-    showIcon={false}
-    displayText=""
-    altText="group of Greek statues figuring out how to communicate"
-    tint={false}
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter">Have you ever walked away from a conversation feeling misunderstood or frustrated?</p>
 

@@ -16,23 +16,7 @@ pic: 'enneagram-inspiration-docs'
 
 <script>
 	import  Enneagram  from "$lib/components/icons/enneagram.svelte";
-  import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/enneagram-inspiration-docs.webp`}
-		showIcon={false}
-		displayText=""
-		altText="a desk of documents on the origins of the Enneagram"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">The Enneagram's origins are mysterious and there have been many influences on the system.</p>
 

@@ -24,9 +24,9 @@ blog: true
 <Carousel type={8} gridDisplay={true}/>
 <br>
 
-<p class="firstLetter">Type 8s, known as "The Challengers," embody assertiveness and self-confidence with a profound need for control.</p>
+<p class="firstLetter">Enneagram Type 8s are known as "The Challengers" and embody assertiveness and self-confidence.</p>
 
-They are the archetypal rugged individuals, direct in their approach and often perceived as domineering. Their go-to coping mechanism is to control the situation, a strategy that has served them well since childhood.
+They are the archetypal rugged individuals, direct in their approach and are often perceived as domineering. They have a profound need for control and when stressed their go-to coping mechanism is to control the situation. This strategy that has served them well since childhood.
 
 At some point in an 8's early life, they learned that showing weakness could lead to being crushed. This realization led them to develop a protective shell, learning that survival depended on strength. Their chosen life strategy is to gain power in every aspect of life, ensuring they never have to feel vulnerable again.
 
@@ -367,9 +367,9 @@ The childhood experiences of Enneagram Type 8 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
-    - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+  - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
 
 - **Typical Behaviors:** As children, Type 8s often emerged as natural leaders, taking charge in group settings and showing a fearlessness in challenging authority figures. They might have been labeled as "troublemakers" or "strong-willed" by adults.
 

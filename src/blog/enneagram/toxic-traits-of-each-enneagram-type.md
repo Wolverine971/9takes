@@ -19,21 +19,6 @@ pic: 'greek-statue-showing-cracks'
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/greek-statue-showing-cracks.webp`}
-    showIcon={false}
-    displayText=""
-    altText="a greek statue showing some cracks"
-    subtext=""
-  />
-</div>
-
 <p class="firstLetter">Ever wonder why some people drive you up the wall?</p>
 
 Piss you off?

@@ -15,24 +15,8 @@ pic: 'female-greek-statue-on-a-date'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-<div
-   style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-   "
->
-  <PopCard
-      image={`/blogs/female-greek-statue-on-a-date.webp`}
-      showIcon={false}
-      displayText=""
-    altText="female Greek statues on a first date"
-    tint={false}
-      subtext=""
-   />
-</div>
 
 <!-- # Enneagram Dating Guide for Men: Strategies for Authentic Connections -->
 
@@ -88,7 +72,7 @@ As you prepare for your first date, you might feel the urge to present a polishe
 4. **Allow for spontaneity and embrace unexpected moments**
    Why: This helps you practice flexibility and shows that you can go with the flow. It demonstrates that you're not rigid in your expectations.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about their values and what they're passionate about improving in the world
   Why: This aligns with your interest in betterment and allows you to assess compatibility on a deeper level.
@@ -111,7 +95,7 @@ Congratulations on securing a second date! You might feel a mix of excitement an
 3. **Practice accepting compliments graciously without deflecting**
    Why: This helps you embrace your own worth and shows confidence. It demonstrates that you can acknowledge your strengths without needing to be perfect.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss how you've grown from past relationship experiences
   Why: This shows your capacity for self-reflection and improvement. It also opens up a mature conversation about relationships and personal growth.
@@ -152,7 +136,7 @@ As you approach your first date, you might be tempted to focus entirely on makin
 4. **Allow your date to do things for you**
    Why: This helps you practice receiving, not just giving. It shows that you value yourself enough to be cared for and sets the stage for a mutually supportive relationship.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about their support system and what friendship means to them
   Why: This gives you insight into how they value relationships and whether they have a healthy network of support beyond romantic partnerships.
@@ -175,7 +159,7 @@ Congratulations on securing a second date! You're likely feeling a warm glow of 
 3. **Practice receiving compliments or help without deflecting**
    Why: This allows you to experience being cared for and shows your date that you value yourself. It sets the stage for a relationship of mutual appreciation.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss how you both handle stress and what kind of support you appreciate
   Why: This opens a conversation about mutual care and helps you understand how to support each other in a balanced way. It also gives you the opportunity to express your own needs.
@@ -216,7 +200,7 @@ As you prepare for your first date, you might feel the urge to impress and showc
 4. **Be present in the moment instead of thinking about the next goal**
    Why: This allows for deeper connection and shows your date that you value the experience with them, not just what you can achieve.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about a time they felt truly alive or inspired
   Why: This encourages your date to share something meaningful and passionate, moving the conversation beyond surface-level achievements.
@@ -239,7 +223,7 @@ Securing a second date is an achievement, but remember, it's not about "winning"
 3. **Express genuine interest in your date's personal growth journey**
    Why: This demonstrates that you value inner development as much as external success. It can lead to meaningful conversations about personal evolution and shared values.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss what success means to each of you beyond career achievements
   Why: This can reveal your values and life philosophy, creating a deeper understanding between you and your date. It also allows you to explore compatibility in your definitions of a fulfilling life.
@@ -280,7 +264,7 @@ As you prepare for your first date, you might feel a mix of excitement and anxie
 4. **Look for beauty and meaning in the simple moments of the date**
    Why: This helps you connect with your date in the present moment and shows that you can find depth and significance in everyday experiences.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about a piece of art, music, or literature that has deeply moved them
   Why: This invites your date to share something personal and potentially profound, allowing for the kind of deep conversation you value. It also gives insight into their emotional and creative sensibilities.
@@ -306,7 +290,7 @@ Congratulations on securing a second date! You might be feeling a surge of emoti
 4. **Be open about your feelings, but also practice active listening without comparing experiences**
    Why: This allows for emotional honesty while showing that you value your date's unique perspective. It helps prevent the tendency to dramatize or compete in emotional intensity.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss what an ideal relationship looks like to each of you
   Why: This allows you to share your romantic vision while also understanding your date's perspective. It can reveal compatibility and areas for growth, while tapping into the depth of conversation you crave.
@@ -352,7 +336,7 @@ As you prepare for your first date, you're likely focused on interesting topics 
 4. **Practice being present in the moment and observing non-verbal cues**
    Why: This helps you connect on a more personal level and shows your date that you're engaged, not just in your head. It can help you pick up on emotional nuances that enrich the interaction.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about a subject they're passionate about and why it fascinates them
   Why: This allows for intellectual exchange while also touching on emotional aspects of why they care about the topic. It shows your genuine interest in their inner world.
@@ -378,7 +362,7 @@ You've secured a second date, which is great! You might be tempted to analyze th
 4. **Be mindful of physical and emotional boundaries, both yours and your date's**
    Why: This helps you stay comfortable while also respecting your date's needs. It demonstrates your ability to balance closeness with independence.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss how you each recharge and what personal space means in a relationship
   Why: This allows you to express your need for independence while understanding your date's needs. It can reveal compatibility in handling space and togetherness.
@@ -419,7 +403,7 @@ As you approach your first date, you might be feeling a mix of excitement and an
 4. **Share your own thoughts and experiences openly to encourage reciprocal sharing**
    Why: This creates a balanced exchange and shows that you're willing to be vulnerable too. It can help establish a foundation of mutual trust and openness.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about their close friendships and what loyalty means to them
   Why: This gives insight into how they value and maintain relationships, which is important to you. It can reveal their capacity for commitment and trustworthiness.
@@ -445,7 +429,7 @@ Congratulations on making it to a second date! You might be feeling more comfort
 4. **Look for opportunities to offer and receive support in small ways**
    Why: This helps build a foundation of mutual care and reliability. It allows you to experience giving and receiving support, which is crucial for building the secure relationship you desire.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss how you each handle uncertainty or make important decisions
   Why: This gives insight into each other's coping mechanisms and decision-making processes. It can help you understand how you might navigate challenges together and assess compatibility in dealing with life's uncertainties.
@@ -486,7 +470,7 @@ As you gear up for your first date, you're likely brimming with ideas and enthus
 4. **Express appreciation for the simple joys of the date**
    Why: This demonstrates your ability to find happiness in small moments, not just big adventures. It can be reassuring to your date and shows depth to your character.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about the most meaningful adventure they've had and why it impacted them
   Why: This allows you to share in their enthusiasm while learning about what they value in experiences. It can reveal compatibility in your approaches to life and what you find truly fulfilling.
@@ -512,7 +496,7 @@ Excellent job landing a second date! You're probably buzzing with ideas for maki
 4. **Look for ways to support or encourage your date during the activity**
    Why: This demonstrates that you can be there for someone in more ways than just having fun. It shows your potential as a supportive partner.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss what commitment means to each of you and how it relates to personal freedom
   Why: This allows you to explore your views on relationships and independence. It can help identify potential areas of alignment or necessary compromise, and shows that you're thinking about deeper aspects of relationships.
@@ -553,7 +537,7 @@ As you prepare for your first date, you might be gearing up for a test of wills 
 4. **Look for opportunities to show protection and care in subtle ways**
    Why: This allows you to express your nurturing side without overwhelming your date. It demonstrates that your strength can be used to support others, not just to assert yourself.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about a cause or belief they're passionate about and why it matters to them
   Why: This invites them to share something meaningful, allowing you to see their convictions and values. It also gives you an opportunity to engage in substantive discussion and shows you value depth in a partner.
@@ -579,7 +563,7 @@ Great job securing a second date! You might be feeling more invested now, perhap
 4. **Ask for and genuinely consider your date's opinion on a decision or issue**
    Why: This shows that you're strong enough to be influenced and collaborative. It demonstrates that you value your date's input and can be a team player, not just a leader.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss what strength means to each of you in a relationship context
   Why: This allows you to share your values while understanding your date's perspective on strength and vulnerability in partnerships. It can lead to a meaningful discussion about balance in relationships.
@@ -620,7 +604,7 @@ As you prepare for your first date, you might be tempted to go with the flow and
 4. **Ask questions about your date's opinions and gently express agreement or disagreement**
    Why: This creates a more balanced and engaging conversation. It shows that you're actively participating in getting to know them, not just passively agreeing, and can lead to more meaningful exchanges.
 
-#### Talking Points:
+#### Talking Points
 
 - Ask about what brings them peace and how they handle conflict
   Why: This gives insight into their approach to harmony and disagreement, which is important to you. It can reveal compatibility in how you both navigate relationships and handle differences.
@@ -646,7 +630,7 @@ Wonderful job on getting a second date! You might be feeling more comfortable no
 4. **Practice staying present with your own feelings and needs throughout the date**
    Why: This helps you stay connected to yourself while connecting with your date. It ensures that you're not losing yourself in the interaction and can lead to more authentic exchanges.
 
-#### Talking Points:
+#### Talking Points
 
 - Discuss how you each envision an ideal day or weekend together
   Why: This allows you to express your preferences and desires for shared time. It can reveal areas of alignment and potential compromises in how you both like to spend time, encouraging you to voice your authentic wishes.

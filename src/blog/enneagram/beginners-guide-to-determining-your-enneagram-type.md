@@ -15,29 +15,12 @@ pic: 'greek-statues-two-females-on-phones'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <!-- Take a free, ~5 min test here
 adjust title
 
 -->
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/greek-statues-two-females-on-phones.webp`}
-    showIcon={false}
-    displayText=""
-    altText="two Greek statues figuring out their Enneagram type"
-    tint={false}
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter"> Ever felt misunderstood?</p>
 
@@ -73,7 +56,7 @@ It is said that your type/ personality is formed in childhood as a response to a
 
 Your type can be thought of as a coping mechanism or a survival strategy that you developed in childhood but still use today. Parts of your personality help you survive, and parts hold you back.
 
-#### Examples of childhood trauma patterns:
+#### Examples of childhood trauma patterns
 
 - A child who was constantly criticized may grow up to be an adult who second-guesses their every decision, never believing their efforts are good enough.
 - A child who grew up in a chaotic environment might cope by distracting themselves, always looking on the bright side, and avoiding uncomfortable or painful situations.

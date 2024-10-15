@@ -15,23 +15,7 @@ pic: 'greek-statues-who-are-stressed'
 ---
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/greek-statues-who-are-stressed.webp`}
-    showIcon={false}
-    displayText=""
-    altText="stressed out greek statues"
-    subtext=""
-  />
-</div>
 
 <!-- Enneagram therapy on handling stress
 

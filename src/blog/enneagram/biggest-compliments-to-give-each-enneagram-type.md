@@ -19,22 +19,6 @@ pic: 'greek-statue-yeah-boi'
    import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statue-yeah-boi.webp`}
-        showIcon={false}
-        displayText=""
-        altText="Greek statues being happy"
-        tint={false}
-        subtext="Thanks for the compliment."
-    />
-</div>
-
 <p class="firstLetter">Want to know how to make someone's day with the best compliment possible?</p>
 
 The Enneagram can help! This blog post tells you the best compliments for each Enneagram type. Learn what makes each personality tick and how to make them feel special. Let's get started!

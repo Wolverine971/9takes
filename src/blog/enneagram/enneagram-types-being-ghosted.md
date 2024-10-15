@@ -19,22 +19,6 @@ pic: 'greek-statue-being-ghosted'
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-  <PopCard
-		image={`/blogs/greek-statue-being-ghosted.webp`}
-		showIcon={false}
-		displayText=""
-    altText="a person being ghosted"
-    tint={false}
-		subtext=""
-	/>
-</div>
-
 <p class="firstLetter">Modern relationships are tough.</p>
 
 After school is done and work is over for the day, it can be hard to find friends and meet new people. And when you do meet someone how long does it take before you can open up to them? And what if they ghost you? These are real concerns and people becoming increasingly risk averse. Though ghosting is a **"first world problem"** its becoming more and more of an issue.

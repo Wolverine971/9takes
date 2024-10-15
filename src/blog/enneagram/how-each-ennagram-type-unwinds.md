@@ -17,23 +17,7 @@ pic: 'greek-statues-at-the-beach'
 <!-- // notes:  -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statues-at-the-beach.webp`}
-        showIcon={false}
-        tint={false}
-        altText="Greek statues at the beach"
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">Tired of feeling drained after your "relaxing" weekend?</p>
 

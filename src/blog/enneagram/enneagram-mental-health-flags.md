@@ -34,20 +34,6 @@ feeling overlooked -->
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-    <PopCard
-        image={`/blogs/greek-statue-of-athena-with-red.webp`}
-        showIcon={false}
-        altText="Athena the goddess of wisdom surrounded by red"
-        subtext=""
-    />
-</div>
-
 <p class="firstLetter">Ever noticed how a friend's behavior suddenly shifts, but you can't quite put your finger on what's wrong? We all have triggers that can lead us to lash out or shut down, but understanding the warning signs can be the difference between a bad day and a downward spiral.</p>
 
 Think of this as your field guide to mental health red flags, Enneagram style. Because sometimes, the most caring thing you can do is speak up when you notice someone struggling.

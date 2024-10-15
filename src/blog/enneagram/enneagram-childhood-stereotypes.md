@@ -16,24 +16,7 @@ pic: 'greek-statue-babies'
 
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-    style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    "
->
-  <PopCard
-        image={`/blogs/greek-statue-babies.webp`}
-        showIcon={false}
-        displayText=""
-        altText="a Greek statue listening to a podcast"
-        tint={false}
-        subtext=""
-    />
-</div>
 
 <p class="firstLetter">You've been around the block. Seen a thing or two. But what was going on back when you were but a weeeee babe?</p>
 

@@ -32,20 +32,6 @@ examples of toxic traits
 </script>
 
 <!-- todo -->
-<div
-  style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-  "
->
-  <PopCard
-    image={`/blogs/greek-statues-in-a-tense-moment.webp`}
-    showIcon={false}
-    displayText=""
-    altText="a greek statue showing some cracks"
-    subtext=""
-  />
-</div>
 
 <p class="firstLetter">When a relationship is in stress survival strategies can look like toxic traits.</p>
 
@@ -438,7 +424,6 @@ Learn more about [communication in relationships here.](/enneagram-corner/relati
 </svelte:head>
 
 <style lang="scss">
-   
 
     .blog-link:after{
     content: none;

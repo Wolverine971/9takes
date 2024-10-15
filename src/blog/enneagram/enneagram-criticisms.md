@@ -23,24 +23,7 @@ Enneagram Criticisms (200 words)
 <!-- <h2>Enneagram FAQs</h2> -->
 
 <script>
-  
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-    <PopCard
-    	image={`/blogs/greek-statues-disagreeing.webp`}
-    	showIcon={false}
-    	altText="greek statues disagreeing"
-      displayText=""
-    	tint={false}
-    	subtext=""
-    />
-</div>
 
 <p>Below are the common criticisms of personality, psychology and the ideas behind 9takes.</p>
 

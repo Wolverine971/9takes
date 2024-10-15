@@ -16,24 +16,7 @@ pic: 'greek-statue-reading-a-book'
 
 <!-- Take a free, ~5 min test here -->
 <script>
-  
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
-
-<div
-	style="display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-	"
->
-	<PopCard
-		image={`/blogs/greek-statue-reading-a-book.webp`}
-		showIcon={false}
-		displayText=""
-		altText="greek statues reading a book"
-		subtext=""
-	/>
-</div>
 
 <p class="firstLetter">The Enneagram is not a "static" personality model.</p>
 
@@ -258,5 +241,4 @@ Understanding the dynamics of the Enneagram can provide valuable insights into o
 
 <style lang="scss">
 
-   
 </style>

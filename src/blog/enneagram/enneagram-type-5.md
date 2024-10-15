@@ -370,9 +370,9 @@ The childhood experiences of Enneagram Type 5 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-    - May have been exposed to overwhelming adult issues or expectations at a young age.
-    - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
-    - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
+  - May have been exposed to overwhelming adult issues or expectations at a young age.
+  - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
+  - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
 
 - **Typical Behaviors:** Preferred observing rather than participating, developed early expertise in niche subjects, and often sought out quiet spaces for reflection.
 

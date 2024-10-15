@@ -376,9 +376,9 @@ The childhood experiences of Enneagram Type 7 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-    - May have experienced family environments where negative emotions or problems were glossed over or ignored.
-    - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
-    - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
+  - May have experienced family environments where negative emotions or problems were glossed over or ignored.
+  - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
+  - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
 
 - **Typical Behaviors:** Frequently took on roles such as the class clown, the adventurer, or the most talkative child, always planning or engaging in new experiences.
 
