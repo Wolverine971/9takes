@@ -173,6 +173,10 @@ Understanding these fears can provide insight into the motivations behind Type 3
 
 When under stress, Type 3s shift towards Type 9 behaviors. <a href="/enneagram-corner/enneagram-type-9">Type 9s</a> are normally peaceful, accommodating, and harmonious. However, for a stressed Type 3, this shift manifests in less healthy ways:
 
+<p style="display: flex; justify-content: center;">
+<img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
+</p>
+
 <h3>Stress Behaviors:</h3>
 
 - <strong>Withdrawal and Passivity:</strong> They may become more passive, avoiding confrontations and challenges they would usually face head-on.
@@ -213,9 +217,9 @@ The childhood experiences of Type 3 individuals play a crucial role in shaping t
 - <strong>Childhood Wound:</strong> Internalized the idea that love and acceptance were contingent on their successes and achievements.
 - <strong>Developmental Aspects:</strong>
 
-  - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
-  - Often received more attention and praise for their actions than for who they were as individuals.
-  - Learned to adapt their behavior and achievements to gain approval and recognition.
+    - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
+    - Often received more attention and praise for their actions than for who they were as individuals.
+    - Learned to adapt their behavior and achievements to gain approval and recognition.
 
 - <strong>Typical Behaviors:</strong> Highly driven, often overachievers, striving to be the best in their pursuits. They may have taken on leadership roles in school or extracurricular activities, always seeking to stand out and be recognized.
 

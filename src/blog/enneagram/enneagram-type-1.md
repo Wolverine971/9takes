@@ -144,6 +144,10 @@ The core fears of Type 1 personalities include:
 
 Under stress, the typically rational and principled Type 1 may become uncharacteristically emotional, moody, and self-absorbed. Their stress number is <a href="/enneagram-corner/enneagram-type-4">Type 4</a>.
 
+<p style="display: flex; justify-content: center;">
+<img src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
+</p>
+
 When stressed, Type 1s might:
 
 - Become moody and depressed, isolating themselves from others
@@ -177,8 +181,8 @@ The childhood experiences of Type 1 individuals often play a crucial role in sha
 - **Childhood Stereotype**: Often raised in households where precision and order were highly valued. Parents or guardians may have been strict, emphasizing moral and ethical standards.
 - **Childhood Wound**: Faced criticism or punishment for minor mistakes, leading to a deep-seated fear of making errors. This experience fostered an internal critic that constantly pushed for perfection.
 - **Developmental Aspects**:
-  - High expectations from family and teachers, with a focus on discipline and responsibility.
-  - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
+    - High expectations from family and teachers, with a focus on discipline and responsibility.
+    - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
 - **Typical Behaviors**: Sought to be model students or children, diligently following rules and guidelines. Often took on adult responsibilities early.
 - **Thoughts and Feelings**: Battled with feelings of inadequacy and a relentless drive to improve. May have felt emotionally restrained, suppressing feelings to maintain control.
 - **View on Childhood**: Likely views their upbringing as disciplined and structured, possibly lamenting the lack of spontaneity and freedom to make mistakes. Proud of their resilience but may wish for more emotional warmth and acceptance in their early years.

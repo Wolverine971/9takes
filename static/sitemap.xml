@@ -459,7 +459,7 @@
 </url>
 <url>
 <loc>https://9takes.com/enneagram-corner/enneagram-personal-growth</loc>
-<lastmod>2024-04-08T00:00:00.000Z</lastmod>
+<lastmod>2024-10-11T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -486,7 +486,7 @@
 </url>
 <url>
 <loc>https://9takes.com/enneagram-corner/enneagram-stress-number</loc>
-<lastmod>2024-07-12T00:00:00.000Z</lastmod>
+<lastmod>2024-10-14T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -609,7 +609,7 @@
 </url>
 <url>
 <loc>https://9takes.com/enneagram-corner/enneagram-types-in-stress</loc>
-<lastmod>2024-07-12T00:00:00.000Z</lastmod>
+<lastmod>2024-10-14T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -1594,6 +1594,12 @@
 <url>
 <loc>https://9takes.com/questions/what-book-should-i-read-next</loc>
 <lastmod>2023-12-02T07:09:25.551Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/questions/tips-recent-highschool-grad-wants-become-politician</loc>
+<lastmod>2024-10-06T04:21:12.330Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>

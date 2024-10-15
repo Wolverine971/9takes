@@ -299,6 +299,10 @@ Understanding these fears can help Type 6s recognize the underlying drivers of t
 
 When under stress, Enneagram Type 6 individuals tend to move towards the negative aspects of Type 3, "The Achiever." This shift can dramatically alter their typical behavior and emotional state. Understanding this stress reaction is crucial for Type 6s and those around them to manage difficult periods effectively.
 
+<p style="display: flex; justify-content: center;">
+<img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
+</p>
+
 Key Stress Behaviors:
 
 1. **Excessive Focus on Achievement:**
@@ -371,9 +375,9 @@ The childhood experiences of Enneagram Type 6 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
-  - Often found security in routines, rules, or structured environments.
-  - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
+    - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
+    - Often found security in routines, rules, or structured environments.
+    - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
 
 - **Typical Behaviors:** Often became the "worrier" or the "responsible one" in their family or friend groups. They may have developed a habit of seeking reassurance or guidance from authority figures.
 

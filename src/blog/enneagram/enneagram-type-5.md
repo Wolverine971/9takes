@@ -288,6 +288,10 @@ Understanding these fears can help Type 5s recognize the underlying drivers of t
 
 When under stress, Enneagram Type 5s tend to move towards the negative aspects of Type 7, "The Enthusiast." This shift can dramatically alter their typical behavior and emotional state. Understanding this stress reaction is crucial for Type 5s and those around them to manage difficult periods effectively.
 
+<p style="display: flex; justify-content: center;">
+<img src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
+</p>
+
 Key Stress Behaviors:
 
 1. **Scattered Thinking:**
@@ -366,9 +370,9 @@ The childhood experiences of Enneagram Type 5 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-  - May have been exposed to overwhelming adult issues or expectations at a young age.
-  - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
-  - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
+    - May have been exposed to overwhelming adult issues or expectations at a young age.
+    - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
+    - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
 
 - **Typical Behaviors:** Preferred observing rather than participating, developed early expertise in niche subjects, and often sought out quiet spaces for reflection.
 

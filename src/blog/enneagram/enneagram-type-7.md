@@ -294,6 +294,10 @@ Understanding these fears can help Type 7s recognize the underlying drivers of t
 
 When under stress, the usually spontaneous and fun-loving Type 7 may experience a significant shift in behavior and mindset. Understanding this stress reaction is crucial for both Type 7s and those around them to manage challenging periods effectively.
 
+<p style="display: flex; justify-content: center;">
+<img src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
+</p>
+
 Type 7s typically move towards the negative aspects of Type 1, "The Perfectionist," when stressed. This shift can manifest in the following ways:
 
 1. **Increased Critical Nature:**
@@ -372,9 +376,9 @@ The childhood experiences of Enneagram Type 7 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have experienced family environments where negative emotions or problems were glossed over or ignored.
-  - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
-  - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
+    - May have experienced family environments where negative emotions or problems were glossed over or ignored.
+    - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
+    - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
 
 - **Typical Behaviors:** Frequently took on roles such as the class clown, the adventurer, or the most talkative child, always planning or engaging in new experiences.
 
