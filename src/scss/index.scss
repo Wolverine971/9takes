@@ -650,6 +650,11 @@ article {
 	width: 100%;
 }
 
+.scroll-table a::after {
+	display: none;
+
+}
+
 tr,
 td,
 th {

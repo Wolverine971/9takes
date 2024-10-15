@@ -63,6 +63,14 @@ Enneagram Type 3s are part of the shame triad, indicating high emotional intelli
 
 Understanding these dynamics is critical to appreciating the complex nature of "The Achiever" and the path they walk towards personal and professional success.
 
+<div class="scroll-table">
+
+| Type | Characteristic role | Ego fixation                                   | Holy idea | Trap       | Basic fear    | Basic desire     | Temptation                           | Vice/Passion                                   | Virtue                                                | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | ---------------------------------------------- | --------- | ---------- | ------------- | ---------------- | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------- | ---------------------- | --------------------- |
+| 3    | Achiever, Performer | [Vanity](https://en.wikipedia.org/wiki/Vanity) | Hope, Law | Efficiency | Worthlessness | To feel valuable | Pushing self to always be "the best" | [Deceit](https://en.wikipedia.org/wiki/Deceit) | [Truthfulness](https://en.wikipedia.org/wiki/Honesty) | 9                      | 6                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -198,14 +206,6 @@ Understanding these stress reactions and implementing effective coping strategie
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role | Ego fixation                                   | Holy idea | Trap       | Basic fear    | Basic desire     | Temptation                           | Vice/Passion                                   | Virtue                                                | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | ---------------------------------------------- | --------- | ---------- | ------------- | ---------------- | ------------------------------------ | ---------------------------------------------- | ----------------------------------------------------- | ---------------------- | --------------------- |
-| 3    | Achiever, Performer | [Vanity](https://en.wikipedia.org/wiki/Vanity) | Hope, Law | Efficiency | Worthlessness | To feel valuable | Pushing self to always be "the best" | [Deceit](https://en.wikipedia.org/wiki/Deceit) | [Truthfulness](https://en.wikipedia.org/wiki/Honesty) | 9                      | 6                     |
-
-</div>
 
 <section class="section-content">
 

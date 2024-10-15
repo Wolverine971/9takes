@@ -63,6 +63,14 @@ Key traits of the Enneagram Type 5 personality include:
 
 To Type 5s, the game of life is a quest for knowledge where success is measured by the depth and breadth of understanding acquired. They prefer to think before acting, often viewing emotions as phenomena to be observed rather than feelings to be experienced. While this approach offers unique perspectives and ideas, it also presents a challenge for Type 5s to learn how to make emotional connections with others.
 
+<div class="scroll-table">
+
+| Type | Characteristic role    | Ego fixation | Holy idea                 | Trap     | Basic fear                               | Basic desire           | Temptation                                | Vice/Passion | Virtue     | Stress/ Disintegration | Security/ Integration |
+| ---- | ---------------------- | ------------ | ------------------------- | -------- | ---------------------------------------- | ---------------------- | ----------------------------------------- | ------------ | ---------- | ---------------------- | --------------------- |
+| 5    | Investigator, Observer | Stinginess   | Omniscience, Transparency | Observer | Helplessness, incapability, incompetence | Mastery, understanding | Replacing direct experience with concepts | Avarice      | Detachment | 7                      | 8                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -349,14 +357,6 @@ By understanding their stress patterns, Type 5s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role    | Ego fixation                                           | Holy idea                 | Trap     | Basic fear                               | Basic desire           | Temptation                                | Vice/Passion                                     | Virtue                                                                | Stress/ Disintegration | Security/ Integration |
-| ---- | ---------------------- | ------------------------------------------------------ | ------------------------- | -------- | ---------------------------------------- | ---------------------- | ----------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------- | ---------------------- | --------------------- |
-| 5    | Investigator, Observer | [Stinginess](https://en.wikipedia.org/wiki/Stinginess) | Omniscience, Transparency | Observer | Helplessness, incapability, incompetence | Mastery, understanding | Replacing direct experience with concepts | [Avarice](https://en.wikipedia.org/wiki/Avarice) | [Detachment](<https://en.wikipedia.org/wiki/Detachment_(philosophy)>) | 7                      | 8                     |
-
-</div>
 
 <section class="section-content">
 

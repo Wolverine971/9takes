@@ -68,6 +68,14 @@ Distinct characteristics of Type 8s include:
 
 The journey of an Enneagram 8 often involves learning to be vulnerable and sensitive. When they soften their approach, their lives are enriched by the deeper connections they can form with others who are now able to approach the 8 who has let their guard down.
 
+<div class="scroll-table">
+
+| Type | Characteristic role   | Ego fixation | Holy idea | Trap    | Basic fear                         | Basic desire                             | Temptation                                   | Vice/Passion | Virtue    | Stress/ Disintegration | Security/ Integration |
+| ---- | --------------------- | ------------ | --------- | ------- | ---------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------ | --------- | ---------------------- | --------------------- |
+| 8    | Challenger, Protector | Vengeance    | Truth     | Justice | Being controlled, harmed, violated | To gain influence and be self-sufficient | Thinking they are completely self-sufficient | Lust         | Innocence | 5                      | 2                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -284,7 +292,7 @@ Understanding these fears can help Type 8s recognize the underlying drivers of t
 When under stress, the normally assertive and action-oriented Type 8 may experience a significant shift in behavior and mindset. Understanding this stress reaction is crucial for both Type 8s and those around them to manage challenging periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/5-8.png" class="arrow-img">
+<img src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
 </p>
 
 Type 8s typically move towards the negative aspects of Type 5, "The Investigator," when stressed. This shift can manifest in the following ways:
@@ -346,14 +354,6 @@ By understanding their stress patterns, Type 8s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role   | Ego fixation                                                     | Holy idea | Trap    | Basic fear                         | Basic desire                             | Temptation                                   | Vice/Passion                               | Virtue                                               | Stress/ Disintegration | Security/ Integration |
-| ---- | --------------------- | ---------------------------------------------------------------- | --------- | ------- | ---------------------------------- | ---------------------------------------- | -------------------------------------------- | ------------------------------------------ | ---------------------------------------------------- | ---------------------- | --------------------- |
-| 8    | Challenger, Protector | [Vengeance](<https://en.wikipedia.org/wiki/Vengeance_(concept)>) | Truth     | Justice | Being controlled, harmed, violated | To gain influence and be self-sufficient | Thinking they are completely self-sufficient | [Lust](https://en.wikipedia.org/wiki/Lust) | [Innocence](https://en.wikipedia.org/wiki/Innocence) | 5                      | 2                     |
-
-</div>
 
 <section class="section-content">
 

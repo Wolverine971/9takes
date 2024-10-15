@@ -69,6 +69,14 @@ Key characteristics of Type 4 personalities include:
 
 Understanding these core traits helps to paint a picture of the complex and rich inner world of Enneagram Type 4 individuals. Their journey is often one of self-discovery, creative expression, and a constant search for deeper meaning in life.
 
+<div class="scroll-table">
+
+| Type | Characteristic role     | Ego fixation | Holy idea | Trap         | Basic fear                         | Basic desire              | Temptation                               | Vice/Passion | Virtue                         | Stress/ Disintegration | Security/ Integration |
+| ---- | ----------------------- | ------------ | --------- | ------------ | ---------------------------------- | ------------------------- | ---------------------------------------- | ------------ | ------------------------------ | ---------------------- | --------------------- |
+| 4    | Individualist, Romantic | Melancholy   | Origin    | Authenticity | Having no identity or significance | To be uniquely themselves | To overuse imagination in search of self | Envy         | Equanimity (Emotional Balance) | 2                      | 1                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -370,14 +378,6 @@ By understanding their stress patterns, Type 4s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role     | Ego fixation                                                    | Holy idea | Trap         | Basic fear                         | Basic desire              | Temptation                               | Vice/Passion                               | Virtue                                                                     | Stress/ Disintegration | Security/ Integration |
-| ---- | ----------------------- | --------------------------------------------------------------- | --------- | ------------ | ---------------------------------- | ------------------------- | ---------------------------------------- | ------------------------------------------ | -------------------------------------------------------------------------- | ---------------------- | --------------------- |
-| 4    | Individualist, Romantic | [Melancholy](<https://en.wikipedia.org/wiki/Depression_(mood)>) | Origin    | Authenticity | Having no identity or significance | To be uniquely themselves | To overuse imagination in search of self | [Envy](https://en.wikipedia.org/wiki/Envy) | [Equanimity](https://en.wikipedia.org/wiki/Equanimity) (Emotional Balance) | 2                      | 1                     |
-
-</div>
 
 <section class="section-content">
 

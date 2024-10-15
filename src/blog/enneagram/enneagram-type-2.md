@@ -64,6 +64,13 @@ Key traits of the Enneagram Type 2 personality include:
 
 While their empathy and generosity are strengths, learning to set boundaries and prioritize their own needs is essential for their emotional health and personal growth. This journey towards self-care and boundary setting is crucial for Type 2s to maintain their own well-being while they continue to care for others.
 
+<div class="scroll-table">
+
+| Type | Characteristic role | Ego fixation | Holy idea     | Trap    | Basic fear      | Basic desire           | Temptation                   | Vice/Passion | Virtue   | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | ------------ | ------------- | ------- | --------------- | ---------------------- | ---------------------------- | ------------ | -------- | ---------------------- | --------------------- |
+| 2    | Helper, Giver       | Flattery     | Freedom, Will | Freedom | Being unlovable | To feel worthy of love | Deny own needs, manipulation | Pride        | Humility | 8                      | 4                     |
+
+</div>
 </section>
 
 <section class="section-content">
@@ -209,14 +216,6 @@ By understanding and addressing their stress reactions, Type 2s can maintain the
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role | Ego fixation                                       | Holy idea     | Trap    | Basic fear      | Basic desire           | Temptation                                                                               | Vice/Passion                                 | Virtue                                             | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | -------------------------------------------------- | ------------- | ------- | --------------- | ---------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
-| 2    | Helper, Giver       | [Flattery](https://en.wikipedia.org/wiki/Flattery) | Freedom, Will | Freedom | Being unlovable | To feel worthy of love | Deny own needs, [manipulation](https://en.wikipedia.org/wiki/Psychological_manipulation) | [Pride](https://en.wikipedia.org/wiki/Pride) | [Humility](https://en.wikipedia.org/wiki/Humility) | 8                      | 4                     |
-
-</div>
 
 <section class="section-content">
 

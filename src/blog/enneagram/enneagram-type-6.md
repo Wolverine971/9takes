@@ -74,6 +74,14 @@ Core traits of the Enneagram Type 6 personality include:
 
 Understanding these core traits helps paint a picture of the complex and often conflicting nature of the Type 6 personality. Their journey often involves balancing their need for security with their desire for growth and their loyalty to others with their own need for independence.
 
+<div class="scroll-table">
+
+| Type | Characteristic role     | Ego fixation | Holy idea | Trap     | Basic fear                        | Basic desire                 | Temptation                             | Vice/Passion | Virtue  | Stress/ Disintegration | Security/ Integration |
+| ---- | ----------------------- | ------------ | --------- | -------- | --------------------------------- | ---------------------------- | -------------------------------------- | ------------ | ------- | ---------------------- | --------------------- |
+| 6    | Loyalist, Loyal Skeptic | Cowardice    | Faith     | Security | Being without support or guidance | To have support and guidance | Indecision, doubt, seeking reassurance | Fear         | Courage | 3                      | 9                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -354,14 +362,6 @@ By understanding their stress patterns, Type 6s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role     | Ego fixation                                         | Holy idea | Trap     | Basic fear                        | Basic desire                 | Temptation                             | Vice/Passion                               | Virtue                                           | Stress/ Disintegration | Security/ Integration |
-| ---- | ----------------------- | ---------------------------------------------------- | --------- | -------- | --------------------------------- | ---------------------------- | -------------------------------------- | ------------------------------------------ | ------------------------------------------------ | ---------------------- | --------------------- |
-| 6    | Loyalist, Loyal Skeptic | [Cowardice](https://en.wikipedia.org/wiki/Cowardice) | Faith     | Security | Being without support or guidance | To have support and guidance | Indecision, doubt, seeking reassurance | [Fear](https://en.wikipedia.org/wiki/Fear) | [Courage](https://en.wikipedia.org/wiki/Courage) | 3                      | 9                     |
-
-</div>
 
 <section class="section-content">
 

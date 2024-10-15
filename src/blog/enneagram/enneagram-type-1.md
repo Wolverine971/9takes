@@ -64,6 +64,14 @@ Key traits of Enneagram Type 1 include:
 
 Type 1s have a strong desire for control and order. They are often highly organized and efficient, striving for excellence. However, they may have difficulty relaxing and letting go of control, and struggle with guilt and inadequacy when things do not go according to plan.
 
+<div class="scroll-table">
+
+| Type | Characteristic role     | Ego fixation | Holy idea  | Trap       | Basic fear                        | Basic desire                 | Temptation                | Vice/Passion | Virtue   | Stress/ Disintegration | Security/ Integration |
+| ---- | ----------------------- | ------------ | ---------- | ---------- | --------------------------------- | ---------------------------- | ------------------------- | ------------ | -------- | ---------------------- | --------------------- |
+| 1    | Reformer, Perfectionist | Resentment   | Perfection | Perfection | Corruptness, imbalance, being bad | Goodness, integrity, balance | Hypocrisy, hypercriticism | Anger        | Serenity | 4                      | 7                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -163,14 +171,6 @@ This shift from their typically rational nature to a more emotional state can be
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role     | Ego fixation                                           | Holy idea  | Trap       | Basic fear                        | Basic desire                 | Temptation                                                                                                           | Vice/Passion                                 | Virtue                                             | Stress/ Disintegration | Security/ Integration |
-| ---- | ----------------------- | ------------------------------------------------------ | ---------- | ---------- | --------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
-| 1    | Reformer, Perfectionist | [Resentment](https://en.wikipedia.org/wiki/Resentment) | Perfection | Perfection | Corruptness, imbalance, being bad | Goodness, integrity, balance | [Hypocrisy](https://en.wikipedia.org/wiki/Hypocrisy), [hypercriticism](https://en.wikipedia.org/wiki/Hypercriticism) | [Anger](https://en.wikipedia.org/wiki/Anger) | [Serenity](https://en.wikipedia.org/wiki/Calmness) | 4                      | 7                     |
-
-</div>
 
 <section class="section-content">
 

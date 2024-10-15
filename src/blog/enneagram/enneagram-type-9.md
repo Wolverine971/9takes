@@ -61,6 +61,14 @@ Key traits of the Enneagram Type 9 personality include:
 
 These traits combine to create individuals who are often seen as the glue that holds groups together, mediating conflicts and ensuring that everyone feels heard and valued. However, this desire for harmony can sometimes come at the cost of their own needs and desires.
 
+<div class="scroll-table">
+
+| Type | Characteristic role  | Ego fixation | Holy idea | Trap   | Basic fear                      | Basic desire             | Temptation                                  | Vice/Passion | Virtue | Stress/ Disintegration | Security/ Integration |
+| ---- | -------------------- | ------------ | --------- | ------ | ------------------------------- | ------------------------ | ------------------------------------------- | ------------ | ------ | ---------------------- | --------------------- |
+| 9    | Peacemaker, Mediator | Indolence    | Love      | Seeker | Loss, fragmentation, separation | Wholeness, peace of mind | Avoiding conflicts, avoiding self-assertion | Sloth        | Action | 6                      | 3                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -287,7 +295,7 @@ Understanding these fears can help Type 9s recognize the underlying drivers of t
 When under stress, the usually calm and accommodating Type 9 may experience significant changes in behavior and emotional state. Understanding this stress reaction is crucial for both Type 9s and those around them to manage challenging periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/6-9.png" class="arrow-img">
+<img src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
 Type 9s typically move towards the negative aspects of Type 6, "The Loyalist," when stressed. This shift can manifest in the following ways:
@@ -348,14 +356,6 @@ By understanding their stress patterns, Type 9s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role  | Ego fixation                                        | Holy idea | Trap   | Basic fear                      | Basic desire             | Temptation                                  | Vice/Passion                                                | Virtue                                              | Stress/ Disintegration | Security/ Integration |
-| ---- | -------------------- | --------------------------------------------------- | --------- | ------ | ------------------------------- | ------------------------ | ------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------- | ---------------------- | --------------------- |
-| 9    | Peacemaker, Mediator | [Indolence](https://en.wikipedia.org/wiki/Laziness) | Love      | Seeker | Loss, fragmentation, separation | Wholeness, peace of mind | Avoiding conflicts, avoiding self-assertion | [Sloth](<https://en.wikipedia.org/wiki/Sloth_(deadly_sin)>) | [Action](https://en.wikipedia.org/wiki/Proactivity) | 6                      | 3                     |
-
-</div>
 
 <section class="section-content">
 

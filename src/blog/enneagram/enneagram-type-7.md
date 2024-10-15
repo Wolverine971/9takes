@@ -64,6 +64,14 @@ Distinct traits of Type 7s include:
 
 Type 7s infuse their surroundings with energy and joy as dynamic and optimistic individuals. Their creativity and adaptability are tremendous assets, but they also face challenges in managing their fear of missing out and cultivating commitment and follow-through in their endeavors. Understanding and balancing these traits is key to harnessing the full potential of the Enthusiast's vibrant personality.
 
+<div class="scroll-table">
+
+| Type | Characteristic role | Ego fixation | Holy idea          | Trap     | Basic fear                           | Basic desire                | Temptation                             | Vice/Passion | Virtue   | Stress/ Disintegration | Security/ Integration |
+| ---- | ------------------- | ------------ | ------------------ | -------- | ------------------------------------ | --------------------------- | -------------------------------------- | ------------ | -------- | ---------------------- | --------------------- |
+| 7    | Enthusiast, Epicure | Planning     | Plan, Work, Wisdom | Idealism | Being unfulfilled, trapped, deprived | To be satisfied and content | Thinking fulfillment is somewhere else | Gluttony     | Sobriety | 1                      | 5                     |
+
+</div>
+
 </section>
 
 <section class="section-content">
@@ -355,14 +363,6 @@ By understanding their stress patterns, Type 7s can develop strategies to mainta
 Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
 
 </section>
-
-<div class="scroll-table">
-
-| Type | Characteristic role | Ego fixation                                       | Holy idea          | Trap     | Basic fear                           | Basic desire                | Temptation                             | Vice/Passion                                       | Virtue                                             | Stress/ Disintegration | Security/ Integration |
-| ---- | ------------------- | -------------------------------------------------- | ------------------ | -------- | ------------------------------------ | --------------------------- | -------------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ---------------------- | --------------------- |
-| 7    | Enthusiast, Epicure | [Planning](https://en.wikipedia.org/wiki/Planning) | Plan, Work, Wisdom | Idealism | Being unfulfilled, trapped, deprived | To be satisfied and content | Thinking fulfillment is somewhere else | [Gluttony](https://en.wikipedia.org/wiki/Gluttony) | [Sobriety](https://en.wikipedia.org/wiki/Sobriety) | 1                      | 5                     |
-
-</div>
 
 <section class="section-content">
 
