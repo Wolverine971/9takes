@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
 	import { debounce } from '../../utils/debounce';
@@ -17,9 +17,11 @@
 	$: lastDate = comments.length ? comments[comments.length - 1]?.created_at || null : null;
 
 	let loading = false;
+	let observer: IntersectionObserver;
+	let bottomSentinel: HTMLDivElement;
 
 	const loadMore = debounce(async () => {
-		if (loading) return;
+		if (loading || comments.length >= comment_count) return;
 		loading = true;
 		try {
 			const response = await fetch(
@@ -57,11 +59,30 @@
 			loading = false;
 		}
 	};
-</script>
 
-{#if comment_count > 0 && comments?.length && parentType === 'question' && parentData?.flags?.userHasAnswered}
-	<button class="btn btn-secondary" type="button" on:click={loadMore}>See Comments</button>
-{/if}
+	onMount(() => {
+		if (browser) {
+			observer = new IntersectionObserver(
+				(entries) => {
+					if (entries[0].isIntersecting) {
+						loadMore();
+					}
+				},
+				{ rootMargin: '100px' }
+			);
+
+			if (bottomSentinel) {
+				observer.observe(bottomSentinel);
+			}
+		}
+
+		return () => {
+			if (observer) {
+				observer.disconnect();
+			}
+		};
+	});
+</script>
 
 {#if browser && ((comments.length && parentType === 'question' && parentData?.flags?.userHasAnswered) || (comments.length && parentType === 'comment'))}
 	{#each comments as comment (comment.id)}
@@ -70,17 +91,17 @@
 		</div>
 	{/each}
 	{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}
-		<button class="btn btn-primary" on:click={loadMore} disabled={loading}>
-			{loading ? 'Loading...' : 'Load More'}
-		</button>
+		<div bind:this={bottomSentinel} class="sentinel">
+			{#if loading}
+				<div>Loading...</div>
+			{/if}
+		</div>
 	{/if}
 {/if}
 
 <style lang="scss">
-	.btn {
-		/* Add your button styles here */
-	}
-	.loader {
-		/* Add your loader styles here */
+	.sentinel {
+		height: 20px;
+		margin-top: 20px;
 	}
 </style>
