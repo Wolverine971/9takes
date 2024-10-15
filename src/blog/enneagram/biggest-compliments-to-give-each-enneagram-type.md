@@ -25,7 +25,7 @@ The Enneagram can help! This blog post tells you the best compliments for each E
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 1- The Perfectionist</h3>
+### Type 1- The Perfectionist
 
 An innate desire for perfection and righteousness drives type 1 individuals. Recognizing their relentless pursuit of justice and acknowledging their dedication to moral values touches the very core of their being.
 
@@ -50,7 +50,7 @@ An innate desire for perfection and righteousness drives type 1 individuals. Rec
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 2- The Helper</h3>
+### Type 2- The Helper
 
 Type 2 personalities thrive on love and appreciation. They long to feel needed. By acknowledging their genuine concern and kindness, you mirror back the love they constantly radiate.
 
@@ -75,7 +75,7 @@ Type 2 personalities thrive on love and appreciation. They long to feel needed. 
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 3- The Achiever</h3>
+### Type 3- The Achiever
 
 Type 3 individuals are goal-oriented powerhouses. They yearn for success and validation. Praising their accomplishments and efficiency resonates deeply with their ambitious spirit.
 
@@ -116,7 +116,7 @@ Type 3 individuals are goal-oriented powerhouses. They yearn for success and val
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 4- The Individualist</h3>
+### Type 4- The Individualist
 
 Type 4 personalities cherish their individuality. Celebrating their uniqueness and emotional richness validates their constant search for identity and meaning.
 
@@ -141,7 +141,7 @@ Type 4 personalities cherish their individuality. Celebrating their uniqueness a
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 5- The Investigator</h3>
+### Type 5- The Investigator
 
 Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their analytical prowess and depth of understanding feeds their intrinsic need to be competent and well-prepared.
 
@@ -170,7 +170,7 @@ Type 5 individuals possess an insatiable thirst for knowledge. Recognizing their
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 6- The Loyalist</h3>
+### Type 6- The Loyalist
 
 Type 6 personalities value security and trust. Acknowledging their dedication and reliability affirms their foundational role in any relationship or endeavor.
 
@@ -195,7 +195,7 @@ Type 6 personalities value security and trust. Acknowledging their dedication an
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 7- The Enthusiast</h3>
+### Type 7- The Enthusiast
 
 Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and adventurous spirit aligns perfectly with their quest for pleasure and excitement.
 
@@ -236,7 +236,7 @@ Type 7 individuals are the epitome of enthusiasm. Celebrating their optimism and
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 8- The Challenger</h3>
+### Type 8- The Challenger
 
 Type 8 personalities are natural leaders driven by a desire to control their environment. Recognizing their strength and advocacy reinforces their role as protectors and champions.
 
@@ -261,7 +261,7 @@ Type 8 personalities are natural leaders driven by a desire to control their env
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 9- The Peacemaker</h3>
+### Type 9- The Peacemaker
 
 Type 9 individuals are the peacekeepers. Celebrating their mediation skills and the gift of seeing multiple perspectives affirms their nurturing and harmonizing nature.
 

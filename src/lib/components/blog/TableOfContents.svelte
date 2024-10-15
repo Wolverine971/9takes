@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, afterUpdate } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import { writable, type Writable } from 'svelte/store';
 
@@ -8,12 +8,16 @@
 	let visible = false;
 	let windowWidth: number;
 	let toc: string = '';
+	let content: string = '';
 
 	function generateTableOfContents(html: string): string {
 		const tempDiv = document.createElement('div');
 		tempDiv.innerHTML = html;
 
-		const headings = tempDiv.querySelectorAll('h1, h2, h3');
+		const headings = [...tempDiv.querySelectorAll('h2, h3')].filter(
+			(heading) => heading.textContent.trim() !== 'Table of Contents'
+		);
+
 		const list = document.createElement('ul');
 		list.className = 'toc-list';
 
@@ -36,13 +40,14 @@
 		return list.outerHTML;
 	}
 
-	onMount(() => {
-		const unsubscribe = contentStore.subscribe((content) => {
-			if (content) {
-				toc = generateTableOfContents(content);
-			}
-		});
+	$: {
+		if (content) {
+			toc = generateTableOfContents(content);
+			console.log('Table of contents updated:', toc);
+		}
+	}
 
+	onMount(() => {
 		const handleScroll = () => {
 			const scrollPosition = window.scrollY;
 			const pageHeight = document.documentElement.scrollHeight;
@@ -56,22 +61,33 @@
 			windowWidth = window.innerWidth;
 			handleScroll();
 		};
+		toc = generateTableOfContents(content);
 
 		window.addEventListener('scroll', handleScroll);
 		window.addEventListener('resize', handleResize);
 		handleResize();
 
 		return () => {
-			unsubscribe();
+			// unsubscribe();
 			window.removeEventListener('scroll', handleScroll);
 			window.removeEventListener('resize', handleResize);
 		};
 	});
 
+	const unsubscribe = contentStore.subscribe((value) => {
+		content = value;
+	});
+
+	afterUpdate(() => {
+		if (content) {
+			toc = generateTableOfContents(content);
+		}
+	});
+
 	$: sidebarLeft = Math.max((windowWidth - 64 * 16) / 2 - 200, 20);
 </script>
 
-{#if visible && toc}
+{#if visible && toc && windowWidth > 1200}
 	<div
 		class="toc-sidebar fixed top-1/2 w-48 -translate-y-1/2 transform rounded-lg bg-white p-4 shadow-lg"
 		style="left: {sidebarLeft}px;"
@@ -83,12 +99,16 @@
 		</nav>
 	</div>
 {/if}
+<nav>
+	<h3 class="toc-title">Table of Contents</h3>
+	{@html toc}
+</nav>
 
 <style lang="scss">
 	.toc-sidebar {
 		font-size: 0.875rem;
 		line-height: 1.25;
-		max-width: 12rem; // Ensure the sidebar has a max width
+		max-width: 12rem;
 	}
 
 	.toc-title {
@@ -107,14 +127,10 @@
 
 	:global(.toc-item) {
 		margin-bottom: 0.25rem;
-		width: 100%; // Ensure the item takes full width
+		width: 100%;
 		overflow: hidden;
 		text-wrap: nowrap;
 		text-overflow: ellipsis;
-	}
-
-	:global(.toc-level-h1) {
-		font-weight: 600;
 	}
 
 	:global(.toc-level-h2) {
@@ -130,7 +146,7 @@
 		color: #333;
 		text-decoration: none;
 		display: block;
-		width: 100%; // Ensure the link takes full width of its parent
+		width: 100%;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;

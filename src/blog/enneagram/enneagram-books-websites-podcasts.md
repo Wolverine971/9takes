@@ -69,7 +69,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 ## Enneagram Influencers
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Ian Cron</h3>
+
+    ###  Ian Cron
+
     Ian Cron is a bestselling author, psychotherapist, Enneagram teacher, and host of the popular podcast Typology. He
     is known for his book "The Road Back to You: An Enneagram Journey to Self-Discovery" which he co-authored with
     Suzanne Stabile.
@@ -87,7 +89,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Beatrice Chestnut</h3>
+
+    ###  Beatrice Chestnut
+
     Beatrice Chestnut is a licensed psychotherapist, coach, and business consultant based in San Francisco. She is
     author of the books "The Complete Enneagram" and "The 9 Types of Leadership".
     <p style="display: flex; gap: .5rem; align-items: center;">
@@ -104,7 +108,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">SaraJane Case</h3>
+
+    ### SaraJane Case
+
     Enneagram coach and educator, co-host of the <a class="external-link" target="_blank" rel="noreferrer" href="https://podcasts.apple.com/us/podcast/enneagram-coffee/id1447982978">Enneagram & Coffee podcast</a>. She also wrote the <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Honest-Enneagram-Sarajane-Case/dp/1524854026">Honest Enneagram</a>.
     <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/sarajanecase/">
@@ -119,7 +125,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Russ Hudson</h3>
+
+    ###  Russ Hudson
+
     Russ Hudson is one of the leading scholars and innovative thinkers in the Enneagram world today. He is the
     co-founder of The Enneagram Institute and has co-authored several bestselling Enneagram books with Don Richard Riso.
     <p style="display: flex; gap: .5rem; align-items: center;">
@@ -136,7 +144,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Suzanne Stabile</h3>
+
+    ###  Suzanne Stabile
+
     Suzanne Stabile is a highly respected Enneagram master, author, and teacher. She co-authored "The Road Back to You"
     with Ian Cron and teaches popular Enneagram workshops.
     <p style="display: flex; gap: .5rem; align-items: center;">
@@ -153,7 +163,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Sean Palmer</h3>
+
+    ###  Sean Palmer
+
     Sean Palmer is an podcaster, and Enneagram coach. He is the author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Speaking-Numbers-Enneagram-Teachers-Communicators/dp/0830841660">Speaking by the Numbers</a>: Enneagram Wisdom for Teachers, Pastors, and Communicators.
     <p style="display: flex; gap: .5rem; align-items: center;">
     <a class="external-link" target="_blank" rel="" href="https://www.instagram.com/seanisaacpalmer/">
@@ -169,7 +181,9 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em"> Christopher L. Heuertz</h3>
+
+    ###  Christopher L. Heuertz
+
     Christopher L. Heuertz is an author, speaker, Enneagram coach and founding partner of Gravity, a Center for
     Contemplative Activism. He has authored the bestselling books "The Sacred Enneagram" and "The Enneagram of
     Belonging".
@@ -187,43 +201,57 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Helen Palmer</h3>
+
+    ### Helen Palmer
+
     One of the early pioneers of the Enneagram, author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838">The Enneagram: Understanding Yourself and the Others in Your
     Life</a>" and co-founder of the Enneagram Professional Training Program.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">David Daniels</h3>
+
+    ### David Daniels
+
     A clinical professor of psychiatry and Enneagram teacher, co-author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Essential-Enneagram-Definitive-Personality-Self-Discovery/dp/0061713163">The Essential Enneagram</a>" and co-founder of
     the Enneagram Studies in the Narrative Tradition (ESNT).
 
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Roxanne Howe-Murphy</h3>
+
+    ### Roxanne Howe-Murphy
+
     Author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Deep-Coaching-Enneagram-Catalyst-Profound/dp/0979384702">Deep Coaching Using the Enneagram as a Catalyst for Profound Change</a>" and founder of the Deep Coaching
     Institute.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Deborah Ooten</h3>
+
+    ### Deborah Ooten
+
     Founder and CEO of the <a class="external-link" target="_blank" rel="noreferrer" href="https://www.goconscious.com/about-clc/staff/deborah-a-ooten-ph-d/">Conscious Living Center</a>. She is a Certified Enneagram Teacher in the Narrative Tradition and has her doctorate in clinical psychology.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Lynette Sheppard</h3>
+
+    ### Lynette Sheppard
+
     Author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Everyday-Enneagram-Personality-Enhancing-Every-ebook/dp/B00CX7PSIC">The Everyday Enneagram</a>: A Personality Map For Enhancing Your Work, Love, and Life-Every Day" and host of
     the Everyday Enneagram podcast.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Beth McCord</h3>
+
+    ### Beth McCord
+
     Enneagram coach, author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Becoming-Us-Enneagram-Thriving-Gospel-Centered/dp/1642794163">Becoming Us</a>: Using the Enneagram to Create a Thriving Gospel-Centered Marriage" and
     founder of Your Enneagram Coach.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Melanie Bells</h3>
+
+    ### Melanie Bells
+
     Enneagram teacher, coach, and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Modern-Enneagram-Discover-Who-You/dp/1939754070">"The Modern
     Enneagram"</a> Discover Who You Are and Who You Can Be.
     <p style="display: flex; gap: .5rem; align-items: center;">
@@ -235,20 +263,26 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Sarah Wallace</h3>
+
+    ### Sarah Wallace
+
     Founder and CEO of Enneagram MBA, a Certified Enneagram Coach, speaker, and host of the Enneagram at Work podcast.
     She is a member of the International Enneagram Association and Enneagram Collaborative Global. Host of the <a class="external-link" target="_blank" rel="noreferrer" href="https://www.enneagrammba.com/podcast">"Enneagram at Work Podcast"</a>.
 
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Herb Pearce</h3>
+
+    ### Herb Pearce
+
     Enneagram teacher and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Complete-Idiots-Guide-Power-Enneagram/dp/159257694X">"The Complete Idiot's Guide to the Power of the Enneagram."</a> Written with Karen K.
     Brees.
 </article>
 
 <article class="section-content">
-    <h3 style="padding: 0; margin-top: 1em">Susan Piver</h3>
+
+    ### Susan Piver
+    
     A meditation teacher who integrates Buddhist wisdom with Enneagram insights.
     <p>
     <a class="external-link" target="_blank" rel="" href="https://openheartproject.com/">

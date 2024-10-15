@@ -120,7 +120,7 @@ If you have identified your core emotion look for a type that has that core emot
 
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 1 - The Reformer/ Perfectionist</h4>
+#### Type 1 - The Reformer/ Perfectionist
 
 - **Core Motivation:** Desire to be good, ethical, and correct.
 - **Core Fear:** Being corrupt, defective, or imperfect.
@@ -132,7 +132,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 2 - The Helper</h4>
+#### Type 2 - The Helper
 
 - **Core Motivation:** Desire to be loved and appreciated.
 - **Core Fear:** Being unwanted, unloved, or dispensable.
@@ -144,7 +144,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 3 - The Achiever</h4>
+#### Type 3 - The Achiever
 
 - **Core Motivation:** Desire to be successful and admired.
 - **Core Fear:** Being worthless, unsuccessful, or unimportant.
@@ -156,7 +156,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 4 - The Individualist</h4>
+#### Type 4 - The Individualist
 
 - **Core Motivation:** Desire to be unique, authentic, and understood.
 - **Core Fear:** Having no identity or personal significance.
@@ -168,7 +168,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 5 - The Investigator</h4>
+#### Type 5 - The Investigator
 
 - **Core Motivation:** Desire to be knowledgeable and competent.
 - **Core Fear:** Being helpless, useless, or overwhelmed.
@@ -180,7 +180,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 6 - The Loyalist</h4>
+#### Type 6 - The Loyalist
 
 - **Core Motivation:** Desire for security and support.
 - **Core Fear:** Without guidance, support, or security.
@@ -192,7 +192,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 7 - The Enthusiast</h4>
+#### Type 7 - The Enthusiast
 
 - **Core Motivation:** Desire to be satisfied and content.
 - **Core Fear:** Being deprived, trapped, or in pain.
@@ -204,7 +204,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 8 - The Challenger</h4>
+#### Type 8 - The Challenger
 
 - **Core Motivation:** Desire to protect themselves and control their lives.
 - **Core Fear:** Being harmed, controlled, or violated.
@@ -216,7 +216,7 @@ If you have identified your core emotion look for a type that has that core emot
 </section>
 <section class="section-content">
 
-<h4 style="padding: 0; margin: 0">Type 9 - The Peacemaker</h4>
+#### Type 9 - The Peacemaker
 
 - **Core Motivation:** Desire for peace and harmony.
 - **Core Fear:** Conflict, tension, or disconnection.

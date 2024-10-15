@@ -47,7 +47,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 1: The Perfectionist</h3>
+### Type 1: The Perfectionist
 
 **What they need from their partner:** Ones need their partner to be reliable, honest, and responsible. They appreciate partners who are straightforward, direct, and who share their values.
 
@@ -65,7 +65,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 2: The Helper</h3>
+### Type 2: The Helper
 
 **What they need from their partner:** Twos need emotional connection, support, and nurturing. They appreciate attentive and caring partners and show their love through actions.
 
@@ -83,7 +83,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 3: The Achiever</h3>
+### Type 3: The Achiever
 
 **What they need from their partner:** Threes need recognition, success, and achievement. They appreciate partners who are supportive of their goals and who are driven and ambitious themselves.
 
@@ -105,7 +105,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 4: The Individualist</h3>
+### Type 4: The Individualist
 
 **What they need from their partner:** Fours need emotional depth, authenticity, and uniqueness. They appreciate sensitive and creative partners who share their values and passions.
 
@@ -123,7 +123,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 5: The Investigator</h3>
+### Type 5: The Investigator
 
 **What they need from their partner:** Fives need knowledge, independence, and privacy. They appreciate partners who respect their need for alone time and intellectual pursuits.
 
@@ -141,7 +141,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 6: The Loyalist</h3>
+### Type 6: The Loyalist
 
 **What they need from their partner:** Sixes need security, loyalty, and responsibility. They appreciate partners who are reliable, trustworthy, and who provide a sense of stability and safety.
 
@@ -159,7 +159,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 7: The Enthusiast</h3>
+### Type 7: The Enthusiast
 
 **What they need from their partner:** Sevens need adventure, spontaneity, and variety. They appreciate partners who are fun-loving, open-minded, and who share their sense of excitement and curiosity.
 
@@ -177,7 +177,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 8: The Challenger</h3>
+### Type 8: The Challenger
 
 **What they need from their partner:** Eights need control, power, and strength. They appreciate independent and confident partners who can stand up to them when necessary.
 
@@ -195,7 +195,7 @@ We will also get into how each type affects their partner, what they like to tal
 
 <section class="section-content">
 
-<h3>Type 9: The Peacemaker</h3>
+### Type 9: The Peacemaker
 
 **What they need from their partner:** Nines need harmony, peace, and balance. They appreciate partners who are calm and patient and who can help them find a sense of tranquility in their lives.
 

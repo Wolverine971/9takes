@@ -71,7 +71,7 @@ Here, we will describe each type's mental health risks and give examples of unhe
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type1">Mental Health Risks of the Enneagram Type 1: The Perfectionist</h2>
+## Mental Health Risks of the Enneagram Type 1: The Perfectionist</>
 
 Type 1s are susceptible to a range of mental health challenges, including:
 
@@ -81,27 +81,27 @@ Type 1s are susceptible to a range of mental health challenges, including:
 - Intense guilt
 - Self-destructive behaviors
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Occasional self-criticism over minor mistakes
 - Difficulty relaxing due to a constant need for improvement
 - Frustration with others who don't meet their standards
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Frequent mood swings based on perceived performance
 - Rigid adherence to self-imposed rules
 - Difficulty maintaining relationships due to high expectations
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Paralyzing perfectionism leading to inability to complete tasks
 - Extreme self-punishment for perceived failures
 - Complete withdrawal from social interactions due to fear of imperfection
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Alex, a dedicated teacher, starts fixating on flawlessness in lesson plans. This obsession leads to:
 
@@ -117,7 +117,7 @@ Type 1s are susceptible to a range of mental health challenges, including:
 - Experiencing intense anger and shame when receiving constructive criticism
 - Isolating herself from the art community, exacerbating feelings of loneliness and depression
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 1s may engage in various unhealthy coping strategies:
 
@@ -131,7 +131,7 @@ Type 1s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type2">Mental Health Risks of the Enneagram Type 2: The Helper</h2>
+## Mental Health Risks of the Enneagram Type 2: The Helper</>
 
 Type 2s are susceptible to a range of mental health challenges, including:
 
@@ -141,28 +141,28 @@ Type 2s are susceptible to a range of mental health challenges, including:
 - Emotional dependency
 - Obsessive jealousy
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Over-involvement in others' problems, neglecting personal needs
 - Subtle manipulation to gain appreciation or validation
 - Feeling slighted or unappreciated when help is not acknowledged
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Developing an intense need to be indispensable to others
 - Resentment when others do not follow their advice
 - Emotional volatility when feeling unappreciated or rejected
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Engaging in coercive or controlling behaviors to maintain relationships
 - Intense jealousy leading to obsessive thoughts or actions
 - Blurring boundaries between caring and manipulation
 - Extreme emotional outbursts when feeling overlooked
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Liam, a healthcare professional, starts emotionally bonding with his patients:
 
@@ -178,7 +178,7 @@ Type 2s are susceptible to a range of mental health challenges, including:
 - This obsession eventually turns into stalking, as Emma tries to maintain her perceived importance in Alice's life
 - The relationship deteriorates, leading to isolation and intense emotional distress
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 2s may engage in various unhealthy coping strategies:
 
@@ -192,7 +192,7 @@ Type 2s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type3">Mental Health Risks of the Enneagram Type 3: The Achiever</h2>
+## Mental Health Risks of the Enneagram Type 3: The Achiever</>
 
 Type 3s are susceptible to a range of mental health challenges, including:
 
@@ -202,28 +202,28 @@ Type 3s are susceptible to a range of mental health challenges, including:
 - Narcissistic rage
 - Imposter syndrome
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Overworking to achieve recognition and success
 - Constantly seeking validation from others
 - Difficulty acknowledging personal flaws or failures
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Engaging in deceptive practices to maintain a successful image
 - Experiencing stress-related physical symptoms (e.g., hypertension)
 - Alienating others due to an excessive focus on personal achievements
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Developing a false self-image and living a double life
 - Justifying unethical behavior to reach goals
 - Reacting with hostility or rage when challenged or criticized
 - Succumbing to deep depression when success does not bring fulfillment
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Jack, an ambitious executive, becomes consumed by his image of success:
 
@@ -239,7 +239,7 @@ Type 3s are susceptible to a range of mental health challenges, including:
 - She becomes increasingly hostile towards anyone who challenges her intellect
 - Over time, she develops narcissistic traits and unrealistic expectations for her life, leading to social isolation and inner turmoil
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 3s may engage in various unhealthy coping strategies:
 
@@ -284,7 +284,7 @@ toxic-traits-of-each-enneagram-type
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type4">Mental Health Risks of the Enneagram Type 4: The Individualist</h2>
+## Mental Health Risks of the Enneagram Type 4: The Individualist</>
 
 Type 4s are susceptible to a range of mental health challenges, including:
 
@@ -294,28 +294,28 @@ Type 4s are susceptible to a range of mental health challenges, including:
 - Self-destructive behaviors
 - Obsessive thoughts about death or morbidity
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Persistent feelings of inadequacy or envy towards others
 - Tendency to romanticize or dwell on personal suffering
 - Difficulty feeling connected or understood by others
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Emotional volatility that strains relationships
 - Withdrawal from social interactions due to fear of rejection
 - Preoccupation with themes of death, loss, or tragedy
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Chronic depression leading to self-isolation and alienation
 - Obsessive thoughts about mortality, culminating in morbid fascinations
 - Engaging in self-destructive behaviors as a form of self-expression or coping
 - Rejection of positive influences or opportunities for growth
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Oliver, feeling disconnected from others, spirals into chronic depression:
 
@@ -331,7 +331,7 @@ Type 4s are susceptible to a range of mental health challenges, including:
 - Acts of self-sabotage emerge, such as deliberately distancing herself from positive influences
 - Her self-hatred grows, further isolating her from others and deepening her emotional turmoil
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 4s may engage in various unhealthy coping strategies:
 
@@ -345,7 +345,7 @@ Type 4s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type5">Mental Health Risks of the Enneagram Type 5: The Investigator</h2>
+## Mental Health Risks of the Enneagram Type 5: The Investigator</>
 
 Type 5s are susceptible to a range of mental health challenges, including:
 
@@ -355,28 +355,28 @@ Type 5s are susceptible to a range of mental health challenges, including:
 - Psychotic breaks
 - Suicidal tendencies
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Withdrawal from social interactions and increased isolation
 - Obsessive focus on intellectual pursuits at the expense of physical health
 - Difficulty trusting others or accepting help
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Increasingly eccentric behavior and detachment from reality
 - Neglecting basic needs such as sleep, nutrition, and hygiene
 - Growing paranoia or distrust towards those offering assistance
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Profound isolation leading to severe mental health decline
 - Distorted perceptions of reality, potentially resulting in psychotic breaks
 - Suicidal ideation or tendencies due to overwhelming feelings of hopelessness
 - Complete disconnection from reality, exacerbated by refusal to seek help
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Ethan, a researcher, increasingly isolates himself, neglecting his physical health:
 
@@ -392,7 +392,7 @@ Type 5s are susceptible to a range of mental health challenges, including:
 - Her insomnia and nightmares exacerbate her sense of disconnection from reality
 - The combination of sleep deprivation and isolation leads to potential psychotic breaks
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 5s may engage in various unhealthy coping strategies:
 
@@ -410,7 +410,7 @@ Type 5s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type6">Mental Health Risks of the Enneagram Type 6: The Loyalist</h2>
+## Mental Health Risks of the Enneagram Type 6: The Loyalist</>
 
 Type 6s are susceptible to a range of mental health challenges, including:
 
@@ -420,28 +420,28 @@ Type 6s are susceptible to a range of mental health challenges, including:
 - Intense anxiety attacks
 - Chronic fear and suspicion
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Persistent worry and fear about potential dangers or threats
 - Seeking constant reassurance from others to alleviate anxiety
 - Difficulty making decisions without input from trusted individuals
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Developing dependency on others for emotional support and stability
 - Increased suspicion and paranoia, especially in relationships
 - Engaging in passive-aggressive behavior when feeling insecure or threatened
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Experiencing intense anxiety attacks and panic episodes
 - Exhibiting paranoid or defiant behavior, straining relationships
 - Forming unhealthy attachments to individuals or groups as a means of security
 - Oscillating between dependency and impulsive defiance, leading to emotional instability
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Noah, feeling insecure in his job, experiences intense anxiety and panic attacks:
 
@@ -457,7 +457,7 @@ Type 6s are susceptible to a range of mental health challenges, including:
 - Impulsive acts of defiance and aggression further isolate her from others
 - Her paranoia and emotional instability lead to a breakdown in both personal and professional relationships
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 6s may engage in various unhealthy coping strategies:
 
@@ -471,7 +471,7 @@ Type 6s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type7">Mental Health Risks of the Enneagram Type 7: The Enthusiast</h2>
+## Mental Health Risks of the Enneagram Type 7: The Enthusiast</>
 
 Type 7s are susceptible to a range of mental health challenges, including:
 
@@ -480,28 +480,28 @@ Type 7s are susceptible to a range of mental health challenges, including:
 - Substance abuse issues
 - Impulsivity and mood swings
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Seeking constant stimulation and novelty to avoid discomfort or anxiety
 - Difficulty committing to long-term goals or responsibilities
 - Impulsiveness in decision-making, leading to frequent changes in direction
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Engaging in compulsive behaviors, such as shopping, gambling, or binge eating
 - Experiencing mood swings from euphoric highs to anxious lows
 - Escalating risky behaviors in pursuit of pleasure or excitement
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Falling into severe addiction to substances or activities as a means of escape
 - Experiencing periods of uncontrolled behavior and panic attacks
 - Exhibiting manic-depressive behavior with extreme highs and lows
 - Potentially developing histrionic traits, such as dramatic outbursts or attention-seeking behavior
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. Lucas, seeking to escape anxiety, falls into severe addictions:
 
@@ -517,7 +517,7 @@ Type 7s are susceptible to a range of mental health challenges, including:
 - As her compulsive behaviors escalate, she develops debilitating addictions
 - Charlotte's attempts to maintain her high-energy lifestyle result in manic-depressive behaviors and significant personal and social consequences
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 7s may engage in various unhealthy coping strategies:
 
@@ -531,7 +531,7 @@ Type 7s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type8">Mental Health Risks of the Enneagram Type 8: The Challenger</h2>
+## Mental Health Risks of the Enneagram Type 8: The Challenger</>
 
 Type 8s are susceptible to a range of mental health challenges, including:
 
@@ -540,28 +540,28 @@ Type 8s are susceptible to a range of mental health challenges, including:
 - Social isolation
 - Intense rage and aggression
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Exhibiting controlling or domineering behavior to assert power
 - Difficulty trusting others, leading to guardedness or defensiveness
 - Reacting with anger or hostility when feeling threatened or betrayed
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Increasing isolation due to perceived betrayals or threats
 - Escalating conflicts with others, resulting in strained relationships
 - Developing a "might makes right" mentality, justifying aggressive actions
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Engaging in violent or sadistic behaviors as a means of control or revenge
 - Complete social isolation due to paranoia and distrust
 - Displaying antisocial tendencies, such as lack of empathy or disregard for societal rules
 - Plotting or carrying out revenge against perceived enemies
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. James, feeling betrayed, becomes increasingly isolated and bitter:
 
@@ -577,7 +577,7 @@ Type 8s are susceptible to a range of mental health challenges, including:
 - Her involvement in these activities reflects a descent into sadistic and antisocial tendencies
 - Amelia's actions isolate her further, deepening her sense of detachment from society and increasing her risk of severe mental health challenges
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 8s may engage in various unhealthy coping strategies:
 
@@ -591,7 +591,7 @@ Type 8s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-<h2 style="padding: 0; margin: 0" id="type9">Mental Health Risks of the Enneagram Type 9: The Peacemaker</h2>
+## Mental Health Risks of the Enneagram Type 9: The Peacemaker</>
 
 Type 9s are susceptible to a range of mental health challenges, including:
 
@@ -600,28 +600,28 @@ Type 9s are susceptible to a range of mental health challenges, including:
 - Schizoid Personality Disorder
 - Severe depersonalization
 
-<h3 style="padding: 0; margin: 1rem 0"> Spectrum of Unhealthy Behaviors</h3>
+### Spectrum of Unhealthy Behaviors
 
-<h4 style="padding: 0; margin: 0"> Mild</h4>
+#### Mild
 
 - Avoiding conflict or difficult conversations to maintain peace
 - Numbing emotions or disengaging from situations to avoid discomfort
 - Struggling with decision-making, often deferring to others
 
-<h4 style="padding: 0; margin: 0"> Moderate</h4>
+#### Moderate
 
 - Increasingly withdrawing from reality to avoid stress or conflict
 - Becoming overly dependent on others for emotional stability and guidance
 - Experiencing emotional flatness or chronic disengagement from personal issues
 
-<h4 style="padding: 0; margin: 0"> Severe</h4>
+#### Severe
 
 - Falling into chronic depression and emotional numbness
 - Experiencing severe depersonalization or dissociative states
 - Losing a sense of identity or personal agency due to extreme avoidance
 - Becoming wholly disconnected from reality, leading to profound mental health decline
 
-<h3 style="padding: 0; margin: 0"> Unhealthy Spirals: Examples</h3>
+### Unhealthy Spirals: Examples
 
 1. William, avoiding personal problems, falls into chronic depression and emotional flatness:
 
@@ -637,7 +637,7 @@ Type 9s are susceptible to a range of mental health challenges, including:
 - Her confusion and disconnection from her surroundings worsen as she continues to avoid confronting her problems
 - Harper's mental health deteriorates as her dissociative episodes become more frequent and intense, leading to a profound sense of disorientation and helplessness
 
-<h3 style="padding: 0; margin: 0">Negative Coping Mechanisms</h3>
+### Negative Coping Mechanisms
 
 Type 9s may engage in various unhealthy coping strategies:
 

@@ -34,7 +34,7 @@ Here is how these lines show up for each Enneagram type:
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 1 - The Reformer</h3>
+### Type 1 - The Reformer
 
 Growth/ Integration **(Moving to Type Seven)**: When healthily challenged, Ones lighten up, embracing more spontaneity and positivity. They abandon their rigidity, giving room for a fun, carefree approach to life, much like the joyful Sevens.
 
@@ -46,7 +46,7 @@ Stress/ Disintegration **(Moving to Type Four)**: However, when stress mounts, O
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 2 - The Helper</h3>
+### Type 2 - The Helper
 
 Growth/ Integration **(Moving to Type Four)**: When Helpers integrate, they embrace the introspective nature of Fours. They become more self-nurturing, developing a rich inner life, independent of their relationships.
 
@@ -58,7 +58,7 @@ Stress/ Disintegration **(Moving to Type Eight**): Under pressure, Twos might ex
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 3 - The Achiever</h3>
+### Type 3 - The Achiever
 
 Growth/ Integration **(Moving to Type Six)**: As Threes integrate, they adopt the loyal and responsible traits of Sixes. They become more team-oriented and less focused on personal achievement.
 
@@ -70,7 +70,7 @@ Stress/ Disintegration **(Moving to Type Nine)**: Stressed Threes, however, can 
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 4 - The Individualist</h3>
+### Type 4 - The Individualist
 
 Growth/ Integration **(Moving to Type 1)**: When Fours are growing, they become more disciplined and objective, like healthy Ones. They learn to take practical steps towards achieving their ideals and are less swayed by their fluctuating emotions.
 
@@ -82,7 +82,7 @@ Stress/ Disintegration **(Moving to Type Two)**: But under stress, Fours can tur
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 5 - The Investigator</h3>
+### Type 5 - The Investigator
 
 Growth/ Integration **(Moving to Type Eight)**: Fives, when integrated, exhibit the assertive traits of Eights. They become more engaged with the outside world, showing confidence in their knowledge and skills.
 
@@ -94,7 +94,7 @@ Stress/ Disintegration **(Moving to Type Seven)**: However, during disintegratio
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 6 - The Loyalist</h3>
+### Type 6 - The Loyalist
 
 Growth/ Integration **(Moving to Type Nine)**: Healthy Sixes become serene and accepting like Nines. They trust their decisions and experience a refreshing sense of calm and stability.
 
@@ -106,7 +106,7 @@ Stress/ Disintegration **(Moving to Type Three)**: Under stress, Sixes can adopt
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 7 - The Enthusiast</h3>
+### Type 7 - The Enthusiast
 
 Growth/ Integration **(Moving to Type Five)**: Sevens, when they integrate, mirror the insightful depth of Fives. They become more focused, diving deeper into experiences instead of flitting from one thing to the next.
 
@@ -118,7 +118,7 @@ Stress/ Disintegration **(Moving to Type One)**: But when under stress, Sevens c
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 8 - The Challenger</h3>
+### Type 8 - The Challenger
 
 Growth/ Integration **(Moving to Type Two)**: Healthy Eights adopt the nurturing traits of Twos. They use their strength to protect and support others, displaying a softer, more caring side.
 
@@ -130,7 +130,7 @@ Stress/ Disintegration **(Moving to Type Five)**: When stressed, Eights may retr
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin: 0">Type 9 - The Peacemaker</h3>
+### Type 9 - The Peacemaker
 
 Growth/ Integration **(Moving to Type Three)**: When integrating, Nines exhibit the efficiency and motivation of Threes. They become more engaged and energetic, driven to achieve personal goals.
 

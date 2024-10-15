@@ -13,35 +13,13 @@ blog: true
 ---
 
 <script>
-  import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={4} gridDisplay={true} />
-<br>
-
 <p class="firstLetter">Enneagram Type 4, known as "The Individualist," is one of the three types in the Feeling Center or Heart Triad. This placement signifies their deep connection to emotions and their inner world, which profoundly influences their decision-making process.</p>
 
 Type 4 individuals are characterized by their deep desire to be unique and to express themselves creatively. They often experience a sense of not quite fitting in, which can lead to feelings of longing or melancholy. This constant search for identity and meaning sets them apart in the Enneagram system.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 4 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 4</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 4</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 4</a></li>
-        <li><a href="#fears">Fears of an Enneagram 4</a></li>
-        <li><a href="#stress">Enneagram 4s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 4's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 4 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 4 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 4 Personalities</a></li>
-        <li><a href="#experience">Enneagram Four's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 4s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -117,7 +95,8 @@ Enneagram Type 4 individuals possess a unique set of strengths that stem from th
    - They have a talent for finding and creating meaning in experiences and relationships.
    - This can lead to profound insights and a rich, purpose-driven life.
 
-<h3>Situations where 4s thrive</h3>
+### Situations where 4s thrive
+
 <ul>
 <li><strong>Artistic or Creative Projects:</strong> Their depth of emotion and authenticity fuels unique and meaningful work.</li>
 <li><strong>Counseling or Therapy:</strong> Their empathy and understanding of emotions help others feel seen and understood.</li>
@@ -327,7 +306,7 @@ When under stress, Enneagram Type 4 individuals tend to move towards the negativ
 <img src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
 </p>
 
-Key Stress Behaviors:
+### Key Stress Behaviors
 
 1. **Neediness and Dependency:**
 
@@ -363,7 +342,7 @@ Key Stress Behaviors:
    - Their emotions may become even more intense and unpredictable.
    - Mood swings could become more frequent and extreme.
 
-Coping Strategies for Type 4s Under Stress:
+### Coping Strategies for Type 4s Under Stress
 
 1. **Self-Awareness:** Recognize the signs of stress and the shift towards Type 2 behaviors.
 2. **Maintain Boundaries:** Practice setting and maintaining healthy emotional boundaries, even when the urge to merge with others is strong.
@@ -391,9 +370,9 @@ The childhood experiences of Enneagram Type 4 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have felt like an outsider in their own family, struggling to find a place where they truly belonged.
-  - Highly attuned to their emotional environment, often feeling misunderstood or overlooked.
-  - Might have developed a rich inner world as a coping mechanism for feeling different.
+    - May have felt like an outsider in their own family, struggling to find a place where they truly belonged.
+    - Highly attuned to their emotional environment, often feeling misunderstood or overlooked.
+    - Might have developed a rich inner world as a coping mechanism for feeling different.
 
 - **Typical Behaviors:** Sought out unique or creative outlets for expression. They may have had a rich fantasy life, often feeling melancholic or different from others.
 

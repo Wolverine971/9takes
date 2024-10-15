@@ -13,35 +13,13 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={7} gridDisplay={true} />
-<br>
-
 <p class="firstLetter">Type 7 individuals, brimming with enthusiasm and optimism, are the archetypal adventurers of the Enneagram.</p>
 
 Their ability to consistently find the silver lining and their eagerness for new experiences define their vibrant approach to life. Yet, this same zest can sometimes lead them to bite off more than they can chew, driven by a fear of missing out on life's exciting opportunities.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 7 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 7</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 7</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 7</a></li>
-        <li><a href="#fears">Fears of an Enneagram 7</a></li>
-        <li><a href="#stress">Enneagram 7s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 7's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 7 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 7 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 7 Personalities</a></li>
-        <li><a href="#experience">Enneagram Seven's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 7s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -96,7 +74,8 @@ Type 7 individuals possess several strengths that make them valuable and engagin
 
 8. **Social Skills:** With their natural charm and enthusiasm, Type 7s often excel in social situations, easily connecting with others and building networks.
 
-<h3>Situations where 7s thrive</h3>
+### Situations where 7s thrive
+
 <ul>
 <li><strong>Event Planning:</strong> Their energy and creativity create exciting and enjoyable events that leave lasting impressions.</li>
 <li><strong>Travel and Adventure Sports:</strong> Their enthusiasm and spontaneity make every experience memorable and push the boundaries of what's possible.</li>
@@ -347,7 +326,7 @@ Type 7s typically move towards the negative aspects of Type 1, "The Perfectionis
    - The stress may manifest physically as tension, particularly in the jaw, neck, or shoulders.
    - They might experience restlessness or difficulty relaxing.
 
-Coping Strategies for Type 7s Under Stress:
+### Coping Strategies for Type 7s Under Stress:
 
 1. **Recognize the Shift:** Awareness of this move towards Type 1 behaviors is the first step in managing stress.
 2. **Practice Mindfulness:** Engaging in mindfulness or meditation can help ground Type 7s in the present moment.
@@ -376,9 +355,9 @@ The childhood experiences of Enneagram Type 7 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have experienced family environments where negative emotions or problems were glossed over or ignored.
-  - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
-  - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
+    - May have experienced family environments where negative emotions or problems were glossed over or ignored.
+    - Often sought escape through engaging in a variety of activities, hobbies, and friendships.
+    - Might have learned to use charm and enthusiasm as a way to cope with or avoid difficult situations.
 
 - **Typical Behaviors:** Frequently took on roles such as the class clown, the adventurer, or the most talkative child, always planning or engaging in new experiences.
 

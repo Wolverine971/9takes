@@ -13,35 +13,13 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={3} gridDisplay={true} />
-<br>
-
 <p class="firstLetter">Enneagram Type 3s, known as "The Achiever," are the most ambitious and success-driven personality types.</p>
 
 They possess a strong desire to excel in their chosen field and are highly motivated to achieve their goals. The Three's secret weapon is their ability to adapt to any situation or environment, making them the chameleons of the Enneagram.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 3 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 3</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 3</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 3</a></li>
-        <li><a href="#fears">Fears of an Enneagram 3</a></li>
-        <li><a href="#stress">Enneagram 3s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 3's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 3 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 3 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 3 Personalities</a></li>
-        <li><a href="#experience">Enneagram Three's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 3s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -51,7 +29,7 @@ Type 3 personalities are distinguished by their ambition, charisma, and strong d
 
 Enneagram Type 3s are part of the shame triad, indicating high emotional intelligence. However, being in the middle of their triad, they can be feeling-repressed or emotionally blind. They operate primarily based on emotions, but this occurs subconsciously. When asked about their own emotions, they might struggle to define what they feel. Yet, they subconsciously understand others' emotions and can use this insight to their advantage.
 
-<h3>Key traits and characteristics of the Enneagram Type 3 personality</h3>
+### Key traits and characteristics of the Enneagram Type 3 personality
 
 <ul>
 <li><strong>Driven Achievers:</strong> Type 3s aren't just ambitious; they're obsessed with consistently leveling up, fueled by a deep fear of falling behind. This relentless pursuit defines their identity and relationships.</li>
@@ -91,7 +69,8 @@ Their strengths include:
 <li><strong>Confident Go-Getters:</strong> Self-assuredness radiates from them. They believe in themselves and their abilities, allowing them to take calculated risks and navigate complex situations with poise.</li>
 </ul>
 
-<h3>Situations where 3s thrive</h3>
+### Situations where 3s thrive
+
 <ul>
   <li><strong>Leading Sales Teams:</strong> Their charisma and relentless pursuit of goals turn them into sales superstars.</li>
   <li><strong>Conquering the Competitive Arena:</strong> Whether it's sports, business, or any competitive field, their determination and focus help them achieve victory.</li>
@@ -135,7 +114,8 @@ Recognizing these challenges is the first step towards personal growth and achie
 
 Enneagram Type 3 individuals, "The Achievers," are driven by a complex web of motivations that fuel their relentless pursuit of success:
 
-<h3>Motivating Factors for Enneagram Type 3s:</h3>
+### Motivating Factors for Enneagram Type 3s
+
 <ul>
   <li><strong>Recognition and Approval:</strong> The prospect of earning recognition and approval from peers, superiors, or society at large serves as a powerful motivator.</li>
   <li><strong>Ambitious Goals:</strong> Type 3s set ambitious, often audacious, goals for themselves. The pursuit of these goals is a constant source of motivation.</li>
@@ -144,7 +124,8 @@ Enneagram Type 3 individuals, "The Achievers," are driven by a complex web of mo
   <li><strong>External Expectations:</strong> Type 3s are highly attuned to the expectations others have of them, which act as external motivators.</li>
 </ul>
 
-<h3>Self-Motivation and Energy Sources</h3>
+### Self-Motivation and Energy Sources
+
 Type 3s are masters of self-motivation. They tap into their inner drive through:
 
 <ul>
@@ -185,7 +166,7 @@ When under stress, Type 3s shift towards Type 9 behaviors. <a href="/enneagram-c
 <img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
 </p>
 
-<h3>Stress Behaviors:</h3>
+### Stress Behaviors
 
 - <strong>Withdrawal and Passivity:</strong> They may become more passive, avoiding confrontations and challenges they would usually face head-on.
 - <strong>Avoidance:</strong> They might start avoiding tasks or decisions that they perceive as challenging or potentially unsuccessful.
@@ -193,7 +174,7 @@ When under stress, Type 3s shift towards Type 9 behaviors. <a href="/enneagram-c
 - <strong>Struggle for Importance:</strong> They might struggle with feeling unimportant or insignificant, which is particularly challenging for Type 3s.
 - <strong>Seeking Harmony:</strong> They may prioritize maintaining a peaceful environment over asserting themselves or pursuing their ambitions.
 
-<h3>Coping Strategies for Type 3s Under Stress:</h3>
+### Coping Strategies for Type 3s Under Stress
 
 - <strong>Recognize the Shift:</strong> Awareness of this shift towards Type 9 characteristics can help Type 3s understand and address their stress responses more effectively.
 - <strong>Maintain Self-Care:</strong> Engaging in self-care activities can help Type 3s stay grounded and reduce stress.
@@ -217,9 +198,9 @@ The childhood experiences of Type 3 individuals play a crucial role in shaping t
 - <strong>Childhood Wound:</strong> Internalized the idea that love and acceptance were contingent on their successes and achievements.
 - <strong>Developmental Aspects:</strong>
 
-  - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
-  - Often received more attention and praise for their actions than for who they were as individuals.
-  - Learned to adapt their behavior and achievements to gain approval and recognition.
+    - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
+    - Often received more attention and praise for their actions than for who they were as individuals.
+    - Learned to adapt their behavior and achievements to gain approval and recognition.
 
 - <strong>Typical Behaviors:</strong> Highly driven, often overachievers, striving to be the best in their pursuits. They may have taken on leadership roles in school or extracurricular activities, always seeking to stand out and be recognized.
 

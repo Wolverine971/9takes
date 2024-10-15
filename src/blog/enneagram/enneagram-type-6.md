@@ -18,37 +18,16 @@ Enneagram 6 wing 7
  -->
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={6} gridDisplay={true}/>
-<br>
 <p class="firstLetter">
 Highly committed to their relationships and communities, Type 6s value security, safety, and stability above all else.</p>
 
 They are the vigilant guardians, always on the lookout for potential dangers or risks, which can make them appear apprehensive when they feel threatened.
 
 Type 6s are characterized by their wariness about who to trust, yet they deeply seek a sense of belonging. This duality often leads them to form strong bonds with friends, family, and colleagues. The Loyalist's core emotion is fear, which drives their constant assessment of their environment for potential threats.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 6 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 6</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 6</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 6</a></li>
-        <li><a href="#fears">Fears of an Enneagram 6</a></li>
-        <li><a href="#stress">Enneagram 6s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 6's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 6 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 6 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 6 Personalities</a></li>
-        <li><a href="#experience">Enneagram Six's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 6s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -104,7 +83,8 @@ Enneagram Type 6 individuals possess a unique set of strengths that make them in
 
 7. **Analytical Skills:** Their tendency to question and analyze makes them excellent at critical thinking and thorough evaluation of situations.
 
-<h3>Situations where 6s thrive</h3>
+### Situations where 6s thrive
+
 <ul>
 <li><strong>Project Management:</strong> Their reliability and foresight ensure projects run smoothly and potential issues are addressed proactively.</li>
 <li><strong>Community Service:</strong> Their commitment to the group and sense of duty shine in roles that serve and protect communities.</li>
@@ -311,7 +291,7 @@ When under stress, Enneagram Type 6 individuals tend to move towards the negativ
 <img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
 </p>
 
-Key Stress Behaviors:
+### Key Stress Behaviors:
 
 1. **Excessive Focus on Achievement:**
 
@@ -347,7 +327,7 @@ Key Stress Behaviors:
    - Their inner critic may become harsher, focusing on perceived failures or shortcomings.
    - This can exacerbate feelings of inadequacy and anxiety.
 
-Coping Strategies for Type 6s Under Stress:
+### Coping Strategies for Type 6s Under Stress:
 
 1. **Recognize the Shift:** Awareness of this move towards Type 3 behaviors is the first step in managing stress.
 2. **Reaffirm Support Systems:** Remind yourself of your existing support networks and reach out when needed.
@@ -375,9 +355,9 @@ The childhood experiences of Enneagram Type 6 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
-  - Often found security in routines, rules, or structured environments.
-  - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
+    - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
+    - Often found security in routines, rules, or structured environments.
+    - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
 
 - **Typical Behaviors:** Often became the "worrier" or the "responsible one" in their family or friend groups. They may have developed a habit of seeking reassurance or guidance from authority figures.
 

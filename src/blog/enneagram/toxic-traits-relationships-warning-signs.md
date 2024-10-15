@@ -57,7 +57,7 @@ So how do these traits manifest in different personality types?
 
  <article class="section-content">
 
-<h3 id="type">Type 1: The Perfectionist's Relationship Critique</h3>
+### Type 1: The Perfectionist's Relationship Critique
 
 Type 1s in relationships often exhibit toxic traits stemming from their drive for perfection and fear of moral corruption. Their critical nature, rigidity, and self-righteousness can create significant challenges in romantic partnerships.
 
@@ -79,7 +79,7 @@ Type 1s may position themselves as the moral authority in the relationship, lead
 
  <article class="section-content">
 
-<h3 id="type">Type 2: The Helper's Smothering Love</h3>
+### Type 2: The Helper's Smothering Love
 
 Type 2s in relationships often display toxic traits rooted in their need to be needed and fear of being unlovable. Their tendency towards emotional manipulation, boundary violations, and self-neglect can create unhealthy dynamics in romantic partnerships.
 
@@ -101,7 +101,7 @@ Type 2s often neglect their own needs in favor of their partner's, creating an u
 
  <article class="section-content">
 
-<h3 id="type">Type 3: The Achiever's Image-Driven Love</h3>
+### Type 3: The Achiever's Image-Driven Love
 
 Type 3s in relationships often exhibit toxic traits stemming from their fear of worthlessness and drive for success. Their focus on image, competitive nature, and workaholic tendencies can create significant challenges in romantic partnerships.
 
@@ -127,7 +127,7 @@ Type 3s often prioritize work and achievement over their relationship, leading t
 
  <article class="section-content">
 
-<h3 id="type">Type 4: The Individualist's Dramatic Love</h3>
+### Type 4: The Individualist's Dramatic Love
 
 Type 4s in relationships often display toxic traits rooted in their fear of being ordinary and their search for identity. Their tendency towards emotional volatility, chronic dissatisfaction, and romanticizing pain can create turbulent dynamics in romantic partnerships.
 
@@ -149,7 +149,7 @@ Type 4s may glorify the painful aspects of their relationship, seeing suffering 
 
  <article class="section-content">
 
-<h3 id="type">Type 5: The Investigator's Detached Love</h3>
+### Type 5: The Investigator's Detached Love
 
 Type 5s in relationships often exhibit toxic traits stemming from their fear of depletion and need for self-sufficiency. Their emotional detachment, hoarding of personal space, and intellectual superiority can create significant challenges in romantic partnerships.
 
@@ -171,7 +171,7 @@ Type 5s may use their knowledge as a defense mechanism in relationships, creatin
 
  <article class="section-content">
 
-<h3 id="type">Type 6: The Loyalist's Anxious Love</h3>
+### Type 6: The Loyalist's Anxious Love
 
 Type 6s in relationships often display toxic traits rooted in their fear of abandonment and need for security. Their tendency towards suspicion, worst-case scenario thinking, and testing loyalty can create stressful dynamics in romantic partnerships.
 
@@ -218,7 +218,7 @@ Type 6s may create scenarios to test their partner's commitment, often setting t
 
  <article class="section-content">
 
-<h3 id="type">Type 7: The Enthusiast's Escapist Love</h3>
+### Type 7: The Enthusiast's Escapist Love
 
 Type 7s in relationships often exhibit toxic traits stemming from their fear of pain and desire for constant stimulation. Their commitment phobia, attention deficit, and avoidance of deep emotional connection can create significant challenges in romantic partnerships.
 
@@ -240,7 +240,7 @@ Type 7s may avoid deep emotional intimacy, preferring to keep things light and f
 
  <article class="section-content">
 
-<h3 id="type">Type 8: The Challenger's Domineering Love</h3>
+### Type 8: The Challenger's Domineering Love
 
 Type 8s in relationships often display toxic traits rooted in their fear of vulnerability and need for control. Their tendency towards domination, excessive anger, and emotional guardedness can create power imbalances in romantic partnerships.
 
@@ -262,7 +262,7 @@ Type 8s may struggle with showing softer emotions, maintaining a tough exterior 
 
  <article class="section-content">
 
-<h3 id="type">Type 9: The Peacemaker's Passive Love</h3>
+### Type 9: The Peacemaker's Passive Love
 
 Type 9s in relationships often exhibit toxic traits stemming from their fear of conflict and desire for inner peace. Their tendency towards passive-aggression, emotional numbness, and self-erasure can create significant challenges in romantic partnerships.
 

@@ -13,7 +13,6 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
@@ -22,30 +21,9 @@ blog: true
 
 high ideals and principles that they meticulously pay attention to. Why do they have such high ideals? Because they secretly fear that they are corrupt  -->
 
-<Carousel type={1} gridDisplay={true} />
-<br>
-
 <p class="firstLetter">The Enneagram Type 1 is known as "the Perfectionist" or "the Reformer."</p>
 
 People of this type often mention a little voice in the back of their heads that criticizes their every move. Sometime in their childhood, Enneagram type ones got the message that they were "bad," so they have been trying to prove that critic wrong ever since.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 1 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 1</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 1</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 1</a></li>
-        <li><a href="#fears">Fears of an Enneagram 1</a></li>
-        <li><a href="#stress">Enneagram 1s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 1's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 1 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 1 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 1 Personalities</a></li>
-        <li><a href="#experience">Enneagram One's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 1s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -85,7 +63,8 @@ Enneagram Type 1 individuals possess remarkable strengths that make them valuabl
 3. **Integrity**: Their honesty and straightforwardness foster trust and respect among peers and colleagues.
 4. **Commitment to improvement**: They have a genuine desire to make the world a better place, often willing to make personal sacrifices for the greater good.
 
-<h3>Situations where 1s thrive</h3>
+### Situations where 1s thrive
+
 <ul>
 <li>Organizing a Community Event: Their attention to detail and sense of responsibility ensure everything is done correctly and ethically.</li>
 <li>Leading a Quality Assurance Team: Their perfectionism and high standards lead to exceptional outcomes.</li>
@@ -181,8 +160,8 @@ The childhood experiences of Type 1 individuals often play a crucial role in sha
 - **Childhood Stereotype**: Often raised in households where precision and order were highly valued. Parents or guardians may have been strict, emphasizing moral and ethical standards.
 - **Childhood Wound**: Faced criticism or punishment for minor mistakes, leading to a deep-seated fear of making errors. This experience fostered an internal critic that constantly pushed for perfection.
 - **Developmental Aspects**:
-  - High expectations from family and teachers, with a focus on discipline and responsibility.
-  - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
+    - High expectations from family and teachers, with a focus on discipline and responsibility.
+    - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
 - **Typical Behaviors**: Sought to be model students or children, diligently following rules and guidelines. Often took on adult responsibilities early.
 - **Thoughts and Feelings**: Battled with feelings of inadequacy and a relentless drive to improve. May have felt emotionally restrained, suppressing feelings to maintain control.
 - **View on Childhood**: Likely views their upbringing as disciplined and structured, possibly lamenting the lack of spontaneity and freedom to make mistakes. Proud of their resilience but may wish for more emotional warmth and acceptance in their early years.

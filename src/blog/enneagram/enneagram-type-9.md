@@ -13,35 +13,13 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={9}  gridDisplay={true}/>
-<br>
-
 <p class="firstLetter">Enneagram Type 9 personalities, known as "The Peacemakers," are characterized by their innate ability to maintain harmony and avoid conflict in their relationships.</p>
 
 These individuals are deeply empathetic, optimistic, and driven by a strong desire to create a peaceful and comfortable environment for themselves and others.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 9 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 9</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 9</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 9</a></li>
-        <li><a href="#fears">Fears of an Enneagram 9</a></li>
-        <li><a href="#stress">Enneagram 9s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 9's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 9 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 9 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 9 Personalities</a></li>
-        <li><a href="#experience">Enneagram Nine's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 9s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -93,7 +71,8 @@ Enneagram Type 9 individuals possess a unique set of strengths that make them in
 
 8. **Non-judgmental Attitude:** Type 9s are accepting of others, creating a safe space for people to be themselves.
 
-<h3>Situations where 9s thrive</h3>
+### Situations where 9s thrive
+
 <ul>
 <li><strong>Mediation or Conflict Resolution:</strong> Their ability to understand all sides and seek harmony is key in resolving disputes.</li>
 <li><strong>Team Facilitation:</strong> Their calming presence and inclusive approach ensure everyone is heard and valued in group settings.</li>
@@ -340,7 +319,7 @@ Type 9s typically move towards the negative aspects of Type 6, "The Loyalist," w
 9. **Increased Rigidity:**
    - Their typical flexibility might give way to more rigid thinking and behavior as they seek structure and certainty.
 
-Coping Strategies for Type 9s Under Stress:
+### Coping Strategies for Type 9s Under Stress:
 
 1. **Recognize the Shift:** Awareness of this move towards Type 6 behaviors is the first step in managing stress.
 2. **Practice Mindfulness:** Engage in mindfulness or meditation to stay grounded in the present moment.
@@ -369,9 +348,9 @@ The childhood experiences of Enneagram Type 9 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-  - May have been surrounded by strong personalities or conflict, leading them to take on a mediating role from a young age.
-  - Often found comfort in routine, familiar environments, and activities that didn't draw attention to themselves.
-  - Might have learned that expressing strong opinions or emotions led to discomfort or conflict, reinforcing their tendency to withdraw.
+    - May have been surrounded by strong personalities or conflict, leading them to take on a mediating role from a young age.
+    - Often found comfort in routine, familiar environments, and activities that didn't draw attention to themselves.
+    - Might have learned that expressing strong opinions or emotions led to discomfort or conflict, reinforcing their tendency to withdraw.
 
 - **Typical Behaviors:** As children, Type 9s often avoided conflict, appeared complacent or agreeable, and developed a chameleon-like ability to blend into different social groups.
 

@@ -13,37 +13,15 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
-
-<Carousel type={2} gridDisplay={true} />
-<br>
 
 <p class="firstLetter">We all want to be loved and appreciated; however, for Enneagram Type 2 individuals, this desire has been taken to another level.</p>
 
 Known as "The Helper," Type 2s are the most caring type in the Enneagram, with an innate craving for affection and a remarkable ability to sense and respond to others' needs.
 
 Type 2s possess high emotional intelligence, enabling them to intuitively understand what others are feeling and wanting. This unique trait often leads them to take the initiative in helping people. While this tendency often garners admiration, it can also lead to a buildup of resentment if Type 2s consistently put their own needs last for extended periods.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 2 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 2</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 2</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 2</a></li>
-        <li><a href="#fears">Fears of an Enneagram 2</a></li>
-        <li><a href="#stress">Enneagram 2s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 2's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 2 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 2 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 2 Personalities</a></li>
-        <li><a href="#experience">Enneagram Two's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 2s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -89,7 +67,8 @@ Type 2 individuals possess several strengths that make them invaluable in both p
 
 5. **Relationship Building:** Their warmth and genuine interest in others help them forge strong, lasting relationships in both personal and professional spheres.
 
-<h3>Situations where 2s thrive</h3>
+### Situations where 2s thrive
+
 <ul>
 <li>Hosting Social Gatherings: Their warmth and caring nature make everyone feel welcome and cared for.</li>
 <li>Support Roles in Crisis Situations: Their empathy and selflessness shine in helping those in need.</li>
@@ -229,9 +208,9 @@ The childhood experiences of Type 2 individuals play a crucial role in shaping t
 
 - **Developmental Aspects:**
 
-  - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
-  - May have received praise and acknowledgment primarily when supporting or nurturing others.
-  - Learned to suppress their own needs and emotions to maintain harmony and gain approval.
+    - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
+    - May have received praise and acknowledgment primarily when supporting or nurturing others.
+    - Learned to suppress their own needs and emotions to maintain harmony and gain approval.
 
 - **Typical Behaviors:** Always ready to help, often putting others' needs before their own. May have taken on roles like mediator or caretaker within the family from a young age.
 

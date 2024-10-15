@@ -26,25 +26,9 @@ pic: 'female-greek-statue-on-a-date'
 
 This guide is designed all about dating tip based on the wisdom of the Enneagram. We'll explore what each type truly seeks in a relationship, the mindset shifts that can elevate your dating experience, and practical strategies for those crucial first and second dates.
 
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#type1">Type 1: The Perfectionist - Embracing the Beauty of Imperfection</a></li>
-        <li><a href="#type2">Type 2: The Helper - Nurturing Self-Love in Romance</a></li>
-        <li><a href="#type3">Type 3: The Achiever - Connecting Beyond the Resume</a></li>
-        <li><a href="#type4">Type 4: The Individualist - Finding Depth in the Everyday</a></li>
-        <li><a href="#type5">Type 5: The Investigator - Bridging the Mind-Heart Gap</a></li>
-        <li><a href="#type6">Type 6: The Loyalist - Building Trust in an Uncertain World</a></li>
-        <li><a href="#type7">Type 7: The Enthusiast - Finding Depth in the Adventure of Love</a></li>
-        <li><a href="#type8">Type 8: The Challenger - Strength in Vulnerability</a></li>
-        <li><a href="#type9">Type 9: The Peacemaker - Asserting Yourself in Harmony</a></li>
-        <li><a href="#conclusion">Conclusion: Embracing Your Type in the Journey of Love</a></li>
-    </ul>
-</details>
-
 <section class="section-content">
 
-<h2 id="type1">Type 1: The Perfectionist - Embracing the Beauty of Imperfection</h2>
+## Type 1: The Perfectionist - Embracing the Beauty of Imperfection
 
 ### What You Want: A Partner in Pursuit of Growth
 
@@ -108,7 +92,7 @@ Remember, Type 1, your drive for improvement is beautiful, but it's your authent
 </section>
 <section class="section-content">
 
-<h2 id="type2">Type2: The Helper - Nurturing Self-Love in Romance</h2>
+## Type2: The Helper - Nurturing Self-Love in Romance
 
 ### What You Want: Reciprocal Care and Appreciation
 
@@ -172,7 +156,7 @@ Remember, Type 2, the most beautiful relationships are built on mutual care and 
 </section>
 <section class="section-content">
 
-<h2 id="type3">Type3: The Achiever - Connecting Beyond the Resume</h2>
+## Type3: The Achiever - Connecting Beyond the Resume
 
 ### What You Want: A Partner in Success and Authenticity
 
@@ -236,7 +220,7 @@ Remember, Type 3, true connection comes from authenticity, not just achievement.
 </section>
 <section class="section-content">
 
-<h2 id="type4">Type 4: The Individualist - Finding Depth in the Everyday</h2>
+## Type 4: The Individualist - Finding Depth in the Everyday
 
 ### What You Want: A Soulful Connection in a Mundane World
 
@@ -308,7 +292,7 @@ Remember, Type 4, your depth and uniqueness are gifts, but connection also flour
 
 <section class="section-content">
 
-<h2 id="type5">Type 5: The Investigator - Bridging the Mind-Heart Gap</h2>
+## Type 5: The Investigator - Bridging the Mind-Heart Gap
 
 ### What You Want: Intellectual Stimulation with Emotional Space
 
@@ -375,7 +359,7 @@ Remember, Type 5, your intellectual depth is a gift, but emotional connection is
 </section>
 <section class="section-content">
 
-<h2 id="type6">Type6: The Loyalist - Building Trust in an Uncertain World</h2>
+## Type6: The Loyalist - Building Trust in an Uncertain World
 
 ### What You Want: Security and Reliability in Partnership
 
@@ -442,7 +426,7 @@ Remember, Type 6, your ability to be loyal and supportive is a tremendous streng
 </section>
 <section class="section-content">
 
-<h2 id="type7">Type 7: The Enthusiast - Finding Depth in the Adventure of Love</h2>
+## Type 7: The Enthusiast - Finding Depth in the Adventure of Love
 
 ### What You Want: A Partner in Excitement and Possibility
 
@@ -509,7 +493,7 @@ Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a re
 </section>
 <section class="section-content">
 
-<h2 id="type8">Type 8: The Challenger - Strength in Vulnerability</h2>
+## Type 8: The Challenger - Strength in Vulnerability
 
 ### What You Want: A Partner Who Can Match Your Intensity
 
@@ -576,7 +560,7 @@ Remember, Type 8, your intensity and strength are powerful assets in a relations
 </section>
 <section class="section-content">
 
-<h2 id="type9">Type 9: The Peacemaker - Asserting Yourself in Harmony</h2>
+## Type 9: The Peacemaker - Asserting Yourself in Harmony
 
 ### What You Want: A Peaceful Connection with Depth
 
@@ -642,7 +626,7 @@ Remember, Type 9, your ability to create harmony and see multiple perspectives i
 
 </section>
 
-<h2 id="conclusion">Conclusion: Embracing Your Type in the Journey of Love</h2>
+## Conclusion: Embracing Your Type in the Journey of Love
 
 Ladies, as we wrap up this guide, remember that your Enneagram type is not a box to confine you, but a springboard for growth and self-awareness in your dating journey. Each type brings unique strengths and challenges to relationships, and understanding these can be a powerful tool in creating authentic connections and embodying the essence of a truly high-value woman.
 

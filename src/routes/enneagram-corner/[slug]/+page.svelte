@@ -3,6 +3,7 @@
 	import { writable } from 'svelte/store';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import Carousel from '$lib/components/molecules/Carousel.svelte';
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
 	import BlogPageHead from '$lib/components/blog/BlogPageHead.svelte';
@@ -18,24 +19,39 @@
 
 	const contentStore = writable('');
 
+	const carouselDisplayUrls = [
+		'enneagram-type-1',
+		'enneagram-type-2',
+		'enneagram-type-3',
+		'enneagram-type-4',
+		'enneagram-type-5',
+		'enneagram-type-6',
+		'enneagram-type-7',
+		'enneagram-type-8',
+		'enneagram-type-9'
+	];
+
+	const enneagram = data?.slug.split('-');
+	const type = enneagram[enneagram.length - 1];
+
 	onMount(() => {
 		findObserver();
 	});
 
 	const findObserver = () => {
-		const observer = new MutationObserver((mutations) => {
-			mutations.forEach((mutation) => {
-				if (mutation.type === 'childList') {
-					contentStore.set(document.querySelector('#blogA').innerHTML);
-				}
-			});
-		});
-
 		const node = document.querySelector('#blogA');
 
 		if (!node) {
-			setTimeout(findObserver, 1000);
+			setTimeout(findObserver, 500);
 		} else {
+			const observer = new MutationObserver((mutations) => {
+				mutations.forEach((mutation) => {
+					if (mutation.type === 'childList') {
+						contentStore.set(node.innerHTML);
+					}
+				});
+			});
+
 			observer.observe(node, { childList: true, subtree: true });
 		}
 	};
@@ -59,8 +75,11 @@
 			/>
 		</div>
 	{/if}
+	{#if carouselDisplayUrls.includes(data?.slug)}
+		<Carousel type={parseInt(type)} gridDisplay={true} />
+	{/if}
 
-	<!-- <TableOfContents {contentStore} /> -->
+	<TableOfContents {contentStore} />
 
 	<svelte:component this={component} />
 </article>

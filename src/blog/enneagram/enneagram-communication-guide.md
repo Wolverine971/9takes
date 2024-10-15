@@ -69,7 +69,7 @@ Let's dive into how to communicate and interact effectively with each Enneagram 
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 1 Communication</h3>
+### Enneagram 1 Communication
 
 Ones are principled, ethical, and perfectionistic. They value order, structure, and correctness. Being direct, precise, and respectful is essential when communicating with Ones. Avoid being confrontational or critical, as Ones can be sensitive to criticism. Focus on solutions and constructive feedback rather than dwelling on mistakes or flaws. Ones appreciate when others are honest and straightforward with them, so be authentic and genuine in your communication.
 
@@ -89,7 +89,7 @@ As we move from the structured world of Type 1 to the warm, people-oriented real
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 2 Communication</h3>
+### Enneagram 2 Communication
 
 Twos are caring, generous, and empathetic. They value relationships and are driven by a desire to help others. When communicating with Twos, it's essential to acknowledge their efforts and contributions. Listen actively and show appreciation for their support and assistance. Avoid being dismissive or taking advantage of their kindness. Be sensitive to their emotional needs, as Twos can be easily hurt by rejection or criticism.
 
@@ -109,7 +109,7 @@ As we transition from the heart-centered approach of Type 2 to the achievement-o
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 3 Communication</h3>
+### Enneagram 3 Communication
 
 Threes are ambitious, competitive, and driven. They value success, recognition, and accomplishment. When communicating with Threes, being concise, focused, and results-oriented is essential. Avoid being too emotional or personal, as Threes prefer keeping things professional. Support and encourage their goals and aspirations, and offer feedback that helps them achieve their objectives. Recognize their accomplishments and celebrate their successes.
 
@@ -129,7 +129,7 @@ As we shift from the achievement-focused world of Type 3 to the introspective re
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 4 Communication</h3>
+### Enneagram 4 Communication
 
 Fours are creative, expressive, and introspective. They value authenticity, originality, and uniqueness. Being empathetic, understanding, and open-minded is essential when communicating with Fours. Avoid being dismissive or judgmental of their emotions or opinions. Be willing to explore different perspectives and approaches and encourage them to express themselves creatively. Recognize their unique contributions and appreciate their creativity and insight.
 
@@ -153,7 +153,7 @@ As we move from the emotionally rich world of Type 4 to the intellectually curio
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 5 Communication</h3>
+### Enneagram 5 Communication
 
 Fives are analytical, independent, and private. They value knowledge, expertise, and autonomy. When communicating with Fives, being respectful, patient, and non-intrusive is essential. Avoid being too emotional or personal, as Fives prefer to keep things logical and objective. Be willing to engage in deep, thoughtful conversations, and allow them the space and time to process information. Recognize their expertise and respect their need for privacy and solitude.
 
@@ -173,7 +173,7 @@ As we transition from the cerebral world of Type 5 to the security-seeking realm
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 6 Communication</h3>
+### Enneagram 6 Communication
 
 Sixes are loyal, responsible, and anxious. They value security, stability, and support. Being reassuring, trustworthy, and supportive is essential when communicating with Sixes. Avoid being too critical or judgmental, as Sixes can be sensitive to perceived threats. Provide them with clear expectations and guidelines, and communicate consistently. Recognize their loyalty and commitment, and appreciate their reliability and dependability.
 
@@ -193,7 +193,7 @@ As we move from the cautious, security-focused world of Type 6 to the enthusiast
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 7 Communication</h3>
+### Enneagram 7 Communication
 
 Sevens are enthusiastic, spontaneous, and adventurous. They value freedom, variety, and excitement. When communicating with Sevens, being upbeat, positive, and engaging is essential. Avoid being too serious or negative, as Sevens can become bored or disinterested. Be willing to explore new ideas and experiences, and encourage them to be creative and imaginative. Recognize their optimism and energy, and appreciate their sense of fun and adventure.
 
@@ -213,7 +213,7 @@ As we shift from the high-energy, possibility-filled world of Type 7 to the powe
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 8 Communication</h3>
+### Enneagram 8 Communication
 
 Eights are powerful, assertive, and confrontational. They value strength, control, and autonomy. Being direct, confident, and assertive is essential when communicating with Eights. Avoid being passive or weak, as Eights can become impatient or dismissive. Be willing to engage in honest, straightforward conversations and provide them with clear expectations and boundaries. Recognize their leadership and courage, and appreciate their strength and determination.
 
@@ -233,7 +233,7 @@ As we move from the intense, action-oriented world of Type 8 to the peaceful, ha
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram 9 Communication</h3>
+### Enneagram 9 Communication
 
 Nines are peaceful, accommodating, and harmonious. They value unity, cooperation, and tranquility. Being calm, patient, and understanding is essential when communicating with Nines. Avoid being too demanding or confrontational, as Nines can become passive or avoidant. Be willing to listen actively and show appreciation for their perspective and input. Recognize their diplomacy and mediation skills and appreciate their ability to unite people.
 

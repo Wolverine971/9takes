@@ -105,7 +105,7 @@ At this level we are going to examine each types values in a relationship and ti
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 1 Relationship Values</h3>
+### Enneagram Type 1 Relationship Values
 
 Enneagram type 1 individuals are often known as "The Perfectionist" or "The Reformer." In a relationship, they bring a strong sense of responsibility and integrity and strive to do things in the "right" way. A sense of purpose typically drives them, and they have high standards for themselves and others.
 
@@ -119,7 +119,7 @@ Partners of type 1s must understand and appreciate their strong sense of moralit
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 2 Relationship Values</h3>
+### Enneagram Type 2 Relationship Values
 
 Enneagram Type 2, also known as "The Helper," is warm, caring, and attentive to the needs of others. They are motivated by the desire to be loved and appreciated and often seek validation through their relationships. In a romantic relationship, they are incredibly loving and affectionate partners who go above and beyond to make their significant other feel loved and appreciated.
 
@@ -133,7 +133,7 @@ Type 2s need to learn to balance their desire to help others with taking care of
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 3 Relationship Values</h3>
+### Enneagram Type 3 Relationship Values
 
 Enneagram type 3 individuals, or "The Achievers," are focused on success, achievement, and recognition. They are highly ambitious and driven, always looking for new opportunities to prove their worth and achieve their goals. In a relationship, they are often very attentive and focused on their partner, but they may struggle with balancing their desire for success with their commitment to the relationship.
 
@@ -147,7 +147,7 @@ To have a successful relationship, type 3 individuals must learn to balance thei
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 4 Relationship Values</h3>
+### Enneagram Type 4 Relationship Values
 
 Enneagram Type 4 individuals are known for their strong emotions and introspective nature. In relationships, they seek deep connection and often crave an understanding and appreciation for their unique qualities. However, they may also struggle with inadequacy and fear of rejection.
 
@@ -165,7 +165,7 @@ To have a successful relationship, Type 4s may need to work on managing their em
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 5 Relationship Values</h3>
+### Enneagram Type 5 Relationship Values
 
 Enneagram type 5, the Investigator or Observer tends to be analytical, cerebral, and introspective. They are driven by a desire to understand the world around them and gather information, often at the expense of social interaction and emotional expression.
 
@@ -181,7 +181,7 @@ Relationships with type 5s can be rewarding and intellectually stimulating but m
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 6 Relationship Values</h3>
+### Enneagram Type 6 Relationship Values
 
 Enneagram Type Sixes, the Loyalists, are known for their sense of duty and loyalty towards others. They are excellent at predicting potential problems and preparing for them. Type Sixes tend to be very caring and supportive towards their partner in a relationship. However, they may struggle with trust issues and may need reassurance from their partner that they are loved and accepted. They often seek a stable and reliable partner and may need help feeling secure if their partner is unpredictable or inconsistent.
 
@@ -195,7 +195,7 @@ Type Sixes can be very supportive partners, offering stability and security to t
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 7 Relationship Values</h3>
+### Enneagram Type 7 Relationship Values
 
 Enneagram type sevens, also known as the Enthusiast, are adventurous, fun-loving, and spontaneous individuals who enjoy experiencing new things and are always looking for new adventures. In a relationship, sevens can bring a sense of excitement, joy, and spontaneity to their partners' lives.
 
@@ -211,7 +211,7 @@ Despite these potential challenges, Enneagram sevens are typically warm, enthusi
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 8 Relationship Values</h3>
+### Enneagram Type 8 Relationship Values
 
 Enneagram type 8, also known as the Challenger or Leader, is characterized by assertiveness, self-confidence, and a protective nature. They have a strong desire for control and can be seen as intimidating to others, but their true motivation is to protect those they care about and ensure justice and fairness in their relationships. In a relationship, type 8s value honesty, loyalty, and strength.
 
@@ -225,7 +225,7 @@ For a relationship with a type 8 to thrive, their partner must be willing to mee
 
 <section class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Enneagram Type 9 Relationship Values</h3>
+### Enneagram Type 9 Relationship Values
 
 Enneagram Type 9, also known as the "Peacemaker," is a gentle and easygoing personality type that values harmony and peaceful interactions. Nines are known for their empathetic and compassionate nature and ability to see things from multiple perspectives.
 

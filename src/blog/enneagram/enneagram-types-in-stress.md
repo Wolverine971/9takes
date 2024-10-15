@@ -28,7 +28,7 @@ Let's dive into how each Enneagram type handles stress.
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 1 in Stress</h2>
+## Enneagram 1 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
@@ -84,7 +84,7 @@ Under stress, Type 1s become overly critical of themselves and others. They ofte
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 2 in Stress</h2>
+## Enneagram 2 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
@@ -144,7 +144,7 @@ Stressed Type 2s may try to become more involved in others' lives, offering unso
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 3 in Stress</h2>
+## Enneagram 3 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
@@ -200,7 +200,7 @@ In stress, Type 3s often double down on their work, becoming even more focused o
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 4 in Stress</h2>
+## Enneagram 4 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
@@ -256,7 +256,7 @@ When stressed, Type 4s can become overly introspective and withdrawn, dwelling o
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 5 in Stress</h2>
+## Enneagram 5 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
@@ -312,7 +312,7 @@ Stressed Type 5s often retreat into their minds, becoming more isolated and deta
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 6 in Stress</h2>
+## Enneagram 6 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
@@ -368,7 +368,7 @@ Under stress, Type 6s can become more anxious and suspicious, questioning the lo
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 7 in Stress</h2>
+## Enneagram 7 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
@@ -424,7 +424,7 @@ When stressed, Type 7s may try to escape their feelings by seeking new experienc
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 8 in Stress</h2>
+## Enneagram 8 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
@@ -480,7 +480,7 @@ In stress, Type 8s can become more confrontational and domineering, trying to as
 
 <section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram 9 in Stress</h2>
+## Enneagram 9 in Stress
 
 <p style="display: flex; justify-content: center;">
 <img src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">

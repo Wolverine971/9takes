@@ -20,21 +20,6 @@ pic: 'male-greek-statue-on-a-date'
 
 <!-- # Enneagram Dating Guide for Men: Strategies for Authentic Connections -->
 
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#type1">Type 1: The Perfectionist - Embracing Imperfection in Love</a></li>
-        <li><a href="#type2">Type 2: The Helper - Nurturing Self-Love Alongside Romance</a></li>
-        <li><a href="#type3">Type 3: The Achiever - Connecting Beyond the Resume</a></li>
-        <li><a href="#type4">Type 4: The Individualist - Finding Depth in the Everyday</a></li>
-        <li><a href="#type5">Type 5: The Investigator - Bridging the Mind-Heart Gap</a></li>
-        <li><a href="#type6">Type 6: The Loyalist - Building Trust in an Uncertain World</a></li>
-        <li><a href="#type7">Type 7: The Enthusiast - Finding Depth in the Adventure of Love</a></li>
-        <li><a href="#type8">Type 8: The Challenger - Strength in Vulnerability</a></li>
-        <li><a href="#type9">Type 9: The Peacemaker - Asserting Yourself in Harmony</a></li>
-    </ul>
-</details>
-
 <p class="firstLetter">Tired of useless dating advice? Forget "alpha male" nonsense. Real dating success starts with understanding yourself.</p>
 
 <p>Enter the Enneagram.</p>
@@ -45,7 +30,7 @@ pic: 'male-greek-statue-on-a-date'
 
 <p>This guide isn't about teaching you to be a "high-value man" (whatever that means). It's about leveraging your unique personality to naturally attract the kind of women you actually want to be with. Ready to dive in? Let's go.</p>
 
-<h2>Why the Enneagram is Your New Dating Superpower</h2>
+## Why the Enneagram is Your New Dating Superpower
 
 <p>Look, most guys approach dating like they're assembling IKEA furniture without the instructions – lots of fumbling, mismatched pieces, and maybe a few tears. But you're smarter than that. You know that understanding yourself is the first step to understanding others.</p>
 
@@ -60,7 +45,7 @@ pic: 'male-greek-statue-on-a-date'
 
 <p>Women dig guys who are self-aware. It shows emotional intelligence, maturity, and the ability to grow. Plus, when you understand yourself better, you can communicate more effectively and build deeper connections. Win-win.</p>
 
-<h2>Finding Your Type: A Quick Enneagram Crash Course</h2>
+## Finding Your Type: A Quick Enneagram Crash Course
 
 <p>Before we dive into the dating strategies, you need to know your type. The Enneagram has nine personality types, each with its own core motivations, fears, and patterns of behavior. Here's a super quick rundown:</p>
 
@@ -78,15 +63,15 @@ pic: 'male-greek-statue-on-a-date'
 
 <p>Not sure which one you are? <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Learn your Enneagram type here</a>. Be honest with yourself – this isn't about picking the type you want to be, but recognizing who you really are.</p>
 
-<h2>Enneagram Dating Strategies: Your Personality, Your Playbook</h2>
+## Enneagram Dating Strategies: Your Personality, Your Playbook
 
 <p>Now for the good stuff. We're going to break down each type with specific, actionable advice. Remember, this isn't about changing who you are – it's about being the best version of yourself.</p>
 
 <section class="section-content">
 
-<h2 id="type1">Type 1: The Perfectionist - Embracing Imperfection in Love</h2>
+## Type 1: The Perfectionist - Embracing Imperfection in Love
 
-<h3>What You Want: <strong>The Ideal Partner in an Imperfect World</strong></h3>
+### What You Want: <strong>The Ideal Partner in an Imperfect World</strong>
 
 As a Type 1, you're searching for someone who embodies your high standards and shares your commitment to personal growth. You value integrity, honesty, and a strong moral compass in relationships. The perfect partner, in your eyes, is someone who strives for excellence but also understands the beauty of imperfection.
 
@@ -102,13 +87,13 @@ Being too critical – of yourself or your date. Perfection is a myth, my friend
 
 Instead of "I need to be perfect," try "I'm perfectly imperfect, and that's okay." Recognize that a great relationship isn't about finding someone flawless, but about growing together through life's messy, beautiful journey. Your growth lies in embracing the imperfections in yourself and others.
 
-<h3>First Date for an Enneagram Type 1</h3>
+### First Date for an Enneagram Type 1
 
 **Relaxing into Reality**
 
 As you prepare for your first date, you're likely feeling a mix of excitement and anxiety. You may be tempted to plan every detail, envisioning the perfect evening. Remember, the goal isn't perfection – it's connection. Take a deep breath and remind yourself that genuine interactions often arise from unscripted moments.
 
-<h4>Strategy: <strong>Creating Space for Authentic Connection</strong></h4>
+#### Strategy: <strong>Creating Space for Authentic Connection</strong>
 
 1. **Choose a structured activity with room for spontaneity**
    Why: This balances your need for order with the opportunity for natural interaction. Options include:
@@ -136,13 +121,13 @@ As you prepare for your first date, you're likely feeling a mix of excitement an
 
 Share a time you messed up and what you learned. It shows you're human and can laugh at yourself. This vulnerability can be deeply attractive and helps create a safe space for your date to be authentic too.
 
-<h3>Second Date for an Enneagram Type 1</h3>
+### Second Date for an Enneagram Type 1
 
 **Deepening the Connection, Not Perfecting It**
 
 You've secured a second date – congratulations! You might be feeling a mix of excitement and pressure to make this date even better than the first. Remember, the goal isn't to perfect the experience, but to deepen your connection. Focus on getting to know your date better rather than trying to impress them.
 
-<h4>Strategy: <strong> Balancing Ideals with Authenticity</strong></h4>
+#### Strategy: <strong> Balancing Ideals with Authenticity</strong>
 
 1. **Plan an activity that aligns with your values**
    Options include:
@@ -169,9 +154,9 @@ Remember, Type 1, the perfect date doesn't exist, but beautiful, meaningful conn
 
 <section class="section-content">
 
-<h2 id="type2">Type 2: The Helper - Nurturing Self-Love Alongside Romance</h2>
+## Type 2: The Helper - Nurturing Self-Love Alongside Romance
 
-<h3>What You Want: <strong>Reciprocal Care in a Sea of Giving</strong></h3>
+### What You Want: <strong>Reciprocal Care in a Sea of Giving</strong>
 
 As a Type 2, you're seeking a partner who not only appreciates your nurturing nature but returns it with equal care and affection. You desire a deep emotional connection where your efforts are recognized and your need to be needed is fulfilled. The ideal relationship, for you, is one of mutual support and emotional intimacy.
 
@@ -187,13 +172,13 @@ Neglecting your own needs or becoming too clingy. Self-care is sexy. Your tenden
 
 Instead of "I need to be needed," try "I'm worthy of love just as I am." Your worth isn't determined by how much you give or how needed you are. The key to fulfilling relationships lies in cultivating self-love and setting healthy boundaries. Focus on mutual care and respect rather than trying to earn love through constant giving.
 
-<h3>First Date for an Enneagram Type 2</h3>
+### First Date for an Enneagram Type 2
 
 **Balancing Giving and Receiving**
 
 As you approach your first date, you're likely excited about the opportunity to connect and make your date feel special. You might be planning ways to cater to their needs and preferences. While your caring nature is beautiful, remember that dating is about mutual exchange. Allow yourself to receive attention and care as well.
 
-<h4>Strategy: <strong>Creating Space for Mutual Care</strong></h4>
+#### Strategy: <strong>Creating Space for Mutual Care</strong>
 
 1. **Choose a casual, comfortable setting that allows for genuine interaction**
    Options include:
@@ -221,13 +206,13 @@ As you approach your first date, you're likely excited about the opportunity to 
 
 Talk about your passions outside of helping others. Show that you have a life and interests of your own. This demonstrates that you're a multi-faceted individual with your own goals and dreams, not just someone who lives to serve others.
 
-<h3>Second Date for an Enneagram Type 2</h3>
+### Second Date for an Enneagram Type 2
 
 **Deepening Connection While Maintaining Balance**
 
 Congratulations on securing a second date! You're likely feeling a warm glow of connection and maybe already thinking about ways to make your date feel special. While it's wonderful to care, remember that the goal is to deepen your mutual understanding and connection, not to prove your worth through giving.
 
-<h4>Strategy: <strong> Cultivating Reciprocal Care</strong></h4>
+#### Strategy: <strong> Cultivating Reciprocal Care</strong>
 
 1. **Plan an activity that allows for reciprocal care**
    Options include:
@@ -254,9 +239,9 @@ Remember, Type 2, the most beautiful relationships are built on mutual care and 
 
 <section class="section-content">
 
-<h2 id="type3">Type 3: The Achiever - Connecting Beyond the Resume</h2>
+## Type 3: The Achiever - Connecting Beyond the Resume
 
-<h3>What You Want: <strong>A Partner in Success and Life</strong></h3>
+### What You Want: <strong>A Partner in Success and Life</strong>
 
 As a Type 3, you're attracted to the successful and seek a partner who matches your ambition and can keep pace with your dynamic lifestyle. You value recognition and want someone who appreciates your accomplishments while also challenging you to grow. The ideal relationship, in your eyes, is a power couple scenario where you both push each other to greater heights.
 
@@ -272,13 +257,13 @@ Coming across as boastful or valuing image over substance. True connection goes 
 
 Instead of "I am what I achieve," try "I am valuable beyond my accomplishments." True connection goes beyond achievements and accolades. Your growth lies in learning to value yourself and others for who you are, not just what you do. Authenticity, vulnerability, and genuine emotional connection are the keys to fulfilling relationships, not just shared success.
 
-<h3>First Date for an Enneagram Type 3</h3>
+### First Date for an Enneagram Type 3
 
 **Showcasing the Real You, Not Just Your Highlight Reel**
 
 As you prepare for your first date, you might feel the urge to impress and showcase your achievements. While it's natural to want to put your best foot forward, remember that genuine connection comes from authentic sharing. Focus on revealing your true self, including your passions, dreams, and even insecurities, rather than just your accomplishments.
 
-<h4>Strategy: <strong>Balancing Impression and Connection</strong></h4>
+#### Strategy: <strong>Balancing Impression and Connection</strong>
 
 1. **Choose an activity that's impressive but allows for genuine interaction**
    Options include:
@@ -306,13 +291,13 @@ As you prepare for your first date, you might feel the urge to impress and showc
 
 Share a personal story that reveals something beyond your achievements. This vulnerability can create a deeper emotional connection and show that you're more than your accomplishments. Consider sharing a moment of doubt or a time when you learned from failure.
 
-<h3>Second Date for an Enneagram Type 3</h3>
+### Second Date for an Enneagram Type 3
 
 **Deepening the Connection, Not Just Leveling Up**
 
 Securing a second date is an achievement, but remember, it's not about "winning" at dating. You might feel pressure to make this date even more impressive than the first. Instead, focus on deepening your connection and showing more layers of your authentic self.
 
-<h4>Strategy: <strong> Showcasing Depth and Vulnerability</strong></h4>
+#### Strategy: <strong> Showcasing Depth and Vulnerability</strong>
 
 1. **Plan something active but fun that allows you both to let loose**
    Options include:
@@ -343,9 +328,9 @@ Remember, Type 3, true connection comes from authenticity, not just achievement.
 
 <section class="section-content">
 
-<h2 id="type4">Type 4: The Individualist - Finding Depth in the Everyday</h2>
+## Type 4: The Individualist - Finding Depth in the Everyday
 
-<h3>What You Want: <strong>A Soulful Connection in a Mundane World</strong></h3>
+### What You Want: <strong>A Soulful Connection in a Mundane World</strong>
 
 As a Type 4, you're seeking a deep connection with someone who appreciates your uniqueness. You want a partner who can engage in emotional depth, share in the beauty and pain of life, and understand your need for authenticity and self-expression. The ideal relationship, for you, is one where you feel truly seen, understood, and cherished for your individuality.
 
@@ -361,13 +346,13 @@ Moodiness or dramatizing situations. Not every date needs to be a rom-com climax
 
 Instead of "I need to be special," try "I am uniquely myself, and that's enough." While your intensity and depth are beautiful, remember that not every moment needs to be profound. Your growth lies in learning to appreciate the ordinary alongside the extraordinary, and recognizing that stability and simple joys can be as fulfilling as intense emotional experiences.
 
-<h3>First Date for an Enneagram Type 4</h3>
+### First Date for an Enneagram Type 4
 
 **Balancing Uniqueness with Approachability**
 
 As you prepare for your first date, you might feel a mix of excitement and anxiety. You're likely thinking about how to showcase your unique self and create a memorable experience. While it's wonderful to express your individuality, remember that connection also comes from finding common ground. Focus on being authentically you while also being open and approachable.
 
-<h4>Strategy: <strong>Expressing Individuality While Fostering Connection</strong></h4>
+#### Strategy: <strong>Expressing Individuality While Fostering Connection</strong>
 
 1. **Choose a unique, aesthetically pleasing venue that reflects your personality**
    Options include:
@@ -395,13 +380,13 @@ As you prepare for your first date, you might feel a mix of excitement and anxie
 
 Share a quirky interest or hobby that brings you joy. This shows your unique side while also demonstrating that you can find happiness in simple pleasures. It helps create a more rounded picture of who you are beyond just your depth and intensity.
 
-<h3>Second Date for an Enneagram Type 4</h3>
+### Second Date for an Enneagram Type 4
 
 **Deepening the Connection Without Idealizing**
 
 Congratulations on securing a second date! You might be feeling a surge of emotion and perhaps starting to romanticize the connection. While it's beautiful to feel deeply, remember to stay grounded in reality. Focus on getting to know your date as they truly are, not as an idealized image.
 
-<h4>Strategy: <strong> Cultivating Depth While Appreciating Reality</strong></h4>
+#### Strategy: <strong> Cultivating Depth While Appreciating Reality</strong>
 
 1. **Plan something that allows for deep conversation in a comfortable setting**
    Options include:
@@ -428,9 +413,9 @@ Remember, Type 4, your depth and uniqueness are gifts, but connection also flour
 
 <section class="section-content">
 
-<h2 id="type5">Type 5: The Investigator - Bridging the Mind-Heart Gap</h2>
+## Type 5: The Investigator - Bridging the Mind-Heart Gap
 
-<h3>What You Want: <strong>Intellectual Stimulation with Emotional Space</strong></h3>
+### What You Want: <strong>Intellectual Stimulation with Emotional Space</strong>
 
 As a Type 5, you're looking for an intellectual equal who respects your need for space and independence. You value deep, stimulating conversations and a partner who has their own interests and knowledge to share. The ideal relationship, in your view, is one where you can explore ideas together while maintaining your individual autonomy.
 
@@ -446,13 +431,13 @@ Coming across as detached or overly analytical. Dating involves feelings too, no
 
 Instead of "I need to know everything," try "It's okay to learn as I go." While your mind is your strength, remember that emotional connection is equally important in relationships. Your growth lies in learning to open up and share not just your thoughts, but your feelings too. Recognize that vulnerability can deepen your connections without depleting your resources.
 
-<h3>First Date for an Enneagram Type 5</h3>
+### First Date for an Enneagram Type 5
 
 **Balancing Curiosity with Connection**
 
 As you prepare for your first date, you're likely focused on interesting topics you could discuss and questions you could ask. While intellectual exchange is important to you, remember that dating is also about emotional connection. Try to approach the date with openness to both mental and emotional experiences.
 
-<h4>Strategy: <strong>Engaging Both Mind and Heart</strong></h4>
+#### Strategy: <strong>Engaging Both Mind and Heart</strong>
 
 1. **Choose a location rich in intellectual stimulation that also allows for personal interaction**
    Options include:
@@ -480,13 +465,13 @@ As you prepare for your first date, you're likely focused on interesting topics 
 
 Share a recent discovery or idea that excited you, explaining both the concept and how it made you feel. This combines intellectual sharing with emotional expression, helping you practice connecting these aspects of yourself.
 
-<h3>Second Date for an Enneagram Type 5</h3>
+### Second Date for an Enneagram Type 5
 
 **Deepening Connection Without Overanalyzing**
 
 You've secured a second date, which is great! You might be tempted to analyze the first date in detail and plan extensively for this one. While some reflection is good, try not to overthink it. Focus on building upon the connection you've started, allowing for both intellectual and emotional growth.
 
-<h4>Strategy: <strong> Expanding Comfort Zones</strong></h4>
+#### Strategy: <strong> Expanding Comfort Zones</strong>
 
 1. **Plan an activity that combines learning with interaction**
    Options include:
@@ -513,9 +498,9 @@ Remember, Type 5, your intellectual depth is a gift, but emotional connection is
 
 <section class="section-content">
 
-<h2 id="type6">Type 6: The Loyalist - Building Trust in an Uncertain World</h2>
+## Type 6: The Loyalist - Building Trust in an Uncertain World
 
-<h3>What You Want: <strong>Security and Reliability in Partnership</strong></h3>
+### What You Want: <strong>Security and Reliability in Partnership</strong>
 
 As a Type 6, you're seeking a trustworthy, reliable partner who can provide a sense of security in an often unpredictable world. You value honesty, commitment, and mutual support in facing life's challenges. The ideal relationship, for you, is one where you feel safe to be yourself and can count on your partner through thick and thin.
 
@@ -531,13 +516,13 @@ Overthinking or projecting worst-case scenarios. Not every silence means she's l
 
 Instead of "What if everything goes wrong?" try "I can handle whatever comes my way." While caution has its place, your growth lies in learning to trust more and worry less. Recognize that taking calculated risks in relationships can lead to great rewards, and that true security often comes from within, not external factors.
 
-<h3>First Date for an Enneagram Type 6</h3>
+### First Date for an Enneagram Type 6
 
 **Balancing Caution with Openness**
 
 As you approach your first date, you might be feeling a mix of excitement and anxiety. You're likely running through potential scenarios and maybe even looking for possible red flags. While it's good to be prepared, try not to let your vigilance overshadow the opportunity for genuine connection. Focus on being present and giving your date a fair chance.
 
-<h4>Strategy: <strong>Creating a Safe Space for Authenticity</strong></h4>
+#### Strategy: <strong>Creating a Safe Space for Authenticity</strong>
 
 1. **Choose a safe, familiar environment that still allows for fun interaction**
    Options include:
@@ -565,13 +550,13 @@ As you approach your first date, you might be feeling a mix of excitement and an
 
 Share a story about a time you overcame a fear or doubt. This demonstrates your ability to face challenges, while also showing vulnerability. It can open up a discussion about resilience and support in relationships.
 
-<h3>Second Date for an Enneagram Type 6</h3>
+### Second Date for an Enneagram Type 6
 
 **Deepening Trust Without Jumping to Conclusions**
 
 Congratulations on making it to a second date! You might be feeling more comfortable, but perhaps also more invested and therefore more cautious. Remember, while it's good to be aware, try not to let your protective instincts take over. Focus on building upon the foundation you've started, allowing trust to develop naturally.
 
-<h4>Strategy: <strong> Expanding Comfort Zones Safely</strong></h4>
+#### Strategy: <strong> Expanding Comfort Zones Safely</strong>
 
 1. **Plan something slightly out of your comfort zone, but still safe**
    Options include:
@@ -598,9 +583,9 @@ Remember, Type 6, your ability to be loyal and supportive is a tremendous streng
 
 <section class="section-content">
 
-<h2 id="type7">Type 7: The Enthusiast - Finding Depth in the Adventure of Love</h2>
+## Type 7: The Enthusiast - Finding Depth in the Adventure of Love
 
-<h3>What You Want: <strong>A Partner in Excitement and Possibility</strong></h3>
+### What You Want: <strong>A Partner in Excitement and Possibility</strong>
 
 As a Type 7, you're looking for a fun, adventurous partner who can keep up with your energy and zest for life. You value freedom, new experiences, and a positive outlook in relationships. The ideal partnership, in your eyes, is one filled with excitement, growth, and endless possibilities to explore together.
 
@@ -616,13 +601,13 @@ Commitment phobia or always chasing the next thrill. Sometimes, the real excitem
 
 Instead of "I need to keep things exciting," try "There's joy in the present moment." While variety is the spice of life, depth and commitment can bring their own exciting adventures. Your growth lies in learning to find joy in the present moment and recognizing that facing challenges together can be as thrilling as chasing new experiences.
 
-<h3>First Date for an Enneagram Type 7</h3>
+### First Date for an Enneagram Type 7
 
 **Balancing Excitement with Presence**
 
 As you gear up for your first date, you're likely brimming with ideas and enthusiasm. While your exuberance is infectious, remember that connection also requires presence and attention. Try to channel your excitement into genuine curiosity about your date, focusing on the here and now rather than racing ahead to future possibilities.
 
-<h4>Strategy: <strong>Creating Memorable Moments While Building Connection</strong></h4>
+#### Strategy: <strong>Creating Memorable Moments While Building Connection</strong>
 
 1. **Choose an activity that's exciting but allows for conversation**
    Options include:
@@ -650,13 +635,13 @@ As you gear up for your first date, you're likely brimming with ideas and enthus
 
 Share a goal or dream you're passionate about and why it excites you. This expresses your forward-thinking nature while giving insight into your values and aspirations. It invites your date to share in your excitement for the future while revealing a deeper side of you.
 
-<h3>Second Date for an Enneagram Type 7</h3>
+### Second Date for an Enneagram Type 7
 
 **Deepening the Connection Without Losing the Spark**
 
 Excellent job landing a second date! You're probably buzzing with ideas for making this date even more exciting than the first. While it's great to keep things fun, remember that this is also an opportunity to deepen your connection. Focus on building upon what you've learned about each other, allowing for moments of depth alongside the excitement.
 
-<h4>Strategy: <strong> Balancing Novel Experiences with Deeper Understanding</strong></h4>
+#### Strategy: <strong> Balancing Novel Experiences with Deeper Understanding</strong>
 
 1. **Plan something that combines novelty with the opportunity for deeper connection**
    Options include:
@@ -683,9 +668,9 @@ Remember, Type 7, your enthusiasm and zest for life are incredible gifts in a re
 
 <section class="section-content">
 
-<h2 id="type8">Type 8: The Challenger - Strength in Vulnerability</h2>
+## Type 8: The Challenger - Strength in Vulnerability
 
-<h3>What You Want: <strong>A Partner Who Can Match Your Intensity</strong></h3>
+### What You Want: <strong>A Partner Who Can Match Your Intensity</strong>
 
 As a Type 8, you're attracted to strength and authenticity. You want a partner who can match your intensity, stand their ground, and engage in passionate exchanges. The ideal relationship, for you, is one where you both challenge each other to grow, where there's mutual respect, and where you can let your guard down without fear of being taken advantage of.
 
@@ -701,13 +686,13 @@ Coming on too strong or being overly confrontational. Vulnerability is strength 
 
 Instead of "I need to be in control," try "True strength is in collaboration." True strength includes vulnerability. Your growth lies in recognizing that opening up and showing your softer side isn't weakness – it's a sign of deep confidence and security. Learn to value gentleness alongside intensity, understanding that vulnerability can be the ultimate display of courage.
 
-<h3>First Date for an Enneagram Type 8</h3>
+### First Date for an Enneagram Type 8
 
 **Balancing Strength with Openness**
 
 As you prepare for your first date, you might be gearing up for a test of wills or a showcase of your strength. While your powerful presence is attractive, remember that connection also requires openness and receptivity. Approach the date with a willingness to not just challenge, but also to be moved by your date.
 
-<h4>Strategy: <strong>Demonstrating Strength Through Authenticity</strong></h4>
+#### Strategy: <strong>Demonstrating Strength Through Authenticity</strong>
 
 1. **Choose an activity that allows for friendly competition or showcases confidence**
    Options include:
@@ -735,13 +720,13 @@ As you prepare for your first date, you might be gearing up for a test of wills 
 
 Share a personal challenge you've overcome and how it shaped you. This allows you to demonstrate your strength through vulnerability. It shows that you've grown through adversity and are willing to open up, revealing a more multifaceted version of your strength.
 
-<h3>Second Date for an Enneagram Type 8</h3>
+### Second Date for an Enneagram Type 8
 
 **Deepening Connection Through Vulnerability**
 
 Great job securing a second date! You might be feeling more invested now, perhaps even protective of this budding connection. While it's natural to want to maintain your strong image, remember that true intimacy requires letting someone see behind your armor. Focus on building trust and allowing yourself to be a little more vulnerable.
 
-<h4>Strategy: <strong> Revealing Depth Beyond Strength</strong></h4>
+#### Strategy: <strong> Revealing Depth Beyond Strength</strong>
 
 1. **Plan something that allows for both excitement and intimate conversation**
    Options include:
@@ -768,9 +753,9 @@ Remember, Type 8, your intensity and strength are powerful assets in a relations
 
 <section class="section-content">
 
-<h2 id="type9">Type 9: The Peacemaker - Asserting Yourself in Harmony</h2>
+## Type 9: The Peacemaker - Asserting Yourself in Harmony
 
-<h3>What You Want: <strong>A Peaceful Connection with Depth</strong></h3>
+### What You Want: <strong>A Peaceful Connection with Depth</strong>
 
 As a Type 9, you're seeking harmony and a deep, and easy connection. You value a partner who appreciates your calming presence and can help you engage more fully with life. The ideal relationship, in your view, is one where you feel at peace being yourself, where conflicts are resolved gently, and where you're encouraged to grow without feeling pushed.
 
@@ -786,13 +771,13 @@ Being too passive or conflict-avoidant. Having opinions and boundaries is attrac
 
 Instead of "I need to keep the peace at all costs," try "My wants and needs are important too." While harmony is beautiful, remember that growth often comes from facing conflicts and asserting yourself. Your journey involves learning to value your own desires and opinions as much as others', and recognizing that expressing disagreement can lead to deeper understanding and connection.
 
-<h3>First Date for an Enneagram Type 9</h3>
+### First Date for an Enneagram Type 9
 
 **Balancing Agreeability with Authenticity**
 
 As you prepare for your first date, you might be tempted to go with the flow and agree with everything your date suggests. While your easy-going nature is appealing, remember that your date wants to get to know the real you. Approach the date with a commitment to expressing your true self, preferences and all.
 
-<h4>Strategy: <strong>Creating Harmony While Showing Your True Colors</strong></h4>
+#### Strategy: <strong>Creating Harmony While Showing Your True Colors</strong>
 
 1. **Choose a calm, pleasant environment that you genuinely enjoy**
    Options include:
@@ -820,13 +805,13 @@ As you prepare for your first date, you might be tempted to go with the flow and
 
 Share a goal or aspiration you have, even if it's still forming. This expresses your inner desires and shows that you have your own direction in life. It invites your date to see a more dynamic side of you while maintaining your peaceful demeanor.
 
-<h3>Second Date for an Enneagram Type 9</h3>
+### Second Date for an Enneagram Type 9
 
 **Deepening Connection While Maintaining Independence**
 
 Wonderful job on getting a second date! You might be feeling more comfortable now, perhaps even merging a bit with your date's energy. While it's great to feel in sync, remember to maintain your own identity and opinions. Focus on deepening the connection while also asserting your individuality.
 
-<h4>Strategy: <strong> Nurturing Connection Through Self-Expression</strong></h4>
+#### Strategy: <strong> Nurturing Connection Through Self-Expression</strong>
 
 1. **Plan an activity that you genuinely want to do, not just what you think your date might like**
    Options include:
@@ -851,7 +836,7 @@ Remember, Type 9, your ability to create harmony and see multiple perspectives i
 
 </section>
 
-<h2>Conclusion: Embracing Your Authentic Self in Dating</h2>
+## Conclusion: Embracing Your Authentic Self in Dating
 
 <p>Alright, gents, let's wrap this up. Remember, the Enneagram isn't about putting you in a box – it's about understanding your natural tendencies so you can play to your strengths and work on your blind spots.</p>
 

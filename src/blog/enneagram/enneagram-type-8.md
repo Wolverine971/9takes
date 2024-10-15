@@ -13,7 +13,6 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
@@ -21,32 +20,11 @@ blog: true
 <!-- have been trying to get stronger and control
  their core is driven by a profound sense of justice and loyalty, making them natural leaders in various spheres of life -->
 
-<Carousel type={8} gridDisplay={true}/>
-<br>
-
 <p class="firstLetter">Enneagram Type 8s are known as "The Challengers" and embody assertiveness and self-confidence.</p>
 
 They are the archetypal rugged individuals, direct in their approach and are often perceived as domineering. They have a profound need for control and when stressed their go-to coping mechanism is to control the situation. This strategy that has served them well since childhood.
 
 At some point in an 8's early life, they learned that showing weakness could lead to being crushed. This realization led them to develop a protective shell, learning that survival depended on strength. Their chosen life strategy is to gain power in every aspect of life, ensuring they never have to feel vulnerable again.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 8 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 8</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 8</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 8</a></li>
-        <li><a href="#fears">Fears of an Enneagram 8</a></li>
-        <li><a href="#stress">Enneagram 8s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 8's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 8 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 8 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 8 Personalities</a></li>
-        <li><a href="#experience">Enneagram Eight's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 8s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -100,7 +78,8 @@ Enneagram Type 8 individuals possess several powerful strengths that make them e
 
 8. **Resourcefulness:** They are adept at finding ways to overcome obstacles and achieve their goals.
 
-<h3>Situations where 8s thrive</h3>
+### Situations where 8s thrive
+
 <ul>
 <li><strong>Crisis Management:</strong> Their strength and decisiveness are crucial in high-pressure situations.</li>
 <li><strong>Negotiations:</strong> Their assertiveness and confidence achieve favorable outcomes.</li>
@@ -338,7 +317,7 @@ Type 8s typically move towards the negative aspects of Type 5, "The Investigator
 9. **Physical Symptoms:**
    - Stress might manifest in physical symptoms like headaches, fatigue, or digestive issues.
 
-Coping Strategies for Type 8s Under Stress:
+### Coping Strategies for Type 8s Under Stress:
 
 1. **Recognize the Shift:** Awareness of this move towards Type 5 behaviors is the first step in managing stress.
 2. **Maintain Connections:** Resist the urge to isolate by consciously maintaining connections with trusted friends or family.
@@ -367,9 +346,9 @@ The childhood experiences of Enneagram Type 8 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
-  - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
+    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+    - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
 
 - **Typical Behaviors:** As children, Type 8s often emerged as natural leaders, taking charge in group settings and showing a fearlessness in challenging authority figures. They might have been labeled as "troublemakers" or "strong-willed" by adults.
 

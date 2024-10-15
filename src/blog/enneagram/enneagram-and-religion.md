@@ -27,11 +27,11 @@ Here, we'll examine the Enneagram's adoption by different religious groups, expl
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">
 
-<h2 style="padding: 0; margin: 0">Christianity and the Enneagram</h2>
+## Christianity and the Enneagram
 
 In Christianity, the Enneagram has been widely adopted as a powerful tool for spiritual growth and self-discovery. Its integration into Christian practice has sparked both enthusiasm and debate within various denominations.
 
-<h3 style="padding: 0; margin: 0">Richard Rohr's Influence</h3>
+### Richard Rohr's Influence
 
 Richard Rohr, a Franciscan friar, has been instrumental in popularizing the Enneagram within Christian circles. He views it as a means to deepen self-understanding and foster spiritual development. Rohr's Center for Action and Contemplation offers numerous resources on the Enneagram, including:
 
@@ -40,7 +40,7 @@ Richard Rohr, a Franciscan friar, has been instrumental in popularizing the Enne
 - Regular workshops and retreats
   Here is <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://cac.org/daily-meditations/the-enneagram-an-introduction/">Rohr giving an intro to the Enneagram</a>.
 
-<h3 style="padding: 0; margin: 0">Biblical Connections</h3>
+### Biblical Connections
 
 Some Christian scholars draw parallels between Enneagram types and biblical figures:
 
@@ -70,7 +70,7 @@ In Christian theology, the fruits of the Spirit (Galatians 5:22-23) represent vi
 
 By focusing on these fruits of the Spirit, individuals can address their type-specific challenges while growing in their spiritual journey.
 
-<h3 style="padding: 0; margin: 0">Spiritual Formation</h3>
+### Spiritual Formation
 
 Many Christian leaders use the Enneagram as a tool for spiritual formation:
 
@@ -79,7 +79,7 @@ Many Christian leaders use the Enneagram as a tool for spiritual formation:
 - Developing compassion for self and others
 - Enhancing relationships within church communities
 
-<h3 style="padding: 0; margin: 0">Contemplative Prayer</h3>
+### Contemplative Prayer
 
 The Enneagram is often integrated into contemplative prayer practices:
 
@@ -87,7 +87,7 @@ The Enneagram is often integrated into contemplative prayer practices:
 - Tailoring meditation techniques to each type's strengths and challenges
 - Incorporating body prayer aligned with each type's energy centers
 
-<h3 style="padding: 0; margin: 0">Critiques and Controversies</h3>
+### Critiques and Controversies
 
 Not all Christian denominations embrace the Enneagram:
 
@@ -95,7 +95,7 @@ Not all Christian denominations embrace the Enneagram:
 - Concerns about its alleged occult or New Age origins
 - Debates over its compatibility with Christian doctrine
 
-<h3 style="padding: 0; margin: 0">Denominational Adoption</h3>
+### Denominational Adoption
 
 Various Christian denominations have incorporated the Enneagram:
 
@@ -103,7 +103,7 @@ Various Christian denominations have incorporated the Enneagram:
 - Protestant leadership development workshops
 - Evangelical small group studies and personal growth resources
 
-<h3 style="padding: 0; margin: 0">Christian Enneagram Resources</h3>
+### Christian Enneagram Resources
 
 Numerous Christian authors have written on the Enneagram:
 
@@ -117,7 +117,7 @@ The Enneagram's integration into Christian practice continues to evolve, offerin
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">
 
-<h2 style="padding: 0; margin: 0">Sufism and the Enneagram's Origins</h2>
+## Sufism and the Enneagram's Origins
 
 The Enneagram's connection to Sufism, a mystical branch of Islam, is both fascinating and complex. While these links remain largely speculative, they offer intriguing insights into the Enneagram's possible origins and spiritual dimensions.
 
@@ -133,43 +133,43 @@ While these connections are intriguing, it's important to note that they remain 
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">
 
-<h2 style="padding: 0; margin: 0">The Enneagram and Judaism</h2>
+## The Enneagram and Judaism
 
 While the Enneagram is not a mainstream practice in Judaism, it has found a niche among some Jewish scholars, rabbis, and practitioners who see value in its potential for self-understanding and spiritual growth. The integration of the Enneagram into Jewish thought and practice offers an interesting perspective on how ancient wisdom traditions can intersect with modern psychological tools.
 
-<h3 style="padding: 0; margin: 0">Historical Context</h3>
+### Historical Context
 
 The relationship between Judaism and the Enneagram is relatively recent, emerging primarily in the late 20th and early 21st centuries. This intersection reflects a broader trend in contemporary Judaism of exploring diverse spiritual practices while maintaining traditional Jewish values and beliefs.
 
-<h3 style="padding: 0; margin: 0">Kabbalah and the Enneagram</h3>
+### Kabbalah and the Enneagram
 
 Some Jewish scholars have drawn parallels between the Enneagram and Kabbalistic teachings:
 
 - Rabbi David Cooper, in his book "<a class="external-link" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/God-Verb-Kabbalah-Practice-Mystical/dp/1573226947">God Is a Verb: Kabbalah and the Practice of Mystical Judaism</a>," explores potential connections between the Enneagram and Kabbalistic concepts.
 - The nine points of the Enneagram are sometimes compared to the ten sefirot (divine emanations) in Kabbalah, with some seeing parallels in how both systems describe aspects of human nature and the divine.
 
-<h3 style="padding: 0; margin: 0">Jewish Values and the Enneagram</h3>
+### Jewish Values and the Enneagram
 
 Some Jewish practitioners find that the Enneagram aligns with core Jewish values:
 
 - Tikkun Olam (repairing the world): The Enneagram's focus on personal growth and understanding others is seen as supporting this Jewish principle.
 - Mussar (ethical self-improvement): The Enneagram's emphasis on recognizing and working with one's personality traits resonates with Mussar practices.
 
-<h3 style="padding: 0; margin: 0">Rabbinical Perspectives</h3>
+### Rabbinical Perspectives
 
 While not universally accepted, some rabbis have incorporated the Enneagram into their work:
 
 - Rabbi Mordecai Gafni has written about the Enneagram in relation to Jewish spirituality, seeing it as a tool for understanding the "unique self."
 - Rabbi Jill Zimmerman offers workshops and teachings that integrate the Enneagram with Jewish wisdom and practices.
 
-<h3 style="padding: 0; margin: 0">Jewish Enneagram Resources</h3>
+### Jewish Enneagram Resources
 
 Several resources explore the intersection of Judaism and the Enneagram:
 
 - "The Enneagram and Kabbalah" by Rabbi Howard A. Addison offers a comprehensive look at how these two systems can complement each other.
 - "Becoming Soulful: Using the Enneagram for Jewish Spiritual Growth" by Reb Mimi Feigelson provides insights into using the Enneagram within a Jewish context.
 
-<h3 style="padding: 0; margin: 0">Practical Applications in Jewish Communities</h3>
+### Practical Applications in Jewish Communities
 
 Some Jewish communities and organizations have begun to incorporate the Enneagram:
 
@@ -177,7 +177,7 @@ Some Jewish communities and organizations have begun to incorporate the Enneagra
 - Jewish retreat centers including Enneagram-based sessions in their offerings
 - Jewish counselors and therapists using the Enneagram as a tool in their practice
 
-<h3 style="padding: 0; margin: 0">Controversies and Debates</h3>
+### Controversies and Debates
 
 The adoption of the Enneagram in Jewish contexts is not without controversy:
 
@@ -185,7 +185,7 @@ The adoption of the Enneagram in Jewish contexts is not without controversy:
 - Others express concern about integrating non-Jewish spiritual practices into Judaism.
 - Debates continue about whether the Enneagram complements or conflicts with traditional Jewish thought.
 
-<h3 style="padding: 0; margin: 0">Comparative Studies</h3>
+### Comparative Studies
 
 Some scholars have undertaken comparative studies:
 
@@ -198,22 +198,22 @@ While the Enneagram remains a niche interest within Judaism, its growing presenc
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">
 
-<h2 style="padding: 0; margin: 0">New Age, Esoteric Groups, and the Enneagram</h2>
+## New Age, Esoteric Groups, and the Enneagram
 
 The Enneagram has found significant popularity within New Age and esoteric circles, where it's often integrated into a broader framework of spiritual and personal development practices. This adoption reflects the Enneagram's versatility and its resonance with many core New Age concepts.
 
-<h3 style="padding: 0; margin: 0">Historical Context</h3>
+### Historical Context
 
 The Enneagram's integration into New Age thought gained momentum in the 1960s and 1970s, coinciding with the broader New Age movement. Its blend of psychology, spirituality, and self-help appealed to those seeking alternative paths to self-discovery.
 
-<h3 style="padding: 0; margin: 0">Theosophy and the Enneagram</h3>
+### Theosophy and the Enneagram
 
 Some New Age practitioners draw connections between the Enneagram and Theosophical teachings:
 
 - The nine-pointed symbol is sometimes linked to the "nine emanations" in Theosophical cosmology.
 - Helena Blavatsky's writings on human nature and spiritual evolution are often compared to Enneagram concepts.
 
-<h3 style="padding: 0; margin: 0">Astrology and the Enneagram</h3>
+### Astrology and the Enneagram
 
 Many New Age practitioners combine Enneagram insights with astrological interpretations:
 
@@ -222,7 +222,7 @@ Many New Age practitioners combine Enneagram insights with astrological interpre
 
 Read more about the [Enneagram and Astrology here](/enneagram-corner/astrology-and-the-enneagram)
 
-<h3 style="padding: 0; margin: 0">Energy Work and the Enneagram</h3>
+### Energy Work and the Enneagram
 
 In New Age and energy healing circles, practitioners often draw connections between the Enneagram types and the seven main chakras of the body.
 
@@ -230,47 +230,47 @@ This synthesis is used to create personalized energy healing practices and to ga
 
 - **Type 1 (The Perfectionist)** - Root Chakra (Muladhara)
 
-  - Associated with stability, security, and groundedness
-  - Healing focus: Balancing perfectionism with self-acceptance
+    - Associated with stability, security, and groundedness
+    - Healing focus: Balancing perfectionism with self-acceptance
 
 - **Type 2 (The Helper)** - Heart Chakra (Anahata)
 
-  - Connected to love, compassion, and relationships
-  - Healing focus: Nurturing self-love alongside care for others
+    - Connected to love, compassion, and relationships
+    - Healing focus: Nurturing self-love alongside care for others
 
 - **Type 3 (The Achiever)** - Solar Plexus Chakra (Manipura)
 
-  - Linked to personal power, confidence, and self-esteem
-  - Healing focus: Balancing achievement with authentic self-expression
+    - Linked to personal power, confidence, and self-esteem
+    - Healing focus: Balancing achievement with authentic self-expression
 
 - **Type 4 (The Individualist)** - Heart Chakra (Anahata)
 
-  - Associated with emotions, creativity, and self-expression
-  - Healing focus: Integrating emotions with a sense of inner wholeness
+    - Associated with emotions, creativity, and self-expression
+    - Healing focus: Integrating emotions with a sense of inner wholeness
 
 - **Type 5 (The Investigator)** - Third Eye Chakra (Ajna)
 
-  - Connected to intuition, insight, and mental clarity
-  - Healing focus: Balancing intellectual pursuits with emotional connection
+    - Connected to intuition, insight, and mental clarity
+    - Healing focus: Balancing intellectual pursuits with emotional connection
 
 - **Type 6 (The Loyalist)** - Root Chakra (Muladhara)
 
-  - Linked to safety, security, and trust
-  - Healing focus: Cultivating inner security and faith in oneself
+    - Linked to safety, security, and trust
+    - Healing focus: Cultivating inner security and faith in oneself
 
 - **Type 7 (The Enthusiast)** - Crown Chakra (Sahasrara)
 
-  - Associated with spiritual connection, joy, and possibility
-  - Healing focus: Grounding excitement in present moment awareness
+    - Associated with spiritual connection, joy, and possibility
+    - Healing focus: Grounding excitement in present moment awareness
 
 - **Type 8 (The Challenger)** - Solar Plexus Chakra (Manipura)
 
-  - Connected to personal power, assertiveness, and vitality
-  - Healing focus: Balancing strength with vulnerability and compassion
+    - Connected to personal power, assertiveness, and vitality
+    - Healing focus: Balancing strength with vulnerability and compassion
 
 - **Type 9 (The Peacemaker)** - Sacral Chakra (Svadhisthana)
-  - Linked to creativity, emotions, and harmonious relationships
-  - Healing focus: Awakening personal desires and assertiveness
+    - Linked to creativity, emotions, and harmonious relationships
+    - Healing focus: Awakening personal desires and assertiveness
 
 Energy Healing Practices:
 
@@ -288,28 +288,28 @@ Energy Healing Practices:
 
 It's important to note that these associations and practices are interpretative and not scientifically validated. They represent one way that some New Age practitioners have integrated the Enneagram with chakra-based energy work. Individual experiences may vary, and it's always recommended to approach such practices with an open yet discerning mind.
 
-<h3 style="padding: 0; margin: 0">Channeling and the Enneagram</h3>
+### Channeling and the Enneagram
 
 Some New Age teachers claim to have received Enneagram insights through channeling:
 
 - These channeled teachings often add layers of interpretation to the traditional Enneagram system.
 - Books like "The Spiritual Enneagram" by Sandra Maitri incorporate such channeled material.
 
-<h3 style="padding: 0; margin: 0">Esoteric Schools and the Enneagram</h3>
+### Esoteric Schools and the Enneagram
 
 Various esoteric schools have incorporated the Enneagram into their teachings:
 
 - The Gurdjieff Work, while not strictly New Age, has influenced many New Age interpretations of the Enneagram.
 - Some modern mystery schools use the Enneagram as part of their curriculum for spiritual development.
 
-<h3 style="padding: 0; margin: 0">New Age Enneagram Resources</h3>
+### New Age Enneagram Resources
 
 Numerous books and workshops explore the Enneagram from a New Age perspective:
 
 - "The Spiritual Dimension of the Enneagram" by Sandra Maitri offers a New Age interpretation of the system.
 - Helen Palmer's "The Enneagram: Understanding Yourself and the Others in Your Life" has been influential in New Age circles.
 
-<h3 style="padding: 0; margin: 0">Practical Applications in New Age Communities</h3>
+### Practical Applications in New Age Communities
 
 The Enneagram is used in various ways within New Age and esoteric groups:
 
@@ -317,7 +317,7 @@ The Enneagram is used in various ways within New Age and esoteric groups:
 - Crystal healing sessions designed around Enneagram insights
 - Tarot readings that incorporate Enneagram symbolism
 
-<h3 style="padding: 0; margin: 0">Controversies and Criticisms</h3>
+### Controversies and Criticisms
 
 The New Age adoption of the Enneagram is not without its critics:
 
@@ -325,7 +325,7 @@ The New Age adoption of the Enneagram is not without its critics:
 - Skeptics question the validity of combining the Enneagram with practices like channeling or energy work.
 - Traditional Enneagram teachers sometimes distance themselves from more esoteric interpretations.
 
-<h3 style="padding: 0; margin: 0">Comparative Studies</h3>
+### Comparative Studies
 
     Some New Age scholars have undertaken comparative studies:
     - Exploring parallels between Enneagram types and archetypal figures in various mythologies
@@ -342,60 +342,60 @@ The Enneagram is often adopted as a personal and spiritual development tool, dra
 
 <section class="section-content" style="padding: 1rem; margin: .5rem 0;">
 
-<h2 style="padding: 0; margin: 0">The Enneagram in Jesuit Tradition</h2>
+## The Enneagram in Jesuit Tradition
 
 The Society of Jesus, commonly known as the Jesuits, is a Catholic religious order renowned for its commitment to education, intellectual exploration, and spiritual formation. The Jesuits' engagement with the Enneagram reflects their long-standing tradition of integrating various forms of knowledge in the pursuit of spiritual growth and understanding.
 
-<h3 style="padding: 0; margin: 0">Historical Context</h3>
+### Historical Context
 
 - The Jesuits' interest in the Enneagram can be traced back to the mid-20th century, coinciding with the system's introduction to the Western world.
 - This interest aligns with the Jesuit tradition of engaging with diverse intellectual and spiritual traditions, dating back to the order's founding in the 16th century.
 
-<h3 style="padding: 0; margin: 0">Athanasius Kircher's Contribution</h3>
+### Athanasius Kircher's Contribution
 
 - Jerome Wagner, Ph.D., a clinical psychologist, <a class="external-link" target="_blank" rel="noopener noreferrer" href="https://enneagramspectrum.com/173/history-of-the-enneagram/">connects the Enneagram's origins to Athanasius Kircher</a>, a 17th-century Jesuit mathematician and polymath.
 - Kircher's work on the symbolism of numbers and geometric figures is seen as a precursor to the modern Enneagram symbol.
 - While the direct link between Kircher's work and the contemporary Enneagram is debated, his contributions highlight the Jesuit tradition of synthesizing diverse fields of knowledge.
 
-<h3 style="padding: 0; margin: 0">Spiritual Exercises and the Enneagram</h3>
+### Spiritual Exercises and the Enneagram
 
 - Many Jesuits have found parallels between the Enneagram and the Spiritual Exercises of St. Ignatius, the founder of the Jesuit order.
 - Both systems emphasize self-awareness, discernment of one's motivations, and personal transformation.
 - Some Jesuit retreat centers incorporate Enneagram teachings into their programs based on the Spiritual Exercises.
 
-<h3 style="padding: 0; margin: 0">Key Jesuit Figures in Enneagram Study</h3>
+### Key Jesuit Figures in Enneagram Study
 
 - Fr. Robert Ochs, S.J., was one of the first Jesuits to study and teach the Enneagram in the 1970s.
 - Fr. Mitch Pacwa, S.J., while initially supportive, later became a critic of the Enneagram's use in Catholic contexts.
 - Fr. Richard Rohr, O.F.M. (while not a Jesuit, has worked closely with Jesuit institutions) has been influential in popularizing the Enneagram in Christian circles, including among Jesuits.
 
-<h3 style="padding: 0; margin: 0">Jesuit Educational Institutions and the Enneagram</h3>
+### Jesuit Educational Institutions and the Enneagram
 
 - Several Jesuit universities and colleges have incorporated Enneagram studies into their curriculum or extracurricular programs.
 - For example, Loyola University Chicago has offered workshops and courses on the Enneagram.
 
-<h3 style="padding: 0; margin: 0">The Enneagram in Jesuit Spiritual Direction</h3>
+### The Enneagram in Jesuit Spiritual Direction
 
 - Many Jesuit spiritual directors use the Enneagram as a tool in their practice.
 - It's seen as a means to deepen self-understanding and facilitate spiritual growth in line with Ignatian spirituality.
 
-<h3 style="padding: 0; margin: 0">Controversies and Debates</h3>
+### Controversies and Debates
 
 - The use of the Enneagram in Jesuit and broader Catholic contexts has not been without controversy.
 - Some argue that it lacks a solid theological foundation and may introduce non-Christian concepts.
 - Others see it as a valuable tool that, when properly understood, can enhance Catholic spiritual practices.
 
-<h3 style="padding: 0; margin: 0">Jesuit Scholarship on the Enneagram</h3>
+### Jesuit Scholarship on the Enneagram
 
 - Several Jesuit scholars have written on the Enneagram, both supportively and critically.
 - These works often focus on integrating Enneagram insights with Catholic theology and Ignatian spirituality.
 
-<h3 style="padding: 0; margin: 0">Global Perspective</h3>
+### Global Perspective
 
 - The Jesuits' international presence has contributed to the spread of Enneagram teachings in various cultural contexts.
 - Jesuit centers in different countries have adapted Enneagram teachings to local spiritual and cultural traditions.
 
-<h3 style="padding: 0; margin: 0">Future Directions</h3>
+### Future Directions
 
     - Ongoing research and dialogue within Jesuit circles continue to explore the potential benefits and limitations of the Enneagram in spiritual formation.
     - There's a growing interest in developing a more rigorous theological framework for the use of the Enneagram in Catholic and Jesuit contexts.
@@ -404,7 +404,7 @@ The Jesuit engagement with the Enneagram exemplifies the order's characteristic 
 
 </section>
 
-<h3 style="padding: 0; margin: 0">The Enneagram: Beyond Religion</h3>
+### The Enneagram: Beyond Religion
 
 Despite its adoption in various religious contexts, it's important to remember that the Enneagram is not religious.
 

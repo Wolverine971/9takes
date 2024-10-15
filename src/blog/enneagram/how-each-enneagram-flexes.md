@@ -23,7 +23,7 @@ In order to be seen in that desired way each type will go out of their way to fl
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 1- The Perfectionist</h3>
+### Type 1- The Perfectionist
 
 The Meticulous Maverick
 
@@ -36,7 +36,7 @@ Deep Dive: For Type 1s, every flex is a testament to their dedication to ideals.
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 2- The Helper</h3>
+### Type 2- The Helper
 
 The Generous Gem
 
@@ -49,7 +49,7 @@ Deep Dive: Type 2s' showcase of warmth is more than just kindness—it's their s
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 3- The Achiever</h3>
+### Type 3- The Achiever
 
 The Dynamic Dynamo
 
@@ -62,7 +62,7 @@ Deep Dive: Every accolade shared by Type 3s is rooted in their yearning for vali
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 4- The Individualist</h3>
+### Type 4- The Individualist
 
 The Expressive Enigma
 
@@ -87,7 +87,7 @@ Deep Dive: When Type 4s share their creations or perspectives, they're inviting 
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 5- The Investigator</h3>
+### Type 5- The Investigator
 
 The Thoughtful Theorist
 
@@ -100,7 +100,7 @@ Deep Dive: Each revelation from Type 5s stems from their insatiable thirst for k
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 6- The Loyalist</h3>
+### Type 6- The Loyalist
 
 The Dependable Defender
 
@@ -113,7 +113,7 @@ Deep Dive: Behind each story of allegiance from Type 6s lies their intrinsic nee
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 7- The Enthusiast</h3>
+### Type 7- The Enthusiast
 
 The Joyous Jetsetter
 
@@ -138,7 +138,7 @@ Deep Dive: Every story of exhilaration from Type 7s is a testament to their purs
 
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 8- The Challenger</h3>
+### Type 8- The Challenger
 
 The Assertive Ace
 
@@ -151,7 +151,7 @@ Deep Dive: Each flex from Type 8s is a proclamation of their power and control, 
 </article>
 <article class="section-content">
 
-<h3 style="padding: 0; margin-top: 1em">Type 9- The Peacemaker</h3>
+### Type 9- The Peacemaker
 
 The Harmonious Healer
 

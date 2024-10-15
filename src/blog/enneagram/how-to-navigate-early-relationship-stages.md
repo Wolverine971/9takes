@@ -30,7 +30,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <section class="section-content">
 
-<h2 id="type1">Type 1: The Perfectionist - Embracing Imperfect Connections</h2>
+## Type 1: The Perfectionist - Embracing Imperfect Connections
 
 <p>Type 1s approach relationships with high standards and a desire for improvement. You seek an ideal partner and may struggle with accepting flaws in yourself or others.</p>
 
@@ -38,7 +38,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <p>You need a partner who values personal growth while helping you embrace imperfection. Your core desire is to feel morally good and have integrity in your relationships.</p>
 
-<h3>Quick Tips: Finding Beauty in Flaws</h3>
+### Quick Tips: Finding Beauty in Flaws
 
 <ul>
   <li><strong>Practice self-compassion:</strong> Acknowledge your efforts without demanding perfection.</li>
@@ -47,7 +47,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Use detail orientation positively:</strong> Plan thoughtful dates that show attentiveness without imposing rigid expectations.</li>
 </ul>
 
-<h3>Texting Tips: Authenticity Over Perfection</h3>
+### Texting Tips: Authenticity Over Perfection
 
 <ul>
   <li><strong>Set time limits:</strong> Give yourself 5 minutes max to craft a message to prevent overanalysis.</li>
@@ -56,7 +56,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Let go of proofreading:</strong> Send messages without obsessive checking; small errors show humanity.</li>
 </ul>
 
-<h3>Date Ideas: Structured Spontaneity</h3>
+### Date Ideas: Structured Spontaneity
 
 <ul>
   <li><strong>Volunteer together:</strong> Align with values while allowing for organic interactions.</li>
@@ -64,7 +64,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Nature walk with choices:</strong> Plan a hike but let your date choose paths, combining planning with surprise.</li>
 </ul>
 
-<h3>Issues to Work Through: Redefining Relationship Perfection</h3>
+### Issues to Work Through: Redefining Relationship Perfection
 
 <ul>
   <li><strong>Reframe "perfect":</strong> See a perfect relationship as one that grows, not meets all criteria immediately.</li>
@@ -72,7 +72,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Embrace the journey:</strong> Focus on progress and shared growth, not flawless interactions.</li>
 </ul>
 
-<h3>Deepening the Connection: Vulnerability in Growth</h3>
+### Deepening the Connection: Vulnerability in Growth
 
 <p><strong>Share your self-improvement journey:</strong> Discuss your struggles with perfectionism and steps toward self-acceptance. This shows self-awareness and willingness to grow, fostering a deeper, more authentic connection.</p>
 
@@ -80,7 +80,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <section class="section-content">
 
-<h2 id="type2">Type 2: The Helper - Nurturing Balance in Relationships</h2>
+## Type 2: The Helper - Nurturing Balance in Relationships
 
 <p>Type 2s approach relationships with a strong desire to be liked and needed. You focus on others' needs, often at the expense of your own.</p>
 
@@ -88,7 +88,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <p>You need a partner who appreciates your nurturing nature while encouraging self-care. Your core desire is to feel loved and valued for who you are, not just what you do for others.</p>
 
-<h3>Quick Tips: Self-Care Alongside Caring for Others</h3>
+### Quick Tips: Self-Care Alongside Caring for Others
 
 <ul>
   <li><strong>Prioritize self-care:</strong> Attend to your needs before, during, and after dates.</li>
@@ -97,7 +97,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Express authentically:</strong> Share your true thoughts and feelings, not just what you think others want to hear.</li>
 </ul>
 
-<h3>Texting Tips: Balancing Attentiveness with Independence</h3>
+### Texting Tips: Balancing Attentiveness with Independence
 
 <ul>
   <li><strong>Avoid over-communication:</strong> Give space between messages; aim for quality over quantity.</li>
@@ -106,7 +106,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Set texting boundaries:</strong> It's okay to be unavailable; communicate your limits.</li>
 </ul>
 
-<h3>Date Ideas: Nurturing Connection While Honoring Self</h3>
+### Date Ideas: Nurturing Connection While Honoring Self
 
 <ul>
   <li><strong>Cook together:</strong> Allows for nurturing in a setting where you can also receive care.</li>
@@ -114,7 +114,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>"Favorites" date:</strong> Take turns sharing favorite spots, balancing giving and receiving experiences.</li>
 </ul>
 
-<h3>Issues to Work Through: Self-Worth Beyond Giving</h3>
+### Issues to Work Through: Self-Worth Beyond Giving
 
 <ul>
   <li><strong>Question the need to be needed:</strong> Reflect on why you constantly give; recognize inherent self-worth.</li>
@@ -122,7 +122,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Develop personal identity:</strong> Cultivate interests and opinions separate from your relationships.</li>
 </ul>
 
-<h3>Deepening the Connection: Vulnerability in Self-Advocacy</h3>
+### Deepening the Connection: Vulnerability in Self-Advocacy
 
 <p><strong>Share your journey to self-care:</strong> Discuss your growth in expressing needs and setting boundaries. This demonstrates self-awareness and personal development, inviting a more balanced and authentic connection.</p>
 
@@ -130,7 +130,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <section class="section-content">
 
-<h2 id="type3">Type 3: The Achiever - Connecting Beyond Accomplishments</h2>
+## Type 3: The Achiever - Connecting Beyond Accomplishments
 
 <p>Type 3s approach relationships as another arena for success. You focus on making a good impression and showcasing your achievements. You may treat dating like a project, setting goals and striving to be the "best" partner.</p>
 
@@ -138,7 +138,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <p>You need a partner who appreciates your drive but encourages you to connect on a deeper level. Your core desire is to feel valued for who you are, not just what you accomplish.</p>
 
-<h3>Quick Tips: Authenticity Over Image</h3>
+### Quick Tips: Authenticity Over Image
 
 <ul>
   <li><strong>Be present:</strong> Focus on the moment instead of thinking about your next achievement or impressive story.</li>
@@ -147,7 +147,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Show genuine interest:</strong> Ask questions about your date's life, dreams, and challenges beyond their career or achievements.</li>
 </ul>
 
-<h3>Texting Tips: Genuine Connection Over Impression Management</h3>
+### Texting Tips: Genuine Connection Over Impression Management
 
 <ul>
   <li><strong>Be real:</strong> Share actual thoughts and feelings instead of crafting the "perfect" message.</li>
@@ -156,7 +156,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Express appreciation:</strong> Acknowledge things you admire about your date beyond their achievements.</li>
 </ul>
 
-<h3>Date Ideas: Experiencing Over Achieving</h3>
+### Date Ideas: Experiencing Over Achieving
 
 <ul>
   <li><strong>Try something new:</strong> Choose an activity where you're both beginners. It allows vulnerability and shared learning.</li>
@@ -164,7 +164,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Nature exploration:</strong> Go hiking or stargazing. It encourages presence and deeper conversations.</li>
 </ul>
 
-<h3>Issues to Work Through: Value Beyond Achievement</h3>
+### Issues to Work Through: Value Beyond Achievement
 
 <ul>
   <li><strong>Redefine success:</strong> Consider what success in a relationship means beyond external markers.</li>
@@ -172,7 +172,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Practice patience:</strong> Understand that meaningful relationships develop over time, not through quick achievements.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Inner Struggles</h3>
+### Deepening the Connection: Sharing Inner Struggles
 
 <p><strong>Reveal your inner world:</strong> Share a time when you felt like an impostor despite outward success. For example: "Even after getting that promotion, I worried I wasn't good enough. I'm learning that my worth isn't tied to my achievements." This vulnerability shows depth and relatability beyond your accomplishments.</p>
 
@@ -184,7 +184,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <section class="section-content">
 
-<h2 id="type4">Type 4: The Individualist - Finding Depth in Everyday Connections</h2>
+## Type 4: The Individualist - Finding Depth in Everyday Connections
 
 <p>Type 4s approach relationships seeking deep, meaningful connections. You value authenticity and emotional intensity. You may idealize potential partners and crave a unique, almost transcendent bond.</p>
 
@@ -192,7 +192,7 @@ Let's dive into a world where the Enneagram meets modern dating...
 
 <p>You need a partner who appreciates your depth and uniqueness while grounding you in reality. Your core desire is to be seen and accepted for your authentic self.</p>
 
-<h3>Quick Tips: Balancing Depth with Everyday Joy</h3>
+### Quick Tips: Balancing Depth with Everyday Joy
 
 <ul>
   <li><strong>Appreciate simplicity:</strong> Find beauty in ordinary moments and interactions.</li>
@@ -201,7 +201,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Find common ground:</strong> Look for shared interests and experiences alongside unique qualities.</li>
 </ul>
 
-<h3>Texting Tips: Expressing Authenticity Without Overwhelming</h3>
+### Texting Tips: Expressing Authenticity Without Overwhelming
 
 <ul>
   <li><strong>Balance emotion and facts:</strong> Share feelings alongside everyday events.</li>
@@ -210,7 +210,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Respect boundaries:</strong> Match your date's communication frequency and depth.</li>
 </ul>
 
-<h3>Date Ideas: Merging Uniqueness with Shared Experiences</h3>
+### Date Ideas: Merging Uniqueness with Shared Experiences
 
 <ul>
   <li><strong>Artistic exploration:</strong> Attend a gallery opening or creative workshop together.</li>
@@ -218,7 +218,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Eclectic experiences:</strong> Try a fusion restaurant or multicultural festival.</li>
 </ul>
 
-<h3>Issues to Work Through: Embracing the Ordinary</h3>
+### Issues to Work Through: Embracing the Ordinary
 
 <ul>
   <li><strong>Challenge idealization:</strong> Recognize the value in imperfect but genuine connections.</li>
@@ -226,7 +226,7 @@ Let's dive into a world where the Enneagram meets modern dating...
   <li><strong>Cultivate presence:</strong> Practice mindfulness to appreciate current moments rather than longing for what's missing.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Your Creative Self</h3>
+### Deepening the Connection: Sharing Your Creative Self
 
 <p><strong>Reveal your inner artist:</strong> Share a personal creative project, even if it's unfinished. For example: "I've been working on this poem/painting/song. It's not perfect, but it expresses something I've struggled to put into words." This vulnerability shows your depth and willingness to be seen in your creative process.</p>
 
@@ -235,7 +235,7 @@ Here's a concise version for Enneagram Type 5:
 
 <section class="section-content">
 
-<h2 id="type5">Type 5: The Investigator - Balancing Knowledge and Emotion</h2>
+## Type 5: The Investigator - Balancing Knowledge and Emotion
 
 <p>Type 5s approach relationships with curiosity and caution. You value intellectual connection and tend to analyze interactions. You may seek to understand your partner and the relationship dynamics before fully engaging emotionally.</p>
 
@@ -243,7 +243,7 @@ Here's a concise version for Enneagram Type 5:
 
 <p>You need a partner who respects your need for space and intellectual stimulation while gently encouraging emotional openness. Your core desire is to feel competent and understood without being overwhelmed.</p>
 
-<h3>Quick Tips: Integrating Emotion with Intellect</h3>
+### Quick Tips: Integrating Emotion with Intellect
 
 <ul>
   <li><strong>Share feelings:</strong> Express emotions alongside thoughts and observations.</li>
@@ -252,7 +252,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Balance discussion and experience:</strong> Participate in activities together, not just intellectual conversations.</li>
 </ul>
 
-<h3>Texting Tips: Connecting Beyond Information Exchange</h3>
+### Texting Tips: Connecting Beyond Information Exchange
 
 <ul>
   <li><strong>Express interest:</strong> Ask about your date's feelings and experiences, not just facts.</li>
@@ -261,7 +261,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Maintain consistent contact:</strong> Regular, brief messages can maintain connection without feeling overwhelming.</li>
 </ul>
 
-<h3>Date Ideas: Combining Learning with Emotional Connection</h3>
+### Date Ideas: Combining Learning with Emotional Connection
 
 <ul>
   <li><strong>Interactive museums:</strong> Explore exhibits that prompt both thought and feeling.</li>
@@ -269,7 +269,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Nature and science:</strong> Stargaze or visit a botanical garden, discussing both facts and personal reflections.</li>
 </ul>
 
-<h3>Issues to Work Through: Emotional Engagement</h3>
+### Issues to Work Through: Emotional Engagement
 
 <ul>
   <li><strong>Challenge overthinking:</strong> Practice making decisions based on feelings, not just logic.</li>
@@ -277,7 +277,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Recognize emotional needs:</strong> Acknowledge and express your own emotional needs in relationships.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Intellectual Vulnerability</h3>
+### Deepening the Connection: Sharing Intellectual Vulnerability
 
 <p><strong>Admit knowledge gaps:</strong> Share an experience of feeling intellectually out of depth. For example: "At a recent work presentation, I realized how much I still have to learn about this field. It was humbling but also exciting." This vulnerability shows you're comfortable not knowing everything and open to growth.</p>
 
@@ -285,7 +285,7 @@ Here's a concise version for Enneagram Type 5:
 
 <section class="section-content">
 
-<h2 id="type6">Type 6: The Loyalist - Building Trust in Uncertainty</h2>
+## Type 6: The Loyalist - Building Trust in Uncertainty
 
 <p>Type 6s approach relationships seeking security and reliability. You value trust and may test potential partners to ensure their dependability. You often anticipate problems and plan for worst-case scenarios.</p>
 
@@ -293,7 +293,7 @@ Here's a concise version for Enneagram Type 5:
 
 <p>You need a partner who provides consistent reassurance while encouraging you to trust yourself. Your core desire is to feel safe and supported in the relationship.</p>
 
-<h3>Quick Tips: Fostering Trust and Security</h3>
+### Quick Tips: Fostering Trust and Security
 
 <ul>
   <li><strong>Practice presence:</strong> Focus on the current moment instead of potential future problems.</li>
@@ -302,7 +302,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Embrace uncertainty:</strong> Recognize that some unpredictability in relationships is normal and can be exciting.</li>
 </ul>
 
-<h3>Texting Tips: Balancing Connection and Reassurance</h3>
+### Texting Tips: Balancing Connection and Reassurance
 
 <ul>
   <li><strong>Avoid over-analysis:</strong> Don't read too much into message timing or wording.</li>
@@ -311,7 +311,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Share positives:</strong> Balance expressing concerns with sharing positive thoughts and experiences.</li>
 </ul>
 
-<h3>Date Ideas: Creating Safe Spaces for Connection</h3>
+### Date Ideas: Creating Safe Spaces for Connection
 
 <ul>
   <li><strong>Familiar environments:</strong> Choose locations where you feel comfortable for early dates.</li>
@@ -319,7 +319,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Nature outings:</strong> Take walks in parks or gardens, allowing for both conversation and calming surroundings.</li>
 </ul>
 
-<h3>Issues to Work Through: Building Self-Trust</h3>
+### Issues to Work Through: Building Self-Trust
 
 <ul>
   <li><strong>Challenge anxiety:</strong> Recognize when fear, not reality, is driving your concerns.</li>
@@ -327,7 +327,7 @@ Here's a concise version for Enneagram Type 5:
   <li><strong>Develop self-soothing:</strong> Learn techniques to calm yourself when anxiety spikes.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Fears and Growth</h3>
+### Deepening the Connection: Sharing Fears and Growth
 
 <p><strong>Reveal personal growth:</strong> Share a fear you've faced or are working to overcome. For example: "I've always been anxious about public speaking, but I recently volunteered to lead a presentation at work. It was terrifying but also empowering." This vulnerability demonstrates your courage and commitment to personal growth.</p>
 
@@ -337,7 +337,7 @@ Here's a concise version for Enneagram Type 7:
 
 <section class="section-content">
 
-<h2 id="type7">Type 7: The Enthusiast - Finding Depth in Excitement</h2>
+## Type 7: The Enthusiast - Finding Depth in Excitement
 
 <p>Type 7s approach relationships with enthusiasm and a sense of adventure. You seek new experiences and tend to focus on positive aspects. You may struggle with commitment, fearing it might limit your options.</p>
 
@@ -345,7 +345,7 @@ Here's a concise version for Enneagram Type 7:
 
 <p>You need a partner who matches your energy while helping you explore deeper emotions. Your core desire is to feel fulfilled and avoid missing out on life's experiences.</p>
 
-<h3>Quick Tips: Balancing Excitement with Depth</h3>
+### Quick Tips: Balancing Excitement with Depth
 
 <ul>
   <li><strong>Embrace stillness:</strong> Practice enjoying quiet moments without seeking constant stimulation.</li>
@@ -354,7 +354,7 @@ Here's a concise version for Enneagram Type 7:
   <li><strong>Practice commitment:</strong> Follow through on plans and promises to build trust.</li>
 </ul>
 
-<h3>Texting Tips: Maintaining Connection Without Overwhelm</h3>
+### Texting Tips: Maintaining Connection Without Overwhelm
 
 <ul>
   <li><strong>Curb enthusiasm:</strong> Balance excited messages with thoughtful responses.</li>
@@ -363,7 +363,7 @@ Here's a concise version for Enneagram Type 7:
   <li><strong>Express appreciation:</strong> Acknowledge specific qualities you value in your date.</li>
 </ul>
 
-<h3>Date Ideas: Combining Fun with Connection</h3>
+### Date Ideas: Combining Fun with Connection
 
 <ul>
   <li><strong>Adventure with downtime:</strong> Plan active outings that include moments for deep conversation.</li>
@@ -371,7 +371,7 @@ Here's a concise version for Enneagram Type 7:
   <li><strong>Cultural exploration:</strong> Attend festivals or exhibits that prompt reflection and discussion.</li>
 </ul>
 
-<h3>Issues to Work Through: Embracing Commitment and Depth</h3>
+### Issues to Work Through: Embracing Commitment and Depth
 
 <ul>
   <li><strong>Challenge FOMO:</strong> Recognize the value in deepening one connection over pursuing multiple options.</li>
@@ -379,7 +379,7 @@ Here's a concise version for Enneagram Type 7:
   <li><strong>Cultivate presence:</strong> Focus on fully experiencing current moments rather than anticipating future plans.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Vulnerabilities</h3>
+### Deepening the Connection: Sharing Vulnerabilities
 
 <p><strong>Reveal inner struggles:</strong> Share a time when you felt stuck or limited. For example: "Despite my usual optimism, I felt really overwhelmed during the lockdown. It taught me the importance of facing difficult emotions." This vulnerability shows your capacity for depth and self-reflection.</p>
 
@@ -388,7 +388,7 @@ Here's a concise version for Enneagram Type 8:
 
 <section class="section-content">
 
-<h2 id="type8">Type 8: The Challenger - Strength in Vulnerability</h2>
+## Type 8: The Challenger - Strength in Vulnerability
 
 <p>Type 8s approach relationships with intensity and a desire for control. You value honesty and directness, often testing a partner's strength. You may struggle with showing softer emotions, fearing vulnerability might be seen as weakness.</p>
 
@@ -396,7 +396,7 @@ Here's a concise version for Enneagram Type 8:
 
 <p>You need a partner who can match your strength while encouraging your vulnerability. Your core desire is to protect yourself and those you care about from harm or control.</p>
 
-<h3>Quick Tips: Balancing Power with Tenderness</h3>
+### Quick Tips: Balancing Power with Tenderness
 
 <ul>
   <li><strong>Soften your approach:</strong> Use a gentler tone and body language in interactions.</li>
@@ -405,7 +405,7 @@ Here's a concise version for Enneagram Type 8:
   <li><strong>Show vulnerability:</strong> Reveal fears or insecurities to deepen emotional connection.</li>
 </ul>
 
-<h3>Texting Tips: Conveying Strength Without Dominating</h3>
+### Texting Tips: Conveying Strength Without Dominating
 
 <ul>
   <li><strong>Mind your tone:</strong> Ensure your messages don't come across as confrontational or demanding.</li>
@@ -414,7 +414,7 @@ Here's a concise version for Enneagram Type 8:
   <li><strong>Respect boundaries:</strong> Allow space in communication, avoiding the urge to always have the last word.</li>
 </ul>
 
-<h3>Date Ideas: Combining Challenge with Cooperation</h3>
+### Date Ideas: Combining Challenge with Cooperation
 
 <ul>
   <li><strong>Physical activities:</strong> Try rock climbing or dance classes that require trust and teamwork.</li>
@@ -422,7 +422,7 @@ Here's a concise version for Enneagram Type 8:
   <li><strong>Volunteer work:</strong> Engage in community service, channeling your strength into helping others.</li>
 </ul>
 
-<h3>Issues to Work Through: Embracing Vulnerability</h3>
+### Issues to Work Through: Embracing Vulnerability
 
 <ul>
   <li><strong>Challenge the need for control:</strong> Recognize that true strength includes the ability to yield.</li>
@@ -430,7 +430,7 @@ Here's a concise version for Enneagram Type 8:
   <li><strong>Cultivate gentleness:</strong> Find ways to show care and protection without dominating.</li>
 </ul>
 
-<h3>Deepening the Connection: Revealing Your Softer Side</h3>
+### Deepening the Connection: Revealing Your Softer Side
 
 <p><strong>Share a moment of weakness:</strong> Describe a time when you felt powerless or vulnerable. For example: "When my parent was ill, I realized I couldn't control everything. It taught me the strength in asking for help." This vulnerability demonstrates your depth and capacity for emotional openness.</p>
 
@@ -440,7 +440,7 @@ Here's a concise version for Enneagram Type 9:
 
 <section class="section-content">
 
-<h2 id="type9">Type 9: The Peacemaker - Asserting Yourself in Harmony</h2>
+## Type 9: The Peacemaker - Asserting Yourself in Harmony
 
 <p>Type 9s approach relationships seeking harmony and connection. You value peace and may avoid conflict or asserting your own needs. You tend to go along with others' preferences, sometimes losing touch with your own desires.</p>
 
@@ -448,7 +448,7 @@ Here's a concise version for Enneagram Type 9:
 
 <p>You need a partner who appreciates your calming presence while encouraging self-expression. Your core desire is to maintain inner and outer peace while feeling connected to others.</p>
 
-<h3>Quick Tips: Balancing Harmony with Self-Assertion</h3>
+### Quick Tips: Balancing Harmony with Self-Assertion
 
 <ul>
   <li><strong>Express preferences:</strong> State your likes and dislikes clearly, even in small matters.</li>
@@ -457,7 +457,7 @@ Here's a concise version for Enneagram Type 9:
   <li><strong>Pursue personal interests:</strong> Maintain hobbies and goals independent of your relationship.</li>
 </ul>
 
-<h3>Texting Tips: Communicating Authentically</h3>
+### Texting Tips: Communicating Authentically
 
 <ul>
   <li><strong>Initiate conversations:</strong> Don't always wait for the other person to reach out first.</li>
@@ -466,7 +466,7 @@ Here's a concise version for Enneagram Type 9:
   <li><strong>Be clear about plans:</strong> Avoid vague responses; commit to or respectfully decline invitations.</li>
 </ul>
 
-<h3>Date Ideas: Fostering Connection While Honoring Self</h3>
+### Date Ideas: Fostering Connection While Honoring Self
 
 <ul>
   <li><strong>Alternating choices:</strong> Take turns deciding on activities, practicing both leading and following.</li>
@@ -474,7 +474,7 @@ Here's a concise version for Enneagram Type 9:
   <li><strong>Creative expression:</strong> Try art classes or music jams that encourage individual creativity within a group setting.</li>
 </ul>
 
-<h3>Issues to Work Through: Developing Self-Awareness and Assertion</h3>
+### Issues to Work Through: Developing Self-Awareness and Assertion
 
 <ul>
   <li><strong>Identify personal desires:</strong> Regularly check in with yourself about your true wants and needs.</li>
@@ -482,13 +482,13 @@ Here's a concise version for Enneagram Type 9:
   <li><strong>Cultivate self-motivation:</strong> Set and pursue personal goals within the relationship.</li>
 </ul>
 
-<h3>Deepening the Connection: Sharing Your Inner World</h3>
+### Deepening the Connection: Sharing Your Inner World
 
 <p><strong>Reveal personal convictions:</strong> Share an opinion or belief that's important to you, even if it might create disagreement. For example: "I've always felt strongly about environmental issues. It's a big part of who I am, even if I don't always speak up about it." This demonstrates your depth of thought and willingness to assert your true self.</p>
 
 </section>
 
-<h2>Conclusion: Your Enneagram Journey Beyond Early Dating</h2>
+## Conclusion: Your Enneagram Journey Beyond Early Dating
 
 As you've discovered, your Enneagram type offers powerful insights into your dating behavior and relationship needs. But the journey doesn't end here. Whether you're heading towards a serious commitment, considering marriage, or simply aiming for deeper, more fulfilling connections, your Enneagram awareness will continue to be a valuable tool.
 

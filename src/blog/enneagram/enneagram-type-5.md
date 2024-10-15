@@ -13,35 +13,13 @@ blog: true
 ---
 
 <script>
-	import  Carousel  from "$lib/components/molecules/Carousel.svelte";
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
-<Carousel type={5} gridDisplay={true}/>
-<br>
-
 <p class="firstLetter">Dubbed as "the Observer" or "the Investigator," Type 5s stand out for their analytical prowess and intellectual depth.</p>
 
 These individuals often exhibit introverted tendencies, cherishing their time in solitude. Driven by a deep need to comprehend the world's complexities, Type 5s immerse themselves in their chosen fields, seeking to master the knowledge and skills they find most intriguing.
-
-<details open>
-<summary class="accordion">Table of Contents</summary>
-    <ul>
-        <li><a href="#description">Enneagram 5 Description</a></li>
-        <li><a href="#strengths">Strengths of an Enneagram 5</a></li>
-        <li><a href="#weaknesses">Weaknesses/Challenges of an Enneagram 5</a></li>
-        <li><a href="#motivations">Motivations of an Enneagram 5</a></li>
-        <li><a href="#fears">Fears of an Enneagram 5</a></li>
-        <li><a href="#stress">Enneagram 5s Under Stress</a></li>
-        <li><a href="#childhood">An Enneagram 5's Childhood</a></li>
-        <li><a href="#relationships">An Enneagram 5 in Relationships</a></li>
-        <li><a href="#workplace">An Enneagram 5 in the Workplace</a></li>
-        <li><a href="#growth">Growth and Development for Type 5 Personalities</a></li>
-        <li><a href="#experience">Enneagram Five's Sharing Their Experience</a></li>
-        <li><a href="#famous">Famous Enneagram 5s</a></li>
-    </ul>
-</details>
 
 <section class="section-content">
 
@@ -93,7 +71,8 @@ Type 5 individuals possess several strengths that make them valuable contributor
 
 7. **Concentration:** They have the ability to focus intensely on tasks or subjects that interest them, often leading to mastery in their chosen fields.
 
-<h3>Situations where 5s thrive</h3>
+### Situations where 5s thrive
+
 <ul>
 <li><strong>Research Projects:</strong> Their analytical skills and curiosity lead to groundbreaking discoveries.</li>
 <li><strong>Technical Problem Solving:</strong> Their innovative thinking finds unique solutions to complex issues.</li>
@@ -300,7 +279,7 @@ When under stress, Enneagram Type 5s tend to move towards the negative aspects o
 <img src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
 </p>
 
-Key Stress Behaviors:
+### Key Stress Behaviors:
 
 1. **Scattered Thinking:**
 
@@ -341,7 +320,7 @@ Key Stress Behaviors:
    - Their usual calm demeanor may give way to increased anxiety and worry.
    - This anxiety can be particularly focused on future possibilities or potential problems.
 
-Coping Strategies for Type 5s Under Stress:
+### Coping Strategies for Type 5s Under Stress:
 
 1. **Recognize the Shift:** Awareness of this move towards Type 7 behaviors is the first step in managing stress.
 2. **Return to Routine:** Re-establishing familiar routines can help ground Type 5s in times of stress.
@@ -370,9 +349,9 @@ The childhood experiences of Enneagram Type 5 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-  - May have been exposed to overwhelming adult issues or expectations at a young age.
-  - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
-  - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
+    - May have been exposed to overwhelming adult issues or expectations at a young age.
+    - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
+    - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
 
 - **Typical Behaviors:** Preferred observing rather than participating, developed early expertise in niche subjects, and often sought out quiet spaces for reflection.
 

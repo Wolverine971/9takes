@@ -28,7 +28,7 @@ Today we are going to look at the impact of ghosting on different Enneagram type
 It's important to recognize that not everyone responds the same way to ghosting and our response is shaped by our personalities and perspectives. Below we'll uncover the influence of ghosting on mental health through the lens of the [personality system called the Enneagram](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type). We'll go into how each Enneagram type experiences and copes with the unsettling aftermath of ghosting, and offer strategies for healing and growth.
 
  <section class="section-content">
-  <h3 style="padding: 0; margin-top: 1em">Type One: The Perfectionist</h3>
+  ### Type One: The Perfectionist
    Type Ones, known for their strong sense of morality and desire for improvement, may struggle
    with feelings of betrayal and disappointment when ghosted. They may also feel a sense of
    personal failure, believing that they could have done something differently to prevent the
@@ -47,7 +47,7 @@ It's important to recognize that not everyone responds the same way to ghosting 
    <p>The Enneagram 1 is a put together creature</p>
  </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Two: The Helper</h3>
+   ### Type Two: The Helper
 
 Type Twos, known for their generosity and desire to help others, may struggle with feelings of
 rejection and abandonment when ghosted. They may also feel a sense of confusion and
@@ -64,7 +64,7 @@ that they are worthy of love and respect.
    <p>The Enneagram 2 is a loving creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Three: The Achiever</h3>
+   ### Type Three: The Achiever
 
 Type Threes, known for their ambition and desire for success, may struggle with feelings of
 failure and disappointment when ghosted. They may also feel a sense of embarrassment,
@@ -85,7 +85,7 @@ of love and respect.
    <p>The Enneagram 3 is a shiny creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Four: The Individualist</h3>
+   ### Type Four: The Individualist
 
 Type Fours, known for their sensitivity and desire for authenticity, may struggle with
 feelings of rejection and abandonment when ghosted. They may also feel a sense of confusion
@@ -118,7 +118,7 @@ that they are worthy of love and respect.
    <p>The Enneagram 4 is a complicated creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Five: The Investigator</h3>
+   ### Type Five: The Investigator
 
 Type Fives, known for their intellect and desire for knowledge, may struggle with feelings of
 betrayal and disappointment when ghosted. They may also feel a sense of confusion and
@@ -135,7 +135,7 @@ that they are worthy of love and respect.
    <p>The Enneagram 5 is a mysterious creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Six: The Loyalist</h3>
+   ### Type Six: The Loyalist
 
 Type Sixes, known for their loyalty and desire for security, may struggle with feelings of
 betrayal and disappointment when ghosted. They may also feel a sense of confusion and
@@ -152,7 +152,7 @@ that they are worthy of love and respect.
    <p>The Enneagram 6 is a wary creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Seven: The Enthusiast</h3>
+   ### Type Seven: The Enthusiast
 
 Type Sevens, known for their optimism and desire for adventure, may struggle with feelings of
 disappointment and boredom when ghosted. They may also feel a sense of restlessness, as they
@@ -169,7 +169,7 @@ and self-care, reminding themselves that they are worthy of love and respect.
    <p>The Enneagram 7 is a joyful creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Eight: The Challenger</h3>
+   ### Type Eight: The Challenger
 
 Type Eights, known for their confidence and desire for control, may struggle with feelings of
 anger and resentment when ghosted. They may also feel a sense of vulnerability, as they may
@@ -202,7 +202,7 @@ of love and respect.
    <p>The Enneagram 8 is a strong creature</p>
   </aside> -->
  <section class="section-content">
-   <h3 style="padding: 0; margin-top: 1em">Type Nine: The Peacemaker</h3>
+   ### Type Nine: The Peacemaker
 
 Type Nines, known for their easy-going nature and desire for peace, may struggle with feelings of confusion and apathy when ghosted. They may also feel a sense of disconnection, as they may have believed the relationship was going well. To cope with these feelings, Nines may benefit from talking to a trusted friend or therapist about their experience. They may also want to focus on self-compassion and self-care, reminding themselves that they are worthy of love and respect.
 

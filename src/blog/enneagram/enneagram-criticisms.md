@@ -20,7 +20,6 @@ Enneagram Criticisms (200 words)
   Responses to these criticisms
   -->
 
-<!-- <h2>Enneagram FAQs</h2> -->
 
 <script>
 </script>
