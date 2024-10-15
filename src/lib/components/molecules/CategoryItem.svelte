@@ -10,7 +10,7 @@
 <div class="category-item">
 	<h3 class="category-title">
 		{category?.subcategory_name}
-		{#if category?.question_subcategories && category?.question_subcategories?.length !== 0}
+		{#if category?.question_subcategories && category?.question_subcategories?.length}
 			<button
 				on:click={() => (showChildren = !showChildren)}
 				class="toggle-btn"

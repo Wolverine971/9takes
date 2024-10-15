@@ -70,7 +70,7 @@
 		</div>
 	{/each}
 	{#if comments.length < comment_count && parentData?.flags?.userHasAnswered}
-		<button class="btn btn-secondary" on:click={loadMore} disabled={loading}>
+		<button class="btn btn-primary" on:click={loadMore} disabled={loading}>
 			{loading ? 'Loading...' : 'Load More'}
 		</button>
 	{/if}
