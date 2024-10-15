@@ -21,6 +21,7 @@ tiktok: ''
 <!-- // notes:
 https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationship_history_mbti/?sort=new
 
+redo and update
 
  -->
 
@@ -44,13 +45,11 @@ https://www.reddit.com/r/mbti/comments/17p7e80/taylor_swift_esfj_3w2_relationshi
   />
 </div>
 
-> **Disclaimer** It's important to note that this analysis of Taylor Swift’s Enneagram type is speculative, relying on publicly available information, and may not definitively reflect her true personality type.
+<p class="firstLetter">Taylor Swift has been America's sweetheart and has grown into become a global icon.</p>
 
-<p class="firstLetter">Taylor Swift has been and will continue to be an icon.</p>
+She has taken the world by storm with her Eras tour but has been building her following since 2006. For Swifties, She is her. And she can't stop and won't stop moving.
 
-She has taken the world by storm with her Eras tour but has been building her following since 2006. For Swifties, She is her.
-
-Here, we dive explore Taylor's personality, and propose that she the ambitious and popular Enneagram Type 3.
+Here, we explore Taylor's personality, and propose that she is the ambitious Enneagram Type 3.
 
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
@@ -127,6 +126,8 @@ As intricate beings, people’s thoughts, emotions, and actions are molded over 
 In a world where perspectives are diverse and often conflicting, taking the time to comprehend another’s point of view can be enlightening. If this exploration has sparked your interest, we invite you to delve further into the realm of personalities and perspectives.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+> **Disclaimer** It's important to note that this analysis of Taylor Swift’s Enneagram type is speculative, relying on publicly available information, and may not definitively reflect her true personality type.
 
 <svelte:head>
 

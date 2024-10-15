@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
-
 <p class="firstLetter">Claire Boucher aka Grimes, the Canadian singer-songwriter, music producer, and visual artist, has captivated audiences with her avant-garde music and ever-evolving persona.</p>
 
 Beyond the outlandish outfits and ethereal vocals, however, lies a complex inner world that the Enneagram, a personality typing system, helps us understand.
@@ -151,6 +149,8 @@ Grimes' persona is a captivating blend of artistic brilliance, childlike wonder,
 Do you share Grimes' Enneagram type? How do you see your own personality reflected in the characteristics of Type 7? Share your thoughts and experiences in the comments below.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+> **Disclaimer** This analysis of Grimes's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Grimes.
 
 <svelte:head>
 
