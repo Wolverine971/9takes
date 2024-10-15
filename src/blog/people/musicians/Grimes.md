@@ -1,5 +1,5 @@
 ---
-title: "Grimes: c's Cyberpunk Mindscape of a Type 7"
+title: 'Grimes: Inside the Cyberpunk Mindscape of a Type 7'
 description: "Decrypt the WarNymph within. Journey through Grimes' Type 7 neural pathways, from Anthropocene to AI lullabies."
 author: 'DJ Wayne'
 date: '2023-12-07'
