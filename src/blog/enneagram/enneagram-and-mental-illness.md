@@ -71,7 +71,7 @@ Here, we will describe each type's mental health risks and give examples of unhe
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 1: The Perfectionist</>
+## Mental Health Risks of the Enneagram Type 1: The Perfectionist
 
 Type 1s are susceptible to a range of mental health challenges, including:
 
@@ -131,7 +131,7 @@ Type 1s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 2: The Helper</>
+## Mental Health Risks of the Enneagram Type 2: The Helper
 
 Type 2s are susceptible to a range of mental health challenges, including:
 
@@ -192,7 +192,7 @@ Type 2s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 3: The Achiever</>
+## Mental Health Risks of the Enneagram Type 3: The Achiever
 
 Type 3s are susceptible to a range of mental health challenges, including:
 
@@ -284,7 +284,7 @@ toxic-traits-of-each-enneagram-type
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 4: The Individualist</>
+## Mental Health Risks of the Enneagram Type 4: The Individualist
 
 Type 4s are susceptible to a range of mental health challenges, including:
 
@@ -345,7 +345,7 @@ Type 4s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 5: The Investigator</>
+## Mental Health Risks of the Enneagram Type 5: The Investigator
 
 Type 5s are susceptible to a range of mental health challenges, including:
 
@@ -410,7 +410,7 @@ Type 5s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 6: The Loyalist</>
+## Mental Health Risks of the Enneagram Type 6: The Loyalist
 
 Type 6s are susceptible to a range of mental health challenges, including:
 
@@ -471,7 +471,7 @@ Type 6s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 7: The Enthusiast</>
+## Mental Health Risks of the Enneagram Type 7: The Enthusiast
 
 Type 7s are susceptible to a range of mental health challenges, including:
 
@@ -531,7 +531,7 @@ Type 7s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 8: The Challenger</>
+## Mental Health Risks of the Enneagram Type 8: The Challenger
 
 Type 8s are susceptible to a range of mental health challenges, including:
 
@@ -591,7 +591,7 @@ Type 8s may engage in various unhealthy coping strategies:
 
 <article class="section-content">
 
-## Mental Health Risks of the Enneagram Type 9: The Peacemaker</>
+## Mental Health Risks of the Enneagram Type 9: The Peacemaker
 
 Type 9s are susceptible to a range of mental health challenges, including:
 
