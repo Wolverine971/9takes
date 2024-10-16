@@ -40,8 +40,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter"></p>
 
-Certainly! I'll create a blog post about Chamath Palihapitiya as an Enneagram Type 3, "The Achiever," incorporating the additional elements you've requested. Here's the blog post:
-
 # Chamath Palihapitiya: The Quintessential Enneagram Type 3 - The Achiever
 
 > "I want to be the best version of myself in everything I do." - Chamath Palihapitiya

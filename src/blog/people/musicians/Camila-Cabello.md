@@ -50,8 +50,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter"></p>
 
-Certainly! I'll create a blog post about Camila Cabello as an Enneagram Type 3, "The Achiever." Here's the blog post:
-
 # Camila Cabello: The Charismatic Drive of Enneagram Type 3 - The Achiever
 
 > "I think that the best thing we can do for our self-esteem is work hard and do our best." - Camila Cabello

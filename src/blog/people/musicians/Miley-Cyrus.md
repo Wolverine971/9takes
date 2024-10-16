@@ -163,8 +163,8 @@ So, does this deep dive into Miley's world give you a new perspective? Maybe now
 Remember, understanding people, much like understanding Miley, is never a one-size-fits-all. It's a journey, sometimes a climb, but an adventure worth taking. If you're intrigued to explore more, remember, in the words of Miley, we can't stop, and we won't stop! 🚀🎤🌟
 
 > **Disclaimer** This analysis of Miley Cyrus's Enneagram type is speculative, based on publicly available information, and may not reflect Miley's actual personality type.
->
-> <svelte:head>
+
+<svelte:head>
 
  <script async src="https://www.tiktok.com/embed.js"></script>
 

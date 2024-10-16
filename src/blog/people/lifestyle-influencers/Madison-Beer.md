@@ -49,8 +49,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div> -->
 
-Certainly! I'll create a blog post about Madison Beer as an Enneagram Type 4, "The Individualist." Here's the blog post:
-
 > "I'm not trying to be something I'm not. I'm just trying to be myself." - Madison Beer
 
 > "I think it's so important to be authentic and to show people who you really are." - Madison Beer

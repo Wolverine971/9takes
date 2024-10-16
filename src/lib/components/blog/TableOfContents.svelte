@@ -4,13 +4,21 @@
 	import { writable, type Writable } from 'svelte/store';
 
 	export let contentStore: Writable<string>;
+	export let pageUrl: string; // Add this line to accept the page URL as a prop
 
 	let visible = false;
 	let windowWidth: number;
 	let toc: string = '';
 	let content: string = '';
+	let jsonLd: string = '';
 
-	function generateTableOfContents(html: string): string {
+	interface TocItem {
+		id: string;
+		name: string;
+		children?: TocItem[];
+	}
+
+	function generateTableOfContents(html: string): { tocHtml: string; tocStructure: TocItem[] } {
 		const tempDiv = document.createElement('div');
 		tempDiv.innerHTML = html;
 
@@ -20,6 +28,9 @@
 
 		const list = document.createElement('ul');
 		list.className = 'toc-list';
+
+		let h2Sections: { h2: HTMLLIElement; h3s: HTMLLIElement[]; tocItem: TocItem }[] = [];
+		let tocStructure: TocItem[] = [];
 
 		headings.forEach((heading) => {
 			const listItem = document.createElement('li');
@@ -34,16 +45,79 @@
 			link.className = 'toc-link';
 
 			listItem.appendChild(link);
-			list.appendChild(listItem);
+
+			const tocItem: TocItem = {
+				id,
+				name: heading.textContent
+			};
+
+			if (heading.tagName === 'H2') {
+				list.appendChild(listItem);
+				tocStructure.push(tocItem);
+				h2Sections.push({ h2: listItem, h3s: [], tocItem });
+			} else if (heading.tagName === 'H3' && h2Sections.length > 0) {
+				h2Sections[h2Sections.length - 1].h3s.push(listItem);
+				if (!h2Sections[h2Sections.length - 1].tocItem.children) {
+					h2Sections[h2Sections.length - 1].tocItem.children = [];
+				}
+				h2Sections[h2Sections.length - 1].tocItem.children.push(tocItem);
+			}
 		});
 
-		return list.outerHTML;
+		const totalH2s = h2Sections.length;
+		const totalH3s = h2Sections.reduce((sum, section) => sum + section.h3s.length, 0);
+		const totalLinks = totalH2s + totalH3s;
+
+		if (totalLinks > 18) {
+			const availableH3Slots = 18 - totalH2s;
+			const h3sPerSection = Math.floor(availableH3Slots / totalH2s);
+			let extraH3s = availableH3Slots % totalH2s;
+
+			h2Sections.forEach((section, index) => {
+				const h3sToKeep = h3sPerSection + (index < extraH3s ? 1 : 0);
+				section.h3s.slice(0, h3sToKeep).forEach((h3) => {
+					section.h2.appendChild(h3);
+				});
+				if (section.tocItem.children) {
+					section.tocItem.children = section.tocItem.children.slice(0, h3sToKeep);
+				}
+			});
+		} else {
+			h2Sections.forEach((section) => {
+				section.h3s.forEach((h3) => {
+					section.h2.appendChild(h3);
+				});
+			});
+		}
+
+		return { tocHtml: list.outerHTML, tocStructure };
+	}
+
+	function generateJsonLd(tocStructure: TocItem[], pageUrl: string): string {
+		const jsonLd = {
+			'@context': 'https://schema.org',
+			'@type': 'Article',
+			mainEntityOfPage: {
+				'@type': 'WebPage',
+				'@id': pageUrl
+			},
+			about: tocStructure.map((item) => ({
+				'@type': 'Thing',
+				name: item.name,
+				description: item.children ? item.children.map((child) => child.name).join(', ') : undefined
+			}))
+		};
+
+		return JSON.stringify(jsonLd, null, 2);
 	}
 
 	$: {
 		if (content) {
-			toc = generateTableOfContents(content);
+			const { tocHtml, tocStructure } = generateTableOfContents(content);
+			toc = tocHtml;
+			jsonLd = generateJsonLd(tocStructure, pageUrl);
 			console.log('Table of contents updated:', toc);
+			console.log('JSON-LD generated:', jsonLd);
 		}
 	}
 
@@ -61,14 +135,15 @@
 			windowWidth = window.innerWidth;
 			handleScroll();
 		};
-		toc = generateTableOfContents(content);
+		const { tocHtml, tocStructure } = generateTableOfContents(content);
+		toc = tocHtml;
+		jsonLd = generateJsonLd(tocStructure, pageUrl);
 
 		window.addEventListener('scroll', handleScroll);
 		window.addEventListener('resize', handleResize);
 		handleResize();
 
 		return () => {
-			// unsubscribe();
 			window.removeEventListener('scroll', handleScroll);
 			window.removeEventListener('resize', handleResize);
 		};
@@ -80,7 +155,9 @@
 
 	afterUpdate(() => {
 		if (content) {
-			toc = generateTableOfContents(content);
+			const { tocHtml, tocStructure } = generateTableOfContents(content);
+			toc = tocHtml;
+			jsonLd = generateJsonLd(tocStructure, pageUrl);
 		}
 	});
 
@@ -99,10 +176,15 @@
 		</nav>
 	</div>
 {/if}
-<nav>
-	<h3 class="toc-title">Table of Contents</h3>
+
+<details open>
+	<summary class="accordion">Table of Contents</summary>
 	{@html toc}
-</nav>
+</details>
+
+<svelte:head>
+	{@html `<script type="application/ld+json">${jsonLd}</script>`}
+</svelte:head>
 
 <style lang="scss">
 	.toc-sidebar {
@@ -131,6 +213,11 @@
 		overflow: hidden;
 		text-wrap: nowrap;
 		text-overflow: ellipsis;
+
+		&:hover {
+			text-decoration: underline !important;
+			color: black;
+		}
 	}
 
 	:global(.toc-level-h2) {
@@ -143,7 +230,6 @@
 	}
 
 	:global(.toc-link) {
-		color: #333;
 		text-decoration: none;
 		display: block;
 		width: 100%;
@@ -152,7 +238,8 @@
 		text-overflow: ellipsis;
 
 		&:hover {
-			text-decoration: underline;
+			text-decoration: underline !important;
+			color: black;
 		}
 
 		&::after {

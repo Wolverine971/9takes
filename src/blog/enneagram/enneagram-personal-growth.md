@@ -28,7 +28,7 @@ fix this
 
 The Enneagram offers a unique, personalized path to self-improvement. By understanding our Enneagram type and the types of others, we can identify our strengths and weaknesses and develop customized growth strategies.
 
-### Type 1: The Perfectionist - Embracing Imperfection
+## Type 1: The Perfectionist - Embracing Imperfection
 
 Basic Approach: Focusing on fixing flaws and making everything perfect. Thinking to themselves, "I must be perfect at all times."
 
@@ -42,7 +42,7 @@ Growth Indicators: Increased acceptance of imperfections, greater flexibility, a
 
 In 5 Years, they will feel a sense of inner peace, having cultivated self-compassion and learned to appreciate progress over perfection.
 
-### Type 2: The Helper - Establishing Boundaries
+## Type 2: The Helper - Establishing Boundaries
 
 Basic Approach: Prioritizing others' needs over their own, seeking validation through helping. They think, "I am only worthy if I help others."
 
@@ -56,7 +56,7 @@ Growth Indicators: Healthier boundaries, increased self-worth, and balanced rela
 
 In 5 Years, they will have a strong sense of self and a more balanced life, having learned to prioritize their needs. They will think, feel, and behave more assertively, knowing their worth is independent of their actions.
 
-### Type 3: The Achiever - Embracing Authenticity
+## Type 3: The Achiever - Embracing Authenticity
 
 Basic Approach: Pursuing success and achievements at any cost. They think, "I am only valuable if I am successful."
 
@@ -74,7 +74,7 @@ In 5 Years, they will find greater satisfaction in authentic relationships and d
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
-### Type 4: The Individualist - Cultivating Resilience
+## Type 4: The Individualist - Cultivating Resilience
 
 Basic Approach: Seeking identity through emotions and romanticizing suffering. Thinking to themselves, "My pain defines me."
 
@@ -88,7 +88,7 @@ Growth Indicators: Improved emotional resilience, increased gratitude, and openn
 
 In 5 Years, they will be stronger, more resilient, and emotionally balanced, leading to a more fulfilling life. They will think, feel, and behave with greater self-awareness and resilience.
 
-### Type 5: The Investigator - Engaging in Connection
+## Type 5: The Investigator - Engaging in Connection
 
 Basic Approach: Seeking knowledge while avoiding emotional vulnerability and connections. They think, "I must know everything before I can connect with others."
 
@@ -102,7 +102,7 @@ Growth Indicators: Increased empathy, active engagement in social situations, an
 
 In 5 Years, they will have integrated their intellectual pursuits with a rich social life, forming meaningful connections. They will think, feel, and behave empathetically, openly sharing their knowledge and insights.
 
-### Type 6: The Loyalist - Embracing Trust
+## Type 6: The Loyalist - Embracing Trust
 
 Basic Approach: Relying on external sources of security and struggling with trust. They thought, "The world is dangerous, and I can't trust anyone."
 
@@ -116,7 +116,7 @@ Growth Indicators: Increased trust in oneself and others, effective problem-solv
 
 In 5 Years, they will have gained confidence in navigating uncertainty and fostering more trusting relationships. They will think, feel, and behave with greater trust and self-assurance.
 
-### Type 7: The Enthusiast - Cultivating Mindfulness
+## Type 7: The Enthusiast - Cultivating Mindfulness
 
 Basic Approach: Seeking constant stimulation and avoiding negative emotions. Thinking to themselves, "I must always be happy and excited."
 
@@ -130,7 +130,7 @@ Growth Indicators: Improved impulse control, consistent routines, and greater sa
 
 In 5 Years, they will have developed a deeper appreciation for life's simple pleasures and found lasting fulfillment in their experiences. They will think, feel, and behave more mindfully and contentedly.
 
-### Type 8: The Challenger - Embracing Vulnerability
+## Type 8: The Challenger - Embracing Vulnerability
 
 Basic Approach: Asserting control and power while avoiding vulnerability. Thinking to themselves, "Showing vulnerability is a sign of weakness."
 
@@ -144,7 +144,7 @@ Growth Indicators: Increased empathy, vulnerability, and active listening skills
 
 In 5 Years, they will have cultivated a more compassionate, balanced approach to life, leading to deeper connections and greater personal satisfaction. They will think, feel, and behave with increased empathy and vulnerability.
 
-### Type 9: The Peacemaker - Asserting Individuality
+## Type 9: The Peacemaker - Asserting Individuality
 
 Basic Approach: Avoiding conflict and suppressing personal needs and opinions. Thinking to themselves, "My opinions don't matter."
 

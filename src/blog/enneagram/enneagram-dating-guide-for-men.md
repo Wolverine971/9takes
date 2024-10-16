@@ -50,15 +50,15 @@ pic: 'male-greek-statue-on-a-date'
 <p>Before we dive into the dating strategies, you need to know your type. The Enneagram has nine personality types, each with its own core motivations, fears, and patterns of behavior. Here's a super quick rundown:</p>
 
 <ol>
-  <li>Type 1: The Perfectionist - Strives for improvement</li>
-  <li>Type 2: The Helper - Seeks to be needed and appreciated</li>
-  <li>Type 3: The Achiever - Driven to succeed and be admired</li>
-  <li>Type 4: The Individualist - Yearns for uniqueness and depth</li>
-  <li>Type 5: The Investigator - Seeks knowledge and understanding</li>
-  <li>Type 6: The Loyalist - Desires security and support</li>
-  <li>Type 7: The Enthusiast - Craves excitement and happiness</li>
-  <li>Type 8: The Challenger - Wants to be strong and in control</li>
-  <li>Type 9: The Peacemaker - Seeks harmony and comfort</li>
+  <li>Type 1: The Perfectionist- Strives for improvement</li>
+  <li>Type 2: The Helper- Seeks to be needed and appreciated</li>
+  <li>Type 3: The Achiever- Driven to succeed and be admired</li>
+  <li>Type 4: The Individualist- Yearns for uniqueness and depth</li>
+  <li>Type 5: The Investigator- Seeks knowledge and understanding</li>
+  <li>Type 6: The Loyalist- Desires security and support</li>
+  <li>Type 7: The Enthusiast- Craves excitement and happiness</li>
+  <li>Type 8: The Challenger- Wants to be strong and in control</li>
+  <li>Type 9: The Peacemaker- Seeks harmony and comfort</li>
 </ol>
 
 <p>Not sure which one you are? <a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">Learn your Enneagram type here</a>. Be honest with yourself – this isn't about picking the type you want to be, but recognizing who you really are.</p>

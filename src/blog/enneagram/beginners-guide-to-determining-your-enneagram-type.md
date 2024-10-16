@@ -278,7 +278,7 @@ Remember, this is a journey of self-discovery, and it may take time to fully und
 
 You now have a better tool to understand your thought patterns, emotions, and behaviors.
 
-Use what serves you; disregard what does not. Personal “development” is not just about knowing more things, feeling good about yourself, or changing your behavior. It is about understanding yourself and others and having empathy for how they became who they are.
+Use what serves you; disregard what does not. **Personal “development” is not just about knowing more things, feeling good about yourself, or changing your behavior.** It is about understanding yourself and others and having empathy for how they became who they are.
 
 As Socrates said, “The more you know, the more you realize you don’t know, and you need to know more because you should, and go ahead and do it, know more" (loose translation).
 

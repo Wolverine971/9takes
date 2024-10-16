@@ -79,7 +79,7 @@
 		<Carousel type={parseInt(type)} gridDisplay={true} />
 	{/if}
 
-	<TableOfContents {contentStore} />
+	<TableOfContents {contentStore} pageUrl={`https://9takes.com/enneagram-corner/${data.slug}`} />
 
 	<svelte:component this={component} />
 </article>
