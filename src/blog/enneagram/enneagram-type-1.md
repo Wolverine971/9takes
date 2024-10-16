@@ -29,6 +29,8 @@ People of this type often mention a little voice in the back of their heads that
 
 <h2 id="description">Enneagram 1 Description</h2>
 
+<!-- <img src="/blogs/feeling-tension.webp"  class="section-img" /> -->
+
 Individuals with the Enneagram Type 1 are characterized by their strong sense of right and wrong and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values.
 
 Key traits of Enneagram Type 1 include:
@@ -160,8 +162,8 @@ The childhood experiences of Type 1 individuals often play a crucial role in sha
 - **Childhood Stereotype**: Often raised in households where precision and order were highly valued. Parents or guardians may have been strict, emphasizing moral and ethical standards.
 - **Childhood Wound**: Faced criticism or punishment for minor mistakes, leading to a deep-seated fear of making errors. This experience fostered an internal critic that constantly pushed for perfection.
 - **Developmental Aspects**:
-    - High expectations from family and teachers, with a focus on discipline and responsibility.
-    - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
+  - High expectations from family and teachers, with a focus on discipline and responsibility.
+  - May have had little room for play or creative expression, as tasks were to be done 'the right way.'
 - **Typical Behaviors**: Sought to be model students or children, diligently following rules and guidelines. Often took on adult responsibilities early.
 - **Thoughts and Feelings**: Battled with feelings of inadequacy and a relentless drive to improve. May have felt emotionally restrained, suppressing feelings to maintain control.
 - **View on Childhood**: Likely views their upbringing as disciplined and structured, possibly lamenting the lack of spontaneity and freedom to make mistakes. Proud of their resilience but may wish for more emotional warmth and acceptance in their early years.
@@ -369,4 +371,12 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 </svelte:head>
 
 <style lang="scss">
+  .section-img {
+    width: 15%;
+    float: left;
+    margin: 0 1rem 0 0;
+    padding: .1rem;
+    border: 1px solid purple;
+    border-radius: 5px;
+  }
 </style>

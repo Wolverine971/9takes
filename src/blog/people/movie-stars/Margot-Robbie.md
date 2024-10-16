@@ -44,7 +44,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">You've seen her lighting up the big screen, captivating audiences worldwide with her charm and charisma.</p>
 
-Margot Robbie, the versatile actress from Australia, is a force to be reckoned with in Hollywood. This article dives into a fascinating exploration of Robbie's persona, suggesting her as an embodiment of Enneagram type 8 - The Challenger.
+Margot Robbie, the versatile actress from Australia, is a force to be reckoned with in Hollywood. This article explores of Robbie's persona, suggesting her as an embodiment of Enneagram type 8 - The Challenger.
 
 <details>
 <summary class="accordion">TL;DR: Why Margot Robbie is an Enneagram type 8 </summary>

@@ -80,7 +80,7 @@ Kim Kardashian is a woman of many talents, but have you ever wondered what is in
 
 ## What is Kim Kardashian's Personality Type?
 
-The Enneagram, an ancient personality typing system, classifies people into nine primary types, each having unique motivations, fears, and desires. Type 3, often referred to as the "Achiever," is characterized by a deep-seated need to succeed, to be affirmed, and to be impressive to others.
+The Enneagram, an ancient personality typing system, classifies people into nine primary types, each having unique motivations, fears, and desires. [Type 3](/enneagram-corner/enneagram-type-3), often referred to as the "Achiever," is characterized by a deep-seated need to succeed, to be affirmed, and to be impressive to others.
 
 Sound familiar? If you've followed Kim's trajectory, from reality TV to building beauty empires and pursuing a law degree, you might agree that Type 3 sums her up pretty accurately.
 

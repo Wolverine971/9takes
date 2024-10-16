@@ -82,7 +82,7 @@ Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in p
 
 ## The Nine's Humor: A Tool for Inner Peace
 
-One trademark characteristic of Type 9 is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/personality-analysis/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
+One trademark characteristic of [Type 9](/enneagram-corner/enneagram-type-9) is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/personality-analysis/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
 
 Where is Pete Davidson from, you ask? Staten Island, New York. The loss of his firefighter father in the 9/11 attacks is a topic he's broached repeatedly in his stand-up routines, drawing on dark humor to help himself and others cope with the tragedy.
 

@@ -195,7 +195,7 @@ While his vision has adapted to political realities, his drive to make an impact
 
 ## Conclusion
 
-Donald Trump, love him or loathe him, is a fascinating case study of the Enneagram Type 8 personality. His journey from real estate mogul to reality TV star to President of the United States showcases both the strengths and challenges of this personality type.
+Donald Trump, love him or loathe him, he is a case study of the Enneagram Type 8 personality. His journey from real estate mogul to reality TV star to President of the United States showcases both the strengths and challenges of this personality type.
 
 <!-- better conclusion -->
 

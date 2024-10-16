@@ -107,7 +107,7 @@ In true Type 6 fashion, Timothée seems to be constantly looking ahead, anticipa
 
 ## Conclusion
 
-Timothée Chalamet's journey from a multicultural kid in New York to a Hollywood superstar is a fascinating study in how an Enneagram Type 6 navigates the world. His blend of anxiety and ambition, loyalty and skepticism, has shaped him into the complex, captivating actor we see today.
+Timothée Chalamet's journey from a multicultural kid in New York to a Hollywood superstar is a study in how an Enneagram Type 6 navigates the world. His blend of anxiety and ambition, loyalty and skepticism, has shaped him into the complex, captivating actor we see today.
 
 But what do you think? How might understanding Timothée's potential Enneagram type change the way you view his performances or public persona? And more intriguingly, what might it reveal about your own personality and the way you navigate the world?
 

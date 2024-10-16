@@ -119,7 +119,7 @@ So, does Ariana Grande fit the mold of an Enneagram Type 3 - The Achiever? Her d
 
 How does this exploration of Ariana enhance your understanding of her as an artist and a public figure? Does viewing Ariana through the lens of an Enneagram Type 3 give you fresh insights into her motivations and actions? In a world where celebrities are often perceived only through their public image, perhaps there is merit in understanding them not just for their accomplishments, but also through their core personality traits.
 
-Ready for more? Intrigued to unravel the personalities of other celebrities or even your own? Sign up below to be a part of 9takes, a community that thrives on introspective exploration of personalities and perspectives. Together, let's journey through the fascinating world of the Enneagram, one personality at a time.
+Ready for more? Intrigued to unravel the personalities of other celebrities or even your own? Sign up below to be a part of 9takes, a community that thrives on introspective exploration of personalities and perspectives. Together, let's journey through the world of the Enneagram, one personality at a time.
 
 <svelte:head>
 

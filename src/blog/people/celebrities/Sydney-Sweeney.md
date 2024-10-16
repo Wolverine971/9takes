@@ -73,7 +73,7 @@ But beneath the surface of this rising star lies a complex and driven personalit
 
 ### Sydney Sweeney is an Enneagram Type 3: The Achiever
 
-Enneagram Type 3s are driven by a deep desire to succeed and be admired for their accomplishments.
+[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) are driven by a deep desire to succeed and be admired for their accomplishments.
 
 They are goal-oriented, adaptable, and excel at presenting themselves in the best possible light. Type 3s often struggle with feelings of worthlessness and a fear of failure, leading them to constantly strive for success and recognition.
 

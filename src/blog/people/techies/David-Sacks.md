@@ -93,7 +93,7 @@ During a heated discussion on tech regulation, Sacks boldly stated, "Sometimes, 
 
 ## The All-In Dynamic: A Loyalist Among Mavericks
 
-Sacks' participation in the "All-In Podcast" provides a fascinating window into his Type 6 personality, especially in his interactions with co-hosts:
+Sacks' participation in the "All-In Podcast" provides a window into his Type 6 personality, especially in his interactions with co-hosts:
 
 ### 🎙️ Chamath Palihapitiya: The Intellectual Sparring Partner
 

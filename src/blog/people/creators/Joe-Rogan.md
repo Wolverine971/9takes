@@ -94,7 +94,7 @@ This moment, while controversial, exemplifies how Rogan's Type 8 traits create a
 
 ### Joe Rogan helps his friends
 
-One fascinating aspect of Enneagram Type 8s is that when they are doing well or are in "security," they can embody positive traits of Type 2, known as "the helpers." This shift is evident in Rogan's relationships with his friends and colleagues.
+One aspect of Enneagram Type 8s is that when they are doing well or are in "security," they can embody positive traits of Type 2, known as "the helpers." This shift is evident in Rogan's relationships with his friends and colleagues.
 
 Many of Rogan's friends speak about his generosity and genuine happiness at their success. They describe him as a good friend who gives gifts and celebrates others' achievements. This behavior aligns perfectly with the Type 8's growth direction towards Type 2, where they channel their strength and resources into supporting others.
 
@@ -179,7 +179,7 @@ The Enneagram is more than just a personality typing system - it's a tool for un
 
 By understanding the motivations and fears that drive different personality types, we can begin to bridge the gaps that divide us. We can humanize those around us, understand our neighbors' fears, anger, and shame, and perhaps find a path to common ground.
 
-If you're intrigued by this exploration of personality and want to dive deeper, we invite you to explore our <a href="/questions">questions section</a>. There, you can delve further into the fascinating world of the Enneagram and continue your journey of self-discovery and understanding. 🚀
+If you're intrigued by this exploration of personality and want to dive deeper, we invite you to explore our <a href="/questions">questions section</a>. There, you can delve further into the world of the Enneagram and continue your journey of self-discovery and understanding. 🚀
 
 <svelte:head>
 

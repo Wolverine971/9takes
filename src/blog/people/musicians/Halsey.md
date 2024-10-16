@@ -64,7 +64,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">You've streamed her music, dissected her lyrics, and probably bobbed your head to her catchy beats.</p>
 
-Halsey, an influential figure in the music industry, is a fascinating study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.
+Halsey, an influential figure in the music industry, is a study of raw emotion and defiance. Today, we'll look at this multifaceted artist from a different perspective, as a striking embodiment of Enneagram Type 8 - The Challenger.
 
 <details>
 <summary class="accordion">TL;DR: Why Halsey is an Enneagram 8</summary>

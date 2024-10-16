@@ -57,7 +57,7 @@ But behind the iconic roles and accolades lies a complex personality driven by a
 
 ### Meryl Streep is an Enneagram Type 2
 
-Enneagram Type 2s, also known as "The Helper," are characterized by their empathetic nature, generosity, and desire to be loved and appreciated. They have a strong need to feel needed and often put others' needs before their own. Type 2s are known for their emotional intelligence, warmth, and ability to connect with others on a deep level.
+[Enneagram Type 2s](/enneagram-corner/enneagram-type-2), also known as "The Helper," are characterized by their empathetic nature, generosity, and desire to be loved and appreciated. They have a strong need to feel needed and often put others' needs before their own. Type 2s are known for their emotional intelligence, warmth, and ability to connect with others on a deep level.
 
 ## Meryl Streep's Upbringing
 

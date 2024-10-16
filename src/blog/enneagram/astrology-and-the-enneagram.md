@@ -25,7 +25,7 @@ While each system has its own history and methodology, many practitioners, espec
 - **Astrology**, with its roots in ancient civilizations, looks to the stars and planets for insights into human character and destiny.
 - **The Enneagram**, a more modern system with disputed ancient origins, presents nine distinct personality types based on core motivations and fears.
 
-At first glance, these systems might seem unrelated. However, many enthusiasts and practitioners have found fascinating parallels and complementary insights when combining them.
+At first glance, these systems might seem unrelated. However, many enthusiasts and practitioners have found parallels and complementary insights when combining them.
 
 ## Mapping Enneagram Types to Astrological Signs
 

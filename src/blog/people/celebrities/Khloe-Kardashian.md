@@ -65,7 +65,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 Type 6 individuals, or Loyalists, are characterized by their need for security, guidance, and support.
 
-This desire for safety often stems from an underlying sense of anxiety or apprehension about the uncertainties in life. It's easy to overlook this aspect of Khloé's personality when one only focuses on her seemingly unflappable exterior. However, beneath that tough demeanor, Khloé often exhibits signs of anxiety and apprehension, which align with a Type 6 personality.
+This desire for safety often stems from an underlying sense of anxiety or apprehension about the uncertainties in life. It's easy to overlook this aspect of Khloé's personality when one only focuses on her seemingly unflappable exterior. However, beneath that tough demeanor, Khloé often exhibits signs of anxiety and apprehension, which align with a [Type 6](/enneagram-corner/enneagram-type-6) personality.
 
 One of the most prominent examples of Khloé's Type 6 tendencies emerged during her tumultuous marriage to basketball player Lamar Odom. Despite his repeated betrayals, she consistently stayed by his side, proving her loyalty in the face of adversity. Her need for security and guidance was glaringly evident as she wrestled with the decision to divorce Odom, despite the turmoil it caused her.
 

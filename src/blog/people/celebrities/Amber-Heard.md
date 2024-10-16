@@ -64,7 +64,7 @@ But beyond the headlines and courtroom drama lies a complex individual shaped by
 
 ### Amber Heard: The Ambitious Type 3
 
-Amber Heard embodies many characteristics of an Enneagram Type 3, often called "The Achiever." Type 3s are known for their drive, adaptability, and desire to be admired. They're the chameleons of the Enneagram, shape-shifting to fit whatever role will bring them success and recognition.
+Amber Heard embodies many characteristics of an [Enneagram Type 3](/enneagram-corner/enneagram-type-3), often called "The Achiever." Type 3s are known for their drive, adaptability, and desire to be admired. They're the chameleons of the Enneagram, shape-shifting to fit whatever role will bring them success and recognition.
 
 But Amber isn't just any Type 3. Her journey from small-town Texas to Hollywood stardom, her passionate advocacy work, and yes, even her tumultuous personal life, all paint a picture of a woman whose ambition is matched only by her complexity.
 

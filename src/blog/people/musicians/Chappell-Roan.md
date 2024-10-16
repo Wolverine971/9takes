@@ -53,7 +53,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <!-- # Chappell Roan: The Vibrant Soul Behind the Glitter Pop -->
 
-She's a small-town girl with big dreams, an advocate for self-expression, and a beacon of authenticity in the music industry. Let's peel back the layers of sequins and explore the fascinating personality that drives this rising star.
+She's a small-town girl with big dreams, an advocate for self-expression, and a beacon of authenticity in the music industry. Let's peel back the layers of sequins and explore the personality that drives this rising star.
 
 ## What is Chappell Roan's Personality Type?
 

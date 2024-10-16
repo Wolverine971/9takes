@@ -42,7 +42,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
 
-<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. <a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Kourtney_Kardashian">Kourtney Kardashian</a>, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
+<p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. Kourtney Kardashian, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
 
 <details>
 <summary class="accordion">TL;DR: Why Kourtney Kardashian is an Enneagram type 1</summary>
@@ -62,7 +62,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 ## What Makes Kourtney a Type 1?
 
-Kourtney's public life provides numerous examples of her embodying the defining characteristics of Type 1. As a Type 1, Kourtney often displays a well-developed sense of right and wrong, coupled with an innate desire for order and perfection.
+Kourtney's public life provides numerous examples of her embodying the defining characteristics of Type 1. As a [Type 1](/enneagram-corner/enneagram-type-1), Kourtney often displays a well-developed sense of right and wrong, coupled with an innate desire for order and perfection.
 
 ## Her Quest for Perfection
 

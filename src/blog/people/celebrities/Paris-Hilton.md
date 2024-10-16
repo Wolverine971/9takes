@@ -45,13 +45,13 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">You know her as the glamorous heiress, the savvy entrepreneur, and the pop culture icon.</p>
 
-But if you peel back the layers, you'll discover a fascinating inner world that challenges the superficial perceptions surrounding Paris Hilton. As an Enneagram Type 3, Paris has cultivated a unique blend of ambition, adaptability, and a relentless pursuit of success - qualities that have propelled her to the forefront of the zeitgeist.
+But if you peel back the layers, you'll discover an inner world that challenges the superficial perceptions surrounding Paris Hilton. As an Enneagram Type 3, Paris has cultivated a unique blend of ambition, adaptability, and a relentless pursuit of success - qualities that have propelled her to the forefront of the zeitgeist.
 
 ## What is Paris Hilton's Personality Type?
 
 ### Paris Hilton is an Enneagram Type 3 - The Achiever
 
-Enneagram Type 3s are often described as the "successful achievers" of the Enneagram system.
+[Enneagram Type 3s](/enneagram-corner/enneagram-type-3) are often described as the "successful achievers" of the Enneagram system.
 
 They are driven, charismatic, and acutely aware of their image and the impressions they make on others. At their core, Type 3s are motivated by a desire for status, recognition, and a sense of accomplishment.
 
@@ -113,7 +113,7 @@ As you explore the world of the Enneagram, Paris Hilton's story serves as a comp
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "You know her as the glamorous heiress, the savvy entrepreneur, and the pop culture icon. But if you peel back the layers, you'll discover a fascinating inner world that challenges the superficial perceptions surrounding Paris Hilton. As an Enneagram Type 3, Paris has cultivated a unique blend of ambition, adaptability, and a relentless pursuit of success - qualities that have propelled her to the forefront of the zeitgeist. This article explores Paris Hilton's personality from the lens of the Enneagram Type 3, delving into her upbringing, rise to fame, major accomplishments, and how she has navigated drama and controversies.",
+      "articleBody": "You know her as the glamorous heiress, the savvy entrepreneur, and the pop culture icon. But if you peel back the layers, you'll discover an inner world that challenges the superficial perceptions surrounding Paris Hilton. As an Enneagram Type 3, Paris has cultivated a unique blend of ambition, adaptability, and a relentless pursuit of success - qualities that have propelled her to the forefront of the zeitgeist. This article explores Paris Hilton's personality from the lens of the Enneagram Type 3, delving into her upbringing, rise to fame, major accomplishments, and how she has navigated drama and controversies.",
       "creator" : ["DJ Wayne"],
       "author": {
         "@type": "Person",

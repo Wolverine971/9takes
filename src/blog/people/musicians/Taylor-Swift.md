@@ -45,87 +45,143 @@ redo and update
   />
 </div>
 
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
 <p class="firstLetter">Taylor Swift has been America's sweetheart and has grown into become a global icon.</p>
 
 She has taken the world by storm with her Eras tour but has been building her following since 2006. For Swifties, She is her. And she can't stop and won't stop moving.
 
 Here, we explore Taylor's personality, and propose that she is the ambitious Enneagram Type 3.
 
-<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
 <details>
-<summary class="accordion">TL;DR: Why Taylor Swift is an Enneagram type 3</summary>
+<summary class="accordion">TL;DR: Why Taylor Swift is an Enneagram Type 3</summary>
 <div class="panel">
 <ul>
-<li><b>Unwavering Pursuit of Success:</b> Taylor Swift, a Grammy award-winning artist, epitomizes classic Type 3 characteristics, particularly her unwavering ambition. Her early relocation to Nashville and her dedicated commitment to her craft, evident in the extended hours she devotes to the studio, underscore her inherent drive to excel— a defining trait of Type 3 - The Achiever.
-</li>
-<li><b>The Inner Mechanics of an Achiever:</b> Swift's inner world likely revolves around a perpetual quest for achievement. As a Type 3, her thoughts, emotions, and daily actions are meticulously geared towards projecting a successful image and garnering validation, both pivotal to her self-esteem. This may encompass continual self-assessment and a thorough examination of her public persona.
-</li>
-<li><b>Resilience Amidst Controversy:</b> Swift's journey has been punctuated by public feuds with celebrities like <a href="./Kanye">Kanye West</a> and <a href="./Kim-Kardashian">Kim Kardashian</a>. However, her resilience in the face of adversity, transforming potential setbacks into triumphs through her music, mirrors her Type 3 nature. It reflects the Achiever's coping mechanism, stemming from the fear of being perceived as unworthy or unsuccessful.
-</li>
-<li><b>Driven by a Core Motivation:</b> Taylor's core motivation, akin to most Type 3s, is rooted in a fear of worthlessness, which propels her relentless pursuit of success and validation. Her lyrics, philanthropic endeavors, and even her approach to handling public controversies can be traced back to this underlying motivation. Understanding this sheds light on Swift's unyielding ambition and unwavering resilience, further affirming her alignment with the Enneagram Type 3 personality.
-</li>
+<li><b>Unwavering Pursuit of Success:</b> Taylor Swift epitomizes the classic Type 3 characteristics, particularly in her relentless ambition. Her early relocation to Nashville and tireless dedication to her craft underscore her inherent drive to excel - a defining trait of The Achiever.</li>
+<li><b>The Inner Mechanics of an Achiever:</b> Swift's inner world revolves around a perpetual quest for achievement. As a Type 3, her thoughts, emotions, and actions are meticulously geared towards projecting success and garnering validation, both pivotal to her self-esteem.</li>
+<li><b>Resilience Amidst Controversy:</b> Swift's journey, punctuated by public feuds, showcases her resilience. Her ability to transform potential setbacks into triumphs through her music mirrors the Type 3's coping mechanism, rooted in the fear of being perceived as unworthy.</li>
+<li><b>Driven by Core Motivation:</b> Taylor's core motivation, like most Type 3s, stems from a fear of worthlessness, propelling her relentless pursuit of success and validation. This underlying drive is evident in her lyrics, philanthropic endeavors, and approach to public controversies.</li>
+<li><b>Evolution as an Achiever:</b> Swift's career trajectory, from country prodigy to pop icon, demonstrates the Type 3's adaptability and constant striving for growth and reinvention.</li>
 </ul>
- </div>
+</div>
 </details>
 
-## What is Taylor Swift’s Personality Type?
+## Taylor Swift: The Quintessential Achiever
 
-### Taylor Swift: A Classic Type 3
+At the core of Taylor Swift's persona lies the resolute Enneagram Type 3, the Achiever. This personality type is characterized by ambition, efficiency, and charm, with individuals driven to excel and be perceived as successful. Swift's career trajectory and public persona seamlessly embody these traits, offering a fascinating case study of a Type 3 in the limelight.
 
-At the heart of Taylor Swift’s persona lies a resolute [Enneagram Type 3, the Achiever.](/enneagram-corner/enneagram-type-3) This personality type is marked by ambition, efficiency, and charm, with individuals driven to excel and be perceived as successful. Swift, with her diligent work ethic and charisma, seamlessly embodies these traits.
+### The Early Years: Laying the Foundation
 
-#### Taylor’s Rise to Stardom
+Swift's journey exemplifies the tenacity and ambition associated with Type 3 personalities from a remarkably young age. At just 14, she convinced her family to relocate to Nashville, Tennessee - the heart of country music - where she secured her first record deal. This early demonstration of determination set the stage for her meteoric rise.
 
-Swift exhibited the tenacity and ambition often associated with a Type 3 personality from a young age. She persuaded her family to relocate to Nashville, Tennessee, the heartland of country music, and inked her first record deal at a mere 14. From an early age she new what she wanted and she was going to do what she could to get there.
+Her debut self-titled album, released at 16, not only showcased her songwriting skills but also made her the youngest artist to write and perform a # 1 hit on Billboard's Hot Country Songs chart with "Our Song." This early success fueled her drive, a characteristic deeply ingrained in Type 3 individuals.
 
-Here is Anthony Recenello a social and relationship coach talking about Taylor's rise to fame.
+### The Evolution of an Achiever
 
-<div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/payp-I_Yklo?si=gldfJJ4Q_fW0yc7x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+Swift's career evolution provides a textbook example of a Type 3's adaptability and constant striving for growth:
 
-#### Navigating Controversies: The Resilient Achiever
+1. **Country Roots (2006-2009):** Established herself as a young country talent, laying the groundwork for future success.
+2. **Pop Transition (2010-2014):** Gradually incorporated pop elements, culminating in the full pop transformation with "1989" in 2014.
+3. **Reputation Era (2017-2018):** Embraced a darker, more mature image, addressing controversies head-on through her music.
+4. **Recent Years (2019-present):** Demonstrated versatility with surprise releases like "folklore" and "evermore," while also showcasing business acumen by re-recording earlier albums.
 
-Swift's ability to weather controversies is further testament to her Achiever persona. Through public disputes, such as those with <a href="/personality-analysis/Kanye" >Kanye West</a> and <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a>, she has remained steadfastly focused on her career. She has harnessed these experiences as fodder for her songs, transforming potential setbacks into triumphs. Her 2017 album, “Reputation,” directly responded to public criticism, showcasing her adaptability and commitment to shaping her narrative.
+This evolution demonstrates the Type 3's ability to reinvent themselves, always striving for the next level of achievement and recognition.
 
-#### Taylor’s Image and Charisma: The Magnetic Achiever
+### Achievements as Self-Validation
 
-Taylor Swift’s magnetic persona and meticulously curated public image exemplify traits of the Enneagram Type 3, the Achiever. Her adept use of social media to connect with fans, share facets of her life, and express gratitude reinforces this charismatic persona. Swift is known for her spontaneous and genuine interactions during concerts, strengthening her bond with her audience and amplifying her appeal.
+For a Type 3 like Swift, achievements serve as tangible proof of worth and success. Her impressive list of accomplishments reads like a Type 3's dream:
 
-Notably, Swift’s image is enriched by her philanthropic pursuits. From contributions to disaster relief to advocating for arts education and social causes, her actions reflect her compassionate nature and social awareness. These initiatives cement her reputation as a relatable and caring figure.
+- First artist to have four albums sell over one million copies in their opening week
+- Youngest artist to win Album of the Year Grammy at age 20
+- Record holder for most simultaneous U.S. Hot 100 entries by a female artist
+- Reputation Stadium Tour became the highest-grossing U.S. tour in history at the time
 
-Swift's ability to connect with fans and utilize her influence positively underscores the inherent charisma of Enneagram Type 3, affirming her identity as an Achiever. Her success lies not only in her music but also in the deep connection she has fostered with her fans and her broader societal impact.
+These achievements aren't just accolades for Swift; they're affirmations of her worth and success, feeding the Type 3's need for external validation.
 
-## How Taylor’s Personality Is Evident in Her Music and Lyrics
+### The Inner World of an Achiever
 
-Swift’s personality is vividly manifested in her lyrics, illustrating her acute awareness of her public image and her mastery in shaping her narrative. Her song “Blank Space” embraces the media's portrayal of her as a serial dater, showcasing her adeptness at transforming negative portrayals into catchy, self-aware songs. Similarly, her hit “Shake it Off” acknowledges criticism and reshapes it into a testament to resilience.
+While Swift's public persona exudes confidence and success, the inner world of a Type 3 is often more complex. The constant pursuit of achievement can be driven by an underlying fear of worthlessness, a core motivation for Type 3s.
 
-Swift’s entire “Reputation” album revolves around her public image. Through this work, she channels the experiences of her feuds with West and Kardashian into a narrative where she is cast in a role rather than accepting blame. Swift, akin to a true Enneagram Type 3, plays an active role in crafting her reputation and success narrative through her music.
+This inner drive is evident in Swift's meticulous approach to her craft. Her songwriting process, known for its attention to detail and inclusion of "Easter eggs" for fans to discover, reflects the Type 3's desire to create a polished, impressive product. The incorporation of personal experiences into her lyrics allows her to shape her narrative, another key aspect of the Type 3 personality.
 
-<BlogPurpose/>
+### Navigating Controversy: The Resilient Achiever
 
-## How Different Enneagram Types Perceive Taylor Swift
+Swift's ability to weather controversies further exemplifies her Type 3 nature. Public disputes, such as those with [Kanye West](/personality-analysis/Kanye) and [Kim Kardashian](personality-analysis/Kim-Kardashian), have been transformed into fuel for her art. Her 2017 album "Reputation" directly addressed public criticism, showcasing the Type 3's adaptability and commitment to controlling their narrative.
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Taylor:
+This resilience is captured in Swift's own words: "**If you're upset by something I've said, or if you're threatened by something I've said, that's not my problem. That's your problem.**" This quote encapsulates the Type 3's focus on self-image and their ability to deflect criticism to maintain their sense of worth.
 
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - They may appreciate Swift’s attention to detail in her music while also being critical of her public controversies, viewing them as a departure from an ideal, "perfect" image.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - They are likely to empathize with Swift’s emotional lyrics, admire her philanthropic efforts, and express concern for her well-being amidst public feuds and media scrutiny.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - As fellow Achievers, they would resonate with Swift's drive for success and her resilience in overcoming adversity. They'd likely admire her for turning challenges into opportunities.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Drawn to the authenticity and depth in Swift’s lyrics, they might identify with her moments of feeling misunderstood or different, recurring themes in her music.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - The Investigator: Intrigued by the clever storytelling in Swift’s music, they’d appreciate the layers and nuances in her songs. However, they may keep a certain distance from her public image and controversies.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - They could feel connected with Swift’s loyalty to her fans and her determination in the face of adversity. Yet, they might also worry about her well-being amidst the highs and lows of her career.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Attracted to Swift’s upbeat, catchy tunes and the variety in her music, they'd likely admire her for her ability to reinvent herself with each album.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Impressed by Swift’s assertiveness in protecting her work and standing her ground in controversies, they might view her as an influential figure unafraid to take control.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - While they may find solace in the harmony of Swift’s melodies, they might feel discomfort with the conflicts surrounding her, yearning for more peace and unity in her narrative.
+### The Business-Savvy Achiever
 
-## Wrap up
+Taylor Swift's business acumen is a testament to her Type 3 personality, showcasing the Achiever's drive for success beyond just artistic recognition. Her strategic decisions in the business realm demonstrate the Type 3's ability to excel in multiple domains and their desire for control over their image and success.
 
-As intricate beings, people’s thoughts, emotions, and actions are molded over time, often serving as mechanisms to navigate life’s challenges. For Taylor Swift, her actions unveil a resolute achiever, grappling with her yearning for success and affirmation.
+#### Mastering Her Masters
 
-In a world where perspectives are diverse and often conflicting, taking the time to comprehend another’s point of view can be enlightening. If this exploration has sparked your interest, we invite you to delve further into the realm of personalities and perspectives.
+Perhaps the most striking example of Swift's business savvy is her decision to re-record her first six albums. This move came after her masters were sold to Scooter Braun's Ithaca Holdings without her consent. Rather than accepting this loss, Swift took action:
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+1. She announced her intention to re-record her early albums, effectively creating new masters she would own.
+2. This decision not only allows her to regain control of her work but also demonstrates to her fans (and the industry) her resilience and determination - key Type 3 traits.
+3. The re-recorded albums, branded as "Taylor's Version," have been immensely successful, often outperforming the originals.
+
+This strategy showcases the Type 3's ability to turn setbacks into opportunities, always finding a way to come out on top.
+
+#### Strategic Partnerships
+
+Swift's approach to business partnerships further illustrates her Type 3 characteristics:
+
+1. **Record Label Negotiations:** In 2018, Swift signed with Republic Records and Universal Music Group, negotiating a deal that allowed her to own her master recordings going forward. This move demonstrates the Type 3's desire for control and recognition of their worth.
+
+2. **Brand Deals:** Swift is selective about her brand partnerships, choosing collaborations that align with her image. Partnerships with Apple Music, Capital One, and Diet Coke have been mutually beneficial, enhancing both her brand and her bank account. This selectivity reflects the Type 3's concern with maintaining a successful image.
+
+3. **Merchandise and Perfumes:** Swift has created her own line of perfumes and merchandise, extending her brand beyond music. This diversification shows the Type 3's drive to succeed in multiple areas and create additional streams of income and recognition.
+
+#### Tour Innovations
+
+Swift's approach to touring demonstrates both her business acumen and her Type 3 desire to be the best:
+
+1. **The Eras Tour Ticketing:** Despite the initial Ticketmaster controversy, the demand for Eras Tour tickets broke records, with the tour expected to gross over $1 billion. Swift's team implemented strategies to combat scalpers, including the Verified Fan program, showcasing her commitment to fan fairness while also maximizing revenue.
+
+2. **VIP Packages and Exclusive Merchandise:** Swift offers a range of VIP experiences and tour-specific merchandise, capitalizing on fans' desire for exclusive experiences and memorabilia. This strategy maximizes revenue while also creating special connections with fans, appealing to the Type 3's desire for both success and admiration.
+
+3. **Reputation Stadium Tour:** This tour became the highest-grossing U.S. tour in history at the time, demonstrating Swift's ability to turn even a controversial period in her career into a massive success - a quintessential Type 3 move.
+
+#### Social Media Mastery
+
+Swift's use of social media is a masterclass in brand management and fan engagement:
+
+1. **Direct Fan Interaction:** She regularly interacts with fans on platforms like Tumblr and Instagram, creating a sense of closeness that enhances fan loyalty. This approach satisfies the Type 3's need for admiration while also serving a clear business purpose.
+
+2. **Strategic Timing:** Swift is known for her carefully timed posts and content drops, building anticipation for new releases. This calculated approach to social media showcases the Type 3's strategic thinking and image management.
+
+3. **Easter Eggs and Fan Theories:** By planting clues and encouraging fan theories, Swift keeps her audience engaged between releases. This strategy not only maintains interest but also demonstrates the Type 3's love of being seen as clever and always one step ahead.
+
+#### Intellectual Property Protection
+
+Swift has been proactive in protecting her brand and intellectual property:
+
+1. She has trademarked key phrases from her lyrics, such as "This Sick Beat" and "Party Like It's 1989."
+2. Swift has pursued legal action against those who infringe on her copyrights or misuse her image.
+
+These actions demonstrate the Type 3's desire to protect their achievements and maintain control over their success and image.
+
+### Connecting with Fans: The Charismatic Achiever
+
+Swift's connection with her fans exemplifies the Type 3's charisma and adaptability. Her engagement strategies include:
+
+1. **Secret Sessions:** Pre-release album listening parties at her homes, creating an intimate experience for select fans.
+2. **Social Media Engagement:** Active presence on platforms like Tumblr and Instagram, personally interacting with fans.
+3. **Surprise Appearances:** Showing up at weddings, bridal showers, and hospitals, demonstrating personal investment in fans' lives.
+4. **Easter Eggs:** Hiding clues in lyrics, videos, and social media posts, encouraging fan theories and maintaining engagement between releases.
+5. **Personalized Experiences:** Sending gifts, writing personal notes, and even inviting fans to her home.
+
+These actions satisfy the Type 3's need for admiration while cultivating a loyal fanbase, crucial for sustained success in the music industry. Swift's fan engagement showcases her ability to balance her superstar status with a relatable persona, a key skill for Type 3 individuals.
+
+## Conclusion: The Multifaceted Achiever
+
+Taylor Swift's journey from country prodigy to global pop icon provides a glimpse into the mind of an Enneagram Type 3. Her relentless pursuit of success, ability to reinvent herself, resilience in the face of controversy, and meticulous attention to her craft and image all point to the core motivations of The Achiever.
+
+Understanding Swift through the lens of the Enneagram offers insight not just into her success, but into the complex inner workings of highly ambitious individuals. It reminds us that behind the polished exterior of success often lies a deeply rooted need for validation and a fear of worthlessness - driving forces that can lead to extraordinary achievements.
+
+If you're intrigued by this exploration of personality, we invite you to delve deeper into the world of the Enneagram. Explore our <a href="/questions">questions</a> to uncover more about your own personality type and gain insights into the complex tapestry of human motivation and behavior.
 
 > **Disclaimer** It's important to note that this analysis of Taylor Swift’s Enneagram type is speculative, relying on publicly available information, and may not definitively reflect her true personality type.
 

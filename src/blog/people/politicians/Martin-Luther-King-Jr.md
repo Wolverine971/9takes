@@ -41,7 +41,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">Martin Luther King Jr. - a name that echoes through history, synonymous with courage, justice, and unwavering determination.</p>
 
-But have you ever wondered what drove this extraordinary man? What inner fire fueled his relentless pursuit of equality? Let's delve into the mind of MLK and explore the fascinating personality that shaped a movement and changed the world.
+But have you ever wondered what drove this extraordinary man? What inner fire fueled his relentless pursuit of equality? Let's delve into the mind of MLK and explore the personality that shaped a movement and changed the world.
 
 ## What was Martin Luther King Jr.'s Personality Type?
 

@@ -50,7 +50,7 @@ Understanding her drive isn't merely about deciphering her actions or interpreti
 
 ## Unleashing the Type 8 Persona
 
-Of course, there are many dimensions to Beyoncé, and that's what makes her such a fascinating figure. But, a significant part of her magnetism, her ability to keep fans on the edge of their seats, emanates from her embodiment of the Type 8. This isn't about selling a product. This is about understanding an icon.
+A significant part of Beyonce's personality is her magnetism. She has the ability to keep fans on the edge of their seats. This isn't about selling a product. This is about understanding an icon.
 
 ## "Run the World (Girls)" – A Manifestation of Type 8
 

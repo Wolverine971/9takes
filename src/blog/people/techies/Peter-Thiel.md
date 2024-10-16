@@ -120,7 +120,7 @@ This episode highlights an often-overlooked aspect of Thiel's personality: his l
 
 ## The Loyalist's Complex Web of Relationships
 
-Peter Thiel's relationships offer a fascinating glimpse into his complex personality. His fallout with Elon Musk during the PayPal days, where Musk was ousted while on vacation, shows the ruthless side of Thiel's business acumen. Yet, paradoxically, Thiel maintains friendships with individuals who hold opposing political views, such as Reid Hoffman and Eric Weinstein.
+Peter Thiel's relationships offer a glimpse into his complex personality. His fallout with Elon Musk during the PayPal days, where Musk was ousted while on vacation, shows the ruthless side of Thiel's business acumen. Yet, paradoxically, Thiel maintains friendships with individuals who hold opposing political views, such as Reid Hoffman and Eric Weinstein.
 
 This ability to maintain relationships across ideological divides is a testament to the Type 6's capacity for nuanced thinking. It also reflects their desire to understand different perspectives, perhaps as a way of staying informed and secure in a complex world.
 
@@ -136,7 +136,7 @@ Understanding Peter Thiel through the Enneagram offers a new perspective on his 
 
 As we reflect on Peter Thiel's journey, we're invited to consider our own inner worlds. What drives us? What fears shape our decisions? And how can understanding our personality type help us navigate our path with greater self-awareness and purpose?
 
-The Enneagram offers a fascinating window into the human psyche. Whether you're a Type 6 like Peter Thiel or any other type, exploring this system can lead to profound insights about yourself and others.
+The Enneagram offers a window into the human psyche. Whether you're a Type 6 like Peter Thiel or any other type, exploring this system can lead to profound insights about yourself and others.
 
 Please comment below if this gave you insight into Peter's mind what it might reveal about your own psychology.
 

@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Marilyn Monroe's Enneagram type is speculative, based on publicly available information, and may not reflect Marilyn Monroe's personality type.
 
-<p class="firstLetter">You've seen her iconic image and felt the impact of her cultural legacy, but have you ever wondered what made Marilyn Monroe tick? Let's dive into the fascinating world of this legendary actress, exploring her through the lens of the Enneagram Type 6 - The Loyalist.</p>
+<p class="firstLetter">You've seen her iconic image and felt the impact of her cultural legacy, but have you ever wondered what made Marilyn Monroe tick? Let's dive into the world of this legendary actress, exploring her through the lens of the Enneagram Type 6 - The Loyalist.</p>
 
 ## What is Marilyn Monroe’s Personality Type?
 

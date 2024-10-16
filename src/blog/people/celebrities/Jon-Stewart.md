@@ -64,7 +64,7 @@ Jon Stewart, the former host of The Daily Show, has left an indelible mark on mo
 
 ## The Adventurer, The Enthusiast
 
-Enneagram type 7s are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly.
+[Enneagram Type 7s](/enneagram-corner/enneagram-type-7) are recognized as the enthusiasts, the adventurers, and the epicures of life, and Stewart fits this mold perfectly.
 
 He exemplifies the Type 7's playful energy and insatiable curiosity. Throughout his tenure on The Daily Show, his knack for exploring the lighter side of even the grimmest news stories was unparalleled.
 

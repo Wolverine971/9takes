@@ -47,7 +47,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 ## Desire to help and serve others
 
-Enneagram type 2 individuals have a strong desire to help and serve others.
+[Enneagram Type 2](/enneagram-corner/enneagram-type-2) individuals have a strong desire to help and serve others.
 
 Mr. Rogers dedicated his life to creating a safe and nurturing space for children through his television show, "Mister Rogers' Neighborhood." He often spoke about the importance of kindness and empathy, encouraging his viewers to be helpers and care for others.
 

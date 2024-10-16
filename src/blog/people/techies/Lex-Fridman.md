@@ -42,7 +42,9 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">AI researcher, podcaster, and promoter of love... but who is Lex Fridman really?</p>
 
-Ever wonder what goes on inside the head of the man who's interviewed everyone from Elon Musk to Joe Rogan? Lex Fridman, the soft-spoken podcast host with a penchant for black t-shirts and deep conversations, has captivated millions with his thoughtful questions and genuine curiosity. But what makes Lex tick? Let's dive into the inner workings of this fascinating figure and explore the personality that drives his relentless pursuit of knowledge.
+Ever wonder what goes on inside the head of the man who's interviewed everyone from Elon Musk to Joe Rogan? Lex Fridman, the soft-spoken podcast host with a penchant for black t-shirts and deep conversations, has captivated millions with his thoughtful questions and genuine curiosity. But what makes Lex tick?
+
+Let's dive into the inner workings of Lex's personality and see what drives his relentless pursuit of knowledge.
 
 ## What is Lex Fridman's Personality Type?
 

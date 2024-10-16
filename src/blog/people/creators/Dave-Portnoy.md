@@ -18,6 +18,8 @@ instagram: ''
 tiktok:
 ---
 
+<!-- update too much mention of type -->
+
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'

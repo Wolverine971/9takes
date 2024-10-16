@@ -191,7 +191,7 @@ The relationship between Harris and <a href="/personality-analysis/Joe-Biden">Pr
 
 Their partnership, while not without its challenges, demonstrates Harris's skill at playing a supporting role when necessary - a sometimes difficult task for achievement-oriented Type 3s who are used to being in the spotlight.
 
-Interestingly, Biden is often considered an Enneagram Type 2, known as "The Helper." This dynamic between a Type 3 and a Type 2 can be complementary, with Biden's desire to support and assist aligning well with Harris's drive to achieve and be recognized. However, it can also lead to potential conflicts, as Type 3s may sometimes perceive Type 2s as overly emotional or clingy, while Type 2s might view Type 3s as too focused on image and success.
+Interestingly, Biden is often considered an [Enneagram Type 2](/enneagram-corner/enneagram-type-2), known as "The Helper." This dynamic between a Type 3 and a Type 2 can be complementary, with Biden's desire to support and assist aligning well with Harris's drive to achieve and be recognized. However, it can also lead to potential conflicts, as Type 3s may sometimes perceive Type 2s as overly emotional or clingy, while Type 2s might view Type 3s as too focused on image and success.
 
 In public appearances, we often see this dynamic play out. Biden frequently praises Harris's accomplishments and capabilities, feeding into her Type 3 need for recognition. Meanwhile, Harris adapts her role to support Biden's agenda, showcasing her Type 3 flexibility. This interplay of personalities contributes to their effectiveness as a leadership team, despite occasional reported tensions.
 

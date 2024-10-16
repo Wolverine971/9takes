@@ -1129,3 +1129,30 @@ main {
 	border: 1px solid #833bff;
 	border-radius: 5px;
 }
+
+blockquote {
+	margin: 1.5em 0;
+	padding: 1em 1.5em;
+	border-left: 4px solid #833bff; // A subtle blue color, you can adjust this
+	background-color: #f8f9fa; // Light gray background
+	font-style: italic;
+	color: #2c3e50; // Dark gray text color
+	position: relative;
+
+	p {
+		margin: 0;
+		line-height: 1.6;
+	}
+
+	cite {
+		display: block;
+		margin-top: 1em;
+		font-size: 0.9em;
+		color: #7f8c8d; // Lighter gray for the citation
+		font-style: normal;
+
+		&::before {
+			content: '— ';
+		}
+	}
+}

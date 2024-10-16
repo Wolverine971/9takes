@@ -39,7 +39,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">You've seen him revolutionize personal computing, transform global philanthropy, and predict pandemics.</p>
 
-But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Here, we dive into the psyche of this tech titan and explore the fascinating inner workings of his mind through the lens of the Enneagram.
+But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Here, we dive into the psyche of this tech titan and explore the inner workings of his mind through the lens of the Enneagram.
 
 ## What is Bill Gates' Personality Type?
 
@@ -112,7 +112,7 @@ But what about you? How does understanding Gates through the lens of the Enneagr
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "You've seen him revolutionize personal computing, transform global philanthropy, and predict pandemics. But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Today, we dive deep into the psyche of this tech titan and explore the fascinating inner workings of his mind through the lens of the Enneagram. This article explores Bill Gates' personality from the perspective of the Enneagram Type 5, delving into his upbringing, rise to fame, major accomplishments, and how he has navigated challenges and controversies.",
+      "articleBody": "You've seen him revolutionize personal computing, transform global philanthropy, and predict pandemics. But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Today, we dive deep into the psyche of this tech titan and explore the inner workings of his mind through the lens of the Enneagram. This article explores Bill Gates' personality from the perspective of the Enneagram Type 5, delving into his upbringing, rise to fame, major accomplishments, and how he has navigated challenges and controversies.",
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

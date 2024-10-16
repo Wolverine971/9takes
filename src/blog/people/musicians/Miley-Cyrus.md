@@ -46,15 +46,15 @@ This means she is very individualistic, emotional, and always searching for her 
 
 Enneagram Type 4, also known as "The Individualist," is characterized by a deep desire to be unique and authentic. The core motivations of Type 4 include:
 
-1. To be understood and appreciated for their uniqueness
-2. To express themselves authentically
-3. To find meaning and significance in life
+- To be understood and appreciated for their uniqueness
+- To express themselves authentically
+- To find meaning and significance in life
 
 Their core fears include:
 
-1. Being ordinary or mundane
-2. Having no identity or personal significance
-3. Being abandoned or rejected for being themselves
+- Being ordinary or mundane
+- Having no identity or personal significance
+- Being abandoned or rejected for being themselves
 
 Miley Cyrus exemplifies these Type 4 traits in various aspects of her life and career. Her constant reinvention and bold self-expression reflect her desire to be unique and authentic. In interviews, Miley has often expressed feelings of being misunderstood, a common sentiment among Type 4s. For instance, she once said, **"People try to make everyone something. You can just start with being yourself."** This statement encapsulates the Type 4's struggle against conformity and their quest for authenticity.
 
@@ -66,26 +66,26 @@ Miley's music and lyrics are a window into her Type 4 personality. Her songs oft
 
 In "The Climb," one of her earlier hits, Miley sings:
 
-**"There's always gonna be another mountain
-I'm always gonna wanna make it move
-Always gonna be an uphill battle
-Sometimes I'm gonna have to lose"**
+> "There's always gonna be another mountain
+> I'm always gonna wanna make it move
+> Always gonna be an uphill battle
+> Sometimes I'm gonna have to lose"
 
 These lyrics reflect the Type 4's ongoing journey of self-discovery and their resilience in the face of challenges. The song embodies the Type 4's belief that struggle and hardship are necessary parts of life and personal growth.
 
 Her more recent work continues to showcase Type 4 themes. In "Midnight Sky," Miley declares:
 
-**"I was born to run, I don't belong to anyone, oh no
-I don't need to be loved by you"**
+> "I was born to run, I don't belong to anyone, oh no
+> I don't need to be loved by you"
 
 This lyric encapsulates the Type 4's desire for independence and authenticity, even at the cost of belonging. It's a bold statement of self-reliance and individuality.
 
 In "Mother's Daughter," Miley asserts:
 
-**"Don't fuck with my freedom
-I came back to get me some
-I'm nasty, I'm evil
-Must be something in the water or that I'm my mother's daughter"**
+> "Don't fuck with my freedom
+> I came back to get me some
+> I'm nasty, I'm evil
+> Must be something in the water or that I'm my mother's daughter"
 
 These lyrics showcase the Type 4's defiance against societal norms and their embrace of their perceived "darkness" or complexity. It's a celebration of the parts of oneself that others might reject or misunderstand.
 
@@ -141,10 +141,10 @@ This experience and Miley's response to it illuminate several key aspects of her
 
 In the aftermath of the fire, Miley reflected on the experience in her music. In her song "Slide Away," which many believe to be about her relationship with Liam Hemsworth, she sings:
 
-**"Once upon a time, it was paradise
-Once upon a time, I was paralyzed
-Think I'm gonna miss these harbor lights
-But it's time to let it go"**
+> "Once upon a time, it was paradise
+> Once upon a time, I was paralyzed
+> Think I'm gonna miss these harbor lights
+> But it's time to let it go"
 
 These lyrics encapsulate the Type 4's ability to find poetic beauty in loss and change. They reflect a deep emotional processing of the event and its impact on her life and relationships.
 

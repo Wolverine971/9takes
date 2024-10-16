@@ -128,7 +128,7 @@ Here's a glimpse into how each Enneagram type might perceive Kanye:
 
 As we explore Kanye West through the lens of the Enneagram Type 7, we get a deeper understanding of his motivations and actions. His grand ambitions, his desire to constantly evolve, his tendency to escape negativity, and his struggle with his mental health – all these aspects of his personality and behavior align with the typical characteristics of a Type 7.
 
-Kanye's life is a testament to the Enneagram philosophy's complexity, showing us how one's personality can simultaneously fuel brilliance and controversies. It's a reminder that our personalities, much like Kanye's music and life, are intricate compositions of multiple elements – ever-evolving and endlessly fascinating.
+Kanye's life is a testament to the Enneagram philosophy's complexity, showing us how one's personality can simultaneously fuel brilliance and controversies. It's a reminder that our personalities, much like Kanye's music and life, are intricate compositions of multiple elements – ever-evolving.
 
 How does this perspective of Kanye West enhance your understanding of him as an artist and a public figure? Does viewing Kanye through the Enneagram Type 7 lens give you a deeper insight into his motivations and actions?
 

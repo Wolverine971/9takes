@@ -119,7 +119,7 @@ The Enneagram's integration into Christian practice continues to evolve, offerin
 
 ## Sufism and the Enneagram's Origins
 
-The Enneagram's connection to Sufism, a mystical branch of Islam, is both fascinating and complex. While these links remain largely speculative, they offer intriguing insights into the Enneagram's possible origins and spiritual dimensions.
+The Enneagram's connection to Sufism, a mystical branch of Islam, is complex. While these links remain largely speculative, they offer intriguing insights into the Enneagram's possible origins and spiritual dimensions.
 
 - **Symbolic Similarities**: The nine-pointed Enneagram symbol bears a striking resemblance to certain Sufi diagrams. For instance, the Sufi Naqshbandi order uses a similar nine-pointed star in their spiritual practices, representing the nine levels of consciousness.
 - **Numerical Significance**: In Sufism, numbers hold deep symbolic meaning. The number nine, central to the Enneagram, is particularly significant in Sufi thought, often representing completeness or the qualities of the divine.
@@ -230,47 +230,47 @@ This synthesis is used to create personalized energy healing practices and to ga
 
 - **Type 1 (The Perfectionist)** - Root Chakra (Muladhara)
 
-    - Associated with stability, security, and groundedness
-    - Healing focus: Balancing perfectionism with self-acceptance
+  - Associated with stability, security, and groundedness
+  - Healing focus: Balancing perfectionism with self-acceptance
 
 - **Type 2 (The Helper)** - Heart Chakra (Anahata)
 
-    - Connected to love, compassion, and relationships
-    - Healing focus: Nurturing self-love alongside care for others
+  - Connected to love, compassion, and relationships
+  - Healing focus: Nurturing self-love alongside care for others
 
 - **Type 3 (The Achiever)** - Solar Plexus Chakra (Manipura)
 
-    - Linked to personal power, confidence, and self-esteem
-    - Healing focus: Balancing achievement with authentic self-expression
+  - Linked to personal power, confidence, and self-esteem
+  - Healing focus: Balancing achievement with authentic self-expression
 
 - **Type 4 (The Individualist)** - Heart Chakra (Anahata)
 
-    - Associated with emotions, creativity, and self-expression
-    - Healing focus: Integrating emotions with a sense of inner wholeness
+  - Associated with emotions, creativity, and self-expression
+  - Healing focus: Integrating emotions with a sense of inner wholeness
 
 - **Type 5 (The Investigator)** - Third Eye Chakra (Ajna)
 
-    - Connected to intuition, insight, and mental clarity
-    - Healing focus: Balancing intellectual pursuits with emotional connection
+  - Connected to intuition, insight, and mental clarity
+  - Healing focus: Balancing intellectual pursuits with emotional connection
 
 - **Type 6 (The Loyalist)** - Root Chakra (Muladhara)
 
-    - Linked to safety, security, and trust
-    - Healing focus: Cultivating inner security and faith in oneself
+  - Linked to safety, security, and trust
+  - Healing focus: Cultivating inner security and faith in oneself
 
 - **Type 7 (The Enthusiast)** - Crown Chakra (Sahasrara)
 
-    - Associated with spiritual connection, joy, and possibility
-    - Healing focus: Grounding excitement in present moment awareness
+  - Associated with spiritual connection, joy, and possibility
+  - Healing focus: Grounding excitement in present moment awareness
 
 - **Type 8 (The Challenger)** - Solar Plexus Chakra (Manipura)
 
-    - Connected to personal power, assertiveness, and vitality
-    - Healing focus: Balancing strength with vulnerability and compassion
+  - Connected to personal power, assertiveness, and vitality
+  - Healing focus: Balancing strength with vulnerability and compassion
 
 - **Type 9 (The Peacemaker)** - Sacral Chakra (Svadhisthana)
-    - Linked to creativity, emotions, and harmonious relationships
-    - Healing focus: Awakening personal desires and assertiveness
+  - Linked to creativity, emotions, and harmonious relationships
+  - Healing focus: Awakening personal desires and assertiveness
 
 Energy Healing Practices:
 

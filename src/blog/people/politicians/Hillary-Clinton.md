@@ -157,7 +157,7 @@ Understanding Hillary through the Enneagram offers a new perspective on her moti
 
 As we reflect on Hillary Clinton's journey, we're invited to consider our own inner worlds. What drives us? What ideals do we hold dear? And how can understanding our personality type help us navigate our path with greater self-awareness and compassion?
 
-The Enneagram offers a fascinating window into the human psyche. Whether you're a Type 1 like Hillary or any other type, exploring this system can lead to profound insights about yourself and others. So, are you ready to dive deeper into the Enneagram and uncover the mysteries of your own personality?
+The Enneagram offers a window into the human psyche. Whether you're a Type 1 like Hillary or any other type, exploring this system can lead to profound insights about yourself and others. So, are you ready to dive deeper into the Enneagram and uncover the mysteries of your own personality?
 
 <svelte:head>
 

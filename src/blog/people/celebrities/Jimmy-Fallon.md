@@ -57,7 +57,7 @@ Jimmy Fallon, the renowned comedian, actor, and television host, has become a ho
 
 ## Unveiling the Enigmatic Persona of Jimmy
 
-Jimmy Fallon, a magnetic force in the world of entertainment, has captivated audiences worldwide with his wit, humor, and infectious energy. As we peel back the layers of his personality, we discover a myriad of traits that align closely with the characteristics of an Enneagram type 7.
+Jimmy Fallon, a magnetic force in the world of entertainment, has captivated audiences worldwide with his wit, humor, and infectious energy. As we peel back the layers of his personality, we discover a myriad of traits that align closely with the characteristics of an [Enneagram Type 7](/enneagram-corner/enneagram-type-7).
 
 Enneagram type 7, also known as "The Enthusiast," is characterized by a zest for life, an insatiable curiosity, and a drive to experience everything the world has to offer. They possess an infectious enthusiasm and an uncanny ability to bring joy to those around them. Let's dive into Jimmy Fallon's life and uncover the reasons why he might embody this Enneagram type.
 

@@ -50,7 +50,7 @@ Let's dive into the mind of this extraordinary Type 2 personality and uncover th
 
 Growing up in rural Mississippi, young Oprah faced adversities that would shape her empathetic worldview. Raised by her grandmother until age six, she learned the value of education and the power of words early on.
 
-"**I was raised to believe that excellence is the best deterrent to racism and sexism,**" Oprah once shared. This mindset, typical of a driven Type 2, propelled her forward despite the obstacles in her path.
+"**I was raised to believe that excellence is the best deterrent to racism and sexism,**" Oprah once shared. This mindset, typical of a driven [Type 2](/enneagram-corner/enneagram-type-2), propelled her forward despite the obstacles in her path.
 
 But it wasn't all smooth sailing. Oprah's childhood was marred by poverty and abuse, experiences that could have broken a less resilient spirit. Instead, they fueled her desire to connect with and uplift others – a classic Type 2 trait.
 
