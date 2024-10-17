@@ -23,8 +23,12 @@
 <svelte:window bind:innerWidth />
 
 <div class="about-container">
-	<h1>A place of Questions for the Enneagram obsessed</h1>
-	<p>And a place for people to explore their differences and find common ground.</p>
+	<h1
+		style="background-color: black; color: white; border-radius: 8px; padding: .5rem; text-align: center;"
+	>
+		<span style="color: #833bff ">9takes</span> is the place for people to ask questions and get different
+		takes
+	</h1>
 
 	<section class="profile-section">
 		<h2>My name is DJ</h2>
@@ -40,20 +44,20 @@
 				<div class="profile-image">
 					<picture>
 						<source
-							srcset="/brand/dj-lazer-eyes.webp, /brand/s-dj-lazer-eyes.webp"
+							srcset="/brand/pixelDJ.png, /brand/pixelDJ-lazer.png"
 							media="(orientation: portrait)"
 						/>
 						<img
-							src={showLaser ? '/brand/dj-lazer-eyes.webp' : '/brand/s-dj-profile-pic.webp'}
+							src={showLaser ? '/brand/pixelDJ-lazer.png' : '/brand/pixelDJ.png'}
 							alt={showLaser ? 'DJ Wayne fun profile picture' : 'DJ Wayne serious profile picture'}
 						/>
 					</picture>
 				</div>
 				<div class="profile-info">
-					<p>I am obsessed with the Enneagram and am tired of social media feeling fake.</p>
+					<p>I am Enneagram obsessed and I think social media could be better.</p>
 					<p>
-						I have a tech background and am building a platform where people can explore their
-						differences and find common ground.
+						Gotta a tech background and am building 9takes to be the place for us to explore our
+						similarities and differences.
 					</p>
 					<a
 						class="twitter-link"
@@ -69,8 +73,7 @@
 	</section>
 
 	<section class="views-goals">
-		<h2>Views and Goals</h2>
-		<h3>Why social media sucks:</h3>
+		<h2>3 Problems and the Solutions</h2>
 		<ul>
 			<li>
 				<strong>Social media isn't living up to what it was supposed to be.</strong>
