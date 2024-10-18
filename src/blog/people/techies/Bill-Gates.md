@@ -37,6 +37,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
+> "I really had a lot of dreams when I was a kid, and I think a great deal of that grew out of the fact that I had a chance to read a lot."
+
 <p class="firstLetter">You've seen him revolutionize personal computing, transform global philanthropy, and predict pandemics.</p>
 
 But have you ever wondered what drives the relentless curiosity and analytical prowess of Bill Gates? Here, we dive into the psyche of this tech titan and explore the inner workings of his mind through the lens of the Enneagram.

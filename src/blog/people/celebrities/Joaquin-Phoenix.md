@@ -48,6 +48,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Joaquin Phoenix's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Joaquin Phoenix.
 
+> "I don't know why I always get to play these guys who have few redeeming features. But don't knock it. Villains are much more fun."
+
 <p class="firstLetter"></p>
 
 <svelte:head>

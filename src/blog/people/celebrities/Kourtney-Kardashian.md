@@ -40,7 +40,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
+> "I want to be a good person and I want to be a good mother. I want to be the best I can be."
 
 <p class="firstLetter">You've seen her on TV, in the tabloids, and across social media platforms. Kourtney Kardashian, the oldest sibling in the Kardashian-Jenner clan, is more than a reality TV star. Today, we dive deeper into Kourtney's persona, suggesting her as an illustrative example of Enneagram Type 1 - The Perfectionist.</p>
 
@@ -117,6 +117,8 @@ Kourtney is on a quest for perfection. She has a strong moral compass, and her p
 Does this exploration of Kourtney enhance your understanding of her as a public figure? Does seeing Kourtney through the lens of the Enneagram Type 1 give you a deeper insight into her motivations and actions? In a world quick to judge, perhaps there's merit in understanding public figures not just through their actions but also through their personality types.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Kourtney Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kourtney.
 
 <svelte:head>
 

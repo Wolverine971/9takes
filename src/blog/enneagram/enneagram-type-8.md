@@ -346,9 +346,9 @@ The childhood experiences of Enneagram Type 8 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
-    - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+  - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
 
 - **Typical Behaviors:** As children, Type 8s often emerged as natural leaders, taking charge in group settings and showing a fearlessness in challenging authority figures. They might have been labeled as "troublemakers" or "strong-willed" by adults.
 
@@ -405,22 +405,22 @@ Enneagram Type 8 individuals bring a unique dynamic to their relationships, char
    - While capable of deep feelings, Type 8s may struggle to express softer emotions.
    - Partners often need to understand that the 8's actions, rather than words, may be their primary way of showing love.
 
-Tips for Successful Relationships with Type 8s:
+### Tips for Successful Relationships with Type 8s:
 
-1. Communicate openly and honestly, avoiding manipulation or passive-aggressiveness.
-2. Respect their need for independence while also expressing your own needs clearly.
-3. Stand your ground when necessary; 8s respect partners who can match their strength.
-4. Encourage and appreciate moments of vulnerability, creating a safe space for emotional expression.
-5. Engage in activities that allow the 8 to protect or provide for you in some way, fulfilling their need to be strong.
-6. Be patient in drawing out their softer side, understanding that trust takes time to build with an 8.
+- Communicate openly and honestly, avoiding manipulation or passive-aggressiveness.
+- Respect their need for independence while also expressing your own needs clearly.
+- Stand your ground when necessary; 8s respect partners who can match their strength.
+- Encourage and appreciate moments of vulnerability, creating a safe space for emotional expression.
+- Engage in activities that allow the 8 to protect or provide for you in some way, fulfilling their need to be strong.
+- Be patient in drawing out their softer side, understanding that trust takes time to build with an 8.
 
-For Type 8s in relationships:
+### For Type 8s in relationships:
 
-1. Practice expressing your feelings verbally, not just through actions.
-2. Work on compromising and sharing control in decision-making.
-3. Allow yourself to be vulnerable with your partner, recognizing that this strengthens rather than weakens the relationship.
-4. Be mindful of your intensity and how it might impact your partner.
-5. Actively listen to your partner's needs and perspectives, even when they differ from your own.
+- Practice expressing your feelings verbally, not just through actions.
+- Work on compromising and sharing control in decision-making.
+- Allow yourself to be vulnerable with your partner, recognizing that this strengthens rather than weakens the relationship.
+- Be mindful of your intensity and how it might impact your partner.
+- Actively listen to your partner's needs and perspectives, even when they differ from your own.
 
 Understanding and working with these dynamics can lead to deep, fulfilling relationships for Type 8s, where both partners feel respected, protected, and emotionally connected.
 
@@ -482,21 +482,21 @@ Type 8s bring a powerful and dynamic presence to the workplace, often excelling 
 10. **Results-Oriented:**
     - Type 8s are focused on achieving tangible results and can be impatient with processes they see as inefficient.
 
-Strategies for Type 8s in the Workplace:
+### Strategies for Type 8s in the Workplace:
 
-1. Channel your intensity into productive outcomes, being mindful of how your energy affects others.
-2. Practice active listening to ensure you're considering all perspectives before making decisions.
-3. Develop your ability to delegate, trusting others to handle responsibilities.
-4. Work on expressing appreciation and recognition for your team's efforts.
-5. Seek out mentors or coaches who can provide honest feedback on your leadership style.
+- Channel your intensity into productive outcomes, being mindful of how your energy affects others.
+- Practice active listening to ensure you're considering all perspectives before making decisions.
+- Develop your ability to delegate, trusting others to handle responsibilities
+- Work on expressing appreciation and recognition for your team's efforts.
+- Seek out mentors or coaches who can provide honest feedback on your leadership style.
 
-Tips for Working with Type 8s:
+### Tips for Working with Type 8s:
 
-1. Be direct and honest in your communication; they respect straightforwardness.
-2. Stand your ground when necessary, backing up your position with logic and facts.
-3. Provide them with challenges and opportunities to take on significant responsibilities.
-4. Respect their need for autonomy and avoid micromanaging.
-5. Recognize and appreciate their contributions and protective nature towards the team.
+- Be direct and honest in your communication; they respect straightforwardness.
+- Stand your ground when necessary, backing up your position with logic and facts.
+- Provide them with challenges and opportunities to take on significant responsibilities.
+- Respect their need for autonomy and avoid micromanaging.
+- Recognize and appreciate their contributions and protective nature towards the team.
 
 By leveraging their strengths and addressing their challenges, Type 8s can become powerful forces for positive change in the workplace, driving results while fostering a culture of strength and fairness.
 

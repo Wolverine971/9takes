@@ -39,7 +39,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
+> "Your life is meant for you to understand and process, not to make anyone else happy."
 
 <p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials.</p>
 
@@ -104,6 +104,8 @@ Khloé Kardashian’s personality becomes more nuanced when viewed through the l
 What does this perspective reveal about Khloé Kardashian beyond the glittering façade of reality TV? Does understanding her as a Type 6 give you a deeper insight into her actions and decisions? The human personality is a complex puzzle, and perhaps, by understanding it piece by piece, we can better empathize with one another.
 
 Curious about the personalities of other famous individuals? Interested in seeing them through the lens of the Enneagram? Dive deeper, explore more, and join 9takes below ⬇️. The decision is yours but there is so much more to explore. 🚀
+
+> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
 
 <svelte:head>
 

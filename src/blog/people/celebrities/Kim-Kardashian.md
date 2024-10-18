@@ -58,7 +58,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kim.
+> "I have the ability to turn nothing into something. I can take a small idea and turn it into a huge business."
 
 <p class="firstLetter">You know her. The social media mogul, the beauty entrepreneur, and—perhaps surprisingly to some—the budding lawyer.</p>
 
@@ -137,6 +137,8 @@ From her drive to achieve, the controversies she's faced, and her ongoing balanc
 It is important to note that people are complex. This analysis is one lens through which to view Kim, and it does not encapsulate her entirety. Does this portrayal of Kim shift your understanding of her as a public figure and entrepreneur? Does seeing Kardashian through the lens of an Enneagram Type 3 give you a deeper insight into her actions and motivations?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Kim Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kim.
 
 <svelte:head>
 

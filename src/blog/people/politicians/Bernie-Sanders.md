@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
+> "I don't believe in charities. I believe that government should take increased responsibility for helping the disadvantaged."
 
 <p class="firstLetter">You've seen his arms crossed, heard his grouchy voice, and very likely formed an opinion about him.</p>
 
@@ -69,6 +69,8 @@ Now that we’ve explored the evidence, it seems quite plausible that Sanders do
 However, personalities are complex, and individuals cannot always be neatly sorted into categories. How does this perspective of Sanders enhance your understanding of him as a politician and public figure? Does seeing Sanders through the lens of the Enneagram Type 9 give you a deeper understanding of his motivations and actions?
 
 In an ever-polarizing world, perhaps there is value in understanding our leaders not just through their policy but also through their personality type. If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Bernie Sanders's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Bernie Sanders.
 
 <svelte:head>
 </svelte:head>

@@ -38,6 +38,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
+> "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."
+
 > "I tend not to be a mean person, you know, if I get lazy, then I get mad at myself"
 
 <p class="firstLetter">Barack Obama, the 44th president of the United States, is an Enneagram Type 9, "The Peacemaker"</p>

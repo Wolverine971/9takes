@@ -53,7 +53,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of President Joe Biden's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of President Biden.
+> "I've been knocked down a lot. And I've learned you can't stay down. You've got to get up."
 
 <p class="firstLetter">Joe Biden, with his trademark aviators and reassuring smile, is more than just the 46th President of the United States.</p>
 
@@ -130,6 +130,8 @@ Joe Biden's journey from Scranton to the White House is a testament to the power
 As we've seen, understanding Biden through the lens of the Enneagram offers fascinating insights into his motivations, strengths, and challenges. But here's a question to ponder: How might recognizing these personality traits in ourselves and others change the way we approach our relationships and our roles in society?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of President Joe Biden's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of President Biden.
 
 <svelte:head>
 

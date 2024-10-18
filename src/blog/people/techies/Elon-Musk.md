@@ -182,7 +182,7 @@ In interviews, Elon often speaks about visualizing complex systems in his head. 
 
 Elon's romantic life has been as eventful as his business ventures. Married three times (twice to the same woman) and father to ten children, his relationships often seem to follow a pattern of intense connection followed by sudden separation.
 
-Talulah Riley, Elon's second (and third) wife, once said, **"I remember him saying, 'I would rather stick a fork in my hand than write about my emotions.'"** This struggle with emotional expression is typical of Type 5s, who often feel more comfortable in the realm of ideas than feelings.
+During Elon's messy divorce with Talulah Riley, Elon's quoted as saying, **"Given the choice, I'd rather stick a fork in my hand than write about my personal life."** This struggle with emotional expression is typical of Type 5s, who often feel more comfortable in the realm of ideas than feelings.
 
 ### Grimes: A Creative Collision
 

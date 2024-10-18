@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Michelle Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Michelle Obama.
+> "When they go low, we go high."
 
 <p class="firstLetter">Michelle Obama is a lawyer, writer, and former First Lady of the United States. Her personality traits are indicative of an Enneagram type 1, also known as the Perfectionist.</p>
 
@@ -59,6 +59,8 @@ Another characteristic of Enneagram type 1 individuals is their organization and
 ## Perfectionist tendencies
 
 Enneagram type 1 individuals often struggle with perfectionist tendencies and a fear of making mistakes. Michelle has spoken about the pressure she felt as a public figure and the constant scrutiny she faced. However, she has also acknowledged the importance of resilience and learning from failures.
+
+> **Disclaimer** This analysis of Michelle Obama's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Michelle Obama.
 
 Check out this blog for an analysis of <a href="/personality-analysis/Barack-Obama">Barack</a> and read this to for a look into <a class="external-link" target="_blank" rel="noopener" href="https://www.truity.com/blog/what-obamas-can-teach-us-about-type-1type-9-enneagram-couple">Michelle and Barack's relationship.</a>
 

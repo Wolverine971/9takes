@@ -37,7 +37,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Meghan Markle's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Meghan Markle.
+> "Women don't need to find their voice. They need to feel empowered to use it and people need to be encouraged to listen."
 
 <p class="firstLetter">Meghan Markle, Duchess of Sussex, has captivated global audiences since her engagement to Prince Harry</p>
 
@@ -72,6 +72,8 @@ Meghan does have a warm smile and has the ability to make you feel like the best
 <div class="iframe-container">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Lb_yl4rOEVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+> **Disclaimer** This analysis of Meghan Markle's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Meghan Markle.
 
 - Check out this blog for more on <a href="/enneagram-corner/enneagram-type-2">Enneagram type 2s</a>
 - Check out this blog for an analysis of <a href="/personality-analysis/Prince-Harry">Prince Harry.</a>

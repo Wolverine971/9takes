@@ -63,7 +63,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Sydney Sweeney's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sydney.
+> "I'm very proud of my work ethic. I think that's what's gotten me to where I am."
 
 <p class="firstLetter">You've seen her captivating performances, felt the depth of her emotions on screen, and likely been drawn into the complex characters she portrays.</p>
 
@@ -172,6 +172,8 @@ With a bright future ahead, Sydney Sweeney continues to take on new challenges a
 Does this insight into Sweeney's Enneagram type change the way you view her as an actress and a public figure? Can understanding the motivations and fears behind her actions foster a greater sense of empathy and appreciation for the challenges she faces in the spotlight?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Sydney Sweeney's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Sydney.
 
 <svelte:head>
 

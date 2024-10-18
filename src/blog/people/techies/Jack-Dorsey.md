@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Jack Dorsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jack Dorsey.
+<!-- > "Make every detail perfect and limit the number of details to perfect." enneagram 1? -->
 
 <p class="firstLetter">You've heard of Jack Dorsey - co-founder of Twitter and Square, tech mogul, and beacon of Silicon Valley. </p>
 
@@ -162,6 +162,8 @@ To provide a broader perspective, let's examine how individuals of each Enneagra
 So, is Jack Dorsey truly a Type 5 Investigator? We can only speculate. But through this lens, we gain deeper empathy and understanding for the man behind the tech.
 
 And now, a question for you: What drives the personalities behind your favorite icons? And what drives you?
+
+> **Disclaimer** This analysis of Jack Dorsey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jack Dorsey.
 
 <svelte:head>
 

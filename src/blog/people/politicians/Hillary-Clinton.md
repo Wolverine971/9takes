@@ -47,7 +47,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Hillary Clinton's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Hillary.
+> "I suppose I could have stayed home and baked cookies and had teas, but what I decided to do was to fulfill my profession."
 
 <p class="firstLetter">Hillary Clinton: a name that evokes strong reactions across the political spectrum.</p>
 
@@ -158,6 +158,8 @@ Understanding Hillary through the Enneagram offers a new perspective on her moti
 As we reflect on Hillary Clinton's journey, we're invited to consider our own inner worlds. What drives us? What ideals do we hold dear? And how can understanding our personality type help us navigate our path with greater self-awareness and compassion?
 
 The Enneagram offers a window into the human psyche. Whether you're a Type 1 like Hillary or any other type, exploring this system can lead to profound insights about yourself and others. So, are you ready to dive deeper into the Enneagram and uncover the mysteries of your own personality?
+
+> **Disclaimer** This analysis of Hillary Clinton's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Hillary.
 
 <svelte:head>
 

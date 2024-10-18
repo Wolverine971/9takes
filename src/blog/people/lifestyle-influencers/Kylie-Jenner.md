@@ -40,7 +40,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kylie.
+> "I just want to be myself and do what makes me happy."
 
 <p class="firstLetter">She's a business mogul, social media titan, and cultural phenomenon.</p>
 
@@ -116,6 +116,8 @@ Does this perspective of Kylie enhance your understanding of her as a businesswo
 With the world as her stage, Kylie's persona will continue to evolve, as will our understanding of it. Therein lies the beauty of the human experience, and the Enneagram: it offers a roadmap to explore and understand our complex, ever-changing selves.
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Kylie Jenner's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Kylie.
 
 <svelte:head>
 

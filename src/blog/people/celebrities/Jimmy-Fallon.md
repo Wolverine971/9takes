@@ -49,7 +49,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Jimmy Fallon's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jimmy Fallon.
+> "Don't keep your dreams in your eyes, they may fall as tears. Keep them in your heart so that every heartbeat may remind you to convert them into reality."
 
 <p class="firstLetter">You've seen him, heard him, and shared in his contagious laughter.</p>
 
@@ -104,3 +104,5 @@ He has an ability to create joy, laughter, and a sense of connection has firmly 
 How does this perspective on Jimmy Fallon enhance your understanding of his career and public persona? Does it provide a window into his inner motivations and aspirations?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+
+> **Disclaimer** This analysis of Jimmy Fallon's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jimmy Fallon.

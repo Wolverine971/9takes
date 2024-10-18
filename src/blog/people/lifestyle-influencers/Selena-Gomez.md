@@ -40,11 +40,11 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter"></p>
 
-# Selena Gomez: The Peacemaker's Journey to Self-Discovery - An Enneagram Type 9 Analysis
+> "I'm surrounded by people who are supposed to guide me, and some of them have and others haven't. They pressure me. There's so much pressure. You've gotta be sexy, you've gotta be cute, you've gotta be nice, you've gotta be all these things."
 
-> "I don't want people to see me as just sad and hurt. I experienced something real, and that part of me is over." - Selena Gomez
+> "I don't want people to see me as just sad and hurt. I experienced something real, and that part of me is over."
 
-> "I'm not different from what I put out there. I've been very vulnerable with my fans, and sometimes I say things I shouldn't. But I have to be honest with them. I feel that's a huge part of why I'm where I am." - Selena Gomez
+> "I'm not different from what I put out there. I've been very vulnerable with my fans, and sometimes I say things I shouldn't. But I have to be honest with them. I feel that's a huge part of why I'm where I am."
 
 These quotes reflect the essence of Selena Gomez's personality, revealing a desire for authenticity, peace, and harmony. Let's explore how Selena embodies the characteristics of an Enneagram Type 9, "The Peacemaker."
 
