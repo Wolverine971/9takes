@@ -114,7 +114,7 @@
 <svelte:window bind:innerWidth />
 
 <main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-	<div class="section-wrapper">
+	<div class="section-wrapper mainDiv">
 		{#if sectionsVisible[0]}
 			<section class="hero py-12 md:py-24" in:fly={getTransition(0)}>
 				<div class="hero-content flex flex-col items-center justify-between gap-8 md:flex-row">
@@ -319,6 +319,13 @@
 		--card-background: #ffffff;
 		--shadow-color: rgba(0, 0, 0, 0.1);
 		--primary-dark: #1a202c;
+	}
+
+	.mainDiv {
+		min-height: 90vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.highlight {
