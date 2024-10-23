@@ -116,8 +116,6 @@
 			const { tocHtml, tocStructure } = generateTableOfContents(content);
 			toc = tocHtml;
 			jsonLd = generateJsonLd(tocStructure, pageUrl);
-			console.log('Table of contents updated:', toc);
-			console.log('JSON-LD generated:', jsonLd);
 		}
 	}
 

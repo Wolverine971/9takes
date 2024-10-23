@@ -15,6 +15,7 @@ pic: 'greek-statue-flex'
 ---
 
 <script>
+	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 </script>
 
 <p class="firstLetter">Every Enneagram type wants to be seen in a certain light.</p>

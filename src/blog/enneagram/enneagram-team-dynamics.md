@@ -115,7 +115,7 @@ Embracing the Enneagram could be your team's catalyst to transform potential int
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram can play a crucial role in improving communication among team members. By understanding different types' communication styles and preferences, team members can better tailor their messages to avoid misunderstandings."
+            "text": "The Enneagram can play a crucial role in improving communication among team members. By understanding different types communication styles and preferences, team members can better tailor their messages to avoid misunderstandings."
           },
           "name": "How can the Enneagram improve team communication?"
         },

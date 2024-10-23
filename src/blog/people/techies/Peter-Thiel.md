@@ -44,7 +44,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
  -->
 
-> **Disclaimer** This analysis of Peter Thiel's Enneagram type is speculative, based on publicly available information, and may not reflect Peter's actual personality type.
+> After 9/11 Peter put a parachute in his office. - Joe Lonsdale
 
  <p class="firstLetter">Peter Thiel, a name synonymous with contrarian thinking, innovation, and tech entrepreneurship.</p>
 
@@ -138,7 +138,7 @@ As we reflect on Peter Thiel's journey, we're invited to consider our own inner 
 
 The Enneagram offers a window into the human psyche. Whether you're a Type 6 like Peter Thiel or any other type, exploring this system can lead to profound insights about yourself and others.
 
-Please comment below if this gave you insight into Peter's mind what it might reveal about your own psychology.
+> **Disclaimer** This analysis of Peter Thiel's Enneagram type is speculative, based on publicly available information, and may not reflect Peter's actual personality type.
 
 <svelte:head>
 

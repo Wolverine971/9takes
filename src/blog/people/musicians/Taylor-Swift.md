@@ -106,7 +106,7 @@ This inner drive is evident in Swift's meticulous approach to her craft. Her son
 
 ### Navigating Controversy: The Resilient Achiever
 
-Swift's ability to weather controversies further exemplifies her Type 3 nature. Public disputes, such as those with [Kanye West](/personality-analysis/Kanye) and [Kim Kardashian](personality-analysis/Kim-Kardashian), have been transformed into fuel for her art. Her 2017 album "Reputation" directly addressed public criticism, showcasing the Type 3's adaptability and commitment to controlling their narrative.
+Swift's ability to weather controversies further exemplifies her Type 3 nature. Public disputes, such as those with [Kanye West](/personality-analysis/Kanye) and [Kim Kardashian](/personality-analysis/Kim-Kardashian), have been transformed into fuel for her art. Her 2017 album "Reputation" directly addressed public criticism, showcasing the Type 3's adaptability and commitment to controlling their narrative.
 
 This resilience is captured in Swift's own words: "**If you're upset by something I've said, or if you're threatened by something I've said, that's not my problem. That's your problem.**" This quote encapsulates the Type 3's focus on self-image and their ability to deflect criticism to maintain their sense of worth.
 

@@ -14,13 +14,69 @@ blog: true
 
 <script>
     import FamousTypes from "$lib/components/molecules/FamousTypes.svelte";
+    import WordCloud from "$lib/components/molecules/WordCloud.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 </script>
 
 <!-- have been trying to get stronger and control
  their core is driven by a profound sense of justice and loyalty, making them natural leaders in various spheres of life -->
 
-<p class="firstLetter">Enneagram Type 8s are known as "The Challengers" and embody assertiveness and self-confidence.</p>
+<p class="firstLetter">Enneagram Type 8s are classic rugged individuals.</p>
+
+<!-- <WordCloud words={[
+{ text: 'SvelteKit', value: 10 },
+{ text: 'Tailwind', value: 8 },
+{ text: 'WordCloud', value: 6 },
+{ text: 'Component', value: 5 },
+{ text: 'JavaScript', value: 4 },
+{ text: 'TypeScript', value: 4 },
+{ text: 'CSS', value: 3 },
+{ text: 'HTML', value: 3 },
+{ text: 'SvqweeelteKit', value: 10 },
+{ text: 'Tsdfsdailwind', value: 8 },
+{ text: 'xcx', value: 6 },
+{ text: 'bvnvb', value: 5 },
+{ text: 'uyut', value: 4 },
+{ text: 'tty', value: 4 },
+{ text: 'CSrrS', value: 3 },
+{ text: 'HTvcxvxcML', value: 3 },
+{ text: 'SvdfsdfelteKit', value: 10 },
+{ text: 'Tailfgdfwind', value: 8 },
+{ text: 'dfg', value: 6 },
+{ text: 'dfg', value: 5 },
+{ text: 'dfgd', value: 4 },
+{ text: 'TypedfgScript', value: 4 },
+{ text: 'CSdfgS', value: 3 },
+{ text: 'dfgdfg', value: 3 },
+{ text: "physics", value: 120 },
+{ text: "energy", value: 85 },
+{ text: "matter", value: 90 },
+{ text: "science", value: 70 },
+{ text: "speed", value: 45 },
+{ text: "velocity", value: 30 },
+{ text: "time", value: 35 },
+{ text: "distance", value: 35 },
+{ text: "acceleration", value: 20 },
+{ text: "mechanics", value: 20 },
+]} /> -->
+
+### Saying that they live by:
+
+- Have a plan to kill everyone you meet
+- Life is survival of the fittest
+- I will sleep when I am dead
+- Can't stop won't stop
+
+### What is obvious
+
+### What is non obvious
+
+### Beliefs
+
+### Values
+
+<!-- the type of people who are very aware of power dynamics.
+ -->
 
 They are the archetypal rugged individuals, direct in their approach and are often perceived as domineering. They have a profound need for control and when stressed their go-to coping mechanism is to control the situation. This strategy that has served them well since childhood.
 
