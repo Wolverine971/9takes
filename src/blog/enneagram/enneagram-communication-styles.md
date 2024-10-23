@@ -43,6 +43,7 @@ Different:
 This blog aims to capture the unique ways of communication each Enneagram type prefers, so you can better understand the people around you and improve your relationships.
 
  <article class="section-content">
+
 ## Enneagram Type 1 - The Perfectionist: Communicating with Precision
 
 <p>Ones value order, organization, and structure. They strive to live according to their principles and beliefs and can be critical of themselves and others when they fall short.</p>
@@ -103,6 +104,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 2 - The Helper: Empathetic Communication
 
 <p>Twos value relationships and are generous, caring, and nurturing. They have a strong desire to be needed and appreciated by others.</p>
@@ -162,6 +164,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 3 - The Achiever: Confident Communication for Success
 
 <p>Threes value success, achievement, and recognition. They are ambitious, confident, and driven.</p>
@@ -225,6 +228,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </div>
 
  <article class="section-content">
+
 ## Enneagram Type 4 - The Individualist: Authentic Expression in Communication
 
 <p>Fours value creativity, authenticity, and individuality. They have a strong desire to express themselves and their emotions.</p>
@@ -284,6 +288,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 5 - The Investigator: Analytical Communication for Clarity
 
 <p>Fives value knowledge, expertise, and independence. They are analytical, logical, and private.</p>
@@ -343,6 +348,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 6 - The Loyalist: Cautious Communication for Trust-Building
 
 <p>Sixes value security, loyalty, and trust. They are responsible, committed, and skeptical.</p>
@@ -402,6 +408,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 7 - The Enthusiast: Engaging Communication for Inspiration
 
 <p>Sevens value excitement, novelty, and adventure. They are optimistic, spontaneous, and curious.</p>
@@ -461,6 +468,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 8 - The Challenger: Assertive Communication for Impact
 
 <p>Eights value strength, power, and control. They are assertive, direct, and confident.</p>
@@ -520,6 +528,7 @@ This blog aims to capture the unique ways of communication each Enneagram type p
 </article>
 
  <article class="section-content">
+
 ## Enneagram Type 9 - The Peacemaker: Harmonious Communication for Unity
 
 <p>Nines value harmony, peace, and cooperation. They are easygoing, agreeable, and diplomatic.</p>
