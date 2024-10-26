@@ -3,7 +3,7 @@
 </script>
 
 {#if type === '1'}
-	<h1>Enneagram Type 1: The Perfectionist</h1>
+	<h1>Enneagram Type 1 Description</h1>
 
 	<p>
 		Type 1 individuals are principled, responsible, and driven by a strong sense of right and wrong.
@@ -49,7 +49,7 @@
 {/if}
 
 {#if type === '2'}
-	<h1>Enneagram Type 2: The Helper</h1>
+	<h1>Enneagram Type 2 Description</h1>
 
 	<p>
 		Type 2s are caring, empathetic, and driven by a desire to be loved and appreciated. They excel
@@ -92,7 +92,7 @@
 	</p>
 {/if}
 {#if type === '3'}
-	<h1>Enneagram Type 3: The Achiever</h1>
+	<h1>Enneagram Type 3 Description</h1>
 	<p>
 		Type 3 individuals are ambitious, driven, and highly focused on success. They adapt easily to
 		different roles and situations, using their charisma and competence to excel in their chosen
@@ -138,7 +138,7 @@
 	</p>
 {/if}
 {#if type === '4'}
-	<h1>Enneagram Type 4: The Individualist</h1>
+	<h1>Enneagram Type 4 Description</h1>
 	<p>
 		Type 4s are introspective, creative, and deeply in touch with their emotions. They seek
 		authenticity and meaning, often feeling like they are fundamentally different from others.
@@ -184,7 +184,7 @@
 	</p>
 {/if}
 {#if type === '5'}
-	<h1>Enneagram Type 5: The Investigator</h1>
+	<h1>Enneagram Type 5 Description</h1>
 
 	<p>
 		Type 5 individuals are intellectual, analytical, and driven by a thirst for knowledge. They are
@@ -230,7 +230,7 @@
 	</p>
 {/if}
 {#if type === '6'}
-	<h1>Enneagram Type 6: The Loyalist</h1>
+	<h1>Enneagram Type 6 Description</h1>
 	<p>
 		Type 6s are reliable, responsible, and driven by a need for security and belonging. They are
 		loyal to their beliefs and those they trust, often serving as the backbone of their communities.
@@ -276,7 +276,7 @@
 {/if}
 
 {#if type === '7'}
-	<h1>Enneagram Type 7: The Enthusiast</h1>
+	<h1>Enneagram Type 7 Description</h1>
 
 	<p>
 		Type 7 individuals are adventurous, optimistic, and always seeking new experiences. They have a
@@ -324,7 +324,7 @@
 	</p>
 {/if}
 {#if type === '8'}
-	<h1>Enneagram Type 8: The Challenger</h1>
+	<h1>Enneagram Type 8 Description</h1>
 
 	<p>
 		Type 8s are powerful, assertive, and driven by a need to be in control. They are natural leaders
@@ -371,7 +371,7 @@
 	</p>
 {/if}
 {#if type === '9'}
-	<h1>Enneagram Type 9: The Peacemaker</h1>
+	<h1>Enneagram Type 9 Description</h1>
 
 	<p>
 		Type 9 individuals are easygoing, agreeable, and driven by a desire for peace and harmony. They

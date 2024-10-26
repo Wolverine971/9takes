@@ -1,8 +1,13 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Disallow: /register
+Disallow: /login
+Disallow: /users
 Disallow: /register/
 Disallow: /login/
 Disallow: /users/
+Disallow: /questions/categories/
+Disallow: /questions/categories
 Allow: /
 
 Sitemap: https://9takes.com/sitemap.xml
