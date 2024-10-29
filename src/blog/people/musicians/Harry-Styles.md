@@ -48,14 +48,15 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > **Disclaimer** This analysis of Harry Styles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Harry Styles.
 
-<p class="firstLetter"></p>
-# Harry Styles: The Helper's Heart in the Spotlight
+<!-- # Harry Styles: The Helper's Heart in the Spotlight -->
 
 > "Treat people with kindness." - Harry Styles
 
 > "I feel like the fans have almost as much control over the situation as I do. I feel like we're all in it together." - Harry Styles
 
-These quotes offer a glimpse into the heart of Harry Styles, revealing a personality driven by a desire to connect, support, and spread love. Let's explore how Harry embodies the characteristics of an Enneagram Type 2, "The Helper," and what this means for both his public persona and his inner world.
+<p class="firstLetter">These quotes offer a glimpse into the heart of Harry Styles, revealing a personality driven by a desire to connect, support, and spread love.</p>
+
+Let's explore how Harry embodies the characteristics of an Enneagram Type 2, "The Helper," and what this means for both his public persona and his inner world.
 
 ## The Golden Boy's Giving Heart: Harry's Type 2 Essence
 
