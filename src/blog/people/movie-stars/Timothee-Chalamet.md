@@ -55,7 +55,7 @@ Behind those soulful eyes and that tousled hair lies a complex personality - one
 
 ## What is Timothée Chalamet's Personality Type?
 
-### Timothée Chalamet: The Loyal Skeptic (Enneagram Type 6)
+### Timothée is the "Loyal Skeptic" aka an Enneagram Type 6
 
 Enneagram Type 6, also known as ["The Loyalist" or "The Skeptic,"](/enneagram-corner/enneagram-type-6) is characterized by a constant inner dialogue of doubt and reassurance. These individuals are known for their loyalty, responsibility, and ability to troubleshoot potential problems. They're often driven by a deep-seated need for security and support, which can manifest as both anxiety and courage in the face of challenges.
 

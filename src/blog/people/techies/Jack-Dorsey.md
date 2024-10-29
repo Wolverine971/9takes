@@ -58,11 +58,11 @@ But have you ever wondered about the driving force behind his persona? Let's div
 
 ## What is Jack Dorsey's personality type?
 
-### Enneagram Type 5 - The Investigator
+### Jack is the "investigator" aka the Enneagram type 5
 
 Type 5s are characterized by a profound thirst for knowledge.
 
-They have a tendency to isolate themselves retreat into their inner world. They prefer to escape to the intellecutal realm often in solitude. And from an early age they develop an ability to concentrate and focus. They are commonly noted as being observant, innovative, and often visionary.
+They have a tendency to isolate themselves retreat into their inner world. They prefer to escape to the intellectual realm often in solitude. And from an early age they develop an ability to concentrate and focus. They are commonly noted as being observant, innovative, and often visionary.
 Sounds familiar?
 
 ## Here is why Jack Dorsey might be a Type 5

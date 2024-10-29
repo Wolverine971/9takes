@@ -45,7 +45,7 @@ But have you ever wondered what drove this extraordinary man? What inner fire fu
 
 ## What was Martin Luther King Jr.'s Personality Type?
 
-### MLK: The Challenger with a Dream
+### MLK is the "challenger" aka the Enneagram type 8
 
 Martin Luther King Jr. embodied the essence of an [Enneagram Type 8, known as "The Challenger."](/enneagram-corner/enneagram-type-8)
 

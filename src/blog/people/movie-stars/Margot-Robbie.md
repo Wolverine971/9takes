@@ -64,11 +64,9 @@ Margot Robbie, the versatile actress from Australia, is a force to be reckoned w
 
 ## What is Margot Robbie's Personality Type?
 
-### Margot Robbie: A True Enneagram type 8
+### Margot is the "challenger" aka the Enneagram Type 8
 
-Type 8 is known as The Challenger.
-
-This type is characterized by its inherent desire to protect themselves and those around them, assertive nature, and ability to make powerful impacts. They are natural leaders, bold, passionate, practical, and often have a formidable presence. They tend to exhibit an intense energy that commands attention and respect.
+The Challenger is characterized by its inherent desire to protect themselves and those around them, assertive nature, and ability to make powerful impacts. They are natural leaders, bold, passionate, practical, and often have a formidable presence. They tend to exhibit an intense energy that commands attention and respect.
 
 #### Unraveling the Enneagram 8 in Margot Robbie
 

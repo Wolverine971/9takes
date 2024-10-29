@@ -49,7 +49,7 @@ This iconic songwriter, whose lyrics have been etched into the collective consci
 
 ## What is Bob Dylan's Personality Type?
 
-### Bob Dylan: The Quintessential Enneagram Type 4
+### Bob Dylan is the "individualist" aka the Enneagram Type 4
 
 Bob Dylan embodies the essence of an Enneagram Type 4, often called "The Individualist." Type 4s are known for their deep emotional capacity, their quest for authenticity, and their ability to transform personal pain into universal art. They're the romantic idealists, the melancholic dreamers, the artists who find beauty in the shadows.
 

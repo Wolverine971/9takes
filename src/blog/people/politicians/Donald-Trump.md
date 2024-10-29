@@ -75,9 +75,9 @@ But what lies beneath this brash exterior? Get ready to peek behind the golden c
 
 ## What is Donald Trump's Enneagram Type?
 
-### Donald Trump: The Type 8 Challenger
+### Donald Trump is the "Challenger" aka an Enneagram Type 8
 
-Donald Trump embodies the archetype of the [Enneagram Type 8](/enneagram-corner/enneagram-type-8), known as "The Challenger." Type 8s are often described as powerful, dominating, self-confident, and confrontational. Sound familiar?
+[Type 8s](/enneagram-corner/enneagram-type-8) are often described as powerful, dominating, self-confident, and confrontational. Sound familiar?
 
 Trump's larger-than-life persona perfectly aligns with these traits. His need to assert control is evident in his business dealings, his political career, and even his personal relationships. As he once famously said, "I like thinking big. If you're going to be thinking anything, you might as well think big."
 

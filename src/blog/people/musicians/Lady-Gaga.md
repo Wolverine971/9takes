@@ -38,17 +38,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Lady Gaga's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
-
 <p class="firstLetter">Little monsters, gather 'round, here we dive into the psyche of Mother Monster, Lady Gaga.</p>
 
 You might think you know her from her chart-topping hits and jaw-dropping performances, but there's so much more beneath the surface. Let's explore the fascinating personality that drives the creative genius we all adore. Buckle up, because understanding Gaga through the lens of the Enneagram might just change how you see yourself too.
 
 ## What is Lady Gaga's Personality Type?
 
-### Lady Gaga is an Enneagram Type 4
+### Lady Gaga is the "Individualist" aka the Enneagram Type 4
 
-Enneagram Type 4s, known as "The Individualist," are creative, sensitive, and expressive. They're driven by a desire to be unique and to find their personal significance. Sound familiar? That's our Gaga to a T!
+Individualists are creative, sensitive, and expressive.
+
+They're driven by a desire to be unique and to find their personal significance. Sound familiar? That's our Gaga to a T!
 
 Type 4s often feel different from others, like they're missing something essential that everyone else seems to have. This feeling can lead to a deep-seated melancholy, but it's also the wellspring of their incredible creativity. They're introspective, often diving deep into their emotions to create art that resonates on a profound level.
 
@@ -115,6 +115,8 @@ Lady Gaga embodies the creativity, sensitivity, and authenticity of the Enneagra
 So, little monsters, what aspects of Gaga's personality resonate with you? And how might understanding the Enneagram help you embrace your own uniqueness?
 
 If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+
+> **Disclaimer** This analysis of Lady Gaga's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Lady Gaga.
 
 <svelte:head>
 

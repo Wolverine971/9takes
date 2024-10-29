@@ -58,7 +58,7 @@ But do you understand the person behind the name? Today, we dive into the depths
 
 ## What is Rooney Mara's Personality Type?
 
-### Rooney Mara is an Enneagram Type 5
+### Rooney Mara is an "investigator" aka an Enneagram Type 5
 
 [Enneagram Type 5s](/enneagram-corner/enneagram-type-5), known as The Investigators, are driven by a deep desire to understand the world around them. They are analytical, perceptive, and often detached, preferring to observe rather than engage. Type 5s fear being overwhelmed by the demands of the world, leading them to retreat into the safety of their minds.
 

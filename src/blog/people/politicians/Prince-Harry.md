@@ -46,9 +46,9 @@ Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. 
 
 ## What is Prince Harry's Personality Type?
 
-### Prince Harry: An Enneagram Type 6
+### Prince Harry is the 'loyal skeptic' aka the Enneagram Type 6
 
-The Enneagram Type 6, often known as "The Loyalist," is characterized by a complex blend of commitment, security-seeking, and an acute sense of anxiety. Type 6 individuals are the vigilant guardians of their world, constantly scanning for potential hazards yet yearning for stability and trust in their relationships.
+"Loyal skeptics" are characterized by a complex blend of commitment, security-seeking, and an acute sense of anxiety. Type 6 individuals are the vigilant guardians of their world, constantly scanning for potential hazards yet yearning for stability and trust in their relationships.
 
 ## A Royal Under the Microscope: The Six's Struggle for Security
 

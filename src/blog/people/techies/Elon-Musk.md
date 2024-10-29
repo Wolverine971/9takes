@@ -85,7 +85,7 @@ But what makes Elon Musk tick? Today, we're peeling back the layers of the enigm
 </div>
 </details>
 
-## The Core of Type 5: Fear, Motivation, and Childhood Wounds
+## Elon's Core personality defined: Fears, Motivations, and Childhood Wounds
 
 ### The Investigator's Inner World
 

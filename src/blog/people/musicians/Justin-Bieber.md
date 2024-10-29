@@ -46,7 +46,7 @@ Justin Bieber, a global superstar and music sensation, has left a lasting imprin
 
 ## What is Justin Bieber's Personality Type?
 
-### The Charismatic Achiever: Understanding Enneagram Type 3
+### Justin is the "Achiever" aka the Enneagram Type 3
 
 Type 3s are known for their charisma, ambition, and focus on accomplishment.
 

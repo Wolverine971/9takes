@@ -4,7 +4,7 @@ description: "Explore how Peter Thiel's Enneagram Type 6 personality drives his 
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/Peter-Thiel'
-lastmod: '2024-09-12'
+lastmod: '2024-10-28'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -46,15 +46,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 > After 9/11 Peter put a parachute in his office. - Joe Lonsdale
 
- <p class="firstLetter">Peter Thiel, a name synonymous with contrarian thinking, innovation, and tech entrepreneurship.</p>
+ <p class="firstLetter">Peter Thiel, the billionaire tech mogul known for his contrarian bets and provocative worldview, is a fascinating study in the Enneagram Type 6 personality.</p>
 
-Beneath the headlines and billion-dollar investments lies a complex man driven by a profound need for security and a wariness of who to trust. Here we dive into the psyche of this influential figure through the lens of the Enneagram, exploring how his [Type 6 personality](/enneagram-corner/enneagram-type-6) has shaped his life, career, and worldview.
+Beneath the headline-grabbing investments and controversial political stances lies a complex man driven by a profound need for security and a wariness of who to trust. Join us as we decode the mind of this Silicon Valley titan through the Enneagram lens.
+
+Beneath the headlines and billion-dollar investments lies a complex man driven by a profound need for security and a wariness of who to trust. Here we dive into the psyche of this influential figure through the lens of the Enneagram, exploring how his
 
 ## The Essence of Enneagram Type 6: The Loyalist
 
-At the core of every Type 6 is a deep-seated need for security and a constant vigilance against potential threats.
+**At the core of every Type 6 is a deep-seated need for safety and a vigilance against potential threats.** This likely stems from childhood experiences that taught 6s to be careful about who to trust.
 
-Sometime in their childhood 6s learned that they need to be careful about who to trust. Perhaps they were betrayed or maybe they needed help and were let down, whatever the case 6s learned the lesson that they need to be wary of others. From that seed they have grown to be question everything and everyone in an attempt to find the security and safety they long for.
+Sometime in their childhood <a href="/enneagram-corner/enneagram-type-6">Enneagram Type 6s</a> learned that they need to be careful about who to trust. Perhaps they were betrayed or maybe they needed help and were let down, whatever the case 6s learned the lesson that they need to be wary of others. From that seed they have grown to be question everything and everyone in an attempt to find the security and safety they long for.
 
 Peter was born in Germany and his family emigrated to the US and lived in Cleveland Ohio when he was 1. They then moved to South Africa and South West Africa where in Peter change schools 7 times.
 
@@ -171,7 +173,7 @@ The Enneagram offers a window into the human psyche. Whether you're a Type 6 lik
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2024-09-12"
+        "@value": "2024-10-28"
       },
       "datePublished": {
         "@type": "Date",

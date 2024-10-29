@@ -62,7 +62,7 @@ Elton John, the iconic Pinner, Middlesex musician, has enchanted audiences for d
 
 ## What is Elton John's Personality Type?
 
-### Enneagram Type 4: The Individualist
+### Elton is the "individualist" aka the Enneagram Type 4
 
 Type 4s are often known for their intense emotional experience and a profound longing for uniqueness.
 

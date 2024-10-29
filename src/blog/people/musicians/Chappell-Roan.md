@@ -57,9 +57,9 @@ She's a small-town girl with big dreams, an advocate for self-expression, and a 
 
 ## What is Chappell Roan's Personality Type?
 
-### Chappell Roan: The Enthusiastic Explorer (Enneagram Type 7)
+### Chappell is the "explorer" aka the Enneagram Type 7
 
-Chappell Roan embodies the spirit of an [Enneagram Type 7 - The Enthusiast](/enneagram-corner/enneagram-type-7). These vibrant souls are known for their insatiable curiosity, boundless energy, and ability to find joy in every corner of life. But Chappell isn't your typical Type 7 - her journey from Willard, Missouri to the glittering stages of pop stardom has shaped her into a unique version of this personality type.
+"Explorers" are vibrant souls and are known for their insatiable curiosity, boundless energy, and ability to find joy in every corner of life. But Chappell isn't your typical [Type 7](/enneagram-corner/enneagram-type-7)- her journey from Willard, Missouri to the glittering stages of pop stardom has shaped her into a unique version of this personality type.
 
 Type 7s are often described as adventurers, always seeking new experiences and running from pain or boredom. For Chappell, this manifests in her ever-evolving musical style and visual aesthetics. From the moody pop of her early days to the flamboyant, queer-affirming anthems of her recent work, Chappell's artistic journey is a testament to her Type 7 need for variety and stimulation.
 

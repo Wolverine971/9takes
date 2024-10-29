@@ -49,7 +49,7 @@ But if you peel back the layers, you'll discover an inner world that challenges 
 
 ## What is Paris Hilton's Personality Type?
 
-### Paris Hilton is an Enneagram Type 3 - The Achiever
+### Paris Hilton is the "achiever" aka the Enneagram Type 3
 
 [Enneagram Type 3s](/enneagram-corner/enneagram-type-3) are often described as the "successful achievers" of the Enneagram system.
 
