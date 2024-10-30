@@ -2,9 +2,9 @@
 title: 'Olivia Rodrigo: Embracing the Helper in an Enneagram Type 2'
 description: 'Explore how Olivia Rodrigo embodies the traits of an Enneagram Type 2, delving into her journey from childhood to stardom and her profound connection with others.'
 author: 'DJ Wayne'
-date: '2024-07-12'
+date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Olivia-Rodrigo'
-lastmod: '2024-07-12'
+lastmod: '2024-10-30'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -192,8 +192,8 @@ Feeling intrigued by the dynamics of personality? Dive into our [questions](/que
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-07-12",
-      "datePublished": "2024-07-12",
+      "dateModified": "2024-10-30",
+      "datePublished": "2024-10-30",
       "description": "Explore how Olivia Rodrigo embodies the traits of an Enneagram Type 2, delving into her journey from childhood to stardom and her profound connection with others.",
       "headline": "Olivia Rodrigo: Embracing the Helper in an Enneagram Type 2",
       "image": {

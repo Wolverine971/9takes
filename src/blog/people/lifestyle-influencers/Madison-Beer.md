@@ -2,16 +2,16 @@
 title: 'Madison Beer: Embracing Authenticity as an Enneagram Type 4 Individualist'
 description: "Explore how Madison Beer's pursuit of authenticity and emotional depth reflects her Enneagram Type 4 personality, shaping her journey from YouTube sensation to rising pop star."
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2024-10-30'
 loc: 'https://9takes.com/personality-analysis/Madison-Beer'
-lastmod: '2023-03-26'
+lastmod: '2024-10-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['lifestyleInfluencer']
 person: 'Madison-Beer'
-suggestions: ['Billie Eilish', 'Halsey']
+suggestions: ['Billie Eilish', 'Halsey', 'David Dobrik']
 keywords:
   [
     'Madison Beer personality type',
@@ -169,8 +169,8 @@ Feeling inspired to explore your own personality? Dive into our [questions](/que
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-03-26",
-      "datePublished": "2023-03-09",
+      "dateModified": "2024-10-30",
+      "datePublished": "2024-10-30",
       "description": "Explore how Madison Beer's pursuit of authenticity and emotional depth reflects her Enneagram Type 4 personality, shaping her journey from YouTube sensation to rising pop star.",
       "headline": "Madison Beer: Embracing Authenticity as an Enneagram Type 4 Individualist",
       "image": {
