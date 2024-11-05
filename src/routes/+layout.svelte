@@ -111,20 +111,24 @@
 <Header {data} />
 
 <Toast />
+
 {#if $page.url.pathname !== '/' && !$page.url.pathname.includes('/categories')}
 	<BackNavigation />
 {/if}
 {#if $page.url.pathname.includes('/categories')}
 	<CategoryNavigation categoryStructure={parents} />
 {/if}
+
 <main
-	class="main {!maxWidthPages.includes($page.url.pathname) ? 'column-width' : 'column'} {$page.url
-		.pathname !== '/signup'
-		? 'pos-rel'
+	class="main {$page.url.pathname !== '/signup' ? 'pos-rel' : ''} {!maxWidthPages.includes(
+		$page.url.pathname
+	)
+		? 'column-width'
 		: ''}"
 >
 	<slot />
 </main>
+
 <Footer />
 
 <style lang="scss">
@@ -137,7 +141,7 @@
 	.main {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		justify-content: flex-start;
 		min-height: calc(100vh - 60px);
 		padding: 1rem;
 		overflow: visible;

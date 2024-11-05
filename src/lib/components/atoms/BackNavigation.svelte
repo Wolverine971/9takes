@@ -67,6 +67,7 @@
 	.breadcrumb-container {
 		max-width: 64rem;
 		margin: auto;
+		padding: 0 2rem;
 	}
 
 	.back-nav {
@@ -91,12 +92,14 @@
 
 	@media (max-width: 500px) {
 		.back-nav {
-			border-top: 1px solid var(--color-paladin-3);
 			border-bottom: 1px solid var(--color-paladin-3);
 			padding: 0.5rem;
-			margin: 1rem;
+			margin: 0 0 0 1rem;
 			height: 3rem;
 			width: 90%;
+		}
+		.breadcrumb-container {
+			padding: 0;
 		}
 
 		.marquee-text {

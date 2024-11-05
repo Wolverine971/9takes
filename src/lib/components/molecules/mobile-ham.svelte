@@ -1,339 +1,227 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-
 	import { page } from '$app/stores';
 
-	let active = false;
-	let dropdownActive = false;
+	let isMenuOpen = false;
+	let isDropdownOpen = false;
+
+	// Close the menu when navigating to a new page
+	$: $page.url && (isMenuOpen = false);
+
+	function toggleMenu() {
+		isMenuOpen = !isMenuOpen;
+		const modal = getModal('mobile-nav');
+		if (isMenuOpen) {
+			modal.open();
+		} else {
+			modal.close();
+		}
+	}
+
+	function closeMenu() {
+		isMenuOpen = false;
+		getModal('mobile-nav').close();
+	}
 </script>
 
-<div style="position: relative; z-index: 11;">
-	{#if !active}
-		<button
-			class="hamburger flex-center menu-trigger"
-			aria-label="Toggle navigation"
-			on:click={() => {
-				getModal('mobile-nav').open();
-			}}
-		>
-			<i class="menu-trigger-bar top" />
-			<i class="menu-trigger-bar middle" />
-			<i class="menu-trigger-bar bottom" />
-			<!-- </span> -->
-		</button>
-	{:else}
-		<button
-			class="hamburger flex-center close-trigger"
-			aria-label="Toggle navigation"
-			on:click={() => {
-				getModal('mobile-nav').close();
-			}}
-		>
-			<i class="close-trigger-bar left" />
-			<i class="close-trigger-bar right" />
+<div class="mobile-header">
+	<button
+		class="hamburger"
+		aria-label="Toggle navigation"
+		on:click={toggleMenu}
+		aria-expanded={isMenuOpen}
+	>
+		{#if !isMenuOpen}
+			<span class="hamburger-lines">
+				<span class="line"></span>
+				<span class="line"></span>
+				<span class="line"></span>
+			</span>
+		{:else}
+			<span class="close-icon">&times;</span>
+		{/if}
+	</button>
+</div>
 
-			<!-- </span> -->
-		</button>
-	{/if}
-
-	<Modal2 id="mobile-nav">
-		<nav class="mobile-nav" aria-label="Main Navigation">
-			<ul class="menu">
-				<li>
-					<a
-						href={$page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/'}
-						class={$page.url.pathname === '/' ? 'active-link' : ''}>Home</a
-					>
-				</li>
-				<li>
-					<a
-						href={'/questions'}
-						class={$page.url.pathname.startsWith('/questions') ? 'active-link' : ''}
-						>Question List</a
-					>
-				</li>
-				<li>
-					<button
-						title="see blogs"
-						type="button"
-						on:click={() => {
-							dropdownActive = !dropdownActive;
-						}}
-						class="blog-dropdown"
-						aria-haspopup="true"
-						aria-expanded={dropdownActive ? 'true' : 'false'}
-					>
-						<div
-							class="nav-element {$page.url.pathname.startsWith('/blog') ? 'active-link' : ''}"
-							style="text-align: start"
-						>
-							Blogs
-						</div>
-					</button>
-
-					<ul class="dropdown {dropdownActive ? 'is-active' : ''}">
-						<li style="display: inline-flex;">
-							<a href="/community" class="a-wrap">
-								<div
-									class={$page.url.pathname === '/community' ? 'active-link' : ''}
-									style="text-align: start"
-								>
-									The Takes of 9takes
-								</div>
+<Modal2 id="mobile-nav" on:close={closeMenu}>
+	<nav class="mobile-nav" aria-label="Main Navigation">
+		<ul class="menu">
+			<li>
+				<a href="/" class:active-link={$page.url.pathname === '/'}>Home</a>
+			</li>
+			<li>
+				<a href="/questions" class:active-link={$page.url.pathname.startsWith('/questions')}>
+					Question List
+				</a>
+			</li>
+			<li>
+				<button
+					type="button"
+					class="dropdown-button"
+					aria-haspopup="true"
+					aria-expanded={isDropdownOpen}
+					on:click={() => (isDropdownOpen = !isDropdownOpen)}
+				>
+					Blogs
+				</button>
+				{#if isDropdownOpen}
+					<ul class="dropdown-menu">
+						<li>
+							<a href="/community" class:active-link={$page.url.pathname === '/community'}>
+								The Takes of 9takes
 							</a>
 						</li>
-						<li style="display: inline-flex;">
-							<a href="/enneagram-corner" class="a-wrap">
-								<div
-									class={$page.url.pathname === '/enneagram-corner' ? 'active-link' : ''}
-									style="text-align: start;"
-								>
-									Enneagram Corner
-								</div>
+						<li>
+							<a
+								href="/enneagram-corner"
+								class:active-link={$page.url.pathname === '/enneagram-corner'}
+							>
+								Enneagram Corner
 							</a>
 						</li>
-						<li style="display: inline-flex;">
-							<a href="/personality-analysis" class="a-wrap">
-								<div
-									class={$page.url.pathname === '/personality-analysis' ? 'active-link' : ''}
-									style="text-align: start"
-								>
-									Personality Analysis
-								</div>
+						<li>
+							<a
+								href="/personality-analysis"
+								class:active-link={$page.url.pathname === '/personality-analysis'}
+							>
+								Personality Analysis
 							</a>
 						</li>
-
-						<li style="display: inline-flex;">
-							<a href="/how-to-guides" class="a-wrap">
-								<div
-									class={$page.url.pathname === '/how-to-guides' ? 'active-link' : ''}
-									style="text-align: start;"
-								>
-									How to Guides
-								</div>
+						<li>
+							<a href="/how-to-guides" class:active-link={$page.url.pathname === '/how-to-guides'}>
+								How to Guides
 							</a>
 						</li>
 					</ul>
-				</li>
-				<li>
-					<a href="/about" class={$page.url.pathname === '/about' ? 'active-link' : ''}>About</a>
-				</li>
-			</ul>
-		</nav>
-	</Modal2>
-</div>
+				{/if}
+			</li>
+			<li>
+				<a href="/about" class:active-link={$page.url.pathname === '/about'}>About</a>
+			</li>
+		</ul>
+	</nav>
+</Modal2>
 
 <style lang="scss">
-	$hover: all 0.2s ease-in;
-	$slide: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
-	$slide-delay: all 0.4s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-	$slide-slow: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-
-	@mixin css3-prefix($property, $value) {
-		-webkit-#{$property}: #{$value};
-		-khtml-#{$property}: #{$value};
-		-moz-#{$property}: #{$value};
-		-ms-#{$property}: #{$value};
-		-o-#{$property}: #{$value};
-		#{$property}: #{$value};
-	}
-	// TRANSFORM
-	@mixin transform($params) {
-		@include css3-prefix('transform', $params);
-	}
-	/* Add your CSS styles here */
-	.hamburger {
-		margin: 1rem;
-		width: 50px;
-		height: 50px;
-		background-color: transparent;
-		border: none;
-		cursor: pointer;
-		padding: 0;
-		transition: transform 0.3s ease;
-	}
-
-	.hamburger-line {
-		width: 24px;
-		height: 2px;
-		background-color: #000;
-		margin-bottom: 4px;
-		transition: background-color 0.3s ease;
-	}
-
-	// .menu {
-	// 	list-style: none;
-	// 	margin: 0;
-	// 	padding: 0;
-	// }
-
-	.menu li {
-		margin-bottom: 10px;
-	}
-
-	.menu a {
-		// text-decoration: none;
-		// color: #000;
-		font-size: 2rem;
-		line-height: 1.5;
-	}
-
-	/* .hamburger.active .hamburger-line {
-  background-color: #fff;
-} */
-
-	.mobile-nav.active {
-		display: -webkit-box;
-	}
-
-	.menu-trigger-bar {
-		display: block;
-		width: 100%;
-		height: 4px;
-		background-color: var(--color-paladin-3);
-		margin-bottom: 6px;
-		transform: rotate(-45deg);
+	.mobile-header {
 		position: relative;
-		transition: $slide;
+		z-index: 11;
 
-		&:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			display: block;
-			width: 0%;
-			height: 100%;
-			background-color: var(--color-paladin-3);
-			transition: $slide;
-		}
+		.hamburger {
+			background: none;
+			border: none;
+			cursor: pointer;
+			padding: 1rem;
+			display: flex;
+			align-items: center;
 
-		&.top {
-			width: 50%;
-			align-self: flex-start;
-		}
-		&.middle {
-			// &:before {
-			// left: auto;
-			// right: 0;
-			align-self: center;
-			// }
-		}
-		&.bottom {
-			width: 50%;
-			// margin-left: 50%;
-			align-self: flex-end;
-		}
-	}
+			&:focus {
+				outline: none;
+			}
 
-	.menu-trigger,
-	.close-trigger {
-		// position: absolute;
-		// top: 32px;
-		// right: 20px;
-		// display: block;
-		width: 42px;
-		height: 42px;
-		cursor: pointer;
-		z-index: 333;
+			.hamburger-lines {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 18px;
 
-		&:hover {
-			.menu-trigger-bar {
-				&:before {
-					width: 100%;
+				.line {
+					width: 25px;
+					height: 2px;
+					background-color: #333;
 				}
 			}
 
-			.close-trigger-bar {
-				&:before {
-					width: 100%;
-				}
+			.close-icon {
+				font-size: 2rem;
+				line-height: 1;
+				color: #333;
 			}
 		}
 	}
 
-	.close-trigger-bar {
-		display: block;
-		width: 100%;
-		height: 4px;
-		background-color: var(--color-paladin-3);
-		position: relative;
-		transition: $slide;
+	.mobile-nav {
+		padding: 2rem 1rem;
 
-		&:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			display: block;
-			width: 0%;
-			height: 100%;
-			background-color: var(--color-paladin-3);
-			transition: $slide;
-		}
-
-		&.left {
-			transform: rotate(-45deg);
-		}
-		&.right {
-			transform: rotate(45deg);
-			top: -3px;
-		}
-	}
-
-	.blog-dropdown {
-		margin: 0;
-		padding: 0;
-		cursor: pointer;
-		position: relative;
-		text-decoration: none;
-		max-width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		font-size: 2rem;
-		line-height: 1.5;
-		color: var(--primary);
-		height: auto;
-		border: none;
-		// transition: all 1.2s ease-in-out;
-
-		ul {
-			position: relative;
-			padding-left: 0.5rem;
-			max-height: 0;
-			transform: scaleY(0);
-			transform-origin: top;
-			transition: transform 0.3s ease;
+		.menu {
+			list-style: none;
+			padding: 0;
+			margin: 0;
 
 			li {
-				list-style-type: none;
-				a {
+				margin-bottom: 1rem;
+
+				a,
+				.dropdown-button {
+					font-size: 1.5rem;
 					text-decoration: none;
-					font-size: 1.7rem;
-					line-height: 1;
+					color: #333;
+					background: none;
+					border: none;
+					padding: 0;
+					cursor: pointer;
+					text-align: left;
+
+					&:hover,
+					&.active-link {
+						color: #833bff;
+					}
+				}
+
+				.dropdown-button {
+					display: flex;
+					align-items: center;
+
+					&:after {
+						content: '';
+						margin-left: auto;
+						width: 0;
+						height: 0;
+						border-left: 5px solid transparent;
+						border-right: 5px solid transparent;
+						border-top: 5px solid #333;
+						transition: transform 0.3s;
+					}
+
+					&[aria-expanded='true']:after {
+						transform: rotate(180deg);
+					}
+				}
+
+				.dropdown-menu {
+					list-style: none;
+					padding-left: 1rem;
+					margin-top: 0.5rem;
+
+					li {
+						margin-bottom: 0.5rem;
+
+						a {
+							font-size: 1.3rem;
+							color: #555;
+
+							&:hover,
+							&.active-link {
+								color: #833bff;
+							}
+						}
+					}
 				}
 			}
 		}
 	}
-	.blog-dropdown:after {
-		transition: none;
-		box-shadow: none;
-	}
 
-	.dropdown {
-		display: none;
-	}
+	/* Modal styles */
+	:global(.modal) {
+		background-color: rgba(0, 0, 0, 0.5);
 
-	.is-active {
-		display: flex !important;
-		flex-direction: column;
-		align-items: flex-start;
-		justify-content: center;
-		height: auto !important;
-		max-height: none;
-		flex: 1;
-		transform: scaleY(1);
+		.modal-content {
+			max-width: 400px;
+			margin: 0 auto;
+			background: #fff;
+			border-radius: 8px;
+			overflow-y: auto;
+			max-height: 90vh;
+		}
 	}
 </style>
