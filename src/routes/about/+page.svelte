@@ -26,8 +26,7 @@
 	<h1
 		style="background-color: black; color: white; border-radius: 8px; padding: .5rem; text-align: center;"
 	>
-		<span style="color: #833bff ">9takes</span> is the place for people to ask questions and get different
-		takes
+		<span style="color: #833bff ">9takes</span>, ask questions <br /> get different takes
 	</h1>
 
 	<section class="profile-section">
@@ -73,7 +72,7 @@
 	</section>
 
 	<section class="views-goals">
-		<h2>3 Problems and the Solutions</h2>
+		<h2>3 Problems, 3 Solutions</h2>
 		<ul>
 			<li>
 				<strong>Social media isn't living up to what it was supposed to be.</strong>
@@ -115,8 +114,10 @@
 	{/if}
 
 	<section class="why-divided">
-		<h3>Why people are divided</h3>
-		<p>Most people are living their life on autopilot.</p>
+		<h3>
+			When you spend +70% of your time autopilot- <br /> you cannot handle diversity of thought
+		</h3>
+		<p>Social media platforms are putting people putting you on autopilot.</p>
 		<p>
 			I got married during a stressful time when I was leaving the military. My wife and I were
 			fighting, and it got to a point where we felt helpless in resolving our conflict. We loved
