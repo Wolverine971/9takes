@@ -43,11 +43,11 @@
 				<div class="profile-image">
 					<picture>
 						<source
-							srcset="/brand/pixelDJ.png, /brand/pixelDJ-lazer.png"
+							srcset="/brand/djface.png, /brand/djface.png"
 							media="(orientation: portrait)"
 						/>
 						<img
-							src={showLaser ? '/brand/pixelDJ-lazer.png' : '/brand/pixelDJ.png'}
+							src={showLaser ? '/brand/djface.png' : '/brand/djface.png'}
 							alt={showLaser ? 'DJ Wayne fun profile picture' : 'DJ Wayne serious profile picture'}
 						/>
 					</picture>
