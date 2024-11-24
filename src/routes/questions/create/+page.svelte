@@ -11,13 +11,14 @@
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
-
+	import html2canvas from 'html2canvas';
 	export let data: PageData;
 
 	let question = '';
 	let url = '';
 	let loading = false;
 	let qrImageSrc = '';
+	let imgPreview = '';
 
 	$: isQuestionValid = question.trim().length > 0;
 
@@ -31,6 +32,18 @@
 
 	onMount(() => {
 		question = $page.url.searchParams.get('question') || '';
+
+		// Preload the Noticia Text font to ensure it's available for canvas
+		const link = document.createElement('link');
+		link.href =
+			'https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+		link.rel = 'stylesheet';
+		document.head.appendChild(link);
+
+		// Wait for font to load
+		document.fonts.ready.then(() => {
+			console.log('Fonts loaded');
+		});
 	});
 
 	async function getUrl() {
@@ -55,13 +68,78 @@
 		try {
 			loading = true;
 			const questionNode = document.getElementById('question-pic');
+
+			// Get the computed styles of the original element
+			const computedStyle = window.getComputedStyle(questionNode);
+			const width = parseInt(computedStyle.width);
+
+			// Calculate a reasonable scale factor based on the element's width
+			// This ensures the image isn't too large while maintaining quality
+			const scale = Math.min(2, 1200 / width); // Cap max width at 1200px
+
+			// Wait for fonts to load
+			await document.fonts.ready;
+
+			const canvas = await html2canvas(questionNode, {
+				useCORS: true,
+				allowTaint: true,
+				backgroundColor: computedStyle.backgroundColor || '#d4d4d4',
+				scale: scale,
+				logging: false,
+				width: width,
+				height: parseInt(computedStyle.height),
+				onclone: (clonedDoc) => {
+					const element = clonedDoc.getElementById('question-pic');
+					if (element) {
+						// Copy all relevant styles from the original element
+						element.style.cssText = computedStyle.cssText;
+						element.style.transform = 'none'; // Remove any transforms
+						element.style.margin = '0';
+						element.style.padding = computedStyle.padding;
+						element.style.fontFamily = '"Noticia Text", serif';
+						element.style.width = `${width}px`;
+						element.style.height = `${parseInt(computedStyle.height)}px`;
+
+						// Ensure text styles are preserved
+						element.style.fontSize = computedStyle.fontSize;
+						element.style.lineHeight = computedStyle.lineHeight;
+						element.style.fontWeight = computedStyle.fontWeight;
+						element.style.textAlign = computedStyle.textAlign;
+						element.style.color = computedStyle.color;
+
+						// Remove any transition effects
+						element.style.transition = 'none';
+
+						// Ensure the background is solid
+						element.style.backgroundColor = computedStyle.backgroundColor || '#d4d4d4';
+
+						// Remove any overflow
+						element.style.overflow = 'hidden';
+					}
+				}
+			});
+
+			// Optionally resize the canvas if it's still too large
+			const maxWidth = 800; // Set your desired max width
+			let finalCanvas = canvas;
+
+			if (canvas.width > maxWidth) {
+				const scale = maxWidth / canvas.width;
+				finalCanvas = document.createElement('canvas');
+				finalCanvas.width = canvas.width * scale;
+				finalCanvas.height = canvas.height * scale;
+				const ctx = finalCanvas.getContext('2d');
+				ctx.scale(scale, scale);
+				ctx.drawImage(canvas, 0, 0);
+			}
+
+			const png = finalCanvas.toDataURL('image/png', 0.5); // Added quality parameter
+
 			const body = new FormData();
 			body.append('question', question.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' '));
 			body.append('author_id', data?.session?.user?.id?.toString() || '');
 			body.append('context', '');
 			body.append('url', url);
-
-			const png = await toPng(questionNode);
 			body.append('img_url', png);
 
 			const resp = await fetch('?/createQuestion', { method: 'POST', body });
@@ -82,8 +160,80 @@
 			loading = false;
 		}
 	}
+
+	const showImage = async () => {
+		const questionNode = document.getElementById('question-pic');
+
+		// Get the computed styles of the original element
+		const computedStyle = window.getComputedStyle(questionNode);
+		const width = parseInt(computedStyle.width);
+
+		// Calculate a reasonable scale factor based on the element's width
+		// This ensures the image isn't too large while maintaining quality
+		const scale = Math.min(2, 1200 / width); // Cap max width at 1200px
+
+		// Wait for fonts to load
+		await document.fonts.ready;
+
+		const canvas = await html2canvas(questionNode, {
+			useCORS: true,
+			allowTaint: true,
+			backgroundColor: computedStyle.backgroundColor || '#d4d4d4',
+			scale: scale,
+			logging: false,
+			width: width,
+			height: parseInt(computedStyle.height),
+			onclone: (clonedDoc) => {
+				const element = clonedDoc.getElementById('question-pic');
+				if (element) {
+					// Copy all relevant styles from the original element
+					element.style.cssText = computedStyle.cssText;
+					element.style.transform = 'none'; // Remove any transforms
+					element.style.margin = '0';
+					element.style.padding = computedStyle.padding;
+					element.style.fontFamily = '"Noticia Text", serif';
+					element.style.width = `${width}px`;
+					element.style.height = `${parseInt(computedStyle.height)}px`;
+
+					// Ensure text styles are preserved
+					element.style.fontSize = computedStyle.fontSize;
+					element.style.lineHeight = computedStyle.lineHeight;
+					element.style.fontWeight = computedStyle.fontWeight;
+					element.style.textAlign = computedStyle.textAlign;
+					element.style.color = computedStyle.color;
+
+					// Remove any transition effects
+					element.style.transition = 'none';
+
+					// Ensure the background is solid
+					element.style.backgroundColor = computedStyle.backgroundColor || '#d4d4d4';
+
+					// Remove any overflow
+					element.style.overflow = 'hidden';
+				}
+			}
+		});
+
+		// Optionally resize the canvas if it's still too large
+		const maxWidth = 800; // Set your desired max width
+		let finalCanvas = canvas;
+
+		if (canvas.width > maxWidth) {
+			const scale = maxWidth / canvas.width;
+			finalCanvas = document.createElement('canvas');
+			finalCanvas.width = canvas.width * scale;
+			finalCanvas.height = canvas.height * scale;
+			const ctx = finalCanvas.getContext('2d');
+			ctx.scale(scale, scale);
+			ctx.drawImage(canvas, 0, 0);
+		}
+
+		const png = finalCanvas.toDataURL('image/png', 0.8);
+		imgPreview = png;
+	};
+
 	let questionCharCount = 0;
-	const MAX_CHAR_COUNT = 280; // You can adjust this value as needed
+	const MAX_CHAR_COUNT = 280;
 
 	$: {
 		questionCharCount = question.length;
@@ -146,6 +296,13 @@
 				>
 			</p>
 		</div>
+		<!-- 
+		Testing image preview
+		
+		<div>
+			<img src={imgPreview} alt="image" />
+			<button on:click={showImage}>Show Image</button>
+		</div> -->
 		<br />
 		<button class="btn btn-primary create-btn" on:click={createQuestion}>
 			{#if loading}

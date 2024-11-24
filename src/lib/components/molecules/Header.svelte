@@ -154,7 +154,8 @@
 					margin-right: 0.5rem;
 
 					img {
-						transition: transform 0.3s ease-in-out;
+						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+						will-change: transform;
 					}
 
 					&:hover img {
@@ -190,7 +191,8 @@
 						background: #833bff;
 						left: 50%;
 						bottom: -5px;
-						transition: all 0.3s ease-in-out;
+						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+						will-change: transform;
 					}
 
 					&:hover::after {
@@ -223,7 +225,8 @@
 							background: #833bff;
 							left: 50%;
 							bottom: -5px;
-							transition: all 0.3s ease-in-out;
+							transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+							will-change: transform;
 						}
 
 						&:hover::after {
@@ -288,9 +291,14 @@
 					margin-left: 1rem;
 					border: 1px solid;
 					border-radius: 50%;
+					// Add hardware acceleration
+					transform: translateZ(0);
+					backface-visibility: hidden;
+					-webkit-font-smoothing: subpixel-antialiased;
 
 					img {
-						transition: transform 0.3s ease-in-out;
+						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+						will-change: transform;
 					}
 
 					&:hover img {
@@ -298,18 +306,16 @@
 					}
 				}
 
-				.login {
-					a {
-						text-decoration: none;
-						color: #fff;
-						background: #833bff;
-						padding: 0.5rem 1rem;
-						border-radius: 4px;
-						font-weight: 600;
+				.login a {
+					text-decoration: none;
+					color: #fff;
+					background: #833bff;
+					padding: 0.5rem 1rem;
+					border-radius: 4px;
+					font-weight: 600;
 
-						&:hover {
-							background: #6a2fcc;
-						}
+					&:hover {
+						background: #6a2fcc;
 					}
 				}
 			}
@@ -325,9 +331,13 @@
 				display: flex;
 				align-items: center;
 				text-decoration: none;
+				transform: translateZ(0);
+				backface-visibility: hidden;
+				-webkit-font-smoothing: subpixel-antialiased;
 
 				img {
-					transition: transform 0.3s ease-in-out;
+					transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+					will-change: transform;
 				}
 
 				&:hover img {
@@ -342,9 +352,13 @@
 					cursor: pointer;
 					padding: 0;
 					margin-left: 1rem;
+					transform: translateZ(0);
+					backface-visibility: hidden;
+					-webkit-font-smoothing: subpixel-antialiased;
 
 					img {
-						transition: transform 0.3s ease-in-out;
+						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
+						will-change: transform;
 					}
 
 					&:hover img {

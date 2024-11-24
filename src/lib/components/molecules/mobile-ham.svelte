@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import { page } from '$app/stores';
+	import Context, { onClickOutside } from './Context.svelte';
 
 	let isMenuOpen = false;
 	let isDropdownOpen = false;
@@ -21,6 +22,12 @@
 	function closeMenu() {
 		isMenuOpen = false;
 		getModal('mobile-nav').close();
+	}
+
+	// Handle modal close events (including clicking outside)
+	function handleModalClose() {
+		isMenuOpen = false;
+		closeMenu();
 	}
 </script>
 
@@ -43,63 +50,74 @@
 	</button>
 </div>
 
-<Modal2 id="mobile-nav" on:close={closeMenu}>
-	<nav class="mobile-nav" aria-label="Main Navigation">
-		<ul class="menu">
-			<li>
-				<a href="/" class:active-link={$page.url.pathname === '/'}>Home</a>
-			</li>
-			<li>
-				<a href="/questions" class:active-link={$page.url.pathname.startsWith('/questions')}>
-					Question List
-				</a>
-			</li>
-			<li>
-				<button
-					type="button"
-					class="dropdown-button"
-					aria-haspopup="true"
-					aria-expanded={isDropdownOpen}
-					on:click={() => (isDropdownOpen = !isDropdownOpen)}
-				>
-					Blogs
-				</button>
-				{#if isDropdownOpen}
-					<ul class="dropdown-menu">
-						<li>
-							<a href="/community" class:active-link={$page.url.pathname === '/community'}>
-								The Takes of 9takes
-							</a>
-						</li>
-						<li>
-							<a
-								href="/enneagram-corner"
-								class:active-link={$page.url.pathname === '/enneagram-corner'}
-							>
-								Enneagram Corner
-							</a>
-						</li>
-						<li>
-							<a
-								href="/personality-analysis"
-								class:active-link={$page.url.pathname === '/personality-analysis'}
-							>
-								Personality Analysis
-							</a>
-						</li>
-						<li>
-							<a href="/how-to-guides" class:active-link={$page.url.pathname === '/how-to-guides'}>
-								How to Guides
-							</a>
-						</li>
-					</ul>
-				{/if}
-			</li>
-			<li>
-				<a href="/about" class:active-link={$page.url.pathname === '/about'}>About</a>
-			</li>
-		</ul>
-	</nav>
+<Modal2 id="mobile-nav" on:close={handleModalClose}>
+	<Context>
+		<nav
+			class="mobile-nav"
+			aria-label="Main Navigation"
+			use:onClickOutside={() => {
+				isMenuOpen = false;
+			}}
+		>
+			<ul class="menu">
+				<li>
+					<a href="/" class:active-link={$page.url.pathname === '/'}>Home</a>
+				</li>
+				<li>
+					<a href="/questions" class:active-link={$page.url.pathname.startsWith('/questions')}>
+						Question List
+					</a>
+				</li>
+				<li>
+					<button
+						type="button"
+						class="dropdown-button"
+						aria-haspopup="true"
+						aria-expanded={isDropdownOpen}
+						on:click={() => (isDropdownOpen = !isDropdownOpen)}
+					>
+						Blogs
+					</button>
+					{#if isDropdownOpen}
+						<ul class="dropdown-menu">
+							<li>
+								<a href="/community" class:active-link={$page.url.pathname === '/community'}>
+									The Takes of 9takes
+								</a>
+							</li>
+							<li>
+								<a
+									href="/enneagram-corner"
+									class:active-link={$page.url.pathname === '/enneagram-corner'}
+								>
+									Enneagram Corner
+								</a>
+							</li>
+							<li>
+								<a
+									href="/personality-analysis"
+									class:active-link={$page.url.pathname === '/personality-analysis'}
+								>
+									Personality Analysis
+								</a>
+							</li>
+							<li>
+								<a
+									href="/how-to-guides"
+									class:active-link={$page.url.pathname === '/how-to-guides'}
+								>
+									How to Guides
+								</a>
+							</li>
+						</ul>
+					{/if}
+				</li>
+				<li>
+					<a href="/about" class:active-link={$page.url.pathname === '/about'}>About</a>
+				</li>
+			</ul>
+		</nav>
+	</Context>
 </Modal2>
 
 <style lang="scss">
@@ -114,6 +132,9 @@
 			padding: 1rem;
 			display: flex;
 			align-items: center;
+			transition: opacity 0.2s ease;
+			height: 18px;
+			width: 25px;
 
 			&:focus {
 				outline: none;
@@ -124,11 +145,13 @@
 				flex-direction: column;
 				justify-content: space-between;
 				height: 18px;
+				width: 25px;
 
 				.line {
 					width: 25px;
 					height: 2px;
 					background-color: #333;
+					transition: transform 0.2s ease;
 				}
 			}
 
@@ -136,6 +159,7 @@
 				font-size: 2rem;
 				line-height: 1;
 				color: #333;
+				transition: transform 0.2s ease;
 			}
 		}
 	}

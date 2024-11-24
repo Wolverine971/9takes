@@ -72,88 +72,176 @@ export const actions: Actions = {
 		}
 	},
 	createQuestion: async (event) => {
-		const { request, locals } = event;
+		const MAX_FORM_SIZE = 10 * 1024 * 1024; // 10MB limit
+		let formData;
 
-		const demo_time = await checkDemoTime();
-
-		const session = locals.session;
-
-		if (!session?.user?.id) {
-			throw error(400, 'unauthorized');
-		}
-
-		const body = Object.fromEntries(await request.formData());
-
-		const question = body.question as string;
-		const author_id = body.author_id as string;
-		const context = body.context as string;
-		const url = body.url as string;
-		const img_url = body.img_url as string;
-
-		const Key = uuidv4();
 		try {
-			const buf = Buffer.from(img_url.replace(/^data:image\/\w+;base64,/, ''), 'base64');
-			const data = {
-				Bucket: PRIVATE_S3_BUCKET as string,
-				Key,
-				Body: buf,
-				ContentEncoding: 'base64',
-				ContentType: 'image/jpeg',
-				ACL: 'public-read'
-			};
-			const s3 = await new S3({
-				accessKeyId: PRIVATE_S3_ACCESS_KEY_ID,
-				secretAccessKey: PRIVATE_S3_SECRET_ACCESS_KEY,
-				region: 'us-east-1'
+			const { request, locals } = event;
+
+			// Add timeout for formData parsing
+			const formDataPromise = request.formData();
+			const timeoutPromise = new Promise((_, reject) => {
+				setTimeout(() => reject(new Error('FormData parsing timeout')), 30000); // 30 second timeout
 			});
 
-			s3.putObject(data).promise();
-		} catch (error) {
-			console.log(error);
-			throw new Error('error uploading image');
-		}
-
-		const { data: user, error: userError } = await supabase
-			.from(demo_time === true ? 'profiles_demo' : 'profiles')
-			.select('*')
-			.eq('id', author_id)
-			.single();
-
-		if (userError || !user) {
-			throw error(400, 'user not registered');
-		}
-
-		if (!user.admin && !user.canAskQuestion) {
-			throw error(500, 'user not authorized to ask question');
-		}
-
-		let esId = null;
-		if (demo_time === false) {
-			const resp: any = await createESQuestion(body);
-			if (resp?._id) {
-				esId = resp._id;
+			try {
+				formData = await Promise.race([formDataPromise, timeoutPromise]);
+			} catch (e) {
+				console.error('FormData parsing error:', e);
+				throw error(400, {
+					message: 'Failed to parse form data - request may be too large or malformed'
+				});
 			}
+
+			// Check content length
+			const contentLength = request.headers.get('content-length');
+			if (contentLength && parseInt(contentLength) > MAX_FORM_SIZE) {
+				throw error(413, {
+					message: 'Request entity too large'
+				});
+			}
+
+			const demo_time = await checkDemoTime();
+			const session = locals.session;
+
+			if (!session?.user?.id) {
+				throw error(401, {
+					message: 'Unauthorized'
+				});
+			}
+
+			// Convert FormData to object with validation
+			const body: Record<string, string> = {};
+			for (const [key, value] of formData.entries()) {
+				if (typeof value !== 'string') {
+					throw error(400, {
+						message: `Invalid value for field: ${key}`
+					});
+				}
+				body[key] = value;
+			}
+
+			// Validate required fields
+			const requiredFields = ['question', 'author_id', 'url', 'img_url'];
+			for (const field of requiredFields) {
+				if (!body[field]) {
+					throw error(400, {
+						message: `Missing required field: ${field}`
+					});
+				}
+			}
+
+			const { question, author_id, context, url, img_url } = body;
+
+			// Validate image data
+			if (!img_url.startsWith('data:image/')) {
+				throw error(400, {
+					message: 'Invalid image format'
+				});
+			}
+
+			const Key = uuidv4();
+
+			// Upload image to S3
+			try {
+				const base64Data = img_url.replace(/^data:image\/\w+;base64,/, '');
+				const buf = Buffer.from(base64Data, 'base64');
+
+				// Validate image size
+				if (buf.length > MAX_FORM_SIZE) {
+					throw error(413, {
+						message: 'Image file too large'
+					});
+				}
+
+				const s3 = new S3({
+					accessKeyId: PRIVATE_S3_ACCESS_KEY_ID,
+					secretAccessKey: PRIVATE_S3_SECRET_ACCESS_KEY,
+					region: 'us-east-1'
+				});
+
+				await s3.putObject({
+					Bucket: PRIVATE_S3_BUCKET as string,
+					Key,
+					Body: buf,
+					ContentEncoding: 'base64',
+					ContentType: 'image/jpeg',
+					ACL: 'public-read'
+				}).promise();
+			} catch (err) {
+				console.error('S3 upload error:', err);
+				throw error(500, {
+					message: 'Failed to upload image'
+				});
+			}
+
+			// Check user permissions
+			const { data: user, error: userError } = await supabase
+				.from(demo_time ? 'profiles_demo' : 'profiles')
+				.select('*')
+				.eq('id', author_id)
+				.single();
+
+			if (userError || !user) {
+				throw error(400, {
+					message: 'User not registered'
+				});
+			}
+
+			if (!user.admin && !user.canAskQuestion) {
+				throw error(403, {
+					message: 'User not authorized to ask question'
+				});
+			}
+
+			// Create question in ElasticSearch if not in demo mode
+			let esId = null;
+			if (!demo_time) {
+				try {
+					const resp: any = await createESQuestion(body);
+					if (resp?._id) {
+						esId = resp._id;
+					}
+				} catch (err) {
+					console.error('ElasticSearch error:', err);
+					// Continue without ES if it fails
+				}
+			}
+
+			// Insert question into database
+			const qData = {
+				es_id: esId,
+				question,
+				author_id,
+				context,
+				url,
+				img_url: Key
+			};
+
+			const { data: insertedQuestion, error: questionInsertError } = await supabase
+				.from(demo_time ? 'questions_demo' : 'questions')
+				.insert(qData)
+				.select();
+
+			if (questionInsertError) {
+				throw error(500, {
+					message: 'Failed to create question'
+				});
+			}
+
+			if (insertedQuestion?.length) {
+				await tagQuestion(question, insertedQuestion[0].id);
+				return mapDemoValues(insertedQuestion);
+			}
+
+			return { success: true };
+
+		} catch (e) {
+			console.error('Create question error:', e);
+			throw error(500, {
+				message: e.message || 'Internal server error'
+			});
 		}
-		const qData = {
-			es_id: esId,
-			question: question,
-			author_id: author_id,
-			context: context,
-			url: url,
-			img_url: Key
-		};
-		const { data: insertedQuestion, error: questionInsertError } = await supabase
-			.from(demo_time === true ? 'questions_demo' : 'questions')
-			.insert(qData)
-			.select();
-
-		if (insertedQuestion?.length && !questionInsertError) {
-			tagQuestion(question, insertedQuestion[0].id);
-
-			return mapDemoValues(insertedQuestion);
-		}
-
-		return { success: true };
 	}
 };
 

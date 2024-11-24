@@ -101,6 +101,7 @@
 		"googleapis": "^114.0.0",
 		"gsap": "^3.12.5",
 		"html-to-image": "^1.11.11",
+		"html2canvas": "^1.4.1",
 		"mapbox-gl": "^3.6.0",
 		"medium-editor": "^5.23.3",
 		"mermaid": "^11.2.1",
