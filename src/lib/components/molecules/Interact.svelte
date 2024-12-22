@@ -7,10 +7,14 @@
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 
+	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
+
 	export let parentType: string;
 	export let data: any;
 	export let user: any;
 	export let questionId: number;
+	export let qrCodeUrl: string;
+	export let qrCodeSize: string;
 
 	const dispatch = createEventDispatcher();
 
@@ -30,6 +34,9 @@
 		}
 	}
 
+	const openQRModal = () => {
+		getModal('qr-modal').open();
+	};
 	const createComment = async () => {
 		if (!canComment()) return;
 
@@ -159,8 +166,24 @@
 					: 'var(--accent)'}
 			/>
 		</button>
+
+		{#if parentType === 'question' && qrCodeUrl && innerWidth > 576}
+			<button title="View QR Code" class="corner-btn secondary-btn qr-btn" on:click={openQRModal}>
+				<img src={qrCodeUrl} alt="9takes QR Code" class="qr-icon" />
+			</button>
+		{/if}
 	{/if}
 </div>
+
+<Modal2 id="qr-modal">
+	<div class="qr-modal-content">
+		<h2>Scan Question QR Code</h2>
+		<div class="qr-container">
+			<img src={qrCodeUrl} alt="9takes QR Code" class="qr-large" />
+		</div>
+		<p class="qr-help-text">Scan to share this question</p>
+	</div>
+</Modal2>
 
 {#if commenting}
 	<div class="interact-text-container" id="interact-text-container">
@@ -235,5 +258,65 @@
 	.sub-comment {
 		display: flex;
 		gap: 0.5rem;
+	}
+
+	.qr-icon {
+		width: 1.5rem;
+		height: 1.5rem;
+		border-radius: var(--base-border-radius);
+		transition: transform 0.2s ease;
+	}
+
+	.qr-btn {
+		padding: 0.25rem;
+
+		&:hover {
+			.qr-icon {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	.qr-modal-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2rem;
+		text-align: center;
+
+		h2 {
+			margin: 0 0 1.5rem 0;
+			color: var(--color-paladin-4);
+		}
+
+		.qr-container {
+			background: white;
+			padding: 1.5rem;
+			border-radius: var(--base-border-radius);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+			margin-bottom: 1rem;
+		}
+
+		.qr-large {
+			width: 200px;
+			height: 200px;
+
+			@media (max-width: 576px) {
+				width: 150px;
+				height: 150px;
+			}
+		}
+
+		.qr-help-text {
+			color: var(--color-paladin-3);
+			font-size: 0.875rem;
+			margin: 0;
+		}
+	}
+
+	@media (max-width: 576px) {
+		.qr-modal-content {
+			padding: 1.5rem;
+		}
 	}
 </style>

@@ -32,6 +32,7 @@
 	let commentEdit = '';
 	let flaggingReasonDescription = '';
 	let flaggingReasonId = '';
+	let isHovered = false;
 
 	$: lastDate = comment?.comments?.length
 		? comment.comments[comment.comments.length - 1]?.created_at || null
@@ -41,18 +42,14 @@
 		'en-US'
 	);
 
-	onMount(() => {
-		updateCommentData();
-	});
+	$: {
+		if (comment) {
+			_commentComment = JSON.parse(JSON.stringify(comment)); // Deep copy
+			likes = _commentComment?.comment_like || [];
+			commentEdit = _commentComment.comment;
 
-	$: if (comment) {
-		updateCommentData();
-	}
-
-	function updateCommentData() {
-		_commentComment = { ...comment };
-		likes = comment?.comment_like ? [...comment.comment_like] : [];
-		commentEdit = comment.comment;
+			console.log(comment);
+		}
 	}
 
 	async function loadMore() {
@@ -63,15 +60,18 @@
 		loadingComments = true;
 		try {
 			const response = await fetch(
-				`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}&range=${
-					comment?.comments?.length || 0
+				`/comments?type=comment&parentId=${_commentComment.id}&lastDate=${lastDate}&range=${
+					_commentComment?.comments?.length || 0
 				}`
 			);
-			const newcommentData = await response.json();
+			const newComments = await response.json();
 			if (!_commentComment.comments) {
 				_commentComment.comments = [];
 			}
-			_commentComment.comments = [..._commentComment.comments, ...newcommentData];
+			_commentComment.comments = [..._commentComment.comments, ...newComments];
+			// Update the parent comment data to keep in sync
+			comment.comments = _commentComment.comments;
+			comment.comment_count = _commentComment.comment_count;
 		} catch (error) {
 			console.error('Error loading comments:', error);
 			notifications.danger('Error loading comments', 3000);
@@ -105,6 +105,7 @@
 					c.user_id !== user.id;
 				});
 			}
+			dispatch('commentUpdated', _commentComment);
 		} catch (error) {
 			console.error('Error liking comment:', error);
 			notifications.danger('Error processing like', 3000);
@@ -137,6 +138,7 @@
 
 			notifications.info('Comment Added', 3000);
 			dispatch('commentAdded', result?.data);
+			dispatch('commentUpdated', _commentComment);
 			newcomment = '';
 			commenting = false;
 		} catch (error) {
@@ -269,15 +271,19 @@
 						{/if}
 					</div>
 				</div>
-				<div class="comment-actions">
-					<div class="action-buttons">
+				<div
+					class="comment-actions"
+					on:mouseenter={() => (isHovered = true)}
+					on:mouseleave={() => (isHovered = false)}
+				>
+					<div class="action-buttons" class:hovered={isHovered}>
 						<button
 							title="Comment"
 							class="btn action-btn"
 							on:click={() => (commenting = !commenting)}
 						>
 							<MasterCommentIcon
-								class="action-icon"
+								className="action-icon"
 								type={_commentComment.comments?.length ? 'full' : 'empty'}
 							/>
 						</button>
@@ -348,6 +354,10 @@
 				parentData={_commentComment}
 				parentType={'comment'}
 				{user}
+				onCommentsUpdate={(updatedComments) => {
+					_commentComment.comments = updatedComments;
+					comment.comments = updatedComments;
+				}}
 			/>
 		</div>
 	{/if}
@@ -397,4 +407,13 @@
 
 <style lang="scss">
 	@import './comment.scss';
+
+	.action-buttons {
+		transition: opacity 0.3s ease;
+		opacity: 0.7;
+
+		&.hovered {
+			opacity: 1;
+		}
+	}
 </style>

@@ -20,7 +20,8 @@
 	let innerWidth = 0;
 	let showAiComments = true;
 
-	$: _data = { ...data };
+	// Create a reactive statement for deep copying data
+	$: _data = JSON.parse(JSON.stringify(data));
 
 	const tabs = ['Comments', 'Removed Comments', 'Visuals', 'Articles'];
 
@@ -31,10 +32,16 @@
 		Articles: PostIcon
 	};
 
+	// Modified sortComments function to handle deep copying
 	function sortComments(sortedComments: any[]) {
-		_data.comments = sortedComments;
-		_data.comment_count = sortedComments.length;
+		// Deep copy the sorted comments
+		const deepCopiedComments = JSON.parse(JSON.stringify(sortedComments));
+		_data.comments = deepCopiedComments;
+		_data.comment_count = deepCopiedComments.length;
 		showAiComments = false;
+
+		// Force a refresh of all comment components
+		_data = { ..._data };
 	}
 
 	function scrollToSection(sectionId: string) {
@@ -83,7 +90,7 @@
 					{:else if tab === 'Visuals'}
 						<span class="comment-count" itemprop="answerCount">
 							{_data.visual_count || 0}
-							{_data.visual_count === 1 ? 'Visuals' : 'Visuals'}
+							{_data.visual_count === 1 ? 'Visual' : 'Visuals'}
 						</span>
 					{/if}
 				{:else}
@@ -103,10 +110,9 @@
 		{#each tabs as section}
 			<section class="tab-section" class:active={selectedTab === section} id={section}>
 				<h2 style="display: flex; gap: 1rem; align-items: center; margin: 0 0 .5rem 0; padding: 0;">
-					<!-- {section} -->
 					{#if _data.comment_count !== 0 && section === 'Comments'}
 						<SortComments
-							{data}
+							data={_data}
 							on:commentsSorted={({ detail }) => sortComments(detail)}
 							size={'large'}
 						/>
@@ -122,6 +128,7 @@
 							</p>
 						{/if}
 						<AIComments data={_data} parentType={'question'} {showAiComments} />
+						<!-- // Force re-render on sort -->
 						<Comments
 							questionId={_data.id}
 							comments={_data.comments}
@@ -129,6 +136,7 @@
 							parentType={'question'}
 							parentData={_data}
 							{user}
+							key={_data.comment_count}
 							on:commentAdded={handleCommentAdded}
 						/>
 					{:else if section === 'Removed Comments' && _data?.removedComments?.length > 0}
@@ -164,35 +172,50 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-	}
 
-	.tab-nav {
-		display: flex;
-		overflow: hidden;
-		border-bottom: 1px solid var(--color-theme-purple-light);
-	}
+		.tab-nav {
+			display: flex;
+			justify-content: space-between;
+			background: white;
+			border-radius: var(--base-border-radius);
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+			margin: 0;
+			border-bottom: 1px solid var(--base-grey-1);
 
-	.tab-link {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 0.75rem 1rem;
-		color: var(--color-theme-purple-light);
-		text-decoration: none;
-		transition: all 0.3s ease;
-
-		&:hover {
-			background-color: var(--base-white-outline);
+			@media (max-width: 576px) {
+				padding: 0;
+				gap: 0;
+			}
 		}
 
-		&.active {
-			color: var(--primary);
-			border-bottom: 2px solid var(--primary);
-		}
-	}
+		.tab-link {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0.75rem 1rem;
+			color: var(--color-theme-purple-light);
+			text-decoration: none;
+			transition: all 0.3s ease;
 
-	.comment-count {
-		white-space: nowrap;
+			flex: 1;
+			min-width: max-content;
+			padding: 0.75rem 1rem;
+			white-space: nowrap;
+
+			&:hover {
+				background-color: var(--base-white-outline);
+			}
+
+			&.active {
+				color: var(--primary);
+				border-bottom: 2px solid var(--primary);
+			}
+		}
+
+		.comment-count {
+			white-space: nowrap;
+		}
 	}
 
 	.tab-content {
@@ -230,12 +253,13 @@
 
 	@media (max-width: 576px) {
 		.tab-nav {
-			justify-content: space-around;
+			padding: 0;
+			gap: 0;
 		}
 
 		.tab-link {
-			flex-direction: column;
-			padding: 0.5rem;
+			padding: 0.5rem 0.75rem;
+			font-size: 0.875rem;
 		}
 		.tab-section {
 			padding: 0;
@@ -247,6 +271,9 @@
 
 		.comments-card {
 			margin: 0.2rem;
+		}
+		.comment-count {
+			font-size: 0.875rem;
 		}
 	}
 </style>

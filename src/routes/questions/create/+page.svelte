@@ -427,6 +427,25 @@
 		font-style: italic;
 	}
 
+	@media (max-width: 576px) {
+		.question-container {
+			padding: 1rem;
+		}
+
+		.comment-box {
+			margin: 0.5rem 0;
+		}
+
+		.profile-avatar {
+			min-width: 60px;
+			font-size: 0.9rem;
+		}
+
+		.action-buttons {
+			padding: 0.25rem;
+		}
+	}
+
 	@media (min-width: 768px) {
 		.question-box {
 			min-width: 500px;

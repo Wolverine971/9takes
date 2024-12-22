@@ -3,7 +3,6 @@
 	import QRCode from 'qrcode';
 
 	export let question: { id: string; url: string; question: string; question_formatted?: string };
-	// export let showDetails = true;
 	export let addQuestionMark = false;
 
 	let innerWidth = 0;
@@ -21,7 +20,6 @@
 	};
 
 	$: fontSize = calcSize(question.question);
-	$: qrCodeSize = innerWidth > 500 ? '10%' : '20%';
 
 	function calcSize(text: string): string {
 		const lengths = [45, 60, 80, 105, 115, 130, 150, 200, 220, 240, 290, 380];
@@ -61,7 +59,6 @@
 	}
 
 	onMount(() => {
-		innerWidth = window.innerWidth;
 		QRCode.toDataURL(`https://9takes.com/questions/${question.url}`, QR_OPTS)
 			.then((url) => (qrCodeUrl = url))
 			.catch((err) => console.error('QR Code generation failed:', err));
@@ -82,56 +79,70 @@
 			? '?'
 			: ''}
 	</h1>
-	<img src={qrCodeUrl} alt="9takes QR Code" class="qr-image-border" style="width: {qrCodeSize};" />
+	{#if innerWidth <= 576 && qrCodeUrl}
+		<img src={qrCodeUrl} alt="9takes QR Code" class="qr-image-mobile" />
+	{/if}
 </div>
 
 <style lang="scss">
 	.question-container {
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		justify-content: space-between;
 		align-items: center;
-	}
+		background: linear-gradient(145deg, var(--card-background), var(--base-grey-1));
+		border-radius: 15px;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+		padding: 1.5rem;
+		margin-bottom: 1rem;
 
-	.qr-image-border {
-		border: var(--classic-border);
-		margin: 0.5rem;
-		border-radius: var(--base-border-radius);
-		padding: 0.2rem;
-		background-color: var(--accent);
-		background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
+		@media (max-width: 576px) {
+			padding: 1rem;
+			gap: 1rem;
+		}
 	}
 
 	.question-box {
-		width: -webkit-fill-available;
+		width: 100%;
 		border-radius: var(--base-border-radius);
 		color: var(--color-paladin-4);
 		margin: 0.25rem 0;
 	}
 
 	.headline {
-		font-weight: bold;
+		font-weight: 700;
 		text-transform: uppercase;
 		text-align: center;
-		padding: 1rem 0;
-		width: 90%;
-		min-height: 90px;
-		border: 1px solid var(--color-theme-purple-light);
-	}
+		letter-spacing: 0.5px;
+		line-height: 1.3;
+		position: relative;
+		padding: 0.75rem 0;
+		min-height: 60px;
 
-	@media (max-width: 700px) {
-		.headline {
+		@media (max-width: 576px) {
+			padding: 0.5rem 0;
 			border: none;
 		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -5px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 40px;
+			height: 3px;
+			background: var(--accent);
+			border-radius: 2px;
+		}
 	}
 
-	@media (max-width: 500px) {
-		article {
-			padding: 0;
-		}
-
-		.qr-image-border {
-			margin: 0;
-			padding: 0;
-		}
+	.qr-image-mobile {
+		width: 120px;
+		height: 120px;
+		border-radius: var(--base-border-radius);
+		padding: 0.5rem;
+		background: white;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 	}
 </style>

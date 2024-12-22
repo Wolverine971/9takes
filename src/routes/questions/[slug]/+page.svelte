@@ -4,6 +4,8 @@
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 	import type { PageData } from './$types';
 	import { invalidateAll } from '$app/navigation';
+	import { onMount } from 'svelte';
+	import QRCode from 'qrcode';
 
 	export let data: PageData;
 
@@ -18,6 +20,28 @@
 		links_count: data.links_count,
 		flags: data.flags
 	};
+
+	let qrCodeUrl = '';
+
+	const QR_OPTS = {
+		errorCorrectionLevel: 'H',
+		type: 'image/png',
+		quality: 0.7,
+		margin: 1,
+		color: {
+			dark: '',
+			light: '#c1c0c036'
+		}
+	};
+
+	$: qrCodeSize = innerWidth > 500 ? '10%' : '20%';
+
+	onMount(() => {
+		innerWidth = window.innerWidth;
+		QRCode.toDataURL(`https://9takes.com/questions/${data.question.url}`, QR_OPTS)
+			.then((url) => (qrCodeUrl = url))
+			.catch((err) => console.error('QR Code generation failed:', err));
+	});
 
 	async function addComment() {
 		await new Promise((resolve) => setTimeout(resolve, 500));
@@ -119,6 +143,8 @@
 				parentType={'question'}
 				on:commentAdded={addComment}
 				user={data?.session?.user}
+				{qrCodeUrl}
+				{qrCodeSize}
 			/>
 		</div>
 	</article>
@@ -150,6 +176,25 @@
 </div>
 
 <style lang="scss">
+	.qr-image-border {
+		border: var(--classic-border);
+		height: 60px; // Fixed height
+		margin: 0.5rem 0; // Vertical margins only
+		border-radius: var(--base-border-radius);
+		padding: 0.2rem;
+		width: 60px !important; // Override inline style on mobile
+		background-color: var(--accent);
+		background-image: linear-gradient(to right top, #a0b6d4, #b0b8df, #c6b9e6, #e0b8e7, #f9b7e1);
+		transition: transform 0.3s ease;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+		@media (max-width: 576px) {
+			width: 50px !important;
+			height: 50px;
+		}
+	}
 	.tags-heading {
 		margin: 0 0 0 0.25rem;
 		padding: 0;
@@ -193,6 +238,12 @@
 			padding: 0.5rem;
 			border: var(--classic-border);
 			border-radius: var(--base-border-radius);
+		}
+	}
+	@media (max-width: 500px) {
+		.qr-image-border {
+			margin: 0;
+			padding: 0;
 		}
 	}
 </style>

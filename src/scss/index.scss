@@ -1037,6 +1037,11 @@ main {
 	}
 }
 
+.comment-box {
+	margin: 0.5rem 0;
+	padding: 0.75rem;
+}
+
 @media (max-width: 576px) {
 	h1,
 	h2,
@@ -1091,6 +1096,8 @@ main {
 	}
 
 	.comment-box {
+		margin: 0.25rem 0;
+		padding: 0.5rem;
 		padding-bottom: 0 !important;
 	}
 
@@ -1112,6 +1119,15 @@ main {
 
 	.bento-list {
 		grid-template-columns: 1fr;
+	}
+
+	.interact-text-container {
+		margin: 0.5rem 0;
+
+		textarea {
+			padding: 0.5rem;
+			font-size: 0.875rem;
+		}
 	}
 }
 
