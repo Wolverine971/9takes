@@ -9,7 +9,7 @@
 	let innerWidth = 0;
 
 	const siteName = '9takes';
-	const title = 'Open Source Your Conflict Resolution | 9takes';
+	const title = '9takes | Open Source Your Conflict Resolution';
 	const metaDescription =
 		'Transform conflicts into growth opportunities. Get unique perspectives from 9 different personality types. Anonymous, unbiased feedback for better decision-making.';
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
@@ -140,9 +140,9 @@
 	<meta name="twitter:image:alt" content="9takes - Open Source Your Conflict Resolution" />
 
 	<!-- Structured Data -->
-	{#if structuredData}
-		{@html `<script type="application/ld+json">${structuredData}</script>`}
-	{/if}
+	<script type="application/ld+json">
+		{JSON.stringify(structuredData)}
+	</script>
 
 	<!-- Additional SEO Tags -->
 	<meta name="theme-color" content="#000000" />
@@ -157,7 +157,7 @@
 
 <svelte:window bind:innerWidth />
 
-<main class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<main class="mx-auto max-w-7xl !px-4 sm:px-6 lg:px-8">
 	<!-- Hero Section -->
 	<div class="section-wrapper">
 		{#if sectionsVisible[0]}
@@ -165,24 +165,26 @@
 				<div class="hero-content flex flex-col items-center gap-8 md:flex-row md:justify-between">
 					<div class="max-w-xl">
 						<h1 class="mb-6 text-5xl font-bold md:text-6xl">
-							Open Source Your Conflict Resolution
+							9takes, <br /> Open Source Conflict Resolution
 						</h1>
 						<h2 class="mb-6 text-xl font-medium text-gray-600 md:text-2xl">
 							Understand any conflict from 9 unique perspectives.<br />
 							Ask questions. Get unbiased feedback. Find clarity.
 						</h2>
-						<div class="flex gap-4">
-							<button class="btn-primary rounded-lg px-6 py-3">
+						<div class="flex gap-4" style="">
+							{#if innerWidth >= 768}
+								<button class="btn-secondary text-nowrap rounded-lg px-6 py-3 md:block">
+									Learn More ↓
+								</button>
+							{/if}
+							<button class="btn-primary rounded-lg px-6 py-3" style="width: 100%;">
 								Ask a Question {innerWidth <= 768 ? '↓' : '→'}
-							</button>
-							<button class="btn-secondary hidden rounded-lg px-6 py-3 md:block">
-								Learn More ↓
 							</button>
 						</div>
 					</div>
 					<div class="w-full md:w-1/2">
 						<div class="glass-area">
-							<h3 class="mb-4 text-xl font-semibold">Latest Questions</h3>
+							<h3 class="!mt-0 mb-4 !pt-0 text-xl font-semibold">Latest Questions</h3>
 							<div class="question-list">
 								{#each data?.top9Questions || [] as questionData}
 									<QuestionItem {questionData} showDetails={true} />
@@ -217,8 +219,8 @@
 	<div class="section-wrapper">
 		{#if sectionsVisible[2]}
 			<section class="dark-section rounded-lg p-12" in:fly={getTransition(2)}>
-				<h2 class="mb-8 text-center text-4xl font-bold">Why Nine Takes?</h2>
-				<div class="mx-auto max-w-3xl text-center">
+				<h2 class="mb-8 text-center text-4xl font-bold">Why 9takes?</h2>
+				<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 2rem;">
 					<p class="mb-6 text-xl">
 						Based on the Enneagram's nine personality types, 9takes ensures you get a complete
 						picture of any situation.
