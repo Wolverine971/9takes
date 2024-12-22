@@ -23,3 +23,7 @@
 [long p romps2](https://docs.google.com/document/d/1YLMxaAgG2d7LW4H5caP5wNTF2bRfcduj7Yt9M1JPU-E/edit)
 
 <!-- 9 something -->
+
+## Monetization
+
+https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
