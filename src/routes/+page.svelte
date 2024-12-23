@@ -229,9 +229,11 @@
 					</p>
 					<div class="grid grid-cols-3 gap-4">
 						{#each Array(9) as _, i}
-							<div class="type-box flex h-24 items-center justify-center rounded-lg">
-								<span class="text-2xl font-bold">Type {i + 1}</span>
-							</div>
+							<a class="text-2xl font-bold" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
+								<div class="type-box flex h-24 items-center justify-center rounded-lg">
+									<span class="text-2xl font-bold">Type {i + 1}</span>
+								</div>
+							</a>
 						{/each}
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 ---
-title: 'Michelle Obama Enneagram type 1'
-description: 'Why Michelle Obama appears to be a type 1'
+title: 'Michelle Obama Enneagram Type 1'
+description: 'Why Michelle Obama appears to be a Type 1'
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/personality-analysis/Michelle-Obama'
