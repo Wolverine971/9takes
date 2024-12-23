@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 4: The Individualist'
+title: 'Enneagram Type 4: "The Individualist"'
 description: "Dive into the Individualist or Romantic's unique creativity and self-expression. Explore how Fours navigate deep emotions and desires."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -370,9 +370,9 @@ The childhood experiences of Enneagram Type 4 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-    - May have felt like an outsider in their own family, struggling to find a place where they truly belonged.
-    - Highly attuned to their emotional environment, often feeling misunderstood or overlooked.
-    - Might have developed a rich inner world as a coping mechanism for feeling different.
+  - May have felt like an outsider in their own family, struggling to find a place where they truly belonged.
+  - Highly attuned to their emotional environment, often feeling misunderstood or overlooked.
+  - Might have developed a rich inner world as a coping mechanism for feeling different.
 
 - **Typical Behaviors:** Sought out unique or creative outlets for expression. They may have had a rich fantasy life, often feeling melancholic or different from others.
 

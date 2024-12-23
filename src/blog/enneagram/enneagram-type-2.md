@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 2: The Helper'
+title: 'Enneagram Type 2: "The Helper"'
 description: "Explore the Helper or Giver's empathetic and caring nature. Understand how Twos prioritize others' needs and seek love."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -208,9 +208,9 @@ The childhood experiences of Type 2 individuals play a crucial role in shaping t
 
 - **Developmental Aspects:**
 
-    - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
-    - May have received praise and acknowledgment primarily when supporting or nurturing others.
-    - Learned to suppress their own needs and emotions to maintain harmony and gain approval.
+  - Encouraged to be attuned to others' needs, sometimes at the expense of their own.
+  - May have received praise and acknowledgment primarily when supporting or nurturing others.
+  - Learned to suppress their own needs and emotions to maintain harmony and gain approval.
 
 - **Typical Behaviors:** Always ready to help, often putting others' needs before their own. May have taken on roles like mediator or caretaker within the family from a young age.
 

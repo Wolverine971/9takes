@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 5: The Observer'
+title: 'Enneagram Type 5: "The Observer"'
 description: "Understand the Investigator or Observer's thirst for knowledge and need for privacy. Discover how Fives analyze the world and conserve energy."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -349,9 +349,9 @@ The childhood experiences of Enneagram Type 5 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-    - May have been exposed to overwhelming adult issues or expectations at a young age.
-    - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
-    - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
+  - May have been exposed to overwhelming adult issues or expectations at a young age.
+  - Often found comfort in solitary activities, like reading, puzzles, or exploring nature.
+  - Might have felt overwhelmed by emotional or sensory stimuli in their environment.
 
 - **Typical Behaviors:** Preferred observing rather than participating, developed early expertise in niche subjects, and often sought out quiet spaces for reflection.
 

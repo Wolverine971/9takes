@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 9: The Peacemaker'
+title: 'Enneagram Type 9: "The Peacemaker"'
 description: "Explore the Peacemaker or Mediator's desire for harmony and inner peace. Understand how Nines mediate conflicts and blend in with others."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -348,9 +348,9 @@ The childhood experiences of Enneagram Type 9 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-    - May have been surrounded by strong personalities or conflict, leading them to take on a mediating role from a young age.
-    - Often found comfort in routine, familiar environments, and activities that didn't draw attention to themselves.
-    - Might have learned that expressing strong opinions or emotions led to discomfort or conflict, reinforcing their tendency to withdraw.
+  - May have been surrounded by strong personalities or conflict, leading them to take on a mediating role from a young age.
+  - Often found comfort in routine, familiar environments, and activities that didn't draw attention to themselves.
+  - Might have learned that expressing strong opinions or emotions led to discomfort or conflict, reinforcing their tendency to withdraw.
 
 - **Typical Behaviors:** As children, Type 9s often avoided conflict, appeared complacent or agreeable, and developed a chameleon-like ability to blend into different social groups.
 

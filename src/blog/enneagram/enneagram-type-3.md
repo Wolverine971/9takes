@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 3: The Achiever'
+title: 'Enneagram Type 3: "The Achiever"'
 description: "Uncover the Achiever or Performer's drive for success and recognition. Learn how Threes excel in goals and adapt to expectations."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -198,9 +198,9 @@ The childhood experiences of Type 3 individuals play a crucial role in shaping t
 - <strong>Childhood Wound:</strong> Internalized the idea that love and acceptance were contingent on their successes and achievements.
 - <strong>Developmental Aspects:</strong>
 
-    - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
-    - Often received more attention and praise for their actions than for who they were as individuals.
-    - Learned to adapt their behavior and achievements to gain approval and recognition.
+  - Encouraged, sometimes pressured, to excel in various fields like academics, sports, or arts.
+  - Often received more attention and praise for their actions than for who they were as individuals.
+  - Learned to adapt their behavior and achievements to gain approval and recognition.
 
 - <strong>Typical Behaviors:</strong> Highly driven, often overachievers, striving to be the best in their pursuits. They may have taken on leadership roles in school or extracurricular activities, always seeking to stand out and be recognized.
 

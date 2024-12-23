@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 6: The Loyalist'
+title: 'Enneagram Type 6: "The Loyalist"'
 description: "Learn about the Loyalist or Skeptic's commitment to security and questioning nature. See how Sixes navigate trust and preparedness."
 author: 'DJ Wayne'
 date: '2023-02-18'
@@ -355,9 +355,9 @@ The childhood experiences of Enneagram Type 6 individuals play a significant rol
 
 - **Developmental Aspects:**
 
-    - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
-    - Often found security in routines, rules, or structured environments.
-    - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
+  - May have been put in a position of responsibility or caretaking at a young age, heightening their sense of duty and anxiety.
+  - Often found security in routines, rules, or structured environments.
+  - Might have experienced inconsistent or unpredictable parenting, leading to a need for constant vigilance.
 
 - **Typical Behaviors:** Often became the "worrier" or the "responsible one" in their family or friend groups. They may have developed a habit of seeking reassurance or guidance from authority figures.
 

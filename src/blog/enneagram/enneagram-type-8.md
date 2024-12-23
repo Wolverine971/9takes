@@ -1,5 +1,5 @@
 ---
-title: 'Enneagram Type 8: The Challenger'
+title: 'Enneagram Type 8: "The Challenger"'
 description: "Discover the Challenger or Protector's self-confidence and assertive nature. Learn how Eights protect others and strive for control."
 author: 'DJ Wayne'
 date: '2023-02-18'
