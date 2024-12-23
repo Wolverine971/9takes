@@ -6,6 +6,7 @@ export const load: PageServerLoad = async () => {
 		.from('questions')
 		.select('*')
 		.order('comment_count', { ascending: false })
+		.eq('removed', false)
 		.limit(9);
 
 	if (top9QuestionsError) {

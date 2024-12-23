@@ -103,7 +103,7 @@
 
 	<section class="subscriptions-section">
 		<h2>Question subscriptions</h2>
-		{#if data.subscriptions?.length}
+		{#if !data.subscriptions?.length}
 			<p>You are not subscribed to any questions</p>
 			<a href="/questions">Checkout some questions</a>
 		{:else}

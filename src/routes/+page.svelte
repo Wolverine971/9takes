@@ -54,21 +54,37 @@
 	onMount(() => {
 		const observer = new IntersectionObserver(
 			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						const index = parseInt(entry.target.dataset.index);
-						sectionsVisible[index] = true;
-					}
+				requestAnimationFrame(() => {
+					entries.forEach((entry) => {
+						if (entry.isIntersecting) {
+							const index = parseInt(entry.target.dataset.index);
+							sectionsVisible[index] = true;
+						}
+					});
 				});
 			},
-			{ threshold: 0.2 }
+			{
+				threshold: 0.2,
+				rootMargin: '50px'
+			}
 		);
 
 		document.querySelectorAll('.section-wrapper').forEach((section, index) => {
 			section.dataset.index = index.toString();
 			observer.observe(section);
 		});
-		marqueeWidth = personalities.length * 200; // Each card is ~200px wide
+
+		const calculateWidth = () => {
+			const card = document.querySelector('.personality-card');
+			if (card) {
+				const cardWidth = card.offsetWidth;
+				marqueeWidth = Math.ceil(personalities.length * (cardWidth + 32)); // Include gap
+			}
+		};
+		calculateWidth();
+		window.addEventListener('resize', calculateWidth, { passive: true });
+
+		return () => window.removeEventListener('resize', calculateWidth);
 	});
 
 	function getTransition(index: number) {
@@ -272,7 +288,7 @@
 			<div class="marquee-outer my-12">
 				<div
 					class="marquee-container"
-					style="--marquee-width: {marqueeWidth}px;"
+					style="--marquee-width: {Math.ceil(marqueeWidth)}px;"
 					on:mouseenter={() => (isHovering = true)}
 					on:mouseleave={() => (isHovering = false)}
 				>
@@ -283,8 +299,11 @@
 									<img
 										src="/types/{type}s/{slug}.webp"
 										alt={name}
-										class="h-28 w-28 rounded-full object-cover transition-transform group-hover:scale-105 md:h-36 md:w-36"
+										width="144"
+										height="144"
+										class="h-28 w-28 rounded-full object-cover md:h-36 md:w-36"
 										loading="lazy"
+										decoding="async"
 									/>
 									<div
 										class="absolute inset-0 rounded-full ring-1 ring-black/5 group-hover:ring-2 group-hover:ring-purple-500/50"
@@ -350,6 +369,10 @@
 		--primary-dark: #1a202c;
 	}
 
+	img {
+		aspect-ratio: 1;
+	}
+
 	.glass-area {
 		background: rgba(255, 255, 255, 0.2);
 		backdrop-filter: blur(10px);
@@ -360,6 +383,9 @@
 
 	.personality-card {
 		@apply flex min-w-[120px] flex-col items-center p-3 transition-all duration-300 md:min-w-[160px];
+		aspect-ratio: 1;
+		min-height: 240px;
+		container-type: inline-size;
 
 		img {
 			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);

@@ -810,6 +810,8 @@ main {
 
 .section-wrapper {
 	margin-bottom: 4rem;
+	content-visibility: auto;
+	contain-intrinsic-size: 700px;
 }
 
 .highlight {
@@ -876,6 +878,7 @@ main {
 .question-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	min-height: 400px;
 }
 
 /* Bento List */

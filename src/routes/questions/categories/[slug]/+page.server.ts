@@ -15,6 +15,7 @@ export async function load(event) {
 			.from(demo_time === true ? 'questions_demo' : 'questions')
 			.select('*')
 			.eq('author_id', session?.user?.id)
+			.eq('removed', false)
 			.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
 			.limit(10);
 

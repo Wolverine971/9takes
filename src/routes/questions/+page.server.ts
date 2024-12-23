@@ -20,6 +20,7 @@ export const load: PageServerLoad = async (event) => {
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.select('*')
 				.eq('author_id', session?.user?.id)
+				.eq('removed', false)
 				.gte('created_at', new Date(new Date().getTime() - 24 * 60 * 60 * 1000).toISOString())
 				.limit(10);
 
@@ -133,7 +134,8 @@ export const actions: Actions = {
 				.textSearch('question', `${questionString.split(' ').join(' | ')}`, {
 					type: 'websearch',
 					config: 'english'
-				});
+				})
+				.eq('removed', false)
 
 			if (findQuestionsError) {
 				console.log(findQuestionsError);
@@ -258,6 +260,7 @@ export const actions: Actions = {
 			const { data: moreQuestions, error: moreQuestionsError } = await supabase
 				.from(demo_time === true ? 'questions_demo' : 'questions')
 				.select(`* `, { count: 'estimated' })
+				.eq('removed', false)
 				.order('created_at', { ascending: false })
 				.range(count, count + 10);
 

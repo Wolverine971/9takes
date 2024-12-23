@@ -29,6 +29,7 @@ export const tagQuestions = async () => {
 			.select(`question, id`, { count: 'estimated' })
 			.eq('tagged', false)
 			.eq('flagged', false)
+			.eq('removed', false)
 			.lte('created_at', yesterday);
 
 		if (!questions) {

@@ -29,7 +29,7 @@ export const load: PageServerLoad = async (event) => {
 			${demo_time === true ? 'questions_demo' : 'questions'}
 		(id, question, question_formatted, url)`
 		)
-		.eq('user_id', user?.id);
+		.eq('user_id', user?.id)
 
 	if (subscriptionsError) {
 		console.log(subscriptionsError);
