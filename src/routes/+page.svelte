@@ -140,9 +140,11 @@
 	<meta name="twitter:image:alt" content="9takes - Open Source Your Conflict Resolution" />
 
 	<!-- Structured Data -->
-	<script type="application/ld+json">
+	{#if structuredData}
+		<script type="application/ld+json">
 		{JSON.stringify(structuredData)}
-	</script>
+		</script>
+	{/if}
 
 	<!-- Additional SEO Tags -->
 	<meta name="theme-color" content="#000000" />
