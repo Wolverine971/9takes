@@ -35,7 +35,21 @@
 	// 	}
 	// });
 
+	const personalities = [
+		{ name: 'MrBeast', type: '8', slug: 'Mr-Beast' },
+		{ name: 'Beyoncé', type: '8', slug: 'Beyonce-Knowles' },
+		{ name: 'Elon Musk', type: '5', slug: 'Elon-Musk' },
+		{ name: 'Kanye West', type: '7', slug: 'Kanye' },
+		{ name: 'Taylor Swift', type: '3', slug: 'Taylor-Swift' },
+		{ name: 'Oprah Winfrey', type: '2', slug: 'Oprah-Winfrey' },
+		{ name: 'Tom Cruise', type: '3', slug: 'Tom-Cruise' },
+		{ name: 'Keanu Reeves', type: '9', slug: 'Keanu-Reeves' },
+		{ name: 'Barack Obama', type: '9', slug: 'Barack-Obama' }
+	];
+
 	let sectionsVisible = Array(5).fill(false);
+	let marqueeWidth: number;
+	let isHovering = false;
 
 	onMount(() => {
 		const observer = new IntersectionObserver(
@@ -54,6 +68,7 @@
 			section.dataset.index = index.toString();
 			observer.observe(section);
 		});
+		marqueeWidth = personalities.length * 200; // Each card is ~200px wide
 	});
 
 	function getTransition(index: number) {
@@ -241,6 +256,59 @@
 		{/if}
 	</div>
 
+	<!-- Personality Analysis CTA -->
+	<!-- Personality Analysis CTA -->
+	<div class="section-wrapper my-24">
+		<section
+			class="personality-cta mx-auto max-w-6xl rounded-xl bg-white !p-6 pb-2 shadow-xl md:p-12"
+		>
+			<div class="mx-auto mb-8 max-w-3xl text-center">
+				<h2 class="mb-3 text-2xl font-bold md:text-3xl">Learn Your Type Through Famous People</h2>
+				<p class="text-lg text-gray-600">
+					Explore personalities you relate to—the natural way to discover your type.
+				</p>
+			</div>
+
+			<div class="marquee-outer my-12">
+				<div
+					class="marquee-container"
+					style="--marquee-width: {marqueeWidth}px;"
+					on:mouseenter={() => (isHovering = true)}
+					on:mouseleave={() => (isHovering = false)}
+				>
+					<div class="marquee" class:paused={isHovering}>
+						{#each [...personalities, ...personalities] as { name, type, slug }}
+							<a href="/personality-analysis/{slug}" class="personality-card group">
+								<div class="relative">
+									<img
+										src="/types/{type}s/{slug}.webp"
+										alt={name}
+										class="h-28 w-28 rounded-full object-cover transition-transform group-hover:scale-105 md:h-36 md:w-36"
+										loading="lazy"
+									/>
+									<div
+										class="absolute inset-0 rounded-full ring-1 ring-black/5 group-hover:ring-2 group-hover:ring-purple-500/50"
+									></div>
+								</div>
+								<p class="mt-3 text-sm font-medium text-gray-900 md:text-base">{name}</p>
+								<p class="text-xs text-purple-600 md:text-sm">Type {type}</p>
+							</a>
+						{/each}
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-8 text-center">
+				<a
+					href="/personality-analysis"
+					class="inline-flex items-center justify-center rounded-lg bg-black px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-gray-800 md:text-base"
+				>
+					Explore All Personalities →
+				</a>
+			</div>
+		</section>
+	</div>
+
 	<!-- Benefits Section -->
 	<div class="section-wrapper">
 		{#if sectionsVisible[3]}
@@ -288,6 +356,85 @@
 		border-radius: 1rem;
 		padding: 1.5rem;
 		box-shadow: 0 4px 6px var(--shadow-color);
+	}
+
+	.personality-card {
+		@apply flex min-w-[120px] flex-col items-center p-3 transition-all duration-300 md:min-w-[160px];
+
+		img {
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+		}
+	}
+
+	.marquee-outer {
+		overflow: hidden;
+	}
+
+	.marquee-container {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.marquee-container::before,
+	.marquee-container::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 10rem;
+		height: 100%;
+		z-index: 1;
+		pointer-events: none;
+	}
+
+	.marquee-container::before {
+		left: 0;
+		background: linear-gradient(to right, white, transparent);
+	}
+
+	.marquee-container::after {
+		right: 0;
+		background: linear-gradient(to left, white, transparent);
+	}
+
+	.marquee {
+		display: flex;
+		gap: 2rem;
+		padding: 1rem;
+		animation: scroll 40s linear infinite;
+
+		&.paused {
+			animation-play-state: paused;
+		}
+	}
+
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-1 * var(--marquee-width) - 2rem));
+		}
+	}
+
+	.personality-card {
+		flex: 0 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 0.5rem;
+		transition: transform 0.3s ease;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.marquee {
+			animation: none;
+		}
 	}
 
 	.dark-section {
