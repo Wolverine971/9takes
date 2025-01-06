@@ -9,7 +9,7 @@
 		<input type="text" name="email" readonly value={data?.session?.user?.email} /> -->
 		<label for=""> Password </label>
 		<input type="password" name="password" bind:value={password} />
-		<button class="btn btn-primary">Reset</button>
+		<button class="btn btn-primary mt-1">Reset</button>
 	</form>
 </div>
 

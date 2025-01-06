@@ -1,11 +1,6 @@
 <script lang="ts">
 	let email = '';
 
-	const handleSubmit = async (event: Event) => {
-		event.preventDefault();
-		// Add your form submission logic here
-		// You might want to add error handling and success messaging here
-	};
 	const ogImage = 'https://9takes.com/greek_pantheon.png';
 </script>
 
@@ -24,7 +19,7 @@
 
 <div class="container">
 	<h1 class="title">Forgot Password</h1>
-	<form on:submit={handleSubmit} class="auth-form">
+	<form action="?/forgotPass" method="POST" class="auth-form">
 		<div class="form-group">
 			<label for="email">Email</label>
 			<input type="email" id="email" name="email" bind:value={email} required />
