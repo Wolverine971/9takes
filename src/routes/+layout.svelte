@@ -68,6 +68,13 @@
 
 	onMount(async () => {
 		window.addEventListener('load', loadAnalytics);
+		console.log(`
+ ___  _        _              
+/ _ \\| |_ __ _| | _____  ___ 
+| (_) | __/ _\`| |/ / _ \\/ __|
+ \\__, | || (_| |   <  __/\\__ \\
+   /_/ \\__\\__,_|_|\\_\\___||___/
+`);
 
 		try {
 			const fp = await FingerprintJS.load();
