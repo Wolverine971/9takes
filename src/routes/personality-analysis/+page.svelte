@@ -16,6 +16,55 @@
 		'technologists'
 	];
 	$: innerWidth = 0;
+
+	onMount(() => {
+		// Add clock markers
+		const svg = document.querySelector('svg');
+		for (let i = 1; i <= 12; i++) {
+			const el = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+			el.setAttribute('x1', '100');
+			el.setAttribute('y1', '30');
+			el.setAttribute('x2', '100');
+			el.setAttribute('y2', '40');
+			el.setAttribute('transform', `rotate(${(i * 360) / 12} 100 100)`);
+			el.setAttribute('style', 'stroke: #ffffff;');
+			svg?.appendChild(el);
+		}
+
+		// Function to update clock hands
+		const updateClock = () => {
+			const date = new Date();
+			const hours = date.getHours() % 12;
+			const minutes = date.getMinutes();
+			const seconds = date.getSeconds();
+			const milliseconds = date.getMilliseconds();
+
+			// Calculate precise angles including milliseconds for smooth movement
+			const hoursAngle =
+				(hours * 360) / 12 + (minutes * 360) / (12 * 60) + (seconds * 360) / (12 * 60 * 60);
+			const minutesAngle = (minutes * 360) / 60 + (seconds * 360) / (60 * 60);
+			const secondsAngle = (seconds * 360) / 60 + (milliseconds * 360) / (60 * 1000);
+
+			// Get hand elements
+			const hourHand = document.querySelector('#hourhand');
+			const minuteHand = document.querySelector('#minutehand');
+			const secondHand = document.querySelector('#secondhand');
+
+			// Update transforms
+			hourHand?.setAttribute('transform', `rotate(${hoursAngle} 100 100)`);
+			minuteHand?.setAttribute('transform', `rotate(${minutesAngle} 100 100)`);
+			secondHand?.setAttribute('transform', `rotate(${secondsAngle} 100 100)`);
+		};
+
+		// Initial update
+		updateClock();
+
+		// Update every 50ms for smooth second hand movement
+		const interval = setInterval(updateClock, 50);
+
+		// Cleanup interval on component unmount
+		return () => clearInterval(interval);
+	});
 </script>
 
 <svelte:window bind:innerWidth />
@@ -119,87 +168,204 @@
 	</script>
 </svelte:head>
 
-<BlogPageHead
-	data={{
-		title: '9takes Analysis of Famous People | Character Studies',
-		description:
-			'Explore in-depth Enneagram-based personality analyses of influential figures across various domains. Gain unique insights into human behavior and potential.'
-	}}
-	slug={'personality-analysis'}
-/>
+<div class="background-clock">
+	<div class="filler"></div>
+	<svg width="400" height="400" viewBox="0 0 200 200">
+		<filter id="innerShadow" x="-20%" y="-20%" width="140%" height="140%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+			<feOffset in="blur" dx="2.5" dy="2.5" />
+		</filter>
+		<g>
+			<circle
+				id="shadow"
+				style="fill:rgba(0,0,0,0.1)"
+				cx="97"
+				cy="100"
+				r="87"
+				filter="url(#innerShadow)"
+			></circle>
+			<circle
+				id="circle"
+				style="stroke: rgba(255, 255, 255, 0.9); stroke-width: 12px; fill:rgb(98, 44, 191)"
+				cx="100"
+				cy="100"
+				r="80"
+			></circle>
+		</g>
+		<g>
+			<line
+				x1="100"
+				y1="100"
+				x2="100"
+				y2="55"
+				transform="rotate(80 100 100)"
+				style="stroke-width: 3px; stroke: #fffbf9;"
+				id="hourhand"
+			>
+				<animatetransform
+					attributeName="transform"
+					attributeType="XML"
+					type="rotate"
+					dur="43200s"
+					repeatCount="indefinite"
+				/>
+			</line>
+			<line
+				x1="100"
+				y1="100"
+				x2="100"
+				y2="40"
+				style="stroke-width: 4px; stroke: #fdfdfd;"
+				id="minutehand"
+			>
+				<animatetransform
+					attributeName="transform"
+					attributeType="XML"
+					type="rotate"
+					dur="3600s"
+					repeatCount="indefinite"
+				/>
+			</line>
+			<line
+				x1="100"
+				y1="100"
+				x2="100"
+				y2="30"
+				style="stroke-width: 2px; stroke: #e9d9ff;"
+				id="secondhand"
+			>
+				<animatetransform
+					attributeName="transform"
+					attributeType="XML"
+					type="rotate"
+					dur="60s"
+					repeatCount="indefinite"
+				/>
+			</line>
+		</g>
+		<circle
+			id="center"
+			style="fill:rgb(111, 39, 235); stroke: #e9d9ff; stroke-width: 2px;"
+			cx="100"
+			cy="100"
+			r="3"
+		></circle>
+	</svg>
+</div>
 
-<h1>Person Analysis / Character Studies</h1>
+<div class="content-wrapper">
+	<BlogPageHead
+		data={{
+			title: '9takes Analysis of Famous People | Character Studies',
+			description:
+				'Explore in-depth Enneagram-based personality analyses of influential figures across various domains. Gain unique insights into human behavior and potential.'
+		}}
+		slug={'personality-analysis'}
+	/>
 
-<section class="introduction">
-	<p>Ever wonder what makes Elon Musk a visionary or Beyoncé a cultural icon?</p>
-	<p>
-		You're not alone. Here we dissect the personalities of influential figures across various
-		domains:
-	</p>
-	<ul>
-		{#each categories as category}
-			<li>{category}</li>
-		{/each}
-	</ul>
-	<p>
-		We go beyond surface-level chatter, grounding our insights in psychological theories and
-		real-life examples. Understanding the nuances of these personalities offers a unique lens into
-		human behavior and our own potential. Intrigued? Your exploration into the complex tapestry of
-		human personalities starts here.
-	</p>
-</section>
+	<h1>Person Analysis / Character Studies</h1>
 
-<section class="enneagram-types">
-	{#each Array.from({ length: 9 }, (_, i) => i + 1) as number}
-		<div class="enneagram-type">
-			<h2 id="type-{number}">Enneagram Type {number}s</h2>
-			<div class="people-grid-container">
-				{#each data.people
-					.filter((p) => p.enneagram === number)
-					.slice(0, innerWidth > 960 ? 4 : 5) as person}
+	<section class="introduction">
+		<p>
+			In order to understand what makes you tick it is helpful to understand what makes other people
+			tick.
+		</p>
+		<p>Here we dissect the personalities of influential figures across various domains.</p>
+		<ul>
+			{#each categories as category}
+				<li>{category}</li>
+			{/each}
+		</ul>
+		<p>
+			Going beyond surface-level observations we ground our insights in psychological theories and
+			real-life examples. When you start to understand the nuances of these personalities you
+			develop sharp perspective on human behavior and our own potential.
+		</p>
+	</section>
+
+	<section class="enneagram-types">
+		{#each Array.from({ length: 9 }, (_, i) => i + 1) as number}
+			<div class="enneagram-type">
+				<h2 id="type-{number}">Enneagram Type {number}s</h2>
+				<div class="people-grid-container">
+					{#each data.people
+						.filter((p) => p.enneagram === number)
+						.slice(0, innerWidth > 960 ? 4 : 5) as person}
+						<a
+							href="/personality-analysis/{person.slug}"
+							class="grid-item"
+							aria-label="View analysis of {person.slug.split('-').join(' ')}"
+						>
+							{#if person.enneagram}
+								<img
+									srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
+									loading="lazy"
+									class="grid-img"
+									src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
+									alt={person.slug.split('-').join(' ')}
+									width="218"
+									height="218"
+								/>
+							{/if}
+							<div class="person-name">
+								<span>{person.slug.split('-').join(' ')}</span>
+							</div>
+						</a>
+					{/each}
 					<a
-						href="/personality-analysis/{person.slug}"
-						class="grid-item"
-						aria-label="View analysis of {person.slug.split('-').join(' ')}"
+						href="/personality-analysis/type/{number}"
+						class="grid-item view-all"
+						aria-label="View all Type {number}s"
 					>
-						{#if person.enneagram}
-							<img
-								srcset="{`/types/${person.enneagram}s/s-${person.slug}.webp`} 218w"
-								loading="lazy"
-								class="grid-img"
-								src={`/types/${person.enneagram}s/s-${person.slug}.webp`}
-								alt={person.slug.split('-').join(' ')}
-								width="218"
-								height="218"
-							/>
-						{/if}
-						<div class="person-name">
-							<span>{person.slug.split('-').join(' ')}</span>
+						<div class="view-all-content">
+							<span>All {number}s</span>
+							<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#833bff'} />
 						</div>
 					</a>
-				{/each}
-				<a
-					href="/personality-analysis/type/{number}"
-					class="grid-item view-all"
-					aria-label="View all Type {number}s"
-				>
-					<div class="view-all-content">
-						<span>All {number}s</span>
-						<ArrowRightIcon iconStyle={'margin-left: .5rem'} height={'1.5rem'} fill={'#833bff'} />
-					</div>
-				</a>
+				</div>
 			</div>
-		</div>
-	{/each}
-</section>
-
-{#if !data?.session?.user}
-	<section class="join">
-		<EmailSignup />
+		{/each}
 	</section>
-{/if}
+
+	{#if !data?.session?.user}
+		<section class="join">
+			<EmailSignup />
+		</section>
+	{/if}
+</div>
 
 <style lang="scss">
+	:global(body) {
+		background: #eee;
+		position: relative;
+		min-height: 100vh;
+		margin: 0;
+		padding: 0;
+	}
+
+	.background-clock {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #eee;
+	}
+
+	.content-wrapper {
+		position: relative;
+		z-index: 1;
+		background: rgba(255, 255, 255, 0.98);
+		min-height: 100vh;
+		padding: 2rem;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+		opacity: 0.9;
+	}
+
 	h1 {
 		text-align: center;
 		font-size: 2.5rem;

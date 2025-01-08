@@ -29,6 +29,7 @@
 	.heading {
 		margin: 0;
 		font-size: 1.8rem;
+		font-weight: bolder;
 	}
 	.large {
 		margin-top: calc(var(--spacing-unit) * 1);
