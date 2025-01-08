@@ -15,7 +15,7 @@
 	<title>9takes- About Page</title>
 	<meta
 		name="description"
-		content="Answering what is the purpose, inspiration, and who is behind 9takes"
+		content="Answers for what is the purpose of 9takes as well as the inspiration and people behind it"
 	/>
 	<link rel="canonical" href="https://9takes.com/about" />
 </svelte:head>
@@ -42,10 +42,7 @@
 			<div class="main">
 				<div class="profile-image">
 					<picture>
-						<source
-							srcset="/brand/djface.png, /brand/djface.png"
-							media="(orientation: portrait)"
-						/>
+						<source srcset="/brand/djface.png, /brand/djface.png" media="(orientation: portrait)" />
 						<img
 							src={showLaser ? '/brand/djface.png' : '/brand/djface.png'}
 							alt={showLaser ? 'DJ Wayne fun profile picture' : 'DJ Wayne serious profile picture'}
