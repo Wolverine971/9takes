@@ -2,7 +2,7 @@
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';
 	import { page } from '$app/stores';
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import type { PageData } from './$types';
 	import { webVitals } from '$lib/vitals';
@@ -22,69 +22,91 @@
 
 	let innerWidth = 0;
 
-	preparePageTransition();
-
-	function loadAnalytics() {
-		if (browser && !dev) {
-			// Google Analytics
-			const gaScript = document.createElement('script');
-			gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
-			gaScript.defer = true;
-			document.head.appendChild(gaScript);
-
-			window.dataLayer = window.dataLayer || [];
-			function gtag(...args: any[]) {
-				dataLayer.push(args);
-			}
-			gtag('js', new Date());
-			gtag('config', PUBLIC_GOOGLE);
-
-			// Microsoft Clarity
-			if (document.URL.includes('9takes')) {
-				(function (c, l, a, r, i, t, y) {
-					c[a] =
-						c[a] ||
-						function () {
-							(c[a].q = c[a].q || []).push(arguments);
-						};
-					t = l.createElement(r);
-					t.async = 1;
-					t.src = 'https://www.clarity.ms/tag/' + i;
-					y = l.getElementsByTagName(r)[0];
-					y.parentNode.insertBefore(t, y);
-				})(window, document, 'clarity', 'script', 'g3hw5t1scg');
-			}
-
-			// Web Vitals
-			if (VERCEL_ANALYTICS_ID) {
-				webVitals({
-					path: $page.url.pathname,
-					params: $page.params,
-					analyticsId: VERCEL_ANALYTICS_ID
-				});
-			}
+	// Declare gtag as a global function
+	declare global {
+		interface Window {
+			gtag: (...args: any[]) => void;
+			dataLayer: any[];
+			clarity: (...args: any[]) => void;
 		}
 	}
 
-	onMount(async () => {
-		window.addEventListener('load', loadAnalytics);
-		console.log(`
- ___  _        _              
-/ _ \\| |_ __ _| | _____  ___ 
-| (_) | __/ _\`| |/ / _ \\/ __|
- \\__, | || (_| |   <  __/\\__ \\
-   /_/ \\__\\__,_|_|\\_\\___||___/
-`);
+	preparePageTransition();
 
+	// Separate analytics initialization function
+	function initializeGoogleAnalytics() {
+		if (!PUBLIC_GOOGLE) {
+			console.warn('Google Analytics ID is not configured');
+			return;
+		}
+
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = function () {
+			window.dataLayer.push(arguments);
+		};
+
+		window.gtag('js', new Date());
+		window.gtag('config', PUBLIC_GOOGLE, {
+			page_path: $page.url.pathname,
+			transport_url: 'https://www.googletagmanager.com'
+		});
+	}
+
+	function initializeMicrosoftClarity() {
+		if (document.URL.includes('9takes')) {
+			(function (c, l, a, r, i, t, y) {
+				c[a] =
+					c[a] ||
+					function () {
+						(c[a].q = c[a].q || []).push(arguments);
+					};
+				t = l.createElement(r);
+				t.async = 1;
+				t.src = 'https://www.clarity.ms/tag/' + i;
+				y = l.getElementsByTagName(r)[0];
+				y.parentNode.insertBefore(t, y);
+			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
+		}
+	}
+
+	// Handle analytics script loading
+	function loadAnalytics() {
+		if (!browser || dev) return;
+
+		// Load Google Analytics Script
+		const gaScript = document.createElement('script');
+		gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
+		gaScript.async = true;
+		document.head.appendChild(gaScript);
+
+		// Initialize analytics after script loads
+		gaScript.onload = () => {
+			initializeGoogleAnalytics();
+			initializeMicrosoftClarity();
+		};
+
+		// Initialize Web Vitals
+		if (VERCEL_ANALYTICS_ID) {
+			webVitals({
+				path: $page.url.pathname,
+				params: $page.params,
+				analyticsId: VERCEL_ANALYTICS_ID
+			});
+		}
+	}
+
+	async function initializeFingerprint() {
 		try {
 			const fp = await FingerprintJS.load();
 			const fpval = await fp.get();
 			const visitorId = fpval?.visitorId?.toString();
+
 			if (visitorId) {
 				const formdata = new FormData();
 				formdata.append('fp', visitorId);
 				setCookie('9tfingerprint', visitorId, 365);
-				await fetch(`/api/adder`, {
+
+				await fetch('/api/adder', {
 					method: 'POST',
 					body: formdata
 				});
@@ -92,14 +114,30 @@
 		} catch (error) {
 			console.error('Error in fingerprint processing:', error);
 		}
+	}
+
+	onMount(() => {
+		loadAnalytics();
+		initializeFingerprint();
+
+		// ASCII art
+		console.log(`
+ ___  _        _              
+/ _ \\| |_ __ _| | _____  ___ 
+| (_) | __/ _\`| |/ / _ \\/ __|
+ \\__, | || (_| |   <  __/\\__ \\
+   /_/ \\__\\__,_|_|\\_\\___||___/
+`);
 	});
 
-	$: if (browser && !dev && typeof gtag !== 'undefined') {
-		gtag('config', PUBLIC_GOOGLE, {
+	// Track page changes
+	$: if (browser && !dev && window.gtag) {
+		window.gtag('config', PUBLIC_GOOGLE, {
 			page_title: document.title,
 			page_path: $page.url.pathname
 		});
 	}
+
 	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
 </script>
 
