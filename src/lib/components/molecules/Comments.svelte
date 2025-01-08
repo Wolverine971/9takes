@@ -15,7 +15,7 @@
 	export let comment_count: number;
 	export let parentData: any;
 	export let key: number = 0; // Add this to force re-render
-	export let onCommentsUpdate = () => {};
+	// export let onCommentsUpdate = () => {};
 
 	$: lastDate = comments?.length ? comments[comments.length - 1]?.created_at || null : null;
 	$: _comments = comments ? JSON.parse(JSON.stringify(comments)) : [];

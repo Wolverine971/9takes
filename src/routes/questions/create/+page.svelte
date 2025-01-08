@@ -4,7 +4,6 @@
 	import { goto } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import QRCode from 'qrcode';
-	import { toPng } from 'html-to-image';
 	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';

@@ -273,6 +273,7 @@
 				</div>
 				<div
 					class="comment-actions"
+					role="group"
 					on:mouseenter={() => (isHovered = true)}
 					on:mouseleave={() => (isHovered = false)}
 				>

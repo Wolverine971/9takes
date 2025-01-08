@@ -54,7 +54,6 @@
 	function formatUrl(name: string): string {
 		return `/questions/categories/${name.split(' ').join('-')}`;
 	}
-	console.log(data);
 </script>
 
 <svelte:head>

@@ -266,6 +266,7 @@
 				class="item-color cursor-pointer rounded p-2 text-sm hover:opacity-80"
 				style="background-color: {campaigns.find((c) => c.id === item.campaign_id)?.color ||
 					'#e2e8f0'}"
+				role="button"
 				on:click={() => {
 					openContentEditor(item);
 					showAllContentModal = false;
