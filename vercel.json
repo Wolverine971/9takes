@@ -3,7 +3,7 @@
 	"alias": "9takes.com",
 	"framework": "sveltekit",
 	"installCommand": "pnpm i --no-frozen-lockfile",
-	"buildCommand": "pnpm run build --no-symlinks",
+	"buildCommand": "pnpm run build",
 	"outputDirectory": ".svelte-kit/vercel",
 	"rewrites": [
 		{
