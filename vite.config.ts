@@ -18,6 +18,9 @@ const config = {
 			}
 		}
 	],
+	resolve: {
+		preserveSymlinks: false
+	},
 
 	define: {
 		// Public variables (accessible in client-side code)

@@ -17,7 +17,6 @@ const config = defineConfig({
 	smartypants: {
 		dashes: 'oldschool'
 	},
-
 	remarkPlugins: [
 		[
 			remarkGithub,

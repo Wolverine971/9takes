@@ -1,6 +1,10 @@
 {
 	"version": 2,
 	"alias": "9takes.com",
+	"framework": "sveltekit",
+	"installCommand": "pnpm i --no-frozen-lockfile",
+	"buildCommand": "pnpm run build --no-symlinks",
+	"outputDirectory": ".svelte-kit/vercel",
 	"rewrites": [
 		{
 			"source": "/proxytown/gtm",
