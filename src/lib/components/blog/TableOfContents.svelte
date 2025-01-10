@@ -68,8 +68,8 @@
 		const totalH3s = h2Sections.reduce((sum, section) => sum + section.h3s.length, 0);
 		const totalLinks = totalH2s + totalH3s;
 
-		if (totalLinks > 18) {
-			const availableH3Slots = 18 - totalH2s;
+		if (totalLinks > 24) {
+			const availableH3Slots = 24 - totalH2s;
 			const h3sPerSection = Math.floor(availableH3Slots / totalH2s);
 			let extraH3s = availableH3Slots % totalH2s;
 

@@ -4,7 +4,7 @@ description: 'An exploration of techniques for productive online arguments, high
 author: 'DJ Wayne'
 date: '2024-04-13'
 loc: 'https://9takes.com/community/what-winning-online-arguments-looks-like'
-lastmod: '2024-04-13'
+lastmod: '2025-01-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -102,7 +102,7 @@ First of all, you probably won't be able to have the conversation you want onlin
 
 Here are 4 steps to having productive arguments online:
 
-- ### Step 1: Change Your Mindset From Combative to Seeking to Learn
+### Step 1: Change Your Mindset From Combative to Seeking to Learn
 
 You are not here to preach, you're here to learn.
 
@@ -110,19 +110,19 @@ Before you respond, take a moment to truly absorb what the other person is sayin
 
 Once you have thoughtfully considered their point of view, you are ready to start typing.
 
-- ### Step 2: Find Common Ground By Narrowing the Point of Contention
+### Step 2: Find Common Ground By Narrowing the Point of Contention
 
 Start with what you agree on. Find the common ground. It's easier to build a conversation when you're not coming from opposing corners. You should be upfront and clear that you disagree about something; however, you should take the time to narrow the disagreement.
 
 Voice or type out what you likely agree on before arguing.
 
-- ### Step 3: Be Vulnerable To Unlock Deep Levels of Understanding
+### Step 3: Be Vulnerable To Unlock Deep Levels of Understanding
 
 Admit that you don't have all the answers. If you are emotionally involved in your argument, express your feelings. This helps you connect human to human, making you relatable rather than just another shouting head on the internet.
 
 Once you have displayed the courage to be vulnerable, you give the other side permission to be vulnerable as well. This sets the stage for a productive conversation.
 
-- ### Step 4: Set a Learning Goal and Open With A Thoughtful Question
+### Step 4: Set a Learning Goal and Open With A Thoughtful Question
 
 After doing the above, your opening statement should lead to a specific question. Most people lead with an accusation, and the conversation is doomed from then on. Crafting an open-ended, specific, and good question is a skill, and it is one that is worth trying to get good at. It starts with being genuinely curious about why people think the way they do.
 
@@ -149,7 +149,7 @@ I hope this help you experience what winning feels like.
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-04-13",
+      "dateModified": "2025-01-10",
       "datePublished": "2024-04-13",
       "description": "An exploration of techniques for productive online arguments, highlighting the importance of understanding over winning.",
       "headline": "What Winning Online Arguments Looks Like",
