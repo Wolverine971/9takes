@@ -22,7 +22,7 @@ export const actions: Actions = {
 		);
 
 		if (resetError) {
-			notifications.error('failure', 3000);
+			notifications.danger('failure', 3000);
 			console.log(resetError);
 			return fail(500, {
 				error: 'Server error. Please try again later.',
