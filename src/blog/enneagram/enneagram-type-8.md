@@ -4,7 +4,7 @@ description: "Discover the Challenger or Protector's self-confidence and asserti
 author: 'DJ Wayne'
 date: '2023-02-18'
 loc: 'https://9takes.com/enneagram-corner/enneagram-type-8'
-lastmod: '2024-09-11'
+lastmod: '2025-01-10'
 changefreq: 'weekly'
 priority: '0.6'
 published: true
@@ -60,25 +60,25 @@ blog: true
 { text: "mechanics", value: 20 },
 ]} /> -->
 
-### Saying that they live by:
+They have might have one of the following catch phrases
 
 - Have a plan to kill everyone you meet
 - Life is survival of the fittest
 - I will sleep when I am dead
 - Can't stop won't stop
 
-### What is obvious
+<!-- ### What is obvious
 
 ### What is non obvious
 
 ### Beliefs
 
-### Values
+### Values -->
 
 <!-- the type of people who are very aware of power dynamics.
  -->
 
-They are the archetypal rugged individuals, direct in their approach and are often perceived as domineering. They have a profound need for control and when stressed their go-to coping mechanism is to control the situation. This strategy that has served them well since childhood.
+Direct in their approach, 8's are often perceived as domineering. They have a profound need for control and when stressed their go-to coping mechanism is to get stronger, get tougher and try harder. This strategy that has served them well since childhood.
 
 At some point in an 8's early life, they learned that showing weakness could lead to being crushed. This realization led them to develop a protective shell, learning that survival depended on strength. Their chosen life strategy is to gain power in every aspect of life, ensuring they never have to feel vulnerable again.
 
@@ -373,7 +373,7 @@ Type 8s typically move towards the negative aspects of Type 5, "The Investigator
 9. **Physical Symptoms:**
    - Stress might manifest in physical symptoms like headaches, fatigue, or digestive issues.
 
-### Coping Strategies for Type 8s Under Stress:
+### Coping Strategies for Type 8s Under Stress
 
 1. **Recognize the Shift:** Awareness of this move towards Type 5 behaviors is the first step in managing stress.
 2. **Maintain Connections:** Resist the urge to isolate by consciously maintaining connections with trusted friends or family.
@@ -402,9 +402,9 @@ The childhood experiences of Enneagram Type 8 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
-  - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
+    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+    - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
 
 - **Typical Behaviors:** As children, Type 8s often emerged as natural leaders, taking charge in group settings and showing a fearlessness in challenging authority figures. They might have been labeled as "troublemakers" or "strong-willed" by adults.
 
@@ -461,7 +461,7 @@ Enneagram Type 8 individuals bring a unique dynamic to their relationships, char
    - While capable of deep feelings, Type 8s may struggle to express softer emotions.
    - Partners often need to understand that the 8's actions, rather than words, may be their primary way of showing love.
 
-### Tips for Successful Relationships with Type 8s:
+### Tips for Successful Relationships with Type 8s
 
 - Communicate openly and honestly, avoiding manipulation or passive-aggressiveness.
 - Respect their need for independence while also expressing your own needs clearly.
@@ -470,7 +470,7 @@ Enneagram Type 8 individuals bring a unique dynamic to their relationships, char
 - Engage in activities that allow the 8 to protect or provide for you in some way, fulfilling their need to be strong.
 - Be patient in drawing out their softer side, understanding that trust takes time to build with an 8.
 
-### For Type 8s in relationships:
+### For Type 8s in relationships
 
 - Practice expressing your feelings verbally, not just through actions.
 - Work on compromising and sharing control in decision-making.
@@ -538,7 +538,7 @@ Type 8s bring a powerful and dynamic presence to the workplace, often excelling 
 10. **Results-Oriented:**
     - Type 8s are focused on achieving tangible results and can be impatient with processes they see as inefficient.
 
-### Strategies for Type 8s in the Workplace:
+### Strategies for Type 8s in the Workplace
 
 - Channel your intensity into productive outcomes, being mindful of how your energy affects others.
 - Practice active listening to ensure you're considering all perspectives before making decisions.
@@ -546,7 +546,7 @@ Type 8s bring a powerful and dynamic presence to the workplace, often excelling 
 - Work on expressing appreciation and recognition for your team's efforts.
 - Seek out mentors or coaches who can provide honest feedback on your leadership style.
 
-### Tips for Working with Type 8s:
+### Tips for Working with Type 8s
 
 - Be direct and honest in your communication; they respect straightforwardness.
 - Stand your ground when necessary, backing up your position with logic and facts.
@@ -738,7 +738,7 @@ This panel discussion offers valuable insights for Type 8s on their journey of s
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-09-11",
+      "dateModified": "2025-01-10",
       "datePublished": "2023-02-18",
       "keywords": [
         "Enneagram",
