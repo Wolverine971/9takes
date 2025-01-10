@@ -2,7 +2,7 @@
 	import '../app.scss';
 	import { browser, dev } from '$app/environment';
 	import { page } from '$app/stores';
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import FingerprintJS from '@fingerprintjs/fingerprintjs';
 	import type { PageData } from './$types';
 	import { webVitals } from '$lib/vitals';
@@ -33,25 +33,6 @@
 
 	preparePageTransition();
 
-	// Separate analytics initialization function
-	function initializeGoogleAnalytics() {
-		if (!PUBLIC_GOOGLE) {
-			console.warn('Google Analytics ID is not configured');
-			return;
-		}
-
-		window.dataLayer = window.dataLayer || [];
-		window.gtag = function () {
-			window.dataLayer.push(arguments);
-		};
-
-		window.gtag('js', new Date());
-		window.gtag('config', PUBLIC_GOOGLE, {
-			page_path: $page.url.pathname,
-			transport_url: 'https://www.googletagmanager.com'
-		});
-	}
-
 	function initializeMicrosoftClarity() {
 		if (document.URL.includes('9takes')) {
 			(function (c, l, a, r, i, t, y) {
@@ -66,32 +47,6 @@
 				y = l.getElementsByTagName(r)[0];
 				y.parentNode.insertBefore(t, y);
 			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
-		}
-	}
-
-	// Handle analytics script loading
-	function loadAnalytics() {
-		if (!browser || dev) return;
-
-		// Load Google Analytics Script
-		const gaScript = document.createElement('script');
-		gaScript.src = `https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GOOGLE}`;
-		gaScript.async = true;
-		document.head.appendChild(gaScript);
-
-		// Initialize analytics after script loads
-		gaScript.onload = () => {
-			initializeGoogleAnalytics();
-			initializeMicrosoftClarity();
-		};
-
-		// Initialize Web Vitals
-		if (VERCEL_ANALYTICS_ID) {
-			webVitals({
-				path: $page.url.pathname,
-				params: $page.params,
-				analyticsId: VERCEL_ANALYTICS_ID
-			});
 		}
 	}
 
@@ -117,8 +72,19 @@
 	}
 
 	onMount(() => {
-		loadAnalytics();
+		if (!dev) {
+			initializeMicrosoftClarity();
+		}
 		initializeFingerprint();
+
+		// Initialize Web Vitals
+		if (VERCEL_ANALYTICS_ID) {
+			webVitals({
+				path: $page.url.pathname,
+				params: $page.params,
+				analyticsId: VERCEL_ANALYTICS_ID
+			});
+		}
 
 		// ASCII art
 		console.log(`
@@ -145,6 +111,16 @@
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	{#if !dev}
+		<!-- Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id={PUBLIC_GOOGLE}"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', '{PUBLIC_GOOGLE}');
+		</script>
 		<link rel="preconnect" href="https://www.googletagmanager.com" />
 		<link rel="preconnect" href="https://www.clarity.ms" />
 		<link rel="preconnect" href="https://app.posthog.com" />
