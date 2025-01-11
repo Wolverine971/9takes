@@ -193,7 +193,11 @@
 <!-- Hero Section -->
 <div class="section-wrapper">
 	{#if sectionsVisible[0]}
-		<section class="hero min-h-screen py-12 md:py-24" in:fly={getTransition(0)}>
+		<section
+			class="hero py-12 md:py-24"
+			in:fly={getTransition(0)}
+			style="display: flex; height: calc(90vh - 100px);"
+		>
 			<div class="hero-content flex flex-col items-center gap-8 md:flex-row md:justify-between">
 				<div class="max-w-xl">
 					<h1 class="mb-6 text-5xl font-bold md:text-6xl">
