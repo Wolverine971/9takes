@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-DIRECTORY="C:/Users/djway/Downloads/Fifth"
+DIRECTORY="C:/Users/djway/Downloads/newbies"
 
 find "$DIRECTORY" -type f -print0 | while IFS= read -r -d '' file
 do

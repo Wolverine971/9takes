@@ -92,7 +92,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Mark-Twain', link: false },
 		{ name: 'Prince-Harry', link: true },
 		{ name: 'Peter-Thiel', link: true },
-		{ name: 'Malcom-X', link: false },
+		{ name: 'Malcolm-X', link: false },
 		{ name: 'Khloe-Kardashian', link: true },
 		{ name: 'Timothee-Chalamet', link: true },
 		{ name: 'Alexandria-Ocasio-Cortez', link: true }
