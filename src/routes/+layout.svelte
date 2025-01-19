@@ -8,6 +8,8 @@
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
 	import { setCookie } from '../utils/cookies';
+
+	// Components
 	import Header from '$lib/components/molecules/Header.svelte';
 	import Toast from '$lib/components/molecules/Toast.svelte';
 	import Footer from '$lib/components/molecules/Footer.svelte';
@@ -16,13 +18,14 @@
 
 	export let data: PageData;
 
+	// Constants
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
 	const PUBLIC_GOOGLE = import.meta.env.PUBLIC_GOOGLE;
-	const maxWidthPages = ['/', '/content-board'];
+	const MAX_WIDTH_PAGES = ['/', '/content-board'];
 
 	let innerWidth = 0;
 
-	// Declare gtag as a global function
+	// Types
 	declare global {
 		interface Window {
 			gtag: (...args: any[]) => void;
@@ -33,7 +36,10 @@
 
 	preparePageTransition();
 
-	function initializeMicrosoftClarity() {
+	const initAnalytics = () => {
+		if (dev) return;
+
+		// Initialize Microsoft Clarity
 		if (document.URL.includes('9takes')) {
 			(function (c, l, a, r, i, t, y) {
 				c[a] =
@@ -48,13 +54,21 @@
 				y.parentNode.insertBefore(t, y);
 			})(window, document, 'clarity', 'script', 'g3hw5t1scg');
 		}
-	}
 
-	async function initializeFingerprint() {
+		// Initialize Web Vitals
+		if (VERCEL_ANALYTICS_ID) {
+			webVitals({
+				path: $page.url.pathname,
+				params: $page.params,
+				analyticsId: VERCEL_ANALYTICS_ID
+			});
+		}
+	};
+
+	const initFingerprint = async () => {
 		try {
 			const fp = await FingerprintJS.load();
-			const fpval = await fp.get();
-			const visitorId = fpval?.visitorId?.toString();
+			const { visitorId } = await fp.get();
 
 			if (visitorId) {
 				const formdata = new FormData();
@@ -69,24 +83,12 @@
 		} catch (error) {
 			console.error('Error in fingerprint processing:', error);
 		}
-	}
+	};
 
 	onMount(() => {
-		if (!dev) {
-			initializeMicrosoftClarity();
-		}
-		initializeFingerprint();
+		initAnalytics();
+		initFingerprint();
 
-		// Initialize Web Vitals
-		if (VERCEL_ANALYTICS_ID) {
-			webVitals({
-				path: $page.url.pathname,
-				params: $page.params,
-				analyticsId: VERCEL_ANALYTICS_ID
-			});
-		}
-
-		// ASCII art
 		console.log(`
  ___  _        _              
 / _ \\| |_ __ _| | _____  ___ 
@@ -105,13 +107,17 @@
 	}
 
 	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
+	$: isHomePage = $page.url.pathname === '/';
+	$: isSignupPage = $page.url.pathname === '/signup';
+	$: isCategoryPage = $page.url.pathname.includes('/categories');
+	$: shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes($page.url.pathname);
 </script>
 
 <svelte:head>
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 	{#if !dev}
-		<!-- Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id={PUBLIC_GOOGLE}"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -130,23 +136,17 @@
 <svelte:window bind:innerWidth />
 
 <Header {data} />
-
 <Toast />
 
-{#if $page.url.pathname !== '/' && !$page.url.pathname.includes('/categories')}
+{#if !isHomePage && !isCategoryPage}
 	<BackNavigation />
 {/if}
-{#if $page.url.pathname.includes('/categories')}
+
+{#if isCategoryPage}
 	<CategoryNavigation categoryStructure={parents} />
 {/if}
 
-<main
-	class="main {$page.url.pathname !== '/signup' ? 'pos-rel' : ''} {!maxWidthPages.includes(
-		$page.url.pathname
-	)
-		? 'column-width'
-		: ''}"
->
+<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
 	<slot />
 </main>
 
@@ -160,11 +160,10 @@
 	}
 
 	.main {
+		flex: 1;
 		display: flex;
 		flex-direction: column;
-		justify-content: flex-start;
-		min-height: calc(100vh - 60px);
-		padding: 1rem;
+		padding: clamp(0.5rem, 2vw, 1rem);
 		overflow: visible;
 	}
 
@@ -172,19 +171,13 @@
 		max-width: 64rem;
 		margin: 0 auto;
 		width: 100%;
+
+		@media (max-width: 768px) {
+			max-width: 100%;
+		}
 	}
 
 	.pos-rel {
 		position: relative;
-	}
-
-	@media (max-width: 768px) {
-		.main {
-			padding: 0.5rem;
-		}
-
-		.column-width {
-			max-width: 100%;
-		}
 	}
 </style>
