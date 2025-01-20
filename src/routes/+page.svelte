@@ -204,8 +204,9 @@
 						9takes, <br /> Open Source Conflict Resolution
 					</h1>
 					<h2 class="mb-6 text-xl font-medium text-gray-600 md:text-2xl">
-						Understand any conflict from 9 unique perspectives.<br />
-						Ask questions. Get unbiased feedback. Find clarity.
+						Ask and answer question <span style="text-decoration: underline">anonymously</span>.<br
+						/>
+						Get 9 perspectives on conflict via the Enneagram.
 					</h2>
 					<div class="flex gap-4" style="">
 						{#if innerWidth >= 768}
@@ -255,11 +256,11 @@
 <div class="section-wrapper">
 	{#if sectionsVisible[2]}
 		<section class="dark-section rounded-lg p-12" in:fly={getTransition(2)}>
-			<h2 class="mb-8 text-center text-4xl font-bold">Why 9takes?</h2>
+			<h2 class="mb-8 text-center text-4xl font-bold">Why the Enneagram?</h2>
 			<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 2rem;">
 				<p class="mb-6 text-xl">
-					Based on the Enneagram's nine personality types, 9takes ensures you get a complete picture
-					of any situation.
+					The Enneagram has a nine personality type model and is based on emotions. <br />This makes
+					understanding yourself and others approachable.
 				</p>
 				<div class="grid grid-cols-3 gap-4">
 					{#each Array(9) as _, i}
