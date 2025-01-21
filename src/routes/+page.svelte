@@ -109,7 +109,7 @@
 		{
 			emoji: '💡',
 			title: 'Gain Insights',
-			description: 'See how different personality types approach your situation differently.'
+			description: 'See different takes on the question and sort answers by personality type.'
 		}
 	];
 
@@ -204,7 +204,7 @@
 						9takes, <br /> Open Source Conflict Resolution
 					</h1>
 					<h2 class="mb-6 text-xl font-medium text-gray-600 md:text-2xl">
-						Ask and answer question <span style="text-decoration: underline">anonymously</span>.<br
+						Ask and answer questions <span style="text-decoration: underline">anonymously</span>.<br
 						/>
 						Get 9 perspectives on conflict via the Enneagram.
 					</h2>
