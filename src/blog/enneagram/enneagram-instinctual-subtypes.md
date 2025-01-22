@@ -4,7 +4,7 @@ description: 'Discover the three Enneagram Instinctual Subtypes: self-preservati
 author: 'DJ Wayne'
 date: '2023-02-28'
 loc: 'https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes'
-lastmod: '2024-09-29'
+lastmod: '2025-01-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,354 +14,405 @@ previewHtml: ''
 pic: 'neoclassical-fortress2'
 ---
 
-<!-- todo update -->
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+  import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>
 
-<p class="firstLetter">Enneagram subtypes, also known as instinctual variants, add depth to the nine core Enneagram types. These subtypes reflect our basic human needs and drive our behaviors in specific areas of life.</p>
+<p class="firstLetter">
+The Enneagram goes beyond its nine core types by introducing three instinctual subtypes—Self-Preservation, Social, and One-to-One. Each subtype reflects how we meet our fundamental needs and shapes our priorities in relationships, work, and personal well-being. By understanding your dominant (and secondary) instinct, you can gain deeper insight into how you navigate daily life, relationships, and challenges.
+</p>
 
-## The Three Subtypes
+## Why Instinctual Subtypes Matter
 
-1. Self-Preservation (SP): This subtype focuses on physical safety, comfort, and well-being. People with a dominant self-preservation instinct are often concerned with health, financial security, and creating a stable environment.
+Each of us has all three instincts, but we **prioritize** them differently. Your **dominant** instinct often drives your core behaviors and motivations. Your **secondary** instinct surfaces as needed, while your **blind spot** might be an area of underdevelopment or neglect.
 
-2. Social (SO): The social subtype is attuned to group dynamics, community, and belonging. Those with a dominant social instinct are often concerned with their role in groups, social status, and contributing to their community.
+- **Self-Preservation (SP)**: Focuses on physical safety, comfort, and personal well-being.
+- **Social (SO)**: Emphasizes community, group dynamics, and belonging.
+- **One-to-One (SX)**: Also called “sexual” instinct; seeks intense, close bonds or experiences.
 
-3. One-to-One (SX): Also known as the sexual subtype, this variant focuses on intense personal connections and experiences. People with a dominant one-to-one instinct often seek deep, passionate relationships and are drawn to intense experiences in various areas of life.
+### A Note on Limitations and Disclaimers
 
-Each Enneagram type expresses these subtypes differently, creating nuanced variations within each type. Let's explore how these subtypes manifest in each of the nine Enneagram types.
+- The Enneagram, including its instinctual subtypes, is a **personal growth framework**, not a scientifically validated diagnostic tool.
+- These insights are intended for **self-reflection** and **improvement**, not to label or confine you.
+- If you have serious psychological or emotional concerns, please consult a qualified mental health professional.
 
-## Detailed Breakdown of Each Enneagram Type and Subtype
+## References and Further Reading
 
-### 1. The Perfectionist
+Curious to dive deeper into the theoretical background of instinctual subtypes? Check out:
 
-#### Self-Preservation One
+- **Claudio Naranjo’s** expansions on Enneagram instincts
+- **Don Riso & Russ Hudson’s** books such as _The Wisdom of the Enneagram_
+- [The Enneagram Institute](https://www.enneagraminstitute.com/) for more resources
 
-- Focuses on personal health and cleanliness
-- May have strict dietary habits or exercise routines
-- Example: Marie Kondo, known for her meticulous organization methods
+---
 
-Recognize them: They're the ones with the spotless home and impeccable personal habits.
+## Detailed Breakdown: Each Enneagram Type and Its Subtypes
 
-#### Social One
+Below, we’ll explore how each subtype can alter the expression of the nine Enneagram types. If you’re not sure about your core type, consider reading the respective [Enneagram Type pages](https://9takes.com/enneagram-corner/) before diving into subtypes.
 
-- Strives to improve society and uphold moral standards
-- Often involved in activism or community reform
-- Example: Mahatma Gandhi, who led non-violent resistance for social change
+### The Perfectionist ([Type 1](/enneagram-corner/enneagram-type-1))
 
-Recognize them: They're vocal about societal issues and often lead community improvement initiatives.
+#### Self-Preservation One (SP 1)
 
-#### One-to-One One
+- Prioritizes personal health, cleanliness, and routines
+- Strives for perfection in their own environment (e.g., meticulous organization)
+- Could exhibit strict dietary or exercise habits
 
-- Seeks to perfect their close relationships
-- May be critical of partners or friends in an attempt to help them improve
-- Example: Michelle Obama, known for her strong partnership with Barack Obama
+**Recognize Them**: Often have a spotless home or a finely tuned personal schedule.
 
-Recognize them: They often give unsolicited advice to loved ones, always with good intentions.
+#### Social One (SO 1)
 
-### 2. The Helper
+- Concerned with societal improvement and moral standards
+- May be involved in activism or community reform
+- Strives to “do the right thing” on a larger scale
 
-#### Self-Preservation Two
+**Recognize Them**: They’re vocal about social issues and often take leadership roles in community projects.
 
-- Focuses on meeting their own needs through helping others
-- May use nurturing as a way to ensure their own security
-- Example: Martha Stewart, who built an empire around homemaking and hospitality
+#### One-to-One One (SX 1)
 
-Recognize them: They're always offering food or comfort items to others.
+- Focuses on perfecting intimate relationships
+- May become critical of loved ones when trying to help them “improve”
+- Passionate about personal integrity in close bonds
 
-#### Social Two
+**Recognize Them**: Tends to give well-intentioned advice or “correct” their partner or close friends.
 
-- Thrives on being needed by their community or social group
-- Often takes on multiple roles or responsibilities in groups
-- Example: Oprah Winfrey, known for her philanthropy and desire to help masses of people
+---
 
-Recognize them: They're the ones volunteering for every committee at work or in community organizations.
+### The Helper ([Type 2](/enneagram-corner/enneagram-type-2))
 
-#### One-to-One Two
+#### Self-Preservation Two (SP 2)
+
+- Uses nurturing behaviors to ensure personal security
+- May exchange practical help (like cooking, cleaning) for emotional safety
+- Feels fulfilled when others appreciate their support
+
+**Recognize Them**: Quick to offer comfort items, meals, or small acts of service to show care.
+
+#### Social Two (SO 2)
+
+- Draws energy from being needed by a group or community
+- Often volunteers for numerous committees or social gatherings
+- Finds purpose in broad-scale helping roles
+
+**Recognize Them**: They’re at the heart of social circles, taking on caretaker roles or organizing group events.
+
+#### One-to-One Two (SX 2)
 
 - Intensely focused on one or a few key relationships
-- May be possessive or jealous in romantic partnerships
-- Example: Taylor Swift, known for her intense focus on friendships and romantic relationships in her music
+- Can be passionate, possessive, or jealous if they feel unappreciated
+- May devote a lot of energy to ensuring a partner’s happiness
 
-Recognize them: They're deeply invested in their close relationships and may struggle with boundaries.
+**Recognize Them**: They have a strong desire for deep emotional bonds and can struggle with boundaries.
 
-### 3. The Achiever
+---
 
-#### Self-Preservation Three
+### The Achiever ([Type 3](/enneagram-corner/enneagram-type-3))
 
-- Focuses on personal success and financial security
-- May equate self-worth with material achievements
-- Example: Elon Musk, known for his relentless pursuit of business success
+#### Self-Preservation Three (SP 3)
 
-Recognize them: They're often talking about their latest accomplishments or acquisitions.
+- Equates success with financial security and personal comfort
+- Sets and meets high achievement goals, sometimes at the cost of personal relationships
+- Tends to track measurable accomplishments (e.g., fitness progress, earnings)
 
-#### Social Three
+**Recognize Them**: Often highlight tangible evidence of success, such as promotions or possessions.
 
-- Strives for status and recognition within their community
-- May change persona to fit in with different social groups
-- Example: Bill Clinton, known for his charisma and ability to connect with various audiences
+#### Social Three (SO 3)
 
-Recognize them: They're the social chameleons, adapting their behavior to win approval in different settings.
+- Prioritizes community recognition, status, and fitting in
+- Adapts persona to different social contexts, aiming to impress or please
+- Skilled at networking and public relations
 
-#### One-to-One Three
+**Recognize Them**: Social chameleons, excelling in group environments and image management.
 
-- Seeks to be the "best" in their personal relationships
-- May view relationships as a competition
-- Example: Tom Cruise, known for his intense on-screen performances and high-profile relationships
+#### One-to-One Three (SX 3)
 
-Recognize them: They often compare their relationships to others and strive to be the "perfect" partner.
+- Measures self-worth by excellence in close relationships
+- Competitive about being the “best” partner, friend, or family member
+- Can idealize intimate connections or push themselves to be outstanding for loved ones
 
-### 4. The Individualist
+**Recognize Them**: Constantly compare their relationships to others, aiming for “perfect” dynamics.
 
-#### Self-Preservation Four
+---
 
-- Focuses on creating a unique, comfortable environment
-- May use material possessions to express individuality
-- Example: Wes Anderson, known for his distinctive visual style in filmmaking
+### The Individualist ([Type 4](/enneagram-corner/enneagram-type-4))
 
-Recognize them: Their living space is often a carefully curated expression of their personality.
+#### Self-Preservation Four (SP 4)
 
-#### Social Four
+- Expresses uniqueness by curating a distinct personal space or style
+- May find comfort in collecting meaningful objects
+- Focuses on stabilizing emotional ups and downs with physical comforts
 
-- Expresses uniqueness through social causes or artistic movements
-- May feel like an outsider in groups
-- Example: Lady Gaga, known for her advocacy and unique public persona
+**Recognize Them**: Their home or personal style is a curated extension of their inner world.
 
-Recognize them: They often align themselves with unconventional social groups or causes.
+#### Social Four (SO 4)
 
-#### One-to-One Four
+- Showcases individuality within social causes or art movements
+- May feel like a misunderstood outsider while still longing for group acceptance
+- Finds identity in unique social or cultural niches
 
-- Seeks intense, romantic connections
-- May idealize partners and relationships
-- Example: William Shakespeare, whose sonnets and plays often focus on idealized love
+**Recognize Them**: Gravitate toward communities that share their creative or activist passions.
 
-Recognize them: They're drawn to dramatic, passionate relationships and may have a "soulmate" mindset.
+#### One-to-One Four (SX 4)
 
-### 5. The Investigator
+- Craves intense, romantic relationships
+- May experience dramatic mood swings tied to a sense of longing
+- Idealizes or deeply invests in partners, sometimes leading to emotional turbulence
 
-#### Self-Preservation Five
+**Recognize Them**: Drawn to passionate, sometimes tumultuous relationships and big expressions of feeling.
 
-- Hoards knowledge and resources for security
-- May have extensive emergency preparations
-- Example: Henry David Thoreau, known for his self-reliant lifestyle at Walden Pond
+---
 
-Recognize them: They often have stockpiles of supplies and extensive contingency plans.
+### The Investigator ([Type 5](/enneagram-corner/enneagram-type-5))
 
-#### Social Five
+#### Self-Preservation Five (SP 5)
 
-- Uses knowledge to secure a place in social groups
-- May take on the role of expert or teacher
-- Example: Neil deGrasse Tyson, known for making complex scientific concepts accessible to the public
+- Hoards resources and knowledge to feel secure
+- May be extremely private or protective of personal space
+- Prefers solitude to replenish energy
 
-Recognize them: They're often sharing interesting facts or explaining complex topics to others.
+**Recognize Them**: Keep a well-stocked pantry, meticulously research everything, and value privacy above all.
 
-#### One-to-One Five
+#### Social Five (SO 5)
 
-- Seeks deep, intellectual connections with select individuals
-- May use knowledge to attract romantic partners
-- Example: Albert Einstein, known for his intense scientific partnerships and correspondence
+- Seeks a place in groups by being the “expert”
+- Shares knowledge with communities; enjoys intellectual discussions
+- Comfortable teaching or guiding from a mental vantage
 
-Recognize them: They form deep bonds over shared intellectual interests.
+**Recognize Them**: Often the go-to person for in-depth information or clarifications in a group.
 
-### 6. The Loyalist
+#### One-to-One Five (SX 5)
 
-#### Self-Preservation Six
+- Desires intense, intimate connections on a mental or intellectual plane
+- May form a strong bond with one or two people, exchanging deep thoughts
+- Can be protective or territorial about those they connect with deeply
 
-- Focuses on creating a safe, stable environment
-- May be drawn to jobs with security and benefits
-- Example: Warren Buffett, known for his conservative investment strategies
+**Recognize Them**: A small circle of deep relationships, often marked by philosophical or profound dialogue.
 
-Recognize them: They often ask "what if" questions and plan for worst-case scenarios.
+---
 
-#### Social Six
+### The Loyalist ([Type 6](/enneagram-corner/enneagram-type-6))
 
-- Seeks safety in group membership and loyalty
-- May be drawn to traditions and institutions
-- Example: Queen Elizabeth II, known for her dedication to royal traditions and duty
+#### Self-Preservation Six (SP 6)
 
-Recognize them: They're often the most committed members of organizations or social groups.
+- Concentrates on building a stable, secure personal environment
+- Frequently assesses potential risks
+- Prefers reliable routines and safeguards
 
-#### One-to-One Six
+**Recognize Them**: They keep emergency kits, double-check locks, and plan for worst-case scenarios.
 
-- Seeks security through close relationships
-- May test loved ones' loyalty
-- Example: John Lennon, known for his intense relationship with Yoko Ono
+#### Social Six (SO 6)
 
-Recognize them: They value trust above all else in their close relationships.
+- Finds security through group membership, traditions, or institutions
+- Loyal to organizations offering clear structures
+- May become a mediator or enforcer of rules within groups
 
-### 7. The Enthusiast
+**Recognize Them**: Devoted to teams, clubs, or communal projects and value shared ideals.
 
-#### Self-Preservation Seven
+#### One-to-One Six (SX 6)
 
-- Seeks variety in experiences, especially sensory ones
-- May have trouble with delayed gratification
-- Example: Anthony Bourdain, known for his adventurous culinary explorations
+- Seeks stability in close relationships, testing loyalty
+- Can show both dependence and defiance if trust is shaken
+- Fiercely protective of loved ones
 
-Recognize them: They're always planning their next adventure or trying the latest trend.
+**Recognize Them**: Crave deep trust in a partner or friend and can become anxious if they sense betrayal.
 
-#### Social Seven
+---
 
-- Enjoys being the "life of the party"
-- May take on the role of entertainer in groups
-- Example: Robin Williams, known for his energetic performances and ability to connect with audiences
+### The Enthusiast ([Type 7](/enneagram-corner/enneagram-type-7))
 
-Recognize them: They're often at the center of social gatherings, keeping everyone entertained.
+#### Self-Preservation Seven (SP 7)
 
-#### One-to-One Seven
+- Channels enthusiasm into physical comforts, new tastes, or experiences
+- May struggle with delayed gratification or saving resources
+- Often juggles multiple interests or hobbies
 
-- Seeks intense experiences through relationships
-- May idealize partners and struggle with commitment
-- Example: Marilyn Monroe, known for her charismatic screen presence and tumultuous personal life
+**Recognize Them**: Always up for trying new cuisines, exploring gadgets, or planning adventures.
 
-Recognize them: They're drawn to whirlwind romances and may have a "grass is greener" mentality in relationships.
+#### Social Seven (SO 7)
 
-### 8. The Challenger
+- Loves being at the center of social fun and group activities
+- May play the entertainer or “class clown” role
+- Feeds off the energy of crowds and gatherings
 
-#### Self-Preservation Eight
+**Recognize Them**: They bring high spirits to social events, often orchestrating group outings or game nights.
 
-- Focuses on accumulating resources and power
-- May have a "survival of the fittest" mentality
-- Example: Donald Trump, known for his business empire and forceful personality
+#### One-to-One Seven (SX 7)
 
-Recognize them: They often talk about "winning" and may have an aggressive approach to business.
+- Seeks intense, exciting connections in personal relationships
+- Idealizes partners, sometimes switching quickly if novelty fades
+- May struggle with deeper intimacy due to chasing constant thrills
 
-#### Social Eight
+**Recognize Them**: Thrive on whirlwind romances, always seeking the next burst of excitement in close bonds.
 
-- Uses strength to protect and lead their community
-- May take on the role of champion for the underdog
-- Example: Martin Luther King Jr., known for his powerful leadership in the civil rights movement
+---
 
-Recognize them: They're often standing up for others and challenging authority.
+### The Challenger ([Type 8](/enneagram-corner/enneagram-type-8))
 
-#### One-to-One Eight
+#### Self-Preservation Eight (SP 8)
 
-- Seeks intense, passionate relationships
-- May be possessive or jealous in partnerships
-- Example: Elizabeth Taylor, known for her passionate relationships and marriages
+- Focused on resource control, personal power, and tangible security
+- May adopt a “survival of the fittest” mentality
+- Protective of self and loved ones; can appear domineering
 
-Recognize them: They have a "ride or die" mentality in their close relationships.
+**Recognize Them**: Outspoken about winning, gaining resources, or being in charge.
 
-### 9. The Peacemaker
+#### Social Eight (SO 8)
 
-#### Self-Preservation Nine
+- Strong leader or defender of the group or “tribe”
+- Advocates for underdogs; may drive large-scale reforms
+- Uses personal power to protect a community
 
-- Focuses on creating a comfortable, peaceful environment
-- May use food, sleep, or other comforts to self-soothe
-- Example: Bob Ross, known for his soothing presence and peaceful landscapes
+**Recognize Them**: Rally support for causes, unafraid to confront authority for their group.
 
-Recognize them: Their home is often a cozy retreat, and they prioritize comfort and routine.
+#### One-to-One Eight (SX 8)
 
-#### Social Nine
+- Draws energy from powerful one-on-one relationships
+- Can be passionately protective or jealous
+- “Ride or die” mentality, fiercely loyal to a chosen few
 
-- Seeks harmony in groups and may mediate conflicts
-- May blend into different social situations
-- Example: Dalai Lama, known for his message of peace and compassion
+**Recognize Them**: Demonstrate intense commitment—or confrontation—in close partnerships.
 
-Recognize them: They're often the peacemakers in group settings, smoothing over conflicts.
+---
 
-#### One-to-One Nine
+### The Peacemaker ([Type 9](/enneagram-corner/enneagram-type-9))
 
-- Merges with partner's interests and desires
-- May struggle with asserting their own needs in relationships
-- Example: Mr. Rogers, known for his gentle, empathetic approach to others
+#### Self-Preservation Nine (SP 9)
 
-Recognize them: They often adopt their partner's hobbies and may struggle to make decisions in relationships.
+- Seeks a relaxed, comforting environment
+- May use food, rest, or simple routines to maintain inner peace
+- Avoids conflict through physical comforts
+
+**Recognize Them**: A cozy homebody who values predictable routines.
+
+#### Social Nine (SO 9)
+
+- Finds harmony in group settings, often mediating tension
+- Blends easily, adapting to collective needs
+- May struggle to assert personal opinions
+
+**Recognize Them**: They’re the peacekeepers, smoothing over conflicts and valuing group cohesion.
+
+#### One-to-One Nine (SX 9)
+
+- Merges with a partner’s interests or identity
+- Prioritizes peaceful, harmonious interactions in close relationships
+- May lose sight of personal goals to accommodate loved ones
+
+**Recognize Them**: Quickly adopt a partner’s hobbies and can have trouble voicing personal desires.
+
+---
 
 ## Subtype Stacking
 
-Subtype stacking refers to the order of preference for the three instinctual drives in an individual. Everyone has all three instincts, but they're usually prioritized in a specific order.
+Beyond these dominant instincts, each person has a **stacking** that orders the three instincts by priority:
 
-### The Concept of Stacking
+1. **Dominant Instinct** – your strongest, most noticeable driver
+2. **Secondary Instinct** – influential but less central
+3. **Blind Spot** – the least developed instinct, often neglected
 
-1. Dominant instinct: The primary focus and strongest drive
-2. Secondary instinct: Supports the dominant instinct, used situationally
-3. Blind spot: The least developed instinct, often neglected
+**Example**: An `sp/sx/so` person focuses on self-preservation, then one-to-one, with the social instinct as a blind spot.
 
-For example, a stacking might be sp/so/sx (self-preservation first, social second, one-to-one third).
+### Why Stacking Matters
 
-### How Stacking Affects Personality and Behavior
+- Explains differences among people who share the same type and dominant instinct
+- Clarifies why two Self-Preservation Eights can still appear quite different
+- Identifies growth areas in your “blind spot,” guiding deeper self-awareness
 
-- The dominant instinct colors most of a person's behavior and concerns
-- The secondary instinct supports the dominant one and comes into play in specific situations
-- The blind spot instinct is often underdeveloped and may cause difficulties in related areas of life
+---
 
-Example: An Eight with a sp/sx/so stacking will focus primarily on resource accumulation and control (sp), seek intense personal relationships (sx), but may struggle with broader social dynamics and group politics (so).
+## Wrap up
 
-Understanding subtype stacking provides a more nuanced view of personality, explaining why two people of the same Enneagram type and dominant instinct might still behave quite differently.
+Discovering your **Enneagram Instinctual Subtype** adds an extra layer of depth to your Enneagram journey. You’re more than just a **Type 2** or a **Type 7**—your instinctual focus reveals _why_ you approach life the way you do.
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram.
+- **Encourage Self-Exploration**: Which instinct resonates most with you? Notice how it shapes your daily choices and relationships.
+- **Promote Dialogue**: Share your thoughts or experiences with others. Start a conversation in your community or in the comments—how does your subtype affect your relationships, work, or personal goals?
+- **Keep Learning**: Check out our dedicated [Enneagram Type pages](https://9takes.com/enneagram-corner/) for insights on how each type interacts with these instincts.
+
+If you enjoy personality explorations, explore our [questions](https://9takes.com/questions) for a deeper dive into Enneagram-based self-awareness. Remember: self-discovery is a continuous journey—embrace the process and let your instinctual subtype guide you toward a richer understanding of who you are.
 
 <svelte:head>
 
-<script type="application/ld+json">
+  <script type="application/ld+json">
   {
-  "@context": "http://schema.org",
-  "@type": "BlogPosting",
-  "about": {
-          "@type": "Thing",
-          "name": "Enneagram of Personality",
-          "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-          "SameAs": [
-              "https://www.wikidata.org/wiki/Q273047",
-              "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-          ]
-  },
-  "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
-  "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "about": {
+      "@type": "Thing",
+      "name": "Enneagram of Personality",
+      "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+      "SameAs": [
+        "https://www.wikidata.org/wiki/Q273047",
+        "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+      ]
+    },
+    "articleBody": "Explore the three instinctual subtypes, also known as the Self-Preservation, Sexual, and Social subtypes. Understanding your subtype can provide valuable insight into your personality and behavior. In this blog post, we'll explore the Enneagram's instinctual subtypes in-depth and provide examples of how they manifest in everyday life.",
+    "creator": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": [
+        "https://www.instagram.com/djwayne3/",
+        "https://www.youtube.com/@djwayne3",
+        "https://www.linkedin.com/in/davidtwayne/",
+        "https://twitter.com/djwayne3"
+      ]
+    },
+    "author": {
+      "@type": "Person",
+      "name": "DJ Wayne",
+      "sameAs": [
+        "https://www.instagram.com/djwayne3/",
+        "https://www.youtube.com/@djwayne3",
+        "https://www.linkedin.com/in/davidtwayne/",
+        "https://twitter.com/djwayne3"
+      ]
+    },
+    "dateModified": {
+      "@type": "Date",
+      "@value": "2025-01-22"
+    },
+    "datePublished": {
+      "@type": "Date",
+      "@value": "2023-02-28"
+    },
+    "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
+    "headline": "Understanding Enneagram Instinctual Subtypes",
+    "image": {
+      "@type": "ImageObject",
+      "height": 965,
+      "url": "https://9takes.com/blogs/neoclassical-fortress2.webp",
+      "width": 685
+    },
+    "mainEntityOfPage": {
+      "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
+      "@type": "WebPage"
+    },
+    "mentions": {
+      "@type": "Thing",
+      "name": "Enneagram of Personality",
+      "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
+      "SameAs": [
+        "https://www.wikidata.org/wiki/Q273047",
+        "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "sameAs": [
+        "https://www.instagram.com/9takesdotcom/",
+        "https://twitter.com/9takesdotcom"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://9takes.com/brand/aero.png"
       },
-      "author": {
-    "@type": "Person",
-    "name": "DJ Wayne",
-    "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-  },
-  "dateModified": {
-    "@type": "Date",
-    "@value": "2023-08-26"
-  },
-  "datePublished": {
-    "@type": "Date",
-    "@value": "2023-02-28"
-  },
-  "description": "Learn about the Enneagram's Instinctual Subtypes and see type examples for each subtype.",
-  "headline": "Understanding Enneagram Instinctual Subtypes",
-  "image": {
-    "@type": "ImageObject",
-    "height": 965,
-    "url": "https://9takes.com/blogs/neoclassical-fortress2.webp",
-    "width": 685
-  },
-  "mainEntityOfPage": {
-    "@id": "https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes",
-    "@type": "WebPage"
-  },
-  "mentions": {
-              "@type": "Thing",
-              "name": "Enneagram of Personality",
-              "description": "The Enneagram of Personality or simply the Enneagram is a model of the human psyche which is principally understood and taught as a typology of nine interconnected personality types. Although the origins and history of ideas associated with the Enneagram of Personality are disputed contemporary approaches are principally derived from the teachings of the Bolivian psycho-spiritual teacher Oscar Ichazo from the 1950s and the Chilean psychiatrist Claudio Naranjo from the 1970s",
-              "SameAs": [
-                  "https://www.wikidata.org/wiki/Q273047",
-                  "http://en.wikipedia.org/wiki/Enneagram_of_Personality"
-              ]
-      },
-  "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      }
-}
-</script>
+      "name": "9takes"
+    }
+  }
+  </script>
 
 </svelte:head>
 
 <style lang="scss">
+/* Your custom SCSS styles here */
 </style>

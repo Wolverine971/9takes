@@ -3,7 +3,7 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://9takes.com</loc>
-<lastmod>2024-12-22</lastmod>
+<lastmod>2025-01-20</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
 </url>
@@ -300,7 +300,7 @@
 </url>
 <url>
 <loc>https://9takes.com/enneagram-corner/enneagram-and-mental-illness</loc>
-<lastmod>2024-10-15T00:00:00.000Z</lastmod>
+<lastmod>2025-01-22T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -432,7 +432,7 @@
 </url>
 <url>
 <loc>https://9takes.com/enneagram-corner/enneagram-instinctual-subtypes</loc>
-<lastmod>2024-09-29T00:00:00.000Z</lastmod>
+<lastmod>2025-01-22T00:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 <image:image>
@@ -1688,6 +1688,12 @@
 <priority>0.7</priority>
 </url>
 <url>
+<loc>https://9takes.com/questions/typically-handle-disagreements-close-friends-family</loc>
+<lastmod>2024-09-15T04:02:42.353Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
 <loc>https://9takes.com/questions/change-something-yourself-change</loc>
 <lastmod>2024-05-13T06:02:04.673Z</lastmod>
 <changefreq>weekly</changefreq>
@@ -1780,12 +1786,6 @@
 <url>
 <loc>https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner</loc>
 <lastmod>2024-03-22T05:26:40.426Z</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>https://9takes.com/questions/typically-handle-disagreements-close-friends-family</loc>
-<lastmod>2024-09-15T04:02:42.353Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
