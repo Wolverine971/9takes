@@ -4,9 +4,7 @@
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<link rel="canonical" href="https://9takes.com/how-to-guides" />
-</svelte:head>
+<svelte:head></svelte:head>
 
 <BlogPageHead
 	data={{

@@ -1,11 +1,6 @@
 {
 	"name": "9takes",
 	"version": "0.0.1",
-	"packageManager": "pnpm@8.15.5",
-	"engines": {
-		"node": "18.x",
-		"pnpm": "8.x"
-	},
 	"scripts": {
 		"dev": "vite dev",
 		"startNode": "node ./server/index.js",

@@ -68,7 +68,7 @@ Let's delve into how Madison embodies the Enneagram Type 4 personality—the Ind
 </div>
 </details>
 
-## From YouTube Covers to Original Creations: Madison's Artistic Evolution
+## From YouTube Covers to Original Creations: Madison's Evolution
 
 How does a teenager singing covers online become a voice for authentic self-expression?
 

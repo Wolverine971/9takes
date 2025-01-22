@@ -110,7 +110,7 @@
 				]
 			},
 			"name": "Enneagram Corner: Your Guide to Personal Growth and Understanding",
-			"description": "Dive into the Enneagram with 9takes. Explore the nine types, personal development, relationships, workplace dynamics, and more. Your comprehensive guide to understanding and applying the Enneagram.",
+			"description": "Dive into the Enneagram with this 9takes guide. Explore the nine types, personal development, relationships, workplace dynamics, and more.",
 			"url": "https://9takes.com/enneagram-corner",
 			"author": {
 				"@type": "Organization",

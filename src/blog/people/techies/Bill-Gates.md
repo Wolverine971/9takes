@@ -1,10 +1,10 @@
 ---
-title: "Bill Gates: How His Enneagram Type 5 Personality Shaped Microsoft's Success"
+title: 'Bill Gates: The Enneagram Type 5 Personality Behind Microsoft'
 description: "Discover how Bill Gates' Enneagram Type 5 traits, from insatiable curiosity to analytical prowess, fueled Microsoft's rise and his philanthropic impact."
 author: 'DJ Wayne'
 date: '2024-07-09'
 loc: 'https://9takes.com/personality-analysis/Bill-Gates'
-lastmod: '2024-10-28'
+lastmod: '2025-01-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -130,10 +130,10 @@ But what about you? How does understanding Gates through the Enneagram lens shif
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-10-28",
+      "dateModified": "2025-01-22",
       "datePublished": "2024-07-09",
       "description": "Uncover how Bill Gates' Enneagram Type 5 traits, from insatiable curiosity to analytical prowess, fueled Microsoft's rise and his philanthropic impact. Explore the mind behind the tech revolution.",
-      "headline": "Bill Gates: How His Enneagram Type 5 Personality Shaped Microsoft's Success",
+      "headline": "Bill Gates: The Enneagram Type 5 Personality Behind Microsoft",
       "image": {
         "@type": "ImageObject",
         "height": 900,

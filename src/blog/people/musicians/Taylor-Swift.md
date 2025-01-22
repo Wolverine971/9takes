@@ -1,10 +1,10 @@
 ---
-title: 'Taylor Swift Personality Type: Inside the Mind of an Enneagram 3 Achiever'
+title: "Taylor Swift's Personality: An Enneagram Type 3 Achiever"
 description: "Deep dive into Taylor Swift's Enneagram Type 3 personality traits, exploring how her ambitious drive and adaptability shaped her journey from country star to global icon."
 author: 'DJ Wayne'
 date: '2023-07-29'
 loc: 'https://9takes.com/personality-analysis/Taylor-Swift'
-lastmod: '2024-10-28'
+lastmod: '2025-01-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -142,10 +142,10 @@ Feeling curious about your own personality dynamics? Dive into our [questions](/
         "name": "DJ Wayne",
         "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"]
       },
-      "dateModified": "2024-10-28",
+      "dateModified": "2025-01-22",
       "datePublished": "2023-07-29",
       "description": "Deep dive into Taylor Swift's Enneagram Type 3 personality traits, exploring how her ambitious drive and adaptability shaped her journey from country star to global icon.",
-      "headline": "Taylor Swift Personality Type: Inside the Mind of an Enneagram 3 Achiever",
+      "headline": "Taylor Swift's Personality: An Enneagram Type 3 Achiever",
       "image": {
         "@type": "ImageObject",
         "height": 900,

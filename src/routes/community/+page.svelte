@@ -8,9 +8,7 @@
 	export let data: PageData;
 </script>
 
-<svelte:head>
-	<link rel="canonical" href="https://9takes.com/community" />
-</svelte:head>
+<svelte:head></svelte:head>
 
 <BlogPageHead
 	data={{

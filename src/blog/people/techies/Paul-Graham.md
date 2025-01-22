@@ -1,10 +1,10 @@
 ---
-title: "Paul Graham's Enneagram Type 7 Personality: The Adventurous Mind Behind Y Combinator"
+title: "Paul Graham's Personality: The Adventurous Mind Behind Y Combinator"
 description: "Discover how Paul Graham's Enneagram Type 7 personality fuels his innovation and shapes the tech startup landscape."
 author: 'DJ Wayne'
 date: '2024-07-04'
 loc: 'https://9takes.com/personality-analysis/Paul-Graham'
-lastmod: '2024-10-28'
+lastmod: '2025-01-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -140,10 +140,10 @@ As the tech world continues to evolve, the vibrant and ever-curious spirit of Pa
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-10-28",
+      "dateModified": "2025-01-22",
       "datePublished": "2024-07-04",
       "description": "Discover how Paul Graham's Enneagram Type 7 personality fuels his innovation and shapes the tech startup landscape.",
-      "headline": "Paul Graham's Enneagram Type 7 Personality: The Adventurous Mind Behind Y Combinator",
+      "headline": "Paul Graham's Personality: The Adventurous Mind Behind Y Combinator",
       "image": {
         "@type": "ImageObject",
         "url": "https://9takes.com/personality-analysis/Paul-Graham.webp",

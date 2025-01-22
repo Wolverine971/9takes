@@ -1,10 +1,10 @@
 ---
 title: "Hillary Clinton: The Reformer's Journey Through Enneagram Type 1"
-description: "Explore Hillary Clinton's personality through the Enneagram Type 1 lens. Discover how her inner reformer shaped her politics, relationships, and legacy in American history."
+description: "Explore Hillary Clinton's personality through the Enneagram Type 1 lens. Discover the inner reformer shaping politics."
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/Hillary-Clinton'
-lastmod: '2024-09-12'
+lastmod: '2025-01-22'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -192,13 +192,13 @@ The Enneagram offers a window into the human psyche. Whether you're a Type 1 lik
          },
          "dateModified":{
             "@type":"Date",
-            "@value":"2024-09-12"
+            "@value":"2025-01-22"
          },
          "datePublished":{
             "@type":"Date",
             "@value":"2024-09-12"
          },
-         "description":"Explore Hillary Clinton's personality through the Enneagram Type 1 lens. Discover how her inner reformer shaped her politics, relationships, and legacy in American history.",
+         "description":"Explore Hillary Clinton's personality through the Enneagram Type 1 lens. Discover the inner reformer shaping politics.",
          "headline":"Hillary Clinton: The Reformer's Journey Through Enneagram Type 1",
          "image":{
             "@type":"ImageObject",
