@@ -160,14 +160,16 @@ export const actions: Actions = {
 					region: 'us-east-1'
 				});
 
-				await s3.putObject({
-					Bucket: PRIVATE_S3_BUCKET as string,
-					Key,
-					Body: buf,
-					ContentEncoding: 'base64',
-					ContentType: 'image/jpeg',
-					ACL: 'public-read'
-				}).promise();
+				await s3
+					.putObject({
+						Bucket: PRIVATE_S3_BUCKET as string,
+						Key,
+						Body: buf,
+						ContentEncoding: 'base64',
+						ContentType: 'image/jpeg',
+						ACL: 'public-read'
+					})
+					.promise();
 			} catch (err) {
 				console.error('S3 upload error:', err);
 				throw error(500, {
@@ -235,7 +237,6 @@ export const actions: Actions = {
 			}
 
 			return { success: true };
-
 		} catch (e) {
 			console.error('Create question error:', e);
 			throw error(500, {

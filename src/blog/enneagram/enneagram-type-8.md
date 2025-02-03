@@ -402,9 +402,9 @@ The childhood experiences of Enneagram Type 8 individuals play a crucial role in
 
 - **Developmental Aspects:**
 
-    - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
-    - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
-    - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
+  - Exposure to conflict, injustice, or the need to fight for their rights or the rights of others from an early age.
+  - Learned to value directness, strength, and independence, sometimes as a response to perceived betrayal or injustice.
+  - May have taken on adult responsibilities early, feeling the need to protect or provide for family members.
 
 - **Typical Behaviors:** As children, Type 8s often emerged as natural leaders, taking charge in group settings and showing a fearlessness in challenging authority figures. They might have been labeled as "troublemakers" or "strong-willed" by adults.
 

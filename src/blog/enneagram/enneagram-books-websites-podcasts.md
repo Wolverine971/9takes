@@ -86,6 +86,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://ianmorgancron.com">ianmorgancron.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -105,6 +106,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://beatricechestnut.com">beatricechestnut.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -122,6 +124,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
             height="40" class="icon" />
     </a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -141,6 +144,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://russhudson.com">russhudson.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -160,6 +164,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://SuzanneStabile.com">SuzanneStabile.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -178,6 +183,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://seanisaacpalmer.com">seanisaacpalmer.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -198,6 +204,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     </a>
     <a class="external-link" target="_blank" rel="" href="https://chrisheuertz.com">chrisheuertz.com</a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -206,6 +213,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
     One of the early pioneers of the Enneagram, author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Enneagram-Understanding-Yourself-Others-Your/dp/0062506838">The Enneagram: Understanding Yourself and the Others in Your
     Life</a>" and co-founder of the Enneagram Professional Training Program.
+
 </article>
 
 <article class="section-content">
@@ -223,6 +231,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
     Author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Deep-Coaching-Enneagram-Catalyst-Profound/dp/0979384702">Deep Coaching Using the Enneagram as a Catalyst for Profound Change</a>" and founder of the Deep Coaching
     Institute.
+
 </article>
 
 <article class="section-content">
@@ -230,6 +239,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
     ### Deborah Ooten
 
     Founder and CEO of the <a class="external-link" target="_blank" rel="noreferrer" href="https://www.goconscious.com/about-clc/staff/deborah-a-ooten-ph-d/">Conscious Living Center</a>. She is a Certified Enneagram Teacher in the Narrative Tradition and has her doctorate in clinical psychology.
+
 </article>
 
 <article class="section-content">
@@ -238,6 +248,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
     Author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Everyday-Enneagram-Personality-Enhancing-Every-ebook/dp/B00CX7PSIC">The Everyday Enneagram</a>: A Personality Map For Enhancing Your Work, Love, and Life-Every Day" and host of
     the Everyday Enneagram podcast.
+
 </article>
 
 <article class="section-content">
@@ -246,6 +257,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
     Enneagram coach, author of "<a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Becoming-Us-Enneagram-Thriving-Gospel-Centered/dp/1642794163">Becoming Us</a>: Using the Enneagram to Create a Thriving Gospel-Centered Marriage" and
     founder of Your Enneagram Coach.
+
 </article>
 
 <article class="section-content">
@@ -260,6 +272,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
             class="icon" />
     </a>
     </p>
+
 </article>
 
 <article class="section-content">
@@ -277,12 +290,13 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
     Enneagram teacher and author of <a class="external-link" target="_blank" rel="noreferrer" href="https://www.amazon.com/Complete-Idiots-Guide-Power-Enneagram/dp/159257694X">"The Complete Idiot's Guide to the Power of the Enneagram."</a> Written with Karen K.
     Brees.
+
 </article>
 
 <article class="section-content">
 
     ### Susan Piver
-    
+
     A meditation teacher who integrates Buddhist wisdom with Enneagram insights.
     <p>
     <a class="external-link" target="_blank" rel="" href="https://openheartproject.com/">
