@@ -160,6 +160,7 @@
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="630" />
 	<meta property="og:locale" content="en_US" />
+	<meta property="og:logo" content="https://9takes.com/brand/aero.png" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
