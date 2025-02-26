@@ -701,7 +701,6 @@ If you found this helpful, explore our deeper guides on [navigating early relati
 <svelte:head>
 
 <script type="application/ld+json">
-<script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
@@ -884,7 +883,6 @@ If you found this helpful, explore our deeper guides on [navigating early relati
     }
   ]
 }
-</script>
 </script>
 
 </svelte:head>
