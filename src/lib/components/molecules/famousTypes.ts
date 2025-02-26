@@ -10,7 +10,8 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Gandhi', link: false },
 		{ name: 'Morgan-Freeman', link: true },
 		{ name: 'Kourtney-Kardashian', link: true },
-		{ name: 'Jennifer-Garner', link: true }
+		{ name: 'Jennifer-Garner', link: true },
+		{ name: 'Jeff-Bezos', link: true }
 	],
 	2: [
 		{ name: 'Oprah-Winfrey', link: true },
@@ -72,7 +73,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Bill-Gates', link: true },
 		{ name: 'Elon-Musk', link: true },
 		{ name: 'Jack-Dorsey', link: true },
-		{ name: 'Mark-Zuckerberg', link: false },
+		{ name: 'Mark-Zuckerberg', link: true },
 		{ name: 'Emily-Dickinson', link: false },
 		{ name: 'Stephen-Hawking', link: false },
 		{ name: 'Albert-Einstein', link: false },
