@@ -1,117 +1,249 @@
 ---
-title: 'Enneagram Types on a first date'
-description: 'What is each type thinking about and feeling. What do they do to prepare and what are red flags and good signals for each type.'
+title: 'Enneagram Types on a First Date: What to Expect'
+description: 'Discover what each Enneagram type thinks, feels, and values on a first date - plus red flags and green flags to watch for.'
 author: 'DJ Wayne'
-date: '2023-07-30'
+date: '2025-02-25'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date'
-lastmod: '2023-08-27'
+lastmod: '2025-02-25'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.8'
 published: true
-type: ['relationships']
+type: ['relationships', 'enneagram']
 blog: true
-previewHtml: ''
+previewHtml: "First dates are nerve-wracking for everyone. Learn how each Enneagram type approaches dating, their unique preparations, and what they're really looking for."
 pic: 'greek-statues-on-a-first-date'
 ---
 
-<!--
-
-todo update
-cute date ideas
-follow up to this blog- dating guide for each enneagram type
-
-second date ideas
-
--->
-
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+    
+    import DateTip from "$lib/components/atoms/DateTip.svelte";
 </script>
 
-<p class="firstLetter">Everyone gets a little nervous before a first date.</p>
+<p class="firstLetter">Sweaty palms. Racing heart. "What if they don't like me?" "What should I wear?" "What if there's awkward silence?"</p>
 
-There is so much to think about and plan for and there are so many ways for the date to go sideways. In this blog, we explore each Enneagram type's mindset going into a first date. We examine how each type prepares, what they likely feel, and their unique preferences when it comes to red and green flags.
+First dates trigger a universal cocktail of excitement and anxiety. But did you know your Enneagram type significantly influences how you approach this dating milestone?
 
-**There is no foolproof dating guide, but if there was one it would mention the ideas in this blog.** It's a lens to better understand and empathize with your date - or even yourself. Dive in, and let's decode the dating dance, starting with Type 1, The Perfectionist...
+This guide reveals what's actually happening beneath the surface for each type when they're sitting across from you at that trendy coffee shop or intimate restaurant.
 
-<section class="section-content">
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 1: The Perfectionist</h2>
+**Understanding these patterns can transform your dating life.** Whether you're trying to impress a perfectionist Type 1 or connect with a creative Type 4, knowing what makes each type tick can help you navigate those crucial first impressions with confidence.
 
-The Perfectionist, with their strong desire for order and rightness, will approach a first date with carefully laid plans.
+Let's decode what each Enneagram type is _really_ thinking, feeling, and looking for on a first date...
 
-They approach their first date with clear expectations, perhaps even an ideal image of how it should go. They're likely to spend much time choosing the perfect location, focusing on making the best impression possible. They might feel excitement and nervousness stemming from their fear of making a mistake or being imperfect. However, their genuine desire to do things right usually wins over anxious feelings.
+<div class="quick-nav">
+    <h4>Jump to your type:</h4>
+    <div class="type-buttons">
+        <a href="#type1" class="type-button">Type 1</a>
+        <a href="#type2" class="type-button">Type 2</a>
+        <a href="#type3" class="type-button">Type 3</a>
+        <a href="#type4" class="type-button">Type 4</a>
+        <a href="#type5" class="type-button">Type 5</a>
+        <a href="#type6" class="type-button">Type 6</a>
+        <a href="#type7" class="type-button">Type 7</a>
+        <a href="#type8" class="type-button">Type 8</a>
+        <a href="#type9" class="type-button">Type 9</a>
+    </div>
+</div>
 
-Their preparation often includes thorough grooming, rehearsing conversation topics, and planning contingencies. They are careful with their appearance, striving to look presentable but not overly flashy. Their conversation topics might lean towards societal issues, morals, or personal achievements, as they love sharing their vision of a better world.
+<section id="type1" class="type-section">
 
-### Red Flags for Type 1
+## Type 1: The Perfectionist - Planning the Perfect Date
 
-If a Perfectionist hears phrases like "I usually wing it" or "I don't care about rules," it can be a significant warning sign, implying a lack of organization and discipline. Type 1s value responsibility and might perceive such an attitude as careless.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type1-date.webp" alt="Type 1 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I've researched three restaurants with excellent reviews and made reservations at all of them, just in case."</blockquote>
+        <blockquote>"I hope they appreciate that I arrived exactly seven minutes early."</blockquote>
+    </div>
+</div>
 
-### Good Signals for Type 1
+### What They're Thinking
 
-On the other hand, statements like "I appreciate your attention to detail" or "I also strive to improve" can be heartening. These show respect for their principles and an alignment with their constant drive for self-improvement.
+The Perfectionist approaches dating with the same meticulous attention they bring to everything else. Before you've even met, they've likely:
 
-[More on Type 1](/enneagram-corner/enneagram-type-1)
+- Researched your mutual interests
+- Planned the perfect venue (with backup options)
+- Mentally rehearsed conversation topics
+- Chosen an outfit that's impeccably appropriate
+
+Their internal monologue is often focused on making the right impression and ensuring everything goes according to plan.
+
+### What They're Feeling
+
+Beneath their composed exterior, Type 1s experience a mix of:
+
+- Excitement about meeting someone new
+- Anxiety about potential imperfections in themselves or the date
+- A genuine desire to create a meaningful connection
+- Pressure to embody their ideals
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I appreciate your attention to detail"</li>
+            <li>Punctuality and preparedness</li>
+            <li>Evidence of ethical principles and integrity</li>
+            <li>A clean, well-kept appearance</li>
+            <li>Thoughtfulness about improvement (personal or societal)</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I usually just wing it"</li>
+            <li>Dismissing rules or standards as unimportant</li>
+            <li>Chronic lateness or disorganization</li>
+            <li>Making excuses rather than taking responsibility</li>
+            <li>Mocking their careful planning</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    Want to impress a Type 1? Show up on time, dress appropriately, and engage in meaningful conversation about values and principles. Most importantly, appreciate their efforts in planning rather than calling them "uptight."
+</DateTip>
+
+[Understand Type 1 in depth →](/enneagram-corner/enneagram-type-1)
 
 </section>
-<section class="section-content">
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 2: The Helper</h2>
 
-The Helper, known for their warm-hearted nature, gears up for a first date with empathy and connection in mind.
+<section id="type2" class="type-section">
 
-They are often in tune with others' needs and think extensively about making their date feel comfortable and appreciated. They might feel a rush of enthusiasm and perhaps a hint of worry about being liked back, but their optimistic outlook usually dominates any fear.
+## Type 2: The Helper - Creating Connection Through Care
 
-The Helper's preparations might involve personal touches, like a small, thoughtful gift or choosing a location their date will surely enjoy. Their conversation may center on their date, showcasing their listening skills and genuine interest. From discussing their date's favorite hobbies to their loved ones, Type 2's approach fosters a warm, inviting atmosphere.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type2-date.webp" alt="Type 2 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I remembered you mentioned loving daisies in your profile, so I brought you one."</blockquote>
+        <blockquote>"Tell me more about your day. I really want to know everything about you."</blockquote>
+    </div>
+</div>
 
-### Red Flags for Type 2
+### What They're Thinking
 
-Phrases that suggest selfishness or lack of empathy, like "I don't care what others think," can alarm a Type 2. They value interpersonal relationships and a considerate nature.
+Helpers approach first dates with genuine warmth and interest in the other person. Their thoughts center around:
 
-### Good Signals for Type 2
+- How to make you feel comfortable and special
+- What you might need or want
+- Questions that will help them understand you better
+- Ways to show they care from the very beginning
 
-Comments such as "Your kindness is touching" or "I love helping others too" indicate understanding and appreciation for the Helper's caring nature, which they would find reassuring.
+They're focused outward, sometimes to the detriment of recognizing their own needs.
 
-[More on Type 2](/enneagram-corner/enneagram-type-2)
+### What They're Feeling
+
+Type 2s experience a rich emotional landscape during dates:
+
+- Excitement about forming a new connection
+- Hope that their care will be reciprocated
+- Joy in discovering what makes you tick
+- Occasional anxiety about being appreciated
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"Your thoughtfulness means a lot to me"</li>
+            <li>Reciprocated questions and interest</li>
+            <li>Appreciation for their efforts</li>
+            <li>Sharing about friends and loved ones</li>
+            <li>Noticing and acknowledging their kindness</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I don't really care what others think"</li>
+            <li>One-sided conversations focused only on themselves</li>
+            <li>Dismissing the importance of relationships</li>
+            <li>Taking their generosity for granted</li>
+            <li>Lack of emotional reciprocity</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To win over a Type 2, show genuine appreciation for their thoughtfulness, ask about their feelings (they're used to focusing on others), and demonstrate that you value connection as much as they do.
+</DateTip>
+
+[Understand Type 2 in depth →](/enneagram-corner/enneagram-type-2)
 
 </section>
-<section class="section-content">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 3: The Achiever</h2>
+<section id="type3" class="type-section">
 
-The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their achievements and ambitions without overwhelming their date. They might feel the thrill of competition and perhaps anxiety about being impressive enough.
+## Type 3: The Achiever - Putting Their Best Self Forward
 
-In preparation, they likely ensure they're well-groomed, dressed sharply, and arrive punctually. They might plan to steer conversations towards their achievements subtly, their passion projects, or future ambitions. However, they're also careful to engage with their date's interests and accomplishments, recognizing the importance of mutual respect in the budding relationship.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type3-date.webp" alt="Type 3 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I just closed a major deal at work, but enough about me—what are your goals?"</blockquote>
+        <blockquote>"I've been to this restaurant before—the chef trained in Paris and they've won three local awards."</blockquote>
+    </div>
+</div>
 
-### Red Flags for Type 3
+### What They're Thinking
 
-Hearing "Why bother trying so hard?" can be disheartening for the Achiever, as it undermines their ambitious nature. Type 3s are focused on their goals and can perceive such an attitude as complacency.
+Achievers view first dates as opportunities to showcase their best qualities. Their mind is working on:
 
-### Good Signals for Type 3
+- How to present themselves in the most appealing light
+- Which accomplishments are appropriate to mention
+- How to gauge what success means to you
+- Creating an experience that impresses
 
-However, phrases like "Your drive is inspiring" or "I admire your achievements" can be encouraging. It shows an appreciation for their hard work and ambition.
+They're strategic about dating without necessarily being calculating.
 
-[More on Type 3](/enneagram-corner/enneagram-type-3)
+### What They're Feeling
 
-</section>
-<section class="section-content">
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 4: The Individualist</h2>
+Beneath their confident exterior, Type 3s feel:
 
-The Individualist sees a first date as an opportunity to express themselves and they are looking to connect and emotionally.
+- Excitement about making a great impression
+- Pressure to perform at their best
+- Competitive energy (even if they wouldn't admit it)
+- Genuine interest in your potential together
 
-They are introspective and might contemplate what they wish to share about themselves and how they want to be perceived. Their feelings could be a cocktail of anticipation and a little trepidation, fearing misunderstanding or rejection.
+### Green Flags They're Looking For
 
-Their preparations might involve choosing an unconventional date spot or wearing an outfit that stands out from the crowd. Conversation topics they favor often delve into art, culture, emotions, and personal experiences. For the Individualist, a first date is less about surface-level chit-chat and more about establishing an emotional connection.
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"Your drive is inspiring"</li>
+            <li>Recognition of their achievements</li>
+            <li>Having ambitions and goals of your own</li>
+            <li>Looking put-together and successful</li>
+            <li>Appreciation for quality and excellence</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"Why bother trying so hard?"</li>
+            <li>Lack of ambition or direction</li>
+            <li>Cynicism about success or achievement</li>
+            <li>Not making an effort with appearance</li>
+            <li>Dismissing their accomplishments</li>
+        </ul>
+    </div>
+</div>
 
-### Red Flags for Type 4
+<DateTip>
+    To connect with a Type 3, show appreciation for their accomplishments while inviting them to relax and be themselves. They respond well to ambition but also need someone who values them beyond their achievements.
+</DateTip>
 
-Hearing "Why can't you be more like others?" can significantly deter Type 4s. They value their uniqueness, and any attempt to box them into societal norms can be off-putting.
-
-### Good Signals for Type 4
-
-On the positive side, remarks such as "I admire your creativity" or "Your unique perspective is fascinating" can deeply resonate with them. These affirmations validate their individuality and emotional depth.
-
-[More on Type 4](/enneagram-corner/enneagram-type-4)
+[Understand Type 3 in depth →](/enneagram-corner/enneagram-type-3)
 
 </section>
 
@@ -119,60 +251,150 @@ On the positive side, remarks such as "I admire your creativity" or "Your unique
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
 </div>
 
-<section class="section-content">
+<section id="type4" class="type-section">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 5: The Investigator</h2>
+## Type 4: The Individualist - Seeking Authentic Connection
 
-The Investigator, stereotypically introverted and known for analytical mind, is likely nervous but has thoughtfully considered every aspect of the date.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type4-date.webp" alt="Type 4 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I discovered this hidden gem of a café—it reminds me of a place I visited during a particularly introspective time in my life."</blockquote>
+        <blockquote>"What's the most meaningful experience that shaped who you are today?"</blockquote>
+    </div>
+</div>
 
-Their thoughts likely involve understanding their date's character, potential compatibility, and what exciting insights they might share. Their feelings might be a mix of curiosity and some apprehension, given their natural desire for privacy.
+### What They're Thinking
 
-In preparation, they might read up on their date's interests or select a tranquil, low-key setting for the meeting. Their conversations might revolve around intellectual pursuits, theories, or fascinating trivia. For the Investigator, a successful first date involves engaging in conversations and mutual learning.
+Individualists approach first dates looking for depth and meaning. Their thoughts revolve around:
 
-### Red Flags for Type 5
+- Whether you'll see and appreciate their unique qualities
+- How to express their authentic self
+- Searching for emotional resonance and connection
+- Creating a memorable, meaningful experience
 
-For the Investigator, statements like "I don't like reading" or "Who cares about details?" can be red flags. Type 5s value knowledge and curiosity, so a lack of intellectual engagement can be troubling.
+They're less interested in small talk and more focused on revealing—and discovering—what makes each of you tick.
 
-### Good Signals for Type 5
+### What They're Feeling
 
-In contrast, phrases like "I enjoy learning new things" or "Tell me more about that theory" signify intellectual stimulation and a shared love for knowledge, which Type 5 finds appealing.
+Type 4s experience first dates with emotional intensity:
 
-[More on Type 5](/enneagram-corner/enneagram-type-5)
+- Hope for a profound connection
+- Vulnerability about showing their true self
+- Melancholy (a familiar companion)
+- Excitement about discovering your inner world
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I value your unique perspective"</li>
+            <li>Willingness to discuss deeper feelings</li>
+            <li>Appreciation for art, beauty, and depth</li>
+            <li>Emotional intelligence and expressiveness</li>
+            <li>Understanding their need for authenticity</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"Why can't you be more like everyone else?"</li>
+            <li>Superficial conversation or small talk</li>
+            <li>Dismissing emotional experiences as dramatic</li>
+            <li>Conventional thinking and mainstream tastes</li>
+            <li>Reluctance to discuss feelings or meanings</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 4, show interest in their unique qualities and be willing to go deeper than the usual first-date conversation. They're looking for someone who appreciates their complexity and isn't afraid of emotional depth.
+</DateTip>
+
+[Understand Type 4 in depth →](/enneagram-corner/enneagram-type-4)
 
 </section>
 
-<section class="section-content">
+<section id="type5" class="type-section">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 6: The Loyalist</h2>
+## Type 5: The Investigator - Analyzing the Connection
 
-Often wary and diligent, the Loyalist approaches a first date with caution and care.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type5-date.webp" alt="Type 5 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I've been researching quantum computing lately. The implications for cryptography are fascinating."</blockquote>
+        <blockquote>"I chose this quiet corner table so we could actually hear each other think."</blockquote>
+    </div>
+</div>
 
-They might spend much time contemplating the possible outcomes, their date's intentions, and how to stay safe. Their feelings can oscillate between anticipation of a potential connection and anxiety rooted in their inherent skepticism.
+### What They're Thinking
 
-Their preparations often include a safety plan, ensuring they meet in a public place and someone knows where they're going. Their conversations might revolve around everyday topics like shared interests or mutual friends, which can help them feel more secure. For the Loyalist, a first date is about cautiously exploring the potential of a new relationship while ensuring they remain safe and comfortable.
+Investigators approach first dates with analytical curiosity. Their mind is working on:
 
-### Red Flags for Type 6
+- Evaluating compatibility through observation
+- Gathering information about you without revealing too much
+- Managing their energy levels and personal space
+- Finding topics of intellectual interest to discuss
 
-Comments such as "I'm a free spirit, I don't make plans" or "Rules are meant to be broken" can unsettle a Loyalist. Type 6s value security and dependability, and such a cavalier attitude might imply unreliability.
+They're observing everything, forming hypotheses about you, and testing them through conversation.
 
-### Good Signals for Type 6
+### What They're Feeling
 
-Hearing phrases like "I believe in loyalty" or "I've planned a safe route for our hike" can be a good signal for Type 6. These show a commitment to safety and stability that the Loyalist appreciates.
+Beneath their calm exterior, Type 5s feel:
 
-[More on Type 6](/enneagram-corner/enneagram-type-6)
+- Curiosity about discovering who you are
+- Concern about draining their energy reserves
+- Excitement about intellectual connection
+- Wariness about maintaining personal boundaries
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I enjoy learning new things too"</li>
+            <li>Respecting their need for space</li>
+            <li>Interest in deep, thoughtful conversation</li>
+            <li>Comfort with periods of silence</li>
+            <li>Independence and self-sufficiency</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I don't like reading" or "Who cares about details?"</li>
+            <li>Constant talking without listening</li>
+            <li>Prying into personal matters too quickly</li>
+            <li>Being overly emotional or dramatic</li>
+            <li>Excessive physical contact or closeness</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 5, engage them intellectually while respecting their boundaries. Don't take their reserved nature personally—they're observing and processing. Give them space to open up at their own pace.
+</DateTip>
+
+[Understand Type 5 in depth →](/enneagram-corner/enneagram-type-5)
 
 </section>
 
 <div
     style="display: flex;
     justify-content: center;
-    margin: 1rem 0;"
+    margin: 2rem 0;"
 >
     <a href="/enneagram-corner/how-to-navigate-early-relationship-stages" class="blog-link">
       <PopCard
           image={`/blogs/young-couple-on-a-date.webp`}
           showIcon={false}
-          subtext=""
+          subtext="Master the early stages of dating"
           displayText="How to navigate early relationship stages"
           scramble={false}
       />
@@ -181,215 +403,668 @@ Hearing phrases like "I believe in loyalty" or "I've planned a safe route for ou
       <PopCard
           image={`/blogs/greek-statues-on-a-date.webp`}
           showIcon={false}
-          subtext=""
+          subtext="Beyond the first date"
           displayText="What each Type wants out of a relationship"
           scramble={false}
       />
     </a>
 </div>
 
-<section class="section-content">
+<section id="type6" class="type-section">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 7: The Enthusiast</h2>
+## Type 6: The Loyalist - Cautiously Optimistic
 
-The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type6-date.webp" alt="Type 6 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I told my roommate where I'd be, just as a safety precaution. Hope that doesn't sound weird!"</blockquote>
+        <blockquote>"I love how this café is busy enough to feel safe but quiet enough that we can actually talk."</blockquote>
+    </div>
+</div>
 
-Their thoughts are likely buzzing with the fun they'll have, the stories they'll share, and the potential joy this connection might bring. They might feel a sense of eagerness and perhaps some restlessness as they're always looking for the next great experience.
+### What They're Thinking
 
-Their preparations could involve planning a dynamic, fun-filled date with plenty of laughter and energy. Their conversation topics might range from their latest adventure to their next big plan, often sparking excitement and interest. For the Enthusiast, a first date is about sharing their zest for life and seeing if their date matches their high spirits.
+Loyalists approach first dates with a mixture of hope and caution. Their thoughts center around:
 
-### Red Flags for Type 7
+- Assessing whether you're trustworthy and reliable
+- Planning for various scenarios (good and bad)
+- Searching for red flags while hoping for green ones
+- Finding common ground and shared values
 
-If an Enthusiast hears phrases like "I prefer routine and stability" or "Let's not try something new," they might see them as red flags. Type 7s are enthusiastic and crave new experiences; a reluctance to explore could be concerning.
+They're simultaneously preparing for the worst while hoping for the best.
 
-### Good Signals for Type 7
+### What They're Feeling
 
-Comments such as "I love trying new things" or "I'm excited about our next adventure" will likely be welcomed, signaling a shared passion for adventure and exploration.
+Type 6s experience a pendulum of emotions during dates:
 
-[More on Type 7](/enneagram-corner/enneagram-type-7)
+- Excitement about the possibility of connection
+- Anxiety about potential dangers or disappointments
+- Warmth when they feel secure with you
+- Relief when things go smoothly
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I believe in loyalty and consistency"</li>
+            <li>Following through on small promises</li>
+            <li>Transparency about intentions</li>
+            <li>Respecting their caution without judgment</li>
+            <li>Shared values and principles</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I'm a free spirit, I don't make plans"</li>
+            <li>Inconsistency in words and actions</li>
+            <li>Pressuring them to trust too quickly</li>
+            <li>Brushing off their concerns as paranoid</li>
+            <li>Vagueness about intentions or background</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 6, be reliable, transparent, and patient. Build trust through consistency and understand that their questions come from a need for security, not suspicion of you personally.
+</DateTip>
+
+[Understand Type 6 in depth →](/enneagram-corner/enneagram-type-6)
 
 </section>
 
-<section class="section-content">
+<section id="type7" class="type-section">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 8: The Challenger</h2>
+## Type 7: The Enthusiast - Seeking Adventure and Possibility
 
-The bold and assertive Challenger approaches a first date with confidence and straightforwardness.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type7-date.webp" alt="Type 7 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I thought we could start with drinks here, then check out that new food festival, and maybe end with rooftop jazz if we're still having fun!"</blockquote>
+        <blockquote>"Last month I tried skydiving for the first time. Have you ever done anything that exhilarating?"</blockquote>
+    </div>
+</div>
 
-They're likely to think about their date's character and potential compatibility, focusing less on impressing their date and more on assessing them. They might feel a sense of excitement, coupled with a determination to understand their date.
+### What They're Thinking
 
-They prepare a date for open conversation, possibly at a relaxed restaurant or a quiet park. They will likely drive the conversation toward meaningful topics like ambitions, personal growth, or social issues. For the Challenger, a first date is about establishing mutual respect and seeing if their date can meet them at their level.
+Enthusiasts see first dates as exciting adventures full of possibility. Their mind is buzzing with:
 
-### Red Flags for Type 8
+- Creative ideas to make the date memorable and fun
+- Ways to avoid boredom or awkward silences
+- Stories and experiences they want to share
+- Future possibilities if things go well
 
-Hearing "I don't like confrontation" or "I prefer to follow the crowd" can be red flags for the Challenger. Type 8s value honesty and assertiveness, and a tendency to avoid conflict or conform may suggest incompatibility.
+They're looking for someone who can match their energy and enthusiasm for life.
 
-### Good Signals for Type 8
+### What They're Feeling
 
-On the other hand, phrases like "I admire your courage" or "I value straightforwardness too" can be perceived as good signals, as they align with their candid nature and desire for justice.
+Type 7s approach dates with:
 
-[More on Type 8](/enneagram-corner/enneagram-type-8)
+- Exhilaration about new experiences
+- Optimism about romantic possibilities
+- Aversion to any hint of negativity
+- Genuine joy in connecting with someone new
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I love trying new things too!"</li>
+            <li>Flexibility and spontaneity</li>
+            <li>Positive outlook and enthusiasm</li>
+            <li>Willingness to be playful</li>
+            <li>Interest in planning future adventures</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I prefer routine and predictability"</li>
+            <li>Focusing on problems or complaints</li>
+            <li>Rigid plans without room for spontaneity</li>
+            <li>Judgment of their enthusiastic nature</li>
+            <li>Resistance to trying new experiences</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 7, embrace their enthusiasm while being your authentic self. They value positivity and adventure but also need someone who can help them slow down occasionally and appreciate the present moment.
+</DateTip>
+
+[Understand Type 7 in depth →](/enneagram-corner/enneagram-type-7)
 
 </section>
 
-<section class="section-content">
+<section id="type8" class="type-section">
 
-<h2 style="padding: 0; margin-top: 1em">Enneagram Type 9: The Peacemaker</h2>
+## Type 8: The Challenger - Testing for Authenticity
 
-The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding.
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type8-date.webp" alt="Type 8 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"I appreciate someone who can tell me directly what they want. Games are a waste of everyone's time."</blockquote>
+        <blockquote>"Let's skip the small talk. What are you passionate about that would make you fight for it?"</blockquote>
+    </div>
+</div>
 
-They likely contemplate ensuring a smooth, pleasant experience for both parties. Their feelings might range from quiet excitement to slight worry about potential conflict.
+### What They're Thinking
 
-Their preparations involve selecting a serene, comfortable location for the date. They will likely focus conversations on shared interests and enjoyable topics, striving to maintain a calm and peaceful atmosphere. For the Peacemaker, a first date fosters mutual understanding and comfort, setting the groundwork for a harmonious connection.
+Challengers approach first dates with directness and intensity. Their thoughts center around:
 
-### Red Flags for Type 9
+- Whether you can hold your own and be authentic
+- Cutting through social niceties to real connection
+- Assessing your strength of character and conviction
+- Protection (both of themselves and potentially you)
 
-Statements such as "I enjoy a good argument" or "I don't mind conflict" can be alarming for a Peacemaker. Type 9s seek harmony and can view such attitudes as disruptive.
+They're not interested in games or pretense—they want to know the real you.
 
-### Good Signals for Type 9
+### What They're Feeling
 
-Phrases like "I value peace and harmony" or "Let's ensure everyone feels comfortable" are encouraging for them. These suggest a shared preference for calm and unity, integral to their nature.
+Type 8s experience dates with:
 
-[More on Type 9](/enneagram-corner/enneagram-type-9)
+- Eagerness to discover your true character
+- Protectiveness if they sense vulnerability in you
+- Impatience with inauthenticity
+- Enjoyment of spirited debate or banter
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I value honesty and straightforwardness too"</li>
+            <li>Standing your ground when appropriate</li>
+            <li>Authentic self-expression</li>
+            <li>Passion for your beliefs and interests</li>
+            <li>Matching their intensity without intimidation</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I don't like confrontation"</li>
+            <li>People-pleasing or excessive agreeableness</li>
+            <li>Weakness of conviction</li>
+            <li>Inability to make decisions</li>
+            <li>Being intimidated by their strength</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 8, be authentic and direct. Don't be intimidated by their intensity—it's their way of testing for real connection. Stand your ground when it matters to you, but be willing to show vulnerability too.
+</DateTip>
+
+[Understand Type 8 in depth →](/enneagram-corner/enneagram-type-8)
 
 </section>
 
-## Conclusion
+<section id="type9" class="type-section">
 
-Hopefully it is clear by now how different our expectations can be.
+## Type 9: The Peacemaker - Creating Harmony
 
-But this is just the tip of the iceberg. **The Enneagram goes deeper.** If you liked this, check [what each Enneagram type is like in a relationship](/enneagram-corner/enneagram-types-in-relationships)
+<div class="type-intro">
+    <!-- <div class="type-image">
+        <img src="/blogs/type9-date.webp" alt="Type 9 on a date" />
+    </div> -->
+    <div class="type-quotes">
+        <blockquote>"Whatever you'd like to do is fine with me—I'm happy just spending time together."</blockquote>
+        <blockquote>"I found this place has something for everyone on the menu, so I thought it would be perfect."</blockquote>
+    </div>
+</div>
+
+### What They're Thinking
+
+Peacemakers approach first dates with a desire for harmony and connection. Their thoughts revolve around:
+
+- Creating a comfortable, peaceful atmosphere
+- Finding common ground and shared interests
+- Avoiding conflict or discord
+- Making sure you feel heard and valued
+
+They value comfort and ease, seeing first dates as opportunities to establish peaceful connection.
+
+### What They're Feeling
+
+Type 9s experience dates with:
+
+- Warmth and openness toward you
+- Anxiety about potential conflict
+- A desire to merge with your interests
+- Internal struggle to voice their own preferences
+
+### Green Flags They're Looking For
+
+<div class="flags">
+    <div class="green-flags">
+        <h4>Green Flags</h4>
+        <ul>
+            <li>"I value peace and harmony too"</li>
+            <li>Gentle encouragement to share their opinions</li>
+            <li>Patience with their thoughtful pace</li>
+            <li>Appreciation for their calming presence</li>
+            <li>Respectful, non-aggressive communication</li>
+        </ul>
+    </div>
+    <div class="red-flags">
+        <h4>Red Flags</h4>
+        <ul>
+            <li>"I enjoy a good argument"</li>
+            <li>Aggressive or confrontational style</li>
+            <li>Rushing them to make decisions</li>
+            <li>Dismissing their opinions as unimportant</li>
+            <li>Creating unnecessary drama or tension</li>
+        </ul>
+    </div>
+</div>
+
+<DateTip>
+    To connect with a Type 9, create a peaceful atmosphere while gently encouraging them to share their authentic preferences. Appreciate their easygoing nature but don't mistake it for lack of depth or passion.
+</DateTip>
+
+[Understand Type 9 in depth →](/enneagram-corner/enneagram-type-9)
+
+</section>
+
+## Beyond First Impressions: The Deeper Potential
+
+First dates are just the beginning. Each Enneagram type brings their own gifts, challenges, and relationship patterns that evolve as connection deepens.
+
+Understanding these patterns doesn't just help with first impressions—it offers insight into long-term compatibility and growth opportunities. The initial dating phase reveals core motivations that will continue to influence the relationship journey.
+
+**The real magic happens when two people see and accept each other's authentic selves.** When a Perfectionist Type 1 feels appreciated rather than judged for their standards, or when an Individualist Type 4 feels truly seen in their uniqueness—that's when meaningful connection begins.
+
+### What's Your Experience?
+
+Have you noticed these patterns in your dating life? Which type resonates most with you, and which types have you connected with? Share your experiences in the comments!
+
+If you found this helpful, explore our deeper guides on [navigating early relationship stages](/enneagram-corner/how-to-navigate-early-relationship-stages) or [what each type truly desires in relationships](/enneagram-corner/enneagram-types-in-relationships).
+
+<!-- <div class="cta-box">
+    <h3>Want to understand yourself and others better?</h3>
+    <p>Take our free Enneagram assessment and discover your type, including detailed insights about your relationship patterns, communication style, and growth opportunities.</p>
+    <a href="/assessment" class="cta-button">Take the Free Assessment</a>
+</div> -->
 
 <svelte:head>
 
 <script type="application/ld+json">
+<script type="application/ld+json">
 {
-   "@context":"http://schema.org",
-   "@type":"BlogPosting",
-   "mainEntityOfPage":{
-      "@type":"WebPage",
-      "@id":"https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date"
-   },
-   "headline":"Enneagram Types on a first date",
-   "description":"What is each type thinking about and feeling. What do they do to prepare, and what are red flags and good signals for each type.",
-   "image":{
-      "@type":"ImageObject",
-      "height":900,
-      "url": "https://9takes.com/blogs/greek-statues-on-a-first-date.webp",
-      "width":900
-   },
-   "creator": {
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://9takes.com/enneagram-corner/enneagram-types-on-a-first-date"
+  },
+  "headline": "Enneagram Types on a First Date: What to Expect & How to Connect",
+  "description": "Discover what each Enneagram type thinks, feels, and values on a first date. Learn their red flags, green flags, and how to make a meaningful connection.",
+  "image": {
+    "@type": "ImageObject",
+    "height": 900,
+    "url": "https://9takes.com/blogs/greek-statues-on-a-date.webp",
+    "width": 900
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "author": {
+    "@type": "Person",
+    "name": "DJ Wayne",
+    "sameAs": [
+      "https://www.instagram.com/djwayne3/",
+      "https://www.youtube.com/@djwayne3",
+      "https://www.linkedin.com/in/davidtwayne/",
+      "https://twitter.com/djwayne3"
+    ]
+  },
+  "mentions": {
+    "@type": "Thing",
+    "name": "Enneagram"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "sameAs": [
+      "https://www.instagram.com/9takesdotcom/",
+      "https://twitter.com/9takesdotcom"
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://9takes.com/brand/aero.png"
+    },
+    "name": "9takes"
+  },
+  "datePublished": "2025-02-25",
+  "dateModified": "2025-02-25",
+  "keywords": [
+    "Enneagram dating",
+    "personality compatibility",
+    "first date tips",
+    "dating psychology",
+    "relationship advice",
+    "Enneagram types",
+    "dating preferences",
+    "dating green flags",
+    "dating red flags",
+    "personality-based dating"
+  ],
+  "isAccessibleForFree": "True",
+  "articleSection": "Relationships",
+  "wordCount": "4500",
+  "inLanguage": "en-US",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What do Enneagram Type 1s (Perfectionists) look for on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 1 Perfectionists look for evidence of ethical principles, punctuality, and attention to detail. They approach dates with careful planning and appreciate preparedness, thoughtful conversation about values, and a clean, well-kept appearance. Green flags include appreciating their attention to detail, showing integrity, and demonstrating a commitment to self-improvement. Red flags include disorganization, dismissing rules or standards, and making excuses rather than taking responsibility."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Enneagram Type 2s (Helpers) prepare for a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 2 Helpers prepare by thinking about how to make their date feel comfortable and appreciated. They might bring a thoughtful gift or choose a location their date will enjoy. Their conversations focus on the other person, showcasing genuine interest and listening skills. They feel excitement about forming a connection and hope that their care will be reciprocated. Green flags include reciprocated questions, appreciation for their thoughtfulness, and demonstrating that you value connection."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are green flags for Enneagram Type 3s (Achievers) on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Green flags for Type 3 Achievers include recognition of their accomplishments, having ambitions of your own, looking put-together, and appreciating quality and excellence. Comments like 'Your drive is inspiring' resonate with Type 3s, who view first dates as opportunities to showcase their best qualities. They appreciate dating partners who have their own goals while also valuing the Achiever's accomplishments and ambition."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What do Enneagram Type 4s (Individualists) value on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 4 Individualists value authenticity, emotional depth, and unique experiences on first dates. They're looking for someone who appreciates their uniqueness without trying to change them. Green flags include willingness to discuss deeper feelings, appreciation for art and creativity, and emotional expressiveness. Red flags include superficial conversation, dismissing emotional experiences as dramatic, and comments like 'Why can't you be more like everyone else?' which undermine their valued individuality."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are red flags for Enneagram Type 5s (Investigators) on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Red flags for Type 5 Investigators include constant talking without listening, prying into personal matters too quickly, being overly emotional or dramatic, excessive physical contact, and disparaging intellectual pursuits with comments like 'I don't like reading' or 'Who cares about details?' Type 5s value their personal space and energy, so respecting their boundaries is essential. They appreciate partners who engage them intellectually while giving them room to open up gradually."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Enneagram Type 6s (Loyalists) approach safety and trust on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 6 Loyalists approach first dates with a mixture of hope and caution, often creating safety plans and meeting in public places. They assess trustworthiness through consistency between words and actions. Green flags include transparency about intentions, following through on small promises, and respecting their cautious nature. Red flags include comments like 'I'm a free spirit, I don't make plans' or 'Rules are meant to be broken' which suggest unreliability. Building trust with a Type 6 requires patience and consistency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes a successful first date for an Enneagram Type 7 (Enthusiast)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A successful first date for a Type 7 Enthusiast includes variety, fun, and positive energy. They plan dynamic, exciting experiences and value flexibility, spontaneity, and a willingness to try new things. Green flags include matching their energy, sharing in their excitement, and expressing interest in future adventures together. Red flags include focusing on problems, preferring strict routines, or resistance to new experiences. Type 7s connect best with people who can embrace their enthusiasm while bringing their own authentic energy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do Enneagram Type 8s (Challengers) test compatibility on a first date?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Type 8 Challengers test compatibility by looking for authenticity, strength of character, and the ability to stand your ground. They approach dates with directness and intensity, often cutting through social niceties to find real connection. Green flags include matching their straightforwardness, standing your ground when appropriate, and showing passion for your beliefs. Red flags include excessive people-pleasing, weakness of conviction, or comments like 'I don't like confrontation' which may signal an inability to handle their direct nature."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What creates a successful first date for an Enneagram Type 9 (Peacemaker)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A successful first date for a Type 9 Peacemaker includes a comfortable, peaceful atmosphere with respectful communication and finding common ground. They value harmony and connection, appreciating when dates gently encourage them to share their authentic preferences rather than always deferring. Green flags include patience with their thoughtful pace, appreciation for their calming presence, and respectful communication. Red flags include aggressive styles, rushing decisions, or creating unnecessary drama or tension."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can understanding Enneagram types improve dating experiences?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Understanding Enneagram types can transform dating experiences by providing insight into what motivates different personalities, their communication styles, and what they truly value. This knowledge helps in recognizing compatibility factors beyond surface-level attraction, avoiding common misunderstandings, and creating more meaningful connections. By recognizing each type's core fears and desires, you can approach dates with greater empathy and connect on a deeper level, turning first date nervousness into an opportunity for authentic connection."
+        }
+      }
+    ]
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Enneagram",
+      "description": "A system of personality typing that describes patterns in how people interpret the world and manage their emotions"
+    },
+    {
+      "@type": "Thing",
+      "name": "Dating",
+      "description": "Social activity done by two people to assess each other's suitability as a partner"
+    },
+    {
+      "@type": "Thing",
+      "name": "Personality Psychology",
+      "description": "Scientific study of personality and how it influences behavior and experiences"
+    }
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "The Wisdom of the Enneagram",
+      "author": {
         "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-        ]
-      },
-   "author": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
-          ]
-      },
-   "mentions":{
-      "@type":"Thing",
-      "name":"Enneagram"
-   },
-   "publisher": {
-        "@type": "Organization",
-        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
-        },
-        "name": "9takes"
-      },
-   "datePublished":"2023-07-30",
-   "dateModified":"2023-08-27",
-   "mainEntity":{
-      "@type":"FAQPage",
-      "mainEntity":[
-         {
-            "@type":"Question",
-            "name":"How does an Enneagram Type 1, The Perfectionist, prepare for a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"The Perfectionist, with their strong desire for order and rightness, is a meticulous planner. They approach their first date with clear expectations, perhaps even an ideal image of how it should go. They’re likely to spend much time choosing the perfect location and focus on making the best impression possible."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"What are the red flags and good signals for an Enneagram Type 2, The Helper, on a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"Red Flags: Phrases that suggest selfishness or lack of empathy, like “I don’t care what others think,” can alarm a Type 2. They value interpersonal relationships and a considerate nature. Good Signals: Comments such as “Your kindness is touching” or “I love helping others too” indicate understanding and appreciation for the Helper’s caring nature, which they would find reassuring."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"How does an Enneagram Type 3, The Achiever, approach a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"The Achiever is goal-oriented and thrives on accomplishment. A first date, to them, is another exciting challenge. Their thoughts center around presenting their best self, showcasing their accomplishments and ambitions without overwhelming their date."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"What are the red flags and good signals for an Enneagram Type 4, The Individualist, on a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"Red Flags: Hearing “Why can’t you be more like others?” can be a significant deterrent for Type 4s. They value their uniqueness, and any attempt to box them into societal norms can be off-putting. Good Signals: On the positive side, remarks such as “I admire your creativity” or “Your unique perspective is fascinating” can deeply resonate with them. These affirmations validate their individuality and emotional depth."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"How does an Enneagram Type 5, The Investigator, prepare for a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"The Investigator, known for their inquisitive nature and sharp intellect, sees a first date as an intriguing puzzle. Their thoughts likely involve understanding their date’s character, potential compatibility, and what interesting insights they might share."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"What are the red flags for an Enneagram Type 6 on a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"Comments such as “I’m a free spirit, I don’t make plans” or “Rules are meant to be broken” can unsettle a Loyalist. Type 6s value security and dependability, and such a cavalier attitude might imply unreliability."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"How does an Enneagram Type 7 approach a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"The Enthusiast, known for their lively spirit and adventurous heart, sees a first date as an exciting new adventure. Their thoughts are likely buzzing with the fun they’ll have, the stories they share, and the potential joy this connection might bring."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"What are the good signals for an Enneagram Type 8 on a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"On the other hand, phrases like “I admire your courage” or “I value straightforwardness too” can be perceived as good signals, as they align with their candid nature and desire for justice."
-            }
-         },
-         {
-            "@type":"Question",
-            "name":"How does an Enneagram Type 9 prepare for a first date?",
-            "acceptedAnswer":{
-               "@type":"Answer",
-               "text":"The Peacemaker, easygoing and accommodating, sees a first date as an opportunity to establish harmony and understanding. They likely contemplate ensuring a smooth, pleasant experience for both parties."
-            }
-         }
-      ]
-   }
+        "name": "Don Richard Riso and Russ Hudson"
+      }
+    }
+  ]
 }
+</script>
 </script>
 
 </svelte:head>
 
 <style lang="scss">
-  .blog-link:after{
-    content: none;
+  /* Core Styling */
+  /* .firstLetter {
+    font-size: 1.6em;
+    font-weight: 500;
+    line-height: 1.3;
+  } */
 
+  .type-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eaeaea;
   }
-</style>
+
+  .type-intro {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .type-image {
+    flex: 1;
+    min-width: 200px;
+    
+    img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  }
+
+  .type-quotes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    blockquote {
+      font-style: italic;
+      background: #f9f9f9;
+      border-left: 4px solid #ddd;
+      margin: 0.5rem 0;
+      padding: 0.8rem 1rem;
+      border-radius: 4px;
+    }
+  }
+
+  .flags {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    
+    .green-flags, .red-flags {
+      flex: 1;
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .green-flags {
+      border-top: 4px solid #2ecc71;
+      
+      h4 {
+        color: #27ae60;
+        margin-top: 0;
+      }
+    }
+    
+    .red-flags {
+      border-top: 4px solid #e74c3c;
+      
+      h4 {
+        color: #c0392b;
+        margin-top: 0;
+      }
+    }
+    
+    ul {
+      padding-left: 1.2rem;
+    }
+  }
+  
+  .quick-nav {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    text-align: center;
+    
+    h4 {
+      margin: 0 0 0.5rem 0;
+    }
+    
+    .type-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      
+      .type-button {
+        background: white;
+        border: 1px solid #ddd;
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #333;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          background: #333;
+          color: white;
+        }
+      }
+    }
+  }
+  
+  .cta-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3rem 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    
+    h3 {
+      margin-top: 0;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background: #4a6fa0;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background: #3a5980;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+    }
+  }
+  
+  .blog-link:after {
+    content: none;
+  }
+  
+  /* DateTip Component Styling */
+  :global(.date-tip) {
+    background: #f0f7ff;
+    border-left: 4px solid #4a6fa0;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    position: relative;
+    
+    &:before {
+      content: "💡 Tip";
+      font-weight: bold;
+      display: block;
+      margin-bottom: 0.5rem;
+      color: #4a6fa0;
+    }
+  }
+  </style>
