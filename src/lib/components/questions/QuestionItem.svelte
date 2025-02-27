@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
+	import { browser } from '$app/environment';
 
 	export let questionData: {
 		id: string;
@@ -13,42 +14,69 @@
 	export let showDetails = true;
 
 	let innerWidth = 0;
-	let formattedDate = '';
 	let commentColor = '#B3A6C9';
 
-	// Format date only once on component initialization and when innerWidth changes
-	$: formattedDate = formatDate(questionData.created_at, innerWidth);
+	// Format date using date format cache to avoid repeated calculations
+	const dateFormatCache = new Map();
+	$: formattedDate = getFormattedDate(questionData.created_at, innerWidth);
 
-	function formatDate(dateString: string, width: number): string {
+	function getFormattedDate(dateString: string, width: number): string {
 		if (!dateString) return '';
+
+		const cacheKey = `${dateString}-${width > 400 ? 'large' : 'small'}`;
+		if (dateFormatCache.has(cacheKey)) {
+			return dateFormatCache.get(cacheKey);
+		}
 
 		const date = new Date(dateString);
 		const month = date.getUTCMonth() + 1;
 		const day = date.getUTCDate();
 		const year = date.getUTCFullYear();
-		return `${month}/${day}${width > 400 ? '/' + year : ''}`;
+		const formatted = `${month}/${day}${width > 400 ? '/' + year : ''}`;
+
+		dateFormatCache.set(cacheKey, formatted);
+		return formatted;
 	}
 
 	onMount(() => {
 		// Initialize width immediately to prevent layout shift
 		innerWidth = window.innerWidth;
 
-		// Throttled resize handler for better performance
-		let resizeTimeout: ReturnType<typeof setTimeout>;
-		const handleResize = () => {
-			clearTimeout(resizeTimeout);
-			resizeTimeout = setTimeout(() => {
-				innerWidth = window.innerWidth;
-			}, 100);
-		};
+		// Use ResizeObserver for better performance
+		if (browser && 'ResizeObserver' in window) {
+			const resizeObserver = new ResizeObserver((entries) => {
+				// Throttled update
+				requestAnimationFrame(() => {
+					innerWidth = window.innerWidth;
+				});
+			});
 
-		window.addEventListener('resize', handleResize, { passive: true });
+			resizeObserver.observe(document.documentElement);
+			return () => resizeObserver.disconnect();
+		} else {
+			// Fallback to throttled resize event
+			let resizeTimeout: ReturnType<typeof setTimeout>;
+			const handleResize = () => {
+				if (resizeTimeout) clearTimeout(resizeTimeout);
+				resizeTimeout = setTimeout(() => {
+					innerWidth = window.innerWidth;
+				}, 100);
+			};
 
-		return () => {
-			clearTimeout(resizeTimeout);
-			window.removeEventListener('resize', handleResize);
-		};
+			window.addEventListener('resize', handleResize, { passive: true });
+			return () => {
+				if (resizeTimeout) clearTimeout(resizeTimeout);
+				window.removeEventListener('resize', handleResize);
+			};
+		}
 	});
+
+	// Precomputed question text for display
+	$: displayQuestion = questionData.question_formatted || questionData.question;
+
+	// Memoize hover/leave handlers
+	const handleMouseEnter = () => (commentColor = '#833BFF');
+	const handleMouseLeave = () => (commentColor = '#B3A6C9');
 </script>
 
 <a
@@ -57,12 +85,12 @@
 	class:shimmer-button={innerWidth > 1500}
 	class:question-card-details={showDetails}
 	data-sveltekit-preload-data="tap"
-	on:mouseenter={() => (commentColor = '#833BFF')}
-	on:mouseleave={() => (commentColor = '#B3A6C9')}
-	aria-label="View question: {questionData.question_formatted || questionData.question}"
+	on:mouseenter={handleMouseEnter}
+	on:mouseleave={handleMouseLeave}
+	aria-label="View question: {displayQuestion}"
 >
 	<p class="question-display">
-		{questionData.question_formatted || questionData.question}
+		{displayQuestion}
 	</p>
 	{#if showDetails}
 		<div class="meta-info">
@@ -83,26 +111,43 @@
 </a>
 
 <style lang="scss">
+	/* Variables */
+	$spacing-xs: 0.25rem;
+	$spacing-sm: 0.5rem;
+	$spacing-md: 1rem;
+	$border-radius: var(--base-border-radius, 3px);
+	$transition-duration: 0.2s;
+	$breakpoint-sm: 576px;
+
+	/* Card styling */
 	.question-card {
 		cursor: pointer;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0.5rem 1rem;
-		margin: 0.25rem 0;
-		border-radius: 3px;
+		padding: $spacing-sm $spacing-md;
+		margin: $spacing-xs 0;
+		border-radius: $border-radius;
 		border: 1px solid transparent;
-		transition: all 0.2s ease;
+		transition:
+			background-color $transition-duration ease,
+			border-color $transition-duration ease;
 		text-decoration: none;
 		color: inherit;
-		gap: 0.5rem;
+		gap: $spacing-sm;
 		will-change: background-color, border-color;
 		transform: translateZ(0); /* Force GPU rendering */
-		min-height: 3rem; /* Fixed height to prevent layout shift */
+		min-height: 3rem;
+		contain: content; /* CSS containment for performance */
 
 		&:hover {
 			background-color: var(--base-white-outline, #cfcfcf);
 			border-color: var(--color-theme-purple-light);
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--color-theme-purple-light);
+			outline-offset: 2px;
 		}
 
 		&.question-card-details {
@@ -126,11 +171,12 @@
 		text-overflow: ellipsis;
 	}
 
+	/* Meta information styling */
 	.meta-info {
 		display: flex;
-		gap: 0.5rem;
+		gap: $spacing-sm;
 		align-items: center;
-		flex-shrink: 0; /* Prevent shrinking */
+		flex-shrink: 0;
 	}
 
 	.comment-span-display {
@@ -138,39 +184,42 @@
 		align-items: center;
 		font-weight: bold;
 		color: var(--color-p-dark, #333);
-		min-width: 2.5rem; /* Fixed width to prevent layout shift */
+		min-width: 2.5rem;
 	}
 
 	.comment-count {
-		min-width: 1rem; /* Fixed width for number */
+		min-width: 1rem;
 		text-align: right;
 	}
 
 	.date-span {
 		border: 1px solid white;
-		border-radius: var(--base-border-radius, 3px);
+		border-radius: $border-radius;
 		padding: 0.2rem;
-		min-width: 4rem; /* Smaller fixed width for better mobile layout */
+		min-width: 4rem;
 		display: flex;
 		justify-content: center;
 		text-align: center;
+		font-size: 0.9rem;
 	}
 
-	@media (max-width: 576px) {
+	/* Responsive adjustments */
+	@media (max-width: $breakpoint-sm) {
 		.question-card {
-			padding: 0.5rem 0.75rem;
-			margin: 0.25rem 0 0.25rem 0;
+			padding: $spacing-xs $spacing-sm;
+			margin: $spacing-xs 0;
 		}
 
 		.meta-info {
 			flex-direction: column;
 			align-items: flex-end;
-			gap: 0.25rem;
+			gap: $spacing-xs;
 		}
 
 		.date-span {
 			padding: 0.1rem 0.2rem;
-			font-size: 0.85rem;
+			font-size: 0.8rem;
+			min-width: 3.5rem;
 		}
 	}
 

@@ -4,12 +4,22 @@
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import type { PageData } from './$types';
+	import { browser } from '$app/environment';
 
 	export let data: PageData;
 
+	// Memoize categories processing to prevent unnecessary recalculations
 	$: categories = processQuestionsAndTags(data.questionsAndTags);
+	$: totalQuestions = categories ? Object.values(categories).flat().length : 0;
+	$: totalAnswers = categories
+		? Object.values(categories)
+				.flat()
+				.reduce((sum, q) => sum + (q?.comment_count || 0), 0)
+		: 0;
 
 	function processQuestionsAndTags(questionsAndTags) {
+		if (!questionsAndTags) return {};
+
 		const questionUrls = new Set();
 		return questionsAndTags.reduce((acc, curr) => {
 			if (!questionUrls.has(curr.url)) {
@@ -32,16 +42,11 @@
 			: '/questions/create/';
 		goto(url, { invalidateAll: true });
 	}
-	let totalQuestions;
-	let totalAnswers;
 
-	$: if (categories) {
-		console.log(categories);
-		totalQuestions = Object.values(categories).flat().length;
-		totalAnswers = Object.values(categories)
-			.flat()
-			.reduce((sum, q) => sum + q?.comment_count, 0);
-	}
+	// Set initial animation value only for client-side rendering
+	const transitionEnabled =
+		browser && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	const duration = transitionEnabled ? 300 : 0;
 </script>
 
 <svelte:head>
@@ -51,6 +56,7 @@
 		content="Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types."
 	/>
 	<link rel="canonical" href="https://9takes.com/questions" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
@@ -72,18 +78,19 @@
 	</script>
 </svelte:head>
 
-<div class="background-area-box-tint" in:fade={{ duration: 300 }}>
+<div
+	class="background-area-box-tint"
+	class:no-animation={!transitionEnabled}
+	in:fade={{ duration }}
+>
 	{#if data?.session?.user?.id}
-		<h1 in:fly={{ y: -20, duration: 300, delay: 150 }} style="margin-top: 1rem;">Question List</h1>
+		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title">Question List</h1>
 	{:else}
-		<h1
-			in:fly={{ y: -20, duration: 300, delay: 150 }}
-			style="text-align: center; margin-top: 1rem;"
-		>
+		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title centered">
 			Ask Questions Anonymously & Get Answers
 		</h1>
 
-		<div class="intro" in:fly={{ y: 20, duration: 300, delay: 300 }}>
+		<div class="intro" in:fly={{ y: 20, duration, delay: 300 }}>
 			<p>
 				Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
 				diverse perspectives. Our unique platform allows you to explore life's questions through the
@@ -96,7 +103,7 @@
 		</div>
 	{/if}
 
-	<div in:fly={{ y: 20, duration: 300, delay: 450 }}>
+	<div in:fly={{ y: 20, duration, delay: 450 }}>
 		<SearchQuestion
 			{data}
 			on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
@@ -104,7 +111,7 @@
 		/>
 	</div>
 
-	<div class="question-category-div" in:fly={{ y: 20, duration: 300, delay: 600 }}>
+	<section class="question-category-section" in:fly={{ y: 20, duration, delay: 600 }}>
 		<h2>Explore Questions by Category</h2>
 		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
@@ -119,26 +126,26 @@
 				{/if}
 			{/each}
 		</div>
-	</div>
+	</section>
 
-	<div class="recent-questions" in:fly={{ y: 20, duration: 300, delay: 750 }}>
+	<section class="recent-questions" in:fly={{ y: 20, duration, delay: 750 }}>
 		<h2>Recent Questions</h2>
 		{#each data.subcategoryTags as category}
 			{#if categories[category.category_name]?.length}
-				<div in:fly={{ y: 20, duration: 300, delay: 600 }}>
-					<h3 id={category.category_name}>{category.category_name}</h3>
-					<div>
-						{#each categories[category.category_name] as questionData}
+				<div class="category-section" in:fly={{ y: 20, duration, delay: 600 }}>
+					<h3 id={category.category_name.split(' ').join('-')}>{category.category_name}</h3>
+					<div class="question-list">
+						{#each categories[category.category_name] as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
 					</div>
 				</div>
 			{/if}
 		{/each}
-	</div>
+	</section>
 
 	{#if !data?.session?.user?.id}
-		<div class="how-it-works" in:fly={{ y: 20, duration: 300, delay: 900 }}>
+		<section class="how-it-works" in:fly={{ y: 20, duration, delay: 900 }}>
 			<h2>How It Works</h2>
 			<ol>
 				<li>Anonymously answer questions to see other answers</li>
@@ -146,72 +153,175 @@
 				<li>Receive answers from diverse perspectives</li>
 				<li>Sort comments by personality type and learn yours</li>
 			</ol>
-			<button class="cta-button" on:click={() => goToCreateQuestionPage('')}
-				>Ask Your Question Now</button
+			<button
+				class="cta-button"
+				on:click={() => goToCreateQuestionPage('')}
+				aria-label="Ask your question now"
 			>
-		</div>
+				Ask Your Question Now
+			</button>
+		</section>
 	{/if}
-
-	<!-- <div class="testimonials" in:fly={{ y: 20, duration: 300, delay: 1050 }}>
-		<h2>What Our Users Say</h2>
-		<blockquote>
-			"9takes has given me a safe space to ask questions I've always been afraid to ask. The diverse
-			perspectives I receive are invaluable." - Anonymous User
-		</blockquote>
-		<blockquote>
-			"I love how I can explore different viewpoints on complex issues. It's truly eye-opening!" -
-			Happy 9takes Member
-		</blockquote>
-	</div> -->
 </div>
 
 <style lang="scss">
-	@use 'sass:math';
+	/* Base variables */
+	$spacing-xs: 0.25rem;
+	$spacing-sm: 0.5rem;
+	$spacing-md: 1rem;
+	$spacing-lg: 1.5rem;
+	$spacing-xl: 2rem;
 
-	$base-margin: 0.5rem;
-	$base-padding: 1rem;
+	$breakpoint-sm: 576px;
+	$breakpoint-md: 768px;
+	$breakpoint-lg: 992px;
+	$breakpoint-xl: 1200px;
+
 	$transition-duration: 0.3s;
+	$border-radius: var(--base-border-radius, 3px);
 
-	%reset-spacing {
-		padding: 0;
-		margin: $base-margin 0 math.div($base-margin, 2) 0;
+	/* Mixins */
+	@mixin section-container {
+		margin: $spacing-md 0;
+		padding: $spacing-md;
+		border: 1px solid var(--color-border);
+		border-radius: $border-radius;
+		background-color: var(--color-background-secondary);
+		transition: box-shadow $transition-duration ease;
+
+		@media (max-width: $breakpoint-md) {
+			margin: $spacing-sm 0;
+			padding: $spacing-sm;
+		}
 	}
 
-	%flex-center {
+	@mixin flex-center {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@extend %reset-spacing;
+	/* Utility classes */
+	.no-animation * {
+		animation: none !important;
+		transition: none !important;
+	}
+
+	.centered {
+		text-align: center;
+	}
+
+	/* Page elements */
+	.page-title {
+		margin: $spacing-md 0 $spacing-sm;
+		padding: 0;
+
+		&.centered {
+			text-align: center;
+		}
 	}
 
 	.intro {
-		margin-bottom: $base-margin * 2;
+		margin-bottom: $spacing-lg;
 		text-align: center;
+
+		p {
+			margin: $spacing-sm 0;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
 		.stats {
 			display: flex;
 			justify-content: center;
-			gap: $base-margin * 2;
-			margin: $base-margin 0;
+			gap: $spacing-lg;
+			margin: $spacing-md 0;
+
+			@media (max-width: $breakpoint-sm) {
+				gap: $spacing-md;
+				flex-direction: column;
+
+				p {
+					margin: $spacing-xs 0;
+				}
+			}
 		}
 	}
 
-	.cta-button {
-		@extend %flex-center;
+	.question-category-section,
+	.recent-questions,
+	.how-it-works {
+		@include section-container;
+
+		&:hover {
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+		}
+	}
+
+	.big-tags {
+		display: flex;
+		flex-wrap: wrap;
+		max-height: 150px;
+		overflow-y: auto;
+		scrollbar-width: thin;
+		overscroll-behavior-y: contain;
+		padding: $spacing-sm 0;
+		gap: $spacing-xs;
+
+		&::-webkit-scrollbar {
+			width: 6px;
+			height: 6px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: rgba(0, 0, 0, 0.2);
+			border-radius: 3px;
+		}
+	}
+
+	.tag {
+		@include flex-center;
+		border-radius: $border-radius;
+		font-size: 0.8rem;
+		font-weight: bold;
+		margin: $spacing-xs;
+		padding: $spacing-xs $spacing-sm;
 		background-color: var(--accent);
 		color: var(--color-text-inverse);
-		margin: auto;
+		transition: all $transition-duration ease;
+
+		&:hover {
+			background-color: var(--color-accent-hover);
+			transform: translateY(-2px);
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+	}
+
+	.category-section {
+		margin: $spacing-md 0;
+
+		h3 {
+			margin: $spacing-md 0 $spacing-sm;
+			padding: 0;
+			scroll-margin-top: $spacing-xl;
+		}
+	}
+
+	.question-list {
+		display: flex;
+		flex-direction: column;
+		gap: $spacing-xs;
+	}
+
+	.cta-button {
+		@include flex-center;
+		background-color: var(--accent);
+		color: var(--color-text-inverse);
+		margin: $spacing-md auto;
 		border: none;
-		border-radius: var(--base-border-radius);
-		padding: $base-padding;
+		border-radius: $border-radius;
+		padding: $spacing-md;
 		font-size: 1.1rem;
 		font-weight: bold;
 		cursor: pointer;
@@ -222,64 +332,36 @@
 			transform: translateY(-2px);
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
-	}
 
-	.question-category-div,
-	.recent-questions,
-	.how-it-works,
-	.testimonials {
-		margin: $base-margin * 2 0;
-		padding: $base-padding;
-		border: 1px solid var(--color-border);
-		border-radius: var(--base-border-radius);
-		background-color: var(--color-background-secondary);
-	}
-
-	.big-tags {
-		display: flex;
-		flex-wrap: wrap;
-		max-height: 150px;
-		overflow-y: auto;
-		overscroll-behavior-y: contain;
-		padding: math.div($base-padding, 2) 0;
-	}
-
-	.tag {
-		@extend %flex-center;
-		border-radius: var(--base-border-radius);
-		font-size: 0.8rem;
-		font-weight: bolder;
-		margin: math.div($base-margin, 2);
-		padding: math.div($base-padding, 2) $base-padding;
-		background-color: var(--accent);
-		color: var(--color-text-inverse);
-		transition: all $transition-duration ease;
-
-		&:hover {
-			background-color: var(--color-accent-hover);
-			transform: translateY(-2px);
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		&:focus {
+			outline: 2px solid var(--color-accent-hover);
+			outline-offset: 2px;
 		}
 	}
 
-	.how-it-works ol {
-		padding-left: $base-padding * 1.5;
+	.how-it-works {
+		ol {
+			padding-left: $spacing-lg;
+			margin: $spacing-md 0;
+
+			li {
+				margin-bottom: $spacing-sm;
+			}
+		}
 	}
 
-	.testimonials blockquote {
-		font-style: italic;
-		margin: $base-margin 0;
-		padding-left: $base-padding;
-		border-left: 3px solid var(--accent);
+	/* Media Queries */
+	@media (prefers-reduced-motion: reduce) {
+		* {
+			animation: none !important;
+			transition: none !important;
+		}
 	}
 
-	@media (max-width: 768px) {
-		.question-category-div,
-		.recent-questions,
-		.how-it-works,
-		.testimonials {
-			margin: $base-margin 0;
-			padding: 0 0.5rem;
+	@media (max-width: $breakpoint-md) {
+		.cta-button {
+			width: 100%;
+			padding: $spacing-sm $spacing-md;
 		}
 	}
 </style>
