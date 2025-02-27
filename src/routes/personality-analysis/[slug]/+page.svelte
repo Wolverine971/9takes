@@ -1,23 +1,19 @@
 <script lang="ts">
 	import SuggestFamousPerson from '$lib/components/molecules/SuggestFamousPerson.svelte';
-
 	import BlogInteract from '$lib/components/blog/BlogInteract.svelte';
-
 	import BlogComments from '$lib/components/blog/BlogComments.svelte';
 	import PeopleSuggestions from '$lib/components/blog/SuggestionsPeople.svelte';
-
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
-
 	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
-
 	import type { PageData } from './$types';
 	import type { SvelteComponent } from 'svelte';
-
 	import { onMount } from 'svelte';
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleTitle from '$lib/components/blog/ArticleTitle.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
+
 	export let data: PageData;
+
 	type C = $$Generic<typeof SvelteComponent<any, any, any>>;
 	$: component = data.component as unknown as C;
 
@@ -28,31 +24,26 @@
 		comments = [...detail, ...comments];
 		userHasAnswered = true;
 	};
-	let innerWidth: number = 0;
-
-	onMount(() => {
-		innerWidth = window.innerWidth;
-	});
 </script>
 
-<svelte:window bind:innerWidth />
-
-<article itemscope itemtype="https://schema.org/BlogPosting" style="" class="blog">
-	<div style="align-items: inherit;">
+<article itemscope itemtype="https://schema.org/BlogPosting" class="blog">
+	<div>
 		<PeopleBlogPageHead data={data.metadata} />
 		<ArticleTitle title={data.metadata.title} />
-		<!-- <ArticleDescription description={data.metadata.description} /> -->
 		<ArticleSubTitle metaData={data.metadata} />
 	</div>
-	<svelte:component this={component} />
-	{#if innerWidth > 1500}
-		{#if data.metadata.suggestions?.length}
-			<PeopleSuggestionsSideBar links={data.metadata.suggestions} />
-		{/if}
 
-		{#if !data?.user}
-			<!-- <EnneagramCTASidebar /> -->
-		{/if}
+	<svelte:component this={component} />
+
+	<!-- Sidebar components - now using the improved version that handles its own visibility -->
+	{#if data.metadata.suggestions?.length}
+		<PeopleSuggestionsSideBar links={data.metadata.suggestions} />
+	{/if}
+
+	{#if !data?.user}
+		<!-- Uncomment when ready to use
+		<EnneagramCTASidebar />
+		-->
 	{/if}
 </article>
 
@@ -73,7 +64,7 @@
 	/>
 </div>
 
-<hr style="margin: 5rem;" />
+<hr class="section-divider" />
 
 <PeopleSuggestions suggestions={data?.suggestions} />
 
@@ -85,4 +76,14 @@
 
 <style lang="scss">
 	@import '../../../scss/index.scss';
+
+	.section-divider {
+		margin: 5rem 0;
+		border: 0;
+		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+	}
+
+	.blog {
+		position: relative;
+	}
 </style>
