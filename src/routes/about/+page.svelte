@@ -246,7 +246,7 @@
 		max-width: 800px;
 		margin: 0 auto;
 		padding: 20px;
-		font-family: Arial, sans-serif;
+		// font-family: Arial, sans-serif;
 		line-height: 1.6;
 		color: #333;
 	}
