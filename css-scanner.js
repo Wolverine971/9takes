@@ -25,32 +25,82 @@ const CONFIG = {
 	cssGlob: 'src/**/*.{css,scss,sass,less}',
 	svelteGlob: 'src/**/*.svelte',
 	jsGlob: 'src/**/*.{js,ts,jsx,tsx}',
-	ignoreSelectors: [
-		// Common selectors that might be dynamically generated
-		/^hover:/,
-		/^focus:/,
-		/^active:/,
-		/^sm:/,
-		/^md:/,
-		/^lg:/,
-		/^xl:/,
+
+	// Tailwind class patterns to ignore
+	tailwindPatterns: [
+		// Layout
+		/^(container|block|inline(-block)?|flex|grid|table|contents|hidden|visible)$/,
+		// Flexbox & Grid
+		/^(flex|grid)-(row|col|wrap|nowrap|1|auto|initial|none|grow|shrink)$/,
+		/^(justify|items|content|self|place)-(start|end|center|between|around|evenly|stretch)$/,
+		/^(order|col|row)-[\w-]+$/,
+		/^gap(-[xy])?-[\w-]+$/,
+		// Spacing
+		/^[mp][trblxy]?-[\w-]+$/,
+		// Sizing
+		/^[wh]-[\w-]+$/,
+		/^(min|max)-[wh]-[\w-]+$/,
+		// Typography
+		/^text-[\w-]+$/,
+		/^(font|tracking|leading|align)-[\w-]+$/,
+		/^(uppercase|lowercase|capitalize|normal-case)$/,
+		/^(font|tracking|leading|align|text|whitespace|break|hyphens|list|indent|align)-[\w-]+$/,
+		// Backgrounds
+		/^bg-[\w-]+$/,
+		// Borders
+		/^(border|rounded)(-[trblxy])?(-[\w-]+)?$/,
+		// Effects
+		/^(shadow|opacity|blur|brightness|contrast|grayscale|invert|saturate|sepia)-[\w-]+$/,
+		// Transitions & Animation
+		/^(transition|duration|ease|delay|animate)-[\w-]+$/,
+		// Transforms
+		/^(scale|rotate|translate|skew)-[\w-]+$/,
+		// Interactivity
+		/^(cursor|select|resize|scroll)-[\w-]+$/,
+		// SVG
+		/^(fill|stroke)-[\w-]+$/,
+		// State variants
+		/^(hover|focus|active|disabled|visited|group-hover|focus-within|focus-visible|motion-safe|motion-reduce|first|last|odd|even|children|siblings):/,
+		// Responsive variants
+		/^(sm|md|lg|xl|2xl):/,
+		// Dark mode
 		/^dark:/,
-		// Ignore TailwindCSS utility selectors if you're using Tailwind
-		/^(m|p)[trblxy]?-/,
-		/^(w|h)-/,
-		/^text-/,
-		/^bg-/
-		// Add more patterns to ignore as needed
+		// Arbitrary values
+		/^\[.+\]$/
 	],
+
+	// Add additional non-Tailwind patterns to ignore
+	otherIgnorePatterns: [
+		// Bootstrap common patterns
+		/^(btn|form|nav|card|alert|badge|modal|container|row|col|d|text|bg|border|rounded|justify|align|flex|float|position|w|h|m|p|shadow|fade)-[\w-]+$/,
+		// General utility class patterns
+		/^(clearfix|invisible|sr-only|sticky|fixed)$/,
+		// CSS component libraries often use these patterns
+		/^(is|has)-[\w-]+$/
+	],
+
 	outputReportJson: 'unused-css-report.json',
 	outputReportHtml: 'unused-css-report.html',
 	// Track file origins for better reporting
 	trackOrigins: true
 };
 
+// Function to check if a class name is a Tailwind utility class
+function isTailwindClass(className) {
+	return CONFIG.tailwindPatterns.some((pattern) => pattern.test(className));
+}
+
+// Function to check if a class should be ignored (Tailwind or other ignored patterns)
+function shouldIgnoreClass(className) {
+	return (
+		isTailwindClass(className) ||
+		CONFIG.otherIgnorePatterns.some((pattern) => pattern.test(className))
+	);
+}
+
 // Function to extract all CSS selectors from stylesheets
 async function extractCssSelectors() {
-	console.log(chalk.blue('Scanning CSS files...'));
+	console.log(chalk.blue('Scanning CSS and SCSS files...'));
 	const cssFiles = glob.sync(CONFIG.cssGlob);
 
 	let allSelectors = new Map(); // Using Map to track selectors and their origins
@@ -58,6 +108,7 @@ async function extractCssSelectors() {
 	for (const file of cssFiles) {
 		try {
 			const css = fs.readFileSync(file, 'utf8');
+			// Use specific syntax for SCSS files
 			const syntax = file.endsWith('.scss') || file.endsWith('.sass') ? scssSyntax : null;
 
 			// Parse the CSS file
@@ -65,22 +116,25 @@ async function extractCssSelectors() {
 
 			// Extract class selectors
 			root.walkRules((rule) => {
+				if (rule.parent?.type === 'atrule' && rule.parent?.name === 'keyframes') {
+					// Skip keyframe selectors
+					return;
+				}
+
 				const selectors = rule.selector
 					.split(',')
 					.map((s) => s.trim())
 					.filter((s) => s.startsWith('.')) // Only class selectors
 					.map((s) => {
 						// Extract the class name by removing the dot and any pseudo-elements/classes
-						let className = s
-							.substring(1)
-							.split(/[:.#[]/)
-							.shift();
-						return className;
+						// This regex handles more complex selectors
+						const match = s.match(/^\.([a-zA-Z0-9_-]+)(?:[:.[#].*)?$/);
+						return match ? match[1] : null;
 					})
 					.filter(Boolean);
 
 				selectors.forEach((selector) => {
-					if (!CONFIG.ignoreSelectors.some((pattern) => pattern.test(selector))) {
+					if (!shouldIgnoreClass(selector)) {
 						// Store the selector with its file origin
 						if (!allSelectors.has(selector)) {
 							allSelectors.set(selector, {
@@ -101,7 +155,11 @@ async function extractCssSelectors() {
 		}
 	}
 
-	console.log(chalk.green(`Found ${allSelectors.size} unique CSS class selectors`));
+	console.log(
+		chalk.green(
+			`Found ${allSelectors.size} unique CSS class selectors (excluding Tailwind utilities)`
+		)
+	);
 	return allSelectors;
 }
 
@@ -113,6 +171,7 @@ async function findClassUsages() {
 	const allFiles = [...svelteFiles, ...jsFiles];
 
 	let usedClasses = new Map(); // Using Map to track usage locations
+	let tailwindClassCounter = 0;
 
 	// Regular expressions to match class usages in different contexts
 	const patterns = [
@@ -163,6 +222,16 @@ async function findClassUsages() {
 						classes.forEach((cls) => {
 							cls = cls.trim();
 							if (cls && !cls.includes('{') && !cls.includes('$')) {
+								// Check if this is a Tailwind class
+								if (isTailwindClass(cls)) {
+									tailwindClassCounter++;
+									return; // Skip tracking this class
+								}
+
+								if (shouldIgnoreClass(cls)) {
+									return; // Skip other ignored classes
+								}
+
 								if (!usedClasses.has(cls)) {
 									usedClasses.set(cls, []);
 								}
@@ -182,7 +251,12 @@ async function findClassUsages() {
 		}
 	}
 
-	console.log(chalk.green(`Found ${usedClasses.size} used CSS class names`));
+	console.log(
+		chalk.green(`Found ${usedClasses.size} used CSS class names (excluding Tailwind utilities)`)
+	);
+	console.log(
+		chalk.blue(`Skipped approximately ${tailwindClassCounter} Tailwind utility class usages`)
+	);
 	return usedClasses;
 }
 
@@ -308,10 +382,20 @@ function generateHtmlReport(report) {
       color: white;
       font-weight: bold;
     }
+    .note {
+      background-color: #fff3e0;
+      padding: 10px;
+      border-left: 4px solid #ff9800;
+      margin: 20px 0;
+    }
   </style>
 </head>
 <body>
   <h1>Unused CSS Report</h1>
+  
+  <div class="note">
+    <strong>Note:</strong> This report excludes Tailwind CSS utility classes and other common utility patterns.
+  </div>
   
   <div class="progress-container">
     <div class="progress-bar" style="width: ${100 - report.unusedPercentage}%">
@@ -321,7 +405,7 @@ function generateHtmlReport(report) {
 
   <div class="summary">
     <div class="summary-card total">
-      <h2>Total Classes</h2>
+      <h2>Total CSS Classes</h2>
       <div class="number">${report.totalSelectors}</div>
     </div>
     <div class="summary-card used">
@@ -434,6 +518,11 @@ function generateHtmlReport(report) {
 async function findUnusedCss() {
 	try {
 		console.log(chalk.bold('\n=== SvelteKit Unused CSS Scanner ===\n'));
+		console.log(
+			chalk.blue(
+				'Note: Tailwind utility classes and other common utilities will be automatically excluded'
+			)
+		);
 
 		// Extract all CSS selectors and find all class usages
 		const allSelectors = await extractCssSelectors();
@@ -471,7 +560,7 @@ async function findUnusedCss() {
 				});
 			} else {
 				// This is a class that's used but not defined in CSS files
-				// (might be from an external library or generated dynamically)
+				// (might be from an external library or dynamically generated)
 				detailedClasses.push({
 					name: className,
 					used: true,
@@ -504,7 +593,7 @@ async function findUnusedCss() {
 
 		// Print summary
 		console.log(chalk.bold('\n--- UNUSED CSS REPORT ---'));
-		console.log(chalk.blue(`Total CSS classes: ${report.totalSelectors}`));
+		console.log(chalk.blue(`Total CSS classes (excluding Tailwind): ${report.totalSelectors}`));
 		console.log(chalk.green(`Used CSS classes: ${report.usedSelectors}`));
 		console.log(
 			chalk.red(`Unused CSS classes: ${report.unusedSelectors} (${report.unusedPercentage}%)`)

@@ -508,10 +508,6 @@
 	}
 
 	@media (max-width: 480px) {
-		.person-analysis {
-			padding: 1rem 0.5rem;
-		}
-
 		h1 {
 			font-size: 1.75rem;
 			margin-bottom: 1.5rem;

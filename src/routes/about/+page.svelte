@@ -110,7 +110,7 @@
 		</div>
 	{/if}
 
-	<section class="why-divided">
+	<section id="why-divided">
 		<h3>
 			When you spend +70% of your time autopilot- <br /> you cannot handle diversity of thought
 		</h3>
@@ -132,7 +132,7 @@
 		</p>
 	</section>
 
-	<section class="what-is-9takes">
+	<section id="what-is-9takes">
 		<h2>What is 9takes</h2>
 		<p>
 			9takes is a question-and-answer platform based on personality. It is Reddit reimagined based
@@ -155,7 +155,7 @@
 		</p>
 	</section>
 
-	<section class="philosophy">
+	<section id="philosophy">
 		<h3>The philosophy of 9takes</h3>
 		<p>"Everyone is unique." ✨</p>
 		<p>
@@ -178,7 +178,7 @@
 		</p>
 	</section>
 
-	<section class="why-enneagram">
+	<section id="why-enneagram">
 		<h3>Why the Enneagram?</h3>
 		<p>
 			Enneagram is the secret sauce. It has some deep roots and sits at the crossroads of psychology
@@ -197,7 +197,7 @@
 		</p>
 	</section>
 
-	<section class="why-questions">
+	<section id="why-questions">
 		<h3>Why focus on questions and answers?</h3>
 		<p>
 			Because the process of forming and asking a question is a mental unlock. When you are asking

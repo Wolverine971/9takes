@@ -67,11 +67,6 @@
 		padding: 10px;
 	}
 
-	.section-meta {
-		margin: 10px;
-		padding: 10px;
-		transform: rotate(90deg);
-	}
 	.blog-list {
 		margin: auto;
 		display: flex;

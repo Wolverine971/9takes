@@ -18,16 +18,6 @@
 		text-transform: uppercase;
 	}
 
-	.column-width {
-		max-width: 64rem;
-		border-radius: var(--base-border-radius);
-	}
-
-	.pos-rel {
-		position: relative;
-		// overflow: hidden;
-	}
-
 	main > a {
 		display: inline-block;
 		align-items: center;
@@ -55,11 +45,6 @@
 		.column {
 			overflow: hidden;
 			width: 70vw;
-		}
-		.column-width {
-			width: 70vw;
-			max-width: 100%;
-			border-radius: var(--base-border-radius);
 		}
 	}
 </style>

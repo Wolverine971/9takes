@@ -212,6 +212,9 @@
 .popover-content {
 	min-width: 180px;
 	padding: 0.5rem;
+	right: 0; /* Align to the right side of the parent */
+	left: auto; /* Override any default left alignment */
+	z-index: 100; /* Ensure it appears above other elements */
 }
 
 .popover-header {
@@ -474,4 +477,31 @@
 
 .settings-dropdown {
 	display: inline-block;
+	position: relative; /* Ensure proper positioning context */
+}
+
+/* Additional fix for small screens */
+@media (max-width: 768px) {
+	.popover-content {
+		position: absolute;
+		width: 200px; /* Fixed width for mobile */
+		right: 0;
+	}
+
+	/* Ensure the settings dropdown is properly aligned on mobile */
+	.settings-dropdown {
+		margin-left: auto; /* Push to the right */
+	}
+}
+
+/* Adjust comment actions on small screens to better fit the flag button */
+@media (max-width: 576px) {
+	.action-buttons {
+		flex-wrap: wrap; /* Allow buttons to wrap if needed */
+		justify-content: space-between; /* Distribute space evenly */
+	}
+
+	.action-btn {
+		flex: 0 0 auto; /* Don't allow buttons to grow/shrink */
+	}
 }

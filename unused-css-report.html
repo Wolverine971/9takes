@@ -118,10 +118,20 @@
       color: white;
       font-weight: bold;
     }
+    .note {
+      background-color: #fff3e0;
+      padding: 10px;
+      border-left: 4px solid #ff9800;
+      margin: 20px 0;
+    }
   </style>
 </head>
 <body>
   <h1>Unused CSS Report</h1>
+  
+  <div class="note">
+    <strong>Note:</strong> This report excludes Tailwind CSS utility classes and other common utility patterns.
+  </div>
   
   <div class="progress-container">
     <div class="progress-bar" style="width: 100%">
@@ -131,12 +141,12 @@
 
   <div class="summary">
     <div class="summary-card total">
-      <h2>Total Classes</h2>
-      <div class="number">38</div>
+      <h2>Total CSS Classes</h2>
+      <div class="number">31</div>
     </div>
     <div class="summary-card used">
       <h2>Used Classes</h2>
-      <div class="number">794</div>
+      <div class="number">579</div>
     </div>
     <div class="summary-card unused">
       <h2>Unused Classes</h2>
@@ -490,46 +500,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>bg-gray-100</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\WordCloud.svelte:67</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>bg-gray-50</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:96</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>bg-grey</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:120</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:169</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>bg-primary-600</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>bg-white</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:99</div><div class="file-path">src\routes\admin\questions\+page.svelte:113</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>big-p</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -550,14 +520,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 12 location(s):</strong><br><div class="file-path">src\routes\blog\enneagram\+page.svelte:58</div><div class="file-path">src\routes\blog\enneagram\+page.svelte:75</div><div class="file-path">src\routes\blog\enneagram\+page.svelte:135</div><div>...and 9 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>block</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 10 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:59</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:68</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:78</div><div>...and 7 more</div>
           </td>
         </tr>
       
@@ -650,30 +612,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>border</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:187</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>border-gray-200</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:83</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>border-gray-300</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>bottom</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -722,30 +660,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>btn-primary</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 32 location(s):</strong><br><div class="file-path">src\lib\components\blog\BlogInteract.svelte:104</div><div class="file-path">src\lib\components\content\contentCard.svelte:42</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:170</div><div>...and 29 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>btn-secondary</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Links.svelte:95</div><div class="file-path">src\routes\+page.svelte:236</div><div class="file-path">src\routes\account\+page.svelte:72</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>btn-text</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:313</div><div class="file-path">src\lib\components\molecules\Comment.svelte:329</div><div class="file-path">src\lib\components\molecules\Interact.svelte:223</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>button</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -790,14 +704,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\content-board\+page.svelte:158</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>card-title</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\content-board\+page.svelte:166</div>
           </td>
         </tr>
       
@@ -1250,14 +1156,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>container</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 19 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:134</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:116</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:59</div><div>...and 16 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>content</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -1498,14 +1396,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>cursor-pointer</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:220</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>dark-light</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -1518,38 +1408,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:297</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>dark:bg-gray-800</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:99</div><div class="file-path">src\routes\admin\questions\+page.svelte:113</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>dark:text-gray-200</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\admin\questions\+page.svelte:124</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>dark:text-gray-300</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:182</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>dark:text-gray-400</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:330</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:101</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:102</div><div>...and 3 more</div>
           </td>
         </tr>
       
@@ -1638,14 +1496,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Header.svelte:92</div><div class="file-path">src\lib\components\molecules\mobile-ham.svelte:82</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>duration-200</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div>
           </td>
         </tr>
       
@@ -2034,14 +1884,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>fixed</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>flag</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -2066,130 +1908,10 @@
         </tr>
       
         <tr class="used-class">
-          <td>flex</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 30 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:138</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:249</div><div>...and 27 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 8 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:250</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:251</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:73</div><div>...and 5 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-center</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\atoms\PopCard.svelte:140</div><div class="file-path">src\routes\calendar\+page.svelte:8</div><div class="file-path">src\routes\email\+page.svelte:152</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-col</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:87</div><div class="file-path">src\routes\+page.svelte:224</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-down</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Links.svelte:86</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-grow</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:88</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>flex-wrap</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:108</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:125</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:138</div><div>...and 3 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>flexrate</td>
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\content-board\+layout.svelte:4</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>focus:outline-none</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>focus:ring-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>focus:ring-primary-500</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>font-adjust-p</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 20 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCategoryIntro.svelte:53</div><div class="file-path">src\lib\components\blog\EnneagramCategoryIntro.svelte:152</div><div class="file-path">src\lib\components\blog\EnneagramCategoryIntro.svelte:245</div><div>...and 17 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>font-bold</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 31 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:153</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:197</div><div>...and 28 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>font-medium</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 27 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:173</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:186</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:197</div><div>...and 24 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>font-normal</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:330</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>font-semibold</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 9 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:53</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:174</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:124</div><div>...and 6 more</div>
           </td>
         </tr>
       
@@ -2226,30 +1948,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>form-actions</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Interact.svelte:279</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>form-group</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 7 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:499</div><div class="file-path">src\lib\components\molecules\Comment.svelte:509</div><div class="file-path">src\routes\forgotPassword\+page.svelte:23</div><div>...and 4 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>form-send</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 20 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Email-Invite.svelte:58</div><div class="file-path">src\lib\components\molecules\Email-Invite.svelte:58</div><div class="file-path">src\lib\components\molecules\Email-Signup.svelte:81</div><div>...and 17 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>front</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -2270,46 +1968,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\emails\index.ts:26</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>gap-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:182</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>gap-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 11 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:108</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:125</div><div>...and 8 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>gap-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 7 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:131</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:193</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:333</div><div>...and 4 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>gap-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:169</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:66</div><div class="file-path">src\routes\+page.svelte:224</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>gap-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:119</div>
           </td>
         </tr>
       
@@ -2342,14 +2000,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\testRoute\+page.svelte:326</div><div class="file-path">src\routes\testRoute\+page.svelte:432</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>grid</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 12 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:182</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:119</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:131</div><div>...and 9 more</div>
           </td>
         </tr>
       
@@ -2398,62 +2048,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\enneagram-corner\+page.svelte:176</div><div class="file-path">src\routes\enneagram-corner\+page.svelte:190</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-10</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:143</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:214</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-24</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div><div class="file-path">src\routes\+page.svelte:348</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:89</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:89</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-5</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:142</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:159</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:260</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-auto</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:249</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>h-full</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\WordCloud.svelte:67</div>
           </td>
         </tr>
       
@@ -2582,54 +2176,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\atoms\jumbotron.svelte:64</div><div class="file-path">src\lib\components\atoms\jumbotron.svelte:64</div><div class="file-path">src\lib\components\atoms\PopCard.svelte:128</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:bg-gray-100</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:23</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:bg-primary-700</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:opacity-80</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:text-primary-600</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:87</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:99</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:109</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:text-red-500</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:303</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>hover:underline</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:220</div>
           </td>
         </tr>
       
@@ -2794,34 +2340,10 @@
         </tr>
       
         <tr class="used-class">
-          <td>is-active</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\testRoute\+page.svelte:32</div><div class="file-path">src\routes\testRoute\+page.svelte:244</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>is-searching</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\questions\SearchQuestion.svelte:103</div><div class="file-path">src\lib\components\questions\SearchQuestion.svelte:103</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>item-color</td>
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>items-center</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 11 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:138</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:258</div><div>...and 8 more</div>
           </td>
         </tr>
       
@@ -2874,30 +2396,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>justify-between</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:279</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:192</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>justify-center</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:333</div><div class="file-path">src\routes\+page.svelte:234</div><div class="file-path">src\routes\+page.svelte:341</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>justify-end</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:322</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:143</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:232</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>large</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -2926,46 +2424,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\testRoute\+page.svelte:68</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>lg:grid-cols-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:119</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>lg:grid-cols-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:85</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:66</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>lg:text-2xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:230</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>lg:text-3xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:322</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>lg:text-6xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:227</div>
           </td>
         </tr>
       
@@ -3062,14 +2520,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Header.svelte:128</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>m-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:170</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:89</div>
           </td>
         </tr>
       
@@ -3218,14 +2668,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>max-h-40</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:225</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>max-high</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -3238,398 +2680,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:278</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-2xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:78</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-3xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:299</div><div class="file-path">src\routes\+page.svelte:321</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-4xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:155</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:64</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-6xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:320</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-7xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:55</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>max-w-xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:226</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 14 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:197</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:90</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:94</div><div>...and 11 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-16</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:404</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 17 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:117</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:121</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:170</div><div>...and 14 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:99</div><div class="file-path">src\routes\+page.svelte:391</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 28 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:53</div><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:54</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:234</div><div>...and 25 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-5</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:330</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 10 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:56</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:78</div><div>...and 7 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mb-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:280</div><div class="file-path">src\routes\+page.svelte:387</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:flex</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:56</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:flex-grow</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:57</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:flex-row</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:224</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:gap-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:304</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:gap-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:224</div><div class="file-path">src\routes\+page.svelte:388</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:grid-cols-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:169</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:85</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:66</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:grid-cols-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:94</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:h-28</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:348</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:h-32</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:items-end</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:56</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:justify-between</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:56</div><div class="file-path">src\routes\+page.svelte:224</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:justify-start</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:234</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:57</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-12</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:280</div><div class="file-path">src\routes\+page.svelte:387</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-24</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:404</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:322</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:391</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:227</div><div class="file-path">src\routes\+page.svelte:230</div><div class="file-path">src\routes\+page.svelte:405</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mb-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:298</div><div class="file-path">src\routes\+page.svelte:321</div><div class="file-path">src\routes\+page.svelte:408</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mr-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:57</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mt-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:246</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:mt-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:372</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:my-12</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:331</div><div class="file-path">src\routes\+page.svelte:365</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:my-24</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:319</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:py-16</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:219</div><div class="file-path">src\routes\+page.svelte:279</div><div class="file-path">src\routes\+page.svelte:386</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-2xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:308</div><div class="file-path">src\routes\+page.svelte:322</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-4xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:280</div><div class="file-path">src\routes\+page.svelte:298</div><div class="file-path">src\routes\+page.svelte:387</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-5xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:227</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-base</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-left</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:226</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-lg</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:325</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:text-xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:230</div><div class="file-path">src\routes\+page.svelte:285</div><div class="file-path">src\routes\+page.svelte:300</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:w-1/2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:246</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:w-28</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:348</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>md:w-auto</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:71</div>
           </td>
         </tr>
       
@@ -3730,38 +2780,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>ml-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:215</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>ml-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:94</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>ml-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:42</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>ml-auto</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:35</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>mobile-ham</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -3794,70 +2812,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>modal-action</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\atoms\Modal.svelte:38</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-actions</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:469</div><div class="file-path">src\lib\components\molecules\Comment.svelte:520</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-body</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:461</div><div class="file-path">src\lib\components\molecules\Comment.svelte:497</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-box</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\atoms\Modal.svelte:23</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-content</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:459</div><div class="file-path">src\lib\components\molecules\Comment.svelte:495</div><div class="file-path">src\routes\admin\questions\+page.svelte:157</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-textarea</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:465</div><div class="file-path">src\lib\components\molecules\Comment.svelte:515</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-title</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\SortComments.svelte:118</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>modal-toggle</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\atoms\Modal.svelte:20</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>modified-indicator</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -3874,94 +2828,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>mr-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:259</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:281</div><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:29</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mt-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:234</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mt-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:104</div><div class="file-path">src\routes\resetPassword\+page.svelte:12</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mt-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:309</div><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:42</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mt-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:246</div><div class="file-path">src\routes\+page.svelte:372</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mx-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:303</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>mx-auto</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 15 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:134</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:116</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:155</div><div>...and 12 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>my-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:117</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>my-16</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:319</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>my-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\admin\questions\+page.svelte:90</div><div class="file-path">src\routes\admin\questions\+page.svelte:94</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>my-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:331</div><div class="file-path">src\routes\+page.svelte:365</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>name-overlay</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -3974,14 +2840,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\rubixGrid.svelte:150</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>nav-bar</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Header.svelte:61</div>
           </td>
         </tr>
       
@@ -4170,22 +3028,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>order-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:240</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>order-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:236</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>overflow-hidden</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -4210,54 +3052,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>p-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:170</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:89</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>p-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>p-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 7 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:23</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:187</div><div>...and 4 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>p-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:55</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:64</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:99</div><div>...and 3 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>p-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:120</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:169</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>p-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\admin\questions\hierarchy\+page.svelte:18</div><div class="file-path">src\routes\admin\questions\hierarchy\+page.svelte:26</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>page-title</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -4278,14 +3072,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\atoms\MarqueeHorizontal.svelte:46</div><div class="file-path">src\lib\components\atoms\MarqueeHorizontal.svelte:46</div><div class="file-path">src\routes\+page.svelte:338</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>pb-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:234</div>
           </td>
         </tr>
       
@@ -4382,14 +3168,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\about\+page.svelte:158</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>pl-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:104</div>
           </td>
         </tr>
       
@@ -4514,22 +3292,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>position-center</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\routes\blog\enneagram\subtopic\[slug]\+page.svelte:13</div><div class="file-path">src\routes\blog\famous-enneagram-types\type\[slug]\+page.svelte:21</div><div class="file-path">src\routes\blog\famous-enneagram-types\type\[slug]\+page.svelte:46</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>pr-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\admin\questions\+page.svelte:114</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>preheader</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -4638,70 +3400,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 11 location(s):</strong><br><div class="file-path">src\lib\components\atoms\jumbotron.svelte:65</div><div class="file-path">src\lib\components\atoms\jumbotron.svelte:65</div><div class="file-path">src\lib\components\atoms\PopCard.svelte:129</div><div>...and 8 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>pt-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:234</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:160</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:161</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>px-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:139</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:156</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>px-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:134</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:116</div><div>...and 3 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>px-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:323</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:324</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:144</div><div>...and 3 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>py-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:117</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>py-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 9 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:139</div><div>...and 6 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>py-3</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:236</div><div class="file-path">src\routes\+page.svelte:240</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>py-8</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 7 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:134</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:59</div><div class="file-path">src\routes\+page.svelte:219</div><div>...and 4 more</div>
           </td>
         </tr>
       
@@ -4930,50 +3628,10 @@
         </tr>
       
         <tr class="used-class">
-          <td>resize-y</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:292</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:317</div><div class="file-path">src\lib\components\marketing\CreateContent.svelte:139</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>right</td>
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Header.svelte:114</div><div class="file-path">src\lib\components\molecules\Header.svelte:128</div><div class="file-path">src\lib\components\molecules\rubixDisplay2.svelte:222</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>rounded</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:260</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>rounded-full</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:348</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>rounded-lg</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 12 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:120</div><div>...and 9 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>rounded-md</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:187</div><div>...and 2 more</div>
           </td>
         </tr>
       
@@ -5006,14 +3664,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\atoms\scribble.svelte:33</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>scroll-table</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\routes\account\unsubscribe\+page.svelte:62</div><div class="file-path">src\routes\admin\users\+page.svelte:93</div><div class="file-path">src\routes\admin\users\+page.svelte:164</div><div>...and 2 more</div>
           </td>
         </tr>
       
@@ -5202,14 +3852,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>select-input</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:501</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>selected</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -5238,30 +3880,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\molecules\Comment.svelte:333</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>shadow-lg</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>shadow-md</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 6 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:120</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:169</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:99</div><div>...and 3 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>shadow-sm</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:83</div>
           </td>
         </tr>
       
@@ -5414,94 +4032,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:260</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:flex-row</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div><div class="file-path">src\routes\+page.svelte:234</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:gap-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:182</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:grid-cols-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:131</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:193</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:66</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:h-32</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:order-1</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:236</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:order-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:240</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:p-2</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:189</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:space-y-0</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:136</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:text-sm</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:197</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:w-64</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:171</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>sm:w-auto</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:240</div>
           </td>
         </tr>
       
@@ -5858,182 +4388,6 @@
         </tr>
       
         <tr class="used-class">
-          <td>text-2xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:234</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:247</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:260</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-3xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 9 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:117</div><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:60</div><div class="file-path">src\routes\+page.svelte:280</div><div>...and 6 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-4xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:227</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-base</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:325</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-center</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 15 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:53</div><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:54</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div><div>...and 12 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-column</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\calendar\+page.svelte:6</div><div class="file-path">src\routes\email\+page.svelte:248</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-gray-500</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 4 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:330</div><div class="file-path">src\lib\components\molecules\CategoryTree.svelte:29</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:131</div><div>...and 1 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-gray-600</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 11 location(s):</strong><br><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:101</div><div class="file-path">src\lib\components\questions\AdminQuestionItem.svelte:102</div><div class="file-path">src\routes\+page.svelte:230</div><div>...and 8 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-gray-700</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 20 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:173</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:186</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:197</div><div>...and 17 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-gray-800</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\admin\questions\+page.svelte:124</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-gray-900</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 3 location(s):</strong><br><div class="file-path">src\lib\components\marketing\ContentManager.svelte:108</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:84</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:87</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-lg</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 12 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:53</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:330</div><div class="file-path">src\lib\components\marketing\ContentManager.svelte:89</div><div>...and 9 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-nowrap</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:236</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-overlay</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\enneagram-corner\+page.svelte:179</div><div class="file-path">src\routes\enneagram-corner\+page.svelte:191</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-primary-600</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:220</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-red-600</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\admin\questions\+page.svelte:149</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-right</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\TemplateManager.svelte:62</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-sections</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\BlogPurpose.svelte:19</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-sm</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 33 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:54</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:266</div><div class="file-path">src\lib\components\marketing\ContentEditor.svelte:173</div><div>...and 30 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-white</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-xl</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 13 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:153</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:121</div><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:170</div><div>...and 10 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>text-xs</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 5 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:184</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:197</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:210</div><div>...and 2 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>textarea-container</td>
           <td><span style="color: green;">Used</span></td>
           <td>
@@ -6198,14 +4552,6 @@
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>transition-colors</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div>
           </td>
         </tr>
       
@@ -6386,66 +4732,10 @@
         </tr>
       
         <tr class="used-class">
-          <td>visible</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\atoms\Modal2.svelte:65</div><div class="file-path">src\lib\components\abstract\lazyLoad.ts:9</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
           <td>visually-hidden</td>
           <td><span style="color: green;">Used</span></td>
           <td>
             <strong>Used in 8 location(s):</strong><br><div class="file-path">src\lib\components\atoms\scribble.svelte:41</div><div class="file-path">src\lib\components\molecules\AIComments.svelte:133</div><div class="file-path">src\lib\components\molecules\ComboBox.svelte:323</div><div>...and 5 more</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-24</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\routes\+page.svelte:348</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-4</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:89</div><div class="file-path">src\routes\questions\categories\[slug]\+page.svelte:89</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-5</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 2 location(s):</strong><br><div class="file-path">src\lib\components\marketing\Calendar.svelte:142</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:159</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-56</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:49</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-6</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 1 location(s):</strong><br><div class="file-path">src\lib\components\marketing\CampaignManager.svelte:260</div>
-          </td>
-        </tr>
-      
-        <tr class="used-class">
-          <td>w-full</td>
-          <td><span style="color: green;">Used</span></td>
-          <td>
-            <strong>Used in 67 location(s):</strong><br><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:62</div><div class="file-path">src\lib\components\blog\EnneagramCTASidebar.svelte:67</div><div class="file-path">src\lib\components\marketing\Calendar.svelte:171</div><div>...and 64 more</div>
           </td>
         </tr>
       

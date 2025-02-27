@@ -169,14 +169,6 @@
 		width: 100%;
 	}
 
-	.fit-card-center {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: 100%;
-	}
-
 	.blog-grid-container {
 		column-count: 3;
 		column-gap: 0.5rem;

@@ -22,6 +22,8 @@
 	let toc: string = '';
 	let content: string = '';
 	let jsonLd: string = '';
+	let initialized = false;
+	let contentProcessed = false;
 
 	interface TocItem {
 		id: string;
@@ -31,7 +33,8 @@
 
 	// Calculate sidebar position
 	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);
-	$: showSidebar = visible && toc && windowWidth >= desktopBreakpoint && sidebarPosition !== null;
+	$: showSidebar =
+		visible && toc !== '' && windowWidth >= desktopBreakpoint && sidebarPosition !== null;
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
 		// Calculate the left position relative to the main content column
@@ -51,98 +54,115 @@
 	function generateTableOfContents(html: string): { tocHtml: string; tocStructure: TocItem[] } {
 		if (!browser || !html) return { tocHtml: '', tocStructure: [] };
 
-		const tempDiv = document.createElement('div');
-		tempDiv.innerHTML = html;
+		try {
+			const tempDiv = document.createElement('div');
+			tempDiv.innerHTML = html;
 
-		const headings = [...tempDiv.querySelectorAll('h2, h3')].filter(
-			(heading) => heading.textContent?.trim() !== title
-		);
+			const headings = [...tempDiv.querySelectorAll('h2, h3')].filter(
+				(heading) => heading.textContent?.trim() !== title
+			);
 
-		const list = document.createElement('ul');
-		list.className = 'toc-list';
-
-		let h2Sections: { h2: HTMLLIElement; h3s: HTMLLIElement[]; tocItem: TocItem }[] = [];
-		let tocStructure: TocItem[] = [];
-
-		headings.forEach((heading) => {
-			const listItem = document.createElement('li');
-			listItem.className = `toc-item toc-level-${heading.tagName.toLowerCase()}`;
-			const link = document.createElement('a');
-
-			const headingText = heading.textContent || '';
-			// Shorten very long headings for TOC display (over 35 chars)
-			const displayText =
-				headingText.length > 35 ? headingText.substring(0, 32) + '...' : headingText;
-
-			const id =
-				heading.id ||
-				headingText
-					.toLowerCase()
-					.replace(/[^\w\s-]/g, '')
-					.replace(/\s+/g, '-');
-			heading.id = id;
-
-			link.href = `#${id}`;
-			link.textContent = displayText;
-			link.className = 'toc-link';
-			link.setAttribute('title', headingText); // Add title for tooltip showing full text
-
-			listItem.appendChild(link);
-
-			const tocItem: TocItem = {
-				id,
-				name: headingText
-			};
-
-			if (heading.tagName === 'H2') {
-				list.appendChild(listItem);
-				tocStructure.push(tocItem);
-				h2Sections.push({ h2: listItem, h3s: [], tocItem });
-			} else if (heading.tagName === 'H3' && h2Sections.length > 0) {
-				h2Sections[h2Sections.length - 1].h3s.push(listItem);
-				if (!h2Sections[h2Sections.length - 1].tocItem.children) {
-					h2Sections[h2Sections.length - 1].tocItem.children = [];
-				}
-				h2Sections[h2Sections.length - 1].tocItem.children?.push(tocItem);
+			if (headings.length === 0) {
+				return { tocHtml: '', tocStructure: [] };
 			}
-		});
 
-		// Limit the number of TOC entries if there are too many
-		const totalH2s = h2Sections.length;
-		const totalH3s = h2Sections.reduce((sum, section) => sum + section.h3s.length, 0);
-		const totalLinks = totalH2s + totalH3s;
+			const list = document.createElement('ul');
+			list.className = 'toc-list';
 
-		if (totalLinks > maxTocEntries) {
-			const availableH3Slots = maxTocEntries - totalH2s;
-			const h3sPerSection = Math.floor(availableH3Slots / totalH2s);
-			let extraH3s = availableH3Slots % totalH2s;
+			let h2Sections: { h2: HTMLLIElement; h3s: HTMLLIElement[]; tocItem: TocItem }[] = [];
+			let tocStructure: TocItem[] = [];
 
-			h2Sections.forEach((section, index) => {
-				const h3sToKeep = h3sPerSection + (index < extraH3s ? 1 : 0);
-				section.h3s.slice(0, h3sToKeep).forEach((h3) => {
-					const subList = document.createElement('ul');
-					subList.className = 'toc-sublist';
-					subList.appendChild(h3);
-					section.h2.appendChild(subList);
+			headings.forEach((heading) => {
+				const listItem = document.createElement('li');
+				listItem.className = `toc-item toc-level-${heading.tagName.toLowerCase()}`;
+				const link = document.createElement('a');
+
+				// Handle empty headings
+				const headingText = heading.textContent?.trim() || 'Untitled Section';
+				// Shorten very long headings for TOC display (over 35 chars)
+				const displayText =
+					headingText.length > 35 ? headingText.substring(0, 32) + '...' : headingText;
+
+				// Generate a valid ID if missing
+				const id =
+					heading.id ||
+					`toc-${headingText
+						.toLowerCase()
+						.replace(/[^\w\s-]/g, '')
+						.replace(/\s+/g, '-')}`;
+
+				// Make sure the heading has an ID for linking
+				if (!heading.id) {
+					heading.id = id;
+				}
+
+				link.href = `#${id}`;
+				link.textContent = displayText;
+				link.className = 'toc-link';
+				link.setAttribute('title', headingText); // Add title for tooltip showing full text
+
+				listItem.appendChild(link);
+
+				const tocItem: TocItem = {
+					id,
+					name: headingText
+				};
+
+				if (heading.tagName === 'H2') {
+					list.appendChild(listItem);
+					tocStructure.push(tocItem);
+					h2Sections.push({ h2: listItem, h3s: [], tocItem });
+				} else if (heading.tagName === 'H3' && h2Sections.length > 0) {
+					h2Sections[h2Sections.length - 1].h3s.push(listItem);
+					if (!h2Sections[h2Sections.length - 1].tocItem.children) {
+						h2Sections[h2Sections.length - 1].tocItem.children = [];
+					}
+					h2Sections[h2Sections.length - 1].tocItem.children?.push(tocItem);
+				}
+			});
+
+			// Limit the number of TOC entries if there are too many
+			const totalH2s = h2Sections.length;
+			const totalH3s = h2Sections.reduce((sum, section) => sum + section.h3s.length, 0);
+			const totalLinks = totalH2s + totalH3s;
+
+			if (totalLinks > maxTocEntries) {
+				const availableH3Slots = maxTocEntries - totalH2s;
+				const h3sPerSection = Math.floor(availableH3Slots / totalH2s);
+				let extraH3s = availableH3Slots % totalH2s;
+
+				h2Sections.forEach((section, index) => {
+					const h3sToKeep = h3sPerSection + (index < extraH3s ? 1 : 0);
+					if (section.h3s.length > 0) {
+						const subList = document.createElement('ul');
+						subList.className = 'toc-sublist';
+						section.h3s.slice(0, h3sToKeep).forEach((h3) => {
+							subList.appendChild(h3);
+						});
+						section.h2.appendChild(subList);
+					}
+					if (section.tocItem.children) {
+						section.tocItem.children = section.tocItem.children.slice(0, h3sToKeep);
+					}
 				});
-				if (section.tocItem.children) {
-					section.tocItem.children = section.tocItem.children.slice(0, h3sToKeep);
-				}
-			});
-		} else {
-			h2Sections.forEach((section) => {
-				if (section.h3s.length > 0) {
-					const subList = document.createElement('ul');
-					subList.className = 'toc-sublist';
-					section.h3s.forEach((h3) => {
-						subList.appendChild(h3);
-					});
-					section.h2.appendChild(subList);
-				}
-			});
-		}
+			} else {
+				h2Sections.forEach((section) => {
+					if (section.h3s.length > 0) {
+						const subList = document.createElement('ul');
+						subList.className = 'toc-sublist';
+						section.h3s.forEach((h3) => {
+							subList.appendChild(h3);
+						});
+						section.h2.appendChild(subList);
+					}
+				});
+			}
 
-		return { tocHtml: list.outerHTML, tocStructure };
+			return { tocHtml: list.outerHTML, tocStructure };
+		} catch (error) {
+			console.error('Error generating table of contents:', error);
+			return { tocHtml: '', tocStructure: [] };
+		}
 	}
 
 	function generateJsonLd(tocStructure: TocItem[], url: string): string {
@@ -183,7 +203,10 @@
 
 		// Find the main content element and get its width
 		if (!mainElement) {
-			mainElement = document.querySelector('main.column-width');
+			mainElement =
+				document.querySelector('main.column-width') ||
+				document.querySelector('main') ||
+				document.querySelector('.blog');
 		}
 
 		if (mainElement) {
@@ -204,8 +227,8 @@
 				e.preventDefault();
 				// For mobile devices, close the accordion after clicking
 				if (windowWidth < desktopBreakpoint) {
-					const details = document.querySelector('details');
-					if (details) details.open = false;
+					const details = document.querySelector('.toc-accordion');
+					if (details instanceof HTMLDetailsElement) details.open = false;
 				}
 
 				// Scroll with a small offset to account for sticky headers
@@ -222,31 +245,91 @@
 	}
 
 	function processContent() {
-		if (content) {
+		if (!browser || !content) return;
+
+		// If we have content but the TOC is empty or not processed yet
+		if (content && !contentProcessed) {
 			const { tocHtml, tocStructure } = generateTableOfContents(content);
-			toc = tocHtml;
-			jsonLd = generateJsonLd(tocStructure, pageUrl);
+
+			if (tocHtml) {
+				toc = tocHtml;
+				jsonLd = generateJsonLd(tocStructure, pageUrl);
+				contentProcessed = true;
+			} else if (!initialized) {
+				// If first attempt failed, try with a delay to ensure DOM is fully loaded
+				setTimeout(() => {
+					const { tocHtml, tocStructure } = generateTableOfContents(content);
+					toc = tocHtml;
+					jsonLd = generateJsonLd(tocStructure, pageUrl);
+					contentProcessed = true;
+				}, 1000);
+			}
+
+			initialized = true;
+		}
+	}
+
+	// Add active state tracking for TOC links
+	function updateActiveTocLink() {
+		if (!browser) return;
+
+		// Get all headings and TOC links
+		const headings = Array.from(document.querySelectorAll('h2[id], h3[id]'));
+		const tocLinks = document.querySelectorAll('.toc-link');
+
+		if (!headings.length || !tocLinks.length) return;
+
+		// Find the heading currently in view
+		const scrollPosition = window.scrollY;
+
+		// Find the heading that's currently visible
+		let activeHeading = null;
+		for (let i = 0; i < headings.length; i++) {
+			const heading = headings[i];
+			const rect = heading.getBoundingClientRect();
+
+			// Consider a heading as active if it's close to the top of the viewport
+			if (rect.top <= 100) {
+				activeHeading = heading;
+			} else {
+				break;
+			}
+		}
+
+		// Remove active class from all links
+		tocLinks.forEach((link) => link.classList.remove('active'));
+
+		// Add active class to the matching link
+		if (activeHeading) {
+			const activeId = activeHeading.id;
+			const activeLink = document.querySelector(`.toc-link[href="#${activeId}"]`);
+			if (activeLink) {
+				activeLink.classList.add('active');
+			}
 		}
 	}
 
 	// Process content whenever it changes
-	$: {
-		if (content) {
-			processContent();
-		}
+	$: if (content && content !== '') {
+		processContent();
 	}
 
 	onMount(() => {
 		if (browser) {
 			window.addEventListener('scroll', handleScroll);
 			window.addEventListener('resize', handleResize);
+			window.addEventListener('scroll', updateActiveTocLink);
 
 			// Initial setup
 			handleResize();
-			processContent();
 
 			// Add event listener for TOC clicks
 			document.addEventListener('click', handleTocClick);
+
+			// If we already have content from a previous subscription, process it
+			if (content) {
+				processContent();
+			}
 		}
 	});
 
@@ -254,17 +337,21 @@
 		if (browser) {
 			window.removeEventListener('scroll', handleScroll);
 			window.removeEventListener('resize', handleResize);
+			window.removeEventListener('scroll', updateActiveTocLink);
 			document.removeEventListener('click', handleTocClick);
 		}
 	});
 
 	// Subscribe to content changes
 	const unsubscribe = contentStore.subscribe((value) => {
-		content = value;
+		if (value && value !== content) {
+			content = value;
+			contentProcessed = false; // Reset processing flag for new content
+		}
 	});
 
 	afterUpdate(() => {
-		if (content) {
+		if (content && !contentProcessed) {
 			processContent();
 		}
 	});
@@ -284,12 +371,14 @@
 	</aside>
 {/if}
 
-<details class="toc-accordion" open>
-	<summary class="toc-summary">{title}</summary>
-	<div class="toc-accordion-content">
-		{@html toc}
-	</div>
-</details>
+{#if toc}
+	<details class="toc-accordion" open>
+		<summary class="toc-summary">{title}</summary>
+		<div class="toc-accordion-content">
+			{@html toc}
+		</div>
+	</details>
+{/if}
 
 <svelte:head>
 	{#if jsonLd}

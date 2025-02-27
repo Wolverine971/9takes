@@ -91,14 +91,6 @@
 		backdrop-filter: blur(2px);
 	}
 
-	modal .x {
-		filter: grayscale(1);
-		border: none;
-		background: none;
-		position: absolute;
-		top: 0;
-		right: 0.4rem;
-	}
 	modal form {
 		border: 0;
 	}

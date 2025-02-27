@@ -13,3 +13,8 @@ vite.config.ts.timestamp-*
 
 schema.ts
 src/schema.ts
+
+
+unused-css-report.json
+unused-selectors-report.json
+unused-selectors-report.json

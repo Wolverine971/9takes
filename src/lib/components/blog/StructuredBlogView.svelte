@@ -206,25 +206,17 @@
 		h2 {
 			font-size: 2rem !important;
 		}
-		.flex-columns {
-			flex-wrap: wrap-reverse;
-		}
+
 		header h1 {
 			font-size: 24px;
 		}
 		nav li {
 			margin: 5px;
 		}
-		.flex-columns section {
-			flex-basis: calc(100% - 20px);
-		}
 	}
 	@media (max-width: 480px) {
 		header h1 {
 			font-size: 18px;
-		}
-		.flex-columns section {
-			flex-basis: 100%;
 		}
 	}
 </style>

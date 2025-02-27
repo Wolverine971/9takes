@@ -417,10 +417,6 @@
 {/if}
 
 <style lang="scss">
-	.enneagram-type-intro {
-		margin-bottom: 2rem;
-	}
-
 	h1 {
 		font-size: 2.5rem;
 		color: var(--text-color);
@@ -438,15 +434,6 @@
 		font-size: 1.2rem;
 		text-align: center;
 		margin-bottom: 1.5rem;
-	}
-
-	.type-details ul {
-		list-style-type: none;
-		padding: 0;
-	}
-
-	.type-details li {
-		margin-bottom: 0.5rem;
 	}
 
 	@media (max-width: 768px) {
