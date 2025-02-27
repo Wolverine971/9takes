@@ -99,7 +99,7 @@
 		}
 
 		.inactive {
-			color: var(--color-paladin-3);
+			color: var(--dark-gray);
 			text-decoration: none;
 			opacity: 0.7;
 			transition: opacity 0.3s ease;
@@ -125,7 +125,7 @@
 	label {
 		font-weight: bold;
 		font-size: 0.9rem;
-		color: var(--color-paladin-3);
+		color: var(--dark-gray);
 	}
 
 	input {

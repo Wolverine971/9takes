@@ -1,59 +1,68 @@
 :root {
-	/* Colors */
-	--primary: #000000;
-	--primary-dark: #1a1a1a;
-	--accent: #b3a6c9;
-	--accent-dark: #bc96fd;
-	--accent-darker: #833bff;
-	--secondary: #c0c0c0;
-	--secondary-dark: #a0a0a0;
-	--success: #4caf50;
-	--info: #f0f0f0;
-	--warning: #ff8c00;
-	--error: #dc143c;
-	--color-theme-dark-blue: #191970;
-	--color-theme-pink: #f72585;
-	--color-theme-purple: var(--primary);
-	--color-theme-purple-dark: #2f0479;
-	--color-theme-purple-light: var(--accent);
-	--color-theme-purple-lighter: #bc96fd;
-	--color-paladin-3: #52616b;
-	--color-paladin-4: #444;
-	--color-paladin-5: #1e2922;
-	--color-text: rgba(47, 40, 40, 0.7);
-	--white: rgba(48, 48, 48, 0.188);
-	--black: #303030;
-	--body-color: rgba(48, 48, 48, 0.188);
-	--base-white-outline: #f0f5f9;
-	--verygrey: #e3e3e3;
-	--base-grey-0: #d8d8d8;
-	--base-grey-1: #d4d4d4;
-	--base-grey-2: #cacaca;
-	--background-color: #f5f5f7;
-	--card-background: #ffffff;
-	--shadow-color: rgba(0, 0, 0, 0.1);
+	/* Primary Colors */
+	--primary: #6c5ce7; /* Main purple - more vibrant than before */
+	--primary-dark: #4834d4; /* Darker purple for hover states */
+	--primary-light: #a29bfe; /* Light purple for backgrounds and accents */
 
-	/* Typography */
-	--font-family: 'Noticia Text', serif;
-	--font-mono: 'Fira Mono', monospace;
-	--font-size: 16px;
+	/* Accent Colors */
+	--accent: #8c7ae6; /* Softer purple for secondary elements */
+	--accent-dark: #7158e2; /* Slightly darker accent for contrast */
+	--accent-light: #e9e4ff; /* Very light purple for subtle highlights */
+
+	--color-theme-purple: #000;
+	--color-theme-purple-dark: var(--primary-dark);
+	--color-theme-purple-light: var(--accent);
+	--color-theme-purple-lighter: var(--accent-light);
+
+	/* Neutrals */
+	--white: #ffffff;
+	--off-white: #f9f9ff; /* Slightly purplish white for backgrounds */
+	--lightest-gray: #f0f2f5; /* Very light gray for card backgrounds */
+	--light-gray: #e4e6eb; /* Light gray for borders */
+	--medium-gray: #c1c5d0; /* Medium gray for disabled states */
+	--dark-gray: #65676b; /* Dark gray for secondary text */
+	--darkest-gray: #2a2d34; /* Very dark gray for primary text */
+	--black: #18191a; /* Off-black for stronger text */
+
+	/* Functional Colors */
+	--success: #00b894; /* Teal green for success messages */
+	--warning: #fdcb6e; /* Soft yellow for warnings */
+	--error: #e84393; /* Pink/purple for errors - matches theme */
+	--info: #74b9ff; /* Soft blue for information */
+
+	/* Text Colors */
+	--text-primary: #2d3436; /* Main text color - almost black but softer */
+	--text-secondary: #636e72; /* Secondary text - medium gray */
+	--text-tertiary: #b2bec3; /* Tertiary text - lighter gray */
+	--text-on-primary: #ffffff; /* Text on primary colored backgrounds */
+
+	/* Component Specific */
+	--card-background: #ffffff;
+	--body-background: #f7f7ff; /* Very light purple tint for body */
+	--comment-hover-bg: #f0edff; /* Light purple for comment hover */
+	--border-color: #e3e1f0; /* Light purplish gray for borders */
+	--button-hover: #5a48d6; /* Slightly darker than primary for button hovers */
+
+	/* Shadows */
+	--shadow-sm: 0 1px 3px rgba(108, 92, 231, 0.08);
+	--shadow-md: 0 4px 6px rgba(108, 92, 231, 0.1);
+	--shadow-lg: 0 10px 15px rgba(108, 92, 231, 0.1);
 
 	/* Layout */
+	--border-radius: 0.5rem; /* Slightly increased for modern look */
+	--base-border-radius: 0.5rem;
+	--border-radius-lg: 0.75rem;
+	--border-radius-sm: 0.25rem;
+
+	/* Keep existing layout variables that work well */
 	--block-spacing-vertical: 2rem;
 	--block-spacing-horizontal: 2rem;
-	--border-radius: 0.25rem;
-	--base-border-radius: 5px;
-	--card-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(27, 40, 50, 0.2),
-		0.0335rem 0.067rem 0.402rem rgba(27, 40, 50, 0.2),
-		0.0625rem 0.125rem 0.75rem rgba(27, 40, 50, 0.2),
-		0.1125rem 0.225rem 1.35rem rgba(27, 40, 50, 0.2),
-		0.2085rem 0.417rem 2.502rem rgba(27, 40, 50, 0.2), 0.5rem 1rem 6rem rgba(27, 40, 50, 0.2),
-		0 0 0 0.0625rem rgba(27, 40, 50, 0.05);
+	--card-padding: 1.25rem; /* Slightly increased padding */
 
-	/* Misc */
+	--font-family: 'Noticia Text', serif;
+	--font-mono: 'Fira Mono', monospace;
 	--glass-color: rgba(90, 91, 95, 0.1);
-	--classic-border: 1px solid var(--gray);
-	--card-padding: 0.8rem 1rem;
+
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
 }
@@ -71,8 +80,8 @@ body {
 	font-family: var(--font-family);
 	font-size: var(--font-size);
 	line-height: 1.6;
-	color: var(--color-text);
-	background-color: var(--base-grey-0);
+	background-color: var(--body-background);
+	color: var(--text-primary);
 }
 
 /* Typography */
@@ -381,7 +390,7 @@ section {
 }
 
 .drop-down:hover {
-	background-color: var(--info);
+	background-color: var(--light-gray);
 }
 
 /* Iframe container */
@@ -493,13 +502,13 @@ body::-webkit-scrollbar-track,
 .scroll-table::-webkit-scrollbar-track,
 .scrollable-div::-webkit-scrollbar-track {
 	border-radius: var(--base-border-radius);
-	box-shadow: 0 0 0.2rem var(--color-paladin-3);
+	box-shadow: 0 0 0.2rem var(--dark-gray);
 }
 
 body::-webkit-scrollbar-thumb,
 .scroll-table::-webkit-scrollbar-thumb,
 .scrollable-div::-webkit-scrollbar-thumb {
-	background-color: var(--color-paladin-3);
+	background-color: var(--dark-gray);
 	border-radius: var(--base-border-radius);
 }
 
@@ -516,7 +525,7 @@ body::-webkit-scrollbar-thumb,
 }
 
 .txt-dark {
-	color: var(--color-paladin-3);
+	color: var(--dark-gray);
 	text-shadow: 1px 1px 1px var(--color-theme-purple-light);
 }
 
@@ -572,7 +581,7 @@ figcaption {
 }
 
 .panel {
-	background-color: var(--verygrey);
+	background-color: var(--medium-gray);
 	border-radius: 10px;
 	padding: 1rem;
 	overflow: hidden;
@@ -591,7 +600,7 @@ article {
 	cursor: pointer;
 	padding: 0.5rem;
 	text-align: left;
-	color: var(--color-paladin-4);
+	color: var(--darkest-gray);
 	font-size: 15px;
 }
 
@@ -749,7 +758,7 @@ textarea {
 	border-radius: var(--base-border-radius);
 	padding: 1rem;
 	width: 100%;
-	background-color: var(--verygrey);
+	background-color: var(--medium-gray);
 	border: 1px solid var(--base-white-outline) !important;
 }
 
@@ -992,11 +1001,12 @@ main {
 	.question-area-box,
 	.about-area-box,
 	.background-area-box-tint {
+		background-color: var(--card-background);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-md);
 		margin-top: 0 !important;
 		padding: 2rem !important;
 		padding-top: 0 !important;
-		background: var(--info) !important;
-		border-radius: var(--border-radius) !important;
 	}
 }
 

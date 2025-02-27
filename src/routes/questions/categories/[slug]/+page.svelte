@@ -138,7 +138,7 @@
 		text-align: start;
 		// height: 24px;
 		// padding: 0.5rem 1rem;
-		color: var(--color-paladin-4);
+		color: var(--darkest-gray);
 		font-size: 1.2rem;
 		// box-sizing: content-box;
 

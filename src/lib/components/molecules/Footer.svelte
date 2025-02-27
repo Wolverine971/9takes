@@ -44,7 +44,7 @@
 
 <style lang="scss">
 	a {
-		color: var(--color-paladin-3);
+		color: var(--dark-gray);
 		font-weight: bold;
 		&:hover,
 		&.active-link {

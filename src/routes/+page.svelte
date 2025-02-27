@@ -212,7 +212,7 @@
 
 <!-- Main container with min-height to prevent layout shift -->
 <div class="main-container">
-	<!-- Hero Section -->
+	<!-- Hero Section - Updated classes for consistent styling -->
 	<div class="section-wrapper">
 		{#if loaded}
 			<section
@@ -228,8 +228,7 @@
 							9takes, <br /> Open Source Conflict Resolution
 						</h1>
 						<h2 class="mb-4 text-lg font-medium text-gray-600 md:mb-6 md:text-xl lg:text-2xl">
-							Ask and answer questions <span style="text-decoration: underline">anonymously</span
-							>.<br />
+							Ask and answer questions <span class="highlight">anonymously</span>.<br />
 							Get 9 perspectives on conflict via the Enneagram.
 						</h2>
 						<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
@@ -245,14 +244,17 @@
 					</div>
 
 					<div class="mt-6 w-full md:mt-0 md:w-1/2">
-						<!-- Fixed height container to prevent layout shift -->
-						<div class="glass-area h-auto" style="min-height: {questionListHeight};">
+						<!-- Updated glass-area class to match new styling -->
+						<div
+							class="glass-area question-container h-auto"
+							style="min-height: {questionListHeight};"
+						>
 							<h3 class="!mt-0 mb-4 !pt-0 text-xl font-semibold">Latest Questions</h3>
 							<div class="question-list">
 								{#each data?.top9Questions || [] as questionData}
 									<QuestionItem {questionData} showDetails={true} />
 								{:else}
-									<!-- Skeleton loader for questions -->
+									<!-- Updated skeleton loader styling -->
 									{#each Array(3) as _}
 										<div class="skeleton-question-item">
 											<div class="skeleton-text"></div>
@@ -271,15 +273,15 @@
 		{/if}
 	</div>
 
-	<!-- How it Works -->
+	<!-- How it Works - Updated to use step-card for consistent styling -->
 	<div class="section-wrapper">
 		{#if sectionsVisible[1] || !browser}
-			<section class="py-8 md:py-16" in:fly={getTransition(1)}>
+			<section class="how-it-works py-8 md:py-16" in:fly={getTransition(1)}>
 				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">How 9takes Works</h2>
-				<div class="grid gap-6 md:grid-cols-3 md:gap-8">
+				<div class="steps-container">
 					{#each steps as { emoji, title, description }}
-						<div class="glass-area">
-							<div class="mb-3 text-2xl md:mb-4 md:text-3xl">{emoji}</div>
+						<div class="step-card">
+							<div class="emoji">{emoji}</div>
 							<h3 class="mb-2 text-lg font-semibold md:text-xl">{title}</h3>
 							<p class="text-gray-600">{description}</p>
 						</div>
@@ -289,10 +291,10 @@
 		{/if}
 	</div>
 
-	<!-- Nine Types Section -->
+	<!-- Nine Types Section - Updated to use new dark-section styling -->
 	<div class="section-wrapper">
 		{#if sectionsVisible[2] || !browser}
-			<section class="dark-section rounded-lg p-6 md:p-12" in:fly={getTransition(2)}>
+			<section class="dark-section" in:fly={getTransition(2)}>
 				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
 				<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 1.5rem;">
 					<p class="mb-6 text-lg md:text-xl">
@@ -301,8 +303,8 @@
 					</p>
 					<div class="grid grid-cols-3 gap-2 md:gap-4">
 						{#each Array(9) as _, i}
-							<a class="font-bold" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
-								<div class="type-box flex h-16 items-center justify-center rounded-lg md:h-24">
+							<a class="enneagram-link" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
+								<div class="type-box">
 									<span class="text-xl font-bold md:text-2xl">Type {i + 1}</span>
 								</div>
 							</a>
@@ -313,11 +315,9 @@
 		{/if}
 	</div>
 
-	<!-- Personality Analysis CTA -->
+	<!-- Personality Analysis CTA - Updated with consistent styling -->
 	<div class="section-wrapper my-16 md:my-24">
-		<section
-			class="personality-cta mx-auto max-w-6xl rounded-xl bg-white !p-4 pb-2 shadow-xl md:!p-6 lg:p-12"
-		>
+		<section class="personality-cta mx-auto max-w-6xl">
 			<div class="mx-auto mb-6 max-w-3xl text-center md:mb-8">
 				<h2 class="mb-2 text-xl font-bold md:mb-3 md:text-2xl lg:text-3xl">
 					Learn Your Type Through Famous People
@@ -337,7 +337,7 @@
 					>
 						<div class="marquee" class:paused={isHovering}>
 							{#each [...personalities, ...personalities] as { name, type, slug }}
-								<a href="/personality-analysis/{slug}" class="personality-card group">
+								<a href="/personality-analysis/{slug}" class="personality-card">
 									<div class="flex flex-col items-center justify-center">
 										<div class="img-wrapper">
 											<img
@@ -349,17 +349,12 @@
 												loading="lazy"
 												decoding="async"
 											/>
-											<div
-												class="absolute inset-0 rounded-full group-hover:ring-2 group-hover:ring-purple-500/50"
-											></div>
 										</div>
 									</div>
-									<p
-										class="m-2 p-1 text-center text-sm font-medium text-gray-900 md:m-3 md:p-2 md:text-base"
-									>
+									<p class="personality-name">
 										{name}
 									</p>
-									<p class="!mb-0 !mt-auto text-xs text-purple-600 md:text-sm">Type {type}</p>
+									<p class="personality-type">Type {type}</p>
 								</a>
 							{/each}
 						</div>
@@ -377,7 +372,7 @@
 			<div class="mt-6 text-center md:mt-8">
 				<a
 					href="/personality-analysis"
-					class="inline-flex items-center justify-center rounded-lg bg-black px-4 py-2 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-gray-800 md:px-6 md:py-3 md:text-base"
+					class="explore-btn btn-primary inline-flex items-center justify-center"
 				>
 					Explore All Personalities →
 				</a>
@@ -385,10 +380,10 @@
 		</section>
 	</div>
 
-	<!-- Benefits Section -->
+	<!-- Benefits Section - Updated with benefit-card styling -->
 	<div class="section-wrapper">
 		{#if sectionsVisible[3] || !browser}
-			<section class="py-8 md:py-16" in:fly={getTransition(3)}>
+			<section class="benefits-section py-8 md:py-16" in:fly={getTransition(3)}>
 				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why It Works</h2>
 				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
 					{#each benefits as { title, description }}
@@ -402,18 +397,20 @@
 		{/if}
 	</div>
 
-	<!-- CTA Section -->
+	<!-- CTA Section - Updated with cta-section styling -->
 	{#if !data?.session?.user}
 		<div class="section-wrapper">
 			{#if sectionsVisible[4] || !browser}
-				<section class="glass-area mb-16 text-center md:mb-24" in:fly={getTransition(4)}>
+				<section class="cta-section mb-16 text-center md:mb-24" in:fly={getTransition(4)}>
 					<h2 class="mb-4 text-3xl font-bold md:mb-6 md:text-4xl">
 						Ready to Gain New Perspectives?
 					</h2>
 					<p class="mb-6 text-lg text-gray-600 md:mb-8 md:text-xl">
 						Join our community and start seeing conflicts from all angles.
 					</p>
-					<EmailSignup cta="Get Started Now →" />
+					<div class="email-signup-form">
+						<EmailSignup cta="Get Started Now →" />
+					</div>
 				</section>
 			{/if}
 		</div>
@@ -422,11 +419,54 @@
 
 <style lang="scss">
 	:root {
-		--background-color: #f5f5f7;
+		/* Primary Colors */
+		--primary: #6c5ce7; /* Main purple - more vibrant than original */
+		--primary-dark: #4834d4; /* Darker purple for hover states and headers */
+		--primary-light: #a29bfe; /* Light purple for backgrounds and accents */
+
+		/* Accent Colors */
+		--accent: #8c7ae6; /* Softer purple for secondary elements */
+		--accent-dark: #7158e2; /* Slightly darker accent for contrast */
+		--accent-light: #e9e4ff; /* Very light purple for subtle highlights */
+
+		/* Neutrals */
+		--white: #ffffff;
+		--off-white: #f9f9ff; /* Slightly purplish white for backgrounds */
+		--lightest-gray: #f0f2f5; /* Very light gray for card backgrounds */
+		--light-gray: #e4e6eb; /* Light gray for borders */
+		--medium-gray: #c1c5d0; /* Medium gray for disabled states */
+		--dark-gray: #65676b; /* Dark gray for secondary text */
+		--darkest-gray: #2a2d34; /* Very dark gray for primary text */
+		--black: #18191a; /* Off-black for stronger text */
+
+		/* Functional Colors */
+		--success: #00b894; /* Teal green for success messages */
+		--warning: #fdcb6e; /* Soft yellow for warnings */
+		--error: #e84393; /* Pink/purple for errors - matches theme */
+		--info: #74b9ff; /* Soft blue for information */
+
+		/* Text Colors */
+		--text-primary: #2d3436; /* Main text color - almost black but softer */
+		--text-secondary: #636e72; /* Secondary text - medium gray */
+		--text-tertiary: #b2bec3; /* Tertiary text - lighter gray */
+		--text-on-primary: #ffffff; /* Text on primary colored backgrounds */
+
+		/* Updated Component Specific */
+		--background-color: #f7f7ff; /* Very light purple tint for body - updated */
 		--card-background: #ffffff;
-		--shadow-color: rgba(0, 0, 0, 0.1);
-		--primary-dark: #1a202c;
-		/* CSS variables for consistent spacing */
+		--shadow-color: rgba(108, 92, 231, 0.1); /* Purple-tinted shadows - updated */
+
+		/* Shadows */
+		--shadow-sm: 0 1px 3px rgba(108, 92, 231, 0.08);
+		--shadow-md: 0 4px 6px rgba(108, 92, 231, 0.1);
+		--shadow-lg: 0 10px 15px rgba(108, 92, 231, 0.1);
+
+		/* Layout */
+		--border-radius: 0.5rem; /* Slightly increased for modern look */
+		--border-radius-lg: 0.75rem;
+		--border-radius-sm: 0.25rem;
+
+		/* Keep existing layout variables */
 		--spacing-xs: 0.25rem;
 		--spacing-sm: 0.5rem;
 		--spacing-md: 1rem;
@@ -434,7 +474,19 @@
 		--spacing-xl: 2rem;
 	}
 
-	/* Container sizing */
+	/* Page Background */
+	body {
+		background-color: var(--background-color);
+		color: var(--text-primary);
+		font-family:
+			'Inter',
+			-apple-system,
+			BlinkMacSystemFont,
+			sans-serif;
+		line-height: 1.5;
+	}
+
+	/* Main Container */
 	.main-container {
 		width: 100%;
 		max-width: 1440px;
@@ -444,94 +496,120 @@
 		flex-direction: column;
 	}
 
-	/* Ensure images have proper aspect ratio to prevent layout shift */
-	img {
-		aspect-ratio: 1;
-		object-fit: cover;
+	/* Typography Enhancements */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		color: var(--darkest-gray);
+		font-weight: 600;
 	}
 
-	/* Image wrapper to prevent layout shift */
-	.img-wrapper {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 1.2;
+
+		@media (min-width: 768px) {
+			font-size: 3rem;
+		}
+	}
+
+	/* Links */
+	a {
+		color: var(--primary);
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: var(--primary-dark);
+			text-decoration: none;
+		}
+	}
+
+	/* Hero Section Updates */
+	.hero {
 		position: relative;
-		width: 6rem;
-		height: 6rem;
-
-		@media (min-width: 768px) {
-			width: 7rem;
-			height: 7rem;
-		}
-	}
-
-	/* Section wrapper for better container queries */
-	.section-wrapper {
-		container-type: inline-size;
-		margin-bottom: var(--spacing-xl);
-	}
-
-	@container (min-width: 768px) {
-		.type-box {
-			font-size: 1.25rem;
-		}
-	}
-
-	/* Prevent layout shift with height */
-	.hero-placeholder {
-		min-height: 80vh;
-		width: 100%;
-	}
-
-	/* Skeleton loaders */
-	.skeleton {
-		@apply animate-pulse rounded bg-gray-200;
-	}
-
-	.skeleton-question-item {
-		height: 4rem;
-		margin-bottom: var(--spacing-md);
-		padding: var(--spacing-sm);
-		background-color: rgba(0, 0, 0, 0.05);
-		border-radius: 0.5rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
-
-	.skeleton-text {
-		height: 1rem;
-		width: 100%;
-		background-color: rgba(0, 0, 0, 0.08);
-		border-radius: 0.25rem;
-		margin-bottom: var(--spacing-sm);
-	}
-
-	.skeleton-meta {
-		height: 1rem;
-		width: 30%;
-		background-color: rgba(0, 0, 0, 0.08);
-		border-radius: 0.25rem;
-		align-self: flex-end;
-	}
-
-	.personalities-placeholder {
-		display: flex;
-		justify-content: center;
-		gap: var(--spacing-md);
+		padding: 2rem 0;
 		overflow: hidden;
-	}
 
-	.personality-placeholder {
-		width: 5rem;
-		height: 8rem;
-		background-color: rgba(0, 0, 0, 0.05);
-		border-radius: 0.5rem;
+		h1 {
+			font-weight: 700;
 
-		@media (min-width: 768px) {
-			width: 6rem;
-			height: 10rem;
+			/* Add subtle gradient accent to header */
+			background: linear-gradient(90deg, var(--darkest-gray) 0%, var(--primary-dark) 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			background-clip: text;
+		}
+
+		h2 {
+			color: var(--text-secondary);
+			font-weight: 500;
 		}
 	}
 
-	/* Question list fixed height */
+	/* Updated Button Styles */
+	.btn-primary {
+		background: var(--primary);
+		color: white;
+		font-weight: 600;
+		border-radius: var(--border-radius);
+		transition: all 0.2s ease;
+		border: none;
+		padding: 0.75rem 1.5rem;
+
+		&:hover {
+			background: var(--primary-dark);
+			transform: translateY(-2px);
+			box-shadow: var(--shadow-md);
+		}
+
+		&:active {
+			transform: translateY(0);
+		}
+	}
+
+	.btn-secondary {
+		background: var(--off-white);
+		border: 1px solid var(--light-gray);
+		color: var(--darkest-gray);
+		font-weight: 600;
+		border-radius: var(--border-radius);
+		transition: all 0.2s ease;
+		padding: 0.75rem 1.5rem;
+
+		&:hover {
+			background: var(--accent-light);
+			border-color: var(--accent);
+			color: var(--primary-dark);
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0);
+		}
+	}
+
+	/* Glass Effect Areas */
+	.glass-area {
+		background: rgba(255, 255, 255, 0.7);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border-radius: var(--border-radius-lg);
+		padding: var(--spacing-lg);
+		box-shadow: var(--shadow-md);
+		border: 1px solid var(--light-gray);
+		transition: all 0.2s ease;
+		will-change: transform, box-shadow;
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: var(--shadow-lg);
+		}
+	}
+
+	/* Question List Card */
 	.question-list {
 		min-height: 200px;
 
@@ -540,56 +618,109 @@
 		}
 	}
 
-	/* Glass effect */
-	.glass-area {
-		background: rgba(255, 255, 255, 0.2);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px); /* Safari support */
-		border-radius: 1rem;
-		padding: var(--spacing-lg);
-		box-shadow: 0 4px 6px var(--shadow-color);
-		transition:
-			transform 0.2s ease,
-			box-shadow 0.2s ease;
-		will-change: transform, box-shadow;
-
-		&:hover {
-			transform: translateY(-2px);
-			box-shadow: 0 6px 12px var(--shadow-color);
-		}
-	}
-
-	/* Personality cards with proper sizing */
-	.personality-card {
-		min-width: 100px;
-		max-width: 120px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: var(--spacing-sm);
-		transition: transform 0.3s ease;
-		position: relative;
+	/* How It Works Section */
+	.steps-container {
+		display: grid;
+		gap: var(--spacing-md);
 
 		@media (min-width: 768px) {
-			min-width: 140px;
-			max-width: 160px;
-			padding: var(--spacing-md);
-		}
-
-		img {
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-			transform: translateZ(0); /* Force GPU rendering */
-		}
-
-		&:hover {
-			transform: scale(1.05);
+			grid-template-columns: repeat(3, 1fr);
+			gap: var(--spacing-lg);
 		}
 	}
 
-	/* Marquee optimization */
+	.step-card {
+		background: var(--white);
+		border-radius: var(--border-radius);
+		border: 1px solid var(--light-gray);
+		padding: var(--spacing-lg);
+		text-align: center;
+		transition: all 0.3s ease;
+
+		&:hover {
+			transform: translateY(-3px);
+			box-shadow: var(--shadow-md);
+			border-color: var(--accent-light);
+		}
+
+		.emoji {
+			font-size: 2rem;
+			margin-bottom: var(--spacing-sm);
+			display: inline-block;
+		}
+
+		h3 {
+			color: var(--primary-dark);
+			margin-bottom: var(--spacing-xs);
+		}
+
+		p {
+			color: var(--text-secondary);
+		}
+	}
+
+	/* Dark Section Modernized */
+	.dark-section {
+		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--darkest-gray) 100%);
+		color: white;
+		border-radius: var(--border-radius-lg);
+		overflow: hidden;
+		box-shadow: var(--shadow-lg);
+		padding: var(--spacing-xl);
+
+		h2 {
+			color: white;
+		}
+
+		p {
+			color: rgba(255, 255, 255, 0.9);
+		}
+
+		.type-box {
+			border: 1px solid rgba(255, 255, 255, 0.2);
+			background: rgba(255, 255, 255, 0.1);
+			border-radius: var(--border-radius);
+			transition: all 0.3s ease;
+			will-change: transform, background-color;
+			height: 4rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&:hover {
+				transform: translateY(-3px);
+				background: rgba(255, 255, 255, 0.15);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+				border-color: rgba(255, 255, 255, 0.3);
+			}
+
+			span {
+				font-weight: 600;
+			}
+		}
+	}
+
+	/* Personality Marquee */
+	.personality-cta {
+		background: var(--white);
+		border-radius: var(--border-radius-lg);
+		box-shadow: var(--shadow-lg);
+		border: 1px solid var(--light-gray);
+		padding: var(--spacing-xl);
+
+		h2 {
+			color: var(--darkest-gray);
+		}
+
+		p {
+			color: var(--text-secondary);
+		}
+	}
+
 	.marquee-outer {
 		overflow: hidden;
 		width: 100%;
+		border-radius: var(--border-radius);
 	}
 
 	.marquee-container {
@@ -603,7 +734,7 @@
 		display: flex;
 		gap: 1rem;
 		padding: 0.5rem;
-		animation: scroll 30s linear infinite; /* Reduced from 40s for better performance */
+		animation: scroll 30s linear infinite;
 		will-change: transform;
 
 		&.paused {
@@ -611,6 +742,150 @@
 		}
 	}
 
+	.personality-card {
+		min-width: 100px;
+		max-width: 120px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: var(--spacing-sm);
+		transition: all 0.3s ease;
+		position: relative;
+		border-radius: var(--border-radius);
+		background: var(--off-white);
+		border: 1px solid transparent;
+
+		@media (min-width: 768px) {
+			min-width: 140px;
+			max-width: 160px;
+			padding: var(--spacing-md);
+		}
+
+		img {
+			box-shadow: var(--shadow-sm);
+			border: 2px solid white;
+			transform: translateZ(0); /* Force GPU rendering */
+		}
+
+		&:hover {
+			transform: scale(1.05);
+			border-color: var(--accent-light);
+			background: white;
+			box-shadow: var(--shadow-md);
+
+			img {
+				border-color: var(--accent-light);
+			}
+		}
+
+		p {
+			margin: var(--spacing-xs) 0;
+
+			&:last-child {
+				color: var(--primary);
+				font-weight: 600;
+			}
+		}
+	}
+
+	/* Benefit Cards */
+	.benefit-card {
+		background: white;
+		border: 1px solid var(--light-gray);
+		border-radius: var(--border-radius);
+		padding: var(--spacing-lg);
+		box-shadow: var(--shadow-sm);
+		transition: all 0.3s ease;
+		will-change: transform, box-shadow;
+
+		&:hover {
+			transform: translateY(-3px);
+			box-shadow: var(--shadow-md);
+			border-color: var(--accent-light);
+		}
+
+		h3 {
+			color: var(--primary-dark);
+			font-weight: 600;
+			margin-bottom: var(--spacing-sm);
+		}
+
+		p {
+			color: var(--text-secondary);
+		}
+	}
+
+	/* CTA Section */
+	.cta-section {
+		background: linear-gradient(135deg, var(--accent-light) 0%, white 100%);
+		border-radius: var(--border-radius-lg);
+		padding: var(--spacing-xl);
+		text-align: center;
+		border: 1px solid var(--light-gray);
+		box-shadow: var(--shadow-md);
+
+		h2 {
+			color: var(--primary-dark);
+			margin-bottom: var(--spacing-md);
+		}
+
+		p {
+			color: var(--text-secondary);
+			margin-bottom: var(--spacing-lg);
+			font-size: 1.1rem;
+		}
+	}
+
+	/* Email Signup Form */
+	.email-signup-form {
+		max-width: 500px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-md);
+
+		@media (min-width: 640px) {
+			flex-direction: row;
+		}
+
+		input {
+			flex: 1;
+			padding: 0.75rem 1rem;
+			border: 1px solid var(--light-gray);
+			border-radius: var(--border-radius);
+			font-size: 1rem;
+
+			&:focus {
+				outline: none;
+				border-color: var(--primary);
+				box-shadow: 0 0 0 2px var(--accent-light);
+			}
+		}
+
+		button {
+			background: var(--primary);
+			color: white;
+			font-weight: 600;
+			padding: 0.75rem 1.5rem;
+			border: none;
+			border-radius: var(--border-radius);
+			cursor: pointer;
+			white-space: nowrap;
+			transition: all 0.2s ease;
+
+			&:hover {
+				background: var(--primary-dark);
+				transform: translateY(-2px);
+				box-shadow: var(--shadow-md);
+			}
+
+			&:active {
+				transform: translateY(0);
+			}
+		}
+	}
+
+	/* Animations */
 	@keyframes scroll {
 		0% {
 			transform: translateX(0);
@@ -620,81 +895,71 @@
 		}
 	}
 
-	/* Accessible dark section */
-	.dark-section {
-		background: var(--primary-dark);
-		color: white;
-		overflow: hidden;
+	/* Skeleton Loaders */
+	.skeleton {
+		background: linear-gradient(
+			90deg,
+			var(--lightest-gray) 0%,
+			var(--light-gray) 50%,
+			var(--lightest-gray) 100%
+		);
+		background-size: 200% 100%;
+		animation: shimmer 1.5s infinite;
+		border-radius: var(--border-radius-sm);
+	}
 
-		.type-box {
-			border: 1px solid rgba(255, 255, 255, 0.2);
-			background: rgba(255, 255, 255, 0.1);
-			transition:
-				transform 0.3s ease,
-				background-color 0.3s ease;
-			will-change: transform, background-color;
+	.skeleton-question-item {
+		height: 4rem;
+		margin-bottom: var(--spacing-md);
+		padding: var(--spacing-sm);
+		background-color: white;
+		border-radius: var(--border-radius);
+		border: 1px solid var(--light-gray);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
 
-			&:hover {
-				transform: translateY(-3px);
-				background: rgba(255, 255, 255, 0.15);
-			}
+	.skeleton-text {
+		height: 1rem;
+		width: 100%;
+		background: linear-gradient(
+			90deg,
+			var(--lightest-gray) 0%,
+			var(--light-gray) 50%,
+			var(--lightest-gray) 100%
+		);
+		background-size: 200% 100%;
+		animation: shimmer 1.5s infinite;
+		border-radius: var(--border-radius-sm);
+		margin-bottom: var(--spacing-sm);
+	}
+
+	.skeleton-meta {
+		height: 0.875rem;
+		width: 30%;
+		background: linear-gradient(
+			90deg,
+			var(--lightest-gray) 0%,
+			var(--light-gray) 50%,
+			var(--lightest-gray) 100%
+		);
+		background-size: 200% 100%;
+		animation: shimmer 1.5s infinite;
+		border-radius: var(--border-radius-sm);
+		align-self: flex-end;
+	}
+
+	@keyframes shimmer {
+		0% {
+			background-position: 200% 0;
+		}
+		100% {
+			background-position: -200% 0;
 		}
 	}
 
-	/* Benefit cards */
-	.benefit-card {
-		border: 1px solid #e5e7eb;
-		border-radius: 0.5rem;
-		padding: var(--spacing-lg);
-		transition:
-			transform 0.3s ease,
-			box-shadow 0.3s ease;
-		will-change: transform, box-shadow;
-
-		&:hover {
-			transform: translateY(-3px);
-			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
-		}
-	}
-
-	/* Buttons */
-	.btn-primary {
-		background: var(--primary-dark);
-		color: white;
-		transition:
-			background-color 0.2s ease,
-			transform 0.2s ease;
-		will-change: background-color, transform;
-
-		&:hover {
-			background: black;
-			transform: translateY(-2px);
-		}
-
-		&:active {
-			transform: translateY(0);
-		}
-	}
-
-	.btn-secondary {
-		border: 1px solid var(--primary-dark);
-		color: var(--primary-dark);
-		transition:
-			background-color 0.2s ease,
-			transform 0.2s ease;
-		will-change: background-color, transform;
-
-		&:hover {
-			background: #f3f4f6;
-			transform: translateY(-2px);
-		}
-
-		&:active {
-			transform: translateY(0);
-		}
-	}
-
-	/* Media queries for responsive design */
+	/* Responsive Design */
 	@media (max-width: 768px) {
 		.hero-content {
 			text-align: center;
@@ -704,9 +969,17 @@
 		.section-wrapper {
 			margin-bottom: var(--spacing-lg);
 		}
+
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
 	}
 
-	/* Reduce animation for users who prefer reduced motion */
+	/* Accessibility */
 	@media (prefers-reduced-motion: reduce) {
 		.marquee {
 			animation: none;
@@ -720,6 +993,11 @@
 		[in\:fly] {
 			transition: none !important;
 			transform: none !important;
+		}
+
+		* {
+			transition-duration: 0.001ms !important;
+			animation-duration: 0.001ms !important;
 		}
 	}
 </style>

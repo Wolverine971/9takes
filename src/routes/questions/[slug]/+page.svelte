@@ -1,14 +1,15 @@
 <script lang="ts">
-	import Interact from '$lib/components/molecules/Interact.svelte';
-	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
-	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
-	import type { PageData } from './$types';
 	import { invalidateAll } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import QRCode from 'qrcode';
+	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
+	import Interact from '$lib/components/molecules/Interact.svelte';
+	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
+	import type { PageData } from './$types';
 
 	export let data: PageData;
 
+	// Create reactive data object for child components
 	$: dataForChild = {
 		...data.question,
 		removedComments: data.removedComments,
@@ -21,8 +22,8 @@
 		flags: data.flags
 	};
 
+	// QR Code settings
 	let qrCodeUrl = '';
-
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H',
 		type: 'image/png',
@@ -34,8 +35,39 @@
 		}
 	};
 
+	// Responsive variables
+	let innerWidth = 0;
 	$: qrCodeSize = innerWidth > 500 ? '10%' : '20%';
+	$: title = computeTitle(data.question.question_formatted || data.question.question);
 
+	// Compute SEO-friendly title
+	function computeTitle(questionText: string): string {
+		const fullTitle = `9takes | ${questionText}`;
+		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
+	}
+
+	// Handle comment addition
+	async function addComment() {
+		await new Promise((resolve) => setTimeout(resolve, 500));
+		try {
+			const response = await fetch(`/comments?type=question&parentId=${data?.question?.id}`);
+			const commentData = await response.json();
+
+			if (!commentData?.message) {
+				dataForChild = {
+					...dataForChild,
+					comments: commentData,
+					comment_count: (dataForChild.comment_count || 0) + 1,
+					flags: { ...dataForChild.flags, userHasAnswered: true }
+				};
+			}
+			invalidateAll();
+		} catch (error) {
+			console.error('Error fetching comment data:', error);
+		}
+	}
+
+	// Generate QR code on component mount
 	onMount(() => {
 		innerWidth = window.innerWidth;
 		QRCode.toDataURL(`https://9takes.com/questions/${data.question.url}`, QR_OPTS)
@@ -43,35 +75,14 @@
 			.catch((err) => console.error('QR Code generation failed:', err));
 	});
 
-	async function addComment() {
-		await new Promise((resolve) => setTimeout(resolve, 500));
-		const response = await fetch(`/comments?type=question&parentId=${data?.question?.id}`);
-		const commentData = await response.json();
-		if (!commentData?.message) {
-			dataForChild = {
-				...dataForChild,
-				comments: commentData,
-				comment_count: (dataForChild.comment_count || 0) + 1,
-				flags: { ...dataForChild.flags, userHasAnswered: true }
-			};
-		}
-		invalidateAll();
-	}
-
-	let innerWidth = 0;
-	$: title = computeTitle(data.question.question_formatted || data.question.question);
-
-	function computeTitle(questionText: string): string {
-		const fullTitle = `9takes | ${questionText}`;
-		return fullTitle.length > 60 ? fullTitle.slice(0, 57) + '...' : fullTitle;
-	}
-
+	// SEO metadata
 	const description = `🏛️ Give your takey take 🤲 then see everyone else's unbiased answers...`;
 	const url = `https://9takes.com/questions/${data.question.url}`;
 	const imgUrl = data.question?.img_url
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
 		: `https://9takes.com/blogs/looking-at-questions.webp`;
 
+	// Prepare JSON-LD for structured data
 	const formattedAIComments = data?.aiComments?.map((comment) => {
 		return {
 			'@type': 'Answer',
@@ -134,7 +145,7 @@
 </svelte:head>
 
 <div class="question-area-box">
-	<article itemscope itemtype="https://schema.org/Question">
+	<article itemscope itemtype="https://schema.org/Question" class="main-content">
 		<div>
 			<QuestionDisplay question={data.question} />
 			<Interact
@@ -154,15 +165,17 @@
 			{#if innerWidth > 1200}
 				<h3 class="tags-heading">Related question <br />categories</h3>
 			{/if}
-			{#each data.questionTags as tag}
-				<a
-					href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
-					class="tag"
-					rel="tag"
-				>
-					{tag.question_categories.category_name}
-				</a>
-			{/each}
+			<div class="tags-container">
+				{#each data.questionTags as tag}
+					<a
+						href={`/questions/categories/${tag.question_categories.category_name.split(' ').join('-')}`}
+						class="tag"
+						rel="tag"
+					>
+						{tag.question_categories.category_name}
+					</a>
+				{/each}
+			</div>
 		{/if}
 	</aside>
 
@@ -171,6 +184,7 @@
 			data={dataForChild}
 			user={data?.session?.user}
 			on:commentAdded={() => invalidateAll()}
+			class="question-content"
 		/>
 	{/if}
 </div>
@@ -195,55 +209,81 @@
 			height: 50px;
 		}
 	}
+
+	.main-content {
+		margin-bottom: 1.5rem;
+		max-width: 960px;
+	}
+
+	.question-content {
+		max-width: 960px;
+	}
+
 	.tags-heading {
-		margin: 0 0 0 0.25rem;
-		padding: 0;
+		margin: 0 0 0.75rem 0;
+		font-size: 1.1rem;
+		font-weight: 600;
+		color: var(--darkest-gray);
+	}
+
+	.tags-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+
+		@media (max-width: 1199px) {
+			flex-wrap: nowrap;
+			overflow-x: auto;
+			padding-bottom: 0.5rem;
+			-webkit-overflow-scrolling: touch;
+		}
 	}
 
 	.tag {
-		display: flex;
-		text-wrap: nowrap;
+		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: var(--base-border-radius);
-		font-size: 0.8rem;
-		margin: 0.25rem;
-		padding: 0.25rem;
-		border: 1px solid var(--base-white-outline);
-		width: fit-content;
+		white-space: nowrap;
+		font-size: 0.85rem;
+		padding: 0.5rem 0.75rem;
+		border: 1px solid var(--border-color);
+		border-radius: var(--border-radius-sm);
+		background-color: var(--accent-light);
+		color: var(--primary-dark);
 		cursor: pointer;
 		text-decoration: none;
-		color: hsl(222, 15%, 19%);
+		transition: all 0.2s ease;
 
 		&:hover {
-			background-color: var(--base-white-outline);
+			background-color: var(--primary-light);
+			color: var(--primary-dark);
+			transform: translateY(-2px);
+			box-shadow: var(--shadow-sm);
 		}
 	}
 
-	aside {
+	.aside-outline {
 		position: relative;
 		right: 0;
 		display: flex;
-		overflow: auto;
-		background-color: var(--base-grey-1);
-	}
+		flex-direction: column;
+		background-color: var(--light-gray);
+		border-radius: var(--base-border-radius);
+		padding: 0.75rem;
+		margin-bottom: 1.5rem;
 
-	@media (min-width: 1200px) {
-		aside {
+		@media (max-width: 1199px) {
+			overflow-x: auto;
+		}
+
+		@media (min-width: 1200px) {
 			position: fixed !important;
 			margin-left: 995px;
 			right: auto;
-			display: block;
+			width: 250px;
 			margin-top: 0.5rem;
-			padding: 0.5rem;
 			border: var(--classic-border);
-			border-radius: var(--base-border-radius);
-		}
-	}
-	@media (max-width: 500px) {
-		.qr-image-border {
-			margin: 0;
-			padding: 0;
+			z-index: 10;
 		}
 	}
 </style>

@@ -196,7 +196,7 @@
 
 	.subnav-content a:hover {
 		background-color: var(--base-white-outline);
-		color: var(--color-paladin-3);
+		color: var(--dark-gray);
 		z-index: 1234;
 	}
 
@@ -249,7 +249,7 @@
 
 	.main-subnav-content a:hover {
 		background-color: var(--base-white-outline);
-		color: var(--color-paladin-3);
+		color: var(--dark-gray);
 		z-index: 1234;
 	}
 

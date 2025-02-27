@@ -269,7 +269,7 @@
 			align-items: center;
 			border-radius: 10px;
 			padding: 2px;
-			background-color: var(--base-grey-0);
+			background-color: var(--lightest-gray);
 
 			@media (min-width: 768px) {
 				flex-direction: row;

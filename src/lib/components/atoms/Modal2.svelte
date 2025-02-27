@@ -106,7 +106,7 @@
 		visibility: hidden;
 		position: fixed;
 		inset: 0;
-		background-color: rgba(var(--base-grey-1), 0.8);
+		background-color: rgba(var(--light-gray), 0.8);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -115,7 +115,7 @@
 	#modal {
 		position: relative;
 		border-radius: 6px;
-		background-color: var(--base-grey-1);
+		background-color: var(--light-gray);
 		border: 2px solid #000;
 		filter: drop-shadow(5px 5px 5px #555);
 		padding: 1em;

@@ -560,7 +560,7 @@
 	.light-mode {
 		--theme-bg-color: rgb(255 255 255 / 31%);
 		--theme-color: #3c3a3a;
-		--inactive-color: var(--color-paladin-3) 333;
+		--inactive-color: var(--dark-gray) 333;
 		--button-inactive: #3c3a3a;
 		--search-bg: rgb(255 255 255 / 31%);
 		--dropdown-bg: #f7f7f7;

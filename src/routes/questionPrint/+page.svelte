@@ -62,17 +62,17 @@
 
 			const styleContent = `
             :root{
-            --color-paladin-3: #52616b;
-            --classic-border: 1px solid var(--color-paladin-3);
+            --dark-gray: #52616b;
+            --classic-border: 1px solid var(--dark-gray);
             --base-border-radius: 5px;
             --color-theme-purple: var(--primary);
             --color-theme-purple-d: #2f0479;
             --color-theme-purple-light: var(--accent);
             --color-theme-purple-lighter: #bc96fd;
             --base-white-outline: #f0f5f9;
-            --base-grey-0: #d8d8d8;
-            --base-grey-1: #d4d4d4;
-            --base-grey-2: #cacaca;
+            --medium-gray: #d8d8d8;
+            --light-gray: #d4d4d4;
+            --medium-gray: #cacaca;
             }
 
       @media print {
@@ -162,7 +162,7 @@
 		border-radius: var(--base-border-radius);
 		// height: 24px;
 		// padding: 0.5rem 1rem;
-		color: var(--color-paladin-4);
+		color: var(--darkest-gray);
 		font-size: 1.2rem;
 		// box-sizing: content-box;
 

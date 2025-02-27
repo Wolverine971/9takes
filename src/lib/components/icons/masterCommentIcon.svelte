@@ -2,7 +2,7 @@
 	export let className = '';
 
 	export let height = '1rem';
-	export let fill = 'var(--color-paladin-3)';
+	export let fill = 'var(--dark-gray)';
 	export let iconStyle = '';
 
 	type CommentTypes = 'empty' | 'multiple' | 'disabled' | 'full';

@@ -74,7 +74,7 @@
 	}
 
 	.marquee-text {
-		color: var(--color-paladin-3);
+		color: var(--dark-gray);
 		text-transform: uppercase;
 		font-size: 1.2rem;
 		margin: 0 0.5rem;
@@ -86,8 +86,8 @@
 
 	@media (max-width: 500px) {
 		.back-nav {
-			border-top: 1px solid var(--color-paladin-3);
-			border-bottom: 1px solid var(--color-paladin-3);
+			border-top: 1px solid var(--dark-gray);
+			border-bottom: 1px solid var(--dark-gray);
 			padding: 0.5rem;
 			margin: 1rem;
 			height: 3rem;

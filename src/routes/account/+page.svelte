@@ -120,7 +120,7 @@
 
 <style lang="scss">
 	.account-card {
-		background-color: var(--base-grey-1);
+		background-color: var(--light-gray);
 		border-radius: var(--base-border-radius);
 		padding: 1.5rem;
 		margin: 1rem auto;
@@ -170,7 +170,7 @@
 		input {
 			width: 100%;
 			padding: 0.5rem;
-			border: 1px solid var(--base-grey-3);
+			border: 1px solid var(--dark-gray);
 			border-radius: var(--base-border-radius);
 		}
 	}
@@ -229,11 +229,11 @@
 		}
 
 		&-secondary {
-			background-color: var(--base-grey-3);
+			background-color: var(--dark-gray);
 			color: var(--color-p-dark);
 
 			&:hover {
-				background-color: var(--base-grey-4);
+				background-color: var(--medium-gray);
 			}
 		}
 	}
