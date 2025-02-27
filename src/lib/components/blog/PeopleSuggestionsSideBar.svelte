@@ -97,10 +97,7 @@
 			<ul class="sidebar-list">
 				{#each links as link}
 					<li class="sidebar-item">
-						<a
-							href={`/personality-analysis/${link.split(' ').join('-').toLowerCase()}`}
-							class="sidebar-link"
-						>
+						<a href={`/personality-analysis/${link.split(' ').join('-')}`} class="sidebar-link">
 							{link}
 						</a>
 					</li>
