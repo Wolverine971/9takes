@@ -2,25 +2,27 @@
 	import { onMount } from 'svelte';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import MobileHam from '$lib/components/molecules/mobile-ham.svelte';
+	import MobileNav from './MobileNav.svelte';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 
 	export let data: any;
-	let innerWidth: number;
-	let isOpen = false;
 
-	$: isMobile = innerWidth < 1000;
+	// Responsive state
+	let innerWidth: number;
+	let isDropdownOpen = false;
+
+	$: isMobile = innerWidth < 768;
 	$: isHomePage = $page.url.pathname === '/';
 
-	afterNavigate(() => (isOpen = false));
+	// Reset dropdown state on navigation
+	afterNavigate(() => (isDropdownOpen = false));
 
+	// Initialize and handle window resize
 	onMount(() => {
 		innerWidth = window.innerWidth;
-		window.addEventListener('resize', () => {
-			innerWidth = window.innerWidth;
-		});
 	});
 
+	// Navigation structure
 	const navItems = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Question List' }
@@ -32,350 +34,315 @@
 		{ href: '/personality-analysis', label: 'Personality Analysis' },
 		{ href: '/how-to-guides', label: 'How-to Guides' }
 	];
+
+	// Account navigation handler
+	const goToAccount = () => goto('/account');
 </script>
 
 <svelte:window bind:innerWidth />
 
-<header class="the-header">
+<header class="header">
 	{#if isMobile}
-		<div class="mobile-ham">
-			<MobileHam />
-			<a href="/" class="brand" aria-label="Home">
-				<img src="/brand/aero.png" alt="9takes Logo" height={60} width={60} />
+		<!-- Mobile Header -->
+		<div class="header__mobile">
+			<MobileNav {navItems} {blogItems} />
+
+			<a href="/" class="header__brand" aria-label="Home">
+				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
 			</a>
+
 			{#if data?.session?.user}
-				<div class="corner">
-					<button
-						title="Go to account"
-						type="button"
-						on:click={() => goto('/account')}
-						class="corner-icon-profile"
-						aria-label="Go to account"
-					>
-						<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
-					</button>
-				</div>
+				<button
+					type="button"
+					on:click={goToAccount}
+					class="header__account-button"
+					aria-label="Go to account"
+				>
+					<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
+				</button>
 			{/if}
 		</div>
 	{:else}
-		<nav class="nav-bar">
-			<a href="/" class="brand left" aria-label="Home">
-				<div class="app-icon">
-					<img src="/brand/aero.png" alt="9takes Logo" height={60} width={60} />
+		<!-- Desktop Navigation -->
+		<nav class="header__nav">
+			<!-- Logo & Brand -->
+			<a href="/" class="header__brand" aria-label="Home">
+				<div class="header__logo">
+					<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
 				</div>
-				{#if !isHomePage}
-					<span class="brand-name">9takes</span>
-				{:else}
-					<span class="brand-name"> </span>
-				{/if}
+				<span class="header__brand-name">
+					{!isHomePage ? '9takes' : ' '}
+				</span>
 			</a>
 
-			<div class="menu center">
-				{#each navItems as { href, label }}
-					<a {href} class:active-link={$page.url.pathname === href}>
-						{label}
-					</a>
-				{/each}
-				<div class="dropdown">
-					<button
-						on:click={() => (isOpen = !isOpen)}
-						class="dropdown-button"
-						aria-haspopup="true"
-						aria-controls="blogMenu"
-						aria-expanded={isOpen}
-					>
-						Blog
-					</button>
-					<Context>
-						<ul
-							id="blogMenu"
-							class="dropdown-menu"
-							class:open={isOpen}
-							use:onClickOutside={() => (isOpen = false)}
+			<!-- Main Navigation -->
+			<div class="header__menu">
+				<div class="header__nav-items">
+					{#each navItems as { href, label }}
+						<a {href} class:is-active={$page.url.pathname === href}>
+							{label}
+						</a>
+					{/each}
+
+					<!-- Blog Dropdown -->
+					<div class="header__dropdown">
+						<button
+							on:click={() => (isDropdownOpen = !isDropdownOpen)}
+							class="header__dropdown-button"
+							aria-haspopup="true"
+							aria-controls="blogMenu"
+							aria-expanded={isDropdownOpen}
 						>
-							{#each blogItems as { href, label }}
-								<li>
-									<a
-										{href}
-										tabindex={isOpen ? 0 : -1}
-										class:active-link={$page.url.pathname === href}
-									>
-										{label}
-									</a>
-								</li>
-							{/each}
-						</ul>
-					</Context>
+							Blog
+						</button>
+
+						<Context>
+							<ul
+								id="blogMenu"
+								class="header__dropdown-menu"
+								class:is-open={isDropdownOpen}
+								use:onClickOutside={() => (isDropdownOpen = false)}
+							>
+								{#each blogItems as { href, label }}
+									<li>
+										<a
+											{href}
+											tabindex={isDropdownOpen ? 0 : -1}
+											class:is-active={$page.url.pathname === href}
+										>
+											{label}
+										</a>
+									</li>
+								{/each}
+							</ul>
+						</Context>
+					</div>
+
+					<a href="/about" class:is-active={$page.url.pathname === '/about'}> About </a>
 				</div>
-				<a href="/about" class:active-link={$page.url.pathname === '/about'}> About </a>
 			</div>
 
-			{#if data?.session?.user}
-				<div class="right">
-					<a href="/account">
-						<button type="button" class="corner-icon-profile">
-							<img
-								src="/brand/account-icon2.png"
-								alt="Account"
-								title="Account"
-								width="30"
-								height="30"
-							/>
-						</button>
+			<!-- Account / Login Area -->
+			<div class="header__actions">
+				{#if data?.session?.user}
+					<a href="/account" class="header__account-link">
+						<img
+							src="/brand/account-icon2.png"
+							alt="Account"
+							title="Account"
+							width="30"
+							height="30"
+						/>
 					</a>
-				</div>
-			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-				<div class="right login">
-					<a href="/login" class="shimmer-button-black"> Login / Register </a>
-				</div>
-			{/if}
+				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
+					<a href="/login" class="header__login-button"> Login / Register </a>
+				{/if}
+			</div>
 		</nav>
 	{/if}
 </header>
 
 <style lang="scss">
-	.the-header {
+	// Variables
+	$primary-color: #833bff;
+	$text-color: #333;
+	$hover-bg: #f5f5f5;
+	$transition: 0.2s ease;
+	$border-radius: 4px;
+	$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+	// Base header styles
+	.header {
 		padding: 0 2rem;
-		z-index: 9999;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		z-index: 1000; /* Increased z-index */
+		box-shadow: $box-shadow;
+		background: #fff;
+		position: relative;
 
-		.nav-bar {
+		// Shared brand/logo styles
+		&__brand {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
-			height: 62px;
+			text-decoration: none;
 
-			.brand {
-				display: flex;
-				align-items: center;
-				text-decoration: none;
+			img {
+				transition: transform $transition;
+				will-change: transform;
 
-				.app-icon {
-					margin-right: 0.5rem;
-
-					img {
-						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-						will-change: transform;
-					}
-
-					&:hover img {
-						transform: scale(1.1);
-					}
-				}
-
-				.brand-name {
-					font-size: 1.5rem;
-					font-weight: bold;
-					color: #333;
-					width: 75px;
-				}
-			}
-
-			.menu {
-				display: flex;
-				align-items: center;
-				margin-right: 75px;
-
-				a {
-					margin: 0 1rem;
-					text-decoration: none;
-					color: #333;
-					font-weight: 600;
-					position: relative;
-
-					&::after {
-						content: '';
-						position: absolute;
-						width: 0;
-						height: 2px;
-						background: #833bff;
-						left: 50%;
-						bottom: -5px;
-						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-						will-change: transform;
-					}
-
-					&:hover::after {
-						width: 100%;
-						left: 0;
-					}
-
-					&.active-link {
-						color: #833bff;
-					}
-				}
-
-				.dropdown {
-					position: relative;
-
-					.dropdown-button {
-						background: none;
-						border: none;
-						cursor: pointer;
-						font-weight: 600;
-						margin: 0 1rem;
-						position: relative;
-						color: #333;
-
-						&::after {
-							content: '';
-							position: absolute;
-							width: 0;
-							height: 2px;
-							background: #833bff;
-							left: 50%;
-							bottom: -5px;
-							transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-							will-change: transform;
-						}
-
-						&:hover::after {
-							width: 100%;
-							left: 0;
-						}
-
-						&:focus {
-							outline: none;
-						}
-					}
-
-					.dropdown-menu {
-						display: none;
-						position: absolute;
-						top: 100%;
-						left: 0;
-						background: #fff;
-						box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-						list-style: none;
-						padding: 1rem 0;
-						margin: 0;
-						width: 220px;
-						border-radius: 4px;
-						z-index: 1000;
-
-						&.open {
-							display: block;
-						}
-
-						li {
-							margin: 0;
-
-							a {
-								display: block;
-								padding: 0.5rem 1rem;
-								text-decoration: none;
-								color: #333;
-
-								&:hover {
-									background: #f5f5f5;
-								}
-
-								&.active-link {
-									color: #833bff;
-								}
-							}
-						}
-					}
-				}
-			}
-
-			.right {
-				display: flex;
-				align-items: center;
-
-				.corner-icon-profile {
-					background: none;
-					border: none;
-					cursor: pointer;
-					padding: 0;
-					margin-left: 1rem;
-					border: 1px solid;
-					border-radius: 50%;
-					// Add hardware acceleration
-					transform: translateZ(0);
-					backface-visibility: hidden;
-					-webkit-font-smoothing: subpixel-antialiased;
-
-					img {
-						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-						will-change: transform;
-					}
-
-					&:hover img {
-						transform: scale(1.1);
-					}
-				}
-
-				.login a {
-					text-decoration: none;
-					color: #fff;
-					background: #833bff;
-					padding: 0.5rem 1rem;
-					border-radius: 4px;
-					font-weight: 600;
-
-					&:hover {
-						background: #6a2fcc;
-					}
-				}
-			}
-		}
-
-		.mobile-ham {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			height: 62px;
-
-			.brand {
-				display: flex;
-				align-items: center;
-				text-decoration: none;
-				transform: translateZ(0);
-				backface-visibility: hidden;
-				-webkit-font-smoothing: subpixel-antialiased;
-
-				img {
-					transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-					will-change: transform;
-				}
-
-				&:hover img {
+				&:hover {
 					transform: scale(1.1);
 				}
 			}
+		}
 
-			.corner {
-				.corner-icon-profile {
-					background: none;
-					border: none;
-					cursor: pointer;
-					padding: 0;
-					margin-left: 1rem;
-					transform: translateZ(0);
-					backface-visibility: hidden;
-					-webkit-font-smoothing: subpixel-antialiased;
+		&__brand-name {
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: $text-color;
+			width: 75px;
+			margin-left: 0.5rem;
+		}
 
-					img {
-						transition: transform 0.15s cubic-bezier(0.2, 0, 0.38, 0.9);
-						will-change: transform;
-					}
+		// Account button styles (shared between mobile/desktop)
+		&__account-button,
+		&__account-link {
+			background: none;
+			border: none;
+			cursor: pointer;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 
-					&:hover img {
-						transform: scale(1.1);
+			img {
+				border-radius: 50%;
+				border: 1px solid #ccc;
+				padding: 2px;
+				transition: transform $transition;
+
+				&:hover {
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		// Desktop Navigation
+		&__nav {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 62px;
+			position: relative;
+		}
+
+		&__menu {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+
+			.header__nav-items {
+				display: flex;
+				gap: 2rem;
+				align-items: center;
+			}
+
+			a,
+			.header__dropdown-button {
+				position: relative;
+				text-decoration: none;
+				color: $text-color;
+				font-weight: 600;
+				background: none;
+				border: none;
+				cursor: pointer;
+				padding: 0.5rem 0;
+				font-size: 1rem;
+
+				&::after {
+					content: '';
+					position: absolute;
+					width: 0;
+					height: 2px;
+					background: $primary-color;
+					left: 0;
+					bottom: 0;
+					transition: width $transition;
+				}
+
+				&:hover::after,
+				&.is-active::after {
+					width: 100%;
+				}
+
+				&.is-active {
+					color: $primary-color;
+				}
+			}
+		}
+
+		// Dropdown menu
+		&__dropdown {
+			position: relative;
+			z-index: 1005; /* Add z-index to the dropdown container */
+
+			&-menu {
+				position: absolute;
+				top: calc(100% + 0.5rem);
+				left: 50%;
+				transform: translateX(-50%);
+				background: #fff;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				border-radius: $border-radius;
+				list-style: none;
+				padding: 0.5rem 0;
+				margin: 0;
+				width: 220px;
+				z-index: 1010; /* Increased z-index */
+				display: none;
+
+				&.is-open {
+					display: block;
+					/* Ensure it appears on top */
+					position: absolute;
+					z-index: 1010;
+				}
+
+				li {
+					a {
+						display: block;
+						padding: 0.75rem 1rem;
+						text-decoration: none;
+						color: $text-color;
+						font-weight: normal;
+						transition: background-color $transition;
+
+						&::after {
+							display: none;
+						}
+
+						&:hover {
+							background-color: $hover-bg;
+						}
+
+						&.is-active {
+							color: $primary-color;
+						}
 					}
 				}
 			}
 		}
-	}
 
-	@media (max-width: 1000px) {
-		.nav-bar {
-			display: none;
+		// Login button
+		&__login-button {
+			display: inline-block;
+			padding: 0.5rem 1.5rem;
+			background-color: $primary-color;
+			color: white;
+			border-radius: $border-radius;
+			text-decoration: none;
+			font-weight: 600;
+			transition: background-color $transition;
+
+			&:hover {
+				background-color: darken($primary-color, 10%);
+			}
 		}
 
-		.mobile-ham {
+		// Mobile header
+		&__mobile {
 			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			height: 62px;
+
+			.header__brand {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+			}
 		}
 	}
 </style>

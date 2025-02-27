@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Modal2, { getModal } from '$lib/components/atoms/Modal2.svelte';
-
+	import Modal from '$lib/components/atoms/Modal2.svelte';
 	import { page } from '$app/stores';
 	import Context, { onClickOutside } from '$lib/components/molecules/Context.svelte';
 
@@ -21,12 +20,6 @@
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 
-		const modal2 = getModal('mobile-nav');
-		if (isMenuOpen) {
-			modal2.open();
-		} else {
-			modal2.close();
-		}
 		// Control the modal
 		const modal = document.getElementById('mobile-nav');
 		if (modal) {
@@ -45,7 +38,6 @@
 	function closeMenu() {
 		isMenuOpen = false;
 		isDropdownOpen = false;
-		getModal('mobile-nav').close();
 
 		const modal = document.getElementById('mobile-nav');
 		if (modal) {
@@ -74,7 +66,12 @@
 	</button>
 
 	<!-- Mobile navigation menu modal -->
-	<Modal2 id="mobile-nav" on:close={handleModalClose}>
+	<div
+		id="mobile-nav"
+		class="mobile-nav__modal"
+		class:is-active={isMenuOpen}
+		on:click|self={closeMenu}
+	>
 		<Context>
 			<nav class="mobile-nav__menu" aria-label="Main Navigation" use:onClickOutside={closeMenu}>
 				<ul>
@@ -122,7 +119,7 @@
 				</ul>
 			</nav>
 		</Context>
-	</Modal2>
+	</div>
 </div>
 
 <style lang="scss">
@@ -238,6 +235,7 @@
 		// Navigation menu
 		&__menu {
 			padding: 2rem 1rem;
+			margin-top: 50%;
 			width: 280px;
 			max-width: 90vw;
 			background-color: #fff;
