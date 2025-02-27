@@ -328,6 +328,7 @@
 
 			&:hover {
 				background-color: darken($primary-color, 10%);
+				color: white;
 			}
 		}
 

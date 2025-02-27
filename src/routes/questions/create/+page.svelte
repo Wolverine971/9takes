@@ -338,7 +338,7 @@
 	h1 {
 		text-align: center;
 		margin-bottom: 0.5rem;
-		color: var(--color-primary);
+		color: var(--primary);
 		font-size: 2.5rem;
 	}
 
@@ -375,7 +375,7 @@
 
 		&:focus {
 			outline: none;
-			border-color: var(--color-primary);
+			border-color: var(--primary);
 			box-shadow: 0 0 0 3px rgba(84, 7, 217, 0.1);
 		}
 	}
@@ -392,25 +392,9 @@
 	}
 
 	.btn {
-		padding: 1rem 2rem;
-		border: none;
-		border-radius: var(--base-border-radius);
-		font-size: 1.2rem;
-		font-weight: bold;
-		cursor: pointer;
-		transition: all 0.3s ease;
 		width: 100%;
 
 		&.btn-primary {
-			background-color: var(--color-primary);
-			color: var(--color-text-inverse);
-
-			&:hover:not(.disabled) {
-				background-color: var(--color-primary-hover);
-				transform: translateY(-2px);
-				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-			}
-
 			&.disabled {
 				opacity: 0.6;
 				cursor: not-allowed;

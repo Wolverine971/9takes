@@ -80,9 +80,6 @@
 		transition: background-color 0.2s;
 
 		&.btn-primary {
-			background-color: var(--primary);
-			color: white;
-
 			&:hover {
 				background-color: var(--primary-dark);
 			}

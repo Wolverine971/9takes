@@ -142,11 +142,11 @@
 
 		&:hover {
 			background-color: var(--base-white-outline, #cfcfcf);
-			border-color: var(--color-theme-purple-light);
+			border-color: var(--primary-light);
 		}
 
 		&:focus-visible {
-			outline: 2px solid var(--color-theme-purple-light);
+			outline: 2px solid var(--primary-light);
 			outline-offset: 2px;
 		}
 
@@ -155,7 +155,7 @@
 			width: 100%;
 
 			&:hover {
-				border-color: var(--color-theme-purple-light);
+				border-color: var(--primary-light);
 			}
 		}
 	}

@@ -357,20 +357,6 @@
 		text-align: center;
 	}
 
-	.btn {
-		background-color: var(--primary);
-		color: var(--accent);
-		border: none;
-		padding: 10px 20px;
-		border-radius: 5px;
-		cursor: pointer;
-		transition: background-color 0.3s;
-
-		&:hover {
-			background-color: #3a0591;
-		}
-	}
-
 	a {
 		color: var(--primary-dark);
 		text-decoration: none;

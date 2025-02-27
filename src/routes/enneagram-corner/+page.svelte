@@ -246,7 +246,7 @@
 
 			&:hover,
 			&:focus {
-				background-color: var(--color-theme-purple-light);
+				background-color: var(--primary-light);
 			}
 		}
 	}
@@ -330,7 +330,7 @@
 		padding: 0;
 		border-radius: var(--base-border-radius);
 		.grid-item-content {
-			background-color: var(--color-theme-purple-light);
+			background-color: var(--primary-light);
 		}
 
 		.text-overlay {

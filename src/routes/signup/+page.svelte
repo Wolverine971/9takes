@@ -13,9 +13,6 @@
 		[15, 14, 15]
 	];
 
-	// --color-theme-purple: var(--primary); /*84, 7, 217 */
-	// --color-theme-purple-light: #d2cfd7; /* 210, 207, 215  */
-	// --color-theme-purple-lighter: #bc96fd;  /* 188, 150, 253  */
 	let PI_2 = 2 * Math.PI;
 	let w = 0;
 	let h = 0;

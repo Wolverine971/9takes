@@ -288,7 +288,7 @@
 		margin: $spacing-xs;
 		padding: $spacing-xs $spacing-sm;
 		background-color: var(--accent);
-		color: var(--color-text-inverse);
+		color: white;
 		transition: all $transition-duration ease;
 
 		&:hover {
@@ -317,7 +317,7 @@
 	.cta-button {
 		@include flex-center;
 		background-color: var(--accent);
-		color: var(--color-text-inverse);
+		color: white;
 		margin: $spacing-md auto;
 		border: none;
 		border-radius: $border-radius;

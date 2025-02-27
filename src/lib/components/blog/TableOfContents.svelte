@@ -491,7 +491,7 @@
 
 	:global(.toc-link) {
 		text-decoration: none;
-		color: var(--color-primary, #0066cc);
+		color: var(--primary, #0066cc);
 		display: block !important;
 		width: 100%;
 		overflow: hidden;
@@ -505,7 +505,7 @@
 
 		&:hover {
 			text-decoration: underline !important;
-			color: var(--color-primary-dark, #004499);
+			color: var(--primary-dark, #004499);
 		}
 
 		&::after {
@@ -517,7 +517,7 @@
 	/* Handle active states for TOC links */
 	:global(.toc-link.active) {
 		font-weight: 600;
-		color: var(--color-primary-dark, #004499);
+		color: var(--primary-dark, #004499);
 	}
 
 	/* Responsive adjustments */

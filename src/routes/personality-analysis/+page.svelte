@@ -390,7 +390,7 @@
 			margin-bottom: 1rem;
 
 			li {
-				background-color: var(--color-theme-purple-light);
+				background-color: var(--primary-light);
 				padding: 0.5rem 1rem;
 				border-radius: var(--base-border-radius);
 				font-size: 1rem;
@@ -451,7 +451,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: var(--color-theme-purple-light);
+		background-color: var(--primary-light);
 		font-weight: bold;
 	}
 

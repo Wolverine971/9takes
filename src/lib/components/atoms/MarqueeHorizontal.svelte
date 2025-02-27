@@ -62,7 +62,7 @@
 		display: none !important;
 	}
 	.marquee-container {
-		--marquee-bg: var(--color-theme-purple-light);
+		--marquee-bg: var(--primary-light);
 		--marquee-color: var(--text-color);
 		--marquee-border-color: #fdfdfb;
 

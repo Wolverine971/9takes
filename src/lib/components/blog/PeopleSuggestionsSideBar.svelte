@@ -156,13 +156,13 @@
 	.sidebar-link {
 		display: block;
 		padding: 0.5rem 0;
-		color: var(--color-primary, #0066cc);
+		color: var(--primary, #0066cc);
 		text-decoration: none;
 		font-size: 0.95rem;
 		transition: color 0.2s ease;
 
 		&:hover {
-			color: var(--color-primary-dark, #004499);
+			color: var(--primary-dark, #004499);
 			text-decoration: underline;
 		}
 

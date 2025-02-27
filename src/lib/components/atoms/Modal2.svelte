@@ -61,7 +61,7 @@
 </script>
 
 <div
-	id="topModal"
+	class="topModal"
 	class:visible
 	bind:this={topDiv}
 	use:portal
@@ -102,7 +102,7 @@
 </div>
 
 <style lang="scss">
-	#topModal {
+	.topModal {
 		visibility: hidden;
 		position: fixed;
 		inset: 0;
@@ -146,11 +146,11 @@
 		overflow: auto;
 	}
 	@media (max-width: 480px) {
-		#topModal,
+		.topModal,
 		#modal {
 			width: 95%;
 		}
-		#topModal {
+		.topModal {
 			justify-content: space-around;
 		}
 	}

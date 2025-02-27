@@ -1,6 +1,13 @@
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
+import { dev } from '$app/environment';
+
+// Cache duration in seconds (5 minutes for non-dev environments)
+const CACHE_DURATION = !dev ? 300 : 0;
+
+// In-memory cache for single posts
+const singlePostCache = new Map();
 
 export const load: PageServerLoad = async (
 	event: any
@@ -9,20 +16,36 @@ export const load: PageServerLoad = async (
 	comments: any[];
 	metadata: App.BlogPost;
 	slug: string;
-	suggestions: {
-		niche: { type: string; posts: App.BlogPost[] };
-		sameEnneagram: { type: string; posts: App.BlogPost[] };
-	};
 	flags: {
 		userHasAnswered: boolean;
 		userSignedIn: boolean;
 	};
 }> => {
 	const params = event.params;
+	const slug = params.slug;
 
-	const pposts: { post: any; posts: any[] } = await getAllPosts(params.slug);
-	let group: any = null;
-	switch (pposts.post.type[0]) {
+	// Check if we have a cached post
+	const cachedPost = singlePostCache.get(slug);
+	if (cachedPost) {
+		return {
+			...cachedPost,
+			comments: event.data.comments,
+			flags: event.data.flags
+		};
+	}
+
+	// Get just the current post metadata to determine its type
+	const post = await getPostMetadata(slug);
+
+	if (!post || !post.type || !post.type[0]) {
+		throw error(404, {
+			message: `Couldn't find the blog`
+		});
+	}
+
+	// Use static glob patterns based on post type - only for the current post type
+	let group;
+	switch (post.type[0]) {
 		case 'celebrity':
 			group = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
 			break;
@@ -53,120 +76,154 @@ export const load: PageServerLoad = async (
 		case 'historical':
 			group = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
 			break;
-
 		default:
-			break;
+			throw error(404, {
+				message: `Invalid post type`
+			});
 	}
 
+	// Find the specific post module
 	let match: { path?: string; resolver?: App.MdsvexResolver } = {};
 	for (const [path, resolver] of Object.entries(group)) {
-		if (slugFromPath(path) === params.slug) {
+		if (slugFromPath(path) === slug) {
 			match = { path, resolver: resolver as App.MdsvexResolver };
 			break;
 		}
 	}
 
-	const post = await match?.resolver?.();
+	const postModule = await match?.resolver?.();
 
-	if (!post || !post.metadata.published) {
+	if (!postModule || !postModule.metadata.published) {
 		throw error(404, {
 			message: `Couldn't find the blog`
 		});
 	}
 
-	const sameEnneagramPosts = pposts.posts
-		.filter((p) => p.published)
-		.filter(
-			(p) =>
-				post?.metadata.enneagram && p?.enneagram === parseInt(post?.metadata.enneagram as string)
-		)
-		.filter((p) => params.slug !== p.slug)
-		.sort(() => 0.5 - Math.random());
-
-	const sameNichePosts = pposts.posts
-		.filter((p) => p.published)
-		.filter((p) => post?.metadata.type?.length && p?.type?.includes(post?.metadata.type[0]))
-		.filter((p) => params.slug !== p.slug)
-		.sort(() => 0.5 - Math.random());
-
-	return {
-		component: post.default,
-		comments: event.data.comments,
-		metadata: post.metadata as App.BlogPost,
+	const result = {
+		component: postModule.default,
+		metadata: postModule.metadata as App.BlogPost,
 		slug: params.slug,
-		suggestions: {
-			niche: { posts: sameNichePosts, type: post.metadata.type ? post.metadata.type[0] : '' },
-			sameEnneagram: {
-				posts: sameEnneagramPosts,
-				type: post.metadata.enneagram ? post.metadata.enneagram.toString() : ''
-			}
-		},
+		comments: event.data.comments,
 		flags: event.data.flags
 	};
+
+	// Cache the result
+	if (CACHE_DURATION > 0) {
+		const cachedData = { ...result };
+		delete cachedData.comments;
+		delete cachedData.flags;
+
+		singlePostCache.set(slug, cachedData);
+
+		// Set cache expiration
+		setTimeout(() => {
+			singlePostCache.delete(slug);
+		}, CACHE_DURATION * 1000);
+	}
+
+	return result;
 };
 
-const getAllPosts = async (pslug: any) => {
-	const celebrities = import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`);
-	const comedians = import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`);
-	const creators = import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`);
-	const lifestyleInfluencers = import.meta.glob(
-		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
+// Helper function to get just the metadata for a specific post
+async function getPostMetadata(targetSlug: string) {
+	// We need to check each category without using dynamic imports
+
+	// First check celebrities
+	const celebrityMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/celebrities/*.{md,svx,svelte.md}`, { eager: false }),
+		'celebrity'
 	);
-	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
-	const historical = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
-	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
-	const politicians = import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`);
-	const techies = import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`);
-	const tiktokers = import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`);
+	if (celebrityMatch) return celebrityMatch;
 
-	const imports = [
-		celebrities,
-		comedians,
-		creators,
-		lifestyleInfluencers,
-		movieStars,
-		historical,
-		musicians,
-		politicians,
-		techies,
-		tiktokers
-	];
+	// Check comedians
+	const comediansMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/comedians/*.{md,svx,svelte.md}`, { eager: false }),
+		'comedians'
+	);
+	if (comediansMatch) return comediansMatch;
 
-	const body = [];
-	let post = null;
+	// Check creators
+	const creatorMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/creators/*.{md,svx,svelte.md}`, { eager: false }),
+		'creator'
+	);
+	if (creatorMatch) return creatorMatch;
 
-	for (const category in imports) {
-		for (const path in imports[category]) {
-			body.push(
-				imports[category][path]().then(({ metadata }: any) => {
-					const parts = path.split('/');
-					const slug = slugFromPath(parts[parts.length - 1]);
-					if (slug === pslug) {
-						post = {
-							...metadata, // may not be required for sitemap
-							path,
-							slug
-						};
-					}
-					if (metadata) {
-						return {
-							...metadata, // may not be required for sitemap
-							path,
-							slug
-						};
-					}
-				})
-			);
+	// Check lifestyle influencers
+	const lifestyleInfluencerMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`, { eager: false }),
+		'lifestyleInfluencer'
+	);
+	if (lifestyleInfluencerMatch) return lifestyleInfluencerMatch;
+
+	// Check movie stars
+	const movieStarMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`, { eager: false }),
+		'movieStar'
+	);
+	if (movieStarMatch) return movieStarMatch;
+
+	// Check historical
+	const historicalMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`, { eager: false }),
+		'historical'
+	);
+	if (historicalMatch) return historicalMatch;
+
+	// Check musicians
+	const musicianMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`, { eager: false }),
+		'musician'
+	);
+	if (musicianMatch) return musicianMatch;
+
+	// Check politicians
+	const politicianMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/politicians/*.{md,svx,svelte.md}`, { eager: false }),
+		'politician'
+	);
+	if (politicianMatch) return politicianMatch;
+
+	// Check techies
+	const techieMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/techies/*.{md,svx,svelte.md}`, { eager: false }),
+		'techie'
+	);
+	if (techieMatch) return techieMatch;
+
+	// Check tiktokers
+	const tiktokerMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/tiktokers/*.{md,svx,svelte.md}`, { eager: false }),
+		'tiktoker'
+	);
+	if (tiktokerMatch) return tiktokerMatch;
+
+	// No match found
+	return null;
+}
+
+// Helper to check a category for a slug match
+async function checkCategory(targetSlug: string, modules: Record<string, any>, categoryType: string) {
+	for (const [path, _] of Object.entries(modules)) {
+		const slug = slugFromPath(path.split('/').pop() || '');
+		if (slug === targetSlug) {
+			// Found the post, return basic metadata
+			return {
+				type: [categoryType],
+				path,
+				slug
+			};
 		}
 	}
-	const posts = await Promise.all(body);
-
-	return {
-		posts: posts.filter((p) => {
-			if (p?.published && p?.loc) {
-				return true;
-			}
-		}),
-		post
-	};
-};
+	return null;
+}

@@ -64,6 +64,8 @@
 	--glass-color: rgba(90, 91, 95, 0.1);
 	--base-white-outline: #f0f5f9;
 
+	--classic-border: 1px solid var(--medium-gray);
+
 	--card-margin: 1rem;
 	--spacing-unit: 5px;
 }
@@ -95,6 +97,7 @@ h6 {
 	padding: 1rem 0 0.5rem;
 	margin: 1rem 0 0.5rem;
 	line-height: 1.2;
+	font-weight: revert;
 }
 
 h1 {
@@ -211,7 +214,7 @@ a.disabled {
 
 .btn-primary {
 	background-color: var(--primary);
-	color: var(--accent);
+	color: white;
 	border: var(--classic-border);
 }
 

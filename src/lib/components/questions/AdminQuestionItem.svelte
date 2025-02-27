@@ -150,7 +150,8 @@
 		<Button
 			size="sm"
 			on:click={() => {
-				getModal(`tag-question-${questionData.id}`).open();
+				const modal = getModal(`tag-question-${questionData.id}`);
+				modal.open();
 			}}>AI Tag</Button
 		>
 		<Button
@@ -241,6 +242,7 @@
 <style lang="scss">
 	.question-card {
 		width: 100%;
+		max-width: 1000px;
 		position: relative;
 		box-shadow:
 			0 3px 1px -2px rgba(0, 0, 0, 0.2),
@@ -253,9 +255,9 @@
 		&:hover {
 			background-color: var(--base-white-outline);
 			box-shadow:
-				0 2px 0px -1px var(--color-theme-purple-light),
-				0 3px 3px 1px var(--color-theme-purple-light),
-				0 1px 5px 0 var(--color-theme-purple-light);
+				0 2px 0px -1px var(--primary-light),
+				0 3px 3px 1px var(--primary-light),
+				0 1px 5px 0 var(--primary-light);
 		}
 	}
 	.edit-modal-content {

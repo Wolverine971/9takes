@@ -150,24 +150,7 @@
 	}
 
 	.btn {
-		padding: 0.75rem 1rem;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-		font-size: 1rem;
-		font-weight: bold;
-		transition:
-			background-color 0.3s ease,
-			transform 0.1s ease;
-
 		&.btn-primary {
-			background-color: var(--primary);
-			color: white;
-
-			&:hover {
-				background-color: var(--primary-dark);
-			}
-
 			&:active {
 				transform: translateY(1px);
 			}

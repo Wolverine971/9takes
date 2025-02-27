@@ -188,7 +188,7 @@
 		transition: opacity 0.3s ease;
 
 		&.disabled {
-			opacity: 0.5;
+			opacity: 0.7;
 			cursor: not-allowed;
 		}
 	}
@@ -207,34 +207,7 @@
 		word-break: break-word;
 
 		&:hover {
-			color: var(--color-theme-purple-light);
-		}
-	}
-
-	.btn {
-		padding: 0.5rem 1rem;
-		border: none;
-		border-radius: var(--base-border-radius);
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-		font-size: 0.9rem;
-
-		&-primary {
-			background-color: var(--primary);
-			color: var(--accent);
-
-			&:hover {
-				background-color: var(--color-theme-purple-light);
-			}
-		}
-
-		&-secondary {
-			background-color: var(--dark-gray);
-			color: var(--color-p-dark);
-
-			&:hover {
-				background-color: var(--medium-gray);
-			}
+			color: var(--primary-light);
 		}
 	}
 

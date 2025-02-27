@@ -551,8 +551,6 @@
 
 	/* Updated Button Styles */
 	.btn-primary {
-		background: var(--primary);
-		color: white;
 		font-weight: 600;
 		border-radius: var(--border-radius);
 		transition: all 0.2s ease;

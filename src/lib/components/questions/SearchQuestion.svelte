@@ -171,7 +171,7 @@
 		width: 16px;
 		height: 16px;
 		border: 2px solid rgba(0, 0, 0, 0.1);
-		border-top: 2px solid var(--color-primary);
+		border-top: 2px solid var(--primary);
 		border-radius: 50%;
 		animation: spin 0.8s linear infinite;
 		opacity: 0;
@@ -194,8 +194,8 @@
 		align-self: stretch;
 		border: none;
 		border-radius: $border-radius;
-		background-color: var(--color-primary);
-		color: var(--color-text-inverse);
+		background-color: var(--primary);
+		color: white;
 		font-size: 1rem;
 		font-weight: 600;
 		white-space: nowrap;
@@ -203,7 +203,7 @@
 		transition: all $transition-standard;
 
 		&:hover:not(:disabled) {
-			background-color: var(--color-primary-hover);
+			background-color: var(--primary-hover);
 			transform: translateY(-2px);
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
@@ -214,7 +214,7 @@
 		}
 
 		&:focus {
-			outline: 2px solid var(--color-primary-hover);
+			outline: 2px solid var(--primary-hover);
 			outline-offset: 2px;
 		}
 	}
