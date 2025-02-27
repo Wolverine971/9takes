@@ -1,12 +1,17 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
+	import { browser } from '$app/environment';
 	import type { PageData } from './$types';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 
 	export let data: PageData;
 	let innerWidth = 0;
+	let loaded = false;
+	let marqueeWidth = 0;
+	let isHovering = false;
+	let observer: IntersectionObserver;
 
 	const siteName = '9takes';
 	const title = '9takes | Open Source Your Conflict Resolution';
@@ -20,20 +25,10 @@
 	const keywords =
 		'conflict resolution, personality types, enneagram, anonymous advice, relationship help, different perspectives, personal growth, problem solving, community feedback, decision making';
 
-	// Structured data for Google
-	const structuredData = null;
-	// JSON.stringify({
-	// 	'@context': 'https://schema.org',
-	// 	'@type': 'WebSite',
-	// 	name: siteName,
-	// 	url: domain,
-	// 	description: metaDescription,
-	// 	potentialAction: {
-	// 		'@type': 'SearchAction',
-	// 		target: `${domain}/search?q={search_term_string}`,
-	// 		'query-input': 'required name=search_term_string'
-	// 	}
-	// });
+	// Fixed height placeholder for the question list to prevent layout shift
+	const questionListHeight = '400px';
+
+	let sectionsVisible = Array(5).fill(false);
 
 	const personalities = [
 		{ name: 'MrBeast', type: '8', slug: 'Mr-Beast' },
@@ -46,52 +41,6 @@
 		{ name: 'Keanu Reeves', type: '9', slug: 'Keanu-Reeves' },
 		{ name: 'Barack Obama', type: '9', slug: 'Barack-Obama' }
 	];
-
-	let sectionsVisible = Array(5).fill(false);
-	let marqueeWidth: number;
-	let isHovering = false;
-
-	onMount(() => {
-		const observer = new IntersectionObserver(
-			(entries) => {
-				requestAnimationFrame(() => {
-					entries.forEach((entry) => {
-						if (entry.isIntersecting) {
-							const index = parseInt(entry.target.dataset.index);
-							sectionsVisible[index] = true;
-						}
-					});
-				});
-			},
-			{
-				threshold: 0.2,
-				rootMargin: '50px'
-			}
-		);
-
-		document.querySelectorAll('.section-wrapper').forEach((section, index) => {
-			section.dataset.index = index.toString();
-			observer.observe(section);
-		});
-
-		const calculateWidth = () => {
-			const card = document.querySelector('.personality-card');
-			if (card) {
-				const cardWidth = card.offsetWidth;
-				marqueeWidth = Math.ceil(personalities.length * (cardWidth + 32)); // Include gap
-			}
-		};
-		calculateWidth();
-		window.addEventListener('resize', calculateWidth, { passive: true });
-
-		return () => window.removeEventListener('resize', calculateWidth);
-	});
-
-	function getTransition(index: number) {
-		const duration = 800;
-		const delay = 200;
-		return index % 2 === 0 ? { x: -50, duration, delay } : { x: 50, duration, delay };
-	}
 
 	const steps = [
 		{
@@ -132,9 +81,87 @@
 			description: 'Anonymous posting and respectful community guidelines foster honest dialogue.'
 		}
 	];
+
+	function getTransition(index) {
+		const duration = 600; // Reduced from 800 for faster loading
+		const delay = 150; // Reduced from 200 for faster loading
+		return index % 2 === 0 ? { x: -30, duration, delay } : { x: 30, duration, delay };
+	}
+
+	function calculateMarqueeWidth() {
+		if (!browser) return;
+
+		const card = document.querySelector('.personality-card');
+		if (card) {
+			const cardWidth = card.offsetWidth;
+			marqueeWidth = Math.ceil(personalities.length * (cardWidth + 16)); // Reduced gap for better performance
+		}
+	}
+
+	function setupIntersectionObserver() {
+		if (!browser) return;
+
+		observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						const index = parseInt(entry.target.dataset.index || '0');
+						sectionsVisible[index] = true;
+					}
+				});
+			},
+			{
+				threshold: 0.1, // Reduced threshold for earlier loading
+				rootMargin: '100px' // Increased margin for earlier loading
+			}
+		);
+
+		document.querySelectorAll('.section-wrapper').forEach((section, index) => {
+			section.setAttribute('data-index', index.toString());
+			observer.observe(section);
+		});
+	}
+
+	onMount(async () => {
+		// Set loaded immediately to avoid FOUC (Flash of Unstyled Content)
+		loaded = true;
+
+		// Wait for next tick to ensure DOM is ready
+		await tick();
+
+		// Setup intersection observer for lazy loading sections
+		setupIntersectionObserver();
+
+		// Calculate marquee width
+		calculateMarqueeWidth();
+
+		// Add passive flag to event listener for better performance
+		window.addEventListener(
+			'resize',
+			() => {
+				innerWidth = window.innerWidth;
+				calculateMarqueeWidth();
+			},
+			{ passive: true }
+		);
+
+		return () => {
+			if (observer) observer.disconnect();
+			window.removeEventListener('resize', calculateMarqueeWidth);
+		};
+	});
 </script>
 
 <svelte:head>
+	<!-- Preconnect to domains for faster loading -->
+	<link rel="preconnect" href="https://9takes.com" />
+
+	<!-- Preload critical assets -->
+	<link rel="preload" href="/greek_pantheon.png" as="image" />
+
+	<!-- Set explicit width and height on viewport to prevent layout shift -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
+
 	<!-- Primary Meta Tags -->
 	<title>{title}</title>
 	<meta name="title" content={title} />
@@ -143,7 +170,6 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="language" content="English" />
 	<meta name="author" content={siteName} />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
 	<!-- Links -->
 	<link rel="canonical" href={domain} />
@@ -171,13 +197,6 @@
 	<meta name="twitter:image" content={ogImage} />
 	<meta name="twitter:image:alt" content="9takes - Open Source Your Conflict Resolution" />
 
-	<!-- Structured Data -->
-	{#if structuredData}
-		<script type="application/ld+json">
-		{JSON.stringify(structuredData)}
-		</script>
-	{/if}
-
 	<!-- Additional SEO Tags -->
 	<meta name="theme-color" content="#000000" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -191,180 +210,215 @@
 
 <svelte:window bind:innerWidth />
 
-<!-- Hero Section -->
-<div class="section-wrapper">
-	{#if sectionsVisible[0]}
-		<section
-			class="hero py-12 md:py-24"
-			in:fly={getTransition(0)}
-			style="display: flex; min-height: calc(90vh - 100px);"
-		>
-			<div class="hero-content flex flex-col items-center gap-8 md:flex-row md:justify-between">
-				<div class="max-w-xl">
-					<h1 class="mb-6 text-5xl font-bold md:text-6xl">
-						9takes, <br /> Open Source Conflict Resolution
-					</h1>
-					<h2 class="mb-6 text-xl font-medium text-gray-600 md:text-2xl">
-						Ask and answer questions <span style="text-decoration: underline">anonymously</span>.<br
-						/>
-						Get 9 perspectives on conflict via the Enneagram.
-					</h2>
-					<div class="flex gap-4" style="">
-						{#if innerWidth >= 768}
-							<button class="btn-secondary text-nowrap rounded-lg px-6 py-3 md:block">
-								Learn More ↓
+<!-- Main container with min-height to prevent layout shift -->
+<div class="main-container">
+	<!-- Hero Section -->
+	<div class="section-wrapper">
+		{#if loaded}
+			<section
+				class="hero py-8 md:py-16"
+				in:fly={getTransition(0)}
+				style="min-height: calc(80vh - 80px);"
+			>
+				<div
+					class="hero-content flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-8"
+				>
+					<div class="max-w-xl text-center md:text-left">
+						<h1 class="mb-4 text-4xl font-bold md:mb-6 md:text-5xl lg:text-6xl">
+							9takes, <br /> Open Source Conflict Resolution
+						</h1>
+						<h2 class="mb-4 text-lg font-medium text-gray-600 md:mb-6 md:text-xl lg:text-2xl">
+							Ask and answer questions <span style="text-decoration: underline">anonymously</span
+							>.<br />
+							Get 9 perspectives on conflict via the Enneagram.
+						</h2>
+						<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+							{#if innerWidth >= 768}
+								<button class="btn-secondary order-2 text-nowrap rounded-lg px-6 py-3 sm:order-1">
+									Learn More ↓
+								</button>
+							{/if}
+							<button class="btn-primary order-1 w-full rounded-lg px-6 py-3 sm:order-2 sm:w-auto">
+								Ask a Question {innerWidth <= 768 ? '↓' : '→'}
 							</button>
-						{/if}
-						<button class="btn-primary rounded-lg px-6 py-3" style="width: 100%;">
-							Ask a Question {innerWidth <= 768 ? '↓' : '→'}
-						</button>
+						</div>
+					</div>
+
+					<div class="mt-6 w-full md:mt-0 md:w-1/2">
+						<!-- Fixed height container to prevent layout shift -->
+						<div class="glass-area h-auto" style="min-height: {questionListHeight};">
+							<h3 class="!mt-0 mb-4 !pt-0 text-xl font-semibold">Latest Questions</h3>
+							<div class="question-list">
+								{#each data?.top9Questions || [] as questionData}
+									<QuestionItem {questionData} showDetails={true} />
+								{:else}
+									<!-- Skeleton loader for questions -->
+									{#each Array(3) as _}
+										<div class="skeleton-question-item">
+											<div class="skeleton-text"></div>
+											<div class="skeleton-meta"></div>
+										</div>
+									{/each}
+								{/each}
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="w-full md:w-1/2">
-					<div class="glass-area">
-						<h3 class="!mt-0 mb-4 !pt-0 text-xl font-semibold">Latest Questions</h3>
-						<div class="question-list">
-							{#each data?.top9Questions || [] as questionData}
-								<QuestionItem {questionData} showDetails={true} />
+			</section>
+		{:else}
+			<!-- Initial placeholder to prevent layout shift -->
+			<div class="hero-placeholder"></div>
+		{/if}
+	</div>
+
+	<!-- How it Works -->
+	<div class="section-wrapper">
+		{#if sectionsVisible[1] || !browser}
+			<section class="py-8 md:py-16" in:fly={getTransition(1)}>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">How 9takes Works</h2>
+				<div class="grid gap-6 md:grid-cols-3 md:gap-8">
+					{#each steps as { emoji, title, description }}
+						<div class="glass-area">
+							<div class="mb-3 text-2xl md:mb-4 md:text-3xl">{emoji}</div>
+							<h3 class="mb-2 text-lg font-semibold md:text-xl">{title}</h3>
+							<p class="text-gray-600">{description}</p>
+						</div>
+					{/each}
+				</div>
+			</section>
+		{/if}
+	</div>
+
+	<!-- Nine Types Section -->
+	<div class="section-wrapper">
+		{#if sectionsVisible[2] || !browser}
+			<section class="dark-section rounded-lg p-6 md:p-12" in:fly={getTransition(2)}>
+				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
+				<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 1.5rem;">
+					<p class="mb-6 text-lg md:text-xl">
+						The Enneagram has a nine personality type model and is based on emotions. <br />This
+						makes understanding yourself and others approachable.
+					</p>
+					<div class="grid grid-cols-3 gap-2 md:gap-4">
+						{#each Array(9) as _, i}
+							<a class="font-bold" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
+								<div class="type-box flex h-16 items-center justify-center rounded-lg md:h-24">
+									<span class="text-xl font-bold md:text-2xl">Type {i + 1}</span>
+								</div>
+							</a>
+						{/each}
+					</div>
+				</div>
+			</section>
+		{/if}
+	</div>
+
+	<!-- Personality Analysis CTA -->
+	<div class="section-wrapper my-16 md:my-24">
+		<section
+			class="personality-cta mx-auto max-w-6xl rounded-xl bg-white !p-4 pb-2 shadow-xl md:!p-6 lg:p-12"
+		>
+			<div class="mx-auto mb-6 max-w-3xl text-center md:mb-8">
+				<h2 class="mb-2 text-xl font-bold md:mb-3 md:text-2xl lg:text-3xl">
+					Learn Your Type Through Famous People
+				</h2>
+				<p class="text-base text-gray-600 md:text-lg">
+					Explore personalities you relate to—the natural way to discover your type.
+				</p>
+			</div>
+
+			{#if browser && loaded}
+				<div class="marquee-outer my-8 md:my-12">
+					<div
+						class="marquee-container"
+						style="--marquee-width: {Math.ceil(marqueeWidth)}px;"
+						on:mouseenter={() => (isHovering = true)}
+						on:mouseleave={() => (isHovering = false)}
+					>
+						<div class="marquee" class:paused={isHovering}>
+							{#each [...personalities, ...personalities] as { name, type, slug }}
+								<a href="/personality-analysis/{slug}" class="personality-card group">
+									<div class="flex flex-col items-center justify-center">
+										<div class="img-wrapper">
+											<img
+												src="/types/{type}s/{slug}.webp"
+												alt={name}
+												width="144"
+												height="144"
+												class="h-24 w-24 rounded-full object-cover md:h-28 md:w-28"
+												loading="lazy"
+												decoding="async"
+											/>
+											<div
+												class="absolute inset-0 rounded-full group-hover:ring-2 group-hover:ring-purple-500/50"
+											></div>
+										</div>
+									</div>
+									<p
+										class="m-2 p-1 text-center text-sm font-medium text-gray-900 md:m-3 md:p-2 md:text-base"
+									>
+										{name}
+									</p>
+									<p class="!mb-0 !mt-auto text-xs text-purple-600 md:text-sm">Type {type}</p>
+								</a>
 							{/each}
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	{/if}
-</div>
-
-<!-- How it Works -->
-<div class="section-wrapper">
-	{#if sectionsVisible[1]}
-		<section class="py-12 md:py-24" in:fly={getTransition(1)}>
-			<h2 class="mb-12 text-center text-4xl font-bold">How 9takes Works</h2>
-			<div class="grid gap-8 md:grid-cols-3">
-				{#each steps as { emoji, title, description }}
-					<div class="glass-area">
-						<div class="mb-4 text-3xl">{emoji}</div>
-						<h3 class="mb-2 text-xl font-semibold">{title}</h3>
-						<p class="text-gray-600">{description}</p>
-					</div>
-				{/each}
-			</div>
-		</section>
-	{/if}
-</div>
-
-<!-- Nine Types Section -->
-<div class="section-wrapper">
-	{#if sectionsVisible[2]}
-		<section class="dark-section rounded-lg p-12" in:fly={getTransition(2)}>
-			<h2 class="mb-8 text-center text-4xl font-bold">Why the Enneagram?</h2>
-			<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 2rem;">
-				<p class="mb-6 text-xl">
-					The Enneagram has a nine personality type model and is based on emotions. <br />This makes
-					understanding yourself and others approachable.
-				</p>
-				<div class="grid grid-cols-3 gap-4">
-					{#each Array(9) as _, i}
-						<a class="text-2xl font-bold" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
-							<div class="type-box flex h-24 items-center justify-center rounded-lg">
-								<span class="text-2xl font-bold">Type {i + 1}</span>
-							</div>
-						</a>
+			{:else}
+				<!-- Static placeholder for personalities to prevent layout shift -->
+				<div class="personalities-placeholder my-8 flex justify-center gap-4 md:my-12">
+					{#each personalities.slice(0, 5) as _, i}
+						<div class="personality-placeholder"></div>
 					{/each}
 				</div>
+			{/if}
+
+			<div class="mt-6 text-center md:mt-8">
+				<a
+					href="/personality-analysis"
+					class="inline-flex items-center justify-center rounded-lg bg-black px-4 py-2 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-gray-800 md:px-6 md:py-3 md:text-base"
+				>
+					Explore All Personalities →
+				</a>
 			</div>
 		</section>
-	{/if}
-</div>
+	</div>
 
-<!-- Personality Analysis CTA -->
-<div class="section-wrapper my-24">
-	<section
-		class="personality-cta mx-auto max-w-6xl rounded-xl bg-white !p-6 pb-2 shadow-xl md:p-12"
-	>
-		<div class="mx-auto mb-8 max-w-3xl text-center">
-			<h2 class="mb-3 text-2xl font-bold md:text-3xl">Learn Your Type Through Famous People</h2>
-			<p class="text-lg text-gray-600">
-				Explore personalities you relate to—the natural way to discover your type.
-			</p>
-		</div>
-
-		<div class="marquee-outer my-12">
-			<div
-				class="marquee-container"
-				style="--marquee-width: {Math.ceil(marqueeWidth)}px;"
-				on:mouseenter={() => (isHovering = true)}
-				on:mouseleave={() => (isHovering = false)}
-			>
-				<div class="marquee" class:paused={isHovering}>
-					{#each [...personalities, ...personalities] as { name, type, slug }}
-						<a href="/personality-analysis/{slug}" class="personality-card group">
-							<div class="flex flex-col items-center items-center justify-center">
-								<img
-									src="/types/{type}s/{slug}.webp"
-									alt={name}
-									width="144"
-									height="144"
-									class="h-28 w-28 rounded-full object-cover md:h-36 md:w-36"
-									loading="lazy"
-									decoding="async"
-								/>
-								<div
-									class="absolute inset-0 rounded-full group-hover:ring-2 group-hover:ring-purple-500/50"
-								></div>
-							</div>
-							<p class="m-3 p-2 text-center text-sm font-medium text-gray-900 md:text-base">
-								{name}
-							</p>
-							<p class="!mb-0 !mt-auto text-xs text-purple-600 md:text-sm">Type {type}</p>
-						</a>
-					{/each}
-				</div>
-			</div>
-		</div>
-
-		<div class="mt-8 text-center">
-			<a
-				href="/personality-analysis"
-				class="inline-flex items-center justify-center rounded-lg bg-black px-6 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-gray-800 md:text-base"
-			>
-				Explore All Personalities →
-			</a>
-		</div>
-	</section>
-</div>
-
-<!-- Benefits Section -->
-<div class="section-wrapper">
-	{#if sectionsVisible[3]}
-		<section class="py-12 md:py-24" in:fly={getTransition(3)}>
-			<h2 class="mb-12 text-center text-4xl font-bold">Why It Works</h2>
-			<div class="grid gap-8 md:grid-cols-2">
-				{#each benefits as { title, description }}
-					<div class="benefit-card">
-						<h3 class="mb-4 text-xl font-semibold">{title}</h3>
-						<p class="text-gray-600">{description}</p>
-					</div>
-				{/each}
-			</div>
-		</section>
-	{/if}
-</div>
-
-<!-- CTA Section -->
-{#if !data?.session?.user}
+	<!-- Benefits Section -->
 	<div class="section-wrapper">
-		{#if sectionsVisible[4]}
-			<section class="glass-area mb-24 text-center" in:fly={getTransition(4)}>
-				<h2 class="mb-6 text-4xl font-bold">Ready to Gain New Perspectives?</h2>
-				<p class="mb-8 text-xl text-gray-600">
-					Join our community and start seeing conflicts from all angles.
-				</p>
-				<EmailSignup cta="Get Started Now →" />
+		{#if sectionsVisible[3] || !browser}
+			<section class="py-8 md:py-16" in:fly={getTransition(3)}>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why It Works</h2>
+				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
+					{#each benefits as { title, description }}
+						<div class="benefit-card">
+							<h3 class="mb-3 text-lg font-semibold md:mb-4 md:text-xl">{title}</h3>
+							<p class="text-gray-600">{description}</p>
+						</div>
+					{/each}
+				</div>
 			</section>
 		{/if}
 	</div>
-{/if}
+
+	<!-- CTA Section -->
+	{#if !data?.session?.user}
+		<div class="section-wrapper">
+			{#if sectionsVisible[4] || !browser}
+				<section class="glass-area mb-16 text-center md:mb-24" in:fly={getTransition(4)}>
+					<h2 class="mb-4 text-3xl font-bold md:mb-6 md:text-4xl">
+						Ready to Gain New Perspectives?
+					</h2>
+					<p class="mb-6 text-lg text-gray-600 md:mb-8 md:text-xl">
+						Join our community and start seeing conflicts from all angles.
+					</p>
+					<EmailSignup cta="Get Started Now →" />
+				</section>
+			{/if}
+		</div>
+	{/if}
+</div>
 
 <style lang="scss">
 	:root {
@@ -372,14 +426,46 @@
 		--card-background: #ffffff;
 		--shadow-color: rgba(0, 0, 0, 0.1);
 		--primary-dark: #1a202c;
+		/* CSS variables for consistent spacing */
+		--spacing-xs: 0.25rem;
+		--spacing-sm: 0.5rem;
+		--spacing-md: 1rem;
+		--spacing-lg: 1.5rem;
+		--spacing-xl: 2rem;
 	}
 
+	/* Container sizing */
+	.main-container {
+		width: 100%;
+		max-width: 1440px;
+		margin: 0 auto;
+		padding: 0 var(--spacing-md);
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* Ensure images have proper aspect ratio to prevent layout shift */
 	img {
 		aspect-ratio: 1;
+		object-fit: cover;
 	}
 
+	/* Image wrapper to prevent layout shift */
+	.img-wrapper {
+		position: relative;
+		width: 6rem;
+		height: 6rem;
+
+		@media (min-width: 768px) {
+			width: 7rem;
+			height: 7rem;
+		}
+	}
+
+	/* Section wrapper for better container queries */
 	.section-wrapper {
 		container-type: inline-size;
+		margin-bottom: var(--spacing-xl);
 	}
 
 	@container (min-width: 768px) {
@@ -388,81 +474,137 @@
 		}
 	}
 
-	.section {
-		@apply min-h-[400px] md:min-h-[600px];
+	/* Prevent layout shift with height */
+	.hero-placeholder {
+		min-height: 80vh;
+		width: 100%;
 	}
 
-	.question-list {
-		@apply min-h-[200px] md:min-h-[400px];
-		height: 100%;
-	}
-
-	img {
-		@apply aspect-square;
-	}
-
+	/* Skeleton loaders */
 	.skeleton {
 		@apply animate-pulse rounded bg-gray-200;
 	}
 
+	.skeleton-question-item {
+		height: 4rem;
+		margin-bottom: var(--spacing-md);
+		padding: var(--spacing-sm);
+		background-color: rgba(0, 0, 0, 0.05);
+		border-radius: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
 	.skeleton-text {
-		@apply skeleton h-4 w-3/4;
+		height: 1rem;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.08);
+		border-radius: 0.25rem;
+		margin-bottom: var(--spacing-sm);
 	}
 
-	.glass-area {
-		background: rgba(255, 255, 255, 0.2);
-		backdrop-filter: blur(10px);
-		border-radius: 1rem;
-		padding: 1.5rem;
-		box-shadow: 0 4px 6px var(--shadow-color);
+	.skeleton-meta {
+		height: 1rem;
+		width: 30%;
+		background-color: rgba(0, 0, 0, 0.08);
+		border-radius: 0.25rem;
+		align-self: flex-end;
 	}
 
-	.personality-card {
-		@apply flex min-w-[120px] flex-col items-center p-3 transition-all duration-300 md:min-w-[160px];
-		aspect-ratio: 1;
-		container-type: inline-size;
-
-		img {
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-		}
-	}
-
-	.marquee-outer {
+	.personalities-placeholder {
+		display: flex;
+		justify-content: center;
+		gap: var(--spacing-md);
 		overflow: hidden;
 	}
 
+	.personality-placeholder {
+		width: 5rem;
+		height: 8rem;
+		background-color: rgba(0, 0, 0, 0.05);
+		border-radius: 0.5rem;
+
+		@media (min-width: 768px) {
+			width: 6rem;
+			height: 10rem;
+		}
+	}
+
+	/* Question list fixed height */
+	.question-list {
+		min-height: 200px;
+
+		@media (min-width: 768px) {
+			min-height: 400px;
+		}
+	}
+
+	/* Glass effect */
+	.glass-area {
+		background: rgba(255, 255, 255, 0.2);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px); /* Safari support */
+		border-radius: 1rem;
+		padding: var(--spacing-lg);
+		box-shadow: 0 4px 6px var(--shadow-color);
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
+		will-change: transform, box-shadow;
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 12px var(--shadow-color);
+		}
+	}
+
+	/* Personality cards with proper sizing */
+	.personality-card {
+		min-width: 100px;
+		max-width: 120px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: var(--spacing-sm);
+		transition: transform 0.3s ease;
+		position: relative;
+
+		@media (min-width: 768px) {
+			min-width: 140px;
+			max-width: 160px;
+			padding: var(--spacing-md);
+		}
+
+		img {
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+			transform: translateZ(0); /* Force GPU rendering */
+		}
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+
+	/* Marquee optimization */
+	.marquee-outer {
+		overflow: hidden;
+		width: 100%;
+	}
+
 	.marquee-container {
-		@apply relative overflow-hidden;
-		-webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
-		mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
-	}
-
-	.marquee-container::before,
-	.marquee-container::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		width: 10rem;
-		height: 100%;
-		z-index: 1;
-		pointer-events: none;
-	}
-
-	.marquee-container::before {
-		left: 0;
-		background: linear-gradient(to right, white, transparent);
-	}
-
-	.marquee-container::after {
-		right: 0;
-		background: linear-gradient(to left, white, transparent);
+		position: relative;
+		overflow: hidden;
+		-webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+		mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
 	}
 
 	.marquee {
 		display: flex;
-		gap: 2rem;
-		padding: 1rem;
-		animation: scroll 40s linear infinite;
+		gap: 1rem;
+		padding: 0.5rem;
+		animation: scroll 30s linear infinite; /* Reduced from 40s for better performance */
+		will-change: transform;
 
 		&.paused {
 			animation-play-state: paused;
@@ -474,86 +616,110 @@
 			transform: translateX(0);
 		}
 		100% {
-			transform: translateX(calc(-1 * var(--marquee-width) - 2rem));
+			transform: translateX(calc(-1 * var(--marquee-width) - 1rem));
 		}
 	}
 
-	.personality-card {
-		@apply w-[140px] p-2 md:w-[180px] md:p-3;
-
-		img {
-			@apply mx-auto h-24 w-24 md:h-32 md:w-32;
-			aspect-ratio: 1;
-		}
-
-		&:hover {
-			transform: scale(1.05);
-		}
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		.marquee {
-			animation: none;
-		}
-	}
-
+	/* Accessible dark section */
 	.dark-section {
 		background: var(--primary-dark);
 		color: white;
+		overflow: hidden;
 
 		.type-box {
 			border: 1px solid rgba(255, 255, 255, 0.2);
 			background: rgba(255, 255, 255, 0.1);
-			transition: transform 0.3s ease;
+			transition:
+				transform 0.3s ease,
+				background-color 0.3s ease;
+			will-change: transform, background-color;
 
 			&:hover {
-				transform: translateY(-5px);
+				transform: translateY(-3px);
+				background: rgba(255, 255, 255, 0.15);
 			}
 		}
 	}
 
+	/* Benefit cards */
 	.benefit-card {
 		border: 1px solid #e5e7eb;
 		border-radius: 0.5rem;
-		padding: 1.5rem;
-		transition: transform 0.3s ease;
+		padding: var(--spacing-lg);
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+		will-change: transform, box-shadow;
 
 		&:hover {
-			transform: translateY(-5px);
+			transform: translateY(-3px);
+			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
 		}
 	}
 
+	/* Buttons */
 	.btn-primary {
 		background: var(--primary-dark);
 		color: white;
-		transition: background-color 0.3s ease;
+		transition:
+			background-color 0.2s ease,
+			transform 0.2s ease;
+		will-change: background-color, transform;
 
 		&:hover {
 			background: black;
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0);
 		}
 	}
 
 	.btn-secondary {
 		border: 1px solid var(--primary-dark);
 		color: var(--primary-dark);
-		transition: background-color 0.3s ease;
+		transition:
+			background-color 0.2s ease,
+			transform 0.2s ease;
+		will-change: background-color, transform;
 
 		&:hover {
 			background: #f3f4f6;
+			transform: translateY(-2px);
+		}
+
+		&:active {
+			transform: translateY(0);
 		}
 	}
 
+	/* Media queries for responsive design */
 	@media (max-width: 768px) {
 		.hero-content {
 			text-align: center;
+			padding: var(--spacing-sm);
 		}
 
-		h1 {
-			font-size: 2.5rem;
+		.section-wrapper {
+			margin-bottom: var(--spacing-lg);
+		}
+	}
+
+	/* Reduce animation for users who prefer reduced motion */
+	@media (prefers-reduced-motion: reduce) {
+		.marquee {
+			animation: none;
 		}
 
-		h2 {
-			font-size: 1.5rem;
+		.marquee-container::before,
+		.marquee-container::after {
+			display: none;
+		}
+
+		[in\:fly] {
+			transition: none !important;
+			transform: none !important;
 		}
 	}
 </style>
