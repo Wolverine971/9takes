@@ -7,15 +7,32 @@ import type { Actions } from './$types';
 // Cache duration in seconds (5 minutes for non-dev environments)
 const CACHE_DURATION = !dev ? 300 : 0;
 
+const MAX_AGE = 60 * 5;
+
 // In-memory cache for user status
 const userStatusCache = new Map();
 const commentsCache = new Map();
 
 export const load: PageServerLoad = async (event: any) => {
+	const setHeaders = event.setHeaders
 	const session = event.locals.session;
 	const user = session?.user;
 	const slug = event.params.slug;
 	const cookie = event.cookies.get('9tfingerprint');
+
+
+	if (!dev) {
+		setHeaders({
+			'Cache-Control': `public, max-age=${MAX_AGE}`
+			// optional: you could also add `s-maxage` or `stale-while-revalidate`
+			// 'Cache-Control': `public, s-maxage=${MAX_AGE}, stale-while-revalidate=300`
+		});
+	} else {
+		// In dev mode, disable caching so changes appear instantly
+		setHeaders({
+			'Cache-Control': 'no-store'
+		});
+	}
 
 	// Create cache keys
 	const userCacheKey = user?.id ? `${slug}:${user.id}` : `${slug}:${cookie}`;
