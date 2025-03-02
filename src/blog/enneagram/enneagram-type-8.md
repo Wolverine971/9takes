@@ -697,7 +697,7 @@ Key takeaways from the video include:
 This panel discussion offers valuable insights for Type 8s on their journey of self-discovery and for those seeking to understand the Type 8 perspective better. It highlights the complex inner world of "The Challenger" and provides practical advice for personal growth and improved relationships.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bfMfq4g6DU4?si=LX8NB4ILDuk6OV4r" title="Enneagram 8 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/bfMfq4g6DU4?si=LX8NB4ILDuk6OV4r" title="Enneagram 8 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

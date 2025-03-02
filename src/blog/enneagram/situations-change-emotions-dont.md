@@ -93,7 +93,7 @@ Your emotions are powerful tools. Learn to decode them, understand them, and ult
 <!-- compartmentalization -->
 
 <!-- <div class="iframe-container">
-<iframe width="560" height="315" src="https://youtube.com/shorts/8hSrpFFLmac?si=EAaavAuAcgBV5j_f" title="The Eightfold fence" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://youtube.com/shorts/8hSrpFFLmac?si=EAaavAuAcgBV5j_f" title="The Eightfold fence" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div> -->
 
 <!--

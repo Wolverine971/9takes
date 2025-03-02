@@ -66,7 +66,7 @@ It's not about quietly letting the other person talk. It is about making the oth
 This is echoed by an FBI hostage negotiator, Chris Voss. He talks about how negotiations aren't about logic but making the other side feel completely understood.
 
 <div class="iframe-container" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8EguLJgkc54?si=eBarFdPjKOxM8nRW&amp;start=2203" title="Chris Voss talking about the feeling of being heard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/8EguLJgkc54?si=eBarFdPjKOxM8nRW&amp;start=2203" title="Chris Voss talking about the feeling of being heard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 We learned that most of your relationship problems can be sorted out if you slow down and listen to each other. I noticed that this seemed to be the main thing therapists do. Therapists don’t talk at you; they sit and listen to you and help you feel understood before they give any input.

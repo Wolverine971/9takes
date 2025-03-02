@@ -67,7 +67,7 @@ They seek to protect themselves by getting stronger. Their strength can take man
 So, the typical 8s coping mechanism is to armor up and remove any perceived vulnerabilities.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://youtube.com/embed/5i0jPUArFH8?si=MDOPEEVUdnu_NaOW" title="Joe Rogan being motivational" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://youtube.com/embed/5i0jPUArFH8?si=MDOPEEVUdnu_NaOW" title="Joe Rogan being motivational" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Enneagram Type 8s are natural leaders characterized by self-confidence, resilience, and a direct approach to life. 8s have been known to unintentionally intimidate others. They also tend to confront life head-on and are always up to a challenge. Fear is not a factor for 8s 😉.
@@ -87,7 +87,7 @@ Joe can talk this way because he is not hiding anything. His approach to life is
 This openness to life, born out of a feeling of being untouchable, creates a sense of comfort and helps people relax and be honest on his podcast. Perhaps the most iconic example of this is the moment when he got Elon Musk to smoke a joint on air:
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Nael8xcSus?si=1UkTEJmk1HU5W9bC&amp;start=6" title="Elon Musk and Joe Rogan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/8Nael8xcSus?si=1UkTEJmk1HU5W9bC&amp;start=6" title="Elon Musk and Joe Rogan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 This moment, while controversial, exemplifies how Rogan's Type 8 traits create an atmosphere where guests feel they can be their authentic selves, leading to uniquely candid and revealing conversations.
@@ -99,7 +99,7 @@ One aspect of Enneagram Type 8s is that when they are doing well or are in "secu
 Many of Rogan's friends speak about his generosity and genuine happiness at their success. They describe him as a good friend who gives gifts and celebrates others' achievements. This behavior aligns perfectly with the Type 8's growth direction towards Type 2, where they channel their strength and resources into supporting others.
 
 <div class="iframe-container">
- <iframe width="560" height="315" src="https://www.youtube.com/embed/en4EJ_ocOqk?si=1UkTEJmk1HU5W9bC&amp;start=225" title="Joe Rogan helping friends" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/en4EJ_ocOqk?si=1UkTEJmk1HU5W9bC&amp;start=225" title="Joe Rogan helping friends" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  </div>
 
 Another name for Enneagram 8s is the "protector." Joe helping his friends can also be seen as protecting what he cares about. Many of Rogan's friends have been in difficult situations, and Rogan has stepped up to help them. This protective instinct is a testament to his character and aligns perfectly with his Enneagram 8 personality.

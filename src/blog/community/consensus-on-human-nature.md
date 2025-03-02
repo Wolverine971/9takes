@@ -86,7 +86,7 @@ So who has built upon these theories? Where are we today?
 ## Pinker calling for Rationality
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM" title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/qdzNKQwkp-Y?clip=Ugkx11XnGz8VeWrGta-a6JkOjd8jug3kSFB3&amp;clipt=EOjvARjzygM" title="Pinker's call for rationality" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 If only we could purge all the misinformation and fake news. If only we could establish a ministry of truth. If only people were smarter and more rational.
@@ -122,7 +122,7 @@ By <a class="external-link" target="_blank" rel="noreferrer" href="//commons.wik
 Here is [Andrew Huberman](https://www.youtube.com/@hubermanlab) and Dr. Paul Conti, M.D., who trained at Stanford School of Medicine talking about this iceberg model of the mind.
 
 <div class="iframe-container" >
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&amp;start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/tLRCS48Ens4?si=Jt2NsKputVcqcHfy&amp;start=1221" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### Huberman Lab Iceberg Model

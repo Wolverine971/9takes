@@ -53,7 +53,7 @@ Nancy D'Alesandro Pelosi's upbringing in Baltimore's Little Italy laid the groun
 In Pelosi's own words: "**We were raised in a very Catholic, Italian, Democratic family.**" This statement provides insight into the values that shaped her worldview and potentially influenced her drive for achievement.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/c9_f_AgxfoE?start=195" title="Pelosi's daughter describing growing up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/c9_f_AgxfoE?start=195" title="Pelosi's daughter describing growing up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Late Entry, Rapid Ascent: A Type 3 Trajectory
@@ -73,7 +73,7 @@ A telling quote from Pelosi illustrates this mindset: "You've got to be ready to
 Pelosi's methods of handling stress offer insights into her personality. Her well-known affinity for dark chocolate, kept on hand in her office, indicates a practical approach to managing high-pressure situations. This habit, while seemingly trivial, aligns with the Type 3 tendency to maintain productivity even under stress.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/1aOaIY3hXJQ?start=503" title="Pelosi's work ethic described" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/1aOaIY3hXJQ?start=503" title="Pelosi's work ethic described" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Additionally, Pelosi's commitment to physical fitness, including daily power walks and cross-training, demonstrates the Type 3's characteristic emphasis on personal presentation and stamina. These habits likely contribute to her noted energy and endurance in political affairs.
@@ -85,7 +85,7 @@ Pelosi's pride in breaking the "marble ceiling" of Congress and her role in pass
 However, it's important to consider that Type 3 individuals may also grapple with fears of failure or not meeting expectations. While not openly discussed, these concerns could potentially influence Pelosi's decision-making and public persona.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/ar0yjBm2HTU" title="Pelosi's response to criticism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/ar0yjBm2HTU" title="Pelosi's response to criticism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Navigating Political Relationships

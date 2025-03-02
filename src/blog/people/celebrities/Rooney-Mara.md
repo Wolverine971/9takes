@@ -65,7 +65,7 @@ But do you understand the person behind the name? Today, we dive into the depths
 Here is Rooney talking about her Enneagram number.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZJSEhsqNlgM?si=1Q4hm7AbIUkvpfCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ZJSEhsqNlgM?si=1Q4hm7AbIUkvpfCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Rooney Mara's Upbringing

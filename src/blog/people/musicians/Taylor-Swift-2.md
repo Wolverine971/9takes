@@ -44,7 +44,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/hLvkAzxqKpM?si=gwa4EQle_hx8kBzr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <details>
 <summary class="accordion">TL;DR: Why Taylor Swift is an Enneagram type 4</summary>

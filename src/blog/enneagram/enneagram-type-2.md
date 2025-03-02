@@ -431,7 +431,7 @@ This shift from transactional to unconditional self-worth represents a crucial t
 This candid discussion illuminates the complex inner world of Type 2s, offering valuable insights for Helpers seeking greater self-understanding and those wanting to better support the Twos in their lives.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PUREB46h--M?si=j3HTcDtW35Tr3DY7" title="Enneagram 2 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/PUREB46h--M?si=j3HTcDtW35Tr3DY7" title="Enneagram 2 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

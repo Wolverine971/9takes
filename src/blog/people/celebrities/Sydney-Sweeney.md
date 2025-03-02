@@ -108,7 +108,7 @@ What audiences didn't see was Sweeney's Type 3 process behind the scenes. For th
 The real turning point came when she was cast as Cassie Howard in HBO's controversial hit "Euphoria." The role required not just vulnerability but a willingness to explore dark psychological terrain.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/By78SAMSPGI?si=jkQkZc_-SRWo3Zu9" title="Sydney Sweeney interview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/By78SAMSPGI?si=jkQkZc_-SRWo3Zu9" title="Sydney Sweeney interview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Beyond the Screen: The Hidden Dimensions of Sydney Sweeney

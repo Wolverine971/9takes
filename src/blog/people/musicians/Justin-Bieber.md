@@ -81,7 +81,7 @@ Raised by a single mother in Stratford, Ontario, Bieber's musical journey began 
 A pivotal moment in Bieber's early life was his participation in a local singing competition at 12, where he placed second. This event showcased his budding talent and revealed his innate determination and work ethic. <a class="external-link" target="_blank" rel="noreferrer" href="https://www.britannica.com/biography/Justin-Bieber" >His mother posted videos of his performance on YouTube</a> for friends and family who couldn't attend, inadvertently setting the stage for his discovery by a broader audience. These homemade videos, where Bieber sang popular R&B songs and occasionally accompanied himself on acoustic guitar, soon caught the attention of music promoter and talent agent Scooter Braun, who played a crucial role in Bieber's early career​​.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/eQOFRZ1wNLw?si=tVo-RFxTBdzToZj_" title="Justin Bieber early on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/eQOFRZ1wNLw?si=tVo-RFxTBdzToZj_" title="Justin Bieber early on YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 Bieber's rapid rise to fame following these early YouTube videos was not just a stroke of luck but a testament to his work ethic and talent.
@@ -97,7 +97,7 @@ His early experiences, characterized by a blend of raw talent, early exposure to
 Justin Bieber's lyrics offer insights into his Enneagram Type 3 personality. His songs, like "Sorry" and "Love Yourself," showcase introspection and concern with self-image, typical of Type 3s. These tracks delve into personal growth and accountability, reflecting a journey toward self-improvement. His collaborations with artists like <a href="/personality-analysis/Taylor-Swift">Taylor Swift</a> underscore his drive for excellence and recognition in the competitive music industry, aligning with a Type 3's ambition and adaptability.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/5tb-CMlT8jM?si=lWXM1_G7ArkWDCDr" title="Justin Bieber and Taylor Swift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/5tb-CMlT8jM?si=lWXM1_G7ArkWDCDr" title="Justin Bieber and Taylor Swift" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Conclusion: The Complexity of Bieber's Type 3 Persona

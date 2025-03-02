@@ -646,7 +646,7 @@ Key Takeaways:
 This panel discussion offers valuable insights for Type 6s on their journey of self-discovery and for those seeking to understand the Type 6 perspective better. It highlights the complex inner world of "The Loyalist" and provides practical advice for personal growth and improved relationships.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SQ2c0d5wP30?si=yFjB_iT43oWS7Yh3" title="Enneagram 6 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/SQ2c0d5wP30?si=yFjB_iT43oWS7Yh3" title="Enneagram 6 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

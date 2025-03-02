@@ -102,7 +102,7 @@ Jason is a self-proclaimed "hustler" and constantly emphasizes the importance of
 > "The secret to success is to work harder than everyone else when you're young, save your money, and then take massive risks."
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://youtube.com/embed/9ofj5pMWKPk?si=5y0sLNd7r_I7dYmV" title="Jason Calacanis on hardwork" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://youtube.com/embed/9ofj5pMWKPk?si=5y0sLNd7r_I7dYmV" title="Jason Calacanis on hardwork" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## The Charmer and The Professional
@@ -120,7 +120,7 @@ On networking, Calacanis advises:
 This approach reflects the Achiever's ability to adapt and excel in social situations, always with an eye towards building relationships that can lead to success.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://youtube.com/embed/CptK4H5ZOxU" title="Jason Calacanis talking about networking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://youtube.com/embed/CptK4H5ZOxU" title="Jason Calacanis talking about networking" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Beyond The Glittering Image

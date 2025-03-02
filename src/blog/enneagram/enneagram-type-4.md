@@ -652,7 +652,7 @@ In this insightful panel discussion moderated by Beatrice Chestnut, four individ
 This panel discussion offers valuable insights for Type 4s on their journey of self-discovery and for those seeking to understand the Type 4 perspective better. It highlights the complex inner world of "The Individualist" and provides practical advice for personal growth and self-acceptance.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BySvn_zyTnY?si=62xJaQdTFhx-vmBH" title="Enneagram 4 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/BySvn_zyTnY?si=62xJaQdTFhx-vmBH" title="Enneagram 4 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

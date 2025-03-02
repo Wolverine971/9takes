@@ -52,7 +52,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 Mr. Rogers dedicated his life to creating a safe and nurturing space for children through his television show, "Mister Rogers' Neighborhood." He often spoke about the importance of kindness and empathy, encouraging his viewers to be helpers and care for others.
 
 <div class="iframe-container" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cwiYAYJ9D44?si=GeLzVHIo0A8nlkaL&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/cwiYAYJ9D44?si=GeLzVHIo0A8nlkaL&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Empathetic and compassionate

@@ -254,7 +254,7 @@ His acquisition and renovation of the Grand Hyatt Hotel put him on the map, but 
 This desire to make a statement — to leave an indelible mark on the world — is fundamentally Type 8. It's not enough to succeed; you must succeed visibly, dramatically, and undeniably.
 
 <div class="iframe-container" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_7THZ41QUOY?si=_AUJcmGTLo75HPQh" title="Trump as an Enneagram 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/_7THZ41QUOY?si=_AUJcmGTLo75HPQh" title="Trump as an Enneagram 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Beyond the Boardroom: Unexpected Facets of Trump

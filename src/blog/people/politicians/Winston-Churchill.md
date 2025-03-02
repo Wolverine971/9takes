@@ -62,7 +62,7 @@ Young Winston had a difficult upbringing in many ways. His father, Lord Randolph
 As biographer William Manchester wrote, Churchill "**always remembered the lonely and unhappy episodes of his childhood**." Like many 8s, he dealt with feelings of rejection and vulnerability by putting on armor and developing an independent, tough-as-nails persona.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W35O0TfnuMw?si=OT5QzZmPj2AX6Mr2&amp;start=6140" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/W35O0TfnuMw?si=OT5QzZmPj2AX6Mr2&amp;start=6140" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Churchill threw himself into activities like horseback riding and playing with toy soldiers, an early sign of the military bent that would define much of his life. Even as a boy, he displayed the 8's fiery temperament. His nanny recalled him as "a regular handful; mischievous, unruly and unpredictable."

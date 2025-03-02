@@ -258,7 +258,7 @@ In an Enneagram panel moderated by Beatrice Chestnut, a group of experienced Typ
 - Letting go of constant self-improvement and making space for mistakes and self-acceptance are valuable practices for Type 1 growth
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315"  loading="lazy" src="https://www.youtube.com/embed/nEtJFIPx_xM?si=m-MDPVBgsUv0uoWH" title="Enneagram 1 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

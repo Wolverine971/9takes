@@ -88,7 +88,7 @@ Growing up in Berkeley, California, young Kamala was surrounded by activism and 
 "**My mother would look at me and she'd say, 'Kamala, you may be the first to do many things, but make sure you're not the last,'**" Harris once recalled.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lLYNsAda_Pk?si=6_Y-49GiYUzG73iY&amp;start=487" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315"loading="lazy" src="https://www.youtube.com/embed/lLYNsAda_Pk?si=6_Y-49GiYUzG73iY&amp;start=487" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 This early encouragement to excel and pave the way for others is classic Type 3 fuel. It's no wonder Harris set her sights on becoming a lawyer and prosecutor - roles that would allow her to showcase her skills and make a tangible impact.
@@ -130,7 +130,7 @@ Harris is known for her disciplined morning routine, which includes a 6 a.m. wor
 "**I work out every morning, regardless of how much sleep I've had," Harris has said. "It's just the best way to start the day.**"
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fVbMWFGy4HM?si=FK-AdoS2Qr60OzWO" title="Kamala Harris talking about her workout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/fVbMWFGy4HM?si=FK-AdoS2Qr60OzWO" title="Kamala Harris talking about her workout" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 This commitment to physical appearance and health is deeply ingrained in the Type 3 psyche. For Achievers like Harris, looking good often translates to feeling confident and capable - essential traits for someone in the public eye.

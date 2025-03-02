@@ -101,7 +101,7 @@ He consistently emphasized bridging gaps and mending fences. His diplomacy-first
 His famous quote, "There is not a liberal America and a conservative America - there is the United States of America," embodies the essence of Type 9, where unification and acceptance reign supreme. Such a statement reflects a deep understanding of the interconnectedness of all things, a characteristic often associated with Type 9.
 
 <div class="iframe-container" >
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w4BhRx5EQyg?si=D4NtPFWeGemUMuo5" title="Obama as an Enneagram 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/w4BhRx5EQyg?si=D4NtPFWeGemUMuo5" title="Obama as an Enneagram 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Obama's Enneagram and His Political Priorities

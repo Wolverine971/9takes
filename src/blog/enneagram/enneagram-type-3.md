@@ -437,7 +437,7 @@ In this revealing panel discussion moderated by Enneagram expert Beatrice Chestn
 This honest conversation illuminates the complex reality behind the achievement-oriented exterior of Type 3 individuals. It highlights both the challenges they face and the profound growth possible when they begin integrating their drive for success with authentic self-expression.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m0uAC0cU9Z4?si=HPZFqXqkGdqa-eio" title="Enneagram 3 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy"  src="https://www.youtube.com/embed/m0uAC0cU9Z4?si=HPZFqXqkGdqa-eio" title="Enneagram 3 panel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 </section>

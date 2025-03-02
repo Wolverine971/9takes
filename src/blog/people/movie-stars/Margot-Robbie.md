@@ -91,7 +91,7 @@ Margot has shared in various interviews about her commitment to fitness, not jus
 <div
  class="iframe-container"
 >
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/8RwUJx24EWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 #### From Australian Soap to Hollywood: A True Challenger's Journey

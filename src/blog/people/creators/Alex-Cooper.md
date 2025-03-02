@@ -77,7 +77,7 @@ Type 7 individuals are extroverted, optimistic, and spontaneous. They are the li
 Alex was born on August 21, 1994, in Newtown, Pennsylvania. She was active in sports and even received a scholarship to Boston University for women's soccer. Her father was a former hockey player and he had a big influence on her competitive and adventurous spirit.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/knPqBc2qJ8E?si=s6kNb31KBWMBUEVR&amp;start=172" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/knPqBc2qJ8E?si=s6kNb31KBWMBUEVR&amp;start=172" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 Alex's first media job was as an anchor for Dirty Water Media in 2016. And there she started to learn the ins and out of media and how to grab attention.
@@ -121,7 +121,7 @@ Enneagram Type 7 personalities are known for being extroverted and enthusiastic.
 Her social reach extends to friendships with celebrities like <a href="/personality-analysis/Miley-Cyrus">Miley Cyrus</a> and <a href="/personality-analysis/Emily-Ratajkowski">Emily Ratajkowski</a>. In a podcast episode with Emily, Alex discusses her image, her relationship with sex, and her decision to tackle political issues. Though she can be bubbly she can also go deep.
 
 <div class="iframe-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QxWgwOwSDK8?si=-PP2zhmLnFOUB_sC&amp;start=731" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/QxWgwOwSDK8?si=-PP2zhmLnFOUB_sC&amp;start=731" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 This conversation reflects an Enneagram Type 7 going to 5 in comfort. When she is at her best she shows off her intellect.

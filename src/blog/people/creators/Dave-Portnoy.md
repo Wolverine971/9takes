@@ -81,7 +81,7 @@ And Dave is having fun with it. **He wheels and deals like an old-school mobster
 What truly sets Portnoy apart is what happened in 2020. He sold a majority stake in Barstool Sports to Penn National Gaming in January 2020 for a reported $450 million. Barstool was the same with Portnoy at the helm, and in 2023, Portnoy bought it back- for $1. This was a power move that again showed Portnoy's savvy.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/px-C7NziRGE?clip=UgkxYbJ6iontap-Nrtoz4sRnGoElpI8SPVv_&amp;clipt=EJKjAxj4sAQ" title="Portnoy talking about buying back barstool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/px-C7NziRGE?clip=UgkxYbJ6iontap-Nrtoz4sRnGoElpI8SPVv_&amp;clipt=EJKjAxj4sAQ" title="Portnoy talking about buying back barstool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### Marching to His Own Beat: The BFFs Podcast and Celebrity Connections
@@ -221,7 +221,7 @@ This ritual aligns perfectly with the characteristics of Type 8, who often seeks
 Dave has always been a fan of Taylor Swift. He followed Taylor and <a href="/personality-analysis/Kanye">Kanye's</a> drama, where Kanye had a lyric about Taylor, saying, "I made that bitch famous." Taylor said she never knew about or agreed to that Lyric. However, <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a> and Kanye released a recording of Taylor green-lighting that part. Later, it came to light that Taylor's recording was edited and was **fake**. Dave knows what it is like to be unfairly slandered, and he doesn't like it. You can bet he has a bottle dedicated to Kim and Kanye.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/E0zPyyps2lM?clip=Ugkx9EYF4tb3g2RlesJHwViRPl2xnfTsXL24&amp;clipt=ENmtDRis5hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ### The public display as a reminder

@@ -61,7 +61,7 @@ Her song “Run the World (Girls)” perfectly encapsulates this Type 8 persona,
 Beyoncé's relationship with her husband, Jay-Z, brings out a facet of her personality that aligns with the Type 2 "Helper" aspects of Enneagram Type 8. Type 8s move to Type 2 when they're in a space of security and comfort, expressing more empathy, warmth, and openness - qualities that are clearly present in Beyoncé's expressions of love and loyalty towards her husband.
 
 <div class="iframe-container">
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/n2vL1sXrlzM" title="Beyonce happy to see Jay-Z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315" loading="lazy"  src="https://www.youtube.com/embed/n2vL1sXrlzM" title="Beyonce happy to see Jay-Z" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 ## Embracing Privacy – A Lean into Type 5
