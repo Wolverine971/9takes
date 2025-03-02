@@ -4,127 +4,95 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
-	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-- Optimized Font Loading -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<!-- Preload critical font files -->
+	<!-- Use "crossorigin" if your server or setup requires CORS headers. 
+       If everything is on the same domain, you can omit it. -->
+	<link rel="preload" href="/fonts/NoticiaText-Regular.ttf" as="font" type="font/ttf" crossorigin>
+	<link rel="preload" href="/fonts/NoticiaText-Bold.ttf" as="font" type="font/ttf" crossorigin>
+	<!-- Repeat as needed for Italic, BoldItalic if you use those styles:
+       <link rel="preload" href="/fonts/NoticiaText-Italic.ttf" as="font" type="font/ttf" crossorigin>
+       <link rel="preload" href="/fonts/NoticiaText-BoldItalic.ttf" as="font" type="font/ttf" crossorigin>
+  -->
 
-	<!-- Font-face definitions with fallbacks -->
+	<!-- Define @font-face rules for Noticia Text (self-hosted) -->
 	<style>
-		/* Define font-display: swap for faster initial rendering */
+		/* Regular (weight 400) */
 		@font-face {
-			font-family: 'Noticia Text Fallback';
+			font-family: 'Noticia Text';
 			font-style: normal;
 			font-weight: 400;
-			src: local('Georgia'), local('Times New Roman'), local('serif');
-			size-adjust: 105%;
-			ascent-override: 95%;
-			descent-override: 25%;
-			line-gap-override: 0%;
+			font-display: swap;
+			/* Ensures quick text render using fallback, then swaps in when loaded */
+			src: url('/fonts/NoticiaText-Regular.ttf') format('truetype');
+			/* If you have WOFF2/WOFF:
+         src: url('/fonts/NoticiaText-Regular.woff2') format('woff2'),
+              url('/fonts/NoticiaText-Regular.woff') format('woff');
+       */
 		}
 
+		/* Bold (weight 700) */
 		@font-face {
-			font-family: 'Noticia Text Fallback';
+			font-family: 'Noticia Text';
 			font-style: normal;
 			font-weight: 700;
-			src: local('Georgia Bold'), local('Times New Roman Bold'), local('serif');
-			font-weight: bold;
-			size-adjust: 105%;
-			ascent-override: 95%;
-			descent-override: 25%;
-			line-gap-override: 0%;
+			font-display: swap;
+			src: url('/fonts/NoticiaText-Bold.ttf') format('truetype');
 		}
 
-		/* Apply the fallback font to relevant elements */
+		/* (Optional) Italic variants -- define if you use them
+    @font-face {
+      font-family: 'Noticia Text';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url('/fonts/NoticiaText-Italic.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Noticia Text';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url('/fonts/NoticiaText-BoldItalic.ttf') format('truetype');
+    }
+    */
+
+		/* Optional: define a fallback font with size-adjust to minimize layout shift */
+		/* 
+    @font-face {
+      font-family: 'Noticia Fallback';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Georgia'), local('Times New Roman'), local('serif');
+      size-adjust: 105%;
+      ascent-override: 95%;
+      descent-override: 25%;
+      line-gap-override: 0%;
+    }
+    @font-face {
+      font-family: 'Noticia Fallback';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Georgia Bold'), local('Times New Roman Bold'), local('serif');
+      size-adjust: 105%;
+      ascent-override: 95%;
+      descent-override: 25%;
+      line-gap-override: 0%;
+    } 
+    */
+
+		/* Use the fallback or just specify the custom font directly */
 		body {
-			font-family: 'Noticia Text Fallback', serif;
-		}
-
-		/* CSS to prevent layout shift when web font loads */
-		.font-loaded body {
-			font-family: 'Noticia Text', 'Noticia Text Fallback', serif;
+			/* If using fallback: font-family: 'Noticia Fallback', serif; */
+			font-family: 'Noticia Text', serif;
+			margin: 0;
+			padding: 0;
 		}
 	</style>
 
-	<!-- Font Loading JS with font observer pattern -->
-	<script>
-		// Efficiently load fonts
-		(function () {
-			// Load fonts programmatically
-			const fontLoader = async function () {
-				// Use the newer Font Loading API if available
-				if ('fonts' in document) {
-					// Create a style element for the web font
-					const fontStyles = document.createElement('style');
-					fontStyles.textContent = `
-							@font-face {
-								font-family: 'Noticia Text';
-								font-style: normal;
-								font-weight: 400;
-								font-display: swap;
-								src: url(https://fonts.gstatic.com/s/noticiatext/v15/VuJ2dNDF2Yv9qppOePKYRP12aTtYh0o.woff2) format('woff2');
-								unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-							}
-							@font-face {
-								font-family: 'Noticia Text';
-								font-style: normal;
-								font-weight: 700;
-								font-display: swap;
-								src: url(https://fonts.gstatic.com/s/noticiatext/v15/VuJpdNDF2Yv9qppOePKYRP1-3R5NuGvWjjk.woff2) format('woff2');
-								unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-							}
-						`;
-					document.head.appendChild(fontStyles);
-
-					// Create and load fonts
-					const regularFont = new FontFace('Noticia Text', 'url(https://fonts.gstatic.com/s/noticiatext/v15/VuJ2dNDF2Yv9qppOePKYRP12aTtYh0o.woff2)', {
-						weight: '400',
-						style: 'normal',
-						display: 'swap'
-					});
-
-					const boldFont = new FontFace('Noticia Text', 'url(https://fonts.gstatic.com/s/noticiatext/v15/VuJpdNDF2Yv9qppOePKYRP1-3R5NuGvWjjk.woff2)', {
-						weight: '700',
-						style: 'normal',
-						display: 'swap'
-					});
-
-					try {
-						await Promise.all([regularFont.load(), boldFont.load()]);
-						document.fonts.add(regularFont);
-						document.fonts.add(boldFont);
-						document.documentElement.classList.add('font-loaded');
-					} catch (error) {
-						console.error('Font loading failed:', error);
-						// Fallback to system fonts is already in place
-					}
-				} else {
-					// Fallback for browsers that don't support the Font Loading API
-					const link = document.createElement('link');
-					link.rel = 'stylesheet';
-					link.href = 'https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&display=swap';
-					link.onload = function () {
-						document.documentElement.classList.add('font-loaded');
-					};
-					document.head.appendChild(link);
-				}
-			};
-
-			// Execute the font loader
-			if (document.readyState === 'interactive' || document.readyState === 'complete') {
-				fontLoader();
-			} else {
-				window.addEventListener('DOMContentLoaded', fontLoader);
-			}
-		})();
-	</script>
-
-	<!-- Critical CSS, if necessary -->
-	<style>
-		/* Insert any critical CSS here */
-	</style>
-
+	<!-- Insert any additional critical CSS or <link rel="alternate" ... > as needed -->
 	<link rel="alternate" type="application/rss+xml" href="https://9takes.com/rss.xml" />
 	%sveltekit.head%
 </head>
