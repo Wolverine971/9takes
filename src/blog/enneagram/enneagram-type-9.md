@@ -274,7 +274,7 @@ Understanding these fears can help Type 9s recognize the underlying drivers of t
 When under stress, the usually calm and accommodating Type 9 may experience significant changes in behavior and emotional state. Understanding this stress reaction is crucial for both Type 9s and those around them to manage challenging periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
+<img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
 Type 9s typically move towards the negative aspects of Type 6, "The Loyalist," when stressed. This shift can manifest in the following ways:

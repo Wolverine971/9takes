@@ -31,7 +31,7 @@ Let's dive into how each Enneagram type handles stress.
 ## Enneagram 1 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
+<img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
 </p>
 
 Under stress, Type 1s become overly critical of themselves and others. They often exhibit black-and-white thinking and become more rigid in their beliefs about right and wrong. Outsiders might notice an increased tendency to nitpick or frustration over imperfections.
@@ -87,7 +87,7 @@ Under stress, Type 1s become overly critical of themselves and others. They ofte
 ## Enneagram 2 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
+<img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
 </p>
 
 Stressed Type 2s may try to become more involved in others' lives, offering unsolicited help or advice. They might also become more emotionally needy, seeking validation or appreciation for their efforts. To an outsider, they might appear more clingy or overbearing.
@@ -147,7 +147,7 @@ Stressed Type 2s may try to become more involved in others' lives, offering unso
 ## Enneagram 3 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
+<img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
 </p>
 
 In stress, Type 3s often double down on their work, becoming even more focused on success and recognition. They might ignore their emotional and physical needs, leading to burnout. Outsiders might notice them becoming more competitive and image-conscious.
@@ -203,7 +203,7 @@ In stress, Type 3s often double down on their work, becoming even more focused o
 ## Enneagram 4 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
+<img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
 </p>
 
 When stressed, Type 4s can become overly introspective and withdrawn, dwelling on their feelings and perceived shortcomings. They might become moody or overly dramatic. To an outsider, they may seem more sensitive and emotionally volatile.
@@ -259,7 +259,7 @@ When stressed, Type 4s can become overly introspective and withdrawn, dwelling o
 ## Enneagram 5 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
+<img loading="lazy" src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
 </p>
 
 Stressed Type 5s often retreat into their minds, becoming more isolated and detached from their environment. They might obsess over their thoughts or theories, ignoring practical matters. Outsiders may find them more aloof or disengaged.
@@ -315,7 +315,7 @@ Stressed Type 5s often retreat into their minds, becoming more isolated and deta
 ## Enneagram 6 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
+<img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
 </p>
 
 Under stress, Type 6s can become more anxious and suspicious, questioning the loyalty and intentions of those around them. They might prepare for worst-case scenarios, appearing more cautious or indecisive. Outsiders might notice their increased worry and skepticism.
@@ -371,7 +371,7 @@ Under stress, Type 6s can become more anxious and suspicious, questioning the lo
 ## Enneagram 7 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
+<img loading="lazy" src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
 </p>
 
 When stressed, Type 7s may try to escape their feelings by seeking new experiences or distractions. They can become more impulsive, jumping from one activity to another. To an outsider, they seem more scattered and less focused.
@@ -427,7 +427,7 @@ When stressed, Type 7s may try to escape their feelings by seeking new experienc
 ## Enneagram 8 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
+<img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
 </p>
 
 In stress, Type 8s can become more confrontational and domineering, trying to assert control over their environment and relationships. They may exhibit a lower tolerance for vulnerability or perceived weakness. Outsiders might find them more intimidating and aggressive.
@@ -483,7 +483,7 @@ In stress, Type 8s can become more confrontational and domineering, trying to as
 ## Enneagram 9 in Stress
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
+<img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
 Stressed Type 9s might withdraw or disengage to avoid conflict, becoming more passive-aggressive or complacent. They may prioritize peace over addressing underlying issues, appearing indifferent or stubbornly unmoving to outsiders.

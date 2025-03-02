@@ -29,7 +29,7 @@ People of this type often mention a little voice in the back of their heads that
 
 <h2 id="description">Enneagram 1 Description</h2>
 
-<!-- <img src="/blogs/feeling-tension.webp"  class="section-img" /> -->
+<!-- <img loading="lazy" src="/blogs/feeling-tension.webp"  class="section-img" /> -->
 
 Individuals with the Enneagram Type 1 are characterized by their strong sense of right and wrong and their desire to improve themselves and the world around them. They are often deeply committed to making the world a better place and may become involved in causes and organizations that align with their values.
 
@@ -134,7 +134,7 @@ The core fears of Type 1 personalities include:
 Under stress, the typically rational and principled Type 1 may become uncharacteristically emotional, moody, and self-absorbed. Their stress number is <a href="/enneagram-corner/enneagram-type-4">Type 4</a>.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
+<img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
 </p>
 
 When stressed, Type 1s might:

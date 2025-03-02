@@ -288,7 +288,7 @@ Understanding these fears can help Type 6s recognize the underlying drivers of t
 When under stress, Enneagram Type 6 individuals tend to move towards the negative aspects of Type 3, "The Achiever." This shift can dramatically alter their typical behavior and emotional state. Understanding this stress reaction is crucial for Type 6s and those around them to manage difficult periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
+<img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
 </p>
 
 ### Key Stress Behaviors:

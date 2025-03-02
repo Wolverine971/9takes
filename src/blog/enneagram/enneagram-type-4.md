@@ -303,7 +303,7 @@ Understanding these fears can help Type 4s recognize the underlying drivers of t
 When under stress, Enneagram Type 4 individuals tend to move towards the negative aspects of Type 2, "The Helper." This shift can dramatically alter their behavior and emotional state. Understanding this stress reaction is crucial for Type 4s and those around them to manage difficult periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
+<img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
 </p>
 
 ### Key Stress Behaviors

@@ -188,7 +188,7 @@ For Threes, recognizing these fears is the first step toward developing a more b
 When pressure mounts beyond their impressive coping capacity, Type 3s show a fascinating personality shift. They move toward Type 9 behaviors, but not in the healthy, peaceful way that characterizes typical Nines.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
+<img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
 </p>
 
 ### How Stress Transforms the Dynamic Three

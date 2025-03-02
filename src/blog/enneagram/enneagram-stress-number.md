@@ -105,7 +105,7 @@ how to repair
 ### Type 1 (The Reformer) meets Type 4 (The Individualist): Rational meets emotional
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
+<img loading="lazy" src="/blogs/4-1.png" class="arrow-img" alt="one going to four in stress">
 </p>
 
 Type 1s are rational perfectionists, but under stress, they may take on the negative traits of Type 4, becoming moody and self-absorbed. Type 4s are introspective individualists who, at their worst, can wallow in self-pity and despair. When stressed, Type 1s may adopt these unhealthy Type 4 patterns.
@@ -159,7 +159,7 @@ Seek support from loved ones or professionals:
 ### Type 2 (The Helper) and Type 8 (The Challenger): Caring meets confrontation
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
+<img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
 </p>
 
 Type 2s are caring and helpful, but under stress, they may take on the negative traits of Type 8, becoming confrontational and domineering. Type 8s are assertive challengers who, at their worst, can be controlling and aggressive. When stressed, Type 2s may adopt these unhealthy Type 8 patterns.
@@ -208,7 +208,7 @@ When Type 2s find themselves slipping into unhealthy Type 8 patterns, it's cruci
 ### Type 3 (The Achiever) and Type 9 (The Peacemaker): Driven meets complacent
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
+<img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
 </p>
 
 Type 3s are driven achievers, but under stress, they may take on the negative traits of Type 9, becoming complacent and disengaged. Type 9s are peaceful mediators who, at their worst, can be apathetic and neglectful. When stressed, Type 3s may adopt these unhealthy Type 9 patterns.
@@ -257,7 +257,7 @@ When Type 3s find themselves slipping into unhealthy Type 9 patterns, it's essen
 ### Type 4 (The Individualist) and Type 2 (The Helper): Expressive meets needy
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/2-4.png" class="arrow-img" alt="four going to two in stress">
+<img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to two in stress">
 </p>
 
 Type 4s are expressive individualists, but under stress, they may take on the negative traits of Type 2, becoming needy and clingy. Type 2s are helpful nurturers who, at their worst, can be manipulative and self-sacrificing. When stressed, Type 4s may adopt these unhealthy Type 2 patterns.
@@ -310,7 +310,7 @@ When Type 4s find themselves slipping into unhealthy Type 2 patterns, it's cruci
 ### Type 5 (The Investigator) confronts Type 7 (The Enthusiast): Detached meets scattered
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
+<img loading="lazy" src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
 </p>
 
 Type 5s are detached investigators, but under stress, they may take on the negative traits of Type 7, becoming scattered and impulsive. Type 7s are enthusiastic adventurers who, at their worst, can be erratic and escapist. When stressed, Type 5s may adopt these unhealthy Type 7 patterns.
@@ -359,7 +359,7 @@ When Type 5s find themselves slipping into unhealthy Type 7 patterns, it's essen
 ### Type 6 (The Loyalist) and Type 3 (The Achiever): Security-focused meets image-focused
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
+<img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
 </p>
 
 Type 6s are security-focused loyalists, but under stress, they may take on the negative traits of Type 3, becoming image-focused and competitive. Type 3s are achievement-oriented performers who, at their worst, can be deceitful and self-promoting. When stressed, Type 6s may adopt these unhealthy Type 3 patterns.
@@ -408,7 +408,7 @@ When Type 6s find themselves slipping into unhealthy Type 3 patterns, it's cruci
 ### Type 7 (The Enthusiast) and Type 1 (The Reformer): Excitable meets critical
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
+<img loading="lazy" src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
 </p>
 
 Type 7s are excitable enthusiasts, but under stress, they may take on the negative traits of Type 1, becoming critical and perfectionistic. Type 1s are principled reformers who, at their worst, can be judgmental and inflexible. When stressed, Type 7s may adopt these unhealthy Type 1 patterns.
@@ -457,7 +457,7 @@ When Type 7s find themselves slipping into unhealthy Type 1 patterns, it's essen
 ### Type 8 (The Challenger) and Type 5 (The Investigator): Dominant meets withdrawn
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
+<img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
 </p>
 
 Type 8s are dominant challengers, but under stress, they may take on the negative traits of Type 5, becoming withdrawn and detached. Type 5s are analytical investigators who, at their worst, can be isolated and intellectually arrogant. When stressed, Type 8s may adopt these unhealthy Type 5 patterns.
@@ -506,7 +506,7 @@ When Type 8s find themselves slipping into unhealthy Type 5 patterns, it's cruci
 ### Type 9 (The Peacemaker) faces Type 6 (The Loyalist): Accommodating meets anxious
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
+<img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
 Type 9s are accommodating peacemakers, but under stress, they may take on the negative traits of Type 6, becoming anxious and suspicious. Type 6s are loyal skeptics who, at their worst, can be paranoid and reactive. When stressed, Type 9s may adopt these unhealthy Type 6 patterns.

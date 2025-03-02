@@ -327,7 +327,7 @@ Understanding these fears can help Type 8s recognize the underlying drivers of t
 When under stress, the normally assertive and action-oriented Type 8 may experience a significant shift in behavior and mindset. Understanding this stress reaction is crucial for both Type 8s and those around them to manage challenging periods effectively.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
+<img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
 </p>
 
 Type 8s typically move towards the negative aspects of Type 5, "The Investigator," when stressed. This shift can manifest in the following ways:

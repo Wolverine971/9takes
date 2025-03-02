@@ -177,7 +177,7 @@ These fears aren't just emotional discomforts—they're powerful undercurrents s
 When pushed beyond their considerable capacity for stress, the typically warm and accommodating Type 2 undergoes a dramatic transformation that can shock both themselves and others.
 
 <p style="display: flex; justify-content: center;">
-<img src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
+<img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
 </p>
 
 ### The Stress Shift: From Helper to Challenger
