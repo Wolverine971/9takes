@@ -21,6 +21,7 @@
 				? famousTypes[type][0]
 				: famousTypes[type][index + 1];
 	};
+	console.log('carousel loaded');
 </script>
 
 <div
@@ -33,7 +34,7 @@
 		<RubixGrid peopleList={famousTypes[type]} {type} />
 	{:else if type && visibleImage}
 		<PopCard
-			image={`/types/${type}s/${visibleImage}.webp`}
+			image={`/types/${type}s/s-${visibleImage}.webp`}
 			showIcon={false}
 			displayText={visibleImage.split('-').join(' ')}
 			subtext={''}

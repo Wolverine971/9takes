@@ -142,7 +142,7 @@
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->
 				<img
 					class="pop-card-image profileFace tint"
-					src={`/types/${type}s/${person.name}.webp`}
+					src={`/types/${type}s/s-${person.name}.webp`}
 					alt={person.name.split('-').join(' ')}
 					in:fly={{ y: 200, duration: 2000 }}
 				/>
