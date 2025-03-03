@@ -3,7 +3,7 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
 <loc>https://9takes.com</loc>
-<lastmod>2025-01-20</lastmod>
+<lastmod>2025-03-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>1.0</priority>
 </url>
@@ -16,6 +16,12 @@
 <url>
 <loc>https://9takes.com/about</loc>
 <lastmod>2024-04-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://9takes.com/book-session</loc>
+<lastmod>2025-03-03</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>

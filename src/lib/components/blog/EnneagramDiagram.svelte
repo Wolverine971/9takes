@@ -122,15 +122,10 @@
 	}
 </script>
 
-<!-- Wrapper with a nice gradient background -->
-<div class="relative flex w-full flex-col items-center justify-center">
-	<!-- Title at the top -->
-
+<div class="enneagram-component">
 	<!-- Diagram container with a subtle border & background -->
-	<div
-		class="relative aspect-square w-full max-w-2xl overflow-hidden rounded-lg border border-gray-200 bg-white p-4 shadow-lg"
-	>
-		<svg class="h-full w-full" viewBox="0 0 100 100">
+	<div class="diagram-container">
+		<svg class="diagram-svg" viewBox="0 0 100 100">
 			<!-- Outer circle with a slight drop shadow -->
 			<circle
 				cx={center.x}
@@ -151,7 +146,7 @@
 					y2={typePositions[conn.to].y}
 					stroke="#888"
 					stroke-width="0.3"
-					class="transition-opacity duration-200 hover:opacity-75"
+					class="connection-line"
 				/>
 			{/each}
 		</svg>
@@ -159,88 +154,70 @@
 		<!-- Enneagram Nodes -->
 		{#each enneagramTypes as type, index}
 			<a
-				class="absolute flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 transform
-               cursor-pointer items-center justify-center rounded-full transition-transform duration-200
-               hover:scale-110"
+				class="enneagram-node"
 				style="
           left: {typePositions[index].x}%;
           top: {typePositions[index].y}%;
           background-color: {type.color};
           box-shadow: {hoveredType === type.id
-					? '0 0 10px 3px rgba(0,0,0,0.3)' // More dramatic ring if hovered
+					? '0 0 10px 3px rgba(0,0,0,0.3)'
 					: '0 2px 5px rgba(0,0,0,0.2)'};
-          z-index: 10;
         "
 				href={'/enneagram-corner/enneagram-type-' + type.id}
 				on:mouseenter={() => (hoveredType = type.id)}
 				on:mouseleave={() => (hoveredType = null)}
 			>
-				<span class="font-bold text-white">{type.id}</span>
+				<span class="node-text">{type.id}</span>
 			</a>
 		{/each}
 
 		<!-- Centered Tooltip -->
 		{#if hoveredType}
-			<div
-				class="absolute z-20 max-w-xs rounded-lg bg-white p-4
-               shadow-xl transition-opacity duration-200"
-				style="
-          left: 50%;
-          top: 50%;
-          transform: translate(-50%, -52%); /* Slight upward offset so arrow is below */
-          border: 1px solid purple;
-        "
-			>
+			<div class="tooltip">
 				<!-- The small arrow under the tooltip -->
-				<div
-					class="absolute -bottom-2 left-1/2 h-0 w-0 -translate-x-1/2 transform border-b-8 border-l-8 border-r-8 border-transparent"
-					style="border-bottom-color: white;"
-				></div>
+				<div class="tooltip-arrow"></div>
 
 				<!-- Header circle with hovered type number -->
 				<div
-					class="mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-full ring-2 ring-white"
+					class="tooltip-header"
 					style="background-color: {enneagramTypes[hoveredType - 1].color}"
 				>
-					<span class="font-bold text-white">{hoveredType}</span>
+					<span class="tooltip-header-text">{hoveredType}</span>
 				</div>
 
 				<!-- Type name -->
-				<h3 class="mb-1 text-center text-lg font-bold text-gray-800">
+				<h3 class="tooltip-title">
 					{enneagramTypes[hoveredType - 1].name}
 				</h3>
 
 				<!-- Short excerpt from the description -->
-				<p class="mb-3 text-center text-sm text-gray-600">
+				<p class="tooltip-description">
 					{enneagramTypes[hoveredType - 1].description.split('.')[0]}.
 				</p>
 
 				<!-- Growth & Stress quick info -->
-				<div class="flex justify-between text-xs">
-					<div class="w-1/2 border-r border-gray-200 pr-2">
-						<p class="mb-1 font-bold text-gray-700">In Growth:</p>
-						<p>→ Type {getGrowthType(hoveredType)}</p>
+				<div class="tooltip-info">
+					<div class="tooltip-info-column">
+						<p class="tooltip-info-header">In Growth:</p>
+						<p class="tooltip-info-text">→ Type {getGrowthType(hoveredType)}</p>
 					</div>
-					<div class="w-1/2 pl-2">
-						<p class="mb-1 font-bold text-gray-700">In Stress:</p>
-						<p>→ Type {getStressType(hoveredType)}</p>
+					<div class="tooltip-info-column">
+						<p class="tooltip-info-header">In Stress:</p>
+						<p class="tooltip-info-text">→ Type {getStressType(hoveredType)}</p>
 					</div>
 				</div>
 			</div>
 		{/if}
 
-		<!-- Optional type labels near nodes (slightly smaller & subdued) -->
+		<!-- Type labels near nodes -->
 		{#each enneagramTypes as type, index}
 			<div
-				class="absolute text-xs font-medium text-gray-700"
+				class="type-label"
 				style="
           left: {typePositions[index].x}%;
           top: {typePositions[index].y < 50
 					? typePositions[index].y - 5
 					: typePositions[index].y + 5}%;
-          transform: translate(-50%, -50%);
-          width: 80px;
-          text-align: center;
         "
 			>
 				{type.name}
@@ -248,3 +225,177 @@
 		{/each}
 	</div>
 </div>
+
+<style>
+	/* This is the key part that isolates your component's styles */
+	:global(.enneagram-component) {
+		/* Reset all inherited styles */
+		all: revert;
+
+		/* Set base element styles */
+		color: #333;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+			'Open Sans', 'Helvetica Neue', sans-serif;
+		box-sizing: border-box;
+	}
+
+	/* Then, define component-specific styles */
+	.enneagram-component {
+		position: relative;
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.diagram-container {
+		position: relative;
+		aspect-ratio: 1;
+		width: 100%;
+		max-width: 32rem;
+		overflow: hidden;
+		border-radius: 0.5rem;
+		border: 1px solid #e5e7eb;
+		background-color: white;
+		padding: 1rem;
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+	}
+
+	.diagram-svg {
+		height: 100%;
+		width: 100%;
+	}
+
+	.connection-line {
+		transition: opacity 200ms;
+	}
+
+	.connection-line:hover {
+		opacity: 0.75;
+	}
+
+	.enneagram-node {
+		position: absolute;
+		display: flex;
+		height: 2rem;
+		width: 2rem;
+		transform: translate(-50%, -50%);
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		transition: transform 200ms;
+		z-index: 10;
+	}
+
+	.enneagram-node:hover {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
+
+	.node-text {
+		font-weight: bold;
+		color: white;
+	}
+
+	.tooltip {
+		position: absolute;
+		z-index: 20;
+		max-width: 16rem;
+		border-radius: 0.5rem;
+		background-color: white;
+		padding: 1rem;
+		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		transition: opacity 200ms;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -52%);
+		border: 1px solid purple;
+	}
+
+	.tooltip-arrow {
+		position: absolute;
+		bottom: -0.5rem;
+		left: 50%;
+		height: 0;
+		width: 0;
+		transform: translateX(-50%);
+		border-bottom: 0.5rem solid white;
+		border-left: 0.5rem solid transparent;
+		border-right: 0.5rem solid transparent;
+	}
+
+	.tooltip-header {
+		margin: 0 auto 0.5rem;
+		display: flex;
+		height: 2.5rem;
+		width: 2.5rem;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		ring: 2px solid white;
+	}
+
+	.tooltip-header-text {
+		font-weight: bold;
+		color: white;
+	}
+
+	.tooltip-title {
+		margin-bottom: 0.25rem;
+		text-align: center;
+		font-size: 1.125rem;
+		font-weight: bold;
+		color: #1f2937;
+	}
+
+	.tooltip-description {
+		margin-bottom: 0.75rem;
+		text-align: center;
+		font-size: 0.875rem;
+		color: #4b5563;
+	}
+
+	.tooltip-info {
+		display: flex;
+		justify-content: space-between;
+		font-size: 0.75rem;
+	}
+
+	.tooltip-info-column {
+		width: 50%;
+	}
+
+	.tooltip-info-column:first-child {
+		border-right: 1px solid #e5e7eb;
+		padding-right: 0.5rem;
+	}
+
+	.tooltip-info-column:last-child {
+		padding-left: 0.5rem;
+	}
+
+	.tooltip-info-header {
+		margin-bottom: 0.25rem;
+		font-weight: bold;
+		color: #4b5563;
+	}
+
+	.type-label {
+		position: absolute;
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: var(--primary);
+		transform: translate(-50%, -50%);
+		width: 5rem;
+		text-align: center;
+		font-family: var(--font-family);
+		font-weight: bold;
+		z-index: 1234;
+		text-shadow: 1px 1px 2px pink;
+	}
+
+	a::after {
+		content: none;
+	}
+</style>

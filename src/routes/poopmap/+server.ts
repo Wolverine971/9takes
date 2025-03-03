@@ -123,6 +123,12 @@ export async function GET() {
 	    <priority>0.7</priority>
 	</url>
 	<url>
+	    <loc>https://9takes.com/book-session</loc>
+	    <lastmod>2025-03-03</lastmod>
+	    <changefreq>monthly</changefreq>
+	    <priority>0.7</priority>
+	</url>
+	<url>
 	    <loc>https://9takes.com/enneagram-corner</loc>
 	    <lastmod>2024-07-14</lastmod>
 	    <changefreq>weekly</changefreq>

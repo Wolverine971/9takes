@@ -1,102 +1,283 @@
 <script>
 	import { page } from '$app/stores';
-	export let newToEnneagramUrl =
-		'/enneagram-corner/beginners-guide-to-determining-your-enneagram-type';
-	export let joinCommunityUrl = '/register';
-	$: slug = $page.params.slug;
+	import EnneagramDiagram from './EnneagramDiagram.svelte';
+
+	// Get current type number from URL if available
+	$: currentType = $page.params.slug ? parseInt($page.params.slug.split('-').pop()) || null : null;
+
+	// Enneagram type data for the type selector
+	const enneagramTypes = [
+		{ number: 1, name: 'The Reformer', url: '/enneagram-corner/enneagram-type-1' },
+		{ number: 2, name: 'The Helper', url: '/enneagram-corner/enneagram-type-2' },
+		{ number: 3, name: 'The Achiever', url: '/enneagram-corner/enneagram-type-3' },
+		{ number: 4, name: 'The Individualist', url: '/enneagram-corner/enneagram-type-4' },
+		{ number: 5, name: 'The Investigator', url: '/enneagram-corner/enneagram-type-5' },
+		{ number: 6, name: 'The Loyalist', url: '/enneagram-corner/enneagram-type-6' },
+		{ number: 7, name: 'The Enthusiast', url: '/enneagram-corner/enneagram-type-7' },
+		{ number: 8, name: 'The Challenger', url: '/enneagram-corner/enneagram-type-8' },
+		{ number: 9, name: 'The Peacemaker', url: '/enneagram-corner/enneagram-type-9' }
+	];
 </script>
 
-<div class="blog-callout">
-	<h3 style="margin: .5rem 0; padding: .7rem 0; margin-top: 0; padding-top: 0;">
-		This blog is written for
-		<span style="color: var(--accent-dark)">you</span> to learn about yourself, not just about
-		<span style="color: var(--accent-dark)">{slug.split('-').join(' ')}.</span>
-	</h3>
-
-	<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="width: 1rem;display: inline;">
-            <path d="M48.5 224L40 224c-13.3 0-24-10.7-24-24L16 72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8L48.5 224z"/></svg> -->
-
-	<div class="text-sections">
-		<div class="enneagram-familiar">
-			<h4 style="margin: 0; padding: .5rem 0;">If you are already deep into the Enneagram:</h4>
-			<p style="margin-top: .5rem; padding-left: .25rem">
-				Join our growing community of individuals who are exploring their inner worlds and learning
-				from each other. Share your insights and discover new perspectives here on 9takes.
-			</p>
-		</div>
-		<div class="enneagram-new">
-			<h4 style="margin: 0px; padding: .5rem 0;">
-				Hearing about the Enneagram for the first time?
-			</h4>
-			<p style="margin-top: .5rem; padding-left: .25rem">
-				Learn more. The Enneagram is a powerful tool for self-discovery and understanding others. It
-				offers unique insights into your personality and gets at your core fears and motivations.
-				With it you can better understand yourself and those around you.
-			</p>
+<div class="cta-container">
+	<!-- Top section: Psychology CTA -->
+	<div class="psychology-cta">
+		<div class="content-wrapper">
+			<div class="icon-wrapper">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<path
+						d="M12 2a8 8 0 0 0-8 8c0 2.2.9 4.2 2.3 5.6L12 21l5.7-5.4A7.9 7.9 0 0 0 20 10a8 8 0 0 0-8-8z"
+					></path>
+					<circle cx="12" cy="10" r="2"></circle>
+				</svg>
+			</div>
+			<div class="text-wrapper">
+				<h3>Ready to explore your own psychology?</h3>
+				<p>
+					Discover your Enneagram type and get personal insights and guidance guidance from an
+					expert.
+				</p>
+			</div>
+			<a href="/book-session" class="primary-button">
+				Book a Session with an Enneagram Coach
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon-right"
+					><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"
+					></polyline></svg
+				>
+			</a>
 		</div>
 	</div>
 
-	<div class="button-container">
-		<a href={newToEnneagramUrl} class="button explore"> &#8592; Learn More About the Enneagram </a>
-		<a href={joinCommunityUrl} class="button join"> I'm Ready to Join the Community &#8594; </a>
+	<!-- Bottom section: Type explorer -->
+	<div class="types-explorer">
+		<h3>Explore Other Enneagram Types</h3>
+		<p>
+			Curious about how different types think and behave? Discover the unique perspectives of all
+			nine Enneagram types:
+		</p>
+
+		<div class="types-grid">
+			<EnneagramDiagram />
+			<!-- {#each enneagramTypes as type}
+				<a href={type.url} class="type-card" class:active={currentType === type.number}>
+					<div class="type-number">{type.number}</div>
+					<div class="type-name">{type.name}</div>
+				</a>
+			{/each} -->
+		</div>
 	</div>
 </div>
 
 <style lang="scss">
-	.blog-callout {
-		background-color: #f8f8f8;
-		border: 1px solid var(--accent);
-		border-radius: 8px;
-		padding: 20px;
-		margin: 20px 0;
+	.cta-container {
+		margin: 3rem 0;
+		border-radius: var(--border-radius-lg);
+		overflow: hidden;
+		box-shadow: var(--shadow-lg);
+		background-color: var(--off-white);
 	}
 
-	.text-sections {
-		margin-bottom: 20px;
-	}
-
-	h2 {
-		font-size: 1.2em;
-		margin-bottom: 10px;
-	}
-
-	p {
-		margin-bottom: 15px;
-	}
-
-	.button-container {
-		display: flex;
-		justify-content: space-between;
-		gap: 10px;
-
-		a::after {
-			content: none;
-		}
-	}
-
-	.button {
-		display: inline-block;
-		padding: 10px 15px;
-		border-radius: 5px;
-		text-decoration: none;
-		font-weight: bold;
-		text-align: center;
-		flex: 1;
-	}
-
-	.explore {
-		border: 1px solid var(--accent-dark);
+	.psychology-cta {
+		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+		padding: 1rem;
 		color: white;
-	}
 
-	.join {
-		background-color: var(--accent-dark);
-		color: white !important;
-	}
+		// a::after {
+		// 	content: none;
+		// }
 
-	@media (max-width: 600px) {
-		.button-container {
+		.content-wrapper {
+			display: flex;
 			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			max-width: 800px;
+			margin: 0 auto;
+
+			@media (min-width: 768px) {
+				flex-direction: row;
+				text-align: left;
+				gap: 1.5rem;
+			}
 		}
+
+		.icon-wrapper {
+			flex-shrink: 0;
+			background-color: rgba(255, 255, 255, 0.15);
+			border-radius: 50%;
+			width: 80px;
+			height: 80px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 1rem;
+
+			@media (min-width: 768px) {
+				margin-bottom: 0;
+			}
+
+			svg {
+				width: 40px;
+				height: 40px;
+				color: white;
+			}
+		}
+
+		.text-wrapper {
+			flex: 1;
+			margin-bottom: 1.5rem;
+
+			@media (min-width: 768px) {
+				margin-bottom: 0;
+			}
+
+			h3 {
+				font-size: 1.5rem;
+				margin: 0 0 0.75rem 0;
+				color: white;
+			}
+
+			p {
+				margin: 0;
+				opacity: 0.9;
+				font-size: 1.1rem;
+				line-height: 1.5;
+			}
+		}
+
+		.primary-button {
+			display: inline-flex;
+			align-items: center;
+			background-color: white;
+			color: var(--primary-dark);
+			padding: 0.75rem 1.5rem;
+			border-radius: var(--border-radius);
+			font-weight: 600;
+			text-decoration: none;
+			transition:
+				transform 0.2s,
+				box-shadow 0.2s;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+			&:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+			}
+
+			svg.icon-right {
+				width: 18px;
+				height: 18px;
+				margin-left: 0.5rem;
+			}
+
+			@media (min-width: 768px) {
+				align-self: center;
+			}
+		}
+	}
+
+	.types-explorer {
+		padding: 2rem;
+		background-color: white;
+
+		h3 {
+			font-size: 1.5rem;
+			margin: 0 0 0.75rem 0;
+			color: var(--darkest-gray);
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+			color: var(--text-secondary);
+			max-width: 800px;
+			margin: 0 auto 1.5rem auto;
+		}
+
+		.types-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			gap: 1rem;
+			margin-top: 1.5rem;
+
+			// a::after {
+			// 	content: none;
+			// }
+		}
+
+		.type-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 1.25rem 1rem;
+			border-radius: var(--border-radius);
+			background-color: var(--lightest-gray);
+			text-decoration: none;
+			transition: all 0.2s ease;
+			border: 2px solid transparent;
+
+			&:hover {
+				transform: translateY(-3px);
+				background-color: var(--accent-light);
+				border-color: var(--accent);
+			}
+
+			&.active {
+				background-color: var(--accent-light);
+				border-color: var(--primary);
+			}
+
+			.type-number {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				background-color: var(--primary);
+				color: white;
+				font-weight: bold;
+				font-size: 1.25rem;
+				margin-bottom: 0.75rem;
+			}
+
+			.type-name {
+				color: var(--darkest-gray);
+				font-weight: 500;
+				text-align: center;
+			}
+		}
+	}
+
+	/* Animation for pattern break */
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.cta-container {
+		animation: fadeIn 0.5s ease-out;
 	}
 </style>
