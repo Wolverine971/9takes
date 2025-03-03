@@ -45,7 +45,7 @@
 <style lang="scss">
 	.blog-callout {
 		background-color: #f8f8f8;
-		border: 1px solid var(--accent-darker);
+		border: 1px solid var(--accent);
 		border-radius: 8px;
 		padding: 20px;
 		margin: 20px 0;

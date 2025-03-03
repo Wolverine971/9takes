@@ -138,7 +138,7 @@ select {
 
 /* Links */
 a {
-	color: var(--accent-darker);
+	color: var(--accent);
 	text-decoration: none;
 	transition: color 0.3s ease;
 }
@@ -357,7 +357,7 @@ section {
 	max-width: 100%;
 	overflow: hidden;
 	vertical-align: middle;
-	color: var(--accent-darker);
+	color: var(--accent);
 }
 
 .blog a::after {
@@ -366,7 +366,7 @@ section {
 	background: url('/icons/arrow.svg') no-repeat center/contain;
 	width: 1em;
 	height: 1em;
-	color: var(--accent-darker);
+	color: var(--accent);
 	vertical-align: middle;
 	content: '';
 }
@@ -676,7 +676,7 @@ th {
 	max-width: 100%;
 	overflow: hidden;
 	vertical-align: middle;
-	color: var(--accent-darker) !important;
+	color: var(--accent) !important;
 }
 
 .blog a:hover {
