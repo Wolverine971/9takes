@@ -5,6 +5,7 @@
 	import type { PageData } from './$types';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
+	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
 
 	export let data: PageData;
 	let innerWidth = 0;
@@ -227,16 +228,19 @@
 						<h1 class="mb-4 text-4xl font-bold md:mb-6 md:text-5xl lg:text-6xl">
 							9takes, <br /> Open Source Conflict Resolution
 						</h1>
+						<p class=" !text-lg md:mb-6 md:text-lg lg:text-xl" style="    margin: 1rem 0 0.5rem;">
+							Make sense of your personal problems by getting <br />9 perspectives on the situation
+							(via the Enneagram).
+						</p>
 						<h2 class="mb-4 text-lg font-medium text-gray-600 md:mb-6 md:text-xl lg:text-2xl">
-							Ask and answer questions <span class="highlight">anonymously</span>.<br />
-							Get 9 perspectives on conflict via the Enneagram.
+							Ask and answer questions <span class="highlight">anonymously</span> in our open forum.
 						</h2>
 						<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-							{#if innerWidth >= 768}
+							<!-- {#if innerWidth >= 768}
 								<button class="btn-secondary order-2 text-nowrap rounded-lg px-6 py-3 sm:order-1">
 									Learn More ↓
 								</button>
-							{/if}
+							{/if} -->
 							<button class="btn-primary order-1 w-full rounded-lg px-6 py-3 sm:order-2 sm:w-auto">
 								Ask a Question {innerWidth <= 768 ? '↓' : '→'}
 							</button>
@@ -297,11 +301,18 @@
 			<section class="dark-section" in:fly={getTransition(2)}>
 				<h2 class="mb-6 text-center text-3xl font-bold md:mb-8 md:text-4xl">Why the Enneagram?</h2>
 				<div class="mx-auto max-w-3xl text-center" style="padding-bottom: 1.5rem;">
-					<p class="mb-6 text-lg md:text-xl">
+					<p class="mb-4 text-lg md:text-xl">
 						The Enneagram has a nine personality type model and is based on emotions. <br />This
 						makes understanding yourself and others approachable.
 					</p>
-					<div class="grid grid-cols-3 gap-2 md:gap-4">
+
+					<div class=" text-center">
+						<p class="mb-4 text-lg font-extrabold tracking-wider md:text-xl">
+							The Enneagram symbol describes how each type is connected and is deceptively deep.
+						</p>
+					</div>
+					<EnneagramDiagram />
+					<!-- <div class="grid grid-cols-3 gap-2 md:gap-4">
 						{#each Array(9) as _, i}
 							<a class="enneagram-link" href={`/enneagram-corner/enneagram-type-${i + 1}`}>
 								<div class="type-box">
@@ -309,7 +320,24 @@
 								</div>
 							</a>
 						{/each}
-					</div>
+					</div> -->
+				</div>
+			</section>
+		{/if}
+	</div>
+
+	<!-- Benefits Section - Updated with benefit-card styling -->
+	<div class="section-wrapper">
+		{#if sectionsVisible[3] || !browser}
+			<section class="benefits-section py-8 md:py-16" in:fly={getTransition(3)}>
+				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why It Works</h2>
+				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
+					{#each benefits as { title, description }}
+						<div class="benefit-card">
+							<h3 class="mb-3 text-lg font-semibold md:mb-4 md:text-xl">{title}</h3>
+							<p class="text-gray-600">{description}</p>
+						</div>
+					{/each}
 				</div>
 			</section>
 		{/if}
@@ -320,10 +348,10 @@
 		<section class="personality-cta mx-auto max-w-6xl">
 			<div class="mx-auto mb-6 max-w-3xl text-center md:mb-8">
 				<h2 class="mb-2 text-xl font-bold md:mb-3 md:text-2xl lg:text-3xl">
-					Learn Your Type Through Famous People
+					Learn Your Type By Exploring the Types of Others
 				</h2>
 				<p class="text-base text-gray-600 md:text-lg">
-					Explore personalities you relate to—the natural way to discover your type.
+					Our database of celebrity personalities is ever growing. And we welcome your feedback.
 				</p>
 			</div>
 
@@ -378,23 +406,6 @@
 				</a>
 			</div>
 		</section>
-	</div>
-
-	<!-- Benefits Section - Updated with benefit-card styling -->
-	<div class="section-wrapper">
-		{#if sectionsVisible[3] || !browser}
-			<section class="benefits-section py-8 md:py-16" in:fly={getTransition(3)}>
-				<h2 class="mb-8 text-center text-3xl font-bold md:mb-12 md:text-4xl">Why It Works</h2>
-				<div class="grid gap-6 md:grid-cols-2 md:gap-8">
-					{#each benefits as { title, description }}
-						<div class="benefit-card">
-							<h3 class="mb-3 text-lg font-semibold md:mb-4 md:text-xl">{title}</h3>
-							<p class="text-gray-600">{description}</p>
-						</div>
-					{/each}
-				</div>
-			</section>
-		{/if}
 	</div>
 
 	<!-- CTA Section - Updated with cta-section styling -->
