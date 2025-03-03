@@ -11,7 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Demi-Lovato'
-suggestions: ['Miley Cyrus']
+suggestions: ['Miley Cyrus', 'Ariana Grande', 'Taylor Swift']
 wikipedia: ''
 twitter: ''
 instagram: ''
