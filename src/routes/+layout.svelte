@@ -184,24 +184,28 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="layout-container" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
-	<Header {data} {isMobile} />
-	<Toast />
+{#if $page.route.id.includes('/stories/')}
+	<slot />
+{:else}
+	<div class="layout-container" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
+		<Header {data} {isMobile} />
+		<Toast />
 
-	{#if showBackButton}
-		<BackNavigation />
-	{/if}
+		{#if showBackButton}
+			<BackNavigation />
+		{/if}
 
-	{#if isCategoryPage}
-		<CategoryNavigation categoryStructure={parents} />
-	{/if}
+		{#if isCategoryPage}
+			<CategoryNavigation categoryStructure={parents} />
+		{/if}
 
-	<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
-		<slot />
-	</main>
+		<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
+			<slot />
+		</main>
 
-	<Footer {isMobile} />
-</div>
+		<Footer {isMobile} />
+	</div>
+{/if}
 
 <style lang="scss">
 	:global(body) {
@@ -212,11 +216,11 @@
 		touch-action: manipulation; /* Improves touch responsiveness */
 	}
 
-	:global(button, a) {
-		/* Make sure touch targets are large enough */
-		min-height: 44px;
-		min-width: 44px;
-	}
+	// :global(button, a) {
+	// 	/* Make sure touch targets are large enough */
+	// 	min-height: 44px;
+	// 	min-width: 44px;
+	// }
 
 	.layout-container {
 		display: flex;

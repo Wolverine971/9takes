@@ -118,7 +118,7 @@
 <svelte:window bind:innerWidth />
 
 <div
-	class="image-card"
+	class="image-card {enneagramType ? 'enneagramTypeOverlay' : ''}"
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
 	aria-roledescription="card"
@@ -193,6 +193,15 @@
 	$animation-speed: var(--animation-speed, 15s);
 	$border-radius: var(--border-radius, 1rem);
 
+	.enneagramTypeOverlay:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+
+		.image-card__content {
+			backdrop-filter: blur(5px);
+		}
+	}
+
 	// Base card component
 	.image-card {
 		display: flex;
@@ -208,14 +217,14 @@
 			transform 0.3s ease,
 			box-shadow 0.3s ease;
 
-		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+		// &:hover {
+		// 	transform: translateY(-5px);
+		// 	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 
-			.image-card__content {
-				backdrop-filter: blur(5px);
-			}
-		}
+		// 	.image-card__content {
+		// 		backdrop-filter: blur(5px);
+		// 	}
+		// }
 
 		// Scanline overlay effect
 		&__overlay {

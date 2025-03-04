@@ -53,14 +53,20 @@ I hope these suggestions are helpful!
 
 -->
 
--->
-
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
+  // import EnneagramMentalIllnessPromo from "$lib/amp-stories/EnneagramMentalIllnessPromo.svelte";
 </script>
 
 <p class="firstLetter">Mental illness is something everyone is scared of.</p>
+
+<!-- <EnneagramMentalIllnessPromo
+  title="The Enneagram and Mental Illness: Interactive Guide"
+  subtitle="Explore each type's predispositions in this visual web story"
+  ampUrl="/stories/enneagram-and-mental-illness"
+  imageUrl="/blogs/greek-statue-2-sided-mask.webp"
+/> -->
 
 We want to think that we are not capable of becoming mentally ill. But the end result of a downward spiral started somewhere.
 
