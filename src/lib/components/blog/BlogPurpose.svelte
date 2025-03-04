@@ -280,4 +280,7 @@
 	.cta-container {
 		animation: fadeIn 0.5s ease-out;
 	}
+	a::after {
+		content: none !important;
+	}
 </style>

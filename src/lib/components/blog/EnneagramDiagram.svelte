@@ -396,6 +396,6 @@
 	}
 
 	a::after {
-		content: none;
+		content: none !important;
 	}
 </style>
