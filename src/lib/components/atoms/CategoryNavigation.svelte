@@ -1,6 +1,9 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
+
+	export let isMobile = false;
 
 	interface CategoryStep {
 		id: number;
@@ -9,6 +12,8 @@
 	}
 
 	export let categoryStructure: CategoryStep[] = [];
+	let containerWidth = 0;
+	let overflowing = false;
 
 	$: categories = categoryStructure;
 
@@ -31,9 +36,29 @@
 		return name.replace(/-/g, ' ');
 	}
 
+	function checkOverflow() {
+		if (browser) {
+			const container = document.querySelector('.category-container');
+			const categoryNav = document.querySelector('.category-nav');
+
+			if (container && categoryNav) {
+				overflowing = categoryNav.scrollWidth > container.clientWidth;
+			}
+		}
+	}
+
+	// When the categories change, check for overflow
+	$: {
+		categories;
+		if (browser) {
+			setTimeout(checkOverflow, 10);
+		}
+	}
+
 	afterNavigate(() => {
-		// If you need to fetch the category structure here, you can do so
-		// For now, we assume it's passed as a prop
+		if (browser) {
+			setTimeout(checkOverflow, 100);
+		}
 	});
 </script>
 
@@ -44,58 +69,194 @@
 </svelte:head>
 
 {#if categories.length}
-	<div class="breadcrumb-container">
-		<div class="back-nav">
-			{#each categories as step, index}
-				<a href={getCategoryUrl(step.category_name)} class="marquee-text">
-					{formatCategoryName(step.category_name)}
-				</a>
-				{#if index < categories.length - 1}
-					<span class="marquee-text separator">></span>
+	<div class="category-wrapper" bind:clientWidth={containerWidth}>
+		<div class="category-container">
+			<div class="category-nav" class:scrollable={overflowing}>
+				{#if isMobile && categories.length > 2}
+					<!-- On mobile with many categories, show a compact version -->
+					<a href="/questions/categories" class="category-item">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="18"
+							height="18"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+							<polyline points="9 22 9 12 15 12 15 22"></polyline>
+						</svg>
+					</a>
+					<span class="separator">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<polyline points="9 18 15 12 9 6"></polyline>
+						</svg>
+					</span>
+					{#if categories.length > 1}
+						<!-- Skip intermediate categories on small screens -->
+						<span class="category-ellipsis">...</span>
+						<span class="separator">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="16"
+								height="16"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							>
+								<polyline points="9 18 15 12 9 6"></polyline>
+							</svg>
+						</span>
+					{/if}
+					<!-- Always show current category -->
+					<a
+						href={getCategoryUrl(categories[categories.length - 1].category_name)}
+						class="category-item current"
+					>
+						{formatCategoryName(categories[categories.length - 1].category_name)}
+					</a>
+				{:else}
+					<!-- Full breadcrumb path for desktop or when there are few categories -->
+					{#each categories as step, index}
+						<a
+							href={getCategoryUrl(step.category_name)}
+							class="category-item {index === categories.length - 1 ? 'current' : ''}"
+						>
+							{formatCategoryName(step.category_name)}
+						</a>
+						{#if index < categories.length - 1}
+							<span class="separator">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<polyline points="9 18 15 12 9 6"></polyline>
+								</svg>
+							</span>
+						{/if}
+					{/each}
 				{/if}
-			{/each}
+			</div>
 		</div>
 	</div>
 {/if}
 
 <style lang="scss">
-	.breadcrumb-container {
+	.category-wrapper {
 		max-width: 64rem;
-		margin: auto;
+		margin: 0 auto;
+		width: 100%;
 	}
 
-	.back-nav {
-		width: 100%;
-		border-bottom: 1px solid rgba(44, 45, 42, 0.25);
+	.category-container {
+		padding: 0 0.5rem;
+		overflow: hidden;
+	}
+
+	.category-nav {
 		display: flex;
 		align-items: center;
-		overflow: hidden;
-		flex-wrap: wrap;
+		height: 2.5rem;
+		border-bottom: 1px solid rgba(44, 45, 42, 0.2);
+		width: 100%;
+
+		&.scrollable {
+			overflow-x: auto;
+			-webkit-overflow-scrolling: touch;
+
+			/* Hide scrollbar for Chrome, Safari and Opera */
+			&::-webkit-scrollbar {
+				display: none;
+			}
+
+			/* Hide scrollbar for IE, Edge and Firefox */
+			-ms-overflow-style: none; /* IE and Edge */
+			scrollbar-width: none; /* Firefox */
+		}
 	}
 
-	.marquee-text {
+	.category-item {
+		display: flex;
+		align-items: center;
 		color: var(--dark-gray);
-		text-transform: uppercase;
-		font-size: 1.2rem;
-		margin: 0 0.5rem;
+		text-decoration: none;
+		padding: 0.25rem 0.5rem;
+		border-radius: 4px;
+		white-space: nowrap;
+		text-transform: capitalize;
+		font-size: 0.9rem;
+		transition: all 0.2s ease;
 
-		&.separator {
-			margin: 0 0.2rem;
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		&.current {
+			font-weight: 500;
 		}
 	}
 
-	@media (max-width: 500px) {
-		.back-nav {
-			border-top: 1px solid var(--dark-gray);
-			border-bottom: 1px solid var(--dark-gray);
-			padding: 0.5rem;
-			margin: 1rem;
-			height: 3rem;
-			width: 90%;
+	.category-ellipsis {
+		color: var(--dark-gray);
+		opacity: 0.8;
+		padding: 0 0.25rem;
+	}
+
+	.separator {
+		display: flex;
+		align-items: center;
+		color: var(--dark-gray);
+		opacity: 0.6;
+		margin: 0 0.125rem;
+	}
+
+	@media (max-width: 768px) {
+		.category-container {
+			padding: 0 0.25rem;
 		}
 
-		.marquee-text {
-			margin: 0 0.4rem;
+		.category-nav {
+			height: 2.25rem;
+		}
+
+		.category-item {
+			font-size: 0.85rem;
+			padding: 0.25rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.category-item {
+			font-size: 0.8rem;
+			padding: 0.25rem;
+		}
+
+		.separator svg {
+			width: 14px;
+			height: 14px;
 		}
 	}
 </style>

@@ -24,6 +24,11 @@
 	const MAX_WIDTH_PAGES = ['/', '/content-board'];
 
 	let innerWidth = 0;
+	let isMobile = false;
+
+	// Track swipe gestures for mobile
+	let touchStartX = 0;
+	let touchEndX = 0;
 
 	// Types
 	declare global {
@@ -85,9 +90,35 @@
 		}
 	};
 
+	// Handle swipe gestures for navigation
+	const handleTouchStart = (e) => {
+		touchStartX = e.changedTouches[0].screenX;
+	};
+
+	const handleTouchEnd = (e) => {
+		touchEndX = e.changedTouches[0].screenX;
+		handleSwipe();
+	};
+
+	const handleSwipe = () => {
+		// Only process swipe on mobile
+		if (!isMobile) return;
+
+		const swipeThreshold = 100; // Minimum swipe distance
+		const swipeDistance = touchEndX - touchStartX;
+
+		if (swipeDistance > swipeThreshold) {
+			// Swipe right - go back
+			window.history.back();
+		}
+	};
+
 	onMount(() => {
 		initAnalytics();
 		initFingerprint();
+
+		// Update mobile status based on window width
+		updateMobileStatus();
 
 		console.log(`
  ___  _        _              
@@ -98,6 +129,11 @@
 `);
 	});
 
+	// Update mobile status when window resizes
+	const updateMobileStatus = () => {
+		isMobile = innerWidth <= 768;
+	};
+
 	// Track page changes
 	$: if (browser && !dev && window.gtag) {
 		window.gtag('config', PUBLIC_GOOGLE, {
@@ -106,16 +142,29 @@
 		});
 	}
 
+	// Update mobile status when window width changes
+	$: {
+		innerWidth;
+		if (browser) updateMobileStatus();
+	}
+
 	$: parents = data?.parents ? [...data.parents].slice(0, -1) : [];
 	$: isHomePage = $page.url.pathname === '/';
 	$: isSignupPage = $page.url.pathname === '/signup';
 	$: isCategoryPage = $page.url.pathname.includes('/categories');
 	$: shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes($page.url.pathname);
+	$: showBackButton = !isHomePage && !isCategoryPage;
 </script>
 
 <svelte:head>
 	<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
+	/>
+	<meta name="theme-color" content="#ffffff" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="mobile-web-app-capable" content="yes" />
 
 	{#if !dev}
 		<script async src="https://www.googletagmanager.com/gtag/js?id={PUBLIC_GOOGLE}"></script>
@@ -135,28 +184,45 @@
 
 <svelte:window bind:innerWidth />
 
-<Header {data} />
-<Toast />
+<div class="layout-container" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
+	<Header {data} {isMobile} />
+	<Toast />
 
-{#if !isHomePage && !isCategoryPage}
-	<BackNavigation />
-{/if}
+	{#if showBackButton}
+		<BackNavigation />
+	{/if}
 
-{#if isCategoryPage}
-	<CategoryNavigation categoryStructure={parents} />
-{/if}
+	{#if isCategoryPage}
+		<CategoryNavigation categoryStructure={parents} />
+	{/if}
 
-<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
-	<slot />
-</main>
+	<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
+		<slot />
+	</main>
 
-<Footer />
+	<Footer {isMobile} />
+</div>
 
 <style lang="scss">
 	:global(body) {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Remove tap highlight on mobile */
+		touch-action: manipulation; /* Improves touch responsiveness */
+	}
+
+	:global(button, a) {
+		/* Make sure touch targets are large enough */
+		min-height: 44px;
+		min-width: 44px;
+	}
+
+	.layout-container {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		width: 100%;
 	}
 
 	.main {
@@ -165,6 +231,16 @@
 		flex-direction: column;
 		padding: clamp(0.5rem, 2vw, 1rem);
 		overflow: visible;
+		-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+	}
+
+	.back-nav-container {
+		/* Make back button more touch-friendly */
+		padding: 0.5rem;
+
+		@media (max-width: 768px) {
+			padding: 0.75rem;
+		}
 	}
 
 	.column-width {
@@ -174,6 +250,13 @@
 
 		@media (max-width: 768px) {
 			max-width: 100%;
+			padding-left: 0.75rem;
+			padding-right: 0.75rem;
+		}
+
+		@media (max-width: 480px) {
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
 		}
 	}
 
