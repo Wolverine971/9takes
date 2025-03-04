@@ -65,11 +65,9 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 		enneagramType={8}
 		showIcon={false}
 		displayText="Donald Trump"
-		subtext="45th and 47th President of the United States"
+		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Donald Trump's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Donald Trump.
 
 <p class="firstLetter">"You're fired!"</p>
 
@@ -306,6 +304,8 @@ As we reflect on Trump's impact, it raises an intriguing question: In times of u
 The Trump phenomenon may tell us as much about America's collective psyche as it does about the man himself.
 
 Whether you view him as a necessary disruptor or a dangerous demagogue, understanding Trump through the Enneagram offers invaluable insights into the personality that has dominated American politics for nearly a decade — and shows no signs of fading from the national stage.
+
+> **Disclaimer** This analysis of Donald Trump's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Donald Trump.
 
 <svelte:head>
 

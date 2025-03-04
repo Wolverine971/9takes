@@ -41,8 +41,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Mr. Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Rogers.
-
 <p class="firstLetter">Mr. Fred Rogers was a beloved children's television host and advocate for kindness and compassion. His personality traits are indicative of an Enneagram type 2, also known as the Helper. Here are four reasons why Mr. Rogers fits the characteristics of an Enneagram type 2:</p>
 
 ## Desire to help and serve others
@@ -70,3 +68,5 @@ Mr. Rogers embodied these traits both on and off screen. He often took the time 
 ## Selfless and giving
 
 Finally, Enneagram type 2 individuals are often selfless and giving. Mr. Rogers donated a significant portion of his wealth to charity and established the Fred Rogers Company to continue his mission of promoting kindness and learning for children. He also used his platform to advocate for issues such as public broadcasting and education.
+
+> **Disclaimer** This analysis of Mr. Rogers's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mr. Rogers.

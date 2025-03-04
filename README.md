@@ -28,5 +28,5 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Ryan Reynolds.png" -o "Ryan-Reynolds.webp"
-cwebp -sns 70 -f 50 -size 20000 "Ryan-Reynolds.webp" -o "./s-Ryan Reynolds.webp"
+cwebp "Mindy-Kaling.png" -o "Mindy-Kaling.webp"
+cwebp -sns 70 -f 50 -size 20000 "Mindy-Kaling.webp" -o "./s-Mindy-Kaling.webp"

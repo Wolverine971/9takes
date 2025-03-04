@@ -42,8 +42,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Ellen Degeneres's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ellen Degeneres.
-
 <p class="firstLetter">Ellen Degeneres is a well-known talk show host, comedian, and actress. Her personality traits are indicative of an Enneagram type 6, also known as the Loyalist.</p>
 
 ## Loyal to friends and causes
@@ -71,3 +69,5 @@ Ellen is known for her punctuality and professionalism, which has earned her res
 Enneagram type 6 individuals often struggle with fear and anxiety about the unknown.
 
 Ellen has spoken about her fear of failure and rejection, which can be attributed to her Enneagram type 6 personality. However, she has also demonstrated courage and resilience in the face of adversity, such as when she came out as gay on national television in 1997.
+
+> **Disclaimer** This analysis of Ellen Degeneres's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ellen Degeneres.

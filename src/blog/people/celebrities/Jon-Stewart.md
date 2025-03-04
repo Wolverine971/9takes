@@ -35,11 +35,9 @@ instagram: 'https://www.instagram.com/jonstewart/'
 		showIcon={false}
 		enneagramType="7"
 		displayText="Jon Stewart"
-		subtext="The Entertainer Who Speaks Truth"
+		subtext=""
 	/>
 </div>
-
-> **Disclaimer** This analysis of Jon Stewart's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jon Stewart.
 
 <p class="firstLetter">For 16 years, he was your evening companion, your sarcastic voice of reason, and the man who changed how a generation consumed news.</p>
 
@@ -164,7 +162,9 @@ Does seeing Stewart through the Enneagram lens deepen your appreciation of his w
 
 If you enjoy exploring personality and its impact on culture, check out our [other analyses](/blog) or dive into our thought-provoking [questions](/questions) about the Enneagram.
 
-<svelte:head>
+> **Disclaimer** This analysis of Jon Stewart's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jon Stewart.
+>
+> <svelte:head>
 
 <script type="application/ld+json">
 	{

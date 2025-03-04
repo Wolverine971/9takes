@@ -46,7 +46,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 		enneagramType={7}
 		showIcon={false}
 		displayText="Chappell Roan"
-		subtext="Glitter Pop Sensation"
+		subtext=""
 	/>
 </div>
 
