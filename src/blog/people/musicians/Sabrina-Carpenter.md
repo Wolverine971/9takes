@@ -87,8 +87,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 >
 	<PopCard
 		image={`/types/3s/${'Sabrina-Carpenter'}.webp`}
-		enneagramType={3}
 		showIcon={false}
+      enneagramType={3}
 		displayText="Sabrina Carpenter"
 		subtext=""
 	/>

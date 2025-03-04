@@ -44,6 +44,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	<PopCard
 		image={`/types/6s/${'Trevor-Noah'}.webp`}
 		showIcon={false}
+    enneagramType="6"
 		displayText="Trevor Noah"
 		subtext=""
 	/>

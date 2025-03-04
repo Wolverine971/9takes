@@ -41,8 +41,8 @@ import PopCard from "$lib/components/atoms/PopCard.svelte";
 >
 	<PopCard
 		image={`/types/7s/${'Ryan-Reynolds'}.webp`}
-		enneagramType={7}
 		showIcon={false}
+    enneagramType={7}
 		displayText="Ryan Reynolds"
 		subtext=""
 	/>

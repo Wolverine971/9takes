@@ -34,6 +34,7 @@ tiktok: 'https://www.tiktok.com/@syds_garage'
 	<PopCard
 		image={`/types/3s/${'Sydney-Sweeney'}.webp`}
 		showIcon={false}
+    enneagramType="3"
 		displayText="Sydney Sweeney"
 		subtext=""
 	/>

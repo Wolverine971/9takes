@@ -56,8 +56,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 >
 	<PopCard
 		image={`/types/6s/${'Alexandria-Ocasio-Cortez'}.webp`}
-		enneagramType={6}
 		showIcon={false}
+    enneagramType={6}
 		displayText="Alexandria Ocasio-Cortez"
 		subtext=""
 	/>

@@ -62,8 +62,8 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 >
 	<PopCard
 		image={`/types/8s/${'Donald-Trump'}.webp`}
-		enneagramType={8}
 		showIcon={false}
+    enneagramType={8}
 		displayText="Donald Trump"
 		subtext=""
 	/>

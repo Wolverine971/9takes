@@ -1,13 +1,13 @@
 ---
-title: 'Selena Gomez: Navigating Harmony as an Enneagram Type 9 Peacemaker'
-description: "Explore how Selena Gomez's quest for inner peace and harmony reflects her Enneagram Type 9 personality, shaping her journey from child star to influential artist and advocate."
+title: 'Selena Gomez: The Peaceful Warrior Behind the Fame'
+description: "Discover how Selena Gomez's Enneagram Type 9 personality shapes her mental health advocacy, business success, and authentic public persona."
 author: 'DJ Wayne'
-date: '2024-09-29'
+date: '2025-03-04'
 loc: 'https://9takes.com/personality-analysis/Selena-Gomez'
-lastmod: '2024-09-29'
+lastmod: '2025-03-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 9
 type: ['lifestyleInfluencer']
 person: 'Selena-Gomez'
@@ -45,102 +45,129 @@ keywords:
   />
 </div>
 
-<p class="firstLetter">Ever wondered how Selena Gomez maintains her composure amidst the chaos of fame? Behind the glitz and glamour lies a personality driven by a deep desire for peace, harmony, and connection.</p>
+<p class="firstLetter"></p>
 
-Let's delve into how Selena embodies the Enneagram Type 9 personality—the Peacemaker—and how this shapes her journey from a child star to an influential artist and advocate.
+> "I think it's important for me to take moments for myself because I've always been taught to be this performer." - Selena Gomez
 
-<details>
-<summary class="accordion">TL;DR: Why Selena Gomez is an Enneagram Type 9</summary>
-<div class="panel">
-<ul>
-<li><b>Quest for Inner Peace:</b> Selena's openness about her mental health struggles and her journey towards self-acceptance reflect a Type 9's desire for inner tranquility.</li>
+<p class="firstLetter">In the spotlight since childhood, yet somehow still *authentically herself*.</p>
 
-<li><b>Desire for Harmony:</b> She often avoids public conflicts and focuses on creating positive relationships, aligning with the Peacemaker's inclination to maintain harmony.</li>
+Selena Gomez embodies contradictions that puzzle fans and critics alike. How does someone build a billion-dollar empire while battling lupus and bipolar disorder? What inner force drives her to champion mental health while navigating Hollywood's relentless scrutiny?
 
-<li><b>Adaptability:</b> Selena seamlessly transitions between roles as an actress, singer, and producer, showcasing a Type 9's ability to merge with different environments.</li>
+The answer lies deeper than headlines suggest. **Her personality—specifically her Enneagram Type 9 nature—reveals the true Selena** that cameras rarely capture.
 
-<li><b>Empathy and Advocacy:</b> Her work in raising awareness for mental health and promoting inclusivity reflects the Peacemaker's deep empathy and desire to help others.</li>
+## What is Selena Gomez's Personality Type?
 
-<li><b>Core Motivation:</b> At her core, Selena seeks connection and peace, both within herself and in her relationships—a hallmark of the Type 9 personality.</li>
-</ul>
-</div>
-</details>
+### Selena Is a Type 9 (The Peacemaker)
 
-## From Texas Roots to Global Stardom: Selena's Journey for Harmony
+Type 9s seek harmony above all else. They're the mediators, the ones who feel others' emotions deeply and work tirelessly to maintain stability. Behind their adaptable exterior lies a quiet determination to avoid conflict—often at personal cost.
 
-How does a girl from Grand Prairie become one of the most followed people on social media?
+For Selena, this manifests uniquely. She doesn't just _want_ peace; she **creates it**. Through beauty brands that celebrate authenticity. Through mental health initiatives that normalize struggle. Through music and acting that connect rather than divide.
 
-Selena began her career at a young age, appearing on _Barney & Friends_ before gaining fame on Disney Channel's _Wizards of Waverly Place_. Her early exposure to the entertainment industry could have been overwhelming, but she navigated it with grace and resilience.
+But this peace-seeking nature was shaped long before fame found her.
 
-Her ability to adapt to various roles and projects reflects a Type 9's flexibility and willingness to go with the flow.
+## The Roots: How Selena's Early Years Shaped Her Type 9 Core
 
-## Seeking Authentic Connections: The Heart of a Peacemaker
+Born to teenage parents who divorced when she was just five, young Selena learned early to adapt. Named after Tejano singer Selena Quintanilla, she carried both the weight and inspiration of her namesake. This environment taught her a crucial Type 9 skill: **sensing emotional undercurrents** and adjusting accordingly.
 
-Why does Selena value genuine relationships over industry hype?
+"I was frustrated that my parents weren't together," she once shared. Her response? Not rebellion, but understanding—classic Type 9 behavior. She channeled that energy into performing, finding that middle ground where she could express herself while pleasing others.
 
-Selena is known for her close-knit circle of friends and her emphasis on authenticity. She often speaks about the importance of surrounding herself with supportive people who ground her.
+Disney Channel stardom followed. But unlike many child stars, Selena maintained an unusual groundedness. Why? **Her Type 9 nature resisted the ego inflation** that typically accompanies early fame. Instead, she focused on connection—with fans, with fellow actors, with music that felt authentic rather than manufactured.
 
-This focus on meaningful connections aligns with the Type 9's desire for harmonious relationships and avoidance of conflict.
+## Unique Ways Selena's Type 9 Personality Manifests
 
-## Turning Struggles into Strength: Advocacy and Empathy
+### The Paradox of Visibility and Withdrawal
 
-How does she transform personal challenges into platforms for change?
+Most celebrities crave the spotlight. Selena? She's different.
 
-Selena has been open about her struggles with anxiety, depression, and lupus. Instead of hiding these battles, she uses her platform to raise awareness and encourage others to seek help.
+Despite once having the most-followed Instagram account on the planet, she regularly _deletes the app entirely_ from her phone. "Taking back my life," she calls it. This isn't standard celebrity behavior—it's a Type 9 recognizing when external voices threaten inner peace.
 
-Her vulnerability and willingness to share her journey exemplify a Peacemaker's empathy and desire to foster understanding and acceptance.
+During the 2020 Black Lives Matter protests, while other stars centered themselves, Selena handed her massive platform to Black activists like Kimberlé Crenshaw and Alicia Garza. _No commentary_. No insertion of herself into the narrative. Just amplification of others' voices—**a quintessential Type 9 move** that prioritized harmony over ego.
 
-## The Launch of Rare Beauty: Promoting Self-Acceptance
+Her documentary "My Mind & Me" revealed the raw struggle this creates. One moment shows her sobbing after a rehearsal: "It looks so bad. I have no idea what the fuck I'm doing." Type 9s feel failure deeply when their performance doesn't match their inner ideal. For Selena, this tension plays out on a global stage.
 
-What inspired Selena to start a beauty brand focused on mental health?
+### Transforming Personal Pain into Community Support
 
-In 2020, Selena launched Rare Beauty with the mission to challenge unrealistic standards of perfection. A portion of the proceeds goes to the Rare Impact Fund, which supports mental health services.
+Many celebrities launch beauty brands. Few build them around mental health missions.
 
-This venture reflects her Type 9 inclination to create harmony and promote well-being, not just for herself but for her community.
+Selena's Rare Beauty isn't just makeup—it's a vehicle for the Rare Impact Fund, which aims to raise $100 million for mental health resources. After her bipolar diagnosis in 2020, she didn't retreat. She transformed.
 
-## Navigating Fame with Grace: Avoiding Unnecessary Conflict
+"I actually feel like I'm doing something," she told Vogue. "This isn't just a vanity project." For a Type 9, this is profound growth: _channeling personal pain outward_ rather than absorbing it silently.
 
-How does she handle public scrutiny and rumors?
+She speaks openly about Dialectical Behavior Therapy (DBT) changing her life. "I wish more people would talk about therapy," she's stated plainly. **Where other celebrities offer vague platitudes about "self-care," Selena names specific tools that helped her survive.** This concrete approach to helping others find peace reflects a mature Type 9 who's learned to value her own voice.
 
-Selena often chooses not to engage in public disputes, even when faced with criticism or speculation about her personal life. She focuses on her work and personal growth instead.
+### Finding Stability Through Unconventional Friendships
 
-This approach aligns with the Peacemaker's tendency to avoid conflict and maintain inner peace.
+Type 9s seek anchors amid life's chaos. Selena's friendship choices reveal this pattern clearly.
 
-## Creativity as a Path to Peace: Expressing Emotions Through Art
+Her kidney donor Francia Raisa represents perhaps the ultimate Type 9 friendship—someone who literally gave a part of herself to keep Selena alive. Their subsequent rumored falling out and reconciliation shows the complex dynamics when a Type 9 feels indebted yet needs boundaries.
 
-How does Selena use her music and acting to process emotions?
+Taylor Swift has remained her constant for over fifteen years—a remarkable feat in Hollywood. "She's been a big part of my life," Selena has said simply. _While other celebrity friendships flare and fade_, this one persists. Why? It provides the stability Type 9s crave.
 
-Her songs often delve into themes of love, loss, and self-discovery. Albums like _Revival_ and _Rare_ showcase her journey towards healing and acceptance.
+Her working relationships with comedy legends Martin Short and Steve Martin on "Only Murders in the Building" reveal another Type 9 trait: **gravitating toward mentors who offer wisdom without competition**. At 32, she finds comfort collaborating with stars in their 70s—an unusual choice that perfectly suits her old-soul nature.
 
-By channeling her feelings into her art, Selena embodies the Type 9's method of processing emotions indirectly.
+### The Type 9's Surprising Boldness
 
-## How Other Enneagram Types Perceive Selena Gomez
+Beneath their peaceful exterior, healthy Type 9s make unexpected moves when their values are clear.
 
-Ever thought about how different personalities relate to her?
+Selena turned down "High School Musical 3" at the height of its popularity. She wanted more serious roles—a risky choice for a Disney star. This wasn't rebellion; it was authentic expression. **When Type 9s know their true path, they show remarkable resolve.**
 
-- **[Type 1 – The Reformer](/enneagram-corner/enneagram-type-1):** They appreciate her advocacy work and commitment to important causes.
-- **[Type 2 – The Helper](/enneagram-corner/enneagram-type-2):** They resonate with her empathy and desire to support others.
-- **[Type 3 – The Achiever](/enneagram-corner/enneagram-type-3):** They admire her success across multiple fields.
-- **[Type 4 – The Individualist](/enneagram-corner/enneagram-type-4):** They connect with the emotional depth in her music and her authenticity.
-- **[Type 5 – The Investigator](/enneagram-corner/enneagram-type-5):** They might be intrigued by her introspective nature and openness about mental health.
-- **[Type 6 – The Loyalist](/enneagram-corner/enneagram-type-6):** They value her commitment to her friends and fans.
-- **[Type 7 – The Enthusiast](/enneagram-corner/enneagram-type-7):** They enjoy her versatility and ventures into different creative projects.
-- **[Type 8 – The Challenger](/enneagram-corner/enneagram-type-8):** They respect her strength in overcoming adversity.
-- **[Type 9 – The Peacemaker](/enneagram-corner/enneagram-type-9):** They feel a kinship with her quest for harmony and balance.
+Her food habits defy celebrity norms too. She's unabashedly obsessed with fast food. "I love McDonald's, I love Jack in the Box," she's admitted cheerfully. While other stars hide their indulgences, Selena brings hers onstage. During her 2016 Revival tour, she'd often request Chick-fil-A or McDonald's backstage. This genuineness—this refusal to pretend—reflects a Type 9 who's found self-acceptance.
 
-## Reflecting on Selena Gomez's Peacemaker Spirit
+Her seven tattoos tell a similar story. Each one—from musical notes to Arabic script reading "love yourself first"—represents permanent expression from someone who often struggles to assert herself. For a Type 9, these aren't trendy choices; they're anchors of identity.
 
-What can we learn from Selena's journey?
+## Navigating Type 9 Challenges
 
-Selena Gomez embodies the Enneagram Type 9 through her pursuit of inner peace, emphasis on authentic connections, and commitment to advocacy. Her story illustrates how embracing one's desire for harmony can lead to personal growth and positive impact.
+### The Cost of Peace-Making in Public Relationships
 
-By understanding her through this lens, we gain insights into how our own motivations shape our lives. Are we seeking balance and genuine connections? How do we navigate conflict and adversity?
+No aspect of Selena's life better illustrates Type 9 dynamics than her relationships.
 
-Perhaps Selena's journey encourages us to prioritize our well-being and strive for harmony within ourselves and with others.
+Her on-off romance with Justin Bieber spanned eight years and shaped both their lives. Type 9s can lose themselves in relationships, merging identities with partners. "I was co-dependent," she later admitted. The pattern is clear: _accommodating others while neglecting personal needs_.
+
+Her music reveals this journey. Compare 2013's "Love Will Remember" to 2020's "Lose You to Love Me." The first accommodates; the second establishes boundaries. This evolution from merging to self-honoring marks **significant growth for a Type 9 personality**.
+
+Her current engagement to Benny Blanco suggests healthier patterns. "He's been very supportive and respectful," she's shared—exactly what a Type 9 needs to thrive romantically.
+
+### Physical Health as a Wake-Up Call
+
+For many Type 9s, _the body speaks what the voice won't_. Selena's health journey illustrates this vividly.
+
+Her lupus diagnosis in 2014 followed by a kidney transplant in 2017 forced her to prioritize herself—something Type 9s struggle with. "I don't think I made the right decisions," she's said about initially pushing through illness to perform. The wake-up call was unavoidable.
+
+In typical Selena fashion, she found humor amid trauma—naming her new kidney "Fred" after comedian Fred Armisen. This lightness amid heaviness? Pure Type 9 coping strategy.
+
+**The health crisis marked a turning point.** She began setting boundaries, canceling her Revival Tour, limiting public appearances, and focusing inward. For a Type 9 who'd spent years accommodating external demands, this wasn't just recovery—it was revolution.
+
+### Balancing Ambition with Need for Calm
+
+Type 9s need peace, yet Selena has built an empire spanning music, acting, producing, and beauty.
+
+How? By creating environments that honor her needs. She's canceled tours when anxiety overwhelmed her. She limits social media exposure. She's selective about projects, choosing quality over quantity.
+
+Her approach to family planning reveals similar thoughtfulness. She's openly discussed pursuing motherhood through surrogacy or adoption due to health risks. This isn't impulsivity; it's a Type 9 carefully creating stability for herself and her future family.
+
+"Being honest about my own journey has made me feel less alone," she's reflected. In this statement lies the essence of Selena's evolved Type 9 nature: **finding personal peace by creating it for others**.
+
+## Selena Today: Integration and Growth
+
+The Selena of 2024 shows remarkable Type 9 integration. Her billionaire status through Rare Beauty represents channeling energy into meaningful work. Her acclaimed performances in "Only Murders in the Building" and "Emilia Pérez" demonstrate artistic growth beyond people-pleasing.
+
+Most tellingly, she's found her voice. Not just in music or interviews, but in advocacy. When she speaks about mental health now, there's a directness that younger Selena lacked. _The peace-seeking hasn't disappeared_—it's matured into purposeful action.
+
+"I'm just going to be myself," she stated simply in a recent interview. For a Type 9 who spent years adapting to others' needs, these five words represent profound evolution.
+
+## The Peaceful Heart Beneath It All
+
+What makes Selena Gomez fascinating isn't just her success—it's how she's achieved it while honoring her true nature.
+
+In a culture that rewards aggression, she's risen through receptivity. In an industry that profits from perfection, she's succeeded by embracing flaws. In relationships that demanded accommodation, she's learned to value herself.
+
+This is the journey of a Type 9 coming into balance. Not abandoning peace-seeking, but finding peace within first—then extending it outward.
+
+The next time you see Selena on screen or hear her music, look deeper. Behind the performance lies a personality type that's uniquely equipped to bring harmony to a chaotic world. **Perhaps that's her greatest achievement—not what she's created, but who she's become.**
+
+Do you recognize any Type 9 traits in yourself or someone you love? The ability to see multiple perspectives? The desire for harmony? The struggle to say "no" when needed? Selena's journey reminds us that these traits aren't weaknesses when channeled with purpose—they're superpowers waiting to be claimed.
 
 > **Disclaimer:** This analysis is based on publicly available information and aims to explore Selena Gomez's personality from an Enneagram perspective. It's not a definitive assessment but rather an invitation to reflect and engage.
-
-Feeling inspired to explore your own personality? Take a look at our [questions](/questions) and begin your journey of self-discovery.
 
 <svelte:head>
 
@@ -150,31 +177,24 @@ Feeling inspired to explore your own personality? Take a look at our [questions]
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores Selena Gomez's personality through the lens of the Enneagram Type 9, known as the Peacemaker. It delves into her quest for inner peace, her emphasis on authentic relationships, her advocacy for mental health, and how these traits align with the core characteristics of a Type 9 personality.",
-      "creator": {
-        "@type": "Person",
-        "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
-        ]
-      },
+      "articleBody": "This article explores Selena Gomez's personality through the lens of Enneagram Type 9. Known for her peaceful nature, mental health advocacy, and ability to build a billion-dollar beauty empire while battling health challenges, Selena embodies the core traits of The Peacemaker. The article examines how her early life, relationships, health struggles, and career choices reflect her Type 9 personality and her journey toward integration and growth.",
+      "creator": ["DJ Wayne"],
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
-        "sameAs": [
-          "https://www.instagram.com/djwayne3/",
-          "https://www.youtube.com/@djwayne3",
-          "https://www.linkedin.com/in/davidtwayne/",
-          "https://twitter.com/djwayne3"
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2024-09-29",
-      "datePublished": "2024-09-29",
-      "description": "Explore how Selena Gomez's quest for inner peace and harmony reflects her Enneagram Type 9 personality, shaping her journey from child star to influential artist and advocate.",
-      "headline": "Selena Gomez: Navigating Harmony as an Enneagram Type 9 Peacemaker",
+      "dateModified": {
+        "@type": "Date",
+        "@value": "2025-03-04"
+      },
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2025-03-04"
+      },
+      "description": "Discover how Selena Gomez's Enneagram Type 9 personality shapes her mental health advocacy, business success, and authentic public persona.",
+      "headline": "Selena Gomez: The Peaceful Warrior Behind the Fame",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -188,53 +208,16 @@ Feeling inspired to explore your own personality? Take a look at our [questions]
       "mentions": {
         "@type": "Person",
         "name": "Selena Gomez",
-        "sameAs": [
-          "https://en.wikipedia.org/wiki/Selena_Gomez",
-          "https://www.instagram.com/selenagomez",
-          "https://www.tiktok.com/@selenagomez",
-          "https://twitter.com/selenagomez"
-        ]
+        "sameAs": ["https://en.wikipedia.org/wiki/Selena_Gomez", "https://twitter.com/selenagomez", "https://www.instagram.com/selenagomez/", "https://www.tiktok.com/@selenagomez"]
       },
       "publisher": {
         "@type": "Organization",
-        "sameAs": [
-          "https://www.instagram.com/9takesdotcom/",
-          "https://twitter.com/9takesdotcom"
-        ],
+        "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/aero.png"
+          "url": "https://9takes.com/brand/darkRubix.png"
         },
         "name": "9takes"
-      },
-      "keywords": [
-        "Selena Gomez personality type",
-        "Selena Gomez Enneagram",
-        "Selena Gomez personality analysis",
-        "Enneagram Type 9 celebrity",
-        "Selena Gomez peace seeker",
-        "Selena Gomez mental health advocacy",
-        "Selena Gomez career journey",
-        "Selena Gomez inner world"
-      ],
-      "articleSection": "Personality Analysis",
-      "inLanguage": "en-US",
-      "about": [
-        {
-          "@type": "Thing",
-          "name": "Enneagram",
-          "sameAs": "https://en.wikipedia.org/wiki/Enneagram_of_Personality"
-        },
-        {
-          "@type": "Thing",
-          "name": "Mental Health",
-          "sameAs": "https://en.wikipedia.org/wiki/Mental_health"
-        }
-      ],
-      "isPartOf": {
-        "@type": "WebSite",
-        "name": "9takes",
-        "url": "https://9takes.com"
       }
     },
     {
@@ -244,7 +227,7 @@ Feeling inspired to explore your own personality? Take a look at our [questions]
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Selena Gomez exhibits traits of an Enneagram Type 9 through her desire for inner peace, avoidance of conflict, and emphasis on authentic relationships. Her openness about mental health and her advocacy work align with the Peacemaker's core characteristics."
+            "text": "Selena Gomez exhibits many characteristics associated with Enneagram Type 9 personalities. This includes her desire for peace and harmony, her ability to see multiple perspectives, and her struggle with setting boundaries. These traits are evident in how she handles relationships, her health challenges, and her approach to mental health advocacy through the Rare Impact Fund."
           },
           "name": "Why is Selena Gomez considered an Enneagram Type 9?"
         },
@@ -252,7 +235,7 @@ Feeling inspired to explore your own personality? Take a look at our [questions]
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Examples include her focus on mental health advocacy, her decision to launch Rare Beauty with an emphasis on self-acceptance, her avoidance of public conflicts, and her use of music to process emotions and promote healing."
+            "text": "Selena's Type 9 characteristics shine through in her handing over her Instagram platform to Black activists during social movements rather than centering herself, her focus on mental health advocacy after her own struggles, and her ability to maintain long-term friendships in a volatile industry. Her approach to fame—regularly deleting social media for her wellbeing—also reflects Type 9's need for inner peace."
           },
           "name": "What are some examples of Selena Gomez's Type 9 characteristics?"
         },
@@ -260,17 +243,25 @@ Feeling inspired to explore your own personality? Take a look at our [questions]
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Selena Gomez is often associated with the Enneagram Type 9, known as the Peacemaker. This personality type is characterized by a desire for harmony, avoidance of conflict, and a focus on inner peace."
+            "text": "Selena Gomez is known for her adaptable, peace-seeking personality. She's described as genuine, empathetic, and calm despite fame's pressures. While she can appear reserved, she shows surprising boldness when aligned with her values, as seen in her mental health advocacy and business ventures. She balances a need for harmony with strong convictions about causes she believes in."
           },
-          "name": "What is Selena Gomez's personality type?"
+          "name": "What is Selena Gomez's personality like?"
         },
         {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Her music often explores themes of self-discovery and healing, which reflects her Peacemaker personality. She uses her art to process emotions and promote harmony, both within herself and among her listeners."
+            "text": "Selena Gomez is an Enneagram Type 9, known as The Peacemaker. This type seeks harmony and connection, often struggles with asserting personal needs, and has a unique ability to see multiple perspectives. Her Type 9 traits are evident in her mental health advocacy, her approach to relationships, and how she's handled health challenges including lupus and bipolar disorder."
           },
-          "name": "How does Selena's music reflect her Enneagram Type 9 personality?"
+          "name": "What is Selena Gomez's Enneagram type?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Selena Gomez has been open about her mental health journey, including her bipolar disorder diagnosis in 2020. She credits Dialectical Behavior Therapy (DBT) with changing her life and launched the Rare Impact Fund through her beauty brand to raise $100 million for mental health resources. She's also created a documentary, 'My Mind & Me,' to help others feel less alone in their struggles."
+          },
+          "name": "How has Selena Gomez advocated for mental health?"
         }
       ]
     }
