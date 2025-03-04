@@ -40,14 +40,14 @@
 				</svg>
 			</div>
 			<div class="text-wrapper">
-				<h3>Ready to explore your own psychology?</h3>
+				<h3>Want to explore your own psychology?</h3>
 				<p>
-					Discover your Enneagram type and get personal insights and guidance guidance from an
-					expert.
+					Understanding your Enneagram type can help you break bad patterns and give you an edge in
+					the world.
 				</p>
 			</div>
 			<a href="/book-session" class="primary-button">
-				Book a Session with an Enneagram Coach
+				Talk to an Enneagram Coach
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"

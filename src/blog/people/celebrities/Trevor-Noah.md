@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['celebrity']
 person: 'Trevor-Noah'
+suggestions: ['Jon Stewart', 'Jimmy Fallon']
 wikipedia: ''
 twitter: ''
 instagram: ''

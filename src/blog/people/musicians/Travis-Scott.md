@@ -11,6 +11,8 @@ published: true
 enneagram: 9
 type: ['musician']
 person: 'Travis-Scott'
+suggestions: ['Kylie Jenner', 'Kanye']
+wikipedia:
 wikipedia: ''
 twitter: ''
 instagram: ''

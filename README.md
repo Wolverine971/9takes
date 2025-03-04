@@ -28,5 +28,5 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Selena-Gomez.png" -o "Selena-Gomez.webp"
-cwebp -sns 70 -f 50 -size 20000 "Selena-Gomez.webp" -o "./s-Selena-Gomez.webp"
+cwebp "Tom-Hardy.png" -o "Tom-Hardy.webp"
+cwebp -sns 70 -f 50 -size 20000 "Tom-Hardy.webp" -o "./s-Tom-Hardy.webp"

@@ -11,6 +11,7 @@ published: true
 enneagram: 6
 type: ['celebrity']
 person: 'Ellen-Degeneres'
+suggestions: ['Jon Stewart', 'Jimmy Fallon']
 wikipedia: 'https://en.wikipedia.org/wiki/Ellen_DeGeneres'
 twitter: 'https://twitter.com/EllenDeGeneres'
 instagram: 'https://www.instagram.com/ellendegeneres'
