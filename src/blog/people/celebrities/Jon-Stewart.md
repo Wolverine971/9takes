@@ -163,8 +163,8 @@ Does seeing Stewart through the Enneagram lens deepen your appreciation of his w
 If you enjoy exploring personality and its impact on culture, check out our [other analyses](/blog) or dive into our thought-provoking [questions](/questions) about the Enneagram.
 
 > **Disclaimer** This analysis of Jon Stewart's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jon Stewart.
->
-> <svelte:head>
+
+<svelte:head>
 
 <script type="application/ld+json">
 	{
