@@ -53,15 +53,15 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 Devoted fans have witnessed her evolution from Disney star to Emmy-winning actress, but understanding her Enneagram personality type offers a whole new dimension to appreciating her journey. Let's explore the inner workings of Zendaya's mind and discover how her Type 6 personality has shaped her into the icon we admire today.
 
-## What is Zendaya's Personality Type?
+## What is Zendaya's Personality Type? 🧠
 
 ### Zendaya is an Enneagram Type 6: The Loyal Skeptic
 
-Type 6s are known as the loyal skeptics of the Enneagram world. They're characterized by their commitment to security, reliability, and an uncanny ability to anticipate problems before they happen.
+Type 6s are known as the **loyal skeptics** of the Enneagram world. They're characterized by their commitment to security, reliability, and an uncanny ability to anticipate problems before they happen.
 
-At their core, Type 6s like Zendaya are driven by a desire for stability in an unpredictable world. They're exceptionally loyal to their close circle, analytical in their thinking, and often oscillate between self-doubt and unwavering determination.
+At their core, Type 6s like Zendaya are driven by a **desire for stability in an unpredictable world**. They're exceptionally loyal to their close circle, analytical in their thinking, and often oscillate between self-doubt and unwavering determination.
 
-Unlike the stereotype that Type 6s are simply anxious or fearful, healthy Sixes like Zendaya channel their awareness of potential threats into meticulous preparation and thoughtful decision-making. Her Type 6 nature manifests in her careful career choices, her close ties to her family, and her commitment to using her platform responsibly.
+Unlike the stereotype that Type 6s are simply anxious or fearful, **healthy Sixes like Zendaya channel their awareness of potential threats into meticulous preparation and thoughtful decision-making**. Her Type 6 nature manifests in her careful career choices, her close ties to her family, and her commitment to using her platform responsibly.
 
 ## Zendaya's Childhood: The Foundations of a Type 6
 
@@ -69,35 +69,35 @@ Zendaya Coleman grew up in Oakland, California, the youngest of five siblings. H
 
 This stable yet intellectually stimulating environment helped form the cautious but curious mindset typical of a Type 6.
 
-"My mother's a teacher at the public school I went to, so I've always been in public school, always been in the same kind of educational system," Zendaya once shared with Teen Vogue. This consistency provided a secure foundation—something Type 6s deeply value.
+"My mother's a teacher at the public school I went to, so I've always been in public school, always been in the same kind of educational system," Zendaya once shared with Teen Vogue. This consistency provided a **secure foundation**—something Type 6s deeply value.
 
 Interestingly, Zendaya had to repeat kindergarten due to extreme shyness—a revelation that might surprise fans who see her confidence today. This early challenge reveals the Type 6's initial hesitancy when facing new situations, a trait she's learned to overcome but still influences how she approaches her work.
 
-Her father, Kazembe Ajamu Coleman, has often spoken about Zendaya's early determination. "Even as a child, she always wanted to understand everything completely before jumping in," he revealed. This methodical approach is classic Type 6 behavior—gathering all possible information before making decisions.
+Her father, Kazembe Ajamu Coleman, has often spoken about Zendaya's early determination. _"Even as a child, she always wanted to understand everything completely before jumping in,"_ he revealed. This methodical approach is classic Type 6 behavior—gathering all possible information before making decisions.
 
 ## From Disney to Dramatic Roles: A Type 6's Strategic Ascent
 
-Zendaya's rise to fame wasn't an impulsive leap but a carefully calculated journey—perfectly aligned with her Type 6 personality.
+Zendaya's rise to fame 🌟 wasn't an impulsive leap but a **carefully calculated journey**—perfectly aligned with her Type 6 personality.
 
 Her big break came with Disney's "Shake It Up," but what sets her apart is how she strategically transitioned to more complex roles. While many child stars rush into adult roles, Zendaya took her time, producing and starring in "K.C. Undercover" as an intentional bridge.
 
 "I wanted to make sure that the next project I did was completely different," she explained in an interview with Vogue. This cautious career planning showcases the Type 6's characteristic strategic thinking—always considering the long-term consequences of their choices.
 
-When she eventually took on the role of Rue in "Euphoria," the decision wasn't made lightly. Director Sam Levinson noted, "What struck me about Zendaya is how thoughtful she was about the responsibility of portraying addiction. She asked more questions about the character's psychology than anyone I've worked with."
+When she eventually took on the role of Rue in "Euphoria," the decision wasn't made lightly. Director Sam Levinson noted, _"What struck me about Zendaya is how thoughtful she was about the responsibility of portraying addiction. She asked more questions about the character's psychology than anyone I've worked with."_
 
 This intense preparation before taking risks is quintessentially Type 6—they don't leap without looking, but when they commit, they're all in.
 
-## The Inner Workings of Zendaya's Type 6 Mind
+## The Inner Workings of Zendaya's Type 6 Mind 💭
 
-### Loyal to Her Roots
+### Loyal to Her Roots ❤️
 
-Despite Hollywood's notorious ability to disconnect stars from reality, Zendaya maintains close ties with her family and childhood friends—a hallmark of the loyalty that defines Type 6 personalities.
+Despite Hollywood's notorious ability to disconnect stars from reality, Zendaya maintains **close ties with her family and childhood friends**—a hallmark of the loyalty that defines Type 6 personalities.
 
 "My family's always been there for me, so I make it a point to be there for them," she told Essence magazine. This unwavering loyalty extends to her professional relationships too. She's worked with the same stylist, Law Roach, since she was 14—rare consistency in an industry known for constant change.
 
-### Anxiety as a Driving Force
+### Anxiety as a Driving Force ⚡
 
-Like many Type 6s, Zendaya transforms potential anxiety into productive action.
+Like many Type 6s, Zendaya **transforms potential anxiety into productive action**.
 
 "I definitely have anxiety and I've never really talked about it, but it's something I work through," she confessed to InStyle. "I use coloring as a way to calm myself down—I literally have a coloring station set up in my house."
 
@@ -105,37 +105,37 @@ This candid admission reveals the Type 6's relationship with anxiety—acknowled
 
 Her daily ritual of watching Harry Potter—a source of comfort and stability—is another Type 6 trait. Creating predictable routines helps manage the underlying uncertainty that Type 6s are acutely aware of.
 
-### Questioning Mind
+### Questioning Mind 🔍
 
 The Type 6's skeptical nature shows up in Zendaya's approach to her public platform. She doesn't blindly accept industry norms or expectations.
 
-"I'm not just going to do something because that's what people expect or that's what sells," she stated firmly in an Elle interview. This questioning of authority and resistance to being controlled is characteristic of Type 6 thinking.
+"I'm not just going to do something because that's what people expect or that's what sells," she stated firmly in an Elle interview. This **questioning of authority and resistance to being controlled** is characteristic of Type 6 thinking.
 
-When preparing for roles, she's known for asking extensive questions, probing deeper than most actors. Her Spider-Man co-star Tom Holland has mentioned, "Z asks the questions everyone else is thinking but no one dares to ask." This intellectual curiosity combined with the courage to voice doubts is pure Type 6 energy.
+When preparing for roles, she's known for asking extensive questions, probing deeper than most actors. Her Spider-Man co-star Tom Holland has mentioned, _"Z asks the questions everyone else is thinking but no one dares to ask."_ This intellectual curiosity combined with the courage to voice doubts is pure Type 6 energy.
 
-## Achievements Through the Lens of Type 6 Strengths
+## Achievements Through the Lens of Type 6 Strengths 🏆
 
 ### Emmy-Winning Performance in "Euphoria"
 
-Zendaya's portrayal of Rue Bennett earned her two Emmy Awards, making her the youngest two-time winner in the Outstanding Lead Actress category.
+Zendaya's portrayal of Rue Bennett earned her two Emmy Awards, making her the **youngest two-time winner** in the Outstanding Lead Actress category.
 
 This achievement showcases how a Type 6's attention to detail and ability to imagine various scenarios translates into extraordinary acting range. She didn't just play Rue—she inhabited every facet of her complex psychology.
 
-"I care about Rue too much to ever want to just give a performance that wasn't honest," Zendaya explained after her win. This statement reflects the Type 6's deep sense of responsibility and commitment to authenticity once they've given their loyalty to a project or person.
+"I care about Rue too much to ever want to just give a performance that wasn't honest," Zendaya explained after her win. This statement reflects the Type 6's **deep sense of responsibility and commitment to authenticity** once they've given their loyalty to a project or person.
 
-### Fashion Icon Status
+### Fashion Icon Status 👗
 
 Beyond acting, Zendaya has established herself as a fashion powerhouse—another arena where her Type 6 traits shine.
 
-Unlike the impulsive style choices some celebrities make, her fashion evolution has been thoughtful and strategic. Working consistently with stylist Law Roach, she's built a reputation for taking calculated fashion risks that push boundaries while remaining true to her personal aesthetic.
+Unlike the impulsive style choices some celebrities make, her fashion evolution has been thoughtful and strategic. Working consistently with stylist Law Roach, she's built a reputation for taking **calculated fashion risks** that push boundaries while remaining true to her personal aesthetic.
 
 "Every outfit is a statement and has intention behind it," Law Roach has said about their collaboration. This deliberate approach to fashion—where risks are taken only after careful consideration—is how Type 6s typically operate, making bold moves from a foundation of thorough preparation.
 
-## Navigating Challenges: A Type 6 Under Pressure
+## Navigating Challenges: A Type 6 Under Pressure 🔥
 
 When faced with public scrutiny, Zendaya's Type 6 traits become even more pronounced.
 
-After Giuliana Rancic made controversial comments about her dreadlocks at the 2015 Oscars, Zendaya responded not with impulsive anger but with a thoughtful, educational statement that turned the moment into a cultural conversation about race and beauty standards.
+After Giuliana Rancic made controversial comments about her dreadlocks at the 2015 Oscars, Zendaya responded not with impulsive anger but with a **thoughtful, educational statement** that turned the moment into a cultural conversation about race and beauty standards.
 
 "My wearing my hair in locs on an Oscar red carpet was to showcase them in a positive light, to remind people of color that our hair is good enough," she wrote in her response.
 
@@ -143,31 +143,31 @@ This measured reaction under pressure shows how Type 6s, at their best, can chan
 
 During this controversy, Zendaya's inner dialogue likely reflected the Type 6's thought process: questioning her initial reaction, considering multiple perspectives, and seeking the response that would create the most positive impact from a negative situation.
 
-Unlike some personality types who might have either avoided the conflict or responded with pure emotion, Zendaya's Type 6 approach was to face it head-on but with strategic thoughtfulness—turning a potential setback into an opportunity for education and growth.
+Unlike some personality types who might have either avoided the conflict or responded with pure emotion, Zendaya's Type 6 approach was to **face it head-on but with strategic thoughtfulness**—turning a potential setback into an opportunity for education and growth.
 
-## Zendaya's Current Trajectory: Type 6 in Full Bloom
+## Zendaya's Current Trajectory: Type 6 in Full Bloom 🌱
 
 Today, Zendaya continues to chart her course with the careful intentionality characteristic of a maturing Type 6.
 
-Her recent projects, including "Dune" and "Challengers," showcase her evolving confidence in taking on diverse roles while maintaining the thoughtful approach to character development that has defined her career.
+Her recent projects, including "Dune" and "Challengers," showcase her **evolving confidence** in taking on diverse roles while maintaining the thoughtful approach to character development that has defined her career.
 
 "I'm at a point where I can be selective and really only do things that speak to me on a deeper level," she told British Vogue in 2022. This statement reflects the Type 6's growth journey—moving from security-seeking to value-driven decision-making as they gain confidence in their own judgment.
 
-Her entrepreneurial ventures and production work further demonstrate how Type 6s excel at building sustainable, long-term success rather than chasing quick wins. By carefully expanding her influence while staying true to her core values, she embodies the Type 6's potential for creating lasting impact through persistent, thoughtful effort.
+Her entrepreneurial ventures and production work further demonstrate how Type 6s excel at **building sustainable, long-term success** rather than chasing quick wins. By carefully expanding her influence while staying true to her core values, she embodies the Type 6's potential for creating lasting impact through persistent, thoughtful effort.
 
-## Beyond the Spotlight: The Real Zendaya
+## Beyond the Spotlight: The Real Zendaya 🌈
 
 What makes Zendaya such a fascinating study of the Type 6 personality is how she balances public perception with authentic self-expression.
 
-Despite her fame, she maintains a relatively private personal life—a boundary that helps her preserve the sense of security so important to Type 6s. "I'm very, very selective about what I choose to share," she's noted in several interviews.
+Despite her fame, she maintains a relatively **private personal life**—a boundary that helps her preserve the sense of security so important to Type 6s. "I'm very, very selective about what I choose to share," she's noted in several interviews.
 
-Yet within those boundaries, she shows remarkable courage in using her platform to address social issues, from racial justice to body positivity. This combination of caution and courage is the hallmark of a healthy Type 6—aware of risks but willing to face them for causes that matter.
+Yet within those boundaries, she shows remarkable courage in using her platform to address social issues, from racial justice to body positivity. This **combination of caution and courage** is the hallmark of a healthy Type 6—aware of risks but willing to face them for causes that matter.
 
-Her relationships with co-stars and colleagues consistently reflect the loyalty Type 6s are known for. Tom Holland has spoken about how she helped him navigate the overwhelming aspects of Spider-Man fame: "Z was the one person who understood what I was going through and knew exactly how to help." This supportive reliability is the gift that well-developed Type 6s bring to their inner circle.
+Her relationships with co-stars and colleagues consistently reflect the loyalty Type 6s are known for. Tom Holland has spoken about how she helped him navigate the overwhelming aspects of Spider-Man fame: _"Z was the one person who understood what I was going through and knew exactly how to help."_ This supportive reliability is the gift that well-developed Type 6s bring to their inner circle.
 
 ## The Type 6 Journey: What We Can Learn From Zendaya
 
-What makes Zendaya's Type 6 personality so compelling is how she's transformed potential limitations into strengths.
+What makes Zendaya's Type 6 personality so compelling is how she's **transformed potential limitations into strengths**.
 
 The same awareness that could have manifested as paralyzing anxiety instead fuels her meticulous preparation. The skepticism that might have kept her isolated instead helps her make thoughtful choices about projects and relationships.
 
@@ -175,9 +175,9 @@ Her journey reminds us that personality types aren't static categories but dynam
 
 <BlogPurpose />
 
-## Final Thoughts: The Ever-Evolving Type 6
+## Final Thoughts: The Ever-Evolving Type 6 💫
 
-As Zendaya continues to evolve in her career and personal growth, her Type 6 foundation provides both the stability and flexibility needed for lasting success.
+As Zendaya continues to evolve in her career and personal growth, her Type 6 foundation provides both the **stability and flexibility needed for lasting success**.
 
 Her story isn't just about fame or achievement—it's about how understanding your natural tendencies allows you to work with rather than against your personality type.
 
