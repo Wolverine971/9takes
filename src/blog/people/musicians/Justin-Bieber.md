@@ -43,7 +43,7 @@ tiktok: 'https://www.tiktok.com/@justinbieber'
 
 Justin Bieber. The name alone evokes strong reactions.
 
-But beyond the platinum records and tabloid headlines lies a fascinating personality worth exploring. Today, we're diving deep into why Justin embodies the classic characteristics of an Enneagram Type 3 - The Achiever.
+But beyond the platinum records and tabloid headlines lies a fascinating personality worth exploring. Today, we're diving deep into why Justin embodies the classic characteristics of an [Enneagram Type 3 - The Achiever](/enneagram-corner/enneagram-type-3).
 
 ## What is Justin Bieber's Personality Type?
 

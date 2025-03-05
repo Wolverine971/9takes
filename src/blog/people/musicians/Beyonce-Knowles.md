@@ -38,11 +38,9 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
-
 <p class="firstLetter">What fuels the unstoppable force that is Beyoncé? What is the mindset behind her actions, music, and public persona? What lies beneath the her energy? Might just be the personality of the Enneagram type 8, the challenger.</p>
 
-Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a Type 8. But there's more.
+Beyoncé demonstrates an unrivaled level of self-confidence and a resolute desire to control her own destiny which are the hallmark traits of a [Type 8](/enneagram-corner/enneagram-type-8). But there's more.
 
 ## Understanding the Drive
 
@@ -82,7 +80,7 @@ Listening to a Beyoncé tune or watching her captivating performances henceforth
 
 How does this understanding of Beyoncé change the way you perceive her art? Does seeing Beyoncé through the lens of the Enneagram Type 8 provide you with a deeper comprehension of her motivations and actions?
 
-If you enjoyed this article please sign up below ⬇️ and join 9takes. If you are a powerful Enneagram 8 like Beyoncé you already know you are free to refuse, but we are trying to create a community that values the reflective investigation of personalities and life perspectives. We would love for you to join.
+> **Disclaimer** This analysis of Beyoncé Knowles's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Beyoncé Knowles.
 
 <svelte:head>
 

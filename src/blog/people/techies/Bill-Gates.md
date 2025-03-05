@@ -42,7 +42,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">From revolutionizing personal computing to transforming global philanthropy, Bill Gates is an icon of innovation and impact.</p>
 
-But what drives the relentless curiosity and analytical prowess behind his success? In this deep dive, we explore the inner workings of the Microsoft founder's mind through the lens of the Enneagram Type 5 personality.
+But what drives the relentless curiosity and analytical prowess behind his success? In this deep dive, we explore the inner workings of the Microsoft founder's mind through the lens of the [Enneagram Type 5 personality](/enneagram-corner/enneagram-type-5).
 
 ## Unveiling Bill Gates' Enneagram Type 5 Traits
 

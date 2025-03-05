@@ -59,7 +59,7 @@ The answer lies deeper than headlines suggest. **Her personality—specifically 
 
 ### Selena Is a Type 9 (The Peacemaker)
 
-Type 9s seek harmony above all else. They're the mediators, the ones who feel others' emotions deeply and work tirelessly to maintain stability. Behind their adaptable exterior lies a quiet determination to avoid conflict—often at personal cost.
+[Type 9s](/enneagram-corner/enneagram-type-9) seek harmony above all else. They're the mediators, the ones who feel others' emotions deeply and work tirelessly to maintain stability. Behind their adaptable exterior lies a quiet determination to avoid conflict—often at personal cost.
 
 For Selena, this manifests uniquely. She doesn't just _want_ peace; she **creates it**. Through beauty brands that celebrate authenticity. Through mental health initiatives that normalize struggle. Through music and acting that connect rather than divide.
 

@@ -59,7 +59,7 @@ Born Destiny Hope Cyrus (a name reflecting her parents' boundless aspirations), 
 
 ## The Individualist's Quest: Understanding Miley's Type 4 Core
 
-To grasp Miley Cyrus is to understand the Enneagram Type 4—the Individualist.
+To grasp Miley Cyrus is to understand the [Enneagram Type 4—the Individualist](/enneagram-corner/enneagram-type-4).
 
 Type 4s aren't just "different." They're _driven_ by a bone-deep need to discover and express their authentic selves. They believe in their fundamental uniqueness and search constantly for the truest version of their identity.
 

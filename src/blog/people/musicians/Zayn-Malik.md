@@ -44,7 +44,7 @@ keywords:
 
 <p class="firstLetter">Ever wondered what drives Zayn Malik's enigmatic persona and soulful music? Beyond the fame and fashion, there's a profound personality at play.</p>
 
-Zayn Malik embodies the Enneagram Type 4 personality—the Individualist. This isn't just about being different; it's about a deep-seated desire for authenticity, emotional depth, and self-understanding. His journey from a small town in England to global stardom offers a captivating glimpse into traits that are both intriguing and profoundly human.
+Zayn Malik embodies the [Enneagram Type 4 personality—the Individualist](/enneagram-corner/enneagram-type-4). This isn't just about being different; it's about a deep-seated desire for authenticity, emotional depth, and self-understanding. His journey from a small town in England to global stardom offers a captivating glimpse into traits that are both intriguing and profoundly human.
 
 <details>
 <summary class="accordion">TL;DR: Why Zayn Malik is an Enneagram Type 4</summary>

@@ -52,7 +52,7 @@ But beneath the image of vintage glamour lies a complex artist whose inner world
 
 ### Lana Del Rey is an Enneagram Type 4
 
-Enneagram Type 4, often called "The Individualist," is known for its deep emotional intensity, creative expression, and longing for authenticity. These souls are driven by a desire to understand themselves and their place in the world, often feeling like they're different from others in some fundamental way.
+[Enneagram Type 4](/enneagram-corner/enneagram-type-4), often called "The Individualist," is known for its deep emotional intensity, creative expression, and longing for authenticity. These souls are driven by a desire to understand themselves and their place in the world, often feeling like they're different from others in some fundamental way.
 
 Lana's music and persona embody many classic Type 4 traits:
 

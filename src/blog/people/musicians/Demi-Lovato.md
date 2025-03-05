@@ -64,11 +64,9 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Demi Lovato's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
-
 <p class="firstLetter">You know her, love her ❤️‍🔥, or possibly, critique her.</p>
 
-Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of Enneagram Type 4 - The Individualist.
+Demi Lovato, the former child star of Barney 🦖 & Friends 👭, has been a subject of public fascination for years. Today, we dive deep into an unexplored dimension of Lovato's persona, suggesting her as a quintessential representation of [Enneagram Type 4 - The Individualist](/enneagram-corner/enneagram-type-4).
 
 <details>
 <summary class="accordion">TL;DR: Why Demi Lovato is an Enneagram 4</summary>
@@ -139,11 +137,11 @@ The controversies surrounding Lovato, from their stance on diet culture 🍽️�
 
 As we trace back our steps through the journey that has been Demi Lovato's public life, the signs of a classic Enneagram Type 4 personality become more evident. The pursuit of unique identity, the raw emotionality, the longing for authenticity, all intricately intertwined in the narrative of Demi's life.
 
-But as with any personality assessment, it's important to remember that these are observations, not definite conclusions. Personalities are fluid, complex, and can't always be neatly boxed into categories. What other layers do you think are yet to be explored in Lovato's personality? How does this Type 4 lens change your perception of her journey, her music, her advocacy work?
-
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+But as with any personality assessment, it's important to remember that these are observations, not definite conclusions. Personalities are fluid, complex, and can't always be neatly boxed into categories. What other layers do you think are yet to be explored in Lovato's personality? How does this Type 4 lens change your perception of her journey, her music, her advocacy w
 
 <!-- Final Thoughts: TOO MUCH TYPE 4s ARE UNIQUE-- cut out all the extra fluff, combine sections and shorten it, wayyy too long ang repetitive  -->
+
+> **Disclaimer** This analysis of Demi Lovato's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Demi Lovato.
 
 <svelte:head>
 

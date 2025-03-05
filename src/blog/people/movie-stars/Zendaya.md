@@ -51,7 +51,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">Ever wondered what drives Zendaya's captivating authenticity on screen? What makes her so relatable despite her meteoric rise to fame? </p>
 
-Devoted fans have witnessed her evolution from Disney star to Emmy-winning actress, but understanding her Enneagram personality type offers a whole new dimension to appreciating her journey. Let's explore the inner workings of Zendaya's mind and discover how her Type 6 personality has shaped her into the icon we admire today.
+Devoted fans have witnessed her evolution from Disney star to Emmy-winning actress, but understanding her Enneagram personality type offers a whole new dimension to appreciating her journey. Let's explore the inner workings of Zendaya's mind and discover how her [Type 6 personality](/enneagram-corner/enneagram-type-6) has shaped her into the icon we admire today.
 
 ## What is Zendaya's Personality Type? 🧠
 

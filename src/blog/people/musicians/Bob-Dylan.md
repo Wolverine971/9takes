@@ -11,7 +11,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Bob-Dylan'
-suggestions: ['Frida Kahlo']
+suggestions: ['Timothee Chalamet', 'Lana Del Rey']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -51,7 +51,7 @@ This iconic songwriter, whose lyrics have been etched into the collective consci
 
 ### Bob Dylan is the "individualist" aka the Enneagram Type 4
 
-Bob Dylan embodies the essence of an Enneagram Type 4, often called "The Individualist." Type 4s are known for their deep emotional capacity, their quest for authenticity, and their ability to transform personal pain into universal art. They're the romantic idealists, the melancholic dreamers, the artists who find beauty in the shadows.
+Bob Dylan embodies the essence of an [Enneagram Type 4](/enneagram-corner/enneagram-type-4), often called "The Individualist." Type 4s are known for their deep emotional capacity, their quest for authenticity, and their ability to transform personal pain into universal art. They're the romantic idealists, the melancholic dreamers, the artists who find beauty in the shadows.
 
 For Dylan, this manifests in his unparalleled ability to capture the human experience in song. His lyrics, often cryptic and always poetic, speak to the core of what it means to be an outsider looking in—a hallmark of the Type 4 personality.
 

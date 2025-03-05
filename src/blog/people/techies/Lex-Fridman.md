@@ -50,7 +50,7 @@ Let's dive into the inner workings of Lex's personality and see what drives his 
 
 ### Lex Fridman: The Quintessential Enneagram Type 5
 
-Lex Fridman embodies the essence of an Enneagram Type 5, often called "The Investigator." These individuals are known for their insatiable curiosity, analytical minds, and desire to understand the world around them. Type 5s are the quintessential knowledge-seekers, always striving to gather more information and insights.
+Lex Fridman embodies the essence of an [Enneagram Type 5](/enneagram-corner/enneagram-type-5), often called "The Investigator." These individuals are known for their insatiable curiosity, analytical minds, and desire to understand the world around them. Type 5s are the quintessential knowledge-seekers, always striving to gather more information and insights.
 
 But Lex isn't your average Type 5. He's taken the natural inclinations of his personality type and turned them into a superpower, creating a platform where he can endlessly explore the depths of human knowledge and experience.
 

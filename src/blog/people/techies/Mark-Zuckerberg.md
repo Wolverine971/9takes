@@ -79,7 +79,7 @@ Let's peel back the hoodie and explore how Mark's quintessential Type 5 qualitie
 
 ### Mark Zuckerberg is an Enneagram Type 5: The Investigator
 
-Mark exemplifies the Enneagram Type 5 personality—the Investigator or Observer. Type 5s are characterized by their analytical minds, deep intellectual curiosity, and tendency to process the world through observation and knowledge-gathering. They typically conserve their energy and resources, preferring to master their domain through understanding rather than action alone.
+Mark exemplifies the [Enneagram Type 5 personality—the Investigator or Observer](/enneagram-corner/enneagram-type-5). Type 5s are characterized by their analytical minds, deep intellectual curiosity, and tendency to process the world through observation and knowledge-gathering. They typically conserve their energy and resources, preferring to master their domain through understanding rather than action alone.
 
 For Type 5s like Zuckerberg, knowledge isn't just power—it's security. Their core motivation stems from a desire to feel competent and self-sufficient in a complex world. This often manifests as an intense focus on specialized areas of interest, a preference for privacy, and a methodical approach to problem-solving.
 

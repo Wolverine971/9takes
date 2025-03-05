@@ -51,7 +51,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">You know his name, you've seen his face, and you've likely used a product he created. </p>
 
-Steve Jobs, the co-founder of Apple and a driving force behind some of the most innovative technologies of our time, was a complex and fascinating individual. His personality aligned with the Enneagram Type 1 - The Reformer, characterized by a strong sense of right and wrong, a drive for perfection, and a desire to improve the world around them. Today, we delve into Jobs' inner world and explore how these traits shaped his life and career.
+Steve Jobs, the co-founder of Apple and a driving force behind some of the most innovative technologies of our time, was a complex and fascinating individual. His personality aligned with the [Enneagram Type 1 - The Reformer](/enneagram-corner/enneagram-type-1), characterized by a strong sense of right and wrong, a drive for perfection, and a desire to improve the world around them. Today, we delve into Jobs' inner world and explore how these traits shaped his life and career.
 
 ## What Was Steve Jobs' Personality Type?
 

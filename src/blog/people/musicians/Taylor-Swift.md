@@ -49,7 +49,7 @@ keywords:
 
 Beyond the record-breaking album sales, the stadium-filling Eras Tour, and the headline-grabbing relationships lies a fascinating personality that drives it all.
 
-When we pull back the curtain on Taylor Swift's success story, we discover the quintessential Enneagram Type 3 personality—the Achiever. This isn't merely about ambition; it's about a relentless pursuit of excellence, an uncanny ability to adapt, and an extraordinary talent for genuine connection.
+When we pull back the curtain on Taylor Swift's success story, we discover an [Enneagram Type 3 personality—the Achiever](/enneagram-corner/enneagram-type-3). This isn't merely about ambition; it's about a relentless pursuit of excellence, an uncanny ability to adapt, and an extraordinary talent for genuine connection.
 
 Her transformation from a teenage country prodigy to a global cultural phenomenon offers a masterclass in the psychology of achievement and the complexity of fame.
 

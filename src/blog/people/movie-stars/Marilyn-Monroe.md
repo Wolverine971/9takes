@@ -38,7 +38,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">A little girl bounced between foster homes who became a model. A factory worker who transformed herself into Hollywood's brightest star. A woman who overcame childhood trauma to capture the imagination of the world and leave an indelible mark on cinema history.</p>
 
-The psychological journey of Marilyn Monroe reveals both the challenges of childhood trauma and the remarkable resilience of the human spirit. Her transformation from Norma Jeane to Marilyn exemplifies how a Type 6 personality – The Loyalist – can channel their need for security into extraordinary achievement, connection, and creative expression.
+The psychological journey of Marilyn Monroe reveals both the challenges of childhood trauma and the remarkable resilience of the human spirit. Her transformation from Norma Jeane to Marilyn exemplifies how a [Type 6 personality – The Loyalist](/enneagram-corner/enneagram-type-6) – can channel their need for security into extraordinary achievement, connection, and creative expression.
 
 ## From Unstable Beginnings to Unparalleled Success
 

@@ -48,9 +48,9 @@ You might think you know her from her chart-topping hits and jaw-dropping perfor
 
 Individualists are creative, sensitive, and expressive.
 
-They're driven by a desire to be unique and to find their personal significance. Sound familiar? That's our Gaga to a T!
+They're driven by a desire to be unique and to find their personal significance. Sound familiar?
 
-Type 4s often feel different from others, like they're missing something essential that everyone else seems to have. This feeling can lead to a deep-seated melancholy, but it's also the wellspring of their incredible creativity. They're introspective, often diving deep into their emotions to create art that resonates on a profound level.
+[Type 4s](/enneagram-corner/enneagram-type-4) often feel different from others, like they're missing something essential that everyone else seems to have. This feeling can lead to a deep-seated melancholy, but it's also the wellspring of their incredible creativity. They're introspective, often diving deep into their emotions to create art that resonates on a profound level.
 
 Does this remind you of Gaga's raw, emotional performances? Her ability to bare her soul through her music? That's the Type 4 in action, baby!
 

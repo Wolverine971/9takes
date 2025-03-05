@@ -44,7 +44,7 @@ keywords:
 
 <p class="firstLetter">Ever wondered what fuels Harry Styles' charisma and genuine connection with fans? Beyond the catchy tunes and bold fashion choices, there's a profound personality at play.</p>
 
-Harry Styles embodies the Enneagram Type 2 personality—the Helper. This isn't just about being kind; it's about a deep-rooted desire to connect, support, and uplift others. His journey from a small town in England to global superstardom offers a captivating glimpse into traits that are both inspiring and deeply human.
+Harry Styles embodies the [Enneagram Type 2 personality—the Helper](/enneagram-corner/enneagram-type-2). This isn't just about being kind; it's about a deep-rooted desire to connect, support, and uplift others. His journey from a small town in England to global superstardom offers a captivating glimpse into traits that are both inspiring and deeply human.
 
 <details>
 <summary class="accordion">TL;DR: Why Harry Styles is an Enneagram Type 2</summary>

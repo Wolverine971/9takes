@@ -59,7 +59,7 @@ What drives this intensity? What inner fire fuels those physical transformations
 
 ### Tom Hardy Is a Type 8
 
-In the Enneagram system, Type 8 is known as **"The Challenger"** or **"The Protector."** These powerful personalities are driven by a core need to be strong, independent, and in control of their own destiny. They resist vulnerability, fight against weakness, and often develop an intimidating presence that masks deeper sensitivities.
+In the Enneagram system, [Type 8](/enneagram-corner/enneagram-type-8) is known as **"The Challenger"** or **"The Protector."** These powerful personalities are driven by a core need to be strong, independent, and in control of their own destiny. They resist vulnerability, fight against weakness, and often develop an intimidating presence that masks deeper sensitivities.
 
 Type 8s like Hardy approach life with intensity and all-or-nothing commitment. They possess:
 

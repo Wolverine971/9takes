@@ -44,7 +44,7 @@ keywords:
 
 <p class="firstLetter">Ever wondered what fuels Olivia Rodrigo's heartfelt lyrics and genuine connection with fans? Beyond the chart-topping hits and red-carpet appearances, there's a profound personality at play.</p>
 
-Olivia Rodrigo embodies the Enneagram Type 2 personality—the Helper. This isn't just about being kind; it's about a deep-rooted desire to connect, support, and understand others. Her journey from a talented child actress to a global music sensation offers a captivating glimpse into traits that are both inspiring and deeply human.
+Olivia Rodrigo embodies the [Enneagram Type 2 personality—the Helper](/enneagram-corner/enneagram-type-2). This isn't just about being kind; it's about a deep-rooted desire to connect, support, and understand others. Her journey from a talented child actress to a global music sensation offers a captivating glimpse into traits that are both inspiring and deeply human.
 
 <details>
 <summary class="accordion">TL;DR: Why Olivia Rodrigo is an Enneagram Type 2</summary>

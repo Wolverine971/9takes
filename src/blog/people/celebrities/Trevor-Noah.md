@@ -61,7 +61,7 @@ But what makes Noah's Type 6 personality so fascinating isn't just _how_ it form
 
 ## "Born a Crime": How Apartheid Shaped a Type 6
 
-The core of Type 6 personality is vigilance. They scan for threats. They question authority. They prepare for worst-case scenarios.
+The core of [Type 6 personality](/enneagram-corner/enneagram-type-6) is vigilance. They scan for threats. They question authority. They prepare for worst-case scenarios.
 
 Now imagine developing this personality while growing up in a system where the government literally criminalized your birth. Trevor's mother had to hide him as a child. They couldn't walk together in public. The police could arrest them both if their relationship was discovered.
 

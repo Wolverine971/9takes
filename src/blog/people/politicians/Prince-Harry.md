@@ -48,7 +48,7 @@ Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. 
 
 ### Prince Harry is the 'loyal skeptic' aka the Enneagram Type 6
 
-"Loyal skeptics" are characterized by a complex blend of commitment, security-seeking, and an acute sense of anxiety. Type 6 individuals are the vigilant guardians of their world, constantly scanning for potential hazards yet yearning for stability and trust in their relationships.
+"Loyal skeptics" are characterized by a complex blend of commitment, security-seeking, and an acute sense of anxiety. [Type 6 individuals](/enneagram-corner/enneagram-type-6) are the vigilant guardians of their world, constantly scanning for potential hazards yet yearning for stability and trust in their relationships.
 
 ## A Royal Under the Microscope: The Six's Struggle for Security
 

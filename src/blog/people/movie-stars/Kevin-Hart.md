@@ -55,7 +55,7 @@ But what's happening _behind_ the scenes, inside that lightning-fast brain of hi
 
 ### Kevin Hart is a Type 7: The Enthusiast
 
-If you've ever seen Kevin Hart perform, you've witnessed the epitome of an Enneagram Type 7 in action. Enthusiasts are the ultimate adventure-seekers of the personality world. They crave stimulation, variety, and escape from pain. They're quick-thinking, versatile, and often juggle multiple projects simultaneously.
+If you've ever seen Kevin Hart perform, you've witnessed the epitome of an [Enneagram Type 7](/enneagram-corner/enneagram-type-7) in action. Enthusiasts are the ultimate adventure-seekers of the personality world. They crave stimulation, variety, and escape from pain. They're quick-thinking, versatile, and often juggle multiple projects simultaneously.
 
 Sound familiar?
 

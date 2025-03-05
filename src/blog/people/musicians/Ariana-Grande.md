@@ -99,7 +99,7 @@ This constant evolution perfectly captures the Enneagram Type 3's refusal to rem
 
 What makes Ariana's image so instantly recognizable across global culture?
 
-Type 3 personalities excel at image cultivation, and Ariana masterfully manages every aspect of her public persona.
+[Type 3 personalities](/enneagram-corner/enneagram-type-3) excel at image cultivation, and Ariana masterfully manages every aspect of her public persona.
 
 Her signature high ponytail, winged eyeliner, and over-sized sweatshirts paired with thigh-high boots have become fashion staples. Yet these choices aren't merely aesthetic—they're strategic branding decisions that create a consistent, recognizable image. 👗
 

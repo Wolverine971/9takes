@@ -50,11 +50,9 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Chappell Roan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Chappell Roan.
-
 <p class="firstLetter">Chappell Roan isn't just a star—she's a supernova. The drag-inspired, glitter-drenched pop phenomenon who skyrocketed into mainstream consciousness with "Good Luck, Babe!" represents something far more significant than catchy hooks and eye-popping visuals.</p>
 
-Behind the sequins and theatrical performances stands a small-town girl born Kayleigh Rose Amstutz, whose journey from Willard, Missouri to global pop sensation embodies the quintessential spirit of an Enneagram Type 7—the "Enthusiast" who transforms pain into vibrant, life-affirming art.
+Behind the sequins and theatrical performances stands a small-town girl born Kayleigh Rose Amstutz, whose journey from Willard, Missouri to global pop sensation embodies the quintessential spirit of an [Enneagram Type 7—the "Enthusiast"](/enneagram-corner/enneagram-type-7) who transforms pain into vibrant, life-affirming art.
 
 ## Who Is Chappell Roan Really?
 
@@ -174,6 +172,8 @@ Chappell Roan represents the Enneagram Type 7 at its most vibrant and inspiring�
 Her journey from Midwestern outsider to global pop sensation demonstrates what happens when Type 7 energy is channeled into authentic creative expression: a dazzling supernova that illuminates not just its own path, but creates light for others to follow.
 
 As we've peeled back the layers of sequins to glimpse the person beneath, one question remains: What colorful creation will this enthusiastic explorer dream up next? Whatever it is, you can bet it'll be as vibrant and authentic as Chappell herself.
+
+> **Disclaimer** This analysis of Chappell Roan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Chappell Roan.
 
 <svelte:head>
 

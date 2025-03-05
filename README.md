@@ -30,3 +30,6 @@ https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/
 
 cwebp "Peter-Thiel.png" -o "Peter-Thiel.webp"
 cwebp -sns 70 -f 50 -size 20000 "Peter-Thiel.webp" -o "./s-Peter-Thiel.webp"
+
+<!-- find missing links
+find-markdown.bat C:\Users\djway\Desktop\svelte\9takes\src\blog\people -->

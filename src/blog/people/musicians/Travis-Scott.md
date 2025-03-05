@@ -62,7 +62,7 @@ Travis Scott—the rapper who turned concerts into theme parks and broke streami
 
 The Travis Scott experience is a study in contrasts. Onstage, he's a whirlwind of movement and sound. Offstage? A thoughtful observer. This paradox makes perfect sense when you understand he's an **Enneagram Type 9** (The Peacemaker).
 
-While thousands scream his lyrics in chaotic concert venues, Travis himself is methodically crafting environments where people feel _connected_. The mosh pits aren't just about rage—they're about shared experience. This is classic Type 9 behavior: creating harmony through seemingly chaotic means.
+While thousands scream his lyrics in chaotic concert venues, Travis himself is methodically crafting environments where people feel _connected_. The mosh pits aren't just about rage—they're about shared experience. This is classic [Type 9](/enneagram-corner/enneagram-type-9) behavior: creating harmony through seemingly chaotic means.
 
 His famous McDonald's meal didn't happen by accident. His Nike collaborations weren't random. Each partnership reflects a Type 9's gift for **merging with different worlds** while maintaining a consistent vision. Travis doesn't dominate; he _integrates_.
 

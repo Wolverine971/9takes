@@ -58,7 +58,7 @@ But have you ever wondered what makes him tick? What drives the man who can swit
 
 ### Ryan Reynolds is an Enneagram Type 7 (The Enthusiast)
 
-Type 7s are the adventurers of the Enneagram world — playful, energetic, and always chasing the next exciting experience. They're driven by a core desire to be happy and content, while harboring a deep fear of being trapped in pain or deprivation. For a Type 7, the world is full of possibilities waiting to be explored, and they'll do almost anything to avoid feeling stuck or bored.
+[Type 7s](/enneagram-corner/enneagram-type-7) are the adventurers of the Enneagram world — playful, energetic, and always chasing the next exciting experience. They're driven by a core desire to be happy and content, while harboring a deep fear of being trapped in pain or deprivation. For a Type 7, the world is full of possibilities waiting to be explored, and they'll do almost anything to avoid feeling stuck or bored.
 
 Sound familiar? If you've watched Ryan's career trajectory from sitcom actor to superhero to business mogul, you're seeing a classic Type 7 in action — someone who craves variety, takes risks, and uses humor to navigate life's challenges. But Ryan's version of Type 7 is uniquely his own, shaped by his upbringing, his struggles, and a depth that many miss beneath the surface jokes.
 
