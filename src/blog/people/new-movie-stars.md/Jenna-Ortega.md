@@ -1,16 +1,16 @@
 ---
-title: 'booboo An Enneagram Type tiptype'
-description: 'Why booboo appears to be a type tiptype'
+title: 'Jenna Ortega An Enneagram Type tiptype'
+description: 'Why Jenna Ortega appears to be a type tiptype'
 author: 'DJ Wayne'
 date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/boo-boo'
+loc: 'https://9takes.com/personality-analysis/Jenna-Ortega'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: tiptype
 type: ['celebrity']
-person: 'boo-boo'
+person: 'Jenna-Ortega'
 suggestions: []
 wikipedia: ''
 twitter: ''
@@ -39,17 +39,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'boo-boo'}.webp`}
+		image={`/types/tiptypes/${'Jenna-Ortega'}.webp`}
 		enneagramType={tiptype}
 		showIcon={false}
-		displayText="booboo"
+		displayText="Jenna Ortega"
 		subtext=""
 	/> -->
 </div>
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of booboo's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of booboo.
+> **Disclaimer** This analysis of Jenna Ortega's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jenna Ortega.
 
 <svelte:head>
 

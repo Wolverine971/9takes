@@ -28,5 +28,5 @@
 
 https://docs.google.com/document/d/1G4U6YqqOpmxc0_hD8u1JIBpwgl0kklmW8znFN3yszqE/edit?tab=t.0
 
-cwebp "Tom-Hardy.png" -o "Tom-Hardy.webp"
-cwebp -sns 70 -f 50 -size 20000 "Tom-Hardy.webp" -o "./s-Tom-Hardy.webp"
+cwebp "Peter-Thiel.png" -o "Peter-Thiel.webp"
+cwebp -sns 70 -f 50 -size 20000 "Peter-Thiel.webp" -o "./s-Peter-Thiel.webp"

@@ -104,47 +104,6 @@ Reflecting on his life, Tesla may have felt a blend of pride and unfulfilled dre
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Nikola Tesla
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Tesla:
-
-<article>
-  <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>"Tesla was undoubtedly a genius, but imagine what he could have achieved with a more structured approach. His inventions were groundbreaking, yet his methods seemed haphazard at times."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>"Tesla gave so much to humanity; it's heartbreaking to think he spent his later years in solitude. He deserved more recognition and emotional support for his contributions."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>"Tesla's inventions were revolutionary, but he lacked business savvy. With a bit of marketing, he could have been as famous as Edison. Still, his achievements are impressive."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>"Tesla was a true original, a man unafraid to be different. His emotional complexity and need for uniqueness resonate deeply with me. He's the kind of person I would have loved to be friends with."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>"Tesla's theories on wireless energy and alternating currents are intellectually stimulating. I could spend hours diving into his work, dissecting each idea. He was a man ahead of his time."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>"Tesla's dedication to his vision is admirable, but some of his ideas seem a bit out there. Still, you can't deny his commitment to pushing boundaries, even if it made people uncomfortable."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p>"Tesla's life was an adventure, filled with groundbreaking experiments and challenges. I wish I could have been there to witness his work firsthand; it must have been exhilarating!"</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p>"I respect Tesla for having the guts to go against Edison and the establishment. But some of his ideas, like free energy for all, were a bit too idealistic. Still, he had courage."</p>
-</article>
-<article>
-  <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>"Tesla found a sort of peace in his world, tinkering with his inventions in solitude. Something is calming and beautiful about that, even if the world didn't always understand him."</p>
-</article>
-
 ## Conclusion: The Enneagram and The Genius
 
 Tesla's story is a testament to the power of individuality, the beauty of emotional depth, and the courage it takes to follow one's own path, no matter how unconventional.

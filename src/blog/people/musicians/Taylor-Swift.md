@@ -11,7 +11,7 @@ published: true
 enneagram: 3
 type: ['musician', 'entrepreneur', 'cultural icon']
 person: 'Taylor-Swift'
-suggestions: ['Ariana Grande', 'Beyonce', 'Kanye', 'Lady Gaga', 'Billie Eilish']
+suggestions: ['Blake Lively', 'Ariana Grande', 'Kanye', 'Lady Gaga', 'Billie Eilish']
 keywords:
  [
 'Taylor Swift personality type',

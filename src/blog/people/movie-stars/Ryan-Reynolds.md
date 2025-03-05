@@ -11,7 +11,7 @@ published: true
 enneagram: 7
 type: ['movieStar']
 person: 'Ryan-Reynolds'
-suggestions: ['Dwayne Johnson', 'Leonardo DiCaprio', 'Keanu Reeves']
+suggestions: ['Blake Lively', 'Dwayne Johnson', 'Leonardo DiCaprio', 'Keanu Reeves']
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -50,7 +50,9 @@ import PopCard from "$lib/components/atoms/PopCard.svelte";
 
 > "There's nothing my brothers and I didn't put a hole in. We turned our home into a Wiffle house." — Ryan Reynolds
 
-If you're a Ryan Reynolds fan, you've probably fallen for his quick wit, charming smile, and that unmistakable ability to make you laugh until your sides hurt. But have you ever wondered what makes him tick? What drives the man who can switch from sarcastic Deadpool to devoted father of four without missing a beat? The answer might lie in understanding his personality type — and it's one that explains why we all feel like we could grab a beer with him, even though he's one of Hollywood's biggest stars.
+<p class="firstLetter">If you're a Ryan Reynolds fan, you've probably fallen for his quick wit, charming smile, and that unmistakable ability to make you laugh until your sides hurt.</p>
+
+But have you ever wondered what makes him tick? What drives the man who can switch from sarcastic Deadpool to devoted father of four without missing a beat? The answer might lie in understanding his personality type — and it's one that explains why we all feel like we could grab a beer with him, even though he's one of Hollywood's biggest stars.
 
 ## What is Ryan Reynolds' Personality Type?
 
@@ -137,8 +139,6 @@ Ryan Reynolds proves that being a Type 7 isn't just about seeking pleasure and a
 Next time you watch one of his films or see him promoting a business venture with his trademark wit, you'll recognize that the enthusiasm isn't just for show — it's the authentic expression of a personality type that sees life as an adventure waiting to happen. What parts of Ryan's Type 7 journey resonate with your own personality? Are you also someone who uses humor to navigate life's challenges, or do you find yourself drawn to people who bring that energy into your world?
 
 > **Disclaimer** This analysis of Ryan Reynolds's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Ryan Reynolds.
-
-<p class="firstLetter"></p>
 
 <svelte:head>
 

@@ -112,47 +112,6 @@ Colleagues from various projects often talk about Denzel's protective nature on 
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Denzel Washington
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Denzel Washington:
-
-<article>
-	<a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
-  <p>They might admire Denzel's commitment to justice and his discipline in his craft. His roles in films that address societal issues might resonate with their innate sense of right and wrong.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
-  <p>Attracted to Denzel's protective roles and his real-life charitable endeavors, they might see him as someone who understands the importance of support and love.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
-  <p>Recognizing Denzel's achievements, awards, and dedication to his roles, they'd likely admire his work ethic and see him as a pinnacle of success in the acting world.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
-  <p>They might be drawn to the depth and emotional complexity of Denzel's roles, appreciating his ability to explore and portray the human experience in its rawest form.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
-  <p>Intrigued by Denzel's choices to portray complex characters and his off-screen pursuits of knowledge (like extensive research for roles), they'd respect his intellectual approach to acting.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
-  <p>They might appreciate Denzel's loyalty to his craft and his consistent delivery of powerful performances. His stable career could provide a sense of security and admiration for them.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
-  <p>Drawn to the dynamic and varied roles Denzel takes on, they'd love the excitement and range he brings to the screen, from action-packed thrillers to heartfelt dramas.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
-  <p>They'd likely see a lot of themselves in Denzel, especially in his assertive roles and his off-screen advocacy for justice and equity. His fearless confrontation of issues would resonate deeply.</p>
-</article>
-<article>
-	<a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
-  <p>They might be drawn to the calm, measured public demeanor Denzel often displays, while also admiring his ability to address issues and controversies without escalating conflicts.</p>
-</article>
-
 ## In Conclusion
 
 If there's one thing we've learned today, it's that Denzel Washington's possible alignment with the Enneagram Type 8 gives us a unique perspective into his life, his roles, and his motivations.

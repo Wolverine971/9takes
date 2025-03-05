@@ -144,44 +144,6 @@ Robbie's portrayal transcends acting; it's an exploration of her Enneagram type 
 
 Thus, whether playing Naomi Lapaglia, Tonya Harding, or Harley Quinn, Robbie's performance reflects her acting prowess and Type 8 personality. These roles serve as vehicles for her to confront conflicts, challenge power structures, and display her assertive nature, all of which are critical traits of an Enneagram type 8. Ultimately, Robbie’s characters do more than tell their stories - they offer a profound insight into the actress's personality and Enneagram type 8 characteristics.
 
-<article>
- <a href="/enneagram-corner/enneagram-type-1"><b>Type 1- The Perfectionist:</b></a>
- <p>They may admire Robbie's pursuit of perfection in her roles and professional ethics. However, they might also be critical of her choice to play morally ambiguous characters.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-2"><b>Type 2- The Helper:</b></a>
- <p>They may empathize with her support for charitable causes, seeing her as caring and philanthropic. However, they might also wish for her to express more overtly nurturing roles.
-</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-3"><b>Type 3- The Achiever:</b></a>
- <p>They might perceive Robbie's successful career and public admiration as a significant accomplishment, appreciating her ambition and ability to adapt and thrive in a competitive industry.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-4"><b>Type 4- The Individualist:</b></a>
- <p>They might resonate with Robbie's portrayal of complex, unique characters and appreciate her ability to express a wide range of emotions, seeing in her a similar desire for authenticity.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-5"><b>Type 5- The Investigator:</b></a>
- <p>They may admire Robbie's thoughtful approach to choosing roles and her desire to understand her characters fully. Yet, they might wish she would engage in more intellectually challenging roles.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-6"><b>Type 6- The Loyalist:</b></a>
- <p>They might appreciate Robbie's loyalty to her craft and the courage she demonstrates in choosing challenging roles. However, her intensity and assertion may cause them some discomfort.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-7"><b>Type 7- The Enthusiast:</b></a>
- <p>They likely enjoy Robbie's diverse and dynamic range of roles, appreciating her ability to keep things interesting. Her willingness to take on fun, larger-than-life characters like Harley Quinn might particularly resonate with them.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-8"><b>Type 8- The Challenger:</b></a>
- <p>They might identify with Robbie's assertive roles and fierce independence, viewing her as a mirror of their strength and desire to maintain control over their lives.</p>
-</article>
-<article>
- <a href="/enneagram-corner/enneagram-type-9"><b>Type 9- The Peacemaker:</b></a>
- <p>They may appreciate Robbie's ability to maintain harmony in her personal and professional relationships. Still, they might find her intense roles somewhat overwhelming, preferring to see her in more peaceful, reconciliatory roles.</p>
-</article>
-
 ## Wrapping Up
 
 As we conclude our exploration into the enigmatic world of Margot Robbie, we've witnessed the manifestation of Enneagram type 8 traits in her life and career. While Margot Robbie is undoubtedly a complex individual with a personality that an Enneagram type can't entirely sum up, we've seen intriguing parallels that suggest her as a Type 8 - The Challenger.

@@ -135,22 +135,6 @@ The controversies surrounding Lovato, from their stance on diet culture 🍽️�
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Demi Lovato
-
-<!-- Put arrow toggle (like in Notion) to hide all text unless reader wants to see more) -->
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Demi:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Type 1s might admire Demi's commitment to authenticity and her continuous striving for betterment, aligning with their own pursuit of perfection. However, they might also be critical of her public controversies and perceive them as a lack of self-discipline.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Type 2s, being naturally empathetic, might feel a strong connection to Demi's emotional transparency in her music and advocacy work. They could resonate with her struggles, while also desiring to support her in her journey.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Type 3s might be inspired by Demi's professional achievements, including her successful music and acting career. They could, however, question her public display of emotions, viewing it as a potential barrier to success.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Type 4s would likely deeply resonate with Demi's quest for uniqueness and authenticity. They might see her as a fellow traveler on the journey towards self-discovery and feel understood through her music and advocacy work.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Type 5s might be intrigued by the complexity of Demi's personality and her unflinching exploration of self. They would likely appreciate her vulnerability, while also maintaining an analytical perspective of her actions and decisions.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s could have a mixed reaction towards Demi. They might appreciate her loyalty towards her true self, but her history of impulsivity and risk-taking might cause them to view her as unpredictable and unreliable.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Type 7s would likely be drawn to Demi's dynamism and expressiveness. They might admire her resilience and ability to transform her struggles into art. However, her emotional intensity might be overwhelming for them at times.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s would respect Demi's courage in standing up for her beliefs and her refusal to back down in the face of adversity. They might, however, perceive her emotional vulnerability as a potential weakness.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Type 9s might feel uncomfortable with the intensity and drama surrounding Demi's life. They would, however, appreciate her search for internal and external harmony, as mirrored in her mental health advocacy work.
-
 ## Wrap Up
 
 As we trace back our steps through the journey that has been Demi Lovato's public life, the signs of a classic Enneagram Type 4 personality become more evident. The pursuit of unique identity, the raw emotionality, the longing for authenticity, all intricately intertwined in the narrative of Demi's life.

@@ -90,20 +90,6 @@ Throughout his life, Oppenheimer experienced significant mood swings and depress
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Robert Oppenheimer
-
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Oppenheimer:
-
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Might appreciate Oppenheimer's intellectual rigor and precision but may find his role in creating a weapon of mass destruction morally questionable.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Could admire Oppenheimer's devotion to his work but might feel concerned about his struggles, wishing he had had more emotional support.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Likely respects Oppenheimer's significant accomplishments in science, viewing him as a powerful example of ambition and success.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - May feel a kinship with Oppenheimer's reflective nature, empathizing with his deep emotional turbulence and sense of being misunderstood.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Might be fascinated by Oppenheimer's intellect and curiosity, appreciating his contribution to the scientific community and complex personality.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Could admire Oppenheimer's dedication to his work, yet feel conflicted about his involvement in the Manhattan Project and alleged connections to communism.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - You may be intrigued by Oppenheimer's diverse interests and his role in a historical event but could find his introspective and serious demeanor somewhat off-putting.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Likely admires Oppenheimer's drive and courage to lead a project of such magnitude, yet might be critical of handling the later controversies.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Could feel uneasy about the destructive outcome of Oppenheimer's work and empathize with his internal conflicts, wishing he had found a more harmonious path.
-
 ## The Mysterious Outsider
 
 A sense of being an outsider marked Oppenheimer's life. Despite his crucial role in a project that ended World War II, he was treated with suspicion and endured a public trial during the height of the Red Scare. This sense of alienation resonates with the Type 4's feeling of being different from the world around them.
