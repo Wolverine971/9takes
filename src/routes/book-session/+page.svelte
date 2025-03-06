@@ -50,7 +50,7 @@
 	// Benefits of Enneagram coaching
 	const benefits = [
 		{
-			title: 'Understand Your Core Motivations',
+			title: 'Understand Your Core Motivations and Desires',
 			description:
 				'Discover the unconscious drivers behind your behavior and decision-making patterns.',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>`
@@ -68,7 +68,7 @@
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>`
 		},
 		{
-			title: 'Break Free From Limitations',
+			title: 'Break Free From Negative Pattern',
 			description: 'Recognize and transcend the self-imposed limitations of your personality type.',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>`
 		}
@@ -78,7 +78,7 @@
 	const sessionSteps = [
 		{
 			number: '01',
-			title: 'Type Verification',
+			title: 'Type Identification/ Verification',
 			description: "We'll confirm your Enneagram type with targeted questions to ensure accuracy."
 		},
 		{
@@ -203,15 +203,16 @@
 	<section class="hero-section">
 		<div class="content-wrapper">
 			<div class="text-content">
-				<h1>Unlock Your True Self with Personalized Enneagram Coaching</h1>
+				<h1>Know thyself, <br /> then everything else gets easier.</h1>
 				<p class="subtitle">
-					Join our exclusive waitlist for one-on-one sessions with Enneagram specialists.
+					<!-- Personalized Enneagram Coaching -->
+					Join our waitlist for one-on-one sessions with for personalized Enneagram coaching.
 				</p>
 
 				<div class="features">
 					<div class="feature">
 						<span class="icon">✓</span>
-						<span>Personalized 60-minute sessions</span>
+						<span>60-minute sessions</span>
 					</div>
 					<div class="feature">
 						<span class="icon">✓</span>
@@ -297,10 +298,7 @@
 							</svg>
 						</div>
 						<h2>You're on the list!</h2>
-						<p>
-							Thank you for joining our waitlist. We'll contact you as soon as coaching sessions are
-							available.
-						</p>
+						<p>We'll contact you as soon as <br />coaching sessions are available.</p>
 						<p class="email-note">
 							{#if email}
 								We've sent a confirmation to <strong>{email}</strong>
@@ -335,7 +333,7 @@
 
 	<!-- Benefits Section - Removed animation class -->
 	<section class="benefits-section">
-		<h2>How Enneagram Coaching Transforms Your Life</h2>
+		<h2>What Enneagram Coaching Can Do For You</h2>
 		<div class="benefits-grid">
 			{#each benefits as benefit}
 				<div class="benefit-card">

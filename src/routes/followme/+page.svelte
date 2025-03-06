@@ -59,6 +59,7 @@
 				<iframe
 					width="560"
 					height="315"
+					loading="lazy"
 					src="https://www.youtube.com/embed/-IYvvm8gzqw?si=3UEXg3eGSfzSW7N2"
 					title="YouTube video player"
 					frameborder="0"

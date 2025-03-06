@@ -47,8 +47,6 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
   />
 </div>
 
-> **Disclaimer** This analysis of MrBeast's Enneagram type is speculative, based on publicly available information, and may not reflect Jimmy's actual personality type.
-
 <p class="firstLetter">Look, we've all seen those crazy MrBeast videos pop up in our feeds - you know, the ones where he's giving away houses, spending 50 hours buried alive, or helping 2,000 people walk again. But what drives a 26-year-old from a small town in North Carolina to build the most subscribed YouTube channel in the world with over 365 million subscribers?</p>
 
 Let's dive deeper into Jimmy Donaldson (yeah, that's his real name) and discover what makes this YouTube phenomenon tick. Spoiler alert: there's much more to MrBeast than just outrageous challenges and massive giveaways.
@@ -154,7 +152,7 @@ At just 26 years old, Jimmy Donaldson has already accomplished more than most pe
 
 So what's next for Jimmy? Honestly, who knows. But whatever it is, you can bet it'll be bigger, crazier, and probably involve helping a lot of people along the way. And isn't that something worth watching?
 
-If you're curious about what makes people tick, check out our <a href="/questions">personality quiz</a> and dive deeper into understanding yourself and others. 🚀
+> **Disclaimer** This analysis of MrBeast's Enneagram type is speculative, based on publicly available information, and may not reflect Jimmy's actual personality type.
 
 <svelte:head>
 

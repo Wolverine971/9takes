@@ -25,6 +25,10 @@
 
 	let innerWidth = 0;
 	let isMobile = false;
+	let scrollY = 0;
+	let lastScrollY = 0;
+	let headerVisible = false;
+	let ticking = false;
 
 	// Track swipe gestures for mobile
 	let touchStartX = 0;
@@ -113,12 +117,37 @@
 		}
 	};
 
+	// Handle scroll events for header visibility
+	const handleScroll = () => {
+		if (!ticking && isHomePage) {
+			window.requestAnimationFrame(() => {
+				// Use simpler logic - just check if we're scrolled down enough
+				// This prevents "jumpy" behavior from too many state changes
+				if (scrollY > 100) {
+					headerVisible = true;
+				} else if (scrollY < 50) {
+					headerVisible = false;
+				}
+
+				lastScrollY = scrollY;
+				ticking = false;
+			});
+
+			ticking = true;
+		}
+	};
+
 	onMount(() => {
 		initAnalytics();
 		initFingerprint();
 
 		// Update mobile status based on window width
 		updateMobileStatus();
+
+		// Add scroll event listener
+		if (browser) {
+			window.addEventListener('scroll', handleScroll, { passive: true });
+		}
 
 		console.log(`
  ___  _        _              
@@ -127,8 +156,16 @@
  \\__, | || (_| |   <  __/\\__ \\
    /_/ \\__\\__,_|_|\\_\\___||___/
 `);
+
+		return () => {
+			if (browser) {
+				window.removeEventListener('scroll', handleScroll);
+			}
+		};
 	});
 
+	// Add some spacing to compensate for header height when it becomes visible
+	// This helps prevent content jumps when the header appears
 	// Update mobile status when window resizes
 	const updateMobileStatus = () => {
 		isMobile = innerWidth <= 768;
@@ -154,6 +191,7 @@
 	$: isCategoryPage = $page.url.pathname.includes('/categories');
 	$: shouldShowMaxWidth = !MAX_WIDTH_PAGES.includes($page.url.pathname);
 	$: showBackButton = !isHomePage && !isCategoryPage;
+	$: showHeader = !isHomePage || headerVisible;
 </script>
 
 <svelte:head>
@@ -182,13 +220,15 @@
 	{/if}
 </svelte:head>
 
-<svelte:window bind:innerWidth />
+<svelte:window bind:innerWidth bind:scrollY />
 
-{#if $page.route.id.includes('/stories/')}
+{#if $page?.route?.id?.includes('/stories/')}
 	<slot />
 {:else}
 	<div class="layout-container" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
-		<Header {data} {isMobile} />
+		<div class="header-container" class:visible={showHeader}>
+			<Header {data} />
+		</div>
 		<Toast />
 
 		{#if showBackButton}
@@ -199,11 +239,14 @@
 			<CategoryNavigation categoryStructure={parents} />
 		{/if}
 
-		<main class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}">
+		<main
+			class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}"
+			style="margin-top: {isHomePage && !headerVisible ? '-60px' : '0'};"
+		>
 			<slot />
 		</main>
 
-		<Footer {isMobile} />
+		<Footer />
 	</div>
 {/if}
 
@@ -227,6 +270,18 @@
 		flex-direction: column;
 		min-height: 100vh;
 		width: 100%;
+	}
+
+	.header-container {
+		position: sticky;
+		top: 0;
+		z-index: 100;
+		transform: translateY(-100%);
+		transition: transform 0.3s ease;
+	}
+
+	.header-container.visible {
+		transform: translateY(0);
 	}
 
 	.main {

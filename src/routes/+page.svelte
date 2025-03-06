@@ -6,6 +6,7 @@
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import QuestionItem from '$lib/components/questions/QuestionItem.svelte';
 	import EnneagramDiagram from '$lib/components/blog/EnneagramDiagram.svelte';
+	import PeopleBoard from '$lib/components/molecules/PeopleBoard.svelte';
 
 	export let data: PageData;
 	let innerWidth = 0;
@@ -219,6 +220,25 @@
 			<section
 				class="hero py-8 md:py-16"
 				in:fly={getTransition(0)}
+				style={`min-height: calc(${innerWidth < 400 ? '60vh' : '80vh'} - 80px);`}
+			>
+				<div
+					class="hero-content flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-8"
+				>
+					<PeopleBoard />
+				</div>
+			</section>
+		{:else}
+			<!-- Initial placeholder to prevent layout shift -->
+			<div class="hero-placeholder"></div>
+		{/if}
+	</div>
+
+	<div class="section-wrapper">
+		{#if loaded}
+			<section
+				class="hero py-8 md:py-16"
+				in:fly={getTransition(0)}
 				style="min-height: calc(80vh - 80px);"
 			>
 				<div
@@ -226,14 +246,14 @@
 				>
 					<div class="max-w-xl text-center md:text-left">
 						<h1 class="mb-4 text-4xl font-bold md:mb-6 md:text-5xl lg:text-6xl">
-							9takes, <br /> Open Source Conflict Resolution
+							9takes, <br /> what is your take on life?
 						</h1>
 						<p class=" !text-lg md:mb-6 md:text-lg lg:text-xl" style="    margin: 1rem 0 0.5rem;">
-							Make sense of your personal problems by getting <br />9 perspectives on the situation
-							(via the Enneagram).
+							Ask questions and understand your and other people's takes across different
+							situations.
 						</p>
 						<h2 class="mb-4 text-lg font-medium text-gray-600 md:mb-6 md:text-xl lg:text-2xl">
-							Ask and answer questions <span class="highlight">anonymously</span> in our open forum.
+							Use the Enneagram, to reveal your core fears and motivations.
 						</h2>
 						<div class="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
 							<!-- {#if innerWidth >= 768}
@@ -656,6 +676,7 @@
 			font-size: 2rem;
 			margin-bottom: var(--spacing-sm);
 			display: inline-block;
+			filter: hue-rotate(207deg) saturate(0.5);
 		}
 
 		h3 {

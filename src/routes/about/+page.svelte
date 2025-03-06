@@ -106,6 +106,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen
+				loading="lazy"
 			/>
 		</div>
 	{/if}
@@ -285,13 +286,13 @@
 		@media (min-width: 768px) {
 			width: 50%;
 			margin-bottom: 0;
-			margin: 1rem;
+			// margin: 1rem;
 		}
 
 		img {
 			width: 100%;
 			height: auto;
-			border-radius: 50%;
+			border-bottom-left-radius: 10px;
 			object-fit: cover;
 		}
 	}

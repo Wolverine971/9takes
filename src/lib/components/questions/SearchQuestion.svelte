@@ -91,7 +91,7 @@
 	// Memoized button properties
 	$: buttonText = getButtonText(data);
 	$: buttonDisabled = !data?.canAskQuestion && data?.session?.user?.id;
-	$: placeholder = data?.session?.user?.id ? 'Put question here' : 'Search questions...';
+	$: placeholder = data?.session?.user?.id ? 'Ask a question here' : 'Search questions...';
 
 	function getButtonText(data: any): string {
 		if (!data?.session?.user?.id) return 'Sign up to ask';

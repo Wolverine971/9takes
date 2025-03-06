@@ -84,10 +84,12 @@
 	in:fade={{ duration }}
 >
 	{#if data?.session?.user?.id}
-		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title">Question List</h1>
+		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title">
+			Explore your psychology and those around you
+		</h1>
 	{:else}
 		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title centered">
-			Ask Questions Anonymously & Get Answers
+			Explore your psychology and those around you
 		</h1>
 
 		<div class="intro" in:fly={{ y: 20, duration, delay: 300 }}>
@@ -112,7 +114,7 @@
 	</div>
 
 	<section class="question-category-section" in:fly={{ y: 20, duration, delay: 600 }}>
-		<h2>Explore Questions by Category</h2>
+		<h2>Categories of Questions</h2>
 		<div class="big-tags scrollable-div">
 			{#each data.subcategoryTags as category}
 				{#if category}
@@ -129,7 +131,7 @@
 	</section>
 
 	<section class="recent-questions" in:fly={{ y: 20, duration, delay: 750 }}>
-		<h2>Recent Questions</h2>
+		<!-- <h2>Recent Questions</h2> -->
 		{#each data.subcategoryTags as category}
 			{#if categories[category.category_name]?.length}
 				<div class="category-section" in:fly={{ y: 20, duration, delay: 600 }}>
