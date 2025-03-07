@@ -30,16 +30,19 @@
 	$: homeUrl = $page.url.pathname.includes('9takes') ? 'https://9takes.com' : '/';
 </script>
 
-<footer class="footer">
-	<div class="footer__container">
+<footer class="mt-8 w-full border-t border-gray-100 py-4">
+	<div class="mx-auto flex max-w-7xl flex-col items-center px-4 md:px-8">
 		<!-- Navigation links -->
-		<nav class="footer__nav" aria-label="Footer Navigation">
-			<ul>
+		<nav class="mb-4" aria-label="Footer Navigation">
+			<ul
+				class="xs:gap-4 xs:justify-between xs:w-full m-0 flex list-none flex-wrap justify-center gap-8 p-0 sm:gap-8"
+			>
 				{#each links as { href, label }}
-					<li>
+					<li class="m-0">
 						<a
 							href={href === '/' ? homeUrl : href}
-							class:is-active={$page.url.pathname === href}
+							class="relative py-2 font-semibold text-gray-800 no-underline transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-indigo-600 after:transition-all after:duration-200 after:content-[''] hover:text-indigo-600 hover:after:w-full"
+							class:active-link={$page.url.pathname === href}
 							aria-current={isActive(href) ? 'page' : undefined}
 						>
 							{label}
@@ -50,152 +53,64 @@
 		</nav>
 
 		<!-- Social media links -->
-		<div class="footer__social">
+		<div class="mb-4 flex gap-4">
 			{#each socialLinks as { href, img, alt }}
 				<a
 					{href}
 					target="_blank"
 					rel="noreferrer noopener"
-					class="footer__social-link"
+					class="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-100 transition-all duration-200 hover:-translate-y-0.5 hover:bg-indigo-200"
 					aria-label={alt}
 				>
-					<img src={img} {alt} title={alt} width="24" height="24" loading="lazy" />
+					<img
+						src={img}
+						{alt}
+						title={alt}
+						width="24"
+						height="24"
+						loading="lazy"
+						class="h-6 w-6 object-contain"
+					/>
 				</a>
 			{/each}
 		</div>
 
 		<!-- Copyright info -->
-		<div class="footer__copyright">
-			<p>&copy; {new Date().getFullYear()} 9takes. All rights reserved.</p>
+		<div class="text-center">
+			<p class="mt-2 text-sm text-gray-500">
+				&copy; {new Date().getFullYear()} 9takes. All rights reserved.
+			</p>
 		</div>
 	</div>
 </footer>
 
-<style lang="scss">
-	// Variables
-	$primary-color: var(--primary, #833bff);
-	$text-color: var(--dark-gray, #333);
-	$spacing-sm: 0.5rem;
-	$spacing-md: 1rem;
-	$spacing-lg: 2rem;
-	$transition: 0.2s ease;
-
-	// Footer base styles
-	.footer {
-		width: 100%;
-		padding: $spacing-md 0;
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		margin-top: $spacing-lg;
-
-		&__container {
-			max-width: 1200px;
-			margin: 0 auto;
-			padding: 0 $spacing-md;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-		}
-
-		// Navigation styling
-		&__nav {
-			margin-bottom: $spacing-md;
-
-			ul {
-				display: flex;
-				justify-content: center;
-				flex-wrap: wrap;
-				gap: $spacing-lg;
-				padding: 0;
-				margin: 0;
-				list-style: none;
-
-				@media (max-width: 480px) {
-					gap: $spacing-md;
-					justify-content: space-between;
-					width: 100%;
-				}
-			}
-
-			li {
-				margin: 0;
-			}
-
-			a {
-				color: $text-color;
-				text-decoration: none;
-				font-weight: 600;
-				padding: $spacing-sm 0;
-				position: relative;
-				transition: color $transition;
-
-				&::after {
-					content: '';
-					position: absolute;
-					width: 0;
-					height: 2px;
-					background: $primary-color;
-					left: 0;
-					bottom: 0;
-					transition: width $transition;
-				}
-
-				&:hover,
-				&.is-active {
-					color: $primary-color;
-
-					&::after {
-						width: 100%;
-					}
-				}
-			}
-		}
-
-		// Social links styling
-		&__social {
-			display: flex;
-			gap: $spacing-md;
-			margin-bottom: $spacing-md;
-
-			&-link {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 36px;
-				height: 36px;
-				border-radius: 50%;
-				background-color: rgba($primary-color, 0.1);
-				transition:
-					transform $transition,
-					background-color $transition;
-
-				&:hover {
-					background-color: rgba($primary-color, 0.2);
-					transform: translateY(-2px);
-				}
-
-				img {
-					width: 24px;
-					height: 24px;
-					object-fit: contain;
-				}
-			}
-		}
-
-		// Copyright info
-		&__copyright {
-			text-align: center;
-			font-size: 0.875rem;
-			color: rgba($text-color, 0.6);
-			margin-top: $spacing-sm;
-		}
+<style>
+	a:hover {
+		/* color: var(--accent-dark); */
+		text-decoration: none;
 	}
 
-	// Responsive adjustments
-	@media (min-width: 768px) {
-		.footer {
-			&__container {
-				padding: 0 $spacing-lg;
-			}
+	/* Add active link style - this is easier to handle in a style block than with Tailwind conditionals */
+	.active-link {
+		@apply text-indigo-600;
+	}
+
+	.active-link::after {
+		@apply w-full;
+	}
+
+	/* Add responsive classes that might not be in default Tailwind */
+	@media (max-width: 480px) {
+		.xs\:gap-4 {
+			gap: 1rem;
+		}
+
+		.xs\:justify-between {
+			justify-content: space-between;
+		}
+
+		.xs\:w-full {
+			width: 100%;
 		}
 	}
 </style>

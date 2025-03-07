@@ -50,7 +50,7 @@
 	// Benefits of Enneagram coaching
 	const benefits = [
 		{
-			title: 'Understand Your Core Motivations and Desires',
+			title: 'Understand Your Core Motivations',
 			description:
 				'Discover the unconscious drivers behind your behavior and decision-making patterns.',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>`
@@ -100,7 +100,6 @@
 		}
 	];
 
-	// We don't need the handleSubmit function anymore since we're using form actions
 	// Check if the user is already signed up
 	$: if (data.alreadySignedUp && !form?.success) {
 		submitted = true;
@@ -198,41 +197,57 @@
 	<meta name="mobile-web-app-capable" content="yes" />
 </svelte:head>
 
-<div class="book-session-container">
+<div class="mx-auto max-w-7xl px-4">
 	<!-- Hero Section -->
-	<section class="hero-section">
-		<div class="content-wrapper">
-			<div class="text-content">
-				<h1>Know thyself, <br /> then everything else gets easier.</h1>
-				<p class="subtitle">
-					<!-- Personalized Enneagram Coaching -->
+	<section class="py-16 md:py-20">
+		<div class="flex flex-col gap-8 md:flex-row md:items-center">
+			<div class="flex-1">
+				<h1
+					class="mb-4 bg-gradient-to-r from-gray-800 to-indigo-800 bg-clip-text text-4xl font-bold leading-tight text-transparent md:text-5xl"
+				>
+					Know thyself, <br /> everything else will get easier.
+				</h1>
+				<p class="mb-8 text-xl text-gray-600">
 					Join our waitlist for one-on-one sessions with for personalized Enneagram coaching.
 				</p>
 
-				<div class="features">
-					<div class="feature">
-						<span class="icon">✓</span>
-						<span>60-minute sessions</span>
+				<div class="space-y-3">
+					<div class="flex items-center">
+						<span
+							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
+							>✓</span
+						>
+						<span class="text-lg">60-minute sessions</span>
 					</div>
-					<div class="feature">
-						<span class="icon">✓</span>
-						<span>Custom growth strategies for your type</span>
+					<div class="flex items-center">
+						<span
+							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
+							>✓</span
+						>
+						<span class="text-lg">Custom growth strategies for your type</span>
 					</div>
-					<div class="feature">
-						<span class="icon">✓</span>
-						<span>Relationship insights & communication tools</span>
+					<div class="flex items-center">
+						<span
+							class="mr-3 flex h-6 w-6 items-center justify-center rounded-full bg-indigo-600 text-sm text-white"
+							>✓</span
+						>
+						<span class="text-lg">Relationship insights & communication tools</span>
 					</div>
 				</div>
 			</div>
 
-			<div class="form-container glass-area">
+			<div
+				class="w-full rounded-2xl border border-gray-200 bg-white/80 p-8 shadow-lg backdrop-blur-md md:max-w-md"
+			>
 				{#if !submitted}
-					<h2>Join the Waitlist</h2>
-					<p>Be among the first to access our personalized coaching sessions when they launch.</p>
+					<h2 class="mb-2 text-2xl font-bold text-indigo-800">Join the Waitlist</h2>
+					<p class="mb-6 text-gray-600">
+						Be among the first to get personalized coaching sessions.
+					</p>
 
-					<form method="POST" action="?/coachSub">
-						<div class="form-group">
-							<label for="name">Name</label>
+					<form method="POST" action="?/coachSub" class="space-y-5">
+						<div>
+							<label for="name" class="mb-2 block font-medium text-gray-800">Name</label>
 							<input
 								type="text"
 								id="name"
@@ -240,11 +255,12 @@
 								value={name}
 								placeholder="Your name"
 								required
+								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
 							/>
 						</div>
 
-						<div class="form-group">
-							<label for="email">Email</label>
+						<div>
+							<label for="email" class="mb-2 block font-medium text-gray-800">Email</label>
 							<input
 								type="email"
 								id="email"
@@ -252,12 +268,19 @@
 								value={email}
 								placeholder="your@email.com"
 								required
+								class="w-full rounded-lg border border-gray-300 p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
 							/>
 						</div>
 
-						<div class="form-group">
-							<label for="enneagramType">Your Enneagram Type (if known)</label>
-							<select id="enneagramType" name="enneagramType">
+						<div>
+							<label for="enneagramType" class="mb-2 block font-medium text-gray-800"
+								>Your Enneagram Type (if known)</label
+							>
+							<select
+								id="enneagramType"
+								name="enneagramType"
+								class="w-full rounded-lg border border-gray-300 bg-white p-3 focus:border-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-200"
+							>
 								<option value="">I don't know my type yet</option>
 								<option value="1">Type 1 - The Reformer</option>
 								<option value="2">Type 2 - The Helper</option>
@@ -272,16 +295,20 @@
 						</div>
 
 						{#if form?.message && !form?.success}
-							<div class="error-message">{form.message}</div>
+							<div class="text-sm text-red-500">{form.message}</div>
 						{/if}
 
-						<button type="submit" class="submit-button" disabled={loading}>
+						<button
+							type="submit"
+							class="w-full transform rounded-lg bg-indigo-600 px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md disabled:transform-none disabled:cursor-not-allowed disabled:bg-gray-400 disabled:shadow-none"
+							disabled={loading}
+						>
 							{loading ? 'Processing...' : 'Join Waitlist'}
 						</button>
 					</form>
 				{:else}
-					<div class="success-message">
-						<div class="icon-success">
+					<div class="py-4 text-center">
+						<div class="mb-4 flex justify-center">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="48"
@@ -292,14 +319,17 @@
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
+								class="text-green-500"
 							>
 								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
 								<polyline points="22 4 12 14.01 9 11.01"></polyline>
 							</svg>
 						</div>
-						<h2>You're on the list!</h2>
-						<p>We'll contact you as soon as <br />coaching sessions are available.</p>
-						<p class="email-note">
+						<h2 class="mb-4 text-2xl font-bold text-green-600">You're on the list!</h2>
+						<p class="mb-6 text-gray-600">
+							We'll contact you as soon as <br />coaching sessions are available.
+						</p>
+						<p class="mb-8 text-sm text-gray-500">
 							{#if email}
 								We've sent a confirmation to <strong>{email}</strong>
 							{:else}
@@ -307,807 +337,170 @@
 							{/if}
 						</p>
 
-						<a href="/" class="home-button">Back to Home</a>
+						<a
+							href="/"
+							class="inline-block transform rounded-lg bg-indigo-600 px-6 py-3 font-semibold !text-white transition hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
+						>
+							Back to Home
+						</a>
 					</div>
 				{/if}
 			</div>
 		</div>
 	</section>
 
-	<!-- Testimonials Section - Removed animation class for reliability -->
-	<!-- <section class="testimonials-section">
-		<h2>What People Are Saying</h2>
-		<div class="testimonials-container">
-			{#each testimonials as testimonial}
-				<div class="testimonial-card">
-					<div class="quote">"</div>
-					<p class="testimonial-text">{testimonial.quote}</p>
-					<div class="testimonial-author">
-						<strong>{testimonial.author}</strong>
-						<span class="type-tag">{testimonial.type}</span>
-					</div>
-				</div>
-			{/each}
-		</div>
-	</section> -->
-
-	<!-- Benefits Section - Removed animation class -->
-	<section class="benefits-section">
-		<h2>What Enneagram Coaching Can Do For You</h2>
-		<div class="benefits-grid">
+	<!-- Benefits Section -->
+	<section class="my-8 rounded-2xl bg-gray-50 py-16">
+		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
+			What Enneagram Coaching Can Do For You
+		</h2>
+		<div class="grid grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-4">
 			{#each benefits as benefit}
-				<div class="benefit-card">
-					<div class="benefit-icon">
-						{@html benefit.icon}
+				<div
+					class="h-full rounded-xl border border-gray-200 bg-white p-6 text-center transition duration-300 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-md"
+				>
+					<div
+						class="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100"
+					>
+						<div class="text-indigo-800">
+							{@html benefit.icon}
+						</div>
 					</div>
-					<h3>{benefit.title}</h3>
-					<p>{benefit.description}</p>
+					<h3 class="mb-3 text-xl font-semibold text-indigo-800">{benefit.title}</h3>
+					<p class="text-sm text-gray-600">{benefit.description}</p>
 				</div>
 			{/each}
 		</div>
 	</section>
 
-	<!-- Session Process Section - Removed animation class -->
-	<section class="session-process">
-		<h2>What to Expect in Your Session</h2>
-		<div class="steps-container">
+	<!-- Session Process Section -->
+	<section class="py-16">
+		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">
+			What to Expect in Your Session
+		</h2>
+		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
 			{#each sessionSteps as step}
-				<div class="step-card">
-					<div class="step-number">{step.number}</div>
-					<div class="step-content">
-						<h3>{step.title}</h3>
-						<p>{step.description}</p>
+				<div
+					class="flex rounded-xl border border-gray-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-md"
+				>
+					<div class="mr-4 text-3xl font-bold text-indigo-600 opacity-80">{step.number}</div>
+					<div>
+						<h3 class="mb-2 text-xl font-semibold text-indigo-800">{step.title}</h3>
+						<p class="text-sm text-gray-600">{step.description}</p>
 					</div>
 				</div>
 			{/each}
 		</div>
 	</section>
 
-	<!-- Enneagram Visual Section - Removed animation class -->
-	<section class="enneagram-visual-section">
-		<div class="content-split">
-			<div class="text-content">
-				<h2>The Power of the Enneagram</h2>
-				<p>
+	<!-- Enneagram Visual Section -->
+	<section class="my-8 rounded-2xl bg-gradient-to-br from-indigo-800 to-gray-800 py-16 text-white">
+		<div class="flex flex-col gap-8 md:flex-row md:items-center">
+			<div class="flex-1 p-8">
+				<h2 class="mb-6 text-3xl font-bold text-white">The Power of the Enneagram</h2>
+				<p class="mb-4 text-lg text-white/90">
 					The Enneagram isn't just another personality test. It's a profound system of understanding
 					that reveals your core motivations, fears, and desires.
 				</p>
-				<p>
+				<p class="mb-4 text-lg text-white/90">
 					Our coaches are extensively trained to help you apply this wisdom to your unique
 					circumstances and challenges.
 				</p>
-				<p>
+				<p class="mb-4 text-lg text-white/90">
 					When you understand your type at a deep level, you gain access to new possibilities for
 					growth and transformation.
 				</p>
 
-				<div class="cta-secondary">
-					<a href="#top" class="cta-button">Join the Waitlist</a>
+				<div class="mt-8 flex flex-col items-center gap-4 sm:flex-row">
+					<a
+						href="#top"
+						class="inline-block transform rounded-lg bg-white px-6 py-3.5 text-center font-semibold text-indigo-800 transition hover:-translate-y-0.5 hover:shadow-md"
+					>
+						Join the Waitlist
+					</a>
 					<a
 						href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
-						class="text-link">Learn more about the Enneagram →</a
+						class="border-b border-white/30 pb-0.5 !text-white transition hover:border-white"
 					>
+						Learn more about the Enneagram →
+					</a>
 				</div>
 			</div>
 
-			<div class="diagram-container">
+			<div class="flex flex-1 items-center justify-center p-4">
 				<EnneagramDiagram />
 			</div>
 		</div>
 	</section>
 
-	<!-- FAQ Section - Removed animation class -->
-	<section class="faq-section">
-		<h2>Frequently Asked Questions</h2>
-		<div class="faq-grid">
-			<div class="faq-item">
-				<h3>How long are the coaching sessions?</h3>
-				<p>
-					Each initial session is 60 minutes, with follow-up sessions available in 30 or 60-minute
-					formats based on your needs.
+	<!-- FAQ Section -->
+	<section class="py-16">
+		<h2 class="mb-10 text-center text-3xl font-bold text-gray-800">Frequently Asked Questions</h2>
+		<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+			<div class="rounded-xl border border-gray-200 bg-white p-6">
+				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
+					<span class="absolute left-0 text-indigo-600">Q:</span>
+					How long are the coaching sessions?
+				</h3>
+				<p class="relative pl-6 text-gray-600">
+					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
+					Each initial session is 60 minutes, with follow-up sessions available in 30 or 60-minute formats
+					based on your needs.
 				</p>
 			</div>
-			<div class="faq-item">
-				<h3>Do I need to know my Enneagram type already?</h3>
-				<p>
-					No, part of our coaching process includes helping you accurately identify your type if
-					you're unsure.
+			<div class="rounded-xl border border-gray-200 bg-white p-6">
+				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
+					<span class="absolute left-0 text-indigo-600">Q:</span>
+					Do I need to know my Enneagram type already?
+				</h3>
+				<p class="relative pl-6 text-gray-600">
+					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
+					No, part of our coaching process includes helping you accurately identify your type if you're
+					unsure.
 				</p>
 			</div>
-			<div class="faq-item">
-				<h3>How are sessions conducted?</h3>
-				<p>
-					Sessions are held virtually via video call, allowing you to connect with our coaches from
-					anywhere in the world.
+			<div class="rounded-xl border border-gray-200 bg-white p-6">
+				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
+					<span class="absolute left-0 text-indigo-600">Q:</span>
+					How are sessions conducted?
+				</h3>
+				<p class="relative pl-6 text-gray-600">
+					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
+					Sessions are held virtually via video call, allowing you to connect with our coaches from anywhere
+					in the world.
 				</p>
 			</div>
-			<div class="faq-item">
-				<h3>When will coaching sessions become available?</h3>
-				<p>
-					We're currently finalizing our coaching team and platform. Waitlist members will be the
-					first to know when sessions launch and will receive priority booking.
+			<div class="rounded-xl border border-gray-200 bg-white p-6">
+				<h3 class="relative mb-3 pl-6 text-xl font-semibold text-indigo-800">
+					<span class="absolute left-0 text-indigo-600">Q:</span>
+					When will coaching sessions become available?
+				</h3>
+				<p class="relative pl-6 text-gray-600">
+					<span class="absolute left-0 font-semibold text-indigo-500">A:</span>
+					We're currently finalizing our coaching team and platform. Waitlist members will be the first
+					to know when sessions launch and will receive priority booking.
 				</p>
 			</div>
 		</div>
 	</section>
 
-	<!-- Final CTA - Removed animation class -->
-	<section class="final-cta">
-		<div class="cta-content">
-			<h2>Ready to Dive Deeper Into Your Enneagram Journey?</h2>
-			<p>
+	<!-- Final CTA -->
+	<section
+		class="my-12 rounded-2xl border border-gray-200 bg-gradient-to-r from-indigo-100 to-white px-8 py-12 text-center shadow-md"
+	>
+		<div class="mx-auto max-w-2xl">
+			<h2 class="mb-4 text-3xl font-bold text-indigo-800">
+				Ready to Dive Deeper Into Your Enneagram Journey?
+			</h2>
+			<p class="mb-8 text-lg text-gray-600">
 				Join our waitlist today and be the first to access our transformative coaching sessions.
 			</p>
-			<a href="#top" class="cta-button-large">Join the Waitlist</a>
+			<a
+				href="#top"
+				class="inline-block transform rounded-lg bg-indigo-600 px-8 py-4 text-lg font-semibold !text-white transition hover:-translate-y-1 hover:bg-indigo-700 hover:shadow-lg"
+			>
+				Join the Waitlist
+			</a>
 		</div>
 	</section>
 </div>
-
-<style lang="scss">
-	:global(body) {
-		background-color: var(--background-color, #f7f7ff);
-	}
-
-	.book-session-container {
-		max-width: 1200px;
-		margin: 0 auto;
-		padding: 0 1rem;
-	}
-
-	/* Hero Section */
-	.hero-section {
-		padding: 4rem 0 3rem;
-
-		.content-wrapper {
-			display: flex;
-			flex-direction: column;
-			gap: 2rem;
-
-			@media (min-width: 768px) {
-				flex-direction: row;
-				align-items: center;
-			}
-		}
-
-		.text-content {
-			flex: 1;
-
-			h1 {
-				font-size: 2.5rem;
-				line-height: 1.2;
-				margin-bottom: 1rem;
-				background: linear-gradient(90deg, var(--darkest-gray) 0%, var(--primary-dark) 100%);
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				background-clip: text;
-				font-weight: 700;
-
-				@media (min-width: 768px) {
-					font-size: 3rem;
-				}
-			}
-
-			.subtitle {
-				font-size: 1.25rem;
-				color: var(--text-secondary);
-				margin-bottom: 2rem;
-			}
-		}
-
-		.features {
-			margin-top: 1.5rem;
-
-			.feature {
-				display: flex;
-				align-items: center;
-				margin-bottom: 0.75rem;
-
-				.icon {
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					width: 24px;
-					height: 24px;
-					border-radius: 50%;
-					background-color: var(--primary);
-					color: white;
-					margin-right: 0.75rem;
-					font-size: 0.875rem;
-				}
-
-				span {
-					font-size: 1.1rem;
-				}
-			}
-		}
-	}
-
-	/* Form Container */
-	.form-container {
-		width: 100%;
-		max-width: 450px;
-		padding: 2rem;
-		border-radius: 1rem;
-		background: rgba(255, 255, 255, 0.8);
-		backdrop-filter: blur(10px);
-		-webkit-backdrop-filter: blur(10px);
-		box-shadow: var(--shadow-lg);
-		border: 1px solid var(--light-gray);
-
-		h2 {
-			color: var(--primary-dark);
-			margin-bottom: 0.5rem;
-		}
-
-		p {
-			color: var(--text-secondary);
-			margin-bottom: 1.5rem;
-		}
-
-		.form-group {
-			margin-bottom: 1.25rem;
-
-			label {
-				display: block;
-				margin-bottom: 0.5rem;
-				font-weight: 500;
-				color: var(--darkest-gray);
-			}
-
-			input,
-			select {
-				width: 100%;
-				padding: 0.75rem;
-				border: 1px solid var(--light-gray);
-				border-radius: 0.5rem;
-				font-size: 1rem;
-				background-color: white;
-
-				&:focus {
-					outline: none;
-					border-color: var(--primary);
-					box-shadow: 0 0 0 2px var(--accent-light);
-				}
-			}
-		}
-
-		.error-message {
-			color: var(--error);
-			margin-bottom: 1rem;
-			font-size: 0.875rem;
-		}
-
-		.submit-button {
-			width: 100%;
-			background-color: var(--primary);
-			color: white;
-			border: none;
-			padding: 0.875rem 1.5rem;
-			border-radius: 0.5rem;
-			font-size: 1rem;
-			font-weight: 600;
-			cursor: pointer;
-			transition: all 0.2s ease;
-
-			&:hover {
-				background-color: var(--primary-dark);
-				transform: translateY(-2px);
-				box-shadow: var(--shadow-md);
-			}
-
-			&:disabled {
-				background-color: var(--medium-gray);
-				cursor: not-allowed;
-				transform: none;
-				box-shadow: none;
-			}
-		}
-	}
-
-	/* Success Message */
-	.success-message {
-		text-align: center;
-		padding: 1rem 0;
-
-		.icon-success {
-			display: flex;
-			justify-content: center;
-			margin-bottom: 1rem;
-
-			svg {
-				color: var(--success);
-			}
-		}
-
-		h2 {
-			color: var(--success);
-			margin-bottom: 1rem;
-		}
-
-		p {
-			margin-bottom: 1.5rem;
-		}
-
-		.email-note {
-			font-size: 0.875rem;
-			opacity: 0.8;
-			margin-bottom: 2rem;
-		}
-
-		.home-button {
-			display: inline-block;
-			background-color: var(--primary);
-			color: white;
-			padding: 0.75rem 1.5rem;
-			border-radius: 0.5rem;
-			text-decoration: none;
-			font-weight: 600;
-			transition: all 0.2s ease;
-
-			&:hover {
-				background-color: var(--primary-dark);
-				transform: translateY(-2px);
-				box-shadow: var(--shadow-md);
-			}
-		}
-	}
-
-	/* Testimonials Section */
-	.testimonials-section {
-		padding: 4rem 0;
-		text-align: center;
-
-		h2 {
-			margin-bottom: 2.5rem;
-			font-size: 2rem;
-			color: var(--darkest-gray);
-		}
-
-		.testimonials-container {
-			display: grid;
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
-
-			@media (min-width: 768px) {
-				grid-template-columns: repeat(3, 1fr);
-			}
-		}
-
-		.testimonial-card {
-			background-color: white;
-			border-radius: 1rem;
-			padding: 2rem;
-			text-align: left;
-			position: relative;
-			box-shadow: var(--shadow-md);
-			border: 1px solid var(--light-gray);
-			height: 100%;
-			display: flex;
-			flex-direction: column;
-
-			.quote {
-				position: absolute;
-				top: 1rem;
-				left: 1.5rem;
-				font-size: 4rem;
-				line-height: 1;
-				color: var(--accent-light);
-				font-family: serif;
-				opacity: 0.8;
-			}
-
-			.testimonial-text {
-				margin-top: 1.5rem;
-				margin-bottom: 1.5rem;
-				color: var(--text-primary);
-				font-style: italic;
-				z-index: 1;
-				flex: 1;
-			}
-
-			.testimonial-author {
-				display: flex;
-				flex-direction: column;
-
-				strong {
-					color: var(--darkest-gray);
-				}
-
-				.type-tag {
-					display: inline-block;
-					background-color: var(--accent-light);
-					color: var(--primary-dark);
-					padding: 0.25rem 0.5rem;
-					border-radius: 0.25rem;
-					font-size: 0.75rem;
-					margin-top: 0.5rem;
-					align-self: flex-start;
-				}
-			}
-		}
-	}
-
-	/* Benefits Section */
-	.benefits-section {
-		padding: 4rem 0;
-		background-color: var(--off-white);
-		border-radius: 1rem;
-		margin: 2rem 0;
-
-		h2 {
-			text-align: center;
-			margin-bottom: 2.5rem;
-			font-size: 2rem;
-			color: var(--darkest-gray);
-		}
-
-		.benefits-grid {
-			display: grid;
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
-			padding: 0 1rem;
-
-			@media (min-width: 640px) {
-				grid-template-columns: repeat(2, 1fr);
-			}
-
-			@media (min-width: 1024px) {
-				grid-template-columns: repeat(4, 1fr);
-			}
-		}
-
-		.benefit-card {
-			background-color: white;
-			border-radius: 0.75rem;
-			padding: 1.5rem;
-			text-align: center;
-			height: 100%;
-			border: 1px solid var(--light-gray);
-			transition: all 0.3s ease;
-
-			&:hover {
-				transform: translateY(-5px);
-				box-shadow: var(--shadow-md);
-				border-color: var(--accent-light);
-			}
-
-			.benefit-icon {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				width: 60px;
-				height: 60px;
-				background-color: var(--accent-light);
-				border-radius: 50%;
-				margin: 0 auto 1rem;
-
-				svg {
-					color: var(--primary-dark);
-				}
-			}
-
-			h3 {
-				color: var(--primary-dark);
-				margin-bottom: 0.75rem;
-				font-size: 1.25rem;
-			}
-
-			p {
-				color: var(--text-secondary);
-				font-size: 0.95rem;
-			}
-		}
-	}
-
-	/* Session Process Section */
-	.session-process {
-		padding: 4rem 0;
-
-		h2 {
-			text-align: center;
-			margin-bottom: 2.5rem;
-			font-size: 2rem;
-			color: var(--darkest-gray);
-		}
-
-		.steps-container {
-			display: grid;
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
-
-			@media (min-width: 768px) {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		.step-card {
-			display: flex;
-			background-color: white;
-			border-radius: 0.75rem;
-			padding: 1.5rem;
-			border: 1px solid var(--light-gray);
-			transition: all 0.3s ease;
-
-			&:hover {
-				transform: translateY(-3px);
-				box-shadow: var(--shadow-md);
-				border-color: var(--accent-light);
-			}
-
-			.step-number {
-				font-size: 2rem;
-				font-weight: 700;
-				color: var(--primary);
-				margin-right: 1rem;
-				opacity: 0.8;
-			}
-
-			.step-content {
-				flex: 1;
-
-				h3 {
-					color: var(--primary-dark);
-					margin-bottom: 0.5rem;
-					font-size: 1.25rem;
-				}
-
-				p {
-					color: var(--text-secondary);
-					font-size: 0.95rem;
-				}
-			}
-		}
-	}
-
-	/* Enneagram Visual Section */
-	.enneagram-visual-section {
-		padding: 4rem 0;
-		background: linear-gradient(135deg, var(--primary-dark) 0%, var(--darkest-gray) 100%);
-		color: white;
-		border-radius: 1rem;
-		margin: 2rem 0;
-
-		.content-split {
-			display: flex;
-			flex-direction: column;
-			gap: 2rem;
-
-			@media (min-width: 768px) {
-				flex-direction: row;
-				align-items: center;
-			}
-		}
-
-		.text-content {
-			flex: 1;
-			padding: 2rem;
-
-			h2 {
-				color: white;
-				margin-bottom: 1.5rem;
-				font-size: 2rem;
-			}
-
-			p {
-				color: rgba(255, 255, 255, 0.9);
-				margin-bottom: 1rem;
-				font-size: 1.1rem;
-			}
-		}
-
-		.diagram-container {
-			flex: 1;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 1rem;
-		}
-
-		.cta-secondary {
-			margin-top: 2rem;
-			display: flex;
-			flex-direction: column;
-			gap: 1rem;
-
-			@media (min-width: 640px) {
-				flex-direction: row;
-				align-items: center;
-			}
-
-			.cta-button {
-				display: inline-block;
-				background-color: white;
-				color: var(--primary-dark);
-				padding: 0.875rem 1.5rem;
-				border-radius: 0.5rem;
-				text-decoration: none;
-				font-weight: 600;
-				text-align: center;
-				transition: all 0.2s ease;
-
-				&:hover {
-					transform: translateY(-2px);
-					box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-				}
-			}
-
-			.text-link {
-				color: white;
-				text-decoration: none;
-				display: inline-block;
-				border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-				padding-bottom: 2px;
-				transition: all 0.2s ease;
-
-				&:hover {
-					border-bottom-color: white;
-				}
-			}
-		}
-	}
-
-	/* FAQ Section */
-	.faq-section {
-		padding: 4rem 0;
-
-		h2 {
-			text-align: center;
-			margin-bottom: 2.5rem;
-			font-size: 2rem;
-			color: var(--darkest-gray);
-		}
-
-		.faq-grid {
-			display: grid;
-			grid-template-columns: 1fr;
-			gap: 1.5rem;
-
-			@media (min-width: 768px) {
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-
-		.faq-item {
-			background-color: white;
-			border-radius: 0.75rem;
-			padding: 1.5rem;
-			border: 1px solid var(--light-gray);
-
-			h3 {
-				color: var(--primary-dark);
-				margin-bottom: 0.75rem;
-				font-size: 1.25rem;
-				position: relative;
-				padding-left: 1.5rem;
-
-				&:before {
-					content: 'Q:';
-					position: absolute;
-					left: 0;
-					color: var(--primary);
-				}
-			}
-
-			p {
-				color: var(--text-secondary);
-				position: relative;
-				padding-left: 1.5rem;
-
-				&:before {
-					content: 'A:';
-					position: absolute;
-					left: 0;
-					color: var(--accent);
-					font-weight: 600;
-				}
-			}
-		}
-	}
-
-	/* Final CTA */
-	.final-cta {
-		background: linear-gradient(135deg, var(--accent-light) 0%, white 100%);
-		border-radius: 1rem;
-		padding: 3rem 2rem;
-		text-align: center;
-		margin: 3rem 0;
-		border: 1px solid var(--light-gray);
-		box-shadow: var(--shadow-md);
-
-		.cta-content {
-			max-width: 700px;
-			margin: 0 auto;
-
-			h2 {
-				color: var(--primary-dark);
-				margin-bottom: 1rem;
-				font-size: 2rem;
-			}
-
-			p {
-				color: var(--text-secondary);
-				margin-bottom: 2rem;
-				font-size: 1.1rem;
-			}
-
-			.cta-button-large {
-				display: inline-block;
-				background-color: var(--primary);
-				color: white;
-				padding: 1rem 2rem;
-				border-radius: 0.5rem;
-				text-decoration: none;
-				font-weight: 600;
-				font-size: 1.125rem;
-				transition: all 0.3s ease;
-
-				&:hover {
-					background-color: var(--primary-dark);
-					transform: translateY(-3px);
-					box-shadow: var(--shadow-lg);
-				}
-			}
-		}
-	}
-
-	/* Animation Styles - Removed entirely since we're not using animations */
-
-	/* Responsive Adjustments */
-	@media (max-width: 768px) {
-		.hero-section {
-			padding: 2rem 0;
-
-			h1 {
-				font-size: 2rem;
-			}
-
-			.subtitle {
-				font-size: 1.1rem;
-			}
-		}
-
-		.form-container {
-			margin: 0 auto;
-		}
-
-		.testimonial-card,
-		.benefit-card,
-		.step-card,
-		.faq-item {
-			padding: 1.25rem;
-		}
-
-		.benefit-card .benefit-icon {
-			width: 50px;
-			height: 50px;
-		}
-
-		.enneagram-visual-section .text-content {
-			padding: 1.5rem;
-
-			h2 {
-				font-size: 1.75rem;
-			}
-
-			p {
-				font-size: 1rem;
-			}
-		}
-
-		.final-cta {
-			padding: 2rem 1rem;
-
-			.cta-content h2 {
-				font-size: 1.75rem;
-			}
-		}
-	}
-
-	/* Accessibility - Simplified since we're not using animations */
-	@media (prefers-reduced-motion: reduce) {
-		* {
-			transition-duration: 0.001ms !important;
-			animation-duration: 0.001ms !important;
-		}
-	}
-</style>

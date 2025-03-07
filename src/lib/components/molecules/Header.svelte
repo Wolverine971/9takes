@@ -41,54 +41,80 @@
 
 <svelte:window bind:innerWidth />
 
-<header class="header">
+<header class="relative z-50 bg-white px-8 shadow">
 	{#if isMobile}
 		<!-- Mobile Header -->
-		<div class="header__mobile">
+		<div class="flex h-[62px] items-center justify-between">
 			<MobileNav {navItems} {blogItems} />
 
-			<a href="/" class="header__brand" aria-label="Home">
-				<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
+			<a
+				href="/"
+				class="absolute left-1/2 flex -translate-x-1/2 transform items-center"
+				aria-label="Home"
+			>
+				<img
+					src="/brand/aero.png"
+					alt="9takes Logo"
+					height="60"
+					width="60"
+					class="transition-transform duration-200 hover:scale-110"
+				/>
 			</a>
 
 			{#if data?.session?.user}
 				<button
 					type="button"
 					on:click={goToAccount}
-					class="header__account-button"
+					class="flex cursor-pointer items-center justify-center border-none bg-transparent p-0"
 					aria-label="Go to account"
 				>
-					<img src="/brand/account-icon2.png" alt="Account" width="30" height="30" />
+					<img
+						src="/brand/account-icon2.png"
+						alt="Account"
+						width="30"
+						height="30"
+						class="rounded-full border border-gray-300 p-0.5 transition-transform duration-200 hover:scale-110"
+					/>
 				</button>
 			{/if}
 		</div>
 	{:else}
 		<!-- Desktop Navigation -->
-		<nav class="header__nav">
+		<nav class="relative flex h-[62px] items-center justify-between">
 			<!-- Logo & Brand -->
-			<a href="/" class="header__brand" aria-label="Home">
-				<div class="header__logo">
-					<img src="/brand/aero.png" alt="9takes Logo" height="60" width="60" />
+			<a href="/" class="flex items-center no-underline" aria-label="Home">
+				<div>
+					<img
+						src="/brand/aero.png"
+						alt="9takes Logo"
+						height="60"
+						width="60"
+						class="transition-transform duration-200 hover:scale-110"
+					/>
 				</div>
-				<span class="header__brand-name">
+				<span class="ml-2 w-[75px] text-2xl font-bold text-gray-800">
 					{!isHomePage ? '9takes' : ' '}
 				</span>
 			</a>
 
 			<!-- Main Navigation -->
-			<div class="header__menu">
-				<div class="header__nav-items">
+			<div class="absolute left-1/2 flex -translate-x-1/2 transform items-center justify-center">
+				<div class="flex items-center gap-8">
 					{#each navItems as { href, label }}
-						<a {href} class:is-active={$page.url.pathname === href}>
+						<a
+							{href}
+							class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
+							class:active-link={$page.url.pathname === href}
+						>
 							{label}
 						</a>
 					{/each}
 
 					<!-- Blog Dropdown -->
-					<div class="header__dropdown">
+					<div class="relative z-[1005]">
 						<button
 							on:click={() => (isDropdownOpen = !isDropdownOpen)}
-							class="header__dropdown-button"
+							class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
 							aria-haspopup="true"
 							aria-controls="blogMenu"
 							aria-expanded={isDropdownOpen}
@@ -99,7 +125,7 @@
 						<Context>
 							<ul
 								id="blogMenu"
-								class="header__dropdown-menu"
+								class="absolute left-1/2 top-[calc(100%+0.5rem)] z-[1010] m-0 hidden w-[220px] -translate-x-1/2 transform list-none rounded bg-white px-0 py-2 shadow-md"
 								class:is-open={isDropdownOpen}
 								use:onClickOutside={() => (isDropdownOpen = false)}
 							>
@@ -108,7 +134,8 @@
 										<a
 											{href}
 											tabindex={isDropdownOpen ? 0 : -1}
-											class:is-active={$page.url.pathname === href}
+											class="block px-4 py-3 font-normal text-gray-800 no-underline transition-colors duration-200 hover:bg-gray-100"
+											class:text-indigo-600={$page.url.pathname === href}
 										>
 											{label}
 										</a>
@@ -118,24 +145,39 @@
 						</Context>
 					</div>
 
-					<a href="/about" class:is-active={$page.url.pathname === '/about'}> About </a>
+					<a
+						href="/about"
+						class="relative cursor-pointer border-none bg-transparent px-0 py-2 text-base font-semibold text-gray-800 no-underline hover:after:w-full"
+						class:active-link={$page.url.pathname === '/about'}
+					>
+						About
+					</a>
 				</div>
 			</div>
 
 			<!-- Account / Login Area -->
-			<div class="header__actions">
+			<div>
 				{#if data?.session?.user}
-					<a href="/account" class="header__account-link">
+					<a
+						href="/account"
+						class="flex cursor-pointer items-center justify-center border-none bg-transparent p-0"
+					>
 						<img
 							src="/brand/account-icon2.png"
 							alt="Account"
 							title="Account"
 							width="30"
 							height="30"
+							class="rounded-full border border-gray-300 p-0.5 transition-transform duration-200 hover:scale-110"
 						/>
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href="/login" class="header__login-button"> Login / Register </a>
+					<a
+						href="/login"
+						class="inline-block rounded bg-indigo-600 px-6 py-2 font-semibold text-white no-underline transition-colors duration-200 hover:bg-indigo-700"
+					>
+						Login / Register
+					</a>
 				{/if}
 			</div>
 		</nav>
@@ -143,207 +185,67 @@
 </header>
 
 <style lang="scss">
-	// Variables
-	$primary-color: #833bff;
-	$text-color: #333;
-	$hover-bg: #f5f5f5;
-	$transition: 0.2s ease;
-	$border-radius: 4px;
-	$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	.is-open {
+		display: block;
+		/* Ensure it appears on top */
+		position: absolute;
+		visibility: visible;
+		z-index: 1010;
+	}
 
-	// Base header styles
-	.header {
-		padding: 0 2rem;
-		z-index: 1000; /* Increased z-index */
-		box-shadow: $box-shadow;
+	ul {
+		position: absolute;
+		top: calc(100% + 0.5rem);
+		left: 50%;
+		transform: translateX(-50%);
 		background: #fff;
-		position: relative;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		// border-radius: $border-radius;
+		list-style: none;
+		padding: 0.5rem 0;
+		margin: 0;
+		width: 220px;
+	}
 
-		// Shared brand/logo styles
-		&__brand {
-			display: flex;
-			align-items: center;
+	li::marker {
+		content: none;
+	}
+
+	li {
+		a {
+			display: block;
+			padding: 0.75rem 1rem;
 			text-decoration: none;
 
-			img {
-				transition: transform $transition;
-				will-change: transform;
-
-				&:hover {
-					transform: scale(1.1);
-				}
-			}
-		}
-
-		&__brand-name {
-			font-size: 1.5rem;
-			font-weight: bold;
-			color: $text-color;
-			width: 75px;
-			margin-left: 0.5rem;
-		}
-
-		// Account button styles (shared between mobile/desktop)
-		&__account-button,
-		&__account-link {
-			background: none;
-			border: none;
-			cursor: pointer;
-			padding: 0;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-
-			img {
-				border-radius: 50%;
-				border: 1px solid #ccc;
-				padding: 2px;
-				transition: transform $transition;
-
-				&:hover {
-					transform: scale(1.1);
-				}
-			}
-		}
-
-		// Desktop Navigation
-		&__nav {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			height: 62px;
-			position: relative;
-		}
-
-		&__menu {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: absolute;
-			left: 50%;
-			transform: translateX(-50%);
-
-			.header__nav-items {
-				display: flex;
-				gap: 2rem;
-				align-items: center;
-			}
-
-			a,
-			.header__dropdown-button {
-				position: relative;
-				text-decoration: none;
-				color: $text-color;
-				font-weight: 600;
-				background: none;
-				border: none;
-				cursor: pointer;
-				padding: 0.5rem 0;
-				font-size: 1rem;
-
-				&::after {
-					content: '';
-					position: absolute;
-					width: 0;
-					height: 2px;
-					background: $primary-color;
-					left: 0;
-					bottom: 0;
-					transition: width $transition;
-				}
-
-				&:hover::after,
-				&.is-active::after {
-					width: 100%;
-				}
-
-				&.is-active {
-					color: $primary-color;
-				}
-			}
-		}
-
-		// Dropdown menu
-		&__dropdown {
-			position: relative;
-			z-index: 1005; /* Add z-index to the dropdown container */
-
-			&-menu {
-				position: absolute;
-				top: calc(100% + 0.5rem);
-				left: 50%;
-				transform: translateX(-50%);
-				background: #fff;
-				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-				border-radius: $border-radius;
-				list-style: none;
-				padding: 0.5rem 0;
-				margin: 0;
-				width: 220px;
-				z-index: 1010; /* Increased z-index */
+			&::after {
 				display: none;
-
-				&.is-open {
-					display: block;
-					/* Ensure it appears on top */
-					position: absolute;
-					z-index: 1010;
-				}
-
-				li {
-					a {
-						display: block;
-						padding: 0.75rem 1rem;
-						text-decoration: none;
-						color: $text-color;
-						font-weight: normal;
-						transition: background-color $transition;
-
-						&::after {
-							display: none;
-						}
-
-						&:hover {
-							background-color: $hover-bg;
-						}
-
-						&.is-active {
-							color: $primary-color;
-						}
-					}
-				}
 			}
 		}
+	}
 
-		// Login button
-		&__login-button {
-			display: inline-block;
-			padding: 0.5rem 1.5rem;
-			background-color: $primary-color;
-			color: white;
-			border-radius: $border-radius;
-			text-decoration: none;
-			font-weight: 600;
-			transition: background-color $transition;
+	a:hover {
+		text-decoration: none;
+	}
+	/* Add the active link style with pseudo-element */
+	.active-link {
+		@apply text-indigo-600;
+		text-decoration: none;
+	}
 
-			&:hover {
-				background-color: darken($primary-color, 10%);
-				color: white;
-			}
-		}
+	.active-link::after {
+		content: '';
+		@apply absolute bottom-0 left-0 h-0.5 w-full bg-indigo-600;
+	}
 
-		// Mobile header
-		&__mobile {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			height: 62px;
+	/* Add hover effect for links */
+	a::after,
+	button::after {
+		content: '';
+		@apply absolute bottom-0 left-0 h-0.5 w-0 bg-indigo-600 transition-all duration-200;
+	}
 
-			.header__brand {
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
-			}
-		}
+	a:hover::after,
+	button:hover::after {
+		@apply w-full;
 	}
 </style>

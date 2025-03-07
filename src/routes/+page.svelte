@@ -263,9 +263,12 @@
 									Learn More ↓
 								</button>
 							{/if} -->
-							<button class="btn-primary order-1 w-full rounded-lg px-6 py-3 sm:order-2 sm:w-auto">
+							<a
+								class="btn-primary order-1 w-full rounded-lg px-6 py-3 hover:!bg-white sm:order-2 sm:w-auto"
+								href="/questions"
+							>
 								Ask a Question {innerWidth <= 768 ? '↓' : '→'}
-							</button>
+							</a>
 						</div>
 					</div>
 
