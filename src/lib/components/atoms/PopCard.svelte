@@ -177,6 +177,7 @@
 					{displayText}
 				</p>
 			{/if}
+
 			{#if subtext}
 				<p class="image-card__subtitle">{subtext}</p>
 			{/if}

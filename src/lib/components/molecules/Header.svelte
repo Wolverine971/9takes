@@ -174,7 +174,7 @@
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a
 						href="/login"
-						class="inline-block rounded bg-indigo-600 px-6 py-2 font-semibold text-white no-underline transition-colors duration-200 hover:bg-indigo-700"
+						class="inline-block rounded bg-indigo-600 px-6 py-2 font-semibold !text-white no-underline transition-colors duration-200 hover:bg-indigo-700"
 					>
 						Login / Register
 					</a>

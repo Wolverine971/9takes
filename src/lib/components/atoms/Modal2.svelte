@@ -142,7 +142,8 @@
 	}
 	#modal-content {
 		max-width: calc(100vw - 20px);
-		max-height: calc(100vh - 20px);
+		// max-height: calc(100vh - 20px);
+		max-height: 80vh;
 		overflow: auto;
 	}
 	@media (max-width: 480px) {
