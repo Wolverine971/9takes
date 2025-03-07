@@ -132,6 +132,7 @@
 			srcset="{imageSrc} 218w, {image} 560w"
 			sizes="(max-width: 560px) 218px, 560px"
 			loading="lazy"
+			decoding="async"
 			class="image-card__img
 		       {showIcon ? 'image-card__img--home' : 'image-card__img--profile'}
 		       {tint && showDescription && enneagramType ? 'image-card__img--tinted' : ''}"
@@ -154,7 +155,7 @@
 						{enneagramTypes[enneagramType - 1].EnneagramType}
 					</h2>
 				</div>
-			{:else if displayText}
+			{:else if displayText && !showDescription}
 				<p
 					class="{`name-pop-${namePopId} image-card__title`} {displayText === 'YOUR NAME'
 						? 'your_name'
@@ -191,7 +192,6 @@
 		opacity: 1 !important;
 		color: black !important;
 		text-shadow: none !important;
-		animation: none !important;
 		font-weight: 900 !important;
 	}
 	.image-card {

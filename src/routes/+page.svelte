@@ -159,7 +159,7 @@
 	<link rel="preconnect" href="https://9takes.com" />
 
 	<!-- Preload critical assets -->
-	<link rel="preload" href="/greek_pantheon.png" as="image" />
+	<link href="/greek_pantheon.png" as="image" />
 
 	<!-- Set explicit width and height on viewport to prevent layout shift -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, height=device-height" />
@@ -225,7 +225,9 @@
 				<div
 					class="hero-content flex flex-col items-center gap-6 md:flex-row md:justify-between md:gap-8"
 				>
-					<PeopleBoard />
+					<PeopleBoard
+						images={innerWidth < 600 ? data.images.slice(0, data.images.length - 11) : data.images}
+					/>
 				</div>
 			</section>
 		{:else}
