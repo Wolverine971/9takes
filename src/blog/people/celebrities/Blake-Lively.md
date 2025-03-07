@@ -7,7 +7,7 @@ loc: 'https://9takes.com/personality-analysis/Blake-Lively'
 lastmod: '2025-03-05'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['celebrity']
 person: 'Blake-Lively'
