@@ -205,6 +205,7 @@
 		&:hover:not(:disabled) {
 			background-color: var(--primary-hover);
 			transform: translateY(-2px);
+			color: var(--primary);
 			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
 

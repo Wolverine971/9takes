@@ -225,8 +225,15 @@
 {#if $page?.route?.id?.includes('/stories/')}
 	<slot />
 {:else}
-	<div class="layout-container" on:touchstart={handleTouchStart} on:touchend={handleTouchEnd}>
-		<div class="header-container" class:visible={showHeader}>
+	<div
+		class="flex min-h-screen w-full flex-col"
+		on:touchstart={handleTouchStart}
+		on:touchend={handleTouchEnd}
+	>
+		<div
+			class="sticky top-0 z-40 -translate-y-full transform transition-transform duration-300 ease-in-out"
+			class:translate-y-0={showHeader}
+		>
 			<Header {data} />
 		</div>
 		<Toast />
@@ -240,7 +247,10 @@
 		{/if}
 
 		<main
-			class="main {shouldShowMaxWidth ? 'column-width' : ''} {!isSignupPage ? 'pos-rel' : ''}"
+			class="relative flex flex-1 flex-col overflow-visible p-2 md:p-4"
+			class:max-w-4xl={shouldShowMaxWidth}
+			class:mx-auto={shouldShowMaxWidth}
+			class:w-full={shouldShowMaxWidth}
 			style="margin-top: {isHomePage && !headerVisible ? '-60px' : '0'};"
 		>
 			<slot />
@@ -250,76 +260,24 @@
 	</div>
 {/if}
 
-<style lang="scss">
+<style>
+	/* Global styles that might be difficult to do with just Tailwind */
 	:global(body) {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
+		@apply m-0 box-border p-0;
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Remove tap highlight on mobile */
 		touch-action: manipulation; /* Improves touch responsiveness */
 	}
 
-	// :global(button, a) {
-	// 	/* Make sure touch targets are large enough */
-	// 	min-height: 44px;
-	// 	min-width: 44px;
-	// }
-
-	.layout-container {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-		width: 100%;
-	}
-
-	.header-container {
-		position: sticky;
-		top: 0;
-		z-index: 100;
-		transform: translateY(-100%);
-		transition: transform 0.3s ease;
-	}
-
-	.header-container.visible {
-		transform: translateY(0);
-	}
-
-	.main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: clamp(0.5rem, 2vw, 1rem);
-		overflow: visible;
-		-webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-	}
-
-	.back-nav-container {
-		/* Make back button more touch-friendly */
-		padding: 0.5rem;
-
-		@media (max-width: 768px) {
-			padding: 0.75rem;
+	/* Media query adjustments for the main content area */
+	@media (max-width: 768px) {
+		.max-w-4xl {
+			@apply max-w-full px-3;
 		}
 	}
 
-	.column-width {
-		max-width: 64rem;
-		margin: 0 auto;
-		width: 100%;
-
-		@media (max-width: 768px) {
-			max-width: 100%;
-			padding-left: 0.75rem;
-			padding-right: 0.75rem;
+	@media (max-width: 480px) {
+		.max-w-4xl {
+			@apply px-2;
 		}
-
-		@media (max-width: 480px) {
-			padding-left: 0.5rem;
-			padding-right: 0.5rem;
-		}
-	}
-
-	.pos-rel {
-		position: relative;
 	}
 </style>

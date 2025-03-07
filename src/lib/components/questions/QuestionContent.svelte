@@ -95,16 +95,21 @@
 
 <svelte:window bind:innerWidth />
 
-<div class="content-container">
+<div class="mt-4 w-full">
 	<!-- Tabs Navigation -->
-	<nav class="tabs-nav" role="tablist">
+	<nav
+		class="scrollbar-hide sticky top-0 z-10 flex overflow-x-auto rounded-t-md bg-white shadow-sm sm:relative"
+		role="tablist"
+	>
 		{#each tabs as tab}
 			<button
 				role="tab"
 				aria-selected={selectedTab === tab}
 				aria-controls={tab}
-				class="tab-button"
-				class:active={selectedTab === tab}
+				class="xs:px-4 xs:py-3 min-w-fit flex-1 cursor-pointer whitespace-nowrap border-0 border-b-2 border-transparent bg-transparent px-6 py-4 text-sm font-medium text-gray-600 transition-all duration-200 hover:bg-gray-100 hover:text-gray-800 sm:px-6 sm:py-4"
+				class:border-indigo-600={selectedTab === tab}
+				class:text-indigo-600={selectedTab === tab}
+				class:font-semibold={selectedTab === tab}
 				on:click={() => {
 					selectedTab = tab;
 					scrollToSection(tab);
@@ -113,7 +118,7 @@
 				{#if innerWidth > 575}
 					<!-- Show text on larger screens -->
 					{#if tab === 'Comments' || tab === 'Removed Comments' || tab === 'Articles' || tab === 'Visuals'}
-						<span class="tab-count" transition:fade={{ duration: 200 }}>
+						<span class="flex items-center justify-center" transition:fade={{ duration: 200 }}>
 							{getContentCount(tab).count}
 							{getContentCount(tab).label}
 						</span>
@@ -135,12 +140,12 @@
 	</nav>
 
 	<!-- Tab Content -->
-	<div class="tab-content">
+	<div class="min-h-[300px] rounded-b-md bg-gray-100">
 		{#each tabs as section}
 			<section
 				id={section}
-				class="tab-section"
-				class:active={selectedTab === section}
+				class="xs:p-2 hidden p-4"
+				class:showSection={selectedTab === section}
 				aria-labelledby={`${section}-tab`}
 				role="tabpanel"
 				tabindex="0"
@@ -148,7 +153,7 @@
 				{#if selectedTab === section}
 					<div in:fade={{ duration: 300 }}>
 						{#if section === 'Comments' && _data.comment_count !== 0}
-							<div class="section-header">
+							<div class="mb-3 flex items-center gap-4">
 								<SortComments
 									data={_data}
 									on:commentsSorted={({ detail }) => sortComments(detail)}
@@ -157,10 +162,13 @@
 							</div>
 						{/if}
 
-						<Card className="content-card">
+						<Card className="bg-white border-0 shadow-md rounded-md p-4 xs:p-3">
 							{#if section === 'Comments'}
 								{#if !data?.flags?.userHasAnswered}
-									<p class="helper-message" in:fade={{ duration: 200 }}>
+									<p
+										class="xs:text-lg xs:my-4 my-8 text-center text-2xl font-semibold text-indigo-500 md:my-6 md:text-xl"
+										in:fade={{ duration: 200 }}
+									>
 										{_data.comment_count === 0
 											? 'Be the first one to answer ✋'
 											: 'Must answer before seeing the comments'}
@@ -192,12 +200,18 @@
 								/>
 							{:else if section === 'Visuals'}
 								{#if data?.flags?.userHasAnswered}
-									<div class="empty-state">
+									<div
+										class="flex flex-col items-center justify-center gap-4 px-4 py-12 text-gray-500"
+									>
 										<CameraIcon height="2rem" fill="var(--medium-gray)" />
-										<p>No visuals available yet</p>
+										<p class="m-0 text-center">No visuals available yet</p>
 									</div>
 								{:else}
-									<p class="helper-message">Answer the question to see content</p>
+									<p
+										class="xs:text-lg xs:my-4 my-8 text-center text-2xl font-semibold text-indigo-500 md:my-6 md:text-xl"
+									>
+										Answer the question to see content
+									</p>
 								{/if}
 							{:else if section === 'Articles'}
 								<ArticleLinks
@@ -216,136 +230,49 @@
 	</div>
 </div>
 
-<style lang="scss">
-	.content-container {
-		width: 100%;
-		margin-top: 1rem;
+<style>
+	.showSection {
+		display: block;
+		visibility: visible;
 	}
-
-	.tabs-nav {
-		display: flex;
-		background: white;
-		border-radius: var(--base-border-radius) var(--base-border-radius) 0 0;
-		overflow-x: auto;
-		-webkit-overflow-scrolling: touch;
+	/* Hide scrollbar but allow scrolling */
+	.scrollbar-hide {
+		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-
-		&::-webkit-scrollbar {
-			display: none; /* Chrome, Safari, Edge */
-		}
-
-		@media (max-width: 576px) {
-			position: sticky;
-			top: 0;
-			z-index: 10;
-		}
 	}
 
-	.tab-button {
-		flex: 1;
-		min-width: fit-content;
-		padding: 1rem 1.5rem;
-		background: transparent;
-		border: none;
-		border-bottom: 2px solid transparent;
-		color: var(--dark-gray);
-		font-weight: 500;
-		font-size: 0.95rem;
-		cursor: pointer;
-		transition: all 0.2s ease;
-		white-space: nowrap;
-
-		&:hover {
-			background-color: var(--light-gray);
-			color: var(--darkest-gray);
-		}
-
-		&.active {
-			color: var(--primary);
-			border-bottom: 2px solid var(--primary);
-			font-weight: 600;
-		}
-
-		@media (max-width: 576px) {
-			padding: 0.75rem 1rem;
-		}
+	.scrollbar-hide::-webkit-scrollbar {
+		display: none; /* Chrome, Safari, Opera */
 	}
 
-	.tab-count {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.tab-content {
-		background: var(--light-gray);
-		border-radius: 0 0 var(--base-border-radius) var(--base-border-radius);
-		min-height: 300px;
-	}
-
-	.tab-section {
-		display: none;
-		padding: 1rem;
-
-		&.active {
-			display: block;
-		}
-
-		@media (max-width: 576px) {
+	/* Extra small screen utilities */
+	@media (max-width: 576px) {
+		.xs\:p-2 {
 			padding: 0.5rem;
 		}
-	}
 
-	.section-header {
-		display: flex;
-		align-items: center;
-		gap: 1rem;
-		margin-bottom: 0.75rem;
-	}
-
-	.content-card {
-		border: none;
-		background: white;
-		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-		border-radius: var(--base-border-radius);
-		padding: 1rem;
-
-		@media (max-width: 576px) {
+		.xs\:p-3 {
 			padding: 0.75rem;
 		}
-	}
 
-	.helper-message {
-		font-size: 1.75rem;
-		text-align: center;
-		margin: 2rem 0;
-		color: var(--accent);
-		font-weight: 600;
-
-		@media (max-width: 768px) {
-			font-size: 1.5rem;
-			margin: 1.5rem 0;
+		.xs\:px-4 {
+			padding-left: 1rem;
+			padding-right: 1rem;
 		}
 
-		@media (max-width: 576px) {
-			font-size: 1.25rem;
-			margin: 1rem 0;
+		.xs\:py-3 {
+			padding-top: 0.75rem;
+			padding-bottom: 0.75rem;
 		}
-	}
 
-	.empty-state {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 3rem 1rem;
-		gap: 1rem;
-		color: var(--dark-gray);
+		.xs\:text-lg {
+			font-size: 1.125rem;
+			line-height: 1.75rem;
+		}
 
-		p {
-			margin: 0;
-			text-align: center;
+		.xs\:my-4 {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
 		}
 	}
 </style>

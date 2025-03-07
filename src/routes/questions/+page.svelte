@@ -79,28 +79,31 @@
 </svelte:head>
 
 <div
-	class="background-area-box-tint"
+	class="rounded-lg border border-gray-200 bg-white bg-opacity-90 p-4 shadow-sm backdrop-blur-sm md:p-6"
 	class:no-animation={!transitionEnabled}
 	in:fade={{ duration }}
 >
 	{#if data?.session?.user?.id}
-		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title">
+		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="my-4 mb-2 text-2xl font-bold md:text-3xl">
 			Explore your psychology and those around you
 		</h1>
 	{:else}
-		<h1 in:fly={{ y: -20, duration, delay: 150 }} class="page-title centered">
+		<h1
+			in:fly={{ y: -20, duration, delay: 150 }}
+			class="my-4 mb-2 text-center text-2xl font-bold md:text-3xl"
+		>
 			Explore your psychology and those around you
 		</h1>
 
-		<div class="intro" in:fly={{ y: 20, duration, delay: 300 }}>
-			<p>
+		<div class="mb-6 text-center" in:fly={{ y: 20, duration, delay: 300 }}>
+			<p class="mx-auto my-2 max-w-3xl">
 				Welcome to 9takes, where you can ask personal questions anonymously and receive answers from
 				diverse perspectives. Our unique platform allows you to explore life's questions through the
 				lens of personality types, ensuring a rich and varied discussion.
 			</p>
-			<div class="stats">
-				<p><strong>{totalQuestions}</strong> questions asked</p>
-				<p><strong>{totalAnswers}</strong> answers shared</p>
+			<div class="xs:gap-4 my-4 flex flex-col justify-center gap-6 md:flex-row">
+				<p><strong class="font-semibold">{totalQuestions}</strong> questions asked</p>
+				<p><strong class="font-semibold">{totalAnswers}</strong> answers shared</p>
 			</div>
 		</div>
 	{/if}
@@ -113,14 +116,17 @@
 		/>
 	</div>
 
-	<section class="question-category-section" in:fly={{ y: 20, duration, delay: 600 }}>
-		<h2>Categories of Questions</h2>
-		<div class="big-tags scrollable-div">
+	<section
+		class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+		in:fly={{ y: 20, duration, delay: 600 }}
+	>
+		<h2 class="mb-3 text-xl font-semibold">Categories of Questions</h2>
+		<div class="scrollbar-thin flex max-h-[150px] flex-wrap gap-1 overflow-y-auto py-2">
 			{#each data.subcategoryTags as category}
 				{#if category}
 					<a
 						href={`/questions/categories/${category.category_name.split(' ').join('-')}`}
-						class="tag shimmer-button"
+						class="shimmer-button m-1 inline-flex items-center justify-center rounded bg-indigo-600 px-2 py-1 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md"
 						data-sveltekit-preload-data="tap"
 					>
 						{category.category_name}
@@ -130,13 +136,21 @@
 		</div>
 	</section>
 
-	<section class="recent-questions" in:fly={{ y: 20, duration, delay: 750 }}>
-		<!-- <h2>Recent Questions</h2> -->
+	<section
+		class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+		in:fly={{ y: 20, duration, delay: 750 }}
+	>
+		<!-- <h2 class="text-xl font-semibold mb-3">Recent Questions</h2> -->
 		{#each data.subcategoryTags as category}
 			{#if categories[category.category_name]?.length}
-				<div class="category-section" in:fly={{ y: 20, duration, delay: 600 }}>
-					<h3 id={category.category_name.split(' ').join('-')}>{category.category_name}</h3>
-					<div class="question-list">
+				<div class="my-4 md:my-6" in:fly={{ y: 20, duration, delay: 600 }}>
+					<h3
+						class="my-4 mb-2 scroll-mt-8 text-lg font-semibold"
+						id={category.category_name.split(' ').join('-')}
+					>
+						{category.category_name}
+					</h3>
+					<div class="flex flex-col gap-1">
 						{#each categories[category.category_name] as questionData (questionData.id)}
 							<QuestionItem {questionData} on:questionRemoved={() => invalidateAll()} />
 						{/each}
@@ -147,16 +161,21 @@
 	</section>
 
 	{#if !data?.session?.user?.id}
-		<section class="how-it-works" in:fly={{ y: 20, duration, delay: 900 }}>
-			<h2>How It Works</h2>
-			<ol>
-				<li>Anonymously answer questions to see other answers</li>
-				<li><strong>Sign up to ask your questions anonymously</strong></li>
-				<li>Receive answers from diverse perspectives</li>
-				<li>Sort comments by personality type and learn yours</li>
+		<section
+			class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
+			in:fly={{ y: 20, duration, delay: 900 }}
+		>
+			<h2 class="mb-3 text-xl font-semibold">How It Works</h2>
+			<ol class="my-4 list-decimal pl-6">
+				<li class="mb-2">Anonymously answer questions to see other answers</li>
+				<li class="mb-2">
+					<strong class="font-semibold">Sign up to ask your questions anonymously</strong>
+				</li>
+				<li class="mb-2">Receive answers from diverse perspectives</li>
+				<li class="mb-2">Sort comments by personality type and learn yours</li>
 			</ol>
 			<button
-				class="cta-button"
+				class="mx-auto my-4 flex w-full cursor-pointer items-center justify-center rounded border-none bg-indigo-600 px-4 py-4 text-lg font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-indigo-700 hover:shadow-md focus:outline-offset-2 focus:outline-indigo-700 md:w-auto"
 				on:click={() => goToCreateQuestionPage('')}
 				aria-label="Ask your question now"
 			>
@@ -166,204 +185,41 @@
 	{/if}
 </div>
 
-<style lang="scss">
-	/* Base variables */
-	$spacing-xs: 0.25rem;
-	$spacing-sm: 0.5rem;
-	$spacing-md: 1rem;
-	$spacing-lg: 1.5rem;
-	$spacing-xl: 2rem;
-
-	$breakpoint-sm: 576px;
-	$breakpoint-md: 768px;
-	$breakpoint-lg: 992px;
-	$breakpoint-xl: 1200px;
-
-	$transition-duration: 0.3s;
-	$border-radius: var(--base-border-radius, 3px);
-
-	/* Mixins */
-	@mixin section-container {
-		margin: $spacing-md 0;
-		padding: $spacing-md;
-		border: 1px solid var(--color-border);
-		border-radius: $border-radius;
-		background-color: var(--color-background-secondary);
-		transition: box-shadow $transition-duration ease;
-
-		@media (max-width: $breakpoint-md) {
-			margin: $spacing-sm 0;
-			padding: $spacing-sm;
-		}
-	}
-
-	@mixin flex-center {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	/* Utility classes */
+<style>
+	/* Only adding styles that might be hard to implement with pure Tailwind */
 	.no-animation * {
 		animation: none !important;
 		transition: none !important;
 	}
 
-	.centered {
-		text-align: center;
+	/* Custom scrollbar styles */
+	.scrollbar-thin::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
 	}
 
-	/* Page elements */
-	.page-title {
-		margin: $spacing-md 0 $spacing-sm;
-		padding: 0;
-
-		&.centered {
-			text-align: center;
-		}
+	.scrollbar-thin::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, 0.2);
+		border-radius: 3px;
 	}
 
-	.intro {
-		margin-bottom: $spacing-lg;
-		text-align: center;
-
-		p {
-			margin: $spacing-sm 0;
-			max-width: 800px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.stats {
-			display: flex;
-			justify-content: center;
-			gap: $spacing-lg;
-			margin: $spacing-md 0;
-
-			@media (max-width: $breakpoint-sm) {
-				gap: $spacing-md;
-				flex-direction: column;
-
-				p {
-					margin: $spacing-xs 0;
-				}
-			}
-		}
-	}
-
-	.question-category-section,
-	.recent-questions,
-	.how-it-works {
-		@include section-container;
-
-		&:hover {
-			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-		}
-	}
-
-	.big-tags {
-		display: flex;
-		flex-wrap: wrap;
-		max-height: 150px;
-		overflow-y: auto;
+	.scrollbar-thin {
 		scrollbar-width: thin;
 		overscroll-behavior-y: contain;
-		padding: $spacing-sm 0;
-		gap: $spacing-xs;
+	}
 
-		&::-webkit-scrollbar {
-			width: 6px;
-			height: 6px;
-		}
-
-		&::-webkit-scrollbar-thumb {
-			background-color: rgba(0, 0, 0, 0.2);
-			border-radius: 3px;
+	/* Adding extra small screen breakpoint */
+	@media (max-width: 576px) {
+		.xs\:gap-4 {
+			gap: 1rem;
 		}
 	}
 
-	.tag {
-		@include flex-center;
-		border-radius: $border-radius;
-		font-size: 0.8rem;
-		font-weight: bold;
-		margin: $spacing-xs;
-		padding: $spacing-xs $spacing-sm;
-		background-color: var(--accent);
-		color: white;
-		transition: all $transition-duration ease;
-
-		&:hover {
-			background-color: var(--color-accent-hover);
-			transform: translateY(-2px);
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		}
-	}
-
-	.category-section {
-		margin: $spacing-md 0;
-
-		h3 {
-			margin: $spacing-md 0 $spacing-sm;
-			padding: 0;
-			scroll-margin-top: $spacing-xl;
-		}
-	}
-
-	.question-list {
-		display: flex;
-		flex-direction: column;
-		gap: $spacing-xs;
-	}
-
-	.cta-button {
-		@include flex-center;
-		background-color: var(--accent);
-		color: white;
-		margin: $spacing-md auto;
-		border: none;
-		border-radius: $border-radius;
-		padding: $spacing-md;
-		font-size: 1.1rem;
-		font-weight: bold;
-		cursor: pointer;
-		transition: all $transition-duration ease;
-
-		&:hover {
-			background-color: var(--color-accent-hover);
-			transform: translateY(-2px);
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		}
-
-		&:focus {
-			outline: 2px solid var(--color-accent-hover);
-			outline-offset: 2px;
-		}
-	}
-
-	.how-it-works {
-		ol {
-			padding-left: $spacing-lg;
-			margin: $spacing-md 0;
-
-			li {
-				margin-bottom: $spacing-sm;
-			}
-		}
-	}
-
-	/* Media Queries */
+	/* Accessibility */
 	@media (prefers-reduced-motion: reduce) {
 		* {
 			animation: none !important;
 			transition: none !important;
-		}
-	}
-
-	@media (max-width: $breakpoint-md) {
-		.cta-button {
-			width: 100%;
-			padding: $spacing-sm $spacing-md;
 		}
 	}
 </style>

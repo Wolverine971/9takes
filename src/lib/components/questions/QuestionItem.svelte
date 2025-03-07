@@ -81,21 +81,28 @@
 
 <a
 	href="/questions/{questionData.url}"
-	class="question-card"
+	class="my-0.5 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded border border-transparent px-4 py-2 text-inherit no-underline transition-colors duration-200 will-change-auto"
 	class:shimmer-button={innerWidth > 1500}
-	class:question-card-details={showDetails}
+	class:border-accent={showDetails}
+	class:hover:bg-gray-200={true}
+	class:hover:border-primary-light={true}
+	class:focus:outline-primary-light={true}
+	class:focus:outline-offset-2={true}
+	class:w-full={showDetails}
 	data-sveltekit-preload-data="tap"
 	on:mouseenter={handleMouseEnter}
 	on:mouseleave={handleMouseLeave}
 	aria-label="View question: {displayQuestion}"
 >
-	<p class="question-display">
+	<p class="m-0 line-clamp-2 flex-1 overflow-hidden text-ellipsis break-words">
 		{displayQuestion}
 	</p>
 	{#if showDetails}
-		<div class="meta-info">
-			<span class="comment-span-display">
-				<span class="comment-count">{questionData.comment_count || ''}</span>
+		<div
+			class="xs:flex-col xs:items-end xs:gap-1 flex flex-shrink-0 items-center gap-2 sm:flex-row sm:items-center"
+		>
+			<span class="flex min-w-[2.5rem] items-center font-bold text-gray-800">
+				<span class="min-w-4 text-right">{questionData.comment_count || ''}</span>
 				<MasterCommentIcon
 					iconStyle="margin-left: 0.25rem; min-width: 1.25rem; min-height: 1.25rem;"
 					height="1.25rem"
@@ -103,130 +110,74 @@
 					type={questionData.comment_count ? 'multiple' : 'empty'}
 				/>
 			</span>
-			<span class="date-span">
+			<span
+				class="xs:py-0.5 xs:px-2 xs:text-xs xs:min-w-14 flex min-w-16 justify-center rounded border border-white px-0.5 py-0.5 text-center text-sm"
+			>
 				{formattedDate}
 			</span>
 		</div>
 	{/if}
 </a>
 
-<style lang="scss">
-	/* Variables */
-	$spacing-xs: 0.25rem;
-	$spacing-sm: 0.5rem;
-	$spacing-md: 1rem;
-	$border-radius: var(--base-border-radius, 3px);
-	$transition-duration: 0.2s;
-	$breakpoint-sm: 576px;
-
-	/* Card styling */
-	.question-card {
-		cursor: pointer;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: $spacing-sm $spacing-md;
-		margin: $spacing-xs 0;
-		border-radius: $border-radius;
-		border: 1px solid transparent;
-		transition:
-			background-color $transition-duration ease,
-			border-color $transition-duration ease;
-		text-decoration: none;
-		color: inherit;
-		gap: $spacing-sm;
-		will-change: background-color, border-color;
-		transform: translateZ(0); /* Force GPU rendering */
-		min-height: 3rem;
-		contain: content; /* CSS containment for performance */
-
-		&:hover {
-			background-color: var(--base-white-outline, #cfcfcf);
-			border-color: var(--primary-light);
-		}
-
-		&:focus-visible {
-			outline: 2px solid var(--primary-light);
-			outline-offset: 2px;
-		}
-
-		&.question-card-details {
-			border-color: var(--accent);
-			width: 100%;
-
-			&:hover {
-				border-color: var(--primary-light);
-			}
-		}
+<style>
+	/* Only adding styles that can't be easily done with Tailwind */
+	.border-accent {
+		border-color: var(--accent);
 	}
 
-	.question-display {
-		word-break: break-word;
-		margin: 0;
-		flex: 1;
+	.border-primary-light {
+		border-color: var(--primary-light);
+	}
+
+	.outline-primary-light {
+		outline: 2px solid var(--primary-light);
+	}
+
+	/* Add in Tailwind's built-in line-clamp if unavailable */
+	.line-clamp-2 {
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
 		-webkit-box-orient: vertical;
-		overflow: hidden;
-		text-overflow: ellipsis;
 	}
 
-	/* Meta information styling */
-	.meta-info {
-		display: flex;
-		gap: $spacing-sm;
-		align-items: center;
-		flex-shrink: 0;
-	}
-
-	.comment-span-display {
-		display: flex;
-		align-items: center;
-		font-weight: bold;
-		color: var(--color-p-dark, #333);
-		min-width: 2.5rem;
-	}
-
-	.comment-count {
-		min-width: 1rem;
-		text-align: right;
-	}
-
-	.date-span {
-		border: 1px solid white;
-		border-radius: $border-radius;
-		padding: 0.2rem;
-		min-width: 4rem;
-		display: flex;
-		justify-content: center;
-		text-align: center;
-		font-size: 0.9rem;
-	}
-
-	/* Responsive adjustments */
-	@media (max-width: $breakpoint-sm) {
-		.question-card {
-			padding: $spacing-xs $spacing-sm;
-			margin: $spacing-xs 0;
-		}
-
-		.meta-info {
+	/* Add responsive utilities for extra small screens */
+	@media (max-width: 576px) {
+		.xs\:flex-col {
 			flex-direction: column;
-			align-items: flex-end;
-			gap: $spacing-xs;
 		}
 
-		.date-span {
-			padding: 0.1rem 0.2rem;
-			font-size: 0.8rem;
+		.xs\:items-end {
+			align-items: flex-end;
+		}
+
+		.xs\:gap-1 {
+			gap: 0.25rem;
+		}
+
+		.xs\:py-0\.5 {
+			padding-top: 0.125rem;
+			padding-bottom: 0.125rem;
+		}
+
+		.xs\:px-2 {
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
+		}
+
+		.xs\:text-xs {
+			font-size: 0.75rem;
+			line-height: 1rem;
+		}
+
+		.xs\:min-w-14 {
 			min-width: 3.5rem;
 		}
 	}
 
-	/* Optimize rendering performance */
+	/* For reduced motion preference */
 	@media (prefers-reduced-motion: reduce) {
-		.question-card {
-			transition: none;
+		.duration-200 {
+			transition-duration: 0s;
 		}
 	}
 </style>
