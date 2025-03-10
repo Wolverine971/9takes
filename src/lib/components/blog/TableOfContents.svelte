@@ -80,8 +80,7 @@
 				// Handle empty headings
 				const headingText = heading.textContent?.trim() || 'Untitled Section';
 				// Shorten very long headings for TOC display (over 35 chars)
-				const displayText =
-					headingText.length > 35 ? headingText.substring(0, 32) + '...' : headingText;
+				const displayText = headingText;
 
 				// Generate a valid ID if missing
 				const id =
