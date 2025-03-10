@@ -39,7 +39,9 @@ tiktok: ''
 	/>
 </div>
 
-<p class="firstLetter">She gazed at him adoringly. Always. The cameras caught it time and again - that famous "Nancy Reagan stare." Behind those eyes lay the mind of one of America's most influential First Ladies - a woman whose Type 2 personality would reshape the White House, launch national movements, and fiercely protect the president she loved more than herself.</p>
+<p class="firstLetter">She gazed at him adoringly. Always.</p>
+
+The cameras caught it time and again - that famous "Nancy Reagan stare." Behind those eyes lay the mind of one of America's most influential First Ladies - a woman whose Type 2 personality would reshape the White House, launch national movements, and fiercely protect the president she loved more than herself.
 
 ## Why Nancy Reagan's Type 2 Personality Matters in Political History
 
@@ -47,7 +49,7 @@ Nancy Reagan wasn't just Ronald Reagan's wife. She was his guardian. His gatekee
 
 Her critics called her "The Dragon Lady." Her supporters saw a fiercely loyal partner. Both were right.
 
-Understanding Nancy through the Enneagram reveals something deeper: a classic Type 2 "Helper" whose need to be needed shaped American history.
+Understanding Nancy through the Enneagram reveals something deeper: a classic [Type 2 "Helper"](/enneagram-corner/enneagram-type-2) whose need to be needed shaped American history.
 
 ## "My Life Began When I Married My Husband" - The Ultimate Type 2 Declaration
 
