@@ -316,7 +316,7 @@ The Enneagram becomes not just a typing system but a dynamic model for transform
 
 Want to delve deeper into how your specific type responds to stress? [Explore our comprehensive guide here](/enneagram-corner/enneagram-types-in-stress).
 
-Curious about how these connecting lines might affect your relationships? [Check out our compatibility insights](/enneagram-corner/enneagram-compatibility).
+<!-- Curious about how these connecting lines might affect your relationships? [Check out our compatibility insights](/enneagram-corner/enneagram-compatibility). -->
 
 The Enneagram isn't just about knowing your number—it's about understanding your full potential for growth and transformation across all aspects of your personality.
 

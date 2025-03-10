@@ -158,7 +158,12 @@ Do you recognize any Type 7 qualities in yourself? That thirst for experience, f
     {
       "@type": "Article",
       "articleBody": "This article explores Katy Perry's personality as an Enneagram Type 7 (The Enthusiast). From her transition from gospel singer to pop icon, to her vibrant fashion choices and philanthropic work, the article examines how her Type 7 traits shape her career, public persona, and personal growth.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

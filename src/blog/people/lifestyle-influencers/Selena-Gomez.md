@@ -180,7 +180,12 @@ Do you recognize any Type 9 traits in yourself or someone you love? The ability 
     {
       "@type": "Article",
       "articleBody": "This article explores Selena Gomez's personality through the lens of Enneagram Type 9. Known for her peaceful nature, mental health advocacy, and ability to build a billion-dollar beauty empire while battling health challenges, Selena embodies the core traits of The Peacemaker. The article examines how her early life, relationships, health struggles, and career choices reflect her Type 9 personality and her journey toward integration and growth.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

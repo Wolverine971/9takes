@@ -63,7 +63,7 @@ export const famousTypes: { [index: number]: any[] } = {
 		{ name: 'Lady-Gaga', link: true },
 		{ name: 'Jackie-Kennedy', link: true },
 		{ name: 'Elton-John', link: true },
-		{ name: 'The-Weeknd', link: false },
+		// { name: 'The-Weeknd', link: false },
 		{ name: 'Dixie-Damelio', link: false },
 		{ name: 'Nikola-Tesla', link: true },
 		{ name: 'Robert-Oppenheimer', link: true },

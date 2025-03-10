@@ -131,7 +131,12 @@ Here's the thing - we're all complex individuals, and no single framework can fu
     {
       "@type": "Article",
       "articleBody": "You've seen him in countless films, heard his iconic voice narrate documentaries, and probably formed an opinion about him. But do you really know what makes Morgan Freeman tick? This article explores Morgan Freeman's personality from the lens of the Enneagram Type 1, delving into his upbringing, rise to fame, major accomplishments, and how he has navigated drama and controversies.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

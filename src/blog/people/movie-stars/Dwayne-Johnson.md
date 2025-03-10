@@ -135,7 +135,12 @@ His relentless drive, adaptability, and charm have propelled him to heights few 
     {
       "@type": "Article",
       "articleBody": "Dwayne 'The Rock' Johnson - a name that resonates with power, charisma, and success. This article delves into the driving force behind Johnson's success, exploring his personality through the lens of the Enneagram Type 3. From his humble beginnings to his rise as a Hollywood icon, we examine how his Type 3 traits have shaped his career, his approach to challenges, and his impact on the world.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -227,6 +232,7 @@ His relentless drive, adaptability, and charm have propelled him to heights few 
     }
   ]
 }
+
 </script>
 
 </svelte:head>

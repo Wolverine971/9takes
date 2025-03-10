@@ -117,9 +117,9 @@ If you like diving into personality, explore our <a href="/questions" >questions
 
 <svelte:head>
 
+<!--
 <script type="application/ld+json">
-
-</script>
+</script> -->
 
 </svelte:head>
 

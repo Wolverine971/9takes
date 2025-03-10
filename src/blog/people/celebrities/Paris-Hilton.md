@@ -114,7 +114,12 @@ As you explore the world of the Enneagram, Paris Hilton's story serves as a comp
     {
       "@type": "Article",
       "articleBody": "You know her as the glamorous heiress, the savvy entrepreneur, and the pop culture icon. But if you peel back the layers, you'll discover an inner world that challenges the superficial perceptions surrounding Paris Hilton. As an Enneagram Type 3, Paris has cultivated a unique blend of ambition, adaptability, and a relentless pursuit of success - qualities that have propelled her to the forefront of the zeitgeist. This article explores Paris Hilton's personality from the lens of the Enneagram Type 3, delving into her upbringing, rise to fame, major accomplishments, and how she has navigated drama and controversies.",
-      "creator" : ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -206,6 +211,7 @@ As you explore the world of the Enneagram, Paris Hilton's story serves as a comp
     }
   ]
 }
+
 </script>
 
 </svelte:head>

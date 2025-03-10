@@ -163,7 +163,12 @@ What might you discover about yourself by understanding your own Enneagram type?
     {
       "@type": "Article",
       "articleBody": "This article explores the personality traits of Travis Scott from the perspective of the Enneagram Type 9. Known for his immersive music experiences, architectural interests, and ability to create harmony, Travis embodies many characteristics of Type 9 personalities. The article discusses various facets of Travis's life and career that demonstrate his Type 9 characteristics, including his rise to fame, creative process, and response to controversies.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -178,7 +178,12 @@ What Type 8 energies do you recognize in other aspects of culture? Or perhaps in
     {
       "@type": "Article",
       "articleBody": "This article explores Tom Hardy's personality through the lens of Enneagram Type 8 (The Challenger). Known for his intense performances, physical transformations, and protective nature, Hardy embodies the core traits of Type 8 personalities. The article examines his journey from rebellious youth to respected actor, highlighting how his Type 8 energy fuels his artistic choices, charitable work, and personal growth.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

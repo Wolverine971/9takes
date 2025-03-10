@@ -1,6 +1,6 @@
 ---
 title: 'Lex Fridman: Unraveling the Enneagram Type 5 Mind'
-description: 'Dive into the curious world of Lex Fridman, exploring how his Enneagram Type 5 personality shapes his podcast, research, and unique approach to life and learning.'
+description: 'Dive into the curious world of Lex Fridman, exploring how his Enneagram Type 5 personality shapes his podcast, research, and unique approach to life.'
 author: 'DJ Wayne'
 date: '2023-07-23'
 loc: 'https://9takes.com/personality-analysis/Lex-Fridman'

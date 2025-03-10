@@ -1,6 +1,6 @@
 ---
 title: "Alex Cooper: Unveiling a Type 7 Enthusiast's World"
-description: 'Discover how Alex Cooper embodies the vibrant Enneagram Type 7 traits. See how her zest for life, entrepreneurial spirit, and candid conversations have revolutionized podcasting and built a media empire.'
+description: 'A look into Alex Cooper inner world. See how her zest for life, entrepreneurial spirit, and candid conversations all stem from her Enneagram Type 7 personality.'
 author: 'DJ Wayne'
 date: '2023-08-29'
 loc: 'https://9takes.com/personality-analysis/Alex-Cooper'

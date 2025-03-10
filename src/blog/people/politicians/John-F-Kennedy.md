@@ -1,6 +1,6 @@
 ---
 title: "JFK: The Charismatic Type 7 - Unveiling Kennedy's Mindset"
-description: "Explore John F. Kennedy's Enneagram Type 7 personality. Discover how his enthusiastic nature shaped his presidency, policies, and enduring legacy in American history."
+description: "Explore John F. Kennedy's Enneagram Type 7 personality. Discover how his enthusiastic nature shaped his presidency and American history."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/John-F-Kennedy'

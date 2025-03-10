@@ -750,7 +750,12 @@ Now go forth with confidence, knowing yourself and what you truly deserve. Trust
     {
       "@type": "Article",
       "articleBody": "This comprehensive dating guide examines how women of each Enneagram type can approach dating authentically in 2025. The guide provides personalized strategies for all nine types, with specific mindset shifts, first and second date strategies, and talking points tailored to each type's core motivations and growth areas. It also addresses modern dating challenges like situationships and love bombing through the lens of different Enneagram types.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

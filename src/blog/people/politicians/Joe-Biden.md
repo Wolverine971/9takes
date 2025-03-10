@@ -1,6 +1,6 @@
 ---
 title: "Joe Biden: The Helper's Journey to the White House"
-description: "Discover how Joe Biden's Enneagram Type 2 personality shaped his path from Scranton to the presidency. Explore the empathy and resilience behind America's 46th President."
+description: "Explore the empathy and resilience behind America's 46th President. Discover how Joe Biden's Enneagram Type 2 personality shaped his path."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/Joe-Biden'

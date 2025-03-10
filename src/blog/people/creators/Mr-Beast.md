@@ -1,6 +1,6 @@
 ---
 title: 'MrBeast: The Enneagram Type 8 YouTube Titan'
-description: "Dive into the psyche of YouTube's generous giant. Discover how MrBeast's Enneagram Type 8 personality fuels his epic videos, philanthropy, and billion-dollar business empire."
+description: 'Dive into the psyche of the generous giant, MrBeast. Discover his Enneagram Type 8 personality fuels his epic videos and billion-dollar business empire.'
 author: 'DJ Wayne'
 date: '2023-03-16'
 loc: 'https://9takes.com/personality-analysis/Mr-Beast'

@@ -224,7 +224,12 @@ As Hart himself might say: "Everybody wants to be famous, but nobody wants to do
     {
       "@type": "Article",
       "articleBody": "This article explores Kevin Hart's personality as an Enneagram Type 7 (The Enthusiast). The blog examines how his early childhood challenges shaped his comedic style, his relentless work ethic, and his methods of transforming pain into humor. It analyzes Hart's thinking patterns, vulnerabilities, family values, and philanthropic efforts, revealing how his Type 7 traits have both propelled his success and presented challenges throughout his life and career.",
-      "creator": ["DJ Wayne"],
+      "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",

@@ -11,12 +11,14 @@ published: true
 enneagram: 2
 type: ['politician', 'public figure', 'celebrity', 'royal']
 person: 'Meghan-Markle'
-suggestions: ['Prince Harry', 'Queen Elizabeth II', 'Kate Middleton', 'Princess Diana']
+suggestions: ['Prince Harry', 'Queen Elizabeth II']
 wikipedia: 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
 twitter: ''
 instagram: ''
 tiktok: ''
 ---
+
+<!-- 'Kate Middleton', 'Princess Diana' -->
 
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
@@ -161,8 +163,6 @@ Her story reminds us that even those in the most privileged positions still grap
 
 - Explore more about <a href="/enneagram-corner/enneagram-type-2">Enneagram Type 2s</a> and their unique characteristics
 - Read our analysis of <a href="/personality-analysis/Prince-Harry">Prince Harry</a> and his personality type
-- Discover how <a href="/personality-analysis/Kate-Middleton">Kate Middleton's</a> personality compares to Meghan's
-- Understand the <a href="/blog/famous-enneagram-type-2">famous Type 2 personalities</a> who share these helper traits
 
 <svelte:head>
 

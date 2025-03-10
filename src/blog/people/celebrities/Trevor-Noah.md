@@ -183,7 +183,12 @@ _What questions might you be afraid to ask? What certainties might be worth exam
     {
       "@type": "Article",
       "articleBody": "This article examines Trevor Noah through the lens of Enneagram Type 6 (The Loyal Skeptic). Born during apartheid South Africa to a Black mother and white father, his illegal birth status shaped his vigilant personality. The analysis explores how his multilingualism, comedic approach, and career choices reflect Type 6 characteristics—from his skepticism of authority to his ability to see multiple perspectives. Noah's journey from South African comedy to The Daily Show demonstrates the evolution of a healthy Type 6, showing how questioning and loyalty can create powerful social commentary.",
-      "creator": ["DJ Wayne"],
+     "creator": {
+        "@type": "Person",
+        "name": "DJ Wayne",
+        "sameAs": ["https://www.instagram.com/djwayne3/", "https://www.youtube.com/@djwayne3", "https://www.linkedin.com/in/davidtwayne/", "https://twitter.com/djwayne3"
+        ]
+      },
       "author": {
         "@type": "Person",
         "name": "DJ Wayne",
