@@ -1,49 +1,24 @@
 ---
-title: 'Pete Davidson Enneagram Type 9'
-description: 'Why Pete Davidson appears to be a type 9'
+title: "Pete Davidson Enneagram Type 9: Why Comedy's Bad Boy Is Actually a Peacemaker"
+description: 'Discover why Pete Davidson embodies the classic Enneagram Type 9 personality despite his chaotic public image'
 author: 'DJ Wayne'
 date: '2023-06-20'
 loc: 'https://9takes.com/personality-analysis/Pete-Davidson'
-lastmod: '2023-06-20'
+lastmod: '2025-03-09'
 changefreq: 'monthly'
-priority: '0.6'
+priority: '0.7'
 published: true
 enneagram: 9
 type: ['celebrity']
 person: 'Pete-Davidson'
-suggestions: ['Ariana Grande', 'Kim Kardashian']
-wikipedia: ''
-twitter: ''
-instagram: ''
-tiktok: ''
+suggestions: ['Ariana Grande', 'Kim Kardashian', 'Kanye']
 ---
 
-<!-- notes: where is Pete Davidson from, Pete Davidson's dad, Pete Davidson's butthole eyes, Pete Davidson being sober,
-Pete Davidson movies
-Pete Davidson and Ariana Grande
-Pete Davidson tattoos
-Pete Davidson stand up
-Pete Davidson dating
-Pete Davidson net worth
-Pete Davidson news
-Pete Davidson Instagram
-Pete Davidson and Kim Kardashian
-Pete Davidson comedy
-Pete Davidson quotes
-Pete Davidson latest movie
-Pete Davidson TV shows
-Pete Davidson interview
-Pete Davidson photos
-Pete Davidson biography
-Pete Davidson mental health
-Pete Davidson style
-Pete Davidson jokes
--->
- <!-- ariana grande, kim kardashian, kanye -->
+<!-- 'SNL Cast Members' -->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -61,72 +36,118 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	/>
 </div>
 
-> **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete Davidson.
+<p class="firstLetter">Love him or hate him, you can't ignore him.</p>
 
-<p class="firstLetter">You know him, you've watched him, and there's a good chance he's made you laugh out loud.</p>
+Pete Davidson—SNL alum, tabloid regular, and serial celebrity-dater—has carved out a bizarre niche in pop culture. His tattooed frame and dead-eyed charm have landed him in Hollywood films, comedy specials, and the beds of some of the world's most famous women.
 
-Pete Davidson, the young 'Saturday Night Live' sensation, has been a staple in pop culture since his debut on the iconic sketch comedy show. Let's dive into the whirlwind that is Pete Davidson's life and explore the possibility of him being an Enneagram Type 9 personality - The Peacemaker.
+But beneath the chaos? A classic Type 9 personality—The Peacemaker—just trying to find some damn calm in the storm.
 
 <details>
 <summary class="accordion">TL;DR: Why Pete is an Enneagram 9</summary>
 <div class="panel">
 <ul>
-<li><b>Pete Davidson's Unique Comedy Style</b>: Davidson's self-deprecating humor, often employed to navigate personal experiences, aligns with a classic trait of Enneagram Type 9 - the quest for inner peace. From processing the end of his relationship with Ariana Grande to addressing the loss of his father, Davidson uses comedy as a medium for introspection and peace-making.</li>
-<li><b>Unveiling Davidson's Inner World</b>: Beneath Davidson's jovial exterior lurks a suppressed anger, a characteristic often observed in Type 9 personalities. This underlying emotion is occasionally unveiled in his comedy routines, which are interspersed with subtle expressions of frustration and angst.
+<li><b>Master of Self-Deprecation</b>: Davidson weaponizes his insecurities through comedy—a classic Type 9 method for finding inner peace while diffusing tension around tough subjects from his father's death to his high-profile breakups.</li>
+<li><b>The Anger Underneath</b>: Behind that sleepy-eyed grin hides suppressed rage—a quintessential Type 9 trait. It surfaces in biting comedy about Staten Island, celebrity culture, and his own mental health struggles.
 </li>
-<li><b>Davidson and High-Profile Relationships</b>: Controversy often ensues in the wake of Davidson's high-profile relationships. However, this aligns with Type 9's tendency to merge with their partner's identities. The empathy shown towards his partners, regardless of public opinion, could be tied to the Type 9's core fear of losing connection and harmony with loved ones.</li>
-<li><b>Driving Force Behind Davidson's Actions</b>: At the heart of Davidson's actions lies a pursuit of inner peace, a central motivation for Type 9 individuals. From his choice of remaining candid about his mental health struggles to his commitment to sobriety, every decision can be traced back to this core Type 9 motivation. His path, although tumultuous at times, consistently aims to foster inner tranquility and balance.</li>
+<li><b>Relationship Chameleon</b>: From Ariana Grande to Kim Kardashian, Davidson morphs into a reflection of his partners—adopting their worlds and aesthetics. This partner-merging is textbook Type 9 behavior.</li>
+<li><b>Peace Through Chaos</b>: His controversial lifestyle, borderline personality disorder diagnosis, and substance struggles all reflect a Type 9 desperately seeking inner tranquility through whatever means necessary.</li>
 </ul>
   </div>
 </details>
 
-## The Nine's Humor: A Tool for Inner Peace
+## Self-Deprecating Comedy: Type 9's Ultimate Defense Mechanism
 
-One trademark characteristic of [Type 9](/enneagram-corner/enneagram-type-9) is the pursuit of inner peace and Davidson seems to encapsulate this through his own unique style of humor. Known for his self-deprecating jokes, Davidson has been seen time and again using comedy to process his emotions. This was evident when he addressed the highly-publicized and somewhat contentious end of his relationship with <a href="/personality-analysis/Ariana-Grande" >Ariana Grande</a> during a stand-up gig. Instead of shying away from the subject, he joked about it, masterfully diffusing tension and embracing a form of inner tranquility.
+Nothing screams Type 9 louder than Davidson's signature self-roasting.
 
-Where is Pete Davidson from, you ask? Staten Island, New York. The loss of his firefighter father in the 9/11 attacks is a topic he's broached repeatedly in his stand-up routines, drawing on dark humor to help himself and others cope with the tragedy.
+Behind every joke about his "butthole eyes" or "mentally ill looks" lies a classic Peacemaker strategy—diffuse tension before it arrives. When his engagement to Ariana Grande imploded in public, he didn't hide. He joked about it on Weekend Update. When people questioned his BDE (Big Dick Energy), he leaned in harder.
 
-## Unresolved Anger: The Nines' Inner World
+Why? Because [Type 9s](/enneagram-corner/enneagram-type-9) will do _anything_ to maintain inner peace—even if it means beating others to the punch.
 
-Delving further into Davidson's jokes, one can glimpse an undercurrent of unresolved anger. A classic Type 9 trait, suppressed anger often lurks beneath the calm exterior. Notable instances can be found in Davidson's humor - where he occasionally allows this anger to surface, masked by his comedic talent. Whether it's roasting the affluent residents of Staten Island or expressing frustration with the constant media attention surrounding his relationships, his unique brand of comedy may indeed provide a channel for these deeper emotional currents.
+Born in Staten Island and shaped by tragedy (his firefighter father died in the 9/11 attacks), Davidson learned early that humor creates emotional buffers. It's not just funny—it's survival.
 
-## Merging and Mirroring: Nines in Relationships
+## The Rage Behind the Glazed Eyes: A Type 9's Hidden Fire
 
-Pete Davidson's dating history also paints a picture of a Type 9 personality. Nines are known to merge with their partner's identity, often mirroring their interests and adopting their views. When Davidson dated Ariana Grande, he was frequently seen supporting her at concerts and gushing about her on talk shows. More recently, his relationship with <a href="./Kim-Kardashian">Kim Kardashian</a> has seen him drawn into a world far from his Staten Island roots, often photographed in the stylish ensembles that Kardashian's circle is known for. Through each of these high-profile relationships 💑, Davidson demonstrates the Type 9's tendency to align with their partner's persona.
+Look closely at Davidson's deadpan delivery. There's something simmering underneath.
 
-## The Nine's Path: Seeking Peace amid Chaos
+That's repressed anger—the Type 9's dirty little secret.
 
-The famous Peacemaker, however, doesn't always live a peaceful life. The comedian's battle with mental health and his decision to become sober 🚫🥤 are public knowledge, presenting a stark contrast to his life in the fast-paced world of comedy and entertainment. Yet, Davidson's candidness about his struggles and his decision to prioritize his mental health aligns with the Type 9's desire for inner peace.
+While Peacemakers appear chill and conflict-avoidant, they're actually sitting on volcanic rage. Davidson lets it seep through in calculated doses:
 
-Viewed through this lens, his multitude of tattoos, often a subject of public fascination, could be seen as his form of self-expression or a physical manifestation of the inner chaos that he seeks to placate.
+- His brutal takedowns of his hometown Staten Island
+- Those cutting remarks about Kanye during the Kardashian drama
+- The barely contained frustration when discussing mental health stigma
 
-## A Peacemaker's Earning: How Success Pairs with Type Nine
+One moment from his Netflix special perfectly captures this duality. Davidson calmly discusses internet trolls telling him to kill himself—before suddenly unleashing a vicious, precise counterattack. Classic Nine: peaceful until pushed beyond the breaking point.
 
-An analysis of Pete Davidson's net worth, boosted by movies, TV shows, and comedy tours, reveals a successful career driven by his knack for making people laugh. His laid-back demeanor, often a point of focus in his interviews, resonates with fans and makes his comedy relatable - another attribute commonly associated with Type 9 individuals. As such, Davidson's success can be viewed as a testament to his ability to leverage his possible Type 9 characteristics to connect with audiences on a profound level.
+## The Relationship Shapeshifter: Why Pete Becomes His Partners
+
+Let's talk about that dating history.
+
+From Ariana Grande to Kate Beckinsale to Kim Kardashian, Davidson doesn't just date women—he absorbs their identities. With Grande, he collected tattoos of her lyrics and became her biggest public cheerleader. With Kardashian, he suddenly showed up in Skims underwear and bleached blonde hair.
+
+This isn't calculated celebrity climbing. It's pure Type 9 merger.
+
+Nines instinctively blend with their partners' identities because their own sense of self can feel hazy. They're natural adaptors—finding peace by becoming whatever their partner needs.
+
+His 2022 Kardashian-influenced style transformation wasn't fake. It was a Type 9 finding temporary identity through connection. No wonder he falls hard and fast.
+
+## Mental Health, Substances, and the Search for Peace
+
+Davidson's openness about borderline personality disorder, depression, and his marijuana use isn't just refreshing celebrity candor.
+
+It's a Type 9 desperately trying to find equilibrium.
+
+The trademark Nine motivation—achieving inner peace—explains Davidson's entire approach to wellness. His rotating cocktail of treatments, substances, and lifestyle changes represent a restless search for stability.
+
+His sobriety attempts. The ketamine treatments. The constant self-reflection in his comedy. Each is a chapter in a Type 9's quest for authentic peace rather than the numbing "peace" of disengagement that unhealthy Nines often settle for.
+
+## The Paradox of Success: How a Type 9 Built an Empire Through Discomfort
+
+Davidson's estimated net worth exceeds $8 million. His resume includes blockbuster films and Netflix specials. He dated some of the world's most beautiful women.
+
+Not bad for a personality type known for inaction and conflict avoidance.
+
+This success emerged precisely because Davidson channeled his Nine-ness productively. His laid-back authenticity resonates with audiences tired of polished celebrity perfection. His vulnerability—rooted in Type 9's capacity for emotional depth—creates genuine connection through comedy.
+
+Most importantly, he's learned to use his personality rather than fight it. When Kim Kardashian called him "the sweetest, most thoughtful person," she was describing classical Nine traits that, when healthy, create magnetic charm.
 
 <BlogPurpose/>
 
-## How Each Enneagram Type Perceives Pete Davidson
+## How Each Enneagram Type Reacts to Pete Davidson
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Pete:
+To understand Davidson more fully, let's explore how each Enneagram type likely perceives him:
 
-- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** - Type 1s might find Davidson's casual and laid-back demeanor off-putting, interpreting it as a lack of discipline. However, they could also appreciate his dedication to his craft and his attempts at self-improvement, especially concerning his mental health.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - Drawn to Davidson's vulnerability and openness about his struggles, Type 2s might feel an empathetic connection. They might see his use of humor as a coping mechanism and admire his resilience.
-- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** - Type 3s could perceive Davidson's successful career as inspiring, appreciating his rise in the competitive field of comedy. However, they might question his coping strategies and frequent self-deprecation.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - Resonating with Davidson's bouts of introspection and emotional intensity, Type 4s might appreciate his authenticity. They may connect with his raw, unfiltered humor that often draws from personal experiences.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - Type 5s could find Davidson's candidness about his personal life intriguing. They might enjoy examining the deeper meaning behind his jokes, uncovering insights about his psyche and motivations.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Type 6s could find comfort in Davidson's loyalty and commitment in relationships. However, they may also worry about his impulsivity and apparent disregard for societal norms.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - Sharing a love for humor, Type 7s might thoroughly enjoy Davidson's comedic style. They could also empathize with his battle against negative emotions and his pursuit of happiness.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - Type 8s might admire Davidson's rebellious streak and his ability to push boundaries through comedy. However, they could question his approach to resolving conflict, which often involves suppressing anger.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - Being of the same type, other Type 9s might deeply connect with Davidson. They could recognize his quest for inner peace, empathize with his suppressed anger, and appreciate his ability to merge with different personalities in his relationships.
+- **[Type 1- The Perfectionist](/enneagram-corner/enneagram-type-1)** — Cringes at Davidson's disheveled appearance and casual approach to structure, but secretly admires his authenticity and courage to address mental health openly.
 
-## The Enneagram Lens: Seeing Pete Davidson Afresh
+- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** — Feels protective of Davidson's vulnerability and wants to nurture him through his struggles, while appreciating his emotional transparency.
 
-Pete's internal landscape is marked by humor, anger, relationships wins and losses, mental health struggles, and success. The Pete Davidson we see at the end of this exploration isn’t just the comedian from SNL but a complex individual embodying the Peacemaker's traits.
+- **[Type 3- The Achiever](/enneagram-corner/enneagram-type-3)** — Respects Davidson's surprising career success but questions his lack of image management and his willingness to expose personal weaknesses.
 
-However, human nature is intricate and one perspective isn't definitive. What additional layers could be uncovered when we observe Pete Davidson, or any other personality, through the prism of the Enneagram? Do these insights change the way you view Davidson, or influence your understanding of his comedy and his actions?
+- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** — Connects deeply with Davidson's emotional depth and self-expression through tattoos and comedy, seeing him as authentically himself in an industry of fakes.
 
-If you like diving into personality, explore our <a href="/questions" >questions</a> and go deeper with the Enneagram. 🚀
+- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** — Finds Davidson's psychological complexity fascinating, analyzing the interplay between his trauma, comedy style, and relationship patterns.
+
+- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** — Worries about Davidson's self-destructive tendencies while simultaneously admiring his loyalty to friends and willingness to confront fears.
+
+- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** — Loves Davidson's spontaneity and humor but wonders if his jokes mask deeper pain they themselves try to escape.
+
+- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** — Respects Davidson's unwillingness to be controlled by public opinion but wishes he'd channel his anger more directly instead of through self-deprecation.
+
+- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** — Sees themselves in Davidson's struggle to maintain inner peace while navigating conflict, recognizing his comedy as a creative outlet for their shared difficulties with anger.
+
+## Beyond the Davidson We Think We Know
+
+Strip away the tabloid headlines and tattoos, and Pete Davidson emerges as something unexpected: a textbook Peacemaker navigating fame the only way he knows how.
+
+His journey—messy, public, and surprisingly successful—offers insights into the contradiction at the heart of Type 9s. They crave peace above all else, yet often create chaos in their pursuit of it.
+
+What else might we learn if we viewed other celebrities through the Enneagram lens? Do these insights change how you see Davidson's comedy or his high-profile relationships?
+
+The Enneagram doesn't just explain personality—it reveals our shared humanity beneath the surface differences.
+
+Does Davidson's story resonate with your own search for peace? Explore our <a href="/questions">questions</a> to discover your own Enneagram insights. 🚀
+
+> **Disclaimer** This analysis of Pete Davidson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Pete Davidson.
 
 <svelte:head>
 
@@ -136,7 +157,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores the personality traits of Pete Davidson from the perspective of the Enneagram Type 9. Known for his laid-back demeanor, adaptability, and struggle with anger, Pete embodies many characteristics of Type 9 personalities. The article discusses various aspects of Pete's life and career that demonstrate his Type 9 traits, including his relationship dynamics, comedy style, personal controversies, and his battles with mental health.",
+      "articleBody": "This article examines Pete Davidson through the lens of Enneagram Type 9 personality. Despite his chaotic public image, Davidson displays core Nine characteristics: conflict avoidance through self-deprecating humor, suppressed anger that occasionally surfaces in his comedy, merging with his partners' identities in relationships, and a constant search for inner peace despite mental health struggles. The article analyzes how his Type 9 traits have both helped and hindered his career and personal life.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -151,14 +172,14 @@ If you like diving into personality, explore our <a href="/questions" >questions
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-06-22"
+        "@value": "2025-03-09"
       },
       "datePublished": {
         "@type": "Date",
-        "@value": "2023-06-22"
+        "@value": "2023-06-20"
       },
-      "description": "This blog post examines the reasons why Pete Davidson might be an Enneagram Type 9. It focuses on his personality traits, his motivations, his inner world, controversies he's faced, and how these elements might be related to the core attributes of a Type 9.",
-      "headline": "Pete Davidson: A Deep Dive Into His Enneagram Type 9 Personality",
+      "description": "Discover why Pete Davidson—comedian, SNL alum, and celebrity dater—actually exhibits classic Enneagram Type 9 characteristics despite his chaotic public image. From his self-deprecating humor to his relationship patterns, see how the Peacemaker personality explains Davidson's contradictory behaviors.",
+      "headline": "Pete Davidson Enneagram Type 9: Why Comedy's Bad Boy Is Actually a Peacemaker",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -172,7 +193,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
       "mentions": {
         "@type": "Person",
         "name": "Pete Davidson",
-        "sameAs": ["https://en.wikipedia.org/wiki/Pete_Davidson", "https://www.imdb.com/name/nm0203457/", "https://www.tiktok.com/@petedavidson"]
+        "sameAs": ["https://en.wikipedia.org/wiki/Pete_Davidson", "https://www.imdb.com/name/nm0203457/", "https://www.instagram.com/petedavidson.93"]
       },
       "publisher": {
         "@type": "Organization",
@@ -191,7 +212,7 @@ If you like diving into personality, explore our <a href="/questions" >questions
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pete Davidson exhibits many characteristics associated with Enneagram Type 9 personalities. This includes his easygoing nature, adaptability, and struggle with suppressed anger. These traits are deeply rooted in his desire for internal and external peace, which is a core motivation for Type 9 individuals."
+            "text": "Despite his chaotic public image, Pete Davidson shows classic Type 9 traits: conflict avoidance through self-deprecating humor, suppressed anger that occasionally erupts, a tendency to merge with his partners' identities in relationships, and a constant search for inner peace despite mental health struggles. His laid-back demeanor masks the inner turmoil typical of Nines."
           },
           "name": "Why is Pete Davidson considered an Enneagram Type 9?"
         },
@@ -199,25 +220,25 @@ If you like diving into personality, explore our <a href="/questions" >questions
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pete's adaptability in relationships, his laid-back and often self-deprecating comedic style, and his open struggles with mental health are all indicative of his Type 9 personality. His ways of seeking peace and his difficulty handling anger also reflect the challenges and growth potential of Type 9 individuals."
+            "text": "Pete's Type 9 characteristics are evident in his self-deprecating comedy style (diffusing tension before it arises), his relationship patterns (adopting partners' styles and interests), his struggles with expressing anger directly, and his open battle with mental health issues (reflecting a Nine's desperate search for inner peace). His casual, adaptable demeanor that resonates with audiences is quintessentially Type 9."
           },
-          "name": "What are some examples of Pete Davidson's Type 9 characteristics?"
+          "name": "What are some examples of Pete Davidson's Type 9 traits?"
         },
 		{
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pete Davidson is known for his laid-back and adaptable personality. He is creative, insightful, and tends to use humor as a coping mechanism. However, these descriptions are based on public perception and his portrayed image in the media. To know his exact personality, one would have to know him personally."
+            "text": "Pete Davidson's personality combines laid-back charm with underlying vulnerability. He's known for his self-deprecating humor, emotional transparency about mental health struggles, and an adaptable nature that allows him to fit into diverse social circles. While appearing casual and sometimes disengaged, he demonstrates surprising emotional depth and resilience in handling public scrutiny and personal challenges."
           },
-          "name": "What is Pete Davidson's personality?"
+          "name": "What is Pete Davidson's personality like?"
         },
 		{
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Pete Davidson is considered an Enneagram type 9, also known as The Peacemaker. This Enneagram type is easygoing, receptive, and comforting, often motivated by a desire to maintain internal and external peace. Please note that this information is based on public information and not directly confirmed by Pete Davidson himself."
+            "text": "Based on public behavior and interviews, Pete Davidson appears to be an Enneagram Type 9 (The Peacemaker). This is evidenced by his conflict-avoidant tendencies, self-deprecating humor, difficulty expressing anger directly, tendency to merge with romantic partners, and constant search for inner peace despite outer turbulence. His laid-back demeanor masks the typical inner struggle of Type 9s to maintain emotional equilibrium."
           },
-          "name": "What is Pete Davidson's Enneagram type?"
+          "name": "What Enneagram type is Pete Davidson?"
         }
       ]
     }
@@ -226,7 +247,3 @@ If you like diving into personality, explore our <a href="/questions" >questions
 </script>
 
 </svelte:head>
-
-<style lang="scss">
-
-</style>
