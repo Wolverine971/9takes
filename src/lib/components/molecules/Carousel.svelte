@@ -21,7 +21,6 @@
 				? famousTypes[type][0]
 				: famousTypes[type][index + 1];
 	};
-	console.log('carousel loaded');
 </script>
 
 <div

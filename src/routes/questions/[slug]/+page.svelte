@@ -187,7 +187,6 @@
 				data={dataForChild}
 				user={data?.session?.user}
 				on:commentAdded={() => invalidateAll()}
-				class="max-w-4xl"
 			/>
 		{/if}
 	</article>

@@ -138,7 +138,6 @@
 			if (observer) observer.disconnect();
 		};
 	});
-	console.log(data?.session?.user);
 </script>
 
 <svelte:head>

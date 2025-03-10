@@ -129,12 +129,13 @@
 
 .read-more-btn {
 	padding: 0.25rem 0.5rem;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0), #b5b5b5 40%);
+	// background: linear-gradient(90deg, rgba(255, 255, 255, 0), #b5b5b5 40%);
 	border: none;
-	color: white;
+	color: var(--primary);
 	font-size: 0.8rem;
 	cursor: pointer;
 	border: 1px solid;
+	border-top: none;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	z-index: 2; /* Ensure button appears above text */
@@ -307,15 +308,15 @@
 	padding-bottom: 0.5rem;
 	border-left: 2px solid var(--light-gray);
 
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: -2px;
-		width: 2px;
-		height: 20px;
-		background: var(--accent);
-	}
+	// &::before {
+	// 	content: '';
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: -2px;
+	// 	width: 2px;
+	// 	height: 20px;
+	// 	background: var(--accent);
+	// }
 
 	@media (max-width: 576px) {
 		margin-left: 0.75rem;
