@@ -19,11 +19,18 @@
 	];
 </script>
 
-<div class="cta-container">
+<div
+	class="animate-fade-in mx-auto my-12 max-w-7xl overflow-hidden rounded-xl bg-neutral-50 shadow-lg"
+>
 	<!-- Top section: Psychology CTA -->
-	<div class="psychology-cta">
-		<div class="content-wrapper">
-			<div class="icon-wrapper">
+	<div
+		class="bg-gradient-to-br from-primary-700 to-primary-900 px-4 py-6 text-white md:px-8 md:py-8"
+	>
+		<div class="mx-auto flex max-w-5xl flex-col items-center md:flex-row md:gap-6">
+			<!-- Icon -->
+			<div
+				class="mb-4 flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full bg-white/15 md:mb-0 md:h-20 md:w-20"
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 24 24"
@@ -32,6 +39,7 @@
 					stroke-width="2"
 					stroke-linecap="round"
 					stroke-linejoin="round"
+					class="h-8 w-8 md:h-10 md:w-10"
 				>
 					<path
 						d="M12 2a8 8 0 0 0-8 8c0 2.2.9 4.2 2.3 5.6L12 21l5.7-5.4A7.9 7.9 0 0 0 20 10a8 8 0 0 0-8-8z"
@@ -39,13 +47,17 @@
 					<circle cx="12" cy="10" r="2"></circle>
 				</svg>
 			</div>
-			<div class="text-wrapper">
-				<h3>Want to explore your own psychology?</h3>
-				<p>
+
+			<!-- Text -->
+			<div class="mb-6 flex-1 text-center md:mb-0 md:text-left">
+				<h3 class="mb-2 text-xl font-bold md:text-2xl">Want to explore your own psychology?</h3>
+				<p class="text-base opacity-90 md:text-lg">
 					Understanding your Enneagram type can help you break bad patterns and give you an edge in
 					the world.
 				</p>
 			</div>
+
+			<!-- Button -->
 			<a href="/book-session" class="primary-button">
 				Talk to an Enneagram Coach
 				<svg
@@ -56,217 +68,56 @@
 					stroke-width="2"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="icon-right"
-					><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"
-					></polyline></svg
+					class="ml-2 h-5 w-5"
 				>
+					<line x1="5" y1="12" x2="19" y2="12"></line>
+					<polyline points="12 5 19 12 12 19"></polyline>
+				</svg>
 			</a>
 		</div>
 	</div>
 
 	<!-- Bottom section: Type explorer -->
-	<div class="types-explorer">
-		<h3>Explore Other Enneagram Types</h3>
-		<p>
+	<div class="bg-white px-4 py-8 md:px-8 md:py-10">
+		<h3 class="mb-3 text-center text-xl font-bold text-neutral-900 md:text-2xl">
+			Explore Other Enneagram Types
+		</h3>
+		<p class="mx-auto mb-8 max-w-3xl text-center text-neutral-600">
 			Curious about how different types think and behave? Discover the unique perspectives of all
 			nine Enneagram types:
 		</p>
 
-		<div class="types-grid">
+		<div class="mx-auto max-w-5xl">
 			<EnneagramDiagram />
-			<!-- {#each enneagramTypes as type}
-				<a href={type.url} class="type-card" class:active={currentType === type.number}>
-					<div class="type-number">{type.number}</div>
-					<div class="type-name">{type.name}</div>
-				</a>
-			{/each} -->
 		</div>
+
+		<!-- Mobile alternate type list (shows on small screens) -->
+		<!-- <div class="mt-8 grid grid-cols-3 gap-3 md:hidden">
+			{#each enneagramTypes as type}
+				<a
+					href={type.url}
+					class="flex flex-col items-center rounded-lg p-3 transition duration-200 {currentType ===
+					type.number
+						? 'border border-primary-300 bg-primary-100'
+						: 'bg-neutral-50 hover:-translate-y-1 hover:bg-primary-50'}"
+				>
+					<div
+						class="mb-2 flex h-10 w-10 items-center justify-center rounded-full bg-primary-700 text-lg font-bold text-white"
+					>
+						{type.number}
+					</div>
+					<div class="text-center text-xs font-medium text-neutral-800">
+						{type.name}
+					</div>
+				</a>
+			{/each}
+		</div> -->
 	</div>
 </div>
 
 <style lang="scss">
-	.cta-container {
-		margin: 3rem 0;
-		border-radius: var(--border-radius-lg);
-		overflow: hidden;
-		box-shadow: var(--shadow-lg);
-		background-color: var(--off-white);
-	}
-
-	.psychology-cta {
-		background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-		padding: 1rem;
-		color: white;
-
-		// a::after {
-		// 	content: none;
-		// }
-
-		.content-wrapper {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			text-align: center;
-			max-width: 800px;
-			margin: 0 auto;
-
-			@media (min-width: 768px) {
-				flex-direction: row;
-				text-align: left;
-				gap: 1.5rem;
-			}
-		}
-
-		.icon-wrapper {
-			flex-shrink: 0;
-			background-color: rgba(255, 255, 255, 0.15);
-			border-radius: 50%;
-			width: 80px;
-			height: 80px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			margin-bottom: 1rem;
-
-			@media (min-width: 768px) {
-				margin-bottom: 0;
-			}
-
-			svg {
-				width: 40px;
-				height: 40px;
-				color: white;
-			}
-		}
-
-		.text-wrapper {
-			flex: 1;
-			margin-bottom: 1.5rem;
-
-			@media (min-width: 768px) {
-				margin-bottom: 0;
-			}
-
-			h3 {
-				font-size: 1.5rem;
-				margin: 0 0 0.75rem 0;
-				color: white;
-			}
-
-			p {
-				margin: 0;
-				opacity: 0.9;
-				font-size: 1.1rem;
-				line-height: 1.5;
-			}
-		}
-
-		.primary-button {
-			display: inline-flex;
-			align-items: center;
-			background-color: white;
-			color: var(--primary-dark);
-			padding: 0.75rem 1.5rem;
-			border-radius: var(--border-radius);
-			font-weight: 600;
-			text-decoration: none;
-			transition:
-				transform 0.2s,
-				box-shadow 0.2s;
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-			&:hover {
-				transform: translateY(-2px);
-				box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-			}
-
-			svg.icon-right {
-				width: 18px;
-				height: 18px;
-				margin-left: 0.5rem;
-			}
-
-			@media (min-width: 768px) {
-				align-self: center;
-			}
-		}
-	}
-
-	.types-explorer {
-		padding: 2rem;
-		background-color: white;
-
-		h3 {
-			font-size: 1.5rem;
-			margin: 0 0 0.75rem 0;
-			color: var(--darkest-gray);
-			text-align: center;
-		}
-
-		p {
-			text-align: center;
-			color: var(--text-secondary);
-			max-width: 800px;
-			margin: 0 auto 1.5rem auto;
-		}
-
-		.types-grid {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-			gap: 1rem;
-			margin-top: 1.5rem;
-
-			// a::after {
-			// 	content: none;
-			// }
-		}
-
-		.type-card {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			padding: 1.25rem 1rem;
-			border-radius: var(--border-radius);
-			background-color: var(--lightest-gray);
-			text-decoration: none;
-			transition: all 0.2s ease;
-			border: 2px solid transparent;
-
-			&:hover {
-				transform: translateY(-3px);
-				background-color: var(--accent-light);
-				border-color: var(--accent);
-			}
-
-			&.active {
-				background-color: var(--accent-light);
-				border-color: var(--primary);
-			}
-
-			.type-number {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				width: 40px;
-				height: 40px;
-				border-radius: 50%;
-				background-color: var(--primary);
-				color: white;
-				font-weight: bold;
-				font-size: 1.25rem;
-				margin-bottom: 0.75rem;
-			}
-
-			.type-name {
-				color: var(--darkest-gray);
-				font-weight: 500;
-				text-align: center;
-			}
-		}
-	}
-
-	/* Animation for pattern break */
-	@keyframes fadeIn {
+	/* Animation for fade in */
+	@keyframes fade-in {
 		from {
 			opacity: 0;
 			transform: translateY(10px);
@@ -277,10 +128,46 @@
 		}
 	}
 
-	.cta-container {
-		animation: fadeIn 0.5s ease-out;
+	.animate-fade-in {
+		animation: fade-in 0.5s ease-out;
 	}
+
+	/* Reset any link styles */
+	a {
+		text-decoration: none;
+	}
+
 	a::after {
 		content: none !important;
+	}
+
+	.primary-button {
+		display: inline-flex;
+		align-items: center;
+		background-color: white;
+		color: var(--primary-dark);
+		padding: 0.75rem 1.5rem;
+		border-radius: var(--border-radius);
+		font-weight: 600;
+		text-decoration: none;
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+		&:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+		}
+
+		svg.icon-right {
+			width: 18px;
+			height: 18px;
+			margin-left: 0.5rem;
+		}
+
+		@media (min-width: 768px) {
+			align-self: center;
+		}
 	}
 </style>

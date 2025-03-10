@@ -155,6 +155,8 @@ Most tellingly, she's found her voice. Not just in music or interviews, but in a
 
 "I'm just going to be myself," she stated simply in a recent interview. For a Type 9 who spent years adapting to others' needs, these five words represent profound evolution.
 
+<BlogPurpose />
+
 ## The Peaceful Heart Beneath It All
 
 What makes Selena Gomez fascinating isn't just her success—it's how she's achieved it while honoring her true nature.
