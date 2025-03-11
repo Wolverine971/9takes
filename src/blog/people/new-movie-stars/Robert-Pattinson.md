@@ -1,16 +1,16 @@
 ---
-title: 'Jenna Ortega An Enneagram Type tiptype'
-description: 'Why Jenna Ortega appears to be a type tiptype'
+title: 'Robert Pattinson An Enneagram Type tiptype'
+description: 'Why Robert Pattinson appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/Jenna-Ortega'
-lastmod: '2024-07-12'
+date: '2025-03-10'
+loc: 'https://9takes.com/personality-analysis/Robert-Pattinson'
+lastmod: '2025-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: tiptype
-type: ['celebrity']
-person: 'Jenna-Ortega'
+type: ['newMovieStar']
+person: 'Robert-Pattinson'
 suggestions: []
 wikipedia: ''
 twitter: ''
@@ -39,17 +39,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'Jenna-Ortega'}.webp`}
+		image={`/types/tiptypes/${'Robert-Pattinson'}.webp`}
 		enneagramType={tiptype}
 		showIcon={false}
-		displayText="Jenna Ortega"
+		displayText="Robert Pattinson"
 		subtext=""
 	/> -->
 </div>
 
 <p class="firstLetter"></p>
 
-> **Disclaimer** This analysis of Jenna Ortega's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Jenna Ortega.
+> **Disclaimer** This analysis of Robert Pattinson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Robert Pattinson.
 
 <svelte:head>
 

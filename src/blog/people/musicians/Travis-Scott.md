@@ -12,7 +12,6 @@ enneagram: 9
 type: ['musician']
 person: 'Travis-Scott'
 suggestions: ['Kylie Jenner', 'Kanye']
-wikipedia:
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -30,7 +29,7 @@ tiktok: ''
 
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+  import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
@@ -205,7 +204,7 @@ What might you discover about yourself by understanding your own Enneagram type?
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

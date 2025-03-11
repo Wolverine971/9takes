@@ -61,6 +61,9 @@ export const load: PageServerLoad = async (
 		case 'movieStar':
 			group = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
 			break;
+		case 'newMovieStar':
+			group = import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`);
+			break;
 		case 'musician':
 			group = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
 			break;
@@ -167,6 +170,14 @@ async function getPostMetadata(targetSlug: string) {
 		'movieStar'
 	);
 	if (movieStarMatch) return movieStarMatch;
+
+	// Check movie stars
+	const newMovieStarMatch = await checkCategory(
+		targetSlug,
+		import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`, { eager: false }),
+		'newMovieStar'
+	);
+	if (newMovieStarMatch) return newMovieStarMatch;
 
 	// Check historical
 	const historicalMatch = await checkCategory(

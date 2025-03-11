@@ -9,9 +9,10 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['celebrity']
+type: ['newMovieStar']
 person: 'Zendaya'
-suggestions: ['Sydney Sweeney', 'Timothee Chalamet', 'Taylor Swift', 'Chappell Roan']
+suggestions:
+  ['Sydney Sweeney', 'Timothee Chalamet', 'Taylor Swift', 'Chappell Roan', 'Anya Taylor-Joy']
 wikipedia: ''
 twitter: ''
 instagram: ''

@@ -9,9 +9,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['celebrity']
+type: ['newMovieStar']
 person: 'Sydney-Sweeney'
-suggestions: ['Chappell Roan', 'Margot Robbie', 'Emily Ratajkowski']
+suggestions: ['Zendaya', 'Margot Robbie', 'Timothee Chalamet', 'Anya Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Sydney_Sweeney'
 twitter: 'https://twitter.com/sydney_sweeney'
 instagram: 'https://www.instagram.com/sydney_sweeney/'

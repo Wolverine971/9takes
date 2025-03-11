@@ -9,9 +9,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
-type: ['movieStar']
+type: ['newMovieStar']
 person: 'Timothee-Chalamet'
-suggestions: ['Rooney Mara', 'Zendaya', 'Denzel Washington']
+suggestions: ['Zendaya', 'Denzel Washington', 'Bob Dylan', 'Anya Taylor-Joy']
 wikipedia: ''
 twitter: ''
 instagram: ''

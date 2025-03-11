@@ -1,16 +1,17 @@
 ---
-title: 'Zendaya An Enneagram Type tiptype'
-description: 'Why Zendaya appears to be a type tiptype'
+title: 'Miles Teller An Enneagram Type tiptype'
+description: 'Why Miles Teller appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/Zendaya'
-lastmod: '2024-07-12'
+date: '2025-03-10'
+loc: 'https://9takes.com/personality-analysis/Miles-Teller'
+lastmod: '2025-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: tiptype
-type: ['celebrity']
-person: 'Zendaya'
+type: ['newMovieStar']
+person: 'Miles-Teller'
+suggestions: []
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -38,17 +39,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'Zendaya'}.webp`}
+		image={`/types/tiptypes/${'Miles-Teller'}.webp`}
 		enneagramType={tiptype}
 		showIcon={false}
-		displayText="Zendaya"
+		displayText="Miles Teller"
 		subtext=""
 	/> -->
 </div>
 
-> **Disclaimer** This analysis of Zendaya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Zendaya.
-
 <p class="firstLetter"></p>
+
+> **Disclaimer** This analysis of Miles Teller's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Miles Teller.
 
 <svelte:head>
 

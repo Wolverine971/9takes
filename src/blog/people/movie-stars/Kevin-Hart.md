@@ -266,7 +266,7 @@ As Hart himself might say: "Everybody wants to be famous, but nobody wants to do
         "sameAs": ["https://www.instagram.com/9takesdotcom/", "https://twitter.com/9takesdotcom"],
         "logo": {
           "@type": "ImageObject",
-          "url": "https://9takes.com/brand/darkRubix.png"
+          "url": "https://9takes.com/brand/aero.png"
         },
         "name": "9takes"
       }

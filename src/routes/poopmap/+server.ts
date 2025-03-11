@@ -21,6 +21,7 @@ const getAllPosts = async () => {
 		`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`
 	);
 	const movieStars = import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`);
+	const newMovieStars = import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`);
 
 	const historicals = import.meta.glob(`/src/blog/people/historical/*.{md,svx,svelte.md}`);
 	const musicians = import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`);
@@ -44,6 +45,7 @@ const getAllPosts = async () => {
 		creators,
 		lifestyleInfluencers,
 		movieStars,
+		newMovieStars,
 		historicals,
 		musicians,
 		politicians,

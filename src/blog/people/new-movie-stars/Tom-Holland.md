@@ -1,16 +1,16 @@
 ---
-title: 'Millie Bobby Brown An Enneagram Type tiptype'
-description: 'Why Millie Bobby Brown appears to be a type tiptype'
+title: 'Tom Holland An Enneagram Type tiptype'
+description: 'Why Tom Holland appears to be a type tiptype'
 author: 'DJ Wayne'
 date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/Millie-Bobby-Brown'
+loc: 'https://9takes.com/personality-analysis/Tom-Holland'
 lastmod: '2024-07-12'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: tiptype
-type: ['celebrity']
-person: 'Millie-Bobby-Brown'
+type: ['newMovieStar']
+person: 'Tom-Holland'
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -38,15 +38,15 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'Millie-Bobby-Brown'}.webp`}
+		image={`/types/tiptypes/${'Tom-Holland'}.webp`}
 		enneagramType={tiptype}
 		showIcon={false}
-		displayText="Millie Bobby Brown"
+		displayText="Tom Holland"
 		subtext=""
 	/> -->
 </div>
 
-> **Disclaimer** This analysis of Millie Bobby Brown's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Millie Bobby Brown.
+> **Disclaimer** This analysis of Tom Holland's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Tom Holland.
 
 <p class="firstLetter"></p>
 

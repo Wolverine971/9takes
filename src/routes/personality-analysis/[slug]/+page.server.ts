@@ -207,6 +207,13 @@ async function getNichePosts(currentSlug: string, postType: string) {
 				currentSlug
 			);
 			break;
+
+		case 'newMovieStar':
+			posts = await getPostsFromCategory(
+				import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`),
+				currentSlug
+			);
+			break;
 		case 'musician':
 			posts = await getPostsFromCategory(
 				import.meta.glob(`/src/blog/people/musicians/*.{md,svx,svelte.md}`),
@@ -318,6 +325,16 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 	if (allPosts.length < 3) {
 		posts = await getEnneagramPostsFromCategory(
 			import.meta.glob(`/src/blog/people/movie-stars/*.{md,svx,svelte.md}`),
+			currentSlug,
+			enneagramNum
+		);
+		allPosts = [...allPosts, ...posts];
+	}
+
+	// Check new movie stars if we don't have enough posts yet
+	if (allPosts.length < 3) {
+		posts = await getEnneagramPostsFromCategory(
+			import.meta.glob(`/src/blog/people/new-movie-stars/*.{md,svx,svelte.md}`),
 			currentSlug,
 			enneagramNum
 		);

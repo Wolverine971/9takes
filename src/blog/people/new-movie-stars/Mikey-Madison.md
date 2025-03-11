@@ -1,16 +1,17 @@
 ---
-title: 'Anya Taylor An Enneagram Type tiptype'
-description: 'Why Anya Taylor appears to be a type tiptype'
+title: 'Mikey Madison An Enneagram Type tiptype'
+description: 'Why Mikey Madison appears to be a type tiptype'
 author: 'DJ Wayne'
-date: '2024-07-12'
-loc: 'https://9takes.com/personality-analysis/Anya-Taylor'
-lastmod: '2024-07-12'
+date: '2025-03-10'
+loc: 'https://9takes.com/personality-analysis/Mikey-Madison'
+lastmod: '2025-03-10'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
-enneagram: tiptype
-type: ['celebrity']
-person: 'Anya-Taylor'
+enneagram: 1
+type: ['newMovieStar']
+person: 'Mikey-Madison'
+suggestions: []
 wikipedia: ''
 twitter: ''
 instagram: ''
@@ -38,17 +39,17 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 	"
 >
 	<!-- <PopCard
-		image={`/types/tiptypes/${'Anya-Taylor'}.webp`}
+		image={`/types/tiptypes/${'Mikey-Madison'}.webp`}
 		enneagramType={tiptype}
 		showIcon={false}
-		displayText="Anya Taylor"
+		displayText="Mikey Madison"
 		subtext=""
 	/> -->
 </div>
 
-> **Disclaimer** This analysis of Anya Taylor's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Anya Taylor.
-
 <p class="firstLetter"></p>
+
+> **Disclaimer** This analysis of Mikey Madison's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Mikey Madison.
 
 <svelte:head>
 
