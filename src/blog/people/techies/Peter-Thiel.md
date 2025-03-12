@@ -83,7 +83,7 @@ Thiel's co-founding of PayPal in 1998 (through the merger of his company Confini
 
 Thiel even initially envisioned PayPal as a "new world currency" that could bypass government controls—a libertarian dream of financial security through technology rather than institutions. While this vision was later modified toward more practical goals, it reflects the Type 6's desire to build systems more trustworthy than existing power structures.
 
-At PayPal, Thiel implemented a unique management structure that revealed his Type 6 approach to organizational security. As David Sacks, a member of the PayPal Mafia, recalled, **"Peter's management style was to give everyone a clear, specific role and then hold them accountable for it."** This minimized internal conflicts by preventing overlapping responsibilities and created clarity in a chaotic startup environment.
+At PayPal, Thiel implemented a unique management structure that revealed his Type 6 approach to organizational security. As [David Sacks](/personality-analysis/David-Sacks), a member of the PayPal Mafia, recalled, **"Peter's management style was to give everyone a clear, specific role and then hold them accountable for it."** This minimized internal conflicts by preventing overlapping responsibilities and created clarity in a chaotic startup environment.
 
 This management philosophy connects to Thiel's now-famous assertion that **"competition is for losers."** He argues that when companies compete directly, all profits get competed away, leaving nothing for innovation or growth. Instead, he advocates for creating monopolies through genuine innovation—companies so unique they don't have direct competitors.
 
@@ -135,7 +135,7 @@ This episode highlights another crucial aspect of Thiel's personality: his loyal
 
 ## The Loyalist's Complex Web of Relationships
 
-Peter Thiel's relationships offer fascinating insights into his personality. His professional breakup with Elon Musk during PayPal's early days—where Musk was removed as CEO while on vacation following disagreements over replacing PayPal's Unix-based infrastructure with Microsoft solutions—shows the decisive side of Thiel's business persona.
+Peter Thiel's relationships offer fascinating insights into his personality. His professional breakup with [Elon Musk](/personality-analysis/Elon-Musk) during PayPal's early days—where Musk was removed as CEO while on vacation following disagreements over replacing PayPal's Unix-based infrastructure with Microsoft solutions—shows the decisive side of Thiel's business persona.
 
 Yet paradoxically, Thiel maintains relationships with individuals across the ideological spectrum. He remains friends with Reid Hoffman (co-founder of LinkedIn and prominent Democrat) despite their political differences. His intellectual circle includes diverse thinkers like Eric Weinstein and others who challenge conventional wisdom from various angles.
 

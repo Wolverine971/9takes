@@ -83,7 +83,7 @@ One moment from his Netflix special perfectly captures this duality. Davidson ca
 
 Let's talk about that dating history.
 
-From Ariana Grande to Kate Beckinsale to Kim Kardashian, Davidson doesn't just date women—he absorbs their identities. With Grande, he collected tattoos of her lyrics and became her biggest public cheerleader. With Kardashian, he suddenly showed up in Skims underwear and bleached blonde hair.
+From [Ariana Grande](/personality-analysis/Ariana-Grande) to Kate Beckinsale to [Kim Kardashian](/personality-analysis/Kim-Kardashian), Davidson doesn't just date women—he absorbs their identities. With Grande, he collected tattoos of her lyrics and became her biggest public cheerleader. With Kardashian, he suddenly showed up in Skims underwear and bleached blonde hair.
 
 This isn't calculated celebrity climbing. It's pure Type 9 merger.
 

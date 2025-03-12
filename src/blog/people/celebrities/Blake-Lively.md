@@ -114,7 +114,7 @@ _Being truly seen_ represents the deepest longing of a Type 3. It suggests Blake
 
 Blake's breakout role as Serena van der Woodsen in "Gossip Girl" mirrored aspects of her own personality: beautiful, socially adept, image-conscious. But her evolution since then reveals the growth trajectory of a maturing Type 3.
 
-Her transition to directing Taylor Swift's "I Bet You Think About Me" music video in 2021 signals this development. Type 3s often evolve from being the face of projects to controlling the vision behind them. This shift represents growth from being admired to creating something admirable.
+Her transition to directing [Taylor Swift's](/personality-analysis/Taylor-Swift) "I Bet You Think About Me" music video in 2021 signals this development. Type 3s often evolve from being the face of projects to controlling the vision behind them. This shift represents growth from being admired to creating something admirable.
 
 "I don't need to be the best at what I do, but I need to be working my hardest," Blake has stated—showing a healthy Type 3's move away from external validation toward internal standards of excellence.
 

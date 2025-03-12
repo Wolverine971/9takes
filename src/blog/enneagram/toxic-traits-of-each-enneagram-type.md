@@ -250,7 +250,7 @@ These loyalty tests stem from their fundamental doubt about who and what can be 
     justify-content: center;
     margin: 1rem 0;"
 >
-    <a href="/enneagram-corner/how-each-ennagram-type-unwinds" class="blog-link">
+    <a href="/enneagram-corner/how-each-enneagram-type-unwinds" class="blog-link">
       <PopCard
           image={`/blogs/greek-statues-at-the-beach.webp`}
           showIcon={false}

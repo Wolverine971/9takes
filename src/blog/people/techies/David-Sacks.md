@@ -1,6 +1,6 @@
 ---
 title: 'David Sacks: Unveiling the Mind of an Enneagram Type 5 Investigator'
-description: 'Explore how David Sacks's analytical prowess and quest for knowledge reflect his Enneagram Type 5 personality, shaping his journey as a tech entrepreneur and investor.'
+description: "Explore how David Sacks's analytical prowess and quest for knowledge reflect his Enneagram Type 5 personality, shaping his journey as a tech entrepreneur and investor."
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/David-Sacks'
@@ -11,7 +11,7 @@ published: true
 enneagram: 5
 type: ['techie']
 person: 'David-Sacks'
-suggestions: ['Elon Musk', 'Peter Thiel', 'Reid Hoffman', 'Max Levchin', 'Chamath Palihapitiya']
+suggestions: ['Elon Musk', 'Peter Thiel']
 keywords:
   [
     'David Sacks personality type',
@@ -24,6 +24,8 @@ keywords:
     'David Sacks Investigator'
   ]
 ---
+
+<!-- 'Reid Hoffman', 'Max Levchin', 'Chamath Palihapitiya' -->
 
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";

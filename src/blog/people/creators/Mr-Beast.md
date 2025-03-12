@@ -140,7 +140,7 @@ Despite his global fame, MrBeast has remained in his hometown of Greenville, Nor
 
 These days, MrBeast is diving into all sorts of new ventures - there's the MrBeast Burger thing, Feastables chocolate bars (which are projected to hit $500 million in annual revenue by 2024), and his Amazon Prime show Beast Games. But get this - he's talking about building schools and feeding entire countries. Most people would think that's crazy talk, but with MrBeast? I wouldn't bet against him.
 
-His ambition doesn't stop with content creation. He's mentioned Elon Musk as an inspiration, suggesting he has aspirations well beyond YouTube. Given his trajectory so far - from a kid in his bedroom to the biggest creator on the platform - it's entirely possible we're just seeing the beginning of what MrBeast will accomplish.
+His ambition doesn't stop with content creation. He's mentioned [Elon Musk](/personality-analysis/Elon-Musk) as an inspiration, suggesting he has aspirations well beyond YouTube. Given his trajectory so far - from a kid in his bedroom to the biggest creator on the platform - it's entirely possible we're just seeing the beginning of what MrBeast will accomplish.
 
 <BlogPurpose/>
 

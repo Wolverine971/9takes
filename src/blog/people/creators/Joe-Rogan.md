@@ -84,7 +84,7 @@ Joe doesn't mince words when discussing complex issues with guests, even high-pr
 
 Joe can talk this way because he is not hiding anything. His approach to life is characterized by a brash honesty that he uses to get to the root of the matter. It's both disarming and refreshing, creating an environment where his guests feel compelled to reciprocate this openness.
 
-This openness to life, born out of a feeling of being untouchable, creates a sense of comfort and helps people relax and be honest on his podcast. Perhaps the most iconic example of this is the moment when he got Elon Musk to smoke a joint on air:
+This openness to life, born out of a feeling of being untouchable, creates a sense of comfort and helps people relax and be honest on his podcast. Perhaps the most iconic example of this is the moment when he got [Elon Musk](/personality-analysis/Elon-Musk) to smoke a joint on air:
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/8Nael8xcSus?si=1UkTEJmk1HU5W9bC&amp;start=6" title="Elon Musk and Joe Rogan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

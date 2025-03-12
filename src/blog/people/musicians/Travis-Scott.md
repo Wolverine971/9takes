@@ -73,7 +73,7 @@ _This musical foundation became his sanctuary_. Like many Type 9s, young Travis 
 
 When he dropped out of the University of Texas at San Antonio against his parents' wishes, we glimpse a rare moment of Type 9 assertion. This decision led to struggles—couch-surfing and financial hardship—but revealed his determination. **He wasn't being stubborn; he was following his internal compass toward peace through creation.**
 
-His relationship with Kanye West proved pivotal:
+His relationship with [Kanye West](/personality-analysis/Kanye) proved pivotal:
 
 "Kanye's like my stepdad," Scott has said.
 

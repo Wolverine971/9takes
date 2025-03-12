@@ -73,7 +73,7 @@ After proving himself as a rapper, Type 7 Kanye needed a new mountain to climb. 
 
 This era perfectly showcases how Type 7s constantly seek bigger experiences. The intimate college theme expanded to graduation – literally and metaphorically moving to larger venues, bigger audiences, and grander visions.
 
-Then came the infamous Taylor Swift VMA moment. A classic impulsive Type 7 action: acting without considering consequences when feeling restricted (in this case, by award show conventions he disagreed with).
+Then came the infamous [Taylor Swift](/personality-analysis/Taylor-Swift) VMA moment. A classic impulsive Type 7 action: acting without considering consequences when feeling restricted (in this case, by award show conventions he disagreed with).
 
 ### 3. 808s Kanye: The Vulnerable Innovator (2008-2010)
 

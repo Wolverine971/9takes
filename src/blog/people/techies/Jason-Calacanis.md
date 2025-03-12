@@ -141,7 +141,7 @@ Jason's influence on "The All In Podcast" is a testament to his Enneagram type 3
 
 ### Balancing Competition and Friendship
 
-The playful tension between Calacanis and David Sacks adds a unique dynamic to the podcast. Jason showcases his ability to shift from serious debates to laughter, highlighting his flexibility. Though he and Sacks don't always agree, Jason's loyalty to his friend demonstrates a healthy balance of ambition and relationship-building.
+The playful tension between Calacanis and [David Sacks](/personality-analysis/David-Sacks) adds a unique dynamic to the podcast. Jason showcases his ability to shift from serious debates to laughter, highlighting his flexibility. Though he and Sacks don't always agree, Jason's loyalty to his friend demonstrates a healthy balance of ambition and relationship-building.
 
 <BlogPurpose/>
 

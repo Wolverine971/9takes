@@ -145,7 +145,7 @@ His debut solo single **"PILLOWTALK"** debuted at number one in several countrie
 
 ### Collaborations
 
-Working with artists like **Sia** and **Taylor Swift** reflects his versatility and desire to connect creatively with others who value artistic integrity.
+Working with artists like **Sia** and [Taylor Swift](/personality-analysis/Taylor-Swift) reflects his versatility and desire to connect creatively with others who value artistic integrity.
 
 ### Exploring Other Creative Ventures
 

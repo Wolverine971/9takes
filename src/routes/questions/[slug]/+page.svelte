@@ -76,7 +76,7 @@
 	});
 
 	// SEO metadata
-	const description = `🏛️ Give your takey take 🤲 then see everyone else's unbiased answers...`;
+	const description = `🏛️ Give your take to the question: ${data.question?.question_formatted || data.question?.question}`;
 	const url = `https://9takes.com/questions/${data.question.url}`;
 	const imgUrl = data.question?.img_url
 		? `https://9takes.s3.amazonaws.com/${data.question.img_url}`
