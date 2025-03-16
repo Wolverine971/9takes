@@ -1,121 +1,207 @@
 ---
-title: 'Khloé Kardashian An Enneagram type 6'
-description: 'Why Khloé Kardashian appears to be a type 6'
+title: "Khloé Kardashian's Personality: An Enneagram Type 6"
+description: "How does Khloé Kardashian's personality as an Enneagram Type 6 shape her relationships, public image, and approach to motherhood? Explore the Loyalist behind the fame."
 author: 'DJ Wayne'
-date: '2023-07-25'
+date: '2025-03-15'
 loc: 'https://9takes.com/personality-analysis/Khloe-Kardashian'
-lastmod: '2023-07-25'
+lastmod: '2025-03-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['celebrity']
 person: 'Khloe-Kardashian'
-suggestions: ['Kim Kardashian', 'Kylie Jenner', 'Kourtney Kardashian']
-wikipedia: ''
-twitter: ''
-instagram: ''
-tiktok: ''
+suggestions: ['Kim Kardashian', 'Kourtney Kardashian', 'Kylie Jenner']
+wikipedia: 'https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian'
+twitter: 'https://twitter.com/khloekardashian'
+instagram: 'https://www.instagram.com/khloekardashian'
+tiktok: 'https://www.tiktok.com/@khloekardashian'
 ---
 
-<!-- // notes:  -->
+<!--
+, 'Tristan Thompson', 'Lamar Odom'
+    'Kris Jenner',
+    'True Thompson',
+    'Kylie Jenner',
+    'Good American'
+-->
 
 <script>
-	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
-import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
+	import PopCard from "$lib/components/atoms/PopCard.svelte";
+	import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 </script>
 
 <div
-	style="display: flex;
+  style="display: flex;
     justify-content: center;
-	"
+    margin: 1rem 0;
+  "
 >
-	<PopCard
-		image={`/types/6s/${'Khloe-Kardashian'}.webp`}
-		showIcon={false}
-		enneagramType="6"
-		displayText="Khloé Kardashian"
-		subtext=""
-	/>
+  <PopCard
+    image={`/types/6s/${'Khloe-Kardashian'}.webp`}
+    showIcon={false}
+    enneagramType="6"
+    displayText="Khloé Kardashian"
+    subtext=""
+  />
 </div>
 
-> "Your life is meant for you to understand and process, not to make anyone else happy."
+> "I think you need to go through every emotion to get to the other side... I don't believe that you should just quickly go past anything. I think you need to mourn it or address it."
 
-<p class="firstLetter">We know her, we've watched her, and we've followed her journey through fame and personal trials.</p>
+<p class="firstLetter">She's been called the relatable one. The funny one. The outspoken one. But behind Khloé Kardashian's quick wit and fierce loyalty lies something more complex: the mindset of an Enneagram Type 6, the Loyalist.</p>
 
-<a class="external-link" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian">Khloé Kardashian</a>, a central figure in the popular TV show "Keeping Up with the Kardashians," exhibits a captivating blend of vulnerability and strength, hilarity and earnestness, making her an intriguing personality to analyze. Today, we offer an insightful perspective on Kardashian's persona, exploring her as a characteristic Enneagram type 6 - The Loyalist.
+From navigating high-profile relationship dramas to reinventing herself as a fitness icon to embracing motherhood with her signature blend of structure and warmth—Khloé's journey reveals the fascinating duality of seeking security while facing her fears head-on.
+
+Let's dive into how the Enneagram Type 6 personality shapes everything from Khloé's approach to family bonds to her Good American business empire and her evolving public image.
 
 <details>
-<summary class="accordion">TL;DR: Why Khloé Kardashian is an Enneagram type 6</summary>
+<summary class="accordion">TL;DR: Why Khloé is an Enneagram 6</summary>
 <div class="panel">
 <ul>
-<li><b>Navigating Fame and Personal Struggles:</b> Khloé Kardashian, a staple of the "Keeping Up with the Kardashians" reality show, is a noteworthy representation of an Enneagram type 6, or Loyalist. Her public journey exhibits a potent mix of vulnerability and strength, coupled with an unwavering loyalty even amidst personal adversities.
-</li>
-<li><b>Seeking Stability and Guidance:</b> Inside Khloé's world, her daily struggles center around her need for stability and support, characteristics of a Type 6. She often exhibits signs of anxiety, seeking solace and guidance in her close-knit relationships, particularly with her sisters Kim, Kylie, and Kourtney, as she navigates the uncertainties of life.
-</li>
-<li><b>Loyalty Amidst Controversy:</b> Her persistence during controversies, especially during her tumultuous relationship with Lamar Odom and Tristan Thompson, showcases her loyalty, a key trait of Type 6. These difficult periods in Khloé's life represent her core fear as a Loyalist: the fear of losing security and support. Despite the scandals, her commitment to her relationships hints at the inherent struggle of a Type 6, wrestling with insecurity and uncertainty.
-</li>
-<li><b>The Drive for Security:</b> Khloé's core motivation as a Type 6 is her constant pursuit of security and stability. Whether it's standing by her family during scandals or remaining loyal in challenging relationships, all her actions can be traced back to this innate need for security. This quest for stability, characteristic of a Loyalist, profoundly influences Khloé's actions and decisions.
-</li>
+<li>Khloé's unwavering loyalty to family—even defending controversial decisions by her sisters and standing by Lamar Odom during his hospitalization despite their divorce proceedings—exemplifies the classic Type 6 commitment to their inner circle.</li>
+
+<li>Her journey from "the insecure sister" to fitness enthusiast demonstrates how Type 6s often work through anxiety by creating structure and tangible progress they can trust.</li>
+
+<li>Khloé's parenting style with daughter True and son Tatum balances strict schedules with emotional warmth, reflecting the Type 6 desire to create security through reliable systems while providing emotional safety.</li>
+
+<li>Despite public scrutiny and relationship betrayals, Khloé's resilience showcases the counterphobic side of Type 6—facing fears directly rather than avoiding them.</li>
+
+<li>Her business approach with Good American emphasizes inclusivity and community, revealing how Type 6s build trust-based systems that reflect their values and provide security for themselves and others.</li>
 </ul>
   </div>
 </details>
 
-## Living in the Shadow of Uncertainty
+## Understanding Enneagram Type 6: The Loyalist
 
-Type 6 individuals, or Loyalists, are characterized by their need for security, guidance, and support.
+Before we decode Khloé's personality, let's understand what drives an Enneagram Type 6.
 
-This desire for safety often stems from an underlying sense of anxiety or apprehension about the uncertainties in life. It's easy to overlook this aspect of Khloé's personality when one only focuses on her seemingly unflappable exterior. However, beneath that tough demeanor, Khloé often exhibits signs of anxiety and apprehension, which align with a [Type 6](/enneagram-corner/enneagram-type-6) personality.
+Type 6s, known as "The Loyalists," are motivated by a fundamental need for security and support. They navigate the world with a heightened awareness of potential threats and uncertainties, often developing sophisticated systems to manage anxiety about what could go wrong.
 
-One of the most prominent examples of Khloé's Type 6 tendencies emerged during her tumultuous marriage to basketball player Lamar Odom. Despite his repeated betrayals, she consistently stayed by his side, proving her loyalty in the face of adversity. Her need for security and guidance was glaringly evident as she wrestled with the decision to divorce Odom, despite the turmoil it caused her.
+At their best, Type 6s are incredibly loyal, responsible, and committed to those they trust. They're natural troubleshooters who can anticipate problems before they arise. They value authenticity and can see through pretense quickly.
 
-## Seeking Guidance in Relationships
+When stressed, Type 6s may struggle with anxiety, doubt, and worst-case scenario thinking. They might oscillate between seeking guidance from authority figures and questioning those same authorities.
 
-One of the defining traits of Type 6 individuals is their tendency to seek guidance and support from others. This often manifests in their relationships. For Khloé, her relationships, particularly with her sisters Kim, <a href="/personality-analysis/Kylie-Jenner" >Kylie</a>, and <a href="/personality-analysis/Kourtney-Kardashian" >Kourtney</a>, play a pivotal role in her life. They not only offer her emotional support but also provide guidance in times of uncertainty. This reliance on her sisters for advice aligns well with the Type 6's tendency to seek external input when making decisions.
+An interesting complexity of Type 6 is that they can be either "phobic" (visibly anxious, hesitant) or "counterphobic" (confronting fears directly, sometimes appearing more like Type 8s). Many Type 6s show both tendencies depending on the situation.
 
-Consider her relationship with sister <a href="/personality-analysis/Kim-Kardashian" >Kim Kardashian</a>, who Khloé often turns to for advice and support, especially during difficult periods. Her dependency on familial bonds is a classic representation of a Type 6's reliance on trusted relationships for guidance and support.
+The core fear of a Type 6? Being without support or guidance when challenges arise.
+
+## Khloé Kardashian as an Enneagram Type 6: A Brief Overview
+
+Born on June 27, 1984, in Los Angeles, Khloé Alexandra Kardashian has lived most of her life in the public eye—especially since 2007 when "Keeping Up with the Kardashians" catapulted her family to global fame.
+
+While her sister <a href="/personality-analysis/Kim-Kardashian">Kim</a> exemplifies the achievement-oriented Type 3 and <a href="/personality-analysis/Kourtney-Kardashian">Kourtney</a> displays the principled consistency of a Type 1, Khloé's personality reveals the classic patterns of a Type 6.
+
+Her journey from being labeled "the insecure sister" to becoming a fitness enthusiast and founder of size-inclusive clothing brand Good American demonstrates how Type 6s often work through their anxieties by creating structure and tangible progress they can trust.
+
+"I've always been very determined and somewhat of a control freak," Khloé admitted during a 2018 interview. This need for control—a hallmark of Type 6 behavior—stems from their desire to create security in an unpredictable world.
+
+But what truly marks Khloé as a Type 6 is her legendary loyalty. Whether standing by her ex-husband Lamar Odom during his 2015 hospitalization (despite their pending divorce) or fiercely defending her sisters against public criticism, Khloé repeatedly shows the Type 6's unwavering commitment to their inner circle.
+
+## Living in the Shadow of Uncertainty: Khloé's Anxiety and Stress Management
+
+"I've had anxiety my entire life," Khloé revealed in a 2022 episode of "The Kardashians" on Hulu. This transparency about her mental health struggles resonates with many Type 6s, for whom anxiety is often a constant companion.
+
+Her anxiety became particularly visible during her relationship with NBA player Tristan Thompson. After multiple cheating scandals, including one while Khloé was pregnant with their daughter True, she developed anxiety about attending his basketball games.
+
+"I get anxiety just thinking about it," she confessed on the show.
+
+This scenario highlights a central Type 6 dilemma: feeling torn between loyalty to someone important and the very real fear of being hurt or betrayed again.
+
+How does Khloé manage this anxiety? In quintessential Type 6 fashion, she creates systems she can rely on.
+
+Her transformation into a fitness enthusiast wasn't just about physical appearance—it was about creating a dependable routine that provides structure amid emotional chaos. Her gym sessions became a sanctuary where progress was measurable and results were within her control.
+
+"The gym was my only refuge," she shared during her divorce from Lamar Odom. "I could put on my headphones and just focus on me for an hour."
+
+This strategy—finding something concrete to focus on when emotions become overwhelming—is a classic Type 6 coping mechanism.
+
+## Seeking Guidance in Relationships: Khloé's Social Confidence and Loyalty
+
+Despite her public persona as the outspoken, confident sister, Khloé's relationship history reveals the Type 6's complex dance with trust and authority.
+
+Her marriage to Lamar Odom after just one month of dating shows how Type 6s can sometimes commit quickly when they find someone who makes them feel secure. Similarly, her deep bond with Scott Disick (Kourtney's ex-partner) demonstrates how Type 6s maintain loyalty even when relationships evolve.
+
+"Khloé is probably the most loyal human being I've ever met in my life," Scott once remarked.
+
+This loyalty extends to her friendships as well. Her long-standing friendship with Malika Haqq has weathered fame, relationship dramas, and major life changes—showcasing the Type 6's commitment to maintaining their trusted inner circle.
+
+Where Khloé differs from some Type 6s is in her counterphobic tendencies. Rather than avoiding confrontation, she often faces it head-on—a trait that has made her a fan favorite for her directness.
+
+"I'm the one who says what everyone is thinking but is afraid to say," she once quipped.
+
+This outspokenness doesn't contradict her Type 6 nature but rather reveals how some Type 6s manage anxiety through assertiveness—confronting fears directly rather than avoiding them.
 
 ## Controversies and Drama: A Test of Loyalty
 
-Khloé's personal life has been under the spotlight for years, with numerous controversies and dramas marking her journey. Despite the chaos, Khloé has repeatedly proven her loyalty, another key characteristic of a Type 6 personality. Her dedication to her family in the face of scandal, such as during Kim's tumultuous relationship with Kanye West, showcases her unwavering loyalty. Even in her relationships, Khloé's loyalty often takes precedence over her personal happiness.
+Throughout numerous family controversies and personal scandals, Khloé's Type 6 loyalty has been repeatedly tested.
 
-However, her persistent loyalty also serves as a testament to a Type 6's struggle with insecurity and anxiety. Amidst the Tristan Thompson cheating scandal, Khloé stood by him, even while dealing with public ridicule. Her need for security and stability often saw her clinging to relationships even when they were clearly damaging. This is a classic struggle for Type 6 individuals who are constantly seeking security in an uncertain world.
+When Tristan Thompson's cheating scandals became public—including one with Kylie Jenner's then-best friend Jordyn Woods—Khloé initially lashed out publicly. This reaction, while seemingly harsh, reflects how betrayal cuts especially deep for Type 6s, whose core values center around loyalty and trust.
 
-<BlogPurpose/>
+However, her eventual path to co-parenting amicably with Tristan shows another aspect of Type 6: their ability to rebuild systems of trust after they've been shattered, particularly when it serves a greater purpose (in this case, providing stability for their daughter True).
 
-## How Each Enneagram Type Perceives Khloé Kardashian
+"I want True to see her mom and dad together because that keeps her confident," Khloé explained in a 2020 episode.
 
-To provide a broader perspective, let's examine how individuals of each Enneagram type might perceive Khloé Kardashian:
+This pragmatic approach to rebuilding connections—not necessarily romantic relationships but functional alliances—demonstrates how Type 6s can compartmentalize their feelings to create security for those who depend on them.
 
-- **[Type 6- The Perfectionist](/enneagram-corner/enneagram-type-6)** - The Perfectionist might admire Khloé's tenacity in the face of adversity. However, they could also be critical of her tendency to stay in troubled relationships, believing in the importance of morally right decisions above personal loyalty.
-- **[Type 2- The Helper](/enneagram-corner/enneagram-type-2)** - The Helper may resonate with Khloé's loyalty and her unwavering support for her family. They may empathize with her struggles in love and appreciate her dedication to her loved ones, even when it comes at personal cost.
-- **[Type 6- The Achiever](/enneagram-corner/enneagram-type-3)** - The Achiever might respect Khloé's success in her career and her ability to maintain a high-profile image despite personal tribulations. They might see her as an example of turning hardship into triumph.
-- **[Type 4- The Individualist](/enneagram-corner/enneagram-type-4)** - The Individualist may identify with Khloé's emotional depth and her public display of vulnerabilities. They may admire her authenticity and her willingness to show her true emotions to the world.
-- **[Type 5- The Investigator](/enneagram-corner/enneagram-type-5)** - The Investigator might be intrigued by Khloé's complex personality and the dichotomy between her public persona and private life. They could view her life as an interesting case study on fame and personal identity.
-- **[Type 6- The Loyalist](/enneagram-corner/enneagram-type-6)** - Fellow Loyalists may deeply resonate with Khloé's journey. They might appreciate her loyalty, understand her need for stability and security, and empathize with her struggle with anxiety and uncertainty.
-- **[Type 7- The Enthusiast](/enneagram-corner/enneagram-type-7)** - The Enthusiast might be drawn to Khloé's charismatic persona and her ability to keep a positive attitude despite adversity. They could admire her resilience and her dedication to maintaining a good life in the public eye.
-- **[Type 8- The Challenger](/enneagram-corner/enneagram-type-8)** - The Challenger might respect Khloé's strength and determination, admiring her willingness to confront difficult situations head-on. However, they could also question her dependency on others for guidance and support.
-- **[Type 9- The Peacemaker](/enneagram-corner/enneagram-type-9)** - The Peacemaker may empathize with Khloé's desire for harmony in her relationships. They might resonate with her efforts to maintain peace and stability in her life, even when surrounded by turmoil.
+Similarly, her navigation of the complex family dynamics during Caitlyn Jenner's transition showed her initial struggle (Type 6s often need time to process major changes) followed by acceptance and support, though with clear boundaries.
 
-## A Loyalist in the Limelight
+## Parenting as a Type 6: Khloé's Approach to Raising Her Children
 
-Khloé Kardashian’s personality becomes more nuanced when viewed through the lens of the Enneagram type 6. Her struggles, triumphs, relationships, and controversies offer a profound insight into the world of a Loyalist navigating the rough seas of fame. Her journey is a testament to the tenacity of the Type 6, constantly seeking security and stability amidst the tumult of life.
+Becoming a mother to daughter True in 2018 and son Tatum (via surrogate) in 2022 has perhaps most clearly revealed Khloé's Type 6 tendencies.
 
-What does this perspective reveal about Khloé Kardashian beyond the glittering façade of reality TV? Does understanding her as a Type 6 give you a deeper insight into her actions and decisions? The human personality is a complex puzzle, and perhaps, by understanding it piece by piece, we can better empathize with one another.
+"I am incredibly strict," she told Ellen DeGeneres about her parenting style. "I have a schedule. I'm very militant with how I parent."
 
-Curious about the personalities of other famous individuals? Interested in seeing them through the lens of the Enneagram? Dive deeper, explore more, and join 9takes below ⬇️. The decision is yours but there is so much more to explore. 🚀
+This emphasis on structure, schedules, and consistency is textbook Type 6 parenting—creating reliable systems that provide security for both parent and child.
 
-> **Disclaimer** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Khloé Kardashian.
+However, Khloé balances this structure with emotional warmth. She's often praised for her attentiveness to True's emotional needs and for creating elaborate experiences to mark holidays and milestones.
+
+This duality—strict boundaries with deep emotional connection—reflects the Type 6's desire to create both physical security through reliable systems and emotional safety through consistent love.
+
+Her approach to discussing difficult topics with True, including preparing her for potential comments about her mixed-race heritage, shows the Type 6's awareness of potential challenges and desire to equip loved ones with tools to face them.
+
+"I want her to be exposed to as much inclusion and variety as possible," Khloé explained about how she's raising True to embrace diversity. This proactive approach to potential challenges is classic Type 6 strategy—preparing for difficulties before they arise.
+
+## A Loyalist in the Limelight: Khloé's Public Persona
+
+Unlike some celebrities who present a flawless façade, Khloé has increasingly embraced authenticity—a value dear to Type 6s, who have a keen radar for dishonesty.
+
+Her Good American clothing line, which emphasizes size inclusivity and body positivity, reflects the Type 6's desire to create systems that make others feel secure and supported. Rather than simply following fashion trends, she built a brand that addresses a genuine need—providing quality denim for women of all sizes.
+
+"This isn't about selling jeans; it's about making women feel good about themselves," Khloé explained at the brand's launch.
+
+Her public evolution from the "funny sister" to a businesswoman and mother shows how Type 6s often grow through finding their voice and creating security on their own terms.
+
+Even her approach to social media reveals Type 6 patterns. While she shares glimpses of her life, Khloé has become increasingly protective of her children's privacy and selective about what she reveals—establishing clear boundaries to create security in a public-facing life.
+
+Her famous organizational skills, showcased in her "Khlo-CD" segments and meticulously arranged pantry, demonstrate the Type 6's affinity for creating order from chaos. These aren't just aesthetic choices but anxiety management strategies—creating controlled environments amid a chaotic industry.
+
+<BlogPurpose />
+
+## Conclusion: The Security-Seeking Strength of a Type 6
+
+Khloé Kardashian's journey from "the insecure sister" to a confident businesswoman, mother, and public figure illustrates the growth path of a healthy Type 6.
+
+While anxiety remains part of her experience, she's developed effective systems for managing it—through physical fitness, business ventures that align with her values, parenting structures that provide security for her children, and selective vulnerability that maintains her boundaries.
+
+Her ability to weather public scrutiny, relationship betrayals, and family dramas while maintaining her core values of loyalty and honesty speaks to the remarkable resilience of Type 6s.
+
+As Khloé herself put it: "I'm a lion. I'm not a sheep." This statement perfectly captures the counterphobic side of Type 6—not avoiding fear but facing it directly, often with remarkable courage.
+
+In a family of strong personalities and a world of shifting alliances, Khloé's steadfast loyalty and authenticity aren't weaknesses but superpowers. They've allowed her to build genuine connections, a successful business, and a parenting approach that balances structure with emotional warmth.
+
+Whether you're a fan of the Kardashians or not, understanding Khloé through the lens of Enneagram Type 6 offers insights into the complex dance between seeking security and finding the courage to be vulnerable—a balance we all navigate in our own ways.
+
+> **Disclaimer:** This analysis of Khloé Kardashian's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type. People are complex beings that cannot be fully captured by any single typing system.
 
 <svelte:head>
 
 <script type="application/ld+json">
-  {
+{
   "@context": "http://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "articleBody": "This article explores into the personality of Khloé Kardashian through the lens of the Enneagram type 6. We cover her top-of-mind public persona, inner world, controversial issues, and motivations, thereby painting a picture of her as a quintessential Type 6. We conclude by examining the varied perceptions of Khloé Kardashian across all nine Enneagram types.",
+      "articleBody": "This article explores the personality traits of Khloé Kardashian from the perspective of the Enneagram Type 6 personality system. Known for her loyalty, anxiety management, and protective nature, Khloé embodies many characteristics of Type 6 personalities. The article discusses various aspects of Khloé's life including her approach to relationships, parenting style with True and Tatum, business ventures like Good American, and how she handles public controversies through the lens of Enneagram Type 6 psychology.",
       "creator": {
         "@type": "Person",
         "name": "DJ Wayne",
@@ -130,14 +216,14 @@ Curious about the personalities of other famous individuals? Interested in seein
       },
       "dateModified": {
         "@type": "Date",
-        "@value": "2023-07-25"
+        "@value": "2025-03-15"
       },
       "datePublished": {
         "@type": "Date",
-        "@value": "2023-07-25"
+        "@value": "2025-03-15"
       },
-      "description": "This blog post explores Khloé Kardashian as an Enneagram type 6. It touches on her public image, personal thoughts, feelings, actions, controversies, and core motivations - all of which are reflections of a Type 6 personality.",
-      "headline": "Unveiling Khloé Kardashian: A Deep Dive Into Her Enneagram type 6 Personality",
+      "description": "How does Khloé Kardashian's personality as an Enneagram Type 6 shape her relationships, public image, and approach to motherhood? Explore the Loyalist behind the fame.",
+      "headline": "Khloé Kardashian's Personality: An Enneagram Type 6",
       "image": {
         "@type": "ImageObject",
         "height": 900,
@@ -170,31 +256,31 @@ Curious about the personalities of other famous individuals? Interested in seein
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé Kardashian embodies many characteristics of Enneagram type 6, including her loyalty, her struggles with insecurity, her search for support and guidance, and her resilience in the face of adversity."
+            "text": "Khloé Kardashian exhibits many characteristics associated with Enneagram Type 6 personalities. These include her unwavering loyalty to family and friends, her anxiety and need for security, her strategic approach to potential problems, and her counterphobic tendencies to face fears directly. Her core motivation appears to be creating security and support systems, which is the hallmark of Type 6 personalities."
           },
-          "name": "Why is Khloé Kardashian considered an Enneagram type 6?"
+          "name": "Why is Khloé Kardashian considered an Enneagram Type 6?"
         },
         {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé's constant search for loyalty and security, her openness about her anxieties, and her controversial relationships all reflect the core motivations and fears of a Type 6 individual."
+            "text": "Khloé's Type 6 characteristics are evident in many aspects of her life. Her legendary loyalty to family members during controversies demonstrates the Type 6's commitment to their inner circle. Her anxiety management through fitness and organizational systems shows how Type 6s create structure to feel secure. Her parenting style, which balances strict schedules with emotional warmth, reflects the Type 6 desire to provide both physical and emotional security. Even her business approach with Good American emphasizes inclusivity and support—values important to Type 6s."
           },
           "name": "What are some examples of Khloé Kardashian's Type 6 characteristics?"
         },
-		{
+        {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé Kardashian is known for her loyalty and her resilience in the face of adversity. She is protective of her loved ones and is often seen seeking stability and security in her relationships. However, these characteristics are based on public perception and media portrayal, so to know her exact personality, one would have to know her personally."
+            "text": "Khloé Kardashian is known for her loyal, outspoken, and protective personality. She displays remarkable resilience in the face of public criticism and relationship challenges. While managing anxiety, she's developed effective coping mechanisms through fitness, organization, and business ventures aligned with her values. She's direct and authentic, with a strong sense of humor and a commitment to supporting those she loves. As a mother, she balances structure with emotional warmth, creating a secure environment for her children."
           },
-          "name": "What is Khloé Kardashian's personality?"
+          "name": "What is Khloé Kardashian's personality like?"
         },
-		{
+        {
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Khloé Kardashian is an Enneagram type 6, often referred to as The Loyalist. This type is known for being loyal, anxious, and seeking security. Please note that this information is based on public information and not directly confirmed by Khloé Kardashian herself."
+            "text": "Based on public information and analysis of her behavior, Khloé Kardashian appears to be an Enneagram Type 6, also known as The Loyalist. This personality type is characterized by loyalty, anxiety awareness, security-seeking, and a mix of phobic and counterphobic tendencies. It's important to note that this is speculative analysis based on her public persona, not confirmed by Khloé herself or professional psychological assessment."
           },
           "name": "What is Khloé Kardashian's Enneagram type?"
         }
@@ -206,4 +292,5 @@ Curious about the personalities of other famous individuals? Interested in seein
 
 </svelte:head>
 
-<style lang="scss"></style>
+<style lang="scss">
+</style>
