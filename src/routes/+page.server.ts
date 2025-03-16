@@ -15,9 +15,9 @@ export const load: PageServerLoad = async () => {
 		console.log(top9QuestionsError);
 	}
 
-	let images = []
+	let images = [];
 
-	let gridSize = 9
+	let gridSize = 9;
 	Object.keys(famousTypes).forEach((keyStr, i) => {
 		if (i < gridSize) {
 			const key = Number(keyStr);

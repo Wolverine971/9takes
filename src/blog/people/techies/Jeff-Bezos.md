@@ -77,7 +77,7 @@ Let's delve into how Jeff Bezos embodies the Enneagram Type 1 personality—the 
 
 How does a Princeton-educated hedge fund vice president become the pioneer of e-commerce and revolutionize multiple industries?
 
-In 1994, Bezos read a statistic that web usage was growing at 2,300% annually. This sparked what he would later call his "regret minimization framework"—a Type 1 decision-making approach where he projected himself to age 80 and asked which choices he would regret not making. 
+In 1994, Bezos read a statistic that web usage was growing at 2,300% annually. This sparked what he would later call his "regret minimization framework"—a Type 1 decision-making approach where he projected himself to age 80 and asked which choices he would regret not making.
 
 This wasn't simply opportunism; it was a principled decision to participate in something transformative. He left his lucrative job at D.E. Shaw & Co., drafted a business plan on a cross-country drive with his wife MacKenzie, and started Amazon in his Bellevue, Washington garage.
 
@@ -201,6 +201,7 @@ How does Bezos reconcile the Type 1's perfectionism with the messy reality of in
 One of the most fascinating aspects of Bezos's leadership is how he balances the Type 1's desire for perfection with the inherent imperfection of innovation. He famously stated: "If you're going to take bold bets, they're going to be experiments. And if they're experiments, you don't know ahead of time if they're going to work."
 
 This tolerance for failure might seem at odds with the Type 1's perfectionism, but Bezos distinguishes between two types of failures:
+
 - **Operational failures:** Unacceptable failures in execution
 - **Experimental failures:** Necessary failures in innovation
 
@@ -217,11 +218,13 @@ What drives Bezos beneath the surface of his achievements?
 Every Enneagram type is motivated by core desires and fears. For Type 1 personalities like Bezos, these include:
 
 **Core Desires:**
+
 - To be right, good, balanced, and act with integrity
 - To improve systems and processes
 - To uphold principles and standards
 
 **Core Fears:**
+
 - Being corrupt, defective, or imperfect
 - Making serious mistakes
 - Being condemned by their own inner critic

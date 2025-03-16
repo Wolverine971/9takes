@@ -14,12 +14,11 @@ const userStatusCache = new Map();
 const commentsCache = new Map();
 
 export const load: PageServerLoad = async (event: any) => {
-	const setHeaders = event.setHeaders
+	const setHeaders = event.setHeaders;
 	const session = event.locals.session;
 	const user = session?.user;
 	const slug = event.params.slug;
 	const cookie = event.cookies.get('9tfingerprint');
-
 
 	if (!dev) {
 		setHeaders({
@@ -45,17 +44,17 @@ export const load: PageServerLoad = async (event: any) => {
 	if (userHasAnswered === undefined) {
 		const queryPromise = user?.id
 			? supabase
-				.from('blog_comments')
-				.select('id')
-				.eq('blog_link', slug)
-				.eq('author_id', user?.id)
-				.maybeSingle()
+					.from('blog_comments')
+					.select('id')
+					.eq('blog_link', slug)
+					.eq('author_id', user?.id)
+					.maybeSingle()
 			: supabase
-				.from('blog_comments')
-				.select('id')
-				.eq('blog_link', slug)
-				.eq('fingerprint', cookie)
-				.maybeSingle();
+					.from('blog_comments')
+					.select('id')
+					.eq('blog_link', slug)
+					.eq('fingerprint', cookie)
+					.maybeSingle();
 
 		const { data: hasCommented } = await queryPromise;
 		userHasAnswered = !!hasCommented;
@@ -100,7 +99,7 @@ export const load: PageServerLoad = async (event: any) => {
 
 	return {
 		user,
-		session,  // Make sure session is available to components
+		session, // Make sure session is available to components
 		flags: {
 			userHasAnswered,
 			userSignedIn: !!event?.locals?.session?.user?.aud
@@ -108,10 +107,6 @@ export const load: PageServerLoad = async (event: any) => {
 		comments
 	};
 };
-
-
-
-
 
 // In-memory cache for related posts
 const relatedPostsCache = new Map();
@@ -121,7 +116,9 @@ export const actions: Actions = {
 		const data = await request.formData();
 		const slug = data.get('slug')?.toString();
 		const postType = data.get('postType')?.toString();
-		const enneagram = data.get('enneagram') ? parseInt(data.get('enneagram')?.toString() || '0') : null;
+		const enneagram = data.get('enneagram')
+			? parseInt(data.get('enneagram')?.toString() || '0')
+			: null;
 
 		if (!slug || (!postType && !enneagram)) {
 			return { success: false, error: 'Missing required parameters' };
@@ -248,7 +245,7 @@ async function getNichePosts(currentSlug: string, postType: string) {
 
 	// Return at most 3 posts, randomly sorted
 	return posts
-		.filter(p => p.published && p.slug !== currentSlug)
+		.filter((p) => p.published && p.slug !== currentSlug)
 		.sort(() => 0.5 - Math.random())
 		.slice(0, 4);
 }
@@ -393,7 +390,7 @@ async function getEnneagramPosts(currentSlug: string, enneagramNum: number) {
 
 	// Return at most 3 posts, randomly sorted
 	return allPosts
-		.filter(p => p.published && p.slug !== currentSlug)
+		.filter((p) => p.published && p.slug !== currentSlug)
 		.sort(() => 0.5 - Math.random())
 		.slice(0, 4);
 }

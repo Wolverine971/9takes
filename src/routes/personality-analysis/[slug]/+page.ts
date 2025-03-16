@@ -158,7 +158,9 @@ async function getPostMetadata(targetSlug: string) {
 	// Check lifestyle influencers
 	const lifestyleInfluencerMatch = await checkCategory(
 		targetSlug,
-		import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`, { eager: false }),
+		import.meta.glob(`/src/blog/people/lifestyle-influencers/*.{md,svx,svelte.md}`, {
+			eager: false
+		}),
 		'lifestyleInfluencer'
 	);
 	if (lifestyleInfluencerMatch) return lifestyleInfluencerMatch;
@@ -224,7 +226,11 @@ async function getPostMetadata(targetSlug: string) {
 }
 
 // Helper to check a category for a slug match
-async function checkCategory(targetSlug: string, modules: Record<string, any>, categoryType: string) {
+async function checkCategory(
+	targetSlug: string,
+	modules: Record<string, any>,
+	categoryType: string
+) {
 	for (const [path, _] of Object.entries(modules)) {
 		const slug = slugFromPath(path.split('/').pop() || '');
 		if (slug === targetSlug) {
