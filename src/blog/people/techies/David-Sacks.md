@@ -2,9 +2,9 @@
 title: 'David Sacks: Unveiling the Mind of an Enneagram Type 5 Investigator'
 description: "Explore how David Sacks's analytical prowess and quest for knowledge reflect his Enneagram Type 5 personality, shaping his journey as a tech entrepreneur and investor."
 author: 'DJ Wayne'
-date: '2023-03-09'
+date: '2025-03-16'
 loc: 'https://9takes.com/personality-analysis/David-Sacks'
-lastmod: '2023-03-26'
+lastmod: '2025-03-16'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -185,8 +185,8 @@ Feeling inspired to delve into your own personality? Take a look at our [questio
           "https://twitter.com/djwayne3"
         ]
       },
-      "dateModified": "2023-03-26",
-      "datePublished": "2023-03-09",
+      "dateModified": "2025-03-16",
+      "datePublished": "2025-03-16",
       "description": "Explore how David Sacks's analytical prowess and quest for knowledge reflect his Enneagram Type 5 personality, shaping his journey as a tech entrepreneur and investor.",
       "headline": "David Sacks: Unveiling the Mind of an Enneagram Type 5 Investigator",
       "image": {
