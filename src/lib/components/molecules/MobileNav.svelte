@@ -60,7 +60,7 @@
 	<!-- Mobile navigation menu -->
 	{#if isMenuOpen}
 		<div
-			class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300"
+			class="fixed inset-0 z-50 flex items-start justify-center bg-black bg-opacity-50 pt-16 transition-opacity duration-300"
 			on:click|self={closeMenu}
 		>
 			<Context>
@@ -221,16 +221,18 @@
 	// Mobile navigation styling
 	.mobile-nav {
 		animation: fadeIn 0.3s ease forwards;
+		max-height: 80vh;
+		overflow-y: auto;
 	}
 
 	@keyframes fadeIn {
 		from {
 			opacity: 0;
-			transform: scale(0.95) translateY(-10px);
+			transform: scale(0.95);
 		}
 		to {
 			opacity: 1;
-			transform: scale(1) translateY(0);
+			transform: scale(1);
 		}
 	}
 
