@@ -42,7 +42,7 @@ tiktok: 'https://www.tiktok.com/discover/ELON-MUSK'
 
 Love him or hate him, you can't ignore him. The enigmatic billionaire commands attention with every tweet, product launch, and controversial statement.
 
-But what actually drives this modern-day Edison? What invisible forces shape his decisions that impact millions? Today, we're cracking open the complex mind of Elon Musk through the revealing lens of the Enneagram.
+But what actually drives this modern-day Edison? What invisible forces shape his decisions that impact millions? Today, we're cracking open the complex mind of Elon Musk through the lens of the Enneagram.
 
 <details>
 <summary class="accordion">TL;DR: Why Elon Musk is an Enneagram Type 5</summary>
@@ -56,25 +56,27 @@ But what actually drives this modern-day Edison? What invisible forces shape his
 </div>
 </details>
 
-## Decoding Elon: The Mind Behind the Mars Mission
+## Decoding Elon's Mind
 
 ### How Childhood Trauma Forged an Investigator's Mind
 
-Type 5s—"The Investigators" of the Enneagram world—operate from a fundamental fear of being helpless, incapable, or overwhelmed. This drives their core motivation: mastering systems, accumulating knowledge, and achieving self-sufficiency. They collect information not just for curiosity's sake, but as armor against a world they perceive as potentially depleting.
+[Type 5s—"The Investigators"](/enneagram-corner/enneagram-type-5) operate from a fundamental fear of being helpless, incapable, or overwhelmed. This drives their core motivation: mastering systems, accumulating knowledge, and achieving self-sufficiency. They collect information not just for curiosity's sake, but as armor against a world they perceive as potentially depleting.
 
 For Type 5s, knowledge isn't just power—it's survival.
 
-The Type 5's childhood wound typically stems from feeling overwhelmed, intruded upon, or unable to meet external demands. In response, they retreat into the mind, creating an internal sanctuary where they feel safe, competent, and in control.
+Many Type 5's have a childhood wound that stems from feeling overwhelmed, intruded upon, or unable to meet external demands. In response, they retreat into the mind, creating an internal sanctuary where they feel safe, competent, and in control.
 
-Elon's South African childhood laid perfect groundwork for these Type 5 tendencies. In a culture that prized toughness and outward confidence, young Elon—bookish and introspective—stuck out painfully.
+Enter Elon.
 
-Bullied mercilessly at Waterkloof House Preparatory School, he suffered physical beatings that once landed him in the hospital. These traumatic experiences pushed him deeper into solitary pursuits. By his own account, he often read 10 hours daily, devouring encyclopedias when he ran out of books.
+Elon's South African childhood laid the groundwork for these Type 5 tendencies. In a culture that prized toughness and outward confidence, young Elon—bookish and introspective—stuck out painfully.
+
+Bullied mercilessly at Waterkloof House Preparatory School, he suffered physical beatings that once landed him in the hospital. These traumatic experiences pushed him further into solitary pursuits. By his own account, he often read 10 hours daily, devouring encyclopedias when he ran out of books.
 
 His relationship with his father, Errol Musk, left especially deep scars. Described by Elon as "a terrible human being," Errol reportedly inflicted both emotional and physical abuse. This toxic relationship reinforced Elon's tendency to retreat into his mind, seeking safety in ideas rather than emotional connections.
 
-The tech spark ignited at age eight when Errol introduced him to an Apple II. By 12, young Musk had taught himself programming and created Blastar, a space-themed video game he sold for $500. This early success reinforced the Type 5 belief that mastery of complex systems offers protection in an unpredictable world.
+Elon once noted, **"I had a terrible upbringing. I had a lot of adversity growing up. One thing I worry about with my kids is they don't face enough adversity."**
 
-Elon himself has noted, **"I had a terrible upbringing. I had a lot of adversity growing up. One thing I worry about with my kids is they don't face enough adversity."** This revealing statement suggests he recognizes how adversity shaped his resilience and drive—classic Type 5 attributes forged in difficult circumstances.
+On the bright side at age eight Elon's dad, introduced him to an Apple II. By age 12, young Elon had taught himself programming and created "Blastar," a space-themed video game which he later sold for $500. This early success reinforced the Type 5 belief that mastery of complex systems offers protection in an unpredictable world.
 
 ## Why is Elon Musk a Type 5? The Investigator's Fingerprints
 

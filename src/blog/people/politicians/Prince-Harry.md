@@ -42,7 +42,7 @@ import BlogPurpose from '$lib/components/blog/BlogPurpose.svelte'
 
 <p class="firstLetter">He's been the subject of global fascination, a prince stepping into uncharted territory.</p>
 
-Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the revealing lens of the Enneagram Type 6.
+Prince Harry's life is a tapestry of duty, rebellion, and a quest for normalcy. But what if we could see beyond the tabloid headlines and royal formalities? Let's explore the intricate psyche of Prince Harry through the lens of the Enneagram Type 6.
 
 ## What is Prince Harry's Personality Type?
 

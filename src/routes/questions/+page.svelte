@@ -120,7 +120,7 @@
 		class="my-4 rounded border border-gray-200 bg-white p-4 transition-shadow duration-300 hover:shadow-md md:my-6"
 		in:fly={{ y: 20, duration, delay: 600 }}
 	>
-		<h2 class="mb-3 text-xl font-semibold">Categories of Questions</h2>
+		<h2 class="mb-3 mt-1 text-xl font-semibold">Categories of Questions</h2>
 		<div class="scrollbar-thin flex max-h-[150px] flex-wrap gap-1 overflow-y-auto py-2">
 			{#each data.subcategoryTags as category}
 				{#if category}
